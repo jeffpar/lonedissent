@@ -48,17 +48,21 @@ function readTextFile(fileName)
     return text;
 }
 
-function writeTextFile(fileName, text)
+function writeTextFile(fileName, text, fOverwrite=false)
 {
-    try {
-        let dir = path.dirname(fileName);
-        if (!fs.existsSync(dir)) {
-            mkdirp.sync(dir);
+    if (fOverwrite || !fs.existsSync(fileName)) {
+        try {
+            let dir = path.dirname(fileName);
+            if (!fs.existsSync(dir)) {
+                mkdirp.sync(dir);
+            }
+            fs.writeFileSync(fileName, text);
         }
-        fs.writeFileSync(fileName, text);
-    }
-    catch(err) {
-        console.log(err.message);
+        catch(err) {
+            console.log(err.message);
+        }
+    } else {
+        printf("file already exists: %s\n", fileName);
     }
 }
 
@@ -123,7 +127,7 @@ function readCourts()
 function extractCourtsFromOyez(done)
 {
     let courts = readCourts();
-    printf("Courts read: %d\n", courts.length);
+    printf("courts read: %d\n", courts.length);
     let json = sprintf("%2j\n", courts);
     writeTextFile(pkg.results.courts, json);
     done();
