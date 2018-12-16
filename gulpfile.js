@@ -39,15 +39,16 @@ let pkg = require("./package.json");
  */
 
 /**
- * parseCSV(text, maxRows, keyIgnore, keyUnique)
+ * parseCSV(text, maxRows, keyIgnore, keyUnique, saveIgnoredKey)
  *
  * @param {string} text
  * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
  * @param {string} [keyIgnore] (name of field, if any, that should be ignored; typically a key associated with the subset fields)
  * @param {string} [keyUnique] (name of first subset field, if any, containing data for unique subsets)
+ * @param {boolean} [saveIgnoredKey] (default is false, to reduce space requirements)
  * @return {Array.<Object>}
  */
-function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="")
+function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=false)
 {
     let rows = [];
     let headings, fields;
@@ -78,7 +79,7 @@ function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="")
                 let field = fields[h];
                 let heading = headings[h];
                 if (heading == keyIgnore) {
-                    hIgnore = h;
+                    if (saveIgnoredKey) hIgnore = h;
                     continue;
                 }
                 if (heading == keyUnique) {
