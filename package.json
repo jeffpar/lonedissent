@@ -23,13 +23,13 @@
     "mkdirp": "^0.5.1",
     "xml2js": "^0.4.19"
   },
-  "scdb": {
-    "currentCSV": "data/scdb/combined.csv"
+  "data": {
+    "courts": "data/courts.json"
   },
   "oyez": {
     "courts": "data/oyez/courts/**/court.xml"
   },
-  "results": {
-    "courts": "data/results/courts.json"
+  "scdb": {
+    "combinedCSV": "data/scdb/combined.csv"
   }
 }

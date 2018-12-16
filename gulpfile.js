@@ -5,6 +5,8 @@
  * @license GPL-3.0
  */
 
+ "use strict";
+
 let glob = require("glob");
 let gulp = require("gulp");
 let fs = require("fs");
@@ -83,13 +85,51 @@ function readXMLFile(fileName)
 }
 
 /**
- * readCourts()
- * 
- * Builds an array of Court objects.
+ * readDataCourts()
  *
  * @return {Array.<Court>}
  */
-function readCourts()
+function readDataCourts()
+{
+    let fixes = 0;
+    let courts = JSON.parse(readTextFile(pkg.data.courts));
+    for (let i = 0; i < courts.length; i++) {
+        let court = courts[i];
+        let start = court.start;
+        let startFormatted = stdio.formatDate("l, F j, Y", start);
+        if (startFormatted != court.startFormatted) {
+            printf("%s != %s", startFormatted, court.startFormatted);
+            court.startFormatted = startFormatted;
+            fixes++;
+        }
+        let stop = court.stop;
+        let stopFormatted = stdio.formatDate("l, F j, Y", stop);
+        if (stopFormatted != court.stopFormatted) {
+            printf("%s != %s\n", stopFormatted, court.stopFormatted);
+            court.stopFormatted = stopFormatted;
+            fixes++;
+        }
+        if (i < courts.length - 1) {
+            let courtNext = courts[i+1];
+            let dateFormatted = stdio.formatDate("l, F j, Y", stdio.adjustDate(new Date(court.stop), 1));
+            if (dateFormatted != courtNext.startFormatted) {
+                printf("end of %s court (%s) doesn't align with beginning of %s court (%s)\n", court.name, court.stopFormatted, courtNext.name, courtNext.startFormatted);
+            }
+        }
+    }
+    if (fixes) {
+        printf("writing %d corrections to %s\n", fixes, pkg.data.courts);
+        writeTextFile(pkg.data.courts, sprintf("%2j\n", courts), true);
+    }
+    return courts;
+}
+
+/**
+ * readOyezCourts()
+ *
+ * @return {Array.<Court>}
+ */
+function readOyezCourts()
 {
     let courts = [];
     let fileNames = glob.sync(pkg.oyez.courts);
@@ -120,22 +160,23 @@ function readCourts()
 }
 
 /**
- * extractCourtsFromOyez()
+ * buildCourts()
  *
  * @param {function()} done
  */
-function extractCourtsFromOyez(done)
+function buildCourts(done)
 {
-    let courts = readCourts();
+    let courts = readOyezCourts();
     printf("courts read: %d\n", courts.length);
     let json = sprintf("%2j\n", courts);
-    writeTextFile(pkg.results.courts, json);
+    writeTextFile(pkg.data.courts, json);
+    courts = readDataCourts();
     done();
 }
 
-function extractYearsFromSCDB(done)
+function extractSCDBYears(done)
 {
-    let text = readTextFile(pkg.scdb.currentCSV);
+    let text = readTextFile(pkg.scdb.combinedCSV);
     if (text != null) {
         let lines = text.split(/\r?\n/);
         let count = 0;
@@ -147,5 +188,5 @@ function extractYearsFromSCDB(done)
     done();
 }
 
-gulp.task("courts", extractCourtsFromOyez);
-gulp.task("default", extractYearsFromSCDB);
+gulp.task("courts", buildCourts);
+gulp.task("default", extractSCDBYears);
