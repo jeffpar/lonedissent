@@ -24,7 +24,8 @@
     "xml2js": "^0.4.19"
   },
   "data": {
-    "courts": "data/courts.json"
+    "courts": "data/courts.json",
+    "decisions": "data/decisions.json"
   },
   "oyez": {
     "courts": "data/oyez/courts/**/court.xml"

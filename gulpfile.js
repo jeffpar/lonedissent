@@ -39,17 +39,20 @@ let pkg = require("./package.json");
  */
 
 /**
- * parseCSV(text, maxRows)
+ * parseCSV(text, maxRows, keyIgnore, keyUnique)
  *
  * @param {string} text
  * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
+ * @param {string} [keyIgnore]
+ * @param {string} [keyUnique]
  * @return {Array.<Object>}
  */
-function parseCSV(text, maxRows=0)
+function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="")
 {
     let rows = [];
     let headings, fields;
     let lines = text.split(/\r?\n/);
+    let keySubset = keyUnique + 's';
     for (let i = 0; i < lines.length; i++) {
         let line = lines[i];
         if (!line) continue;
@@ -69,11 +72,37 @@ function parseCSV(text, maxRows=0)
                 row[heading] = h;
             }
         } else {
+            let subset = null;
+            let matchedPrevious = !!rows.length;
             for (let h = 0; h < headings.length; h++) {
-                row[headings[h]] = fields[h];
+                let field = fields[h];
+                let heading = headings[h];
+                if (heading == keyIgnore) continue;
+                if (heading == keyUnique) {
+                    subset = {};
+                }
+                if (!subset && matchedPrevious) {
+                    if (rows[rows.length-1][heading] != field) {
+                        matchedPrevious = false;
+                    }
+                }
+                if (!subset) {
+                    row[heading] = field;
+                } else {
+                    subset[heading] = field;
+                }
             }
             if (headings.length != fields.length) {
                 printf("CSV row %d has %d fields, expected %d\n", i, fields.length, headings.length);
+            }
+            if (subset) {
+                if (!matchedPrevious) {
+                    row[keySubset] = [];
+                    row[keySubset].push(subset);
+                } else {
+                    rows[rows.length-1][keySubset].push(subset);
+                    continue;
+                }
             }
             if (!maxRows || i <= maxRows) rows.push(row);
         }
@@ -295,13 +324,14 @@ function buildCourts(done)
     done();
 }
 
-function buildSCDBYears(done)
+function buildDecisions(done)
 {
-    let rows = parseCSV(readTextFile(pkg.scdb.decisions), 10);
-    printf("SCDB rows: %d\n", rows.length);
-    printf("%2j\n", rows);
+    let decisions = parseCSV(readTextFile(pkg.scdb.decisions), 0, "voteId", "justice");
+    printf("SCDB decisions: %d\n", decisions.length);
+    let json = sprintf("%2j\n", decisions);
+    writeTextFile(pkg.data.decisions, json);
     done();
 }
 
 gulp.task("courts", buildCourts);
-gulp.task("default", buildSCDBYears);
+gulp.task("default", buildDecisions);
