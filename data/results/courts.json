@@ -3789,7 +3789,8 @@
     ],
     "start": "2006-01-31",
     "startFormatted": "Tuesday, January 31, 2006",
-    "stopFormatted": "",
+    "stop": "2009-06-29",
+    "stopFormatted": "Monday, June 29, 2009",
     "reason": "Samuel A. Alito, Jr. Joined"
   },
   {
@@ -3809,7 +3810,7 @@
     "startFormatted": "Monday, June 29, 2009",
     "stop": "2009-08-08",
     "stopFormatted": "Saturday, August 8, 2009",
-    "reason": "David H. Souter retired"
+    "reason": "David H. Souter Retired"
   },
   {
     "id": "roberts/robt4",
@@ -3846,12 +3847,13 @@
     ],
     "start": "2010-06-29",
     "startFormatted": "Tuesday, June 29, 2010",
-    "stopFormatted": "",
-    "reason": "John Paul Stevens retired"
+    "stop": "2010-08-07",
+    "stopFormatted": "Saturday, August 7, 2010",
+    "reason": "John Paul Stevens Retired"
   },
   {
     "id": "roberts/robt6",
-    "name": "Roberts Court (2010-     )",
+    "name": "Roberts Court (2010-2016)",
     "justices": [
       "john_g_roberts_jr",
       "antonin_scalia",
@@ -3865,7 +3867,85 @@
     ],
     "start": "2010-08-07",
     "startFormatted": "Saturday, August 7, 2010",
-    "stopFormatted": "",
+    "stop": "2016-02-14",
+    "stopFormatted": "Sunday, February 14, 2016",
     "reason": "Elena Kagan appointed"
+  },
+  {
+    "id": "roberts/robt7",
+    "name": "Roberts Court (2016-2017)",
+    "justices": [
+      "john_g_roberts_jr",
+      "anthony_m_kennedy",
+      "clarence_thomas",
+      "ruth_bader_ginsburg",
+      "stephen_g_breyer",
+      "samuel_alito_jr",
+      "sonia_sotomayor",
+      "elena_kagan"
+    ],
+    "start": "2016-02-14",
+    "startFormatted": "Sunday, February 14, 2016",
+    "stop": "2017-04-10",
+    "stopFormatted": "Monday, April 10, 2017",
+    "reason": "Antonin Scalia Died"
+  },
+  {
+    "id": "roberts/robt8",
+    "name": "Roberts Court (2017-2018)",
+    "justices": [
+      "john_g_roberts_jr",
+      "anthony_m_kennedy",
+      "clarence_thomas",
+      "ruth_bader_ginsburg",
+      "stephen_g_breyer",
+      "samuel_alito_jr",
+      "sonia_sotomayor",
+      "elena_kagan",
+      "neil_gorsuch"
+    ],
+    "start": "2017-04-10",
+    "startFormatted": "Monday, April 10, 2017",
+    "stop": "2018-10-06",
+    "stopFormatted": "Saturday, October 6, 2018",
+    "reason": "Neil Gorsuch Joined"
+  },
+  {
+    "id": "roberts/robt8b",
+    "name": "Roberts Court (2018)",
+    "justices": [
+      "john_g_roberts_jr",
+      "clarence_thomas",
+      "ruth_bader_ginsburg",
+      "stephen_g_breyer",
+      "samuel_alito_jr",
+      "sonia_sotomayor",
+      "elena_kagan",
+      "neil_gorsuch"
+    ],
+    "start": "2018-07-31",
+    "startFormatted": "Tuesday, July 31, 2018",
+    "stop": "2018-10-06",
+    "stopFormatted": "Saturday, October 6, 2018",
+    "reason": "Anthony Kennedy Retired"
+  },
+  {
+    "id": "roberts/robt9",
+    "name": "Roberts Court (2018-)",
+    "justices": [
+      "john_g_roberts_jr",
+      "antonin_scalia",
+      "clarence_thomas",
+      "ruth_bader_ginsburg",
+      "stephen_g_breyer",
+      "samuel_alito_jr",
+      "sonia_sotomayor",
+      "elena_kagan",
+      "neil_gorsuch",
+      "brett_m_kavanaugh"
+    ],
+    "start": "2018-10-06",
+    "startFormatted": "Saturday, October 6, 2018",
+    "reason": "Brett Kavanaugh Joined"
   }
 ]
