@@ -43,7 +43,7 @@ let pkg = require("./package.json");
  *
  * @param {string} text
  * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
- * @param {string} [keyIgnore] (name of field, if any, that should be ignored; typically the key of the subset fields)
+ * @param {string} [keyIgnore] (name of field, if any, that should be ignored; typically a key associated with the subset fields)
  * @param {string} [keyUnique] (name of first subset field, if any, containing data for unique subsets)
  * @return {Array.<Object>}
  */
@@ -72,14 +72,18 @@ function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="")
                 row[heading] = h;
             }
         } else {
-            let subset = null;
+            let subset = null, hIgnore = -1;
             let matchedPrevious = !!rows.length;
             for (let h = 0; h < headings.length; h++) {
                 let field = fields[h];
                 let heading = headings[h];
-                if (heading == keyIgnore) continue;
+                if (heading == keyIgnore) {
+                    hIgnore = h;
+                    continue;
+                }
                 if (heading == keyUnique) {
                     subset = {};
+                    if (hIgnore >= 0) subset[keyIgnore] = fields[hIgnore];
                 }
                 if (!subset && matchedPrevious) {
                     if (rows[rows.length-1][heading] != field) {
@@ -329,7 +333,7 @@ function buildDecisions(done)
     let decisions = parseCSV(readTextFile(pkg.scdb.decisions), 0, "voteId", "justice");
     printf("SCDB decisions: %d\n", decisions.length);
     let json = sprintf("%2j\n", decisions);
-    writeTextFile(pkg.data.decisions, json);
+    writeTextFile(pkg.data.decisions, json, true);
     done();
 }
 
