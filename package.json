@@ -30,6 +30,7 @@
     "courts": "data/oyez/courts/**/court.xml"
   },
   "scdb": {
-    "combinedCSV": "data/scdb/combined.csv"
+    "courts": "data/scdb/naturalCourt.csv",
+    "decisions": "data/scdb/combined.csv"
   }
 }

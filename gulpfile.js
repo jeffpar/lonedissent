@@ -38,6 +38,101 @@ let pkg = require("./package.json");
  * @property {string} reason
  */
 
+/**
+ * parseCSV(text, maxRows)
+ *
+ * @param {string} text
+ * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
+ * @return {Array.<Object>}
+ */
+function parseCSV(text, maxRows=0)
+{
+    let rows = [];
+    let headings, fields;
+    let lines = text.split(/\r?\n/);
+    for (let i = 0; i < lines.length; i++) {
+        let line = lines[i];
+        if (!line) continue;
+        let row = {};
+        let fields = parseCSVFields(line);
+        if (!headings) {
+            headings = fields;
+            /*
+             * Make sure all headings are non-empty and unique.
+             */
+            for (let h = 0; h < headings.length; h++) {
+                let heading = headings[h];
+                if (!heading || row[headings[h]] !== undefined) {
+                    printf("CSV field heading %d (%s) is invalid or duplicate\n", h, heading);
+                    heading = "field" + (h + 1);
+                }
+                row[heading] = h;
+            }
+        } else {
+            for (let h = 0; h < headings.length; h++) {
+                row[headings[h]] = fields[h];
+            }
+            if (headings.length != fields.length) {
+                printf("CSV row %d has %d fields, expected %d\n", i, fields.length, headings.length);
+            }
+            if (!maxRows || i <= maxRows) rows.push(row);
+        }
+    }
+    return rows;
+}
+
+/**
+ * parseCSVFields(line)
+ *
+ * @param {string} line
+ * @return {Array.<string>}
+ */
+function parseCSVFields(line)
+{
+    let field = "";
+    let fields = [];
+    let inQuotes = false;
+    for (let i = 0; i < line.length; i++) {
+        let ch = line[i];
+        if (!inQuotes) {
+            if (ch == ',') {
+                fields.push(field);
+                field = "";
+            }
+            else if (ch == '"' && !field.length) {
+                inQuotes = true;
+            }
+            else {
+                field += ch;
+            }
+        }
+        else {
+            if (ch == '"') {
+                if (i < line.length - 1 && line[i+1] == '"') {
+                    field += ch;
+                    i += 1;
+                } else {
+                    inQuotes = false;
+                }
+            }
+            else {
+                field += ch;
+            }
+        }
+    }
+    fields.push(field);
+    if (inQuotes) {
+        printf("CSV quote error: %s\n", line);
+    }
+    return fields;
+}
+
+/**
+ * readTextFile(fileName)
+ *
+ * @param {string} fileName
+ * @return {string}
+ */
 function readTextFile(fileName)
 {
     let text;
@@ -50,6 +145,13 @@ function readTextFile(fileName)
     return text;
 }
 
+/**
+ * writeTextFile(fileName, text, fOverwrite)
+ *
+ * @param {string} fileName
+ * @param {string} text
+ * @param {boolean} [fOverwrite] (default is false)
+ */
 function writeTextFile(fileName, text, fOverwrite=false)
 {
     if (fOverwrite || !fs.existsSync(fileName)) {
@@ -68,6 +170,12 @@ function writeTextFile(fileName, text, fOverwrite=false)
     }
 }
 
+/**
+ * readXMLFile(fileName)
+ *
+ * @param {string} fileName
+ * @return {Object}
+ */
 function readXMLFile(fileName)
 {
     let xml;
@@ -160,6 +268,18 @@ function readOyezCourts()
 }
 
 /**
+ * readSCDBCourts()
+ *
+ * @return {Array.<Court>}
+ */
+function readSCDBCourts()
+{
+    let courts = parseCSV(readTextFile(pkg.scdb.courts));
+    printf("%2j\n", courts);
+    return courts;
+}
+
+/**
  * buildCourts()
  *
  * @param {function()} done
@@ -171,22 +291,17 @@ function buildCourts(done)
     let json = sprintf("%2j\n", courts);
     writeTextFile(pkg.data.courts, json);
     courts = readDataCourts();
+    courts = readSCDBCourts();
     done();
 }
 
-function extractSCDBYears(done)
+function buildSCDBYears(done)
 {
-    let text = readTextFile(pkg.scdb.combinedCSV);
-    if (text != null) {
-        let lines = text.split(/\r?\n/);
-        let count = 0;
-        for (let i = 0; i < lines.length; i++) {
-            if (lines[i]) count++;
-        }
-        printf("SCDB rows: %d\n", count);
-    }
+    let rows = parseCSV(readTextFile(pkg.scdb.decisions), 10);
+    printf("SCDB rows: %d\n", rows.length);
+    printf("%2j\n", rows);
     done();
 }
 
 gulp.task("courts", buildCourts);
-gulp.task("default", extractSCDBYears);
+gulp.task("default", buildSCDBYears);
