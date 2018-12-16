@@ -98,7 +98,7 @@ function readDataCourts()
         let start = court.start;
         let startFormatted = stdio.formatDate("l, F j, Y", start);
         if (startFormatted != court.startFormatted) {
-            printf("%s != %s", startFormatted, court.startFormatted);
+            printf("%s != %s\n", startFormatted, court.startFormatted);
             court.startFormatted = startFormatted;
             fixes++;
         }
