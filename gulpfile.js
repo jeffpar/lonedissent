@@ -43,7 +43,7 @@ function readTextFile(fileName)
         text = fs.readFileSync(fileName, "utf8");
     }
     catch(err) {
-        console.log(err.message);
+        printf("%s\n", err.message);
     }
     return text;
 }
@@ -59,7 +59,7 @@ function writeTextFile(fileName, text, fOverwrite=false)
             fs.writeFileSync(fileName, text);
         }
         catch(err) {
-            console.log(err.message);
+            printf("%s\n", err.message);
         }
     } else {
         printf("file already exists: %s\n", fileName);
@@ -73,7 +73,7 @@ function readXMLFile(fileName)
     if (text != null) {
         parseXML(text, function(err, result) {
             if (err) {
-                console.log(err.message);
+                printf("%s\n", err.message);
                 return;
             }
             xml = result;
