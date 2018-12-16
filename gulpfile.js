@@ -43,8 +43,8 @@ let pkg = require("./package.json");
  *
  * @param {string} text
  * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
- * @param {string} [keyIgnore]
- * @param {string} [keyUnique]
+ * @param {string} [keyIgnore] (name of field, if any, that should be ignored; typically the key of the subset fields)
+ * @param {string} [keyUnique] (name of first subset field, if any, containing data for unique subsets)
  * @return {Array.<Object>}
  */
 function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="")
