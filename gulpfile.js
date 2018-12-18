@@ -408,10 +408,10 @@ function buildCourts(done)
     let courtsSCDB = readSCDBCourts();
     printf("SCDB courts read: %d\n", courtsSCDB.length);
     /*
-     * Walk the courts data, interleaving the courtsSCDB data.
+     * Walk the courts data, interleaving the courtsSCDB data, to produce a reconciliation spreadsheet.
      */
     let j = 0;
-    let csv = "";
+    let csv = sprintf('"reconcileDB","reconcileName","reconcileStart","reconcileStop"\n');
     for (let i = 0; i <= courts.length; i++) {
         let court = courts[i];
         if (court) csv += sprintf('"OYEZ","%s","%s","%s"\n', court.name, court.startFormatted, court.stopFormatted);
@@ -442,6 +442,33 @@ function buildDecisions(done)
 }
 
 /**
+ * buildJustices()
+ *
+ * @param {function()} done
+ */
+function buildJustices(done)
+{
+    let justices = parseCSV(readTextFile(pkg.scdb.justicesCSV));
+    printf("SCDB justices %d\n", justices.length);
+    for (let i = 0; i < justices.length; i++) {
+        let justice = justices[i];
+        let match = justice.justiceName.match(/(.*),\s*(.*)/);
+        if (match) justice.justiceName = match[2] + ' ' + match[1];
+        let start = new Date(justice.justiceStart);
+        let stop = new Date(justice.justiceStop);
+        delete justice.justiceStart;
+        delete justice.justiceStop;
+        justice.start = stdio.formatDate("Y-m-d", start);
+        justice.startFormatted = stdio.formatDate("l, F j, Y", start);
+        justice.stop = stdio.formatDate("Y-m-d", stop);
+        justice.stopFormatted = stdio.formatDate("l, F j, Y", stop);
+    }
+    let json = sprintf("%2j\n", justices);
+    writeTextFile(pkg.data.justices, json, true);
+    done();
+}
+
+/**
  * findLoneDissents()
  *
  * @param {function()} done
@@ -461,4 +488,5 @@ function findLoneDissents(done)
 
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
+gulp.task("justices", buildJustices);
 gulp.task("default", findLoneDissents);

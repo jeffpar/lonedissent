@@ -26,7 +26,8 @@
   "data": {
     "courts": "data/courts.json",
     "courtsCSV": "data/courts.csv",
-    "decisions": "data/decisions.json"
+    "decisions": "data/decisions.json",
+    "justices": "data/justices.json"
   },
   "oyez": {
     "courtsXML": "data/oyez/courts/**/court.xml",
@@ -35,6 +36,7 @@
   "scdb": {
     "codes": "data/scdb/codes.json",
     "courtsCSV": "data/scdb/naturalCourts.csv",
-    "decisionsCSV": "data/scdb/combined.csv"
+    "decisionsCSV": "data/scdb/combined.csv",
+    "justicesCSV": "data/scdb/justices.csv"
   }
 }
