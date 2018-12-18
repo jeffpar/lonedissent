@@ -3,6 +3,9 @@
  * @author <a href="mailto:Jeff@pcjs.org">Jeff Parsons</a> (@jeffpar)
  * @copyright © Jeff Parsons 2018
  * @license GPL-3.0
+ *
+ * TODO: Process SCDB's justices.csv in combination with their naturalCourts.csv to help validate both.
+ * TODO: Update every "id" in courts.json with the photo ID
  */
 
  "use strict";
@@ -36,19 +39,21 @@ let pkg = require("./package.json");
  * @property {string} stop
  * @property {string} stopFormatted
  * @property {string} reason
+ * @property {string} photo
  */
 
 /**
- * parseCSV(text, maxRows, keyIgnore, keyUnique, saveIgnoredKey)
+ * parseCSV(text, maxRows, keyIgnore, keyUnique, saveIgnoredKey, types)
  *
  * @param {string} text
  * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
  * @param {string} [keyIgnore] (name of field, if any, that should be ignored; typically a key associated with the subset fields)
  * @param {string} [keyUnique] (name of first subset field, if any, containing data for unique subsets)
  * @param {boolean} [saveIgnoredKey] (default is false, to reduce space requirements)
+ * @param {Object|null} [types]
  * @return {Array.<Object>}
  */
-function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=false)
+function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=false, types=null)
 {
     let rows = [];
     let headings, fields;
@@ -67,7 +72,7 @@ function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=fa
             for (let h = 0; h < headings.length; h++) {
                 let heading = headings[h];
                 if (!heading || row[headings[h]] !== undefined) {
-                    printf("CSV field heading %d (%s) is invalid or duplicate\n", h, heading);
+                    printf("warning: CSV field heading %d (%s) is invalid or duplicate\n", h, heading);
                     heading = "field" + (h + 1);
                 }
                 row[heading] = h;
@@ -78,6 +83,21 @@ function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=fa
             for (let h = 0; h < headings.length; h++) {
                 let field = fields[h];
                 let heading = headings[h];
+                if (types && types[heading]) {
+                    let t = types[heading];
+                    if (field != "") {
+                        let v = t.values;
+                        if (v && typeof v == "string") {
+                            v = types[v].values;
+                        }
+                        if (v && v[field] === undefined) {
+                            printf("warning: CSV row %d field %s has unexpected value '%s'\n", i+1, heading, field);
+                        }
+                    }
+                    if (t.type == "number") {
+                        field = +field;
+                    }
+                }
                 if (heading == keyIgnore) {
                     if (saveIgnoredKey) hIgnore = h;
                     continue;
@@ -98,7 +118,7 @@ function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=fa
                 }
             }
             if (headings.length != fields.length) {
-                printf("CSV row %d has %d fields, expected %d\n", i, fields.length, headings.length);
+                printf("warning: CSV row %d has %d fields, expected %d\n", i+1, fields.length, headings.length);
             }
             if (subset) {
                 if (!matchedPrevious) {
@@ -227,11 +247,11 @@ function readXMLFile(fileName)
 }
 
 /**
- * readDataCourts()
+ * readCourts()
  *
  * @return {Array.<Court>}
  */
-function readDataCourts()
+function readCourts()
 {
     let fixes = 0;
     let courts = JSON.parse(readTextFile(pkg.data.courts));
@@ -245,8 +265,8 @@ function readDataCourts()
         let name = match[2].replace(/\s+/g, " ");
         for (i = 0; i < courts.length; i++) {
             if (courts[i].name == match[2]) {
-                if (!courts[i].photoNew) {
-                    courts[i].photoNew = path.join("data/oyez", match[3]);
+                if (!courts[i].photo) {
+                    courts[i].photo = path.join("data/oyez", match[3]);
                     fixes++;
                 }
                 break;
@@ -346,7 +366,7 @@ function readOyezCourts()
  */
 function readSCDBCourts()
 {
-    let courts = parseCSV(readTextFile(pkg.scdb.courts));
+    let courts = parseCSV(readTextFile(pkg.scdb.courtsCSV));
     for (let i = 0; i < courts.length; i++) {
         let court = courts[i];
         let start = new Date(court.naturalStart);
@@ -375,8 +395,8 @@ function buildCourts(done)
      *      let json = sprintf("%2j\n", courtsOyez);
      *      writeTextFile(pkg.data.courts, json);
      */
-    let courts = readDataCourts();
-    printf("data courts read: %d\n", courts.length);
+    let courts = readCourts();
+    printf("courts read: %d\n", courts.length);
     let courtsSCDB = readSCDBCourts();
     printf("SCDB courts read: %d\n", courtsSCDB.length);
     /*
@@ -398,14 +418,39 @@ function buildCourts(done)
     done();
 }
 
+/**
+ * buildDecisions()
+ *
+ * @param {function()} done
+ */
 function buildDecisions(done)
 {
-    let decisions = parseCSV(readTextFile(pkg.scdb.decisions), 0, "voteId", "justice");
+    let types = JSON.parse(readTextFile(pkg.scdb.codes));
+    let decisions = parseCSV(readTextFile(pkg.scdb.decisionsCSV), 0, "voteId", "justice", false, types);
     printf("SCDB decisions: %d\n", decisions.length);
     let json = sprintf("%2j\n", decisions);
-    writeTextFile(pkg.data.decisions, json, true);
+    writeTextFile(pkg.data.decisions, json);
+    done();
+}
+
+/**
+ * findLoneDissents()
+ *
+ * @param {function()} done
+ */
+function findLoneDissents(done)
+{
+    let decisions = JSON.parse(readTextFile(pkg.data.decisions));
+    printf("decisions: %d\n", decisions.length);
+    for (let i = 0; i < decisions.length; i++) {
+        let decision = decisions[i];
+        if (decision.minVotes == 1) {
+            printf("%s: %d-%d\n", decision.caseName, decision.majVotes, decision.minVotes);
+        }
+    }
     done();
 }
 
 gulp.task("courts", buildCourts);
-gulp.task("default", buildDecisions);
+gulp.task("decisions", buildDecisions);
+gulp.task("default", findLoneDissents);

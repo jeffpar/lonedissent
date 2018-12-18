@@ -33,7 +33,8 @@
     "courtsHTML": "data/oyez/justices_by_court.html"
   },
   "scdb": {
-    "courts": "data/scdb/naturalCourt.csv",
-    "decisions": "data/scdb/combined.csv"
+    "codes": "data/scdb/codes.json",
+    "courtsCSV": "data/scdb/naturalCourts.csv",
+    "decisionsCSV": "data/scdb/combined.csv"
   }
 }
