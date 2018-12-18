@@ -28,7 +28,8 @@
     "decisions": "data/decisions.json"
   },
   "oyez": {
-    "courts": "data/oyez/courts/**/court.xml"
+    "courtsXML": "data/oyez/courts/**/court.xml",
+    "courtsHTML": "data/oyez/justices_by_court.html"
   },
   "scdb": {
     "courts": "data/scdb/naturalCourt.csv",

@@ -235,6 +235,30 @@ function readDataCourts()
 {
     let fixes = 0;
     let courts = JSON.parse(readTextFile(pkg.data.courts));
+    /*
+     * First, let's see how our data lines up with current Oyez HTML data.
+     */
+    let html = readTextFile(pkg.oyez.courtsHTML);
+    let reCourt = /lazy-img="([^"]*)"\s+alt="([^"]*)"[^>]*src="([^"]*)"/g, match;
+    while ((match = reCourt.exec(html))) {
+        let i;
+        let name = match[2].replace(/\s+/g, " ");
+        for (i = 0; i < courts.length; i++) {
+            if (courts[i].name == match[2]) {
+                if (!courts[i].photoNew) {
+                    courts[i].photoNew = path.join("data/oyez", match[3]);
+                    fixes++;
+                }
+                break;
+            }
+        }
+        if (i == courts.length) {
+            printf("warning: unable to find HTML court '%s' in XML courts\n", match[2]);
+        }
+    }
+    /*
+     * Next, let's see how our data lines up with itself.
+     */
     for (let i = 0; i < courts.length; i++) {
         let court = courts[i];
         let start = court.start;
@@ -258,6 +282,20 @@ function readDataCourts()
                 printf("end of %s court (%s) doesn't align with beginning of %s court (%s)\n", court.name, court.stopFormatted, courtNext.name, courtNext.startFormatted);
             }
         }
+        if (!court.photoSmall) {
+            let fileName = path.join("data/oyez/courts", court.id, "image-small.jpg");
+            if (fs.existsSync(fileName)) {
+                court.photoSmall = fileName;
+                fixes++;
+            }
+        }
+        if (!court.photoLarge) {
+            let fileName = path.join("data/oyez/courts", court.id, "image-large.jpg");
+            if (fs.existsSync(fileName)) {
+                court.photoLarge = fileName;
+                fixes++;
+            }
+        }
     }
     if (fixes) {
         printf("writing %d corrections to %s\n", fixes, pkg.data.courts);
@@ -274,7 +312,7 @@ function readDataCourts()
 function readOyezCourts()
 {
     let courts = [];
-    let fileNames = glob.sync(pkg.oyez.courts);
+    let fileNames = glob.sync(pkg.oyez.courtsXML);
     for (let i = 0; i < fileNames.length; i++) {
         let xml = readXMLFile(fileNames[i]);
         if (!xml) break;
@@ -309,7 +347,7 @@ function readOyezCourts()
 function readSCDBCourts()
 {
     let courts = parseCSV(readTextFile(pkg.scdb.courts));
-    printf("%2j\n", courts);
+    // printf("%2j\n", courts);
     return courts;
 }
 
@@ -321,11 +359,13 @@ function readSCDBCourts()
 function buildCourts(done)
 {
     let courts = readOyezCourts();
-    printf("courts read: %d\n", courts.length);
+    printf("Oyez courts read: %d\n", courts.length);
     let json = sprintf("%2j\n", courts);
     writeTextFile(pkg.data.courts, json);
-    courts = readDataCourts();
     courts = readSCDBCourts();
+    printf("SCDB courts read: %d\n", courts.length);
+    courts = readDataCourts();
+    printf("data courts read: %d\n", courts.length);
     done();
 }
 
