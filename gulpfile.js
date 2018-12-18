@@ -27,13 +27,21 @@ let pkg = require("./package.json");
  * @typedef {Object} Justice
  * @property {string} id
  * @property {string} name
+ * @property {string} position
+ * @property {number} seat
+ * @property {string} start
+ * @property {string} startFormatted
+ * @property {string} stop
+ * @property {string} stopFormatted
+ * @property {string} stopReason
+ * @property {string} photo
  */
 
 /**
  * @typedef {Object} Court
  * @property {string} id
  * @property {string} name
- * @property {Array.<Justice>} justices
+ * @property {Array.<string>} justices
  * @property {string} start
  * @property {string} startFormatted
  * @property {string} stop
@@ -344,7 +352,6 @@ function readOyezCourts()
     for (let i = 0; i < fileNames.length; i++) {
         let xml = readXMLFile(fileNames[i]);
         if (!xml) break;
-        // printf("%s: %2j\n", fileNames[i], xml);
         let justices = [];
         for (let j = 0; j < xml.court.courtJustice.length; j++) {
             justices.push(xml.court.courtJustice[j].$.id);
@@ -368,6 +375,48 @@ function readOyezCourts()
 }
 
 /**
+ * readOyezJustices()
+ *
+ * @return {Array.<Justice>}
+ */
+function readOyezJustices()
+{
+    let justices = [];
+    let fileNames = glob.sync(pkg.oyez.justicesXML);
+    for (let i = 0; i < fileNames.length; i++) {
+        let xml = readXMLFile(fileNames[i]);
+        if (!xml) break;
+        for (let j = 0; j < xml.justice.justiceAppointment.length; j++) {
+            let justice = {};
+            justice.id = xml.justice.justiceName[0].$.id;
+            justice.name = xml.justice.justiceName[0]._;
+            let xmlAppt = xml.justice.justiceAppointment[j];
+            justice.position = xmlAppt.justicePosition[0];
+            justice.seat = +xmlAppt.justiceSeat[0];
+            /*
+             * For some reason, all the Oyez XML justice dates appear to be off-by-one, so we compensate here.
+             */
+            justice.start = stdio.formatDate("Y-m-d", stdio.adjustDate(new Date(xmlAppt.justiceSwornDate[0]._), 1));
+            justice.startFormatted = stdio.formatDate("l, F j, Y", justice.start);
+            if (xmlAppt.justiceEndDate) {
+                justice.stop = stdio.formatDate("Y-m-d", stdio.adjustDate(new Date(xmlAppt.justiceEndDate[0]._), 1));
+                justice.stopFormatted = stdio.formatDate("l, F j, Y", justice.stop);
+                if (xmlAppt.justiceReasonForLeaving) {
+                    justice.stopReason = xmlAppt.justiceReasonForLeaving[0];
+                } else {
+                    printf("warning: justice '%s' stopped for no reason\n", justice.name);
+                }
+            }
+            justices.push(justice);
+        }
+    }
+    justices.sort(function(a,b) {
+        return (a.start < b.start)? -1 : ((a.start > b.start)? 1 : 0);
+    });
+    return justices;
+}
+
+/**
  * readSCDBCourts()
  *
  * @return {Array.<Court>}
@@ -384,7 +433,6 @@ function readSCDBCourts()
         court.startFormatted = stdio.formatDate("l, F j, Y", start);
         court.stopFormatted = stdio.formatDate("l, F j, Y", stop);
     }
-    // printf("%2j\n", courts);
     return courts;
 }
 
@@ -448,23 +496,58 @@ function buildDecisions(done)
  */
 function buildJustices(done)
 {
+    let justicesOyez = readOyezJustices();
+    printf("Oyez justices read: %d\n", justicesOyez.length);
+
     let justices = parseCSV(readTextFile(pkg.scdb.justicesCSV));
-    printf("SCDB justices %d\n", justices.length);
+    printf("SCDB justices read: %d\n", justices.length);
     for (let i = 0; i < justices.length; i++) {
+        let first, last;
         let justice = justices[i];
-        let match = justice.justiceName.match(/(.*),\s*(.*)/);
-        if (match) justice.justiceName = match[2] + ' ' + match[1];
-        let start = new Date(justice.justiceStart);
-        let stop = new Date(justice.justiceStop);
-        delete justice.justiceStart;
-        delete justice.justiceStop;
+        let match = justice.name.match(/(.*),\s*(.*)/);
+        if (match) {
+            first = match[2];
+            last = match[1];
+            justice.name =  first + ' ' + last;
+        }
+        let start = new Date(justice.startDate);
+        let stop = new Date(justice.stopDate);
+        delete justice.startDate;
+        delete justice.stopDate;
         justice.start = stdio.formatDate("Y-m-d", start);
         justice.startFormatted = stdio.formatDate("l, F j, Y", start);
         justice.stop = stdio.formatDate("Y-m-d", stop);
         justice.stopFormatted = stdio.formatDate("l, F j, Y", stop);
+        /*
+         * Let's see if we can find a match in the Oyez list...
+         */
+        let j;
+        let missing = true;
+        for (j = 0; j < justicesOyez.length; j++) {
+            let oyez = justicesOyez[j];
+            /*
+             * OYEZ uses "Brockholst Livingston" and "Frank Murphy",
+             * whereas SCDB uses "Henry Livingston" and "Francis Murphy", so we need some variances.
+             */
+            if (oyez.name.indexOf(last) >= 0 && (oyez.name.indexOf(first) >= 0 || first == "Francis" || first == "Henry")) {
+                missing = false;
+                if (oyez.start == justice.start) {
+                    oyez.scdb = justice.index;
+                    break;
+                } else {
+                    printf("warning: SCDB justice '%s' date (%s) doesn't match OYEZ justice '%s' date (%s)\n", justice.name, justice.start, oyez.name, oyez.start);
+                }
+            }
+        }
+        if (missing) {
+            // printf("warning: unable to find SCDB justice '%s' (%d) in OYEZ\n", justice.name, justice.index)
+            justice.scdb = justice.index;
+            delete justice.index;
+            justicesOyez.push(justice);
+        }
     }
-    let json = sprintf("%2j\n", justices);
-    writeTextFile(pkg.data.justices, json, true);
+    let json = sprintf("%2j\n", justicesOyez);
+    writeTextFile(pkg.data.justices, json);
     done();
 }
 

@@ -31,7 +31,8 @@
   },
   "oyez": {
     "courtsXML": "data/oyez/courts/**/court.xml",
-    "courtsHTML": "data/oyez/justices_by_court.html"
+    "courtsHTML": "data/oyez/justices_by_court.html",
+    "justicesXML": "data/oyez/justices/**/justice.xml"
   },
   "scdb": {
     "codes": "data/scdb/codes.json",
