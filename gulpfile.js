@@ -263,16 +263,16 @@ function readCourts()
     while ((match = reCourt.exec(html))) {
         let i;
         let name = match[2].replace(/\s+/g, " ");
-        for (i = 0; i < courts.length; i++) {
+        for (i = courts.length - 1; i >= 0; i--) {
             if (courts[i].name == match[2]) {
                 if (!courts[i].photo) {
                     courts[i].photo = path.join("data/oyez", match[3]);
                     fixes++;
+                    break;
                 }
-                break;
             }
         }
-        if (i == courts.length) {
+        if (i < 0) {
             printf("warning: unable to find HTML court '%s' in XML courts\n", match[2]);
         }
     }
@@ -282,6 +282,13 @@ function readCourts()
     for (let i = 0; i < courts.length; i++) {
         let court = courts[i];
         let start = court.start;
+        if (court.photo) {
+            let name = path.basename(court.photo, ".jpg");
+            if (court.id != name) {
+                court.id = name;
+                fixes++;
+            }
+        }
         let startFormatted = stdio.formatDate("l, F j, Y", start);
         if (startFormatted != court.startFormatted) {
             printf("%s != %s\n", startFormatted, court.startFormatted);

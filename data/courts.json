@@ -1,6 +1,6 @@
 [
   {
-    "id": "jay/jay1",
+    "id": "jay1",
     "name": "Jay Court (1789-1790)",
     "justices": [
       "john_jay",
@@ -17,7 +17,7 @@
     "photo": "data/oyez/justices_by_court/jay1.jpg"
   },
   {
-    "id": "jay/jay2",
+    "id": "jay2",
     "name": "Jay Court (1790-1791)",
     "justices": [
       "john_jay",
@@ -35,7 +35,7 @@
     "photo": "data/oyez/justices_by_court/jay2.jpg"
   },
   {
-    "id": "jay/jay2b",
+    "id": "jay3",
     "name": "Jay Court (1791-1792)",
     "justices": [
       "john_jay",
@@ -52,7 +52,7 @@
     "photo": "data/oyez/justices_by_court/jay3.jpg"
   },
   {
-    "id": "jay/jay3",
+    "id": "jay4",
     "name": "Jay Court (1792-1793)",
     "justices": [
       "john_jay",
@@ -70,7 +70,7 @@
     "photo": "data/oyez/justices_by_court/jay4.jpg"
   },
   {
-    "id": "jay/jay3b",
+    "id": "jay5",
     "name": "Jay Court (1793)",
     "justices": [
       "john_jay",
@@ -87,7 +87,7 @@
     "photo": "data/oyez/justices_by_court/jay5.jpg"
   },
   {
-    "id": "jay/jay4",
+    "id": "jay6",
     "name": "Jay Court (1793-1795)",
     "justices": [
       "john_jay",
@@ -105,7 +105,7 @@
     "photo": "data/oyez/justices_by_court/jay6.jpg"
   },
   {
-    "id": "jay/jay4b",
+    "id": "jay7",
     "name": "Jay Court (1795)",
     "justices": [
       "william_cushing",
@@ -122,7 +122,7 @@
     "photo": "data/oyez/justices_by_court/jay7.jpg"
   },
   {
-    "id": "interim/rutl1",
+    "id": "rutledge1",
     "name": "Rutledge Court (1795)",
     "justices": [
       "john_rutledge",
@@ -140,7 +140,7 @@
     "photo": "data/oyez/justices_by_court/rutledge1.jpg"
   },
   {
-    "id": "interim/int1",
+    "id": "interim1",
     "name": "Interim Court (1795-1796)",
     "justices": [
       "william_cushing",
@@ -157,7 +157,7 @@
     "photo": "data/oyez/justices_by_court/interim1.jpg"
   },
   {
-    "id": "interim/int1b",
+    "id": "interim2",
     "name": "Interim Court (1796)",
     "justices": [
       "william_cushing",
@@ -170,10 +170,10 @@
     "stop": "1796-02-03",
     "stopFormatted": "Wednesday, February 3, 1796",
     "reason": "John Blair Resigned",
-    "photo": "data/oyez/justices_by_court/interim3.jpg"
+    "photo": "data/oyez/justices_by_court/interim2.jpg"
   },
   {
-    "id": "interim/int2",
+    "id": "interim3",
     "name": "Interim Court (1796)",
     "justices": [
       "william_cushing",
@@ -186,10 +186,11 @@
     "startFormatted": "Thursday, February 4, 1796",
     "stop": "1796-03-07",
     "stopFormatted": "Monday, March 7, 1796",
-    "reason": "Samuel Chase Joined"
+    "reason": "Samuel Chase Joined",
+    "photo": "data/oyez/justices_by_court/interim3.jpg"
   },
   {
-    "id": "ellsworth/ells1",
+    "id": "ellsworth1",
     "name": "Ellsworth Court (1796-1798)",
     "justices": [
       "oliver_ellsworth",
@@ -207,7 +208,7 @@
     "photo": "data/oyez/justices_by_court/ellsworth1.jpg"
   },
   {
-    "id": "ellsworth/ells1b",
+    "id": "ellsworth2",
     "name": "Ellsworth Court (1798-1799)",
     "justices": [
       "oliver_ellsworth",
@@ -224,7 +225,7 @@
     "photo": "data/oyez/justices_by_court/ellsworth2.jpg"
   },
   {
-    "id": "ellsworth/ells2",
+    "id": "ellsworth3",
     "name": "Ellsworth Court (1799)",
     "justices": [
       "oliver_ellsworth",
@@ -242,7 +243,7 @@
     "photo": "data/oyez/justices_by_court/ellsworth3.jpg"
   },
   {
-    "id": "ellsworth/ells2b",
+    "id": "ellsworth4",
     "name": "Ellsworth Court (1799-1800)",
     "justices": [
       "oliver_ellsworth",
@@ -259,7 +260,7 @@
     "photo": "data/oyez/justices_by_court/ellsworth4.jpg"
   },
   {
-    "id": "ellsworth/ells3",
+    "id": "ellsworth5",
     "name": "Ellsworth Court (1800)",
     "justices": [
       "oliver_ellsworth",
@@ -277,7 +278,7 @@
     "photo": "data/oyez/justices_by_court/ellsworth5.jpg"
   },
   {
-    "id": "ellsworth/ells3b",
+    "id": "ellsworth6",
     "name": "Ellsworth Court (1800-1801)",
     "justices": [
       "william_cushing",
@@ -294,7 +295,7 @@
     "photo": "data/oyez/justices_by_court/ellsworth6.jpg"
   },
   {
-    "id": "marshall/mars1",
+    "id": "marshall1",
     "name": "Marshall Court (1801-1804)",
     "justices": [
       "john_marshall",
@@ -312,7 +313,7 @@
     "photo": "data/oyez/justices_by_court/marshall1.jpg"
   },
   {
-    "id": "marshall/mars1b",
+    "id": "marshall2",
     "name": "Marshall Court (1804)",
     "justices": [
       "john_marshall",
@@ -329,7 +330,7 @@
     "photo": "data/oyez/justices_by_court/marshall2.jpg"
   },
   {
-    "id": "marshall/mars2",
+    "id": "marshall3",
     "name": "Marshall Court (1804-1806)",
     "justices": [
       "john_marshall",
@@ -347,7 +348,7 @@
     "photo": "data/oyez/justices_by_court/marshall3.jpg"
   },
   {
-    "id": "marshall/mars2b",
+    "id": "marshall4",
     "name": "Marshall Court (1806-1807)",
     "justices": [
       "john_marshall",
@@ -364,7 +365,7 @@
     "photo": "data/oyez/justices_by_court/marshall4.jpg"
   },
   {
-    "id": "marshall/mars3",
+    "id": "marshall5",
     "name": "Marshall Court (1807)",
     "justices": [
       "john_marshall",
@@ -382,7 +383,7 @@
     "photo": "data/oyez/justices_by_court/marshall5.jpg"
   },
   {
-    "id": "marshall/mars4",
+    "id": "marshall6",
     "name": "Marshall Court (1807-1810)",
     "justices": [
       "john_marshall",
@@ -401,7 +402,7 @@
     "photo": "data/oyez/justices_by_court/marshall6.jpg"
   },
   {
-    "id": "marshall/mars5",
+    "id": "marshall7",
     "name": "Marshall Court (1810-1811)",
     "justices": [
       "john_marshall",
@@ -419,7 +420,7 @@
     "photo": "data/oyez/justices_by_court/marshall7.jpg"
   },
   {
-    "id": "marshall/mars5b",
+    "id": "marshall8",
     "name": "Marshall Court (1811)",
     "justices": [
       "john_marshall",
@@ -436,7 +437,7 @@
     "photo": "data/oyez/justices_by_court/marshall8.jpg"
   },
   {
-    "id": "marshall/mars6",
+    "id": "marshall9",
     "name": "Marshall Court (1811-1812)",
     "justices": [
       "john_marshall",
@@ -454,7 +455,7 @@
     "photo": "data/oyez/justices_by_court/marshall9.jpg"
   },
   {
-    "id": "marshall/mars7",
+    "id": "marshall10",
     "name": "Marshall Court (1812-1823)",
     "justices": [
       "john_marshall",
@@ -473,7 +474,7 @@
     "photo": "data/oyez/justices_by_court/marshall10.jpg"
   },
   {
-    "id": "marshall/mars7b",
+    "id": "marshall11",
     "name": "Marshall Court (1823-1824)",
     "justices": [
       "john_marshall",
@@ -491,7 +492,7 @@
     "photo": "data/oyez/justices_by_court/marshall11.jpg"
   },
   {
-    "id": "marshall/mars8",
+    "id": "marshall12",
     "name": "Marshall Court (1824-1826)",
     "justices": [
       "john_marshall",
@@ -510,7 +511,7 @@
     "photo": "data/oyez/justices_by_court/marshall12.jpg"
   },
   {
-    "id": "marshall/mars8b",
+    "id": "marshall13",
     "name": "Marshall Court (1826)",
     "justices": [
       "john_marshall",
@@ -528,7 +529,7 @@
     "photo": "data/oyez/justices_by_court/marshall13.jpg"
   },
   {
-    "id": "marshall/mars9",
+    "id": "marshall14",
     "name": "Marshall Court (1826-1828)",
     "justices": [
       "john_marshall",
@@ -547,7 +548,7 @@
     "photo": "data/oyez/justices_by_court/marshall14.jpg"
   },
   {
-    "id": "marshall/mars10",
+    "id": "marshall15",
     "name": "Marshall Court (1828-1829)",
     "justices": [
       "john_marshall",
@@ -565,7 +566,7 @@
     "photo": "data/oyez/justices_by_court/marshall15.jpg"
   },
   {
-    "id": "marshall/mars10b",
+    "id": "marshall16",
     "name": "Marshall Court (1829-1830)",
     "justices": [
       "john_marshall",
@@ -582,7 +583,7 @@
     "photo": "data/oyez/justices_by_court/marshall16.jpg"
   },
   {
-    "id": "marshall/mars11",
+    "id": "marshall17",
     "name": "Marshall Court (1830)",
     "justices": [
       "john_marshall",
@@ -600,7 +601,7 @@
     "photo": "data/oyez/justices_by_court/marshall17.jpg"
   },
   {
-    "id": "marshall/mars12",
+    "id": "marshall18",
     "name": "Marshall Court (1830-1834)",
     "justices": [
       "john_marshall",
@@ -619,7 +620,7 @@
     "photo": "data/oyez/justices_by_court/marshall18.jpg"
   },
   {
-    "id": "marshall/mars13",
+    "id": "marshall19",
     "name": "Marshall Court (1834-1835)",
     "justices": [
       "john_marshall",
@@ -637,7 +638,7 @@
     "photo": "data/oyez/justices_by_court/marshall19.jpg"
   },
   {
-    "id": "marshall/mars14",
+    "id": "marshall20",
     "name": "Marshall Court (1835)",
     "justices": [
       "john_marshall",
@@ -706,7 +707,7 @@
     "reason": "Philip P. Barbour Joined"
   },
   {
-    "id": "taney/tane3",
+    "id": "taney3",
     "name": "Taney Court (1837-1838)",
     "justices": [
       "roger_b_taney",
@@ -726,7 +727,7 @@
     "photo": "data/oyez/justices_by_court/taney3.jpg"
   },
   {
-    "id": "taney/tane4",
+    "id": "taney4",
     "name": "Taney Court (1838-1841)",
     "justices": [
       "roger_b_taney",
@@ -747,7 +748,7 @@
     "photo": "data/oyez/justices_by_court/taney4.jpg"
   },
   {
-    "id": "taney/tane4b",
+    "id": "taney5",
     "name": "Taney Court (1841-1842)",
     "justices": [
       "roger_b_taney",
@@ -767,7 +768,7 @@
     "photo": "data/oyez/justices_by_court/taney5.jpg"
   },
   {
-    "id": "taney/tane5",
+    "id": "taney6",
     "name": "Taney Court (1842-1843)",
     "justices": [
       "roger_b_taney",
@@ -788,7 +789,7 @@
     "photo": "data/oyez/justices_by_court/taney6.jpg"
   },
   {
-    "id": "taney/tane6",
+    "id": "taney7",
     "name": "Taney Court (1843-1844)",
     "justices": [
       "roger_b_taney",
@@ -808,7 +809,7 @@
     "photo": "data/oyez/justices_by_court/taney7.jpg"
   },
   {
-    "id": "taney/tane6b",
+    "id": "taney8",
     "name": "Taney Court (1844-1845)",
     "justices": [
       "roger_b_taney",
@@ -827,7 +828,7 @@
     "photo": "data/oyez/justices_by_court/taney8.jpg"
   },
   {
-    "id": "taney/tane7",
+    "id": "taney9",
     "name": "Taney Court (1845)",
     "justices": [
       "roger_b_taney",
@@ -844,10 +845,10 @@
     "stop": "1845-09-10",
     "stopFormatted": "Wednesday, September 10, 1845",
     "reason": "Samuel Nelson Joined",
-    "photo": "data/oyez/justices_by_court/taney10.jpg"
+    "photo": "data/oyez/justices_by_court/taney9.jpg"
   },
   {
-    "id": "taney/tane7b",
+    "id": "taney10",
     "name": "Taney Court (1845)",
     "justices": [
       "roger_b_taney",
@@ -862,10 +863,11 @@
     "startFormatted": "Thursday, September 11, 1845",
     "stop": "1845-09-22",
     "stopFormatted": "Monday, September 22, 1845",
-    "reason": "Joseph Story Died"
+    "reason": "Joseph Story Died",
+    "photo": "data/oyez/justices_by_court/taney10.jpg"
   },
   {
-    "id": "taney/tane8",
+    "id": "taney11",
     "name": "Taney Court (1845-1846)",
     "justices": [
       "roger_b_taney",
@@ -885,7 +887,7 @@
     "photo": "data/oyez/justices_by_court/taney11.jpg"
   },
   {
-    "id": "taney/tane9",
+    "id": "taney12",
     "name": "Taney Court (1846-1851)",
     "justices": [
       "roger_b_taney",
@@ -906,7 +908,7 @@
     "photo": "data/oyez/justices_by_court/taney12.jpg"
   },
   {
-    "id": "taney/tane9b",
+    "id": "taney13",
     "name": "Taney Court (1851)",
     "justices": [
       "roger_b_taney",
@@ -926,7 +928,7 @@
     "photo": "data/oyez/justices_by_court/taney13.jpg"
   },
   {
-    "id": "taney/tane10",
+    "id": "taney14",
     "name": "Taney Court (1851-1852)",
     "justices": [
       "roger_b_taney",
@@ -947,7 +949,7 @@
     "photo": "data/oyez/justices_by_court/taney14.jpg"
   },
   {
-    "id": "taney/tane10b",
+    "id": "taney15",
     "name": "Taney Court (1852-1853)",
     "justices": [
       "roger_b_taney",
@@ -967,7 +969,7 @@
     "photo": "data/oyez/justices_by_court/taney15.jpg"
   },
   {
-    "id": "taney/tane11",
+    "id": "taney16",
     "name": "Taney Court (1853-1857)",
     "justices": [
       "roger_b_taney",
@@ -988,7 +990,7 @@
     "photo": "data/oyez/justices_by_court/taney16.jpg"
   },
   {
-    "id": "taney/tane11b",
+    "id": "taney17",
     "name": "Taney Court (1857-1858)",
     "justices": [
       "roger_b_taney",
@@ -1008,7 +1010,7 @@
     "photo": "data/oyez/justices_by_court/taney17.jpg"
   },
   {
-    "id": "taney/tane12",
+    "id": "taney18",
     "name": "Taney Court (1858-1860)",
     "justices": [
       "roger_b_taney",
@@ -1029,7 +1031,7 @@
     "photo": "data/oyez/justices_by_court/taney18.jpg"
   },
   {
-    "id": "taney/tane13",
+    "id": "taney19",
     "name": "Taney Court (1860-1861)",
     "justices": [
       "roger_b_taney",
@@ -1049,7 +1051,7 @@
     "photo": "data/oyez/justices_by_court/taney19.jpg"
   },
   {
-    "id": "taney/tane14",
+    "id": "taney20",
     "name": "Taney Court (1861)",
     "justices": [
       "roger_b_taney",
@@ -1068,7 +1070,7 @@
     "photo": "data/oyez/justices_by_court/taney20.jpg"
   },
   {
-    "id": "taney/tane14b",
+    "id": "taney21",
     "name": "Taney Court (1861-1862)",
     "justices": [
       "roger_b_taney",
@@ -1086,7 +1088,7 @@
     "photo": "data/oyez/justices_by_court/taney21.jpg"
   },
   {
-    "id": "taney/tane15",
+    "id": "taney22",
     "name": "Taney Court (1862)",
     "justices": [
       "roger_b_taney",
@@ -1102,10 +1104,10 @@
     "stop": "1862-07-20",
     "stopFormatted": "Sunday, July 20, 1862",
     "reason": "Noah Swayne Joined",
-    "photo": "data/oyez/justices_by_court/taney23.jpg"
+    "photo": "data/oyez/justices_by_court/taney22.jpg"
   },
   {
-    "id": "taney/tane16",
+    "id": "taney23",
     "name": "Taney Court (1862)",
     "justices": [
       "roger_b_taney",
@@ -1121,10 +1123,11 @@
     "startFormatted": "Monday, July 21, 1862",
     "stop": "1862-12-09",
     "stopFormatted": "Tuesday, December 9, 1862",
-    "reason": "Samuel F. Miller Joined"
+    "reason": "Samuel F. Miller Joined",
+    "photo": "data/oyez/justices_by_court/taney23.jpg"
   },
   {
-    "id": "taney/tane17",
+    "id": "taney24",
     "name": "Taney Court (1862-1863)",
     "justices": [
       "roger_b_taney",
@@ -1145,7 +1148,7 @@
     "photo": "data/oyez/justices_by_court/taney24.jpg"
   },
   {
-    "id": "taney/tane18",
+    "id": "taney25",
     "name": "Taney Court (1863-1864)",
     "justices": [
       "roger_b_taney",
@@ -1167,7 +1170,7 @@
     "photo": "data/oyez/justices_by_court/taney25.jpg"
   },
   {
-    "id": "taney/tane18b",
+    "id": "taney26",
     "name": "Taney Court (1864)",
     "justices": [
       "james_m_wayne",
@@ -1188,7 +1191,7 @@
     "photo": "data/oyez/justices_by_court/taney26.jpg"
   },
   {
-    "id": "chase/chas1",
+    "id": "chase1",
     "name": "Chase Court (1864-1865)",
     "justices": [
       "salmon_p_chase",
@@ -1210,7 +1213,7 @@
     "photo": "data/oyez/justices_by_court/chase1.jpg"
   },
   {
-    "id": "chase/chas2",
+    "id": "chase2",
     "name": "Chase Court (1865-1867)",
     "justices": [
       "salmon_p_chase",
@@ -1233,7 +1236,7 @@
     "photoLarge": "data/oyez/courts/chase/chas2/image-large.jpg"
   },
   {
-    "id": "chase/chas3",
+    "id": "chase3",
     "name": "Chase Court (1867-1870)",
     "justices": [
       "salmon_p_chase",
@@ -1255,7 +1258,7 @@
     "photoLarge": "data/oyez/courts/chase/chas3/image-large.jpg"
   },
   {
-    "id": "chase/chas3b",
+    "id": "chase4",
     "name": "Chase Court (1870)",
     "justices": [
       "salmon_p_chase",
@@ -1271,10 +1274,10 @@
     "stop": "1870-03-13",
     "stopFormatted": "Sunday, March 13, 1870",
     "reason": "Robert C. Grier Retired",
-    "photo": "data/oyez/justices_by_court/chase5.jpg"
+    "photo": "data/oyez/justices_by_court/chase4.jpg"
   },
   {
-    "id": "chase/chas4",
+    "id": "chase5",
     "name": "Chase Court (1870)",
     "justices": [
       "salmon_p_chase",
@@ -1290,10 +1293,11 @@
     "startFormatted": "Monday, March 14, 1870",
     "stop": "1870-03-22",
     "stopFormatted": "Tuesday, March 22, 1870",
-    "reason": "William Strong Joined"
+    "reason": "William Strong Joined",
+    "photo": "data/oyez/justices_by_court/chase5.jpg"
   },
   {
-    "id": "chase/chas5",
+    "id": "chase6",
     "name": "Chase Court (1870-1872)",
     "justices": [
       "salmon_p_chase",
@@ -1314,7 +1318,7 @@
     "photo": "data/oyez/justices_by_court/chase6.jpg"
   },
   {
-    "id": "chase/chas5b",
+    "id": "chase7",
     "name": "Chase Court (1872-1873)",
     "justices": [
       "salmon_p_chase",
@@ -1334,7 +1338,7 @@
     "photo": "data/oyez/justices_by_court/chase7.jpg"
   },
   {
-    "id": "chase/chas6",
+    "id": "chase8",
     "name": "Chase Court (1873)",
     "justices": [
       "salmon_p_chase",
@@ -1355,7 +1359,7 @@
     "photo": "data/oyez/justices_by_court/chase8.jpg"
   },
   {
-    "id": "chase/chas6b",
+    "id": "chase9",
     "name": "Chase Court (1873-1874)",
     "justices": [
       "nathan_clifford",
@@ -1375,7 +1379,7 @@
     "photo": "data/oyez/justices_by_court/chase9.jpg"
   },
   {
-    "id": "waite/wait1",
+    "id": "waite1",
     "name": "Waite Court (1874-1877)",
     "justices": [
       "morrison_r_waite",
@@ -1398,7 +1402,7 @@
     "photoLarge": "data/oyez/courts/waite/wait1/image-large.jpg"
   },
   {
-    "id": "waite/wait1b",
+    "id": "waite2",
     "name": "Waite Court (1877)",
     "justices": [
       "morrison_r_waite",
@@ -1418,7 +1422,7 @@
     "photo": "data/oyez/justices_by_court/waite2.jpg"
   },
   {
-    "id": "waite/wait2",
+    "id": "waite3",
     "name": "Waite Court (1877-1880)",
     "justices": [
       "morrison_r_waite",
@@ -1439,7 +1443,7 @@
     "photo": "data/oyez/justices_by_court/waite3.jpg"
   },
   {
-    "id": "waite/wait2b",
+    "id": "waite4",
     "name": "Waite Court (1880-1881)",
     "justices": [
       "morrison_r_waite",
@@ -1459,7 +1463,7 @@
     "photo": "data/oyez/justices_by_court/waite4.jpg"
   },
   {
-    "id": "waite/wait3",
+    "id": "waite5",
     "name": "Waite Court (1881)",
     "justices": [
       "morrison_r_waite",
@@ -1477,10 +1481,10 @@
     "stop": "1881-01-24",
     "stopFormatted": "Monday, January 24, 1881",
     "reason": "William B. Woods Joined",
-    "photo": "data/oyez/justices_by_court/waite7.jpg"
+    "photo": "data/oyez/justices_by_court/waite5.jpg"
   },
   {
-    "id": "waite/wait3b",
+    "id": "waite6",
     "name": "Waite Court (1881)",
     "justices": [
       "morrison_r_waite",
@@ -1496,10 +1500,11 @@
     "startFormatted": "Tuesday, January 25, 1881",
     "stop": "1881-05-04",
     "stopFormatted": "Wednesday, May 4, 1881",
-    "reason": "Noah Swayne Retired"
+    "reason": "Noah Swayne Retired",
+    "photo": "data/oyez/justices_by_court/waite6.jpg"
   },
   {
-    "id": "waite/wait4",
+    "id": "waite7",
     "name": "Waite Court (1881)",
     "justices": [
       "morrison_r_waite",
@@ -1516,10 +1521,11 @@
     "startFormatted": "Thursday, May 5, 1881",
     "stop": "1881-07-25",
     "stopFormatted": "Monday, July 25, 1881",
-    "reason": "Stanley Matthews Joined"
+    "reason": "Stanley Matthews Joined",
+    "photo": "data/oyez/justices_by_court/waite7.jpg"
   },
   {
-    "id": "waite/wait4b",
+    "id": "waite8",
     "name": "Waite Court (1881-1882)",
     "justices": [
       "morrison_r_waite",
@@ -1539,7 +1545,7 @@
     "photo": "data/oyez/justices_by_court/waite8.jpg"
   },
   {
-    "id": "waite/wait5",
+    "id": "waite9",
     "name": "Waite Court (1882)",
     "justices": [
       "morrison_r_waite",
@@ -1557,10 +1563,10 @@
     "stop": "1882-01-27",
     "stopFormatted": "Friday, January 27, 1882",
     "reason": "Horace Gray Joined",
-    "photo": "data/oyez/justices_by_court/waite10.jpg"
+    "photo": "data/oyez/justices_by_court/waite9.jpg"
   },
   {
-    "id": "waite/wait5b",
+    "id": "waite10",
     "name": "Waite Court (1882)",
     "justices": [
       "morrison_r_waite",
@@ -1576,10 +1582,11 @@
     "startFormatted": "Saturday, January 28, 1882",
     "stop": "1882-04-02",
     "stopFormatted": "Sunday, April 2, 1882",
-    "reason": "Ward Hunt Disabled"
+    "reason": "Ward Hunt Disabled",
+    "photo": "data/oyez/justices_by_court/waite10.jpg"
   },
   {
-    "id": "waite/wait6",
+    "id": "waite11",
     "name": "Waite Court (1882-1887)",
     "justices": [
       "morrison_r_waite",
@@ -1602,7 +1609,7 @@
     "photoLarge": "data/oyez/courts/waite/wait6/image-large.jpg"
   },
   {
-    "id": "waite/wait6b",
+    "id": "waite12",
     "name": "Waite Court (1887-1888)",
     "justices": [
       "morrison_r_waite",
@@ -1622,7 +1629,7 @@
     "photo": "data/oyez/justices_by_court/waite12.jpg"
   },
   {
-    "id": "waite/wait7",
+    "id": "waite13",
     "name": "Waite Court (1888)",
     "justices": [
       "morrison_r_waite",
@@ -1640,12 +1647,12 @@
     "stop": "1888-03-23",
     "stopFormatted": "Friday, March 23, 1888",
     "reason": "Lucius Q.C. Lamar Joined",
-    "photo": "data/oyez/justices_by_court/waite14.jpg",
+    "photo": "data/oyez/justices_by_court/waite13.jpg",
     "photoSmall": "data/oyez/courts/waite/wait7/image-small.jpg",
     "photoLarge": "data/oyez/courts/waite/wait7/image-large.jpg"
   },
   {
-    "id": "waite/wait7b",
+    "id": "waite14",
     "name": "Waite Court (1888)",
     "justices": [
       "samuel_f_miller",
@@ -1661,10 +1668,11 @@
     "startFormatted": "Saturday, March 24, 1888",
     "stop": "1888-10-07",
     "stopFormatted": "Sunday, October 7, 1888",
-    "reason": "Morrison R. Waite Died"
+    "reason": "Morrison R. Waite Died",
+    "photo": "data/oyez/justices_by_court/waite14.jpg"
   },
   {
-    "id": "fuller/full1",
+    "id": "fuller1",
     "name": "Fuller Court (1888-1889)",
     "justices": [
       "melville_w_fuller",
@@ -1687,7 +1695,7 @@
     "photoLarge": "data/oyez/courts/fuller/full1/image-large.jpg"
   },
   {
-    "id": "fuller/full1b",
+    "id": "fuller2",
     "name": "Fuller Court (1889-1890)",
     "justices": [
       "melville_w_fuller",
@@ -1707,7 +1715,7 @@
     "photo": "data/oyez/justices_by_court/fuller2.jpg"
   },
   {
-    "id": "fuller/full2",
+    "id": "fuller3",
     "name": "Fuller Court (1890)",
     "justices": [
       "melville_w_fuller",
@@ -1730,7 +1738,7 @@
     "photoLarge": "data/oyez/courts/fuller/full2/image-large.jpg"
   },
   {
-    "id": "fuller/full2b",
+    "id": "fuller4",
     "name": "Fuller Court (1890-1891)",
     "justices": [
       "melville_w_fuller",
@@ -1750,7 +1758,7 @@
     "photo": "data/oyez/justices_by_court/fuller4.jpg"
   },
   {
-    "id": "fuller/full3",
+    "id": "fuller5",
     "name": "Fuller Court (1891-1892)",
     "justices": [
       "melville_w_fuller",
@@ -1771,7 +1779,7 @@
     "photo": "data/oyez/justices_by_court/fuller5.jpg"
   },
   {
-    "id": "fuller/full3b",
+    "id": "fuller6",
     "name": "Fuller Court (1892)",
     "justices": [
       "melville_w_fuller",
@@ -1791,7 +1799,7 @@
     "photo": "data/oyez/justices_by_court/fuller6.jpg"
   },
   {
-    "id": "fuller/full4",
+    "id": "fuller7",
     "name": "Fuller Court (1892-1893)",
     "justices": [
       "melville_w_fuller",
@@ -1814,7 +1822,7 @@
     "photoLarge": "data/oyez/courts/fuller/full4/image-large.jpg"
   },
   {
-    "id": "fuller/full4b",
+    "id": "fuller8",
     "name": "Fuller Court (1893)",
     "justices": [
       "melville_w_fuller",
@@ -1831,10 +1839,10 @@
     "stop": "1893-03-03",
     "stopFormatted": "Friday, March 3, 1893",
     "reason": "Lucius Q.C. Lamar Died",
-    "photo": "data/oyez/justices_by_court/fuller9.jpg"
+    "photo": "data/oyez/justices_by_court/fuller8.jpg"
   },
   {
-    "id": "fuller/full5",
+    "id": "fuller9",
     "name": "Fuller Court (1893)",
     "justices": [
       "melville_w_fuller",
@@ -1851,10 +1859,11 @@
     "startFormatted": "Saturday, March 4, 1893",
     "stop": "1893-07-07",
     "stopFormatted": "Friday, July 7, 1893",
-    "reason": "Howell E. Jackson Joined"
+    "reason": "Howell E. Jackson Joined",
+    "photo": "data/oyez/justices_by_court/fuller9.jpg"
   },
   {
-    "id": "fuller/full5b",
+    "id": "fuller10",
     "name": "Fuller Court (1893-1894)",
     "justices": [
       "melville_w_fuller",
@@ -1874,7 +1883,7 @@
     "photo": "data/oyez/justices_by_court/fuller10.jpg"
   },
   {
-    "id": "fuller/full6",
+    "id": "fuller11",
     "name": "Fuller Court (1894-1895)",
     "justices": [
       "melville_w_fuller",
@@ -1897,7 +1906,7 @@
     "photoLarge": "data/oyez/courts/fuller/full6/image-large.jpg"
   },
   {
-    "id": "fuller/full6b",
+    "id": "fuller12",
     "name": "Fuller Court (1895-1896)",
     "justices": [
       "melville_w_fuller",
@@ -1917,7 +1926,7 @@
     "photo": "data/oyez/justices_by_court/fuller12.jpg"
   },
   {
-    "id": "fuller/full7",
+    "id": "fuller13",
     "name": "Fuller Court (1896-1897)",
     "justices": [
       "melville_w_fuller",
@@ -1938,7 +1947,7 @@
     "photo": "data/oyez/justices_by_court/fuller13.jpg"
   },
   {
-    "id": "fuller/full7b",
+    "id": "fuller14",
     "name": "Fuller Court (1897-1898)",
     "justices": [
       "melville_w_fuller",
@@ -1958,7 +1967,7 @@
     "photo": "data/oyez/justices_by_court/fuller14.jpg"
   },
   {
-    "id": "fuller/full8",
+    "id": "fuller15",
     "name": "Fuller Court (1898-1902)",
     "justices": [
       "melville_w_fuller",
@@ -1981,7 +1990,7 @@
     "photoLarge": "data/oyez/courts/fuller/full8/image-large.jpg"
   },
   {
-    "id": "fuller/full8b",
+    "id": "fuller16",
     "name": "Fuller Court (1902)",
     "justices": [
       "melville_w_fuller",
@@ -2001,7 +2010,7 @@
     "photo": "data/oyez/justices_by_court/fuller16.jpg"
   },
   {
-    "id": "fuller/full9",
+    "id": "fuller17",
     "name": "Fuller Court (1902-1903)",
     "justices": [
       "melville_w_fuller",
@@ -2022,7 +2031,7 @@
     "photo": "data/oyez/justices_by_court/fuller17.jpg"
   },
   {
-    "id": "fuller/full9b",
+    "id": "fuller18",
     "name": "Fuller Court (1903)",
     "justices": [
       "melville_w_fuller",
@@ -2042,7 +2051,7 @@
     "photo": "data/oyez/justices_by_court/fuller18.jpg"
   },
   {
-    "id": "fuller/full10",
+    "id": "fuller19",
     "name": "Fuller Court (1903-1906)",
     "justices": [
       "melville_w_fuller",
@@ -2065,7 +2074,7 @@
     "photoLarge": "data/oyez/courts/fuller/full10/image-large.jpg"
   },
   {
-    "id": "fuller/full10b",
+    "id": "fuller20",
     "name": "Fuller Court (1906)",
     "justices": [
       "melville_w_fuller",
@@ -2086,7 +2095,7 @@
     "photo": "data/oyez/justices_by_court/fuller20.jpg"
   },
   {
-    "id": "fuller/full11",
+    "id": "fuller21",
     "name": "Fuller Court (1906-1909)",
     "justices": [
       "melville_w_fuller",
@@ -2109,7 +2118,7 @@
     "photoLarge": "data/oyez/courts/fuller/full11/image-large.jpg"
   },
   {
-    "id": "fuller/full11b",
+    "id": "fuller22",
     "name": "Fuller Court (1909-1910)",
     "justices": [
       "melville_w_fuller",
@@ -2130,7 +2139,7 @@
     "photo": "data/oyez/justices_by_court/fuller22.jpg"
   },
   {
-    "id": "fuller/full12",
+    "id": "fuller23",
     "name": "Fuller Court (1910)",
     "justices": [
       "melville_w_fuller",
@@ -2148,10 +2157,10 @@
     "stop": "1910-03-28",
     "stopFormatted": "Monday, March 28, 1910",
     "reason": "Horace H. Lurton Joined",
-    "photo": "data/oyez/justices_by_court/fuller25.jpg"
+    "photo": "data/oyez/justices_by_court/fuller23.jpg"
   },
   {
-    "id": "fuller/full13",
+    "id": "fuller24",
     "name": "Fuller Court (1910)",
     "justices": [
       "melville_w_fuller",
@@ -2167,10 +2176,11 @@
     "startFormatted": "Tuesday, March 29, 1910",
     "stop": "1910-07-04",
     "stopFormatted": "Monday, July 4, 1910",
-    "reason": "David J. Brewer Died"
+    "reason": "David J. Brewer Died",
+    "photo": "data/oyez/justices_by_court/fuller24.jpg"
   },
   {
-    "id": "fuller/full13b",
+    "id": "fuller25",
     "name": "Fuller Court (1910)",
     "justices": [
       "john_m_harlan",
@@ -2185,10 +2195,11 @@
     "startFormatted": "Tuesday, July 5, 1910",
     "stop": "1910-10-09",
     "stopFormatted": "Sunday, October 9, 1910",
-    "reason": "Melville W. Fuller Died"
+    "reason": "Melville W. Fuller Died",
+    "photo": "data/oyez/justices_by_court/fuller25.jpg"
   },
   {
-    "id": "interim/int3",
+    "id": "interim1",
     "name": "Interim Court (1910)",
     "justices": [
       "john_m_harlan",
@@ -2205,10 +2216,10 @@
     "stop": "1910-11-20",
     "stopFormatted": "Sunday, November 20, 1910",
     "reason": "Charles E. Hughes Joined",
-    "photo": "data/oyez/justices_by_court/interim2.jpg"
+    "photo": "data/oyez/justices_by_court/interim1.jpg"
   },
   {
-    "id": "interim/int4",
+    "id": "interim2",
     "name": "Interim Court (1910)",
     "justices": [
       "john_m_harlan",
@@ -2223,10 +2234,11 @@
     "startFormatted": "Monday, November 21, 1910",
     "stop": "1910-12-18",
     "stopFormatted": "Sunday, December 18, 1910",
-    "reason": "William H. Moody Disabled"
+    "reason": "William H. Moody Disabled",
+    "photo": "data/oyez/justices_by_court/interim2.jpg"
   },
   {
-    "id": "white/whit1",
+    "id": "white1",
     "name": "White Court (1910-1911)",
     "justices": [
       "edward_d_white",
@@ -2245,7 +2257,7 @@
     "photo": "data/oyez/justices_by_court/white1.jpg"
   },
   {
-    "id": "white/whit2",
+    "id": "white2",
     "name": "White Court (1911)",
     "justices": [
       "edward_d_white",
@@ -2268,7 +2280,7 @@
     "photoLarge": "data/oyez/courts/white/whit2/image-large.jpg"
   },
   {
-    "id": "white/whit3",
+    "id": "white3",
     "name": "White Court (1911-1912)",
     "justices": [
       "edward_d_white",
@@ -2288,7 +2300,7 @@
     "photo": "data/oyez/justices_by_court/white3.jpg"
   },
   {
-    "id": "white/whit4",
+    "id": "white4",
     "name": "White Court (1912-1914)",
     "justices": [
       "edward_d_white",
@@ -2311,7 +2323,7 @@
     "photoLarge": "data/oyez/courts/white/whit4/image-large.jpg"
   },
   {
-    "id": "white/whit4b",
+    "id": "white5",
     "name": "White Court (1914)",
     "justices": [
       "edward_d_white",
@@ -2331,7 +2343,7 @@
     "photo": "data/oyez/justices_by_court/white5.jpg"
   },
   {
-    "id": "white/whit5",
+    "id": "white6",
     "name": "White Court (1914-1916)",
     "justices": [
       "edward_d_white",
@@ -2354,7 +2366,7 @@
     "photoLarge": "data/oyez/courts/white/whit5/image-large.jpg"
   },
   {
-    "id": "white/whit5b",
+    "id": "white7",
     "name": "White Court (1916)",
     "justices": [
       "edward_d_white",
@@ -2373,7 +2385,7 @@
     "photo": "data/oyez/justices_by_court/white7.jpg"
   },
   {
-    "id": "white/whit6",
+    "id": "white8",
     "name": "White Court (1916-1921)",
     "justices": [
       "edward_d_white",
@@ -2396,7 +2408,7 @@
     "photoLarge": "data/oyez/courts/white/whit6/image-large.jpg"
   },
   {
-    "id": "white/whit6b",
+    "id": "white9",
     "name": "White Court (1921)",
     "justices": [
       "joseph_mckenna",
@@ -2416,7 +2428,7 @@
     "photo": "data/oyez/justices_by_court/white9.jpg"
   },
   {
-    "id": "taft/taft1",
+    "id": "taft1",
     "name": "Taft Court (1921-1922)",
     "justices": [
       "william_howard_taft",
@@ -2439,7 +2451,7 @@
     "photoLarge": "data/oyez/courts/taft/taft1/image-large.jpg"
   },
   {
-    "id": "taft/taft1b",
+    "id": "taft2",
     "name": "Taft Court (1922)",
     "justices": [
       "william_howard_taft",
@@ -2456,10 +2468,10 @@
     "stop": "1922-10-01",
     "stopFormatted": "Sunday, October 1, 1922",
     "reason": "John H. Clarke Resigned",
-    "photo": "data/oyez/justices_by_court/taft4.jpg"
+    "photo": "data/oyez/justices_by_court/taft2.jpg"
   },
   {
-    "id": "taft/taft2",
+    "id": "taft3",
     "name": "Taft Court (1922)",
     "justices": [
       "william_howard_taft",
@@ -2476,10 +2488,11 @@
     "startFormatted": "Monday, October 2, 1922",
     "stop": "1922-11-13",
     "stopFormatted": "Monday, November 13, 1922",
-    "reason": "George Sutherland Joined"
+    "reason": "George Sutherland Joined",
+    "photo": "data/oyez/justices_by_court/taft3.jpg"
   },
   {
-    "id": "taft/taft3",
+    "id": "taft4",
     "name": "Taft Court (1922)",
     "justices": [
       "william_howard_taft",
@@ -2495,10 +2508,11 @@
     "startFormatted": "Tuesday, November 14, 1922",
     "stop": "1922-12-31",
     "stopFormatted": "Sunday, December 31, 1922",
-    "reason": "William R. Day Retired"
+    "reason": "William R. Day Retired",
+    "photo": "data/oyez/justices_by_court/taft4.jpg"
   },
   {
-    "id": "taft/taft3b",
+    "id": "taft5",
     "name": "Taft Court (1923)",
     "justices": [
       "william_howard_taft",
@@ -2514,10 +2528,10 @@
     "stop": "1923-01-01",
     "stopFormatted": "Monday, January 1, 1923",
     "reason": "Mahlon Pitney Disabled",
-    "photo": "data/oyez/justices_by_court/taft6.jpg"
+    "photo": "data/oyez/justices_by_court/taft5.jpg"
   },
   {
-    "id": "taft/taft4",
+    "id": "taft6",
     "name": "Taft Court (1923)",
     "justices": [
       "william_howard_taft",
@@ -2533,10 +2547,11 @@
     "startFormatted": "Tuesday, January 2, 1923",
     "stop": "1923-02-18",
     "stopFormatted": "Sunday, February 18, 1923",
-    "reason": "Pierce Butler Joined"
+    "reason": "Pierce Butler Joined",
+    "photo": "data/oyez/justices_by_court/taft6.jpg"
   },
   {
-    "id": "taft/taft5",
+    "id": "taft7",
     "name": "Taft Court (1923-1925)",
     "justices": [
       "william_howard_taft",
@@ -2559,7 +2574,7 @@
     "photoLarge": "data/oyez/courts/taft/taft5/image-large.jpg"
   },
   {
-    "id": "taft/taft5b",
+    "id": "taft8",
     "name": "Taft Court (1925)",
     "justices": [
       "william_howard_taft",
@@ -2579,7 +2594,7 @@
     "photo": "data/oyez/justices_by_court/taft8.jpg"
   },
   {
-    "id": "taft/taft6",
+    "id": "taft9",
     "name": "Taft Court (1925-1930)",
     "justices": [
       "william_howard_taft",
@@ -2602,7 +2617,7 @@
     "photoLarge": "data/oyez/courts/taft/taft6/image-large.jpg"
   },
   {
-    "id": "taft/taft6b",
+    "id": "taft10",
     "name": "Taft Court (1930)",
     "justices": [
       "oliver_w_holmes_jr",
@@ -2622,7 +2637,7 @@
     "photo": "data/oyez/justices_by_court/taft10.jpg"
   },
   {
-    "id": "hughes/hugh1",
+    "id": "hughes1",
     "name": "Hughes Court (1930)",
     "justices": [
       "charles_e_hughes",
@@ -2640,10 +2655,10 @@
     "stop": "1930-03-08",
     "stopFormatted": "Saturday, March 8, 1930",
     "reason": "Charles E. Hughes Joined",
-    "photo": "data/oyez/justices_by_court/hughes2.jpg"
+    "photo": "data/oyez/justices_by_court/hughes1.jpg"
   },
   {
-    "id": "hughes/hugh1b",
+    "id": "hughes2",
     "name": "Hughes Court (1930)",
     "justices": [
       "charles_e_hughes",
@@ -2659,10 +2674,11 @@
     "startFormatted": "Sunday, March 9, 1930",
     "stop": "1930-06-01",
     "stopFormatted": "Sunday, June 1, 1930",
-    "reason": "Edward T. Sanford Died"
+    "reason": "Edward T. Sanford Died",
+    "photo": "data/oyez/justices_by_court/hughes2.jpg"
   },
   {
-    "id": "hughes/hugh2",
+    "id": "hughes3",
     "name": "Hughes Court (1930-1932)",
     "justices": [
       "charles_e_hughes",
@@ -2685,7 +2701,7 @@
     "photoLarge": "data/oyez/courts/hughes/hugh2/image-large.jpg"
   },
   {
-    "id": "hughes/hugh2b",
+    "id": "hughes4",
     "name": "Hughes Court (1932)",
     "justices": [
       "charles_e_hughes",
@@ -2705,7 +2721,7 @@
     "photo": "data/oyez/justices_by_court/hughes4.jpg"
   },
   {
-    "id": "hughes/hugh3",
+    "id": "hughes5",
     "name": "Hughes Court (1932-1937)",
     "justices": [
       "charles_e_hughes",
@@ -2728,7 +2744,7 @@
     "photoLarge": "data/oyez/courts/hughes/hugh3/image-large.jpg"
   },
   {
-    "id": "hughes/hugh3b",
+    "id": "hughes6",
     "name": "Hughes Court (1937)",
     "justices": [
       "charles_e_hughes",
@@ -2748,7 +2764,7 @@
     "photo": "data/oyez/justices_by_court/hughes6.jpg"
   },
   {
-    "id": "hughes/hugh4",
+    "id": "hughes7",
     "name": "Hughes Court (1937-1938)",
     "justices": [
       "charles_e_hughes",
@@ -2771,7 +2787,7 @@
     "photoLarge": "data/oyez/courts/hughes/hugh4/image-large.jpg"
   },
   {
-    "id": "hughes/hugh4b",
+    "id": "hughes8",
     "name": "Hughes Court (1938)",
     "justices": [
       "charles_e_hughes",
@@ -2788,10 +2804,10 @@
     "stop": "1938-01-30",
     "stopFormatted": "Sunday, January 30, 1938",
     "reason": "George Sutherland Retired",
-    "photo": "data/oyez/justices_by_court/hughes9.jpg"
+    "photo": "data/oyez/justices_by_court/hughes8.jpg"
   },
   {
-    "id": "hughes/hugh5",
+    "id": "hughes9",
     "name": "Hughes Court (1938)",
     "justices": [
       "charles_e_hughes",
@@ -2808,10 +2824,11 @@
     "startFormatted": "Monday, January 31, 1938",
     "stop": "1938-07-09",
     "stopFormatted": "Saturday, July 9, 1938",
-    "reason": "Stanley Reed Joined"
+    "reason": "Stanley Reed Joined",
+    "photo": "data/oyez/justices_by_court/hughes9.jpg"
   },
   {
-    "id": "hughes/hugh5b",
+    "id": "hughes10",
     "name": "Hughes Court (1938-1939)",
     "justices": [
       "charles_e_hughes",
@@ -2832,7 +2849,7 @@
     "photo": "data/oyez/justices_by_court/hughes10.jpg"
   },
   {
-    "id": "hughes/hugh6",
+    "id": "hughes11",
     "name": "Hughes Court (1939)",
     "justices": [
       "charles_e_hughes",
@@ -2850,10 +2867,10 @@
     "stop": "1939-02-13",
     "stopFormatted": "Monday, February 13, 1939",
     "reason": "Felix Frankfurter Joined",
-    "photo": "data/oyez/justices_by_court/hughes13.jpg"
+    "photo": "data/oyez/justices_by_court/hughes11.jpg"
   },
   {
-    "id": "hughes/hugh6b",
+    "id": "hughes12",
     "name": "Hughes Court (1939)",
     "justices": [
       "charles_e_hughes",
@@ -2869,10 +2886,11 @@
     "startFormatted": "Tuesday, February 14, 1939",
     "stop": "1939-04-16",
     "stopFormatted": "Sunday, April 16, 1939",
-    "reason": "Louis D. Brandeis Retired"
+    "reason": "Louis D. Brandeis Retired",
+    "photo": "data/oyez/justices_by_court/hughes12.jpg"
   },
   {
-    "id": "hughes/hugh7",
+    "id": "hughes13",
     "name": "Hughes Court (1939)",
     "justices": [
       "charles_e_hughes",
@@ -2891,10 +2909,11 @@
     "stopFormatted": "Thursday, November 16, 1939",
     "reason": "William O. Douglas Joined",
     "photoSmall": "data/oyez/courts/hughes/hugh7/image-small.jpg",
-    "photoLarge": "data/oyez/courts/hughes/hugh7/image-large.jpg"
+    "photoLarge": "data/oyez/courts/hughes/hugh7/image-large.jpg",
+    "photo": "data/oyez/justices_by_court/hughes13.jpg"
   },
   {
-    "id": "hughes/hugh7b",
+    "id": "hughes14",
     "name": "Hughes Court (1939-1940)",
     "justices": [
       "charles_e_hughes",
@@ -2914,7 +2933,7 @@
     "photo": "data/oyez/justices_by_court/hughes14.jpg"
   },
   {
-    "id": "hughes/hugh8",
+    "id": "hughes15",
     "name": "Hughes Court (1940-1941)",
     "justices": [
       "charles_e_hughes",
@@ -2937,7 +2956,7 @@
     "photoLarge": "data/oyez/courts/hughes/hugh8/image-large.jpg"
   },
   {
-    "id": "hughes/hugh9",
+    "id": "hughes16",
     "name": "Hughes Court (1941)",
     "justices": [
       "charles_e_hughes",
@@ -2954,10 +2973,10 @@
     "stop": "1941-07-01",
     "stopFormatted": "Tuesday, July 1, 1941",
     "reason": "James C. McReynolds Retired",
-    "photo": "data/oyez/justices_by_court/hughes17.jpg"
+    "photo": "data/oyez/justices_by_court/hughes16.jpg"
   },
   {
-    "id": "hughes/hugh9b",
+    "id": "hughes17",
     "name": "Hughes Court (1941)",
     "justices": [
       "harlan_fiske_stone",
@@ -2972,10 +2991,11 @@
     "startFormatted": "Wednesday, July 2, 1941",
     "stop": "1941-07-02",
     "stopFormatted": "Wednesday, July 2, 1941",
-    "reason": "Charles E. Hughes Retired"
+    "reason": "Charles E. Hughes Retired",
+    "photo": "data/oyez/justices_by_court/hughes17.jpg"
   },
   {
-    "id": "stone/sto1",
+    "id": "stone1",
     "name": "Stone Court (1941)",
     "justices": [
       "harlan_fiske_stone",
@@ -2991,10 +3011,10 @@
     "stop": "1941-07-07",
     "stopFormatted": "Monday, July 7, 1941",
     "reason": "Harlan Fiske Stone Promoted",
-    "photo": "data/oyez/justices_by_court/stone2.jpg"
+    "photo": "data/oyez/justices_by_court/stone1.jpg"
   },
   {
-    "id": "stone/sto2",
+    "id": "stone2",
     "name": "Stone Court (1941)",
     "justices": [
       "harlan_fiske_stone",
@@ -3010,10 +3030,11 @@
     "startFormatted": "Tuesday, July 8, 1941",
     "stop": "1941-07-10",
     "stopFormatted": "Thursday, July 10, 1941",
-    "reason": "James F. Byrnes Joined"
+    "reason": "James F. Byrnes Joined",
+    "photo": "data/oyez/justices_by_court/stone2.jpg"
   },
   {
-    "id": "stone/sto3",
+    "id": "stone3",
     "name": "Stone Court (1941-1942)",
     "justices": [
       "harlan_fiske_stone",
@@ -3036,7 +3057,7 @@
     "photoLarge": "data/oyez/courts/stone/sto3/image-large.jpg"
   },
   {
-    "id": "stone/sto3b",
+    "id": "stone4",
     "name": "Stone Court (1942-1943)",
     "justices": [
       "harlan_fiske_stone",
@@ -3056,7 +3077,7 @@
     "photo": "data/oyez/justices_by_court/stone4.jpg"
   },
   {
-    "id": "stone/sto4",
+    "id": "stone5",
     "name": "Stone Court (1943-1945)",
     "justices": [
       "harlan_fiske_stone",
@@ -3079,7 +3100,7 @@
     "photoLarge": "data/oyez/courts/stone/sto4/image-large.jpg"
   },
   {
-    "id": "stone/sto4b",
+    "id": "stone6",
     "name": "Stone Court (1945)",
     "justices": [
       "harlan_fiske_stone",
@@ -3099,7 +3120,7 @@
     "photo": "data/oyez/justices_by_court/stone6.jpg"
   },
   {
-    "id": "stone/sto5",
+    "id": "stone7",
     "name": "Stone Court (1945-1946)",
     "justices": [
       "harlan_fiske_stone",
@@ -3120,7 +3141,7 @@
     "photo": "data/oyez/justices_by_court/stone7.jpg"
   },
   {
-    "id": "stone/sto5b",
+    "id": "stone8",
     "name": "Stone Court (1946)",
     "justices": [
       "hugo_l_black",
@@ -3140,7 +3161,7 @@
     "photo": "data/oyez/justices_by_court/stone8.jpg"
   },
   {
-    "id": "vinson/vin1",
+    "id": "vinson1",
     "name": "Vinson Court (1946-1949)",
     "justices": [
       "fred_m_vinson",
@@ -3163,7 +3184,7 @@
     "photoLarge": "data/oyez/courts/vinson/vin1/image-large.jpg"
   },
   {
-    "id": "vinson/vin1b",
+    "id": "vinson2",
     "name": "Vinson Court (1949)",
     "justices": [
       "fred_m_vinson",
@@ -3180,10 +3201,10 @@
     "stop": "1949-08-23",
     "stopFormatted": "Tuesday, August 23, 1949",
     "reason": "Frank Murphy Died",
-    "photo": "data/oyez/justices_by_court/vinson4.jpg"
+    "photo": "data/oyez/justices_by_court/vinson2.jpg"
   },
   {
-    "id": "vinson/vin2",
+    "id": "vinson3",
     "name": "Vinson Court (1949)",
     "justices": [
       "fred_m_vinson",
@@ -3200,10 +3221,11 @@
     "startFormatted": "Wednesday, August 24, 1949",
     "stop": "1949-09-10",
     "stopFormatted": "Saturday, September 10, 1949",
-    "reason": "Tom C. Clark Joined"
+    "reason": "Tom C. Clark Joined",
+    "photo": "data/oyez/justices_by_court/vinson3.jpg"
   },
   {
-    "id": "vinson/vin2b",
+    "id": "vinson4",
     "name": "Vinson Court (1949)",
     "justices": [
       "fred_m_vinson",
@@ -3219,10 +3241,11 @@
     "startFormatted": "Sunday, September 11, 1949",
     "stop": "1949-10-11",
     "stopFormatted": "Tuesday, October 11, 1949",
-    "reason": "Wiley B. Rutledge Died"
+    "reason": "Wiley B. Rutledge Died",
+    "photo": "data/oyez/justices_by_court/vinson4.jpg"
   },
   {
-    "id": "vinson/vin3",
+    "id": "vinson5",
     "name": "Vinson Court (1949-1953)",
     "justices": [
       "fred_m_vinson",
@@ -3245,7 +3268,7 @@
     "photoLarge": "data/oyez/courts/vinson/vin3/image-large.jpg"
   },
   {
-    "id": "vinson/vin3b",
+    "id": "vinson6",
     "name": "Vinson Court (1953)",
     "justices": [
       "hugo_l_black",
@@ -3265,7 +3288,7 @@
     "photo": "data/oyez/justices_by_court/vinson6.jpg"
   },
   {
-    "id": "warren/war1",
+    "id": "warren1",
     "name": "Warren Court (1953-1954)",
     "justices": [
       "earl_warren",
@@ -3288,7 +3311,7 @@
     "photoLarge": "data/oyez/courts/warren/war1/image-large.jpg"
   },
   {
-    "id": "warren/war1b",
+    "id": "warren2",
     "name": "Warren Court (1954-1955)",
     "justices": [
       "earl_warren",
@@ -3308,7 +3331,7 @@
     "photo": "data/oyez/justices_by_court/warren2.jpg"
   },
   {
-    "id": "warren/war2",
+    "id": "warren3",
     "name": "Warren Court (1955-1956)",
     "justices": [
       "earl_warren",
@@ -3331,7 +3354,7 @@
     "photoLarge": "data/oyez/courts/warren/war2/image-large.jpg"
   },
   {
-    "id": "warren/war3",
+    "id": "warren4",
     "name": "Warren Court (1956-1957)",
     "justices": [
       "earl_warren",
@@ -3354,7 +3377,7 @@
     "photoLarge": "data/oyez/courts/warren/war3/image-large.jpg"
   },
   {
-    "id": "warren/war3b",
+    "id": "warren5",
     "name": "Warren Court (1957)",
     "justices": [
       "earl_warren",
@@ -3374,7 +3397,7 @@
     "photo": "data/oyez/justices_by_court/warren5.jpg"
   },
   {
-    "id": "warren/war4",
+    "id": "warren6",
     "name": "Warren Court (1957-1958)",
     "justices": [
       "earl_warren",
@@ -3397,7 +3420,7 @@
     "photoLarge": "data/oyez/courts/warren/war4/image-large.jpg"
   },
   {
-    "id": "warren/war5",
+    "id": "warren7",
     "name": "Warren Court (1958-1962)",
     "justices": [
       "earl_warren",
@@ -3420,7 +3443,7 @@
     "photoLarge": "data/oyez/courts/warren/war5/image-large.jpg"
   },
   {
-    "id": "warren/war5b",
+    "id": "warren8",
     "name": "Warren Court (1962)",
     "justices": [
       "earl_warren",
@@ -3437,10 +3460,10 @@
     "stop": "1962-04-15",
     "stopFormatted": "Sunday, April 15, 1962",
     "reason": "Charles E. Whittaker Disabled",
-    "photo": "data/oyez/justices_by_court/warren10.jpg"
+    "photo": "data/oyez/justices_by_court/warren8.jpg"
   },
   {
-    "id": "warren/war6",
+    "id": "warren9",
     "name": "Warren Court (1962)",
     "justices": [
       "earl_warren",
@@ -3459,10 +3482,11 @@
     "stopFormatted": "Tuesday, August 28, 1962",
     "reason": "Byron R. White Joined",
     "photoSmall": "data/oyez/courts/warren/war6/image-small.jpg",
-    "photoLarge": "data/oyez/courts/warren/war6/image-large.jpg"
+    "photoLarge": "data/oyez/courts/warren/war6/image-large.jpg",
+    "photo": "data/oyez/justices_by_court/warren9.jpg"
   },
   {
-    "id": "warren/war6b",
+    "id": "warren10",
     "name": "Warren Court (1962)",
     "justices": [
       "earl_warren",
@@ -3478,10 +3502,11 @@
     "startFormatted": "Wednesday, August 29, 1962",
     "stop": "1962-09-30",
     "stopFormatted": "Sunday, September 30, 1962",
-    "reason": "Felix Frankfurter Retired"
+    "reason": "Felix Frankfurter Retired",
+    "photo": "data/oyez/justices_by_court/warren10.jpg"
   },
   {
-    "id": "warren/war7",
+    "id": "warren11",
     "name": "Warren Court (1962-1965)",
     "justices": [
       "earl_warren",
@@ -3504,7 +3529,7 @@
     "photoLarge": "data/oyez/courts/warren/war7/image-large.jpg"
   },
   {
-    "id": "warren/war7b",
+    "id": "warren12",
     "name": "Warren Court (1965)",
     "justices": [
       "earl_warren",
@@ -3524,7 +3549,7 @@
     "photo": "data/oyez/justices_by_court/warren12.jpg"
   },
   {
-    "id": "warren/war8",
+    "id": "warren13",
     "name": "Warren Court (1965-1967)",
     "justices": [
       "earl_warren",
@@ -3547,7 +3572,7 @@
     "photoLarge": "data/oyez/courts/warren/war8/image-large.jpg"
   },
   {
-    "id": "warren/war8b",
+    "id": "warren14",
     "name": "Warren Court (1967)",
     "justices": [
       "earl_warren",
@@ -3567,7 +3592,7 @@
     "photo": "data/oyez/justices_by_court/warren14.jpg"
   },
   {
-    "id": "warren/war9",
+    "id": "warren15",
     "name": "Warren Court (1967-1969)",
     "justices": [
       "earl_warren",
@@ -3590,7 +3615,7 @@
     "photoLarge": "data/oyez/courts/warren/war9/image-large.jpg"
   },
   {
-    "id": "warren/war9b",
+    "id": "warren16",
     "name": "Warren Court (1969)",
     "justices": [
       "earl_warren",
@@ -3610,7 +3635,7 @@
     "photo": "data/oyez/justices_by_court/warren16.jpg"
   },
   {
-    "id": "burger/burg1",
+    "id": "burger1",
     "name": "Burger Court (1969-1970)",
     "justices": [
       "warren_e_burger",
@@ -3632,7 +3657,7 @@
     "photoLarge": "data/oyez/courts/burger/burg1/image-large.jpg"
   },
   {
-    "id": "burger/burg2",
+    "id": "burger2",
     "name": "Burger Court (1970-1971)",
     "justices": [
       "warren_e_burger",
@@ -3655,7 +3680,7 @@
     "photoLarge": "data/oyez/courts/burger/burg2/image-large.jpg"
   },
   {
-    "id": "burger/burg2b",
+    "id": "burger3",
     "name": "Burger Court (1971-1972)",
     "justices": [
       "warren_e_burger",
@@ -3674,7 +3699,7 @@
     "photo": "data/oyez/justices_by_court/burger3.jpg"
   },
   {
-    "id": "burger/burg3",
+    "id": "burger4",
     "name": "Burger Court (1972-1975)",
     "justices": [
       "warren_e_burger",
@@ -3697,7 +3722,7 @@
     "photoLarge": "data/oyez/courts/burger/burg3/image-large.jpg"
   },
   {
-    "id": "burger/burg3b",
+    "id": "burger5",
     "name": "Burger Court (1975)",
     "justices": [
       "warren_e_burger",
@@ -3717,7 +3742,7 @@
     "photo": "data/oyez/justices_by_court/burger5.jpg"
   },
   {
-    "id": "burger/burg4",
+    "id": "burger6",
     "name": "Burger Court (1975-1981)",
     "justices": [
       "warren_e_burger",
@@ -3740,7 +3765,7 @@
     "photoLarge": "data/oyez/courts/burger/burg4/image-large.jpg"
   },
   {
-    "id": "burger/burg4b",
+    "id": "burger7",
     "name": "Burger Court (1981)",
     "justices": [
       "warren_e_burger",
@@ -3760,7 +3785,7 @@
     "photo": "data/oyez/justices_by_court/burger7.jpg"
   },
   {
-    "id": "burger/burg5",
+    "id": "burger8",
     "name": "Burger Court (1981-1986)",
     "justices": [
       "warren_e_burger",
@@ -3783,7 +3808,7 @@
     "photoLarge": "data/oyez/courts/burger/burg5/image-large.jpg"
   },
   {
-    "id": "rehnquist/rehn1",
+    "id": "rehnquist1",
     "name": "Rehnquist Court (1986-1987)",
     "justices": [
       "william_h_rehnquist",
@@ -3806,7 +3831,7 @@
     "photoLarge": "data/oyez/courts/rehnquist/rehn1/image-large.jpg"
   },
   {
-    "id": "rehnquist/rehn1b",
+    "id": "rehnquist2",
     "name": "Rehnquist Court (1987-1988)",
     "justices": [
       "william_h_rehnquist",
@@ -3826,7 +3851,7 @@
     "photo": "data/oyez/justices_by_court/rehnquist2.jpg"
   },
   {
-    "id": "rehnquist/rehn2",
+    "id": "rehnquist3",
     "name": "Rehnquist Court (1988-1990)",
     "justices": [
       "william_h_rehnquist",
@@ -3849,7 +3874,7 @@
     "photoLarge": "data/oyez/courts/rehnquist/rehn2/image-large.jpg"
   },
   {
-    "id": "rehnquist/rehn2b",
+    "id": "rehnquist4",
     "name": "Rehnquist Court (1990)",
     "justices": [
       "william_h_rehnquist",
@@ -3869,7 +3894,7 @@
     "photo": "data/oyez/justices_by_court/rehnquist4.jpg"
   },
   {
-    "id": "rehnquist/rehn3",
+    "id": "rehnquist5",
     "name": "Rehnquist Court (1990-1991)",
     "justices": [
       "william_h_rehnquist",
@@ -3892,7 +3917,7 @@
     "photoLarge": "data/oyez/courts/rehnquist/rehn3/image-large.jpg"
   },
   {
-    "id": "rehnquist/rehn3b",
+    "id": "rehnquist6",
     "name": "Rehnquist Court (1991)",
     "justices": [
       "william_h_rehnquist",
@@ -3912,7 +3937,7 @@
     "photo": "data/oyez/justices_by_court/rehnquist6.jpg"
   },
   {
-    "id": "rehnquist/rehn4",
+    "id": "rehnquist7",
     "name": "Rehnquist Court (1991-1993)",
     "justices": [
       "william_h_rehnquist",
@@ -3935,7 +3960,7 @@
     "photoLarge": "data/oyez/courts/rehnquist/rehn4/image-large.jpg"
   },
   {
-    "id": "rehnquist/rehn4b",
+    "id": "rehnquist8",
     "name": "Rehnquist Court (1993)",
     "justices": [
       "william_h_rehnquist",
@@ -3955,7 +3980,7 @@
     "photo": "data/oyez/justices_by_court/rehnquist8.jpg"
   },
   {
-    "id": "rehnquist/rehn5",
+    "id": "rehnquist9",
     "name": "Rehnquist Court (1993-1994)",
     "justices": [
       "william_h_rehnquist",
@@ -3978,7 +4003,7 @@
     "photoLarge": "data/oyez/courts/rehnquist/rehn5/image-large.jpg"
   },
   {
-    "id": "rehnquist/rehn6",
+    "id": "rehnquist10",
     "name": "Rehnquist Court (1994-2005)",
     "justices": [
       "william_h_rehnquist",
@@ -4001,7 +4026,7 @@
     "photoLarge": "data/oyez/courts/rehnquist/rehn6/image-large.jpg"
   },
   {
-    "id": "rehnquist/rehn6b",
+    "id": "rehnquist11",
     "name": "Rehnquist Court (2005)",
     "justices": [
       "john_paul_stevens",
@@ -4021,7 +4046,7 @@
     "photo": "data/oyez/justices_by_court/rehnquist11.jpg"
   },
   {
-    "id": "roberts/robt1",
+    "id": "roberts1",
     "name": "Roberts Court (2005-2006)",
     "justices": [
       "john_g_roberts_jr",
@@ -4044,7 +4069,7 @@
     "photoLarge": "data/oyez/courts/roberts/robt1/image-large.jpg"
   },
   {
-    "id": "roberts/robt2",
+    "id": "roberts2",
     "name": "Roberts Court (2006-2009)",
     "justices": [
       "john_g_roberts_jr",
@@ -4067,7 +4092,7 @@
     "photoLarge": "data/oyez/courts/roberts/robt2/image-large.jpg"
   },
   {
-    "id": "roberts/robt3",
+    "id": "roberts3",
     "name": "Roberts Court (2009)",
     "justices": [
       "john_g_roberts_jr",
@@ -4087,7 +4112,7 @@
     "photo": "data/oyez/justices_by_court/roberts3.jpg"
   },
   {
-    "id": "roberts/robt4",
+    "id": "roberts4",
     "name": "Roberts Court (2009-2010)",
     "justices": [
       "john_g_roberts_jr",
@@ -4110,7 +4135,7 @@
     "photoLarge": "data/oyez/courts/roberts/robt4/image-large.jpg"
   },
   {
-    "id": "roberts/robt5",
+    "id": "roberts5",
     "name": "Roberts Court (2010)",
     "justices": [
       "john_g_roberts_jr",
@@ -4130,7 +4155,7 @@
     "photo": "data/oyez/justices_by_court/roberts5.jpg"
   },
   {
-    "id": "roberts/robt6",
+    "id": "roberts6",
     "name": "Roberts Court (2010-2016)",
     "justices": [
       "john_g_roberts_jr",
@@ -4153,7 +4178,7 @@
     "photoLarge": "data/oyez/courts/roberts/robt6/image-large.jpg"
   },
   {
-    "id": "roberts/robt7",
+    "id": "roberts7",
     "name": "Roberts Court (2016-2017)",
     "justices": [
       "john_g_roberts_jr",
@@ -4173,7 +4198,7 @@
     "photo": "data/oyez/justices_by_court/roberts7.jpg"
   },
   {
-    "id": "roberts/robt8",
+    "id": "roberts8",
     "name": "Roberts Court (2017-2018)",
     "justices": [
       "john_g_roberts_jr",
