@@ -390,7 +390,7 @@ function buildCourts(done)
         while (j < courtsSCDB.length) {
             if (court && courtsSCDB[j].start > court.stop) break;
             let courtSCDB = courtsSCDB[j];
-            csv += sprintf('"SCBD","%s","%s","%s"\n', courtSCDB.naturalName, courtSCDB.startFormatted, courtSCDB.stopFormatted);
+            csv += sprintf('"SCDB","%s","%s","%s"\n', courtSCDB.naturalName, courtSCDB.startFormatted, courtSCDB.stopFormatted);
             j++;
         }
     }
