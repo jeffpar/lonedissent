@@ -261,10 +261,11 @@ function readCourts()
     let html = readTextFile(pkg.oyez.courtsHTML);
     let reCourt = /lazy-img="([^"]*)"\s+alt="([^"]*)"[^>]*src="([^"]*)"/g, match;
     while ((match = reCourt.exec(html))) {
-        let i;
+        let i, matched = false;
         let name = match[2].replace(/\s+/g, " ");
         for (i = courts.length - 1; i >= 0; i--) {
             if (courts[i].name == match[2]) {
+                matched = true;
                 if (!courts[i].photo) {
                     courts[i].photo = path.join("data/oyez", match[3]);
                     fixes++;
@@ -272,7 +273,7 @@ function readCourts()
                 }
             }
         }
-        if (i < 0) {
+        if (!matched) {
             printf("warning: unable to find HTML court '%s' in XML courts\n", match[2]);
         }
     }
