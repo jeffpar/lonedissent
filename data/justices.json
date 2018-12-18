@@ -80,7 +80,8 @@
     "startFormatted": "Monday, August 6, 1792",
     "stop": "1793-01-16",
     "stopFormatted": "Wednesday, January 16, 1793",
-    "stopReason": "Resigned"
+    "stopReason": "Resigned",
+    "scdb": "7"
   },
   {
     "id": "william_paterson",
@@ -139,7 +140,9 @@
     "startFormatted": "Monday, February 4, 1799",
     "stop": "1829-11-26",
     "stopFormatted": "Thursday, November 26, 1829",
-    "stopReason": "Death"
+    "stopReason": "Death",
+    "scdb": "12",
+    "notes": "SCDB claims the date of oath was Nov 9, 1798, which seems unlikely if he was confirmed on Dec 20, 1798."
   },
   {
     "id": "alfred_moore",
@@ -162,7 +165,8 @@
     "startFormatted": "Wednesday, February 4, 1801",
     "stop": "1835-07-06",
     "stopFormatted": "Monday, July 6, 1835",
-    "stopReason": "Death"
+    "stopReason": "Death",
+    "scdb": "14"
   },
   {
     "id": "william_johnson",
@@ -229,12 +233,13 @@
     "name": "Smith Thompson",
     "position": "Associate Justice",
     "seat": 2,
-    "start": "1823-09-01",
-    "startFormatted": "Monday, September 1, 1823",
+    "start": "1824-02-10",
+    "startFormatted": "Tuesday, February 10, 1824",
     "stop": "1843-12-18",
     "stopFormatted": "Monday, December 18, 1843",
     "stopReason": "Death",
-    "scdb": "20"
+    "scdb": "20",
+    "notes": "The 1994 Compendium (p.304) claims that Thompson took the oath on Feb 10, 1824, which makes more sense than the day after Livingston's death."
   },
   {
     "id": "robert_trimble",
@@ -495,7 +500,9 @@
     "startFormatted": "Wednesday, March 23, 1870",
     "stop": "1892-01-22",
     "stopFormatted": "Friday, January 22, 1892",
-    "stopReason": "Death"
+    "stopReason": "Death",
+    "scdb": "42",
+    "notes": "The 1994 Compendium (p.306) lists the date of oath as Mar 23, but SCDB has Mar 21, and OYEZ has Mar 22...."
   },
   {
     "id": "ward_hunt",
@@ -698,7 +705,8 @@
     "startFormatted": "Monday, December 8, 1902",
     "stop": "1932-01-12",
     "stopFormatted": "Tuesday, January 12, 1932",
-    "stopReason": "Retired"
+    "stopReason": "Retired",
+    "scdb": "59"
   },
   {
     "id": "william_r_day",
@@ -757,7 +765,8 @@
     "startFormatted": "Monday, December 19, 1910",
     "stop": "1921-05-19",
     "stopFormatted": "Thursday, May 19, 1921",
-    "stopReason": "Death"
+    "stopReason": "Death",
+    "scdb": "56"
   },
   {
     "id": "willis_van_devanter",
@@ -996,7 +1005,8 @@
     "startFormatted": "Thursday, July 3, 1941",
     "stop": "1946-04-22",
     "stopFormatted": "Monday, April 22, 1946",
-    "stopReason": "Death"
+    "stopReason": "Death",
+    "scdb": "74"
   },
   {
     "id": "james_f_byrnes",
@@ -1235,7 +1245,8 @@
     "startFormatted": "Saturday, January 8, 1972",
     "stop": "1986-09-27",
     "stopFormatted": "Saturday, September 27, 1986",
-    "stopReason": "Promoted"
+    "stopReason": "Promoted",
+    "scdb": "102"
   },
   {
     "id": "john_paul_stevens",
@@ -1270,7 +1281,8 @@
     "startFormatted": "Friday, September 26, 1986",
     "stop": "2005-09-03",
     "stopFormatted": "Saturday, September 3, 2005",
-    "stopReason": "Death"
+    "stopReason": "Death",
+    "scdb": "102"
   },
   {
     "id": "antonin_scalia",
@@ -1359,7 +1371,8 @@
     "position": "Associate Justice",
     "seat": 5,
     "start": "2009-08-08",
-    "startFormatted": "Saturday, August 8, 2009"
+    "startFormatted": "Saturday, August 8, 2009",
+    "scdb": "113"
   },
   {
     "id": "elena_kagan",
@@ -1367,7 +1380,8 @@
     "position": "Associate Justice",
     "seat": 6,
     "start": "2010-08-07",
-    "startFormatted": "Saturday, August 7, 2010"
+    "startFormatted": "Saturday, August 7, 2010",
+    "scdb": "114"
   },
   {
     "id": "neil_gorsuch",
