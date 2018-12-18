@@ -104,6 +104,10 @@ function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=fa
                     }
                     if (t.type == "number") {
                         field = +field;
+                    } else if (t.type == "date") {
+                        if (field) {
+                            field = stdio.formatDate("Y-m-d", new Date(field));
+                        }
                     }
                 }
                 if (heading == keyIgnore) {
@@ -511,7 +515,7 @@ function buildDecisions(done)
     let decisions = parseCSV(readTextFile(pkg.scdb.decisionsCSV), 0, "voteId", "justice", false, types);
     printf("SCDB decisions: %d\n", decisions.length);
     let json = sprintf("%2j\n", decisions);
-    writeTextFile(pkg.data.decisions, json);
+    writeTextFile(pkg.data.decisions, json, true);
     done();
 }
 

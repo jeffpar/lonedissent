@@ -2,6 +2,15 @@
   "term": {
     "type": "number"
   },
+  "dateArgument": {
+    "type": "date"
+  },
+  "dateRearg": {
+    "type": "date"
+  },
+  "dateDecision": {
+    "type": "date"
+  },
   "petitioner": {
     "type": "number",
     "values": {
