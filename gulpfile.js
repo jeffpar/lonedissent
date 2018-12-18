@@ -347,6 +347,15 @@ function readOyezCourts()
 function readSCDBCourts()
 {
     let courts = parseCSV(readTextFile(pkg.scdb.courts));
+    for (let i = 0; i < courts.length; i++) {
+        let court = courts[i];
+        let start = new Date(court.naturalStart);
+        let stop = new Date(court.naturalStop);
+        court.start = stdio.formatDate("Y-m-d", start);
+        court.stop = stdio.formatDate("Y-m-d", stop);
+        court.startFormatted = stdio.formatDate("l, F j, Y", start);
+        court.stopFormatted = stdio.formatDate("l, F j, Y", stop);
+    }
     // printf("%2j\n", courts);
     return courts;
 }
@@ -358,14 +367,34 @@ function readSCDBCourts()
  */
 function buildCourts(done)
 {
-    let courts = readOyezCourts();
-    printf("Oyez courts read: %d\n", courts.length);
-    let json = sprintf("%2j\n", courts);
-    writeTextFile(pkg.data.courts, json);
-    courts = readSCDBCourts();
-    printf("SCDB courts read: %d\n", courts.length);
-    courts = readDataCourts();
+    /*
+     * Now that we've edited courts.json, we no longer want to rebuild it.
+     *
+     *      let courtsOyez = readOyezCourts();
+     *      printf("Oyez courts read: %d\n", courtsOyez.length);
+     *      let json = sprintf("%2j\n", courtsOyez);
+     *      writeTextFile(pkg.data.courts, json);
+     */
+    let courts = readDataCourts();
     printf("data courts read: %d\n", courts.length);
+    let courtsSCDB = readSCDBCourts();
+    printf("SCDB courts read: %d\n", courtsSCDB.length);
+    /*
+     * Walk the courts data, interleaving the courtsSCDB data.
+     */
+    let j = 0;
+    let csv = "";
+    for (let i = 0; i <= courts.length; i++) {
+        let court = courts[i];
+        if (court) csv += sprintf('"OYEZ","%s","%s","%s"\n', court.name, court.startFormatted, court.stopFormatted);
+        while (j < courtsSCDB.length) {
+            if (court && courtsSCDB[j].start > court.stop) break;
+            let courtSCDB = courtsSCDB[j];
+            csv += sprintf('"SCBD","%s","%s","%s"\n', courtSCDB.naturalName, courtSCDB.startFormatted, courtSCDB.stopFormatted);
+            j++;
+        }
+    }
+    writeTextFile(pkg.data.courtsCSV, csv, true);
     done();
 }
 
