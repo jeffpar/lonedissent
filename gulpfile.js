@@ -453,11 +453,36 @@ function buildCourts(done)
      */
     let courts = readCourts();
     printf("courts read: %d\n", courts.length);
+
+    /*
+     * Let's verify that all the justices are appropriately slotted into the courts.
+     */
+    let lastCourtPrinted = "";
+    let justices = JSON.parse(readTextFile(pkg.data.justices));
+    for (let i = 0; i < justices.length; i++) {
+        let justice = justices[i];
+        let nCourts = 0;
+        for (let j = 0; j < courts.length; j++) {
+            let court = courts[j];
+            if (justice.start >= court.start && (!court.stop || justice.start <= court.stop)) {
+                let nDays = stdio.subtractDates(justice.start, court.start);
+                if (lastCourtPrinted != court.id) {
+                    if (nDays) printf("court %s: justice %s started within %d days\n", court.id, justice.name, nDays);
+                    lastCourtPrinted = court.id;
+                }
+                nCourts++;
+            }
+        }
+        if (nCourts != 1) {
+            printf("warning: justice %s started in %d courts\n", justice.name, nCourts);
+        }
+    }
+
+    /*
+     * Now walk the courts data, interleaving the courtsSCDB data, to produce a reconciliation spreadsheet.
+     */
     let courtsSCDB = readSCDBCourts();
     printf("SCDB courts read: %d\n", courtsSCDB.length);
-    /*
-     * Walk the courts data, interleaving the courtsSCDB data, to produce a reconciliation spreadsheet.
-     */
     let j = 0;
     let csv = sprintf('"reconcileDB","reconcileName","reconcileStart","reconcileStop"\n');
     for (let i = 0; i <= courts.length; i++) {
@@ -470,6 +495,7 @@ function buildCourts(done)
             j++;
         }
     }
+
     writeTextFile(pkg.data.courtsCSV, csv, true);
     done();
 }

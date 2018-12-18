@@ -486,8 +486,8 @@
     ],
     "start": "1823-03-19",
     "startFormatted": "Wednesday, March 19, 1823",
-    "stop": "1824-02-09",
-    "stopFormatted": "Monday, February 9, 1824",
+    "stop": "1823-08-31",
+    "stopFormatted": "Sunday, August 31, 1823",
     "reason": "Brockholst Livingston Died",
     "photo": "data/oyez/justices_by_court/marshall11.jpg"
   },
@@ -503,12 +503,13 @@
       "joseph_story",
       "smith_thompson"
     ],
-    "start": "1824-02-10",
-    "startFormatted": "Tuesday, February 10, 1824",
+    "start": "1823-09-01",
+    "startFormatted": "Monday, September 1, 1823",
     "stop": "1826-02-07",
     "stopFormatted": "Tuesday, February 7, 1826",
     "reason": "Smith Thompson Joined",
-    "photo": "data/oyez/justices_by_court/marshall12.jpg"
+    "photo": "data/oyez/justices_by_court/marshall12.jpg",
+    "notes": "The 1994 Compendium (p.304) claims that Thompson took the oath on Feb 10, 1824, but other sources say Sep 1, 1823."
   },
   {
     "id": "marshall13",
@@ -1525,7 +1526,8 @@
     "stop": "1881-07-25",
     "stopFormatted": "Monday, July 25, 1881",
     "reason": "Stanley Matthews Joined",
-    "photo": "data/oyez/justices_by_court/waite7.jpg"
+    "photo": "data/oyez/justices_by_court/waite7.jpg",
+    "notes": "If Matthews didn't take the oath until May 17, 1881, why does this court start on May 5, 1881?"
   },
   {
     "id": "waite8",
@@ -2408,7 +2410,8 @@
     "reason": "Louis D. Brandeis Joined, John H. Clarke Joined",
     "photo": "data/oyez/justices_by_court/white8.jpg",
     "photoSmall": "data/oyez/courts/white/whit6/image-small.jpg",
-    "photoLarge": "data/oyez/courts/white/whit6/image-large.jpg"
+    "photoLarge": "data/oyez/courts/white/whit6/image-large.jpg",
+    "notes": "Brandeis supposedly took the oath on Jun 5, 1916, but an earlier court was not created to reflect that."
   },
   {
     "id": "white9",
