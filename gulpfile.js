@@ -3,9 +3,6 @@
  * @author <a href="mailto:Jeff@pcjs.org">Jeff Parsons</a> (@jeffpar)
  * @copyright © Jeff Parsons 2018
  * @license GPL-3.0
- *
- * TODO: Process SCDB's justices.csv in combination with their naturalCourts.csv to help validate both.
- * TODO: Update every "id" in courts.json with the photo ID
  */
 
  "use strict";
@@ -17,14 +14,18 @@ let mkdirp = require("mkdirp");
 let path = require("path");
 let parseXML = require('xml2js').parseString;
 
+let datelib = require("./lib/datelib");
+let proclib = require("./lib/proclib");
 let stdio = require("./lib/stdio");
 let printf = stdio.printf;
 let sprintf = stdio.sprintf;
+let strlib = require("./lib/strlib");
 
 let pkg = require("./package.json");
+let argv = proclib.args.argv;
 
 /**
- * @typedef {Object} Justice
+ * @typedef {object} Justice
  * @property {string} id
  * @property {string} name
  * @property {string} position
@@ -38,7 +39,7 @@ let pkg = require("./package.json");
  */
 
 /**
- * @typedef {Object} Court
+ * @typedef {object} Court
  * @property {string} id
  * @property {string} name
  * @property {Array.<string>} justices
@@ -51,6 +52,71 @@ let pkg = require("./package.json");
  */
 
 /**
+ * For a complete list of possible values for the following decision variables, see codes.json.
+ *
+ * @typedef {object} Decision
+ * @property {string} caseId
+ * @property {string} docketId
+ * @property {string} caseIssuesId
+ * @property {string} voteId
+ * @property {number} decisionType
+ * @property {string} usCite
+ * @property {string} sctCite
+ * @property {string} ledCite
+ * @property {string} lexisCite
+ * @property {string} docket
+ * @property {string} caseName
+ * @property {number} term
+ * @property {string} dateArgument
+ * @property {string} dateRearg
+ * @property {string} dateDecision
+ * @property {number} petitioner
+ * @property {number} respondent
+ * @property {number} petitionerState
+ * @property {number} respondentState
+ * @property {number} jurisdiction
+ * @property {number} adminAction
+ * @property {number} adminActionState
+ * @property {number} threeJudgeFdc
+ * @property {number} caseOrigin
+ * @property {number} caseOriginState
+ * @property {number} caseSource
+ * @property {number} caseSourceState
+ * @property {number} lcDisagreement
+ * @property {number} certReason
+ * @property {number} lcDisposition
+ * @property {number} lcDispositionDirection
+ * @property {number} issue
+ * @property {number} issueArea
+ * @property {number} decisionDirection
+ * @property {number} decisionDirectionDissent
+ * @property {number} authorityDecision1
+ * @property {number} authorityDecision2
+ * @property {number} lawType
+ * @property {number} lawSupp
+ * @property {number} declarationUncon
+ * @property {number} caseDisposition
+ * @property {number} caseDispositionUnusual
+ * @property {number} partyWinning
+ * @property {number} precedentAlteration
+ * @property {number} voteUnclear
+ * @property {number} splitVote
+ * @property {number} majVotes
+ * @property {number} minVotes
+ * @property {number} naturalCourt
+ * @property {string} chief
+ * @property {number} justice
+ * @property {number} majOpinWriter
+ * @property {number} majOpinAssigner
+ * @property {number} firstAgreement
+ * @property {number} secondAgreement
+ * @property {number} vote
+ * @property {number} opinion
+ * @property {number} direction
+ * @property {number} majority
+ */
+
+ /**
  * parseCSV(text, maxRows, keyIgnore, keyUnique, saveIgnoredKey, types)
  *
  * @param {string} text
@@ -58,7 +124,7 @@ let pkg = require("./package.json");
  * @param {string} [keyIgnore] (name of field, if any, that should be ignored; typically a key associated with the subset fields)
  * @param {string} [keyUnique] (name of first subset field, if any, containing data for unique subsets)
  * @param {boolean} [saveIgnoredKey] (default is false, to reduce space requirements)
- * @param {Object|null} [types]
+ * @param {object|null} [types]
  * @return {Array.<Object>}
  */
 function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=false, types=null)
@@ -91,22 +157,36 @@ function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=fa
             for (let h = 0; h < headings.length; h++) {
                 let field = fields[h];
                 let heading = headings[h];
-                if (types && types[heading]) {
-                    let t = types[heading];
-                    if (field != "") {
-                        let v = t.values;
-                        if (v && typeof v == "string") {
-                            v = types[v].values;
-                        }
-                        if (v && v[field] === undefined) {
-                            printf("warning: CSV row %d field %s has unexpected value '%s'\n", i+1, heading, field);
-                        }
+                if (types) {
+                    if (!types[heading]) {
+                        printf("warning: %s field is an undefined type, defaulting to string\n", heading);
+                        types[heading] = {type: "string", dump: true};
                     }
-                    if (t.type == "number") {
-                        field = +field;
-                    } else if (t.type == "date") {
-                        if (field) {
-                            field = stdio.formatDate("Y-m-d", new Date(field));
+                    if (types[heading]) {
+                        let t = types[heading];
+                        if (field != "") {
+                            if (t.dump) {
+                                if (!t.values) t.values = [];
+                                if (t.values.indexOf(field) < 0) t.values.push(field);
+                            }
+                            else {
+                                let v = t.values;
+                                if (v && typeof v == "string") {
+                                    v = types[v].values;
+                                }
+                                if (v) {
+                                    if (Array.isArray(v) && v.indexOf(field) < 0 || !Array.isArray(v) && v[field] === undefined) {
+                                        if (argv['debug']) printf("warning: CSV row %d field %s has unexpected value '%s'\n", i+1, heading, field);
+                                    }
+                                }
+                            }
+                        }
+                        if (t.type == "number") {
+                            field = +field;
+                        } else if (t.type == "date") {
+                            if (field) {
+                                field = datelib.formatDate("Y-m-d", new Date(field));
+                            }
                         }
                     }
                 }
@@ -142,6 +222,20 @@ function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=fa
                 }
             }
             if (!maxRows || i <= maxRows) rows.push(row);
+        }
+    }
+    if (types) {
+        for (let key in types) {
+            let t = types[key];
+            if (t.dump) {
+                delete t.dump;
+                if (types[key].values) {
+                    types[key].values.sort(function(a, b) {
+                        return a.localeCompare(b, 'en', {'sensitivity': 'base'});
+                    });
+                }
+                printf('"%s": %2j\n', key, types[key]);
+            }
         }
     }
     return rows;
@@ -194,16 +288,18 @@ function parseCSVFields(line)
 }
 
 /**
- * readTextFile(fileName)
+ * readTextFile(fileName, encoding, conversion)
  *
  * @param {string} fileName
+ * @param {string} [encoding] (default is "utf-8")
+ * @param {string} [conversion] (default is "utf-8")
  * @return {string}
  */
-function readTextFile(fileName)
+function readTextFile(fileName, encoding="utf-8", conversion="utf-8")
 {
     let text;
     try {
-        text = fs.readFileSync(fileName, "utf8");
+        text = fs.readFileSync(fileName, encoding);
     }
     catch(err) {
         printf("%s\n", err.message);
@@ -215,13 +311,16 @@ function readTextFile(fileName)
  * writeTextFile(fileName, text, fOverwrite)
  *
  * @param {string} fileName
- * @param {string} text
+ * @param {string|object} text
  * @param {boolean} [fOverwrite] (default is false)
  */
 function writeTextFile(fileName, text, fOverwrite=false)
 {
     if (fOverwrite || !fs.existsSync(fileName)) {
         try {
+            if (typeof text == "object") {
+                text = sprintf("%2j\n", text);
+            }
             let dir = path.dirname(fileName);
             if (!fs.existsSync(dir)) {
                 mkdirp.sync(dir);
@@ -232,7 +331,7 @@ function writeTextFile(fileName, text, fOverwrite=false)
             printf("%s\n", err.message);
         }
     } else {
-        printf("file already exists: %s\n", fileName);
+        printf("file %s already exists, use --overwrite to recreate\n", fileName);
     }
 }
 
@@ -240,7 +339,7 @@ function writeTextFile(fileName, text, fOverwrite=false)
  * readXMLFile(fileName)
  *
  * @param {string} fileName
- * @return {Object}
+ * @return {object}
  */
 function readXMLFile(fileName)
 {
@@ -302,14 +401,14 @@ function readCourts()
                 fixes++;
             }
         }
-        let startFormatted = stdio.formatDate("l, F j, Y", start);
+        let startFormatted = datelib.formatDate("l, F j, Y", start);
         if (startFormatted != court.startFormatted) {
             printf("%s != %s\n", startFormatted, court.startFormatted);
             court.startFormatted = startFormatted;
             fixes++;
         }
         let stop = court.stop;
-        let stopFormatted = stdio.formatDate("l, F j, Y", stop);
+        let stopFormatted = datelib.formatDate("l, F j, Y", stop);
         if (stopFormatted != court.stopFormatted) {
             printf("%s != %s\n", stopFormatted, court.stopFormatted);
             court.stopFormatted = stopFormatted;
@@ -317,7 +416,7 @@ function readCourts()
         }
         if (i < courts.length - 1) {
             let courtNext = courts[i+1];
-            let dateFormatted = stdio.formatDate("l, F j, Y", stdio.adjustDate(new Date(court.stop), 1));
+            let dateFormatted = datelib.formatDate("l, F j, Y", datelib.adjustDate(new Date(court.stop), 1));
             if (dateFormatted != courtNext.startFormatted) {
                 printf("end of %s court (%s) doesn't align with beginning of %s court (%s)\n", court.name, court.stopFormatted, courtNext.name, courtNext.startFormatted);
             }
@@ -339,7 +438,7 @@ function readCourts()
     }
     if (fixes) {
         printf("writing %d corrections to %s\n", fixes, pkg.data.courts);
-        writeTextFile(pkg.data.courts, sprintf("%2j\n", courts), true);
+        writeTextFile(pkg.data.courts, courts, argv['overwrite']);
     }
     return courts;
 }
@@ -400,11 +499,11 @@ function readOyezJustices()
             /*
              * For some reason, all the Oyez XML justice dates appear to be off-by-one, so we compensate here.
              */
-            justice.start = stdio.formatDate("Y-m-d", stdio.adjustDate(new Date(xmlAppt.justiceSwornDate[0]._), 1));
-            justice.startFormatted = stdio.formatDate("l, F j, Y", justice.start);
+            justice.start = datelib.formatDate("Y-m-d", datelib.adjustDate(new Date(xmlAppt.justiceSwornDate[0]._), 1));
+            justice.startFormatted = datelib.formatDate("l, F j, Y", justice.start);
             if (xmlAppt.justiceEndDate) {
-                justice.stop = stdio.formatDate("Y-m-d", stdio.adjustDate(new Date(xmlAppt.justiceEndDate[0]._), 1));
-                justice.stopFormatted = stdio.formatDate("l, F j, Y", justice.stop);
+                justice.stop = datelib.formatDate("Y-m-d", datelib.adjustDate(new Date(xmlAppt.justiceEndDate[0]._), 1));
+                justice.stopFormatted = datelib.formatDate("l, F j, Y", justice.stop);
                 if (xmlAppt.justiceReasonForLeaving) {
                     justice.stopReason = xmlAppt.justiceReasonForLeaving[0];
                 } else {
@@ -432,10 +531,10 @@ function readSCDBCourts()
         let court = courts[i];
         let start = new Date(court.naturalStart);
         let stop = new Date(court.naturalStop);
-        court.start = stdio.formatDate("Y-m-d", start);
-        court.stop = stdio.formatDate("Y-m-d", stop);
-        court.startFormatted = stdio.formatDate("l, F j, Y", start);
-        court.stopFormatted = stdio.formatDate("l, F j, Y", stop);
+        court.start = datelib.formatDate("Y-m-d", start);
+        court.stop = datelib.formatDate("Y-m-d", stop);
+        court.startFormatted = datelib.formatDate("l, F j, Y", start);
+        court.stopFormatted = datelib.formatDate("l, F j, Y", stop);
     }
     return courts;
 }
@@ -452,8 +551,7 @@ function buildCourts(done)
      *
      *      let courtsOyez = readOyezCourts();
      *      printf("Oyez courts read: %d\n", courtsOyez.length);
-     *      let json = sprintf("%2j\n", courtsOyez);
-     *      writeTextFile(pkg.data.courts, json);
+     *      writeTextFile(pkg.data.courts, courtsOyez, argv['overwrite']);
      */
     let courts = readCourts();
     printf("courts read: %d\n", courts.length);
@@ -469,7 +567,7 @@ function buildCourts(done)
         for (let j = 0; j < courts.length; j++) {
             let court = courts[j];
             if (justice.start >= court.start && (!court.stop || justice.start <= court.stop)) {
-                let nDays = stdio.subtractDates(justice.start, court.start);
+                let nDays = datelib.subtractDates(justice.start, court.start);
                 if (lastCourtPrinted != court.id) {
                     if (nDays) printf("court %s: justice %s started within %d days\n", court.id, justice.name, nDays);
                     lastCourtPrinted = court.id;
@@ -500,7 +598,7 @@ function buildCourts(done)
         }
     }
 
-    writeTextFile(pkg.data.courtsCSV, csv, true);
+    writeTextFile(pkg.data.courtsCSV, csv, argv['overwrite']);
     done();
 }
 
@@ -512,10 +610,9 @@ function buildCourts(done)
 function buildDecisions(done)
 {
     let types = JSON.parse(readTextFile(pkg.scdb.codes));
-    let decisions = parseCSV(readTextFile(pkg.scdb.decisionsCSV), 0, "voteId", "justice", false, types);
+    let decisions = parseCSV(readTextFile(pkg.scdb.decisionsCSV, "latin1"), 0, "voteId", "justice", false, types);
     printf("SCDB decisions: %d\n", decisions.length);
-    let json = sprintf("%2j\n", decisions);
-    writeTextFile(pkg.data.decisions, json, true);
+    writeTextFile(pkg.data.decisions, decisions, argv['overwrite']);
     done();
 }
 
@@ -544,10 +641,10 @@ function buildJustices(done)
         let stop = new Date(justice.stopDate);
         delete justice.startDate;
         delete justice.stopDate;
-        justice.start = stdio.formatDate("Y-m-d", start);
-        justice.startFormatted = stdio.formatDate("l, F j, Y", start);
-        justice.stop = stdio.formatDate("Y-m-d", stop);
-        justice.stopFormatted = stdio.formatDate("l, F j, Y", stop);
+        justice.start = datelib.formatDate("Y-m-d", start);
+        justice.startFormatted = datelib.formatDate("l, F j, Y", start);
+        justice.stop = datelib.formatDate("Y-m-d", stop);
+        justice.stopFormatted = datelib.formatDate("l, F j, Y", stop);
         /*
          * Let's see if we can find a match in the Oyez list...
          */
@@ -576,8 +673,44 @@ function buildJustices(done)
             justicesOyez.push(justice);
         }
     }
-    let json = sprintf("%2j\n", justicesOyez);
-    writeTextFile(pkg.data.justices, json);
+    writeTextFile(pkg.data.justices, justicesOyez, argv['overwrite']);
+    done();
+}
+
+/**
+ * findDecisions()
+ *
+ * Since I want to be able to run task operations on subsets of the decision data, eg:
+ *
+ *      gulp query --start=yyyy-mm-dd --stop=yyyy-mm-dd
+ *
+ * this task must look for command-line arguments, which are available via the argv object.
+ *
+ * For example, this command:
+ *
+ *      gulp query --start=1823-09-01 --stop=1824-02-09
+ *
+ * helps us determine if any decisions were handed down during the first 5 months of the 'marshall12' court,
+ * before Justice Smith Thompson joined (if we assume he didn't join until Feb 10, 1824).
+ *
+ * @param {function()} done
+ */
+function findDecisions(done)
+{
+    let decisions = JSON.parse(readTextFile(pkg.data.decisions));
+    printf("available decisions: %d\n", decisions.length);
+
+    let start = argv['start'] || "", stop = argv['stop'] || "";
+    if (start || stop) {
+        let nDecisions = 0;
+        decisions.forEach((decision) => {
+            if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
+                printf("%s: %s (%s)\n", decision.dateDecision, decision.caseName, decision.usCite);
+                nDecisions++;
+            }
+        });
+        printf("decisions in range %s--%s: %d\n", start, stop, nDecisions);
+    }
     done();
 }
 
@@ -589,7 +722,7 @@ function buildJustices(done)
 function findLoneDissents(done)
 {
     let decisions = JSON.parse(readTextFile(pkg.data.decisions));
-    printf("decisions: %d\n", decisions.length);
+    printf("available decisions: %d\n", decisions.length);
     for (let i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
         if (decision.minVotes == 1) {
@@ -602,4 +735,5 @@ function findLoneDissents(done)
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
 gulp.task("justices", buildJustices);
+gulp.task("query", findDecisions);
 gulp.task("default", findLoneDissents);
