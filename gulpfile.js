@@ -311,7 +311,7 @@ function readTextFile(fileName, encoding="utf-8", conversion="utf-8")
  * writeTextFile(fileName, text, fOverwrite)
  *
  * @param {string} fileName
- * @param {string|object} text
+ * @param {string|object} text (if you pass an object, we automatically "stringify" it into JSON)
  * @param {boolean} [fOverwrite] (default is false)
  */
 function writeTextFile(fileName, text, fOverwrite=false)
@@ -680,17 +680,15 @@ function buildJustices(done)
 /**
  * findDecisions()
  *
- * Since I want to be able to run task operations on subsets of the decision data, eg:
+ * I use this task to extract subsets of the decision data; eg, by dateDecision:
  *
  *      gulp query --start=yyyy-mm-dd --stop=yyyy-mm-dd
- *
- * this task must look for command-line arguments, which are available via the argv object.
  *
  * For example, this command:
  *
  *      gulp query --start=1823-09-01 --stop=1824-02-09
  *
- * helps us determine if any decisions were handed down during the first 5 months of the 'marshall12' court,
+ * helps us determine if any decisions were handed down during the first 5+ months of the 'marshall12' court,
  * before Justice Smith Thompson joined (if we assume he didn't join until Feb 10, 1824).
  *
  * @param {function()} done
@@ -699,7 +697,6 @@ function findDecisions(done)
 {
     let decisions = JSON.parse(readTextFile(pkg.data.decisions));
     printf("available decisions: %d\n", decisions.length);
-
     let start = argv['start'] || "", stop = argv['stop'] || "";
     if (start || stop) {
         let nDecisions = 0;
@@ -723,12 +720,14 @@ function findLoneDissents(done)
 {
     let decisions = JSON.parse(readTextFile(pkg.data.decisions));
     printf("available decisions: %d\n", decisions.length);
-    for (let i = 0; i < decisions.length; i++) {
-        let decision = decisions[i];
+    let nDecisions = 0;
+    decisions.forEach((decision) => {
         if (decision.minVotes == 1) {
-            printf("%s: %d-%d\n", decision.caseName, decision.majVotes, decision.minVotes);
+            printf("%s %s (%s): %d-%d\n", decision.dateDecision, decision.caseName, decision.usCite, decision.majVotes, decision.minVotes);
+            nDecisions++;
         }
-    }
+    });
+    printf("decisions with lone dissents: %d\n", nDecisions);
     done();
 }
 
