@@ -1,1 +1,2 @@
 theme: jekyll-theme-minimal
+exclude: ["/lib", "/node_modules", "/*.js", "/*.json"]
