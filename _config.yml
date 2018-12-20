@@ -1,2 +1,2 @@
 theme: jekyll-theme-slate
-exclude: ["/lib", "/node_modules", "/*.js", "/*.json"]
+exclude: ["/lib", "/node_modules", "/*.js", "/package*.json"]
