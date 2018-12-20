@@ -117,22 +117,22 @@ let argv = proclib.args.argv;
  */
 
  /**
- * parseCSV(text, maxRows, keyIgnore, keyUnique, saveIgnoredKey, types)
+ * parseCSV(text, maxRows, keyUnique, keySubset, saveUniqueKey, types)
  *
  * @param {string} text
  * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
- * @param {string} [keyIgnore] (name of field, if any, that should be ignored; typically a key associated with the subset fields)
- * @param {string} [keyUnique] (name of first subset field, if any, containing data for unique subsets)
- * @param {boolean} [saveIgnoredKey] (default is false, to reduce space requirements)
+ * @param {string} [keyUnique] (name of field, if any, that should be filtered; typically the key associated with the subset fields)
+ * @param {string} [keySubset] (name of first subset field, if any, containing data for unique subsets)
+ * @param {boolean} [saveUniqueKey] (default is false, to reduce space requirements)
  * @param {object|null} [types]
  * @return {Array.<Object>}
  */
-function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=false, types=null)
+function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=false, types=null)
 {
     let rows = [];
     let headings, fields;
     let lines = text.split(/\r?\n/);
-    let keySubset = keyUnique + 's';
+    let keyChildren = keySubset + 's';
     for (let i = 0; i < lines.length; i++) {
         let line = lines[i];
         if (!line) continue;
@@ -152,7 +152,8 @@ function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=fa
                 row[heading] = h;
             }
         } else {
-            let subset = null, hIgnore = -1;
+            let fieldUnique = "";
+            let subset = null, hUnique = -1;
             let matchedPrevious = !!rows.length;
             for (let h = 0; h < headings.length; h++) {
                 let field = fields[h];
@@ -176,7 +177,13 @@ function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=fa
                                 }
                                 if (v) {
                                     if (Array.isArray(v) && v.indexOf(field) < 0 || !Array.isArray(v) && v[field] === undefined) {
-                                        if (argv['debug']) printf("warning: CSV row %d field %s has unexpected value '%s'\n", i+1, heading, field);
+                                        if (argv['debug']) {
+                                            if (fieldUnique && fieldUnique != "NULL") {
+                                                printf("warning: record %s field %s has unexpected value '%s'\n", fieldUnique, heading, field);
+                                            } else {
+                                                printf("warning: CSV row %d field %s has unexpected value '%s'\n", i+1, heading, field);
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -190,13 +197,16 @@ function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=fa
                         }
                     }
                 }
-                if (heading == keyIgnore) {
-                    if (saveIgnoredKey) hIgnore = h;
+                if (heading == keyUnique) {
+                    fieldUnique = field;
+                    if (saveUniqueKey) hUnique = h;
                     continue;
                 }
-                if (heading == keyUnique) {
+                if (heading == keySubset) {
                     subset = {};
-                    if (hIgnore >= 0) subset[keyIgnore] = fields[hIgnore];
+                    if (hUnique >= 0) {
+                        subset[keyUnique] = fields[hUnique];
+                    }
                 }
                 if (!subset && matchedPrevious) {
                     if (rows[rows.length-1][heading] != field) {
@@ -214,10 +224,10 @@ function parseCSV(text, maxRows=0, keyIgnore="", keyUnique="", saveIgnoredKey=fa
             }
             if (subset) {
                 if (!matchedPrevious) {
-                    row[keySubset] = [];
-                    row[keySubset].push(subset);
+                    row[keyChildren] = [];
+                    row[keyChildren].push(subset);
                 } else {
-                    rows[rows.length-1][keySubset].push(subset);
+                    rows[rows.length-1][keyChildren].push(subset);
                     continue;
                 }
             }
