@@ -1,7 +1,7 @@
 Welcome to Lone Dissent
 =======================
 
-This is a lonely work-in-progress.  A few data files have been created so far:
+This is a work-in-progress.  A few data files have been created so far:
 
 - [courts.json](data/courts.json)
 - [decisions.json](data/decisions.json)
