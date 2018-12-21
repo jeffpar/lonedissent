@@ -5,13 +5,13 @@ permalink: /blog/2018/12/21/
 
 A few data files have been created so far:
 
-- [courts.json](data/courts.json)
-- [decisions.json](data/decisions.json)
-- [justices.json](data/justices.json)
+- [courts.json](/data/courts.json)
+- [decisions.json](/data/decisions.json)
+- [justices.json](/data/justices.json)
 
 in preparation for making this a more interesting website.  Most of the
-[court](data/courts.json) and [justice](data/justices.json) data came from
-[Oyez](https://www.oyez.org/), while all the [decision](data/decisions.json)
+[court](/data/courts.json) and [justice](/data/justices.json) data came from
+[Oyez](https://www.oyez.org/), while all the [decision](/data/decisions.json)
 data was imported from the [Supreme Court Database](http://scdb.wustl.edu/index.php),
 aka SCDB.
 
@@ -23,9 +23,9 @@ but PDFs are *not* particularly easy to parse.  The next best thing is their
 but again, lots of work is required to turn all those HTML tables into something
 your code can ingest.
 
-So, we made [codes.json](data/scdb/codes.json).  Then we wrote a script that reads
-every field of every record of [decisions.csv](data/scdb/decisions.csv) and verifies
-that every value exists in [codes.json](data/scdb/codes.json).
+So, we made [codes.json](/data/scdb/codes.json).  Then we wrote a script that reads
+every field of every record of [decisions.csv](/data/scdb/decisions.csv) and verifies
+that every value exists in [codes.json](/data/scdb/codes.json).
 
 The script revealed quite a few discrepancies:
 
@@ -170,7 +170,7 @@ The script revealed quite a few discrepancies:
 
 In addition, there is one SCDB field, [lawMinor](http://scdb.wustl.edu/documentation.php?var=lawMinor)
 that's a free-form string field, so we modified the script to generate a complete list of all current
-*lawMinor* values and then stored them back into [codes.json](data/scdb/codes.json).
+*lawMinor* values and then stored them back into [codes.json](/data/scdb/codes.json).
 
 This revealed that the *lawMinor* field is a gigantic mess.  Here's a tiny subset of the values,
 just to to give you some sense of the problems:
