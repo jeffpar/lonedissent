@@ -59,20 +59,22 @@ let argv = proclib.args.argv;
  * @property {string} docketId
  * @property {string} caseIssuesId
  * @property {string} voteId
+ * @property {string} dateDecision
  * @property {number} decisionType
  * @property {string} usCite
  * @property {string} sctCite
  * @property {string} ledCite
  * @property {string} lexisCite
+ * @property {number} term
+ * @property {number} naturalCourt
+ * @property {string} chief
  * @property {string} docket
  * @property {string} caseName
- * @property {number} term
  * @property {string} dateArgument
  * @property {string} dateRearg
- * @property {string} dateDecision
  * @property {number} petitioner
- * @property {number} respondent
  * @property {number} petitionerState
+ * @property {number} respondent
  * @property {number} respondentState
  * @property {number} jurisdiction
  * @property {number} adminAction
@@ -86,6 +88,12 @@ let argv = proclib.args.argv;
  * @property {number} certReason
  * @property {number} lcDisposition
  * @property {number} lcDispositionDirection
+ * @property {number} declarationUncon
+ * @property {number} caseDisposition
+ * @property {number} caseDispositionUnusual
+ * @property {number} partyWinning
+ * @property {number} precedentAlteration
+ * @property {number} voteUnclear
  * @property {number} issue
  * @property {number} issueArea
  * @property {number} decisionDirection
@@ -94,26 +102,20 @@ let argv = proclib.args.argv;
  * @property {number} authorityDecision2
  * @property {number} lawType
  * @property {number} lawSupp
- * @property {number} declarationUncon
- * @property {number} caseDisposition
- * @property {number} caseDispositionUnusual
- * @property {number} partyWinning
- * @property {number} precedentAlteration
- * @property {number} voteUnclear
+ * @property {string} lawMinor
+ * @property {number} majOpinWriter
+ * @property {number} majOpinAssigner
  * @property {number} splitVote
  * @property {number} majVotes
  * @property {number} minVotes
- * @property {number} naturalCourt
- * @property {string} chief
  * @property {number} justice
- * @property {number} majOpinWriter
- * @property {number} majOpinAssigner
- * @property {number} firstAgreement
- * @property {number} secondAgreement
+ * @property {string} justiceName
  * @property {number} vote
  * @property {number} opinion
  * @property {number} direction
  * @property {number} majority
+ * @property {number} firstAgreement
+ * @property {number} secondAgreement
  */
 
  /**
@@ -692,32 +694,38 @@ function buildJustices(done)
  *
  * I use this task to extract subsets of the decision data; eg, by dateDecision:
  *
- *      gulp query --start=yyyy-mm-dd --stop=yyyy-mm-dd
+ *      gulp --start=yyyy-mm-dd --stop=yyyy-mm-dd
  *
  * For example, this command:
  *
- *      gulp query --start=1823-09-01 --stop=1824-02-09
+ *      gulp --start=1823-09-01 --stop=1824-02-09
  *
  * helps us determine if any decisions were handed down during the first 5+ months of the 'marshall12' court,
  * before Justice Smith Thompson joined (if we assume he didn't join until Feb 10, 1824).
  *
  * @param {function()} done
+ * @param {number} [minVotes]
  */
-function findDecisions(done)
+function findDecisions(done, minVotes)
 {
     let decisions = JSON.parse(readTextFile(pkg.data.decisions));
-    printf("available decisions: %d\n", decisions.length);
+    printf("decisions available: %d\n", decisions.length);
+    let nDecisions = 0;
     let start = argv['start'] || "", stop = argv['stop'] || "";
-    if (start || stop) {
-        let nDecisions = 0;
-        decisions.forEach((decision) => {
+    let vol = argv['vol'] || "", page = argv['page'] || "", usCite = sprintf("%d U.S. %d", +vol, +page);
+    decisions.forEach((decision) => {
+        if (!minVotes || decision.minVotes == minVotes) {
             if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
-                printf("%s: %s (%s)\n", decision.dateDecision, decision.caseName, decision.usCite);
-                nDecisions++;
+                if (!vol || decision.usCite.indexOf(vol) == 0 && (!page || decision.usCite == usCite)) {
+                    printf("%s: %s [%s] (%s): %d-%d\n", decision.dateDecision, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
+                    nDecisions++;
+                }
             }
-        });
-        printf("decisions in range %s--%s: %d\n", start, stop, nDecisions);
-    }
+        }
+    });
+    let sRange = (start || stop)? sprintf(" in range %s--%s", start, stop) : "";
+    let sCondition = minVotes? sprintf(" with minVotes of %d", minVotes) : "";
+    printf("decisions%s%s: %d\n", sRange, sCondition, nDecisions);
     done();
 }
 
@@ -728,21 +736,11 @@ function findDecisions(done)
  */
 function findLoneDissents(done)
 {
-    let decisions = JSON.parse(readTextFile(pkg.data.decisions));
-    printf("available decisions: %d\n", decisions.length);
-    let nDecisions = 0;
-    decisions.forEach((decision) => {
-        if (decision.minVotes == 1) {
-            printf("%s %s (%s): %d-%d\n", decision.dateDecision, decision.caseName, decision.usCite, decision.majVotes, decision.minVotes);
-            nDecisions++;
-        }
-    });
-    printf("decisions with lone dissents: %d\n", nDecisions);
-    done();
+    findDecisions(done, 1);
 }
 
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
 gulp.task("justices", buildJustices);
-gulp.task("query", findDecisions);
-gulp.task("default", findLoneDissents);
+gulp.task("lone", findLoneDissents);
+gulp.task("default", findDecisions);
