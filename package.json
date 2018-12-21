@@ -23,22 +23,5 @@
     "iconv": "^2.3.2",
     "mkdirp": "^0.5.1",
     "xml2js": "^0.4.19"
-  },
-  "data": {
-    "courts": "data/courts.json",
-    "courtsCSV": "data/courts.csv",
-    "decisions": "data/decisions.json",
-    "justices": "data/justices.json"
-  },
-  "oyez": {
-    "courtsXML": "data/oyez/courts/**/court.xml",
-    "courtsHTML": "data/oyez/justices_by_court.html",
-    "justicesXML": "data/oyez/justices/**/justice.xml"
-  },
-  "scdb": {
-    "codes": "data/scdb/codes.json",
-    "courtsCSV": "data/scdb/naturalCourts.csv",
-    "decisionsCSV": "data/scdb/decisions.csv",
-    "justicesCSV": "data/scdb/justices.csv"
   }
 }

@@ -21,7 +21,9 @@ let printf = stdio.printf;
 let sprintf = stdio.sprintf;
 let strlib = require("./lib/strlib");
 
-let pkg = require("./package.json");
+let dataDir = "./data/";
+let resultsDir = "./_data/";
+let sources = require(dataDir + "sources.json");
 let argv = proclib.args.argv;
 
 /**
@@ -119,16 +121,39 @@ let argv = proclib.args.argv;
  */
 
  /**
- * parseCSV(text, maxRows, keyUnique, keySubset, saveUniqueKey, types)
- *
- * @param {string} text
- * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
- * @param {string} [keyUnique] (name of field, if any, that should be filtered; typically the key associated with the subset fields)
- * @param {string} [keySubset] (name of first subset field, if any, containing data for unique subsets)
- * @param {boolean} [saveUniqueKey] (default is false, to reduce space requirements)
- * @param {object|null} [types]
- * @return {Array.<Object>}
- */
+  * checkCharSet(text)
+  *
+  * @param {string} text
+  * @return {boolean} (true if valid, false otherwise)
+  */
+ function checkCharSet(text)
+ {
+     let valid = true;
+     let lines = text.split(/\r?\n/);
+     for (let i = 0; i < lines.length; i++) {
+         let line = lines[i];
+         for (let j = 0; j < line.length; j++) {
+             let ch = line.charCodeAt(j);
+             if (ch < 0x20) {
+                 printf("warning: control character %02x at row %d col %d: '%s'\n", ch, i+1, j+1, line);
+                 valid = false;
+             }
+         }
+     }
+     return valid;
+ }
+
+ /**
+  * parseCSV(text, maxRows, keyUnique, keySubset, saveUniqueKey, types)
+  *
+  * @param {string} text
+  * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
+  * @param {string} [keyUnique] (name of field, if any, that should be filtered; typically the key associated with the subset fields)
+  * @param {string} [keySubset] (name of first subset field, if any, containing data for unique subsets)
+  * @param {boolean} [saveUniqueKey] (default is false, to reduce space requirements)
+  * @param {object|null} [types]
+  * @return {Array.<Object>}
+  */
 function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=false, types=null)
 {
     let rows = [];
@@ -328,11 +353,12 @@ function readTextFile(fileName, encoding="utf-8", conversion="utf-8")
  */
 function writeTextFile(fileName, text, fOverwrite=false)
 {
+    if (typeof text == "object") {
+        text = sprintf("%2j\n", text);
+        checkCharSet(text);
+    }
     if (fOverwrite || !fs.existsSync(fileName)) {
         try {
-            if (typeof text == "object") {
-                text = sprintf("%2j\n", text);
-            }
             let dir = path.dirname(fileName);
             if (!fs.existsSync(dir)) {
                 mkdirp.sync(dir);
@@ -377,11 +403,11 @@ function readXMLFile(fileName)
 function readCourts()
 {
     let fixes = 0;
-    let courts = JSON.parse(readTextFile(pkg.data.courts));
+    let courts = JSON.parse(readTextFile(dataDir + sources.data.courts));
     /*
      * First, let's see how our data lines up with current Oyez HTML data.
      */
-    let html = readTextFile(pkg.oyez.courtsHTML);
+    let html = readTextFile(dataDir + sources.oyez.courtsHTML);
     let reCourt = /lazy-img="([^"]*)"\s+alt="([^"]*)"/g, match;
     while ((match = reCourt.exec(html))) {
         let i, matched = false;
@@ -390,7 +416,7 @@ function readCourts()
             if (courts[i].name == name) {
                 matched = true;
                 if (!courts[i].photo) {
-                    courts[i].photo = path.join(path.dirname(pkg.oyez.courtsHTML), path.basename(pkg.oyez.courtsHTML, ".html"), path.basename(match[1]));
+                    courts[i].photo = path.join(dataDir, path.dirname(sources.oyez.courtsHTML), path.basename(sources.oyez.courtsHTML, ".html"), path.basename(match[1]));
                     fixes++;
                     break;
                 }
@@ -449,8 +475,8 @@ function readCourts()
         }
     }
     if (fixes) {
-        printf("writing %d corrections to %s\n", fixes, pkg.data.courts);
-        writeTextFile(pkg.data.courts, courts, argv['overwrite']);
+        printf("writing %d corrections to %s\n", fixes, dataDir + sources.data.courts);
+        writeTextFile(dataDir + sources.data.courts, courts, argv['overwrite']);
     }
     return courts;
 }
@@ -463,7 +489,7 @@ function readCourts()
 function readOyezCourts()
 {
     let courts = [];
-    let fileNames = glob.sync(pkg.oyez.courtsXML);
+    let fileNames = glob.sync(dataDir + sources.oyez.courtsXML);
     for (let i = 0; i < fileNames.length; i++) {
         let xml = readXMLFile(fileNames[i]);
         if (!xml) break;
@@ -497,7 +523,7 @@ function readOyezCourts()
 function readOyezJustices()
 {
     let justices = [];
-    let fileNames = glob.sync(pkg.oyez.justicesXML);
+    let fileNames = glob.sync(dataDir + sources.oyez.justicesXML);
     for (let i = 0; i < fileNames.length; i++) {
         let xml = readXMLFile(fileNames[i]);
         if (!xml) break;
@@ -538,7 +564,7 @@ function readOyezJustices()
  */
 function readSCDBCourts()
 {
-    let courts = parseCSV(readTextFile(pkg.scdb.courtsCSV));
+    let courts = parseCSV(readTextFile(dataDir + sources.scdb.courtsCSV));
     for (let i = 0; i < courts.length; i++) {
         let court = courts[i];
         let start = new Date(court.naturalStart);
@@ -563,7 +589,7 @@ function buildCourts(done)
      *
      *      let courtsOyez = readOyezCourts();
      *      printf("Oyez courts read: %d\n", courtsOyez.length);
-     *      writeTextFile(pkg.data.courts, courtsOyez, argv['overwrite']);
+     *      writeTextFile(dataDir + sources.data.courts, courtsOyez, argv['overwrite']);
      */
     let courts = readCourts();
     printf("courts read: %d\n", courts.length);
@@ -572,7 +598,7 @@ function buildCourts(done)
      * Let's verify that all the justices are appropriately slotted into the courts.
      */
     let lastCourtPrinted = "";
-    let justices = JSON.parse(readTextFile(pkg.data.justices));
+    let justices = JSON.parse(readTextFile(dataDir + sources.data.justices));
     for (let i = 0; i < justices.length; i++) {
         let justice = justices[i];
         let nCourts = 0;
@@ -610,7 +636,7 @@ function buildCourts(done)
         }
     }
 
-    writeTextFile(pkg.data.courtsCSV, csv, argv['overwrite']);
+    writeTextFile(dataDir + sources.data.courtsCSV, csv, argv['overwrite']);
     done();
 }
 
@@ -621,10 +647,10 @@ function buildCourts(done)
  */
 function buildDecisions(done)
 {
-    let types = JSON.parse(readTextFile(pkg.scdb.codes));
-    let decisions = parseCSV(readTextFile(pkg.scdb.decisionsCSV, "latin1"), 0, "voteId", "justice", false, types);
+    let types = JSON.parse(readTextFile(dataDir + sources.scdb.codes));
+    let decisions = parseCSV(readTextFile(dataDir + sources.scdb.decisionsCSV, "latin1"), 0, "voteId", "justice", false, types);
     printf("SCDB decisions: %d\n", decisions.length);
-    writeTextFile(pkg.data.decisions, decisions, argv['overwrite']);
+    writeTextFile(dataDir + sources.data.decisions, decisions, argv['overwrite']);
     done();
 }
 
@@ -638,7 +664,7 @@ function buildJustices(done)
     let justicesOyez = readOyezJustices();
     printf("Oyez justices read: %d\n", justicesOyez.length);
 
-    let justices = parseCSV(readTextFile(pkg.scdb.justicesCSV));
+    let justices = parseCSV(readTextFile(dataDir + sources.scdb.justicesCSV));
     printf("SCDB justices read: %d\n", justices.length);
     for (let i = 0; i < justices.length; i++) {
         let first, last;
@@ -685,7 +711,7 @@ function buildJustices(done)
             justicesOyez.push(justice);
         }
     }
-    writeTextFile(pkg.data.justices, justicesOyez, argv['overwrite']);
+    writeTextFile(dataDir + sources.data.justices, justicesOyez, argv['overwrite']);
     done();
 }
 
@@ -708,9 +734,9 @@ function buildJustices(done)
  */
 function findDecisions(done, minVotes)
 {
-    let decisions = JSON.parse(readTextFile(pkg.data.decisions));
+    let results = [];
+    let decisions = JSON.parse(readTextFile(dataDir + sources.data.decisions));
     printf("decisions available: %d\n", decisions.length);
-    let nDecisions = 0;
     let start = argv['start'] || "", stop = argv['stop'] || "";
     let vol = argv['vol'] || "", page = argv['page'] || "", usCite = sprintf("%d U.S. %d", +vol, +page);
     decisions.forEach((decision) => {
@@ -718,14 +744,17 @@ function findDecisions(done, minVotes)
             if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
                 if (!vol || decision.usCite.indexOf(vol) == 0 && (!page || decision.usCite == usCite)) {
                     printf("%s: %s [%s] (%s): %d-%d\n", decision.dateDecision, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
-                    nDecisions++;
+                    results.push(decision);
                 }
             }
         }
     });
     let sRange = (start || stop)? sprintf(" in range %s--%s", start, stop) : "";
     let sCondition = minVotes? sprintf(" with minVotes of %d", minVotes) : "";
-    printf("decisions%s%s: %d\n", sRange, sCondition, nDecisions);
+    printf("decisions%s%s: %d\n", sRange, sCondition, results.length);
+    if (results.length) {
+        writeTextFile(resultsDir + "decisions.json", results, true);
+    }
     done();
 }
 

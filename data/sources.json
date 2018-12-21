@@ -1,0 +1,19 @@
+{
+  "data": {
+    "courts": "courts.json",
+    "courtsCSV": "courts.csv",
+    "decisions": "decisions.json",
+    "justices": "justices.json"
+  },
+  "oyez": {
+    "courtsXML": "oyez/courts/**/court.xml",
+    "courtsHTML": "oyez/justices_by_court.html",
+    "justicesXML": "oyez/justices/**/justice.xml"
+  },
+  "scdb": {
+    "codes": "scdb/codes.json",
+    "courtsCSV": "scdb/naturalCourts.csv",
+    "decisionsCSV": "scdb/decisions.csv",
+    "justicesCSV": "scdb/justices.csv"
+  }
+}
