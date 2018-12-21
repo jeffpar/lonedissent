@@ -1,7 +1,60 @@
-title: "PCjs Machines"
 title: "Lone Dissent"
 description: "An Exercise in Supreme Obstinacy"
-theme: jekyll-theme-slate
-exclude: [/lib", "/node_modules", "/*.js", "/package*.json"]
+name: "Jeff Parsons"
+url: "https://lonedissent.org"
+repository: "jeffpar/lonedissent"
 markdown: kramdown
 encoding: utf-8
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "default", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+breadcrumbs: true  # disabled by default
+
+# Outputting
+permalink: /:categories/:title/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+  # Reading Files
+include:
+  - _pages
+exclude:
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - Gemfile
+  - gulpfile.js
+  - package*.json
+  - /lib
+  - /node_modules
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true

@@ -22,7 +22,7 @@ let sprintf = stdio.sprintf;
 let strlib = require("./lib/strlib");
 
 let dataDir = "./data/";
-let resultsDir = "./_data/";
+let resultsDir = "./_data/results/";
 let sources = require(dataDir + "sources.json");
 let argv = proclib.args.argv;
 
@@ -202,14 +202,12 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
                                 if (v && typeof v == "string") {
                                     v = types[v].values;
                                 }
-                                if (v) {
-                                    if (Array.isArray(v) && v.indexOf(field) < 0 || !Array.isArray(v) && v[field] === undefined) {
-                                        if (argv['debug']) {
-                                            if (fieldUnique && fieldUnique != "NULL") {
-                                                printf("warning: record %s field %s has unexpected value '%s'\n", fieldUnique, heading, field);
-                                            } else {
-                                                printf("warning: CSV row %d field %s has unexpected value '%s'\n", i+1, heading, field);
-                                            }
+                                if (v && (Array.isArray(v) && v.indexOf(field) < 0 || !Array.isArray(v) && v[field] === undefined) || !v && field == "NULL") {
+                                    if (argv['debug']) {
+                                        if (fieldUnique && fieldUnique != "NULL") {
+                                            printf("warning: record %s field %s has unexpected value '%s'\n", fieldUnique, heading, field);
+                                        } else {
+                                            printf("warning: CSV row %d field %s has unexpected value '%s'\n", i+1, heading, field);
                                         }
                                     }
                                 }
