@@ -7,6 +7,9 @@ repository: "jeffpar/lonedissent"
 markdown: kramdown
 encoding: utf-8
 
+twitter:
+  username: "jeffpar"
+
 # Theme
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "default", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 breadcrumbs: true  # disabled by default
@@ -56,8 +59,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: false
-      share: true
-      related: true
+      share: false
+      related: false
