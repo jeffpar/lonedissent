@@ -755,29 +755,39 @@ function findDecisions(done, minVotes)
     if (results.length) {
         if (argv['term']) {
             /*
-             * Create a page for each decision that doesn't already have one (eg, _pages/loners/yyyy/vvv_us_ppp.md).
+             * Create a page for each decision that doesn't already have one (eg, _pages/loners/yyyy/vvv-pppp.md)
              */
             results.forEach((decision) => {
                 let matchCite = decision.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
                 if (matchCite) {
-                    let pathName = sprintf("/loners/%s/%s_us_%s", argv['term'], matchCite[1], matchCite[2]);
+                    let v = +matchCite[1], p = +matchCite[2];
+                    let pathName = sprintf("/loners/%s/%03d-%04d", argv['term'], v, p);
                     let fileName = "_pages" + pathName + ".md";
                     let text = '---\ntitle: "' + decision.caseName + '"\npermalink: /cases' + pathName + '\n---\n\n';
-                    text += '## ' + decision.caseName + '\n\n';
-                    text += 'Text to follow....\n';
+                    text += '<h2 style="text-align:center">' + decision.caseName + '</h2>\n';
                     /*
                      * The source of an opinion PDF varies.  The LOC appears to have PDFs for everything up through
                      * U.S. Reports volume 542, which covers the end of the 2003 term.  SCOTUS has bound volumes for
                      * U.S. Reports volumes 502 through 569, which spans the 2012 term, and it also has slip opinions
-                     * for 2012 term up.
+                     * for the 2012 term and up.
                      *
                      * Regarding LOC, you can browse an entire volume like so:
                      *
                      *      https://www.loc.gov/search/?fa=partof:u.s.+reports:+volume+542
                      *
+                     * For a case like 542 U.S. 241, the PDF is here:
                      *
+                     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.pdf
+                     *
+                     * and the thumbnail is here:
+                     *
+                     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
                      */
-                    writeTextFile(fileName, text);
+                    let url = sprintf('https://cdn.loc.gov/service/ll/usrep/usrep%03d/usrep%03d%03d/usrep%03d%03d', v, v, p, v, p);
+                    text += '<a href="' + url + '.pdf">\n';
+                    text += '  <img src="' + url + '.gif" style="display:block;margin:auto;">\n';
+                    text += '</a>\n';
+                    writeTextFile(fileName, text, argv['overwrite']);
                 } else {
                     printf("unknown citation for %s: %s\n", decision.caseName, decision.usCite);
                 }
