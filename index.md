@@ -6,7 +6,9 @@ layout: home
 Welcome to this whimsical website, where we will be highlighting the worthless work that Supreme Court Justices
 have been engaging in for centuries: dissents.  And not just any dissents, but *lone* dissents.
 
-Yes, we're talking about those cases where just *one* Justice could not be persuaded by their colleagues and who instead choose to write a dissent, explaining why he or she was absolutely right and *all* of their fellow Justices were absolutely wrong.
+Yes, we're talking about those cases where just *one* Justice could not be persuaded by their colleagues and who
+instead chose to write a dissent, explaining why he or she was absolutely right and *all* of their fellow Justices were
+absolutely wrong.
 
 For example, [Plessy v. Ferguson](https://www.oyez.org/cases/1850-1900/163us537) upheld the "separate
 but equal" treatment of black Americans in 1896.  Justice John Marshall Harlan, the lone dissenter, wrote:
