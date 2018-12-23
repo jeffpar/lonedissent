@@ -21,7 +21,6 @@ let printf = stdio.printf;
 let sprintf = stdio.sprintf;
 let strlib = require("./lib/strlib");
 
-let dataDir = "./_data/";
 let sourcesDir = "./sources/";
 let sources = require(sourcesDir + "sources.json");
 let argv = proclib.args.argv;
@@ -54,7 +53,7 @@ let argv = proclib.args.argv;
  */
 
 /**
- * For a complete list of possible values for the following decision variables, see sources/scdb/codes.json.
+ * For a complete list of possible values for the following decision variables, see sources/scdb/types.json.
  *
  * @typedef {object} Decision
  * @property {string} caseId
@@ -142,6 +141,74 @@ let argv = proclib.args.argv;
      }
      return valid;
  }
+
+/**
+ * mapTypes(o, types, strict)
+ *
+ * @param {object} o
+ * @param {Array.<object>} types
+ * @param {boolean} [strict]
+ * @return {number}
+ */
+function mapTypes(o, types, strict)
+{
+    let changes = 0;
+    let keys = Object.keys(o);
+    for (let i = 0; i < keys.length; i++) {
+        let key = keys[i];
+        if (types[key]) {
+            let values = types[key].values;
+            if (values && typeof values == "string") {
+                values = types[values].values;
+            }
+            if (values && !Array.isArray(values)) {
+                let value = values[o[key]];
+                if (value !== undefined) {
+                    o[key] = value;
+                    if (changes >= 0) changes++;
+                }
+                else if (strict) {
+                    if (types[key].type != "number" || o[key]) {
+                        printf("warning: code '%s' for key '%s' has no value\n", o[key], key);
+                        changes = -1;
+                    }
+                }
+            }
+        }
+        else if (Array.isArray(o[key])) {
+            for (let j = 0; j < o[key].length; j++) {
+                let n = mapTypes(o[key][j], types, strict);
+                if (n < 0) {
+                    changes = -1;
+                } else {
+                    changes += n;
+                }
+            }
+        }
+        else if (strict) {
+            printf("warning: key '%s' missing from types\n", key);
+            changes = -1;
+        }
+    }
+    return changes;
+}
+
+/**
+ * searchObjectArray(a, key, value)
+ *
+ * @param {Array.<object>} a
+ * @param {string} key
+ * @param {*} value
+ * @return {number} (index of position, or -1 if not found)
+ */
+function searchObjectArray(a, key, value)
+{
+    let i;
+    for (i = 0; i < a.length; i++) {
+        if (a[i][key] == value) break;
+    }
+    return (i < a.length)? i : -1;
+}
 
  /**
   * parseCSV(text, maxRows, keyUnique, keySubset, saveUniqueKey, types)
@@ -328,13 +395,14 @@ function parseCSVFields(line)
  * @param {string} fileName
  * @param {string} [encoding] (default is "utf-8")
  * @param {string} [conversion] (default is "utf-8")
- * @return {string}
+ * @return {string|undefined}
  */
 function readTextFile(fileName, encoding="utf-8", conversion="utf-8")
 {
     let text;
     try {
         text = fs.readFileSync(fileName, encoding);
+        checkCharSet(text);
     }
     catch(err) {
         printf("%s\n", err.message);
@@ -643,7 +711,7 @@ function buildCourts(done)
  */
 function buildDecisions(done)
 {
-    let types = JSON.parse(readTextFile(sourcesDir + sources.scdb.codes));
+    let types = JSON.parse(readTextFile(sourcesDir + sources.scdb.types));
     let decisions = parseCSV(readTextFile(sourcesDir + sources.scdb.decisionsCSV, "latin1"), 0, "voteId", "justice", false, types);
     printf("SCDB decisions: %d\n", decisions.length);
     writeTextFile(sourcesDir + sources.results.decisions, decisions, argv['overwrite']);
@@ -753,48 +821,94 @@ function findDecisions(done, minVotes)
     let condition = minVotes? sprintf(" with minVotes of %d", minVotes) : "";
     printf("decisions%s%s: %d\n", range, condition, results.length);
     if (results.length) {
-        if (argv['term']) {
-            /*
-             * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy.md)
-             */
-            let pathName = "/loners/" + argv['term'];
-            let fileName = "_pages" + pathName + ".md";
-            let text = '---\ntitle: "' + argv['term'] + ' Term"\npermalink: /cases' + pathName + '\nlayout: cases\n';
-            text += 'cases:\n';
-            results.forEach((decision) => {
-                let matchCite = decision.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
-                if (matchCite) {
-                    let volume = +matchCite[1], page = +matchCite[2];
-                    text += '  - id: "' + decision.caseId + '"\n';
-                    text += '    title: "' + decision.caseName + '"\n';
-                    text += sprintf('    volume: "%03d"\n    page: "%03d"\n' , volume, page);
-                    /*
-                     * The source of an opinion PDF varies.  The LOC appears to have PDFs for everything up through
-                     * U.S. Reports volume 542, which covers the end of the 2003 term.  SCOTUS has bound volumes for
-                     * U.S. Reports volumes 502 through 569, which spans the 2012 term, and it also has slip opinions
-                     * for the 2012 term and up.
-                     *
-                     * Regarding LOC, you can browse an entire volume like so:
-                     *
-                     *      https://www.loc.gov/search/?fa=partof:u.s.+reports:+volume+542
-                     *
-                     * For a case like 542 U.S. 241, the PDF is here:
-                     *
-                     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.pdf
-                     *
-                     * and the thumbnail is here:
-                     *
-                     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
-                     */
+        if (minVotes == 1) {
+            let nAdded = 0;
+            let types = JSON.parse(readTextFile(sourcesDir + sources.scdb.types) || "{}");
+            types['caseNotes'] = {"type": "string"};
+            types['pdfOffset'] = {"type": "number"};
+            let loners = JSON.parse(readTextFile(sourcesDir + sources.results.loners) || "[]");
+            for (let r = 0; r < results.length; r++) {
+                let result = results[r]
+                if (mapTypes(result, types, true) < 0) break;
+                let i = searchObjectArray(loners, "caseId", result.caseId);
+                if (i < 0) {
+                    loners.push(result);
+                    nAdded++;
                 } else {
-                    printf("unknown citation for %s: %s\n", decision.caseName, decision.usCite);
+                    printf("warning: %s (%s) already exists in %s\n", result.caseId, result.usCite, sources.results.loners);
+                    if (mapTypes(loners[i], types) > 0) {
+                        printf("warning: %s (%s) being updated in %s\n", result.caseId, result.usCite, sources.results.loners);
+                        nAdded++;
+                    }
+                    results[r] = loners[i];
                 }
-            });
-            text += '---\n';
-            writeTextFile(fileName, text, argv['overwrite']);
-        }
-        else {
-            writeTextFile(dataDir + "decisions.json", results, true);
+            }
+            if (nAdded) {
+                writeTextFile(sourcesDir + sources.results.loners, loners, true);
+            }
+            if (argv['term']) {
+                /*
+                 * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy.md)
+                 */
+                let pathName = "/loners/" + argv['term'];
+                let fileName = "_pages" + pathName + ".md";
+                let text = '---\ntitle: "' + argv['term'] + ' Term"\npermalink: /cases' + pathName + '\nlayout: cases\n';
+                text += 'cases:\n';
+                results.forEach((result) => {
+                    let matchCite = result.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
+                    if (matchCite) {
+                        let volume = +matchCite[1], page = +matchCite[2];
+                        text += '  - id: "' + result.caseId + '"\n';
+                        text += '    title: "' + result.caseName + '"\n';
+                        /*
+                         * The source of an opinion PDF varies.  The LOC appears to have PDFs for everything up through
+                         * U.S. Reports volume 542, which covers the end of the 2003 term.  SCOTUS has bound volumes for
+                         * U.S. Reports volumes 502 through 569, which spans the 2012 term, and it also has slip opinions
+                         * for the 2012 term and up.
+                         *
+                         * Regarding LOC, you can browse an entire volume like so:
+                         *
+                         *      https://www.loc.gov/search/?fa=partof:u.s.+reports:+volume+542
+                         *
+                         * For a case like 542 U.S. 241, the PDF is here:
+                         *
+                         *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.pdf
+                         *
+                         * and the thumbnail is here:
+                         *
+                         *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
+                         *
+                         * Some of the LOC PDFs don't actually start on the correct page.  The above PDF, for example,
+                         * actually starts with page 240 of volume 542, not page 241.  And since we actually want to
+                         * jump to the page where the dissent starts, the 'offset' property, if present, will trigger
+                         * the addition of "#page=xxx" to the PDF URL by our page template(s).
+                         */
+                        text += sprintf('    volume: "%03d"\n    page: "%03d"\n' , volume, page);
+                        if (result.pdfOffset) text += '    offset: ' + result.pdfOffset + '\n';
+                        text += '    dateDecision: ' + datelib.formatDate("l, F j, Y", new Date(result.dateDecision)) + '\n';
+                        text += '    citation: ' + (result.usCite || ('No. ' + result.docket)) + '\n';
+                        /*
+                         * Time to determine who actually dissented.
+                         */
+                        let justiceDissented = "";
+                        for (let i = 0; i < result.justices.length; i++) {
+                            let justice = result.justices[i];
+                            if (justice.vote == "dissent") {
+                                if (!justiceDissented) {
+                                    justiceDissented = justice.justiceName;
+                                } else {
+                                    printf("warning: %s (%s) has multiple dissents (eg, %s, %s)\n", result.caseId, result.usCite, justiceDissented, justice.justiceName);
+                                }
+                            }
+                        }
+                        text += '    justiceDissented: ' + justiceDissented + '\n';
+                    } else {
+                        printf("unknown citation for %s: %s\n", result.caseName, result.usCite);
+                    }
+                });
+                text += '---\n';
+                writeTextFile(fileName, text, argv['overwrite']);
+            }
         }
     }
     done();

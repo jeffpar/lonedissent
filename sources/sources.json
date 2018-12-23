@@ -5,7 +5,7 @@
     "justicesXML": "oyez/justices/**/justice.xml"
   },
   "scdb": {
-    "codes": "scdb/codes.json",
+    "types": "scdb/types.json",
     "courtsCSV": "scdb/naturalCourts.csv",
     "decisionsCSV": "scdb/decisions.csv",
     "justicesCSV": "scdb/justices.csv"
@@ -14,6 +14,7 @@
     "courts": "results/courts.json",
     "courtsCSV": "results/courts.csv",
     "decisions": "results/decisions.json",
-    "justices": "results/justices.json"
+    "justices": "results/justices.json",
+    "loners": "results/loners.json"
   }
 }
