@@ -1,0 +1,16 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% for case in page.cases %}
+  {% capture loc_path %}https://cdn.loc.gov/service/ll/usrep/usrep{{ case.volume }}/usrep{{ case.volume }}{{ case.page }}/usrep{{ case.volume }}{{ case.page }}{% endcapture %}
+  <br/>
+  <h4 style="text-align:center">{{ case.title }}</h4>
+  <p>
+    <a href="{{ loc_path }}.pdf">
+      <img src="{{ loc_path }}.gif" style="display:block; margin:auto;" />
+    </a>
+  </p>
+{% endfor %}

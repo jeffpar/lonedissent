@@ -734,7 +734,7 @@ function findDecisions(done, minVotes)
     let decisions = JSON.parse(readTextFile(sourcesDir + sources.results.decisions));
     printf("decisions available: %d\n", decisions.length);
     let start = argv['start'] || "", stop = argv['stop'] || "";
-    let vol = argv['vol'] || "", page = argv['page'] || "", usCite = sprintf("%d U.S. %d", +vol, +page);
+    let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%d U.S. %d", +volume, +page);
     if (argv['term']) {
         start = sprintf("%04d-%02d-%02d", +argv['term'], 10, 1);
         stop = sprintf("%04d-%02d-%02d", +argv['term'] + 1, 9, 30);
@@ -742,7 +742,7 @@ function findDecisions(done, minVotes)
     decisions.forEach((decision) => {
         if (!minVotes || decision.minVotes == minVotes) {
             if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
-                if (!vol || decision.usCite.indexOf(vol) == 0 && (!page || decision.usCite == usCite)) {
+                if (!volume || decision.usCite.indexOf(volume) == 0 && (!page || decision.usCite == usCite)) {
                     printf("%s: %s [%s] (%s): %d-%d\n", decision.dateDecision, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
                     results.push(decision);
                 }
@@ -755,16 +755,19 @@ function findDecisions(done, minVotes)
     if (results.length) {
         if (argv['term']) {
             /*
-             * Create a page for each decision that doesn't already have one (eg, _pages/loners/yyyy/vvv-pppp.md)
+             * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy.md)
              */
+            let pathName = "/loners/" + argv['term'];
+            let fileName = "_pages" + pathName + ".md";
+            let text = '---\ntitle: "' + argv['term'] + ' Term"\npermalink: /cases' + pathName + '\nlayout: cases\n';
+            text += 'cases:\n';
             results.forEach((decision) => {
                 let matchCite = decision.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
                 if (matchCite) {
-                    let v = +matchCite[1], p = +matchCite[2];
-                    let pathName = sprintf("/loners/%s/%03d-%04d", argv['term'], v, p);
-                    let fileName = "_pages" + pathName + ".md";
-                    let text = '---\ntitle: "' + decision.caseName + '"\npermalink: /cases' + pathName + '\n---\n\n';
-                    text += '<h2 style="text-align:center">' + decision.caseName + '</h2>\n';
+                    let volume = +matchCite[1], page = +matchCite[2];
+                    text += '  - id: "' + decision.caseId + '"\n';
+                    text += '    title: "' + decision.caseName + '"\n';
+                    text += sprintf('    volume: "%03d"\n    page: "%03d"\n' , volume, page);
                     /*
                      * The source of an opinion PDF varies.  The LOC appears to have PDFs for everything up through
                      * U.S. Reports volume 542, which covers the end of the 2003 term.  SCOTUS has bound volumes for
@@ -783,15 +786,12 @@ function findDecisions(done, minVotes)
                      *
                      *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
                      */
-                    let url = sprintf('https://cdn.loc.gov/service/ll/usrep/usrep%03d/usrep%03d%03d/usrep%03d%03d', v, v, p, v, p);
-                    text += '<a href="' + url + '.pdf">\n';
-                    text += '  <img src="' + url + '.gif" style="display:block;margin:auto;">\n';
-                    text += '</a>\n';
-                    writeTextFile(fileName, text, argv['overwrite']);
                 } else {
                     printf("unknown citation for %s: %s\n", decision.caseName, decision.usCite);
                 }
             });
+            text += '---\n';
+            writeTextFile(fileName, text, argv['overwrite']);
         }
         else {
             writeTextFile(dataDir + "decisions.json", results, true);
@@ -813,5 +813,5 @@ function findLoneDissents(done)
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
 gulp.task("justices", buildJustices);
-gulp.task("lone", findLoneDissents);
+gulp.task("loners", findLoneDissents);
 gulp.task("default", findDecisions);

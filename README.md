@@ -1,3 +1,3 @@
 # Lone Dissent
 
-This project has been created to highlight selected "lone dissents" from the [U.S. Supreme Court](https://www.supremecourt.gov).
+This project highlights "lone dissents" from [U.S. Supreme Court](https://www.supremecourt.gov) cases.
