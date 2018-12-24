@@ -801,11 +801,12 @@ function findDecisions(done, minVotes)
     let results = [];
     let decisions = JSON.parse(readTextFile(sourcesDir + sources.results.decisions));
     printf("decisions available: %d\n", decisions.length);
+    let term = +argv['term'] || 0;
     let start = argv['start'] || "", stop = argv['stop'] || "";
     let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%d U.S. %d", +volume, +page);
-    if (argv['term']) {
-        start = sprintf("%04d-%02d-%02d", +argv['term'], 10, 1);
-        stop = sprintf("%04d-%02d-%02d", +argv['term'] + 1, 9, 30);
+    if (term) {
+        start = sprintf("%04d-%02d-%02d", term, 10, 1);
+        stop = sprintf("%04d-%02d-%02d", term + 1, 9, 30);
     }
     decisions.forEach((decision) => {
         if (!minVotes || decision.minVotes == minVotes) {
@@ -835,9 +836,10 @@ function findDecisions(done, minVotes)
                     loners.push(result);
                     nAdded++;
                 } else {
-                    printf("warning: %s (%s) already exists in %s\n", result.caseId, result.usCite, sources.results.loners);
+                    let citation = (result.usCite || ('No. ' + result.docket));
+                    printf("warning: %s (%s) already exists in %s\n", result.caseId, citation, sources.results.loners);
                     if (mapTypes(loners[i], types) > 0) {
-                        printf("warning: %s (%s) being updated in %s\n", result.caseId, result.usCite, sources.results.loners);
+                        printf("warning: %s (%s) being updated in %s\n", result.caseId, citation, sources.results.loners);
                         nAdded++;
                     }
                     results[r] = loners[i];
@@ -846,65 +848,84 @@ function findDecisions(done, minVotes)
             if (nAdded) {
                 writeTextFile(sourcesDir + sources.results.loners, loners, true);
             }
-            if (argv['term']) {
+            if (term) {
                 /*
                  * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy.md)
                  */
-                let pathName = "/loners/" + argv['term'];
+                let pathName = "/loners/" + term;
                 let fileName = "_pages" + pathName + ".md";
-                let text = '---\ntitle: "' + argv['term'] + ' Term"\npermalink: /cases' + pathName + '\nlayout: cases\n';
+                let text = '---\ntitle: "' + term + ' Term"\npermalink: /cases' + pathName + '\nlayout: cases\n';
                 text += 'cases:\n';
                 results.forEach((result) => {
+                    let volume = 0, page = 0;
                     let matchCite = result.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
                     if (matchCite) {
-                        let volume = +matchCite[1], page = +matchCite[2];
-                        text += '  - id: "' + result.caseId + '"\n';
-                        text += '    title: "' + result.caseName + '"\n';
-                        /*
-                         * The source of an opinion PDF varies.  The LOC appears to have PDFs for everything up through
-                         * U.S. Reports volume 542, which covers the end of the 2003 term.  SCOTUS has bound volumes for
-                         * U.S. Reports volumes 502 through 569, which spans the 2012 term, and it also has slip opinions
-                         * for the 2012 term and up.
-                         *
-                         * Regarding LOC, you can browse an entire volume like so:
-                         *
-                         *      https://www.loc.gov/search/?fa=partof:u.s.+reports:+volume+542
-                         *
-                         * For a case like 542 U.S. 241, the PDF is here:
-                         *
-                         *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.pdf
-                         *
-                         * and the thumbnail is here:
-                         *
-                         *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
-                         *
-                         * Some of the LOC PDFs don't actually start on the correct page.  The above PDF, for example,
-                         * actually starts with page 240 of volume 542, not page 241.  And since we actually want to
-                         * jump to the page where the dissent starts, the 'offset' property, if present, will trigger
-                         * the addition of "#page=xxx" to the PDF URL by our page template(s).
-                         */
-                        text += sprintf('    volume: "%03d"\n    page: "%03d"\n' , volume, page);
-                        if (result.pdfOffset) text += '    offset: ' + result.pdfOffset + '\n';
-                        text += '    dateDecision: ' + datelib.formatDate("l, F j, Y", new Date(result.dateDecision)) + '\n';
-                        text += '    citation: ' + (result.usCite || ('No. ' + result.docket)) + '\n';
-                        /*
-                         * Time to determine who actually dissented.
-                         */
-                        let justiceDissented = "";
-                        for (let i = 0; i < result.justices.length; i++) {
-                            let justice = result.justices[i];
-                            if (justice.vote == "dissent") {
-                                if (!justiceDissented) {
-                                    justiceDissented = justice.justiceName;
-                                } else {
-                                    printf("warning: %s (%s) has multiple dissents (eg, %s, %s)\n", result.caseId, result.usCite, justiceDissented, justice.justiceName);
-                                }
+                        volume = +matchCite[1];  page = +matchCite[2];
+                    }
+                    text += '  - id: "' + result.caseId + '"\n';
+                    text += '    title: "' + result.caseName + '"\n';
+                    /*
+                     * The source of an opinion PDF varies.  The LOC appears to have PDFs for everything up through
+                     * U.S. Reports volume 542, which covers the end of the 2003 term.  SCOTUS has bound volumes for
+                     * U.S. Reports volumes 502 through 569, which spans the 2012 term, and it also has slip opinions
+                     * for the 2012 term and up.
+                     *
+                     * Regarding LOC, you can browse an entire volume like so:
+                     *
+                     *      https://www.loc.gov/search/?fa=partof:u.s.+reports:+volume+542
+                     *
+                     * For a case like 542 U.S. 241, the PDF is here:
+                     *
+                     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.pdf
+                     *
+                     * and the thumbnail is here:
+                     *
+                     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
+                     *
+                     * Some of the LOC PDFs don't actually start on the correct page.  The above PDF, for example,
+                     * actually starts with page 240 of volume 542, not page 241.  And since we actually want to
+                     * jump to the page where the dissent starts, the 'pdfOffset' property, if present, will trigger
+                     * the addition of "#page=xxx" to the PDF URL by our page template(s).
+                     */
+                    if (volume) {
+                        text += sprintf('    volume: "%03d"\n', volume);
+                    }
+                    if (page) {
+                        text += sprintf('    page: "%03d"\n' , page);
+                    }
+                    if (result.pdfOffset) {
+                        text += '    pdfOffset: ' + result.pdfOffset + '\n';
+                    }
+                    let pdfSource = result.pdfSource;
+                    if (!pdfSource) {
+                        if (term < 2004) {
+                            pdfSource = "loc";              // ie, Library of Congress
+                        } else if (term < 2012) {
+                            pdfSource = "scotusBound";      // ie, supremecourt.gov, in the "Bound Volumes" folder
+                        } else {
+                            pdfSource = "scotusSlip"        // ie, supremecourt.gov slip opinions
+                        }
+                    }
+                    if (pdfSource) {
+                        text += '    pdfSource: "' + pdfSource + '"\n';
+                    }
+                    text += '    dateDecision: "' + datelib.formatDate("l, F j, Y", new Date(result.dateDecision)) + '"\n';
+                    text += '    citation: "' + (result.usCite || ('No. ' + result.docket)) + '"\n';
+                    /*
+                     * Time to determine who actually dissented.
+                     */
+                    let justiceDissented = "";
+                    for (let i = 0; i < result.justices.length; i++) {
+                        let justice = result.justices[i];
+                        if (justice.vote == "dissent") {
+                            if (!justiceDissented) {
+                                justiceDissented = justice.justiceName;
+                            } else {
+                                printf("warning: %s (%s) has multiple dissents (eg, %s, %s)\n", result.caseId, result.usCite, justiceDissented, justice.justiceName);
                             }
                         }
-                        text += '    justiceDissented: ' + justiceDissented + '\n';
-                    } else {
-                        printf("unknown citation for %s: %s\n", result.caseName, result.usCite);
                     }
+                    text += '    justiceDissented: "' + justiceDissented + '"\n';
                 });
                 text += '---\n';
                 writeTextFile(fileName, text, argv['overwrite']);

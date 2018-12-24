@@ -9,13 +9,13 @@ A few data files have been created so far:
 - [decisions.json](/sources/results/decisions.json)
 - [justices.json](/sources/results/justices.json)
 
-in preparation for making this a more interesting website.  Most of the
-[court](/sources/results/courts.json) and [justice](/sources/results/justices.json) data came from
-[Oyez](https://www.oyez.org/), while all the [decision](/sources/results/decisions.json)
-data was imported from the [Supreme Court Database](http://scdb.wustl.edu/index.php),
-aka SCDB.
+in preparation for making this a more interesting website.  Most of our
+[Court](/sources/results/courts.json) and [Justice](/sources/results/justices.json) data came from
+[Oyez](https://www.oyez.org/), while all the [Decision](/sources/results/decisions.json)
+data was imported from [CSV files](/sources/scdb/decisions.csv) provided by the
+[Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB.
 
-To make good use of raw SCDB data, you need tables that map all the numeric
+To make good use of the raw SCDB data, you need tables that map all the numeric
 codes to what they actually represent.  To that end, SCDB provides a
 [Code Book](http://scdb.wustl.edu/_brickFiles/2018_02/SCDB_2018_02_codebook.pdf),
 but PDFs are *not* particularly easy to parse.  The next best thing is their
@@ -23,9 +23,9 @@ but PDFs are *not* particularly easy to parse.  The next best thing is their
 but again, lots of work is required to turn all those HTML tables into something
 your code can ingest.
 
-So, we made [codes.json](/sources/scdb/codes.json).  Then we wrote a script that reads
-every field of every record of [decisions.csv](/sources/scdb/decisions.csv) and verifies
-that every value exists in [codes.json](/sources/scdb/codes.json).
+So, we built a collection [SCDB Types](/sources/scdb/types.json).  Then we wrote a
+script that reads every field of every record of [CSV files](/sources/scdb/decisions.csv)
+and verifies that every value exists in the [Types](/sources/scdb/types.json) collection.
 
 The script revealed the following discrepancies:
 
@@ -170,7 +170,7 @@ The script revealed the following discrepancies:
 
 In addition, there is one SCDB field, [lawMinor](http://scdb.wustl.edu/documentation.php?var=lawMinor)
 that's a free-form string field, so we modified the script to generate a complete list of all current
-*lawMinor* values and then stored them back into [codes.json](/sources/scdb/codes.json).
+*lawMinor* values and then stored them back into the [Types](/sources/scdb/types.json) collection.
 
 This revealed that the *lawMinor* field is quite a mess.  Here's a small subset of the values,
 to give you a sense of the problems:
