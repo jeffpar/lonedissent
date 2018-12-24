@@ -1,20 +1,20 @@
 {
   "oyez": {
-    "courtsXML": "oyez/courts/**/court.xml",
-    "courtsHTML": "oyez/justices_by_court.html",
-    "justicesXML": "oyez/justices/**/justice.xml"
+    "courtsXML": "/sources/oyez/courts/**/court.xml",
+    "courtsHTML": "/sources/oyez/justices_by_court.html",
+    "justicesXML": "/sources/oyez/justices/**/justice.xml"
   },
   "scdb": {
-    "types": "scdb/types.json",
-    "courtsCSV": "scdb/naturalCourts.csv",
-    "decisionsCSV": "scdb/decisions.csv",
-    "justicesCSV": "scdb/justices.csv"
+    "types": "/sources/scdb/types.json",
+    "courtsCSV": "/sources/scdb/naturalCourts.csv",
+    "decisionsCSV": "/sources/scdb/decisions.csv",
+    "justicesCSV": "/sources/scdb/justices.csv"
   },
   "results": {
-    "courts": "results/courts.json",
-    "courtsCSV": "results/courts.csv",
-    "decisions": "results/decisions.json",
-    "justices": "results/justices.json",
-    "loners": "results/loners.json"
+    "courts": "/sources/results/courts.json",
+    "courtsCSV": "/sources/results/courts.csv",
+    "decisions": "/sources/results/decisions.json",
+    "justices": "/sources/results/justices.json",
+    "loners": "/_data/loners.json"
   }
 }

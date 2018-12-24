@@ -14,15 +14,15 @@ let mkdirp = require("mkdirp");
 let path = require("path");
 let parseXML = require('xml2js').parseString;
 
-let datelib = require("./lib/datelib");
-let proclib = require("./lib/proclib");
-let stdio = require("./lib/stdio");
+let rootDir = ".";
+let datelib = require(rootDir + "/lib/datelib");
+let proclib = require(rootDir + "/lib/proclib");
+let stdio = require(rootDir + "/lib/stdio");
 let printf = stdio.printf;
 let sprintf = stdio.sprintf;
-let strlib = require("./lib/strlib");
+let strlib = require(rootDir + "/lib/strlib");
 
-let sourcesDir = "./sources/";
-let sources = require(sourcesDir + "sources.json");
+let sources = require(rootDir + "/sources/sources.json");
 let argv = proclib.args.argv;
 
 /**
@@ -467,11 +467,11 @@ function readXMLFile(fileName)
 function readCourts()
 {
     let fixes = 0;
-    let courts = JSON.parse(readTextFile(sourcesDir + sources.results.courts));
+    let courts = JSON.parse(readTextFile(rootDir + sources.results.courts));
     /*
      * First, let's see how our data lines up with current Oyez HTML data.
      */
-    let html = readTextFile(sourcesDir + sources.oyez.courtsHTML);
+    let html = readTextFile(rootDir + sources.oyez.courtsHTML);
     let reCourt = /lazy-img="([^"]*)"\s+alt="([^"]*)"/g, match;
     while ((match = reCourt.exec(html))) {
         let i, matched = false;
@@ -480,7 +480,7 @@ function readCourts()
             if (courts[i].name == name) {
                 matched = true;
                 if (!courts[i].photo) {
-                    courts[i].photo = path.join(sourcesDir, path.dirname(sources.oyez.courtsHTML), path.basename(sources.oyez.courtsHTML, ".html"), path.basename(match[1]));
+                    courts[i].photo = path.join(rootDir, path.dirname(sources.oyez.courtsHTML), path.basename(sources.oyez.courtsHTML, ".html"), path.basename(match[1]));
                     fixes++;
                     break;
                 }
@@ -539,8 +539,8 @@ function readCourts()
         }
     }
     if (fixes) {
-        printf("writing %d corrections to %s\n", fixes, sourcesDir + sources.results.courts);
-        writeTextFile(sourcesDir + sources.results.courts, courts, argv['overwrite']);
+        printf("writing %d corrections to %s\n", fixes, rootDir + sources.results.courts);
+        writeTextFile(rootDir + sources.results.courts, courts, argv['overwrite']);
     }
     return courts;
 }
@@ -553,7 +553,7 @@ function readCourts()
 function readOyezCourts()
 {
     let courts = [];
-    let fileNames = glob.sync(sourcesDir + sources.oyez.courtsXML);
+    let fileNames = glob.sync(rootDir + sources.oyez.courtsXML);
     for (let i = 0; i < fileNames.length; i++) {
         let xml = readXMLFile(fileNames[i]);
         if (!xml) break;
@@ -587,7 +587,7 @@ function readOyezCourts()
 function readOyezJustices()
 {
     let justices = [];
-    let fileNames = glob.sync(sourcesDir + sources.oyez.justicesXML);
+    let fileNames = glob.sync(rootDir + sources.oyez.justicesXML);
     for (let i = 0; i < fileNames.length; i++) {
         let xml = readXMLFile(fileNames[i]);
         if (!xml) break;
@@ -628,7 +628,7 @@ function readOyezJustices()
  */
 function readSCDBCourts()
 {
-    let courts = parseCSV(readTextFile(sourcesDir + sources.scdb.courtsCSV));
+    let courts = parseCSV(readTextFile(rootDir + sources.scdb.courtsCSV));
     for (let i = 0; i < courts.length; i++) {
         let court = courts[i];
         let start = new Date(court.naturalStart);
@@ -653,7 +653,7 @@ function buildCourts(done)
      *
      *      let courtsOyez = readOyezCourts();
      *      printf("Oyez courts read: %d\n", courtsOyez.length);
-     *      writeTextFile(sourcesDir + sources.results.courts, courtsOyez, argv['overwrite']);
+     *      writeTextFile(rootDir + sources.results.courts, courtsOyez, argv['overwrite']);
      */
     let courts = readCourts();
     printf("courts read: %d\n", courts.length);
@@ -662,7 +662,7 @@ function buildCourts(done)
      * Let's verify that all the justices are appropriately slotted into the courts.
      */
     let lastCourtPrinted = "";
-    let justices = JSON.parse(readTextFile(sourcesDir + sources.results.justices));
+    let justices = JSON.parse(readTextFile(rootDir + sources.results.justices));
     for (let i = 0; i < justices.length; i++) {
         let justice = justices[i];
         let nCourts = 0;
@@ -700,7 +700,7 @@ function buildCourts(done)
         }
     }
 
-    writeTextFile(sourcesDir + sources.results.courtsCSV, csv, argv['overwrite']);
+    writeTextFile(rootDir + sources.results.courtsCSV, csv, argv['overwrite']);
     done();
 }
 
@@ -711,10 +711,10 @@ function buildCourts(done)
  */
 function buildDecisions(done)
 {
-    let types = JSON.parse(readTextFile(sourcesDir + sources.scdb.types));
-    let decisions = parseCSV(readTextFile(sourcesDir + sources.scdb.decisionsCSV, "latin1"), 0, "voteId", "justice", false, types);
+    let types = JSON.parse(readTextFile(rootDir + sources.scdb.types));
+    let decisions = parseCSV(readTextFile(rootDir + sources.scdb.decisionsCSV, "latin1"), 0, "voteId", "justice", false, types);
     printf("SCDB decisions: %d\n", decisions.length);
-    writeTextFile(sourcesDir + sources.results.decisions, decisions, argv['overwrite']);
+    writeTextFile(rootDir + sources.results.decisions, decisions, argv['overwrite']);
     done();
 }
 
@@ -728,7 +728,7 @@ function buildJustices(done)
     let justicesOyez = readOyezJustices();
     printf("Oyez justices read: %d\n", justicesOyez.length);
 
-    let justices = parseCSV(readTextFile(sourcesDir + sources.scdb.justicesCSV));
+    let justices = parseCSV(readTextFile(rootDir + sources.scdb.justicesCSV));
     printf("SCDB justices read: %d\n", justices.length);
     for (let i = 0; i < justices.length; i++) {
         let first, last;
@@ -775,7 +775,7 @@ function buildJustices(done)
             justicesOyez.push(justice);
         }
     }
-    writeTextFile(sourcesDir + sources.results.justices, justicesOyez, argv['overwrite']);
+    writeTextFile(rootDir + sources.results.justices, justicesOyez, argv['overwrite']);
     done();
 }
 
@@ -799,7 +799,7 @@ function buildJustices(done)
 function findDecisions(done, minVotes)
 {
     let results = [];
-    let decisions = JSON.parse(readTextFile(sourcesDir + sources.results.decisions));
+    let decisions = JSON.parse(readTextFile(rootDir + sources.results.decisions));
     printf("decisions available: %d\n", decisions.length);
     let term = +argv['term'] || 0;
     let start = argv['start'] || "", stop = argv['stop'] || "";
@@ -824,10 +824,10 @@ function findDecisions(done, minVotes)
     if (results.length) {
         if (minVotes == 1) {
             let nAdded = 0;
-            let types = JSON.parse(readTextFile(sourcesDir + sources.scdb.types) || "{}");
+            let types = JSON.parse(readTextFile(rootDir + sources.scdb.types) || "{}");
             types['caseNotes'] = {"type": "string"};
             types['pdfOffset'] = {"type": "number"};
-            let loners = JSON.parse(readTextFile(sourcesDir + sources.results.loners) || "[]");
+            let loners = JSON.parse(readTextFile(rootDir + sources.results.loners) || "[]");
             for (let r = 0; r < results.length; r++) {
                 let result = results[r]
                 if (mapTypes(result, types, true) < 0) break;
@@ -846,14 +846,14 @@ function findDecisions(done, minVotes)
                 }
             }
             if (nAdded) {
-                writeTextFile(sourcesDir + sources.results.loners, loners, true);
+                writeTextFile(rootDir + sources.results.loners, loners, true);
             }
             if (term) {
                 /*
                  * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy.md)
                  */
                 let pathName = "/loners/" + term;
-                let fileName = "_pages" + pathName + ".md";
+                let fileName = "/_pages" + pathName + ".md";
                 let text = '---\ntitle: "' + term + ' Term"\npermalink: /cases' + pathName + '\nlayout: cases\n';
                 text += 'cases:\n';
                 results.forEach((result) => {
@@ -928,7 +928,7 @@ function findDecisions(done, minVotes)
                     text += '    justiceDissented: "' + justiceDissented + '"\n';
                 });
                 text += '---\n';
-                writeTextFile(fileName, text, argv['overwrite']);
+                writeTextFile(rootDir + fileName, text, argv['overwrite']);
             }
         }
     }
