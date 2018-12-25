@@ -2,6 +2,13 @@
 
 This project highlights "lone dissents" from [U.S. Supreme Court](https://www.supremecourt.gov) opinions.
 
+For more information, see the [home page](index.md) from the project's website, [lonedissent.org](https://lonedissent.org).
+
+## Building Data Files
+
+See our blog post "[Building Data Files](_posts/2018-12-21-building-data-files.md)" for details.  All the built data files,
+including the source data files that were used to build them, have been checked into the project.
+
 ## Adding More Lone Dissents (aka "Loners") By Term
 
 Our [gulpfile](gulpfile.js) has a Gulp task named `loners` that automatically adds more lone dissents from a given
@@ -20,7 +27,8 @@ dissent is located, along with a page offset inside the PDF.  For example, the d
 the 50th page of the PDF, thanks to a lengthy table of contents.  And even if the opinion *did* start on the cited page,
 the dissent is always buried at the end of the opinion, so a page offset is almost always required.
 
-So, the source of the PDF and the page offset are indicated by two additional properties: `pdfSource` and `pdfOffset`:
+So, the source of the PDF and the page offset are indicated by two additional properties, `pdfSource` and `pdfOffset`,
+in [loners.json](_data/loners.json):
 
     ...
     "usCite": "543 U.S. 50",
