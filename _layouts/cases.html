@@ -7,15 +7,15 @@ layout: archive
 {% for case in page.cases %}
   {% if case.pdfSource == "loc" %}
     {% capture pdfPath %}https://cdn.loc.gov/service/ll/usrep/usrep{{ case.volume }}/usrep{{ case.volume }}{{ case.page }}/usrep{{ case.volume }}{{ case.page }}{% endcapture %}
-    {% capture pdfURL %}{% if case.pdfOffset %}{{ pdfPath }}.pdf#page={{ case.pdfOffset }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
+    {% capture pdfURL %}{% if case.pdfPage %}{{ pdfPath }}.pdf#page={{ case.pdfPage }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
     {% capture pdfGIF %}{{ pdfPath }}.gif{% endcapture %}
   {% elsif case.pdfSource == "scotusBound" %}
     {% capture pdfPath %}https://www.supremecourt.gov/opinions/boundvolumes/{{ case.volume }}bv{% endcapture %}
-    {% capture pdfURL %}{% if case.pdfOffset %}{{ pdfPath }}.pdf#page={{ case.pdfOffset }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
+    {% capture pdfURL %}{% if case.pdfPage %}{{ pdfPath }}.pdf#page={{ case.pdfPage }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
     {% capture pdfGIF %}/assets/images/usreports.gif{% endcapture %}
   {% else %}
     {% capture pdfPath %}https://www.supremecourt.gov/opinions/{{ case.pdfSource }}{% endcapture %}
-    {% capture pdfURL %}{% if case.pdfOffset %}{{ pdfPath }}.pdf#page={{ case.pdfOffset }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
+    {% capture pdfURL %}{% if case.pdfPage %}{{ pdfPath }}.pdf#page={{ case.pdfPage }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
     {% capture pdfGIF %}/assets/images/usreports.gif{% endcapture %}
   {% endif %}
 <hr/>

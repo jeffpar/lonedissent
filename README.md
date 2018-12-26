@@ -21,13 +21,13 @@ The data comes from [decisions.json](sources/results/decisions.json), which was 
 another Gulp task named `decisions`.  That task processed all the decision records in [decisions.csv](sources/scdb/decisions.csv) and generated the JSON file that the other tasks rely on for decision data.
 
 The [loners.json](_data/loners.json) data can then be hand-edited as needed, to indicate where the PDF containing the
-dissent is located, along with a page offset inside the PDF.  For example, the dissent in "543 U.S. 50" is buried in Volume
+dissent is located, along with a page number inside the PDF.  For example, the dissent in "543 U.S. 50" is buried in Volume
 543 of the [U.S. Supreme Court's](https://www.supremecourt.gov/)
 [Bound Volumes](https://www.supremecourt.gov/opinions/boundvolumes.aspx).  Moreover, the opinion doesn't actually start on
 the 50th page of the PDF, thanks to a lengthy table of contents.  And even if the opinion *did* start on the cited page,
-the dissent is always buried at the end of the opinion, so a page offset is almost always required.
+the dissent is always buried at the end of the opinion, so a page number is almost always required.
 
-So, the source of the PDF and the page offset are indicated by two additional properties, `pdfSource` and `pdfOffset`,
+So, the source of the PDF and the starting page are indicated by two additional properties, `pdfSource` and `pdfPage`,
 in [loners.json](_data/loners.json):
 
     ...
@@ -36,6 +36,6 @@ in [loners.json](_data/loners.json):
     "ledCite": "160 L. Ed. 2d 389",
     "lexisCite": "2004 U.S. LEXIS 7979",
     "pdfSource": "scotusBound",
-    "pdfOffset": 272,
+    "pdfPage": 272,
     ...
 

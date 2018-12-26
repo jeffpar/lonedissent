@@ -826,7 +826,7 @@ function findDecisions(done, minVotes)
             let nAdded = 0;
             let types = JSON.parse(readTextFile(rootDir + sources.scdb.types) || "{}");
             types['caseNotes'] = {"type": "string"};
-            types['pdfOffset'] = {"type": "number"};
+            types['pdfPage'] = {"type": "number"};
             let loners = JSON.parse(readTextFile(rootDir + sources.results.loners) || "[]");
             for (let r = 0; r < results.length; r++) {
                 let result = results[r]
@@ -884,7 +884,7 @@ function findDecisions(done, minVotes)
                      *
                      * Some of the LOC PDFs don't actually start on the correct page.  The above PDF, for example,
                      * actually starts with page 240 of volume 542, not page 241.  And since we actually want to
-                     * jump to the page where the dissent starts, the 'pdfOffset' property, if present, will trigger
+                     * jump to the page where the dissent starts, the 'pdfPage' property, if present, will trigger
                      * the addition of "#page=xxx" to the PDF URL by our page template(s).
                      */
                     if (volume) {
@@ -892,9 +892,6 @@ function findDecisions(done, minVotes)
                     }
                     if (page) {
                         text += sprintf('    page: "%03d"\n' , page);
-                    }
-                    if (result.pdfOffset) {
-                        text += '    pdfOffset: ' + result.pdfOffset + '\n';
                     }
                     let pdfSource = result.pdfSource;
                     if (!pdfSource) {
@@ -908,6 +905,9 @@ function findDecisions(done, minVotes)
                     }
                     if (pdfSource) {
                         text += '    pdfSource: "' + pdfSource + '"\n';
+                    }
+                    if (result.pdfPage) {
+                        text += '    pdfPage: ' + result.pdfPage + '\n';
                     }
                     text += '    dateDecision: "' + datelib.formatDate("l, F j, Y", new Date(result.dateDecision)) + '"\n';
                     text += '    citation: "' + (result.usCite || ('No. ' + result.docket)) + '"\n';

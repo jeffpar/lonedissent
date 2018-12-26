@@ -22,5 +22,6 @@ but (a) we don't have such a source, and (b) that's a lot of work.
 
 - [2003 Term](/cases/loners/2003)
 - [2004 Term](/cases/loners/2004)
+- [2016 Term](/cases/loners/2016)
 - [2017 Term](/cases/loners/2017)
 
