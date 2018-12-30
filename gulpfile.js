@@ -284,7 +284,7 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
                             field = +field;
                         } else if (t.type == "date") {
                             if (field) {
-                                field = datelib.formatDate("Y-m-d", new Date(field));
+                                field = datelib.formatDate("Y-m-d", field);
                             }
                         }
                     }
@@ -509,16 +509,18 @@ function readCourts()
             court.startFormatted = startFormatted;
             fixes++;
         }
-        let stop = court.stop;
-        let stopFormatted = datelib.formatDate("l, F j, Y", stop);
-        if (stopFormatted != court.stopFormatted) {
-            printf("%s != %s\n", stopFormatted, court.stopFormatted);
-            court.stopFormatted = stopFormatted;
-            fixes++;
+        if (court.stop) {
+            let stop = court.stop;
+            let stopFormatted = datelib.formatDate("l, F j, Y", stop);
+            if (stopFormatted != court.stopFormatted) {
+                printf("%s != %s\n", stopFormatted, court.stopFormatted);
+                court.stopFormatted = stopFormatted;
+                fixes++;
+            }
         }
         if (i < courts.length - 1) {
             let courtNext = courts[i+1];
-            let dateFormatted = datelib.formatDate("l, F j, Y", datelib.adjustDate(new Date(court.stop), 1));
+            let dateFormatted = datelib.formatDate("l, F j, Y", datelib.adjustDate(new Date(court.stop), 1), true);
             if (dateFormatted != courtNext.startFormatted) {
                 printf("end of %s court (%s) doesn't align with beginning of %s court (%s)\n", court.name, court.stopFormatted, courtNext.name, courtNext.startFormatted);
             }
@@ -601,10 +603,10 @@ function readOyezJustices()
             /*
              * For some reason, all the Oyez XML justice dates appear to be off-by-one, so we compensate here.
              */
-            justice.start = datelib.formatDate("Y-m-d", datelib.adjustDate(new Date(xmlAppt.justiceSwornDate[0]._), 1));
+            justice.start = datelib.formatDate("Y-m-d", datelib.adjustDate(new Date(xmlAppt.justiceSwornDate[0]._), 1), true);
             justice.startFormatted = datelib.formatDate("l, F j, Y", justice.start);
             if (xmlAppt.justiceEndDate) {
-                justice.stop = datelib.formatDate("Y-m-d", datelib.adjustDate(new Date(xmlAppt.justiceEndDate[0]._), 1));
+                justice.stop = datelib.formatDate("Y-m-d", datelib.adjustDate(new Date(xmlAppt.justiceEndDate[0]._), 1), true);
                 justice.stopFormatted = datelib.formatDate("l, F j, Y", justice.stop);
                 if (xmlAppt.justiceReasonForLeaving) {
                     justice.stopReason = xmlAppt.justiceReasonForLeaving[0];
@@ -826,7 +828,9 @@ function findDecisions(done, minVotes)
             let nAdded = 0;
             let types = JSON.parse(readTextFile(rootDir + sources.scdb.types) || "{}");
             types['caseNotes'] = {"type": "string"};
+            types['pdfSource'] = {"type": "string"};
             types['pdfPage'] = {"type": "number"};
+            types['pdfPageDissent'] = {"type": "number"};
             let loners = JSON.parse(readTextFile(rootDir + sources.results.loners) || "[]");
             for (let r = 0; r < results.length; r++) {
                 let result = results[r]
@@ -865,10 +869,21 @@ function findDecisions(done, minVotes)
                     text += '  - id: "' + result.caseId + '"\n';
                     text += '    title: "' + result.caseName + '"\n';
                     /*
-                     * The source of an opinion PDF varies.  The LOC appears to have PDFs for everything up through
-                     * U.S. Reports volume 542, which covers the end of the 2003 term.  SCOTUS has bound volumes for
-                     * U.S. Reports volumes 502 through 569, which spans the 2012 term, and it also has slip opinions
-                     * for the 2012 term and up.
+                     * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
+                     * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
+                     * And finally, when using SCOTUS slip opinions, 'pdfSource' should be a path relative to their
+                     * slip opinions URL (eg, "17pdf/17-21_p8k0").
+                     *
+                     * The LOC appears to have PDFs for everything up through U.S. Reports volume 542, which covers
+                     * the end of the 2003 term.  SCOTUS has bound volumes for U.S. Reports volumes 502 through 569,
+                     * which spans terms 1991 through 2012, so there's a healthy overlap between LOC and SCOTUS.
+                     *
+                     * SCOTUS also has slip opinions for the 2012 term and up.  Moreover, SCOTUS claims it will keep
+                     * slip opinions until they have been posted in a bound volume PDF.  This means that going forward,
+                     * every new SCOTUS opinion will have a SCOTUS source (ie, bound or slip); unfortunately, it also
+                     * means that periodically (ie, whenever SCOTUS decides to post a new bound volume PDF and remove
+                     * corresponding slip opinion PDFs) we will have to detect the missing opinions and remap them.
+                     * Sigh.
                      *
                      * Regarding LOC, you can browse an entire volume like so:
                      *
@@ -883,9 +898,14 @@ function findDecisions(done, minVotes)
                      *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
                      *
                      * Some of the LOC PDFs don't actually start on the correct page.  The above PDF, for example,
-                     * actually starts with page 240 of volume 542, not page 241.  And since we actually want to
-                     * jump to the page where the dissent starts, the 'pdfPage' property, if present, will trigger
-                     * the addition of "#page=xxx" to the PDF URL by our page template(s).
+                     * actually starts with page 240 of volume 542, not page 241.  Such cases should have the 'pdfPage'
+                     * property set (eg, 2); the default value for 'pdfPage' is 1, so it need not be set for PDFs
+                     * where the opinion properly begins on the first page (hopefully the case for most LOC opinions).
+                     *
+                     * As for the dissents, they invariably start at some later page in the PDF, so the 'pdfPageDissent'
+                     * property must be set.  Moreover, if the 'pdfPage' is some value greater than 1, then that difference
+                     * must be applied to 'pdfPageDissent' as well; our page templates will *not* automatically add
+                     * "pdfpage" minus 1 to the dissent page number.
                      */
                     if (volume) {
                         text += sprintf('    volume: "%03d"\n', volume);
@@ -909,7 +929,10 @@ function findDecisions(done, minVotes)
                     if (result.pdfPage) {
                         text += '    pdfPage: ' + result.pdfPage + '\n';
                     }
-                    text += '    dateDecision: "' + datelib.formatDate("l, F j, Y", new Date(result.dateDecision)) + '"\n';
+                    if (result.pdfPageDissent) {
+                        text += '    pdfPageDissent: ' + result.pdfPageDissent + '\n';
+                    }
+                    text += '    dateDecision: "' + datelib.formatDate("l, F j, Y", result.dateDecision) + '"\n';
                     text += '    citation: "' + (result.usCite || ('No. ' + result.docket)) + '"\n';
                     /*
                      * Time to determine who actually dissented.
