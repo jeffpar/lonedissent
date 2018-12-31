@@ -865,181 +865,186 @@ function buildJustices(done)
  */
 function findDecisions(done, minVotes)
 {
-    let results = [];
-    let decisions = JSON.parse(readTextFile(rootDir + sources.results.decisions));
-    printf("decisions available: %d\n", decisions.length);
     let term = +argv['term'] || 0;
+    let endTerm = +argv['endTerm'] || term;
+    if (endTerm < term) endTerm = term;
     let start = argv['start'] || "", stop = argv['stop'] || "";
     let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%s U.S. %s", volume, page);
-    if (term) {
-        start = sprintf("%04d-%02d-%02d", term, 10, 1);
-        stop = sprintf("%04d-%02d-%02d", term + 1, 9, 30);
-    }
-    decisions.forEach((decision) => {
-        if (!minVotes || decision.minVotes == minVotes) {
-            if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
-                if (!volume || decision.usCite.indexOf(usCite) == 0) {
-                    printf("%s: %s [%s] (%s): %d-%d\n", decision.dateDecision, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
-                    results.push(decision);
-                }
-            }
+    let decisions = JSON.parse(readTextFile(rootDir + sources.results.decisions));
+    printf("decisions available: %d\n", decisions.length);
+    do {
+        if (term) {
+            printf("processing term %d...\n", term);
+            start = sprintf("%04d-%02d-%02d", term, 10, 1);
+            stop = sprintf("%04d-%02d-%02d", term + 1, 9, 30);
         }
-    });
-    let range = (start || stop)? sprintf(" in range %s--%s", start, stop) : "";
-    let condition = minVotes? sprintf(" with minVotes of %d", minVotes) : "";
-    printf("decisions%s%s: %d\n", range, condition, results.length);
-    if (results.length) {
-        if (minVotes == 1) {
-            let nAdded = 0;
-            let types = JSON.parse(readTextFile(rootDir + sources.scdb.types) || "{}");
-            types['caseNotes'] = {"type": "string"};
-            types['pdfSource'] = {"type": "string"};
-            types['pdfPage'] = {"type": "number"};
-            types['pdfPageDissent'] = {"type": "number"};
-            let loners = JSON.parse(readTextFile(rootDir + sources.results.loners) || "[]");
-            for (let r = 0; r < results.length; r++) {
-                let result = results[r]
-                if (mapTypes(result, types, true) < 0) break;
-                let i = searchObjectArray(loners, "caseId", result.caseId);
-                if (i < 0) {
-                    if (term < 2004) {
-                        result['pdfSource'] = "loc";            // ie, Library of Congress
-                    } else if (term < 2012) {
-                        result['pdfSource'] = "scotusBound";    // ie, supremecourt.gov, in the "Bound Volumes" folder
-                    } else {
-                        result['pdfSource'] = "slipopinion/" + (term % 100);
+        let results = [];
+        decisions.forEach((decision) => {
+            if (!minVotes || decision.minVotes == minVotes) {
+                if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
+                    if (!volume || decision.usCite.indexOf(usCite) == 0) {
+                        printf("%s: %s [%s] (%s): %d-%d\n", decision.dateDecision, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
+                        results.push(decision);
                     }
-                    loners.push(result);
-                    nAdded++;
-                } else {
-                    let citation = (result.usCite || ('No. ' + result.docket));
-                    printf("warning: %s (%s) already exists in %s\n", result.caseId, citation, sources.results.loners);
-                    if (mapTypes(loners[i], types) > 0) {
-                        printf("warning: %s (%s) being updated in %s\n", result.caseId, citation, sources.results.loners);
-                        nAdded++;
-                    }
-                    results[r] = loners[i];
                 }
             }
-            if (nAdded) {
-                writeTextFile(rootDir + sources.results.loners, loners, true);
-            }
-            if (term) {
-                /*
-                 * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy.md)
-                 */
-                let pathName = "/loners/" + term;
-                let fileName = "/_pages" + pathName + ".md";
-                let text = '---\ntitle: "' + term + ' Term"\npermalink: /cases' + pathName + '\nlayout: cases\n';
-                text += 'cases:\n';
-                results.forEach((result) => {
-                    let volume = 0, page = 0;
-                    let matchCite = result.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
-                    if (matchCite) {
-                        volume = +matchCite[1];  page = +matchCite[2];
+        });
+        let range = (start || stop)? sprintf(" in range %s--%s", start, stop) : "";
+        let condition = minVotes? sprintf(" with minVotes of %d", minVotes) : "";
+        printf("decisions%s%s: %d\n", range, condition, results.length);
+        if (results.length) {
+            if (minVotes == 1) {
+                let nAdded = 0;
+                let types = JSON.parse(readTextFile(rootDir + sources.scdb.types) || "{}");
+                types['caseNotes'] = {"type": "string"};
+                types['pdfSource'] = {"type": "string"};
+                types['pdfPage'] = {"type": "number"};
+                types['pdfPageDissent'] = {"type": "number"};
+                let loners = JSON.parse(readTextFile(rootDir + sources.results.loners) || "[]");
+                for (let r = 0; r < results.length; r++) {
+                    let result = results[r]
+                    if (mapTypes(result, types, true) < 0) break;
+                    let i = searchObjectArray(loners, "caseId", result.caseId);
+                    if (i < 0) {
+                        if (term < 2004) {
+                            result['pdfSource'] = "loc";            // ie, Library of Congress
+                        } else if (term < 2012) {
+                            result['pdfSource'] = "scotusBound";    // ie, supremecourt.gov, in the "Bound Volumes" folder
+                        } else {
+                            result['pdfSource'] = "slipopinion/" + (term % 100);
+                        }
+                        loners.push(result);
+                        nAdded++;
+                    } else {
+                        let citation = (result.usCite || ('No. ' + result.docket));
+                        printf("warning: %s (%s) already exists in %s\n", result.caseId, citation, sources.results.loners);
+                        if (mapTypes(loners[i], types) > 0) {
+                            printf("warning: %s (%s) being updated in %s\n", result.caseId, citation, sources.results.loners);
+                            nAdded++;
+                        }
+                        results[r] = loners[i];
                     }
-                    text += '  - id: "' + result.caseId + '"\n';
-                    text += '    title: "' + result.caseName + '"\n';
+                }
+                if (nAdded) {
+                    writeTextFile(rootDir + sources.results.loners, loners, true);
+                }
+                if (term) {
                     /*
-                     * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
-                     * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
-                     * And finally, when using SCOTUS slip opinions, 'pdfSource' should be a path relative to their
-                     * slip opinions URL (eg, "17pdf/17-21_p8k0").
-                     *
-                     * The LOC appears to have PDFs for everything up through U.S. Reports volume 542, which covers
-                     * the end of the 2003 term.  SCOTUS has bound volumes for U.S. Reports volumes 502 through 569,
-                     * which spans terms 1991 through 2012, so there's a healthy overlap between LOC and SCOTUS.
-                     *
-                     * SCOTUS also has slip opinions for the 2012 term and up.  Moreover, SCOTUS claims it will keep
-                     * slip opinions until they have been posted in a bound volume PDF.  This means that going forward,
-                     * every new SCOTUS opinion will have a SCOTUS source (ie, bound or slip); unfortunately, it also
-                     * means that periodically (ie, whenever SCOTUS decides to post a new bound volume PDF and remove
-                     * corresponding slip opinion PDFs) we will have to detect the missing opinions and remap them.
-                     * Sigh.
-                     *
-                     * Regarding LOC, you can browse an entire volume like so:
-                     *
-                     *      https://www.loc.gov/search/?fa=partof:u.s.+reports:+volume+542
-                     *
-                     * For a case like 542 U.S. 241, the PDF is here:
-                     *
-                     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.pdf
-                     *
-                     * and the thumbnail is here:
-                     *
-                     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
-                     *
-                     * Some of the LOC PDFs don't actually start on the correct page.  The above PDF, for example,
-                     * actually starts with page 240 of volume 542, not page 241.  Such cases should have the 'pdfPage'
-                     * property set (eg, 2); the default value for 'pdfPage' is 1, so it need not be set for PDFs
-                     * where the opinion properly begins on the first page (hopefully the case for most LOC opinions).
-                     *
-                     * As for the dissents, they invariably start at some later page in the PDF, so the 'pdfPageDissent'
-                     * property must be set.  Moreover, if the 'pdfPage' is some value greater than 1, then that difference
-                     * must be applied to 'pdfPageDissent' as well; our page templates will *not* automatically add
-                     * "pdfpage" minus 1 to the dissent page number.
-                     */
-                    if (volume) {
-                        text += sprintf('    volume: "%03d"\n', volume);
-                    }
-                    if (page) {
-                        text += sprintf('    page: "%03d"\n' , page);
-                    }
-                    if (result.pdfSource) {
-                        text += '    pdfSource: "' + result.pdfSource + '"\n';
-                    }
-                    if (result.pdfPage) {
-                        text += '    pdfPage: ' + result.pdfPage + '\n';
-                    }
-                    if (result.pdfPageDissent) {
-                        text += '    pdfPageDissent: ' + result.pdfPageDissent + '\n';
-                    }
-                    text += '    dateDecision: "' + datelib.formatDate("l, F j, Y", result.dateDecision) + '"\n';
-                    text += '    citation: "' + (result.usCite || ('No. ' + result.docket)) + '"\n';
-                    /*
-                     * Time to determine who actually dissented.
-                     */
-                    let justiceDissented = "";
-                    for (let i = 0; i < result.justices.length; i++) {
-                        let justice = result.justices[i];
-                        if (justice.vote == "dissent") {
-                            if (!justiceDissented) {
-                                justiceDissented = justice.justiceName;
-                            } else {
-                                printf("warning: %s (%s) has multiple dissents (eg, %s, %s)\n", result.caseId, result.usCite, justiceDissented, justice.justiceName);
+                    * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy.md)
+                    */
+                    let pathName = "/loners/" + term;
+                    let fileName = "/_pages" + pathName + ".md";
+                    let text = '---\ntitle: "' + term + ' Term"\npermalink: /cases' + pathName + '\nlayout: cases\n';
+                    text += 'cases:\n';
+                    results.forEach((result) => {
+                        let volume = 0, page = 0;
+                        let matchCite = result.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
+                        if (matchCite) {
+                            volume = +matchCite[1];  page = +matchCite[2];
+                        }
+                        text += '  - id: "' + result.caseId + '"\n';
+                        text += '    title: "' + result.caseName + '"\n';
+                        /*
+                        * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
+                        * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
+                        * And finally, when using SCOTUS slip opinions, 'pdfSource' should be a path relative to their
+                        * slip opinions URL (eg, "17pdf/17-21_p8k0").
+                        *
+                        * The LOC appears to have PDFs for everything up through U.S. Reports volume 542, which covers
+                        * the end of the 2003 term.  SCOTUS has bound volumes for U.S. Reports volumes 502 through 569,
+                        * which spans terms 1991 through 2012, so there's a healthy overlap between LOC and SCOTUS.
+                        *
+                        * SCOTUS also has slip opinions for the 2012 term and up.  Moreover, SCOTUS claims it will keep
+                        * slip opinions until they have been posted in a bound volume PDF.  This means that going forward,
+                        * every new SCOTUS opinion will have a SCOTUS source (ie, bound or slip); unfortunately, it also
+                        * means that periodically (ie, whenever SCOTUS decides to post a new bound volume PDF and remove
+                        * corresponding slip opinion PDFs) we will have to detect the missing opinions and remap them.
+                        * Sigh.
+                        *
+                        * Regarding LOC, you can browse an entire volume like so:
+                        *
+                        *      https://www.loc.gov/search/?fa=partof:u.s.+reports:+volume+542
+                        *
+                        * For a case like 542 U.S. 241, the PDF is here:
+                        *
+                        *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.pdf
+                        *
+                        * and the thumbnail is here:
+                        *
+                        *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
+                        *
+                        * Some of the LOC PDFs don't actually start on the correct page.  The above PDF, for example,
+                        * actually starts with page 240 of volume 542, not page 241.  Such cases should have the 'pdfPage'
+                        * property set (eg, 2); the default value for 'pdfPage' is 1, so it need not be set for PDFs
+                        * where the opinion properly begins on the first page (hopefully the case for most LOC opinions).
+                        *
+                        * As for the dissents, they invariably start at some later page in the PDF, so the 'pdfPageDissent'
+                        * property must be set.  Moreover, if the 'pdfPage' is some value greater than 1, then that difference
+                        * must be applied to 'pdfPageDissent' as well; our page templates will *not* automatically add
+                        * "pdfpage" minus 1 to the dissent page number.
+                        */
+                        if (volume) {
+                            text += sprintf('    volume: "%03d"\n', volume);
+                        }
+                        if (page) {
+                            text += sprintf('    page: "%03d"\n' , page);
+                        }
+                        if (result.pdfSource) {
+                            text += '    pdfSource: "' + result.pdfSource + '"\n';
+                        }
+                        if (result.pdfPage) {
+                            text += '    pdfPage: ' + result.pdfPage + '\n';
+                        }
+                        if (result.pdfPageDissent) {
+                            text += '    pdfPageDissent: ' + result.pdfPageDissent + '\n';
+                        }
+                        text += '    dateDecision: "' + datelib.formatDate("l, F j, Y", result.dateDecision) + '"\n';
+                        text += '    citation: "' + (result.usCite || ('No. ' + result.docket)) + '"\n';
+                        /*
+                        * Time to determine who actually dissented.
+                        */
+                        let justiceDissented = "";
+                        for (let i = 0; i < result.justices.length; i++) {
+                            let justice = result.justices[i];
+                            if (justice.vote == "dissent") {
+                                if (!justiceDissented) {
+                                    justiceDissented = justice.justiceName;
+                                } else {
+                                    printf("warning: %s (%s) has multiple dissents (eg, %s, %s)\n", result.caseId, result.usCite, justiceDissented, justice.justiceName);
+                                }
                             }
                         }
-                    }
-                    text += '    justiceDissented: "' + justiceDissented + '"\n';
-                });
-                text += '---\n';
-                writeTextFile(rootDir + fileName, text, argv['overwrite']);
-                /*
-                 * Let's make sure there's an index.md entry as well....
-                 */
-                fileName = "/_pages/loners/index.md";
-                let index = readTextFile(rootDir + fileName);
-                if (index) {
-                    let entries = 0;
-                    let re = /^- \[([0-9]+) Term\]\(\/cases\/loners\/[0-9]+\).*$/gm, match, t = 0;
-                    while ((match = re.exec(index))) {
-                        entries++;
-                        t = +match[1];
-                        if (t >= term) break;
-                    }
-                    if (t) {
-                        let entry = sprintf("- [%d Term](/cases/loners/%d) (%d dissent%s)\n", term, term, results.length, results.length > 1? 's' : '');
-                        if (t != term) {
-                            index = index.substr(0, match.index) + entry + index.substr(match.index);
-                        } else {
-                            index = index.substr(0, match.index) + entry + index.substr(match.index + match[0].length + 1);
+                        text += '    justiceDissented: "' + justiceDissented + '"\n';
+                    });
+                    text += '---\n';
+                    writeTextFile(rootDir + fileName, text, argv['overwrite']);
+                    /*
+                    * Let's make sure there's an index.md entry as well....
+                    */
+                    fileName = "/_pages/loners/index.md";
+                    let index = readTextFile(rootDir + fileName);
+                    if (index) {
+                        let entries = 0;
+                        let re = /^- \[([0-9]+) Term\]\(\/cases\/loners\/[0-9]+\).*$/gm, match, t = 0;
+                        while ((match = re.exec(index))) {
+                            entries++;
+                            t = +match[1];
+                            if (t >= term) break;
                         }
-                        writeTextFile(rootDir + fileName, index, true);
+                        if (t) {
+                            let entry = sprintf("- [%d Term](/cases/loners/%d) (%d dissent%s)\n", term, term, results.length, results.length > 1? 's' : '');
+                            if (t != term) {
+                                index = index.substr(0, match.index) + entry + index.substr(match.index);
+                            } else {
+                                index = index.substr(0, match.index) + entry + index.substr(match.index + match[0].length + 1);
+                            }
+                            writeTextFile(rootDir + fileName, index, true);
+                        }
                     }
                 }
             }
         }
-    }
+    } while (++term <= endTerm);
     done();
 }
 
