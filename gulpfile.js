@@ -1,7 +1,7 @@
 /**
  * @fileoverview Gulp file for Lone Dissent
  * @author <a href="mailto:Jeff@pcjs.org">Jeff Parsons</a> (@jeffpar)
- * @copyright © Jeff Parsons 2018
+ * @copyright © Jeff Parsons 2018-2019
  * @license GPL-3.0
  */
 
@@ -51,6 +51,71 @@ let argv = proclib.args.argv;
  * @property {string} reason
  * @property {string} photo
  */
+
+ /*
+  * The following excerpts from "Explanation of certain items in the 'Justices of the Supreme Court' Table"
+  * (https://www.thegreenpapers.com/Hx/JusticesExplanation.html) are helpful in understanding the evolution of Supreme Court terms.
+  * However, it doesn't seem to completely match reality, and it also seems incomplete, because it doesn't touch on the
+  * "Special Terms" established by the Court from time to time.
+  *
+  *     "[T]he Supreme Court was to ... meet twice a year, beginning on the first Monday in February and again on the first Monday in August....
+  *     From February 1790, when the Court had its first quorum ... (though, as the highest appellate court in a new Federal System in which even
+  *     its lower courts were still getting themselves organized, there was no judicial business to transact in that very first Term of Court other
+  *     than the appointment of clerks and admitting various attorneys to the bar of the Supreme Court itself), through August 1801, this schedule
+  *     of Terms of Court was followed."
+  *
+  *     "[T]he [Judiciary Act of 1801 allowed] the Supreme Court to meet at different times of the year than heretofore, June and December,
+  *     beginning in 1802."
+  *
+  *     "[T]he Judiciary Act of 1802 restored the February Term (to begin on the first Monday in February) but permanently abolished the August one;
+  *     from now on, the Supreme Court would meet in annual Terms of Court instead of twice a year....  [I]t being after February 1802 by the time
+  *     the new Act became law (and with no more August Term), the next time the Supreme Court would meet would be February 1803."
+  *
+  *     "In 1826, ... [t]he only relief for the Justices of the Supreme Court was moving the convening of the Term of Court up to the second Monday
+  *     in January: this was in response to complaints that the Supreme Court had to complete its old February annual term by the end of March in
+  *     order to give the Justices time to get out of Washington for Circuit Court duty."
+  *
+  *     "Similar complaints nearly two decades later (after two new Circuits had been created, mind you!) led to the Act of 17 June 1844 which would,
+  *     effective in 1845, move the start of the Court's Term up to the first Monday in December."
+  *
+  *     "In 1873, Congress once again changed the start of Terms of the Supreme Court, moving the starting date up to the second Monday in October
+  *     to help the Court clear their annual docket of an increasing amount of cases."
+  *
+  *     "The 1911 Judicial Code also permitted the Supreme Court to determine its own Terms of Court under its own rules....  In 1917, the Supreme
+  *     Court exercised its new authority and moved the start of its Term up to the present (and rather well-known) first Monday in October."
+  *
+  * Our own observations:
+  *
+  *   1) In 1790, and continuing through 1800, we see Feb and Aug terms; eg:
+  *
+  *     Feb Term 1790: http://cdn.loc.gov/service/ll/usrep/usrep002/usrep002399/usrep002399.pdf (the Court acknowledges appointments of the first five Justices)
+  *     Aug Term 1790: http://cdn.loc.gov/service/ll/usrep/usrep002/usrep002400/usrep002400.pdf (the Court acknowledges appointment of Justice Iredell)
+  *     Feb Term 1791: http://cdn.loc.gov/service/ll/usrep/usrep002/usrep002400/usrep002400.pdf (basically just admissions to the bar)
+  *     Aug Term 1791: http://cdn.loc.gov/service/ll/usrep/usrep002/usrep002401/usrep002401.pdf (first opinion listed in SCDB)
+  *     ...
+  *     Feb Term 1800: http://cdn.loc.gov/service/ll/usrep/usrep004/usrep004012/usrep004012.pdf
+  *     Aug Term 1800: http://cdn.loc.gov/service/ll/usrep/usrep004/usrep004028/usrep004028.pdf
+  *
+  *   2) In 1801, we see Aug and Dec terms (no Feb term, and NO terms in 1802):
+  *
+  *     Aug Term 1801: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005001/usrep005001.pdf
+  *     Dec Term 1801: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005117/usrep005117.pdf
+  *
+  *   3) In 1803, and continuing through 1826, we see only Feb terms:
+  *
+  *     Feb Term 1803: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005137/usrep005137.pdf (Marbury v. Madison)
+  *     ...
+  *     Feb Term 1806: http://cdn.loc.gov/service/ll/usrep/usrep007/usrep007241/usrep007241.pdf
+  *     ...
+  *
+  *   4) In 1827, we see the first January term (Jan Term 1827).
+  *
+  *   5) In 1850, we see the final January term (Jan Term 1850) and the first December term (Dec Term 1850).
+  *
+  *   6) In 1873, we see the first October Term (Oct Term 1873), beginning on the *second* Monday of October.
+  *
+  *   7) In 1917, we see the first October Term (Oct Term 1917), beginning on the *first* Monday of October.
+  */
 
 /**
  * For a complete list of possible values for the following decision variables, see sources/scdb/types.json.
@@ -805,7 +870,7 @@ function findDecisions(done, minVotes)
     printf("decisions available: %d\n", decisions.length);
     let term = +argv['term'] || 0;
     let start = argv['start'] || "", stop = argv['stop'] || "";
-    let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%d U.S. %d", +volume, +page);
+    let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%s U.S. %s", volume, page);
     if (term) {
         start = sprintf("%04d-%02d-%02d", term, 10, 1);
         stop = sprintf("%04d-%02d-%02d", term + 1, 9, 30);
@@ -813,7 +878,7 @@ function findDecisions(done, minVotes)
     decisions.forEach((decision) => {
         if (!minVotes || decision.minVotes == minVotes) {
             if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
-                if (!volume || decision.usCite.indexOf(volume) == 0 && (!page || decision.usCite == usCite)) {
+                if (!volume || decision.usCite.indexOf(usCite) == 0) {
                     printf("%s: %s [%s] (%s): %d-%d\n", decision.dateDecision, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
                     results.push(decision);
                 }
@@ -837,6 +902,13 @@ function findDecisions(done, minVotes)
                 if (mapTypes(result, types, true) < 0) break;
                 let i = searchObjectArray(loners, "caseId", result.caseId);
                 if (i < 0) {
+                    if (term < 2004) {
+                        result['pdfSource'] = "loc";            // ie, Library of Congress
+                    } else if (term < 2012) {
+                        result['pdfSource'] = "scotusBound";    // ie, supremecourt.gov, in the "Bound Volumes" folder
+                    } else {
+                        result['pdfSource'] = "slipopinion/" + (term % 100);
+                    }
                     loners.push(result);
                     nAdded++;
                 } else {
@@ -913,18 +985,8 @@ function findDecisions(done, minVotes)
                     if (page) {
                         text += sprintf('    page: "%03d"\n' , page);
                     }
-                    let pdfSource = result.pdfSource;
-                    if (!pdfSource) {
-                        if (term < 2004) {
-                            pdfSource = "loc";              // ie, Library of Congress
-                        } else if (term < 2012) {
-                            pdfSource = "scotusBound";      // ie, supremecourt.gov, in the "Bound Volumes" folder
-                        } else {
-                            pdfSource = "scotusSlip"        // ie, supremecourt.gov slip opinions
-                        }
-                    }
-                    if (pdfSource) {
-                        text += '    pdfSource: "' + pdfSource + '"\n';
+                    if (result.pdfSource) {
+                        text += '    pdfSource: "' + result.pdfSource + '"\n';
                     }
                     if (result.pdfPage) {
                         text += '    pdfPage: ' + result.pdfPage + '\n';
@@ -952,6 +1014,29 @@ function findDecisions(done, minVotes)
                 });
                 text += '---\n';
                 writeTextFile(rootDir + fileName, text, argv['overwrite']);
+                /*
+                 * Let's make sure there's an index.md entry as well....
+                 */
+                fileName = "/_pages/loners/index.md";
+                let index = readTextFile(rootDir + fileName);
+                if (index) {
+                    let entries = 0;
+                    let re = /^- \[([0-9]+) Term\]\(\/cases\/loners\/[0-9]+\).*$/gm, match, t = 0;
+                    while ((match = re.exec(index))) {
+                        entries++;
+                        t = +match[1];
+                        if (t >= term) break;
+                    }
+                    if (t) {
+                        let entry = sprintf("- [%d Term](/cases/loners/%d) (%d dissent%s)\n", term, term, results.length, results.length > 1? 's' : '');
+                        if (t != term) {
+                            index = index.substr(0, match.index) + entry + index.substr(match.index);
+                        } else {
+                            index = index.substr(0, match.index) + entry + index.substr(match.index + match[0].length + 1);
+                        }
+                        writeTextFile(rootDir + fileName, index, true);
+                    }
+                }
             }
         }
     }
