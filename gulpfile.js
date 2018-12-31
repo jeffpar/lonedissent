@@ -54,9 +54,9 @@ let argv = proclib.args.argv;
 
  /*
   * The following excerpts from "Explanation of certain items in the 'Justices of the Supreme Court' Table"
-  * (https://www.thegreenpapers.com/Hx/JusticesExplanation.html) are helpful in understanding the evolution of Supreme Court terms.
-  * However, it doesn't seem to completely match reality, and it also seems incomplete, because it doesn't touch on the
-  * "Special Terms" established by the Court from time to time.
+  * (https://www.thegreenpapers.com/Hx/JusticesExplanation.html) are helpful in understanding the evolution of Supreme Court terms;
+  * however, it doesn't touch on any of the "Special Terms" established by the Court from time to time -- a byproduct of the Court's
+  * ability to define its own terms, starting in 1911.
   *
   *     "[T]he Supreme Court was to ... meet twice a year, beginning on the first Monday in February and again on the first Monday in August....
   *     From February 1790, when the Court had its first quorum ... (though, as the highest appellate court in a new Federal System in which even
@@ -84,7 +84,7 @@ let argv = proclib.args.argv;
   *     "The 1911 Judicial Code also permitted the Supreme Court to determine its own Terms of Court under its own rules....  In 1917, the Supreme
   *     Court exercised its new authority and moved the start of its Term up to the present (and rather well-known) first Monday in October."
   *
-  * Our own observations:
+  * Our own observations, based on examination of selected volumes of U.S. Reports:
   *
   *   1) In 1790, and continuing through 1800, we see Feb and Aug terms; eg:
   *
@@ -110,11 +110,17 @@ let argv = proclib.args.argv;
   *
   *   4) In 1827, we see the first January term (Jan Term 1827).
   *
-  *   5) In 1850, we see the final January term (Jan Term 1850) and the first December term (Dec Term 1850).
+  *   5) In 1850, we see the final January term (Jan Term 1850) and the first December term (Dec Term 1850);
+  *      technically however, December terms began in 1844.  The Court simply chose to continue calling them
+  *      "January" terms until December 1850.  Consequently, there weren't really two terms in 1850, as some
+  *      would suggest; I think it's more correct to say there were two terms in 1844, since what's called the
+  *      "January 1845" term actually began in December 1844.
   *
   *   6) In 1873, we see the first October Term (Oct Term 1873), beginning on the *second* Monday of October.
   *
   *   7) In 1917, we see the first October Term (Oct Term 1917), beginning on the *first* Monday of October.
+  *
+  * TODO: Make a list of all "Special Terms" created by the Court (presumably they are all after 1911).
   */
 
 /**
