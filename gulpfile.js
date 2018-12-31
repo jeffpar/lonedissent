@@ -847,9 +847,71 @@ function buildJustices(done)
 }
 
 /**
+ * getTermDate(term, delta)
+ *
+ * @param {string} term (yyyy-mm, or yyyy if you're lazy)
+ * @param {number} [delta]
+ * @return {string} (yyyy-mm-dd)
+ */
+function getTermDate(term, delta = 0)
+{
+    let sDate = "";
+    let year = +term.substr(0, 4) || 0;
+    let month = +term.substr(5, 2) || 0;
+    if (year) {
+        let weekday;            // target weekday (0 == Sunday, 1 == Monday, etc)
+        let firstDate;          // first date of the month (bumped from 1 to 8 when we must find the *second* target weekday of the month)
+        let firstMonth = 0;     // first month of the term (if this is non-zero, then everything else should be set; otherwise, there's an error)
+        if (year >= 1917) {
+            weekday = 1;
+            firstDate = 1;
+            if (!month || month == 10) firstMonth = 10;
+        } else if (year >= 1873) {
+            weekday = 1;
+            firstDate = 8;
+            if (!month || month == 10) firstMonth = 10;
+        } else if (year >= 1844) {
+            weekday = 1;
+            firstDate = 1;
+            if (!month || month == 12) firstMonth = 12;
+        } else if (year >= 1827) {
+            weekday = 1;
+            firstDate = 8;
+            if (!month || month == 1) firstMonth = 1;
+        } else if (year >= 1803) {
+            weekday = 1;
+            firstDate = 1;
+            if (!month || month == 2) firstMonth = 2;
+        } else if (year == 1801) {
+            weekday = 1;
+            firstDate = 1;
+            if (month == 8 || month == 12) firstMonth = month;
+        } else if (year >= 1790 && year < 1801) {
+            weekday = 1;
+            firstDate = 1;
+            if (month == 2 || month == 8) firstMonth = month;
+        }
+        if (firstMonth) {
+            let date = new Date(Date.UTC(year, firstMonth - 1, firstDate));
+            let add, day = date.getUTCDay();
+            if (day <= weekday) {
+                add = weekday - day;
+            } else {
+                add = 7 - (day - weekday);
+            }
+            date = datelib.adjustDate(date, add + delta);
+            sDate = datelib.formatDate("Y-m-d", date, true);
+            printf("term %s: %s\n", delta? "ending" : term, datelib.formatDate("l, F j, Y", date, true));
+        }
+    }
+    return sDate;
+}
+
+/**
  * findDecisions()
  *
- * I use this task to extract subsets of the decision data; eg, by dateDecision:
+ * You can use the "--start" and "--stop" options within this task to extract subsets of the decision data
+ * (ie, by dateDecision); both dates are inclusive:
  *
  *      gulp --start=yyyy-mm-dd --stop=yyyy-mm-dd
  *
@@ -860,31 +922,58 @@ function buildJustices(done)
  * helps us determine if any decisions were handed down during the first 5+ months of the 'marshall12' court,
  * before Justice Smith Thompson joined (if we assume he didn't join until Feb 10, 1824).
  *
+ * The "--term" option defines prescribed periods of time (that is, predefined "--start" and "--stop" values);
+ * you should specify both a year and month.  You should no longer use *just* a year to identify a particular term,
+ * in large part because the earliest years (1790 through 1801) had two terms, and in small part because the Court
+ * (since 1911) has had the abilty to define its own terms, including the occasional "special term" (these are
+ * rare and usually occur in the summer, after the Court has recessed but before the next October term has begun).
+ *
+ * The December Term 1801 looks like an anomaly, perhaps to the confusion wrought by the competing Judiciary Acts
+ * of 1801 and 1802; see: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005117/usrep005117.pdf
+ *
+ * Also, starting in 1844, terms technically began in December, but the Court still referred to them as "January" terms;
+ * in 1850, after the "January 1850" term (technically the December 1849 term), they finally changed the naming convention,
+ * so what would have next been called the "January 1851" term was properly called the December 1850 term.  This makes
+ * it *seem* as if there were two terms in 1850, but, um, not really.
+ *
+ * Another new option, "--argued", allows you to find any cases argued on the specified date (yyyy-mm-dd), month (yyyy-mm),
+ * or year (yyyy).  Any matching cases are printed with the argument (or reargument) date, rather than the decision date.
+ *
  * @param {function()} done
  * @param {number} [minVotes]
  */
 function findDecisions(done, minVotes)
 {
-    let term = +argv['term'] || 0;
-    let endTerm = +argv['endTerm'] || term;
-    if (endTerm < term) endTerm = term;
+    let term = argv['term'] || "";
+    let endTerm = argv['endTerm'] || "";
     let start = argv['start'] || "", stop = argv['stop'] || "";
     let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%s U.S. %s", volume, page);
+    let argued = argv['argued'] || "";
     let decisions = JSON.parse(readTextFile(rootDir + sources.results.decisions));
     printf("decisions available: %d\n", decisions.length);
     do {
+        let year = 0;
         if (term) {
+            year = +term.substr(0, 4) || 0;
             printf("processing term %d...\n", term);
-            start = sprintf("%04d-%02d-%02d", term, 10, 1);
-            stop = sprintf("%04d-%02d-%02d", term + 1, 9, 30);
+            start = getTermDate(term);
+            stop = getTermDate((year + 1).toString(), -1);
+            if (!start || !stop) {
+                printf("unrecognized term: %s\n", term);
+                break;
+            }
+            if (endTerm) endTerm = getTermDate(endTerm);
         }
         let results = [];
         decisions.forEach((decision) => {
             if (!minVotes || decision.minVotes == minVotes) {
                 if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
                     if (!volume || decision.usCite.indexOf(usCite) == 0) {
-                        printf("%s: %s [%s] (%s): %d-%d\n", decision.dateDecision, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
-                        results.push(decision);
+                        let datePrint = decision.dateDecision;
+                        if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
+                            printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
+                            results.push(decision);
+                        }
                     }
                 }
             }
@@ -906,12 +995,12 @@ function findDecisions(done, minVotes)
                     if (mapTypes(result, types, true) < 0) break;
                     let i = searchObjectArray(loners, "caseId", result.caseId);
                     if (i < 0) {
-                        if (term < 2004) {
+                        if (year < 2004) {
                             result['pdfSource'] = "loc";            // ie, Library of Congress
-                        } else if (term < 2012) {
+                        } else if (year < 2012) {
                             result['pdfSource'] = "scotusBound";    // ie, supremecourt.gov, in the "Bound Volumes" folder
                         } else {
-                            result['pdfSource'] = "slipopinion/" + (term % 100);
+                            result['pdfSource'] = "slipopinion/" + (year % 100);
                         }
                         loners.push(result);
                         nAdded++;
@@ -932,9 +1021,9 @@ function findDecisions(done, minVotes)
                     /*
                     * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy.md)
                     */
-                    let pathName = "/loners/" + term;
+                    let pathName = "/loners/" + year;
                     let fileName = "/_pages" + pathName + ".md";
-                    let text = '---\ntitle: "' + term + ' Term"\npermalink: /cases' + pathName + '\nlayout: cases\n';
+                    let text = '---\ntitle: "' + year + ' Term"\npermalink: /cases' + pathName + '\nlayout: cases\n';
                     text += 'cases:\n';
                     results.forEach((result) => {
                         let volume = 0, page = 0;
@@ -1025,15 +1114,15 @@ function findDecisions(done, minVotes)
                     let index = readTextFile(rootDir + fileName);
                     if (index) {
                         let entries = 0;
-                        let re = /^- \[([0-9]+) Term\]\(\/cases\/loners\/[0-9]+\).*$/gm, match, t = 0;
+                        let re = /^- \[([0-9]+) Term\]\(\/cases\/loners\/[0-9]+\).*$/gm, match, y = 0;
                         while ((match = re.exec(index))) {
                             entries++;
-                            t = +match[1];
-                            if (t >= term) break;
+                            y = +match[1];
+                            if (y >= year) break;
                         }
-                        if (t) {
-                            let entry = sprintf("- [%d Term](/cases/loners/%d) (%d dissent%s)\n", term, term, results.length, results.length > 1? 's' : '');
-                            if (t != term) {
+                        if (y) {
+                            let entry = sprintf("- [%d Term](/cases/loners/%d) (%d dissent%s)\n", year, year, results.length, results.length > 1? 's' : '');
+                            if (y != year) {
                                 index = index.substr(0, match.index) + entry + index.substr(match.index);
                             } else {
                                 index = index.substr(0, match.index) + entry + index.substr(match.index + match[0].length + 1);
@@ -1044,7 +1133,7 @@ function findDecisions(done, minVotes)
                 }
             }
         }
-    } while (++term <= endTerm);
+    } while (term && endTerm && start <= endTerm);
     done();
 }
 
