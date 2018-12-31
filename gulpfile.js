@@ -101,6 +101,9 @@ let argv = proclib.args.argv;
   *     Aug Term 1801: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005001/usrep005001.pdf
   *     Dec Term 1801: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005117/usrep005117.pdf
   *
+  *    The presence of a Dec Term 1801 looks like an anomaly, perhaps due to the confusion wrought by
+  *    the competing Judiciary Acts of 1801 and 1802.
+  *
   *   3) In 1803, and continuing through 1826, we see only Feb terms:
   *
   *     Feb Term 1803: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005137/usrep005137.pdf (Marbury v. Madison)
@@ -934,13 +937,11 @@ function getTermDate(term, delta = 0)
  * (since 1911) has had the abilty to define its own terms, including the occasional "special term" (these are
  * rare and usually occur in the summer, after the Court has recessed but before the next October term has begun).
  *
- * The December Term 1801 looks like an anomaly, perhaps to the confusion wrought by the competing Judiciary Acts
- * of 1801 and 1802; see: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005117/usrep005117.pdf
- *
  * Also, starting in 1844, terms technically began in December, but the Court still referred to them as "January" terms;
  * in 1850, after the "January 1850" term (technically the December 1849 term), they finally changed the naming convention,
  * so what would have next been called the "January 1851" term was properly called the December 1850 term.  This makes
- * it *seem* as if there were two terms in 1850, but, um, not really.
+ * it *seem* as if there were two terms in 1850, but I think it's more accurate to say there were two terms in 1844,
+ * when the change actually occurred.
  *
  * Another new option, "--argued", allows you to find any cases argued on the specified date (yyyy-mm-dd), month (yyyy-mm),
  * or year (yyyy).  Any matching cases are printed with the argument (or reargument) date, rather than the decision date.
