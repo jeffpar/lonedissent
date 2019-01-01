@@ -4,8 +4,8 @@ permalink: /cases/loners
 layout: archive
 ---
 
-"Loners" is our slang term for lone dissents.  This page provides links to collections of lone dissents
-that we've generated so far.  The first collection is [Lone Dissents by Term](#lone-dissents-by-term),
+"Loners" is our slang for lone dissents.  This page provides links to all known lone dissents
+of the U.S. Supreme Court.  The first collection is [Lone Dissents by Term](#lone-dissents-by-term),
 with more collections to follow (e.g., By Justice).
 
 Our collections will use three different opinion sources:
@@ -17,6 +17,85 @@ Our collections will use three different opinion sources:
 We prefer opinions in PDF format because they faithfully reproduce the printed versions.  Our *preferred*
 preference would be to have access to an XML-based text source and render the opinions using HTML and CSS,
 but (a) we don't have such a source, and (b) that's a lot of work.
+
+# Notes on Terms
+
+The first Judiciary Act, passed in 1789, required the Supreme Court to meet twice a year, beginning on
+the first Monday in February and again on the first Monday in August.
+
+Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/6th-congress/c6.pdf#page=125) passed on February 13, 1801,
+terms were changed to the first Monday of June and December:
+
+    SECTION 1. Be it enacted by the Senate and House of
+    Representatives of the United States of America in
+    Congress assembled, That from and after the next session
+    of the Supreme Court of the United States, the said court
+    shall be holden by the justices thereof, or any four of
+    them, at the city of Washington, and shall have two
+    sessions in each and every year thereafter, to commence
+    on the first Monday of June and December respectively;
+
+Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/7th-congress/c7.pdf#page=29) passed on April 29, 1802,
+terms were changed to the first Monday of February:
+
+    Be it enacted by the Senate and House of Representatives
+    of the United States of America in Congress assembled, That
+    from and after the passing of this act, the Supreme Court
+    of the United States shall be holden by the justices thereof,
+    or any four of them, at the city of Washington, and shall
+    have one session in each and every year, to commence on the
+    first Monday of February annually;
+    ...
+    And so much of the act, intituled "An act to establish the
+    judicial courts of the United States," passed the twenty-fourth
+    day of September, seventeen hundred and eighty-nine, as provides
+    for the holding a session of the supreme court of the United
+    States on the first Monday of August, annually, is hereby
+    repealed.
+
+Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/19th-congress/session-1/c19s1ch37.pdf) passed on May 4, 1826,
+terms were changed to the second Monday of January:
+
+    Be it enacted by the Senate and House of Representatives
+    of the United States of America, in Congress assembled, That,
+    from and after the year one thousand eight hundred and twenty-six,
+    the session of the Supreme Court, heretofore held on the first
+    Monday of February annually, shall, instead thereof, be held on
+    the second Monday of January annually;
+
+Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/28th-congress/session-1/c28s1ch96.pdf) passed on June 17, 1844,
+terms were changed to the first Monday of December:
+
+    Be it enacted by the Senate and House of Representatives
+    of the United States of America in Congress assembled,
+    That from and after the passage of this act, the sessions
+    of the Supreme Court, heretofore commenced and held on the
+    second Monday of January, annually, shall instead thereof
+    be commenced and held the first Monday of December, annually;
+
+Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/42nd-congress/session-3/c42s3ch64.pdf) passed on January 24, 1873,
+terms were changed to the second Monday of October:
+
+    Be it enacted by the Senate and House of Representatives
+    of the United States of America in Congress assembled, That
+    from and after the passage of this act the annual session of
+    the Supreme Court of the United States shall commence on the
+    second Monday of October in each year....
+
+Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/64th-congress/session-1/c64s1ch447.pdf#page=2) passed on September 6, 1916,
+terms were changed to the first Monday of October:
+
+    Be it enacted by the Senate and House of Representatives
+    of the United States of America in Congress assembled, That
+    section two hundred and thirty of an Act to codify, revise,
+    and amend the laws relating to the judiciary, approved March
+    third, nineteen hundred and eleven, known as the Judicial
+    Code, be, and it hereby is, amended so as to read as follows:
+
+    "SEC. 230. The Supreme Court shall hold at the seat of
+    government one term annually, commencing on the first Monday
+    in October, and such adjourned or special terms as it may find
+    necessary for the dispatch of business."
 
 # Lone Dissents by Term
 
@@ -55,12 +134,12 @@ but (a) we don't have such a source, and (b) that's a lot of work.
 - [January Term 1842](/cases/loners/1842-01) (2 dissents)
 - [January Term 1843](/cases/loners/1843-01) (3 dissents)
 - [January Term 1844](/cases/loners/1844-01) (3 dissents)
-- [December Term 1844](/cases/loners/1844-12) (5 dissents)
-- [December Term 1845](/cases/loners/1845-12) (1 dissent)
-- [December Term 1846](/cases/loners/1846-12) (2 dissents)
-- [December Term 1847](/cases/loners/1847-12) (2 dissents)
-- [December Term 1848](/cases/loners/1848-12) (5 dissents)
-- [December Term 1849](/cases/loners/1849-12) (8 dissents)
+- [January Term 1845](/cases/loners/1844-12)* (5 dissents)
+- [January Term 1846](/cases/loners/1845-12)* (1 dissent)
+- [January Term 1847](/cases/loners/1846-12)* (2 dissents)
+- [January Term 1848](/cases/loners/1847-12)* (2 dissents)
+- [January Term 1849](/cases/loners/1848-12)* (5 dissents)
+- [January Term 1850](/cases/loners/1849-12)* (8 dissents)
 - [December Term 1850](/cases/loners/1850-12) (6 dissents)
 - [December Term 1851](/cases/loners/1851-12) (6 dissents)
 - [December Term 1852](/cases/loners/1852-12) (4 dissents)
@@ -228,3 +307,8 @@ but (a) we don't have such a source, and (b) that's a lot of work.
 - [October Term 2015](/cases/loners/2015-10) (10 dissents)
 - [October Term 2016](/cases/loners/2016-10) (6 dissents)
 - [October Term 2017](/cases/loners/2017-10) (5 dissents)
+
+&#42; Technically, January Terms 1845 through 1850 were actually December Terms 1844 through 1849; the Court simply
+chose to continue its old practice of referring to terms by the corresponding January for six more years.  Refer to
+the following [Statute](https://www.loc.gov/law/help/statutes-at-large/28th-congress/session-1/c28s1ch96.pdf) passed
+on June 17, 1844, also discussed [above](#notes-on-terms).

@@ -1185,6 +1185,13 @@ function findDecisions(done, minVotes)
                             if (match[1] >= termID) break;
                         }
                         if (match) {
+                            /*
+                             * Make accomodations for terms the Court named inconsistently for 6 years after the June 17, 1844 statute,
+                             * which changed the start of terms from second Monday of January to first Monday of the preceding December.
+                             */
+                            if (termID >= "1844-12" && termID <= "1849-12") {
+                                termName = "January Term " + (+termID.substr(0, 4) + 1);
+                            }
                             let entry = sprintf("- [%s](/cases/loners/%s) (%d dissent%s)\n", termName, termID, results.length, results.length > 1? 's' : '');
                             if (match[1] != termID) {
                                 index = index.substr(0, match.index) + entry + index.substr(match.index);
