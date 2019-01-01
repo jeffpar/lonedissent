@@ -1,5 +1,5 @@
 ---
-title: "Loners"
+title: "Index of U.S. Supreme Court Lone Dissents"
 permalink: /cases/loners
 layout: archive
 ---
@@ -20,6 +20,11 @@ but (a) we don't have such a source, and (b) that's a lot of work.
 
 # Notes on Terms
 
+A short history of Supreme Court terms is provided below, to provide some context for the list that follows.
+For more detail, see [Terms of The Court](/cases/terms).
+
+---
+
 The first Judiciary Act, passed in 1789, required the Supreme Court to hold two sessions (terms) per year,
 beginning on the first Monday in February and again on the first Monday in August.
 
@@ -36,7 +41,7 @@ terms were changed to the first Monday of June and December:
     on the first Monday of June and December respectively;
 
 Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/7th-congress/c7.pdf#page=29) passed on April 29, 1802,
-terms were changed to the first Monday of February:
+terms were changed to the first Monday of February, reducing the number of sessions per year to one:
 
     Be it enacted by the Senate and House of Representatives
     of the United States of America in Congress assembled, That
