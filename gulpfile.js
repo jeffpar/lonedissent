@@ -3,6 +3,84 @@
  * @author <a href="mailto:Jeff@pcjs.org">Jeff Parsons</a> (@jeffpar)
  * @copyright © Jeff Parsons 2018-2019
  * @license GPL-3.0
+ *
+ * The following excerpts from "Explanation of certain items in the 'Justices of the Supreme Court' Table"
+ * (https://www.thegreenpapers.com/Hx/JusticesExplanation.html) are helpful in understanding the evolution
+ * of Supreme Court terms; however, it doesn't touch on any of the "Special Terms" established by the Court
+ * from time to time -- a byproduct of the Court's ability to define its own terms, starting in 1911.
+ *
+ *     "[T]he Supreme Court was to ... meet twice a year, beginning on the first Monday in February
+ *      and again on the first Monday in August....  From February 1790, when the Court had its first quorum ...
+ *      (though, as the highest appellate court in a new Federal System in which even its lower courts were
+ *      still getting themselves organized, there was no judicial business to transact in that very first Term
+ *      of Court other than the appointment of clerks and admitting various attorneys to the bar of the Supreme
+ *      Court itself), through August 1801, this schedule of Terms of Court was followed."
+ *
+ *     "[T]he [Judiciary Act of 1801 allowed] the Supreme Court to meet at different times of the year than
+ *      heretofore, June and December, beginning in 1802."
+ *
+ *     "[T]he Judiciary Act of 1802 restored the February Term (to begin on the first Monday in February)
+ *      but permanently abolished the August one; from now on, the Supreme Court would meet in annual Terms
+ *      of Court instead of twice a year....  [I]t being after February 1802 by the time the new Act became
+ *      law (and with no more August Term), the next time the Supreme Court would meet would be February 1803."
+ *
+ *     "In 1826, ... [t]he only relief for the Justices of the Supreme Court was moving the convening of the
+ *      Term of Court up to the second Monday in January: this was in response to complaints that the Supreme
+ *      Court had to complete its old February annual term by the end of March in order to give the Justices
+ *      time to get out of Washington for Circuit Court duty."
+ *
+ *     "Similar complaints nearly two decades later (after two new Circuits had been created, mind you!) led
+ *      to the Act of 17 June 1844 which would, effective in 1845, move the start of the Court's Term up to
+ *      the first Monday in December."
+ *
+ *     "In 1873, Congress once again changed the start of Terms of the Supreme Court, moving the starting date
+ *      up to the second Monday in October to help the Court clear their annual docket of an increasing amount
+ *      of cases."
+ *
+ *     "The 1911 Judicial Code also permitted the Supreme Court to determine its own Terms of Court under its
+ *      own rules....  In 1917, the Supreme Court exercised its new authority and moved the start of its Term up
+ *      to the present (and rather well-known) first Monday in October."
+ *
+ * Our own observations, based on examination of selected volumes of U.S. Reports:
+ *
+ *   1) In 1790, and continuing through 1800, we see Feb and Aug terms; eg:
+ *
+ *      Feb Term 1790: http://cdn.loc.gov/service/ll/usrep/usrep002/usrep002399/usrep002399.pdf (the Court acknowledges appointments of the first five Justices)
+ *      Aug Term 1790: http://cdn.loc.gov/service/ll/usrep/usrep002/usrep002400/usrep002400.pdf (the Court acknowledges appointment of Justice Iredell)
+ *      Feb Term 1791: http://cdn.loc.gov/service/ll/usrep/usrep002/usrep002400/usrep002400.pdf (basically just admissions to the bar)
+ *      Aug Term 1791: http://cdn.loc.gov/service/ll/usrep/usrep002/usrep002401/usrep002401.pdf (first opinion listed in SCDB)
+ *      ...
+ *      Feb Term 1800: http://cdn.loc.gov/service/ll/usrep/usrep004/usrep004012/usrep004012.pdf
+ *      Aug Term 1800: http://cdn.loc.gov/service/ll/usrep/usrep004/usrep004028/usrep004028.pdf
+ *
+ *   2) In 1801, we see Aug and Dec terms (no Feb term, and NO terms in 1802):
+ *
+ *      Aug Term 1801: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005001/usrep005001.pdf
+ *      Dec Term 1801: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005117/usrep005117.pdf
+ *
+ *      The presence of a Dec Term 1801 looks like an anomaly, perhaps due to the confusion wrought by
+ *      the competing Judiciary Acts of 1801 and 1802.
+ *
+ *   3) In 1803, and continuing through 1826, we see only Feb terms:
+ *
+ *      Feb Term 1803: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005137/usrep005137.pdf (Marbury v. Madison)
+ *      ...
+ *      Feb Term 1806: http://cdn.loc.gov/service/ll/usrep/usrep007/usrep007241/usrep007241.pdf
+ *      ...
+ *
+ *   4) In 1827, we see the first January term (Jan Term 1827).
+ *
+ *   5) In 1850, we see the final January term (Jan Term 1850) and the first December term (Dec Term 1850);
+ *      technically however, December terms began in 1844.  The Court simply chose to continue calling them
+ *      "January" terms until December 1850.  Consequently, there weren't really two terms in 1850, as some
+ *      would suggest; I think it's more correct to say there were two terms in 1844, since what's called the
+ *      "January 1845" term actually began in December 1844.
+ *
+ *   6) In 1873, we see the first October Term (Oct Term 1873), beginning on the *second* Monday of October.
+ *
+ *   7) In 1917, we see the first October Term (Oct Term 1917), beginning on the *first* Monday of October.
+ *
+ * TODO: Make a list of all "Special Terms" created by the Court (presumably they are all after 1911).
  */
 
  "use strict";
@@ -51,80 +129,6 @@ let argv = proclib.args.argv;
  * @property {string} reason
  * @property {string} photo
  */
-
- /*
-  * The following excerpts from "Explanation of certain items in the 'Justices of the Supreme Court' Table"
-  * (https://www.thegreenpapers.com/Hx/JusticesExplanation.html) are helpful in understanding the evolution of Supreme Court terms;
-  * however, it doesn't touch on any of the "Special Terms" established by the Court from time to time -- a byproduct of the Court's
-  * ability to define its own terms, starting in 1911.
-  *
-  *     "[T]he Supreme Court was to ... meet twice a year, beginning on the first Monday in February and again on the first Monday in August....
-  *     From February 1790, when the Court had its first quorum ... (though, as the highest appellate court in a new Federal System in which even
-  *     its lower courts were still getting themselves organized, there was no judicial business to transact in that very first Term of Court other
-  *     than the appointment of clerks and admitting various attorneys to the bar of the Supreme Court itself), through August 1801, this schedule
-  *     of Terms of Court was followed."
-  *
-  *     "[T]he [Judiciary Act of 1801 allowed] the Supreme Court to meet at different times of the year than heretofore, June and December,
-  *     beginning in 1802."
-  *
-  *     "[T]he Judiciary Act of 1802 restored the February Term (to begin on the first Monday in February) but permanently abolished the August one;
-  *     from now on, the Supreme Court would meet in annual Terms of Court instead of twice a year....  [I]t being after February 1802 by the time
-  *     the new Act became law (and with no more August Term), the next time the Supreme Court would meet would be February 1803."
-  *
-  *     "In 1826, ... [t]he only relief for the Justices of the Supreme Court was moving the convening of the Term of Court up to the second Monday
-  *     in January: this was in response to complaints that the Supreme Court had to complete its old February annual term by the end of March in
-  *     order to give the Justices time to get out of Washington for Circuit Court duty."
-  *
-  *     "Similar complaints nearly two decades later (after two new Circuits had been created, mind you!) led to the Act of 17 June 1844 which would,
-  *     effective in 1845, move the start of the Court's Term up to the first Monday in December."
-  *
-  *     "In 1873, Congress once again changed the start of Terms of the Supreme Court, moving the starting date up to the second Monday in October
-  *     to help the Court clear their annual docket of an increasing amount of cases."
-  *
-  *     "The 1911 Judicial Code also permitted the Supreme Court to determine its own Terms of Court under its own rules....  In 1917, the Supreme
-  *     Court exercised its new authority and moved the start of its Term up to the present (and rather well-known) first Monday in October."
-  *
-  * Our own observations, based on examination of selected volumes of U.S. Reports:
-  *
-  *   1) In 1790, and continuing through 1800, we see Feb and Aug terms; eg:
-  *
-  *     Feb Term 1790: http://cdn.loc.gov/service/ll/usrep/usrep002/usrep002399/usrep002399.pdf (the Court acknowledges appointments of the first five Justices)
-  *     Aug Term 1790: http://cdn.loc.gov/service/ll/usrep/usrep002/usrep002400/usrep002400.pdf (the Court acknowledges appointment of Justice Iredell)
-  *     Feb Term 1791: http://cdn.loc.gov/service/ll/usrep/usrep002/usrep002400/usrep002400.pdf (basically just admissions to the bar)
-  *     Aug Term 1791: http://cdn.loc.gov/service/ll/usrep/usrep002/usrep002401/usrep002401.pdf (first opinion listed in SCDB)
-  *     ...
-  *     Feb Term 1800: http://cdn.loc.gov/service/ll/usrep/usrep004/usrep004012/usrep004012.pdf
-  *     Aug Term 1800: http://cdn.loc.gov/service/ll/usrep/usrep004/usrep004028/usrep004028.pdf
-  *
-  *   2) In 1801, we see Aug and Dec terms (no Feb term, and NO terms in 1802):
-  *
-  *     Aug Term 1801: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005001/usrep005001.pdf
-  *     Dec Term 1801: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005117/usrep005117.pdf
-  *
-  *    The presence of a Dec Term 1801 looks like an anomaly, perhaps due to the confusion wrought by
-  *    the competing Judiciary Acts of 1801 and 1802.
-  *
-  *   3) In 1803, and continuing through 1826, we see only Feb terms:
-  *
-  *     Feb Term 1803: http://cdn.loc.gov/service/ll/usrep/usrep005/usrep005137/usrep005137.pdf (Marbury v. Madison)
-  *     ...
-  *     Feb Term 1806: http://cdn.loc.gov/service/ll/usrep/usrep007/usrep007241/usrep007241.pdf
-  *     ...
-  *
-  *   4) In 1827, we see the first January term (Jan Term 1827).
-  *
-  *   5) In 1850, we see the final January term (Jan Term 1850) and the first December term (Dec Term 1850);
-  *      technically however, December terms began in 1844.  The Court simply chose to continue calling them
-  *      "January" terms until December 1850.  Consequently, there weren't really two terms in 1850, as some
-  *      would suggest; I think it's more correct to say there were two terms in 1844, since what's called the
-  *      "January 1845" term actually began in December 1844.
-  *
-  *   6) In 1873, we see the first October Term (Oct Term 1873), beginning on the *second* Monday of October.
-  *
-  *   7) In 1917, we see the first October Term (Oct Term 1917), beginning on the *first* Monday of October.
-  *
-  * TODO: Make a list of all "Special Terms" created by the Court (presumably they are all after 1911).
-  */
 
 /**
  * For a complete list of possible values for the following decision variables, see sources/scdb/types.json.
@@ -856,13 +860,14 @@ function buildJustices(done)
 }
 
 /**
- * getTermDate(term, delta)
+ * getTermDate(term, termDelta, dayDelta)
  *
  * @param {string} term (yyyy-mm, or yyyy if you're lazy)
- * @param {number} [delta]
+ * @param {number} [termDelta]
+ * @param {number} [dateDelta]
  * @return {string} (yyyy-mm-dd)
  */
-function getTermDate(term, delta = 0)
+function getTermDate(term, termDelta = 0, dateDelta = 0)
 {
     let sDate = "";
     let year = +term.substr(0, 4) || 0;
@@ -870,47 +875,76 @@ function getTermDate(term, delta = 0)
     if (year) {
         let weekday;            // target weekday (0 == Sunday, 1 == Monday, etc)
         let firstDate;          // first date of the month (bumped from 1 to 8 when we must find the *second* target weekday of the month)
-        let firstMonth = 0;     // first month of the term (if this is non-zero, then everything else should be set; otherwise, there's an error)
-        if (year >= 1917) {
-            weekday = 1;
-            firstDate = 1;
-            if (!month || month == 10) firstMonth = 10;
-        } else if (year >= 1873) {
-            weekday = 1;
-            firstDate = 8;
-            if (!month || month == 10) firstMonth = 10;
-        } else if (year >= 1844) {
-            weekday = 1;
-            firstDate = 1;
-            if (!month || month == 12) firstMonth = 12;
-        } else if (year >= 1827) {
-            weekday = 1;
-            firstDate = 8;
-            if (!month || month == 1) firstMonth = 1;
-        } else if (year >= 1803) {
-            weekday = 1;
-            firstDate = 1;
-            if (!month || month == 2) firstMonth = 2;
-        } else if (year == 1801) {
-            weekday = 1;
-            firstDate = 1;
-            if (month == 8 || month == 12) firstMonth = month;
-        } else if (year >= 1790 && year < 1801) {
-            weekday = 1;
-            firstDate = 1;
-            if (month == 2 || month == 8) firstMonth = month;
-        }
-        if (firstMonth) {
-            let date = new Date(Date.UTC(year, firstMonth - 1, firstDate));
+        do {
+            if (year >= 1917) {
+                weekday = 1;
+                firstDate = 1;
+                if (!month) month = 10;
+                if (month != 10) month = 0;
+                if (termDelta) year++;
+            } else if (year >= 1873) {
+                weekday = 1;
+                firstDate = 8;
+                if (!month) month = 10;
+                if (month != 10) month = 0;
+                if (termDelta) year++;
+            } else if (year >= 1844) {
+                weekday = 1;
+                firstDate = 1;
+                if (year > 1844) {
+                    if (!month) month = 12;
+                    if (month != 12) month = 0;
+                } else {
+                    if (month != 1 && month != 12) month = 0;
+                    if (termDelta && month == 1) {
+                        month = 12;
+                        termDelta--;
+                    }
+                }
+                if (termDelta) year++;
+            } else if (year >= 1827) {
+                weekday = 1;
+                firstDate = 8;
+                if (!month) month = 1;
+                if (month != 1) month = 0;
+            if (termDelta) year++;
+            } else if (year >= 1803) {
+                weekday = 1;
+                firstDate = 1;
+                if (!month) month = 2;
+                if (month != 2) month = 0;
+                if (termDelta) year++;
+            } else if (year >= 1801) {
+                weekday = 1;
+                firstDate = 1;
+                if (month != 8 && month != 12) month = 0;
+                if (termDelta && month == 8) {
+                    month = 12;
+                    termDelta--;
+                }
+                if (termDelta) year++;
+            } else if (year >= 1790 && year < 1801) {
+                weekday = 1;
+                firstDate = 1;
+                if (month != 2 && month != 8) month = 0;
+                if (termDelta && month == 2) {
+                    month = 8;
+                    termDelta--;
+                }
+                if (termDelta) year++;
+            }
+        } while (month && termDelta--);
+        if (month) {
+            let date = new Date(Date.UTC(year, month - 1, firstDate));
             let add, day = date.getUTCDay();
             if (day <= weekday) {
                 add = weekday - day;
             } else {
                 add = 7 - (day - weekday);
             }
-            date = datelib.adjustDate(date, add + delta);
+            date = datelib.adjustDate(date, add + dateDelta);
             sDate = datelib.formatDate("Y-m-d", date, true);
-            printf("term %s: %s\n", delta? "ending" : term, datelib.formatDate("l, F j, Y", date, true));
+            printf("term %s: %s\n", dateDelta? "ending" : term, datelib.formatDate("l, F j, Y", date, true));
         }
     }
     return sDate;
@@ -964,7 +998,7 @@ function findDecisions(done, minVotes)
             year = +term.substr(0, 4) || 0;
             printf("processing term %d...\n", term);
             start = getTermDate(term);
-            stop = getTermDate((year + 1).toString(), -1);
+            stop = getTermDate(term, 1, -1);
             if (!start || !stop) {
                 printf("unrecognized term: %s\n", term);
                 break;
@@ -1028,9 +1062,11 @@ function findDecisions(done, minVotes)
                     /*
                     * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy.md)
                     */
-                    let pathName = "/loners/" + year;
+                    let termID = start.substr(0, 7);
+                    let termName = datelib.formatDate("F Y", start).replace(" ", " Term ");
+                    let pathName = "/loners/" + termID;
                     let fileName = "/_pages" + pathName + ".md";
-                    let text = '---\ntitle: "' + year + ' Term"\npermalink: /cases' + pathName + '\nlayout: cases\n';
+                    let text = '---\ntitle: "' + termName + '"\npermalink: /cases' + pathName + '\nlayout: cases\n';
                     text += 'cases:\n';
                     results.forEach((result) => {
                         let volume = 0, page = 0;
@@ -1120,16 +1156,13 @@ function findDecisions(done, minVotes)
                     fileName = "/_pages/loners/index.md";
                     let index = readTextFile(rootDir + fileName);
                     if (index) {
-                        let entries = 0;
-                        let re = /^- \[([0-9]+) Term\]\(\/cases\/loners\/[0-9]+\).*$/gm, match, y = 0;
+                        let re = /^- \[.*?Term.*?\]\(\/cases\/loners\/([0-9-]+)\).*$/gm, match;
                         while ((match = re.exec(index))) {
-                            entries++;
-                            y = +match[1];
-                            if (y >= year) break;
+                            if (match[1] >= termID) break;
                         }
-                        if (y) {
-                            let entry = sprintf("- [%d Term](/cases/loners/%d) (%d dissent%s)\n", year, year, results.length, results.length > 1? 's' : '');
-                            if (y != year) {
+                        if (match) {
+                            let entry = sprintf("- [%s](/cases/loners/%s) (%d dissent%s)\n", termName, termID, results.length, results.length > 1? 's' : '');
+                            if (match[1] != termID) {
                                 index = index.substr(0, match.index) + entry + index.substr(match.index);
                             } else {
                                 index = index.substr(0, match.index) + entry + index.substr(match.index + match[0].length + 1);
