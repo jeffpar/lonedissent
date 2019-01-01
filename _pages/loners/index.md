@@ -1,5 +1,5 @@
 ---
-title: "Index of U.S. Supreme Court Lone Dissents"
+title: "U.S. Supreme Court Lone Dissents"
 permalink: /cases/loners
 layout: archive
 ---
