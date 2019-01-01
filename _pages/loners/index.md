@@ -20,8 +20,8 @@ but (a) we don't have such a source, and (b) that's a lot of work.
 
 # Notes on Terms
 
-The first Judiciary Act, passed in 1789, required the Supreme Court to meet twice a year, beginning on
-the first Monday in February and again on the first Monday in August.
+The first Judiciary Act, passed in 1789, required the Supreme Court to hold two sessions (terms) per year,
+beginning on the first Monday in February and again on the first Monday in August.
 
 Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/6th-congress/c6.pdf#page=125) passed on February 13, 1801,
 terms were changed to the first Monday of June and December:
@@ -82,8 +82,7 @@ terms were changed to the second Monday of October:
     the Supreme Court of the United States shall commence on the
     second Monday of October in each year....
 
-Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/64th-congress/session-1/c64s1ch447.pdf#page=2) passed on September 6, 1916,
-terms were changed to the first Monday of October:
+Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/64th-congress/session-1/c64s1ch447.pdf#page=2) passed on September 6, 1916, terms were changed to the first Monday of October:
 
     Be it enacted by the Senate and House of Representatives
     of the United States of America in Congress assembled, That
@@ -308,7 +307,5 @@ terms were changed to the first Monday of October:
 - [October Term 2016](/cases/loners/2016-10) (6 dissents)
 - [October Term 2017](/cases/loners/2017-10) (5 dissents)
 
-&#42; Technically, January Terms 1845 through 1850 were actually December Terms 1844 through 1849; the Court simply
-chose to continue its old practice of referring to terms by the corresponding January for six more years.  Refer to
-the following [Statute](https://www.loc.gov/law/help/statutes-at-large/28th-congress/session-1/c28s1ch96.pdf) passed
-on June 17, 1844, also discussed [above](#notes-on-terms).
+&#42; Technically, January Terms 1845 through 1850 were actually December Terms 1844 through 1849; the Court apparently
+preferred to adhere to its previous naming convention, at least for six more years.  Refer to the following [Statute](https://www.loc.gov/law/help/statutes-at-large/28th-congress/session-1/c28s1ch96.pdf) passed on June 17, 1844 (see [above](#notes-on-terms)).

@@ -131,7 +131,7 @@ let argv = proclib.args.argv;
  */
 
 /**
- * For a complete list of possible values for the following decision variables, see sources/scdb/types.json.
+ * For a complete list of possible values for the following decision variables, see sources/scdb/vars.json.
  *
  * @typedef {object} Decision
  * @property {string} caseId
@@ -221,23 +221,23 @@ let argv = proclib.args.argv;
  }
 
 /**
- * mapTypes(o, types, strict)
+ * mapValues(o, vars, strict)
  *
  * @param {object} o
- * @param {Array.<object>} types
+ * @param {Array.<object>} vars
  * @param {boolean} [strict]
  * @return {number}
  */
-function mapTypes(o, types, strict)
+function mapValues(o, vars, strict)
 {
     let changes = 0;
     let keys = Object.keys(o);
     for (let i = 0; i < keys.length; i++) {
         let key = keys[i];
-        if (types[key]) {
-            let values = types[key].values;
+        if (vars[key]) {
+            let values = vars[key].values;
             if (values && typeof values == "string") {
-                values = types[values].values;
+                values = vars[values].values;
             }
             if (values && !Array.isArray(values)) {
                 let value = values[o[key]];
@@ -246,7 +246,7 @@ function mapTypes(o, types, strict)
                     if (changes >= 0) changes++;
                 }
                 else if (strict) {
-                    if (types[key].type != "number" || o[key]) {
+                    if (vars[key].type != "number" || o[key]) {
                         printf("warning: code '%s' for key '%s' has no value\n", o[key], key);
                         changes = -1;
                     }
@@ -255,7 +255,7 @@ function mapTypes(o, types, strict)
         }
         else if (Array.isArray(o[key])) {
             for (let j = 0; j < o[key].length; j++) {
-                let n = mapTypes(o[key][j], types, strict);
+                let n = mapValues(o[key][j], vars, strict);
                 if (n < 0) {
                     changes = -1;
                 } else {
@@ -264,7 +264,7 @@ function mapTypes(o, types, strict)
             }
         }
         else if (strict) {
-            printf("warning: key '%s' missing from types\n", key);
+            printf("warning: variable '%s' missing\n", key);
             changes = -1;
         }
     }
@@ -289,17 +289,17 @@ function searchObjectArray(a, key, value)
 }
 
  /**
-  * parseCSV(text, maxRows, keyUnique, keySubset, saveUniqueKey, types)
+  * parseCSV(text, maxRows, keyUnique, keySubset, saveUniqueKey, vars)
   *
   * @param {string} text
   * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
   * @param {string} [keyUnique] (name of field, if any, that should be filtered; typically the key associated with the subset fields)
   * @param {string} [keySubset] (name of first subset field, if any, containing data for unique subsets)
   * @param {boolean} [saveUniqueKey] (default is false, to reduce space requirements)
-  * @param {object|null} [types]
+  * @param {object|null} [vars]
   * @return {Array.<Object>}
   */
-function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=false, types=null)
+function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=false, vars=null)
 {
     let rows = [];
     let headings, fields;
@@ -330,13 +330,13 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
             for (let h = 0; h < headings.length; h++) {
                 let field = fields[h];
                 let heading = headings[h];
-                if (types) {
-                    if (!types[heading]) {
+                if (vars) {
+                    if (!vars[heading]) {
                         printf("warning: %s field is an undefined type, defaulting to string\n", heading);
-                        types[heading] = {type: "string", dump: true};
+                        vars[heading] = {type: "string", dump: true};
                     }
-                    if (types[heading]) {
-                        let t = types[heading];
+                    if (vars[heading]) {
+                        let t = vars[heading];
                         if (field != "") {
                             if (t.dump) {
                                 if (!t.values) t.values = [];
@@ -345,7 +345,7 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
                             else {
                                 let v = t.values;
                                 if (v && typeof v == "string") {
-                                    v = types[v].values;
+                                    v = vars[v].values;
                                 }
                                 if (v && (Array.isArray(v) && v.indexOf(field) < 0 || !Array.isArray(v) && v[field] === undefined) || !v && field == "NULL") {
                                     if (argv['debug']) {
@@ -404,17 +404,17 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
             if (!maxRows || i <= maxRows) rows.push(row);
         }
     }
-    if (types) {
-        for (let key in types) {
-            let t = types[key];
+    if (vars) {
+        for (let key in vars) {
+            let t = vars[key];
             if (t.dump) {
                 delete t.dump;
-                if (types[key].values) {
-                    types[key].values.sort(function(a, b) {
+                if (vars[key].values) {
+                    vars[key].values.sort(function(a, b) {
                         return a.localeCompare(b, 'en', {'sensitivity': 'base'});
                     });
                 }
-                printf('"%s": %2j\n', key, types[key]);
+                printf('"%s": %2j\n', key, vars[key]);
             }
         }
     }
@@ -791,8 +791,8 @@ function buildCourts(done)
  */
 function buildDecisions(done)
 {
-    let types = JSON.parse(readTextFile(rootDir + sources.scdb.types));
-    let decisions = parseCSV(readTextFile(rootDir + sources.scdb.decisionsCSV, "latin1"), 0, "voteId", "justice", false, types);
+    let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars));
+    let decisions = parseCSV(readTextFile(rootDir + sources.scdb.decisionsCSV, "latin1"), 0, "voteId", "justice", false, vars);
     printf("SCDB decisions: %d\n", decisions.length);
     writeTextFile(rootDir + sources.results.decisions, decisions, argv['overwrite']);
     done();
@@ -1050,15 +1050,15 @@ function findDecisions(done, minVotes)
         if (results.length) {
             if (minVotes == 1) {
                 let nAdded = 0;
-                let types = JSON.parse(readTextFile(rootDir + sources.scdb.types) || "{}");
-                types['caseNotes'] = {"type": "string"};
-                types['pdfSource'] = {"type": "string"};
-                types['pdfPage'] = {"type": "number"};
-                types['pdfPageDissent'] = {"type": "number"};
+                let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars) || "{}");
+                vars['caseNotes'] = {"type": "string"};
+                vars['pdfSource'] = {"type": "string"};
+                vars['pdfPage'] = {"type": "number"};
+                vars['pdfPageDissent'] = {"type": "number"};
                 let loners = JSON.parse(readTextFile(rootDir + sources.results.loners) || "[]");
                 for (let r = 0; r < results.length; r++) {
                     let result = results[r]
-                    if (mapTypes(result, types, true) < 0) break;
+                    if (mapValues(result, vars, true) < 0) break;
                     let i = searchObjectArray(loners, "caseId", result.caseId);
                     if (i < 0) {
                         if (year < 2004) {
@@ -1073,7 +1073,7 @@ function findDecisions(done, minVotes)
                     } else {
                         let citation = (result.usCite || ('No. ' + result.docket));
                         printf("warning: %s (%s) already exists in %s\n", result.caseId, citation, sources.results.loners);
-                        if (mapTypes(loners[i], types) > 0) {
+                        if (mapValues(loners[i], vars) > 0) {
                             printf("warning: %s (%s) being updated in %s\n", result.caseId, citation, sources.results.loners);
                             nAdded++;
                         }

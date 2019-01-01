@@ -10,8 +10,8 @@ A few data files have been created so far:
 - [justices.json](/sources/results/justices.json)
 
 in preparation for making this a more interesting website.  Most of our
-[Court](/sources/results/courts.json) and [Justice](/sources/results/justices.json) data came from
-[Oyez](https://www.oyez.org/), while all the [Decision](/sources/results/decisions.json)
+[Court](/sources/results/courts.json) and [Justice](/sources/results/justices.json) data came
+from [Oyez](https://www.oyez.org/), while all the [Decision](/sources/results/decisions.json)
 data was imported from [CSV files](/sources/scdb/decisions.csv) provided by the
 [Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB.
 
@@ -23,9 +23,10 @@ but PDFs are *not* particularly easy to parse.  The next best thing is their
 but again, lots of work is required to turn all those HTML tables into something
 your code can ingest.
 
-So, we built a collection [SCDB Types](/sources/scdb/types.json).  Then we wrote a
-script that reads every field of every record of [CSV files](/sources/scdb/decisions.csv)
-and verifies that every value exists in the [Types](/sources/scdb/types.json) collection.
+So, we built a collection of [SCDB Variables](/sources/scdb/vars.json).  Then we wrote a
+script that reads every field of every record of [SCDB CSV files](/sources/scdb/decisions.csv)
+and verifies that every field's value exists in the [SCDB Variables](/sources/scdb/vars.json)
+collection.
 
 The script revealed the following discrepancies:
 
@@ -168,9 +169,9 @@ The script revealed the following discrepancies:
     warning: record 2005-004-01-01-01-08 field caseOrigin has unexpected value '158'
     warning: record 2005-004-01-01-01-09 field caseOrigin has unexpected value '158'
 
-In addition, there is one SCDB field, [lawMinor](http://scdb.wustl.edu/documentation.php?var=lawMinor)
-that's a free-form string field, so we modified the script to generate a complete list of all current
-*lawMinor* values and then stored them back into the [Types](/sources/scdb/types.json) collection.
+In addition, there is one SCDB variable, [lawMinor](http://scdb.wustl.edu/documentation.php?var=lawMinor)
+that's a free-form string, so we modified the script to generate a complete list of all current
+*lawMinor* values and then stored them back into the list of [SCDB Variables](/sources/scdb/vars.json).
 
 This revealed that the *lawMinor* field is quite a mess.  Here's a small subset of the values,
 to give you a sense of the problems:
