@@ -4,8 +4,6 @@ permalink: /cases/terms
 layout: archive
 ---
 
-# Terms of The Court
-
 As we first noted in our [Index of U.S. Supreme Court Lone Dissents](/cases/loners#notes-on-terms),
 the period of time spanned by a "term" or session of the Court has varied over the years.
 
