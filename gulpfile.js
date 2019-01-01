@@ -860,14 +860,15 @@ function buildJustices(done)
 }
 
 /**
- * getTermDate(term, termDelta, dayDelta)
+ * getTermDate(term, termDelta, dayDelta, fPrint)
  *
  * @param {string} term (yyyy-mm, or yyyy if you're lazy)
  * @param {number} [termDelta]
  * @param {number} [dateDelta]
+ * @param {boolean} [fPrint]
  * @return {string} (yyyy-mm-dd)
  */
-function getTermDate(term, termDelta = 0, dateDelta = 0)
+function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
 {
     let sDate = "";
     let year = +term.substr(0, 4) || 0;
@@ -907,7 +908,7 @@ function getTermDate(term, termDelta = 0, dateDelta = 0)
                 firstDate = 8;
                 if (!month) month = 1;
                 if (month != 1) month = 0;
-            if (termDelta) year++;
+                if (termDelta) year++;
             } else if (year >= 1803) {
                 weekday = 1;
                 firstDate = 1;
@@ -918,20 +919,26 @@ function getTermDate(term, termDelta = 0, dateDelta = 0)
                 weekday = 1;
                 firstDate = 1;
                 if (month != 8 && month != 12) month = 0;
-                if (termDelta && month == 8) {
-                    month = 12;
+                if (termDelta && month) {
+                    if (month == 8) {
+                        month = 12;
+                    } else {
+                        month = 8; year++;
+                    }
                     termDelta--;
                 }
-                if (termDelta) year++;
             } else if (year >= 1790 && year < 1801) {
                 weekday = 1;
                 firstDate = 1;
                 if (month != 2 && month != 8) month = 0;
-                if (termDelta && month == 2) {
-                    month = 8;
+                if (termDelta && month) {
+                    if (month == 2) {
+                        month = 8;
+                    } else {
+                        month = 2; year++;
+                    }
                     termDelta--;
                 }
-                if (termDelta) year++;
             }
         } while (month && termDelta--);
         if (month) {
@@ -944,7 +951,7 @@ function getTermDate(term, termDelta = 0, dateDelta = 0)
             }
             date = datelib.adjustDate(date, add + dateDelta);
             sDate = datelib.formatDate("Y-m-d", date, true);
-            printf("term %s: %s\n", dateDelta? "ending" : term, datelib.formatDate("l, F j, Y", date, true));
+            if (fPrint) printf("term %s: %s\n", dateDelta? "ending" : term, datelib.formatDate("l, F j, Y", date, true));
         }
     }
     return sDate;
@@ -985,25 +992,35 @@ function getTermDate(term, termDelta = 0, dateDelta = 0)
  */
 function findDecisions(done, minVotes)
 {
-    let term = argv['term'] || "";
-    let endTerm = argv['endTerm'] || "";
+    let term = argv['term'] || "", termID;
+    let end = argv['end'] || "", endTerm;
+    if (end) endTerm = getTermDate(end);
     let start = argv['start'] || "", stop = argv['stop'] || "";
     let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%s U.S. %s", volume, page);
     let argued = argv['argued'] || "";
+
     let decisions = JSON.parse(readTextFile(rootDir + sources.results.decisions));
     printf("decisions available: %d\n", decisions.length);
+
     do {
         let year = 0;
         if (term) {
+            if (termID) {
+                term = getTermDate(termID, 1).substr(0, 7);
+            }
             year = +term.substr(0, 4) || 0;
-            printf("processing term %d...\n", term);
-            start = getTermDate(term);
-            stop = getTermDate(term, 1, -1);
+            start = getTermDate(term, 0, 0, true);
+            stop = getTermDate(term, 1, -1, true);
             if (!start || !stop) {
-                printf("unrecognized term: %s\n", term);
+                printf("unrecognized term (%s)%s\n", term, term.length == 4? ", try including a month (eg, 1790-02)" : "");
                 break;
             }
-            if (endTerm) endTerm = getTermDate(endTerm);
+            if (end && !endTerm) {
+                printf("unrecognized end term (%s)%s\n", end, end.length == 4? ", try including a month (eg, 1790-08)" : "");
+                break;
+            }
+            termID = start.substr(0, 7);
+            printf("\nprocessing term %s...\n", termID);
         }
         let results = [];
         decisions.forEach((decision) => {
@@ -1062,7 +1079,6 @@ function findDecisions(done, minVotes)
                     /*
                     * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy.md)
                     */
-                    let termID = start.substr(0, 7);
                     let termName = datelib.formatDate("F Y", start).replace(" ", " Term ");
                     let pathName = "/loners/" + termID;
                     let fileName = "/_pages" + pathName + ".md";
@@ -1173,7 +1189,7 @@ function findDecisions(done, minVotes)
                 }
             }
         }
-    } while (term && endTerm && start <= endTerm);
+    } while (term && endTerm && start < endTerm);
     done();
 }
 

@@ -20,6 +20,8 @@ but (a) we don't have such a source, and (b) that's a lot of work.
 
 # Lone Dissents by Term
 
+- [February Term 1793](/cases/loners/1793-02) (2 dissents)
+- [August Term 1796](/cases/loners/1796-08) (1 dissent)
 - [October Term 1917](/cases/loners/1917-10) (10 dissents)
 - [October Term 1918](/cases/loners/1918-10) (14 dissents)
 - [October Term 1919](/cases/loners/1919-10) (18 dissents)
