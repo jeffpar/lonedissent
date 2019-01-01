@@ -902,19 +902,25 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
                         termDelta--;
                     }
                 }
-                if (termDelta) year++;
+                if (termDelta) {
+                    if (++year == 1873) month = 10;
+                }
             } else if (year >= 1827) {
                 weekday = 1;
                 firstDate = 8;
                 if (!month) month = 1;
                 if (month != 1) month = 0;
-                if (termDelta) year++;
+                if (termDelta) {
+                    if (++year == 1844) month = 1;
+                }
             } else if (year >= 1803) {
                 weekday = 1;
                 firstDate = 1;
                 if (!month) month = 2;
                 if (month != 2) month = 0;
-                if (termDelta) year++;
+                if (termDelta) {
+                    if (++year == 1827) month = 1;
+                }
             } else if (year >= 1801) {
                 weekday = 1;
                 firstDate = 1;
@@ -923,7 +929,8 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
                     if (month == 8) {
                         month = 12;
                     } else {
-                        month = 8; year++;
+                        month = 8;
+                        if (++year == 1803) month = 2;
                     }
                     termDelta--;
                 }
@@ -935,7 +942,8 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
                     if (month == 2) {
                         month = 8;
                     } else {
-                        month = 2; year++;
+                        month = 2;
+                        if (++year == 1801) month = 8;
                     }
                     termDelta--;
                 }
