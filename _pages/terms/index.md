@@ -138,8 +138,10 @@ until December 10, 2003, *after* the start of the 2003 term, it was considered p
 
 It's worth noting that, at the beginning of argument on September 8, Chief Justice Rehnquist said:
 
-    Today we'll break for lunch and reconvene at 1:30 and the court will be in recess from today until
-    the first Monday in October 2003, at which time the October 2002 term of the court will be adjourned
-    and the October 2003 term of the court will begin as provided by statute.
+    Today we'll break for lunch and reconvene at 1:30 and the
+    court will be in recess from today until the first Monday
+    in October 2003, at which time the October 2002 term of the
+    court will be adjourned and the October 2003 term of the court
+    will begin as provided by statute.
 
 which makes it clear that October Term 2002 was still alive and well, and no need for a special term.
