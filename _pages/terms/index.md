@@ -144,4 +144,4 @@ It's worth noting that, at the beginning of argument on September 8, Chief Justi
     court will be adjourned and the October 2003 term of the court
     will begin as provided by statute.
 
-which makes it clear that October Term 2002 was still alive and well, and no need for a special term.
+which makes it clear that October Term 2002 was still alive and well, so there was no need for a special term.  However, it does seem to have put this case in the odd situation of straddling two terms, with the argument in October Term 2002 and the decision in October Term 2003.
