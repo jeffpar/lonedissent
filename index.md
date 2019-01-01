@@ -3,8 +3,8 @@ title: Welcome to Lone Dissent
 layout: home
 ---
 
-Welcome to this whimsical website, where we will be highlighting the worthless work that Supreme Court Justices
-have been engaging in for centuries: dissents.  And not just any dissents, but *lone* dissents.
+Welcome to our website, dedicated to some of the loneliest work that Supreme Court Justices have been engaging
+in for centuries: dissents.  And not just any dissents, but *lone* dissents.
 
 Yes, we're talking about those cases where just *one* Justice could not be persuaded by their colleagues and who
 instead chose to write a dissent, explaining why he or she was absolutely right and *all* of their fellow Justices were
@@ -31,8 +31,7 @@ What's striking about both of those dissents is that they eventually became the 
 58 years later, and [Minersville](https://www.oyez.org/cases/1940-1955/310us586) was explicitly overruled only 3 years later,
 by [West Virginia State Board of Education v. Barnette](https://www.oyez.org/cases/1940-1955/319us624).
 
-So, obviously we're exaggerating when we say that dissents are worthless.  However, the vast majority of
-dissents never amount to much.  They do get published and memorialized in the
+However, the vast majority of dissents never amount to much.  They do get published and memorialized in the
 [U.S. Reports](https://www.loc.gov/collections/united-states-reports/) alongside the majority opinions, providing a
 permanent record of winners and losers.  But which ones are *really* worth revisiting, and why is it so hard
 for us to differentiate the prescient dissents from, say, the stubborn tirades?
