@@ -142,5 +142,4 @@ It's worth noting that, at the beginning of argument on September 8, Chief Justi
     the first Monday in October 2003, at which time the October 2002 term of the court will be adjourned
     and the October 2003 term of the court will begin as provided by statute.
 
-It's unclear to us exactly what the Chief Justice's intent was in making that announcement.  Perhaps he was simply
-trying to sidestep the need for declaring a Special Term.
+which makes it clear that October Term 2002 was still alive and well, and no need for a special term.
