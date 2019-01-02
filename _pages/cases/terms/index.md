@@ -97,11 +97,11 @@ For example, October Term 1942 began on Monday, October 5, 1942, so logically Oc
 would have ended the day before.  That certainly seems to be the modern practice, at any rate
 (see the [McConnell](#terms-of-convenience) case below).
 
-And yet, here we see there was a Special Term in July 1942, which included arguments on July 29-30 and a
-decision on July 31.
+However, in 1942, a special term was created in July, which included arguments on July 29-30
+and a decision on July 31.  Similar special terms were created in 1953, 1958, and 1972.
 
-It seems likely that there was a change in Supreme Court rules at some point that would account for
-when there would be (or would no longer be) special terms, but as yet, we've not identified anything.
+It seems likely that sometime after 1972, there was a change in Supreme Court procedures, resulting
+in the elimination of special terms, but as yet, we've not identified the change.
 
 ### JULY SPECIAL TERM, 1942
 
@@ -125,7 +125,9 @@ when there would be (or would no longer be) special terms, but as yet, we've not
 
 ## Terms of Convenience
 
-The following cases illustrate changes over time in the creation (or avoidance) of special terms.
+The following cases illustrate instances where a special term might have originally been warranted, but
+the current term was simply used (or extended) instead.  The McConnell case, in particular, seems to suggest
+that the days of special terms are over.
 
 [UNITED STATES v. NIXON, PRESIDENT OF THE UNITED STATES, ET AL. (418 U.S. 683)](http://cdn.loc.gov/service/ll/usrep/usrep418/usrep418683/usrep418683.pdf)
 was argued July 8, 1974, decided July 24, 1974, and reported in U.S. Reports as part of October Term 1973.
