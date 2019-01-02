@@ -246,6 +246,7 @@ Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/64th-congress/s
 - [October Term 1950](/cases/loners/1950-10) (12 dissents)
 - [October Term 1951](/cases/loners/1951-10) (15 dissents)
 - [October Term 1952](/cases/loners/1952-10) (26 dissents)
+- [June Special Term 1953](/cases/loners/1953-06) (3 dissents)
 - [October Term 1953](/cases/loners/1953-10) (9 dissents)
 - [October Term 1954](/cases/loners/1954-10) (10 dissents)
 - [October Term 1955](/cases/loners/1955-10) (6 dissents)

@@ -1034,7 +1034,7 @@ function findDecisions(done, minVotes)
         decisions.forEach((decision) => {
             if (!minVotes || decision.minVotes == minVotes) {
                 if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
-                    if (!volume || decision.usCite.indexOf(usCite) == 0) {
+                    if (!volume || !page && decision.usCite.indexOf(usCite) == 0 || volume && page && decision.usCite == usCite) {
                         let datePrint = decision.dateDecision;
                         if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
                             printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);

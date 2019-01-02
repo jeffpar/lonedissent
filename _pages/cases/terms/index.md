@@ -9,7 +9,8 @@ the period of time spanned by a "term" or session of the Court has varied over t
 
 Moreoever, there are two different kinds of Court terms: [Regular Terms](#regular-terms) and
 [Special Terms](#special-terms).  And then there are what we'll call [Terms of Convenience](#terms-of-convenience),
-until a better, um, term becomes clear.
+which aren't really terms at all, but simply some isolated examples of cases that existed outside the normal term
+framework.
 
 ## Regular Terms
 
@@ -104,35 +105,35 @@ when there would be (or would no longer be) special terms, but as yet, we've not
 
 ### JULY SPECIAL TERM, 1942
 
-- [EX PARTE QUIRIN ET AL.](http://cdn.loc.gov/service/ll/usrep/usrep317/usrep317001/usrep317001.pdf)
+- [EX PARTE QUIRIN ET AL. (317 U.S. 1)](http://cdn.loc.gov/service/ll/usrep/usrep317/usrep317001/usrep317001.pdf)
 
 ### JUNE 15 SPECIAL TERM, 1953
 
-- [ROSENBERG ET AL. v. DENNO, WARDEN](http://cdn.loc.gov/service/ll/usrep/usrep346/usrep346271/usrep346271.pdf)
+- [ROSENBERG ET AL. v. DENNO, WARDEN (346 U.S. 271)](http://cdn.loc.gov/service/ll/usrep/usrep346/usrep346271/usrep346271.pdf)
 
 ### JUNE 18 SPECIAL TERM, 1953
 
-- [ROSENBERG ET AL. v. UNITED STATES](http://cdn.loc.gov/service/ll/usrep/usrep346/usrep346273/usrep346273.pdf)
+- [ROSENBERG ET AL. v. UNITED STATES (346 U.S. 273)](http://cdn.loc.gov/service/ll/usrep/usrep346/usrep346273/usrep346273.pdf)
 
 ### AUGUST SPECIAL TERM, 1958
 
-- [COOPER ET AL. v. AARON ET AL.](http://cdn.loc.gov/service/ll/usrep/usrep358/usrep358001/usrep358001.pdf)
+- [COOPER ET AL. v. AARON ET AL. (358 U.S. 1)](http://cdn.loc.gov/service/ll/usrep/usrep358/usrep358001/usrep358001.pdf)
 
 ### JULY SPECIAL TERM, 1972
 
-- [O'BRIEN ET AL. v. BROWN ET AL.](http://cdn.loc.gov/service/ll/usrep/usrep409/usrep409001/usrep409001.pdf)
+- [O'BRIEN ET AL. v. BROWN ET AL. (409 U.S. 1)](http://cdn.loc.gov/service/ll/usrep/usrep409/usrep409001/usrep409001.pdf)
 
 ## Terms of Convenience
 
 The following cases illustrate changes over time in the creation (or avoidance) of special terms.
 
-[UNITED STATES v. NIXON, PRESIDENT OF THE UNITED STATES, ET AL.](http://cdn.loc.gov/service/ll/usrep/usrep418/usrep418683/usrep418683.pdf)
+[UNITED STATES v. NIXON, PRESIDENT OF THE UNITED STATES, ET AL. (418 U.S. 683)](http://cdn.loc.gov/service/ll/usrep/usrep418/usrep418683/usrep418683.pdf)
 was argued July 8, 1974, decided July 24, 1974, and reported in U.S. Reports as part of October Term 1973.
 This makes some sense, because apparently the Court had not yet issued its final 1973 Term opinion until July 8
 (see SECRETARY OF THE NAVY v. AVRECH, 418 U.S. 676), so the Court had not yet adjourned; however, the case must
 have been a very late addition to the calendar.
 
-[McCONNELL ET AL. v. FEDERAL ELECTION COMMISSION ET AL.](http://cdn.loc.gov/service/ll/usrep/usrep540/usrep540093/usrep540093.pdf)
+[McCONNELL ET AL. v. FEDERAL ELECTION COMMISSION ET AL. (540 U.S. 93)](http://cdn.loc.gov/service/ll/usrep/usrep540/usrep540093/usrep540093.pdf)
 was argued September 8, 2003, *before* the start of October Term 2003, but since it wasn't decided
 until December 10, 2003, *after* the start of the 2003 term, it was considered part of that term.
 
@@ -144,4 +145,5 @@ It's worth noting that, at the beginning of argument on September 8, Chief Justi
     court will be adjourned and the October 2003 term of the court
     will begin as provided by statute.
 
-which makes it clear that October Term 2002 was still alive and well, so there was no need for a special term.  However, it does seem to have put this case in the odd situation of straddling two terms, with the argument in October Term 2002 and the decision in October Term 2003.
+which makes it clear that October Term 2002 was still alive and well, eliminating the need for a special term.  However,
+it created an odd result, with the case straddling two terms: argued in the 2002 term and decided in the 2003 term.
