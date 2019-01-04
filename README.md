@@ -13,7 +13,7 @@ including the source data files that were used to build them, have been checked 
 
 Our [gulpfile](gulpfile.js) has a Gulp task named `loners` that automatically adds more lone dissents from a given
 court term to our internal data file, [loners.json](_data/loners.json), and then builds new term pages.  For example,
-to build the page for the [2017](_pages/loners/2017.md) court term:
+to build the page for the [2017](_pages/cases/loners/2017-10.md) court term:
 
     gulp loners --term=2017
 
