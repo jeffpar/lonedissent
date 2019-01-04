@@ -362,7 +362,7 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
                             field = +field;
                         } else if (t.type == "date") {
                             if (field) {
-                                field = datelib.formatDate("Y-m-d", field);
+                                field = sprintf("%#Y-%#02M-%#02D", field, field, field);
                             }
                         }
                     }
@@ -581,7 +581,7 @@ function readCourts()
                 fixes++;
             }
         }
-        let startFormatted = datelib.formatDate("l, F j, Y", start);
+        let startFormatted = sprintf("%#W, %#F %#D, %#Y", start, start, start, start);
         if (startFormatted != court.startFormatted) {
             printf("%s != %s\n", startFormatted, court.startFormatted);
             court.startFormatted = startFormatted;
@@ -589,7 +589,7 @@ function readCourts()
         }
         if (court.stop) {
             let stop = court.stop;
-            let stopFormatted = datelib.formatDate("l, F j, Y", stop);
+            let stopFormatted = sprintf("%#W, %#F %#D, %#Y", stop, stop, stop, stop);
             if (stopFormatted != court.stopFormatted) {
                 printf("%s != %s\n", stopFormatted, court.stopFormatted);
                 court.stopFormatted = stopFormatted;
@@ -598,7 +598,8 @@ function readCourts()
         }
         if (i < courts.length - 1) {
             let courtNext = courts[i+1];
-            let dateFormatted = datelib.formatDate("l, F j, Y", datelib.adjustDate(new Date(court.stop), 1), true);
+            let date = datelib.adjustDate(new Date(court.stop), 1);
+            let dateFormatted = sprintf("%#W, %#F %#D, %#Y", date, date, date, date);
             if (dateFormatted != courtNext.startFormatted) {
                 printf("end of %s court (%s) doesn't align with beginning of %s court (%s)\n", court.name, court.stopFormatted, courtNext.name, courtNext.startFormatted);
             }
@@ -681,11 +682,13 @@ function readOyezJustices()
             /*
              * For some reason, all the Oyez XML justice dates appear to be off-by-one, so we compensate here.
              */
-            justice.start = datelib.formatDate("Y-m-d", datelib.adjustDate(new Date(xmlAppt.justiceSwornDate[0]._), 1), true);
-            justice.startFormatted = datelib.formatDate("l, F j, Y", justice.start);
+            let date = datelib.adjustDate(new Date(xmlAppt.justiceSwornDate[0]._), 1);
+            justice.start = sprintf("%#Y-%#02M-%#02D", date, date, date);
+            justice.startFormatted = sprintf("%#W, %#F %#D, %#Y", justice.start, justice.start, justice.start, justice.start);
             if (xmlAppt.justiceEndDate) {
-                justice.stop = datelib.formatDate("Y-m-d", datelib.adjustDate(new Date(xmlAppt.justiceEndDate[0]._), 1), true);
-                justice.stopFormatted = datelib.formatDate("l, F j, Y", justice.stop);
+                date = datelib.adjustDate(new Date(xmlAppt.justiceEndDate[0]._), 1);
+                justice.stop = sprintf("%#Y-%#02M-%#02D", date, date, date);
+                justice.stopFormatted = sprintf("%#W, %#F %#D, %#Y", justice.stop, justice.stop, justice.stop, justice.stop);
                 if (xmlAppt.justiceReasonForLeaving) {
                     justice.stopReason = xmlAppt.justiceReasonForLeaving[0];
                 } else {
@@ -713,10 +716,10 @@ function readSCDBCourts()
         let court = courts[i];
         let start = new Date(court.naturalStart);
         let stop = new Date(court.naturalStop);
-        court.start = datelib.formatDate("Y-m-d", start);
-        court.stop = datelib.formatDate("Y-m-d", stop);
-        court.startFormatted = datelib.formatDate("l, F j, Y", start);
-        court.stopFormatted = datelib.formatDate("l, F j, Y", stop);
+        court.start = sprintf("%#Y-%#02M-%#02D", start, start, start);
+        court.stop = sprintf("%#Y-%#02M-%#02D", stop, stop, stop);
+        court.startFormatted = sprintf("%#W, %#F %#D, %#Y", start, start, start, start);
+        court.stopFormatted = sprintf("%#W, %#F %#D, %#Y", stop, stop, stop, stop);
     }
     return courts;
 }
@@ -823,10 +826,10 @@ function buildJustices(done)
         let stop = new Date(justice.stopDate);
         delete justice.startDate;
         delete justice.stopDate;
-        justice.start = datelib.formatDate("Y-m-d", start);
-        justice.startFormatted = datelib.formatDate("l, F j, Y", start);
-        justice.stop = datelib.formatDate("Y-m-d", stop);
-        justice.stopFormatted = datelib.formatDate("l, F j, Y", stop);
+        justice.start = sprintf("%#Y-%#02M-%#02D", start, start, start);
+        justice.startFormatted = sprintf("%#W, %#F %#D, %#Y", start, start, start, start);
+        justice.stop = sprintf("%#Y-%#02M-%#02D", stop, stop, stop);
+        justice.stopFormatted = sprintf("%#W, %#F %#D, %#Y", stop, stop, stop, stop);
         /*
          * Let's see if we can find a match in the Oyez list...
          */
@@ -958,8 +961,8 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
                 add = 7 - (day - weekday);
             }
             date = datelib.adjustDate(date, add + dateDelta);
-            sDate = datelib.formatDate("Y-m-d", date, true);
-            if (fPrint) printf("term %s: %s\n", dateDelta? "ending" : term, datelib.formatDate("l, F j, Y", date, true));
+            sDate = sprintf("%#Y-%#02M-%#02D", date, date, date);
+            if (fPrint) printf("term %s: %s\n", dateDelta? "ending" : term, sprintf("%#W, %#F %#D, %#Y", date, date, date, date));
         }
     }
     return sDate;
@@ -1018,6 +1021,8 @@ function findDecisions(done, minVotes)
     let decisions = JSON.parse(readTextFile(rootDir + sources.results.decisions));
     printf("decisions available: %d\n", decisions.length);
 
+    let decisionsAudited = [];
+    let decisionsDuplicated = [];
     do {
         let year = 0;
         if (term) {
@@ -1049,6 +1054,11 @@ function findDecisions(done, minVotes)
                                 if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
                                     printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
                                     results.push(decision);
+                                    if (decisionsAudited.indexOf(decision.caseId) < 0) {
+                                        decisionsAudited.push(decision.caseId);
+                                    } else {
+                                        decisionsDuplicated.push(decision.caseId);
+                                    }
                                 }
                             }
                         }
@@ -1099,10 +1109,10 @@ function findDecisions(done, minVotes)
                     /*
                      * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy-mm.md)
                      */
-                    let termName = datelib.formatDate("F Y", start).replace(" ", " Term ");
-                    let pathName = "/loners/" + termID;
+                    let termName = sprintf("%#F Term %#Y", start, start);
+                    let pathName = "/cases/loners/" + termID;
                     let fileName = "/_pages" + pathName + ".md";
-                    let text = '---\ntitle: "' + termName + '"\npermalink: /cases' + pathName + '\nlayout: cases\n';
+                    let text = '---\ntitle: "' + termName + '"\npermalink: ' + pathName + '\nlayout: cases\n';
                     text += 'cases:\n';
                     results.forEach((result) => {
                         let volume = 0, page = 0;
@@ -1156,7 +1166,7 @@ function findDecisions(done, minVotes)
                         if (result.pdfSource) text += '    pdfSource: "' + result.pdfSource + '"\n';
                         if (result.pdfPage) text += '    pdfPage: ' + result.pdfPage + '\n';
                         if (result.pdfPageDissent) text += '    pdfPageDissent: ' + result.pdfPageDissent + '\n';
-                        text += '    dateDecision: "' + datelib.formatDate("l, F j, Y", result.dateDecision) + '"\n';
+                        text += '    dateDecision: "' + sprintf("%#W, %#F %#D, %#Y", result.dateDecision, result.dateDecision, result.dateDecision, result.dateDecision) + '"\n';
                         text += '    citation: "' + (result.usCite || ('No. ' + result.docket)) + '"\n';
                         /*
                          * Time to determine who actually dissented.
@@ -1179,7 +1189,7 @@ function findDecisions(done, minVotes)
                     /*
                      * Let's make sure there's an index.md entry as well....
                      */
-                    fileName = "/_pages/loners/index.md";
+                    fileName = "/_pages/cases/loners/index.md";
                     let index = readTextFile(rootDir + fileName);
                     if (index) {
                         let re = /^- \[.*?Term.*?\]\(\/cases\/loners\/([0-9-]+)\).*$/gm, match;
@@ -1191,10 +1201,12 @@ function findDecisions(done, minVotes)
                              * Make accomodations for terms the Court named inconsistently for 6 years after the June 17, 1844 statute,
                              * which changed the start of terms from second Monday of January to first Monday of the preceding December.
                              */
+                            let asterisks = "";
                             if (termID >= "1844-12" && termID <= "1849-12") {
                                 termName = "January Term " + (+termID.substr(0, 4) + 1);
+                                asterisks = "*";
                             }
-                            let entry = sprintf("- [%s](/cases/loners/%s) (%d dissent%s)\n", termName, termID, results.length, results.length > 1? 's' : '');
+                            let entry = sprintf("- [%s](/cases/loners/%s)%s (%d dissent%s)\n", termName, termID, asterisks, results.length, results.length > 1? 's' : '');
                             if (match[1] != termID) {
                                 index = index.substr(0, match.index) + entry + index.substr(match.index);
                             } else {
@@ -1207,6 +1219,12 @@ function findDecisions(done, minVotes)
             }
         }
     } while (term && endTerm && start < endTerm);
+    if (decisionsAudited.length != decisions.length) {
+        printf("matched %d decisions out of %d total\n", decisionsAudited.length, decisions.length);
+    }
+    if (decisionsDuplicated.length) {
+        printf("checked %d decisions more than once (%j)\n", decisionsDuplicated.length, decisionsDuplicated);
+    }
     done();
 }
 
@@ -1220,8 +1238,23 @@ function findLoneDissents(done)
     findDecisions(done, 1);
 }
 
+function testDates(done)
+{
+    let format;
+    let date = new Date(2018, 7, 10, 17, 6, 17);
+    printf("new Date(2018, 7, 10, 17, 20, 10)\n");
+    format = "%W, %.3F %D, %Y - %I:%02N:%02S %A\n";
+    printf("test format: %s", format);
+    printf(format, date, date, date, date, date, date, date, date);
+    format = "%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S %#A\n";
+    printf("test format: %s", format);
+    printf(format, date, date, date, date, date, date, date, date);
+    done();
+}
+
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
 gulp.task("justices", buildJustices);
 gulp.task("loners", findLoneDissents);
+gulp.task("tests", testDates);
 gulp.task("default", findDecisions);
