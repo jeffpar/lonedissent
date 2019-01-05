@@ -1316,29 +1316,6 @@ function testDates(done)
     format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
 
-    let start = "", stop = "";
-    let term = argv['term'] || "", termID;
-    let end = argv['end'] || "", endTerm;
-    if (end) endTerm = getTermDate(end);
-    do {
-        if (term) {
-            if (termID) {
-                term = getTermDate(termID, 1).substr(0, 7);
-            }
-            start = getTermDate(term, 0, 0, true);
-            stop = getTermDate(term, 1, -1, true);
-            if (!start || !stop) {
-                printf("unrecognized term (%s)%s\n", term, term.length == 4? ", try including a month (eg, 1790-02)" : "");
-                break;
-            }
-            if (end && !endTerm) {
-                printf("unrecognized end term (%s)%s\n", end, end.length == 4? ", try including a month (eg, 1790-08)" : "");
-                break;
-            }
-            termID = start.substr(0, 7);
-            // printf("\nprocessing term %s...\n", termID);
-        }
-    } while (term && endTerm && start < endTerm);
     done();
 }
 
