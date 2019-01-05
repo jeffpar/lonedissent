@@ -1043,16 +1043,21 @@ function getTermName(termID)
  * before Justice Smith Thompson joined (if we assume he didn't join until Feb 10, 1824).
  *
  * The "--term" option defines prescribed periods of time (that is, predefined "--start" and "--stop" values);
- * you should specify both a year and month.  You should no longer use *just* a year to identify a particular term,
- * in large part because the earliest years (1790 through 1801) had two terms, and in small part because the Court
- * (since 1911) has had the abilty to define its own terms, including the occasional "special term" (these are
- * rare and usually occur in the summer, after the Court has recessed but before the next October term has begun).
+ * you should specify both a year and month (eg, 1790-02, 1790-08, 1844-01, 1844-12, etc).  You should no longer
+ * use *just* a year to identify a particular term, in large part because the earliest years (1790 through 1801)
+ * had two terms, and in small part because the Court (since 1911) has had the abilty to define its own terms,
+ * including the occasional "special term" (eg, 1953-06).  Special terms are rare and usually occur in the summer,
+ * after the Court has recessed but before the next October term has begun.  If you omit the month, the default
+ * month for that year will be selected, unless there were multiple terms that year.
  *
  * Also, starting in 1844, terms technically began in December, but the Court still referred to them as "January" terms;
- * in 1850, after the "January 1850" term (technically the December 1849 term), they finally changed the naming convention,
- * so what would have next been called the "January 1851" term was properly called the December 1850 term.  This makes
- * it *seem* as if there were two terms in 1850, but I think it's more accurate to say there were two terms in 1844,
- * when the change actually occurred.
+ * in 1850, after the "January 1850" term (which we identify as 1849-12), they finally changed the naming convention,
+ * so what would have next been called the "January 1851" term was properly called the December 1850 term (1850-12).
+ * This makes it *seem* as if there were two terms in 1850, but it's more accurate to say there were two terms in 1844,
+ * when the change actually occurred (specifically, 1844-01 and 1844-12).
+ *
+ * The "--end" option accepts a term identifier as well; if specified along with "--term", then all terms from the
+ * starting term to the ending term will be processed.
  *
  * The "--argued" option allows you to find any cases argued on the specified date (yyyy-mm-dd), month (yyyy-mm),
  * or year (yyyy).  Any matching cases are printed with the argument (or reargument) date, rather than the decision date.
@@ -1063,6 +1068,12 @@ function getTermName(termID)
  * The "--month" option allows you to find cases that were decided in a particular month, optionally subject to start
  * and stop values as well.  This is useful for looking for cases that were argued in the summer (ie, potential "Special
  * Term" candidates), for example.
+ *
+ * The "--volume" and "--page" options allow you to further restrict results to a specific U.S. Reports volume number,
+ * page number, or both; use both when looking for a specific citation; for example, to locate the decision reported as
+ * "542 U.S. 241", use:
+ *
+ *      gulp --volume=542 --page=241
  *
  * @param {function()} done
  * @param {number} [minVotes]
