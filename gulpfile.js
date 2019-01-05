@@ -115,6 +115,7 @@ let argv = proclib.args.argv;
  * @property {string} stopFormatted
  * @property {string} stopReason
  * @property {string} photo
+ * @property {number} scdbJustice
  */
 
 /**
@@ -844,7 +845,7 @@ function buildJustices(done)
             if (oyez.name.indexOf(last) >= 0 && (oyez.name.indexOf(first) >= 0 || first == "Francis" || first == "Henry")) {
                 missing = false;
                 if (oyez.start == justice.start) {
-                    oyez.scdb = justice.index;
+                    oyez.scdbJustice = +justice.index;
                     break;
                 } else {
                     printf("warning: SCDB justice '%s' date (%s) doesn't match OYEZ justice '%s' date (%s)\n", justice.name, justice.start, oyez.name, oyez.start);
@@ -853,7 +854,7 @@ function buildJustices(done)
         }
         if (missing) {
             // printf("warning: unable to find SCDB justice '%s' (%d) in OYEZ\n", justice.name, justice.index)
-            justice.scdb = justice.index;
+            justice.scdbJustice = +justice.index;
             delete justice.index;
             justicesOyez.push(justice);
         }
@@ -1055,6 +1056,29 @@ function findDecisions(done, minVotes)
     let month = argv['month'] && sprintf("-%02d-", +argv['month']) || "";
     let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%s U.S. %s", volume, page);
 
+    let justiceDecisions = {};
+    let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars));
+    let justices = JSON.parse(readTextFile(rootDir + sources.results.justices));
+    justices.forEach((justice) => {
+        if (justice.scdbJustice) {
+            let id = vars.justice.values[justice.scdbJustice];
+            if (id) {
+                // printf("found SCDB justice ID %s\n", id);
+                if (id == "CEHughes1" || id == "CEHughes2") id = "CEHughes";
+                justice.scdbJustice = id;
+                if (!justiceDecisions[justice.scdbJustice]) {
+                    justiceDecisions[justice.scdbJustice] = [];
+                } else {
+                    printf("warning: SCDB justice ID %s listed multiple times\n", id);
+                }
+            } else {
+                printf("warning: SCDB justice index %d has no SCDB justice ID\n", justice.scdbJustice);
+            }
+        } else {
+            printf("warning: justice %s has no SCDB justice index\n", justice.id);
+        }
+    });
+
     let decisions = JSON.parse(readTextFile(rootDir + sources.results.decisions));
     printf("decisions available: %d\n", decisions.length);
 
@@ -1208,15 +1232,26 @@ function findDecisions(done, minVotes)
                         /*
                          * Time to determine who actually dissented.
                          */
+                        let idDissented = null;
                         let justiceDissented = "";
                         for (let i = 0; i < result.justices.length; i++) {
                             let justice = result.justices[i];
                             if (justice.vote == "dissent") {
                                 if (!justiceDissented) {
+                                    idDissented = justice.justice;
+                                    if (idDissented == "CEHughes1" || idDissented == "CEHughes2") idDissented = "CEHughes";
                                     justiceDissented = justice.justiceName;
                                 } else {
                                     printf("warning: %s (%s) has multiple dissents (eg, %s, %s)\n", result.caseId, result.usCite, justiceDissented, justice.justiceName);
+                                    idDissented = null;
                                 }
+                            }
+                        }
+                        if (idDissented) {
+                            if (justiceDecisions[idDissented]) {
+                                justiceDecisions[idDissented].push(result);
+                            } else {
+                                printf("warning: unable to find justice ID %s\n", idDissented);
                             }
                         }
                         text += '    justiceDissented: "' + justiceDissented + '"\n';
@@ -1258,12 +1293,27 @@ function findDecisions(done, minVotes)
             }
         }
     } while (term && endTerm && start < endTerm);
+
     if (decisionsAudited.length != decisions.length) {
         printf("matched %d decisions out of %d total\n", decisionsAudited.length, decisions.length);
     }
+
     if (decisionsDuplicated.length) {
         printf("checked %d decisions more than once (%j)\n", decisionsDuplicated.length, decisionsDuplicated);
     }
+
+    let justiceDissents = [];
+    let justiceIDs = Object.keys(justiceDecisions);
+    justiceIDs.forEach((id) => {
+        justiceDissents.push({justice: id, dissents: justiceDecisions[id].length});
+    });
+
+    justiceDissents.sort(function(a,b) {
+        return (a.dissents < b.dissents)? -1 : ((a.dissents > b.dissents)? 1 : 0);
+    });
+
+    printf("justiceDissents: %2j\n", justiceDissents);
+
     done();
 }
 

@@ -9,7 +9,7 @@
     "stop": "1798-08-21",
     "stopFormatted": "Tuesday, August 21, 1798",
     "stopReason": "Death",
-    "scdb": "4"
+    "scdbJustice": 4
   },
   {
     "id": "john_jay",
@@ -21,7 +21,7 @@
     "stop": "1795-06-29",
     "stopFormatted": "Monday, June 29, 1795",
     "stopReason": "Resigned",
-    "scdb": "1"
+    "scdbJustice": 1
   },
   {
     "id": "william_cushing",
@@ -33,7 +33,7 @@
     "stop": "1810-09-13",
     "stopFormatted": "Thursday, September 13, 1810",
     "stopReason": "Death",
-    "scdb": "3"
+    "scdbJustice": 3
   },
   {
     "id": "john_blair",
@@ -45,7 +45,7 @@
     "stop": "1795-10-25",
     "stopFormatted": "Sunday, October 25, 1795",
     "stopReason": "Resigned",
-    "scdb": "5"
+    "scdbJustice": 5
   },
   {
     "id": "john_rutledge",
@@ -57,7 +57,7 @@
     "stop": "1791-03-05",
     "stopFormatted": "Saturday, March 5, 1791",
     "stopReason": "Resigned",
-    "scdb": "2"
+    "scdbJustice": 2
   },
   {
     "id": "james_iredell",
@@ -69,7 +69,7 @@
     "stop": "1799-10-20",
     "stopFormatted": "Sunday, October 20, 1799",
     "stopReason": "Death",
-    "scdb": "6"
+    "scdbJustice": 6
   },
   {
     "id": "thomas_johnson",
@@ -81,7 +81,7 @@
     "stop": "1793-01-16",
     "stopFormatted": "Wednesday, January 16, 1793",
     "stopReason": "Resigned",
-    "scdb": "7"
+    "scdbJustice": 7
   },
   {
     "id": "william_paterson",
@@ -93,7 +93,7 @@
     "stop": "1806-09-09",
     "stopFormatted": "Tuesday, September 9, 1806",
     "stopReason": "Death",
-    "scdb": "8"
+    "scdbJustice": 8
   },
   {
     "id": "john_rutledge",
@@ -105,7 +105,7 @@
     "stop": "1795-12-15",
     "stopFormatted": "Tuesday, December 15, 1795",
     "stopReason": "Rejected",
-    "scdb": "9"
+    "scdbJustice": 9
   },
   {
     "id": "samuel_chase",
@@ -117,7 +117,7 @@
     "stop": "1811-06-19",
     "stopFormatted": "Wednesday, June 19, 1811",
     "stopReason": "Death",
-    "scdb": "10"
+    "scdbJustice": 10
   },
   {
     "id": "oliver_ellsworth",
@@ -129,7 +129,7 @@
     "stop": "1800-12-15",
     "stopFormatted": "Monday, December 15, 1800",
     "stopReason": "Resigned",
-    "scdb": "11"
+    "scdbJustice": 11
   },
   {
     "id": "bushrod_washington",
@@ -141,8 +141,8 @@
     "stop": "1829-11-26",
     "stopFormatted": "Thursday, November 26, 1829",
     "stopReason": "Death",
-    "scdb": "12",
-    "notes": "SCDB claims the date of oath was Nov 9, 1798, which seems unlikely if he was confirmed on Dec 20, 1798."
+    "notes": "SCDB claims the date of oath was Nov 9, 1798, which seems unlikely if he was confirmed on Dec 20, 1798.",
+    "scdbJustice": 12
   },
   {
     "id": "alfred_moore",
@@ -154,7 +154,7 @@
     "stop": "1804-01-26",
     "stopFormatted": "Thursday, January 26, 1804",
     "stopReason": "Resigned",
-    "scdb": "13"
+    "scdbJustice": 13
   },
   {
     "id": "john_marshall",
@@ -166,7 +166,7 @@
     "stop": "1835-07-06",
     "stopFormatted": "Monday, July 6, 1835",
     "stopReason": "Death",
-    "scdb": "14"
+    "scdbJustice": 14
   },
   {
     "id": "william_johnson",
@@ -178,7 +178,7 @@
     "stop": "1834-08-04",
     "stopFormatted": "Monday, August 4, 1834",
     "stopReason": "Death",
-    "scdb": "15"
+    "scdbJustice": 15
   },
   {
     "id": "brockholst_livingston",
@@ -190,7 +190,7 @@
     "stop": "1823-03-18",
     "stopFormatted": "Tuesday, March 18, 1823",
     "stopReason": "Death",
-    "scdb": "16"
+    "scdbJustice": 16
   },
   {
     "id": "thomas_todd",
@@ -202,7 +202,7 @@
     "stop": "1826-02-07",
     "stopFormatted": "Tuesday, February 7, 1826",
     "stopReason": "Death",
-    "scdb": "17"
+    "scdbJustice": 17
   },
   {
     "id": "gabriel_duvall",
@@ -214,7 +214,7 @@
     "stop": "1835-01-14",
     "stopFormatted": "Wednesday, January 14, 1835",
     "stopReason": "Resigned",
-    "scdb": "18"
+    "scdbJustice": 18
   },
   {
     "id": "joseph_story",
@@ -226,7 +226,7 @@
     "stop": "1845-09-10",
     "stopFormatted": "Wednesday, September 10, 1845",
     "stopReason": "Death",
-    "scdb": "19"
+    "scdbJustice": 19
   },
   {
     "id": "smith_thompson",
@@ -238,8 +238,8 @@
     "stop": "1843-12-18",
     "stopFormatted": "Monday, December 18, 1843",
     "stopReason": "Death",
-    "scdb": "20",
-    "notes": "The 1994 Compendium (p.304) claims that Thompson took the oath on Feb 10, 1824, which makes more sense than the day after Livingston's death."
+    "notes": "The 1994 Compendium (p.304) claims that Thompson took the oath on Feb 10, 1824, which makes more sense than the day after Livingston's death.",
+    "scdbJustice": 20
   },
   {
     "id": "robert_trimble",
@@ -251,7 +251,7 @@
     "stop": "1828-08-25",
     "stopFormatted": "Monday, August 25, 1828",
     "stopReason": "Death",
-    "scdb": "21"
+    "scdbJustice": 21
   },
   {
     "id": "john_mclean",
@@ -263,7 +263,7 @@
     "stop": "1861-04-04",
     "stopFormatted": "Thursday, April 4, 1861",
     "stopReason": "Death",
-    "scdb": "22"
+    "scdbJustice": 22
   },
   {
     "id": "henry_baldwin",
@@ -275,7 +275,7 @@
     "stop": "1844-04-21",
     "stopFormatted": "Sunday, April 21, 1844",
     "stopReason": "Death",
-    "scdb": "23"
+    "scdbJustice": 23
   },
   {
     "id": "james_m_wayne",
@@ -287,7 +287,7 @@
     "stop": "1867-07-05",
     "stopFormatted": "Friday, July 5, 1867",
     "stopReason": "Death",
-    "scdb": "24"
+    "scdbJustice": 24
   },
   {
     "id": "roger_b_taney",
@@ -299,7 +299,7 @@
     "stop": "1864-10-12",
     "stopFormatted": "Wednesday, October 12, 1864",
     "stopReason": "Death",
-    "scdb": "25"
+    "scdbJustice": 25
   },
   {
     "id": "philip_p_barbour",
@@ -311,7 +311,7 @@
     "stop": "1841-02-25",
     "stopFormatted": "Thursday, February 25, 1841",
     "stopReason": "Death",
-    "scdb": "26"
+    "scdbJustice": 26
   },
   {
     "id": "john_catron",
@@ -323,7 +323,7 @@
     "stop": "1865-05-30",
     "stopFormatted": "Tuesday, May 30, 1865",
     "stopReason": "Death",
-    "scdb": "27"
+    "scdbJustice": 27
   },
   {
     "id": "john_mckinley",
@@ -334,7 +334,8 @@
     "startFormatted": "Tuesday, January 9, 1838",
     "stop": "1852-07-19",
     "stopFormatted": "Monday, July 19, 1852",
-    "stopReason": "Death"
+    "stopReason": "Death",
+    "scdbJustice": 28
   },
   {
     "id": "peter_v_daniel",
@@ -346,7 +347,7 @@
     "stop": "1860-05-31",
     "stopFormatted": "Thursday, May 31, 1860",
     "stopReason": "Death",
-    "scdb": "29"
+    "scdbJustice": 29
   },
   {
     "id": "samuel_nelson",
@@ -358,7 +359,7 @@
     "stop": "1872-11-28",
     "stopFormatted": "Thursday, November 28, 1872",
     "stopReason": "Retired",
-    "scdb": "30"
+    "scdbJustice": 30
   },
   {
     "id": "levi_woodbury",
@@ -370,7 +371,7 @@
     "stop": "1851-09-04",
     "stopFormatted": "Thursday, September 4, 1851",
     "stopReason": "Death",
-    "scdb": "31"
+    "scdbJustice": 31
   },
   {
     "id": "robert_c_grier",
@@ -382,7 +383,7 @@
     "stop": "1870-01-31",
     "stopFormatted": "Monday, January 31, 1870",
     "stopReason": "Retired",
-    "scdb": "32"
+    "scdbJustice": 32
   },
   {
     "id": "benjamin_r_curtis",
@@ -394,7 +395,7 @@
     "stop": "1857-09-30",
     "stopFormatted": "Wednesday, September 30, 1857",
     "stopReason": "Resigned",
-    "scdb": "33"
+    "scdbJustice": 33
   },
   {
     "id": "john_a_campbell",
@@ -406,7 +407,7 @@
     "stop": "1861-04-30",
     "stopFormatted": "Tuesday, April 30, 1861",
     "stopReason": "Resigned",
-    "scdb": "34"
+    "scdbJustice": 34
   },
   {
     "id": "nathan_clifford",
@@ -418,7 +419,7 @@
     "stop": "1881-07-25",
     "stopFormatted": "Monday, July 25, 1881",
     "stopReason": "Death",
-    "scdb": "35"
+    "scdbJustice": 35
   },
   {
     "id": "noah_swayne",
@@ -430,7 +431,7 @@
     "stop": "1881-01-24",
     "stopFormatted": "Monday, January 24, 1881",
     "stopReason": "Retired",
-    "scdb": "36"
+    "scdbJustice": 36
   },
   {
     "id": "samuel_f_miller",
@@ -442,7 +443,7 @@
     "stop": "1890-10-13",
     "stopFormatted": "Monday, October 13, 1890",
     "stopReason": "Death",
-    "scdb": "37"
+    "scdbJustice": 37
   },
   {
     "id": "david_davis",
@@ -453,7 +454,8 @@
     "startFormatted": "Wednesday, December 10, 1862",
     "stop": "1877-03-04",
     "stopFormatted": "Sunday, March 4, 1877",
-    "stopReason": "Resigned"
+    "stopReason": "Resigned",
+    "scdbJustice": 38
   },
   {
     "id": "stephen_j_field",
@@ -465,7 +467,7 @@
     "stop": "1897-12-01",
     "stopFormatted": "Wednesday, December 1, 1897",
     "stopReason": "Retired",
-    "scdb": "39"
+    "scdbJustice": 39
   },
   {
     "id": "salmon_p_chase",
@@ -477,7 +479,7 @@
     "stop": "1873-05-07",
     "stopFormatted": "Wednesday, May 7, 1873",
     "stopReason": "Death",
-    "scdb": "40"
+    "scdbJustice": 40
   },
   {
     "id": "william_strong",
@@ -489,7 +491,7 @@
     "stop": "1880-12-14",
     "stopFormatted": "Tuesday, December 14, 1880",
     "stopReason": "Retired",
-    "scdb": "41"
+    "scdbJustice": 41
   },
   {
     "id": "joseph_p_bradley",
@@ -501,8 +503,8 @@
     "stop": "1892-01-22",
     "stopFormatted": "Friday, January 22, 1892",
     "stopReason": "Death",
-    "scdb": "42",
-    "notes": "The 1994 Compendium (p.306) lists the date of oath as Mar 23, but SCDB has Mar 21, and OYEZ has Mar 22...."
+    "notes": "The 1994 Compendium (p.306) lists the date of oath as Mar 23, but SCDB has Mar 21, and OYEZ has Mar 22....",
+    "scdbJustice": 42
   },
   {
     "id": "ward_hunt",
@@ -514,7 +516,7 @@
     "stop": "1882-01-27",
     "stopFormatted": "Friday, January 27, 1882",
     "stopReason": "Disabled",
-    "scdb": "43"
+    "scdbJustice": 43
   },
   {
     "id": "morrison_r_waite",
@@ -526,7 +528,7 @@
     "stop": "1888-03-23",
     "stopFormatted": "Friday, March 23, 1888",
     "stopReason": "Death",
-    "scdb": "44"
+    "scdbJustice": 44
   },
   {
     "id": "john_m_harlan",
@@ -538,7 +540,7 @@
     "stop": "1911-10-14",
     "stopFormatted": "Saturday, October 14, 1911",
     "stopReason": "Death",
-    "scdb": "45"
+    "scdbJustice": 45
   },
   {
     "id": "william_b_woods",
@@ -550,7 +552,7 @@
     "stop": "1887-05-14",
     "stopFormatted": "Saturday, May 14, 1887",
     "stopReason": "Death",
-    "scdb": "46"
+    "scdbJustice": 46
   },
   {
     "id": "stanley_matthews",
@@ -562,7 +564,7 @@
     "stop": "1889-03-22",
     "stopFormatted": "Friday, March 22, 1889",
     "stopReason": "Death",
-    "scdb": "47"
+    "scdbJustice": 47
   },
   {
     "id": "horace_gray",
@@ -574,7 +576,7 @@
     "stop": "1902-09-15",
     "stopFormatted": "Monday, September 15, 1902",
     "stopReason": "Death",
-    "scdb": "48"
+    "scdbJustice": 48
   },
   {
     "id": "samuel_blatchford",
@@ -586,7 +588,7 @@
     "stop": "1893-07-07",
     "stopFormatted": "Friday, July 7, 1893",
     "stopReason": "Death",
-    "scdb": "49"
+    "scdbJustice": 49
   },
   {
     "id": "lucius_qc_lamar",
@@ -598,7 +600,7 @@
     "stop": "1893-01-23",
     "stopFormatted": "Monday, January 23, 1893",
     "stopReason": "Death",
-    "scdb": "50"
+    "scdbJustice": 50
   },
   {
     "id": "melville_w_fuller",
@@ -610,7 +612,7 @@
     "stop": "1910-07-04",
     "stopFormatted": "Monday, July 4, 1910",
     "stopReason": "Death",
-    "scdb": "51"
+    "scdbJustice": 51
   },
   {
     "id": "david_j_brewer",
@@ -622,7 +624,7 @@
     "stop": "1910-03-28",
     "stopFormatted": "Monday, March 28, 1910",
     "stopReason": "Death",
-    "scdb": "52"
+    "scdbJustice": 52
   },
   {
     "id": "henry_b_brown",
@@ -634,7 +636,7 @@
     "stop": "1906-05-28",
     "stopFormatted": "Monday, May 28, 1906",
     "stopReason": "Retired",
-    "scdb": "53"
+    "scdbJustice": 53
   },
   {
     "id": "george_shiras_jr",
@@ -646,7 +648,7 @@
     "stop": "1903-02-23",
     "stopFormatted": "Monday, February 23, 1903",
     "stopReason": "Retired",
-    "scdb": "54"
+    "scdbJustice": 54
   },
   {
     "id": "howell_e_jackson",
@@ -658,7 +660,7 @@
     "stop": "1895-08-08",
     "stopFormatted": "Thursday, August 8, 1895",
     "stopReason": "Death",
-    "scdb": "55"
+    "scdbJustice": 55
   },
   {
     "id": "edward_d_white",
@@ -670,7 +672,7 @@
     "stop": "1910-12-18",
     "stopFormatted": "Sunday, December 18, 1910",
     "stopReason": "Promoted",
-    "scdb": "56"
+    "scdbJustice": 56
   },
   {
     "id": "rufus_peckham",
@@ -682,7 +684,7 @@
     "stop": "1909-10-24",
     "stopFormatted": "Sunday, October 24, 1909",
     "stopReason": "Death",
-    "scdb": "57"
+    "scdbJustice": 57
   },
   {
     "id": "joseph_mckenna",
@@ -694,7 +696,7 @@
     "stop": "1925-01-05",
     "stopFormatted": "Monday, January 5, 1925",
     "stopReason": "Retired",
-    "scdb": "58"
+    "scdbJustice": 58
   },
   {
     "id": "oliver_w_holmes_jr",
@@ -706,7 +708,7 @@
     "stop": "1932-01-12",
     "stopFormatted": "Tuesday, January 12, 1932",
     "stopReason": "Retired",
-    "scdb": "59"
+    "scdbJustice": 59
   },
   {
     "id": "william_r_day",
@@ -718,7 +720,7 @@
     "stop": "1922-11-13",
     "stopFormatted": "Monday, November 13, 1922",
     "stopReason": "Retired",
-    "scdb": "60"
+    "scdbJustice": 60
   },
   {
     "id": "william_h_moody",
@@ -730,7 +732,7 @@
     "stop": "1910-11-20",
     "stopFormatted": "Sunday, November 20, 1910",
     "stopReason": "Disabled",
-    "scdb": "61"
+    "scdbJustice": 61
   },
   {
     "id": "horace_h_lurton",
@@ -742,7 +744,7 @@
     "stop": "1914-07-12",
     "stopFormatted": "Sunday, July 12, 1914",
     "stopReason": "Death",
-    "scdb": "62"
+    "scdbJustice": 62
   },
   {
     "id": "charles_e_hughes",
@@ -754,7 +756,7 @@
     "stop": "1916-06-10",
     "stopFormatted": "Saturday, June 10, 1916",
     "stopReason": "Resigned",
-    "scdb": "63"
+    "scdbJustice": 63
   },
   {
     "id": "edward_d_white",
@@ -766,7 +768,7 @@
     "stop": "1921-05-19",
     "stopFormatted": "Thursday, May 19, 1921",
     "stopReason": "Death",
-    "scdb": "56"
+    "scdbJustice": 56
   },
   {
     "id": "willis_van_devanter",
@@ -778,7 +780,7 @@
     "stop": "1937-06-02",
     "stopFormatted": "Wednesday, June 2, 1937",
     "stopReason": "Retired",
-    "scdb": "64"
+    "scdbJustice": 64
   },
   {
     "id": "joseph_r_lamar",
@@ -790,7 +792,7 @@
     "stop": "1916-01-02",
     "stopFormatted": "Sunday, January 2, 1916",
     "stopReason": "Death",
-    "scdb": "65"
+    "scdbJustice": 65
   },
   {
     "id": "mahlon_pitney",
@@ -802,7 +804,7 @@
     "stop": "1922-12-31",
     "stopFormatted": "Sunday, December 31, 1922",
     "stopReason": "Disabled",
-    "scdb": "66"
+    "scdbJustice": 66
   },
   {
     "id": "james_c_mcreynolds",
@@ -814,7 +816,7 @@
     "stop": "1941-01-31",
     "stopFormatted": "Friday, January 31, 1941",
     "stopReason": "Retired",
-    "scdb": "67"
+    "scdbJustice": 67
   },
   {
     "id": "louis_d_brandeis",
@@ -826,7 +828,7 @@
     "stop": "1939-02-13",
     "stopFormatted": "Monday, February 13, 1939",
     "stopReason": "Retired",
-    "scdb": "68"
+    "scdbJustice": 68
   },
   {
     "id": "john_h_clarke",
@@ -838,7 +840,7 @@
     "stop": "1922-09-18",
     "stopFormatted": "Monday, September 18, 1922",
     "stopReason": "Resigned",
-    "scdb": "69"
+    "scdbJustice": 69
   },
   {
     "id": "william_howard_taft",
@@ -850,7 +852,7 @@
     "stop": "1930-02-03",
     "stopFormatted": "Monday, February 3, 1930",
     "stopReason": "Retired",
-    "scdb": "70"
+    "scdbJustice": 70
   },
   {
     "id": "george_sutherland",
@@ -862,7 +864,7 @@
     "stop": "1938-01-17",
     "stopFormatted": "Monday, January 17, 1938",
     "stopReason": "Retired",
-    "scdb": "71"
+    "scdbJustice": 71
   },
   {
     "id": "pierce_butler",
@@ -874,7 +876,7 @@
     "stop": "1939-11-16",
     "stopFormatted": "Thursday, November 16, 1939",
     "stopReason": "Death",
-    "scdb": "72"
+    "scdbJustice": 72
   },
   {
     "id": "edward_t_sanford",
@@ -886,7 +888,7 @@
     "stop": "1930-03-08",
     "stopFormatted": "Saturday, March 8, 1930",
     "stopReason": "Death",
-    "scdb": "73"
+    "scdbJustice": 73
   },
   {
     "id": "harlan_fiske_stone",
@@ -898,7 +900,7 @@
     "stop": "1941-07-02",
     "stopFormatted": "Wednesday, July 2, 1941",
     "stopReason": "Promoted",
-    "scdb": "74"
+    "scdbJustice": 74
   },
   {
     "id": "charles_e_hughes",
@@ -910,7 +912,7 @@
     "stop": "1941-06-30",
     "stopFormatted": "Monday, June 30, 1941",
     "stopReason": "Retired",
-    "scdb": "75"
+    "scdbJustice": 75
   },
   {
     "id": "owen_j_roberts",
@@ -922,7 +924,7 @@
     "stop": "1945-07-31",
     "stopFormatted": "Tuesday, July 31, 1945",
     "stopReason": "Resigned",
-    "scdb": "76"
+    "scdbJustice": 76
   },
   {
     "id": "benjamin_n_cardozo",
@@ -934,7 +936,7 @@
     "stop": "1938-07-09",
     "stopFormatted": "Saturday, July 9, 1938",
     "stopReason": "Death",
-    "scdb": "77"
+    "scdbJustice": 77
   },
   {
     "id": "hugo_l_black",
@@ -946,7 +948,7 @@
     "stop": "1971-09-17",
     "stopFormatted": "Friday, September 17, 1971",
     "stopReason": "Retired",
-    "scdb": "78"
+    "scdbJustice": 78
   },
   {
     "id": "stanley_reed",
@@ -958,7 +960,7 @@
     "stop": "1957-02-25",
     "stopFormatted": "Monday, February 25, 1957",
     "stopReason": "Retired",
-    "scdb": "79"
+    "scdbJustice": 79
   },
   {
     "id": "felix_frankfurter",
@@ -970,7 +972,7 @@
     "stop": "1962-08-28",
     "stopFormatted": "Tuesday, August 28, 1962",
     "stopReason": "Retired",
-    "scdb": "80"
+    "scdbJustice": 80
   },
   {
     "id": "william_o_douglas",
@@ -982,7 +984,7 @@
     "stop": "1975-11-12",
     "stopFormatted": "Wednesday, November 12, 1975",
     "stopReason": "Retired",
-    "scdb": "81"
+    "scdbJustice": 81
   },
   {
     "id": "frank_murphy",
@@ -994,7 +996,7 @@
     "stop": "1949-07-19",
     "stopFormatted": "Tuesday, July 19, 1949",
     "stopReason": "Death",
-    "scdb": "82"
+    "scdbJustice": 82
   },
   {
     "id": "harlan_fiske_stone",
@@ -1006,7 +1008,7 @@
     "stop": "1946-04-22",
     "stopFormatted": "Monday, April 22, 1946",
     "stopReason": "Death",
-    "scdb": "74"
+    "scdbJustice": 74
   },
   {
     "id": "james_f_byrnes",
@@ -1018,7 +1020,7 @@
     "stop": "1942-10-03",
     "stopFormatted": "Saturday, October 3, 1942",
     "stopReason": "Resigned",
-    "scdb": "83"
+    "scdbJustice": 83
   },
   {
     "id": "robert_h_jackson",
@@ -1030,7 +1032,7 @@
     "stop": "1954-10-09",
     "stopFormatted": "Saturday, October 9, 1954",
     "stopReason": "Death",
-    "scdb": "84"
+    "scdbJustice": 84
   },
   {
     "id": "wiley_b_rutledge",
@@ -1042,7 +1044,7 @@
     "stop": "1949-09-10",
     "stopFormatted": "Saturday, September 10, 1949",
     "stopReason": "Death",
-    "scdb": "85"
+    "scdbJustice": 85
   },
   {
     "id": "harold_burton",
@@ -1054,7 +1056,7 @@
     "stop": "1958-10-13",
     "stopFormatted": "Monday, October 13, 1958",
     "stopReason": "Retired",
-    "scdb": "86"
+    "scdbJustice": 86
   },
   {
     "id": "fred_m_vinson",
@@ -1066,7 +1068,7 @@
     "stop": "1953-09-08",
     "stopFormatted": "Tuesday, September 8, 1953",
     "stopReason": "Death",
-    "scdb": "87"
+    "scdbJustice": 87
   },
   {
     "id": "tom_c_clark",
@@ -1078,7 +1080,7 @@
     "stop": "1967-06-12",
     "stopFormatted": "Monday, June 12, 1967",
     "stopReason": "Retired",
-    "scdb": "88"
+    "scdbJustice": 88
   },
   {
     "id": "sherman_minton",
@@ -1090,7 +1092,7 @@
     "stop": "1956-10-15",
     "stopFormatted": "Monday, October 15, 1956",
     "stopReason": "Retired",
-    "scdb": "89"
+    "scdbJustice": 89
   },
   {
     "id": "earl_warren",
@@ -1102,7 +1104,7 @@
     "stop": "1969-06-23",
     "stopFormatted": "Monday, June 23, 1969",
     "stopReason": "Retired",
-    "scdb": "90"
+    "scdbJustice": 90
   },
   {
     "id": "john_m_harlan2",
@@ -1114,7 +1116,7 @@
     "stop": "1971-09-23",
     "stopFormatted": "Thursday, September 23, 1971",
     "stopReason": "Retired",
-    "scdb": "91"
+    "scdbJustice": 91
   },
   {
     "id": "william_j_brennan_jr",
@@ -1126,7 +1128,7 @@
     "stop": "1990-07-20",
     "stopFormatted": "Friday, July 20, 1990",
     "stopReason": "Retired",
-    "scdb": "92"
+    "scdbJustice": 92
   },
   {
     "id": "charles_e_whittaker",
@@ -1138,7 +1140,7 @@
     "stop": "1962-03-31",
     "stopFormatted": "Saturday, March 31, 1962",
     "stopReason": "Disabled",
-    "scdb": "93"
+    "scdbJustice": 93
   },
   {
     "id": "potter_stewart",
@@ -1150,7 +1152,7 @@
     "stop": "1981-07-03",
     "stopFormatted": "Friday, July 3, 1981",
     "stopReason": "Retired",
-    "scdb": "94"
+    "scdbJustice": 94
   },
   {
     "id": "byron_r_white",
@@ -1162,7 +1164,7 @@
     "stop": "1993-06-28",
     "stopFormatted": "Monday, June 28, 1993",
     "stopReason": "Retired",
-    "scdb": "95"
+    "scdbJustice": 95
   },
   {
     "id": "arthur_j_goldberg",
@@ -1174,7 +1176,7 @@
     "stop": "1965-07-25",
     "stopFormatted": "Sunday, July 25, 1965",
     "stopReason": "Resigned",
-    "scdb": "96"
+    "scdbJustice": 96
   },
   {
     "id": "abe_fortas",
@@ -1186,7 +1188,7 @@
     "stop": "1969-05-15",
     "stopFormatted": "Thursday, May 15, 1969",
     "stopReason": "Resigned",
-    "scdb": "97"
+    "scdbJustice": 97
   },
   {
     "id": "thurgood_marshall",
@@ -1198,7 +1200,7 @@
     "stop": "1991-10-01",
     "stopFormatted": "Tuesday, October 1, 1991",
     "stopReason": "Retired",
-    "scdb": "98"
+    "scdbJustice": 98
   },
   {
     "id": "warren_e_burger",
@@ -1210,7 +1212,7 @@
     "stop": "1986-09-26",
     "stopFormatted": "Friday, September 26, 1986",
     "stopReason": "Retired",
-    "scdb": "99"
+    "scdbJustice": 99
   },
   {
     "id": "harry_a_blackmun",
@@ -1222,7 +1224,7 @@
     "stop": "1994-08-03",
     "stopFormatted": "Wednesday, August 3, 1994",
     "stopReason": "Retired",
-    "scdb": "100"
+    "scdbJustice": 100
   },
   {
     "id": "lewis_f_powell_jr",
@@ -1234,19 +1236,19 @@
     "stop": "1987-06-26",
     "stopFormatted": "Friday, June 26, 1987",
     "stopReason": "Retired",
-    "scdb": "101"
+    "scdbJustice": 101
   },
   {
     "id": "william_h_rehnquist",
     "name": "William H. Rehnquist",
     "position": "Associate Justice",
     "seat": 10,
-    "start": "1972-01-08",
-    "startFormatted": "Saturday, January 8, 1972",
-    "stop": "1986-09-27",
-    "stopFormatted": "Saturday, September 27, 1986",
+    "start": "1972-01-07",
+    "startFormatted": "Friday, January 7, 1972",
+    "stop": "1986-09-26",
+    "stopFormatted": "Friday, September 26, 1986",
     "stopReason": "Promoted",
-    "scdb": "102"
+    "scdbJustice": 102
   },
   {
     "id": "john_paul_stevens",
@@ -1258,7 +1260,7 @@
     "stop": "2010-06-30",
     "stopFormatted": "Wednesday, June 30, 2010",
     "stopReason": "Retired",
-    "scdb": "103"
+    "scdbJustice": 103
   },
   {
     "id": "sandra_day_oconnor",
@@ -1270,7 +1272,7 @@
     "stop": "2006-01-31",
     "stopFormatted": "Tuesday, January 31, 2006",
     "stopReason": "Retired",
-    "scdb": "104"
+    "scdbJustice": 104
   },
   {
     "id": "william_h_rehnquist",
@@ -1282,7 +1284,7 @@
     "stop": "2005-09-03",
     "stopFormatted": "Saturday, September 3, 2005",
     "stopReason": "Death",
-    "scdb": "102"
+    "scdbJustice": 102
   },
   {
     "id": "antonin_scalia",
@@ -1294,7 +1296,7 @@
     "stop": "2016-02-13",
     "stopFormatted": "Saturday, February 13, 2016",
     "stopReason": "Death",
-    "scdb": "105"
+    "scdbJustice": 105
   },
   {
     "id": "anthony_m_kennedy",
@@ -1306,7 +1308,7 @@
     "stop": "2018-07-31",
     "stopFormatted": "Tuesday, July 31, 2018",
     "stopReason": "Retired",
-    "scdb": "106"
+    "scdbJustice": 106
   },
   {
     "id": "david_h_souter",
@@ -1318,7 +1320,7 @@
     "stop": "2009-06-30",
     "stopFormatted": "Tuesday, June 30, 2009",
     "stopReason": "Retired",
-    "scdb": "107"
+    "scdbJustice": 107
   },
   {
     "id": "clarence_thomas",
@@ -1327,7 +1329,7 @@
     "seat": 11,
     "start": "1991-10-23",
     "startFormatted": "Wednesday, October 23, 1991",
-    "scdb": "108"
+    "scdbJustice": 108
   },
   {
     "id": "ruth_bader_ginsburg",
@@ -1336,7 +1338,7 @@
     "seat": 7,
     "start": "1993-08-10",
     "startFormatted": "Tuesday, August 10, 1993",
-    "scdb": "109"
+    "scdbJustice": 109
   },
   {
     "id": "stephen_g_breyer",
@@ -1345,7 +1347,7 @@
     "seat": 3,
     "start": "1994-08-03",
     "startFormatted": "Wednesday, August 3, 1994",
-    "scdb": "110"
+    "scdbJustice": 110
   },
   {
     "id": "john_g_roberts_jr",
@@ -1354,7 +1356,7 @@
     "seat": 1,
     "start": "2005-09-29",
     "startFormatted": "Thursday, September 29, 2005",
-    "scdb": "111"
+    "scdbJustice": 111
   },
   {
     "id": "samuel_alito_jr",
@@ -1363,7 +1365,7 @@
     "seat": 9,
     "start": "2006-01-31",
     "startFormatted": "Tuesday, January 31, 2006",
-    "scdb": "112"
+    "scdbJustice": 112
   },
   {
     "id": "sonia_sotomayor",
@@ -1372,7 +1374,7 @@
     "seat": 5,
     "start": "2009-08-08",
     "startFormatted": "Saturday, August 8, 2009",
-    "scdb": "113"
+    "scdbJustice": 113
   },
   {
     "id": "elena_kagan",
@@ -1381,7 +1383,7 @@
     "seat": 6,
     "start": "2010-08-07",
     "startFormatted": "Saturday, August 7, 2010",
-    "scdb": "114"
+    "scdbJustice": 114
   },
   {
     "id": "neil_gorsuch",
@@ -1390,7 +1392,7 @@
     "seat": 10,
     "start": "2017-04-10",
     "startFormatted": "Monday, April 10, 2017",
-    "scdb": "115"
+    "scdbJustice": 115
   },
   {
     "id": "brett_m_kavanaugh",
@@ -1399,6 +1401,6 @@
     "seat": 2,
     "start": "2018-10-06",
     "startFormatted": "Saturday, October 6, 2018",
-    "scdb": "116"
+    "scdbJustice": 116
   }
 ]
