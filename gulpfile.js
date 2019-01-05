@@ -1434,6 +1434,33 @@ function findLonerJustices(done)
     done();
 }
 
+/**
+ * findLonerMatches()
+ *
+ * @param {function()} done
+ */
+function findLonerMatches(done)
+{
+    let dateBuckets = {};
+    let lonerJustices = JSON.parse(readTextFile(rootDir + sources.results.lonerJustices) || "[]");
+    lonerJustices.forEach((justice) => {
+        justice.loneDissents.forEach((dissent) => {
+            if (!dateBuckets[dissent.dateDecision]) {
+                dateBuckets[dissent.dateDecision] = [];
+            }
+            let name = justice.name;
+            dateBuckets[dissent.dateDecision].push({name, dissent});
+        });
+    });
+    for (let date in dateBuckets) {
+        let bucket = dateBuckets[date];
+        if (bucket.length > 1) {
+            printf("date %s had %d lone dissents: %2j\n", date, bucket.length, bucket);
+        }
+    }
+    done();
+}
+
 function testDates(done)
 {
     let date, format;
@@ -1487,5 +1514,6 @@ gulp.task("justices", buildJustices);
 gulp.task("lonerDecisions", findLonerDecisions);
 gulp.task("lonerJustices", findLonerJustices);
 gulp.task("loners", gulp.series(findAllDecisions, findLonerJustices));
+gulp.task("matches", findLonerMatches);
 gulp.task("tests", testDates);
 gulp.task("default", findDecisions);
