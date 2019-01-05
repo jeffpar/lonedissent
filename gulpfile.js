@@ -490,13 +490,14 @@ function readTextFile(fileName, encoding="utf-8", conversion="utf-8")
 }
 
 /**
- * writeTextFile(fileName, text, fOverwrite)
+ * writeTextFile(fileName, text, fOverwrite, fQuiet)
  *
  * @param {string} fileName
  * @param {string|object} text (if you pass an object, we automatically "stringify" it into JSON)
  * @param {boolean} [fOverwrite] (default is false)
+ * @param {boolean} [fQuiet] (default is false)
  */
-function writeTextFile(fileName, text, fOverwrite=false)
+function writeTextFile(fileName, text, fOverwrite=false, fQuiet=false)
 {
     if (typeof text == "object") {
         text = sprintf("%2j\n", text);
@@ -512,7 +513,7 @@ function writeTextFile(fileName, text, fOverwrite=false)
             printf("%s\n", err.message);
         }
     } else {
-        printf("file %s already exists, use --overwrite to recreate\n", fileName);
+        if (!fQuiet) printf("file %s already exists, use --overwrite to recreate\n", fileName);
     }
 }
 
@@ -1045,11 +1046,13 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
  *
  * @param {function()} done
  * @param {number} [minVotes]
+ * @param {string} [sTerm]
+ * @param {string} [sEnd]
  */
-function findDecisions(done, minVotes)
+function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 {
-    let term = argv['term'] || "", termID;
-    let end = argv['end'] || "", endTerm;
+    let term = argv['term'] || sTerm, termID;
+    let end = argv['end'] || sEnd, endTerm;
     if (end) endTerm = getTermDate(end);
     let decided = argv['decided'], argued = argv['argued'];
     let start = argv['start'] || "", stop = argv['stop'] || "";
@@ -1252,7 +1255,7 @@ function findDecisions(done, minVotes)
                             } else {
                                 index = index.substr(0, match.index) + entry + index.substr(match.index + match[0].length + 1);
                             }
-                            writeTextFile(rootDir + fileName, index, true);
+                            writeTextFile(rootDir + fileName, index, argv['overwrite']);
                         }
                     }
                 }
@@ -1279,6 +1282,16 @@ function findLonerDecisions(done)
 }
 
 /**
+ * findAllDecisions()
+ *
+ * @param {function()} done
+ */
+function findAllDecisions(done)
+{
+    findDecisions(done, 1, '1790-02', '2017-10');
+}
+
+/**
  * findLonerJustices()
  *
  * @param {function()} done
@@ -1288,7 +1301,7 @@ function findLonerJustices(done)
     /*
      * If we've already built lonerJustices.json, then use it; otherwiser, build it.
      */
-    let lonerJustices = JSON.parse(readTextFile(rootDir + sources.results.lonerJustices));
+    let lonerJustices = JSON.parse(readTextFile(rootDir + sources.results.lonerJustices) || "[]");
     if (!lonerJustices.length) {
         let lonerBuckets = {};
         let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars));
@@ -1339,7 +1352,6 @@ function findLonerJustices(done)
                 }
             }
         });
-        let lonerJustices = [];
         let justiceIDs = Object.keys(lonerBuckets);
         justiceIDs.forEach((id) => {
             lonerJustices.push({
@@ -1354,8 +1366,8 @@ function findLonerJustices(done)
         });
         writeTextFile(rootDir + sources.results.lonerJustices, lonerJustices, argv['overwrite']);
     }
+    let lonerIndex = "";
     lonerJustices.forEach((justice) => {
-        printf("%s: %d dissent%s\n", justice.name, justice.loneTotal, justice.loneTotal == 1? '' : 's');
         /*
          * Create a page for each Justice's lone dissents.
          */
@@ -1364,6 +1376,7 @@ function findLonerJustices(done)
         let fileName = "/_pages" + pathName + ".md";
         let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: cases\n';
         text += 'cases:\n';
+        printf("%s: %d dissent%s\n", justice.name, justice.loneTotal, justice.loneTotal == 1? '' : 's');
         justice.loneDissents.forEach((dissent) => {
             let volume = 0, page = 0;
             let matchCite = dissent.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
@@ -1382,18 +1395,18 @@ function findLonerJustices(done)
             text += '    justiceDissented: "' + justice.name + '"\n';
         });
         text += '---\n';
-        writeTextFile(rootDir + fileName, text, argv['overwrite']);
+        writeTextFile(rootDir + fileName, text, argv['overwrite'], true);
+        lonerIndex += sprintf("- [%s](/justices/loners/%s) (%d dissent%s)\n", justice.name, justice.id, justice.loneTotal, justice.loneTotal == 1? '' : 's');
     });
     /*
      * And finally, build an index of all Justices with dissents.
      */
-    let pathName = "/justices/loners";
-    let fileName = "/_pages" + pathName + ".md";
-    let text = '---\ntitle: "U.S. Supreme Court Justices with Lone Dissents"\npermalink: ' + pathName + '\nlayout: archive\n---\n\n';
-    lonerJustices.forEach((justice) => {
-        text += sprintf("- [%s](/justices/loners/%s) (%d dissent%s)\n", justice.name, justice.id, justice.loneTotal, justice.loneTotal == 1? '' : 's');
-    });
-    writeTextFile(rootDir + fileName, text, argv['overwrite']);
+    if (lonerIndex) {
+        let pathName = "/justices/loners";
+        let fileName = "/_pages" + pathName + ".md";
+        lonerIndex = '---\ntitle: "U.S. Supreme Court Justices with Lone Dissents"\npermalink: ' + pathName + '\nlayout: archive\n---\n\n' + lonerIndex;
+        writeTextFile(rootDir + fileName, lonerIndex, argv['overwrite']);
+    }
     done();
 }
 
@@ -1442,8 +1455,8 @@ function testDates(done)
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
 gulp.task("justices", buildJustices);
-gulp.task("lonerDissents", findLonerDecisions);
+gulp.task("lonerDecisions", findLonerDecisions);
 gulp.task("lonerJustices", findLonerJustices);
-gulp.task("loners", gulp.series(findLonerDecisions, findLonerJustices));
+gulp.task("loners", gulp.series(findAllDecisions, findLonerJustices));
 gulp.task("tests", testDates);
 gulp.task("default", findDecisions);
