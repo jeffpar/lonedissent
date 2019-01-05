@@ -1008,6 +1008,26 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
 }
 
 /**
+ * getTermName(termID)
+ *
+ * Makes accomodations for terms the Court named inconsistently for 6 years after the June 17, 1844 statute,
+ * which changed the start of terms from second Monday of January to first Monday of the preceding December; also
+ * deals with all known "special terms".
+ *
+ * @param {string} termID
+ */
+function getTermName(termID)
+{
+    let termName = sprintf("%#F Term %#Y", termID, termID);
+    if (termID >= "1844-12" && termID <= "1849-12") {
+        termName = "January Term " + (+termID.substr(0, 4) + 1);
+    } else if (termID == "1942-07" || termID == "1953-06" || termID == "1958-08" || termID == "1972-07") {
+        termName = sprintf("%#F Special Term %#Y", termID, termID);
+    }
+    return termName;
+}
+
+/**
  * findDecisions()
  *
  * You can use the "--start" and "--stop" options within this task to extract subsets of the decision data
@@ -1150,7 +1170,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     /*
                      * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy-mm.md)
                      */
-                    let termName = sprintf("%#F Term %#Y", start, start);
+                    let termName = getTermName(termID);
                     let pathName = "/cases/loners/" + termID;
                     let fileName = "/_pages" + pathName + ".md";
                     let text = '---\ntitle: "' + termName + '"\npermalink: ' + pathName + '\nlayout: cases\n';
@@ -1238,16 +1258,9 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                             if (match[1] >= termID) break;
                         }
                         if (match) {
-                            /*
-                             * Make accomodations for terms the Court named inconsistently for 6 years after the June 17, 1844 statute,
-                             * which changed the start of terms from second Monday of January to first Monday of the preceding December.
-                             */
                             let asterisks = "";
                             if (termID >= "1844-12" && termID <= "1849-12") {
-                                termName = "January Term " + (+termID.substr(0, 4) + 1);
                                 asterisks = "*";
-                            } else if (termID == "1942-07" || termID == "1953-06" || termID == "1958-08" || termID == "1972-07") {
-                                termName = sprintf("%#F Special Term %#Y", start, start);
                             }
                             let entry = sprintf("- [%s](/cases/loners/%s)%s (%d dissent%s)\n", termName, termID, asterisks, results.length, results.length == 1? '' : 's');
                             if (match[1] != termID) {
@@ -1413,6 +1426,11 @@ function findLonerJustices(done)
 function testDates(done)
 {
     let date, format;
+
+    let terms = ['1790-02', '1953-06', '1980-12-12'];
+    terms.forEach((term) => {
+        printf("getTermName(%s): %s\n", term, getTermName(term))
+    });
 
     date = new Date("2018-08-10");              // date-only strings are considered UTC
     printf("\nnew Date(\"2018-08-10\") - should be considered UTC\n");
