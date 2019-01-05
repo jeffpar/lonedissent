@@ -1299,7 +1299,11 @@ function findDecisions(done, minVotes)
         let justicesDissents = [];
         let justiceIDs = Object.keys(justicesDecisions);
         justiceIDs.forEach((id) => {
-            justicesDissents.push({id: id.toLowerCase(), name: vars.justiceName.values[id], dissents: justicesDecisions[id]});
+            justicesDissents.push({
+                id: id.toLowerCase(),
+                name: vars.justiceName.values[id == "CEHughes"? "CEHughes1" : id],
+                dissents: justicesDecisions[id]
+            });
         });
         justicesDissents.sort(function(a,b) {
             return (a.dissents.length < b.dissents.length)? 1 : ((a.dissents.length > b.dissents.length)? -1 : 0);

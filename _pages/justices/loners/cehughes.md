@@ -1,5 +1,5 @@
 ---
-title: "Justice undefined's Lone Dissents"
+title: "Justice Charles Hughes's Lone Dissents"
 permalink: /justices/loners/cehughes
 layout: cases
 cases:
@@ -10,7 +10,7 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1911"
     citation: "221 U.S. 533"
-    justiceDissented: "undefined"
+    justiceDissented: "Charles Hughes"
   - id: "1913-001"
     title: "UNION PACIFIC RAILROAD COMPANY v. SIDES"
     volume: "231"
@@ -18,7 +18,7 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
     citation: "231 U.S. 213"
-    justiceDissented: "undefined"
+    justiceDissented: "Charles Hughes"
   - id: "1913-023"
     title: "UNION PACIFIC RAILROAD COMPANY v. LARAMIE STOCK YARDS COMPANY"
     volume: "231"
@@ -26,7 +26,7 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
     citation: "231 U.S. 190"
-    justiceDissented: "undefined"
+    justiceDissented: "Charles Hughes"
   - id: "1913-024"
     title: "UNION PACIFIC RAILROAD COMPANY v. SNOW"
     volume: "231"
@@ -34,7 +34,7 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
     citation: "231 U.S. 204"
-    justiceDissented: "undefined"
+    justiceDissented: "Charles Hughes"
   - id: "1933-031"
     title: "HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. BUTTERWORTH et al., TRUSTEE"
     volume: "290"
@@ -42,5 +42,5 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1933"
     citation: "290 U.S. 365"
-    justiceDissented: "undefined"
+    justiceDissented: "Charles Hughes"
 ---
