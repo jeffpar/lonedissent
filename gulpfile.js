@@ -865,7 +865,7 @@ function buildJustices(done)
 /**
  * getTermDate(term, termDelta, dayDelta, fPrint)
  *
- * @param {string} term (yyyy-mm, or yyyy if you're lazy)
+ * @param {string} term (yyyy-mm, or yyyy if you're lazy, but that's not allowed for years with multiple terms)
  * @param {number} [termDelta]
  * @param {number} [dateDelta]
  * @param {boolean} [fPrint]
@@ -881,11 +881,45 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
         let firstDate;          // first date of the month (bumped from 1 to 8 when we must find the *second* target weekday of the month)
         do {
             if (year >= 1917) {
+                /*
+                 * You might think that 1917 to present would be simplest (first Monday of October to first Monday of the following October),
+                 * and it is, except for those pesky "special terms"....
+                 */
                 weekday = 1;
                 firstDate = 1;
-                if (!month) month = 10;
-                if (month != 10) month = 0;
-                if (termDelta) year++;
+                if (!month) {
+                    month = 10;
+                }
+                else if (month < 10 && termDelta) {
+                    month = 10;
+                    termDelta--;
+                }
+                else if (month != 10) {
+                    if (year == 1942 || year == 1953 || year == 1958 || year == 1972) {
+                        weekday = -1;
+                        if (year == 1953) firstDate = 18;
+                    } else {
+                        month = 0;
+                    }
+                }
+                if (termDelta) {
+                    year++;
+                    termDelta--;
+                    if (year == 1942) {
+                        month = 7;
+                        weekday = -1;
+                    } else if (year == 1953) {
+                        month = 6;
+                        firstDate = 18;
+                        weekday = -1;
+                    } else if (year == 1958) {
+                        month = 8;
+                        weekday = -1;
+                    } else if (year == 1972) {
+                        month = 7;
+                        weekday = -1;
+                    }
+                }
             } else if (year >= 1873) {
                 weekday = 1;
                 firstDate = 8;
@@ -953,12 +987,15 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
             }
         } while (month && termDelta--);
         if (month) {
+            let add = 0;
             let date = new Date(Date.UTC(year, month - 1, firstDate));
-            let add, day = date.getUTCDay();
-            if (day <= weekday) {
-                add = weekday - day;
-            } else {
-                add = 7 - (day - weekday);
+            if (weekday >= 0) {
+                let day = date.getUTCDay();
+                if (day <= weekday) {
+                    add = weekday - day;
+                } else {
+                    add = 7 - (day - weekday);
+                }
             }
             date = datelib.adjustDate(date, add + dateDelta);
             sDate = sprintf("%#Y-%#02M-%#02D", date, date, date);
@@ -1205,6 +1242,8 @@ function findDecisions(done, minVotes)
                             if (termID >= "1844-12" && termID <= "1849-12") {
                                 termName = "January Term " + (+termID.substr(0, 4) + 1);
                                 asterisks = "*";
+                            } else if (termID == "1942-07" || termID == "1953-06" || termID == "1958-08" || termID == "1972-07") {
+                                termName = sprintf("%#F Special Term %#Y", start, start);
                             }
                             let entry = sprintf("- [%s](/cases/loners/%s)%s (%d dissent%s)\n", termName, termID, asterisks, results.length, results.length > 1? 's' : '');
                             if (match[1] != termID) {
@@ -1240,15 +1279,66 @@ function findLoneDissents(done)
 
 function testDates(done)
 {
-    let format;
-    let date = new Date(2018, 7, 10, 17, 6, 17);
-    printf("new Date(2018, 7, 10, 17, 20, 10)\n");
-    format = "%W, %.3F %D, %Y - %I:%02N:%02S %A\n";
-    printf("test format: %s", format);
-    printf(format, date, date, date, date, date, date, date, date);
-    format = "%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S %#A\n";
-    printf("test format: %s", format);
-    printf(format, date, date, date, date, date, date, date, date);
+    let date, format;
+
+    date = new Date("2018-08-10");              // date-only strings are considered UTC
+    printf("\nnew Date(\"2018-08-10\") - should be considered UTC\n");
+    format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
+    printf(format, format, date, date, date, date, date, date, date, date);
+    format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
+    printf(format, format, date, date, date, date, date, date, date, date);
+
+    date = datelib.adjustDate(date, -365);      // adjustDate() works regardless of UTC vs. LOCAL
+    printf("\ndate = adjustDate(date, -365)\n");
+    format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
+    printf(format, format, date, date, date, date, date, date, date, date);
+    format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
+    printf(format, format, date, date, date, date, date, date, date, date);
+
+    date = new Date(date.getTime());            // getTime() should return UTC, and Date() should create UTC
+    printf("\ndate = new Date(date.getTime())\n");
+    format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
+    printf(format, format, date, date, date, date, date, date, date, date);
+    format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
+    printf(format, format, date, date, date, date, date, date, date, date);
+
+    date = new Date(2018, 7, 10);               // dates with multiple arguments are LOCAL (*not* UTC)
+    printf("\nnew Date(2018, 7, 10) - should be considered LOCAL\n");
+    format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
+    printf(format, format, date, date, date, date, date, date, date, date);
+    format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
+    printf(format, format, date, date, date, date, date, date, date, date);
+
+    date = new Date(2018, 7, 10, 18, 5, 30);    // dates with multiple arguments are LOCAL (*not* UTC)
+    printf("\nnew Date(2018, 7, 10, 18, 5, 30) - should be considered LOCAL\n");
+    format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
+    printf(format, format, date, date, date, date, date, date, date, date);
+    format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
+    printf(format, format, date, date, date, date, date, date, date, date);
+
+    let start = "", stop = "";
+    let term = argv['term'] || "", termID;
+    let end = argv['end'] || "", endTerm;
+    if (end) endTerm = getTermDate(end);
+    do {
+        if (term) {
+            if (termID) {
+                term = getTermDate(termID, 1).substr(0, 7);
+            }
+            start = getTermDate(term, 0, 0, true);
+            stop = getTermDate(term, 1, -1, true);
+            if (!start || !stop) {
+                printf("unrecognized term (%s)%s\n", term, term.length == 4? ", try including a month (eg, 1790-02)" : "");
+                break;
+            }
+            if (end && !endTerm) {
+                printf("unrecognized end term (%s)%s\n", end, end.length == 4? ", try including a month (eg, 1790-08)" : "");
+                break;
+            }
+            termID = start.substr(0, 7);
+            // printf("\nprocessing term %s...\n", termID);
+        }
+    } while (term && endTerm && start < endTerm);
     done();
 }
 
