@@ -1,0 +1,30 @@
+---
+title: "Justice James Iredell's Lone Dissents"
+permalink: /justices/loners/jiredell
+layout: cases
+cases:
+  - id: "1793-001"
+    title: "CHISHOLM, EX'R. VERSUS GEORGIA"
+    volume: "002"
+    page: "419"
+    pdfSource: "loc"
+    dateDecision: "Tuesday, February 19, 1793"
+    citation: "2 U.S. 419"
+    justiceDissented: "James Iredell"
+  - id: "1793-003"
+    title: "THE STATE OF GEORGIA VERSUS BRAILSFORD, et al."
+    volume: "002"
+    page: "415"
+    pdfSource: "loc"
+    dateDecision: "Wednesday, February 20, 1793"
+    citation: "2 U.S. 415"
+    justiceDissented: "James Iredell"
+  - id: "1798-004"
+    title: "WILSON VERSUS DANIEL"
+    volume: "003"
+    page: "401"
+    pdfSource: "loc"
+    dateDecision: "Tuesday, August 7, 1798"
+    citation: "3 U.S. 401"
+    justiceDissented: "James Iredell"
+---

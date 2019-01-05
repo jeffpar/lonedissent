@@ -1,0 +1,30 @@
+---
+title: "Justice Gabriel Duvall's Lone Dissents"
+permalink: /justices/loners/gduvall
+layout: cases
+cases:
+  - id: "1813-002"
+    title: "MIMA QUEEN AND CHILD, PETITIONERS FOR FREEDOM, v. HEPBURN"
+    volume: "011"
+    page: "290"
+    pdfSource: "loc"
+    dateDecision: "Friday, February 12, 1813"
+    citation: "11 U.S. 290"
+    justiceDissented: "Gabriel Duvall"
+  - id: "1815-020"
+    title: "M'IVER'S LESSEE v. WALKER AND ANOTHER"
+    volume: "013"
+    page: "173"
+    pdfSource: "loc"
+    dateDecision: "Wednesday, March 1, 1815"
+    citation: "13 U.S. 173"
+    justiceDissented: "Gabriel Duvall"
+  - id: "1819-021"
+    title: "THE TRUSTEES OF DARTMOUTH COLLEGE v. WOODWARD"
+    volume: "017"
+    page: "518"
+    pdfSource: "loc"
+    dateDecision: "Thursday, February 25, 1819"
+    citation: "17 U.S. 518"
+    justiceDissented: "Gabriel Duvall"
+---

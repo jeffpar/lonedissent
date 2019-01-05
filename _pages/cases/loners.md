@@ -5,10 +5,12 @@ layout: archive
 ---
 
 "Loners" is our slang for lone dissents.  This page provides links to all known lone dissents
-of the U.S. Supreme Court.  The first collection is [Lone Dissents by Term](#lone-dissents-by-term),
-with more collections to follow (e.g., By Justice).
+of the U.S. Supreme Court.  The following collections are now available:
 
-Our collections will use three different opinion sources:
+- [Lone Dissents by Term](#lone-dissents-by-term)
+- [Lone Dissents by Justice](/justices/loners)
+
+Our collections use three different opinion sources:
 
 - Opinions stored at the [Library of Congress](https://www.loc.gov/collections/united-states-reports/)
 - Opinions stored at the [U.S. Supreme Court](https://www.supremecourt.gov/) as [Bound Volumes](https://www.supremecourt.gov/opinions/boundvolumes.aspx)

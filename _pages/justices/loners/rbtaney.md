@@ -1,0 +1,30 @@
+---
+title: "Justice Roger Taney's Lone Dissents"
+permalink: /justices/loners/rbtaney
+layout: cases
+cases:
+  - id: "1838-013"
+    title: "THE STATE OF RHODE ISLAND AND PROVIDENCE PLANTATIONS, COMPLAINANTS v. THE COMMONWEALTH OF MASSACHUSETTS, DEFENDANT"
+    volume: "037"
+    page: "657"
+    pdfSource: "loc"
+    dateDecision: "Wednesday, February 21, 1838"
+    citation: "37 U.S. 657"
+    justiceDissented: "Roger Taney"
+  - id: "1854-039"
+    title: "CHARLES H. MCBLAIR, ADMINISTRATOR OF LYDE GOODWIN, DECEASED, v. ROBERT M. GIBBES AND CHARLES OLIVER, EXECUTORS OF ROBERT OLIVER, DECEASED"
+    volume: "058"
+    page: "232"
+    pdfSource: "loc"
+    dateDecision: "Thursday, February 15, 1855"
+    citation: "58 U.S. 232"
+    justiceDissented: "Roger Taney"
+  - id: "1859-107"
+    title: "BENJAMIN HANEY, CHARLES OGDEN, AND JOHN TRENCHARD, LIBELLANTS AND APPELLANTS, v. THE BALTIMORE STEAM PACKET COMPANY, OWNERS OF THE STEAMER LOUISIANA, AND GEORGE W. RUSSELL"
+    volume: "064"
+    page: "287"
+    pdfSource: "loc"
+    dateDecision: "Friday, May 4, 1860"
+    citation: "64 U.S. 287"
+    justiceDissented: "Roger Taney"
+---

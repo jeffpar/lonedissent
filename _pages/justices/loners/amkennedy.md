@@ -1,0 +1,40 @@
+---
+title: "Justice Anthony Kennedy's Lone Dissents"
+permalink: /justices/loners/amkennedy
+layout: cases
+cases:
+  - id: "1988-040"
+    title: "HARRIS v. REED, WARDEN, et al."
+    volume: "489"
+    page: "255"
+    pdfSource: "loc"
+    dateDecision: "Wednesday, February 22, 1989"
+    citation: "489 U.S. 255"
+    justiceDissented: "Anthony Kennedy"
+  - id: "1997-040"
+    title: "DEBRA FAYE LEWIS v. UNITED STATES"
+    volume: "523"
+    page: "155"
+    pdfSource: "loc"
+    dateDecision: "Monday, March 9, 1998"
+    citation: "523 U.S. 155"
+    justiceDissented: "Anthony Kennedy"
+  - id: "2004-029"
+    title: "REGINALD A. WILKINSON, DIRECTOR, OHIO DEPARTMENT OF REHABILITATION AND CORRECTION, et al. v. WILLIAM DWIGHT DOTSON, et al."
+    volume: "544"
+    page: "074"
+    pdfSource: "scotusBound"
+    pdfPage: 168
+    pdfPageDissent: 182
+    dateDecision: "Monday, March 7, 2005"
+    citation: "544 U.S. 74"
+    justiceDissented: "Anthony Kennedy"
+  - id: "2010-051"
+    title: "GLOBAL-TECH APPLIANCES, INC., et al., PETITIONERS v. SEB S.A."
+    volume: "563"
+    page: "754"
+    pdfSource: "scotusBound"
+    dateDecision: "Tuesday, May 31, 2011"
+    citation: "563 U.S. 754"
+    justiceDissented: "Anthony Kennedy"
+---

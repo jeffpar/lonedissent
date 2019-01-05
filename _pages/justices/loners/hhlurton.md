@@ -1,0 +1,30 @@
+---
+title: "Justice Horace Lurton's Lone Dissents"
+permalink: /justices/loners/hhlurton
+layout: cases
+cases:
+  - id: "1912-062"
+    title: "MISSOURI, KANSAS AND TEXAS RAILWAY COMPANY v. WULF"
+    volume: "226"
+    page: "570"
+    pdfSource: "loc"
+    dateDecision: "Monday, January 6, 1913"
+    citation: "226 U.S. 570"
+    justiceDissented: "Horace Lurton"
+  - id: "1913-119"
+    title: "DETROIT STEEL COOPERAGE COMPANY v. SISTERSVILLE BREWING COMPANY"
+    volume: "233"
+    page: "712"
+    pdfSource: "loc"
+    dateDecision: "Monday, May 25, 1914"
+    citation: "233 U.S. 712"
+    justiceDissented: "Horace Lurton"
+  - id: "1913-149"
+    title: "RICHARDS v. WASHINGTONN TERMINAL COMPANY"
+    volume: "233"
+    page: "546"
+    pdfSource: "loc"
+    dateDecision: "Monday, May 4, 1914"
+    citation: "233 U.S. 546"
+    justiceDissented: "Horace Lurton"
+---

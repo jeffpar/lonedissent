@@ -1056,7 +1056,7 @@ function findDecisions(done, minVotes)
     let month = argv['month'] && sprintf("-%02d-", +argv['month']) || "";
     let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%s U.S. %s", volume, page);
 
-    let justiceDecisions = {};
+    let justicesDecisions = {};
     let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars));
     let justices = JSON.parse(readTextFile(rootDir + sources.results.justices));
     justices.forEach((justice) => {
@@ -1066,8 +1066,8 @@ function findDecisions(done, minVotes)
                 // printf("found SCDB justice ID %s\n", id);
                 if (id == "CEHughes1" || id == "CEHughes2") id = "CEHughes";
                 justice.scdbJustice = id;
-                if (!justiceDecisions[justice.scdbJustice]) {
-                    justiceDecisions[justice.scdbJustice] = [];
+                if (!justicesDecisions[justice.scdbJustice]) {
+                    justicesDecisions[justice.scdbJustice] = [];
                 } else {
                     printf("warning: SCDB justice ID %s listed multiple times\n", id);
                 }
@@ -1248,8 +1248,8 @@ function findDecisions(done, minVotes)
                             }
                         }
                         if (idDissented) {
-                            if (justiceDecisions[idDissented]) {
-                                justiceDecisions[idDissented].push(result);
+                            if (justicesDecisions[idDissented]) {
+                                justicesDecisions[idDissented].push(result);
                             } else {
                                 printf("warning: unable to find justice ID %s\n", idDissented);
                             }
@@ -1259,9 +1259,9 @@ function findDecisions(done, minVotes)
                     text += '---\n';
                     writeTextFile(rootDir + fileName, text, argv['overwrite']);
                     /*
-                     * Let's make sure there's an index.md entry as well....
+                     * Let's make sure there's an index entry as well....
                      */
-                    fileName = "/_pages/cases/loners/index.md";
+                    fileName = "/_pages/cases/loners.md";
                     let index = readTextFile(rootDir + fileName);
                     if (index) {
                         let re = /^- \[.*?Term.*?\]\(\/cases\/loners\/([0-9-]+)\).*$/gm, match;
@@ -1280,7 +1280,7 @@ function findDecisions(done, minVotes)
                             } else if (termID == "1942-07" || termID == "1953-06" || termID == "1958-08" || termID == "1972-07") {
                                 termName = sprintf("%#F Special Term %#Y", start, start);
                             }
-                            let entry = sprintf("- [%s](/cases/loners/%s)%s (%d dissent%s)\n", termName, termID, asterisks, results.length, results.length > 1? 's' : '');
+                            let entry = sprintf("- [%s](/cases/loners/%s)%s (%d dissent%s)\n", termName, termID, asterisks, results.length, results.length == 1? '' : 's');
                             if (match[1] != termID) {
                                 index = index.substr(0, match.index) + entry + index.substr(match.index);
                             } else {
@@ -1294,26 +1294,61 @@ function findDecisions(done, minVotes)
         }
     } while (term && endTerm && start < endTerm);
 
-    if (decisionsAudited.length != decisions.length) {
+    let loners = JSON.parse(readTextFile(rootDir + sources.results.loners));
+    if (loners && loners.length == decisionsAudited.length) {
+        let justicesDissents = [];
+        let justiceIDs = Object.keys(justicesDecisions);
+        justiceIDs.forEach((id) => {
+            justicesDissents.push({id: id.toLowerCase(), name: vars.justiceName.values[id], dissents: justicesDecisions[id]});
+        });
+        justicesDissents.sort(function(a,b) {
+            return (a.dissents.length < b.dissents.length)? 1 : ((a.dissents.length > b.dissents.length)? -1 : 0);
+        });
+        justicesDissents.forEach((justice) => {
+            /*
+             * Create a page for each Justice's lone dissents.
+             */
+            let pageName = sprintf("Justice %s's Lone Dissents", justice.name);
+            let pathName = "/justices/loners/" + justice.id;
+            let fileName = "/_pages" + pathName + ".md";
+            let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: cases\n';
+            text += 'cases:\n';
+            justice.dissents.forEach((dissent) => {
+                let volume = 0, page = 0;
+                let matchCite = dissent.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
+                if (matchCite) {
+                    volume = +matchCite[1];  page = +matchCite[2];
+                }
+                text += '  - id: "' + dissent.caseId + '"\n';
+                text += '    title: "' + dissent.caseName + '"\n';
+                if (volume) text += sprintf('    volume: "%03d"\n', volume);
+                if (page) text += sprintf('    page: "%03d"\n' , page);
+                if (dissent.pdfSource) text += '    pdfSource: "' + dissent.pdfSource + '"\n';
+                if (dissent.pdfPage) text += '    pdfPage: ' + dissent.pdfPage + '\n';
+                if (dissent.pdfPageDissent) text += '    pdfPageDissent: ' + dissent.pdfPageDissent + '\n';
+                text += '    dateDecision: "' + sprintf("%#W, %#F %#D, %#Y", dissent.dateDecision, dissent.dateDecision, dissent.dateDecision, dissent.dateDecision) + '"\n';
+                text += '    citation: "' + (dissent.usCite || ('No. ' + dissent.docket)) + '"\n';
+                text += '    justiceDissented: "' + justice.name + '"\n';
+            });
+            text += '---\n';
+            writeTextFile(rootDir + fileName, text, argv['overwrite']);
+        });
+        /*
+         * And finally, build the index of all Justices with dissents.
+         */
+        let pathName = "/justices/loners";
+        let fileName = "/_pages" + pathName + ".md";
+        let text = '---\ntitle: "U.S. Supreme Court Justices with Lone Dissents"\npermalink: ' + pathName + '\nlayout: archive\n---\n\n';
+        justicesDissents.forEach((justice) => {
+            text += sprintf("- [%s](/justices/loners/%s) (%d dissent%s)\n", justice.name, justice.id, justice.dissents.length, justice.dissents.length == 1? '' : 's');
+        });
+        writeTextFile(rootDir + fileName, text, argv['overwrite']);
+    } else {
         printf("matched %d decisions out of %d total\n", decisionsAudited.length, decisions.length);
     }
-
     if (decisionsDuplicated.length) {
         printf("checked %d decisions more than once (%j)\n", decisionsDuplicated.length, decisionsDuplicated);
     }
-
-    let justiceDissents = [];
-    let justiceIDs = Object.keys(justiceDecisions);
-    justiceIDs.forEach((id) => {
-        justiceDissents.push({justice: id, dissents: justiceDecisions[id].length});
-    });
-
-    justiceDissents.sort(function(a,b) {
-        return (a.dissents < b.dissents)? -1 : ((a.dissents > b.dissents)? 1 : 0);
-    });
-
-    printf("justiceDissents: %2j\n", justiceDissents);
-
     done();
 }
 

@@ -1,0 +1,30 @@
+---
+title: "Justice Willis Van Devanter's Lone Dissents"
+permalink: /justices/loners/wvandevanter
+layout: cases
+cases:
+  - id: "1917-016"
+    title: "SEABOARD AIR LINE RAILWAY v. STATE OF NORTH CAROLINA"
+    volume: "245"
+    page: "298"
+    pdfSource: "loc"
+    dateDecision: "Monday, December 10, 1917"
+    citation: "245 U.S. 298"
+    justiceDissented: "Willis Van Devanter"
+  - id: "1921-082"
+    title: "HUMP HAIRPIN MANUFACTURING COMPANY v. EMMERSON, SECRETARY OF STATE OF THE STATE OF ILLINOIS"
+    volume: "258"
+    page: "290"
+    pdfSource: "loc"
+    dateDecision: "Monday, March 27, 1922"
+    citation: "258 U.S. 290"
+    justiceDissented: "Willis Van Devanter"
+  - id: "1931-065"
+    title: "LAWRENCE et al. v. STATE TAX COMMISSION OF MISSISSIPPI"
+    volume: "286"
+    page: "276"
+    pdfSource: "loc"
+    dateDecision: "Monday, May 16, 1932"
+    citation: "286 U.S. 276"
+    justiceDissented: "Willis Van Devanter"
+---

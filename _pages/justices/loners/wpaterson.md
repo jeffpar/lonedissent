@@ -1,0 +1,14 @@
+---
+title: "Justice William Paterson's Lone Dissents"
+permalink: /justices/loners/wpaterson
+layout: cases
+cases:
+  - id: "1806-010"
+    title: "SIMMS AND WISE v. SLACUM"
+    volume: "007"
+    page: "300"
+    pdfSource: "loc"
+    dateDecision: "Wednesday, February 19, 1806"
+    citation: "7 U.S. 300"
+    justiceDissented: "William Paterson"
+---
