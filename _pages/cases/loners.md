@@ -71,7 +71,12 @@ terms were changed to the second Monday of January:
     the second Monday of January annually;
 
 Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/28th-congress/session-1/c28s1ch96.pdf) passed on June 17, 1844,
-terms were changed to the first Monday of December:
+terms were changed to the first Monday of December.
+
+NOTE: Even though this change occurred in 1844, you may notice that the Court continued to call their terms
+"January" terms, until December 1850 when it finally began referring to them as December terms.  This change
+does *not* mean there were two terms in 1850, as [some would suggest](http://scdb.wustl.edu/documentation.php?var=term).
+1844 was the year there were actually two terms: January Term 1844, and "January Term 1845", which began in December 1844.
 
     Be it enacted by the Senate and House of Representatives
     of the United States of America in Congress assembled,

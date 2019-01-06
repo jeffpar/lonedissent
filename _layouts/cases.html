@@ -19,10 +19,10 @@ layout: archive
     {% capture pdfGIF %}/assets/images/usreports.gif{% endcapture %}
   {% endif %}
 <hr/>
-  <div style="text-align:center">
+  <div id="{{ case.id }}" style="text-align:center">
     <h3>{{ case.title }}</h3>
     <p style="font-size:medium">{{ case.citation }}<br/>
-    <p style="font-size:medium">Decided {{ case.dateDecision }}<br/>Dissent by Justice {{ case.justiceDissented }}</p>
+    <p style="font-size:medium">Decided {{ case.dateDecision }}<br/>Dissent by Justice {{ case.dissenterName }}</p>
     <p>
       <a href="{{ pdfURL }}">
         <img src="{{ pdfGIF }}" style="display:block; margin:auto;" />

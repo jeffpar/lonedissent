@@ -790,6 +790,27 @@ function buildCourts(done)
 }
 
 /**
+ * backupLonerDecisions()
+ *
+ * @param {function()} done
+ */
+function backupLonerDecisions(done)
+{
+    let backupDecisions = [];
+    let backupKeys = ['caseId', 'termId', 'dissenterId', 'dissenterName', 'pdfSource', 'pdfPage', 'pdfPageDissent'];
+    let lonerDecisions = JSON.parse(readTextFile(rootDir + sources.results.lonerDecisions));
+    lonerDecisions.forEach((decision) => {
+        let backup = {};
+        backupKeys.forEach((key) => {
+            if (decision[key]) backup[key] = decision[key];
+        });
+        backupDecisions.push(backup);
+    });
+    writeTextFile(rootDir + sources.results.lonerBackup, backupDecisions, argv['overwrite']);
+    done();
+}
+
+/**
  * buildDecisions()
  *
  * @param {function()} done
@@ -862,6 +883,21 @@ function buildJustices(done)
     }
     writeTextFile(rootDir + sources.results.justices, justicesOyez, argv['overwrite']);
     done();
+}
+
+/**
+ * getJusticeId(id)
+ *
+ * @param {string} id
+ * @return {string} ("normalized" ID)
+ */
+function getJusticeId(id)
+{
+    if (id) {
+        if (id == "CEHughes1" || id == "CEHughes2") id = "CEHughes";
+        id = id.toLowerCase();
+    }
+    return id;
 }
 
 /**
@@ -1008,21 +1044,21 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
 }
 
 /**
- * getTermName(termID)
+ * getTermName(termId)
  *
  * Makes accomodations for terms the Court named inconsistently for 6 years after the June 17, 1844 statute,
  * which changed the start of terms from second Monday of January to first Monday of the preceding December; also
  * deals with all known "special terms".
  *
- * @param {string} termID
+ * @param {string} termId
  */
-function getTermName(termID)
+function getTermName(termId)
 {
-    let termName = sprintf("%#F Term %#Y", termID, termID);
-    if (termID >= "1844-12" && termID <= "1849-12") {
-        termName = "January Term " + (+termID.substr(0, 4) + 1);
-    } else if (termID == "1942-07" || termID == "1953-06" || termID == "1958-08" || termID == "1972-07") {
-        termName = sprintf("%#F Special Term %#Y", termID, termID);
+    let termName = sprintf("%#F Term %#Y", termId, termId);
+    if (termId >= "1844-12" && termId <= "1849-12") {
+        termName = "January Term " + (+termId.substr(0, 4) + 1);
+    } else if (termId == "1942-07" || termId == "1953-06" || termId == "1958-08" || termId == "1972-07") {
+        termName = sprintf("%#F Special Term %#Y", termId, termId);
     }
     return termName;
 }
@@ -1082,7 +1118,7 @@ function getTermName(termID)
  */
 function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 {
-    let term = argv['term'] || sTerm, termID;
+    let term = argv['term'] || sTerm, termId;
     let end = argv['end'] || sEnd, endTerm;
     if (end) endTerm = getTermDate(end);
     let decided = argv['decided'], argued = argv['argued'];
@@ -1094,12 +1130,13 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let decisionsDuplicated = [];
     let decisions = JSON.parse(readTextFile(rootDir + sources.results.decisions));
     printf("decisions available: %d\n", decisions.length);
+    let lonerBackup = JSON.parse(readTextFile(rootDir + sources.results.lonerBackup) || "[]");
 
     do {
         let year = 0;
         if (term) {
-            if (termID) {
-                term = getTermDate(termID, 1).substr(0, 7);
+            if (termId) {
+                term = getTermDate(termId, 1).substr(0, 7);
             }
             year = +term.substr(0, 4) || 0;
             start = getTermDate(term, 0, 0, true);
@@ -1112,8 +1149,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 printf("unrecognized end term (%s)%s\n", end, end.length == 4? ", try including a month (eg, 1790-08)" : "");
                 break;
             }
-            termID = start.substr(0, 7);
-            printf("\nprocessing term %s...\n", termID);
+            termId = start.substr(0, 7);
+            printf("\nprocessing term %s...\n", termId);
         }
         let results = [];
         decisions.forEach((decision) => {
@@ -1155,12 +1192,45 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     if (mapValues(result, vars, true) < 0) break;
                     let i = searchObjectArray(loners, "caseId", result.caseId);
                     if (i < 0) {
-                        if (year < 2004) {
-                            result['pdfSource'] = "loc";            // ie, Library of Congress
-                        } else if (year < 2012) {
-                            result['pdfSource'] = "scotusBound";    // ie, supremecourt.gov, in the "Bound Volumes" folder
+                        if (termId) {
+                            result['termId'] = termId;
+                        }
+                        /*
+                         * Determine who the lone dissenter is now.
+                         */
+                        let dissenterId = "", dissenterName = "";
+                        for (let i = 0; i < result.justices.length; i++) {
+                            let justice = result.justices[i];
+                            if (justice.vote == "dissent") {
+                                if (!dissenterId) {
+                                    dissenterId = justice.justice;
+                                    dissenterName = justice.justiceName;
+                                } else {
+                                    printf("warning: case %s (%s) has multiple dissents (eg, %s, %s)\n", result.caseId, result.usCite, dissenterName, justice.justiceName);
+                                }
+                            }
+                        }
+                        if (dissenterId) {
+                            result['dissenterId'] = dissenterId;
+                            result['dissenterName'] = dissenterName;
                         } else {
-                            result['pdfSource'] = "slipopinion/" + (year % 100);
+                            printf("warning: unable to identify dissenter for case %s (%s)\n", result.caseId, result.usCite);
+                        }
+                        let b = searchObjectArray(lonerBackup, "caseId", result.caseId);
+                        if (b >= 0) {
+                            let backup = lonerBackup[b];
+                            if (backup['pdfSource']) result['pdfSource'] = backup['pdfSource'];
+                            if (backup['pdfPage']) result['pdfPage'] = backup['pdfPage'];
+                            if (backup['pdfPageDissent']) result['pdfPageDissent'] = backup['pdfPageDissent'];
+                        }
+                        if (!result['pdfSource']) {
+                            if (year < 2004) {
+                                result['pdfSource'] = "loc";            // ie, Library of Congress
+                            } else if (year < 2012) {
+                                result['pdfSource'] = "scotusBound";    // ie, supremecourt.gov, in the "Bound Volumes" folder
+                            } else {
+                                result['pdfSource'] = "slipopinion/" + (year % 100);
+                            }
                         }
                         loners.push(result);
                         nAdded++;
@@ -1181,8 +1251,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     /*
                      * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy-mm.md)
                      */
-                    let termName = getTermName(termID);
-                    let pathName = "/cases/loners/" + termID;
+                    let termName = getTermName(termId);
+                    let pathName = "/cases/loners/" + termId;
                     let fileName = "/_pages" + pathName + ".md";
                     let text = '---\ntitle: "' + termName + '"\npermalink: ' + pathName + '\nlayout: cases\n';
                     text += 'cases:\n';
@@ -1193,6 +1263,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                             volume = +matchCite[1];  page = +matchCite[2];
                         }
                         text += '  - id: "' + result.caseId + '"\n';
+                        text += '    termId: "' + result.termId + '"\n';
                         text += '    title: "' + result.caseName + '"\n';
                         /*
                          * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
@@ -1240,21 +1311,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         if (result.pdfPageDissent) text += '    pdfPageDissent: ' + result.pdfPageDissent + '\n';
                         text += '    dateDecision: "' + sprintf("%#W, %#F %#D, %#Y", result.dateDecision, result.dateDecision, result.dateDecision, result.dateDecision) + '"\n';
                         text += '    citation: "' + (result.usCite || ('No. ' + result.docket)) + '"\n';
-                        /*
-                         * Determine who the lone dissenter is now.
-                         */
-                        let justiceDissented = "";
-                        for (let i = 0; i < result.justices.length; i++) {
-                            let justice = result.justices[i];
-                            if (justice.vote == "dissent") {
-                                if (!justiceDissented) {
-                                    justiceDissented = justice.justiceName;
-                                } else {
-                                    printf("warning: %s (%s) has multiple dissents (eg, %s, %s)\n", result.caseId, result.usCite, justiceDissented, justice.justiceName);
-                                }
-                            }
-                        }
-                        text += '    justiceDissented: "' + justiceDissented + '"\n';
+                        text += '    dissenterId: "' + getJusticeId(result.dissenterId) + '"\n';
+                        text += '    dissenterName: "' + result.dissenterName + '"\n';
                     });
                     text += '---\n';
                     writeTextFile(rootDir + fileName, text, argv['overwrite']);
@@ -1266,15 +1324,15 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     if (index) {
                         let re = /^- \[.*?Term.*?\]\(\/cases\/loners\/([0-9-]+)\).*$/gm, match;
                         while ((match = re.exec(index))) {
-                            if (match[1] >= termID) break;
+                            if (match[1] >= termId) break;
                         }
                         if (match) {
                             let asterisks = "";
-                            if (termID >= "1844-12" && termID <= "1849-12") {
+                            if (termId >= "1844-12" && termId <= "1849-12") {
                                 asterisks = "*";
                             }
-                            let entry = sprintf("- [%s](/cases/loners/%s)%s (%d dissent%s)\n", termName, termID, asterisks, results.length, results.length == 1? '' : 's');
-                            if (match[1] != termID) {
+                            let entry = sprintf("- [%s](/cases/loners/%s)%s (%d dissent%s)\n", termName, termId, asterisks, results.length, results.length == 1? '' : 's');
+                            if (match[1] != termId) {
                                 index = index.substr(0, match.index) + entry + index.substr(match.index);
                             } else {
                                 index = index.substr(0, match.index) + entry + index.substr(match.index + match[0].length + 1);
@@ -1332,9 +1390,8 @@ function findLonerJustices(done)
         let justices = JSON.parse(readTextFile(rootDir + sources.results.justices));
         justices.forEach((justice) => {
             if (justice.scdbJustice) {
-                let id = vars.justice.values[justice.scdbJustice];
+                let id = getJusticeId(vars.justice.values[justice.scdbJustice]);
                 if (id) {
-                    if (id == "CEHughes1" || id == "CEHughes2") id = "CEHughes";
                     justice.scdbJustice = id;
                     if (!lonerBuckets[justice.scdbJustice]) {
                         lonerBuckets[justice.scdbJustice] = [];
@@ -1350,37 +1407,20 @@ function findLonerJustices(done)
         });
         let lonerDecisions = JSON.parse(readTextFile(rootDir + sources.results.lonerDecisions));
         lonerDecisions.forEach((decision) => {
-            /*
-            * Determine who the lone dissenter is now.
-            */
-            let idDissented = null;
-            let justiceDissented = "";
-            for (let i = 0; i < decision.justices.length; i++) {
-                let justice = decision.justices[i];
-                if (justice.vote == "dissent") {
-                    if (!justiceDissented) {
-                        idDissented = justice.justice;
-                        if (idDissented == "CEHughes1" || idDissented == "CEHughes2") idDissented = "CEHughes";
-                        justiceDissented = justice.justiceName;
-                    } else {
-                        printf("warning: %s (%s) has multiple dissents (eg, %s, %s)\n", decision.caseId, decision.usCite, justiceDissented, justice.justiceName);
-                        idDissented = null;
-                    }
-                }
-            }
-            if (idDissented) {
-                if (lonerBuckets[idDissented]) {
-                    lonerBuckets[idDissented].push(decision);
+            let dissenterId = getJusticeId(decision.dissenterId);
+            if (dissenterId) {
+                if (lonerBuckets[dissenterId]) {
+                    lonerBuckets[dissenterId].push(decision);
                 } else {
-                    printf("warning: unable to find justice ID %s\n", idDissented);
+                    printf("warning: unable to find justice ID %s\n", dissenterId);
                 }
             }
         });
-        let justiceIDs = Object.keys(lonerBuckets);
-        justiceIDs.forEach((id) => {
+        let dissenterIds = Object.keys(lonerBuckets);
+        dissenterIds.forEach((id) => {
             lonerJustices.push({
-                id: id.toLowerCase(),
-                name: vars.justiceName.values[id == "CEHughes"? "CEHughes1" : id],
+                id: id,
+                name: vars.justiceName.values[id == "cehughes"? "CEHughes1" : id],
                 loneTotal: lonerBuckets[id].length,
                 loneDissents: lonerBuckets[id],
             });
@@ -1408,6 +1448,7 @@ function findLonerJustices(done)
                 volume = +matchCite[1];  page = +matchCite[2];
             }
             text += '  - id: "' + dissent.caseId + '"\n';
+            text += '    termId: "' + dissent.termId + '"\n';
             text += '    title: "' + dissent.caseName + '"\n';
             if (volume) text += sprintf('    volume: "%03d"\n', volume);
             if (page) text += sprintf('    page: "%03d"\n' , page);
@@ -1416,7 +1457,8 @@ function findLonerJustices(done)
             if (dissent.pdfPageDissent) text += '    pdfPageDissent: ' + dissent.pdfPageDissent + '\n';
             text += '    dateDecision: "' + sprintf("%#W, %#F %#D, %#Y", dissent.dateDecision, dissent.dateDecision, dissent.dateDecision, dissent.dateDecision) + '"\n';
             text += '    citation: "' + (dissent.usCite || ('No. ' + dissent.docket)) + '"\n';
-            text += '    justiceDissented: "' + justice.name + '"\n';
+            text += '    dissenterId: "' + justice.id + '"\n';
+            text += '    dissenterName: "' + justice.name + '"\n';
         });
         text += '---\n';
         writeTextFile(rootDir + fileName, text, argv['overwrite'], true);
@@ -1448,16 +1490,29 @@ function findLonerMatches(done)
             if (!dateBuckets[dissent.dateDecision]) {
                 dateBuckets[dissent.dateDecision] = [];
             }
-            let name = justice.name;
-            dateBuckets[dissent.dateDecision].push({name, dissent});
+            dateBuckets[dissent.dateDecision].push(dissent);
         });
     });
-    for (let date in dateBuckets) {
+
+    let pageName = sprintf("Loner Parties");
+    let pathName = "/trivia/parties";
+    let fileName = "/_pages" + pathName + ".md";
+    let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: archive\n---\n';
+
+    let dates = Object.keys(dateBuckets);
+    dates.sort();
+    dates.forEach((date) => {
         let bucket = dateBuckets[date];
         if (bucket.length > 1) {
-            printf("date %s had %d lone dissents: %2j\n", date, bucket.length, bucket);
+            printf("date %s had %d lone dissents\n", date, bucket.length);
+            text += sprintf("\n## %#W, %#F %#D, %#Y\n\n", date, date, date, date);
+            bucket.forEach((dissent) => {
+                text += '- [' + dissent.caseName + '](/cases/loners/' + dissent.termId + '#' + dissent.caseId + '): Dissent by [' + dissent.dissenterName + '](/justices/loners/' + getJusticeId(dissent.dissenterId) + '#' + dissent.caseId + ')\n';
+            });
         }
-    }
+
+    });
+    writeTextFile(rootDir + fileName, text, argv['overwrite']);
     done();
 }
 
@@ -1515,5 +1570,6 @@ gulp.task("lonerDecisions", findLonerDecisions);
 gulp.task("lonerJustices", findLonerJustices);
 gulp.task("loners", gulp.series(findAllDecisions, findLonerJustices));
 gulp.task("matches", findLonerMatches);
+gulp.task("backup", backupLonerDecisions);
 gulp.task("tests", testDates);
 gulp.task("default", findDecisions);
