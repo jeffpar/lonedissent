@@ -10,6 +10,12 @@ encoding: utf-8
 twitter:
   username: "jeffpar"
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-131809531-1"
+    anonymize_ip: false # default
+
 # Theme
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "default", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 breadcrumbs: false
