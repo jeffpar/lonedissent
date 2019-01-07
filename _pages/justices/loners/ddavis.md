@@ -5,7 +5,7 @@ layout: cases
 cases:
   - id: "1863-034"
     termId: "1863-12"
-    title: "DUNHAM v. THE CINCINNATI, PERU, &C., RAILWAY COMPANY"
+    title: "DUNHAM v. THE CINCINNATI, PERU, &amp;C., RAILWAY COMPANY"
     volume: "068"
     page: "254"
     pdfSource: "loc"

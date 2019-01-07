@@ -25,7 +25,7 @@ layout: archive
     <p style="font-size:medium">Decided {{ case.dateDecision }}<br/>Dissent by <a href="/justices/loners/{{ case.dissenterId }}#{{ case.id }}">Justice {{ case.dissenterName }}</a></p>
     <p>
       <a href="{{ pdfURL }}">
-        <img src="{{ pdfGIF }}" style="display:block; margin:auto;" />
+        <img src="{{ pdfGIF }}" style="display:block; margin:auto;" alt="{{ case.citation }}"/>
       </a>
     </p>
   </div>

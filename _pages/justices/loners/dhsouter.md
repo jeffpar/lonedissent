@@ -15,7 +15,7 @@ cases:
     dissenterName: "David Souter"
   - id: "1998-020"
     termId: "1998-10"
-    title: "AT&T CORPORATION, et al. v. IOWA UTILITIES BOARD et al."
+    title: "AT&amp;T CORPORATION, et al. v. IOWA UTILITIES BOARD et al."
     volume: "525"
     page: "366"
     pdfSource: "loc"

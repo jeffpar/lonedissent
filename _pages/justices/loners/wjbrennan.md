@@ -75,7 +75,7 @@ cases:
     dissenterName: "William Brennan"
   - id: "1976-137"
     termId: "1976-10"
-    title: "E.I. DU PONT DE NEMOURS & CO. et al. v. COLLINS et al."
+    title: "E.I. DU PONT DE NEMOURS &amp; CO. et al. v. COLLINS et al."
     volume: "432"
     page: "046"
     pdfSource: "loc"

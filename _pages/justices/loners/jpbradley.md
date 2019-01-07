@@ -285,7 +285,7 @@ cases:
     dissenterName: "Joseph Bradley"
   - id: "1885-276"
     termId: "1885-10"
-    title: "MORGAN'S STEAMSHIP COMPANY v. LOUISIANA BOARD OF HEALTH & ANOTHER"
+    title: "MORGAN'S STEAMSHIP COMPANY v. LOUISIANA BOARD OF HEALTH &amp; ANOTHER"
     volume: "118"
     page: "455"
     pdfSource: "loc"

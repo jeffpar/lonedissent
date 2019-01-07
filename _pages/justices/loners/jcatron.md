@@ -95,7 +95,7 @@ cases:
     dissenterName: "John Catron"
   - id: "1863-044"
     termId: "1863-12"
-    title: "BRONSON & SOUTTER, COMPLAINANTS AND APPELLANTS, v. THE LA CROSSE AND MILWAUKEE RAILROAD CO."
+    title: "BRONSON &amp; SOUTTER, COMPLAINANTS AND APPELLANTS, v. THE LA CROSSE AND MILWAUKEE RAILROAD CO."
     volume: "068"
     page: "405"
     pdfSource: "loc"

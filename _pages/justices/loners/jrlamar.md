@@ -25,7 +25,7 @@ cases:
     dissenterName: "Joseph Lamar"
   - id: "1912-221"
     termId: "1912-10"
-    title: "ST. LOUIS, SAN FRANCISCO & TEXAS RAILWAY COMPANY v. SEALE"
+    title: "ST. LOUIS, SAN FRANCISCO &amp; TEXAS RAILWAY COMPANY v. SEALE"
     volume: "229"
     page: "156"
     pdfSource: "loc"

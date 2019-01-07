@@ -363,7 +363,7 @@ cases:
     dissenterName: "Samuel Miller"
   - id: "1884-021"
     termId: "1884-10"
-    title: "MAHN v. HARWOOD & OTHERS"
+    title: "MAHN v. HARWOOD &amp; OTHERS"
     volume: "112"
     page: "354"
     pdfSource: "loc"

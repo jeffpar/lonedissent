@@ -85,7 +85,7 @@ cases:
     dissenterName: "Francis Murphy"
   - id: "1948-019"
     termId: "1948-10"
-    title: "AMERICAN FEDERATION OF LABOR ET AL. v. AMERICAN SASH & DOOR CO. ET AL."
+    title: "AMERICAN FEDERATION OF LABOR ET AL. v. AMERICAN SASH &amp; DOOR CO. ET AL."
     volume: "335"
     page: "538"
     pdfSource: "loc"

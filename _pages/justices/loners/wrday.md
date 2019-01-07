@@ -5,7 +5,7 @@ layout: cases
 cases:
   - id: "1906-034"
     termId: "1906-10"
-    title: "JOHN WOODS & SONS v. CARL"
+    title: "JOHN WOODS &amp; SONS v. CARL"
     volume: "203"
     page: "358"
     pdfSource: "loc"

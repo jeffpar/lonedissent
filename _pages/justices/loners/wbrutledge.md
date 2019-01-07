@@ -65,7 +65,7 @@ cases:
     dissenterName: "Wiley Rutledge"
   - id: "1948-099"
     termId: "1948-10"
-    title: "RAGAN v. MERCHANTS TRANSFER & WAREHOUSE CO."
+    title: "RAGAN v. MERCHANTS TRANSFER &amp; WAREHOUSE CO."
     volume: "337"
     page: "530"
     pdfSource: "loc"

@@ -25,7 +25,7 @@ cases:
     dissenterName: "William Strong"
   - id: "1872-080"
     termId: "1872-12"
-    title: "BANK v. TURNBULL & CO"
+    title: "BANK v. TURNBULL &amp; CO"
     volume: "083"
     page: "190"
     pdfSource: "loc"

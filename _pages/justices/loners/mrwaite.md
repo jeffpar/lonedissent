@@ -75,7 +75,7 @@ cases:
     dissenterName: "Morrison Waite"
   - id: "1885-143"
     termId: "1885-10"
-    title: "REYNOLDS & ANOTHER v. IRON SILVER MINING COMPANY"
+    title: "REYNOLDS &amp; ANOTHER v. IRON SILVER MINING COMPANY"
     volume: "116"
     page: "687"
     pdfSource: "loc"

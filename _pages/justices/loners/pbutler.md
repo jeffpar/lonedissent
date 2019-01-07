@@ -75,7 +75,7 @@ cases:
     dissenterName: "Pierce Butler"
   - id: "1936-077"
     termId: "1936-10"
-    title: "UNITED STATES et al. v. AMERICAN SHEET & TIN PLATE CO. et al."
+    title: "UNITED STATES et al. v. AMERICAN SHEET &amp; TIN PLATE CO. et al."
     volume: "301"
     page: "402"
     pdfSource: "loc"

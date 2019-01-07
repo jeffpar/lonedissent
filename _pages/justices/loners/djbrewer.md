@@ -505,7 +505,7 @@ cases:
     dissenterName: "David Brewer"
   - id: "1909-049"
     termId: "1909-10"
-    title: "INTERSTATE COMMERCE COMMISSION v. CHICAGO & ALTON RAILROAD COMPANY"
+    title: "INTERSTATE COMMERCE COMMISSION v. CHICAGO &amp; ALTON RAILROAD COMPANY"
     volume: "215"
     page: "479"
     pdfSource: "loc"

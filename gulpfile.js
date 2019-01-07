@@ -437,6 +437,7 @@ function parseCSVFields(line)
         let ch = line[i];
         if (!inQuotes) {
             if (ch == ',') {
+                field = field.replace(/&([^&;]*)( |$)/gi, "&amp;$1$2");
                 fields.push(field);
                 field = "";
             }
@@ -461,6 +462,7 @@ function parseCSVFields(line)
             }
         }
     }
+    field = field.replace(/&([^&;]*)( |$)/gi, "&amp;$1$2");
     fields.push(field);
     if (inQuotes) {
         printf("CSV quote error: %s\n", line);
@@ -1236,7 +1238,9 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         nAdded++;
                     } else {
                         let citation = (result.usCite || ('No. ' + result.docket));
-                        printf("warning: %s (%s) already exists in %s\n", result.caseId, citation, sources.results.lonerDecisions);
+                        if (argv['debug']) {
+                            printf("warning: %s (%s) already exists in %s\n", result.caseId, citation, sources.results.lonerDecisions);
+                        }
                         if (mapValues(loners[i], vars) > 0) {
                             printf("warning: %s (%s) being updated in %s\n", result.caseId, citation, sources.results.lonerDecisions);
                             nAdded++;
@@ -1390,7 +1394,8 @@ function findLonerJustices(done)
         let justices = JSON.parse(readTextFile(rootDir + sources.results.justices));
         justices.forEach((justice) => {
             if (justice.scdbJustice) {
-                let id = getJusticeId(vars.justice.values[justice.scdbJustice]);
+                let id = vars.justice.values[justice.scdbJustice];
+                if (id == "CEHughes2") id = "CEHughes1";
                 if (id) {
                     justice.scdbJustice = id;
                     if (!lonerBuckets[justice.scdbJustice]) {
@@ -1407,7 +1412,8 @@ function findLonerJustices(done)
         });
         let lonerDecisions = JSON.parse(readTextFile(rootDir + sources.results.lonerDecisions));
         lonerDecisions.forEach((decision) => {
-            let dissenterId = getJusticeId(decision.dissenterId);
+            let dissenterId = decision.dissenterId;
+            if (dissenterId == "CEHughes2") dissenterId = "CEHughes1";
             if (dissenterId) {
                 if (lonerBuckets[dissenterId]) {
                     lonerBuckets[dissenterId].push(decision);
@@ -1419,8 +1425,8 @@ function findLonerJustices(done)
         let dissenterIds = Object.keys(lonerBuckets);
         dissenterIds.forEach((id) => {
             lonerJustices.push({
-                id: id,
-                name: vars.justiceName.values[id == "cehughes"? "CEHughes1" : id],
+                id: getJusticeId(id),
+                name: vars.justiceName.values[id],
                 loneTotal: lonerBuckets[id].length,
                 loneDissents: lonerBuckets[id],
             });
