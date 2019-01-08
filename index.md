@@ -3,8 +3,8 @@ title: Welcome to Lone Dissent
 layout: home
 ---
 
-Welcome to our website, dedicated to some of the loneliest work that Supreme Court Justices have been engaging
-in for centuries: dissents.  And not just any dissents, but *lone* dissents.
+Welcome to Lone Dissent, a website dedicated to some of the loneliest work that U.S. Supreme Court Justices
+have been engaging in for centuries: dissents.  And not just any dissents, but *lone* dissents.
 
 Yes, we're talking about those cases where just *one* Justice could not be persuaded by their colleagues and who
 instead chose to write a dissent, explaining why he or she was absolutely right and *all* of their fellow Justices were
