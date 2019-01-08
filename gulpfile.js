@@ -1367,10 +1367,11 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                  * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy-mm.md)
                  */
                 let category = minVotes == 1? "loners" : "all";
+                let description = minVotes == 1? "Lone Dissents" : "All Opinions";
                 let termName = getTermName(termId);
                 let pathName = "/cases/" + category + "/" + termId;
                 let fileName = "/_pages" + pathName + ".md";
-                let fileText = '---\ntitle: "' + termName + '"\npermalink: ' + pathName + '\nlayout: cases\n';
+                let fileText = '---\ntitle: "' + description + " from " + termName + ' of the U.S. Supreme Court"\npermalink: ' + pathName + '\nlayout: cases\n';
                 fileText += 'cases:\n';
                 results.forEach((result) => {
                     let volume = 0, page = 0;
