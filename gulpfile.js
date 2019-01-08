@@ -1452,7 +1452,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         if (termId >= "1844-12" && termId <= "1849-12") {
                             asterisks = "*";
                         }
-                        let entry = sprintf("- [%s](/cases/%s/%s)%s (%d dissent%s)\n", termName, category, termId, asterisks, results.length, results.length == 1? '' : 's');
+                        let entry = sprintf("- [%s](/cases/%s/%s)%s (%d %s%s)\n", termName, category, termId, asterisks, results.length, category == "loners"? "dissent" : "opinion", results.length == 1? '' : 's');
                         if (match[1] != termId) {
                             index = index.substr(0, match.index) + entry + index.substr(match.index);
                         } else {

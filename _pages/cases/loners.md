@@ -20,6 +20,11 @@ We prefer opinions in PDF format because they faithfully reproduce the printed v
 preference would be to have access to an XML-based text source and render the opinions using HTML and CSS,
 but (a) we don't have such a source, and (b) that's a lot of work.
 
+Finally, if you're looking for [all opinions](/cases/all), not merely lone dissents, there are some additional
+collections you can browse, with more coming soon:
+
+- [Opinions by Term](/cases/all#opinions-by-term)
+
 ## Notes on Terms
 
 A short history of Supreme Court terms is provided below, to provide some context for the list that follows.
