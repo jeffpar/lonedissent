@@ -425,7 +425,7 @@ cases:
     dissenterName: "Joseph McKenna"
   - id: "1920-111"
     termId: "1920-10"
-    title: "NICKEL et al., AS TRUSTEES, &amp;C., et al. v. COLE, AS STATE CONTROLLER OF THE STATE OF NEVADA"
+    title: "NICKEL et al., AS TRUSTEES, ETC., et al. v. COLE, AS STATE CONTROLLER OF THE STATE OF NEVADA"
     volume: "256"
     page: "222"
     pdfSource: "loc"

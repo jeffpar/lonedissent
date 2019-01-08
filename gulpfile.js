@@ -438,7 +438,7 @@ function parseCSVFields(line)
         let ch = line[i];
         if (!inQuotes) {
             if (ch == ',') {
-                field = field.replace(/&([^&;]*)( |$)/gi, "&amp;$1$2");
+                field = replaceEntities(field);
                 fields.push(field);
                 field = "";
             }
@@ -463,12 +463,23 @@ function parseCSVFields(line)
             }
         }
     }
-    field = field.replace(/&([^&;]*)( |$)/gi, "&amp;$1$2");
+    field = replaceEntities(field);
     fields.push(field);
     if (inQuotes) {
         printf("CSV quote error: %s\n", line);
     }
     return fields;
+}
+
+/**
+ * replaceEntities(text)
+ *
+ * @param {string} text
+ * @return {string}
+ */
+function replaceEntities(text)
+{
+    return text.replace(/&([^&;]*)( |$)/gi, "&amp;$1$2").replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
 }
 
 /**

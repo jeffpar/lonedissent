@@ -75,7 +75,7 @@ cases:
     dissenterName: "John Clarke"
   - id: "1919-099"
     termId: "1919-10"
-    title: "HULL, ADMINISTRATRIX OF HULL, &amp;C. v. PHILADELPHIA &amp; READING RAILWAY COMPANY"
+    title: "HULL, ADMINISTRATRIX OF HULL, ETC. v. PHILADELPHIA &amp; READING RAILWAY COMPANY"
     volume: "252"
     page: "475"
     pdfSource: "loc"
