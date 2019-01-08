@@ -311,7 +311,7 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
         let line = lines[i];
         if (!line) continue;
         let row = {};
-        let fields = parseCSVFields(line);
+        let fields = parseCSVFields(line, i+1);
         if (!headings) {
             headings = fields;
             /*
@@ -424,12 +424,13 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
 }
 
 /**
- * parseCSVFields(line)
+ * parseCSVFields(line, row)
  *
  * @param {string} line
+ * @param {number} [row]
  * @return {Array.<string>}
  */
-function parseCSVFields(line)
+function parseCSVFields(line, row)
 {
     let field = "";
     let fields = [];
@@ -438,7 +439,7 @@ function parseCSVFields(line)
         let ch = line[i];
         if (!inQuotes) {
             if (ch == ',') {
-                field = replaceEntities(field);
+                field = replaceChars(field, row, fields.length + 1);
                 fields.push(field);
                 field = "";
             }
@@ -463,7 +464,7 @@ function parseCSVFields(line)
             }
         }
     }
-    field = replaceEntities(field);
+    field = replaceChars(field, row, fields.length + 1);
     fields.push(field);
     if (inQuotes) {
         printf("CSV quote error: %s\n", line);
@@ -472,14 +473,47 @@ function parseCSVFields(line)
 }
 
 /**
- * replaceEntities(text)
+ * replaceChars(text, row, col)
  *
  * @param {string} text
+ * @param {number} [row]
+ * @param {number} [col]
  * @return {string}
  */
-function replaceEntities(text)
+function replaceChars(text, row, col)
 {
-    return text.replace(/&([^&;]*)( |$)/gi, "&amp;$1$2").replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
+    let textNew = "";
+    for (let i = 0; i < text.length; i++) {
+        let c = text.charCodeAt(i);
+        switch(c) {
+        case 0x91:
+            textNew += "&lsquo;"
+            break;
+        case 0x92:
+            textNew += "&rsquo;"
+            break;
+        case 0x93:
+            textNew += "&ldquo;"
+            break;
+        case 0x94:
+            textNew += "&rdquo;"
+            break;
+        case 0x96:
+            textNew += "&ndash;"
+            break;
+        case 0xA7:
+            textNew += "&sect;"
+            break;
+        default:
+            if (c >= 0x7f) {
+                printf("warning: field '%s' contains unrecognized character '%c' (0x%02x) in row %d, col %d, pos %d\n", text, c, c, row, col, i + 1);
+                break;
+            }
+            textNew += String.fromCharCode(c);
+            break;
+        }
+    }
+    return textNew.replace(/&([^&;]*)( |$)/gi, "&amp;$1$2").replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
 }
 
 /**
@@ -811,7 +845,7 @@ function buildCourts(done)
 function backupLonerDecisions(done)
 {
     let backupDecisions = [];
-    let backupKeys = ['caseId', 'termId', 'dissenterId', 'dissenterName', 'pdfSource', 'pdfPage', 'pdfPageDissent'];
+    let backupKeys = ['caseId', 'termId', 'dissenterId', 'dissenterName', 'caseNotes', 'pdfSource', 'pdfPage', 'pdfPageDissent'];
     let lonerDecisions = JSON.parse(readTextFile(rootDir + _data.lonerDecisions));
     lonerDecisions.forEach((decision) => {
         let backup = {};
@@ -1128,13 +1162,16 @@ function getTermName(termId)
  * The "--text" option allows you to search for strings in the caseName variable.  It can be repeated on the command-line
  * if you want to perform multiple "AND" searches.
  *
+ * NOTE: You must now specify the "--build" option to generate site files.
+ *
  * @param {function()} done
- * @param {number} [minVotes]
+ * @param {number} [minVotes] (0 or undefined for no minimum vote requirement)
  * @param {string} [sTerm]
  * @param {string} [sEnd]
  */
 function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 {
+    let caseId = argv['case'] || "";
     let term = argv['term'] || sTerm, termId;
     let end = argv['end'] || sEnd, endTerm;
     if (end) endTerm = getTermDate(end);
@@ -1169,6 +1206,10 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     printf("decisions available: %d\n", decisions.length);
     let lonerBackup = JSON.parse(readTextFile(rootDir + _data.lonerBackup) || "[]");
 
+    let dataFile = minVotes == 1? _data.lonerDecisions : _data.allDecisions;
+    let data = JSON.parse(readTextFile(rootDir + dataFile) || "[]");
+    let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars) || "{}");
+
     do {
         let year = 0;
         if (term) {
@@ -1191,20 +1232,22 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
         }
         let results = [];
         decisions.forEach((decision) => {
-            if (!minVotes || decision.minVotes == minVotes) {
-                if (!decided || decision.dateDecision.indexOf(decided) == 0) {
-                    if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
-                        if (!month || decision.dateDecision.indexOf(month) > 0) {
-                            if (!volume || !page && decision.usCite.indexOf(usCite) == 0 || volume && page && decision.usCite == usCite) {
-                                if (!text || findText(decision.caseName)) {
-                                    let datePrint = decision.dateDecision;
-                                    if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
-                                        printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
-                                        results.push(decision);
-                                        if (decisionsAudited.indexOf(decision.caseId) < 0) {
-                                            decisionsAudited.push(decision.caseId);
-                                        } else {
-                                            decisionsDuplicated.push(decision.caseId);
+            if (!caseId || decision.caseId == caseId) {
+                if (!minVotes || decision.minVotes == minVotes) {
+                    if (!decided || decision.dateDecision.indexOf(decided) == 0) {
+                        if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
+                            if (!month || decision.dateDecision.indexOf(month) > 0) {
+                                if (!volume || !page && decision.usCite.indexOf(usCite) == 0 || volume && page && decision.usCite == usCite) {
+                                    if (!text || findText(decision.caseName)) {
+                                        let datePrint = decision.dateDecision;
+                                        if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
+                                            printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
+                                            results.push(decision);
+                                            if (decisionsAudited.indexOf(decision.caseId) < 0) {
+                                                decisionsAudited.push(decision.caseId);
+                                            } else {
+                                                decisionsDuplicated.push(decision.caseId);
+                                            }
                                         }
                                     }
                                 }
@@ -1214,26 +1257,55 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 }
             }
         });
+
         let range = (start || stop)? sprintf(" in range %s--%s", start, stop) : "";
         let condition = minVotes? sprintf(" with minVotes of %d", minVotes) : "";
         printf("decisions%s%s: %d\n", range, condition, results.length);
+
         if (results.length) {
-            if (minVotes == 1) {
-                let nAdded = 0;
-                let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars) || "{}");
-                vars['caseNotes'] = {"type": "string"};
-                vars['pdfSource'] = {"type": "string"};
-                vars['pdfPage'] = {"type": "number"};
-                vars['pdfPageDissent'] = {"type": "number"};
-                let loners = JSON.parse(readTextFile(rootDir + _data.lonerDecisions) || "[]");
-                for (let r = 0; r < results.length; r++) {
-                    let result = results[r]
-                    if (mapValues(result, vars, true) < 0) break;
-                    let i = searchObjectArray(loners, "caseId", result.caseId);
-                    if (i < 0) {
-                        if (termId) {
-                            result['termId'] = termId;
-                        }
+            let nAdded = 0;
+            vars['caseNotes'] = {"type": "string"};
+            vars['pdfSource'] = {"type": "string"};
+            vars['pdfPage'] = {"type": "number"};
+            vars['pdfPageDissent'] = {"type": "number"};
+            for (let r = 0; r < results.length; r++) {
+                let result = results[r]
+                /*
+                 * NOTE: Even if mapValues() returns an error (< 0), we now continue processing cases.
+                 *
+                 * Here's a list of suspect cases; not only did they contain one or more unknown values, but their votes were "0-0".
+                 *
+                 *      unable to find caseId '1918-233' in data set
+                 *      unable to find caseId '1931-152' in data set
+                 *      unable to find caseId '1915-245' in data set
+                 *      unable to find caseId '1908-203' in data set
+                 *      unable to find caseId '1898-184' in data set
+                 *      unable to find caseId '1896-274' in data set
+                 *      unable to find caseId '1922-231' in data set
+                 *      unable to find caseId '1898-187' in data set
+                 *      unable to find caseId '1901-204' in data set
+                 *      unable to find caseId '1898-189' in data set
+                 *      unable to find caseId '1911-251' in data set
+                 *      unable to find caseId '1898-186' in data set
+                 *      unable to find caseId '1897-224' in data set
+                 *      unable to find caseId '1898-185' in data set
+                 *      unable to find caseId '1898-188' in data set
+                 *      unable to find caseId '1909-178' in data set
+                 *      unable to find caseId '1909-179' in data set
+                 *      unable to find caseId '1909-177' in data set
+                 *      unable to find caseId '1916-217' in data set
+                 *      unable to find caseId '1900-201' in data set
+                 *      unable to find caseId '1900-202' in data set
+                 *      unable to find caseId '1917-218' in data set
+                 *      unable to find caseId '1901-202' in data set
+                 *      unable to find caseId '1901-203' in data set
+                 *      unable to find caseId '1919-181' in data set
+                 */
+                mapValues(result, vars, true);
+                let i = searchObjectArray(data, "caseId", result.caseId);
+                if (i < 0) {
+                    if (termId) result['termId'] = termId;
+                    if (minVotes == 1) {
                         /*
                          * Determine who the lone dissenter is now.
                          */
@@ -1255,131 +1327,138 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         } else {
                             printf("warning: unable to identify dissenter for case %s (%s)\n", result.caseId, result.usCite);
                         }
-                        let b = searchObjectArray(lonerBackup, "caseId", result.caseId);
-                        if (b >= 0) {
-                            let backup = lonerBackup[b];
-                            if (backup['pdfSource']) result['pdfSource'] = backup['pdfSource'];
-                            if (backup['pdfPage']) result['pdfPage'] = backup['pdfPage'];
-                            if (backup['pdfPageDissent']) result['pdfPageDissent'] = backup['pdfPageDissent'];
-                        }
-                        if (!result['pdfSource']) {
-                            if (year < 2004) {
-                                result['pdfSource'] = "loc";            // ie, Library of Congress
-                            } else if (year < 2012) {
-                                result['pdfSource'] = "scotusBound";    // ie, supremecourt.gov, in the "Bound Volumes" folder
-                            } else {
-                                result['pdfSource'] = "slipopinion/" + (year % 100);
-                            }
-                        }
-                        loners.push(result);
-                        nAdded++;
-                    } else {
-                        let citation = (result.usCite || ('No. ' + result.docket));
-                        if (argv['debug']) {
-                            printf("warning: %s (%s) already exists in %s\n", result.caseId, citation, _data.lonerDecisions);
-                        }
-                        if (mapValues(loners[i], vars) > 0) {
-                            printf("warning: %s (%s) being updated in %s\n", result.caseId, citation, _data.lonerDecisions);
-                            nAdded++;
-                        }
-                        results[r] = loners[i];
                     }
-                }
-                if (nAdded) {
-                    writeTextFile(rootDir + _data.lonerDecisions, loners, true);
-                }
-                if (term) {
-                    /*
-                     * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy-mm.md)
-                     */
-                    let termName = getTermName(termId);
-                    let pathName = "/cases/loners/" + termId;
-                    let fileName = "/_pages" + pathName + ".md";
-                    let fileText = '---\ntitle: "' + termName + '"\npermalink: ' + pathName + '\nlayout: cases\n';
-                    fileText += 'cases:\n';
-                    results.forEach((result) => {
-                        let volume = 0, page = 0;
-                        let matchCite = result.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
-                        if (matchCite) {
-                            volume = +matchCite[1];  page = +matchCite[2];
+                    let b = searchObjectArray(lonerBackup, "caseId", result.caseId);
+                    if (b >= 0) {
+                        let backup = lonerBackup[b];
+                        if (backup['caseNotes']) result['caseNotes'] = backup['caseNotes'];
+                        if (backup['pdfSource']) result['pdfSource'] = backup['pdfSource'];
+                        if (backup['pdfPage']) result['pdfPage'] = backup['pdfPage'];
+                        if (backup['pdfPageDissent']) result['pdfPageDissent'] = backup['pdfPageDissent'];
+                    }
+                    if (!result['pdfSource']) {
+                        if (year < 2004) {
+                            result['pdfSource'] = "loc";            // ie, Library of Congress
+                        } else if (year < 2012) {
+                            result['pdfSource'] = "scotusBound";    // ie, supremecourt.gov, in the "Bound Volumes" folder
+                        } else {
+                            result['pdfSource'] = "slipopinion/" + (year % 100);
                         }
-                        fileText += '  - id: "' + result.caseId + '"\n';
-                        fileText += '    termId: "' + result.termId + '"\n';
-                        fileText += '    title: "' + result.caseName + '"\n';
-                        /*
-                         * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
-                         * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
-                         * And finally, when using SCOTUS slip opinions, 'pdfSource' should be a path relative to their
-                         * slip opinions URL (eg, "17pdf/17-21_p8k0").
-                         *
-                         * The LOC appears to have PDFs for everything up through U.S. Reports volume 542, which covers
-                         * the end of the 2003 term.  SCOTUS has bound volumes for U.S. Reports volumes 502 through 569,
-                         * which spans terms 1991 through 2012, so there's a healthy overlap between LOC and SCOTUS.
-                         *
-                         * SCOTUS also has slip opinions for the 2012 term and up.  Moreover, SCOTUS claims it will keep
-                         * slip opinions until they have been posted in a bound volume PDF.  This means that going forward,
-                         * every new SCOTUS opinion will have a SCOTUS source (ie, bound or slip); unfortunately, it also
-                         * means that periodically (ie, whenever SCOTUS decides to post a new bound volume PDF and remove
-                         * corresponding slip opinion PDFs) we will have to detect the missing opinions and remap them.
-                         * Sigh.
-                         *
-                         * Regarding LOC, you can browse an entire volume like so:
-                         *
-                         *      https://www.loc.gov/search/?fa=partof:u.s.+reports:+volume+542
-                         *
-                         * For a case like 542 U.S. 241, the PDF is here:
-                         *
-                         *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.pdf
-                         *
-                         * and the thumbnail is here:
-                         *
-                         *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
-                         *
-                         * Some of the LOC PDFs don't actually start on the correct page.  The above PDF, for example,
-                         * actually starts with page 240 of volume 542, not page 241.  Such cases should have the 'pdfPage'
-                         * property set (eg, 2); the default value for 'pdfPage' is 1, so it need not be set for PDFs
-                         * where the opinion properly begins on the first page (hopefully the case for most LOC opinions).
-                         *
-                         * As for the dissents, they invariably start at some later page in the PDF, so the 'pdfPageDissent'
-                         * property must be set.  Moreover, if the 'pdfPage' is some value greater than 1, then that difference
-                         * must be applied to 'pdfPageDissent' as well; our page templates will *not* automatically add
-                         * "pdfpage" minus 1 to the dissent page number.
-                         */
-                        if (volume) fileText += sprintf('    volume: "%03d"\n', volume);
-                        if (page) fileText += sprintf('    page: "%03d"\n' , page);
-                        if (result.pdfSource) fileText += '    pdfSource: "' + result.pdfSource + '"\n';
-                        if (result.pdfPage) fileText += '    pdfPage: ' + result.pdfPage + '\n';
-                        if (result.pdfPageDissent) fileText += '    pdfPageDissent: ' + result.pdfPageDissent + '\n';
-                        fileText += '    dateDecision: "' + sprintf("%#C", result.dateDecision) + '"\n';
-                        fileText += '    citation: "' + (result.usCite || ('No. ' + result.docket)) + '"\n';
+                    }
+                    data.push(result);
+                    nAdded++;
+                } else {
+                    let citation = (result.usCite || ('No. ' + result.docket));
+                    if (argv['debug']) {
+                        printf("warning: %s (%s) already exists in %s\n", result.caseId, citation, dataFile);
+                    }
+                    if (mapValues(data[i], vars) > 0) {
+                        printf("warning: %s (%s) being updated in %s\n", result.caseId, citation, dataFile);
+                        nAdded++;
+                    }
+                    results[r] = data[i];
+                }
+            }
+            if (nAdded) {
+                writeTextFile(rootDir + dataFile, data, true);
+            }
+            if (argv['build'] && term) {
+                /*
+                 * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy-mm.md)
+                 */
+                let category = minVotes == 1? "loners" : "all";
+                let termName = getTermName(termId);
+                let pathName = "/cases/" + category + "/" + termId;
+                let fileName = "/_pages" + pathName + ".md";
+                let fileText = '---\ntitle: "' + termName + '"\npermalink: ' + pathName + '\nlayout: cases\n';
+                fileText += 'cases:\n';
+                results.forEach((result) => {
+                    let volume = 0, page = 0;
+                    let matchCite = result.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
+                    if (matchCite) {
+                        volume = +matchCite[1];  page = +matchCite[2];
+                    }
+                    fileText += '  - id: "' + result.caseId + '"\n';
+                    fileText += '    termId: "' + result.termId + '"\n';
+                    fileText += '    title: "' + result.caseName + '"\n';
+                    /*
+                     * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
+                     * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
+                     * And finally, when using SCOTUS slip opinions, 'pdfSource' should be a path relative to their
+                     * slip opinions URL (eg, "17pdf/17-21_p8k0").
+                     *
+                     * The LOC appears to have PDFs for everything up through U.S. Reports volume 542, which covers
+                     * the end of the 2003 term.  SCOTUS has bound volumes for U.S. Reports volumes 502 through 569,
+                     * which spans terms 1991 through 2012, so there's a healthy overlap between LOC and SCOTUS.
+                     *
+                     * SCOTUS also has slip opinions for the 2012 term and up.  Moreover, SCOTUS claims it will keep
+                     * slip opinions until they have been posted in a bound volume PDF.  This means that going forward,
+                     * every new SCOTUS opinion will have a SCOTUS source (ie, bound or slip); unfortunately, it also
+                     * means that periodically (ie, whenever SCOTUS decides to post a new bound volume PDF and remove
+                     * corresponding slip opinion PDFs) we will have to detect the missing opinions and remap them.
+                     * Sigh.
+                     *
+                     * Regarding LOC, you can browse an entire volume like so:
+                     *
+                     *      https://www.loc.gov/search/?fa=partof:u.s.+reports:+volume+542
+                     *
+                     * For a case like 542 U.S. 241, the PDF is here:
+                     *
+                     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.pdf
+                     *
+                     * and the thumbnail is here:
+                     *
+                     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
+                     *
+                     * Some of the LOC PDFs don't actually start on the correct page.  The above PDF, for example,
+                     * actually starts with page 240 of volume 542, not page 241.  Such cases should have the 'pdfPage'
+                     * property set (eg, 2); the default value for 'pdfPage' is 1, so it need not be set for PDFs
+                     * where the opinion properly begins on the first page (hopefully the case for most LOC opinions).
+                     *
+                     * As for the dissents, they invariably start at some later page in the PDF, so the 'pdfPageDissent'
+                     * property must be set.  Moreover, if the 'pdfPage' is some value greater than 1, then that difference
+                     * must be applied to 'pdfPageDissent' as well; our page templates will *not* automatically add
+                     * "pdfpage" minus 1 to the dissent page number.
+                     */
+                    if (volume) fileText += sprintf('    volume: "%03d"\n', volume);
+                    if (page) fileText += sprintf('    page: "%03d"\n' , page);
+                    if (result.pdfSource) fileText += '    pdfSource: "' + result.pdfSource + '"\n';
+                    if (result.pdfPage) fileText += '    pdfPage: ' + result.pdfPage + '\n';
+                    if (result.pdfPageDissent) fileText += '    pdfPageDissent: ' + result.pdfPageDissent + '\n';
+                    fileText += '    dateDecision: "' + sprintf("%#C", result.dateDecision) + '"\n';
+                    fileText += '    citation: "' + (result.usCite || ('No. ' + result.docket)) + '"\n';
+                    if (result.dissenterId) {
                         fileText += '    dissenterId: "' + getJusticeId(result.dissenterId) + '"\n';
                         fileText += '    dissenterName: "' + result.dissenterName + '"\n';
-                    });
-                    fileText += '---\n';
-                    writeTextFile(rootDir + fileName, fileText, argv['overwrite']);
-                    /*
-                     * Let's make sure there's an index entry as well....
-                     */
-                    fileName = "/_pages/cases/loners.md";
-                    let index = readTextFile(rootDir + fileName);
-                    if (index) {
-                        let re = /^- \[.*?Term.*?\]\(\/cases\/loners\/([0-9-]+)\).*$/gm, match;
-                        while ((match = re.exec(index))) {
-                            if (match[1] >= termId) break;
+                    } else if (result.majOpinWriter && result.majOpinWriter != "none") {
+                        fileText += '    authorId: "' + getJusticeId(result.majOpinWriter) + '"\n';
+                        fileText += '    authorName: "' + vars.justiceName.values[result.majOpinWriter] + '"\n';
+                    }
+                });
+                fileText += '---\n';
+                writeTextFile(rootDir + fileName, fileText, argv['overwrite']);
+                /*
+                 * Let's make sure there's an index entry as well....
+                 */
+                fileName = "/_pages/cases/" + category + ".md";
+                let index = readTextFile(rootDir + fileName);
+                if (index) {
+                    let re = /^- \[.*?Term.*?\]\(\/cases\/[a-z]+\/([0-9-]+)\).*$/gm, match;
+                    while ((match = re.exec(index))) {
+                        if (match[1] >= termId) break;
+                    }
+                    if (match) {
+                        let asterisks = "";
+                        if (termId >= "1844-12" && termId <= "1849-12") {
+                            asterisks = "*";
                         }
-                        if (match) {
-                            let asterisks = "";
-                            if (termId >= "1844-12" && termId <= "1849-12") {
-                                asterisks = "*";
-                            }
-                            let entry = sprintf("- [%s](/cases/loners/%s)%s (%d dissent%s)\n", termName, termId, asterisks, results.length, results.length == 1? '' : 's');
-                            if (match[1] != termId) {
-                                index = index.substr(0, match.index) + entry + index.substr(match.index);
-                            } else {
-                                index = index.substr(0, match.index) + entry + index.substr(match.index + match[0].length + 1);
-                            }
-                            writeTextFile(rootDir + fileName, index, argv['overwrite']);
+                        let entry = sprintf("- [%s](/cases/%s/%s)%s (%d dissent%s)\n", termName, category, termId, asterisks, results.length, results.length == 1? '' : 's');
+                        if (match[1] != termId) {
+                            index = index.substr(0, match.index) + entry + index.substr(match.index);
+                        } else {
+                            index = index.substr(0, match.index) + entry + index.substr(match.index + match[0].length + 1);
                         }
+                        writeTextFile(rootDir + fileName, index, argv['overwrite']);
                     }
                 }
             }
@@ -1401,7 +1480,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
  */
 function findLonerDecisions(done)
 {
-    findDecisions(done, 1);
+    findDecisions(done, 1, '1790-02', '2017-10');
 }
 
 /**
@@ -1411,11 +1490,13 @@ function findLonerDecisions(done)
  */
 function findAllDecisions(done)
 {
-    findDecisions(done, 1, '1790-02', '2017-10');
+    findDecisions(done, 0, '1790-02', '2017-10');
 }
 
 /**
  * findLonerJustices()
+ *
+ * NOTE: You must now specify the "--build" option to generate site files.
  *
  * @param {function()} done
  */
@@ -1475,37 +1556,39 @@ function findLonerJustices(done)
     }
     let lonerIndex = "";
     lonerJustices.forEach((justice) => {
-        /*
-         * Create a page for each Justice's lone dissents.
-         */
-        let pageName = sprintf("Justice %s's Lone Dissents", justice.name);
-        let pathName = "/justices/loners/" + justice.id;
-        let fileName = "/_pages" + pathName + ".md";
-        let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: cases\n';
-        text += 'cases:\n';
         printf("%s: %d dissent%s\n", justice.name, justice.loneTotal, justice.loneTotal == 1? '' : 's');
-        justice.loneDissents.forEach((dissent) => {
-            let volume = 0, page = 0;
-            let matchCite = dissent.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
-            if (matchCite) {
-                volume = +matchCite[1];  page = +matchCite[2];
-            }
-            text += '  - id: "' + dissent.caseId + '"\n';
-            text += '    termId: "' + dissent.termId + '"\n';
-            text += '    title: "' + dissent.caseName + '"\n';
-            if (volume) text += sprintf('    volume: "%03d"\n', volume);
-            if (page) text += sprintf('    page: "%03d"\n' , page);
-            if (dissent.pdfSource) text += '    pdfSource: "' + dissent.pdfSource + '"\n';
-            if (dissent.pdfPage) text += '    pdfPage: ' + dissent.pdfPage + '\n';
-            if (dissent.pdfPageDissent) text += '    pdfPageDissent: ' + dissent.pdfPageDissent + '\n';
-            text += '    dateDecision: "' + sprintf("%#C", dissent.dateDecision) + '"\n';
-            text += '    citation: "' + (dissent.usCite || ('No. ' + dissent.docket)) + '"\n';
-            text += '    dissenterId: "' + justice.id + '"\n';
-            text += '    dissenterName: "' + justice.name + '"\n';
-        });
-        text += '---\n';
-        writeTextFile(rootDir + fileName, text, argv['overwrite'], true);
-        lonerIndex += sprintf("- [%s](/justices/loners/%s) (%d dissent%s)\n", justice.name, justice.id, justice.loneTotal, justice.loneTotal == 1? '' : 's');
+        if (argv['build']) {
+            /*
+            * Create a page for each Justice's lone dissents.
+            */
+            let pageName = sprintf("Justice %s's Lone Dissents", justice.name);
+            let pathName = "/justices/loners/" + justice.id;
+            let fileName = "/_pages" + pathName + ".md";
+            let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: cases\n';
+            text += 'cases:\n';
+            justice.loneDissents.forEach((dissent) => {
+                let volume = 0, page = 0;
+                let matchCite = dissent.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
+                if (matchCite) {
+                    volume = +matchCite[1];  page = +matchCite[2];
+                }
+                text += '  - id: "' + dissent.caseId + '"\n';
+                text += '    termId: "' + dissent.termId + '"\n';
+                text += '    title: "' + dissent.caseName + '"\n';
+                if (volume) text += sprintf('    volume: "%03d"\n', volume);
+                if (page) text += sprintf('    page: "%03d"\n' , page);
+                if (dissent.pdfSource) text += '    pdfSource: "' + dissent.pdfSource + '"\n';
+                if (dissent.pdfPage) text += '    pdfPage: ' + dissent.pdfPage + '\n';
+                if (dissent.pdfPageDissent) text += '    pdfPageDissent: ' + dissent.pdfPageDissent + '\n';
+                text += '    dateDecision: "' + sprintf("%#C", dissent.dateDecision) + '"\n';
+                text += '    citation: "' + (dissent.usCite || ('No. ' + dissent.docket)) + '"\n';
+                text += '    dissenterId: "' + justice.id + '"\n';
+                text += '    dissenterName: "' + justice.name + '"\n';
+            });
+            text += '---\n';
+            writeTextFile(rootDir + fileName, text, argv['overwrite'], true);
+            lonerIndex += sprintf("- [%s](/justices/loners/%s) (%d dissent%s)\n", justice.name, justice.id, justice.loneTotal, justice.loneTotal == 1? '' : 's');
+        }
     });
     /*
      * And finally, build an index of all Justices with dissents.
@@ -1564,7 +1647,7 @@ function testDates(done)
     let date, format;
 
     date = new Date("2018-08-10");              // date-only strings are considered UTC
-    printf("\nnew Date(\"2018-08-10\") - should be considered UTC\n");
+    printf("\nnew Date(\"2018-08-10\"): UTC\n");
     format = "%s\t%#C\n\t%#T (UTC)\n";
     printf(format, format, date, date);
     format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
@@ -1579,22 +1662,22 @@ function testDates(done)
     format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
 
-    date = new Date(date.getTime());            // getTime() should return UTC, and Date() should create UTC
-    printf("\ndate = new Date(date.getTime())\n");
+    date = new Date(date.getTime());            // getTime() returns UTC, and Date() creates UTC
+    printf("\ndate = new Date(date.getTime()): UTC\n");
     format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
     format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
 
     date = new Date(2018, 7, 10);               // dates with multiple arguments are LOCAL (*not* UTC)
-    printf("\nnew Date(2018, 7, 10) - should be considered LOCAL\n");
+    printf("\nnew Date(2018, 7, 10): LOCAL\n");
     format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
     format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
 
     date = new Date(2018, 7, 10, 18, 5, 30);    // dates with multiple arguments are LOCAL (*not* UTC)
-    printf("\nnew Date(2018, 7, 10, 18, 5, 30) - should be considered LOCAL\n");
+    printf("\nnew Date(2018, 7, 10, 18, 5, 30): LOCAL\n");
     format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
     format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
@@ -1611,9 +1694,10 @@ function testDates(done)
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
 gulp.task("justices", buildJustices);
+gulp.task("allDecisions", findAllDecisions);
 gulp.task("lonerDecisions", findLonerDecisions);
 gulp.task("lonerJustices", findLonerJustices);
-gulp.task("loners", gulp.series(findAllDecisions, findLonerJustices));
+gulp.task("loners", gulp.series(findLonerDecisions, findLonerJustices));
 gulp.task("matches", findLonerMatches);
 gulp.task("backup", backupLonerDecisions);
 gulp.task("tests", testDates);

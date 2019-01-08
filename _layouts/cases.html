@@ -22,7 +22,13 @@ layout: archive
   <div id="{{ case.id }}" style="text-align:center">
     <h3>{{ case.title }}</h3>
     <p style="font-size:medium">{{ case.citation }}<br/>
+    {% if case.authorId %}
+    <p style="font-size:medium">Decided {{ case.dateDecision }}<br/>Opinion by Justice {{ case.authorName }}</p>
+    {% elsif case.dissenterId %}
     <p style="font-size:medium">Decided <a href="/cases/loners/{{ case.termId }}#{{ case.id }}">{{ case.dateDecision }}</a><br/>Dissent by <a href="/justices/loners/{{ case.dissenterId }}#{{ case.id }}">Justice {{ case.dissenterName }}</a></p>
+    {% else %}
+    <p style="font-size:medium">Decided {{ case.dateDecision }}</p>
+    {% endif %}
     <p>
       <a href="{{ pdfURL }}">
         <img src="{{ pdfGIF }}" style="display:block; margin:auto;" alt="{{ case.citation }}"/>

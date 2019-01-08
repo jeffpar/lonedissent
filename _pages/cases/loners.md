@@ -20,7 +20,7 @@ We prefer opinions in PDF format because they faithfully reproduce the printed v
 preference would be to have access to an XML-based text source and render the opinions using HTML and CSS,
 but (a) we don't have such a source, and (b) that's a lot of work.
 
-# Notes on Terms
+## Notes on Terms
 
 A short history of Supreme Court terms is provided below, to provide some context for the list that follows.
 For more detail, see [Terms of The Court](/cases/terms).
@@ -108,7 +108,7 @@ Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/64th-congress/s
     in October, and such adjourned or special terms as it may find
     necessary for the dispatch of business."
 
-# Lone Dissents by Term
+## Lone Dissents by Term
 
 - [February Term 1793](/cases/loners/1793-02) (2 dissents)
 - [August Term 1796](/cases/loners/1796-08) (1 dissent)
