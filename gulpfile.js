@@ -100,6 +100,7 @@ let printf = stdio.printf;
 let sprintf = stdio.sprintf;
 let strlib = require(rootDir + "/lib/strlib");
 
+let _data = require(rootDir + "/_data/_data.json");
 let sources = require(rootDir + "/sources/sources.json");
 let argv = proclib.args.argv;
 
@@ -800,7 +801,7 @@ function backupLonerDecisions(done)
 {
     let backupDecisions = [];
     let backupKeys = ['caseId', 'termId', 'dissenterId', 'dissenterName', 'pdfSource', 'pdfPage', 'pdfPageDissent'];
-    let lonerDecisions = JSON.parse(readTextFile(rootDir + sources.results.lonerDecisions));
+    let lonerDecisions = JSON.parse(readTextFile(rootDir + _data.lonerDecisions));
     lonerDecisions.forEach((decision) => {
         let backup = {};
         backupKeys.forEach((key) => {
@@ -808,7 +809,7 @@ function backupLonerDecisions(done)
         });
         backupDecisions.push(backup);
     });
-    writeTextFile(rootDir + sources.results.lonerBackup, backupDecisions, argv['overwrite']);
+    writeTextFile(rootDir + _data.lonerBackup, backupDecisions, argv['overwrite']);
     done();
 }
 
@@ -1132,7 +1133,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let decisionsDuplicated = [];
     let decisions = JSON.parse(readTextFile(rootDir + sources.results.decisions));
     printf("decisions available: %d\n", decisions.length);
-    let lonerBackup = JSON.parse(readTextFile(rootDir + sources.results.lonerBackup) || "[]");
+    let lonerBackup = JSON.parse(readTextFile(rootDir + _data.lonerBackup) || "[]");
 
     do {
         let year = 0;
@@ -1188,7 +1189,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 vars['pdfSource'] = {"type": "string"};
                 vars['pdfPage'] = {"type": "number"};
                 vars['pdfPageDissent'] = {"type": "number"};
-                let loners = JSON.parse(readTextFile(rootDir + sources.results.lonerDecisions) || "[]");
+                let loners = JSON.parse(readTextFile(rootDir + _data.lonerDecisions) || "[]");
                 for (let r = 0; r < results.length; r++) {
                     let result = results[r]
                     if (mapValues(result, vars, true) < 0) break;
@@ -1239,17 +1240,17 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     } else {
                         let citation = (result.usCite || ('No. ' + result.docket));
                         if (argv['debug']) {
-                            printf("warning: %s (%s) already exists in %s\n", result.caseId, citation, sources.results.lonerDecisions);
+                            printf("warning: %s (%s) already exists in %s\n", result.caseId, citation, _data.lonerDecisions);
                         }
                         if (mapValues(loners[i], vars) > 0) {
-                            printf("warning: %s (%s) being updated in %s\n", result.caseId, citation, sources.results.lonerDecisions);
+                            printf("warning: %s (%s) being updated in %s\n", result.caseId, citation, _data.lonerDecisions);
                             nAdded++;
                         }
                         results[r] = loners[i];
                     }
                 }
                 if (nAdded) {
-                    writeTextFile(rootDir + sources.results.lonerDecisions, loners, true);
+                    writeTextFile(rootDir + _data.lonerDecisions, loners, true);
                 }
                 if (term) {
                     /*
@@ -1387,7 +1388,7 @@ function findLonerJustices(done)
     /*
      * If we've already built lonerJustices.json, then use it; otherwiser, build it.
      */
-    let lonerJustices = JSON.parse(readTextFile(rootDir + sources.results.lonerJustices) || "[]");
+    let lonerJustices = JSON.parse(readTextFile(rootDir + _data.lonerJustices) || "[]");
     if (!lonerJustices.length) {
         let lonerBuckets = {};
         let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars));
@@ -1410,7 +1411,7 @@ function findLonerJustices(done)
                 printf("warning: justice %s has no SCDB justice index\n", justice.id);
             }
         });
-        let lonerDecisions = JSON.parse(readTextFile(rootDir + sources.results.lonerDecisions));
+        let lonerDecisions = JSON.parse(readTextFile(rootDir + _data.lonerDecisions));
         lonerDecisions.forEach((decision) => {
             let dissenterId = decision.dissenterId;
             if (dissenterId == "CEHughes2") dissenterId = "CEHughes1";
@@ -1434,7 +1435,7 @@ function findLonerJustices(done)
         lonerJustices.sort(function(a,b) {
             return (a.loneTotal < b.loneTotal)? 1 : ((a.loneTotal > b.loneTotal)? -1 : 0);
         });
-        writeTextFile(rootDir + sources.results.lonerJustices, lonerJustices, argv['overwrite']);
+        writeTextFile(rootDir + _data.lonerJustices, lonerJustices, argv['overwrite']);
     }
     let lonerIndex = "";
     lonerJustices.forEach((justice) => {
@@ -1490,7 +1491,7 @@ function findLonerJustices(done)
 function findLonerMatches(done)
 {
     let dateBuckets = {};
-    let lonerJustices = JSON.parse(readTextFile(rootDir + sources.results.lonerJustices) || "[]");
+    let lonerJustices = JSON.parse(readTextFile(rootDir + _data.lonerJustices) || "[]");
     lonerJustices.forEach((justice) => {
         justice.loneDissents.forEach((dissent) => {
             if (!dateBuckets[dissent.dateDecision]) {
@@ -1526,13 +1527,10 @@ function testDates(done)
 {
     let date, format;
 
-    let terms = ['1790-02', '1953-06', '1980-12-12'];
-    terms.forEach((term) => {
-        printf("getTermName(%s): %s\n", term, getTermName(term))
-    });
-
     date = new Date("2018-08-10");              // date-only strings are considered UTC
     printf("\nnew Date(\"2018-08-10\") - should be considered UTC\n");
+    format = "%s\t%#C\n\t%#T (UTC)\n";
+    printf(format, format, date, date);
     format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
     format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
@@ -1565,6 +1563,11 @@ function testDates(done)
     printf(format, format, date, date, date, date, date, date, date, date);
     format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
+
+    let terms = ['1790-02', '1953-06', '1980-12-12'];
+    terms.forEach((term) => {
+        printf("getTermName(%s): %s\n", term, getTermName(term))
+    });
 
     done();
 }
