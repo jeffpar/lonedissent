@@ -10,7 +10,7 @@ Yes, we're talking about those cases where just *one* Justice could not be persu
 instead chose to write a dissent, explaining why he or she was absolutely right and *all* of their fellow Justices were
 absolutely wrong.
 
-For example, [Plessy v. Ferguson](https://www.oyez.org/cases/1850-1900/163us537) upheld the "separate
+For example, [Plessy v. Ferguson](https://lonedissent.org/cases/loners/1895-10#1895-271) upheld the "separate
 but equal" treatment of black Americans in 1896.  Justice John Marshall Harlan, the lone dissenter, wrote:
 
 > “Our Constitution is color-blind and neither knows nor tolerates classes among citizens. In respect of civil rights,
@@ -20,7 +20,7 @@ are involved... If evils will result from the commingling of the two races upon 
 benefit of all, they will be infinitely less than those that will surely come from state legislation regulating the
 enjoyment of civil rights upon the basis of race.”
 
-And in 1940, there was [Minersville School District v. Gobitis](https://www.oyez.org/cases/1940-1955/310us586), which
+And in 1940, there was [Minersville School District v. Gobitis](https://lonedissent.org/cases/loners/1939-10#1939-078), which
 involved two students who were expelled from a Pennsylvania public school for refusing to salute the flag as part of a
 daily school exercise.  Justice Harlan Stone was the lone dissenter in that case, writing that the “very essence of the
 liberty” guaranteed by the Constitution “is the freedom of the individual from compulsion as to what he shall think
