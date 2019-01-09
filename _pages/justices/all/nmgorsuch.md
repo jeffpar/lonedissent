@@ -1,0 +1,70 @@
+---
+title: "Justice Neil Gorsuch's Majority Opinions"
+permalink: /justices/all/nmgorsuch
+layout: cases
+cases:
+  - id: "2016-067"
+    termId: "2016-10"
+    title: "HENSON v. SANTANDER CONSUMER USA INC."
+    pdfSource: "slipopinion/16"
+    dateDecision: "Monday, June 12, 2017"
+    citation: "No. 16-349"
+    authorId: nmgorsuch
+    authorName: "Neil Gorsuch"
+  - id: "2017-002"
+    termId: "2017-10"
+    title: "EPIC SYSTEMS CORP. v. LEWIS"
+    pdfSource: "slipopinion/17"
+    dateDecision: "Monday, May 21, 2018"
+    citation: "No. 16-285"
+    authorId: nmgorsuch
+    authorName: "Neil Gorsuch"
+  - id: "2017-025"
+    termId: "2017-10"
+    title: "SAS INSTITUTE INC. v. IANCU"
+    pdfSource: "slipopinion/17"
+    dateDecision: "Tuesday, April 24, 2018"
+    citation: "No. 16-969"
+    authorId: nmgorsuch
+    authorName: "Neil Gorsuch"
+  - id: "2017-026"
+    termId: "2017-10"
+    title: "MURPHY v. SMITH"
+    pdfSource: "slipopinion/17"
+    dateDecision: "Wednesday, February 21, 2018"
+    citation: "No. 16-1067"
+    authorId: nmgorsuch
+    authorName: "Neil Gorsuch"
+  - id: "2017-032"
+    termId: "2017-10"
+    title: "TEXAS v. NEW MEXICO AND COLORADO"
+    pdfSource: "slipopinion/17"
+    dateDecision: "Monday, March 5, 2018"
+    citation: "No. 22O141"
+    authorId: nmgorsuch
+    authorName: "Neil Gorsuch"
+  - id: "2017-042"
+    termId: "2017-10"
+    title: "CURRIER v. VIRGINIA"
+    pdfSource: "slipopinion/17"
+    dateDecision: "Friday, June 22, 2018"
+    citation: "No. 16-1348"
+    authorId: nmgorsuch
+    authorName: "Neil Gorsuch"
+  - id: "2017-057"
+    termId: "2017-10"
+    title: "WISCONSIN CENTRAL LTD. v. UNITED STATES"
+    pdfSource: "slipopinion/17"
+    dateDecision: "Thursday, June 21, 2018"
+    citation: "No. 17-530"
+    authorId: nmgorsuch
+    authorName: "Neil Gorsuch"
+  - id: "2017-064"
+    termId: "2017-10"
+    title: "UPPER SKAGIT INDIAN TRIBE v. LUNDGREN"
+    pdfSource: "slipopinion/17"
+    dateDecision: "Monday, May 21, 2018"
+    citation: "No. 17-387"
+    authorId: nmgorsuch
+    authorName: "Neil Gorsuch"
+---

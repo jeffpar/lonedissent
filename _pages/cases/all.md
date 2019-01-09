@@ -4,10 +4,11 @@ permalink: /cases/all
 layout: archive
 ---
 
-This page provides links to *all* opinions of the U.S. Supreme Court, not merely the lone dissents.
-The following collections are now available:
+This page provides links to *all* opinions of the U.S. Supreme Court, not merely those containing
+lone dissents.  The following collections are now available:
 
 - [Opinions by Term](#opinions-by-term)
+- [Opinions by Justice](/justices/all)
 
 Our collections use three different opinion sources:
 
@@ -347,7 +348,6 @@ Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/64th-congress/s
 - [October Term 2015](/cases/all/2015-10) (81 opinions)
 - [October Term 2016](/cases/all/2016-10) (69 opinions)
 - [October Term 2017](/cases/all/2017-10) (76 opinions)
-- [October Term 2018](/cases/all/2018-10)
 
 &#42; Technically, January Terms 1845 through 1850 were actually December Terms 1844 through 1849; the Court apparently
 preferred to adhere to its previous naming convention, at least for six more years.  Refer to the following [Statute](https://www.loc.gov/law/help/statutes-at-large/28th-congress/session-1/c28s1ch96.pdf) passed on June 17, 1844 (see [above](#notes-on-terms)).

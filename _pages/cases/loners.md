@@ -24,6 +24,7 @@ Finally, if you're looking for [all opinions](/cases/all), not merely lone disse
 collections you can browse, with more coming soon:
 
 - [Opinions by Term](/cases/all#opinions-by-term)
+- [Opinions by Justice](/justices/all)
 
 ## Notes on Terms
 

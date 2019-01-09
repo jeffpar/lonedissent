@@ -133,6 +133,18 @@ let argv = proclib.args.argv;
  */
 
 /**
+ * @typedef {object} Vote
+ * @property {string} justice
+ * @property {string} justiceName
+ * @property {string} vote
+ * @property {string} opinion
+ * @property {string} direction
+ * @property {string} majority
+ * @property {string} firstAgreement
+ * @property {string} secondAgreement
+ */
+
+/**
  * For a complete list of possible values for the following decision variables, see sources/scdb/vars.json.
  *
  * @typedef {object} Decision
@@ -197,6 +209,7 @@ let argv = proclib.args.argv;
  * @property {number} majority
  * @property {number} firstAgreement
  * @property {number} secondAgreement
+ * @property {Array.<Vote>} justices (this array contains sets of the preceding 8 fields once all the records have been "factored")
  */
 
  /**
@@ -1112,6 +1125,61 @@ function getTermName(termId)
 }
 
 /**
+ * sortVotesBySeniority(votes, date, vars, courts, justices)
+ *
+ * @param {Array.<Vote>} votes
+ * @param {string} date
+ * @param {object} vars
+ * @param {Array.<Court>} courts
+ * @param {Array.<Justice>} justices
+ * @return {Array.<Vote>} (actually, each entry is a new object that is a subset of the Vote properties)
+ */
+function sortVotesBySeniority(votes, date, vars, courts, justices)
+{
+    let votesNew = [];
+    let votesOld = votes.slice();
+    let court = null;
+    for (let i = 0; i < courts.length; i++) {
+        if (date >= courts[i].start && (!courts[i].stop || date <= courts[i].stop)) {
+            court = courts[i];
+            break;
+        }
+    }
+    if (court) {
+        for (let i = 0; i < court.justices.length; i++) {
+            let old = court.justices[i];
+            let j = searchObjectArray(justices, "id", old);
+            if (j >= 0) {
+                j = justices[j].scdbJustice;
+                if (j) {
+                    j = vars.justice.values[j];
+                    let k = searchObjectArray(votesOld, "justice", j);
+                    if (k >= 0) {
+                        votesNew.push({
+                            justice: j,
+                            majority: votesOld[k].majority
+                        });
+                        votesOld.splice(k, 1);
+                    } else {
+                        printf("warning: unable to find vote for %s for date %s in %s\n", j, date, court.name);
+                    }
+                } else {
+                    printf("warning: unable to find SCDB ID for justice ID %s\n", old);
+                }
+            } else {
+                printf("warning: unable to find justice ID %s\n", old);
+            }
+        }
+        votesOld.forEach((vote) => {
+            printf("warning: unable to find %s in list of justices for date %s in %s\n", vote.justice, date, court.name);
+        });
+    } else {
+        printf("warning: unable to find suitable court for date %s\n", date);
+    }
+    return votesNew;
+}
+
+/**
  * findDecisions()
  *
  * You can use the "--start" and "--stop" options within this task to extract subsets of the decision data
@@ -1209,6 +1277,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let dataFile = minVotes == 1? _data.lonerDecisions : _data.allDecisions;
     let data = JSON.parse(readTextFile(rootDir + dataFile) || "[]");
     let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars) || "{}");
+    let courts = JSON.parse(readTextFile(rootDir + sources.results.courts) || "[]");
+    let justices = JSON.parse(readTextFile(rootDir + sources.results.justices) || "[]");
 
     do {
         let year = 0;
@@ -1364,7 +1434,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             }
             if (argv['build'] && term) {
                 /*
-                 * Create a page for each term of decisions that doesn't already have one (eg, _pages/loners/yyyy-mm.md)
+                 * Create a page for each term of decisions that doesn't already have one (eg, _pages/cases/loners/yyyy-mm.md)
                  */
                 let category = minVotes == 1? "loners" : "all";
                 let description = minVotes == 1? "Lone Dissents" : "All Opinions";
@@ -1428,12 +1498,23 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     if (result.pdfPageDissent) fileText += '    pdfPageDissent: ' + result.pdfPageDissent + '\n';
                     fileText += '    dateDecision: "' + sprintf("%#C", result.dateDecision) + '"\n';
                     fileText += '    citation: "' + (result.usCite || ('No. ' + result.docket)) + '"\n';
+                    fileText += '    voteMajority: ' + result.majVotes + '\n';
+                    fileText += '    voteMinority: ' + result.minVotes + '\n';
                     if (result.dissenterId) {
-                        fileText += '    dissenterId: "' + getJusticeId(result.dissenterId) + '"\n';
+                        fileText += '    dissenterId: ' + getJusticeId(result.dissenterId) + '\n';
                         fileText += '    dissenterName: "' + result.dissenterName + '"\n';
                     } else if (result.majOpinWriter && result.majOpinWriter != "none") {
-                        fileText += '    authorId: "' + getJusticeId(result.majOpinWriter) + '"\n';
+                        fileText += '    authorId: ' + getJusticeId(result.majOpinWriter) + '\n';
                         fileText += '    authorName: "' + vars.justiceName.values[result.majOpinWriter] + '"\n';
+                    }
+                    if (result.justices) {
+                        fileText += '    votes:\n';
+                        let votes = sortVotesBySeniority(result.justices, result.dateDecision, vars, courts, justices);
+                        votes.forEach((vote) => {
+                            fileText += '      - id: ' + getJusticeId(vote.justice) + '\n';
+                            fileText += '        name: "' + vars.justiceName.values[vote.justice] + '"\n';
+                            fileText += '        majority: ' + (vote.majority == "majority"? "true" : "false") + '\n';
+                        });
                     }
                 });
                 fileText += '---\n';
@@ -1495,20 +1576,22 @@ function findAllDecisions(done)
 }
 
 /**
- * findLonerJustices()
+ * findJustices()
  *
  * NOTE: You must now specify the "--build" option to generate site files.
  *
  * @param {function()} done
+ * @param {number} [minVotes] (0 or undefined for no minimum vote requirement)
  */
-function findLonerJustices(done)
+function findJustices(done, minVotes)
 {
     /*
      * If we've already built lonerJustices.json, then use it; otherwiser, build it.
      */
-    let lonerJustices = JSON.parse(readTextFile(rootDir + _data.lonerJustices) || "[]");
-    if (!lonerJustices.length) {
-        let lonerBuckets = {};
+    let dataFile = minVotes == 1? _data.lonerJustices : _data.allJustices;
+    let data = JSON.parse(readTextFile(rootDir + dataFile) || "[]");
+    if (!data.length) {
+        let dataBuckets = {};
         let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars));
         let justices = JSON.parse(readTextFile(rootDir + sources.results.justices));
         justices.forEach((justice) => {
@@ -1517,8 +1600,8 @@ function findLonerJustices(done)
                 if (id == "CEHughes2") id = "CEHughes1";
                 if (id) {
                     justice.scdbJustice = id;
-                    if (!lonerBuckets[justice.scdbJustice]) {
-                        lonerBuckets[justice.scdbJustice] = [];
+                    if (!dataBuckets[justice.scdbJustice]) {
+                        dataBuckets[justice.scdbJustice] = [];
                     } else {
                         printf("warning: SCDB justice ID %s listed multiple times\n", id);
                     }
@@ -1529,78 +1612,123 @@ function findLonerJustices(done)
                 printf("warning: justice %s has no SCDB justice index\n", justice.id);
             }
         });
-        let lonerDecisions = JSON.parse(readTextFile(rootDir + _data.lonerDecisions));
-        lonerDecisions.forEach((decision) => {
-            let dissenterId = decision.dissenterId;
-            if (dissenterId == "CEHughes2") dissenterId = "CEHughes1";
-            if (dissenterId) {
-                if (lonerBuckets[dissenterId]) {
-                    lonerBuckets[dissenterId].push(decision);
+        let dataDecisions = JSON.parse(readTextFile(rootDir + (minVotes == 1? _data.lonerDecisions : _data.allDecisions)));
+        dataDecisions.forEach((decision) => {
+            let justiceId = minVotes == 1? decision.dissenterId : decision.majOpinWriter;
+            if (justiceId == "none") return;
+            if (justiceId == "CEHughes2") justiceId = "CEHughes1";
+            if (justiceId) {
+                if (dataBuckets[justiceId]) {
+                    dataBuckets[justiceId].push(decision);
                 } else {
-                    printf("warning: unable to find justice ID %s\n", dissenterId);
+                    printf("warning: unable to find justice ID %s\n", justiceId);
                 }
             }
         });
-        let dissenterIds = Object.keys(lonerBuckets);
-        dissenterIds.forEach((id) => {
-            lonerJustices.push({
-                id: getJusticeId(id),
-                name: vars.justiceName.values[id],
-                loneTotal: lonerBuckets[id].length,
-                loneDissents: lonerBuckets[id],
-            });
+        let justiceIds = Object.keys(dataBuckets);
+        justiceIds.forEach((id) => {
+            if (minVotes == 1) {
+                data.push({
+                    id: getJusticeId(id),
+                    name: vars.justiceName.values[id],
+                    loneTotal: dataBuckets[id].length,
+                    loneDissents: dataBuckets[id],
+                });
+            } else {
+                data.push({
+                    id: getJusticeId(id),
+                    name: vars.justiceName.values[id],
+                    majorityTotal: dataBuckets[id].length,
+                    majorityOpinions: dataBuckets[id],
+                });
+
+            }
         });
-        lonerJustices.sort(function(a,b) {
-            return (a.loneTotal < b.loneTotal)? 1 : ((a.loneTotal > b.loneTotal)? -1 : 0);
+        data.sort(function(a,b) {
+            if (minVotes == 1) {
+                return (a.loneTotal < b.loneTotal)? 1 : ((a.loneTotal > b.loneTotal)? -1 : 0);
+            } else {
+                return (a.majorityTotal < b.majorityTotal)? 1 : ((a.majorityTotal > b.majorityTotal)? -1 : 0);
+            }
         });
-        writeTextFile(rootDir + _data.lonerJustices, lonerJustices, argv['overwrite']);
+        writeTextFile(rootDir + dataFile, data, argv['overwrite']);
     }
-    let lonerIndex = "";
-    lonerJustices.forEach((justice) => {
-        printf("%s: %d dissent%s\n", justice.name, justice.loneTotal, justice.loneTotal == 1? '' : 's');
+    let index = "";
+    let category = minVotes == 1? "loners" : "all";
+    let type = minVotes == 1? "dissent" : "opinion";
+    let description = minVotes == 1? "Lone Dissents" : "Majority Opinions";
+    data.forEach((justice) => {
+        let total = (minVotes == 1? justice.loneTotal : justice.majorityTotal);
+        printf("%s: %d %s%s\n", justice.name, total, type, total == 1? '' : 's');
         if (argv['build']) {
             /*
             * Create a page for each Justice's lone dissents.
             */
-            let pageName = sprintf("Justice %s's Lone Dissents", justice.name);
-            let pathName = "/justices/loners/" + justice.id;
+            let pageName = sprintf("Justice %s's %s", justice.name, description);
+            let pathName = "/justices/" + category + "/" + justice.id;
             let fileName = "/_pages" + pathName + ".md";
             let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: cases\n';
             text += 'cases:\n';
-            justice.loneDissents.forEach((dissent) => {
+            let opinions = minVotes == 1? justice.loneDissents : justice.majorityOpinions;
+            opinions.forEach((opinion) => {
                 let volume = 0, page = 0;
-                let matchCite = dissent.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
+                let matchCite = opinion.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
                 if (matchCite) {
                     volume = +matchCite[1];  page = +matchCite[2];
                 }
-                text += '  - id: "' + dissent.caseId + '"\n';
-                text += '    termId: "' + dissent.termId + '"\n';
-                text += '    title: "' + dissent.caseName + '"\n';
+                text += '  - id: "' + opinion.caseId + '"\n';
+                text += '    termId: "' + opinion.termId + '"\n';
+                text += '    title: "' + opinion.caseName + '"\n';
                 if (volume) text += sprintf('    volume: "%03d"\n', volume);
                 if (page) text += sprintf('    page: "%03d"\n' , page);
-                if (dissent.pdfSource) text += '    pdfSource: "' + dissent.pdfSource + '"\n';
-                if (dissent.pdfPage) text += '    pdfPage: ' + dissent.pdfPage + '\n';
-                if (dissent.pdfPageDissent) text += '    pdfPageDissent: ' + dissent.pdfPageDissent + '\n';
-                text += '    dateDecision: "' + sprintf("%#C", dissent.dateDecision) + '"\n';
-                text += '    citation: "' + (dissent.usCite || ('No. ' + dissent.docket)) + '"\n';
-                text += '    dissenterId: "' + justice.id + '"\n';
-                text += '    dissenterName: "' + justice.name + '"\n';
+                if (opinion.pdfSource) text += '    pdfSource: "' + opinion.pdfSource + '"\n';
+                if (opinion.pdfPage) text += '    pdfPage: ' + opinion.pdfPage + '\n';
+                if (opinion.pdfPageopinion) text += '    pdfPageopinion: ' + opinion.pdfPageopinion + '\n';
+                text += '    dateDecision: "' + sprintf("%#C", opinion.dateDecision) + '"\n';
+                text += '    citation: "' + (opinion.usCite || ('No. ' + opinion.docket)) + '"\n';
+                if (minVotes == 1) {
+                    text += '    dissenterId: ' + justice.id + '\n';
+                    text += '    dissenterName: "' + justice.name + '"\n';
+                } else {
+                    text += '    authorId: ' + justice.id + '\n';
+                    text += '    authorName: "' + justice.name + '"\n';
+                }
             });
             text += '---\n';
             writeTextFile(rootDir + fileName, text, argv['overwrite'], true);
-            lonerIndex += sprintf("- [%s](/justices/loners/%s) (%d dissent%s)\n", justice.name, justice.id, justice.loneTotal, justice.loneTotal == 1? '' : 's');
+            index += sprintf("- [%s](/justices/%s/%s) (%d %s%s)\n", justice.name, category, justice.id, total, type, total == 1? '' : 's');
         }
     });
     /*
-     * And finally, build an index of all Justices with dissents.
+     * And finally, build an index of all Justices with their opinions.
      */
-    if (lonerIndex) {
-        let pathName = "/justices/loners";
+    if (index) {
+        let pathName = "/justices/" + category;
         let fileName = "/_pages" + pathName + ".md";
-        lonerIndex = '---\ntitle: "U.S. Supreme Court Justices with Lone Dissents"\npermalink: ' + pathName + '\nlayout: archive\n---\n\n' + lonerIndex;
-        writeTextFile(rootDir + fileName, lonerIndex, argv['overwrite']);
+        index = '---\ntitle: "U.S. Supreme Court Justices with ' + description + '"\npermalink: ' + pathName + '\nlayout: archive\n---\n\n' + index;
+        writeTextFile(rootDir + fileName, index, argv['overwrite']);
     }
     done();
+}
+
+/**
+ * findLonerJustices()
+ *
+ * @param {function()} done
+ */
+function findLonerJustices(done)
+{
+    findJustices(done, 1);
+}
+
+/**
+ * findAllJustices()
+ *
+ * @param {function()} done
+ */
+function findAllJustices(done)
+{
+    findJustices(done, 0);
 }
 
 /**
@@ -1696,8 +1824,10 @@ gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
 gulp.task("justices", buildJustices);
 gulp.task("allDecisions", findAllDecisions);
+gulp.task("allJustices", findAllJustices);
 gulp.task("lonerDecisions", findLonerDecisions);
 gulp.task("lonerJustices", findLonerJustices);
+gulp.task("all", gulp.series(findAllDecisions, findAllJustices));
 gulp.task("loners", gulp.series(findLonerDecisions, findLonerJustices));
 gulp.task("matches", findLonerMatches);
 gulp.task("backup", backupLonerDecisions);
