@@ -1,7 +1,7 @@
 ---
 title: "Terms of The Court"
 permalink: /cases/terms
-layout: archive
+layout: page
 ---
 
 As we first noted in our list of [U.S. Supreme Court Lone Dissents](/cases/loners#notes-on-terms),

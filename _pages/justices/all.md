@@ -1,7 +1,7 @@
 ---
 title: "U.S. Supreme Court Justices with Majority Opinions"
 permalink: /justices/all
-layout: archive
+layout: page
 ---
 
 - [Morrison Waite](/justices/all/mrwaite) (1000 opinions)

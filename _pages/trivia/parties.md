@@ -1,7 +1,7 @@
 ---
 title: "Loner Parties"
 permalink: /trivia/parties
-layout: archive
+layout: page
 ---
 
 ## Friday, March 10, 1809

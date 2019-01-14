@@ -1,7 +1,7 @@
 ---
 title: "U.S. Supreme Court Lone Dissents"
 permalink: /cases/loners
-layout: archive
+layout: page
 ---
 
 "Loners" is our slang for lone dissents.  This page provides links to all known lone dissents

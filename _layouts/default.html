@@ -1,42 +1,47 @@
----
----
-
-<!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.14.1 by Michael Rose
-  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+<!DOCTYPE html>
+<html>
   <head>
-    {% include head.html %}
-    {% include head/custom.html %}
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} – {{ site.description }}</title>
+    {% include meta.html %}
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    {% include analytics-gtag.html %}
+    <script src="{{ '/modules/anime.min.js' | relative_url }}"></script>
   </head>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-    {% include_cached browser-upgrade.html %}
-    {% include_cached masthead.html %}
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
 
-    <div class="initial-content">
+          <nav>
+            <a href="{{ site.baseurl }}/blog">Blog</a>
+            <a href="{{ site.baseurl }}/cases/loners">Loners</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
       {{ content }}
     </div>
 
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include_cached search/search_form.html %}
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
       </div>
-    {% endif %}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
     </div>
-
-    {% include scripts.html %}
 
   </body>
 </html>

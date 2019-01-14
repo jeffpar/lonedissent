@@ -1,6 +1,6 @@
 ---
 title: Welcome to Lone Dissent
-layout: home
+layout: page
 ---
 
 Welcome to Lone Dissent, a website dedicated to some of the loneliest work that U.S. Supreme Court Justices

@@ -1,7 +1,7 @@
 ---
 title: "U.S. Supreme Court Opinions"
 permalink: /cases/all
-layout: archive
+layout: page
 ---
 
 This page provides links to *all* opinions of the U.S. Supreme Court, not merely those containing

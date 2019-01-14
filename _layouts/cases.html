@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 ---
 
 {{ content }}
@@ -12,13 +12,12 @@ layout: archive
   {% elsif case.pdfSource == "scotusBound" %}
     {% capture pdfPath %}https://www.supremecourt.gov/opinions/boundvolumes/{{ case.volume }}bv{% endcapture %}
     {% capture pdfURL %}{% if case.pdfPageDissent %}{{ pdfPath }}.pdf#page={{ case.pdfPageDissent }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
-    {% capture pdfGIF %}/assets/images/usreports.gif{% endcapture %}
+    {% capture pdfGIF %}/images/usreports.gif{% endcapture %}
   {% else %}
     {% capture pdfPath %}https://www.supremecourt.gov/opinions/{{ case.pdfSource }}{% endcapture %}
     {% capture pdfURL %}{% if case.pdfPageDissent %}{{ pdfPath }}.pdf#page={{ case.pdfPageDissent }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
-    {% capture pdfGIF %}/assets/images/usreports.gif{% endcapture %}
+    {% capture pdfGIF %}/images/usreports.gif{% endcapture %}
   {% endif %}
-<hr/>
   <div id="{{ case.id }}" style="text-align:center">
     <h3>{{ case.title }}</h3>
     <p style="font-size:medium">{{ case.citation }}<br/>
@@ -35,4 +34,5 @@ layout: archive
       </a>
     </p>
   </div>
+  <hr/>
 {% endfor %}

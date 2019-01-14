@@ -1,0 +1,24 @@
+{%- assign attr_width = "" -%}
+{%- assign attr_height = "" -%}
+{%- if include.width -%}
+  {% capture attr_width %} width="{{ include.width }}"{% endcapture %}
+{%- endif -%}
+{%- if include.height -%}
+  {% capture attr_height %} height="{{ include.height }}"{% endcapture %}
+{%- endif -%}
+{% capture attr_name %} alt="{{ include.name }}"{% endcapture %}
+<div class="justice-frame">
+	<div class="justice-body">
+    {%- if include.link -%}
+		<a href="{{ site.baseurl }}{{ include.link }}">
+      <img id="{{ include.id }}-body" src="{{ site.baseurl }}{{ include.body }}"{{ attr_width }}{{ attr_height }}{{ attr_name }}/>
+		</a>
+	  {%- else -%}
+      <img id="{{ include.id }}-body" src="{{ site.baseurl }}{{ include.body }}"{{ attr_width }}{{ attr_height }}{{ attr_name }}/>
+	  {%- endif -%}
+    </div>
+    <div class="justice-head">
+      <img id="{{ include.id }}-head" src="{{ site.baseurl }}{{ include.head }}"{{ attr_width }}{{ attr_height }}{{ attr_name }}/>
+    </div>
+    <span class="justice-name">{{ include.name }}</span>
+</div>
