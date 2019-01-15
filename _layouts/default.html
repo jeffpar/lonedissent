@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} – {{ site.description }}</title>
-    {% include meta.html %}
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.description }}</title>
+    {%- include meta.html %}
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" />
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    {% include analytics-gtag.html %}
-    <script src="{{ '/modules/anime.min.js' | relative_url }}"></script>
+    {%- include analytics-gtag.html %}
+    <script src="{{ '/assets/js/anime.min.js' | relative_url }}"></script>
   </head>
 
   <body>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          <a href="{{ site.baseurl }}/" class="site-icon"><img src="{{ site.icon }}" /></a>
 
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
@@ -38,7 +39,7 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+          {%- include svg-icons.html %}
         </footer>
       </div>
     </div>

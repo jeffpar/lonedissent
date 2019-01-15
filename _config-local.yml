@@ -12,15 +12,15 @@ footer-links:
   pinterest:
   rss: feed.xml
   twitter: jeffpar
-  stackoverflow:
+  stackoverflow1: users/3357876/jeffpar
   youtube:
   googleplus:
 
 disqus:
 
-analytics_gtag: UA-131809531-1
+analytics_gtag:
 
-url: https://lonedissent.org
+url: http://localhost:4000
 
 baseurl: ""
 
@@ -35,7 +35,7 @@ kramdown:
     css_class: 'highlight'
 
 sass:
-  style: :compressed
+  style: :expanded
 
 plugins:
   - jekyll-sitemap
@@ -52,7 +52,9 @@ exclude:
   - CNAME
   - gulpfile.js
   - package*.json
+  - /_pages/cases
+  - /_pages/justices
   - /lib
   - /node_modules
-  - /sources/sites
+  - /sources
   - /tmp

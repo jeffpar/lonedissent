@@ -163,10 +163,10 @@ img {
   }
 }
 
-.site-avatar {
+.site-icon {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: 110px;
+  height: auto;
   margin-right: 15px;
 
   @include mobile {
@@ -243,8 +243,8 @@ nav {
 
 .page {
   blockquote {
-    margin-left: 2em;
-    margin-right: 4em;
+    margin-left: 1em;
+    margin-right: 2em;
     text-align: justify;
   }
 }
