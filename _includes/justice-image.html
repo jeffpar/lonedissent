@@ -1,24 +1,30 @@
 {%- assign attr_width = "" -%}
 {%- assign attr_height = "" -%}
 {%- if include.width -%}
-  {% capture attr_width %} width="{{ include.width }}"{% endcapture %}
+  {% capture div_width %}width:{{ include.width }}px; {% endcapture %}
+  {% capture img_width %}width="{{ include.width }}" {% endcapture %}
 {%- endif -%}
 {%- if include.height -%}
-  {% capture attr_height %} height="{{ include.height }}"{% endcapture %}
+  {% capture div_height %}height:{{ include.height }}px; {% endcapture %}
+  {% capture img_height %}height="{{ include.height }}" {% endcapture %}
 {%- endif -%}
-{% capture attr_name %} alt="{{ include.name }}"{% endcapture %}
-<div class="justice-frame">
+{%- if div_width or div_height -%}
+  {%- capture div_style %}style="{{ div_width }}{{ div_height }}"{% endcapture -%}
+{%- endif -%}
+{%- capture img_name %}alt="{{ include.name }}" {% endcapture -%}
+{%- capture img_attrs %}{{ img_width }}{{ img_height }}{{ img_name }}{% endcapture -%}
+<div class="justice-frame" {{ div_style }}>
 	<div class="justice-body">
-    {%- if include.link -%}
+    {%- if include.link %}
 		<a href="{{ site.baseurl }}{{ include.link }}">
-      <img id="{{ include.id }}-body" src="{{ site.baseurl }}{{ include.body }}"{{ attr_width }}{{ attr_height }}{{ attr_name }}/>
+      <img id="{{ include.id }}-body" src="{{ site.baseurl }}{{ include.body }}" {{ img_attrs }}/>
 		</a>
-	  {%- else -%}
-      <img id="{{ include.id }}-body" src="{{ site.baseurl }}{{ include.body }}"{{ attr_width }}{{ attr_height }}{{ attr_name }}/>
-	  {%- endif -%}
-    </div>
-    <div class="justice-head">
-      <img id="{{ include.id }}-head" src="{{ site.baseurl }}{{ include.head }}"{{ attr_width }}{{ attr_height }}{{ attr_name }}/>
-    </div>
-    <span class="justice-name">{{ include.name }}</span>
+	  {%- else %}
+      <img id="{{ include.id }}-body" src="{{ site.baseurl }}{{ include.body }}" {{ img_attrs }}/>
+	  {%- endif %}
+  </div>
+  <div class="justice-head">
+    <img id="{{ include.id }}-head" src="{{ site.baseurl }}{{ include.head }}" {{ img_name }}/>
+  </div>
+  <span class="justice-name">{{ include.name }}</span>
 </div>

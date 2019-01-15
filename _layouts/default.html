@@ -10,7 +10,11 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     {%- include analytics-gtag.html %}
+    {%- if site.local == true %}
+    <script src="{{ '/assets/js/anime.js' | relative_url }}"></script>
+    {%- else %}
     <script src="{{ '/assets/js/anime.min.js' | relative_url }}"></script>
+    {%- endif %}
   </head>
 
   <body>
