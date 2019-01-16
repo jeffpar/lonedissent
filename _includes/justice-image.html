@@ -23,7 +23,7 @@
       <img id="{{ include.id }}-body" src="{{ site.baseurl }}{{ include.body }}" {{ img_attrs }}/>
 	  {%- endif %}
   </div>
-  <div class="justice-head">
+  <div class="justice-head {{ include.animations }}">
     <img id="{{ include.id }}-head" src="{{ site.baseurl }}{{ include.head }}" {{ img_name }}/>
   </div>
   <span class="justice-name">{{ include.name }}</span>

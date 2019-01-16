@@ -1,5 +1,4 @@
 ---
-title: Welcome to Lone Dissent
 layout: page
 ---
 
