@@ -94,6 +94,8 @@ let parseXML = require('xml2js').parseString;
 
 let rootDir = ".";
 let datelib = require(rootDir + "/lib/datelib");
+let parseDate = datelib.parseDate;
+let adjustDays = datelib.adjustDays;
 let proclib = require(rootDir + "/lib/proclib");
 let stdio = require(rootDir + "/lib/stdio");
 let printf = stdio.printf;
@@ -103,6 +105,7 @@ let strlib = require(rootDir + "/lib/strlib");
 let _data = require(rootDir + "/_data/_data.json");
 let sources = require(rootDir + "/sources/sources.json");
 let argv = proclib.args.argv;
+let warnings = 0;
 
 /**
  * @typedef {object} Justice
@@ -661,7 +664,7 @@ function readCourts()
         }
         if (i < courts.length - 1) {
             let courtNext = courts[i+1];
-            let date = datelib.adjustDate(new Date(court.stop), 1);
+            let date = datelib.adjustDays(parseDate(court.stop), 1);
             let dateFormatted = sprintf("%#C", date);
             if (dateFormatted != courtNext.startFormatted) {
                 printf("end of %s court (%s) doesn't align with beginning of %s court (%s)\n", court.name, court.stopFormatted, courtNext.name, courtNext.startFormatted);
@@ -745,11 +748,11 @@ function readOyezJustices()
             /*
              * For some reason, all the Oyez XML justice dates appear to be off-by-one, so we compensate here.
              */
-            let date = datelib.adjustDate(new Date(xmlAppt.justiceSwornDate[0]._), 1);
+            let date = datelib.adjustDays(parseDate(xmlAppt.justiceSwornDate[0]._), 1);
             justice.start = sprintf("%#Y-%#02M-%#02D", date, date, date);
             justice.startFormatted = sprintf("%#C", justice.start);
             if (xmlAppt.justiceEndDate) {
-                date = datelib.adjustDate(new Date(xmlAppt.justiceEndDate[0]._), 1);
+                date = datelib.adjustDays(parseDate(xmlAppt.justiceEndDate[0]._), 1);
                 justice.stop = sprintf("%#Y-%#02M-%#02D", date, date, date);
                 justice.stopFormatted = sprintf("%#C", justice.stop);
                 if (xmlAppt.justiceReasonForLeaving) {
@@ -774,15 +777,21 @@ function readOyezJustices()
  */
 function readSCDBCourts()
 {
+    let startNext = null;
     let courts = parseCSV(readTextFile(rootDir + sources.scdb.courtsCSV));
     for (let i = 0; i < courts.length; i++) {
         let court = courts[i];
-        let start = new Date(court.naturalStart);
-        let stop = new Date(court.naturalStop);
+        let start = parseDate(court.naturalStart);
+        let stop = parseDate(court.naturalStop);
+        if (startNext && start.getTime() != startNext.getTime()) {
+            printf("warning: %s: current start date (%#C) does not match previous stop date (%#C)\n", court.naturalName, start, startNext);
+            warnings++;
+        }
         court.start = sprintf("%#Y-%#02M-%#02D", start, start, start);
         court.stop = sprintf("%#Y-%#02M-%#02D", stop, stop, stop);
         court.startFormatted = sprintf("%#C", start);
         court.stopFormatted = sprintf("%#C", stop);
+        startNext = datelib.adjustDays(stop, 1);
     }
     return courts;
 }
@@ -815,7 +824,7 @@ function buildCourts(done)
         for (let j = 0; j < courts.length; j++) {
             let court = courts[j];
             if (justice.start >= court.start && (!court.stop || justice.start <= court.stop)) {
-                let nDays = datelib.subtractDates(justice.start, court.start);
+                let nDays = datelib.subtractDays(justice.start, court.start);
                 if (lastCourtPrinted != court.id) {
                     if (nDays) printf("court %s: justice %s started within %d days\n", court.id, justice.name, nDays);
                     lastCourtPrinted = court.id;
@@ -906,8 +915,8 @@ function buildJustices(done)
             last = match[1];
             justice.name =  first + ' ' + last;
         }
-        let start = new Date(justice.startDate);
-        let stop = new Date(justice.stopDate);
+        let start = parseDate(justice.startDate);
+        let stop = parseDate(justice.stopDate);
         delete justice.startDate;
         delete justice.stopDate;
         justice.start = sprintf("%#Y-%#02M-%#02D", start, start, start);
@@ -1087,7 +1096,7 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
         } while (month && termDelta--);
         if (month) {
             let add = 0;
-            let date = new Date(Date.UTC(year, month - 1, firstDate));
+            let date = parseDate(year, month - 1, firstDate);
             if (weekday >= 0) {
                 let day = date.getUTCDay();
                 if (day <= weekday) {
@@ -1096,7 +1105,7 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
                     add = 7 - (day - weekday);
                 }
             }
-            date = datelib.adjustDate(date, add + dateDelta);
+            date = datelib.adjustDays(date, add + dateDelta);
             sDate = sprintf("%#Y-%#02M-%#02D", date, date, date);
             if (fPrint) printf("term %s: %s\n", dateDelta? "ending" : term, sprintf("%#C", date));
         }
@@ -1246,6 +1255,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let decided = argv['decided'], argued = argv['argued'];
     let start = argv['start'] || "", stop = argv['stop'] || "";
     let month = argv['month'] && sprintf("-%02d-", +argv['month']) || "";
+    let selectedCourt = argv['naturalCourt'] || 0;
     let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%s U.S. %s", volume, page);
 
     let text = argv['text'] || "";
@@ -1280,6 +1290,22 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let courts = JSON.parse(readTextFile(rootDir + sources.results.courts) || "[]");
     let justices = JSON.parse(readTextFile(rootDir + sources.results.justices) || "[]");
 
+    let scdbCourts = readSCDBCourts();
+    let findSCDBCourt = function(dateDecision, naturalCourt, usCite) {
+        for (let i = 0; i < scdbCourts.length; i++) {
+            let court = scdbCourts[i];
+            if (dateDecision >= court.start && dateDecision <= court.stop) {
+                if (naturalCourt != court.naturalCourt) {
+                    printf("warning: %s: decision date %s lies within court %s but naturalCourt %d doesn't match expected %d\n", usCite, dateDecision, court.naturalName, naturalCourt, court.naturalCourt);
+                    warnings++;
+                }
+                if (selectedCourt && naturalCourt != selectedCourt) continue;
+                return court.naturalCourt;
+            }
+        }
+        return 0;
+    };
+
     do {
         let year = 0;
         if (term) {
@@ -1300,23 +1326,26 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             termId = start.substr(0, 7);
             printf("\nprocessing term %s...\n", termId);
         }
+
         let results = [];
         decisions.forEach((decision) => {
             if (!caseId || decision.caseId == caseId) {
                 if (!minVotes || decision.minVotes == minVotes) {
                     if (!decided || decision.dateDecision.indexOf(decided) == 0) {
-                        if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
-                            if (!month || decision.dateDecision.indexOf(month) > 0) {
-                                if (!volume || !page && decision.usCite.indexOf(usCite) == 0 || volume && page && decision.usCite == usCite) {
-                                    if (!text || findText(decision.caseName)) {
-                                        let datePrint = decision.dateDecision;
-                                        if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
-                                            printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
-                                            results.push(decision);
-                                            if (decisionsAudited.indexOf(decision.caseId) < 0) {
-                                                decisionsAudited.push(decision.caseId);
-                                            } else {
-                                                decisionsDuplicated.push(decision.caseId);
+                        if (!selectedCourt || findSCDBCourt(decision.dateDecision, decision.naturalCourt, decision.usCite)) {
+                            if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
+                                if (!month || decision.dateDecision.indexOf(month) > 0) {
+                                    if (!volume || !page && decision.usCite.indexOf(usCite) == 0 || volume && page && decision.usCite == usCite) {
+                                        if (!text || findText(decision.caseName)) {
+                                            let datePrint = decision.dateDecision;
+                                            if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
+                                                printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
+                                                results.push(decision);
+                                                if (decisionsAudited.indexOf(decision.caseId) < 0) {
+                                                    decisionsAudited.push(decision.caseId);
+                                                } else {
+                                                    decisionsDuplicated.push(decision.caseId);
+                                                }
                                             }
                                         }
                                     }
@@ -1330,7 +1359,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 
         let range = (start || stop)? sprintf(" in range %s--%s", start, stop) : "";
         let condition = minVotes? sprintf(" with minVotes of %d", minVotes) : "";
-        printf("decisions%s%s: %d\n", range, condition, results.length);
+        printf(" results%s%s: %d\n", range, condition, results.length);
 
         if (results.length) {
             let nAdded = 0;
@@ -1455,18 +1484,18 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     /*
                      * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
                      * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
-                     * And finally, when using SCOTUS slip opinions, 'pdfSource' should be a path relative to their
-                     * slip opinions URL (eg, "17pdf/17-21_p8k0").
+                     * And finally, when using SCOTUS slip opinions, 'pdfSource' should be a SCOTUS path (eg,
+                     * "17pdf/17-21_p8k0").
                      *
                      * The LOC appears to have PDFs for everything up through U.S. Reports volume 542, which covers
-                     * the end of the 2003 term.  SCOTUS has bound volumes for U.S. Reports volumes 502 through 569,
+                     * the end of the 2003 term, and SCOTUS has bound volumes for U.S. Reports volumes 502 through 569,
                      * which spans terms 1991 through 2012, so there's a healthy overlap between LOC and SCOTUS.
                      *
                      * SCOTUS also has slip opinions for the 2012 term and up.  Moreover, SCOTUS claims it will keep
                      * slip opinions until they have been posted in a bound volume PDF.  This means that going forward,
                      * every new SCOTUS opinion will have a SCOTUS source (ie, bound or slip); unfortunately, it also
                      * means that periodically (ie, whenever SCOTUS decides to post a new bound volume PDF and remove
-                     * corresponding slip opinion PDFs) we will have to detect the missing opinions and remap them.
+                     * corresponding slip opinion PDFs), we will have to detect the missing opinions and remap them.
                      * Sigh.
                      *
                      * Regarding LOC, you can browse an entire volume like so:
@@ -1547,11 +1576,15 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
         }
     } while (term && endTerm && start < endTerm);
 
-    printf("matched %d decisions out of %d total\n", decisionsAudited.length, decisions.length);
+    printf("  totals: matched %d decisions out of %d\n", decisionsAudited.length, decisions.length);
 
     if (decisionsDuplicated.length) {
-        printf("checked %d decisions more than once (%j)\n", decisionsDuplicated.length, decisionsDuplicated);
+        printf("warning: checked %d decisions more than once (%j)\n", decisionsDuplicated.length, decisionsDuplicated);
+        warnings++;
     }
+
+    if (warnings) printf("warnings: %d\n", warnings);
+
     done();
 }
 
@@ -1775,38 +1808,45 @@ function testDates(done)
 {
     let date, format;
 
-    date = new Date("2018-08-10");              // date-only strings are considered UTC
-    printf("\nnew Date(\"2018-08-10\"): UTC\n");
-    format = "%s\t%#C\n\t%#T (UTC)\n";
+    date = parseDate("2018-08-10");
+    printf("\nparseDate(\"2018-08-10\")\n");
+    format = "%s\t%#C\n\t%#T\n";
     printf(format, format, date, date);
     format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
     format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
 
-    date = datelib.adjustDate(date, -365);      // adjustDate() works regardless of UTC vs. LOCAL
-    printf("\ndate = adjustDate(date, -365)\n");
+    date = datelib.adjustDays(date, -365);
+    printf("\ndate = adjustDays(date, -365)\n");
     format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
     format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
 
-    date = new Date(date.getTime());            // getTime() returns UTC, and Date() creates UTC
-    printf("\ndate = new Date(date.getTime()): UTC\n");
+    date = parseDate(date.getTime());
+    printf("\ndate = parseDate(date.getTime())\n");
     format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
     format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
 
-    date = new Date(2018, 7, 10);               // dates with multiple arguments are LOCAL (*not* UTC)
-    printf("\nnew Date(2018, 7, 10): LOCAL\n");
+    date = parseDate();
+    printf("\ndate = parseDate()\n");
     format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
     format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
 
-    date = new Date(2018, 7, 10, 18, 5, 30);    // dates with multiple arguments are LOCAL (*not* UTC)
-    printf("\nnew Date(2018, 7, 10, 18, 5, 30): LOCAL\n");
+    date = parseDate(2018, 7, 10);
+    printf("\nparseDate(2018, 7, 10)\n");
+    format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
+    printf(format, format, date, date, date, date, date, date, date, date);
+    format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
+    printf(format, format, date, date, date, date, date, date, date, date);
+
+    date = parseDate(2018, 7, 10, 18, 5, 30);
+    printf("\nparseDate(2018, 7, 10, 18, 5, 30)\n");
     format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
     format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
