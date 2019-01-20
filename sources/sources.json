@@ -10,6 +10,9 @@
     "decisionsCSV": "/sources/scdb/decisions.csv",
     "justicesCSV": "/sources/scdb/justices.csv"
   },
+  "scotus": {
+    "decisionDatesCSV": "/sources/scotus/decisionDates.csv"
+  },
   "results": {
     "courts": "/sources/results/courts.json",
     "courtsCSV": "/sources/results/courts.csv",

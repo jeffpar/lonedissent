@@ -797,6 +797,41 @@ function readSCDBCourts()
 }
 
 /**
+ * readSCOTUSDecisionDates()
+ *
+ * @return {Array}
+ */
+function readSCOTUSDecisionDates()
+{
+    let startNext = null;
+    let decisions = parseCSV(readTextFile(rootDir + sources.scotus.decisionDatesCSV));
+    let decisionDates = {};
+    for (let i = 0; i < decisions.length; i++) {
+        let decision = decisions[i];
+        if (!decision.dateDecision) {
+            printf("warning: %s (%s) has no decision date\n", decision.caseName, decision.usCite);
+            warnings++;
+            continue;
+        }
+        let match = decision.usCite.match(/([0-9]+) U.S. ([0-9]+)/);
+        if (!match) {
+            printf("warning: %s (%s) has unrecognized citation\n", decision.caseName, decision.usCite);
+            warnings++;
+            continue;
+        }
+        if (decisionDates[decision.usCite]) {
+            printf("warning: %s (%s) is duplicated: %s and %s\n", decision.caseName, decision.usCite, decision.dateDecision, decisionDates[decision.usCite].dateDecision);
+            warnings++;
+            continue;
+        }
+        decision.volume = match[1];
+        decision.page = match[2];
+        decisionDates[decision.usCite] = decision;
+    }
+    return decisionDates;
+}
+
+/**
  * buildCourts()
  *
  * @param {function()} done
@@ -1306,6 +1341,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
         return 0;
     };
 
+    let decisionDates = readSCOTUSDecisionDates();
+
     do {
         let year = 0;
         if (term) {
@@ -1329,6 +1366,12 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 
         let results = [];
         decisions.forEach((decision) => {
+            if (decisionDates[decision.usCite]) {
+                if (decision.dateDecision != decisionDates[decision.usCite].dateDecision) {
+                    printf("warning: %s (%s) has decision date %s instead of SCOTUS date %s\n", decision.caseName, decision.usCite, decision.dateDecision, decisionDates[decision.usCite].dateDecision);
+                    warnings++;
+                }
+            }
             if (!caseId || decision.caseId == caseId) {
                 if (!minVotes || decision.minVotes == minVotes) {
                     if (!decided || decision.dateDecision.indexOf(decided) == 0) {
