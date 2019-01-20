@@ -809,8 +809,11 @@ function readSCOTUSDecisionDates()
     for (let i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
         if (!decision.dateDecision) {
-            printf("warning: %s (%s) has no decision date\n", decision.caseName, decision.usCite);
-            warnings++;
+            /*
+             * This is OK, for now.  These are decisions for which SCOTUS had no exact date.
+             */
+            // printf("warning: %s (%s) has no decision date\n", decision.caseName, decision.usCite);
+            // warnings++;
             continue;
         }
         let match = decision.usCite.match(/([0-9]+) U.S. ([0-9]+)/);
@@ -819,14 +822,10 @@ function readSCOTUSDecisionDates()
             warnings++;
             continue;
         }
-        if (decisionDates[decision.usCite]) {
-            printf("warning: %s (%s) is duplicated: %s and %s\n", decision.caseName, decision.usCite, decision.dateDecision, decisionDates[decision.usCite].dateDecision);
-            warnings++;
-            continue;
-        }
         decision.volume = match[1];
         decision.page = match[2];
-        decisionDates[decision.usCite] = decision;
+        if (!decisionDates[decision.usCite]) decisionDates[decision.usCite] = [];
+        decisionDates[decision.usCite].push(decision);
     }
     return decisionDates;
 }
@@ -1366,9 +1365,15 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 
         let results = [];
         decisions.forEach((decision) => {
-            if (decisionDates[decision.usCite]) {
-                if (decision.dateDecision != decisionDates[decision.usCite].dateDecision) {
-                    printf("warning: %s (%s) has decision date %s instead of SCOTUS date %s\n", decision.caseName, decision.usCite, decision.dateDecision, decisionDates[decision.usCite].dateDecision);
+            let scotusDates = decisionDates[decision.usCite];
+            if (scotusDates) {
+                let i, scotusDate;
+                for (i = 0; i < scotusDates.length; i++) {
+                    scotusDate = scotusDates[i];
+                    if (decision.dateDecision == scotusDate.dateDecision) break;
+                }
+                if (i == scotusDates.length && scotusDate.dateDecision) {
+                    printf("warning: %s (%s) has decision date %s instead of SCOTUS date %s\n", decision.caseName, decision.usCite, decision.dateDecision, scotusDate.dateDecision);
                     warnings++;
                 }
             }
