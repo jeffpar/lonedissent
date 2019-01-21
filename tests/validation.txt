@@ -1,0 +1,777 @@
+[17:08:06] Using gulpfile ~/Sites/lonedissent/gulpfile.js
+[17:08:06] Starting 'default'...
+decisions available: 28779
+warning: No Chief (Post-Rutledge): current start date (Thursday, February 4, 1796) does not match previous stop date (Wednesday, December 16, 1795)
+warning: THE STATE OF GEORGIA VERSUS BRAILSFORD, et al. (2 U.S. 402) has unusual decision day: Saturday, August 11, 1792
+warning: HAYBURN'S CASE (2 U.S. 409) has unusual decision day: Saturday, August 11, 1792
+warning: TALBOT, APPELLANT, VERSUS JANSON, APPELLEE, et al. (3 U.S. 133) has unusual decision day: Saturday, August 22, 1795
+warning: HUNTER VERSUS FAIRFAX'S DEVISEE (3 U.S. 305) has unusual decision day: Saturday, August 6, 1796
+warning: CLERKE, PLAINTIFF IN ERROR VERSUS HARWOOD (3 U.S. 342) has unusual decision day: Saturday, February 11, 1797
+warning: COURSE et al. VERSUS STEAD ET UX. et al. (4 U.S. 22) has unusual decision day: Saturday, February 8, 1800
+warning: BLAINE VERSUS SHIP CHARLES CARTER et al. (4 U.S. 22) has unusual decision day: Saturday, February 8, 1800
+warning: TALBOT VERSUS THE SHIP AMELIA, SEEMAN, CLAIMANT (4 U.S. 34) has decision date 1801-08-15 instead of SCOTUS date 1800-08-15
+warning: TALBOT VERSUS THE SHIP AMELIA, SEEMAN, CLAIMANT (4 U.S. 34) has unusual decision day: Saturday, August 15, 1801
+warning: WILSON v. LENOX AND MAITLAND (5 U.S. 194) has unusual decision day: Saturday, February 26, 1803
+warning: THOMPSON v. JAMESON (5 U.S. 282) has unusual decision day: Saturday, February 26, 1803
+warning: MANDEVILLE AND JAMESON v. JOSEPH RIDDLE AND CO (5 U.S. 290) has unusual decision day: Saturday, February 26, 1803
+warning: 6 U.S. 280: decision date 1805-03-06 lies within court Marshall 2 (402) but naturalCourt is different (401)
+warning: HEAD &amp; AMORY v. THE PROVIDENCE INSURANCE COMPANY (6 U.S. 127) has unusual decision day: Saturday, February 25, 1804
+warning: HODGSON v. BUTTS (7 U.S. 140) has unusual decision day: Saturday, March 2, 1805
+warning: UNITED STATES v. BENJAMIN MORE (7 U.S. 159) has unusual decision day: Saturday, March 2, 1805
+warning: FAW v. ROBERDEAU'S EXECUTOR (7 U.S. 174) has unusual decision day: Saturday, March 2, 1805
+warning: THE UNITED STATES v. GRUNDY AND THORNBURGH (7 U.S. 337) has unusual decision day: Saturday, February 22, 1806
+warning: BUDDICUM v. KIRK (7 U.S. 293) has unusual decision day: Saturday, March 1, 1806
+warning: THE UNITED STATES v. WILLINGS AND FRANCIS (8 U.S. 48) has unusual decision day: Saturday, February 14, 1807
+warning: ONEALE v. LONG (8 U.S. 60) has unusual decision day: Saturday, February 14, 1807
+warning: HOPKIRK v. BELL (8 U.S. 164) has unusual decision day: Saturday, February 28, 1807
+warning: HICKS et al. v. ROGERS (8 U.S. 165) has unusual decision day: Saturday, February 28, 1807
+warning: THE UNITED STATES v. ZEBULON CANTRIL (8 U.S. 167) has unusual decision day: Saturday, February 28, 1807
+warning: STHRESHLEY AND OBANNON v. THE UNITED STATES (8 U.S. 169) has unusual decision day: Saturday, February 28, 1807
+warning: HUMPHREY MARSHALL AND WIFE, v. JAMES CURRIE (8 U.S. 172) has unusual decision day: Saturday, February 28, 1807
+warning: VIERS AND WIFE v. MONTGOMERY (8 U.S. 177) has unusual decision day: Saturday, February 28, 1807
+warning: DIGGS AND KEITH v. WOLCOTT (8 U.S. 179) has unusual decision day: Saturday, February 28, 1807
+warning: 8 U.S. 237: decision date 1808-02-29 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 239: decision date 1808-02-29 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 293: decision date 1808-03-02 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 299: decision date 1808-03-02 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 306: decision date 1808-03-04 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has decision date 1807-03-07 instead of SCOTUS date 1808-03-07
+warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has unusual decision day: Saturday, March 7, 1807
+warning: 8 U.S. 317: decision date 1808-03-07 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 324: decision date 1808-03-08 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 328: decision date 1808-03-08 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 333: decision date 1808-03-08 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 347: decision date 1808-03-09 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 370: decision date 1808-03-11 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: MATTHEWS v. ZANE (8 U.S. 382) has unusual decision day: Saturday, March 12, 1808
+warning: 8 U.S. 382: decision date 1808-03-12 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: YOUNG v. THE BANK OF ALEXANDRIA (8 U.S. 384) has unusual decision day: Saturday, March 12, 1808
+warning: 8 U.S. 384: decision date 1808-03-12 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 398: decision date 1808-03-14 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 401: decision date 1808-03-14 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 403: decision date 1808-03-14 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 415: decision date 1808-03-14 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: DAWSON'S LESSEE v. GODFREY (8 U.S. 321) has decision date 1807-03-15 instead of SCOTUS date 1808-03-15
+warning: DAWSON'S LESSEE v. GODFREY (8 U.S. 321) has unusual decision day: Sunday, March 15, 1807
+warning: 8 U.S. 421: decision date 1808-03-15 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: 8 U.S. 241: decision date 1808-03-02 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: PAWLING AND OTHERS v. THE UNITED STATES (8 U.S. 219) has unusual decision day: Saturday, February 27, 1808
+warning: 8 U.S. 443: decision date 1808-03-16 lies within court Marshall 4 (404) but naturalCourt is different (403)
+warning: M'KEEN v. DELANCY'S LESSEE (9 U.S. 22) has unusual decision day: Saturday, March 11, 1809
+warning: DULANY v. HODGKIN (9 U.S. 333) has unusual decision day: Saturday, March 11, 1809
+warning: HODGSON AND THOMPSON v. BOWERBANK AND OTHERS (9 U.S. 303) has unusual decision day: Saturday, February 10, 1810
+warning: YOUNG v. GRUNDY (10 U.S. 51) has unusual decision day: Saturday, February 10, 1810
+warning: KING v. THE DELAWARE INSURANCE COMPANY (10 U.S. 71) has unusual decision day: Saturday, February 17, 1810
+warning: LEWIS v. HARWOOD (10 U.S. 82) has unusual decision day: Saturday, February 24, 1810
+warning: THE UNITED STATES v. HALL AND WORTH (10 U.S. 171) has unusual decision day: Saturday, March 3, 1810
+warning: ATKINSON v. THE MUTUAL ASSURANCE SOCIETY AGAINST FIRE, ON BUILDINGS OF THE STATE OF VIRGINIA (10 U.S. 202) has unusual decision day: Saturday, March 17, 1810
+warning: THE MARINE INSURANCE COMPANY OF ALEXANDRIA v. HODGSON (10 U.S. 206) has unusual decision day: Saturday, March 17, 1810
+warning: HUDSON AND SMITH v. GUESTIER (10 U.S. 281) has unusual decision day: Saturday, March 17, 1810
+warning: SERE AND LARALDE v. PITOT AND OTHERS (10 U.S. 332) has unusual decision day: Saturday, March 17, 1810
+warning: THE MARYLAND INSURANCE COMPANY v. RUDEN'S ADMINISTRATOR (10 U.S. 338) has unusual decision day: Saturday, March 17, 1810
+warning: MARYLAND INSURANCE COMPANY v. LE ROY, BAYARD &amp; M'EVERS (11 U.S. 26) has unusual decision day: Saturday, February 22, 1812
+warning: HUGHES v. MOORE (11 U.S. 176) has unusual decision day: Saturday, March 7, 1812
+warning: THE UNITED STATES v. HUDSON AND GOODWIN (11 U.S. 32) has unusual decision day: Saturday, March 14, 1812
+warning: BARTON v. PETIT AND BAYARD (11 U.S. 194) has unusual decision day: Saturday, March 14, 1812
+warning: SHEEHY v. MANDEVILLE (11 U.S. 208) has unusual decision day: Saturday, March 14, 1812
+warning: CONWAY'S EXECUTORS AND DEVISEES v. ALEXANDER (11 U.S. 218) has unusual decision day: Saturday, March 14, 1812
+warning: DUNLOP v. MUNROE (11 U.S. 242) has unusual decision day: Saturday, March 14, 1812
+warning: WISE &amp; LYNN v. THE COLUMBIAN TURNPIKE COMPANY (11 U.S. 276) has unusual decision day: Saturday, March 14, 1812
+warning: BLACKWELL v. PATTEN AND OTHERS (11 U.S. 277) has unusual decision day: Saturday, March 14, 1812
+warning: M'KIM v. VOORHIES (11 U.S. 279) has unusual decision day: Saturday, March 14, 1812
+warning: THE BANK OF COLUMBIA v. PATTERSON'S ADM'R (11 U.S. 299) has unusual decision day: Saturday, February 13, 1813
+warning: CLARK'S EXECUTORS v. CARRINGTON (11 U.S. 308) has unusual decision day: Saturday, February 13, 1813
+warning: THE SCHOONER GOOD CATHARINE v. THE UNITED STATES (11 U.S. 349) has unusual decision day: Saturday, February 20, 1813
+warning: THE SCHOONER HOPPET AND CARGO v. THE UNITED STATES (11 U.S. 389) has unusual decision day: Saturday, February 27, 1813
+warning: THE MARYLAND INSURANCE COMPANY. v. WOOD (11 U.S. 402) has unusual decision day: Saturday, March 13, 1813
+warning: BIAYS v. THE CHESAPEAKE INSURANCE COMPANY (11 U.S. 415) has unusual decision day: Saturday, March 6, 1813
+warning: OLIVER v. THE MARYLAND INSURANCE COMPANY (11 U.S. 487) has unusual decision day: Saturday, March 13, 1813
+warning: THE COMMON COUNCIL OF ALEXANDRIA v. PRESTON (12 U.S. 53) has unusual decision day: Saturday, February 19, 1814
+warning: CLEMENTSON v. WILLIAMS (12 U.S. 72) has unusual decision day: Saturday, February 19, 1814
+warning: GRACIE v. THE MARINE INSURANCE COMPANY OF BALTIMORE (12 U.S. 75) has unusual decision day: Saturday, February 19, 1814
+warning: THE VENUS, RAE, MASTER (12 U.S. 253) has unusual decision day: Saturday, March 12, 1814
+warning: THE MERRIMACK (12 U.S. 317) has unusual decision day: Saturday, March 12, 1814
+warning: THE FRANCES, BOYER, MASTER.  (THOMPSON AND AL. CLAIMANTS. (12 U.S. 335) has unusual decision day: Saturday, March 12, 1814
+warning: THE FRANCES, BOYER, MASTER.  (GRAHAM'S CLAIM. (12 U.S. 348) has unusual decision day: Saturday, March 12, 1814
+warning: THE FRANCES, BOYER, MASTER.  (DUNHAM AND RANDOLPH'S CLAIM. (12 U.S. 354) has unusual decision day: Saturday, March 12, 1814
+warning: THE FRANCES, BOYER, MASTER.  (KENNEDY'S CLAIM) (12 U.S. 358) has unusual decision day: Saturday, March 12, 1814
+warning: THE FRANCES, BOYER, MASTER.  (GILLESPIE'S CLAIM) (12 U.S. 363) has unusual decision day: Saturday, March 12, 1814
+warning: PARKER v. RULE'S LESSEE (13 U.S. 64) has unusual decision day: Saturday, February 18, 1815
+warning: BRIG STRUGGLE (THOMAS LEIGH, CLAIMANT.) v. THE UNITED STATES (13 U.S. 71) has unusual decision day: Saturday, February 18, 1815
+warning: THE ST. LAWRENCE, WEBB, MASTER.  (M'GREGOR AND PENNIMAN CLAIMANTS. (13 U.S. 120) has unusual decision day: Saturday, February 25, 1815
+warning: DRUMMOND'S ADMINISTRATORS v. MAGRUDER &amp; CO'S. TRUSTEES (13 U.S. 122) has unusual decision day: Saturday, February 25, 1815
+warning: THE MARY, STAFFORD, MASTER (13 U.S. 126) has unusual decision day: Saturday, February 25, 1815
+warning: THIRTY HOGSHEADS OF SUGAR, (ADRIAN B. BENTZON, CLAIMANT,) v. BOYLE AND OTHERS, BEING THE OFFICERS AND CREW OF THE PRIVATEER COMET (13 U.S. 191) has unusual decision day: Saturday, March 4, 1815
+warning: EVANS v. JORDAN AND MOREHEAD (13 U.S. 199) has unusual decision day: Saturday, March 4, 1815
+warning: THE UNITED STATES v. BRYAN AND WOODCOCK, (GARNISHEES OF HENDRICKSON. (13 U.S. 374) has unusual decision day: Saturday, March 11, 1815
+warning: THE BRIG CONCORD, TAYLOR, MASTER (13 U.S. 387) has unusual decision day: Saturday, March 11, 1815
+warning: THE NEREIDE, BENNETT, MASTER (13 U.S. 388) has unusual decision day: Saturday, March 11, 1815
+warning: PRATT, AND OTHERS, ORIGINAL COMPLAINANTS, v. THOMAS LAW, AND WILLIAM CAMPBELL, ORIGINAL DEFENDANTS (13 U.S. 456) has unusual decision day: Saturday, March 11, 1815
+warning: THE GEORGE, THE BOTHNEA, AND THE IANSTAFF (14 U.S. 408) has unusual decision day: Saturday, March 23, 1816
+warning: NEGRESS SALLY HENRY, BY WILLIAM HENRY, HER FATHER AND NEXT FRIEND, v. BALL (14 U.S. 1) has unusual decision day: Saturday, February 10, 1816
+warning: THE VENUS. -- JADEMEROWSKY, CLAIMANT (14 U.S. 112) has unusual decision day: Saturday, March 2, 1816
+warning: HEPBURN &amp; DUNDAS' HEIRS AND EXECUTORS v. DUNLOP &amp; COMPANY (14 U.S. 179) has unusual decision day: Saturday, March 9, 1816
+warning: THE ST. JOZE INDIANO. -- LIZAUR, CLAIMANT (14 U.S. 208) has unusual decision day: Saturday, March 9, 1816
+warning: THE EDWARD. -- SCOTT, CLAIMANT (14 U.S. 261) has unusual decision day: Saturday, March 16, 1816
+warning: GREENLEAF v. COOK (15 U.S. 13) has unusual decision day: Saturday, February 8, 1817
+warning: THE SAN PEDRO -- VALVERDE, CLAIMANT (15 U.S. 132) has unusual decision day: Saturday, March 1, 1817
+warning: LAIDLAW et al. v. ORGAN (15 U.S. 178) has unusual decision day: Saturday, March 15, 1817
+warning: THE UNITED STATES v. TENBROEK (15 U.S. 248) has unusual decision day: Saturday, March 15, 1817
+warning: THE GEORGE (15 U.S. 278) has unusual decision day: Saturday, March 15, 1817
+warning: THE ELEANOR.  DONNELL, CLAIMANT (15 U.S. 345) has unusual decision day: Saturday, March 15, 1817
+warning: LENOX et al. v. ROBERTS (15 U.S. 373) has unusual decision day: Saturday, March 15, 1817
+warning: LEEDS v. THE MARINE INSURANCE COMPANY OF ALEXANDRIA (15 U.S. 380) has unusual decision day: Saturday, March 15, 1817
+warning: RABORG et al. v. PEYTON (15 U.S. 385) has unusual decision day: Saturday, March 15, 1817
+warning: THE UNION BANK OF GEORGETOWN v. LAIRD (15 U.S. 390) has unusual decision day: Saturday, March 15, 1817
+warning: THE UNITED STATES v. BARKER (15 U.S. 395) has unusual decision day: Saturday, March 15, 1817
+warning: THELUSSON et al. v. SMITH (15 U.S. 396) has unusual decision day: Saturday, March 15, 1817
+warning: THE UNITED STATES v. BEVANS (16 U.S. 336) has unusual decision day: Saturday, February 21, 1818
+warning: THE ANNE, BARNABEU, CLAIMANT (16 U.S. 435) has unusual decision day: Saturday, March 7, 1818
+warning: BROWN v. JACKSON (16 U.S. 449) has unusual decision day: Saturday, March 7, 1818
+warning: EVANS v. EATON (16 U.S. 454) has unusual decision day: Saturday, March 7, 1818
+warning: CAMERON v. M'ROBERTS (16 U.S. 591) has unusual decision day: Saturday, March 7, 1818
+warning: THE UNITED STATES v. PALMER et al. (16 U.S. 610) has unusual decision day: Saturday, March 14, 1818
+warning: M'MILLAN v. M'NEILL (17 U.S. 209) has unusual decision day: Saturday, February 20, 1819
+warning: ELIASON et al. v. HENSHAW (17 U.S. 225) has unusual decision day: Saturday, February 20, 1819
+warning: SOMERVILLE'S EXECUTORS v. HAMILTON (17 U.S. 230) has unusual decision day: Saturday, February 20, 1819
+warning: M'CULLOCH v. THE STATE OF MARYLAND et al. (17 U.S. 316) has unusual decision day: Saturday, March 6, 1819
+warning: ASTOR v. WELLS et al. (17 U.S. 466) has unusual decision day: Saturday, March 6, 1819
+warning: STEVENSON'S HEIRS v. SULLIVANT (18 U.S. 207) has unusual decision day: Saturday, March 4, 1820
+warning: HUGHES v. BLAKE (19 U.S. 453) has unusual decision day: Saturday, March 10, 1821
+warning: HOOFNAGLE AND OTHERS v. ANDERSON (20 U.S. 212) has unusual decision day: Saturday, March 2, 1822
+warning: MILLER AND OTHERS v. KERR AND OTHERS (20 U.S. 1) has decision date 1822-03-15 instead of SCOTUS date 1821-03-15
+warning: THE GRAN PARA. THE CONSUL-GENERAL OF PORTUGAL, LIBELLANT (20 U.S. 471) has unusual decision day: Saturday, March 16, 1822
+warning: THE EXPERIMENT (21 U.S. 261) has unusual decision day: Saturday, February 15, 1823
+warning: NICHOLLS, PLAINTIFF IN ERROR, v. WEBB, DEFENDANT IN ERROR (21 U.S. 326) has unusual decision day: Saturday, February 22, 1823
+warning: THE PITT.  M'NUTT, CLAIMANT (21 U.S. 371) has unusual decision day: Saturday, March 1, 1823
+warning: THE MARY ANN.  PLUMER, CLAIMANT (21 U.S. 380) has unusual decision day: Saturday, March 1, 1823
+warning: LA NEREYDA.  THE SPANISH CONSUL, LIBELLANT (21 U.S. 108) has unusual decision day: Saturday, March 15, 1823
+warning: THE CORPORATION OF THE CITY OF WASHINGTON, AND OTHERS, APPELLANTS, v. PRATT, FRANCIS, AND OTHERS, RESPONDENTS (21 U.S. 681) has unusual decision day: Saturday, March 15, 1823
+warning: SNEED AND OTHERS, PLAINTIFFS IN ERROR, v. WISTER AND OTHERS, DEFENDANTS IN ERROR (21 U.S. 690) has unusual decision day: Saturday, March 15, 1823
+warning: THE MARGARET, ALIAS CARLOS FERNANDO, HALEY, CLAIMANT (22 U.S. 421) has unusual decision day: Saturday, February 28, 1824
+warning: LOVE, PLAINTIFF IN ERROR, v. SIMMS' LESSEE, DEFENDANT IN ERROR (22 U.S. 515) has unusual decision day: Saturday, February 28, 1824
+warning: THE FANNY.  THE CONSUL-GENERAL OF PORTUGAL, LIBELLANT (22 U.S. 658) has unusual decision day: Saturday, February 28, 1824
+warning: MILLER v. STEWART AND OTHERS (22 U.S. 680) has unusual decision day: Saturday, February 28, 1824
+warning: SEBREE AND OTHERS, PLAINTIFFS IN ERROR, v. DORR, DEFENDANT IN ERROR (22 U.S. 558) has unusual decision day: Saturday, March 6, 1824
+warning: DANFORTH v. WEAR (22 U.S. 673) has unusual decision day: Saturday, March 6, 1824
+warning: GEORGE M'GRUDER, PLAINTIFF IN ERROR, v. THE PRESIDENT, DIRECTORS, AND COMPANY OF THE BANK OF WASHINGTON, DEFENDANTS IN ERROR (22 U.S. 598) has unusual decision day: Saturday, March 13, 1824
+warning: ex parte WOOD &amp; BRUNDAGE (22 U.S. 603) has unusual decision day: Saturday, March 20, 1824
+warning: CARNEAL AND OTHERS, APPELLANTS, v. BANKS, RESPONDENT (23 U.S. 181) has unusual decision day: Saturday, February 19, 1825
+warning: THE PALMYRA.  DEPAU, CLAIMANT (23 U.S. 502) has unusual decision day: Saturday, February 19, 1825
+warning: THE SANTA MARIA.  THE SPANISH CONSUL, LIBELLANT (23 U.S. 431) has unusual decision day: Saturday, February 26, 1825
+warning: DARBY'S LESSEE v. MAYER AND ANOTHER (23 U.S. 465) has unusual decision day: Saturday, March 12, 1825
+warning: THE ANTELOPE.  THE VICE-CONSULS OF SPAIN AND PORTUGAL, LIBELLANTS (23 U.S. 66) has decision date 1825-03-25 instead of SCOTUS date 1825-03-15
+warning: THE PRESIDENT, DIRECTORS, AND COMPANY OF THE BANK OF THE UNITED STATES v. THE PRESIDENT, DIRECTORS, AND COMPANY OF THE BANK OF THE STATE OF GEORGIA (23 U.S. 333) has unusual decision day: Saturday, March 19, 1825
+warning: KEPLINGER v. DE YOUNG (23 U.S. 358) has unusual decision day: Saturday, March 19, 1825
+warning: WETZELL v. BUSSARD (24 U.S. 309) has unusual decision day: Saturday, February 11, 1826
+warning: FOWLE v. THE COMMON COUNCIL OF ALEXANDRIA (24 U.S. 320) has unusual decision day: Saturday, March 11, 1826
+warning: ARMSTRONG, PLAINTIFF IN ERROR, v. TOLER, DEFENDANT IN ERROR (24 U.S. 258) has unusual decision day: Saturday, March 4, 1826
+warning: DOE, EX DEM. GOVERNEUR'S HEIRS, v. ROBERTSON AND OTHERS (24 U.S. 332) has unusual decision day: Saturday, March 4, 1826
+warning: STEPHEN HARDING AND OTHERS, APPELLANTS, v. ASA HANDY AND CALEB WHEATON, RESPONDENTS (24 U.S. 103) has unusual decision day: Saturday, March 11, 1826
+warning: SHELBY AND OTHERS, EXECUTORS OF SHELBY, PLAINTIFFS IN ERROR, v. GUY, DEFENDANT IN ERROR (24 U.S. 361) has unusual decision day: Saturday, March 18, 1826
+warning: SCOTT AND OTHERS, APPELLANTS, v. SHREEVE AND OTHERS, RESPONDENTS (25 U.S. 605) has unusual decision day: Saturday, January 20, 1827
+warning: CHOTARD AND OTHERS v. POPE AND ANOTHER (25 U.S. 586) has unusual decision day: Saturday, February 10, 1827
+warning: MALLOW AND OTHERS v. HINDE (25 U.S. 193) has unusual decision day: Saturday, February 17, 1827
+warning: DUNLAP AND ANOTHER, APPELLANTS, v. DUNLAP AND OTHERS, RESPONDENTS (25 U.S. 574) has unusual decision day: Saturday, February 17, 1827
+warning: LIDDERDALE'S EXECUTORS v. THE EXECUTOR OF ROBINSON (25 U.S. 594) has unusual decision day: Saturday, February 17, 1827
+warning: HARCOURT AND OTHERS v. GAILLARD AND OTHERS (25 U.S. 523) has unusual decision day: Saturday, March 3, 1827
+warning: THE ANTELOPE.  THE SPANISH AND PORTUGUESE CONSULS, CLAIMANTS (25 U.S. 546) has unusual decision day: Saturday, March 10, 1827
+warning: PETER DOX, GERRIT LA GRANGE, AND ISAIAH TOWNSEND, IMPLEADED WITH GERRIT L. DOX, PLAINTIFFS IN ERROR, VS. THE POSTMASTER-GENERAL OF THE UNITED STATES, DEFENDANT IN ERROR (26 U.S. 318) has unusual decision day: Saturday, January 19, 1828
+warning: OLD GRANT, ON THE DEMISE OF SAMUEL MEREDITH, PLAINTIFF IN ERROR, VS. JOHN M'KEE, FOR THE USE OF THE BANK OF THE COMMONWEALTH OF KENTUCKY (26 U.S. 248) has unusual decision day: Saturday, January 26, 1828
+warning: JAMES ELLIOTT THE YOUNGER, BENJAMIN ELLIOTT, ANDERSON TAYLOR, REUBEN PATER, PATSEY ELLIOTT, AND WILFORD LEPELL, VS. THE LESSEE OF WILLIAM PEIRSOL, LYDIA PEIRSOL, ANN NORTH, JANE NORTH, SOPHIA NORTH, ELIZABETH F. P. NORTH, AND WILLIAM NORTH, DE (26 U.S. 328) has unusual decision day: Saturday, February 16, 1828
+warning: CLEMENT S. HUNT, APPELLANT, VS. CHRISTOPHER RHODES, WILLIAM ENNIS, AND RICHARD K. RANDOLPH, ADMINISTRATORS OF LEWIS ROUSMANIERE, DECEASED, APPELLEES (26 U.S. 1) has unusual decision day: Saturday, March 15, 1828
+warning: DANIEL PARKER, PLAINTIFF IN ERROR, VS. THE UNITED STATES (26 U.S. 293) has unusual decision day: Saturday, March 15, 1828
+warning: THE AMERICAN INSURANCE COMPANY, AND THE OCEAN INSURANCE COMPANY, (OF NEW-YORK,) APPELLANTS, VS. 356 BALES OF COTTON, DAVID CANTER CLAIMANT AND APPELLEE (26 U.S. 511) has unusual decision day: Saturday, March 15, 1828
+warning: JOHN P. VAN NESS AND MARCIA HIS WIFE, PLAINTIFFS IN ERROR VS. PEREZ PACARD, DEFENDANT IN ERROR (27 U.S. 137) has unusual decision day: Saturday, February 7, 1829
+warning: ROBERT BOYCE, PLAINTIFF IN ERROR VS. PAUL ANDERSON, DEFENDANT IN ERROR (27 U.S. 150) has unusual decision day: Saturday, February 7, 1829
+warning: THE PRESIDENT AND DIRECTORS OF THE BANK OF THE COMMONWEALTH OF KENTUCKY, PLAINTIFFS IN ERROR VS. JOHN WISTER, JOHN M. PRICE AND CHARLES J. WISTER, DEFENDANTS (27 U.S. 318) has unusual decision day: Saturday, February 14, 1829
+warning: THE PRESIDENT, DIRECTORS AND COMPANY OF THE BANK OF THE COMMONWEALTH OF KENTUCKY, PLAINTIFFS IN ERROR VS. JOHN ASHLEY AND JOHN ELLA, DEFENDANTS (27 U.S. 327) has unusual decision day: Saturday, February 14, 1829
+warning: SOLOMON SOUTHWICK, SPENCER STAFFORD, AND JOHN VAN NESS GATES, PLAINTIFFS IN ERROR VS. THE POSTMASTER GENERAL OF THE UNITED STATES (27 U.S. 442) has unusual decision day: Saturday, March 7, 1829
+warning: JAMES CONOLLY AND OTHERS, APPELLANTS VS. RICHARD TAYLOR AND OTHERS, APPELLEES (27 U.S. 556) has unusual decision day: Saturday, March 7, 1829
+warning: RICHARD R. KEENE, PLAINTIFF IN ERROR VS. MARGARET MEADE, EXECUTRIX OF RICHARD W. MEADE, DECEASED, DEFENDANT IN ERROR (28 U.S. 1) has unusual decision day: Saturday, January 23, 1830
+warning: ex parte TOBIAS WATKINS (28 U.S. 193) has unusual decision day: Saturday, February 6, 1830
+warning: JAMES JACKSON, ON THE DEMISE OF HARMAN v. HART, PLAINTIFF IN ERROR VS. ELIAS LAMPHIRE, DEFENDANT IN ERROR (28 U.S. 280) has unusual decision day: Saturday, February 6, 1830
+warning: THOMAS WILLISON, PLAINTIFF IN ERROR VS.  ANDERSON WATKINS, DEFENDANT IN ERROR (28 U.S. 43) has unusual decision day: Saturday, February 20, 1830
+warning: WILLIAM FOWLE, SURVIVING PARTNER, PLAINTIFF IN ERROR VS. THE COMMON COUNCIL OF ALEXANDRIA (28 U.S. 398) has unusual decision day: Saturday, February 20, 1830
+warning: JOHN LLOYD, PLAINTIFF IN ERROR VS. CHARLES SCOTT, BAILIFF OF WILLIAM S. MOORE, DEFENDANT (29 U.S. 205) has unusual decision day: Saturday, February 27, 1830
+warning: THE STATE OF NEW JERSEY, COMPLAINANTS VS. THE PEOPLE OF THE STATE ON NEW YORK, DEFENDANTS (28 U.S. 461) has unusual decision day: Saturday, March 6, 1830
+warning: ex parte MARTHA BRADSTREET; IN THE MATTER OF JAMES JACKSON EX DEM. MARTHA BRADSTREET VS. DANIEL THOMAS (29 U.S. 102) has unusual decision day: Saturday, March 6, 1830
+warning: JULIE SOULARD, WIDOW, AND OTHERS, APPELLANTS v. THE UNITED STATES (29 U.S. 511) has unusual decision day: Saturday, March 13, 1830
+warning: JOHN R. LIVINGSTON, PLAINTIFF IN ERROR VS. MOSES SMITH, DEFENDANT IN ERROR (30 U.S. 90) has unusual decision day: Saturday, January 22, 1831
+warning: THOMAS S. HINDE AND WIFE, PLAINTIFFS IN ERROR VS. THE LESSEE OF CHARLES VATTIER (30 U.S. 398) has unusual decision day: Saturday, January 22, 1831
+warning: WILLIAM FOWLE, AND THE ADMINSTRATORS OF THOMAS LAWRASON, APPELLANTS VS. JAMES LAWRASON'S EXECUTOR, APPELLEE (30 U.S. 495) has unusual decision day: Saturday, January 22, 1831
+warning: WILLIAM HUNTER, APPELLANT VS. THE UNITED STATES, APPELLEES (30 U.S. 173) has unusual decision day: Saturday, January 29, 1831
+warning: ALEXANDER M. PELTZ et al. PLAINTIFFS IN ERROR VS. JOSEPH S. CLARKE, DEFENDANT IN ERROR (30 U.S. 481) has unusual decision day: Saturday, February 5, 1831
+warning: JAMES SHEPPARD AND OTHERS, APPELLANTS VS. LEMUEL TAYLOR AND OTHERS, APPELLEES (30 U.S. 675) has unusual decision day: Saturday, February 19, 1831
+warning: JOHN WINSHIP AND OTHERS, PLAINTIFFS IN ERROR VS. THE BANK OF THE UNITED STATES, DEFENDANT IN ERROR (30 U.S. 529) has unusual decision day: Saturday, February 26, 1831
+warning: HENRY MILLER'S HEIRS AND DEVISEES, COMPLAINANTS AND APPELLANTS v. JACOB AND ISAAC M'INTYRE, APPELLEES (31 U.S. 61) has unusual decision day: Saturday, January 21, 1832
+warning: JAMES MOORE, DEFENDANT BELOW, NOW PLAINTIFF IN ERROR v. THE PRESIDENT, DIRECTORS AND COMPANY OF THE BANK OF COLUMBIA, DEFENDANTS IN ERROR (31 U.S. 86) has unusual decision day: Saturday, January 28, 1832
+warning: JOHN CONARD, MARSHAL OF THE EASTERN DISTRICT OF PENNSYLVANIA -- THE UNITED STATES, PLAINTIFFS IN ERROR v. THE PACIFIC INSURANCE COMPANY OF NEW YORK, DEFENDANTS (31 U.S. 262) has unusual decision day: Saturday, January 28, 1832
+warning: ASA GREEN, PLAINTIFF IN ERROR v. THE LESSEE OF HENRY NEAL, DEFENDANT IN ERROR (31 U.S. 291) has unusual decision day: Saturday, January 28, 1832
+warning: JAMES GREENLEAF'S LESSEE, PLAINTIFF IN ERROR v. JAMES BIRTH, DEFENDANT IN ERROR (31 U.S. 302) has unusual decision day: Saturday, January 28, 1832
+warning: CHARLES B. DUFAU, PLAINTIFF IN ERROR v. JEAN HENRY COUPREY'S HEIRS, DEFENDANTS IN ERROR (31 U.S. 170) has decision date 1832-02-03 instead of SCOTUS date 1831-02-03
+warning: JOHN SMITH T., PLAINTIFF v. ROBERT BELL, DEFENDANT (31 U.S. 68) has unusual decision day: Saturday, February 4, 1832
+warning: THE UNITED STATES v. THOMAS S. REYBURN (31 U.S. 352) has unusual decision day: Saturday, February 4, 1832
+warning: THE UNITED STATES v. JAMES PAUL (31 U.S. 141) has unusual decision day: Saturday, February 18, 1832
+warning: THOMAS LELAND AND OTHERS v. DAVID WILKINSON (31 U.S. 317) has unusual decision day: Saturday, February 18, 1832
+warning: THE UNITED STATES, APPELLANT v. JOSEPH NOURSE, COMPLAINANT (31 U.S. 470) has unusual decision day: Saturday, February 18, 1832
+warning: SAMUEL A. WORCESTER, PLAINTIFF IN ERROR v. THE STATE OF GEORGIA (31 U.S. 515) has unusual decision day: Saturday, March 3, 1832
+warning: THE UNITED STATES, APPELLANTS v. DON FERNANDO DE LA MAZA ARREDONDO AND OTHERS, APPELLEES (31 U.S. 691) has unusual decision day: Saturday, March 17, 1832
+warning: THE UNITED STATES v. GEORGE WILSON (32 U.S. 150) has unusual decision day: Saturday, January 26, 1833
+warning: THOMAS DEYE OWINGS, AND OTHERS, APPELLANTS v. ANDREW KINCANNON, APPELLEE (32 U.S. 399) has unusual decision day: Saturday, February 2, 1833
+warning: JOHN BARRON, SURVIVOR OF JOHN CRAIG, FOR THE USE OF LUKE TIERNAN, EXECUTOR OF JOHN CRAIG v. THE MAYOR AND CITY COUNCIL OF BALTIMORE (32 U.S. 243) has unusual decision day: Saturday, February 16, 1833
+warning: GEORGE W. WARD, AND RICHARD K. CALL, REGISTER AND RECEIVER (U.S.), APPELLANTS v. LEWIS GREGORY (32 U.S. 633) has unusual decision day: Saturday, February 16, 1833
+warning: MARTIN PICKETT'S HEIRS, PLAINTIFFS IN ERROR v. SAMUEL LEGERWOOD et al. (32 U.S. 144) has unusual decision day: Saturday, March 2, 1833
+warning: THE STATE OF RHODE ISLAND, COMPLAINANT v. THE STATE OF MASSACHUSETTS (32 U.S. 651) has unusual decision day: Saturday, March 2, 1833
+warning: MORGAN BYRNE, PLAINTIFF IN ERROR v. THE STATE OF MISSOURI (33 U.S. 40) has unusual decision day: Saturday, January 18, 1834
+warning: JOHN STRATTON, APPELLANT v. LEONARD JARVIS AND C. H. H. BROWN, APPELLEES (33 U.S. 4) has unusual decision day: Saturday, January 25, 1834
+warning: JAMES BROWN, PLAINTIFF IN ERROR v. RICHARD R. KEENE (33 U.S. 112) has unusual decision day: Saturday, February 1, 1834
+warning: THE BANK OF THE UNITED STATES, APPELLANTS v. JOHN T. RITCHIE, JUN., AND OTHERS, APPELLEES (33 U.S. 128) has unusual decision day: Saturday, February 8, 1834
+warning: SAMUEL LEE AND BARBARA LEE, PLAINTIFFS IN ERROR v. ELIZABETH LEE (33 U.S. 44) has unusual decision day: Saturday, February 15, 1834
+warning: UNITED STATES, PLAINTIFFS IN ERROR v. TENCH RINGGOLD (33 U.S. 150) has unusual decision day: Saturday, March 1, 1834
+warning: JANE WATSON AND OTHERS, PLAINTIFFS IN ERROR v. JOHN MERCER AND MARGARET MERCER (33 U.S. 88) has unusual decision day: Saturday, March 8, 1834
+warning: WILLIAM ROBINSON, JUN., PLAINTIFF IN ERROR v. WILLIAM NOBLE'S ADMINISTRATORS (33 U.S. 181) has unusual decision day: Saturday, March 8, 1834
+warning: THE UNITED STATES, PLAINTIFFS IN ERROR v. ANDREW HACK, THOMAS SEWALL, AND JAMES WILKES, JUN., ASSIGNEES OF JOHN STOUFFER (33 U.S. 271) has unusual decision day: Saturday, March 8, 1834
+warning: THE UNITED STATES, APPELLANTS v. FRANCES RICHARD (33 U.S. 470) has unusual decision day: Saturday, March 15, 1834
+warning: THE UNITED STATES, APPELLANTS v. ANTONIO HUERTAS (33 U.S. 475) has unusual decision day: Saturday, March 15, 1834
+warning: THE UNITED STATES, APPELLANTS v. EUSEBIO M. GOMEZ (33 U.S. 477) has unusual decision day: Saturday, March 15, 1834
+warning: THE UNITED STATES, APPELLANTS v. GEORGE FLEMING'S HEIRS (33 U.S. 478) has unusual decision day: Saturday, March 15, 1834
+warning: THE UNITED STATES, APPELLANTS v. MOSES E. LEVI (33 U.S. 479) has unusual decision day: Saturday, March 15, 1834
+warning: THE UNITED STATES, APPELLANTS v. PHILIP R. YOUNGE (33 U.S. 484) has unusual decision day: Saturday, March 15, 1834
+warning: THE UNITED STATES, APPELLANTS v. FRANCES P. FATIO'S AND LOUISA HALLOWES'S HEIRS (33 U.S. 492) has unusual decision day: Saturday, March 15, 1834
+warning: THE UNITED STATES, APPELLANTS v. WILLIAM GIBSON et al. HEIRS OF FRANCIS P. FATIO, DECEASED (33 U.S. 494) has unusual decision day: Saturday, March 15, 1834
+warning: 34 U.S. 1: decision date 1835-01-14 lies within court Marshall 10 (410) but naturalCourt is different (409)
+warning: UNITED STATES, PLAINTIFF IN ERROR v. JOSEPH NOURSE (34 U.S. 8) has unusual decision day: Saturday, January 31, 1835
+warning: MAYOR, ETC. OF NEW YORK v. GEORGE MILN. (34 U.S. 85) has unusual decision day: Saturday, January 31, 1835
+warning: HENRY BEARD, WILLIAM A. BEARD, LEWIS HAWKINS AND MARY HIS WIFE v. JOHN ROWAN (34 U.S. 301) has unusual decision day: Saturday, January 31, 1835
+warning: BENJAMIN J. TARVER, APPELLANT v. SAMUEL B. TARVER, CHARLOTTE TARVER AND PATIENCE GIBSON (34 U.S. 174) has unusual decision day: Saturday, February 21, 1835
+warning: GEORGE KING'S HEIRS, RAPHAEL SEMMES AND OTHERS, APPELLANTS v. JOSIAH THOMPSON AND ELIZABETH HIS WIFE (34 U.S. 204) has unusual decision day: Saturday, February 21, 1835
+warning: JOSEPH D. BEERS, WILLIAM L. BOOTH AND ISAAC R. ST JOHN, PLAINTIFFS IN ERROR v. RICHARD HAUGHTON (34 U.S. 329) has unusual decision day: Saturday, February 28, 1835
+warning: THE UNITED STATES, APPELLANTS v. GEORGE J. F. CLARKE (34 U.S. 168) has decision date 1835-03-14 instead of SCOTUS date 1834-03-14
+warning: THE UNITED STATES, APPELLANTS v. GEORGE J. F. CLARKE (34 U.S. 168) has unusual decision day: Saturday, March 14, 1835
+warning: UNITED STATES, APPELLANTS v. ANTONIO HUERTAS (34 U.S. 171) has decision date 1835-03-14 instead of SCOTUS date 1834-03-14
+warning: UNITED STATES, APPELLANTS v. ANTONIO HUERTAS (34 U.S. 171) has unusual decision day: Saturday, March 14, 1835
+warning: THE UNITED STATES, PLAINTIFFS IN ERROR v. WILLIAM L. ROBESON (34 U.S. 319) has unusual decision day: Saturday, March 14, 1835
+warning: ex parte GEORGE MILBURN (34 U.S. 704) has unusual decision day: Saturday, March 14, 1835
+warning: SAMUEL D. HARRIS AND OTHERS v. JESSE D. ELLIOTT (35 U.S. 25) has unusual decision day: Saturday, January 23, 1836
+warning: LESSEE OF ENOCH TUCKER AND RICHARD THOMPSON, PLAINTIFFS IN ERROR v. ELIZA G. MORELAND (35 U.S. 58) has unusual decision day: Saturday, January 23, 1836
+warning: HARRIET E. HOOK AND OTHERS, APPELLANTS v. JOHN LINTON, CURATOR (35 U.S. 107) has unusual decision day: Saturday, January 30, 1836
+warning: WILLIAM C. S. VENTRESS et al., EXECUTORS OF LOVIC VENTRESS, DECEASED, PLAINTIFFS IN ERROR, v. NEAL SMITH, ADMINISTRATOR OF JOHN CLARK, DECEASED (35 U.S. 161) has unusual decision day: Saturday, February 6, 1836
+warning: THE UNITED STATES. APPELLANTS v. STEPHEN D. FERNANDEZ AND OTHERS (35 U.S. 303) has unusual decision day: Saturday, February 6, 1836
+warning: THE UNITED STATES, APPELLANTS v. BERNARDO SEGUI, APPELLEE (35 U.S. 306) has unusual decision day: Saturday, February 6, 1836
+warning: THE UNITED STATES v. BENJAMIN CHAIRES AND OTHERS (35 U.S. 308) has unusual decision day: Saturday, February 6, 1836
+warning: THE UNITED STATES, APPELLANTS v. CHARLES SETON, APPELLEE (35 U.S. 309) has unusual decision day: Saturday, February 6, 1836
+warning: THE UNITED STATES, APPELLANTS v. CHARLES F. SIBBALD, APPELLEE (35 U.S. 313) has unusual decision day: Saturday, February 6, 1836
+warning: ELIZABETH DAVIS, ADMINISTRATRIX OF JOHN H. DAVIS v. ALEXANDER BRADEN (35 U.S. 286) has unusual decision day: Saturday, February 13, 1836
+warning: SAMUEL VEAZIE v. IRA WADLEIGH et al. (36 U.S. 55) has unusual decision day: Saturday, January 14, 1837
+warning: THE UNITED STATES, APPELLANTS v. NATHANIEL COX (36 U.S. 162) has unusual decision day: Saturday, January 14, 1837
+warning: THE STATE OF RHODE ISLAND v. THE STATE OF MASSACHUSETTS (36 U.S. 226) has unusual decision day: Saturday, January 28, 1837
+warning: JAMES M'BRIDE, PLAINTIFF IN ERROR v. THE LESSEE OF WILLIAM HOEY (36 U.S. 167) has unusual decision day: Saturday, February 11, 1837
+warning: BURGESS POOLE AND OTHERS, PLAINTIFFS IN ERROR v. THE LESSEE OF JOHN FLEEGER AND OTHERS (36 U.S. 185) has unusual decision day: Saturday, February 11, 1837
+warning: JOHN BRISCOE AND OTHERS v. THE PRESIDENT AND DIRECTORS OF THE BANK OF THE COMMONWEALTH OF KENTUCKY (36 U.S. 257) has unusual decision day: Saturday, February 11, 1837
+warning: LESSEE OF GABRIEL SWAYZE, AND MARY HIS WIFE, PLAINTIFFS IN ERROR v. ROBERT BURKE, D. SHERMAN, GEORGE JACKSON, AND JAMES HINSMAN, DEFENDANTS (37 U.S. 11) has unusual decision day: Saturday, January 27, 1838
+warning: THE BANK OF THE UNITED STATES APPELLANTS v. JAMES DANIEL et al. APPELLEES (37 U.S. 32) has unusual decision day: Saturday, January 27, 1838
+warning: THE UNITED STATES, PLAINTIFFS v. LAWRENCE COOMBS (37 U.S. 72) has unusual decision day: Saturday, January 27, 1838
+warning: THE UNITED STATES, PLAINTIFFS IN ERROR v. ANDREW N. LAUB (37 U.S. 1) has unusual decision day: Saturday, February 10, 1838
+warning: BEULAH STELLE, PLAINTIFF IN ERROR v. DANIEL CARROLL, OF DUDDINGTON, DEFENDANT IN ERROR (37 U.S. 201) has unusual decision day: Saturday, February 24, 1838
+warning: MOSES E. LEVY, APPELLANT v. FERNANDO DE LA MAZA ARREDONDO AND JUAN DE ENTRALGO, APPELLEES (37 U.S. 218) has unusual decision day: Saturday, March 3, 1838
+warning: ISAAC BRADLIE AND JOHN GIBBONS, PLAINTIFFS IN ERROR v. THE MARYLAND INSURANCE COMPANY (37 U.S. 378) has unusual decision day: Saturday, March 3, 1838
+warning: THE UNITED STATES, APPELLANTS v. JOSEPH DELESPINE'S HEIRS, LAZARUS AND OTHERS (37 U.S. 654) has unusual decision day: Saturday, March 3, 1838
+warning: GEORGE BEASTON, GARNISHEE OF THE ELKTON BANK OF MARYLAND v. THE FARMERS' BANK OF DELAWARE (37 U.S. 102) has unusual decision day: Saturday, March 10, 1838
+warning: N. ROGERS &amp; SONS, PLAINTIFFS IN ERROR v. JAMES BATCHELOR AND OTHERS, ADMINISTRATORS OF ABEL H. BUCKHOLTS, DECEASED (37 U.S. 221) has unusual decision day: Saturday, March 10, 1838
+warning: ANDREW D. HEPBURN, PLAINTIFF IN ERROR v. JACOB DUBOIS, LESSEE OF OLIVER S. WOLCOTT (37 U.S. 345) has unusual decision day: Saturday, March 10, 1838
+warning: ex parte CHARLES F. SIBBALD, APPELLEE v. THE UNITED STATES, APPELLANTS (37 U.S. 488) has unusual decision day: Saturday, March 10, 1838
+warning: THE STATE OF RHODE ISLAND VS. THE STATE OF MASSACHUSETTS (38 U.S. 23) has unusual decision day: Saturday, January 26, 1839
+warning: ex parte, IN THE MATTER OF DUNCAN N. HENNEN (38 U.S. 225) has unusual decision day: Saturday, January 26, 1839
+warning: THE UNITED STATES, APPELLANT, VS. MOSES E. LEVY, APPELLEE (38 U.S. 81) has unusual decision day: Saturday, February 9, 1839
+warning: THE UNITED STATES, APPELLANT, VS. WILLIAM DRUMMOND, APPELLEE (38 U.S. 84) has unusual decision day: Saturday, February 9, 1839
+warning: THE UNITED STATES, APPELLANTS, VS. ANDREW BURGEVIN, APPELLEE (38 U.S. 85) has unusual decision day: Saturday, February 9, 1839
+warning: THE UNITED STATES, APPELLANTS, VS. THE HEIRS OF FERNANDO DE LA MAZA ARREDONDO, APPELLEES (38 U.S. 88) has unusual decision day: Saturday, February 9, 1839
+warning: CHARLES KING, APPELLANT, VS. JOSIAS THOMPSON AND OTHERS, HEIRS AT LAW OF GEORGE KING, DECEASED, APPELLEES (38 U.S. 128) has unusual decision day: Saturday, February 23, 1839
+warning: WILLIAM B. STOKES, PLAINTIFF, IN ERROR, VS. FRANCIS W. SALTONSTALL, DEFENDANT IN ERROR (38 U.S. 181) has unusual decision day: Saturday, March 2, 1839
+warning: ex parte JESSE HOYT, COLLECTOR OF THE PORT OF NEW YORK (38 U.S. 279) has unusual decision day: Saturday, March 2, 1839
+warning: JOHN P. VAN NESS, APPELLANT, VS. ALPHEUS HYATT AND OTHERS, APPELLEES (38 U.S. 294) has unusual decision day: Saturday, March 2, 1839
+warning: THE HEIRS OF WILLIAM EMERSON, PLAINTIFFS IN ERROR, VS. CHARLES H. HALL, DEFENDANT IN ERROR (38 U.S. 409) has unusual decision day: Saturday, March 2, 1839
+warning: THE NEW ENGLAND INSURANCE COMPANY, VS. THE BRIG SARAH ANN, WOODBURY AND OTHERS, CLAIMANTS (38 U.S. 387) has unusual decision day: Saturday, March 9, 1839
+warning: ex parte MYRA CLARKE WHITNEY (38 U.S. 404) has unusual decision day: Saturday, March 9, 1839
+warning: CAREY BAGNELL AND THE EXECUTORS OF MORGAN BYRNE, PLAINTIFFS IN ERROR, VS. GEORGE W. BRODERICK, DEFENDANT IN ERROR (38 U.S. 436) has unusual decision day: Saturday, March 9, 1839
+warning: DE LA FAYETTE WILCOX, PLAINTIFF IN ERROR, VS. JOHN JACKSON, ON THE DEMISE OF MURRAY M'CONNEL, DEFENDANT IN ERROR (38 U.S. 498) has unusual decision day: Saturday, March 9, 1839
+warning: THE BANK OF AUGUSTA, PLAINTIFFS IN ERROR, v. JOSEPH B. EARLE, DEFENDANT IN ERROR (38 U.S. 519) has unusual decision day: Saturday, March 9, 1839
+warning: GEORGE RUNYAN, PLAINTIFF IN ERROR, VS. THE LESSEE OF JOHN G. COSTER AND THOMAS K. MERCIEN, WHO SURVIVED JOHN HONE, DEFENDANT IN ERROR (39 U.S. 122) has unusual decision day: Saturday, February 1, 1840
+warning: WILLIAM AND JAMES BROWN AND COMPANY, PLAINTIFFS IN ERROR, VS. THOMAS M'GRAN, DEFENDANT IN ERROR (39 U.S. 479) has unusual decision day: Saturday, February 1, 1840
+warning: AMBROSE WALDEN AND OTHERS, APPELLANTS, VS. HENRY I. BODLEY AND OTHERS, APPELLEES (39 U.S. 156) has unusual decision day: Saturday, February 8, 1840
+warning: THE UNITED STATES, PLAINTIFF IN ERROR, VS. JACOB KNIGHT, BENJAMIN KNIGHT, ISAAC KNIGHT, AND EDWARD KNIGHT, DEFENDANTS IN ERROR (39 U.S. 301) has unusual decision day: Saturday, February 8, 1840
+warning: BENJAMIN LONG, PLAINTIFF IN ERROR, v. PALMER, SMITH, AND COMPANY, DEFENDANTS IN ERROR (41 U.S. 65) has unusual decision day: Saturday, February 5, 1842
+warning: JAMES S. BRANDER, AND HUGH L. M'KENNA, PLAINTIFFS IN ERROR, v. WILLIAM E. PHILLIPS, AND HENRY BELL, TRADING UNDER THE FIRM OF WILLIAM PHILLIPS AND COMPANY, AND RODAH HORTON, AND NATHANIEL TERRY, DEFENDANTS IN ERROR (41 U.S. 121) has unusual decision day: Saturday, February 5, 1842
+warning: CHARLES KELSEY, AND CHARLES M'INTYRE, APPELLANTS, v. ALFRED M. HOBBY, AND THOMAS P. BOND, COMPLAINANTS (41 U.S. 269) has unusual decision day: Saturday, February 19, 1842
+warning: THE MAYOR AND ALDERMEN OF THE CITY OF MOBILE, PLAINTIFFS IN ERROR, v. WILLIAM E. HALLETT, EXECUTOR OF JOSHUA KENNEDY, DECEASED.  DEFENDANT IN ERROR (41 U.S. 261) has unusual decision day: Saturday, March 12, 1842
+warning: THOMAS ARMSTRONG AND OTHERS, PLAINTIFFS IN ERROR, v. THE TREASURER OF ATHENS COUNTY, DEFENDANT IN ERROR (41 U.S. 281) has unusual decision day: Saturday, March 12, 1842
+warning: THE UNITED STATES, PLAINTIFFS IN ERROR, v. MARY L. ELIASON, ADMINISTRATRIX OF WILLIAM A. ELIASON, DEFENDANT IN ERROR (41 U.S. 291) has unusual decision day: Saturday, March 12, 1842
+warning: JOHN D. AMIS, PLAINTIFF IN ERROR, v. NATHAN SMITH, DEFENDANT IN ERROR (41 U.S. 303) has unusual decision day: Saturday, March 12, 1842
+warning: DAVID PROUTY AND JOHN MEARS, PLAINTIFFS IN ERROR, v. DRAPER RUGGLES et al., DEFENDANTS IN ERROR (41 U.S. 336) has unusual decision day: Saturday, March 12, 1842
+warning: THE UNITED STATES, APPELLANTS, v. DOMINGO ACOSTA, APPELLEE (42 U.S. 24) has unusual decision day: Saturday, January 14, 1843
+warning: JONATHAN STROUT AND OTHERS, LIBELLANTS, ETC., APPELLANTS, v. JAMES FOSTER AND OTHERS, CLAIMANTS, AND OWNERS OF THE SHIP LOUISVILLE (42 U.S. 89) has unusual decision day: Saturday, January 28, 1843
+warning: WALTER SMITH, JOHN CARTER, WILLIAM S. NICHOLS AND OTHERS, SURVIVORS OF CLEMENT SMITH, DECEASED, PLAINTIFFS IN ERROR, v. DENNIS CONDRY (42 U.S. 28) has unusual decision day: Saturday, February 18, 1843
+warning: THOMAS MORRIS, COMPLAINANT AND APPELLANT, v. MARIA NIXON, HENRY J. WILLIAMS AND THOMAS BIDDLE, HENRY J. WILLIAMS AND MARIA NIXON, EXECUTORS OF THE LAST WILL AND TESTAMENT OF HENRY NIXON, DECEASED, AND MARIA NIXON, SOLE DEVISEE OF THE SAID LAS (42 U.S. 118) has unusual decision day: Saturday, February 25, 1843
+warning: BENJAMIN J. KNAPP, PLAINTIFF IN ERROR, v. EDMUND BANKS (43 U.S. 73) has unusual decision day: Saturday, February 3, 1844
+warning: SPALDING v. THE PEOPLE OF THE STATE OF NEW YORK, EX REL. FREDERICK F. BACKUS (43 U.S. 66) has unusual decision day: Saturday, February 24, 1844
+warning: GLENDY BURKE, PLAINTIFF IN ERROR, v. ROBERT MCKAY (43 U.S. 66) has unusual decision day: Saturday, February 24, 1844
+warning: FRANCOIS FENELON VIDAL, JOHN F. GIRARD, AND OTHERS, CITIZENS AND SUBJECTS OF THE MONARCHY OF FRANCE, AND HENRY STUMP, COMPLAINANTS AND APPELLANTS, v. THE MAYOR, ALDERMEN, AND CITIZENS OF PHILADELPHIA, THE EXECUTORS OF STEPHEN GIRARD, AND OTHER (43 U.S. 127) has decision date 1844-02-27 instead of SCOTUS date 1843-01-30
+warning: JOHN L. MCCRACKEN, PLAINTIFF IN ERROR, v. CHARLES HAYWARD (43 U.S. 608) has unusual decision day: Saturday, March 9, 1844
+warning: WILLIAM R. HANSON, JOSEPH L. MOSS, ISAAC PHILLIPS, JOSEPH M. MOSS, AND DAVID SAMUEL, PLAINTIFFS IN ERROR, v. LESSEE OF JOHN H. EUSTACE (43 U.S. 653) has unusual decision day: Saturday, March 9, 1844
+warning: THE BANK OF THE UNITED STATES, PLAINTIFF IN ERROR, v. THE UNITED STATES (43 U.S. 711) has unusual decision day: Saturday, March 9, 1844
+warning: PIERRE CHOUTEAU, SEN., PLAINTIFF IN ERROR, v. WILLIAM ECKHART (43 U.S. 344) has unusual decision day: Saturday, March 16, 1844
+warning: WILLIAM J. MINOR, AND CATHARINE HIS WIFE, PLAINTIFFS IN ERROR, v. SHUBAL TILLOTSON (43 U.S. 392) has unusual decision day: Saturday, March 16, 1844
+warning: SUSAN LAWRENCE, PLAINTIFF IN ERROR, v. ROBERT MCCALMONT, HUGH MCCALMONT, AND WILLIAM JOHNSON NEWELL, DEFENDANTS (43 U.S. 426) has unusual decision day: Saturday, March 16, 1844
+warning: LESSEE OF JOHN POLLARD, WILLIAM POLLARD, JOHN FOWLER AND HARRIET HIS WIFE, HENRY P. ENSIGN AND PHEBE HIS WIFE, GEORGE HUGGINS AND LOUISA HIS WIFE, JOSEPH CASE AND ELIZA HIS WIFE, PLAINTIFF IN ERROR, v. JOSEPH F. FILES, DEFENDANT (43 U.S. 591) has unusual decision day: Saturday, March 16, 1844
+warning: 45 U.S. 4: decision date 1846-01-12 lies within court Taney 7 (507) but naturalCourt is different (505)
+warning: JAMES INNERARITY, PLAINTIFF IN ERROR, v. THOMAS BYRNE (46 U.S. 295) has unusual decision day: Saturday, March 6, 1847
+warning: THE LICENSE CASES: SAMUEL THURLOW, PLAINTIFF IN ERROR, v. THE COMMONWEALTH OF MASSACHUSETTS (46 U.S. 504) has unusual decision day: Saturday, March 6, 1847
+warning: THE PRESIDENT, DIRECTORS, AND COMPANY OF THE COMMERCIAL BANK OF CINCINNATI, PLAINTIFFS IN ERROR, v. EUNICE BUCKINGHAM'S EXECUTORS, DEFENDANTS IN ERROR (46 U.S. 317) has decision date 1847-03-15 instead of SCOTUS date 1847-03-05
+warning: RICHARD BEIN AND MARY, HIS WIFE, APPELLANTS, v. MARY HEATH (47 U.S. 228) has unusual decision day: Saturday, March 11, 1848
+warning: THE UNITED STATES, PLAINTIFFS IN ERROR, v. A. HODGE AND LEVI PEARCE (47 U.S. 279) has unusual decision day: Saturday, March 11, 1848
+warning: JOHN D. BUSH, APPELLANT, v. JACOB MARSHALL AND WILLIAM B. WHITESIDES (47 U.S. 284) has unusual decision day: Saturday, March 11, 1848
+warning: PETER HOGG AND CORNELIUS H. DELAMATER, PLAINTIFFS IN ERROR, v. JOHN B. EMERSON (47 U.S. 437) has unusual decision day: Saturday, March 11, 1848
+warning: WILLIAM HOUSTON AND OTHERS, AND FRANCIS FISK AND OTHERS, PLAINTIFFS IN ERROR, v. THE CITY BANK OF NEW ORLEANS (47 U.S. 486) has unusual decision day: Saturday, March 11, 1848
+warning: PASSENGER CASES: GEORGE SMITH, PLAINTIFF IN ERROR. v. WILLIAM TURNER, HEALTH-COMMISSIONER OF THE PORT OF NEW YORK (48 U.S. 283) has decision date 1849-02-07 instead of SCOTUS date 1845-12-09
+warning: UNITED STATES v. CARRERE (154 U.S. 532) has unusual decision day: Sunday, April 3, 1853
+warning: THE SCHOONER CATHARINE, HER TACKLE, ETC., STARKS W. LEWIS AND OTHERS, OWNERS AND CLAIMANTS, APPELLANTS, v. NOAH DICKINSON AND OTHERS, LIBELLANTS (58 U.S. 170) has unusual decision day: Saturday, March 10, 1855
+warning: CHARLES MINTURN, APPELLANT, v. LAFAYETTE MAYNARD, GILBERT A. GRANT, THOMAS G. WELLS, LUCIEN SKINNER, FREDERICK BILLINGS, CHARLES J. BRENHAM, ISAAC T. MOTT, J. DE LA MONTAGNE, E. M. NEAL, AND THOMAS L. CHAPMAN (58 U.S. 477) has unusual decision day: Saturday, March 10, 1855
+warning: THE UNITED STATES, APPELLANTS, v. ARCHIBALD A. RITCHIE (58 U.S. 525) has unusual decision day: Saturday, March 10, 1855
+warning: JOHN CHARLES FREMONT, APPELLANT, v. THE UNITED STATES (58 U.S. 542) has unusual decision day: Saturday, March 10, 1855
+warning: JOHN C. HAYS, PLAINTIFF IN ERROR, v. THE PACIFIC MAIL STEAM-SHIP COMPANY (58 U.S. 596) has unusual decision day: Saturday, March 10, 1855
+warning: WILLIAM CHRISTY, PLAINTIFF IN ERROR, v. LODOVICK P. ALFORD, ADMINISTRATOR OF HENRY D. BULLARD, DECEASED (58 U.S. 601) has unusual decision day: Saturday, March 10, 1855
+warning: AUGUSTUS HEMMENWAY, CLAIMANT OF THE SHIP INDEPENDENCE, v. WILLIAM B. FISHER (61 U.S. 255) has decision date 1858-12-24 instead of SCOTUS date 1857-12-24
+warning: THE UNITED STATES, APPELLANTS, v. CHARLES FOSSATT (62 U.S. 445) has decision date 1859-02-28 instead of SCOTUS date 1859-03-11
+warning: 66 U.S. 358: decision date 1862-03-03 lies within court Taney 12 (512) but naturalCourt is different (511)
+warning: HOGG VS. RUFFNER (66 U.S. 115) has decision date 1862-12-23 instead of SCOTUS date 1861-12-23
+warning: BRONSON v. RAILROAD COMPANY (67 U.S. 524) has decision date 1863-03-02 instead of SCOTUS date 1863-02-16
+warning: THE CORNELIUS (70 U.S. 214) has decision date 1866-01-26 instead of SCOTUS date 1866-01-29
+warning: 70 U.S. 687: decision date 1864-02-23 lies within court Taney 15 (515) but naturalCourt is different (601)
+warning: LITCHFIELD v. RAILROAD COMPANY (74 U.S. 270) has decision date 1869-02-25 instead of SCOTUS date 1869-02-15
+warning: REESIDE v. UNITED STATES (75 U.S. 38) has decision date 1869-04-25 instead of SCOTUS date 1869-04-15
+warning: REESIDE v. UNITED STATES (75 U.S. 38) has unusual decision day: Sunday, April 25, 1869
+warning: 76 U.S. 608: decision date 1870-04-18 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 129: decision date 1870-03-14 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 145: decision date 1870-04-20 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 156: decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 187: decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 241: decision date 1870-03-14 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 274: decision date 1870-03-14 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 290: decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 295: decision date 1870-03-28 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 315: decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 326: decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 339: decision date 1870-03-28 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 353: decision date 1870-03-28 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 364: decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 370: decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 373: decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 387: decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 394: decision date 1870-04-18 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 409: decision date 1870-03-28 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 415: decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 420: decision date 1870-03-28 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 425: decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 432: decision date 1870-03-14 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 435: decision date 1870-04-25 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 461: decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 468: decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 477: decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 501: decision date 1870-04-18 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 504: decision date 1870-03-14 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 505: decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: THE WASHINGTON AND THE GREGORY (76 U.S. 513) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 513: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 517: decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 522: decision date 1870-04-25 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 526: decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: UNITED STATES v. PADELFORD (76 U.S. 531) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 531: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 544: decision date 1870-04-18 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 567: decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 575: decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: THOMSON v. PACIFIC RAILROAD (76 U.S. 579) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 579: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 592: decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: ex parte MORRIS AND JOHNSON (76 U.S. 605) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 605: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 614: decision date 1870-03-14 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: IRVINE v. IRVINE (76 U.S. 617) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 617: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: THE CORSICA (76 U.S. 630) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 630: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 634: decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 651: decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: GREEN v. UNITED STATES (76 U.S. 655) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 655: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: DOWNHAM v. ALEXANDRIA (76 U.S. 659) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 659: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: UNITED STATES v. ADAMS (76 U.S. 661) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 661: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: HERNDON v. HOWARD (76 U.S. 664) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 664: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 665: decision date 1870-04-18 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 672: decision date 1870-04-25 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: INSURANCE COMPANY v. WEIDE (76 U.S. 677) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 677: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 682: decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: THE PROTECTOR (76 U.S. 687) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 687: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 691: decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 726: decision date 1870-04-18 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: SUPERVISORS v. DURANT (76 U.S. 736) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 736: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 737: decision date 1870-04-25 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: WALKER v. WALKER'S EXECUTOR (76 U.S. 743) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 743: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 758: decision date 1870-03-28 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: WATKINS v. UNITED STATES (76 U.S. 759) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 759: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: BUTLER v. MAPLES (76 U.S. 766) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 766: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 779: decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: CARPENTER v. WILLIAMS (76 U.S. 785) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 785: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 786: decision date 1870-04-25 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: 76 U.S. 811: decision date 1870-04-25 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: BISCHOFF v. WETHERED (76 U.S. 812) has unusual decision day: Saturday, April 30, 1870
+warning: 76 U.S. 812: decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
+warning: BOYLAN v. UNITED STATES (77 U.S. 58) has decision date 1870-03-18 instead of SCOTUS date 1870-03-28
+warning: THE BLACKWALL (77 U.S. 1) has unusual decision day: Saturday, April 30, 1870
+warning: THE DAVIS (77 U.S. 15) has unusual decision day: Saturday, April 30, 1870
+warning: LITTLE v. HERNDON (77 U.S. 26) has unusual decision day: Saturday, April 30, 1870
+warning: BATES v. EQUITABLE INSURANCE COMPANY (77 U.S. 33) has unusual decision day: Saturday, April 30, 1870
+warning: WIGGINS et al. v. BURKHAM (77 U.S. 129) has unusual decision day: Saturday, April 30, 1870
+warning: RUBBER CO. v. GOODYEAR (76 U.S. 805) has unusual decision day: Saturday, April 30, 1870
+warning: 131 U.S. xcv: decision date 1870-02-07 lies within court Chase 1 (601) but naturalCourt is different (602)
+warning: A.B. WOOD v. DE FORREST RICHARDS (131 U.S. xcviii) has unusual decision day: Saturday, April 30, 1870
+warning: WILLIAM S. GODBE v. TOOTLE ET AL (154 U.S. 576) has unusual decision day: Saturday, April 30, 1870
+warning: O.B. LATHAM et al.v. UNITED STATES (76 U.S. 146) has decision date 1870-04-20 instead of SCOTUS date 1870-02-21
+warning: JONATHAN C. STURTEVANT v. JOHN M. HERNDON (154 U.S. 575) has unusual decision day: Saturday, April 30, 1870
+warning: ISSAC UNDERHILL v. JOHN M. HERNDON (154 U.S. 574) has unusual decision day: Saturday, April 30, 1870
+warning: ENOCH LONG, ABEL STURTEVANT AND JOHN ROBINSON v. PEGGY F. PATTON (154 U.S. 573) has unusual decision day: Saturday, April 30, 1870
+warning: ISSAC UNDERHILL v. PEGGY F. PATTON (154 U.S. 575) has unusual decision day: Saturday, April 30, 1870
+warning: HARTFORD FIRE INSURANCE COMPANY v. ISSAC VAN DUZER (76 U.S. 784n) has unusual decision day: Saturday, April 30, 1870
+warning: 82 U.S. 300: decision date 1873-03-10 lies within court Chase 3 (603) but naturalCourt is different (602)
+warning: 119 U.S. 615: decision date 1887-01-10 lies within court Waite 6 (706) but naturalCourt is different (701)
+warning: 103 U.S. 521: decision date 1881-03-14 lies within court Waite 3 (703) but naturalCourt is different (702)
+warning: ex parte PERRY (102 U.S. 183) has decision date 1880-11-24 instead of SCOTUS date 1879-11-24
+warning: 104 U.S. 340: decision date 1882-01-16 lies within court Waite 5 (705) but naturalCourt is different (703)
+warning: 104 U.S. 596: decision date 1882-01-16 lies within court Waite 5 (705) but naturalCourt is different (703)
+warning: HINCKLEY v. MORTON (103 U.S. 764) has decision date 1881-05-02 instead of SCOTUS date 1881-03-21
+warning: BENNECKE v. INSURANCE COMPANY (105 U.S. 355) has decision date 1882-03-31 instead of SCOTUS date 1882-03-13
+warning: STEBBINS v. DUNCAN AND OTHERS (108 U.S. 32) has unusual decision day: Sunday, October 1, 1882
+warning: CONNECTICUT MUTUAL LIFE INSURANCE COMPANY v. CUSHMAN AND ANOTHER (108 U.S. 51) has unusual decision day: Sunday, October 1, 1882
+warning: MEDSKER AND WIFE v. BONEBRAKE, ASSIGNEE (108 U.S. 66) has unusual decision day: Sunday, October 1, 1882
+warning: THE NUESTRA SENORA DE REGLA (108 U.S. 92) has unusual decision day: Sunday, October 1, 1882
+warning: WESTERN PACIFIC RAILROAD COMPANY &amp; ANOTHER v. UNITED STATES (108 U.S. 510) has unusual decision day: Sunday, October 1, 1882
+warning: HARDIN, ADMINISTRATRIX, &amp; OTHERS v. BOYD, ADMINISTRATOR, &amp; OTHERS (113 U.S. 756) has unusual decision day: Sunday, March 15, 1885
+warning: UNITED STATES v. ALABAMA (123 U.S. 39) has unusual decision day: Saturday, October 1, 1887
+warning: RUGGLES v. MANISTEE RIVER IMPROVEMENT CO (123 U.S. 297) has unusual decision day: Saturday, October 1, 1887
+warning: ANDREWS v. CONE (124 U.S. 720) has unusual decision day: Saturday, October 1, 1887
+warning: 129 U.S. 44: decision date 1889-01-07 lies within court Fuller 1 (801) but naturalCourt is different (707)
+warning: ISAACS v. JONAS (148 U.S. 648) has unusual decision day: Sunday, April 10, 1892
+warning: 149 U.S. 368: decision date 1894-05-01 lies within court Fuller 6 (806) but naturalCourt is different (805)
+warning: WESTERN NATIONAL BANK v. ARMSTRONG (152 U.S. 346) has unusual decision day: Sunday, March 12, 1893
+warning: 152 U.S. 346: decision date 1893-03-12 lies within court Fuller 5 (805) but naturalCourt is different (804)
+warning: DOWER v. RICHARDS (151 U.S. 658) has unusual decision day: Sunday, February 4, 1894
+warning: LOUISVILLE, EVANSVILLE, AND ST. LOUIS RAILROAD COMPANY v. CLARKE (152 U.S. 230) has unusual decision day: Sunday, March 4, 1894
+warning: LOUD v. POMONA LAND AND WATER COMPANY (153 U.S. 564) has unusual decision day: Saturday, May 19, 1894
+warning: PRIMROSE v. WESTERN UNION TELEGRAPH COMPANY (154 U.S. 1) has unusual decision day: Saturday, May 26, 1894
+warning: CONSTABLE v. NATIONAL STEAMSHIP COMPANY (154 U.S. 51) has unusual decision day: Saturday, May 26, 1894
+warning: DUNHAM v. DENNISON MANUFACTURING COMPANY (154 U.S. 103) has unusual decision day: Saturday, May 26, 1894
+warning: MORRISON v. WATSON (154 U.S. 111) has unusual decision day: Saturday, May 26, 1894
+warning: in re LOCKWOOD, PETITIONER (154 U.S. 116) has unusual decision day: Saturday, May 26, 1894
+warning: THE HAYTIAN REPUBLIC (154 U.S. 118) has unusual decision day: Saturday, May 26, 1894
+warning: NORTHERN PACIFIC RAILROAD COMPANY v. PATTERSON (154 U.S. 130) has unusual decision day: Saturday, May 26, 1894
+warning: ST. CLAIR v. UNITED STATES (154 U.S. 134) has unusual decision day: Saturday, May 26, 1894
+warning: MISSOURI PACIFIC RAILWAY COMPANY v. MCFADDEN (154 U.S. 155) has unusual decision day: Saturday, May 26, 1894
+warning: PRENTICE v. NORTHERN PACIFIC RAILROAD COMPANY (154 U.S. 163) has unusual decision day: Saturday, May 26, 1894
+warning: BALKAM v. WOODSTOCK IRON COMPANY (154 U.S. 177) has unusual decision day: Saturday, May 26, 1894
+warning: NORTHERN PACIFIC RAILROAD COMPANY v. BABCOCK (154 U.S. 190) has unusual decision day: Saturday, May 26, 1894
+warning: COVINGTON AND CINCINNATI BRIDGE COMPANY v. KENTUCKY (154 U.S. 204) has unusual decision day: Saturday, May 26, 1894
+warning: COVINGTON AND CINCINNATI ELEVATED RAILROAD AND TRANSFER AND BRIDGE COMPANY v. KENTUCKY (154 U.S. 224) has unusual decision day: Saturday, May 26, 1894
+warning: UNITED STATES v. ILLINOIS CENTRAL RAILROAD COMPANY (154 U.S. 225) has unusual decision day: Saturday, May 26, 1894
+warning: RIGGLES v. ERNEY (154 U.S. 244) has unusual decision day: Saturday, May 26, 1894
+warning: MORAN v. STURGES (154 U.S. 256) has unusual decision day: Saturday, May 26, 1894
+warning: BARDEN v. NORTHERN PACIFIC RAILROAD COMPANY (154 U.S. 288) has unusual decision day: Saturday, May 26, 1894
+warning: NORTHERN PACIFIC RAILROAD COMPANY v. HAMBLY (154 U.S. 349) has unusual decision day: Saturday, May 26, 1894
+warning: REAGAN v. FARMERS' LOAN AND TRUST COMPANY (154 U.S. 362) has unusual decision day: Saturday, May 26, 1894
+warning: REAGAN v. MERCANTILE TRUST COMPANY (154 U.S. 413) has unusual decision day: Saturday, May 26, 1894
+warning: REAGAN v. MERCANTILE TRUST COMPANY. (154 U.S. 418) has unusual decision day: Saturday, May 26, 1894
+warning: REAGAN v. FARMERS' LOAN AND TRUST COMPANY (154 U.S. 420) has unusual decision day: Saturday, May 26, 1894
+warning: PITTSBURGH, CINCINNATI, CHICAGO AND ST. LOUIS RAILWAY COMPANY v. BACKUS (154 U.S. 421) has unusual decision day: Saturday, May 26, 1894
+warning: INDIANAPOLIS AND VINCENNES RAILROAD COMPANY v. BACKUS (154 U.S. 438) has unusual decision day: Saturday, May 26, 1894
+warning: CLEVELAND, CINCINNATI, CHICAGO AND ST. LOUIS RAILWAY COMPANY v. BACKUS (154 U.S. 439) has unusual decision day: Saturday, May 26, 1894
+warning: INTERSTATE COMMERCE COMMISSION v. BRIMSON (154 U.S. 447) has unusual decision day: Saturday, May 26, 1894
+warning: CHARLEY SMITH v. MISSISSIPPI (162 U.S. 592) has unusual decision day: Saturday, April 18, 1896
+warning: WILLIAMS v. PAINE (169 U.S. 55) has unusual decision day: Sunday, January 10, 1897
+warning: THE TERRITORY OF NEW MEXICO v. THE UNITED STATES TRUST COMPANY OF NEW YORK et al. (172 U.S. 186) has unusual decision day: Saturday, October 1, 1898
+warning: DISTRICT OF COLUMBIA v. ESLIN (183 U.S. 62) has unusual decision day: Sunday, November 3, 1901
+warning: 187 U.S. 466: decision date 1903-01-05 lies within court Fuller 9 (809) but naturalCourt is different (808)
+warning: BLAKE, TRUSTEE IN BANKRUPTCY, v. OPENHYM (216 U.S. 322) has unusual decision day: Saturday, February 12, 1910
+warning: WILSON v. UNITED STATES (221 U.S. 361) has unusual decision day: Saturday, April 15, 1911
+warning: MESSENGER v. ANDERSON (225 U.S. 436) has unusual decision day: Sunday, June 2, 1912
+warning: MORRIS CANAL AND BANKING COMPANY v. BAIRD (239 U.S. 126) has unusual decision day: Sunday, November 21, 1915
+warning: WARD et al. v. BOARD OF COUNTY COMMISSIONERS OF LOVE COUNTY, OKLAHOMA (253 U.S. 17) has unusual decision day: Sunday, April 25, 1920
+warning: 314 U.S. 463: decision date 1941-12-22 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 44: decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 402: decision date 1941-12-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 252: decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 314: decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 118: decision date 1941-11-17 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 63: decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 212: decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 1: decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 14: decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 244: decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 104: decision date 1941-11-17 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 95: decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 423: decision date 1941-12-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 360: decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 339: decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 469: decision date 1941-12-22 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 480: decision date 1941-12-22 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 306: decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 160: decision date 1941-11-24 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 19: decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 33: decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 441: decision date 1941-12-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 84: decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 459: decision date 1941-12-22 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 94: decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 390: decision date 1941-12-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 186: decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 201: decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 219: decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 326: decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 155: decision date 1941-11-17 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 527: decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 556: decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 31: decision date 1942-04-06 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 357: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 386: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 23: decision date 1942-04-06 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 289: decision date 1942-02-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 148: decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 354: decision date 1942-05-25 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 203: decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 575: decision date 1942-03-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 262: decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 447: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 4: decision date 1942-04-06 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 373: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 74: decision date 1942-04-13 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 346: decision date 1942-05-25 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 350: decision date 1942-05-25 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 216: decision date 1942-05-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 631: decision date 1942-03-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 381: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 475: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 495: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 50: decision date 1942-01-19 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 57: decision date 1942-01-19 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 15: decision date 1942-01-12 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 534: decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 572: decision date 1942-06-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 624: decision date 1942-06-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 527: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 407: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 502: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 517: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 394: decision date 1942-05-25 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 258: decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 317: decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 89: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 105: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 129: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 685: decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 722: decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 740: decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 769: decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 510: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 437: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 521: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 282: decision date 1942-02-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 179: decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 110: decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 139: decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 143: decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 100: decision date 1942-01-19 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 498: decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 512: decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 549: decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 564: decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 442: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 513: decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 69: decision date 1942-04-13 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 510: decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 556: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 364: decision date 1942-05-25 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 203: decision date 1942-05-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 143: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 159: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 666: decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 668: decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 759: decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 561: decision date 1942-03-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 185: decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 189: decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 194: decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 32: decision date 1942-01-12 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 265: decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 241: decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 488: decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 314 U.S. 495: decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 752: decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 584: decision date 1942-06-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 400: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 447: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 450: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 455: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 481: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 486: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 491: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 535: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 547: decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 342: decision date 1942-05-25 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 255: decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 283: decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 286: decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 310: decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 332: decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 209: decision date 1942-05-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 98: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 101: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 107: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 114: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 149: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 153: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 164: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 168: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 174: decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 52: decision date 1942-04-13 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 56: decision date 1942-04-13 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 1: decision date 1942-04-06 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 649: decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 657: decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 681: decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 698: decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 610: decision date 1942-03-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 626: decision date 1942-03-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 637: decision date 1942-03-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 543: decision date 1942-03-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 568: decision date 1942-03-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 411: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 501: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 280: decision date 1942-02-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 283: decision date 1942-02-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 343: decision date 1942-02-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 126: decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 257: decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 44: decision date 1942-01-19 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 60: decision date 1942-01-19 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 94: decision date 1942-01-19 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 1: decision date 1942-01-12 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 8: decision date 1942-01-12 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 25: decision date 1942-01-12 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 42: decision date 1942-01-12 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 784: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 783: decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 315 U.S. 787: decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 316 U.S. 642: decision date 1942-04-13 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 269: decision date 1942-12-21 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 217: decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 56: decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 61: decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 111: decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 188: decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 192: decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 239: decision date 1942-12-14 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 249: decision date 1942-12-14 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 264: decision date 1942-12-21 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 178: decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 211: decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 135: decision date 1942-11-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 144: decision date 1942-11-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 78: decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 88: decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 1: decision date 1942-07-31 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 222: decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 228: decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 154: decision date 1942-11-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 102: decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 49: decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 95: decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 69: decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 173: decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 200: decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 238: decision date 1942-12-14 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 287: decision date 1942-12-21 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 213: decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 134: decision date 1942-11-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 518: decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 562: decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 423: decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 369: decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 412: decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 537: decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 575: decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 501: decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 133: decision date 1943-02-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 36: decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 383: decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 395: decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 406: decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 456: decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 481: decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 519: decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 564: decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 572: decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 447: decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 325: decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 329: decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 338: decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 399: decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 341: decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 476: decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 492: decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 206: decision date 1943-02-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 120: decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 163: decision date 1943-02-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 73: decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 50: decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 54: decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 80: decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 125: decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 1: decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 9: decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 176: decision date 1943-02-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 184: decision date 1943-02-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 189: decision date 1943-02-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 203: decision date 1943-02-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 101: decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 424: decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 44: decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 47: decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 318 U.S. 109: decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 317 U.S. 595: decision date 1942-10-26 lies within court Stone 1 (1201) but naturalCourt is different (1202)
+warning: 352 U.S. 567: decision date 1957-03-11 lies within court Warren 5 (1405) but naturalCourt is different (1404)
+warning: 352 U.S. 599: decision date 1957-03-11 lies within court Warren 5 (1405) but naturalCourt is different (1404)
+warning: 352 U.S. 565: decision date 1957-03-04 lies within court Warren 5 (1405) but naturalCourt is different (1404)
+warning: GENERAL ELECTRIC CO. v. LOCAL 205, UNITED ELECTRICAL, RADIO AND MACHINE WORKERS OF AMERICA (U. E.) (353 U.S. 547) has unusual decision day: Sunday, June 2, 1957
+warning: UNITED STEELWORKERS OF AMERICA v. UNITED STATES et al. (361 U.S. 39) has unusual decision day: Saturday, November 7, 1959
+warning: ROCKEFELLER, GOVERNOR OF NEW YORK, et al. v. WELLS et al. (389 U.S. 421) has unusual decision day: Saturday, December 16, 1967
+warning: EPPERSON et al. v. ARKANSAS (393 U.S. 97) has unusual decision day: Sunday, November 17, 1968
+warning: CARTER et al. v. WEST FELICIANA PARISH SCHOOL BOARD et al. (396 U.S. 226) has unusual decision day: Saturday, December 13, 1969
+warning: ARKANSAS v. TENNESSEE (397 U.S. 88) has unusual decision day: Sunday, January 25, 1970
+warning: SIXTY-SEVENTH MINNESOTA STATE SENATE v. BEENS et al. (406 U.S. 187) has unusual decision day: Saturday, April 29, 1972
+warning: RICHARDSON, SECRETARY OF HEALTH, EDUCATION, AND WELFARE v. MORRIS et al. (409 U.S. 464) has unusual decision day: Saturday, January 15, 1972
+warning: UNITED STATES v. BENCHIMOL (471 U.S. 453) has unusual decision day: Sunday, May 12, 1985
+warning: PERRY v. LEEKE, COMMISSIONER, SOUTH CAROLINA DEPARTMENT OF CORRECTIONS, et al. (488 U.S. 272) has unusual decision day: Sunday, January 1, 1989
+warning: COUNTY OF ALLEGHENY et al. v. AMERICAN CIVIL LIBERTIES UNION, GREATER PITTSBURGH CHAPTER, et al. (492 U.S. 573) has unusual decision day: Sunday, July 2, 1989
+warning: DEMOSTHENES et al. v. BAAL et al. (495 U.S. 731) has unusual decision day: Sunday, June 3, 1990
+warning: KENNETH HILTON v. SOUTH CAROLINA PUBLIC RAILWAYS COMMISSION (502 U.S. 197) has unusual decision day: Sunday, December 15, 1991
+warnings: 772
+[17:08:13] Finished 'default' after 7.24 s
