@@ -1325,12 +1325,12 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let justices = JSON.parse(readTextFile(rootDir + sources.results.justices) || "[]");
 
     let scdbCourts = readSCDBCourts();
-    let findSCDBCourt = function(dateDecision, naturalCourt, usCite) {
+    let findSCDBCourt = function(caseName, usCite, dateDecision, naturalCourt) {
         for (let i = 0; i < scdbCourts.length; i++) {
             let court = scdbCourts[i];
             if (dateDecision >= court.start && dateDecision <= court.stop) {
                 if (naturalCourt != court.naturalCourt) {
-                    printf("warning: %s: decision date %s lies within court %s (%d) but naturalCourt is different (%d)\n", usCite, dateDecision, court.naturalName, court.naturalCourt, naturalCourt);
+                    printf("warning: %s (%s): decision date %s lies within court %s (%d) but naturalCourt is different (%d)\n", caseName, usCite, dateDecision, court.naturalName, court.naturalCourt, naturalCourt);
                     warnings++;
                 }
                 if (selectedCourt && naturalCourt != selectedCourt) continue;
@@ -1386,7 +1386,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             if (!caseId || decision.caseId == caseId) {
                 if (!minVotes || decision.minVotes == minVotes) {
                     if (!decided || decision.dateDecision.indexOf(decided) == 0) {
-                        if (!selectedCourt || findSCDBCourt(decision.dateDecision, decision.naturalCourt, decision.usCite)) {
+                        if (!selectedCourt || findSCDBCourt(decision.caseName, decision.usCite, decision.dateDecision, decision.naturalCourt)) {
                             if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
                                 if (!month || decision.dateDecision.indexOf(month) > 0) {
                                     if (!volume || !page && decision.usCite.indexOf(usCite) == 0 || volume && page && decision.usCite == usCite) {
