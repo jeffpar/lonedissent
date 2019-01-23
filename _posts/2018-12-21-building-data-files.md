@@ -204,15 +204,27 @@ to give you a sense of the problems:
 
 There are *lots* of duplicate values, varying only in form, not in substance, not to mention *lots* of typos.
 
-More worrisome are all the discrepancies we found in SCBD's decision dates.  SCDB
+More worrisome are all the decision date discrepancies we've found.  SCDB
 [claims](http://scdb.wustl.edu/documentation.php?var=dateDecision) that:
 
 > For volumes 2-107 of the U.S. Reports (1791-1882), we relied on [Dates of Supreme Court Decisions and Arguments](http://www.supremecourt.gov/opinions/datesofdecisions.pdf), prepared by Anne Ashmore of the Library of the Supreme Court,
 because many early reporters do not list the date of decision.
 
-but if they did, they appear to have made a lot of [mistakes](/tests/validation.txt).  We will be relying on
-[our own import](https://github.com/jeffpar/lonedissent/blob/master/sources/scotus/decisionDates.csv) of SCOTUS
-decision dates until this gets resolved.
+but if they did, they appear to have made a lot of [mistakes](/tests/validation.txt).  While some of the warnings
+we automatically generate are not necessarily errors (e.g., decisions handed down on a Saturday or Sunday, while unlikely,
+are not impossible), they usually merit attention.  Take this pair of warnings:
+
+    warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has decision date 1807-03-07 instead of SCOTUS date 1808-03-07
+    warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has unusual decision day: Saturday, March 7, 1807
+
+The fact that an SCDB decision date falls on a Saturday *and* differs from the SCOTUS decision date strongly suggests
+that the SCDB date is wrong.  We will be relying on [our own import](https://github.com/jeffpar/lonedissent/blob/master/sources/scotus/decisionDates.csv)
+of SCOTUS decision dates until this gets resolved.
+
+Our list of warnings also includes cases appearing in the SCOTUS [Dates of Decisions](/sources/scotus/decisionDates.pdf) document
+that do *not* appear in SCDB.  These may be cases that were simply overlooked, or intentionally omitted, or which *are* in SCDB
+but didn't match an entry in the SCOTUS document, either because of a date or citation discrepancy, or because of some ambiguity
+(eg, when multiple cases are recorded on the same page and therefore have the same citation).
 
 We've also uncovered quite a few cases where SCDB's decision date puts a case squarely in one [Natural Court](http://scdb.wustl.edu/documentation.php?var=naturalCourt) and yet the case is assigned to a *different* Natural Court.
 
@@ -224,4 +236,45 @@ For example, they indicate that the final Warren Court ended on June 22, 1969 an
 on June 23, 1969.  However, several decisions were handed down on June 23, 1969, which could only have been Warren Court decisions.
 
 These and many other inconsistencies are being [logged](/tests/validation.txt) in the Lone Dissent project, which will hopefully get
-resolved over time.
+resolved over time.  We also hope that, some day, SCDB adopts more transparency in its update procedures, so that when a correction
+is made, the *source* relied upon is recorded as well.  This will help future researchers avoid unreliable data sources.
+
+It is neither sufficient nor convenient to expect researchers to "diff" each release of SCDB with its predecessors to identify
+corrections, additions, deletions, etc.  For example, how seriously should one take SCDB's claim of reliance on
+[Dates of Supreme Court Decisions and Arguments](http://www.supremecourt.gov/opinions/datesofdecisions.pdf), given the number of
+differences?  What accounts for those differences?  Were other, more trusted sources consulted and relied upon as well, or does
+every difference simply represent a typo -- and if so, why are there so many typos in what should have been a straightforward import?
+
+This reminds me of email conversations I had with Andrew D. Martin almost 10 years ago, when the SCDB was still in its infancy.
+
+For example, on November 3, 2009, I had written to him:
+
+    I just performed a quick comparison of 2009 Release 03 to Release 02
+    and found 173 discrete differences (after removing all the differences
+    due to the LED citation format change from "L. Ed. 2d." to "L. Ed. 2d").
+    Of those 173, many were to fix the incorrect LED references to Vol 1.
+    of L. Ed., leaving a handful of changes/corrections to assorted cases
+    (eg, the voting data in 04-607).
+
+    I would urge you to provide more detailed release notes for your quarterly
+    releases, particularly if one of the goals of these major updates is to
+    support methodical scholarly research.  The only release notes I could find
+    for 2009 Release 03 said "Minor corrections".  That level of detail seems
+    inadequate to me.  Even changes that seem relatively minor (eg, "L. Ed. 2d")
+    are worth pointing out, since any change can cause unexpected side-effects.
+
+His response:
+
+    We appreciate this repeated suggestions ... and it's under consideration.
+    However, our time and resources are quite limited, and repeatedly making the
+    same request is, frankly, not helpful.  All versions of our binary data
+    files are posted (something Harold was not doing with ALLCOURT) and you can
+    perform the differentials just as well as we can.
+
+    Best,
+    ADM
+
+It's a bit sad to see that, almost ten years later, there is still no transparency, and that the release notes
+for SCDB's latest release ("2018 Release 02") still say nothing more than:
+
+    Minor corrections
