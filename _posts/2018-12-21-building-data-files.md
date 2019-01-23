@@ -203,3 +203,25 @@ to give you a sense of the problems:
     "unspecified act of congress",
 
 There are *lots* of duplicate values, varying only in form, not in substance, not to mention *lots* of typos.
+
+More worrisome are all the discrepancies we found in SCBD's decision dates.  SCDB
+[claims](http://scdb.wustl.edu/documentation.php?var=dateDecision) that:
+
+> For volumes 2-107 of the U.S. Reports (1791-1882), we relied on [Dates of Supreme Court Decisions and Arguments](http://www.supremecourt.gov/opinions/datesofdecisions.pdf), prepared by Anne Ashmore of the Library of the Supreme Court,
+because many early reporters do not list the date of decision.
+
+but if they did, they appear to have made a lot of [mistakes](/tests/validation.txt).  We will be relying on
+[our own import](https://github.com/jeffpar/lonedissent/blob/master/sources/scotus/decisionDates.csv) of SCOTUS
+decision dates until this gets resolved.
+
+We've also uncovered quite a few cases where SCDB's decision date puts a case squarely in one [Natural Court](http://scdb.wustl.edu/documentation.php?var=naturalCourt) and yet the case is assigned to a *different* Natural Court.
+
+In some cases, this is because the dates assigned to the Natural Court are incorrect, so we've
+started [making corrections](https://github.com/jeffpar/lonedissent/commit/b7c86a71ee57aa59899ccda54a20af592c577c9c#diff-9525524c4cf4c9714fb0ecccf927eb09)
+to our copy of SCDB's Natural Court data.
+
+For example, they indicate that the final Warren Court ended on June 22, 1969 and the first Burger Court began the next day,
+on June 23, 1969.  However, several decisions were handed down on June 23, 1969, which could only have been Warren Court decisions.
+
+These and many other inconsistencies are being [logged](/tests/validation.txt) in the Lone Dissent project, which will hopefully get
+resolved over time.
