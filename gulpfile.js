@@ -1906,6 +1906,11 @@ function testDates(done)
     format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
     printf(format, format, date, date, date, date, date, date, date, date);
 
+    date = parseDate("1809-02");
+    printf("\nparseDate(\"1809-02\")\n");
+    format = "%s\t%#C\n";
+    printf(format, format, date);
+
     let terms = ['1790-02', '1953-06', '1980-12-12'];
     terms.forEach((term) => {
         printf("getTermName(%s): %s\n", term, getTermName(term))
