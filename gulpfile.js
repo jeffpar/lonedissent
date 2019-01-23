@@ -784,8 +784,10 @@ function readSCDBCourts()
         let start = parseDate(court.naturalStart);
         let stop = parseDate(court.naturalStop);
         if (startNext && start.getTime() != startNext.getTime()) {
-            printf("warning: %s: current start date (%#C) does not match previous stop date (%#C)\n", court.naturalName, start, startNext);
-            warnings++;
+            if (argv['warnings']) {
+                printf("warning: %s: current start date (%#C) does not match previous stop date (%#C)\n", court.naturalName, start, startNext);
+                warnings++;
+            }
         }
         court.start = sprintf("%#Y-%#02M-%#02D", start, start, start);
         court.stop = sprintf("%#Y-%#02M-%#02D", stop, stop, stop);
@@ -809,11 +811,8 @@ function readSCOTUSDecisionDates()
     for (let i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
         if (!decision.dateDecision) {
-            /*
-             * This is OK, for now.  These are decisions for which SCOTUS had no exact date.
-             */
-            // printf("warning: %s (%s) has no decision date\n", decision.caseName, decision.usCite);
-            // warnings++;
+            printf("warning: %s (%s) has no decision date\n", decision.caseName, decision.usCite);
+            warnings++;
             continue;
         }
         let match = decision.usCite.match(/([0-9]+) U.S. ([0-9]+)/);
@@ -1340,7 +1339,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
         return 0;
     };
 
-    let scotusDates = readSCOTUSDecisionDates();
+    let scotusDecisions = readSCOTUSDecisionDates();
 
     do {
         let year = 0;
@@ -1365,23 +1364,31 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 
         let results = [];
         decisions.forEach((decision) => {
-            let citeDates = scotusDates[decision.usCite];
-            if (citeDates) {
+            let scotusDates = scotusDecisions[decision.usCite];
+            if (scotusDates) {
                 let i, citeDate;
-                for (i = 0; i < citeDates.length; i++) {
-                    citeDate = citeDates[i];
-                    if (decision.dateDecision == citeDate.dateDecision) break;
+                for (i = 0; i < scotusDates.length; i++) {
+                    citeDate = scotusDates[i];
+                    if (decision.dateDecision == citeDate.dateDecision) {
+                        citeDate.matched = true;
+                        break;
+                    }
                 }
-                if (i == citeDates.length && citeDate.dateDecision) {
-                    printf("warning: %s (%s) has decision date %s instead of SCOTUS date %s\n", decision.caseName, decision.usCite, decision.dateDecision, citeDate.dateDecision);
-                    warnings++;
+                if (i == scotusDates.length && citeDate.dateDecision) {
+                    citeDate.matched = true;
+                    if (argv['warnings']) {
+                        printf("warning: %s (%s) has decision date %s instead of SCOTUS date %s\n", decision.caseName, decision.usCite, decision.dateDecision, citeDate.dateDecision);
+                        warnings++;
+                    }
                 }
             }
             let dateDecision = parseDate(decision.dateDecision);
             let dayOfWeek = dateDecision.getUTCDay();
             if (dayOfWeek == 0 || dayOfWeek == 6) {
-                printf("warning: %s (%s) has unusual decision day: %#C\n", decision.caseName, decision.usCite, dateDecision);
-                warnings++;
+                if (argv['warnings']) {
+                    printf("warning: %s (%s) has unusual decision day: %#C\n", decision.caseName, decision.usCite, dateDecision);
+                    warnings++;
+                }
             }
             if (!caseId || decision.caseId == caseId) {
                 if (!minVotes || decision.minVotes == minVotes) {
@@ -1409,6 +1416,17 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     }
                 }
             }
+        });
+
+        let scotusCites = Object.keys(scotusDecisions);
+        scotusCites.forEach((usCite) => {
+            let scotusDates = scotusDecisions[usCite];
+            scotusDates.forEach((scotusDecision) => {
+                if (!scotusDecision.matched) {
+                    printf("warning: %s (%s) with SCOTUS decision date %s has no matching SCDB entry\n", scotusDecision.caseName, scotusDecision.usCite, scotusDecision.dateDecision);
+                    warnings++;
+                }
+            });
         });
 
         let range = (start || stop)? sprintf(" in range %s--%s", start, stop) : "";
