@@ -1,7 +1,6 @@
-[22:29:03] Using gulpfile ~/Sites/lonedissent/gulpfile.js
-[22:29:03] Starting 'default'...
+[22:56:29] Using gulpfile ~/Sites/lonedissent/gulpfile.js
+[22:56:29] Starting 'fixDecisions'...
 decisions available: 28779
-warning: No Chief (Post-Rutledge): current start date (Thursday, February 4, 1796) does not match previous stop date (Wednesday, December 16, 1795)
 warning: THE STATE OF GEORGIA VERSUS BRAILSFORD, et al. (2 U.S. 402) has unusual decision day: Saturday, August 11, 1792
 warning: HAYBURN'S CASE (2 U.S. 409) has unusual decision day: Saturday, August 11, 1792
 warning: TALBOT, APPELLANT, VERSUS JANSON, APPELLEE, et al. (3 U.S. 133) has unusual decision day: Saturday, August 22, 1795
@@ -11,8 +10,10 @@ warning: DEWHURST VERSUS COULTHARD (3 U.S. 409) has decision date 1799-02-01 ins
 warning: COURSE et al. VERSUS STEAD ET UX. et al. (4 U.S. 22) has unusual decision day: Saturday, February 8, 1800
 warning: BLAINE VERSUS SHIP CHARLES CARTER et al. (4 U.S. 22) has unusual decision day: Saturday, February 8, 1800
 warning: BLAIR et al. PLAINTIFFS IN ERROR, VERSUS MILLER et al. (4 U.S. 21) has decision date 1800-08-01 instead of SCOTUS date 1800-02
-warning: TALBOT VERSUS THE SHIP AMELIA, SEEMAN, CLAIMANT (4 U.S. 34) has decision date 1801-08-15 instead of SCOTUS date 1800-08-15
+warning: BLAIR et al. PLAINTIFFS IN ERROR, VERSUS MILLER et al. (4 U.S. 21): decision date 1800-02 lies within court Ellsworth 2 (302) but naturalCourt is different (303)
 warning: TALBOT VERSUS THE SHIP AMELIA, SEEMAN, CLAIMANT (4 U.S. 34) has unusual decision day: Saturday, August 15, 1801
+warning: TALBOT VERSUS THE SHIP AMELIA, SEEMAN, CLAIMANT (4 U.S. 34) has decision date 1801-08-15 instead of SCOTUS date 1800-08-15
+warning: TALBOT VERSUS THE SHIP AMELIA, SEEMAN, CLAIMANT (4 U.S. 34): decision date 1800-08-15 lies within court Ellsworth 3 (303) but naturalCourt is different (401)
 warning: WILSON v. LENOX AND MAITLAND (5 U.S. 194) has unusual decision day: Saturday, February 26, 1803
 warning: THOMPSON v. JAMESON (5 U.S. 282) has unusual decision day: Saturday, February 26, 1803
 warning: MANDEVILLE AND JAMESON v. JOSEPH RIDDLE AND CO (5 U.S. 290) has unusual decision day: Saturday, February 26, 1803
@@ -37,8 +38,9 @@ warning: YOUNG v. PRESTON (8 U.S. 239): decision date 1808-02-29 lies within cou
 warning: HUDSON AND OTHERS v. GUESTIER (8 U.S. 293): decision date 1808-03-02 lies within court Marshall 4 (404) but naturalCourt is different (403)
 warning: ALEXANDER v. HARRIS, BAILIFF OF CRAMMOND (8 U.S. 299): decision date 1808-03-02 lies within court Marshall 4 (404) but naturalCourt is different (403)
 warning: CHAPPEDELAINE, RESIDUARY LEGATEE, AND CLOSRIVIERRE, ADM'R DE BONIS NON, OF CHAPPEDELAINE, COMPLAINANTS, v. DECHENAUX, EXECUTOR OF DUMOUSSAY, DEFENDANT (8 U.S. 306): decision date 1808-03-04 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has decision date 1807-03-07 instead of SCOTUS date 1808-03-07
 warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has unusual decision day: Saturday, March 7, 1807
+warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has decision date 1807-03-07 instead of SCOTUS date 1808-03-07
+warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316): decision date 1808-03-07 lies within court Marshall 4 (404) but naturalCourt is different (403)
 warning: THE MAYOR AND COMMONALTY OF ALEXANDRIA v. PATTEN AND OTHERS (8 U.S. 317): decision date 1808-03-07 lies within court Marshall 4 (404) but naturalCourt is different (403)
 warning: MOUNTZ AND OTHERS v. HODGSON AND THOMPSON (8 U.S. 324): decision date 1808-03-08 lies within court Marshall 4 (404) but naturalCourt is different (403)
 warning: BLAINE v. THE SHIP CHARLES CARTER, AND DONALD AND BURTON AND OTHERS, CLAIMANTS (8 U.S. 328): decision date 1808-03-08 lies within court Marshall 4 (404) but naturalCourt is different (403)
@@ -53,8 +55,9 @@ warning: SPIERS v. WILLISON (8 U.S. 398): decision date 1808-03-14 lies within c
 warning: RAMSAY v. LEE (8 U.S. 401): decision date 1808-03-14 lies within court Marshall 4 (404) but naturalCourt is different (403)
 warning: STEAD'S EXECUTORS v. COURSE (8 U.S. 403): decision date 1808-03-14 lies within court Marshall 4 (404) but naturalCourt is different (403)
 warning: HIGGINSON v. MEIN (8 U.S. 415): decision date 1808-03-14 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: DAWSON'S LESSEE v. GODFREY (8 U.S. 321) has decision date 1807-03-15 instead of SCOTUS date 1808-03-15
 warning: DAWSON'S LESSEE v. GODFREY (8 U.S. 321) has unusual decision day: Sunday, March 15, 1807
+warning: DAWSON'S LESSEE v. GODFREY (8 U.S. 321) has decision date 1807-03-15 instead of SCOTUS date 1808-03-15
+warning: DAWSON'S LESSEE v. GODFREY (8 U.S. 321): decision date 1808-03-15 lies within court Marshall 4 (404) but naturalCourt is different (403)
 warning: POLLARD AND PICKETT v. DWIGHT et al. (8 U.S. 421): decision date 1808-03-15 lies within court Marshall 4 (404) but naturalCourt is different (403)
 warning: ROSE v. HIMELY (8 U.S. 241): decision date 1808-03-02 lies within court Marshall 4 (404) but naturalCourt is different (403)
 warning: PAWLING AND OTHERS v. THE UNITED STATES (8 U.S. 219) has unusual decision day: Saturday, February 27, 1808
@@ -75,6 +78,7 @@ warning: HUDSON AND SMITH v. GUESTIER (10 U.S. 281) has unusual decision day: Sa
 warning: SERE AND LARALDE v. PITOT AND OTHERS (10 U.S. 332) has unusual decision day: Saturday, March 17, 1810
 warning: THE MARYLAND INSURANCE COMPANY v. RUDEN'S ADMINISTRATOR (10 U.S. 338) has unusual decision day: Saturday, March 17, 1810
 warning: HAWTHORNE, CLAIMANT OF THE BRIG CLARISSA CLAIBORNE v. THE UNITED STATES (11 U.S. 107) has decision date 1812-02-20 instead of SCOTUS date 1812-02
+warning: HAWTHORNE, CLAIMANT OF THE BRIG CLARISSA CLAIBORNE v. THE UNITED STATES (11 U.S. 107): decision date 1812-02 lies within court Marshall 5 (405) but naturalCourt is different (406)
 warning: MARYLAND INSURANCE COMPANY v. LE ROY, BAYARD &amp; M'EVERS (11 U.S. 26) has unusual decision day: Saturday, February 22, 1812
 warning: HUGHES v. MOORE (11 U.S. 176) has unusual decision day: Saturday, March 7, 1812
 warning: THE UNITED STATES v. HUDSON AND GOODWIN (11 U.S. 32) has unusual decision day: Saturday, March 14, 1812
@@ -113,8 +117,8 @@ warning: THE UNITED STATES v. BRYAN AND WOODCOCK, (GARNISHEES OF HENDRICKSON. (1
 warning: THE BRIG CONCORD, TAYLOR, MASTER (13 U.S. 387) has unusual decision day: Saturday, March 11, 1815
 warning: THE NEREIDE, BENNETT, MASTER (13 U.S. 388) has unusual decision day: Saturday, March 11, 1815
 warning: PRATT, AND OTHERS, ORIGINAL COMPLAINANTS, v. THOMAS LAW, AND WILLIAM CAMPBELL, ORIGINAL DEFENDANTS (13 U.S. 456) has unusual decision day: Saturday, March 11, 1815
-warning: THE GEORGE, THE BOTHNEA, AND THE IANSTAFF (14 U.S. 408) has decision date 1816-03-23 instead of SCOTUS date 1816-02
 warning: THE GEORGE, THE BOTHNEA, AND THE IANSTAFF (14 U.S. 408) has unusual decision day: Saturday, March 23, 1816
+warning: THE GEORGE, THE BOTHNEA, AND THE IANSTAFF (14 U.S. 408) has decision date 1816-03-23 instead of SCOTUS date 1816-02
 warning: NEGRESS SALLY HENRY, BY WILLIAM HENRY, HER FATHER AND NEXT FRIEND, v. BALL (14 U.S. 1) has unusual decision day: Saturday, February 10, 1816
 warning: THE VENUS. -- JADEMEROWSKY, CLAIMANT (14 U.S. 112) has unusual decision day: Saturday, March 2, 1816
 warning: HEPBURN &amp; DUNDAS' HEIRS AND EXECUTORS v. DUNLOP &amp; COMPANY (14 U.S. 179) has unusual decision day: Saturday, March 9, 1816
@@ -257,10 +261,12 @@ warning: HENRY BEARD, WILLIAM A. BEARD, LEWIS HAWKINS AND MARY HIS WIFE v. JOHN 
 warning: BENJAMIN J. TARVER, APPELLANT v. SAMUEL B. TARVER, CHARLOTTE TARVER AND PATIENCE GIBSON (34 U.S. 174) has unusual decision day: Saturday, February 21, 1835
 warning: GEORGE KING'S HEIRS, RAPHAEL SEMMES AND OTHERS, APPELLANTS v. JOSIAH THOMPSON AND ELIZABETH HIS WIFE (34 U.S. 204) has unusual decision day: Saturday, February 21, 1835
 warning: JOSEPH D. BEERS, WILLIAM L. BOOTH AND ISAAC R. ST JOHN, PLAINTIFFS IN ERROR v. RICHARD HAUGHTON (34 U.S. 329) has unusual decision day: Saturday, February 28, 1835
-warning: THE UNITED STATES, APPELLANTS v. GEORGE J. F. CLARKE (34 U.S. 168) has decision date 1835-03-14 instead of SCOTUS date 1834-03-14
 warning: THE UNITED STATES, APPELLANTS v. GEORGE J. F. CLARKE (34 U.S. 168) has unusual decision day: Saturday, March 14, 1835
-warning: UNITED STATES, APPELLANTS v. ANTONIO HUERTAS (34 U.S. 171) has decision date 1835-03-14 instead of SCOTUS date 1834-03-14
+warning: THE UNITED STATES, APPELLANTS v. GEORGE J. F. CLARKE (34 U.S. 168) has decision date 1835-03-14 instead of SCOTUS date 1834-03-14
+warning: THE UNITED STATES, APPELLANTS v. GEORGE J. F. CLARKE (34 U.S. 168): decision date 1834-03-14 lies within court Marshall 9 (409) but naturalCourt is different (410)
 warning: UNITED STATES, APPELLANTS v. ANTONIO HUERTAS (34 U.S. 171) has unusual decision day: Saturday, March 14, 1835
+warning: UNITED STATES, APPELLANTS v. ANTONIO HUERTAS (34 U.S. 171) has decision date 1835-03-14 instead of SCOTUS date 1834-03-14
+warning: UNITED STATES, APPELLANTS v. ANTONIO HUERTAS (34 U.S. 171): decision date 1834-03-14 lies within court Marshall 9 (409) but naturalCourt is different (410)
 warning: THE UNITED STATES, PLAINTIFFS IN ERROR v. WILLIAM L. ROBESON (34 U.S. 319) has unusual decision day: Saturday, March 14, 1835
 warning: ex parte GEORGE MILBURN (34 U.S. 704) has unusual decision day: Saturday, March 14, 1835
 warning: SAMUEL D. HARRIS AND OTHERS v. JESSE D. ELLIOTT (35 U.S. 25) has unusual decision day: Saturday, January 23, 1836
@@ -346,6 +352,7 @@ warning: JOHN D. BUSH, APPELLANT, v. JACOB MARSHALL AND WILLIAM B. WHITESIDES (4
 warning: PETER HOGG AND CORNELIUS H. DELAMATER, PLAINTIFFS IN ERROR, v. JOHN B. EMERSON (47 U.S. 437) has unusual decision day: Saturday, March 11, 1848
 warning: WILLIAM HOUSTON AND OTHERS, AND FRANCIS FISK AND OTHERS, PLAINTIFFS IN ERROR, v. THE CITY BANK OF NEW ORLEANS (47 U.S. 486) has unusual decision day: Saturday, March 11, 1848
 warning: PASSENGER CASES: GEORGE SMITH, PLAINTIFF IN ERROR. v. WILLIAM TURNER, HEALTH-COMMISSIONER OF THE PORT OF NEW YORK (48 U.S. 283) has decision date 1849-02-07 instead of SCOTUS date 1845-12-09
+warning: PASSENGER CASES: GEORGE SMITH, PLAINTIFF IN ERROR. v. WILLIAM TURNER, HEALTH-COMMISSIONER OF THE PORT OF NEW YORK (48 U.S. 283): decision date 1845-12-09 lies within court Taney 7 (507) but naturalCourt is different (508)
 warning: UNITED STATES v. CARRERE (154 U.S. 532) has unusual decision day: Sunday, April 3, 1853
 warning: THE SCHOONER CATHARINE, HER TACKLE, ETC., STARKS W. LEWIS AND OTHERS, OWNERS AND CLAIMANTS, APPELLANTS, v. NOAH DICKINSON AND OTHERS, LIBELLANTS (58 U.S. 170) has unusual decision day: Saturday, March 10, 1855
 warning: CHARLES MINTURN, APPELLANT, v. LAFAYETTE MAYNARD, GILBERT A. GRANT, THOMAS G. WELLS, LUCIEN SKINNER, FREDERICK BILLINGS, CHARLES J. BRENHAM, ISAAC T. MOTT, J. DE LA MONTAGNE, E. M. NEAL, AND THOMAS L. CHAPMAN (58 U.S. 477) has unusual decision day: Saturday, March 10, 1855
@@ -355,15 +362,17 @@ warning: JOHN C. HAYS, PLAINTIFF IN ERROR, v. THE PACIFIC MAIL STEAM-SHIP COMPAN
 warning: WILLIAM CHRISTY, PLAINTIFF IN ERROR, v. LODOVICK P. ALFORD, ADMINISTRATOR OF HENRY D. BULLARD, DECEASED (58 U.S. 601) has unusual decision day: Saturday, March 10, 1855
 warning: ENOCH C. ROBERTS, PLAINTIFF IN ERROR, v. JAMES M. COOPER (60 U.S. 373) has decision date 1857-03-05 instead of SCOTUS date 1856-12
 warning: AUGUSTUS HEMMENWAY, CLAIMANT OF THE SHIP INDEPENDENCE, v. WILLIAM B. FISHER (61 U.S. 255) has decision date 1858-12-24 instead of SCOTUS date 1857-12-24
+warning: AUGUSTUS HEMMENWAY, CLAIMANT OF THE SHIP INDEPENDENCE, v. WILLIAM B. FISHER (61 U.S. 255): decision date 1857-12-24 lies within court Taney 10 (510) but naturalCourt is different (511)
 warning: THE UNITED STATES, APPELLANTS, v. CHARLES FOSSATT (62 U.S. 445) has decision date 1859-02-28 instead of SCOTUS date 1859-03-11
 warning: RICE VS. RAILROAD COMPANY (66 U.S. 358): decision date 1862-03-03 lies within court Taney 12 (512) but naturalCourt is different (511)
 warning: HOGG VS. RUFFNER (66 U.S. 115) has decision date 1862-12-23 instead of SCOTUS date 1861-12-23
+warning: HOGG VS. RUFFNER (66 U.S. 115): decision date 1861-12-23 lies within court Taney 11 (511) but naturalCourt is different (514)
 warning: BRONSON v. RAILROAD COMPANY (67 U.S. 524) has decision date 1863-03-02 instead of SCOTUS date 1863-02-16
 warning: THE CORNELIUS (70 U.S. 214) has decision date 1866-01-26 instead of SCOTUS date 1866-01-29
 warning: MERRIAM v. HAAS (70 U.S. 687): decision date 1864-02-23 lies within court Taney 15 (515) but naturalCourt is different (601)
 warning: LITCHFIELD v. RAILROAD COMPANY (74 U.S. 270) has decision date 1869-02-25 instead of SCOTUS date 1869-02-15
-warning: REESIDE v. UNITED STATES (75 U.S. 38) has decision date 1869-04-25 instead of SCOTUS date 1869-04-15
 warning: REESIDE v. UNITED STATES (75 U.S. 38) has unusual decision day: Sunday, April 25, 1869
+warning: REESIDE v. UNITED STATES (75 U.S. 38) has decision date 1869-04-25 instead of SCOTUS date 1869-04-15
 warning: UNITED STATES v. ASHER AYRES (76 U.S. 608): decision date 1870-04-18 lies within court Chase 2 (602) but naturalCourt is different (601)
 warning: THE GRAPESHOT (76 U.S. 129): decision date 1870-03-14 lies within court Chase 2 (602) but naturalCourt is different (601)
 warning: LATHAM'S AND DEMING'S APPEALS (76 U.S. 145): decision date 1870-04-20 lies within court Chase 2 (602) but naturalCourt is different (601)
@@ -461,6 +470,7 @@ warning: THE STATE OF TEXAS v. GEORGE W. WHITE, JOHN CHILES, ET AL (131 U.S. xcv
 warning: A.B. WOOD v. DE FORREST RICHARDS (131 U.S. xcviii) has unusual decision day: Saturday, April 30, 1870
 warning: WILLIAM S. GODBE v. TOOTLE ET AL (154 U.S. 576) has unusual decision day: Saturday, April 30, 1870
 warning: O.B. LATHAM et al.v. UNITED STATES (76 U.S. 146) has decision date 1870-04-20 instead of SCOTUS date 1870-02-21
+warning: O.B. LATHAM et al.v. UNITED STATES (76 U.S. 146): decision date 1870-02-21 lies within court Chase 1 (601) but naturalCourt is different (602)
 warning: JONATHAN C. STURTEVANT v. JOHN M. HERNDON (154 U.S. 575) has unusual decision day: Saturday, April 30, 1870
 warning: ISSAC UNDERHILL v. JOHN M. HERNDON (154 U.S. 574) has unusual decision day: Saturday, April 30, 1870
 warning: ENOCH LONG, ABEL STURTEVANT AND JOHN ROBINSON v. PEGGY F. PATTON (154 U.S. 573) has unusual decision day: Saturday, April 30, 1870
@@ -935,9 +945,8 @@ warning: Plainview v. Marshall (106 U.S. 583) with SCOTUS decision date 1883-01-
 warning: County of Alexander v. Kimball (106 U.S. 623) with SCOTUS decision date 1883-02-05 has no matching SCDB entry
 warning: Missionary Society v. Kelly (107 U.S. 347) with SCOTUS decision date 1883-04-16 has no matching SCDB entry
 warning: Union Trust Co. v. Fitzgerald (107 U.S. 595) with SCOTUS decision date 1883-03-12 has no matching SCDB entry
- results: 0
-  totals: matched 0 decisions out of 28779
-warnings: 934
-[22:29:10] Finished 'default' after 6.74 s
+file ./sources/results/decisions.json already exists, use --overwrite to recreate
+warnings: 944
+[22:56:33] Finished 'fixDecisions' after 4.14 s
 
 NOTE: 101 U.S. 331 exists on last two pages of http://cdn.loc.gov/service/ll/usrep/usrep101/usrep101320/usrep101320.pdf
