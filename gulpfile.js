@@ -1670,17 +1670,9 @@ function fixDecisions(done)
     let scotusDecisions = readSCOTUSDecisionDates();
 
     decisions.forEach((decision) => {
-        let i;
-        let dateDecision = parseDate(decision.dateDecision);
-        let dayOfWeek = dateDecision.getUTCDay();
-        if (dayOfWeek == 0 || dayOfWeek == 6) {
-            printf("warning: %s (%s) has unusual decision day: %#C\n", decision.caseName, decision.usCite, dateDecision);
-            unusualDates = addCSV(unusualDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dayOfWeek", sprintf("%#W", dateDecision));
-            warnings++;
-        }
+        let citeDate, i;
         let scotusDates = scotusDecisions[decision.usCite];
         if (scotusDates) {
-            let citeDate;
             for (i = 0; i < scotusDates.length; i++) {
                 citeDate = scotusDates[i];
                 if (decision.dateDecision == citeDate.dateDecision) {
@@ -1695,6 +1687,15 @@ function fixDecisions(done)
                 warnings++;
                 decision.dateDecision = citeDate.dateDecision;
                 changes++;
+            }
+        }
+        if (decision.dateDecision && decision.dateDecision.length == 10) {
+            let dateDecision = parseDate(decision.dateDecision);
+            let dayOfWeek = dateDecision.getUTCDay();
+            if (dayOfWeek == 0 || dayOfWeek == 6) {
+                printf("warning: %s (%s) has unusual decision day: %#C\n", decision.caseName, decision.usCite, dateDecision);
+                unusualDates = addCSV(unusualDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dayOfWeek", sprintf("%#W", dateDecision) /*, "matchesSCOTUS", citeDate && citeDate.dateDecision == decision.dateDecision? true : false */);
+                warnings++;
             }
         }
         for (i = 0; i < scdbCourts.length; i++) {
