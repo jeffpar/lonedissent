@@ -15,8 +15,11 @@
     "decisionDatesCSV": "/sources/scotus/decisionDates.csv"
   },
   "results": {
+    "changedDatesCSV": "/sources/results/changedDates.csv",
+    "unusualDatesCSV": "/sources/results/unusualDates.csv",
+    "changedCourtsCSV": "/sources/results/changedCourts.csv",
+    "missingCasesCSV": "/sources/results/missingCases.csv",
     "courts": "/sources/results/courts.json",
-    "courtsCSV": "/sources/results/courts.csv",
     "decisions": "/sources/results/decisions.json",
     "justices": "/sources/results/justices.json"
   }

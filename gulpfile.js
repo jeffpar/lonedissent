@@ -306,6 +306,48 @@ function searchObjectArray(a, key, value)
     return (i < a.length)? i : -1;
 }
 
+/**
+ * addCSV(text, obj, keys, pairs)
+ *
+ * @param {string} text
+ * @param {object} obj
+ * @param {Array.<string>} keys
+ * @param {Array} pairs
+ * @return {string}
+ */
+function addCSV(text, obj, keys, ...pairs)
+{
+    if (!text) {
+        for (let i = 0; i < keys.length; i++) {
+            if (text) text += ',';
+            text += keys[i];
+        }
+        for (let i = 0; i < pairs.length; i += 2) {
+            if (text) text += ',';
+            text += pairs[i];
+        }
+        text += '\n';
+    }
+    let line = "";
+    for (let i = 0; i < keys.length; i++) {
+        let s = obj[keys[i]];
+        if (typeof s == "string") s = '"' + s.replace(/"/g, '""') + '"';
+        if (line) line += ',';
+        line += s;
+    }
+    for (let i = 0; i < pairs.length; i += 2) {
+        let s = pairs[i+1];
+        if (typeof s == "string") s = '"' + s.replace(/"/g, '""') + '"';
+        if (line) line += ',';
+        line += s;
+    }
+    line += '\n';
+    if (text.indexOf(line) < 0) {
+        text += line;
+    }
+    return text;
+}
+
  /**
   * parseCSV(text, maxRows, keyUnique, keySubset, saveUniqueKey, vars)
   *
@@ -1377,7 +1419,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
         printf(" results%s%s: %d\n", range, condition, results.length);
 
         if (results.length) {
-            let nAdded = 0;
+            let additions = 0;
             vars['caseNotes'] = {"type": "string"};
             vars['pdfSource'] = {"type": "string"};
             vars['pdfPage'] = {"type": "number"};
@@ -1460,7 +1502,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         }
                     }
                     data.push(result);
-                    nAdded++;
+                    additions++;
                 } else {
                     let citation = (result.usCite || ('No. ' + result.docket));
                     if (argv['debug']) {
@@ -1468,12 +1510,12 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     }
                     if (mapValues(data[i], vars) > 0) {
                         printf("warning: %s (%s) being updated in %s\n", result.caseId, citation, dataFile);
-                        nAdded++;
+                        additions++;
                     }
                     results[r] = data[i];
                 }
             }
-            if (nAdded) {
+            if (additions) {
                 writeTextFile(rootDir + dataFile, data, true);
             }
             if (argv['build'] && term) {
@@ -1610,8 +1652,15 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
  */
 function fixDecisions(done)
 {
+    let changes = 0;
     let decisions = JSON.parse(readTextFile(rootDir + sources.results.decisions));
     printf("decisions available: %d\n", decisions.length);
+
+    let unusualDates = readTextFile(rootDir + sources.results.unusualDatesCSV) || "";
+    let changedDates = readTextFile(rootDir + sources.results.changedDatesCSV) || "";
+    let changedCourts = readTextFile(rootDir + sources.results.changedCourtsCSV) || "";
+    let missingCases = readTextFile(rootDir + sources.results.missingCasesCSV) || "";
+    let unusualDatesOrig = unusualDates, changedDatesOrig = changedDates, changedCourtsOrig = changedCourts, missingCasesOrig = missingCases;
 
     // let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars) || "{}");
     // let courts = JSON.parse(readTextFile(rootDir + sources.results.courts) || "[]");
@@ -1622,6 +1671,13 @@ function fixDecisions(done)
 
     decisions.forEach((decision) => {
         let i;
+        let dateDecision = parseDate(decision.dateDecision);
+        let dayOfWeek = dateDecision.getUTCDay();
+        if (dayOfWeek == 0 || dayOfWeek == 6) {
+            printf("warning: %s (%s) has unusual decision day: %#C\n", decision.caseName, decision.usCite, dateDecision);
+            unusualDates = addCSV(unusualDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dayOfWeek", sprintf("%#W", dateDecision));
+            warnings++;
+        }
         let scotusDates = scotusDecisions[decision.usCite];
         if (scotusDates) {
             let citeDate;
@@ -1635,27 +1691,28 @@ function fixDecisions(done)
             if (i == scotusDates.length && citeDate.dateDecision) {
                 citeDate.matched = true;
                 printf("warning: %s (%s) has decision date %s instead of SCOTUS date %s\n", decision.caseName, decision.usCite, decision.dateDecision, citeDate.dateDecision);
+                changedDates = addCSV(changedDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dateDecisionNew", citeDate.dateDecision);
                 warnings++;
+                decision.dateDecision = citeDate.dateDecision;
+                changes++;
             }
         }
         for (i = 0; i < scdbCourts.length; i++) {
             let court = scdbCourts[i];
             if (decision.dateDecision >= court.start && decision.dateDecision <= court.stop) {
-                if (decision.naturalCourt != court.naturalCourt) {
-                    printf("warning: %s (%s): decision date %s lies within court %s (%d) but naturalCourt is different (%d)\n", decision.caseName, decision.usCite, decision.dateDecision, court.naturalName, court.naturalCourt, decision.naturalCourt);
+                let naturalCourt = +court.naturalCourt;
+                if (decision.naturalCourt != naturalCourt) {
+                    printf("warning: %s (%s): decision date %s lies within court %s (%d) but naturalCourt is different (%d)\n", decision.caseName, decision.usCite, decision.dateDecision, court.naturalName, naturalCourt, decision.naturalCourt);
+                    changedCourts = addCSV(changedCourts, decision, ["caseId", "usCite", "caseName", "dateDecision", "naturalCourt"], "naturalCourtNew", naturalCourt);
                     warnings++;
+                    decision.naturalCourt = naturalCourt;
+                    changes++;
                 }
                 break;
             }
         }
         if (i == scdbCourts.length) {
             printf("warning: %s (%s): decision date %s lies outside of any court; naturalCourt is %d\n", decision.caseName, decision.usCite, decision.dateDecision, decision.naturalCourt);
-            warnings++;
-        }
-        let dateDecision = parseDate(decision.dateDecision);
-        let dayOfWeek = dateDecision.getUTCDay();
-        if (dayOfWeek == 0 || dayOfWeek == 6) {
-            printf("warning: %s (%s) has unusual decision day: %#C\n", decision.caseName, decision.usCite, dateDecision);
             warnings++;
         }
     });
@@ -1666,10 +1723,28 @@ function fixDecisions(done)
         scotusDates.forEach((scotusDecision) => {
             if (!scotusDecision.matched) {
                 printf("warning: %s (%s) with SCOTUS decision date %s has no matching SCDB entry\n", scotusDecision.caseName, scotusDecision.usCite, scotusDecision.dateDecision);
+                missingCases = addCSV(missingCases, scotusDecision, ["usCite", "caseName", "dateDecision"]);
                 warnings++;
             }
         });
     });
+
+    if (unusualDates != unusualDatesOrig) {
+        writeTextFile(rootDir + sources.results.unusualDatesCSV, unusualDates, argv['overwrite']);
+    }
+    if (changedDates != changedDatesOrig) {
+        writeTextFile(rootDir + sources.results.changedDatesCSV, changedDates, argv['overwrite']);
+    }
+    if (changedCourts != changedCourtsOrig) {
+        writeTextFile(rootDir + sources.results.changedCourtsCSV, changedCourts, argv['overwrite']);
+    }
+    if (missingCases != missingCasesOrig) {
+        writeTextFile(rootDir + sources.results.missingCasesCSV, missingCases, argv['overwrite']);
+    }
+
+    if (changes) {
+        writeTextFile(rootDir + sources.results.decisions, decisions, argv['overwrite']);
+    }
 
     if (warnings) printf("warnings: %d\n", warnings);
 
