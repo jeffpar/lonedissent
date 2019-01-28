@@ -1,4 +1,7 @@
 {
+  "freelaw": {
+    "decisionDatesCSV": "/sources/freelaw/decisionDates.csv"
+  },
   "oyez": {
     "courtsXML": "/sources/oyez/courts/**/court.xml",
     "courtsHTML": "/sources/oyez/justices_by_court.html",
