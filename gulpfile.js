@@ -847,6 +847,7 @@ function readSCOTUSDecisionDates()
 {
     let startNext = null;
     let decisions = parseCSV(readTextFile(rootDir + sources.scotus.decisionDatesCSV));
+
     let decisionsFreeLaw = readTextFile(rootDir + sources.freelaw.decisionDatesCSV);
     if (decisionsFreeLaw) {
         let rowsFreeLaw = decisionsFreeLaw.split('\n');
@@ -866,6 +867,15 @@ function readSCOTUSDecisionDates()
             // }
         }
     }
+
+    let argumentDates = parseCSV(readTextFile(rootDir + sources.scotus.argumentDatesCSV));
+    for (let i = 0; i < argumentDates.length - 1; i++) {
+        let argument = argumentDates[i];
+        if (argument.caseName != decisions[i].caseName) {
+            printf("warning: argument caseName (%s) does not match decision caseName (%s)\n", argument.caseName, decisions[i].caseName);
+        }
+    }
+
     let decisionDates = {};
     for (let i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
