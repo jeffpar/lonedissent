@@ -863,6 +863,10 @@ function readSCOTUSDecisionDates()
         }
         decision.volume = match[1];
         decision.page = match[2];
+        if (decision.dateDecision.length > 10) {
+            let date = parseDate(decision.dateDecision);
+            decision.dateDecision = sprintf("%#Y-%#02M-%#02D", date, date, date);
+        }
         if (!decisionDates[decision.usCite]) decisionDates[decision.usCite] = [];
         decisionDates[decision.usCite].push(decision);
     }
@@ -1666,30 +1670,46 @@ function fixDecisions(done)
     // let courts = JSON.parse(readTextFile(rootDir + sources.results.courts) || "[]");
     // let justices = JSON.parse(readTextFile(rootDir + sources.results.justices) || "[]");
 
+    let scdbCites = {};
     let scdbCourts = readSCDBCourts();
     let scotusDecisions = readSCOTUSDecisionDates();
 
     decisions.forEach((decision) => {
         let citeDate, i;
-        let scotusDates = scotusDecisions[decision.usCite];
-        if (scotusDates) {
-            for (i = 0; i < scotusDates.length; i++) {
-                citeDate = scotusDates[i];
-                if (decision.dateDecision == citeDate.dateDecision) {
-                    citeDate.matched = true;
-                    break;
+        if (decision.usCite) {
+            if (!scdbCites[decision.usCite]) {
+                scdbCites[decision.usCite] = [];
+            }
+            if (scdbCites[decision.usCite].length) {
+                for (i = 0; i < scdbCites[decision.usCite].length; i++) {
+                    let scdbCite = scdbCites[decision.usCite][i];
+                    if (scdbCite.caseName == decision.caseName) {
+                        printf("warning: %s (%s) is duplicated (compare %s to %s)\n", decision.caseName, decision.usCite, scdbCite.caseId, decision.caseId);
+                        warnings++;
+                    }
                 }
             }
-            if (i == scotusDates.length && citeDate.dateDecision) {
-                citeDate.matched = true;
-                printf("warning: %s (%s) has decision date %s instead of SCOTUS date %s\n", decision.caseName, decision.usCite, decision.dateDecision, citeDate.dateDecision);
-                changedDates = addCSV(changedDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dateDecisionNew", citeDate.dateDecision);
-                warnings++;
-                decision.dateDecision = citeDate.dateDecision;
-                changes++;
+            scdbCites[decision.usCite].push(decision);
+            let scotusDates = scotusDecisions[decision.usCite];
+            if (scotusDates) {
+                for (i = 0; i < scotusDates.length; i++) {
+                    citeDate = scotusDates[i];
+                    if (decision.dateDecision == citeDate.dateDecision && !citeDate.matched) {
+                        citeDate.matched = true;
+                        break;
+                    }
+                }
+                if (i == scotusDates.length && citeDate.dateDecision && decision.dateDecision != citeDate.dateDecision) {
+                    citeDate.matched = true;
+                    printf("warning: %s (%s) has decision date %s instead of SCOTUS date %s\n", decision.caseName, decision.usCite, decision.dateDecision, citeDate.dateDecision);
+                    changedDates = addCSV(changedDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dateDecisionNew", citeDate.dateDecision);
+                    warnings++;
+                    decision.dateDecision = citeDate.dateDecision;
+                    changes++;
+                }
             }
         }
-        if (decision.dateDecision && decision.dateDecision.length == 10) {
+        if ((!citeDate || !citeDate.matched) && decision.dateDecision && decision.dateDecision.length == 10) {
             let dateDecision = parseDate(decision.dateDecision);
             let dayOfWeek = dateDecision.getUTCDay();
             if (dayOfWeek == 0 || dayOfWeek == 6) {
