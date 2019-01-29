@@ -229,7 +229,7 @@ let warnings = 0;
          let line = lines[i];
          for (let j = 0; j < line.length; j++) {
              let ch = line.charCodeAt(j);
-             if (ch < 0x20) {
+             if (ch < 0x20 && ch != 0x09 || ch >= 0x7f) {
                  printf("warning: control character %02x at row %d col %d: '%s'\n", ch, i+1, j+1, line);
                  valid = false;
              }
@@ -575,19 +575,18 @@ function replaceChars(text, row, col)
 }
 
 /**
- * readTextFile(fileName, encoding, conversion)
+ * readTextFile(fileName, encoding)
  *
  * @param {string} fileName
  * @param {string} [encoding] (default is "utf-8")
- * @param {string} [conversion] (default is "utf-8")
  * @return {string|undefined}
  */
-function readTextFile(fileName, encoding="utf-8", conversion="utf-8")
+function readTextFile(fileName, encoding="")
 {
     let text;
     try {
-        text = fs.readFileSync(fileName, encoding);
-        checkCharSet(text);
+        text = fs.readFileSync(fileName, encoding || "utf-8");
+        if (!encoding) checkCharSet(text);
     }
     catch(err) {
         printf("%s\n", err.message);
@@ -624,16 +623,30 @@ function writeTextFile(fileName, text, fOverwrite=false, fQuiet=false)
 }
 
 /**
- * readXMLFile(fileName)
+ * readXMLFile(fileName, filters)
  *
  * @param {string} fileName
+ * @param {Array.<string>} [filters]
  * @return {object}
  */
-function readXMLFile(fileName)
+function readXMLFile(fileName, filters)
 {
     let xml;
     let text = readTextFile(fileName);
     if (text != null) {
+        if (filters) {
+            let textNew = "";
+            for (let i = 0; i < filters.length; i++) {
+                let iStart = text.indexOf(filters[i]);
+                if (iStart >= 0) {
+                    let iStop = text.indexOf('\n', iStart);
+                    if (iStop >= 0) {
+                        textNew += text.substring(iStart, iStop + 1);
+                    }
+                }
+            }
+            text = textNew;
+        }
         parseXML(text, function(err, result) {
             if (err) {
                 printf("%s\n", err.message);
@@ -813,6 +826,32 @@ function readOyezJustices()
 }
 
 /**
+ * readOyezLabsDecisions()
+ *
+ * @return {Array.<Decision>}
+ */
+function readOyezLabsDecisions()
+{
+    let decisions = [];
+    printf("reading OyezLabs decisions...\n");
+    let fileNames = glob.sync(rootDir + sources.oyezlabs.casesXML);
+    printf("total OyezLabs XML files: %d\n", fileNames.length);
+    for (let i = 0; i < fileNames.length; i++) {
+        let xml = readXMLFile(fileNames[i], ["<case ", "<caseTitle ", "<caseDecisionDate ", "<caseOpinionVol ", "<caseOpinionPage ", "</case>"]);
+        if (xml) {
+            let decision = {};
+            decision.caseTitle = xml.case.caseTitle[0]._;
+            decision.dateDecision = xml.case.caseDecisionDate? xml.case.caseDecisionDate[0]._ : "";
+            decision.usCite = xml.case.caseOpinionPage? (xml.case.caseOpinionVol[0]._ + " U.S. " + xml.case.caseOpinionPage[0]._) : "";
+            decisions.push(decision);
+            if (decisions.length % 1000 == 0) printf(".");
+        }
+    }
+    printf("total OyezLabs decisions read: %d\n", decisions.length);
+    return decisions;
+}
+
+/**
  * readSCDBCourts()
  *
  * @return {Array.<Court>}
@@ -900,6 +939,88 @@ function readSCOTUSDecisionDates()
         decisionDates[decision.usCite].push(decision);
     }
     return decisionDates;
+}
+
+/**
+ * buildCitations()
+ *
+ * @param {function()} done
+ */
+function buildCitations(done)
+{
+    let rows = [];
+    let volumes = [];
+    let fileNames = glob.sync(rootDir + sources.scotus.citationsHTML);
+    for (let i = 0; i < fileNames.length; i++) {
+        let html = readTextFile(fileNames[i], "latin1");
+        if (html) {
+            html = html.replace(/<\/?(I|EM)>/gi, "").replace(/U\.(&nbsp;|\s+)S\./g, "U.S.");
+            let re = /<P[^>]*>(.*?),\s+([0-9]+)\s+([A-Z.]+)\s+([0-9]+)\s+\(([0-9]+)\).*?<\/P>/gi, match;
+            while ((match = re.exec(html))) {
+                let title = match[1];
+                let volume = +match[2];
+                let reporter = match[3];
+                let volBegin = -1;
+                switch(reporter) {
+                case "Dall.":
+                    volBegin = 1;
+                    break;
+                case "Cranch":
+                    volBegin = 5;
+                    break;
+                case "Wheat.":
+                    volBegin = 14;
+                    break;
+                case "Pet.":
+                    volBegin = 26;
+                    break;
+                case "How.":
+                    volBegin = 42;
+                    break;
+                case "Black":
+                    volBegin = 66;
+                    break;
+                case "Wall.":
+                case "Wall":
+                case "Wal.":
+                    volBegin = 68;
+                    reporter = "Wall."
+                    break;
+                case "U.S.":
+                case "U.S":
+                case "US.":
+                    volBegin = 91;
+                    reporter = "U.S.";
+                    break;
+                }
+                if (volBegin < 0) {
+                    printf("warning: unrecognized reporter '%s' for '%s' (see %s: '%s')\n", reporter, title, fileNames[i], html.substr(match.index, 100).trim());
+                    continue;
+                }
+                let page = +match[4];
+                let year = +match[5];
+                let orig = "";
+                if (volBegin < 91) {
+                    orig = sprintf("%d %s %d", volume, reporter, page);
+                    volume += volBegin - 1;
+                }
+                if (!volumes[volume]) volumes[volume] = 0;
+                volumes[volume]++;
+                let row = [title.replace(/"/g, '""'), volume, page, year, orig];
+                rows.push(row);
+            }
+        }
+    }
+    rows.sort(function(a, b) {
+        return a[1] < b[1]? -1 : (a[1] > b[1]? 1 : (a[2] < b[2]? -1 : (a[2] > b[2]? 1 : 0)));
+    });
+    let csv = "volume,page,year,caseName,oldCite,usCite\n";
+    rows.forEach((row) => {
+        csv += sprintf('%d,%d,%d,"%s","%s","%d U.S. %d"\n', row[1], row[2], row[3], row[0], row[4], row[1], row[2]);
+    });
+    printf("total citations: %d\n", rows.length);
+    writeTextFile(rootDir + sources.results.citationsCSV, csv, argv['overwrite']);
+    done();
 }
 
 /**
@@ -1685,6 +1806,22 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
  */
 function fixDecisions(done)
 {
+    // let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars) || "{}");
+    // let courts = JSON.parse(readTextFile(rootDir + sources.results.courts) || "[]");
+    // let justices = JSON.parse(readTextFile(rootDir + sources.results.justices) || "[]");
+
+    let scdbCites = {}, labCites = {};
+    let scdbCourts = readSCDBCourts();
+    let scotusDecisions = readSCOTUSDecisionDates();
+    let labDecisions = readOyezLabsDecisions();
+    for (let i = 0; i < labDecisions.length; i++) {
+        let decision = labDecisions[i];
+        if (decision.usCite && decision.dateDecision) {
+            if (!labCites[decision.usCite]) labCites[decision.usCite] = [];
+            labCites[decision.usCite].push(decision);
+        }
+    }
+
     let changes = 0;
     let decisions = JSON.parse(readTextFile(rootDir + sources.results.decisions));
     printf("decisions available: %d\n", decisions.length);
@@ -1694,14 +1831,6 @@ function fixDecisions(done)
     let changedCourts = readTextFile(rootDir + sources.results.changedCourtsCSV) || "";
     let missingCases = readTextFile(rootDir + sources.results.missingCasesCSV) || "";
     let unusualDatesOrig = unusualDates, changedDatesOrig = changedDates, changedCourtsOrig = changedCourts, missingCasesOrig = missingCases;
-
-    // let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars) || "{}");
-    // let courts = JSON.parse(readTextFile(rootDir + sources.results.courts) || "[]");
-    // let justices = JSON.parse(readTextFile(rootDir + sources.results.justices) || "[]");
-
-    let scdbCites = {};
-    let scdbCourts = readSCDBCourts();
-    let scotusDecisions = readSCOTUSDecisionDates();
 
     decisions.forEach((decision) => {
         let citeDate, i;
@@ -1713,7 +1842,7 @@ function fixDecisions(done)
                 for (i = 0; i < scdbCites[decision.usCite].length; i++) {
                     let scdbCite = scdbCites[decision.usCite][i];
                     if (scdbCite.caseName == decision.caseName) {
-                        printf("warning: %s (%s) is duplicated (compare %s to %s)\n", decision.caseName, decision.usCite, scdbCite.caseId, decision.caseId);
+                        printf("warning: %s (%s) may be duplicated (compare %s to %s)\n", decision.caseName, decision.usCite, scdbCite.caseId, decision.caseId);
                         warnings++;
                     }
                 }
@@ -1736,6 +1865,18 @@ function fixDecisions(done)
                     decision.dateDecision = citeDate.dateDecision;
                     changes++;
                 }
+            }
+            if (labCites[decision.usCite]) {
+                let cite, cites = labCites[decision.usCite];
+                for (i = 0; i < cites.length; i++) {
+                    cite = cites[i];
+                    if (cite.dateDecision == decision.dateDecision) break;
+                }
+                if (i == cites.length) {
+                    printf("warning: %s (%s) decision date %s does not match OyezLabs '%s' decision date %s\n", decision.caseName, decision.usCite, decision.dateDecision, cite.caseTitle, cite.dateDecision);
+                }
+            } else {
+                printf("warning: unable to find OyezLabs XML for %s (%s)\n", decision.caseName, decision.usCite);
             }
         }
         if ((!citeDate || !citeDate.matched) && decision.dateDecision && decision.dateDecision.length == 10) {
@@ -2078,6 +2219,7 @@ function testDates(done)
     done();
 }
 
+gulp.task("citations", buildCitations);
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
 gulp.task("justices", buildJustices);

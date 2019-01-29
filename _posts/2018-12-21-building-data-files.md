@@ -218,10 +218,10 @@ are not impossible), they usually merit attention.  Take this pair of warnings:
     warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has unusual decision day: Saturday, March 7, 1807
 
 The fact that an SCDB decision date falls on a Saturday *and* differs from the SCOTUS decision date strongly suggests
-that the SCDB date is wrong.  We will be relying on [our own import](https://github.com/jeffpar/lonedissent/blob/master/sources/scotus/decisionDates.csv)
+that the SCDB date is wrong.  We will be relying on [our own import](https://github.com/jeffpar/lonedissent/blob/master/sources/scotus/dates/decisionDates.csv)
 of SCOTUS decision dates until this gets resolved.
 
-Our list of warnings also includes cases appearing in the SCOTUS [Dates of Decisions](/sources/scotus/decisionDates.pdf) document
+Our list of warnings also includes cases appearing in the SCOTUS [Dates of Decisions](/sources/scotus/dates/decisionDates.pdf) document
 that do *not* appear in SCDB.  These may be cases that were simply overlooked, or intentionally omitted, or which *are* in SCDB
 but didn't match an entry in the SCOTUS document, either because of a date or citation discrepancy, or because of some ambiguity
 (eg, when multiple cases are recorded on the same page and therefore have the same citation).

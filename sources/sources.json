@@ -7,6 +7,9 @@
     "courtsHTML": "/sources/oyez/justices_by_court.html",
     "justicesXML": "/sources/oyez/justices/**/justice.xml"
   },
+  "oyezlabs": {
+    "casesXML": "/sources/sites/oyezlabs.org/xml/cases/**/case.xml"
+  },
   "scdb": {
     "vars": "/sources/scdb/vars.json",
     "courtsCSV": "/sources/scdb/naturalCourts.csv",
@@ -14,11 +17,13 @@
     "justicesCSV": "/sources/scdb/justices.csv"
   },
   "scotus": {
-    "argumentDatesCSV": "/sources/scotus/argumentDates.csv",
-    "decisionDatesCSV": "/sources/scotus/decisionDates.csv"
+    "argumentDatesCSV": "/sources/scotus/dates/argumentDates.csv",
+    "decisionDatesCSV": "/sources/scotus/dates/decisionDates.csv",
+    "citationsHTML": "/sources/scotus/citations/*.html"
   },
   "results": {
     "courtsCSV": "/sources/results/courts.csv",
+    "citationsCSV": "/sources/results/citations.csv",
     "changedDatesCSV": "/sources/results/changedDates.csv",
     "unusualDatesCSV": "/sources/results/unusualDates.csv",
     "changedCourtsCSV": "/sources/results/changedCourts.csv",
