@@ -3,17 +3,25 @@ title: Building Data Files
 permalink: /blog/2018/12/21/
 ---
 
-A few data files have been created so far:
+A few important data files have been created so far:
 
 - [courts.json](/sources/results/courts.json)
 - [decisions.json](/sources/results/decisions.json)
 - [justices.json](/sources/results/justices.json)
+- [citations.csv](/sources/results/citations.csv)
+- [argumentDates.csv](/sources/results/argumentDates.csv)
+- [decisionDates.csv](/sources/results/decisionDates.csv)
 
 in preparation for making this a more interesting website.  Most of our
 [Court](/sources/results/courts.json) and [Justice](/sources/results/justices.json) data came
-from [Oyez](https://www.oyez.org/), while all the [Decision](/sources/results/decisions.json)
+from [Oyez](https://www.oyez.org/), while most of the [Decision](/sources/results/decisions.json)
 data was imported from [CSV files](/sources/scdb/decisions.csv) provided by the
 [Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB.
+
+Additionally, citation data
+comes from the Supreme Court's [Case Citation Finder](https://www.supremecourt.gov/opinions/casefinder.aspx),
+and decision and argument dates of early cases have been extracted from the Supreme Court Library document
+"[DATES OF SUPREME COURT DECISIONS AND ARGUMENTS: UNITED STATES REPORTS VOLUMES 2 – 107 (1791 – 1882)](/sources/scotus/dates/decisionDates.pdf)".
 
 To make good use of the raw SCDB data, you need tables that map all the numeric
 codes to what they actually represent.  To that end, SCDB provides a
