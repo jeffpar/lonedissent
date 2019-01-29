@@ -90,6 +90,7 @@ let gulp = require("gulp");
 let fs = require("fs");
 let mkdirp = require("mkdirp");
 let path = require("path");
+let he = require("he");
 let parseXML = require('xml2js').parseString;
 
 let rootDir = ".";
@@ -957,7 +958,7 @@ function buildCitations(done)
             html = html.replace(/<\/?(I|EM)>/gi, "").replace(/U\.(&nbsp;|\s+)S\./g, "U.S.");
             let re = /<P[^>]*>(.*?),\s+([0-9]+)\s+([A-Z.]+)\s+([0-9]+)\s+\(([0-9]+)\).*?<\/P>/gi, match;
             while ((match = re.exec(html))) {
-                let title = match[1];
+                let caseName = he.decode(match[1]);
                 let volume = +match[2];
                 let reporter = match[3];
                 let volBegin = -1;
@@ -994,29 +995,28 @@ function buildCitations(done)
                     break;
                 }
                 if (volBegin < 0) {
-                    printf("warning: unrecognized reporter '%s' for '%s' (see %s: '%s')\n", reporter, title, fileNames[i], html.substr(match.index, 100).trim());
+                    printf("warning: unrecognized reporter '%s' for '%s' (see %s: '%s')\n", reporter, caseName, fileNames[i], html.substr(match.index, 100).trim());
                     continue;
                 }
                 let page = +match[4];
                 let year = +match[5];
-                let orig = "";
+                let oldCite = "";
                 if (volBegin < 91) {
-                    orig = sprintf("%d %s %d", volume, reporter, page);
+                    oldCite = sprintf("%d %s %d", volume, reporter, page);
                     volume += volBegin - 1;
                 }
                 if (!volumes[volume]) volumes[volume] = 0;
                 volumes[volume]++;
-                let row = [title.replace(/"/g, '""'), volume, page, year, orig];
-                rows.push(row);
+                rows.push([volume, page, year, caseName, oldCite]);
             }
         }
     }
     rows.sort(function(a, b) {
-        return a[1] < b[1]? -1 : (a[1] > b[1]? 1 : (a[2] < b[2]? -1 : (a[2] > b[2]? 1 : 0)));
+        return a[0] < b[0]? -1 : (a[0] > b[0]? 1 : (a[1] < b[1]? -1 : (a[1] > b[1]? 1 : 0)));
     });
     let csv = "volume,page,year,caseName,oldCite,usCite\n";
     rows.forEach((row) => {
-        csv += sprintf('%d,%d,%d,"%s","%s","%d U.S. %d"\n', row[1], row[2], row[3], row[0], row[4], row[1], row[2]);
+        csv += sprintf('%d,%d,%d,"%s","%s","%d U.S. %d"\n', row[0], row[1], row[2], row[3].replace(/"/g, '""'), row[4], row[0], row[1]);
     });
     printf("total citations: %d\n", rows.length);
     writeTextFile(rootDir + sources.results.citationsCSV, csv, argv['overwrite']);
