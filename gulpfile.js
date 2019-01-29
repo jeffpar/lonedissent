@@ -886,7 +886,7 @@ function readSCDBCourts()
 function readSCOTUSDecisionDates()
 {
     let startNext = null;
-    let decisions = parseCSV(readTextFile(rootDir + sources.scotus.decisionDatesCSV));
+    let decisions = parseCSV(readTextFile(rootDir + sources.results.decisionDatesCSV));
 
     let decisionsFreeLaw = readTextFile(rootDir + sources.freelaw.decisionDatesCSV);
     if (decisionsFreeLaw) {
@@ -908,7 +908,7 @@ function readSCOTUSDecisionDates()
         }
     }
 
-    let argumentDates = parseCSV(readTextFile(rootDir + sources.scotus.argumentDatesCSV));
+    let argumentDates = parseCSV(readTextFile(rootDir + sources.results.argumentDatesCSV));
     for (let i = 0; i < argumentDates.length - 1; i++) {
         let argument = argumentDates[i];
         if (argument.caseName != decisions[i].caseName) {
