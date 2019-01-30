@@ -230,7 +230,7 @@ let warnings = 0;
          let line = lines[i];
          for (let j = 0; j < line.length; j++) {
              let ch = line.charCodeAt(j);
-             if (ch < 0x20 && ch != 0x09 || ch >= 0x7f) {
+             if (ch < 0x20 && ch != 0x09) {
                  printf("warning: control character %02x at row %d col %d: '%s'\n", ch, i+1, j+1, line);
                  valid = false;
              }
@@ -952,14 +952,19 @@ function buildCitations(done)
     let rows = [];
     let volumes = [];
     let fileNames = glob.sync(rootDir + sources.scotus.citationsHTML);
+    let csv = readTextFile(rootDir + sources.results.citationsCSV) || "volume,page,year,caseName,oldCite,usCite\n";
+    let additions = 0;
     for (let i = 0; i < fileNames.length; i++) {
+        printf("processing %s...\n", fileNames[i]);
         let html = readTextFile(fileNames[i], "latin1");
         if (html) {
-            html = html.replace(/<\/?(I|EM)>/gi, "").replace(/U\.(&nbsp;|\s+)S\./g, "U.S.");
-            let re = /<P[^>]*>(.*?),\s+([0-9]+)\s+([A-Z.]+)\s+([0-9]+)\s+\(([0-9]+)\).*?<\/P>/gi, match;
+            if (fileNames[i].indexOf(".html") > 0) {
+                html = html.replace(/<\/?(I|EM)>/gi, "").replace(/(&nbsp;|\s+)/gi, ' ');
+            }
+            let re = /(?:>|^|\n)\s*([^>]*?),\s+([0-9]+|_+)\s*(U\.\s*S\.|[A-Z.]+)\s*([0-9]+|_+)\s*\(([0-9]+)\)/gi, match;
             while ((match = re.exec(html))) {
                 let caseName = he.decode(match[1]);
-                let volume = +match[2];
+                let volume = +match[2] || 0;
                 let reporter = match[3];
                 let volBegin = -1;
                 switch(reporter) {
@@ -987,6 +992,7 @@ function buildCitations(done)
                     volBegin = 68;
                     reporter = "Wall."
                     break;
+                case "U. S.":
                 case "U.S.":
                 case "U.S":
                 case "US.":
@@ -998,7 +1004,7 @@ function buildCitations(done)
                     printf("warning: unrecognized reporter '%s' for '%s' (see %s: '%s')\n", reporter, caseName, fileNames[i], html.substr(match.index, 100).trim());
                     continue;
                 }
-                let page = +match[4];
+                let page = +match[4] || 0;
                 let year = +match[5];
                 let oldCite = "";
                 if (volBegin < 91) {
@@ -1012,14 +1018,24 @@ function buildCitations(done)
         }
     }
     rows.sort(function(a, b) {
-        return a[0] < b[0]? -1 : (a[0] > b[0]? 1 : (a[1] < b[1]? -1 : (a[1] > b[1]? 1 : 0)));
+        let va = a[0] || 1000, pa = a[1] || 1000;
+        let vb = b[0] || 1000, pb = b[1] || 1000;
+        return va < vb? -1 : (va > vb? 1 : (pa < pb? -1 : (pa > pb? 1 : 0)));
     });
-    let csv = "volume,page,year,caseName,oldCite,usCite\n";
     rows.forEach((row) => {
-        csv += sprintf('%d,%d,%d,"%s","%s","%d U.S. %d"\n', row[0], row[1], row[2], row[3].replace(/"/g, '""'), row[4], row[0], row[1]);
+        let newCite = sprintf("%s U.S. %s", row[0] || "___", row[1] || "___");
+        let line = sprintf('%d,%d,%d,"%s","%s","%s"\n', row[0], row[1], row[2], row[3].replace(/"/g, '""'), row[4], newCite);
+        if (csv.indexOf(line) < 0) {
+            // printf("addition: %s", line);
+            csv += line;
+            additions++;
+        }
     });
-    printf("total citations: %d\n", rows.length);
-    writeTextFile(rootDir + sources.results.citationsCSV, csv, argv['overwrite']);
+    printf("total citations added: %d\n", additions);
+    printf("total citations processed: %d\n", rows.length);
+    if (additions) {
+        writeTextFile(rootDir + sources.results.citationsCSV, csv, argv['overwrite']);
+    }
     done();
 }
 

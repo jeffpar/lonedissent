@@ -17,7 +17,7 @@
     "justicesCSV": "/sources/scdb/justices.csv"
   },
   "scotus": {
-    "citationsHTML": "/sources/scotus/citations/*.html"
+    "citationsHTML": "/sources/scotus/citations/*.*"
   },
   "results": {
     "courtsCSV": "/sources/results/courts.csv",
