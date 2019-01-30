@@ -959,13 +959,21 @@ function buildCitations(done)
         let html = readTextFile(fileNames[i], "latin1");
         if (html) {
             if (fileNames[i].indexOf(".html") > 0) {
-                html = html.replace(/<\/?(I|EM)>/gi, "").replace(/(&nbsp;|\s+)/gi, ' ');
+                /*
+                 * I like to replace any "&nbsp;"" with a space myself, because if I let he.decode() do it, it will
+                 * replace the entity with "c2 a0" (aka "NO-BREAK SPACE"), and I'm not sure the RegExp whitespace token
+                 * (\s) will match that particular character.  We also take this opportunity to remove any italicization
+                 * and/or emphasis tags from the text.
+                 */
+                html = html.replace(/<\/?(i|em)>/gi, "").replace(/&nbsp;/gi, ' ').replace(/\s+/g, ' ');
+                html = he.decode(html);
             }
-            let re = /(?:>|^|\n)\s*([^>]*?),\s+([0-9]+|_+)\s*(U\.\s*S\.|[A-Z.]+)\s*([0-9]+|_+)\s*\(([0-9]+)\)/gi, match;
+            let re = /(?:>|^|\n)\s*([^>]*?)(,"|[,.])\s*([0-9]+|_+)\s*(U\.\s*S\.|[A-Z.]+)\s*([0-9]+|_+|[A-Z .]+|)\s*[0-9]?\(([0-9]+)\)/gi, match, matches = 0;
             while ((match = re.exec(html))) {
-                let caseName = he.decode(match[1]);
-                let volume = +match[2] || 0;
-                let reporter = match[3];
+                let caseName = match[1];
+                if (match[2] == ',"') caseName += '"';
+                let volume = +match[3] || 0;
+                let reporter = match[4];
                 let volBegin = -1;
                 switch(reporter) {
                 case "Dall.":
@@ -1004,29 +1012,35 @@ function buildCitations(done)
                     printf("warning: unrecognized reporter '%s' for '%s' (see %s: '%s')\n", reporter, caseName, fileNames[i], html.substr(match.index, 100).trim());
                     continue;
                 }
-                let page = +match[4] || 0;
-                let year = +match[5];
+                let page = match[5];
+                let year = +match[6];
                 let oldCite = "";
                 if (volBegin < 91) {
-                    oldCite = sprintf("%d %s %d", volume, reporter, page);
+                    if (!+page) {
+                        printf("warning: unrecognized page '%s' for '%s' (see %s: '%s')\n", page, caseName, fileNames[i], html.substr(match.index, 100).trim());
+                        continue;
+                    }
+                    oldCite = sprintf("%d %s %d", volume, reporter, +page);
                     volume += volBegin - 1;
                 }
                 if (!volumes[volume]) volumes[volume] = 0;
                 volumes[volume]++;
                 rows.push([volume, page, year, caseName, oldCite]);
+                matches++;
             }
+            printf("total file matches: %d\n", matches);
         }
     }
     rows.sort(function(a, b) {
-        let va = a[0] || 1000, pa = a[1] || 1000;
-        let vb = b[0] || 1000, pb = b[1] || 1000;
-        return va < vb? -1 : (va > vb? 1 : (pa < pb? -1 : (pa > pb? 1 : 0)));
+        let va = a[0] || 9999, pa = +a[1] || 9999, ya = a[2];
+        let vb = b[0] || 9999, pb = +b[1] || 9999, yb = b[2];
+        return va < vb? -1 : (va > vb? 1 : (pa < pb? -1 : (pa > pb? 1 : (ya < yb? -1 : (ya > yb? 1 : 0)))));
     });
     rows.forEach((row) => {
         let newCite = sprintf("%s U.S. %s", row[0] || "___", row[1] || "___");
-        let line = sprintf('%d,%d,%d,"%s","%s","%s"\n', row[0], row[1], row[2], row[3].replace(/"/g, '""'), row[4], newCite);
+        let line = sprintf('%d,%d,%d,"%s","%s","%s"\n', row[0], +row[1] || 0, row[2], row[3].replace(/"/g, '""'), row[4], newCite);
         if (csv.indexOf(line) < 0) {
-            // printf("addition: %s", line);
+            printf("addition: %s", line);
             csv += line;
             additions++;
         }
