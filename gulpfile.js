@@ -955,7 +955,6 @@ function buildCitations(done)
     let csv = readTextFile(rootDir + sources.results.citationsCSV) || "volume,page,year,caseName,oldCite,usCite\n";
     let additions = 0;
     for (let i = 0; i < fileNames.length; i++) {
-        printf("processing %s...\n", fileNames[i]);
         let html = readTextFile(fileNames[i], "latin1");
         if (html) {
             if (fileNames[i].indexOf(".html") > 0) {
@@ -968,7 +967,7 @@ function buildCitations(done)
                 html = html.replace(/<\/?(i|em)>/gi, "").replace(/&nbsp;/gi, ' ').replace(/\s+/g, ' ');
                 html = he.decode(html);
             }
-            let re = /(?:>|^|\n)\s*([^>]*?)(,"|[,.])\s*([0-9]+|_+)\s*(U\.\s*S\.|[A-Z.]+)\s*([0-9]+|_+|[A-Z .]+|)\s*[0-9]?\(([0-9]+)\)/gi, match, matches = 0;
+            let re = /(?:>|^|\n)\s*([^>]*?)(,"|[,.])\s*([0-9]+|_+)\s*(U\.\s*S\.|[A-Z.]+)\s*([0-9]+|_+|[A-Z0-9 .]+?|)\s*[0-9]?\(?([0-9][0-9][0-9][0-9])\)?/gi, match, matches = 0;
             while ((match = re.exec(html))) {
                 let caseName = match[1];
                 if (match[2] == ',"') caseName += '"';
@@ -1028,25 +1027,25 @@ function buildCitations(done)
                 rows.push([volume, page, year, caseName, oldCite]);
                 matches++;
             }
-            printf("total file matches: %d\n", matches);
+            printf("total matches in %s: %d\n", fileNames[i], matches);
         }
     }
     rows.sort(function(a, b) {
-        let va = a[0] || 9999, pa = +a[1] || 9999, ya = a[2];
-        let vb = b[0] || 9999, pb = +b[1] || 9999, yb = b[2];
-        return va < vb? -1 : (va > vb? 1 : (pa < pb? -1 : (pa > pb? 1 : (ya < yb? -1 : (ya > yb? 1 : 0)))));
+        let va = a[0] || 9999, pa = +a[1] || 9999, ya = a[2], ta = a[3];
+        let vb = b[0] || 9999, pb = +b[1] || 9999, yb = b[2], tb = b[3];
+        return va < vb? -1 : (va > vb? 1 : (pa < pb? -1 : (pa > pb? 1 : (ya < yb? -1 : (ya > yb? 1 : (ta < tb? -1 : (ta > tb? 1 : 0)))))));
     });
+    printf("total citations matched: %d\n", rows.length);
     rows.forEach((row) => {
         let newCite = sprintf("%s U.S. %s", row[0] || "___", row[1] || "___");
         let line = sprintf('%d,%d,%d,"%s","%s","%s"\n', row[0], +row[1] || 0, row[2], row[3].replace(/"/g, '""'), row[4], newCite);
         if (csv.indexOf(line) < 0) {
-            printf("addition: %s", line);
+            // printf("addition: %s", line);
             csv += line;
             additions++;
         }
     });
     printf("total citations added: %d\n", additions);
-    printf("total citations processed: %d\n", rows.length);
     if (additions) {
         writeTextFile(rootDir + sources.results.citationsCSV, csv, argv['overwrite']);
     }
