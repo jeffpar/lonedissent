@@ -955,9 +955,10 @@ function buildCitations(done)
     let csv = readTextFile(rootDir + sources.results.citationsCSV) || "volume,page,year,caseName,oldCite,usCite\n";
     let additions = 0;
     for (let i = 0; i < fileNames.length; i++) {
-        let html = readTextFile(fileNames[i], "latin1");
+        let isHTML = fileNames[i].indexOf(".html") > 0;
+        let html = readTextFile(fileNames[i], isHTML? "latin1" : "utf-8");
         if (html) {
-            if (fileNames[i].indexOf(".html") > 0) {
+            if (isHTML) {
                 /*
                  * I like to replace any "&nbsp;"" with a space myself, because if I let he.decode() do it, it will
                  * replace the entity with "c2 a0" (aka "NO-BREAK SPACE"), and I'm not sure the RegExp whitespace token
