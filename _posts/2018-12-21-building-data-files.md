@@ -9,8 +9,7 @@ A few important data files have been created so far:
 - [decisions.json](/sources/results/decisions.json)
 - [justices.json](/sources/results/justices.json)
 - [citations.csv](/sources/results/citations.csv)
-- [argumentDates.csv](/sources/results/argumentDates.csv)
-- [decisionDates.csv](/sources/results/decisionDates.csv)
+- [dates.csv](/sources/results/dates.csv)
 
 in preparation for making this a more interesting website.  Most of our
 [Court](/sources/results/courts.json) and [Justice](/sources/results/justices.json) data came
@@ -226,7 +225,7 @@ are not impossible), they usually merit attention.  Take this pair of warnings:
     warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has unusual decision day: Saturday, March 7, 1807
 
 The fact that an SCDB decision date falls on a Saturday *and* differs from the SCOTUS decision date strongly suggests
-that the SCDB date is wrong.  We will be relying on [our own import](https://github.com/jeffpar/lonedissent/blob/master/sources/results/decisionDates.csv)
+that the SCDB date is wrong.  We will be relying on [our own import](https://github.com/jeffpar/lonedissent/blob/master/sources/results/dates.csv)
 of SCOTUS decision dates until this gets resolved.
 
 Our list of warnings also includes cases appearing in the SCOTUS [Dates of Decisions](/sources/scotus/dates/decisionDates.pdf) document

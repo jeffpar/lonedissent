@@ -886,35 +886,27 @@ function readSCDBCourts()
 function readSCOTUSDecisionDates()
 {
     let startNext = null;
-    let decisions = parseCSV(readTextFile(rootDir + sources.results.decisionDatesCSV));
+    let decisions = parseCSV(readTextFile(rootDir + sources.results.datesCSV));
 
-    let decisionsFreeLaw = readTextFile(rootDir + sources.freelaw.decisionDatesCSV);
-    if (decisionsFreeLaw) {
-        let rowsFreeLaw = decisionsFreeLaw.split('\n');
-        for (let i = 0; i < rowsFreeLaw.length - 1; i++) {
-            rowsFreeLaw[i] = rowsFreeLaw[i].split('|');
-            rowsFreeLaw[i][1] = replaceChars(rowsFreeLaw[i][1]);
-        }
-        for (let i = 0; i < rowsFreeLaw.length - 1; i++) {
-            if (rowsFreeLaw[i][1] != decisions[i].caseName) {
-                printf("warning: FreeLaw row %d (%s) does not match SCOTUS row (%s)\n", i + 1, rowsFreeLaw[i][1], decisions[i].caseName);
-            }
-            //
-            // There are so many decision date differences in the Free Law/Court Listener CSV that the file is essentially worthless.  Sigh.
-            //
-            // if (rowsFreeLaw[i][4] != decisions[i].dateDecision) {
-            //     printf("warning: FreeLaw row %d (%s) does not match SCOTUS row (%s)\n", i + 1, rowsFreeLaw[i][4], decisions[i].dateDecision);
-            // }
-        }
-    }
-
-    let argumentDates = parseCSV(readTextFile(rootDir + sources.results.argumentDatesCSV));
-    for (let i = 0; i < argumentDates.length - 1; i++) {
-        let argument = argumentDates[i];
-        if (argument.caseName != decisions[i].caseName) {
-            printf("warning: argument caseName (%s) does not match decision caseName (%s)\n", argument.caseName, decisions[i].caseName);
-        }
-    }
+    //
+    // There are so many decision date differences in the Free Law/Court Listener CSV that the file is essentially worthless.  Sigh.
+    //
+    // let decisionsFreeLaw = readTextFile(rootDir + sources.freelaw.decisionDatesCSV);
+    // if (decisionsFreeLaw) {
+    //     let rowsFreeLaw = decisionsFreeLaw.split('\n');
+    //     for (let i = 0; i < rowsFreeLaw.length - 1; i++) {
+    //         rowsFreeLaw[i] = rowsFreeLaw[i].split('|');
+    //         rowsFreeLaw[i][1] = replaceChars(rowsFreeLaw[i][1]);
+    //     }
+    //     for (let i = 0; i < rowsFreeLaw.length - 1; i++) {
+    //         if (rowsFreeLaw[i][1] != decisions[i].caseName) {
+    //             printf("warning: FreeLaw row %d (%s) does not match SCOTUS row (%s)\n", i + 1, rowsFreeLaw[i][1], decisions[i].caseName);
+    //         }
+    //         if (rowsFreeLaw[i][4] != decisions[i].dateDecision) {
+    //             printf("warning: FreeLaw row %d (%s) does not match SCOTUS row (%s)\n", i + 1, rowsFreeLaw[i][4], decisions[i].dateDecision);
+    //         }
+    //     }
+    // }
 
     let decisionDates = {};
     for (let i = 0; i < decisions.length; i++) {
