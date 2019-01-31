@@ -104,7 +104,8 @@ let sprintf = stdio.sprintf;
 let strlib = require(rootDir + "/lib/strlib");
 
 let _data = require(rootDir + "/_data/_data.json");
-let sources = require(rootDir + "/sources/sources.json");
+let results = require(rootDir + "/results/_results.json");
+let sources = require(rootDir + "/sources/_sources.json");
 let argv = proclib.args.argv;
 let warnings = 0;
 
@@ -667,7 +668,7 @@ function readXMLFile(fileName, filters)
 function readCourts()
 {
     let fixes = 0;
-    let courts = JSON.parse(readTextFile(rootDir + sources.results.courts));
+    let courts = JSON.parse(readTextFile(rootDir + results.json.courts));
     /*
      * First, let's see how our data lines up with current Oyez HTML data.
      */
@@ -742,8 +743,8 @@ function readCourts()
         }
     }
     if (fixes) {
-        printf("writing %d corrections to %s\n", fixes, rootDir + sources.results.courts);
-        writeTextFile(rootDir + sources.results.courts, courts, argv['overwrite']);
+        printf("writing %d corrections to %s\n", fixes, rootDir + results.json.courts);
+        writeTextFile(rootDir + results.json.courts, courts, argv['overwrite']);
     }
     return courts;
 }
@@ -886,7 +887,7 @@ function readSCDBCourts()
 function readSCOTUSDecisionDates()
 {
     let startNext = null;
-    let decisions = parseCSV(readTextFile(rootDir + sources.results.datesCSV));
+    let decisions = parseCSV(readTextFile(rootDir + results.csv.dates));
 
     //
     // There are so many decision date differences in the Free Law/Court Listener CSV that the file is essentially worthless.  Sigh.
@@ -899,8 +900,8 @@ function readSCOTUSDecisionDates()
     //         rowsFreeLaw[i][1] = replaceChars(rowsFreeLaw[i][1]);
     //     }
     //     for (let i = 0; i < rowsFreeLaw.length - 1; i++) {
-    //         if (rowsFreeLaw[i][1] != decisions[i].caseName) {
-    //             printf("warning: FreeLaw row %d (%s) does not match SCOTUS row (%s)\n", i + 1, rowsFreeLaw[i][1], decisions[i].caseName);
+    //         if (rowsFreeLaw[i][1] != decisions[i].caseTitle) {
+    //             printf("warning: FreeLaw row %d (%s) does not match SCOTUS row (%s)\n", i + 1, rowsFreeLaw[i][1], decisions[i].caseTitle);
     //         }
     //         if (rowsFreeLaw[i][4] != decisions[i].dateDecision) {
     //             printf("warning: FreeLaw row %d (%s) does not match SCOTUS row (%s)\n", i + 1, rowsFreeLaw[i][4], decisions[i].dateDecision);
@@ -912,13 +913,13 @@ function readSCOTUSDecisionDates()
     for (let i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
         if (!decision.dateDecision) {
-            printf("warning: %s (%s) has no decision date\n", decision.caseName, decision.usCite);
+            printf("warning: %s (%s) has no decision date\n", decision.caseTitle, decision.usCite);
             warnings++;
             continue;
         }
         let match = decision.usCite.match(/([0-9]+) U.S. ([0-9]+)/);
         if (!match) {
-            printf("warning: %s (%s) has unrecognized citation\n", decision.caseName, decision.usCite);
+            printf("warning: %s (%s) has unrecognized citation\n", decision.caseTitle, decision.usCite);
             warnings++;
             continue;
         }
@@ -944,7 +945,7 @@ function buildCitations(done)
     let rows = [];
     let volumes = [];
     let fileNames = glob.sync(rootDir + sources.scotus.citationsHTML);
-    let csv = readTextFile(rootDir + sources.results.citationsCSV) || "volume,page,year,caseName,oldCite,usCite\n";
+    let csv = readTextFile(rootDir + results.csv.citations) || "volume,page,year,caseTitle,oldCite,usCite\n";
     let additions = 0;
     for (let i = 0; i < fileNames.length; i++) {
         let isHTML = fileNames[i].indexOf(".html") > 0;
@@ -962,8 +963,8 @@ function buildCitations(done)
             }
             let re = /(?:>|^|\n)\s*([^>]*?)(,"|[,.])\s*([0-9]+|_+)\s*(U\.\s*S\.|[A-Z.]+)\s*([0-9]+|_+|[A-Z0-9 .]+?|)\s*[0-9]?\(?([0-9][0-9][0-9][0-9])\)?/gi, match, matches = 0;
             while ((match = re.exec(html))) {
-                let caseName = match[1];
-                if (match[2] == ',"') caseName += '"';
+                let caseTitle = match[1];
+                if (match[2] == ',"') caseTitle += '"';
                 let volume = +match[3] || 0;
                 let reporter = match[4];
                 let volBegin = -1;
@@ -1001,7 +1002,7 @@ function buildCitations(done)
                     break;
                 }
                 if (volBegin < 0) {
-                    printf("warning: unrecognized reporter '%s' for '%s' (see %s: '%s')\n", reporter, caseName, fileNames[i], html.substr(match.index, 100).trim());
+                    printf("warning: unrecognized reporter '%s' for '%s' (see %s: '%s')\n", reporter, caseTitle, fileNames[i], html.substr(match.index, 100).trim());
                     continue;
                 }
                 let page = match[5];
@@ -1009,7 +1010,7 @@ function buildCitations(done)
                 let oldCite = "";
                 if (volBegin < 91) {
                     if (!+page) {
-                        printf("warning: unrecognized page '%s' for '%s' (see %s: '%s')\n", page, caseName, fileNames[i], html.substr(match.index, 100).trim());
+                        printf("warning: unrecognized page '%s' for '%s' (see %s: '%s')\n", page, caseTitle, fileNames[i], html.substr(match.index, 100).trim());
                         continue;
                     }
                     oldCite = sprintf("%d %s %d", volume, reporter, +page);
@@ -1017,7 +1018,7 @@ function buildCitations(done)
                 }
                 if (!volumes[volume]) volumes[volume] = 0;
                 volumes[volume]++;
-                rows.push([volume, page, year, caseName, oldCite]);
+                rows.push([volume, page, year, caseTitle, oldCite]);
                 matches++;
             }
             printf("total matches in %s: %d\n", fileNames[i], matches);
@@ -1040,7 +1041,7 @@ function buildCitations(done)
     });
     printf("total citations added: %d\n", additions);
     if (additions) {
-        writeTextFile(rootDir + sources.results.citationsCSV, csv, argv['overwrite']);
+        writeTextFile(rootDir + results.csv.citations, csv, argv['overwrite']);
     }
     done();
 }
@@ -1057,7 +1058,7 @@ function buildCourts(done)
      *
      *      let courtsOyez = readOyezCourts();
      *      printf("Oyez courts read: %d\n", courtsOyez.length);
-     *      writeTextFile(rootDir + sources.results.courts, courtsOyez, argv['overwrite']);
+     *      writeTextFile(rootDir + results.json.courts, courtsOyez, argv['overwrite']);
      */
     let courts = readCourts();
     printf("courts read: %d\n", courts.length);
@@ -1066,7 +1067,7 @@ function buildCourts(done)
      * Let's verify that all the justices are appropriately slotted into the courts.
      */
     let lastCourtPrinted = "";
-    let justices = JSON.parse(readTextFile(rootDir + sources.results.justices));
+    let justices = JSON.parse(readTextFile(rootDir + results.json.justices));
     for (let i = 0; i < justices.length; i++) {
         let justice = justices[i];
         let nCourts = 0;
@@ -1104,7 +1105,7 @@ function buildCourts(done)
         }
     }
 
-    writeTextFile(rootDir + sources.results.courtsCSV, csv, argv['overwrite']);
+    writeTextFile(rootDir + results.csv.courts, csv, argv['overwrite']);
     done();
 }
 
@@ -1139,7 +1140,7 @@ function buildDecisions(done)
     let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars));
     let decisions = parseCSV(readTextFile(rootDir + sources.scdb.decisionsCSV, "latin1"), 0, "voteId", "justice", false, vars);
     printf("SCDB decisions: %d\n", decisions.length);
-    writeTextFile(rootDir + sources.results.decisions, decisions, argv['overwrite']);
+    writeTextFile(rootDir + results.json.decisions, decisions, argv['overwrite']);
     done();
 }
 
@@ -1200,7 +1201,7 @@ function buildJustices(done)
             justicesOyez.push(justice);
         }
     }
-    writeTextFile(rootDir + sources.results.justices, justicesOyez, argv['overwrite']);
+    writeTextFile(rootDir + results.json.justices, justicesOyez, argv['overwrite']);
     done();
 }
 
@@ -1529,15 +1530,15 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 
     let decisionsAudited = [];
     let decisionsDuplicated = [];
-    let decisions = JSON.parse(readTextFile(rootDir + sources.results.decisions));
+    let decisions = JSON.parse(readTextFile(rootDir + results.json.decisions));
     printf("decisions available: %d\n", decisions.length);
     let lonerBackup = JSON.parse(readTextFile(rootDir + _data.lonerBackup) || "[]");
 
     let dataFile = minVotes == 1? _data.lonerDecisions : _data.allDecisions;
     let data = JSON.parse(readTextFile(rootDir + dataFile) || "[]");
     let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars) || "{}");
-    let courts = JSON.parse(readTextFile(rootDir + sources.results.courts) || "[]");
-    let justices = JSON.parse(readTextFile(rootDir + sources.results.justices) || "[]");
+    let courts = JSON.parse(readTextFile(rootDir + results.json.courts) || "[]");
+    let justices = JSON.parse(readTextFile(rootDir + results.json.justices) || "[]");
 
     do {
         let year = 0;
@@ -1592,7 +1593,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 
         let range = (start || stop)? sprintf(" in range %s--%s", start, stop) : "";
         let condition = minVotes? sprintf(" with minVotes of %d", minVotes) : "";
-        printf(" results%s%s: %d\n", range, condition, results.length);
+        printf("results%s%s: %d\n", range, condition, results.length);
 
         if (results.length) {
             let additions = 0;
@@ -1809,7 +1810,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
         }
     } while (term && endTerm && start < endTerm);
 
-    printf("  totals: matched %d decisions out of %d\n", decisionsAudited.length, decisions.length);
+    printf("totals: matched %d decisions out of %d\n", decisionsAudited.length, decisions.length);
 
     if (decisionsDuplicated.length) {
         printf("warning: checked %d decisions more than once (%j)\n", decisionsDuplicated.length, decisionsDuplicated);
@@ -1829,8 +1830,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 function fixDecisions(done)
 {
     // let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars) || "{}");
-    // let courts = JSON.parse(readTextFile(rootDir + sources.results.courts) || "[]");
-    // let justices = JSON.parse(readTextFile(rootDir + sources.results.justices) || "[]");
+    // let courts = JSON.parse(readTextFile(rootDir + results.json.courts) || "[]");
+    // let justices = JSON.parse(readTextFile(rootDir + results.json.justices) || "[]");
 
     let scdbCites = {}, labCites = {};
     let scdbCourts = readSCDBCourts();
@@ -1845,13 +1846,13 @@ function fixDecisions(done)
     }
 
     let changes = 0;
-    let decisions = JSON.parse(readTextFile(rootDir + sources.results.decisions));
+    let decisions = JSON.parse(readTextFile(rootDir + results.json.decisions));
     printf("decisions available: %d\n", decisions.length);
 
-    let unusualDates = readTextFile(rootDir + sources.results.unusualDatesCSV) || "";
-    let changedDates = readTextFile(rootDir + sources.results.changedDatesCSV) || "";
-    let changedCourts = readTextFile(rootDir + sources.results.changedCourtsCSV) || "";
-    let missingCases = readTextFile(rootDir + sources.results.missingCasesCSV) || "";
+    let unusualDates = readTextFile(rootDir + results.logs.csv.unusualDates) || "caseId,usCite,caseName,dateDecision,dayOfWeek\n";
+    let changedDates = readTextFile(rootDir + results.logs.csv.changedDates) || "caseId,usCite,caseName,dateDecision,dateDecisionNew\n";
+    let changedCourts = readTextFile(rootDir + results.logs.csv.changedCourts) || "caseId,usCite,caseName,dateDecision,naturalCourt,naturalCourtNew\n";
+    let missingCases = readTextFile(rootDir + results.logs.csv.missingCases) || "usCite,caseTitle,dateDecision\n";
     let unusualDatesOrig = unusualDates, changedDatesOrig = changedDates, changedCourtsOrig = changedCourts, missingCasesOrig = missingCases;
 
     decisions.forEach((decision) => {
@@ -1935,28 +1936,28 @@ function fixDecisions(done)
         let scotusDates = scotusDecisions[usCite];
         scotusDates.forEach((scotusDecision) => {
             if (!scotusDecision.matched) {
-                printf("warning: %s (%s) with SCOTUS decision date %s has no matching SCDB entry\n", scotusDecision.caseName, scotusDecision.usCite, scotusDecision.dateDecision);
-                missingCases = addCSV(missingCases, scotusDecision, ["usCite", "caseName", "dateDecision"]);
+                printf("warning: %s (%s) with SCOTUS decision date %s has no matching SCDB entry\n", scotusDecision.caseTitle, scotusDecision.usCite, scotusDecision.dateDecision);
+                missingCases = addCSV(missingCases, scotusDecision, ["usCite", "caseTitle", "dateDecision"]);
                 warnings++;
             }
         });
     });
 
     if (unusualDates != unusualDatesOrig) {
-        writeTextFile(rootDir + sources.results.unusualDatesCSV, unusualDates, argv['overwrite']);
+        writeTextFile(rootDir + results.logs.csv.unusualDates, unusualDates, argv['overwrite']);
     }
     if (changedDates != changedDatesOrig) {
-        writeTextFile(rootDir + sources.results.changedDatesCSV, changedDates, argv['overwrite']);
+        writeTextFile(rootDir + results.logs.csv.changedDates, changedDates, argv['overwrite']);
     }
     if (changedCourts != changedCourtsOrig) {
-        writeTextFile(rootDir + sources.results.changedCourtsCSV, changedCourts, argv['overwrite']);
+        writeTextFile(rootDir + results.logs.csv.changedCourts, changedCourts, argv['overwrite']);
     }
     if (missingCases != missingCasesOrig) {
-        writeTextFile(rootDir + sources.results.missingCasesCSV, missingCases, argv['overwrite']);
+        writeTextFile(rootDir + results.logs.csv.missingCases, missingCases, argv['overwrite']);
     }
 
     if (changes) {
-        writeTextFile(rootDir + sources.results.decisions, decisions, argv['overwrite']);
+        writeTextFile(rootDir + results.json.decisions, decisions, argv['overwrite']);
     }
 
     if (warnings) printf("warnings: %d\n", warnings);
@@ -2002,7 +2003,7 @@ function findJustices(done, minVotes)
     if (!data.length) {
         let dataBuckets = {};
         let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars));
-        let justices = JSON.parse(readTextFile(rootDir + sources.results.justices));
+        let justices = JSON.parse(readTextFile(rootDir + results.json.justices));
         justices.forEach((justice) => {
             if (justice.scdbJustice) {
                 let id = vars.justice.values[justice.scdbJustice];

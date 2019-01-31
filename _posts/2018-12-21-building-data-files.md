@@ -5,15 +5,15 @@ permalink: /blog/2018/12/21/
 
 A few important data files have been created so far:
 
-- [courts.json](/sources/results/courts.json)
-- [decisions.json](/sources/results/decisions.json)
-- [justices.json](/sources/results/justices.json)
-- [citations.csv](/sources/results/citations.csv)
-- [dates.csv](/sources/results/dates.csv)
+- [courts.json](/results/courts.json)
+- [decisions.json](/results/decisions.json)
+- [justices.json](/results/justices.json)
+- [citations.csv](/results/citations.csv)
+- [dates.csv](/results/dates.csv)
 
 in preparation for making this a more interesting website.  Most of our
-[Court](/sources/results/courts.json) and [Justice](/sources/results/justices.json) data came
-from [Oyez](https://www.oyez.org/), while most of the [Decision](/sources/results/decisions.json)
+[Court](/results/courts.json) and [Justice](/results/justices.json) data came
+from [Oyez](https://www.oyez.org/), while most of the [Decision](/results/decisions.json)
 data was imported from [CSV files](/sources/scdb/decisions.csv) provided by the
 [Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB.
 
@@ -225,7 +225,7 @@ are not impossible), they usually merit attention.  Take this pair of warnings:
     warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has unusual decision day: Saturday, March 7, 1807
 
 The fact that an SCDB decision date falls on a Saturday *and* differs from the SCOTUS decision date strongly suggests
-that the SCDB date is wrong.  We will be relying on [our own import](https://github.com/jeffpar/lonedissent/blob/master/sources/results/dates.csv)
+that the SCDB date is wrong.  We will be relying on [our own import](https://github.com/jeffpar/lonedissent/blob/master/results/dates.csv)
 of SCOTUS decision dates until this gets resolved.
 
 Our list of warnings also includes cases appearing in the SCOTUS [Dates of Decisions](/sources/scotus/dates/decisionDates.pdf) document

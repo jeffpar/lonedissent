@@ -18,17 +18,5 @@
   },
   "scotus": {
     "citationsHTML": "/sources/scotus/citations/*.*"
-  },
-  "results": {
-    "courtsCSV": "/sources/results/courts.csv",
-    "citationsCSV": "/sources/results/citations.csv",
-    "datesCSV": "/sources/results/dates.csv",
-    "changedDatesCSV": "/sources/results/changedDates.csv",
-    "unusualDatesCSV": "/sources/results/unusualDates.csv",
-    "changedCourtsCSV": "/sources/results/changedCourts.csv",
-    "missingCasesCSV": "/sources/results/missingCases.csv",
-    "courts": "/sources/results/courts.json",
-    "decisions": "/sources/results/decisions.json",
-    "justices": "/sources/results/justices.json"
   }
 }

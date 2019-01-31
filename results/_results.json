@@ -1,0 +1,20 @@
+{
+  "json": {
+    "courts": "/results/courts.json",
+    "decisions": "/results/decisions.json",
+    "justices": "/results/justices.json"
+  },
+  "csv": {
+    "citations": "/results/citations.csv",
+    "courts": "/results/courts.csv",
+    "dates": "/results/dates.csv"
+  },
+  "logs": {
+    "csv": {
+      "changedCourts": "/results/logs/changedCourts.csv",
+      "changedDates": "/results/logs/changedDates.csv",
+      "missingCases": "/results/logs/missingCases.csv",
+      "unusualDates": "/results/logs/unusualDates.csv"
+    }
+  }
+}
