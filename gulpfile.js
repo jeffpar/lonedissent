@@ -499,7 +499,7 @@ function parseCSVFields(line, row)
         let ch = line[i];
         if (!inQuotes) {
             if (ch == ',') {
-                field = replaceChars(field, row, fields.length + 1);
+                field = replaceChars(field);
                 fields.push(field);
                 field = "";
             }
@@ -524,7 +524,7 @@ function parseCSVFields(line, row)
             }
         }
     }
-    field = replaceChars(field, row, fields.length + 1);
+    field = replaceChars(field);
     fields.push(field);
     if (inQuotes) {
         printf("CSV quote error: %s\n", line);
@@ -533,47 +533,50 @@ function parseCSVFields(line, row)
 }
 
 /**
- * replaceChars(text, row, col)
+ * replaceChars(text)
  *
  * @param {string} text
- * @param {number} [row]
- * @param {number} [col]
  * @return {string}
  */
-function replaceChars(text, row, col)
+function replaceChars(text)
 {
-    let textNew = "";
-    for (let i = 0; i < text.length; i++) {
-        let c = text.charCodeAt(i);
-        switch(c) {
-        case 0x91:
-            textNew += "&lsquo;"
-            break;
-        case 0x92:
-            textNew += "&rsquo;"
-            break;
-        case 0x93:
-            textNew += "&ldquo;"
-            break;
-        case 0x94:
-            textNew += "&rdquo;"
-            break;
-        case 0x96:
-            textNew += "&ndash;"
-            break;
-        case 0xA7:
-            textNew += "&sect;"
-            break;
-        default:
-            if (c >= 0x7f) {
-                printf("warning: field '%s' contains unrecognized character '%c' (0x%02x) in row %d, col %d, pos %d\n", text, c, c, row, col, i + 1);
-                break;
-            }
-            textNew += String.fromCharCode(c);
-            break;
-        }
-    }
-    return textNew.replace(/&([^&;]*)( |$)/gi, "&amp;$1$2").replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
+    //
+    // for (let i = 0; i < text.length; i++) {
+    //     let c = text.charCodeAt(i);
+    //     switch(c) {
+    //     case 0x91:
+    //         textNew += "&lsquo;"
+    //         break;
+    //     case 0x92:
+    //         textNew += "&rsquo;"
+    //         break;
+    //     case 0x93:
+    //         textNew += "&ldquo;"
+    //         break;
+    //     case 0x94:
+    //         textNew += "&rdquo;"
+    //         break;
+    //     case 0x96:
+    //         textNew += "&ndash;"
+    //         break;
+    //     case 0xA7:
+    //         textNew += "&sect;"
+    //         break;
+    //     default:
+    //         if (c >= 0x7f) {
+    //             printf("warning: text '%s' contains unrecognized character '%c' (0x%02x) at pos %d\n", text, c, c, i + 1);
+    //             break;
+    //         }
+    //         textNew += String.fromCharCode(c);
+    //         break;
+    //     }
+    // }
+    // return textNew.replace(/&([^&;]*)( |$)/gi, "&amp;$1$2").replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
+    //
+    return he.encode(text.replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc."), {
+        'encodeEverything': false,
+        "useNamedReferences": true
+    }).replace(/&apos;/g, "'").replace(/&quot;/g, '"');
 }
 
 /**
@@ -880,11 +883,11 @@ function readSCDBCourts()
 }
 
 /**
- * readSCOTUSDecisionDates()
+ * readSCOTUSDecisions()
  *
  * @return {Array}
  */
-function readSCOTUSDecisionDates()
+function readSCOTUSDecisions()
 {
     let startNext = null;
     let decisions = parseCSV(readTextFile(rootDir + results.csv.dates));
@@ -909,7 +912,7 @@ function readSCOTUSDecisionDates()
     //     }
     // }
 
-    let decisionDates = {};
+    let scotusDecisions = {};
     for (let i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
         if (!decision.dateDecision) {
@@ -929,10 +932,10 @@ function readSCOTUSDecisionDates()
             let date = parseDate(decision.dateDecision);
             decision.dateDecision = sprintf("%#Y-%#02M-%#02D", date, date, date);
         }
-        if (!decisionDates[decision.usCite]) decisionDates[decision.usCite] = [];
-        decisionDates[decision.usCite].push(decision);
+        if (!scotusDecisions[decision.usCite]) scotusDecisions[decision.usCite] = [];
+        scotusDecisions[decision.usCite].push(decision);
     }
-    return decisionDates;
+    return scotusDecisions;
 }
 
 /**
@@ -1203,6 +1206,46 @@ function buildJustices(done)
     }
     writeTextFile(rootDir + results.json.justices, justicesOyez, argv['overwrite']);
     done();
+}
+
+/**
+ * scoreStrings(left, right)
+ *
+ * @param {string} left
+ * @param {string} right
+ * @return {number} (0-100)
+ */
+function scoreStrings(left, right)
+{
+    let score = 100;
+    if (left != right) {
+        score = 0;
+        if (left && right) {
+            left = left.toLowerCase().replace(/&amp;/g, " and ").replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim();
+            right = right.toLowerCase().replace(/&amp;/g, " and ").replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim();
+            let matchesRight = 0, totalRight = 0;
+            let wordsLeft = left.split(' ');
+            let wordsRight = right.split(' ');
+            for (let r = 0; r < wordsRight.length; r++) {
+                let wordRight = wordsRight[r];
+                if (!wordRight) continue;
+                totalRight++;
+                for (let l = 0; l < wordsLeft.length; l++) {
+                    let wordLeft = wordsLeft[l];
+                    if (!wordLeft) continue;
+                    if (wordLeft == "versus" || wordLeft == "vs") wordLeft = "v";
+                    if (wordRight == wordLeft) {
+                        wordsLeft[l] = "";
+                        matchesRight++;
+                        break;
+                    }
+                }
+            }
+            if (matchesRight > 1) score = ((matchesRight / totalRight) * 100)|0;
+        }
+    }
+    // printf("\tscore for '%s' vs. '%s': %d\n", left, right, score);
+    return score;
 }
 
 /**
@@ -1825,6 +1868,11 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 /**
  * fixDecisions()
  *
+ * If --citations, then match up every decision record with a citation row.
+ * If --courts, then verify all decision dates against natural court dates.
+ * If --dates, then verify all argument/decision dates aginst SCOTUS argument/decision dates.
+ * If --oyezlabs, then match up every decision record with an oyezlabs record.
+ *
  * @param {function()} done
  */
 function fixDecisions(done)
@@ -1833,15 +1881,36 @@ function fixDecisions(done)
     // let courts = JSON.parse(readTextFile(rootDir + results.json.courts) || "[]");
     // let justices = JSON.parse(readTextFile(rootDir + results.json.justices) || "[]");
 
-    let scdbCites = {}, labCites = {};
-    let scdbCourts = readSCDBCourts();
-    let scotusDecisions = readSCOTUSDecisionDates();
-    let labDecisions = readOyezLabsDecisions();
-    for (let i = 0; i < labDecisions.length; i++) {
-        let decision = labDecisions[i];
-        if (decision.usCite && decision.dateDecision) {
-            if (!labCites[decision.usCite]) labCites[decision.usCite] = [];
-            labCites[decision.usCite].push(decision);
+    let fixDates = false;
+    let citationCites = {}, citations = [];
+    let labCites = {}, labDecisions = [];
+    let scdbCourts = [], scotusDecisions = {};
+
+    if (argv['citations']) {
+        citations = parseCSV(readTextFile(rootDir + results.csv.citations));
+        for (let i = 0; i < citations.length; i++) {
+            let citation = citations[i];
+            if (citation.volume) {
+                if (!citationCites[citation.usCite]) citationCites[citation.usCite] = [];
+                citationCites[citation.usCite].push(citation);
+            }
+        }
+    }
+    if (argv['courts']) {
+        scdbCourts = readSCDBCourts();
+    }
+    if (argv['dates']) {
+        fixDates = true;
+        scotusDecisions = readSCOTUSDecisions();
+    }
+    if (argv['oyezlabs']) {
+        labDecisions = readOyezLabsDecisions();
+        for (let i = 0; i < labDecisions.length; i++) {
+            let decision = labDecisions[i];
+            if (decision.usCite && decision.dateDecision) {
+                if (!labCites[decision.usCite]) labCites[decision.usCite] = [];
+                labCites[decision.usCite].push(decision);
+            }
         }
     }
 
@@ -1849,6 +1918,7 @@ function fixDecisions(done)
     let decisions = JSON.parse(readTextFile(rootDir + results.json.decisions));
     printf("decisions available: %d\n", decisions.length);
 
+    let scdbCites = {};
     let unusualDates = readTextFile(rootDir + results.logs.csv.unusualDates) || "caseId,usCite,caseName,dateDecision,dayOfWeek\n";
     let changedDates = readTextFile(rootDir + results.logs.csv.changedDates) || "caseId,usCite,caseName,dateDecision,dateDecisionNew\n";
     let changedCourts = readTextFile(rootDir + results.logs.csv.changedCourts) || "caseId,usCite,caseName,dateDecision,naturalCourt,naturalCourtNew\n";
@@ -1858,6 +1928,32 @@ function fixDecisions(done)
     decisions.forEach((decision) => {
         let citeDate, i;
         if (decision.usCite) {
+            if (citations.length) {
+                /*
+                 * The "--citations" option must have been specified....
+                 */
+                let cites = citationCites[decision.usCite];
+                if (cites) {
+                    i = 0;
+                    let citeBest, scoreBest = -1;
+                    while (i < cites.length) {
+                        let cite = cites[i++];
+                        if (cites.length == 1) {
+                            citeBest = cite;
+                            scoreBest = 100;
+                            break;
+                        }
+                        let score = scoreStrings(decision.caseName, cite.caseTitle);
+                        if (scoreBest < score) {
+                            scoreBest = score;
+                            citeBest = cite;
+                        }
+                    }
+                    if (scoreBest < 50) {
+                        printf("compare %s: decision caseName '%s' to citation caseTitle '%s' (%d)\n", decision.usCite, decision.caseName, citeBest.caseTitle, scoreBest);
+                    }
+                }
+            }
             if (!scdbCites[decision.usCite]) {
                 scdbCites[decision.usCite] = [];
             }
@@ -1873,6 +1969,9 @@ function fixDecisions(done)
             scdbCites[decision.usCite].push(decision);
             let scotusDates = scotusDecisions[decision.usCite];
             if (scotusDates) {
+                /*
+                 * The "--dates" option must have been specified....
+                 */
                 for (i = 0; i < scotusDates.length; i++) {
                     citeDate = scotusDates[i];
                     if (decision.dateDecision == citeDate.dateDecision && !citeDate.matched) {
@@ -1889,20 +1988,23 @@ function fixDecisions(done)
                     changes++;
                 }
             }
-            if (labCites[decision.usCite]) {
-                let cite, cites = labCites[decision.usCite];
-                for (i = 0; i < cites.length; i++) {
-                    cite = cites[i];
-                    if (cite.dateDecision == decision.dateDecision) break;
+            if (labDecisions.length) {
+                if (labCites[decision.usCite]) {
+                    let cite, cites = labCites[decision.usCite];
+                    for (i = 0; i < cites.length; i++) {
+                        cite = cites[i];
+                        if (cite.dateDecision == decision.dateDecision) break;
+                    }
+                    if (i == cites.length) {
+                        printf("warning: %s (%s) decision date %s does not match OyezLabs '%s' decision date %s\n", decision.caseName, decision.usCite, decision.dateDecision, cite.caseTitle, cite.dateDecision);
+                    }
+                } else {
+                    printf("warning: unable to find OyezLabs XML for %s (%s)\n", decision.caseName, decision.usCite);
                 }
-                if (i == cites.length) {
-                    printf("warning: %s (%s) decision date %s does not match OyezLabs '%s' decision date %s\n", decision.caseName, decision.usCite, decision.dateDecision, cite.caseTitle, cite.dateDecision);
-                }
-            } else {
-                printf("warning: unable to find OyezLabs XML for %s (%s)\n", decision.caseName, decision.usCite);
             }
         }
-        if ((!citeDate || !citeDate.matched) && decision.dateDecision && decision.dateDecision.length == 10) {
+
+        if (fixDates && (!citeDate || !citeDate.matched) && decision.dateDecision && decision.dateDecision.length == 10) {
             let dateDecision = parseDate(decision.dateDecision);
             let dayOfWeek = dateDecision.getUTCDay();
             if (dayOfWeek == 0 || dayOfWeek == 6) {
@@ -1911,23 +2013,26 @@ function fixDecisions(done)
                 warnings++;
             }
         }
-        for (i = 0; i < scdbCourts.length; i++) {
-            let court = scdbCourts[i];
-            if (decision.dateDecision >= court.start && decision.dateDecision <= court.stop) {
-                let naturalCourt = +court.naturalCourt;
-                if (decision.naturalCourt != naturalCourt) {
-                    printf("warning: %s (%s): decision date %s lies within court %s (%d) but naturalCourt is different (%d)\n", decision.caseName, decision.usCite, decision.dateDecision, court.naturalName, naturalCourt, decision.naturalCourt);
-                    changedCourts = addCSV(changedCourts, decision, ["caseId", "usCite", "caseName", "dateDecision", "naturalCourt"], "naturalCourtNew", naturalCourt);
-                    warnings++;
-                    decision.naturalCourt = naturalCourt;
-                    changes++;
+
+        if (scdbCourts.length) {
+            for (i = 0; i < scdbCourts.length; i++) {
+                let court = scdbCourts[i];
+                if (decision.dateDecision >= court.start && decision.dateDecision <= court.stop) {
+                    let naturalCourt = +court.naturalCourt;
+                    if (decision.naturalCourt != naturalCourt) {
+                        printf("warning: %s (%s): decision date %s lies within court %s (%d) but naturalCourt is different (%d)\n", decision.caseName, decision.usCite, decision.dateDecision, court.naturalName, naturalCourt, decision.naturalCourt);
+                        changedCourts = addCSV(changedCourts, decision, ["caseId", "usCite", "caseName", "dateDecision", "naturalCourt"], "naturalCourtNew", naturalCourt);
+                        warnings++;
+                        decision.naturalCourt = naturalCourt;
+                        changes++;
+                    }
+                    break;
                 }
-                break;
             }
-        }
-        if (i == scdbCourts.length) {
-            printf("warning: %s (%s): decision date %s lies outside of any court; naturalCourt is %d\n", decision.caseName, decision.usCite, decision.dateDecision, decision.naturalCourt);
-            warnings++;
+            if (i == scdbCourts.length) {
+                printf("warning: %s (%s): decision date %s lies outside of any court; naturalCourt is %d\n", decision.caseName, decision.usCite, decision.dateDecision, decision.naturalCourt);
+                warnings++;
+            }
         }
     });
 
@@ -2238,6 +2343,9 @@ function testDates(done)
     terms.forEach((term) => {
         printf("getTermName(%s): %s\n", term, getTermName(term))
     });
+
+    let d = -1;
+    printf("d == 0x%02x\n", d);
 
     done();
 }
