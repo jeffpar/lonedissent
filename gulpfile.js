@@ -168,6 +168,7 @@ let warnings = 0;
  * @property {string} chief
  * @property {string} docket
  * @property {string} caseName
+ * @property {string} caseTitle
  * @property {string} dateArgument
  * @property {string} dateRearg
  * @property {number} petitioner
@@ -333,13 +334,13 @@ function addCSV(text, obj, keys, ...pairs)
     let line = "";
     for (let i = 0; i < keys.length; i++) {
         let s = obj[keys[i]];
-        if (typeof s == "string") s = '"' + s.replace(/"/g, '""') + '"';
+        if (typeof s == "string") s = '"' + he.decode(s).replace(/"/g, '""') + '"';
         if (line) line += ',';
         line += s;
     }
     for (let i = 0; i < pairs.length; i += 2) {
         let s = pairs[i+1];
-        if (typeof s == "string") s = '"' + s.replace(/"/g, '""') + '"';
+        if (typeof s == "string") s = '"' + he.decode(s).replace(/"/g, '""') + '"';
         if (line) line += ',';
         line += s;
     }
@@ -1919,11 +1920,12 @@ function fixDecisions(done)
     printf("decisions available: %d\n", decisions.length);
 
     let scdbCites = {};
-    let unusualDates = readTextFile(rootDir + results.logs.csv.unusualDates) || "caseId,usCite,caseName,dateDecision,dayOfWeek\n";
-    let changedDates = readTextFile(rootDir + results.logs.csv.changedDates) || "caseId,usCite,caseName,dateDecision,dateDecisionNew\n";
     let changedCourts = readTextFile(rootDir + results.logs.csv.changedCourts) || "caseId,usCite,caseName,dateDecision,naturalCourt,naturalCourtNew\n";
+    let changedDates = readTextFile(rootDir + results.logs.csv.changedDates) || "caseId,usCite,caseName,dateDecision,dateDecisionNew\n";
     let missingCases = readTextFile(rootDir + results.logs.csv.missingCases) || "usCite,caseTitle,dateDecision\n";
-    let unusualDatesOrig = unusualDates, changedDatesOrig = changedDates, changedCourtsOrig = changedCourts, missingCasesOrig = missingCases;
+    let unknownCitations = readTextFile(rootDir + results.logs.csv.unknownCitations) || "usCite,caseName,dateDecision\n";
+    let unusualDates = readTextFile(rootDir + results.logs.csv.unusualDates) || "caseId,usCite,caseName,dateDecision,dayOfWeek\n";
+    let changedCourtsOrig = changedCourts, changedDatesOrig = changedDates, missingCasesOrig = missingCases, unknownCitationsOrig = unknownCitations, unusualDatesOrig = unusualDates;
 
     decisions.forEach((decision) => {
         let citeDate, i;
@@ -1949,7 +1951,9 @@ function fixDecisions(done)
                             citeBest = cite;
                         }
                     }
-                    if (scoreBest < 50) {
+                    if (scoreBest >= 50) {
+                        decision.caseTitle = citeBest.caseTitle;
+                    } else {
                         printf("compare %s: decision caseName '%s' to citation caseTitle '%s' (%d)\n", decision.usCite, decision.caseName, citeBest.caseTitle, scoreBest);
                     }
                 }
@@ -2048,17 +2052,30 @@ function fixDecisions(done)
         });
     });
 
-    if (unusualDates != unusualDatesOrig) {
-        writeTextFile(rootDir + results.logs.csv.unusualDates, unusualDates, argv['overwrite']);
+    if (argv['citations']) {
+        decisions.forEach((decision) => {
+            if (!decision.caseTitle) {
+                printf("warning: %s (%s) has no SCOTUS citation entry\n", decision.caseName, decision.usCite, decision.dateDecision);
+                unknownCitations = addCSV(unknownCitations, decision, ["usCite", "caseName", "dateDecision"]);
+                warnings++;
+            }
+        });
+    }
+
+    if (changedCourts != changedCourtsOrig) {
+        writeTextFile(rootDir + results.logs.csv.changedCourts, changedCourts, argv['overwrite']);
     }
     if (changedDates != changedDatesOrig) {
         writeTextFile(rootDir + results.logs.csv.changedDates, changedDates, argv['overwrite']);
     }
-    if (changedCourts != changedCourtsOrig) {
-        writeTextFile(rootDir + results.logs.csv.changedCourts, changedCourts, argv['overwrite']);
-    }
     if (missingCases != missingCasesOrig) {
         writeTextFile(rootDir + results.logs.csv.missingCases, missingCases, argv['overwrite']);
+    }
+    if (unknownCitations != unknownCitationsOrig) {
+        writeTextFile(rootDir + results.logs.csv.unknownCitations, unknownCitations, argv['overwrite']);
+    }
+    if (unusualDates != unusualDatesOrig) {
+        writeTextFile(rootDir + results.logs.csv.unusualDates, unusualDates, argv['overwrite']);
     }
 
     if (changes) {

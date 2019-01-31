@@ -1,160 +1,56 @@
-[01:17:38] Using gulpfile ~/Sites/lonedissent/gulpfile.js
-[01:17:38] Starting 'fixDecisions'...
+[10:38:05] Working directory changed to ~/Sites/lonedissent
+[10:38:05] Using gulpfile ~/Sites/lonedissent/gulpfile.js
+[10:38:05] Starting 'fixDecisions'...
 decisions available: 28779
+ENOENT: no such file or directory, open './results/logs/changedCourts.csv'
+ENOENT: no such file or directory, open './results/logs/changedDates.csv'
+ENOENT: no such file or directory, open './results/logs/missingCases.csv'
+ENOENT: no such file or directory, open './results/logs/unknownCitations.csv'
+ENOENT: no such file or directory, open './results/logs/unusualDates.csv'
 warning: DEWHURST VERSUS COULTHARD (3 U.S. 409) has decision date 1799-02-01 instead of SCOTUS date 1799-02
 warning: BLAIR et al. PLAINTIFFS IN ERROR, VERSUS MILLER et al. (4 U.S. 21) has decision date 1800-08-01 instead of SCOTUS date 1800-02
-warning: BLAIR et al. PLAINTIFFS IN ERROR, VERSUS MILLER et al. (4 U.S. 21): decision date 1800-02 lies within court Ellsworth 2 (302) but naturalCourt is different (303)
 warning: TALBOT VERSUS THE SHIP AMELIA, SEEMAN, CLAIMANT (4 U.S. 34) has decision date 1801-08-15 instead of SCOTUS date 1800-08-15
-warning: TALBOT VERSUS THE SHIP AMELIA, SEEMAN, CLAIMANT (4 U.S. 34): decision date 1800-08-15 lies within court Ellsworth 3 (303) but naturalCourt is different (401)
-warning: MCILVAINE v. COXE'S LESSEE (6 U.S. 280): decision date 1805-03-06 lies within court Marshall 2 (402) but naturalCourt is different (401)
-warning: WOODS &amp; BEMIS v. YOUNG (8 U.S. 237): decision date 1808-02-29 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: YOUNG v. PRESTON (8 U.S. 239): decision date 1808-02-29 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: HUDSON AND OTHERS v. GUESTIER (8 U.S. 293): decision date 1808-03-02 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: ALEXANDER v. HARRIS, BAILIFF OF CRAMMOND (8 U.S. 299): decision date 1808-03-02 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: CHAPPEDELAINE, RESIDUARY LEGATEE, AND CLOSRIVIERRE, ADM'R DE BONIS NON, OF CHAPPEDELAINE, COMPLAINANTS, v. DECHENAUX, EXECUTOR OF DUMOUSSAY, DEFENDANT (8 U.S. 306): decision date 1808-03-04 lies within court Marshall 4 (404) but naturalCourt is different (403)
 warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has decision date 1807-03-07 instead of SCOTUS date 1808-03-07
-warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316): decision date 1808-03-07 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: THE MAYOR AND COMMONALTY OF ALEXANDRIA v. PATTEN AND OTHERS (8 U.S. 317): decision date 1808-03-07 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: MOUNTZ AND OTHERS v. HODGSON AND THOMPSON (8 U.S. 324): decision date 1808-03-08 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: BLAINE v. THE SHIP CHARLES CARTER, AND DONALD AND BURTON AND OTHERS, CLAIMANTS (8 U.S. 328): decision date 1808-03-08 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: THE UNITED STATES v. GURNEY AND OTHER (8 U.S. 333): decision date 1808-03-08 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: PEISCH AND OTHERS v. WARE AND OTHERS (8 U.S. 347): decision date 1808-03-09 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: ALEXANDER v. THE BALTIMORE INSURANCE COMPANY (8 U.S. 370): decision date 1808-03-11 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: MATTHEWS v. ZANE (8 U.S. 382): decision date 1808-03-12 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: YOUNG v. THE BANK OF ALEXANDRIA (8 U.S. 384): decision date 1808-03-12 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: SPIERS v. WILLISON (8 U.S. 398): decision date 1808-03-14 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: RAMSAY v. LEE (8 U.S. 401): decision date 1808-03-14 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: STEAD'S EXECUTORS v. COURSE (8 U.S. 403): decision date 1808-03-14 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: HIGGINSON v. MEIN (8 U.S. 415): decision date 1808-03-14 lies within court Marshall 4 (404) but naturalCourt is different (403)
 warning: DAWSON'S LESSEE v. GODFREY (8 U.S. 321) has decision date 1807-03-15 instead of SCOTUS date 1808-03-15
-warning: DAWSON'S LESSEE v. GODFREY (8 U.S. 321): decision date 1808-03-15 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: POLLARD AND PICKETT v. DWIGHT et al. (8 U.S. 421): decision date 1808-03-15 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: ROSE v. HIMELY (8 U.S. 241): decision date 1808-03-02 lies within court Marshall 4 (404) but naturalCourt is different (403)
-warning: THE UNITED STATES v. THE SCHOONER BETSEY AND CHARLOTTE, AND HER CARGO (8 U.S. 443): decision date 1808-03-16 lies within court Marshall 4 (404) but naturalCourt is different (403)
 warning: WELSH v. MANDEVILLE AND JAMESSON (9 U.S. 321) has decision date 1809-02-01 instead of SCOTUS date 1809-02
 warning: WILSON, ex parte (10 U.S. 52) has decision date 1810-02-01 instead of SCOTUS date 1810-02
 warning: RIDDLE AND COMPANY v. MANDEVILLE AND JAMESSON (10 U.S. 86) has decision date 1810-02-01 instead of SCOTUS date 1810-02
 warning: HAWTHORNE, CLAIMANT OF THE BRIG CLARISSA CLAIBORNE v. THE UNITED STATES (11 U.S. 107) has decision date 1812-02-20 instead of SCOTUS date 1812-02
-warning: HAWTHORNE, CLAIMANT OF THE BRIG CLARISSA CLAIBORNE v. THE UNITED STATES (11 U.S. 107): decision date 1812-02 lies within court Marshall 5 (405) but naturalCourt is different (406)
 warning: THE GEORGE, THE BOTHNEA, AND THE IANSTAFF (14 U.S. 408) has decision date 1816-03-23 instead of SCOTUS date 1816-02
 warning: THE EXPERIMENT (17 U.S. 84) has decision date 1819-02-01 instead of SCOTUS date 1819-02
 warning: MILLER AND OTHERS v. KERR AND OTHERS (20 U.S. 1) has decision date 1822-03-15 instead of SCOTUS date 1821-03-15
 warning: THE ANTELOPE.  THE VICE-CONSULS OF SPAIN AND PORTUGAL, LIBELLANTS (23 U.S. 66) has decision date 1825-03-25 instead of SCOTUS date 1825-03-15
 warning: HUGH BOYLE, PLAINTIFF IN ERROR v. ZACHARIE AND TURNER, DEFENDANTS IN ERROR (31 U.S. 348) has decision date 1832-02-01 instead of SCOTUS date 1832-01
 warning: CHARLES B. DUFAU, PLAINTIFF IN ERROR v. JEAN HENRY COUPREY'S HEIRS, DEFENDANTS IN ERROR (31 U.S. 170) has decision date 1832-02-03 instead of SCOTUS date 1831-02-03
-warning: ELIZA BROWN, APPELLANT v. FRANCES SWANN, ADMINISTRATRIX OF WILLIAM T. SWANN, DECEASED, AND RICHARD B. ALEXANDER (34 U.S. 1): decision date 1835-01-14 lies within court Marshall 10 (410) but naturalCourt is different (409)
 warning: THE LIFE AND FIRE INSURANCE COMPANY OF NEW YORK v. CHRISTOPHER ADAMS (34 U.S. 571) has decision date 1835-01-01 instead of SCOTUS date 1835-01
 warning: THE UNITED STATES, APPELLANTS v. GEORGE J. F. CLARKE (34 U.S. 168) has decision date 1835-03-14 instead of SCOTUS date 1834-03-14
-warning: THE UNITED STATES, APPELLANTS v. GEORGE J. F. CLARKE (34 U.S. 168): decision date 1834-03-14 lies within court Marshall 9 (409) but naturalCourt is different (410)
 warning: UNITED STATES, APPELLANTS v. ANTONIO HUERTAS (34 U.S. 171) has decision date 1835-03-14 instead of SCOTUS date 1834-03-14
-warning: UNITED STATES, APPELLANTS v. ANTONIO HUERTAS (34 U.S. 171): decision date 1834-03-14 lies within court Marshall 9 (409) but naturalCourt is different (410)
 warning: JOHN HAGAN, PLAINTIFF IN ERROR v. THOMAS J. FOISON (35 U.S. 160) has decision date 1836-02-26 instead of SCOTUS date 1836-01
 warning: ex parte BARRY (43 U.S. 65) has decision date 1844-01-01 instead of SCOTUS date 1844-01
 warning: FRANCOIS FENELON VIDAL, JOHN F. GIRARD, AND OTHERS, CITIZENS AND SUBJECTS OF THE MONARCHY OF FRANCE, AND HENRY STUMP, COMPLAINANTS AND APPELLANTS, v. THE MAYOR, ALDERMEN, AND CITIZENS OF PHILADELPHIA, THE EXECUTORS OF STEPHEN GIRARD, AND OTHER (43 U.S. 127) has decision date 1844-02-27 instead of SCOTUS date 1843-01-30
-warning: JAMES BROWN, PLAINTIFF IN ERROR, v. JOHN CLARKE, DEFENDANT (45 U.S. 4): decision date 1846-01-12 lies within court Taney 7 (507) but naturalCourt is different (505)
 warning: THE PRESIDENT, DIRECTORS, AND COMPANY OF THE COMMERCIAL BANK OF CINCINNATI, PLAINTIFFS IN ERROR, v. EUNICE BUCKINGHAM'S EXECUTORS, DEFENDANTS IN ERROR (46 U.S. 317) has decision date 1847-03-15 instead of SCOTUS date 1847-03-05
 warning: PASSENGER CASES: GEORGE SMITH, PLAINTIFF IN ERROR. v. WILLIAM TURNER, HEALTH-COMMISSIONER OF THE PORT OF NEW YORK (48 U.S. 283) has decision date 1849-02-07 instead of SCOTUS date 1845-12-09
-warning: PASSENGER CASES: GEORGE SMITH, PLAINTIFF IN ERROR. v. WILLIAM TURNER, HEALTH-COMMISSIONER OF THE PORT OF NEW YORK (48 U.S. 283): decision date 1845-12-09 lies within court Taney 7 (507) but naturalCourt is different (508)
 warning: UNITED STATES v. CARRERE (154 U.S. 532) has unusual decision day: Sunday, April 3, 1853
 warning: ENOCH C. ROBERTS, PLAINTIFF IN ERROR, v. JAMES M. COOPER (60 U.S. 373) has decision date 1857-03-05 instead of SCOTUS date 1856-12
 warning: AUGUSTUS HEMMENWAY, CLAIMANT OF THE SHIP INDEPENDENCE, v. WILLIAM B. FISHER (61 U.S. 255) has decision date 1858-12-24 instead of SCOTUS date 1857-12-24
-warning: AUGUSTUS HEMMENWAY, CLAIMANT OF THE SHIP INDEPENDENCE, v. WILLIAM B. FISHER (61 U.S. 255): decision date 1857-12-24 lies within court Taney 10 (510) but naturalCourt is different (511)
 warning: THE UNITED STATES, APPELLANTS, v. CHARLES FOSSATT (62 U.S. 445) has decision date 1859-02-28 instead of SCOTUS date 1859-03-11
-warning: THE UNITED STATES, APPELLANTS, v. CHARLES FOSSATT (62 U.S. 445) is duplicated (compare 1858-054 to 1858-069)
-warning: RICE VS. RAILROAD COMPANY (66 U.S. 358): decision date 1862-03-03 lies within court Taney 12 (512) but naturalCourt is different (511)
+warning: THE UNITED STATES, APPELLANTS, v. CHARLES FOSSATT (62 U.S. 445) may be duplicated (compare 1858-054 to 1858-069)
 warning: HOGG VS. RUFFNER (66 U.S. 115) has decision date 1862-12-23 instead of SCOTUS date 1861-12-23
-warning: HOGG VS. RUFFNER (66 U.S. 115): decision date 1861-12-23 lies within court Taney 11 (511) but naturalCourt is different (514)
 warning: BRONSON v. RAILROAD COMPANY (67 U.S. 524) has decision date 1863-03-02 instead of SCOTUS date 1863-02-16
 warning: THE CORNELIUS (70 U.S. 214) has decision date 1866-01-26 instead of SCOTUS date 1866-01-29
-warning: MERRIAM v. HAAS (70 U.S. 687): decision date 1864-02-23 lies within court Taney 15 (515) but naturalCourt is different (601)
 warning: LITCHFIELD v. RAILROAD COMPANY (74 U.S. 270) has decision date 1869-02-25 instead of SCOTUS date 1869-02-15
 warning: REESIDE v. UNITED STATES (75 U.S. 38) has decision date 1869-04-25 instead of SCOTUS date 1869-04-15
-warning: UNITED STATES v. ASHER AYRES (76 U.S. 608): decision date 1870-04-18 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE GRAPESHOT (76 U.S. 129): decision date 1870-03-14 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: LATHAM'S AND DEMING'S APPEALS (76 U.S. 145): decision date 1870-04-20 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: BONNER v. UNITED STATES (76 U.S. 156): decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: FRISBIE v. WHITNEY (76 U.S. 187): decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: LINTHICUM v. RAY (76 U.S. 241): decision date 1870-03-14 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE JUSTICES v. MURRAY (76 U.S. 274): decision date 1870-03-14 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: BURNETT v. CALDWELL (76 U.S. 290): decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: LOBRANO v. NELLIGAN (76 U.S. 295): decision date 1870-03-28 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: LYNCH et al. v. BERNAL et al. (76 U.S. 315): decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: BENNETT v. HUNTER (76 U.S. 326): decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: BIGELOW v. FORREST (76 U.S. 339): decision date 1870-03-28 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: NATIONAL BANK v. COMMONWEALTH (76 U.S. 353): decision date 1870-03-28 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: JONES v. BOLLES (76 U.S. 364): decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: MEPHAMS v. BIESSEL (76 U.S. 370): decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: BANK OF WASHINGTON v. NOCK (76 U.S. 373): decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: BUSHNELL v. KENNEDY (76 U.S. 387): decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: NOONAN v. BRADLEY (76 U.S. 394): decision date 1870-04-18 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE MAYOR v. LORD (76 U.S. 409): decision date 1870-03-28 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE SUPERVISORS v. DURANT (76 U.S. 415): decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE FAIRBANKS (76 U.S. 420): decision date 1870-03-28 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: FLANDERS v. TWEED (76 U.S. 425): decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: UNITED STATES v. HOSMER (76 U.S. 432): decision date 1870-03-14 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE MAGGIE HAMMOND (76 U.S. 435): decision date 1870-04-25 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE PHOENIX INSURANCE COMPANY v. JOHN G. COPELIN (76 U.S. 461): decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: LIONBERGER v. ROUSE (76 U.S. 468): decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE CITY v. LAMSON (76 U.S. 477): decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: HOE et al. v. WILSON (76 U.S. 501): decision date 1870-04-18 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE NONESUCH (76 U.S. 504): decision date 1870-03-14 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE GRAY EAGLE (76 U.S. 505): decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE WASHINGTON AND THE GREGORY (76 U.S. 513): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE KEOKUK (76 U.S. 517): decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE ALLEGHANY (76 U.S. 522): decision date 1870-04-25 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE NORTHERN BELLE (76 U.S. 526): decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: UNITED STATES v. PADELFORD (76 U.S. 531): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: MICHIGAN BANK v. ELDRED (76 U.S. 544): decision date 1870-04-18 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE ASSESSORS v. OSBORNES (76 U.S. 567): decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: LITCHFIELD v. THE REGISTER AND RECEIVER (76 U.S. 575): decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THOMSON v. PACIFIC RAILROAD (76 U.S. 579): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: MERRYMAN v. BOURNE et al. (76 U.S. 592): decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: ex parte MORRIS AND JOHNSON (76 U.S. 605): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: UNITED STATES v. MERRILL (76 U.S. 614): decision date 1870-03-14 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: IRVINE v. IRVINE (76 U.S. 617): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE CORSICA (76 U.S. 630): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: CITY OF PARIS (76 U.S. 634): decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE SUFFOLK COUNTY (76 U.S. 651): decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: GREEN v. UNITED STATES (76 U.S. 655): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: DOWNHAM v. ALEXANDRIA (76 U.S. 659): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: UNITED STATES v. ADAMS (76 U.S. 661): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: HERNDON v. HOWARD (76 U.S. 664): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE QUICKSTEP (76 U.S. 665): decision date 1870-04-18 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE SYRACUSE (76 U.S. 672): decision date 1870-04-25 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: INSURANCE COMPANY v. WEIDE (76 U.S. 677): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE PORTSMOUTH (76 U.S. 682): decision date 1870-04-11 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE PROTECTOR (76 U.S. 687): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: MEADE v. UNITED STATES (76 U.S. 691): decision date 1870-03-21 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: CHICAGO v. GREER (76 U.S. 726): decision date 1870-04-18 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: SUPERVISORS v. DURANT (76 U.S. 736): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: WISE v. ALLIS (76 U.S. 737): decision date 1870-04-25 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: WALKER v. WALKER'S EXECUTOR (76 U.S. 743): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: THE STEAMBOAT JAMES GUY, HER TACKLE, ETC., WILLIAM J. HEALY, CLAIMANT v. YOUNG TALL (76 U.S. 758): decision date 1870-03-28 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: WATKINS v. UNITED STATES (76 U.S. 759): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: BUTLER v. MAPLES (76 U.S. 766): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: GLEASON v. FLORIDA (76 U.S. 779): decision date 1870-04-04 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: CARPENTER v. WILLIAMS (76 U.S. 785): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: PIERCE v. COX (76 U.S. 786): decision date 1870-04-25 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: BOURNE v. GOODYEAR (76 U.S. 811): decision date 1870-04-25 lies within court Chase 2 (602) but naturalCourt is different (601)
-warning: BISCHOFF v. WETHERED (76 U.S. 812): decision date 1870-04-30 lies within court Chase 2 (602) but naturalCourt is different (601)
 warning: BOYLAN v. UNITED STATES (77 U.S. 58) has decision date 1870-03-18 instead of SCOTUS date 1870-03-28
-warning: THE STATE OF TEXAS v. GEORGE W. WHITE, JOHN CHILES, ET AL (131 U.S. xcv): decision date 1870-02-07 lies within court Chase 1 (601) but naturalCourt is different (602)
 warning: A.B. WOOD v. DE FORREST RICHARDS (131 U.S. xcviii) has unusual decision day: Saturday, April 30, 1870
 warning: WILLIAM S. GODBE v. TOOTLE ET AL (154 U.S. 576) has unusual decision day: Saturday, April 30, 1870
 warning: O.B. LATHAM et al.v. UNITED STATES (76 U.S. 146) has decision date 1870-04-20 instead of SCOTUS date 1870-02-21
-warning: O.B. LATHAM et al.v. UNITED STATES (76 U.S. 146): decision date 1870-02-21 lies within court Chase 1 (601) but naturalCourt is different (602)
 warning: JONATHAN C. STURTEVANT v. JOHN M. HERNDON (154 U.S. 575) has unusual decision day: Saturday, April 30, 1870
 warning: ISSAC UNDERHILL v. JOHN M. HERNDON (154 U.S. 574) has unusual decision day: Saturday, April 30, 1870
 warning: ENOCH LONG, ABEL STURTEVANT AND JOHN ROBINSON v. PEGGY F. PATTON (154 U.S. 573) has unusual decision day: Saturday, April 30, 1870
 warning: ISSAC UNDERHILL v. PEGGY F. PATTON (154 U.S. 575) has unusual decision day: Saturday, April 30, 1870
 warning: HARTFORD FIRE INSURANCE COMPANY v. ISSAC VAN DUZER (76 U.S. 784n) has decision date 1870-04-30 instead of SCOTUS date 1870-04-25
-warning: CASE OF THE STATE TAX ON FOREIGN-HELD BONDS. RAILROAD COMPANY v. PENNSYLVANIA (82 U.S. 300): decision date 1873-03-10 lies within court Chase 3 (603) but naturalCourt is different (602)
-warning: CHICAGO AND ALTON RAILROAD v. WIGGINS FERRY COMPANY (119 U.S. 615): decision date 1887-01-10 lies within court Waite 6 (706) but naturalCourt is different (701)
-warning: LOUISIANA v. NEW ORLEANS (103 U.S. 521): decision date 1881-03-14 lies within court Waite 3 (703) but naturalCourt is different (702)
 warning: ex parte PERRY (102 U.S. 183) has decision date 1880-11-24 instead of SCOTUS date 1879-11-24
-warning: WORLEY v. TOBACCO COMPANY (104 U.S. 340): decision date 1882-01-16 lies within court Waite 5 (705) but naturalCourt is different (703)
-warning: DUGGER v. BOCOCK (104 U.S. 596): decision date 1882-01-16 lies within court Waite 5 (705) but naturalCourt is different (703)
-warning: HINCKLEY v. MORTON (103 U.S. 764) is duplicated (compare 1880-142 to 1880-234)
+warning: HINCKLEY v. MORTON (103 U.S. 764) may be duplicated (compare 1880-142 to 1880-234)
 warning: HINCKLEY v. MORTON (103 U.S. 764) has decision date 1881-05-02 instead of SCOTUS date 1881-03-21
 warning: BENNECKE v. INSURANCE COMPANY (105 U.S. 355) has decision date 1882-03-31 instead of SCOTUS date 1882-03-13
 warning: STEBBINS v. DUNCAN AND OTHERS (108 U.S. 32) has unusual decision day: Sunday, October 1, 1882
@@ -166,11 +62,8 @@ warning: HARDIN, ADMINISTRATRIX, &amp; OTHERS v. BOYD, ADMINISTRATOR, &amp; OTHE
 warning: UNITED STATES v. ALABAMA (123 U.S. 39) has unusual decision day: Saturday, October 1, 1887
 warning: RUGGLES v. MANISTEE RIVER IMPROVEMENT CO (123 U.S. 297) has unusual decision day: Saturday, October 1, 1887
 warning: ANDREWS v. CONE (124 U.S. 720) has unusual decision day: Saturday, October 1, 1887
-warning: CURRIE, MAYOR, v. UNITED STATESS EX REL. JACOBS (129 U.S. 44): decision date 1889-01-07 lies within court Fuller 1 (801) but naturalCourt is different (707)
 warning: ISAACS v. JONAS (148 U.S. 648) has unusual decision day: Sunday, April 10, 1892
-warning: BALTIMORE AND OHIO RAILROAD COMPANY v. BAUGH (149 U.S. 368): decision date 1894-05-01 lies within court Fuller 6 (806) but naturalCourt is different (805)
 warning: WESTERN NATIONAL BANK v. ARMSTRONG (152 U.S. 346) has unusual decision day: Sunday, March 12, 1893
-warning: WESTERN NATIONAL BANK v. ARMSTRONG (152 U.S. 346): decision date 1893-03-12 lies within court Fuller 5 (805) but naturalCourt is different (804)
 warning: DOWER v. RICHARDS (151 U.S. 658) has unusual decision day: Sunday, February 4, 1894
 warning: LOUISVILLE, EVANSVILLE, AND ST. LOUIS RAILROAD COMPANY v. CLARKE (152 U.S. 230) has unusual decision day: Sunday, March 4, 1894
 warning: LOUD v. POMONA LAND AND WATER COMPANY (153 U.S. 564) has unusual decision day: Saturday, May 19, 1894
@@ -204,258 +97,12 @@ warning: INTERSTATE COMMERCE COMMISSION v. BRIMSON (154 U.S. 447) has unusual de
 warning: CHARLEY SMITH v. MISSISSIPPI (162 U.S. 592) has unusual decision day: Saturday, April 18, 1896
 warning: WILLIAMS v. PAINE (169 U.S. 55) has unusual decision day: Sunday, January 10, 1897
 warning: THE TERRITORY OF NEW MEXICO v. THE UNITED STATES TRUST COMPANY OF NEW YORK et al. (172 U.S. 186) has unusual decision day: Saturday, October 1, 1898
-warning: STEWART v. WASHINGTONN AND ALASKA STEAMSHIP COMPANY (187 U.S. 466): decision date 1903-01-05 lies within court Fuller 9 (809) but naturalCourt is different (808)
-warning: HELVERING, COMMISSIONER OF INTERNAL REVENUE v. LERNER STORES CORP. (MD.) (314 U.S. 463): decision date 1941-12-22 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: BALTIMORE &amp; OHIO RAILROAD CO. v. KEPNER (314 U.S. 44): decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: GRAY, DIRECTOR OF THE BITUMINOUS COAL DIVISION OF THE DEPARTMENT OF THE INTERIOR, et al. v. POWELL et al., RECEIVER (314 U.S. 402): decision date 1941-12-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: BRIDGES v. CALIFORNIA (314 U.S. 252): decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: AMERICAN SURETY COMPANY OF NEW YORK v. BETHLEHEM NATIONAL BANK et al. (314 U.S. 314): decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: TOUCEY v. NEW YORK LIFE INSURANCE CO. (314 U.S. 118): decision date 1941-11-17 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: INDIANAPOLIS et al. v. CHASE NATIONAL BANK, TRUSTEE, et al. (314 U.S. 63): decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. KANSAS FLOUR MILLS CORPORATION (314 U.S. 212): decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: ALABAMA v. KING &amp; BOOZER, A PARTNERSHIP, et al. (314 U.S. 1): decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: CURRY, COMMISSIONER OF REVENUE OF ALABAMA, v. UNITED STATES et al. (314 U.S. 14): decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PARKER, DEPUTY COMMISSIONER, UNITED STATES EMPLOYEES' COMPENSATION COMMISSION, v. MOTOR BOAT SALES, INC. (314 U.S. 244): decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: COMMERCIAL MOLASSES CORP. v. NEW YORK TANK BARGE CORP. (314 U.S. 104): decision date 1941-11-17 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: FEDERAL LAND BANK OF ST. PAUL v. BISMARCK LUMBER CO. et al. (314 U.S. 95): decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. EMORY et al. (314 U.S. 423): decision date 1941-12-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: NEW YORK, CHICAGO &amp; ST. LOUIS RAILROAD CO. v. FRANK (314 U.S. 360): decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES, AS GUARDIAN OF THE HUALPAI INDIANS OF ARIZONA, v. SANTA FE PACIFIC RAILROAD CO. (314 U.S. 339): decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: NATIONAL LABOR RELATIONS BOARD v. VIRGINIA ELECTRIC &amp; POWER CO. (314 U.S. 469): decision date 1941-12-22 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. TEXAS et al. (314 U.S. 480): decision date 1941-12-22 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PIERCE v. UNITED STATES (314 U.S. 306): decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: EDWARDS v. CALIFORNIA (314 U.S. 160): decision date 1941-11-24 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: BERNARDS et al. v. JOHNSON et al. (314 U.S. 19): decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: REITZ v. MEALEY, COMMISSIONER OF MOTOR VEHICLES OF THE STATE OF NEW YORK (314 U.S. 33): decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: DISTRICT OF COLUMBIA v. MURPHY (314 U.S. 441): decision date 1941-12-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: CUNO ENGINEERING CORP. v. AUTOMATIC DEVICES CORP. (314 U.S. 84): decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SCAIFE COMPANY v. COMMISSIONER OF INTERNAL REVENUE (314 U.S. 459): decision date 1941-12-22 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: AUTOMATIC DEVICES CORP. v. SINKO TOOL &amp; MANUFACTURING CO. (314 U.S. 94): decision date 1941-11-10 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: DUCKWORTH v. ARKANSAS (314 U.S. 390): decision date 1941-12-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. KALES (314 U.S. 186): decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PINK, SUPERINTENDENT OF INSURANCE OF THE STATE OF NEW YORK, v. A. A. A. HIGHWAY EXPRESS, INC. et al. (314 U.S. 201): decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: LISENBA v. CALIFORNIA (314 U.S. 219): decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: TEXTILE MILLS SECURITIES CORP. v. COMMISSIONER OF INTERNAL REVENUE (314 U.S. 326): decision date 1941-12-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SOUTHERN RAILWAY CO. v. PAINTER, ADMINISTRATRIX (314 U.S. 155): decision date 1941-11-17 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: CONTINENTAL CASUALTY CO. et al. v. UNITED STATES (314 U.S. 527): decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: IRVING TRUST CO. et al., EXECUTORS, et al. v. DAY, EXECUTOR (314 U.S. 556): decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SOUTHERN STEAMSHIP CO. v. NATIONAL LABOR RELATIONS BOARD et al. (316 U.S. 31): decision date 1942-04-06 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: CUDAHY PACKING CO., LTD. v. HOLLAND, ADMINISTRATOR OF THE WAGE AND HOUR DIVISION, U.S. DEPARTMENT OF LABOR (315 U.S. 357): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WILLIAMS et al. v. JACKSONVILLE TERMINAL CO. (315 U.S. 386): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES TO THE USE OF NOLAND COMPANY, INC. v. IRWIN et al., TRADING AS IRWIN &amp; LEIGHTON, et al. (316 U.S. 23): decision date 1942-04-06 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. BETHLEHEM STEEL CORPORATIONN et al. (315 U.S. 289): decision date 1942-02-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: CLOVERLEAF BUTTER CO. v. PATTERSON, COMMISSIONER OF AGRICULTURE AND INDUSTRIES OF ALABAMA, et al. (315 U.S. 148): decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: STEWART et al. v. UNITED STATES (316 U.S. 354): decision date 1942-05-25 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. PINK, SUPERINTENDENT OF INSURANCE OF THE STATE OF NEW YORK, et al. (315 U.S. 203): decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: FEDERAL POWER COMMISSION et al. v. NATURAL GAS PIPELINE CO. et al. (315 U.S. 575): decision date 1942-03-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: GREAT NORTHERN RAILWAY CO. v. UNITED STATES (315 U.S. 262): decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: D'OENCH, DUHME &amp; CO., INC. v. FEDERAL DEPOSIT INSURANCE CORPORATION (315 U.S. 447): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SCRIPPS-HOWARD RADIO, INC. v. FEDERAL COMMUNICATIONS COMMISSION (316 U.S. 4): decision date 1942-04-06 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: INTERSTATE COMMERCE COMMISSION et al. v. RAILWAY LABOR EXECUTIVES ASSN. et al. (315 U.S. 373): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: GREGG CARTAGE &amp; STORAGE CO. et al. v. UNITED STATES et al. (316 U.S. 74): decision date 1942-04-13 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: NORTHERN PACIFIC RAILWAY CO. et al. v. UNITED STATES et al. (316 U.S. 346): decision date 1942-05-25 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PEYTON v. RAILWAY EXPRESS AGENCY, INC. et al. (316 U.S. 350): decision date 1942-05-25 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SWIFT &amp; CO. et al. v. UNITED STATES et al. (316 U.S. 216): decision date 1942-05-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: CRANCER et al., DOING BUSINESS AS VALLEY STEEL PRODUCTS CO. et al., v. LOWDEN et al., TRUSTEE (315 U.S. 631): decision date 1942-03-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PURCELL et al., CONSTITUTING THE PUBLIC SERVICE COMMISSION OF MARYLAND, et al. v. UNITED STATES et al. (315 U.S. 381): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES et al. v. CAROLINA FREIGHT CARRIERS CORP. (315 U.S. 475): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HOWARD HALL CO., INC. v. UNITED STATES et al. (315 U.S. 495): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES et al. v. N. E. ROSENBLUM TRUCK LINES, INC. (315 U.S. 50): decision date 1942-01-19 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: LUBETICH, DOING BUSINESS AS PACIFIC REFRIGERATED MOTOR LINE, v. UNITED STATES et al. (315 U.S. 57): decision date 1942-01-19 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: ALTON RAILROAD CO. et al. v. UNITED STATES et al. (315 U.S. 15): decision date 1942-01-12 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: BOARD OF TRADE OF KANSAS CITY et al. v. UNITED STATES et al. (314 U.S. 534): decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: OVERNIGHT MOTOR TRANSPORTATION CO., INC. v. MISSEL (316 U.S. 572): decision date 1942-06-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WALLING, ADMINISTRATOR OF THE WAGE AND HOUR DIVISION, U.S. DEPARTMENT OF LABOR, v. A. H. BELO CORPORATION (316 U.S. 624): decision date 1942-06-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. CEMENT INVESTORS, INC. (316 U.S. 527): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: COLUMBIA BROADCASTING SYSTEM, INC. v. UNITED STATES et al. (316 U.S. 407): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: FAITOUTE IRON &amp; STEEL CO. et al. v. CITY OF ASBURY PARK (316 U.S. 502): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: A. B. KIRSCHBAUM CO. v. WALLING, ADMINISTRATOR OF THE WAGE &amp; HOUR DIVISION, U.S. DEPARTMENT OF LABOR (316 U.S. 517): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MAGRUDER, COLLECTOR OF INTERNAL REVENUE, v. SUPPLEE ET UX. (316 U.S. 394): decision date 1942-05-25 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. NUNNALLY INVESTMENT CO. (316 U.S. 258): decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SIOUX TRIBE OF INDIANS v. UNITED STATES (316 U.S. 317): decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PRUDENCE REALIZATION CORP. v. GEIST, TRUSTEE (316 U.S. 89): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: NATIONAL LABOR RELATIONS BOARD v. NEVADA CONSOLIDATED COPPER CORP. (316 U.S. 105): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: GOLDMAN v. UNITED STATES (316 U.S. 129): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: NATIONAL LABOR RELATIONS BOARD v. ELECTRIC VACUUM CLEANER CO., INC., et al. (315 U.S. 685): decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: CARPENTERS &amp; JOINERS UNION OF AMERICA, LOCAL NO. 213, et al. v. RITTER'S CAFE et al. (315 U.S. 722): decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: ALLEN-BRADLEY LOCAL NO. 1111, UNITED ELECTRICAL, RADIO &amp; MACHINE WORKERS OF AMERICA, et al. v. WISCONSIN EMPLOYMENT RELATIONS BOARD et al. (315 U.S. 740): decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: BAKERY &amp; PASTRY DRIVERS &amp; HELPERS LOCAL 802 OF THE INTERNATIONAL BROTHERHOOD OF TEAMSTERS et al. v. WOHL et al. (315 U.S. 769): decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. NEW YORK (315 U.S. 510): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HOTEL &amp; RESTAURANT EMPLOYEES' INTERNATIONAL ALLIANCE, LOCAL NO. 122, et al. v. WISCONSIN EMPLOYMENT RELATIONS BOARD et al. (315 U.S. 437): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. LOCAL 807 OF INTERNATIONAL BROTHERHOOD OF TEAMSTERS, CHAUFFEURS, STABLEMEN &amp; HELPERS OF AMERICA et al. (315 U.S. 521): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: NATIONAL LABOR RELATIONS BOARD v. AUTOMOTIVE MAINTENANCE MACHINERY CO. (315 U.S. 282): decision date 1942-02-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. ALABAMA ASPHALTIC LIMESTONE CO. (315 U.S. 179): decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. WRIGHTWOOD DAIRY CO. (315 U.S. 110): decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WRIGHT et al. v. LOGAN et al. (315 U.S. 139): decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: COLUMBIA RIVER PACKERS ASSOCIATION, INC. v. HINTON et al. (315 U.S. 143): decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SOUTHPORT PETROLEUM CO. v. NATIONAL LABOR RELATIONS BOARD (315 U.S. 100): decision date 1942-01-19 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: ILLINOIS NATURAL GAS CO. v. CENTRAL ILLINOIS PUBLIC SERVICE CO. et al. (314 U.S. 498): decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: NATIONAL LABOR RELATIONS BOARD v. P. LORILLARD CO. (314 U.S. 512): decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: FISCHER, COMMISSIONER OF INSURANCE OF IOWA, RECEIVER, v. AMERICAN UNITED LIFE INSURANCE CO. et al. (314 U.S. 549): decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MEILINK, TRUSTEE IN BANKRUPTCY, v. UNEMPLOYMENT RESERVES COMMISSION OF CALIFORNIA (314 U.S. 564): decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: THOMSON, TRUSTEE OF CHICAGO &amp; NORTHWESTERN RAILWAY CO., et al. v. GASKILL et al. (315 U.S. 442): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. RAGEN (314 U.S. 513): decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MAGRUDER, COLLECTOR OF INTERNAL REVENUE, v. WASHINGTONN, BALTIMORE &amp; ANNAPOLIS REALTY CORP. (316 U.S. 69): decision date 1942-04-13 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: ex parte DON ASCANIO COLONNA (314 U.S. 510): decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: CHRYSLER CORPORATIONN et al. v. UNITED STATES (316 U.S. 556): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WILLIAMS MANUFACTURING CO. v. UNITED SHOE MACHINERY CORP. (316 U.S. 364): decision date 1942-05-25 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MISHAWAKA RUBBER &amp; WOOLEN MANUFACTURING CO. v. S. S. KRESGE CO. (316 U.S. 203): decision date 1942-05-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MILCOR STEEL CO. v. GEORGE A. FULLER CO. et al. (316 U.S. 143): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: GEORGIA v. EVANS et al. (316 U.S. 159): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PECHEUR LOZENGE CO., INC. v. NATIONAL CANDY CO., INC. (315 U.S. 666): decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: U.S. INDUSTRIAL CHEMICALS, INC. v. CARBIDE &amp; CARBON CHEMICALS CORP. (315 U.S. 668): decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MUNCIE GEAR WORKS, INC. et al. v. OUTBOARD, MARINE &amp; MANUFACTURING CO. et al. (315 U.S. 759): decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: STONITE PRODUCTS CO. v. MELVIN LLOYD CO. et al. (315 U.S. 561): decision date 1942-03-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PALM SPRINGS HOLDING CORPORATIONN v. COMMISSIONER OF INTERNAL REVENUE (315 U.S. 185): decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: BONDHOLDERS COMMITTEE, MARLBOROUGH INVESTMENT CO., FIRST MORTGAGE BONDS, v. COMMISSIONER OF INTERNAL REVENUE (315 U.S. 189): decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. SOUTHWEST CONSOLIDATED CORP. (315 U.S. 194): decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WHITE et al., FORMER COLLECTORS OF INTERNAL REVENUE, v. WINCHESTER COUNTRY CLUB (315 U.S. 32): decision date 1942-01-12 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. MASONITE CORPORATIONN et al. (316 U.S. 265): decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. UNIVIS LENS CO., INC. et al. (316 U.S. 241): decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MORTON SALT CO. v. G. S. SUPPIGER CO. (314 U.S. 488): decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: B. B. CHEMICAL CO. v. ELLIS et al. (314 U.S. 495): decision date 1942-01-05 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: JACOB v. NEW YORK CITY (315 U.S. 752): decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: JONES v. OPELIKA (316 U.S. 584): decision date 1942-06-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HILL v. TEXAS (316 U.S. 400): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: NATIONAL BROADCASTING CO., INC., et al. v. UNITED STATES et al. (316 U.S. 447): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: AMERICAN CHICLE CO. v. UNITED STATES (316 U.S. 450): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: BETTS v. BRADY, WARDEN (316 U.S. 455): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: STANDARD OIL COMPANY OF CALIFORNIA v. JOHNSON, TREASURER OF CALIFORNIA (316 U.S. 481): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: QUERY et al., CONSTITUTING THE SOUTH CAROLINA TAX COMMISSION, v. UNITED STATES et al. (316 U.S. 486): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: BRILLHART, ADMINISTRATOR, v. EXCESS INSURANCE COMPANY OF AMERICA (316 U.S. 491): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SKINNER v. OKLAHOMA EX REL. WILLIAMSON, ATTORNEY GENERAL (316 U.S. 535): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WARD v. TEXAS (316 U.S. 547): decision date 1942-06-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES ex rel. COY v. UNITED STATES et al. (316 U.S. 342): decision date 1942-05-25 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: COCHRAN v. KANSAS et al. (316 U.S. 255): decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: REEVES v. BEARDALL, EXECUTOR (316 U.S. 283): decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SEMINOLE NATION v. UNITED STATES (316 U.S. 286): decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SEMINOLE NATION v. UNITED STATES (316 U.S. 310): decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PENCE v. UNITED STATES (316 U.S. 332): decision date 1942-05-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. CITIZENS LOAN &amp; TRUST CO., ADMINISTRATOR (316 U.S. 209): decision date 1942-05-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: GORMAN, CITY TREASURER OF KANSAS CITY, et al. v. WASHINGTON UNIVERSITY (316 U.S. 98): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WALEY v. JOHNSTON, WARDEN (316 U.S. 101): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. CREDIT ALLIANCE CORP. (316 U.S. 107): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: GOLDSTEIN et al. v. UNITED STATES (316 U.S. 114): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: FEDERAL TRADE COMMISSION v. RALADAM COMPANY (316 U.S. 149): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MUNICIPAL INVESTORS ASSOCIATION v. BIRMINGHAM et al. (316 U.S. 153): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WILMINGTON TRUST CO., EXECUTOR, v. HELVERING, COMMISSIONER OF INTERNAL REVENUE (316 U.S. 164): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: CHICAGO et al. v. FIELDCREST DAIRIES, INC. (316 U.S. 168): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: STATE TAX COMMISSION OF UTAH v. ALDRICH et al., ADMINISTRATOR (316 U.S. 174): decision date 1942-04-27 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: VALENTINE, POLICE COMMISSIONER OF THE CITY OF NEW YORK, v. CHRESTENSEN (316 U.S. 52): decision date 1942-04-13 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. SAFE DEPOSIT &amp; TRUST CO. OF BALTIMORE, TRUSTEE, et al. (316 U.S. 56): decision date 1942-04-13 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. MALPHURS et al. (316 U.S. 1): decision date 1942-04-06 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MEMPHIS NATURAL GAS CO. v. BEELER, ATTORNEY GENERAL OF TENNESSEE, et al. (315 U.S. 649): decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: GRAVES et al., CONSTITUTING THE STATE TAX COMMISSION OF NEW YORK, v. SCHMIDLAPP et al., EXECUTOR (315 U.S. 657): decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: TULEE v. STATE OF WASHINGTON (315 U.S. 681): decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MILES et al. v. ILLINOIS CENTRAL RAILROAD CO. (315 U.S. 698): decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PUERTO RICO v. RUSSELL &amp; CO., S. EN C. (315 U.S. 610): decision date 1942-03-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SPRECKELS v. COMMISSIONER OF INTERNAL REVENUE (315 U.S. 626): decision date 1942-03-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PUERTO RICO v. RUBERT HERMANOS, INC. et al. (315 U.S. 637): decision date 1942-03-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PEARCE v. COMMISSIONER OF INTERNAL REVENUE (315 U.S. 543): decision date 1942-03-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: CHAPLINSKY v. NEW HAMPSHIRE (315 U.S. 568): decision date 1942-03-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HYSLER v. FLORIDA (315 U.S. 411): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: BUTLER BROTHERS v. MCCOLGAN, FRANCHISE TAX COMMISSIONER OF CALIFORNIA (315 U.S. 501): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MACGREGOR, EXECUTOR, v. STATE MUTUAL LIFE ASSURANCE CO. (315 U.S. 280): decision date 1942-02-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: STEWART, ADMINISTRATOR, v. SOUTHERN RAILWAY CO. (315 U.S. 283): decision date 1942-02-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: RILEY et al., EXECUTORS, v. NEW YORK TRUST CO., ADMINISTRATOR, et al. (315 U.S. 343): decision date 1942-02-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: EXHIBIT SUPPLY CO. v. ACE PATENTS CORPORATION (315 U.S. 126): decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: YOUNG v. UNITED STATES (315 U.S. 257): decision date 1942-02-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. JOLIET &amp; CHICAGO RAILROAD CO. (315 U.S. 44): decision date 1942-01-19 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: GLASSER v. UNITED STATES (315 U.S. 60): decision date 1942-01-19 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HALLIDAY v. UNITED STATES (315 U.S. 94): decision date 1942-01-19 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: DUNCAN v. THOMPSON, TRUSTEE (315 U.S. 1): decision date 1942-01-12 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: Ex parte TEXAS et al. (315 U.S. 8): decision date 1942-01-12 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: TAYLOR v. GEORGIA (315 U.S. 25): decision date 1942-01-12 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MERION CRICKET CLUB v. UNITED STATES (315 U.S. 42): decision date 1942-01-12 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HOLLAND v. LOWELL SUN CO. (315 U.S. 784): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: RODIEK v. UNITED STATES (315 U.S. 783): decision date 1942-03-02 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WEBER v. UNITED STATES (315 U.S. 787): decision date 1942-03-30 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SCHENECTADY UNION PUB. CO. v. SWEENEY (316 U.S. 642): decision date 1942-04-13 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: ADAMS, WARDEN, et al. v. UNITED STATES ex rel. MCCANN (317 U.S. 269): decision date 1942-12-21 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: FISHER, RECEIVER, v. WHITON, EXECUTRIX, et al. (317 U.S. 217): decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. CALLAHAN WALKER CONSTRUCTION CO. (317 U.S. 56): decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. RICE et al., RECEIVERS FOR D. C. ENGINEERING COMPANY, INC. (317 U.S. 61): decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WICKARD, SECRETARY OF AGRICULTURE, et al. v. FILBURN (317 U.S. 111): decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: ETTELSON et al. v. METROPOLITAN LIFE INSURANCE CO. (317 U.S. 188): decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MILLER v. UNITED STATES (317 U.S. 192): decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: GARRETT v. MOORE-MCCORMACK CO., INC. et al. (317 U.S. 239): decision date 1942-12-14 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: DAVIS v. DEPARTMENT OF LABOR AND INDUSTRIES OF THE STATE OF WASHINGTON (317 U.S. 249): decision date 1942-12-14 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: DEPARTMENT OF BANKING OF NEBRASKA, RECEIVER, v. PINK, SUPERINTENDENT OF INSURANCE OF THE STATE OF NEW YORK (317 U.S. 264): decision date 1942-12-21 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MANGUS et al. v. MILLER (317 U.S. 178): decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: ALBIN v. COWING PRESSURE RELIEVING JOINT CO. et al. (317 U.S. 211): decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: STATE BANK OF HARDINSBURG v. BROWN ET UX. (317 U.S. 135): decision date 1942-11-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PFISTER v. NORTHERN ILLINOIS FINANCE CORP. et al. (317 U.S. 144): decision date 1942-11-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MARINE HARBOR PROPERTIES, INC. v. MANUFACTURERS TRUST CO., TRUSTEE, et al. (317 U.S. 78): decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WARREN-BRADSHAW DRILLING CO. v. HALL, AGENT, et al. (317 U.S. 88): decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: ex parte QUIRIN et al. (317 U.S. 1): decision date 1942-07-31 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MOTHER LODE COALITION MINES CO. v. COMMISSIONER OF INTERNAL REVENUE (317 U.S. 222): decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED CARBON CO. et al. v. BINNEY &amp; SMITH CO. (317 U.S. 228): decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. R. DOUGLAS STUART (317 U.S. 154): decision date 1942-11-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. OHIO LEATHER CO. (317 U.S. 102): decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: BRAVERMAN v. UNITED STATES (317 U.S. 49): decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: RIGGS, SPECIAL GUARDIAN, v. DEL DRAGO et al. (317 U.S. 95): decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: Ex parte KUMEZO KAWATO (317 U.S. 69): decision date 1942-11-09 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SOLA ELECTRIC CO. v. JEFFERSON ELECTRIC CO. (317 U.S. 173): decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. WAYNE PUMP CO. et al. (317 U.S. 200): decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SHARPE v. BUCHANAN, WARDEN (317 U.S. 238): decision date 1942-12-14 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WILLIAMS et al. v. NORTH CAROLINA (317 U.S. 287): decision date 1942-12-21 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PYLE v. KANSAS et al. (317 U.S. 213): decision date 1942-12-07 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HUGHES v. WENDEL, COUNTY TREASURER, et al. (317 U.S. 134): decision date 1942-11-16 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HOLLEY v. LAWRENCE, WARDEN (317 U.S. 518): decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES ex rel. OSTRAGER et al. v. NEW ORLEANS CHAPTER, ASSOCIATED GENERAL CONTRACTORS, INC. et al. (317 U.S. 562): decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: NATURAL MILK PRODUCERS ASSOCIATION et al. v. CITY AND COUNTY OF SAN FRANCISCO et al. (317 U.S. 423): decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. MILLER et al. (317 U.S. 369): decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PENDERGAST v. UNITED STATES (317 U.S. 412): decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES ex rel. MARCUS et al. v. HESS et al. (317 U.S. 537): decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: BRADY, ADMINISTRATRIX, v. ROOSEVELT STEAMSHIP CO. (317 U.S. 575): decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: ENDICOTT JOHNSON CORP. et al. v. PERKINS, SECRETARY OF LABOR (317 U.S. 501): decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: C. J. HENDRY CO. et al. v. MOORE et al., AS THE FISH AND GAME COMMISSION OF CALIFORNIA (318 U.S. 133): decision date 1943-02-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: O'DONNELL v. GREAT LAKES DREDGE &amp; DOCK CO. (318 U.S. 36): decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MARSHALL, DEPUTY COMMISSIONER, U.S. EMPLOYEES' COMPENSATION COMMISSION, et al. v. PLETZ (317 U.S. 383): decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: CLYDE-MALLORY LINES v. THE EGLANTINE et al. (317 U.S. 395): decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: CORYELL et al. v. PHIPPS et al. (317 U.S. 406): decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PUBLIC UTILITIES COMMISSION OF OHIO et al. v. UNITED FUEL GAS CO. et al. (317 U.S. 456): decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: LILLY v. GRAND TRUNK WESTERN RAILROAD CO. (317 U.S. 481): decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: AMERICAN MEDICAL ASSOCIATION v. UNITED STATES (317 U.S. 519): decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WALLING, ADMINISTRATOR OF THE WAGE AND HOUR DIVISION, U.S. DEPT. OF LABOR, v. JACKSONVILLE PAPER CO. (317 U.S. 564): decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HIGGINS v. CARR BROTHERS CO. (317 U.S. 572): decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HARRIS, ADMINISTRATOR, v. ZION'S SAVINGS BANK &amp; TRUST CO. (317 U.S. 447): decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: WRAGG v. FEDERAL LAND BANK OF NEW ORLEANS (317 U.S. 325): decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: DETROIT BANK (FORMERLY DETROIT SAVINGS BANK) v. UNITED STATES (317 U.S. 329): decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MICHIGAN et al. v. UNITED STATES (317 U.S. 338): decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: KIESELBACH et ux. v. COMMISSIONER OF INTERNAL REVENUE (317 U.S. 399): decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PARKER, DIRECTOR OF AGRICULTURE, et al. v. BROWN (317 U.S. 341): decision date 1943-01-04 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: HARRISON, COLLECTOR OF INTERNAL REVENUE, v. NORTHERN TRUST CO. et al., EXECUTOR (317 U.S. 476): decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SPIES v. UNITED STATES (317 U.S. 492): decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. OKLAHOMA GAS &amp; ELECTRIC CO. (318 U.S. 206): decision date 1943-02-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. BROOKS-CALLAWAY CO. (318 U.S. 120): decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: RECONSTRUCTION FINANCE CORPORATIONN v. BANKERS TRUST CO., TRUSTEE (318 U.S. 163): decision date 1943-02-08 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: ZIFFRIN, INCORPORATED, v. UNITED STATES et al. (318 U.S. 73): decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: In re WILLIAM v. BRADLEY (318 U.S. 50): decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: TILLER, EXECUTOR, v. ATLANTIC COAST LINE RAILROAD CO. (318 U.S. 54): decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SECURITIES AND EXCHANGE COMMISSION v. CHENERY CORPORATIONN et al. (318 U.S. 80): decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: OVERSTREET et al. v. NORTH SHORE CORPORATION (318 U.S. 125): decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: TERMINAL RAILROAD ASSOCIATION OF ST. LOUIS v. BROTHERHOOD OF RAILROAD TRAINMEN et al. (318 U.S. 1): decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: NATIONAL LABOR RELATIONS BOARD v. INDIANA &amp; MICHIGAN ELECTRIC CO. et al. (318 U.S. 9): decision date 1943-01-18 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: SMITH v. SHAUGHNESSY, COLLECTOR OF INTERNAL REVENUE (318 U.S. 176): decision date 1943-02-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: ROBINETTE v. HELVERING, COMMISSIONER OF INTERNAL REVENUE (318 U.S. 184): decision date 1943-02-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: JOHNSON v. UNITED STATES (318 U.S. 189): decision date 1943-02-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: LEISHMAN v. ASSOCIATED WHOLESALE ELECTRIC CO. (318 U.S. 203): decision date 1943-02-15 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: JEROME v. UNITED STATES (318 U.S. 101): decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. MONIA et al. (317 U.S. 424): decision date 1943-01-11 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: TILESTON v. ULLMAN, STATE'S ATTORNEY, et al. (318 U.S. 44): decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: MANDEVILLE, TRUSTEE, et al. v. CANTERBURY (318 U.S. 47): decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: PALMER et al., TRUSTEES, v. HOFFMAN, ADMINISTRATOR (318 U.S. 109): decision date 1943-02-01 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. CONSUMERS PAPER CO. (317 U.S. 595): decision date 1942-10-26 lies within court Stone 1 (1201) but naturalCourt is different (1202)
-warning: UNITED STATES v. INTERNATIONAL UNION UNITED AUTOMOBILE, AIRCRAFT AND AGRICULTURAL IMPLEMENT WORKERS OF AMERICA (UAW-CIO) (352 U.S. 567): decision date 1957-03-11 lies within court Warren 5 (1405) but naturalCourt is different (1404)
-warning: CEBALLOS (Y ARBOLEDA) v. SHAUGHNESSY, DISTRICT DIRECTOR, IMMIGRATION AND NATURALIZATION SERVICE (352 U.S. 599): decision date 1957-03-11 lies within court Warren 5 (1405) but naturalCourt is different (1404)
-warning: JOHNSON v. UNITED STATES (352 U.S. 565): decision date 1957-03-04 lies within court Warren 5 (1405) but naturalCourt is different (1404)
 warning: GENERAL ELECTRIC CO. v. LOCAL 205, UNITED ELECTRICAL, RADIO AND MACHINE WORKERS OF AMERICA (U. E.) (353 U.S. 547) has decision date 1957-06-02 instead of SCOTUS date 1957-06-03
 warning: ROCKEFELLER, GOVERNOR OF NEW YORK, et al. v. WELLS et al. (389 U.S. 421) has decision date 1967-12-16 instead of SCOTUS date 1967-12-18
 warning: EPPERSON et al. v. ARKANSAS (393 U.S. 97) has decision date 1968-11-17 instead of SCOTUS date 1968-11-12
 warning: ARKANSAS v. TENNESSEE (397 U.S. 88) has decision date 1970-01-25 instead of SCOTUS date 1970-02-25
 warning: RICHARDSON, SECRETARY OF HEALTH, EDUCATION, AND WELFARE v. MORRIS et al. (409 U.S. 464) has decision date 1972-01-15 instead of SCOTUS date 1973-01-15
-warning: MISSISSIPPI v. ARKANSAS (415 U.S. 289) is duplicated (compare 1973-059 to 1973-060)
+warning: MISSISSIPPI v. ARKANSAS (415 U.S. 289) may be duplicated (compare 1973-059 to 1973-060)
 warning: UNITED STATES v. BENCHIMOL (471 U.S. 453) has decision date 1985-05-12 instead of SCOTUS date 1985-05-13
 warning: PERRY v. LEEKE, COMMISSIONER, SOUTH CAROLINA DEPARTMENT OF CORRECTIONS, et al. (488 U.S. 272) has decision date 1989-01-01 instead of SCOTUS date 1989-01-10
 warning: COUNTY OF ALLEGHENY et al. v. AMERICAN CIVIL LIBERTIES UNION, GREATER PITTSBURGH CHAPTER, et al. (492 U.S. 573) has decision date 1989-07-02 instead of SCOTUS date 1989-07-03
@@ -464,7 +111,7 @@ warning: Ex Parte Hollowell (3 U.S. 410) with SCOTUS decision date 1799-02-05 ha
 warning: New York v. Connecticut (4 U.S. 3) with SCOTUS decision date 1799-08-09 has no matching SCDB entry
 warning: Hazlehurst v. United States (4 U.S. 6) with SCOTUS decision date 1799-08-09 has no matching SCDB entry
 warning: Field v. Milton (7 U.S. 514) with SCOTUS decision date 1806-02-19 has no matching SCDB entry
-warning: Gracie v. Maryland Ins. Co (12 U.S. 84) with SCOTUS decision date 1814-02-19 has no matching SCDB entry
+warning: Gracie v. Maryland Ins. Co. (12 U.S. 84) with SCOTUS decision date 1814-02-19 has no matching SCDB entry
 warning: Bank of United States v. January (23 U.S. 66n) with SCOTUS decision date 1825-03-02 has no matching SCDB entry
 warning: Inglis v. Trustees of Sailor's Snug Harbour (28 U.S. 191) with SCOTUS decision date 1830-03-06 has no matching SCDB entry
 warning: Anonymous (28 U.S. 397) with SCOTUS decision date 1830-02-20 has no matching SCDB entry
@@ -474,7 +121,7 @@ warning: Briscoe v. Commonwealth's Bank of Kentucky (34 U.S. 85) with SCOTUS dec
 warning: Owings v. Tiernan's Lessee (35 U.S. 447) with SCOTUS decision date 1836-01-18 has no matching SCDB entry
 warning: Beall v. Lessee of Holman (41 U.S. 64) with SCOTUS decision date 1842-01-31 has no matching SCDB entry
 warning: Baldwin v. Payne (47 U.S. 332) with SCOTUS decision date 1848-03-06 has no matching SCDB entry
-warning: East Hartford v. Hartford Bridge Co (51 U.S. 541) with SCOTUS decision date 1851-01-15 has no matching SCDB entry
+warning: East Hartford v. Hartford Bridge Co. (51 U.S. 541) with SCOTUS decision date 1851-01-15 has no matching SCDB entry
 warning: McNulty v. Batty (51 U.S. 646) with SCOTUS decision date 1851-01-07 has no matching SCDB entry
 warning: Preston v. Bracken (51 U.S. 646) with SCOTUS decision date 1851-01-07 has no matching SCDB entry
 warning: Hoyt v. United States (51 U.S. 646) with SCOTUS decision date 1850-12-09 has no matching SCDB entry
@@ -485,14 +132,14 @@ warning: Hudgins v. Kemp (59 U.S. 539) with SCOTUS decision date 1856-05-14 has 
 warning: Culbertson v. Steamer Southern Bell (59 U.S. 584) with SCOTUS decision date 1856-05-12 has no matching SCDB entry
 warning: United States v. Coles (66 U.S. 62n) with SCOTUS decision date 1862-02-10 has no matching SCDB entry
 warning: Gregg v. Bryant (66 U.S. 155n) with SCOTUS decision date 1862-01-27 has no matching SCDB entry
-warning: Bronson v. Railroad Co (67 U.S. 528) with SCOTUS decision date 1863-03-02 has no matching SCDB entry
+warning: Bronson v. Railroad Co. (67 U.S. 528) with SCOTUS decision date 1863-03-02 has no matching SCDB entry
 warning: Bank of the Commonwealth v. Comm'r of Taxes (67 U.S. 635n) with SCOTUS decision date 1863-03-10 has no matching SCDB entry
 warning: Cross v. De Valle (68 U.S. 1) with SCOTUS decision date 1864-01-11 has no matching SCDB entry
 warning: Gelpcke v. Dubuque (68 U.S. 220) with SCOTUS decision date 1864-01-11 has no matching SCDB entry
 warning: Gelpcke v. Duguque (68 U.S. 221) with SCOTUS decision date 1864-01-11 has no matching SCDB entry
 warning: Lynde v. Massachusetts (72 U.S. 480n) with SCOTUS decision date 1867-04-29 has no matching SCDB entry
 warning: Carney v. Iowa (72 U.S. 480n) with SCOTUS decision date 1867-05-06 has no matching SCDB entry
-warning: Soutter &amp; Knapp v. Milwaukee R. Co (72 U.S. 662n) with SCOTUS decision date 1867-05-13 has no matching SCDB entry
+warning: Soutter &amp; Knapp v. Milwaukee R. Co. (72 U.S. 662n) with SCOTUS decision date 1867-05-13 has no matching SCDB entry
 warning: Des Moines Nav. &amp; R. Co. v. Burr (72 U.S. 689n) with SCOTUS decision date 1867-05-13 has no matching SCDB entry
 warning: Mussina v. Cavazos (73 U.S. 363n) with SCOTUS decision date 1868-01-27 has no matching SCDB entry
 warning: The Grace Girdler (73 U.S. 442n) with SCOTUS decision date 1868-01-13 has no matching SCDB entry
@@ -511,7 +158,7 @@ warning: Meyer v. Vocke (84 U.S. 624n) with SCOTUS decision date 1873-12-22 has 
 warning: Jaeger v. Vocke (84 U.S. 624n) with SCOTUS decision date 1873-12-22 has no matching SCDB entry
 warning: Sawyer v. Turpin (91 U.S. 114) with SCOTUS decision date 1875-11-29 has no matching SCDB entry
 warning: Roberts v. Buck (91 U.S. 159n) with SCOTUS decision date 1875-12-13 has no matching SCDB entry
-warning: Dows v. Wisconsin Marine &amp; Fire Ins. Co (91 U.S. 637) with SCOTUS decision date 1875-11-15 has no matching SCDB entry
+warning: Dows v. Wisconsin Marine &amp; Fire Ins. Co. (91 U.S. 637) with SCOTUS decision date 1875-11-15 has no matching SCDB entry
 warning: Wilson v. McCrellis (92 U.S. 326n) with SCOTUS decision date 1876-04-10 has no matching SCDB entry
 warning: Venice v. Woodruff (92 U.S. 502n) with SCOTUS decision date 1876-03-27 has no matching SCDB entry
 warning: United States v. Smith (92 U.S. 654n) with SCOTUS decision date 1876-05-08 has no matching SCDB entry
@@ -548,7 +195,7 @@ warning: United States v. Claflin (97 U.S. 553n) with SCOTUS decision date 1878-
 warning: Reynolds v. United States (98 U.S. 168n) with SCOTUS decision date 1879-05-05 has no matching SCDB entry
 warning: Orvis v. Powell (98 U.S. 179n) with SCOTUS decision date 1879-04-28 has no matching SCDB entry
 warning: Railroad Co. v. Georgia (98 U.S. 366n) with SCOTUS decision date 1879-01-27 has no matching SCDB entry
-warning: United States v. Denver Pacific R. Co (99 U.S. 462n) with SCOTUS decision date 1879-03-17 has no matching SCDB entry
+warning: United States v. Denver Pacific R. Co. (99 U.S. 462n) with SCOTUS decision date 1879-03-17 has no matching SCDB entry
 warning: Thomas v. Purcell (99 U.S. 508n) with SCOTUS decision date 1879-03-17 has no matching SCDB entry
 warning: County of Macon v. Huidekoper (99 U.S. 592n) with SCOTUS decision date 1879-03-03 has no matching SCDB entry
 warning: Lyon v. Hernandez (99 U.S. 674n) with SCOTUS decision date 1879-01-13 has no matching SCDB entry
@@ -566,11 +213,1101 @@ warning: Hinckley v. Morton (103 U.S. 765) with SCOTUS decision date 1881-05-02 
 warning: Bronson v. Loeschigk (104 U.S. 418n) with SCOTUS decision date 1882-01-09 has no matching SCDB entry
 warning: Vietor v. Arthur (104 U.S. 500n) with SCOTUS decision date 1882-05-08 has no matching SCDB entry
 warning: Ex parte Alabama (104 U.S. 618n) with SCOTUS decision date 1882-01-23 has no matching SCDB entry
-warning: Pollard v. Mail Line Co (105 U.S. 12) with SCOTUS decision date 1882-03-20 has no matching SCDB entry
+warning: Pollard v. Mail Line Co. (105 U.S. 12) with SCOTUS decision date 1882-03-20 has no matching SCDB entry
 warning: Supervisors v. Stanley (105 U.S. 316) with SCOTUS decision date 1882-04-24 has no matching SCDB entry
 warning: Packing Co. v. Clapp (105 U.S. 576n) with SCOTUS decision date 1882-05-08 has no matching SCDB entry
-file ./sources/results/decisions.json already exists, use --overwrite to recreate
-warnings: 568
-[01:17:42] Finished 'fixDecisions' after 4.14 s
-
-NOTE: 101 U.S. 331 exists on last two pages of http://cdn.loc.gov/service/ll/usrep/usrep101/usrep101320/usrep101320.pdf
+warning: GEORGE WILSON v. RICHARD MASON, DEVISEE OF GEORGE MASON (5 U.S. 45) has no SCOTUS citation entry
+warning: SCOTT v. NEGRO BEN (10 U.S. 3) has no SCOTUS citation entry
+warning: RIDDLE v. MOSS (11 U.S. 206) has no SCOTUS citation entry
+warning: SWAN v. THE UNION INSURANCE COMPANY OF MARYLAND (16 U.S. 168) has no SCOTUS citation entry
+warning: THE EXPERIMENT (17 U.S. 84) has no SCOTUS citation entry
+warning: WEIGHTMAN v. CALDWELL (17 U.S. 85) has no SCOTUS citation entry
+warning: THE UNITED STATES, PLAINTIFFS IN ERROR v. WALTER JONES, ADMINISTRATOR DE BONIS NON OF BENJAMIN G. ORR (33 U.S. 399) has no SCOTUS citation entry
+warning: THE UNITED STATES, PLAINTIFFS IN ERROR v. WALTER JONES, ADMINISTRATOR DE BONIS NON OF BENJAMIN G. ORR (33 U.S. 387) has no SCOTUS citation entry
+warning: ex parte HARMON (131 U.S. ixvii) has no SCOTUS citation entry
+warning: HALL NEILSON, PLAINTIFF IN ERROR, v. WILSON LAGOW (48 U.S. 772) has no SCOTUS citation entry
+warning: CHARLES J. GAYLER AND LEONARD BROWN, PLAINTIFFS IN ERROR, v. BENJAMIN G. WILDER (51 U.S. 509) has no SCOTUS citation entry
+warning: UNITED STATES v. HARRISON (154 U.S. 531) has no SCOTUS citation entry
+warning: UNITED STATES v. LYNDE'S HEIRS (131 U.S. lxix) has no SCOTUS citation entry
+warning: THE BOARD OF TRUSTEES FOR THE VINCENNES UNIVERSITY, PLAINTIFFS IN ERROR, v. THE STATE OF INDIANA (55 U.S. 268) has no SCOTUS citation entry
+warning: UNITED STATES v. CARRERE (154 U.S. 532) has no SCOTUS citation entry
+warning: UNITED STATES v. CHETIMACHAS INDIANS (131 U.S. lxx) has no SCOTUS citation entry
+warning: MAYER v. THE VENELIA, HER TACKLE ETC., EDDES MASTER (131 U.S. lxx) has no SCOTUS citation entry
+warning: STEAMBOAT NIAGARA v. VAN PELT (154 U.S. 533) has no SCOTUS citation entry
+warning: COGGESHALL v. HARTSHORN (154 U.S. 533) has no SCOTUS citation entry
+warning: GEORGE W. WATTERSTON, PLAINTIFF IN ERROR v. ANDREW M. PAYNE (154 U.S. 534) has no SCOTUS citation entry
+warning: PATRICK C. SHANNON, APPT., v. RAFALL GARCIA CAVAZOS, MARIA JOSEFA CAVAZOS, HIS WIFE, AND ESTAFANA GOZEARCOCHEA DE CORTINA (131 U.S. lxxi) has no SCOTUS citation entry
+warning: PHELPS v. EDGERTON (131 U.S. lxxi) has no SCOTUS citation entry
+warning: DAVIDSON v. LANIER (131 U.S. lxxii) has no SCOTUS citation entry
+warning: CROSS v. DE VALLE (68 U.S. 5) has no SCOTUS citation entry
+warning: RESOLUTE AND NORTHERNER (68 U.S. 682) has no SCOTUS citation entry
+warning: RICHARDSON v. LAWRENCE COUNTY (154 U.S. 536) has no SCOTUS citation entry
+warning: UNITED STATES v. BENJAMIN S. HALLOCK (154 U.S. 537) has no SCOTUS citation entry
+warning: VINCENTE MIRAMONTES v. UNITED STATES (131 U.S. lxxiii) has no SCOTUS citation entry
+warning: MILWAUKEE &amp; MINNESOTA RAILROAD CO. v. JAMES T. SOUTTER (154 U.S. 541) has no SCOTUS citation entry
+warning: UNITED STATES v. OLIVERA et al. (154 U.S. 538) has no SCOTUS citation entry
+warning: HENRY A. BURR v. PETER S. DURYEE (68 U.S. 578) has no SCOTUS citation entry
+warning: ex parte MILWAUKIE AND MINNESOTA RAILROAD COMPANY (69 U.S. 443, note) has no SCOTUS citation entry
+warning: HORBACK et al. v. PORTER ET UX. (154 U.S. 549) has no SCOTUS citation entry
+warning: SMITH v. ORTON (131 U.S. lxxv) has no SCOTUS citation entry
+warning: DAYTON, CLAIMANT OF THE SCHOONER MONTEREY AND CARGO v. UNITED STATES (131 U.S. lxxx) has no SCOTUS citation entry
+warning: MILWAUKEE AND MINNESOTA RAILROAD COMPANY v. HOWARD (131 U.S. lxxxi) has no SCOTUS citation entry
+warning: UNITED STATES v. ARMEJO (131 U.S. lxxxii) has no SCOTUS citation entry
+warning: UNITED STATES v. DE HARO (154 U.S. 544) has no SCOTUS citation entry
+warning: ROGERS v. KEOKUK (154 U.S. 546) has no SCOTUS citation entry
+warning: DUVALL v. UNITED STATES (154 U.S. 548) has no SCOTUS citation entry
+warning: THE SCIENCE (72 U.S. 178) has no SCOTUS citation entry
+warning: DAVIDSON v. LANIER (71 U.S. 458) has no SCOTUS citation entry
+warning: FIELD v. BIGELOW (72 U.S. 211n) has no SCOTUS citation entry
+warning: TOWNSEND v. BURBANK (72 U.S. 337) has no SCOTUS citation entry
+warning: UNITED STATES v. LOUIS MAYRAND (154 U.S. 552) has no SCOTUS citation entry
+warning: LICENSE TAX CASES: HUGH CARNEY v. STATE OF IOWA (72 U.S. 480, note) has no SCOTUS citation entry
+warning: CONNELLSVILLE AND SOUTHERN PENNSYLVANIA RAILROAD v. BALTIMORE (154 U.S. 553) has no SCOTUS citation entry
+warning: UNITED STATES v. ALIRE (73 U.S. 577n) has no SCOTUS citation entry
+warning: ST. LOUIS STREET FOUNDRY v. UNITED STATES (73 U.S. 770n) has no SCOTUS citation entry
+warning: MYRA CLARK GAINES v. MANUEL J. LIZARDI ET AL (154 U.S. 555) has no SCOTUS citation entry
+warning: ASA HUNT, FRANKLIN H. EATON, JOSEPH P. MANNING AND GEORGE ARMSTRONG, APPTS., v. EPHRAIM H. BENDER, CHARLES A. HENRY AND ANNAN HENRY (154 U.S. 556) has no SCOTUS citation entry
+warning: CLARK v. UNITED STATES (131 U.S. lxxxv) has no SCOTUS citation entry
+warning: UNITED STATES v. EIGHTY-SEVEN BALES OF COTTON MARKED J.H.B. DAVENPORT &amp; BURNS (154 U.S. 556) has no SCOTUS citation entry
+warning: ex parte MILWAUKEE &amp; MINNESOTA RAILROAD CO. (154 U.S. 554) has no SCOTUS citation entry
+warning: WILLIAM H. CRANDALL v. THE STATE OF NEVADA (131 U.S. lxxxiii) has no SCOTUS citation entry
+warning: WILLIAMSON v. MOORE (154 U.S. 557) has no SCOTUS citation entry
+warning: WATERS v. BARRILL (131 U.S. lxxxiv) has no SCOTUS citation entry
+warning: CLARKE v. UNITED STATES (131 U.S. lxxxvi) has no SCOTUS citation entry
+warning: MILWAUKEE AND ST. PAUL RAILROAD COMPANY v. SOUTTER (131 U.S. lxxxvi) has no SCOTUS citation entry
+warning: PATTERSON v. HOA'S EXECUTRIX (131 U.S. lxxxviii) has no SCOTUS citation entry
+warning: MARSHALL v. KNOTT (131 U.S. ccv) has no SCOTUS citation entry
+warning: UNITED STATES v. COOK (154 U.S. 555) has no SCOTUS citation entry
+warning: WILLIAM R. DUTTON v. JOHN G. PALAIRET, RICHARD T. PALAIRET, AND JOHN G. BOOTY (154 U.S. 563) has no SCOTUS citation entry
+warning: CHARLES HART SMITH v. THE WASHINGTON GAS LIGHT CO. (154 U.S. 559) has no SCOTUS citation entry
+warning: GUSTAVE A. LE MORE AND LEONTERE LE MORE, CLAIMANTS OF 830 BALES OF COTTON v. THE UNITED STATES (131 U.S. lxxxv) has no SCOTUS citation entry
+warning: THE UNITED STATES v. ALBERT L. MOWRY (154 U.S. 564) has no SCOTUS citation entry
+warning: UNITED STATES v. SAMUEL J. MORGAN (154 U.S. 565) has no SCOTUS citation entry
+warning: THE CITY OF CHICAGO v. BIGELOW, ADMR. OF SAMUEL NICHOLSON (131 U.S. xciii) has no SCOTUS citation entry
+warning: EDWARD W. BURBANK v. EDMOND B. BIGELOW (154 U.S. 558) has no SCOTUS citation entry
+warning: WILLIAM F. DAVIDSON v. JACOB L. STARCHER (154 U.S. 566) has no SCOTUS citation entry
+warning: CHARLES W. TILLINGHAST AND JOSEPH M. WARREN v. MORRISS VAN BUSKIRK ET AL (154 U.S. 557) has no SCOTUS citation entry
+warning: THE STATE OF VIRGINIA, PETITIONER (131 U.S. lxxxix) has no SCOTUS citation entry
+warning: A.L. MARSHALL AND C.S SILVER, ADMINISTRATOR, ETC., OF FINICE CARUTHERS, DECEASED v. ROBERT J. LADD (131 U.S. lxxxix) has no SCOTUS citation entry
+warning: EMILIE J. MOULDER v. DOUGLAS F. FORREST (154 U.S. 567) has no SCOTUS citation entry
+warning: JAS. W. FINLEY v. THOMAS M. ISETT, WILLIAM C. BREWSTER AND SAGE O. BUTLER (154 U.S. 561) has no SCOTUS citation entry
+warning: WILLIAM B. MORRIS v. SAMUEL SHRINER ET AL (131 U.S. xci) has no SCOTUS citation entry
+warning: THE AMERICAN WOOD PAPER COMPANY v. JACOB D. HEFT ET AL (131 U.S. xcii) has no SCOTUS citation entry
+warning: JOHN MACGWIRE v. MARY L. TYLER ET AL (75 U.S. 668) has no SCOTUS citation entry
+warning: LYNCH v. DE BERNAL (131 U.S. xciv) has no SCOTUS citation entry
+warning: LECIL W. DEAN, APPT., v. ROBERT D. HARVEY, ADMINISTRATOR OF W.H. YOUNELL, DECEASED (75 U.S. 14) has no SCOTUS citation entry
+warning: BASSET v. UNITED STATES (76 U.S. 38) has no SCOTUS citation entry
+warning: O.B. AND O.S. LATHAM v. UNITED STATES (131 U.S. xcvii) has no SCOTUS citation entry
+warning: JACOB D. COX, SECRETARY OF THE INTERIOR, v. THE UNITED STATES, EX REL. WILLIAM MCGARRAHAN (131 U.S. c) has no SCOTUS citation entry
+warning: THE STATE OF TEXAS v. GEORGE W. WHITE, JOHN CHILES, GEORGE W. STEWART, ET AL (131 U.S. xcv) has no SCOTUS citation entry
+warning: THE STATE OF TEXAS v. GEORGE W. WHITE, JOHN CHILES, ET AL (131 U.S. xcv) has no SCOTUS citation entry
+warning: THE BURLINGTON AND MISSOURI RIVER R.R. COMPANY v. MILLS COUNTY, IOWA (154 U.S. 568) has no SCOTUS citation entry
+warning: A.B. WOOD v. DE FORREST RICHARDS (131 U.S. xcviii) has no SCOTUS citation entry
+warning: WILLIAM S. GODBE v. TOOTLE ET AL (154 U.S. 576) has no SCOTUS citation entry
+warning: UNITED STATES v. WILLIAM POLLARD (154 U.S. 577) has no SCOTUS citation entry
+warning: ex parte PARGOUD (154 U.S. 567) has no SCOTUS citation entry
+warning: HANNAH RILEY v. WILLIAM B. WELLES (154 U.S. 578) has no SCOTUS citation entry
+warning: BENJAMIN F. FLANDERS, DEPUTY GENERAL AGENT OF THE UNITED STATES TREASURY DEPARTMENT, v. JOHN P. TWEED (154 U.S. 569) has no SCOTUS citation entry
+warning: OTIS H. WEED AND ORIN SHERMAN, COPARTNERS, AS O.H. WEED &amp; COMPANY v. JOHN H. CRANE (154 U.S. 570) has no SCOTUS citation entry
+warning: THE CITY OF KENOSHA v. JOSHUA F. LAMSON (154 U.S. 573) has no SCOTUS citation entry
+warning: THE BOARD OF SUPERVISORS OF WASHINGTON COUNTY, IOWA, v. THE UNITED STATES EX REL. RICHARD MORTIMER (154 U.S. 571) has no SCOTUS citation entry
+warning: THE STEAMBOAT NORTHERN BELLE v. JOHN ROBSON (154 U.S. 571) has no SCOTUS citation entry
+warning: JONATHAN C. STURTEVANT v. JOHN M. HERNDON (154 U.S. 575) has no SCOTUS citation entry
+warning: ISSAC UNDERHILL v. JOHN M. HERNDON (154 U.S. 574) has no SCOTUS citation entry
+warning: ENOCH LONG, ABEL STURTEVANT AND JOHN ROBINSON v. PEGGY F. PATTON (154 U.S. 573) has no SCOTUS citation entry
+warning: ISSAC UNDERHILL v. PEGGY F. PATTON (154 U.S. 575) has no SCOTUS citation entry
+warning: HARTFORD FIRE INSURANCE COMPANY v. ISSAC VAN DUZER (76 U.S. 784n) has no SCOTUS citation entry
+warning: WILLARD v. WILLARD (154 U.S. 568) has no SCOTUS citation entry
+warning: KENOSHA v. CAMPBELL (131 U.S. xcvii) has no SCOTUS citation entry
+warning: DOWNING v. MCCARTNEY (131 U.S. xcviii) has no SCOTUS citation entry
+warning: BALTIMORE &amp; OHIO RAILROAD v. MARSHALL COUNTY SUPERVISORS (131 U.S. xcix) has no SCOTUS citation entry
+warning: COUSIN v. GENERES (154 U.S. 581) has no SCOTUS citation entry
+warning: VAN SLYKE v. WISCONSIN (154 U.S. 581) has no SCOTUS citation entry
+warning: UNITED STATES v. MYNDERSE (154 U.S. 580) has no SCOTUS citation entry
+warning: ex parte WAPLES (154 U.S. 579) has no SCOTUS citation entry
+warning: NORTHWESTERN UNION PACKET COMPANY v. HOME INSURANCE COMPANY OF NEW YORK (154 U.S. 588) has no SCOTUS citation entry
+warning: PLANT v. STOVALL (154 U.S. 584) has no SCOTUS citation entry
+warning: HUNTINGTON v. STATE OF TEXAS (131 U.S. cx) has no SCOTUS citation entry
+warning: MONGER v. SHIRLEY (131 U.S. cx) has no SCOTUS citation entry
+warning: THE ST. JOHN (154 U.S. 586) has no SCOTUS citation entry
+warning: JACOWAY v. DENTON (154 U.S. 583) has no SCOTUS citation entry
+warning: PEYTON v. HEINEKIN (131 U.S. ci) has no SCOTUS citation entry
+warning: WELCH v. BARNARD (131 U.S. civ) has no SCOTUS citation entry
+warning: GERMAIN v. MASON (154 U.S. 587) has no SCOTUS citation entry
+warning: THE DES MOINES (154 U.S. 584) has no SCOTUS citation entry
+warning: HOLMES v. SEVIER (154 U.S. 582) has no SCOTUS citation entry
+warning: BAIRD v. UNITED STATES (131 U.S. cvi) has no SCOTUS citation entry
+warning: DAVIDSON v. CONNELLY (154 U.S. 589) has no SCOTUS citation entry
+warning: GRAY v. COAN (154 U.S. 589) has no SCOTUS citation entry
+warning: STARK v. UNITED STATES (131 U.S. ccv) has no SCOTUS citation entry
+warning: UNITED STATES v. SMOOT (131 U.S. ccvi) has no SCOTUS citation entry
+warning: CRILLEY v. BURROWS (84 U.S. 167) has no SCOTUS citation entry
+warning: BARNES v. THE RAILROADS (84 U.S. 335n) has no SCOTUS citation entry
+warning: WILLIAMS v. REYNOLDS (131 U.S. cx) has no SCOTUS citation entry
+warning: UNITED STATES v. STAFFORD (154 U.S. 590) has no SCOTUS citation entry
+warning: MAYS v. FRITTON (131 U.S. cxiv) has no SCOTUS citation entry
+warning: GARDNER v. GOODYEAR DENTAL VULCANITE COMPANY (131 U.S. ciii) has no SCOTUS citation entry
+warning: BANK OF NEW ORLEANS v. CALDWELL (154 U.S. 592) has no SCOTUS citation entry
+warning: JONES v. FRITSCHLE (154 U.S. 590) has no SCOTUS citation entry
+warning: DIAZ v. UNITED STATES (154 U.S. 590) has no SCOTUS citation entry
+warning: NORTON v. JAMISON (154 U.S. 591) has no SCOTUS citation entry
+warning: HUMBIRD v. JACKSON COUNTY (154 U.S. 592) has no SCOTUS citation entry
+warning: CHARLESTON v. JESSUP (154 U.S. 592) has no SCOTUS citation entry
+warning: THE NEW ENGLAND MUTUAL INSURANCE COMPANY v. THE DETROIT AND CLEVELAND STEAM NAVIGATION COMPANY (85 U.S. 307n) has no SCOTUS citation entry
+warning: SAMUEL MCCLELLAND et al. v. THE UNITED STATES (88 U.S. 98n) has no SCOTUS citation entry
+warning: THE ADELIA (154 U.S. 593) has no SCOTUS citation entry
+warning: WOODMAN PEBBLING MACHINE COMPANY v. GUILD (154 U.S. 597) has no SCOTUS citation entry
+warning: UNDERWOOD v. MCVEIGH (131 U.S. cxix) has no SCOTUS citation entry
+warning: ALLEN v. TARLTON (154 U.S. 596) has no SCOTUS citation entry
+warning: GARRATT v. SEIBERT (131 U.S. cxv) has no SCOTUS citation entry
+warning: BOISE COUNTY COMMISSIONERS v. GORMAN (131 U.S. cxxv) has no SCOTUS citation entry
+warning: KENNER v. UNITED STATES (154 U.S. 595) has no SCOTUS citation entry
+warning: UNITED STATES v. HATCH (154 U.S. 596) has no SCOTUS citation entry
+warning: WILLIAM STITT v. ALFRED HUIDEKOPER (131 U.S. cxviii) has no SCOTUS citation entry
+warning: ex parte LANGE (131 U.S. ccvii) has no SCOTUS citation entry
+warning: DOANE v. GLENN (88 U.S. 33) has no SCOTUS citation entry
+warning: STICKNEY, ASSIGNEE, v. WILT (90 U.S. 150) has no SCOTUS citation entry
+warning: HARDY v. HARBIN (154 U.S. 598) has no SCOTUS citation entry
+warning: NORTHWESTERN UNION PACKET COMPANY v. VILES (154 U.S. 608) has no SCOTUS citation entry
+warning: BASSE v. BROWNSVILLE (154 U.S. 610) has no SCOTUS citation entry
+warning: MONGER v. SHIRLEY (131 U.S. cxxxi) has no SCOTUS citation entry
+warning: COMMERCIAL NATIONAL BANK OF CLEVELAND v. IOLA (154 U.S. 617) has no SCOTUS citation entry
+warning: ROGERS LOCOMOTIVE AND MACHINE WORKS v. HELM (154 U.S. 610) has no SCOTUS citation entry
+warning: DANE v. CHICAGO MANUFACTURING COMPANY (131 U.S. cxxvi) has no SCOTUS citation entry
+warning: TREAT v. JEMISON (131 U.S. cxxxv) has no SCOTUS citation entry
+warning: JAMES L.D. MORRISON, TRUSTEE OF JULIA A.A.S. MORRISON v. WILLIAM H. BENTON (92 U.S. 664n) has no SCOTUS citation entry
+warning: SOUTHWESTERN RAILROAD COMPANY v. STATE OF GEORGIA (92 U.S. 676n) has no SCOTUS citation entry
+warning: THE ELIZA HANCOX (154 U.S. 618) has no SCOTUS citation entry
+warning: TURNER v. WARD (154 U.S. 618) has no SCOTUS citation entry
+warning: STATE OF FLORIDA v. ANDERSON (91 U.S. 683) has no SCOTUS citation entry
+warning: MEAD v. PINYARD (154 U.S. 620) has no SCOTUS citation entry
+warning: CRARY v. DEVLIN (154 U.S. 619) has no SCOTUS citation entry
+warning: MISSOURI, KANSAS, AND TEXAS RAILWAY COMPANY v. UNITED STATES (92 U.S. 760n) has no SCOTUS citation entry
+warning: WESTERN UNION TELEGRAPH COMPANY, PLFF. IN ERR., v. CHARLES EYSER (91 U.S. 495n) has no SCOTUS citation entry
+warning: BERGNER v. PALETHORP (131 U.S. ccviii) has no SCOTUS citation entry
+warning: DAVIES v. SLIDELL (154 U.S. 625) has no SCOTUS citation entry
+warning: OSBORN v. UNITED STATES (131 U.S. cxxxvii) has no SCOTUS citation entry
+warning: HERHOLD v. UPTON (154 U.S. 624) has no SCOTUS citation entry
+warning: GERMANICA NATIONAL BANK v. CASE (131 U.S. cxliv) has no SCOTUS citation entry
+warning: MEYER v. PRITCHARD (131 U.S. ccix) has no SCOTUS citation entry
+warning: HAYNES v. PICKETT (154 U.S. 627) has no SCOTUS citation entry
+warning: RUCKMAN v. BERGHOLZ (131 U.S. cxliii) has no SCOTUS citation entry
+warning: MEVS v. CONOVER (131 U.S. cxlii) has no SCOTUS citation entry
+warning: MORRILL v. STATE OF WISCONSIN (154 U.S. 626) has no SCOTUS citation entry
+warning: JOHANSSON v. STEPHANSON (154 U.S. 625) has no SCOTUS citation entry
+warning: FOREE v. MCVEIGH (131 U.S. cxlii) has no SCOTUS citation entry
+warning: VAN NORDEN v. BENNER (131 U.S. cxlvi) has no SCOTUS citation entry
+warning: PITTSBURGH LOCOMOTIVE AND CAR WORKS v. NATIONAL BANK OF KEOKUK (154 U.S. 626) has no SCOTUS citation entry
+warning: WILSON v. HOSS (131 U.S. ccx) has no SCOTUS citation entry
+warning: CASEY v. GALLI (94 U.S. 680) has no SCOTUS citation entry
+warning: BERREYESA v. UNITED STATES (154 U.S. 623) has no SCOTUS citation entry
+warning: MACKALL v. RICHARDS (154 U.S. 624) has no SCOTUS citation entry
+warning: MCCREADY v. VIRGINIA (154 U.S. 628) has no SCOTUS citation entry
+warning: NONCONNAH TURNPIKE v. TENNESSEE EX REL. TALLEY (131 U.S. clviii) has no SCOTUS citation entry
+warning: GOODENOUGH HORSESHOE MANUFACTURING COMPANY v. RHODE ISLAND HORSESHOE COMPANY (154 U.S. 635) has no SCOTUS citation entry
+warning: THATCHER v. KAUCHER (131 U.S. cxlvi) has no SCOTUS citation entry
+warning: NORTHWESTERN LIFE INSURANCE COMPANY v. MARTIN (154 U.S. 640) has no SCOTUS citation entry
+warning: UNITED STATES v. DRISCOLL (131 U.S. clix) has no SCOTUS citation entry
+warning: STATEN ISLAND RAILWAY COMPANY v. LAMBERT (131 U.S. ccxi) has no SCOTUS citation entry
+warning: KEOGH v. ORIENT FIRE INSURANCE COMPANY (154 U.S. 639) has no SCOTUS citation entry
+warning: STRONG v. UNITED STATES (154 U.S. 632) has no SCOTUS citation entry
+warning: HUTCHINSON v. THE NORTHFIELD (154 U.S. 629) has no SCOTUS citation entry
+warning: CLARK v. BEECHER (154 U.S. 631) has no SCOTUS citation entry
+warning: SAWYER v. WEAVER (131 U.S. cli) has no SCOTUS citation entry
+warning: CONNECTICUT GENERAL LIFE INSURANCE COMPANY v. BURNSTINE (131 U.S. cliii) has no SCOTUS citation entry
+warning: UNITED STATES v. ATCHISON, TOPEKA AND SANTA FE RAILROAD COMPANY (154 U.S. 637) has no SCOTUS citation entry
+warning: RISHER v. SMITH (131 U.S. clvi) has no SCOTUS citation entry
+warning: FIRST NATIONAL BANK OF CINCINNATI v. COOK (154 U.S. 628) has no SCOTUS citation entry
+warning: JONES v. GROVER AND BAKER SEWING-MACHINE COMPANY (131 U.S. cl) has no SCOTUS citation entry
+warning: CORRY v. CAMPBELL (156 U.S. 629) has no SCOTUS citation entry
+warning: PHIPPS v. SEDGWICK (131 U.S. cxxxix) has no SCOTUS citation entry
+warning: BRICK v. BRICK (98 U.S. 514) has no SCOTUS citation entry
+warning: THE FIRST NATIONAL BANK OF THE CITY OF NEW YORK v. ABNER C. SHOEMAKER (97 U.S. 692n) has no SCOTUS citation entry
+warning: HUSSEY v. MERRITT (99 U.S. 25n) has no SCOTUS citation entry
+warning: METROPOLITAN BANK v. CONNECTICUT MUTUAL LIFE INSURANCE COMPANY (131 U.S. clxii) has no SCOTUS citation entry
+warning: HAGAR v. PEOPLE OF THE STATE OF CALIFORNIA (154 U.S. 639) has no SCOTUS citation entry
+warning: ELIZABETH v. AMERICAN NICHOLSON PAVEMENT COMPANY (131 U.S. cxlvii) has no SCOTUS citation entry
+warning: DOLD v. UNITED STATES (154 U.S. 645) has no SCOTUS citation entry
+warning: HUNT v. HUNT (131 U.S. clxv) has no SCOTUS citation entry
+warning: MARSH v. CITIZENS INSURANCE COMPANY (131 U.S. ccxiii) has no SCOTUS citation entry
+warning: WILSON v. GOODRICH (154 U.S. 640) has no SCOTUS citation entry
+warning: CARSON v. OBER (131 U.S. clx) has no SCOTUS citation entry
+warning: BETTS v. MUGRIDGE (154 U.S. 644) has no SCOTUS citation entry
+warning: KNOX COUNTY v. UNITED STATES EX REL. HARSHMAN (131 U.S. clxvi) has no SCOTUS citation entry
+warning: WILLIAMS v. UNITED STATES (154 U.S. 648) has no SCOTUS citation entry
+warning: CITY OF LEAVENWORTH v. KINNEY (154 U.S. 642) has no SCOTUS citation entry
+warning: FLOURNOY v. LASTRAPES (131 U.S. clxi) has no SCOTUS citation entry
+warning: UNITED STATES v. MORGAN (131 U.S. clxiv) has no SCOTUS citation entry
+warning: DUMONT v. DES MOINES VALLEY RAILROAD COMPANY (131 U.S. clx) has no SCOTUS citation entry
+warning: JAEGER v. MOORE (154 U.S. 641) has no SCOTUS citation entry
+warning: BURKE v. TREGRE (154 U.S. 641) has no SCOTUS citation entry
+warning: CASE v. MARCHAND (154 U.S. 642) has no SCOTUS citation entry
+warning: FAXON v. RUSSELL (154 U.S. 644) has no SCOTUS citation entry
+warning: INGERSOLL v. BOURNE (154 U.S. 645) has no SCOTUS citation entry
+warning: SOUTHERN v. HAGOOD (131 U.S. ccxii) has no SCOTUS citation entry
+warning: MARKET COMPANY v. HOFFMAN (101 U.S. 112) has no SCOTUS citation entry
+warning: ROBERTS v. BOLLES (101 U.S. 119) has no SCOTUS citation entry
+warning: EDWIN C. LITCHFIELD v. COUNTY OF HAMILTON (101 U.S. 781n) has no SCOTUS citation entry
+warning: RAILROAD CO. v. ALABAMA (101 U.S. 835n) has no SCOTUS citation entry
+warning: NATIONAL BANK OF THE REPUBLIC v. MILLARD (154 U.S. 656) has no SCOTUS citation entry
+warning: NORTH v. MCDONALD (154 U.S. 649) has no SCOTUS citation entry
+warning: LAMMERS v. NISSEN (154 U.S. 650) has no SCOTUS citation entry
+warning: MCINTYRE v. GIBLIN (131 U.S. clxxiv) has no SCOTUS citation entry
+warning: WEATHERBY v. BOWIE (131 U.S. ccxv) has no SCOTUS citation entry
+warning: KNICKERBOCKER LIFE INSURANCE COMPANY v. SCHNEIDER (131 U.S. clxxii) has no SCOTUS citation entry
+warning: UNITED STATES EX REL. PHILLIPS v. GAINES (131 U.S. clxix) has no SCOTUS citation entry
+warning: THE LOUISVILLE (154 U.S. 657) has no SCOTUS citation entry
+warning: SEA v. CONNECTICUT MUTUAL LIFE INSURANCE COMPANY (154 U.S. 659) has no SCOTUS citation entry
+warning: PHILLIPS, PETITIONER (131 U.S. clxvii) has no SCOTUS citation entry
+warning: CRANE v. KANSAS PACIFIC RAILWAY COMPANY (131 U.S. clxvlii) has no SCOTUS citation entry
+warning: FOLLANSBEE v. BALLARD PAVING COMPANY (154 U.S. 651) has no SCOTUS citation entry
+warning: DE LIANO v. GAINES (131 U.S. ccxiv) has no SCOTUS citation entry
+warning: DALLAS COUNTY v. HUIDEKOPER (154 U.S. 654) has no SCOTUS citation entry
+warning: DALLAS COUNTY v. HUIDEKOPER; DALLAS COUNTY v. DAVOL (154 U.S. 655) has no SCOTUS citation entry
+warning: BURR v. MYERS (154 U.S. 654) has no SCOTUS citation entry
+warning: RICE v. EDWARDS (131 U.S. clxxv) has no SCOTUS citation entry
+warning: GRAND TRUNK RAILWAY COMPANY v. WALKER (154 U.S. 653) has no SCOTUS citation entry
+warning: GAGE v. CARRAHER (154 U.S. 656) has no SCOTUS citation entry
+warning: O'REILLY v. EDRINGTON (131 U.S. clxxvii) has no SCOTUS citation entry
+warning: WOODFOLK v. SEDDON (154 U.S. 658) has no SCOTUS citation entry
+warning: WOOLFOLK v. NISBET (154 U.S. 650) has no SCOTUS citation entry
+warning: PONDER v. DELAUNEY (154 U.S. 651) has no SCOTUS citation entry
+warning: FONTAINE v. MCNAB (154 U.S. 652) has no SCOTUS citation entry
+warning: UNITED STATES v. WILLIAMS (154 U.S. 652) has no SCOTUS citation entry
+warning: JOUAN v. DIVOLL (154 U.S. 657) has no SCOTUS citation entry
+warning: COWDREY v. VANDENBURGH (154 U.S. 659) has no SCOTUS citation entry
+warning: THE STEAMBOAT SABINE, ETC., PIERRE S. WILTZ, PUBLIC ADMR. OF SARAH C. SHIRLEY, DECEASED, et al. v. THE STEAMBOAT RICHMOND, ETC., NATHANIEL S. GREEN, et al. (103 U.S. 542) has no SCOTUS citation entry
+warning: FRANCE v. STATE OF MISSOURI (154 U.S. 667) has no SCOTUS citation entry
+warning: ANDREWS v. CONGAR (131 U.S. clxxxiii) has no SCOTUS citation entry
+warning: HAUENSTEIN v. LYNHAM (131 U.S. cxci) has no SCOTUS citation entry
+warning: FLETCHER v. BLAKE (131 U.S. cxcvii) has no SCOTUS citation entry
+warning: MCLAUGHLIN v. FOWLER (154 U.S. 663) has no SCOTUS citation entry
+warning: KAISER v. STICKNEY (131 U.S. clxxxvii) has no SCOTUS citation entry
+warning: GIBBS v. DIEKMA (131 U.S. clxxxvi) has no SCOTUS citation entry
+warning: WHITE v. UNITED STATES (154 U.S. 661) has no SCOTUS citation entry
+warning: WHITNEY v. FIRST NATIONAL BANK OF BRATTLEBORO (154 U.S. 664) has no SCOTUS citation entry
+warning: RELFE v. WILSON (131 U.S. clxxxix) has no SCOTUS citation entry
+warning: BENTON COUNTY v. ROLLENS (154 U.S. 665) has no SCOTUS citation entry
+warning: HAND v. HAGOOD (131 U.S. clxxxi) has no SCOTUS citation entry
+warning: LEARY v. LONG (131 U.S. ccxviii) has no SCOTUS citation entry
+warning: BANK OF MONTREAL v. WHITE (154 U.S. 660) has no SCOTUS citation entry
+warning: HILL v. HARDING (131 U.S. cc) has no SCOTUS citation entry
+warning: FARLOW v. KELLEY (131 U.S. cci) has no SCOTUS citation entry
+warning: LOUISIANA EX REL. FOLSOM v. CITY OF NEW ORLEANS (131 U.S. cci) has no SCOTUS citation entry
+warning: SEWARD v. COMEAU (154 U.S. 665) has no SCOTUS citation entry
+warning: BACON v. INTERNATIONAL BANK OF CHICAGO (131 U.S. ccxvi) has no SCOTUS citation entry
+warning: CONNECTICUT MUTUAL LIFE INSURANCE COMPANY, PETITIONER (131 U.S. clxxx) has no SCOTUS citation entry
+warning: WIGHT v. CONDICT (154 U.S. 666) has no SCOTUS citation entry
+warning: UNION PACIFIC RAILROAD v. CLOPPER (131 U.S. cxcii) has no SCOTUS citation entry
+warning: RICHMOND MINING COMPANY OF NEVADA v. EUREKA CONSOLIDATED MINING COMPANY (154 U.S. 664) has no SCOTUS citation entry
+warning: WHITNEY v. COOK (131 U.S. cxcvii) has no SCOTUS citation entry
+warning: COUNTY OF MORGAN v. ALLEN (103 U.S. 515n) has no SCOTUS citation entry
+warning: THE STEAMSHIP BENEFACTOR v. MOUNT (103 U.S. 247) has no SCOTUS citation entry
+warning: GROAT v. O'HARE (154 U.S. 660) has no SCOTUS citation entry
+warning: UNITED STATES v. ULRICI (102 U.S. 612n) has no SCOTUS citation entry
+warning: THIRD NATIONAL BANK v. NATIONAL BANK (102 U.S. 663n) has no SCOTUS citation entry
+warning: UNITED STATES v. RINDSKOPF (105 U.S. 418) has no SCOTUS citation entry
+warning: THE ST LOUIS SMELTING AND REFINING CO. v. SARAH RAY ET AL (104 U.S. 657n) has no SCOTUS citation entry
+warning: CLARK W. UPTON, ASSIGNEE IN BANKRUPTCY OF THE GREAT WESTERN INSURANCE COMPANY v. THOMAS A. KENT (105 U.S. 646n) has no SCOTUS citation entry
+warning: COUNTY COURT OF LINCOLN COUNTY AND THE JUDGES THEREOF v. UNITED STATES, EX REL. VESPASIAN WARNER (105 U.S. 739n) has no SCOTUS citation entry
+warning: CHICAGO, DANVILLE AND VINCENNES RAILROAD COMPANY, JAMES W. ELWELL AND R. BIDDLE ROBERTS v. WILLIAM R. FOSDICK, JAMES D. FISH, FREDERICK W. HUIDEKOPER, THOMAS W SHANNON AND JOHN M. DENNISON (106 U.S. 80) has no SCOTUS citation entry
+warning: PRICE v. KELLEY (154 U.S. 669) has no SCOTUS citation entry
+warning: GLOVER v. LOVE (154 U.S. 670) has no SCOTUS citation entry
+warning: LANE v. WALLACE (131 U.S. ccxix) has no SCOTUS citation entry
+warning: HEARST v. HALLIGAN (154 U.S. 669) has no SCOTUS citation entry
+warning: GRAME v. MUTUAL ASSURANCE SOCIETY OF VIRGINIA (154 U.S. 676) has no SCOTUS citation entry
+warning: SCRUGGS v. MEMPHIS AND CHARLESTON RAILROAD COMPANY (131 U.S. cciv) has no SCOTUS citation entry
+warning: MELLON v. DELAWARE, LACKAWANNA AND WESTERN RAILROAD COMPANY (154 U.S. 673) has no SCOTUS citation entry
+warning: CONTINENTAL BANK NOTE COMPANY v. UNITED STATES (154 U.S. 671) has no SCOTUS citation entry
+warning: UPTON v. STEELE (154 U.S. 675) has no SCOTUS citation entry
+warning: UPTON v. MASON (154 U.S. 675) has no SCOTUS citation entry
+warning: UNITED STATES v. CANDA (154 U.S. 674) has no SCOTUS citation entry
+warning: NATIONAL LIFE INSURANCE COMPANY v. SCHEFFER (131 U.S. cciii) has no SCOTUS citation entry
+warning: ROBERTS v. BOLLES (154 U.S. 670) has no SCOTUS citation entry
+warning: LEVY v. DANGEL (154 U.S. 671) has no SCOTUS citation entry
+warning: UNITED STATES v. BARNETT (154 U.S. 676) has no SCOTUS citation entry
+warning: CHICAGO, DANVILLE AND VINCENNES RAILROAD COMPANY, JAMES W. ELWELL AND R. BIDDLE ROBERTS v. WILLIAM R. FOSDICK, JAMES D. FISH, FREDERICK W. HUIDEKOPER, THOMAS W SHANNON AND JOHN M. DENNISON (106 U.S. 82) has no SCOTUS citation entry
+warning: UNITED STATES v. JOHN A. KNOWLES ET AL (106 U.S. 537n) has no SCOTUS citation entry
+warning: TOWN OF PLAINVIEW v. SAMUEL MARSHALL (106 U.S. 583n) has no SCOTUS citation entry
+warning: COUNTY OF ALEXANDER v. JOHN F. KIMBALL (106 U.S. 623n) has no SCOTUS citation entry
+warning: BONNIFIELD v. PRICE (154 U.S. 672) has no SCOTUS citation entry
+warning: MISSIONARY SOCIETY OF THE METHODIST EPISCOPAL CHURCH v. KELLY (107 U.S. 347n) has no SCOTUS citation entry
+warning: THE UNION TRUST COMPANY OF NEW YORK v. EDWARD FITZGERALD (107 U.S. 595n) has no SCOTUS citation entry
+warning: STEEVER v. RICKMAN (154 U.S. 678) has no SCOTUS citation entry
+warning: COOK v. SANDUSKY TOOL COMPANY () has no SCOTUS citation entry
+warning: GREAT WESTERN INSURANCE COMPANY v. UNITED STATES (112 U.S. 193) has no SCOTUS citation entry
+warning: FOSTER v. KANSAS (112 U.S. 205) has no SCOTUS citation entry
+warning: FLINT AND PERE MARQUETTE RAILROAD COMPANY v. UNITED STATES (112 U.S. 762) has no SCOTUS citation entry
+warning: UNITED STATES v. PETIT (114 U.S. 429n) has no SCOTUS citation entry
+warning: DODGE v. KNOWLES (114 U.S. 436) has no SCOTUS citation entry
+warning: HEALY &amp; ANOTHER v. JOLIET &amp; CHICAGO RAILROAD COMPANY &amp; ANOTHER (116 U.S. 191) has no SCOTUS citation entry
+warning: SIOUX CITY &amp; ST. PAUL RAILROAD COMPANY &amp; OTHERS v. CHICAGO, MILWAUKEE &amp; ST. PAUL RAILWAY COMPANY (117 U.S. 406) has no SCOTUS citation entry
+warning: EMERSON (AS INTERPLEADER) v. SENTER &amp; ANOTHER (118 U.S. 3) has no SCOTUS citation entry
+warning: JACKSONVILLE, PENSACOLA AND MOBILE RAILROAD COMPANY v. UNITED STATES (118 U.S. 626) has no SCOTUS citation entry
+warning: UNITED STATES v. SAUNDERS (120 U.S. 126) has no SCOTUS citation entry
+warning: ROYALL v. VIRGINIA (121 U.S. 102) has no SCOTUS citation entry
+warning: UNITED STATES v. AUFFMORDT (122 U.S. 197) has no SCOTUS citation entry
+warning: UNITED STATES v. ALABAMA (123 U.S. 39) has no SCOTUS citation entry
+warning: ANDREWS v. CONE (124 U.S. 720) has no SCOTUS citation entry
+warning: WALKER v. PENNSYLVANIA (127 U.S. 699) has no SCOTUS citation entry
+warning: HOSFORD v. HARTFORD FIRE INSURANCE COMPANY (127 U.S. 404) has no SCOTUS citation entry
+warning: CURRIE, MAYOR, v. UNITED STATESS EX REL. JACOBS (129 U.S. 44) has no SCOTUS citation entry
+warning: GAFF, EXECUTRIX v. GOTTFRIED (128 U.S. 170) has no SCOTUS citation entry
+warning: DISTRICT OF COLUMBIA v. EMERSON (130 U.S. 229) has no SCOTUS citation entry
+warning: RADFORD v. FOLSOM (131 U.S. 292) has no SCOTUS citation entry
+warning: ROBERTSON v. EDELHOFF (132 U.S. 614) has no SCOTUS citation entry
+warning: in re PENNSYLVANIA COMPANY, PETITIONER (137 U.S. 457) has no SCOTUS citation entry
+warning: PULLMAN'S PALACE CAR COMPANY v. CENTRAL TRANSPORTATION COMPANY (139 U.S. 62) has no SCOTUS citation entry
+warning: ELECTRIC GAS-LIGHTING COMPANY v. TILLOTSON (139 U.S. 503) has no SCOTUS citation entry
+warning: INLAND AND SEABOARD COASTING COMPANY v. TOLSON (139 U.S. 551) has no SCOTUS citation entry
+warning: FERRY v. KING COUNTY (141 U.S. 673) has no SCOTUS citation entry
+warning: PORTER v. BANKS (144 U.S. 407) has no SCOTUS citation entry
+warning: KEELS v. CENTRAL RAILROAD COMPANY (147 U.S. 374) has no SCOTUS citation entry
+warning: UNITED STATES v. HUMPHRIES AND MOCK (149 U.S. 277) has no SCOTUS citation entry
+warning: in re SCHNEIDER, PETITIONER (NO. 2) (148 U.S. 162) has no SCOTUS citation entry
+warning: CHAPMAN v. HANDLEY (151 U.S. 443) has no SCOTUS citation entry
+warning: INDIANAPOLIS AND VINCENNES RAILROAD COMPANY v. BACKUS (154 U.S. 438) has no SCOTUS citation entry
+warning: PITTSBURG AND SOUTHERN COAL COMPANY v. BATES (156 U.S. 577) has no SCOTUS citation entry
+warning: RISDON IRON AND LOCOMOTIVE WORKS v. MEDART (158 U.S. 68) has no SCOTUS citation entry
+warning: TIOGA RAILROAD COMPANY v. PENNSYLVANIA. (158 U.S. 440) has no SCOTUS citation entry
+warning: CHICAGO, BURLINGTON AND QUINCY RAILROAD COMPANY v. CHICAGO (166 U.S. 258) has no SCOTUS citation entry
+warning: BRYANT v. UNITED STATES (167 U.S. 104) has no SCOTUS citation entry
+warning: CHICAGO, ST. PAUL, MINNEAPOLIS AND OMAHA RAILWAY COMPANY v. ROBERTS (164 U.S. 703) has no SCOTUS citation entry
+warning: UNITED STATES v. UNION PACIFIC RAILWAY COMPANY (165 U.S. 482) has no SCOTUS citation entry
+warning: SMITH v. NAPHTALY (169 U.S. 365) has no SCOTUS citation entry
+warning: UNITED STATES AND COMANCHE INDIANS v. KEMP (169 U.S. 733) has no SCOTUS citation entry
+warning: BEARDSLEY v. BROOM, ADMINISTRATRIX (168 U.S. 706) has no SCOTUS citation entry
+warning: BACON v. THE POCONOKET (168 U.S. 707) has no SCOTUS citation entry
+warning: BELLINGHAM BAY IMPROVEMENT COMPANY v. NEW WHATCOM. (172 U.S. 320) has no SCOTUS citation entry
+warning: CHAPPELL CHEMICAL AND FERTILIZER COMPANY v. SULPHUR MINES COMPANY (172 U.S. 472) has no SCOTUS citation entry
+warning: DEPOSIT BANK OF OWENSBORO v. OWENSBORO (173 U.S. 662) has no SCOTUS citation entry
+warning: DEPOSIT BANK OF OWENSBORO v. DAVIESS COUNTY (173 U.S. 663) has no SCOTUS citation entry
+warning: FARMERS' AND TRADERS' BANK OF OWENSBORO v. OWENSBORO (173 U.S. 663) has no SCOTUS citation entry
+warning: OWENSBORO NATIONAL BANK v. OWENSBORO (173 U.S. 664) has no SCOTUS citation entry
+warning: LOUISVILLE v. THE BANK OF COMMERCE (174 U.S. 428) has no SCOTUS citation entry
+warning: CHICAGO, ROCK ISLAND AND PACIFIC RAILWAY COMPANY v. DAVID CAMPBELL (174 U.S. 718) has no SCOTUS citation entry
+warning: US AND COMANCHE INDIANS v. HOOD (172 U.S. 641) has no SCOTUS citation entry
+warning: UNITED STATES v. VAN IDERSTINE (172 U.S. 642) has no SCOTUS citation entry
+warning: LOWRY v. SILVER CITY GOLD AND SILVER MINING COMPANY (179 U.S. 196) has no SCOTUS citation entry
+warning: YAZOO AND MISSISSIPPI VALLEY RAILROAD COMPANY v. ADAMS (180 U.S. 26) has no SCOTUS citation entry
+warning: ILLINOIS CENTRAL RAILROAD COMPANY v. ADAMS (180 U.S. 28) has no SCOTUS citation entry
+warning: TALBOT v. SIOUX NATIONAL BANK (185 U.S. 182) has no SCOTUS citation entry
+warning: MIDWAY COMPANY v. EATON (183 U.S. 619) has no SCOTUS citation entry
+warning: GLIDDEN v. HARRINGTON (189 U.S. 255) has no SCOTUS citation entry
+warning: CLARENCE E. COLLINS, PLAINTIFF IN ERROR, v. STATE OF NEW HAMPSHIRE (187 U.S. 636) has no SCOTUS citation entry
+warning: CHARLES L. RAWSON et al., PETITIONERS, v. WESTERN SAND BLAST COMPANY et al. (194 U.S. 627) has no SCOTUS citation entry
+warning: GLEASON v. WHITE (199 U.S. 54) has no SCOTUS citation entry
+warning: GREER COUNTY, OKLAHOMA TERRITORY, v. TEXAS (197 U.S. 235) has no SCOTUS citation entry
+warning: ST. LOUIS DRESSED BEEF AND PROVISION COMPANY v. MARYLAND CASUALTY COMPANY (201 U.S. 173) has no SCOTUS citation entry
+warning: INTERSTATE COMMERCE COMMISSION, APPELLANT, v. THE LAKE SHORE AND MICHIGAN SOUTHERN RAILWAY COMPANY et al. (202 U.S. 613) has no SCOTUS citation entry
+warning: ILLINOIS CENTRAL RAILROAD COMPANY, GULF AND SHIP ISLAND RAILROAD COMPANY, SOUTHERN RAILROAD COMPANY v. THE INTERSTATE COMMERCE COMMISSION (206 U.S. 441) has no SCOTUS citation entry
+warning: AMERICAN RAILROAD COMPANY OF PORTO RICO v. DE CASTRO (210 U.S. 440) has no SCOTUS citation entry
+warning: THE WINNEBAGO (205 U.S. 354) has no SCOTUS citation entry
+warning: UNITED STATES et al., APPELLANTS, v. WILLIAM B. KIRK (204 U.S. 668) has no SCOTUS citation entry
+warning: WILLIAM MCCOACH, COLLECTOR, ETC., PETITIONER, v. THE PHILADELPHIA TRUST, SAFE DEPOSIT AND INSURANCE COMPANY et al., EXECUTORS (205 U.S. 539) has no SCOTUS citation entry
+warning: NATIONAL LIFE INSURANCE COMPANY OF THE UNITED STATES OF AMERICA v. NATIONAL LIFE INSURANCE COMPANY (209 U.S. 317) has no SCOTUS citation entry
+warning: LEMIEUX v. YOUNG, TRUSTEE (211 U.S. 489) has no SCOTUS citation entry
+warning: UNITED STATES v. EVANS (213 U.S. 297) has no SCOTUS citation entry
+warning: LEEDS &amp; CATLIN COMPANY v. VICTOR TALKING MACHINE COMPANY (NO. 2) (213 U.S. 325) has no SCOTUS citation entry
+warning: UNITED STATES FIDELITY &amp; GUARANTY COMPANY v. UNITED STATES (214 U.S. 507) has no SCOTUS citation entry
+warning: BRILL v. WASHINGTONN RAILWAY AND ELECTRIC COMPANY (215 U.S. 527) has no SCOTUS citation entry
+warning: HENRY v. A.B. DICK COMPANY (224 U.S. 1) has no SCOTUS citation entry
+warning: MONSIGNOR HARTY v. MUNICIPALITY OF VICTORIA (226 U.S. 12) has no SCOTUS citation entry
+warning: CHICAGO, ROCK ISLAND &amp; PACIFIC RAILWAY COMPANY v. DOWELL (229 U.S. 102) has no SCOTUS citation entry
+warning: UNITED STATES v. DAVIS (231 U.S. 183) has no SCOTUS citation entry
+warning: 12 ENNIS WATER WORKS v. CITY OF ENNIS (233 U.S. 652) has no SCOTUS citation entry
+warning: OCAMPO v. UNITED STATES (234 U.S. 91) has no SCOTUS citation entry
+warning: AMERICAN IRON AND STEEL MANUFACTURING CO. v. SEABOARD AIR LINE RAILWAY (233 U.S. 261) has no SCOTUS citation entry
+warning: PARIS &amp; GREAT NORTHERN RAILROAD COMPANY, PLAINTIFF IN ERROR, v. MRS. GEORGIA BOSTON et al. (231 U.S. 742) has no SCOTUS citation entry
+warning: WALTER A. LEDBETTER, RECEIVER, ETC., PLAINTIFF IN ERROR, v. KAUFMAN MANDELL (234 U.S. 752) has no SCOTUS citation entry
+warning: MEEKER v. LEHIGH VALLEY RAILROAD (236 U.S. 434) has no SCOTUS citation entry
+warning: THE UNITED STATES, PLAINTIFF IN ERROR, v. HOLLAND-AMERICAN LINE (235 U.S. 686) has no SCOTUS citation entry
+warning: TANNER, ATTORNEY GENERAL OF THE STATE OF WASHINGTONN, v. LITTLE (240 U.S. 369) has no SCOTUS citation entry
+warning: COMMERCIAL NATIONAL BANK OF NEW ORLEANS v. CANAL-LOUISIANA BANK &amp; TRUST COMPANY (239 U.S. 520) has no SCOTUS citation entry
+warning: CHICAGO LIFE INSURANCE COMPANY et al. v. CHERRY (244 U.S. 25) has no SCOTUS citation entry
+warning: VALDEZ v. UNITED STATES (244 U.S. 432) has no SCOTUS citation entry
+warning: FRANK C. STETTLER, PLAINTIFF IN ERROR, v. EDWIN v. O'HARA et al., CONSTITUTING THE INDUSTRIAL WELFARE COMMISSION OF THE STATE OF OREGON (243 U.S. 629) has no SCOTUS citation entry
+warning: GEORGE SCHWEDE v. ZENITH STEAMSHIP CO. (244 U.S. 646) has no SCOTUS citation entry
+warning: PHILADELPHIA &amp; READING COAL &amp; IRON COMPANY v. GILBERT (245 U.S. 162) has no SCOTUS citation entry
+warning: JONES v. PERKINS, DEPUTY UNITED STATES MARSHAL, et al. (245 U.S. 390) has no SCOTUS citation entry
+warning: GULF OIL CORPORATIONN v. LEWELLYN, COLLECTOR OF INTERNAL REVENUE FOR THE TWENTY-THIRD DISTRICT OF PENNSYLVANIA (248 U.S. 71) has no SCOTUS citation entry
+warning: THE SCOW 6-S (250 U.S. 269) has no SCOTUS citation entry
+warning: F. VITELLI &amp; SON. v. UNITED STATES (250 U.S. 355) has no SCOTUS citation entry
+warning: MCCAY ENGINEERING COMPANY v. UNITED STATES (252 U.S. 571) has no SCOTUS citation entry
+warning: DE REES v. COSTAGUTA et al., INDIVIDUALLY AND AS CO-PARTNERS COMPOSING THE CO-PARTNERSHIP OF DAVID COSTAGUTA AND COMPANY, et al. (254 U.S. 166) has no SCOTUS citation entry
+warning: UNITED STATES v. NATIONAL SURETY COMPANY (254 U.S. 73) has no SCOTUS citation entry
+warning: EDWARD RUTLEDGE TIMBER COMPANY et al. v. FARRELL (255 U.S. 268) has no SCOTUS citation entry
+warning: NEWTON, ATTORNEY GENERAL OF THE STATE OF NEW YORK, et al. v. NEW YORK &amp; QUEENS GAS COMPANY (258 U.S. 178) has no SCOTUS citation entry
+warning: UNITED STATES v. WESLEY L. SISCHO (260 U.S. 697) has no SCOTUS citation entry
+warning: BUNCH v. COLE et al. (263 U.S. 250) has no SCOTUS citation entry
+warning: LIPSHITZ &amp; COHEN v. UNITED STATES (269 U.S. 90) has no SCOTUS citation entry
+warning: HASSLER, INC. v. SHAW (271 U.S. 195) has no SCOTUS citation entry
+warning: NEW MEXICO v. TEXAS (276 U.S. 558) has no SCOTUS citation entry
+warning: UNITED STATES et al. v. ANCHOR COAL CO. et al. (279 U.S. 812) has no SCOTUS citation entry
+warning: STATEN ISLAND RAPID TRANSIT RAILWAY COMPANY v. PHOENIX INDEMNITY COMPANY (281 U.S. 98) has no SCOTUS citation entry
+warning: HOME INSURANCE COMPANY et al. v. DICK et al. (281 U.S. 397) has no SCOTUS citation entry
+warning: NASHVILLE, CHATTANOOGA &amp; ST. LOUIS R. CO et al. v. MORGAN et al. (280 U.S. 534) has no SCOTUS citation entry
+warning: STANDARD OIL COMPANY (INDIANA) et al. v. UNITED STATES (283 U.S. 163) has no SCOTUS citation entry
+warning: GWINN v. COMMISSIONER OF INTERNAL REVENUE (287 U.S. 224) has no SCOTUS citation entry
+warning: GULF STATES STEEL CO. et al. v. UNITED STATES (287 U.S. 32) has no SCOTUS citation entry
+warning: SEABOARD AIR LINE RAILWAY CO. v. WATSON (287 U.S. 86) has no SCOTUS citation entry
+warning: O'DONOGHUE v. UNITED STATES (289 U.S. 516) has no SCOTUS citation entry
+warning: SEATTLE GAS CO. v. SEATTLE (291 U.S. 638) has no SCOTUS citation entry
+warning: HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. DUKE et al. (290 U.S. 591) has no SCOTUS citation entry
+warning: HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. NORTHERN COAL CO. (290 U.S. 591) has no SCOTUS citation entry
+warning: HELVERING v. UNITED STATES REFRACTORIES CORP. (290 U.S. 591) has no SCOTUS citation entry
+warning: INTERSTATE COMMERCE COM. v. PENNSYLVANIA R. CO. (291 U.S. 651) has no SCOTUS citation entry
+warning: SEABURY, RECEIVER, v. GREEN, ADMINISTRATRIX, et al. (294 U.S. 165) has no SCOTUS citation entry
+warning: WEST OHIO GAS CO. v. PUBLIC UTILITIES COMMISSION OF OHIO (294 U.S. 79) has no SCOTUS citation entry
+warning: MOOR v. TEXAS &amp; NEW ORLEANS RAILROAD CO. (297 U.S. 101) has no SCOTUS citation entry
+warning: DUPONT et al. v. UNITED STATES (300 U.S. 150) has no SCOTUS citation entry
+warning: W. H. H. CHAMBERLIN v. ANDREWS, INDUSTRIAL COMMISSIONER OF NEW YORK (299 U.S. 515) has no SCOTUS citation entry
+warning: TEXAS v. FLORIDA et al. (306 U.S. 398) has no SCOTUS citation entry
+warning: UNITED STATES v. ONE 1936 MODEL FORD V-8 DE LUXE COACH (305 U.S. 564) has no SCOTUS citation entry
+warning: MONTANA EX REL. BOARD OF COUNTY COMMISSIONERS v. BRUCE, COUNTY ASSESSOR, et al. (305 U.S. 577) has no SCOTUS citation entry
+warning: WESTERN UNION TELEGRAPH COMPANY v. NESTER et al. (309 U.S. 582) has no SCOTUS citation entry
+warning: WHITNEY et al., EXECUTORS, et al. v. STATE TAX COMMISSION OF NEW YORK (309 U.S. 530) has no SCOTUS citation entry
+warning: UNITED STATES v. STONE, UNITED STATES DISTRICT JUDGE (308 U.S. 519) has no SCOTUS citation entry
+warning: HELVERING, COMMISSIONER OF INTERNAL REVENUE, v. JOHNSON (308 U.S. 523) has no SCOTUS citation entry
+warning: KOBILKIN v. PILLSBURY, DEPUTY COMMISSIONER OF U.S. EMPLOYEES' COMPENSATION COMMISSION, et al. (309 U.S. 619) has no SCOTUS citation entry
+warning: OKLAHOMA EX REL. WILLIAMSON, ATTORNEY GENERAL, v. WOODRING, SECRETARY OF WAR (309 U.S. 623) has no SCOTUS citation entry
+warning: WILSON &amp; CO., INC. v. UNITED STATES (311 U.S. 104) has no SCOTUS citation entry
+warning: UNITED STATES v. MOSCOW FIRE INSURANCE CO. (309 U.S. 624) has no SCOTUS citation entry
+warning: GRAY, DIRECTOR OF THE BITUMINOUS COAL DIVISION OF THE DEPARTMENT OF THE INTERIOR, et al. v. POWELL et al., RECEIVERS (312 U.S. 666) has no SCOTUS citation entry
+warning: BERNARDS v. JOHNSON (313 U.S. 537) has no SCOTUS citation entry
+warning: LISENBA v. CALIFORNIA (313 U.S. 537) has no SCOTUS citation entry
+warning: NEW YORK, CHICAGO &amp; ST. LOUIS RAILROAD CO. v. FRANK (313 U.S. 538) has no SCOTUS citation entry
+warning: TOUCEY v. NEW YORK L. INS. CO. (313 U.S. 538) has no SCOTUS citation entry
+warning: BALTIMORE &amp; OHIO RAILROAD CO. v. KEPNER (313 U.S. 542) has no SCOTUS citation entry
+warning: COMMERCIAL MOLASSES CORP. v. NEW YORK TANK BARGE CORP. (313 U.S. 541) has no SCOTUS citation entry
+warning: REITZ v. MEALEY, COMMISSIONER OF MOTOR VEHICLES (313 U.S. 542) has no SCOTUS citation entry
+warning: HOLLAND v. LOWELL SUN CO. (315 U.S. 784) has no SCOTUS citation entry
+warning: RODIEK v. UNITED STATES (315 U.S. 783) has no SCOTUS citation entry
+warning: WEBER v. UNITED STATES (315 U.S. 787) has no SCOTUS citation entry
+warning: SCHENECTADY UNION PUB. CO. v. SWEENEY (316 U.S. 642) has no SCOTUS citation entry
+warning: UNITED STATES v. CONSUMERS PAPER CO. (317 U.S. 595) has no SCOTUS citation entry
+warning: WASHINGTON TERMINAL CO. v. BOSWELL (319 U.S. 732) has no SCOTUS citation entry
+warning: UNITED STATES EX REL. BRENSILBER v. BAUSCH &amp; LOMB OPTICAL CO. (320 U.S. 711) has no SCOTUS citation entry
+warning: FORD MOTOR CO. v. GORDON FORM LATHE CO. (320 U.S. 714) has no SCOTUS citation entry
+warning: UNITED STATES v. WATERHOUSE et al. (321 U.S. 743) has no SCOTUS citation entry
+warning: CORAL GABLES v. WRIGHT, DOING BUSINESS AS ED. C. WRIGHT &amp; CO., et al. (321 U.S. 753) has no SCOTUS citation entry
+warning: GIESE v. UNITED STATES (323 U.S. 682) has no SCOTUS citation entry
+warning: PACIFIC GAS &amp; ELECTRIC CO. v. SECURITIES &amp; EXCHANGE COMMISSION (324 U.S. 826) has no SCOTUS citation entry
+warning: MASON v. PARADISE IRRIGATION DISTRICT (326 U.S. 536) has no SCOTUS citation entry
+warning: HALLIBURTON OIL WELL CEMENTING CO. v. WALKER et al., DOING BUSINESS AS DEPTHOGRAPH COMPANY (326 U.S. 696) has no SCOTUS citation entry
+warning: BRUCE'S JUICES, INC. v. AMERICAN CAN CO. (327 U.S. 758) has no SCOTUS citation entry
+warning: MACGREGOR v. WESTINGHOUSE ELECTRIC &amp; MANUFACTURING CO. (327 U.S. 758) has no SCOTUS citation entry
+warning: UNITED STATES v. A. H. HEYWARD et al., ADMINISTRATORS, ETC. (250 U.S. 633) has no SCOTUS citation entry
+warning: VIRGINIAN RY. CO. v. CHAMBERS (284 U.S. 577) has no SCOTUS citation entry
+warning: PENNSYLVANIA RAILROAD COMPANY v. W.F. JACOBY &amp; COMPANY (239 U.S. 631) has no SCOTUS citation entry
+warning: CHICAGO &amp; ALTON RAILWAY COMPANY v. UNITED STATES (212 U.S. 563) has no SCOTUS citation entry
+warning: STONE v. BANK OF KENTUCKY (174 U.S. 799) has no SCOTUS citation entry
+warning: HILL v. CORCORAN (164 U.S. 703) has no SCOTUS citation entry
+warning: SOUTHERN LIGHTERAGE &amp; WRECKING COMPANY v. UNITED STATES (260 U.S. 699) has no SCOTUS citation entry
+warning: CITY OF LOUISVILLE v. LOUISVILLE BANKING COMPANY (174 U.S. 800) has no SCOTUS citation entry
+warning: MISSOURI, KANSAS AND TEXAS RAILWAY COMPANY v. ELLIOTT (184 U.S. 695) has no SCOTUS citation entry
+warning: ADAMS et al., ADMINISTRATORS, v. COWEN et al., TRUSTEES (174 U.S. 800) has no SCOTUS citation entry
+warning: BENJAMIN F. ROSELLE, PLAINTIFF IN ERROR, v. THE COMMONWEALTH OF VIRGINIA (223 U.S. 716) has no SCOTUS citation entry
+warning: STONE v. LOUISVILLE BANKING COMPANY (174 U.S. 799) has no SCOTUS citation entry
+warning: GILA BEND RESERVOIR v. LINN (171 U.S. 685) has no SCOTUS citation entry
+warning: CITY OF LOUISVILLE v. BANK OF KENTUCKY (174 U.S. 799) has no SCOTUS citation entry
+warning: STONE v. DEPOSIT BANK OF FRANKFORT (174 U.S. 800) has no SCOTUS citation entry
+warning: UNITED STATES v. GRIMAUD (216 U.S. 614) has no SCOTUS citation entry
+warning: BALTIMORE &amp; OHIO SOUTHWESTERN RAILROAD COMPANY v. UNITED STATES (216 U.S. 617) has no SCOTUS citation entry
+warning: WITHNELL v. WILLIAM R. BUSH CONSTRUCTION COMPANY (216 U.S. 603) has no SCOTUS citation entry
+warning: CHICAGO &amp; A. R. CO. v. UNITED STATES (242 U.S. 621) has no SCOTUS citation entry
+warning: GOULD v. HUGHES (179 U.S. 679) has no SCOTUS citation entry
+warning: SCOTT v. TEXAS AND PACIFIC RAILWAY COMPANY (180 U.S. 635) has no SCOTUS citation entry
+warning: ATLANTIC, GULF &amp; PACIFIC COMPANY v. UNITED STATES (247 U.S. 504) has no SCOTUS citation entry
+warning: UNITED STATES v. AMERICAN STEAMSHIP LAURADA (183 U.S. 694) has no SCOTUS citation entry
+warning: HANIFEN v. PRICE (186 U.S. 481) has no SCOTUS citation entry
+warning: KATE C. ARCHER, ADMINISTRATRIX OF GEORGE F. ARCHER, DECEASED, et al. v. UNITED STATES (251 U.S. 548) has no SCOTUS citation entry
+warning: UNITED STATES v. PULLMAN COMPANY et al. (330 U.S. 806) has no SCOTUS citation entry
+warning: PARKER v. ILLINOIS (334 U.S. 816) has no SCOTUS citation entry
+warning: CLAYTON MARK &amp; CO. et al. v. FEDERAL TRADE COMMISSION. (336 U.S. 956) has no SCOTUS citation entry
+warning: TAYLOR v. DENNIS, WARDEN. (336 U.S. 907) has no SCOTUS citation entry
+warning: DOUBLEDAY &amp; CO., INC. v. NEW YORK (335 U.S. 848) has no SCOTUS citation entry
+warning: MARZANI v. UNITED STATES (335 U.S. 895) has no SCOTUS citation entry
+warning: STEMMER v. NEW YORK (336 U.S. 963) has no SCOTUS citation entry
+warning: UNITED STATES v. COTTON VALLEY OPERATORS COMMITTEE et al. (339 U.S. 940) has no SCOTUS citation entry
+warning: BAILEY v. RICHARDSON et al. (341 U.S. 918) has no SCOTUS citation entry
+warning: UNITED STATES v. PENNER INSTALLATION CORP. (340 U.S. 898) has no SCOTUS citation entry
+warning: COMPAGNA et al. v. HIATT, WARDEN. (340 U.S. 880) has no SCOTUS citation entry
+warning: GARA v. UNITED STATES. (340 U.S. 857) has no SCOTUS citation entry
+warning: VON MOLTKE v. GILLIES, SUPERINTENDENT. (343 U.S. 922) has no SCOTUS citation entry
+warning: UNITED STATES EX REL. GIESE v. CHAMBERLIN, COMMANDING GENERAL, et al. (342 U.S. 845) has no SCOTUS citation entry
+warning: UNITED STATES v. JORDAN et al. (342 U.S. 911) has no SCOTUS citation entry
+warning: MCGRATH, ATTORNEY GENERAL, SUCCESSOR TO THE ALIEN PROPERTY CUSTODIAN, v. NAGANO (342 U.S. 916) has no SCOTUS citation entry
+warning: A/S J. LUDWIG MOWINCKELS REDERI et al. v. ISBRANDTSEN CO., INC. et al. (342 U.S. 950) has no SCOTUS citation entry
+warning: UNITED STATES v. KLINGER et al. (345 U.S. 979) has no SCOTUS citation entry
+warning: HARRISON, COLLECTOR OF INTERNAL REVENUE, v. BOHNEN, EXECUTOR, et al. (345 U.S. 946) has no SCOTUS citation entry
+warning: MARTINEZ v. NEELLY, SUCCESSOR TO JORDAN, DISTRICT DIRECTOR, IMMIGRATION AND NATURALIZATION SERVICE. (344 U.S. 916) has no SCOTUS citation entry
+warning: GULF RESEARCH &amp; DEVELOPMENT CO. et al. v. LEAHY, U.S. DISTRICT JUDGE, et al. (344 U.S. 861) has no SCOTUS citation entry
+warning: UNITED STATES v. BELL AIRCRAFT CORP. (344 U.S. 860) has no SCOTUS citation entry
+warning: CARDOX CORP. v. C-O-TWO FIRE EQUIPMENT CO. (341 U.S. 861) has no SCOTUS citation entry
+warning: NEVADA AND NEW YORK v. STACHER. (346 U.S. 906) has no SCOTUS citation entry
+warning: TOM WE SHUNG v. BROWNELL, ATTORNEY GENERAL, et al. (346 U.S. 906) has no SCOTUS citation entry
+warning: BROWNELL, ATTORNEY GENERAL, v. RUBINSTEIN. (346 U.S. 929) has no SCOTUS citation entry
+warning: NORTH v. FLORIDA (346 U.S. 932) has no SCOTUS citation entry
+warning: COUNTY BOARD OF ARLINGTON COUNTY et al.  v. STATE MILK COMMISSION. (346 U.S. 932) has no SCOTUS citation entry
+warning: GENERAL ELECTRIC CO. et al. v. WASHINGTON. (347 U.S. 909) has no SCOTUS citation entry
+warning: JACOBSON, ADMINISTRATRIX, v. NEW YORK, NEW HAVEN &amp; HARTFORD RAILROAD CO. (347 U.S. 909) has no SCOTUS citation entry
+warning: GORDON et al. v.  UNITED STATES (347 U.S. 909) has no SCOTUS citation entry
+warning: BENTSEN et al. v. BLACKWELL et al. (347 U.S. 925) has no SCOTUS citation entry
+warning: RICE v. SIOUX CITY MEMORIAL PARK CEMETERY, INC. et al. (348 U.S. 880) has no SCOTUS citation entry
+warning: REEVES v. ALABAMA. (348 U.S. 891) has no SCOTUS citation entry
+warning: CALIFORNIA ex rel. BROWN, ATTORNEY GENERAL, et al. v. ST. LOUIS UNION TRUST CO. (348 U.S. 932) has no SCOTUS citation entry
+warning: INDIANA DEPARTMENT OF STATE REVENUE, GROSS INCOME TAX DIVISION, v. NEBEKER. (348 U.S. 933) has no SCOTUS citation entry
+warning: COURTNEY et al. v. SCHROEDER. (348 U.S. 933) has no SCOTUS citation entry
+warning: FEDERAL TRADE COMMISSION v. RHODES PHARMACAL CO., INC. et al. (348 U.S. 940) has no SCOTUS citation entry
+warning: HARSH v. ILLINOIS TERMINAL RAILROAD CO. (348 U.S. 940) has no SCOTUS citation entry
+warning: MITCHELL, SECRETARY OF LABOR, v. JOYCE AGENCY, INC. (348 U.S. 945) has no SCOTUS citation entry
+warning: O'NEILL v. BALTIMORE &amp; OHIO RAILROAD CO. (348 U.S. 956) has no SCOTUS citation entry
+warning: MARCELLE v. ESTATE OF LUPIA et al. (348 U.S. 956) has no SCOTUS citation entry
+warning: DIEHL v. LEHIGH VALLEY RAILROAD CO. et al. (348 U.S. 960) has no SCOTUS citation entry
+warning: GENERAL DRIVERS, WAREHOUSEMEN, AND HELPERS, LOCAL UNION NO. 89, et al. v. AMERICAN TOBACCO CO., INC. (348 U.S. 978) has no SCOTUS citation entry
+warning: in re LEVY. (348 U.S. 978) has no SCOTUS citation entry
+warning: PINO v. LANDON, DISTRICT DIRECTOR, IMMIGRATION AND NATURALIZATION SERVICE. (349 U.S. 901) has no SCOTUS citation entry
+warning: INDIAN TOWING CO., INC. et al. v. UNITED STATES. (349 U.S. 902) has no SCOTUS citation entry
+warning: RYAN STEVEDORING CO., INC. v. PANATLANTIC STEAMSHIP CORP. (349 U.S. 901) has no SCOTUS citation entry
+warning: WILLIAMS v. UNITED STATES. (350 U.S. 857) has no SCOTUS citation entry
+warning: WALTON v. CALIFORNIA. (350 U.S. 868) has no SCOTUS citation entry
+warning: LIQUID CARBONIC CORP. v. UNITED STATES (350 U.S. 869) has no SCOTUS citation entry
+warning: NUKK et al. v. SHAUGHNESSY, DISTRICT DIRECTOR, IMMIGRATION AND NATURALIZATION SERVICE. (350 U.S. 869) has no SCOTUS citation entry
+warning: MITCHELL, SECRETARY OF LABOR, v. MYRTLE GROVE PACKING CO. (350 U.S. 891) has no SCOTUS citation entry
+warning: GONZALES v. LANDON, DISTRICT DIRECTOR, IMMIGRATION AND NATURALIZATION SERVICE, et al. (350 U.S. 920) has no SCOTUS citation entry
+warning: WISCONSIN v. TENNESSEE. (350 U.S. 955) has no SCOTUS citation entry
+warning: RIVERBANK LABORATORIES v. HARDWOOD PRODUCTS CORP. (350 U.S. 1003) has no SCOTUS citation entry
+warning: SUGDEN et ux. v. UNITED STATES. (351 U.S. 916) has no SCOTUS citation entry
+warning: THOMPSON v. COASTAL OIL CO. (350 U.S. 956) has no SCOTUS citation entry
+warning: HYUN v. LANDON, DISTRICT DIRECTOR, IMMIGRATION AND NATURALIZATION SERVICE (350 U.S. 990) has no SCOTUS citation entry
+warning: MESAROSH, ALIAS NELSON, et al. v. UNITED STATES. (352 U.S. 862) has no SCOTUS citation entry
+warning: THOMPSON v. COASTAL OIL CO. (352 U.S. 862) has no SCOTUS citation entry
+warning: HOLOPHANE CO., INC., v. UNITED STATES. (352 U.S. 903) has no SCOTUS citation entry
+warning: GOLD v. UNITED STATES (352 U.S. 985) has no SCOTUS citation entry
+warning: UNITED STATES v. SCHNEER'S ATLANTA, INC. (352 U.S. 978) has no SCOTUS citation entry
+warning: OLIN MATHIESON CHEMICAL CORP. v. NATIONAL LABOR RELATIONS BOARD. (352 U.S. 1020) has no SCOTUS citation entry
+warning: MITCHELL, SECRETARY OF LABOR, v. BEKINS VAN &amp; STORAGE CO. (352 U.S. 1027) has no SCOTUS citation entry
+warning: UNITED STATES v. AMERICAN FREIGHTWAYS CO. (352 U.S. 1020) has no SCOTUS citation entry
+warning: LASKY ET VIR v. COMMISSIONER OF INTERNAL REVENUE. (352 U.S. 1027) has no SCOTUS citation entry
+warning: ARKANSAS &amp; LOUISIANA MISSOURI RAILWAY CO. et al. v. AMARILLO-BORGER EXPRESS, INC., ET AL (352 U.S. 1028) has no SCOTUS citation entry
+warning: DEEN v. GULF, COLORADO &amp; SANTA FE RAILWAY CO. (353 U.S. 925) has no SCOTUS citation entry
+warning: THOMSON v. TEXAS &amp; PACIFIC RAILWAY CO. (353 U.S. 926) has no SCOTUS citation entry
+warning: AARON et al. v. COOPER et al., MEMBERS OF THE BOARD OF DIRECTORS OF THE LITTLE ROCK, ARKANSAS, INDEPENDENT SCHOOL DISTRICT, et al. (358 U.S. 27) has no SCOTUS citation entry
+warning: BROOKS v. MISSOURI PACIFIC RAILROAD CO. (376 U.S. 182) has no SCOTUS citation entry
+warning: CHANDLER, U.S. DISTRICT JUDGE v. JUDICIAL COUNCIL OF THE TENTH CIRCUIT OF THE UNITED STATES. (382 U.S. 1003) has no SCOTUS citation entry
+warning: ARKANSAS v. TENNESSEE (397 U.S. 91) has no SCOTUS citation entry
+warning: TEST v. UNITED STATES (420 U.S. 28) has no SCOTUS citation entry
+warning: FUNGAROLI v. FUNGAROLI (446 U.S. 930) has no SCOTUS citation entry
+warning: SEARS, ROEBUCK &amp; CO. v. COUNTY OF LOS ANGELES (449 U.S. 1119) has no SCOTUS citation entry
+warning: NORTH CAROLINA DEPARTMENT OF TRANSPORTATION et al. v. CREST STREET COMMUNITY COUNCIL, INC., et al. (479 U.S. 6) has no SCOTUS citation entry
+warning: CITICORP INDUSTRIAL CREDIT, INC. v. BROCK, SECRETARY OF LABOR (483 U.S. 27) has no SCOTUS citation entry
+warning: GRANITE STATE INS. CO. v. TANDY CORP. (507 U.S. 1026) has no SCOTUS citation entry
+warning: CATERPILLAR INC. v. INTERNATIONAL UNION, UNITED AUTOMOBILE, AEROSPACE AND AGRICULTURAL IMPLEMENT WORKERS OF AMERICA (523 U.S. 1015) has no SCOTUS citation entry
+warning: LEWIS v. BRUNSWICK CORP. (523 U.S. 1113) has no SCOTUS citation entry
+warning: ARKANSAS DEPARTMENT OF HEALTH AND HUMAN SERVICES, et al. v. HEIDI AHLBORN (547 U.S. 268) has no SCOTUS citation entry
+warning: KLEIN &amp; CO. FUTURES, INC. v. BD. OF TRADE (552 U.S. 1085) has no SCOTUS citation entry
+warning: RICK THALER, DIRECTOR, TEXAS DEPARTMENT OF CRIMINAL JUSTICE, CORRECTIONAL INSTITUTIONS DIVISION v. ANTHONY CARDELL HAYNES (559 U.S. 1088) has no SCOTUS citation entry
+warning: POTTAWATTAMIE COUNTY, IOWA, et al., PETITIONERS v. CURTIS W. MCGHEE, JR., et al. (558 U.S. 1103) has no SCOTUS citation entry
+warning: CURT MESSERSCHMIDT et al., PETITIONERS v. BRENDA MILLENDER, AS EXECUTOR OF THE ESTATE OF AUGUSTA MILLENDER, DECEASED, et al. () has no SCOTUS citation entry
+warning: PPL MONTANA, LLC, PETITIONER v. MONTANA () has no SCOTUS citation entry
+warning: TOBY DOUGLAS, DIRECTOR, CALIFORNIA DEPARTMENT OF HEALTH CARE SERVICES, PETITIONER v. INDEPENDENT LIVING CENTER OF SOUTHERN CALIFORNIA, INC., et al. () has no SCOTUS citation entry
+warning: GLORIA GAIL KURNS, EXECUTRIX OF THE ESTATE OF GEORGE M. CORSON, DECEASED, et al., PETITIONERS v. RAILROAD FRICTION PRODUCTS CORPORATION et al. () has no SCOTUS citation entry
+warning: MICHAEL MARTEL, WARDEN, PETITIONER v. KENNETH CLAIR () has no SCOTUS citation entry
+warning: LUIS MARIANO MARTINEZ, PETITIONER v. CHARLES L. RYAN, DIRECTOR, ARIZONA DEPARTMENT OF CORRECTIONS () has no SCOTUS citation entry
+warning: DANIEL COLEMAN, PETITIONER v. COURT OF APPEALS OF MARYLAND et al. () has no SCOTUS citation entry
+warning: DANA ROBERTS, PETITIONER v. SEA-LAND SERVICES, INC., et al. () has no SCOTUS citation entry
+warning: MAYO COLLABORATIVE SERVICES, DBA MAYO MEDICAL LABORATORIES, et al., PETITIONERS v. PROMETHEUS LABORATORIES, INC. () has no SCOTUS citation entry
+warning: CREDIT SUISSE SECURITIES (USA) LLC, et al., PETITIONERS v. VANESSA SIMMONDS () has no SCOTUS citation entry
+warning: MENACHEM BINYAMIN ZIVOTOFSKY, BY HIS PARENTS AND GUARDIANS, ARI Z. AND NAOMI SIEGMAN ZIVOTOFSKY, PETITIONER v. HILLARY RODHAM CLINTON, SECRETARY OF STATE () has no SCOTUS citation entry
+warning: BLAINE LAFLER, PETITIONER v. ANTHONY COOPER () has no SCOTUS citation entry
+warning: MISSOURI, PETITIONER v. GALIN E. FRYE () has no SCOTUS citation entry
+warning: CHANTELL SACKETT, et vir, PETITIONERS v. ENVIRONMENTAL PROTECTION AGENCY, et al. () has no SCOTUS citation entry
+warning: MONROE ACE SETSER, PETITIONER v. UNITED STATES () has no SCOTUS citation entry
+warning: PANAGIS VARTELAS, PETITIONER v. ERIC H. HOLDER, JR., ATTORNEY GENERAL () has no SCOTUS citation entry
+warning: FEDERAL AVIATION ADMINISTRATION, et al., PETITIONERS v. STANMORE CAWTHON COOPER () has no SCOTUS citation entry
+warning: ALBERT W. FLORENCE, PETITIONER v. BOARD OF CHOSEN FREEHOLDERS OF THE COUNTY OF BURLINGTON et al. () has no SCOTUS citation entry
+warning: CARACO PHARMACEUTICAL LABORATORIES, LTD., et al., PETITIONERS v. NOVO NORDISK A/S et al. () has no SCOTUS citation entry
+warning: STEVE A. FILARSKY, PETITIONER v. NICHOLAS B. DELIA. () has no SCOTUS citation entry
+warning: ASID MOHAMAD, INDIVIDUALLY AND FOR THE ESTATE OF AZZAM RAHIM, DECEASED, et al., PETITIONERS v. PALESTINIAN AUTHORITY et al. () has no SCOTUS citation entry
+warning: DAVID J. KAPPOS, UNDER SECRETARY OF COMMERCE FOR INTELLECTUAL PROPERTY AND DIRECTOR, PATENT AND TRADEMARK OFFICE, PETITIONER v. GILBERT P. HYATT () has no SCOTUS citation entry
+warning: PATRICK WOOD, PETITIONER v. KEVIN MILYARD, WARDEN, et al. () has no SCOTUS citation entry
+warning: UNITED STATES, PETITIONER v. HOME CONCRETE &amp; SUPPLY, LLC, et al. () has no SCOTUS citation entry
+warning: LYNWOOD D. HALL, ET UX., PETITIONERS v. UNITED STATES () has no SCOTUS citation entry
+warning: MICHAEL J. ASTRUE, COMMISSIONER OF SOCIAL SECURITY, PETITIONER v. KAREN K. CAPATO, ON BEHALF OF B. N. C., et al. () has no SCOTUS citation entry
+warning: KOUICHI TANIGUCHI, PETITIONER v. KAN PACIFIC SAIPAN, LTD., DBA MARIANAS RESORT AND SPA () has no SCOTUS citation entry
+warning: ERIC H. HOLDER, JR., ATTORNEY GENERAL, PETITIONER  v. CARLOS MARTINEZ GUTIERREZ () has no SCOTUS citation entry
+warning: ALEX BLUEFORD, PETITIONER v. ARKANSAS () has no SCOTUS citation entry
+warning: TAMMY FORET FREEMAN, et al., PETITIONERS v. QUICKEN LOANS, INC. () has no SCOTUS citation entry
+warning: RADLAX GATEWAY HOTEL, LLC, et al. v. AMALGAMATED BANK () has no SCOTUS citation entry
+warning: BRIAN COLEMAN, SUPERINTENDENT, STATE CORRECTIONAL INSTITUTION AT FAYETTE, et al. v. LORENZO JOHNSON () has no SCOTUS citation entry
+warning: VIRGIL D. 'GUS' REICHLE, JR., et al., PETITIONERS v. STEVEN HOWARDS () has no SCOTUS citation entry
+warning: CHRISTINE ARMOUR, et al., PETITIONERS v. CITY OF INDIANAPOLIS, INDIANA, et al. () has no SCOTUS citation entry
+warning: PHILIP PARKER, WARDEN v. DAVID EUGENE MATTHEWS () has no SCOTUS citation entry
+warning: ELGIN v. DEPARTMENT OF TREASURY () has no SCOTUS citation entry
+warning: MATCH-E-BE-NASH-SHE-WISH BAND OF POTTAWATOMI INDIANS v. PATCHAK () has no SCOTUS citation entry
+warning: SALAZAR v. RAMAH NAVAJO CHAPTER () has no SCOTUS citation entry
+warning: MICHAEL SHANE CHRISTOPHER, et al., PETITIONERS v. SMITHKLINE BEECHAM CORPORATION DBA GLAXOSMITHKLINE () has no SCOTUS citation entry
+warning: WILLIAMS v. ILLINOIS () has no SCOTUS citation entry
+warning: SOUTHERN UNION CO. v. UNITED STATES () has no SCOTUS citation entry
+warning: DIANNE KNOX, et al., PETITIONERS v. SERVICE EMPLOYEES INTERNATIONAL UNION, LOCAL 1000 () has no SCOTUS citation entry
+warning: EDWARD DORSEY, SR., PETITIONER  v. UNITED STATES () has no SCOTUS citation entry
+warning: FEDERAL COMMUNICATIONS COMMISSION, et al., PETITIONERS v. FOX TELEVISION STATIONS, INC., et al. FEDERAL COMMUNICATIONS COMMISSION, et al., PETITIONERS v. ABC, INC., et al. () has no SCOTUS citation entry
+warning: AMERICAN TRADITION PARTNERSHIP, INC., FKA WESTERN TRADITION PARTNERSHIP, INC., et al. v. STEVE BULLOCK, ATTORNEY GENERAL OF MONTANA, et al. () has no SCOTUS citation entry
+warning: EVAN MILLER, PETITIONER v. ALABAMA () has no SCOTUS citation entry
+warning: ARIZONA, et al., PETITIONERS v. UNITED STATES () has no SCOTUS citation entry
+warning: UNITED STATES, PETITIONER v. XAVIER ALVAREZ () has no SCOTUS citation entry
+warning: NATIONAL FEDERATION OF INDEPENDENT BUSINESS, et al., PETITIONERS v. KATHLEEN SEBELIUS, SECRETARY OF HEALTH AND HUMAN SERVICES, et al. () has no SCOTUS citation entry
+warning: FIRST AMERICAN FINANCIAL CORPORATION, SUCCESSOR IN INTEREST TO THE FIRST AMERICAN CORPORATION, et al., PETITIONERS v. DENISE P. EDWARDS () has no SCOTUS citation entry
+warning: ARKANSAS GAME AND FISH COMMISSION, PETITIONER v. UNITED STATES () has no SCOTUS citation entry
+warning: STEVEN LEFEMINE, DBA COLUMBIA CHRISTIANS FOR LIFE v. DAN WIDEMAN et al. () has no SCOTUS citation entry
+warning: NITRO-LIFT TECHNOLOGIES, L.L.C. v. EDDIE LEE HOWARD et al. () has no SCOTUS citation entry
+warning: UNITED STATES, PETITIONER v. JAMES X. BORMES () has no SCOTUS citation entry
+warning: CAROLYN M. KLOECKNER, PETITIONER v. HILDA L. SOLIS, SECRETARY OF LABOR () has no SCOTUS citation entry
+warning: CALVIN SMITH, PETITIONER v. UNITED STATES () has no SCOTUS citation entry
+warning: ALREADY, LLC, DBA YUMS, PETITIONER v. NIKE, INC. () has no SCOTUS citation entry
+warning: LOS ANGELES COUNTY FLOOD CONTROL DISTRICT PETITIONER v. NATURAL RESOURCES DEFENSE COUNCIL, INC., et al. () has no SCOTUS citation entry
+warning: CHARLES L. RYAN, PETITIONER v. ERNEST VALENCIA GONZALES () has no SCOTUS citation entry
+warning: FANE LOZMAN, PETITIONER v. THE CITY OF RIVIERA BEACH, FLORIDA () has no SCOTUS citation entry
+warning: KATHLEEN SEBELIUS, SECRETARY OF HEALTH AND HUMAN SERVICES, PETITIONER v. AUBURN REGIONAL MEDICAL CENTER et al. () has no SCOTUS citation entry
+warning: JEFFREY LEE CHAFIN, PETITIONER v. LYNNE HALES CHAFIN () has no SCOTUS citation entry
+warning: CHUNON L. BAILEY, AKA POLO, PETITIONER v. UNITED STATES () has no SCOTUS citation entry
+warning: FEDERAL TRADE COMMISSION, PETITIONER v. PHOEBE PUTNEY HEALTH SYSTEM, INC., et al. () has no SCOTUS citation entry
+warning: FLORIDA, PETITIONER v. CLAYTON HARRIS () has no SCOTUS citation entry
+warning: ARMARCION D. HENDERSON, PETITIONER v. UNITED STATES () has no SCOTUS citation entry
+warning: DEBORAH K. JOHNSON, ACTING WARDEN, PETITIONER v. TARA SHENEVA WILLIAMS () has no SCOTUS citation entry
+warning: LAMAR EVANS, PETITIONER v. MICHIGAN () has no SCOTUS citation entry
+warning: ROSELVA CHAIDEZ, PETITIONER v. UNITED STATES () has no SCOTUS citation entry
+warning: OLIVEA MARX, PETITIONER v. GENERAL REVENUE CORPORATION () has no SCOTUS citation entry
+warning: JAMES R. CLAPPER, JR., DIRECTOR OF NATIONAL INTELLIGENCE, et al., PETITIONERS v. AMNESTY INTERNATIONAL USA et al. () has no SCOTUS citation entry
+warning: MARC J. GABELLI AND BRUCE ALPERT, PETITIONERS v. SECURITIES AND EXCHANGE COMMISSION () has no SCOTUS citation entry
+warning: AMGEN INC., et al., PETITIONERS v. CONNECTICUT RETIREMENT PLANS AND TRUST FUNDS () has no SCOTUS citation entry
+warning: STEVEN ALAN LEVIN, PETITIONER v. UNITED STATES et al. () has no SCOTUS citation entry
+warning: SUPAP KIRTSAENG, DBA BLUECHRISTINE99, PETITIONER v. JOHN WILEY &amp; SONS, INC. () has no SCOTUS citation entry
+warning: THE STANDARD FIRE INSURANCE COMPANY, PETITIONER v. GREG KNOWLES () has no SCOTUS citation entry
+warning: DOUG DECKER, IN HIS OFFICIAL CAPACITY AS OREGON STATE FORESTER, et al., PETITIONERS v. NORTHWEST ENVIRONMENTAL DEFENSE CENTER; () has no SCOTUS citation entry
+warning: ALDONA WOS, SECRETARY, NORTH CAROLINA DEPARTMENT OF HEALTH AND HUMAN SERVICES, PETITIONER v. E. M. A., A MINOR, BY AND THROUGH HER GUARDIAN AD LITEM, DANIEL H. JOHNSON, et al. () has no SCOTUS citation entry
+warning: JERRY W. GUNN, et al., PETITIONERS v. VERNON F. MINTON () has no SCOTUS citation entry
+warning: FLORIDA, PETITIONER v. JOELIS JARDINES () has no SCOTUS citation entry
+warning: COMCAST CORPORATION, et al., PETITIONERS v. CAROLINE BEHREND et al. () has no SCOTUS citation entry
+warning: KIM MILLBROOK, PETITIONER v. UNITED STATES () has no SCOTUS citation entry
+warning: JOHN MARSHALL, WARDEN v. OTIS LEE RODGERS () has no SCOTUS citation entry
+warning: GENESIS HEALTHCARE CORPORATION, et al., PETITIONERS v. LAURA SYMCZYK () has no SCOTUS citation entry
+warning: US AIRWAYS, INC., IN ITS CAPACITY AS FIDUCIARY AND PLAN ADMINISTRATOR OF THE US AIRWAYS, INC. EMPLOYEE BENEFITS PLAN, PETITIONER v. JAMES E. MCCUTCHEN et al. () has no SCOTUS citation entry
+warning: ESTHER KIOBEL, INDIVIDUALLY AND ON BEHALF OF HER LATE HUSBAND, DR. BARINEM KIOBEL, et al., PETITIONERS v. ROYAL DUTCH PETROLEUM CO. et al. () has no SCOTUS citation entry
+warning: MISSOURI, PETITIONER v. G. MCNEELY () has no SCOTUS citation entry
+warning: ADRIAN MONCRIEFFE, PETITIONER v. ERIC H. HOLDER, JR., ATTORNEY GENERAL () has no SCOTUS citation entry
+warning: MARK J. MCBURNEY, et al., PETITIONERS v. NATHANIEL L. YOUNG, DEPUTY COMMISSIONER AND DIRECTOR, VIRGINIA DIVISION OF CHILD SUPPORT ENFORCEMENT, et al. () has no SCOTUS citation entry
+warning: JONATHAN EDWARD BOYER, PETITIONER v. LOUISIANA () has no SCOTUS citation entry
+warning: DAN&rsquo;S CITY USED CARS, INC., DBA DAN&rsquo;S CITY AUTO BODY, PETITIONER v. ROBERT PELKEY () has no SCOTUS citation entry
+warning: RANDY CURTIS BULLOCK, PETITIONER v. BANKCHAMPAIGN, N. A. () has no SCOTUS citation entry
+warning: VERNON HUGH BOWMAN, PETITIONER v. MONSANTO COMPANY et al. () has no SCOTUS citation entry
+warning: CITY OF ARLINGTON, TEXAS, et al., PETITIONERS v. FEDERAL COMMUNICATIONS COMMISSION et al. () has no SCOTUS citation entry
+warning: PPL CORPORATION AND SUBSIDIARIES, PETITIONERS v. COMMISSIONER OF INTERNAL REVENUE () has no SCOTUS citation entry
+warning: LINDA METRISH, WARDEN, PETITIONER v. BURT LANCASTER () has no SCOTUS citation entry
+warning: KATHLEEN SEBELIUS, SECRETARY OF HEALTH AND HUMAN SERVICES, PETITIONER v. MELISSA CLOER () has no SCOTUS citation entry
+warning: GREG MCQUIGGIN, WARDEN, PETITIONER v. FLOYD PERKINS () has no SCOTUS citation entry
+warning: CARLOS TREVINO, PETITIONER v. RICK THALER, DIRECTOR, TEXAS DEPARTMENT OF CRIMINAL JUSTICE, CORRECTIONAL INSTITUTIONS DIVISION () has no SCOTUS citation entry
+warning: MARYLAND, PETITIONER v. ALONZO JAY KING, JR. () has no SCOTUS citation entry
+warning: JACQUELINE HILLMAN, PETITIONER v. JUDY A. MARETTA () has no SCOTUS citation entry
+warning: NEVADA, et al., PETITIONERS v. CALVIN O&rsquo;NEIL JACKSON () has no SCOTUS citation entry
+warning: MARVIN D. HORNE, et al., PETITIONERS v. DEPARTMENT OF AGRICULTURE () has no SCOTUS citation entry
+warning: MARVIN PEUGH, PETITIONER v. UNITED STATES () has no SCOTUS citation entry
+warning: OXFORD HEALTH PLANS LLC, PETITIONER v. JOHN IVAN SUTTER () has no SCOTUS citation entry
+warning: AMERICAN TRUCKING ASSOCIATIONS, INC., PETITIONER v. CITY OF LOS ANGELES, CALIFORNIA, et al. () has no SCOTUS citation entry
+warning: TARRANT REGIONAL WATER DISTRICT, PETITIONER v. RUDOLF JOHN HERRMANN, et al. () has no SCOTUS citation entry
+warning: UNITED STATES, PETITIONER v. ANTHONY DAVILA () has no SCOTUS citation entry
+warning: ASSOCIATION FOR MOLECULAR PATHOLOGY, et al., PETITIONERS v. MYRIAD GENETICS, INC., et al. () has no SCOTUS citation entry
+warning: GENOVEVO SALINAS, PETITIONER v. TEXAS () has no SCOTUS citation entry
+warning: FEDERAL TRADE COMMISSION, PETITIONER v. ACTAVIS, INC., et al. () has no SCOTUS citation entry
+warning: ALLEN RYAN ALLEYNE, PETITIONER v. UNITED STATES () has no SCOTUS citation entry
+warning: EDWARD F. MARACICH, et al., PETITIONERS v. MICHAEL EUGENE SPEARS et al. () has no SCOTUS citation entry
+warning: ARIZONA, et al., PETITIONERS v. THE INTER TRIBAL COUNCIL OF ARIZONA, INC., et al. () has no SCOTUS citation entry
+warning: AGENCY FOR INTERNATIONAL DEVELOPMENT, et al., PETITIONERS v. ALLIANCE FOR OPEN SOCIETY INTERNATIONAL, INC., et al. () has no SCOTUS citation entry
+warning: AMERICAN EXPRESS COMPANY, et al., PETITIONERS v. ITALIAN COLORS RESTAURANT, et al. () has no SCOTUS citation entry
+warning: MATTHEW ROBERT DESCAMPS, PETITIONER v. UNITED STATES () has no SCOTUS citation entry
+warning: ABIGAIL NOEL FISHER, PETITIONER v. UNIVERSITY OF TEXAS AT AUSTIN et al. () has no SCOTUS citation entry
+warning: MUTUAL PHARMACEUTICAL COMPANY, INC., PETITIONER v. KAREN L. BARTLETT () has no SCOTUS citation entry
+warning: MAETTA VANCE, PETITIONER v. BALL STATE UNIVERSITY () has no SCOTUS citation entry
+warning: UNITED STATES, PETITIONER v. ANTHONY JAMES KEBODEAUX () has no SCOTUS citation entry
+warning: UNIVERSITY OF TEXAS SOUTHWESTERN MEDICAL CENTER, PETITIONER v. NAIEL NASSAR () has no SCOTUS citation entry
+warning: SHELBY COUNTY v. HOLDER () has no SCOTUS citation entry
+warning: KOONTZ v. ST. JOHNS RIVER WATER MGMT. DIST. () has no SCOTUS citation entry
+warning: ADOPTIVE COUPLE v. BABY GIRL () has no SCOTUS citation entry
+warning: RYAN v. SCHAD () has no SCOTUS citation entry
+warning: HOLLINGSWORTH v. PERRY () has no SCOTUS citation entry
+warning: SEKHAR v. UNITED STATES () has no SCOTUS citation entry
+warning: UNITED STATES v. WINDSOR () has no SCOTUS citation entry
+warning: MADIGAN v. LEVIN () has no SCOTUS citation entry
+warning: STANTON v. SIMS () has no SCOTUS citation entry
+warning: BURT v. TITLOW () has no SCOTUS citation entry
+warning: FORD MOTOR CO. v. UNITED STATES () has no SCOTUS citation entry
+warning: UNITED STATES v. WOODS () has no SCOTUS citation entry
+warning: ATLANTIC MARINE CONSTR. CO. v. UNITED STATES DIST. COURT FOR WESTERN DIST. OF TEX. () has no SCOTUS citation entry
+warning: SPRINT COMMUNICATIONS, INC. v. JACOBS () has no SCOTUS citation entry
+warning: UNITE HERE LOCAL 355 v. MULHALL () has no SCOTUS citation entry
+warning: KANSAS v. CHEEVER () has no SCOTUS citation entry
+warning: HEIMESHOFF v. HARTFORD LIFE &amp; ACCIDENT INS. CO. () has no SCOTUS citation entry
+warning: DAIMLERCHRYSLER AG v. BAUMAN () has no SCOTUS citation entry
+warning: MISS. EX REL. HOOD v. AU OPTRONICS CORP. () has no SCOTUS citation entry
+warning: RAY HALUCH GRAVEL CO. v. CENT. PENSION FUND OF INT'L UNION OF OPERATING ENG'RS () has no SCOTUS citation entry
+warning: MEDTRONIC, INC. v. MIROWSKI FAMILY VENTURES, LLC () has no SCOTUS citation entry
+warning: BURRAGE v. UNITED STATES () has no SCOTUS citation entry
+warning: SANDIFER v. UNITED STATES STEEL CORP. () has no SCOTUS citation entry
+warning: AIR WISCONSIN AIRLINES CORP. v. HOEPER () has no SCOTUS citation entry
+warning: HINTON v. ALABAMA () has no SCOTUS citation entry
+warning: KALEY v. UNITED STATES () has no SCOTUS citation entry
+warning: FERNANDEZ v. CALIFORNIA () has no SCOTUS citation entry
+warning: WALDEN v. FIORE () has no SCOTUS citation entry
+warning: CHADBOURNE &amp; PARKE LLP v. TROICE () has no SCOTUS citation entry
+warning: UNITED STATES v. APEL () has no SCOTUS citation entry
+warning: LAWSON v. FMR LLC () has no SCOTUS citation entry
+warning: LAW v. SIEGEL () has no SCOTUS citation entry
+warning: LOZANO v. MONTOYA ALVAREZ () has no SCOTUS citation entry
+warning: BG GROUP PLC v. REPUBLIC OF ARGENTINA () has no SCOTUS citation entry
+warning: ROSEMOND v. UNITED STATES () has no SCOTUS citation entry
+warning: BRANDT TRUST v. UNITED STATES () has no SCOTUS citation entry
+warning: LEXMARK INT'L, INC. v. STATIC CONTROL COMPONENTS, INC., () has no SCOTUS citation entry
+warning: UNITED STATES v. QUALITY STORES, INC., et al. () has no SCOTUS citation entry
+warning: UNITED STATES v. CASTLEMAN () has no SCOTUS citation entry
+warning: MCCUTCHEON v. FEC () has no SCOTUS citation entry
+warning: NORTHWEST, INC. v. GINSBERG () has no SCOTUS citation entry
+warning: SCHUETTE v. COALITION TO DEFEND AFFIRMATIVE ACTION () has no SCOTUS citation entry
+warning: PRADO NAVARETTE v. CALIFORNIA () has no SCOTUS citation entry
+warning: WHITE v. WOODALL () has no SCOTUS citation entry
+warning: PAROLINE v. UNITED STATES () has no SCOTUS citation entry
+warning: EPA v. EME HOMER CITY GENERATION () has no SCOTUS citation entry
+warning: OCTANE FITNESS, LLC v. ICON HEALTH &amp; FITNESS, INC. () has no SCOTUS citation entry
+warning: HIGHMARK INC. v. ALLCARE HEALTH MGMT. SYS. () has no SCOTUS citation entry
+warning: TOWN OF GREECE v. GALLOWAY () has no SCOTUS citation entry
+warning: ROBERS v. UNITED STATES () has no SCOTUS citation entry
+warning: TOLAN v. COTTON () has no SCOTUS citation entry
+warning: PETRELLA v. METRO-GOLDWYN-MAYER, INC. () has no SCOTUS citation entry
+warning: HALL v. FLORIDA () has no SCOTUS citation entry
+warning: WOOD v. MOSS () has no SCOTUS citation entry
+warning: MICHIGAN v. BAY MILLS INDIAN COMMUNITY () has no SCOTUS citation entry
+warning: PLUMHOFF v. RICKARD () has no SCOTUS citation entry
+warning: MARTINEZ v. ILLINOIS () has no SCOTUS citation entry
+warning: LIMELIGHT NETWORKS, INC. v. AKAMAI TECHNOLOGIES, INC. () has no SCOTUS citation entry
+warning: NAUTILUS, INC. v. BIOSIG INSTRUMENTS, INC () has no SCOTUS citation entry
+warning: BOND v. UNITED STATES () has no SCOTUS citation entry
+warning: CTS CORP. v. WALDBURGER () has no SCOTUS citation entry
+warning: EXECUTIVE BENEFITS INS. AGENCY v. ARKISON () has no SCOTUS citation entry
+warning: SCIALABBA v. CUELLAR DE OSORIO () has no SCOTUS citation entry
+warning: POM WONDERFUL LLC v. COCA-COLA CO. () has no SCOTUS citation entry
+warning: CLARK v. RAMEKER () has no SCOTUS citation entry
+warning: REPUBLIC OF ARGENTINA v. NML CAPITAL, LTD. () has no SCOTUS citation entry
+warning: SUSAN B. ANTHONY LIST v. DRIEHAUS () has no SCOTUS citation entry
+warning: ABRAMSKI v. UNITED STATES () has no SCOTUS citation entry
+warning: HALLIBURTON CO. v. ERICA P. JOHN FUND, INC. () has no SCOTUS citation entry
+warning: UTIL. AIR REGULATORY GROUP v. EPA () has no SCOTUS citation entry
+warning: LOUGHRIN v. UNITED STATES () has no SCOTUS citation entry
+warning: RILEY v. CALIFORNIA () has no SCOTUS citation entry
+warning: FIFTH THIRD BANCORP v. DUDENHOEFFER () has no SCOTUS citation entry
+warning: AMERICAN BROADCASTING COS. v. AEREO, INC. () has no SCOTUS citation entry
+warning: MCCULLEN v. COAKLEY () has no SCOTUS citation entry
+warning: NLRB v. NOEL CANNING () has no SCOTUS citation entry
+warning: BURWELL v. HOBBY LOBBY STORES () has no SCOTUS citation entry
+warning: HARRIS v. QUINN () has no SCOTUS citation entry
+warning: WILLIAMS v. JOHNSON () has no SCOTUS citation entry
+warning: LANE v. FRANKS () has no SCOTUS citation entry
+warning: ALICE CORP. PTY. LTD. v. CLS BANK INT'L () has no SCOTUS citation entry
+warning: UNITED STATES v. CLARKE () has no SCOTUS citation entry
+warning: HEIEN v. NORTH CAROLINA () has no SCOTUS citation entry
+warning: HOLT v. HOBBS () has no SCOTUS citation entry
+warning: DART CHEROKEE BASIN OPERATING CO., LLC v. OWENS () has no SCOTUS citation entry
+warning: INTEGRITY STAFFING SOLUTIONS, INC. v. BUSK () has no SCOTUS citation entry
+warning: WARGER v. SHAUERS () has no SCOTUS citation entry
+warning: KANSAS v. NEBRASKA AND COLORADO () has no SCOTUS citation entry
+warning: NC BD. OF DENTAL EXAMINERS v. FTC () has no SCOTUS citation entry
+warning: TEVA PHARMS. USA, INC. v. SANDOZ, INC. () has no SCOTUS citation entry
+warning: JENNINGS v. STEPHENS () has no SCOTUS citation entry
+warning: ZIVOTOFSKY v. KERRY () has no SCOTUS citation entry
+warning: OMNICARE, INC. v. LABORERS DIST. COUNCIL CONSTR. INDUS. PENSION FUND () has no SCOTUS citation entry
+warning: DEP'T OF HOMELAND SEC. v. MACLEAN () has no SCOTUS citation entry
+warning: JESINOSKI v. COUNTRYWIDE HOME LOANS, INC. () has no SCOTUS citation entry
+warning: YATES v. UNITED STATES () has no SCOTUS citation entry
+warning: JOHNSON v. UNITED STATES () has no SCOTUS citation entry
+warning: ALA. LEGISLATIVE BLACK CAUCUS v. ALABAMA () has no SCOTUS citation entry
+warning: M&amp;G POLYMERS USA, LLC v. TACKETT () has no SCOTUS citation entry
+warning: ALA. DEP'T OF REVENUE v. CSX TRANSP., INC. () has no SCOTUS citation entry
+warning: COMPTROLLER OF THE TREASURY v. WYNNE () has no SCOTUS citation entry
+warning: PEREZ v. MORTGAGE BANKERS ASS'N () has no SCOTUS citation entry
+warning: ELONIS v. UNITED STATES () has no SCOTUS citation entry
+warning: B&amp;B HARDWARE, INC. v. HARGIS INDUS., INC. () has no SCOTUS citation entry
+warning: WHITFIELD v. UNITED STATES () has no SCOTUS citation entry
+warning: YOUNG v. UPS () has no SCOTUS citation entry
+warning: HANA FINANCIAL, INC. v. HANA BANK () has no SCOTUS citation entry
+warning: DIRECT MKTG. ASS'N v. BROHL () has no SCOTUS citation entry
+warning: DOT v. ASS'N OF AM. R.R. () has no SCOTUS citation entry
+warning: GELBOIM v. BANK OF AM. CORP. () has no SCOTUS citation entry
+warning: UNITED STATES v. KWAI FUN WONG () has no SCOTUS citation entry
+warning: KELLOGG BROWN &amp; ROOT SERVICES, INC. v. UNITED STATES EX REL. CARTER () has no SCOTUS citation entry
+warning: MELLOULI v. LYNCH () has no SCOTUS citation entry
+warning: REED v. TOWN OF GILBERT () has no SCOTUS citation entry
+warning: WELLNESS INTERNATIONAL NETWORK, LIMITED v. SHARIF () has no SCOTUS citation entry
+warning: ARMSTRONG v. EXCEPTIONAL CHILD CENTER, INC. () has no SCOTUS citation entry
+warning: TEXAS DEPARTMENT OF HOUSING AND COMMUNITY AFFAIRS v. INCLUSIVE COMMUNITIES PROJECT, INC. () has no SCOTUS citation entry
+warning: RODRIGUEZ v. UNITED STATES () has no SCOTUS citation entry
+warning: KERRY v. DIN () has no SCOTUS citation entry
+warning: COLEMAN v. TOLLEFSON () has no SCOTUS citation entry
+warning: HENDERSON v. UNITED STATES () has no SCOTUS citation entry
+warning: TIBBLE v. EDISON INTERNATIONAL () has no SCOTUS citation entry
+warning: EQUAL EMPLOYMENT OPPORTUNITY COMMISSION v. ABERCROMBIE &amp; FITCH STORES, INC. () has no SCOTUS citation entry
+warning: BAKER BOTTS, L.L.P., v. ASARCO, L.L.C. () has no SCOTUS citation entry
+warning: ARIZONA STATE LEGISLATURE v. ARIZONA INDEPENDENT REDISTRICTING COMMISSION () has no SCOTUS citation entry
+warning: OHIO v. CLARK () has no SCOTUS citation entry
+warning: CITY OF LOS ANGELES, CALIFORNIA v. PATEL () has no SCOTUS citation entry
+warning: DAVIS v. AYALA () has no SCOTUS citation entry
+warning: KING v. BURWELL () has no SCOTUS citation entry
+warning: MACH MINING, LLC, v. EQUAL EMPLOYMENT OPPORTUNITY COMMISSION () has no SCOTUS citation entry
+warning: ONEOK, INC., v. LEARJET, INC. () has no SCOTUS citation entry
+warning: WILLIAMS&ndash;YULEE v. THE FLORIDA BAR () has no SCOTUS citation entry
+warning: T&ndash;MOBILE SOUTH, LLC V.CITY OF ROSWELL, GEORGIA. () has no SCOTUS citation entry
+warning: CHRISTESON v. ROPER () has no SCOTUS citation entry
+warning: WALKER v. TEXAS DIVISION, SONS OF CONFEDERATE VETERANS, INC. () has no SCOTUS citation entry
+warning: CITY AND COUNTY OF SAN FRANCISCO, CALIFORNIA v. SHEEHAN () has no SCOTUS citation entry
+warning: BANK OF AMERICA, N.A. v. CAULKETT () has no SCOTUS citation entry
+warning: MICHIGAN v. ENVIRONMENTAL PROTECTION AGENCY () has no SCOTUS citation entry
+warning: BRUMFIELD v. CAIN () has no SCOTUS citation entry
+warning: COMMIL USA, LLC v. CISCO SYSTEMS, INC. () has no SCOTUS citation entry
+warning: KIMBLE v. MARVEL ENTERPRISES, INC. () has no SCOTUS citation entry
+warning: HARRIS v. VIEGELAHN () has no SCOTUS citation entry
+warning: BULLARD v. BLUE HILLS BANK () has no SCOTUS citation entry
+warning: MCFADDEN v. UNITED STATES () has no SCOTUS citation entry
+warning: KINGSLEY v. HENDRICKSON () has no SCOTUS citation entry
+warning: HORNE v. DEPARTMENT OF AGRICULTURE () has no SCOTUS citation entry
+warning: OBERGEFELL v. HODGES () has no SCOTUS citation entry
+warning: GLOSSIP v. GROSS () has no SCOTUS citation entry
+warning: MATA v. LYNCH () has no SCOTUS citation entry
+warning: WOODS v. DONALD () has no SCOTUS citation entry
+warning: GRADY v. NORTH CAROLINA () has no SCOTUS citation entry
+warning: TAYLOR v. BARKES () has no SCOTUS citation entry
+warning: OBB PERSONENVERKEHR AG v. SACHS () has no SCOTUS citation entry
+warning: HAWKINS v. COMMUNITY BANK OF RAYMORE () has no SCOTUS citation entry
+warning: OCASIO v. UNITED STATES () has no SCOTUS citation entry
+warning: DIRECTV, INC. v. IMBURGIA () has no SCOTUS citation entry
+warning: KANSAS v. CARR () has no SCOTUS citation entry
+warning: MONTGOMERY v. LOUISIANA () has no SCOTUS citation entry
+warning: HURST v. FLORIDA () has no SCOTUS citation entry
+warning: FEDERAL ENERGY REGULATORY COMMISSION v. ELECTRIC POWER SUPPLY ASSOCIATION () has no SCOTUS citation entry
+warning: CAMPBELL-EWALD CO. v. GOMEZ () has no SCOTUS citation entry
+warning: SPOKEO, INC. v. ROBINS () has no SCOTUS citation entry
+warning: FOSTER v. CHATMAN () has no SCOTUS citation entry
+warning: LOCKHART v. UNITED STATES () has no SCOTUS citation entry
+warning: LUNA TORRES v. LYNCH () has no SCOTUS citation entry
+warning: SHAPIRO v. MCMANUS () has no SCOTUS citation entry
+warning: BRUCE v. SAMUELS () has no SCOTUS citation entry
+warning: MONTANILE v. BD. OF NATIONAL ELEVATOR INDUSTRY HEALTH BENEFIT PLAN () has no SCOTUS citation entry
+warning: KINGDOMWARE TECHNOLOGIES, INC., v. UNITED STATES () has no SCOTUS citation entry
+warning: TYSON FOODS, INC., v. BOUAPHAKEO () has no SCOTUS citation entry
+warning: LUIS v. UNITED STATES () has no SCOTUS citation entry
+warning: MUSACCHIO v. UNITED STATES () has no SCOTUS citation entry
+warning: GREEN v. BRENNAN () has no SCOTUS citation entry
+warning: MERRILL LYNCH, PIERCE, FENNER &amp; SMITH, INC. v. MANNING () has no SCOTUS citation entry
+warning: MENOMINEE INDIAN TRIBE OF WISCONSIN v. UNITED STATES () has no SCOTUS citation entry
+warning: GOBEILLE v. LIBERTY MUTUAL INSURANCE COMPANY () has no SCOTUS citation entry
+warning: DOLLAR GENERAL CORPORATION v. MISSISSIPPI BAND OF CHOCTAW INDIANS () has no SCOTUS citation entry
+warning: CALIFORNIA FRANCHISE TAX BOARD v. HYATT () has no SCOTUS citation entry
+warning: HARRIS v. ARIZONA INDEPENDENT REDISTRICTING COMMISSION () has no SCOTUS citation entry
+warning: EVENWEL v. ABBOTT () has no SCOTUS citation entry
+warning: FISHER v. UNIVERSITY OF TEXAS AT AUSTIN () has no SCOTUS citation entry
+warning: FRIEDRICHS v. CALIFORNIA TEACHERS ASSOCIATION () has no SCOTUS citation entry
+warning: MOLINA&ndash;MARTINEZ v. UNITED STATES () has no SCOTUS citation entry
+warning: DUNCAN v. OWENS () has no SCOTUS citation entry
+warning: BANK MARKAZI v. PETERSON () has no SCOTUS citation entry
+warning: PUERTO RICO v. SANCHEZ VALLE () has no SCOTUS citation entry
+warning: HEFFERNAN v. CITY OF PATERSON, NEW JERSEY () has no SCOTUS citation entry
+warning: AMERICOLD LOGISTICS, LLC, v. CONAGRA FOODS, INC. () has no SCOTUS citation entry
+warning: NEBRASKA v. PARKER () has no SCOTUS citation entry
+warning: STURGEON v. FROST () has no SCOTUS citation entry
+warning: UTAH v. STRIEFF () has no SCOTUS citation entry
+warning: TAYLOR v. UNITED STATES () has no SCOTUS citation entry
+warning: HALO ELECTRONICS v. PULSE ELECTRONICS () has no SCOTUS citation entry
+warning: HUGHES v. PPL ENERGYPLUS () has no SCOTUS citation entry
+warning: VOISINE v. UNITED STATES () has no SCOTUS citation entry
+warning: WILLIAMS v. PENNSYLVANIA () has no SCOTUS citation entry
+warning: NICHOLS v. UNITED STATES () has no SCOTUS citation entry
+warning: HUSKY INTERNATIONAL ELECTRONICS, INC., v. RITZ () has no SCOTUS citation entry
+warning: WHOLE WOMAN'S HEALTH v. HELLERSTEDT () has no SCOTUS citation entry
+warning: WITTMAN v. PERSONHUBALLAH () has no SCOTUS citation entry
+warning: RJR NABISCO INC. v. EUROPEAN COMMUNITY () has no SCOTUS citation entry
+warning: SIMMONS v. HIMMELREICH () has no SCOTUS citation entry
+warning: BETTERMAN v. MONTANA () has no SCOTUS citation entry
+warning: SHERIFF v. GILLIE () has no SCOTUS citation entry
+warning: ROSS v. BLAKE () has no SCOTUS citation entry
+warning: WELCH v. UNITED STATES () has no SCOTUS citation entry
+warning: UNITED STATES ARMY CORP OF ENGINEERS v. HAWKES CO., INC. () has no SCOTUS citation entry
+warning: AMGEN INC., et al., PETITIONERS v. STEVE HARRIS, et al. () has no SCOTUS citation entry
+warning: MELENE JAMES v. CITY OF BOISE, IDAHO, et al. () has no SCOTUS citation entry
+warning: v. L. v. E. L., et al. () has no SCOTUS citation entry
+warning: WEARRY v. CAIN () has no SCOTUS citation entry
+warning: CAETANO v. MASSACHUSETTS () has no SCOTUS citation entry
+warning: PUERTO RICO v. FRANKLIN CALIFORNIA TAX FREE TRUST () has no SCOTUS citation entry
+warning: ZUBIK v. BURWELL () has no SCOTUS citation entry
+warning: CRST VAN EXPEDITED, INC. v. EQUAL EMPLOYMENT OPPORTUNITY COMMISSION () has no SCOTUS citation entry
+warning: UNITED STATES v. TEXAS () has no SCOTUS citation entry
+warning: UNITED STATES v. BRYANT () has no SCOTUS citation entry
+warning: UNIVERSAL HEALTH SERVICES, INC. v. ESCOBAR, JULIO, ET AL () has no SCOTUS citation entry
+warning: BIRCHFIELD v. NORTH DAKOTA () has no SCOTUS citation entry
+warning: ENCINO MOTORCARS, LLC v. NAVARRO () has no SCOTUS citation entry
+warning: KIRTSAENG v. JOHN WILEY &amp; SONS, INC. () has no SCOTUS citation entry
+warning: CUOZZO SPEED TECHNOLOGIES, LLC v. LEE () has no SCOTUS citation entry
+warning: MATHIS v. UNITED STATES () has no SCOTUS citation entry
+warning: STATE OF MONTANA v. STATE OF WYOMING AND STATE OF NORTH DAKOTA () has no SCOTUS citation entry
+warning: JEFFREY WOODS, WARDEN, PETITIONER v. TIMOTHY ETHERTON () has no SCOTUS citation entry
+warning: MCDONNELL v. UNITED STATES () has no SCOTUS citation entry
+warning: DIETZ v. BOULDIN () has no SCOTUS citation entry
+warning: SHAWN PATRICK LYNCH v. ARIZONA () has no SCOTUS citation entry
+warning: DEBORAH K. JOHNSON, WARDEN v. DONNA KAY LEE () has no SCOTUS citation entry
+warning: SCOTT KERNAN, SECRETARY, CALIFORNIA DEPARTMENT OF CORRECTIONS AND REHABILITATION v. ANTONIO A. HINOJOSA () has no SCOTUS citation entry
+warning: MARYLAND, PETITIONER v. JAMES KULBICKI () has no SCOTUS citation entry
+warning: CHADRIN LEE MULLENIX, PETITIONER v. BEATRICE LUNA, INDIVIDUALLY AND AS REPRESENTATIVE OF THE ESTATE OF ISRAEL LEIJA, JR., et al. () has no SCOTUS citation entry
+warning: RANDY WHITE, WARDEN, PETITIONER v. ROGER L. WHEELER () has no SCOTUS citation entry
+warning: SAMSUNG ELECTRONICS v. APPLE () has no SCOTUS citation entry
+warning: PENA-RODRIGUEZ v. COLORADO () has no SCOTUS citation entry
+warning: MANRIQUE v. UNITED STATES () has no SCOTUS citation entry
+warning: SALMAN v. UNITED STATES () has no SCOTUS citation entry
+warning: MANUEL v. CITY OF JOLIET () has no SCOTUS citation entry
+warning: FRY v. NAPOLEON COMMUNITY SCHOOLS () has no SCOTUS citation entry
+warning: STAR ATHLETICA, L.L.C. v. VARSITY BRANDS, INC. () has no SCOTUS citation entry
+warning: CZYZEWSKI v. JEVIC HOLDING CORP. () has no SCOTUS citation entry
+warning: SCA HYGIENE PRODS. AKTIEBOLAG v. FIRST QUALITY BABY PRODS., LLC () has no SCOTUS citation entry
+warning: BOLIVARIAN REPUBLIC OF VENEZUELA  v. HELMERICH &amp; PAYNE INTERNATIONAL DRILLING CO. () has no SCOTUS citation entry
+warning: NLRB v. SW GENERAL, INC. () has no SCOTUS citation entry
+warning: BANK OF AMERICA CORP. v. CITY OF MIAMI, FLORIDA () has no SCOTUS citation entry
+warning: LIGHTFOOT v. CENDANT MORTGAGE CORP. () has no SCOTUS citation entry
+warning: SESSIONS, ATT'Y GEN. v. MORALES-SANTANA () has no SCOTUS citation entry
+warning: BRAVO-FERNANDEZ v. UNITED STATES () has no SCOTUS citation entry
+warning: BOSSE v. OKLAHOMA () has no SCOTUS citation entry
+warning: STATE FARM FIRE &amp; CASUALTY CO. v. UNITED STATES, EX REL RIGSBY () has no SCOTUS citation entry
+warning: BECKLES v. UNITED STATES () has no SCOTUS citation entry
+warning: MOORE v. TEXAS () has no SCOTUS citation entry
+warning: BETHUNE-HILL v. VA BD. OF ELECTIONS () has no SCOTUS citation entry
+warning: COOPER v. HARRIS () has no SCOTUS citation entry
+warning: LIFE TECHNOLOGIES CORP. v. PROMEGA CORP. () has no SCOTUS citation entry
+warning: NELSON v. COLORADO () has no SCOTUS citation entry
+warning: LEWIS v. CLARKE () has no SCOTUS citation entry
+warning: EXPRESSIONS HAIR DESIGN v. SCHNEIDERMAN () has no SCOTUS citation entry
+warning: GOODYEAR TIRE &amp; RUBBER CO. v. HAEGER () has no SCOTUS citation entry
+warning: ENDREW F. v. DOUGLAS CNTY. SCH. DIST. RE-1 () has no SCOTUS citation entry
+warning: MIDLAND FUNDING LLC v. JOHNSON () has no SCOTUS citation entry
+warning: MATAL v. TAM () has no SCOTUS citation entry
+warning: ZIGLAR v. ABBASI () has no SCOTUS citation entry
+warning: SHAW v. UNITED STATES () has no SCOTUS citation entry
+warning: HERNANDEZ v. MESA () has no SCOTUS citation entry
+warning: MCLANE COMPANY v. EEOC () has no SCOTUS citation entry
+warning: KINDRED NURSING CENTERS v. CLARK () has no SCOTUS citation entry
+warning: PACKINGHAM v. NORTH CAROLINA () has no SCOTUS citation entry
+warning: ESQUIVEL-QUINTANA v. SESSIONS () has no SCOTUS citation entry
+warning: DEAN v. UNITED STATES () has no SCOTUS citation entry
+warning: COVENTRY HEALTH CARE OF MISSOURI v. NEVILS () has no SCOTUS citation entry
+warning: WHITE v. PAULY () has no SCOTUS citation entry
+warning: MURR v. WISCONSIN () has no SCOTUS citation entry
+warning: HOWELL v. HOWELL () has no SCOTUS citation entry
+warning: MICROSOFT CORP. v. BAKER () has no SCOTUS citation entry
+warning: IMPRESSION PRODUCTS v. LEXMARK INTERNATIONAL () has no SCOTUS citation entry
+warning: CTY. OF LOS ANGELES v. MENDEZ () has no SCOTUS citation entry
+warning: WATER SPLASH, INC. v. MENON () has no SCOTUS citation entry
+warning: ADVOCATE HEALTH CARE NETWORK v. STAPLETON () has no SCOTUS citation entry
+warning: TC HEARTLAND LLC v. KRAFT FOODS GROUP BRANDS () has no SCOTUS citation entry
+warning: LEE v. UNITED STATES () has no SCOTUS citation entry
+warning: TURNER v. UNITED STATES () has no SCOTUS citation entry
+warning: HONEYCUTT v. UNITED STATES () has no SCOTUS citation entry
+warning: PERRY v. MERIT SYSTEMS PROTECTION BD. () has no SCOTUS citation entry
+warning: TOWN OF CHESTER v. LAROE ESTATES () has no SCOTUS citation entry
+warning: CAL PUBLIC EMPLOYEES' RETIREMENT SYS. v. ANZ SECURITIES () has no SCOTUS citation entry
+warning: KOKESH v. SEC () has no SCOTUS citation entry
+warning: HENSON v. SANTANDER CONSUMER USA INC. () has no SCOTUS citation entry
+warning: TRINITY LUTHERAN CHURCH v. COMER, DIRECTOR, MISSOURI DEPARTMENT OF NATURAL RESOURCES () has no SCOTUS citation entry
+warning: WEAVER v. MASSACHUSETTS () has no SCOTUS citation entry
+warning: MCWILLIAMS v. DUNN () has no SCOTUS citation entry
+warning: DAVILA v. DAVIS () has no SCOTUS citation entry
+warning: BRISTOL-MYERS SQUIBB CO. v. SUPERIOR COURT OF CA. () has no SCOTUS citation entry
+warning: BNSF RAILWAY CO. v. TYRRELL () has no SCOTUS citation entry
+warning: SANDOZ INC. v. AMGEN INC. () has no SCOTUS citation entry
+warning: MASLENJAK v. UNITED STATES () has no SCOTUS citation entry
+warning: BUCK v. DAVIS () has no SCOTUS citation entry
+warning: MICHAEL DAMON RIPPO, PETITIONER v. RENEE BAKER, WARDEN () has no SCOTUS citation entry
+warning: NORTH CAROLINA v. COVINGTON () has no SCOTUS citation entry
+warning: VIRGINIA, et al. v. DENNIS LEBLANC () has no SCOTUS citation entry
+warning: CHARLOTTE JENKINS, WARDEN v. PERCY HUTTON () has no SCOTUS citation entry
+warning: PAVAN v. SMITH () has no SCOTUS citation entry
+warning: SESSIONS v. DIMAYA () has no SCOTUS citation entry
+warning: EPIC SYSTEMS CORP. v. LEWIS () has no SCOTUS citation entry
+warning: JENNINGS v. RODRIGUEZ () has no SCOTUS citation entry
+warning: GILL v. WHITFORD () has no SCOTUS citation entry
+warning: CLASS v. UNITED STATES () has no SCOTUS citation entry
+warning: DISTRICT OF COLUMBIA v. WESBY () has no SCOTUS citation entry
+warning: HAMER v. NEIGHBORHOOD HOUSING SERVICES OF CHICAGO () has no SCOTUS citation entry
+warning: NATIONAL ASSOCIATION OF MANUFACTURERS v. DEPARTMENT OF DEFENSE () has no SCOTUS citation entry
+warning: JESNER v. ARAB BANK, PLC () has no SCOTUS citation entry
+warning: AYESTAS v. DAVIS () has no SCOTUS citation entry
+warning: WILSON v. SELLERS () has no SCOTUS citation entry
+warning: U.S. BANK NATIONAL ASSOCIATION v. VILLAGE AT LAKERIDGE () has no SCOTUS citation entry
+warning: ARTIS v. DISTRICT OF COLUMBIA () has no SCOTUS citation entry
+warning: MERIT MANAGEMENT GROUP, LP v. FTI CONSULTING, INC () has no SCOTUS citation entry
+warning: PATCHAK v. ZINKE () has no SCOTUS citation entry
+warning: HUSTED v. A. PHILIP RANDOLPH INSTITUTE () has no SCOTUS citation entry
+warning: CYAN v. BEAVER COUNTY EMPLOYEES RETIREMENT FUND () has no SCOTUS citation entry
+warning: MASTERPIECE CAKESHOP, LTD. v. COLORADO CIVIL RIGHTS COMMISSION () has no SCOTUS citation entry
+warning: CARPENTER v. UNITED STATES () has no SCOTUS citation entry
+warning: MURPHY v. NATIONAL COLLEGIATE ATHLETIC ASSOCIATION () has no SCOTUS citation entry
+warning: RUBIN v. ISLAMIC REPUBLIC OF IRAN () has no SCOTUS citation entry
+warning: OIL STATES ENERGY SERVICES, LLC v. GREENE&rsquo;S ENERGY GROUP, LLC () has no SCOTUS citation entry
+warning: SAS INSTITUTE INC. v. IANCU () has no SCOTUS citation entry
+warning: MURPHY v. SMITH () has no SCOTUS citation entry
+warning: MARINELLO v. UNITED STATES () has no SCOTUS citation entry
+warning: DIGITAL REALTY TRUST v. SOMERS () has no SCOTUS citation entry
+warning: DUNN v. MADISON () has no SCOTUS citation entry
+warning: KERNAN v. CUERO () has no SCOTUS citation entry
+warning: FLORIDA v. GEORGIA () has no SCOTUS citation entry
+warning: TEXAS v. NEW MEXICO AND COLORADO () has no SCOTUS citation entry
+warning: BYRD v. UNITED STATES () has no SCOTUS citation entry
+warning: COX v. UNITED STATES () has no SCOTUS citation entry
+warning: DALMAZZI v. UNITED STATES () has no SCOTUS citation entry
+warning: HALL v. HALL () has no SCOTUS citation entry
+warning: ORTIZ v. UNITED STATES () has no SCOTUS citation entry
+warning: MCCOY v. LOUISIANA () has no SCOTUS citation entry
+warning: ENCINO MOTORCARS, LLC v. NAVARRO () has no SCOTUS citation entry
+warning: NATIONAL INSTITUTE OF FAMILY AND LIFE ADVOCATES v. BECERRA () has no SCOTUS citation entry
+warning: CURRIER v. VIRGINIA () has no SCOTUS citation entry
+warning: MINNESOTA VOTERS ALLIANCE v. MANSKY () has no SCOTUS citation entry
+warning: OHIO v. AMERICAN EXPRESS CO. () has no SCOTUS citation entry
+warning: JANUS v. AMERICAN FEDERATION OF STATE, COUNTY, AND MUNICIPAL EMPLOYEES, COUNCIL 31 () has no SCOTUS citation entry
+warning: CITY OF HAYS, KANSAS v. VOGT () has no SCOTUS citation entry
+warning: ROSALES-MIRELES v. UNITED STATES () has no SCOTUS citation entry
+warning: UNITED STATES v. MICROSOFT CORP. () has no SCOTUS citation entry
+warning: LOZMAN v. CITY OF RIVIERA BEACH, FLORIDA () has no SCOTUS citation entry
+warning: DAHDA v. UNITED STATES () has no SCOTUS citation entry
+warning: THARPE v. SELLERS, WARDEN () has no SCOTUS citation entry
+warning: BENISEK v. LAMONE () has no SCOTUS citation entry
+warning: in re UNITED STATES () has no SCOTUS citation entry
+warning: CNH INDUSTRIAL N.v. v. REESE () has no SCOTUS citation entry
+warning: MONTANA v. WYOMING () has no SCOTUS citation entry
+warning: KISELA v. HUGHES () has no SCOTUS citation entry
+warning: WISCONSIN CENTRAL LTD. v. UNITED STATES () has no SCOTUS citation entry
+warning: WESTERNGECO LLC v. ION GEOPHYSICAL CORP. () has no SCOTUS citation entry
+warning: SOUTH DAKOTA v. WAYFAIR () has no SCOTUS citation entry
+warning: LAMAR, ARCHER &amp; COFRIN v. APPLING () has no SCOTUS citation entry
+warning: LAGOS v. UNITED STATES () has no SCOTUS citation entry
+warning: WASHINGTON v. UNITED STATES () has no SCOTUS citation entry
+warning: SVEEN v. MELIN () has no SCOTUS citation entry
+warning: UPPER SKAGIT INDIAN TRIBE v. LUNDGREN () has no SCOTUS citation entry
+warning: UNITED STATES v. SANCHEZ-GOMEZ () has no SCOTUS citation entry
+warning: CHINA AGRITECH, INC. v. RESH () has no SCOTUS citation entry
+warning: HUGHES v. UNITED STATES () has no SCOTUS citation entry
+warning: KOONS v. UNITED STATES () has no SCOTUS citation entry
+warning: LUCIA v. SEC () has no SCOTUS citation entry
+warning: PEREIRA v. SESSIONS, ATT'Y GEN. () has no SCOTUS citation entry
+warning: CHAVEZ-MEZA v. UNITED STATES () has no SCOTUS citation entry
+warning: ABBOTT v. PEREZ () has no SCOTUS citation entry
+warning: ANIMAL SCIENCE PRODUCTS v. HEBEI WELCOME PHARMACEUTICAL CO. () has no SCOTUS citation entry
+warning: TRUMP, PRESIDENT OF U.S. v. HAWAII () has no SCOTUS citation entry
+warning: COLLINS v. VIRGINIA () has no SCOTUS citation entry
+warning: AZAR v. GARZA () has no SCOTUS citation entry
+warning: NORTH CAROLINA v. COVINGTON () has no SCOTUS citation entry
+warning: SAUSE v. BAUER () has no SCOTUS citation entry
+warning: SEXTON v. BEAUDREAUX () has no SCOTUS citation entry
+warnings: 1302
+[10:38:10] Finished 'fixDecisions' after 5.29 s

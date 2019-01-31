@@ -220,7 +220,7 @@ because many early reporters do not list the date of decision.
 but if they did, they made a surprising number of [mistakes](/results/logs/changedDates.csv).  While some of the
 [warnings](/results/logs/warnings.txt) we automatically generate are not necessarily errors, they may merit some attention.
 
-For example, decisions handed down on a Saturday or Sunday are [unusual](results/logs/unusualDates.csv), especially in
+For example, decisions handed down on a Saturday or Sunday are [unusual](/results/logs/unusualDates.csv), especially in
 modern times.  Take this pair of warnings:
 
     warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has decision date 1807-03-07 instead of SCOTUS date 1808-03-07
