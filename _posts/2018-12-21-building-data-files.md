@@ -17,9 +17,9 @@ from [Oyez](https://www.oyez.org/), while most of the [Decision](/results/decisi
 data was imported from [CSV files](/sources/scdb/decisions.csv) provided by the
 [Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB.
 
-Additionally, citation data
-comes from the Supreme Court's [Case Citation Finder](https://www.supremecourt.gov/opinions/casefinder.aspx),
-and decision and argument dates of early cases have been extracted from the Supreme Court Library document
+Additionally, our [Citations](/results/citations.csv)
+come from the Supreme Court's [Case Citation Finder](https://www.supremecourt.gov/opinions/casefinder.aspx),
+and [Argument and Decision Dates](/results/dates.csv) of early cases have been extracted from the Supreme Court Library document
 "[DATES OF SUPREME COURT DECISIONS AND ARGUMENTS: UNITED STATES REPORTS VOLUMES 2 – 107 (1791 – 1882)](/sources/scotus/dates/decisionDates.pdf)".
 
 To make good use of the raw SCDB data, you need tables that map all the numeric
