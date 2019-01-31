@@ -244,10 +244,11 @@ to our copy of SCDB's Natural Court data.
 For example, they indicate that the final Warren Court ended on June 22, 1969 and the first Burger Court began the next day,
 on June 23, 1969.  However, several decisions were handed down on June 23, 1969, which could only have been Warren Court decisions.
 
-These and other inconsistencies, such as [missing cases](/results/logs/missingCases.csv), are being [logged](/results/logs/warnings.txt)
-in the [Lone Dissent Project](https://github.com/jeffpar/lonedissent), and hopefully they will be reconciled over time.  We also hope that,
-someday, SCDB adopts more transparency in its update procedures, so that when a correction is made, both the change *and* the source of
-of the data is recorded and shared.  This will help future researchers avoid unreliable data sources.
+These and other inconsistencies, such as [missing cases](/results/logs/missingCases.csv) and [unknown citations](/results/logs/unknownCitations.csv),
+are being [logged](/results/logs/warnings.txt) in the [Lone Dissent Project](https://github.com/jeffpar/lonedissent),
+and hopefully they will be reconciled over time.  We also hope that, someday, SCDB adopts more transparency in its update procedures,
+so that when a correction is made, both the change itself *and* the source of the data is recorded and shared.  This will help
+future researchers avoid unreliable third-party data sources.
 
 It is neither sufficient nor convenient to expect researchers to "diff" each release of SCDB with its predecessors to identify
 corrections, additions, deletions, etc.  For example, how seriously should one take SCDB's claim of reliance on
