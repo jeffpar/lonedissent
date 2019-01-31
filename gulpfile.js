@@ -1841,7 +1841,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         if (termId >= "1844-12" && termId <= "1849-12") {
                             asterisks = "*";
                         }
-                        let entry = sprintf("- [%s](/cases/%s/%s)%s (%d %s%s)\n", termName, category, termId, asterisks, results.length, category == "loners"? "dissent" : "opinion", results.length == 1? '' : 's');
+                        let entry = sprintf("- [%s](/cases/%s/%s)%s (%d %s%s)\n", termName, category, termId, asterisks, results.length, category == "loners"? "lone dissent" : "opinion", results.length == 1? '' : 's');
                         if (match[1] != termId) {
                             index = index.substr(0, match.index) + entry + index.substr(match.index);
                         } else {
@@ -2187,7 +2187,7 @@ function findJustices(done, minVotes)
     }
     let index = "";
     let category = minVotes == 1? "loners" : "all";
-    let type = minVotes == 1? "dissent" : "opinion";
+    let type = minVotes == 1? "lone dissent" : "opinion";
     let description = minVotes == 1? "Lone Dissents" : "Majority Opinions";
     data.forEach((justice) => {
         let total = (minVotes == 1? justice.loneTotal : justice.majorityTotal);
