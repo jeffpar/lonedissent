@@ -1560,13 +1560,13 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             if (Array.isArray(text)) {
                 exists = true;
                 for (let i = 0; i < text.length; i++) {
-                    if (target.indexOf(text[i]) < 0) {
+                    if (target.indexOf(text[i].toLowerCase()) < 0) {
                         exists = false;
                         break;
                     }
                 }
             } else {
-                if (target.indexOf(text) >= 0) exists = true;
+                if (target.indexOf(text.toLowerCase()) >= 0) exists = true;
             }
         }
         return exists;
