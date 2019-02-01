@@ -2,6 +2,17 @@
   "freelaw": {
     "decisionDatesCSV": "/sources/freelaw/decisionDates.csv"
   },
+  "justia": {
+    "download": {
+      "volume": {
+        "start": 1,
+        "stop": 586,
+        "url": "https://supreme.justia.com/cases/federal/us/%d/",
+        "dir": "/sources/justia/volumes/",
+        "file": "us%03d.html"
+      }
+    }
+  },
   "oyez": {
     "courtsXML": "/sources/oyez/courts/**/court.xml",
     "courtsHTML": "/sources/oyez/justices_by_court.html",

@@ -90,6 +90,7 @@ let gulp = require("gulp");
 let fs = require("fs");
 let mkdirp = require("mkdirp");
 let path = require("path");
+let request = require("request");
 let he = require("he");
 let parseXML = require('xml2js').parseString;
 
@@ -108,6 +109,7 @@ let results = require(rootDir + "/results/_results.json");
 let sources = require(rootDir + "/sources/_sources.json");
 let argv = proclib.args.argv;
 let warnings = 0;
+let downloadTasks = [];
 
 /**
  * @typedef {object} Justice
@@ -581,17 +583,17 @@ function replaceChars(text)
 }
 
 /**
- * readTextFile(fileName, encoding)
+ * readTextFile(filePath, encoding)
  *
- * @param {string} fileName
+ * @param {string} filePath
  * @param {string} [encoding] (default is "utf-8")
  * @return {string|undefined}
  */
-function readTextFile(fileName, encoding="")
+function readTextFile(filePath, encoding="")
 {
     let text;
     try {
-        text = fs.readFileSync(fileName, encoding || "utf-8");
+        text = fs.readFileSync(filePath, encoding || "utf-8");
         if (!encoding) checkCharSet(text);
     }
     catch(err) {
@@ -601,44 +603,44 @@ function readTextFile(fileName, encoding="")
 }
 
 /**
- * writeTextFile(fileName, text, fOverwrite, fQuiet)
+ * writeTextFile(filePath, text, fOverwrite, fQuiet)
  *
- * @param {string} fileName
+ * @param {string} filePath
  * @param {string|object} text (if you pass an object, we automatically "stringify" it into JSON)
  * @param {boolean} [fOverwrite] (default is false)
  * @param {boolean} [fQuiet] (default is false)
  */
-function writeTextFile(fileName, text, fOverwrite=false, fQuiet=false)
+function writeTextFile(filePath, text, fOverwrite=false, fQuiet=false)
 {
     if (typeof text == "object") {
         text = sprintf("%2j\n", text);
         checkCharSet(text);
     }
-    if (fOverwrite || !fs.existsSync(fileName)) {
+    if (fOverwrite || !fs.existsSync(filePath)) {
         try {
-            let dirName = path.dirname(fileName);
-            if (!fs.existsSync(dirName)) mkdirp.sync(dirName);
-            fs.writeFileSync(fileName, text);
+            let dirPath = path.dirname(filePath);
+            if (!fs.existsSync(dirPath)) mkdirp.sync(dirPath);
+            fs.writeFileSync(filePath, text);
         }
         catch(err) {
             printf("%s\n", err.message);
         }
     } else {
-        if (!fQuiet) printf("file %s already exists, use --overwrite to recreate\n", fileName);
+        if (!fQuiet) printf("file %s already exists, use --overwrite to recreate\n", filePath);
     }
 }
 
 /**
- * readXMLFile(fileName, filters)
+ * readXMLFile(filePath, filters)
  *
- * @param {string} fileName
+ * @param {string} filePath
  * @param {Array.<string>} [filters]
  * @return {object}
  */
-function readXMLFile(fileName, filters)
+function readXMLFile(filePath, filters)
 {
     let xml;
-    let text = readTextFile(fileName);
+    let text = readTextFile(filePath);
     if (text != null) {
         if (filters) {
             let textNew = "";
@@ -732,16 +734,16 @@ function readCourts()
             }
         }
         if (!court.photoSmall) {
-            let fileName = path.join("data/oyez/courts", court.id, "image-small.jpg");
-            if (fs.existsSync(fileName)) {
-                court.photoSmall = fileName;
+            let filePath = path.join("data/oyez/courts", court.id, "image-small.jpg");
+            if (fs.existsSync(filePath)) {
+                court.photoSmall = filePath;
                 fixes++;
             }
         }
         if (!court.photoLarge) {
-            let fileName = path.join("data/oyez/courts", court.id, "image-large.jpg");
-            if (fs.existsSync(fileName)) {
-                court.photoLarge = fileName;
+            let filePath = path.join("data/oyez/courts", court.id, "image-large.jpg");
+            if (fs.existsSync(filePath)) {
+                court.photoLarge = filePath;
                 fixes++;
             }
         }
@@ -761,9 +763,9 @@ function readCourts()
 function readOyezCourts()
 {
     let courts = [];
-    let fileNames = glob.sync(rootDir + sources.oyez.courtsXML);
-    for (let i = 0; i < fileNames.length; i++) {
-        let xml = readXMLFile(fileNames[i]);
+    let filePaths = glob.sync(rootDir + sources.oyez.courtsXML);
+    for (let i = 0; i < filePaths.length; i++) {
+        let xml = readXMLFile(filePaths[i]);
         if (!xml) break;
         let justices = [];
         for (let j = 0; j < xml.court.courtJustice.length; j++) {
@@ -795,9 +797,9 @@ function readOyezCourts()
 function readOyezJustices()
 {
     let justices = [];
-    let fileNames = glob.sync(rootDir + sources.oyez.justicesXML);
-    for (let i = 0; i < fileNames.length; i++) {
-        let xml = readXMLFile(fileNames[i]);
+    let filePaths = glob.sync(rootDir + sources.oyez.justicesXML);
+    for (let i = 0; i < filePaths.length; i++) {
+        let xml = readXMLFile(filePaths[i]);
         if (!xml) break;
         for (let j = 0; j < xml.justice.justiceAppointment.length; j++) {
             let justice = {};
@@ -840,10 +842,10 @@ function readOyezLabsDecisions()
 {
     let decisions = [];
     printf("reading OyezLabs decisions...\n");
-    let fileNames = glob.sync(rootDir + sources.oyezlabs.casesXML);
-    printf("total OyezLabs XML files: %d\n", fileNames.length);
-    for (let i = 0; i < fileNames.length; i++) {
-        let xml = readXMLFile(fileNames[i], ["<case ", "<caseTitle ", "<caseDecisionDate ", "<caseOpinionVol ", "<caseOpinionPage ", "</case>"]);
+    let filePaths = glob.sync(rootDir + sources.oyezlabs.casesXML);
+    printf("total OyezLabs XML files: %d\n", filePaths.length);
+    for (let i = 0; i < filePaths.length; i++) {
+        let xml = readXMLFile(filePaths[i], ["<case ", "<caseTitle ", "<caseDecisionDate ", "<caseOpinionVol ", "<caseOpinionPage ", "</case>"]);
         if (xml) {
             let decision = {};
             decision.caseTitle = xml.case.caseTitle[0]._;
@@ -948,12 +950,12 @@ function buildCitations(done)
 {
     let rows = [];
     let volumes = [];
-    let fileNames = glob.sync(rootDir + sources.scotus.citationsHTML);
+    let filePaths = glob.sync(rootDir + sources.scotus.citationsHTML);
     let csv = readTextFile(rootDir + results.csv.citations) || "volume,page,year,caseTitle,oldCite,usCite\n";
     let additions = 0;
-    for (let i = 0; i < fileNames.length; i++) {
-        let isHTML = fileNames[i].indexOf(".html") > 0;
-        let html = readTextFile(fileNames[i], isHTML? "latin1" : "utf-8");
+    for (let i = 0; i < filePaths.length; i++) {
+        let isHTML = filePaths[i].indexOf(".html") > 0;
+        let html = readTextFile(filePaths[i], isHTML? "latin1" : "utf-8");
         if (html) {
             if (isHTML) {
                 /*
@@ -1006,7 +1008,7 @@ function buildCitations(done)
                     break;
                 }
                 if (volBegin < 0) {
-                    printf("warning: unrecognized reporter '%s' for '%s' (see %s: '%s')\n", reporter, caseTitle, fileNames[i], html.substr(match.index, 100).trim());
+                    printf("warning: unrecognized reporter '%s' for '%s' (see %s: '%s')\n", reporter, caseTitle, filePaths[i], html.substr(match.index, 100).trim());
                     continue;
                 }
                 let page = match[5];
@@ -1014,7 +1016,7 @@ function buildCitations(done)
                 let oldCite = "";
                 if (volBegin < 91) {
                     if (!+page) {
-                        printf("warning: unrecognized page '%s' for '%s' (see %s: '%s')\n", page, caseTitle, fileNames[i], html.substr(match.index, 100).trim());
+                        printf("warning: unrecognized page '%s' for '%s' (see %s: '%s')\n", page, caseTitle, filePaths[i], html.substr(match.index, 100).trim());
                         continue;
                     }
                     oldCite = sprintf("%d %s %d", volume, reporter, +page);
@@ -1025,7 +1027,7 @@ function buildCitations(done)
                 rows.push([volume, page, year, caseTitle, oldCite]);
                 matches++;
             }
-            printf("total matches in %s: %d\n", fileNames[i], matches);
+            printf("total matches in %s: %d\n", filePaths[i], matches);
         }
     }
     rows.sort(function(a, b) {
@@ -2367,10 +2369,70 @@ function testDates(done)
     done();
 }
 
+/**
+ * createDownloadTask(name, url, dir, file)
+ *
+ * @param {string} name
+ * @param {string} url
+ * @param {string} dir
+ * @param {string} file
+ */
+function createDownloadTask(name, url, dir, file)
+{
+    downloadTasks.push(name);
+    let dirPath = path.join(rootDir, dir);
+    let filePath = path.join(dirPath, file);
+    gulp.task(name, function(done) {
+        if (fs.existsSync(filePath)) {
+            // printf("%s already exists\n", filePath);
+            done();
+            return;
+        }
+        if (!fs.existsSync(dirPath)) {
+            mkdirp.sync(dirPath);
+        }
+        return request(url)
+            .on("response", function(response) {
+                printf("%s (%d) saved as %s\n", url, response.statusCode, filePath);
+                done();
+            })
+            .on("error", function(err) {
+                printf("error: %s\n", err.message);
+                done(err);
+            })
+            .pipe(fs.createWriteStream(filePath));
+    });
+}
+
+/**
+ * generateDownloadTasks()
+ */
+function generateDownloadTasks()
+{
+    let sourceNames = Object.keys(sources);
+    sourceNames.forEach((source) => {
+        let downloads = sources[source].download;
+        if (!downloads) return;
+        let downloadGroups = Object.keys(downloads);
+        downloadGroups.forEach((group) => {
+            let downloadGroup = downloads[group];
+            for (let index = downloadGroup.start; index <= downloadGroup.stop; index++) {
+                let url = sprintf(downloadGroup.url, index);
+                let dir = sprintf(downloadGroup.dir, index);
+                let file = sprintf(downloadGroup.file, index);
+                createDownloadTask('download.' + source + '.' + group + '.' + index, url, dir, file);
+            }
+        });
+    });
+}
+
+generateDownloadTasks();
+
 gulp.task("citations", buildCitations);
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
 gulp.task("justices", buildJustices);
+gulp.task("download", gulp.series(downloadTasks));
 gulp.task("fixDecisions", fixDecisions);
 gulp.task("allDecisions", findAllDecisions);
 gulp.task("allJustices", findAllJustices);
