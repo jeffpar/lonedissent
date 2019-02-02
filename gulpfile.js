@@ -1153,7 +1153,13 @@ function buildCitations(done)
             while ((match = re.exec(html))) {
                 let caseTitle = match[2], volume = +match[3], oldCite = match[4], page = +match[5], year = +match[6];
                 let usCite = sprintf("%d U.S. %d", volume, page);
-                if (oldCite) oldCite = oldCite.slice(1, -2) + ' ' + page;
+                if (oldCite) {
+                    oldCite = oldCite.slice(1, -2) + ' ' + page;
+                    if (volume == 12) {
+                        oldCite = oldCite.replace(/9 Cranch /g, "8 Cranch ");
+                    }
+                    oldCite = oldCite.replace(/2 How /g, "2 How. ");
+                }
                 let cite = {volume, page, year, caseTitle, oldCite, usCite};
                 if (!locCites[usCite]) locCites[usCite] = [];
                 locCites[usCite].push(cite);
