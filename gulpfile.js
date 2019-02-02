@@ -951,7 +951,7 @@ function buildCitations(done)
     /*
      * Phase 1: Build a set of citations from a snapshot of SCOTUS web pages.
      */
-    let rows = [], scotusCites = {};
+    let rows = [], scotusCites = {}, scotusVolumes = {};
     let filePaths = glob.sync(rootDir + sources.scotus.citationsHTML);
     let csv = readTextFile(rootDir + results.csv.citations) || "volume,page,year,caseTitle,oldCite,usCite\n";
     let additions = 0;
@@ -1029,8 +1029,11 @@ function buildCitations(done)
                 let usCite = sprintf("%s U.S. %s", volume || "___", page || "___");
                 rows.push([volume, page, year, caseTitle, oldCite, usCite]);
                 matches++;
+                let cite = {volume, page, year, caseTitle, oldCite, usCite};
                 if (!scotusCites[usCite]) scotusCites[usCite] = [];
-                scotusCites[usCite].push({volume, page, year, caseTitle, oldCite, usCite});
+                scotusCites[usCite].push(cite);
+                if (!scotusVolumes[volume]) scotusVolumes[volume] = [];
+                scotusVolumes[volume].push(cite);
             }
             printf("total matches in %s: %d\n", filePaths[i], matches);
         }
@@ -1049,27 +1052,59 @@ function buildCitations(done)
             additions++;
         }
     });
+
     printf("total citations added: %d\n", additions);
+
     if (additions) {
         writeTextFile(rootDir + results.csv.citations, csv, argv['overwrite']);
     }
+
     /*
      * Phase 2: Build an independent set of citations for use as a cross-check, because apparently my old snapshot of SCOTUS web pages
      * was problematic (see for yourself: https://web.archive.org/web/20080619081552/http://www.supremecourtus.gov/opinions/casefinder/casefinder_1790-1862.html)
      */
-    let csv2 = "volume,page,year,dateDecision,caseTitle,oldCite,usCite\n";
+    let justiaCites = {}, justiaVolumes = {};
+    let csvJustia = "volume,page,year,dateDecision,caseTitle,oldCite,usCite\n";
     filePaths = glob.sync(rootDir + sources.justia.download.volume.dir + "*.html");
     for (let i = 0; i < filePaths.length; i++) {
         let html = readTextFile(filePaths[i], "latin1");
         if (html) {
             html = he.decode(html);
-            let match, re = /<a\s+href="(\/cases\/federal\/us)\/([0-9]+)\/([0-9]+)\/"\s+class="case-name">\s*<strong>\s*([^<]*)\s*<\/strong>\s*<\/a>\s*<br\/>\s*<strong>Citation:<\/strong>\s*([0-9]+)\s+U\.S\.\s+([0-9]+)<br\/>([\s\S]*?)<a href="\1\/\2\/\3\/">/g;
+            let match, re = /<a\s+href="(\/cases\/federal\/us)\/([0-9]+)\/([0-9]+)\/"\s+class="case-name">\s*<strong>\s*([^<]*)\s*<\/strong>\s*<\/a>[\s\S]*?<br\/>\s*<strong>Citation:<\/strong>\s*([0-9]+)\s+U\.S\.\s+([0-9]+)<br\/>([\s\S]*?)<a href="\1\/\2\/\3\/">/g;
             while ((match = re.exec(html))) {
                 let caseTitle = match[4], volume = +match[5], page = +match[6];
                 let usCite = sprintf("%d U.S. %d", volume, page), oldCite = "";
                 if (volume != +match[2] || page != +match[3]) {
-                    printf("warning: citation '%s' does not match reference '%s U.S. %s'\n", usCite, match[2], match[3]);
+                    printf("warning: citation (%s) does not match link (%s U.S. %s)\n", usCite, match[2], match[3]);
                     warnings++;
+                }
+                let reporter = "";
+                if (volume) {
+                    let volBegin = 0;
+                    if (volume < 5) {
+                        volBegin = 1;
+                        reporter = "Dall.";
+                    } else if (volume < 14) {
+                        volBegin = 5;
+                        reporter = "Cranch";
+                    } else if (volume < 26) {
+                        volBegin = 14;
+                        reporter = "Wheat.";
+                    } else if (volume < 42) {
+                        volBegin = 26;
+                        reporter = "Pet.";
+                    } else if (volume < 66) {
+                        volBegin = 42;
+                        reporter = "How.";
+                    } else if (volume < 91) {
+                        volBegin = 66;
+                        reporter = "Wall.";
+                    } else {
+                        reporter = "U.S.";
+                    }
+                    if (volBegin) {
+                        oldCite = sprintf("%d %s %d", volume - volBegin + 1, reporter, page);
+                    }
                 }
                 let dateDecision = "", year = 0;
                 let matchDate = match[7].match(/<span[^>]*>\s*<strong>Date:<\/strong>\s*([^<]*)([0-9][0-9][0-9][0-9])\s*<\/span>/);
@@ -1078,32 +1113,53 @@ function buildCitations(done)
                     dateDecision = sprintf("%#Y-%#02M-%#02D", date, date, date);
                     year = +matchDate[2];
                 }
-
-                let cites = scotusCites[usCite];
-                if (cites) {
-                    let i = 0;
-                    let citeBest = null, scoreBest = -1;
-                    while (i < cites.length) {
-                        let cite = cites[i++];
-                        let score = scoreStrings(caseTitle, cite.caseTitle);
-                        if (scoreBest < score) {
-                            scoreBest = score;
-                            citeBest = cite;
-                        }
-                    }
-                    if (scoreBest < 50) {
-                        printf("compare %s: caseTitle '%s' to SCOTUS caseTitle '%s' (%d)\n", usCite, caseTitle, citeBest.caseTitle, scoreBest);
-                    } else {
-                        printf("matched: %s: caseTitle '%s' with SCOTUS caseTitle '%s' (%d): %s\n", usCite, caseTitle, citeBest.caseTitle, scoreBest, dateDecision);
-                    }
-                } else {
-                    printf("warning: unable to find '%s' in SCOTUS citations\n", usCite);
-                    warnings++;
-                }
-                csv2 += sprintf("%d,%d,%d,%s,%s,%s,%s\n", volume, page, year, dateDecision, caseTitle, oldCite, usCite);
+                if (!justiaCites[usCite]) justiaCites[usCite] = [];
+                let cite = {volume, page, year, dateDecision, caseTitle, oldCite, usCite};
+                justiaCites[usCite].push(cite);
+                if (!justiaVolumes[volume]) justiaVolumes[volume] = [];
+                justiaVolumes[volume].push(cite);
+                csvJustia += sprintf('%d,%d,%d,"%s","%s","%s","%s"\n', volume, page, year, dateDecision, caseTitle.replace(/"/g, '""'), oldCite, usCite);
             }
         }
     }
+
+    writeTextFile(rootDir + results.csv.citationsJustia, csvJustia, argv['overwrite']);
+
+    /*
+     * Phase 3: Check SCOTUS cites against Justia cites.
+     */
+    let volumes = Object.keys(scotusVolumes);
+    volumes.forEach((volume) => {
+        let citesScotus = scotusVolumes[volume];
+        let citesJustia = justiaVolumes[volume];
+        if (citesJustia) {
+            for (let iScotus = 0; iScotus < citesScotus.length; iScotus++) {
+                let citeScotus = citesScotus[iScotus];
+                if (citeScotus.volume > 569 || isNaN(+citeScotus.page)) continue;
+                if (justiaCites[citeScotus.usCite] && justiaCites[citeScotus.usCite].length == 1 && scotusCites[citeScotus.usCite] && scotusCites[citeScotus.usCite].length == 1) continue;
+                let citeBest = null, scoreBest = -1;
+                for (let iJustia = 0; iJustia < citesJustia.length; iJustia++) {
+                    let citeJustia = citesJustia[iJustia];
+                    let score = scoreStrings(citeJustia.caseTitle, citeScotus.caseTitle);
+                    if (scoreBest < score) {
+                        scoreBest = score;
+                        citeBest = citeJustia;
+                    }
+                }
+                if (citeScotus.usCite != citeBest.usCite && scoreBest > 75) {
+                    printf("warning: SCOTUS citation '%s' (%s) has better match '%s' (%s): %d\n", citeScotus.caseTitle, citeScotus.usCite, citeBest.caseTitle, citeBest.usCite, scoreBest);
+                }
+            }
+        } else {
+            let volume = +citesScotus[0].volume;
+            let page = +citesScotus[0].page;
+            if (volume <= 569 && !isNaN(page)) {
+                // printf("warning: unable to to find SCOTUS citation '%s' (%s) in Justia citations\n", citesScotus.length == 1? citesScotus[0].caseTitle : citesScotus.length, usCite);
+                // warnings++;
+            }
+        }
+    });
+
     done();
 }
 

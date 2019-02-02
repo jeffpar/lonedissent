@@ -13,6 +13,17 @@
       }
     }
   },
+  "loc": {
+    "download": {
+      "volume": {
+        "start": 1,
+        "stop": 542,
+        "url": "https://www.loc.gov/collections/united-states-reports/?fa=partof:u.s.+reports:+volume+%d&st=list&c=300",
+        "dir": "/sources/loc/volumes/",
+        "file": "us%03d.html"
+      }
+    }
+  },
   "oyez": {
     "courtsXML": "/sources/oyez/courts/**/court.xml",
     "courtsHTML": "/sources/oyez/justices_by_court.html",
