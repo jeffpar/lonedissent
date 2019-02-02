@@ -55,5 +55,7 @@ exclude:
   - package*.json
   - /lib
   - /node_modules
+  - /sources/justia
+  - /sources/loc
   - /sources/sites
   - /tmp
