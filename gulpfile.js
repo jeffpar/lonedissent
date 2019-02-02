@@ -953,7 +953,7 @@ function buildCitations(done)
      */
     let rows = [], scotusCites = {}, scotusVolumes = {};
     let filePaths = glob.sync(rootDir + sources.scotus.citationsHTML);
-    let csv = readTextFile(rootDir + results.csv.citations) || "volume,page,year,caseTitle,oldCite,usCite\n";
+    let scotusCSV = readTextFile(rootDir + results.csv.citations) || "volume,page,year,caseTitle,oldCite,usCite\n";
     let additions = 0;
     for (let i = 0; i < filePaths.length; i++) {
         let isHTML = filePaths[i].indexOf(".html") > 0;
@@ -1046,9 +1046,9 @@ function buildCitations(done)
     printf("total citations matched: %d\n", rows.length);
     rows.forEach((row) => {
         let line = sprintf('%d,%d,%d,"%s","%s","%s"\n', row[0], +row[1] || 0, row[2], row[3].replace(/"/g, '""'), row[4], row[5]);
-        if (csv.indexOf(line) < 0) {
+        if (scotusCSV.indexOf(line) < 0) {
             // printf("addition: %s", line);
-            csv += line;
+            scotusCSV += line;
             additions++;
         }
     });
@@ -1056,7 +1056,7 @@ function buildCitations(done)
     printf("total citations added: %d\n", additions);
 
     if (additions) {
-        writeTextFile(rootDir + results.csv.citations, csv, argv['overwrite']);
+        writeTextFile(rootDir + results.csv.citations, scotusCSV, argv['overwrite']);
     }
 
     /*
@@ -1064,7 +1064,7 @@ function buildCitations(done)
      * was problematic (see for yourself: https://web.archive.org/web/20080619081552/http://www.supremecourtus.gov/opinions/casefinder/casefinder_1790-1862.html)
      */
     let justiaCites = {}, justiaVolumes = {};
-    let csvJustia = "volume,page,year,dateDecision,caseTitle,oldCite,usCite\n";
+    let justiaCSV = "volume,page,year,dateDecision,caseTitle,oldCite,usCite\n";
     filePaths = glob.sync(rootDir + sources.justia.download.volume.dir + "*.html");
     for (let i = 0; i < filePaths.length; i++) {
         let html = readTextFile(filePaths[i], "latin1");
@@ -1113,20 +1113,56 @@ function buildCitations(done)
                     dateDecision = sprintf("%#Y-%#02M-%#02D", date, date, date);
                     year = +matchDate[2];
                 }
-                if (!justiaCites[usCite]) justiaCites[usCite] = [];
                 let cite = {volume, page, year, dateDecision, caseTitle, oldCite, usCite};
+                if (!justiaCites[usCite]) justiaCites[usCite] = [];
                 justiaCites[usCite].push(cite);
                 if (!justiaVolumes[volume]) justiaVolumes[volume] = [];
                 justiaVolumes[volume].push(cite);
-                csvJustia += sprintf('%d,%d,%d,"%s","%s","%s","%s"\n', volume, page, year, dateDecision, caseTitle.replace(/"/g, '""'), oldCite, usCite);
+                justiaCSV += sprintf('%d,%d,%d,"%s","%s","%s","%s"\n', volume, page, year, dateDecision, caseTitle.replace(/"/g, '""'), oldCite, usCite);
             }
         }
     }
 
-    writeTextFile(rootDir + results.csv.citationsJustia, csvJustia, argv['overwrite']);
+    writeTextFile(rootDir + results.csv.citationsJustia, justiaCSV, argv['overwrite']);
 
     /*
-     * Phase 3: Check SCOTUS cites against Justia cites.
+     * Phase 3: Build another independent set of citations for use as a cross-check from Library of Congress web pages.
+     *
+     * Examples of LOC citation text:
+     *
+     *      U.S. Reports: Turner v. Enrille, 4 U.S. (4 Dall.) 7 (1799).
+     *      U.S. Reports: Young and Grundy, 10 U.S. (6 Cranch) 51 (1810).
+     *      U.S. Reports: Martin v. Mott., 25 U.S. (12 Wheat.) 19 (1827).
+     *      U.S. Reports: Keary et al. v. The Farmers and Merchants Bank of Memphis, 41 U.S. (16 Pet.) 89 (1842).
+     *      U.S. Reports: Moore et al. v. American Transportation Co., 65 U.S. (24 How.) 1 (1861).
+     *      U.S. Reports: United States v. Villalonga, 90 U.S. (23 Wall.) 35 (1874).
+     *      U.S. Reports: Wilmington and Weldon Railroad Company v. King, Executor, 91 U.S. 3 (1875).
+     */
+    let locCites = {};
+    let locCSV = "volume,page,year,caseTitle,oldCite,usCite\n";
+    filePaths = glob.sync(rootDir + sources.loc.download.volume.dir + "*.html");
+    for (let i = 0; i < filePaths.length; i++) {
+        let html = readTextFile(filePaths[i], "latin1");
+        if (html) {
+            html = he.decode(html);
+            // printf("processing %s (%d chars)...\n", filePaths[i], html.length);
+            let match, re = /<span\s+class='item-description-title'>\s*<a\s+href='([^']*)'[^>]*>\s*U\.S\.\s+Reports:\s+(.*?),\s+([0-9]+)\s+U\.S\.\s+(\([^)]*\)\s+|)([0-9]+)\s*\(([0-9]+)\)\.?/g;
+            while ((match = re.exec(html))) {
+                let caseTitle = match[2], volume = +match[3], oldCite = match[4], page = +match[5], year = +match[6];
+                let usCite = sprintf("%d U.S. %d", volume, page);
+                if (oldCite) oldCite = oldCite.slice(1, -2) + ' ' + page;
+                let cite = {volume, page, year, caseTitle, oldCite, usCite};
+                if (!locCites[usCite]) locCites[usCite] = [];
+                locCites[usCite].push(cite);
+                locCSV += sprintf('%d,%d,%d,"%s","%s","%s"\n', volume, page, year, caseTitle.replace(/"/g, '""'), oldCite, usCite);
+            }
+        }
+    }
+
+    writeTextFile(rootDir + results.csv.citationsLOC, locCSV, argv['overwrite']);
+
+    /*
+     * Phase 4: Check SCOTUS cites against Justia cites.
      */
     let volumes = Object.keys(scotusVolumes);
     volumes.forEach((volume) => {
