@@ -1038,12 +1038,15 @@ function buildCitations(done)
             printf("total matches in %s: %d\n", filePaths[i], matches);
         }
     }
+
     rows.sort(function(a, b) {
         let va = a[0] || 9999, pa = +a[1] || 9999, ya = a[2], ta = a[3];
         let vb = b[0] || 9999, pb = +b[1] || 9999, yb = b[2], tb = b[3];
         return va < vb? -1 : (va > vb? 1 : (pa < pb? -1 : (pa > pb? 1 : (ya < yb? -1 : (ya > yb? 1 : (ta < tb? -1 : (ta > tb? 1 : 0)))))));
     });
+
     printf("total citations matched: %d\n", rows.length);
+
     rows.forEach((row) => {
         let line = sprintf('%d,%d,%d,"%s","%s","%s"\n', row[0], +row[1] || 0, row[2], row[3].replace(/"/g, '""'), row[4], row[5]);
         if (scotusCSV.indexOf(line) < 0) {
@@ -1060,8 +1063,9 @@ function buildCitations(done)
     }
 
     /*
-     * Phase 2: Build an independent set of citations for use as a cross-check, because apparently my old snapshot of SCOTUS web pages
-     * was problematic (see for yourself: https://web.archive.org/web/20080619081552/http://www.supremecourtus.gov/opinions/casefinder/casefinder_1790-1862.html)
+     * Phase 2: Build an independent set of citations for use as a cross-check, because apparently some of the old SCOTUS citations
+     * were problematic.  See for yourself: https://web.archive.org/web/20080619081552/http://www.supremecourtus.gov/opinions/casefinder/casefinder_1790-1862.html;
+     * eg, they used to cite "Wilson v. Mason' (5 U.S. 44)", while everyone else cites "Wilson v. Mason' (5 U.S. 45)" -- including SCOTUS today.
      */
     let justiaCites = {}, justiaVolumes = {};
     let justiaCSV = "volume,page,year,dateDecision,caseTitle,oldCite,usCite\n";
@@ -1122,7 +1126,6 @@ function buildCitations(done)
             }
         }
     }
-
     writeTextFile(rootDir + results.csv.citationsJustia, justiaCSV, argv['overwrite']);
 
     /*
@@ -1138,7 +1141,7 @@ function buildCitations(done)
      *      U.S. Reports: United States v. Villalonga, 90 U.S. (23 Wall.) 35 (1874).
      *      U.S. Reports: Wilmington and Weldon Railroad Company v. King, Executor, 91 U.S. 3 (1875).
      */
-    let locCites = {};
+    let locCites = {}, locVolumes = {};
     let locCSV = "volume,page,year,caseTitle,oldCite,usCite\n";
     filePaths = glob.sync(rootDir + sources.loc.download.volume.dir + "*.html");
     for (let i = 0; i < filePaths.length; i++) {
@@ -1154,47 +1157,63 @@ function buildCitations(done)
                 let cite = {volume, page, year, caseTitle, oldCite, usCite};
                 if (!locCites[usCite]) locCites[usCite] = [];
                 locCites[usCite].push(cite);
+                if (!locVolumes[volume]) locVolumes[volume] = [];
+                locVolumes[volume].push(cite);
                 locCSV += sprintf('%d,%d,%d,"%s","%s","%s"\n', volume, page, year, caseTitle.replace(/"/g, '""'), oldCite, usCite);
             }
         }
     }
-
     writeTextFile(rootDir + results.csv.citationsLOC, locCSV, argv['overwrite']);
 
     /*
-     * Phase 4: Check SCOTUS cites against Justia cites.
+     * Phase 4: Check SCOTUS cites against LOC cites.
      */
+    let corrections = 0;
     let volumes = Object.keys(scotusVolumes);
     volumes.forEach((volume) => {
         let citesScotus = scotusVolumes[volume];
-        let citesJustia = justiaVolumes[volume];
-        if (citesJustia) {
+        let citesLoc = locVolumes[volume];
+        if (citesLoc) {
             for (let iScotus = 0; iScotus < citesScotus.length; iScotus++) {
                 let citeScotus = citesScotus[iScotus];
                 if (citeScotus.volume > 569 || isNaN(+citeScotus.page)) continue;
-                if (justiaCites[citeScotus.usCite] && justiaCites[citeScotus.usCite].length == 1 && scotusCites[citeScotus.usCite] && scotusCites[citeScotus.usCite].length == 1) continue;
+                // if (locCites[citeScotus.usCite] && locCites[citeScotus.usCite].length == 1 && scotusCites[citeScotus.usCite] && scotusCites[citeScotus.usCite].length == 1) continue;
                 let citeBest = null, scoreBest = -1;
-                for (let iJustia = 0; iJustia < citesJustia.length; iJustia++) {
-                    let citeJustia = citesJustia[iJustia];
-                    let score = scoreStrings(citeJustia.caseTitle, citeScotus.caseTitle);
+                for (let iLoc = 0; iLoc < citesLoc.length; iLoc++) {
+                    let citeLoc = citesLoc[iLoc];
+                    if (citeLoc.matched) continue;
+                    let score = scoreStrings(citeLoc.caseTitle, citeScotus.caseTitle);
+                    if (citeLoc.usCite == citeScotus.usCite && score > 50) {
+                        if (citeLoc.oldCite != citeScotus.oldCite) {
+                            printf("warning: SCOTUS citation (%s) doesn't match LOC citation (%s)\n", citeScotus.oldCite, citeLoc.oldCite);
+                            warnings++;
+                        }
+                        citeLoc.matched = true;
+                        citeBest = citeLoc;
+                        break;
+                    }
                     if (scoreBest < score) {
                         scoreBest = score;
-                        citeBest = citeJustia;
+                        citeBest = citeLoc;
                     }
                 }
                 if (citeScotus.usCite != citeBest.usCite && scoreBest > 75) {
-                    printf("warning: SCOTUS citation '%s' (%s) has better match '%s' (%s): %d\n", citeScotus.caseTitle, citeScotus.usCite, citeBest.caseTitle, citeBest.usCite, scoreBest);
+                    printf("correction: SCOTUS citation '%s' (%s) has better LOC match '%s' (%s): %d\n", citeScotus.caseTitle, citeScotus.usCite, citeBest.caseTitle, citeBest.usCite, scoreBest);
+                    corrections++;
                 }
             }
         } else {
             let volume = +citesScotus[0].volume;
             let page = +citesScotus[0].page;
             if (volume <= 569 && !isNaN(page)) {
-                // printf("warning: unable to to find SCOTUS citation '%s' (%s) in Justia citations\n", citesScotus.length == 1? citesScotus[0].caseTitle : citesScotus.length, usCite);
+                // printf("warning: unable to to find SCOTUS citation '%s' (%s) in LOC citations\n", citesScotus.length == 1? citesScotus[0].caseTitle : citesScotus.length, usCite);
                 // warnings++;
             }
         }
     });
+
+    printf("total corrections: %d\n", corrections);
+    printf("total warnings: %d\n", warnings);
 
     done();
 }
