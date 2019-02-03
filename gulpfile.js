@@ -356,6 +356,9 @@ function addCSV(text, obj, keys, ...pairs)
  /**
   * parseCSV(text, maxRows, keyUnique, keySubset, saveUniqueKey, vars)
   *
+  * By default, all CSV fields containing strings are encoded for "html" (ie, with HTML entities where appropriate);
+  * however, for situations where no "html" encoding is desired, you can pass -1 for maxRows.
+  *
   * @param {string} text
   * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
   * @param {string} [keyUnique] (name of field, if any, that should be filtered; typically the key associated with the subset fields)
@@ -374,7 +377,7 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
         let line = lines[i];
         if (!line) continue;
         let row = {};
-        let fields = parseCSVFields(line, i+1);
+        let fields = parseCSVFields(line, maxRows < 0? "" : "html");
         if (!headings) {
             headings = fields;
             /*
@@ -466,7 +469,7 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
                     continue;
                 }
             }
-            if (!maxRows || i <= maxRows) rows.push(row);
+            if (maxRows <= 0 || i <= maxRows) rows.push(row);
         }
     }
     if (vars) {
@@ -487,13 +490,13 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
 }
 
 /**
- * parseCSVFields(line, row)
+ * parseCSVFields(line, encoding)
  *
  * @param {string} line
- * @param {number} [row]
+ * @param {boolean} [encoding]
  * @return {Array.<string>}
  */
-function parseCSVFields(line, row)
+function parseCSVFields(line, encoding)
 {
     let field = "";
     let fields = [];
@@ -502,7 +505,7 @@ function parseCSVFields(line, row)
         let ch = line[i];
         if (!inQuotes) {
             if (ch == ',') {
-                field = replaceChars(field);
+                field = encodeChars(field, encoding);
                 fields.push(field);
                 field = "";
             }
@@ -527,7 +530,7 @@ function parseCSVFields(line, row)
             }
         }
     }
-    field = replaceChars(field);
+    field = encodeChars(field, encoding);
     fields.push(field);
     if (inQuotes) {
         printf("CSV quote error: %s\n", line);
@@ -536,12 +539,13 @@ function parseCSVFields(line, row)
 }
 
 /**
- * replaceChars(text)
+ * encodeChars(text, encoding)
  *
  * @param {string} text
+ * @param {string} [encoding] (eg, "html")
  * @return {string}
  */
-function replaceChars(text)
+function encodeChars(text, encoding)
 {
     //
     // for (let i = 0; i < text.length; i++) {
@@ -576,10 +580,13 @@ function replaceChars(text)
     // }
     // return textNew.replace(/&([^&;]*)( |$)/gi, "&amp;$1$2").replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
     //
-    return he.encode(text.replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc."), {
-        'encodeEverything': false,
-        "useNamedReferences": true
-    }).replace(/&apos;/g, "'").replace(/&quot;/g, '"');
+    if (encoding == "html") {
+        return he.encode(text.replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc."), {
+            'encodeEverything': false,
+            "useNamedReferences": true
+        }).replace(/&apos;/g, "'").replace(/&quot;/g, '"');
+    }
+    return text;
 }
 
 /**
@@ -903,7 +910,7 @@ function readSCOTUSDecisions()
     //     let rowsFreeLaw = decisionsFreeLaw.split('\n');
     //     for (let i = 0; i < rowsFreeLaw.length - 1; i++) {
     //         rowsFreeLaw[i] = rowsFreeLaw[i].split('|');
-    //         rowsFreeLaw[i][1] = replaceChars(rowsFreeLaw[i][1]);
+    //         rowsFreeLaw[i][1] = encodeChars(rowsFreeLaw[i][1]);
     //     }
     //     for (let i = 0; i < rowsFreeLaw.length - 1; i++) {
     //         if (rowsFreeLaw[i][1] != decisions[i].caseTitle) {
@@ -1059,7 +1066,7 @@ function buildCitations(done)
             writeTextFile(rootDir + results.csv.citations, scotusCSV, argv['overwrite']);
         }
     } else {
-        let scotusRows = parseCSV(scotusCSV);
+        let scotusRows = parseCSV(scotusCSV, -1);
         scotusRows.forEach((cite) => {
             let usCite = cite.usCite;
             let volume = cite.volume;
@@ -1139,7 +1146,7 @@ function buildCitations(done)
         writeTextFile(rootDir + results.csv.citationsJustia, justiaCSV, argv['overwrite']);
     }
     else {
-        let justiaRows = parseCSV(justiaCSV);
+        let justiaRows = parseCSV(justiaCSV, -1);
         justiaRows.forEach((cite) => {
             let usCite = cite.usCite;
             let volume = cite.volume;
@@ -1195,7 +1202,7 @@ function buildCitations(done)
         writeTextFile(rootDir + results.csv.citationsLOC, locCSV, argv['overwrite']);
     }
     else {
-        let locRows = parseCSV(locCSV);
+        let locRows = parseCSV(locCSV, -1);
         locRows.forEach((cite) => {
             let usCite = cite.usCite;
             let volume = cite.volume;
@@ -1217,14 +1224,14 @@ function buildCitations(done)
         if (citesLoc) {
             for (let iScotus = 0; iScotus < citesScotus.length; iScotus++) {
                 let citeScotus = citesScotus[iScotus];
-                if (citeScotus.volume > 569 || isNaN(+citeScotus.page)) continue;
+                if (+citeScotus.volume > 569 || isNaN(+citeScotus.page)) continue;
                 // if (locCites[citeScotus.usCite] && locCites[citeScotus.usCite].length == 1 && scotusCites[citeScotus.usCite] && scotusCites[citeScotus.usCite].length == 1) continue;
                 let citeBest = null, scoreBest = -1;
                 for (let iLoc = 0; iLoc < citesLoc.length; iLoc++) {
                     let citeLoc = citesLoc[iLoc];
                     if (citeLoc.matched) continue;
                     let score = scoreStrings(citeLoc.caseTitle, citeScotus.caseTitle);
-                    if (citeLoc.usCite == citeScotus.usCite && score > 50) {
+                    if (citeLoc.usCite == citeScotus.usCite && (+citeLoc.pageURL || score > 50)) {
                         if (citeLoc.oldCite != citeScotus.oldCite) {
                             printf("warning: SCOTUS citation (%s) doesn't match LOC citation (%s)\n", citeScotus.oldCite, citeLoc.oldCite);
                             warnings++;
