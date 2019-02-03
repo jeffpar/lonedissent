@@ -949,117 +949,125 @@ function readSCOTUSDecisions()
 function buildCitations(done)
 {
     /*
-     * Phase 1: Build a set of citations from a snapshot of SCOTUS web pages.
+     * Phase 1: Build a set of citations from a snapshot of SCOTUS web pages as needed, or parse the existing CSV.
      */
-    let rows = [], scotusCites = {}, scotusVolumes = {};
-    let filePaths = glob.sync(rootDir + sources.scotus.citationsHTML);
-    let scotusCSV = readTextFile(rootDir + results.csv.citations) || "volume,page,year,caseTitle,oldCite,usCite\n";
-    let additions = 0;
-    for (let i = 0; i < filePaths.length; i++) {
-        let isHTML = filePaths[i].indexOf(".html") > 0;
-        let html = readTextFile(filePaths[i], isHTML? "latin1" : "utf-8");
-        if (html) {
-            if (isHTML) {
-                /*
-                 * I like to replace any "&nbsp;"" with a space myself, because if I let he.decode() do it, it will
-                 * replace the entity with "c2 a0" (aka "NO-BREAK SPACE"), and I'm not sure the RegExp whitespace token
-                 * (\s) will match that particular character.  We also take this opportunity to remove any italicization
-                 * and/or emphasis tags from the text.
-                 */
-                html = html.replace(/<\/?(i|em)>/gi, "").replace(/&nbsp;/gi, ' ').replace(/\s+/g, ' ');
-                html = he.decode(html);
-            }
-            let re = /(?:>|^|\n)\s*([^>]*?)(,"|[,.])\s*([0-9]+|_+)\s*(U\.\s*S\.|[A-Z.]+)\s*([0-9]+|_+|[A-Z0-9 .]+?|)\s*[0-9]?\(?([0-9][0-9][0-9][0-9])\)?/gi, match, matches = 0;
-            while ((match = re.exec(html))) {
-                let caseTitle = match[1];
-                if (match[2] == ',"') caseTitle += '"';
-                let volume = +match[3] || 0;
-                let reporter = match[4];
-                let volBegin = -1;
-                switch(reporter) {
-                case "Dall.":
-                    volBegin = 1;
-                    break;
-                case "Cranch":
-                    volBegin = 5;
-                    break;
-                case "Wheat.":
-                    volBegin = 14;
-                    break;
-                case "Pet.":
-                    volBegin = 26;
-                    break;
-                case "How.":
-                    volBegin = 42;
-                    break;
-                case "Black":
-                    volBegin = 66;
-                    break;
-                case "Wall.":
-                case "Wall":
-                case "Wal.":
-                    volBegin = 68;
-                    reporter = "Wall."
-                    break;
-                case "U. S.":
-                case "U.S.":
-                case "U.S":
-                case "US.":
-                    volBegin = 91;
-                    reporter = "U.S.";
-                    break;
+    let scotusCites = {}, scotusVolumes = {};
+    let scotusCSV = readTextFile(rootDir + results.csv.citations);
+    if (!scotusCSV || argv['build']) {
+        if (!scotusCSV) scotusCSV = "volume,page,year,caseTitle,oldCite,usCite\n";
+        let rows = [], additions = 0;
+        let filePaths = glob.sync(rootDir + sources.scotus.citationsHTML);
+        for (let i = 0; i < filePaths.length; i++) {
+            let isHTML = filePaths[i].indexOf(".html") > 0;
+            let html = readTextFile(filePaths[i], isHTML? "latin1" : "utf-8");
+            if (html) {
+                if (isHTML) {
+                    /*
+                    * I like to replace any "&nbsp;"" with a space myself, because if I let he.decode() do it, it will
+                    * replace the entity with "c2 a0" (aka "NO-BREAK SPACE"), and I'm not sure the RegExp whitespace token
+                    * (\s) will match that particular character.  We also take this opportunity to remove any italicization
+                    * and/or emphasis tags from the text.
+                    */
+                    html = html.replace(/<\/?(i|em)>/gi, "").replace(/&nbsp;/gi, ' ').replace(/\s+/g, ' ');
+                    html = he.decode(html);
                 }
-                if (volBegin < 0) {
-                    printf("warning: unrecognized reporter '%s' for '%s' (see %s: '%s')\n", reporter, caseTitle, filePaths[i], html.substr(match.index, 100).trim());
-                    warnings++;
-                    continue;
-                }
-                let page = match[5];
-                let year = +match[6];
-                let oldCite = "";
-                if (volBegin < 91) {
-                    if (!+page) {
-                        printf("warning: unrecognized page '%s' for '%s' (see %s: '%s')\n", page, caseTitle, filePaths[i], html.substr(match.index, 100).trim());
+                let re = /(?:>|^|\n)\s*([^>]*?)(,"|[,.])\s*([0-9]+|_+)\s*(U\.\s*S\.|[A-Z.]+)\s*([0-9]+|_+|[A-Z0-9 .]+?|)\s*[0-9]?\(?([0-9][0-9][0-9][0-9])\)?/gi, match, matches = 0;
+                while ((match = re.exec(html))) {
+                    let caseTitle = match[1];
+                    if (match[2] == ',"') caseTitle += '"';
+                    let volume = +match[3] || 0;
+                    let reporter = match[4];
+                    let volBegin = -1;
+                    switch(reporter) {
+                    case "Dall.":
+                        volBegin = 1;
+                        break;
+                    case "Cranch":
+                        volBegin = 5;
+                        break;
+                    case "Wheat.":
+                        volBegin = 14;
+                        break;
+                    case "Pet.":
+                        volBegin = 26;
+                        break;
+                    case "How.":
+                        volBegin = 42;
+                        break;
+                    case "Black":
+                        volBegin = 66;
+                        break;
+                    case "Wall.":
+                    case "Wall":
+                    case "Wal.":
+                        volBegin = 68;
+                        reporter = "Wall."
+                        break;
+                    case "U. S.":
+                    case "U.S.":
+                    case "U.S":
+                    case "US.":
+                        volBegin = 91;
+                        reporter = "U.S.";
+                        break;
+                    }
+                    if (volBegin < 0) {
+                        printf("warning: unrecognized reporter '%s' for '%s' (see %s: '%s')\n", reporter, caseTitle, filePaths[i], html.substr(match.index, 100).trim());
                         warnings++;
                         continue;
                     }
-                    oldCite = sprintf("%d %s %d", volume, reporter, +page);
-                    volume += volBegin - 1;
+                    let page = match[5];
+                    let year = +match[6];
+                    let oldCite = "";
+                    if (volBegin < 91) {
+                        if (!+page) {
+                            printf("warning: unrecognized page '%s' for '%s' (see %s: '%s')\n", page, caseTitle, filePaths[i], html.substr(match.index, 100).trim());
+                            warnings++;
+                            continue;
+                        }
+                        oldCite = sprintf("%d %s %d", volume, reporter, +page);
+                        volume += volBegin - 1;
+                    }
+                    let usCite = sprintf("%s U.S. %s", volume || "___", page || "___");
+                    rows.push([volume, page, year, caseTitle, oldCite, usCite]);
+                    matches++;
+                    let cite = {volume, page, year, caseTitle, oldCite, usCite};
+                    if (!scotusCites[usCite]) scotusCites[usCite] = [];
+                    scotusCites[usCite].push(cite);
+                    if (!scotusVolumes[volume]) scotusVolumes[volume] = [];
+                    scotusVolumes[volume].push(cite);
                 }
-                let usCite = sprintf("%s U.S. %s", volume || "___", page || "___");
-                rows.push([volume, page, year, caseTitle, oldCite, usCite]);
-                matches++;
-                let cite = {volume, page, year, caseTitle, oldCite, usCite};
-                if (!scotusCites[usCite]) scotusCites[usCite] = [];
-                scotusCites[usCite].push(cite);
-                if (!scotusVolumes[volume]) scotusVolumes[volume] = [];
-                scotusVolumes[volume].push(cite);
+                printf("total matches in %s: %d\n", filePaths[i], matches);
             }
-            printf("total matches in %s: %d\n", filePaths[i], matches);
         }
-    }
-
-    rows.sort(function(a, b) {
-        let va = a[0] || 9999, pa = +a[1] || 9999, ya = a[2], ta = a[3];
-        let vb = b[0] || 9999, pb = +b[1] || 9999, yb = b[2], tb = b[3];
-        return va < vb? -1 : (va > vb? 1 : (pa < pb? -1 : (pa > pb? 1 : (ya < yb? -1 : (ya > yb? 1 : (ta < tb? -1 : (ta > tb? 1 : 0)))))));
-    });
-
-    printf("total citations matched: %d\n", rows.length);
-
-    rows.forEach((row) => {
-        let line = sprintf('%d,%d,%d,"%s","%s","%s"\n', row[0], +row[1] || 0, row[2], row[3].replace(/"/g, '""'), row[4], row[5]);
-        if (scotusCSV.indexOf(line) < 0) {
-            // printf("addition: %s", line);
-            scotusCSV += line;
-            additions++;
+        rows.sort(function(a, b) {
+            let va = a[0] || 9999, pa = +a[1] || 9999, ya = a[2], ta = a[3];
+            let vb = b[0] || 9999, pb = +b[1] || 9999, yb = b[2], tb = b[3];
+            return va < vb? -1 : (va > vb? 1 : (pa < pb? -1 : (pa > pb? 1 : (ya < yb? -1 : (ya > yb? 1 : (ta < tb? -1 : (ta > tb? 1 : 0)))))));
+        });
+        printf("total citations matched: %d\n", rows.length);
+        rows.forEach((row) => {
+            let line = sprintf('%d,%d,%d,"%s","%s","%s"\n', row[0], +row[1] || 0, row[2], row[3].replace(/"/g, '""'), row[4], row[5]);
+            if (scotusCSV.indexOf(line) < 0) {
+                // printf("addition: %s", line);
+                scotusCSV += line;
+                additions++;
+            }
+        });
+        printf("total citations added: %d\n", additions);
+        if (additions) {
+            writeTextFile(rootDir + results.csv.citations, scotusCSV, argv['overwrite']);
         }
-    });
-
-    printf("total citations added: %d\n", additions);
-
-    if (additions) {
-        writeTextFile(rootDir + results.csv.citations, scotusCSV, argv['overwrite']);
+    } else {
+        let scotusRows = parseCSV(scotusCSV);
+        scotusRows.forEach((cite) => {
+            let usCite = cite.usCite;
+            let volume = cite.volume;
+            if (!scotusCites[usCite]) scotusCites[usCite] = [];
+            scotusCites[usCite].push(cite);
+            if (!scotusVolumes[volume]) scotusVolumes[volume] = [];
+            scotusVolumes[volume].push(cite);
+        });
     }
 
     /*
@@ -1068,65 +1076,79 @@ function buildCitations(done)
      * eg, they used to cite "Wilson v. Mason' (5 U.S. 44)", while everyone else cites "Wilson v. Mason' (5 U.S. 45)" -- including SCOTUS today.
      */
     let justiaCites = {}, justiaVolumes = {};
-    let justiaCSV = "volume,page,year,dateDecision,caseTitle,oldCite,usCite\n";
-    filePaths = glob.sync(rootDir + sources.justia.download.volume.dir + "*.html");
-    for (let i = 0; i < filePaths.length; i++) {
-        let html = readTextFile(filePaths[i], "latin1");
-        if (html) {
-            html = he.decode(html);
-            let match, re = /<a\s+href="(\/cases\/federal\/us)\/([0-9]+)\/([0-9]+)\/"\s+class="case-name">\s*<strong>\s*([^<]*)\s*<\/strong>\s*<\/a>[\s\S]*?<br\/>\s*<strong>Citation:<\/strong>\s*([0-9]+)\s+U\.S\.\s+([0-9]+)<br\/>([\s\S]*?)<a href="\1\/\2\/\3\/">/g;
-            while ((match = re.exec(html))) {
-                let caseTitle = match[4], volume = +match[5], page = +match[6];
-                let usCite = sprintf("%d U.S. %d", volume, page), oldCite = "";
-                if (volume != +match[2] || page != +match[3]) {
-                    printf("warning: citation (%s) does not match link (%s U.S. %s)\n", usCite, match[2], match[3]);
-                    warnings++;
-                }
-                let reporter = "";
-                if (volume) {
-                    let volBegin = 0;
-                    if (volume < 5) {
-                        volBegin = 1;
-                        reporter = "Dall.";
-                    } else if (volume < 14) {
-                        volBegin = 5;
-                        reporter = "Cranch";
-                    } else if (volume < 26) {
-                        volBegin = 14;
-                        reporter = "Wheat.";
-                    } else if (volume < 42) {
-                        volBegin = 26;
-                        reporter = "Pet.";
-                    } else if (volume < 66) {
-                        volBegin = 42;
-                        reporter = "How.";
-                    } else if (volume < 91) {
-                        volBegin = 66;
-                        reporter = "Wall.";
-                    } else {
-                        reporter = "U.S.";
+    let justiaCSV = readTextFile(rootDir + results.csv.citationsJustia);
+    if (!justiaCSV || argv['build']) {
+        if (!justiaCSV) justiaCSV = "volume,page,year,dateDecision,caseTitle,oldCite,usCite\n";
+        let filePaths = glob.sync(rootDir + sources.justia.download.volume.dir + "*.html");
+        for (let i = 0; i < filePaths.length; i++) {
+            let html = readTextFile(filePaths[i], "latin1");
+            if (html) {
+                html = he.decode(html);
+                let match, re = /<a\s+href="(\/cases\/federal\/us)\/([0-9]+)\/([0-9]+)\/"\s+class="case-name">\s*<strong>\s*([^<]*)\s*<\/strong>\s*<\/a>[\s\S]*?<br\/>\s*<strong>Citation:<\/strong>\s*([0-9]+)\s+U\.S\.\s+([0-9]+)<br\/>([\s\S]*?)<a href="\1\/\2\/\3\/">/g;
+                while ((match = re.exec(html))) {
+                    let caseTitle = match[4], volume = +match[5], page = +match[6];
+                    let usCite = sprintf("%d U.S. %d", volume, page), oldCite = "";
+                    if (volume != +match[2] || page != +match[3]) {
+                        printf("warning: citation (%s) does not match link (%s U.S. %s)\n", usCite, match[2], match[3]);
+                        warnings++;
                     }
-                    if (volBegin) {
-                        oldCite = sprintf("%d %s %d", volume - volBegin + 1, reporter, page);
+                    let reporter = "";
+                    if (volume) {
+                        let volBegin = 0;
+                        if (volume < 5) {
+                            volBegin = 1;
+                            reporter = "Dall.";
+                        } else if (volume < 14) {
+                            volBegin = 5;
+                            reporter = "Cranch";
+                        } else if (volume < 26) {
+                            volBegin = 14;
+                            reporter = "Wheat.";
+                        } else if (volume < 42) {
+                            volBegin = 26;
+                            reporter = "Pet.";
+                        } else if (volume < 66) {
+                            volBegin = 42;
+                            reporter = "How.";
+                        } else if (volume < 91) {
+                            volBegin = 66;
+                            reporter = "Wall.";
+                        } else {
+                            reporter = "U.S.";
+                        }
+                        if (volBegin) {
+                            oldCite = sprintf("%d %s %d", volume - volBegin + 1, reporter, page);
+                        }
                     }
+                    let dateDecision = "", year = 0;
+                    let matchDate = match[7].match(/<span[^>]*>\s*<strong>Date:<\/strong>\s*([^<]*)([0-9][0-9][0-9][0-9])\s*<\/span>/);
+                    if (matchDate) {
+                        let date = parseDate(matchDate[1] + matchDate[2]);
+                        dateDecision = sprintf("%#Y-%#02M-%#02D", date, date, date);
+                        year = +matchDate[2];
+                    }
+                    let cite = {volume, page, year, dateDecision, caseTitle, oldCite, usCite};
+                    if (!justiaCites[usCite]) justiaCites[usCite] = [];
+                    justiaCites[usCite].push(cite);
+                    if (!justiaVolumes[volume]) justiaVolumes[volume] = [];
+                    justiaVolumes[volume].push(cite);
+                    justiaCSV += sprintf('%d,%d,%d,"%s","%s","%s","%s"\n', volume, page, year, dateDecision, caseTitle.replace(/"/g, '""'), oldCite, usCite);
                 }
-                let dateDecision = "", year = 0;
-                let matchDate = match[7].match(/<span[^>]*>\s*<strong>Date:<\/strong>\s*([^<]*)([0-9][0-9][0-9][0-9])\s*<\/span>/);
-                if (matchDate) {
-                    let date = parseDate(matchDate[1] + matchDate[2]);
-                    dateDecision = sprintf("%#Y-%#02M-%#02D", date, date, date);
-                    year = +matchDate[2];
-                }
-                let cite = {volume, page, year, dateDecision, caseTitle, oldCite, usCite};
-                if (!justiaCites[usCite]) justiaCites[usCite] = [];
-                justiaCites[usCite].push(cite);
-                if (!justiaVolumes[volume]) justiaVolumes[volume] = [];
-                justiaVolumes[volume].push(cite);
-                justiaCSV += sprintf('%d,%d,%d,"%s","%s","%s","%s"\n', volume, page, year, dateDecision, caseTitle.replace(/"/g, '""'), oldCite, usCite);
             }
         }
+        writeTextFile(rootDir + results.csv.citationsJustia, justiaCSV, argv['overwrite']);
     }
-    writeTextFile(rootDir + results.csv.citationsJustia, justiaCSV, argv['overwrite']);
+    else {
+        let justiaRows = parseCSV(justiaCSV);
+        justiaRows.forEach((cite) => {
+            let usCite = cite.usCite;
+            let volume = cite.volume;
+            if (!justiaCites[usCite]) justiaCites[usCite] = [];
+            justiaCites[usCite].push(cite);
+            if (!justiaVolumes[volume]) justiaVolumes[volume] = [];
+            justiaVolumes[volume].push(cite);
+        });
+    }
 
     /*
      * Phase 3: Build another independent set of citations for use as a cross-check from Library of Congress web pages.
@@ -1142,34 +1164,47 @@ function buildCitations(done)
      *      U.S. Reports: Wilmington and Weldon Railroad Company v. King, Executor, 91 U.S. 3 (1875).
      */
     let locCites = {}, locVolumes = {};
-    let locCSV = "volume,page,year,caseTitle,oldCite,usCite\n";
-    filePaths = glob.sync(rootDir + sources.loc.download.volume.dir + "*.html");
-    for (let i = 0; i < filePaths.length; i++) {
-        let html = readTextFile(filePaths[i], "latin1");
-        if (html) {
-            html = he.decode(html);
-            // printf("processing %s (%d chars)...\n", filePaths[i], html.length);
-            let match, re = /<span\s+class='item-description-title'>\s*<a\s+href='([^']*)'[^>]*>\s*U\.S\.\s+Reports:\s+(.*?),\s+([0-9]+)\s+U\.S\.\s+(\([^)]*\)\s+|)([0-9]+)\s*\(([0-9]+)\)\.?/g;
-            while ((match = re.exec(html))) {
-                let caseTitle = match[2], volume = +match[3], oldCite = match[4], page = +match[5], year = +match[6];
-                let usCite = sprintf("%d U.S. %d", volume, page);
-                if (oldCite) {
-                    oldCite = oldCite.slice(1, -2) + ' ' + page;
-                    if (volume == 12) {
-                        oldCite = oldCite.replace(/9 Cranch /g, "8 Cranch ");
+    let locCSV = readTextFile(rootDir + results.csv.citationsLOC);
+    if (!locCSV || argv['build']) {
+        if (!locCSV) locCSV = "volume,page,year,pageURL,pagePDF,caseTitle,oldCite,usCite\n";
+        let filePaths = glob.sync(rootDir + sources.loc.download.volume.dir + "*.html");
+        for (let i = 0; i < filePaths.length; i++) {
+            let html = readTextFile(filePaths[i], "latin1");
+            if (html) {
+                html = he.decode(html);
+                let match, re = /<span\s+class='item-description-title'>\s*<a\s+href='([^']*)'[^>]*>\s*U\.S\.\s+Reports:\s+(.*?),\s+([0-9]+)\s+U\.S\.\s+(\([^)]*\)\s+|)([0-9]+)\s*\(([0-9]+)\)\.?/g;
+                while ((match = re.exec(html))) {
+                    let caseTitle = match[2], volume = +match[3], oldCite = match[4], page = +match[5], year = +match[6];
+                    let usCite = sprintf("%d U.S. %d", volume, page);
+                    if (oldCite) {
+                        oldCite = oldCite.slice(1, -2) + ' ' + page;
+                        if (volume == 12) {
+                            oldCite = oldCite.replace(/9 Cranch /g, "8 Cranch ");
+                        }
+                        oldCite = oldCite.replace(/2 How /g, "2 How. ");
                     }
-                    oldCite = oldCite.replace(/2 How /g, "2 How. ");
+                    let cite = {volume, page, year, caseTitle, oldCite, usCite};
+                    if (!locCites[usCite]) locCites[usCite] = [];
+                    locCites[usCite].push(cite);
+                    if (!locVolumes[volume]) locVolumes[volume] = [];
+                    locVolumes[volume].push(cite);
+                    locCSV += sprintf('%d,%d,%d,%d,%d,"%s","%s","%s"\n', volume, page, year, 0, 0, caseTitle.replace(/"/g, '""'), oldCite, usCite);
                 }
-                let cite = {volume, page, year, caseTitle, oldCite, usCite};
-                if (!locCites[usCite]) locCites[usCite] = [];
-                locCites[usCite].push(cite);
-                if (!locVolumes[volume]) locVolumes[volume] = [];
-                locVolumes[volume].push(cite);
-                locCSV += sprintf('%d,%d,%d,"%s","%s","%s"\n', volume, page, year, caseTitle.replace(/"/g, '""'), oldCite, usCite);
             }
         }
+        writeTextFile(rootDir + results.csv.citationsLOC, locCSV, argv['overwrite']);
     }
-    writeTextFile(rootDir + results.csv.citationsLOC, locCSV, argv['overwrite']);
+    else {
+        let locRows = parseCSV(locCSV);
+        locRows.forEach((cite) => {
+            let usCite = cite.usCite;
+            let volume = cite.volume;
+            if (!locCites[usCite]) locCites[usCite] = [];
+            locCites[usCite].push(cite);
+            if (!locVolumes[volume]) locVolumes[volume] = [];
+            locVolumes[volume].push(cite);
+        });
+    }
 
     /*
      * Phase 4: Check SCOTUS cites against LOC cites.
