@@ -19,6 +19,7 @@ data was imported from [CSV files](/sources/scdb/decisions.csv) provided by the
 
 Additionally, our [Citations](/results/citations.csv)
 come from the Supreme Court's [Case Citation Finder](https://www.supremecourt.gov/opinions/casefinder.aspx),
+including numerous corrections from [Citations](/results/citationsLOC.csv) extracted from the [Library of Congress](https://www.loc.gov/collections/united-states-reports/?st=list),
 and [Argument and Decision Dates](/results/dates.csv) of early cases have been extracted from the Supreme Court Library document
 "[DATES OF SUPREME COURT DECISIONS AND ARGUMENTS: UNITED STATES REPORTS VOLUMES 2 – 107 (1791 – 1882)](/sources/scotus/dates/decisionDates.pdf)".
 
