@@ -1179,9 +1179,9 @@ function buildCitations(done)
             let html = readTextFile(filePaths[i], "latin1");
             if (html) {
                 html = he.decode(html);
-                let match, re = /<span\s+class='item-description-title'>\s*<a\s+href='([^']*)'[^>]*>\s*U\.S\.\s+Reports:\s+(.*?),\s+([0-9]+)\s+U\.S\.\s+(\([^)]*\)\s+|)([0-9]+)\s*\(([0-9]+)\)\.?/g;
+                let match, re = /<span\s+class='item-description-title'>\s*<a\s+href='([^']*)'[^>]*>\s*U\.S\.\s+Reports:\s+(.*?),\s+([0-9]+)\s+U\.S\.\s+(\([^)]*\)\s+|)([0-9]+)\s*\(([0-9-]+)\)\.?/g;
                 while ((match = re.exec(html))) {
-                    let caseTitle = match[2], volume = +match[3], oldCite = match[4], page = +match[5], year = +match[6];
+                    let caseTitle = match[2], volume = +match[3], oldCite = match[4], page = +match[5], year = +match[6].slice(-4);
                     let usCite = sprintf("%d U.S. %d", volume, page);
                     if (oldCite) {
                         oldCite = oldCite.slice(1, -2) + ' ' + page;
@@ -1248,6 +1248,14 @@ function buildCitations(done)
                 if (citeScotus.usCite != citeBest.usCite && scoreBest > 75) {
                     printf("correction: SCOTUS citation '%s' (%s) has better LOC match '%s' (%s): %d\n", citeScotus.caseTitle, citeScotus.usCite, citeBest.caseTitle, citeBest.usCite, scoreBest);
                     corrections++;
+                    /*
+                     * Let's add a task to get the LOC PDF.
+                     */
+                    // let name = 'download.loc.' + citeBest.volume + '.' + citeBest.page;
+                    // let url = sprintf(sources.loc.download.pdf.url, citeBest.volume, citeBest.volume, citeBest.page, citeBest.volume, citeBest.page);
+                    // let dir = sprintf(sources.loc.download.pdf.dir, citeBest.volume);
+                    // let file = sprintf(sources.loc.download.pdf.file, citeBest.volume, citeBest.page);
+                    // createDownloadTask(name, url, dir, file);
                 }
             }
         } else {
@@ -2519,6 +2527,11 @@ function findLonerMatches(done)
     done();
 }
 
+/**
+ * testDates()
+ *
+ * @param {function()} done
+ */
 function testDates(done)
 {
     let date, format;
@@ -2593,6 +2606,7 @@ function testDates(done)
  */
 function createDownloadTask(name, url, dir, file)
 {
+    // printf("createDownloadTask(%s,%s,%s,%s)\n", name, url, dir, file);
     downloadTasks.push(name);
     let dirPath = path.join(rootDir, dir);
     let filePath = path.join(dirPath, file);
@@ -2619,9 +2633,11 @@ function createDownloadTask(name, url, dir, file)
 }
 
 /**
- * generateDownloadTasks()
+ * generateDownloadTasks(done)
+ *
+ * @param {function()} done
  */
-function generateDownloadTasks()
+function generateDownloadTasks(done)
 {
     let sourceNames = Object.keys(sources);
     sourceNames.forEach((source) => {
@@ -2630,23 +2646,37 @@ function generateDownloadTasks()
         let downloadGroups = Object.keys(downloads);
         downloadGroups.forEach((group) => {
             let downloadGroup = downloads[group];
-            for (let index = downloadGroup.start; index <= downloadGroup.stop; index++) {
-                let url = sprintf(downloadGroup.url, index);
-                let dir = sprintf(downloadGroup.dir, index);
-                let file = sprintf(downloadGroup.file, index);
-                createDownloadTask('download.' + source + '.' + group + '.' + index, url, dir, file);
+            if (downloadGroup.start && downloadGroup.stop) {
+                for (let index = downloadGroup.start; index <= downloadGroup.stop; index++) {
+                    let url = sprintf(downloadGroup.url, index);
+                    let dir = sprintf(downloadGroup.dir, index);
+                    let file = sprintf(downloadGroup.file, index);
+                    createDownloadTask('download.' + source + '.' + group + '.' + index, url, dir, file);
+                }
             }
         });
     });
+    done();
 }
 
-generateDownloadTasks();
+/**
+ * runDownloadTasks(done)
+ *
+ * @param {function()} done
+ */
+function runDownloadTasks(done)
+{
+    return gulp.series(...downloadTasks, function endGroupTasks(seriesDone) {
+        seriesDone();
+        done();
+    })();
+}
 
-gulp.task("citations", buildCitations);
+gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
 gulp.task("justices", buildJustices);
-gulp.task("download", gulp.series(downloadTasks));
+gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
 gulp.task("fixDecisions", fixDecisions);
 gulp.task("allDecisions", findAllDecisions);
 gulp.task("allJustices", findAllJustices);
@@ -2656,5 +2686,5 @@ gulp.task("all", gulp.series(findAllDecisions, findAllJustices));
 gulp.task("loners", gulp.series(findLonerDecisions, findLonerJustices));
 gulp.task("matches", findLonerMatches);
 gulp.task("backup", backupLonerDecisions);
-gulp.task("tests", testDates);
+gulp.task("tests", gulp.series(testDates));
 gulp.task("default", findDecisions);

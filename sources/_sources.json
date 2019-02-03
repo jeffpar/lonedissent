@@ -21,6 +21,11 @@
         "url": "https://www.loc.gov/collections/united-states-reports/?fa=partof:u.s.+reports:+volume+%d&st=list&c=300",
         "dir": "/sources/loc/volumes/",
         "file": "us%03d.html"
+      },
+      "pdf": {
+        "url": "http://cdn.loc.gov/service/ll/usrep/usrep%03d/usrep%03d%03d/usrep%03d%03d.pdf",
+        "dir": "/sources/loc/pdfs/%03d/",
+        "file": "%03dus%03d.pdf"
       }
     }
   },
