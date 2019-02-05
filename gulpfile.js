@@ -590,6 +590,22 @@ function encodeChars(text, encoding)
 }
 
 /**
+ * getLOCPDF(volume, page, pageURL)
+ *
+ * @param {string} volume
+ * @param {string} page
+ * @param {string} [pageURL]
+ */
+function getLOCPDF(volume, page, pageURL)
+{
+    let name = 'download.loc.' + volume + '.' + page;
+    let url = sprintf(sources.loc.download.pdf.url, +volume, +volume, +pageURL || +page, +volume, +pageURL || +page);
+    let dir = sprintf(sources.loc.download.pdf.dir, +volume);
+    let file = sprintf(sources.loc.download.pdf.file, +volume, +page);
+    createDownloadTask(name, url, dir, file);
+}
+
+/**
  * readTextFile(filePath, encoding)
  *
  * @param {string} filePath
@@ -1170,13 +1186,6 @@ function buildCitations(done)
      *      U.S. Reports: United States v. Villalonga, 90 U.S. (23 Wall.) 35 (1874).
      *      U.S. Reports: Wilmington and Weldon Railroad Company v. King, Executor, 91 U.S. 3 (1875).
      */
-    let getLOCPDF = function(volume, page) {
-        let name = 'download.loc.' + volume + '.' + page;
-        let url = sprintf(sources.loc.download.pdf.url, volume, volume, page, volume, page);
-        let dir = sprintf(sources.loc.download.pdf.dir, volume);
-        let file = sprintf(sources.loc.download.pdf.file, volume, page);
-        createDownloadTask(name, url, dir, file);
-    };
     let locCites = {}, locVolumes = {};
     let locCSV = readTextFile(rootDir + results.csv.citationsLOC);
     if (!locCSV || argv['build']) {
@@ -1254,20 +1263,20 @@ function buildCitations(done)
                     }
                 }
                 if (!citeBest) {
-                    printf("warning: unable to to find SCOTUS citation '%s' (%s) in LOC citations\n", citeScotus.caseTitle, citeScotus.usCite);
+                    printf("warning: unable to find SCOTUS citation '%s' (%s) in LOC citations\n", citeScotus.caseTitle, citeScotus.usCite);
                     warnings++;
                 }
                 else if (citeScotus.usCite != citeBest.usCite && scoreBest > 75) {
                     printf("correction: SCOTUS citation '%s' (%s) has better LOC match '%s' (%s): %d\n", citeScotus.caseTitle, citeScotus.usCite, citeBest.caseTitle, citeBest.usCite, scoreBest);
                     corrections++;
                     getLOCPDF(citeScotus.volume, citeScotus.page);
-                    getLOCPDF(citeBest.volume, citeBest.page);
+                    getLOCPDF(citeBest.volume, citeBest.page, citeBest.pageURL);
                 }
             }
         } else {
             let page = +citesScotus[0].page;
             if (volume <= 569 && !isNaN(page)) {
-                // printf("warning: unable to to find SCOTUS volume %d in LOC citations\n", volume);
+                // printf("warning: unable to find SCOTUS volume %d in LOC citations\n", volume);
                 // warnings++;
             }
         }
@@ -1276,7 +1285,6 @@ function buildCitations(done)
     /*
      * Phase 5: Check LOC cites against SCOTUS cites.
      */
-    let locMisc = "";
     volumes = Object.keys(locVolumes);
     volumes.forEach((volume) => {
         let citesLoc = locVolumes[volume];
@@ -1289,7 +1297,7 @@ function buildCitations(done)
                     let citeScotus = citesScotus[iScotus];
                     if (citeScotus.matched) continue;
                     let score = scoreStrings(citeScotus.caseTitle, citeLoc.caseTitle);
-                    if (citeScotus.usCite == citeLoc.usCite && score > 50) {
+                    if (citeScotus.usCite == citeLoc.usCite && (score > 50 || locCites[citeLoc.usCite].length == 1 && scotusCites[citeScotus.usCite].length == 1)) {
                         if (citeScotus.oldCite != citeLoc.oldCite) {
                             printf("warning: LOC citation (%s) doesn't match SCOTUS citation (%s)\n", citeLoc.oldCite, citeScotus.oldCite);
                             warnings++;
@@ -1304,31 +1312,22 @@ function buildCitations(done)
                         citeBest = citeScotus;
                     }
                 }
-                if (!citeBest) {
-                    printf("warning: unable to to find LOC citation '%s' (%s) in SCOTUS citations\n", citeLoc.caseTitle, citeLoc.usCite);
-                    locMisc += citeLoc.row;
-                    let i = locCSV.indexOf(citeLoc.row);
-                    locCSV = locCSV.substr(0, i) + locCSV.substr(i + citeLoc.row.length);
+                if ((!citeBest || citeBest.usCite != citeLoc.usCite) && citeLoc.caseTitle.indexOf(" v. ") < 0 && citeLoc.caseTitle.indexOf("Anonymous") < 0) {
+                    printf("warning: unable to find LOC citation '%s' (%s) in SCOTUS citations\n", citeLoc.caseTitle, citeLoc.usCite);
                     warnings++;
                 }
-                else if (citeLoc.usCite != citeBest.usCite && scoreBest > 75) {
+                else if (citeBest && citeLoc.usCite != citeBest.usCite && scoreBest > 75) {
                     printf("correction: LOC citation '%s' (%s) has better SCOTUS match '%s' (%s): %d\n", citeLoc.caseTitle, citeLoc.usCite, citeBest.caseTitle, citeBest.usCite, scoreBest);
                     corrections++;
-                    getLOCPDF(citeLoc.volume, citeLoc.page);
+                    getLOCPDF(citeLoc.volume, citeLoc.page, citeLoc.pageURL);
                     getLOCPDF(citeBest.volume, citeBest.page);
                 }
             }
         } else {
-            printf("warning: unable to to find LOC volume %d in SCOTUS citations\n", volume);
+            printf("warning: unable to find LOC volume %d in SCOTUS citations\n", volume);
             warnings++;
         }
     });
-
-    if (locMisc) {
-        locMisc = "volume,page,year,pageURL,pagePDF,caseTitle,oldCite,usCite\n" + locMisc;
-        writeTextFile(rootDir + results.csv.citationsLOC, locCSV, argv['overwrite']);
-        writeTextFile(rootDir + results.csv.miscLOC, locMisc, argv['overwrite']);
-    }
 
     printf("total corrections: %d\n", corrections);
     printf("total warnings: %d\n", warnings);
@@ -2668,12 +2667,15 @@ function testDates(done)
  */
 function createDownloadTask(name, url, dir, file)
 {
-    // printf("createDownloadTask(%s,%s,%s,%s)\n", name, url, dir, file);
+    if (downloadTasks.indexOf(name) >= 0) {
+        return;
+    }
     let dirPath = path.join(rootDir, dir);
     let filePath = path.join(dirPath, file);
     if (fs.existsSync(filePath)) {
         return;
     }
+    // printf("createDownloadTask(%s,%s,%s,%s)\n", name, url, dir, file);
     downloadTasks.push(name);
     gulp.task(name, function(done) {
         if (!fs.existsSync(dirPath)) {
@@ -2721,6 +2723,10 @@ function generateDownloadTasks(done)
                 }
             }
         });
+    });
+    let locRows = parseCSV(readTextFile(rootDir + results.csv.citationsLOC), -1);
+    locRows.forEach((cite) => {
+        getLOCPDF(cite.volume, cite.page, cite.pageURL);
     });
     done();
 }
