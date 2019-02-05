@@ -1197,12 +1197,13 @@ function buildCitations(done)
                         }
                         oldCite = oldCite.replace(/2 How /g, "2 How. ");
                     }
-                    let cite = {volume, page, year, caseTitle, oldCite, usCite};
+                    let row = sprintf('%d,%d,%d,%d,%d,"%s","%s","%s"\n', volume, page, year, 0, 0, caseTitle.replace(/"/g, '""'), oldCite, usCite);
+                    let cite = {volume, page, year, caseTitle, oldCite, usCite, row};
                     if (!locCites[usCite]) locCites[usCite] = [];
                     locCites[usCite].push(cite);
                     if (!locVolumes[volume]) locVolumes[volume] = [];
                     locVolumes[volume].push(cite);
-                    locCSV += sprintf('%d,%d,%d,%d,%d,"%s","%s","%s"\n', volume, page, year, 0, 0, caseTitle.replace(/"/g, '""'), oldCite, usCite);
+                    locCSV += row;
                 }
             }
         }
@@ -1211,6 +1212,7 @@ function buildCitations(done)
     else {
         let locRows = parseCSV(locCSV, -1);
         locRows.forEach((cite) => {
+            cite.row = sprintf('%d,%d,%d,%d,%d,"%s","%s","%s"\n', cite.volume, cite.page, cite.year, cite.pageURL, cite.pagePDF, cite.caseTitle.replace(/"/g, '""'), cite.oldCite, cite.usCite);
             let usCite = cite.usCite;
             let volume = cite.volume;
             if (!locCites[usCite]) locCites[usCite] = [];
@@ -1274,6 +1276,7 @@ function buildCitations(done)
     /*
      * Phase 5: Check LOC cites against SCOTUS cites.
      */
+    let locMisc = "";
     volumes = Object.keys(locVolumes);
     volumes.forEach((volume) => {
         let citesLoc = locVolumes[volume];
@@ -1292,6 +1295,7 @@ function buildCitations(done)
                             warnings++;
                         }
                         citeScotus.matched = true;
+                        scoreBest = score;
                         citeBest = citeScotus;
                         break;
                     }
@@ -1302,6 +1306,9 @@ function buildCitations(done)
                 }
                 if (!citeBest) {
                     printf("warning: unable to to find LOC citation '%s' (%s) in SCOTUS citations\n", citeLoc.caseTitle, citeLoc.usCite);
+                    locMisc += citeLoc.row;
+                    let i = locCSV.indexOf(citeLoc.row);
+                    locCSV = locCSV.substr(0, i) + locCSV.substr(i + citeLoc.row.length);
                     warnings++;
                 }
                 else if (citeLoc.usCite != citeBest.usCite && scoreBest > 75) {
@@ -1316,6 +1323,12 @@ function buildCitations(done)
             warnings++;
         }
     });
+
+    if (locMisc) {
+        locMisc = "volume,page,year,pageURL,pagePDF,caseTitle,oldCite,usCite\n" + locMisc;
+        writeTextFile(rootDir + results.csv.citationsLOC, locCSV, argv['overwrite']);
+        writeTextFile(rootDir + results.csv.miscLOC, locMisc, argv['overwrite']);
+    }
 
     printf("total corrections: %d\n", corrections);
     printf("total warnings: %d\n", warnings);
