@@ -986,11 +986,11 @@ function buildCitations(done)
             if (html) {
                 if (isHTML) {
                     /*
-                    * I like to replace any "&nbsp;"" with a space myself, because if I let he.decode() do it, it will
-                    * replace the entity with "c2 a0" (aka "NO-BREAK SPACE"), and I'm not sure the RegExp whitespace token
-                    * (\s) will match that particular character.  We also take this opportunity to remove any italicization
-                    * and/or emphasis tags from the text.
-                    */
+                     * I like to replace any "&nbsp;"" with a space myself, because if I let he.decode() do it, it will
+                     * replace the entity with "c2 a0" (aka "NO-BREAK SPACE"), and I'm not sure the RegExp whitespace token
+                     * (\s) will match that particular character.  We also take this opportunity to remove any italicization
+                     * and/or emphasis tags from the text.
+                     */
                     html = html.replace(/<\/?(i|em)>/gi, "").replace(/&nbsp;/gi, ' ').replace(/\s+/g, ' ');
                     html = he.decode(html);
                 }
@@ -1329,6 +1329,17 @@ function buildCitations(done)
         }
     });
 
+    /*
+     * Phase 6: Verify that all cases in dates.csv are recorded in citations.csv
+     */
+    let dateRows = parseCSV(readTextFile(rootDir + results.csv.dates) || "", -1);
+    dateRows.forEach((cite) => {
+        if (cite.usCite.slice(-1) != 'n' && !scotusCites[cite.usCite]) {
+            printf("warning: unable to find date citation '%s' (%s) in SCOTUS citations\n", cite.caseTitle, cite.usCite);
+            warnings++;
+        }
+    });
+
     printf("total corrections: %d\n", corrections);
     printf("total warnings: %d\n", warnings);
 
@@ -1520,6 +1531,7 @@ function scoreStrings(left, right)
                     let wordLeft = wordsLeft[l];
                     if (!wordLeft) continue;
                     if (wordLeft == "versus" || wordLeft == "vs") wordLeft = "v";
+                    if (wordLeft == "v") continue;
                     if (wordRight == wordLeft) {
                         wordsLeft[l] = "";
                         matchesRight++;
