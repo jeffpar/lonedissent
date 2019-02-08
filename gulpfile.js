@@ -76,6 +76,10 @@
  *      would suggest; I think it's more correct to say there were two terms in 1844, since what's called the
  *      "January 1845" term actually began in December 1844.
  *
+ *      This is confirmed by the fact that, unlike 1843, there were numerous decisions handed down in
+ *      December 1844.  Thus I suspect that the comment above that "the Act of 17 June 1844" became "effective
+ *      in 1845" is incorrect.
+ *
  *   6) In 1873, we see the first October Term (Oct Term 1873), beginning on the *second* Monday of October.
  *
  *   7) In 1917, we see the first October Term (Oct Term 1917), beginning on the *first* Monday of October.
