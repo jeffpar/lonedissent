@@ -220,29 +220,6 @@ let downloadTasks = [];
  * @property {Array.<Vote>} justices (this array contains sets of the preceding 8 fields once all the records have been "factored")
  */
 
- /**
-  * checkCharSet(text)
-  *
-  * @param {string} text
-  * @return {boolean} (true if valid, false otherwise)
-  */
- function checkCharSet(text)
- {
-     let valid = true;
-     let lines = text.split(/\r?\n/);
-     for (let i = 0; i < lines.length; i++) {
-         let line = lines[i];
-         for (let j = 0; j < line.length; j++) {
-             let ch = line.charCodeAt(j);
-             if (ch < 0x20 && ch != 0x09) {
-                 printf("warning: control character %02x at row %d col %d: '%s'\n", ch, i+1, j+1, line);
-                 valid = false;
-             }
-         }
-     }
-     return valid;
- }
-
 /**
  * mapValues(o, vars, strict)
  *
@@ -295,20 +272,87 @@ function mapValues(o, vars, strict)
 }
 
 /**
- * searchObjectArray(a, key, value)
+ * scanObjects(a, key, value)
  *
  * @param {Array.<object>} a
  * @param {string} key
  * @param {*} value
  * @return {number} (index of position, or -1 if not found)
  */
-function searchObjectArray(a, key, value)
+function scanObjects(a, key, value)
 {
     let i;
     for (i = 0; i < a.length; i++) {
         if (a[i][key] == value) break;
     }
     return (i < a.length)? i : -1;
+}
+
+/**
+ * binarySearch(a, v, fnCompare, left, right)
+ *
+ * @param {Array} a is an array
+ * @param {number|string|Array|Object} v
+ * @param {function(*,*} [fnCompare]
+ * @param {number} [left]
+ * @param {number} [right]
+ * @return {number} the index of matching entry if non-negative, otherwise the index of the insertion point
+ */
+function binarySearch(a, v, fnCompare, left=0, right=a.length)
+{
+    let found = 0;
+    if (fnCompare === undefined) {
+        fnCompare = function(a, b)
+        {
+            return a > b ? 1 : a < b ? -1 : 0;
+        };
+    }
+    while (left < right) {
+        let middle = (left + right) >> 1;
+        let compareResult;
+        compareResult = fnCompare(v, a[middle]);
+        if (compareResult > 0) {
+            left = middle + 1;
+        } else {
+            right = middle;
+            found = !compareResult;
+        }
+    }
+    return found ? left : ~left;
+}
+
+/**
+ * binaryInsert(a, v, fnCompare, left, right)
+ *
+ * If element v already exists in array a, the array is unchanged (we don't allow duplicates); otherwise, the
+ * element is inserted into the array at the appropriate index.
+ *
+ * @param {Array} a
+ * @param {*} v (value to insert)
+ * @param {function(*,*} [fnCompare]
+ * @param {number} [left]
+ * @param {number} [right]
+ */
+function binaryInsert(a, v, fnCompare, left=1, right=a.length)
+{
+    let index = binarySearch(a, v, fnCompare, left, right);
+    if (index < 0) {
+        a.splice(-(index + 1), 0, v);
+    }
+}
+
+/**
+ * readCSV(filePath, encodeAs)
+ *
+ * NOTE: We don't provide an encoding parameter for the readTextFile() call, because all our CSVs should be "utf-8".
+ *
+ * @param {string} filePath
+ * @param {string} [encodeAs] (default is ""; use "html" if you want all string fields to contain HTML entities as appropriate)
+ * @return {Array}
+ */
+function readCSV(filePath, encodeAs="")
+{
+    return parseCSV(readTextFile(filePath) || "", encodeAs);
 }
 
 /**
@@ -354,59 +398,6 @@ function addCSV(text, obj, keys, ...pairs)
 }
 
 /**
- * binarySearch(a, v, fnCompare, left, right)
- *
- * @param {Array} a is an array
- * @param {number|string|Array|Object} v
- * @param {function(*,*} [fnCompare]
- * @param {number} [left]
- * @param {number} [right]
- * @return {number} the index of matching entry if non-negative, otherwise the index of the insertion point
- */
-function binarySearch(a, v, fnCompare, left=0, right=a.length)
-{
-    let found = 0;
-    if (fnCompare === undefined) {
-        fnCompare = function(a, b)
-        {
-            return a > b ? 1 : a < b ? -1 : 0;
-        };
-    }
-    while (left < right) {
-        let middle = (left + right) >> 1;
-        let compareResult;
-        compareResult = fnCompare(v, a[middle]);
-        if (compareResult > 0) {
-            left = middle + 1;
-        } else {
-            right = middle;
-            found = !compareResult;
-        }
-    }
-    return found ? left : ~left;
-}
-
-/**
- * binaryInsert(a, v, fnCompare, left, right)
- *
- * If element v already exists in array a, the array is unchanged (we don't allow duplicates); otherwise, the
- * element is inserted into the array at the appropriate index.
- *
- * @param {Array} a is an array
- * @param {number|string|Array|Object} v is the value to insert
- * @param {function(*,*} [fnCompare]
- * @param {number} [left]
- * @param {number} [right]
- */
-function binaryInsert(a, v, fnCompare, left=1, right=a.length)
-{
-    let index = binarySearch(a, v, fnCompare, left, right);
-    if (index < 0) {
-        a.splice(-(index + 1), 0, v);
-    }
-}
-
-/**
  * insertCSV(rows, row, keys)
  *
  * @param {Array.<object>} rows
@@ -426,12 +417,13 @@ function insertCSV(rows, row, keys)
 }
 
 /**
- * parseCSV(text, maxRows, keyUnique, keySubset, saveUniqueKey, vars)
+ * parseCSV(text, encodeAs, maxRows, keyUnique, keySubset, saveUniqueKey, vars)
  *
- * By default, all CSV fields containing strings are encoded for "html" (ie, with HTML entities where appropriate);
- * however, for situations where no "html" encoding is desired, you can pass -1 for maxRows.
+ * By default, all CSV fields containing strings are returned as-is, unless encodeAs is "html", which triggers replacement
+ * with HTML entities where appropriate.
  *
  * @param {string} text
+ * @param {string} [encodeAs] (default is none; currently only "html" is supported)
  * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
  * @param {string} [keyUnique] (name of field, if any, that should be filtered; typically the key associated with the subset fields)
  * @param {string} [keySubset] (name of first subset field, if any, containing data for unique subsets)
@@ -439,7 +431,7 @@ function insertCSV(rows, row, keys)
  * @param {object|null} [vars]
  * @return {Array.<Object>}
  */
-function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=false, vars=null)
+function parseCSV(text, encodeAs="", maxRows=0, keyUnique="", keySubset="", saveUniqueKey=false, vars=null)
 {
     let rows = [];
     let headings, fields;
@@ -449,7 +441,7 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
         let line = lines[i];
         if (!line) continue;
         let row = {};
-        let fields = parseCSVFields(line, maxRows < 0? "" : "html", !headings);
+        let fields = parseCSVFields(line, encodeAs, !headings);
         if (!headings) {
             headings = fields;
             /*
@@ -562,14 +554,14 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
 }
 
 /**
- * parseCSVFields(line, encoding, fHeadings)
+ * parseCSVFields(line, encodeAs, fHeadings)
  *
  * @param {string} line
- * @param {boolean} [encoding]
+ * @param {string} [encodeAs]
  * @param {boolean} [fHeadings]
  * @return {Array.<string|number>}
  */
-function parseCSVFields(line, encoding, fHeadings)
+function parseCSVFields(line, encodeAs, fHeadings)
 {
     let field = "";
     let fields = [];
@@ -578,10 +570,10 @@ function parseCSVFields(line, encoding, fHeadings)
         let ch = line[i];
         if (!inQuotes) {
             if (ch == ',') {
-                if (!fQuoted && !fHeadings) {
+                if (!fQuoted && !fHeadings && !isNaN(field)) {
                     field = +field;
                 } else {
-                    field = encodeChars(field, encoding);
+                    field = encodeString(field, encodeAs);
                 }
                 fields.push(field);
                 fQuoted = false;
@@ -608,10 +600,10 @@ function parseCSVFields(line, encoding, fHeadings)
             }
         }
     }
-    if (!fQuoted && !fHeadings) {
+    if (!fQuoted && !fHeadings && !isNaN(field)) {
         field = +field;
     } else {
-        field = encodeChars(field, encoding);
+        field = encodeString(field, encodeAs);
     }
     fields.push(field);
     if (inQuotes) {
@@ -647,6 +639,43 @@ function writeCSV(filePath, rows, fOverwrite=false, fQuiet=false)
         });
         text += line + '\n';
     });
+    writeTextFile(filePath, text, fOverwrite, fQuiet);
+}
+
+/**
+ * readTextFile(filePath, encoding)
+ *
+ * @param {string} filePath
+ * @param {string} [encoding] (default is "utf-8")
+ * @return {string|undefined}
+ */
+function readTextFile(filePath, encoding="")
+{
+    let text;
+    try {
+        text = fs.readFileSync(filePath, encoding || "utf-8");
+        if (!encoding) checkString(text);
+    }
+    catch(err) {
+        printf("%s\n", err.message);
+    }
+    return text;
+}
+
+/**
+ * writeTextFile(filePath, text, fOverwrite, fQuiet)
+ *
+ * @param {string} filePath
+ * @param {string|object} text (if you pass an object, we automatically "stringify" it into JSON)
+ * @param {boolean} [fOverwrite] (default is false)
+ * @param {boolean} [fQuiet] (default is false)
+ */
+function writeTextFile(filePath, text, fOverwrite=false, fQuiet=false)
+{
+    if (typeof text == "object") {
+        text = sprintf("%2j\n", text);
+        checkString(text);
+    }
     if (fOverwrite || !fs.existsSync(filePath)) {
         try {
             let dirPath = path.dirname(filePath);
@@ -662,13 +691,72 @@ function writeCSV(filePath, rows, fOverwrite=false, fQuiet=false)
 }
 
 /**
- * encodeChars(text, encoding)
+ * readXMLFile(filePath, filters)
+ *
+ * @param {string} filePath
+ * @param {Array.<string>} [filters]
+ * @return {object}
+ */
+function readXMLFile(filePath, filters)
+{
+    let xml;
+    let text = readTextFile(filePath);
+    if (text != null) {
+        if (filters) {
+            let textNew = "";
+            for (let i = 0; i < filters.length; i++) {
+                let iStart = text.indexOf(filters[i]);
+                if (iStart >= 0) {
+                    let iStop = text.indexOf('\n', iStart);
+                    if (iStop >= 0) {
+                        textNew += text.substring(iStart, iStop + 1);
+                    }
+                }
+            }
+            text = textNew;
+        }
+        parseXML(text, function(err, result) {
+            if (err) {
+                printf("%s\n", err.message);
+                return;
+            }
+            xml = result;
+        });
+    }
+    return xml;
+}
+
+/**
+ * checkString(text)
  *
  * @param {string} text
- * @param {string} [encoding] (eg, "html")
+ * @return {boolean} (true if valid, false otherwise)
+ */
+function checkString(text)
+{
+    let valid = true;
+    let lines = text.split(/\r?\n/);
+    for (let i = 0; i < lines.length; i++) {
+        let line = lines[i];
+        for (let j = 0; j < line.length; j++) {
+            let ch = line.charCodeAt(j);
+            if (ch < 0x20 && ch != 0x09) {
+                printf("warning: control character %02x at row %d col %d: '%s'\n", ch, i+1, j+1, line);
+                valid = false;
+            }
+        }
+    }
+    return valid;
+}
+
+/**
+ * encodeString(text, encodeAs)
+ *
+ * @param {string} text
+ * @param {string} [encodeAs] (eg, "html")
  * @return {string}
  */
-function encodeChars(text, encoding)
+function encodeString(text, encodeAs)
 {
     //
     // for (let i = 0; i < text.length; i++) {
@@ -703,7 +791,7 @@ function encodeChars(text, encoding)
     // }
     // return textNew.replace(/&([^&;]*)( |$)/gi, "&amp;$1$2").replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
     //
-    if (encoding == "html") {
+    if (encodeAs == "html") {
         return he.encode(text.replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc."), {
             'encodeEverything': false,
             "useNamedReferences": true
@@ -770,90 +858,6 @@ function getOldCite(volume, page)
         oldCite = sprintf("%d %s %d", volume - volBegin + 1, reporter, page);
     }
     return oldCite;
-}
-
-/**
- * readTextFile(filePath, encoding)
- *
- * @param {string} filePath
- * @param {string} [encoding] (default is "utf-8")
- * @return {string|undefined}
- */
-function readTextFile(filePath, encoding="")
-{
-    let text;
-    try {
-        text = fs.readFileSync(filePath, encoding || "utf-8");
-        if (!encoding) checkCharSet(text);
-    }
-    catch(err) {
-        printf("%s\n", err.message);
-    }
-    return text;
-}
-
-/**
- * writeTextFile(filePath, text, fOverwrite, fQuiet)
- *
- * @param {string} filePath
- * @param {string|object} text (if you pass an object, we automatically "stringify" it into JSON)
- * @param {boolean} [fOverwrite] (default is false)
- * @param {boolean} [fQuiet] (default is false)
- */
-function writeTextFile(filePath, text, fOverwrite=false, fQuiet=false)
-{
-    if (typeof text == "object") {
-        text = sprintf("%2j\n", text);
-        checkCharSet(text);
-    }
-    if (fOverwrite || !fs.existsSync(filePath)) {
-        try {
-            let dirPath = path.dirname(filePath);
-            if (!fs.existsSync(dirPath)) mkdirp.sync(dirPath);
-            fs.writeFileSync(filePath, text);
-        }
-        catch(err) {
-            printf("%s\n", err.message);
-        }
-    } else {
-        if (!fQuiet) printf("file %s already exists, use --overwrite to recreate\n", filePath);
-    }
-}
-
-/**
- * readXMLFile(filePath, filters)
- *
- * @param {string} filePath
- * @param {Array.<string>} [filters]
- * @return {object}
- */
-function readXMLFile(filePath, filters)
-{
-    let xml;
-    let text = readTextFile(filePath);
-    if (text != null) {
-        if (filters) {
-            let textNew = "";
-            for (let i = 0; i < filters.length; i++) {
-                let iStart = text.indexOf(filters[i]);
-                if (iStart >= 0) {
-                    let iStop = text.indexOf('\n', iStart);
-                    if (iStop >= 0) {
-                        textNew += text.substring(iStart, iStop + 1);
-                    }
-                }
-            }
-            text = textNew;
-        }
-        parseXML(text, function(err, result) {
-            if (err) {
-                printf("%s\n", err.message);
-                return;
-            }
-            xml = result;
-        });
-    }
-    return xml;
 }
 
 /**
@@ -1057,7 +1061,7 @@ function readOyezLabsDecisions()
 function readSCDBCourts()
 {
     let startNext = null;
-    let courts = parseCSV(readTextFile(rootDir + sources.scdb.courtsCSV));
+    let courts = readCSV(rootDir + sources.scdb.courtsCSV, "html");
     for (let i = 0; i < courts.length; i++) {
         let court = courts[i];
         let start = parseDate(court.naturalStart);
@@ -1083,7 +1087,7 @@ function readSCDBCourts()
 function readSCOTUSDecisions()
 {
     let startNext = null;
-    let decisions = parseCSV(readTextFile(rootDir + results.csv.dates));
+    let decisions = parseCSV(rootDir + results.csv.dates, "html");
 
     //
     // There are so many decision date differences in the Free Law/Court Listener CSV that the file is essentially worthless.  Sigh.
@@ -1093,7 +1097,7 @@ function readSCOTUSDecisions()
     //     let rowsFreeLaw = decisionsFreeLaw.split('\n');
     //     for (let i = 0; i < rowsFreeLaw.length - 1; i++) {
     //         rowsFreeLaw[i] = rowsFreeLaw[i].split('|');
-    //         rowsFreeLaw[i][1] = encodeChars(rowsFreeLaw[i][1]);
+    //         rowsFreeLaw[i][1] = encodeString(rowsFreeLaw[i][1]);
     //     }
     //     for (let i = 0; i < rowsFreeLaw.length - 1; i++) {
     //         if (rowsFreeLaw[i][1] != decisions[i].caseTitle) {
@@ -1245,11 +1249,10 @@ function buildCitations(done)
             }
         });
         printf("total citations added: %d\n", additions);
-        if (additions) {
-            writeTextFile(rootDir + results.csv.citations, scotusCSV, argv['overwrite']);
-        }
-    } else {
-        scotusRows = parseCSV(scotusCSV, -1);
+        if (additions) writeTextFile(rootDir + results.csv.citations, scotusCSV, argv['overwrite']);
+    }
+    else {
+        scotusRows = parseCSV(scotusCSV);
         scotusRows.forEach((cite) => {
             let usCite = cite.usCite;
             let volume = cite.volume;
@@ -1302,7 +1305,7 @@ function buildCitations(done)
         writeTextFile(rootDir + results.csv.citationsJustia, justiaCSV, argv['overwrite']);
     }
     else {
-        let justiaRows = parseCSV(justiaCSV, -1);
+        let justiaRows = parseCSV(justiaCSV);
         justiaRows.forEach((cite) => {
             let usCite = cite.usCite;
             let volume = cite.volume;
@@ -1359,7 +1362,7 @@ function buildCitations(done)
         writeTextFile(rootDir + results.csv.citationsLOC, locCSV, argv['overwrite']);
     }
     else {
-        let locRows = parseCSV(locCSV, -1);
+        let locRows = parseCSV(locCSV);
         locRows.forEach((cite) => {
             cite.row = sprintf('%d,%d,%d,%d,%d,"%s","%s","%s"\n', cite.volume, cite.page, cite.year, cite.pageURL, cite.pagePDF, cite.caseTitle.replace(/"/g, '""'), cite.oldCite, cite.usCite);
             let usCite = cite.usCite;
@@ -1473,7 +1476,7 @@ function buildCitations(done)
      * Phase 6: Verify that all cases in dates.csv are recorded in citations.csv
      */
     let additions = 0;
-    let dateRows = parseCSV(readTextFile(rootDir + results.csv.dates) || "", -1);
+    let dateRows = readCSV(rootDir + results.csv.dates);
     dateRows.forEach((cite) => {
         let match = cite.usCite.match(/^([0-9]+) U.S. ([0-9]+)$/);
         if (match && !scotusCites[cite.usCite]) {
@@ -1491,9 +1494,7 @@ function buildCitations(done)
             additions++;
         }
     });
-    if (additions) {
-        writeCSV(rootDir + results.csv.citations, scotusRows, argv['overwrite']);
-    }
+    if (additions) writeCSV(rootDir + results.csv.citations, scotusRows, argv['overwrite']);
 
     printf("total corrections: %d\n", corrections);
     printf("total warnings: %d\n", warnings);
@@ -1593,7 +1594,7 @@ function backupLonerDecisions(done)
 function buildDecisions(done)
 {
     let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars));
-    let decisions = parseCSV(readTextFile(rootDir + sources.scdb.decisionsCSV, "latin1"), 0, "voteId", "justice", false, vars);
+    let decisions = parseCSV(readTextFile(rootDir + sources.scdb.decisionsCSV, "latin1"), "html", 0, "voteId", "justice", false, vars);
     printf("SCDB decisions: %d\n", decisions.length);
     writeTextFile(rootDir + results.json.decisions, decisions, argv['overwrite']);
     done();
@@ -1609,7 +1610,7 @@ function buildJustices(done)
     let justicesOyez = readOyezJustices();
     printf("Oyez justices read: %d\n", justicesOyez.length);
 
-    let justices = parseCSV(readTextFile(rootDir + sources.scdb.justicesCSV));
+    let justices = readCSV(rootDir + sources.scdb.justicesCSV, "html");
     printf("SCDB justices read: %d\n", justices.length);
     for (let i = 0; i < justices.length; i++) {
         let first, last;
@@ -1903,12 +1904,12 @@ function sortVotesBySeniority(votes, date, vars, courts, justices)
     if (court) {
         for (let i = 0; i < court.justices.length; i++) {
             let old = court.justices[i];
-            let j = searchObjectArray(justices, "id", old);
+            let j = scanObjects(justices, "id", old);
             if (j >= 0) {
                 j = justices[j].scdbJustice;
                 if (j) {
                     j = vars.justice.values[j];
-                    let k = searchObjectArray(votesOld, "justice", j);
+                    let k = scanObjects(votesOld, "justice", j);
                     if (k >= 0) {
                         votesNew.push({
                             justice: j,
@@ -2131,7 +2132,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                  *      unable to find caseId '1919-181' in data set
                  */
                 mapValues(result, vars, true);
-                let i = searchObjectArray(data, "caseId", result.caseId);
+                let i = scanObjects(data, "caseId", result.caseId);
                 if (i < 0) {
                     if (termId) result['termId'] = termId;
                     if (minVotes == 1) {
@@ -2157,7 +2158,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                             printf("warning: unable to identify dissenter for case %s (%s)\n", result.caseId, result.usCite);
                         }
                     }
-                    let b = searchObjectArray(lonerBackup, "caseId", result.caseId);
+                    let b = scanObjects(lonerBackup, "caseId", result.caseId);
                     if (b >= 0) {
                         let backup = lonerBackup[b];
                         if (backup['caseNotes']) result['caseNotes'] = backup['caseNotes'];
@@ -2340,7 +2341,7 @@ function fixDecisions(done)
     let scdbCourts = [], scotusDecisions = {};
 
     if (argv['citations']) {
-        citations = parseCSV(readTextFile(rootDir + results.csv.citations));
+        citations = readCSV(rootDir + results.csv.citations, "html");
         for (let i = 0; i < citations.length; i++) {
             let citation = citations[i];
             if (citation.volume) {
@@ -2348,7 +2349,7 @@ function fixDecisions(done)
                 citationCites[citation.usCite].push(citation);
             }
         }
-        let citationsLOC = parseCSV(readTextFile(rootDir + results.csv.citationsLOC));
+        let citationsLOC = readCSV(rootDir + results.csv.citationsLOC, "html");
         for (let i = 0; i < citationsLOC.length; i++) {
             let citation = citationsLOC[i];
             if (citation.volume) {
@@ -2358,7 +2359,7 @@ function fixDecisions(done)
                 }
             }
         }
-        let citationsJustia = parseCSV(readTextFile(rootDir + results.csv.citationsJustia));
+        let citationsJustia = readCSV(rootDir + results.csv.citationsJustia, "html");
         for (let i = 0; i < citationsJustia.length; i++) {
             let citation = citationsJustia[i];
             if (citation.volume) {
@@ -2912,7 +2913,7 @@ function generateDownloadTasks(done)
             }
         });
     });
-    let locRows = parseCSV(readTextFile(rootDir + results.csv.citationsLOC), -1);
+    let locRows = readCSV(rootDir + results.csv.citationsLOC);
     locRows.forEach((cite) => {
         getLOCPDF(cite.volume, cite.page, cite.pageURL);
     });
