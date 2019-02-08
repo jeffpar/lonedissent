@@ -1410,8 +1410,8 @@ function buildCitations(done)
                     warnings++;
                 }
                 else if (citeScotus.usCite != citeBest.usCite && scoreBest > 75) {
-                    printf("correction: SCOTUS citation '%s' (%s) has better LOC match '%s' (%s): %d\n", citeScotus.caseTitle, citeScotus.usCite, citeBest.caseTitle, citeBest.usCite, scoreBest);
-                    corrections++;
+                    // printf("correction: SCOTUS citation '%s' (%s) has better LOC match '%s' (%s): %d\n", citeScotus.caseTitle, citeScotus.usCite, citeBest.caseTitle, citeBest.usCite, scoreBest);
+                    // corrections++;
                     getLOCPDF(citeScotus.volume, citeScotus.page);
                     getLOCPDF(citeBest.volume, citeBest.page, citeBest.pageURL);
                 }
@@ -1428,8 +1428,10 @@ function buildCitations(done)
     /*
      * Phase 5: Check LOC cites against SCOTUS cites.
      */
+    let additions = 0;
     volumes = Object.keys(locVolumes);
     volumes.forEach((volume) => {
+        if (volume <= 4) return;
         let citesLoc = locVolumes[volume];
         let citesScotus = scotusVolumes[volume];
         if (citesScotus) {
@@ -1458,6 +1460,16 @@ function buildCitations(done)
                 if ((!citeBest || citeBest.usCite != citeLoc.usCite) && citeLoc.caseTitle.indexOf(" v. ") < 0 && citeLoc.caseTitle.indexOf("Anonymous") < 0) {
                     printf("warning: unable to find LOC citation '%s' (%s) in SCOTUS citations\n", citeLoc.caseTitle, citeLoc.usCite);
                     warnings++;
+                    let row = {
+                        volume: citeLoc.volume,
+                        page: citeLoc.page,
+                        year: citeLoc.year,
+                        caseTitle: citeLoc.caseTitle,
+                        oldCite: citeLoc.oldCite,
+                        usCite: citeLoc.usCite
+                    };
+                    insertCSV(scotusRows, row, ["volume", "page", "caseTitle"]);
+                    additions++;
                 }
                 else if (citeBest && citeLoc.usCite != citeBest.usCite && scoreBest > 75) {
                     printf("correction: LOC citation '%s' (%s) has better SCOTUS match '%s' (%s): %d\n", citeLoc.caseTitle, citeLoc.usCite, citeBest.caseTitle, citeBest.usCite, scoreBest);
@@ -1466,16 +1478,16 @@ function buildCitations(done)
                     getLOCPDF(citeBest.volume, citeBest.page);
                 }
             }
-        } else {
-            printf("warning: unable to find LOC volume %d in SCOTUS citations\n", volume);
-            warnings++;
         }
+        // else {
+        //     printf("warning: unable to find LOC volume %d in SCOTUS citations\n", volume);
+        //     warnings++;
+        // }
     });
 
     /*
      * Phase 6: Verify that all cases in dates.csv are recorded in citations.csv
      */
-    let additions = 0;
     let dateRows = readCSV(rootDir + results.csv.dates);
     dateRows.forEach((cite) => {
         let match = cite.usCite.match(/^([0-9]+) U.S. ([0-9]+)$/);
@@ -1494,9 +1506,12 @@ function buildCitations(done)
             additions++;
         }
     });
-    if (additions) writeCSV(rootDir + results.csv.citations, scotusRows, argv['overwrite']);
 
+    printf("total additions: %d\n", additions);
     printf("total corrections: %d\n", corrections);
+
+    if (additions || corrections) writeCSV(rootDir + results.csv.citations, scotusRows, argv['overwrite']);
+
     printf("total warnings: %d\n", warnings);
 
     done();
