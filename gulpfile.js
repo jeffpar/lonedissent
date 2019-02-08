@@ -2005,6 +2005,9 @@ function sortVotesBySeniority(votes, date, vars, courts, justices)
  * The "--text" option allows you to search for strings in the caseName variable.  It can be repeated on the command-line
  * if you want to perform multiple "AND" searches.
  *
+ * Finally, "--minVotes" (eg, "--minVotes=1") allows you to perform a search that's the equivalent of the "lonerDecisions"
+ * task, but without all the implied per-term search results.
+ *
  * NOTE: You must now specify the "--build" option to generate site files.
  *
  * @param {function()} done
@@ -2023,6 +2026,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let month = argv['month'] && sprintf("-%02d-", +argv['month']) || "";
     let selectedCourt = argv['naturalCourt'] || 0;
     let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%s U.S. %s", volume, page);
+    if (argv['minVotes']) minVotes = +argv['minVotes'];
 
     let text = argv['text'] || "";
     let findText = function(target) {
