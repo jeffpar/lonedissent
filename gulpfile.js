@@ -353,20 +353,92 @@ function addCSV(text, obj, keys, ...pairs)
     return text;
 }
 
- /**
-  * parseCSV(text, maxRows, keyUnique, keySubset, saveUniqueKey, vars)
-  *
-  * By default, all CSV fields containing strings are encoded for "html" (ie, with HTML entities where appropriate);
-  * however, for situations where no "html" encoding is desired, you can pass -1 for maxRows.
-  *
-  * @param {string} text
-  * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
-  * @param {string} [keyUnique] (name of field, if any, that should be filtered; typically the key associated with the subset fields)
-  * @param {string} [keySubset] (name of first subset field, if any, containing data for unique subsets)
-  * @param {boolean} [saveUniqueKey] (default is false, to reduce space requirements)
-  * @param {object|null} [vars]
-  * @return {Array.<Object>}
-  */
+/**
+ * binarySearch(a, v, fnCompare, left, right)
+ *
+ * @param {Array} a is an array
+ * @param {number|string|Array|Object} v
+ * @param {function(*,*} [fnCompare]
+ * @param {number} [left]
+ * @param {number} [right]
+ * @return {number} the index of matching entry if non-negative, otherwise the index of the insertion point
+ */
+function binarySearch(a, v, fnCompare, left=0, right=a.length)
+{
+    let found = 0;
+    if (fnCompare === undefined) {
+        fnCompare = function(a, b)
+        {
+            return a > b ? 1 : a < b ? -1 : 0;
+        };
+    }
+    while (left < right) {
+        let middle = (left + right) >> 1;
+        let compareResult;
+        compareResult = fnCompare(v, a[middle]);
+        if (compareResult > 0) {
+            left = middle + 1;
+        } else {
+            right = middle;
+            found = !compareResult;
+        }
+    }
+    return found ? left : ~left;
+}
+
+/**
+ * binaryInsert(a, v, fnCompare, left, right)
+ *
+ * If element v already exists in array a, the array is unchanged (we don't allow duplicates); otherwise, the
+ * element is inserted into the array at the appropriate index.
+ *
+ * @param {Array} a is an array
+ * @param {number|string|Array|Object} v is the value to insert
+ * @param {function(*,*} [fnCompare]
+ * @param {number} [left]
+ * @param {number} [right]
+ */
+function binaryInsert(a, v, fnCompare, left=1, right=a.length)
+{
+    let index = binarySearch(a, v, fnCompare, left, right);
+    if (index < 0) {
+        a.splice(-(index + 1), 0, v);
+    }
+}
+
+/**
+ * insertCSV(rows, row, keys)
+ *
+ * @param {Array.<object>} rows
+ * @param {object} row
+ * @param {Array.<string>} keys
+ */
+function insertCSV(rows, row, keys)
+{
+    let fnCompare = function(row1, row2) {
+        for (let k = 0; k < keys.length; k++) {
+            if (row1[keys[k]] > row2[keys[k]]) return 1;
+            if (row1[keys[k]] < row2[keys[k]]) return -1;
+            if (k == keys.length - 1) return 0;
+        }
+    };
+    binaryInsert(rows, row, fnCompare, 1);
+}
+
+/**
+ * parseCSV(text, maxRows, keyUnique, keySubset, saveUniqueKey, vars)
+ *
+ * By default, all CSV fields containing strings are encoded for "html" (ie, with HTML entities where appropriate);
+ * however, for situations where no "html" encoding is desired, you can pass -1 for maxRows.
+ *
+ * @param {string} text
+ * @param {number} [maxRows] (default is zero, implying no maximum; heading row is not counted toward the limit)
+ * @param {string} [keyUnique] (name of field, if any, that should be filtered; typically the key associated with the subset fields)
+ * @param {string} [keySubset] (name of first subset field, if any, containing data for unique subsets)
+ * @param {boolean} [saveUniqueKey] (default is false, to reduce space requirements)
+ * @param {object|null} [vars]
+ * @return {Array.<Object>}
+ */
 function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=false, vars=null)
 {
     let rows = [];
@@ -377,7 +449,7 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
         let line = lines[i];
         if (!line) continue;
         let row = {};
-        let fields = parseCSVFields(line, maxRows < 0? "" : "html");
+        let fields = parseCSVFields(line, maxRows < 0? "" : "html", !headings);
         if (!headings) {
             headings = fields;
             /*
@@ -490,27 +562,33 @@ function parseCSV(text, maxRows=0, keyUnique="", keySubset="", saveUniqueKey=fal
 }
 
 /**
- * parseCSVFields(line, encoding)
+ * parseCSVFields(line, encoding, fHeadings)
  *
  * @param {string} line
  * @param {boolean} [encoding]
- * @return {Array.<string>}
+ * @param {boolean} [fHeadings]
+ * @return {Array.<string|number>}
  */
-function parseCSVFields(line, encoding)
+function parseCSVFields(line, encoding, fHeadings)
 {
     let field = "";
     let fields = [];
-    let inQuotes = false;
+    let fQuoted = false, inQuotes = false;
     for (let i = 0; i < line.length; i++) {
         let ch = line[i];
         if (!inQuotes) {
             if (ch == ',') {
-                field = encodeChars(field, encoding);
+                if (!fQuoted && !fHeadings) {
+                    field = +field;
+                } else {
+                    field = encodeChars(field, encoding);
+                }
                 fields.push(field);
+                fQuoted = false;
                 field = "";
             }
             else if (ch == '"' && !field.length) {
-                inQuotes = true;
+                fQuoted = inQuotes = true;
             }
             else {
                 field += ch;
@@ -530,12 +608,57 @@ function parseCSVFields(line, encoding)
             }
         }
     }
-    field = encodeChars(field, encoding);
+    if (!fQuoted && !fHeadings) {
+        field = +field;
+    } else {
+        field = encodeChars(field, encoding);
+    }
     fields.push(field);
     if (inQuotes) {
         printf("CSV quote error: %s\n", line);
     }
     return fields;
+}
+
+/**
+ * writeCSV(filePath, rows, fOverwrite, fQuiet)
+ *
+ * @param {string} filePath
+ * @param {Array.<object>} rows
+ * @param {boolean} [fOverwrite] (default is false)
+ * @param {boolean} [fQuiet] (default is false)
+ */
+function writeCSV(filePath, rows, fOverwrite=false, fQuiet=false)
+{
+    let text = "";
+    let keys = Object.keys(rows[0]);
+    keys.forEach((key) => {
+        if (text) text += ',';
+        text += key;
+    });
+    text += '\n';
+    rows.forEach((row) => {
+        let line = "";
+        keys.forEach((key) => {
+            if (line) line += ',';
+            let s = row[key];
+            if (typeof s == "string") s = '"' + he.decode(s).replace(/"/g, '""') + '"';
+            line += s;
+        });
+        text += line + '\n';
+    });
+    if (fOverwrite || !fs.existsSync(filePath)) {
+        try {
+            let dirPath = path.dirname(filePath);
+            if (!fs.existsSync(dirPath)) mkdirp.sync(dirPath);
+            fs.writeFileSync(filePath, text);
+        }
+        catch(err) {
+            printf("%s\n", err.message);
+        }
+    } else {
+        if (!fQuiet) printf("file %s already exists, use --overwrite to recreate\n", filePath);
+    }
 }
 
 /**
@@ -598,11 +721,55 @@ function encodeChars(text, encoding)
  */
 function getLOCPDF(volume, page, pageURL)
 {
-    let name = 'download.loc.' + volume + '.' + page;
-    let url = sprintf(sources.loc.download.pdf.url, +volume, +volume, +pageURL || +page, +volume, +pageURL || +page);
-    let dir = sprintf(sources.loc.download.pdf.dir, +volume);
-    let file = sprintf(sources.loc.download.pdf.file, +volume, +page);
-    createDownloadTask(name, url, dir, file);
+    volume = +volume; page = +page;
+    if (volume && page) {
+        let name = 'download.loc.' + volume + '.' + page;
+        let url = sprintf(sources.loc.download.pdf.url, volume, volume, +pageURL || page, volume, +pageURL || page);
+        let bottom = Math.trunc((volume-1)/100)*100+1, top = bottom + 99;
+        let dir = sprintf(sources.loc.download.pdf.dir, bottom, top, volume, page);
+        let file = sprintf(sources.loc.download.pdf.file, volume, page);
+        createDownloadTask(name, url, dir, file);
+    }
+}
+
+/**
+ * function getOldCite(volume, page)
+ *
+ * @param {number} volume
+ * @param {number} page
+ * @return {string}
+ */
+function getOldCite(volume, page)
+{
+    let oldCite = "", reporter = "", volBegin = 0;
+    if (volume < 5) {
+        volBegin = 1;
+        reporter = "Dall.";
+    } else if (volume < 14) {
+        volBegin = 5;
+        reporter = "Cranch";
+    } else if (volume < 26) {
+        volBegin = 14;
+        reporter = "Wheat.";
+    } else if (volume < 42) {
+        volBegin = 26;
+        reporter = "Pet.";
+    } else if (volume < 66) {
+        volBegin = 42;
+        reporter = "How.";
+    } else if (volume < 68) {
+        volBegin = 66;
+        reporter = "Black";
+    } else if (volume < 91) {
+        volBegin = 68;
+        reporter = "Wall.";
+    } else {
+        reporter = "U.S.";
+    }
+    if (volBegin) {
+        oldCite = sprintf("%d %s %d", volume - volBegin + 1, reporter, page);
+    }
+    return oldCite;
 }
 
 /**
@@ -974,11 +1141,11 @@ function buildCitations(done)
     /*
      * Phase 1: Build a set of citations from a snapshot of SCOTUS web pages as needed, or parse the existing CSV.
      */
-    let scotusCites = {}, scotusVolumes = {};
+    let scotusCites = {}, scotusVolumes = {}, scotusRows = [];
     let scotusCSV = readTextFile(rootDir + results.csv.citations);
     if (!scotusCSV || argv['build']) {
         if (!scotusCSV) scotusCSV = "volume,page,year,caseTitle,oldCite,usCite\n";
-        let rows = [], additions = 0;
+        let additions = 0;
         let filePaths = glob.sync(rootDir + sources.scotus.citationsHTML);
         for (let i = 0; i < filePaths.length; i++) {
             let isHTML = filePaths[i].indexOf(".html") > 0;
@@ -1052,7 +1219,7 @@ function buildCitations(done)
                         volume += volBegin - 1;
                     }
                     let usCite = sprintf("%s U.S. %s", volume || "___", page || "___");
-                    rows.push([volume, page, year, caseTitle, oldCite, usCite]);
+                    scotusRows.push([volume, page, year, caseTitle, oldCite, usCite]);
                     matches++;
                     let cite = {volume, page, year, caseTitle, oldCite, usCite};
                     if (!scotusCites[usCite]) scotusCites[usCite] = [];
@@ -1063,13 +1230,13 @@ function buildCitations(done)
                 printf("total matches in %s: %d\n", filePaths[i], matches);
             }
         }
-        rows.sort(function(a, b) {
-            let va = a[0] || 9999, pa = +a[1] || 9999, ya = a[2], ta = a[3];
-            let vb = b[0] || 9999, pb = +b[1] || 9999, yb = b[2], tb = b[3];
-            return va < vb? -1 : (va > vb? 1 : (pa < pb? -1 : (pa > pb? 1 : (ya < yb? -1 : (ya > yb? 1 : (ta < tb? -1 : (ta > tb? 1 : 0)))))));
+        scotusRows.sort(function(row1, row2) {
+            let v1 = row1[0] || 9999, p1 = +row1[1] || 9999, y1 = row1[2], t1 = row1[3];
+            let v2 = row2[0] || 9999, p2 = +row2[1] || 9999, y2 = row2[2], t2 = row2[3];
+            return v1 < v2? -1 : (v1 > v2? 1 : (p1 < p2? -1 : (p1 > p2? 1 : (y1 < y2? -1 : (y1 > y2? 1 : (t1 < t2? -1 : (t1 > t2? 1 : 0)))))));
         });
-        printf("total citations matched: %d\n", rows.length);
-        rows.forEach((row) => {
+        printf("total citations matched: %d\n", scotusRows.length);
+        scotusRows.forEach((row) => {
             let line = sprintf('%d,%d,%d,"%s","%s","%s"\n', row[0], +row[1] || 0, row[2], row[3].replace(/"/g, '""'), row[4], row[5]);
             if (scotusCSV.indexOf(line) < 0) {
                 // printf("addition: %s", line);
@@ -1082,7 +1249,7 @@ function buildCitations(done)
             writeTextFile(rootDir + results.csv.citations, scotusCSV, argv['overwrite']);
         }
     } else {
-        let scotusRows = parseCSV(scotusCSV, -1);
+        scotusRows = parseCSV(scotusCSV, -1);
         scotusRows.forEach((cite) => {
             let usCite = cite.usCite;
             let volume = cite.volume;
@@ -1109,41 +1276,14 @@ function buildCitations(done)
                 html = he.decode(html);
                 let match, re = /<a\s+href="(\/cases\/federal\/us)\/([0-9]+)\/([0-9]+)\/"\s+class="case-name">\s*<strong>\s*([^<]*)\s*<\/strong>\s*<\/a>[\s\S]*?<br\/>\s*<strong>Citation:<\/strong>\s*([0-9]+)\s+U\.S\.\s+([0-9]+)<br\/>([\s\S]*?)<a href="\1\/\2\/\3\/">/g;
                 while ((match = re.exec(html))) {
+                    let dateDecision = "", year = 0;
                     let caseTitle = match[4], volume = +match[5], page = +match[6];
-                    let usCite = sprintf("%d U.S. %d", volume, page), oldCite = "";
+                    let usCite = sprintf("%d U.S. %d", volume, page);
                     if (volume != +match[2] || page != +match[3]) {
                         printf("warning: citation (%s) does not match link (%s U.S. %s)\n", usCite, match[2], match[3]);
                         warnings++;
                     }
-                    let reporter = "";
-                    if (volume) {
-                        let volBegin = 0;
-                        if (volume < 5) {
-                            volBegin = 1;
-                            reporter = "Dall.";
-                        } else if (volume < 14) {
-                            volBegin = 5;
-                            reporter = "Cranch";
-                        } else if (volume < 26) {
-                            volBegin = 14;
-                            reporter = "Wheat.";
-                        } else if (volume < 42) {
-                            volBegin = 26;
-                            reporter = "Pet.";
-                        } else if (volume < 66) {
-                            volBegin = 42;
-                            reporter = "How.";
-                        } else if (volume < 91) {
-                            volBegin = 66;
-                            reporter = "Wall.";
-                        } else {
-                            reporter = "U.S.";
-                        }
-                        if (volBegin) {
-                            oldCite = sprintf("%d %s %d", volume - volBegin + 1, reporter, page);
-                        }
-                    }
-                    let dateDecision = "", year = 0;
+                    let oldCite = getOldCite(volume, page);
                     let matchDate = match[7].match(/<span[^>]*>\s*<strong>Date:<\/strong>\s*([^<]*)([0-9][0-9][0-9][0-9])\s*<\/span>/);
                     if (matchDate) {
                         let date = parseDate(matchDate[1] + matchDate[2]);
@@ -1332,13 +1472,28 @@ function buildCitations(done)
     /*
      * Phase 6: Verify that all cases in dates.csv are recorded in citations.csv
      */
+    let additions = 0;
     let dateRows = parseCSV(readTextFile(rootDir + results.csv.dates) || "", -1);
     dateRows.forEach((cite) => {
-        if (cite.usCite.slice(-1) != 'n' && !scotusCites[cite.usCite]) {
-            printf("warning: unable to find date citation '%s' (%s) in SCOTUS citations\n", cite.caseTitle, cite.usCite);
+        let match = cite.usCite.match(/^([0-9]+) U.S. ([0-9]+)$/);
+        if (match && !scotusCites[cite.usCite]) {
+            printf("warning: unable to find date citation '%s' (%s) %s in SCOTUS citations\n", cite.caseTitle, cite.usCite, cite.dateDecision);
             warnings++;
+            let row = {
+                volume: +match[1],
+                page: +match[2],
+                year: +cite.dateDecision.substr(0, 4),
+                caseTitle: cite.caseTitle,
+                oldCite: getOldCite(+match[1], +match[2]),
+                usCite: cite.usCite
+            };
+            insertCSV(scotusRows, row, ["volume", "page", "caseTitle"]);
+            additions++;
         }
     });
+    if (additions) {
+        writeCSV(rootDir + results.csv.citations, scotusRows, argv['overwrite']);
+    }
 
     printf("total corrections: %d\n", corrections);
     printf("total warnings: %d\n", warnings);
@@ -2193,6 +2348,26 @@ function fixDecisions(done)
                 citationCites[citation.usCite].push(citation);
             }
         }
+        let citationsLOC = parseCSV(readTextFile(rootDir + results.csv.citationsLOC));
+        for (let i = 0; i < citationsLOC.length; i++) {
+            let citation = citationsLOC[i];
+            if (citation.volume) {
+                if (!citationCites[citation.usCite]) {
+                    citationCites[citation.usCite] = [];
+                    citationCites[citation.usCite].push(citation);
+                }
+            }
+        }
+        let citationsJustia = parseCSV(readTextFile(rootDir + results.csv.citationsJustia));
+        for (let i = 0; i < citationsJustia.length; i++) {
+            let citation = citationsJustia[i];
+            if (citation.volume) {
+                if (!citationCites[citation.usCite]) {
+                    citationCites[citation.usCite] = [];
+                    citationCites[citation.usCite].push(citation);
+                }
+            }
+        }
     }
     if (argv['courts']) {
         scdbCourts = readSCDBCourts();
@@ -2250,6 +2425,7 @@ function fixDecisions(done)
                     }
                     if (scoreBest >= 50) {
                         decision.caseTitle = citeBest.caseTitle;
+                        changes++;
                     } else {
                         printf("compare %s: decision caseName '%s' to citation caseTitle '%s' (%d)\n", decision.usCite, decision.caseName, citeBest.caseTitle, scoreBest);
                     }
@@ -2351,7 +2527,7 @@ function fixDecisions(done)
 
     if (argv['citations']) {
         decisions.forEach((decision) => {
-            if (!decision.caseTitle) {
+            if (decision.usCite && !decision.caseTitle) {
                 printf("warning: %s (%s) has no SCOTUS citation entry\n", decision.caseName, decision.usCite, decision.dateDecision);
                 unknownCitations = addCSV(unknownCitations, decision, ["usCite", "caseName", "dateDecision"]);
                 warnings++;
