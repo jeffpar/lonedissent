@@ -276,6 +276,22 @@ function mapValues(o, vars, strict)
 }
 
 /**
+ * removeValues(a, values)
+ *
+ * @param {Array} a
+ * @param {Array} values
+ */
+function removeValues(a, values)
+{
+    values.forEach((value) => {
+        let i = a.indexOf(value);
+        if (i >= 0) {
+            a.splice(i, 1);
+        }
+    });
+}
+
+/**
  * scanObjects(a, key, value)
  *
  * @param {Array.<object>} a
@@ -293,28 +309,27 @@ function scanObjects(a, key, value)
 }
 
 /**
- * binarySearch(a, v, fnCompare, left, right)
+ * binarySearch(a, v, compare, left, right)
  *
- * @param {Array} a is an array
- * @param {number|string|Array|Object} v
- * @param {function(*,*} [fnCompare]
+ * @param {Array} a
+ * @param {*} v
+ * @param {function(*,*} [compare]
  * @param {number} [left]
  * @param {number} [right]
  * @return {number} the index of matching entry if non-negative, otherwise the index of the insertion point
  */
-function binarySearch(a, v, fnCompare, left=0, right=a.length)
+function binarySearch(a, v, compare, left=0, right=a.length)
 {
     let found = 0;
-    if (fnCompare === undefined) {
-        fnCompare = function(a, b)
-        {
+    if (compare === undefined) {
+        compare = function(a, b) {
             return a > b ? 1 : a < b ? -1 : 0;
         };
     }
     while (left < right) {
         let middle = (left + right) >> 1;
         let compareResult;
-        compareResult = fnCompare(v, a[middle]);
+        compareResult = compare(v, a[middle]);
         if (compareResult > 0) {
             left = middle + 1;
         } else {
@@ -326,37 +341,23 @@ function binarySearch(a, v, fnCompare, left=0, right=a.length)
 }
 
 /**
- * binaryInsert(a, v, fnCompare, left, right)
+ * binaryInsert(a, v, compare, left, right)
  *
  * If element v already exists in array a, the array is unchanged (we don't allow duplicates); otherwise, the
  * element is inserted into the array at the appropriate index.
  *
  * @param {Array} a
  * @param {*} v (value to insert)
- * @param {function(*,*} [fnCompare]
+ * @param {function(*,*} [compare]
  * @param {number} [left]
  * @param {number} [right]
  */
-function binaryInsert(a, v, fnCompare, left=1, right=a.length)
+function binaryInsert(a, v, compare, left=0, right=a.length)
 {
-    let index = binarySearch(a, v, fnCompare, left, right);
+    let index = binarySearch(a, v, compare, left, right);
     if (index < 0) {
         a.splice(-(index + 1), 0, v);
     }
-}
-
-/**
- * readCSV(filePath, encodeAs)
- *
- * NOTE: We don't provide an encoding parameter for the readTextFile() call, because all our CSVs should be "utf-8".
- *
- * @param {string} filePath
- * @param {string} [encodeAs] (default is ""; use "html" if you want all string fields to contain HTML entities as appropriate)
- * @return {Array}
- */
-function readCSV(filePath, encodeAs="")
-{
-    return parseCSV(readTextFile(filePath) || "", encodeAs);
 }
 
 /**
@@ -410,14 +411,43 @@ function addCSV(text, obj, keys, ...pairs)
  */
 function insertCSV(rows, row, keys)
 {
-    let fnCompare = function(row1, row2) {
+    let compare = function(row1, row2) {
         for (let k = 0; k < keys.length; k++) {
-            if (row1[keys[k]] > row2[keys[k]]) return 1;
-            if (row1[keys[k]] < row2[keys[k]]) return -1;
+            let key = keys[k];
+            if (row1[key] > row2[key]) return 1;
+            if (row1[key] < row2[key]) return -1;
             if (k == keys.length - 1) return 0;
         }
     };
-    binaryInsert(rows, row, fnCompare, 1);
+    binaryInsert(rows, row, compare);
+}
+
+/**
+ * isSortedCSV(rows, keys, fQuiet)
+ *
+ * @param {Array.<object>} rows
+ * @param {Array.<string>} keys
+ * @param {boolean} [fQuiet]
+ * @return {boolean}
+ */
+function isSortedCSV(rows, keys, fQuiet)
+{
+    let isSorted = true;
+    for (let i = 1; i < rows.length; i++) {
+        let row1 = rows[i-1], row2 = rows[i];
+        for (let k = 0; k < keys.length; k++) {
+            let key = keys[k];
+            if (row1[key] < row2[key]) break;
+            if (row1[key] == row2[key]) continue;
+            isSorted = false;
+            if (fQuiet) {
+                i = rows.length;
+                break;
+            }
+            printf("warning: row %d '%s' (%s) > row %d '%s' (%s)\n", i+1, key, row1[key], i+2, key, row2[key]);
+        }
+    }
+    return isSorted;
 }
 
 /**
@@ -617,14 +647,78 @@ function parseCSVFields(line, encodeAs, fHeadings)
 }
 
 /**
- * writeCSV(filePath, rows, fOverwrite, fQuiet)
+ * readCSV(filePath, encodeAs)
+ *
+ * NOTE: We don't provide an encoding parameter for the readFile() call, because all our CSVs should be "utf-8".
+ *
+ * @param {string} filePath
+ * @param {string} [encodeAs] (default is ""; use "html" if you want all string fields to contain HTML entities as appropriate)
+ * @return {Array}
+ */
+function readCSV(filePath, encodeAs="")
+{
+    return parseCSV(readFile(filePath) || "", encodeAs);
+}
+
+/**
+ * searchCSV(rows, row)
+ *
+ * @param {Array.<object>} rows
+ * @param {object} row
+ * @return {number}
+ */
+function searchCSV(rows, row)
+{
+    let keys = Object.keys(row);
+    let compare = function(row1, row2) {
+        for (let k = 0; k < keys.length; k++) {
+            let key = keys[k];
+            let v1 = row1[key], v2 = row2[key];
+            if (typeof v1 == "string" && v1.slice(-1) == '.') v1 = v1.slice(0, -1);
+            if (typeof v2 == "string" && v2.slice(-1) == '.') v2 = v2.slice(0, -1);
+            if (v1 > v2) {
+                // printf("%s: %s > %s: 1\n", key, v1, v1);
+                return 1;
+            }
+            if (v1 < v2) {
+                // printf("%s: %s < %s: -1\n", key, v1, v2);
+                return -1;
+            }
+            if (k == keys.length - 1) {
+                // printf("%s: %s == %s: 0\n", key, v1, v2);
+                return 0;
+            }
+        }
+    };
+    return binarySearch(rows, row, compare);
+}
+
+/**
+ * sortCSV(rows, keys)
+ *
+ * @param {Array.<object>} rows
+ * @param {Array.<string>} keys
+ */
+function sortCSV(rows, keys)
+{
+    rows.sort(function(row1, row2) {
+        for (let k = 0; k < keys.length; k++) {
+            let key = keys[k];
+            if (row1[key] > row2[key]) return 1;
+            if (row1[key] < row2[key]) return -1;
+            if (k == keys.length - 1) return 0;
+        }
+    });
+}
+
+/**
+ * writeCSV(filePath, rows, fOverwrite)
  *
  * @param {string} filePath
  * @param {Array.<object>} rows
  * @param {boolean} [fOverwrite] (default is false)
- * @param {boolean} [fQuiet] (default is false)
  */
-function writeCSV(filePath, rows, fOverwrite=false, fQuiet=false)
+function writeCSV(filePath, rows, fOverwrite=argv['overwrite'])
 {
     let text = "";
     let keys = Object.keys(rows[0]);
@@ -643,20 +737,21 @@ function writeCSV(filePath, rows, fOverwrite=false, fQuiet=false)
         });
         text += line + '\n';
     });
-    writeTextFile(filePath, text, fOverwrite, fQuiet);
+    writeFile(filePath, text, fOverwrite);
 }
 
 /**
- * readTextFile(filePath, encoding)
+ * readFile(filePath, encoding)
  *
  * @param {string} filePath
  * @param {string} [encoding] (default is "utf-8")
  * @return {string|undefined}
  */
-function readTextFile(filePath, encoding="")
+function readFile(filePath, encoding="")
 {
     let text;
     try {
+        if (filePath[0] == '/') filePath = path.join(rootDir, filePath);
         text = fs.readFileSync(filePath, encoding || "utf-8");
         if (!encoding) checkString(text);
     }
@@ -667,19 +762,19 @@ function readTextFile(filePath, encoding="")
 }
 
 /**
- * writeTextFile(filePath, text, fOverwrite, fQuiet)
+ * writeFile(filePath, text, fOverwrite)
  *
  * @param {string} filePath
  * @param {string|object} text (if you pass an object, we automatically "stringify" it into JSON)
  * @param {boolean} [fOverwrite] (default is false)
- * @param {boolean} [fQuiet] (default is false)
  */
-function writeTextFile(filePath, text, fOverwrite=false, fQuiet=false)
+function writeFile(filePath, text, fOverwrite=argv['overwrite'])
 {
     if (typeof text == "object") {
         text = sprintf("%2j\n", text);
         checkString(text);
     }
+    if (filePath[0] == '/') filePath = path.join(rootDir, filePath);
     if (fOverwrite || !fs.existsSync(filePath)) {
         try {
             let dirPath = path.dirname(filePath);
@@ -690,7 +785,7 @@ function writeTextFile(filePath, text, fOverwrite=false, fQuiet=false)
             printf("%s\n", err.message);
         }
     } else {
-        if (!fQuiet) printf("file %s already exists, use --overwrite to recreate\n", filePath);
+        printf("file %s already exists, use --overwrite to recreate\n", filePath);
     }
 }
 
@@ -704,7 +799,7 @@ function writeTextFile(filePath, text, fOverwrite=false, fQuiet=false)
 function readXMLFile(filePath, filters)
 {
     let xml;
-    let text = readTextFile(filePath);
+    let text = readFile(filePath);
     if (text != null) {
         if (filters) {
             let textNew = "";
@@ -872,11 +967,11 @@ function getOldCite(volume, page)
 function readCourts()
 {
     let fixes = 0;
-    let courts = JSON.parse(readTextFile(rootDir + results.json.courts));
+    let courts = JSON.parse(readFile(results.json.courts));
     /*
      * First, let's see how our data lines up with current Oyez HTML data.
      */
-    let html = readTextFile(rootDir + sources.oyez.courtsHTML);
+    let html = readFile(sources.oyez.courtsHTML);
     let reCourt = /lazy-img="([^"]*)"\s+alt="([^"]*)"/g, match;
     while ((match = reCourt.exec(html))) {
         let i, matched = false;
@@ -947,8 +1042,8 @@ function readCourts()
         }
     }
     if (fixes) {
-        printf("writing %d corrections to %s\n", fixes, rootDir + results.json.courts);
-        writeTextFile(rootDir + results.json.courts, courts, argv['overwrite']);
+        printf("writing %d corrections to %s\n", fixes, results.json.courts);
+        writeFile(results.json.courts, courts);
     }
     return courts;
 }
@@ -981,7 +1076,7 @@ function readOyezCourts()
         };
         courts.push(court);
     }
-    courts.sort(function(a,b) {
+    courts.sort(function(a, b) {
         return (a.start < b.start)? -1 : ((a.start > b.start)? 1 : 0);
     });
     return courts;
@@ -1025,7 +1120,7 @@ function readOyezJustices()
             justices.push(justice);
         }
     }
-    justices.sort(function(a,b) {
+    justices.sort(function(a, b) {
         return (a.start < b.start)? -1 : ((a.start > b.start)? 1 : 0);
     });
     return justices;
@@ -1065,7 +1160,7 @@ function readOyezLabsDecisions()
 function readSCDBCourts()
 {
     let startNext = null;
-    let courts = readCSV(rootDir + sources.scdb.courtsCSV, "html");
+    let courts = readCSV(sources.scdb.courtsCSV, "html");
     for (let i = 0; i < courts.length; i++) {
         let court = courts[i];
         let start = parseDate(court.naturalStart);
@@ -1091,12 +1186,11 @@ function readSCDBCourts()
 function readSCOTUSDecisions()
 {
     let startNext = null;
-    let decisions = parseCSV(rootDir + results.csv.dates, "html");
-
+    let decisions = readCSV(results.csv.dates, "html");
     //
     // There are so many decision date differences in the Free Law/Court Listener CSV that the file is essentially worthless.  Sigh.
     //
-    // let decisionsFreeLaw = readTextFile(rootDir + sources.freelaw.decisionDatesCSV);
+    // let decisionsFreeLaw = readFile(sources.freelaw.decisionDatesCSV);
     // if (decisionsFreeLaw) {
     //     let rowsFreeLaw = decisionsFreeLaw.split('\n');
     //     for (let i = 0; i < rowsFreeLaw.length - 1; i++) {
@@ -1112,8 +1206,8 @@ function readSCOTUSDecisions()
     //         }
     //     }
     // }
-
-    let scotusDecisions = {};
+    //
+    let decisionsScotus = {};
     for (let i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
         if (!decision.dateDecision) {
@@ -1133,10 +1227,10 @@ function readSCOTUSDecisions()
             let date = parseDate(decision.dateDecision);
             decision.dateDecision = sprintf("%#Y-%#02M-%#02D", date, date, date);
         }
-        if (!scotusDecisions[decision.usCite]) scotusDecisions[decision.usCite] = [];
-        scotusDecisions[decision.usCite].push(decision);
+        if (!decisionsScotus[decision.usCite]) decisionsScotus[decision.usCite] = [];
+        decisionsScotus[decision.usCite].push(decision);
     }
-    return scotusDecisions;
+    return decisionsScotus;
 }
 
 /**
@@ -1149,15 +1243,15 @@ function buildCitations(done)
     /*
      * Phase 1: Build a set of citations from a snapshot of SCOTUS web pages as needed, or parse the existing CSV.
      */
-    let scotusCites = {}, scotusVolumes = {}, scotusRows = [];
-    let scotusCSV = readTextFile(rootDir + results.csv.citations);
-    if (!scotusCSV || argv['build']) {
-        if (!scotusCSV) scotusCSV = "volume,page,year,caseTitle,oldCite,usCite\n";
+    let rowsScotus = [], citesScotus = {}, volumesScotus = {};
+    let csvScotus = readFile(results.csv.citations);
+    if (!csvScotus || argv['build']) {
+        if (!csvScotus) csvScotus = "volume,page,year,caseTitle,oldCite,usCite\n";
         let additions = 0;
         let filePaths = glob.sync(rootDir + sources.scotus.citationsHTML);
         for (let i = 0; i < filePaths.length; i++) {
             let isHTML = filePaths[i].indexOf(".html") > 0;
-            let html = readTextFile(filePaths[i], isHTML? "latin1" : "utf-8");
+            let html = readFile(filePaths[i], isHTML? "latin1" : "utf-8");
             if (html) {
                 if (isHTML) {
                     /*
@@ -1227,43 +1321,43 @@ function buildCitations(done)
                         volume += volBegin - 1;
                     }
                     let usCite = sprintf("%s U.S. %s", volume || "___", page || "___");
-                    scotusRows.push([volume, page, year, caseTitle, oldCite, usCite]);
+                    rowsScotus.push([volume, page, year, caseTitle, oldCite, usCite]);
                     matches++;
                     let cite = {volume, page, year, caseTitle, oldCite, usCite};
-                    if (!scotusCites[usCite]) scotusCites[usCite] = [];
-                    scotusCites[usCite].push(cite);
-                    if (!scotusVolumes[volume]) scotusVolumes[volume] = [];
-                    scotusVolumes[volume].push(cite);
+                    if (!citesScotus[usCite]) citesScotus[usCite] = [];
+                    citesScotus[usCite].push(cite);
+                    if (!volumesScotus[volume]) volumesScotus[volume] = [];
+                    volumesScotus[volume].push(cite);
                 }
                 printf("total matches in %s: %d\n", filePaths[i], matches);
             }
         }
-        scotusRows.sort(function(row1, row2) {
+        rowsScotus.sort(function(row1, row2) {
             let v1 = row1[0] || 9999, p1 = +row1[1] || 9999, y1 = row1[2], t1 = row1[3];
             let v2 = row2[0] || 9999, p2 = +row2[1] || 9999, y2 = row2[2], t2 = row2[3];
             return v1 < v2? -1 : (v1 > v2? 1 : (p1 < p2? -1 : (p1 > p2? 1 : (y1 < y2? -1 : (y1 > y2? 1 : (t1 < t2? -1 : (t1 > t2? 1 : 0)))))));
         });
-        printf("total citations matched: %d\n", scotusRows.length);
-        scotusRows.forEach((row) => {
+        printf("total citations matched: %d\n", rowsScotus.length);
+        rowsScotus.forEach((row) => {
             let line = sprintf('%d,%d,%d,"%s","%s","%s"\n', row[0], +row[1] || 0, row[2], row[3].replace(/"/g, '""'), row[4], row[5]);
-            if (scotusCSV.indexOf(line) < 0) {
+            if (csvScotus.indexOf(line) < 0) {
                 // printf("addition: %s", line);
-                scotusCSV += line;
+                csvScotus += line;
                 additions++;
             }
         });
         printf("total citations added: %d\n", additions);
-        if (additions) writeTextFile(rootDir + results.csv.citations, scotusCSV, argv['overwrite']);
+        if (additions) writeFile(results.csv.citations, csvScotus);
     }
     else {
-        scotusRows = parseCSV(scotusCSV);
-        scotusRows.forEach((cite) => {
+        rowsScotus = parseCSV(csvScotus);
+        rowsScotus.forEach((cite) => {
             let usCite = cite.usCite;
             let volume = cite.volume;
-            if (!scotusCites[usCite]) scotusCites[usCite] = [];
-            scotusCites[usCite].push(cite);
-            if (!scotusVolumes[volume]) scotusVolumes[volume] = [];
-            scotusVolumes[volume].push(cite);
+            if (!citesScotus[usCite]) citesScotus[usCite] = [];
+            citesScotus[usCite].push(cite);
+            if (!volumesScotus[volume]) volumesScotus[volume] = [];
+            volumesScotus[volume].push(cite);
         });
     }
 
@@ -1272,13 +1366,13 @@ function buildCitations(done)
      * were problematic.  See for yourself: https://web.archive.org/web/20080619081552/http://www.supremecourtus.gov/opinions/casefinder/casefinder_1790-1862.html;
      * eg, they used to cite "Wilson v. Mason' (5 U.S. 44)", while everyone else cites "Wilson v. Mason' (5 U.S. 45)" -- including SCOTUS today.
      */
-    let justiaCites = {}, justiaVolumes = {};
-    let justiaCSV = readTextFile(rootDir + results.csv.citationsJustia);
-    if (!justiaCSV || argv['build']) {
-        if (!justiaCSV) justiaCSV = "volume,page,year,dateDecision,caseTitle,oldCite,usCite\n";
+    let citesJustia = {}, volumesJustia = {};
+    let csvJustia = readFile(results.csv.citationsJustia);
+    if (!csvJustia || argv['build']) {
+        if (!csvJustia) csvJustia = "volume,page,year,dateDecision,caseTitle,oldCite,usCite\n";
         let filePaths = glob.sync(rootDir + sources.justia.download.volume.dir + "*.html");
         for (let i = 0; i < filePaths.length; i++) {
-            let html = readTextFile(filePaths[i], "latin1");
+            let html = readFile(filePaths[i], "latin1");
             if (html) {
                 html = he.decode(html);
                 let match, re = /<a\s+href="(\/cases\/federal\/us)\/([0-9]+)\/([0-9]+)\/"\s+class="case-name">\s*<strong>\s*([^<]*)\s*<\/strong>\s*<\/a>[\s\S]*?<br\/>\s*<strong>Citation:<\/strong>\s*([0-9]+)\s+U\.S\.\s+([0-9]+)<br\/>([\s\S]*?)<a href="\1\/\2\/\3\/">/g;
@@ -1298,25 +1392,25 @@ function buildCitations(done)
                         year = +matchDate[2];
                     }
                     let cite = {volume, page, year, dateDecision, caseTitle, oldCite, usCite};
-                    if (!justiaCites[usCite]) justiaCites[usCite] = [];
-                    justiaCites[usCite].push(cite);
-                    if (!justiaVolumes[volume]) justiaVolumes[volume] = [];
-                    justiaVolumes[volume].push(cite);
-                    justiaCSV += sprintf('%d,%d,%d,"%s","%s","%s","%s"\n', volume, page, year, dateDecision, caseTitle.replace(/"/g, '""'), oldCite, usCite);
+                    if (!citesJustia[usCite]) citesJustia[usCite] = [];
+                    citesJustia[usCite].push(cite);
+                    if (!volumesJustia[volume]) volumesJustia[volume] = [];
+                    volumesJustia[volume].push(cite);
+                    csvJustia += sprintf('%d,%d,%d,"%s","%s","%s","%s"\n', volume, page, year, dateDecision, caseTitle.replace(/"/g, '""'), oldCite, usCite);
                 }
             }
         }
-        writeTextFile(rootDir + results.csv.citationsJustia, justiaCSV, argv['overwrite']);
+        writeFile(results.csv.citationsJustia, csvJustia);
     }
     else {
-        let justiaRows = parseCSV(justiaCSV);
-        justiaRows.forEach((cite) => {
+        let rowsJustia = parseCSV(csvJustia);
+        rowsJustia.forEach((cite) => {
             let usCite = cite.usCite;
             let volume = cite.volume;
-            if (!justiaCites[usCite]) justiaCites[usCite] = [];
-            justiaCites[usCite].push(cite);
-            if (!justiaVolumes[volume]) justiaVolumes[volume] = [];
-            justiaVolumes[volume].push(cite);
+            if (!citesJustia[usCite]) citesJustia[usCite] = [];
+            citesJustia[usCite].push(cite);
+            if (!volumesJustia[volume]) volumesJustia[volume] = [];
+            volumesJustia[volume].push(cite);
         });
     }
 
@@ -1333,13 +1427,13 @@ function buildCitations(done)
      *      U.S. Reports: United States v. Villalonga, 90 U.S. (23 Wall.) 35 (1874).
      *      U.S. Reports: Wilmington and Weldon Railroad Company v. King, Executor, 91 U.S. 3 (1875).
      */
-    let locCites = {}, locVolumes = {};
-    let locCSV = readTextFile(rootDir + results.csv.citationsLOC);
-    if (!locCSV || argv['build']) {
-        if (!locCSV) locCSV = "volume,page,year,pageURL,pagePDF,caseTitle,oldCite,usCite\n";
+    let locCites = {}, volumesLOC = {};
+    let csvLOC = readFile(results.csv.citationsLOC);
+    if (!csvLOC || argv['build']) {
+        if (!csvLOC) csvLOC = "volume,page,year,pageURL,pagePDF,caseTitle,oldCite,usCite\n";
         let filePaths = glob.sync(rootDir + sources.loc.download.volume.dir + "*.html");
         for (let i = 0; i < filePaths.length; i++) {
-            let html = readTextFile(filePaths[i], "latin1");
+            let html = readFile(filePaths[i], "latin1");
             if (html) {
                 html = he.decode(html);
                 let match, re = /<span\s+class='item-description-title'>\s*<a\s+href='([^']*)'[^>]*>\s*U\.S\.\s+Reports:\s+(.*?),\s+([0-9]+)\s+U\.S\.\s+(\([^)]*\)\s+|)([0-9]+)\s*\(([0-9-]+)\)\.?/g;
@@ -1353,28 +1447,28 @@ function buildCitations(done)
                         }
                         oldCite = oldCite.replace(/2 How /g, "2 How. ");
                     }
-                    let row = sprintf('%d,%d,%d,%d,%d,"%s","%s","%s"\n', volume, page, year, 0, 0, caseTitle.replace(/"/g, '""'), oldCite, usCite);
-                    let cite = {volume, page, year, caseTitle, oldCite, usCite, row};
+                    let line = sprintf('%d,%d,%d,%d,%d,"%s","%s","%s"\n', volume, page, year, 0, 0, caseTitle.replace(/"/g, '""'), oldCite, usCite);
+                    let cite = {volume, page, year, caseTitle, oldCite, usCite, line};
                     if (!locCites[usCite]) locCites[usCite] = [];
                     locCites[usCite].push(cite);
-                    if (!locVolumes[volume]) locVolumes[volume] = [];
-                    locVolumes[volume].push(cite);
-                    locCSV += row;
+                    if (!volumesLOC[volume]) volumesLOC[volume] = [];
+                    volumesLOC[volume].push(cite);
+                    csvLOC += line;
                 }
             }
         }
-        writeTextFile(rootDir + results.csv.citationsLOC, locCSV, argv['overwrite']);
+        writeFile(results.csv.citationsLOC, csvLOC);
     }
     else {
-        let locRows = parseCSV(locCSV);
-        locRows.forEach((cite) => {
+        let rowsLOC = parseCSV(csvLOC);
+        rowsLOC.forEach((cite) => {
             cite.row = sprintf('%d,%d,%d,%d,%d,"%s","%s","%s"\n', cite.volume, cite.page, cite.year, cite.pageURL, cite.pagePDF, cite.caseTitle.replace(/"/g, '""'), cite.oldCite, cite.usCite);
             let usCite = cite.usCite;
             let volume = cite.volume;
             if (!locCites[usCite]) locCites[usCite] = [];
             locCites[usCite].push(cite);
-            if (!locVolumes[volume]) locVolumes[volume] = [];
-            locVolumes[volume].push(cite);
+            if (!volumesLOC[volume]) volumesLOC[volume] = [];
+            volumesLOC[volume].push(cite);
         });
     }
 
@@ -1382,17 +1476,17 @@ function buildCitations(done)
      * Phase 4: Check SCOTUS cites against LOC cites.
      */
     let corrections = 0;
-    let volumes = Object.keys(scotusVolumes);
+    let volumes = Object.keys(volumesScotus);
     volumes.forEach((volume) => {
-        let citesLoc = locVolumes[volume];
-        let citesScotus = scotusVolumes[volume];
-        if (citesLoc) {
-            for (let iScotus = 0; iScotus < citesScotus.length; iScotus++) {
-                let citeScotus = citesScotus[iScotus];
+        let citesLOCVolume = volumesLOC[volume];
+        let citesScotusVolume = volumesScotus[volume];
+        if (citesLOCVolume) {
+            for (let iScotus = 0; iScotus < citesScotusVolume.length; iScotus++) {
+                let citeScotus = citesScotusVolume[iScotus];
                 if (+citeScotus.volume > 569 || isNaN(+citeScotus.page)) continue;
                 let citeBest = null, scoreBest = -1;
-                for (let iLoc = 0; iLoc < citesLoc.length; iLoc++) {
-                    let citeLoc = citesLoc[iLoc];
+                for (let iLoc = 0; iLoc < citesLOCVolume.length; iLoc++) {
+                    let citeLoc = citesLOCVolume[iLoc];
                     if (citeLoc.matched) continue;
                     let score = scoreStrings(citeLoc.caseTitle, citeScotus.caseTitle);
                     if (citeLoc.usCite == citeScotus.usCite && (+citeLoc.pageURL || score > 50)) {
@@ -1421,7 +1515,7 @@ function buildCitations(done)
                 }
             }
         } else {
-            let page = +citesScotus[0].page;
+            let page = +citesScotusVolume[0].page;
             if (volume <= 569 && !isNaN(page)) {
                 // printf("warning: unable to find SCOTUS volume %d in LOC citations\n", volume);
                 // warnings++;
@@ -1433,20 +1527,20 @@ function buildCitations(done)
      * Phase 5: Check LOC cites against SCOTUS cites.
      */
     let additions = 0;
-    volumes = Object.keys(locVolumes);
+    volumes = Object.keys(volumesLOC);
     volumes.forEach((volume) => {
         if (volume <= 4) return;
-        let citesLoc = locVolumes[volume];
-        let citesScotus = scotusVolumes[volume];
-        if (citesScotus) {
-            for (let iLoc = 0; iLoc < citesLoc.length; iLoc++) {
-                let citeLoc = citesLoc[iLoc];
+        let citesLOCVolume = volumesLOC[volume];
+        let citesScotusVolume = volumesScotus[volume];
+        if (citesScotusVolume) {
+            for (let iLoc = 0; iLoc < citesLOCVolume.length; iLoc++) {
+                let citeLoc = citesLOCVolume[iLoc];
                 let citeBest = null, scoreBest = -1;
-                for (let iScotus = 0; iScotus < citesScotus.length; iScotus++) {
-                    let citeScotus = citesScotus[iScotus];
+                for (let iScotus = 0; iScotus < citesScotusVolume.length; iScotus++) {
+                    let citeScotus = citesScotusVolume[iScotus];
                     if (citeScotus.matched) continue;
                     let score = scoreStrings(citeScotus.caseTitle, citeLoc.caseTitle);
-                    if (citeScotus.usCite == citeLoc.usCite && (score > 50 || locCites[citeLoc.usCite].length == 1 && scotusCites[citeScotus.usCite].length == 1)) {
+                    if (citeScotus.usCite == citeLoc.usCite && (score > 50 || locCites[citeLoc.usCite].length == 1 && citesScotus[citeScotus.usCite].length == 1)) {
                         if (citeScotus.oldCite != citeLoc.oldCite) {
                             printf("warning: LOC citation (%s) doesn't match SCOTUS citation (%s)\n", citeLoc.oldCite, citeScotus.oldCite);
                             warnings++;
@@ -1472,7 +1566,7 @@ function buildCitations(done)
                         oldCite: citeLoc.oldCite,
                         usCite: citeLoc.usCite
                     };
-                    insertCSV(scotusRows, row, ["volume", "page", "caseTitle"]);
+                    insertCSV(rowsScotus, row, ["volume", "page", "caseTitle"]);
                     additions++;
                 }
                 else if (citeBest && citeLoc.usCite != citeBest.usCite && scoreBest > 75) {
@@ -1492,10 +1586,10 @@ function buildCitations(done)
     /*
      * Phase 6: Verify that all cases in dates.csv are recorded in citations.csv
      */
-    let dateRows = readCSV(rootDir + results.csv.dates);
-    dateRows.forEach((cite) => {
+    let rowsDates = readCSV(results.csv.dates);
+    rowsDates.forEach((cite) => {
         let match = cite.usCite.match(/^([0-9]+) U.S. ([0-9]+)$/);
-        if (match && !scotusCites[cite.usCite]) {
+        if (match && !citesScotus[cite.usCite]) {
             printf("warning: unable to find date citation '%s' (%s) %s in SCOTUS citations\n", cite.caseTitle, cite.usCite, cite.dateDecision);
             warnings++;
             let row = {
@@ -1506,7 +1600,7 @@ function buildCitations(done)
                 oldCite: getOldCite(+match[1], +match[2]),
                 usCite: cite.usCite
             };
-            insertCSV(scotusRows, row, ["volume", "page", "caseTitle"]);
+            insertCSV(rowsScotus, row, ["volume", "page", "caseTitle"]);
             additions++;
         }
     });
@@ -1514,7 +1608,7 @@ function buildCitations(done)
     printf("total additions: %d\n", additions);
     printf("total corrections: %d\n", corrections);
 
-    if (additions || corrections) writeCSV(rootDir + results.csv.citations, scotusRows, argv['overwrite']);
+    if (additions || corrections) writeCSV(results.csv.citations, rowsScotus);
 
     printf("total warnings: %d\n", warnings);
 
@@ -1533,7 +1627,7 @@ function buildCourts(done)
      *
      *      let courtsOyez = readOyezCourts();
      *      printf("Oyez courts read: %d\n", courtsOyez.length);
-     *      writeTextFile(rootDir + results.json.courts, courtsOyez, argv['overwrite']);
+     *      writeFile(results.json.courts, courtsOyez);
      */
     let courts = readCourts();
     printf("courts read: %d\n", courts.length);
@@ -1542,7 +1636,7 @@ function buildCourts(done)
      * Let's verify that all the justices are appropriately slotted into the courts.
      */
     let lastCourtPrinted = "";
-    let justices = JSON.parse(readTextFile(rootDir + results.json.justices));
+    let justices = JSON.parse(readFile(results.json.justices));
     for (let i = 0; i < justices.length; i++) {
         let justice = justices[i];
         let nCourts = 0;
@@ -1580,7 +1674,7 @@ function buildCourts(done)
         }
     }
 
-    writeTextFile(rootDir + results.csv.courts, csv, argv['overwrite']);
+    writeFile(results.csv.courts, csv);
     done();
 }
 
@@ -1593,7 +1687,7 @@ function backupLonerDecisions(done)
 {
     let backupDecisions = [];
     let backupKeys = ['caseId', 'termId', 'dissenterId', 'dissenterName', 'caseNotes', 'pdfSource', 'pdfPage', 'pdfPageDissent'];
-    let lonerDecisions = JSON.parse(readTextFile(rootDir + _data.lonerDecisions));
+    let lonerDecisions = JSON.parse(readFile(_data.lonerDecisions));
     lonerDecisions.forEach((decision) => {
         let backup = {};
         backupKeys.forEach((key) => {
@@ -1601,7 +1695,7 @@ function backupLonerDecisions(done)
         });
         backupDecisions.push(backup);
     });
-    writeTextFile(rootDir + _data.lonerBackup, backupDecisions, argv['overwrite']);
+    writeFile(_data.lonerBackup, backupDecisions);
     done();
 }
 
@@ -1612,10 +1706,10 @@ function backupLonerDecisions(done)
  */
 function buildDecisions(done)
 {
-    let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars));
-    let decisions = parseCSV(readTextFile(rootDir + sources.scdb.decisionsCSV, "latin1"), "html", 0, "voteId", "justice", false, vars);
+    let vars = JSON.parse(readFile(sources.scdb.vars));
+    let decisions = parseCSV(readFile(sources.scdb.decisionsCSV, "latin1"), "html", 0, "voteId", "justice", false, vars);
     printf("SCDB decisions: %d\n", decisions.length);
-    writeTextFile(rootDir + results.json.decisions, decisions, argv['overwrite']);
+    writeFile(results.json.decisions, decisions);
     done();
 }
 
@@ -1629,7 +1723,7 @@ function buildJustices(done)
     let justicesOyez = readOyezJustices();
     printf("Oyez justices read: %d\n", justicesOyez.length);
 
-    let justices = readCSV(rootDir + sources.scdb.justicesCSV, "html");
+    let justices = readCSV(sources.scdb.justicesCSV, "html");
     printf("SCDB justices read: %d\n", justices.length);
     for (let i = 0; i < justices.length; i++) {
         let first, last;
@@ -1676,7 +1770,7 @@ function buildJustices(done)
             justicesOyez.push(justice);
         }
     }
-    writeTextFile(rootDir + results.json.justices, justicesOyez, argv['overwrite']);
+    writeFile(results.json.justices, justicesOyez);
     done();
 }
 
@@ -2050,15 +2144,15 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 
     let decisionsAudited = [];
     let decisionsDuplicated = [];
-    let decisions = JSON.parse(readTextFile(rootDir + results.json.decisions));
+    let decisions = JSON.parse(readFile(results.json.decisions));
     printf("decisions available: %d\n", decisions.length);
-    let lonerBackup = JSON.parse(readTextFile(rootDir + _data.lonerBackup) || "[]");
+    let lonerBackup = JSON.parse(readFile(_data.lonerBackup) || "[]");
 
     let dataFile = minVotes == 1? _data.lonerDecisions : _data.allDecisions;
-    let data = JSON.parse(readTextFile(rootDir + dataFile) || "[]");
-    let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars) || "{}");
-    let courts = JSON.parse(readTextFile(rootDir + results.json.courts) || "[]");
-    let justices = JSON.parse(readTextFile(rootDir + results.json.justices) || "[]");
+    let data = JSON.parse(readFile(dataFile) || "[]");
+    let vars = JSON.parse(readFile(sources.scdb.vars) || "{}");
+    let courts = JSON.parse(readFile(results.json.courts) || "[]");
+    let justices = JSON.parse(readFile(results.json.justices) || "[]");
 
     do {
         let year = 0;
@@ -2213,7 +2307,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 }
             }
             if (additions) {
-                writeTextFile(rootDir + dataFile, data, true);
+                writeFile(dataFile, data);
             }
             if (argv['build'] && term) {
                 /*
@@ -2301,12 +2395,12 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     }
                 });
                 fileText += '---\n';
-                writeTextFile(rootDir + fileName, fileText, argv['overwrite']);
+                writeFile(fileName, fileText);
                 /*
                  * Let's make sure there's an index entry as well....
                  */
                 fileName = "/_pages/cases/" + category + ".md";
-                let index = readTextFile(rootDir + fileName);
+                let index = readFile(fileName);
                 if (index) {
                     let re = /^- \[.*?Term.*?\]\(\/cases\/[a-z]+\/([0-9-]+)\).*$/gm, match;
                     while ((match = re.exec(index))) {
@@ -2323,7 +2417,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         } else {
                             index = index.substr(0, match.index) + entry + index.substr(match.index + match[0].length + 1);
                         }
-                        writeTextFile(rootDir + fileName, index, argv['overwrite']);
+                        writeFile(fileName, index);
                     }
                 }
             }
@@ -2354,73 +2448,73 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
  */
 function fixDecisions(done)
 {
-    // let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars) || "{}");
-    // let courts = JSON.parse(readTextFile(rootDir + results.json.courts) || "[]");
-    // let justices = JSON.parse(readTextFile(rootDir + results.json.justices) || "[]");
+    // let vars = JSON.parse(readFile(sources.scdb.vars) || "{}");
+    // let courts = JSON.parse(readFile(results.json.courts) || "[]");
+    // let justices = JSON.parse(readFile(results.json.justices) || "[]");
 
     let fixDates = false;
-    let citationCites = {}, citations = [];
-    let labCites = {}, labDecisions = [];
-    let scdbCourts = [], scotusDecisions = {};
+    let citesScotus = {}, citations = [];
+    let citesLabs = {}, decisionsLabs = [];
+    let courtsSCDB = [], decisionsScotus = {};
 
     if (argv['citations']) {
-        citations = readCSV(rootDir + results.csv.citations, "html");
+        citations = readCSV(results.csv.citations, "html");
         for (let i = 0; i < citations.length; i++) {
             let citation = citations[i];
             if (citation.volume) {
-                if (!citationCites[citation.usCite]) citationCites[citation.usCite] = [];
-                citationCites[citation.usCite].push(citation);
+                if (!citesScotus[citation.usCite]) citesScotus[citation.usCite] = [];
+                citesScotus[citation.usCite].push(citation);
             }
         }
-        let citationsLOC = readCSV(rootDir + results.csv.citationsLOC, "html");
+        let citationsLOC = readCSV(results.csv.citationsLOC, "html");
         for (let i = 0; i < citationsLOC.length; i++) {
             let citation = citationsLOC[i];
             if (citation.volume) {
-                if (!citationCites[citation.usCite]) {
-                    citationCites[citation.usCite] = [];
-                    citationCites[citation.usCite].push(citation);
+                if (!citesScotus[citation.usCite]) {
+                    citesScotus[citation.usCite] = [];
+                    citesScotus[citation.usCite].push(citation);
                 }
             }
         }
-        let citationsJustia = readCSV(rootDir + results.csv.citationsJustia, "html");
+        let citationsJustia = readCSV(results.csv.citationsJustia, "html");
         for (let i = 0; i < citationsJustia.length; i++) {
             let citation = citationsJustia[i];
             if (citation.volume) {
-                if (!citationCites[citation.usCite]) {
-                    citationCites[citation.usCite] = [];
-                    citationCites[citation.usCite].push(citation);
+                if (!citesScotus[citation.usCite]) {
+                    citesScotus[citation.usCite] = [];
+                    citesScotus[citation.usCite].push(citation);
                 }
             }
         }
     }
     if (argv['courts']) {
-        scdbCourts = readSCDBCourts();
+        courtsSCDB = readSCDBCourts();
     }
     if (argv['dates']) {
         fixDates = true;
-        scotusDecisions = readSCOTUSDecisions();
+        decisionsScotus = readSCOTUSDecisions();
     }
     if (argv['oyezlabs']) {
-        labDecisions = readOyezLabsDecisions();
-        for (let i = 0; i < labDecisions.length; i++) {
-            let decision = labDecisions[i];
+        decisionsLabs = readOyezLabsDecisions();
+        for (let i = 0; i < decisionsLabs.length; i++) {
+            let decision = decisionsLabs[i];
             if (decision.usCite && decision.dateDecision) {
-                if (!labCites[decision.usCite]) labCites[decision.usCite] = [];
-                labCites[decision.usCite].push(decision);
+                if (!citesLabs[decision.usCite]) citesLabs[decision.usCite] = [];
+                citesLabs[decision.usCite].push(decision);
             }
         }
     }
 
     let changes = 0;
-    let decisions = JSON.parse(readTextFile(rootDir + results.json.decisions));
+    let decisions = JSON.parse(readFile(results.json.decisions));
     printf("decisions available: %d\n", decisions.length);
 
-    let scdbCites = {};
-    let changedCourts = readTextFile(rootDir + results.logs.csv.changedCourts) || "caseId,usCite,caseName,dateDecision,naturalCourt,naturalCourtNew\n";
-    let changedDates = readTextFile(rootDir + results.logs.csv.changedDates) || "caseId,usCite,caseName,dateDecision,dateDecisionNew\n";
-    let missingCases = readTextFile(rootDir + results.logs.csv.missingCases) || "usCite,caseTitle,dateDecision\n";
-    let unknownCitations = readTextFile(rootDir + results.logs.csv.unknownCitations) || "usCite,caseName,dateDecision\n";
-    let unusualDates = readTextFile(rootDir + results.logs.csv.unusualDates) || "caseId,usCite,caseName,dateDecision,dayOfWeek\n";
+    let citesSCDB = {};
+    let changedCourts = readFile(results.logs.csv.changedCourts) || "caseId,usCite,caseName,dateDecision,naturalCourt,naturalCourtNew\n";
+    let changedDates = readFile(results.logs.csv.changedDates) || "caseId,usCite,caseName,dateDecision,dateDecisionNew\n";
+    let missingCases = readFile(results.logs.csv.missingCases) || "usCite,caseTitle,dateDecision\n";
+    let unknownCitations = readFile(results.logs.csv.unknownCitations) || "usCite,caseName,dateDecision\n";
+    let unusualDates = readFile(results.logs.csv.unusualDates) || "caseId,usCite,caseName,dateDecision,dayOfWeek\n";
     let changedCourtsOrig = changedCourts, changedDatesOrig = changedDates, missingCasesOrig = missingCases, unknownCitationsOrig = unknownCitations, unusualDatesOrig = unusualDates;
 
     decisions.forEach((decision) => {
@@ -2430,7 +2524,7 @@ function fixDecisions(done)
                 /*
                  * The "--citations" option must have been specified....
                  */
-                let cites = citationCites[decision.usCite];
+                let cites = citesScotus[decision.usCite];
                 if (cites) {
                     i = 0;
                     let citeBest, scoreBest = -1;
@@ -2455,32 +2549,32 @@ function fixDecisions(done)
                     }
                 }
             }
-            if (!scdbCites[decision.usCite]) {
-                scdbCites[decision.usCite] = [];
+            if (!citesSCDB[decision.usCite]) {
+                citesSCDB[decision.usCite] = [];
             }
-            if (scdbCites[decision.usCite].length) {
-                for (i = 0; i < scdbCites[decision.usCite].length; i++) {
-                    let scdbCite = scdbCites[decision.usCite][i];
+            if (citesSCDB[decision.usCite].length) {
+                for (i = 0; i < citesSCDB[decision.usCite].length; i++) {
+                    let scdbCite = citesSCDB[decision.usCite][i];
                     if (scdbCite.caseName == decision.caseName) {
                         printf("warning: %s (%s) may be duplicated (compare %s to %s)\n", decision.caseName, decision.usCite, scdbCite.caseId, decision.caseId);
                         warnings++;
                     }
                 }
             }
-            scdbCites[decision.usCite].push(decision);
-            let scotusDates = scotusDecisions[decision.usCite];
-            if (scotusDates) {
+            citesSCDB[decision.usCite].push(decision);
+            let datesScotus = decisionsScotus[decision.usCite];
+            if (datesScotus) {
                 /*
                  * The "--dates" option must have been specified....
                  */
-                for (i = 0; i < scotusDates.length; i++) {
-                    citeDate = scotusDates[i];
+                for (i = 0; i < datesScotus.length; i++) {
+                    citeDate = datesScotus[i];
                     if (decision.dateDecision == citeDate.dateDecision && !citeDate.matched) {
                         citeDate.matched = true;
                         break;
                     }
                 }
-                if (i == scotusDates.length && citeDate.dateDecision && decision.dateDecision != citeDate.dateDecision) {
+                if (i == datesScotus.length && citeDate.dateDecision && decision.dateDecision != citeDate.dateDecision) {
                     citeDate.matched = true;
                     printf("warning: %s (%s) has decision date %s instead of SCOTUS date %s\n", decision.caseName, decision.usCite, decision.dateDecision, citeDate.dateDecision);
                     changedDates = addCSV(changedDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dateDecisionNew", citeDate.dateDecision);
@@ -2489,9 +2583,9 @@ function fixDecisions(done)
                     changes++;
                 }
             }
-            if (labDecisions.length) {
-                if (labCites[decision.usCite]) {
-                    let cite, cites = labCites[decision.usCite];
+            if (decisionsLabs.length) {
+                if (citesLabs[decision.usCite]) {
+                    let cite, cites = citesLabs[decision.usCite];
                     for (i = 0; i < cites.length; i++) {
                         cite = cites[i];
                         if (cite.dateDecision == decision.dateDecision) break;
@@ -2515,9 +2609,9 @@ function fixDecisions(done)
             }
         }
 
-        if (scdbCourts.length) {
-            for (i = 0; i < scdbCourts.length; i++) {
-                let court = scdbCourts[i];
+        if (courtsSCDB.length) {
+            for (i = 0; i < courtsSCDB.length; i++) {
+                let court = courtsSCDB[i];
                 if (decision.dateDecision >= court.start && decision.dateDecision <= court.stop) {
                     let naturalCourt = +court.naturalCourt;
                     if (decision.naturalCourt != naturalCourt) {
@@ -2530,20 +2624,20 @@ function fixDecisions(done)
                     break;
                 }
             }
-            if (i == scdbCourts.length) {
+            if (i == courtsSCDB.length) {
                 printf("warning: %s (%s): decision date %s lies outside of any court; naturalCourt is %d\n", decision.caseName, decision.usCite, decision.dateDecision, decision.naturalCourt);
                 warnings++;
             }
         }
     });
 
-    let scotusCites = Object.keys(scotusDecisions);
+    let scotusCites = Object.keys(decisionsScotus);
     scotusCites.forEach((usCite) => {
-        let scotusDates = scotusDecisions[usCite];
-        scotusDates.forEach((scotusDecision) => {
-            if (!scotusDecision.matched) {
-                printf("warning: %s (%s) with SCOTUS decision date %s has no matching SCDB entry\n", scotusDecision.caseTitle, scotusDecision.usCite, scotusDecision.dateDecision);
-                missingCases = addCSV(missingCases, scotusDecision, ["usCite", "caseTitle", "dateDecision"]);
+        let datesScotus = decisionsScotus[usCite];
+        datesScotus.forEach((decisionScotus) => {
+            if (!decisionScotus.matched) {
+                printf("warning: %s (%s) with SCOTUS decision date %s has no matching SCDB entry\n", decisionScotus.caseTitle, decisionScotus.usCite, decisionScotus.dateDecision);
+                missingCases = addCSV(missingCases, decisionScotus, ["usCite", "caseTitle", "dateDecision"]);
                 warnings++;
             }
         });
@@ -2560,23 +2654,23 @@ function fixDecisions(done)
     }
 
     if (changedCourts != changedCourtsOrig) {
-        writeTextFile(rootDir + results.logs.csv.changedCourts, changedCourts, argv['overwrite']);
+        writeFile(results.logs.csv.changedCourts, changedCourts);
     }
     if (changedDates != changedDatesOrig) {
-        writeTextFile(rootDir + results.logs.csv.changedDates, changedDates, argv['overwrite']);
+        writeFile(results.logs.csv.changedDates, changedDates);
     }
     if (missingCases != missingCasesOrig) {
-        writeTextFile(rootDir + results.logs.csv.missingCases, missingCases, argv['overwrite']);
+        writeFile(results.logs.csv.missingCases, missingCases);
     }
     if (unknownCitations != unknownCitationsOrig) {
-        writeTextFile(rootDir + results.logs.csv.unknownCitations, unknownCitations, argv['overwrite']);
+        writeFile(results.logs.csv.unknownCitations, unknownCitations);
     }
     if (unusualDates != unusualDatesOrig) {
-        writeTextFile(rootDir + results.logs.csv.unusualDates, unusualDates, argv['overwrite']);
+        writeFile(results.logs.csv.unusualDates, unusualDates);
     }
 
     if (changes) {
-        writeTextFile(rootDir + results.json.decisions, decisions, argv['overwrite']);
+        writeFile(results.json.decisions, decisions);
     }
 
     if (warnings) printf("warnings: %d\n", warnings);
@@ -2618,11 +2712,11 @@ function findJustices(done, minVotes)
      * If we've already built lonerJustices.json, then use it; otherwiser, build it.
      */
     let dataFile = minVotes == 1? _data.lonerJustices : _data.allJustices;
-    let data = JSON.parse(readTextFile(rootDir + dataFile) || "[]");
+    let data = JSON.parse(readFile(dataFile) || "[]");
     if (!data.length) {
         let dataBuckets = {};
-        let vars = JSON.parse(readTextFile(rootDir + sources.scdb.vars));
-        let justices = JSON.parse(readTextFile(rootDir + results.json.justices));
+        let vars = JSON.parse(readFile(sources.scdb.vars));
+        let justices = JSON.parse(readFile(results.json.justices));
         justices.forEach((justice) => {
             if (justice.scdbJustice) {
                 let id = vars.justice.values[justice.scdbJustice];
@@ -2641,7 +2735,7 @@ function findJustices(done, minVotes)
                 printf("warning: justice %s has no SCDB justice index\n", justice.id);
             }
         });
-        let dataDecisions = JSON.parse(readTextFile(rootDir + (minVotes == 1? _data.lonerDecisions : _data.allDecisions)));
+        let dataDecisions = JSON.parse(readFile(minVotes == 1? _data.lonerDecisions : _data.allDecisions));
         dataDecisions.forEach((decision) => {
             let justiceId = minVotes == 1? decision.dissenterId : decision.majOpinWriter;
             if (justiceId == "none") return;
@@ -2654,8 +2748,8 @@ function findJustices(done, minVotes)
                 }
             }
         });
-        let justiceIds = Object.keys(dataBuckets);
-        justiceIds.forEach((id) => {
+        let idsJustice = Object.keys(dataBuckets);
+        idsJustice.forEach((id) => {
             if (minVotes == 1) {
                 data.push({
                     id: getJusticeId(id),
@@ -2673,14 +2767,14 @@ function findJustices(done, minVotes)
 
             }
         });
-        data.sort(function(a,b) {
+        data.sort(function(a, b) {
             if (minVotes == 1) {
                 return (a.loneTotal < b.loneTotal)? 1 : ((a.loneTotal > b.loneTotal)? -1 : 0);
             } else {
                 return (a.majorityTotal < b.majorityTotal)? 1 : ((a.majorityTotal > b.majorityTotal)? -1 : 0);
             }
         });
-        writeTextFile(rootDir + dataFile, data, argv['overwrite']);
+        writeFile(dataFile, data);
     }
     let index = "";
     let category = minVotes == 1? "loners" : "all";
@@ -2724,7 +2818,7 @@ function findJustices(done, minVotes)
                 }
             });
             text += '---\n';
-            writeTextFile(rootDir + fileName, text, argv['overwrite'], true);
+            writeFile(fileName, text, argv['overwrite'], true);
             index += sprintf("- [%s](/justices/%s/%s) (%d %s%s)\n", justice.name, category, justice.id, total, type, total == 1? '' : 's');
         }
     });
@@ -2735,7 +2829,7 @@ function findJustices(done, minVotes)
         let pathName = "/justices/" + category;
         let fileName = "/_pages" + pathName + ".md";
         index = '---\ntitle: "U.S. Supreme Court Justices with ' + description + '"\npermalink: ' + pathName + '\nlayout: archive\n---\n\n' + index;
-        writeTextFile(rootDir + fileName, index, argv['overwrite']);
+        writeFile(fileName, index);
     }
     done();
 }
@@ -2761,14 +2855,14 @@ function findAllJustices(done)
 }
 
 /**
- * findLonerMatches()
+ * findLonersMatching()
  *
  * @param {function()} done
  */
-function findLonerMatches(done)
+function findLonersMatching(done)
 {
     let dateBuckets = {};
-    let lonerJustices = JSON.parse(readTextFile(rootDir + _data.lonerJustices) || "[]");
+    let lonerJustices = JSON.parse(readFile(_data.lonerJustices) || "[]");
     lonerJustices.forEach((justice) => {
         justice.loneDissents.forEach((dissent) => {
             if (!dateBuckets[dissent.dateDecision]) {
@@ -2796,7 +2890,79 @@ function findLonerMatches(done)
         }
 
     });
-    writeTextFile(rootDir + fileName, text, argv['overwrite']);
+    writeFile(fileName, text);
+    done();
+}
+
+/**
+ * updateLOC()
+ *
+ * Add some new columns to citationsLOC.csv (eg, pageTotal, subject, keywords).
+ *
+ * @param {function()} done
+ */
+function updateLOC(done)
+{
+    let success = true;
+    let rowsLOC = readCSV(results.csv.citationsLOC);
+    let rowsMisc = readCSV(results.csv.miscLOC);
+    let rowsAll = [rowsLOC, rowsMisc];
+    rowsAll.forEach((rows) => {
+        if (!isSortedCSV(rows, ["volume", "page", "caseTitle"], true)) {
+            sortCSV(rows, ["volume", "page", "caseTitle"])
+            if (!isSortedCSV(rows, ["volume", "page", "caseTitle"])) {
+                printf("warning: unable to sort CSV\n");
+                warnings++;
+                success = false;
+            }
+        }
+    });
+    if (success) {
+        let info = readFile(sources.loc.download.pdf.info);
+        if (info) {
+            let updates = 0;
+            let match, re = /sources\/loc\/pdfs\/.*?\/([0-9]*)us([^.]*)\.pdf\s*Title:\s*U\.\s*S\.\s*Reports:\s*(.*?)\.?,\s*([0-9]+)\s*U\.S\.\s*(?:\(.*?\)\s*|)(\S+).*?\s*Subject:\s*(.*?)\s*Keywords:\s*([^\n]*)\s*[\s\S]*?Pages:\s*([0-9]*)/g;
+            while ((match = re.exec(info))) {
+                let caseTitle = match[3].replace(/\s+/g, ' ').trim();
+                let volume = +match[4];
+                let page = +match[5];
+                let subject = match[6];
+                let keywords = match[7];
+                let pageTotal = match[8];
+                let phrases = keywords.toLowerCase().split("; ");
+                removeValues(phrases, ["law", "law library", "supreme court", "united states", "government documents", "u.s. reports", "common law", "judicial review and appeals", "court opinions", "judicial decisions", "court cases", "court decisions"]);
+                keywords = phrases.join("; ");
+                let volumePDF = +match[1];
+                let pagePDF = +match[2];
+                if (!isNaN(pagePDF)) {
+                    page = pagePDF;
+                } else {
+                    printf("warning: unexpected PDF page number (%s)\n", match[2]);
+                    warnings++;
+                }
+                // printf('"%s","%d U.S. %d",%d\n', caseTitle, volume, page, pageTotal);
+                let o = {volume, page, caseTitle};
+                let i = searchCSV(rowsLOC, o);
+                if (i < 0) {
+                    let i = searchCSV(rowsMisc, o);
+                    if (i < 0) {
+                        printf('warning: unable to find "%s","%d U.S. %d" (see %03dus%03d.pdf)\n', caseTitle, volume, page, volumePDF, pagePDF);
+                        warnings++;
+                    }
+                } else {
+                    o = rowsLOC[i];
+                    o.pageTotal = pageTotal;
+                    o.subject = subject;
+                    o.keywords = keywords;
+                    updates++;
+                }
+            }
+            if (updates) {
+                writeCSV(results.csv.citationsLOC, rowsLOC);
+            }
+        }
+    }
+    printf("warnings: %d\n", warnings);
     done();
 }
 
@@ -2936,8 +3102,8 @@ function generateDownloadTasks(done)
             }
         });
     });
-    let locRows = readCSV(rootDir + results.csv.citationsLOC);
-    locRows.forEach((cite) => {
+    let rowsLOC = readCSV(results.csv.citationsLOC);
+    rowsLOC.forEach((cite) => {
         getLOCPDF(cite.volume, cite.page, cite.pageURL);
     });
     done();
@@ -2968,7 +3134,8 @@ gulp.task("lonerDecisions", findLonerDecisions);
 gulp.task("lonerJustices", findLonerJustices);
 gulp.task("all", gulp.series(findAllDecisions, findAllJustices));
 gulp.task("loners", gulp.series(findLonerDecisions, findLonerJustices));
-gulp.task("matches", findLonerMatches);
+gulp.task("lonersMatching", findLonersMatching);
+gulp.task("updateLOC", updateLOC);
 gulp.task("backup", backupLonerDecisions);
 gulp.task("tests", gulp.series(testDates));
 gulp.task("default", findDecisions);
