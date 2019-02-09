@@ -1430,7 +1430,7 @@ function buildCitations(done)
     let locCites = {}, volumesLOC = {};
     let csvLOC = readFile(results.csv.citationsLOC);
     if (!csvLOC || argv['build']) {
-        if (!csvLOC) csvLOC = "volume,page,year,pageURL,pagePDF,caseTitle,oldCite,usCite\n";
+        if (!csvLOC) csvLOC = "volume,page,year,pageURL,pagePDF,caseTitle,oldCite,usCite,pageTotal,subject,keywords\n";
         let filePaths = glob.sync(rootDir + sources.loc.download.volume.dir + "*.html");
         for (let i = 0; i < filePaths.length; i++) {
             let html = readFile(filePaths[i], "latin1");
@@ -1447,7 +1447,7 @@ function buildCitations(done)
                         }
                         oldCite = oldCite.replace(/2 How /g, "2 How. ");
                     }
-                    let line = sprintf('%d,%d,%d,%d,%d,"%s","%s","%s"\n', volume, page, year, 0, 0, caseTitle.replace(/"/g, '""'), oldCite, usCite);
+                    let line = sprintf('%d,%d,%d,%d,%d,"%s","%s","%s",%d,"%s","%s"\n', volume, page, year, 0, 0, caseTitle.replace(/"/g, '""'), oldCite, usCite, 0, "", "");
                     let cite = {volume, page, year, caseTitle, oldCite, usCite, line};
                     if (!locCites[usCite]) locCites[usCite] = [];
                     locCites[usCite].push(cite);
@@ -1462,7 +1462,7 @@ function buildCitations(done)
     else {
         let rowsLOC = parseCSV(csvLOC);
         rowsLOC.forEach((cite) => {
-            cite.row = sprintf('%d,%d,%d,%d,%d,"%s","%s","%s"\n', cite.volume, cite.page, cite.year, cite.pageURL, cite.pagePDF, cite.caseTitle.replace(/"/g, '""'), cite.oldCite, cite.usCite);
+            cite.row = sprintf('%d,%d,%d,%d,%d,"%s","%s","%s",%d,"%s","%s"\n', cite.volume, cite.page, cite.year, cite.pageURL, cite.pagePDF, cite.caseTitle.replace(/"/g, '""'), cite.oldCite, cite.usCite, cite.pageTotal, cite.subject.replace(/"/g, '""'), cite.keywords.replace(/"/g, '""'));
             let usCite = cite.usCite;
             let volume = cite.volume;
             if (!locCites[usCite]) locCites[usCite] = [];
@@ -2099,6 +2099,9 @@ function sortVotesBySeniority(votes, date, vars, courts, justices)
  * The "--text" option allows you to search for strings in the caseName variable.  It can be repeated on the command-line
  * if you want to perform multiple "AND" searches.
  *
+ * The "--caseTitle" option provides for exact caseTitle matches; in addition, "--caseTitle=""" will match any case
+ * without a caseTitle.
+ *
  * Finally, "--minVotes" (eg, "--minVotes=1") allows you to perform a search that's the equivalent of the "lonerDecisions"
  * task, but without all the implied per-term search results.
  *
@@ -2120,6 +2123,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let month = argv['month'] && sprintf("-%02d-", +argv['month']) || "";
     let selectedCourt = argv['naturalCourt'] || 0;
     let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%s U.S. %s", volume, page);
+    let caseTitle = argv['caseTitle'];
     if (argv['minVotes']) minVotes = +argv['minVotes'];
 
     let text = argv['text'] || "";
@@ -2178,21 +2182,23 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
         let results = [];
         decisions.forEach((decision) => {
             if (!caseId || decision.caseId == caseId) {
-                if (!minVotes || decision.minVotes == minVotes) {
-                    if (!decided || decision.dateDecision.indexOf(decided) == 0) {
-                        if (!selectedCourt || decision.naturalCourt == selectedCourt) {
-                            if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
-                                if (!month || decision.dateDecision.indexOf(month) > 0) {
-                                    if (!volume || !page && decision.usCite.indexOf(usCite) == 0 || volume && page && decision.usCite == usCite) {
-                                        if (!text || findText(decision.caseName)) {
-                                            let datePrint = decision.dateDecision;
-                                            if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
-                                                printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
-                                                results.push(decision);
-                                                if (decisionsAudited.indexOf(decision.caseId) < 0) {
-                                                    decisionsAudited.push(decision.caseId);
-                                                } else {
-                                                    decisionsDuplicated.push(decision.caseId);
+                if (caseTitle === undefined || !caseTitle && !decision.caseTitle || caseTitle == decision.caseTitle) {
+                    if (!minVotes || decision.minVotes == minVotes) {
+                        if (!decided || decision.dateDecision.indexOf(decided) == 0) {
+                            if (!selectedCourt || decision.naturalCourt == selectedCourt) {
+                                if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
+                                    if (!month || decision.dateDecision.indexOf(month) > 0) {
+                                        if (!volume || !page && decision.usCite.indexOf(usCite) == 0 || volume && page && decision.usCite == usCite) {
+                                            if (!text || findText(decision.caseName)) {
+                                                let datePrint = decision.dateDecision;
+                                                if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
+                                                    printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
+                                                    results.push(decision);
+                                                    if (decisionsAudited.indexOf(decision.caseId) < 0) {
+                                                        decisionsAudited.push(decision.caseId);
+                                                    } else {
+                                                        decisionsDuplicated.push(decision.caseId);
+                                                    }
                                                 }
                                             }
                                         }
@@ -2452,7 +2458,7 @@ function fixDecisions(done)
     // let courts = JSON.parse(readFile(results.json.courts) || "[]");
     // let justices = JSON.parse(readFile(results.json.justices) || "[]");
 
-    let fixDates = false;
+    let fixDates = false, fixed = 0;
     let citesScotus = {}, citations = [];
     let citesLabs = {}, decisionsLabs = [];
     let courtsSCDB = [], decisionsScotus = {};
@@ -2466,26 +2472,27 @@ function fixDecisions(done)
                 citesScotus[citation.usCite].push(citation);
             }
         }
+        /*
+         * NOTE: By merging LOC and Justia data with SCOTUS data, the only fields we can rely on are:
+         *
+         *      volume, page, caseTitle, usCite
+         */
         let citationsLOC = readCSV(results.csv.citationsLOC, "html");
         for (let i = 0; i < citationsLOC.length; i++) {
             let citation = citationsLOC[i];
             if (citation.volume) {
-                if (!citesScotus[citation.usCite]) {
-                    citesScotus[citation.usCite] = [];
-                    citesScotus[citation.usCite].push(citation);
-                }
+                if (!citesScotus[citation.usCite]) citesScotus[citation.usCite] = [];
+                citesScotus[citation.usCite].push(citation);
             }
         }
         let citationsJustia = readCSV(results.csv.citationsJustia, "html");
-        for (let i = 0; i < citationsJustia.length; i++) {
-            let citation = citationsJustia[i];
-            if (citation.volume) {
-                if (!citesScotus[citation.usCite]) {
-                    citesScotus[citation.usCite] = [];
-                    citesScotus[citation.usCite].push(citation);
-                }
-            }
-        }
+        // for (let i = 0; i < citationsJustia.length; i++) {
+        //     let citation = citationsJustia[i];
+        //     if (citation.volume) {
+        //         if (!citesScotus[citation.usCite]) citesScotus[citation.usCite] = [];
+        //         citesScotus[citation.usCite].push(citation);
+        //     }
+        // }
     }
     if (argv['courts']) {
         courtsSCDB = readSCDBCourts();
@@ -2522,8 +2529,16 @@ function fixDecisions(done)
         if (decision.usCite) {
             if (citations.length) {
                 /*
-                 * The "--citations" option must have been specified....
+                 * The "--citations" option must have been specified.  Moreover, if "--fixed" was also specified, then all
+                 * we want to see is a list of what's already been fixed.
                  */
+                if (decision.caseTitle) {
+                    if (argv['fixed']) {
+                        printf("'%s' == '%s' (%s)\n", decision.caseTitle, decision.caseName, decision.usCite);
+                        fixed++;
+                    }
+                    return;
+                }
                 let cites = citesScotus[decision.usCite];
                 if (cites) {
                     i = 0;
@@ -2532,7 +2547,7 @@ function fixDecisions(done)
                         let cite = cites[i++];
                         if (cites.length == 1) {
                             citeBest = cite;
-                            scoreBest = 100;
+                            scoreBest = 200;
                             break;
                         }
                         let score = scoreStrings(decision.caseName, cite.caseTitle);
@@ -2542,10 +2557,11 @@ function fixDecisions(done)
                         }
                     }
                     if (scoreBest >= 50) {
+                        printf("update %s: '%s' == '%s' (%d)\n", decision.usCite, citeBest.caseTitle, decision.caseName, scoreBest);
                         decision.caseTitle = citeBest.caseTitle;
                         changes++;
                     } else {
-                        printf("compare %s: decision caseName '%s' to citation caseTitle '%s' (%d)\n", decision.usCite, decision.caseName, citeBest.caseTitle, scoreBest);
+                        printf("check  %s: '%s' == '%s' (%d)\n", decision.usCite, citeBest.caseTitle, decision.caseName, scoreBest);
                     }
                 }
             }
@@ -2646,7 +2662,7 @@ function fixDecisions(done)
     if (argv['citations']) {
         decisions.forEach((decision) => {
             if (decision.usCite && !decision.caseTitle) {
-                printf("warning: %s (%s) has no SCOTUS citation entry\n", decision.caseName, decision.usCite, decision.dateDecision);
+                printf("warning: %s (%s) has no matched citation entry\n", decision.caseName, decision.usCite, decision.dateDecision);
                 unknownCitations = addCSV(unknownCitations, decision, ["usCite", "caseName", "dateDecision"]);
                 warnings++;
             }
@@ -2673,6 +2689,7 @@ function fixDecisions(done)
         writeFile(results.json.decisions, decisions);
     }
 
+    if (fixed) printf("fixed: %d\n", fixed);
     if (warnings) printf("warnings: %d\n", warnings);
 
     done();
