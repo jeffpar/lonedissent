@@ -2928,7 +2928,7 @@ function updateLOC(done)
                 let page = +match[5];
                 let subject = match[6];
                 let keywords = match[7];
-                let pageTotal = match[8];
+                let pageTotal = +match[8];
                 let phrases = keywords.toLowerCase().split("; ");
                 removeValues(phrases, ["law", "law library", "supreme court", "united states", "government documents", "u.s. reports", "common law", "judicial review and appeals", "court opinions", "judicial decisions", "court cases", "court decisions"]);
                 keywords = phrases.join("; ");
@@ -2944,17 +2944,32 @@ function updateLOC(done)
                 let o = {volume, page, caseTitle};
                 let i = searchCSV(rowsLOC, o);
                 if (i < 0) {
-                    let i = searchCSV(rowsMisc, o);
+                    i = searchCSV(rowsMisc, o);
                     if (i < 0) {
                         printf('warning: unable to find "%s","%d U.S. %d" (see %03dus%03d.pdf)\n', caseTitle, volume, page, volumePDF, pagePDF);
                         warnings++;
                     }
-                } else {
+                }
+                if (i >= 0) {
                     o = rowsLOC[i];
                     o.pageTotal = pageTotal;
                     o.subject = subject;
                     o.keywords = keywords;
                     updates++;
+                    /*
+                     * Look for neighboring entries with matching volume and page that should be updated as well, first backwards then forwards.
+                     */
+                    for (let direction = -1; direction <= 1; direction += 2) {
+                        for (let j = i + direction; j > 0 && j < rowsLOC.length; j += direction) {
+                            let row = rowsLOC[j];
+                            if (row.volume != volume || row.page != page) break;
+                            if (!row.pageTotal) {
+                                row.pageTotal = pageTotal;
+                                row.subject = row.keywords = "";        // it's unclear whether the subject and/or keywords have any applicability to other cases on the same page....
+                                updates++;
+                            }
+                        }
+                    }
                 }
             }
             if (updates) {
