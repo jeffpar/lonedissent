@@ -2468,6 +2468,7 @@ function fixDecisions(done)
         for (let i = 0; i < citations.length; i++) {
             let citation = citations[i];
             if (citation.volume) {
+                citation.usCite = citation.usCite.replace("Appx. ", "");
                 if (!citesScotus[citation.usCite]) citesScotus[citation.usCite] = [];
                 citesScotus[citation.usCite].push(citation);
             }
