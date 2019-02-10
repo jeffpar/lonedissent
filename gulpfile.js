@@ -2105,8 +2105,6 @@ function sortVotesBySeniority(votes, date, vars, courts, justices)
  * Finally, "--minVotes" (eg, "--minVotes=1") allows you to perform a search that's the equivalent of the "lonerDecisions"
  * task, but without all the implied per-term search results.
  *
- * NOTE: You must now specify the "--build" option to generate site files.
- *
  * @param {function()} done
  * @param {number} [minVotes] (0 or undefined for no minimum vote requirement)
  * @param {string} [sTerm]
@@ -2153,7 +2151,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let lonerBackup = JSON.parse(readFile(_data.lonerBackup) || "[]");
 
     let dataFile = minVotes == 1? _data.lonerDecisions : _data.allDecisions;
-    let data = JSON.parse(readFile(dataFile) || "[]");
+    let data = JSON.parse(!argv['overwrite'] && readFile(dataFile) || "[]");
     let vars = JSON.parse(readFile(sources.scdb.vars) || "{}");
     let courts = JSON.parse(readFile(results.json.courts) || "[]");
     let justices = JSON.parse(readFile(results.json.justices) || "[]");
@@ -2192,7 +2190,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                                             if (!text || findText(decision.caseName)) {
                                                 let datePrint = decision.dateDecision;
                                                 if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
-                                                    printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
+                                                    printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseTitle || decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
                                                     results.push(decision);
                                                     if (decisionsAudited.indexOf(decision.caseId) < 0) {
                                                         decisionsAudited.push(decision.caseId);
@@ -2315,7 +2313,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             if (additions) {
                 writeFile(dataFile, data);
             }
-            if (argv['build'] && term) {
+            if (term) {
                 /*
                  * Create a page for each term of decisions that doesn't already have one (eg, _pages/cases/loners/yyyy-mm.md)
                  */
@@ -2334,7 +2332,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     }
                     fileText += '  - id: "' + result.caseId + '"\n';
                     fileText += '    termId: "' + result.termId + '"\n';
-                    fileText += '    title: "' + result.caseName + '"\n';
+                    fileText += '    title: "' + (result.caseTitle || result.caseName) + '"\n';
                     /*
                      * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
                      * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
@@ -2439,6 +2437,227 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 
     if (warnings) printf("warnings: %d\n", warnings);
 
+    done();
+}
+
+/**
+ * findLonerDecisions()
+ *
+ * @param {function()} done
+ */
+function findLonerDecisions(done)
+{
+    findDecisions(done, 1, '1790-02', '2017-10');
+}
+
+/**
+ * findAllDecisions()
+ *
+ * @param {function()} done
+ */
+function findAllDecisions(done)
+{
+    findDecisions(done, 0, '1790-02', '2017-10');
+}
+
+/**
+ * findJustices()
+ *
+ * @param {function()} done
+ * @param {number} [minVotes] (0 or undefined for no minimum vote requirement)
+ */
+function findJustices(done, minVotes)
+{
+    /*
+     * If we've already built lonerJustices.json, then use it; otherwiser, build it.
+     */
+    let lonerBackup = JSON.parse(readFile(_data.lonerBackup) || "[]");
+    let dataFile = minVotes == 1? _data.lonerJustices : _data.allJustices;
+    let data = JSON.parse(!argv['overwrite'] && readFile(dataFile) || "[]");
+    if (!data.length) {
+        let dataBuckets = {};
+        let vars = JSON.parse(readFile(sources.scdb.vars));
+        let justices = JSON.parse(readFile(results.json.justices));
+        justices.forEach((justice) => {
+            if (justice.scdbJustice) {
+                let id = vars.justice.values[justice.scdbJustice];
+                if (id == "CEHughes2") id = "CEHughes1";
+                if (id) {
+                    justice.scdbJustice = id;
+                    if (!dataBuckets[justice.scdbJustice]) {
+                        dataBuckets[justice.scdbJustice] = [];
+                    } else {
+                        printf("warning: SCDB justice ID %s listed multiple times\n", id);
+                    }
+                } else {
+                    printf("warning: SCDB justice index %d has no SCDB justice ID\n", justice.scdbJustice);
+                }
+            } else {
+                printf("warning: justice %s has no SCDB justice index\n", justice.id);
+            }
+        });
+        let dataDecisions = JSON.parse(readFile(minVotes == 1? _data.lonerDecisions : _data.allDecisions));
+        dataDecisions.forEach((decision) => {
+            let justiceId = minVotes == 1? decision.dissenterId : decision.majOpinWriter;
+            if (justiceId == "none") return;
+            if (justiceId == "CEHughes2") justiceId = "CEHughes1";
+            if (justiceId) {
+                if (dataBuckets[justiceId]) {
+                    dataBuckets[justiceId].push(decision);
+                } else {
+                    printf("warning: unable to find justice ID %s\n", justiceId);
+                }
+            }
+        });
+        let idsJustice = Object.keys(dataBuckets);
+        idsJustice.forEach((id) => {
+            if (minVotes == 1) {
+                data.push({
+                    id: getJusticeId(id),
+                    name: vars.justiceName.values[id],
+                    loneTotal: dataBuckets[id].length,
+                    loneDissents: dataBuckets[id],
+                });
+            } else {
+                data.push({
+                    id: getJusticeId(id),
+                    name: vars.justiceName.values[id],
+                    majorityTotal: dataBuckets[id].length,
+                    majorityOpinions: dataBuckets[id],
+                });
+
+            }
+        });
+        data.sort(function(a, b) {
+            if (minVotes == 1) {
+                return (a.loneTotal < b.loneTotal)? 1 : ((a.loneTotal > b.loneTotal)? -1 : 0);
+            } else {
+                return (a.majorityTotal < b.majorityTotal)? 1 : ((a.majorityTotal > b.majorityTotal)? -1 : 0);
+            }
+        });
+        writeFile(dataFile, data);
+    }
+    let index = "";
+    let category = minVotes == 1? "loners" : "all";
+    let type = minVotes == 1? "lone dissent" : "opinion";
+    let description = minVotes == 1? "Lone Dissents" : "Majority Opinions";
+    data.forEach((justice) => {
+        let total = (minVotes == 1? justice.loneTotal : justice.majorityTotal);
+        printf("%s: %d %s%s\n", justice.name, total, type, total == 1? '' : 's');
+        /*
+        * Create a page for each Justice's lone dissents.
+        */
+        let pageName = sprintf("Justice %s's %s", justice.name, description);
+        let pathName = "/justices/" + category + "/" + justice.id;
+        let fileName = "/_pages" + pathName + ".md";
+        let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: cases\n';
+        text += 'cases:\n';
+        let opinions = minVotes == 1? justice.loneDissents : justice.majorityOpinions;
+        opinions.forEach((opinion) => {
+            let volume = 0, page = 0;
+            let matchCite = opinion.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
+            if (matchCite) {
+                volume = +matchCite[1];  page = +matchCite[2];
+            }
+            let b = scanObjects(lonerBackup, "caseId", opinion.caseId);
+            if (b >= 0) {
+                let backup = lonerBackup[b];
+                if (backup['caseNotes']) opinion['caseNotes'] = backup['caseNotes'];
+                if (backup['pdfSource']) opinion['pdfSource'] = backup['pdfSource'];
+                if (backup['pdfPage']) opinion['pdfPage'] = backup['pdfPage'];
+                if (backup['pdfPageDissent']) opinion['pdfPageDissent'] = backup['pdfPageDissent'];
+            }
+            text += '  - id: "' + opinion.caseId + '"\n';
+            text += '    termId: "' + opinion.termId + '"\n';
+            text += '    title: "' + (opinion.caseTitle || opinion.caseName) + '"\n';
+            if (volume) text += sprintf('    volume: "%03d"\n', volume);
+            if (page) text += sprintf('    page: "%03d"\n' , page);
+            if (opinion.pdfSource) text += '    pdfSource: "' + opinion.pdfSource + '"\n';
+            if (opinion.pdfPage) text += '    pdfPage: ' + opinion.pdfPage + '\n';
+            if (opinion.pdfPageDissent) text += '    pdfPageDissent: ' + opinion.pdfPageDissent + '\n';
+            text += '    dateDecision: "' + sprintf("%#C", opinion.dateDecision) + '"\n';
+            text += '    citation: "' + (opinion.usCite || ('No. ' + opinion.docket)) + '"\n';
+            if (minVotes == 1) {
+                text += '    dissenterId: ' + justice.id + '\n';
+                text += '    dissenterName: "' + justice.name + '"\n';
+            } else {
+                text += '    authorId: ' + justice.id + '\n';
+                text += '    authorName: "' + justice.name + '"\n';
+            }
+        });
+        text += '---\n';
+        writeFile(fileName, text, argv['overwrite'], true);
+        index += sprintf("- [%s](/justices/%s/%s) (%d %s%s)\n", justice.name, category, justice.id, total, type, total == 1? '' : 's');
+    });
+    /*
+     * And finally, build an index of all Justices with their opinions.
+     */
+    if (index) {
+        let pathName = "/justices/" + category;
+        let fileName = "/_pages" + pathName + ".md";
+        index = '---\ntitle: "U.S. Supreme Court Justices with ' + description + '"\npermalink: ' + pathName + '\nlayout: archive\n---\n\n' + index;
+        writeFile(fileName, index);
+    }
+    done();
+}
+
+/**
+ * findLonerJustices()
+ *
+ * @param {function()} done
+ */
+function findLonerJustices(done)
+{
+    findJustices(done, 1);
+}
+
+/**
+ * findAllJustices()
+ *
+ * @param {function()} done
+ */
+function findAllJustices(done)
+{
+    findJustices(done, 0);
+}
+
+/**
+ * findLonersMatching()
+ *
+ * @param {function()} done
+ */
+function findLonersMatching(done)
+{
+    let dateBuckets = {};
+    let lonerJustices = JSON.parse(readFile(_data.lonerJustices) || "[]");
+    lonerJustices.forEach((justice) => {
+        justice.loneDissents.forEach((dissent) => {
+            if (!dateBuckets[dissent.dateDecision]) {
+                dateBuckets[dissent.dateDecision] = [];
+            }
+            dateBuckets[dissent.dateDecision].push(dissent);
+        });
+    });
+
+    let pageName = sprintf("Loner Parties");
+    let pathName = "/trivia/parties";
+    let fileName = "/_pages" + pathName + ".md";
+    let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: archive\n---\n';
+
+    let dates = Object.keys(dateBuckets);
+    dates.sort();
+    dates.forEach((date) => {
+        let bucket = dateBuckets[date];
+        if (bucket.length > 1) {
+            printf("date %s had %d lone dissents\n", date, bucket.length);
+            text += sprintf("\n## %#C\n\n", date);
+            bucket.forEach((dissent) => {
+                text += '- [' + dissent.caseName + '](/cases/loners/' + dissent.termId + '#' + dissent.caseId + '): Dissent by [' + dissent.dissenterName + '](/justices/loners/' + getJusticeId(dissent.dissenterId) + '#' + dissent.caseId + ')\n';
+            });
+        }
+
+    });
+    writeFile(fileName, text);
     done();
 }
 
@@ -2747,222 +2966,6 @@ function fixDecisions(done)
     if (fixed) printf("fixed: %d\n", fixed);
     if (warnings) printf("warnings: %d\n", warnings);
 
-    done();
-}
-
-/**
- * findLonerDecisions()
- *
- * @param {function()} done
- */
-function findLonerDecisions(done)
-{
-    findDecisions(done, 1, '1790-02', '2017-10');
-}
-
-/**
- * findAllDecisions()
- *
- * @param {function()} done
- */
-function findAllDecisions(done)
-{
-    findDecisions(done, 0, '1790-02', '2017-10');
-}
-
-/**
- * findJustices()
- *
- * NOTE: You must now specify the "--build" option to generate site files.
- *
- * @param {function()} done
- * @param {number} [minVotes] (0 or undefined for no minimum vote requirement)
- */
-function findJustices(done, minVotes)
-{
-    /*
-     * If we've already built lonerJustices.json, then use it; otherwiser, build it.
-     */
-    let dataFile = minVotes == 1? _data.lonerJustices : _data.allJustices;
-    let data = JSON.parse(readFile(dataFile) || "[]");
-    if (!data.length) {
-        let dataBuckets = {};
-        let vars = JSON.parse(readFile(sources.scdb.vars));
-        let justices = JSON.parse(readFile(results.json.justices));
-        justices.forEach((justice) => {
-            if (justice.scdbJustice) {
-                let id = vars.justice.values[justice.scdbJustice];
-                if (id == "CEHughes2") id = "CEHughes1";
-                if (id) {
-                    justice.scdbJustice = id;
-                    if (!dataBuckets[justice.scdbJustice]) {
-                        dataBuckets[justice.scdbJustice] = [];
-                    } else {
-                        printf("warning: SCDB justice ID %s listed multiple times\n", id);
-                    }
-                } else {
-                    printf("warning: SCDB justice index %d has no SCDB justice ID\n", justice.scdbJustice);
-                }
-            } else {
-                printf("warning: justice %s has no SCDB justice index\n", justice.id);
-            }
-        });
-        let dataDecisions = JSON.parse(readFile(minVotes == 1? _data.lonerDecisions : _data.allDecisions));
-        dataDecisions.forEach((decision) => {
-            let justiceId = minVotes == 1? decision.dissenterId : decision.majOpinWriter;
-            if (justiceId == "none") return;
-            if (justiceId == "CEHughes2") justiceId = "CEHughes1";
-            if (justiceId) {
-                if (dataBuckets[justiceId]) {
-                    dataBuckets[justiceId].push(decision);
-                } else {
-                    printf("warning: unable to find justice ID %s\n", justiceId);
-                }
-            }
-        });
-        let idsJustice = Object.keys(dataBuckets);
-        idsJustice.forEach((id) => {
-            if (minVotes == 1) {
-                data.push({
-                    id: getJusticeId(id),
-                    name: vars.justiceName.values[id],
-                    loneTotal: dataBuckets[id].length,
-                    loneDissents: dataBuckets[id],
-                });
-            } else {
-                data.push({
-                    id: getJusticeId(id),
-                    name: vars.justiceName.values[id],
-                    majorityTotal: dataBuckets[id].length,
-                    majorityOpinions: dataBuckets[id],
-                });
-
-            }
-        });
-        data.sort(function(a, b) {
-            if (minVotes == 1) {
-                return (a.loneTotal < b.loneTotal)? 1 : ((a.loneTotal > b.loneTotal)? -1 : 0);
-            } else {
-                return (a.majorityTotal < b.majorityTotal)? 1 : ((a.majorityTotal > b.majorityTotal)? -1 : 0);
-            }
-        });
-        writeFile(dataFile, data);
-    }
-    let index = "";
-    let category = minVotes == 1? "loners" : "all";
-    let type = minVotes == 1? "lone dissent" : "opinion";
-    let description = minVotes == 1? "Lone Dissents" : "Majority Opinions";
-    data.forEach((justice) => {
-        let total = (minVotes == 1? justice.loneTotal : justice.majorityTotal);
-        printf("%s: %d %s%s\n", justice.name, total, type, total == 1? '' : 's');
-        if (argv['build']) {
-            /*
-            * Create a page for each Justice's lone dissents.
-            */
-            let pageName = sprintf("Justice %s's %s", justice.name, description);
-            let pathName = "/justices/" + category + "/" + justice.id;
-            let fileName = "/_pages" + pathName + ".md";
-            let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: cases\n';
-            text += 'cases:\n';
-            let opinions = minVotes == 1? justice.loneDissents : justice.majorityOpinions;
-            opinions.forEach((opinion) => {
-                let volume = 0, page = 0;
-                let matchCite = opinion.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
-                if (matchCite) {
-                    volume = +matchCite[1];  page = +matchCite[2];
-                }
-                text += '  - id: "' + opinion.caseId + '"\n';
-                text += '    termId: "' + opinion.termId + '"\n';
-                text += '    title: "' + opinion.caseName + '"\n';
-                if (volume) text += sprintf('    volume: "%03d"\n', volume);
-                if (page) text += sprintf('    page: "%03d"\n' , page);
-                if (opinion.pdfSource) text += '    pdfSource: "' + opinion.pdfSource + '"\n';
-                if (opinion.pdfPage) text += '    pdfPage: ' + opinion.pdfPage + '\n';
-                if (opinion.pdfPageopinion) text += '    pdfPageopinion: ' + opinion.pdfPageopinion + '\n';
-                text += '    dateDecision: "' + sprintf("%#C", opinion.dateDecision) + '"\n';
-                text += '    citation: "' + (opinion.usCite || ('No. ' + opinion.docket)) + '"\n';
-                if (minVotes == 1) {
-                    text += '    dissenterId: ' + justice.id + '\n';
-                    text += '    dissenterName: "' + justice.name + '"\n';
-                } else {
-                    text += '    authorId: ' + justice.id + '\n';
-                    text += '    authorName: "' + justice.name + '"\n';
-                }
-            });
-            text += '---\n';
-            writeFile(fileName, text, argv['overwrite'], true);
-            index += sprintf("- [%s](/justices/%s/%s) (%d %s%s)\n", justice.name, category, justice.id, total, type, total == 1? '' : 's');
-        }
-    });
-    /*
-     * And finally, build an index of all Justices with their opinions.
-     */
-    if (index) {
-        let pathName = "/justices/" + category;
-        let fileName = "/_pages" + pathName + ".md";
-        index = '---\ntitle: "U.S. Supreme Court Justices with ' + description + '"\npermalink: ' + pathName + '\nlayout: archive\n---\n\n' + index;
-        writeFile(fileName, index);
-    }
-    done();
-}
-
-/**
- * findLonerJustices()
- *
- * @param {function()} done
- */
-function findLonerJustices(done)
-{
-    findJustices(done, 1);
-}
-
-/**
- * findAllJustices()
- *
- * @param {function()} done
- */
-function findAllJustices(done)
-{
-    findJustices(done, 0);
-}
-
-/**
- * findLonersMatching()
- *
- * @param {function()} done
- */
-function findLonersMatching(done)
-{
-    let dateBuckets = {};
-    let lonerJustices = JSON.parse(readFile(_data.lonerJustices) || "[]");
-    lonerJustices.forEach((justice) => {
-        justice.loneDissents.forEach((dissent) => {
-            if (!dateBuckets[dissent.dateDecision]) {
-                dateBuckets[dissent.dateDecision] = [];
-            }
-            dateBuckets[dissent.dateDecision].push(dissent);
-        });
-    });
-
-    let pageName = sprintf("Loner Parties");
-    let pathName = "/trivia/parties";
-    let fileName = "/_pages" + pathName + ".md";
-    let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: archive\n---\n';
-
-    let dates = Object.keys(dateBuckets);
-    dates.sort();
-    dates.forEach((date) => {
-        let bucket = dateBuckets[date];
-        if (bucket.length > 1) {
-            printf("date %s had %d lone dissents\n", date, bucket.length);
-            text += sprintf("\n## %#C\n\n", date);
-            bucket.forEach((dissent) => {
-                text += '- [' + dissent.caseName + '](/cases/loners/' + dissent.termId + '#' + dissent.caseId + '): Dissent by [' + dissent.dissenterName + '](/justices/loners/' + getJusticeId(dissent.dissenterId) + '#' + dissent.caseId + ')\n';
-            });
-        }
-
-    });
-    writeFile(fileName, text);
     done();
 }
 

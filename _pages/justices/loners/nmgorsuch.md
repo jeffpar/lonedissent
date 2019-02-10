@@ -10,6 +10,6 @@ cases:
     pdfPageDissent: 18
     dateDecision: "Monday, June 11, 2018"
     citation: "No. 16-1432"
-    dissenterId: "nmgorsuch"
+    dissenterId: nmgorsuch
     dissenterName: "Neil Gorsuch"
 ---

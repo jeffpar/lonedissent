@@ -5,27 +5,27 @@ layout: cases
 cases:
   - id: "2000-012"
     termId: "2000-10"
-    title: "DAVID A. GITLITZ, ET UX., et al. v. COMMISSIONER OF INTERNAL REVENUE"
+    title: "Gitlitz v. Commissioner"
     volume: "531"
     page: "206"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 2001"
     citation: "531 U.S. 206"
-    dissenterId: "sgbreyer"
+    dissenterId: sgbreyer
     dissenterName: "Stephen Breyer"
   - id: "2002-018"
     termId: "2002-10"
-    title: "FEDERAL COMMUNICATIONS COMMISSION v. NEXTWAVE PERSONAL COMMUNICATIONS INC. et al."
+    title: "FCC v. NextWave Personal Communications Inc."
     volume: "537"
     page: "293"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 2003"
     citation: "537 U.S. 293"
-    dissenterId: "sgbreyer"
+    dissenterId: sgbreyer
     dissenterName: "Stephen Breyer"
   - id: "2003-078"
     termId: "2003-10"
-    title: "INTEL CORPORATION v. ADVANCED MICRO DEVICES, INC."
+    title: "Intel Corp. v. Advanced Micro Devices, Inc."
     volume: "542"
     page: "241"
     pdfSource: "loc"
@@ -33,27 +33,27 @@ cases:
     pdfPageDissent: 74
     dateDecision: "Monday, June 21, 2004"
     citation: "542 U.S. 241"
-    dissenterId: "sgbreyer"
+    dissenterId: sgbreyer
     dissenterName: "Stephen Breyer"
   - id: "2007-037"
     termId: "2007-10"
-    title: "UNITED STATES v. AHMED RESSAM"
+    title: "United States v. Ressam"
     volume: "553"
     page: "272"
     pdfSource: "scotusBound"
     dateDecision: "Monday, May 19, 2008"
     citation: "553 U.S. 272"
-    dissenterId: "sgbreyer"
+    dissenterId: sgbreyer
     dissenterName: "Stephen Breyer"
   - id: "2010-026"
     termId: "2010-10"
-    title: "GLEN SCOTT MILNER, PETITIONER v. DEPARTMENT OF THE NAVY"
+    title: "Milner v. Department of Navy"
     volume: "562"
     page: "562"
     pdfSource: "scotusBound"
     dateDecision: "Monday, March 7, 2011"
     citation: "562 U.S. 562"
-    dissenterId: "sgbreyer"
+    dissenterId: sgbreyer
     dissenterName: "Stephen Breyer"
   - id: "2011-037"
     termId: "2011-10"
@@ -61,7 +61,7 @@ cases:
     pdfSource: "scotusBound"
     dateDecision: "Monday, March 26, 2012"
     citation: "No. 10-699"
-    dissenterId: "sgbreyer"
+    dissenterId: sgbreyer
     dissenterName: "Stephen Breyer"
   - id: "2016-009"
     termId: "2016-10"
@@ -70,7 +70,7 @@ cases:
     pdfPageDissent: 20
     dateDecision: "Tuesday, March 21, 2017"
     citation: "No. 15-927"
-    dissenterId: "sgbreyer"
+    dissenterId: sgbreyer
     dissenterName: "Stephen Breyer"
   - id: "2017-079"
     termId: "2017-10"
@@ -79,6 +79,6 @@ cases:
     pdfPageDissent: 8
     dateDecision: "Thursday, June 28, 2018"
     citation: "No. 17-1106"
-    dissenterId: "sgbreyer"
+    dissenterId: sgbreyer
     dissenterName: "Stephen Breyer"
 ---

@@ -5,12 +5,12 @@ layout: cases
 cases:
   - id: "1924-151"
     termId: "1924-10"
-    title: "TOYOTA v. UNITED STATES"
+    title: "Toyota v. United States"
     volume: "268"
     page: "402"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1925"
     citation: "268 U.S. 402"
-    dissenterId: "whtaft"
+    dissenterId: whtaft
     dissenterName: "William Taft"
 ---

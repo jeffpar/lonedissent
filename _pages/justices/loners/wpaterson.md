@@ -5,12 +5,12 @@ layout: cases
 cases:
   - id: "1806-010"
     termId: "1806-02"
-    title: "SIMMS AND WISE v. SLACUM"
+    title: "Simms v. Slacum"
     volume: "007"
     page: "300"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1806"
     citation: "7 U.S. 300"
-    dissenterId: "wpaterson"
+    dissenterId: wpaterson
     dissenterName: "William Paterson"
 ---

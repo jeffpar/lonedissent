@@ -5,22 +5,22 @@ layout: cases
 cases:
   - id: "1873-059"
     termId: "1873-10"
-    title: "SAWYER v. HOAG, ASSIGNEE"
+    title: "Sawyer v. Hoag"
     volume: "084"
     page: "610"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1873"
     citation: "84 U.S. 610"
-    dissenterId: "whunt"
+    dissenterId: whunt
     dissenterName: "Ward Hunt"
   - id: "1877-123"
     termId: "1877-10"
-    title: "PENNOYER v. NEFF"
+    title: "Pennoyer v. Neff"
     volume: "095"
     page: "714"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1878"
     citation: "95 U.S. 714"
-    dissenterId: "whunt"
+    dissenterId: whunt
     dissenterName: "Ward Hunt"
 ---
