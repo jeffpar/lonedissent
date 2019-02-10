@@ -316,7 +316,7 @@ function scanObjects(a, key, value)
  * @param {function(*,*} [compare]
  * @param {number} [left]
  * @param {number} [right]
- * @return {number} the index of matching entry if non-negative, otherwise the index of the insertion point
+ * @return {number} the (positive) index of matching entry, or the (negative) index + 1 of the insertion point
  */
 function binarySearch(a, v, compare, left=0, right=a.length)
 {
@@ -2677,8 +2677,8 @@ function fixDecisions(done)
     // let courts = JSON.parse(readFile(results.json.courts) || "[]");
     // let justices = JSON.parse(readFile(results.json.justices) || "[]");
 
-    let fixDates = false, fixed = 0;
-    let citesScotus = {};
+    let fixDates = false;
+    let citesScotus = {}, citesLOC = {};
     let citations = [], citationsLOC = [];
     let citesLabs = {}, decisionsLabs = [];
     let courtsSCDB = [], decisionsScotus = {};
@@ -2702,11 +2702,13 @@ function fixDecisions(done)
         for (let i = 0; i < citationsLOC.length; i++) {
             let citation = citationsLOC[i];
             if (citation.volume) {
+                if (!citesLOC[citation.usCite]) citesLOC[citation.usCite] = [];
+                citesLOC[citation.usCite].push(citation);
                 if (!citesScotus[citation.usCite]) citesScotus[citation.usCite] = [];
                 citesScotus[citation.usCite].push(citation);
             }
         }
-        //
+
         // let citationsJustia = readCSV(results.csv.citationsJustia, "html");
         // for (let i = 0; i < citationsJustia.length; i++) {
         //     let citation = citationsJustia[i];
@@ -2715,7 +2717,6 @@ function fixDecisions(done)
         //         citesScotus[citation.usCite].push(citation);
         //     }
         // }
-        //
     }
     if (argv['courts']) {
         courtsSCDB = readSCDBCourts();
@@ -2759,42 +2760,24 @@ function fixDecisions(done)
         if (decision.usCite) {
             if (citations.length) {
                 /*
-                 * The "--citations" option must have been specified.  Moreover, if "--fixed" was also specified, then all
-                 * we want to see is a list of what's already been fixed.
+                 * The "--citations" option must have been specified.
                  */
                 let citePrev, citeBest, scoreBest = -1;
-                let cites = citesDecisions[decision.usCite];
-                if (argv['fixed']) {
-                    if (decision.caseTitle === "") {
-                        delete decision.caseTitle;
-                        changes++;
-                        return;
-                    }
-                    let recheck = false;
-                    if (decision.caseTitle) {
-                        if (cites.length > 1) {
-                            let score = scoreStrings(decision.caseName, decision.caseTitle);
-                            if (score < 50) {
-                                printf("recheck %s: '%s' == '%s' (%d)\n", decision.usCite, decision.caseTitle, decision.caseName, score);
-                                decision.caseTitle = "";
-                                recheck = true;
-                            }
-                        }
-                        if (!recheck) fixed++;
-                    }
-                    if (!recheck) return;
-                }
-                cites = citesScotus[decision.usCite];
+                let cites = citesScotus[decision.usCite];
                 if (cites) {
                     i = 0;
                     while (i < cites.length) {
                         let cite = cites[i++];
+                        let score = scoreStrings(decision.caseName, cite.caseTitle);
+                        if (argv['check'] && decision.caseTitle == cite.caseTitle && score < 10) {
+                            printf("warning %s: '%s' == '%s' (%d)\n", decision.usCite, decision.caseTitle, decision.caseName, score);
+                            warnings++;
+                        }
                         if (cites.length == 1 && citesDecisions[decision.usCite].length == 1) {
                             citeBest = cite;
                             scoreBest = 200;
                             break;
                         }
-                        let score = scoreStrings(decision.caseName, cite.caseTitle);
                         if (scoreBest < score) {
                             scoreBest = score;
                             citeBest = cite;
@@ -2817,10 +2800,7 @@ function fixDecisions(done)
                         } else if (i < 0) {
                             citePrev = citationsLOC[-i - 2];
                         }
-                        if (!citePrev) {
-                            printf("warning: searchCSV(%d,%d) returned %d\n", volume, page, -i);
-                        }
-                        else if (citePrev.volume == volume && citePrev.page + citePrev.pageTotal - 1 >= page) {
+                        if (citePrev && citePrev.volume == volume && citePrev.page + citePrev.pageTotal - 1 >= page) {
                             let score = scoreStrings(decision.caseName, citePrev.caseTitle);
                             if (scoreBest < score) {
                                 scoreBest = score;
@@ -2829,13 +2809,14 @@ function fixDecisions(done)
                         }
                     }
                 }
-                if (scoreBest >= 0) {
-                    if (scoreBest >= 50) {
+                if (scoreBest > 0 && !decision.caseTitle) {
+                    if (scoreBest < 75) {
+                        if (argv['debug']) printf("check   %s: '%s' == '%s' (%d)\n", decision.usCite, citeBest.caseTitle, decision.caseName, scoreBest);
+                    }
+                    else {
                         printf("update  %s: '%s'%s == '%s' (%d)\n", decision.usCite, citeBest.caseTitle, citePrev? (' (' + citeBest.usCite + ')') : "", decision.caseName, scoreBest);
                         decision.caseTitle = citeBest.caseTitle;
                         changes++;
-                    } else if (scoreBest > 0) {
-                        printf("check   %s: '%s' == '%s' (%d)\n", decision.usCite, citeBest.caseTitle, decision.caseName, scoreBest);
                     }
                 }
             }
@@ -2855,7 +2836,7 @@ function fixDecisions(done)
             let datesScotus = decisionsScotus[decision.usCite];
             if (datesScotus) {
                 /*
-                 * The "--dates" option must have been specified....
+                 * The "--dates" option must have been specified.
                  */
                 for (i = 0; i < datesScotus.length; i++) {
                     citeDate = datesScotus[i];
@@ -2960,10 +2941,10 @@ function fixDecisions(done)
     }
 
     if (changes) {
+        printf("changes: %d\n", changes);
         writeFile(results.json.decisions, decisions);
     }
 
-    if (fixed) printf("fixed: %d\n", fixed);
     if (warnings) printf("warnings: %d\n", warnings);
 
     done();
