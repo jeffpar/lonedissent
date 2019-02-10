@@ -2114,7 +2114,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 {
     let caseId = argv['case'] || "";
     let term = argv['term'] || sTerm, termId;
-    let end = argv['end'] || sEnd, endTerm;
+    let end = argv['end'] || argv['term'] || sEnd, endTerm;
     if (end) endTerm = getTermDate(end);
     let decided = argv['decided'], argued = argv['argued'];
     let start = argv['start'] || "", stop = argv['stop'] || "";
@@ -2219,8 +2219,17 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             vars['pdfSource'] = {"type": "string"};
             vars['pdfPage'] = {"type": "number"};
             vars['pdfPageDissent'] = {"type": "number"};
+            vars['volume'] = {"type": "number"};
+            vars['page'] = {"type": "number"};
             for (let r = 0; r < results.length; r++) {
                 let result = results[r]
+                let match = result.usCite.match(/([0-9]+) U.S. ([0-9]+)/);
+                if (match) {
+                    result.volume = +match[1];
+                    result.page = +match[2];
+                } else {
+                    result.volume = result.page = 0;
+                }
                 /*
                  * NOTE: Even if mapValues() returns an error (< 0), we now continue processing cases.
                  *
@@ -2314,6 +2323,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 writeFile(dataFile, data);
             }
             if (term) {
+                sortCSV(results, ["volume", "page", "caseTitle"]);
                 /*
                  * Create a page for each term of decisions that doesn't already have one (eg, _pages/cases/loners/yyyy-mm.md)
                  */
@@ -2813,7 +2823,7 @@ function fixDecisions(done)
                     if (scoreBest < 75) {
                         if (argv['debug']) printf("check   %s: '%s' == '%s' (%d)\n", decision.usCite, citeBest.caseTitle, decision.caseName, scoreBest);
                     }
-                    else {
+                    else if (decision.usCite != "103 U.S. 515n" && decision.usCite != "174 U.S. 718") {
                         printf("update  %s: '%s'%s == '%s' (%d)\n", decision.usCite, citeBest.caseTitle, citePrev? (' (' + citeBest.usCite + ')') : "", decision.caseName, scoreBest);
                         decision.caseTitle = citeBest.caseTitle;
                         changes++;
@@ -3008,10 +3018,13 @@ function updateLOC(done)
                 }
                 if (i >= 0) {
                     o = rowsLOC[i];
-                    o.pageTotal = pageTotal;
-                    o.subject = subject;
-                    o.keywords = keywords;
-                    updates++;
+                    if (!o.pageTotal) {
+                        printf('updating: "%s","%d U.S. %d" with %d pages\n', caseTitle, volume, page, pageTotal);
+                        o.pageTotal = pageTotal;
+                        o.subject = subject;
+                        o.keywords = keywords;
+                        updates++;
+                    }
                     /*
                      * Look for neighboring entries with matching volume and page that should be updated as well, first backwards then forwards.
                      */
@@ -3029,6 +3042,7 @@ function updateLOC(done)
                 }
             }
             if (updates) {
+                printf("updates: %d\n", updates);
                 writeCSV(results.csv.citationsLOC, rowsLOC);
             }
         }
@@ -3201,11 +3215,11 @@ gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
 gulp.task("fixDecisions", fixDecisions);
 gulp.task("allDecisions", findAllDecisions);
 gulp.task("allJustices", findAllJustices);
+gulp.task("all", gulp.series(findAllDecisions, findAllJustices));
 gulp.task("lonerDecisions", findLonerDecisions);
 gulp.task("lonerJustices", findLonerJustices);
 gulp.task("lonerParties", findLonerParties);
 gulp.task("loners", gulp.series(findLonerDecisions, findLonerJustices, findLonerParties));
-gulp.task("all", gulp.series(findAllDecisions, findAllJustices));
 gulp.task("updateLOC", updateLOC);
 gulp.task("backup", backupLonerDecisions);
 gulp.task("tests", gulp.series(testDates));
