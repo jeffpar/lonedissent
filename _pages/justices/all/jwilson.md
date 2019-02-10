@@ -5,7 +5,7 @@ layout: cases
 cases:
   - id: "1797-004"
     termId: "1797-02"
-    title: "BROWN VERSUS VAN BRAAM"
+    title: "Brown v. Van Braam"
     volume: "003"
     page: "344"
     pdfSource: "loc"

@@ -5,7 +5,7 @@ layout: cases
 cases:
   - id: "1803-018"
     termId: "1803-02"
-    title: "STUART v. LAIRD"
+    title: "Stuart v. Laird"
     volume: "005"
     page: "299"
     pdfSource: "loc"

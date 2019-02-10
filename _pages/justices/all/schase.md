@@ -5,7 +5,7 @@ layout: cases
 cases:
   - id: "1807-028"
     termId: "1808-02"
-    title: "BLAINE v. THE SHIP CHARLES CARTER, AND DONALD AND BURTON AND OTHERS, CLAIMANTS"
+    title: "Blaine v. Ship Charles Carter"
     volume: "008"
     page: "328"
     pdfSource: "loc"
