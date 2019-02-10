@@ -1787,20 +1787,20 @@ function scoreStrings(left, right)
     if (left != right) {
         score = 0;
         if (left && right) {
-            left = left.toLowerCase().replace(/&amp;/g, " and ").replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim();
-            right = right.toLowerCase().replace(/&amp;/g, " and ").replace(/[^a-z0-9]/g, ' ').replace(/\s+/g, ' ').trim();
+            left = left.toLowerCase().replace(/&amp;/g, " and ").replace(/(\s+|-)/g, ' ').replace(/[^a-z0-9 ]/g, '').trim();
+            right = right.toLowerCase().replace(/&amp;/g, " and ").replace(/(\s+|-)/g, ' ').replace(/[^a-z0-9 ]/g, '').trim();
             let matchesRight = 0, totalRight = 0;
             let wordsLeft = left.split(' ');
             let wordsRight = right.split(' ');
             for (let r = 0; r < wordsRight.length; r++) {
                 let wordRight = wordsRight[r];
-                if (!wordRight) continue;
+                if (!wordRight || wordRight.length <= 2) continue;
                 totalRight++;
                 for (let l = 0; l < wordsLeft.length; l++) {
                     let wordLeft = wordsLeft[l];
                     if (!wordLeft) continue;
                     if (wordLeft == "versus" || wordLeft == "vs") wordLeft = "v";
-                    if (wordLeft == "v") continue;
+                    if (wordLeft.length <= 2) continue;
                     if (wordRight == wordLeft) {
                         wordsLeft[l] = "";
                         matchesRight++;
@@ -1808,7 +1808,7 @@ function scoreStrings(left, right)
                     }
                 }
             }
-            if (matchesRight > 1) score = ((matchesRight / totalRight) * 100)|0;
+            if (matchesRight) score = ((matchesRight / totalRight) * 100)|0;
         }
     }
     // printf("\tscore for '%s' vs. '%s': %d\n", left, right, score);
@@ -2459,7 +2459,8 @@ function fixDecisions(done)
     // let justices = JSON.parse(readFile(results.json.justices) || "[]");
 
     let fixDates = false, fixed = 0;
-    let citesScotus = {}, citations = [];
+    let citesScotus = {};
+    let citations = [], citationsLOC = [];
     let citesLabs = {}, decisionsLabs = [];
     let courtsSCDB = [], decisionsScotus = {};
 
@@ -2478,7 +2479,7 @@ function fixDecisions(done)
          *
          *      volume, page, caseTitle, usCite
          */
-        let citationsLOC = readCSV(results.csv.citationsLOC, "html");
+        citationsLOC = readCSV(results.csv.citationsLOC, "html");
         for (let i = 0; i < citationsLOC.length; i++) {
             let citation = citationsLOC[i];
             if (citation.volume) {
@@ -2486,7 +2487,8 @@ function fixDecisions(done)
                 citesScotus[citation.usCite].push(citation);
             }
         }
-        let citationsJustia = readCSV(results.csv.citationsJustia, "html");
+        //
+        // let citationsJustia = readCSV(results.csv.citationsJustia, "html");
         // for (let i = 0; i < citationsJustia.length; i++) {
         //     let citation = citationsJustia[i];
         //     if (citation.volume) {
@@ -2494,6 +2496,7 @@ function fixDecisions(done)
         //         citesScotus[citation.usCite].push(citation);
         //     }
         // }
+        //
     }
     if (argv['courts']) {
         courtsSCDB = readSCDBCourts();
@@ -2513,8 +2516,15 @@ function fixDecisions(done)
         }
     }
 
-    let changes = 0;
+    let changes = 0, citesDecisions = {};
     let decisions = JSON.parse(readFile(results.json.decisions));
+    for (let i = 0; i < decisions.length; i++) {
+        let decision = decisions[i];
+        if (decision.usCite) {
+            if (!citesDecisions[decision.usCite]) citesDecisions[decision.usCite] = [];
+            citesDecisions[decision.usCite].push(decision);
+        }
+    }
     printf("decisions available: %d\n", decisions.length);
 
     let citesSCDB = {};
@@ -2533,20 +2543,34 @@ function fixDecisions(done)
                  * The "--citations" option must have been specified.  Moreover, if "--fixed" was also specified, then all
                  * we want to see is a list of what's already been fixed.
                  */
-                if (decision.caseTitle) {
-                    if (argv['fixed']) {
-                        printf("'%s' == '%s' (%s)\n", decision.caseTitle, decision.caseName, decision.usCite);
-                        fixed++;
+                let citePrev, citeBest, scoreBest = -1;
+                let cites = citesDecisions[decision.usCite];
+                if (argv['fixed']) {
+                    if (decision.caseTitle === "") {
+                        delete decision.caseTitle;
+                        changes++;
+                        return;
                     }
-                    return;
+                    let recheck = false;
+                    if (decision.caseTitle) {
+                        if (cites.length > 1) {
+                            let score = scoreStrings(decision.caseName, decision.caseTitle);
+                            if (score < 50) {
+                                printf("recheck %s: '%s' == '%s' (%d)\n", decision.usCite, decision.caseTitle, decision.caseName, score);
+                                decision.caseTitle = "";
+                                recheck = true;
+                            }
+                        }
+                        if (!recheck) fixed++;
+                    }
+                    if (!recheck) return;
                 }
-                let cites = citesScotus[decision.usCite];
+                cites = citesScotus[decision.usCite];
                 if (cites) {
                     i = 0;
-                    let citeBest, scoreBest = -1;
                     while (i < cites.length) {
                         let cite = cites[i++];
-                        if (cites.length == 1) {
+                        if (cites.length == 1 && citesDecisions[decision.usCite].length == 1) {
                             citeBest = cite;
                             scoreBest = 200;
                             break;
@@ -2557,12 +2581,42 @@ function fixDecisions(done)
                             citeBest = cite;
                         }
                     }
+                }
+                else {
+                    /*
+                     * One of the reasons for a missing LOC citation is that it was simply considered part of the opinion for a preceding citation.
+                     * To detect that, we must search citationsLOC for the current (volume,page), back up to the previous position, and see if that
+                     * entry's page + pageTotal spans the page of the missing citation.
+                     */
+                    let match = decision.usCite.match(/([0-9]+) U.S. ([0-9]+)/);
+                    if (match) {
+                        let volume = +match[1], page = +match[2];
+                        let tuple = {volume, page};
+                        let i = searchCSV(citationsLOC, tuple);
+                        if (i > 0) {
+                            citePrev = citationsLOC[i];
+                        } else if (i < 0) {
+                            citePrev = citationsLOC[-i - 2];
+                        }
+                        if (!citePrev) {
+                            printf("warning: searchCSV(%d,%d) returned %d\n", volume, page, -i);
+                        }
+                        else if (citePrev.volume == volume && citePrev.page + citePrev.pageTotal - 1 >= page) {
+                            let score = scoreStrings(decision.caseName, citePrev.caseTitle);
+                            if (scoreBest < score) {
+                                scoreBest = score;
+                                citeBest = citePrev;
+                            }
+                        }
+                    }
+                }
+                if (scoreBest >= 0) {
                     if (scoreBest >= 50) {
-                        printf("update %s: '%s' == '%s' (%d)\n", decision.usCite, citeBest.caseTitle, decision.caseName, scoreBest);
+                        printf("update  %s: '%s'%s == '%s' (%d)\n", decision.usCite, citeBest.caseTitle, citePrev? (' (' + citeBest.usCite + ')') : "", decision.caseName, scoreBest);
                         decision.caseTitle = citeBest.caseTitle;
                         changes++;
-                    } else {
-                        printf("check  %s: '%s' == '%s' (%d)\n", decision.usCite, citeBest.caseTitle, decision.caseName, scoreBest);
+                    } else if (scoreBest > 0) {
+                        printf("check   %s: '%s' == '%s' (%d)\n", decision.usCite, citeBest.caseTitle, decision.caseName, scoreBest);
                     }
                 }
             }
@@ -2662,8 +2716,8 @@ function fixDecisions(done)
 
     if (argv['citations']) {
         decisions.forEach((decision) => {
-            if (decision.usCite && !decision.caseTitle) {
-                printf("warning: %s (%s) has no matched citation entry\n", decision.caseName, decision.usCite, decision.dateDecision);
+            if (decision.usCite && !decision.caseTitle && decision.minVotes == 1) {
+                printf("warning: %s (%s) has no matching citation entry\n", decision.caseName, decision.usCite, decision.dateDecision);
                 unknownCitations = addCSV(unknownCitations, decision, ["usCite", "caseName", "dateDecision"]);
                 warnings++;
             }
