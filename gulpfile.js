@@ -1787,6 +1787,11 @@ function scoreStrings(left, right)
     if (left != right) {
         score = 0;
         if (left && right) {
+            left = left.replace("FEDERAL AVIATION ADMINISTRATION", "FAA");
+            left = left.replace("FEDERAL COMMUNICATIONS COMMISSION", "FCC");
+            left = left.replace("FEDERAL TRADE COMMISSION", "FTC");
+            left = left.replace("FEDERAL ENERGY REGULATORY COMMISSION", "FERC");
+            left = left.replace("ENVIRONMENTAL PROTECTION AGENCY", "EPA");
             left = left.toLowerCase().replace(/&amp;/g, " and ").replace(/(\s+|-)/g, ' ').replace(/[^a-z0-9 ]/g, '').trim();
             right = right.toLowerCase().replace(/&amp;/g, " and ").replace(/(\s+|-)/g, ' ').replace(/[^a-z0-9 ]/g, '').trim();
             let matchesRight = 0, totalRight = 0;
@@ -2688,7 +2693,7 @@ function fixDecisions(done)
     // let justices = JSON.parse(readFile(results.json.justices) || "[]");
 
     let fixDates = false;
-    let citesScotus = {}, citesLOC = {};
+    let citesScotus = {}, citesLOC = {}, yearsScotus = {};
     let citations = [], citationsLOC = [];
     let citesLabs = {}, decisionsLabs = [];
     let courtsSCDB = [], decisionsScotus = {};
@@ -2701,6 +2706,12 @@ function fixDecisions(done)
                 citation.usCite = citation.usCite.replace("Appx. ", "");
                 if (!citesScotus[citation.usCite]) citesScotus[citation.usCite] = [];
                 citesScotus[citation.usCite].push(citation);
+            }
+            if (citation.year) {
+                if (!yearsScotus[citation.year]) yearsScotus[citation.year] = [];
+                yearsScotus[citation.year].push(citation);
+            } else {
+                printf("warning: missing year in case '%s'\n", citation.caseTitle);
             }
         }
         /*
@@ -2877,6 +2888,41 @@ function fixDecisions(done)
                 } else {
                     printf("warning: unable to find OyezLabs XML for %s (%s)\n", decision.caseName, decision.usCite);
                 }
+            }
+        } else {
+            /*
+             * For cases without a citation, we need to scan for matches based on caseName and yearDecision.
+             */
+            let year = +decision.dateDecision.substr(0, 4);
+            if (year) {
+                let years = yearsScotus[year];
+                if (years) {
+                    let citeBest, scoreBest = -1;
+                    for (let y = 0; y < years.length; y++) {
+                        let cite = years[y];
+                        let score = scoreStrings(decision.caseName, cite.caseTitle);
+                        if (argv['check'] && decision.caseTitle == cite.caseTitle && score < 10) {
+                            printf("warning %s: '%s' == '%s' (%d)\n", decision.dateDecision, decision.caseTitle, decision.caseName, score);
+                            warnings++;
+                        }
+                        if (scoreBest < score) {
+                            scoreBest = score;
+                            citeBest = cite;
+                        }
+                    }
+                    if (scoreBest > 0 && !decision.caseTitle) {
+                        if (scoreBest < 75) {
+                            if (argv['debug']) printf("check   %s: '%s' == '%s' (%d)\n", decision.dateDecision, citeBest.caseTitle, decision.caseName, scoreBest);
+                        }
+                        else {
+                            printf("update  %s: '%s' == '%s' (%d)\n", decision.dateDecision, citeBest.caseTitle, decision.caseName, scoreBest);
+                            decision.caseTitle = citeBest.caseTitle;
+                            changes++;
+                        }
+                    }
+                }
+            } else {
+                printf("warning: invalid dateDecision (%s)\n", decision.dateDecision);
             }
         }
 

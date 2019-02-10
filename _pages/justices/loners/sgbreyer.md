@@ -57,7 +57,7 @@ cases:
     dissenterName: "Stephen Breyer"
   - id: "2011-037"
     termId: "2011-10"
-    title: "MENACHEM BINYAMIN ZIVOTOFSKY, BY HIS PARENTS AND GUARDIANS, ARI Z. AND NAOMI SIEGMAN ZIVOTOFSKY, PETITIONER v. HILLARY RODHAM CLINTON, SECRETARY OF STATE"
+    title: "Zivotofsky v. Clinton"
     pdfSource: "scotusBound"
     dateDecision: "Monday, March 26, 2012"
     citation: "No. 10-699"
@@ -65,7 +65,7 @@ cases:
     dissenterName: "Stephen Breyer"
   - id: "2016-009"
     termId: "2016-10"
-    title: "SCA HYGIENE PRODS. AKTIEBOLAG v. FIRST QUALITY BABY PRODS., LLC"
+    title: "SCA Hygiene Products Aktiebolag v. First Quality Baby Products, LLC"
     pdfSource: "16pdf/15-927_6j37"
     pdfPageDissent: 20
     dateDecision: "Tuesday, March 21, 2017"
@@ -74,7 +74,7 @@ cases:
     dissenterName: "Stephen Breyer"
   - id: "2017-079"
     termId: "2017-10"
-    title: "SEXTON v. BEAUDREAUX"
+    title: "Sexton v. Beaudreaux"
     pdfSource: "17pdf/17-1106_ipdi"
     pdfPageDissent: 8
     dateDecision: "Thursday, June 28, 2018"

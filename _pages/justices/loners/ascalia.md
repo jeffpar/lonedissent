@@ -187,7 +187,7 @@ cases:
     dissenterName: "Antonin Scalia"
   - id: "2012-027"
     termId: "2012-10"
-    title: "DOUG DECKER, IN HIS OFFICIAL CAPACITY AS OREGON STATE FORESTER, et al., PETITIONERS v. NORTHWEST ENVIRONMENTAL DEFENSE CENTER;"
+    title: "Decker v. Northwest Environmental Defense Center"
     pdfSource: "slipopinion/12"
     dateDecision: "Wednesday, March 20, 2013"
     citation: "No. 11-338"

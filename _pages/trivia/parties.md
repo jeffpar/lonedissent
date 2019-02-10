@@ -2110,15 +2110,15 @@ layout: page
 
 ## Monday, June 1, 2015
 
-- [ELONIS v. UNITED STATES](/cases/loners/2014-10#2014-024): Dissent by [Clarence Thomas](/justices/loners/cthomas#2014-024)
-- [EQUAL EMPLOYMENT OPPORTUNITY COMMISSION v. ABERCROMBIE &amp; FITCH STORES, INC.](/cases/loners/2014-10#2014-046): Dissent by [Clarence Thomas](/justices/loners/cthomas#2014-046)
+- [Elonis v. United States](/cases/loners/2014-10#2014-024): Dissent by [Clarence Thomas](/justices/loners/cthomas#2014-024)
+- [EEOC v. Abercrombie &amp; Fitch Stores, Inc.](/cases/loners/2014-10#2014-046): Dissent by [Clarence Thomas](/justices/loners/cthomas#2014-046)
 
 ## Wednesday, January 20, 2016
 
-- [MONTANILE v. BD. OF NATIONAL ELEVATOR INDUSTRY HEALTH BENEFIT PLAN](/cases/loners/2015-10#2015-016): Dissent by [Ruth Ginsburg](/justices/loners/rbginsburg#2015-016)
-- [KANSAS v. CARR](/cases/loners/2015-10#2015-005): Dissent by [Sonia Sotomayor](/justices/loners/ssotomayor#2015-005)
+- [Montanile v. Board of Trustees of Nat. Elevator Industry Health Benefit Plan](/cases/loners/2015-10#2015-016): Dissent by [Ruth Ginsburg](/justices/loners/rbginsburg#2015-016)
+- [Kansas v. Carr](/cases/loners/2015-10#2015-005): Dissent by [Sonia Sotomayor](/justices/loners/ssotomayor#2015-005)
 
 ## Monday, May 23, 2016
 
-- [FOSTER v. CHATMAN](/cases/loners/2015-10#2015-011): Dissent by [Clarence Thomas](/justices/loners/cthomas#2015-011)
-- [GREEN v. BRENNAN](/cases/loners/2015-10#2015-021): Dissent by [Clarence Thomas](/justices/loners/cthomas#2015-021)
+- [Foster v. Chatman](/cases/loners/2015-10#2015-011): Dissent by [Clarence Thomas](/justices/loners/cthomas#2015-011)
+- [Green v. Brennan](/cases/loners/2015-10#2015-021): Dissent by [Clarence Thomas](/justices/loners/cthomas#2015-021)
