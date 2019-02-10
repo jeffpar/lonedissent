@@ -931,7 +931,7 @@ function encodeString(text, encodeAs, fAllowQuotes=true)
             "useNamedReferences": true
         });
         if (fAllowQuotes) text = text.replace(/&apos;/g, "'").replace(/&quot;/g, '"');
-        // text = fixASCII(text);
+        text = fixASCII(text);
     }
     return text;
 }
