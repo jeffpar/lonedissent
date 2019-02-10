@@ -850,6 +850,52 @@ function checkASCII(text, fExtended)
 }
 
 /**
+ * fixASCII(text)
+ *
+ * @param {string} text
+ * @return {string}
+ */
+function fixASCII(text)
+{
+    let textNew = "";
+    for (let i = 0; i < text.length; i++) {
+        let c = text.charCodeAt(i);
+        switch(c) {
+        case 0x91:
+            textNew += "&lsquo;"
+            break;
+        case 0x92:
+            textNew += "&rsquo;"
+            break;
+        case 0x93:
+            textNew += "&ldquo;"
+            break;
+        case 0x94:
+            textNew += "&rdquo;"
+            break;
+        case 0x96:
+            textNew += "&ndash;"
+            break;
+        case 0xA7:
+            textNew += "&sect;"
+            break;
+        default:
+            if (c >= 0x7f) {
+                // printf("warning: text '%s' contains unrecognized character '%c' (0x%02x) at pos %d\n", text, c, c, i + 1);
+                break;
+            }
+            textNew += String.fromCharCode(c);
+            break;
+        }
+    }
+    if (text != textNew) {
+        // printf("warning: old encoding '%s'\n         new encoding '%s'\n", text, textNew);
+        warnings++;
+    }
+    return textNew;
+}
+
+/**
  * decodeString(text, fAll)
  *
  * @param {string} text
@@ -875,39 +921,6 @@ function decodeString(text, fAll=false)
  */
 function encodeString(text, encodeAs, fAllowQuotes=true)
 {
-    //
-    // for (let i = 0; i < text.length; i++) {
-    //     let c = text.charCodeAt(i);
-    //     switch(c) {
-    //     case 0x91:
-    //         textNew += "&lsquo;"
-    //         break;
-    //     case 0x92:
-    //         textNew += "&rsquo;"
-    //         break;
-    //     case 0x93:
-    //         textNew += "&ldquo;"
-    //         break;
-    //     case 0x94:
-    //         textNew += "&rdquo;"
-    //         break;
-    //     case 0x96:
-    //         textNew += "&ndash;"
-    //         break;
-    //     case 0xA7:
-    //         textNew += "&sect;"
-    //         break;
-    //     default:
-    //         if (c >= 0x7f) {
-    //             printf("warning: text '%s' contains unrecognized character '%c' (0x%02x) at pos %d\n", text, c, c, i + 1);
-    //             break;
-    //         }
-    //         textNew += String.fromCharCode(c);
-    //         break;
-    //     }
-    // }
-    // return textNew.replace(/&([^&;]*)( |$)/gi, "&amp;$1$2").replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
-    //
     if (encodeAs == "html") {
         /*
          * In case there are already HTML entities in the string, decode first to avoid double-encoding.
@@ -918,42 +931,7 @@ function encodeString(text, encodeAs, fAllowQuotes=true)
             "useNamedReferences": true
         });
         if (fAllowQuotes) text = text.replace(/&apos;/g, "'").replace(/&quot;/g, '"');
-        let textNew = "";
-        for (let i = 0; i < text.length; i++) {
-            let c = text.charCodeAt(i);
-            switch(c) {
-            case 0x91:
-                textNew += "&lsquo;"
-                break;
-            case 0x92:
-                textNew += "&rsquo;"
-                break;
-            case 0x93:
-                textNew += "&ldquo;"
-                break;
-            case 0x94:
-                textNew += "&rdquo;"
-                break;
-            case 0x96:
-                textNew += "&ndash;"
-                break;
-            case 0xA7:
-                textNew += "&sect;"
-                break;
-            default:
-                if (c >= 0x7f) {
-                    printf("warning: text '%s' contains unrecognized character '%c' (0x%02x) at pos %d\n", text, c, c, i + 1);
-                    break;
-                }
-                textNew += String.fromCharCode(c);
-                break;
-            }
-        }
-        if (text != textNew) {
-            printf("warning: old encoding '%s'\n         new encoding '%s'\n", text, textNew);
-            text = textNew;
-            warnings++;
-        }
+        // text = fixASCII(text);
     }
     return text;
 }
@@ -3233,11 +3211,17 @@ function testDates(done)
     let d = -1;
     printf("d == 0x%02x\n", d);
 
-    let text = readFile("/_pages/cases/all/2006-10.md");
-    if (text) {
-        printf("checking %d characters...\n", text.length);
-        checkASCII(text, true);
-    }
+    let filePaths = glob.sync("./results/*.json");
+    filePaths.forEach((filePath) => {
+        let text = readFile(filePath);
+        if (text) {
+            printf("checking %s (%d characters)...\n", filePath, text.length);
+            let textNew = fixASCII(text);
+            if (textNew != text) {
+                writeFile(filePath, textNew);
+            }
+        }
+    });
 
     done();
 }
