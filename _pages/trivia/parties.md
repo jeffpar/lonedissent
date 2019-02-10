@@ -755,7 +755,7 @@ layout: page
 
 ## Monday, June 12, 1916
 
-- [Missouri v. Chicago, B. &amp;. Q. R. Co.](/cases/loners/1915-10#1915-148): Dissent by [Joseph McKenna](/justices/loners/jmckenna#1915-148)
+- [Missouri v. Chicago, B. &amp; Q. R. Co.](/cases/loners/1915-10#1915-148): Dissent by [Joseph McKenna](/justices/loners/jmckenna#1915-148)
 - [Mutual Life Ins. Co. of N. Y. v. Hilton-Green](/cases/loners/1915-10#1915-160): Dissent by [Mahlon Pitney](/justices/loners/mpitney#1915-160)
 - [Holmes v. Conway](/cases/loners/1915-10#1915-161): Dissent by [Mahlon Pitney](/justices/loners/mpitney#1915-161)
 

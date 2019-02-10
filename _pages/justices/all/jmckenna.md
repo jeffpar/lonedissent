@@ -4565,7 +4565,7 @@ cases:
     authorName: "Joseph McKenna"
   - id: "1915-185"
     termId: "1915-10"
-    title: "Baugham v. New York, P. &amp;. N. R. Co."
+    title: "Baugham v. New York, P. &amp; N. R. Co."
     volume: "241"
     page: "237"
     pdfSource: "loc"

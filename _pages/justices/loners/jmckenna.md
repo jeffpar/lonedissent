@@ -305,7 +305,7 @@ cases:
     dissenterName: "Joseph McKenna"
   - id: "1915-148"
     termId: "1915-10"
-    title: "Missouri v. Chicago, B. &amp;. Q. R. Co."
+    title: "Missouri v. Chicago, B. &amp; Q. R. Co."
     volume: "241"
     page: "533"
     pdfSource: "loc"

@@ -2066,7 +2066,7 @@ cases:
     authorName: "Antonin Scalia"
   - id: "2006-054"
     termId: "2006-10"
-    title: "Beck v. PACE Intl Union"
+    title: "Beck v. PACE Int&rsquo;l Union"
     volume: "551"
     page: "096"
     pdfSource: "scotusBound"

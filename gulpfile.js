@@ -918,6 +918,42 @@ function encodeString(text, encodeAs, fAllowQuotes=true)
             "useNamedReferences": true
         });
         if (fAllowQuotes) text = text.replace(/&apos;/g, "'").replace(/&quot;/g, '"');
+        let textNew = "";
+        for (let i = 0; i < text.length; i++) {
+            let c = text.charCodeAt(i);
+            switch(c) {
+            case 0x91:
+                textNew += "&lsquo;"
+                break;
+            case 0x92:
+                textNew += "&rsquo;"
+                break;
+            case 0x93:
+                textNew += "&ldquo;"
+                break;
+            case 0x94:
+                textNew += "&rdquo;"
+                break;
+            case 0x96:
+                textNew += "&ndash;"
+                break;
+            case 0xA7:
+                textNew += "&sect;"
+                break;
+            default:
+                if (c >= 0x7f) {
+                    printf("warning: text '%s' contains unrecognized character '%c' (0x%02x) at pos %d\n", text, c, c, i + 1);
+                    break;
+                }
+                textNew += String.fromCharCode(c);
+                break;
+            }
+        }
+        if (text != textNew) {
+            printf("warning: old encoding '%s'\n         new encoding '%s'\n", text, textNew);
+            text = textNew;
+            warnings++;
+        }
     }
     return text;
 }
@@ -2955,8 +2991,8 @@ function fixDecisions(done)
             let s = encodeString(decodeString(decision.caseTitle, true), "html");
             if (decision.caseTitle != s) {
                 printf("warning: old caseTitle encoding '%s'\n         new caseTitle encoding '%s'\n", decision.caseTitle, s);
-                // decision.caseTitle = s;
-                // changes++;
+                decision.caseTitle = s;
+                changes++;
             }
         }
 

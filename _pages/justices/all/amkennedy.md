@@ -1835,7 +1835,7 @@ cases:
     authorName: "Anthony Kennedy"
   - id: "2006-038"
     termId: "2006-10"
-    title: "KSR Intl Co. v. Teleflex Inc."
+    title: "KSR Int&rsquo;l Co. v. Teleflex Inc."
     volume: "550"
     page: "398"
     pdfSource: "scotusBound"

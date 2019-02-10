@@ -545,7 +545,7 @@ cases:
     authorName: "Stephen Breyer"
   - id: "2000-054"
     termId: "2000-10"
-    title: "Wharf (Holdings) Ltd. v. United Intl Holdings, Inc."
+    title: "Wharf (Holdings) Ltd. v. United Int&rsquo;l Holdings, Inc."
     volume: "532"
     page: "588"
     pdfSource: "loc"

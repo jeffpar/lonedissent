@@ -795,7 +795,7 @@ cases:
     authorName: "Clarence Thomas"
   - id: "2000-050"
     termId: "2000-10"
-    title: "United States v. Oakland Cannabis Buyers Cooperative"
+    title: "United States v. Oakland Cannabis Buyers&rsquo; Cooperative"
     volume: "532"
     page: "483"
     pdfSource: "loc"

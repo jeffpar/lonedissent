@@ -955,7 +955,7 @@ cases:
     authorName: "David Souter"
   - id: "2000-082"
     termId: "2000-10"
-    title: "Federal Election Commn v. Colorado Republican Federal Campaign Comm."
+    title: "Federal Election Comm&rsquo;n v. Colorado Republican Federal Campaign Comm."
     volume: "533"
     page: "431"
     pdfSource: "loc"
