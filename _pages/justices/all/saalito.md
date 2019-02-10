@@ -95,7 +95,7 @@ cases:
     authorName: "Samuel Alito"
   - id: "2006-071"
     termId: "2006-10"
-    title: "Hein v. Freedom From Religion Foundation, Inc. "
+    title: "Hein v. Freedom From Religion Foundation, Inc."
     volume: "551"
     page: "587"
     pdfSource: "scotusBound"

@@ -815,7 +815,7 @@ cases:
     authorName: "Benjamin Cardozo"
   - id: "1934-142"
     termId: "1934-10"
-    title: "WEST OHIO GAS CO. v. PUBLIC UTILITIES COMMISSION OF OHIO"
+    title: "West Ohio Gas Co. v. Comm'n"
     volume: "294"
     page: "079"
     pdfSource: "loc"

@@ -185,7 +185,7 @@ cases:
     dissenterName: "William Brennan"
   - id: "1985-044"
     termId: "1985-10"
-    title: "Fisher v. Berkeley "
+    title: "Fisher v. Berkeley"
     volume: "475"
     page: "260"
     pdfSource: "loc"

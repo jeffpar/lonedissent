@@ -2093,7 +2093,7 @@ layout: page
 
 ## Thursday, June 21, 2007
 
-- [Tellabs, Inc. v. Makor Issues &amp; Rights, Ltd. ](/cases/loners/2006-10#2006-066): Dissent by [John Paul Stevens](/justices/loners/jpstevens#2006-066)
+- [Tellabs, Inc. v. Makor Issues &amp; Rights, Ltd.](/cases/loners/2006-10#2006-066): Dissent by [John Paul Stevens](/justices/loners/jpstevens#2006-066)
 - [Rita v. United States](/cases/loners/2006-10#2006-067): Dissent by [David Souter](/justices/loners/dhsouter#2006-067)
 
 ## Wednesday, February 20, 2008

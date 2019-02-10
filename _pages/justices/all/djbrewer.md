@@ -3005,7 +3005,7 @@ cases:
     authorName: "David Brewer"
   - id: "1898-034"
     termId: "1898-10"
-    title: "BELLINGHAM BAY IMPROVEMENT COMPANY v. NEW WHATCOM."
+    title: "Bellingham Bay &amp;c. Co. v. New Whatcom"
     volume: "172"
     page: "320"
     pdfSource: "loc"

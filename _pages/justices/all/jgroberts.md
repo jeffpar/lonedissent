@@ -135,7 +135,7 @@ cases:
     authorName: "John Roberts"
   - id: "2006-069"
     termId: "2006-10"
-    title: "Federal Election Commn v. Wisconsin Right to Life, Inc. "
+    title: "Federal Election Commn v. Wisconsin Right to Life, Inc."
     volume: "551"
     page: "449"
     pdfSource: "scotusBound"

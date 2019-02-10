@@ -685,7 +685,7 @@ cases:
     dissenterName: "William Rehnquist"
   - id: "1985-058"
     termId: "1985-10"
-    title: "Golden State Transit Corp. v. Los Angeles "
+    title: "Golden State Transit Corp. v. Los Angeles"
     volume: "475"
     page: "608"
     pdfSource: "loc"

@@ -75,7 +75,7 @@ cases:
     dissenterName: "Clarence Thomas"
   - id: "2002-066"
     termId: "2002-10"
-    title: "Hillside Dairy Inc. v. Lyons "
+    title: "Hillside Dairy Inc. v. Lyons"
     volume: "539"
     page: "059"
     pdfSource: "loc"

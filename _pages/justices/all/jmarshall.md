@@ -2555,7 +2555,7 @@ cases:
     authorName: "John Marshall"
   - id: "1818-011"
     termId: "1818-02"
-    title: "Swan v. Union Ins. Company"
+    title: "Swan v. Union Ins. Co. of Maryland"
     volume: "016"
     page: "168"
     pdfSource: "loc"

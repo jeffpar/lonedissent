@@ -2569,7 +2569,7 @@ cases:
     authorName: "Nathan Clifford"
   - id: "1874-027"
     termId: "1874-10"
-    title: "Stickney, Assignee, v. Wilt"
+    title: "Stickney v. Wilt"
     volume: "090"
     page: "150"
     pdfSource: "loc"

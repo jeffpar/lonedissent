@@ -255,7 +255,7 @@ cases:
     dissenterName: "Byron White"
   - id: "1985-104"
     termId: "1985-10"
-    title: "Bowen v. Roy "
+    title: "Bowen v. Roy"
     volume: "476"
     page: "693"
     pdfSource: "loc"
