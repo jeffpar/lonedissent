@@ -45,7 +45,7 @@ cases:
     dissenterName: "Joseph Story"
   - id: "1830-007"
     termId: "1830-01"
-    title: "Inglis v. Trustees of Sailor's Snug Harbour in City of New York"
+    title: "Inglis v. Trustees of Sailor&apos;s Snug Harbour in City of New York"
     volume: "028"
     page: "099"
     pdfSource: "loc"

@@ -75,7 +75,7 @@ cases:
     authorName: "Gabriel Duvall"
   - id: "1819-033"
     termId: "1819-02"
-    title: "Boyd's Lessee v. Graves"
+    title: "Boyd&apos;s Lessee v. Graves"
     volume: "017"
     page: "513"
     pdfSource: "loc"

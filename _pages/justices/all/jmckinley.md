@@ -15,7 +15,7 @@ cases:
     authorName: "John McKinley"
   - id: "1838-034"
     termId: "1838-01"
-    title: "Beaston v. Farmers' Bank of Del."
+    title: "Beaston v. Farmers&apos; Bank of Del."
     volume: "037"
     page: "102"
     pdfSource: "loc"

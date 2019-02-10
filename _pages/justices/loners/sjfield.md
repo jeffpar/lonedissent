@@ -85,7 +85,7 @@ cases:
     dissenterName: "Stephen Field"
   - id: "1874-183"
     termId: "1874-10"
-    title: "Mechanics' and Traders' Bank v. Union Bank"
+    title: "Mechanics&apos; and Traders&apos; Bank v. Union Bank"
     volume: "089"
     page: "276"
     pdfSource: "loc"

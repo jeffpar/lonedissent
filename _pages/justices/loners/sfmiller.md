@@ -75,7 +75,7 @@ cases:
     dissenterName: "Samuel Miller"
   - id: "1867-072"
     termId: "1867-12"
-    title: "Armstrong's Foundry"
+    title: "Armstrong&apos;s Foundry"
     volume: "073"
     page: "766"
     pdfSource: "loc"

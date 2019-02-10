@@ -15,7 +15,7 @@ cases:
     dissenterName: "Gabriel Duvall"
   - id: "1815-020"
     termId: "1815-02"
-    title: "McIver's Lessee v. Walker"
+    title: "McIver&apos;s Lessee v. Walker"
     volume: "013"
     page: "173"
     pdfSource: "loc"

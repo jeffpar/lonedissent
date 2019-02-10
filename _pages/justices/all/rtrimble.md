@@ -5,7 +5,7 @@ layout: cases
 cases:
   - id: "1827-006"
     termId: "1827-01"
-    title: "Edward's Lessee v. Darby"
+    title: "Edward&apos;s Lessee v. Darby"
     volume: "025"
     page: "206"
     pdfSource: "loc"
@@ -115,7 +115,7 @@ cases:
     authorName: "Robert Trimble"
   - id: "1828-025"
     termId: "1828-01"
-    title: "Steele's Lessee v. Spencer"
+    title: "Steele&apos;s Lessee v. Spencer"
     volume: "026"
     page: "552"
     pdfSource: "loc"

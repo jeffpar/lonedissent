@@ -25,7 +25,7 @@ cases:
     dissenterName: "Willis Van Devanter"
   - id: "1931-065"
     termId: "1931-10"
-    title: "Lawrence v. State Tax Comm'n of Miss."
+    title: "Lawrence v. State Tax Comm&apos;n of Miss."
     volume: "286"
     page: "276"
     pdfSource: "loc"

@@ -145,7 +145,7 @@ cases:
     dissenterName: "Henry Brown"
   - id: "1898-118"
     termId: "1898-10"
-    title: "Citizens' Sav. Bank of Owensboro v. Owensboro"
+    title: "Citizens&apos; Sav. Bank of Owensboro v. Owensboro"
     volume: "173"
     page: "636"
     pdfSource: "loc"

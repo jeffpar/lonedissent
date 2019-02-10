@@ -15,7 +15,7 @@ cases:
     authorName: "William Cushing"
   - id: "1808-005"
     termId: "1808-02"
-    title: "McIlvaine v. Coxe's Lessee"
+    title: "McIlvaine v. Coxe&apos;s Lessee"
     volume: "008"
     page: "209"
     pdfSource: "loc"

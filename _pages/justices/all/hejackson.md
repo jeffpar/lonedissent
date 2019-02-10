@@ -465,7 +465,7 @@ cases:
     authorName: "Howell Jackson"
   - id: "1893-294"
     termId: "1893-10"
-    title: "Merchants' Cotton Press &amp; Storage Co. v. Insurance Co. of North America"
+    title: "Merchants&apos; Cotton Press &amp; Storage Co. v. Insurance Co. of North America"
     volume: "151"
     page: "368"
     pdfSource: "loc"

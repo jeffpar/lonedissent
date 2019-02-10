@@ -325,7 +325,7 @@ cases:
     dissenterName: "Peter Daniel"
   - id: "1858-063"
     termId: "1858-12"
-    title: "Board of Comm'rs of Knox Cty. v. Wallace"
+    title: "Board of Comm&apos;rs of Knox Cty. v. Wallace"
     volume: "062"
     page: "546"
     pdfSource: "loc"

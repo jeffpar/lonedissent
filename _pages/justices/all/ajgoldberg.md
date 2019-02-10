@@ -5,7 +5,7 @@ layout: cases
 cases:
   - id: "1962-005"
     termId: "1962-10"
-    title: "United States v. Loew's Inc."
+    title: "United States v. Loew&apos;s Inc."
     volume: "371"
     page: "038"
     pdfSource: "loc"
@@ -225,7 +225,7 @@ cases:
     authorName: "Arthur Goldberg"
   - id: "1963-147"
     termId: "1963-10"
-    title: "Murphy v. Waterfront Comm'n of N. Y. Harbor"
+    title: "Murphy v. Waterfront Comm&apos;n of N. Y. Harbor"
     volume: "378"
     page: "052"
     pdfSource: "loc"

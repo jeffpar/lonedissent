@@ -15,7 +15,7 @@ cases:
     dissenterName: "Salmon Chase"
   - id: "1871-113"
     termId: "1871-12"
-    title: "Tarble's Case"
+    title: "Tarble&apos;s Case"
     volume: "080"
     page: "397"
     pdfSource: "loc"

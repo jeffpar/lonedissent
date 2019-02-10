@@ -95,7 +95,7 @@ cases:
     dissenterName: "Pierce Butler"
   - id: "1938-146"
     termId: "1938-10"
-    title: "O'Malley v. Woodrough"
+    title: "O&apos;Malley v. Woodrough"
     volume: "307"
     page: "277"
     pdfSource: "loc"

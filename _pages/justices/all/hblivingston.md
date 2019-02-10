@@ -355,7 +355,7 @@ cases:
     authorName: "Henry Livingston"
   - id: "1822-005"
     termId: "1822-02"
-    title: "Page's Administrators v. Bank of Alexandria"
+    title: "Page&apos;s Administrators v. Bank of Alexandria"
     volume: "020"
     page: "035"
     pdfSource: "loc"

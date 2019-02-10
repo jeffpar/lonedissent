@@ -275,7 +275,7 @@ cases:
     dissenterName: "Thurgood Marshall"
   - id: "1982-085"
     termId: "1982-10"
-    title: "Morrison-Knudsen Constr. Co. v. Director, Office of Workers' Compensation Programs"
+    title: "Morrison-Knudsen Constr. Co. v. Director, Office of Workers&apos; Compensation Programs"
     volume: "461"
     page: "624"
     pdfSource: "loc"

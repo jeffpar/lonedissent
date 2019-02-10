@@ -45,7 +45,7 @@ cases:
     dissenterName: "John Catron"
   - id: "1850-068"
     termId: "1849-12"
-    title: "Tayloe v. Merchants' Fire Ins. Co. of Baltimore"
+    title: "Tayloe v. Merchants&apos; Fire Ins. Co. of Baltimore"
     volume: "050"
     page: "390"
     pdfSource: "loc"

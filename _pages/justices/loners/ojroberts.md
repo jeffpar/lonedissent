@@ -205,7 +205,7 @@ cases:
     dissenterName: "Owen Roberts"
   - id: "1942-099"
     termId: "1942-10"
-    title: "Illinois Commerce Comm'n v. Thomson"
+    title: "Illinois Commerce Comm&apos;n v. Thomson"
     volume: "318"
     page: "675"
     pdfSource: "loc"

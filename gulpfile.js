@@ -753,7 +753,7 @@ function readFile(filePath, encoding="")
     try {
         if (filePath[0] == '/') filePath = path.join(rootDir, filePath);
         text = fs.readFileSync(filePath, encoding || "utf-8");
-        if (!encoding) checkString(text);
+        if (!encoding) checkASCII(text);
     }
     catch(err) {
         printf("%s\n", err.message);
@@ -772,7 +772,7 @@ function writeFile(filePath, text, fOverwrite=argv['overwrite'])
 {
     if (typeof text == "object") {
         text = sprintf("%2j\n", text);
-        checkString(text);
+        checkASCII(text);
     }
     if (filePath[0] == '/') filePath = path.join(rootDir, filePath);
     if (fOverwrite || !fs.existsSync(filePath)) {
@@ -826,12 +826,13 @@ function readXMLFile(filePath, filters)
 }
 
 /**
- * checkString(text)
+ * checkASCII(text, fExtended)
  *
  * @param {string} text
+ * @param {boolean} [fExtended] (true to check for extended ASCII characters)
  * @return {boolean} (true if valid, false otherwise)
  */
-function checkString(text)
+function checkASCII(text, fExtended)
 {
     let valid = true;
     let lines = text.split(/\r?\n/);
@@ -839,7 +840,7 @@ function checkString(text)
         let line = lines[i];
         for (let j = 0; j < line.length; j++) {
             let ch = line.charCodeAt(j);
-            if (ch < 0x20 && ch != 0x09) {
+            if (ch < 0x20 && ch != 0x09 || fExtended && ch > 0x7f) {
                 printf("warning: control character %02x at row %d col %d: '%s'\n", ch, i+1, j+1, line);
                 valid = false;
             }
@@ -849,13 +850,14 @@ function checkString(text)
 }
 
 /**
- * encodeString(text, encodeAs)
+ * encodeString(text, encodeAs, fAllowQuotes)
  *
  * @param {string} text
  * @param {string} [encodeAs] (eg, "html")
+ * @param {string} [fAllowQuotes] (default is true)
  * @return {string}
  */
-function encodeString(text, encodeAs)
+function encodeString(text, encodeAs, fAllowQuotes=true)
 {
     //
     // for (let i = 0; i < text.length; i++) {
@@ -891,10 +893,21 @@ function encodeString(text, encodeAs)
     // return textNew.replace(/&([^&;]*)( |$)/gi, "&amp;$1$2").replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
     //
     if (encodeAs == "html") {
-        return he.encode(text.replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc."), {
+        /*
+         * Replace any old-fashioned "&c" references that could be misinterpreted as HTML entities.
+         */
+        text = text.replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
+        /*
+         * In case there are already HTML entities in the string, decode first to avoid double-encoding.
+         */
+        if (!fAllowQuotes) {
+            text = he.decode(text);
+        }
+        text = he.encode(text, {
             'encodeEverything': false,
             "useNamedReferences": true
-        }).replace(/&apos;/g, "'").replace(/&quot;/g, '"');
+        });
+        if (fAllowQuotes) text = text.replace(/&apos;/g, "'").replace(/&quot;/g, '"');
     }
     return text;
 }
@@ -2347,7 +2360,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     }
                     fileText += '  - id: "' + result.caseId + '"\n';
                     fileText += '    termId: "' + result.termId + '"\n';
-                    fileText += '    title: "' + (result.caseTitle || result.caseName).replace(/"/g, "&quot;") + '"\n';
+                    fileText += '    title: "' + encodeString(result.caseTitle || result.caseName, "html", false) + '"\n';
                     /*
                      * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
                      * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
@@ -2584,7 +2597,7 @@ function findJustices(done, minVotes)
             }
             text += '  - id: "' + opinion.caseId + '"\n';
             text += '    termId: "' + opinion.termId + '"\n';
-            text += '    title: "' + (opinion.caseTitle || opinion.caseName).replace(/"/g, "&quot;") + '"\n';
+            text += '    title: "' + encodeString(opinion.caseTitle || opinion.caseName, "html", false) + '"\n';
             if (volume) text += sprintf('    volume: "%03d"\n', volume);
             if (page) text += sprintf('    page: "%03d"\n' , page);
             if (opinion.pdfSource) text += '    pdfSource: "' + opinion.pdfSource + '"\n';
@@ -3162,6 +3175,12 @@ function testDates(done)
 
     let d = -1;
     printf("d == 0x%02x\n", d);
+
+    let text = readFile("/_pages/cases/all/2006-10.md");
+    if (text) {
+        printf("checking %d characters...\n", text.length);
+        checkASCII(text, true);
+    }
 
     done();
 }

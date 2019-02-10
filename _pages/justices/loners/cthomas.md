@@ -45,7 +45,7 @@ cases:
     dissenterName: "Clarence Thomas"
   - id: "1995-055"
     termId: "1995-10"
-    title: "Doctor's Associates, Inc. v. Casarotto"
+    title: "Doctor&apos;s Associates, Inc. v. Casarotto"
     volume: "517"
     page: "681"
     pdfSource: "loc"

@@ -5,7 +5,7 @@ layout: cases
 cases:
   - id: "1895-122"
     termId: "1895-10"
-    title: "Shelby County v. Union &amp; Planters' Bank"
+    title: "Shelby County v. Union &amp; Planters&apos; Bank"
     volume: "161"
     page: "149"
     pdfSource: "loc"
