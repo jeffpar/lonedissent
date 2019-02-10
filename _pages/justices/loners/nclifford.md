@@ -235,7 +235,7 @@ cases:
     dissenterName: "Nathan Clifford"
   - id: "1875-197"
     termId: "1875-10"
-    title: "The "Alabama" and the "Game-cock""
+    title: "The &quot;Alabama&quot; and the &quot;Game-cock&quot;"
     volume: "092"
     page: "695"
     pdfSource: "loc"

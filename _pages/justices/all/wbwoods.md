@@ -235,7 +235,7 @@ cases:
     authorName: "William Woods"
   - id: "1881-033"
     termId: "1881-10"
-    title: "The "Annie Lindsley""
+    title: "The &quot;Annie Lindsley&quot;"
     volume: "104"
     page: "185"
     pdfSource: "loc"

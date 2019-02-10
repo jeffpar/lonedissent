@@ -15,7 +15,7 @@ cases:
     dissenterName: "Harry Blackmun"
   - id: "1973-108"
     termId: "1973-10"
-    title: "Alexander v. "Americans United" Inc."
+    title: "Alexander v. &quot;Americans United&quot; Inc."
     volume: "416"
     page: "752"
     pdfSource: "loc"

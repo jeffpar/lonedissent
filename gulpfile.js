@@ -2347,7 +2347,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     }
                     fileText += '  - id: "' + result.caseId + '"\n';
                     fileText += '    termId: "' + result.termId + '"\n';
-                    fileText += '    title: "' + (result.caseTitle || result.caseName) + '"\n';
+                    fileText += '    title: "' + (result.caseTitle || result.caseName).replace(/"/g, "&quot;") + '"\n';
                     /*
                      * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
                      * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
@@ -2584,7 +2584,7 @@ function findJustices(done, minVotes)
             }
             text += '  - id: "' + opinion.caseId + '"\n';
             text += '    termId: "' + opinion.termId + '"\n';
-            text += '    title: "' + (opinion.caseTitle || opinion.caseName) + '"\n';
+            text += '    title: "' + (opinion.caseTitle || opinion.caseName).replace(/"/g, "&quot;") + '"\n';
             if (volume) text += sprintf('    volume: "%03d"\n', volume);
             if (page) text += sprintf('    page: "%03d"\n' , page);
             if (opinion.pdfSource) text += '    pdfSource: "' + opinion.pdfSource + '"\n';

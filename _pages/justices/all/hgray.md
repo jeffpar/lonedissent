@@ -85,7 +85,7 @@ cases:
     authorName: "Horace Gray"
   - id: "1881-213"
     termId: "1881-10"
-    title: "The "Potomac""
+    title: "The &quot;Potomac&quot;"
     volume: "105"
     page: "630"
     pdfSource: "loc"

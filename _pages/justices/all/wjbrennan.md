@@ -1135,7 +1135,7 @@ cases:
     authorName: "William Brennan"
   - id: "1965-068"
     termId: "1965-10"
-    title: "Book Named "John Cleland's Memoirs of a Woman of Pleasure" v. Attorney General of Mass."
+    title: "Book Named &quot;John Cleland's Memoirs of a Woman of Pleasure&quot; v. Attorney General of Mass."
     volume: "383"
     page: "413"
     pdfSource: "loc"

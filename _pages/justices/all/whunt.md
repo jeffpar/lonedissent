@@ -625,7 +625,7 @@ cases:
     authorName: "Ward Hunt"
   - id: "1875-038"
     termId: "1875-10"
-    title: "The "Free State""
+    title: "The &quot;Free State&quot;"
     volume: "091"
     page: "200"
     pdfSource: "loc"
