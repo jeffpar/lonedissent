@@ -1,7 +1,7 @@
 ---
 title: "U.S. Supreme Court Justices with Lone Dissents"
 permalink: /justices/loners
-layout: archive
+layout: page
 ---
 
 - [William Douglas](/justices/loners/wodouglas) (225 lone dissents)

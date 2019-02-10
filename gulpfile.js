@@ -2595,7 +2595,7 @@ function findJustices(done, minVotes)
     if (index) {
         let pathName = "/justices/" + category;
         let fileName = "/_pages" + pathName + ".md";
-        index = '---\ntitle: "U.S. Supreme Court Justices with ' + description + '"\npermalink: ' + pathName + '\nlayout: archive\n---\n\n' + index;
+        index = '---\ntitle: "U.S. Supreme Court Justices with ' + description + '"\npermalink: ' + pathName + '\nlayout: page\n---\n\n' + index;
         writeFile(fileName, index);
     }
     done();
@@ -2622,11 +2622,11 @@ function findAllJustices(done)
 }
 
 /**
- * findLonersMatching()
+ * findLonerParties()
  *
  * @param {function()} done
  */
-function findLonersMatching(done)
+function findLonerParties(done)
 {
     let dateBuckets = {};
     let lonerJustices = JSON.parse(readFile(_data.lonerJustices) || "[]");
@@ -2642,7 +2642,7 @@ function findLonersMatching(done)
     let pageName = sprintf("Loner Parties");
     let pathName = "/trivia/parties";
     let fileName = "/_pages" + pathName + ".md";
-    let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: archive\n---\n';
+    let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: page\n---\n';
 
     let dates = Object.keys(dateBuckets);
     dates.sort();
@@ -2652,7 +2652,7 @@ function findLonersMatching(done)
             printf("date %s had %d lone dissents\n", date, bucket.length);
             text += sprintf("\n## %#C\n\n", date);
             bucket.forEach((dissent) => {
-                text += '- [' + dissent.caseName + '](/cases/loners/' + dissent.termId + '#' + dissent.caseId + '): Dissent by [' + dissent.dissenterName + '](/justices/loners/' + getJusticeId(dissent.dissenterId) + '#' + dissent.caseId + ')\n';
+                text += '- [' + (dissent.caseTitle || dissent.caseName) + '](/cases/loners/' + dissent.termId + '#' + dissent.caseId + '): Dissent by [' + dissent.dissenterName + '](/justices/loners/' + getJusticeId(dissent.dissenterId) + '#' + dissent.caseId + ')\n';
             });
         }
 
@@ -3224,7 +3224,7 @@ gulp.task("lonerDecisions", findLonerDecisions);
 gulp.task("lonerJustices", findLonerJustices);
 gulp.task("all", gulp.series(findAllDecisions, findAllJustices));
 gulp.task("loners", gulp.series(findLonerDecisions, findLonerJustices));
-gulp.task("lonersMatching", findLonersMatching);
+gulp.task("lonerParties", findLonerParties);
 gulp.task("updateLOC", updateLOC);
 gulp.task("backup", backupLonerDecisions);
 gulp.task("tests", gulp.series(testDates));
