@@ -850,6 +850,22 @@ function checkASCII(text, fExtended)
 }
 
 /**
+ * decodeString(text, fAll)
+ *
+ * @param {string} text
+ * @param {boolean} [fAll]
+ */
+function decodeString(text, fAll=false)
+{
+    /*
+     * Replace any old-fashioned "&c" references that could be misinterpreted as HTML entities.
+     */
+    text = text.replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
+    if (fAll) text = he.decode(text);
+    return text;
+}
+
+/**
  * encodeString(text, encodeAs, fAllowQuotes)
  *
  * @param {string} text
@@ -894,15 +910,9 @@ function encodeString(text, encodeAs, fAllowQuotes=true)
     //
     if (encodeAs == "html") {
         /*
-         * Replace any old-fashioned "&c" references that could be misinterpreted as HTML entities.
-         */
-        text = text.replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
-        /*
          * In case there are already HTML entities in the string, decode first to avoid double-encoding.
          */
-        if (!fAllowQuotes) {
-            text = he.decode(text);
-        }
+        text = decodeString(text, !fAllowQuotes);
         text = he.encode(text, {
             'encodeEverything': false,
             "useNamedReferences": true
@@ -2903,39 +2913,50 @@ function fixDecisions(done)
                 }
             }
         } else {
-            /*
-             * For cases without a citation, we need to scan for matches based on caseName and yearDecision.
-             */
-            let year = +decision.dateDecision.substr(0, 4);
-            if (year) {
-                let years = yearsScotus[year];
-                if (years) {
-                    let citeBest, scoreBest = -1;
-                    for (let y = 0; y < years.length; y++) {
-                        let cite = years[y];
-                        let score = scoreStrings(decision.caseName, cite.caseTitle);
-                        if (argv['check'] && decision.caseTitle == cite.caseTitle && score < 10) {
-                            printf("warning %s: '%s' == '%s' (%d)\n", decision.dateDecision, decision.caseTitle, decision.caseName, score);
-                            warnings++;
+            if (citations.length) {
+                /*
+                * For cases without a citation, we need to scan for matches based on caseName and yearDecision.
+                */
+                let year = +decision.dateDecision.substr(0, 4);
+                if (year) {
+                    let years = yearsScotus[year];
+                    if (years) {
+                        let citeBest, scoreBest = -1;
+                        for (let y = 0; y < years.length; y++) {
+                            let cite = years[y];
+                            let score = scoreStrings(decision.caseName, cite.caseTitle);
+                            if (argv['check'] && decision.caseTitle == cite.caseTitle && score < 10) {
+                                printf("warning %s: '%s' == '%s' (%d)\n", decision.dateDecision, decision.caseTitle, decision.caseName, score);
+                                warnings++;
+                            }
+                            if (scoreBest < score) {
+                                scoreBest = score;
+                                citeBest = cite;
+                            }
                         }
-                        if (scoreBest < score) {
-                            scoreBest = score;
-                            citeBest = cite;
+                        if (scoreBest > 0 && !decision.caseTitle) {
+                            if (scoreBest < 75) {
+                                if (argv['debug']) printf("check   %s: '%s' == '%s' (%d)\n", decision.dateDecision, citeBest.caseTitle, decision.caseName, scoreBest);
+                            }
+                            else {
+                                printf("update  %s: '%s' == '%s' (%d)\n", decision.dateDecision, citeBest.caseTitle, decision.caseName, scoreBest);
+                                decision.caseTitle = citeBest.caseTitle;
+                                changes++;
+                            }
                         }
                     }
-                    if (scoreBest > 0 && !decision.caseTitle) {
-                        if (scoreBest < 75) {
-                            if (argv['debug']) printf("check   %s: '%s' == '%s' (%d)\n", decision.dateDecision, citeBest.caseTitle, decision.caseName, scoreBest);
-                        }
-                        else {
-                            printf("update  %s: '%s' == '%s' (%d)\n", decision.dateDecision, citeBest.caseTitle, decision.caseName, scoreBest);
-                            decision.caseTitle = citeBest.caseTitle;
-                            changes++;
-                        }
-                    }
+                } else {
+                    printf("warning: invalid dateDecision (%s)\n", decision.dateDecision);
                 }
-            } else {
-                printf("warning: invalid dateDecision (%s)\n", decision.dateDecision);
+            }
+        }
+
+        if (decision.caseTitle) {
+            let s = encodeString(decodeString(decision.caseTitle, true), "html");
+            if (decision.caseTitle != s) {
+                printf("warning: old caseTitle encoding '%s'\n         new caseTitle encoding '%s'\n", decision.caseTitle, s);
+                // decision.caseTitle = s;
+                // changes++;
             }
         }
 

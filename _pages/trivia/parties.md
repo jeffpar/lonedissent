@@ -425,7 +425,7 @@ layout: page
 ## Monday, March 1, 1897
 
 - [The Three Friends](/cases/loners/1896-10#1896-125): Dissent by [John M. Harlan](/justices/loners/jharlan1#1896-125)
-- [Chicago, Burlington &amp;c. R'D v. Chicago](/cases/loners/1896-10#1896-135): Dissent by [David Brewer](/justices/loners/djbrewer#1896-135)
+- [Chicago, Burlington etc. R'D v. Chicago](/cases/loners/1896-10#1896-135): Dissent by [David Brewer](/justices/loners/djbrewer#1896-135)
 
 ## Monday, May 10, 1897
 
@@ -616,7 +616,7 @@ layout: page
 ## Monday, May 27, 1907
 
 - [Southern R. Co. v. Tift](/cases/loners/1906-10#1906-091): Dissent by [David Brewer](/justices/loners/djbrewer#1906-091)
-- [Illinois Cent. &amp;c. R. R. v. Inter. Com. Comm.](/cases/loners/1906-10#1906-092): Dissent by [David Brewer](/justices/loners/djbrewer#1906-092)
+- [Illinois Cent. etc. R. R. v. Inter. Com. Comm.](/cases/loners/1906-10#1906-092): Dissent by [David Brewer](/justices/loners/djbrewer#1906-092)
 
 ## Monday, December 16, 1907
 
