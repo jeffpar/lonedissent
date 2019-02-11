@@ -1222,9 +1222,9 @@ function readSCDBCourts(fDisplay)
         let start = parseDate(court.dateStart);
         let stop = parseDate(court.dateStop);
         if (startNext && start.getTime() != startNext.getTime()) {
-            warning("%s: current start date (%#C) does not match previous stop date (%#C)\n", court.naturalName, start, startNext);
+            warning("%s: current start date (%#C) does not match previous stop date (%#C)\n", court.name, start, startNext);
         }
-        let match = court.naturalName.match(/^(\S+)\s+([0-9]+)/);
+        let match = court.name.match(/^(\S+)\s+([0-9]+)/);
         let chiefJustice = match? match[1] : "";
         court.start = sprintf("%#Y-%#02M-%#02D", start);
         court.stop = sprintf("%#Y-%#02M-%#02D", stop);
@@ -1245,7 +1245,7 @@ function readSCDBCourts(fDisplay)
             }
         });
         if (fDisplay) {
-            printf("%s (%s to %s): %d justices (%s)\n", court.naturalName, court.startFormatted, court.stopFormatted, court.justices.length, sJustices);
+            printf("%s (%s to %s): %d justices (%s)\n", court.name, court.startFormatted, court.stopFormatted, court.justices.length, sJustices);
         }
         startNext = datelib.adjustDays(stop, 1);
     }
@@ -1781,7 +1781,7 @@ function buildCourts(done)
         while (j < courtsSCDB.length) {
             if (court && courtsSCDB[j].start > court.stop) break;
             let courtSCDB = courtsSCDB[j];
-            csv += sprintf('"SCDB","%s","%s","%s"\n', courtSCDB.naturalName, courtSCDB.startFormatted, courtSCDB.stopFormatted);
+            csv += sprintf('"SCDB","%s","%s","%s"\n', courtSCDB.name, courtSCDB.startFormatted, courtSCDB.stopFormatted);
             j++;
         }
     }
@@ -1873,11 +1873,11 @@ function scoreStrings(left, right)
     if (left != right) {
         score = 0;
         if (left && right) {
+            left = left.replace("ENVIRONMENTAL PROTECTION AGENCY", "EPA");
             left = left.replace("FEDERAL AVIATION ADMINISTRATION", "FAA");
             left = left.replace("FEDERAL COMMUNICATIONS COMMISSION", "FCC");
-            left = left.replace("FEDERAL TRADE COMMISSION", "FTC");
             left = left.replace("FEDERAL ENERGY REGULATORY COMMISSION", "FERC");
-            left = left.replace("ENVIRONMENTAL PROTECTION AGENCY", "EPA");
+            left = left.replace("FEDERAL TRADE COMMISSION", "FTC");
             left = left.toLowerCase().replace(/&amp;/g, " and ").replace(/(\s+|-)/g, ' ').replace(/[^a-z0-9 ]/g, '').trim();
             right = right.toLowerCase().replace(/&amp;/g, " and ").replace(/(\s+|-)/g, ' ').replace(/[^a-z0-9 ]/g, '').trim();
             let matchesRight = 0, totalRight = 0;
@@ -2103,6 +2103,9 @@ function sortVotesBySeniority(decision, vars, courts, justices)
     for (let i = 0; i < courts.length; i++) {
         if (date >= courts[i].start && (!courts[i].stop || date <= courts[i].stop)) {
             court = courts[i];
+            if (court.naturalCourt && decision.naturalCourt && decision.naturalCourt.indexOf(court.name) != 0) {
+                warning("%s (%s - %s) for dateDecision %s (%s) does not match naturalCourt (%s)\n", court.name, court.startFormatted, court.stopFormatted, date, decision.usCite, decision.naturalCourt);
+            }
             break;
         }
     }
@@ -2301,12 +2304,14 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 
         let results = [];
         decisions.forEach((decision) => {
+            let dateDecision = decision.dateDecision;
+            if (dateDecision.length == 7) dateDecision += '-28';
             if (!caseId || decision.caseId == caseId) {
                 if (caseTitle === undefined || !caseTitle && !decision.caseTitle || caseTitle == decision.caseTitle) {
                     if (!minVotes || decision.minVotes == minVotes) {
-                        if (!decided || decision.dateDecision.indexOf(decided) == 0) {
+                        if (!decided || dateDecision.indexOf(decided) == 0) {
                             if (!selectedCourt || decision.naturalCourt == selectedCourt) {
-                                if ((!start || decision.dateDecision >= start) && (!stop || decision.dateDecision <= stop)) {
+                                if ((!start || dateDecision >= start) && (!stop || dateDecision <= stop)) {
                                     if (!month || decision.dateDecision.indexOf(month) > 0) {
                                         if (!volume || !page && decision.usCite.indexOf(usCite) == 0 || volume && page && decision.usCite == usCite) {
                                             if (!text || findText(decision.caseName)) {
@@ -3078,7 +3083,7 @@ function fixDecisions(done)
                 if (decision.dateDecision >= court.start && decision.dateDecision <= court.stop) {
                     let naturalCourt = +court.naturalCourt;
                     if (decision.naturalCourt != naturalCourt) {
-                        warning("%s (%s): decision date %s lies within court %s (%d) but naturalCourt is different (%d)\n", decision.caseName, decision.usCite, decision.dateDecision, court.naturalName, naturalCourt, decision.naturalCourt);
+                        warning("%s (%s): decision date %s lies within court %s (%d) but naturalCourt is different (%d)\n", decision.caseName, decision.usCite, decision.dateDecision, court.name, naturalCourt, decision.naturalCourt);
                         changedCourts = addCSV(changedCourts, decision, ["caseId", "usCite", "caseName", "dateDecision", "naturalCourt"], "naturalCourtNew", naturalCourt);
                         decision.naturalCourt = naturalCourt;
                         changes++;
