@@ -109,6 +109,7 @@ let sprintf = stdio.sprintf;
 let strlib = require(rootDir + "/lib/strlib");
 
 let _data = require(rootDir + "/_data/_data.json");
+let logs = require(rootDir + "/logs/_logs.json");
 let results = require(rootDir + "/results/_results.json");
 let sources = require(rootDir + "/sources/_sources.json");
 let argv = proclib.args.argv;
@@ -2905,11 +2906,11 @@ function fixDecisions(done)
     printf("decisions available: %d\n", decisions.length);
 
     let citesSCDB = {};
-    let changedCourts = readFile(results.logs.csv.changedCourts) || "caseId,usCite,caseName,dateDecision,naturalCourt,naturalCourtNew\n";
-    let changedDates = readFile(results.logs.csv.changedDates) || "caseId,usCite,caseName,dateDecision,dateDecisionNew\n";
-    let missingCases = readFile(results.logs.csv.missingCases) || "usCite,caseTitle,dateDecision\n";
-    let unknownCitations = readFile(results.logs.csv.unknownCitations) || "usCite,caseName,dateDecision\n";
-    let unusualDates = readFile(results.logs.csv.unusualDates) || "caseId,usCite,caseName,dateDecision,dayOfWeek\n";
+    let changedCourts = readFile(logs.csv.changedCourts) || "caseId,usCite,caseName,dateDecision,naturalCourt,naturalCourtNew\n";
+    let changedDates = readFile(logs.csv.changedDates) || "caseId,usCite,caseName,dateDecision,dateDecisionNew\n";
+    let missingCases = readFile(logs.csv.missingCases) || "usCite,caseTitle,dateDecision\n";
+    let unknownCitations = readFile(logs.csv.unknownCitations) || "usCite,caseName,dateDecision\n";
+    let unusualDates = readFile(logs.csv.unusualDates) || "caseId,usCite,caseName,dateDecision,dayOfWeek\n";
     let changedCourtsOrig = changedCourts, changedDatesOrig = changedDates, missingCasesOrig = missingCases, unknownCitationsOrig = unknownCitations, unusualDatesOrig = unusualDates;
 
     decisions.forEach((decision) => {
@@ -3118,19 +3119,19 @@ function fixDecisions(done)
     }
 
     if (changedCourts != changedCourtsOrig) {
-        writeFile(results.logs.csv.changedCourts, changedCourts);
+        writeFile(logs.csv.changedCourts, changedCourts);
     }
     if (changedDates != changedDatesOrig) {
-        writeFile(results.logs.csv.changedDates, changedDates);
+        writeFile(logs.csv.changedDates, changedDates);
     }
     if (missingCases != missingCasesOrig) {
-        writeFile(results.logs.csv.missingCases, missingCases);
+        writeFile(logs.csv.missingCases, missingCases);
     }
     if (unknownCitations != unknownCitationsOrig) {
-        writeFile(results.logs.csv.unknownCitations, unknownCitations);
+        writeFile(logs.csv.unknownCitations, unknownCitations);
     }
     if (unusualDates != unusualDatesOrig) {
-        writeFile(results.logs.csv.unusualDates, unusualDates);
+        writeFile(logs.csv.unusualDates, unusualDates);
     }
 
     if (changes) {

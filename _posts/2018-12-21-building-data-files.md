@@ -218,10 +218,10 @@ More worrisome are all the decision date discrepancies we've found.  SCDB
 > For volumes 2-107 of the U.S. Reports (1791-1882), we relied on [Dates of Supreme Court Decisions and Arguments](http://www.supremecourt.gov/opinions/datesofdecisions.pdf), prepared by Anne Ashmore of the Library of the Supreme Court,
 because many early reporters do not list the date of decision.
 
-but if they did, they made a surprising number of [mistakes](/results/logs/changedDates.csv).  While some of the
-[warnings](/results/logs/warnings.txt) we automatically generate are not necessarily errors, they may merit some attention.
+but if they did, they made a surprising number of [mistakes](/logs/changedDates.csv).  While some of the
+[warnings](/logs/fixDecisions.log) we automatically generate are not necessarily errors, they may merit some attention.
 
-For example, decisions handed down on a Saturday or Sunday are [unusual](/results/logs/unusualDates.csv), especially in
+For example, decisions handed down on a Saturday or Sunday are [unusual](/logs/unusualDates.csv), especially in
 modern times.  Take this pair of warnings:
 
     warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has decision date 1807-03-07 instead of SCOTUS date 1808-03-07
@@ -245,8 +245,8 @@ to our copy of SCDB's Natural Court data.
 For example, they indicate that the final Warren Court ended on June 22, 1969 and the first Burger Court began the next day,
 on June 23, 1969.  However, several decisions were handed down on June 23, 1969, which could only have been Warren Court decisions.
 
-These and other inconsistencies, such as [missing cases](/results/logs/missingCases.csv) and [unknown citations](/results/logs/unknownCitations.csv),
-are being [logged](/results/logs/warnings.txt) in the [Lone Dissent Project](https://github.com/jeffpar/lonedissent),
+These and other inconsistencies, such as [missing cases](/logs/missingCases.csv) and [unknown citations](/logs/unknownCitations.csv),
+are being [logged](/logs/allDecisions.log) in the [Lone Dissent Project](https://github.com/jeffpar/lonedissent),
 and hopefully they will be reconciled over time.  We also hope that, someday, SCDB adopts more transparency in its update procedures,
 so that when a correction is made, both the change itself *and* the source of the data is recorded and shared.  This will help
 future researchers avoid unreliable third-party data sources.
