@@ -112,8 +112,8 @@ let _data = require(rootDir + "/_data/_data.json");
 let results = require(rootDir + "/results/_results.json");
 let sources = require(rootDir + "/sources/_sources.json");
 let argv = proclib.args.argv;
-let warnings = 0;
 let downloadTasks = [];
+let warnings = 0;
 
 /**
  * @typedef {object} Justice
@@ -225,6 +225,18 @@ let downloadTasks = [];
  */
 
 /**
+ * warning(format, ...args)
+ *
+ * @param {string} format
+ * @param {...} args
+ */
+function warning(format, ...args)
+{
+    printf("warning: " + format, ...args);
+    warnings++;
+}
+
+/**
  * checkASCII(text, fExtended)
  *
  * @param {string} text
@@ -240,7 +252,7 @@ function checkASCII(text, fExtended)
         for (let j = 0; j < line.length; j++) {
             let ch = line.charCodeAt(j);
             if (ch < 0x20 && ch != 0x09 || fExtended && ch > 0x7f) {
-                printf("warning: unexpected character %02x at row %d col %d: '%s'\n", ch, i+1, j+1, line);
+                warning("unexpected character %02x at row %d col %d: '%s'\n", ch, i+1, j+1, line);
                 valid = false;
             }
         }
@@ -280,8 +292,7 @@ function fixASCII(text)
             break;
         default:
             if (c >= 0x7f) {
-                printf("warning: text '%s' contains unrecognized character '%c' (0x%02x) at pos %d\n", text, c, c, i + 1);
-                warnings++;
+                warning("text '%s' contains unrecognized character '%c' (0x%02x) at pos %d\n", text, c, c, i + 1);
                 break;
             }
             textNew += String.fromCharCode(c);
@@ -364,7 +375,7 @@ function mapValues(o, vars, strict)
                 }
                 else if (strict) {
                     if (vars[key].type != "number" || o[key]) {
-                        printf("warning: code '%s' for key '%s' has no value\n", o[key], key);
+                        warning("code '%s' for key '%s' has no value\n", o[key], key);
                         changes = -1;
                     }
                 }
@@ -381,7 +392,7 @@ function mapValues(o, vars, strict)
             }
         }
         else if (strict) {
-            printf("warning: variable '%s' missing\n", key);
+            warning("variable '%s' missing\n", key);
             changes = -1;
         }
     }
@@ -405,21 +416,23 @@ function removeValues(a, values)
 }
 
 /**
- * searchObjects(a, key, value, first)
+ * binaryInsert(a, v, compare, left, right)
  *
- * @param {Array.<object>} a
- * @param {string} key
- * @param {*} value
- * @param {number} [first]
- * @return {number} (index of position, or -1 if not found)
+ * If element v already exists in array a, the array is unchanged (we don't allow duplicates); otherwise, the
+ * element is inserted into the array at the appropriate index.
+ *
+ * @param {Array} a
+ * @param {*} v (value to insert)
+ * @param {function(*,*} [compare]
+ * @param {number} [left]
+ * @param {number} [right]
  */
-function searchObjects(a, key, value, first=0)
+function binaryInsert(a, v, compare, left=0, right=a.length)
 {
-    let i;
-    for (i = first; i < a.length; i++) {
-        if (a[i][key] == value) break;
+    let index = binarySearch(a, v, compare, left, right);
+    if (index < 0) {
+        a.splice(-(index + 1), 0, v);
     }
-    return (i < a.length)? i : -1;
 }
 
 /**
@@ -455,23 +468,120 @@ function binarySearch(a, v, compare, left=0, right=a.length)
 }
 
 /**
- * binaryInsert(a, v, compare, left, right)
+ * insertSortedObject(rows, row, keys)
  *
- * If element v already exists in array a, the array is unchanged (we don't allow duplicates); otherwise, the
- * element is inserted into the array at the appropriate index.
- *
- * @param {Array} a
- * @param {*} v (value to insert)
- * @param {function(*,*} [compare]
- * @param {number} [left]
- * @param {number} [right]
+ * @param {Array.<object>} rows
+ * @param {object} row
+ * @param {Array.<string>} keys
  */
-function binaryInsert(a, v, compare, left=0, right=a.length)
+function insertSortedObject(rows, row, keys)
 {
-    let index = binarySearch(a, v, compare, left, right);
-    if (index < 0) {
-        a.splice(-(index + 1), 0, v);
+    let compare = function(row1, row2) {
+        for (let k = 0; k < keys.length; k++) {
+            let key = keys[k];
+            if (row1[key] > row2[key]) return 1;
+            if (row1[key] < row2[key]) return -1;
+            if (k == keys.length - 1) return 0;
+        }
+    };
+    binaryInsert(rows, row, compare);
+}
+
+/**
+ * isSortedObjects(rows, keys, fQuiet)
+ *
+ * @param {Array.<object>} rows
+ * @param {Array.<string>} keys
+ * @param {boolean} [fQuiet]
+ * @return {boolean}
+ */
+function isSortedObjects(rows, keys, fQuiet)
+{
+    let isSorted = true;
+    for (let i = 1; i < rows.length; i++) {
+        let row1 = rows[i-1], row2 = rows[i];
+        for (let k = 0; k < keys.length; k++) {
+            let key = keys[k];
+            if (row1[key] < row2[key]) break;
+            if (row1[key] == row2[key]) continue;
+            isSorted = false;
+            if (fQuiet) {
+                i = rows.length;
+                break;
+            }
+            warning("row %d '%s' (%s) > row %d '%s' (%s)\n", i+1, key, row1[key], i+2, key, row2[key]);
+        }
     }
+    return isSorted;
+}
+
+/**
+ * searchObjects(a, key, value, next)
+ *
+ * @param {Array.<object>} rows
+ * @param {string} key
+ * @param {*} value
+ * @param {number} [next]
+ * @return {number} (index of position, or -1 if not found)
+ */
+function searchObjects(rows, key, value, next=0)
+{
+    let i;
+    for (i = next; i < rows.length; i++) {
+        if (rows[i][key] == value) break;
+    }
+    return (i < rows.length)? i : -1;
+}
+
+/**
+ * searchSortedObjects(rows, row)
+ *
+ * @param {Array.<object>} rows
+ * @param {object} row
+ * @return {number}
+ */
+function searchSortedObjects(rows, row)
+{
+    let keys = Object.keys(row);
+    let compare = function(row1, row2) {
+        for (let k = 0; k < keys.length; k++) {
+            let key = keys[k];
+            let v1 = row1[key], v2 = row2[key];
+            if (typeof v1 == "string" && v1.slice(-1) == '.') v1 = v1.slice(0, -1);
+            if (typeof v2 == "string" && v2.slice(-1) == '.') v2 = v2.slice(0, -1);
+            if (v1 > v2) {
+                // printf("%s: %s > %s: 1\n", key, v1, v1);
+                return 1;
+            }
+            if (v1 < v2) {
+                // printf("%s: %s < %s: -1\n", key, v1, v2);
+                return -1;
+            }
+            if (k == keys.length - 1) {
+                // printf("%s: %s == %s: 0\n", key, v1, v2);
+                return 0;
+            }
+        }
+    };
+    return binarySearch(rows, row, compare);
+}
+
+/**
+ * sortObjects(rows, keys)
+ *
+ * @param {Array.<object>} rows
+ * @param {Array.<string>} keys
+ */
+function sortObjects(rows, keys)
+{
+    rows.sort(function(row1, row2) {
+        for (let k = 0; k < keys.length; k++) {
+            let key = keys[k];
+            if (row1[key] > row2[key]) return 1;
+            if (row1[key] < row2[key]) return -1;
+            if (k == keys.length - 1) return 0;
+        }
+    });
 }
 
 /**
@@ -517,54 +627,6 @@ function addCSV(text, obj, keys, ...pairs)
 }
 
 /**
- * insertCSV(rows, row, keys)
- *
- * @param {Array.<object>} rows
- * @param {object} row
- * @param {Array.<string>} keys
- */
-function insertCSV(rows, row, keys)
-{
-    let compare = function(row1, row2) {
-        for (let k = 0; k < keys.length; k++) {
-            let key = keys[k];
-            if (row1[key] > row2[key]) return 1;
-            if (row1[key] < row2[key]) return -1;
-            if (k == keys.length - 1) return 0;
-        }
-    };
-    binaryInsert(rows, row, compare);
-}
-
-/**
- * isSortedCSV(rows, keys, fQuiet)
- *
- * @param {Array.<object>} rows
- * @param {Array.<string>} keys
- * @param {boolean} [fQuiet]
- * @return {boolean}
- */
-function isSortedCSV(rows, keys, fQuiet)
-{
-    let isSorted = true;
-    for (let i = 1; i < rows.length; i++) {
-        let row1 = rows[i-1], row2 = rows[i];
-        for (let k = 0; k < keys.length; k++) {
-            let key = keys[k];
-            if (row1[key] < row2[key]) break;
-            if (row1[key] == row2[key]) continue;
-            isSorted = false;
-            if (fQuiet) {
-                i = rows.length;
-                break;
-            }
-            printf("warning: row %d '%s' (%s) > row %d '%s' (%s)\n", i+1, key, row1[key], i+2, key, row2[key]);
-        }
-    }
-    return isSorted;
-}
-
-/**
  * parseCSV(text, encodeAs, maxRows, keyUnique, keySubset, saveUniqueKey, vars)
  *
  * By default, all CSV fields containing strings are returned as-is, unless encodeAs is "html", which triggers replacement
@@ -598,7 +660,7 @@ function parseCSV(text, encodeAs="", maxRows=0, keyUnique="", keySubset="", save
             for (let h = 0; h < headings.length; h++) {
                 let heading = headings[h];
                 if (!heading || row[headings[h]] !== undefined) {
-                    printf("warning: CSV field heading %d (%s) is invalid or duplicate\n", h, heading);
+                    warning("CSV field heading %d (%s) is invalid or duplicate\n", h, heading);
                     heading = "field" + (h + 1);
                 }
                 row[heading] = h;
@@ -612,7 +674,7 @@ function parseCSV(text, encodeAs="", maxRows=0, keyUnique="", keySubset="", save
                 let heading = headings[h];
                 if (vars) {
                     if (!vars[heading]) {
-                        printf("warning: %s field is an undefined type, defaulting to string\n", heading);
+                        warning("%s field is an undefined type, defaulting to string\n", heading);
                         vars[heading] = {type: "string", dump: true};
                     }
                     if (vars[heading]) {
@@ -630,9 +692,9 @@ function parseCSV(text, encodeAs="", maxRows=0, keyUnique="", keySubset="", save
                                 if (v && (Array.isArray(v) && v.indexOf(field) < 0 || !Array.isArray(v) && v[field] === undefined) || !v && field == "NULL") {
                                     if (argv['debug']) {
                                         if (fieldUnique && fieldUnique != "NULL") {
-                                            printf("warning: record %s field %s has unexpected value '%s'\n", fieldUnique, heading, field);
+                                            warning("record %s field %s has unexpected value '%s'\n", fieldUnique, heading, field);
                                         } else {
-                                            printf("warning: CSV row %d field %s has unexpected value '%s'\n", i+1, heading, field);
+                                            warning("CSV row %d field %s has unexpected value '%s'\n", i+1, heading, field);
                                         }
                                     }
                                 }
@@ -670,7 +732,7 @@ function parseCSV(text, encodeAs="", maxRows=0, keyUnique="", keySubset="", save
                 }
             }
             if (headings.length != fields.length) {
-                printf("warning: CSV row %d has %d fields, expected %d\n", i+1, fields.length, headings.length);
+                warning("CSV row %d has %d fields, expected %d\n", i+1, fields.length, headings.length);
             }
             if (subset) {
                 if (!matchedPrevious) {
@@ -772,57 +834,6 @@ function parseCSVFields(line, encodeAs, fHeadings)
 function readCSV(filePath, encodeAs="")
 {
     return parseCSV(readFile(filePath) || "", encodeAs);
-}
-
-/**
- * searchCSV(rows, row)
- *
- * @param {Array.<object>} rows
- * @param {object} row
- * @return {number}
- */
-function searchCSV(rows, row)
-{
-    let keys = Object.keys(row);
-    let compare = function(row1, row2) {
-        for (let k = 0; k < keys.length; k++) {
-            let key = keys[k];
-            let v1 = row1[key], v2 = row2[key];
-            if (typeof v1 == "string" && v1.slice(-1) == '.') v1 = v1.slice(0, -1);
-            if (typeof v2 == "string" && v2.slice(-1) == '.') v2 = v2.slice(0, -1);
-            if (v1 > v2) {
-                // printf("%s: %s > %s: 1\n", key, v1, v1);
-                return 1;
-            }
-            if (v1 < v2) {
-                // printf("%s: %s < %s: -1\n", key, v1, v2);
-                return -1;
-            }
-            if (k == keys.length - 1) {
-                // printf("%s: %s == %s: 0\n", key, v1, v2);
-                return 0;
-            }
-        }
-    };
-    return binarySearch(rows, row, compare);
-}
-
-/**
- * sortCSV(rows, keys)
- *
- * @param {Array.<object>} rows
- * @param {Array.<string>} keys
- */
-function sortCSV(rows, keys)
-{
-    rows.sort(function(row1, row2) {
-        for (let k = 0; k < keys.length; k++) {
-            let key = keys[k];
-            if (row1[key] > row2[key]) return 1;
-            if (row1[key] < row2[key]) return -1;
-            if (k == keys.length - 1) return 0;
-        }
-    });
 }
 
 /**
@@ -1027,7 +1038,7 @@ function readCourts()
             }
         }
         if (!matched) {
-            printf("warning: unable to find HTML court '%s' in XML courts\n", name);
+            warning("unable to find HTML court '%s' in XML courts\n", name);
         }
     }
     /*
@@ -1154,7 +1165,7 @@ function readOyezJustices()
                 if (xmlAppt.justiceReasonForLeaving) {
                     justice.stopReason = xmlAppt.justiceReasonForLeaving[0];
                 } else {
-                    printf("warning: justice '%s' stopped for no reason\n", justice.name);
+                    warning("justice '%s' stopped for no reason\n", justice.name);
                 }
             }
             justices.push(justice);
@@ -1206,8 +1217,7 @@ function readSCDBCourts()
         let start = parseDate(court.naturalStart);
         let stop = parseDate(court.naturalStop);
         if (startNext && start.getTime() != startNext.getTime()) {
-            printf("warning: %s: current start date (%#C) does not match previous stop date (%#C)\n", court.naturalName, start, startNext);
-            warnings++;
+            warning("%s: current start date (%#C) does not match previous stop date (%#C)\n", court.naturalName, start, startNext);
         }
         court.start = sprintf("%#Y-%#02M-%#02D", start);
         court.stop = sprintf("%#Y-%#02M-%#02D", stop);
@@ -1239,10 +1249,10 @@ function readSCOTUSDecisions()
     //     }
     //     for (let i = 0; i < rowsFreeLaw.length - 1; i++) {
     //         if (rowsFreeLaw[i][1] != decisions[i].caseTitle) {
-    //             printf("warning: FreeLaw row %d (%s) does not match SCOTUS row (%s)\n", i + 1, rowsFreeLaw[i][1], decisions[i].caseTitle);
+    //             warning("FreeLaw row %d (%s) does not match SCOTUS row (%s)\n", i + 1, rowsFreeLaw[i][1], decisions[i].caseTitle);
     //         }
     //         if (rowsFreeLaw[i][4] != decisions[i].dateDecision) {
-    //             printf("warning: FreeLaw row %d (%s) does not match SCOTUS row (%s)\n", i + 1, rowsFreeLaw[i][4], decisions[i].dateDecision);
+    //             warning("FreeLaw row %d (%s) does not match SCOTUS row (%s)\n", i + 1, rowsFreeLaw[i][4], decisions[i].dateDecision);
     //         }
     //     }
     // }
@@ -1251,14 +1261,12 @@ function readSCOTUSDecisions()
     for (let i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
         if (!decision.dateDecision) {
-            printf("warning: %s (%s) has no decision date\n", decision.caseTitle, decision.usCite);
-            warnings++;
+            warning("%s (%s) has no decision date\n", decision.caseTitle, decision.usCite);
             continue;
         }
         let match = decision.usCite.match(/([0-9]+) U.S. ([0-9]+)/);
         if (!match) {
-            printf("warning: %s (%s) has unrecognized citation\n", decision.caseTitle, decision.usCite);
-            warnings++;
+            warning("%s (%s) has unrecognized citation\n", decision.caseTitle, decision.usCite);
             continue;
         }
         decision.volume = match[1];
@@ -1344,8 +1352,7 @@ function buildCitations(done)
                         break;
                     }
                     if (volBegin < 0) {
-                        printf("warning: unrecognized reporter '%s' for '%s' (see %s: '%s')\n", reporter, caseTitle, filePaths[i], html.substr(match.index, 100).trim());
-                        warnings++;
+                        warning("unrecognized reporter '%s' for '%s' (see %s: '%s')\n", reporter, caseTitle, filePaths[i], html.substr(match.index, 100).trim());
                         continue;
                     }
                     let page = match[5];
@@ -1353,8 +1360,7 @@ function buildCitations(done)
                     let oldCite = "";
                     if (volBegin < 91) {
                         if (!+page) {
-                            printf("warning: unrecognized page '%s' for '%s' (see %s: '%s')\n", page, caseTitle, filePaths[i], html.substr(match.index, 100).trim());
-                            warnings++;
+                            warning("unrecognized page '%s' for '%s' (see %s: '%s')\n", page, caseTitle, filePaths[i], html.substr(match.index, 100).trim());
                             continue;
                         }
                         oldCite = sprintf("%d %s %d", volume, reporter, +page);
@@ -1421,8 +1427,7 @@ function buildCitations(done)
                     let caseTitle = match[4], volume = +match[5], page = +match[6];
                     let usCite = sprintf("%d U.S. %d", volume, page);
                     if (volume != +match[2] || page != +match[3]) {
-                        printf("warning: citation (%s) does not match link (%s U.S. %s)\n", usCite, match[2], match[3]);
-                        warnings++;
+                        warning("citation (%s) does not match link (%s U.S. %s)\n", usCite, match[2], match[3]);
                     }
                     let oldCite = getOldCite(volume, page);
                     let matchDate = match[7].match(/<span[^>]*>\s*<strong>Date:<\/strong>\s*([^<]*)([0-9][0-9][0-9][0-9])\s*<\/span>/);
@@ -1531,8 +1536,7 @@ function buildCitations(done)
                     let score = scoreStrings(citeLoc.caseTitle, citeScotus.caseTitle);
                     if (citeLoc.usCite == citeScotus.usCite && (+citeLoc.pageURL || score > 50)) {
                         if (citeLoc.oldCite != citeScotus.oldCite) {
-                            printf("warning: SCOTUS citation (%s) doesn't match LOC citation (%s)\n", citeScotus.oldCite, citeLoc.oldCite);
-                            warnings++;
+                            warning("SCOTUS citation (%s) doesn't match LOC citation (%s)\n", citeScotus.oldCite, citeLoc.oldCite);
                         }
                         citeLoc.matched = true;
                         citeBest = citeLoc;
@@ -1544,8 +1548,7 @@ function buildCitations(done)
                     }
                 }
                 if (!citeBest) {
-                    printf("warning: unable to find SCOTUS citation '%s' (%s) in LOC citations\n", citeScotus.caseTitle, citeScotus.usCite);
-                    warnings++;
+                    warning("unable to find SCOTUS citation '%s' (%s) in LOC citations\n", citeScotus.caseTitle, citeScotus.usCite);
                 }
                 else if (citeScotus.usCite != citeBest.usCite && scoreBest > 75) {
                     // printf("correction: SCOTUS citation '%s' (%s) has better LOC match '%s' (%s): %d\n", citeScotus.caseTitle, citeScotus.usCite, citeBest.caseTitle, citeBest.usCite, scoreBest);
@@ -1557,8 +1560,7 @@ function buildCitations(done)
         } else {
             let page = +citesScotusVolume[0].page;
             if (volume <= 569 && !isNaN(page)) {
-                // printf("warning: unable to find SCOTUS volume %d in LOC citations\n", volume);
-                // warnings++;
+                // warning("unable to find SCOTUS volume %d in LOC citations\n", volume);
             }
         }
     });
@@ -1582,8 +1584,7 @@ function buildCitations(done)
                     let score = scoreStrings(citeScotus.caseTitle, citeLoc.caseTitle);
                     if (citeScotus.usCite == citeLoc.usCite && (score > 50 || locCites[citeLoc.usCite].length == 1 && citesScotus[citeScotus.usCite].length == 1)) {
                         if (citeScotus.oldCite != citeLoc.oldCite) {
-                            printf("warning: LOC citation (%s) doesn't match SCOTUS citation (%s)\n", citeLoc.oldCite, citeScotus.oldCite);
-                            warnings++;
+                            warning("LOC citation (%s) doesn't match SCOTUS citation (%s)\n", citeLoc.oldCite, citeScotus.oldCite);
                         }
                         citeScotus.matched = true;
                         scoreBest = score;
@@ -1596,8 +1597,7 @@ function buildCitations(done)
                     }
                 }
                 if ((!citeBest || citeBest.usCite != citeLoc.usCite) && citeLoc.caseTitle.indexOf(" v. ") < 0 && citeLoc.caseTitle.indexOf("Anonymous") < 0) {
-                    printf("warning: unable to find LOC citation '%s' (%s) in SCOTUS citations\n", citeLoc.caseTitle, citeLoc.usCite);
-                    warnings++;
+                    warning("unable to find LOC citation '%s' (%s) in SCOTUS citations\n", citeLoc.caseTitle, citeLoc.usCite);
                     let row = {
                         volume: citeLoc.volume,
                         page: citeLoc.page,
@@ -1606,7 +1606,7 @@ function buildCitations(done)
                         oldCite: citeLoc.oldCite,
                         usCite: citeLoc.usCite
                     };
-                    insertCSV(rowsScotus, row, ["volume", "page", "caseTitle"]);
+                    insertSortedObject(rowsScotus, row, ["volume", "page", "caseTitle"]);
                     additions++;
                 }
                 else if (citeBest && citeLoc.usCite != citeBest.usCite && scoreBest > 75) {
@@ -1618,8 +1618,7 @@ function buildCitations(done)
             }
         }
         // else {
-        //     printf("warning: unable to find LOC volume %d in SCOTUS citations\n", volume);
-        //     warnings++;
+        //     warning("unable to find LOC volume %d in SCOTUS citations\n", volume);
         // }
     });
 
@@ -1630,8 +1629,7 @@ function buildCitations(done)
     rowsDates.forEach((cite) => {
         let match = cite.usCite.match(/^([0-9]+) U.S. ([0-9]+)$/);
         if (match && !citesScotus[cite.usCite]) {
-            printf("warning: unable to find date citation '%s' (%s) %s in SCOTUS citations\n", cite.caseTitle, cite.usCite, cite.dateDecision);
-            warnings++;
+            warning("unable to find date citation '%s' (%s) %s in SCOTUS citations\n", cite.caseTitle, cite.usCite, cite.dateDecision);
             let row = {
                 volume: +match[1],
                 page: +match[2],
@@ -1640,7 +1638,7 @@ function buildCitations(done)
                 oldCite: getOldCite(+match[1], +match[2]),
                 usCite: cite.usCite
             };
-            insertCSV(rowsScotus, row, ["volume", "page", "caseTitle"]);
+            insertSortedObject(rowsScotus, row, ["volume", "page", "caseTitle"]);
             additions++;
         }
     });
@@ -1692,7 +1690,7 @@ function buildCourts(done)
             }
         }
         if (nCourts != 1) {
-            printf("warning: justice %s started in %d courts\n", justice.name, nCourts);
+            warning("justice %s started in %d courts\n", justice.name, nCourts);
         }
     }
 
@@ -1799,12 +1797,12 @@ function buildJustices(done)
                     oyez.scdbJustice = +justice.index;
                     break;
                 } else {
-                    printf("warning: SCDB justice '%s' date (%s) doesn't match OYEZ justice '%s' date (%s)\n", justice.name, justice.start, oyez.name, oyez.start);
+                    warning("SCDB justice '%s' date (%s) doesn't match OYEZ justice '%s' date (%s)\n", justice.name, justice.start, oyez.name, oyez.start);
                 }
             }
         }
         if (missing) {
-            // printf("warning: unable to find SCDB justice '%s' (%d) in OYEZ\n", justice.name, justice.index)
+            // warning("unable to find SCDB justice '%s' (%d) in OYEZ\n", justice.name, justice.index)
             justice.scdbJustice = +justice.index;
             delete justice.index;
             justicesOyez.push(justice);
@@ -2077,22 +2075,22 @@ function sortVotesBySeniority(votes, date, vars, courts, justices)
                         break;
                     }
                     // else {
-                    //     printf("warning: unable to find vote for %s for date %s in %s\n", j, date, court.name);
+                    //     warning("unable to find vote for %s for date %s in %s\n", j, date, court.name);
                     // }
                 }
                 // else {
-                //     printf("warning: unable to find SCDB ID for justice ID %s\n", idJustice);
+                //     warning("unable to find SCDB ID for justice ID %s\n", idJustice);
                 // }
             }
             if (iJustice < 0) {
-                printf("warning: unable to find justice ID %s\n", idJustice);
+                warning("unable to find justice ID %s\n", idJustice);
             }
         }
         votesOld.forEach((vote) => {
-            printf("warning: unable to find %s in list of justices for date %s in %s\n", vote.justice, date, court.name);
+            warning("unable to find %s in list of justices for date %s in %s\n", vote.justice, date, court.name);
         });
     } else {
-        printf("warning: unable to find suitable court for date %s\n", date);
+        warning("unable to find suitable court for date %s\n", date);
     }
     return votesNew;
 }
@@ -2200,6 +2198,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     printf("decisions available: %d\n", decisions.length);
     let lonerBackup = JSON.parse(readFile(_data.lonerBackup) || "[]");
 
+    let additions = 0;
     let dataFile = minVotes == 1? _data.lonerDecisions : _data.allDecisions;
     let data = JSON.parse(!argv['overwrite'] && readFile(dataFile) || "[]");
     let vars = JSON.parse(readFile(sources.scdb.vars) || "{}");
@@ -2264,7 +2263,6 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
         printf("results%s%s: %d\n", range, condition, results.length);
 
         if (results.length) {
-            let additions = 0;
             vars['caseNotes'] = {"type": "string"};
             vars['pdfSource'] = {"type": "string"};
             vars['pdfPage'] = {"type": "number"};
@@ -2312,8 +2310,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                  *      unable to find caseId '1919-181' in data set
                  */
                 mapValues(result, vars, true);
-                let i = searchObjects(data, "caseId", result.caseId);
-                if (i < 0) {
+                let iSearch = searchSortedObjects(data, {"caseId": result.caseId});
+                if (iSearch < 0 || argv['check']) {
                     if (termId) result['termId'] = termId;
                     if (minVotes == 1) {
                         /*
@@ -2327,7 +2325,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                                     dissenterId = justice.justice;
                                     dissenterName = justice.justiceName;
                                 } else {
-                                    printf("warning: case %s (%s) has multiple dissents (eg, %s, %s)\n", result.caseId, result.usCite, dissenterName, justice.justiceName);
+                                    warning("case %s (%s) has multiple dissents (eg, %s, %s)\n", result.caseId, result.usCite, dissenterName, justice.justiceName);
                                 }
                             }
                         }
@@ -2335,7 +2333,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                             result['dissenterId'] = dissenterId;
                             result['dissenterName'] = dissenterName;
                         } else {
-                            printf("warning: unable to identify dissenter for case %s (%s)\n", result.caseId, result.usCite);
+                            warning("unable to identify dissenter for case %s (%s)\n", result.caseId, result.usCite);
                         }
                     }
                     let b = searchObjects(lonerBackup, "caseId", result.caseId);
@@ -2355,25 +2353,24 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                             result['pdfSource'] = "slipopinion/" + (year % 100);
                         }
                     }
-                    data.push(result);
-                    additions++;
+                    if (iSearch < 0) {
+                        data.push(result);
+                        additions++;
+                    }
                 } else {
                     let citation = (result.usCite || ('No. ' + result.docket));
                     if (argv['debug']) {
-                        printf("warning: %s (%s) already exists in %s\n", result.caseId, citation, dataFile);
+                        warning("%s (%s) already exists in %s\n", result.caseId, citation, dataFile);
                     }
-                    if (mapValues(data[i], vars) > 0) {
-                        printf("warning: %s (%s) being updated in %s\n", result.caseId, citation, dataFile);
+                    if (mapValues(data[iSearch], vars) > 0) {
+                        warning("%s (%s) being updated in %s\n", result.caseId, citation, dataFile);
                         additions++;
                     }
-                    results[r] = data[i];
+                    results[r] = data[iSearch];
                 }
             }
-            if (additions) {
-                writeFile(dataFile, data);
-            }
             if (term) {
-                sortCSV(results, ["volume", "page", "caseTitle"]);
+                sortObjects(results, ["volume", "page", "caseTitle"]);
                 /*
                  * Create a page for each term of decisions that doesn't already have one (eg, _pages/cases/loners/yyyy-mm.md)
                  */
@@ -2496,11 +2493,17 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
         }
     } while (term && endTerm && start < endTerm);
 
+    if (additions) {
+        data.sort(function(a, b) {
+            return a.caseId < b.caseId? -1 : (a.caseId > b.caseId? 1 : 0);
+        });
+        writeFile(dataFile, data);
+    }
+
     printf("totals: matched %d decisions out of %d\n", decisionsAudited.length, decisions.length);
 
     if (decisionsDuplicated.length) {
-        printf("warning: checked %d decisions more than once (%j)\n", decisionsDuplicated.length, decisionsDuplicated);
-        warnings++;
+        warning("checked %d decisions more than once (%j)\n", decisionsDuplicated.length, decisionsDuplicated);
     }
 
     if (changes) printf("changes: %d\n", changes);
@@ -2557,13 +2560,13 @@ function findJustices(done, minVotes)
                     if (!dataBuckets[justice.scdbJustice]) {
                         dataBuckets[justice.scdbJustice] = [];
                     } else {
-                        printf("warning: SCDB justice ID %s listed multiple times\n", id);
+                        warning("SCDB justice ID %s listed multiple times\n", id);
                     }
                 } else {
-                    printf("warning: SCDB justice index %d has no SCDB justice ID\n", justice.scdbJustice);
+                    warning("SCDB justice index %d has no SCDB justice ID\n", justice.scdbJustice);
                 }
             } else {
-                printf("warning: justice %s has no SCDB justice index\n", justice.id);
+                warning("justice %s has no SCDB justice index\n", justice.id);
             }
         });
         let dataDecisions = JSON.parse(readFile(minVotes == 1? _data.lonerDecisions : _data.allDecisions));
@@ -2575,7 +2578,7 @@ function findJustices(done, minVotes)
                 if (dataBuckets[justiceId]) {
                     dataBuckets[justiceId].push(decision);
                 } else {
-                    printf("warning: unable to find justice ID %s\n", justiceId);
+                    warning("unable to find justice ID %s\n", justiceId);
                 }
             }
         });
@@ -2766,7 +2769,7 @@ function fixDecisions(done)
                 if (!yearsScotus[citation.year]) yearsScotus[citation.year] = [];
                 yearsScotus[citation.year].push(citation);
             } else {
-                printf("warning: missing year in case '%s'\n", citation.caseTitle);
+                warning("missing year in case '%s'\n", citation.caseTitle);
             }
         }
         /*
@@ -2846,8 +2849,7 @@ function fixDecisions(done)
                         let cite = cites[i++];
                         let score = scoreStrings(decision.caseName, cite.caseTitle);
                         if (argv['check'] && decision.caseTitle == cite.caseTitle && score < 10) {
-                            printf("warning %s: '%s' == '%s' (%d)\n", decision.usCite, decision.caseTitle, decision.caseName, score);
-                            warnings++;
+                            warning("%s: '%s' == '%s' (%d)\n", decision.usCite, decision.caseTitle, decision.caseName, score);
                         }
                         if (cites.length == 1 && citesDecisions[decision.usCite].length == 1) {
                             citeBest = cite;
@@ -2869,8 +2871,7 @@ function fixDecisions(done)
                     let match = decision.usCite.match(/([0-9]+) U.S. ([0-9]+)/);
                     if (match) {
                         let volume = +match[1], page = +match[2];
-                        let tuple = {volume, page};
-                        let i = searchCSV(citationsLOC, tuple);
+                        let i = searchSortedObjects(citationsLOC, {volume, page});
                         if (i > 0) {
                             citePrev = citationsLOC[i];
                         } else if (i < 0) {
@@ -2903,8 +2904,7 @@ function fixDecisions(done)
                 for (i = 0; i < citesSCDB[decision.usCite].length; i++) {
                     let scdbCite = citesSCDB[decision.usCite][i];
                     if (scdbCite.caseName == decision.caseName) {
-                        printf("warning: %s (%s) may be duplicated (compare %s to %s)\n", decision.caseName, decision.usCite, scdbCite.caseId, decision.caseId);
-                        warnings++;
+                        warning("%s (%s) may be duplicated (compare %s to %s)\n", decision.caseName, decision.usCite, scdbCite.caseId, decision.caseId);
                     }
                 }
             }
@@ -2923,9 +2923,8 @@ function fixDecisions(done)
                 }
                 if (i == datesScotus.length && citeDate.dateDecision && decision.dateDecision != citeDate.dateDecision) {
                     citeDate.matched = true;
-                    printf("warning: %s (%s) has decision date %s instead of SCOTUS date %s\n", decision.caseName, decision.usCite, decision.dateDecision, citeDate.dateDecision);
+                    warning("%s (%s) has decision date %s instead of SCOTUS date %s\n", decision.caseName, decision.usCite, decision.dateDecision, citeDate.dateDecision);
                     changedDates = addCSV(changedDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dateDecisionNew", citeDate.dateDecision);
-                    warnings++;
                     decision.dateDecision = citeDate.dateDecision;
                     changes++;
                 }
@@ -2938,10 +2937,10 @@ function fixDecisions(done)
                         if (cite.dateDecision == decision.dateDecision) break;
                     }
                     if (i == cites.length) {
-                        printf("warning: %s (%s) decision date %s does not match OyezLabs '%s' decision date %s\n", decision.caseName, decision.usCite, decision.dateDecision, cite.caseTitle, cite.dateDecision);
+                        warning("%s (%s) decision date %s does not match OyezLabs '%s' decision date %s\n", decision.caseName, decision.usCite, decision.dateDecision, cite.caseTitle, cite.dateDecision);
                     }
                 } else {
-                    printf("warning: unable to find OyezLabs XML for %s (%s)\n", decision.caseName, decision.usCite);
+                    warning("unable to find OyezLabs XML for %s (%s)\n", decision.caseName, decision.usCite);
                 }
             }
         } else {
@@ -2958,8 +2957,7 @@ function fixDecisions(done)
                             let cite = years[y];
                             let score = scoreStrings(decision.caseName, cite.caseTitle);
                             if (argv['check'] && decision.caseTitle == cite.caseTitle && score < 10) {
-                                printf("warning %s: '%s' == '%s' (%d)\n", decision.dateDecision, decision.caseTitle, decision.caseName, score);
-                                warnings++;
+                                warning("%s: '%s' == '%s' (%d)\n", decision.dateDecision, decision.caseTitle, decision.caseName, score);
                             }
                             if (scoreBest < score) {
                                 scoreBest = score;
@@ -2978,7 +2976,7 @@ function fixDecisions(done)
                         }
                     }
                 } else {
-                    printf("warning: invalid dateDecision (%s)\n", decision.dateDecision);
+                    warning("invalid dateDecision (%s)\n", decision.dateDecision);
                 }
             }
         }
@@ -2986,7 +2984,7 @@ function fixDecisions(done)
         if (decision.caseTitle) {
             let s = encodeString(decision.caseTitle, "html");
             if (decision.caseTitle != s) {
-                printf("warning: old caseTitle encoding '%s'\n         new caseTitle encoding '%s'\n", decision.caseTitle, s);
+                warning("old caseTitle encoding '%s'\n         new caseTitle encoding '%s'\n", decision.caseTitle, s);
                 decision.caseTitle = s;
                 changes++;
             }
@@ -2996,9 +2994,8 @@ function fixDecisions(done)
             let dateDecision = parseDate(decision.dateDecision);
             let dayOfWeek = dateDecision.getUTCDay();
             if (dayOfWeek == 0 || dayOfWeek == 6) {
-                printf("warning: %s (%s) has unusual decision day: %#C\n", decision.caseName, decision.usCite, dateDecision);
+                warning("%s (%s) has unusual decision day: %#C\n", decision.caseName, decision.usCite, dateDecision);
                 unusualDates = addCSV(unusualDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dayOfWeek", sprintf("%#W", dateDecision) /*, "matchesSCOTUS", citeDate && citeDate.dateDecision == decision.dateDecision? true : false */);
-                warnings++;
             }
         }
 
@@ -3008,9 +3005,8 @@ function fixDecisions(done)
                 if (decision.dateDecision >= court.start && decision.dateDecision <= court.stop) {
                     let naturalCourt = +court.naturalCourt;
                     if (decision.naturalCourt != naturalCourt) {
-                        printf("warning: %s (%s): decision date %s lies within court %s (%d) but naturalCourt is different (%d)\n", decision.caseName, decision.usCite, decision.dateDecision, court.naturalName, naturalCourt, decision.naturalCourt);
+                        warning("%s (%s): decision date %s lies within court %s (%d) but naturalCourt is different (%d)\n", decision.caseName, decision.usCite, decision.dateDecision, court.naturalName, naturalCourt, decision.naturalCourt);
                         changedCourts = addCSV(changedCourts, decision, ["caseId", "usCite", "caseName", "dateDecision", "naturalCourt"], "naturalCourtNew", naturalCourt);
-                        warnings++;
                         decision.naturalCourt = naturalCourt;
                         changes++;
                     }
@@ -3018,8 +3014,7 @@ function fixDecisions(done)
                 }
             }
             if (i == courtsSCDB.length) {
-                printf("warning: %s (%s): decision date %s lies outside of any court; naturalCourt is %d\n", decision.caseName, decision.usCite, decision.dateDecision, decision.naturalCourt);
-                warnings++;
+                warning("%s (%s): decision date %s lies outside of any court; naturalCourt is %d\n", decision.caseName, decision.usCite, decision.dateDecision, decision.naturalCourt);
             }
         }
     });
@@ -3029,9 +3024,8 @@ function fixDecisions(done)
         let datesScotus = decisionsScotus[usCite];
         datesScotus.forEach((decisionScotus) => {
             if (!decisionScotus.matched) {
-                printf("warning: %s (%s) with SCOTUS decision date %s has no matching SCDB entry\n", decisionScotus.caseTitle, decisionScotus.usCite, decisionScotus.dateDecision);
+                warning("%s (%s) with SCOTUS decision date %s has no matching SCDB entry\n", decisionScotus.caseTitle, decisionScotus.usCite, decisionScotus.dateDecision);
                 missingCases = addCSV(missingCases, decisionScotus, ["usCite", "caseTitle", "dateDecision"]);
-                warnings++;
             }
         });
     });
@@ -3039,9 +3033,8 @@ function fixDecisions(done)
     if (argv['citations']) {
         decisions.forEach((decision) => {
             if (decision.usCite && !decision.caseTitle && decision.minVotes == 1) {
-                printf("warning: %s (%s) has no matching citation entry\n", decision.caseName, decision.usCite, decision.dateDecision);
+                warning("%s (%s) has no matching citation entry\n", decision.caseName, decision.usCite, decision.dateDecision);
                 unknownCitations = addCSV(unknownCitations, decision, ["usCite", "caseName", "dateDecision"]);
-                warnings++;
             }
         });
     }
@@ -3086,11 +3079,10 @@ function fixLOC(done)
     let rowsMisc = readCSV(results.csv.miscLOC);
     let rowsAll = [rowsLOC, rowsMisc];
     rowsAll.forEach((rows) => {
-        if (!isSortedCSV(rows, ["volume", "page", "caseTitle"], true)) {
-            sortCSV(rows, ["volume", "page", "caseTitle"])
-            if (!isSortedCSV(rows, ["volume", "page", "caseTitle"])) {
-                printf("warning: unable to sort CSV\n");
-                warnings++;
+        if (!isSortedObjects(rows, ["volume", "page", "caseTitle"], true)) {
+            sortObjects(rows, ["volume", "page", "caseTitle"])
+            if (!isSortedObjects(rows, ["volume", "page", "caseTitle"])) {
+                warning("unable to sort CSV\n");
                 success = false;
             }
         }
@@ -3115,17 +3107,15 @@ function fixLOC(done)
                 if (!isNaN(pagePDF)) {
                     page = pagePDF;
                 } else {
-                    printf("warning: unexpected PDF page number (%s)\n", match[2]);
-                    warnings++;
+                    warning("unexpected PDF page number (%s)\n", match[2]);
                 }
                 // printf('"%s","%d U.S. %d",%d\n', caseTitle, volume, page, pageTotal);
                 let o = {volume, page, caseTitle};
-                let i = searchCSV(rowsLOC, o);
+                let i = searchSortedObjects(rowsLOC, o);
                 if (i < 0) {
-                    i = searchCSV(rowsMisc, o);
+                    i = searchSortedObjects(rowsMisc, o);
                     if (i < 0) {
-                        printf('warning: unable to find "%s","%d U.S. %d" (see %03dus%03d.pdf)\n', caseTitle, volume, page, volumePDF, pagePDF);
-                        warnings++;
+                        warning('unable to find "%s","%d U.S. %d" (see %03dus%03d.pdf)\n', caseTitle, volume, page, volumePDF, pagePDF);
                     }
                 }
                 if (i >= 0) {
@@ -3238,6 +3228,17 @@ function testDates(done)
             if (textNew != text) {
                 writeFile(filePath, textNew);
             }
+        }
+    });
+
+    let dataFiles = [_data.lonerDecisions, _data.allDecisions];
+    dataFiles.forEach((dataFile) => {
+        let data = JSON.parse(readFile(dataFile) || "[]");
+        if (data.length) {
+            data.sort(function(a, b) {
+                return a.caseId < b.caseId? -1 : (a.caseId > b.caseId? 1 : 0);
+            });
+            writeFile(dataFile, data);
         }
     });
 
