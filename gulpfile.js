@@ -1092,6 +1092,7 @@ function readCourts()
             }
         }
     }
+    printf("courts read: %d\n", courts.length);
     if (fixes) {
         printf("writing %d corrections to %s\n", fixes, results.json.courts);
         writeFile(results.json.courts, courts);
@@ -1130,6 +1131,7 @@ function readOyezCourts()
     courts.sort(function(a, b) {
         return (a.start < b.start)? -1 : ((a.start > b.start)? 1 : 0);
     });
+    printf("Oyez courts read: %d\n", courts.length);
     return courts;
 }
 
@@ -1174,6 +1176,7 @@ function readOyezJustices()
     justices.sort(function(a, b) {
         return (a.start < b.start)? -1 : ((a.start > b.start)? 1 : 0);
     });
+    printf("Oyez justices read: %d\n", justices.length);
     return justices;
 }
 
@@ -1204,28 +1207,80 @@ function readOyezLabsDecisions()
 }
 
 /**
- * readSCDBCourts()
+ * readSCDBCourts(fDisplay)
  *
+ * @param {boolean} [fDisplay]
  * @return {Array.<Court>}
  */
-function readSCDBCourts()
+function readSCDBCourts(fDisplay)
 {
     let startNext = null;
     let courts = readCSV(sources.scdb.courtsCSV, "html");
+    let justices = readSCDBJustices();
     for (let i = 0; i < courts.length; i++) {
         let court = courts[i];
-        let start = parseDate(court.naturalStart);
-        let stop = parseDate(court.naturalStop);
+        let start = parseDate(court.dateStart);
+        let stop = parseDate(court.dateStop);
         if (startNext && start.getTime() != startNext.getTime()) {
             warning("%s: current start date (%#C) does not match previous stop date (%#C)\n", court.naturalName, start, startNext);
         }
+        let match = court.naturalName.match(/^(\S+)\s+([0-9]+)/);
+        let chiefJustice = match? match[1] : "";
         court.start = sprintf("%#Y-%#02M-%#02D", start);
         court.stop = sprintf("%#Y-%#02M-%#02D", stop);
         court.startFormatted = sprintf("%#C", start);
         court.stopFormatted = sprintf("%#C", stop);
+        court.justices = [];
+        let sJustices = "";
+        justices.forEach((justice) => {
+            if (justice.stop <= court.start || justice.start >= court.stop) return;
+            if (chiefJustice && justice.id.indexOf(chiefJustice) >= 0) {
+                court.justices.unshift(justice.id);
+                if (sJustices) sJustices = ',' + sJustices;
+                sJustices = justice.id + sJustices;
+            } else {
+                court.justices.push(justice.id);
+                if (sJustices) sJustices += ',';
+                sJustices += getJusticeId(justice.id);
+            }
+        });
+        if (fDisplay) {
+            printf("%s (%s to %s): %d justices (%s)\n", court.naturalName, court.startFormatted, court.stopFormatted, court.justices.length, sJustices);
+        }
         startNext = datelib.adjustDays(stop, 1);
     }
+    if (fDisplay) printf("SCDB courts read: %d\n", courts.length);
     return courts;
+}
+
+/**
+ * readSCDBJustices()
+ *
+ * @return {Array.<Justice>}
+ */
+function readSCDBJustices()
+{
+    let justices = readCSV(sources.scdb.justicesCSV, "html");
+    for (let i = 0; i < justices.length; i++) {
+        let first, last;
+        let justice = justices[i];
+        let match = justice.name.match(/(.*),\s*(.*)/);
+        if (match) {
+            first = match[2];
+            last = match[1];
+            justice.name =  first + ' ' + last;
+        }
+        let start = parseDate(justice.dateStart);
+        let stop = parseDate(justice.dateStop);
+        delete justice.dateStart;
+        delete justice.dateStop;
+        justice.start = sprintf("%#Y-%#02M-%#02D", start);
+        justice.startFormatted = sprintf("%#C", start);
+        justice.stop = sprintf("%#Y-%#02M-%#02D", stop);
+        justice.stopFormatted = sprintf("%#C", stop);
+    }
+    printf("SCDB justices read: %d\n", justices.length);
+    return justices;
 }
 
 /**
@@ -1279,6 +1334,27 @@ function readSCOTUSDecisions()
         decisionsScotus[decision.usCite].push(decision);
     }
     return decisionsScotus;
+}
+
+/**
+ * backupLonerDecisions()
+ *
+ * @param {function()} done
+ */
+function backupLonerDecisions(done)
+{
+    let backupDecisions = [];
+    let backupKeys = ['caseId', 'termId', 'dissenterId', 'dissenterName', 'caseNotes', 'pdfSource', 'pdfPage', 'pdfPageDissent'];
+    let lonerDecisions = JSON.parse(readFile(_data.lonerDecisions));
+    lonerDecisions.forEach((decision) => {
+        let backup = {};
+        backupKeys.forEach((key) => {
+            if (decision[key]) backup[key] = decision[key];
+        });
+        backupDecisions.push(backup);
+    });
+    writeFile(_data.lonerBackup, backupDecisions);
+    done();
 }
 
 /**
@@ -1668,7 +1744,6 @@ function buildCourts(done)
      *      writeFile(results.json.courts, courtsOyez);
      */
     let courts = readCourts();
-    printf("courts read: %d\n", courts.length);
 
     /*
      * Let's verify that all the justices are appropriately slotted into the courts.
@@ -1697,8 +1772,7 @@ function buildCourts(done)
     /*
      * Now walk the courts data, interleaving the courtsSCDB data, to produce a reconciliation spreadsheet.
      */
-    let courtsSCDB = readSCDBCourts();
-    printf("SCDB courts read: %d\n", courtsSCDB.length);
+    let courtsSCDB = readSCDBCourts(true);
     let j = 0;
     let csv = sprintf('"reconcileDB","reconcileName","reconcileStart","reconcileStop"\n');
     for (let i = 0; i <= courts.length; i++) {
@@ -1713,27 +1787,6 @@ function buildCourts(done)
     }
 
     writeFile(results.csv.courts, csv);
-    done();
-}
-
-/**
- * backupLonerDecisions()
- *
- * @param {function()} done
- */
-function backupLonerDecisions(done)
-{
-    let backupDecisions = [];
-    let backupKeys = ['caseId', 'termId', 'dissenterId', 'dissenterName', 'caseNotes', 'pdfSource', 'pdfPage', 'pdfPageDissent'];
-    let lonerDecisions = JSON.parse(readFile(_data.lonerDecisions));
-    lonerDecisions.forEach((decision) => {
-        let backup = {};
-        backupKeys.forEach((key) => {
-            if (decision[key]) backup[key] = decision[key];
-        });
-        backupDecisions.push(backup);
-    });
-    writeFile(_data.lonerBackup, backupDecisions);
     done();
 }
 
@@ -1758,24 +1811,20 @@ function buildDecisions(done)
  */
 function buildJustices(done)
 {
+    let justices = readSCDBJustices();
     let justicesOyez = readOyezJustices();
-    printf("Oyez justices read: %d\n", justicesOyez.length);
-
-    let justices = readCSV(sources.scdb.justicesCSV, "html");
-    printf("SCDB justices read: %d\n", justices.length);
-    for (let i = 0; i < justices.length; i++) {
+    justices.forEach((justice) => {
         let first, last;
-        let justice = justices[i];
         let match = justice.name.match(/(.*),\s*(.*)/);
         if (match) {
             first = match[2];
             last = match[1];
             justice.name =  first + ' ' + last;
         }
-        let start = parseDate(justice.startDate);
-        let stop = parseDate(justice.stopDate);
-        delete justice.startDate;
-        delete justice.stopDate;
+        let start = parseDate(justice.dateStart);
+        let stop = parseDate(justice.dateStop);
+        delete justice.dateStart;
+        delete justice.dateStop;
         justice.start = sprintf("%#Y-%#02M-%#02D", start);
         justice.startFormatted = sprintf("%#C", start);
         justice.stop = sprintf("%#Y-%#02M-%#02D", stop);
@@ -1783,9 +1832,8 @@ function buildJustices(done)
         /*
          * Let's see if we can find a match in the Oyez list...
          */
-        let j;
         let missing = true;
-        for (j = 0; j < justicesOyez.length; j++) {
+        for (let j = 0; j < justicesOyez.length; j++) {
             let oyez = justicesOyez[j];
             /*
              * OYEZ uses "Brockholst Livingston" and "Frank Murphy",
@@ -1794,7 +1842,7 @@ function buildJustices(done)
             if (oyez.name.indexOf(last) >= 0 && (oyez.name.indexOf(first) >= 0 || first == "Francis" || first == "Henry")) {
                 missing = false;
                 if (oyez.start == justice.start) {
-                    oyez.scdbJustice = +justice.index;
+                    oyez.scdbJustice = +justice.nid;
                     break;
                 } else {
                     warning("SCDB justice '%s' date (%s) doesn't match OYEZ justice '%s' date (%s)\n", justice.name, justice.start, oyez.name, oyez.start);
@@ -1802,12 +1850,12 @@ function buildJustices(done)
             }
         }
         if (missing) {
-            // warning("unable to find SCDB justice '%s' (%d) in OYEZ\n", justice.name, justice.index)
-            justice.scdbJustice = +justice.index;
-            delete justice.index;
+            // warning("unable to find SCDB justice '%s' (%d) in OYEZ\n", justice.name, justice.nid)
+            justice.scdbJustice = +justice.nid;
+            delete justice.nid;
             justicesOyez.push(justice);
         }
-    }
+    });
     writeFile(results.json.justices, justicesOyez);
     done();
 }
@@ -2037,20 +2085,21 @@ function getTermName(termId)
 }
 
 /**
- * sortVotesBySeniority(votes, date, vars, courts, justices)
+ * sortVotesBySeniority(decision, vars, courts, justices)
  *
- * @param {Array.<Vote>} votes
- * @param {string} date
+ * @param {Decision} decision
  * @param {object} vars
- * @param {Array.<Court>} courts
- * @param {Array.<Justice>} justices
- * @return {Array.<Vote>} (actually, each entry is a new object that is a subset of the Vote properties)
+ * @param {Array.<Court>} courts (ie, courts from courts.json OR courtsSCDB from readSCDBCourts)
+ * @param {Array.<Justice>} justices (all justices across all courts)
+ * @return {Array.<Vote>} (actually, each entry is a new object containing a subset of the Vote properties)
  */
-function sortVotesBySeniority(votes, date, vars, courts, justices)
+function sortVotesBySeniority(decision, vars, courts, justices)
 {
     let votesNew = [];
-    let votesOld = votes.slice();
-    let court = null;
+    let votesOld = decision.justices.slice();
+    let court = null, date = decision.dateDecision;
+    let caseId = decision.usCite || decision.caseId;
+
     for (let i = 0; i < courts.length; i++) {
         if (date >= courts[i].start && (!courts[i].stop || date <= courts[i].stop)) {
             court = courts[i];
@@ -2059,7 +2108,29 @@ function sortVotesBySeniority(votes, date, vars, courts, justices)
     }
     if (court) {
         for (let iCourtJustice = 0; iCourtJustice < court.justices.length; iCourtJustice++) {
-            let idJustice = court.justices[iCourtJustice], iJustice, nextJustice = 0;
+            let iJustice = 0, nextJustice = 0;
+            let idJustice = court.justices[iCourtJustice];
+            /*
+             * If the court object contains a 'naturalCourt' value, then it's from readSCDBCourts(),
+             * therefore idJustice comes from the 'id' field in justices.csv and should already be a
+             * match for one of the 'justice' values in the SCDB votes array.
+             */
+            if (court.naturalCourt) {
+                let k = searchObjects(votesOld, "justice", idJustice);
+                if (k >= 0) {
+                    votesNew.push({
+                        justice: idJustice,
+                        majority: votesOld[k].majority
+                    });
+                    votesOld.splice(k, 1);
+                }
+                continue;
+            }
+            /*
+             * If the court object does NOT contain a 'naturalCourt' value, then it's from courts.json,
+             * which uses justice IDs from justices.json, so we must find the matching justice element and
+             * extract its corresponding SCDB ID before attempting to find the justice's vote.
+             */
             while ((iJustice = searchObjects(justices, "id", idJustice, nextJustice)) >= 0) {
                 nextJustice = iJustice + 1;
                 let iSCDBJustice = justices[iJustice].scdbJustice;
@@ -2074,23 +2145,24 @@ function sortVotesBySeniority(votes, date, vars, courts, justices)
                         votesOld.splice(k, 1);
                         break;
                     }
-                    // else {
-                    //     warning("unable to find vote for %s for date %s in %s\n", j, date, court.name);
-                    // }
                 }
-                // else {
-                //     warning("unable to find SCDB ID for justice ID %s\n", idJustice);
-                // }
+                else {
+                    warning("unable to find SCDB ID for justice ID %s (%s)\n", idJustice, caseId);
+                }
             }
             if (iJustice < 0) {
-                warning("unable to find justice ID %s\n", idJustice);
+                if (!nextJustice) {
+                    warning("unable to find justice ID %s (%s)\n", idJustice, caseId);
+                } else {
+                    warning("unable to find vote by %s for %s (%s) in %s\n", idJustice, date, caseId, court.name);
+                }
             }
         }
         votesOld.forEach((vote) => {
-            warning("unable to find %s in list of justices for date %s in %s\n", vote.justice, date, court.name);
+            warning("unable to find %s in justices for %s (%s) in %s\n", vote.justice, date, caseId, court.name);
         });
     } else {
-        warning("unable to find suitable court for date %s\n", date);
+        warning("unable to find suitable court for %s (%s)\n", date, caseId);
     }
     return votesNew;
 }
@@ -2203,6 +2275,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let data = JSON.parse(!argv['overwrite'] && readFile(dataFile) || "[]");
     let vars = JSON.parse(readFile(sources.scdb.vars) || "{}");
     let courts = JSON.parse(readFile(results.json.courts) || "[]");
+    let courtsSCDB = readSCDBCourts();
     let justices = JSON.parse(readFile(results.json.justices) || "[]");
 
     do {
@@ -2270,13 +2343,13 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             vars['volume'] = {"type": "number"};
             vars['page'] = {"type": "number"};
             for (let r = 0; r < results.length; r++) {
-                let result = results[r]
-                let match = result.usCite.match(/([0-9]+) U.S. ([0-9]+)/);
+                let decision = results[r]
+                let match = decision.usCite.match(/([0-9]+) U.S. ([0-9]+)/);
                 if (match) {
-                    result.volume = +match[1];
-                    result.page = +match[2];
+                    decision.volume = +match[1];
+                    decision.page = +match[2];
                 } else {
-                    result.volume = result.page = 0;
+                    decision.volume = decision.page = 0;
                 }
                 /*
                  * NOTE: Even if mapValues() returns an error (< 0), we now continue processing cases.
@@ -2309,61 +2382,61 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                  *      unable to find caseId '1901-203' in data set
                  *      unable to find caseId '1919-181' in data set
                  */
-                mapValues(result, vars, true);
-                let iSearch = searchSortedObjects(data, {"caseId": result.caseId});
+                mapValues(decision, vars, true);
+                let iSearch = searchSortedObjects(data, {"caseId": decision.caseId});
                 if (iSearch < 0 || argv['check']) {
-                    if (termId) result['termId'] = termId;
+                    if (termId) decision['termId'] = termId;
                     if (minVotes == 1) {
                         /*
                          * Determine who the lone dissenter is now.
                          */
                         let dissenterId = "", dissenterName = "";
-                        for (let i = 0; i < result.justices.length; i++) {
-                            let justice = result.justices[i];
+                        for (let i = 0; i < decision.justices.length; i++) {
+                            let justice = decision.justices[i];
                             if (justice.vote == "dissent") {
                                 if (!dissenterId) {
                                     dissenterId = justice.justice;
                                     dissenterName = justice.justiceName;
                                 } else {
-                                    warning("case %s (%s) has multiple dissents (eg, %s, %s)\n", result.caseId, result.usCite, dissenterName, justice.justiceName);
+                                    warning("case %s (%s) has multiple dissents (eg, %s, %s)\n", decision.caseId, decision.usCite, dissenterName, justice.justiceName);
                                 }
                             }
                         }
                         if (dissenterId) {
-                            result['dissenterId'] = dissenterId;
-                            result['dissenterName'] = dissenterName;
+                            decision['dissenterId'] = dissenterId;
+                            decision['dissenterName'] = dissenterName;
                         } else {
-                            warning("unable to identify dissenter for case %s (%s)\n", result.caseId, result.usCite);
+                            warning("unable to identify dissenter for case %s (%s)\n", decision.caseId, decision.usCite);
                         }
                     }
-                    let b = searchObjects(lonerBackup, "caseId", result.caseId);
+                    let b = searchObjects(lonerBackup, "caseId", decision.caseId);
                     if (b >= 0) {
                         let backup = lonerBackup[b];
-                        if (backup['caseNotes']) result['caseNotes'] = backup['caseNotes'];
-                        if (backup['pdfSource']) result['pdfSource'] = backup['pdfSource'];
-                        if (backup['pdfPage']) result['pdfPage'] = backup['pdfPage'];
-                        if (backup['pdfPageDissent']) result['pdfPageDissent'] = backup['pdfPageDissent'];
+                        if (backup['caseNotes']) decision['caseNotes'] = backup['caseNotes'];
+                        if (backup['pdfSource']) decision['pdfSource'] = backup['pdfSource'];
+                        if (backup['pdfPage']) decision['pdfPage'] = backup['pdfPage'];
+                        if (backup['pdfPageDissent']) decision['pdfPageDissent'] = backup['pdfPageDissent'];
                     }
-                    if (!result['pdfSource']) {
+                    if (!decision['pdfSource']) {
                         if (year < 2004) {
-                            result['pdfSource'] = "loc";            // ie, Library of Congress
+                            decision['pdfSource'] = "loc";          // ie, Library of Congress
                         } else if (year < 2012) {
-                            result['pdfSource'] = "scotusBound";    // ie, supremecourt.gov, in the "Bound Volumes" folder
+                            decision['pdfSource'] = "scotusBound";  // ie, supremecourt.gov, in the "Bound Volumes" folder
                         } else {
-                            result['pdfSource'] = "slipopinion/" + (year % 100);
+                            decision['pdfSource'] = "slipopinion/" + (year % 100);
                         }
                     }
                     if (iSearch < 0) {
-                        data.push(result);
+                        data.push(decision);
                         additions++;
                     }
                 } else {
-                    let citation = (result.usCite || ('No. ' + result.docket));
+                    let citation = (decision.usCite || ('No. ' + decision.docket));
                     if (argv['debug']) {
-                        warning("%s (%s) already exists in %s\n", result.caseId, citation, dataFile);
+                        warning("%s (%s) already exists in %s\n", decision.caseId, citation, dataFile);
                     }
                     if (mapValues(data[iSearch], vars) > 0) {
-                        warning("%s (%s) being updated in %s\n", result.caseId, citation, dataFile);
+                        warning("%s (%s) being updated in %s\n", decision.caseId, citation, dataFile);
                         additions++;
                     }
                     results[r] = data[iSearch];
@@ -2381,15 +2454,15 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 let fileName = "/_pages" + pathName + ".md";
                 let fileText = '---\ntitle: "' + description + " from " + termName + ' of the U.S. Supreme Court"\npermalink: ' + pathName + '\nlayout: cases\n';
                 fileText += 'cases:\n';
-                results.forEach((result) => {
+                results.forEach((decision) => {
                     let volume = 0, page = 0;
-                    let matchCite = result.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
+                    let matchCite = decision.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
                     if (matchCite) {
                         volume = +matchCite[1];  page = +matchCite[2];
                     }
-                    fileText += '  - id: "' + result.caseId + '"\n';
-                    fileText += '    termId: "' + result.termId + '"\n';
-                    fileText += '    title: "' + encodeString(result.caseTitle || result.caseName, "html", false) + '"\n';
+                    fileText += '  - id: "' + decision.caseId + '"\n';
+                    fileText += '    termId: "' + decision.termId + '"\n';
+                    fileText += '    title: "' + encodeString(decision.caseTitle || decision.caseName, "html", false) + '"\n';
                     /*
                      * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
                      * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
@@ -2431,23 +2504,23 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                      */
                     if (volume) fileText += sprintf('    volume: "%03d"\n', volume);
                     if (page) fileText += sprintf('    page: "%03d"\n' , page);
-                    if (result.pdfSource) fileText += '    pdfSource: "' + result.pdfSource + '"\n';
-                    if (result.pdfPage) fileText += '    pdfPage: ' + result.pdfPage + '\n';
-                    if (result.pdfPageDissent) fileText += '    pdfPageDissent: ' + result.pdfPageDissent + '\n';
-                    fileText += '    dateDecision: "' + sprintf("%#C", result.dateDecision) + '"\n';
-                    fileText += '    citation: "' + (result.usCite || ('No. ' + result.docket)) + '"\n';
-                    fileText += '    voteMajority: ' + result.majVotes + '\n';
-                    fileText += '    voteMinority: ' + result.minVotes + '\n';
-                    if (result.dissenterId) {
-                        fileText += '    dissenterId: ' + getJusticeId(result.dissenterId) + '\n';
-                        fileText += '    dissenterName: "' + result.dissenterName + '"\n';
-                    } else if (result.majOpinWriter && result.majOpinWriter != "none") {
-                        fileText += '    authorId: ' + getJusticeId(result.majOpinWriter) + '\n';
-                        fileText += '    authorName: "' + vars.justiceName.values[result.majOpinWriter] + '"\n';
+                    if (decision.pdfSource) fileText += '    pdfSource: "' + decision.pdfSource + '"\n';
+                    if (decision.pdfPage) fileText += '    pdfPage: ' + decision.pdfPage + '\n';
+                    if (decision.pdfPageDissent) fileText += '    pdfPageDissent: ' + decision.pdfPageDissent + '\n';
+                    fileText += '    dateDecision: "' + sprintf("%#C", decision.dateDecision) + '"\n';
+                    fileText += '    citation: "' + (decision.usCite || ('No. ' + decision.docket)) + '"\n';
+                    fileText += '    voteMajority: ' + decision.majVotes + '\n';
+                    fileText += '    voteMinority: ' + decision.minVotes + '\n';
+                    if (decision.dissenterId) {
+                        fileText += '    dissenterId: ' + getJusticeId(decision.dissenterId) + '\n';
+                        fileText += '    dissenterName: "' + decision.dissenterName + '"\n';
+                    } else if (decision.majOpinWriter && decision.majOpinWriter != "none") {
+                        fileText += '    authorId: ' + getJusticeId(decision.majOpinWriter) + '\n';
+                        fileText += '    authorName: "' + vars.justiceName.values[decision.majOpinWriter] + '"\n';
                     }
-                    if (result.justices) {
+                    if (decision.justices) {
                         fileText += '    votes:\n';
-                        let votes = sortVotesBySeniority(result.justices, result.dateDecision, vars, courts, justices);
+                        let votes = sortVotesBySeniority(decision, vars, courtsSCDB, justices);
                         votes.forEach((vote) => {
                             fileText += '      - id: ' + getJusticeId(vote.justice) + '\n';
                             fileText += '        name: "' + vars.justiceName.values[vote.justice] + '"\n';

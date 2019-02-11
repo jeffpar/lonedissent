@@ -1,7 +1,8 @@
-[11:09:44] Working directory changed to ~/Sites/lonedissent
-[11:09:45] Using gulpfile ~/Sites/lonedissent/gulpfile.js
-[11:09:45] Starting 'allDecisions'...
+[14:53:10] Working directory changed to ~/Sites/lonedissent
+[14:53:11] Using gulpfile ~/Sites/lonedissent/gulpfile.js
+[14:53:11] Starting 'allDecisions'...
 decisions available: 28779
+SCDB justices read: 116
 term 1790-02: Monday, February 1, 1790
 term stopped: Sunday, August 1, 1790
 
@@ -30,7 +31,7 @@ term stopped: Sunday, August 5, 1792
 processing term 1792-02...
 1792-02-14: Oswald v. New York [] (2 U.S. 401): 6-0
 results in range 1792-02-06--1792-08-05: 1
-warning: unable to find TJohnson in list of justices for date 1792-02-14 in Jay Court (1791-1792)
+warning: unable to find TJohnson in justices for 1792-02-14 (2 U.S. 401) in undefined
 term 1792-08: Monday, August 6, 1792
 term stopped: Sunday, February 3, 1793
 
@@ -47,7 +48,7 @@ processing term 1793-02...
 1793-02-20: Oswald v. New York [] (2 U.S. 415): 5-0
 1793-02-20: Georgia v. Brailsford [] (2 U.S. 415): 4-1
 results in range 1793-02-04--1793-08-04: 3
-warning: unable to find TJohnson in list of justices for date 1793-02-20 in Jay Court (1793)
+file _pages/cases/all/1793-02.md already exists, use --overwrite to recreate
 term 1793-08: Monday, August 5, 1793
 term stopped: Sunday, February 2, 1794
 
@@ -141,7 +142,7 @@ processing term 1798-08...
 1798-08-08: Calder v. Bull [] (3 U.S. 386): 4-0
 1799-02: Dewhurst v. Coulthard [] (3 U.S. 409): 6-0
 results in range 1798-08-06--1799-02-03: 3
-warning: unable to find BWashington in list of justices for date 1799-02 in Ellsworth Court (1798-1799)
+file _pages/cases/all/1798-08.md already exists, use --overwrite to recreate
 term 1799-02: Monday, February 4, 1799
 term stopped: Sunday, August 4, 1799
 
@@ -160,7 +161,7 @@ processing term 1799-08...
 1799-08-09: Turner v. Bank of North-America [] (4 U.S. 8): 6-0
 1800-02: Blair v. Miller [] (4 U.S. 21): 6-0
 results in range 1799-08-05--1800-02-02: 5
-warning: unable to find AMoore in list of justices for date 1800-02 in Ellsworth Court (1799-1800)
+warning: unable to find AMoore in justices for 1800-02 (4 U.S. 21) in undefined
 term 1800-02: Monday, February 3, 1800
 term stopped: Sunday, August 3, 1800
 
@@ -180,8 +181,7 @@ processing term 1800-08...
 1800-08-15: Bas v. Tingy [] (4 U.S. 37): 6-0
 1800-08-15: Talbot v. Ship Amelia [] (4 U.S. 34): 6-0
 results in range 1800-08-04--1801-08-02: 4
-warning: unable to find justice ID oliver_ellsworth
-warning: unable to find JMarshall in list of justices for date 1800-08-15 in Ellsworth Court (1800)
+warning: unable to find JMarshall in justices for 1800-08-15 (4 U.S. 34) in undefined
 term 1801-08: Monday, August 3, 1801
 term stopped: Sunday, December 6, 1801
 
@@ -373,31 +373,6 @@ processing term 1808-02...
 1808-03-16: United States v. Schooner Betsey and Charlotte [] (8 U.S. 443): 6-0
 1809-02: Welsh v. Mandeville [] (9 U.S. 321): 7-0
 results in range 1808-02-01--1809-02-05: 33
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
-warning: unable to find justice ID thomas_todd
 term 1809-02: Monday, February 6, 1809
 term stopped: Sunday, February 4, 1810
 
@@ -498,7 +473,7 @@ term stopped: Sunday, February 2, 1812
 processing term 1811-02...
 1812-02: Hawthorne v. United States [] (11 U.S. 107): 7-0
 results in range 1811-02-04--1812-02-02: 1
-warning: unable to find JStory in list of justices for date 1812-02 in Marshall Court (1811-1812)
+warning: unable to find JStory in justices for 1812-02 (11 U.S. 107) in undefined
 term 1812-02: Monday, February 3, 1812
 term stopped: Sunday, January 31, 1813
 
@@ -1578,12 +1553,8 @@ processing term 1834-01...
 1834-03-14: United States v. Clarke [] (34 U.S. 168): 6-0
 1834-03-14: United States v. Huertas [] (34 U.S. 171): 6-0
 results in range 1834-01-13--1835-01-11: 65
-warning: unable to find justice ID william_johnson
-warning: unable to find justice ID gabriel_duvall
-warning: unable to find JMWayne in list of justices for date 1834-03-14 in Marshall Court (1830-1834)
-warning: unable to find justice ID william_johnson
-warning: unable to find justice ID gabriel_duvall
-warning: unable to find JMWayne in list of justices for date 1834-03-14 in Marshall Court (1830-1834)
+warning: unable to find JMWayne in justices for 1834-03-14 (34 U.S. 168) in undefined
+warning: unable to find JMWayne in justices for 1834-03-14 (34 U.S. 171) in undefined
 term 1835-01: Monday, January 12, 1835
 term stopped: Sunday, January 10, 1836
 
@@ -1627,8 +1598,7 @@ processing term 1835-01...
 1835-03-17: Mitchel v. United States [] (34 U.S. 711): 6-0
 1836-01: Hagan v. Foison [] (35 U.S. 160): 5-0
 results in range 1835-01-12--1836-01-10: 38
-warning: unable to find justice ID james_m_wayne
-warning: unable to find GDuvall in list of justices for date 1835-01-14 in Marshall Court (1835)
+warning: unable to find GDuvall in justices for 1835-01-14 (34 U.S. 1) in undefined
 term 1836-01: Monday, January 11, 1836
 term stopped: Sunday, January 8, 1837
 
@@ -1984,7 +1954,6 @@ processing term 1843-01...
 1843-03-14: Duncan v. Darst [] (42 U.S. 301): 6-0
 1843-01-30: Vidal v. Philadelphia [] (43 U.S. 127): 7-0
 results in range 1843-01-09--1843-12-31: 35
-warning: unable to find justice ID smith_thompson
 term 1844-01: Monday, January 1, 1844
 term stopped: Sunday, December 1, 1844
 
@@ -2137,8 +2106,7 @@ processing term 1845-12...
 1845-12-30: ex parte HARMON [2] (131 U.S. ixvii): 8-0
 1845-12-09: Passenger Cases [] (48 U.S. 283): 5-4
 results in range 1845-12-01--1846-12-06: 49
-warning: unable to find justice ID levi_woodbury
-warning: unable to find RCGrier in list of justices for date 1845-12-09 in Taney Court (1845-1846)
+warning: unable to find RCGrier in justices for 1845-12-09 (48 U.S. 283) in undefined
 term 1846-12: Monday, December 7, 1846
 term stopped: Sunday, December 5, 1847
 
@@ -2444,7 +2412,6 @@ processing term 1850-12...
 1851-03-11: Gill v. Oliver's Executors [] (52 U.S. 529): 6-3
 1851-02-21: Trigg v. Drew [] (51 U.S. 224): 9-0
 results in range 1850-12-02--1851-11-30: 82
-warning: unable to find justice ID levi_woodbury
 term 1851-12: Monday, December 1, 1851
 term stopped: Sunday, December 5, 1852
 
@@ -2549,8 +2516,7 @@ processing term 1851-12...
 1852-04-23: United States v. Harrison [126] (154 U.S. 531): 9-0
 1852-02-19: United States v. Lynde's Heirs [26] (131 U.S. lxix): 9-0
 results in range 1851-12-01--1852-12-05: 99
-warning: unable to find justice ID benjamin_r_curtis
-warning: unable to find LWoodbury in list of justices for date 1852-04-21 in Taney Court (1851-1852)
+warning: unable to find LWoodbury in justices for 1852-04-21 (54 U.S. 183) in undefined
 term 1852-12: Monday, December 6, 1852
 term stopped: Sunday, December 4, 1853
 
@@ -3021,7 +2987,7 @@ processing term 1857-12...
 1858-04-19: Shannon v. Cavazos [] (131 U.S. lxxi): 9-0
 1857-12-24: Hemmenway v. Fisher [] (61 U.S. 255): 9-0
 results in range 1857-12-07--1858-12-05: 74
-warning: unable to find NClifford in list of justices for date 1857-12-24 in Taney Court (1857-1858)
+warning: unable to find NClifford in justices for 1857-12-24 (61 U.S. 255) in undefined
 term 1858-12: Monday, December 6, 1858
 term stopped: Sunday, December 4, 1859
 
@@ -3365,12 +3331,11 @@ processing term 1861-12...
 1862-03-10: Bates v. Illinois Central R. Co. [] (66 U.S. 204): 7-0
 1861-12-23: Hogg v. Ruffner [] (66 U.S. 115): 8-0
 results in range 1861-12-02--1862-11-30: 73
-warning: unable to find NHSwayne in list of justices for date 1861-12-23 in Taney Court (1861-1862)
-warning: unable to find SFMiller in list of justices for date 1861-12-23 in Taney Court (1861-1862)
-warning: unable to find DDavis in list of justices for date 1861-12-23 in Taney Court (1861-1862)
-warning: unable to find justice ID noah_swayne
-warning: unable to find JMcLean in list of justices for date 1862-03-03 in Taney Court (1862)
-warning: unable to find JACampbell in list of justices for date 1862-03-03 in Taney Court (1862)
+warning: unable to find NHSwayne in justices for 1861-12-23 (66 U.S. 115) in undefined
+warning: unable to find SFMiller in justices for 1861-12-23 (66 U.S. 115) in undefined
+warning: unable to find DDavis in justices for 1861-12-23 (66 U.S. 115) in undefined
+warning: unable to find JMcLean in justices for 1862-03-03 (66 U.S. 358) in undefined
+warning: unable to find JACampbell in justices for 1862-03-03 (66 U.S. 358) in undefined
 term 1862-12: Monday, December 1, 1862
 term stopped: Sunday, December 6, 1863
 
@@ -3506,7 +3471,6 @@ processing term 1863-12...
 1864-03-28: Burr v. Duryee [232] (68 U.S. 578): 10-0
 1864-02-23: Merriam v. Haas [] (70 U.S. 687): 9-0
 results in range 1863-12-07--1864-12-04: 84
-warning: unable to find justice ID stephen_j_field
 term 1864-12: Monday, December 5, 1864
 term stopped: Sunday, December 3, 1865
 
@@ -3571,8 +3535,7 @@ processing term 1864-12...
 1865-03-10: Ex parte Fleming [] (69 U.S. 759): 8-0
 1865-02-20: ex parte MILWAUKIE AND MINNESOTA RAILROAD COMPANY [5, Orig.] (69 U.S. 443n): 8-0
 results in range 1864-12-05--1865-12-03: 59
-warning: unable to find justice ID salmon_p_chase
-warning: unable to find RBTaney in list of justices for date 1865-03-10 in Chase Court (1864-1865)
+warning: unable to find RBTaney in justices for 1865-03-10 (69 U.S. 561) in undefined
 term 1865-12: Monday, December 4, 1865
 term stopped: Sunday, December 2, 1866
 
@@ -4256,36 +4219,11 @@ processing term 1869-12...
 1870-11-21: Gunnell v. Bird [] (77 U.S. 304): 7-0
 1870-12-02: Slaughter-House Cases [] (77 U.S. 273): 6-1
 results in range 1869-12-06--1870-12-04: 182
-warning: unable to find WStrong in list of justices for date 1870-02-07 in Chase Court (1870)
-warning: unable to find JPBradley in list of justices for date 1870-02-07 in Chase Court (1870)
-warning: unable to find RCGrier in list of justices for date 1870-02-14 in Chase Court (1870)
-warning: unable to find RCGrier in list of justices for date 1870-02-21 in Chase Court (1870)
-warning: unable to find RCGrier in list of justices for date 1870-02-21 in Chase Court (1870)
-warning: unable to find RCGrier in list of justices for date 1870-02-14 in Chase Court (1870)
-warning: unable to find RCGrier in list of justices for date 1870-02-07 in Chase Court (1870)
-warning: unable to find RCGrier in list of justices for date 1870-02-21 in Chase Court (1870)
-warning: unable to find RCGrier in list of justices for date 1870-02-21 in Chase Court (1870)
-warning: unable to find RCGrier in list of justices for date 1870-02-21 in Chase Court (1870)
-warning: unable to find justice ID william_strong
-warning: unable to find WStrong in list of justices for date 1870-02-21 in Chase Court (1870)
-warning: unable to find JPBradley in list of justices for date 1870-02-21 in Chase Court (1870)
-warning: unable to find justice ID william_strong
-warning: unable to find justice ID william_strong
-warning: unable to find justice ID william_strong
-warning: unable to find justice ID william_strong
-warning: unable to find justice ID william_strong
-warning: unable to find justice ID william_strong
-warning: unable to find justice ID william_strong
-warning: unable to find justice ID william_strong
-warning: unable to find RCGrier in list of justices for date 1870-02-14 in Chase Court (1870)
-warning: unable to find justice ID william_strong
-warning: unable to find justice ID william_strong
-warning: unable to find RCGrier in list of justices for date 1870-03-07 in Chase Court (1870)
-warning: unable to find justice ID william_strong
-warning: unable to find RCGrier in list of justices for date 1870-02-14 in Chase Court (1870)
-warning: unable to find JPBradley in list of justices for date 1870-03-21 in Chase Court (1870)
-warning: unable to find justice ID joseph_p_bradley
-warning: unable to find JPBradley in list of justices for date 1870-03-21 in Chase Court (1870)
+warning: unable to find WStrong in justices for 1870-02-07 (131 U.S. xcv) in undefined
+warning: unable to find JPBradley in justices for 1870-02-07 (131 U.S. xcv) in undefined
+warning: unable to find WStrong in justices for 1870-02-21 (76 U.S. 146) in undefined
+warning: unable to find JPBradley in justices for 1870-02-21 (76 U.S. 146) in undefined
+file _pages/cases/all/1869-12.md already exists, use --overwrite to recreate
 term 1870-12: Monday, December 5, 1870
 term stopped: Sunday, December 3, 1871
 
@@ -5704,7 +5642,7 @@ processing term 1876-10...
 1877-03-19: Mackall v. Richards [184] (154 U.S. 624): 8-0
 1877-04-30: McCready v. Virginia [992] (154 U.S. 628): 8-0
 results in range 1876-10-09--1877-10-07: 241
-warning: unable to find DDavis in list of justices for date 1877-03-26 in Waite Court (1877)
+file _pages/cases/all/1876-10.md already exists, use --overwrite to recreate
 term 1877-10: Monday, October 8, 1877
 term stopped: Sunday, October 13, 1878
 
@@ -6699,44 +6637,20 @@ processing term 1880-10...
 1881-01-17: UNITED STATES v. ULRICI [] (102 U.S. 612n): 9-0
 1881-01-17: Third National Bank v. National Bank [] (102 U.S. 663n): 9-0
 results in range 1880-10-11--1881-10-09: 235
-warning: unable to find justice ID noah_swayne
-warning: unable to find justice ID william_b_woods
-warning: unable to find WStrong in list of justices for date 1881-01-24 in Waite Court (1881)
-warning: unable to find justice ID william_b_woods
-warning: unable to find WStrong in list of justices for date 1881-01-24 in Waite Court (1881)
-warning: unable to find NHSwayne in list of justices for date 1881-02-28 in Waite Court (1881)
-warning: unable to find justice ID william_b_woods
-warning: unable to find NHSwayne in list of justices for date 1881-04-04 in Waite Court (1881)
-warning: unable to find WStrong in list of justices for date 1881-04-04 in Waite Court (1881)
-warning: unable to find justice ID william_b_woods
-warning: unable to find NHSwayne in list of justices for date 1881-02-28 in Waite Court (1881)
-warning: unable to find WStrong in list of justices for date 1881-02-28 in Waite Court (1881)
-warning: unable to find justice ID william_b_woods
-warning: unable to find WStrong in list of justices for date 1881-01-10 in Waite Court (1881)
-warning: unable to find justice ID william_b_woods
-warning: unable to find NHSwayne in list of justices for date 1881-03-21 in Waite Court (1881)
-warning: unable to find WStrong in list of justices for date 1881-03-21 in Waite Court (1881)
-warning: unable to find justice ID william_b_woods
-warning: unable to find WStrong in list of justices for date 1881-01-17 in Waite Court (1881)
-warning: unable to find justice ID william_b_woods
-warning: unable to find NHSwayne in list of justices for date 1881-02-28 in Waite Court (1881)
-warning: unable to find WStrong in list of justices for date 1881-02-28 in Waite Court (1881)
-warning: unable to find justice ID william_b_woods
-warning: unable to find NHSwayne in list of justices for date 1881-04-18 in Waite Court (1881)
-warning: unable to find WStrong in list of justices for date 1881-04-18 in Waite Court (1881)
-warning: unable to find justice ID william_b_woods
-warning: unable to find NHSwayne in list of justices for date 1881-04-11 in Waite Court (1881)
-warning: unable to find WStrong in list of justices for date 1881-04-11 in Waite Court (1881)
-warning: unable to find justice ID william_b_woods
-warning: unable to find NHSwayne in list of justices for date 1881-03-14 in Waite Court (1881)
-warning: unable to find WStrong in list of justices for date 1881-03-14 in Waite Court (1881)
-warning: unable to find justice ID william_b_woods
-warning: unable to find NHSwayne in list of justices for date 1881-02-28 in Waite Court (1881)
-warning: unable to find WStrong in list of justices for date 1881-02-28 in Waite Court (1881)
-warning: unable to find NHSwayne in list of justices for date 1881-04-11 in Waite Court (1881)
-warning: unable to find justice ID william_b_woods
-warning: unable to find NHSwayne in list of justices for date 1881-03-30 in Waite Court (1881)
-warning: unable to find WStrong in list of justices for date 1881-03-30 in Waite Court (1881)
+warning: unable to find WStrong in justices for 1881-01-24 (102 U.S. 586) in undefined
+warning: unable to find WStrong in justices for 1881-01-24 (102 U.S. 707) in undefined
+warning: unable to find WStrong in justices for 1881-04-04 (103 U.S. 25) in undefined
+warning: unable to find WStrong in justices for 1881-02-28 (103 U.S. 44) in undefined
+warning: unable to find WStrong in justices for 1881-01-10 (103 U.S. 80) in undefined
+warning: unable to find WStrong in justices for 1881-03-21 (103 U.S. 99) in undefined
+warning: unable to find WStrong in justices for 1881-01-17 (103 U.S. 118) in undefined
+warning: unable to find WStrong in justices for 1881-02-28 (103 U.S. 168) in undefined
+warning: unable to find WStrong in justices for 1881-04-18 (103 U.S. 205) in undefined
+warning: unable to find WStrong in justices for 1881-04-11 (103 U.S. 498) in undefined
+warning: unable to find WStrong in justices for 1881-03-14 (103 U.S. 521) in undefined
+warning: unable to find WStrong in justices for 1881-02-28 (103 U.S. 575) in undefined
+warning: unable to find WStrong in justices for 1881-03-30 (103 U.S. 821) in undefined
+file _pages/cases/all/1880-10.md already exists, use --overwrite to recreate
 term 1881-10: Monday, October 10, 1881
 term stopped: Sunday, October 8, 1882
 
@@ -6992,14 +6906,10 @@ processing term 1881-10...
 1882-03-06: United States v. Barnett [901] (154 U.S. 676): 8-0
 1882-03-06: Poppe v. Langford [] (104 U.S. 770): 8-0
 results in range 1881-10-10--1882-10-08: 250
-warning: unable to find justice ID stanley_matthews
-warning: unable to find justice ID horace_gray
-warning: unable to find NClifford in list of justices for date 1882-01-16 in Waite Court (1882)
-warning: unable to find NHSwayne in list of justices for date 1882-01-16 in Waite Court (1882)
-warning: unable to find justice ID stanley_matthews
-warning: unable to find justice ID horace_gray
-warning: unable to find NClifford in list of justices for date 1882-01-16 in Waite Court (1882)
-warning: unable to find NHSwayne in list of justices for date 1882-01-16 in Waite Court (1882)
+warning: unable to find NClifford in justices for 1882-01-16 (104 U.S. 340) in undefined
+warning: unable to find NHSwayne in justices for 1882-01-16 (104 U.S. 340) in undefined
+warning: unable to find NClifford in justices for 1882-01-16 (104 U.S. 596) in undefined
+warning: unable to find NHSwayne in justices for 1882-01-16 (104 U.S. 596) in undefined
 term 1882-10: Monday, October 9, 1882
 term stopped: Sunday, October 7, 1883
 
@@ -8725,8 +8635,7 @@ processing term 1887-10...
 1888-05-14: Craig v. Leitensdorfer [1] (127 U.S. 764): 8-0
 1888-03-19: United States v. Burchard [158, 1332] (125 U.S. 176): 9-0
 results in range 1887-10-10--1888-10-07: 291
-warning: unable to find MRWaite in list of justices for date 1888-04-02 in Waite Court (1888)
-warning: unable to find MRWaite in list of justices for date 1888-04-02 in Waite Court (1888)
+file _pages/cases/all/1887-10.md already exists, use --overwrite to recreate
 term 1888-10: Monday, October 8, 1888
 term stopped: Sunday, October 13, 1889
 
@@ -8983,7 +8892,6 @@ processing term 1888-10...
 1889-05-13: Freeland v. Williams [267] (131 U.S. 405): 7-1
 1888-11-26: RADFORD v. FOLSOM [1014] (131 U.S. 292): 9-0
 results in range 1888-10-08--1889-10-13: 251
-warning: unable to find justice ID melville_w_fuller
 term 1889-10: Monday, October 14, 1889
 term stopped: Sunday, October 12, 1890
 
@@ -10424,7 +10332,6 @@ processing term 1893-10...
 1894-05-26: ICC v. Brimson [883] (154 U.S. 447): 5-3
 1894-01-22: Merchants' Cotton Press &amp; Storage Co. v. Insurance Co. of North America [807] (151 U.S. 368): 8-0
 results in range 1893-10-09--1894-10-07: 294
-warning: unable to find justice ID edward_d_white
 term 1894-10: Monday, October 8, 1894
 term stopped: Sunday, October 13, 1895
 
@@ -11202,16 +11109,7 @@ results in range 1896-10-12--1897-10-10: 236
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID stephen_j_field
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID horace_gray
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID henry_b_brown
-warning: unable to find justice ID george_shiras_jr
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find -99 in list of justices for date 1896-11-16 in Fuller Court (1896-1897)
+warning: unable to find -99 in justices for 1896-11-16 (164 U.S. 703) in undefined
 term 1897-10: Monday, October 11, 1897
 term stopped: Sunday, October 9, 1898
 
@@ -11411,16 +11309,7 @@ results in range 1897-10-11--1898-10-09: 191
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID horace_gray
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID henry_b_brown
-warning: unable to find justice ID george_shiras_jr
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find -99 in list of justices for date 1898-05-31 in Fuller Court (1898-1902)
+warning: unable to find -99 in justices for 1898-05-31 (171 U.S. 685) in undefined
 term 1898-10: Monday, October 10, 1898
 term stopped: Sunday, October 8, 1899
 
@@ -11632,66 +11521,12 @@ warning: code '-99' for key 'justiceName' has no value
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID horace_gray
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID henry_b_brown
-warning: unable to find justice ID george_shiras_jr
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find -99 in list of justices for date 1899-05-15 in Fuller Court (1898-1902)
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID horace_gray
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID henry_b_brown
-warning: unable to find justice ID george_shiras_jr
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find -99 in list of justices for date 1899-05-15 in Fuller Court (1898-1902)
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID horace_gray
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID henry_b_brown
-warning: unable to find justice ID george_shiras_jr
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find -99 in list of justices for date 1899-05-15 in Fuller Court (1898-1902)
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID horace_gray
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID henry_b_brown
-warning: unable to find justice ID george_shiras_jr
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find -99 in list of justices for date 1899-05-22 in Fuller Court (1898-1902)
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID horace_gray
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID henry_b_brown
-warning: unable to find justice ID george_shiras_jr
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find -99 in list of justices for date 1899-05-15 in Fuller Court (1898-1902)
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID horace_gray
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID henry_b_brown
-warning: unable to find justice ID george_shiras_jr
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find -99 in list of justices for date 1899-05-15 in Fuller Court (1898-1902)
+warning: unable to find -99 in justices for 1899-05-15 (174 U.S. 799) in undefined
+warning: unable to find -99 in justices for 1899-05-15 (174 U.S. 799) in undefined
+warning: unable to find -99 in justices for 1899-05-15 (174 U.S. 799) in undefined
+warning: unable to find -99 in justices for 1899-05-22 (174 U.S. 800) in undefined
+warning: unable to find -99 in justices for 1899-05-15 (174 U.S. 800) in undefined
+warning: unable to find -99 in justices for 1899-05-15 (174 U.S. 800) in undefined
 term 1899-10: Monday, October 9, 1899
 term stopped: Sunday, October 7, 1900
 
@@ -12127,26 +11962,8 @@ warning: code '-99' for key 'justiceName' has no value
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID horace_gray
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID henry_b_brown
-warning: unable to find justice ID george_shiras_jr
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find -99 in list of justices for date 1900-10-22 in Fuller Court (1898-1902)
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID horace_gray
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID henry_b_brown
-warning: unable to find justice ID george_shiras_jr
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find -99 in list of justices for date 1901-01-14 in Fuller Court (1898-1902)
+warning: unable to find -99 in justices for 1900-10-22 (179 U.S. 679) in undefined
+warning: unable to find -99 in justices for 1901-01-14 (180 U.S. 635) in undefined
 term 1901-10: Monday, October 14, 1901
 term stopped: Sunday, October 12, 1902
 
@@ -12345,36 +12162,9 @@ warning: code '-99' for key 'justiceName' has no value
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID horace_gray
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID henry_b_brown
-warning: unable to find justice ID george_shiras_jr
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find -99 in list of justices for date 1902-01-06 in Fuller Court (1898-1902)
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID horace_gray
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID henry_b_brown
-warning: unable to find justice ID george_shiras_jr
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find -99 in list of justices for date 1902-01-20 in Fuller Court (1898-1902)
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID horace_gray
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID henry_b_brown
-warning: unable to find justice ID george_shiras_jr
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find -99 in list of justices for date 1902-06-02 in Fuller Court (1898-1902)
+warning: unable to find -99 in justices for 1902-01-06 (183 U.S. 694) in undefined
+warning: unable to find -99 in justices for 1902-01-20 (184 U.S. 695) in undefined
+warning: unable to find -99 in justices for 1902-06-02 (186 U.S. 481) in undefined
 term 1902-10: Monday, October 13, 1902
 term stopped: Sunday, October 11, 1903
 
@@ -12597,39 +12387,7 @@ processing term 1902-10...
 1903-06-01: Sena v. United States [40] (189 U.S. 504): 9-0
 1902-11-10: CLARENCE E. COLLINS, PLAINTIFF IN ERROR, v. STATE OF NEW HAMPSHIRE [15] (187 U.S. 636): 4-4
 results in range 1902-10-13--1903-10-11: 217
-warning: unable to find OWHolmes in list of justices for date 1902-10-20 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-10-27 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-10-27 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-11-03 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-11-03 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-11-03 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-11-10 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-11-17 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-11-17 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-11-17 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-11-17 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-11-17 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find OWHolmes in list of justices for date 1902-12-01 in Fuller Court (1902)
-warning: unable to find justice ID oliver_w_holmes_jr
-warning: unable to find OWHolmes in list of justices for date 1902-11-10 in Fuller Court (1902)
+file _pages/cases/all/1902-10.md already exists, use --overwrite to recreate
 term 1903-10: Monday, October 12, 1903
 term stopped: Sunday, October 9, 1904
 
@@ -13447,55 +13205,6 @@ processing term 1906-10...
 1907-02-25: UNITED STATES et al., APPELLANTS, v. WILLIAM B. KIRK [136] (204 U.S. 668): 4-4
 1907-04-22: WILLIAM MCCOACH, COLLECTOR, ETC., PETITIONER, v. THE PHILADELPHIA TRUST, SAFE DEPOSIT AND INSURANCE COMPANY et al., EXECUTORS [502] (205 U.S. 539): 4-4
 results in range 1906-10-08--1907-10-13: 210
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
 term 1907-10: Monday, October 14, 1907
 term stopped: Sunday, October 11, 1908
 
@@ -13871,16 +13580,7 @@ results in range 1908-10-12--1909-10-10: 185
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID rufus_peckham
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find justice ID oliver_w_holmes_jr
-warning: unable to find justice ID william_r_day
-warning: unable to find justice ID william_h_moody
-warning: unable to find -99 in list of justices for date 1909-01-04 in Fuller Court (1906-1909)
+warning: unable to find -99 in justices for 1909-01-04 (212 U.S. 563) in undefined
 term 1909-10: Monday, October 11, 1909
 term stopped: Sunday, October 9, 1910
 
@@ -14074,73 +13774,9 @@ warning: code '-99' for key 'justiceName' has no value
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID edward_t_sanford
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find justice ID oliver_w_holmes_jr
-warning: unable to find justice ID william_r_day
-warning: unable to find justice ID william_h_moody
-warning: unable to find justice ID horace_h_lurton
-warning: unable to find -99 in list of justices for date 1910-02-28 in Fuller Court (1910)
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find justice ID oliver_w_holmes_jr
-warning: unable to find justice ID william_r_day
-warning: unable to find justice ID william_h_moody
-warning: unable to find justice ID horace_h_lurton
-warning: unable to find -99 in list of justices for date 1910-03-14 in Fuller Court (1910)
-warning: unable to find justice ID melville_w_fuller
-warning: unable to find justice ID john_m_harlan
-warning: unable to find justice ID david_j_brewer
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find justice ID oliver_w_holmes_jr
-warning: unable to find justice ID william_r_day
-warning: unable to find justice ID william_h_moody
-warning: unable to find justice ID horace_h_lurton
-warning: unable to find -99 in list of justices for date 1910-03-14 in Fuller Court (1910)
+warning: unable to find -99 in justices for 1910-02-28 (216 U.S. 603) in undefined
+warning: unable to find -99 in justices for 1910-03-14 (216 U.S. 614) in undefined
+warning: unable to find -99 in justices for 1910-03-14 (216 U.S. 617) in undefined
 term 1910-10: Monday, October 10, 1910
 term stopped: Sunday, October 8, 1911
 
@@ -14570,16 +14206,7 @@ results in range 1911-10-09--1912-10-13: 244
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find justice ID oliver_w_holmes_jr
-warning: unable to find justice ID william_r_day
-warning: unable to find justice ID horace_h_lurton
-warning: unable to find justice ID charles_e_hughes
-warning: unable to find justice ID willis_van_devanter
-warning: unable to find justice ID joseph_r_lamar
-warning: unable to find justice ID mahlon_pitney
-warning: unable to find -99 in list of justices for date 1912-03-18 in White Court (1912-1914)
+warning: unable to find -99 in justices for 1912-03-18 (223 U.S. 716) in undefined
 term 1912-10: Monday, October 14, 1912
 term stopped: Sunday, October 12, 1913
 
@@ -15453,6 +15080,7 @@ processing term 1914-10...
 1915-01-05: Norfolk &amp; Western R. Co. v. Holbrook [516] (235 U.S. 625): 6-3
 1914-11-02: THE UNITED STATES, PLAINTIFF IN ERROR, v. HOLLAND-AMERICAN LINE [409] (235 U.S. 686): 4-4
 results in range 1914-10-12--1915-10-10: 274
+file _pages/cases/all/1914-10.md already exists, use --overwrite to recreate
 term 1915-10: Monday, October 11, 1915
 term stopped: Sunday, October 8, 1916
 
@@ -15706,213 +15334,8 @@ results in range 1915-10-11--1916-10-08: 245
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-17 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-17 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-17 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-17 in White Court (1916)
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID mahlon_pitney
-warning: unable to find justice ID james_c_mcreynolds
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find justice ID oliver_w_holmes_jr
-warning: unable to find justice ID william_r_day
-warning: unable to find justice ID charles_e_hughes
-warning: unable to find justice ID willis_van_devanter
-warning: unable to find justice ID joseph_r_lamar
-warning: unable to find -99 in list of justices for date 1915-11-15 in White Court (1914-1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-24 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-24 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-24 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-24 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-24 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-31 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-31 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-31 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-31 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-01-31 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-21 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-02-28 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-06 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-06 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-06 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-06 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-06 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-06 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-06 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-13 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-13 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-13 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-20 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-20 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-20 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-20 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-20 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-20 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-03-20 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-10 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-03 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-17 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-17 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-17 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-17 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-17 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-17 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-24 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-24 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-24 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-24 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-24 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-24 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-04-24 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-01 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-01 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-01 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-01 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-01 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-01 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-01 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-01 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-08 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-08 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-08 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-05-22 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find CEHughes1 in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-05 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
-warning: unable to find LDBrandeis in list of justices for date 1916-06-12 in White Court (1916)
+warning: unable to find -99 in justices for 1915-11-15 (239 U.S. 631) in undefined
+file _pages/cases/all/1915-10.md already exists, use --overwrite to recreate
 term 1916-10: Monday, October 9, 1916
 term stopped: Sunday, September 30, 1917
 
@@ -16140,16 +15563,7 @@ results in range 1916-10-09--1917-09-30: 219
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find justice ID oliver_w_holmes_jr
-warning: unable to find justice ID william_r_day
-warning: unable to find justice ID willis_van_devanter
-warning: unable to find justice ID mahlon_pitney
-warning: unable to find justice ID james_c_mcreynolds
-warning: unable to find justice ID louis_d_brandeis
-warning: unable to find justice ID john_h_clarke
-warning: unable to find -99 in list of justices for date 1917-01-15 in White Court (1916-1921)
+warning: unable to find -99 in justices for 1917-01-15 (242 U.S. 621) in undefined
 term 1917-10: Monday, October 1, 1917
 term stopped: Sunday, October 6, 1918
 
@@ -16376,16 +15790,7 @@ results in range 1917-10-01--1918-10-06: 218
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find justice ID oliver_w_holmes_jr
-warning: unable to find justice ID william_r_day
-warning: unable to find justice ID willis_van_devanter
-warning: unable to find justice ID mahlon_pitney
-warning: unable to find justice ID james_c_mcreynolds
-warning: unable to find justice ID louis_d_brandeis
-warning: unable to find justice ID john_h_clarke
-warning: unable to find -99 in list of justices for date 1918-06-03 in White Court (1916-1921)
+warning: unable to find -99 in justices for 1918-06-03 (247 U.S. 504) in undefined
 term 1918-10: Monday, October 7, 1918
 term stopped: Sunday, October 5, 1919
 
@@ -16627,16 +16032,7 @@ results in range 1918-10-07--1919-10-05: 233
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find justice ID oliver_w_holmes_jr
-warning: unable to find justice ID william_r_day
-warning: unable to find justice ID willis_van_devanter
-warning: unable to find justice ID mahlon_pitney
-warning: unable to find justice ID james_c_mcreynolds
-warning: unable to find justice ID louis_d_brandeis
-warning: unable to find justice ID john_h_clarke
-warning: unable to find -99 in list of justices for date 1919-05-19 in White Court (1916-1921)
+warning: unable to find -99 in justices for 1919-05-19 (250 U.S. 633) in undefined
 term 1919-10: Monday, October 6, 1919
 term stopped: Sunday, October 3, 1920
 
@@ -16827,16 +16223,7 @@ results in range 1919-10-06--1920-10-03: 182
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID edward_d_white
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find justice ID oliver_w_holmes_jr
-warning: unable to find justice ID william_r_day
-warning: unable to find justice ID willis_van_devanter
-warning: unable to find justice ID mahlon_pitney
-warning: unable to find justice ID james_c_mcreynolds
-warning: unable to find justice ID louis_d_brandeis
-warning: unable to find justice ID john_h_clarke
-warning: unable to find -99 in list of justices for date 1920-03-01 in White Court (1916-1921)
+warning: unable to find -99 in justices for 1920-03-01 (251 U.S. 548) in undefined
 term 1920-10: Monday, October 4, 1920
 term stopped: Sunday, October 2, 1921
 
@@ -17488,16 +16875,7 @@ results in range 1922-10-02--1923-09-30: 230
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID william_howard_taft
-warning: unable to find justice ID joseph_mckenna
-warning: unable to find justice ID oliver_w_holmes_jr
-warning: unable to find justice ID william_r_day
-warning: unable to find justice ID willis_van_devanter
-warning: unable to find justice ID mahlon_pitney
-warning: unable to find justice ID james_c_mcreynolds
-warning: unable to find justice ID louis_d_brandeis
-warning: unable to find justice ID george_sutherland
-warning: unable to find -99 in list of justices for date 1922-10-23 in Taft Court (1922)
+warning: unable to find -99 in justices for 1922-10-23 (260 U.S. 699) in undefined
 term 1923-10: Monday, October 1, 1923
 term stopped: Sunday, October 5, 1924
 
@@ -19175,16 +18553,7 @@ results in range 1931-10-05--1932-10-02: 152
 warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
-warning: unable to find justice ID charles_e_hughes
-warning: unable to find justice ID oliver_w_holmes_jr
-warning: unable to find justice ID willis_van_devanter
-warning: unable to find justice ID james_c_mcreynolds
-warning: unable to find justice ID louis_d_brandeis
-warning: unable to find justice ID george_sutherland
-warning: unable to find justice ID pierce_butler
-warning: unable to find justice ID harlan_fiske_stone
-warning: unable to find justice ID owen_j_roberts
-warning: unable to find -99 in list of justices for date 1931-10-26 in Hughes Court (1930-1932)
+warning: unable to find -99 in justices for 1931-10-26 (284 U.S. 577) in undefined
 term 1932-10: Monday, October 3, 1932
 term stopped: Sunday, October 1, 1933
 
@@ -20374,62 +19743,6 @@ processing term 1938-10...
 1938-10-17: UNITED STATES v. ONE 1936 MODEL FORD V-8 DE LUXE COACH [10] (305 U.S. 564): 3-3
 1939-01-09: MONTANA EX REL. BOARD OF COUNTY COMMISSIONERS v. BRUCE, COUNTY ASSESSOR, et al. [104] (305 U.S. 577): 4-4
 results in range 1938-10-03--1939-10-01: 151
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
-warning: unable to find justice ID benjamin_n_cardozo
 term 1939-10: Monday, October 2, 1939
 term stopped: Sunday, October 6, 1940
 
@@ -21116,6 +20429,12 @@ processing term 1942-10...
 1942-10-26: UNITED STATES v. CONSUMERS PAPER CO. [9] (317 U.S. 595): 4-4
 1943-06-14: WASHINGTON TERMINAL CO. v. BOSWELL [28] (319 U.S. 732): 4-4
 results in range 1942-10-05--1943-10-03: 171
+warning: unable to find WBRutledge in justices for 1943-02-15 (318 U.S. 176) in undefined
+warning: unable to find WBRutledge in justices for 1943-02-15 (318 U.S. 184) in undefined
+warning: unable to find WBRutledge in justices for 1943-02-15 (318 U.S. 189) in undefined
+warning: unable to find WBRutledge in justices for 1943-02-15 (318 U.S. 203) in undefined
+warning: unable to find WBRutledge in justices for 1943-02-15 (318 U.S. 206) in undefined
+file _pages/cases/all/1942-10.md already exists, use --overwrite to recreate
 term 1943-10: Monday, October 4, 1943
 term stopped: Sunday, October 1, 1944
 
@@ -21721,6 +21040,7 @@ processing term 1946-10...
 1947-06-23: United States v. California [12] (332 U.S. 19): 6-2
 1947-03-31: UNITED STATES v. PULLMAN COMPANY et al. [253] (330 U.S. 806): 4-4
 results in range 1946-10-07--1947-10-05: 142
+file _pages/cases/all/1946-10.md already exists, use --overwrite to recreate
 term 1947-10: Monday, October 6, 1947
 term stopped: Sunday, October 3, 1948
 
@@ -21844,6 +21164,7 @@ processing term 1947-10...
 1948-06-21: Taylor v. Alabama [721] (335 U.S. 252): 5-3
 1948-05-17: PARKER v. ILLINOIS [328] (334 U.S. 816): 4-4
 results in range 1947-10-06--1948-10-03: 118
+file _pages/cases/all/1947-10.md already exists, use --overwrite to recreate
 term 1948-10: Monday, October 4, 1948
 term stopped: Sunday, October 2, 1949
 
@@ -21976,6 +21297,7 @@ processing term 1948-10...
 1948-12-20: MARZANI v. UNITED STATES [59] (335 U.S. 895): 4-4
 1949-05-02: STEMMER v. NEW YORK [567] (336 U.S. 963): 4-4
 results in range 1948-10-04--1949-10-02: 127
+file _pages/cases/all/1948-10.md already exists, use --overwrite to recreate
 term 1949-10: Monday, October 3, 1949
 term stopped: Sunday, October 1, 1950
 
@@ -22294,7 +21616,6 @@ processing term 1951-10...
 1952-01-28: MCGRATH, ATTORNEY GENERAL, SUCCESSOR TO THE ALIEN PROPERTY CUSTODIAN, v. NAGANO [169] (342 U.S. 916): 4-4
 1952-03-10: A/S J. LUDWIG MOWINCKELS REDERI et al. v. ISBRANDTSEN CO., INC. et al. [134] (342 U.S. 950): 4-4
 results in range 1951-10-01--1952-10-05: 100
-warning: unable to find justice ID sherman_minton
 term 1952-10: Monday, October 6, 1952
 term stopped: Wednesday, June 17, 1953
 
@@ -24072,7 +23393,6 @@ processing term 1964-10...
 1965-06-07: Associated Food Retailers of Greater Chicago, Inc. v. Jewel Tea Co. [321] (381 U.S. 761): 6-3
 1965-06-07: Cameron v. Johnson [587 M] (381 U.S. 741): 5-4
 results in range 1964-10-05--1965-10-03: 134
-warning: unable to find justice ID tom_c_clark
 term 1965-10: Monday, October 4, 1965
 term stopped: Sunday, October 2, 1966
 
@@ -24718,6 +24038,7 @@ processing term 1968-10...
 1969-06-23: Shipley v. California [540 M] (395 U.S. 818): 6-2
 1969-06-23: Moya v. DeBaca [996 M] (395 U.S. 825): 6-2
 results in range 1968-10-07--1969-10-05: 140
+file _pages/cases/all/1968-10.md already exists, use --overwrite to recreate
 term 1969-10: Monday, October 6, 1969
 term stopped: Sunday, October 4, 1970
 
@@ -28379,7 +27700,6 @@ processing term 1990-10...
 1991-06-27: Gentile v. State Bar of Nev. [89-1836] (501 U.S. 1030): 5-4
 1991-06-27: Virginia Bankshares, Inc. v. Sandberg [89-1448] (501 U.S. 1083): 5-4
 results in range 1990-10-01--1991-10-06: 129
-warning: unable to find justice ID david_h_souter
 term 1991-10: Monday, October 7, 1991
 term stopped: Sunday, October 4, 1992
 
@@ -29320,7 +28640,6 @@ processing term 1999-10...
 2000-06-28: Stenberg v. Carhart [99-830] (530 U.S. 914): 5-4
 2000-06-29: United States v. Alaska [84 ORIG] (530 U.S. 1021): 9-0
 results in range 1999-10-04--2000-10-01: 85
-warning: unable to find justice ID david_h_souter
 term 2000-10: Monday, October 2, 2000
 term stopped: Sunday, September 30, 2001
 
@@ -29413,7 +28732,6 @@ processing term 2000-10...
 2001-06-28: Tyler v. Cain [00-5961] (533 U.S. 656): 5-4
 2001-06-28: Zadvydas v. Davis [99-7791] (533 U.S. 678): 5-4
 results in range 2000-10-02--2001-09-30: 87
-warning: unable to find justice ID sandra_day_oconnor
 term 2001-10: Monday, October 1, 2001
 term stopped: Sunday, October 6, 2002
 
@@ -29680,11 +28998,6 @@ processing term 2003-10...
 2004-06-29: Ashcroft v. American Civil Liberties Union [03-218] (542 U.S. 656): 5-4
 2004-06-29: Sosa v. Alvarez-Machain [03-339] (542 U.S. 692): 6-3
 results in range 2003-10-06--2004-10-03: 79
-warning: unable to find justice ID david_h_souter
-warning: unable to find justice ID stephen_g_breyer
-warning: unable to find justice ID stephen_g_breyer
-warning: unable to find justice ID antonin_scalia
-warning: unable to find justice ID sandra_day_oconnor
 term 2004-10: Monday, October 4, 2004
 term stopped: Sunday, October 2, 2005
 
@@ -29943,8 +29256,6 @@ processing term 2006-10...
 2007-06-28: Leegin Creative Leather Products, Inc. v. PSKS, Inc. [06-480] (551 U.S. 877): 5-4
 2007-06-28: Panetti v. Quarterman [06-6407] (551 U.S. 930): 5-4
 results in range 2006-10-02--2007-09-30: 75
-warning: unable to find justice ID david_h_souter
-warning: unable to find justice ID antonin_scalia
 term 2007-10: Monday, October 1, 2007
 term stopped: Sunday, October 5, 2008
 
@@ -30112,8 +29423,7 @@ processing term 2008-10...
 2009-06-29: Cuomo v. Clearing House Assn., L. L. C. [08-453] (557 U.S. 519): 5-4
 2009-06-29: Ricci v. DeStefano [07-1428] (557 U.S. 557): 5-4
 results in range 2008-10-06--2009-10-04: 83
-warning: unable to find DHSouter in list of justices for date 2009-06-29 in Roberts Court (2009)
-warning: unable to find DHSouter in list of justices for date 2009-06-29 in Roberts Court (2009)
+file _pages/cases/all/2008-10.md already exists, use --overwrite to recreate
 term 2009-10: Monday, October 5, 2009
 term stopped: Sunday, October 3, 2010
 
@@ -30864,5 +30174,6 @@ processing term 2017-10...
 2018-06-28: Sexton v. Beaudreaux [17-1106] (): 8-1
 results in range 2017-10-02--2018-09-30: 76
 totals: matched 28776 decisions out of 28779
-warnings: 855
-[11:09:58] Finished 'allDecisions' after 14 s
+changes: 15
+warnings: 149
+[14:53:23] Finished 'allDecisions' after 13 s
