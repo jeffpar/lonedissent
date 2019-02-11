@@ -292,17 +292,18 @@ function removeValues(a, values)
 }
 
 /**
- * scanObjects(a, key, value)
+ * searchObjects(a, key, value, first)
  *
  * @param {Array.<object>} a
  * @param {string} key
  * @param {*} value
+ * @param {number} [first]
  * @return {number} (index of position, or -1 if not found)
  */
-function scanObjects(a, key, value)
+function searchObjects(a, key, value, first=0)
 {
     let i;
-    for (i = 0; i < a.length; i++) {
+    for (i = first; i < a.length; i++) {
         if (a[i][key] == value) break;
     }
     return (i < a.length)? i : -1;
@@ -2057,28 +2058,32 @@ function sortVotesBySeniority(votes, date, vars, courts, justices)
         }
     }
     if (court) {
-        for (let i = 0; i < court.justices.length; i++) {
-            let old = court.justices[i];
-            let j = scanObjects(justices, "id", old);
-            if (j >= 0) {
-                j = justices[j].scdbJustice;
-                if (j) {
-                    j = vars.justice.values[j];
-                    let k = scanObjects(votesOld, "justice", j);
+        for (let iCourtJustice = 0; iCourtJustice < court.justices.length; iCourtJustice++) {
+            let idJustice = court.justices[iCourtJustice], iJustice, nextJustice = 0;
+            while ((iJustice = searchObjects(justices, "id", idJustice, nextJustice)) >= 0) {
+                nextJustice = iJustice + 1;
+                let iSCDBJustice = justices[iJustice].scdbJustice;
+                if (iSCDBJustice) {
+                    let idSCDBJustice = vars.justice.values[iSCDBJustice];
+                    let k = searchObjects(votesOld, "justice", idSCDBJustice);
                     if (k >= 0) {
                         votesNew.push({
-                            justice: j,
+                            justice: idSCDBJustice,
                             majority: votesOld[k].majority
                         });
                         votesOld.splice(k, 1);
-                    } else {
-                        printf("warning: unable to find vote for %s for date %s in %s\n", j, date, court.name);
+                        break;
                     }
-                } else {
-                    printf("warning: unable to find SCDB ID for justice ID %s\n", old);
+                    // else {
+                    //     printf("warning: unable to find vote for %s for date %s in %s\n", j, date, court.name);
+                    // }
                 }
-            } else {
-                printf("warning: unable to find justice ID %s\n", old);
+                // else {
+                //     printf("warning: unable to find SCDB ID for justice ID %s\n", idJustice);
+                // }
+            }
+            if (iJustice < 0) {
+                printf("warning: unable to find justice ID %s\n", idJustice);
             }
         }
         votesOld.forEach((vote) => {
@@ -2304,7 +2309,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                  *      unable to find caseId '1919-181' in data set
                  */
                 mapValues(result, vars, true);
-                let i = scanObjects(data, "caseId", result.caseId);
+                let i = searchObjects(data, "caseId", result.caseId);
                 if (i < 0) {
                     if (termId) result['termId'] = termId;
                     if (minVotes == 1) {
@@ -2330,7 +2335,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                             printf("warning: unable to identify dissenter for case %s (%s)\n", result.caseId, result.usCite);
                         }
                     }
-                    let b = scanObjects(lonerBackup, "caseId", result.caseId);
+                    let b = searchObjects(lonerBackup, "caseId", result.caseId);
                     if (b >= 0) {
                         let backup = lonerBackup[b];
                         if (backup['caseNotes']) result['caseNotes'] = backup['caseNotes'];
@@ -2611,7 +2616,7 @@ function findJustices(done, minVotes)
             if (matchCite) {
                 volume = +matchCite[1];  page = +matchCite[2];
             }
-            let b = scanObjects(lonerBackup, "caseId", opinion.caseId);
+            let b = searchObjects(lonerBackup, "caseId", opinion.caseId);
             if (b >= 0) {
                 let backup = lonerBackup[b];
                 if (backup['caseNotes']) opinion['caseNotes'] = backup['caseNotes'];
@@ -3055,13 +3060,13 @@ function fixDecisions(done)
 }
 
 /**
- * updateLOC()
+ * fixLOC()
  *
  * Add some new columns to citationsLOC.csv (eg, pageTotal, subject, keywords).
  *
  * @param {function()} done
  */
-function updateLOC(done)
+function fixLOC(done)
 {
     let success = true;
     let rowsLOC = readCSV(results.csv.citationsLOC);
@@ -3154,69 +3159,81 @@ function testDates(done)
 {
     let date, format;
 
+    date = parseDate();
+    printf("       parseDate()\n");
+    format = "LOCAL: %W, %.3F %D, %Y - %I:%02N:%02S%A\n";
+    printf(format, date);
+    format = "  UTC: %#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n\n";
+    printf(format, date);
+
     date = parseDate("2018-08-10");
-    printf("\nparseDate(\"2018-08-10\")\n");
-    format = "%s\t%#C\n\t%#T\n";
-    printf(format, format, date, date);
-    format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
-    printf(format, format, date, date, date, date, date, date, date, date);
-    format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
-    printf(format, format, date, date, date, date, date, date, date, date);
+    printf("       parseDate(\"2018-08-10\")\n");
+    format = "LOCAL: %W, %.3F %D, %Y - %I:%02N:%02S%A\n";
+    printf(format, date);
+    format = "  UTC: %#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
+    printf(format, date);
+    format = "  UTC: %#C\n\t%#T\n\n";
+    printf(format, date);
 
     date = datelib.adjustDays(date, -365);
-    printf("\ndate = adjustDays(date, -365)\n");
-    format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
-    printf(format, format, date, date, date, date, date, date, date, date);
-    format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
-    printf(format, format, date, date, date, date, date, date, date, date);
+    printf("       adjustDays(date, -365)\n");
+    format = "LOCAL: %W, %.3F %D, %Y - %I:%02N:%02S%A\n";
+    printf(format, date);
+    format = "  UTC: %#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n\n";
+    printf(format, date);
 
     date = parseDate(date.getTime());
-    printf("\ndate = parseDate(date.getTime())\n");
-    format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
-    printf(format, format, date, date, date, date, date, date, date, date);
-    format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
-    printf(format, format, date, date, date, date, date, date, date, date);
-
-    date = parseDate();
-    printf("\ndate = parseDate()\n");
-    format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
-    printf(format, format, date, date, date, date, date, date, date, date);
-    format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
-    printf(format, format, date, date, date, date, date, date, date, date);
+    printf("       parseDate(date.getTime())\n");
+    format = "LOCAL: %W, %.3F %D, %Y - %I:%02N:%02S%A\n";
+    printf(format, date);
+    format = "  UTC: %#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n\n";
+    printf(format, date);
 
     date = parseDate(2018, 7, 10);
-    printf("\nparseDate(2018, 7, 10)\n");
-    format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
-    printf(format, format, date, date, date, date, date, date, date, date);
-    format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
-    printf(format, format, date, date, date, date, date, date, date, date);
+    printf("       parseDate(2018, 7, 10)\n");
+    format = "LOCAL: %W, %.3F %D, %Y - %I:%02N:%02S%A\n";
+    printf(format, date);
+    format = "  UTC: %#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n\n";
+    printf(format, date);
 
     date = parseDate(2018, 7, 10, 18, 5, 30);
-    printf("\nparseDate(2018, 7, 10, 18, 5, 30)\n");
-    format = "%s\t%W, %.3F %D, %Y - %I:%02N:%02S%A\n";
-    printf(format, format, date, date, date, date, date, date, date, date);
-    format = "%s\t%#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n";
-    printf(format, format, date, date, date, date, date, date, date, date);
+    printf("       parseDate(2018, 7, 10, 18, 5, 30)\n");
+    format = "LOCAL: %W, %.3F %D, %Y - %I:%02N:%02S%A\n";
+    printf(format, date);
+    format = "  UTC: %#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n\n";
+    printf(format, date);
 
     date = parseDate("1809-02");
-    printf("\nparseDate(\"1809-02\")\n");
-    format = "%s\t%#C\n";
-    printf(format, format, date);
+    printf("       parseDate(\"1809-02\")\n");
+    format = "  UTC: %#C\n\n";
+    printf(format, date);
+
+    let d = -1;
+    printf("d == 0x%02x, %04d\n", d, d);
 
     let terms = ['1790-02', '1953-06', '1980-12-12'];
     terms.forEach((term) => {
         printf("getTermName(%s): %s\n", term, getTermName(term))
     });
 
-    let d = -1;
-    printf("d == 0x%02x\n", d);
+    // let filePaths = glob.sync("./results/*.json");
+    // filePaths.forEach((filePath) => {
+    //     let text = readFile(filePath);
+    //     if (text) {
+    //         printf("checking %s (%d characters)...\n", filePath, text.length);
+    //         if (!checkASCII(text, true)) {
+    //             let textNew = fixASCII(text);
+    //             writeFile(filePath, textNew);
+    //         }
+    //     }
+    // });
 
-    let filePaths = glob.sync("./results/*.json");
+    let filePaths = ["./sources/scdb/vars.json"];
     filePaths.forEach((filePath) => {
         let text = readFile(filePath);
         if (text) {
             printf("checking %s (%d characters)...\n", filePath, text.length);
-            let textNew = fixASCII(text);
+            let textNew = encodeString(text, "html", true);
             if (textNew != text) {
                 writeFile(filePath, textNew);
             }
@@ -3317,16 +3334,16 @@ gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
 gulp.task("justices", buildJustices);
-gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
-gulp.task("fixDecisions", fixDecisions);
+gulp.task("all", gulp.series(findAllDecisions, findAllJustices));
 gulp.task("allDecisions", findAllDecisions);
 gulp.task("allJustices", findAllJustices);
-gulp.task("all", gulp.series(findAllDecisions, findAllJustices));
+gulp.task("loners", gulp.series(findLonerDecisions, findLonerJustices, findLonerParties));
 gulp.task("lonerDecisions", findLonerDecisions);
 gulp.task("lonerJustices", findLonerJustices);
 gulp.task("lonerParties", findLonerParties);
-gulp.task("loners", gulp.series(findLonerDecisions, findLonerJustices, findLonerParties));
-gulp.task("updateLOC", updateLOC);
 gulp.task("backup", backupLonerDecisions);
+gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
+gulp.task("fixDecisions", fixDecisions);
+gulp.task("fixLOC", fixLOC);
 gulp.task("tests", gulp.series(testDates));
 gulp.task("default", findDecisions);
