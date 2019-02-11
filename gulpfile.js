@@ -225,6 +225,119 @@ let downloadTasks = [];
  */
 
 /**
+ * checkASCII(text, fExtended)
+ *
+ * @param {string} text
+ * @param {boolean} [fExtended] (true to check for extended ASCII characters)
+ * @return {boolean} (true if valid, false otherwise)
+ */
+function checkASCII(text, fExtended)
+{
+    let valid = true;
+    let lines = text.split(/\r?\n/);
+    for (let i = 0; i < lines.length; i++) {
+        let line = lines[i];
+        for (let j = 0; j < line.length; j++) {
+            let ch = line.charCodeAt(j);
+            if (ch < 0x20 && ch != 0x09 || fExtended && ch > 0x7f) {
+                printf("warning: unexpected character %02x at row %d col %d: '%s'\n", ch, i+1, j+1, line);
+                valid = false;
+            }
+        }
+    }
+    return valid;
+}
+
+/**
+ * fixASCII(text)
+ *
+ * @param {string} text
+ * @return {string}
+ */
+function fixASCII(text)
+{
+    let textNew = "";
+    for (let i = 0; i < text.length; i++) {
+        let c = text.charCodeAt(i);
+        switch(c) {
+        case 0x91:
+            textNew += "&lsquo;"
+            break;
+        case 0x92:
+            textNew += "&rsquo;"
+            break;
+        case 0x93:
+            textNew += "&ldquo;"
+            break;
+        case 0x94:
+            textNew += "&rdquo;"
+            break;
+        case 0x96:
+            textNew += "&ndash;"
+            break;
+        case 0xA7:
+            textNew += "&sect;"
+            break;
+        default:
+            if (c >= 0x7f) {
+                printf("warning: text '%s' contains unrecognized character '%c' (0x%02x) at pos %d\n", text, c, c, i + 1);
+                warnings++;
+                break;
+            }
+            textNew += String.fromCharCode(c);
+            break;
+        }
+    }
+    return textNew;
+}
+
+/**
+ * decodeString(text, decodeAs)
+ *
+ * @param {string} text
+ * @param {string} [decodeAs] (eg, "html")
+ */
+function decodeString(text, decodeAs)
+{
+    if (decodeAs == "html") {
+        /*
+         * Replace any old-fashioned "&c" references that could be misinterpreted as HTML entities.
+         */
+        text = text.replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
+        text = he.decode(text);
+    }
+    return text;
+}
+
+/**
+ * encodeString(text, encodeAs, fAllowQuotes)
+ *
+ * @param {string} text
+ * @param {string} [encodeAs] (eg, "html")
+ * @param {string} [fAllowQuotes] (default is true)
+ * @return {string}
+ */
+function encodeString(text, encodeAs, fAllowQuotes=true)
+{
+    if (encodeAs == "html") {
+        /*
+         * In case there are already HTML entities in the string, decode first to avoid double-encoding.
+         */
+        text = decodeString(text, encodeAs);
+        text = he.encode(text, {
+            'encodeEverything': false,
+            "useNamedReferences": true
+        });
+        if (fAllowQuotes) text = text.replace(/&apos;/g, "'").replace(/&quot;/g, '"');
+        /*
+         * Some input (eg, "latin1") may contain extended ASCII characters that should be encoded as entities, too.
+         */
+        text = fixASCII(text);
+    }
+    return text;
+}
+
+/**
  * mapValues(o, vars, strict)
  *
  * @param {object} o
@@ -529,7 +642,7 @@ function parseCSV(text, encodeAs="", maxRows=0, keyUnique="", keySubset="", save
                             field = +field;
                         } else if (t.type == "date") {
                             if (field) {
-                                field = sprintf("%#Y-%#02M-%#02D", field, field, field);
+                                field = sprintf("%#Y-%#02M-%#02D", field);
                             }
                         }
                     }
@@ -827,117 +940,6 @@ function readXMLFile(filePath, filters)
 }
 
 /**
- * checkASCII(text, fExtended)
- *
- * @param {string} text
- * @param {boolean} [fExtended] (true to check for extended ASCII characters)
- * @return {boolean} (true if valid, false otherwise)
- */
-function checkASCII(text, fExtended)
-{
-    let valid = true;
-    let lines = text.split(/\r?\n/);
-    for (let i = 0; i < lines.length; i++) {
-        let line = lines[i];
-        for (let j = 0; j < line.length; j++) {
-            let ch = line.charCodeAt(j);
-            if (ch < 0x20 && ch != 0x09 || fExtended && ch > 0x7f) {
-                printf("warning: control character %02x at row %d col %d: '%s'\n", ch, i+1, j+1, line);
-                valid = false;
-            }
-        }
-    }
-    return valid;
-}
-
-/**
- * fixASCII(text)
- *
- * @param {string} text
- * @return {string}
- */
-function fixASCII(text)
-{
-    let textNew = "";
-    for (let i = 0; i < text.length; i++) {
-        let c = text.charCodeAt(i);
-        switch(c) {
-        case 0x91:
-            textNew += "&lsquo;"
-            break;
-        case 0x92:
-            textNew += "&rsquo;"
-            break;
-        case 0x93:
-            textNew += "&ldquo;"
-            break;
-        case 0x94:
-            textNew += "&rdquo;"
-            break;
-        case 0x96:
-            textNew += "&ndash;"
-            break;
-        case 0xA7:
-            textNew += "&sect;"
-            break;
-        default:
-            if (c >= 0x7f) {
-                // printf("warning: text '%s' contains unrecognized character '%c' (0x%02x) at pos %d\n", text, c, c, i + 1);
-                break;
-            }
-            textNew += String.fromCharCode(c);
-            break;
-        }
-    }
-    if (text != textNew) {
-        // printf("warning: old encoding '%s'\n         new encoding '%s'\n", text, textNew);
-        warnings++;
-    }
-    return textNew;
-}
-
-/**
- * decodeString(text, fAll)
- *
- * @param {string} text
- * @param {boolean} [fAll]
- */
-function decodeString(text, fAll=false)
-{
-    /*
-     * Replace any old-fashioned "&c" references that could be misinterpreted as HTML entities.
-     */
-    text = text.replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
-    if (fAll) text = he.decode(text);
-    return text;
-}
-
-/**
- * encodeString(text, encodeAs, fAllowQuotes)
- *
- * @param {string} text
- * @param {string} [encodeAs] (eg, "html")
- * @param {string} [fAllowQuotes] (default is true)
- * @return {string}
- */
-function encodeString(text, encodeAs, fAllowQuotes=true)
-{
-    if (encodeAs == "html") {
-        /*
-         * In case there are already HTML entities in the string, decode first to avoid double-encoding.
-         */
-        text = decodeString(text, !fAllowQuotes);
-        text = he.encode(text, {
-            'encodeEverything': false,
-            "useNamedReferences": true
-        });
-        if (fAllowQuotes) text = text.replace(/&apos;/g, "'").replace(/&quot;/g, '"');
-        text = fixASCII(text);
-    }
-    return text;
-}
-
-/**
  * getLOCPDF(volume, page, pageURL)
  *
  * @param {string} volume
@@ -1143,11 +1145,11 @@ function readOyezJustices()
              * For some reason, all the Oyez XML justice dates appear to be off-by-one, so we compensate here.
              */
             let date = datelib.adjustDays(parseDate(xmlAppt.justiceSwornDate[0]._), 1);
-            justice.start = sprintf("%#Y-%#02M-%#02D", date, date, date);
+            justice.start = sprintf("%#Y-%#02M-%#02D", date);
             justice.startFormatted = sprintf("%#C", justice.start);
             if (xmlAppt.justiceEndDate) {
                 date = datelib.adjustDays(parseDate(xmlAppt.justiceEndDate[0]._), 1);
-                justice.stop = sprintf("%#Y-%#02M-%#02D", date, date, date);
+                justice.stop = sprintf("%#Y-%#02M-%#02D", date);
                 justice.stopFormatted = sprintf("%#C", justice.stop);
                 if (xmlAppt.justiceReasonForLeaving) {
                     justice.stopReason = xmlAppt.justiceReasonForLeaving[0];
@@ -1207,8 +1209,8 @@ function readSCDBCourts()
             printf("warning: %s: current start date (%#C) does not match previous stop date (%#C)\n", court.naturalName, start, startNext);
             warnings++;
         }
-        court.start = sprintf("%#Y-%#02M-%#02D", start, start, start);
-        court.stop = sprintf("%#Y-%#02M-%#02D", stop, stop, stop);
+        court.start = sprintf("%#Y-%#02M-%#02D", start);
+        court.stop = sprintf("%#Y-%#02M-%#02D", stop);
         court.startFormatted = sprintf("%#C", start);
         court.stopFormatted = sprintf("%#C", stop);
         startNext = datelib.adjustDays(stop, 1);
@@ -1263,7 +1265,7 @@ function readSCOTUSDecisions()
         decision.page = match[2];
         if (decision.dateDecision.length > 10) {
             let date = parseDate(decision.dateDecision);
-            decision.dateDecision = sprintf("%#Y-%#02M-%#02D", date, date, date);
+            decision.dateDecision = sprintf("%#Y-%#02M-%#02D", date);
         }
         if (!decisionsScotus[decision.usCite]) decisionsScotus[decision.usCite] = [];
         decisionsScotus[decision.usCite].push(decision);
@@ -1426,7 +1428,7 @@ function buildCitations(done)
                     let matchDate = match[7].match(/<span[^>]*>\s*<strong>Date:<\/strong>\s*([^<]*)([0-9][0-9][0-9][0-9])\s*<\/span>/);
                     if (matchDate) {
                         let date = parseDate(matchDate[1] + matchDate[2]);
-                        dateDecision = sprintf("%#Y-%#02M-%#02D", date, date, date);
+                        dateDecision = sprintf("%#Y-%#02M-%#02D", date);
                         year = +matchDate[2];
                     }
                     let cite = {volume, page, year, dateDecision, caseTitle, oldCite, usCite};
@@ -1776,9 +1778,9 @@ function buildJustices(done)
         let stop = parseDate(justice.stopDate);
         delete justice.startDate;
         delete justice.stopDate;
-        justice.start = sprintf("%#Y-%#02M-%#02D", start, start, start);
+        justice.start = sprintf("%#Y-%#02M-%#02D", start);
         justice.startFormatted = sprintf("%#C", start);
-        justice.stop = sprintf("%#Y-%#02M-%#02D", stop, stop, stop);
+        justice.stop = sprintf("%#Y-%#02M-%#02D", stop);
         justice.stopFormatted = sprintf("%#C", stop);
         /*
          * Let's see if we can find a match in the Oyez list...
@@ -2009,8 +2011,8 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
                 }
             }
             date = datelib.adjustDays(date, add + dateDelta);
-            sDate = sprintf("%#Y-%#02M-%#02D", date, date, date);
-            if (fPrint) printf("term %s: %s\n", dateDelta? "ending" : term, sprintf("%#C", date));
+            sDate = sprintf("%#Y-%#02M-%#02D", date);
+            if (fPrint) printf("term %s: %s\n", dateDelta? "stopped" : term, sprintf("%#C", date));
         }
     }
     return sDate;
@@ -2027,11 +2029,11 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
  */
 function getTermName(termId)
 {
-    let termName = sprintf("%#F Term %#Y", termId, termId);
+    let termName = sprintf("%#F Term %#Y", termId);
     if (termId >= "1844-12" && termId <= "1849-12") {
         termName = "January Term " + (+termId.substr(0, 4) + 1);
     } else if (termId == "1942-07" || termId == "1953-06" || termId == "1958-08" || termId == "1972-07") {
-        termName = sprintf("%#F Special Term %#Y", termId, termId);
+        termName = sprintf("%#F Special Term %#Y", termId);
     }
     return termName;
 }
@@ -2159,6 +2161,7 @@ function sortVotesBySeniority(votes, date, vars, courts, justices)
  */
 function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 {
+    let changes = 0;
     let caseId = argv['case'] || "";
     let term = argv['term'] || sTerm, termId;
     let end = argv['end'] || argv['term'] || sEnd, endTerm;
@@ -2456,7 +2459,11 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     }
                 });
                 fileText += '---\n';
-                writeFile(fileName, fileText);
+                let oldText = readFile(fileName);
+                if (oldText && oldText != fileText) {
+                    writeFile(fileName, fileText);
+                    changes++;
+                }
                 /*
                  * Let's make sure there's an index entry as well....
                  */
@@ -2478,7 +2485,11 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         } else {
                             index = index.substr(0, match.index) + entry + index.substr(match.index + match[0].length + 1);
                         }
-                        writeFile(fileName, index);
+                        let oldIndex = readFile(fileName);
+                        if (oldIndex && oldIndex != index) {
+                            writeFile(fileName, index);
+                            changes++;
+                        }
                     }
                 }
             }
@@ -2491,6 +2502,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
         printf("warning: checked %d decisions more than once (%j)\n", decisionsDuplicated.length, decisionsDuplicated);
         warnings++;
     }
+
+    if (changes) printf("changes: %d\n", changes);
 
     if (warnings) printf("warnings: %d\n", warnings);
 
@@ -2971,7 +2984,7 @@ function fixDecisions(done)
         }
 
         if (decision.caseTitle) {
-            let s = encodeString(decodeString(decision.caseTitle, true), "html");
+            let s = encodeString(decision.caseTitle, "html");
             if (decision.caseTitle != s) {
                 printf("warning: old caseTitle encoding '%s'\n         new caseTitle encoding '%s'\n", decision.caseTitle, s);
                 decision.caseTitle = s;
@@ -3216,24 +3229,12 @@ function testDates(done)
         printf("getTermName(%s): %s\n", term, getTermName(term))
     });
 
-    // let filePaths = glob.sync("./results/*.json");
-    // filePaths.forEach((filePath) => {
-    //     let text = readFile(filePath);
-    //     if (text) {
-    //         printf("checking %s (%d characters)...\n", filePath, text.length);
-    //         if (!checkASCII(text, true)) {
-    //             let textNew = fixASCII(text);
-    //             writeFile(filePath, textNew);
-    //         }
-    //     }
-    // });
-
     let filePaths = ["./sources/scdb/vars.json"];
     filePaths.forEach((filePath) => {
         let text = readFile(filePath);
         if (text) {
             printf("checking %s (%d characters)...\n", filePath, text.length);
-            let textNew = encodeString(text, "html", true);
+            let textNew = encodeString(text, "html");
             if (textNew != text) {
                 writeFile(filePath, textNew);
             }
