@@ -103,16 +103,6 @@ cases:
     citation: "170 U.S. 303"
     authorId: jmckenna
     authorName: "Joseph McKenna"
-  - id: "1898-026"
-    termId: "1897-10"
-    title: "The Elfrida"
-    volume: "172"
-    page: "186"
-    pdfSource: "loc"
-    dateDecision: "Saturday, October 1, 1898"
-    citation: "172 U.S. 186"
-    authorId: jmckenna
-    authorName: "Joseph McKenna"
   - id: "1898-010"
     termId: "1898-10"
     title: "Northwestern Bank v. Freeman"
@@ -141,6 +131,16 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1898"
     citation: "172 U.S. 171"
+    authorId: jmckenna
+    authorName: "Joseph McKenna"
+  - id: "1898-026"
+    termId: "1897-10"
+    title: "The Elfrida"
+    volume: "172"
+    page: "186"
+    pdfSource: "loc"
+    dateDecision: "Saturday, October 1, 1898"
+    citation: "172 U.S. 186"
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-037"

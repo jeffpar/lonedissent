@@ -293,16 +293,6 @@ cases:
     citation: "147 U.S. 282"
     authorId: gshiras
     authorName: "George Shiras"
-  - id: "1893-077"
-    termId: "1892-10"
-    title: "Western Nat. Bank v. Armstrong"
-    volume: "152"
-    page: "346"
-    pdfSource: "loc"
-    dateDecision: "Sunday, March 12, 1893"
-    citation: "152 U.S. 346"
-    authorId: gshiras
-    authorName: "George Shiras"
   - id: "1893-004"
     termId: "1893-10"
     title: "New York &amp; Texas Land Co. v. Votaw"
@@ -381,6 +371,16 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1893"
     citation: "150 U.S. 597"
+    authorId: gshiras
+    authorName: "George Shiras"
+  - id: "1893-077"
+    termId: "1892-10"
+    title: "Western Nat. Bank v. Armstrong"
+    volume: "152"
+    page: "346"
+    pdfSource: "loc"
+    dateDecision: "Sunday, March 12, 1893"
+    citation: "152 U.S. 346"
     authorId: gshiras
     authorName: "George Shiras"
   - id: "1893-089"

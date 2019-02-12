@@ -134,12 +134,12 @@ cases:
     dissenterId: hbaldwin
     dissenterName: "Henry Baldwin"
   - id: "1834-065"
-    termId: "1834-01"
+    termId: "1835-01"
     title: "Life &amp; Fire Ins. Co. of N. Y. v. Adams"
     volume: "034"
     page: "571"
     pdfSource: "loc"
-    dateDecision: "Thursday, January 1, 1835"
+    dateDecision: "January Term 1835"
     citation: "34 U.S. 571"
     dissenterId: hbaldwin
     dissenterName: "Henry Baldwin"

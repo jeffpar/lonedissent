@@ -1163,16 +1163,6 @@ cases:
     citation: "45 U.S. 591"
     authorId: jmclean
     authorName: "John McLean"
-  - id: "1849-018"
-    termId: "1845-12"
-    title: "Passenger Cases"
-    volume: "048"
-    page: "283"
-    pdfSource: "loc"
-    dateDecision: "Tuesday, December 9, 1845"
-    citation: "48 U.S. 283"
-    authorId: jmclean
-    authorName: "John McLean"
   - id: "1847-003"
     termId: "1846-12"
     title: "N. &amp; J. Dick &amp; Co. v. Runnels"
@@ -1301,6 +1291,16 @@ cases:
     pdfSource: "loc"
     dateDecision: "Thursday, February 1, 1849"
     citation: "48 U.S. 279"
+    authorId: jmclean
+    authorName: "John McLean"
+  - id: "1849-018"
+    termId: "1845-12"
+    title: "Passenger Cases"
+    volume: "048"
+    page: "283"
+    pdfSource: "loc"
+    dateDecision: "Tuesday, December 9, 1845"
+    citation: "48 U.S. 283"
     authorId: jmclean
     authorName: "John McLean"
   - id: "1849-019"

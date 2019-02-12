@@ -2513,7 +2513,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     if (decision.pdfSource) fileText += '    pdfSource: "' + decision.pdfSource + '"\n';
                     if (decision.pdfPage) fileText += '    pdfPage: ' + decision.pdfPage + '\n';
                     if (decision.pdfPageDissent) fileText += '    pdfPageDissent: ' + decision.pdfPageDissent + '\n';
-                    fileText += '    dateDecision: "' + sprintf("%#C", decision.dateDecision) + '"\n';
+                    fileText += '    dateDecision: "' + (decision.dateDecision.length < 10? termName : sprintf("%#C", decision.dateDecision)) + '"\n';
                     fileText += '    citation: "' + (decision.usCite || ('No. ' + decision.docket)) + '"\n';
                     fileText += '    voteMajority: ' + decision.majVotes + '\n';
                     fileText += '    voteMinority: ' + decision.minVotes + '\n';
@@ -2727,7 +2727,7 @@ function findJustices(done, minVotes)
             if (opinion.pdfSource) text += '    pdfSource: "' + opinion.pdfSource + '"\n';
             if (opinion.pdfPage) text += '    pdfPage: ' + opinion.pdfPage + '\n';
             if (opinion.pdfPageDissent) text += '    pdfPageDissent: ' + opinion.pdfPageDissent + '\n';
-            text += '    dateDecision: "' + sprintf("%#C", opinion.dateDecision) + '"\n';
+            text += '    dateDecision: "' + (opinion.dateDecision.length < 10? getTermName(opinion.termId) : sprintf("%#C", opinion.dateDecision)) + '"\n';
             text += '    citation: "' + (opinion.usCite || ('No. ' + opinion.docket)) + '"\n';
             if (minVotes == 1) {
                 text += '    dissenterId: ' + justice.id + '\n';

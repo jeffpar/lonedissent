@@ -3,6 +3,16 @@ title: "Justice Oliver Holmes's Majority Opinions"
 permalink: /justices/all/owholmes
 layout: cases
 cases:
+  - id: "1895-077"
+    termId: "1905-10"
+    title: "The Eliza Lines"
+    volume: "199"
+    page: "119"
+    pdfSource: "loc"
+    dateDecision: "Monday, October 30, 1905"
+    citation: "199 U.S. 119"
+    authorId: owholmes
+    authorName: "Oliver Holmes"
   - id: "1902-045"
     termId: "1902-10"
     title: "American Colortype Co. v. Continental Colortype Co."
@@ -851,16 +861,6 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1905"
     citation: "197 U.S. 135"
-    authorId: owholmes
-    authorName: "Oliver Holmes"
-  - id: "1895-077"
-    termId: "1905-10"
-    title: "The Eliza Lines"
-    volume: "199"
-    page: "119"
-    pdfSource: "loc"
-    dateDecision: "Monday, October 30, 1905"
-    citation: "199 U.S. 119"
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-013"

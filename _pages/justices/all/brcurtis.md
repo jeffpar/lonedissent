@@ -273,6 +273,16 @@ cases:
     citation: "58 U.S. 147"
     authorId: brcurtis
     authorName: "Benjamin Curtis"
+  - id: "1854-008"
+    termId: "1855-12"
+    title: "Bush v. Cooper&apos;s Administrator"
+    volume: "059"
+    page: "082"
+    pdfSource: "loc"
+    dateDecision: "Wednesday, January 2, 1856"
+    citation: "59 U.S. 82"
+    authorId: brcurtis
+    authorName: "Benjamin Curtis"
   - id: "1854-019"
     termId: "1854-12"
     title: "Lawrence v. Minturn"
@@ -331,16 +341,6 @@ cases:
     pdfSource: "loc"
     dateDecision: "Saturday, March 10, 1855"
     citation: "58 U.S. 601"
-    authorId: brcurtis
-    authorName: "Benjamin Curtis"
-  - id: "1854-008"
-    termId: "1855-12"
-    title: "Bush v. Cooper&apos;s Administrator"
-    volume: "059"
-    page: "082"
-    pdfSource: "loc"
-    dateDecision: "Wednesday, January 2, 1856"
-    citation: "59 U.S. 82"
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1855-007"

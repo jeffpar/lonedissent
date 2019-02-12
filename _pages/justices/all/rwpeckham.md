@@ -523,16 +523,6 @@ cases:
     citation: "165 U.S. 330"
     authorId: rwpeckham
     authorName: "Rufus Peckham"
-  - id: "1897-046"
-    termId: "1896-10"
-    title: "Williams v. Paine"
-    volume: "169"
-    page: "055"
-    pdfSource: "loc"
-    dateDecision: "Sunday, January 10, 1897"
-    citation: "169 U.S. 55"
-    authorId: rwpeckham
-    authorName: "Rufus Peckham"
   - id: "1897-002"
     termId: "1897-10"
     title: "Bergere v. United States"
@@ -591,6 +581,16 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1897"
     citation: "168 U.S. 349"
+    authorId: rwpeckham
+    authorName: "Rufus Peckham"
+  - id: "1897-046"
+    termId: "1896-10"
+    title: "Williams v. Paine"
+    volume: "169"
+    page: "055"
+    pdfSource: "loc"
+    dateDecision: "Sunday, January 10, 1897"
+    citation: "169 U.S. 55"
     authorId: rwpeckham
     authorName: "Rufus Peckham"
   - id: "1897-050"

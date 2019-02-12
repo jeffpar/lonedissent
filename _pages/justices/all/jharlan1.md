@@ -553,6 +553,16 @@ cases:
     citation: "102 U.S. 577"
     authorId: jharlan1
     authorName: "John M. Harlan"
+  - id: "1880-071"
+    termId: "1881-10"
+    title: "Dugger v. Bocock"
+    volume: "104"
+    page: "596"
+    pdfSource: "loc"
+    dateDecision: "Monday, January 16, 1882"
+    citation: "104 U.S. 596"
+    authorId: jharlan1
+    authorName: "John M. Harlan"
   - id: "1880-085"
     termId: "1880-10"
     title: "Page v. Burnstine"
@@ -717,16 +727,6 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1881"
     citation: "103 U.S. 515n"
-    authorId: jharlan1
-    authorName: "John M. Harlan"
-  - id: "1880-071"
-    termId: "1881-10"
-    title: "Dugger v. Bocock"
-    volume: "104"
-    page: "596"
-    pdfSource: "loc"
-    dateDecision: "Monday, January 16, 1882"
-    citation: "104 U.S. 596"
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-002"

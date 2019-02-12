@@ -3783,16 +3783,6 @@ cases:
     citation: "315 U.S. 126"
     authorId: hfstone
     authorName: "Harlan Stone"
-  - id: "1942-017"
-    termId: "1942-07"
-    title: "Ex parte Quirin"
-    volume: "317"
-    page: "001"
-    pdfSource: "loc"
-    dateDecision: "Friday, July 31, 1942"
-    citation: "317 U.S. 1"
-    authorId: hfstone
-    authorName: "Harlan Stone"
   - id: "1942-011"
     termId: "1942-10"
     title: "Mangus v. Miller"
@@ -3801,6 +3791,16 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1942"
     citation: "317 U.S. 178"
+    authorId: hfstone
+    authorName: "Harlan Stone"
+  - id: "1942-017"
+    termId: "1942-07"
+    title: "Ex parte Quirin"
+    volume: "317"
+    page: "001"
+    pdfSource: "loc"
+    dateDecision: "Friday, July 31, 1942"
+    citation: "317 U.S. 1"
     authorId: hfstone
     authorName: "Harlan Stone"
   - id: "1942-022"

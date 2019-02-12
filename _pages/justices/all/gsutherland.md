@@ -1213,6 +1213,16 @@ cases:
     citation: "273 U.S. 326"
     authorId: gsutherland
     authorName: "George Sutherland"
+  - id: "1927-073"
+    termId: "1928-10"
+    title: "Williams v. Standard Oil Co. of La."
+    volume: "278"
+    page: "235"
+    pdfSource: "loc"
+    dateDecision: "Wednesday, January 2, 1929"
+    citation: "278 U.S. 235"
+    authorId: gsutherland
+    authorName: "George Sutherland"
   - id: "1927-095"
     termId: "1927-10"
     title: "Brown v. United States"
@@ -1301,16 +1311,6 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1928"
     citation: "276 U.S. 494"
-    authorId: gsutherland
-    authorName: "George Sutherland"
-  - id: "1927-073"
-    termId: "1928-10"
-    title: "Williams v. Standard Oil Co. of La."
-    volume: "278"
-    page: "235"
-    pdfSource: "loc"
-    dateDecision: "Wednesday, January 2, 1929"
-    citation: "278 U.S. 235"
     authorId: gsutherland
     authorName: "George Sutherland"
   - id: "1928-009"

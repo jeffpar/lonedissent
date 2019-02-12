@@ -2623,16 +2623,6 @@ cases:
     citation: "145 U.S. 611"
     authorId: hgray
     authorName: "Horace Gray"
-  - id: "1892-056"
-    termId: "1891-10"
-    title: "Isaacs v. Jonas"
-    volume: "148"
-    page: "648"
-    pdfSource: "loc"
-    dateDecision: "Sunday, April 10, 1892"
-    citation: "148 U.S. 648"
-    authorId: hgray
-    authorName: "Horace Gray"
   - id: "1892-011"
     termId: "1892-10"
     title: "Bellaire v. Baltimore &amp; Ohio R. Co."
@@ -2661,6 +2651,16 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1892"
     citation: "146 U.S. 657"
+    authorId: hgray
+    authorName: "Horace Gray"
+  - id: "1892-056"
+    termId: "1891-10"
+    title: "Isaacs v. Jonas"
+    volume: "148"
+    page: "648"
+    pdfSource: "loc"
+    dateDecision: "Sunday, April 10, 1892"
+    citation: "148 U.S. 648"
     authorId: hgray
     authorName: "Horace Gray"
   - id: "1892-065"

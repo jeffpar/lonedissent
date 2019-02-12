@@ -1447,6 +1447,16 @@ cases:
     citation: "131 U.S. xcix"
     authorId: spchase
     authorName: "Salmon Chase"
+  - id: "1870-047"
+    termId: "1871-12"
+    title: "The Protector"
+    volume: "079"
+    page: "700"
+    pdfSource: "loc"
+    dateDecision: "Monday, January 29, 1872"
+    citation: "79 U.S. 700"
+    authorId: spchase
+    authorName: "Salmon Chase"
   - id: "1870-134"
     termId: "1870-12"
     title: "Cousin v. Generes"
@@ -1525,16 +1535,6 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1871"
     citation: "79 U.S. 440"
-    authorId: spchase
-    authorName: "Salmon Chase"
-  - id: "1870-047"
-    termId: "1871-12"
-    title: "The Protector"
-    volume: "079"
-    page: "700"
-    pdfSource: "loc"
-    dateDecision: "Monday, January 29, 1872"
-    citation: "79 U.S. 700"
     authorId: spchase
     authorName: "Salmon Chase"
   - id: "1871-056"

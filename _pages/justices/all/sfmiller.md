@@ -163,16 +163,6 @@ cases:
     citation: "68 U.S. 582"
     authorId: sfmiller
     authorName: "Samuel Miller"
-  - id: "1865-076"
-    termId: "1863-12"
-    title: "Merriam v. Haas"
-    volume: "070"
-    page: "687"
-    pdfSource: "loc"
-    dateDecision: "Tuesday, February 23, 1864"
-    citation: "70 U.S. 687"
-    authorId: sfmiller
-    authorName: "Samuel Miller"
   - id: "1864-002"
     termId: "1864-12"
     title: "Miles v. Caldwell"
@@ -361,6 +351,16 @@ cases:
     pdfSource: "loc"
     dateDecision: "Tuesday, April 3, 1866"
     citation: "70 U.S. 334"
+    authorId: sfmiller
+    authorName: "Samuel Miller"
+  - id: "1865-076"
+    termId: "1863-12"
+    title: "Merriam v. Haas"
+    volume: "070"
+    page: "687"
+    pdfSource: "loc"
+    dateDecision: "Tuesday, February 23, 1864"
+    citation: "70 U.S. 687"
     authorId: sfmiller
     authorName: "Samuel Miller"
   - id: "1865-077"

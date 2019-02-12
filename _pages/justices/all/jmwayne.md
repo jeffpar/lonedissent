@@ -1033,6 +1033,16 @@ cases:
     citation: "60 U.S. 288"
     authorId: jmwayne
     authorName: "James Wayne"
+  - id: "1856-057"
+    termId: "1856-12"
+    title: "Roberts v. Cooper"
+    volume: "060"
+    page: "373"
+    pdfSource: "loc"
+    dateDecision: "December Term 1856"
+    citation: "60 U.S. 373"
+    authorId: jmwayne
+    authorName: "James Wayne"
   - id: "1857-017"
     termId: "1857-12"
     title: "Dynes v. Hoover"

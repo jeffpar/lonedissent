@@ -283,6 +283,16 @@ cases:
     citation: "65 U.S. 307"
     authorId: nclifford
     authorName: "Nathan Clifford"
+  - id: "1860-041"
+    termId: "1861-12"
+    title: "Rice v. Railroad Co."
+    volume: "066"
+    page: "358"
+    pdfSource: "loc"
+    dateDecision: "Monday, March 3, 1862"
+    citation: "66 U.S. 358"
+    authorId: nclifford
+    authorName: "Nathan Clifford"
   - id: "1860-057"
     termId: "1860-12"
     title: "Belcher v. Linn"
@@ -331,16 +341,6 @@ cases:
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
     citation: "65 U.S. 544"
-    authorId: nclifford
-    authorName: "Nathan Clifford"
-  - id: "1860-041"
-    termId: "1861-12"
-    title: "Rice v. Railroad Co."
-    volume: "066"
-    page: "358"
-    pdfSource: "loc"
-    dateDecision: "Monday, March 3, 1862"
-    citation: "66 U.S. 358"
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1861-002"

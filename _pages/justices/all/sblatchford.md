@@ -1821,16 +1821,6 @@ cases:
     citation: "124 U.S. 720"
     authorId: sblatchford
     authorName: "Samuel Blatchford"
-  - id: "1888-078"
-    termId: "1886-10"
-    title: "McCormick v. Graham&apos;s Administrator"
-    volume: "129"
-    page: "001"
-    pdfSource: "loc"
-    dateDecision: "Monday, January 10, 1887"
-    citation: "129 U.S. 1"
-    authorId: sblatchford
-    authorName: "Samuel Blatchford"
   - id: "1887-005"
     termId: "1887-10"
     title: "The Excelsior"
@@ -2419,6 +2409,16 @@ cases:
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1888"
     citation: "128 U.S. 617"
+    authorId: sblatchford
+    authorName: "Samuel Blatchford"
+  - id: "1888-078"
+    termId: "1886-10"
+    title: "McCormick v. Graham&apos;s Administrator"
+    volume: "129"
+    page: "001"
+    pdfSource: "loc"
+    dateDecision: "Monday, January 10, 1887"
+    citation: "129 U.S. 1"
     authorId: sblatchford
     authorName: "Samuel Blatchford"
   - id: "1888-079"

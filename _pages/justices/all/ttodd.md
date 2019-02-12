@@ -103,16 +103,6 @@ cases:
     citation: "19 U.S. 577"
     authorId: ttodd
     authorName: "Thomas Todd"
-  - id: "1822-019"
-    termId: "1821-02"
-    title: "Miller v. Kerr"
-    volume: "020"
-    page: "001"
-    pdfSource: "loc"
-    dateDecision: "Thursday, March 15, 1821"
-    citation: "20 U.S. 1"
-    authorId: ttodd
-    authorName: "Thomas Todd"
   - id: "1822-011"
     termId: "1822-02"
     title: "Watts v. Lindsey&apos;s Heirs"
@@ -121,6 +111,16 @@ cases:
     pdfSource: "loc"
     dateDecision: "Friday, March 1, 1822"
     citation: "20 U.S. 158"
+    authorId: ttodd
+    authorName: "Thomas Todd"
+  - id: "1822-019"
+    termId: "1821-02"
+    title: "Miller v. Kerr"
+    volume: "020"
+    page: "001"
+    pdfSource: "loc"
+    dateDecision: "Thursday, March 15, 1821"
+    citation: "20 U.S. 1"
     authorId: ttodd
     authorName: "Thomas Todd"
   - id: "1824-020"
