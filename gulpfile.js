@@ -353,7 +353,7 @@ function encodeString(text, encodeAs, fAllowQuotes=true)
  * mapValues(o, vars, strict)
  *
  * @param {object} o
- * @param {Array.<object>} vars
+ * @param {object} vars
  * @param {boolean} [strict]
  * @return {number}
  */
@@ -535,13 +535,14 @@ function searchObjects(rows, key, value, next=0)
 }
 
 /**
- * searchSortedObjects(rows, row)
+ * searchSortedObjects(rows, row, fUnique)
  *
  * @param {Array.<object>} rows
  * @param {object} row
+ * @param {boolean} [fUnique] (true to return match only if unique; default is to return first match)
  * @return {number}
  */
-function searchSortedObjects(rows, row)
+function searchSortedObjects(rows, row, fUnique)
 {
     let keys = Object.keys(row);
     let compare = function(row1, row2) {
@@ -564,7 +565,15 @@ function searchSortedObjects(rows, row)
             }
         }
     };
-    return binarySearch(rows, row, compare);
+    let i = binarySearch(rows, row, compare);
+    while (i > 0) {
+        if (compare(rows[i], rows[i-1])) break;
+        i--;
+    }
+    if (fUnique && i >= 0 && i < rows.length - 1 && !compare(rows[i], rows[i+1])) {
+        i = -1;
+    }
+    return i;
 }
 
 /**
@@ -1141,9 +1150,7 @@ function readOyezCourts()
         };
         courts.push(court);
     }
-    courts.sort(function(a, b) {
-        return (a.start < b.start)? -1 : ((a.start > b.start)? 1 : 0);
-    });
+    sortObjects(courts, ["start"]);
     printf("Oyez courts read: %d\n", courts.length);
     return courts;
 }
@@ -1186,9 +1193,7 @@ function readOyezJustices()
             justices.push(justice);
         }
     }
-    justices.sort(function(a, b) {
-        return (a.start < b.start)? -1 : ((a.start > b.start)? 1 : 0);
-    });
+    sortObjects(justices, ["start"]);
     printf("Oyez justices read: %d\n", justices.length);
     return justices;
 }
@@ -1267,11 +1272,12 @@ function readSCDBCourts(fDisplay)
 }
 
 /**
- * readSCDBJustices()
+ * readSCDBJustices(fDisplay)
  *
+ * @param {boolean} [fDisplay]
  * @return {Array.<Justice>}
  */
-function readSCDBJustices()
+function readSCDBJustices(fDisplay)
 {
     let justices = readCSV(sources.scdb.justicesCSV, "html");
     for (let i = 0; i < justices.length; i++) {
@@ -1292,7 +1298,7 @@ function readSCDBJustices()
         justice.stop = sprintf("%#Y-%#02M-%#02D", stop);
         justice.stopFormatted = sprintf("%#C", stop);
     }
-    printf("SCDB justices read: %d\n", justices.length);
+    if (fDisplay) printf("SCDB justices read: %d\n", justices.length);
     return justices;
 }
 
@@ -1367,6 +1373,52 @@ function backupLonerDecisions(done)
         backupDecisions.push(backup);
     });
     writeFile(_data.lonerBackup, backupDecisions);
+    done();
+}
+
+/**
+ * buildAdvocates()
+ *
+ * @param {function()} done
+ */
+function buildAdvocates(done)
+{
+    let vars = JSON.parse(readFile(sources.scdb.vars) || "{}");
+    let courtsSCDB = readSCDBCourts();
+    // let courts = JSON.parse(readFile(results.json.courts) || "[]");
+    let justices = JSON.parse(readFile(results.json.justices) || "[]");
+    let dataFile = _data.allDecisions;
+    let decisions = JSON.parse(readFile(dataFile) || "[]");
+    sortObjects(decisions, ["volume", "page"]);
+
+    let filePaths = glob.sync(rootDir + "/_pages/advocates/**/*.md");
+    filePaths.forEach((filePath) => {
+        let iStart = filePath.indexOf("/advocates/"), iEnd = filePath.indexOf(".md");
+        let pathName = filePath.substring(iStart, iEnd);
+        let i = pathName.lastIndexOf('/');
+        let idAdvocate = pathName.substr(i + 1);
+        i = idAdvocate.lastIndexOf('_');
+        let lastName = idAdvocate.substr(i + 1);
+        let lastLetter = lastName[0];
+        let rowsAdvocate = readCSV("/sources/oyez/advocates/" + lastLetter + "/" + lastName + "/" + idAdvocate + "/cases.csv");
+        if (rowsAdvocate && rowsAdvocate.length) {
+            let results = [];
+            let nameAdvocate = rowsAdvocate[0].advocateName;
+            let fileText = '---\ntitle: "Cases Argued by ' + nameAdvocate + ' in the U.S. Supreme Court"\npermalink: ' + pathName + '\nlayout: cases\n';
+            rowsAdvocate.forEach((row) => {
+                i = searchSortedObjects(decisions, {volume: row.volume, page: row.page}, true);
+                if (i >= 0) {
+                    results.push(decisions[i]);
+                } else {
+                    warning("unable to find exact match for %s: %s (%s)\n", nameAdvocate, row.caseTitle, row.usCite);
+                }
+            });
+            sortObjects(results, ["volume", "page", "caseTitle"]);
+            fileText += generateCaseYML(results, vars, courtsSCDB, justices);
+            fileText += '---\n';
+            writeFile(filePath, fileText);
+        }
+    });
     done();
 }
 
@@ -1920,6 +1972,95 @@ function scoreStrings(left, right)
 }
 
 /**
+ * generateCaseYML(decisions, vars, courts, justices)
+ *
+ * @param {Array.<Decision>} decisions
+ * @param {object} vars
+ * @param {Array.<Court>} courts
+ * @param {Array.<Justice>} justices
+ */
+function generateCaseYML(decisions, vars, courts, justices)
+{
+    let ymlText = '';
+    decisions.forEach((decision) => {
+        let volume = 0, page = 0;
+        let matchCite = decision.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
+        if (matchCite) {
+            volume = +matchCite[1];  page = +matchCite[2];
+        }
+        if (!ymlText) ymlText = 'cases:\n';
+        ymlText += '  - id: "' + decision.caseId + '"\n';
+        ymlText += '    termId: "' + decision.termId + '"\n';
+        ymlText += '    title: "' + encodeString(decision.caseTitle || decision.caseName, "html", false) + '"\n';
+        /*
+         * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
+         * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
+         * And finally, when using SCOTUS slip opinions, 'pdfSource' should be a SCOTUS path (eg,
+         * "17pdf/17-21_p8k0").
+         *
+         * The LOC appears to have PDFs for everything up through U.S. Reports volume 542, which covers
+         * the end of the 2003 term, and SCOTUS has bound volumes for U.S. Reports volumes 502 through 569,
+         * which spans terms 1991 through 2012, so there's a healthy overlap between LOC and SCOTUS.
+         *
+         * SCOTUS also has slip opinions for the 2012 term and up.  Moreover, SCOTUS claims it will keep
+         * slip opinions until they have been posted in a bound volume PDF.  This means that going forward,
+         * every new SCOTUS opinion will have a SCOTUS source (ie, bound or slip); unfortunately, it also
+         * means that periodically (ie, whenever SCOTUS decides to post a new bound volume PDF and remove
+         * corresponding slip opinion PDFs), we will have to detect the missing opinions and remap them.
+         * Sigh.
+         *
+         * Regarding LOC, you can browse an entire volume like so:
+         *
+         *      https://www.loc.gov/search/?fa=partof:u.s.+reports:+volume+542
+         *
+         * For a case like 542 U.S. 241, the PDF is here:
+         *
+         *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.pdf
+         *
+         * and the thumbnail is here:
+         *
+         *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
+         *
+         * Some of the LOC PDFs don't actually start on the correct page.  The above PDF, for example,
+         * actually starts with page 240 of volume 542, not page 241.  Such cases should have the 'pdfPage'
+         * property set (eg, 2); the default value for 'pdfPage' is 1, so it need not be set for PDFs
+         * where the opinion properly begins on the first page (hopefully the case for most LOC opinions).
+         *
+         * As for the dissents, they invariably start at some later page in the PDF, so the 'pdfPageDissent'
+         * property must be set.  Moreover, if the 'pdfPage' is some value greater than 1, then that difference
+         * must be applied to 'pdfPageDissent' as well; our page templates will *not* automatically add
+         * "pdfpage" minus 1 to the dissent page number.
+         */
+        if (volume) ymlText += sprintf('    volume: "%03d"\n', volume);
+        if (page) ymlText += sprintf('    page: "%03d"\n' , page);
+        if (decision.pdfSource) ymlText += '    pdfSource: "' + decision.pdfSource + '"\n';
+        if (decision.pdfPage) ymlText += '    pdfPage: ' + decision.pdfPage + '\n';
+        if (decision.pdfPageDissent) ymlText += '    pdfPageDissent: ' + decision.pdfPageDissent + '\n';
+        ymlText += '    dateDecision: "' + (decision.dateDecision.length < 10? getTermName(decision.dateDecision) : sprintf("%#C", decision.dateDecision)) + '"\n';
+        ymlText += '    citation: "' + (decision.usCite || ('No. ' + decision.docket)) + '"\n';
+        ymlText += '    voteMajority: ' + decision.majVotes + '\n';
+        ymlText += '    voteMinority: ' + decision.minVotes + '\n';
+        if (decision.dissenterId) {
+            ymlText += '    dissenterId: ' + getJusticeId(decision.dissenterId) + '\n';
+            ymlText += '    dissenterName: "' + decision.dissenterName + '"\n';
+        } else if (decision.majOpinWriter && decision.majOpinWriter != "none") {
+            ymlText += '    authorId: ' + getJusticeId(decision.majOpinWriter) + '\n';
+            ymlText += '    authorName: "' + vars.justiceName.values[decision.majOpinWriter] + '"\n';
+        }
+        if (decision.justices) {
+            ymlText += '    votes:\n';
+            let votes = sortVotesBySeniority(decision, vars, courts, justices, true);
+            votes.forEach((vote) => {
+                ymlText += '      - id: ' + getJusticeId(vote.justice) + '\n';
+                ymlText += '        name: "' + vars.justiceName.values[vote.justice] + '"\n';
+                ymlText += '        majority: ' + (vote.majority == "majority"? "true" : "false") + '\n';
+            });
+        }
+    });
+    return ymlText;
+}
+
+/**
  * getJusticeId(id)
  *
  * @param {string} id
@@ -2293,8 +2434,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let dataFile = minVotes == 1? _data.lonerDecisions : _data.allDecisions;
     let data = JSON.parse(!argv['overwrite'] && readFile(dataFile) || "[]");
     let vars = JSON.parse(readFile(sources.scdb.vars) || "{}");
-    let courts = JSON.parse(readFile(results.json.courts) || "[]");
     let courtsSCDB = readSCDBCourts();
+    // let courts = JSON.parse(readFile(results.json.courts) || "[]");
     let justices = JSON.parse(readFile(results.json.justices) || "[]");
 
     do {
@@ -2474,81 +2615,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 let pathName = "/cases/" + category + "/" + termId;
                 let fileName = "/_pages" + pathName + ".md";
                 let fileText = '---\ntitle: "' + description + " from " + termName + ' of the U.S. Supreme Court"\npermalink: ' + pathName + '\nlayout: cases\n';
-                fileText += 'cases:\n';
-                results.forEach((decision) => {
-                    let volume = 0, page = 0;
-                    let matchCite = decision.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
-                    if (matchCite) {
-                        volume = +matchCite[1];  page = +matchCite[2];
-                    }
-                    fileText += '  - id: "' + decision.caseId + '"\n';
-                    fileText += '    termId: "' + decision.termId + '"\n';
-                    fileText += '    title: "' + encodeString(decision.caseTitle || decision.caseName, "html", false) + '"\n';
-                    /*
-                     * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
-                     * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
-                     * And finally, when using SCOTUS slip opinions, 'pdfSource' should be a SCOTUS path (eg,
-                     * "17pdf/17-21_p8k0").
-                     *
-                     * The LOC appears to have PDFs for everything up through U.S. Reports volume 542, which covers
-                     * the end of the 2003 term, and SCOTUS has bound volumes for U.S. Reports volumes 502 through 569,
-                     * which spans terms 1991 through 2012, so there's a healthy overlap between LOC and SCOTUS.
-                     *
-                     * SCOTUS also has slip opinions for the 2012 term and up.  Moreover, SCOTUS claims it will keep
-                     * slip opinions until they have been posted in a bound volume PDF.  This means that going forward,
-                     * every new SCOTUS opinion will have a SCOTUS source (ie, bound or slip); unfortunately, it also
-                     * means that periodically (ie, whenever SCOTUS decides to post a new bound volume PDF and remove
-                     * corresponding slip opinion PDFs), we will have to detect the missing opinions and remap them.
-                     * Sigh.
-                     *
-                     * Regarding LOC, you can browse an entire volume like so:
-                     *
-                     *      https://www.loc.gov/search/?fa=partof:u.s.+reports:+volume+542
-                     *
-                     * For a case like 542 U.S. 241, the PDF is here:
-                     *
-                     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.pdf
-                     *
-                     * and the thumbnail is here:
-                     *
-                     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
-                     *
-                     * Some of the LOC PDFs don't actually start on the correct page.  The above PDF, for example,
-                     * actually starts with page 240 of volume 542, not page 241.  Such cases should have the 'pdfPage'
-                     * property set (eg, 2); the default value for 'pdfPage' is 1, so it need not be set for PDFs
-                     * where the opinion properly begins on the first page (hopefully the case for most LOC opinions).
-                     *
-                     * As for the dissents, they invariably start at some later page in the PDF, so the 'pdfPageDissent'
-                     * property must be set.  Moreover, if the 'pdfPage' is some value greater than 1, then that difference
-                     * must be applied to 'pdfPageDissent' as well; our page templates will *not* automatically add
-                     * "pdfpage" minus 1 to the dissent page number.
-                     */
-                    if (volume) fileText += sprintf('    volume: "%03d"\n', volume);
-                    if (page) fileText += sprintf('    page: "%03d"\n' , page);
-                    if (decision.pdfSource) fileText += '    pdfSource: "' + decision.pdfSource + '"\n';
-                    if (decision.pdfPage) fileText += '    pdfPage: ' + decision.pdfPage + '\n';
-                    if (decision.pdfPageDissent) fileText += '    pdfPageDissent: ' + decision.pdfPageDissent + '\n';
-                    fileText += '    dateDecision: "' + (decision.dateDecision.length < 10? termName : sprintf("%#C", decision.dateDecision)) + '"\n';
-                    fileText += '    citation: "' + (decision.usCite || ('No. ' + decision.docket)) + '"\n';
-                    fileText += '    voteMajority: ' + decision.majVotes + '\n';
-                    fileText += '    voteMinority: ' + decision.minVotes + '\n';
-                    if (decision.dissenterId) {
-                        fileText += '    dissenterId: ' + getJusticeId(decision.dissenterId) + '\n';
-                        fileText += '    dissenterName: "' + decision.dissenterName + '"\n';
-                    } else if (decision.majOpinWriter && decision.majOpinWriter != "none") {
-                        fileText += '    authorId: ' + getJusticeId(decision.majOpinWriter) + '\n';
-                        fileText += '    authorName: "' + vars.justiceName.values[decision.majOpinWriter] + '"\n';
-                    }
-                    if (decision.justices) {
-                        fileText += '    votes:\n';
-                        let votes = sortVotesBySeniority(decision, vars, courtsSCDB, justices, true);
-                        votes.forEach((vote) => {
-                            fileText += '      - id: ' + getJusticeId(vote.justice) + '\n';
-                            fileText += '        name: "' + vars.justiceName.values[vote.justice] + '"\n';
-                            fileText += '        majority: ' + (vote.majority == "majority"? "true" : "false") + '\n';
-                        });
-                    }
-                });
+                fileText += generateCaseYML(results, vars, courtsSCDB, justices);
                 fileText += '---\n';
                 let oldText = readFile(fileName);
                 if (oldText && oldText != fileText) {
@@ -2588,9 +2655,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     } while (term && endTerm && start < endTerm);
 
     if (additions) {
-        data.sort(function(a, b) {
-            return a.caseId < b.caseId? -1 : (a.caseId > b.caseId? 1 : 0);
-        });
+        sortObjects(data, ["caseId"]);
         writeFile(dataFile, data);
     }
 
@@ -2695,13 +2760,7 @@ function findJustices(done, minVotes)
 
             }
         });
-        data.sort(function(a, b) {
-            if (minVotes == 1) {
-                return (a.loneTotal < b.loneTotal)? 1 : ((a.loneTotal > b.loneTotal)? -1 : 0);
-            } else {
-                return (a.majorityTotal < b.majorityTotal)? 1 : ((a.majorityTotal > b.majorityTotal)? -1 : 0);
-            }
-        });
+        sortObjects(data, minVotes == 1? ["loneTotal"] : ["majorityTotal"]);
         writeFile(dataFile, data);
     }
     let index = "";
@@ -3329,9 +3388,7 @@ function testDates(done)
     dataFiles.forEach((dataFile) => {
         let data = JSON.parse(readFile(dataFile) || "[]");
         if (data.length) {
-            data.sort(function(a, b) {
-                return a.caseId < b.caseId? -1 : (a.caseId > b.caseId? 1 : 0);
-            });
+            sortObjects(data, ["caseId"]);
             writeFile(dataFile, data);
         }
     });
@@ -3462,7 +3519,9 @@ function scrapeWallaceCases()
         let keys = [], rows = [];
         let keysMatch = text.match(/<thead>([\s\S]*?)<\/thead>/);
         let rowsMatch = text.match(/<tbody>([\s\S]*?)<\/tbody>/);
-        let reKey = /<th[^>]*>\s*(\S*)\s*<\/th>/g, reRow = /<tr[^>]*>([\s\S]*?)<\/tr>/g, reCol = /<td[^>]*>(?:<i>|)([\s\S]*?)(?:<\/i>|)<\/td>/g;
+        let reKey = /<th[^>]*>\s*(\S*)\s*<\/th>/g;
+        let reRow = /<tr[^>]*>([\s\S]*?)<\/tr>/g;
+        let reCol = /<td[^>]*>(?:<i>|)([\s\S]*?)(?:<\/i>|)<\/td>/g;
         if (keysMatch && rowsMatch) {
             let match, colMatch;
             while ((match = reKey.exec(keysMatch[1]))) {
@@ -3517,6 +3576,7 @@ function scrapeFiles(done)
     done();
 }
 
+gulp.task("advocates", buildAdvocates);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
