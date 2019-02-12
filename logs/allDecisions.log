@@ -1,6 +1,5 @@
-[15:44:43] Working directory changed to ~/Sites/lonedissent
-[15:44:44] Using gulpfile ~/Sites/lonedissent/gulpfile.js
-[15:44:44] Starting 'allDecisions'...
+[16:47:59] Using gulpfile ~/Sites/lonedissent/gulpfile.js
+[16:47:59] Starting 'allDecisions'...
 decisions available: 28779
 SCDB justices read: 116
 term 1790-02: Monday, February 1, 1790
@@ -48,7 +47,6 @@ processing term 1793-02...
 1793-02-20: Oswald v. New York [] (2 U.S. 415): 5-0
 1793-02-20: Georgia v. Brailsford [] (2 U.S. 415): 4-1
 results in range 1793-02-04--1793-08-04: 3
-file _pages/cases/all/1793-02.md already exists, use --overwrite to recreate
 term 1793-08: Monday, August 5, 1793
 term stopped: Sunday, February 2, 1794
 
@@ -141,8 +139,6 @@ processing term 1798-08...
 1798-08-07: Wilson v. Daniel [] (3 U.S. 401): 5-1
 1798-08-08: Calder v. Bull [] (3 U.S. 386): 4-0
 results in range 1798-08-06--1799-02-03: 2
-file _pages/cases/all/1798-08.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1799-02: Monday, February 4, 1799
 term stopped: Sunday, August 4, 1799
 
@@ -152,8 +148,6 @@ processing term 1799-02...
 1799-02-19: Clarke v. Russel [] (3 U.S. 415): 6-0
 1799-02-19: Sims Lessee v. Irvine [] (3 U.S. 425): 6-0
 results in range 1799-02-04--1799-08-04: 4
-file _pages/cases/all/1799-02.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1799-08: Monday, August 5, 1799
 term stopped: Sunday, February 2, 1800
 
@@ -163,8 +157,6 @@ processing term 1799-08...
 1799-08-09: Turner v. Enrille [] (4 U.S. 7): 6-0
 1799-08-09: Turner v. Bank of North-America [] (4 U.S. 8): 6-0
 results in range 1799-08-05--1800-02-02: 4
-file _pages/cases/all/1799-08.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1800-02: Monday, February 3, 1800
 term stopped: Sunday, August 3, 1800
 
@@ -178,8 +170,6 @@ processing term 1800-02...
 results in range 1800-02-03--1800-08-03: 6
 warning: Ellsworth 2 (Friday, November 9, 1798 - Sunday, April 20, 1800) for dateDecision 1800-02 (4 U.S. 21) does not match naturalCourt (Ellsworth 3: April 21, 1800 - February 03, 1801)
 warning: unable to find AMoore in justices for 1800-02 (4 U.S. 21) in Ellsworth 2
-file _pages/cases/all/1800-02.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1800-08: Monday, August 4, 1800
 term stopped: Sunday, August 2, 1801
 
@@ -404,8 +394,6 @@ warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDe
 warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-14 (8 U.S. 415) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
 warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-15 (8 U.S. 421) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
 warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-16 (8 U.S. 443) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-file _pages/cases/all/1808-02.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1809-02: Monday, February 6, 1809
 term stopped: Sunday, February 4, 1810
 
@@ -456,8 +444,6 @@ processing term 1809-02...
 1809-03-15: Slacum v. Simms [] (9 U.S. 363): 7-0
 1809-03-15: United States v. Vowell [] (9 U.S. 368): 7-0
 results in range 1809-02-06--1810-02-04: 45
-file _pages/cases/all/1809-02.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1810-02: Monday, February 5, 1810
 term stopped: Sunday, February 3, 1811
 
@@ -503,8 +489,6 @@ processing term 1810-02...
 1810-03-17: Sere v. Pitot [] (10 U.S. 332): 5-0
 1810-03-17: Maryland Ins. Co. v. Ruden's Administrator [] (10 U.S. 338): 5-0
 results in range 1810-02-05--1811-02-03: 40
-file _pages/cases/all/1810-02.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1811-02: Monday, February 4, 1811
 term stopped: Sunday, February 2, 1812
 
@@ -557,8 +541,6 @@ processing term 1812-02...
 results in range 1812-02-03--1813-01-31: 40
 warning: Marshall 5 (Saturday, November 23, 1811 - Sunday, February 2, 1812) for dateDecision 1812-02 (11 U.S. 107) does not match naturalCourt (Marshall 6: February 03, 1812 - August 31, 1823)
 warning: unable to find JStory in justices for 1812-02 (11 U.S. 107) in Marshall 5
-file _pages/cases/all/1812-02.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1813-02: Monday, February 1, 1813
 term stopped: Sunday, February 6, 1814
 
@@ -707,8 +689,6 @@ processing term 1815-02...
 1815-03-11: The Nereide [] (13 U.S. 388): 5-1
 1815-03-11: Pratt v. Law [] (13 U.S. 456): 7-0
 results in range 1815-02-06--1816-02-04: 40
-file _pages/cases/all/1815-02.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1816-02: Monday, February 5, 1816
 term stopped: Sunday, February 2, 1817
 
@@ -757,8 +737,6 @@ processing term 1816-02...
 1816-03-22: Ammidon v. Smith [] (14 U.S. 447): 7-0
 1816-03-22: Ross v. Reed [] (14 U.S. 482): 7-0
 results in range 1816-02-05--1817-02-02: 43
-file _pages/cases/all/1816-02.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1817-02: Monday, February 3, 1817
 term stopped: Sunday, February 1, 1818
 
@@ -887,8 +865,6 @@ processing term 1819-02...
 1819-03-12: Sergeant's Lessee v. Biddle [] (17 U.S. 508): 6-0
 1819-03-12: Boyd's Lessee v. Graves [] (17 U.S. 513): 6-0
 results in range 1819-02-01--1820-02-06: 33
-file _pages/cases/all/1819-02.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1820-02: Monday, February 7, 1820
 term stopped: Sunday, February 4, 1821
 
@@ -1425,8 +1401,6 @@ processing term 1831-01...
 1831-03-18: Potter v. Gardner [] (30 U.S. 718): 7-0
 1831-02-03: Dufau v. Couprey's Heirs [] (31 U.S. 170): 6-0
 results in range 1831-01-10--1832-01-08: 43
-file _pages/cases/all/1831-01.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1832-01: Monday, January 9, 1832
 term stopped: Sunday, January 13, 1833
 
@@ -1487,8 +1461,6 @@ processing term 1832-01...
 1832-03-16: Ex parte Bradstreet [] (31 U.S. 774): 6-0
 1832-03-17: United States v. Arredondo [] (31 U.S. 691): 5-1
 results in range 1832-01-09--1833-01-13: 55
-file _pages/cases/all/1832-01.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1833-01: Monday, January 14, 1833
 term stopped: Sunday, January 12, 1834
 
@@ -1608,8 +1580,6 @@ warning: Marshall 9 (Monday, January 11, 1830 - Tuesday, January 13, 1835) for d
 warning: unable to find JMWayne in justices for 1834-03-14 (34 U.S. 168) in Marshall 9
 warning: Marshall 9 (Monday, January 11, 1830 - Tuesday, January 13, 1835) for dateDecision 1834-03-14 (34 U.S. 171) does not match naturalCourt (Marshall 10: January 14, 1835 - March 27, 1836)
 warning: unable to find JMWayne in justices for 1834-03-14 (34 U.S. 171) in Marshall 9
-file _pages/cases/all/1834-01.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1835-01: Monday, January 12, 1835
 term stopped: Sunday, January 10, 1836
 
@@ -1655,7 +1625,6 @@ processing term 1835-01...
 results in range 1835-01-12--1836-01-10: 38
 warning: Marshall 10 (Wednesday, January 14, 1835 - Sunday, March 27, 1836) for dateDecision 1835-01-14 (34 U.S. 1) does not match naturalCourt (Marshall 9: January 11, 1830 - January 13, 1835)
 warning: unable to find GDuvall in justices for 1835-01-14 (34 U.S. 1) in Marshall 10
-file _pages/cases/all/1835-01.md already exists, use --overwrite to recreate
 term 1836-01: Monday, January 11, 1836
 term stopped: Sunday, January 8, 1837
 
@@ -1712,8 +1681,6 @@ processing term 1836-01...
 1836-02-26: McLearn v. Wallace [] (35 U.S. 625): 5-0
 1836-02-26: Clarke v. Kownslar [] (35 U.S. 657): 5-0
 results in range 1836-01-11--1837-01-08: 51
-file _pages/cases/all/1836-01.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1837-01: Monday, January 9, 1837
 term stopped: Sunday, January 7, 1838
 
@@ -2057,8 +2024,6 @@ processing term 1844-01...
 1844-03-16: Lessee of Pollard v. Files [] (43 U.S. 591): 7-0
 1844-01-30: McNutt ex rel. Leggett, Smith, &amp; Lawrence v. Bland [] (43 U.S. 9): 7-1
 results in range 1844-01-01--1844-12-01: 38
-file _pages/cases/all/1844-01.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1844-12: Monday, December 2, 1844
 term stopped: Sunday, November 30, 1845
 
@@ -2974,8 +2939,6 @@ processing term 1856-12...
 1857-02-27: Sturgis v. Honold [] (60 U.S. 393): 9-0
 1856-12-12: Coggeshall v. Hartshorn [60] (154 U.S. 533): 9-0
 results in range 1856-12-01--1857-12-06: 64
-file _pages/cases/all/1856-12.md already exists, use --overwrite to recreate
-file _pages/cases/all.md already exists, use --overwrite to recreate
 term 1857-12: Monday, December 7, 1857
 term stopped: Sunday, December 5, 1858
 
@@ -4365,7 +4328,6 @@ warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateD
 warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-25 (76 U.S. 786) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
 warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-25 (76 U.S. 811) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
 warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 812) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-file _pages/cases/all/1869-12.md already exists, use --overwrite to recreate
 term 1870-12: Monday, December 5, 1870
 term stopped: Sunday, December 3, 1871
 
@@ -5785,7 +5747,6 @@ processing term 1876-10...
 1877-03-19: Mackall v. Richards [184] (154 U.S. 624): 8-0
 1877-04-30: McCready v. Virginia [992] (154 U.S. 628): 8-0
 results in range 1876-10-09--1877-10-07: 241
-file _pages/cases/all/1876-10.md already exists, use --overwrite to recreate
 term 1877-10: Monday, October 8, 1877
 term stopped: Sunday, October 13, 1878
 
@@ -6794,7 +6755,6 @@ warning: Waite 3 (Wednesday, January 5, 1881 - Monday, May 16, 1881) for dateDec
 warning: unable to find WStrong in justices for 1881-03-14 (103 U.S. 521) in Waite 3
 warning: unable to find WStrong in justices for 1881-02-28 (103 U.S. 575) in Waite 3
 warning: unable to find WStrong in justices for 1881-03-30 (103 U.S. 821) in Waite 3
-file _pages/cases/all/1880-10.md already exists, use --overwrite to recreate
 term 1881-10: Monday, October 10, 1881
 term stopped: Sunday, October 8, 1882
 
@@ -8782,7 +8742,6 @@ processing term 1887-10...
 1888-05-14: Craig v. Leitensdorfer [1] (127 U.S. 764): 8-0
 1888-03-19: United States v. Burchard [158, 1332] (125 U.S. 176): 9-0
 results in range 1887-10-10--1888-10-07: 291
-file _pages/cases/all/1887-10.md already exists, use --overwrite to recreate
 term 1888-10: Monday, October 8, 1888
 term stopped: Sunday, October 13, 1889
 
@@ -12538,7 +12497,6 @@ processing term 1902-10...
 1902-11-10: CLARENCE E. COLLINS, PLAINTIFF IN ERROR, v. STATE OF NEW HAMPSHIRE [15] (187 U.S. 636): 4-4
 results in range 1902-10-13--1903-10-11: 217
 warning: Fuller 9 (Monday, December 8, 1902 - Sunday, March 1, 1903) for dateDecision 1903-01-05 (187 U.S. 466) does not match naturalCourt (Fuller 8: January 26, 1898 - December 07, 1902)
-file _pages/cases/all/1902-10.md already exists, use --overwrite to recreate
 term 1903-10: Monday, October 12, 1903
 term stopped: Sunday, October 9, 1904
 
@@ -15231,7 +15189,6 @@ processing term 1914-10...
 1915-01-05: Norfolk &amp; Western R. Co. v. Holbrook [516] (235 U.S. 625): 6-3
 1914-11-02: THE UNITED STATES, PLAINTIFF IN ERROR, v. HOLLAND-AMERICAN LINE [409] (235 U.S. 686): 4-4
 results in range 1914-10-12--1915-10-10: 274
-file _pages/cases/all/1914-10.md already exists, use --overwrite to recreate
 term 1915-10: Monday, October 11, 1915
 term stopped: Sunday, October 8, 1916
 
@@ -15486,7 +15443,6 @@ warning: code '-99' for key 'splitVote' has no value
 warning: code '-99' for key 'justice' has no value
 warning: code '-99' for key 'justiceName' has no value
 warning: unable to find -99 in justices for 1915-11-15 (239 U.S. 631) in White 3
-file _pages/cases/all/1915-10.md already exists, use --overwrite to recreate
 term 1916-10: Monday, October 9, 1916
 term stopped: Sunday, September 30, 1917
 
@@ -20827,7 +20783,6 @@ warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDe
 warning: unable to find WBRutledge in justices for 1943-02-15 (318 U.S. 203) in Stone 1
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1943-02-15 (318 U.S. 206) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
 warning: unable to find WBRutledge in justices for 1943-02-15 (318 U.S. 206) in Stone 1
-file _pages/cases/all/1942-10.md already exists, use --overwrite to recreate
 term 1943-10: Monday, October 4, 1943
 term stopped: Sunday, October 1, 1944
 
@@ -21433,7 +21388,6 @@ processing term 1946-10...
 1947-06-23: United States v. California [12] (332 U.S. 19): 6-2
 1947-03-31: UNITED STATES v. PULLMAN COMPANY et al. [253] (330 U.S. 806): 4-4
 results in range 1946-10-07--1947-10-05: 142
-file _pages/cases/all/1946-10.md already exists, use --overwrite to recreate
 term 1947-10: Monday, October 6, 1947
 term stopped: Sunday, October 3, 1948
 
@@ -21557,7 +21511,6 @@ processing term 1947-10...
 1948-06-21: Taylor v. Alabama [721] (335 U.S. 252): 5-3
 1948-05-17: PARKER v. ILLINOIS [328] (334 U.S. 816): 4-4
 results in range 1947-10-06--1948-10-03: 118
-file _pages/cases/all/1947-10.md already exists, use --overwrite to recreate
 term 1948-10: Monday, October 4, 1948
 term stopped: Sunday, October 2, 1949
 
@@ -21690,7 +21643,6 @@ processing term 1948-10...
 1948-12-20: MARZANI v. UNITED STATES [59] (335 U.S. 895): 4-4
 1949-05-02: STEMMER v. NEW YORK [567] (336 U.S. 963): 4-4
 results in range 1948-10-04--1949-10-02: 127
-file _pages/cases/all/1948-10.md already exists, use --overwrite to recreate
 term 1949-10: Monday, October 3, 1949
 term stopped: Sunday, October 1, 1950
 
@@ -24434,7 +24386,6 @@ processing term 1968-10...
 1969-06-23: Shipley v. California [540 M] (395 U.S. 818): 6-2
 1969-06-23: Moya v. DeBaca [996 M] (395 U.S. 825): 6-2
 results in range 1968-10-07--1969-10-05: 140
-file _pages/cases/all/1968-10.md already exists, use --overwrite to recreate
 term 1969-10: Monday, October 6, 1969
 term stopped: Sunday, October 4, 1970
 
@@ -29819,7 +29770,6 @@ processing term 2008-10...
 2009-06-29: Cuomo v. Clearing House Assn., L. L. C. [08-453] (557 U.S. 519): 5-4
 2009-06-29: Ricci v. DeStefano [07-1428] (557 U.S. 557): 5-4
 results in range 2008-10-06--2009-10-04: 83
-file _pages/cases/all/2008-10.md already exists, use --overwrite to recreate
 term 2009-10: Monday, October 5, 2009
 term stopped: Sunday, October 3, 2010
 
@@ -30569,8 +30519,6 @@ processing term 2017-10...
 2018-06-28: Sause v. Bauer [17-742] (): 9-0
 2018-06-28: Sexton v. Beaudreaux [17-1106] (): 8-1
 results in range 2017-10-02--2018-09-30: 76
-file _data/allDecisions.json already exists, use --overwrite to recreate
 totals: matched 28779 decisions out of 28779
-changes: 49
 warnings: 508
-[15:45:01] Finished 'allDecisions' after 17 s
+[16:48:11] Finished 'allDecisions' after 13 s
