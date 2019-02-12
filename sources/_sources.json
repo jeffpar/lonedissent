@@ -31,6 +31,7 @@
     }
   },
   "oyez": {
+    "advocates": "/sources/oyez/advocates/_advocates.json",
     "courtsXML": "/sources/oyez/courts/**/court.xml",
     "courtsHTML": "/sources/oyez/justices_by_court.html",
     "justicesXML": "/sources/oyez/justices/**/justice.xml"

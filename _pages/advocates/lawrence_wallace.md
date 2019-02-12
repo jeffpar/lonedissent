@@ -1,6 +1,6 @@
 ---
 title: "Cases Argued by Lawrence G. Wallace in the U.S. Supreme Court"
-permalink: /advocates/top10/lawrence_wallace
+permalink: /advocates/lawrence_wallace
 layout: cases
 cases:
   - id: "1967-125"

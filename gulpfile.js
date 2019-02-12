@@ -1390,35 +1390,38 @@ function buildAdvocates(done)
     let dataFile = _data.allDecisions;
     let decisions = JSON.parse(readFile(dataFile) || "[]");
     sortObjects(decisions, ["volume", "page"]);
-
-    let filePaths = glob.sync(rootDir + "/_pages/advocates/**/*.md");
-    filePaths.forEach((filePath) => {
-        let iStart = filePath.indexOf("/advocates/"), iEnd = filePath.indexOf(".md");
-        let pathName = filePath.substring(iStart, iEnd);
-        let i = pathName.lastIndexOf('/');
-        let idAdvocate = pathName.substr(i + 1);
-        i = idAdvocate.lastIndexOf('_');
-        let lastName = idAdvocate.substr(i + 1);
-        let lastLetter = lastName[0];
-        let rowsAdvocate = readCSV("/sources/oyez/advocates/" + lastLetter + "/" + lastName + "/" + idAdvocate + "/cases.csv");
-        if (rowsAdvocate && rowsAdvocate.length) {
-            let results = [];
-            let nameAdvocate = rowsAdvocate[0].advocateName;
-            let fileText = '---\ntitle: "Cases Argued by ' + nameAdvocate + ' in the U.S. Supreme Court"\npermalink: ' + pathName + '\nlayout: cases\n';
-            rowsAdvocate.forEach((row) => {
-                i = searchSortedObjects(decisions, {volume: row.volume, page: row.page}, true);
-                if (i >= 0) {
-                    results.push(decisions[i]);
-                } else {
-                    warning("unable to find exact match for %s: %s (%s)\n", nameAdvocate, row.caseTitle, row.usCite);
-                }
-            });
-            sortObjects(results, ["volume", "page", "caseTitle"]);
-            fileText += generateCaseYML(results, vars, courtsSCDB, justices);
-            fileText += '---\n';
-            writeFile(filePath, fileText);
-        }
-    });
+    let advocates = JSON.parse(readFile(sources.oyez.advocates) || "{}");
+    if (advocates) {
+        let ids = Object.keys(advocates.ids);
+        ids.forEach((id) => {
+            let aliases = advocates.ids[id];
+            let dir = path.join(path.dirname(sources.oyez.advocates), id);
+            for (let i = 1; i < aliases.length; i++) {
+                let alias = aliases[i];
+                let file = path.join(dir, alias + ".json");
+            }
+            let filePath = path.join(dir, id + ".csv");
+            let rowsAdvocate = readCSV(filePath);
+            if (rowsAdvocate && rowsAdvocate.length) {
+                let results = [];
+                let pathAdvocate = "/advocates/" + id;
+                let nameAdvocate = rowsAdvocate[0].advocateName;
+                let fileText = '---\ntitle: "Cases Argued by ' + nameAdvocate + ' in the U.S. Supreme Court"\npermalink: ' + pathAdvocate + '\nlayout: cases\n';
+                rowsAdvocate.forEach((row) => {
+                    let i = searchSortedObjects(decisions, {volume: row.volume, page: row.page}, true);
+                    if (i >= 0) {
+                        results.push(decisions[i]);
+                    } else {
+                        warning("unable to find exact match for %s: %s (%s)\n", nameAdvocate, row.caseTitle, row.usCite);
+                    }
+                });
+                sortObjects(results, ["volume", "page", "caseTitle"]);
+                fileText += generateCaseYML(results, vars, courtsSCDB, justices);
+                fileText += '---\n';
+                writeFile(rootDir + "/_pages" + pathAdvocate + ".md", fileText);
+            }
+        });
+    }
     done();
 }
 
@@ -3467,6 +3470,20 @@ function generateDownloadTasks(done)
     rowsLOC.forEach((cite) => {
         getLOCPDF(cite.volume, cite.page, cite.pageURL);
     });
+    let advocates = JSON.parse(readFile(sources.oyez.advocates) || "{}");
+    if (advocates) {
+        let ids = Object.keys(advocates.ids);
+        ids.forEach((id) => {
+            let aliases = advocates.ids[id];
+            let dir = path.join(path.dirname(sources.oyez.advocates), id);
+            for (let i = 1; i < aliases.length; i++) {
+                let alias = aliases[i];
+                let url = sprintf(advocates.api, alias);
+                let file = alias + ".json";
+                createDownloadTask('download.advocate.' + alias, url, dir, file);
+            }
+        });
+    }
     done();
 }
 
