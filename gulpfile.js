@@ -972,6 +972,18 @@ function getLOCPDF(volume, page, pageURL)
 }
 
 /**
+ * function getNewCite(volume, page)
+ *
+ * @param {number} volume
+ * @param {number} page
+ * @return {string}
+ */
+function getNewCite(volume, page)
+{
+    return (volume || "___") + " U.S. " + (page || "___");
+}
+
+/**
  * function getOldCite(volume, page)
  *
  * @param {number} volume
@@ -1492,7 +1504,7 @@ function buildCitations(done)
     let citesJustia = {}, volumesJustia = {};
     let csvJustia = readFile(results.csv.citationsJustia);
     if (!csvJustia || argv['build']) {
-        if (!csvJustia) csvJustia = "volume,page,year,dateDecision,caseTitle,oldCite,usCite\n";
+        if (!csvJustia) csvJustia = "volume,page,year,caseTitle,oldCite,usCite,dateDecision\n";
         let filePaths = glob.sync(rootDir + sources.justia.download.volume.dir + "*.html");
         for (let i = 0; i < filePaths.length; i++) {
             let html = readFile(filePaths[i], "latin1");
@@ -1518,7 +1530,7 @@ function buildCitations(done)
                     citesJustia[usCite].push(cite);
                     if (!volumesJustia[volume]) volumesJustia[volume] = [];
                     volumesJustia[volume].push(cite);
-                    csvJustia += sprintf('%d,%d,%d,"%s","%s","%s","%s"\n', volume, page, year, dateDecision, caseTitle.replace(/"/g, '""'), oldCite, usCite);
+                    csvJustia += sprintf('%d,%d,%d,"%s","%s","%s","%s"\n', volume, page, year, caseTitle.replace(/"/g, '""'), oldCite, usCite, dateDecision);
                 }
             }
         }
@@ -3414,6 +3426,97 @@ function runDownloadTasks(done)
     })();
 }
 
+/**
+ * scrapeOyezCaseList(filePath)
+ *
+ * @param {string} filePath
+ * @return {Array} rows
+ */
+function scrapeOyezCaseList(filePath)
+{
+    let rows = [];
+    let text = readFile(filePath);
+    if (text) {
+        let match, re = /<h2 class="ng-binding">\s*<a\s+[^>]*?href="([^"]+)"[^>]*>([\s\S]*?)<\/a>[\s\S]*?\(([0-9]+)\)\s*<\/h2>/g;
+        while ((match = re.exec(text))) {
+            let row = {
+                year: +match[3],
+                caseTitle: decodeString(match[2], "html").replace(/\s+/g, ' ').trim(),
+                urlOyez: match[1]
+            };
+            rows.push(row);
+        }
+    }
+    return rows;
+}
+
+/**
+ * scrapeWallaceCases()
+ */
+function scrapeWallaceCases()
+{
+    let path = "/sources/oyez/advocates/w/wallace/lawrence_wallace";
+    let rowsOyezCases = scrapeOyezCaseList(path + "/_files/index.html");
+    let text = readFile(path + "/_files/cases.html");
+    if (text) {
+        let keys = [], rows = [];
+        let keysMatch = text.match(/<thead>([\s\S]*?)<\/thead>/);
+        let rowsMatch = text.match(/<tbody>([\s\S]*?)<\/tbody>/);
+        let reKey = /<th[^>]*>\s*(\S*)\s*<\/th>/g, reRow = /<tr[^>]*>([\s\S]*?)<\/tr>/g, reCol = /<td[^>]*>(?:<i>|)([\s\S]*?)(?:<\/i>|)<\/td>/g;
+        if (keysMatch && rowsMatch) {
+            let match, colMatch;
+            while ((match = reKey.exec(keysMatch[1]))) {
+                keys.push(match[1]);
+            }
+            while ((match = reRow.exec(rowsMatch[1]))) {
+                let k = 0, row = {}, cols = 0;
+                while ((colMatch = reCol.exec(match[1]))) {
+                    row[keys[k++]] = (colMatch[1] == "NULL"? "" : decodeString(colMatch[1], "html").replace(/\s+/g, ' ').trim());
+                    cols++;
+                }
+                if (cols) {
+                    let volume = +row['c_volume'], page = +row['c_page'];
+                    let newRow = {
+                        volume: volume,
+                        page: page,
+                        year: 0,
+                        caseTitle: row['c_title'],
+                        oldCite: getOldCite(volume, page),
+                        usCite: getNewCite(volume, page),
+                        dateDecision: "",
+                        docket: row['c_docket'],
+                        term: +row['c_term'],
+                        issue: row['c_issue'],
+                        dateArgument: row['c_arguedate'],
+                        daysArgument: +row['c_argdays'],
+                        votesPetitioner: +row['c_votes_p1'],
+                        votesRespondent: +row['c_votes_p2'],
+                        advocateName: "Lawrence G. Wallace",
+                        advocateRole: row['a_role']
+                    };
+                    let urlOyez = "cases/" + newRow.term + "/" + newRow.docket;
+                    newRow.urlOyez = "https://www.oyez.org/" + urlOyez;
+                    let i = searchObjects(rowsOyezCases, "urlOyez", urlOyez);
+                    newRow.advocateMatched = (i >= 0);
+                    rows.push(newRow);
+                }
+            }
+        }
+        writeCSV(path + "/cases.csv", rows);
+    }
+}
+
+/**
+ * scrapeFiles(done)
+ *
+ * @param {function()} done
+ */
+function scrapeFiles(done)
+{
+    scrapeWallaceCases();
+    done();
+}
+
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
@@ -3429,5 +3532,6 @@ gulp.task("backup", backupLonerDecisions);
 gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
 gulp.task("fixDecisions", fixDecisions);
 gulp.task("fixLOC", fixLOC);
+gulp.task("scrape", scrapeFiles);
 gulp.task("tests", gulp.series(testDates));
 gulp.task("default", findDecisions);
