@@ -1,5 +1,5 @@
-[16:47:59] Using gulpfile ~/Sites/lonedissent/gulpfile.js
-[16:47:59] Starting 'allDecisions'...
+[17:52:38] Using gulpfile ~/Sites/lonedissent/gulpfile.js
+[17:52:38] Starting 'allDecisions'...
 decisions available: 28779
 SCDB justices read: 116
 term 1790-02: Monday, February 1, 1790
@@ -169,7 +169,7 @@ processing term 1800-02...
 1800-02: Blair v. Miller [] (4 U.S. 21): 6-0
 results in range 1800-02-03--1800-08-03: 6
 warning: Ellsworth 2 (Friday, November 9, 1798 - Sunday, April 20, 1800) for dateDecision 1800-02 (4 U.S. 21) does not match naturalCourt (Ellsworth 3: April 21, 1800 - February 03, 1801)
-warning: unable to find AMoore in justices for 1800-02 (4 U.S. 21) in Ellsworth 2
+file _pages/cases/all/1800-02.md already exists, use --overwrite to recreate
 term 1800-08: Monday, August 4, 1800
 term stopped: Sunday, August 2, 1801
 
@@ -180,7 +180,7 @@ processing term 1800-08...
 1800-08-15: Talbot v. Ship Amelia [] (4 U.S. 34): 6-0
 results in range 1800-08-04--1801-08-02: 4
 warning: Ellsworth 3 (Monday, April 21, 1800 - Tuesday, February 3, 1801) for dateDecision 1800-08-15 (4 U.S. 34) does not match naturalCourt (Marshall 1: February 04, 1801 - May 06, 1804)
-warning: unable to find JMarshall in justices for 1800-08-15 (4 U.S. 34) in Ellsworth 3
+file _pages/cases/all/1800-08.md already exists, use --overwrite to recreate
 term 1801-08: Monday, August 3, 1801
 term stopped: Sunday, December 6, 1801
 
@@ -278,7 +278,8 @@ processing term 1805-02...
 1805-03-06: Milligan v. Milledge [] (7 U.S. 220): 6-0
 1805-03-06: Cooke v. Graham's Administrator [] (7 U.S. 229): 6-0
 results in range 1805-02-04--1806-02-02: 24
-warning: Marshall 2 (Monday, May 7, 1804 - Monday, January 19, 1807) for dateDecision 1805-03-06 (6 U.S. 280) does not match naturalCourt (Marshall 1: February 04, 1801 - May 06, 1804)
+warning: unable to find WJohnson in justices for 1805-03-06 (6 U.S. 280) in Marshall 1
+file _pages/cases/all/1805-02.md already exists, use --overwrite to recreate
 term 1806-02: Monday, February 3, 1806
 term stopped: Sunday, February 1, 1807
 
@@ -372,28 +373,6 @@ processing term 1808-02...
 1808-02-29: Grant v. Naylor [] (8 U.S. 224): 7-0
 1808-03-16: United States v. Schooner Betsey and Charlotte [] (8 U.S. 443): 6-0
 results in range 1808-02-01--1809-02-05: 32
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-02-29 (8 U.S. 237) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-02-29 (8 U.S. 239) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-02 (8 U.S. 241) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-02 (8 U.S. 293) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-02 (8 U.S. 299) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-04 (8 U.S. 306) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-07 (8 U.S. 316) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-07 (8 U.S. 317) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-15 (8 U.S. 321) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-08 (8 U.S. 324) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-08 (8 U.S. 328) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-08 (8 U.S. 333) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-09 (8 U.S. 347) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-11 (8 U.S. 370) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-12 (8 U.S. 382) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-12 (8 U.S. 384) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-14 (8 U.S. 398) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-14 (8 U.S. 401) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-14 (8 U.S. 403) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-14 (8 U.S. 415) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-15 (8 U.S. 421) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
-warning: Marshall 4 (Monday, May 4, 1807 - Friday, November 22, 1811) for dateDecision 1808-03-16 (8 U.S. 443) does not match naturalCourt (Marshall 3: January 20, 1807 - May 03, 1807)
 term 1809-02: Monday, February 6, 1809
 term stopped: Sunday, February 4, 1810
 
@@ -540,7 +519,7 @@ processing term 1812-02...
 1812-03-14: McKim v. Voorhies [] (11 U.S. 279): 7-0
 results in range 1812-02-03--1813-01-31: 40
 warning: Marshall 5 (Saturday, November 23, 1811 - Sunday, February 2, 1812) for dateDecision 1812-02 (11 U.S. 107) does not match naturalCourt (Marshall 6: February 03, 1812 - August 31, 1823)
-warning: unable to find JStory in justices for 1812-02 (11 U.S. 107) in Marshall 5
+file _pages/cases/all/1812-02.md already exists, use --overwrite to recreate
 term 1813-02: Monday, February 1, 1813
 term stopped: Sunday, February 6, 1814
 
@@ -1577,9 +1556,8 @@ processing term 1834-01...
 1834-03-14: United States v. Huertas [] (34 U.S. 171): 6-0
 results in range 1834-01-13--1835-01-11: 64
 warning: Marshall 9 (Monday, January 11, 1830 - Tuesday, January 13, 1835) for dateDecision 1834-03-14 (34 U.S. 168) does not match naturalCourt (Marshall 10: January 14, 1835 - March 27, 1836)
-warning: unable to find JMWayne in justices for 1834-03-14 (34 U.S. 168) in Marshall 9
 warning: Marshall 9 (Monday, January 11, 1830 - Tuesday, January 13, 1835) for dateDecision 1834-03-14 (34 U.S. 171) does not match naturalCourt (Marshall 10: January 14, 1835 - March 27, 1836)
-warning: unable to find JMWayne in justices for 1834-03-14 (34 U.S. 171) in Marshall 9
+file _pages/cases/all/1834-01.md already exists, use --overwrite to recreate
 term 1835-01: Monday, January 12, 1835
 term stopped: Sunday, January 10, 1836
 
@@ -1623,8 +1601,7 @@ processing term 1835-01...
 1835-03-16: Urtetiqui v. D'Arcy [] (34 U.S. 692): 6-0
 1835-03-17: Mitchel v. United States [] (34 U.S. 711): 6-0
 results in range 1835-01-12--1836-01-10: 38
-warning: Marshall 10 (Wednesday, January 14, 1835 - Sunday, March 27, 1836) for dateDecision 1835-01-14 (34 U.S. 1) does not match naturalCourt (Marshall 9: January 11, 1830 - January 13, 1835)
-warning: unable to find GDuvall in justices for 1835-01-14 (34 U.S. 1) in Marshall 10
+file _pages/cases/all/1835-01.md already exists, use --overwrite to recreate
 term 1836-01: Monday, January 11, 1836
 term stopped: Sunday, January 8, 1837
 
@@ -2134,9 +2111,9 @@ processing term 1845-12...
 1845-12-30: ex parte HARMON [2] (131 U.S. ixvii): 8-0
 1845-12-09: Passenger Cases [] (48 U.S. 283): 5-4
 results in range 1845-12-01--1846-12-06: 49
-warning: Taney 7 (Tuesday, September 23, 1845 - Sunday, August 9, 1846) for dateDecision 1846-01-12 (45 U.S. 4) does not match naturalCourt (Taney 5: January 10, 1842 - February 26, 1845)
+warning: unable to find SNelson in justices for 1846-01-12 (45 U.S. 4) in Taney 5
 warning: Taney 7 (Tuesday, September 23, 1845 - Sunday, August 9, 1846) for dateDecision 1845-12-09 (48 U.S. 283) does not match naturalCourt (Taney 8: August 10, 1846 - October 09, 1851)
-warning: unable to find RCGrier in justices for 1845-12-09 (48 U.S. 283) in Taney 7
+file _pages/cases/all/1845-12.md already exists, use --overwrite to recreate
 term 1846-12: Monday, December 7, 1846
 term stopped: Sunday, December 5, 1847
 
@@ -3019,7 +2996,7 @@ processing term 1857-12...
 1857-12-24: Hemmenway v. Fisher [] (61 U.S. 255): 9-0
 results in range 1857-12-07--1858-12-05: 74
 warning: Taney 10 (Monday, April 11, 1853 - Wednesday, January 20, 1858) for dateDecision 1857-12-24 (61 U.S. 255) does not match naturalCourt (Taney 11: January 21, 1858 - January 26, 1862)
-warning: unable to find NClifford in justices for 1857-12-24 (61 U.S. 255) in Taney 10
+file _pages/cases/all/1857-12.md already exists, use --overwrite to recreate
 term 1858-12: Monday, December 6, 1858
 term stopped: Sunday, December 4, 1859
 
@@ -3364,12 +3341,7 @@ processing term 1861-12...
 1861-12-23: Hogg v. Ruffner [] (66 U.S. 115): 8-0
 results in range 1861-12-02--1862-11-30: 73
 warning: Taney 11 (Thursday, January 21, 1858 - Sunday, January 26, 1862) for dateDecision 1861-12-23 (66 U.S. 115) does not match naturalCourt (Taney 14: December 10, 1862 - May 19, 1863)
-warning: unable to find NHSwayne in justices for 1861-12-23 (66 U.S. 115) in Taney 11
-warning: unable to find SFMiller in justices for 1861-12-23 (66 U.S. 115) in Taney 11
-warning: unable to find DDavis in justices for 1861-12-23 (66 U.S. 115) in Taney 11
-warning: Taney 12 (Monday, January 27, 1862 - Sunday, July 20, 1862) for dateDecision 1862-03-03 (66 U.S. 358) does not match naturalCourt (Taney 11: January 21, 1858 - January 26, 1862)
-warning: unable to find JMcLean in justices for 1862-03-03 (66 U.S. 358) in Taney 12
-warning: unable to find JACampbell in justices for 1862-03-03 (66 U.S. 358) in Taney 12
+file _pages/cases/all/1861-12.md already exists, use --overwrite to recreate
 term 1862-12: Monday, December 1, 1862
 term stopped: Sunday, December 6, 1863
 
@@ -3506,6 +3478,8 @@ processing term 1863-12...
 1864-02-23: Merriam v. Haas [] (70 U.S. 687): 9-0
 results in range 1863-12-07--1864-12-04: 84
 warning: Taney 15 (Wednesday, May 20, 1863 - Wednesday, December 14, 1864) for dateDecision 1864-02-23 (70 U.S. 687) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
+warning: unable to find RBTaney in justices for 1864-02-23 (70 U.S. 687) in Chase 1
+file _pages/cases/all/1863-12.md already exists, use --overwrite to recreate
 term 1864-12: Monday, December 5, 1864
 term stopped: Sunday, December 3, 1865
 
@@ -4255,79 +4229,118 @@ processing term 1869-12...
 1870-12-02: Slaughter-House Cases [] (77 U.S. 273): 6-1
 results in range 1869-12-06--1870-12-04: 182
 warning: Chase 1 (Thursday, December 15, 1864 - Sunday, March 13, 1870) for dateDecision 1870-02-07 (131 U.S. xcv) does not match naturalCourt (Chase 2: March 14, 1870 - January 08, 1873)
-warning: unable to find WStrong in justices for 1870-02-07 (131 U.S. xcv) in Chase 1
-warning: unable to find JPBradley in justices for 1870-02-07 (131 U.S. xcv) in Chase 1
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-14 (76 U.S. 129) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-20 (76 U.S. 145) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
+warning: unable to find WStrong in justices for 1870-04-20 (76 U.S. 145) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-20 (76 U.S. 145) in Chase 1
 warning: Chase 1 (Thursday, December 15, 1864 - Sunday, March 13, 1870) for dateDecision 1870-02-21 (76 U.S. 146) does not match naturalCourt (Chase 2: March 14, 1870 - January 08, 1873)
-warning: unable to find WStrong in justices for 1870-02-21 (76 U.S. 146) in Chase 1
-warning: unable to find JPBradley in justices for 1870-02-21 (76 U.S. 146) in Chase 1
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-21 (76 U.S. 156) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-21 (76 U.S. 187) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-14 (76 U.S. 241) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-14 (76 U.S. 274) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-04 (76 U.S. 290) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-28 (76 U.S. 295) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-04 (76 U.S. 315) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-21 (76 U.S. 326) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-28 (76 U.S. 339) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-28 (76 U.S. 353) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-11 (76 U.S. 364) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-21 (76 U.S. 370) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-04 (76 U.S. 373) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-11 (76 U.S. 387) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-18 (76 U.S. 394) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-28 (76 U.S. 409) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-04 (76 U.S. 415) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-28 (76 U.S. 420) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-21 (76 U.S. 425) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-14 (76 U.S. 432) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-25 (76 U.S. 435) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-11 (76 U.S. 461) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-04 (76 U.S. 468) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-04 (76 U.S. 477) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-18 (76 U.S. 501) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-14 (76 U.S. 504) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-11 (76 U.S. 505) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 513) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-11 (76 U.S. 517) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-25 (76 U.S. 522) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-11 (76 U.S. 526) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 531) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-18 (76 U.S. 544) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-11 (76 U.S. 567) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-21 (76 U.S. 575) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 579) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-21 (76 U.S. 592) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 605) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-18 (76 U.S. 608) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-14 (76 U.S. 614) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 617) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 630) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-11 (76 U.S. 634) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-04 (76 U.S. 651) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 655) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 659) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 661) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 664) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-18 (76 U.S. 665) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-25 (76 U.S. 672) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 677) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-11 (76 U.S. 682) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 687) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-21 (76 U.S. 691) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-18 (76 U.S. 726) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 736) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-25 (76 U.S. 737) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 743) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-03-28 (76 U.S. 758) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 759) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 766) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-04 (76 U.S. 779) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 785) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-25 (76 U.S. 786) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-25 (76 U.S. 811) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
-warning: Chase 2 (Monday, March 14, 1870 - Wednesday, January 8, 1873) for dateDecision 1870-04-30 (76 U.S. 812) does not match naturalCourt (Chase 1: December 15, 1864 - March 13, 1870)
+warning: unable to find WStrong in justices for 1870-04-04 (76 U.S. 290) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-04 (76 U.S. 290) in Chase 1
+warning: unable to find WStrong in justices for 1870-03-28 (76 U.S. 295) in Chase 1
+warning: unable to find JPBradley in justices for 1870-03-28 (76 U.S. 295) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-04 (76 U.S. 315) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-04 (76 U.S. 315) in Chase 1
+warning: unable to find WStrong in justices for 1870-03-28 (76 U.S. 339) in Chase 1
+warning: unable to find JPBradley in justices for 1870-03-28 (76 U.S. 339) in Chase 1
+warning: unable to find WStrong in justices for 1870-03-28 (76 U.S. 353) in Chase 1
+warning: unable to find JPBradley in justices for 1870-03-28 (76 U.S. 353) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-11 (76 U.S. 364) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-11 (76 U.S. 364) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-04 (76 U.S. 373) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-04 (76 U.S. 373) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-11 (76 U.S. 387) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-11 (76 U.S. 387) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-18 (76 U.S. 394) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-18 (76 U.S. 394) in Chase 1
+warning: unable to find WStrong in justices for 1870-03-28 (76 U.S. 409) in Chase 1
+warning: unable to find JPBradley in justices for 1870-03-28 (76 U.S. 409) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-04 (76 U.S. 415) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-04 (76 U.S. 415) in Chase 1
+warning: unable to find WStrong in justices for 1870-03-28 (76 U.S. 420) in Chase 1
+warning: unable to find JPBradley in justices for 1870-03-28 (76 U.S. 420) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-25 (76 U.S. 435) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-25 (76 U.S. 435) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-11 (76 U.S. 461) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-11 (76 U.S. 461) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-04 (76 U.S. 468) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-04 (76 U.S. 468) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-04 (76 U.S. 477) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-04 (76 U.S. 477) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-18 (76 U.S. 501) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-18 (76 U.S. 501) in Chase 1
+warning: unable to find WStrong in justices for 1870-03-14 (76 U.S. 504) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-11 (76 U.S. 505) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-11 (76 U.S. 505) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 513) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 513) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-11 (76 U.S. 517) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-11 (76 U.S. 517) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-25 (76 U.S. 522) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-25 (76 U.S. 522) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-11 (76 U.S. 526) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-11 (76 U.S. 526) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 531) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 531) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-18 (76 U.S. 544) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-18 (76 U.S. 544) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-11 (76 U.S. 567) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-11 (76 U.S. 567) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 579) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 579) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 605) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 605) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-18 (76 U.S. 608) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-18 (76 U.S. 608) in Chase 1
+warning: unable to find WStrong in justices for 1870-03-14 (76 U.S. 614) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 617) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 617) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 630) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 630) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-11 (76 U.S. 634) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-11 (76 U.S. 634) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-04 (76 U.S. 651) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-04 (76 U.S. 651) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 655) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 655) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 659) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 659) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 661) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 661) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 664) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 664) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-18 (76 U.S. 665) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-18 (76 U.S. 665) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-25 (76 U.S. 672) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-25 (76 U.S. 672) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 677) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 677) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-11 (76 U.S. 682) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-11 (76 U.S. 682) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 687) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 687) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-18 (76 U.S. 726) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-18 (76 U.S. 726) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 736) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 736) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-25 (76 U.S. 737) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-25 (76 U.S. 737) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 743) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 743) in Chase 1
+warning: unable to find WStrong in justices for 1870-03-28 (76 U.S. 758) in Chase 1
+warning: unable to find JPBradley in justices for 1870-03-28 (76 U.S. 758) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 759) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 759) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 766) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 766) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-04 (76 U.S. 779) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-04 (76 U.S. 779) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 785) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 785) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-25 (76 U.S. 786) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-25 (76 U.S. 786) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-25 (76 U.S. 811) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-25 (76 U.S. 811) in Chase 1
+warning: unable to find WStrong in justices for 1870-04-30 (76 U.S. 812) in Chase 1
+warning: unable to find JPBradley in justices for 1870-04-30 (76 U.S. 812) in Chase 1
+file _pages/cases/all/1869-12.md already exists, use --overwrite to recreate
 term 1870-12: Monday, December 5, 1870
 term stopped: Sunday, December 3, 1871
 
@@ -4862,7 +4875,8 @@ processing term 1872-12...
 1873-04-28: Humbird v. Jackson County [209] (154 U.S. 592): 9-0
 1873-03-31: Charleston v. Jessup [234] (154 U.S. 592): 9-0
 results in range 1872-12-02--1873-10-12: 177
-warning: Chase 3 (Thursday, January 9, 1873 - Tuesday, March 3, 1874) for dateDecision 1873-03-10 (82 U.S. 300) does not match naturalCourt (Chase 2: March 14, 1870 - January 08, 1873)
+warning: unable to find WHunt in justices for 1873-03-10 (82 U.S. 300) in Chase 2
+file _pages/cases/all/1872-12.md already exists, use --overwrite to recreate
 term 1873-10: Monday, October 13, 1873
 term stopped: Sunday, October 11, 1874
 
@@ -6751,10 +6765,9 @@ warning: unable to find WStrong in justices for 1881-01-17 (103 U.S. 118) in Wai
 warning: unable to find WStrong in justices for 1881-02-28 (103 U.S. 168) in Waite 3
 warning: unable to find WStrong in justices for 1881-04-18 (103 U.S. 205) in Waite 3
 warning: unable to find WStrong in justices for 1881-04-11 (103 U.S. 498) in Waite 3
-warning: Waite 3 (Wednesday, January 5, 1881 - Monday, May 16, 1881) for dateDecision 1881-03-14 (103 U.S. 521) does not match naturalCourt (Waite 2: December 10, 1877 - January 04, 1881)
-warning: unable to find WStrong in justices for 1881-03-14 (103 U.S. 521) in Waite 3
 warning: unable to find WStrong in justices for 1881-02-28 (103 U.S. 575) in Waite 3
 warning: unable to find WStrong in justices for 1881-03-30 (103 U.S. 821) in Waite 3
+file _pages/cases/all/1880-10.md already exists, use --overwrite to recreate
 term 1881-10: Monday, October 10, 1881
 term stopped: Sunday, October 8, 1882
 
@@ -7010,12 +7023,7 @@ processing term 1881-10...
 1882-03-06: United States v. Barnett [901] (154 U.S. 676): 8-0
 1882-03-06: Poppe v. Langford [] (104 U.S. 770): 8-0
 results in range 1881-10-10--1882-10-08: 250
-warning: Waite 5 (Monday, January 9, 1882 - Sunday, April 2, 1882) for dateDecision 1882-01-16 (104 U.S. 340) does not match naturalCourt (Waite 3: January 05, 1881 - May 16, 1881)
-warning: unable to find NClifford in justices for 1882-01-16 (104 U.S. 340) in Waite 5
-warning: unable to find NHSwayne in justices for 1882-01-16 (104 U.S. 340) in Waite 5
-warning: Waite 5 (Monday, January 9, 1882 - Sunday, April 2, 1882) for dateDecision 1882-01-16 (104 U.S. 596) does not match naturalCourt (Waite 3: January 05, 1881 - May 16, 1881)
-warning: unable to find NClifford in justices for 1882-01-16 (104 U.S. 596) in Waite 5
-warning: unable to find NHSwayne in justices for 1882-01-16 (104 U.S. 596) in Waite 5
+file _pages/cases/all/1881-10.md already exists, use --overwrite to recreate
 term 1882-10: Monday, October 9, 1882
 term stopped: Sunday, October 7, 1883
 
@@ -8445,7 +8453,12 @@ processing term 1886-10...
 1887-10-01: ANDREWS v. CONE [] (124 U.S. 720): 8-0
 1887-01-10: McCormick v. Graham's Administrator [108] (129 U.S. 1): 8-0
 results in range 1886-10-11--1887-10-09: 308
-warning: Waite 6 (Monday, April 3, 1882 - Tuesday, January 17, 1888) for dateDecision 1887-01-10 (119 U.S. 615) does not match naturalCourt (Waite 1: March 04, 1874 - December 09, 1877)
+warning: unable to find JHarlan1 in justices for 1887-01-10 (119 U.S. 615) in Waite 1
+warning: unable to find WBWoods in justices for 1887-01-10 (119 U.S. 615) in Waite 1
+warning: unable to find SMatthews in justices for 1887-01-10 (119 U.S. 615) in Waite 1
+warning: unable to find HGray in justices for 1887-01-10 (119 U.S. 615) in Waite 1
+warning: unable to find SBlatchford in justices for 1887-01-10 (119 U.S. 615) in Waite 1
+file _pages/cases/all/1886-10.md already exists, use --overwrite to recreate
 term 1887-10: Monday, October 10, 1887
 term stopped: Sunday, October 7, 1888
 
@@ -8998,7 +9011,6 @@ processing term 1888-10...
 1889-05-13: Freeland v. Williams [267] (131 U.S. 405): 7-1
 1888-11-26: RADFORD v. FOLSOM [1014] (131 U.S. 292): 9-0
 results in range 1888-10-08--1889-10-13: 251
-warning: Fuller 1 (Monday, October 8, 1888 - Sunday, January 5, 1890) for dateDecision 1889-01-07 (129 U.S. 44) does not match naturalCourt (Waite 7: January 18, 1888 - October 07, 1888)
 term 1889-10: Monday, October 14, 1889
 term stopped: Sunday, October 12, 1890
 
@@ -10140,7 +10152,8 @@ processing term 1892-10...
 1893-03-14: In re Schneider, Petitioner (No. 2) [] (148 U.S. 162): 9-0
 1893-03-12: Western Nat. Bank v. Armstrong [251] (152 U.S. 346): 9-0
 results in range 1892-10-10--1893-10-08: 256
-warning: Fuller 5 (Saturday, March 4, 1893 - Sunday, March 11, 1894) for dateDecision 1893-03-12 (152 U.S. 346) does not match naturalCourt (Fuller 4: October 10, 1892 - March 03, 1893)
+warning: unable to find HEJackson in justices for 1893-03-12 (152 U.S. 346) in Fuller 4
+file _pages/cases/all/1892-10.md already exists, use --overwrite to recreate
 term 1893-10: Monday, October 9, 1893
 term stopped: Sunday, October 7, 1894
 
@@ -10440,7 +10453,6 @@ processing term 1893-10...
 1894-05-26: ICC v. Brimson [883] (154 U.S. 447): 5-3
 1894-01-22: Merchants' Cotton Press &amp; Storage Co. v. Insurance Co. of North America [807] (151 U.S. 368): 8-0
 results in range 1893-10-09--1894-10-07: 294
-warning: Fuller 6 (Monday, March 12, 1894 - Sunday, January 5, 1896) for dateDecision 1894-05-01 (149 U.S. 368) does not match naturalCourt (Fuller 5: March 04, 1893 - March 11, 1894)
 term 1894-10: Monday, October 8, 1894
 term stopped: Sunday, October 13, 1895
 
@@ -12496,7 +12508,6 @@ processing term 1902-10...
 1903-06-01: Sena v. United States [40] (189 U.S. 504): 9-0
 1902-11-10: CLARENCE E. COLLINS, PLAINTIFF IN ERROR, v. STATE OF NEW HAMPSHIRE [15] (187 U.S. 636): 4-4
 results in range 1902-10-13--1903-10-11: 217
-warning: Fuller 9 (Monday, December 8, 1902 - Sunday, March 1, 1903) for dateDecision 1903-01-05 (187 U.S. 466) does not match naturalCourt (Fuller 8: January 26, 1898 - December 07, 1902)
 term 1903-10: Monday, October 12, 1903
 term stopped: Sunday, October 9, 1904
 
@@ -20355,171 +20366,338 @@ processing term 1941-10...
 1942-04-13: SCHENECTADY UNION PUB. CO. v. SWEENEY [745] (316 U.S. 642): 4-4
 results in range 1941-10-06--1942-06-30: 166
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-11-10 (314 U.S. 1) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-11-10 (314 U.S. 1) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-11-10 (314 U.S. 14) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-11-10 (314 U.S. 14) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-11-10 (314 U.S. 19) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-11-10 (314 U.S. 19) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-11-10 (314 U.S. 33) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-11-10 (314 U.S. 33) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-11-10 (314 U.S. 44) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-11-10 (314 U.S. 44) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-11-10 (314 U.S. 63) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-11-10 (314 U.S. 63) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-11-10 (314 U.S. 84) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-11-10 (314 U.S. 84) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-11-10 (314 U.S. 94) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-11-10 (314 U.S. 94) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-11-10 (314 U.S. 95) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-11-10 (314 U.S. 95) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-11-17 (314 U.S. 104) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-11-17 (314 U.S. 104) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-11-17 (314 U.S. 118) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-11-17 (314 U.S. 118) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-11-17 (314 U.S. 155) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-11-17 (314 U.S. 155) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-11-24 (314 U.S. 160) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-11-24 (314 U.S. 160) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-08 (314 U.S. 186) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-08 (314 U.S. 186) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-08 (314 U.S. 201) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-08 (314 U.S. 201) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-08 (314 U.S. 212) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-08 (314 U.S. 212) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-08 (314 U.S. 219) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-08 (314 U.S. 219) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-08 (314 U.S. 244) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-08 (314 U.S. 244) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-08 (314 U.S. 252) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-08 (314 U.S. 252) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-08 (314 U.S. 306) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-08 (314 U.S. 306) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-08 (314 U.S. 314) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-08 (314 U.S. 314) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-08 (314 U.S. 326) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-08 (314 U.S. 326) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-08 (314 U.S. 339) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-08 (314 U.S. 339) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-08 (314 U.S. 360) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-08 (314 U.S. 360) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-15 (314 U.S. 390) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-15 (314 U.S. 390) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-15 (314 U.S. 402) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-15 (314 U.S. 402) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-15 (314 U.S. 423) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-15 (314 U.S. 423) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-15 (314 U.S. 441) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-15 (314 U.S. 441) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-22 (314 U.S. 459) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-22 (314 U.S. 459) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-22 (314 U.S. 463) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-22 (314 U.S. 463) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-22 (314 U.S. 469) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-22 (314 U.S. 469) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1941-12-22 (314 U.S. 480) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1941-12-22 (314 U.S. 480) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-05 (314 U.S. 488) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-05 (314 U.S. 488) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-05 (314 U.S. 495) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-05 (314 U.S. 495) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-05 (314 U.S. 498) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-05 (314 U.S. 498) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-05 (314 U.S. 510) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-05 (314 U.S. 510) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-05 (314 U.S. 512) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-05 (314 U.S. 512) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-05 (314 U.S. 513) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-05 (314 U.S. 513) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-05 (314 U.S. 527) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-05 (314 U.S. 527) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-05 (314 U.S. 534) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-05 (314 U.S. 534) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-05 (314 U.S. 549) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-05 (314 U.S. 549) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-05 (314 U.S. 556) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-05 (314 U.S. 556) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-05 (314 U.S. 564) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-05 (314 U.S. 564) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-12 (315 U.S. 1) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-12 (315 U.S. 1) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-12 (315 U.S. 8) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-12 (315 U.S. 8) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-12 (315 U.S. 15) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-12 (315 U.S. 15) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-12 (315 U.S. 25) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-12 (315 U.S. 25) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-12 (315 U.S. 32) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-12 (315 U.S. 32) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-12 (315 U.S. 42) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-12 (315 U.S. 42) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-19 (315 U.S. 44) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-19 (315 U.S. 44) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-19 (315 U.S. 50) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-19 (315 U.S. 50) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-19 (315 U.S. 57) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-19 (315 U.S. 57) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-19 (315 U.S. 60) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-19 (315 U.S. 60) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-19 (315 U.S. 94) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-19 (315 U.S. 94) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-01-19 (315 U.S. 100) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-01-19 (315 U.S. 100) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-02 (315 U.S. 110) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-02 (315 U.S. 110) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-02 (315 U.S. 126) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-02 (315 U.S. 126) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-02 (315 U.S. 139) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-02 (315 U.S. 139) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-02 (315 U.S. 143) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-02 (315 U.S. 143) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-02 (315 U.S. 148) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-02 (315 U.S. 148) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-02 (315 U.S. 179) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-02 (315 U.S. 179) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-02 (315 U.S. 185) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-02 (315 U.S. 185) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-02 (315 U.S. 189) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-02 (315 U.S. 189) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-02 (315 U.S. 194) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-02 (315 U.S. 194) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-02 (315 U.S. 203) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-02 (315 U.S. 203) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-02 (315 U.S. 257) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-02 (315 U.S. 257) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-02 (315 U.S. 262) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-02 (315 U.S. 262) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-16 (315 U.S. 280) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-16 (315 U.S. 280) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-16 (315 U.S. 282) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-16 (315 U.S. 282) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-16 (315 U.S. 283) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-16 (315 U.S. 283) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-16 (315 U.S. 289) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-16 (315 U.S. 289) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-02-16 (315 U.S. 343) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-02-16 (315 U.S. 343) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 357) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 357) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 373) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 373) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 381) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 381) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 386) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 386) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 411) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 411) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 437) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 437) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 442) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 442) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 447) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 447) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 475) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 475) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 495) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 495) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 501) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 501) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 510) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 510) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 521) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 521) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-09 (315 U.S. 543) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-09 (315 U.S. 543) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-09 (315 U.S. 561) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-09 (315 U.S. 561) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-09 (315 U.S. 568) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-09 (315 U.S. 568) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-16 (315 U.S. 575) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-16 (315 U.S. 575) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-16 (315 U.S. 610) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-16 (315 U.S. 610) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-16 (315 U.S. 626) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-16 (315 U.S. 626) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-16 (315 U.S. 631) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-16 (315 U.S. 631) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-16 (315 U.S. 637) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-16 (315 U.S. 637) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-30 (315 U.S. 649) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-30 (315 U.S. 649) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-30 (315 U.S. 657) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-30 (315 U.S. 657) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-30 (315 U.S. 666) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-30 (315 U.S. 666) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-30 (315 U.S. 668) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-30 (315 U.S. 668) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-30 (315 U.S. 681) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-30 (315 U.S. 681) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-30 (315 U.S. 685) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-30 (315 U.S. 685) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-30 (315 U.S. 698) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-30 (315 U.S. 698) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-30 (315 U.S. 722) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-30 (315 U.S. 722) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-30 (315 U.S. 740) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-30 (315 U.S. 740) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-30 (315 U.S. 752) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-30 (315 U.S. 752) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-30 (315 U.S. 759) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-30 (315 U.S. 759) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-30 (315 U.S. 769) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-30 (315 U.S. 769) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 783) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 783) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-02 (315 U.S. 784) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-02 (315 U.S. 784) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-03-30 (315 U.S. 787) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-03-30 (315 U.S. 787) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-06 (316 U.S. 1) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-06 (316 U.S. 1) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-06 (316 U.S. 4) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-06 (316 U.S. 4) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-06 (316 U.S. 23) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-06 (316 U.S. 23) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-06 (316 U.S. 31) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-06 (316 U.S. 31) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-13 (316 U.S. 52) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-13 (316 U.S. 52) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-13 (316 U.S. 56) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-13 (316 U.S. 56) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-13 (316 U.S. 69) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-13 (316 U.S. 69) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-13 (316 U.S. 74) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-13 (316 U.S. 74) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 89) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 89) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 98) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 98) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 101) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 101) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 105) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 105) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 107) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 107) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 114) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 114) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 129) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 129) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 143) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 143) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 149) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 149) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 153) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 153) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 159) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 159) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 164) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 164) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 168) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 168) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-27 (316 U.S. 174) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-27 (316 U.S. 174) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-04 (316 U.S. 203) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-04 (316 U.S. 203) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-04 (316 U.S. 209) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-04 (316 U.S. 209) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-04 (316 U.S. 216) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-04 (316 U.S. 216) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-11 (316 U.S. 241) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-11 (316 U.S. 241) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-11 (316 U.S. 255) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-11 (316 U.S. 255) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-11 (316 U.S. 258) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-11 (316 U.S. 258) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-11 (316 U.S. 265) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-11 (316 U.S. 265) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-11 (316 U.S. 283) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-11 (316 U.S. 283) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-11 (316 U.S. 286) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-11 (316 U.S. 286) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-11 (316 U.S. 310) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-11 (316 U.S. 310) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-11 (316 U.S. 317) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-11 (316 U.S. 317) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-11 (316 U.S. 332) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-11 (316 U.S. 332) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-25 (316 U.S. 342) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-25 (316 U.S. 342) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-25 (316 U.S. 346) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-25 (316 U.S. 346) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-25 (316 U.S. 350) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-25 (316 U.S. 350) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-25 (316 U.S. 354) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-25 (316 U.S. 354) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-25 (316 U.S. 364) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-25 (316 U.S. 364) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-05-25 (316 U.S. 394) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-05-25 (316 U.S. 394) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 400) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 400) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 407) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 407) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 447) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 447) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 450) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 450) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 455) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 455) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 481) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 481) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 486) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 486) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 491) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 491) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 502) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 502) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 517) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 517) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 527) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 527) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 535) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 535) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 547) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 547) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-01 (316 U.S. 556) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-01 (316 U.S. 556) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-08 (316 U.S. 572) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-08 (316 U.S. 572) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-08 (316 U.S. 584) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-08 (316 U.S. 584) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-06-08 (316 U.S. 624) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-06-08 (316 U.S. 624) in Stone 2
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-04-13 (316 U.S. 642) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-04-13 (316 U.S. 642) in Stone 2
+file _pages/cases/all/1941-10.md already exists, use --overwrite to recreate
 term 1942-07: Wednesday, July 1, 1942
 term stopped: Sunday, October 4, 1942
 
@@ -20527,6 +20705,8 @@ processing term 1942-07...
 1942-07-31: Ex parte Quirin [1] (317 U.S. 1): 8-0
 results in range 1942-07-01--1942-10-04: 1
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1942-07-31 (317 U.S. 1) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
+warning: unable to find JFByrnes in justices for 1942-07-31 (317 U.S. 1) in Stone 2
+file _pages/cases/all/1942-07.md already exists, use --overwrite to recreate
 term 1942-10: Monday, October 5, 1942
 term stopped: Sunday, October 3, 1943
 
@@ -20774,15 +20954,11 @@ warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDe
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1943-02-08 (318 U.S. 133) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1943-02-08 (318 U.S. 163) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1943-02-15 (318 U.S. 176) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
-warning: unable to find WBRutledge in justices for 1943-02-15 (318 U.S. 176) in Stone 1
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1943-02-15 (318 U.S. 184) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
-warning: unable to find WBRutledge in justices for 1943-02-15 (318 U.S. 184) in Stone 1
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1943-02-15 (318 U.S. 189) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
-warning: unable to find WBRutledge in justices for 1943-02-15 (318 U.S. 189) in Stone 1
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1943-02-15 (318 U.S. 203) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
-warning: unable to find WBRutledge in justices for 1943-02-15 (318 U.S. 203) in Stone 1
 warning: Stone 1 (Thursday, July 3, 1941 - Monday, February 15, 1943) for dateDecision 1943-02-15 (318 U.S. 206) does not match naturalCourt (Stone 2: February 16, 1943 - September 30, 1945)
-warning: unable to find WBRutledge in justices for 1943-02-15 (318 U.S. 206) in Stone 1
+file _pages/cases/all/1942-10.md already exists, use --overwrite to recreate
 term 1943-10: Monday, October 4, 1943
 term stopped: Sunday, October 1, 1944
 
@@ -22531,9 +22707,6 @@ processing term 1956-10...
 1957-06-24: McBride v. Toledo Terminal R. Co. [972] (354 U.S. 517): 5-3
 1957-07-11: Wilson v. Girard [1103] (354 U.S. 524): 8-0
 results in range 1956-10-01--1957-10-06: 127
-warning: Warren 5 (Tuesday, February 26, 1957 - Monday, October 13, 1958) for dateDecision 1957-03-04 (352 U.S. 565) does not match naturalCourt (Warren 4: October 16, 1956 - February 25, 1957)
-warning: Warren 5 (Tuesday, February 26, 1957 - Monday, October 13, 1958) for dateDecision 1957-03-11 (352 U.S. 567) does not match naturalCourt (Warren 4: October 16, 1956 - February 25, 1957)
-warning: Warren 5 (Tuesday, February 26, 1957 - Monday, October 13, 1958) for dateDecision 1957-03-11 (352 U.S. 599) does not match naturalCourt (Warren 4: October 16, 1956 - February 25, 1957)
 term 1957-10: Monday, October 7, 1957
 term stopped: Thursday, July 31, 1958
 
@@ -30520,5 +30693,6 @@ processing term 2017-10...
 2018-06-28: Sexton v. Beaudreaux [17-1106] (): 8-1
 results in range 2017-10-02--2018-09-30: 76
 totals: matched 28779 decisions out of 28779
-warnings: 508
-[16:48:11] Finished 'allDecisions' after 13 s
+changes: 19
+warnings: 662
+[17:52:51] Finished 'allDecisions' after 14 s

@@ -2086,28 +2086,31 @@ function getTermName(termId)
 }
 
 /**
- * sortVotesBySeniority(decision, vars, courts, justices)
+ * sortVotesBySeniority(decision, vars, courts, justices, fUseNamedCourt)
  *
  * @param {Decision} decision
  * @param {object} vars
  * @param {Array.<Court>} courts (ie, courts from courts.json OR courtsSCDB from readSCDBCourts)
  * @param {Array.<Justice>} justices (all justices across all courts)
+ * @param {boolean} [fUseNamedCourt]
  * @return {Array.<Vote>} (actually, each entry is a new object containing a subset of the Vote properties)
  */
-function sortVotesBySeniority(decision, vars, courts, justices)
+function sortVotesBySeniority(decision, vars, courts, justices, fUseNamedCourt)
 {
     let votesNew = [];
     let votesOld = decision.justices.slice();
     let court = null, date = decision.dateDecision;
     let caseId = decision.usCite || decision.caseId;
 
+    let i = decision.naturalCourt && decision.naturalCourt.indexOf(':') || -1;
+    let namedCourt = i > 0? decision.naturalCourt.substr(0, i) : "";
     for (let i = 0; i < courts.length; i++) {
-        if (date >= courts[i].start && (!courts[i].stop || date <= courts[i].stop)) {
+        if (courts[i].name == namedCourt || date >= courts[i].start && (!courts[i].stop || date <= courts[i].stop)) {
             court = courts[i];
-            if (court.naturalCourt && decision.naturalCourt && decision.naturalCourt.indexOf(court.name) != 0) {
+            if (court.naturalCourt && namedCourt && namedCourt != court.name) {
                 warning("%s (%s - %s) for dateDecision %s (%s) does not match naturalCourt (%s)\n", court.name, court.startFormatted, court.stopFormatted, date, decision.usCite, decision.naturalCourt);
             }
-            break;
+            if (fUseNamedCourt == (court.name == namedCourt)) break;
         }
     }
     if (court) {
@@ -2526,7 +2529,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     }
                     if (decision.justices) {
                         fileText += '    votes:\n';
-                        let votes = sortVotesBySeniority(decision, vars, courtsSCDB, justices);
+                        let votes = sortVotesBySeniority(decision, vars, courtsSCDB, justices, true);
                         votes.forEach((vote) => {
                             fileText += '      - id: ' + getJusticeId(vote.justice) + '\n';
                             fileText += '        name: "' + vars.justiceName.values[vote.justice] + '"\n';
