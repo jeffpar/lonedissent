@@ -1,6 +1,6 @@
 ---
-title: "Cases Argued by Lawrence G. Wallace in the U.S. Supreme Court"
-permalink: /advocates/lawrence_wallace
+title: "Cases Argued by Lawrence G. Wallace"
+permalink: /advocates/top100/lawrence_wallace
 layout: cases
 cases:
   - id: "1967-125"
@@ -6238,4 +6238,17 @@ cases:
         majority: true
 ---
 
-Lawrence G. Wallace argued 157 cases in the U.S. Supreme Court.
+Lawrence G. Wallace argued 157 cases in the U.S. Supreme Court.  On November 12, 2002, before Mr. Wallace began his final argument in [Moseley v. V Secret Catalogue, Inc.](https://www.oyez.org/cases/2002/01-1015),
+Chief Justice William Rehnquist publicly acknowledged Mr. Wallace's service:
+
+> Mr. Wallace, our records reflect that this is your 157th argument before the Court in the 34 years you have been an attorney in the Office of the Solicitor General.
+> Some years ago, you eclipsed the 20th Century record of 140 arguments.
+>I understand that you will soon retire from Government service, so on behalf of the Court I extend to you our appreciation for your many years of quality advocacy and dedicated service in the Solicitor's Office... Solicitor General's Office... on behalf of the United States.
+>That doesn't mean we're going to rule in your favor.
+
+It took some effort to track down all [157 arguments](https://github.com/jeffpar/lonedissent/blob/master/sources/oyez/advocates/lawrence_wallace/lawrence_wallace.csv),
+because the Oyez website is not comprehensive, it often files oral arguments by the same lawyer under different names (eg, [Lawrence G. Wallace](https://www.oyez.org/advocates/lawrence_g_wallace) and [Lawrence Gerald Wallace](https://www.oyez.org/advocates/lawrence_gerald_wallace)),
+and it has not yet identified the lawyers in many (usually older) cases, such as the case in which Mr. Wallace first argued on March 25, 1968: [Joint Industry Board of the Electrical Industry v. United States](https://www.oyez.org/cases/1967/616).
+
+It's also important to note that the Court is counting individual *appearances*, not total *cases*.  For example, in [Beer v. United States](https://www.oyez.org/cases/1974/73-1869), Mr. Wallace first argued on
+March 26, 1975 and then reargued the same case on November 12, 1975.

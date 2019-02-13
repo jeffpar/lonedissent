@@ -53,6 +53,7 @@ exclude:
   - CNAME
   - gulpfile.js
   - package*.json
+  - /.history
   - /audio
   - /lib
   - /node_modules

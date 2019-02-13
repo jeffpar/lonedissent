@@ -1472,9 +1472,9 @@ function buildAdvocates(done)
             let rowsAdvocate = readCSV(filePath);
             if (rowsAdvocate && rowsAdvocate.length) {
                 let results = [];
-                let pathAdvocate = "/advocates/" + id;
+                let pathAdvocate = "/advocates/top100/" + id;
                 let nameAdvocate = rowsAdvocate[0].advocateName;
-                let fileText = '---\ntitle: "Cases Argued by ' + nameAdvocate + ' in the U.S. Supreme Court"\npermalink: ' + pathAdvocate + '\nlayout: cases\n';
+                let fileText = '---\ntitle: "Cases Argued by ' + nameAdvocate + '"\npermalink: ' + pathAdvocate + '\nlayout: cases\n';
                 rowsAdvocate.forEach((row) => {
                     let i = -1, obj;
                     if (row.volume && row.page) {
@@ -1507,7 +1507,22 @@ function buildAdvocates(done)
                 sortObjects(results, ["volume", "page", "caseTitle"]);
                 fileText += generateCaseYML(results, vars, courtsSCDB, justices);
                 fileText += '---\n\n';
-                fileText += nameAdvocate + " argued " + rowsAdvocate.length + " cases in the U.S. Supreme Court.\n";
+                fileText += nameAdvocate + " argued " + rowsAdvocate.length + " cases in the U.S. Supreme Court";
+                if (id != "lawrence_wallace") {
+                    fileText += ", according to [Oyez](https://www.oyez.org/advocates/" + aliases[1] + ")\n";
+                } else {
+                    fileText += ".  On November 12, 2002, before Mr. Wallace began his final argument in [Moseley v. V Secret Catalogue, Inc.](https://www.oyez.org/cases/2002/01-1015),\n";
+                    fileText += "Chief Justice William Rehnquist publicly acknowledged Mr. Wallace's service:\n\n";
+                    fileText += "> Mr. Wallace, our records reflect that this is your 157th argument before the Court in the 34 years you have been an attorney in the Office of the Solicitor General.\n";
+                    fileText += "> Some years ago, you eclipsed the 20th Century record of 140 arguments.\n";
+                    fileText += ">I understand that you will soon retire from Government service, so on behalf of the Court I extend to you our appreciation for your many years of quality advocacy and dedicated service in the Solicitor's Office... Solicitor General's Office... on behalf of the United States.\n";
+                    fileText += ">That doesn't mean we're going to rule in your favor.\n\n";
+                    fileText += "It took some effort to track down all [157 arguments](https://github.com/jeffpar/lonedissent/blob/master/sources/oyez/advocates/lawrence_wallace/lawrence_wallace.csv),\n";
+                    fileText += "because the Oyez website is not comprehensive, it often files oral arguments by the same lawyer under different names (eg, [Lawrence G. Wallace](https://www.oyez.org/advocates/lawrence_g_wallace) and [Lawrence Gerald Wallace](https://www.oyez.org/advocates/lawrence_gerald_wallace)),\n";
+                    fileText += "and it has not yet identified the lawyers in many (usually older) cases, such as the case in which Mr. Wallace first argued on March 25, 1968: [Joint Industry Board of the Electrical Industry v. United States](https://www.oyez.org/cases/1967/616).\n\n";
+                    fileText += "It's also important to note that the Court is counting individual *appearances*, not total *cases*.  For example, in [Beer v. United States](https://www.oyez.org/cases/1974/73-1869), Mr. Wallace first argued on\n";
+                    fileText += "March 26, 1975 and then reargued the same case on November 12, 1975.\n";
+                }
                 writeFile(rootDir + "/_pages" + pathAdvocate + ".md", fileText);
             }
         });

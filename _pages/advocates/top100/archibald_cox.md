@@ -1,6 +1,6 @@
 ---
-title: "Cases Argued by Archibald Cox in the U.S. Supreme Court"
-permalink: /advocates/archibald_cox
+title: "Cases Argued by Archibald Cox"
+permalink: /advocates/top100/archibald_cox
 layout: cases
 cases:
   - id: "1961-048"
@@ -714,4 +714,4 @@ cases:
         majority: false
 ---
 
-Archibald Cox argued 18 cases in the U.S. Supreme Court.
+Archibald Cox argued 18 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/archibald_cox)

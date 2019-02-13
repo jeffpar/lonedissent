@@ -1,6 +1,6 @@
 ---
-title: "Cases Argued by Michael R. Dreeben in the U.S. Supreme Court"
-permalink: /advocates/michael_dreeben
+title: "Cases Argued by Michael R. Dreeben"
+permalink: /advocates/top100/michael_dreeben
 layout: cases
 cases:
   - id: "2012-062"
@@ -4692,4 +4692,4 @@ cases:
         majority: true
 ---
 
-Michael R. Dreeben argued 119 cases in the U.S. Supreme Court.
+Michael R. Dreeben argued 119 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/michael_r_dreeben)

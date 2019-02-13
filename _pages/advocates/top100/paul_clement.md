@@ -1,6 +1,6 @@
 ---
-title: "Cases Argued by Paul D. Clement in the U.S. Supreme Court"
-permalink: /advocates/paul_clement
+title: "Cases Argued by Paul D. Clement"
+permalink: /advocates/top100/paul_clement
 layout: cases
 cases:
   - id: "2012-075"
@@ -3399,4 +3399,4 @@ cases:
         majority: true
 ---
 
-Paul D. Clement argued 88 cases in the U.S. Supreme Court.
+Paul D. Clement argued 88 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/paul_d_clement)

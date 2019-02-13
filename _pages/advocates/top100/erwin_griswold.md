@@ -1,6 +1,6 @@
 ---
-title: "Cases Argued by Erwin N. Griswold in the U.S. Supreme Court"
-permalink: /advocates/erwin_griswold
+title: "Cases Argued by Erwin N. Griswold"
+permalink: /advocates/top100/erwin_griswold
 layout: cases
 cases:
   - id: "1967-121"
@@ -1925,4 +1925,4 @@ cases:
         majority: true
 ---
 
-Erwin N. Griswold argued 51 cases in the U.S. Supreme Court.
+Erwin N. Griswold argued 51 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/erwin_n_griswold)

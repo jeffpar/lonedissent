@@ -1,6 +1,6 @@
 ---
-title: "Cases Argued by Carter G. Phillips in the U.S. Supreme Court"
-permalink: /advocates/carter_phillips
+title: "Cases Argued by Carter G. Phillips"
+permalink: /advocates/top100/carter_phillips
 layout: cases
 cases:
   - id: "2014-019"
@@ -3406,4 +3406,4 @@ cases:
         majority: false
 ---
 
-Carter G. Phillips argued 87 cases in the U.S. Supreme Court.
+Carter G. Phillips argued 87 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/carter_g_phillips)
