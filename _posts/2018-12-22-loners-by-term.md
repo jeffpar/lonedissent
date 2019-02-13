@@ -1,5 +1,5 @@
 ---
-title: Loners by Term
+title: "Loners by Term"
 permalink: /blog/2018/12/22/
 ---
 

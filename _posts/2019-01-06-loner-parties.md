@@ -1,5 +1,5 @@
 ---
-title: Loner Parties
+title: "Loner Parties"
 permalink: /blog/2019/01/06/
 ---
 

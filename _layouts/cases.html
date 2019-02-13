@@ -4,7 +4,9 @@ layout: default
 
 <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
 
-{{ content }}
+<article class="page">
+  {{ content }}
+</article>
 
 {% for case in page.cases %}
   {% if case.pdfSource == "loc" %}

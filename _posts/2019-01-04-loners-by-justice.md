@@ -1,5 +1,5 @@
 ---
-title: Loners by Justice
+title: "Loners by Justice"
 permalink: /blog/2019/01/04/
 ---
 
