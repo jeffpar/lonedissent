@@ -517,19 +517,23 @@ function isSortedObjects(rows, keys, fQuiet)
 }
 
 /**
- * searchObjects(a, key, value, next)
+ * searchObjects(rows, row, next)
  *
  * @param {Array.<object>} rows
- * @param {string} key
- * @param {*} value
+ * @param {object} row
  * @param {number} [next]
  * @return {number} (index of position, or -1 if not found)
  */
-function searchObjects(rows, key, value, next=0)
+function searchObjects(rows, row, next=0)
 {
-    let i;
+    let i, keys = Object.keys(row);
     for (i = next; i < rows.length; i++) {
-        if (rows[i][key] == value) break;
+        let k;
+        for (k = 0; k < keys.length; k++) {
+            let key = keys[k];
+            if (rows[i][key] != row[key]) break;
+        }
+        if (k == keys.length) break;
     }
     return (i < rows.length)? i : -1;
 }
@@ -1001,33 +1005,36 @@ function getNewCite(volume, page)
  */
 function getOldCite(volume, page)
 {
-    let oldCite = "", reporter = "", volBegin = 0;
-    if (volume < 5) {
-        volBegin = 1;
-        reporter = "Dall.";
-    } else if (volume < 14) {
-        volBegin = 5;
-        reporter = "Cranch";
-    } else if (volume < 26) {
-        volBegin = 14;
-        reporter = "Wheat.";
-    } else if (volume < 42) {
-        volBegin = 26;
-        reporter = "Pet.";
-    } else if (volume < 66) {
-        volBegin = 42;
-        reporter = "How.";
-    } else if (volume < 68) {
-        volBegin = 66;
-        reporter = "Black";
-    } else if (volume < 91) {
-        volBegin = 68;
-        reporter = "Wall.";
-    } else {
-        reporter = "U.S.";
-    }
-    if (volBegin) {
-        oldCite = sprintf("%d %s %d", volume - volBegin + 1, reporter, page);
+    let oldCite = "";
+    if (volume) {
+        let reporter = "", volBegin = 0
+        if (volume < 5) {
+            volBegin = 1;
+            reporter = "Dall.";
+        } else if (volume < 14) {
+            volBegin = 5;
+            reporter = "Cranch";
+        } else if (volume < 26) {
+            volBegin = 14;
+            reporter = "Wheat.";
+        } else if (volume < 42) {
+            volBegin = 26;
+            reporter = "Pet.";
+        } else if (volume < 66) {
+            volBegin = 42;
+            reporter = "How.";
+        } else if (volume < 68) {
+            volBegin = 66;
+            reporter = "Black";
+        } else if (volume < 91) {
+            volBegin = 68;
+            reporter = "Wall.";
+        } else {
+            reporter = "U.S.";
+        }
+        if (volBegin) {
+            oldCite = sprintf("%d %s %d", volume - volBegin + 1, reporter, page);
+        }
     }
     return oldCite;
 }
@@ -1100,14 +1107,14 @@ function readCourts()
             }
         }
         if (!court.photoSmall) {
-            let filePath = path.join("data/oyez/courts", court.id, "image-small.jpg");
+            let filePath = path.join("sources/oyez/courts", court.id, "image-small.jpg");
             if (fs.existsSync(filePath)) {
                 court.photoSmall = filePath;
                 fixes++;
             }
         }
         if (!court.photoLarge) {
-            let filePath = path.join("data/oyez/courts", court.id, "image-large.jpg");
+            let filePath = path.join("sources/oyez/courts", court.id, "image-large.jpg");
             if (fs.existsSync(filePath)) {
                 court.photoLarge = filePath;
                 fixes++;
@@ -1391,16 +1398,77 @@ function buildAdvocates(done)
     let decisions = JSON.parse(readFile(dataFile) || "[]");
     sortObjects(decisions, ["volume", "page"]);
     let advocates = JSON.parse(readFile(sources.oyez.advocates) || "{}");
+
+    let getDates = function(timeline, event) {
+        let dates = "";
+        if (timeline) {
+            for (let i = 0; i < timeline.length; i++) {
+                let item = timeline[i];
+                if (item.event == event) {
+                    for (let j = 0; j < item.dates.length; j++) {
+                        let date = new Date(item.dates[j] * 1000);
+                        if (dates) dates += ',';
+                        dates += sprintf("%#Y-%#02M-%#02D", date);
+                    }
+                }
+            }
+        }
+        return dates;
+    };
+
     if (advocates) {
         let ids = Object.keys(advocates.ids);
         ids.forEach((id) => {
             let aliases = advocates.ids[id];
             let dir = path.join(path.dirname(sources.oyez.advocates), id);
-            for (let i = 1; i < aliases.length; i++) {
-                let alias = aliases[i];
-                let file = path.join(dir, alias + ".json");
-            }
             let filePath = path.join(dir, id + ".csv");
+            if (!fs.existsSync(rootDir + filePath) || argv['overwrite'] && id != "lawrence_wallace") {
+                let rows = [];
+                for (let i = 1; i < aliases.length; i++) {
+                    let alias = aliases[i];
+                    let filePath = path.join(dir, "_files", alias + ".json");
+                    let cases = JSON.parse(readFile(filePath) || "[]");
+                    cases.forEach((obj) => {
+                        let dir = path.join(path.dirname(sources.oyez.cases), obj.term, "_files");
+                        let fileID = obj.docket_number + '_' + obj.ID;
+                        let file = fileID + ".json";
+                        let filePath = path.join(dir, file);
+                        let caseDetail = JSON.parse(readFile(filePath) || "{}");
+                        if (caseDetail.ID) {
+                            let row = {};
+                            row.caseId = caseDetail.ID.toString();
+                            row.volume = caseDetail.citation && +caseDetail.citation.volume || 0;
+                            row.page = caseDetail.citation && +caseDetail.citation.page || 0;
+                            row.year = caseDetail.citation && +caseDetail.citation.year || 0;
+                            row.caseTitle = caseDetail.name;
+                            row.oldCite = getOldCite(row.volume, row.page);
+                            row.usCite = getNewCite(row.volume, row.page);
+                            row.dateDecision = getDates(caseDetail.timeline, "Decided");
+                            row.docket = caseDetail.docket_number;
+                            row.term = caseDetail.term || 0;
+                            row.termId = getTermDate(row.term).substr(0,7);
+                            row.issue = "";
+                            row.dateArgument = getDates(caseDetail.timeline, "Argued");     // TODO: "Reargued"
+                            row.daysArgument = row.dateArgument.split(',').length;
+                            row.votesPetitioner = 0;
+                            row.votesRespondent = 0;
+                            row.advocateName = aliases[0];
+                            row.advocateRole = "";
+                            if (row.term) {
+                                if (row.term < 2004) {
+                                    row.pdfSource = "loc";          // ie, Library of Congress
+                                } else if (row.term < 2012) {
+                                    row.pdfSource = "scotusBound";  // ie, supremecourt.gov, in the "Bound Volumes" folder
+                                } else {
+                                    row.pdfSource = "slipopinion/" + (row.term % 100);
+                                }
+                            }
+                            rows.push(row);
+                        }
+                    });
+                }
+                writeCSV(filePath, rows);
+            }
             let rowsAdvocate = readCSV(filePath);
             if (rowsAdvocate && rowsAdvocate.length) {
                 let results = [];
@@ -1408,16 +1476,38 @@ function buildAdvocates(done)
                 let nameAdvocate = rowsAdvocate[0].advocateName;
                 let fileText = '---\ntitle: "Cases Argued by ' + nameAdvocate + ' in the U.S. Supreme Court"\npermalink: ' + pathAdvocate + '\nlayout: cases\n';
                 rowsAdvocate.forEach((row) => {
-                    let i = searchSortedObjects(decisions, {volume: row.volume, page: row.page}, true);
+                    let i = -1, obj;
+                    if (row.volume && row.page) {
+                        obj = {volume: row.volume, page: row.page};
+                        i = searchSortedObjects(decisions, obj, true);
+                    }
+                    if (i < 0) {
+                        /*
+                         * We must perform a much slower search, based on other (hopefully unique) criteria.
+                         */
+                        let next = 0;
+                        let docket = row.docket;
+                        let dateArgument = row.dateArgument.split(',')[0];
+                        let dateDecision = row.dateDecision;
+                        if (dateArgument) {
+                            obj = {docket, dateArgument};
+                        } else {
+                            obj = {docket, dateDecision};
+                        }
+                        i = searchObjects(decisions, obj, next);
+                        if (i >= 0 && searchObjects(decisions, obj, i+1) >= 0) i = -1;
+                    }
                     if (i >= 0) {
                         results.push(decisions[i]);
                     } else {
-                        warning("unable to find exact match for %s: %s (%s)\n", nameAdvocate, row.caseTitle, row.usCite);
+                        results.push(row);
+                        warning("unable to find exact match for %s: %s [%s] (%s) Argued=%s Decided=%s\n", nameAdvocate, row.caseTitle, row.docket, row.dateArgument, row.dateDecision, row.usCite);
                     }
                 });
                 sortObjects(results, ["volume", "page", "caseTitle"]);
                 fileText += generateCaseYML(results, vars, courtsSCDB, justices);
-                fileText += '---\n';
+                fileText += '---\n\n';
+                fileText += nameAdvocate + " argued " + rowsAdvocate.length + " cases in the U.S. Supreme Court.\n";
                 writeFile(rootDir + "/_pages" + pathAdvocate + ".md", fileText);
             }
         });
@@ -2041,8 +2131,8 @@ function generateCaseYML(decisions, vars, courts, justices)
         if (decision.pdfPageDissent) ymlText += '    pdfPageDissent: ' + decision.pdfPageDissent + '\n';
         ymlText += '    dateDecision: "' + (decision.dateDecision.length < 10? getTermName(decision.dateDecision) : sprintf("%#C", decision.dateDecision)) + '"\n';
         ymlText += '    citation: "' + (decision.usCite || ('No. ' + decision.docket)) + '"\n';
-        ymlText += '    voteMajority: ' + decision.majVotes + '\n';
-        ymlText += '    voteMinority: ' + decision.minVotes + '\n';
+        ymlText += '    voteMajority: ' + (decision.majVotes || 0) + '\n';
+        ymlText += '    voteMinority: ' + (decision.minVotes || 0)+ '\n';
         if (decision.dissenterId) {
             ymlText += '    dissenterId: ' + getJusticeId(decision.dissenterId) + '\n';
             ymlText += '    dissenterName: "' + decision.dissenterName + '"\n';
@@ -2279,7 +2369,7 @@ function sortVotesBySeniority(decision, vars, courts, justices, fUseNamedCourt)
              * match for one of the 'justice' values in the SCDB votes array.
              */
             if (court.naturalCourt) {
-                let k = searchObjects(votesOld, "justice", idJustice);
+                let k = searchObjects(votesOld, {justice: idJustice});
                 if (k >= 0) {
                     votesNew.push({
                         justice: idJustice,
@@ -2294,12 +2384,13 @@ function sortVotesBySeniority(decision, vars, courts, justices, fUseNamedCourt)
              * which uses justice IDs from justices.json, so we must find the matching justice element and
              * extract its corresponding SCDB ID before attempting to find the justice's vote.
              */
-            while ((iJustice = searchObjects(justices, "id", idJustice, nextJustice)) >= 0) {
+            let obj = {id: idJustice};
+            while ((iJustice = searchObjects(justices, obj, nextJustice)) >= 0) {
                 nextJustice = iJustice + 1;
                 let iSCDBJustice = justices[iJustice].scdbJustice;
                 if (iSCDBJustice) {
                     let idSCDBJustice = vars.justice.values[iSCDBJustice];
-                    let k = searchObjects(votesOld, "justice", idSCDBJustice);
+                    let k = searchObjects(votesOld, {justice: idSCDBJustice});
                     if (k >= 0) {
                         votesNew.push({
                             justice: idSCDBJustice,
@@ -2574,7 +2665,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                             warning("unable to identify dissenter for case %s (%s)\n", decision.caseId, decision.usCite);
                         }
                     }
-                    let b = searchObjects(lonerBackup, "caseId", decision.caseId);
+                    let b = searchObjects(lonerBackup, {caseId: decision.caseId});
                     if (b >= 0) {
                         let backup = lonerBackup[b];
                         if (backup['caseNotes']) decision['caseNotes'] = backup['caseNotes'];
@@ -2788,7 +2879,7 @@ function findJustices(done, minVotes)
             if (matchCite) {
                 volume = +matchCite[1];  page = +matchCite[2];
             }
-            let b = searchObjects(lonerBackup, "caseId", opinion.caseId);
+            let b = searchObjects(lonerBackup, {caseId: opinion.caseId});
             if (b >= 0) {
                 let backup = lonerBackup[b];
                 if (backup['caseNotes']) opinion['caseNotes'] = backup['caseNotes'];
@@ -3475,12 +3566,44 @@ function generateDownloadTasks(done)
         let ids = Object.keys(advocates.ids);
         ids.forEach((id) => {
             let aliases = advocates.ids[id];
-            let dir = path.join(path.dirname(sources.oyez.advocates), id);
+            let dir = path.join(path.dirname(sources.oyez.advocates), id, "_files");
             for (let i = 1; i < aliases.length; i++) {
                 let alias = aliases[i];
-                let url = sprintf(advocates.api, alias);
                 let file = alias + ".json";
-                createDownloadTask('download.advocate.' + alias, url, dir, file);
+                let filePath = path.join(dir, file);
+                if (fs.existsSync(rootDir + filePath)) {
+                    let json = readFile(filePath);
+                    if (json) {
+                        let lines = json.split('\n');
+                        if (lines.length == 1) {
+                            json = sprintf("%2j", JSON.parse(json));
+                            writeFile(filePath, json, true);
+                        }
+                        let cases = JSON.parse(json);
+                        cases.forEach((obj) => {
+                            let dir = path.join(path.dirname(sources.oyez.cases), obj.term, "_files");
+                            let fileID = obj.docket_number + '_' + obj.ID;
+                            let file = fileID + ".json";
+                            let filePath = path.join(dir, file);
+                            if (fs.existsSync(rootDir + filePath)) {
+                                let json = readFile(filePath);
+                                if (json) {
+                                    let lines = json.split('\n');
+                                    if (lines.length == 1) {
+                                        json = sprintf("%2j", JSON.parse(json));
+                                        writeFile(filePath, json, true);
+                                    }
+                                }
+                            } else {
+                                let url = obj.href;
+                                createDownloadTask('download.case.' + fileID, url, dir, file);
+                            }
+                        });
+                    }
+                } else {
+                    let url = sprintf(advocates.api, alias);
+                    createDownloadTask('download.advocate.' + alias, url, dir, file);
+                }
             }
         });
     }
@@ -3501,36 +3624,11 @@ function runDownloadTasks(done)
 }
 
 /**
- * scrapeOyezCaseList(filePath)
- *
- * @param {string} filePath
- * @return {Array} rows
- */
-function scrapeOyezCaseList(filePath)
-{
-    let rows = [];
-    let text = readFile(filePath);
-    if (text) {
-        let match, re = /<h2 class="ng-binding">\s*<a\s+[^>]*?href="([^"]+)"[^>]*>([\s\S]*?)<\/a>[\s\S]*?\(([0-9]+)\)\s*<\/h2>/g;
-        while ((match = re.exec(text))) {
-            let row = {
-                year: +match[3],
-                caseTitle: decodeString(match[2], "html").replace(/\s+/g, ' ').trim(),
-                urlOyez: match[1]
-            };
-            rows.push(row);
-        }
-    }
-    return rows;
-}
-
-/**
  * scrapeWallaceCases()
  */
 function scrapeWallaceCases()
 {
     let path = "/sources/oyez/advocates/w/wallace/lawrence_wallace";
-    let rowsOyezCases = scrapeOyezCaseList(path + "/_files/index.html");
     let text = readFile(path + "/_files/cases.html");
     if (text) {
         let keys = [], rows = [];
@@ -3572,8 +3670,6 @@ function scrapeWallaceCases()
                     };
                     let urlOyez = "cases/" + newRow.term + "/" + newRow.docket;
                     newRow.urlOyez = "https://www.oyez.org/" + urlOyez;
-                    let i = searchObjects(rowsOyezCases, "urlOyez", urlOyez);
-                    newRow.advocateMatched = (i >= 0);
                     rows.push(newRow);
                 }
             }

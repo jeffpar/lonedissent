@@ -6237,3 +6237,5 @@ cases:
         name: "Stephen Breyer"
         majority: true
 ---
+
+Lawrence G. Wallace argued 157 cases in the U.S. Supreme Court.
