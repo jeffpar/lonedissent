@@ -12,6 +12,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, April 19, 1961"
     dateDecision: "Monday, March 26, 1962"
+    urlOyez: "https://www.oyez.org/cases/1960/6"
     citation: "369 U.S. 186"
     voteMajority: 6
     voteMinority: 2
@@ -54,6 +55,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, December 6, 1961"
     dateDecision: "Monday, June 25, 1962"
+    urlOyez: "https://www.oyez.org/cases/1961/4"
     citation: "370 U.S. 294"
     voteMajority: 7
     voteMinority: 0
@@ -96,6 +98,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, January 8, 1962"
     dateDecision: "Monday, June 3, 1963"
+    urlOyez: "https://www.oyez.org/cases/1961/8_orig"
     citation: "373 U.S. 546"
     voteMajority: 5
     voteMinority: 3
@@ -138,6 +141,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, January 16, 1962"
     dateDecision: "Monday, March 19, 1962"
+    urlOyez: "https://www.oyez.org/cases/1961/64"
     citation: "369 U.S. 141"
     voteMajority: 7
     voteMinority: 1
@@ -178,6 +182,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, March 21, 1962"
     dateDecision: "Monday, February 18, 1963"
+    urlOyez: "https://www.oyez.org/cases/1961/18"
     citation: "372 U.S. 29"
     voteMajority: 6
     voteMinority: 3
@@ -220,6 +225,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Thursday, March 29, 1962"
     dateDecision: "Monday, January 14, 1963"
+    urlOyez: "https://www.oyez.org/cases/1962/36"
     citation: "371 U.S. 471"
     voteMajority: 5
     voteMinority: 4
@@ -262,6 +268,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, April 18, 1962"
     dateDecision: "Monday, June 17, 1963"
+    urlOyez: "https://www.oyez.org/cases/1961/35"
     citation: "374 U.S. 109"
     voteMajority: 5
     voteMinority: 4
@@ -304,6 +311,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, November 5, 1962"
     dateDecision: "Monday, May 20, 1963"
+    urlOyez: "https://www.oyez.org/cases/1962/11"
     citation: "373 U.S. 375"
     voteMajority: 8
     voteMinority: 1
@@ -344,6 +352,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Thursday, April 18, 1963"
     dateDecision: "Monday, December 2, 1963"
+    urlOyez: "https://www.oyez.org/cases/1963/13"
     citation: "375 U.S. 96"
     voteMajority: 8
     voteMinority: 0
@@ -386,6 +395,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, November 13, 1963"
     dateDecision: "Monday, June 15, 1964"
+    urlOyez: "https://www.oyez.org/cases/1963/29"
     citation: "377 U.S. 656"
     voteMajority: 7
     voteMinority: 2
@@ -428,6 +438,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, March 3, 1964"
     dateDecision: "Monday, May 18, 1964"
+    urlOyez: "https://www.oyez.org/cases/1963/199"
     citation: "377 U.S. 201"
     voteMajority: 6
     voteMinority: 3
@@ -470,6 +481,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, March 30, 1964"
     dateDecision: "Monday, May 25, 1964"
+    urlOyez: "https://www.oyez.org/cases/1963/592"
     citation: "377 U.S. 218"
     voteMajority: 7
     voteMinority: 2
@@ -512,6 +524,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, April 20, 1964"
     dateDecision: "Monday, June 15, 1964"
+    urlOyez: "https://www.oyez.org/cases/1963/185"
     citation: "378 U.S. 39"
     voteMajority: 9
     voteMinority: 0
@@ -554,6 +567,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, January 27, 1965"
     dateDecision: "Monday, June 7, 1965"
+    urlOyez: "https://www.oyez.org/cases/1964/240"
     citation: "381 U.S. 676"
     voteMajority: 6
     voteMinority: 3
@@ -596,6 +610,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, April 2, 1969"
     dateDecision: "Monday, June 9, 1969"
+    urlOyez: "https://www.oyez.org/cases/1968/2"
     citation: "395 U.S. 367"
     voteMajority: 7
     voteMinority: 0
@@ -635,6 +650,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, November 10, 1975"
     dateDecision: "Friday, January 30, 1976"
+    urlOyez: "https://www.oyez.org/cases/1975/75-436"
     citation: "424 U.S. 1"
     voteMajority: 7
     voteMinority: 1
@@ -675,6 +691,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, October 12, 1977"
     dateDecision: "Monday, June 26, 1978"
+    urlOyez: "https://www.oyez.org/cases/1979/76-811"
     citation: "438 U.S. 265"
     voteMajority: 5
     voteMinority: 4
@@ -717,6 +734,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, October 7, 1981"
     dateDecision: "Tuesday, January 19, 1982"
+    urlOyez: "https://www.oyez.org/cases/1981/80-847"
     citation: "455 U.S. 129"
     voteMajority: 4
     voteMinority: 4

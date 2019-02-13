@@ -12,6 +12,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, January 12, 1982"
     dateDecision: "Tuesday, March 23, 1982"
+    urlOyez: "https://www.oyez.org/cases/1981/80-6680"
     citation: "455 U.S. 642"
     voteMajority: 8
     voteMinority: 1
@@ -54,6 +55,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, April 20, 1982"
     dateDecision: "Friday, July 2, 1982"
+    urlOyez: "https://www.oyez.org/cases/1981/81-450"
     citation: "458 U.S. 858"
     voteMajority: 7
     voteMinority: 2
@@ -96,6 +98,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, October 6, 1982"
     dateDecision: "Monday, December 13, 1982"
+    urlOyez: "https://www.oyez.org/cases/1982/81-708"
     citation: "459 U.S. 159"
     voteMajority: 6
     voteMinority: 3
@@ -138,6 +141,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, January 19, 1983"
     dateDecision: "Monday, March 7, 1983"
+    urlOyez: "https://www.oyez.org/cases/1982/81-1494"
     citation: "460 U.S. 289"
     voteMajority: 9
     voteMinority: 0
@@ -180,6 +184,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, February 28, 1983"
     dateDecision: "Tuesday, May 31, 1983"
+    urlOyez: "https://www.oyez.org/cases/1982/81-1314"
     citation: "461 U.S. 757"
     voteMajority: 9
     voteMinority: 0
@@ -222,6 +227,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, October 11, 1983"
     dateDecision: "Tuesday, January 10, 1984"
+    urlOyez: "https://www.oyez.org/cases/1983/82-599"
     citation: "464 U.S. 206"
     voteMajority: 5
     voteMinority: 4
@@ -264,6 +270,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, January 10, 1984"
     dateDecision: "Tuesday, June 5, 1984"
+    urlOyez: "https://www.oyez.org/cases/1983/82-1643"
     citation: "467 U.S. 354"
     voteMajority: 5
     voteMinority: 4
@@ -306,6 +313,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, April 24, 1984"
     dateDecision: "Thursday, June 28, 1984"
+    urlOyez: "https://www.oyez.org/cases/1983/83-614"
     citation: "468 U.S. 207"
     voteMajority: 9
     voteMinority: 0
@@ -348,6 +356,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, October 9, 1984"
     dateDecision: "Wednesday, February 27, 1985"
+    urlOyez: "https://www.oyez.org/cases/1984/83-1097"
     citation: "470 U.S. 184"
     voteMajority: 9
     voteMinority: 0
@@ -390,6 +399,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, October 14, 1986"
     dateDecision: "Tuesday, November 4, 1986"
+    urlOyez: "https://www.oyez.org/cases/1986/85-558"
     citation: "479 U.S. 27"
     voteMajority: 9
     voteMinority: 0
@@ -432,6 +442,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, April 22, 1987"
     dateDecision: "Wednesday, June 24, 1987"
+    urlOyez: "https://www.oyez.org/cases/1986/86-234"
     citation: "483 U.S. 350"
     voteMajority: 7
     voteMinority: 2
@@ -474,6 +485,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, November 8, 1988"
     dateDecision: "Tuesday, February 28, 1989"
+    urlOyez: "https://www.oyez.org/cases/1988/86-1088"
     citation: "489 U.S. 378"
     voteMajority: 6
     voteMinority: 3
@@ -516,6 +528,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, April 25, 1990"
     dateDecision: "Monday, June 4, 1990"
+    urlOyez: "https://www.oyez.org/cases/1989/89-152"
     citation: "496 U.S. 72"
     voteMajority: 9
     voteMinority: 0
@@ -558,6 +571,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, October 1, 1990"
     dateDecision: "Tuesday, November 27, 1990"
+    urlOyez: "https://www.oyez.org/cases/1990/89-1283"
     citation: "498 U.S. 73"
     voteMajority: 8
     voteMinority: 0
@@ -600,6 +614,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, January 22, 1992"
     dateDecision: "Wednesday, April 1, 1992"
+    urlOyez: "https://www.oyez.org/cases/1991/90-1947"
     citation: "503 U.S. 519"
     voteMajority: 9
     voteMinority: 0
@@ -642,6 +657,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, December 1, 1992"
     dateDecision: "Monday, March 8, 1993"
+    urlOyez: "https://www.oyez.org/cases/1992/91-1496"
     citation: "507 U.S. 258"
     voteMajority: 8
     voteMinority: 1
@@ -684,6 +700,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, December 9, 1992"
     dateDecision: "Monday, April 26, 1993"
+    urlOyez: "https://www.oyez.org/cases/1992/91-1306"
     citation: "507 U.S. 725"
     voteMajority: 6
     voteMinority: 3
@@ -726,6 +743,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, March 31, 1993"
     dateDecision: "Friday, June 25, 1993"
+    urlOyez: "https://www.oyez.org/cases/1992/92-479"
     citation: "509 U.S. 443"
     voteMajority: 6
     voteMinority: 3
@@ -768,6 +786,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, March 31, 1993"
     dateDecision: "Friday, June 25, 1993"
+    urlOyez: "https://www.oyez.org/cases/1992/92-479"
     citation: "509 U.S. 443"
     voteMajority: 6
     voteMinority: 3
@@ -810,6 +829,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, November 8, 1993"
     dateDecision: "Monday, January 24, 1994"
+    urlOyez: "https://www.oyez.org/cases/1993/92-74"
     citation: "510 U.S. 332"
     voteMajority: 8
     voteMinority: 1
@@ -852,6 +872,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, October 30, 1995"
     dateDecision: "Monday, March 4, 1996"
+    urlOyez: "https://www.oyez.org/cases/1995/94-818"
     citation: "516 U.S. 417"
     voteMajority: 6
     voteMinority: 2
@@ -894,6 +915,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, October 30, 1995"
     dateDecision: "Monday, March 4, 1996"
+    urlOyez: "https://www.oyez.org/cases/1995/94-818"
     citation: "516 U.S. 417"
     voteMajority: 6
     voteMinority: 2
@@ -936,6 +958,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, January 8, 1996"
     dateDecision: "Tuesday, February 27, 1996"
+    urlOyez: "https://www.oyez.org/cases/1995/95-6"
     citation: "516 U.S. 400"
     voteMajority: 9
     voteMinority: 0
@@ -978,6 +1001,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, April 16, 1997"
     dateDecision: "Monday, June 16, 1997"
+    urlOyez: "https://www.oyez.org/cases/1996/96-454"
     citation: "520 U.S. 953"
     voteMajority: 8
     voteMinority: 1
@@ -1020,6 +1044,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, November 12, 1997"
     dateDecision: "Monday, January 26, 1998"
+    urlOyez: "https://www.oyez.org/cases/1997/96-1291"
     citation: "522 U.S. 422"
     voteMajority: 6
     voteMinority: 3
@@ -1062,6 +1087,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, March 2, 1998"
     dateDecision: "Tuesday, April 21, 1998"
+    urlOyez: "https://www.oyez.org/cases/1997/97-5310"
     citation: "523 U.S. 410"
     voteMajority: 9
     voteMinority: 0
@@ -1104,6 +1130,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, December 1, 1998"
     dateDecision: "Wednesday, January 13, 1999"
+    urlOyez: "https://www.oyez.org/cases/1998/97-53"
     citation: "525 U.S. 249"
     voteMajority: 9
     voteMinority: 0
@@ -1144,6 +1171,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, January 11, 1999"
     dateDecision: "Wednesday, April 21, 1999"
+    urlOyez: "https://www.oyez.org/cases/1998/97-2044"
     citation: "526 U.S. 380"
     voteMajority: 9
     voteMinority: 0
@@ -1186,6 +1214,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, January 20, 1999"
     dateDecision: "Tuesday, February 23, 1999"
+    urlOyez: "https://www.oyez.org/cases/1998/98-84"
     citation: "525 U.S. 459"
     voteMajority: 9
     voteMinority: 0
@@ -1228,6 +1257,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, April 19, 1999"
     dateDecision: "Monday, June 7, 1999"
+    urlOyez: "https://www.oyez.org/cases/1998/98-830"
     citation: "526 U.S. 865"
     voteMajority: 7
     voteMinority: 1
@@ -1270,6 +1300,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, February 23, 2000"
     dateDecision: "Monday, June 12, 2000"
+    urlOyez: "https://www.oyez.org/cases/1999/98-1949"
     citation: "530 U.S. 211"
     voteMajority: 9
     voteMinority: 0
@@ -1312,6 +1343,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, March 1, 2000"
     dateDecision: "Monday, April 17, 2000"
+    urlOyez: "https://www.oyez.org/cases/1999/99-312"
     citation: "529 U.S. 344"
     voteMajority: 7
     voteMinority: 2
@@ -1354,6 +1386,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, March 22, 2000"
     dateDecision: "Monday, June 26, 2000"
+    urlOyez: "https://www.oyez.org/cases/1999/99-244"
     citation: "530 U.S. 604"
     voteMajority: 7
     voteMinority: 1
@@ -1393,6 +1426,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, October 3, 2000"
     dateDecision: "Monday, December 11, 2000"
+    urlOyez: "https://www.oyez.org/cases/2000/99-1235"
     citation: "531 U.S. 79"
     voteMajority: 9
     voteMinority: 0
@@ -1435,6 +1469,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, February 27, 2001"
     dateDecision: "Tuesday, April 17, 2001"
+    urlOyez: "https://www.oyez.org/cases/2000/00-203"
     citation: "532 U.S. 200"
     voteMajority: 9
     voteMinority: 0
@@ -1477,6 +1512,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Monday, October 1, 2001"
     dateDecision: "Tuesday, November 27, 2001"
+    urlOyez: "https://www.oyez.org/cases/2001/00-860"
     citation: "534 U.S. 61"
     voteMajority: 5
     voteMinority: 4
@@ -1519,6 +1555,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, November 6, 2002"
     dateDecision: "Monday, March 10, 2003"
+    urlOyez: "https://www.oyez.org/cases/2002/01-963"
     citation: "538 U.S. 135"
     voteMajority: 5
     voteMinority: 4
@@ -1561,6 +1598,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, January 22, 2003"
     dateDecision: "Monday, May 19, 2003"
+    urlOyez: "https://www.oyez.org/cases/2002/01-188"
     citation: "538 U.S. 644"
     voteMajority: 6
     voteMinority: 3
@@ -1603,6 +1641,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, April 22, 2003"
     dateDecision: "Monday, June 23, 2003"
+    urlOyez: "https://www.oyez.org/cases/2002/02-634"
     citation: "539 U.S. 444"
     voteMajority: 5
     voteMinority: 4
@@ -1645,6 +1684,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Wednesday, October 8, 2003"
     dateDecision: "Tuesday, December 2, 2003"
+    urlOyez: "https://www.oyez.org/cases/2003/02-749"
     citation: "540 U.S. 44"
     voteMajority: 7
     voteMinority: 0
@@ -1682,6 +1722,7 @@ cases:
     pdfPageDissent: 14
     dateArgument: "Wednesday, January 14, 2004"
     dateDecision: "Wednesday, April 28, 2004"
+    urlOyez: "https://www.oyez.org/cases/2003/02-1343"
     citation: "541 U.S. 246"
     voteMajority: 8
     voteMinority: 1
@@ -1724,6 +1765,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, February 24, 2004"
     dateDecision: "Monday, May 3, 2004"
+    urlOyez: "https://www.oyez.org/cases/2003/02-1205"
     citation: "541 U.S. 369"
     voteMajority: 9
     voteMinority: 0
@@ -1766,6 +1808,7 @@ cases:
     pdfSource: "loc"
     dateArgument: "Tuesday, March 30, 2004"
     dateDecision: "Tuesday, June 29, 2004"
+    urlOyez: "https://www.oyez.org/cases/2003/03-339"
     citation: "542 U.S. 692"
     voteMajority: 6
     voteMinority: 3
@@ -1810,6 +1853,7 @@ cases:
     pdfPageDissent: 74
     dateArgument: "Tuesday, April 20, 2004"
     dateDecision: "Monday, June 21, 2004"
+    urlOyez: "https://www.oyez.org/cases/2003/02-572"
     citation: "542 U.S. 241"
     voteMajority: 8
     voteMinority: 1
@@ -1852,6 +1896,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, October 6, 2004"
     dateDecision: "Tuesday, November 9, 2004"
+    urlOyez: "https://www.oyez.org/cases/2004/02-1028"
     citation: "543 U.S. 14"
     voteMajority: 9
     voteMinority: 0
@@ -1894,6 +1939,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, December 8, 2004"
     dateDecision: "Tuesday, March 22, 2005"
+    urlOyez: "https://www.oyez.org/cases/2004/03-1423"
     citation: "544 U.S. 93"
     voteMajority: 9
     voteMinority: 0
@@ -1936,6 +1982,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, March 1, 2005"
     dateDecision: "Thursday, June 23, 2005"
+    urlOyez: "https://www.oyez.org/cases/2004/04-70"
     citation: "545 U.S. 546"
     voteMajority: 5
     voteMinority: 4
@@ -1978,6 +2025,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, October 3, 2005"
     dateDecision: "Tuesday, November 8, 2005"
+    urlOyez: "https://www.oyez.org/cases/2005/03-1238"
     citation: "546 U.S. 21"
     voteMajority: 9
     voteMinority: 0
@@ -2020,6 +2068,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, October 31, 2005"
     dateDecision: "Tuesday, January 10, 2006"
+    urlOyez: "https://www.oyez.org/cases/2005/04-905"
     citation: "546 U.S. 164"
     voteMajority: 7
     voteMinority: 2
@@ -2062,6 +2111,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, January 17, 2006"
     dateDecision: "Wednesday, April 26, 2006"
+    urlOyez: "https://www.oyez.org/cases/2005/04-1477"
     citation: "547 U.S. 220"
     voteMajority: 5
     voteMinority: 3
@@ -2104,6 +2154,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, March 29, 2006"
     dateDecision: "Monday, May 15, 2006"
+    urlOyez: "https://www.oyez.org/cases/2005/05-130"
     citation: "547 U.S. 388"
     voteMajority: 9
     voteMinority: 0
@@ -2146,6 +2197,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, April 17, 2006"
     dateDecision: "Thursday, June 22, 2006"
+    urlOyez: "https://www.oyez.org/cases/2005/05-259"
     citation: "548 U.S. 53"
     voteMajority: 9
     voteMinority: 0
@@ -2188,6 +2240,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, April 26, 2006"
     dateDecision: "Monday, June 5, 2006"
+    urlOyez: "https://www.oyez.org/cases/2005/05-465"
     citation: "547 U.S. 516"
     voteMajority: 9
     voteMinority: 0
@@ -2228,6 +2281,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, October 10, 2006"
     dateDecision: "Wednesday, January 10, 2007"
+    urlOyez: "https://www.oyez.org/cases/2006/05-746"
     citation: "549 U.S. 158"
     voteMajority: 9
     voteMinority: 0
@@ -2270,6 +2324,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, November 1, 2006"
     dateDecision: "Monday, April 2, 2007"
+    urlOyez: "https://www.oyez.org/cases/2006/05-848"
     citation: "549 U.S. 561"
     voteMajority: 9
     voteMinority: 0
@@ -2312,6 +2367,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, March 28, 2007"
     dateDecision: "Thursday, June 21, 2007"
+    urlOyez: "https://www.oyez.org/cases/2006/06-484"
     citation: "551 U.S. 308"
     voteMajority: 8
     voteMinority: 1
@@ -2354,6 +2410,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, November 5, 2007"
     dateDecision: "Tuesday, December 4, 2007"
+    urlOyez: "https://www.oyez.org/cases/2007/06-1287"
     citation: "552 U.S. 9"
     voteMajority: 9
     voteMinority: 0
@@ -2396,6 +2453,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, November 7, 2007"
     dateDecision: "Tuesday, March 25, 2008"
+    urlOyez: "https://www.oyez.org/cases/2007/06-989"
     citation: "552 U.S. 576"
     voteMajority: 6
     voteMinority: 3
@@ -2438,6 +2496,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, January 16, 2008"
     dateDecision: "Monday, June 9, 2008"
+    urlOyez: "https://www.oyez.org/cases/2007/06-937"
     citation: "553 U.S. 617"
     voteMajority: 9
     voteMinority: 0
@@ -2480,6 +2539,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, February 25, 2008"
     dateDecision: "Monday, March 3, 2008"
+    urlOyez: "https://www.oyez.org/cases/2007/06-1498"
     citation: "552 U.S. 440"
     voteMajority: 4
     voteMinority: 4
@@ -2520,6 +2580,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, April 21, 2008"
     dateDecision: "Monday, June 23, 2008"
+    urlOyez: "https://www.oyez.org/cases/2007/07-552"
     citation: "554 U.S. 269"
     voteMajority: 5
     voteMinority: 4
@@ -2562,6 +2623,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, October 6, 2008"
     dateDecision: "Monday, March 9, 2009"
+    urlOyez: "https://www.oyez.org/cases/2008/07-773"
     citation: "556 U.S. 49"
     voteMajority: 5
     voteMinority: 4
@@ -2604,6 +2666,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, November 4, 2008"
     dateDecision: "Tuesday, April 28, 2009"
+    urlOyez: "https://www.oyez.org/cases/2008/07-582"
     citation: "556 U.S. 502"
     voteMajority: 5
     voteMinority: 4
@@ -2646,6 +2709,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, December 10, 2008"
     dateDecision: "Monday, May 18, 2009"
+    urlOyez: "https://www.oyez.org/cases/2008/07-543"
     citation: "556 U.S. 701"
     voteMajority: 7
     voteMinority: 2
@@ -2688,6 +2752,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, January 12, 2009"
     dateDecision: "Tuesday, April 21, 2009"
+    urlOyez: "https://www.oyez.org/cases/2008/07-615"
     citation: "556 U.S. 366"
     voteMajority: 6
     voteMinority: 3
@@ -2730,6 +2795,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, February 23, 2009"
     dateDecision: "Monday, April 6, 2009"
+    urlOyez: "https://www.oyez.org/cases/2008/07-1410"
     citation: "556 U.S. 287"
     voteMajority: 9
     voteMinority: 0
@@ -2772,6 +2838,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, March 31, 2009"
     dateDecision: "Thursday, June 18, 2009"
+    urlOyez: "https://www.oyez.org/cases/2008/08-441"
     citation: "557 U.S. 167"
     voteMajority: 5
     voteMinority: 4
@@ -2814,6 +2881,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, January 11, 2010"
     dateDecision: "Tuesday, June 1, 2010"
+    urlOyez: "https://www.oyez.org/cases/2009/132-orig"
     citation: "560 U.S. 330"
     voteMajority: 6
     voteMinority: 3
@@ -2856,6 +2924,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, October 13, 2010"
     dateDecision: "Tuesday, March 22, 2011"
+    urlOyez: "https://www.oyez.org/cases/2010/09-834"
     citation: "563 U.S. 1"
     voteMajority: 6
     voteMinority: 2
@@ -2898,6 +2967,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, November 10, 2010"
     dateDecision: "Tuesday, February 22, 2011"
+    urlOyez: "https://www.oyez.org/cases/2010/09-520"
     citation: "562 U.S. 277"
     voteMajority: 7
     voteMinority: 2
@@ -2940,6 +3010,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, November 30, 2010"
     dateDecision: "Monday, May 23, 2011"
+    urlOyez: "https://www.oyez.org/cases/2010/09-1233"
     citation: "563 U.S. 493"
     voteMajority: 5
     voteMinority: 4
@@ -2982,6 +3053,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, December 8, 2010"
     dateDecision: "Thursday, May 26, 2011"
+    urlOyez: "https://www.oyez.org/cases/2010/09-115"
     citation: "563 U.S. 582"
     voteMajority: 5
     voteMinority: 3
@@ -3024,6 +3096,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, January 18, 2011"
     dateDecision: "Monday, May 23, 2011"
+    urlOyez: "https://www.oyez.org/cases/2010/09-1298"
     citation: "563 U.S. 478"
     voteMajority: 9
     voteMinority: 0
@@ -3064,6 +3137,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, October 3, 2011"
     dateDecision: "Wednesday, February 22, 2012"
+    urlOyez: "https://www.oyez.org/cases/2011/09-958"
     citation: "No. 09-958"
     voteMajority: 5
     voteMinority: 4
@@ -3104,6 +3178,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, October 12, 2011"
     dateDecision: "Monday, April 2, 2012"
+    urlOyez: "https://www.oyez.org/cases/2011/10-945"
     citation: "No. 10-945"
     voteMajority: 5
     voteMinority: 4
@@ -3144,6 +3219,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, January 10, 2012"
     dateDecision: "Thursday, June 21, 2012"
+    urlOyez: "https://www.oyez.org/cases/2011/10-1293"
     citation: "No. 10-1293"
     voteMajority: 8
     voteMinority: 0
@@ -3184,6 +3260,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, March 19, 2012"
     dateDecision: "Thursday, June 21, 2012"
+    urlOyez: "https://www.oyez.org/cases/2011/11-94"
     citation: "No. 11-94"
     voteMajority: 6
     voteMinority: 3
@@ -3224,6 +3301,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, April 18, 2012"
     dateDecision: "Monday, June 18, 2012"
+    urlOyez: "https://www.oyez.org/cases/2011/11-551"
     citation: "No. 11-551"
     voteMajority: 5
     voteMinority: 4
@@ -3264,6 +3342,7 @@ cases:
     pdfSource: "slipopinion/13"
     dateArgument: "Wednesday, February 26, 2014"
     dateDecision: "Tuesday, April 29, 2014"
+    urlOyez: "https://www.oyez.org/cases/2013/12-1184"
     citation: "No. 12-1184"
     voteMajority: 9
     voteMinority: 0
@@ -3304,6 +3383,7 @@ cases:
     pdfSource: "slipopinion/14"
     dateArgument: "Wednesday, October 15, 2014"
     dateDecision: "Tuesday, January 20, 2015"
+    urlOyez: "https://www.oyez.org/cases/2014/13-854"
     citation: "No. 13-854"
     voteMajority: 7
     voteMinority: 2
@@ -3344,6 +3424,7 @@ cases:
     pdfSource: "slipopinion/14"
     dateArgument: "Tuesday, December 9, 2014"
     dateDecision: "Wednesday, March 4, 2015"
+    urlOyez: "https://www.oyez.org/cases/2014/13-553"
     citation: "No. 13-553"
     voteMajority: 7
     voteMinority: 2
@@ -3384,6 +3465,7 @@ cases:
     pdfSource: "slipopinion/15"
     dateArgument: "Wednesday, October 14, 2015"
     dateDecision: "Monday, January 25, 2016"
+    urlOyez: "https://www.oyez.org/cases/2015/14-840"
     citation: "No. 14-840"
     voteMajority: 6
     voteMinority: 2
@@ -3424,6 +3506,7 @@ cases:
     pdfSource: "slipopinion/15"
     dateArgument: "Tuesday, November 10, 2015"
     dateDecision: "Tuesday, March 22, 2016"
+    urlOyez: "https://www.oyez.org/cases/2015/14-1146"
     citation: "No. 14-1146"
     voteMajority: 6
     voteMinority: 2
@@ -3461,6 +3544,7 @@ cases:
     pdfSource: "slipopinion/15"
     dateArgument: "Tuesday, February 23, 2016"
     dateDecision: "Monday, June 13, 2016"
+    urlOyez: "https://www.oyez.org/cases/2015/14-1513"
     citation: "No. 14-1513"
     voteMajority: 8
     voteMinority: 0
@@ -3498,6 +3582,7 @@ cases:
     pdfSource: "slipopinion/16"
     dateArgument: "Tuesday, December 6, 2016"
     dateDecision: "Wednesday, February 22, 2017"
+    urlOyez: "https://www.oyez.org/cases/2016/14-1538"
     citation: "No. 14-1538"
     voteMajority: 7
     voteMinority: 0
@@ -3535,6 +3620,7 @@ cases:
     pdfSource: "slipopinion/17"
     dateArgument: "Tuesday, April 24, 2018"
     dateDecision: "Thursday, June 14, 2018"
+    urlOyez: "https://www.oyez.org/cases/2017/16-1220"
     citation: "No. 16-1220"
     voteMajority: 9
     voteMinority: 0
@@ -3575,6 +3661,7 @@ cases:
     pdfSource: "slipopinion/18"
     dateArgument: "Wednesday, January 16, 2019"
     dateDecision: ""
+    urlOyez: "https://www.oyez.org/cases/2018/18-96"
     citation: "No. 18-96"
     voteMajority: 0
     voteMinority: 0

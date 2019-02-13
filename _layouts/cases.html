@@ -22,15 +22,16 @@ layout: default
     {% capture pdfURL %}{% if case.pdfPageDissent %}{{ pdfPath }}.pdf#page={{ case.pdfPageDissent }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
     {% capture pdfGIF %}/images/usreports.gif{% endcapture %}
   {% endif %}
+  {% capture caseArgument %}{% if case.urlOyez %}Argued <a href="{{ case.urlOyez }}">{{ case.dateArgument }}</a><br/>{% else %}Argued {{ case.dateArgument }}<br/>{% endif %}{% endcapture %}
   <div id="{{ case.id }}" style="text-align:center">
     <h3>{{ case.title }}</h3>
     <p style="font-size:medium">{{ case.citation }}<br/>
     {% if case.authorId %}
-    <p style="font-size:medium">{% if case.dateArgument != "" %}Argued {{ case.dateArgument }}<br/>{% endif %}Decided <a href="/cases/all/{{ case.termId }}#{{ case.id }}"></a>{{ case.dateDecision }}</a><br/>Opinion by <a href="/justices/all/{{ case.authorId }}#{{ case.id }}">Justice {{ case.authorName }}</a></p>
+    <p style="font-size:medium">{{ caseArgument }}Decided <a href="/cases/all/{{ case.termId }}#{{ case.id }}"></a>{{ case.dateDecision }}</a><br/>Opinion by <a href="/justices/all/{{ case.authorId }}#{{ case.id }}">Justice {{ case.authorName }}</a></p>
     {% elsif case.dissenterId %}
-    <p style="font-size:medium">{% if case.dateArgument != "" %}Argued {{ case.dateArgument }}<br/>{% endif %}Decided <a href="/cases/loners/{{ case.termId }}#{{ case.id }}">{{ case.dateDecision }}</a><br/>Dissent by <a href="/justices/loners/{{ case.dissenterId }}#{{ case.id }}">Justice {{ case.dissenterName }}</a></p>
+    <p style="font-size:medium">{{ caseArgument }}Decided <a href="/cases/loners/{{ case.termId }}#{{ case.id }}">{{ case.dateDecision }}</a><br/>Dissent by <a href="/justices/loners/{{ case.dissenterId }}#{{ case.id }}">Justice {{ case.dissenterName }}</a></p>
     {% else %}
-    <p style="font-size:medium">{% if case.dateArgument != "" %}Argued {{ case.dateArgument }}<br/>{% endif %}{% if case.dateDecision != "" %}Decided {{ case.dateDecision }}{% endif %}</p>
+    <p style="font-size:medium">{{ caseArgument }}{% if case.dateDecision %}Decided {{ case.dateDecision }}{% endif %}</p>
     {% endif %}
     <p>
       <a href="{{ pdfURL }}">

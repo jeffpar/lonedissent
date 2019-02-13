@@ -1488,6 +1488,7 @@ function buildAdvocates(done)
                                     row.pdfSource = "slipopinion/" + (row.term % 100);
                                 }
                             }
+                            row.urlOyez = caseDetail.href.replace("api.", "www.");
                             rows.push(row);
                         }
                     });
@@ -1524,7 +1525,8 @@ function buildAdvocates(done)
                     }
                     if (i >= 0) {
                         let argument = cloneObject(decisions[i]);
-                        if (dateArgument) argument.dateArgument = dateArgument;
+                        argument.dateArgument = dateArgument;
+                        argument.urlOyez = row.urlOyez;
                         results.push(argument);
                     } else {
                         results.push(row);
@@ -1533,7 +1535,7 @@ function buildAdvocates(done)
                 });
                 sortObjects(results, ["dateArgument"]);
                 top100.push({id, nameAdvocate, total: results.length, verified});
-                fileText += generateCaseYML(results, vars, courtsSCDB, justices, ["caseNumber","dateArgument"]);
+                fileText += generateCaseYML(results, vars, courtsSCDB, justices, ["caseNumber","dateArgument","urlOyez"]);
                 fileText += '---\n\n';
                 fileText += nameAdvocate + " argued " + rowsAdvocate.length + " cases in the U.S. Supreme Court";
                 filePath = "/_pages" + pathAdvocate + ".md", fileText;
@@ -2192,6 +2194,9 @@ function generateCaseYML(decisions, vars, courts, justices, extras=[])
             ymlText += '    dateArgument: "' + (decision.dateArgument? sprintf("%#C", decision.dateArgument) : "") + '"\n';
         }
         ymlText += '    dateDecision: "' + (decision.dateDecision? (decision.dateDecision.length < 10? getTermName(decision.dateDecision) : sprintf("%#C", decision.dateDecision)) : getTermName(decision.termId || decision.term)) + '"\n';
+        if (extras.indexOf("urlOyez") >= 0) {
+            ymlText += '    urlOyez: "' + (decision.urlOyez || "") + '"\n';
+        }
         ymlText += '    citation: "' + ((volume && page)? decision.usCite : ('No. ' + decision.docket)) + '"\n';
         ymlText += '    voteMajority: ' + (decision.majVotes || 0) + '\n';
         ymlText += '    voteMinority: ' + (decision.minVotes || 0)+ '\n';
