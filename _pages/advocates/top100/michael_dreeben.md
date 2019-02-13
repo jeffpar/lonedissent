@@ -4364,3 +4364,18 @@ cases:
 ---
 
 Michael R. Dreeben argued 103 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/michael_r_dreeben).
+
+Similar to the recognition given to [Lawrence Wallace](/advocates/top100/lawrence_wallace) in 2002 and to [Edwin Kneedler](/advocates/top100/edwin_kneedler)
+in 2008, the Court recognized Michael Dreeben's 100th argument on April 27, 2016 in [McDonnell v. United States](https://www.oyez.org/cases/2015/15-474):
+
+> Mr. Dreeben, could I invite you to return to the lectern? Our records reflect that this was your one-hundredth oral argument before the Court.
+
+> You are the second person to reach that rare milestone this century. I distinctly recall your first argument in January of 1989.
+
+> Throughout your career, you have consistently advocated positions on behalf of the United States in an exemplary manner. On behalf of the Court, I extend to you our appreciation for the many years of advocacy and dedicated service during your tenure in the Solicitor General's Office and as an officer of this Court. We look forward to hearing from you many more times.
+
+Chief Justice John Roberts' recollection of Mr. Dreeben's first argument is no surprise, since then-attorney John Roberts argued in the same case:
+[United States v. Halper](https://www.oyez.org/cases/1988/87-1383).
+
+Unfortunately, just as we've seen with [Edwin Kneedler](/advocates/top100/edwin_kneedler), current data from the Oyez website (as of February 2019)
+omits at least two cases, since Mr. Dreeben's 100th argument is listed as [Appearance No. 98](#2015-075).
