@@ -3,7 +3,8 @@ title: "It's Lonely At The Top"
 permalink: /blog/2019/02/12/
 ---
 
-Recently, I took renewed interest in an old topic: lawyers who have argued the most cases at the U.S. Supreme Court.
+Recently, I took renewed interest in an old topic: lawyers who have argued the most cases at the U.S. Supreme Court, aka
+[Top Advocates](/advocates/top100).
 
 I first became interested in this after listening to a Supreme Court oral argument back in 2006 on the [Oyez](https://www.oyez.org) website.
 The oral argument was from 2002, in case called [Moseley v. V Secret Catalogue, Inc.](https://www.oyez.org/cases/2002/01-1015), and the
@@ -29,7 +30,7 @@ In any event, as of late 2006, I did eventually track down all of Mr. Wallace's 
 him and talk about his lengthy career in the Office of the Solicitor General.  That interview occurred on December 4, 2006 -- the
 same day Jerry and I were also at the Court to watch arguments in [Parents Involved in Community Schools v. Seattle School Dist. No. 1](https://www.oyez.org/cases/2006/05-908).  It was a busy day.
 
-I'm still lamenting the state of Supreme Court advocate data on the web, but until I have more time to really dig into it, here's a short
-list of some of the U.S. Supreme Court's [top advocates](/advocates/top100).
+I'm still lamenting the state of Supreme Court advocate data on the web, but until I have more time to really dig into it, here's my initial
+list of some of the U.S. Supreme Court's [Top Advocates](/advocates/top100).
 
 *Jeff Parsons*

@@ -9,6 +9,7 @@ cases:
     volume: "391"
     page: "224"
     pdfSource: "loc"
+    dateArgument: "Monday, March 25, 1968"
     dateDecision: "Monday, May 20, 1968"
     citation: "391 U.S. 224"
     voteMajority: 6
@@ -43,12 +44,51 @@ cases:
       - id: tmarshall
         name: "Thurgood Marshall"
         majority: true
+  - id: "1968-131"
+    termId: "1968-10"
+    title: "Lear, Inc. v. Adkins"
+    volume: "395"
+    page: "653"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, November 20, 1968"
+    dateDecision: "Monday, June 16, 1969"
+    citation: "395 U.S. 653"
+    voteMajority: 5
+    voteMinority: 3
+    authorId: jharlan2
+    authorName: "John M. Harlan II"
+    votes:
+      - id: ewarren
+        name: "Earl Warren"
+        majority: false
+      - id: hlblack
+        name: "Hugo Black"
+        majority: false
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: jharlan2
+        name: "John M. Harlan II"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
   - id: "1968-089"
     termId: "1968-10"
     title: "United States v. Article of Drug . . . Bacto-Unidisk"
     volume: "394"
     page: "784"
     pdfSource: "loc"
+    dateArgument: "Thursday, January 23, 1969"
     dateDecision: "Monday, April 28, 1969"
     citation: "394 U.S. 784"
     voteMajority: 8
@@ -89,6 +129,7 @@ cases:
     volume: "395"
     page: "575"
     pdfSource: "loc"
+    dateArgument: "Wednesday, March 26, 1969"
     dateDecision: "Monday, June 16, 1969"
     citation: "395 U.S. 575"
     voteMajority: 8
@@ -120,49 +161,13 @@ cases:
       - id: tmarshall
         name: "Thurgood Marshall"
         majority: true
-  - id: "1968-131"
-    termId: "1968-10"
-    title: "Lear, Inc. v. Adkins"
-    volume: "395"
-    page: "653"
-    pdfSource: "loc"
-    dateDecision: "Monday, June 16, 1969"
-    citation: "395 U.S. 653"
-    voteMajority: 5
-    voteMinority: 3
-    authorId: jharlan2
-    authorName: "John M. Harlan II"
-    votes:
-      - id: ewarren
-        name: "Earl Warren"
-        majority: false
-      - id: hlblack
-        name: "Hugo Black"
-        majority: false
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: jharlan2
-        name: "John M. Harlan II"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
   - id: "1969-031"
     termId: "1969-10"
     title: "Turner v. United States"
     volume: "396"
     page: "398"
     pdfSource: "loc"
+    dateArgument: "Wednesday, October 15, 1969"
     dateDecision: "Tuesday, January 20, 1970"
     citation: "396 U.S. 398"
     voteMajority: 6
@@ -200,6 +205,7 @@ cases:
     volume: "397"
     page: "001"
     pdfSource: "loc"
+    dateArgument: "Thursday, November 20, 1969"
     dateDecision: "Tuesday, February 24, 1970"
     citation: "397 U.S. 1"
     voteMajority: 7
@@ -237,6 +243,7 @@ cases:
     volume: "397"
     page: "322"
     pdfSource: "loc"
+    dateArgument: "Wednesday, January 21, 1970"
     dateDecision: "Monday, March 30, 1970"
     citation: "397 U.S. 322"
     voteMajority: 8
@@ -274,6 +281,7 @@ cases:
     volume: "397"
     page: "586"
     pdfSource: "loc"
+    dateArgument: "Monday, March 2, 1970"
     dateDecision: "Monday, April 20, 1970"
     citation: "397 U.S. 586"
     voteMajority: 4
@@ -309,6 +317,7 @@ cases:
     volume: "400"
     page: "517"
     pdfSource: "loc"
+    dateArgument: "Thursday, November 19, 1970"
     dateDecision: "Monday, January 25, 1971"
     citation: "400 U.S. 517"
     voteMajority: 9
@@ -349,6 +358,7 @@ cases:
     volume: "400"
     page: "542"
     pdfSource: "loc"
+    dateArgument: "Wednesday, December 9, 1970"
     dateDecision: "Monday, January 25, 1971"
     citation: "400 U.S. 542"
     voteMajority: 9
@@ -381,90 +391,13 @@ cases:
       - id: hablackmun
         name: "Harry Blackmun"
         majority: true
-  - id: "1970-093"
-    termId: "1970-10"
-    title: "United States v. Southern Ute Tribe"
-    volume: "402"
-    page: "159"
-    pdfSource: "loc"
-    dateDecision: "Monday, April 26, 1971"
-    citation: "402 U.S. 159"
-    voteMajority: 8
-    voteMinority: 1
-    authorId: wjbrennan
-    authorName: "William Brennan"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: hlblack
-        name: "Hugo Black"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: jharlan2
-        name: "John M. Harlan II"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-  - id: "1970-117"
-    termId: "1970-10"
-    title: "Dewey v. Reynolds Metals Co."
-    volume: "402"
-    page: "689"
-    pdfSource: "loc"
-    dateDecision: "Tuesday, June 1, 1971"
-    citation: "402 U.S. 689"
-    voteMajority: 4
-    voteMinority: 4
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: false
-      - id: hlblack
-        name: "Hugo Black"
-        majority: false
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: jharlan2
-        name: "John M. Harlan II"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: false
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: false
-      - id: brwhite
-        name: "Byron White"
-        majority: false
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: false
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: false
   - id: "1970-123"
     termId: "1970-10"
     title: "Griffin v. Breckenridge"
     volume: "403"
     page: "088"
     pdfSource: "loc"
+    dateArgument: "Wednesday, January 13, 1971"
     dateDecision: "Monday, June 7, 1971"
     citation: "403 U.S. 88"
     voteMajority: 9
@@ -499,12 +432,54 @@ cases:
       - id: hablackmun
         name: "Harry Blackmun"
         majority: true
+  - id: "1970-093"
+    termId: "1970-10"
+    title: "United States v. Southern Ute Tribe"
+    volume: "402"
+    page: "159"
+    pdfSource: "loc"
+    dateArgument: "Monday, March 1, 1971"
+    dateDecision: "Monday, April 26, 1971"
+    citation: "402 U.S. 159"
+    voteMajority: 8
+    voteMinority: 1
+    authorId: wjbrennan
+    authorName: "William Brennan"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: hlblack
+        name: "Hugo Black"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: jharlan2
+        name: "John M. Harlan II"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
   - id: "1970-132"
     termId: "1970-10"
     title: "Hodgson v. Steelworkers"
     volume: "403"
     page: "333"
     pdfSource: "loc"
+    dateArgument: "Tuesday, March 23, 1971"
     dateDecision: "Monday, June 14, 1971"
     citation: "403 U.S. 333"
     voteMajority: 7
@@ -539,12 +514,52 @@ cases:
       - id: hablackmun
         name: "Harry Blackmun"
         majority: true
+  - id: "1970-117"
+    termId: "1970-10"
+    title: "Dewey v. Reynolds Metals Co."
+    volume: "402"
+    page: "689"
+    pdfSource: "loc"
+    dateArgument: "Tuesday, April 20, 1971"
+    dateDecision: "Tuesday, June 1, 1971"
+    citation: "402 U.S. 689"
+    voteMajority: 4
+    voteMinority: 4
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: false
+      - id: hlblack
+        name: "Hugo Black"
+        majority: false
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: jharlan2
+        name: "John M. Harlan II"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: false
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: false
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: false
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: false
   - id: "1971-018"
     termId: "1971-10"
     title: "NLRB v. Nash-Finch Co."
     volume: "404"
     page: "138"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 19, 1971"
     dateDecision: "Monday, December 6, 1971"
     citation: "404 U.S. 138"
     voteMajority: 5
@@ -579,6 +594,7 @@ cases:
     volume: "404"
     page: "522"
     pdfSource: "loc"
+    dateArgument: "Tuesday, November 16, 1971"
     dateDecision: "Monday, January 17, 1972"
     citation: "404 U.S. 522"
     voteMajority: 7
@@ -613,52 +629,13 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: false
-  - id: "1971-125"
-    termId: "1971-10"
-    title: "United States v. Midwest Video Corp."
-    volume: "406"
-    page: "649"
-    pdfSource: "loc"
-    dateDecision: "Wednesday, June 7, 1972"
-    citation: "406 U.S. 649"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: wjbrennan
-    authorName: "William Brennan"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: false
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: false
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: false
   - id: "1971-152"
     termId: "1971-10"
     title: "Pipefitters v. United States"
     volume: "407"
     page: "385"
     pdfSource: "loc"
+    dateArgument: "Tuesday, January 11, 1972"
     dateDecision: "Thursday, June 22, 1972"
     citation: "407 U.S. 385"
     voteMajority: 6
@@ -699,6 +676,7 @@ cases:
     volume: "407"
     page: "484"
     pdfSource: "loc"
+    dateArgument: "Tuesday, February 29, 1972"
     dateDecision: "Thursday, June 22, 1972"
     citation: "407 U.S. 484"
     voteMajority: 9
@@ -733,12 +711,54 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: true
+  - id: "1971-125"
+    termId: "1971-10"
+    title: "United States v. Midwest Video Corp."
+    volume: "406"
+    page: "649"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, April 19, 1972"
+    dateDecision: "Wednesday, June 7, 1972"
+    citation: "406 U.S. 649"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: wjbrennan
+    authorName: "William Brennan"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: false
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: false
   - id: "1972-019"
     termId: "1972-10"
     title: "Trafficante v. Metropolitan Life Ins. Co."
     volume: "409"
     page: "205"
     pdfSource: "loc"
+    dateArgument: "Tuesday, November 7, 1972"
     dateDecision: "Thursday, December 7, 1972"
     citation: "409 U.S. 205"
     voteMajority: 9
@@ -779,6 +799,7 @@ cases:
     volume: "409"
     page: "322"
     pdfSource: "loc"
+    dateArgument: "Tuesday, November 14, 1972"
     dateDecision: "Tuesday, January 9, 1973"
     citation: "409 U.S. 322"
     voteMajority: 7
@@ -819,6 +840,7 @@ cases:
     volume: "410"
     page: "366"
     pdfSource: "loc"
+    dateArgument: "Tuesday, December 5, 1972"
     dateDecision: "Thursday, February 22, 1973"
     citation: "410 U.S. 366"
     voteMajority: 4
@@ -859,6 +881,7 @@ cases:
     volume: "411"
     page: "279"
     pdfSource: "loc"
+    dateArgument: "Monday, January 15, 1973"
     dateDecision: "Wednesday, April 18, 1973"
     citation: "411 U.S. 279"
     voteMajority: 8
@@ -899,6 +922,7 @@ cases:
     volume: "411"
     page: "526"
     pdfSource: "loc"
+    dateArgument: "Wednesday, February 21, 1973"
     dateDecision: "Monday, May 7, 1973"
     citation: "411 U.S. 526"
     voteMajority: 6
@@ -939,6 +963,7 @@ cases:
     volume: "412"
     page: "541"
     pdfSource: "loc"
+    dateArgument: "Wednesday, April 18, 1973"
     dateDecision: "Monday, June 11, 1973"
     citation: "412 U.S. 541"
     voteMajority: 4
@@ -977,6 +1002,7 @@ cases:
     volume: "415"
     page: "036"
     pdfSource: "loc"
+    dateArgument: "Monday, November 5, 1973"
     dateDecision: "Tuesday, February 19, 1974"
     citation: "415 U.S. 36"
     voteMajority: 9
@@ -1017,6 +1043,7 @@ cases:
     volume: "415"
     page: "164"
     pdfSource: "loc"
+    dateArgument: "Monday, December 10, 1973"
     dateDecision: "Wednesday, February 20, 1974"
     citation: "415 U.S. 164"
     voteMajority: 6
@@ -1057,6 +1084,7 @@ cases:
     volume: "416"
     page: "021"
     pdfSource: "loc"
+    dateArgument: "Wednesday, January 16, 1974"
     dateDecision: "Monday, April 1, 1974"
     citation: "416 U.S. 21"
     voteMajority: 6
@@ -1097,6 +1125,7 @@ cases:
     volume: "417"
     page: "085"
     pdfSource: "loc"
+    dateArgument: "Monday, February 25, 1974"
     dateDecision: "Tuesday, May 28, 1974"
     citation: "417 U.S. 85"
     voteMajority: 8
@@ -1137,6 +1166,7 @@ cases:
     volume: "417"
     page: "211"
     pdfSource: "loc"
+    dateArgument: "Tuesday, March 19, 1974"
     dateDecision: "Monday, June 3, 1974"
     citation: "417 U.S. 211"
     voteMajority: 7
@@ -1177,6 +1207,7 @@ cases:
     volume: "420"
     page: "050"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 22, 1974"
     dateDecision: "Tuesday, February 18, 1975"
     citation: "420 U.S. 50"
     voteMajority: 8
@@ -1217,6 +1248,7 @@ cases:
     volume: "420"
     page: "371"
     pdfSource: "loc"
+    dateArgument: "Wednesday, November 20, 1974"
     dateDecision: "Tuesday, February 25, 1975"
     citation: "420 U.S. 371"
     voteMajority: 7
@@ -1255,6 +1287,7 @@ cases:
     volume: "420"
     page: "395"
     pdfSource: "loc"
+    dateArgument: "Monday, January 13, 1975"
     dateDecision: "Monday, March 3, 1975"
     citation: "420 U.S. 395"
     voteMajority: 8
@@ -1289,12 +1322,95 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: true
+  - id: "1975-066"
+    termId: "1975-10"
+    title: "Beer v. United States"
+    volume: "425"
+    page: "130"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, March 26, 1975"
+    dateDecision: "Tuesday, March 30, 1976"
+    citation: "425 U.S. 130"
+    voteMajority: 5
+    voteMinority: 3
+    authorId: pstewart
+    authorName: "Potter Stewart"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: false
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: false
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: false
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
+  - id: "1975-066"
+    termId: "1975-10"
+    title: "Beer v. United States"
+    volume: "425"
+    page: "130"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, March 26, 1975"
+    dateDecision: "Tuesday, March 30, 1976"
+    citation: "425 U.S. 130"
+    voteMajority: 5
+    voteMinority: 3
+    authorId: pstewart
+    authorName: "Potter Stewart"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: false
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: false
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: false
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
   - id: "1974-135"
     termId: "1974-10"
     title: "Richmond v. United States"
     volume: "422"
     page: "358"
     pdfSource: "loc"
+    dateArgument: "Wednesday, April 23, 1975"
     dateDecision: "Tuesday, June 24, 1975"
     citation: "422 U.S. 358"
     voteMajority: 5
@@ -1329,92 +1445,13 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: true
-  - id: "1975-066"
-    termId: "1975-10"
-    title: "Beer v. United States"
-    volume: "425"
-    page: "130"
-    pdfSource: "loc"
-    dateDecision: "Tuesday, March 30, 1976"
-    citation: "425 U.S. 130"
-    voteMajority: 5
-    voteMinority: 3
-    authorId: pstewart
-    authorName: "Potter Stewart"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: false
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: false
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: false
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-  - id: "1975-066"
-    termId: "1975-10"
-    title: "Beer v. United States"
-    volume: "425"
-    page: "130"
-    pdfSource: "loc"
-    dateDecision: "Tuesday, March 30, 1976"
-    citation: "425 U.S. 130"
-    voteMajority: 5
-    voteMinority: 3
-    authorId: pstewart
-    authorName: "Potter Stewart"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: false
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: false
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: false
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
   - id: "1975-080"
     termId: "1975-10"
     title: "Fisher v. United States"
     volume: "425"
     page: "391"
     pdfSource: "loc"
+    dateArgument: "Monday, November 3, 1975"
     dateDecision: "Wednesday, April 21, 1976"
     citation: "425 U.S. 391"
     voteMajority: 8
@@ -1449,12 +1486,54 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: false
+  - id: "1975-169"
+    termId: "1975-10"
+    title: "Usery v. Turner Elkhorn Mining Co."
+    volume: "428"
+    page: "001"
+    pdfSource: "loc"
+    dateArgument: "Tuesday, December 2, 1975"
+    dateDecision: "Thursday, July 1, 1976"
+    citation: "428 U.S. 1"
+    voteMajority: 6
+    voteMinority: 2
+    authorId: tmarshall
+    authorName: "Thurgood Marshall"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: false
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
   - id: "1975-081"
     termId: "1975-10"
     title: "United States v. Miller"
     volume: "425"
     page: "435"
     pdfSource: "loc"
+    dateArgument: "Monday, January 12, 1976"
     dateDecision: "Wednesday, April 21, 1976"
     citation: "425 U.S. 435"
     voteMajority: 7
@@ -1495,6 +1574,7 @@ cases:
     volume: "425"
     page: "820"
     pdfSource: "loc"
+    dateArgument: "Monday, March 1, 1976"
     dateDecision: "Tuesday, June 1, 1976"
     citation: "425 U.S. 820"
     voteMajority: 6
@@ -1535,6 +1615,7 @@ cases:
     volume: "427"
     page: "445"
     pdfSource: "loc"
+    dateArgument: "Tuesday, April 20, 1976"
     dateDecision: "Monday, June 28, 1976"
     citation: "427 U.S. 445"
     voteMajority: 9
@@ -1569,52 +1650,13 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: true
-  - id: "1975-169"
-    termId: "1975-10"
-    title: "Usery v. Turner Elkhorn Mining Co."
-    volume: "428"
-    page: "001"
-    pdfSource: "loc"
-    dateDecision: "Thursday, July 1, 1976"
-    citation: "428 U.S. 1"
-    voteMajority: 6
-    voteMinority: 2
-    authorId: tmarshall
-    authorName: "Thurgood Marshall"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: false
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: false
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
   - id: "1976-012"
     termId: "1976-10"
     title: "Parker Seal Co. v. Cummins"
     volume: "429"
     page: "065"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 12, 1976"
     dateDecision: "Tuesday, November 2, 1976"
     citation: "429 U.S. 65"
     voteMajority: 4
@@ -1653,6 +1695,7 @@ cases:
     volume: "431"
     page: "324"
     pdfSource: "loc"
+    dateArgument: "Monday, January 10, 1977"
     dateDecision: "Tuesday, May 31, 1977"
     citation: "431 U.S. 324"
     voteMajority: 7
@@ -1693,6 +1736,7 @@ cases:
     volume: "431"
     page: "407"
     pdfSource: "loc"
+    dateArgument: "Monday, February 28, 1977"
     dateDecision: "Tuesday, May 31, 1977"
     citation: "431 U.S. 407"
     voteMajority: 7
@@ -1733,6 +1777,7 @@ cases:
     volume: "433"
     page: "299"
     pdfSource: "loc"
+    dateArgument: "Wednesday, April 27, 1977"
     dateDecision: "Monday, June 27, 1977"
     citation: "433 U.S. 299"
     voteMajority: 8
@@ -1773,6 +1818,7 @@ cases:
     volume: "434"
     page: "159"
     pdfSource: "loc"
+    dateArgument: "Monday, October 3, 1977"
     dateDecision: "Wednesday, December 7, 1977"
     citation: "434 U.S. 159"
     voteMajority: 5
@@ -1813,6 +1859,7 @@ cases:
     volume: "435"
     page: "519"
     pdfSource: "loc"
+    dateArgument: "Monday, November 28, 1977"
     dateDecision: "Monday, April 3, 1978"
     citation: "435 U.S. 519"
     voteMajority: 7
@@ -1853,6 +1900,7 @@ cases:
     volume: "436"
     page: "775"
     pdfSource: "loc"
+    dateArgument: "Monday, January 16, 1978"
     dateDecision: "Monday, June 12, 1978"
     citation: "436 U.S. 775"
     voteMajority: 8
@@ -1893,6 +1941,7 @@ cases:
     volume: "437"
     page: "298"
     pdfSource: "loc"
+    dateArgument: "Wednesday, March 29, 1978"
     dateDecision: "Monday, June 19, 1978"
     citation: "437 U.S. 298"
     voteMajority: 5
@@ -1933,6 +1982,7 @@ cases:
     volume: "437"
     page: "584"
     pdfSource: "loc"
+    dateArgument: "Tuesday, April 25, 1978"
     dateDecision: "Thursday, June 22, 1978"
     citation: "437 U.S. 584"
     voteMajority: 6
@@ -1973,6 +2023,7 @@ cases:
     volume: "439"
     page: "032"
     pdfSource: "loc"
+    dateArgument: "Monday, October 2, 1978"
     dateDecision: "Tuesday, November 28, 1978"
     citation: "439 U.S. 32"
     voteMajority: 5
@@ -2007,52 +2058,13 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: true
-  - id: "1978-067"
-    termId: "1978-10"
-    title: "FCC v. Midwest Video Corp."
-    volume: "440"
-    page: "689"
-    pdfSource: "loc"
-    dateDecision: "Monday, April 2, 1979"
-    citation: "440 U.S. 689"
-    voteMajority: 6
-    voteMinority: 3
-    authorId: brwhite
-    authorName: "Byron White"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: false
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: false
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
   - id: "1978-073"
     termId: "1978-10"
     title: "Gladstone, Realtors v. Village of Bellwood"
     volume: "441"
     page: "091"
     pdfSource: "loc"
+    dateArgument: "Wednesday, November 29, 1978"
     dateDecision: "Tuesday, April 17, 1979"
     citation: "441 U.S. 91"
     voteMajority: 7
@@ -2087,18 +2099,19 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: true
-  - id: "1978-118"
+  - id: "1978-067"
     termId: "1978-10"
-    title: "Great American Fed. Sav. &amp; Loan Assn. v. Novotny"
-    volume: "442"
-    page: "366"
+    title: "FCC v. Midwest Video Corp."
+    volume: "440"
+    page: "689"
     pdfSource: "loc"
-    dateDecision: "Monday, June 11, 1979"
-    citation: "442 U.S. 366"
+    dateArgument: "Wednesday, January 10, 1979"
+    dateDecision: "Monday, April 2, 1979"
+    citation: "440 U.S. 689"
     voteMajority: 6
     voteMinority: 3
-    authorId: pstewart
-    authorName: "Potter Stewart"
+    authorId: brwhite
+    authorName: "Byron White"
     votes:
       - id: weburger
         name: "Warren Burger"
@@ -2111,7 +2124,7 @@ cases:
         majority: true
       - id: brwhite
         name: "Byron White"
-        majority: false
+        majority: true
       - id: tmarshall
         name: "Thurgood Marshall"
         majority: false
@@ -2126,13 +2139,14 @@ cases:
         majority: true
       - id: jpstevens
         name: "John Paul Stevens"
-        majority: true
+        majority: false
   - id: "1978-147"
     termId: "1978-10"
     title: "Steelworkers v. Weber"
     volume: "443"
     page: "193"
     pdfSource: "loc"
+    dateArgument: "Wednesday, March 28, 1979"
     dateDecision: "Wednesday, June 27, 1979"
     citation: "443 U.S. 193"
     voteMajority: 5
@@ -2167,12 +2181,95 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: false
+  - id: "1978-118"
+    termId: "1978-10"
+    title: "Great American Fed. Sav. &amp; Loan Assn. v. Novotny"
+    volume: "442"
+    page: "366"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, April 18, 1979"
+    dateDecision: "Monday, June 11, 1979"
+    citation: "442 U.S. 366"
+    voteMajority: 6
+    voteMinority: 3
+    authorId: pstewart
+    authorName: "Potter Stewart"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: false
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: false
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: false
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+  - id: "1979-075"
+    termId: "1979-10"
+    title: "City of Rome v. United States"
+    volume: "446"
+    page: "156"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, October 10, 1979"
+    dateDecision: "Tuesday, April 22, 1980"
+    citation: "446 U.S. 156"
+    voteMajority: 6
+    voteMinority: 3
+    authorId: tmarshall
+    authorName: "Thurgood Marshall"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: false
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: false
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
   - id: "1979-028"
     termId: "1979-10"
     title: "Estes v. Metropolitan Branches of Dallas NAACP"
     volume: "444"
     page: "437"
     pdfSource: "loc"
+    dateArgument: "Monday, October 29, 1979"
     dateDecision: "Monday, January 21, 1980"
     citation: "444 U.S. 437"
     voteMajority: 5
@@ -2211,6 +2308,7 @@ cases:
     volume: "444"
     page: "598"
     pdfSource: "loc"
+    dateArgument: "Tuesday, November 27, 1979"
     dateDecision: "Wednesday, February 20, 1980"
     citation: "444 U.S. 598"
     voteMajority: 4
@@ -2245,92 +2343,13 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: false
-  - id: "1979-075"
-    termId: "1979-10"
-    title: "City of Rome v. United States"
-    volume: "446"
-    page: "156"
-    pdfSource: "loc"
-    dateDecision: "Tuesday, April 22, 1980"
-    citation: "446 U.S. 156"
-    voteMajority: 6
-    voteMinority: 3
-    authorId: tmarshall
-    authorName: "Thurgood Marshall"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: false
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: false
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: false
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-  - id: "1979-082"
-    termId: "1979-10"
-    title: "General Telephone Co. of Northwest v. EEOC"
-    volume: "446"
-    page: "318"
-    pdfSource: "loc"
-    dateDecision: "Monday, May 12, 1980"
-    citation: "446 U.S. 318"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: brwhite
-    authorName: "Byron White"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: false
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: false
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
   - id: "1979-098"
     termId: "1979-10"
     title: "Andrus v. Shell Oil Co."
     volume: "446"
     page: "657"
     pdfSource: "loc"
+    dateArgument: "Tuesday, January 15, 1980"
     dateDecision: "Monday, June 2, 1980"
     citation: "446 U.S. 657"
     voteMajority: 6
@@ -2371,6 +2390,7 @@ cases:
     volume: "447"
     page: "303"
     pdfSource: "loc"
+    dateArgument: "Monday, March 17, 1980"
     dateDecision: "Monday, June 16, 1980"
     citation: "447 U.S. 303"
     voteMajority: 5
@@ -2405,12 +2425,54 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: true
+  - id: "1979-082"
+    termId: "1979-10"
+    title: "General Telephone Co. of Northwest v. EEOC"
+    volume: "446"
+    page: "318"
+    pdfSource: "loc"
+    dateArgument: "Tuesday, March 25, 1980"
+    dateDecision: "Monday, May 12, 1980"
+    citation: "446 U.S. 318"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: brwhite
+    authorName: "Byron White"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: false
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: false
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
   - id: "1979-125"
     termId: "1979-10"
     title: "NLRB v. Longshoremen"
     volume: "447"
     page: "490"
     pdfSource: "loc"
+    dateArgument: "Tuesday, April 22, 1980"
     dateDecision: "Friday, June 20, 1980"
     citation: "447 U.S. 490"
     voteMajority: 5
@@ -2445,52 +2507,13 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: false
-  - id: "1980-024"
-    termId: "1980-10"
-    title: "Upjohn Co. v. United States"
-    volume: "449"
-    page: "383"
-    pdfSource: "loc"
-    dateDecision: "Tuesday, January 13, 1981"
-    citation: "449 U.S. 383"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: whrehnquist
-    authorName: "William Rehnquist"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
   - id: "1980-047"
     termId: "1980-10"
     title: "Diamond v. Diehr"
     volume: "450"
     page: "175"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 14, 1980"
     dateDecision: "Tuesday, March 3, 1981"
     citation: "450 U.S. 175"
     voteMajority: 5
@@ -2531,6 +2554,7 @@ cases:
     volume: "450"
     page: "381"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 14, 1980"
     dateDecision: "Monday, March 9, 1981"
     citation: "450 U.S. 381"
     voteMajority: 4
@@ -2563,12 +2587,54 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: false
+  - id: "1980-024"
+    termId: "1980-10"
+    title: "Upjohn Co. v. United States"
+    volume: "449"
+    page: "383"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, November 5, 1980"
+    dateDecision: "Tuesday, January 13, 1981"
+    citation: "449 U.S. 383"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: whrehnquist
+    authorName: "William Rehnquist"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
   - id: "1980-071"
     termId: "1980-10"
     title: "Northwest Airlines, Inc. v. Transport Workers"
     volume: "451"
     page: "077"
     pdfSource: "loc"
+    dateArgument: "Tuesday, December 2, 1980"
     dateDecision: "Monday, April 20, 1981"
     citation: "451 U.S. 77"
     voteMajority: 8
@@ -2603,52 +2669,13 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: true
-  - id: "1980-104"
-    termId: "1980-10"
-    title: "Gulf Oil Co. v. Bernard"
-    volume: "452"
-    page: "089"
-    pdfSource: "loc"
-    dateDecision: "Monday, June 1, 1981"
-    citation: "452 U.S. 89"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: lfpowell
-    authorName: "Lewis Powell"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
   - id: "1980-106"
     termId: "1980-10"
     title: "McDaniel v. Sanchez"
     volume: "452"
     page: "130"
     pdfSource: "loc"
+    dateArgument: "Monday, March 2, 1981"
     dateDecision: "Monday, June 1, 1981"
     citation: "452 U.S. 130"
     voteMajority: 7
@@ -2683,12 +2710,54 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: true
+  - id: "1980-104"
+    termId: "1980-10"
+    title: "Gulf Oil Co. v. Bernard"
+    volume: "452"
+    page: "089"
+    pdfSource: "loc"
+    dateArgument: "Monday, March 30, 1981"
+    dateDecision: "Monday, June 1, 1981"
+    citation: "452 U.S. 89"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: lfpowell
+    authorName: "Lewis Powell"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
   - id: "1981-011"
     termId: "1981-10"
     title: "NLRB v. Hendricks County Rural Elec. Membership Corp."
     volume: "454"
     page: "170"
     pdfSource: "loc"
+    dateArgument: "Monday, October 5, 1981"
     dateDecision: "Wednesday, December 2, 1981"
     citation: "454 U.S. 170"
     voteMajority: 5
@@ -2729,6 +2798,7 @@ cases:
     volume: "455"
     page: "252"
     pdfSource: "loc"
+    dateArgument: "Monday, November 2, 1981"
     dateDecision: "Tuesday, February 23, 1982"
     citation: "455 U.S. 252"
     voteMajority: 9
@@ -2763,52 +2833,13 @@ cases:
       - id: sdoconnor
         name: "Sandra Day O'Connor"
         majority: true
-  - id: "1981-080"
-    termId: "1981-10"
-    title: "Longshoremen v. Allied Int&apos;l, Inc."
-    volume: "456"
-    page: "212"
-    pdfSource: "loc"
-    dateDecision: "Tuesday, April 20, 1982"
-    citation: "456 U.S. 212"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: lfpowell
-    authorName: "Lewis Powell"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
   - id: "1981-090"
     termId: "1981-10"
     title: "Kremer v. Chemical Constr. Corp."
     volume: "456"
     page: "461"
     pdfSource: "loc"
+    dateArgument: "Monday, December 7, 1981"
     dateDecision: "Monday, May 17, 1982"
     citation: "456 U.S. 461"
     voteMajority: 5
@@ -2843,12 +2874,54 @@ cases:
       - id: sdoconnor
         name: "Sandra Day O'Connor"
         majority: true
+  - id: "1981-080"
+    termId: "1981-10"
+    title: "Longshoremen v. Allied Int&apos;l, Inc."
+    volume: "456"
+    page: "212"
+    pdfSource: "loc"
+    dateArgument: "Monday, January 18, 1982"
+    dateDecision: "Tuesday, April 20, 1982"
+    citation: "456 U.S. 212"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: lfpowell
+    authorName: "Lewis Powell"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
   - id: "1981-118"
     termId: "1981-10"
     title: "Sumitomo Shoji America, Inc. v. Avagliano"
     volume: "457"
     page: "176"
     pdfSource: "loc"
+    dateArgument: "Monday, April 26, 1982"
     dateDecision: "Tuesday, June 15, 1982"
     citation: "457 U.S. 176"
     voteMajority: 9
@@ -2889,6 +2962,7 @@ cases:
     volume: "460"
     page: "711"
     pdfSource: "loc"
+    dateArgument: "Tuesday, November 9, 1982"
     dateDecision: "Monday, April 4, 1983"
     citation: "460 U.S. 711"
     voteMajority: 9
@@ -2929,6 +3003,7 @@ cases:
     volume: "460"
     page: "752"
     pdfSource: "loc"
+    dateArgument: "Tuesday, January 18, 1983"
     dateDecision: "Tuesday, April 19, 1983"
     citation: "460 U.S. 752"
     voteMajority: 8
@@ -2963,92 +3038,13 @@ cases:
       - id: sdoconnor
         name: "Sandra Day O'Connor"
         majority: true
-  - id: "1982-097"
-    termId: "1982-10"
-    title: "United States v. Ptasynski"
-    volume: "462"
-    page: "074"
-    pdfSource: "loc"
-    dateDecision: "Monday, June 6, 1983"
-    citation: "462 U.S. 74"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: lfpowell
-    authorName: "Lewis Powell"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-  - id: "1982-110"
-    termId: "1982-10"
-    title: "NLRB v. Transportation Management Corp."
-    volume: "462"
-    page: "393"
-    pdfSource: "loc"
-    dateDecision: "Monday, June 13, 1983"
-    citation: "462 U.S. 393"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: brwhite
-    authorName: "Byron White"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
   - id: "1982-148"
     termId: "1982-10"
     title: "United States v. Baggot"
     volume: "463"
     page: "476"
     pdfSource: "loc"
+    dateArgument: "Wednesday, March 2, 1983"
     dateDecision: "Thursday, June 30, 1983"
     citation: "463 U.S. 476"
     voteMajority: 8
@@ -3083,18 +3079,19 @@ cases:
       - id: sdoconnor
         name: "Sandra Day O'Connor"
         majority: true
-  - id: "1983-037"
-    termId: "1983-10"
-    title: "Dickman v. Commissioner"
-    volume: "465"
-    page: "330"
+  - id: "1982-110"
+    termId: "1982-10"
+    title: "NLRB v. Transportation Management Corp."
+    volume: "462"
+    page: "393"
     pdfSource: "loc"
-    dateDecision: "Tuesday, February 21, 1984"
-    citation: "465 U.S. 330"
-    voteMajority: 7
-    voteMinority: 2
-    authorId: weburger
-    authorName: "Warren Burger"
+    dateArgument: "Monday, March 28, 1983"
+    dateDecision: "Monday, June 13, 1983"
+    citation: "462 U.S. 393"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: brwhite
+    authorName: "Byron White"
     votes:
       - id: weburger
         name: "Warren Burger"
@@ -3113,10 +3110,51 @@ cases:
         majority: true
       - id: lfpowell
         name: "Lewis Powell"
-        majority: false
+        majority: true
       - id: whrehnquist
         name: "William Rehnquist"
-        majority: false
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+  - id: "1982-097"
+    termId: "1982-10"
+    title: "United States v. Ptasynski"
+    volume: "462"
+    page: "074"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, April 27, 1983"
+    dateDecision: "Monday, June 6, 1983"
+    citation: "462 U.S. 74"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: lfpowell
+    authorName: "Lewis Powell"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
       - id: jpstevens
         name: "John Paul Stevens"
         majority: true
@@ -3129,6 +3167,7 @@ cases:
     volume: "465"
     page: "513"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 11, 1983"
     dateDecision: "Wednesday, February 22, 1984"
     citation: "465 U.S. 513"
     voteMajority: 5
@@ -3163,18 +3202,19 @@ cases:
       - id: sdoconnor
         name: "Sandra Day O'Connor"
         majority: true
-  - id: "1983-088"
+  - id: "1983-037"
     termId: "1983-10"
-    title: "Hoover v. Ronwin"
-    volume: "466"
-    page: "558"
+    title: "Dickman v. Commissioner"
+    volume: "465"
+    page: "330"
     pdfSource: "loc"
-    dateDecision: "Monday, May 14, 1984"
-    citation: "466 U.S. 558"
-    voteMajority: 4
-    voteMinority: 3
-    authorId: lfpowell
-    authorName: "Lewis Powell"
+    dateArgument: "Tuesday, November 1, 1983"
+    dateDecision: "Tuesday, February 21, 1984"
+    citation: "465 U.S. 330"
+    voteMajority: 7
+    voteMinority: 2
+    authorId: weburger
+    authorName: "Warren Burger"
     votes:
       - id: weburger
         name: "Warren Burger"
@@ -3184,31 +3224,32 @@ cases:
         majority: true
       - id: brwhite
         name: "Byron White"
-        majority: false
+        majority: true
       - id: tmarshall
         name: "Thurgood Marshall"
         majority: true
       - id: hablackmun
         name: "Harry Blackmun"
-        majority: false
+        majority: true
       - id: lfpowell
         name: "Lewis Powell"
-        majority: true
+        majority: false
       - id: whrehnquist
         name: "William Rehnquist"
         majority: false
       - id: jpstevens
         name: "John Paul Stevens"
-        majority: false
+        majority: true
       - id: sdoconnor
         name: "Sandra Day O'Connor"
-        majority: false
+        majority: true
   - id: "1983-131"
     termId: "1983-10"
     title: "Copperweld Corp. v. Independence Tube Corp."
     volume: "467"
     page: "752"
     pdfSource: "loc"
+    dateArgument: "Monday, December 5, 1983"
     dateDecision: "Tuesday, June 19, 1984"
     citation: "467 U.S. 752"
     voteMajority: 5
@@ -3243,12 +3284,54 @@ cases:
       - id: sdoconnor
         name: "Sandra Day O'Connor"
         majority: true
+  - id: "1983-088"
+    termId: "1983-10"
+    title: "Hoover v. Ronwin"
+    volume: "466"
+    page: "558"
+    pdfSource: "loc"
+    dateArgument: "Monday, January 16, 1984"
+    dateDecision: "Monday, May 14, 1984"
+    citation: "466 U.S. 558"
+    voteMajority: 4
+    voteMinority: 3
+    authorId: lfpowell
+    authorName: "Lewis Powell"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: false
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: false
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: false
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: false
   - id: "1983-140"
     termId: "1983-10"
     title: "Ruckelshaus v. Monsanto Co."
     volume: "467"
     page: "986"
     pdfSource: "loc"
+    dateArgument: "Monday, February 27, 1984"
     dateDecision: "Tuesday, June 26, 1984"
     citation: "467 U.S. 986"
     voteMajority: 7
@@ -3289,6 +3372,7 @@ cases:
     volume: "469"
     page: "111"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 9, 1984"
     dateDecision: "Tuesday, January 8, 1985"
     citation: "469 U.S. 111"
     voteMajority: 9
@@ -3329,6 +3413,7 @@ cases:
     volume: "469"
     page: "310"
     pdfSource: "loc"
+    dateArgument: "Wednesday, October 31, 1984"
     dateDecision: "Wednesday, January 9, 1985"
     citation: "469 U.S. 310"
     voteMajority: 9
@@ -3369,6 +3454,7 @@ cases:
     volume: "471"
     page: "048"
     pdfSource: "loc"
+    dateArgument: "Monday, November 26, 1984"
     dateDecision: "Wednesday, March 27, 1985"
     citation: "471 U.S. 48"
     voteMajority: 7
@@ -3409,6 +3495,7 @@ cases:
     volume: "472"
     page: "400"
     pdfSource: "loc"
+    dateArgument: "Monday, January 14, 1985"
     dateDecision: "Monday, June 17, 1985"
     citation: "472 U.S. 400"
     voteMajority: 8
@@ -3449,6 +3536,7 @@ cases:
     volume: "473"
     page: "568"
     pdfSource: "loc"
+    dateArgument: "Tuesday, March 26, 1985"
     dateDecision: "Monday, July 1, 1985"
     citation: "473 U.S. 568"
     voteMajority: 9
@@ -3489,6 +3577,7 @@ cases:
     volume: "475"
     page: "717"
     pdfSource: "loc"
+    dateArgument: "Wednesday, November 13, 1985"
     dateDecision: "Monday, April 21, 1986"
     citation: "475 U.S. 717"
     voteMajority: 6
@@ -3529,6 +3618,7 @@ cases:
     volume: "476"
     page: "079"
     pdfSource: "loc"
+    dateArgument: "Thursday, December 12, 1985"
     dateDecision: "Wednesday, April 30, 1986"
     citation: "476 U.S. 79"
     voteMajority: 7
@@ -3569,6 +3659,7 @@ cases:
     volume: "476"
     page: "409"
     pdfSource: "loc"
+    dateArgument: "Monday, March 3, 1986"
     dateDecision: "Tuesday, May 27, 1986"
     citation: "476 U.S. 409"
     voteMajority: 8
@@ -3609,6 +3700,7 @@ cases:
     volume: "478"
     page: "647"
     pdfSource: "loc"
+    dateArgument: "Wednesday, April 2, 1986"
     dateDecision: "Wednesday, July 2, 1986"
     citation: "478 U.S. 647"
     voteMajority: 8
@@ -3649,6 +3741,7 @@ cases:
     volume: "478"
     page: "833"
     pdfSource: "loc"
+    dateArgument: "Tuesday, April 29, 1986"
     dateDecision: "Monday, July 7, 1986"
     citation: "478 U.S. 833"
     voteMajority: 7
@@ -3683,12 +3776,54 @@ cases:
       - id: sdoconnor
         name: "Sandra Day O'Connor"
         majority: true
+  - id: "1986-051"
+    termId: "1986-10"
+    title: "INS v. Cardoza-Fonseca"
+    volume: "480"
+    page: "421"
+    pdfSource: "loc"
+    dateArgument: "Tuesday, October 7, 1986"
+    dateDecision: "Monday, March 9, 1987"
+    citation: "480 U.S. 421"
+    voteMajority: 6
+    voteMinority: 3
+    authorId: jpstevens
+    authorName: "John Paul Stevens"
+    votes:
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: false
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: false
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
   - id: "1986-027"
     termId: "1986-10"
     title: "International Paper Co. v. Ouellette"
     volume: "479"
     page: "481"
     pdfSource: "loc"
+    dateArgument: "Tuesday, November 4, 1986"
     dateDecision: "Wednesday, January 21, 1987"
     citation: "479 U.S. 481"
     voteMajority: 5
@@ -3729,6 +3864,7 @@ cases:
     volume: "480"
     page: "245"
     pdfSource: "loc"
+    dateArgument: "Wednesday, December 3, 1986"
     dateDecision: "Wednesday, February 25, 1987"
     citation: "480 U.S. 245"
     voteMajority: 9
@@ -3763,52 +3899,13 @@ cases:
       - id: ascalia
         name: "Antonin Scalia"
         majority: true
-  - id: "1986-051"
-    termId: "1986-10"
-    title: "INS v. Cardoza-Fonseca"
-    volume: "480"
-    page: "421"
-    pdfSource: "loc"
-    dateDecision: "Monday, March 9, 1987"
-    citation: "480 U.S. 421"
-    voteMajority: 6
-    voteMinority: 3
-    authorId: jpstevens
-    authorName: "John Paul Stevens"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: false
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: false
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
   - id: "1986-084"
     termId: "1986-10"
     title: "Tull v. United States"
     volume: "481"
     page: "412"
     pdfSource: "loc"
+    dateArgument: "Wednesday, January 21, 1987"
     dateDecision: "Tuesday, April 28, 1987"
     citation: "481 U.S. 412"
     voteMajority: 9
@@ -3849,6 +3946,7 @@ cases:
     volume: "482"
     page: "755"
     pdfSource: "loc"
+    dateArgument: "Wednesday, March 4, 1987"
     dateDecision: "Friday, June 19, 1987"
     citation: "482 U.S. 755"
     voteMajority: 5
@@ -3889,6 +3987,7 @@ cases:
     volume: "484"
     page: "001"
     pdfSource: "loc"
+    dateArgument: "Monday, October 5, 1987"
     dateDecision: "Monday, October 19, 1987"
     citation: "484 U.S. 1"
     voteMajority: 3
@@ -3924,6 +4023,7 @@ cases:
     volume: "484"
     page: "539"
     pdfSource: "loc"
+    dateArgument: "Tuesday, November 10, 1987"
     dateDecision: "Tuesday, February 23, 1988"
     citation: "484 U.S. 539"
     voteMajority: 8
@@ -3964,6 +4064,7 @@ cases:
     volume: "485"
     page: "351"
     pdfSource: "loc"
+    dateArgument: "Tuesday, December 8, 1987"
     dateDecision: "Wednesday, March 23, 1988"
     citation: "485 U.S. 351"
     voteMajority: 8
@@ -4004,6 +4105,7 @@ cases:
     volume: "486"
     page: "057"
     pdfSource: "loc"
+    dateArgument: "Tuesday, March 29, 1988"
     dateDecision: "Monday, May 16, 1988"
     citation: "486 U.S. 57"
     voteMajority: 9
@@ -4044,6 +4146,7 @@ cases:
     volume: "488"
     page: "019"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 4, 1988"
     dateDecision: "Tuesday, November 8, 1988"
     citation: "488 U.S. 19"
     voteMajority: 9
@@ -4084,6 +4187,7 @@ cases:
     volume: "489"
     page: "235"
     pdfSource: "loc"
+    dateArgument: "Monday, October 31, 1988"
     dateDecision: "Wednesday, February 22, 1989"
     citation: "489 U.S. 235"
     voteMajority: 5
@@ -4124,6 +4228,7 @@ cases:
     volume: "489"
     page: "353"
     pdfSource: "loc"
+    dateArgument: "Monday, December 5, 1988"
     dateDecision: "Tuesday, February 28, 1989"
     citation: "489 U.S. 353"
     voteMajority: 9
@@ -4164,6 +4269,7 @@ cases:
     volume: "492"
     page: "136"
     pdfSource: "loc"
+    dateArgument: "Monday, April 24, 1989"
     dateDecision: "Friday, June 23, 1989"
     citation: "492 U.S. 136"
     voteMajority: 8
@@ -4204,6 +4310,7 @@ cases:
     volume: "493"
     page: "052"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 10, 1989"
     dateDecision: "Tuesday, November 28, 1989"
     citation: "493 U.S. 52"
     voteMajority: 9
@@ -4244,6 +4351,7 @@ cases:
     volume: "493"
     page: "203"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 31, 1989"
     dateDecision: "Tuesday, January 9, 1990"
     citation: "493 U.S. 203"
     voteMajority: 9
@@ -4284,6 +4392,7 @@ cases:
     volume: "495"
     page: "676"
     pdfSource: "loc"
+    dateArgument: "Wednesday, November 29, 1989"
     dateDecision: "Tuesday, May 29, 1990"
     citation: "495 U.S. 676"
     voteMajority: 7
@@ -4324,6 +4433,7 @@ cases:
     volume: "496"
     page: "530"
     pdfSource: "loc"
+    dateArgument: "Wednesday, March 21, 1990"
     dateDecision: "Thursday, June 14, 1990"
     citation: "496 U.S. 530"
     voteMajority: 9
@@ -4364,6 +4474,7 @@ cases:
     volume: "498"
     page: "073"
     pdfSource: "loc"
+    dateArgument: "Monday, October 1, 1990"
     dateDecision: "Tuesday, November 27, 1990"
     citation: "498 U.S. 73"
     voteMajority: 8
@@ -4404,6 +4515,7 @@ cases:
     volume: "500"
     page: "322"
     pdfSource: "loc"
+    dateArgument: "Monday, November 26, 1990"
     dateDecision: "Tuesday, May 28, 1991"
     citation: "500 U.S. 322"
     voteMajority: 5
@@ -4444,6 +4556,7 @@ cases:
     volume: "501"
     page: "190"
     pdfSource: "loc"
+    dateArgument: "Wednesday, March 20, 1991"
     dateDecision: "Thursday, June 13, 1991"
     citation: "501 U.S. 190"
     voteMajority: 5
@@ -4484,6 +4597,7 @@ cases:
     volume: "501"
     page: "597"
     pdfSource: "loc"
+    dateArgument: "Wednesday, April 24, 1991"
     dateDecision: "Friday, June 21, 1991"
     citation: "501 U.S. 597"
     voteMajority: 9
@@ -4524,6 +4638,7 @@ cases:
     volume: "502"
     page: "129"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 8, 1991"
     dateDecision: "Tuesday, December 10, 1991"
     citation: "502 U.S. 129"
     voteMajority: 6
@@ -4564,6 +4679,7 @@ cases:
     volume: "503"
     page: "091"
     pdfSource: "loc"
+    dateArgument: "Wednesday, December 11, 1991"
     dateDecision: "Wednesday, February 26, 1992"
     citation: "503 U.S. 91"
     voteMajority: 9
@@ -4604,6 +4720,7 @@ cases:
     volume: "504"
     page: "621"
     pdfSource: "loc"
+    dateArgument: "Monday, January 13, 1992"
     dateDecision: "Friday, June 12, 1992"
     citation: "504 U.S. 621"
     voteMajority: 6
@@ -4644,6 +4761,7 @@ cases:
     volume: "505"
     page: "144"
     pdfSource: "loc"
+    dateArgument: "Monday, March 30, 1992"
     dateDecision: "Friday, June 19, 1992"
     citation: "505 U.S. 144"
     voteMajority: 6
@@ -4684,6 +4802,7 @@ cases:
     volume: "506"
     page: "009"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 6, 1992"
     dateDecision: "Monday, November 16, 1992"
     citation: "506 U.S. 9"
     voteMajority: 9
@@ -4724,6 +4843,7 @@ cases:
     volume: "507"
     page: "546"
     pdfSource: "loc"
+    dateArgument: "Tuesday, November 10, 1992"
     dateDecision: "Tuesday, April 20, 1993"
     citation: "507 U.S. 546"
     voteMajority: 5
@@ -4758,52 +4878,13 @@ cases:
       - id: cthomas
         name: "Clarence Thomas"
         majority: true
-  - id: "1992-077"
-    termId: "1992-10"
-    title: "Keene Corp. v. United States"
-    volume: "508"
-    page: "200"
-    pdfSource: "loc"
-    dateDecision: "Monday, May 24, 1993"
-    citation: "508 U.S. 200"
-    voteMajority: 8
-    voteMinority: 1
-    authorId: dhsouter
-    authorName: "David Souter"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
   - id: "1992-119"
     termId: "1992-10"
     title: "Hartford Fire Ins. Co. v. California"
     volume: "509"
     page: "764"
     pdfSource: "loc"
+    dateArgument: "Tuesday, February 23, 1993"
     dateDecision: "Monday, June 28, 1993"
     citation: "509 U.S. 764"
     voteMajority: 5
@@ -4838,12 +4919,54 @@ cases:
       - id: cthomas
         name: "Clarence Thomas"
         majority: true
+  - id: "1992-077"
+    termId: "1992-10"
+    title: "Keene Corp. v. United States"
+    volume: "508"
+    page: "200"
+    pdfSource: "loc"
+    dateArgument: "Tuesday, March 23, 1993"
+    dateDecision: "Monday, May 24, 1993"
+    citation: "508 U.S. 200"
+    voteMajority: 8
+    voteMinority: 1
+    authorId: dhsouter
+    authorName: "David Souter"
+    votes:
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
   - id: "1993-014"
     termId: "1993-10"
     title: "Thunder Basin Coal Co. v. Reich"
     volume: "510"
     page: "200"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 5, 1993"
     dateDecision: "Wednesday, January 19, 1994"
     citation: "510 U.S. 200"
     voteMajority: 9
@@ -4884,6 +5007,7 @@ cases:
     volume: "510"
     page: "317"
     pdfSource: "loc"
+    dateArgument: "Wednesday, December 1, 1993"
     dateDecision: "Monday, January 24, 1994"
     citation: "510 U.S. 317"
     voteMajority: 9
@@ -4924,6 +5048,7 @@ cases:
     volume: "511"
     page: "700"
     pdfSource: "loc"
+    dateArgument: "Wednesday, February 23, 1994"
     dateDecision: "Tuesday, May 31, 1994"
     citation: "511 U.S. 700"
     voteMajority: 7
@@ -4964,6 +5089,7 @@ cases:
     volume: "511"
     page: "809"
     pdfSource: "loc"
+    dateArgument: "Tuesday, March 29, 1994"
     dateDecision: "Monday, June 6, 1994"
     citation: "511 U.S. 809"
     voteMajority: 6
@@ -4998,52 +5124,13 @@ cases:
       - id: rbginsburg
         name: "Ruth Ginsburg"
         majority: true
-  - id: "1994-011"
-    termId: "1994-10"
-    title: "ICC v. Transcon Lines"
-    volume: "513"
-    page: "138"
-    pdfSource: "loc"
-    dateDecision: "Tuesday, January 10, 1995"
-    citation: "513 U.S. 138"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: amkennedy
-    authorName: "Anthony Kennedy"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
   - id: "1994-012"
     termId: "1994-10"
     title: "Tome v. United States"
     volume: "513"
     page: "150"
     pdfSource: "loc"
+    dateArgument: "Wednesday, October 5, 1994"
     dateDecision: "Tuesday, January 10, 1995"
     citation: "513 U.S. 150"
     voteMajority: 5
@@ -5078,12 +5165,54 @@ cases:
       - id: sgbreyer
         name: "Stephen Breyer"
         majority: false
+  - id: "1994-011"
+    termId: "1994-10"
+    title: "ICC v. Transcon Lines"
+    volume: "513"
+    page: "138"
+    pdfSource: "loc"
+    dateArgument: "Tuesday, November 1, 1994"
+    dateDecision: "Tuesday, January 10, 1995"
+    citation: "513 U.S. 138"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: amkennedy
+    authorName: "Anthony Kennedy"
+    votes:
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
   - id: "1994-037"
     termId: "1994-10"
     title: "Qualitex Co. v. Jacobson Products Co."
     volume: "514"
     page: "159"
     pdfSource: "loc"
+    dateArgument: "Monday, January 9, 1995"
     dateDecision: "Tuesday, March 28, 1995"
     citation: "514 U.S. 159"
     voteMajority: 9
@@ -5124,6 +5253,7 @@ cases:
     volume: "515"
     page: "177"
     pdfSource: "loc"
+    dateArgument: "Tuesday, April 18, 1995"
     dateDecision: "Monday, June 12, 1995"
     citation: "515 U.S. 177"
     voteMajority: 9
@@ -5164,6 +5294,7 @@ cases:
     volume: "516"
     page: "085"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 10, 1995"
     dateDecision: "Tuesday, November 28, 1995"
     citation: "516 U.S. 85"
     voteMajority: 9
@@ -5204,6 +5335,7 @@ cases:
     volume: "516"
     page: "415"
     pdfSource: "loc"
+    dateArgument: "Wednesday, December 6, 1995"
     dateDecision: "Wednesday, March 27, 1996"
     citation: "516 U.S. 415"
     voteMajority: 9
@@ -5236,52 +5368,13 @@ cases:
       - id: sgbreyer
         name: "Stephen Breyer"
         majority: true
-  - id: "1995-078"
-    termId: "1995-10"
-    title: "Brown v. Pro Football, Inc."
-    volume: "518"
-    page: "231"
-    pdfSource: "loc"
-    dateDecision: "Thursday, June 20, 1996"
-    citation: "518 U.S. 231"
-    voteMajority: 8
-    voteMinority: 1
-    authorId: sgbreyer
-    authorName: "Stephen Breyer"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
   - id: "1995-090"
     termId: "1995-10"
     title: "Denver Area Ed. Telecommunications Consortium, Inc. v. FCC"
     volume: "518"
     page: "727"
     pdfSource: "loc"
+    dateArgument: "Wednesday, February 21, 1996"
     dateDecision: "Friday, June 28, 1996"
     citation: "518 U.S. 727"
     voteMajority: 7
@@ -5316,16 +5409,17 @@ cases:
       - id: sgbreyer
         name: "Stephen Breyer"
         majority: true
-  - id: "1996-022"
-    termId: "1996-10"
-    title: "United States v. Brockamp"
-    volume: "519"
-    page: "347"
+  - id: "1995-078"
+    termId: "1995-10"
+    title: "Brown v. Pro Football, Inc."
+    volume: "518"
+    page: "231"
     pdfSource: "loc"
-    dateDecision: "Tuesday, February 18, 1997"
-    citation: "519 U.S. 347"
-    voteMajority: 9
-    voteMinority: 0
+    dateArgument: "Wednesday, March 27, 1996"
+    dateDecision: "Thursday, June 20, 1996"
+    citation: "518 U.S. 231"
+    voteMajority: 8
+    voteMinority: 1
     authorId: sgbreyer
     authorName: "Stephen Breyer"
     votes:
@@ -5334,7 +5428,7 @@ cases:
         majority: true
       - id: jpstevens
         name: "John Paul Stevens"
-        majority: true
+        majority: false
       - id: sdoconnor
         name: "Sandra Day O'Connor"
         majority: true
@@ -5362,6 +5456,7 @@ cases:
     volume: "520"
     page: "017"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 15, 1996"
     dateDecision: "Monday, March 3, 1997"
     citation: "520 U.S. 17"
     voteMajority: 9
@@ -5396,12 +5491,54 @@ cases:
       - id: sgbreyer
         name: "Stephen Breyer"
         majority: true
+  - id: "1996-022"
+    termId: "1996-10"
+    title: "United States v. Brockamp"
+    volume: "519"
+    page: "347"
+    pdfSource: "loc"
+    dateArgument: "Tuesday, December 3, 1996"
+    dateDecision: "Tuesday, February 18, 1997"
+    citation: "519 U.S. 347"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: sgbreyer
+    authorName: "Stephen Breyer"
+    votes:
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
   - id: "1996-060"
     termId: "1996-10"
     title: "Suitum v. Tahoe Regional Planning Agency"
     volume: "520"
     page: "725"
     pdfSource: "loc"
+    dateArgument: "Wednesday, February 26, 1997"
     dateDecision: "Tuesday, May 27, 1997"
     citation: "520 U.S. 725"
     voteMajority: 9
@@ -5442,6 +5579,7 @@ cases:
     volume: "520"
     page: "821"
     pdfSource: "loc"
+    dateArgument: "Monday, April 21, 1997"
     dateDecision: "Monday, June 2, 1997"
     citation: "520 U.S. 821"
     voteMajority: 9
@@ -5476,12 +5614,54 @@ cases:
       - id: sgbreyer
         name: "Stephen Breyer"
         majority: true
+  - id: "1997-065"
+    termId: "1997-10"
+    title: "Arkansas Ed. Television Comm&apos;n v. Forbes"
+    volume: "523"
+    page: "666"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, October 8, 1997"
+    dateDecision: "Monday, May 18, 1998"
+    citation: "523 U.S. 666"
+    voteMajority: 6
+    voteMinority: 3
+    authorId: amkennedy
+    authorName: "Anthony Kennedy"
+    votes:
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: false
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: false
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
   - id: "1997-011"
     termId: "1997-10"
     title: "General Electric Co. v. Joiner"
     volume: "522"
     page: "136"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 14, 1997"
     dateDecision: "Monday, December 15, 1997"
     citation: "522 U.S. 136"
     voteMajority: 9
@@ -5522,6 +5702,7 @@ cases:
     volume: "523"
     page: "135"
     pdfSource: "loc"
+    dateArgument: "Monday, December 8, 1997"
     dateDecision: "Monday, March 9, 1998"
     citation: "523 U.S. 135"
     voteMajority: 9
@@ -5562,6 +5743,7 @@ cases:
     volume: "523"
     page: "360"
     pdfSource: "loc"
+    dateArgument: "Wednesday, March 4, 1998"
     dateDecision: "Tuesday, March 31, 1998"
     citation: "523 U.S. 360"
     voteMajority: 9
@@ -5596,52 +5778,13 @@ cases:
       - id: sgbreyer
         name: "Stephen Breyer"
         majority: true
-  - id: "1997-065"
-    termId: "1997-10"
-    title: "Arkansas Ed. Television Comm&apos;n v. Forbes"
-    volume: "523"
-    page: "666"
-    pdfSource: "loc"
-    dateDecision: "Monday, May 18, 1998"
-    citation: "523 U.S. 666"
-    voteMajority: 6
-    voteMinority: 3
-    authorId: amkennedy
-    authorName: "Anthony Kennedy"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: false
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: false
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
   - id: "1997-098"
     termId: "1997-10"
     title: "Bragdon v. Abbott"
     volume: "524"
     page: "624"
     pdfSource: "loc"
+    dateArgument: "Monday, March 30, 1998"
     dateDecision: "Thursday, June 25, 1998"
     citation: "524 U.S. 624"
     voteMajority: 5
@@ -5682,6 +5825,7 @@ cases:
     volume: "525"
     page: "128"
     pdfSource: "loc"
+    dateArgument: "Monday, October 5, 1998"
     dateDecision: "Monday, December 14, 1998"
     citation: "525 U.S. 128"
     voteMajority: 9
@@ -5722,6 +5866,7 @@ cases:
     volume: "525"
     page: "299"
     pdfSource: "loc"
+    dateArgument: "Monday, November 30, 1998"
     dateDecision: "Wednesday, January 20, 1999"
     citation: "525 U.S. 299"
     voteMajority: 9
@@ -5762,6 +5907,7 @@ cases:
     volume: "526"
     page: "756"
     pdfSource: "loc"
+    dateArgument: "Wednesday, January 13, 1999"
     dateDecision: "Monday, May 24, 1999"
     citation: "526 U.S. 756"
     voteMajority: 5
@@ -5802,6 +5948,7 @@ cases:
     volume: "527"
     page: "150"
     pdfSource: "loc"
+    dateArgument: "Wednesday, March 24, 1999"
     dateDecision: "Thursday, June 10, 1999"
     citation: "527 U.S. 150"
     voteMajority: 6
@@ -5836,52 +5983,13 @@ cases:
       - id: sgbreyer
         name: "Stephen Breyer"
         majority: true
-  - id: "1999-040"
-    termId: "1999-10"
-    title: "Wal-Mart Stores, Inc. v. Samara Brothers, Inc."
-    volume: "529"
-    page: "205"
-    pdfSource: "loc"
-    dateDecision: "Wednesday, March 22, 2000"
-    citation: "529 U.S. 205"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: ascalia
-    authorName: "Antonin Scalia"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
   - id: "1999-065"
     termId: "1999-10"
     title: "Geier v. American Honda Motor Co."
     volume: "529"
     page: "861"
     pdfSource: "loc"
+    dateArgument: "Tuesday, December 7, 1999"
     dateDecision: "Monday, May 22, 2000"
     citation: "529 U.S. 861"
     voteMajority: 5
@@ -5916,12 +6024,54 @@ cases:
       - id: sgbreyer
         name: "Stephen Breyer"
         majority: true
+  - id: "1999-040"
+    termId: "1999-10"
+    title: "Wal-Mart Stores, Inc. v. Samara Brothers, Inc."
+    volume: "529"
+    page: "205"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, January 19, 2000"
+    dateDecision: "Wednesday, March 22, 2000"
+    citation: "529 U.S. 205"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: ascalia
+    authorName: "Antonin Scalia"
+    votes:
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
   - id: "1999-067"
     termId: "1999-10"
     title: "Raleigh v. Illinois Dept. of Revenue"
     volume: "530"
     page: "015"
     pdfSource: "loc"
+    dateArgument: "Monday, April 17, 2000"
     dateDecision: "Tuesday, May 30, 2000"
     citation: "530 U.S. 15"
     voteMajority: 9
@@ -5962,6 +6112,7 @@ cases:
     volume: "531"
     page: "159"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 31, 2000"
     dateDecision: "Tuesday, January 9, 2001"
     citation: "531 U.S. 159"
     voteMajority: 5
@@ -6002,6 +6153,7 @@ cases:
     volume: "532"
     page: "023"
     pdfSource: "loc"
+    dateArgument: "Wednesday, November 29, 2000"
     dateDecision: "Tuesday, March 20, 2001"
     citation: "532 U.S. 23"
     voteMajority: 9
@@ -6042,6 +6194,7 @@ cases:
     volume: "532"
     page: "706"
     pdfSource: "loc"
+    dateArgument: "Wednesday, February 21, 2001"
     dateDecision: "Tuesday, May 29, 2001"
     citation: "532 U.S. 706"
     voteMajority: 5
@@ -6082,6 +6235,7 @@ cases:
     volume: "534"
     page: "124"
     pdfSource: "loc"
+    dateArgument: "Wednesday, October 3, 2001"
     dateDecision: "Monday, December 10, 2001"
     citation: "534 U.S. 124"
     voteMajority: 6
@@ -6122,6 +6276,7 @@ cases:
     volume: "535"
     page: "722"
     pdfSource: "loc"
+    dateArgument: "Tuesday, January 8, 2002"
     dateDecision: "Tuesday, May 28, 2002"
     citation: "535 U.S. 722"
     voteMajority: 9
@@ -6162,6 +6317,7 @@ cases:
     volume: "536"
     page: "516"
     pdfSource: "loc"
+    dateArgument: "Tuesday, April 16, 2002"
     dateDecision: "Monday, June 24, 2002"
     citation: "536 U.S. 516"
     voteMajority: 9
@@ -6202,6 +6358,7 @@ cases:
     volume: "537"
     page: "418"
     pdfSource: "loc"
+    dateArgument: "Tuesday, November 12, 2002"
     dateDecision: "Tuesday, March 4, 2003"
     citation: "537 U.S. 418"
     voteMajority: 9
@@ -6238,8 +6395,9 @@ cases:
         majority: true
 ---
 
-Lawrence G. Wallace argued 157 cases in the U.S. Supreme Court.  On November 12, 2002, before Mr. Wallace began his final argument in [Moseley v. V Secret Catalogue, Inc.](https://www.oyez.org/cases/2002/01-1015),
-Chief Justice William Rehnquist publicly acknowledged Mr. Wallace's service:
+Lawrence G. Wallace argued 157 cases in the U.S. Supreme Court.  On November 12, 2002, before Mr. Wallace began his final argument
+in [Moseley v. V Secret Catalogue, Inc.](https://www.oyez.org/cases/2002/01-1015), Chief Justice William Rehnquist publicly acknowledged
+Mr. Wallace's service:
 
 > Mr. Wallace, our records reflect that this is your 157th argument before the Court in the 34 years you have been an attorney in the Office of the Solicitor General.
 
@@ -6249,9 +6407,8 @@ Chief Justice William Rehnquist publicly acknowledged Mr. Wallace's service:
 
 > That doesn't mean we're going to rule in your favor.
 
-It took some effort to track down all [157 arguments](https://github.com/jeffpar/lonedissent/blob/master/sources/oyez/advocates/lawrence_wallace/lawrence_wallace.csv),
-because the Oyez website is not comprehensive, it often files oral arguments by the same lawyer under different names (eg, [Lawrence G. Wallace](https://www.oyez.org/advocates/lawrence_g_wallace) and [Lawrence Gerald Wallace](https://www.oyez.org/advocates/lawrence_gerald_wallace)),
-and it has not yet identified the lawyers in many (usually older) cases, such as the case in which Mr. Wallace first argued on March 25, 1968: [Joint Industry Board of the Electrical Industry v. United States](https://www.oyez.org/cases/1967/616).
+It took some effort to track down all [157 arguments](https://github.com/jeffpar/lonedissent/blob/master/sources/oyez/advocates/lawrence_wallace/lawrence_wallace.csv), because the Oyez website is not comprehensive, it often files oral arguments by the same lawyer under different names
+(eg, [Lawrence G. Wallace](https://www.oyez.org/advocates/lawrence_g_wallace) and [Lawrence Gerald Wallace](https://www.oyez.org/advocates/lawrence_gerald_wallace)), and it has not yet identified the lawyers in many (usually older) cases, such as the case in which Mr. Wallace first argued
+on March 25, 1968: [Joint Industry Board of the Electrical Industry v. United States](https://www.oyez.org/cases/1967/616).
 
-It's also important to note that the Court is counting individual *appearances*, not *cases*.  For example, in [Beer v. United States](https://www.oyez.org/cases/1974/73-1869), Mr. Wallace argued on
-March 26, 1975 and then reargued the same case on November 12, 1975.
+It's also important to note that the Court is counting individual *appearances*, not *cases*.  For example, in [Beer v. United States](https://www.oyez.org/cases/1974/73-1869), Mr. Wallace argued on March 26, 1975 and then reargued the same case on November 12, 1975.

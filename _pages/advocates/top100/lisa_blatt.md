@@ -3,215 +3,13 @@ title: "Cases Argued by Lisa S. Blatt"
 permalink: /advocates/top100/lisa_blatt
 layout: cases
 cases:
-  - id: "2012-075"
-    termId: "2012-10"
-    title: "Adoptive Couple v. Baby Girl"
-    pdfSource: "slipopinion/12"
-    dateDecision: "Tuesday, June 25, 2013"
-    citation: "No. 12-399"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: saalito
-    authorName: "Samuel Alito"
-    votes:
-      - id: jgroberts
-        name: "John Roberts"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: false
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: false
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-      - id: saalito
-        name: "Samuel Alito"
-        majority: true
-      - id: ssotomayor
-        name: "Sonia Sotomayor"
-        majority: false
-      - id: ekagan
-        name: "Elena Kagan"
-        majority: false
-  - id: "2016-057"
-    termId: "2016-10"
-    title: "Advocate Health Care Network v. Stapleton"
-    pdfSource: "slipopinion/16"
-    dateDecision: "Monday, June 5, 2017"
-    citation: "No. 16-74"
-    voteMajority: 8
-    voteMinority: 0
-    authorId: ekagan
-    authorName: "Elena Kagan"
-    votes:
-      - id: jgroberts
-        name: "John Roberts"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-      - id: saalito
-        name: "Samuel Alito"
-        majority: true
-      - id: ssotomayor
-        name: "Sonia Sotomayor"
-        majority: true
-      - id: ekagan
-        name: "Elena Kagan"
-        majority: true
-      - id: nmgorsuch
-        name: "Neil Gorsuch"
-        majority: false
-  - id: "62992"
-    termId: "2018-10"
-    title: "BNSF Railway Company v. Loos"
-    pdfSource: "slipopinion/18"
-    dateDecision: "undefined Term NaN"
-    citation: "___ U.S. ___"
-    voteMajority: 0
-    voteMinority: 0
-  - id: "2016-016"
-    termId: "2016-10"
-    title: "Bravo-Fernandez v. United States"
-    pdfSource: "slipopinion/16"
-    dateDecision: "Tuesday, November 29, 2016"
-    citation: "No. 15-537"
-    voteMajority: 8
-    voteMinority: 0
-    authorId: rbginsburg
-    authorName: "Ruth Ginsburg"
-    votes:
-      - id: jgroberts
-        name: "John Roberts"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-      - id: saalito
-        name: "Samuel Alito"
-        majority: true
-      - id: ssotomayor
-        name: "Sonia Sotomayor"
-        majority: true
-      - id: ekagan
-        name: "Elena Kagan"
-        majority: true
-  - id: "62996"
-    termId: "2018-10"
-    title: "Carpenter v. Murphy"
-    pdfSource: "slipopinion/18"
-    dateDecision: "undefined Term NaN"
-    citation: "___ U.S. ___"
-    voteMajority: 0
-    voteMinority: 0
-  - id: "2012-020"
-    termId: "2012-10"
-    title: "Marx v. General Revenue Corp."
-    pdfSource: "slipopinion/12"
-    dateDecision: "Tuesday, February 26, 2013"
-    citation: "No. 11-1175"
-    voteMajority: 7
-    voteMinority: 2
-    authorId: cthomas
-    authorName: "Clarence Thomas"
-    votes:
-      - id: jgroberts
-        name: "John Roberts"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-      - id: saalito
-        name: "Samuel Alito"
-        majority: true
-      - id: ssotomayor
-        name: "Sonia Sotomayor"
-        majority: false
-      - id: ekagan
-        name: "Elena Kagan"
-        majority: false
-  - id: "2012-057"
-    termId: "2012-10"
-    title: "Tarrant Regional Water Dist. v. Herrmann"
-    pdfSource: "slipopinion/12"
-    dateDecision: "Thursday, June 13, 2013"
-    citation: "No. 11-889"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: ssotomayor
-    authorName: "Sonia Sotomayor"
-    votes:
-      - id: jgroberts
-        name: "John Roberts"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-      - id: saalito
-        name: "Samuel Alito"
-        majority: true
-      - id: ssotomayor
-        name: "Sonia Sotomayor"
-        majority: true
-      - id: ekagan
-        name: "Elena Kagan"
-        majority: true
   - id: "1996-027"
     termId: "1996-10"
     title: "Regents of Univ. of Cal. v. Doe"
     volume: "519"
     page: "425"
     pdfSource: "loc"
+    dateArgument: "Monday, December 2, 1996"
     dateDecision: "Wednesday, February 19, 1997"
     citation: "519 U.S. 425"
     voteMajority: 9
@@ -252,6 +50,7 @@ cases:
     volume: "519"
     page: "425"
     pdfSource: "loc"
+    dateArgument: "Monday, December 2, 1996"
     dateDecision: "Wednesday, February 19, 1997"
     citation: "519 U.S. 425"
     voteMajority: 9
@@ -292,6 +91,7 @@ cases:
     volume: "522"
     page: "023"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 7, 1997"
     dateDecision: "Tuesday, November 4, 1997"
     citation: "522 U.S. 23"
     voteMajority: 9
@@ -332,6 +132,7 @@ cases:
     volume: "522"
     page: "023"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 7, 1997"
     dateDecision: "Tuesday, November 4, 1997"
     citation: "522 U.S. 23"
     voteMajority: 9
@@ -372,6 +173,7 @@ cases:
     volume: "522"
     page: "448"
     pdfSource: "loc"
+    dateArgument: "Monday, December 1, 1997"
     dateDecision: "Tuesday, February 24, 1998"
     citation: "522 U.S. 448"
     voteMajority: 6
@@ -412,6 +214,7 @@ cases:
     volume: "522"
     page: "448"
     pdfSource: "loc"
+    dateArgument: "Monday, December 1, 1997"
     dateDecision: "Tuesday, February 24, 1998"
     citation: "522 U.S. 448"
     voteMajority: 6
@@ -452,6 +255,7 @@ cases:
     volume: "524"
     page: "266"
     pdfSource: "loc"
+    dateArgument: "Wednesday, April 22, 1998"
     dateDecision: "Monday, June 15, 1998"
     citation: "524 U.S. 266"
     voteMajority: 9
@@ -492,6 +296,7 @@ cases:
     volume: "524"
     page: "266"
     pdfSource: "loc"
+    dateArgument: "Wednesday, April 22, 1998"
     dateDecision: "Monday, June 15, 1998"
     citation: "524 U.S. 266"
     voteMajority: 9
@@ -532,6 +337,7 @@ cases:
     volume: "525"
     page: "432"
     pdfSource: "loc"
+    dateArgument: "Monday, November 2, 1998"
     dateDecision: "Monday, January 25, 1999"
     citation: "525 U.S. 432"
     voteMajority: 9
@@ -572,6 +378,7 @@ cases:
     volume: "525"
     page: "432"
     pdfSource: "loc"
+    dateArgument: "Monday, November 2, 1998"
     dateDecision: "Monday, January 25, 1999"
     citation: "525 U.S. 432"
     voteMajority: 9
@@ -612,6 +419,7 @@ cases:
     volume: "525"
     page: "449"
     pdfSource: "loc"
+    dateArgument: "Wednesday, December 2, 1998"
     dateDecision: "Tuesday, February 23, 1999"
     citation: "525 U.S. 449"
     voteMajority: 9
@@ -652,6 +460,7 @@ cases:
     volume: "525"
     page: "449"
     pdfSource: "loc"
+    dateArgument: "Wednesday, December 2, 1998"
     dateDecision: "Tuesday, February 23, 1999"
     citation: "525 U.S. 449"
     voteMajority: 9
@@ -692,6 +501,7 @@ cases:
     volume: "528"
     page: "110"
     pdfSource: "loc"
+    dateArgument: "Tuesday, November 2, 1999"
     dateDecision: "Tuesday, January 11, 2000"
     citation: "528 U.S. 110"
     voteMajority: 9
@@ -732,6 +542,7 @@ cases:
     volume: "529"
     page: "667"
     pdfSource: "loc"
+    dateArgument: "Tuesday, February 22, 2000"
     dateDecision: "Monday, May 15, 2000"
     citation: "529 U.S. 667"
     voteMajority: 7
@@ -772,6 +583,7 @@ cases:
     volume: "529"
     page: "667"
     pdfSource: "loc"
+    dateArgument: "Tuesday, February 22, 2000"
     dateDecision: "Monday, May 15, 2000"
     citation: "529 U.S. 667"
     voteMajority: 7
@@ -812,6 +624,7 @@ cases:
     volume: "532"
     page: "162"
     pdfSource: "loc"
+    dateArgument: "Tuesday, January 16, 2001"
     dateDecision: "Monday, April 2, 2001"
     citation: "532 U.S. 162"
     voteMajority: 5
@@ -852,6 +665,7 @@ cases:
     volume: "535"
     page: "106"
     pdfSource: "loc"
+    dateArgument: "Tuesday, January 8, 2002"
     dateDecision: "Tuesday, March 19, 2002"
     citation: "535 U.S. 106"
     voteMajority: 9
@@ -886,92 +700,13 @@ cases:
       - id: sgbreyer
         name: "Stephen Breyer"
         majority: true
-  - id: "2001-051"
-    termId: "2001-10"
-    title: "Bell v. Cone"
-    volume: "535"
-    page: "685"
-    pdfSource: "loc"
-    dateDecision: "Tuesday, May 28, 2002"
-    citation: "535 U.S. 685"
-    voteMajority: 8
-    voteMinority: 1
-    authorId: whrehnquist
-    authorName: "William Rehnquist"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "2001-051"
-    termId: "2001-10"
-    title: "Bell v. Cone"
-    volume: "535"
-    page: "685"
-    pdfSource: "loc"
-    dateDecision: "Tuesday, May 28, 2002"
-    citation: "535 U.S. 685"
-    voteMajority: 8
-    voteMinority: 1
-    authorId: whrehnquist
-    authorName: "William Rehnquist"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
   - id: "2001-059"
     termId: "2001-10"
     title: "Chevron U. S. A. Inc. v. Echazabal"
     volume: "536"
     page: "073"
     pdfSource: "loc"
+    dateArgument: "Wednesday, February 27, 2002"
     dateDecision: "Monday, June 10, 2002"
     citation: "536 U.S. 73"
     voteMajority: 9
@@ -1012,6 +747,7 @@ cases:
     volume: "536"
     page: "073"
     pdfSource: "loc"
+    dateArgument: "Wednesday, February 27, 2002"
     dateDecision: "Monday, June 10, 2002"
     citation: "536 U.S. 73"
     voteMajority: 9
@@ -1025,6 +761,88 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: true
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+  - id: "2001-051"
+    termId: "2001-10"
+    title: "Bell v. Cone"
+    volume: "535"
+    page: "685"
+    pdfSource: "loc"
+    dateArgument: "Monday, March 25, 2002"
+    dateDecision: "Tuesday, May 28, 2002"
+    citation: "535 U.S. 685"
+    voteMajority: 8
+    voteMinority: 1
+    authorId: whrehnquist
+    authorName: "William Rehnquist"
+    votes:
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+  - id: "2001-051"
+    termId: "2001-10"
+    title: "Bell v. Cone"
+    volume: "535"
+    page: "685"
+    pdfSource: "loc"
+    dateArgument: "Monday, March 25, 2002"
+    dateDecision: "Tuesday, May 28, 2002"
+    citation: "535 U.S. 685"
+    voteMajority: 8
+    voteMinority: 1
+    authorId: whrehnquist
+    authorName: "William Rehnquist"
+    votes:
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
       - id: sdoconnor
         name: "Sandra Day O'Connor"
         majority: true
@@ -1052,6 +870,7 @@ cases:
     volume: "538"
     page: "314"
     pdfSource: "loc"
+    dateArgument: "Monday, January 13, 2003"
     dateDecision: "Monday, March 31, 2003"
     citation: "538 U.S. 314"
     voteMajority: 7
@@ -1092,6 +911,7 @@ cases:
     volume: "538"
     page: "314"
     pdfSource: "loc"
+    dateArgument: "Monday, January 13, 2003"
     dateDecision: "Monday, March 31, 2003"
     citation: "538 U.S. 314"
     voteMajority: 7
@@ -1132,6 +952,7 @@ cases:
     volume: "538"
     page: "691"
     pdfSource: "loc"
+    dateArgument: "Wednesday, April 2, 2003"
     dateDecision: "Monday, May 19, 2003"
     citation: "538 U.S. 691"
     voteMajority: 9
@@ -1172,6 +993,7 @@ cases:
     volume: "538"
     page: "691"
     pdfSource: "loc"
+    dateArgument: "Wednesday, April 2, 2003"
     dateDecision: "Monday, May 19, 2003"
     citation: "538 U.S. 691"
     voteMajority: 9
@@ -1212,6 +1034,7 @@ cases:
     volume: "538"
     page: "822"
     pdfSource: "loc"
+    dateArgument: "Monday, April 28, 2003"
     dateDecision: "Tuesday, May 27, 2003"
     citation: "538 U.S. 822"
     voteMajority: 9
@@ -1252,6 +1075,7 @@ cases:
     volume: "538"
     page: "822"
     pdfSource: "loc"
+    dateArgument: "Monday, April 28, 2003"
     dateDecision: "Tuesday, May 27, 2003"
     citation: "538 U.S. 822"
     voteMajority: 9
@@ -1292,6 +1116,7 @@ cases:
     volume: "540"
     page: "526"
     pdfSource: "loc"
+    dateArgument: "Monday, November 10, 2003"
     dateDecision: "Monday, January 26, 2004"
     citation: "540 U.S. 526"
     voteMajority: 9
@@ -1332,6 +1157,7 @@ cases:
     volume: "540"
     page: "526"
     pdfSource: "loc"
+    dateArgument: "Monday, November 10, 2003"
     dateDecision: "Monday, January 26, 2004"
     citation: "540 U.S. 526"
     voteMajority: 9
@@ -1372,6 +1198,7 @@ cases:
     volume: "541"
     page: "149"
     pdfSource: "loc"
+    dateArgument: "Wednesday, February 25, 2004"
     dateDecision: "Tuesday, March 30, 2004"
     citation: "541 U.S. 149"
     voteMajority: 9
@@ -1412,6 +1239,7 @@ cases:
     volume: "541"
     page: "149"
     pdfSource: "loc"
+    dateArgument: "Wednesday, February 25, 2004"
     dateDecision: "Tuesday, March 30, 2004"
     citation: "541 U.S. 149"
     voteMajority: 9
@@ -1452,6 +1280,7 @@ cases:
     volume: "543"
     page: "481"
     pdfSource: "scotusBound"
+    dateArgument: "Monday, November 1, 2004"
     dateDecision: "Tuesday, February 22, 2005"
     citation: "543 U.S. 481"
     voteMajority: 8
@@ -1492,6 +1321,7 @@ cases:
     volume: "543"
     page: "481"
     pdfSource: "scotusBound"
+    dateArgument: "Monday, November 1, 2004"
     dateDecision: "Tuesday, February 22, 2005"
     citation: "543 U.S. 481"
     voteMajority: 8
@@ -1532,6 +1362,7 @@ cases:
     volume: "544"
     page: "431"
     pdfSource: "scotusBound"
+    dateArgument: "Monday, January 10, 2005"
     dateDecision: "Wednesday, April 27, 2005"
     citation: "544 U.S. 431"
     voteMajority: 7
@@ -1572,6 +1403,7 @@ cases:
     volume: "544"
     page: "431"
     pdfSource: "scotusBound"
+    dateArgument: "Monday, January 10, 2005"
     dateDecision: "Wednesday, April 27, 2005"
     citation: "544 U.S. 431"
     voteMajority: 7
@@ -1612,6 +1444,7 @@ cases:
     volume: "545"
     page: "644"
     pdfSource: "scotusBound"
+    dateArgument: "Tuesday, April 19, 2005"
     dateDecision: "Thursday, June 23, 2005"
     citation: "545 U.S. 644"
     voteMajority: 7
@@ -1652,6 +1485,7 @@ cases:
     volume: "545"
     page: "644"
     pdfSource: "scotusBound"
+    dateArgument: "Tuesday, April 19, 2005"
     dateDecision: "Thursday, June 23, 2005"
     citation: "545 U.S. 644"
     voteMajority: 7
@@ -1692,6 +1526,7 @@ cases:
     volume: "546"
     page: "142"
     pdfSource: "scotusBound"
+    dateArgument: "Wednesday, November 2, 2005"
     dateDecision: "Wednesday, December 7, 2005"
     citation: "546 U.S. 142"
     voteMajority: 9
@@ -1732,6 +1567,7 @@ cases:
     volume: "546"
     page: "142"
     pdfSource: "scotusBound"
+    dateArgument: "Wednesday, November 2, 2005"
     dateDecision: "Wednesday, December 7, 2005"
     citation: "546 U.S. 142"
     voteMajority: 9
@@ -1772,6 +1608,7 @@ cases:
     volume: "547"
     page: "009"
     pdfSource: "scotusBound"
+    dateArgument: "Wednesday, November 30, 2005"
     dateDecision: "Tuesday, February 28, 2006"
     citation: "547 U.S. 9"
     voteMajority: 8
@@ -1812,6 +1649,7 @@ cases:
     volume: "547"
     page: "009"
     pdfSource: "scotusBound"
+    dateArgument: "Wednesday, November 30, 2005"
     dateDecision: "Tuesday, February 28, 2006"
     citation: "547 U.S. 9"
     voteMajority: 8
@@ -1852,6 +1690,7 @@ cases:
     volume: "549"
     page: "365"
     pdfSource: "scotusBound"
+    dateArgument: "Monday, November 6, 2006"
     dateDecision: "Wednesday, February 21, 2007"
     citation: "549 U.S. 365"
     voteMajority: 5
@@ -1892,6 +1731,7 @@ cases:
     volume: "553"
     page: "242"
     pdfSource: "scotusBound"
+    dateArgument: "Tuesday, January 8, 2008"
     dateDecision: "Monday, May 12, 2008"
     citation: "553 U.S. 242"
     voteMajority: 8
@@ -1932,6 +1772,7 @@ cases:
     volume: "553"
     page: "591"
     pdfSource: "scotusBound"
+    dateArgument: "Monday, April 21, 2008"
     dateDecision: "Monday, June 9, 2008"
     citation: "553 U.S. 591"
     voteMajority: 6
@@ -1972,6 +1813,7 @@ cases:
     volume: "555"
     page: "271"
     pdfSource: "scotusBound"
+    dateArgument: "Wednesday, October 8, 2008"
     dateDecision: "Monday, January 26, 2009"
     citation: "555 U.S. 271"
     voteMajority: 9
@@ -2012,6 +1854,7 @@ cases:
     volume: "556"
     page: "701"
     pdfSource: "scotusBound"
+    dateArgument: "Wednesday, December 10, 2008"
     dateDecision: "Monday, May 18, 2009"
     citation: "556 U.S. 701"
     voteMajority: 7
@@ -2052,6 +1895,7 @@ cases:
     volume: "557"
     page: "167"
     pdfSource: "scotusBound"
+    dateArgument: "Tuesday, March 31, 2009"
     dateDecision: "Thursday, June 18, 2009"
     citation: "557 U.S. 167"
     voteMajority: 5
@@ -2092,6 +1936,7 @@ cases:
     volume: "562"
     page: "428"
     pdfSource: "scotusBound"
+    dateArgument: "Monday, December 6, 2010"
     dateDecision: "Tuesday, March 1, 2011"
     citation: "562 U.S. 428"
     voteMajority: 8
@@ -2132,6 +1977,7 @@ cases:
     volume: "563"
     page: "110"
     pdfSource: "scotusBound"
+    dateArgument: "Wednesday, January 19, 2011"
     dateDecision: "Tuesday, March 29, 2011"
     citation: "563 U.S. 110"
     voteMajority: 8
@@ -2166,6 +2012,216 @@ cases:
       - id: ekagan
         name: "Elena Kagan"
         majority: false
+  - id: "2012-020"
+    termId: "2012-10"
+    title: "Marx v. General Revenue Corp."
+    pdfSource: "slipopinion/12"
+    dateArgument: "Wednesday, November 7, 2012"
+    dateDecision: "Tuesday, February 26, 2013"
+    citation: "No. 11-1175"
+    voteMajority: 7
+    voteMinority: 2
+    authorId: cthomas
+    authorName: "Clarence Thomas"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: false
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: false
+  - id: "2012-075"
+    termId: "2012-10"
+    title: "Adoptive Couple v. Baby Girl"
+    pdfSource: "slipopinion/12"
+    dateArgument: "Tuesday, April 16, 2013"
+    dateDecision: "Tuesday, June 25, 2013"
+    citation: "No. 12-399"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: saalito
+    authorName: "Samuel Alito"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: false
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: false
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: false
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: false
+  - id: "2012-057"
+    termId: "2012-10"
+    title: "Tarrant Regional Water Dist. v. Herrmann"
+    pdfSource: "slipopinion/12"
+    dateArgument: "Tuesday, April 23, 2013"
+    dateDecision: "Thursday, June 13, 2013"
+    citation: "No. 11-889"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: ssotomayor
+    authorName: "Sonia Sotomayor"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: true
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: true
+  - id: "2016-016"
+    termId: "2016-10"
+    title: "Bravo-Fernandez v. United States"
+    pdfSource: "slipopinion/16"
+    dateArgument: "Tuesday, October 4, 2016"
+    dateDecision: "Tuesday, November 29, 2016"
+    citation: "No. 15-537"
+    voteMajority: 8
+    voteMinority: 0
+    authorId: rbginsburg
+    authorName: "Ruth Ginsburg"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: true
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: true
+  - id: "2016-057"
+    termId: "2016-10"
+    title: "Advocate Health Care Network v. Stapleton"
+    pdfSource: "slipopinion/16"
+    dateArgument: "Monday, March 27, 2017"
+    dateDecision: "Monday, June 5, 2017"
+    citation: "No. 16-74"
+    voteMajority: 8
+    voteMinority: 0
+    authorId: ekagan
+    authorName: "Elena Kagan"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: true
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: true
+      - id: nmgorsuch
+        name: "Neil Gorsuch"
+        majority: false
+  - id: "62992"
+    termId: "2018-10"
+    title: "BNSF Railway Company v. Loos"
+    pdfSource: "slipopinion/18"
+    dateArgument: "Tuesday, November 6, 2018"
+    dateDecision: ""
+    citation: "No. 17-1042"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "62996"
+    termId: "2018-10"
+    title: "Carpenter v. Murphy"
+    pdfSource: "slipopinion/18"
+    dateArgument: "Tuesday, November 27, 2018"
+    dateDecision: ""
+    citation: "No. 17-1107"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
 Lisa S. Blatt argued 56 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/lisa_s_blatt).

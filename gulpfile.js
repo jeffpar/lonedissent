@@ -581,18 +581,20 @@ function searchSortedObjects(rows, row, fUnique)
 }
 
 /**
- * sortObjects(rows, keys)
+ * sortObjects(rows, keys, fReverse)
  *
  * @param {Array.<object>} rows
  * @param {Array.<string>} keys
+ * @param {boolean} [fReverse]
  */
-function sortObjects(rows, keys)
+function sortObjects(rows, keys, fReverse)
 {
+    let order = fReverse? -1 : 1;
     rows.sort(function(row1, row2) {
         for (let k = 0; k < keys.length; k++) {
             let key = keys[k];
-            if (row1[key] > row2[key]) return 1;
-            if (row1[key] < row2[key]) return -1;
+            if (row1[key] > row2[key]) return order;
+            if (row1[key] < row2[key]) return -order;
             if (k == keys.length - 1) return 0;
         }
     });
@@ -1418,11 +1420,18 @@ function buildAdvocates(done)
 
     if (advocates) {
         let ids = Object.keys(advocates.ids);
+        let top100 = [];
+        let pathAdvocates = "/advocates/top100";
         ids.forEach((id) => {
             let aliases = advocates.ids[id];
+            let verified = false;
+            if (aliases[aliases.length - 1] == "verified") {
+                verified = true;
+                aliases.splice(aliases.length - 1, 1);
+            }
             let dir = path.join(path.dirname(sources.oyez.advocates), id);
             let filePath = path.join(dir, id + ".csv");
-            if (!fs.existsSync(rootDir + filePath) || argv['overwrite'] && id != "lawrence_wallace") {
+            if (!fs.existsSync(rootDir + filePath) || argv['overwrite'] && !verified) {
                 let rows = [];
                 for (let i = 1; i < aliases.length; i++) {
                     let alias = aliases[i];
@@ -1444,11 +1453,11 @@ function buildAdvocates(done)
                             row.oldCite = getOldCite(row.volume, row.page);
                             row.usCite = getNewCite(row.volume, row.page);
                             row.dateDecision = getDates(caseDetail.timeline, "Decided");
-                            row.docket = caseDetail.docket_number;
+                            row.docket = caseDetail.docket_number.replace("-orig", " Orig.");       // TODO: How many other "Original" variations?
                             row.term = caseDetail.term || 0;
                             row.termId = getTermDate(row.term).substr(0,7);
                             row.issue = "";
-                            row.dateArgument = getDates(caseDetail.timeline, "Argued");     // TODO: "Reargued"
+                            row.dateArgument = getDates(caseDetail.timeline, "Argued");             // TODO: Also "Reargued"....
                             row.daysArgument = row.dateArgument.split(',').length;
                             row.votesPetitioner = 0;
                             row.votesRespondent = 0;
@@ -1472,7 +1481,7 @@ function buildAdvocates(done)
             let rowsAdvocate = readCSV(filePath);
             if (rowsAdvocate && rowsAdvocate.length) {
                 let results = [];
-                let pathAdvocate = "/advocates/top100/" + id;
+                let pathAdvocate = pathAdvocates + "/" + id;
                 let nameAdvocate = rowsAdvocate[0].advocateName;
                 let fileText = '---\ntitle: "Cases Argued by ' + nameAdvocate + '"\npermalink: ' + pathAdvocate + '\nlayout: cases\n';
                 rowsAdvocate.forEach((row) => {
@@ -1501,31 +1510,41 @@ function buildAdvocates(done)
                         results.push(decisions[i]);
                     } else {
                         results.push(row);
-                        warning("unable to find exact match for %s: %s [%s] (%s) Argued=%s Decided=%s\n", nameAdvocate, row.caseTitle, row.docket, row.dateArgument, row.dateDecision, row.usCite);
+                        warning("unable to find exact match for %s: %s [%s] (%s) Argued=%s Decided=%s\n", nameAdvocate, row.caseTitle, row.docket, row.usCite, row.dateArgument, row.dateDecision);
                     }
                 });
-                sortObjects(results, ["volume", "page", "caseTitle"]);
-                fileText += generateCaseYML(results, vars, courtsSCDB, justices);
+                sortObjects(results, ["dateArgument"]);
+                top100.push({id, nameAdvocate, total: results.length, verified});
+                fileText += generateCaseYML(results, vars, courtsSCDB, justices, ["dateArgument"]);
                 fileText += '---\n\n';
                 fileText += nameAdvocate + " argued " + rowsAdvocate.length + " cases in the U.S. Supreme Court";
-                if (id != "lawrence_wallace") {
-                    fileText += ", according to [Oyez](https://www.oyez.org/advocates/" + aliases[1] + ").\n";
-                } else {
-                    fileText += ".  On November 12, 2002, before Mr. Wallace began his final argument in [Moseley v. V Secret Catalogue, Inc.](https://www.oyez.org/cases/2002/01-1015),\n";
-                    fileText += "Chief Justice William Rehnquist publicly acknowledged Mr. Wallace's service:\n\n";
-                    fileText += "> Mr. Wallace, our records reflect that this is your 157th argument before the Court in the 34 years you have been an attorney in the Office of the Solicitor General.\n\n";
-                    fileText += "> Some years ago, you eclipsed the 20th Century record of 140 arguments.\n\n";
-                    fileText += "> I understand that you will soon retire from Government service, so on behalf of the Court I extend to you our appreciation for your many years of quality advocacy and dedicated service in the Solicitor's Office... Solicitor General's Office... on behalf of the United States.\n\n";
-                    fileText += "> That doesn't mean we're going to rule in your favor.\n\n";
-                    fileText += "It took some effort to track down all [157 arguments](https://github.com/jeffpar/lonedissent/blob/master/sources/oyez/advocates/lawrence_wallace/lawrence_wallace.csv),\n";
-                    fileText += "because the Oyez website is not comprehensive, it often files oral arguments by the same lawyer under different names (eg, [Lawrence G. Wallace](https://www.oyez.org/advocates/lawrence_g_wallace) and [Lawrence Gerald Wallace](https://www.oyez.org/advocates/lawrence_gerald_wallace)),\n";
-                    fileText += "and it has not yet identified the lawyers in many (usually older) cases, such as the case in which Mr. Wallace first argued on March 25, 1968: [Joint Industry Board of the Electrical Industry v. United States](https://www.oyez.org/cases/1967/616).\n\n";
-                    fileText += "It's also important to note that the Court is counting individual *appearances*, not *cases*.  For example, in [Beer v. United States](https://www.oyez.org/cases/1974/73-1869), Mr. Wallace argued on\n";
-                    fileText += "March 26, 1975 and then reargued the same case on November 12, 1975.\n";
+                filePath = "/_pages" + pathAdvocate + ".md", fileText;
+                let oldText = readFile(filePath);
+                if (oldText) {
+                    let match = oldText.match(/^---\n[\s\S]*?\n---\n\n.*? argued [0-9]+ cases in the U.S. Supreme Court([\s\S]*)$/);
+                    oldText = match? match[1] : "";
                 }
-                writeFile(rootDir + "/_pages" + pathAdvocate + ".md", fileText);
+                if (oldText) {
+                    fileText += oldText;
+                } else {
+                    fileText += ", according to [Oyez](https://www.oyez.org/advocates/" + aliases[1] + ").\n";
+                }
+                writeFile(filePath, fileText);
             }
         });
+        sortObjects(top100, ["total"], true);
+        let filePath = "/_pages" + pathAdvocates + "/all.md";
+        let text = readFile(filePath);
+        if (text) {
+            let match = text.match(/^([\s\S]*)\n## Top Advocates\n\n/);
+            if (match) {
+                text = match[0];
+                top100.forEach((advocate) => {
+                    text += "- [" + advocate.nameAdvocate + "](/advocates/top100/" + advocate.id + ") (" + (advocate.verified? "" : "at least ") + advocate.total + " arguments)\n";
+                });
+            }
+            writeFile(filePath, text);
+        }
     }
     done();
 }
@@ -2080,14 +2099,15 @@ function scoreStrings(left, right)
 }
 
 /**
- * generateCaseYML(decisions, vars, courts, justices)
+ * generateCaseYML(decisions, vars, courts, justices, extras)
  *
  * @param {Array.<Decision>} decisions
  * @param {object} vars
  * @param {Array.<Court>} courts
  * @param {Array.<Justice>} justices
+ * @param {Array.<string>} [extras]
  */
-function generateCaseYML(decisions, vars, courts, justices)
+function generateCaseYML(decisions, vars, courts, justices, extras=[])
 {
     let ymlText = '';
     decisions.forEach((decision) => {
@@ -2097,9 +2117,10 @@ function generateCaseYML(decisions, vars, courts, justices)
             volume = +matchCite[1];  page = +matchCite[2];
         }
         if (!ymlText) ymlText = 'cases:\n';
+        let title = encodeString(decision.caseTitle || decision.caseName, "html", false);
         ymlText += '  - id: "' + decision.caseId + '"\n';
         ymlText += '    termId: "' + decision.termId + '"\n';
-        ymlText += '    title: "' + encodeString(decision.caseTitle || decision.caseName, "html", false) + '"\n';
+        ymlText += '    title: "' + title + '"\n';
         /*
          * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
          * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
@@ -2144,8 +2165,11 @@ function generateCaseYML(decisions, vars, courts, justices)
         if (decision.pdfSource) ymlText += '    pdfSource: "' + decision.pdfSource + '"\n';
         if (decision.pdfPage) ymlText += '    pdfPage: ' + decision.pdfPage + '\n';
         if (decision.pdfPageDissent) ymlText += '    pdfPageDissent: ' + decision.pdfPageDissent + '\n';
-        ymlText += '    dateDecision: "' + (decision.dateDecision.length < 10? getTermName(decision.dateDecision) : sprintf("%#C", decision.dateDecision)) + '"\n';
-        ymlText += '    citation: "' + (decision.usCite || ('No. ' + decision.docket)) + '"\n';
+        if (extras.indexOf("dateArgument") >= 0) {
+            ymlText += '    dateArgument: "' + (decision.dateArgument? sprintf("%#C", decision.dateArgument) : "") + '"\n';
+        }
+        ymlText += '    dateDecision: "' + (decision.dateDecision? (decision.dateDecision.length < 10? getTermName(decision.dateDecision) : sprintf("%#C", decision.dateDecision)) : getTermName(decision.termId || decision.term)) + '"\n';
+        ymlText += '    citation: "' + ((volume && page)? decision.usCite : ('No. ' + decision.docket)) + '"\n';
         ymlText += '    voteMajority: ' + (decision.majVotes || 0) + '\n';
         ymlText += '    voteMinority: ' + (decision.minVotes || 0)+ '\n';
         if (decision.dissenterId) {
@@ -2337,11 +2361,14 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
  */
 function getTermName(termId)
 {
-    let termName = sprintf("%#F Term %#Y", termId);
-    if (termId >= "1844-12" && termId <= "1849-12") {
-        termName = "January Term " + (+termId.substr(0, 4) + 1);
-    } else if (termId == "1942-07" || termId == "1953-06" || termId == "1958-08" || termId == "1972-07") {
-        termName = sprintf("%#F Special Term %#Y", termId);
+    let termName = "";
+    if (termId) {
+        sprintf("%#F Term %#Y", termId);
+        if (termId >= "1844-12" && termId <= "1849-12") {
+            termName = "January Term " + (+termId.substr(0, 4) + 1);
+        } else if (termId == "1942-07" || termId == "1953-06" || termId == "1958-08" || termId == "1972-07") {
+            termName = sprintf("%#F Special Term %#Y", termId);
+        }
     }
     return termName;
 }
@@ -3328,6 +3355,79 @@ function fixDecisions(done)
 }
 
 /**
+ * fixDockets()
+ *
+ * SCDB uses inconsistent coding of docket numbers for "Original Jurisdiction" cases; eg:
+ *
+ *      "5, Orig."
+ *      "126, ORIG."
+ *      "10 Original"
+ *      "8 (Original)"
+ *      "15 orig."
+ *      "6 ORIG"
+ *      "8 original"
+ *      "ORIG" and "   ORIG"
+ *      "15 ORIG ORIG" (just to be sure?)
+ *      "No. 12, Original"
+ *      "No. 137, Orig."
+ *      "22O142"
+ *
+ * There's also a small problem with "Miscellaneous" cases; SCDB appends a single letter ("M") to the docket number,
+ * but sometimes there's a space (eg, "61 M") and sometimes not (eg, "133M").
+ *
+ * We have adopted the following formats:
+ *
+ *      "108 Orig."
+ *      "61 Misc."
+ *
+ * and we let the context of the docket number's appearance determine whether or not it should be preceded by "No. ".
+ *
+ * @param {function()} done
+ */
+function fixDockets(done)
+{
+    let files = ["/results/decisions.json", "/_data/allDecisions.json", "/_data/allJustices.json", "/_data/lonerDecisions.json", "/_data/lonerJustices.json"];
+    files.forEach((file) => {
+        let json = readFile(file);
+        if (json) {
+            let changes = 0;
+            let match, re = /^(\s*"docket":\s*)"(.*)"/gm;
+            printf("processing %s...\n", file);
+            while ((match = re.exec(json))) {
+                let n = "", suffix = "";
+                let docket = match[2].toLowerCase();
+                if (docket.indexOf('m') >= 0) {
+                    suffix = "Misc.";
+                }
+                else if (docket.indexOf('o') >= 0) {
+                    suffix = "Orig.";
+                }
+                if (suffix) {
+                    let i = docket.indexOf("22o");
+                    if (i == 0) {
+                        n = docket.substr(i + 3) + ' ';
+                    } else {
+                        let m = docket.match(/([0-9]+)/);
+                        if (m) n = m[1] + ' ';
+                    }
+                    docket = n + suffix;
+                    if (docket != match[2]) {
+                        printf("changing %s to %s\n", match[2], docket);
+                        json = json.substr(0, match.index) + match[1] + '"' + docket + '"' + json.substr(match.index + match[0].length);
+                        changes++;
+                    }
+                }
+            }
+            if (changes) {
+                printf("%d docket changes to %s\n", changes, file);
+                writeFile(file, json);
+            }
+        }
+    });
+    done();
+}
+
+/**
  * fixLOC()
  *
  * Add some new columns to citationsLOC.csv (eg, pageTotal, subject, keywords).
@@ -3584,6 +3684,7 @@ function generateDownloadTasks(done)
             let dir = path.join(path.dirname(sources.oyez.advocates), id, "_files");
             for (let i = 1; i < aliases.length; i++) {
                 let alias = aliases[i];
+                if (alias == "verified") continue;
                 let file = alias + ".json";
                 let filePath = path.join(dir, file);
                 if (fs.existsSync(rootDir + filePath)) {
@@ -3719,6 +3820,7 @@ gulp.task("lonerParties", findLonerParties);
 gulp.task("backup", backupLonerDecisions);
 gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
 gulp.task("fixDecisions", fixDecisions);
+gulp.task("fixDockets", fixDockets);
 gulp.task("fixLOC", fixLOC);
 gulp.task("scrape", scrapeFiles);
 gulp.task("tests", gulp.series(testDates));

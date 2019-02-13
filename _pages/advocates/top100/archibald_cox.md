@@ -3,50 +3,13 @@ title: "Cases Argued by Archibald Cox"
 permalink: /advocates/top100/archibald_cox
 layout: cases
 cases:
-  - id: "1961-048"
-    termId: "1961-10"
-    title: "Fong Foo v. United States"
-    volume: "369"
-    page: "141"
-    pdfSource: "loc"
-    dateDecision: "Monday, March 19, 1962"
-    citation: "369 U.S. 141"
-    voteMajority: 7
-    voteMinority: 1
-    votes:
-      - id: ewarren
-        name: "Earl Warren"
-        majority: true
-      - id: hlblack
-        name: "Hugo Black"
-        majority: true
-      - id: ffrankfurter
-        name: "Felix Frankfurter"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: true
-      - id: tcclark
-        name: "Tom Clark"
-        majority: false
-      - id: jharlan2
-        name: "John M. Harlan II"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: cewhittaker
-        name: "Charles Whittaker"
-        majority: false
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
   - id: "1961-051"
     termId: "1961-10"
     title: "Baker v. Carr"
     volume: "369"
     page: "186"
     pdfSource: "loc"
+    dateArgument: "Wednesday, April 19, 1961"
     dateDecision: "Monday, March 26, 1962"
     citation: "369 U.S. 186"
     voteMajority: 6
@@ -87,6 +50,7 @@ cases:
     volume: "370"
     page: "294"
     pdfSource: "loc"
+    dateArgument: "Wednesday, December 6, 1961"
     dateDecision: "Monday, June 25, 1962"
     citation: "370 U.S. 294"
     voteMajority: 7
@@ -121,24 +85,26 @@ cases:
       - id: brwhite
         name: "Byron White"
         majority: false
-  - id: "1962-033"
-    termId: "1962-10"
-    title: "Wong Sun v. United States"
-    volume: "371"
-    page: "471"
+  - id: "1961-048"
+    termId: "1961-10"
+    title: "Fong Foo v. United States"
+    volume: "369"
+    page: "141"
     pdfSource: "loc"
-    dateDecision: "Monday, January 14, 1963"
-    citation: "371 U.S. 471"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: wjbrennan
-    authorName: "William Brennan"
+    dateArgument: "Tuesday, January 16, 1962"
+    dateDecision: "Monday, March 19, 1962"
+    citation: "369 U.S. 141"
+    voteMajority: 7
+    voteMinority: 1
     votes:
       - id: ewarren
         name: "Earl Warren"
         majority: true
       - id: hlblack
         name: "Hugo Black"
+        majority: true
+      - id: ffrankfurter
+        name: "Felix Frankfurter"
         majority: true
       - id: wodouglas
         name: "William Douglas"
@@ -148,18 +114,15 @@ cases:
         majority: false
       - id: jharlan2
         name: "John M. Harlan II"
-        majority: false
+        majority: true
       - id: wjbrennan
         name: "William Brennan"
         majority: true
+      - id: cewhittaker
+        name: "Charles Whittaker"
+        majority: false
       - id: pstewart
         name: "Potter Stewart"
-        majority: false
-      - id: brwhite
-        name: "Byron White"
-        majority: false
-      - id: ajgoldberg
-        name: "Arthur Goldberg"
         majority: true
   - id: "1962-042"
     termId: "1962-10"
@@ -167,6 +130,7 @@ cases:
     volume: "372"
     page: "029"
     pdfSource: "loc"
+    dateArgument: "Wednesday, March 21, 1962"
     dateDecision: "Monday, February 18, 1963"
     citation: "372 U.S. 29"
     voteMajority: 6
@@ -201,12 +165,54 @@ cases:
       - id: ajgoldberg
         name: "Arthur Goldberg"
         majority: false
+  - id: "1962-033"
+    termId: "1962-10"
+    title: "Wong Sun v. United States"
+    volume: "371"
+    page: "471"
+    pdfSource: "loc"
+    dateArgument: "Monday, October 8, 1962"
+    dateDecision: "Monday, January 14, 1963"
+    citation: "371 U.S. 471"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: wjbrennan
+    authorName: "William Brennan"
+    votes:
+      - id: ewarren
+        name: "Earl Warren"
+        majority: true
+      - id: hlblack
+        name: "Hugo Black"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: true
+      - id: tcclark
+        name: "Tom Clark"
+        majority: false
+      - id: jharlan2
+        name: "John M. Harlan II"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: false
+      - id: ajgoldberg
+        name: "Arthur Goldberg"
+        majority: true
   - id: "1962-116"
     termId: "1962-10"
     title: "Avent v. North Carolina"
     volume: "373"
     page: "375"
     pdfSource: "loc"
+    dateArgument: "Monday, November 5, 1962"
     dateDecision: "Monday, May 20, 1963"
     citation: "373 U.S. 375"
     voteMajority: 8
@@ -245,6 +251,7 @@ cases:
     volume: "373"
     page: "546"
     pdfSource: "loc"
+    dateArgument: "Tuesday, November 13, 1962"
     dateDecision: "Monday, June 3, 1963"
     citation: "373 U.S. 546"
     voteMajority: 5
@@ -285,6 +292,7 @@ cases:
     volume: "374"
     page: "109"
     pdfSource: "loc"
+    dateArgument: "Thursday, December 6, 1962"
     dateDecision: "Monday, June 17, 1963"
     citation: "374 U.S. 109"
     voteMajority: 5
@@ -325,6 +333,7 @@ cases:
     volume: "375"
     page: "096"
     pdfSource: "loc"
+    dateArgument: "Thursday, April 18, 1963"
     dateDecision: "Monday, December 2, 1963"
     citation: "375 U.S. 96"
     voteMajority: 8
@@ -359,12 +368,54 @@ cases:
       - id: ajgoldberg
         name: "Arthur Goldberg"
         majority: false
+  - id: "1963-142"
+    termId: "1963-10"
+    title: "Maryland Comm. for Fair Representation v. Tawes"
+    volume: "377"
+    page: "656"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, November 13, 1963"
+    dateDecision: "Monday, June 15, 1964"
+    citation: "377 U.S. 656"
+    voteMajority: 7
+    voteMinority: 2
+    authorId: ewarren
+    authorName: "Earl Warren"
+    votes:
+      - id: ewarren
+        name: "Earl Warren"
+        majority: true
+      - id: hlblack
+        name: "Hugo Black"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: true
+      - id: tcclark
+        name: "Tom Clark"
+        majority: true
+      - id: jharlan2
+        name: "John M. Harlan II"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: ajgoldberg
+        name: "Arthur Goldberg"
+        majority: true
   - id: "1963-116"
     termId: "1963-10"
     title: "Massiah v. United States"
     volume: "377"
     page: "201"
     pdfSource: "loc"
+    dateArgument: "Tuesday, March 3, 1964"
     dateDecision: "Monday, May 18, 1964"
     citation: "377 U.S. 201"
     voteMajority: 6
@@ -405,6 +456,7 @@ cases:
     volume: "377"
     page: "218"
     pdfSource: "loc"
+    dateArgument: "Monday, March 30, 1964"
     dateDecision: "Monday, May 25, 1964"
     citation: "377 U.S. 218"
     voteMajority: 7
@@ -439,52 +491,13 @@ cases:
       - id: ajgoldberg
         name: "Arthur Goldberg"
         majority: true
-  - id: "1963-142"
-    termId: "1963-10"
-    title: "Maryland Comm. for Fair Representation v. Tawes"
-    volume: "377"
-    page: "656"
-    pdfSource: "loc"
-    dateDecision: "Monday, June 15, 1964"
-    citation: "377 U.S. 656"
-    voteMajority: 7
-    voteMinority: 2
-    authorId: ewarren
-    authorName: "Earl Warren"
-    votes:
-      - id: ewarren
-        name: "Earl Warren"
-        majority: true
-      - id: hlblack
-        name: "Hugo Black"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: true
-      - id: tcclark
-        name: "Tom Clark"
-        majority: true
-      - id: jharlan2
-        name: "John M. Harlan II"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: false
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: ajgoldberg
-        name: "Arthur Goldberg"
-        majority: true
   - id: "1963-148"
     termId: "1963-10"
     title: "United States v. Boyd"
     volume: "378"
     page: "039"
     pdfSource: "loc"
+    dateArgument: "Monday, April 20, 1964"
     dateDecision: "Monday, June 15, 1964"
     citation: "378 U.S. 39"
     voteMajority: 9
@@ -525,6 +538,7 @@ cases:
     volume: "381"
     page: "676"
     pdfSource: "loc"
+    dateArgument: "Wednesday, January 27, 1965"
     dateDecision: "Monday, June 7, 1965"
     citation: "381 U.S. 676"
     voteMajority: 6
@@ -565,6 +579,7 @@ cases:
     volume: "395"
     page: "367"
     pdfSource: "loc"
+    dateArgument: "Wednesday, April 2, 1969"
     dateDecision: "Monday, June 9, 1969"
     citation: "395 U.S. 367"
     voteMajority: 7
@@ -602,6 +617,7 @@ cases:
     volume: "424"
     page: "001"
     pdfSource: "loc"
+    dateArgument: "Monday, November 10, 1975"
     dateDecision: "Friday, January 30, 1976"
     citation: "424 U.S. 1"
     voteMajority: 7
@@ -640,6 +656,7 @@ cases:
     volume: "438"
     page: "265"
     pdfSource: "loc"
+    dateArgument: "Wednesday, October 12, 1977"
     dateDecision: "Monday, June 26, 1978"
     citation: "438 U.S. 265"
     voteMajority: 5
@@ -680,6 +697,7 @@ cases:
     volume: "455"
     page: "129"
     pdfSource: "loc"
+    dateArgument: "Wednesday, October 7, 1981"
     dateDecision: "Tuesday, January 19, 1982"
     citation: "455 U.S. 129"
     voteMajority: 4

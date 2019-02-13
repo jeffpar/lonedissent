@@ -3,12 +3,46 @@ title: "Cases Argued by Erwin N. Griswold"
 permalink: /advocates/top100/erwin_griswold
 layout: cases
 cases:
+  - id: "50231"
+    termId: "1969-10"
+    title: "Boston &amp; Maine R. Co. v. United States"
+    volume: "396"
+    page: "027"
+    pdfSource: "loc"
+    dateArgument: ""
+    dateDecision: "Monday, November 10, 1969"
+    citation: "396 U.S. 27"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "49891"
+    termId: "1967-10"
+    title: "Central Bank &amp; Trust Co. v. United States"
+    volume: "391"
+    page: "469"
+    pdfSource: "loc"
+    dateArgument: ""
+    dateDecision: "Monday, May 27, 1968"
+    citation: "391 U.S. 469"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "50299"
+    termId: "1968-10"
+    title: "Chicago v. United States"
+    volume: "394"
+    page: "717"
+    pdfSource: "loc"
+    dateArgument: ""
+    dateDecision: "Monday, April 21, 1969"
+    citation: "394 U.S. 717"
+    voteMajority: 0
+    voteMinority: 0
   - id: "1967-121"
     termId: "1967-10"
     title: "Bruton v. United States"
     volume: "391"
     page: "123"
     pdfSource: "loc"
+    dateArgument: "Monday, March 11, 1968"
     dateDecision: "Monday, May 20, 1968"
     citation: "391 U.S. 123"
     voteMajority: 6
@@ -43,116 +77,13 @@ cases:
       - id: tmarshall
         name: "Thurgood Marshall"
         majority: false
-  - id: "49891"
-    termId: "1967-10"
-    title: "Central Bank &amp; Trust Co. v. United States"
-    volume: "391"
-    page: "469"
-    pdfSource: "loc"
-    dateDecision: "Monday, May 27, 1968"
-    citation: "391 U.S. 469"
-    voteMajority: 0
-    voteMinority: 0
-  - id: "50299"
-    termId: "1968-10"
-    title: "Chicago v. United States"
-    volume: "394"
-    page: "717"
-    pdfSource: "loc"
-    dateDecision: "Monday, April 21, 1969"
-    citation: "394 U.S. 717"
-    voteMajority: 0
-    voteMinority: 0
-  - id: "1968-111"
-    termId: "1968-10"
-    title: "United States v. Montgomery County Bd. of Ed."
-    volume: "395"
-    page: "225"
-    pdfSource: "loc"
-    dateDecision: "Monday, June 2, 1969"
-    citation: "395 U.S. 225"
-    voteMajority: 8
-    voteMinority: 0
-    authorId: hlblack
-    authorName: "Hugo Black"
-    votes:
-      - id: ewarren
-        name: "Earl Warren"
-        majority: true
-      - id: hlblack
-        name: "Hugo Black"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: true
-      - id: jharlan2
-        name: "John M. Harlan II"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-  - id: "1968-121"
-    termId: "1968-10"
-    title: "Red Lion Broadcasting Co. v. FCC"
-    volume: "395"
-    page: "367"
-    pdfSource: "loc"
-    dateDecision: "Monday, June 9, 1969"
-    citation: "395 U.S. 367"
-    voteMajority: 7
-    voteMinority: 0
-    authorId: brwhite
-    authorName: "Byron White"
-    votes:
-      - id: ewarren
-        name: "Earl Warren"
-        majority: true
-      - id: hlblack
-        name: "Hugo Black"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: jharlan2
-        name: "John M. Harlan II"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-  - id: "50231"
-    termId: "1969-10"
-    title: "Boston &amp; Maine R. Co. v. United States"
-    volume: "396"
-    page: "027"
-    pdfSource: "loc"
-    dateDecision: "Monday, November 10, 1969"
-    citation: "396 U.S. 27"
-    voteMajority: 0
-    voteMinority: 0
   - id: "1969-017"
     termId: "1969-10"
     title: "Nacirema Operating Co. v. Johnson"
     volume: "396"
     page: "212"
     pdfSource: "loc"
+    dateArgument: "Tuesday, March 25, 1969"
     dateDecision: "Tuesday, December 9, 1969"
     citation: "396 U.S. 212"
     voteMajority: 5
@@ -184,21 +115,60 @@ cases:
       - id: tmarshall
         name: "Thurgood Marshall"
         majority: true
-  - id: "1969-055"
-    termId: "1969-10"
-    title: "United States v. W. M. Webb, Inc."
-    volume: "397"
-    page: "179"
+  - id: "1968-121"
+    termId: "1968-10"
+    title: "Red Lion Broadcasting Co. v. FCC"
+    volume: "395"
+    page: "367"
     pdfSource: "loc"
-    dateDecision: "Tuesday, March 3, 1970"
-    citation: "397 U.S. 179"
+    dateArgument: "Wednesday, April 2, 1969"
+    dateDecision: "Monday, June 9, 1969"
+    citation: "395 U.S. 367"
+    voteMajority: 7
+    voteMinority: 0
+    authorId: brwhite
+    authorName: "Byron White"
+    votes:
+      - id: ewarren
+        name: "Earl Warren"
+        majority: true
+      - id: hlblack
+        name: "Hugo Black"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: jharlan2
+        name: "John M. Harlan II"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+  - id: "1968-111"
+    termId: "1968-10"
+    title: "United States v. Montgomery County Bd. of Ed."
+    volume: "395"
+    page: "225"
+    pdfSource: "loc"
+    dateArgument: "Monday, April 28, 1969"
+    dateDecision: "Monday, June 2, 1969"
+    citation: "395 U.S. 225"
     voteMajority: 8
     voteMinority: 0
-    authorId: jharlan2
-    authorName: "John M. Harlan II"
+    authorId: hlblack
+    authorName: "Hugo Black"
     votes:
-      - id: weburger
-        name: "Warren Burger"
+      - id: ewarren
+        name: "Earl Warren"
         majority: true
       - id: hlblack
         name: "Hugo Black"
@@ -227,6 +197,7 @@ cases:
     volume: "400"
     page: "074"
     pdfSource: "loc"
+    dateArgument: "Wednesday, October 15, 1969"
     dateDecision: "Tuesday, December 15, 1970"
     citation: "400 U.S. 74"
     voteMajority: 5
@@ -261,22 +232,23 @@ cases:
       - id: hablackmun
         name: "Harry Blackmun"
         majority: true
-  - id: "1970-014"
-    termId: "1970-10"
-    title: "Oregon v. Mitchell"
-    volume: "400"
-    page: "112"
+  - id: "1969-055"
+    termId: "1969-10"
+    title: "United States v. W. M. Webb, Inc."
+    volume: "397"
+    page: "179"
     pdfSource: "loc"
-    dateDecision: "Monday, December 21, 1970"
-    citation: "400 U.S. 112"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: hlblack
-    authorName: "Hugo Black"
+    dateArgument: "Monday, November 17, 1969"
+    dateDecision: "Tuesday, March 3, 1970"
+    citation: "397 U.S. 179"
+    voteMajority: 8
+    voteMinority: 0
+    authorId: jharlan2
+    authorName: "John M. Harlan II"
     votes:
       - id: weburger
         name: "Warren Burger"
-        majority: false
+        majority: true
       - id: hlblack
         name: "Hugo Black"
         majority: true
@@ -285,28 +257,26 @@ cases:
         majority: true
       - id: jharlan2
         name: "John M. Harlan II"
-        majority: false
+        majority: true
       - id: wjbrennan
         name: "William Brennan"
         majority: true
       - id: pstewart
         name: "Potter Stewart"
-        majority: false
+        majority: true
       - id: brwhite
         name: "Byron White"
         majority: true
       - id: tmarshall
         name: "Thurgood Marshall"
         majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: false
   - id: "1970-082"
     termId: "1970-10"
     title: "Swann v. Charlotte-Mecklenburg Bd. of Ed."
     volume: "402"
     page: "001"
     pdfSource: "loc"
+    dateArgument: "Monday, October 12, 1970"
     dateDecision: "Tuesday, April 20, 1971"
     citation: "402 U.S. 1"
     voteMajority: 9
@@ -347,6 +317,7 @@ cases:
     volume: "402"
     page: "033"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 13, 1970"
     dateDecision: "Tuesday, April 20, 1971"
     citation: "402 U.S. 33"
     voteMajority: 9
@@ -381,12 +352,54 @@ cases:
       - id: hablackmun
         name: "Harry Blackmun"
         majority: true
+  - id: "1970-014"
+    termId: "1970-10"
+    title: "Oregon v. Mitchell"
+    volume: "400"
+    page: "112"
+    pdfSource: "loc"
+    dateArgument: "Monday, October 19, 1970"
+    dateDecision: "Monday, December 21, 1970"
+    citation: "400 U.S. 112"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: hlblack
+    authorName: "Hugo Black"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: false
+      - id: hlblack
+        name: "Hugo Black"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: true
+      - id: jharlan2
+        name: "John M. Harlan II"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: false
   - id: "1970-145"
     termId: "1970-10"
     title: "New York Times Co. v. United States"
     volume: "403"
     page: "713"
     pdfSource: "loc"
+    dateArgument: "Saturday, June 26, 1971"
     dateDecision: "Wednesday, June 30, 1971"
     citation: "403 U.S. 713"
     voteMajority: 6
@@ -419,158 +432,13 @@ cases:
       - id: hablackmun
         name: "Harry Blackmun"
         majority: false
-  - id: "1971-029"
-    termId: "1971-10"
-    title: "United States v. Campos-Serrano"
-    volume: "404"
-    page: "293"
-    pdfSource: "loc"
-    dateDecision: "Monday, December 20, 1971"
-    citation: "404 U.S. 293"
-    voteMajority: 4
-    voteMinority: 3
-    authorId: pstewart
-    authorName: "Potter Stewart"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: false
-      - id: wodouglas
-        name: "William Douglas"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: false
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: false
-  - id: "1971-033"
-    termId: "1971-10"
-    title: "United States v. Louisiana"
-    volume: "404"
-    page: "388"
-    pdfSource: "loc"
-    dateDecision: "Monday, December 20, 1971"
-    citation: "404 U.S. 388"
-    voteMajority: 7
-    voteMinority: 0
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-  - id: "1971-034"
-    termId: "1971-10"
-    title: "SEC v. Medical Comm. for Human Rights"
-    volume: "404"
-    page: "403"
-    pdfSource: "loc"
-    dateDecision: "Monday, January 10, 1972"
-    citation: "404 U.S. 403"
-    voteMajority: 6
-    voteMinority: 1
-    authorId: tmarshall
-    authorName: "Thurgood Marshall"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: false
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: false
-  - id: "1971-044"
-    termId: "1971-10"
-    title: "Trbovich v. Mine Workers"
-    volume: "404"
-    page: "528"
-    pdfSource: "loc"
-    dateDecision: "Monday, January 17, 1972"
-    citation: "404 U.S. 528"
-    voteMajority: 6
-    voteMinority: 1
-    authorId: tmarshall
-    authorName: "Thurgood Marshall"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: false
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: false
   - id: "1971-061"
     termId: "1971-10"
     title: "Giglio v. United States"
     volume: "405"
     page: "150"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 12, 1971"
     dateDecision: "Thursday, February 24, 1972"
     citation: "405 U.S. 150"
     voteMajority: 7
@@ -605,50 +473,13 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: false
-  - id: "1971-067"
-    termId: "1971-10"
-    title: "Iowa Beef Packers, Inc. v. Thompson"
-    volume: "405"
-    page: "228"
-    pdfSource: "loc"
-    dateDecision: "Tuesday, February 29, 1972"
-    citation: "405 U.S. 228"
-    voteMajority: 8
-    voteMinority: 1
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
   - id: "1971-076"
     termId: "1971-10"
     title: "Fein v. Selective Serv. System Local Bd. No. 7 of Yonkers"
     volume: "405"
     page: "365"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 12, 1971"
     dateDecision: "Tuesday, March 21, 1972"
     citation: "405 U.S. 365"
     voteMajority: 4
@@ -683,12 +514,89 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: false
+  - id: "1971-029"
+    termId: "1971-10"
+    title: "United States v. Campos-Serrano"
+    volume: "404"
+    page: "293"
+    pdfSource: "loc"
+    dateArgument: "Thursday, October 14, 1971"
+    dateDecision: "Monday, December 20, 1971"
+    citation: "404 U.S. 293"
+    voteMajority: 4
+    voteMinority: 3
+    authorId: pstewart
+    authorName: "Potter Stewart"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: false
+      - id: wodouglas
+        name: "William Douglas"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: false
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: false
+  - id: "1971-034"
+    termId: "1971-10"
+    title: "SEC v. Medical Comm. for Human Rights"
+    volume: "404"
+    page: "403"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, November 10, 1971"
+    dateDecision: "Monday, January 10, 1972"
+    citation: "404 U.S. 403"
+    voteMajority: 6
+    voteMinority: 1
+    authorId: tmarshall
+    authorName: "Thurgood Marshall"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: false
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: false
   - id: "1971-092"
     termId: "1971-10"
     title: "Sierra Club v. Morton"
     volume: "405"
     page: "727"
     pdfSource: "loc"
+    dateArgument: "Wednesday, November 17, 1971"
     dateDecision: "Wednesday, April 19, 1972"
     citation: "405 U.S. 727"
     voteMajority: 4
@@ -723,28 +631,29 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: false
-  - id: "1971-109"
+  - id: "1971-044"
     termId: "1971-10"
-    title: "Strait v. Laird"
-    volume: "406"
-    page: "341"
+    title: "Trbovich v. Mine Workers"
+    volume: "404"
+    page: "528"
     pdfSource: "loc"
-    dateDecision: "Monday, May 22, 1972"
-    citation: "406 U.S. 341"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: wodouglas
-    authorName: "William Douglas"
+    dateArgument: "Thursday, November 18, 1971"
+    dateDecision: "Monday, January 17, 1972"
+    citation: "404 U.S. 528"
+    voteMajority: 6
+    voteMinority: 1
+    authorId: tmarshall
+    authorName: "Thurgood Marshall"
     votes:
       - id: weburger
         name: "Warren Burger"
-        majority: false
+        majority: true
       - id: wodouglas
         name: "William Douglas"
-        majority: true
+        majority: false
       - id: wjbrennan
         name: "William Brennan"
-        majority: false
+        majority: true
       - id: pstewart
         name: "Potter Stewart"
         majority: true
@@ -760,46 +669,6 @@ cases:
       - id: lfpowell
         name: "Lewis Powell"
         majority: false
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: false
-  - id: "1971-113"
-    termId: "1971-10"
-    title: "Kastigar v. United States"
-    volume: "406"
-    page: "441"
-    pdfSource: "loc"
-    dateDecision: "Monday, May 22, 1972"
-    citation: "406 U.S. 441"
-    voteMajority: 5
-    voteMinority: 2
-    authorId: lfpowell
-    authorName: "Lewis Powell"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: false
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: false
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
       - id: whrehnquist
         name: "William Rehnquist"
         majority: false
@@ -809,6 +678,7 @@ cases:
     volume: "407"
     page: "025"
     pdfSource: "loc"
+    dateArgument: "Monday, December 6, 1971"
     dateDecision: "Monday, June 12, 1972"
     citation: "407 U.S. 25"
     voteMajority: 9
@@ -843,138 +713,17 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: true
-  - id: "1971-159"
+  - id: "1971-033"
     termId: "1971-10"
-    title: "Laird v. Tatum"
-    volume: "408"
-    page: "001"
+    title: "United States v. Louisiana"
+    volume: "404"
+    page: "388"
     pdfSource: "loc"
-    dateDecision: "Monday, June 26, 1972"
-    citation: "408 U.S. 1"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: weburger
-    authorName: "Warren Burger"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: false
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: false
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: false
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-  - id: "1971-175"
-    termId: "1971-10"
-    title: "Gravel v. United States"
-    volume: "408"
-    page: "606"
-    pdfSource: "loc"
-    dateDecision: "Thursday, June 29, 1972"
-    citation: "408 U.S. 606"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: brwhite
-    authorName: "Byron White"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: false
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: false
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: false
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-  - id: "1971-176"
-    termId: "1971-10"
-    title: "Branzburg v. Hayes"
-    volume: "408"
-    page: "665"
-    pdfSource: "loc"
-    dateDecision: "Thursday, June 29, 1972"
-    citation: "408 U.S. 665"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: brwhite
-    authorName: "Byron White"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: false
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: false
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: false
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-  - id: "1972-025"
-    termId: "1972-10"
-    title: "Executive Jet Aviation, Inc. v. Cleveland"
-    volume: "409"
-    page: "249"
-    pdfSource: "loc"
-    dateDecision: "Monday, December 18, 1972"
-    citation: "409 U.S. 249"
-    voteMajority: 9
+    dateArgument: "Tuesday, December 14, 1971"
+    dateDecision: "Monday, December 20, 1971"
+    citation: "404 U.S. 388"
+    voteMajority: 7
     voteMinority: 0
-    authorId: pstewart
-    authorName: "Potter Stewart"
     votes:
       - id: weburger
         name: "Warren Burger"
@@ -997,22 +746,17 @@ cases:
       - id: hablackmun
         name: "Harry Blackmun"
         majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-  - id: "1972-063"
-    termId: "1972-10"
-    title: "United States v. Basye"
-    volume: "410"
+  - id: "1971-113"
+    termId: "1971-10"
+    title: "Kastigar v. United States"
+    volume: "406"
     page: "441"
     pdfSource: "loc"
-    dateDecision: "Tuesday, February 27, 1973"
-    citation: "410 U.S. 441"
-    voteMajority: 8
-    voteMinority: 1
+    dateArgument: "Tuesday, January 11, 1972"
+    dateDecision: "Monday, May 22, 1972"
+    citation: "406 U.S. 441"
+    voteMajority: 5
+    voteMinority: 2
     authorId: lfpowell
     authorName: "Lewis Powell"
     votes:
@@ -1024,46 +768,6 @@ cases:
         majority: false
       - id: wjbrennan
         name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-  - id: "1972-069"
-    termId: "1972-10"
-    title: "Hurtado v. United States"
-    volume: "410"
-    page: "578"
-    pdfSource: "loc"
-    dateDecision: "Monday, March 5, 1973"
-    citation: "410 U.S. 578"
-    voteMajority: 7
-    voteMinority: 2
-    authorId: pstewart
-    authorName: "Potter Stewart"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
         majority: false
       - id: pstewart
         name: "Potter Stewart"
@@ -1073,7 +777,7 @@ cases:
         majority: true
       - id: tmarshall
         name: "Thurgood Marshall"
-        majority: true
+        majority: false
       - id: hablackmun
         name: "Harry Blackmun"
         majority: true
@@ -1082,19 +786,18 @@ cases:
         majority: true
       - id: whrehnquist
         name: "William Rehnquist"
-        majority: true
-  - id: "1972-099"
-    termId: "1972-10"
-    title: "Palmore v. United States"
-    volume: "411"
-    page: "389"
+        majority: false
+  - id: "1971-067"
+    termId: "1971-10"
+    title: "Iowa Beef Packers, Inc. v. Thompson"
+    volume: "405"
+    page: "228"
     pdfSource: "loc"
-    dateDecision: "Tuesday, April 24, 1973"
-    citation: "411 U.S. 389"
+    dateArgument: "Wednesday, January 12, 1972"
+    dateDecision: "Tuesday, February 29, 1972"
+    citation: "405 U.S. 228"
     voteMajority: 8
     voteMinority: 1
-    authorId: brwhite
-    authorName: "Byron White"
     votes:
       - id: weburger
         name: "Warren Burger"
@@ -1102,206 +805,6 @@ cases:
       - id: wodouglas
         name: "William Douglas"
         majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-  - id: "1972-108"
-    termId: "1972-10"
-    title: "United States v. Cartwright"
-    volume: "411"
-    page: "546"
-    pdfSource: "loc"
-    dateDecision: "Monday, May 7, 1973"
-    citation: "411 U.S. 546"
-    voteMajority: 6
-    voteMinority: 3
-    authorId: brwhite
-    authorName: "Byron White"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: false
-      - id: wodouglas
-        name: "William Douglas"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: false
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: false
-  - id: "1972-125"
-    termId: "1972-10"
-    title: "Columbia Broadcasting System, Inc. v. Democratic National Committee"
-    volume: "412"
-    page: "094"
-    pdfSource: "loc"
-    dateDecision: "Tuesday, May 29, 1973"
-    citation: "412 U.S. 94"
-    voteMajority: 7
-    voteMinority: 2
-    authorId: weburger
-    authorName: "Warren Burger"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: false
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: false
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-  - id: "1972-132"
-    termId: "1972-10"
-    title: "United States v. Mason"
-    volume: "412"
-    page: "391"
-    pdfSource: "loc"
-    dateDecision: "Monday, June 4, 1973"
-    citation: "412 U.S. 391"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: tmarshall
-    authorName: "Thurgood Marshall"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-  - id: "1972-151"
-    termId: "1972-10"
-    title: "United States v. Students Challenging Regulatory Agency Procedures (SCRAP)"
-    volume: "412"
-    page: "669"
-    pdfSource: "loc"
-    dateDecision: "Monday, June 18, 1973"
-    citation: "412 U.S. 669"
-    voteMajority: 6
-    voteMinority: 2
-    authorId: pstewart
-    authorName: "Potter Stewart"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: false
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: false
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-  - id: "1972-157"
-    termId: "1972-10"
-    title: "Gilligan v. Morgan"
-    volume: "413"
-    page: "001"
-    pdfSource: "loc"
-    dateDecision: "Thursday, June 21, 1973"
-    citation: "413 U.S. 1"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: weburger
-    authorName: "Warren Burger"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: true
       - id: wjbrennan
         name: "William Brennan"
         majority: true
@@ -1329,6 +832,7 @@ cases:
     volume: "413"
     page: "123"
     pdfSource: "loc"
+    dateArgument: "Wednesday, January 19, 1972"
     dateDecision: "Thursday, June 21, 1973"
     citation: "413 U.S. 123"
     voteMajority: 5
@@ -1369,6 +873,7 @@ cases:
     volume: "413"
     page: "139"
     pdfSource: "loc"
+    dateArgument: "Wednesday, January 19, 1972"
     dateDecision: "Thursday, June 21, 1973"
     citation: "413 U.S. 139"
     voteMajority: 5
@@ -1403,12 +908,423 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: true
+  - id: "1971-176"
+    termId: "1971-10"
+    title: "Branzburg v. Hayes"
+    volume: "408"
+    page: "665"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, February 23, 1972"
+    dateDecision: "Thursday, June 29, 1972"
+    citation: "408 U.S. 665"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: brwhite
+    authorName: "Byron White"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: false
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: false
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+  - id: "1971-109"
+    termId: "1971-10"
+    title: "Strait v. Laird"
+    volume: "406"
+    page: "341"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, March 22, 1972"
+    dateDecision: "Monday, May 22, 1972"
+    citation: "406 U.S. 341"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: wodouglas
+    authorName: "William Douglas"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: false
+      - id: wodouglas
+        name: "William Douglas"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: false
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: false
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: false
+  - id: "1971-159"
+    termId: "1971-10"
+    title: "Laird v. Tatum"
+    volume: "408"
+    page: "001"
+    pdfSource: "loc"
+    dateArgument: "Monday, March 27, 1972"
+    dateDecision: "Monday, June 26, 1972"
+    citation: "408 U.S. 1"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: weburger
+    authorName: "Warren Burger"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: false
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: false
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+  - id: "1971-175"
+    termId: "1971-10"
+    title: "Gravel v. United States"
+    volume: "408"
+    page: "606"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, April 19, 1972"
+    dateDecision: "Thursday, June 29, 1972"
+    citation: "408 U.S. 606"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: brwhite
+    authorName: "Byron White"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: false
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: false
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+  - id: "1972-125"
+    termId: "1972-10"
+    title: "Columbia Broadcasting System, Inc. v. Democratic National Committee"
+    volume: "412"
+    page: "094"
+    pdfSource: "loc"
+    dateArgument: "Monday, October 16, 1972"
+    dateDecision: "Tuesday, May 29, 1973"
+    citation: "412 U.S. 94"
+    voteMajority: 7
+    voteMinority: 2
+    authorId: weburger
+    authorName: "Warren Burger"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: false
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: false
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+  - id: "1972-025"
+    termId: "1972-10"
+    title: "Executive Jet Aviation, Inc. v. Cleveland"
+    volume: "409"
+    page: "249"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, November 15, 1972"
+    dateDecision: "Monday, December 18, 1972"
+    citation: "409 U.S. 249"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: pstewart
+    authorName: "Potter Stewart"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+  - id: "1972-063"
+    termId: "1972-10"
+    title: "United States v. Basye"
+    volume: "410"
+    page: "441"
+    pdfSource: "loc"
+    dateArgument: "Monday, December 11, 1972"
+    dateDecision: "Tuesday, February 27, 1973"
+    citation: "410 U.S. 441"
+    voteMajority: 8
+    voteMinority: 1
+    authorId: lfpowell
+    authorName: "Lewis Powell"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+  - id: "1972-108"
+    termId: "1972-10"
+    title: "United States v. Cartwright"
+    volume: "411"
+    page: "546"
+    pdfSource: "loc"
+    dateArgument: "Tuesday, January 16, 1973"
+    dateDecision: "Monday, May 7, 1973"
+    citation: "411 U.S. 546"
+    voteMajority: 6
+    voteMinority: 3
+    authorId: brwhite
+    authorName: "Byron White"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: false
+      - id: wodouglas
+        name: "William Douglas"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: false
+  - id: "1972-069"
+    termId: "1972-10"
+    title: "Hurtado v. United States"
+    volume: "410"
+    page: "578"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, January 17, 1973"
+    dateDecision: "Monday, March 5, 1973"
+    citation: "410 U.S. 578"
+    voteMajority: 7
+    voteMinority: 2
+    authorId: pstewart
+    authorName: "Potter Stewart"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: false
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+  - id: "1972-099"
+    termId: "1972-10"
+    title: "Palmore v. United States"
+    volume: "411"
+    page: "389"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, February 21, 1973"
+    dateDecision: "Tuesday, April 24, 1973"
+    citation: "411 U.S. 389"
+    voteMajority: 8
+    voteMinority: 1
+    authorId: brwhite
+    authorName: "Byron White"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
   - id: "1972-167"
     termId: "1972-10"
     title: "NAACP v. New York"
     volume: "413"
     page: "345"
     pdfSource: "loc"
+    dateArgument: "Tuesday, February 27, 1973"
     dateDecision: "Thursday, June 21, 1973"
     citation: "413 U.S. 345"
     voteMajority: 6
@@ -1443,12 +1359,95 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: true
+  - id: "1972-151"
+    termId: "1972-10"
+    title: "United States v. Students Challenging Regulatory Agency Procedures (SCRAP)"
+    volume: "412"
+    page: "669"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, February 28, 1973"
+    dateDecision: "Monday, June 18, 1973"
+    citation: "412 U.S. 669"
+    voteMajority: 6
+    voteMinority: 2
+    authorId: pstewart
+    authorName: "Potter Stewart"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: false
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: false
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+  - id: "1972-157"
+    termId: "1972-10"
+    title: "Gilligan v. Morgan"
+    volume: "413"
+    page: "001"
+    pdfSource: "loc"
+    dateArgument: "Monday, March 19, 1973"
+    dateDecision: "Thursday, June 21, 1973"
+    citation: "413 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: weburger
+    authorName: "Warren Burger"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
   - id: "1972-177"
     termId: "1972-10"
     title: "Civil Service Comm&apos;n v. Letter Carriers"
     volume: "413"
     page: "548"
     pdfSource: "loc"
+    dateArgument: "Monday, March 26, 1973"
     dateDecision: "Monday, June 25, 1973"
     citation: "413 U.S. 548"
     voteMajority: 6
@@ -1483,12 +1482,54 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: true
+  - id: "1972-132"
+    termId: "1972-10"
+    title: "United States v. Mason"
+    volume: "412"
+    page: "391"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, April 18, 1973"
+    dateDecision: "Monday, June 4, 1973"
+    citation: "412 U.S. 391"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: tmarshall
+    authorName: "Thurgood Marshall"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
   - id: "1973-098"
     termId: "1973-10"
     title: "Kewanee Oil Co. v. Bicron Corp."
     volume: "416"
     page: "470"
     pdfSource: "loc"
+    dateArgument: "Wednesday, January 9, 1974"
     dateDecision: "Monday, May 13, 1974"
     citation: "416 U.S. 470"
     voteMajority: 6
@@ -1529,6 +1570,7 @@ cases:
     volume: "434"
     page: "452"
     pdfSource: "loc"
+    dateArgument: "Tuesday, October 11, 1977"
     dateDecision: "Tuesday, February 21, 1978"
     citation: "434 U.S. 452"
     voteMajority: 7
@@ -1569,6 +1611,7 @@ cases:
     volume: "435"
     page: "561"
     pdfSource: "loc"
+    dateArgument: "Wednesday, November 2, 1977"
     dateDecision: "Tuesday, April 18, 1978"
     citation: "435 U.S. 561"
     voteMajority: 7
@@ -1609,6 +1652,7 @@ cases:
     volume: "436"
     page: "775"
     pdfSource: "loc"
+    dateArgument: "Monday, January 16, 1978"
     dateDecision: "Monday, June 12, 1978"
     citation: "436 U.S. 775"
     voteMajority: 8
@@ -1649,6 +1693,7 @@ cases:
     volume: "440"
     page: "257"
     pdfSource: "loc"
+    dateArgument: "Wednesday, December 6, 1978"
     dateDecision: "Wednesday, February 28, 1979"
     citation: "440 U.S. 257"
     voteMajority: 9
@@ -1689,6 +1734,7 @@ cases:
     volume: "447"
     page: "027"
     pdfSource: "loc"
+    dateArgument: "Tuesday, January 15, 1980"
     dateDecision: "Monday, June 9, 1980"
     citation: "447 U.S. 27"
     voteMajority: 9
@@ -1729,6 +1775,7 @@ cases:
     volume: "452"
     page: "378"
     pdfSource: "loc"
+    dateArgument: "Wednesday, April 29, 1981"
     dateDecision: "Monday, June 15, 1981"
     citation: "452 U.S. 378"
     voteMajority: 9
@@ -1769,6 +1816,7 @@ cases:
     volume: "458"
     page: "419"
     pdfSource: "loc"
+    dateArgument: "Tuesday, March 30, 1982"
     dateDecision: "Wednesday, June 30, 1982"
     citation: "458 U.S. 419"
     voteMajority: 6
@@ -1809,6 +1857,7 @@ cases:
     volume: "467"
     page: "752"
     pdfSource: "loc"
+    dateArgument: "Monday, December 5, 1983"
     dateDecision: "Tuesday, June 19, 1984"
     citation: "467 U.S. 752"
     voteMajority: 5
@@ -1849,6 +1898,7 @@ cases:
     volume: "479"
     page: "130"
     pdfSource: "loc"
+    dateArgument: "Monday, October 6, 1986"
     dateDecision: "Tuesday, December 9, 1986"
     citation: "479 U.S. 130"
     voteMajority: 9
@@ -1889,6 +1939,7 @@ cases:
     volume: "482"
     page: "182"
     pdfSource: "loc"
+    dateArgument: "Tuesday, March 31, 1987"
     dateDecision: "Monday, June 8, 1987"
     citation: "482 U.S. 182"
     voteMajority: 9
