@@ -878,22 +878,24 @@ function readCSV(filePath, encodeAs="")
 function writeCSV(filePath, rows, fOverwrite=argv['overwrite'])
 {
     let text = "";
-    let keys = Object.keys(rows[0]);
-    keys.forEach((key) => {
-        if (text) text += ',';
-        text += key;
-    });
-    text += '\n';
-    rows.forEach((row) => {
-        let line = "";
+    if (rows.length) {
+        let keys = Object.keys(rows[0]);
         keys.forEach((key) => {
-            if (line) line += ',';
-            let s = row[key];
-            if (typeof s == "string") s = '"' + he.decode(s).replace(/"/g, '""') + '"';
-            line += s;
+            if (text) text += ',';
+            text += key;
         });
-        text += line + '\n';
-    });
+        text += '\n';
+        rows.forEach((row) => {
+            let line = "";
+            keys.forEach((key) => {
+                if (line) line += ',';
+                let s = row[key];
+                if (typeof s == "string") s = '"' + he.decode(s).replace(/"/g, '""') + '"';
+                line += s;
+            });
+            text += line + '\n';
+        });
+    }
     writeFile(filePath, text, fOverwrite);
 }
 

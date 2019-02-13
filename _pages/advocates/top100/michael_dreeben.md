@@ -990,51 +990,8 @@ cases:
       - id: sgbreyer
         name: "Stephen Breyer"
         majority: true
-  - id: "1995-011"
-    number: 24
-    termId: "1995-10"
-    title: "Bailey v. United States"
-    volume: "516"
-    page: "137"
-    pdfSource: "loc"
-    dateArgument: "Monday, October 30, 1995"
-    dateDecision: "Wednesday, December 6, 1995"
-    urlOyez: "https://www.oyez.org/cases/1995/94-7448"
-    citation: "516 U.S. 137"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: sdoconnor
-    authorName: "Sandra Day O'Connor"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
   - id: "1995-071"
-    number: 25
+    number: 24
     termId: "1995-10"
     title: "Koon v. United States"
     volume: "518"
@@ -1077,7 +1034,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1995-079"
-    number: 26
+    number: 25
     termId: "1995-10"
     title: "United States v. Ursery"
     volume: "518"
@@ -1120,7 +1077,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-031"
-    number: 27
+    number: 26
     termId: "1996-10"
     title: "United States v. Wells"
     volume: "519"
@@ -1163,136 +1120,50 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-061"
+    number: 27
+    termId: "1996-10"
+    title: "United States v. LaBonte"
+    volume: "520"
+    page: "751"
+    pdfSource: "loc"
+    dateArgument: "Tuesday, January 7, 1997"
+    dateDecision: "Tuesday, May 27, 1997"
+    urlOyez: "https://www.oyez.org/cases/1996/95-1726"
+    citation: "520 U.S. 751"
+    voteMajority: 6
+    voteMinority: 3
+    authorId: cthomas
+    authorName: "Clarence Thomas"
+    votes:
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: false
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: false
+  - id: "1996-050"
     number: 28
-    termId: "1996-10"
-    title: "United States v. LaBonte"
-    volume: "520"
-    page: "751"
-    pdfSource: "loc"
-    dateArgument: "Tuesday, January 7, 1997"
-    dateDecision: "Tuesday, May 27, 1997"
-    urlOyez: "https://www.oyez.org/cases/1996/95-1726"
-    citation: "520 U.S. 751"
-    voteMajority: 6
-    voteMinority: 3
-    authorId: cthomas
-    authorName: "Clarence Thomas"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: false
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: false
-  - id: "1996-061"
-    number: 29
-    termId: "1996-10"
-    title: "United States v. LaBonte"
-    volume: "520"
-    page: "751"
-    pdfSource: "loc"
-    dateArgument: "Tuesday, January 7, 1997"
-    dateDecision: "Tuesday, May 27, 1997"
-    urlOyez: "https://www.oyez.org/cases/1996/95-1726"
-    citation: "520 U.S. 751"
-    voteMajority: 6
-    voteMinority: 3
-    authorId: cthomas
-    authorName: "Clarence Thomas"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: false
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: false
-  - id: "1996-050"
-    number: 30
-    termId: "1996-10"
-    title: "Johnson v. United States"
-    volume: "520"
-    page: "461"
-    pdfSource: "loc"
-    dateArgument: "Tuesday, February 25, 1997"
-    dateDecision: "Monday, May 12, 1997"
-    urlOyez: "https://www.oyez.org/cases/1996/96-203"
-    citation: "520 U.S. 461"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: whrehnquist
-    authorName: "William Rehnquist"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "1996-050"
-    number: 31
     termId: "1996-10"
     title: "Johnson v. United States"
     volume: "520"
@@ -1335,7 +1206,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-090"
-    number: 32
+    number: 29
     termId: "1996-10"
     title: "United States v. O&apos;Hagan"
     volume: "521"
@@ -1378,7 +1249,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-009"
-    number: 33
+    number: 30
     termId: "1997-10"
     title: "Hudson v. United States"
     volume: "522"
@@ -1421,7 +1292,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-048"
-    number: 34
+    number: 31
     termId: "1997-10"
     title: "United States v. Scheffer"
     volume: "523"
@@ -1464,7 +1335,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-062"
-    number: 35
+    number: 32
     termId: "1997-10"
     title: "Bousley v. United States"
     volume: "523"
@@ -1507,7 +1378,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-099"
-    number: 36
+    number: 33
     termId: "1997-10"
     title: "United States v. Balsys"
     volume: "524"
@@ -1550,7 +1421,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1998-044"
-    number: 37
+    number: 34
     termId: "1998-10"
     title: "Mitchell v. United States"
     volume: "526"
@@ -1593,7 +1464,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-079"
-    number: 38
+    number: 35
     termId: "1998-10"
     title: "Jones v. United States"
     volume: "527"
@@ -1636,7 +1507,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1998-053"
-    number: 39
+    number: 36
     termId: "1998-10"
     title: "Clinton v. Goldsmith"
     volume: "526"
@@ -1679,7 +1550,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-024"
-    number: 40
+    number: 37
     termId: "1999-10"
     title: "United States v. Martinez-Salazar"
     volume: "528"
@@ -1722,7 +1593,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-068"
-    number: 41
+    number: 38
     termId: "1999-10"
     title: "United States v. Hubbell"
     volume: "530"
@@ -1765,7 +1636,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-064"
-    number: 42
+    number: 39
     termId: "1999-10"
     title: "Jones v. United States"
     volume: "529"
@@ -1808,7 +1679,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-003"
-    number: 43
+    number: 40
     termId: "2000-10"
     title: "Cleveland v. United States"
     volume: "531"
@@ -1851,7 +1722,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-011"
-    number: 44
+    number: 41
     termId: "2000-10"
     title: "Glover v. United States"
     volume: "531"
@@ -1894,7 +1765,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-045"
-    number: 45
+    number: 42
     termId: "2000-10"
     title: "Daniels v. United States"
     volume: "532"
@@ -1937,7 +1808,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2000-069"
-    number: 46
+    number: 43
     termId: "2000-10"
     title: "Kyllo v. United States"
     volume: "533"
@@ -1980,20 +1851,149 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-029"
+    number: 44
+    termId: "2001-10"
+    title: "United States v. Vonn"
+    volume: "535"
+    page: "055"
+    pdfSource: "loc"
+    dateArgument: "Tuesday, November 6, 2001"
+    dateDecision: "Monday, March 4, 2002"
+    urlOyez: "https://www.oyez.org/cases/2001/00-973"
+    citation: "535 U.S. 55"
+    voteMajority: 8
+    voteMinority: 1
+    authorId: dhsouter
+    authorName: "David Souter"
+    votes:
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+  - id: "2001-076"
+    number: 45
+    termId: "2001-10"
+    title: "Harris v. United States"
+    volume: "536"
+    page: "545"
+    pdfSource: "loc"
+    dateArgument: "Monday, March 25, 2002"
+    dateDecision: "Monday, June 24, 2002"
+    urlOyez: "https://www.oyez.org/cases/2001/00-10666"
+    citation: "536 U.S. 545"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: amkennedy
+    authorName: "Anthony Kennedy"
+    votes:
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: false
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: false
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: false
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+  - id: "2001-048"
+    number: 46
+    termId: "2001-10"
+    title: "United States v. Cotton"
+    volume: "535"
+    page: "625"
+    pdfSource: "loc"
+    dateArgument: "Monday, April 15, 2002"
+    dateDecision: "Monday, May 20, 2002"
+    urlOyez: "https://www.oyez.org/cases/2001/01-687"
+    citation: "535 U.S. 625"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: whrehnquist
+    authorName: "William Rehnquist"
+    votes:
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+  - id: "2002-016"
     number: 47
-    termId: "2001-10"
-    title: "United States v. Vonn"
-    volume: "535"
-    page: "055"
+    termId: "2002-10"
+    title: "United States v. Jimenez Recio"
+    volume: "537"
+    page: "270"
     pdfSource: "loc"
-    dateArgument: "Tuesday, November 6, 2001"
-    dateDecision: "Monday, March 4, 2002"
-    urlOyez: "https://www.oyez.org/cases/2001/00-973"
-    citation: "535 U.S. 55"
+    dateArgument: "Tuesday, November 12, 2002"
+    dateDecision: "Tuesday, January 21, 2003"
+    urlOyez: "https://www.oyez.org/cases/2002/01-1184"
+    citation: "537 U.S. 270"
     voteMajority: 8
     voteMinority: 1
-    authorId: dhsouter
-    authorName: "David Souter"
+    authorId: sgbreyer
+    authorName: "Stephen Breyer"
     votes:
       - id: whrehnquist
         name: "William Rehnquist"
@@ -2022,34 +2022,34 @@ cases:
       - id: sgbreyer
         name: "Stephen Breyer"
         majority: true
-  - id: "2001-029"
+  - id: "2002-039"
     number: 48
-    termId: "2001-10"
-    title: "United States v. Vonn"
-    volume: "535"
-    page: "055"
+    termId: "2002-10"
+    title: "Virginia v. Black"
+    volume: "538"
+    page: "343"
     pdfSource: "loc"
-    dateArgument: "Tuesday, November 6, 2001"
-    dateDecision: "Monday, March 4, 2002"
-    urlOyez: "https://www.oyez.org/cases/2001/00-973"
-    citation: "535 U.S. 55"
-    voteMajority: 8
-    voteMinority: 1
-    authorId: dhsouter
-    authorName: "David Souter"
+    dateArgument: "Wednesday, December 11, 2002"
+    dateDecision: "Monday, April 7, 2003"
+    urlOyez: "https://www.oyez.org/cases/2002/01-1107"
+    citation: "538 U.S. 343"
+    voteMajority: 7
+    voteMinority: 2
+    authorId: sdoconnor
+    authorName: "Sandra Day O'Connor"
     votes:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: true
       - id: jpstevens
         name: "John Paul Stevens"
-        majority: false
+        majority: true
       - id: sdoconnor
         name: "Sandra Day O'Connor"
         majority: true
       - id: ascalia
         name: "Antonin Scalia"
-        majority: true
+        majority: false
       - id: amkennedy
         name: "Anthony Kennedy"
         majority: true
@@ -2058,402 +2058,15 @@ cases:
         majority: true
       - id: cthomas
         name: "Clarence Thomas"
-        majority: true
+        majority: false
       - id: rbginsburg
         name: "Ruth Ginsburg"
         majority: true
       - id: sgbreyer
         name: "Stephen Breyer"
         majority: true
-  - id: "2001-076"
+  - id: "2002-075"
     number: 49
-    termId: "2001-10"
-    title: "Harris v. United States"
-    volume: "536"
-    page: "545"
-    pdfSource: "loc"
-    dateArgument: "Monday, March 25, 2002"
-    dateDecision: "Monday, June 24, 2002"
-    urlOyez: "https://www.oyez.org/cases/2001/00-10666"
-    citation: "536 U.S. 545"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: amkennedy
-    authorName: "Anthony Kennedy"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: false
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: false
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: false
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "2001-076"
-    number: 50
-    termId: "2001-10"
-    title: "Harris v. United States"
-    volume: "536"
-    page: "545"
-    pdfSource: "loc"
-    dateArgument: "Monday, March 25, 2002"
-    dateDecision: "Monday, June 24, 2002"
-    urlOyez: "https://www.oyez.org/cases/2001/00-10666"
-    citation: "536 U.S. 545"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: amkennedy
-    authorName: "Anthony Kennedy"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: false
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: false
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: false
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "2001-048"
-    number: 51
-    termId: "2001-10"
-    title: "United States v. Cotton"
-    volume: "535"
-    page: "625"
-    pdfSource: "loc"
-    dateArgument: "Monday, April 15, 2002"
-    dateDecision: "Monday, May 20, 2002"
-    urlOyez: "https://www.oyez.org/cases/2001/01-687"
-    citation: "535 U.S. 625"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: whrehnquist
-    authorName: "William Rehnquist"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "2001-048"
-    number: 52
-    termId: "2001-10"
-    title: "United States v. Cotton"
-    volume: "535"
-    page: "625"
-    pdfSource: "loc"
-    dateArgument: "Monday, April 15, 2002"
-    dateDecision: "Monday, May 20, 2002"
-    urlOyez: "https://www.oyez.org/cases/2001/01-687"
-    citation: "535 U.S. 625"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: whrehnquist
-    authorName: "William Rehnquist"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "2002-016"
-    number: 53
-    termId: "2002-10"
-    title: "United States v. Jimenez Recio"
-    volume: "537"
-    page: "270"
-    pdfSource: "loc"
-    dateArgument: "Tuesday, November 12, 2002"
-    dateDecision: "Tuesday, January 21, 2003"
-    urlOyez: "https://www.oyez.org/cases/2002/01-1184"
-    citation: "537 U.S. 270"
-    voteMajority: 8
-    voteMinority: 1
-    authorId: sgbreyer
-    authorName: "Stephen Breyer"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "2002-016"
-    number: 54
-    termId: "2002-10"
-    title: "United States v. Jimenez Recio"
-    volume: "537"
-    page: "270"
-    pdfSource: "loc"
-    dateArgument: "Tuesday, November 12, 2002"
-    dateDecision: "Tuesday, January 21, 2003"
-    urlOyez: "https://www.oyez.org/cases/2002/01-1184"
-    citation: "537 U.S. 270"
-    voteMajority: 8
-    voteMinority: 1
-    authorId: sgbreyer
-    authorName: "Stephen Breyer"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "2002-039"
-    number: 55
-    termId: "2002-10"
-    title: "Virginia v. Black"
-    volume: "538"
-    page: "343"
-    pdfSource: "loc"
-    dateArgument: "Wednesday, December 11, 2002"
-    dateDecision: "Monday, April 7, 2003"
-    urlOyez: "https://www.oyez.org/cases/2002/01-1107"
-    citation: "538 U.S. 343"
-    voteMajority: 7
-    voteMinority: 2
-    authorId: sdoconnor
-    authorName: "Sandra Day O'Connor"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: false
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: false
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "2002-039"
-    number: 56
-    termId: "2002-10"
-    title: "Virginia v. Black"
-    volume: "538"
-    page: "343"
-    pdfSource: "loc"
-    dateArgument: "Wednesday, December 11, 2002"
-    dateDecision: "Monday, April 7, 2003"
-    urlOyez: "https://www.oyez.org/cases/2002/01-1107"
-    citation: "538 U.S. 343"
-    voteMajority: 7
-    voteMinority: 2
-    authorId: sdoconnor
-    authorName: "Sandra Day O'Connor"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: false
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: false
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "2002-075"
-    number: 57
-    termId: "2002-10"
-    title: "Sell v. United States"
-    volume: "539"
-    page: "166"
-    pdfSource: "loc"
-    dateArgument: "Monday, March 3, 2003"
-    dateDecision: "Monday, June 16, 2003"
-    urlOyez: "https://www.oyez.org/cases/2002/02-5664"
-    citation: "539 U.S. 166"
-    voteMajority: 6
-    voteMinority: 3
-    authorId: sgbreyer
-    authorName: "Stephen Breyer"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: false
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: false
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: false
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "2002-075"
-    number: 58
     termId: "2002-10"
     title: "Sell v. United States"
     volume: "539"
@@ -2496,7 +2109,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-072"
-    number: 59
+    number: 50
     termId: "2002-10"
     title: "Virginia v. Hicks"
     volume: "539"
@@ -2539,50 +2152,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-040"
-    number: 60
-    termId: "2003-10"
-    title: "Crawford v. Washington"
-    volume: "541"
-    page: "036"
-    pdfSource: "loc"
-    dateArgument: "Monday, November 10, 2003"
-    dateDecision: "Monday, March 8, 2004"
-    urlOyez: "https://www.oyez.org/cases/2003/02-9410"
-    citation: "541 U.S. 36"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: ascalia
-    authorName: "Antonin Scalia"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "2003-040"
-    number: 61
+    number: 51
     termId: "2003-10"
     title: "Crawford v. Washington"
     volume: "541"
@@ -2625,50 +2195,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-088"
-    number: 62
-    termId: "2003-10"
-    title: "United States v. Patane"
-    volume: "542"
-    page: "630"
-    pdfSource: "loc"
-    dateArgument: "Tuesday, December 9, 2003"
-    dateDecision: "Monday, June 28, 2004"
-    urlOyez: "https://www.oyez.org/cases/2003/02-1183"
-    citation: "542 U.S. 630"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: cthomas
-    authorName: "Clarence Thomas"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: false
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: false
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: false
-  - id: "2003-088"
-    number: 63
+    number: 52
     termId: "2003-10"
     title: "United States v. Patane"
     volume: "542"
@@ -2711,50 +2238,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2003-027"
-    number: 64
-    termId: "2003-10"
-    title: "Fellers v. United States"
-    volume: "540"
-    page: "519"
-    pdfSource: "loc"
-    dateArgument: "Wednesday, December 10, 2003"
-    dateDecision: "Monday, January 26, 2004"
-    urlOyez: "https://www.oyez.org/cases/2003/02-6320"
-    citation: "540 U.S. 519"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: sdoconnor
-    authorName: "Sandra Day O'Connor"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "2003-027"
-    number: 65
+    number: 53
     termId: "2003-10"
     title: "Fellers v. United States"
     volume: "540"
@@ -2797,50 +2281,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-061"
-    number: 66
-    termId: "2003-10"
-    title: "Sabri v. United States"
-    volume: "541"
-    page: "600"
-    pdfSource: "loc"
-    dateArgument: "Wednesday, March 3, 2004"
-    dateDecision: "Monday, May 17, 2004"
-    urlOyez: "https://www.oyez.org/cases/2003/03-44"
-    citation: "541 U.S. 600"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: dhsouter
-    authorName: "David Souter"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-  - id: "2003-061"
-    number: 67
+    number: 54
     termId: "2003-10"
     title: "Sabri v. United States"
     volume: "541"
@@ -2883,50 +2324,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-080"
-    number: 68
-    termId: "2003-10"
-    title: "Blakely v. Washington"
-    volume: "542"
-    page: "296"
-    pdfSource: "loc"
-    dateArgument: "Tuesday, March 23, 2004"
-    dateDecision: "Thursday, June 24, 2004"
-    urlOyez: "https://www.oyez.org/cases/2003/02-1632"
-    citation: "542 U.S. 296"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: ascalia
-    authorName: "Antonin Scalia"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: false
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: false
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: false
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: false
-  - id: "2003-080"
-    number: 69
+    number: 55
     termId: "2003-10"
     title: "Blakely v. Washington"
     volume: "542"
@@ -2969,50 +2367,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2004-041"
-    number: 70
-    termId: "2004-10"
-    title: "Pasquantino v. United States"
-    volume: "544"
-    page: "349"
-    pdfSource: "scotusBound"
-    dateArgument: "Tuesday, November 9, 2004"
-    dateDecision: "Tuesday, April 26, 2005"
-    urlOyez: "https://www.oyez.org/cases/2004/03-725"
-    citation: "544 U.S. 349"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: cthomas
-    authorName: "Clarence Thomas"
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: false
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: false
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: false
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: false
-  - id: "2004-041"
-    number: 71
+    number: 56
     termId: "2004-10"
     title: "Pasquantino v. United States"
     volume: "544"
@@ -3055,48 +2410,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2004-050"
-    number: 72
-    termId: "2004-10"
-    title: "Medell&iacute;n v. Dretke"
-    volume: "544"
-    page: "660"
-    pdfSource: "scotusBound"
-    dateArgument: "Monday, March 28, 2005"
-    dateDecision: "Monday, May 23, 2005"
-    urlOyez: "https://www.oyez.org/cases/2004/04-5928"
-    citation: "544 U.S. 660"
-    voteMajority: 5
-    voteMinority: 4
-    votes:
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: false
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: false
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: false
-  - id: "2004-050"
-    number: 73
+    number: 57
     termId: "2004-10"
     title: "Medell&iacute;n v. Dretke"
     volume: "544"
@@ -3137,7 +2451,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2004-051"
-    number: 74
+    number: 58
     termId: "2004-10"
     title: "Arthur Andersen LLP v. United States"
     volume: "544"
@@ -3180,7 +2494,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2005-042"
-    number: 75
+    number: 59
     termId: "2005-10"
     title: "Georgia v. Randolph"
     volume: "547"
@@ -3223,7 +2537,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2005-041"
-    number: 76
+    number: 60
     termId: "2005-10"
     title: "United States v. Grubbs"
     volume: "547"
@@ -3266,7 +2580,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2005-070"
-    number: 77
+    number: 61
     termId: "2005-10"
     title: "Davis v. Washington"
     volume: "547"
@@ -3309,7 +2623,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2005-078"
-    number: 78
+    number: 62
     termId: "2005-10"
     title: "United States v. Gonzalez-Lopez"
     volume: "548"
@@ -3352,7 +2666,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2006-007"
-    number: 79
+    number: 63
     termId: "2006-10"
     title: "United States v. Resendiz-Ponce"
     volume: "549"
@@ -3395,7 +2709,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-067"
-    number: 80
+    number: 64
     termId: "2006-10"
     title: "Rita v. United States"
     volume: "551"
@@ -3438,7 +2752,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-052"
-    number: 81
+    number: 65
     termId: "2006-10"
     title: "Claiborne v. United States"
     volume: "551"
@@ -3479,7 +2793,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-049"
-    number: 82
+    number: 66
     termId: "2006-10"
     title: "Uttecht v. Brown"
     volume: "551"
@@ -3521,51 +2835,8 @@ cases:
       - id: saalito
         name: "Samuel Alito"
         majority: true
-  - id: "2007-005"
-    number: 83
-    termId: "2007-10"
-    title: "Gall v. United States"
-    volume: "552"
-    page: "038"
-    pdfSource: "scotusBound"
-    dateArgument: "Tuesday, October 2, 2007"
-    dateDecision: "Monday, December 10, 2007"
-    urlOyez: "https://www.oyez.org/cases/2007/06-7949"
-    citation: "552 U.S. 38"
-    voteMajority: 7
-    voteMinority: 2
-    authorId: jpstevens
-    authorName: "John Paul Stevens"
-    votes:
-      - id: jgroberts
-        name: "John Roberts"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: false
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-      - id: saalito
-        name: "Samuel Alito"
-        majority: false
   - id: "2007-007"
-    number: 84
+    number: 67
     termId: "2007-10"
     title: "Kimbrough v. United States"
     volume: "552"
@@ -3607,8 +2878,51 @@ cases:
       - id: saalito
         name: "Samuel Alito"
         majority: false
+  - id: "2007-005"
+    number: 68
+    termId: "2007-10"
+    title: "Gall v. United States"
+    volume: "552"
+    page: "038"
+    pdfSource: "scotusBound"
+    dateArgument: "Tuesday, October 2, 2007"
+    dateDecision: "Monday, December 10, 2007"
+    urlOyez: "https://www.oyez.org/cases/2007/06-7949"
+    citation: "552 U.S. 38"
+    voteMajority: 7
+    voteMinority: 2
+    authorId: jpstevens
+    authorName: "John Paul Stevens"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: false
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: false
   - id: "2007-034"
-    number: 85
+    number: 69
     termId: "2007-10"
     title: "Virginia v. Moore"
     volume: "553"
@@ -3651,7 +2965,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-062"
-    number: 86
+    number: 70
     termId: "2007-10"
     title: "Indiana v. Edwards"
     volume: "554"
@@ -3694,7 +3008,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-009"
-    number: 87
+    number: 71
     termId: "2008-10"
     title: "Herring v. United States"
     volume: "555"
@@ -3737,7 +3051,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-020"
-    number: 88
+    number: 72
     termId: "2008-10"
     title: "Van de Kamp v. Goldstein"
     volume: "555"
@@ -3780,7 +3094,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-043"
-    number: 89
+    number: 73
     termId: "2008-10"
     title: "Corley v. United States"
     volume: "556"
@@ -3823,7 +3137,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2008-072"
-    number: 90
+    number: 74
     termId: "2008-10"
     title: "Yeager v. United States"
     volume: "557"
@@ -3866,7 +3180,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2009-034"
-    number: 91
+    number: 75
     termId: "2009-10"
     title: "Padilla v. Kentucky"
     volume: "559"
@@ -3908,49 +3222,8 @@ cases:
       - id: ssotomayor
         name: "Sonia Sotomayor"
         majority: true
-  - id: "2009-094"
-    number: 92
-    termId: "2009-10"
-    title: "Weyhrauch v. United States"
-    volume: "561"
-    page: "476"
-    pdfSource: "scotusBound"
-    dateArgument: "Tuesday, December 8, 2009"
-    dateDecision: "Thursday, June 24, 2010"
-    urlOyez: "https://www.oyez.org/cases/2009/08-1196"
-    citation: "561 U.S. 476"
-    voteMajority: 9
-    voteMinority: 0
-    votes:
-      - id: jgroberts
-        name: "John Roberts"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-      - id: saalito
-        name: "Samuel Alito"
-        majority: true
-      - id: ssotomayor
-        name: "Sonia Sotomayor"
-        majority: true
   - id: "2009-086"
-    number: 93
+    number: 76
     termId: "2009-10"
     title: "Black v. United States"
     volume: "561"
@@ -3992,8 +3265,49 @@ cases:
       - id: ssotomayor
         name: "Sonia Sotomayor"
         majority: true
+  - id: "2009-094"
+    number: 77
+    termId: "2009-10"
+    title: "Weyhrauch v. United States"
+    volume: "561"
+    page: "476"
+    pdfSource: "scotusBound"
+    dateArgument: "Tuesday, December 8, 2009"
+    dateDecision: "Thursday, June 24, 2010"
+    urlOyez: "https://www.oyez.org/cases/2009/08-1196"
+    citation: "561 U.S. 476"
+    voteMajority: 9
+    voteMinority: 0
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: true
   - id: "2009-085"
-    number: 94
+    number: 78
     termId: "2009-10"
     title: "Skilling v. United States"
     volume: "561"
@@ -4036,7 +3350,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2010-065"
-    number: 95
+    number: 79
     termId: "2010-10"
     title: "Bond v. United States"
     volume: "564"
@@ -4079,7 +3393,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2010-066"
-    number: 96
+    number: 80
     termId: "2010-10"
     title: "Davis v. United States"
     volume: "564"
@@ -4122,7 +3436,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-020"
-    number: 97
+    number: 81
     termId: "2011-10"
     title: "United States v. Jones"
     volume: "565"
@@ -4165,7 +3479,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-068"
-    number: 98
+    number: 82
     termId: "2011-10"
     title: "Williams v. Illinois"
     pdfSource: "scotusBound"
@@ -4206,7 +3520,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2011-069"
-    number: 99
+    number: 83
     termId: "2011-10"
     title: "Southern Union Co. v. United States"
     pdfSource: "scotusBound"
@@ -4247,7 +3561,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-071"
-    number: 100
+    number: 84
     termId: "2011-10"
     title: "Dorsey v. United States"
     pdfSource: "scotusBound"
@@ -4288,7 +3602,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-019"
-    number: 101
+    number: 85
     termId: "2012-10"
     title: "Chaidez v. United States"
     pdfSource: "slipopinion/12"
@@ -4329,7 +3643,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-062"
-    number: 102
+    number: 86
     termId: "2012-10"
     title: "Alleyne v. United States"
     pdfSource: "slipopinion/12"
@@ -4370,7 +3684,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-050"
-    number: 103
+    number: 87
     termId: "2012-10"
     title: "Maryland v. King"
     pdfSource: "slipopinion/12"
@@ -4411,7 +3725,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-071"
-    number: 104
+    number: 88
     termId: "2012-10"
     title: "United States v. Kebodeaux"
     pdfSource: "slipopinion/12"
@@ -4452,7 +3766,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-019"
-    number: 105
+    number: 89
     termId: "2013-10"
     title: "Kaley v. United States"
     pdfSource: "slipopinion/13"
@@ -4493,7 +3807,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-008"
-    number: 106
+    number: 90
     termId: "2013-10"
     title: "Unite Here Local 355 v. Mulhall"
     pdfSource: "slipopinion/13"
@@ -4532,7 +3846,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2013-038"
-    number: 107
+    number: 91
     termId: "2013-10"
     title: "Paroline v. United States"
     pdfSource: "slipopinion/13"
@@ -4573,7 +3887,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-016"
-    number: 108
+    number: 92
     termId: "2014-10"
     title: "Johnson v. United States"
     pdfSource: "slipopinion/14"
@@ -4614,7 +3928,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-024"
-    number: 109
+    number: 93
     termId: "2014-10"
     title: "Elonis v. United States"
     pdfSource: "slipopinion/14"
@@ -4655,7 +3969,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-050"
-    number: 110
+    number: 94
     termId: "2014-10"
     title: "Los Angeles v. Patel"
     pdfSource: "slipopinion/14"
@@ -4696,7 +4010,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-006"
-    number: 111
+    number: 95
     termId: "2015-10"
     title: "Montgomery v. Louisiana"
     pdfSource: "slipopinion/15"
@@ -4737,7 +4051,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-019"
-    number: 112
+    number: 96
     termId: "2015-10"
     title: "Luis v. United States"
     pdfSource: "slipopinion/15"
@@ -4775,7 +4089,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2015-055"
-    number: 113
+    number: 97
     termId: "2015-10"
     title: "Welch v. United States"
     pdfSource: "slipopinion/15"
@@ -4813,7 +4127,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-075"
-    number: 114
+    number: 98
     termId: "2015-10"
     title: "McDonnell v. United States"
     pdfSource: "slipopinion/15"
@@ -4851,7 +4165,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-004"
-    number: 115
+    number: 99
     termId: "2016-10"
     title: "Salman v. United States"
     pdfSource: "slipopinion/16"
@@ -4889,7 +4203,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-026"
-    number: 116
+    number: 100
     termId: "2016-10"
     title: "Beckles v. United States"
     pdfSource: "slipopinion/16"
@@ -4927,7 +4241,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2016-061"
-    number: 117
+    number: 101
     termId: "2016-10"
     title: "Turner v. United States"
     pdfSource: "slipopinion/16"
@@ -4968,7 +4282,7 @@ cases:
         name: "Neil Gorsuch"
         majority: false
   - id: "2017-021"
-    number: 118
+    number: 102
     termId: "2017-10"
     title: "Carpenter v. United States"
     pdfSource: "slipopinion/17"
@@ -5009,7 +4323,7 @@ cases:
         name: "Neil Gorsuch"
         majority: false
   - id: "2017-048"
-    number: 119
+    number: 103
     termId: "2017-10"
     title: "United States v. Microsoft Corp."
     pdfSource: "slipopinion/17"
@@ -5049,4 +4363,4 @@ cases:
         majority: true
 ---
 
-Michael R. Dreeben argued 119 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/michael_r_dreeben).
+Michael R. Dreeben argued 103 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/michael_r_dreeben).
