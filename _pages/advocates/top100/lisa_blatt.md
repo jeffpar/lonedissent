@@ -2168,4 +2168,4 @@ cases:
         majority: false
 ---
 
-Lisa S. Blatt argued 56 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/lisa_s_blatt)
+Lisa S. Blatt argued 56 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/lisa_s_blatt).

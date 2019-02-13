@@ -4692,4 +4692,4 @@ cases:
         majority: true
 ---
 
-Michael R. Dreeben argued 119 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/michael_r_dreeben)
+Michael R. Dreeben argued 119 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/michael_r_dreeben).

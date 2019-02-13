@@ -5265,4 +5265,4 @@ cases:
     voteMinority: 0
 ---
 
-Edwin S. Kneedler argued 137 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/edwin_s_kneedler)
+Edwin S. Kneedler argued 137 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/edwin_s_kneedler).

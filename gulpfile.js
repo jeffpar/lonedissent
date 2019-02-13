@@ -1509,7 +1509,7 @@ function buildAdvocates(done)
                 fileText += '---\n\n';
                 fileText += nameAdvocate + " argued " + rowsAdvocate.length + " cases in the U.S. Supreme Court";
                 if (id != "lawrence_wallace") {
-                    fileText += ", according to [Oyez](https://www.oyez.org/advocates/" + aliases[1] + ")\n";
+                    fileText += ", according to [Oyez](https://www.oyez.org/advocates/" + aliases[1] + ").\n";
                 } else {
                     fileText += ".  On November 12, 2002, before Mr. Wallace began his final argument in [Moseley v. V Secret Catalogue, Inc.](https://www.oyez.org/cases/2002/01-1015),\n";
                     fileText += "Chief Justice William Rehnquist publicly acknowledged Mr. Wallace's service:\n\n";

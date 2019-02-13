@@ -714,4 +714,4 @@ cases:
         majority: false
 ---
 
-Archibald Cox argued 18 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/archibald_cox)
+Archibald Cox argued 18 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/archibald_cox).

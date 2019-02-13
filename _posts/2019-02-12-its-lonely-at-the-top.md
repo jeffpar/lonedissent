@@ -14,7 +14,7 @@ noting that it was Mr. Wallace's 157th argument, and that no other lawyer in the
 
 I was working as a consultant on the [Oyez](https://www.oyez.org) website at the time, where efforts were still underway to produce digital
 copies of all Supreme Court oral arguments recorded on reel-to-reel tapes dating back to 1955, and I decided to see if all of Mr. Wallace's
-arguments were in the collection.  All 157 of them.
+arguments were in the collection -- all 157 of them.
 
 The biggest problem was the lack of complete (and accurate) information in the Oyez database -- a problem that persists to this day.
 For example, if you search [Oyez](https://www.oyez.org) for "Lawrence Wallace", you will not find all 157 cases.  This is largely a problem
@@ -32,5 +32,4 @@ same day Jerry and I were also at the Court to watch arguments in [Parents Invol
 I'm still lamenting the state of Supreme Court advocate data on the web, but until I have more time to really dig into it, here's a short
 list of some of the U.S. Supreme Court's [top advocates](/advocates/top100).
 
-*Jeff Parsons*  
-*February 12, 2019*
+*Jeff Parsons*
