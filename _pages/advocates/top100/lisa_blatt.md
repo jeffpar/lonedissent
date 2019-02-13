@@ -4,6 +4,7 @@ permalink: /advocates/top100/lisa_blatt
 layout: cases
 cases:
   - id: "1996-027"
+    number: 1
     termId: "1996-10"
     title: "Regents of Univ. of Cal. v. Doe"
     volume: "519"
@@ -45,6 +46,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-027"
+    number: 2
     termId: "1996-10"
     title: "Regents of Univ. of Cal. v. Doe"
     volume: "519"
@@ -86,6 +88,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-003"
+    number: 3
     termId: "1997-10"
     title: "Bates v. United States"
     volume: "522"
@@ -127,6 +130,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-003"
+    number: 4
     termId: "1997-10"
     title: "Bates v. United States"
     volume: "522"
@@ -168,6 +172,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-028"
+    number: 5
     termId: "1997-10"
     title: "Regions Hospital v. Shalala"
     volume: "522"
@@ -209,6 +214,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-028"
+    number: 6
     termId: "1997-10"
     title: "Regions Hospital v. Shalala"
     volume: "522"
@@ -250,6 +256,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-088"
+    number: 7
     termId: "1997-10"
     title: "Forney v. Apfel"
     volume: "524"
@@ -291,6 +298,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-088"
+    number: 8
     termId: "1997-10"
     title: "Forney v. Apfel"
     volume: "524"
@@ -332,6 +340,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-021"
+    number: 9
     termId: "1998-10"
     title: "Hughes Aircraft Co. v. Jacobson"
     volume: "525"
@@ -373,6 +382,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-021"
+    number: 10
     termId: "1998-10"
     title: "Hughes Aircraft Co. v. Jacobson"
     volume: "525"
@@ -414,6 +424,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-022"
+    number: 11
     termId: "1998-10"
     title: "Your Home Visiting Nurse Services, Inc. v. Shalala"
     volume: "525"
@@ -455,6 +466,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-022"
+    number: 12
     termId: "1998-10"
     title: "Your Home Visiting Nurse Services, Inc. v. Shalala"
     volume: "525"
@@ -496,6 +508,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-016"
+    number: 13
     termId: "1999-10"
     title: "New York v. Hill"
     volume: "528"
@@ -537,6 +550,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-058"
+    number: 14
     termId: "1999-10"
     title: "Fischer v. United States"
     volume: "529"
@@ -578,6 +592,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-058"
+    number: 15
     termId: "1999-10"
     title: "Fischer v. United States"
     volume: "529"
@@ -619,6 +634,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-037"
+    number: 16
     termId: "2000-10"
     title: "Texas v. Cobb"
     volume: "532"
@@ -660,6 +676,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2001-031"
+    number: 17
     termId: "2001-10"
     title: "Edelman v. Lynchburg College"
     volume: "535"
@@ -701,6 +718,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-059"
+    number: 18
     termId: "2001-10"
     title: "Chevron U. S. A. Inc. v. Echazabal"
     volume: "536"
@@ -742,6 +760,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-059"
+    number: 19
     termId: "2001-10"
     title: "Chevron U. S. A. Inc. v. Echazabal"
     volume: "536"
@@ -783,6 +802,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-051"
+    number: 20
     termId: "2001-10"
     title: "Bell v. Cone"
     volume: "535"
@@ -824,6 +844,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-051"
+    number: 21
     termId: "2001-10"
     title: "Bell v. Cone"
     volume: "535"
@@ -865,6 +886,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-037"
+    number: 22
     termId: "2002-10"
     title: "Archer v. Warner"
     volume: "538"
@@ -906,6 +928,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-037"
+    number: 23
     termId: "2002-10"
     title: "Archer v. Warner"
     volume: "538"
@@ -947,6 +970,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-053"
+    number: 24
     termId: "2002-10"
     title: "Breuer v. Jim&apos;s Concrete of Brevard, Inc."
     volume: "538"
@@ -988,6 +1012,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-053"
+    number: 25
     termId: "2002-10"
     title: "Breuer v. Jim&apos;s Concrete of Brevard, Inc."
     volume: "538"
@@ -1029,6 +1054,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-060"
+    number: 26
     termId: "2002-10"
     title: "Black &amp; Decker Disability Plan v. Nord"
     volume: "538"
@@ -1070,6 +1096,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-060"
+    number: 27
     termId: "2002-10"
     title: "Black &amp; Decker Disability Plan v. Nord"
     volume: "538"
@@ -1111,6 +1138,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-028"
+    number: 28
     termId: "2003-10"
     title: "Lamie v. United States Trustee"
     volume: "540"
@@ -1152,6 +1180,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-028"
+    number: 29
     termId: "2003-10"
     title: "Lamie v. United States Trustee"
     volume: "540"
@@ -1193,6 +1222,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-045"
+    number: 30
     termId: "2003-10"
     title: "United States v. Flores-Montano"
     volume: "541"
@@ -1234,6 +1264,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-045"
+    number: 31
     termId: "2003-10"
     title: "United States v. Flores-Montano"
     volume: "541"
@@ -1275,6 +1306,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-022"
+    number: 32
     termId: "2004-10"
     title: "Stewart v. Dutra Constr. Co."
     volume: "543"
@@ -1316,6 +1348,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-022"
+    number: 33
     termId: "2004-10"
     title: "Stewart v. Dutra Constr. Co."
     volume: "543"
@@ -1357,6 +1390,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-044"
+    number: 34
     termId: "2004-10"
     title: "Bates v. Dow Agrosciences LLC"
     volume: "544"
@@ -1398,6 +1432,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-044"
+    number: 35
     termId: "2004-10"
     title: "Bates v. Dow Agrosciences LLC"
     volume: "544"
@@ -1439,6 +1474,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-074"
+    number: 36
     termId: "2004-10"
     title: "Mayle v. Felix"
     volume: "545"
@@ -1480,6 +1516,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-074"
+    number: 37
     termId: "2004-10"
     title: "Mayle v. Felix"
     volume: "545"
@@ -1521,6 +1558,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2005-013"
+    number: 38
     termId: "2005-10"
     title: "Lockhart v. United States"
     volume: "546"
@@ -1562,6 +1600,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2005-013"
+    number: 39
     termId: "2005-10"
     title: "Lockhart v. United States"
     volume: "546"
@@ -1603,6 +1642,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2005-037"
+    number: 40
     termId: "2005-10"
     title: "Scheidler v. National Organization for Women, Inc."
     volume: "547"
@@ -1644,6 +1684,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2005-037"
+    number: 41
     termId: "2005-10"
     title: "Scheidler v. National Organization for Women, Inc."
     volume: "547"
@@ -1685,6 +1726,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2006-018"
+    number: 42
     termId: "2006-10"
     title: "Marrama v. Citizens Bank of Mass."
     volume: "549"
@@ -1726,6 +1768,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2007-036"
+    number: 43
     termId: "2007-10"
     title: "Gonzalez v. United States"
     volume: "553"
@@ -1767,6 +1810,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-047"
+    number: 44
     termId: "2007-10"
     title: "Engquist v. Oregon Dept. of Agriculture"
     volume: "553"
@@ -1808,6 +1852,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-016"
+    number: 45
     termId: "2008-10"
     title: "Crawford v. Metropolitan Government of Nashville and Davidson Cty."
     volume: "555"
@@ -1849,6 +1894,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-057"
+    number: 46
     termId: "2008-10"
     title: "AT&amp;T Corp. v. Hulteen"
     volume: "556"
@@ -1890,6 +1936,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-074"
+    number: 47
     termId: "2008-10"
     title: "Gross v. FBL Financial Services, Inc."
     volume: "557"
@@ -1931,6 +1978,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2010-022"
+    number: 48
     termId: "2010-10"
     title: "Henderson v. Shinseki"
     volume: "562"
@@ -1972,6 +2020,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2010-032"
+    number: 49
     termId: "2010-10"
     title: "Astra USA, Inc. v. Santa Clara County"
     volume: "563"
@@ -2013,6 +2062,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-020"
+    number: 50
     termId: "2012-10"
     title: "Marx v. General Revenue Corp."
     pdfSource: "slipopinion/12"
@@ -2052,6 +2102,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-075"
+    number: 51
     termId: "2012-10"
     title: "Adoptive Couple v. Baby Girl"
     pdfSource: "slipopinion/12"
@@ -2091,6 +2142,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-057"
+    number: 52
     termId: "2012-10"
     title: "Tarrant Regional Water Dist. v. Herrmann"
     pdfSource: "slipopinion/12"
@@ -2130,6 +2182,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-016"
+    number: 53
     termId: "2016-10"
     title: "Bravo-Fernandez v. United States"
     pdfSource: "slipopinion/16"
@@ -2166,6 +2219,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-057"
+    number: 54
     termId: "2016-10"
     title: "Advocate Health Care Network v. Stapleton"
     pdfSource: "slipopinion/16"
@@ -2205,6 +2259,7 @@ cases:
         name: "Neil Gorsuch"
         majority: false
   - id: "62992"
+    number: 55
     termId: "2018-10"
     title: "BNSF Railway Company v. Loos"
     pdfSource: "slipopinion/18"
@@ -2214,6 +2269,7 @@ cases:
     voteMajority: 0
     voteMinority: 0
   - id: "62996"
+    number: 56
     termId: "2018-10"
     title: "Carpenter v. Murphy"
     pdfSource: "slipopinion/18"

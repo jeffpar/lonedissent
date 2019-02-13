@@ -4,6 +4,7 @@ permalink: /advocates/top100/carter_phillips
 layout: cases
 cases:
   - id: "1981-064"
+    number: 1
     termId: "1981-10"
     title: "McElroy v. United States"
     volume: "455"
@@ -45,6 +46,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1981-174"
+    number: 2
     termId: "1981-10"
     title: "United States v. Valenzuela-Bernal"
     volume: "458"
@@ -86,6 +88,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1982-013"
+    number: 3
     termId: "1982-10"
     title: "Port Arthur v. United States"
     volume: "459"
@@ -127,6 +130,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: false
   - id: "1982-039"
+    number: 4
     termId: "1982-10"
     title: "Block v. Neal"
     volume: "460"
@@ -168,6 +172,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1982-090"
+    number: 5
     termId: "1982-10"
     title: "W. R. Grace &amp; Co. v. Rubber Workers"
     volume: "461"
@@ -209,6 +214,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1983-015"
+    number: 6
     termId: "1983-10"
     title: "Commissioner v. Engle"
     volume: "464"
@@ -250,6 +256,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1983-114"
+    number: 7
     termId: "1983-10"
     title: "ICC v. American Trucking Assns., Inc."
     volume: "467"
@@ -291,6 +298,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: false
   - id: "1983-149"
+    number: 8
     termId: "1983-10"
     title: "Securities Industry Assn. v. Board of Governors, FRS"
     volume: "468"
@@ -332,6 +340,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1984-037"
+    number: 9
     termId: "1984-10"
     title: "Heckler v. Turner"
     volume: "470"
@@ -373,6 +382,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1986-003"
+    number: 10
     termId: "1986-10"
     title: "O&apos;Connor v. United States"
     volume: "479"
@@ -414,6 +424,7 @@ cases:
         name: "Antonin Scalia"
         majority: true
   - id: "1986-150"
+    number: 11
     termId: "1986-10"
     title: "McNally v. United States"
     volume: "483"
@@ -455,6 +466,7 @@ cases:
         name: "Antonin Scalia"
         majority: true
   - id: "1988-044"
+    number: 12
     termId: "1988-10"
     title: "Canton v. Harris"
     volume: "489"
@@ -496,6 +508,7 @@ cases:
         name: "Anthony Kennedy"
         majority: false
   - id: "1989-096"
+    number: 13
     termId: "1989-10"
     title: "English v. General Elec. Co."
     volume: "496"
@@ -537,6 +550,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1990-011"
+    number: 14
     termId: "1990-10"
     title: "Arcadia v. Ohio Power Co."
     volume: "498"
@@ -578,6 +592,7 @@ cases:
         name: "David Souter"
         majority: false
   - id: "1991-058"
+    number: 15
     termId: "1991-10"
     title: "Yee v. Escondido"
     volume: "503"
@@ -619,6 +634,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-041"
+    number: 16
     termId: "1992-10"
     title: "Reiter v. Cooper"
     volume: "507"
@@ -660,6 +676,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-060"
+    number: 17
     termId: "1992-10"
     title: "United States v. Olano"
     volume: "507"
@@ -701,6 +718,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-111"
+    number: 18
     termId: "1992-10"
     title: "TXO Production Corp. v. Alliance Resources Corp."
     volume: "509"
@@ -742,6 +760,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-111"
+    number: 19
     termId: "1992-10"
     title: "TXO Production Corp. v. Alliance Resources Corp."
     volume: "509"
@@ -783,6 +802,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1993-019"
+    number: 20
     termId: "1993-10"
     title: "Department of Revenue of Ore. v. ACF Industries, Inc."
     volume: "510"
@@ -824,6 +844,7 @@ cases:
         name: "Ruth Ginsburg"
         majority: true
   - id: "1995-030"
+    number: 21
     termId: "1995-10"
     title: "Hercules, Inc. v. United States"
     volume: "516"
@@ -865,6 +886,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1995-030"
+    number: 22
     termId: "1995-10"
     title: "Hercules, Inc. v. United States"
     volume: "516"
@@ -906,6 +928,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1995-028"
+    number: 23
     termId: "1995-10"
     title: "Norfolk &amp; Western R. Co. v. Hiles"
     volume: "516"
@@ -947,6 +970,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-073"
+    number: 24
     termId: "1996-10"
     title: "Associates Commercial Corp. v. Rash"
     volume: "520"
@@ -988,6 +1012,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-025"
+    number: 25
     termId: "1997-10"
     title: "Oubre v. Entergy Operations, Inc."
     volume: "522"
@@ -1029,6 +1054,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-054"
+    number: 26
     termId: "1997-10"
     title: "Beach v. Ocwen Fed. Bank"
     volume: "523"
@@ -1070,6 +1096,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-014"
+    number: 27
     termId: "1998-10"
     title: "Roberts v. Galen of Va., Inc."
     volume: "525"
@@ -1109,6 +1136,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-047"
+    number: 28
     termId: "1998-10"
     title: "United States v. Haggar Apparel Co."
     volume: "526"
@@ -1150,6 +1178,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-023"
+    number: 29
     termId: "1998-10"
     title: "National Collegiate Athletic Assn. v. Smith"
     volume: "525"
@@ -1191,6 +1220,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-067"
+    number: 30
     termId: "1998-10"
     title: "Amoco Production Co. v. Southern Ute Tribe"
     volume: "526"
@@ -1232,6 +1262,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1999-074"
+    number: 31
     termId: "1999-10"
     title: "Pegram v. Herdrich"
     volume: "530"
@@ -1273,6 +1304,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-047"
+    number: 32
     termId: "1999-10"
     title: "Norfolk Southern R. Co. v. Shanklin"
     volume: "529"
@@ -1314,6 +1346,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-084"
+    number: 33
     termId: "1999-10"
     title: "Mobil Oil Exploration &amp; Producing Southeast, Inc. v. United States"
     volume: "530"
@@ -1352,6 +1385,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-008"
+    number: 34
     termId: "2000-10"
     title: "Green Tree Financial Corp.-Ala. v. Randolph"
     volume: "531"
@@ -1393,6 +1427,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-039"
+    number: 35
     termId: "2000-10"
     title: "United States v. Cleveland Indians Baseball Co."
     volume: "532"
@@ -1434,6 +1469,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-004"
+    number: 36
     termId: "2001-10"
     title: "Correctional Services Corp. v. Malesko"
     volume: "534"
@@ -1475,6 +1511,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2002-032"
+    number: 37
     termId: "2002-10"
     title: "Norfolk &amp; Western R. Co. v. Ayers"
     volume: "538"
@@ -1516,6 +1553,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2002-052"
+    number: 38
     termId: "2002-10"
     title: "Pharmaceutical Research and Mfrs. of America v. Walsh"
     volume: "538"
@@ -1557,6 +1595,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-080"
+    number: 39
     termId: "2002-10"
     title: "Green Tree Financial Corp. v. Bazzle"
     volume: "539"
@@ -1598,6 +1637,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-005"
+    number: 40
     termId: "2003-10"
     title: "Raytheon Co. v. Hernandez"
     volume: "540"
@@ -1633,6 +1673,7 @@ cases:
         name: "Ruth Ginsburg"
         majority: true
   - id: "2003-050"
+    number: 41
     termId: "2003-10"
     title: "Engine Mfrs. Assn. v. South Coast Air Quality Management Dist."
     volume: "541"
@@ -1675,6 +1716,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-052"
+    number: 42
     termId: "2003-10"
     title: "Jones v. R. R. Donnelley &amp; Sons Co."
     volume: "541"
@@ -1716,6 +1758,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-091"
+    number: 43
     termId: "2003-10"
     title: "Sosa v. Alvarez-Machain"
     volume: "542"
@@ -1757,6 +1800,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-078"
+    number: 44
     termId: "2003-10"
     title: "Intel Corp. v. Advanced Micro Devices, Inc."
     volume: "542"
@@ -1800,6 +1844,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2004-002"
+    number: 45
     termId: "2004-10"
     title: "Norfolk Southern R. Co. v. James N. Kirby, Pty Ltd."
     volume: "543"
@@ -1841,6 +1886,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-030"
+    number: 46
     termId: "2004-10"
     title: "Muehler v. Mena"
     volume: "544"
@@ -1882,6 +1928,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-071"
+    number: 47
     termId: "2004-10"
     title: "Exxon Mobil Corp. v. Allapattah Services, Inc."
     volume: "545"
@@ -1923,6 +1970,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2005-005"
+    number: 48
     termId: "2005-10"
     title: "IBP, Inc. v. Alvarez"
     volume: "546"
@@ -1964,6 +2012,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2005-015"
+    number: 49
     termId: "2005-10"
     title: "Volvo Trucks North America, Inc. v. Reeder-Simco GMC, Inc."
     volume: "546"
@@ -2005,6 +2054,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2005-048"
+    number: 50
     termId: "2005-10"
     title: "Jones v. Flowers"
     volume: "547"
@@ -2046,6 +2096,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2005-056"
+    number: 51
     termId: "2005-10"
     title: "eBay Inc. v. MercExchange, L. L. C."
     volume: "547"
@@ -2087,6 +2138,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2005-075"
+    number: 52
     termId: "2005-10"
     title: "Burlington N. &amp; S. F. R. Co. v. White"
     volume: "548"
@@ -2128,6 +2180,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2005-062"
+    number: 53
     termId: "2005-10"
     title: "Mohawk Industries, Inc. v. Williams"
     volume: "547"
@@ -2167,6 +2220,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-010"
+    number: 54
     termId: "2006-10"
     title: "Norfolk Southern R. Co. v. Sorrell"
     volume: "549"
@@ -2208,6 +2262,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-027"
+    number: 55
     termId: "2006-10"
     title: "Environmental Defense v. Duke Energy Corp."
     volume: "549"
@@ -2249,6 +2304,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-066"
+    number: 56
     termId: "2006-10"
     title: "Tellabs, Inc. v. Makor Issues &amp; Rights, Ltd."
     volume: "551"
@@ -2290,6 +2346,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-003"
+    number: 57
     termId: "2007-10"
     title: "CSX Transp., Inc. v. Georgia State Bd. of Equalization"
     volume: "552"
@@ -2331,6 +2388,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-027"
+    number: 58
     termId: "2007-10"
     title: "Hall Street Associates, L. L. C. v. Mattel, Inc."
     volume: "552"
@@ -2372,6 +2430,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-048"
+    number: 59
     termId: "2007-10"
     title: "Quanta Computer, Inc. v. LG Electronics, Inc."
     volume: "553"
@@ -2413,6 +2472,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-023"
+    number: 60
     termId: "2007-10"
     title: "Warner-Lambert Co. v. Kent"
     volume: "552"
@@ -2452,6 +2512,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2007-065"
+    number: 61
     termId: "2007-10"
     title: "Sprint Communications Co. v. APCC Services, Inc."
     volume: "554"
@@ -2493,6 +2554,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2008-031"
+    number: 62
     termId: "2008-10"
     title: "Vaden v. Discover Bank"
     volume: "556"
@@ -2534,6 +2596,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2008-049"
+    number: 63
     termId: "2008-10"
     title: "FCC v. Fox Television Stations, Inc."
     volume: "556"
@@ -2575,6 +2638,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-057"
+    number: 64
     termId: "2008-10"
     title: "AT&amp;T Corp. v. Hulteen"
     volume: "556"
@@ -2616,6 +2680,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-045"
+    number: 65
     termId: "2008-10"
     title: "Ministry of Defense and Support for Armed Forces of Islamic Republic of Iran v. Elahi"
     volume: "556"
@@ -2657,6 +2722,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-042"
+    number: 66
     termId: "2008-10"
     title: "United States v. Navajo Nation"
     volume: "556"
@@ -2698,6 +2764,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-074"
+    number: 67
     termId: "2008-10"
     title: "Gross v. FBL Financial Services, Inc."
     volume: "557"
@@ -2739,6 +2806,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2009-060"
+    number: 68
     termId: "2009-10"
     title: "Alabama v. North Carolina"
     volume: "560"
@@ -2780,6 +2848,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2010-029"
+    number: 69
     termId: "2010-10"
     title: "Kasten v. Saint-Gobain Performance Plastics Corp."
     volume: "563"
@@ -2821,6 +2890,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2010-016"
+    number: 70
     termId: "2010-10"
     title: "CSX Transp., Inc. v. Alabama Dept. of Revenue"
     volume: "562"
@@ -2862,6 +2932,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2010-046"
+    number: 71
     termId: "2010-10"
     title: "Brown v. Plata"
     volume: "563"
@@ -2903,6 +2974,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2010-047"
+    number: 72
     termId: "2010-10"
     title: "Chamber of Commerce of United States of America v. Whiting"
     volume: "563"
@@ -2944,6 +3016,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2010-045"
+    number: 73
     termId: "2010-10"
     title: "General Dynamics Corp. v. United States"
     volume: "563"
@@ -2985,6 +3058,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-028"
+    number: 74
     termId: "2011-10"
     title: "Douglas v. Independent Living Center of Southern Cal., Inc."
     pdfSource: "scotusBound"
@@ -3024,6 +3098,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-046"
+    number: 75
     termId: "2011-10"
     title: "Florence v. Board of Chosen Freeholders of County of Burlington"
     pdfSource: "scotusBound"
@@ -3063,6 +3138,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2011-072"
+    number: 76
     termId: "2011-10"
     title: "FCC v. Fox Television Stations, Inc."
     pdfSource: "scotusBound"
@@ -3102,6 +3178,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-069"
+    number: 77
     termId: "2011-10"
     title: "Southern Union Co. v. United States"
     pdfSource: "scotusBound"
@@ -3141,6 +3218,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-066"
+    number: 78
     termId: "2011-10"
     title: "Salazar v. Ramah Navajo Chapter"
     pdfSource: "scotusBound"
@@ -3180,6 +3258,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-040"
+    number: 79
     termId: "2013-10"
     title: "Octane Fitness, LLC v. ICON Health &amp; Fitness, Inc."
     pdfSource: "slipopinion/13"
@@ -3219,6 +3298,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-009"
+    number: 80
     termId: "2014-10"
     title: "Teva Pharmaceuticals USA, Inc. v. Sandoz, Inc."
     pdfSource: "slipopinion/14"
@@ -3258,6 +3338,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-019"
+    number: 81
     termId: "2014-10"
     title: "Alabama Dept. of Revenue v. CSX Transp., Inc."
     pdfSource: "slipopinion/14"
@@ -3297,6 +3378,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-008"
+    number: 82
     termId: "2015-10"
     title: "FERC v. Electric Power Supply Assn."
     pdfSource: "slipopinion/15"
@@ -3336,6 +3418,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-018"
+    number: 83
     termId: "2015-10"
     title: "Tyson Foods, Inc. v. Bouaphakeo"
     pdfSource: "slipopinion/15"
@@ -3372,6 +3455,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-041"
+    number: 84
     termId: "2015-10"
     title: "Halo Electronics, Inc. v. Pulse Electronics, Inc."
     pdfSource: "slipopinion/15"
@@ -3408,6 +3492,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-031"
+    number: 85
     termId: "2016-10"
     title: "Life Technologies Corp. v. Promega Corp."
     pdfSource: "slipopinion/16"
@@ -3444,6 +3529,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2017-073"
+    number: 86
     termId: "2017-10"
     title: "Animal Science Products, Inc. v. Hebei Welcome Pharmaceutical Co."
     pdfSource: "slipopinion/17"
@@ -3483,6 +3569,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "63031"
+    number: 87
     termId: "2018-10"
     title: "Tennessee Wine and Spirits Retailers Association v. Blair"
     pdfSource: "slipopinion/18"

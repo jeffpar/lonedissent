@@ -4,6 +4,7 @@ permalink: /advocates/top100/lawrence_wallace
 layout: cases
 cases:
   - id: "1967-125"
+    number: 1
     termId: "1967-10"
     title: "Joint Industry Bd. of Elec. Industry v. United States"
     volume: "391"
@@ -45,6 +46,7 @@ cases:
         name: "Thurgood Marshall"
         majority: true
   - id: "1968-131"
+    number: 2
     termId: "1968-10"
     title: "Lear, Inc. v. Adkins"
     volume: "395"
@@ -83,6 +85,7 @@ cases:
         name: "Thurgood Marshall"
         majority: true
   - id: "1968-089"
+    number: 3
     termId: "1968-10"
     title: "United States v. Article of Drug . . . Bacto-Unidisk"
     volume: "394"
@@ -124,6 +127,7 @@ cases:
         name: "Thurgood Marshall"
         majority: true
   - id: "1968-128"
+    number: 4
     termId: "1968-10"
     title: "NLRB v. Gissel Packing Co."
     volume: "395"
@@ -162,6 +166,7 @@ cases:
         name: "Thurgood Marshall"
         majority: true
   - id: "1969-031"
+    number: 5
     termId: "1969-10"
     title: "Turner v. United States"
     volume: "396"
@@ -200,6 +205,7 @@ cases:
         name: "Thurgood Marshall"
         majority: true
   - id: "1969-039"
+    number: 6
     termId: "1969-10"
     title: "United States v. Kordel"
     volume: "397"
@@ -238,6 +244,7 @@ cases:
         name: "Thurgood Marshall"
         majority: true
   - id: "1969-067"
+    number: 7
     termId: "1969-10"
     title: "United States v. Key"
     volume: "397"
@@ -276,6 +283,7 @@ cases:
         name: "Thurgood Marshall"
         majority: true
   - id: "1969-079"
+    number: 8
     termId: "1969-10"
     title: "Standard Industries, Inc. v. Tigrett Industries, Inc."
     volume: "397"
@@ -312,6 +320,7 @@ cases:
         name: "Thurgood Marshall"
         majority: false
   - id: "1970-030"
+    number: 9
     termId: "1970-10"
     title: "Donaldson v. United States"
     volume: "400"
@@ -353,6 +362,7 @@ cases:
         name: "Harry Blackmun"
         majority: true
   - id: "1970-032"
+    number: 10
     termId: "1970-10"
     title: "Phillips v. Martin Marietta Corp."
     volume: "400"
@@ -392,6 +402,7 @@ cases:
         name: "Harry Blackmun"
         majority: true
   - id: "1970-123"
+    number: 11
     termId: "1970-10"
     title: "Griffin v. Breckenridge"
     volume: "403"
@@ -433,6 +444,7 @@ cases:
         name: "Harry Blackmun"
         majority: true
   - id: "1970-093"
+    number: 12
     termId: "1970-10"
     title: "United States v. Southern Ute Tribe"
     volume: "402"
@@ -474,6 +486,7 @@ cases:
         name: "Harry Blackmun"
         majority: true
   - id: "1970-132"
+    number: 13
     termId: "1970-10"
     title: "Hodgson v. Steelworkers"
     volume: "403"
@@ -515,6 +528,7 @@ cases:
         name: "Harry Blackmun"
         majority: true
   - id: "1970-117"
+    number: 14
     termId: "1970-10"
     title: "Dewey v. Reynolds Metals Co."
     volume: "402"
@@ -554,6 +568,7 @@ cases:
         name: "Harry Blackmun"
         majority: false
   - id: "1971-018"
+    number: 15
     termId: "1971-10"
     title: "NLRB v. Nash-Finch Co."
     volume: "404"
@@ -589,6 +604,7 @@ cases:
         name: "Harry Blackmun"
         majority: true
   - id: "1971-043"
+    number: 16
     termId: "1971-10"
     title: "Love v. Pullman Co."
     volume: "404"
@@ -630,6 +646,7 @@ cases:
         name: "William Rehnquist"
         majority: false
   - id: "1971-152"
+    number: 17
     termId: "1971-10"
     title: "Pipefitters v. United States"
     volume: "407"
@@ -671,6 +688,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1971-154"
+    number: 18
     termId: "1971-10"
     title: "United States v. Scotland Neck City Bd. of Ed."
     volume: "407"
@@ -712,6 +730,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1971-125"
+    number: 19
     termId: "1971-10"
     title: "United States v. Midwest Video Corp."
     volume: "406"
@@ -753,6 +772,7 @@ cases:
         name: "William Rehnquist"
         majority: false
   - id: "1972-019"
+    number: 20
     termId: "1972-10"
     title: "Trafficante v. Metropolitan Life Ins. Co."
     volume: "409"
@@ -794,6 +814,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-029"
+    number: 21
     termId: "1972-10"
     title: "Couch v. United States"
     volume: "409"
@@ -835,6 +856,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-057"
+    number: 22
     termId: "1972-10"
     title: "Otter Tail Power Co. v. United States"
     volume: "410"
@@ -875,7 +897,48 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: false
+  - id: "1972-144"
+    number: 23
+    termId: "1972-10"
+    title: "Fri v. Sierra Club"
+    volume: "412"
+    page: "541"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, December 13, 1972"
+    dateDecision: "Monday, June 11, 1973"
+    citation: "412 U.S. 541"
+    voteMajority: 4
+    voteMinority: 4
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: false
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: false
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: false
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: false
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: false
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: false
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: false
   - id: "1972-095"
+    number: 24
     termId: "1972-10"
     title: "Employees of Dept. of Public Health and Welfare of Mo. v. Department of Public Health and Welfare of Mo."
     volume: "411"
@@ -917,6 +980,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-105"
+    number: 25
     termId: "1972-10"
     title: "Georgia v. United States"
     volume: "411"
@@ -957,46 +1021,8 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: false
-  - id: "1972-144"
-    termId: "1972-10"
-    title: "Fri v. Sierra Club"
-    volume: "412"
-    page: "541"
-    pdfSource: "loc"
-    dateArgument: "Wednesday, April 18, 1973"
-    dateDecision: "Monday, June 11, 1973"
-    citation: "412 U.S. 541"
-    voteMajority: 4
-    voteMinority: 4
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: false
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: false
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: false
-      - id: brwhite
-        name: "Byron White"
-        majority: false
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: false
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: false
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: false
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: false
   - id: "1973-048"
+    number: 26
     termId: "1973-10"
     title: "Alexander v. Gardner-Denver Co."
     volume: "415"
@@ -1038,6 +1064,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1973-054"
+    number: 27
     termId: "1973-10"
     title: "United States v. Matlock"
     volume: "415"
@@ -1079,6 +1106,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1973-085"
+    number: 28
     termId: "1973-10"
     title: "California Bankers Assn. v. Shultz"
     volume: "416"
@@ -1120,6 +1148,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1973-118"
+    number: 29
     termId: "1973-10"
     title: "Bellis v. United States"
     volume: "417"
@@ -1161,6 +1190,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1973-125"
+    number: 30
     termId: "1973-10"
     title: "Anderson v. United States"
     volume: "417"
@@ -1201,48 +1231,8 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: true
-  - id: "1974-034"
-    termId: "1974-10"
-    title: "Emporium Capwell Co. v. Western Addition Community Organization"
-    volume: "420"
-    page: "050"
-    pdfSource: "loc"
-    dateArgument: "Tuesday, October 22, 1974"
-    dateDecision: "Tuesday, February 18, 1975"
-    citation: "420 U.S. 50"
-    voteMajority: 8
-    voteMinority: 1
-    authorId: tmarshall
-    authorName: "Thurgood Marshall"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
   - id: "1974-054"
+    number: 31
     termId: "1974-10"
     title: "United States v. New Jersey Lottery Comm&apos;n"
     volume: "420"
@@ -1281,7 +1271,50 @@ cases:
       - id: whrehnquist
         name: "William Rehnquist"
         majority: true
+  - id: "1974-034"
+    number: 32
+    termId: "1974-10"
+    title: "Emporium Capwell Co. v. Western Addition Community Organization"
+    volume: "420"
+    page: "050"
+    pdfSource: "loc"
+    dateArgument: "Friday, November 22, 1974"
+    dateDecision: "Tuesday, February 18, 1975"
+    citation: "420 U.S. 50"
+    voteMajority: 8
+    voteMinority: 1
+    authorId: tmarshall
+    authorName: "Thurgood Marshall"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
   - id: "1974-057"
+    number: 33
     termId: "1974-10"
     title: "Chemehuevi Tribe v. FPC"
     volume: "420"
@@ -1323,47 +1356,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1975-066"
-    termId: "1975-10"
-    title: "Beer v. United States"
-    volume: "425"
-    page: "130"
-    pdfSource: "loc"
-    dateArgument: "Wednesday, March 26, 1975"
-    dateDecision: "Tuesday, March 30, 1976"
-    citation: "425 U.S. 130"
-    voteMajority: 5
-    voteMinority: 3
-    authorId: pstewart
-    authorName: "Potter Stewart"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: false
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: false
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: false
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-  - id: "1975-066"
+    number: 34
     termId: "1975-10"
     title: "Beer v. United States"
     volume: "425"
@@ -1405,6 +1398,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1974-135"
+    number: 35
     termId: "1974-10"
     title: "Richmond v. United States"
     volume: "422"
@@ -1446,6 +1440,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1975-080"
+    number: 36
     termId: "1975-10"
     title: "Fisher v. United States"
     volume: "425"
@@ -1486,7 +1481,50 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: false
+  - id: "1975-066"
+    number: 37
+    termId: "1975-10"
+    title: "Beer v. United States"
+    volume: "425"
+    page: "130"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, November 12, 1975"
+    dateDecision: "Tuesday, March 30, 1976"
+    citation: "425 U.S. 130"
+    voteMajority: 5
+    voteMinority: 3
+    authorId: pstewart
+    authorName: "Potter Stewart"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: false
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: false
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: false
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
   - id: "1975-169"
+    number: 38
     termId: "1975-10"
     title: "Usery v. Turner Elkhorn Mining Co."
     volume: "428"
@@ -1528,6 +1566,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1975-081"
+    number: 39
     termId: "1975-10"
     title: "United States v. Miller"
     volume: "425"
@@ -1569,6 +1608,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1975-103"
+    number: 40
     termId: "1975-10"
     title: "Brown v. GSA"
     volume: "425"
@@ -1610,6 +1650,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1975-161"
+    number: 41
     termId: "1975-10"
     title: "Fitzpatrick v. Bitzer"
     volume: "427"
@@ -1651,6 +1692,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1976-012"
+    number: 42
     termId: "1976-10"
     title: "Parker Seal Co. v. Cummins"
     volume: "429"
@@ -1690,6 +1732,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1976-112"
+    number: 43
     termId: "1976-10"
     title: "Teamsters v. United States"
     volume: "431"
@@ -1730,48 +1773,8 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: true
-  - id: "1976-114"
-    termId: "1976-10"
-    title: "Connor v. Finch"
-    volume: "431"
-    page: "407"
-    pdfSource: "loc"
-    dateArgument: "Monday, February 28, 1977"
-    dateDecision: "Tuesday, May 31, 1977"
-    citation: "431 U.S. 407"
-    voteMajority: 7
-    voteMinority: 1
-    authorId: pstewart
-    authorName: "Potter Stewart"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: false
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: false
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
   - id: "1976-172"
+    number: 44
     termId: "1976-10"
     title: "Hazelwood School Dist. v. United States"
     volume: "433"
@@ -1812,7 +1815,50 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: false
+  - id: "1976-114"
+    number: 45
+    termId: "1976-10"
+    title: "Connor v. Finch"
+    volume: "431"
+    page: "407"
+    pdfSource: "loc"
+    dateArgument: "Thursday, April 28, 1977"
+    dateDecision: "Tuesday, May 31, 1977"
+    citation: "431 U.S. 407"
+    voteMajority: 7
+    voteMinority: 1
+    authorId: pstewart
+    authorName: "Potter Stewart"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: false
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: false
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
   - id: "1977-016"
+    number: 46
     termId: "1977-10"
     title: "United States v. New York Telephone Co."
     volume: "434"
@@ -1854,6 +1900,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1977-063"
+    number: 47
     termId: "1977-10"
     title: "Vermont Yankee Nuclear Power Corp. v. Natural Resources Defense Council, Inc."
     volume: "435"
@@ -1895,6 +1942,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1977-106"
+    number: 48
     termId: "1977-10"
     title: "FCC v. National Citizens Comm. for Broadcasting"
     volume: "436"
@@ -1936,6 +1984,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1977-119"
+    number: 49
     termId: "1977-10"
     title: "United States v. LaSalle Nat. Bank"
     volume: "437"
@@ -1977,6 +2026,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1977-132"
+    number: 50
     termId: "1977-10"
     title: "Parker v. Flook"
     volume: "437"
@@ -2018,6 +2068,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1978-007"
+    number: 51
     termId: "1978-10"
     title: "Dougherty County Bd. of Ed. v. White"
     volume: "439"
@@ -2059,6 +2110,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1978-073"
+    number: 52
     termId: "1978-10"
     title: "Gladstone, Realtors v. Village of Bellwood"
     volume: "441"
@@ -2100,6 +2152,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1978-067"
+    number: 53
     termId: "1978-10"
     title: "FCC v. Midwest Video Corp."
     volume: "440"
@@ -2141,6 +2194,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1978-147"
+    number: 54
     termId: "1978-10"
     title: "Steelworkers v. Weber"
     volume: "443"
@@ -2182,6 +2236,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1978-118"
+    number: 55
     termId: "1978-10"
     title: "Great American Fed. Sav. &amp; Loan Assn. v. Novotny"
     volume: "442"
@@ -2223,6 +2278,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1979-075"
+    number: 56
     termId: "1979-10"
     title: "City of Rome v. United States"
     volume: "446"
@@ -2264,6 +2320,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1979-028"
+    number: 57
     termId: "1979-10"
     title: "Estes v. Metropolitan Branches of Dallas NAACP"
     volume: "444"
@@ -2303,6 +2360,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1979-036"
+    number: 58
     termId: "1979-10"
     title: "California Brewers Assn. v. Bryant"
     volume: "444"
@@ -2344,6 +2402,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1979-098"
+    number: 59
     termId: "1979-10"
     title: "Andrus v. Shell Oil Co."
     volume: "446"
@@ -2385,6 +2444,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1979-116"
+    number: 60
     termId: "1979-10"
     title: "Diamond v. Chakrabarty"
     volume: "447"
@@ -2426,6 +2486,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1979-082"
+    number: 61
     termId: "1979-10"
     title: "General Telephone Co. of Northwest v. EEOC"
     volume: "446"
@@ -2467,6 +2528,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1979-125"
+    number: 62
     termId: "1979-10"
     title: "NLRB v. Longshoremen"
     volume: "447"
@@ -2508,6 +2570,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1980-047"
+    number: 63
     termId: "1980-10"
     title: "Diamond v. Diehr"
     volume: "450"
@@ -2549,6 +2612,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1980-055"
+    number: 64
     termId: "1980-10"
     title: "Diamond v. Bradley"
     volume: "450"
@@ -2588,6 +2652,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1980-024"
+    number: 65
     termId: "1980-10"
     title: "Upjohn Co. v. United States"
     volume: "449"
@@ -2629,6 +2694,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1980-071"
+    number: 66
     termId: "1980-10"
     title: "Northwest Airlines, Inc. v. Transport Workers"
     volume: "451"
@@ -2670,6 +2736,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1980-106"
+    number: 67
     termId: "1980-10"
     title: "McDaniel v. Sanchez"
     volume: "452"
@@ -2711,6 +2778,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1980-104"
+    number: 68
     termId: "1980-10"
     title: "Gulf Oil Co. v. Bernard"
     volume: "452"
@@ -2752,6 +2820,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1981-011"
+    number: 69
     termId: "1981-10"
     title: "NLRB v. Hendricks County Rural Elec. Membership Corp."
     volume: "454"
@@ -2793,6 +2862,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: false
   - id: "1981-040"
+    number: 70
     termId: "1981-10"
     title: "United States v. Lee"
     volume: "455"
@@ -2834,6 +2904,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1981-090"
+    number: 71
     termId: "1981-10"
     title: "Kremer v. Chemical Constr. Corp."
     volume: "456"
@@ -2875,6 +2946,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1981-080"
+    number: 72
     termId: "1981-10"
     title: "Longshoremen v. Allied Int&apos;l, Inc."
     volume: "456"
@@ -2916,6 +2988,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1981-118"
+    number: 73
     termId: "1981-10"
     title: "Sumitomo Shoji America, Inc. v. Avagliano"
     volume: "457"
@@ -2957,6 +3030,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1982-055"
+    number: 74
     termId: "1982-10"
     title: "Postal Service Bd. of Governors v. Aikens"
     volume: "460"
@@ -2998,6 +3072,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1982-058"
+    number: 75
     termId: "1982-10"
     title: "United States v. Rylander"
     volume: "460"
@@ -3039,6 +3114,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1982-148"
+    number: 76
     termId: "1982-10"
     title: "United States v. Baggot"
     volume: "463"
@@ -3080,6 +3156,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1982-110"
+    number: 77
     termId: "1982-10"
     title: "NLRB v. Transportation Management Corp."
     volume: "462"
@@ -3121,6 +3198,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1982-097"
+    number: 78
     termId: "1982-10"
     title: "United States v. Ptasynski"
     volume: "462"
@@ -3162,6 +3240,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1983-043"
+    number: 79
     termId: "1983-10"
     title: "NLRB v. Bildisco &amp; Bildisco"
     volume: "465"
@@ -3203,6 +3282,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1983-037"
+    number: 80
     termId: "1983-10"
     title: "Dickman v. Commissioner"
     volume: "465"
@@ -3244,6 +3324,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1983-131"
+    number: 81
     termId: "1983-10"
     title: "Copperweld Corp. v. Independence Tube Corp."
     volume: "467"
@@ -3285,6 +3366,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1983-088"
+    number: 82
     termId: "1983-10"
     title: "Hoover v. Ronwin"
     volume: "466"
@@ -3326,6 +3408,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: false
   - id: "1983-140"
+    number: 83
     termId: "1983-10"
     title: "Ruckelshaus v. Monsanto Co."
     volume: "467"
@@ -3367,6 +3450,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: false
   - id: "1984-011"
+    number: 84
     termId: "1984-10"
     title: "Trans World Airlines, Inc. v. Thurston"
     volume: "469"
@@ -3408,6 +3492,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1984-021"
+    number: 85
     termId: "1984-10"
     title: "Tiffany Fine Arts, Inc. v. United States"
     volume: "469"
@@ -3449,6 +3534,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1984-067"
+    number: 86
     termId: "1984-10"
     title: "Southern Motor Carriers Rate Conference, Inc. v. United States"
     volume: "471"
@@ -3490,6 +3576,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1984-125"
+    number: 87
     termId: "1984-10"
     title: "Western Air Lines, Inc. v. Criswell"
     volume: "472"
@@ -3531,6 +3618,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1984-161"
+    number: 88
     termId: "1984-10"
     title: "Thomas v. Union Carbide Agricultural Products Co."
     volume: "473"
@@ -3572,6 +3660,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1985-064"
+    number: 89
     termId: "1985-10"
     title: "Evans v. Jeff D."
     volume: "475"
@@ -3613,6 +3702,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1985-078"
+    number: 90
     termId: "1985-10"
     title: "Batson v. Kentucky"
     volume: "476"
@@ -3654,6 +3744,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1985-090"
+    number: 91
     termId: "1985-10"
     title: "Square D Co. v. Niagara Frontier Tariff Bureau, Inc."
     volume: "476"
@@ -3695,6 +3786,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1985-159"
+    number: 92
     termId: "1985-10"
     title: "Randall v. Loftsgaarden"
     volume: "478"
@@ -3736,6 +3828,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1985-165"
+    number: 93
     termId: "1985-10"
     title: "Commodity Futures Trading Comm&apos;n v. Schor"
     volume: "478"
@@ -3777,6 +3870,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1986-051"
+    number: 94
     termId: "1986-10"
     title: "INS v. Cardoza-Fonseca"
     volume: "480"
@@ -3818,6 +3912,7 @@ cases:
         name: "Antonin Scalia"
         majority: true
   - id: "1986-027"
+    number: 95
     termId: "1986-10"
     title: "International Paper Co. v. Ouellette"
     volume: "479"
@@ -3859,6 +3954,7 @@ cases:
         name: "Antonin Scalia"
         majority: true
   - id: "1986-043"
+    number: 96
     termId: "1986-10"
     title: "FCC v. Florida Power Corp."
     volume: "480"
@@ -3900,6 +3996,7 @@ cases:
         name: "Antonin Scalia"
         majority: true
   - id: "1986-084"
+    number: 97
     termId: "1986-10"
     title: "Tull v. United States"
     volume: "481"
@@ -3941,6 +4038,7 @@ cases:
         name: "Antonin Scalia"
         majority: true
   - id: "1986-135"
+    number: 98
     termId: "1986-10"
     title: "Hewitt v. Helms"
     volume: "482"
@@ -3982,6 +4080,7 @@ cases:
         name: "Antonin Scalia"
         majority: true
   - id: "1987-001"
+    number: 99
     termId: "1987-10"
     title: "Reagan v. Abourezk"
     volume: "484"
@@ -4018,6 +4117,7 @@ cases:
         name: "Antonin Scalia"
         majority: false
   - id: "1987-031"
+    number: 100
     termId: "1987-10"
     title: "Laborers Health and Welfare Trust Fund for Northern Cal. v. Advanced Lightweight Concrete Co."
     volume: "484"
@@ -4059,6 +4159,7 @@ cases:
         name: "Anthony Kennedy"
         majority: false
   - id: "1987-053"
+    number: 101
     termId: "1987-10"
     title: "United States v. Wells Fargo Bank"
     volume: "485"
@@ -4100,6 +4201,7 @@ cases:
         name: "Anthony Kennedy"
         majority: false
   - id: "1987-080"
+    number: 102
     termId: "1987-10"
     title: "City of New York v. FCC"
     volume: "486"
@@ -4141,6 +4243,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1988-004"
+    number: 103
     termId: "1988-10"
     title: "Shell Oil Co. v. Iowa Dept. of Revenue"
     volume: "488"
@@ -4182,6 +4285,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1988-039"
+    number: 104
     termId: "1988-10"
     title: "United States v. Ron Pair Enterprises, Inc."
     volume: "489"
@@ -4223,6 +4327,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1988-043"
+    number: 105
     termId: "1988-10"
     title: "United States v. Stuart"
     volume: "489"
@@ -4264,6 +4369,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1988-140"
+    number: 106
     termId: "1988-10"
     title: "Department of Justice v. Tax Analysts"
     volume: "492"
@@ -4305,6 +4411,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1989-007"
+    number: 107
     termId: "1989-10"
     title: "United States v. Sperry Corp."
     volume: "493"
@@ -4346,6 +4453,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1989-015"
+    number: 108
     termId: "1989-10"
     title: "Commissioner v. Indianapolis Power &amp; Light Co."
     volume: "493"
@@ -4387,6 +4495,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1989-090"
+    number: 109
     termId: "1989-10"
     title: "Duro v. Reina"
     volume: "495"
@@ -4428,6 +4537,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1989-112"
+    number: 110
     termId: "1989-10"
     title: "General Motors Corp. v. United States"
     volume: "496"
@@ -4469,6 +4579,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1990-011"
+    number: 111
     termId: "1990-10"
     title: "Arcadia v. Ohio Power Co."
     volume: "498"
@@ -4510,6 +4621,7 @@ cases:
         name: "David Souter"
         majority: false
   - id: "1990-083"
+    number: 112
     termId: "1990-10"
     title: "Summit Health, Ltd. v. Pinhas"
     volume: "500"
@@ -4551,6 +4663,7 @@ cases:
         name: "David Souter"
         majority: false
   - id: "1990-105"
+    number: 113
     termId: "1990-10"
     title: "Litton Financial Printing Div., Litton Business Systems, Inc. v. NLRB"
     volume: "501"
@@ -4592,6 +4705,7 @@ cases:
         name: "David Souter"
         majority: true
   - id: "1990-118"
+    number: 114
     termId: "1990-10"
     title: "Wisconsin Public Intervenor v. Mortier"
     volume: "501"
@@ -4633,6 +4747,7 @@ cases:
         name: "David Souter"
         majority: true
   - id: "1991-012"
+    number: 115
     termId: "1991-10"
     title: "Ardestani v. INS"
     volume: "502"
@@ -4674,6 +4789,7 @@ cases:
         name: "Clarence Thomas"
         majority: false
   - id: "1991-037"
+    number: 116
     termId: "1991-10"
     title: "Arkansas v. Oklahoma"
     volume: "503"
@@ -4715,6 +4831,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1991-087"
+    number: 117
     termId: "1991-10"
     title: "FTC v. Ticor Title Ins. Co."
     volume: "504"
@@ -4756,6 +4873,7 @@ cases:
         name: "Clarence Thomas"
         majority: false
   - id: "1991-099"
+    number: 118
     termId: "1991-10"
     title: "New York v. United States"
     volume: "505"
@@ -4797,6 +4915,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-003"
+    number: 119
     termId: "1992-10"
     title: "Church of Scientology of Cal. v. United States"
     volume: "506"
@@ -4838,6 +4957,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-054"
+    number: 120
     termId: "1992-10"
     title: "Newark Morning Ledger Co. v. United States"
     volume: "507"
@@ -4879,6 +4999,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-119"
+    number: 121
     termId: "1992-10"
     title: "Hartford Fire Ins. Co. v. California"
     volume: "509"
@@ -4920,6 +5041,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-077"
+    number: 122
     termId: "1992-10"
     title: "Keene Corp. v. United States"
     volume: "508"
@@ -4961,6 +5083,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1993-014"
+    number: 123
     termId: "1993-10"
     title: "Thunder Basin Coal Co. v. Reich"
     volume: "510"
@@ -5002,6 +5125,7 @@ cases:
         name: "Ruth Ginsburg"
         majority: true
   - id: "1993-018"
+    number: 124
     termId: "1993-10"
     title: "ABF Freight System, Inc. v. NLRB"
     volume: "510"
@@ -5043,6 +5167,7 @@ cases:
         name: "Ruth Ginsburg"
         majority: true
   - id: "1993-060"
+    number: 125
     termId: "1993-10"
     title: "PUD No. 1 of Jefferson Cty. v. Washington Dept. of Ecology"
     volume: "511"
@@ -5084,6 +5209,7 @@ cases:
         name: "Ruth Ginsburg"
         majority: true
   - id: "1993-063"
+    number: 126
     termId: "1993-10"
     title: "Key Tronic Corp. v. United States"
     volume: "511"
@@ -5125,6 +5251,7 @@ cases:
         name: "Ruth Ginsburg"
         majority: true
   - id: "1994-012"
+    number: 127
     termId: "1994-10"
     title: "Tome v. United States"
     volume: "513"
@@ -5166,6 +5293,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1994-011"
+    number: 128
     termId: "1994-10"
     title: "ICC v. Transcon Lines"
     volume: "513"
@@ -5207,6 +5335,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1994-037"
+    number: 129
     termId: "1994-10"
     title: "Qualitex Co. v. Jacobson Products Co."
     volume: "514"
@@ -5248,6 +5377,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1994-067"
+    number: 130
     termId: "1994-10"
     title: "Ryder v. United States"
     volume: "515"
@@ -5289,6 +5419,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1995-007"
+    number: 131
     termId: "1995-10"
     title: "NLRB v. Town &amp; Country Elec., Inc."
     volume: "516"
@@ -5330,6 +5461,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1995-029"
+    number: 132
     termId: "1995-10"
     title: "United States v. Chesapeake &amp; Potomac Telephone Co. of Va."
     volume: "516"
@@ -5369,6 +5501,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1995-090"
+    number: 133
     termId: "1995-10"
     title: "Denver Area Ed. Telecommunications Consortium, Inc. v. FCC"
     volume: "518"
@@ -5410,6 +5543,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1995-078"
+    number: 134
     termId: "1995-10"
     title: "Brown v. Pro Football, Inc."
     volume: "518"
@@ -5451,6 +5585,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-033"
+    number: 135
     termId: "1996-10"
     title: "Warner-Jenkinson Co. v. Hilton Davis Chemical Co."
     volume: "520"
@@ -5492,6 +5627,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-022"
+    number: 136
     termId: "1996-10"
     title: "United States v. Brockamp"
     volume: "519"
@@ -5533,6 +5669,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-060"
+    number: 137
     termId: "1996-10"
     title: "Suitum v. Tahoe Regional Planning Agency"
     volume: "520"
@@ -5574,6 +5711,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-064"
+    number: 138
     termId: "1996-10"
     title: "Arkansas v. Farm Credit Servs. of Central Ark."
     volume: "520"
@@ -5615,6 +5753,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-065"
+    number: 139
     termId: "1997-10"
     title: "Arkansas Ed. Television Comm&apos;n v. Forbes"
     volume: "523"
@@ -5656,6 +5795,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-011"
+    number: 140
     termId: "1997-10"
     title: "General Electric Co. v. Joiner"
     volume: "522"
@@ -5697,6 +5837,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-039"
+    number: 141
     termId: "1997-10"
     title: "Quality King Distributors, Inc. v. L&apos;anza Research Int&apos;l, Inc."
     volume: "523"
@@ -5738,6 +5879,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-050"
+    number: 142
     termId: "1997-10"
     title: "United States v. United States Shoe Corp."
     volume: "523"
@@ -5779,6 +5921,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-098"
+    number: 143
     termId: "1997-10"
     title: "Bragdon v. Abbott"
     volume: "524"
@@ -5820,6 +5963,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-008"
+    number: 144
     termId: "1998-10"
     title: "NYNEX Corp. v. Discon, Inc."
     volume: "525"
@@ -5861,6 +6005,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-017"
+    number: 145
     termId: "1998-10"
     title: "Humana Inc. v. Forsyth"
     volume: "525"
@@ -5902,6 +6047,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-061"
+    number: 146
     termId: "1998-10"
     title: "California Dental Assn. v. FTC"
     volume: "526"
@@ -5943,6 +6089,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1998-071"
+    number: 147
     termId: "1998-10"
     title: "Dickinson v. Zurko"
     volume: "527"
@@ -5984,6 +6131,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-065"
+    number: 148
     termId: "1999-10"
     title: "Geier v. American Honda Motor Co."
     volume: "529"
@@ -6025,6 +6173,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-040"
+    number: 149
     termId: "1999-10"
     title: "Wal-Mart Stores, Inc. v. Samara Brothers, Inc."
     volume: "529"
@@ -6066,6 +6215,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-067"
+    number: 150
     termId: "1999-10"
     title: "Raleigh v. Illinois Dept. of Revenue"
     volume: "530"
@@ -6107,6 +6257,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-010"
+    number: 151
     termId: "2000-10"
     title: "Solid Waste Agency of Northern Cook Cty. v. Army Corps of Engineers"
     volume: "531"
@@ -6148,6 +6299,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2000-031"
+    number: 152
     termId: "2000-10"
     title: "TrafFix Devices, Inc v. Marketing Displays, Inc."
     volume: "532"
@@ -6189,6 +6341,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-058"
+    number: 153
     termId: "2000-10"
     title: "NLRB v. Kentucky River Community Care, Inc."
     volume: "532"
@@ -6230,6 +6383,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2001-008"
+    number: 154
     termId: "2001-10"
     title: "J. E. M. Ag Supply, Inc. v. Pioneer Hi-Bred International, Inc."
     volume: "534"
@@ -6271,6 +6425,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2001-052"
+    number: 155
     termId: "2001-10"
     title: "Festo Corp. v. Shoketsu Kinzoku Kogyo Kabushiki Co."
     volume: "535"
@@ -6312,6 +6467,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-075"
+    number: 156
     termId: "2001-10"
     title: "BE&amp;K Constr. Co. v. NLRB"
     volume: "536"
@@ -6353,6 +6509,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-022"
+    number: 157
     termId: "2002-10"
     title: "Moseley v. V Secret Catalogue, Inc."
     volume: "537"

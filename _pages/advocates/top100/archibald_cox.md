@@ -4,6 +4,7 @@ permalink: /advocates/top100/archibald_cox
 layout: cases
 cases:
   - id: "1961-051"
+    number: 1
     termId: "1961-10"
     title: "Baker v. Carr"
     volume: "369"
@@ -45,6 +46,7 @@ cases:
         name: "Potter Stewart"
         majority: true
   - id: "1961-102"
+    number: 2
     termId: "1961-10"
     title: "Brown Shoe Co. v. United States"
     volume: "370"
@@ -85,7 +87,50 @@ cases:
       - id: brwhite
         name: "Byron White"
         majority: false
+  - id: "1962-127"
+    number: 3
+    termId: "1962-10"
+    title: "Arizona v. California"
+    volume: "373"
+    page: "546"
+    pdfSource: "loc"
+    dateArgument: "Monday, January 8, 1962"
+    dateDecision: "Monday, June 3, 1963"
+    citation: "373 U.S. 546"
+    voteMajority: 5
+    voteMinority: 3
+    authorId: hlblack
+    authorName: "Hugo Black"
+    votes:
+      - id: ewarren
+        name: "Earl Warren"
+        majority: false
+      - id: hlblack
+        name: "Hugo Black"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: tcclark
+        name: "Tom Clark"
+        majority: true
+      - id: jharlan2
+        name: "John M. Harlan II"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: ajgoldberg
+        name: "Arthur Goldberg"
+        majority: true
   - id: "1961-048"
+    number: 4
     termId: "1961-10"
     title: "Fong Foo v. United States"
     volume: "369"
@@ -125,6 +170,7 @@ cases:
         name: "Potter Stewart"
         majority: true
   - id: "1962-042"
+    number: 5
     termId: "1962-10"
     title: "United States v. National Dairy Products Corp."
     volume: "372"
@@ -166,12 +212,13 @@ cases:
         name: "Arthur Goldberg"
         majority: false
   - id: "1962-033"
+    number: 6
     termId: "1962-10"
     title: "Wong Sun v. United States"
     volume: "371"
     page: "471"
     pdfSource: "loc"
-    dateArgument: "Monday, October 8, 1962"
+    dateArgument: "Thursday, March 29, 1962"
     dateDecision: "Monday, January 14, 1963"
     citation: "371 U.S. 471"
     voteMajority: 5
@@ -206,7 +253,50 @@ cases:
       - id: ajgoldberg
         name: "Arthur Goldberg"
         majority: true
+  - id: "1962-144"
+    number: 7
+    termId: "1962-10"
+    title: "Yellin v. United States"
+    volume: "374"
+    page: "109"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, April 18, 1962"
+    dateDecision: "Monday, June 17, 1963"
+    citation: "374 U.S. 109"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: ewarren
+    authorName: "Earl Warren"
+    votes:
+      - id: ewarren
+        name: "Earl Warren"
+        majority: true
+      - id: hlblack
+        name: "Hugo Black"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: true
+      - id: tcclark
+        name: "Tom Clark"
+        majority: false
+      - id: jharlan2
+        name: "John M. Harlan II"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: false
+      - id: ajgoldberg
+        name: "Arthur Goldberg"
+        majority: true
   - id: "1962-116"
+    number: 8
     termId: "1962-10"
     title: "Avent v. North Carolina"
     volume: "373"
@@ -245,89 +335,8 @@ cases:
       - id: ajgoldberg
         name: "Arthur Goldberg"
         majority: true
-  - id: "1962-127"
-    termId: "1962-10"
-    title: "Arizona v. California"
-    volume: "373"
-    page: "546"
-    pdfSource: "loc"
-    dateArgument: "Tuesday, November 13, 1962"
-    dateDecision: "Monday, June 3, 1963"
-    citation: "373 U.S. 546"
-    voteMajority: 5
-    voteMinority: 3
-    authorId: hlblack
-    authorName: "Hugo Black"
-    votes:
-      - id: ewarren
-        name: "Earl Warren"
-        majority: false
-      - id: hlblack
-        name: "Hugo Black"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: tcclark
-        name: "Tom Clark"
-        majority: true
-      - id: jharlan2
-        name: "John M. Harlan II"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: false
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: ajgoldberg
-        name: "Arthur Goldberg"
-        majority: true
-  - id: "1962-144"
-    termId: "1962-10"
-    title: "Yellin v. United States"
-    volume: "374"
-    page: "109"
-    pdfSource: "loc"
-    dateArgument: "Thursday, December 6, 1962"
-    dateDecision: "Monday, June 17, 1963"
-    citation: "374 U.S. 109"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: ewarren
-    authorName: "Earl Warren"
-    votes:
-      - id: ewarren
-        name: "Earl Warren"
-        majority: true
-      - id: hlblack
-        name: "Hugo Black"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: true
-      - id: tcclark
-        name: "Tom Clark"
-        majority: false
-      - id: jharlan2
-        name: "John M. Harlan II"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: false
-      - id: brwhite
-        name: "Byron White"
-        majority: false
-      - id: ajgoldberg
-        name: "Arthur Goldberg"
-        majority: true
   - id: "1963-020"
+    number: 9
     termId: "1963-10"
     title: "Retail Clerks v. Schermerhorn"
     volume: "375"
@@ -369,6 +378,7 @@ cases:
         name: "Arthur Goldberg"
         majority: false
   - id: "1963-142"
+    number: 10
     termId: "1963-10"
     title: "Maryland Comm. for Fair Representation v. Tawes"
     volume: "377"
@@ -410,6 +420,7 @@ cases:
         name: "Arthur Goldberg"
         majority: true
   - id: "1963-116"
+    number: 11
     termId: "1963-10"
     title: "Massiah v. United States"
     volume: "377"
@@ -451,6 +462,7 @@ cases:
         name: "Arthur Goldberg"
         majority: true
   - id: "1963-117"
+    number: 12
     termId: "1963-10"
     title: "Griffin v. School Bd. of Prince Edward Cty."
     volume: "377"
@@ -492,6 +504,7 @@ cases:
         name: "Arthur Goldberg"
         majority: true
   - id: "1963-148"
+    number: 13
     termId: "1963-10"
     title: "United States v. Boyd"
     volume: "378"
@@ -533,6 +546,7 @@ cases:
         name: "Arthur Goldberg"
         majority: true
   - id: "1964-126"
+    number: 14
     termId: "1964-10"
     title: "Meat Cutters v. Jewel Tea Co."
     volume: "381"
@@ -574,6 +588,7 @@ cases:
         name: "Arthur Goldberg"
         majority: true
   - id: "1968-121"
+    number: 15
     termId: "1968-10"
     title: "Red Lion Broadcasting Co. v. FCC"
     volume: "395"
@@ -612,6 +627,7 @@ cases:
         name: "Thurgood Marshall"
         majority: true
   - id: "1975-033"
+    number: 16
     termId: "1975-10"
     title: "Buckley v. Valeo"
     volume: "424"
@@ -651,6 +667,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1977-147"
+    number: 17
     termId: "1977-10"
     title: "Regents of Univ. of Cal. v. Bakke"
     volume: "438"
@@ -692,6 +709,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1981-035"
+    number: 18
     termId: "1981-10"
     title: "Common Cause v. Schmitt"
     volume: "455"

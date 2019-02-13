@@ -4,6 +4,7 @@ permalink: /advocates/top100/paul_clement
 layout: cases
 cases:
   - id: "2000-075"
+    number: 1
     termId: "2000-10"
     title: "Saucier v. Katz"
     volume: "533"
@@ -45,6 +46,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-016"
+    number: 2
     termId: "2001-10"
     title: "EEOC v. Waffle House, Inc."
     volume: "534"
@@ -86,6 +88,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-038"
+    number: 3
     termId: "2001-10"
     title: "Ashcroft v. Free Speech Coalition"
     volume: "535"
@@ -127,6 +130,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-026"
+    number: 4
     termId: "2001-10"
     title: "Raygor v. Regents of Univ. of Minn."
     volume: "534"
@@ -168,6 +172,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2001-053"
+    number: 5
     termId: "2001-10"
     title: "Federal Maritime Comm&apos;n v. South Carolina Ports Authority"
     volume: "535"
@@ -209,6 +214,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2001-083"
+    number: 6
     termId: "2001-10"
     title: "Board of Ed. of Independent School Dist. No. 92 of Pottawatomie Cty. v. Earls"
     volume: "536"
@@ -250,6 +256,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-018"
+    number: 7
     termId: "2002-10"
     title: "FCC v. NextWave Personal Communications Inc."
     volume: "537"
@@ -291,6 +298,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2002-013"
+    number: 8
     termId: "2002-10"
     title: "Pierce County v. Guillen"
     volume: "537"
@@ -332,6 +340,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-058"
+    number: 9
     termId: "2002-10"
     title: "Chavez v. Martinez"
     volume: "538"
@@ -373,6 +382,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-049"
+    number: 10
     termId: "2002-10"
     title: "Illinois ex rel. Madigan v. Telemarketing Associates, Inc."
     volume: "538"
@@ -414,6 +424,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-074"
+    number: 11
     termId: "2002-10"
     title: "Federal Election Comm&apos;n v. Beaumont"
     volume: "539"
@@ -455,6 +466,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-006"
+    number: 12
     termId: "2003-10"
     title: "McConnell v. Federal Election Comm&apos;n"
     volume: "540"
@@ -496,6 +508,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-005"
+    number: 13
     termId: "2003-10"
     title: "Raytheon Co. v. Hernandez"
     volume: "540"
@@ -531,6 +544,7 @@ cases:
         name: "Ruth Ginsburg"
         majority: true
   - id: "2003-031"
+    number: 14
     termId: "2003-10"
     title: "General Dynamics Land Systems, Inc. v. Cline"
     volume: "540"
@@ -572,6 +586,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-059"
+    number: 15
     termId: "2003-10"
     title: "Tennessee v. Lane"
     volume: "541"
@@ -613,6 +628,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-091"
+    number: 16
     termId: "2003-10"
     title: "Sosa v. Alvarez-Machain"
     volume: "542"
@@ -654,6 +670,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-084"
+    number: 17
     termId: "2003-10"
     title: "Rumsfeld v. Padilla"
     volume: "542"
@@ -695,6 +712,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2003-086"
+    number: 18
     termId: "2003-10"
     title: "Hamdi v. Rumsfeld"
     volume: "542"
@@ -738,6 +756,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-014"
+    number: 19
     termId: "2004-10"
     title: "United States v. Booker"
     volume: "543"
@@ -779,6 +798,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-023"
+    number: 20
     termId: "2004-10"
     title: "Johnson v. California"
     volume: "543"
@@ -820,6 +840,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-054"
+    number: 21
     termId: "2004-10"
     title: "Gonzales v. Raich"
     volume: "545"
@@ -861,6 +882,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-026"
+    number: 22
     termId: "2004-10"
     title: "Tenet v. Doe"
     volume: "544"
@@ -902,6 +924,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-075"
+    number: 23
     termId: "2004-10"
     title: "Van Orden v. Perry"
     volume: "545"
@@ -943,6 +966,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-078"
+    number: 24
     termId: "2004-10"
     title: "McCreary County v. American Civil Liberties Union of Ky."
     volume: "545"
@@ -984,6 +1008,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-052"
+    number: 25
     termId: "2004-10"
     title: "Cutter v. Wilkinson"
     volume: "544"
@@ -1025,6 +1050,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-079"
+    number: 26
     termId: "2004-10"
     title: "Metro-Goldwyn-Mayer Studios Inc. v. Grokster, Ltd."
     volume: "545"
@@ -1066,6 +1092,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2005-018"
+    number: 27
     termId: "2005-10"
     title: "Gonzales v. Oregon"
     volume: "546"
@@ -1107,6 +1134,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2005-014"
+    number: 28
     termId: "2005-10"
     title: "United States v. Georgia"
     volume: "546"
@@ -1148,6 +1176,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2005-020"
+    number: 29
     termId: "2005-10"
     title: "Ayotte v. Planned Parenthood of Northern New Eng."
     volume: "546"
@@ -1189,6 +1218,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2005-039"
+    number: 30
     termId: "2005-10"
     title: "Rumsfeld v. Forum for Academic and Institutional Rights, Inc."
     volume: "547"
@@ -1230,6 +1260,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2005-025"
+    number: 31
     termId: "2005-10"
     title: "Wisconsin Right to Life, Inc. v. Federal Election Comm&apos;n"
     volume: "546"
@@ -1269,6 +1300,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2005-069"
+    number: 32
     termId: "2005-10"
     title: "Rapanos v. United States"
     volume: "547"
@@ -1310,6 +1342,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2005-086"
+    number: 33
     termId: "2005-10"
     title: "Hamdan v. Rumsfeld"
     volume: "548"
@@ -1351,6 +1384,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2005-087"
+    number: 34
     termId: "2005-10"
     title: "Clark v. Arizona"
     volume: "548"
@@ -1392,6 +1426,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-031"
+    number: 35
     termId: "2006-10"
     title: "Gonzales v. Carhart"
     volume: "550"
@@ -1433,6 +1468,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-031"
+    number: 36
     termId: "2006-10"
     title: "Gonzales v. Carhart"
     volume: "550"
@@ -1474,6 +1510,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-073"
+    number: 37
     termId: "2006-10"
     title: "Parents Involved in Community Schools v. Seattle School Dist. No. 1"
     volume: "551"
@@ -1515,6 +1552,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-073"
+    number: 38
     termId: "2006-10"
     title: "Parents Involved in Community Schools v. Seattle School Dist. No. 1"
     volume: "551"
@@ -1556,6 +1594,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-059"
+    number: 39
     termId: "2006-10"
     title: "Davenport v. Washington Ed. Assn."
     volume: "551"
@@ -1597,6 +1636,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-071"
+    number: 40
     termId: "2006-10"
     title: "Hein v. Freedom From Religion Foundation, Inc."
     volume: "551"
@@ -1638,6 +1678,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-064"
+    number: 41
     termId: "2006-10"
     title: "Credit Suisse Securities (USA) LLC v. Billing"
     volume: "551"
@@ -1679,6 +1720,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-069"
+    number: 42
     termId: "2006-10"
     title: "Federal Election Comm&rsquo;n v. Wisconsin Right to Life, Inc."
     volume: "551"
@@ -1720,6 +1762,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-026"
+    number: 43
     termId: "2007-10"
     title: "Medell&iacute;n v. Texas"
     volume: "552"
@@ -1761,6 +1804,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-038"
+    number: 44
     termId: "2007-10"
     title: "United States v. Williams"
     volume: "553"
@@ -1802,6 +1846,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-053"
+    number: 45
     termId: "2007-10"
     title: "Boumediene v. Bush"
     volume: "553"
@@ -1843,6 +1888,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2007-035"
+    number: 46
     termId: "2007-10"
     title: "Crawford v. Marion County Election Bd."
     volume: "553"
@@ -1884,6 +1930,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-042"
+    number: 47
     termId: "2007-10"
     title: "CBOCS West, Inc. v. Humphries"
     volume: "553"
@@ -1925,6 +1972,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-071"
+    number: 48
     termId: "2007-10"
     title: "District of Columbia v. Heller"
     volume: "554"
@@ -1966,6 +2014,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-072"
+    number: 49
     termId: "2007-10"
     title: "Davis v. Federal Election Comm&rsquo;n"
     volume: "554"
@@ -2007,6 +2056,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2009-045"
+    number: 50
     termId: "2009-10"
     title: "Perdue v. Kenny A."
     volume: "559"
@@ -2048,6 +2098,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: false
   - id: "2009-093"
+    number: 51
     termId: "2009-10"
     title: "POTTAWATTAMIE COUNTY, IOWA, et al., PETITIONERS v. CURTIS W. MCGHEE, JR., et al."
     volume: "558"
@@ -2087,6 +2138,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2009-091"
+    number: 52
     termId: "2009-10"
     title: "McDonald v. Chicago"
     volume: "561"
@@ -2128,6 +2180,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: false
   - id: "2010-065"
+    number: 53
     termId: "2010-10"
     title: "Bond v. United States"
     volume: "564"
@@ -2169,6 +2222,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-010"
+    number: 54
     termId: "2011-10"
     title: "Pacific Operators Offshore, LLP v. Valladolid"
     volume: "565"
@@ -2210,6 +2264,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-027"
+    number: 55
     termId: "2011-10"
     title: "PPL Montana, LLC v. Montana"
     pdfSource: "scotusBound"
@@ -2249,6 +2304,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-021"
+    number: 56
     termId: "2011-10"
     title: "Perry v. Perez"
     volume: "565"
@@ -2288,6 +2344,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-062"
+    number: 57
     termId: "2011-10"
     title: "Armour v. Indianapolis"
     pdfSource: "scotusBound"
@@ -2327,6 +2384,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-077"
+    number: 58
     termId: "2011-10"
     title: "National Federation of Independent Business v. Sebelius"
     pdfSource: "scotusBound"
@@ -2366,6 +2424,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-067"
+    number: 59
     termId: "2011-10"
     title: "Christopher v. SmithKline Beecham Corp."
     pdfSource: "scotusBound"
@@ -2405,6 +2464,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2011-075"
+    number: 60
     termId: "2011-10"
     title: "Arizona v. United States"
     pdfSource: "scotusBound"
@@ -2444,6 +2504,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-063"
+    number: 61
     termId: "2012-10"
     title: "Maracich v. Spears"
     pdfSource: "slipopinion/12"
@@ -2483,6 +2544,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-045"
+    number: 62
     termId: "2012-10"
     title: "PPL Corp. v. Commissioner"
     pdfSource: "slipopinion/12"
@@ -2522,6 +2584,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-066"
+    number: 63
     termId: "2012-10"
     title: "American Express Co. v. Italian Colors Restaurant"
     pdfSource: "slipopinion/12"
@@ -2561,6 +2624,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-079"
+    number: 64
     termId: "2012-10"
     title: "United States v. Windsor"
     pdfSource: "slipopinion/12"
@@ -2600,6 +2664,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-075"
+    number: 65
     termId: "2012-10"
     title: "Adoptive Couple v. Baby Girl"
     pdfSource: "slipopinion/12"
@@ -2639,6 +2704,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-078"
+    number: 66
     termId: "2012-10"
     title: "Sekhar v. United States"
     pdfSource: "slipopinion/12"
@@ -2678,6 +2744,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-022"
+    number: 67
     termId: "2013-10"
     title: "Chadbourne &amp; Parke LLP v. Troice"
     pdfSource: "slipopinion/13"
@@ -2717,6 +2784,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-053"
+    number: 68
     termId: "2013-10"
     title: "Bond v. United States"
     pdfSource: "slipopinion/13"
@@ -2756,6 +2824,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-034"
+    number: 69
     termId: "2013-10"
     title: "Northwest, Inc. v. Ginsberg"
     pdfSource: "slipopinion/13"
@@ -2795,6 +2864,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-005"
+    number: 70
     termId: "2014-10"
     title: "Integrity Staffing Solutions, Inc. v. Busk"
     pdfSource: "slipopinion/14"
@@ -2834,6 +2904,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-048"
+    number: 71
     termId: "2014-10"
     title: "Arizona State Legislature v. Arizona Independent Redistricting Comm&rsquo;n"
     pdfSource: "slipopinion/14"
@@ -2873,6 +2944,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-068"
+    number: 72
     termId: "2014-10"
     title: "Kingsley v. Hendrickson"
     pdfSource: "slipopinion/14"
@@ -2912,6 +2984,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-008"
+    number: 73
     termId: "2015-10"
     title: "FERC v. Electric Power Supply Assn."
     pdfSource: "slipopinion/15"
@@ -2951,6 +3024,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-026"
+    number: 74
     termId: "2015-10"
     title: "Franchise Tax Bd. of Cal. v. Hyatt"
     pdfSource: "slipopinion/15"
@@ -2987,6 +3061,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-037"
+    number: 75
     termId: "2015-10"
     title: "Nebraska v. Parker"
     pdfSource: "slipopinion/15"
@@ -3023,6 +3098,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-042"
+    number: 76
     termId: "2015-10"
     title: "Hughes v. Talen Energy Marketing, LLC"
     pdfSource: "slipopinion/15"
@@ -3059,6 +3135,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-063"
+    number: 77
     termId: "2015-10"
     title: "Zubik v. Burwell"
     pdfSource: "slipopinion/15"
@@ -3093,6 +3170,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-069"
+    number: 78
     termId: "2015-10"
     title: "Encino Motorcars, LLC v. Navarro"
     pdfSource: "slipopinion/15"
@@ -3129,6 +3207,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-030"
+    number: 79
     termId: "2016-10"
     title: "Cooper v. Harris"
     pdfSource: "slipopinion/16"
@@ -3168,6 +3247,7 @@ cases:
         name: "Neil Gorsuch"
         majority: false
   - id: "2016-029"
+    number: 80
     termId: "2016-10"
     title: "Bethune-Hill v. Virginia State Bd. of Elections"
     pdfSource: "slipopinion/16"
@@ -3204,6 +3284,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-065"
+    number: 81
     termId: "2016-10"
     title: "California Public Employees&rsquo; Retirement System v. ANZ Securities, Inc."
     pdfSource: "slipopinion/16"
@@ -3243,6 +3324,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "2017-002"
+    number: 82
     termId: "2017-10"
     title: "Epic Systems Corp. v. Lewis"
     pdfSource: "slipopinion/17"
@@ -3282,6 +3364,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "2017-010"
+    number: 83
     termId: "2017-10"
     title: "Jesner v. Arab Bank, PLC"
     pdfSource: "slipopinion/17"
@@ -3321,6 +3404,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "2017-016"
+    number: 84
     termId: "2017-10"
     title: "Merit Management Group, LP v. FTI Consulting, Inc."
     pdfSource: "slipopinion/17"
@@ -3360,6 +3444,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "2017-022"
+    number: 85
     termId: "2017-10"
     title: "Murphy v. National Collegiate Athletic Assn."
     pdfSource: "slipopinion/17"
@@ -3399,6 +3484,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "2017-040"
+    number: 86
     termId: "2017-10"
     title: "Encino Motor Cars, LLC v. Navarro"
     pdfSource: "slipopinion/17"
@@ -3438,6 +3524,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "2017-058"
+    number: 87
     termId: "2017-10"
     title: "WesternGeco LLC v. ION Geophysical Corp."
     pdfSource: "slipopinion/17"
@@ -3477,6 +3564,7 @@ cases:
         name: "Neil Gorsuch"
         majority: false
   - id: "63029"
+    number: 88
     termId: "2018-10"
     title: "Rimini Street, Inc. v. Oracle USA, Inc."
     pdfSource: "slipopinion/18"

@@ -4,6 +4,7 @@ permalink: /advocates/top100/erwin_griswold
 layout: cases
 cases:
   - id: "50231"
+    number: 1
     termId: "1969-10"
     title: "Boston &amp; Maine R. Co. v. United States"
     volume: "396"
@@ -15,6 +16,7 @@ cases:
     voteMajority: 0
     voteMinority: 0
   - id: "49891"
+    number: 2
     termId: "1967-10"
     title: "Central Bank &amp; Trust Co. v. United States"
     volume: "391"
@@ -26,6 +28,7 @@ cases:
     voteMajority: 0
     voteMinority: 0
   - id: "50299"
+    number: 3
     termId: "1968-10"
     title: "Chicago v. United States"
     volume: "394"
@@ -37,6 +40,7 @@ cases:
     voteMajority: 0
     voteMinority: 0
   - id: "1967-121"
+    number: 4
     termId: "1967-10"
     title: "Bruton v. United States"
     volume: "391"
@@ -78,6 +82,7 @@ cases:
         name: "Thurgood Marshall"
         majority: false
   - id: "1969-017"
+    number: 5
     termId: "1969-10"
     title: "Nacirema Operating Co. v. Johnson"
     volume: "396"
@@ -116,6 +121,7 @@ cases:
         name: "Thurgood Marshall"
         majority: true
   - id: "1968-121"
+    number: 6
     termId: "1968-10"
     title: "Red Lion Broadcasting Co. v. FCC"
     volume: "395"
@@ -154,6 +160,7 @@ cases:
         name: "Thurgood Marshall"
         majority: true
   - id: "1968-111"
+    number: 7
     termId: "1968-10"
     title: "United States v. Montgomery County Bd. of Ed."
     volume: "395"
@@ -192,6 +199,7 @@ cases:
         name: "Thurgood Marshall"
         majority: true
   - id: "1970-013"
+    number: 8
     termId: "1970-10"
     title: "Dutton v. Evans"
     volume: "400"
@@ -233,6 +241,7 @@ cases:
         name: "Harry Blackmun"
         majority: true
   - id: "1969-055"
+    number: 9
     termId: "1969-10"
     title: "United States v. W. M. Webb, Inc."
     volume: "397"
@@ -271,6 +280,7 @@ cases:
         name: "Thurgood Marshall"
         majority: true
   - id: "1970-082"
+    number: 10
     termId: "1970-10"
     title: "Swann v. Charlotte-Mecklenburg Bd. of Ed."
     volume: "402"
@@ -312,6 +322,7 @@ cases:
         name: "Harry Blackmun"
         majority: true
   - id: "1970-083"
+    number: 11
     termId: "1970-10"
     title: "Davis v. Board of School Comm&apos;rs of Mobile Cty."
     volume: "402"
@@ -353,6 +364,7 @@ cases:
         name: "Harry Blackmun"
         majority: true
   - id: "1970-014"
+    number: 12
     termId: "1970-10"
     title: "Oregon v. Mitchell"
     volume: "400"
@@ -394,6 +406,7 @@ cases:
         name: "Harry Blackmun"
         majority: false
   - id: "1970-145"
+    number: 13
     termId: "1970-10"
     title: "New York Times Co. v. United States"
     volume: "403"
@@ -433,6 +446,7 @@ cases:
         name: "Harry Blackmun"
         majority: false
   - id: "1971-061"
+    number: 14
     termId: "1971-10"
     title: "Giglio v. United States"
     volume: "405"
@@ -474,6 +488,7 @@ cases:
         name: "William Rehnquist"
         majority: false
   - id: "1971-076"
+    number: 15
     termId: "1971-10"
     title: "Fein v. Selective Serv. System Local Bd. No. 7 of Yonkers"
     volume: "405"
@@ -515,6 +530,7 @@ cases:
         name: "William Rehnquist"
         majority: false
   - id: "1971-029"
+    number: 16
     termId: "1971-10"
     title: "United States v. Campos-Serrano"
     volume: "404"
@@ -550,6 +566,7 @@ cases:
         name: "Harry Blackmun"
         majority: false
   - id: "1971-034"
+    number: 17
     termId: "1971-10"
     title: "SEC v. Medical Comm. for Human Rights"
     volume: "404"
@@ -591,6 +608,7 @@ cases:
         name: "William Rehnquist"
         majority: false
   - id: "1971-092"
+    number: 18
     termId: "1971-10"
     title: "Sierra Club v. Morton"
     volume: "405"
@@ -632,6 +650,7 @@ cases:
         name: "William Rehnquist"
         majority: false
   - id: "1971-044"
+    number: 19
     termId: "1971-10"
     title: "Trbovich v. Mine Workers"
     volume: "404"
@@ -673,6 +692,7 @@ cases:
         name: "William Rehnquist"
         majority: false
   - id: "1971-134"
+    number: 20
     termId: "1971-10"
     title: "Argersinger v. Hamlin"
     volume: "407"
@@ -714,6 +734,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1971-033"
+    number: 21
     termId: "1971-10"
     title: "United States v. Louisiana"
     volume: "404"
@@ -747,6 +768,7 @@ cases:
         name: "Harry Blackmun"
         majority: true
   - id: "1971-113"
+    number: 22
     termId: "1971-10"
     title: "Kastigar v. United States"
     volume: "406"
@@ -788,6 +810,7 @@ cases:
         name: "William Rehnquist"
         majority: false
   - id: "1971-067"
+    number: 23
     termId: "1971-10"
     title: "Iowa Beef Packers, Inc. v. Thompson"
     volume: "405"
@@ -827,6 +850,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-161"
+    number: 24
     termId: "1972-10"
     title: "United States v. 12 200-ft. Reels of Super 8MM. Film"
     volume: "413"
@@ -868,6 +892,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-162"
+    number: 25
     termId: "1972-10"
     title: "United States v. Orito"
     volume: "413"
@@ -909,12 +934,13 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1971-176"
+    number: 26
     termId: "1971-10"
     title: "Branzburg v. Hayes"
     volume: "408"
     page: "665"
     pdfSource: "loc"
-    dateArgument: "Wednesday, February 23, 1972"
+    dateArgument: "Tuesday, February 22, 1972"
     dateDecision: "Thursday, June 29, 1972"
     citation: "408 U.S. 665"
     voteMajority: 5
@@ -950,6 +976,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1971-109"
+    number: 27
     termId: "1971-10"
     title: "Strait v. Laird"
     volume: "406"
@@ -991,6 +1018,7 @@ cases:
         name: "William Rehnquist"
         majority: false
   - id: "1971-159"
+    number: 28
     termId: "1971-10"
     title: "Laird v. Tatum"
     volume: "408"
@@ -1032,6 +1060,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1971-175"
+    number: 29
     termId: "1971-10"
     title: "Gravel v. United States"
     volume: "408"
@@ -1073,6 +1102,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-125"
+    number: 30
     termId: "1972-10"
     title: "Columbia Broadcasting System, Inc. v. Democratic National Committee"
     volume: "412"
@@ -1114,6 +1144,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-025"
+    number: 31
     termId: "1972-10"
     title: "Executive Jet Aviation, Inc. v. Cleveland"
     volume: "409"
@@ -1155,6 +1186,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-063"
+    number: 32
     termId: "1972-10"
     title: "United States v. Basye"
     volume: "410"
@@ -1196,6 +1228,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-108"
+    number: 33
     termId: "1972-10"
     title: "United States v. Cartwright"
     volume: "411"
@@ -1237,6 +1270,7 @@ cases:
         name: "William Rehnquist"
         majority: false
   - id: "1972-069"
+    number: 34
     termId: "1972-10"
     title: "Hurtado v. United States"
     volume: "410"
@@ -1278,6 +1312,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-099"
+    number: 35
     termId: "1972-10"
     title: "Palmore v. United States"
     volume: "411"
@@ -1319,6 +1354,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-167"
+    number: 36
     termId: "1972-10"
     title: "NAACP v. New York"
     volume: "413"
@@ -1360,6 +1396,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-151"
+    number: 37
     termId: "1972-10"
     title: "United States v. Students Challenging Regulatory Agency Procedures (SCRAP)"
     volume: "412"
@@ -1401,6 +1438,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-157"
+    number: 38
     termId: "1972-10"
     title: "Gilligan v. Morgan"
     volume: "413"
@@ -1442,6 +1480,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-177"
+    number: 39
     termId: "1972-10"
     title: "Civil Service Comm&apos;n v. Letter Carriers"
     volume: "413"
@@ -1483,6 +1522,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1972-132"
+    number: 40
     termId: "1972-10"
     title: "United States v. Mason"
     volume: "412"
@@ -1524,6 +1564,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1973-098"
+    number: 41
     termId: "1973-10"
     title: "Kewanee Oil Co. v. Bicron Corp."
     volume: "416"
@@ -1565,6 +1606,7 @@ cases:
         name: "William Rehnquist"
         majority: true
   - id: "1977-033"
+    number: 42
     termId: "1977-10"
     title: "United States Steel Corp. v. Multistate Tax Comm&apos;n"
     volume: "434"
@@ -1606,6 +1648,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1977-065"
+    number: 43
     termId: "1977-10"
     title: "Frank Lyon Co. v. United States"
     volume: "435"
@@ -1647,6 +1690,7 @@ cases:
         name: "John Paul Stevens"
         majority: false
   - id: "1977-106"
+    number: 44
     termId: "1977-10"
     title: "FCC v. National Citizens Comm. for Broadcasting"
     volume: "436"
@@ -1688,6 +1732,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1978-048"
+    number: 45
     termId: "1978-10"
     title: "Aronson v. Quick Point Pencil Co."
     volume: "440"
@@ -1729,6 +1774,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1979-105"
+    number: 46
     termId: "1979-10"
     title: "Lewis v. BT Investment Managers, Inc."
     volume: "447"
@@ -1770,6 +1816,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1980-115"
+    number: 47
     termId: "1980-10"
     title: "National Gerimedical Hospital and Gerontology Center v. Blue Cross of Kansas City"
     volume: "452"
@@ -1811,6 +1858,7 @@ cases:
         name: "John Paul Stevens"
         majority: true
   - id: "1981-160"
+    number: 48
     termId: "1981-10"
     title: "Loretto v. Teleprompter Manhattan CATV Corp."
     volume: "458"
@@ -1852,6 +1900,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1983-131"
+    number: 49
     termId: "1983-10"
     title: "Copperweld Corp. v. Independence Tube Corp."
     volume: "467"
@@ -1893,6 +1942,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1986-011"
+    number: 50
     termId: "1986-10"
     title: "R. J. Reynolds Tobacco Co. v. Durham County"
     volume: "479"
@@ -1934,6 +1984,7 @@ cases:
         name: "Antonin Scalia"
         majority: true
   - id: "1986-114"
+    number: 51
     termId: "1986-10"
     title: "Rockford Life Ins. Co. v. Illinois Dept. of Revenue"
     volume: "482"

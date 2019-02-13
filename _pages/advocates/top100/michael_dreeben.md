@@ -4,6 +4,7 @@ permalink: /advocates/top100/michael_dreeben
 layout: cases
 cases:
   - id: "1988-086"
+    number: 1
     termId: "1988-10"
     title: "United States v. Halper"
     volume: "490"
@@ -45,6 +46,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1988-117"
+    number: 2
     termId: "1988-10"
     title: "Colonial American Life Ins. Co. v. Commissioner"
     volume: "491"
@@ -86,6 +88,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1989-113"
+    number: 3
     termId: "1989-10"
     title: "Texaco Inc. v. Hasbrouck"
     volume: "496"
@@ -127,6 +130,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1989-056"
+    number: 4
     termId: "1989-10"
     title: "Department of Labor v. Triplett"
     volume: "494"
@@ -168,6 +172,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1989-123"
+    number: 5
     termId: "1989-10"
     title: "Illinois v. Rodriguez"
     volume: "497"
@@ -209,6 +214,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1990-131"
+    number: 6
     termId: "1990-10"
     title: "Virginia Bankshares, Inc. v. Sandberg"
     volume: "501"
@@ -250,6 +256,7 @@ cases:
         name: "David Souter"
         majority: true
   - id: "1990-038"
+    number: 7
     termId: "1990-10"
     title: "McNary v. Haitian Refugee Center, Inc."
     volume: "498"
@@ -291,6 +298,7 @@ cases:
         name: "David Souter"
         majority: true
   - id: "1990-071"
+    number: 8
     termId: "1990-10"
     title: "Kamen v. Kemper Financial Services, Inc."
     volume: "500"
@@ -332,6 +340,7 @@ cases:
         name: "David Souter"
         majority: true
   - id: "1991-031"
+    number: 9
     termId: "1991-10"
     title: "Lechmere, Inc. v. NLRB"
     volume: "502"
@@ -373,6 +382,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1991-095"
+    number: 10
     termId: "1991-10"
     title: "Georgia v. McCollum"
     volume: "505"
@@ -414,6 +424,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1991-107"
+    number: 11
     termId: "1991-10"
     title: "Estate of Cowart v. Nicklos Drilling Co."
     volume: "505"
@@ -455,6 +466,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-037"
+    number: 12
     termId: "1992-10"
     title: "Reves v. Ernst &amp; Young"
     volume: "507"
@@ -496,6 +508,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-041"
+    number: 13
     termId: "1992-10"
     title: "Reiter v. Cooper"
     volume: "507"
@@ -537,6 +550,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-064"
+    number: 14
     termId: "1992-10"
     title: "Cisneros v. Alpine Ridge Group"
     volume: "508"
@@ -578,6 +592,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-091"
+    number: 15
     termId: "1992-10"
     title: "Wisconsin v. Mitchell"
     volume: "508"
@@ -619,6 +634,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1993-035"
+    number: 16
     termId: "1993-10"
     title: "J. E. B. v. Alabama ex rel. T. B."
     volume: "511"
@@ -660,6 +676,7 @@ cases:
         name: "Ruth Ginsburg"
         majority: true
   - id: "1993-054"
+    number: 17
     termId: "1993-10"
     title: "NLRB v. Health Care &amp; Retirement Corp. of America"
     volume: "511"
@@ -701,6 +718,7 @@ cases:
         name: "Ruth Ginsburg"
         majority: false
   - id: "1993-057"
+    number: 18
     termId: "1993-10"
     title: "Morgan Stanley &amp; Co. v. Pacific Mut. Life Ins. Co."
     volume: "511"
@@ -740,6 +758,7 @@ cases:
         name: "Ruth Ginsburg"
         majority: false
   - id: "1994-028"
+    number: 19
     termId: "1994-10"
     title: "Gustafson v. Alloyd Co."
     volume: "513"
@@ -781,6 +800,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1994-040"
+    number: 20
     termId: "1994-10"
     title: "Plaut v. Spendthrift Farm, Inc."
     volume: "514"
@@ -822,6 +842,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1994-060"
+    number: 21
     termId: "1994-10"
     title: "Wilson v. Arkansas"
     volume: "514"
@@ -863,6 +884,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1994-081"
+    number: 22
     termId: "1994-10"
     title: "United States v. Gaudin"
     volume: "515"
@@ -904,6 +926,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1995-011"
+    number: 23
     termId: "1995-10"
     title: "Bailey v. United States"
     volume: "516"
@@ -945,6 +968,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1995-011"
+    number: 24
     termId: "1995-10"
     title: "Bailey v. United States"
     volume: "516"
@@ -986,6 +1010,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1995-071"
+    number: 25
     termId: "1995-10"
     title: "Koon v. United States"
     volume: "518"
@@ -1027,6 +1052,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1995-079"
+    number: 26
     termId: "1995-10"
     title: "United States v. Ursery"
     volume: "518"
@@ -1068,6 +1094,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-031"
+    number: 27
     termId: "1996-10"
     title: "United States v. Wells"
     volume: "519"
@@ -1109,6 +1136,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-061"
+    number: 28
     termId: "1996-10"
     title: "United States v. LaBonte"
     volume: "520"
@@ -1150,6 +1178,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1996-061"
+    number: 29
     termId: "1996-10"
     title: "United States v. LaBonte"
     volume: "520"
@@ -1191,6 +1220,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1996-050"
+    number: 30
     termId: "1996-10"
     title: "Johnson v. United States"
     volume: "520"
@@ -1232,6 +1262,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-050"
+    number: 31
     termId: "1996-10"
     title: "Johnson v. United States"
     volume: "520"
@@ -1273,6 +1304,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-090"
+    number: 32
     termId: "1996-10"
     title: "United States v. O&apos;Hagan"
     volume: "521"
@@ -1314,6 +1346,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-009"
+    number: 33
     termId: "1997-10"
     title: "Hudson v. United States"
     volume: "522"
@@ -1355,6 +1388,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-048"
+    number: 34
     termId: "1997-10"
     title: "United States v. Scheffer"
     volume: "523"
@@ -1396,6 +1430,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-062"
+    number: 35
     termId: "1997-10"
     title: "Bousley v. United States"
     volume: "523"
@@ -1437,6 +1472,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-099"
+    number: 36
     termId: "1997-10"
     title: "United States v. Balsys"
     volume: "524"
@@ -1478,6 +1514,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1998-044"
+    number: 37
     termId: "1998-10"
     title: "Mitchell v. United States"
     volume: "526"
@@ -1519,6 +1556,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-079"
+    number: 38
     termId: "1998-10"
     title: "Jones v. United States"
     volume: "527"
@@ -1560,6 +1598,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1998-053"
+    number: 39
     termId: "1998-10"
     title: "Clinton v. Goldsmith"
     volume: "526"
@@ -1601,6 +1640,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-024"
+    number: 40
     termId: "1999-10"
     title: "United States v. Martinez-Salazar"
     volume: "528"
@@ -1642,6 +1682,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-068"
+    number: 41
     termId: "1999-10"
     title: "United States v. Hubbell"
     volume: "530"
@@ -1683,6 +1724,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-064"
+    number: 42
     termId: "1999-10"
     title: "Jones v. United States"
     volume: "529"
@@ -1724,6 +1766,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-003"
+    number: 43
     termId: "2000-10"
     title: "Cleveland v. United States"
     volume: "531"
@@ -1765,6 +1808,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-011"
+    number: 44
     termId: "2000-10"
     title: "Glover v. United States"
     volume: "531"
@@ -1806,6 +1850,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-045"
+    number: 45
     termId: "2000-10"
     title: "Daniels v. United States"
     volume: "532"
@@ -1847,6 +1892,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2000-069"
+    number: 46
     termId: "2000-10"
     title: "Kyllo v. United States"
     volume: "533"
@@ -1888,6 +1934,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-029"
+    number: 47
     termId: "2001-10"
     title: "United States v. Vonn"
     volume: "535"
@@ -1929,6 +1976,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-029"
+    number: 48
     termId: "2001-10"
     title: "United States v. Vonn"
     volume: "535"
@@ -1970,6 +2018,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-076"
+    number: 49
     termId: "2001-10"
     title: "Harris v. United States"
     volume: "536"
@@ -2011,6 +2060,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-076"
+    number: 50
     termId: "2001-10"
     title: "Harris v. United States"
     volume: "536"
@@ -2052,6 +2102,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-048"
+    number: 51
     termId: "2001-10"
     title: "United States v. Cotton"
     volume: "535"
@@ -2093,6 +2144,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-048"
+    number: 52
     termId: "2001-10"
     title: "United States v. Cotton"
     volume: "535"
@@ -2134,6 +2186,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-016"
+    number: 53
     termId: "2002-10"
     title: "United States v. Jimenez Recio"
     volume: "537"
@@ -2175,6 +2228,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-016"
+    number: 54
     termId: "2002-10"
     title: "United States v. Jimenez Recio"
     volume: "537"
@@ -2216,6 +2270,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-039"
+    number: 55
     termId: "2002-10"
     title: "Virginia v. Black"
     volume: "538"
@@ -2257,6 +2312,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-039"
+    number: 56
     termId: "2002-10"
     title: "Virginia v. Black"
     volume: "538"
@@ -2298,6 +2354,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-075"
+    number: 57
     termId: "2002-10"
     title: "Sell v. United States"
     volume: "539"
@@ -2339,6 +2396,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-075"
+    number: 58
     termId: "2002-10"
     title: "Sell v. United States"
     volume: "539"
@@ -2380,6 +2438,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-072"
+    number: 59
     termId: "2002-10"
     title: "Virginia v. Hicks"
     volume: "539"
@@ -2421,6 +2480,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-040"
+    number: 60
     termId: "2003-10"
     title: "Crawford v. Washington"
     volume: "541"
@@ -2462,6 +2522,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-040"
+    number: 61
     termId: "2003-10"
     title: "Crawford v. Washington"
     volume: "541"
@@ -2503,6 +2564,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-088"
+    number: 62
     termId: "2003-10"
     title: "United States v. Patane"
     volume: "542"
@@ -2544,6 +2606,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2003-088"
+    number: 63
     termId: "2003-10"
     title: "United States v. Patane"
     volume: "542"
@@ -2585,6 +2648,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2003-027"
+    number: 64
     termId: "2003-10"
     title: "Fellers v. United States"
     volume: "540"
@@ -2626,6 +2690,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-027"
+    number: 65
     termId: "2003-10"
     title: "Fellers v. United States"
     volume: "540"
@@ -2667,6 +2732,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-061"
+    number: 66
     termId: "2003-10"
     title: "Sabri v. United States"
     volume: "541"
@@ -2708,6 +2774,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-061"
+    number: 67
     termId: "2003-10"
     title: "Sabri v. United States"
     volume: "541"
@@ -2749,6 +2816,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-080"
+    number: 68
     termId: "2003-10"
     title: "Blakely v. Washington"
     volume: "542"
@@ -2790,6 +2858,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2003-080"
+    number: 69
     termId: "2003-10"
     title: "Blakely v. Washington"
     volume: "542"
@@ -2831,6 +2900,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2004-041"
+    number: 70
     termId: "2004-10"
     title: "Pasquantino v. United States"
     volume: "544"
@@ -2872,6 +2942,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2004-041"
+    number: 71
     termId: "2004-10"
     title: "Pasquantino v. United States"
     volume: "544"
@@ -2913,6 +2984,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2004-050"
+    number: 72
     termId: "2004-10"
     title: "Medell&iacute;n v. Dretke"
     volume: "544"
@@ -2952,6 +3024,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2004-050"
+    number: 73
     termId: "2004-10"
     title: "Medell&iacute;n v. Dretke"
     volume: "544"
@@ -2991,6 +3064,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2004-051"
+    number: 74
     termId: "2004-10"
     title: "Arthur Andersen LLP v. United States"
     volume: "544"
@@ -3032,6 +3106,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2005-042"
+    number: 75
     termId: "2005-10"
     title: "Georgia v. Randolph"
     volume: "547"
@@ -3073,6 +3148,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2005-041"
+    number: 76
     termId: "2005-10"
     title: "United States v. Grubbs"
     volume: "547"
@@ -3114,6 +3190,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2005-070"
+    number: 77
     termId: "2005-10"
     title: "Davis v. Washington"
     volume: "547"
@@ -3155,6 +3232,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2005-078"
+    number: 78
     termId: "2005-10"
     title: "United States v. Gonzalez-Lopez"
     volume: "548"
@@ -3196,6 +3274,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2006-007"
+    number: 79
     termId: "2006-10"
     title: "United States v. Resendiz-Ponce"
     volume: "549"
@@ -3237,6 +3316,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-067"
+    number: 80
     termId: "2006-10"
     title: "Rita v. United States"
     volume: "551"
@@ -3278,6 +3358,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-052"
+    number: 81
     termId: "2006-10"
     title: "Claiborne v. United States"
     volume: "551"
@@ -3317,6 +3398,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-049"
+    number: 82
     termId: "2006-10"
     title: "Uttecht v. Brown"
     volume: "551"
@@ -3358,6 +3440,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-005"
+    number: 83
     termId: "2007-10"
     title: "Gall v. United States"
     volume: "552"
@@ -3399,6 +3482,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2007-007"
+    number: 84
     termId: "2007-10"
     title: "Kimbrough v. United States"
     volume: "552"
@@ -3440,6 +3524,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2007-034"
+    number: 85
     termId: "2007-10"
     title: "Virginia v. Moore"
     volume: "553"
@@ -3481,6 +3566,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-062"
+    number: 86
     termId: "2007-10"
     title: "Indiana v. Edwards"
     volume: "554"
@@ -3522,6 +3608,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-009"
+    number: 87
     termId: "2008-10"
     title: "Herring v. United States"
     volume: "555"
@@ -3563,6 +3650,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-020"
+    number: 88
     termId: "2008-10"
     title: "Van de Kamp v. Goldstein"
     volume: "555"
@@ -3604,6 +3692,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-043"
+    number: 89
     termId: "2008-10"
     title: "Corley v. United States"
     volume: "556"
@@ -3645,6 +3734,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2008-072"
+    number: 90
     termId: "2008-10"
     title: "Yeager v. United States"
     volume: "557"
@@ -3686,6 +3776,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2009-034"
+    number: 91
     termId: "2009-10"
     title: "Padilla v. Kentucky"
     volume: "559"
@@ -3727,6 +3818,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2009-094"
+    number: 92
     termId: "2009-10"
     title: "Weyhrauch v. United States"
     volume: "561"
@@ -3766,6 +3858,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2009-086"
+    number: 93
     termId: "2009-10"
     title: "Black v. United States"
     volume: "561"
@@ -3807,6 +3900,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2009-085"
+    number: 94
     termId: "2009-10"
     title: "Skilling v. United States"
     volume: "561"
@@ -3848,6 +3942,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2010-065"
+    number: 95
     termId: "2010-10"
     title: "Bond v. United States"
     volume: "564"
@@ -3889,6 +3984,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2010-066"
+    number: 96
     termId: "2010-10"
     title: "Davis v. United States"
     volume: "564"
@@ -3930,6 +4026,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-020"
+    number: 97
     termId: "2011-10"
     title: "United States v. Jones"
     volume: "565"
@@ -3971,6 +4068,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-068"
+    number: 98
     termId: "2011-10"
     title: "Williams v. Illinois"
     pdfSource: "scotusBound"
@@ -4010,6 +4108,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2011-069"
+    number: 99
     termId: "2011-10"
     title: "Southern Union Co. v. United States"
     pdfSource: "scotusBound"
@@ -4049,6 +4148,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-071"
+    number: 100
     termId: "2011-10"
     title: "Dorsey v. United States"
     pdfSource: "scotusBound"
@@ -4088,6 +4188,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-019"
+    number: 101
     termId: "2012-10"
     title: "Chaidez v. United States"
     pdfSource: "slipopinion/12"
@@ -4127,6 +4228,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-062"
+    number: 102
     termId: "2012-10"
     title: "Alleyne v. United States"
     pdfSource: "slipopinion/12"
@@ -4166,6 +4268,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-050"
+    number: 103
     termId: "2012-10"
     title: "Maryland v. King"
     pdfSource: "slipopinion/12"
@@ -4205,6 +4308,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-071"
+    number: 104
     termId: "2012-10"
     title: "United States v. Kebodeaux"
     pdfSource: "slipopinion/12"
@@ -4244,6 +4348,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-019"
+    number: 105
     termId: "2013-10"
     title: "Kaley v. United States"
     pdfSource: "slipopinion/13"
@@ -4283,6 +4388,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-008"
+    number: 106
     termId: "2013-10"
     title: "Unite Here Local 355 v. Mulhall"
     pdfSource: "slipopinion/13"
@@ -4320,6 +4426,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2013-038"
+    number: 107
     termId: "2013-10"
     title: "Paroline v. United States"
     pdfSource: "slipopinion/13"
@@ -4359,6 +4466,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-016"
+    number: 108
     termId: "2014-10"
     title: "Johnson v. United States"
     pdfSource: "slipopinion/14"
@@ -4398,6 +4506,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-024"
+    number: 109
     termId: "2014-10"
     title: "Elonis v. United States"
     pdfSource: "slipopinion/14"
@@ -4437,6 +4546,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-050"
+    number: 110
     termId: "2014-10"
     title: "Los Angeles v. Patel"
     pdfSource: "slipopinion/14"
@@ -4476,6 +4586,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-006"
+    number: 111
     termId: "2015-10"
     title: "Montgomery v. Louisiana"
     pdfSource: "slipopinion/15"
@@ -4515,6 +4626,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-019"
+    number: 112
     termId: "2015-10"
     title: "Luis v. United States"
     pdfSource: "slipopinion/15"
@@ -4551,6 +4663,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2015-055"
+    number: 113
     termId: "2015-10"
     title: "Welch v. United States"
     pdfSource: "slipopinion/15"
@@ -4587,6 +4700,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-075"
+    number: 114
     termId: "2015-10"
     title: "McDonnell v. United States"
     pdfSource: "slipopinion/15"
@@ -4623,6 +4737,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-004"
+    number: 115
     termId: "2016-10"
     title: "Salman v. United States"
     pdfSource: "slipopinion/16"
@@ -4659,6 +4774,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-026"
+    number: 116
     termId: "2016-10"
     title: "Beckles v. United States"
     pdfSource: "slipopinion/16"
@@ -4695,6 +4811,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2016-061"
+    number: 117
     termId: "2016-10"
     title: "Turner v. United States"
     pdfSource: "slipopinion/16"
@@ -4734,6 +4851,7 @@ cases:
         name: "Neil Gorsuch"
         majority: false
   - id: "2017-021"
+    number: 118
     termId: "2017-10"
     title: "Carpenter v. United States"
     pdfSource: "slipopinion/17"
@@ -4773,6 +4891,7 @@ cases:
         name: "Neil Gorsuch"
         majority: false
   - id: "2017-048"
+    number: 119
     termId: "2017-10"
     title: "United States v. Microsoft Corp."
     pdfSource: "slipopinion/17"

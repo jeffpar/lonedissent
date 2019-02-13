@@ -37,6 +37,9 @@ layout: default
         <img src="{{ pdfGIF }}" style="display:block; margin:auto;" alt="{{ case.citation }}"/>
       </a>
     </p>
+    {% if case.number and case.dateArgument %}
+    <p style="font-size:medium">Appearance No. {{ case.number }}</p>
+    {% endif %}
   </div>
   <hr/>
 {% endfor %}

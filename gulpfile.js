@@ -469,6 +469,22 @@ function binarySearch(a, v, compare, left=0, right=a.length)
 }
 
 /**
+ * cloneObject(obj)
+ *
+ * @param {object} obj
+ * @param {object}
+ */
+function cloneObject(obj)
+{
+    let newObj = {};
+    let keys = Object.keys(obj);
+    keys.forEach((key) => {
+        newObj[key] = obj[key];
+    });
+    return newObj;
+}
+
+/**
  * insertSortedObject(rows, row, keys)
  *
  * @param {Array.<object>} rows
@@ -1486,6 +1502,7 @@ function buildAdvocates(done)
                 let fileText = '---\ntitle: "Cases Argued by ' + nameAdvocate + '"\npermalink: ' + pathAdvocate + '\nlayout: cases\n';
                 rowsAdvocate.forEach((row) => {
                     let i = -1, obj;
+                    let dateArgument = row.dateArgument.split(',')[0];
                     if (row.volume && row.page) {
                         obj = {volume: row.volume, page: row.page};
                         i = searchSortedObjects(decisions, obj, true);
@@ -1496,7 +1513,6 @@ function buildAdvocates(done)
                          */
                         let next = 0;
                         let docket = row.docket;
-                        let dateArgument = row.dateArgument.split(',')[0];
                         let dateDecision = row.dateDecision;
                         if (dateArgument) {
                             obj = {docket, dateArgument};
@@ -1507,7 +1523,9 @@ function buildAdvocates(done)
                         if (i >= 0 && searchObjects(decisions, obj, i+1) >= 0) i = -1;
                     }
                     if (i >= 0) {
-                        results.push(decisions[i]);
+                        let argument = cloneObject(decisions[i]);
+                        if (dateArgument) argument.dateArgument = dateArgument;
+                        results.push(argument);
                     } else {
                         results.push(row);
                         warning("unable to find exact match for %s: %s [%s] (%s) Argued=%s Decided=%s\n", nameAdvocate, row.caseTitle, row.docket, row.usCite, row.dateArgument, row.dateDecision);
@@ -1515,7 +1533,7 @@ function buildAdvocates(done)
                 });
                 sortObjects(results, ["dateArgument"]);
                 top100.push({id, nameAdvocate, total: results.length, verified});
-                fileText += generateCaseYML(results, vars, courtsSCDB, justices, ["dateArgument"]);
+                fileText += generateCaseYML(results, vars, courtsSCDB, justices, ["caseNumber","dateArgument"]);
                 fileText += '---\n\n';
                 fileText += nameAdvocate + " argued " + rowsAdvocate.length + " cases in the U.S. Supreme Court";
                 filePath = "/_pages" + pathAdvocate + ".md", fileText;
@@ -2110,15 +2128,20 @@ function scoreStrings(left, right)
 function generateCaseYML(decisions, vars, courts, justices, extras=[])
 {
     let ymlText = '';
+    let caseNumber = 0;
     decisions.forEach((decision) => {
         let volume = 0, page = 0;
         let matchCite = decision.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
         if (matchCite) {
             volume = +matchCite[1];  page = +matchCite[2];
         }
+        caseNumber++;
         if (!ymlText) ymlText = 'cases:\n';
         let title = encodeString(decision.caseTitle || decision.caseName, "html", false);
         ymlText += '  - id: "' + decision.caseId + '"\n';
+        if (extras.indexOf("caseNumber") >= 0) {
+            ymlText += '    number: ' + caseNumber + '\n';
+        }
         ymlText += '    termId: "' + decision.termId + '"\n';
         ymlText += '    title: "' + title + '"\n';
         /*
