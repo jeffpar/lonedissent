@@ -2934,7 +2934,7 @@ function findJustices(done, minVotes)
 
             }
         });
-        sortObjects(data, minVotes == 1? ["loneTotal"] : ["majorityTotal"]);
+        sortObjects(data, minVotes == 1? ["loneTotal"] : ["majorityTotal"], true);
         writeFile(dataFile, data);
     }
     let index = "";
