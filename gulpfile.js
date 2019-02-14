@@ -3642,8 +3642,9 @@ function testDates(done)
  * @param {string} url
  * @param {string} dir
  * @param {string} file
+ * @param {boolean} [fDisplay]
  */
-function createDownloadTask(name, url, dir, file)
+function createDownloadTask(name, url, dir, file, fDisplay)
 {
     if (downloadTasks.indexOf(name) >= 0) {
         return;
@@ -3653,7 +3654,7 @@ function createDownloadTask(name, url, dir, file)
     if (fs.existsSync(filePath)) {
         return;
     }
-    // printf("createDownloadTask(%s,%s,%s,%s)\n", name, url, dir, file);
+    if (fDisplay) printf("createDownloadTask(%s,%s,%s,%s)\n", name, url, dir, file);
     downloadTasks.push(name);
     gulp.task(name, function(done) {
         if (!fs.existsSync(dirPath)) {
@@ -3699,6 +3700,37 @@ function generateDownloadTasks(done)
                     let file = sprintf(downloadGroup.file, index);
                     createDownloadTask('download.' + source + '.' + group + '.' + index, url, dir, file);
                 }
+            }
+            else if (downloadGroup.files) {
+                let files = glob.sync(rootDir + downloadGroup.files);
+                files.forEach((file) => {
+                    let html = readFile(file);
+                    if (html) {
+                        printf("processing file %s...\n", file);
+                        let index = 1;
+                        let dir = path.dirname(file);
+                        let folder = path.basename(dir);
+                        let match, re = new RegExp(downloadGroup.pattern, "g");
+                        while ((match = re.exec(html))) {
+                            let nTokens = match.length - 1;
+                            let url = downloadGroup.url, file = downloadGroup.file;
+                            for (let iToken = 1; iToken <= nTokens; iToken++) {
+                                let sToken = '$' + iToken;
+                                let sTransform = downloadGroup.transform[sToken];
+                                if (sTransform) {
+                                    match[iToken] = sprintf(sTransform, match[iToken]);
+                                }
+                                while (url.indexOf(sToken) >= 0) {
+                                    url = url.replace(sToken, match[iToken]);
+                                }
+                                while (file.indexOf(sToken) >= 0) {
+                                    file = file.replace(sToken, match[iToken]);
+                                }
+                            }
+                            createDownloadTask('download.' + source + '.' + group + '.' + folder + '.' + index++, url, dir, file);
+                        }
+                    }
+                });
             }
         });
     });

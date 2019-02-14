@@ -47,6 +47,32 @@
     "justicesCSV": "/sources/scdb/justices.csv"
   },
   "scotus": {
-    "citationsHTML": "/sources/scotus/citations/*.*"
+    "citationsHTML": "/sources/scotus/citations/*.*",
+    "download": {
+      "transcriptOld": {
+        "start": 1968,
+        "stop": 1999,
+        "url": "https://www.supremecourt.gov/oral_arguments/archived_transcripts/%d",
+        "dir": "/sources/scotus/transcripts/%d",
+        "file": "%d.html"
+      },
+      "transcriptNew": {
+        "start": 2000,
+        "stop": 2018,
+        "url": "https://www.supremecourt.gov/oral_arguments/argument_transcript/%d",
+        "dir": "/sources/scotus/transcripts/%d",
+        "file": "%d.html"
+      },
+      "transcriptPDF": {
+        "files": "/sources/scotus/transcripts/**/*.html",
+        "pattern": "<td style=\"text-align: left;\">\\s*<div[^>]*>\\s*<a href='([^']*)'[^>]*>\\s*(.*?)\\s*</a>\\s*</div>\\s*<div[^>]*>\\s*([^<]*)\\s*</div>\\s*</td>\\s*<td[^>]*>\\s*([0-9]+)/([0-9]+)/([0-9]+)\\s*</td>",
+        "transform": {
+          "$4": "%02d",
+          "$5": "%02d"
+        },
+        "url": "https://www.supremecourt.gov$1",
+        "file": "$2_$6-$4-$5.pdf"
+      }
+    }
   }
 }
