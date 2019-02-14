@@ -2192,12 +2192,14 @@ function generateCaseYML(decisions, vars, courts, justices, extras=[])
         if (decision.pdfSource) ymlText += '    pdfSource: "' + decision.pdfSource + '"\n';
         if (decision.pdfPage) ymlText += '    pdfPage: ' + decision.pdfPage + '\n';
         if (decision.pdfPageDissent) ymlText += '    pdfPageDissent: ' + decision.pdfPageDissent + '\n';
-        if (extras.indexOf("dateArgument") >= 0) {
-            ymlText += '    dateArgument: "' + (decision.dateArgument? sprintf("%#C", decision.dateArgument) : "") + '"\n';
+        if (extras.indexOf("dateArgument") >= 0 && decision.dateArgument) {
+            ymlText += '    dateArgument: "' + sprintf("%#C", decision.dateArgument) + '"\n';
         }
-        ymlText += '    dateDecision: "' + (decision.dateDecision? (decision.dateDecision.length < 10? getTermName(decision.dateDecision) : sprintf("%#C", decision.dateDecision)) : getTermName(decision.termId || decision.term)) + '"\n';
-        if (extras.indexOf("urlOyez") >= 0) {
-            ymlText += '    urlOyez: "' + (decision.urlOyez || "") + '"\n';
+        if (decision.dateDecision) {
+            ymlText += '    dateDecision: "' + (decision.dateDecision.length < 10? getTermName(decision.dateDecision) : sprintf("%#C", decision.dateDecision)) + '"\n';
+        }
+        if (extras.indexOf("urlOyez") >= 0 && decision.urlOyez) {
+            ymlText += '    urlOyez: "' + decision.urlOyez + '"\n';
         }
         ymlText += '    citation: "' + ((volume && page)? decision.usCite : ('No. ' + decision.docket)) + '"\n';
         ymlText += '    voteMajority: ' + (decision.majVotes || 0) + '\n';

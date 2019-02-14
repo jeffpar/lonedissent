@@ -22,7 +22,7 @@ layout: default
     {% capture pdfURL %}{% if case.pdfPageDissent %}{{ pdfPath }}.pdf#page={{ case.pdfPageDissent }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
     {% capture pdfGIF %}/images/usreports.gif{% endcapture %}
   {% endif %}
-  {% capture caseArgument %}{% if case.urlOyez %}Argued <a href="{{ case.urlOyez }}">{{ case.dateArgument }}</a><br/>{% else %}Argued {{ case.dateArgument }}<br/>{% endif %}{% endcapture %}
+  {% capture caseArgument %}{% if case.dateArgument %}{% if case.urlOyez %}Argued <a href="{{ case.urlOyez }}">{{ case.dateArgument }}</a><br/>{% else %}Argued {{ case.dateArgument }}<br/>{% endif %}{% endif %}{% endcapture %}
   <div id="{{ case.id }}" style="text-align:center">
     <h3>{{ case.title }}</h3>
     <p style="font-size:medium">{{ case.citation }}<br/>

@@ -2318,7 +2318,6 @@ cases:
     title: "BNSF Railway Company v. Loos"
     pdfSource: "slipopinion/18"
     dateArgument: "Tuesday, November 6, 2018"
-    dateDecision: ""
     urlOyez: "https://www.oyez.org/cases/2018/17-1042"
     citation: "No. 17-1042"
     voteMajority: 0
@@ -2329,7 +2328,6 @@ cases:
     title: "Carpenter v. Murphy"
     pdfSource: "slipopinion/18"
     dateArgument: "Tuesday, November 27, 2018"
-    dateDecision: ""
     urlOyez: "https://www.oyez.org/cases/2018/17-1107"
     citation: "No. 17-1107"
     voteMajority: 0

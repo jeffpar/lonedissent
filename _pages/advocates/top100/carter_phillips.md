@@ -3574,7 +3574,6 @@ cases:
     title: "Tennessee Wine and Spirits Retailers Association v. Blair"
     pdfSource: "slipopinion/18"
     dateArgument: "Wednesday, January 16, 2019"
-    dateDecision: ""
     urlOyez: "https://www.oyez.org/cases/2018/18-96"
     citation: "No. 18-96"
     voteMajority: 0

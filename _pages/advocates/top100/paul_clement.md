@@ -3656,7 +3656,6 @@ cases:
     title: "Rimini Street, Inc. v. Oracle USA, Inc."
     pdfSource: "slipopinion/18"
     dateArgument: "Monday, January 14, 2019"
-    dateDecision: ""
     urlOyez: "https://www.oyez.org/cases/2018/17-1625"
     citation: "No. 17-1625"
     voteMajority: 0

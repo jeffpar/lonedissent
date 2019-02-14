@@ -20,5 +20,4 @@ The previous 20th century record was 140 arguments.
 - [Carter G. Phillips](/advocates/top100/carter_phillips) (at least 85 arguments)
 - [Lisa S. Blatt](/advocates/top100/lisa_blatt) (at least 56 arguments)
 - [Erwin N. Griswold](/advocates/top100/erwin_griswold) (at least 51 arguments)
-
-To be continued.
+- [Archibald Cox](/advocates/top100/archibald_cox) (at least 18 arguments)
