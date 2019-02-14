@@ -1455,6 +1455,10 @@ function buildAdvocates(done)
                     let alias = aliases[i];
                     let filePath = path.join(dir, "_files", alias + ".json");
                     let cases = JSON.parse(readFile(filePath) || "[]");
+                    if (i == 1) {
+                        let missingCases = advocates.missingCases && advocates.missingCases[id];
+                        if (missingCases) cases.push(...missingCases);
+                    }
                     cases.forEach((obj) => {
                         let dir = path.join(path.dirname(sources.oyez.cases), obj.term, "_files");
                         let fileID = obj.docket_number + '_' + obj.ID;
@@ -3718,7 +3722,6 @@ function generateDownloadTasks(done)
                 files.forEach((file) => {
                     let html = readFile(file);
                     if (html) {
-                        printf("processing file %s...\n", file);
                         let index = 1;
                         let dir = path.dirname(file);
                         let folder = path.basename(dir);
@@ -3778,6 +3781,12 @@ function generateDownloadTasks(done)
                             writeFile(filePath, json, true);
                         }
                         let cases = JSON.parse(json);
+                        /*
+                         * Before we start requesting all the case files for this advocate, let's
+                         * append any missing cases to the list of objects.
+                         */
+                        let missingCases = advocates.missingCases && advocates.missingCases[id];
+                        if (missingCases) cases.push(...missingCases);
                         cases.forEach((obj) => {
                             let dir = path.join(path.dirname(sources.oyez.cases), obj.term, "_files");
                             let fileID = obj.docket_number + '_' + obj.ID;

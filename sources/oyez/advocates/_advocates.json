@@ -6,8 +6,24 @@
     "archibald_cox": ["Archibald Cox","archibald_cox","archibald_cox_jr"],
     "michael_dreeben": ["Michael R. Dreeben","michael_r_dreeben"],
     "erwin_griswold": ["Erwin N. Griswold","erwin_n_griswold"],
-    "edwin_kneedler": ["Edwin S. Kneedler","edwin_s_kneedler"],
+    "edwin_kneedler": ["Edwin S. Kneedler","edwin_s_kneedler","verified"],
     "carter_phillips": ["Carter G. Phillips","carter_g_phillips"],
     "lawrence_wallace": ["Lawrence G. Wallace","lawrence_g_wallace","verified"]
+  },
+  "missingCases": {
+    "edwin_kneedler": [
+      {
+        "ID": "62212",
+        "term": "1987",
+        "docket_number": "86-803",
+        "href": "https://api.oyez.org/cases/1987/86-803"
+      },
+      {
+        "ID": "62238",
+        "term": "1987",
+        "docket_number": "87-573",
+        "href": "https://api.oyez.org/cases/1987/87-573"
+      }
+    ]
   }
 }
