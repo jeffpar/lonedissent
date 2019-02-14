@@ -4378,4 +4378,4 @@ Chief Justice John Roberts' recollection of Mr. Dreeben's first argument is no s
 [United States v. Halper](https://www.oyez.org/cases/1988/87-1383).
 
 Unfortunately, just as we've seen with [Edwin Kneedler](/advocates/top100/edwin_kneedler), current data from the Oyez website (as of February 2019)
-omits at least two cases, since Mr. Dreeben's 100th argument is listed as [Appearance No. 98](#2015-075).
+omits at least two cases, since Mr. Dreeben's 100th argument is listed below as [Appearance No. 98](#2015-075).
