@@ -2,9 +2,8 @@
 layout: default
 ---
 
-<h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-
 <article class="page">
+  <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
   {{ content }}
 </article>
 
@@ -22,10 +21,11 @@ layout: default
     {% capture pdfURL %}{% if case.pdfPageDissent %}{{ pdfPath }}.pdf#page={{ case.pdfPageDissent }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
     {% capture pdfGIF %}/images/usreports.gif{% endcapture %}
   {% endif %}
+  {% capture caseCitation %}{% if case.docket %}No. {{ case.docket }}<br/>{% endif %}{% if case.citation %}{{ case.citation }}<br/>{% endif %}{% endcapture %}
   {% capture caseArgument %}{% if case.dateArgument %}{% if case.urlOyez %}Argued <a href="{{ case.urlOyez }}">{{ case.dateArgument }}</a><br/>{% else %}Argued {{ case.dateArgument }}<br/>{% endif %}{% endif %}{% endcapture %}
   <div id="{{ case.id }}" style="text-align:center">
     <h3>{{ case.title }}</h3>
-    <p style="font-size:medium">{{ case.citation }}<br/>
+    <p style="font-size:medium">{{ caseCitation }}</p>>
     {% if case.authorId %}
     <p style="font-size:medium">{{ caseArgument }}Decided <a href="/cases/all/{{ case.termId }}#{{ case.id }}"></a>{{ case.dateDecision }}</a><br/>Opinion by <a href="/justices/all/{{ case.authorId }}#{{ case.id }}">Justice {{ case.authorName }}</a></p>
     {% elsif case.dissenterId %}

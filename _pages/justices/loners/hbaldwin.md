@@ -139,7 +139,7 @@ cases:
     volume: "034"
     page: "571"
     pdfSource: "loc"
-    dateDecision: "January Term 1835"
+    dateDecision: ""
     citation: "34 U.S. 571"
     dissenterId: hbaldwin
     dissenterName: "Henry Baldwin"

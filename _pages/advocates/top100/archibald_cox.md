@@ -9,11 +9,12 @@ cases:
     title: "Baker v. Carr"
     volume: "369"
     page: "186"
+    docket: "6"
+    citation: "369 U.S. 186"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 19, 1961"
     dateDecision: "Monday, March 26, 1962"
     urlOyez: "https://www.oyez.org/cases/1960/6"
-    citation: "369 U.S. 186"
     voteMajority: 6
     voteMinority: 2
     authorId: wjbrennan
@@ -52,11 +53,12 @@ cases:
     title: "Brown Shoe Co. v. United States"
     volume: "370"
     page: "294"
+    docket: "4"
+    citation: "370 U.S. 294"
     pdfSource: "loc"
     dateArgument: "Wednesday, December 6, 1961"
     dateDecision: "Monday, June 25, 1962"
     urlOyez: "https://www.oyez.org/cases/1961/4"
-    citation: "370 U.S. 294"
     voteMajority: 7
     voteMinority: 0
     authorId: ewarren
@@ -95,11 +97,12 @@ cases:
     title: "Arizona v. California"
     volume: "373"
     page: "546"
+    docket: "8 Orig."
+    citation: "373 U.S. 546"
     pdfSource: "loc"
     dateArgument: "Monday, January 8, 1962"
     dateDecision: "Monday, June 3, 1963"
     urlOyez: "https://www.oyez.org/cases/1961/8_orig"
-    citation: "373 U.S. 546"
     voteMajority: 5
     voteMinority: 3
     authorId: hlblack
@@ -138,11 +141,12 @@ cases:
     title: "Fong Foo v. United States"
     volume: "369"
     page: "141"
+    docket: "64"
+    citation: "369 U.S. 141"
     pdfSource: "loc"
     dateArgument: "Tuesday, January 16, 1962"
     dateDecision: "Monday, March 19, 1962"
     urlOyez: "https://www.oyez.org/cases/1961/64"
-    citation: "369 U.S. 141"
     voteMajority: 7
     voteMinority: 1
     votes:
@@ -179,11 +183,12 @@ cases:
     title: "United States v. National Dairy Products Corp."
     volume: "372"
     page: "029"
+    docket: "18"
+    citation: "372 U.S. 29"
     pdfSource: "loc"
     dateArgument: "Wednesday, March 21, 1962"
     dateDecision: "Monday, February 18, 1963"
     urlOyez: "https://www.oyez.org/cases/1961/18"
-    citation: "372 U.S. 29"
     voteMajority: 6
     voteMinority: 3
     authorId: tcclark
@@ -222,11 +227,12 @@ cases:
     title: "Wong Sun v. United States"
     volume: "371"
     page: "471"
+    docket: "36"
+    citation: "371 U.S. 471"
     pdfSource: "loc"
     dateArgument: "Thursday, March 29, 1962"
     dateDecision: "Monday, January 14, 1963"
     urlOyez: "https://www.oyez.org/cases/1962/36"
-    citation: "371 U.S. 471"
     voteMajority: 5
     voteMinority: 4
     authorId: wjbrennan
@@ -265,11 +271,12 @@ cases:
     title: "Yellin v. United States"
     volume: "374"
     page: "109"
+    docket: "35"
+    citation: "374 U.S. 109"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 18, 1962"
     dateDecision: "Monday, June 17, 1963"
     urlOyez: "https://www.oyez.org/cases/1961/35"
-    citation: "374 U.S. 109"
     voteMajority: 5
     voteMinority: 4
     authorId: ewarren
@@ -308,11 +315,12 @@ cases:
     title: "Avent v. North Carolina"
     volume: "373"
     page: "375"
+    docket: "11"
+    citation: "373 U.S. 375"
     pdfSource: "loc"
     dateArgument: "Monday, November 5, 1962"
     dateDecision: "Monday, May 20, 1963"
     urlOyez: "https://www.oyez.org/cases/1962/11"
-    citation: "373 U.S. 375"
     voteMajority: 8
     voteMinority: 1
     votes:
@@ -349,11 +357,12 @@ cases:
     title: "Retail Clerks v. Schermerhorn"
     volume: "375"
     page: "096"
+    docket: "13"
+    citation: "375 U.S. 96"
     pdfSource: "loc"
     dateArgument: "Thursday, April 18, 1963"
     dateDecision: "Monday, December 2, 1963"
     urlOyez: "https://www.oyez.org/cases/1963/13"
-    citation: "375 U.S. 96"
     voteMajority: 8
     voteMinority: 0
     authorId: wodouglas
@@ -392,11 +401,12 @@ cases:
     title: "Maryland Comm. for Fair Representation v. Tawes"
     volume: "377"
     page: "656"
+    docket: "29"
+    citation: "377 U.S. 656"
     pdfSource: "loc"
     dateArgument: "Wednesday, November 13, 1963"
     dateDecision: "Monday, June 15, 1964"
     urlOyez: "https://www.oyez.org/cases/1963/29"
-    citation: "377 U.S. 656"
     voteMajority: 7
     voteMinority: 2
     authorId: ewarren
@@ -435,11 +445,12 @@ cases:
     title: "Massiah v. United States"
     volume: "377"
     page: "201"
+    docket: "199"
+    citation: "377 U.S. 201"
     pdfSource: "loc"
     dateArgument: "Tuesday, March 3, 1964"
     dateDecision: "Monday, May 18, 1964"
     urlOyez: "https://www.oyez.org/cases/1963/199"
-    citation: "377 U.S. 201"
     voteMajority: 6
     voteMinority: 3
     authorId: pstewart
@@ -478,11 +489,12 @@ cases:
     title: "Griffin v. School Bd. of Prince Edward Cty."
     volume: "377"
     page: "218"
+    docket: "592"
+    citation: "377 U.S. 218"
     pdfSource: "loc"
     dateArgument: "Monday, March 30, 1964"
     dateDecision: "Monday, May 25, 1964"
     urlOyez: "https://www.oyez.org/cases/1963/592"
-    citation: "377 U.S. 218"
     voteMajority: 7
     voteMinority: 2
     authorId: hlblack
@@ -521,11 +533,12 @@ cases:
     title: "United States v. Boyd"
     volume: "378"
     page: "039"
+    docket: "185"
+    citation: "378 U.S. 39"
     pdfSource: "loc"
     dateArgument: "Monday, April 20, 1964"
     dateDecision: "Monday, June 15, 1964"
     urlOyez: "https://www.oyez.org/cases/1963/185"
-    citation: "378 U.S. 39"
     voteMajority: 9
     voteMinority: 0
     authorId: brwhite
@@ -564,11 +577,12 @@ cases:
     title: "Meat Cutters v. Jewel Tea Co."
     volume: "381"
     page: "676"
+    docket: "240"
+    citation: "381 U.S. 676"
     pdfSource: "loc"
     dateArgument: "Wednesday, January 27, 1965"
     dateDecision: "Monday, June 7, 1965"
     urlOyez: "https://www.oyez.org/cases/1964/240"
-    citation: "381 U.S. 676"
     voteMajority: 6
     voteMinority: 3
     authorId: brwhite
@@ -607,11 +621,12 @@ cases:
     title: "Red Lion Broadcasting Co. v. FCC"
     volume: "395"
     page: "367"
+    docket: "2"
+    citation: "395 U.S. 367"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 2, 1969"
     dateDecision: "Monday, June 9, 1969"
     urlOyez: "https://www.oyez.org/cases/1968/2"
-    citation: "395 U.S. 367"
     voteMajority: 7
     voteMinority: 0
     authorId: brwhite
@@ -647,11 +662,12 @@ cases:
     title: "Buckley v. Valeo"
     volume: "424"
     page: "001"
+    docket: "75-436"
+    citation: "424 U.S. 1"
     pdfSource: "loc"
     dateArgument: "Monday, November 10, 1975"
     dateDecision: "Friday, January 30, 1976"
     urlOyez: "https://www.oyez.org/cases/1975/75-436"
-    citation: "424 U.S. 1"
     voteMajority: 7
     voteMinority: 1
     votes:
@@ -688,11 +704,12 @@ cases:
     title: "Regents of Univ. of Cal. v. Bakke"
     volume: "438"
     page: "265"
+    docket: "76-811"
+    citation: "438 U.S. 265"
     pdfSource: "loc"
     dateArgument: "Wednesday, October 12, 1977"
     dateDecision: "Monday, June 26, 1978"
     urlOyez: "https://www.oyez.org/cases/1979/76-811"
-    citation: "438 U.S. 265"
     voteMajority: 5
     voteMinority: 4
     authorId: lfpowell
@@ -731,11 +748,12 @@ cases:
     title: "Common Cause v. Schmitt"
     volume: "455"
     page: "129"
+    docket: "80-847"
+    citation: "455 U.S. 129"
     pdfSource: "loc"
     dateArgument: "Wednesday, October 7, 1981"
     dateDecision: "Tuesday, January 19, 1982"
     urlOyez: "https://www.oyez.org/cases/1981/80-847"
-    citation: "455 U.S. 129"
     voteMajority: 4
     voteMinority: 4
     votes:

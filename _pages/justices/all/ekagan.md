@@ -258,7 +258,7 @@ cases:
     title: "Kansas v. Nebraska"
     pdfSource: "slipopinion/14"
     dateDecision: "Tuesday, February 24, 2015"
-    citation: "No. 126, ORIG."
+    citation: "No. 126 Orig."
     authorId: ekagan
     authorName: "Elena Kagan"
   - id: "2014-012"

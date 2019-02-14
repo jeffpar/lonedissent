@@ -9,11 +9,12 @@ cases:
     title: "Regents of Univ. of Cal. v. Doe"
     volume: "519"
     page: "425"
+    docket: "95-1694"
+    citation: "519 U.S. 425"
     pdfSource: "loc"
     dateArgument: "Monday, December 2, 1996"
     dateDecision: "Wednesday, February 19, 1997"
     urlOyez: "https://www.oyez.org/cases/1996/95-1694"
-    citation: "519 U.S. 425"
     voteMajority: 9
     voteMinority: 0
     authorId: jpstevens
@@ -52,11 +53,12 @@ cases:
     title: "Regents of Univ. of Cal. v. Doe"
     volume: "519"
     page: "425"
+    docket: "95-1694"
+    citation: "519 U.S. 425"
     pdfSource: "loc"
     dateArgument: "Monday, December 2, 1996"
     dateDecision: "Wednesday, February 19, 1997"
     urlOyez: "https://www.oyez.org/cases/1996/95-1694"
-    citation: "519 U.S. 425"
     voteMajority: 9
     voteMinority: 0
     authorId: jpstevens
@@ -95,11 +97,12 @@ cases:
     title: "Bates v. United States"
     volume: "522"
     page: "023"
+    docket: "96-7185"
+    citation: "522 U.S. 23"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 7, 1997"
     dateDecision: "Tuesday, November 4, 1997"
     urlOyez: "https://www.oyez.org/cases/1997/96-7185"
-    citation: "522 U.S. 23"
     voteMajority: 9
     voteMinority: 0
     authorId: rbginsburg
@@ -138,11 +141,12 @@ cases:
     title: "Bates v. United States"
     volume: "522"
     page: "023"
+    docket: "96-7185"
+    citation: "522 U.S. 23"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 7, 1997"
     dateDecision: "Tuesday, November 4, 1997"
     urlOyez: "https://www.oyez.org/cases/1997/96-7185"
-    citation: "522 U.S. 23"
     voteMajority: 9
     voteMinority: 0
     authorId: rbginsburg
@@ -181,11 +185,12 @@ cases:
     title: "Regions Hospital v. Shalala"
     volume: "522"
     page: "448"
+    docket: "96-1375"
+    citation: "522 U.S. 448"
     pdfSource: "loc"
     dateArgument: "Monday, December 1, 1997"
     dateDecision: "Tuesday, February 24, 1998"
     urlOyez: "https://www.oyez.org/cases/1997/96-1375"
-    citation: "522 U.S. 448"
     voteMajority: 6
     voteMinority: 3
     authorId: rbginsburg
@@ -224,11 +229,12 @@ cases:
     title: "Regions Hospital v. Shalala"
     volume: "522"
     page: "448"
+    docket: "96-1375"
+    citation: "522 U.S. 448"
     pdfSource: "loc"
     dateArgument: "Monday, December 1, 1997"
     dateDecision: "Tuesday, February 24, 1998"
     urlOyez: "https://www.oyez.org/cases/1997/96-1375"
-    citation: "522 U.S. 448"
     voteMajority: 6
     voteMinority: 3
     authorId: rbginsburg
@@ -267,11 +273,12 @@ cases:
     title: "Forney v. Apfel"
     volume: "524"
     page: "266"
+    docket: "97-5737"
+    citation: "524 U.S. 266"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 22, 1998"
     dateDecision: "Monday, June 15, 1998"
     urlOyez: "https://www.oyez.org/cases/1997/97-5737"
-    citation: "524 U.S. 266"
     voteMajority: 9
     voteMinority: 0
     authorId: sgbreyer
@@ -310,11 +317,12 @@ cases:
     title: "Forney v. Apfel"
     volume: "524"
     page: "266"
+    docket: "97-5737"
+    citation: "524 U.S. 266"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 22, 1998"
     dateDecision: "Monday, June 15, 1998"
     urlOyez: "https://www.oyez.org/cases/1997/97-5737"
-    citation: "524 U.S. 266"
     voteMajority: 9
     voteMinority: 0
     authorId: sgbreyer
@@ -353,11 +361,12 @@ cases:
     title: "Hughes Aircraft Co. v. Jacobson"
     volume: "525"
     page: "432"
+    docket: "97-1287"
+    citation: "525 U.S. 432"
     pdfSource: "loc"
     dateArgument: "Monday, November 2, 1998"
     dateDecision: "Monday, January 25, 1999"
     urlOyez: "https://www.oyez.org/cases/1998/97-1287"
-    citation: "525 U.S. 432"
     voteMajority: 9
     voteMinority: 0
     authorId: cthomas
@@ -396,11 +405,12 @@ cases:
     title: "Hughes Aircraft Co. v. Jacobson"
     volume: "525"
     page: "432"
+    docket: "97-1287"
+    citation: "525 U.S. 432"
     pdfSource: "loc"
     dateArgument: "Monday, November 2, 1998"
     dateDecision: "Monday, January 25, 1999"
     urlOyez: "https://www.oyez.org/cases/1998/97-1287"
-    citation: "525 U.S. 432"
     voteMajority: 9
     voteMinority: 0
     authorId: cthomas
@@ -439,11 +449,12 @@ cases:
     title: "Your Home Visiting Nurse Services, Inc. v. Shalala"
     volume: "525"
     page: "449"
+    docket: "97-1489"
+    citation: "525 U.S. 449"
     pdfSource: "loc"
     dateArgument: "Wednesday, December 2, 1998"
     dateDecision: "Tuesday, February 23, 1999"
     urlOyez: "https://www.oyez.org/cases/1998/97-1489"
-    citation: "525 U.S. 449"
     voteMajority: 9
     voteMinority: 0
     authorId: ascalia
@@ -482,11 +493,12 @@ cases:
     title: "Your Home Visiting Nurse Services, Inc. v. Shalala"
     volume: "525"
     page: "449"
+    docket: "97-1489"
+    citation: "525 U.S. 449"
     pdfSource: "loc"
     dateArgument: "Wednesday, December 2, 1998"
     dateDecision: "Tuesday, February 23, 1999"
     urlOyez: "https://www.oyez.org/cases/1998/97-1489"
-    citation: "525 U.S. 449"
     voteMajority: 9
     voteMinority: 0
     authorId: ascalia
@@ -525,11 +537,12 @@ cases:
     title: "New York v. Hill"
     volume: "528"
     page: "110"
+    docket: "98-1299"
+    citation: "528 U.S. 110"
     pdfSource: "loc"
     dateArgument: "Tuesday, November 2, 1999"
     dateDecision: "Tuesday, January 11, 2000"
     urlOyez: "https://www.oyez.org/cases/1999/98-1299"
-    citation: "528 U.S. 110"
     voteMajority: 9
     voteMinority: 0
     authorId: ascalia
@@ -568,11 +581,12 @@ cases:
     title: "Fischer v. United States"
     volume: "529"
     page: "667"
+    docket: "99-116"
+    citation: "529 U.S. 667"
     pdfSource: "loc"
     dateArgument: "Tuesday, February 22, 2000"
     dateDecision: "Monday, May 15, 2000"
     urlOyez: "https://www.oyez.org/cases/1999/99-116"
-    citation: "529 U.S. 667"
     voteMajority: 7
     voteMinority: 2
     authorId: amkennedy
@@ -611,11 +625,12 @@ cases:
     title: "Fischer v. United States"
     volume: "529"
     page: "667"
+    docket: "99-116"
+    citation: "529 U.S. 667"
     pdfSource: "loc"
     dateArgument: "Tuesday, February 22, 2000"
     dateDecision: "Monday, May 15, 2000"
     urlOyez: "https://www.oyez.org/cases/1999/99-116"
-    citation: "529 U.S. 667"
     voteMajority: 7
     voteMinority: 2
     authorId: amkennedy
@@ -654,11 +669,12 @@ cases:
     title: "Texas v. Cobb"
     volume: "532"
     page: "162"
+    docket: "99-1702"
+    citation: "532 U.S. 162"
     pdfSource: "loc"
     dateArgument: "Tuesday, January 16, 2001"
     dateDecision: "Monday, April 2, 2001"
     urlOyez: "https://www.oyez.org/cases/2000/99-1702"
-    citation: "532 U.S. 162"
     voteMajority: 5
     voteMinority: 4
     authorId: whrehnquist
@@ -697,11 +713,12 @@ cases:
     title: "Edelman v. Lynchburg College"
     volume: "535"
     page: "106"
+    docket: "00-1072"
+    citation: "535 U.S. 106"
     pdfSource: "loc"
     dateArgument: "Tuesday, January 8, 2002"
     dateDecision: "Tuesday, March 19, 2002"
     urlOyez: "https://www.oyez.org/cases/2001/00-1072"
-    citation: "535 U.S. 106"
     voteMajority: 9
     voteMinority: 0
     authorId: dhsouter
@@ -740,11 +757,12 @@ cases:
     title: "Chevron U. S. A. Inc. v. Echazabal"
     volume: "536"
     page: "073"
+    docket: "00-1406"
+    citation: "536 U.S. 73"
     pdfSource: "loc"
     dateArgument: "Wednesday, February 27, 2002"
     dateDecision: "Monday, June 10, 2002"
     urlOyez: "https://www.oyez.org/cases/2001/00-1406"
-    citation: "536 U.S. 73"
     voteMajority: 9
     voteMinority: 0
     authorId: dhsouter
@@ -783,11 +801,12 @@ cases:
     title: "Chevron U. S. A. Inc. v. Echazabal"
     volume: "536"
     page: "073"
+    docket: "00-1406"
+    citation: "536 U.S. 73"
     pdfSource: "loc"
     dateArgument: "Wednesday, February 27, 2002"
     dateDecision: "Monday, June 10, 2002"
     urlOyez: "https://www.oyez.org/cases/2001/00-1406"
-    citation: "536 U.S. 73"
     voteMajority: 9
     voteMinority: 0
     authorId: dhsouter
@@ -826,11 +845,12 @@ cases:
     title: "Bell v. Cone"
     volume: "535"
     page: "685"
+    docket: "01-400"
+    citation: "535 U.S. 685"
     pdfSource: "loc"
     dateArgument: "Monday, March 25, 2002"
     dateDecision: "Tuesday, May 28, 2002"
     urlOyez: "https://www.oyez.org/cases/2001/01-400"
-    citation: "535 U.S. 685"
     voteMajority: 8
     voteMinority: 1
     authorId: whrehnquist
@@ -869,11 +889,12 @@ cases:
     title: "Bell v. Cone"
     volume: "535"
     page: "685"
+    docket: "01-400"
+    citation: "535 U.S. 685"
     pdfSource: "loc"
     dateArgument: "Monday, March 25, 2002"
     dateDecision: "Tuesday, May 28, 2002"
     urlOyez: "https://www.oyez.org/cases/2001/01-400"
-    citation: "535 U.S. 685"
     voteMajority: 8
     voteMinority: 1
     authorId: whrehnquist
@@ -912,11 +933,12 @@ cases:
     title: "Archer v. Warner"
     volume: "538"
     page: "314"
+    docket: "01-1418"
+    citation: "538 U.S. 314"
     pdfSource: "loc"
     dateArgument: "Monday, January 13, 2003"
     dateDecision: "Monday, March 31, 2003"
     urlOyez: "https://www.oyez.org/cases/2002/01-1418"
-    citation: "538 U.S. 314"
     voteMajority: 7
     voteMinority: 2
     authorId: sgbreyer
@@ -955,11 +977,12 @@ cases:
     title: "Archer v. Warner"
     volume: "538"
     page: "314"
+    docket: "01-1418"
+    citation: "538 U.S. 314"
     pdfSource: "loc"
     dateArgument: "Monday, January 13, 2003"
     dateDecision: "Monday, March 31, 2003"
     urlOyez: "https://www.oyez.org/cases/2002/01-1418"
-    citation: "538 U.S. 314"
     voteMajority: 7
     voteMinority: 2
     authorId: sgbreyer
@@ -998,11 +1021,12 @@ cases:
     title: "Breuer v. Jim&apos;s Concrete of Brevard, Inc."
     volume: "538"
     page: "691"
+    docket: "02-337"
+    citation: "538 U.S. 691"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 2, 2003"
     dateDecision: "Monday, May 19, 2003"
     urlOyez: "https://www.oyez.org/cases/2002/02-337"
-    citation: "538 U.S. 691"
     voteMajority: 9
     voteMinority: 0
     authorId: dhsouter
@@ -1041,11 +1065,12 @@ cases:
     title: "Breuer v. Jim&apos;s Concrete of Brevard, Inc."
     volume: "538"
     page: "691"
+    docket: "02-337"
+    citation: "538 U.S. 691"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 2, 2003"
     dateDecision: "Monday, May 19, 2003"
     urlOyez: "https://www.oyez.org/cases/2002/02-337"
-    citation: "538 U.S. 691"
     voteMajority: 9
     voteMinority: 0
     authorId: dhsouter
@@ -1084,11 +1109,12 @@ cases:
     title: "Black &amp; Decker Disability Plan v. Nord"
     volume: "538"
     page: "822"
+    docket: "02-469"
+    citation: "538 U.S. 822"
     pdfSource: "loc"
     dateArgument: "Monday, April 28, 2003"
     dateDecision: "Tuesday, May 27, 2003"
     urlOyez: "https://www.oyez.org/cases/2002/02-469"
-    citation: "538 U.S. 822"
     voteMajority: 9
     voteMinority: 0
     authorId: sgbreyer
@@ -1127,11 +1153,12 @@ cases:
     title: "Black &amp; Decker Disability Plan v. Nord"
     volume: "538"
     page: "822"
+    docket: "02-469"
+    citation: "538 U.S. 822"
     pdfSource: "loc"
     dateArgument: "Monday, April 28, 2003"
     dateDecision: "Tuesday, May 27, 2003"
     urlOyez: "https://www.oyez.org/cases/2002/02-469"
-    citation: "538 U.S. 822"
     voteMajority: 9
     voteMinority: 0
     authorId: sgbreyer
@@ -1170,11 +1197,12 @@ cases:
     title: "Lamie v. United States Trustee"
     volume: "540"
     page: "526"
+    docket: "02-693"
+    citation: "540 U.S. 526"
     pdfSource: "loc"
     dateArgument: "Monday, November 10, 2003"
     dateDecision: "Monday, January 26, 2004"
     urlOyez: "https://www.oyez.org/cases/2003/02-693"
-    citation: "540 U.S. 526"
     voteMajority: 9
     voteMinority: 0
     authorId: amkennedy
@@ -1213,11 +1241,12 @@ cases:
     title: "Lamie v. United States Trustee"
     volume: "540"
     page: "526"
+    docket: "02-693"
+    citation: "540 U.S. 526"
     pdfSource: "loc"
     dateArgument: "Monday, November 10, 2003"
     dateDecision: "Monday, January 26, 2004"
     urlOyez: "https://www.oyez.org/cases/2003/02-693"
-    citation: "540 U.S. 526"
     voteMajority: 9
     voteMinority: 0
     authorId: amkennedy
@@ -1256,11 +1285,12 @@ cases:
     title: "United States v. Flores-Montano"
     volume: "541"
     page: "149"
+    docket: "02-1794"
+    citation: "541 U.S. 149"
     pdfSource: "loc"
     dateArgument: "Wednesday, February 25, 2004"
     dateDecision: "Tuesday, March 30, 2004"
     urlOyez: "https://www.oyez.org/cases/2003/02-1794"
-    citation: "541 U.S. 149"
     voteMajority: 9
     voteMinority: 0
     authorId: whrehnquist
@@ -1299,11 +1329,12 @@ cases:
     title: "United States v. Flores-Montano"
     volume: "541"
     page: "149"
+    docket: "02-1794"
+    citation: "541 U.S. 149"
     pdfSource: "loc"
     dateArgument: "Wednesday, February 25, 2004"
     dateDecision: "Tuesday, March 30, 2004"
     urlOyez: "https://www.oyez.org/cases/2003/02-1794"
-    citation: "541 U.S. 149"
     voteMajority: 9
     voteMinority: 0
     authorId: whrehnquist
@@ -1342,11 +1373,12 @@ cases:
     title: "Stewart v. Dutra Constr. Co."
     volume: "543"
     page: "481"
+    docket: "03-814"
+    citation: "543 U.S. 481"
     pdfSource: "scotusBound"
     dateArgument: "Monday, November 1, 2004"
     dateDecision: "Tuesday, February 22, 2005"
     urlOyez: "https://www.oyez.org/cases/2004/03-814"
-    citation: "543 U.S. 481"
     voteMajority: 8
     voteMinority: 0
     authorId: cthomas
@@ -1385,11 +1417,12 @@ cases:
     title: "Stewart v. Dutra Constr. Co."
     volume: "543"
     page: "481"
+    docket: "03-814"
+    citation: "543 U.S. 481"
     pdfSource: "scotusBound"
     dateArgument: "Monday, November 1, 2004"
     dateDecision: "Tuesday, February 22, 2005"
     urlOyez: "https://www.oyez.org/cases/2004/03-814"
-    citation: "543 U.S. 481"
     voteMajority: 8
     voteMinority: 0
     authorId: cthomas
@@ -1428,11 +1461,12 @@ cases:
     title: "Bates v. Dow Agrosciences LLC"
     volume: "544"
     page: "431"
+    docket: "03-388"
+    citation: "544 U.S. 431"
     pdfSource: "scotusBound"
     dateArgument: "Monday, January 10, 2005"
     dateDecision: "Wednesday, April 27, 2005"
     urlOyez: "https://www.oyez.org/cases/2004/03-388"
-    citation: "544 U.S. 431"
     voteMajority: 7
     voteMinority: 2
     authorId: jpstevens
@@ -1471,11 +1505,12 @@ cases:
     title: "Bates v. Dow Agrosciences LLC"
     volume: "544"
     page: "431"
+    docket: "03-388"
+    citation: "544 U.S. 431"
     pdfSource: "scotusBound"
     dateArgument: "Monday, January 10, 2005"
     dateDecision: "Wednesday, April 27, 2005"
     urlOyez: "https://www.oyez.org/cases/2004/03-388"
-    citation: "544 U.S. 431"
     voteMajority: 7
     voteMinority: 2
     authorId: jpstevens
@@ -1514,11 +1549,12 @@ cases:
     title: "Mayle v. Felix"
     volume: "545"
     page: "644"
+    docket: "04-563"
+    citation: "545 U.S. 644"
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, April 19, 2005"
     dateDecision: "Thursday, June 23, 2005"
     urlOyez: "https://www.oyez.org/cases/2004/04-563"
-    citation: "545 U.S. 644"
     voteMajority: 7
     voteMinority: 2
     authorId: rbginsburg
@@ -1557,11 +1593,12 @@ cases:
     title: "Mayle v. Felix"
     volume: "545"
     page: "644"
+    docket: "04-563"
+    citation: "545 U.S. 644"
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, April 19, 2005"
     dateDecision: "Thursday, June 23, 2005"
     urlOyez: "https://www.oyez.org/cases/2004/04-563"
-    citation: "545 U.S. 644"
     voteMajority: 7
     voteMinority: 2
     authorId: rbginsburg
@@ -1600,11 +1637,12 @@ cases:
     title: "Lockhart v. United States"
     volume: "546"
     page: "142"
+    docket: "04-881"
+    citation: "546 U.S. 142"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, November 2, 2005"
     dateDecision: "Wednesday, December 7, 2005"
     urlOyez: "https://www.oyez.org/cases/2005/04-881"
-    citation: "546 U.S. 142"
     voteMajority: 9
     voteMinority: 0
     authorId: sdoconnor
@@ -1643,11 +1681,12 @@ cases:
     title: "Lockhart v. United States"
     volume: "546"
     page: "142"
+    docket: "04-881"
+    citation: "546 U.S. 142"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, November 2, 2005"
     dateDecision: "Wednesday, December 7, 2005"
     urlOyez: "https://www.oyez.org/cases/2005/04-881"
-    citation: "546 U.S. 142"
     voteMajority: 9
     voteMinority: 0
     authorId: sdoconnor
@@ -1686,11 +1725,12 @@ cases:
     title: "Scheidler v. National Organization for Women, Inc."
     volume: "547"
     page: "009"
+    docket: "04-1244"
+    citation: "547 U.S. 9"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, November 30, 2005"
     dateDecision: "Tuesday, February 28, 2006"
     urlOyez: "https://www.oyez.org/cases/2005/04-1244"
-    citation: "547 U.S. 9"
     voteMajority: 8
     voteMinority: 0
     authorId: sgbreyer
@@ -1729,11 +1769,12 @@ cases:
     title: "Scheidler v. National Organization for Women, Inc."
     volume: "547"
     page: "009"
+    docket: "04-1244"
+    citation: "547 U.S. 9"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, November 30, 2005"
     dateDecision: "Tuesday, February 28, 2006"
     urlOyez: "https://www.oyez.org/cases/2005/04-1244"
-    citation: "547 U.S. 9"
     voteMajority: 8
     voteMinority: 0
     authorId: sgbreyer
@@ -1772,11 +1813,12 @@ cases:
     title: "Marrama v. Citizens Bank of Mass."
     volume: "549"
     page: "365"
+    docket: "05-996"
+    citation: "549 U.S. 365"
     pdfSource: "scotusBound"
     dateArgument: "Monday, November 6, 2006"
     dateDecision: "Wednesday, February 21, 2007"
     urlOyez: "https://www.oyez.org/cases/2006/05-996"
-    citation: "549 U.S. 365"
     voteMajority: 5
     voteMinority: 4
     authorId: jpstevens
@@ -1815,11 +1857,12 @@ cases:
     title: "Gonzalez v. United States"
     volume: "553"
     page: "242"
+    docket: "06-11612"
+    citation: "553 U.S. 242"
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, January 8, 2008"
     dateDecision: "Monday, May 12, 2008"
     urlOyez: "https://www.oyez.org/cases/2007/06-11612"
-    citation: "553 U.S. 242"
     voteMajority: 8
     voteMinority: 1
     authorId: amkennedy
@@ -1858,11 +1901,12 @@ cases:
     title: "Engquist v. Oregon Dept. of Agriculture"
     volume: "553"
     page: "591"
+    docket: "07-474"
+    citation: "553 U.S. 591"
     pdfSource: "scotusBound"
     dateArgument: "Monday, April 21, 2008"
     dateDecision: "Monday, June 9, 2008"
     urlOyez: "https://www.oyez.org/cases/2007/07-474"
-    citation: "553 U.S. 591"
     voteMajority: 6
     voteMinority: 3
     authorId: jgroberts
@@ -1901,11 +1945,12 @@ cases:
     title: "Crawford v. Metropolitan Government of Nashville and Davidson Cty."
     volume: "555"
     page: "271"
+    docket: "06-1595"
+    citation: "555 U.S. 271"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, October 8, 2008"
     dateDecision: "Monday, January 26, 2009"
     urlOyez: "https://www.oyez.org/cases/2008/06-1595"
-    citation: "555 U.S. 271"
     voteMajority: 9
     voteMinority: 0
     authorId: dhsouter
@@ -1944,11 +1989,12 @@ cases:
     title: "AT&amp;T Corp. v. Hulteen"
     volume: "556"
     page: "701"
+    docket: "07-543"
+    citation: "556 U.S. 701"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, December 10, 2008"
     dateDecision: "Monday, May 18, 2009"
     urlOyez: "https://www.oyez.org/cases/2008/07-543"
-    citation: "556 U.S. 701"
     voteMajority: 7
     voteMinority: 2
     authorId: dhsouter
@@ -1987,11 +2033,12 @@ cases:
     title: "Gross v. FBL Financial Services, Inc."
     volume: "557"
     page: "167"
+    docket: "08-441"
+    citation: "557 U.S. 167"
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, March 31, 2009"
     dateDecision: "Thursday, June 18, 2009"
     urlOyez: "https://www.oyez.org/cases/2008/08-441"
-    citation: "557 U.S. 167"
     voteMajority: 5
     voteMinority: 4
     authorId: cthomas
@@ -2030,11 +2077,12 @@ cases:
     title: "Henderson v. Shinseki"
     volume: "562"
     page: "428"
+    docket: "09-1036"
+    citation: "562 U.S. 428"
     pdfSource: "scotusBound"
     dateArgument: "Monday, December 6, 2010"
     dateDecision: "Tuesday, March 1, 2011"
     urlOyez: "https://www.oyez.org/cases/2010/09-1036"
-    citation: "562 U.S. 428"
     voteMajority: 8
     voteMinority: 0
     authorId: saalito
@@ -2073,11 +2121,12 @@ cases:
     title: "Astra USA, Inc. v. Santa Clara County"
     volume: "563"
     page: "110"
+    docket: "09-1273"
+    citation: "563 U.S. 110"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, January 19, 2011"
     dateDecision: "Tuesday, March 29, 2011"
     urlOyez: "https://www.oyez.org/cases/2010/09-1273"
-    citation: "563 U.S. 110"
     voteMajority: 8
     voteMinority: 0
     authorId: rbginsburg
@@ -2114,11 +2163,11 @@ cases:
     number: 50
     termId: "2012-10"
     title: "Marx v. General Revenue Corp."
+    docket: "11-1175"
     pdfSource: "slipopinion/12"
     dateArgument: "Wednesday, November 7, 2012"
     dateDecision: "Tuesday, February 26, 2013"
     urlOyez: "https://www.oyez.org/cases/2012/11-1175"
-    citation: "No. 11-1175"
     voteMajority: 7
     voteMinority: 2
     authorId: cthomas
@@ -2155,11 +2204,11 @@ cases:
     number: 51
     termId: "2012-10"
     title: "Adoptive Couple v. Baby Girl"
+    docket: "12-399"
     pdfSource: "slipopinion/12"
     dateArgument: "Tuesday, April 16, 2013"
     dateDecision: "Tuesday, June 25, 2013"
     urlOyez: "https://www.oyez.org/cases/2012/12-399"
-    citation: "No. 12-399"
     voteMajority: 5
     voteMinority: 4
     authorId: saalito
@@ -2196,11 +2245,11 @@ cases:
     number: 52
     termId: "2012-10"
     title: "Tarrant Regional Water Dist. v. Herrmann"
+    docket: "11-889"
     pdfSource: "slipopinion/12"
     dateArgument: "Tuesday, April 23, 2013"
     dateDecision: "Thursday, June 13, 2013"
     urlOyez: "https://www.oyez.org/cases/2012/11-889"
-    citation: "No. 11-889"
     voteMajority: 9
     voteMinority: 0
     authorId: ssotomayor
@@ -2237,11 +2286,11 @@ cases:
     number: 53
     termId: "2016-10"
     title: "Bravo-Fernandez v. United States"
+    docket: "15-537"
     pdfSource: "slipopinion/16"
     dateArgument: "Tuesday, October 4, 2016"
     dateDecision: "Tuesday, November 29, 2016"
     urlOyez: "https://www.oyez.org/cases/2016/15-537"
-    citation: "No. 15-537"
     voteMajority: 8
     voteMinority: 0
     authorId: rbginsburg
@@ -2275,11 +2324,11 @@ cases:
     number: 54
     termId: "2016-10"
     title: "Advocate Health Care Network v. Stapleton"
+    docket: "16-74"
     pdfSource: "slipopinion/16"
     dateArgument: "Monday, March 27, 2017"
     dateDecision: "Monday, June 5, 2017"
     urlOyez: "https://www.oyez.org/cases/2016/16-74"
-    citation: "No. 16-74"
     voteMajority: 8
     voteMinority: 0
     authorId: ekagan
@@ -2316,20 +2365,22 @@ cases:
     number: 55
     termId: "2018-10"
     title: "BNSF Railway Company v. Loos"
+    docket: "17-1042"
+    citation: "___ U.S. ___"
     pdfSource: "slipopinion/18"
     dateArgument: "Tuesday, November 6, 2018"
     urlOyez: "https://www.oyez.org/cases/2018/17-1042"
-    citation: "No. 17-1042"
     voteMajority: 0
     voteMinority: 0
   - id: "62996"
     number: 56
     termId: "2018-10"
     title: "Carpenter v. Murphy"
+    docket: "17-1107"
+    citation: "___ U.S. ___"
     pdfSource: "slipopinion/18"
     dateArgument: "Tuesday, November 27, 2018"
     urlOyez: "https://www.oyez.org/cases/2018/17-1107"
-    citation: "No. 17-1107"
     voteMajority: 0
     voteMinority: 0
 ---

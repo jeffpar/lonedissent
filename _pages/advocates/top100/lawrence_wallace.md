@@ -9,11 +9,12 @@ cases:
     title: "Joint Industry Bd. of Elec. Industry v. United States"
     volume: "391"
     page: "224"
+    docket: "616"
+    citation: "391 U.S. 224"
     pdfSource: "loc"
     dateArgument: "Monday, March 25, 1968"
     dateDecision: "Monday, May 20, 1968"
     urlOyez: "https://www.oyez.org/cases/1967/616"
-    citation: "391 U.S. 224"
     voteMajority: 6
     voteMinority: 3
     authorId: brwhite
@@ -52,11 +53,12 @@ cases:
     title: "Lear, Inc. v. Adkins"
     volume: "395"
     page: "653"
+    docket: "56"
+    citation: "395 U.S. 653"
     pdfSource: "loc"
     dateArgument: "Wednesday, November 20, 1968"
     dateDecision: "Monday, June 16, 1969"
     urlOyez: "https://www.oyez.org/cases/1968/56"
-    citation: "395 U.S. 653"
     voteMajority: 5
     voteMinority: 3
     authorId: jharlan2
@@ -92,11 +94,12 @@ cases:
     title: "United States v. Article of Drug . . . Bacto-Unidisk"
     volume: "394"
     page: "784"
+    docket: "343"
+    citation: "394 U.S. 784"
     pdfSource: "loc"
     dateArgument: "Thursday, January 23, 1969"
     dateDecision: "Monday, April 28, 1969"
     urlOyez: "https://www.oyez.org/cases/1968/343"
-    citation: "394 U.S. 784"
     voteMajority: 8
     voteMinority: 1
     authorId: ewarren
@@ -135,11 +138,12 @@ cases:
     title: "NLRB v. Gissel Packing Co."
     volume: "395"
     page: "575"
+    docket: "573"
+    citation: "395 U.S. 575"
     pdfSource: "loc"
     dateArgument: "Wednesday, March 26, 1969"
     dateDecision: "Monday, June 16, 1969"
     urlOyez: "https://www.oyez.org/cases/1968/573"
-    citation: "395 U.S. 575"
     voteMajority: 8
     voteMinority: 0
     authorId: ewarren
@@ -175,11 +179,12 @@ cases:
     title: "Turner v. United States"
     volume: "396"
     page: "398"
+    docket: "190"
+    citation: "396 U.S. 398"
     pdfSource: "loc"
     dateArgument: "Wednesday, October 15, 1969"
     dateDecision: "Tuesday, January 20, 1970"
     urlOyez: "https://www.oyez.org/cases/1969/190"
-    citation: "396 U.S. 398"
     voteMajority: 6
     voteMinority: 2
     authorId: brwhite
@@ -215,11 +220,12 @@ cases:
     title: "United States v. Kordel"
     volume: "397"
     page: "001"
+    docket: "87"
+    citation: "397 U.S. 1"
     pdfSource: "loc"
     dateArgument: "Thursday, November 20, 1969"
     dateDecision: "Tuesday, February 24, 1970"
     urlOyez: "https://www.oyez.org/cases/1969/87"
-    citation: "397 U.S. 1"
     voteMajority: 7
     voteMinority: 0
     authorId: pstewart
@@ -255,11 +261,12 @@ cases:
     title: "United States v. Key"
     volume: "397"
     page: "322"
+    docket: "402"
+    citation: "397 U.S. 322"
     pdfSource: "loc"
     dateArgument: "Wednesday, January 21, 1970"
     dateDecision: "Monday, March 30, 1970"
     urlOyez: "https://www.oyez.org/cases/1969/402"
-    citation: "397 U.S. 322"
     voteMajority: 8
     voteMinority: 0
     authorId: tmarshall
@@ -295,11 +302,12 @@ cases:
     title: "Standard Industries, Inc. v. Tigrett Industries, Inc."
     volume: "397"
     page: "586"
+    docket: "445"
+    citation: "397 U.S. 586"
     pdfSource: "loc"
     dateArgument: "Monday, March 2, 1970"
     dateDecision: "Monday, April 20, 1970"
     urlOyez: "https://www.oyez.org/cases/1969/445"
-    citation: "397 U.S. 586"
     voteMajority: 4
     voteMinority: 4
     votes:
@@ -333,11 +341,12 @@ cases:
     title: "Donaldson v. United States"
     volume: "400"
     page: "517"
+    docket: "65"
+    citation: "400 U.S. 517"
     pdfSource: "loc"
     dateArgument: "Thursday, November 19, 1970"
     dateDecision: "Monday, January 25, 1971"
     urlOyez: "https://www.oyez.org/cases/1970/65"
-    citation: "400 U.S. 517"
     voteMajority: 9
     voteMinority: 0
     authorId: hablackmun
@@ -376,11 +385,12 @@ cases:
     title: "Phillips v. Martin Marietta Corp."
     volume: "400"
     page: "542"
+    docket: "73"
+    citation: "400 U.S. 542"
     pdfSource: "loc"
     dateArgument: "Wednesday, December 9, 1970"
     dateDecision: "Monday, January 25, 1971"
     urlOyez: "https://www.oyez.org/cases/1970/73"
-    citation: "400 U.S. 542"
     voteMajority: 9
     voteMinority: 0
     votes:
@@ -417,11 +427,12 @@ cases:
     title: "Griffin v. Breckenridge"
     volume: "403"
     page: "088"
+    docket: "144"
+    citation: "403 U.S. 88"
     pdfSource: "loc"
     dateArgument: "Wednesday, January 13, 1971"
     dateDecision: "Monday, June 7, 1971"
     urlOyez: "https://www.oyez.org/cases/1970/144"
-    citation: "403 U.S. 88"
     voteMajority: 9
     voteMinority: 0
     authorId: pstewart
@@ -460,11 +471,12 @@ cases:
     title: "United States v. Southern Ute Tribe"
     volume: "402"
     page: "159"
+    docket: "515"
+    citation: "402 U.S. 159"
     pdfSource: "loc"
     dateArgument: "Monday, March 1, 1971"
     dateDecision: "Monday, April 26, 1971"
     urlOyez: "https://www.oyez.org/cases/1970/515"
-    citation: "402 U.S. 159"
     voteMajority: 8
     voteMinority: 1
     authorId: wjbrennan
@@ -503,11 +515,12 @@ cases:
     title: "Hodgson v. Steelworkers"
     volume: "403"
     page: "333"
+    docket: "655"
+    citation: "403 U.S. 333"
     pdfSource: "loc"
     dateArgument: "Tuesday, March 23, 1971"
     dateDecision: "Monday, June 14, 1971"
     urlOyez: "https://www.oyez.org/cases/1970/655"
-    citation: "403 U.S. 333"
     voteMajority: 7
     voteMinority: 2
     authorId: tmarshall
@@ -546,11 +559,12 @@ cases:
     title: "Dewey v. Reynolds Metals Co."
     volume: "402"
     page: "689"
+    docket: "835"
+    citation: "402 U.S. 689"
     pdfSource: "loc"
     dateArgument: "Tuesday, April 20, 1971"
     dateDecision: "Tuesday, June 1, 1971"
     urlOyez: "https://www.oyez.org/cases/1970/835"
-    citation: "402 U.S. 689"
     voteMajority: 4
     voteMinority: 4
     votes:
@@ -587,11 +601,12 @@ cases:
     title: "NLRB v. Nash-Finch Co."
     volume: "404"
     page: "138"
+    docket: "70-93"
+    citation: "404 U.S. 138"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 19, 1971"
     dateDecision: "Monday, December 6, 1971"
     urlOyez: "https://www.oyez.org/cases/1971/70-93"
-    citation: "404 U.S. 138"
     voteMajority: 5
     voteMinority: 2
     authorId: wodouglas
@@ -624,11 +639,12 @@ cases:
     title: "Love v. Pullman Co."
     volume: "404"
     page: "522"
+    docket: "70-5033"
+    citation: "404 U.S. 522"
     pdfSource: "loc"
     dateArgument: "Tuesday, November 16, 1971"
     dateDecision: "Monday, January 17, 1972"
     urlOyez: "https://www.oyez.org/cases/1971/70-5033"
-    citation: "404 U.S. 522"
     voteMajority: 7
     voteMinority: 0
     authorId: pstewart
@@ -667,11 +683,12 @@ cases:
     title: "Pipefitters v. United States"
     volume: "407"
     page: "385"
+    docket: "70-74"
+    citation: "407 U.S. 385"
     pdfSource: "loc"
     dateArgument: "Tuesday, January 11, 1972"
     dateDecision: "Thursday, June 22, 1972"
     urlOyez: "https://www.oyez.org/cases/1971/70-74"
-    citation: "407 U.S. 385"
     voteMajority: 6
     voteMinority: 2
     authorId: wjbrennan
@@ -710,11 +727,12 @@ cases:
     title: "United States v. Scotland Neck City Bd. of Ed."
     volume: "407"
     page: "484"
+    docket: "70-130"
+    citation: "407 U.S. 484"
     pdfSource: "loc"
     dateArgument: "Tuesday, February 29, 1972"
     dateDecision: "Thursday, June 22, 1972"
     urlOyez: "https://www.oyez.org/cases/1971/70-130"
-    citation: "407 U.S. 484"
     voteMajority: 9
     voteMinority: 0
     authorId: pstewart
@@ -753,11 +771,12 @@ cases:
     title: "United States v. Midwest Video Corp."
     volume: "406"
     page: "649"
+    docket: "71-506"
+    citation: "406 U.S. 649"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 19, 1972"
     dateDecision: "Wednesday, June 7, 1972"
     urlOyez: "https://www.oyez.org/cases/1971/71-506"
-    citation: "406 U.S. 649"
     voteMajority: 5
     voteMinority: 4
     authorId: wjbrennan
@@ -796,11 +815,12 @@ cases:
     title: "Trafficante v. Metropolitan Life Ins. Co."
     volume: "409"
     page: "205"
+    docket: "71-708"
+    citation: "409 U.S. 205"
     pdfSource: "loc"
     dateArgument: "Tuesday, November 7, 1972"
     dateDecision: "Thursday, December 7, 1972"
     urlOyez: "https://www.oyez.org/cases/1972/71-708"
-    citation: "409 U.S. 205"
     voteMajority: 9
     voteMinority: 0
     authorId: wodouglas
@@ -839,11 +859,12 @@ cases:
     title: "Couch v. United States"
     volume: "409"
     page: "322"
+    docket: "71-889"
+    citation: "409 U.S. 322"
     pdfSource: "loc"
     dateArgument: "Tuesday, November 14, 1972"
     dateDecision: "Tuesday, January 9, 1973"
     urlOyez: "https://www.oyez.org/cases/1972/71-889"
-    citation: "409 U.S. 322"
     voteMajority: 7
     voteMinority: 2
     authorId: lfpowell
@@ -882,11 +903,12 @@ cases:
     title: "Otter Tail Power Co. v. United States"
     volume: "410"
     page: "366"
+    docket: "71-991"
+    citation: "410 U.S. 366"
     pdfSource: "loc"
     dateArgument: "Tuesday, December 5, 1972"
     dateDecision: "Thursday, February 22, 1973"
     urlOyez: "https://www.oyez.org/cases/1972/71-991"
-    citation: "410 U.S. 366"
     voteMajority: 4
     voteMinority: 3
     authorId: wodouglas
@@ -925,11 +947,12 @@ cases:
     title: "Fri v. Sierra Club"
     volume: "412"
     page: "541"
+    docket: "72-804"
+    citation: "412 U.S. 541"
     pdfSource: "loc"
     dateArgument: "Wednesday, December 13, 1972"
     dateDecision: "Monday, June 11, 1973"
     urlOyez: "https://www.oyez.org/cases/1972/72-804"
-    citation: "412 U.S. 541"
     voteMajority: 4
     voteMinority: 4
     votes:
@@ -966,11 +989,12 @@ cases:
     title: "Employees of Dept. of Public Health and Welfare of Mo. v. Department of Public Health and Welfare of Mo."
     volume: "411"
     page: "279"
+    docket: "71-1021"
+    citation: "411 U.S. 279"
     pdfSource: "loc"
     dateArgument: "Monday, January 15, 1973"
     dateDecision: "Wednesday, April 18, 1973"
     urlOyez: "https://www.oyez.org/cases/1972/71-1021"
-    citation: "411 U.S. 279"
     voteMajority: 8
     voteMinority: 1
     authorId: wodouglas
@@ -1009,11 +1033,12 @@ cases:
     title: "Georgia v. United States"
     volume: "411"
     page: "526"
+    docket: "72-75"
+    citation: "411 U.S. 526"
     pdfSource: "loc"
     dateArgument: "Wednesday, February 21, 1973"
     dateDecision: "Monday, May 7, 1973"
     urlOyez: "https://www.oyez.org/cases/1972/72-75"
-    citation: "411 U.S. 526"
     voteMajority: 6
     voteMinority: 3
     authorId: pstewart
@@ -1052,11 +1077,12 @@ cases:
     title: "Alexander v. Gardner-Denver Co."
     volume: "415"
     page: "036"
+    docket: "72-5847"
+    citation: "415 U.S. 36"
     pdfSource: "loc"
     dateArgument: "Monday, November 5, 1973"
     dateDecision: "Tuesday, February 19, 1974"
     urlOyez: "https://www.oyez.org/cases/1973/72-5847"
-    citation: "415 U.S. 36"
     voteMajority: 9
     voteMinority: 0
     authorId: lfpowell
@@ -1095,11 +1121,12 @@ cases:
     title: "United States v. Matlock"
     volume: "415"
     page: "164"
+    docket: "72-1355"
+    citation: "415 U.S. 164"
     pdfSource: "loc"
     dateArgument: "Monday, December 10, 1973"
     dateDecision: "Wednesday, February 20, 1974"
     urlOyez: "https://www.oyez.org/cases/1973/72-1355"
-    citation: "415 U.S. 164"
     voteMajority: 6
     voteMinority: 3
     authorId: brwhite
@@ -1138,11 +1165,12 @@ cases:
     title: "California Bankers Assn. v. Shultz"
     volume: "416"
     page: "021"
+    docket: "72-985"
+    citation: "416 U.S. 21"
     pdfSource: "loc"
     dateArgument: "Wednesday, January 16, 1974"
     dateDecision: "Monday, April 1, 1974"
     urlOyez: "https://www.oyez.org/cases/1973/72-985"
-    citation: "416 U.S. 21"
     voteMajority: 6
     voteMinority: 3
     authorId: whrehnquist
@@ -1181,11 +1209,12 @@ cases:
     title: "Bellis v. United States"
     volume: "417"
     page: "085"
+    docket: "73-190"
+    citation: "417 U.S. 85"
     pdfSource: "loc"
     dateArgument: "Monday, February 25, 1974"
     dateDecision: "Tuesday, May 28, 1974"
     urlOyez: "https://www.oyez.org/cases/1973/73-190"
-    citation: "417 U.S. 85"
     voteMajority: 8
     voteMinority: 1
     authorId: tmarshall
@@ -1224,11 +1253,12 @@ cases:
     title: "Anderson v. United States"
     volume: "417"
     page: "211"
+    docket: "73-346"
+    citation: "417 U.S. 211"
     pdfSource: "loc"
     dateArgument: "Tuesday, March 19, 1974"
     dateDecision: "Monday, June 3, 1974"
     urlOyez: "https://www.oyez.org/cases/1973/73-346"
-    citation: "417 U.S. 211"
     voteMajority: 7
     voteMinority: 2
     authorId: tmarshall
@@ -1267,11 +1297,12 @@ cases:
     title: "United States v. New Jersey Lottery Comm&apos;n"
     volume: "420"
     page: "371"
+    docket: "73-1471"
+    citation: "420 U.S. 371"
     pdfSource: "loc"
     dateArgument: "Wednesday, November 20, 1974"
     dateDecision: "Tuesday, February 25, 1975"
     urlOyez: "https://www.oyez.org/cases/1974/73-1471"
-    citation: "420 U.S. 371"
     voteMajority: 7
     voteMinority: 1
     votes:
@@ -1308,11 +1339,12 @@ cases:
     title: "Emporium Capwell Co. v. Western Addition Community Organization"
     volume: "420"
     page: "050"
+    docket: "73-696"
+    citation: "420 U.S. 50"
     pdfSource: "loc"
     dateArgument: "Friday, November 22, 1974"
     dateDecision: "Tuesday, February 18, 1975"
     urlOyez: "https://www.oyez.org/cases/1974/73-696"
-    citation: "420 U.S. 50"
     voteMajority: 8
     voteMinority: 1
     authorId: tmarshall
@@ -1351,11 +1383,12 @@ cases:
     title: "Chemehuevi Tribe v. FPC"
     volume: "420"
     page: "395"
+    docket: "73-1380"
+    citation: "420 U.S. 395"
     pdfSource: "loc"
     dateArgument: "Monday, January 13, 1975"
     dateDecision: "Monday, March 3, 1975"
     urlOyez: "https://www.oyez.org/cases/1974/73-1380"
-    citation: "420 U.S. 395"
     voteMajority: 8
     voteMinority: 0
     authorId: pstewart
@@ -1394,11 +1427,12 @@ cases:
     title: "Beer v. United States"
     volume: "425"
     page: "130"
+    docket: "73-1869"
+    citation: "425 U.S. 130"
     pdfSource: "loc"
     dateArgument: "Wednesday, March 26, 1975"
     dateDecision: "Tuesday, March 30, 1976"
     urlOyez: "https://www.oyez.org/cases/1974/73-1869"
-    citation: "425 U.S. 130"
     voteMajority: 5
     voteMinority: 3
     authorId: pstewart
@@ -1437,11 +1471,12 @@ cases:
     title: "Richmond v. United States"
     volume: "422"
     page: "358"
+    docket: "74-201"
+    citation: "422 U.S. 358"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 23, 1975"
     dateDecision: "Tuesday, June 24, 1975"
     urlOyez: "https://www.oyez.org/cases/1974/74-201"
-    citation: "422 U.S. 358"
     voteMajority: 5
     voteMinority: 3
     authorId: brwhite
@@ -1480,11 +1515,12 @@ cases:
     title: "Fisher v. United States"
     volume: "425"
     page: "391"
+    docket: "74-18"
+    citation: "425 U.S. 391"
     pdfSource: "loc"
     dateArgument: "Monday, November 3, 1975"
     dateDecision: "Wednesday, April 21, 1976"
     urlOyez: "https://www.oyez.org/cases/1975/74-18"
-    citation: "425 U.S. 391"
     voteMajority: 8
     voteMinority: 0
     authorId: brwhite
@@ -1523,11 +1559,12 @@ cases:
     title: "Beer v. United States"
     volume: "425"
     page: "130"
+    docket: "73-1869"
+    citation: "425 U.S. 130"
     pdfSource: "loc"
     dateArgument: "Wednesday, November 12, 1975"
     dateDecision: "Tuesday, March 30, 1976"
     urlOyez: "https://www.oyez.org/cases/1974/73-1869"
-    citation: "425 U.S. 130"
     voteMajority: 5
     voteMinority: 3
     authorId: pstewart
@@ -1566,11 +1603,12 @@ cases:
     title: "Usery v. Turner Elkhorn Mining Co."
     volume: "428"
     page: "001"
+    docket: "74-1302"
+    citation: "428 U.S. 1"
     pdfSource: "loc"
     dateArgument: "Tuesday, December 2, 1975"
     dateDecision: "Thursday, July 1, 1976"
     urlOyez: "https://www.oyez.org/cases/1975/74-1302"
-    citation: "428 U.S. 1"
     voteMajority: 6
     voteMinority: 2
     authorId: tmarshall
@@ -1609,11 +1647,12 @@ cases:
     title: "United States v. Miller"
     volume: "425"
     page: "435"
+    docket: "74-1179"
+    citation: "425 U.S. 435"
     pdfSource: "loc"
     dateArgument: "Monday, January 12, 1976"
     dateDecision: "Wednesday, April 21, 1976"
     urlOyez: "https://www.oyez.org/cases/1975/74-1179"
-    citation: "425 U.S. 435"
     voteMajority: 7
     voteMinority: 2
     authorId: lfpowell
@@ -1652,11 +1691,12 @@ cases:
     title: "Brown v. GSA"
     volume: "425"
     page: "820"
+    docket: "74-768"
+    citation: "425 U.S. 820"
     pdfSource: "loc"
     dateArgument: "Monday, March 1, 1976"
     dateDecision: "Tuesday, June 1, 1976"
     urlOyez: "https://www.oyez.org/cases/1975/74-768"
-    citation: "425 U.S. 820"
     voteMajority: 6
     voteMinority: 2
     authorId: pstewart
@@ -1695,11 +1735,12 @@ cases:
     title: "Fitzpatrick v. Bitzer"
     volume: "427"
     page: "445"
+    docket: "75-251"
+    citation: "427 U.S. 445"
     pdfSource: "loc"
     dateArgument: "Tuesday, April 20, 1976"
     dateDecision: "Monday, June 28, 1976"
     urlOyez: "https://www.oyez.org/cases/1975/75-251"
-    citation: "427 U.S. 445"
     voteMajority: 9
     voteMinority: 0
     authorId: whrehnquist
@@ -1738,11 +1779,12 @@ cases:
     title: "Parker Seal Co. v. Cummins"
     volume: "429"
     page: "065"
+    docket: "75-478"
+    citation: "429 U.S. 65"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 12, 1976"
     dateDecision: "Tuesday, November 2, 1976"
     urlOyez: "https://www.oyez.org/cases/1976/75-478"
-    citation: "429 U.S. 65"
     voteMajority: 4
     voteMinority: 4
     votes:
@@ -1779,11 +1821,12 @@ cases:
     title: "Teamsters v. United States"
     volume: "431"
     page: "324"
+    docket: "75-636"
+    citation: "431 U.S. 324"
     pdfSource: "loc"
     dateArgument: "Monday, January 10, 1977"
     dateDecision: "Tuesday, May 31, 1977"
     urlOyez: "https://www.oyez.org/cases/1976/75-636"
-    citation: "431 U.S. 324"
     voteMajority: 7
     voteMinority: 2
     authorId: pstewart
@@ -1822,11 +1865,12 @@ cases:
     title: "Hazelwood School Dist. v. United States"
     volume: "433"
     page: "299"
+    docket: "76-255"
+    citation: "433 U.S. 299"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 27, 1977"
     dateDecision: "Monday, June 27, 1977"
     urlOyez: "https://www.oyez.org/cases/1976/76-255"
-    citation: "433 U.S. 299"
     voteMajority: 8
     voteMinority: 1
     authorId: pstewart
@@ -1865,11 +1909,12 @@ cases:
     title: "Connor v. Finch"
     volume: "431"
     page: "407"
+    docket: "76-777"
+    citation: "431 U.S. 407"
     pdfSource: "loc"
     dateArgument: "Thursday, April 28, 1977"
     dateDecision: "Tuesday, May 31, 1977"
     urlOyez: "https://www.oyez.org/cases/1976/76-777"
-    citation: "431 U.S. 407"
     voteMajority: 7
     voteMinority: 1
     authorId: pstewart
@@ -1908,11 +1953,12 @@ cases:
     title: "United States v. New York Telephone Co."
     volume: "434"
     page: "159"
+    docket: "76-835"
+    citation: "434 U.S. 159"
     pdfSource: "loc"
     dateArgument: "Monday, October 3, 1977"
     dateDecision: "Wednesday, December 7, 1977"
     urlOyez: "https://www.oyez.org/cases/1977/76-835"
-    citation: "434 U.S. 159"
     voteMajority: 5
     voteMinority: 4
     authorId: brwhite
@@ -1951,11 +1997,12 @@ cases:
     title: "Vermont Yankee Nuclear Power Corp. v. Natural Resources Defense Council, Inc."
     volume: "435"
     page: "519"
+    docket: "76-419"
+    citation: "435 U.S. 519"
     pdfSource: "loc"
     dateArgument: "Monday, November 28, 1977"
     dateDecision: "Monday, April 3, 1978"
     urlOyez: "https://www.oyez.org/cases/1977/76-419"
-    citation: "435 U.S. 519"
     voteMajority: 7
     voteMinority: 0
     authorId: whrehnquist
@@ -1994,11 +2041,12 @@ cases:
     title: "FCC v. National Citizens Comm. for Broadcasting"
     volume: "436"
     page: "775"
+    docket: "76-1471"
+    citation: "436 U.S. 775"
     pdfSource: "loc"
     dateArgument: "Monday, January 16, 1978"
     dateDecision: "Monday, June 12, 1978"
     urlOyez: "https://www.oyez.org/cases/1977/76-1471"
-    citation: "436 U.S. 775"
     voteMajority: 8
     voteMinority: 0
     authorId: tmarshall
@@ -2037,11 +2085,12 @@ cases:
     title: "United States v. LaSalle Nat. Bank"
     volume: "437"
     page: "298"
+    docket: "77-365"
+    citation: "437 U.S. 298"
     pdfSource: "loc"
     dateArgument: "Wednesday, March 29, 1978"
     dateDecision: "Monday, June 19, 1978"
     urlOyez: "https://www.oyez.org/cases/1977/77-365"
-    citation: "437 U.S. 298"
     voteMajority: 5
     voteMinority: 4
     authorId: hablackmun
@@ -2080,11 +2129,12 @@ cases:
     title: "Parker v. Flook"
     volume: "437"
     page: "584"
+    docket: "77-642"
+    citation: "437 U.S. 584"
     pdfSource: "loc"
     dateArgument: "Tuesday, April 25, 1978"
     dateDecision: "Thursday, June 22, 1978"
     urlOyez: "https://www.oyez.org/cases/1977/77-642"
-    citation: "437 U.S. 584"
     voteMajority: 6
     voteMinority: 3
     authorId: jpstevens
@@ -2123,11 +2173,12 @@ cases:
     title: "Dougherty County Bd. of Ed. v. White"
     volume: "439"
     page: "032"
+    docket: "77-120"
+    citation: "439 U.S. 32"
     pdfSource: "loc"
     dateArgument: "Monday, October 2, 1978"
     dateDecision: "Tuesday, November 28, 1978"
     urlOyez: "https://www.oyez.org/cases/1978/77-120"
-    citation: "439 U.S. 32"
     voteMajority: 5
     voteMinority: 4
     authorId: tmarshall
@@ -2166,11 +2217,12 @@ cases:
     title: "Gladstone, Realtors v. Village of Bellwood"
     volume: "441"
     page: "091"
+    docket: "77-1493"
+    citation: "441 U.S. 91"
     pdfSource: "loc"
     dateArgument: "Wednesday, November 29, 1978"
     dateDecision: "Tuesday, April 17, 1979"
     urlOyez: "https://www.oyez.org/cases/1978/77-1493"
-    citation: "441 U.S. 91"
     voteMajority: 7
     voteMinority: 2
     authorId: lfpowell
@@ -2209,11 +2261,12 @@ cases:
     title: "FCC v. Midwest Video Corp."
     volume: "440"
     page: "689"
+    docket: "77-1575"
+    citation: "440 U.S. 689"
     pdfSource: "loc"
     dateArgument: "Wednesday, January 10, 1979"
     dateDecision: "Monday, April 2, 1979"
     urlOyez: "https://www.oyez.org/cases/1978/77-1575"
-    citation: "440 U.S. 689"
     voteMajority: 6
     voteMinority: 3
     authorId: brwhite
@@ -2252,11 +2305,12 @@ cases:
     title: "Steelworkers v. Weber"
     volume: "443"
     page: "193"
+    docket: "78-432"
+    citation: "443 U.S. 193"
     pdfSource: "loc"
     dateArgument: "Wednesday, March 28, 1979"
     dateDecision: "Wednesday, June 27, 1979"
     urlOyez: "https://www.oyez.org/cases/1978/78-432"
-    citation: "443 U.S. 193"
     voteMajority: 5
     voteMinority: 2
     authorId: wjbrennan
@@ -2295,11 +2349,12 @@ cases:
     title: "Great American Fed. Sav. &amp; Loan Assn. v. Novotny"
     volume: "442"
     page: "366"
+    docket: "78-753"
+    citation: "442 U.S. 366"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 18, 1979"
     dateDecision: "Monday, June 11, 1979"
     urlOyez: "https://www.oyez.org/cases/1978/78-753"
-    citation: "442 U.S. 366"
     voteMajority: 6
     voteMinority: 3
     authorId: pstewart
@@ -2338,11 +2393,12 @@ cases:
     title: "City of Rome v. United States"
     volume: "446"
     page: "156"
+    docket: "78-1840"
+    citation: "446 U.S. 156"
     pdfSource: "loc"
     dateArgument: "Wednesday, October 10, 1979"
     dateDecision: "Tuesday, April 22, 1980"
     urlOyez: "https://www.oyez.org/cases/1979/78-1840"
-    citation: "446 U.S. 156"
     voteMajority: 6
     voteMinority: 3
     authorId: tmarshall
@@ -2381,11 +2437,12 @@ cases:
     title: "Estes v. Metropolitan Branches of Dallas NAACP"
     volume: "444"
     page: "437"
+    docket: "78-253"
+    citation: "444 U.S. 437"
     pdfSource: "loc"
     dateArgument: "Monday, October 29, 1979"
     dateDecision: "Monday, January 21, 1980"
     urlOyez: "https://www.oyez.org/cases/1979/78-253"
-    citation: "444 U.S. 437"
     voteMajority: 5
     voteMinority: 3
     votes:
@@ -2422,11 +2479,12 @@ cases:
     title: "California Brewers Assn. v. Bryant"
     volume: "444"
     page: "598"
+    docket: "78-1548"
+    citation: "444 U.S. 598"
     pdfSource: "loc"
     dateArgument: "Tuesday, November 27, 1979"
     dateDecision: "Wednesday, February 20, 1980"
     urlOyez: "https://www.oyez.org/cases/1979/78-1548"
-    citation: "444 U.S. 598"
     voteMajority: 4
     voteMinority: 3
     authorId: pstewart
@@ -2465,11 +2523,12 @@ cases:
     title: "Andrus v. Shell Oil Co."
     volume: "446"
     page: "657"
+    docket: "78-1815"
+    citation: "446 U.S. 657"
     pdfSource: "loc"
     dateArgument: "Tuesday, January 15, 1980"
     dateDecision: "Monday, June 2, 1980"
     urlOyez: "https://www.oyez.org/cases/1979/78-1815"
-    citation: "446 U.S. 657"
     voteMajority: 6
     voteMinority: 3
     authorId: weburger
@@ -2508,11 +2567,12 @@ cases:
     title: "Diamond v. Chakrabarty"
     volume: "447"
     page: "303"
+    docket: "79-136"
+    citation: "447 U.S. 303"
     pdfSource: "loc"
     dateArgument: "Monday, March 17, 1980"
     dateDecision: "Monday, June 16, 1980"
     urlOyez: "https://www.oyez.org/cases/1979/79-136"
-    citation: "447 U.S. 303"
     voteMajority: 5
     voteMinority: 4
     authorId: weburger
@@ -2551,11 +2611,12 @@ cases:
     title: "General Telephone Co. of Northwest v. EEOC"
     volume: "446"
     page: "318"
+    docket: "79-488"
+    citation: "446 U.S. 318"
     pdfSource: "loc"
     dateArgument: "Tuesday, March 25, 1980"
     dateDecision: "Monday, May 12, 1980"
     urlOyez: "https://www.oyez.org/cases/1979/79-488"
-    citation: "446 U.S. 318"
     voteMajority: 5
     voteMinority: 4
     authorId: brwhite
@@ -2594,11 +2655,12 @@ cases:
     title: "NLRB v. Longshoremen"
     volume: "447"
     page: "490"
+    docket: "79-1082"
+    citation: "447 U.S. 490"
     pdfSource: "loc"
     dateArgument: "Tuesday, April 22, 1980"
     dateDecision: "Friday, June 20, 1980"
     urlOyez: "https://www.oyez.org/cases/1979/79-1082"
-    citation: "447 U.S. 490"
     voteMajority: 5
     voteMinority: 4
     authorId: tmarshall
@@ -2637,11 +2699,12 @@ cases:
     title: "Diamond v. Diehr"
     volume: "450"
     page: "175"
+    docket: "79-1112"
+    citation: "450 U.S. 175"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 14, 1980"
     dateDecision: "Tuesday, March 3, 1981"
     urlOyez: "https://www.oyez.org/cases/1980/79-1112"
-    citation: "450 U.S. 175"
     voteMajority: 5
     voteMinority: 4
     authorId: whrehnquist
@@ -2680,11 +2743,12 @@ cases:
     title: "Diamond v. Bradley"
     volume: "450"
     page: "381"
+    docket: "79-855"
+    citation: "450 U.S. 381"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 14, 1980"
     dateDecision: "Monday, March 9, 1981"
     urlOyez: "https://www.oyez.org/cases/1980/79-855"
-    citation: "450 U.S. 381"
     voteMajority: 4
     voteMinority: 4
     votes:
@@ -2721,11 +2785,12 @@ cases:
     title: "Upjohn Co. v. United States"
     volume: "449"
     page: "383"
+    docket: "79-886"
+    citation: "449 U.S. 383"
     pdfSource: "loc"
     dateArgument: "Wednesday, November 5, 1980"
     dateDecision: "Tuesday, January 13, 1981"
     urlOyez: "https://www.oyez.org/cases/1980/79-886"
-    citation: "449 U.S. 383"
     voteMajority: 9
     voteMinority: 0
     authorId: whrehnquist
@@ -2764,11 +2829,12 @@ cases:
     title: "Northwest Airlines, Inc. v. Transport Workers"
     volume: "451"
     page: "077"
+    docket: "79-1056"
+    citation: "451 U.S. 77"
     pdfSource: "loc"
     dateArgument: "Tuesday, December 2, 1980"
     dateDecision: "Monday, April 20, 1981"
     urlOyez: "https://www.oyez.org/cases/1980/79-1056"
-    citation: "451 U.S. 77"
     voteMajority: 8
     voteMinority: 0
     authorId: jpstevens
@@ -2807,11 +2873,12 @@ cases:
     title: "McDaniel v. Sanchez"
     volume: "452"
     page: "130"
+    docket: "80-180"
+    citation: "452 U.S. 130"
     pdfSource: "loc"
     dateArgument: "Monday, March 2, 1981"
     dateDecision: "Monday, June 1, 1981"
     urlOyez: "https://www.oyez.org/cases/1980/80-180"
-    citation: "452 U.S. 130"
     voteMajority: 7
     voteMinority: 2
     authorId: jpstevens
@@ -2850,11 +2917,12 @@ cases:
     title: "Gulf Oil Co. v. Bernard"
     volume: "452"
     page: "089"
+    docket: "80-441"
+    citation: "452 U.S. 89"
     pdfSource: "loc"
     dateArgument: "Monday, March 30, 1981"
     dateDecision: "Monday, June 1, 1981"
     urlOyez: "https://www.oyez.org/cases/1980/80-441"
-    citation: "452 U.S. 89"
     voteMajority: 9
     voteMinority: 0
     authorId: lfpowell
@@ -2893,11 +2961,12 @@ cases:
     title: "NLRB v. Hendricks County Rural Elec. Membership Corp."
     volume: "454"
     page: "170"
+    docket: "80-885"
+    citation: "454 U.S. 170"
     pdfSource: "loc"
     dateArgument: "Monday, October 5, 1981"
     dateDecision: "Wednesday, December 2, 1981"
     urlOyez: "https://www.oyez.org/cases/1981/80-885"
-    citation: "454 U.S. 170"
     voteMajority: 5
     voteMinority: 4
     authorId: wjbrennan
@@ -2936,11 +3005,12 @@ cases:
     title: "United States v. Lee"
     volume: "455"
     page: "252"
+    docket: "80-767"
+    citation: "455 U.S. 252"
     pdfSource: "loc"
     dateArgument: "Monday, November 2, 1981"
     dateDecision: "Tuesday, February 23, 1982"
     urlOyez: "https://www.oyez.org/cases/1981/80-767"
-    citation: "455 U.S. 252"
     voteMajority: 9
     voteMinority: 0
     authorId: weburger
@@ -2979,11 +3049,12 @@ cases:
     title: "Kremer v. Chemical Constr. Corp."
     volume: "456"
     page: "461"
+    docket: "80-6045"
+    citation: "456 U.S. 461"
     pdfSource: "loc"
     dateArgument: "Monday, December 7, 1981"
     dateDecision: "Monday, May 17, 1982"
     urlOyez: "https://www.oyez.org/cases/1981/80-6045"
-    citation: "456 U.S. 461"
     voteMajority: 5
     voteMinority: 4
     authorId: brwhite
@@ -3022,11 +3093,12 @@ cases:
     title: "Longshoremen v. Allied Int&apos;l, Inc."
     volume: "456"
     page: "212"
+    docket: "80-1663"
+    citation: "456 U.S. 212"
     pdfSource: "loc"
     dateArgument: "Monday, January 18, 1982"
     dateDecision: "Tuesday, April 20, 1982"
     urlOyez: "https://www.oyez.org/cases/1981/80-1663"
-    citation: "456 U.S. 212"
     voteMajority: 9
     voteMinority: 0
     authorId: lfpowell
@@ -3065,11 +3137,12 @@ cases:
     title: "Sumitomo Shoji America, Inc. v. Avagliano"
     volume: "457"
     page: "176"
+    docket: "80-2070"
+    citation: "457 U.S. 176"
     pdfSource: "loc"
     dateArgument: "Monday, April 26, 1982"
     dateDecision: "Tuesday, June 15, 1982"
     urlOyez: "https://www.oyez.org/cases/1981/80-2070"
-    citation: "457 U.S. 176"
     voteMajority: 9
     voteMinority: 0
     authorId: weburger
@@ -3108,11 +3181,12 @@ cases:
     title: "Postal Service Bd. of Governors v. Aikens"
     volume: "460"
     page: "711"
+    docket: "81-1044"
+    citation: "460 U.S. 711"
     pdfSource: "loc"
     dateArgument: "Tuesday, November 9, 1982"
     dateDecision: "Monday, April 4, 1983"
     urlOyez: "https://www.oyez.org/cases/1982/81-1044"
-    citation: "460 U.S. 711"
     voteMajority: 9
     voteMinority: 0
     authorId: whrehnquist
@@ -3151,11 +3225,12 @@ cases:
     title: "United States v. Rylander"
     volume: "460"
     page: "752"
+    docket: "81-1120"
+    citation: "460 U.S. 752"
     pdfSource: "loc"
     dateArgument: "Tuesday, January 18, 1983"
     dateDecision: "Tuesday, April 19, 1983"
     urlOyez: "https://www.oyez.org/cases/1982/81-1120"
-    citation: "460 U.S. 752"
     voteMajority: 8
     voteMinority: 1
     authorId: whrehnquist
@@ -3194,11 +3269,12 @@ cases:
     title: "United States v. Baggot"
     volume: "463"
     page: "476"
+    docket: "81-1938"
+    citation: "463 U.S. 476"
     pdfSource: "loc"
     dateArgument: "Wednesday, March 2, 1983"
     dateDecision: "Thursday, June 30, 1983"
     urlOyez: "https://www.oyez.org/cases/1982/81-1938"
-    citation: "463 U.S. 476"
     voteMajority: 8
     voteMinority: 1
     authorId: wjbrennan
@@ -3237,11 +3313,12 @@ cases:
     title: "NLRB v. Transportation Management Corp."
     volume: "462"
     page: "393"
+    docket: "82-168"
+    citation: "462 U.S. 393"
     pdfSource: "loc"
     dateArgument: "Monday, March 28, 1983"
     dateDecision: "Monday, June 13, 1983"
     urlOyez: "https://www.oyez.org/cases/1982/82-168"
-    citation: "462 U.S. 393"
     voteMajority: 9
     voteMinority: 0
     authorId: brwhite
@@ -3280,11 +3357,12 @@ cases:
     title: "United States v. Ptasynski"
     volume: "462"
     page: "074"
+    docket: "82-1066"
+    citation: "462 U.S. 74"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 27, 1983"
     dateDecision: "Monday, June 6, 1983"
     urlOyez: "https://www.oyez.org/cases/1982/82-1066"
-    citation: "462 U.S. 74"
     voteMajority: 9
     voteMinority: 0
     authorId: lfpowell
@@ -3323,11 +3401,12 @@ cases:
     title: "NLRB v. Bildisco &amp; Bildisco"
     volume: "465"
     page: "513"
+    docket: "82-818"
+    citation: "465 U.S. 513"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 11, 1983"
     dateDecision: "Wednesday, February 22, 1984"
     urlOyez: "https://www.oyez.org/cases/1983/82-818"
-    citation: "465 U.S. 513"
     voteMajority: 5
     voteMinority: 4
     authorId: whrehnquist
@@ -3366,11 +3445,12 @@ cases:
     title: "Dickman v. Commissioner"
     volume: "465"
     page: "330"
+    docket: "82-1041"
+    citation: "465 U.S. 330"
     pdfSource: "loc"
     dateArgument: "Tuesday, November 1, 1983"
     dateDecision: "Tuesday, February 21, 1984"
     urlOyez: "https://www.oyez.org/cases/1983/82-1041"
-    citation: "465 U.S. 330"
     voteMajority: 7
     voteMinority: 2
     authorId: weburger
@@ -3409,11 +3489,12 @@ cases:
     title: "Copperweld Corp. v. Independence Tube Corp."
     volume: "467"
     page: "752"
+    docket: "82-1260"
+    citation: "467 U.S. 752"
     pdfSource: "loc"
     dateArgument: "Monday, December 5, 1983"
     dateDecision: "Tuesday, June 19, 1984"
     urlOyez: "https://www.oyez.org/cases/1983/82-1260"
-    citation: "467 U.S. 752"
     voteMajority: 5
     voteMinority: 3
     authorId: weburger
@@ -3452,11 +3533,12 @@ cases:
     title: "Hoover v. Ronwin"
     volume: "466"
     page: "558"
+    docket: "82-1474"
+    citation: "466 U.S. 558"
     pdfSource: "loc"
     dateArgument: "Monday, January 16, 1984"
     dateDecision: "Monday, May 14, 1984"
     urlOyez: "https://www.oyez.org/cases/1983/82-1474"
-    citation: "466 U.S. 558"
     voteMajority: 4
     voteMinority: 3
     authorId: lfpowell
@@ -3495,11 +3577,12 @@ cases:
     title: "Ruckelshaus v. Monsanto Co."
     volume: "467"
     page: "986"
+    docket: "83-196"
+    citation: "467 U.S. 986"
     pdfSource: "loc"
     dateArgument: "Monday, February 27, 1984"
     dateDecision: "Tuesday, June 26, 1984"
     urlOyez: "https://www.oyez.org/cases/1983/83-196"
-    citation: "467 U.S. 986"
     voteMajority: 7
     voteMinority: 1
     authorId: hablackmun
@@ -3538,11 +3621,12 @@ cases:
     title: "Trans World Airlines, Inc. v. Thurston"
     volume: "469"
     page: "111"
+    docket: "83-997"
+    citation: "469 U.S. 111"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 9, 1984"
     dateDecision: "Tuesday, January 8, 1985"
     urlOyez: "https://www.oyez.org/cases/1984/83-997"
-    citation: "469 U.S. 111"
     voteMajority: 9
     voteMinority: 0
     authorId: lfpowell
@@ -3581,11 +3665,12 @@ cases:
     title: "Tiffany Fine Arts, Inc. v. United States"
     volume: "469"
     page: "310"
+    docket: "83-1007"
+    citation: "469 U.S. 310"
     pdfSource: "loc"
     dateArgument: "Wednesday, October 31, 1984"
     dateDecision: "Wednesday, January 9, 1985"
     urlOyez: "https://www.oyez.org/cases/1984/83-1007"
-    citation: "469 U.S. 310"
     voteMajority: 9
     voteMinority: 0
     authorId: tmarshall
@@ -3624,11 +3709,12 @@ cases:
     title: "Southern Motor Carriers Rate Conference, Inc. v. United States"
     volume: "471"
     page: "048"
+    docket: "82-1922"
+    citation: "471 U.S. 48"
     pdfSource: "loc"
     dateArgument: "Monday, November 26, 1984"
     dateDecision: "Wednesday, March 27, 1985"
     urlOyez: "https://www.oyez.org/cases/1984/82-1922"
-    citation: "471 U.S. 48"
     voteMajority: 7
     voteMinority: 2
     authorId: lfpowell
@@ -3667,11 +3753,12 @@ cases:
     title: "Western Air Lines, Inc. v. Criswell"
     volume: "472"
     page: "400"
+    docket: "83-1545"
+    citation: "472 U.S. 400"
     pdfSource: "loc"
     dateArgument: "Monday, January 14, 1985"
     dateDecision: "Monday, June 17, 1985"
     urlOyez: "https://www.oyez.org/cases/1984/83-1545"
-    citation: "472 U.S. 400"
     voteMajority: 8
     voteMinority: 0
     authorId: jpstevens
@@ -3710,11 +3797,12 @@ cases:
     title: "Thomas v. Union Carbide Agricultural Products Co."
     volume: "473"
     page: "568"
+    docket: "84-497"
+    citation: "473 U.S. 568"
     pdfSource: "loc"
     dateArgument: "Tuesday, March 26, 1985"
     dateDecision: "Monday, July 1, 1985"
     urlOyez: "https://www.oyez.org/cases/1984/84-497"
-    citation: "473 U.S. 568"
     voteMajority: 9
     voteMinority: 0
     authorId: sdoconnor
@@ -3753,11 +3841,12 @@ cases:
     title: "Evans v. Jeff D."
     volume: "475"
     page: "717"
+    docket: "84-1288"
+    citation: "475 U.S. 717"
     pdfSource: "loc"
     dateArgument: "Wednesday, November 13, 1985"
     dateDecision: "Monday, April 21, 1986"
     urlOyez: "https://www.oyez.org/cases/1985/84-1288"
-    citation: "475 U.S. 717"
     voteMajority: 6
     voteMinority: 3
     authorId: jpstevens
@@ -3796,11 +3885,12 @@ cases:
     title: "Batson v. Kentucky"
     volume: "476"
     page: "079"
+    docket: "84-6263"
+    citation: "476 U.S. 79"
     pdfSource: "loc"
     dateArgument: "Thursday, December 12, 1985"
     dateDecision: "Wednesday, April 30, 1986"
     urlOyez: "https://www.oyez.org/cases/1985/84-6263"
-    citation: "476 U.S. 79"
     voteMajority: 7
     voteMinority: 2
     authorId: lfpowell
@@ -3839,11 +3929,12 @@ cases:
     title: "Square D Co. v. Niagara Frontier Tariff Bureau, Inc."
     volume: "476"
     page: "409"
+    docket: "85-21"
+    citation: "476 U.S. 409"
     pdfSource: "loc"
     dateArgument: "Monday, March 3, 1986"
     dateDecision: "Tuesday, May 27, 1986"
     urlOyez: "https://www.oyez.org/cases/1985/85-21"
-    citation: "476 U.S. 409"
     voteMajority: 8
     voteMinority: 1
     authorId: jpstevens
@@ -3882,11 +3973,12 @@ cases:
     title: "Randall v. Loftsgaarden"
     volume: "478"
     page: "647"
+    docket: "85-519"
+    citation: "478 U.S. 647"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 2, 1986"
     dateDecision: "Wednesday, July 2, 1986"
     urlOyez: "https://www.oyez.org/cases/1985/85-519"
-    citation: "478 U.S. 647"
     voteMajority: 8
     voteMinority: 1
     authorId: sdoconnor
@@ -3925,11 +4017,12 @@ cases:
     title: "Commodity Futures Trading Comm&apos;n v. Schor"
     volume: "478"
     page: "833"
+    docket: "85-621"
+    citation: "478 U.S. 833"
     pdfSource: "loc"
     dateArgument: "Tuesday, April 29, 1986"
     dateDecision: "Monday, July 7, 1986"
     urlOyez: "https://www.oyez.org/cases/1985/85-621"
-    citation: "478 U.S. 833"
     voteMajority: 7
     voteMinority: 2
     authorId: sdoconnor
@@ -3968,11 +4061,12 @@ cases:
     title: "INS v. Cardoza-Fonseca"
     volume: "480"
     page: "421"
+    docket: "85-782"
+    citation: "480 U.S. 421"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 7, 1986"
     dateDecision: "Monday, March 9, 1987"
     urlOyez: "https://www.oyez.org/cases/1986/85-782"
-    citation: "480 U.S. 421"
     voteMajority: 6
     voteMinority: 3
     authorId: jpstevens
@@ -4011,11 +4105,12 @@ cases:
     title: "International Paper Co. v. Ouellette"
     volume: "479"
     page: "481"
+    docket: "85-1233"
+    citation: "479 U.S. 481"
     pdfSource: "loc"
     dateArgument: "Tuesday, November 4, 1986"
     dateDecision: "Wednesday, January 21, 1987"
     urlOyez: "https://www.oyez.org/cases/1986/85-1233"
-    citation: "479 U.S. 481"
     voteMajority: 5
     voteMinority: 4
     authorId: lfpowell
@@ -4054,11 +4149,12 @@ cases:
     title: "FCC v. Florida Power Corp."
     volume: "480"
     page: "245"
+    docket: "85-1658"
+    citation: "480 U.S. 245"
     pdfSource: "loc"
     dateArgument: "Wednesday, December 3, 1986"
     dateDecision: "Wednesday, February 25, 1987"
     urlOyez: "https://www.oyez.org/cases/1986/85-1658"
-    citation: "480 U.S. 245"
     voteMajority: 9
     voteMinority: 0
     authorId: tmarshall
@@ -4097,11 +4193,12 @@ cases:
     title: "Tull v. United States"
     volume: "481"
     page: "412"
+    docket: "85-1259"
+    citation: "481 U.S. 412"
     pdfSource: "loc"
     dateArgument: "Wednesday, January 21, 1987"
     dateDecision: "Tuesday, April 28, 1987"
     urlOyez: "https://www.oyez.org/cases/1986/85-1259"
-    citation: "481 U.S. 412"
     voteMajority: 9
     voteMinority: 0
     authorId: wjbrennan
@@ -4140,11 +4237,12 @@ cases:
     title: "Hewitt v. Helms"
     volume: "482"
     page: "755"
+    docket: "85-1630"
+    citation: "482 U.S. 755"
     pdfSource: "loc"
     dateArgument: "Wednesday, March 4, 1987"
     dateDecision: "Friday, June 19, 1987"
     urlOyez: "https://www.oyez.org/cases/1986/85-1630"
-    citation: "482 U.S. 755"
     voteMajority: 5
     voteMinority: 4
     authorId: ascalia
@@ -4183,11 +4281,12 @@ cases:
     title: "Reagan v. Abourezk"
     volume: "484"
     page: "001"
+    docket: "86-656"
+    citation: "484 U.S. 1"
     pdfSource: "loc"
     dateArgument: "Monday, October 5, 1987"
     dateDecision: "Monday, October 19, 1987"
     urlOyez: "https://www.oyez.org/cases/1987/86-656"
-    citation: "484 U.S. 1"
     voteMajority: 3
     voteMinority: 3
     votes:
@@ -4221,11 +4320,12 @@ cases:
     title: "Laborers Health and Welfare Trust Fund for Northern Cal. v. Advanced Lightweight Concrete Co."
     volume: "484"
     page: "539"
+    docket: "85-2079"
+    citation: "484 U.S. 539"
     pdfSource: "loc"
     dateArgument: "Tuesday, November 10, 1987"
     dateDecision: "Tuesday, February 23, 1988"
     urlOyez: "https://www.oyez.org/cases/1987/85-2079"
-    citation: "484 U.S. 539"
     voteMajority: 8
     voteMinority: 0
     authorId: jpstevens
@@ -4264,11 +4364,12 @@ cases:
     title: "United States v. Wells Fargo Bank"
     volume: "485"
     page: "351"
+    docket: "86-1521"
+    citation: "485 U.S. 351"
     pdfSource: "loc"
     dateArgument: "Tuesday, December 8, 1987"
     dateDecision: "Wednesday, March 23, 1988"
     urlOyez: "https://www.oyez.org/cases/1987/86-1521"
-    citation: "485 U.S. 351"
     voteMajority: 8
     voteMinority: 0
     authorId: wjbrennan
@@ -4307,11 +4408,12 @@ cases:
     title: "City of New York v. FCC"
     volume: "486"
     page: "057"
+    docket: "87-339"
+    citation: "486 U.S. 57"
     pdfSource: "loc"
     dateArgument: "Tuesday, March 29, 1988"
     dateDecision: "Monday, May 16, 1988"
     urlOyez: "https://www.oyez.org/cases/1987/87-339"
-    citation: "486 U.S. 57"
     voteMajority: 9
     voteMinority: 0
     authorId: brwhite
@@ -4350,11 +4452,12 @@ cases:
     title: "Shell Oil Co. v. Iowa Dept. of Revenue"
     volume: "488"
     page: "019"
+    docket: "87-984"
+    citation: "488 U.S. 19"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 4, 1988"
     dateDecision: "Tuesday, November 8, 1988"
     urlOyez: "https://www.oyez.org/cases/1988/87-984"
-    citation: "488 U.S. 19"
     voteMajority: 9
     voteMinority: 0
     authorId: tmarshall
@@ -4393,11 +4496,12 @@ cases:
     title: "United States v. Ron Pair Enterprises, Inc."
     volume: "489"
     page: "235"
+    docket: "87-1043"
+    citation: "489 U.S. 235"
     pdfSource: "loc"
     dateArgument: "Monday, October 31, 1988"
     dateDecision: "Wednesday, February 22, 1989"
     urlOyez: "https://www.oyez.org/cases/1988/87-1043"
-    citation: "489 U.S. 235"
     voteMajority: 5
     voteMinority: 4
     authorId: hablackmun
@@ -4436,11 +4540,12 @@ cases:
     title: "United States v. Stuart"
     volume: "489"
     page: "353"
+    docket: "87-1064"
+    citation: "489 U.S. 353"
     pdfSource: "loc"
     dateArgument: "Monday, December 5, 1988"
     dateDecision: "Tuesday, February 28, 1989"
     urlOyez: "https://www.oyez.org/cases/1988/87-1064"
-    citation: "489 U.S. 353"
     voteMajority: 9
     voteMinority: 0
     authorId: wjbrennan
@@ -4479,11 +4584,12 @@ cases:
     title: "Department of Justice v. Tax Analysts"
     volume: "492"
     page: "136"
+    docket: "88-782"
+    citation: "492 U.S. 136"
     pdfSource: "loc"
     dateArgument: "Monday, April 24, 1989"
     dateDecision: "Friday, June 23, 1989"
     urlOyez: "https://www.oyez.org/cases/1988/88-782"
-    citation: "492 U.S. 136"
     voteMajority: 8
     voteMinority: 1
     authorId: tmarshall
@@ -4522,11 +4628,12 @@ cases:
     title: "United States v. Sperry Corp."
     volume: "493"
     page: "052"
+    docket: "88-952"
+    citation: "493 U.S. 52"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 10, 1989"
     dateDecision: "Tuesday, November 28, 1989"
     urlOyez: "https://www.oyez.org/cases/1989/88-952"
-    citation: "493 U.S. 52"
     voteMajority: 9
     voteMinority: 0
     authorId: brwhite
@@ -4565,11 +4672,12 @@ cases:
     title: "Commissioner v. Indianapolis Power &amp; Light Co."
     volume: "493"
     page: "203"
+    docket: "88-1319"
+    citation: "493 U.S. 203"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 31, 1989"
     dateDecision: "Tuesday, January 9, 1990"
     urlOyez: "https://www.oyez.org/cases/1989/88-1319"
-    citation: "493 U.S. 203"
     voteMajority: 9
     voteMinority: 0
     authorId: hablackmun
@@ -4608,11 +4716,12 @@ cases:
     title: "Duro v. Reina"
     volume: "495"
     page: "676"
+    docket: "88-6546"
+    citation: "495 U.S. 676"
     pdfSource: "loc"
     dateArgument: "Wednesday, November 29, 1989"
     dateDecision: "Tuesday, May 29, 1990"
     urlOyez: "https://www.oyez.org/cases/1989/88-6546"
-    citation: "495 U.S. 676"
     voteMajority: 7
     voteMinority: 2
     authorId: amkennedy
@@ -4651,11 +4760,12 @@ cases:
     title: "General Motors Corp. v. United States"
     volume: "496"
     page: "530"
+    docket: "89-369"
+    citation: "496 U.S. 530"
     pdfSource: "loc"
     dateArgument: "Wednesday, March 21, 1990"
     dateDecision: "Thursday, June 14, 1990"
     urlOyez: "https://www.oyez.org/cases/1989/89-369"
-    citation: "496 U.S. 530"
     voteMajority: 9
     voteMinority: 0
     authorId: hablackmun
@@ -4694,11 +4804,12 @@ cases:
     title: "Arcadia v. Ohio Power Co."
     volume: "498"
     page: "073"
+    docket: "89-1283"
+    citation: "498 U.S. 73"
     pdfSource: "loc"
     dateArgument: "Monday, October 1, 1990"
     dateDecision: "Tuesday, November 27, 1990"
     urlOyez: "https://www.oyez.org/cases/1990/89-1283"
-    citation: "498 U.S. 73"
     voteMajority: 8
     voteMinority: 0
     authorId: ascalia
@@ -4737,11 +4848,12 @@ cases:
     title: "Summit Health, Ltd. v. Pinhas"
     volume: "500"
     page: "322"
+    docket: "89-1679"
+    citation: "500 U.S. 322"
     pdfSource: "loc"
     dateArgument: "Monday, November 26, 1990"
     dateDecision: "Tuesday, May 28, 1991"
     urlOyez: "https://www.oyez.org/cases/1990/89-1679"
-    citation: "500 U.S. 322"
     voteMajority: 5
     voteMinority: 4
     authorId: jpstevens
@@ -4780,11 +4892,12 @@ cases:
     title: "Litton Financial Printing Div., Litton Business Systems, Inc. v. NLRB"
     volume: "501"
     page: "190"
+    docket: "90-285"
+    citation: "501 U.S. 190"
     pdfSource: "loc"
     dateArgument: "Wednesday, March 20, 1991"
     dateDecision: "Thursday, June 13, 1991"
     urlOyez: "https://www.oyez.org/cases/1990/90-285"
-    citation: "501 U.S. 190"
     voteMajority: 5
     voteMinority: 4
     authorId: amkennedy
@@ -4823,11 +4936,12 @@ cases:
     title: "Wisconsin Public Intervenor v. Mortier"
     volume: "501"
     page: "597"
+    docket: "89-1905"
+    citation: "501 U.S. 597"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 24, 1991"
     dateDecision: "Friday, June 21, 1991"
     urlOyez: "https://www.oyez.org/cases/1990/89-1905"
-    citation: "501 U.S. 597"
     voteMajority: 9
     voteMinority: 0
     authorId: brwhite
@@ -4866,11 +4980,12 @@ cases:
     title: "Ardestani v. INS"
     volume: "502"
     page: "129"
+    docket: "90-1141"
+    citation: "502 U.S. 129"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 8, 1991"
     dateDecision: "Tuesday, December 10, 1991"
     urlOyez: "https://www.oyez.org/cases/1991/90-1141"
-    citation: "502 U.S. 129"
     voteMajority: 6
     voteMinority: 2
     authorId: sdoconnor
@@ -4909,11 +5024,12 @@ cases:
     title: "Arkansas v. Oklahoma"
     volume: "503"
     page: "091"
+    docket: "90-1262"
+    citation: "503 U.S. 91"
     pdfSource: "loc"
     dateArgument: "Wednesday, December 11, 1991"
     dateDecision: "Wednesday, February 26, 1992"
     urlOyez: "https://www.oyez.org/cases/1991/90-1262"
-    citation: "503 U.S. 91"
     voteMajority: 9
     voteMinority: 0
     authorId: jpstevens
@@ -4952,11 +5068,12 @@ cases:
     title: "FTC v. Ticor Title Ins. Co."
     volume: "504"
     page: "621"
+    docket: "91-72"
+    citation: "504 U.S. 621"
     pdfSource: "loc"
     dateArgument: "Monday, January 13, 1992"
     dateDecision: "Friday, June 12, 1992"
     urlOyez: "https://www.oyez.org/cases/1991/91-72"
-    citation: "504 U.S. 621"
     voteMajority: 6
     voteMinority: 3
     authorId: amkennedy
@@ -4995,11 +5112,12 @@ cases:
     title: "New York v. United States"
     volume: "505"
     page: "144"
+    docket: "91-543"
+    citation: "505 U.S. 144"
     pdfSource: "loc"
     dateArgument: "Monday, March 30, 1992"
     dateDecision: "Friday, June 19, 1992"
     urlOyez: "https://www.oyez.org/cases/1991/91-543"
-    citation: "505 U.S. 144"
     voteMajority: 6
     voteMinority: 3
     authorId: sdoconnor
@@ -5038,11 +5156,12 @@ cases:
     title: "Church of Scientology of Cal. v. United States"
     volume: "506"
     page: "009"
+    docket: "91-946"
+    citation: "506 U.S. 9"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 6, 1992"
     dateDecision: "Monday, November 16, 1992"
     urlOyez: "https://www.oyez.org/cases/1992/91-946"
-    citation: "506 U.S. 9"
     voteMajority: 9
     voteMinority: 0
     authorId: jpstevens
@@ -5081,11 +5200,12 @@ cases:
     title: "Newark Morning Ledger Co. v. United States"
     volume: "507"
     page: "546"
+    docket: "91-1135"
+    citation: "507 U.S. 546"
     pdfSource: "loc"
     dateArgument: "Tuesday, November 10, 1992"
     dateDecision: "Tuesday, April 20, 1993"
     urlOyez: "https://www.oyez.org/cases/1992/91-1135"
-    citation: "507 U.S. 546"
     voteMajority: 5
     voteMinority: 4
     authorId: hablackmun
@@ -5124,11 +5244,12 @@ cases:
     title: "Hartford Fire Ins. Co. v. California"
     volume: "509"
     page: "764"
+    docket: "91-1111"
+    citation: "509 U.S. 764"
     pdfSource: "loc"
     dateArgument: "Tuesday, February 23, 1993"
     dateDecision: "Monday, June 28, 1993"
     urlOyez: "https://www.oyez.org/cases/1992/91-1111"
-    citation: "509 U.S. 764"
     voteMajority: 5
     voteMinority: 4
     authorId: ascalia
@@ -5167,11 +5288,12 @@ cases:
     title: "Keene Corp. v. United States"
     volume: "508"
     page: "200"
+    docket: "92-166"
+    citation: "508 U.S. 200"
     pdfSource: "loc"
     dateArgument: "Tuesday, March 23, 1993"
     dateDecision: "Monday, May 24, 1993"
     urlOyez: "https://www.oyez.org/cases/1992/92-166"
-    citation: "508 U.S. 200"
     voteMajority: 8
     voteMinority: 1
     authorId: dhsouter
@@ -5210,11 +5332,12 @@ cases:
     title: "Thunder Basin Coal Co. v. Reich"
     volume: "510"
     page: "200"
+    docket: "92-896"
+    citation: "510 U.S. 200"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 5, 1993"
     dateDecision: "Wednesday, January 19, 1994"
     urlOyez: "https://www.oyez.org/cases/1993/92-896"
-    citation: "510 U.S. 200"
     voteMajority: 9
     voteMinority: 0
     authorId: hablackmun
@@ -5253,11 +5376,12 @@ cases:
     title: "ABF Freight System, Inc. v. NLRB"
     volume: "510"
     page: "317"
+    docket: "92-1550"
+    citation: "510 U.S. 317"
     pdfSource: "loc"
     dateArgument: "Wednesday, December 1, 1993"
     dateDecision: "Monday, January 24, 1994"
     urlOyez: "https://www.oyez.org/cases/1993/92-1550"
-    citation: "510 U.S. 317"
     voteMajority: 9
     voteMinority: 0
     authorId: jpstevens
@@ -5296,11 +5420,12 @@ cases:
     title: "PUD No. 1 of Jefferson Cty. v. Washington Dept. of Ecology"
     volume: "511"
     page: "700"
+    docket: "92-1911"
+    citation: "511 U.S. 700"
     pdfSource: "loc"
     dateArgument: "Wednesday, February 23, 1994"
     dateDecision: "Tuesday, May 31, 1994"
     urlOyez: "https://www.oyez.org/cases/1993/92-1911"
-    citation: "511 U.S. 700"
     voteMajority: 7
     voteMinority: 2
     authorId: sdoconnor
@@ -5339,11 +5464,12 @@ cases:
     title: "Key Tronic Corp. v. United States"
     volume: "511"
     page: "809"
+    docket: "93-376"
+    citation: "511 U.S. 809"
     pdfSource: "loc"
     dateArgument: "Tuesday, March 29, 1994"
     dateDecision: "Monday, June 6, 1994"
     urlOyez: "https://www.oyez.org/cases/1993/93-376"
-    citation: "511 U.S. 809"
     voteMajority: 6
     voteMinority: 3
     authorId: jpstevens
@@ -5382,11 +5508,12 @@ cases:
     title: "Tome v. United States"
     volume: "513"
     page: "150"
+    docket: "93-6892"
+    citation: "513 U.S. 150"
     pdfSource: "loc"
     dateArgument: "Wednesday, October 5, 1994"
     dateDecision: "Tuesday, January 10, 1995"
     urlOyez: "https://www.oyez.org/cases/1994/93-6892"
-    citation: "513 U.S. 150"
     voteMajority: 5
     voteMinority: 4
     authorId: amkennedy
@@ -5425,11 +5552,12 @@ cases:
     title: "ICC v. Transcon Lines"
     volume: "513"
     page: "138"
+    docket: "93-1318"
+    citation: "513 U.S. 138"
     pdfSource: "loc"
     dateArgument: "Tuesday, November 1, 1994"
     dateDecision: "Tuesday, January 10, 1995"
     urlOyez: "https://www.oyez.org/cases/1994/93-1318"
-    citation: "513 U.S. 138"
     voteMajority: 9
     voteMinority: 0
     authorId: amkennedy
@@ -5468,11 +5596,12 @@ cases:
     title: "Qualitex Co. v. Jacobson Products Co."
     volume: "514"
     page: "159"
+    docket: "93-1577"
+    citation: "514 U.S. 159"
     pdfSource: "loc"
     dateArgument: "Monday, January 9, 1995"
     dateDecision: "Tuesday, March 28, 1995"
     urlOyez: "https://www.oyez.org/cases/1994/93-1577"
-    citation: "514 U.S. 159"
     voteMajority: 9
     voteMinority: 0
     authorId: sgbreyer
@@ -5511,11 +5640,12 @@ cases:
     title: "Ryder v. United States"
     volume: "515"
     page: "177"
+    docket: "94-431"
+    citation: "515 U.S. 177"
     pdfSource: "loc"
     dateArgument: "Tuesday, April 18, 1995"
     dateDecision: "Monday, June 12, 1995"
     urlOyez: "https://www.oyez.org/cases/1994/94-431"
-    citation: "515 U.S. 177"
     voteMajority: 9
     voteMinority: 0
     authorId: whrehnquist
@@ -5554,11 +5684,12 @@ cases:
     title: "NLRB v. Town &amp; Country Elec., Inc."
     volume: "516"
     page: "085"
+    docket: "94-947"
+    citation: "516 U.S. 85"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 10, 1995"
     dateDecision: "Tuesday, November 28, 1995"
     urlOyez: "https://www.oyez.org/cases/1995/94-947"
-    citation: "516 U.S. 85"
     voteMajority: 9
     voteMinority: 0
     authorId: sgbreyer
@@ -5597,11 +5728,12 @@ cases:
     title: "United States v. Chesapeake &amp; Potomac Telephone Co. of Va."
     volume: "516"
     page: "415"
+    docket: "94-1893"
+    citation: "516 U.S. 415"
     pdfSource: "loc"
     dateArgument: "Wednesday, December 6, 1995"
     dateDecision: "Wednesday, March 27, 1996"
     urlOyez: "https://www.oyez.org/cases/1995/94-1893"
-    citation: "516 U.S. 415"
     voteMajority: 9
     voteMinority: 0
     votes:
@@ -5638,11 +5770,12 @@ cases:
     title: "Denver Area Ed. Telecommunications Consortium, Inc. v. FCC"
     volume: "518"
     page: "727"
+    docket: "95-124"
+    citation: "518 U.S. 727"
     pdfSource: "loc"
     dateArgument: "Wednesday, February 21, 1996"
     dateDecision: "Friday, June 28, 1996"
     urlOyez: "https://www.oyez.org/cases/1995/95-124"
-    citation: "518 U.S. 727"
     voteMajority: 7
     voteMinority: 2
     authorId: sgbreyer
@@ -5681,11 +5814,12 @@ cases:
     title: "Brown v. Pro Football, Inc."
     volume: "518"
     page: "231"
+    docket: "95-388"
+    citation: "518 U.S. 231"
     pdfSource: "loc"
     dateArgument: "Wednesday, March 27, 1996"
     dateDecision: "Thursday, June 20, 1996"
     urlOyez: "https://www.oyez.org/cases/1995/95-388"
-    citation: "518 U.S. 231"
     voteMajority: 8
     voteMinority: 1
     authorId: sgbreyer
@@ -5724,11 +5858,12 @@ cases:
     title: "Warner-Jenkinson Co. v. Hilton Davis Chemical Co."
     volume: "520"
     page: "017"
+    docket: "95-728"
+    citation: "520 U.S. 17"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 15, 1996"
     dateDecision: "Monday, March 3, 1997"
     urlOyez: "https://www.oyez.org/cases/1996/95-728"
-    citation: "520 U.S. 17"
     voteMajority: 9
     voteMinority: 0
     authorId: cthomas
@@ -5767,11 +5902,12 @@ cases:
     title: "United States v. Brockamp"
     volume: "519"
     page: "347"
+    docket: "95-1225"
+    citation: "519 U.S. 347"
     pdfSource: "loc"
     dateArgument: "Tuesday, December 3, 1996"
     dateDecision: "Tuesday, February 18, 1997"
     urlOyez: "https://www.oyez.org/cases/1996/95-1225"
-    citation: "519 U.S. 347"
     voteMajority: 9
     voteMinority: 0
     authorId: sgbreyer
@@ -5810,11 +5946,12 @@ cases:
     title: "Suitum v. Tahoe Regional Planning Agency"
     volume: "520"
     page: "725"
+    docket: "96-243"
+    citation: "520 U.S. 725"
     pdfSource: "loc"
     dateArgument: "Wednesday, February 26, 1997"
     dateDecision: "Tuesday, May 27, 1997"
     urlOyez: "https://www.oyez.org/cases/1996/96-243"
-    citation: "520 U.S. 725"
     voteMajority: 9
     voteMinority: 0
     authorId: dhsouter
@@ -5853,11 +5990,12 @@ cases:
     title: "Arkansas v. Farm Credit Servs. of Central Ark."
     volume: "520"
     page: "821"
+    docket: "95-1918"
+    citation: "520 U.S. 821"
     pdfSource: "loc"
     dateArgument: "Monday, April 21, 1997"
     dateDecision: "Monday, June 2, 1997"
     urlOyez: "https://www.oyez.org/cases/1996/95-1918"
-    citation: "520 U.S. 821"
     voteMajority: 9
     voteMinority: 0
     authorId: amkennedy
@@ -5896,11 +6034,12 @@ cases:
     title: "Arkansas Ed. Television Comm&apos;n v. Forbes"
     volume: "523"
     page: "666"
+    docket: "96-779"
+    citation: "523 U.S. 666"
     pdfSource: "loc"
     dateArgument: "Wednesday, October 8, 1997"
     dateDecision: "Monday, May 18, 1998"
     urlOyez: "https://www.oyez.org/cases/1997/96-779"
-    citation: "523 U.S. 666"
     voteMajority: 6
     voteMinority: 3
     authorId: amkennedy
@@ -5939,11 +6078,12 @@ cases:
     title: "General Electric Co. v. Joiner"
     volume: "522"
     page: "136"
+    docket: "96-188"
+    citation: "522 U.S. 136"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 14, 1997"
     dateDecision: "Monday, December 15, 1997"
     urlOyez: "https://www.oyez.org/cases/1997/96-188"
-    citation: "522 U.S. 136"
     voteMajority: 9
     voteMinority: 0
     authorId: whrehnquist
@@ -5982,11 +6122,12 @@ cases:
     title: "Quality King Distributors, Inc. v. L&apos;anza Research Int&apos;l, Inc."
     volume: "523"
     page: "135"
+    docket: "96-1470"
+    citation: "523 U.S. 135"
     pdfSource: "loc"
     dateArgument: "Monday, December 8, 1997"
     dateDecision: "Monday, March 9, 1998"
     urlOyez: "https://www.oyez.org/cases/1997/96-1470"
-    citation: "523 U.S. 135"
     voteMajority: 9
     voteMinority: 0
     authorId: jpstevens
@@ -6025,11 +6166,12 @@ cases:
     title: "United States v. United States Shoe Corp."
     volume: "523"
     page: "360"
+    docket: "97-372"
+    citation: "523 U.S. 360"
     pdfSource: "loc"
     dateArgument: "Wednesday, March 4, 1998"
     dateDecision: "Tuesday, March 31, 1998"
     urlOyez: "https://www.oyez.org/cases/1997/97-372"
-    citation: "523 U.S. 360"
     voteMajority: 9
     voteMinority: 0
     authorId: rbginsburg
@@ -6068,11 +6210,12 @@ cases:
     title: "Bragdon v. Abbott"
     volume: "524"
     page: "624"
+    docket: "97-156"
+    citation: "524 U.S. 624"
     pdfSource: "loc"
     dateArgument: "Monday, March 30, 1998"
     dateDecision: "Thursday, June 25, 1998"
     urlOyez: "https://www.oyez.org/cases/1997/97-156"
-    citation: "524 U.S. 624"
     voteMajority: 5
     voteMinority: 4
     authorId: amkennedy
@@ -6111,11 +6254,12 @@ cases:
     title: "NYNEX Corp. v. Discon, Inc."
     volume: "525"
     page: "128"
+    docket: "96-1570"
+    citation: "525 U.S. 128"
     pdfSource: "loc"
     dateArgument: "Monday, October 5, 1998"
     dateDecision: "Monday, December 14, 1998"
     urlOyez: "https://www.oyez.org/cases/1998/96-1570"
-    citation: "525 U.S. 128"
     voteMajority: 9
     voteMinority: 0
     authorId: sgbreyer
@@ -6154,11 +6298,12 @@ cases:
     title: "Humana Inc. v. Forsyth"
     volume: "525"
     page: "299"
+    docket: "97-303"
+    citation: "525 U.S. 299"
     pdfSource: "loc"
     dateArgument: "Monday, November 30, 1998"
     dateDecision: "Wednesday, January 20, 1999"
     urlOyez: "https://www.oyez.org/cases/1998/97-303"
-    citation: "525 U.S. 299"
     voteMajority: 9
     voteMinority: 0
     authorId: rbginsburg
@@ -6197,11 +6342,12 @@ cases:
     title: "California Dental Assn. v. FTC"
     volume: "526"
     page: "756"
+    docket: "97-1625"
+    citation: "526 U.S. 756"
     pdfSource: "loc"
     dateArgument: "Wednesday, January 13, 1999"
     dateDecision: "Monday, May 24, 1999"
     urlOyez: "https://www.oyez.org/cases/1998/97-1625"
-    citation: "526 U.S. 756"
     voteMajority: 5
     voteMinority: 4
     authorId: dhsouter
@@ -6240,11 +6386,12 @@ cases:
     title: "Dickinson v. Zurko"
     volume: "527"
     page: "150"
+    docket: "98-377"
+    citation: "527 U.S. 150"
     pdfSource: "loc"
     dateArgument: "Wednesday, March 24, 1999"
     dateDecision: "Thursday, June 10, 1999"
     urlOyez: "https://www.oyez.org/cases/1998/98-377"
-    citation: "527 U.S. 150"
     voteMajority: 6
     voteMinority: 3
     authorId: sgbreyer
@@ -6283,11 +6430,12 @@ cases:
     title: "Geier v. American Honda Motor Co."
     volume: "529"
     page: "861"
+    docket: "98-1811"
+    citation: "529 U.S. 861"
     pdfSource: "loc"
     dateArgument: "Tuesday, December 7, 1999"
     dateDecision: "Monday, May 22, 2000"
     urlOyez: "https://www.oyez.org/cases/1999/98-1811"
-    citation: "529 U.S. 861"
     voteMajority: 5
     voteMinority: 4
     authorId: sgbreyer
@@ -6326,11 +6474,12 @@ cases:
     title: "Wal-Mart Stores, Inc. v. Samara Brothers, Inc."
     volume: "529"
     page: "205"
+    docket: "99-150"
+    citation: "529 U.S. 205"
     pdfSource: "loc"
     dateArgument: "Wednesday, January 19, 2000"
     dateDecision: "Wednesday, March 22, 2000"
     urlOyez: "https://www.oyez.org/cases/1999/99-150"
-    citation: "529 U.S. 205"
     voteMajority: 9
     voteMinority: 0
     authorId: ascalia
@@ -6369,11 +6518,12 @@ cases:
     title: "Raleigh v. Illinois Dept. of Revenue"
     volume: "530"
     page: "015"
+    docket: "99-387"
+    citation: "530 U.S. 15"
     pdfSource: "loc"
     dateArgument: "Monday, April 17, 2000"
     dateDecision: "Tuesday, May 30, 2000"
     urlOyez: "https://www.oyez.org/cases/1999/99-387"
-    citation: "530 U.S. 15"
     voteMajority: 9
     voteMinority: 0
     authorId: dhsouter
@@ -6412,11 +6562,12 @@ cases:
     title: "Solid Waste Agency of Northern Cook Cty. v. Army Corps of Engineers"
     volume: "531"
     page: "159"
+    docket: "99-1178"
+    citation: "531 U.S. 159"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 31, 2000"
     dateDecision: "Tuesday, January 9, 2001"
     urlOyez: "https://www.oyez.org/cases/2000/99-1178"
-    citation: "531 U.S. 159"
     voteMajority: 5
     voteMinority: 4
     authorId: whrehnquist
@@ -6455,11 +6606,12 @@ cases:
     title: "TrafFix Devices, Inc v. Marketing Displays, Inc."
     volume: "532"
     page: "023"
+    docket: "99-1571"
+    citation: "532 U.S. 23"
     pdfSource: "loc"
     dateArgument: "Wednesday, November 29, 2000"
     dateDecision: "Tuesday, March 20, 2001"
     urlOyez: "https://www.oyez.org/cases/2000/99-1571"
-    citation: "532 U.S. 23"
     voteMajority: 9
     voteMinority: 0
     authorId: amkennedy
@@ -6498,11 +6650,12 @@ cases:
     title: "NLRB v. Kentucky River Community Care, Inc."
     volume: "532"
     page: "706"
+    docket: "99-1815"
+    citation: "532 U.S. 706"
     pdfSource: "loc"
     dateArgument: "Wednesday, February 21, 2001"
     dateDecision: "Tuesday, May 29, 2001"
     urlOyez: "https://www.oyez.org/cases/2000/99-1815"
-    citation: "532 U.S. 706"
     voteMajority: 5
     voteMinority: 4
     authorId: ascalia
@@ -6541,11 +6694,12 @@ cases:
     title: "J. E. M. Ag Supply, Inc. v. Pioneer Hi-Bred International, Inc."
     volume: "534"
     page: "124"
+    docket: "99-1996"
+    citation: "534 U.S. 124"
     pdfSource: "loc"
     dateArgument: "Wednesday, October 3, 2001"
     dateDecision: "Monday, December 10, 2001"
     urlOyez: "https://www.oyez.org/cases/2001/99-1996"
-    citation: "534 U.S. 124"
     voteMajority: 6
     voteMinority: 2
     authorId: cthomas
@@ -6584,11 +6738,12 @@ cases:
     title: "Festo Corp. v. Shoketsu Kinzoku Kogyo Kabushiki Co."
     volume: "535"
     page: "722"
+    docket: "00-1543"
+    citation: "535 U.S. 722"
     pdfSource: "loc"
     dateArgument: "Tuesday, January 8, 2002"
     dateDecision: "Tuesday, May 28, 2002"
     urlOyez: "https://www.oyez.org/cases/2001/00-1543"
-    citation: "535 U.S. 722"
     voteMajority: 9
     voteMinority: 0
     authorId: amkennedy
@@ -6627,11 +6782,12 @@ cases:
     title: "BE&amp;K Constr. Co. v. NLRB"
     volume: "536"
     page: "516"
+    docket: "01-518"
+    citation: "536 U.S. 516"
     pdfSource: "loc"
     dateArgument: "Tuesday, April 16, 2002"
     dateDecision: "Monday, June 24, 2002"
     urlOyez: "https://www.oyez.org/cases/2001/01-518"
-    citation: "536 U.S. 516"
     voteMajority: 9
     voteMinority: 0
     authorId: sdoconnor
@@ -6670,11 +6826,12 @@ cases:
     title: "Moseley v. V Secret Catalogue, Inc."
     volume: "537"
     page: "418"
+    docket: "01-1015"
+    citation: "537 U.S. 418"
     pdfSource: "loc"
     dateArgument: "Tuesday, November 12, 2002"
     dateDecision: "Tuesday, March 4, 2003"
     urlOyez: "https://www.oyez.org/cases/2002/01-1015"
-    citation: "537 U.S. 418"
     voteMajority: 9
     voteMinority: 0
     authorId: jpstevens

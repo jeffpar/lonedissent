@@ -2189,6 +2189,12 @@ function generateCaseYML(decisions, vars, courts, justices, extras=[])
          */
         if (volume) ymlText += sprintf('    volume: "%03d"\n', volume);
         if (page) ymlText += sprintf('    page: "%03d"\n' , page);
+        if (decision.docket) {
+            ymlText += '    docket: "' + decision.docket + '"\n';
+        }
+        if (decision.usCite) {
+            ymlText += '    citation: "' + decision.usCite + '"\n';
+        }
         if (decision.pdfSource) ymlText += '    pdfSource: "' + decision.pdfSource + '"\n';
         if (decision.pdfPage) ymlText += '    pdfPage: ' + decision.pdfPage + '\n';
         if (decision.pdfPageDissent) ymlText += '    pdfPageDissent: ' + decision.pdfPageDissent + '\n';
@@ -2201,7 +2207,6 @@ function generateCaseYML(decisions, vars, courts, justices, extras=[])
         if (extras.indexOf("urlOyez") >= 0 && decision.urlOyez) {
             ymlText += '    urlOyez: "' + decision.urlOyez + '"\n';
         }
-        ymlText += '    citation: "' + ((volume && page)? decision.usCite : ('No. ' + decision.docket)) + '"\n';
         ymlText += '    voteMajority: ' + (decision.majVotes || 0) + '\n';
         ymlText += '    voteMinority: ' + (decision.minVotes || 0)+ '\n';
         if (decision.dissenterId) {
@@ -3645,16 +3650,17 @@ function testDates(done)
  * @param {string} dir
  * @param {string} file
  * @param {boolean} [fDisplay]
+ * @return {boolean} (true if task added, false if duplicate or redundant)
  */
 function createDownloadTask(name, url, dir, file, fDisplay)
 {
     if (downloadTasks.indexOf(name) >= 0) {
-        return;
+        return false;
     }
     let dirPath = path.join(rootDir, dir);
     let filePath = path.join(dirPath, file);
     if (fs.existsSync(filePath)) {
-        return;
+        return false;
     }
     if (fDisplay) printf("createDownloadTask(%s,%s,%s,%s)\n", name, url, dir, file);
     downloadTasks.push(name);
@@ -3679,6 +3685,7 @@ function createDownloadTask(name, url, dir, file, fDisplay)
             })
             .pipe(fs.createWriteStream(filePath));
     });
+    return true;
 }
 
 /**
@@ -3704,7 +3711,9 @@ function generateDownloadTasks(done)
                 }
             }
             else if (downloadGroup.files) {
-                let files = glob.sync(rootDir + downloadGroup.files);
+                let limit = +argv['limit'] || -1;
+                let fileSpec = downloadGroup.files.replace('$1', argv['group'] || "**");
+                let files = glob.sync(rootDir + fileSpec);
                 files.forEach((file) => {
                     let html = readFile(file);
                     if (html) {
@@ -3723,13 +3732,21 @@ function generateDownloadTasks(done)
                                     match[iToken] = sprintf(sTransform, match[iToken]);
                                 }
                                 while (url.indexOf(sToken) >= 0) {
-                                    url = url.replace(sToken, match[iToken]);
+                                    if (match[iToken][0] == '/') {
+                                        url = downloadGroup.host.replace(sToken, match[iToken]);
+                                    } else {
+                                        url = url.replace(sToken, match[iToken]);
+                                    }
                                 }
                                 while (file.indexOf(sToken) >= 0) {
                                     file = file.replace(sToken, match[iToken]);
                                 }
                             }
-                            createDownloadTask('download.' + source + '.' + group + '.' + folder + '.' + index++, url, dir, file);
+                            if (limit) {
+                                if (!downloadGroup.urlExclusions || downloadGroup.urlExclusions.indexOf(url) < 0) {
+                                    if (createDownloadTask('download.' + source + '.' + group + '.' + folder + '.' + index++, url, dir, file)) limit--;
+                                }
+                            }
                         }
                     }
                 });
@@ -3869,6 +3886,17 @@ function scrapeFiles(done)
     done();
 }
 
+/**
+ * setRebuild(done)
+ *
+ * @param {function()} done
+ */
+function setRebuild(done)
+{
+    argv['rebuild'] = true;
+    done();
+}
+
 gulp.task("advocates", buildAdvocates);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("courts", buildCourts);
@@ -3886,6 +3914,7 @@ gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
 gulp.task("fixDecisions", fixDecisions);
 gulp.task("fixDockets", fixDockets);
 gulp.task("fixLOC", fixLOC);
+gulp.task("rebuild", gulp.series(setRebuild, findAllDecisions, findAllJustices, findLonerDecisions, findLonerJustices, findLonerParties, buildAdvocates));
 gulp.task("scrape", scrapeFiles);
 gulp.task("tests", gulp.series(testDates));
 gulp.task("default", findDecisions);

@@ -1809,7 +1809,7 @@ cases:
     title: "Florida v. Georgia"
     pdfSource: "slipopinion/17"
     dateDecision: "Wednesday, June 27, 2018"
-    citation: "No. 22O142"
+    citation: "No. 142 Orig."
     authorId: sgbreyer
     authorName: "Stephen Breyer"
   - id: "2017-050"

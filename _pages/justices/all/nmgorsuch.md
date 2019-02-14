@@ -40,7 +40,7 @@ cases:
     title: "Texas v. New Mexico"
     pdfSource: "slipopinion/17"
     dateDecision: "Monday, March 5, 2018"
-    citation: "No. 22O141"
+    citation: "No. 141 Orig."
     authorId: nmgorsuch
     authorName: "Neil Gorsuch"
   - id: "2017-042"

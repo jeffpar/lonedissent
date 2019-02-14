@@ -64,14 +64,16 @@
         "file": "%d.html"
       },
       "transcriptPDF": {
-        "files": "/sources/scotus/transcripts/**/*.html",
-        "pattern": "<td style=\"text-align: left;\">\\s*<div[^>]*>\\s*<a href='([^']*)'[^>]*>\\s*(.*?)\\s*</a>\\s*</div>\\s*<div[^>]*>\\s*([^<]*)\\s*</div>\\s*</td>\\s*<td[^>]*>\\s*([0-9]+)/([0-9]+)/([0-9]+)\\s*</td>",
+        "files": "/sources/scotus/transcripts/$1/*.html",
+        "pattern": "<td style=\"text-align: left;\">\\s*<(?:div|span)[^>]*>\\s*<a href='([^']*)'[^>]*>\\s*(.*?)\\s*</a>\\s*</(?:div|span)>\\s*<(?:div|span)[^>]*>\\s*([^<]*)\\s*</(?:div|span)>\\s*</td>\\s*<td[^>]*>\\s*([0-9]+)/([0-9]+)/([0-9]+)\\s*</td>",
         "transform": {
           "$4": "%02d",
           "$5": "%02d"
         },
-        "url": "https://www.supremecourt.gov$1",
-        "file": "$2_$6-$4-$5.pdf"
+        "host": "https://www.supremecourt.gov$1",
+        "url": "https://www.supremecourt.gov/oral_arguments/argument_transcript/$1",
+        "file": "$2_$6-$4-$5.pdf",
+        "urlExclusions": ["https://www.supremecourt.gov/pdfs/transcripts/1998/98-405_98-406_04-26-1999.pdf"]
       }
     }
   }
