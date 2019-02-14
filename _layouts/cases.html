@@ -25,7 +25,7 @@ layout: default
   {% capture caseArgument %}{% if case.dateArgument %}{% if case.urlOyez %}Argued <a href="{{ case.urlOyez }}">{{ case.dateArgument }}</a><br/>{% else %}Argued {{ case.dateArgument }}<br/>{% endif %}{% endif %}{% endcapture %}
   <div id="{{ case.id }}" style="text-align:center">
     <h3>{{ case.title }}</h3>
-    <p style="font-size:medium">{{ caseCitation }}</p>>
+    <p style="font-size:medium">{{ caseCitation }}</p>
     {% if case.authorId %}
     <p style="font-size:medium">{{ caseArgument }}Decided <a href="/cases/all/{{ case.termId }}#{{ case.id }}"></a>{{ case.dateDecision }}</a><br/>Opinion by <a href="/justices/all/{{ case.authorId }}#{{ case.id }}">Justice {{ case.authorName }}</a></p>
     {% elsif case.dissenterId %}
