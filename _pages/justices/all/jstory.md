@@ -2039,7 +2039,7 @@ cases:
     volume: "035"
     page: "160"
     pdfSource: "loc"
-    dateDecision: ""
+    dateDecision: "January Term 1836"
     citation: "35 U.S. 160"
     authorId: jstory
     authorName: "Joseph Story"
@@ -2469,7 +2469,7 @@ cases:
     volume: "043"
     page: "065"
     pdfSource: "loc"
-    dateDecision: ""
+    dateDecision: "January Term 1844"
     citation: "43 U.S. 65"
     authorId: jstory
     authorName: "Joseph Story"

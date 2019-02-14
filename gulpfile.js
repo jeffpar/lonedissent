@@ -2400,7 +2400,7 @@ function getTermName(termId)
 {
     let termName = "";
     if (termId) {
-        sprintf("%#F Term %#Y", termId);
+        termName = sprintf("%#F Term %#Y", termId);
         if (termId >= "1844-12" && termId <= "1849-12") {
             termName = "January Term " + (+termId.substr(0, 4) + 1);
         } else if (termId == "1942-07" || termId == "1953-06" || termId == "1958-08" || termId == "1972-07") {
@@ -2801,20 +2801,21 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 fileName = "/_pages/cases/" + category + ".md";
                 let index = readFile(fileName);
                 if (index) {
-                    let re = /^- \[.*?Term.*?\]\(\/cases\/[a-z]+\/([0-9-]+)\).*$/gm, match;
+                    let re = /^- \[(.*?Term.*?|)\]\(\/cases\/[a-z]+\/([0-9-]+)\).*$/gm, match, matchLast;
                     while ((match = re.exec(index))) {
-                        if (match[1] >= termId) break;
+                        matchLast = match;
+                        if (match[2] >= termId) break;
                     }
-                    if (match) {
+                    if (matchLast) {
                         let asterisks = "";
                         if (termId >= "1844-12" && termId <= "1849-12") {
                             asterisks = "*";
                         }
                         let entry = sprintf("- [%s](/cases/%s/%s)%s (%d %s%s)\n", termName, category, termId, asterisks, results.length, category == "loners"? "lone dissent" : "opinion", results.length == 1? '' : 's');
-                        if (match[1] != termId) {
-                            index = index.substr(0, match.index) + entry + index.substr(match.index);
+                        if (matchLast[2] != termId) {
+                            index = index.substr(0, matchLast.index) + entry + index.substr(matchLast.index);
                         } else {
-                            index = index.substr(0, match.index) + entry + index.substr(match.index + match[0].length + 1);
+                            index = index.substr(0, matchLast.index) + entry + index.substr(matchLast.index + matchLast[0].length + 1);
                         }
                         let oldIndex = readFile(fileName);
                         if (oldIndex && oldIndex != index) {
@@ -3893,7 +3894,7 @@ function scrapeFiles(done)
  */
 function setRebuild(done)
 {
-    argv['rebuild'] = true;
+    argv['overwrite'] = true;
     done();
 }
 

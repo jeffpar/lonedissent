@@ -1039,7 +1039,7 @@ cases:
     volume: "060"
     page: "373"
     pdfSource: "loc"
-    dateDecision: ""
+    dateDecision: "December Term 1856"
     citation: "60 U.S. 373"
     authorId: jmwayne
     authorName: "James Wayne"

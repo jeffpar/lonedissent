@@ -1239,7 +1239,7 @@ cases:
     volume: "010"
     page: "052"
     pdfSource: "loc"
-    dateDecision: ""
+    dateDecision: "February Term 1810"
     citation: "10 U.S. 52"
     authorId: jmarshall
     authorName: "John Marshall"
@@ -1249,7 +1249,7 @@ cases:
     volume: "010"
     page: "086"
     pdfSource: "loc"
-    dateDecision: ""
+    dateDecision: "February Term 1810"
     citation: "10 U.S. 86"
     authorId: jmarshall
     authorName: "John Marshall"
@@ -1489,7 +1489,7 @@ cases:
     volume: "011"
     page: "107"
     pdfSource: "loc"
-    dateDecision: ""
+    dateDecision: "February Term 1812"
     citation: "11 U.S. 107"
     authorId: jmarshall
     authorName: "John Marshall"
@@ -2179,7 +2179,7 @@ cases:
     volume: "014"
     page: "408"
     pdfSource: "loc"
-    dateDecision: ""
+    dateDecision: "February Term 1816"
     citation: "14 U.S. 408"
     authorId: jmarshall
     authorName: "John Marshall"
@@ -2669,7 +2669,7 @@ cases:
     volume: "017"
     page: "084"
     pdfSource: "loc"
-    dateDecision: ""
+    dateDecision: "February Term 1819"
     citation: "17 U.S. 84"
     authorId: jmarshall
     authorName: "John Marshall"
@@ -5229,7 +5229,7 @@ cases:
     volume: "034"
     page: "571"
     pdfSource: "loc"
-    dateDecision: ""
+    dateDecision: "January Term 1835"
     citation: "34 U.S. 571"
     authorId: jmarshall
     authorName: "John Marshall"
