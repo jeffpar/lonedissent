@@ -1505,7 +1505,7 @@ function buildAdvocates(done)
             }
             let rowsAdvocate = readCSV(filePath);
             if (rowsAdvocate && rowsAdvocate.length) {
-                let results = [];
+                let results = [], changes = 0;
                 let pathAdvocate = pathAdvocates + "/" + id;
                 let nameAdvocate = rowsAdvocate[0].advocateName;
                 let fileText = '---\ntitle: "Cases Argued by ' + nameAdvocate + '"\npermalink: ' + pathAdvocate + '\nlayout: cases\n';
@@ -1533,15 +1533,40 @@ function buildAdvocates(done)
                     }
                     if (i >= 0) {
                         let argument = cloneObject(decisions[i]);
-                        if (argument.dateRearg) warning("%s [%s] (%s): possible reargument by %s on %s\n\n", argument.caseTitle, argument.docket, argument.usCite, nameAdvocate, argument.dateRearg);
+                        if (argument.dateRearg) {
+                            /*
+                             * Let's take a quick peek to determine if this reargument is reflected in another row.
+                             */
+                            if (!searchSortedObjects(rowsAdvocate, {dateArgument: argument.dateRearg, docket: argument.docket})) {
+                                warning("%s [%s] (%s): possible reargument by %s on %s\n\n", argument.caseTitle, argument.docket, argument.usCite, nameAdvocate, argument.dateRearg);
+                            }
+                        }
                         argument.dateArgument = dateArgument;
+                        if (!row.votesPetitioner && !row.votesRespondent && (argument.majVotes || argument.minVotes)) {
+                            if (argument.partyWinning == "petitioning party received a favorable disposition") {
+                                row.votesPetitioner = argument.majVotes;
+                                row.votesRespondent = argument.minVotes;
+                                changes++;
+                            } else if (argument.partyWinning == "no favorable disposition for petitioning party apparent") {
+                                row.votesPetitioner = argument.minVotes;
+                                row.votesRespondent = argument.majVotes;
+                                changes++
+                            }
+                        }
+                        if (!row.issue && argument.issue) {
+                            row.issue = argument.issue;
+                            changes++;
+                        }
                         argument.urlOyez = row.urlOyez;
                         results.push(argument);
                     } else {
                         results.push(row);
-                        warning("unable to find exact match for %s: %s [%s] (%s) Argued=%s Decided=%s\n", nameAdvocate, row.caseTitle, row.docket, row.usCite, row.dateArgument, row.dateDecision);
+                        if (row.dateArgument < sources.scdb.dateEnd) {
+                            warning("unable to find exact match for %s: %s [%s] (%s) Argued=%s Decided=%s\n", nameAdvocate, row.caseTitle, row.docket, row.usCite, row.dateArgument, row.dateDecision);
+                        }
                     }
                 });
+                if (changes) writeCSV(filePath, rowsAdvocate);
                 sortObjects(results, ["dateArgument","docket"]);
                 top100.push({id, nameAdvocate, total: results.length, verified});
                 fileText += generateCaseYML(results, vars, courtsSCDB, justices, ["caseNumber","dateArgument","urlOyez"]);
