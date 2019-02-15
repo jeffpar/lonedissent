@@ -6866,9 +6866,9 @@ cases:
         majority: true
 ---
 
-Lawrence G. Wallace argued 157 cases in the U.S. Supreme Court.  On November 12, 2002, before Mr. Wallace began his final argument
-in [Moseley v. V Secret Catalogue, Inc.](https://www.oyez.org/cases/2002/01-1015), Chief Justice William Rehnquist publicly acknowledged
-Mr. Wallace's service:
+Lawrence G. Wallace argued 157 times in the U.S. Supreme Court.  On November 12, 2002, before Mr. Wallace
+began his final argument in [Moseley v. V Secret Catalogue, Inc.](https://www.oyez.org/cases/2002/01-1015),
+Chief Justice William Rehnquist publicly acknowledged Mr. Wallace's service:
 
 > Mr. Wallace, our records reflect that this is your 157th argument before the Court in the 34 years you have been an attorney in the Office of the Solicitor General.
 

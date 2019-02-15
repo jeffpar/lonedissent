@@ -4444,7 +4444,7 @@ cases:
         majority: true
 ---
 
-Michael R. Dreeben argued 103 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/michael_r_dreeben).
+Michael R. Dreeben argued 103 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/michael_r_dreeben).
 
 Similar to the recognition given to [Lawrence Wallace](/advocates/top100/lawrence_wallace) in 2002 and to [Edwin Kneedler](/advocates/top100/edwin_kneedler)
 in 2008, the Court recognized Michael Dreeben's 100th argument on April 27, 2016 in [McDonnell v. United States](https://www.oyez.org/cases/2015/15-474):

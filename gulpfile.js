@@ -1531,6 +1531,7 @@ function buildAdvocates(done)
                     }
                     if (i >= 0) {
                         let argument = cloneObject(decisions[i]);
+                        if (argument.dateRearg) warning("%s [%s] (%s): possible reargument by %s on %s\n\n", argument.caseTitle, argument.docket, argument.usCite, nameAdvocate, argument.dateRearg);
                         argument.dateArgument = dateArgument;
                         argument.urlOyez = row.urlOyez;
                         results.push(argument);
@@ -1543,11 +1544,11 @@ function buildAdvocates(done)
                 top100.push({id, nameAdvocate, total: results.length, verified});
                 fileText += generateCaseYML(results, vars, courtsSCDB, justices, ["caseNumber","dateArgument","urlOyez"]);
                 fileText += '---\n\n';
-                fileText += nameAdvocate + " argued " + rowsAdvocate.length + " cases in the U.S. Supreme Court";
+                fileText += nameAdvocate + " argued " + rowsAdvocate.length + " times in the U.S. Supreme Court";
                 filePath = "/_pages" + pathAdvocate + ".md", fileText;
                 let oldText = readFile(filePath);
                 if (oldText) {
-                    let match = oldText.match(/^---\n[\s\S]*?\n---\n\n.*? argued [0-9]+ cases in the U.S. Supreme Court([\s\S]*)$/);
+                    let match = oldText.match(/^---\n[\s\S]*?\n---\n\n.*? argued [0-9]+ times in the U.S. Supreme Court([\s\S]*)$/);
                     oldText = match? match[1] : "";
                 }
                 if (oldText) {

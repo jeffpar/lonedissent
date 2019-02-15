@@ -3718,4 +3718,4 @@ cases:
     voteMinority: 0
 ---
 
-Paul D. Clement argued 88 cases in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/paul_d_clement).
+Paul D. Clement argued 88 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/paul_d_clement).
