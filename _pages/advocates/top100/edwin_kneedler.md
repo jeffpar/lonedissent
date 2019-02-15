@@ -5908,8 +5908,8 @@ cases:
 
 Edwin S. Kneedler argued 139 cases in the U.S. Supreme Court (as of January 2019), most of which are listed by [Oyez](https://www.oyez.org/advocates/edwin_s_kneedler), with the exception of two cases (Nos. 86-803 and 87-573), which we have included in our tally and listed below.
 
-Just as Chief Justice William Rehnquist had recognized [Lawrence Wallace's](/advocates/top100/lawrence_wallace) long service in 2002, Chief Justice John Roberts recognized Edwin Kneedler's 100th argument on March 17, 2008, at the close
-of oral arguments in [Republic of Philippines v. Pimentel](https://www.oyez.org/cases/2007/06-1204):
+Just as Chief Justice William Rehnquist had recognized [Lawrence Wallace's](/advocates/top100/lawrence_wallace) long service in 2002, Chief Justice John Roberts recognized Edwin Kneedler's [100th argument](#2007-054) on March 17, 2008,
+at the close of oral arguments in [Republic of Philippines v. Pimentel](https://www.oyez.org/cases/2007/06-1204):
 
 > Mr. Kneedler, if you could return to the lecturn for a moment.
 
