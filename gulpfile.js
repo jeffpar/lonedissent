@@ -1500,6 +1500,7 @@ function buildAdvocates(done)
                         }
                     });
                 }
+                sortObjects(rows, ["dateArgument","docket"]);
                 writeCSV(filePath, rows);
             }
             let rowsAdvocate = readCSV(filePath);
@@ -1541,7 +1542,7 @@ function buildAdvocates(done)
                         warning("unable to find exact match for %s: %s [%s] (%s) Argued=%s Decided=%s\n", nameAdvocate, row.caseTitle, row.docket, row.usCite, row.dateArgument, row.dateDecision);
                     }
                 });
-                sortObjects(results, ["dateArgument"]);
+                sortObjects(results, ["dateArgument","docket"]);
                 top100.push({id, nameAdvocate, total: results.length, verified});
                 fileText += generateCaseYML(results, vars, courtsSCDB, justices, ["caseNumber","dateArgument","urlOyez"]);
                 fileText += '---\n\n';

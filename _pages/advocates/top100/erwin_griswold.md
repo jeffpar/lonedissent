@@ -3,17 +3,17 @@ title: "Cases Argued by Erwin N. Griswold"
 permalink: /advocates/top100/erwin_griswold
 layout: cases
 cases:
-  - id: "50231"
+  - id: "50299"
     number: 1
-    termId: "1969-10"
-    title: "Boston &amp; Maine R. Co. v. United States"
-    volume: "396"
-    page: "027"
-    docket: "343"
-    citation: "396 U.S. 27"
+    termId: "1968-10"
+    title: "Chicago v. United States"
+    volume: "394"
+    page: "717"
+    docket: "1047"
+    citation: "394 U.S. 717"
     pdfSource: "loc"
-    dateDecision: "Monday, November 10, 1969"
-    urlOyez: "https://www.oyez.org/cases/1969/343"
+    dateDecision: "Monday, April 21, 1969"
+    urlOyez: "https://www.oyez.org/cases/1968/1047"
     voteMajority: 0
     voteMinority: 0
   - id: "49891"
@@ -29,17 +29,17 @@ cases:
     urlOyez: "https://www.oyez.org/cases/1967/1269"
     voteMajority: 0
     voteMinority: 0
-  - id: "50299"
+  - id: "50231"
     number: 3
-    termId: "1968-10"
-    title: "Chicago v. United States"
-    volume: "394"
-    page: "717"
-    docket: "1047"
-    citation: "394 U.S. 717"
+    termId: "1969-10"
+    title: "Boston &amp; Maine R. Co. v. United States"
+    volume: "396"
+    page: "027"
+    docket: "343"
+    citation: "396 U.S. 27"
     pdfSource: "loc"
-    dateDecision: "Monday, April 21, 1969"
-    urlOyez: "https://www.oyez.org/cases/1968/1047"
+    dateDecision: "Monday, November 10, 1969"
+    urlOyez: "https://www.oyez.org/cases/1969/343"
     voteMajority: 0
     voteMinority: 0
   - id: "1967-121"

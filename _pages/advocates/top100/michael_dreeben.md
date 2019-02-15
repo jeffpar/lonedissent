@@ -2771,8 +2771,50 @@ cases:
       - id: saalito
         name: "Samuel Alito"
         majority: true
-  - id: "2006-067"
+  - id: "2006-052"
     number: 64
+    termId: "2006-10"
+    title: "Claiborne v. United States"
+    volume: "551"
+    page: "087"
+    docket: "06-5618"
+    citation: "551 U.S. 87"
+    pdfSource: "scotusBound"
+    dateArgument: "Tuesday, February 20, 2007"
+    dateDecision: "Monday, June 4, 2007"
+    urlOyez: "https://www.oyez.org/cases/2006/06-5618"
+    voteMajority: 9
+    voteMinority: 0
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
+  - id: "2006-067"
+    number: 65
     termId: "2006-10"
     title: "Rita v. United States"
     volume: "551"
@@ -2803,48 +2845,6 @@ cases:
       - id: dhsouter
         name: "David Souter"
         majority: false
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-      - id: saalito
-        name: "Samuel Alito"
-        majority: true
-  - id: "2006-052"
-    number: 65
-    termId: "2006-10"
-    title: "Claiborne v. United States"
-    volume: "551"
-    page: "087"
-    docket: "06-5618"
-    citation: "551 U.S. 87"
-    pdfSource: "scotusBound"
-    dateArgument: "Tuesday, February 20, 2007"
-    dateDecision: "Monday, June 4, 2007"
-    urlOyez: "https://www.oyez.org/cases/2006/06-5618"
-    voteMajority: 9
-    voteMinority: 0
-    votes:
-      - id: jgroberts
-        name: "John Roberts"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: true
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: true
       - id: cthomas
         name: "Clarence Thomas"
         majority: true
@@ -3297,22 +3297,20 @@ cases:
       - id: ssotomayor
         name: "Sonia Sotomayor"
         majority: true
-  - id: "2009-086"
+  - id: "2009-094"
     number: 76
     termId: "2009-10"
-    title: "Black v. United States"
+    title: "Weyhrauch v. United States"
     volume: "561"
-    page: "465"
-    docket: "08-876"
-    citation: "561 U.S. 465"
+    page: "476"
+    docket: "08-1196"
+    citation: "561 U.S. 476"
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, December 8, 2009"
     dateDecision: "Thursday, June 24, 2010"
-    urlOyez: "https://www.oyez.org/cases/2009/08-876"
+    urlOyez: "https://www.oyez.org/cases/2009/08-1196"
     voteMajority: 9
     voteMinority: 0
-    authorId: rbginsburg
-    authorName: "Ruth Ginsburg"
     votes:
       - id: jgroberts
         name: "John Roberts"
@@ -3341,20 +3339,22 @@ cases:
       - id: ssotomayor
         name: "Sonia Sotomayor"
         majority: true
-  - id: "2009-094"
+  - id: "2009-086"
     number: 77
     termId: "2009-10"
-    title: "Weyhrauch v. United States"
+    title: "Black v. United States"
     volume: "561"
-    page: "476"
-    docket: "08-1196"
-    citation: "561 U.S. 476"
+    page: "465"
+    docket: "08-876"
+    citation: "561 U.S. 465"
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, December 8, 2009"
     dateDecision: "Thursday, June 24, 2010"
-    urlOyez: "https://www.oyez.org/cases/2009/08-1196"
+    urlOyez: "https://www.oyez.org/cases/2009/08-876"
     voteMajority: 9
     voteMinority: 0
+    authorId: rbginsburg
+    authorName: "Ruth Ginsburg"
     votes:
       - id: jgroberts
         name: "John Roberts"

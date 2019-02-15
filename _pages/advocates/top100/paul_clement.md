@@ -1592,7 +1592,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, December 4, 2006"
     dateDecision: "Thursday, June 28, 2007"
-    urlOyez: "https://www.oyez.org/cases/2006/05-908"
+    urlOyez: "https://www.oyez.org/cases/2006/05-915"
     voteMajority: 5
     voteMinority: 4
     authorId: jgroberts
@@ -1636,7 +1636,7 @@ cases:
     pdfSource: "scotusBound"
     dateArgument: "Monday, December 4, 2006"
     dateDecision: "Thursday, June 28, 2007"
-    urlOyez: "https://www.oyez.org/cases/2006/05-915"
+    urlOyez: "https://www.oyez.org/cases/2006/05-908"
     voteMajority: 5
     voteMinority: 4
     authorId: jgroberts
