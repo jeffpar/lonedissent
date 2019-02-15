@@ -6044,7 +6044,14 @@ cases:
     voteMinority: 0
 ---
 
-Edwin S. Kneedler argued 143 times in the U.S. Supreme Court (as of January 2019), most of which are listed by [Oyez](https://www.oyez.org/advocates/edwin_s_kneedler), with the exception of two cases (Nos. 86-803 and 87-573), which we have included in our tally and listed below.
+Edwin S. Kneedler argued 143 times in the U.S. Supreme Court (as of January 2019), most of which are listed by [Oyez](https://www.oyez.org/advocates/edwin_s_kneedler), with the exception of four cases:
+
+- [Boos v. Barry](https://www.oyez.org/cases/1987/86-803), No. 86-803
+- [United States v. Taylor](https://www.oyez.org/cases/1987/87-573), No. 87-573
+- [Fifth Third Bancorp v. Dudenhoeffer](https://www.oyez.org/cases/2013/12-751), No. 12-751
+- [Argentina v. NML Capital, Ltd.](https://www.oyez.org/cases/2013/12-842), No. 12-842
+
+which we have included in our tally and listed below.
 
 Just as Chief Justice William Rehnquist had recognized [Lawrence Wallace's](/advocates/top100/lawrence_wallace) long service in 2002, Chief Justice John Roberts recognized Edwin Kneedler's [100th argument](#2007-054) on March 17, 2008,
 at the close of oral arguments in [Republic of Philippines v. Pimentel](https://www.oyez.org/cases/2007/06-1204):
@@ -6062,8 +6069,11 @@ at the close of oral arguments in [Republic of Philippines v. Pimentel](https://
 We note two discrepancies.  First, although the Chief Justice implied Mr. Kneedler first argued in October 1979,
 we cannot find any evidence of that.  His first argument appears to have been on November 7, 1979.
 
-Second, we recently noticed that Mr. Kneedler argued *twice* in [Montana v. Blackfeet Tribe of Indians](https://www.oyez.org/cases/1984/83-2161).  The case was initially argued on January 15, 1985 ([transcript](https://www.supremecourt.gov/pdfs/transcripts/1984/83-2161_01-15-1985.pdf)) and reargued later that same term on April 23, 1985
-([transcript](https://www.supremecourt.gov/pdfs/transcripts/1984/83-2161_04-23-1985.pdf)).
+Second, we recently noticed that Mr. Kneedler argued *twice* in [Montana v. Blackfeet Tribe of Indians](https://www.oyez.org/cases/1984/83-2161).  The case was first argued on January 15, 1985 ([transcript](https://www.supremecourt.gov/pdfs/transcripts/1984/83-2161_01-15-1985.pdf)) and reargued later that same term on April 23, 1985
+([transcript](https://www.supremecourt.gov/pdfs/transcripts/1984/83-2161_04-23-1985.pdf)).  Rearguments in the same
+term are fairly unusual, so if this reargument was overlooked by the Court, that might explain why.
 
 Due to this additional appearance, we must now list Mr. Kneedler's 100th argument as his *101st* argument.  We will be
-double-checking his first 100 arguments to verify the accuracy of the list below and post an update with the results.
+double-checking his first 100 arguments to verify the accuracy of the list below and post an update if we learn anything new.
+
+Note: Since arguing for the 100th time, Mr Kneedler has since argued another case twice: [Sessions v. Dimaya](https://www.oyez.org/cases/2017/15-1498).  It was first argued in the 2016 term, and then reargued in the 2017 term.
