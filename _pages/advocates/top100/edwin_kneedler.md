@@ -6069,11 +6069,11 @@ at the close of oral arguments in [Republic of Philippines v. Pimentel](https://
 We note two discrepancies.  First, although the Chief Justice implied Mr. Kneedler first argued in October 1979,
 we cannot find any evidence of that.  His first argument appears to have been on November 7, 1979.
 
-Second, we recently noticed that Mr. Kneedler argued *twice* in [Montana v. Blackfeet Tribe of Indians](https://www.oyez.org/cases/1984/83-2161).  The case was first argued on January 15, 1985 ([transcript](https://www.supremecourt.gov/pdfs/transcripts/1984/83-2161_01-15-1985.pdf)) and reargued later that same term on April 23, 1985
-([transcript](https://www.supremecourt.gov/pdfs/transcripts/1984/83-2161_04-23-1985.pdf)).  Rearguments in the same
+Second, we recently noticed that Mr. Kneedler argued *twice* in [Montana v. Blackfeet Tribe of Indians](https://www.oyez.org/cases/1984/83-2161).  The case was first argued on January 15, 1985 [[transcript](https://www.supremecourt.gov/pdfs/transcripts/1984/83-2161_01-15-1985.pdf)] and reargued later that same term on April 23, 1985
+[[transcript](https://www.supremecourt.gov/pdfs/transcripts/1984/83-2161_04-23-1985.pdf)].  Rearguments in the same
 term are fairly unusual, so if this reargument was overlooked by the Court, that might explain why.
 
-Due to this additional appearance, we must now list Mr. Kneedler's 100th argument as his *101st* argument.  We will be
-double-checking his first 100 arguments to verify the accuracy of the list below and post an update if we learn anything new.
+Due to this additional appearance, what was previously described as Mr. Kneedler's 100th argument must now be listed
+below as his *[101st argument](#2007-054)*.  However, we will be double-checking his first 100 arguments to verify the accuracy of our list and will post an update if we learn anything new.
 
 Note: Since arguing for the 100th time, Mr Kneedler has since argued another case twice: [Sessions v. Dimaya](https://www.oyez.org/cases/2017/15-1498).  It was first argued in the 2016 term, and then reargued in the 2017 term.
