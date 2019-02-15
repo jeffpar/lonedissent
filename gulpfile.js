@@ -900,13 +900,14 @@ function writeCSV(filePath, rows, fOverwrite=argv['overwrite'])
 }
 
 /**
- * readFile(filePath, encoding)
+ * readFile(filePath, encoding, fOptional)
  *
  * @param {string} filePath
  * @param {string} [encoding] (default is "utf-8")
+ * @param {boolean} [fOptional]
  * @return {string|undefined}
  */
-function readFile(filePath, encoding="")
+function readFile(filePath, encoding="", fOptional=false)
 {
     let text;
     try {
@@ -915,7 +916,7 @@ function readFile(filePath, encoding="")
         if (!encoding) checkASCII(text);
     }
     catch(err) {
-        printf("%s\n", err.message);
+        if (!fOptional) printf("%s\n", err.message);
     }
     return text;
 }
@@ -3066,6 +3067,65 @@ function findLonerParties(done)
 }
 
 /**
+ * fixAdvocates()
+ *
+ * @param {function()} done
+ */
+function fixAdvocates(done)
+{
+    let advocates = JSON.parse(readFile(sources.oyez.advocates) || "{}");
+    if (advocates) {
+        let ids = Object.keys(advocates.ids);
+        ids.forEach((id) => {
+            let filePath = path.join(path.dirname(sources.oyez.advocates), id, id + ".csv");
+            let rows = readCSV(filePath);
+            if (rows) {
+                let linesCSV = [];
+                sortObjects(rows, ["dateArgument","docket"]);
+                rows.forEach((row) => {
+                    linesCSV.push("./" + row.term + "/" + row.docket.replace(" Orig.", "-orig").replace(" Misc.", "-misc") + "_" + row.dateArgument + ".txt");
+                });
+                writeCSV(filePath, rows);
+                writeFile(filePath.replace(".csv", ".log"), linesCSV.join('\n'));
+            }
+            filePath = path.join(path.dirname(sources.oyez.advocates), id, id + ".txt");
+            let text = readFile(filePath, "", true);
+            if (text) {
+                let linesTXT = text.split('\n');
+                for (let i = 0; i < linesTXT.length; i++) {
+                    if (!linesTXT[i]) {
+                        linesTXT.splice(i--, 1);
+                    }
+                }
+                linesTXT.sort(function(l1, l2) {
+                    let date1, docket1, m1 = l1.match(/([^/]*)_([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])/);
+                    let date2, docket2, m2 = l2.match(/([^/]*)_([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])/);
+                    if (!m1) {
+                        if (l1) {
+                            warning("unexpected line: %s\n", l1);
+                        }
+                        date1 = docket1 = l1;
+                    } else {
+                        date1 = m1[2]; docket1 = m1[1];
+                        if (!m2) {
+                            if (l2) {
+                                warning("unexpected line: %s\n", l2);
+                            }
+                            date2 = docket2 = l2;
+                        } else {
+                            date2 = m2[2]; docket2 = m2[1];
+                        }
+                    }
+                    return date1 < date2? -1 : (date1 > date2? 1 : (docket1 < docket2? -1 : (docket1 > docket2? 1 : 0)));
+                });
+                writeFile(filePath, linesTXT.join('\n'));
+            }
+        });
+    }
+    done();
+}
+
+/**
  * fixDecisions()
  *
  * If --citations, then match up every decision record with a citation row.
@@ -3921,6 +3981,7 @@ gulp.task("lonerJustices", findLonerJustices);
 gulp.task("lonerParties", findLonerParties);
 gulp.task("backup", backupLonerDecisions);
 gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
+gulp.task("fixAdvocates", fixAdvocates);
 gulp.task("fixDecisions", fixDecisions);
 gulp.task("fixDockets", fixDockets);
 gulp.task("fixLOC", fixLOC);

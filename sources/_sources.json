@@ -48,7 +48,7 @@
   },
   "scotus": {
     "citationsHTML": "/sources/scotus/citations/*.*",
-    "download": {
+    "downloadDisabled": {
       "transcriptOld": {
         "start": 1968,
         "stop": 1999,
@@ -68,7 +68,8 @@
         "pattern": "<td style=\"text-align: left;\">\\s*<(?:div|span)[^>]*>\\s*<a href='([^']*)'[^>]*>\\s*(.*?)\\s*</a>\\s*</(?:div|span)>\\s*<(?:div|span)[^>]*>\\s*([^<]*)\\s*</(?:div|span)>\\s*</td>\\s*<td[^>]*>\\s*([0-9]+)/([0-9]+)/([0-9]+)\\s*</td>",
         "transform": {
           "$4": "%02d",
-          "$5": "%02d"
+          "$5": "%02d",
+          "$6": "%04d"
         },
         "host": "https://www.supremecourt.gov$1",
         "url": "https://www.supremecourt.gov/oral_arguments/argument_transcript/$1",
