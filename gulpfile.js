@@ -3753,7 +3753,9 @@ function createDownloadTask(name, url, dir, file, fDisplay)
     if (fs.existsSync(filePath)) {
         return false;
     }
-    if (fDisplay) printf("createDownloadTask(%s,%s,%s,%s)\n", name, url, dir, file);
+    if (fDisplay) {
+        printf("createDownloadTask(%s,%s,%s,%s)\n", name, url, dir, file);
+    }
     downloadTasks.push(name);
     gulp.task(name, function(done) {
         if (!fs.existsSync(dirPath)) {
@@ -3817,9 +3819,15 @@ function generateDownloadTasks(done)
                             let url = downloadGroup.url, file = downloadGroup.file;
                             for (let iToken = 1; iToken <= nTokens; iToken++) {
                                 let sToken = '$' + iToken;
-                                let sTransform = downloadGroup.transform[sToken];
-                                if (sTransform) {
-                                    match[iToken] = sprintf(sTransform, match[iToken]);
+                                let transform = downloadGroup.transform[sToken];
+                                if (transform) {
+                                    if (typeof transform == "string") {
+                                        match[iToken] = sprintf(transform, match[iToken]);
+                                    } else {
+                                        for (let i = 0; i < transform.length; i += 2) {
+                                            match[iToken] = match[iToken].replace(new RegExp(transform[i], "i"), transform[i+1]);
+                                        }
+                                    }
                                 }
                                 while (url.indexOf(sToken) >= 0) {
                                     if (match[iToken][0] == '/') {
