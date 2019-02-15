@@ -8,9 +8,11 @@ cases:
     title: "United States v. Curry"
     volume: "047"
     page: "106"
+    citation: "47 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Friday, March 3, 1848"
-    citation: "47 U.S. 106"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: lwoodbury
     dissenterName: "Levi Woodbury"
   - id: "1849-003"
@@ -18,9 +20,11 @@ cases:
     title: "Luther v. Borden"
     volume: "048"
     page: "001"
+    citation: "48 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 3, 1849"
-    citation: "48 U.S. 1"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: lwoodbury
     dissenterName: "Levi Woodbury"
   - id: "1849-026"
@@ -28,9 +32,11 @@ cases:
     title: "McDonald v. Hobson"
     volume: "048"
     page: "745"
+    citation: "48 U.S. 745"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 20, 1849"
-    citation: "48 U.S. 745"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: lwoodbury
     dissenterName: "Levi Woodbury"
   - id: "1850-130"
@@ -38,9 +44,11 @@ cases:
     title: "Hotchkiss v. Greenwood"
     volume: "052"
     page: "248"
+    citation: "52 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1851"
-    citation: "52 U.S. 248"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: lwoodbury
     dissenterName: "Levi Woodbury"
 ---

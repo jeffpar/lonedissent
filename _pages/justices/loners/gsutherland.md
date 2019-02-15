@@ -8,9 +8,12 @@ cases:
     title: "Ray Consol. Copper Co. v. United States"
     volume: "268"
     page: "373"
+    docket: "443"
+    citation: "268 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1925"
-    citation: "268 U.S. 373"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: gsutherland
     dissenterName: "George Sutherland"
   - id: "1925-044"
@@ -18,9 +21,12 @@ cases:
     title: "United States v. Robbins"
     volume: "269"
     page: "315"
+    docket: "493"
+    citation: "269 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1926"
-    citation: "269 U.S. 315"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: gsutherland
     dissenterName: "George Sutherland"
   - id: "1931-092"
@@ -28,9 +34,12 @@ cases:
     title: "Spencer Kellogg &amp; Sons, Inc. v. Hicks"
     volume: "285"
     page: "502"
+    docket: "430"
+    citation: "285 U.S. 502"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1932"
-    citation: "285 U.S. 502"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: gsutherland
     dissenterName: "George Sutherland"
   - id: "1936-062"
@@ -38,9 +47,12 @@ cases:
     title: "Swayne &amp; Hoyt, Ltd. v. United States"
     volume: "300"
     page: "297"
+    docket: "494"
+    citation: "300 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1937"
-    citation: "300 U.S. 297"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: gsutherland
     dissenterName: "George Sutherland"
 ---

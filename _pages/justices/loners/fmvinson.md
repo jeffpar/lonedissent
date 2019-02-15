@@ -8,9 +8,12 @@ cases:
     title: "Barrows v. Jackson"
     volume: "346"
     page: "249"
+    docket: "517"
+    citation: "346 U.S. 249"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1953"
-    citation: "346 U.S. 249"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: fmvinson
     dissenterName: "Fred Vinson"
 ---

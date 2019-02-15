@@ -8,9 +8,11 @@ cases:
     title: "Gwin v. Breedlove"
     volume: "043"
     page: "029"
+    citation: "43 U.S. 29"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 31, 1844"
-    citation: "43 U.S. 29"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1844-040"
@@ -18,9 +20,11 @@ cases:
     title: "McNutt ex rel. Leggett, Smith, &amp; Lawrence v. Bland"
     volume: "043"
     page: "009"
+    citation: "43 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 30, 1844"
-    citation: "43 U.S. 9"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1845-043"
@@ -28,9 +32,11 @@ cases:
     title: "Neil, Moore &amp; Co. v. Ohio"
     volume: "044"
     page: "720"
+    citation: "44 U.S. 720"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 26, 1845"
-    citation: "44 U.S. 720"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1847-019"
@@ -38,9 +44,11 @@ cases:
     title: "Rowan v. Runnels"
     volume: "046"
     page: "134"
+    citation: "46 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 26, 1847"
-    citation: "46 U.S. 134"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1849-039"
@@ -48,9 +56,11 @@ cases:
     title: "Townsend v. Jemison"
     volume: "048"
     page: "706"
+    citation: "48 U.S. 706"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1849"
-    citation: "48 U.S. 706"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1850-022"
@@ -58,9 +68,11 @@ cases:
     title: "Bennett v. Butterworth"
     volume: "049"
     page: "124"
+    citation: "49 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Friday, February 8, 1850"
-    citation: "49 U.S. 124"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1850-080"
@@ -68,9 +80,11 @@ cases:
     title: "Pennsylvania v. Wheeling &amp; Belmont Bridge Co."
     volume: "050"
     page: "647"
+    citation: "50 U.S. 647"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 29, 1850"
-    citation: "50 U.S. 647"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1850-101"
@@ -78,9 +92,11 @@ cases:
     title: "Barnard v. Adams"
     volume: "051"
     page: "270"
+    citation: "51 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 15, 1851"
-    citation: "51 U.S. 270"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1850-125"
@@ -88,9 +104,11 @@ cases:
     title: "St. John v. Paine"
     volume: "051"
     page: "557"
+    citation: "51 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Thursday, February 13, 1851"
-    citation: "51 U.S. 557"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1850-126"
@@ -98,9 +116,11 @@ cases:
     title: "Newton v. Stebbins"
     volume: "051"
     page: "586"
+    citation: "51 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Thursday, February 13, 1851"
-    citation: "51 U.S. 586"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1851-001"
@@ -108,9 +128,11 @@ cases:
     title: "Mitchell v. Harmony"
     volume: "054"
     page: "115"
+    citation: "54 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 12, 1852"
-    citation: "54 U.S. 115"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1851-038"
@@ -118,9 +140,11 @@ cases:
     title: "Propeller Genesee Chief v. Fitzhugh"
     volume: "053"
     page: "443"
+    citation: "53 U.S. 443"
     pdfSource: "loc"
     dateDecision: "Friday, February 20, 1852"
-    citation: "53 U.S. 443"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1851-054"
@@ -128,9 +152,11 @@ cases:
     title: "Rich v. Lambert"
     volume: "053"
     page: "347"
+    citation: "53 U.S. 347"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1852"
-    citation: "53 U.S. 347"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1851-057"
@@ -138,9 +164,11 @@ cases:
     title: "Fretz v. Bull"
     volume: "053"
     page: "466"
+    citation: "53 U.S. 466"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1852"
-    citation: "53 U.S. 466"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1853-023"
@@ -148,9 +176,11 @@ cases:
     title: "Northern Indiana R. Co. v. Michigan Central R. Co."
     volume: "056"
     page: "233"
+    citation: "56 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1854"
-    citation: "56 U.S. 233"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1854-022"
@@ -158,9 +188,11 @@ cases:
     title: "Bank of Tennessee v. Horn"
     volume: "058"
     page: "157"
+    citation: "58 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 16, 1855"
-    citation: "58 U.S. 157"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1854-023"
@@ -168,9 +200,11 @@ cases:
     title: "Providence v. Clapp"
     volume: "058"
     page: "161"
+    citation: "58 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 16, 1855"
-    citation: "58 U.S. 161"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1854-035"
@@ -178,9 +212,11 @@ cases:
     title: "Boston v. Lecraw"
     volume: "058"
     page: "426"
+    citation: "58 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1855"
-    citation: "58 U.S. 426"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1855-019"
@@ -188,9 +224,11 @@ cases:
     title: "United States v. Reading"
     volume: "059"
     page: "001"
+    citation: "59 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Friday, January 11, 1856"
-    citation: "59 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1855-046"
@@ -198,9 +236,11 @@ cases:
     title: "New York &amp; Cumberland R. Co. v. Myers"
     volume: "059"
     page: "246"
+    citation: "59 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1856"
-    citation: "59 U.S. 246"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1855-075"
@@ -208,9 +248,11 @@ cases:
     title: "Solidad de Arguello v. United States"
     volume: "059"
     page: "539"
+    citation: "59 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 539"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1855-076"
@@ -218,9 +260,11 @@ cases:
     title: "United States v. Cervantes"
     volume: "059"
     page: "553"
+    citation: "59 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 553"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1855-077"
@@ -228,9 +272,11 @@ cases:
     title: "United States v. Vaca"
     volume: "059"
     page: "556"
+    citation: "59 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 556"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1855-081"
@@ -238,9 +284,11 @@ cases:
     title: "Crockett v. Steamboat Isaac Newton"
     volume: "059"
     page: "581"
+    citation: "59 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 581"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1856-053"
@@ -248,9 +296,11 @@ cases:
     title: "United States v. Peralta"
     volume: "060"
     page: "343"
+    citation: "60 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
-    citation: "60 U.S. 343"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1856-055"
@@ -258,9 +308,11 @@ cases:
     title: "United States v. Sutherland"
     volume: "060"
     page: "363"
+    citation: "60 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
-    citation: "60 U.S. 363"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1857-033"
@@ -268,9 +320,11 @@ cases:
     title: "White v. Burnley"
     volume: "061"
     page: "235"
+    citation: "61 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1858"
-    citation: "61 U.S. 235"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1857-036"
@@ -278,9 +332,11 @@ cases:
     title: "Covington Drawbridge Co. v. Shepherd"
     volume: "061"
     page: "227"
+    citation: "61 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 24, 1858"
-    citation: "61 U.S. 227"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1857-039"
@@ -288,9 +344,11 @@ cases:
     title: "Spencer v. Lapsley"
     volume: "061"
     page: "264"
+    citation: "61 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Thursday, February 25, 1858"
-    citation: "61 U.S. 264"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1857-041"
@@ -298,9 +356,11 @@ cases:
     title: "McCormick v. Talcott"
     volume: "061"
     page: "402"
+    citation: "61 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Thursday, April 22, 1858"
-    citation: "61 U.S. 402"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1858-006"
@@ -308,9 +368,11 @@ cases:
     title: "Pennsylvania v. Ravenel"
     volume: "062"
     page: "103"
+    citation: "62 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 28, 1858"
-    citation: "62 U.S. 103"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1858-052"
@@ -318,9 +380,11 @@ cases:
     title: "Brittan v. Barnaby"
     volume: "062"
     page: "527"
+    citation: "62 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1859"
-    citation: "62 U.S. 527"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
   - id: "1858-063"
@@ -328,9 +392,11 @@ cases:
     title: "Board of Comm&apos;rs of Knox Cty. v. Wallace"
     volume: "062"
     page: "546"
+    citation: "62 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1859"
-    citation: "62 U.S. 546"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: pvdaniel
     dissenterName: "Peter Daniel"
 ---

@@ -8,9 +8,11 @@ cases:
     title: "Higginson v. Mein"
     volume: "008"
     page: "415"
+    citation: "8 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1808"
-    citation: "8 U.S. 415"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: hblivingston
     dissenterName: "Henry Livingston"
   - id: "1809-033"
@@ -18,9 +20,11 @@ cases:
     title: "Hepburn v. Auld"
     volume: "009"
     page: "262"
+    citation: "9 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 14, 1809"
-    citation: "9 U.S. 262"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: hblivingston
     dissenterName: "Henry Livingston"
   - id: "1814-041"
@@ -28,9 +32,11 @@ cases:
     title: "The Frances"
     volume: "012"
     page: "418"
+    citation: "12 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 15, 1814"
-    citation: "12 U.S. 418"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: hblivingston
     dissenterName: "Henry Livingston"
   - id: "1816-031"
@@ -38,9 +44,11 @@ cases:
     title: "The Edward"
     volume: "014"
     page: "261"
+    citation: "14 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Saturday, March 16, 1816"
-    citation: "14 U.S. 261"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: hblivingston
     dissenterName: "Henry Livingston"
   - id: "1820-006"
@@ -48,9 +56,11 @@ cases:
     title: "United States v. Smith"
     volume: "018"
     page: "153"
+    citation: "18 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Friday, February 25, 1820"
-    citation: "18 U.S. 153"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: hblivingston
     dissenterName: "Henry Livingston"
 ---

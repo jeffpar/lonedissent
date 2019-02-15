@@ -8,9 +8,12 @@ cases:
     title: "The Eliza Lines"
     volume: "199"
     page: "119"
+    docket: "12"
+    citation: "199 U.S. 119"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1905"
-    citation: "199 U.S. 119"
+    voteMajority: 5
+    voteMinority: 4
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-045"
@@ -18,9 +21,12 @@ cases:
     title: "American Colortype Co. v. Continental Colortype Co."
     volume: "188"
     page: "104"
+    docket: "440"
+    citation: "188 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1903"
-    citation: "188 U.S. 104"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-049"
@@ -28,9 +34,12 @@ cases:
     title: "Blackstone v. Miller"
     volume: "188"
     page: "189"
+    docket: "423"
+    citation: "188 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1903"
-    citation: "188 U.S. 189"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-052"
@@ -38,9 +47,12 @@ cases:
     title: "Bleistein v. Donaldson Lithographing Co."
     volume: "188"
     page: "239"
+    docket: "117"
+    citation: "188 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1903"
-    citation: "188 U.S. 239"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-058"
@@ -48,9 +60,12 @@ cases:
     title: "Francis v. United States"
     volume: "188"
     page: "375"
+    docket: "80"
+    citation: "188 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1903"
-    citation: "188 U.S. 375"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-088"
@@ -58,9 +73,12 @@ cases:
     title: "The Mangrove Prize Money"
     volume: "188"
     page: "720"
+    docket: "24"
+    citation: "188 U.S. 720"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1903"
-    citation: "188 U.S. 720"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-089"
@@ -68,9 +86,12 @@ cases:
     title: "Home Life Ins. Co. v. Fisher"
     volume: "188"
     page: "726"
+    docket: "121"
+    citation: "188 U.S. 726"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1903"
-    citation: "188 U.S. 726"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-090"
@@ -78,9 +99,12 @@ cases:
     title: "Kidd v. Alabama"
     volume: "188"
     page: "730"
+    docket: "158"
+    citation: "188 U.S. 730"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1903"
-    citation: "188 U.S. 730"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-091"
@@ -88,9 +112,12 @@ cases:
     title: "Fourth Nat. Bank v. Albaugh"
     volume: "188"
     page: "734"
+    docket: "159"
+    citation: "188 U.S. 734"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1903"
-    citation: "188 U.S. 734"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-138"
@@ -98,9 +125,12 @@ cases:
     title: "Pullman Co. v. Adams"
     volume: "189"
     page: "420"
+    docket: "138"
+    citation: "189 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1903"
-    citation: "189 U.S. 420"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-139"
@@ -108,9 +138,12 @@ cases:
     title: "National Bank &amp; Loan Co. v. Petrie"
     volume: "189"
     page: "423"
+    docket: "166"
+    citation: "189 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1903"
-    citation: "189 U.S. 423"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-141"
@@ -118,9 +151,12 @@ cases:
     title: "Brownfield v. South Carolina"
     volume: "189"
     page: "426"
+    docket: "172"
+    citation: "189 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1903"
-    citation: "189 U.S. 426"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-142"
@@ -128,9 +164,12 @@ cases:
     title: "Pardee v. Aldridge"
     volume: "189"
     page: "429"
+    docket: "137"
+    citation: "189 U.S. 429"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1903"
-    citation: "189 U.S. 429"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-143"
@@ -138,9 +177,12 @@ cases:
     title: "Knoxville Water Co. v. Knoxville"
     volume: "189"
     page: "434"
+    docket: "212"
+    citation: "189 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1903"
-    citation: "189 U.S. 434"
+    voteMajority: 6
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-144"
@@ -148,9 +190,12 @@ cases:
     title: "San Diego Land &amp; Town Co. v. Jasper"
     volume: "189"
     page: "439"
+    docket: "193"
+    citation: "189 U.S. 439"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1903"
-    citation: "189 U.S. 439"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-145"
@@ -158,9 +203,12 @@ cases:
     title: "Southern Pacific R. Co. v. United States"
     volume: "189"
     page: "447"
+    docket: "190"
+    citation: "189 U.S. 447"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1903"
-    citation: "189 U.S. 447"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-146"
@@ -168,9 +216,12 @@ cases:
     title: "The Paquete Habana"
     volume: "189"
     page: "453"
+    docket: "578"
+    citation: "189 U.S. 453"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1903"
-    citation: "189 U.S. 453"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-147"
@@ -178,9 +229,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Behymer"
     volume: "189"
     page: "468"
+    docket: "224"
+    citation: "189 U.S. 468"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1903"
-    citation: "189 U.S. 468"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-148"
@@ -188,9 +242,12 @@ cases:
     title: "United States v. Sweet"
     volume: "189"
     page: "471"
+    docket: "236"
+    citation: "189 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1903"
-    citation: "189 U.S. 471"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-149"
@@ -198,9 +255,12 @@ cases:
     title: "Giles v. Harris"
     volume: "189"
     page: "475"
+    docket: "493"
+    citation: "189 U.S. 475"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1903"
-    citation: "189 U.S. 475"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-152"
@@ -208,9 +268,12 @@ cases:
     title: "Hardin v. Shedd"
     volume: "190"
     page: "508"
+    docket: "56"
+    citation: "190 U.S. 508"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1903"
-    citation: "190 U.S. 508"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-172"
@@ -218,9 +281,12 @@ cases:
     title: "Globe Refining Co. v. Landa Cotton Oil Co."
     volume: "190"
     page: "540"
+    docket: "241"
+    citation: "190 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1903"
-    citation: "190 U.S. 540"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-173"
@@ -228,9 +294,12 @@ cases:
     title: "Queenan v. Oklahoma"
     volume: "190"
     page: "548"
+    docket: "246"
+    citation: "190 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1903"
-    citation: "190 U.S. 548"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-174"
@@ -238,9 +307,12 @@ cases:
     title: "Hutchinson v. Otis"
     volume: "190"
     page: "552"
+    docket: "634"
+    citation: "190 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1903"
-    citation: "190 U.S. 552"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-186"
@@ -248,9 +320,12 @@ cases:
     title: "Colombia v. Cauca Co."
     volume: "190"
     page: "524"
+    docket: "259"
+    citation: "190 U.S. 524"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1903"
-    citation: "190 U.S. 524"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-187"
@@ -258,9 +333,12 @@ cases:
     title: "Randolph v. Scruggs"
     volume: "190"
     page: "533"
+    docket: "272"
+    citation: "190 U.S. 533"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1903"
-    citation: "190 U.S. 533"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-192"
@@ -268,9 +346,12 @@ cases:
     title: "Kean v. Calumet Canal &amp; Improvement Co."
     volume: "190"
     page: "452"
+    docket: "8"
+    citation: "190 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1903"
-    citation: "190 U.S. 452"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-213"
@@ -278,9 +359,12 @@ cases:
     title: "Otis v. Parker"
     volume: "187"
     page: "606"
+    docket: "4"
+    citation: "187 U.S. 606"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1903"
-    citation: "187 U.S. 606"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-214"
@@ -288,9 +372,12 @@ cases:
     title: "Diamond Glue Co. v. United States Glue Co."
     volume: "187"
     page: "611"
+    docket: "119"
+    citation: "187 U.S. 611"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1903"
-    citation: "187 U.S. 611"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1902-215"
@@ -298,9 +385,12 @@ cases:
     title: "Hanley v. Kansas City Southern R. Co."
     volume: "187"
     page: "617"
+    docket: "131"
+    citation: "187 U.S. 617"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1903"
-    citation: "187 U.S. 617"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-005"
@@ -308,9 +398,12 @@ cases:
     title: "Beasley v. Texas &amp; Pacific R. Co."
     volume: "191"
     page: "492"
+    docket: "79"
+    citation: "191 U.S. 492"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1903"
-    citation: "191 U.S. 492"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-028"
@@ -318,9 +411,12 @@ cases:
     title: "Anglo-American Provision Co. v. Davis Provision Co."
     volume: "191"
     page: "373"
+    docket: "64"
+    citation: "191 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1903"
-    citation: "191 U.S. 373"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-029"
@@ -328,9 +424,12 @@ cases:
     title: "Anglo-American Provision Co. v. Davis Provision Co."
     volume: "191"
     page: "376"
+    docket: "63"
+    citation: "191 U.S. 376"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1903"
-    citation: "191 U.S. 376"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-030"
@@ -338,9 +437,12 @@ cases:
     title: "Wisconsin &amp; Michigan R. Co. v. Powers"
     volume: "191"
     page: "379"
+    docket: "77"
+    citation: "191 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1903"
-    citation: "191 U.S. 379"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-039"
@@ -348,9 +450,12 @@ cases:
     title: "St. Louis Hay &amp; Grain Co. v. United States"
     volume: "191"
     page: "159"
+    docket: "41"
+    citation: "191 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1903"
-    citation: "191 U.S. 159"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-040"
@@ -358,9 +463,12 @@ cases:
     title: "Missouri v. Dockery"
     volume: "191"
     page: "165"
+    docket: "180"
+    citation: "191 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1903"
-    citation: "191 U.S. 165"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-045"
@@ -368,9 +476,12 @@ cases:
     title: "Ex parte Joins"
     volume: "191"
     page: "093"
+    docket: "12 Orig."
+    citation: "191 U.S. 93"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1903"
-    citation: "191 U.S. 93"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-049"
@@ -378,9 +489,12 @@ cases:
     title: "Wright v. Morgan"
     volume: "191"
     page: "055"
+    docket: "13"
+    citation: "191 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Monday, October 26, 1903"
-    citation: "191 U.S. 55"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-053"
@@ -388,9 +502,12 @@ cases:
     title: "Rogers v. Alabama"
     volume: "192"
     page: "226"
+    docket: "407"
+    citation: "192 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1904"
-    citation: "192 U.S. 226"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-071"
@@ -398,9 +515,12 @@ cases:
     title: "McIntire v. McIntire"
     volume: "192"
     page: "116"
+    docket: "84"
+    citation: "192 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1904"
-    citation: "192 U.S. 116"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-072"
@@ -408,9 +528,12 @@ cases:
     title: "German Sav. and Loan Soc. v. Dormitzer"
     volume: "192"
     page: "125"
+    docket: "104"
+    citation: "192 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1904"
-    citation: "192 U.S. 125"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-073"
@@ -418,9 +541,12 @@ cases:
     title: "James v. Appel"
     volume: "192"
     page: "129"
+    docket: "108"
+    citation: "192 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1904"
-    citation: "192 U.S. 129"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-092"
@@ -428,9 +554,12 @@ cases:
     title: "Terre Haute &amp; Indianapolis R. Co. v. Indiana ex rel. Ketcham"
     volume: "194"
     page: "579"
+    docket: "264"
+    citation: "194 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1904"
-    citation: "194 U.S. 579"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-093"
@@ -438,9 +567,12 @@ cases:
     title: "Chandler v. Dix"
     volume: "194"
     page: "590"
+    docket: "261"
+    citation: "194 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1904"
-    citation: "194 U.S. 590"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-094"
@@ -448,9 +580,12 @@ cases:
     title: "Shaw v. City of Covington"
     volume: "194"
     page: "593"
+    docket: "246"
+    citation: "194 U.S. 593"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1904"
-    citation: "194 U.S. 593"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-095"
@@ -458,9 +593,12 @@ cases:
     title: "International Postal Supply Co. v. Bruce"
     volume: "194"
     page: "601"
+    docket: "215"
+    citation: "194 U.S. 601"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1904"
-    citation: "194 U.S. 601"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-123"
@@ -468,9 +606,12 @@ cases:
     title: "Davis v. Mills"
     volume: "194"
     page: "451"
+    docket: "235"
+    citation: "194 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1904"
-    citation: "194 U.S. 451"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-132"
@@ -478,9 +619,12 @@ cases:
     title: "Missouri, K. &amp; T. R. Co. v. May"
     volume: "194"
     page: "267"
+    docket: "185"
+    citation: "194 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1904"
-    citation: "194 U.S. 267"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-136"
@@ -488,9 +632,12 @@ cases:
     title: "Damon v. Hawaii"
     volume: "194"
     page: "154"
+    docket: "207"
+    citation: "194 U.S. 154"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1904"
-    citation: "194 U.S. 154"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-137"
@@ -498,9 +645,12 @@ cases:
     title: "United States v. Sing Tuck"
     volume: "194"
     page: "161"
+    docket: "591"
+    citation: "194 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1904"
-    citation: "194 U.S. 161"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-145"
@@ -508,9 +658,12 @@ cases:
     title: "Slater v. Mexican Nat. R. Co."
     volume: "194"
     page: "120"
+    docket: "162"
+    citation: "194 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1904"
-    citation: "194 U.S. 120"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-170"
@@ -518,9 +671,12 @@ cases:
     title: "Fargo v. Hart"
     volume: "193"
     page: "490"
+    docket: "154"
+    citation: "193 U.S. 490"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1904"
-    citation: "193 U.S. 490"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-171"
@@ -528,9 +684,12 @@ cases:
     title: "Rippey v. Texas"
     volume: "193"
     page: "504"
+    docket: "273"
+    citation: "193 U.S. 504"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1904"
-    citation: "193 U.S. 504"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-175"
@@ -538,9 +697,12 @@ cases:
     title: "Eaton v. Brown"
     volume: "193"
     page: "411"
+    docket: "171"
+    citation: "193 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1904"
-    citation: "193 U.S. 411"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-194"
@@ -548,9 +710,12 @@ cases:
     title: "Central Stock Yards Co. v. Louisville &amp; Nashville R. Co."
     volume: "192"
     page: "568"
+    docket: "149"
+    citation: "192 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "192 U.S. 568"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-195"
@@ -558,9 +723,12 @@ cases:
     title: "Wedding v. Meyler"
     volume: "192"
     page: "573"
+    docket: "125"
+    citation: "192 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "192 U.S. 573"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-204"
@@ -568,9 +736,12 @@ cases:
     title: "Ah How v. United States"
     volume: "193"
     page: "065"
+    docket: "307"
+    citation: "193 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "193 U.S. 65"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1903-212"
@@ -578,9 +749,12 @@ cases:
     title: "United States v. California &amp; Oregon Land Co."
     volume: "192"
     page: "355"
+    docket: "4"
+    citation: "192 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1904"
-    citation: "192 U.S. 355"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-007"
@@ -588,9 +762,12 @@ cases:
     title: "Lee v. Robinson"
     volume: "196"
     page: "064"
+    docket: "8"
+    citation: "196 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1904"
-    citation: "196 U.S. 64"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-015"
@@ -598,9 +775,12 @@ cases:
     title: "Ex parte Republic of Colombia"
     volume: "195"
     page: "604"
+    docket: "13"
+    citation: "195 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1904"
-    citation: "195 U.S. 604"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-032"
@@ -608,9 +788,12 @@ cases:
     title: "Seattle v. Kelleher"
     volume: "195"
     page: "351"
+    docket: "29"
+    citation: "195 U.S. 351"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1904"
-    citation: "195 U.S. 351"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-033"
@@ -618,9 +801,12 @@ cases:
     title: "The Blackheath"
     volume: "195"
     page: "361"
+    docket: "34"
+    citation: "195 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1904"
-    citation: "195 U.S. 361"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-034"
@@ -628,9 +814,12 @@ cases:
     title: "Citizens&apos; Nat. Bank of Kansas City v. Donnell"
     volume: "195"
     page: "369"
+    docket: "36"
+    citation: "195 U.S. 369"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1904"
-    citation: "195 U.S. 369"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-035"
@@ -638,9 +827,12 @@ cases:
     title: "Baltimore Shipbuilding &amp; Dry Dock Co. v. Baltimore"
     volume: "195"
     page: "375"
+    docket: "39"
+    citation: "195 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1904"
-    citation: "195 U.S. 375"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-038"
@@ -648,9 +840,12 @@ cases:
     title: "Wright v. Louisville &amp; Nashville R. Co."
     volume: "195"
     page: "219"
+    docket: "20"
+    citation: "195 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1904"
-    citation: "195 U.S. 219"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-045"
@@ -658,9 +853,12 @@ cases:
     title: "Aikens v. Wisconsin"
     volume: "195"
     page: "194"
+    docket: "3"
+    citation: "195 U.S. 194"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1904"
-    citation: "195 U.S. 194"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-056"
@@ -668,9 +866,12 @@ cases:
     title: "Union Trust Co. v. Wilson"
     volume: "198"
     page: "530"
+    docket: "424"
+    citation: "198 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1905"
-    citation: "198 U.S. 530"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-076"
@@ -678,9 +879,12 @@ cases:
     title: "Savannah, T. &amp; I. O. H. R. Co. v. Savannah"
     volume: "198"
     page: "392"
+    docket: "238"
+    citation: "198 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1905"
-    citation: "198 U.S. 392"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-085"
@@ -688,9 +892,12 @@ cases:
     title: "Board of Trade of Chicago v. Christie Grain &amp; Stock Co."
     volume: "198"
     page: "236"
+    docket: "224"
+    citation: "198 U.S. 236"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1905"
-    citation: "198 U.S. 236"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-086"
@@ -698,9 +905,12 @@ cases:
     title: "United States v. Ju Toy"
     volume: "198"
     page: "253"
+    docket: "535"
+    citation: "198 U.S. 253"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1905"
-    citation: "198 U.S. 253"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-093"
@@ -708,9 +918,12 @@ cases:
     title: "Jaster v. Currie"
     volume: "198"
     page: "144"
+    docket: "205"
+    citation: "198 U.S. 144"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1905"
-    citation: "198 U.S. 144"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-098"
@@ -718,9 +931,12 @@ cases:
     title: "Humphrey v. Tatman"
     volume: "198"
     page: "091"
+    docket: "169"
+    citation: "198 U.S. 91"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1905"
-    citation: "198 U.S. 91"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-099"
@@ -728,9 +944,12 @@ cases:
     title: "Remington v. Central Pacific R. Co."
     volume: "198"
     page: "095"
+    docket: "460"
+    citation: "198 U.S. 95"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1905"
-    citation: "198 U.S. 95"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-117"
@@ -738,9 +957,12 @@ cases:
     title: "Lincoln v. United States"
     volume: "197"
     page: "419"
+    docket: "149"
+    citation: "197 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1905"
-    citation: "197 U.S. 419"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-118"
@@ -748,9 +970,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Barber Asphalt Paving Co."
     volume: "197"
     page: "430"
+    docket: "170"
+    citation: "197 U.S. 430"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1905"
-    citation: "197 U.S. 430"
+    voteMajority: 6
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-119"
@@ -758,9 +983,12 @@ cases:
     title: "Stillman v. Combe"
     volume: "197"
     page: "436"
+    docket: "174"
+    citation: "197 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1905"
-    citation: "197 U.S. 436"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-124"
@@ -768,9 +996,12 @@ cases:
     title: "City of Dawson v. Columbia Avenue Saving Fund, Safe Deposit, Title &amp; Trust Co."
     volume: "197"
     page: "178"
+    docket: "154"
+    citation: "197 U.S. 178"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1905"
-    citation: "197 U.S. 178"
+    voteMajority: 6
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-125"
@@ -778,9 +1009,12 @@ cases:
     title: "Greer County v. Texas"
     volume: "197"
     page: "235"
+    docket: "160"
+    citation: "197 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1905"
-    citation: "197 U.S. 235"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-131"
@@ -788,9 +1022,12 @@ cases:
     title: "Bartlett v. United States"
     volume: "197"
     page: "230"
+    docket: "259"
+    citation: "197 U.S. 230"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1905"
-    citation: "197 U.S. 230"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-133"
@@ -798,9 +1035,12 @@ cases:
     title: "Gregg v. Metropolitan Trust Co."
     volume: "197"
     page: "183"
+    docket: "141"
+    citation: "197 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1905"
-    citation: "197 U.S. 183"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-170"
@@ -808,9 +1048,12 @@ cases:
     title: "United States v. Harvey Steel Co."
     volume: "196"
     page: "310"
+    docket: "275"
+    citation: "196 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1905"
-    citation: "196 U.S. 310"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-176"
@@ -818,9 +1061,12 @@ cases:
     title: "Swift &amp; Co. v. United States"
     volume: "196"
     page: "375"
+    docket: "103"
+    citation: "196 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1905"
-    citation: "196 U.S. 375"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-177"
@@ -828,9 +1074,12 @@ cases:
     title: "Small v. Rakestraw"
     volume: "196"
     page: "403"
+    docket: "133"
+    citation: "196 U.S. 403"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1905"
-    citation: "196 U.S. 403"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-195"
@@ -838,9 +1087,12 @@ cases:
     title: "The Germanic"
     volume: "196"
     page: "589"
+    docket: "128"
+    citation: "196 U.S. 589"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1905"
-    citation: "196 U.S. 589"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-196"
@@ -848,9 +1100,12 @@ cases:
     title: "Coulter v. Louisville &amp; Nashville R. Co."
     volume: "196"
     page: "599"
+    docket: "244"
+    citation: "196 U.S. 599"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1905"
-    citation: "196 U.S. 599"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1904-224"
@@ -858,9 +1113,12 @@ cases:
     title: "United States v. Whitridge"
     volume: "197"
     page: "135"
+    docket: "413"
+    citation: "197 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1905"
-    citation: "197 U.S. 135"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-013"
@@ -868,9 +1126,12 @@ cases:
     title: "Simpson v. United States"
     volume: "199"
     page: "397"
+    docket: "31"
+    citation: "199 U.S. 397"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1905"
-    citation: "199 U.S. 397"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-014"
@@ -878,9 +1139,12 @@ cases:
     title: "Carroll v. Greenwich Ins. Co. of N. Y."
     volume: "199"
     page: "401"
+    docket: "50"
+    citation: "199 U.S. 401"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1905"
-    citation: "199 U.S. 401"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-022"
@@ -888,9 +1152,12 @@ cases:
     title: "Tampa Water Works Co. v. Tampa"
     volume: "199"
     page: "241"
+    docket: "29"
+    citation: "199 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1905"
-    citation: "199 U.S. 241"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-023"
@@ -898,9 +1165,12 @@ cases:
     title: "Chesapeake Beach R. Co. v. Washington, P. &amp; C. R. Co."
     volume: "199"
     page: "247"
+    docket: "35"
+    citation: "199 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1905"
-    citation: "199 U.S. 247"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-033"
@@ -908,9 +1178,12 @@ cases:
     title: "Minnesota Iron Co. v. Kline"
     volume: "199"
     page: "593"
+    docket: "96"
+    citation: "199 U.S. 593"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1905"
-    citation: "199 U.S. 593"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-041"
@@ -918,9 +1191,12 @@ cases:
     title: "Clark v. Roller"
     volume: "199"
     page: "541"
+    docket: "72"
+    citation: "199 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1905"
-    citation: "199 U.S. 541"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-058"
@@ -928,9 +1204,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Deer"
     volume: "200"
     page: "176"
+    docket: "164"
+    citation: "200 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1906"
-    citation: "200 U.S. 176"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-059"
@@ -938,9 +1217,12 @@ cases:
     title: "Cincinnati, Portsmouth, Big Sandy and Pomeroy Packet Co. v. Bay"
     volume: "200"
     page: "179"
+    docket: "174"
+    citation: "200 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1906"
-    citation: "200 U.S. 179"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-060"
@@ -948,9 +1230,12 @@ cases:
     title: "Ballmann v. Fagin"
     volume: "200"
     page: "186"
+    docket: "240"
+    citation: "200 U.S. 186"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1906"
-    citation: "200 U.S. 186"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-067"
@@ -958,9 +1243,12 @@ cases:
     title: "Carter v. Hawaii"
     volume: "200"
     page: "255"
+    docket: "144"
+    citation: "200 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1906"
-    citation: "200 U.S. 255"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-087"
@@ -968,9 +1256,12 @@ cases:
     title: "Missouri v. Illinois"
     volume: "200"
     page: "496"
+    docket: "4 Orig."
+    citation: "200 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1906"
-    citation: "200 U.S. 496"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-088"
@@ -978,9 +1269,12 @@ cases:
     title: "Strickley v. Highland Boy Gold Mining Co."
     volume: "200"
     page: "527"
+    docket: "172"
+    citation: "200 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1906"
-    citation: "200 U.S. 527"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-089"
@@ -988,9 +1282,12 @@ cases:
     title: "Whitney v. Dresser"
     volume: "200"
     page: "532"
+    docket: "180"
+    citation: "200 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1906"
-    citation: "200 U.S. 532"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-092"
@@ -998,9 +1295,12 @@ cases:
     title: "United States v. Clark"
     volume: "200"
     page: "601"
+    docket: "359"
+    citation: "200 U.S. 601"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1906"
-    citation: "200 U.S. 601"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-101"
@@ -1008,9 +1308,12 @@ cases:
     title: "Hazelton v. Sheckells"
     volume: "202"
     page: "071"
+    docket: "225"
+    citation: "202 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1906"
-    citation: "202 U.S. 71"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-108"
@@ -1018,9 +1321,12 @@ cases:
     title: "United States v. Milliken Imprinting Co."
     volume: "202"
     page: "168"
+    docket: "227"
+    citation: "202 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1906"
-    citation: "202 U.S. 168"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-116"
@@ -1028,9 +1334,12 @@ cases:
     title: "Pearson v. Williams"
     volume: "202"
     page: "281"
+    docket: "237"
+    citation: "202 U.S. 281"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1906"
-    citation: "202 U.S. 281"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-117"
@@ -1038,9 +1347,12 @@ cases:
     title: "Halsell v. Renfrow"
     volume: "202"
     page: "287"
+    docket: "254"
+    citation: "202 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1906"
-    citation: "202 U.S. 287"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-118"
@@ -1048,9 +1360,12 @@ cases:
     title: "Merchants&apos; Nat. Bank of Cincinnati v. Wehrmann"
     volume: "202"
     page: "295"
+    docket: "256"
+    citation: "202 U.S. 295"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1906"
-    citation: "202 U.S. 295"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-127"
@@ -1058,9 +1373,12 @@ cases:
     title: "Cox v. Texas"
     volume: "202"
     page: "446"
+    docket: "266"
+    citation: "202 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1906"
-    citation: "202 U.S. 446"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-136"
@@ -1068,9 +1386,12 @@ cases:
     title: "New York ex rel. New York Central &amp; Hudson River R. Co. v. Miller"
     volume: "202"
     page: "584"
+    docket: "81"
+    citation: "202 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1906"
-    citation: "202 U.S. 584"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-137"
@@ -1078,9 +1399,12 @@ cases:
     title: "Missouri v. Illinois"
     volume: "202"
     page: "598"
+    docket: "4 Orig."
+    citation: "202 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1906"
-    citation: "202 U.S. 598"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-141"
@@ -1088,9 +1412,12 @@ cases:
     title: "Rawlins v. Georgia"
     volume: "201"
     page: "638"
+    docket: "547"
+    citation: "201 U.S. 638"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1906"
-    citation: "201 U.S. 638"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-157"
@@ -1098,9 +1425,12 @@ cases:
     title: "Soper v. Lawrence Brothers Co."
     volume: "201"
     page: "359"
+    docket: "206"
+    citation: "201 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1906"
-    citation: "201 U.S. 359"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-158"
@@ -1108,9 +1438,12 @@ cases:
     title: "Rodriguez v. Vivoni"
     volume: "201"
     page: "371"
+    docket: "209"
+    citation: "201 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1906"
-    citation: "201 U.S. 371"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-163"
@@ -1118,9 +1451,12 @@ cases:
     title: "St. Louis Dressed Beef &amp; Provision Co. v. Maryland Casualty Co."
     volume: "201"
     page: "173"
+    docket: "197"
+    citation: "201 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1906"
-    citation: "201 U.S. 173"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1905-171"
@@ -1128,9 +1464,12 @@ cases:
     title: "Otis Co. v. Ludlow Mfg. Co."
     volume: "201"
     page: "140"
+    docket: "73"
+    citation: "201 U.S. 140"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1906"
-    citation: "201 U.S. 140"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-002"
@@ -1138,9 +1477,12 @@ cases:
     title: "Landram v. Jordan"
     volume: "203"
     page: "056"
+    docket: "179"
+    citation: "203 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1906"
-    citation: "203 U.S. 56"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-003"
@@ -1148,9 +1490,12 @@ cases:
     title: "Fidelity Mut. Life Ins. Co. v. Clark"
     volume: "203"
     page: "064"
+    docket: "25"
+    citation: "203 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, October 29, 1906"
-    citation: "203 U.S. 64"
+    voteMajority: 5
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-005"
@@ -1158,9 +1503,12 @@ cases:
     title: "In re Moran"
     volume: "203"
     page: "096"
+    docket: "8 Orig."
+    citation: "203 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1906"
-    citation: "203 U.S. 96"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-006"
@@ -1168,9 +1516,12 @@ cases:
     title: "Northern Assurance Co. of London v. Grand View Building Assn."
     volume: "203"
     page: "106"
+    docket: "40"
+    citation: "203 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1906"
-    citation: "203 U.S. 106"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-011"
@@ -1178,9 +1529,12 @@ cases:
     title: "Burt v. Smith"
     volume: "203"
     page: "129"
+    docket: "67"
+    citation: "203 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1906"
-    citation: "203 U.S. 129"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-012"
@@ -1188,9 +1542,12 @@ cases:
     title: "United States v. Riggs"
     volume: "203"
     page: "136"
+    docket: "167"
+    citation: "203 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1906"
-    citation: "203 U.S. 136"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-015"
@@ -1198,9 +1555,12 @@ cases:
     title: "National Council of Junior Order of United American Mechanics of United States v. State Council of Va., Junior Order of United American Mechanics of Va."
     volume: "203"
     page: "151"
+    docket: "89"
+    citation: "203 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1906"
-    citation: "203 U.S. 151"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-040"
@@ -1208,9 +1568,12 @@ cases:
     title: "Chattanooga Foundry &amp; Pipe Works v. Atlanta"
     volume: "203"
     page: "390"
+    docket: "94"
+    citation: "203 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 390"
+    voteMajority: 6
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-041"
@@ -1218,9 +1581,12 @@ cases:
     title: "Guy v. Donald"
     volume: "203"
     page: "399"
+    docket: "90"
+    citation: "203 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 399"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-042"
@@ -1228,9 +1594,12 @@ cases:
     title: "United States v. Dalcour"
     volume: "203"
     page: "408"
+    docket: "69"
+    citation: "203 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 408"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-053"
@@ -1238,9 +1607,12 @@ cases:
     title: "Rearick v. Pennsylvania"
     volume: "203"
     page: "507"
+    docket: "47"
+    citation: "203 U.S. 507"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1906"
-    citation: "203 U.S. 507"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-059"
@@ -1248,9 +1620,12 @@ cases:
     title: "United States v. Shipp"
     volume: "203"
     page: "563"
+    docket: "12 Orig."
+    citation: "203 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, December 24, 1906"
-    citation: "203 U.S. 563"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-076"
@@ -1258,9 +1633,12 @@ cases:
     title: "Georgia v. Tennesssee Copper Co."
     volume: "206"
     page: "230"
+    docket: "5 Orig."
+    citation: "206 U.S. 230"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1907"
-    citation: "206 U.S. 230"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-077"
@@ -1268,9 +1646,12 @@ cases:
     title: "United States v. Brown"
     volume: "206"
     page: "240"
+    docket: "283"
+    citation: "206 U.S. 240"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1907"
-    citation: "206 U.S. 240"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-078"
@@ -1278,9 +1659,12 @@ cases:
     title: "Ellis v. United States"
     volume: "206"
     page: "246"
+    docket: "567"
+    citation: "206 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1907"
-    citation: "206 U.S. 246"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-094"
@@ -1288,9 +1672,12 @@ cases:
     title: "Copper Queen Consol. Mining Co. v. Territorial Bd. of Equalization of Ariz."
     volume: "206"
     page: "474"
+    docket: "280"
+    citation: "206 U.S. 474"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1907"
-    citation: "206 U.S. 474"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-108"
@@ -1298,9 +1685,12 @@ cases:
     title: "Harrison v. Magoon"
     volume: "205"
     page: "501"
+    docket: "107"
+    citation: "205 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1907"
-    citation: "205 U.S. 501"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-112"
@@ -1308,9 +1698,12 @@ cases:
     title: "Patterson v. Colorado ex rel. Attorney General of Colo."
     volume: "205"
     page: "454"
+    docket: "223"
+    citation: "205 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1907"
-    citation: "205 U.S. 454"
+    voteMajority: 7
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-122"
@@ -1318,9 +1711,12 @@ cases:
     title: "William W. Bierce, Ltd. v. Hutchins"
     volume: "205"
     page: "340"
+    docket: "212"
+    citation: "205 U.S. 340"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1907"
-    citation: "205 U.S. 340"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-123"
@@ -1328,9 +1724,12 @@ cases:
     title: "Kawananakoa v. Polyblank"
     volume: "205"
     page: "349"
+    docket: "273"
+    citation: "205 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1907"
-    citation: "205 U.S. 349"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-133"
@@ -1338,9 +1737,12 @@ cases:
     title: "Moore v. McGuire"
     volume: "205"
     page: "214"
+    docket: "222"
+    citation: "205 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1907"
-    citation: "205 U.S. 214"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-143"
@@ -1348,9 +1750,12 @@ cases:
     title: "Martin v. District of Columbia"
     volume: "205"
     page: "135"
+    docket: "190"
+    citation: "205 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1907"
-    citation: "205 U.S. 135"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-145"
@@ -1358,9 +1763,12 @@ cases:
     title: "Schlemmer v. Buffalo, R. &amp; P. R. Co."
     volume: "205"
     page: "001"
+    docket: "41"
+    citation: "205 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1907"
-    citation: "205 U.S. 1"
+    voteMajority: 5
+    voteMinority: 4
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-151"
@@ -1368,9 +1776,12 @@ cases:
     title: "United States ex rel. West v. Hitchcock"
     volume: "205"
     page: "080"
+    docket: "194"
+    citation: "205 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1907"
-    citation: "205 U.S. 80"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-172"
@@ -1378,9 +1789,12 @@ cases:
     title: "Osborne v. Clark"
     volume: "204"
     page: "565"
+    docket: "159"
+    citation: "204 U.S. 565"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 565"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-173"
@@ -1388,9 +1802,12 @@ cases:
     title: "Mason City &amp; Fort Dodge R. Co. v. Boynton"
     volume: "204"
     page: "570"
+    docket: "170"
+    citation: "204 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 570"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-174"
@@ -1398,9 +1815,12 @@ cases:
     title: "Allen v. United States"
     volume: "204"
     page: "581"
+    docket: "38"
+    citation: "204 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 581"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-175"
@@ -1408,9 +1828,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. Babcock"
     volume: "204"
     page: "585"
+    docket: "215"
+    citation: "204 U.S. 585"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 585"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-183"
@@ -1418,9 +1841,12 @@ cases:
     title: "Merchants Heat &amp; Light Co. v. J. B. Clow &amp; Sons"
     volume: "204"
     page: "286"
+    docket: "118"
+    citation: "204 U.S. 286"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1907"
-    citation: "204 U.S. 286"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-186"
@@ -1428,9 +1854,12 @@ cases:
     title: "East Central Eureka Mining Co. v. Central Eureka Mining Co."
     volume: "204"
     page: "266"
+    docket: "141"
+    citation: "204 U.S. 266"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1907"
-    citation: "204 U.S. 266"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-190"
@@ -1438,9 +1867,12 @@ cases:
     title: "Erie R. Co. v. Erie &amp; Western Transp. Co."
     volume: "204"
     page: "220"
+    docket: "134"
+    citation: "204 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1907"
-    citation: "204 U.S. 220"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1906-204"
@@ -1448,9 +1880,12 @@ cases:
     title: "New York ex rel. Hatch v. Reardon"
     volume: "204"
     page: "152"
+    docket: "310"
+    citation: "204 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1907"
-    citation: "204 U.S. 152"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-005"
@@ -1458,9 +1893,12 @@ cases:
     title: "Ex parte First Nat. Bank of Chicago"
     volume: "207"
     page: "061"
+    docket: "38 Orig."
+    citation: "207 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Monday, October 28, 1907"
-    citation: "207 U.S. 61"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-008"
@@ -1468,9 +1906,12 @@ cases:
     title: "Interstate Consolidated R. Co. v. Massachusetts"
     volume: "207"
     page: "079"
+    docket: "13"
+    citation: "207 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Monday, November 4, 1907"
-    citation: "207 U.S. 79"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-010"
@@ -1478,9 +1919,12 @@ cases:
     title: "Leathe v. Thomas"
     volume: "207"
     page: "093"
+    docket: "21"
+    citation: "207 U.S. 93"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1907"
-    citation: "207 U.S. 93"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-013"
@@ -1488,9 +1932,12 @@ cases:
     title: "Taylor v. United States"
     volume: "207"
     page: "120"
+    docket: "238"
+    citation: "207 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1907"
-    citation: "207 U.S. 120"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-027"
@@ -1498,9 +1945,12 @@ cases:
     title: "Arkansas Southern R. Co. v. German Nat. Bank"
     volume: "207"
     page: "270"
+    docket: "56"
+    citation: "207 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1907"
-    citation: "207 U.S. 270"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-028"
@@ -1508,9 +1958,12 @@ cases:
     title: "Patch v. Wabash R. Co."
     volume: "207"
     page: "277"
+    docket: "57"
+    citation: "207 U.S. 277"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1907"
-    citation: "207 U.S. 277"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-035"
@@ -1518,9 +1971,12 @@ cases:
     title: "Paraiso v. United States"
     volume: "207"
     page: "368"
+    docket: "23"
+    citation: "207 U.S. 368"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1907"
-    citation: "207 U.S. 368"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-036"
@@ -1528,9 +1984,12 @@ cases:
     title: "Flemister v. United States"
     volume: "207"
     page: "372"
+    docket: "70"
+    citation: "207 U.S. 372"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1907"
-    citation: "207 U.S. 372"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-039"
@@ -1538,9 +1997,12 @@ cases:
     title: "The Hamilton"
     volume: "207"
     page: "398"
+    docket: "71"
+    citation: "207 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1907"
-    citation: "207 U.S. 398"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-047"
@@ -1548,9 +2010,12 @@ cases:
     title: "Carrington v. United States"
     volume: "208"
     page: "001"
+    docket: "223"
+    citation: "208 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1908"
-    citation: "208 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-048"
@@ -1558,9 +2023,12 @@ cases:
     title: "Chin Yow v. United States"
     volume: "208"
     page: "008"
+    docket: "76"
+    citation: "208 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1908"
-    citation: "208 U.S. 8"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-060"
@@ -1568,9 +2036,12 @@ cases:
     title: "Ex parte Simon"
     volume: "208"
     page: "144"
+    docket: "13 Orig."
+    citation: "208 U.S. 144"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1908"
-    citation: "208 U.S. 144"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-070"
@@ -1578,9 +2049,12 @@ cases:
     title: "United Dictionary Co. v. G. &amp; C. Merriam Co."
     volume: "208"
     page: "260"
+    docket: "129"
+    citation: "208 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1908"
-    citation: "208 U.S. 260"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-071"
@@ -1588,9 +2062,12 @@ cases:
     title: "Donnell v. Herring-Hall-Marvin Safe Co."
     volume: "208"
     page: "267"
+    docket: "106"
+    citation: "208 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1908"
-    citation: "208 U.S. 267"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-096"
@@ -1598,9 +2075,12 @@ cases:
     title: "Rankin v. City Nat. Bank of Kansas City"
     volume: "208"
     page: "541"
+    docket: "51"
+    citation: "208 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 541"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-097"
@@ -1608,9 +2088,12 @@ cases:
     title: "First Nat. Bank of Albuquerque v. Albright"
     volume: "208"
     page: "548"
+    docket: "123"
+    citation: "208 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 548"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-098"
@@ -1618,9 +2101,12 @@ cases:
     title: "Herring-Hall-Marvin Safe Co. v. Hall&apos;s Safe Co."
     volume: "208"
     page: "554"
+    docket: "136"
+    citation: "208 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 554"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-099"
@@ -1628,9 +2114,12 @@ cases:
     title: "United States v. Sisseton and Wahpeton Bands of Sioux Indians"
     volume: "208"
     page: "561"
+    docket: "338"
+    citation: "208 U.S. 561"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 561"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-118"
@@ -1638,9 +2127,12 @@ cases:
     title: "Old Dominion Copper Mining &amp; Smelting Co. v. Lewisohn"
     volume: "210"
     page: "206"
+    docket: "206"
+    citation: "210 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1908"
-    citation: "210 U.S. 206"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-119"
@@ -1648,9 +2140,12 @@ cases:
     title: "Galveston, H. &amp; S. A. R. Co. v. Texas"
     volume: "210"
     page: "217"
+    docket: "207"
+    citation: "210 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1908"
-    citation: "210 U.S. 217"
+    voteMajority: 5
+    voteMinority: 4
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-120"
@@ -1658,9 +2153,12 @@ cases:
     title: "Fauntleroy v. Lum"
     volume: "210"
     page: "230"
+    docket: "215"
+    citation: "210 U.S. 230"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1908"
-    citation: "210 U.S. 230"
+    voteMajority: 5
+    voteMinority: 4
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-126"
@@ -1668,9 +2166,12 @@ cases:
     title: "Kansas City Northwestern R. Co. v. Zimmerman"
     volume: "210"
     page: "336"
+    docket: "231"
+    citation: "210 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1908"
-    citation: "210 U.S. 336"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-137"
@@ -1678,9 +2179,12 @@ cases:
     title: "Central R. Co. of N. J. v. Jersey City"
     volume: "209"
     page: "473"
+    docket: "203"
+    citation: "209 U.S. 473"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1908"
-    citation: "209 U.S. 473"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-139"
@@ -1688,9 +2192,12 @@ cases:
     title: "United States v. Chandler-Dunbar Water Power Co."
     volume: "209"
     page: "447"
+    docket: "599"
+    citation: "209 U.S. 447"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1908"
-    citation: "209 U.S. 447"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-151"
@@ -1698,9 +2205,12 @@ cases:
     title: "Hudson County Water Co. v. McCarter"
     volume: "209"
     page: "349"
+    docket: "184"
+    citation: "209 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1908"
-    citation: "209 U.S. 349"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-165"
@@ -1708,9 +2218,12 @@ cases:
     title: "Dotson v. Milliken"
     volume: "209"
     page: "237"
+    docket: "48"
+    citation: "209 U.S. 237"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1908"
-    citation: "209 U.S. 237"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-169"
@@ -1718,9 +2231,12 @@ cases:
     title: "O&apos;Reilly de Camara v. Brooke"
     volume: "209"
     page: "045"
+    docket: "104"
+    citation: "209 U.S. 45"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1908"
-    citation: "209 U.S. 45"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-170"
@@ -1728,9 +2244,12 @@ cases:
     title: "Smith v. Rainey"
     volume: "209"
     page: "053"
+    docket: "144"
+    citation: "209 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1908"
-    citation: "209 U.S. 53"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-172"
@@ -1738,9 +2257,12 @@ cases:
     title: "United States v. Thayer"
     volume: "209"
     page: "039"
+    docket: "390"
+    citation: "209 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1908"
-    citation: "209 U.S. 39"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1907-173"
@@ -1748,9 +2270,12 @@ cases:
     title: "Battle v. United States"
     volume: "209"
     page: "036"
+    docket: "438"
+    citation: "209 U.S. 36"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1908"
-    citation: "209 U.S. 36"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-003"
@@ -1758,9 +2283,12 @@ cases:
     title: "Steele v. Culver"
     volume: "211"
     page: "026"
+    docket: "393"
+    citation: "211 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Monday, October 26, 1908"
-    citation: "211 U.S. 26"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-006"
@@ -1768,9 +2296,12 @@ cases:
     title: "Louisiana v. Garfield"
     volume: "211"
     page: "070"
+    docket: "7"
+    citation: "211 U.S. 70"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1908"
-    citation: "211 U.S. 70"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-009"
@@ -1778,9 +2309,12 @@ cases:
     title: "Honolulu Rapid Transit &amp; Land Co. v. Wilder"
     volume: "211"
     page: "137"
+    docket: "23"
+    citation: "211 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1908"
-    citation: "211 U.S. 137"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-010"
@@ -1788,9 +2322,12 @@ cases:
     title: "Honolulu Rapid Transit &amp; Land Co. v. Wilder"
     volume: "211"
     page: "144"
+    docket: "22"
+    citation: "211 U.S. 144"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1908"
-    citation: "211 U.S. 144"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-018"
@@ -1798,9 +2335,12 @@ cases:
     title: "Prentis v. Atlantic Coast Line Co."
     volume: "211"
     page: "210"
+    docket: "270"
+    citation: "211 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1908"
-    citation: "211 U.S. 210"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-032"
@@ -1808,9 +2348,12 @@ cases:
     title: "Harriman v. ICC"
     volume: "211"
     page: "407"
+    docket: "315"
+    citation: "211 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1908"
-    citation: "211 U.S. 407"
+    voteMajority: 5
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-033"
@@ -1818,9 +2361,12 @@ cases:
     title: "Hutchins v. William W. Bierce, Ltd."
     volume: "211"
     page: "429"
+    docket: "447"
+    citation: "211 U.S. 429"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1908"
-    citation: "211 U.S. 429"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-036"
@@ -1828,9 +2374,12 @@ cases:
     title: "Paddell v. City of New York"
     volume: "211"
     page: "446"
+    docket: "42"
+    citation: "211 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1908"
-    citation: "211 U.S. 446"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-037"
@@ -1838,9 +2387,12 @@ cases:
     title: "Bailey v. Alabama"
     volume: "211"
     page: "452"
+    docket: "538"
+    citation: "211 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1908"
-    citation: "211 U.S. 452"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-048"
@@ -1848,9 +2400,12 @@ cases:
     title: "Reid v. United States"
     volume: "211"
     page: "529"
+    docket: "552"
+    citation: "211 U.S. 529"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1909"
-    citation: "211 U.S. 529"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-062"
@@ -1858,9 +2413,12 @@ cases:
     title: "Moyer v. Peabody"
     volume: "212"
     page: "078"
+    docket: "55"
+    citation: "212 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1909"
-    citation: "212 U.S. 78"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-066"
@@ -1868,9 +2426,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Central Stock Yards Co."
     volume: "212"
     page: "132"
+    docket: "51"
+    citation: "212 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1909"
-    citation: "212 U.S. 132"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-070"
@@ -1878,9 +2439,12 @@ cases:
     title: "Spreckels v. Brown"
     volume: "212"
     page: "208"
+    docket: "61"
+    citation: "212 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1909"
-    citation: "212 U.S. 208"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-091"
@@ -1888,9 +2452,12 @@ cases:
     title: "Frederic L. Grant Shoe Co. v. W. M. Laird Co."
     volume: "212"
     page: "445"
+    docket: "35"
+    citation: "212 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "212 U.S. 445"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-092"
@@ -1898,9 +2465,12 @@ cases:
     title: "Cari&ntilde;o v. Insular Government of Philippine Islands"
     volume: "212"
     page: "449"
+    docket: "72"
+    citation: "212 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "212 U.S. 449"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-093"
@@ -1908,9 +2478,12 @@ cases:
     title: "Santos v. Holy Roman Catholic and Apostolic Church, Tambobong Parish"
     volume: "212"
     page: "463"
+    docket: "73"
+    citation: "212 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "212 U.S. 463"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-094"
@@ -1918,9 +2491,12 @@ cases:
     title: "The Eugene F. Moran"
     volume: "212"
     page: "466"
+    docket: "87"
+    citation: "212 U.S. 466"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "212 U.S. 466"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-095"
@@ -1928,9 +2504,12 @@ cases:
     title: "Bagley v. General Fire Extinguisher Co."
     volume: "212"
     page: "477"
+    docket: "96"
+    citation: "212 U.S. 477"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "212 U.S. 477"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-107"
@@ -1938,9 +2517,12 @@ cases:
     title: "Western Union Telegraph Co. v. Wilson"
     volume: "213"
     page: "052"
+    docket: "65"
+    citation: "213 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1909"
-    citation: "213 U.S. 52"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-109"
@@ -1948,9 +2530,12 @@ cases:
     title: "Mammoth Mining Co. v. Grand Central Mining Co."
     volume: "213"
     page: "072"
+    docket: "97"
+    citation: "213 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1909"
-    citation: "213 U.S. 72"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-110"
@@ -1958,9 +2543,12 @@ cases:
     title: "Missouri v. Kansas"
     volume: "213"
     page: "078"
+    docket: "6 Orig."
+    citation: "213 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1909"
-    citation: "213 U.S. 78"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-122"
@@ -1968,9 +2556,12 @@ cases:
     title: "Selliger v. Kentucky"
     volume: "213"
     page: "200"
+    docket: "115"
+    citation: "213 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1909"
-    citation: "213 U.S. 200"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-133"
@@ -1978,9 +2569,12 @@ cases:
     title: "Van Gieson v. Maile"
     volume: "213"
     page: "338"
+    docket: "121"
+    citation: "213 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1909"
-    citation: "213 U.S. 338"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-134"
@@ -1988,9 +2582,12 @@ cases:
     title: "Boquillas Land &amp; Cattle Co. v. Curtis"
     volume: "213"
     page: "339"
+    docket: "133"
+    citation: "213 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1909"
-    citation: "213 U.S. 339"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-135"
@@ -1998,9 +2595,12 @@ cases:
     title: "American Banana Co. v. United Fruit Co."
     volume: "213"
     page: "347"
+    docket: "686"
+    citation: "213 U.S. 347"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1909"
-    citation: "213 U.S. 347"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-140"
@@ -2008,9 +2608,12 @@ cases:
     title: "Manson v. Williams"
     volume: "213"
     page: "453"
+    docket: "169"
+    citation: "213 U.S. 453"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1909"
-    citation: "213 U.S. 453"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-156"
@@ -2018,9 +2621,12 @@ cases:
     title: "Dupree v. Mansur"
     volume: "214"
     page: "161"
+    docket: "124"
+    citation: "214 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1909"
-    citation: "214 U.S. 161"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-157"
@@ -2028,9 +2634,12 @@ cases:
     title: "Ubarri v. Laborde"
     volume: "214"
     page: "168"
+    docket: "137"
+    citation: "214 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1909"
-    citation: "214 U.S. 168"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-158"
@@ -2038,9 +2647,12 @@ cases:
     title: "Laborde v. Ubarri"
     volume: "214"
     page: "173"
+    docket: "194"
+    citation: "214 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1909"
-    citation: "214 U.S. 173"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-159"
@@ -2048,9 +2660,12 @@ cases:
     title: "Leech v. Louisiana"
     volume: "214"
     page: "175"
+    docket: "152"
+    citation: "214 U.S. 175"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1909"
-    citation: "214 U.S. 175"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-160"
@@ -2058,9 +2673,12 @@ cases:
     title: "Des Moines v. Des Moines City R. Co."
     volume: "214"
     page: "179"
+    docket: "171"
+    citation: "214 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1909"
-    citation: "214 U.S. 179"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1908-161"
@@ -2068,9 +2686,12 @@ cases:
     title: "Peck v. Tribune Co."
     volume: "214"
     page: "185"
+    docket: "191"
+    citation: "214 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1909"
-    citation: "214 U.S. 185"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-002"
@@ -2078,9 +2699,12 @@ cases:
     title: "Reavis v. Fianza"
     volume: "215"
     page: "016"
+    docket: "16"
+    citation: "215 U.S. 16"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1909"
-    citation: "215 U.S. 16"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-005"
@@ -2088,9 +2712,12 @@ cases:
     title: "United States v. Union Supply Co."
     volume: "215"
     page: "050"
+    docket: "120"
+    citation: "215 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1909"
-    citation: "215 U.S. 50"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-006"
@@ -2098,9 +2725,12 @@ cases:
     title: "Fleming v. McCurtain"
     volume: "215"
     page: "056"
+    docket: "253"
+    citation: "215 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1909"
-    citation: "215 U.S. 56"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-009"
@@ -2108,9 +2738,12 @@ cases:
     title: "Sylvester v. Washington"
     volume: "215"
     page: "080"
+    docket: "40"
+    citation: "215 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1909"
-    citation: "215 U.S. 80"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-017"
@@ -2118,9 +2751,12 @@ cases:
     title: "Rumford Chemical Works v. Hygienic Chemical Co. of N. J."
     volume: "215"
     page: "156"
+    docket: "121"
+    citation: "215 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1909"
-    citation: "215 U.S. 156"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-018"
@@ -2128,9 +2764,12 @@ cases:
     title: "Steward v. American Lava Co."
     volume: "215"
     page: "161"
+    docket: "27"
+    citation: "215 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1909"
-    citation: "215 U.S. 161"
+    voteMajority: 6
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-030"
@@ -2138,9 +2777,12 @@ cases:
     title: "Snyder v. Rosenbaum"
     volume: "215"
     page: "261"
+    docket: "25"
+    citation: "215 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1909"
-    citation: "215 U.S. 261"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-035"
@@ -2148,9 +2790,12 @@ cases:
     title: "Illinois Central R. Co. v. Sheegog"
     volume: "215"
     page: "308"
+    docket: "41"
+    citation: "215 U.S. 308"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1909"
-    citation: "215 U.S. 308"
+    voteMajority: 5
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-036"
@@ -2158,9 +2803,12 @@ cases:
     title: "Graves v. Ashburn"
     volume: "215"
     page: "331"
+    docket: "51"
+    citation: "215 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1909"
-    citation: "215 U.S. 331"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-037"
@@ -2168,9 +2816,12 @@ cases:
     title: "Scott County Macadamized Road Co. v. Missouri ex rel. Hines"
     volume: "215"
     page: "336"
+    docket: "52"
+    citation: "215 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1909"
-    citation: "215 U.S. 336"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-044"
@@ -2178,9 +2829,12 @@ cases:
     title: "Tiglao v. Insular Government of Philippine Islands"
     volume: "215"
     page: "410"
+    docket: "37"
+    citation: "215 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1910"
-    citation: "215 U.S. 410"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-053"
@@ -2188,9 +2842,12 @@ cases:
     title: "Brill v. Washington Ry. &amp; Electric Co."
     volume: "215"
     page: "527"
+    docket: "66"
+    citation: "215 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1910"
-    citation: "215 U.S. 527"
+    voteMajority: 6
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-061"
@@ -2198,9 +2855,12 @@ cases:
     title: "Conley v. Ballinger"
     volume: "216"
     page: "084"
+    docket: "77"
+    citation: "216 U.S. 84"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1910"
-    citation: "216 U.S. 84"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-062"
@@ -2208,9 +2868,12 @@ cases:
     title: "King v. West Virginia"
     volume: "216"
     page: "092"
+    docket: "445"
+    citation: "216 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1910"
-    citation: "216 U.S. 92"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-087"
@@ -2218,9 +2881,12 @@ cases:
     title: "Laurel Hill Cemetery v. City and County of San Francisco"
     volume: "216"
     page: "358"
+    docket: "100"
+    citation: "216 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 358"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-088"
@@ -2228,9 +2894,12 @@ cases:
     title: "Hawaiian Trust Co. v. Von Holt"
     volume: "216"
     page: "367"
+    docket: "106"
+    citation: "216 U.S. 367"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 367"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-089"
@@ -2238,9 +2907,12 @@ cases:
     title: "United States v. Plowman"
     volume: "216"
     page: "372"
+    docket: "96"
+    citation: "216 U.S. 372"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 372"
+    voteMajority: 7
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-090"
@@ -2248,9 +2920,12 @@ cases:
     title: "Saxlehner v. Wagner"
     volume: "216"
     page: "375"
+    docket: "81"
+    citation: "216 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 375"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-105"
@@ -2258,9 +2933,12 @@ cases:
     title: "Board of Assessors of Orleans v. New York Life Ins. Co."
     volume: "216"
     page: "517"
+    docket: "112"
+    citation: "216 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1910"
-    citation: "216 U.S. 517"
+    voteMajority: 7
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-107"
@@ -2268,9 +2946,12 @@ cases:
     title: "ICC v. Delaware, L. &amp; W. R. Co."
     volume: "216"
     page: "531"
+    docket: "362"
+    citation: "216 U.S. 531"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1910"
-    citation: "216 U.S. 531"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-108"
@@ -2278,9 +2959,12 @@ cases:
     title: "ICC v. Northern Pacific R. Co."
     volume: "216"
     page: "538"
+    docket: "570"
+    citation: "216 U.S. 538"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1910"
-    citation: "216 U.S. 538"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-112"
@@ -2288,9 +2972,12 @@ cases:
     title: "Northern Pacific R. Co. v. North Dakota ex rel. McCue"
     volume: "216"
     page: "579"
+    docket: "553"
+    citation: "216 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1910"
-    citation: "216 U.S. 579"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-114"
@@ -2298,9 +2985,12 @@ cases:
     title: "Garcia Maytin v. Vela"
     volume: "216"
     page: "598"
+    docket: "245"
+    citation: "216 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1910"
-    citation: "216 U.S. 598"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-126"
@@ -2308,9 +2998,12 @@ cases:
     title: "Boston Chamber of Commerce v. Boston"
     volume: "217"
     page: "189"
+    docket: "99"
+    citation: "217 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1910"
-    citation: "217 U.S. 189"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-127"
@@ -2318,9 +3011,12 @@ cases:
     title: "Missouri Pacific R. Co. v. Nebraska"
     volume: "217"
     page: "196"
+    docket: "127"
+    citation: "217 U.S. 196"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1910"
-    citation: "217 U.S. 196"
+    voteMajority: 5
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-136"
@@ -2328,9 +3024,12 @@ cases:
     title: "Stewart v. Griffith"
     volume: "217"
     page: "323"
+    docket: "145"
+    citation: "217 U.S. 323"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1910"
-    citation: "217 U.S. 323"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-137"
@@ -2338,9 +3037,12 @@ cases:
     title: "United States v. Welch"
     volume: "217"
     page: "333"
+    docket: "147"
+    citation: "217 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1910"
-    citation: "217 U.S. 333"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-140"
@@ -2348,9 +3050,12 @@ cases:
     title: "Standard Oil Co. of Ky. v. Tennessee"
     volume: "217"
     page: "413"
+    docket: "160"
+    citation: "217 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1910"
-    citation: "217 U.S. 413"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-149"
@@ -2358,9 +3063,12 @@ cases:
     title: "H. C. Cook Co. v. Beecher"
     volume: "217"
     page: "497"
+    docket: "659"
+    citation: "217 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1910"
-    citation: "217 U.S. 497"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-150"
@@ -2368,9 +3076,12 @@ cases:
     title: "Stoffela v. Nugent"
     volume: "217"
     page: "499"
+    docket: "179"
+    citation: "217 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1910"
-    citation: "217 U.S. 499"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-151"
@@ -2378,9 +3089,12 @@ cases:
     title: "Javierre v. Central Altagracia"
     volume: "217"
     page: "502"
+    docket: "171"
+    citation: "217 U.S. 502"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1910"
-    citation: "217 U.S. 502"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-167"
@@ -2388,9 +3102,12 @@ cases:
     title: "In re Cleland"
     volume: "218"
     page: "120"
+    docket: "12 Orig."
+    citation: "218 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1910"
-    citation: "218 U.S. 120"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-168"
@@ -2398,9 +3115,12 @@ cases:
     title: "Dozier v. Alabama"
     volume: "218"
     page: "124"
+    docket: "105"
+    citation: "218 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1910"
-    citation: "218 U.S. 124"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1909-169"
@@ -2408,9 +3128,12 @@ cases:
     title: "Thomas v. Sugarman"
     volume: "218"
     page: "129"
+    docket: "131"
+    citation: "218 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1910"
-    citation: "218 U.S. 129"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-002"
@@ -2418,9 +3141,12 @@ cases:
     title: "Holt v. United States"
     volume: "218"
     page: "245"
+    docket: "231"
+    citation: "218 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Monday, October 31, 1910"
-    citation: "218 U.S. 245"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-004"
@@ -2428,9 +3154,12 @@ cases:
     title: "Rickey Land &amp; Cattle Co. v. Miller &amp; Lux"
     volume: "218"
     page: "258"
+    docket: "4"
+    citation: "218 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1910"
-    citation: "218 U.S. 258"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-005"
@@ -2438,9 +3167,12 @@ cases:
     title: "The Ira M. Hedges"
     volume: "218"
     page: "264"
+    docket: "18"
+    citation: "218 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1910"
-    citation: "218 U.S. 264"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-008"
@@ -2448,9 +3180,12 @@ cases:
     title: "Richardson v. Ainsa"
     volume: "218"
     page: "289"
+    docket: "28"
+    citation: "218 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1910"
-    citation: "218 U.S. 289"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-009"
@@ -2458,9 +3193,12 @@ cases:
     title: "Duryea Power Co. v. Sternbergh"
     volume: "218"
     page: "299"
+    docket: "29"
+    citation: "218 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1910"
-    citation: "218 U.S. 299"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-022"
@@ -2468,9 +3206,12 @@ cases:
     title: "Arkansas Southern R. Co. v. Louisiana &amp; Arkansas R. Co."
     volume: "218"
     page: "431"
+    docket: "38"
+    citation: "218 U.S. 431"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1910"
-    citation: "218 U.S. 431"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-023"
@@ -2478,9 +3219,12 @@ cases:
     title: "Fisher v. New Orleans"
     volume: "218"
     page: "438"
+    docket: "43"
+    citation: "218 U.S. 438"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1910"
-    citation: "218 U.S. 438"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-037"
@@ -2488,9 +3232,12 @@ cases:
     title: "Calder v. Michigan ex rel. Attorney General"
     volume: "218"
     page: "591"
+    docket: "58"
+    citation: "218 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1910"
-    citation: "218 U.S. 591"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-038"
@@ -2498,9 +3245,12 @@ cases:
     title: "United States v. Kissel"
     volume: "218"
     page: "601"
+    docket: "390"
+    citation: "218 U.S. 601"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1910"
-    citation: "218 U.S. 601"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-043"
@@ -2508,9 +3258,12 @@ cases:
     title: "Atlantic, Gulf &amp; Pacific Co. v. Government of Philippine Islands"
     volume: "219"
     page: "017"
+    docket: "64"
+    citation: "219 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1910"
-    citation: "219 U.S. 17"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-044"
@@ -2518,9 +3271,12 @@ cases:
     title: "Title Guaranty &amp; Trust Co. of Scranton v. Crane Co."
     volume: "219"
     page: "024"
+    docket: "67"
+    citation: "219 U.S. 24"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1910"
-    citation: "219 U.S. 24"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-052"
@@ -2528,9 +3284,12 @@ cases:
     title: "Noble State Bank v. Haskell"
     volume: "219"
     page: "104"
+    docket: "71"
+    citation: "219 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1911"
-    citation: "219 U.S. 104"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-053"
@@ -2538,9 +3297,12 @@ cases:
     title: "Schallenberger v. First State Bank of Holstein"
     volume: "219"
     page: "114"
+    docket: "445"
+    citation: "219 U.S. 114"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1911"
-    citation: "219 U.S. 114"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-054"
@@ -2548,9 +3310,12 @@ cases:
     title: "Assaria State Bank v. Dolley"
     volume: "219"
     page: "121"
+    docket: "617"
+    citation: "219 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1911"
-    citation: "219 U.S. 121"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-055"
@@ -2558,9 +3323,12 @@ cases:
     title: "Engel v. O&apos;Malley"
     volume: "219"
     page: "128"
+    docket: "703"
+    citation: "219 U.S. 128"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1911"
-    citation: "219 U.S. 128"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-070"
@@ -2568,9 +3336,12 @@ cases:
     title: "Sexton v. Dreyfus"
     volume: "219"
     page: "339"
+    docket: "662"
+    citation: "219 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1911"
-    citation: "219 U.S. 339"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-084"
@@ -2578,9 +3349,12 @@ cases:
     title: "Noble State Bank v. Haskell"
     volume: "219"
     page: "575"
+    docket: "71"
+    citation: "219 U.S. 575"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1911"
-    citation: "219 U.S. 575"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-085"
@@ -2588,9 +3362,12 @@ cases:
     title: "Virginia v. West Virginia"
     volume: "220"
     page: "001"
+    docket: "3 Orig."
+    citation: "220 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1911"
-    citation: "220 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-086"
@@ -2598,9 +3375,12 @@ cases:
     title: "United States v. Atchison, T. &amp; S. F. R. Co."
     volume: "220"
     page: "037"
+    docket: "504"
+    citation: "220 U.S. 37"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1911"
-    citation: "220 U.S. 37"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-090"
@@ -2608,9 +3388,12 @@ cases:
     title: "Taylor v. Leesnitzer"
     volume: "220"
     page: "090"
+    docket: "45"
+    citation: "220 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1911"
-    citation: "220 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-105"
@@ -2618,9 +3401,12 @@ cases:
     title: "Enriquez v. Go-Tiongco"
     volume: "220"
     page: "307"
+    docket: "95"
+    citation: "220 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1911"
-    citation: "220 U.S. 307"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-106"
@@ -2628,9 +3414,12 @@ cases:
     title: "Arnett v. Reade"
     volume: "220"
     page: "311"
+    docket: "98"
+    citation: "220 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1911"
-    citation: "220 U.S. 311"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-107"
@@ -2638,9 +3427,12 @@ cases:
     title: "United States v. O&apos;Brien"
     volume: "220"
     page: "321"
+    docket: "108"
+    citation: "220 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1911"
-    citation: "220 U.S. 321"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-118"
@@ -2648,9 +3440,12 @@ cases:
     title: "Sac and Fox Indians of Miss. in Iowa v. Sac and Fox Indians of Miss. in Okla."
     volume: "220"
     page: "481"
+    docket: "614"
+    citation: "220 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1911"
-    citation: "220 U.S. 481"
+    voteMajority: 7
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-120"
@@ -2658,9 +3453,12 @@ cases:
     title: "Sena v. American Turquoise Co."
     volume: "220"
     page: "497"
+    docket: "73"
+    citation: "220 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1911"
-    citation: "220 U.S. 497"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-121"
@@ -2668,9 +3466,12 @@ cases:
     title: "Sperry &amp; Hutchinson Co. v. Rhodes"
     volume: "220"
     page: "502"
+    docket: "128"
+    citation: "220 U.S. 502"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1911"
-    citation: "220 U.S. 502"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-137"
@@ -2678,9 +3479,12 @@ cases:
     title: "Jacobs v. Beecham"
     volume: "221"
     page: "263"
+    docket: "139"
+    citation: "221 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "221 U.S. 263"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-138"
@@ -2688,9 +3492,12 @@ cases:
     title: "In re Harris"
     volume: "221"
     page: "274"
+    docket: "165"
+    citation: "221 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "221 U.S. 274"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-139"
@@ -2698,9 +3505,12 @@ cases:
     title: "Strassheim v. Daily"
     volume: "221"
     page: "280"
+    docket: "638"
+    citation: "221 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "221 U.S. 280"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-155"
@@ -2708,9 +3518,12 @@ cases:
     title: "Bean v. Morris"
     volume: "221"
     page: "485"
+    docket: "122"
+    citation: "221 U.S. 485"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1911"
-    citation: "221 U.S. 485"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-156"
@@ -2718,9 +3531,12 @@ cases:
     title: "United States v. Johnson"
     volume: "221"
     page: "488"
+    docket: "433"
+    citation: "221 U.S. 488"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1911"
-    citation: "221 U.S. 488"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1910-157"
@@ -2728,9 +3544,12 @@ cases:
     title: "Glucksman v. Henkel"
     volume: "221"
     page: "508"
+    docket: "944"
+    citation: "221 U.S. 508"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1911"
-    citation: "221 U.S. 508"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-022"
@@ -2738,9 +3557,12 @@ cases:
     title: "Lewers &amp; Cooke, Ltd. v. Atcherly"
     volume: "222"
     page: "285"
+    docket: "69"
+    citation: "222 U.S. 285"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1911"
-    citation: "222 U.S. 285"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-023"
@@ -2748,9 +3570,12 @@ cases:
     title: "Mayer v. American Security &amp; Trust Co."
     volume: "222"
     page: "295"
+    docket: "77"
+    citation: "222 U.S. 295"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1911"
-    citation: "222 U.S. 295"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-035"
@@ -2758,9 +3583,12 @@ cases:
     title: "Grigsby v. Russell"
     volume: "222"
     page: "149"
+    docket: "53"
+    citation: "222 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1911"
-    citation: "222 U.S. 149"
+    voteMajority: 6
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-036"
@@ -2768,9 +3596,12 @@ cases:
     title: "United States v. Fidelity Trust Co."
     volume: "222"
     page: "158"
+    docket: "280"
+    citation: "222 U.S. 158"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1911"
-    citation: "222 U.S. 158"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-040"
@@ -2778,9 +3609,12 @@ cases:
     title: "ICC v. Diffenbaugh"
     volume: "222"
     page: "042"
+    docket: "285"
+    citation: "222 U.S. 42"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1911"
-    citation: "222 U.S. 42"
+    voteMajority: 5
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-041"
@@ -2788,9 +3622,12 @@ cases:
     title: "Lenman v. Jones"
     volume: "222"
     page: "051"
+    docket: "19"
+    citation: "222 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1911"
-    citation: "222 U.S. 51"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-042"
@@ -2798,9 +3635,12 @@ cases:
     title: "Kalem Co. v. Harper Brothers"
     volume: "222"
     page: "055"
+    docket: "26"
+    citation: "222 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1911"
-    citation: "222 U.S. 55"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-048"
@@ -2808,9 +3648,12 @@ cases:
     title: "United States v. Plyler"
     volume: "222"
     page: "015"
+    docket: "440"
+    citation: "222 U.S. 15"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1911"
-    citation: "222 U.S. 15"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-050"
@@ -2818,9 +3661,12 @@ cases:
     title: "Blinn v. Nelson"
     volume: "222"
     page: "001"
+    docket: "5"
+    citation: "222 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, October 23, 1911"
-    citation: "222 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-051"
@@ -2828,9 +3674,12 @@ cases:
     title: "Virginia v. West Virginia"
     volume: "222"
     page: "017"
+    docket: "3 Orig."
+    citation: "222 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1911"
-    citation: "222 U.S. 17"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-056"
@@ -2838,9 +3687,12 @@ cases:
     title: "Sexton v. Kessler &amp; Co."
     volume: "225"
     page: "090"
+    docket: "92"
+    citation: "225 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1912"
-    citation: "225 U.S. 90"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-057"
@@ -2848,9 +3700,12 @@ cases:
     title: "Southern R. Co. v. Burlington Lumber Co."
     volume: "225"
     page: "099"
+    docket: "236"
+    citation: "225 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1912"
-    citation: "225 U.S. 99"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-080"
@@ -2858,9 +3713,12 @@ cases:
     title: "Louisville v. Cumberland Telephone &amp; Telegraph Co."
     volume: "225"
     page: "430"
+    docket: "761"
+    citation: "225 U.S. 430"
     pdfSource: "loc"
     dateDecision: "Friday, June 7, 1912"
-    citation: "225 U.S. 430"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-081"
@@ -2868,9 +3726,12 @@ cases:
     title: "Messenger v. Anderson"
     volume: "225"
     page: "436"
+    docket: "150"
+    citation: "225 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Sunday, June 2, 1912"
-    citation: "225 U.S. 436"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-111"
@@ -2878,9 +3739,12 @@ cases:
     title: "Treat v. Grand Canyon R. Co."
     volume: "222"
     page: "448"
+    docket: "86"
+    citation: "222 U.S. 448"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1912"
-    citation: "222 U.S. 448"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-112"
@@ -2888,9 +3752,12 @@ cases:
     title: "Gandia v. Pettingill"
     volume: "222"
     page: "452"
+    docket: "97"
+    citation: "222 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1912"
-    citation: "222 U.S. 452"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-113"
@@ -2898,9 +3765,12 @@ cases:
     title: "United States v. McMullen"
     volume: "222"
     page: "460"
+    docket: "100"
+    citation: "222 U.S. 460"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1912"
-    citation: "222 U.S. 460"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-114"
@@ -2908,9 +3778,12 @@ cases:
     title: "Cuba R. Co. v. Crosby"
     volume: "222"
     page: "473"
+    docket: "124"
+    citation: "222 U.S. 473"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1912"
-    citation: "222 U.S. 473"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-115"
@@ -2918,9 +3791,12 @@ cases:
     title: "Porto Rico Sugar Co. v. Lorenzo"
     volume: "222"
     page: "481"
+    docket: "154"
+    citation: "222 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1912"
-    citation: "222 U.S. 481"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-128"
@@ -2928,9 +3804,12 @@ cases:
     title: "Quong Wing v. Kirkendall"
     volume: "223"
     page: "059"
+    docket: "119"
+    citation: "223 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1912"
-    citation: "223 U.S. 59"
+    voteMajority: 6
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-129"
@@ -2938,9 +3817,12 @@ cases:
     title: "Noble v. Gallardo y Seary"
     volume: "223"
     page: "065"
+    docket: "147"
+    citation: "223 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1912"
-    citation: "223 U.S. 65"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-130"
@@ -2948,9 +3830,12 @@ cases:
     title: "United States v. Wong You"
     volume: "223"
     page: "067"
+    docket: "597"
+    citation: "223 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1912"
-    citation: "223 U.S. 67"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-147"
@@ -2958,9 +3843,12 @@ cases:
     title: "Ker &amp; Co. v. Couden"
     volume: "223"
     page: "268"
+    docket: "11"
+    citation: "223 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 268"
+    voteMajority: 7
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-148"
@@ -2968,9 +3856,12 @@ cases:
     title: "Atchison, T. &amp; S. F. R. Co. v. O&apos;Connor"
     volume: "223"
     page: "280"
+    docket: "162"
+    citation: "223 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 280"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-149"
@@ -2978,9 +3869,12 @@ cases:
     title: "Collins v. Texas"
     volume: "223"
     page: "288"
+    docket: "165"
+    citation: "223 U.S. 288"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 288"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-150"
@@ -2988,9 +3882,12 @@ cases:
     title: "Meyer v. Wells, Fargo &amp; Co."
     volume: "223"
     page: "298"
+    docket: "624"
+    citation: "223 U.S. 298"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 298"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-172"
@@ -2998,9 +3895,12 @@ cases:
     title: "Southern Pacific R. Co. v. United States"
     volume: "223"
     page: "560"
+    docket: "121"
+    citation: "223 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1912"
-    citation: "223 U.S. 560"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-173"
@@ -3008,9 +3908,12 @@ cases:
     title: "United States v. Southern Pacific R. Co."
     volume: "223"
     page: "565"
+    docket: "128"
+    citation: "223 U.S. 565"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1912"
-    citation: "223 U.S. 565"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-180"
@@ -3018,9 +3921,12 @@ cases:
     title: "Cedar Rapids Gas Light Co. v. Cedar Rapids"
     volume: "223"
     page: "655"
+    docket: "163"
+    citation: "223 U.S. 655"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1912"
-    citation: "223 U.S. 655"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-181"
@@ -3028,9 +3934,12 @@ cases:
     title: "Wingert v. First Nat. Bank of Hagerstown"
     volume: "223"
     page: "670"
+    docket: "176"
+    citation: "223 U.S. 670"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1912"
-    citation: "223 U.S. 670"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-187"
@@ -3038,9 +3947,12 @@ cases:
     title: "Beutler v. Grand Trunk Junction R. Co."
     volume: "224"
     page: "085"
+    docket: "194"
+    citation: "224 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1912"
-    citation: "224 U.S. 85"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-197"
@@ -3048,9 +3960,12 @@ cases:
     title: "Western Union Telegraph Co. v. Richmond"
     volume: "224"
     page: "160"
+    docket: "195"
+    citation: "224 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1912"
-    citation: "224 U.S. 160"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-198"
@@ -3058,9 +3973,12 @@ cases:
     title: "World&apos;s Fair Mining Co. v. Powers"
     volume: "224"
     page: "173"
+    docket: "207"
+    citation: "224 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1912"
-    citation: "224 U.S. 173"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-199"
@@ -3068,9 +3986,12 @@ cases:
     title: "Swanson v. Sears"
     volume: "224"
     page: "180"
+    docket: "217"
+    citation: "224 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1912"
-    citation: "224 U.S. 180"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-212"
@@ -3078,9 +3999,12 @@ cases:
     title: "Pomona v. Sunset Telephone &amp; Telegraph Co."
     volume: "224"
     page: "330"
+    docket: "215"
+    citation: "224 U.S. 330"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1912"
-    citation: "224 U.S. 330"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-222"
@@ -3088,9 +4012,11 @@ cases:
     title: "Washington Home for Incurables v. American Security &amp; Trust Co."
     volume: "224"
     page: "486"
+    citation: "224 U.S. 486"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1912"
-    citation: "224 U.S. 486"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-223"
@@ -3098,9 +4024,11 @@ cases:
     title: "American Security &amp; Trust Co. v. Commissioners of D. C."
     volume: "224"
     page: "491"
+    citation: "224 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1912"
-    citation: "224 U.S. 491"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-231"
@@ -3108,9 +4036,12 @@ cases:
     title: "Waskey v. Chambers"
     volume: "224"
     page: "564"
+    docket: "221"
+    citation: "224 U.S. 564"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1912"
-    citation: "224 U.S. 564"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-232"
@@ -3118,9 +4049,12 @@ cases:
     title: "Leary v. United States"
     volume: "224"
     page: "567"
+    docket: "508"
+    citation: "224 U.S. 567"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1912"
-    citation: "224 U.S. 567"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1911-233"
@@ -3128,9 +4062,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Howell"
     volume: "224"
     page: "577"
+    docket: "947"
+    citation: "224 U.S. 577"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1912"
-    citation: "224 U.S. 577"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-001"
@@ -3138,9 +4075,12 @@ cases:
     title: "Breese v. United States"
     volume: "226"
     page: "001"
+    docket: "476"
+    citation: "226 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, October 28, 1912"
-    citation: "226 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-002"
@@ -3148,9 +4088,12 @@ cases:
     title: "Harty v. Victoria"
     volume: "226"
     page: "012"
+    docket: "13"
+    citation: "226 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1912"
-    citation: "226 U.S. 12"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-003"
@@ -3158,9 +4101,12 @@ cases:
     title: "United States v. Baltimore &amp; Ohio Southwestern R. Co."
     volume: "226"
     page: "014"
+    docket: "648"
+    citation: "226 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1912"
-    citation: "226 U.S. 14"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-005"
@@ -3168,9 +4114,12 @@ cases:
     title: "Smith v. Hitchcock"
     volume: "226"
     page: "053"
+    docket: "31"
+    citation: "226 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1912"
-    citation: "226 U.S. 53"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-013"
@@ -3178,9 +4127,12 @@ cases:
     title: "Burnet v. Desmornes y Alvarez"
     volume: "226"
     page: "145"
+    docket: "11"
+    citation: "226 U.S. 145"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 145"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-014"
@@ -3188,9 +4140,12 @@ cases:
     title: "Jones v. Springer"
     volume: "226"
     page: "148"
+    docket: "23"
+    citation: "226 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 148"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-015"
@@ -3198,9 +4153,12 @@ cases:
     title: "Central Lumber Co. v. South Dakota"
     volume: "226"
     page: "157"
+    docket: "51"
+    citation: "226 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 157"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-016"
@@ -3208,9 +4166,12 @@ cases:
     title: "Southwestern Brewery &amp; Ice Co. v. Schmidt"
     volume: "226"
     page: "162"
+    docket: "55"
+    citation: "226 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 162"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-031"
@@ -3218,9 +4179,12 @@ cases:
     title: "Robertson v. Gordon"
     volume: "226"
     page: "311"
+    docket: "56"
+    citation: "226 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1912"
-    citation: "226 U.S. 311"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-032"
@@ -3228,9 +4192,12 @@ cases:
     title: "Murray v. City of Pocatello"
     volume: "226"
     page: "318"
+    docket: "575"
+    citation: "226 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1912"
-    citation: "226 U.S. 318"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-036"
@@ -3238,9 +4205,12 @@ cases:
     title: "Darnell v. Indiana"
     volume: "226"
     page: "390"
+    docket: "78"
+    citation: "226 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1912"
-    citation: "226 U.S. 390"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-037"
@@ -3248,9 +4218,12 @@ cases:
     title: "Keatley v. Furey"
     volume: "226"
     page: "399"
+    docket: "84"
+    citation: "226 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1912"
-    citation: "226 U.S. 399"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-046"
@@ -3258,9 +4231,12 @@ cases:
     title: "Ubeda v. Zialcita"
     volume: "226"
     page: "452"
+    docket: "77"
+    citation: "226 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1913"
-    citation: "226 U.S. 452"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-047"
@@ -3268,9 +4244,12 @@ cases:
     title: "Pittsburg Steel Co. v. Baltimore Equitable Soc."
     volume: "226"
     page: "455"
+    docket: "103"
+    citation: "226 U.S. 455"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1913"
-    citation: "226 U.S. 455"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-048"
@@ -3278,9 +4257,12 @@ cases:
     title: "Marshall Dental Mfg. Co. v. Iowa"
     volume: "226"
     page: "460"
+    docket: "104"
+    citation: "226 U.S. 460"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1913"
-    citation: "226 U.S. 460"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-049"
@@ -3288,9 +4270,12 @@ cases:
     title: "Kalanianaole v. Smithies"
     volume: "226"
     page: "462"
+    docket: "109"
+    citation: "226 U.S. 462"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1913"
-    citation: "226 U.S. 462"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-069"
@@ -3298,9 +4283,12 @@ cases:
     title: "Gray v. Taylor"
     volume: "227"
     page: "051"
+    docket: "322"
+    citation: "227 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1913"
-    citation: "227 U.S. 51"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-077"
@@ -3308,9 +4296,12 @@ cases:
     title: "Heike v. United States"
     volume: "227"
     page: "131"
+    docket: "520"
+    citation: "227 U.S. 131"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1913"
-    citation: "227 U.S. 131"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-082"
@@ -3318,9 +4309,12 @@ cases:
     title: "Guttierrez del Arroyo v. Graham"
     volume: "227"
     page: "181"
+    docket: "129"
+    citation: "227 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1913"
-    citation: "227 U.S. 181"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-083"
@@ -3328,9 +4322,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Schwyhart"
     volume: "227"
     page: "184"
+    docket: "132"
+    citation: "227 U.S. 184"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1913"
-    citation: "227 U.S. 184"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-084"
@@ -3338,9 +4335,12 @@ cases:
     title: "Brooklyn Mining &amp; Milling Co. v. Miller"
     volume: "227"
     page: "194"
+    docket: "144"
+    citation: "227 U.S. 194"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1913"
-    citation: "227 U.S. 194"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-085"
@@ -3348,9 +4348,12 @@ cases:
     title: "United States v. Winslow"
     volume: "227"
     page: "202"
+    docket: "620"
+    citation: "227 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1913"
-    citation: "227 U.S. 202"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-102"
@@ -3358,9 +4361,12 @@ cases:
     title: "Cordova v. Folgueras y Rijos"
     volume: "227"
     page: "375"
+    docket: "141"
+    citation: "227 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 375"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-103"
@@ -3368,9 +4374,12 @@ cases:
     title: "Luke v. Smith"
     volume: "227"
     page: "379"
+    docket: "150"
+    citation: "227 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 379"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-104"
@@ -3378,9 +4387,12 @@ cases:
     title: "Porto Rico v. Title Guaranty &amp; Surety Co."
     volume: "227"
     page: "382"
+    docket: "154"
+    citation: "227 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 382"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-132"
@@ -3388,9 +4400,12 @@ cases:
     title: "Marrone v. Washington Jockey Club"
     volume: "227"
     page: "633"
+    docket: "59"
+    citation: "227 U.S. 633"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1913"
-    citation: "227 U.S. 633"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-133"
@@ -3398,9 +4413,12 @@ cases:
     title: "Baxter v. Buchholz-Hill Transp. Co."
     volume: "227"
     page: "637"
+    docket: "882"
+    citation: "227 U.S. 637"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1913"
-    citation: "227 U.S. 637"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-136"
@@ -3408,9 +4426,12 @@ cases:
     title: "Abilene Nat. Bank v. Dolley"
     volume: "228"
     page: "001"
+    docket: "175"
+    citation: "228 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1913"
-    citation: "228 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-139"
@@ -3418,9 +4439,12 @@ cases:
     title: "The Fair v. Kohler Die &amp; Specialty Co."
     volume: "228"
     page: "022"
+    docket: "169"
+    citation: "228 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1913"
-    citation: "228 U.S. 22"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-147"
@@ -3428,9 +4452,12 @@ cases:
     title: "Frosch v. Walter"
     volume: "228"
     page: "109"
+    docket: "192"
+    citation: "228 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 109"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-169"
@@ -3438,9 +4465,12 @@ cases:
     title: "Michigan Trust Co. v. Ferry"
     volume: "228"
     page: "346"
+    docket: "200"
+    citation: "228 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1913"
-    citation: "228 U.S. 346"
+    voteMajority: 6
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-176"
@@ -3448,9 +4478,12 @@ cases:
     title: "Madera Water Works v. Madera"
     volume: "228"
     page: "454"
+    docket: "229"
+    citation: "228 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1913"
-    citation: "228 U.S. 454"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-177"
@@ -3458,9 +4491,12 @@ cases:
     title: "Johnson v. United States"
     volume: "228"
     page: "457"
+    docket: "715"
+    citation: "228 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1913"
-    citation: "228 U.S. 457"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-187"
@@ -3468,9 +4504,12 @@ cases:
     title: "Tiaco v. Forbes"
     volume: "228"
     page: "549"
+    docket: "254"
+    citation: "228 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1913"
-    citation: "228 U.S. 549"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-191"
@@ -3478,9 +4517,12 @@ cases:
     title: "Bugajewitz v. Adams"
     volume: "228"
     page: "585"
+    docket: "239"
+    citation: "228 U.S. 585"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1913"
-    citation: "228 U.S. 585"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-192"
@@ -3488,9 +4530,12 @@ cases:
     title: "Norfolk &amp; Western R. Co. v. Dixie Tobacco Co."
     volume: "228"
     page: "593"
+    docket: "265"
+    citation: "228 U.S. 593"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1913"
-    citation: "228 U.S. 593"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-203"
@@ -3498,9 +4543,12 @@ cases:
     title: "Brooks v. Central Sainte Jeanne"
     volume: "228"
     page: "688"
+    docket: "283"
+    citation: "228 U.S. 688"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "228 U.S. 688"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-204"
@@ -3508,9 +4556,12 @@ cases:
     title: "Francis v. McNeal"
     volume: "228"
     page: "695"
+    docket: "290"
+    citation: "228 U.S. 695"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "228 U.S. 695"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-205"
@@ -3518,9 +4569,12 @@ cases:
     title: "St. Louis, I. M. &amp; S. R. Co. v. Hesterly"
     volume: "228"
     page: "702"
+    docket: "297"
+    citation: "228 U.S. 702"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "228 U.S. 702"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-206"
@@ -3528,9 +4582,12 @@ cases:
     title: "Sanford v. Ainsa"
     volume: "228"
     page: "705"
+    docket: "504"
+    citation: "228 U.S. 705"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "228 U.S. 705"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-242"
@@ -3538,9 +4595,12 @@ cases:
     title: "McGovern v. City of New York"
     volume: "229"
     page: "363"
+    docket: "15"
+    citation: "229 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "229 U.S. 363"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-243"
@@ -3548,9 +4608,12 @@ cases:
     title: "Nash v. United States"
     volume: "229"
     page: "373"
+    docket: "197"
+    citation: "229 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "229 U.S. 373"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1912-244"
@@ -3558,9 +4621,12 @@ cases:
     title: "United States v. Adams Express Co."
     volume: "229"
     page: "381"
+    docket: "652"
+    citation: "229 U.S. 381"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "229 U.S. 381"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-006"
@@ -3568,9 +4634,12 @@ cases:
     title: "Seattle, R. &amp; S. R. Co. v. Washington ex rel. Linhoff"
     volume: "231"
     page: "568"
+    docket: "107"
+    citation: "231 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1913"
-    citation: "231 U.S. 568"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-013"
@@ -3578,9 +4647,12 @@ cases:
     title: "Greey v. Dockendorff"
     volume: "231"
     page: "513"
+    docket: "544"
+    citation: "231 U.S. 513"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1913"
-    citation: "231 U.S. 513"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-014"
@@ -3588,9 +4660,12 @@ cases:
     title: "Kinder v. Scharff"
     volume: "231"
     page: "517"
+    docket: "99"
+    citation: "231 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1913"
-    citation: "231 U.S. 517"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-018"
@@ -3598,9 +4673,12 @@ cases:
     title: "Graham v. United States"
     volume: "231"
     page: "474"
+    docket: "76"
+    citation: "231 U.S. 474"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1913"
-    citation: "231 U.S. 474"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-025"
@@ -3608,9 +4686,12 @@ cases:
     title: "Kener v. La Grange Mills"
     volume: "231"
     page: "215"
+    docket: "63"
+    citation: "231 U.S. 215"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 215"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-026"
@@ -3618,9 +4699,12 @@ cases:
     title: "United States ex rel. Goldberg v. Daniels"
     volume: "231"
     page: "218"
+    docket: "79"
+    citation: "231 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 218"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-045"
@@ -3628,9 +4712,12 @@ cases:
     title: "Munsey v. Webb"
     volume: "231"
     page: "150"
+    docket: "40"
+    citation: "231 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1913"
-    citation: "231 U.S. 150"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-046"
@@ -3638,9 +4725,12 @@ cases:
     title: "Buchser v. Buchser"
     volume: "231"
     page: "157"
+    docket: "641"
+    citation: "231 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1913"
-    citation: "231 U.S. 157"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-050"
@@ -3648,9 +4738,12 @@ cases:
     title: "Alzua v. Johnson"
     volume: "231"
     page: "106"
+    docket: "306"
+    citation: "231 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1913"
-    citation: "231 U.S. 106"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-051"
@@ -3658,9 +4751,12 @@ cases:
     title: "Missouri, K. &amp; T. R. Co. of Tex. v. United States"
     volume: "231"
     page: "112"
+    docket: "439"
+    citation: "231 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1913"
-    citation: "231 U.S. 112"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-054"
@@ -3668,9 +4764,12 @@ cases:
     title: "National City Bank of N. Y. v. Hotchkiss"
     volume: "231"
     page: "050"
+    docket: "459"
+    citation: "231 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, November 3, 1913"
-    citation: "231 U.S. 50"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-055"
@@ -3678,9 +4777,12 @@ cases:
     title: "Mechanics&apos; and Metals Nat. Bank of City of New York v. Ernst"
     volume: "231"
     page: "060"
+    docket: "446"
+    citation: "231 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, November 3, 1913"
-    citation: "231 U.S. 60"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-065"
@@ -3688,9 +4790,12 @@ cases:
     title: "Western Union Telegraph Co. v. Brown"
     volume: "234"
     page: "542"
+    docket: "355"
+    citation: "234 U.S. 542"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1914"
-    citation: "234 U.S. 542"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-066"
@@ -3698,9 +4803,12 @@ cases:
     title: "Pipe Line Cases"
     volume: "234"
     page: "548"
+    docket: "481"
+    citation: "234 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1914"
-    citation: "234 U.S. 548"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-067"
@@ -3708,9 +4816,12 @@ cases:
     title: "Charleston &amp; Western Carolina R. Co. v. Thompson"
     volume: "234"
     page: "576"
+    docket: "751, 752"
+    citation: "234 U.S. 576"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1914"
-    citation: "234 U.S. 576"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-092"
@@ -3718,9 +4829,12 @@ cases:
     title: "International Harvester Co. of America v. Kentucky"
     volume: "234"
     page: "216"
+    docket: "276"
+    citation: "234 U.S. 216"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 216"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-093"
@@ -3728,9 +4842,12 @@ cases:
     title: "Keokee Consol. Coke Co. v. Taylor"
     volume: "234"
     page: "224"
+    docket: "372"
+    citation: "234 U.S. 224"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 224"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-118"
@@ -3738,9 +4855,12 @@ cases:
     title: "Valdes v. Larrinaga"
     volume: "233"
     page: "705"
+    docket: "343"
+    citation: "233 U.S. 705"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1914"
-    citation: "233 U.S. 705"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-119"
@@ -3748,9 +4868,12 @@ cases:
     title: "Detroit Steel Cooperage Co. v. Sistersville Brewing Co."
     volume: "233"
     page: "712"
+    docket: "368"
+    citation: "233 U.S. 712"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1914"
-    citation: "233 U.S. 712"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-120"
@@ -3758,9 +4881,12 @@ cases:
     title: "Oceanic Steam Nav. Co. v. Mellor"
     volume: "233"
     page: "718"
+    docket: "798"
+    citation: "233 U.S. 718"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1914"
-    citation: "233 U.S. 718"
+    voteMajority: 7
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-140"
@@ -3768,9 +4894,12 @@ cases:
     title: "Denver &amp; Rio Grande R. Co. v. Arizona &amp; Colorado R. Co. of N. M."
     volume: "233"
     page: "601"
+    docket: "188"
+    citation: "233 U.S. 601"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1914"
-    citation: "233 U.S. 601"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-141"
@@ -3778,9 +4907,12 @@ cases:
     title: "Gompers v. United States"
     volume: "233"
     page: "604"
+    docket: "574"
+    citation: "233 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1914"
-    citation: "233 U.S. 604"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-150"
@@ -3788,9 +4920,12 @@ cases:
     title: "San Joaquin &amp; Kings River Canal &amp; Irrigation Co. v. County of Stanislaus"
     volume: "233"
     page: "454"
+    docket: "303"
+    citation: "233 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1914"
-    citation: "233 U.S. 454"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-157"
@@ -3798,9 +4933,12 @@ cases:
     title: "Wheeler v. Sohmer"
     volume: "233"
     page: "434"
+    docket: "45"
+    citation: "233 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1914"
-    citation: "233 U.S. 434"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-158"
@@ -3808,9 +4946,12 @@ cases:
     title: "Nadal v. May"
     volume: "233"
     page: "447"
+    docket: "130"
+    citation: "233 U.S. 447"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1914"
-    citation: "233 U.S. 447"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-161"
@@ -3818,9 +4959,12 @@ cases:
     title: "Hammond Packing Co. v. Montana"
     volume: "233"
     page: "331"
+    docket: "278"
+    citation: "233 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1914"
-    citation: "233 U.S. 331"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-173"
@@ -3828,9 +4972,12 @@ cases:
     title: "Herbert v. Bicknell"
     volume: "233"
     page: "070"
+    docket: "269"
+    citation: "233 U.S. 70"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 70"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-174"
@@ -3838,9 +4985,12 @@ cases:
     title: "Kansas City Southern R. Co. v. Kaw Valley Drainage Dist."
     volume: "233"
     page: "075"
+    docket: "313"
+    citation: "233 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 75"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-175"
@@ -3848,9 +4998,12 @@ cases:
     title: "Southern Railway-Carolina Div. v. Bennett"
     volume: "233"
     page: "080"
+    docket: "796"
+    citation: "233 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 80"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-196"
@@ -3858,9 +5011,12 @@ cases:
     title: "Santa Fe Central R. Co. v. Friday"
     volume: "232"
     page: "694"
+    docket: "230"
+    citation: "232 U.S. 694"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1914"
-    citation: "232 U.S. 694"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-201"
@@ -3868,9 +5024,12 @@ cases:
     title: "Curriden v. Middleton"
     volume: "232"
     page: "633"
+    docket: "152"
+    citation: "232 U.S. 633"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1914"
-    citation: "232 U.S. 633"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-202"
@@ -3878,9 +5037,12 @@ cases:
     title: "Holt v. Henley"
     volume: "232"
     page: "637"
+    docket: "229"
+    citation: "232 U.S. 637"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1914"
-    citation: "232 U.S. 637"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-207"
@@ -3888,9 +5050,12 @@ cases:
     title: "Williamson v. Osenton"
     volume: "232"
     page: "619"
+    docket: "634"
+    citation: "232 U.S. 619"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1914"
-    citation: "232 U.S. 619"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-208"
@@ -3898,9 +5063,12 @@ cases:
     title: "Paine v. Copper Belle Mining Co. of Ariz."
     volume: "232"
     page: "595"
+    docket: "181"
+    citation: "232 U.S. 595"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1914"
-    citation: "232 U.S. 595"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-224"
@@ -3908,9 +5076,12 @@ cases:
     title: "Calaf y Fugurul v. Calaf y Rivera"
     volume: "232"
     page: "371"
+    docket: "199"
+    citation: "232 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 371"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-225"
@@ -3918,9 +5089,12 @@ cases:
     title: "Montoya v. Gonzalez"
     volume: "232"
     page: "375"
+    docket: "204"
+    citation: "232 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 375"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-248"
@@ -3928,9 +5102,12 @@ cases:
     title: "Thomas v. Matthiessen"
     volume: "232"
     page: "221"
+    docket: "171"
+    citation: "232 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1914"
-    citation: "232 U.S. 221"
+    voteMajority: 6
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-252"
@@ -3938,9 +5115,12 @@ cases:
     title: "Burbank v. Ernst"
     volume: "232"
     page: "162"
+    docket: "151"
+    citation: "232 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1914"
-    citation: "232 U.S. 162"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-253"
@@ -3948,9 +5128,12 @@ cases:
     title: "Chicago, M. &amp; St. P. R. Co. v. Polt"
     volume: "232"
     page: "165"
+    docket: "161"
+    citation: "232 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1914"
-    citation: "232 U.S. 165"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-254"
@@ -3958,9 +5141,12 @@ cases:
     title: "Alabama v. Schmidt"
     volume: "232"
     page: "168"
+    docket: "595"
+    citation: "232 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1914"
-    citation: "232 U.S. 168"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-259"
@@ -3968,9 +5154,12 @@ cases:
     title: "Bacon v. Rutland R. Co."
     volume: "232"
     page: "134"
+    docket: "760"
+    citation: "232 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1914"
-    citation: "232 U.S. 134"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-260"
@@ -3978,9 +5167,12 @@ cases:
     title: "Patsone v. Pennsylvania"
     volume: "232"
     page: "138"
+    docket: "38"
+    citation: "232 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1914"
-    citation: "232 U.S. 138"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-262"
@@ -3988,9 +5180,12 @@ cases:
     title: "Barnes v. Alexander"
     volume: "232"
     page: "117"
+    docket: "109"
+    citation: "232 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1914"
-    citation: "232 U.S. 117"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-274"
@@ -3998,9 +5193,12 @@ cases:
     title: "Tinker v. Midland Valley Mercantile Co."
     volume: "231"
     page: "681"
+    docket: "13"
+    citation: "231 U.S. 681"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 681"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-275"
@@ -4008,9 +5206,12 @@ cases:
     title: "Trimble v. Seattle"
     volume: "231"
     page: "683"
+    docket: "108"
+    citation: "231 U.S. 683"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 683"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-276"
@@ -4018,9 +5219,12 @@ cases:
     title: "Piza Hermanos v. Caldentey"
     volume: "231"
     page: "690"
+    docket: "134"
+    citation: "231 U.S. 690"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 690"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-277"
@@ -4028,9 +5232,12 @@ cases:
     title: "Hobbs v. Head &amp; Dowst Co."
     volume: "231"
     page: "692"
+    docket: "148"
+    citation: "231 U.S. 692"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 692"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1913-278"
@@ -4038,9 +5245,12 @@ cases:
     title: "United States v. Moist"
     volume: "231"
     page: "701"
+    docket: "378"
+    citation: "231 U.S. 701"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 701"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-002"
@@ -4048,9 +5258,12 @@ cases:
     title: "L. E. Waterman Co. v. Modern Pen Co."
     volume: "235"
     page: "088"
+    docket: "54"
+    citation: "235 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1914"
-    citation: "235 U.S. 88"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-003"
@@ -4058,9 +5271,12 @@ cases:
     title: "Sage v. Hampe"
     volume: "235"
     page: "099"
+    docket: "82"
+    citation: "235 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1914"
-    citation: "235 U.S. 99"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-024"
@@ -4068,9 +5284,12 @@ cases:
     title: "Taylor v. Parker"
     volume: "235"
     page: "042"
+    docket: "58"
+    citation: "235 U.S. 42"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1914"
-    citation: "235 U.S. 42"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-025"
@@ -4078,9 +5297,12 @@ cases:
     title: "Willoughby v. Chicago"
     volume: "235"
     page: "045"
+    docket: "66"
+    citation: "235 U.S. 45"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1914"
-    citation: "235 U.S. 45"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-031"
@@ -4088,9 +5310,12 @@ cases:
     title: "DeJonge &amp; Co. v. Breuker &amp; Kessler Co."
     volume: "235"
     page: "033"
+    docket: "18"
+    citation: "235 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1914"
-    citation: "235 U.S. 33"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-032"
@@ -4098,9 +5323,12 @@ cases:
     title: "Missouri, K. &amp; T. R. Co. v. United States"
     volume: "235"
     page: "037"
+    docket: "25"
+    citation: "235 U.S. 37"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1914"
-    citation: "235 U.S. 37"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-034"
@@ -4108,9 +5336,12 @@ cases:
     title: "Pullman Co. v. Knott"
     volume: "235"
     page: "023"
+    docket: "383"
+    citation: "235 U.S. 23"
     pdfSource: "loc"
     dateDecision: "Monday, November 2, 1914"
-    citation: "235 U.S. 23"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-035"
@@ -4118,9 +5349,12 @@ cases:
     title: "United States v. Portale"
     volume: "235"
     page: "027"
+    docket: "382"
+    citation: "235 U.S. 27"
     pdfSource: "loc"
     dateDecision: "Monday, November 2, 1914"
-    citation: "235 U.S. 27"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-036"
@@ -4128,9 +5362,12 @@ cases:
     title: "Drew v. Thaw"
     volume: "235"
     page: "432"
+    docket: "514"
+    citation: "235 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1914"
-    citation: "235 U.S. 432"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-043"
@@ -4138,9 +5375,12 @@ cases:
     title: "Detroit &amp; Mackinac R. Co. v. Michigan Railroad Comm&apos;n"
     volume: "235"
     page: "402"
+    docket: "209"
+    citation: "235 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1914"
-    citation: "235 U.S. 402"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-051"
@@ -4148,9 +5388,12 @@ cases:
     title: "John Ii Estate, Ltd. v. Brown"
     volume: "235"
     page: "342"
+    docket: "98"
+    citation: "235 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1914"
-    citation: "235 U.S. 342"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-053"
@@ -4158,9 +5401,12 @@ cases:
     title: "Board of Comm&apos;rs of City and County of Denver v. Home Savings Bank"
     volume: "236"
     page: "101"
+    docket: "126"
+    citation: "236 U.S. 101"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1915"
-    citation: "236 U.S. 101"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-056"
@@ -4168,9 +5414,12 @@ cases:
     title: "United States v. Emery, Bird, Thayer Realty Co."
     volume: "237"
     page: "028"
+    docket: "117"
+    citation: "237 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1915"
-    citation: "237 U.S. 28"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-057"
@@ -4178,9 +5427,12 @@ cases:
     title: "New Orleans Tax Payers&apos; Protective Assn. v. Sewerage and Water Bd. of New Orleans"
     volume: "237"
     page: "033"
+    docket: "192"
+    citation: "237 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1915"
-    citation: "237 U.S. 33"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-058"
@@ -4188,9 +5440,12 @@ cases:
     title: "Smoot v. United States"
     volume: "237"
     page: "038"
+    docket: "208"
+    citation: "237 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1915"
-    citation: "237 U.S. 38"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-084"
@@ -4198,9 +5453,12 @@ cases:
     title: "New York ex rel. Interborough Rapid Transit Co. v. Sohmer"
     volume: "237"
     page: "276"
+    docket: "129"
+    citation: "237 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1915"
-    citation: "237 U.S. 276"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-086"
@@ -4208,9 +5466,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Western Union Telegraph Co."
     volume: "237"
     page: "300"
+    docket: "183"
+    citation: "237 U.S. 300"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1915"
-    citation: "237 U.S. 300"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-096"
@@ -4218,9 +5479,12 @@ cases:
     title: "Chicago &amp; Northwestern R. Co. v. Gray"
     volume: "237"
     page: "399"
+    docket: "232"
+    citation: "237 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1915"
-    citation: "237 U.S. 399"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-101"
@@ -4228,9 +5492,12 @@ cases:
     title: "Pennsylvania R. Co. v. Keystone Elevator &amp; Warehouse Co."
     volume: "237"
     page: "432"
+    docket: "683"
+    citation: "237 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1915"
-    citation: "237 U.S. 432"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-102"
@@ -4238,9 +5505,12 @@ cases:
     title: "Ellis v. ICC"
     volume: "237"
     page: "434"
+    docket: "712"
+    citation: "237 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1915"
-    citation: "237 U.S. 434"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-106"
@@ -4248,9 +5518,12 @@ cases:
     title: "Healy v. Sea Gull Specialty Co."
     volume: "237"
     page: "479"
+    docket: "253"
+    citation: "237 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1915"
-    citation: "237 U.S. 479"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-107"
@@ -4258,9 +5531,12 @@ cases:
     title: "Booth-Kelly Lumber Co. v. United States"
     volume: "237"
     page: "481"
+    docket: "258"
+    citation: "237 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1915"
-    citation: "237 U.S. 481"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-122"
@@ -4268,9 +5544,12 @@ cases:
     title: "Charleston &amp; Western Carolina R. Co. v. Varnville Furniture Co."
     volume: "237"
     page: "597"
+    docket: "273"
+    citation: "237 U.S. 597"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "237 U.S. 597"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-123"
@@ -4278,9 +5557,12 @@ cases:
     title: "Lumber Underwriters of N. Y. v. Rife"
     volume: "237"
     page: "605"
+    docket: "279"
+    citation: "237 U.S. 605"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "237 U.S. 605"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-124"
@@ -4288,9 +5570,12 @@ cases:
     title: "Hood v. McGehee"
     volume: "237"
     page: "611"
+    docket: "281"
+    citation: "237 U.S. 611"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "237 U.S. 611"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-125"
@@ -4298,9 +5583,12 @@ cases:
     title: "Park v. Cameron"
     volume: "237"
     page: "616"
+    docket: "293"
+    citation: "237 U.S. 616"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "237 U.S. 616"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-139"
@@ -4308,9 +5596,12 @@ cases:
     title: "United States v. Mosley"
     volume: "238"
     page: "383"
+    docket: "180"
+    citation: "238 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1915"
-    citation: "238 U.S. 383"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-156"
@@ -4318,9 +5609,12 @@ cases:
     title: "United Surety Co. v. American Fruit Product Co."
     volume: "238"
     page: "140"
+    docket: "203"
+    citation: "238 U.S. 140"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 140"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-157"
@@ -4328,9 +5622,12 @@ cases:
     title: "Equitable Life Assurance Soc. of United States v. Pennsylvania"
     volume: "238"
     page: "143"
+    docket: "263"
+    citation: "238 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 143"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-158"
@@ -4338,9 +5635,12 @@ cases:
     title: "Perryman v. Woodward"
     volume: "238"
     page: "148"
+    docket: "277"
+    citation: "238 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 148"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-183"
@@ -4348,9 +5648,12 @@ cases:
     title: "Wright v. Central of Georgia R. Co."
     volume: "236"
     page: "674"
+    docket: "161"
+    citation: "236 U.S. 674"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1915"
-    citation: "236 U.S. 674"
+    voteMajority: 5
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-184"
@@ -4358,9 +5661,12 @@ cases:
     title: "Wright v. Louisville &amp; Nashville R. Co."
     volume: "236"
     page: "687"
+    docket: "162"
+    citation: "236 U.S. 687"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1915"
-    citation: "236 U.S. 687"
+    voteMajority: 5
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-185"
@@ -4368,9 +5674,12 @@ cases:
     title: "Newman v. Lynchburg Investment Corp."
     volume: "236"
     page: "692"
+    docket: "163"
+    citation: "236 U.S. 692"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1915"
-    citation: "236 U.S. 692"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-186"
@@ -4378,9 +5687,12 @@ cases:
     title: "Davis v. Virginia"
     volume: "236"
     page: "697"
+    docket: "184"
+    citation: "236 U.S. 697"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1915"
-    citation: "236 U.S. 697"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-187"
@@ -4388,9 +5700,12 @@ cases:
     title: "Dalton Adding Machine Co. v. State Corporation Comm&apos;n of Va."
     volume: "236"
     page: "699"
+    docket: "190"
+    citation: "236 U.S. 699"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1915"
-    citation: "236 U.S. 699"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-195"
@@ -4398,9 +5713,12 @@ cases:
     title: "Linn &amp; Lane Timber Co. v. United States"
     volume: "236"
     page: "574"
+    docket: "159"
+    citation: "236 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1915"
-    citation: "236 U.S. 574"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-196"
@@ -4408,9 +5726,12 @@ cases:
     title: "Ramapo Water Co. v. City of New York"
     volume: "236"
     page: "579"
+    docket: "715"
+    citation: "236 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1915"
-    citation: "236 U.S. 579"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-215"
@@ -4418,9 +5739,12 @@ cases:
     title: "Fox v. Washington"
     volume: "236"
     page: "273"
+    docket: "134"
+    citation: "236 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 273"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-237"
@@ -4428,9 +5752,12 @@ cases:
     title: "Grant Timber &amp; Mfg. Co. v. Gray"
     volume: "236"
     page: "133"
+    docket: "136"
+    citation: "236 U.S. 133"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1915"
-    citation: "236 U.S. 133"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-238"
@@ -4438,9 +5765,12 @@ cases:
     title: "Gallardo y Seary v. Noble"
     volume: "236"
     page: "135"
+    docket: "141"
+    citation: "236 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1915"
-    citation: "236 U.S. 135"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-239"
@@ -4448,9 +5778,12 @@ cases:
     title: "United States v. Holte"
     volume: "236"
     page: "140"
+    docket: "628"
+    citation: "236 U.S. 140"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1915"
-    citation: "236 U.S. 140"
+    voteMajority: 6
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-245"
@@ -4458,9 +5791,12 @@ cases:
     title: "Duffy v. Charak"
     volume: "236"
     page: "097"
+    docket: "120"
+    citation: "236 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1915"
-    citation: "236 U.S. 97"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-249"
@@ -4468,9 +5804,12 @@ cases:
     title: "Yost v. Dallas County"
     volume: "236"
     page: "050"
+    docket: "604"
+    citation: "236 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1915"
-    citation: "236 U.S. 50"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1914-263"
@@ -4478,9 +5817,12 @@ cases:
     title: "Lawlor v. Loewe"
     volume: "235"
     page: "522"
+    docket: "358"
+    citation: "235 U.S. 522"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 522"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-007"
@@ -4488,9 +5830,12 @@ cases:
     title: "Ex parte Uppercu"
     volume: "239"
     page: "435"
+    docket: "14 Orig."
+    citation: "239 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1915"
-    citation: "239 U.S. 435"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-008"
@@ -4498,9 +5843,12 @@ cases:
     title: "Bi-Metallic Investment Co. v. State Bd. of Equalization of Colo."
     volume: "239"
     page: "441"
+    docket: "116"
+    citation: "239 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1915"
-    citation: "239 U.S. 441"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-015"
@@ -4508,9 +5856,12 @@ cases:
     title: "Atchison, T. &amp; S. F. R. Co. v. Swearingen"
     volume: "239"
     page: "339"
+    docket: "74"
+    citation: "239 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1915"
-    citation: "239 U.S. 339"
+    voteMajority: 6
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-016"
@@ -4518,9 +5869,12 @@ cases:
     title: "United States v. Normile"
     volume: "239"
     page: "344"
+    docket: "83"
+    citation: "239 U.S. 344"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1915"
-    citation: "239 U.S. 344"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-017"
@@ -4528,9 +5882,12 @@ cases:
     title: "Great Northern R. Co. v. Otos"
     volume: "239"
     page: "349"
+    docket: "429"
+    citation: "239 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1915"
-    citation: "239 U.S. 349"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-018"
@@ -4538,9 +5895,12 @@ cases:
     title: "Seaboard Air Line R. Co. v. Koennecke"
     volume: "239"
     page: "352"
+    docket: "491"
+    citation: "239 U.S. 352"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1915"
-    citation: "239 U.S. 352"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-031"
@@ -4548,9 +5908,12 @@ cases:
     title: "Atlantic Coast Line R. Co. v. Burnette"
     volume: "239"
     page: "199"
+    docket: "66"
+    citation: "239 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1915"
-    citation: "239 U.S. 199"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-032"
@@ -4558,9 +5921,12 @@ cases:
     title: "New Orleans-Belize Royal Mail &amp; Central American S. S. Co. v. United States"
     volume: "239"
     page: "202"
+    docket: "71"
+    citation: "239 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1915"
-    citation: "239 U.S. 202"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-043"
@@ -4568,9 +5934,12 @@ cases:
     title: "United States v. New York &amp; Porto Rico S. S. Co."
     volume: "239"
     page: "088"
+    docket: "44"
+    citation: "239 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1915"
-    citation: "239 U.S. 88"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-051"
@@ -4578,9 +5947,12 @@ cases:
     title: "City of New York v. Sage"
     volume: "239"
     page: "057"
+    docket: "34"
+    citation: "239 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1915"
-    citation: "239 U.S. 57"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-057"
@@ -4588,9 +5960,12 @@ cases:
     title: "United States Fidelity &amp; Guaranty Co. v. Riefler"
     volume: "239"
     page: "017"
+    docket: "11"
+    citation: "239 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1915"
-    citation: "239 U.S. 17"
+    voteMajority: 7
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-058"
@@ -4598,9 +5973,12 @@ cases:
     title: "Steinfeld v. Zeckendorf"
     volume: "239"
     page: "026"
+    docket: "239"
+    citation: "239 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1915"
-    citation: "239 U.S. 26"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-065"
@@ -4608,9 +5986,12 @@ cases:
     title: "Gegiow v. Uhl"
     volume: "239"
     page: "003"
+    docket: "340"
+    citation: "239 U.S. 3"
     pdfSource: "loc"
     dateDecision: "Monday, October 25, 1915"
-    citation: "239 U.S. 3"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-068"
@@ -4618,9 +5999,12 @@ cases:
     title: "Fleitmann v. Welsbach Street Lighting Co."
     volume: "240"
     page: "027"
+    docket: "145"
+    citation: "240 U.S. 27"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1916"
-    citation: "240 U.S. 27"
+    voteMajority: 6
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-069"
@@ -4628,9 +6012,12 @@ cases:
     title: "Mt. Vernon-Woodberry Cotton Duck Co. v. Alabama Interstate Power Co."
     volume: "240"
     page: "030"
+    docket: "200"
+    citation: "240 U.S. 30"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1916"
-    citation: "240 U.S. 30"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-072"
@@ -4638,9 +6025,12 @@ cases:
     title: "Kansas City Western R. Co. v. McAdow"
     volume: "240"
     page: "051"
+    docket: "127"
+    citation: "240 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1916"
-    citation: "240 U.S. 51"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-073"
@@ -4648,9 +6038,12 @@ cases:
     title: "Gast Realty &amp; Investment Co. v. Schneider Granite Co."
     volume: "240"
     page: "055"
+    docket: "211"
+    citation: "240 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1916"
-    citation: "240 U.S. 55"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-074"
@@ -4658,9 +6051,12 @@ cases:
     title: "Lamar v. United States"
     volume: "240"
     page: "060"
+    docket: "434"
+    citation: "240 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1916"
-    citation: "240 U.S. 60"
+    voteMajority: 6
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-088"
@@ -4668,9 +6064,12 @@ cases:
     title: "Kansas City Southern R. Co. v. Guardian Trust Co."
     volume: "240"
     page: "166"
+    docket: "85"
+    citation: "240 U.S. 166"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1916"
-    citation: "240 U.S. 166"
+    voteMajority: 6
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-089"
@@ -4678,9 +6077,12 @@ cases:
     title: "Straus v. Notaseme Hosiery Co."
     volume: "240"
     page: "179"
+    docket: "184"
+    citation: "240 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1916"
-    citation: "240 U.S. 179"
+    voteMajority: 5
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-109"
@@ -4688,9 +6090,12 @@ cases:
     title: "Badders v. United States"
     volume: "240"
     page: "391"
+    docket: "521"
+    citation: "240 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1916"
-    citation: "240 U.S. 391"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-110"
@@ -4698,9 +6103,12 @@ cases:
     title: "Illinois Central R. Co. v. Messina"
     volume: "240"
     page: "395"
+    docket: "535"
+    citation: "240 U.S. 395"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1916"
-    citation: "240 U.S. 395"
+    voteMajority: 5
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-113"
@@ -4708,9 +6116,12 @@ cases:
     title: "Eaton v. Boston Safe Deposit &amp; Trust Co."
     volume: "240"
     page: "427"
+    docket: "466"
+    citation: "240 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1916"
-    citation: "240 U.S. 427"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-119"
@@ -4718,9 +6129,12 @@ cases:
     title: "Southern Wisconsin R. Co. v. Madison"
     volume: "240"
     page: "457"
+    docket: "260"
+    citation: "240 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1916"
-    citation: "240 U.S. 457"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-120"
@@ -4728,9 +6142,12 @@ cases:
     title: "Cuyahoga River Powder Co. v. Akron"
     volume: "240"
     page: "462"
+    docket: "465"
+    citation: "240 U.S. 462"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1916"
-    citation: "240 U.S. 462"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-129"
@@ -4738,9 +6155,12 @@ cases:
     title: "Ackerlind v. United States"
     volume: "240"
     page: "531"
+    docket: "293"
+    citation: "240 U.S. 531"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1916"
-    citation: "240 U.S. 531"
+    voteMajority: 6
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-141"
@@ -4748,9 +6168,12 @@ cases:
     title: "Bullen v. Wisconsin"
     volume: "240"
     page: "625"
+    docket: "262"
+    citation: "240 U.S. 625"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1916"
-    citation: "240 U.S. 625"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-153"
@@ -4758,9 +6181,12 @@ cases:
     title: "Brown v. Pacific Coast Coal Co."
     volume: "241"
     page: "571"
+    docket: "303"
+    citation: "241 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1916"
-    citation: "241 U.S. 571"
+    voteMajority: 6
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-154"
@@ -4768,9 +6194,12 @@ cases:
     title: "Supreme Lodge, Knights of Pythias v. Mims"
     volume: "241"
     page: "574"
+    docket: "345"
+    citation: "241 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1916"
-    citation: "241 U.S. 574"
+    voteMajority: 6
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-167"
@@ -4778,9 +6207,12 @@ cases:
     title: "United States v. Jin Fuey Moy"
     volume: "241"
     page: "394"
+    docket: "525"
+    citation: "241 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1916"
-    citation: "241 U.S. 394"
+    voteMajority: 5
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-187"
@@ -4788,9 +6220,12 @@ cases:
     title: "Pacific Mail S. S. Co. v. Schmidt"
     volume: "241"
     page: "245"
+    docket: "323"
+    citation: "241 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1916"
-    citation: "241 U.S. 245"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-188"
@@ -4798,9 +6233,12 @@ cases:
     title: "Terminal Taxicab Co. v. Kutz"
     volume: "241"
     page: "252"
+    docket: "348"
+    citation: "241 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1916"
-    citation: "241 U.S. 252"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-189"
@@ -4808,9 +6246,12 @@ cases:
     title: "American Well Works Co. v. Layne &amp; Bowler Co."
     volume: "241"
     page: "257"
+    docket: "376"
+    citation: "241 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1916"
-    citation: "241 U.S. 257"
+    voteMajority: 6
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-190"
@@ -4818,9 +6259,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Stewart"
     volume: "241"
     page: "261"
+    docket: "485"
+    citation: "241 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1916"
-    citation: "241 U.S. 261"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-199"
@@ -4828,9 +6272,12 @@ cases:
     title: "Maryland Dredging &amp; Contracting Co. v. United States"
     volume: "241"
     page: "184"
+    docket: "310"
+    citation: "241 U.S. 184"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1916"
-    citation: "241 U.S. 184"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-205"
@@ -4838,9 +6285,12 @@ cases:
     title: "De La Rama v. De La Rama"
     volume: "241"
     page: "154"
+    docket: "216"
+    citation: "241 U.S. 154"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1916"
-    citation: "241 U.S. 154"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-206"
@@ -4848,9 +6298,12 @@ cases:
     title: "Johnson v. Root Mfg. Co."
     volume: "241"
     page: "160"
+    docket: "308"
+    citation: "241 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1916"
-    citation: "241 U.S. 160"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-214"
@@ -4858,9 +6311,12 @@ cases:
     title: "McFarland v. American Sugar Refining Co."
     volume: "241"
     page: "079"
+    docket: "847"
+    citation: "241 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1916"
-    citation: "241 U.S. 79"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-218"
@@ -4868,9 +6324,12 @@ cases:
     title: "Kelly v. Griffin"
     volume: "241"
     page: "006"
+    docket: "777"
+    citation: "241 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1916"
-    citation: "241 U.S. 6"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-224"
@@ -4878,9 +6337,12 @@ cases:
     title: "White v. United States"
     volume: "239"
     page: "608"
+    docket: "153"
+    citation: "239 U.S. 608"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1916"
-    citation: "239 U.S. 608"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-231"
@@ -4888,9 +6350,12 @@ cases:
     title: "Hapai v. Brown"
     volume: "239"
     page: "502"
+    docket: "120"
+    citation: "239 U.S. 502"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1916"
-    citation: "239 U.S. 502"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1915-232"
@@ -4898,9 +6363,12 @@ cases:
     title: "Hallowell v. Commons"
     volume: "239"
     page: "506"
+    docket: "135"
+    citation: "239 U.S. 506"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1916"
-    citation: "239 U.S. 506"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-004"
@@ -4908,9 +6376,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Ohio Valley Tie Co."
     volume: "242"
     page: "288"
+    docket: "66"
+    citation: "242 U.S. 288"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1916"
-    citation: "242 U.S. 288"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-005"
@@ -4918,9 +6389,12 @@ cases:
     title: "Illinois Central R. Co. v. Peery"
     volume: "242"
     page: "292"
+    docket: "77"
+    citation: "242 U.S. 292"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1916"
-    citation: "242 U.S. 292"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-006"
@@ -4928,9 +6402,12 @@ cases:
     title: "Baltimore &amp; Ohio R. Co. v. Wilson"
     volume: "242"
     page: "295"
+    docket: "375"
+    citation: "242 U.S. 295"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1916"
-    citation: "242 U.S. 295"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-021"
@@ -4938,9 +6415,12 @@ cases:
     title: "Atlantic City R. Co. v. Parker"
     volume: "242"
     page: "056"
+    docket: "111"
+    citation: "242 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1916"
-    citation: "242 U.S. 56"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-022"
@@ -4948,9 +6428,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. United States"
     volume: "242"
     page: "060"
+    docket: "290"
+    citation: "242 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1916"
-    citation: "242 U.S. 60"
+    voteMajority: 5
+    voteMinority: 4
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-023"
@@ -4958,9 +6441,12 @@ cases:
     title: "United States v. Oppenheimer"
     volume: "242"
     page: "085"
+    docket: "412"
+    citation: "242 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1916"
-    citation: "242 U.S. 85"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-042"
@@ -4968,9 +6454,12 @@ cases:
     title: "O&apos;Neil v. Northern Colorado Irrigation Co."
     volume: "242"
     page: "020"
+    docket: "68"
+    citation: "242 U.S. 20"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1916"
-    citation: "242 U.S. 20"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-044"
@@ -4978,9 +6467,12 @@ cases:
     title: "Portuguese-American Bank of San Francisco v. Welles"
     volume: "242"
     page: "007"
+    docket: "45"
+    citation: "242 U.S. 7"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1916"
-    citation: "242 U.S. 7"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-045"
@@ -4988,9 +6480,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Parker"
     volume: "242"
     page: "013"
+    docket: "330"
+    citation: "242 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1916"
-    citation: "242 U.S. 13"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-049"
@@ -4998,9 +6493,12 @@ cases:
     title: "The Kronprinzessin Cecilie"
     volume: "244"
     page: "012"
+    docket: "922"
+    citation: "244 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1917"
-    citation: "244 U.S. 12"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-050"
@@ -5008,9 +6506,12 @@ cases:
     title: "Chicago Life Ins. Co. v. Cherry"
     volume: "244"
     page: "025"
+    docket: "171"
+    citation: "244 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1917"
-    citation: "244 U.S. 25"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-062"
@@ -5018,9 +6519,12 @@ cases:
     title: "E. I. DuPont de Nemours Powder Co. v. Masland"
     volume: "244"
     page: "100"
+    docket: "210"
+    citation: "244 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1917"
-    citation: "244 U.S. 100"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-063"
@@ -5028,9 +6532,12 @@ cases:
     title: "Nevada-California-Oregon R. Co. v. Burris"
     volume: "244"
     page: "103"
+    docket: "237"
+    citation: "244 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1917"
-    citation: "244 U.S. 103"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-064"
@@ -5038,9 +6545,12 @@ cases:
     title: "Rowland v. Boyle"
     volume: "244"
     page: "106"
+    docket: "252"
+    citation: "244 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1917"
-    citation: "244 U.S. 106"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-087"
@@ -5048,9 +6558,12 @@ cases:
     title: "Saunders v. Shaw"
     volume: "244"
     page: "317"
+    docket: "472"
+    citation: "244 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1917"
-    citation: "244 U.S. 317"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-104"
@@ -5058,9 +6571,12 @@ cases:
     title: "Ex parte Indiana Transp. Co."
     volume: "244"
     page: "456"
+    docket: "25 Orig."
+    citation: "244 U.S. 456"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1917"
-    citation: "244 U.S. 456"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-105"
@@ -5068,9 +6584,12 @@ cases:
     title: "Paine Lumber Co. v. Neal"
     volume: "244"
     page: "459"
+    docket: "24"
+    citation: "244 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1917"
-    citation: "244 U.S. 459"
+    voteMajority: 5
+    voteMinority: 4
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-127"
@@ -5078,9 +6597,12 @@ cases:
     title: "Hendersonville Light &amp; Power Co. v. Blue Ridge Interurban R. Co."
     volume: "243"
     page: "563"
+    docket: "497"
+    citation: "243 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1917"
-    citation: "243 U.S. 563"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-128"
@@ -5088,9 +6610,12 @@ cases:
     title: "United States v. Davis"
     volume: "243"
     page: "570"
+    docket: "621"
+    citation: "243 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1917"
-    citation: "243 U.S. 570"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-132"
@@ -5098,9 +6623,12 @@ cases:
     title: "Lehigh Valley R. Co. v. United States"
     volume: "243"
     page: "444"
+    docket: "124"
+    citation: "243 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1917"
-    citation: "243 U.S. 444"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-140"
@@ -5108,9 +6636,12 @@ cases:
     title: "Lehigh Valley R. Co. v. United States"
     volume: "243"
     page: "412"
+    docket: "733"
+    citation: "243 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1917"
-    citation: "243 U.S. 412"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-158"
@@ -5118,9 +6649,12 @@ cases:
     title: "McDonald v. Mabee"
     volume: "243"
     page: "090"
+    docket: "135"
+    citation: "243 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-159"
@@ -5128,9 +6662,12 @@ cases:
     title: "Pennsylvania Fire Ins. Co. of Philadelphia v. Gold Issue Mining &amp; Milling Co."
     volume: "243"
     page: "093"
+    docket: "584"
+    citation: "243 U.S. 93"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 93"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-160"
@@ -5138,9 +6675,12 @@ cases:
     title: "Five Per Cent. Discount Cases"
     volume: "243"
     page: "097"
+    docket: "149"
+    citation: "243 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 97"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-187"
@@ -5148,9 +6688,12 @@ cases:
     title: "Herbert v. Shanley Co."
     volume: "242"
     page: "591"
+    docket: "427"
+    citation: "242 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1917"
-    citation: "242 U.S. 591"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-189"
@@ -5158,9 +6701,12 @@ cases:
     title: "Berry v. Davis"
     volume: "242"
     page: "468"
+    docket: "47"
+    citation: "242 U.S. 468"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1917"
-    citation: "242 U.S. 468"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-198"
@@ -5168,9 +6714,12 @@ cases:
     title: "Adamson v. Gilliland"
     volume: "242"
     page: "350"
+    docket: "396"
+    citation: "242 U.S. 350"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1917"
-    citation: "242 U.S. 350"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-199"
@@ -5178,9 +6727,12 @@ cases:
     title: "Minneapolis &amp; St. Louis R. Co. v. Winters"
     volume: "242"
     page: "353"
+    docket: "420"
+    citation: "242 U.S. 353"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1917"
-    citation: "242 U.S. 353"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1916-200"
@@ -5188,9 +6740,12 @@ cases:
     title: "Savings Bank of Danbury v. Loewe"
     volume: "242"
     page: "357"
+    docket: "713"
+    citation: "242 U.S. 357"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1917"
-    citation: "242 U.S. 357"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-001"
@@ -5198,9 +6753,12 @@ cases:
     title: "McGowan v. Columbia River Packers&apos; Assn."
     volume: "245"
     page: "352"
+    docket: "78"
+    citation: "245 U.S. 352"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1917"
-    citation: "245 U.S. 352"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-026"
@@ -5208,9 +6766,12 @@ cases:
     title: "Wear v. Kansas ex rel. Brewster"
     volume: "245"
     page: "154"
+    docket: "30"
+    citation: "245 U.S. 154"
     pdfSource: "loc"
     dateDecision: "Monday, November 26, 1917"
-    citation: "245 U.S. 154"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-027"
@@ -5218,9 +6779,12 @@ cases:
     title: "Day v. United States"
     volume: "245"
     page: "159"
+    docket: "43"
+    citation: "245 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Monday, November 26, 1917"
-    citation: "245 U.S. 159"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-029"
@@ -5228,9 +6792,12 @@ cases:
     title: "Hartford Life Ins. Co. v. Barber"
     volume: "245"
     page: "146"
+    docket: "252"
+    citation: "245 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1917"
-    citation: "245 U.S. 146"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-038"
@@ -5238,9 +6805,12 @@ cases:
     title: "Fidelity &amp; Columbia Trust Co. v. Louisville"
     volume: "245"
     page: "054"
+    docket: "424"
+    citation: "245 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1917"
-    citation: "245 U.S. 54"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-049"
@@ -5248,9 +6818,12 @@ cases:
     title: "United States v. Leary"
     volume: "245"
     page: "001"
+    docket: "194"
+    citation: "245 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, October 15, 1917"
-    citation: "245 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-056"
@@ -5258,9 +6831,12 @@ cases:
     title: "Gulf, C. &amp; S. F. R. Co. v. Texas"
     volume: "246"
     page: "058"
+    docket: "158"
+    citation: "246 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 58"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-089"
@@ -5268,9 +6844,12 @@ cases:
     title: "Union Pacific R. Co. v. Hadley"
     volume: "246"
     page: "330"
+    docket: "174"
+    citation: "246 U.S. 330"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1918"
-    citation: "246 U.S. 330"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-093"
@@ -5278,9 +6857,12 @@ cases:
     title: "Pendleton v. Benner Line"
     volume: "246"
     page: "353"
+    docket: "178"
+    citation: "246 U.S. 353"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1918"
-    citation: "246 U.S. 353"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-098"
@@ -5288,9 +6870,12 @@ cases:
     title: "City of Covington v. South Covington &amp; Cincinnati Street R. Co."
     volume: "246"
     page: "413"
+    docket: "225"
+    citation: "246 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1918"
-    citation: "246 U.S. 413"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-099"
@@ -5298,9 +6883,12 @@ cases:
     title: "International &amp; Great Northern R. Co. v. Anderson County"
     volume: "246"
     page: "424"
+    docket: "243"
+    citation: "246 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1918"
-    citation: "246 U.S. 424"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-117"
@@ -5308,9 +6896,12 @@ cases:
     title: "Waite v. Macy"
     volume: "246"
     page: "606"
+    docket: "255"
+    citation: "246 U.S. 606"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1918"
-    citation: "246 U.S. 606"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-121"
@@ -5318,9 +6909,12 @@ cases:
     title: "Dickinson v. Stiles"
     volume: "246"
     page: "631"
+    docket: "735"
+    citation: "246 U.S. 631"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1918"
-    citation: "246 U.S. 631"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-122"
@@ -5328,9 +6922,12 @@ cases:
     title: "E. H. Emery &amp; Co. v. American Refrigerator Transit Co."
     volume: "246"
     page: "634"
+    docket: "739"
+    citation: "246 U.S. 634"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1918"
-    citation: "246 U.S. 634"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-134"
@@ -5338,9 +6935,12 @@ cases:
     title: "Ex parte Simons"
     volume: "247"
     page: "231"
+    docket: "26 Orig."
+    citation: "247 U.S. 231"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1918"
-    citation: "247 U.S. 231"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-135"
@@ -5348,9 +6948,12 @@ cases:
     title: "Alice State Bank v. Houston Pasture Co."
     volume: "247"
     page: "240"
+    docket: "154"
+    citation: "247 U.S. 240"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1918"
-    citation: "247 U.S. 240"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-159"
@@ -5358,9 +6961,12 @@ cases:
     title: "Erie R. Co. v. Hilt"
     volume: "247"
     page: "097"
+    docket: "846"
+    citation: "247 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1918"
-    citation: "247 U.S. 97"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-160"
@@ -5368,9 +6974,12 @@ cases:
     title: "Carney v. Chapman"
     volume: "247"
     page: "102"
+    docket: "281"
+    citation: "247 U.S. 102"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1918"
-    citation: "247 U.S. 102"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-161"
@@ -5378,9 +6987,12 @@ cases:
     title: "Western Union Telegraph Co. v. Foster"
     volume: "247"
     page: "105"
+    docket: "274"
+    citation: "247 U.S. 105"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1918"
-    citation: "247 U.S. 105"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-179"
@@ -5388,9 +7000,12 @@ cases:
     title: "Gasquet v. Fenner"
     volume: "247"
     page: "016"
+    docket: "261"
+    citation: "247 U.S. 16"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1918"
-    citation: "247 U.S. 16"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-181"
@@ -5398,9 +7013,12 @@ cases:
     title: "William Filene&apos;s Sons Co. v. Weed"
     volume: "245"
     page: "597"
+    docket: "93"
+    citation: "245 U.S. 597"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1918"
-    citation: "245 U.S. 597"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-182"
@@ -5408,9 +7026,12 @@ cases:
     title: "Gardiner v. William S. Butler &amp; Co."
     volume: "245"
     page: "603"
+    docket: "95"
+    citation: "245 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1918"
-    citation: "245 U.S. 603"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-188"
@@ -5418,9 +7039,12 @@ cases:
     title: "Greer v. United States"
     volume: "245"
     page: "559"
+    docket: "504"
+    citation: "245 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1918"
-    citation: "245 U.S. 559"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-193"
@@ -5428,9 +7052,12 @@ cases:
     title: "Southern Pacific Co. v. Darnell-Taenzer Lumber Co."
     volume: "245"
     page: "531"
+    docket: "132"
+    citation: "245 U.S. 531"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1918"
-    citation: "245 U.S. 531"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-198"
@@ -5438,9 +7065,12 @@ cases:
     title: "Missouri, K. &amp; T. R. Co. of Tex. v. Texas"
     volume: "245"
     page: "484"
+    docket: "113"
+    citation: "245 U.S. 484"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1918"
-    citation: "245 U.S. 484"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-199"
@@ -5448,9 +7078,12 @@ cases:
     title: "George A. Fuller Co. v. Otis Elevator Co."
     volume: "245"
     page: "489"
+    docket: "128"
+    citation: "245 U.S. 489"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1918"
-    citation: "245 U.S. 489"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-207"
@@ -5458,9 +7091,12 @@ cases:
     title: "Union Trust Co. v. Grosman"
     volume: "245"
     page: "412"
+    docket: "106"
+    citation: "245 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1918"
-    citation: "245 U.S. 412"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1917-208"
@@ -5468,9 +7104,12 @@ cases:
     title: "Towne v. Eisner"
     volume: "245"
     page: "418"
+    docket: "563"
+    citation: "245 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1918"
-    citation: "245 U.S. 418"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-011"
@@ -5478,9 +7117,12 @@ cases:
     title: "Buckeye Powder Co. v. E. I. DuPont de Nemours Powder Co."
     volume: "248"
     page: "055"
+    docket: "7"
+    citation: "248 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1918"
-    citation: "248 U.S. 55"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-012"
@@ -5488,9 +7130,12 @@ cases:
     title: "Watters v. Michigan"
     volume: "248"
     page: "065"
+    docket: "58"
+    citation: "248 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1918"
-    citation: "248 U.S. 65"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-013"
@@ -5498,9 +7143,12 @@ cases:
     title: "Union Pacific R. Co. v. Public Serv. Comm&apos;n of Mo."
     volume: "248"
     page: "067"
+    docket: "65"
+    citation: "248 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1918"
-    citation: "248 U.S. 67"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-014"
@@ -5508,9 +7156,12 @@ cases:
     title: "Gulf Oil Corp. v. Lewellyn"
     volume: "248"
     page: "071"
+    docket: "310"
+    citation: "248 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1918"
-    citation: "248 U.S. 71"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-030"
@@ -5518,9 +7169,12 @@ cases:
     title: "Georgia v. Trustees of Cincinnati Southern R. Co."
     volume: "248"
     page: "026"
+    docket: "21 Orig."
+    citation: "248 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1918"
-    citation: "248 U.S. 26"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-031"
@@ -5528,9 +7182,12 @@ cases:
     title: "Detroit &amp; Mackinac R. Co. v. Fletcher Paper Co."
     volume: "248"
     page: "030"
+    docket: "336"
+    citation: "248 U.S. 30"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1918"
-    citation: "248 U.S. 30"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-041"
@@ -5538,9 +7195,12 @@ cases:
     title: "Joseph Schlitz Brewing Co. v. Houston Ice &amp; Brewing Co."
     volume: "250"
     page: "028"
+    docket: "326"
+    citation: "250 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 28"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-042"
@@ -5548,9 +7208,12 @@ cases:
     title: "Coleman v. United States"
     volume: "250"
     page: "030"
+    docket: "343"
+    citation: "250 U.S. 30"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 30"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-043"
@@ -5558,9 +7221,12 @@ cases:
     title: "Sage v. United States"
     volume: "250"
     page: "033"
+    docket: "344"
+    citation: "250 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 33"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-089"
@@ -5568,9 +7234,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Western Union Telegraph Co."
     volume: "250"
     page: "363"
+    docket: "176"
+    citation: "250 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1919"
-    citation: "250 U.S. 363"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-105"
@@ -5578,9 +7247,12 @@ cases:
     title: "Beaumont v. Prieto"
     volume: "249"
     page: "554"
+    docket: "303"
+    citation: "249 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1919"
-    citation: "249 U.S. 554"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-108"
@@ -5588,9 +7260,12 @@ cases:
     title: "Darling v. Newport News"
     volume: "249"
     page: "540"
+    docket: "600"
+    citation: "249 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1919"
-    citation: "249 U.S. 540"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-115"
@@ -5598,9 +7273,12 @@ cases:
     title: "United Railroads of San Francisco v. City and County of San Francisco"
     volume: "249"
     page: "517"
+    docket: "282"
+    citation: "249 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1919"
-    citation: "249 U.S. 517"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-123"
@@ -5608,9 +7286,12 @@ cases:
     title: "Delaware, L. &amp; W. R. Co. v. United States"
     volume: "249"
     page: "385"
+    docket: "158"
+    citation: "249 U.S. 385"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1919"
-    citation: "249 U.S. 385"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-144"
@@ -5618,9 +7299,12 @@ cases:
     title: "Lane v. Darlington"
     volume: "249"
     page: "331"
+    docket: "219"
+    citation: "249 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1919"
-    citation: "249 U.S. 331"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-145"
@@ -5628,9 +7312,12 @@ cases:
     title: "Capitol Transp. Co. v. Cambria Steel Co."
     volume: "249"
     page: "334"
+    docket: "231"
+    citation: "249 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1919"
-    citation: "249 U.S. 334"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-151"
@@ -5638,9 +7325,12 @@ cases:
     title: "Dominion Hotel, Inc. v. Arizona"
     volume: "249"
     page: "265"
+    docket: "178"
+    citation: "249 U.S. 265"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1919"
-    citation: "249 U.S. 265"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-152"
@@ -5648,9 +7338,12 @@ cases:
     title: "St. Louis Poster Advertising Co. v. St. Louis"
     volume: "249"
     page: "269"
+    docket: "2"
+    citation: "249 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1919"
-    citation: "249 U.S. 269"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-155"
@@ -5658,9 +7351,12 @@ cases:
     title: "Crocker v. Malley"
     volume: "249"
     page: "223"
+    docket: "649"
+    citation: "249 U.S. 223"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1919"
-    citation: "249 U.S. 223"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-161"
@@ -5668,9 +7364,12 @@ cases:
     title: "Frohwerk v. United States"
     volume: "249"
     page: "204"
+    docket: "685"
+    citation: "249 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1919"
-    citation: "249 U.S. 204"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-162"
@@ -5678,9 +7377,12 @@ cases:
     title: "Debs v. United States"
     volume: "249"
     page: "211"
+    docket: "714"
+    citation: "249 U.S. 211"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1919"
-    citation: "249 U.S. 211"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-167"
@@ -5688,9 +7390,12 @@ cases:
     title: "Panama R. Co. v. Bosse"
     volume: "249"
     page: "041"
+    docket: "203"
+    citation: "249 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 41"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-168"
@@ -5698,9 +7403,12 @@ cases:
     title: "Schenck v. United States"
     volume: "249"
     page: "047"
+    docket: "437"
+    citation: "249 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 47"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-191"
@@ -5708,9 +7416,12 @@ cases:
     title: "Oelwerke Teutonia v. Erlanger"
     volume: "248"
     page: "521"
+    docket: "162"
+    citation: "248 U.S. 521"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1919"
-    citation: "248 U.S. 521"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-192"
@@ -5718,9 +7429,12 @@ cases:
     title: "Central of Georgia R. Co. v. Wright"
     volume: "248"
     page: "525"
+    docket: "163"
+    citation: "248 U.S. 525"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1919"
-    citation: "248 U.S. 525"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-195"
@@ -5728,9 +7442,12 @@ cases:
     title: "Pierce Oil Corp. v. City of Hope"
     volume: "248"
     page: "498"
+    docket: "137"
+    citation: "248 U.S. 498"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1919"
-    citation: "248 U.S. 498"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-200"
@@ -5738,9 +7455,12 @@ cases:
     title: "Postal Telegraph-Cable Co. v. Tonopah &amp; Tidewater R. Co."
     volume: "248"
     page: "471"
+    docket: "130"
+    citation: "248 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1919"
-    citation: "248 U.S. 471"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-207"
@@ -5748,9 +7468,12 @@ cases:
     title: "Cordova v. Grant"
     volume: "248"
     page: "413"
+    docket: "104"
+    citation: "248 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1919"
-    citation: "248 U.S. 413"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-217"
@@ -5758,9 +7481,12 @@ cases:
     title: "Weigle v. Curtice Brothers Co."
     volume: "248"
     page: "285"
+    docket: "83"
+    citation: "248 U.S. 285"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 7, 1919"
-    citation: "248 U.S. 285"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-218"
@@ -5768,9 +7494,12 @@ cases:
     title: "Flexner v. Farson"
     volume: "248"
     page: "289"
+    docket: "101"
+    citation: "248 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 7, 1919"
-    citation: "248 U.S. 289"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-219"
@@ -5778,9 +7507,12 @@ cases:
     title: "Englewood v. Denver &amp; South Platte R. Co."
     volume: "248"
     page: "294"
+    docket: "106"
+    citation: "248 U.S. 294"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 7, 1919"
-    citation: "248 U.S. 294"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1918-220"
@@ -5788,9 +7520,12 @@ cases:
     title: "Hebe Co. v. Shaw"
     volume: "248"
     page: "297"
+    docket: "664"
+    citation: "248 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 7, 1919"
-    citation: "248 U.S. 297"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-001"
@@ -5798,9 +7533,12 @@ cases:
     title: "Central of Georgia R. Co. v. Wright"
     volume: "250"
     page: "519"
+    docket: "30"
+    citation: "250 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Monday, October 27, 1919"
-    citation: "250 U.S. 519"
+    voteMajority: 5
+    voteMinority: 4
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-006"
@@ -5808,9 +7546,12 @@ cases:
     title: "Pennsylvania R. Co. v. Public Serv. Comm&apos;n of Pa."
     volume: "250"
     page: "566"
+    docket: "53"
+    citation: "250 U.S. 566"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1919"
-    citation: "250 U.S. 566"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-007"
@@ -5818,9 +7559,12 @@ cases:
     title: "Pell v. McCabe"
     volume: "250"
     page: "573"
+    docket: "311"
+    citation: "250 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1919"
-    citation: "250 U.S. 573"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-026"
@@ -5828,9 +7572,12 @@ cases:
     title: "Liverpool, Brazil &amp; River Plate Steam Nav. Co. v. Brooklyn Eastern Dist. Terminal"
     volume: "251"
     page: "048"
+    docket: "81"
+    citation: "251 U.S. 48"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1919"
-    citation: "251 U.S. 48"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-027"
@@ -5838,9 +7585,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Cole"
     volume: "251"
     page: "054"
+    docket: "290"
+    citation: "251 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1919"
-    citation: "251 U.S. 54"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-049"
@@ -5848,9 +7598,12 @@ cases:
     title: "Fort Smith &amp; Western R. Co. v. Mills"
     volume: "253"
     page: "206"
+    docket: "42"
+    citation: "253 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1920"
-    citation: "253 U.S. 206"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-050"
@@ -5858,9 +7611,12 @@ cases:
     title: "United States ex rel. Johnson v. Payne"
     volume: "253"
     page: "209"
+    docket: "291"
+    citation: "253 U.S. 209"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1920"
-    citation: "253 U.S. 209"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-051"
@@ -5868,9 +7624,12 @@ cases:
     title: "Fidelity Title &amp; Trust Co. v. Dubois Elec. Co."
     volume: "253"
     page: "212"
+    docket: "300"
+    citation: "253 U.S. 212"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1920"
-    citation: "253 U.S. 212"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-052"
@@ -5878,9 +7637,12 @@ cases:
     title: "LeCrone v. McAdoo"
     volume: "253"
     page: "217"
+    docket: "304"
+    citation: "253 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1920"
-    citation: "253 U.S. 217"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-072"
@@ -5888,9 +7650,12 @@ cases:
     title: "Leary v. United States"
     volume: "253"
     page: "094"
+    docket: "314"
+    citation: "253 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1920"
-    citation: "253 U.S. 94"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-073"
@@ -5898,9 +7663,12 @@ cases:
     title: "Chicago, M. &amp; St. P. R. Co. v. McCaull-Dinsmore Co."
     volume: "253"
     page: "097"
+    docket: "628"
+    citation: "253 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1920"
-    citation: "253 U.S. 97"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-084"
@@ -5908,9 +7676,12 @@ cases:
     title: "Wallace v. Hines"
     volume: "253"
     page: "066"
+    docket: "683"
+    citation: "253 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1920"
-    citation: "253 U.S. 66"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-092"
@@ -5918,9 +7689,12 @@ cases:
     title: "Kenney v. Supreme Lodge of World, Loyal Order of Moose"
     volume: "252"
     page: "411"
+    docket: "269"
+    citation: "252 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1920"
-    citation: "252 U.S. 411"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-093"
@@ -5928,9 +7702,12 @@ cases:
     title: "Missouri v. Holland"
     volume: "252"
     page: "416"
+    docket: "609"
+    citation: "252 U.S. 416"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1920"
-    citation: "252 U.S. 416"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-115"
@@ -5938,9 +7715,12 @@ cases:
     title: "The Atlanten"
     volume: "252"
     page: "313"
+    docket: "171"
+    citation: "252 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1920"
-    citation: "252 U.S. 313"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-116"
@@ -5948,9 +7728,12 @@ cases:
     title: "Manners v. Morosco"
     volume: "252"
     page: "317"
+    docket: "370"
+    citation: "252 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1920"
-    citation: "252 U.S. 317"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-135"
@@ -5958,9 +7741,12 @@ cases:
     title: "The South Coast"
     volume: "251"
     page: "519"
+    docket: "68"
+    citation: "251 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "251 U.S. 519"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-136"
@@ -5968,9 +7754,12 @@ cases:
     title: "Bates v. Dresser"
     volume: "251"
     page: "524"
+    docket: "155"
+    citation: "251 U.S. 524"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "251 U.S. 524"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-137"
@@ -5978,9 +7767,12 @@ cases:
     title: "Fort Smith Lumber Co. v. Arkansas ex rel. Arbuckle"
     volume: "251"
     page: "532"
+    docket: "394"
+    citation: "251 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "251 U.S. 532"
+    voteMajority: 5
+    voteMinority: 4
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-158"
@@ -5988,9 +7780,12 @@ cases:
     title: "Henry v. United States"
     volume: "251"
     page: "393"
+    docket: "162"
+    citation: "251 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1920"
-    citation: "251 U.S. 393"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-159"
@@ -5998,9 +7793,12 @@ cases:
     title: "Brooks-Scanlon Co. v. Railroad Comm&apos;n of La."
     volume: "251"
     page: "396"
+    docket: "386"
+    citation: "251 U.S. 396"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1920"
-    citation: "251 U.S. 396"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-160"
@@ -6008,9 +7806,12 @@ cases:
     title: "Rex v. United States"
     volume: "251"
     page: "382"
+    docket: "126"
+    citation: "251 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1920"
-    citation: "251 U.S. 382"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-161"
@@ -6018,9 +7819,12 @@ cases:
     title: "Silverthorne Lumber Co. v. United States"
     volume: "251"
     page: "385"
+    docket: "358"
+    citation: "251 U.S. 385"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1920"
-    citation: "251 U.S. 385"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-167"
@@ -6028,9 +7832,12 @@ cases:
     title: "Birge-Forbes Co. v. Heye"
     volume: "251"
     page: "317"
+    docket: "76"
+    citation: "251 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1920"
-    citation: "251 U.S. 317"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1919-168"
@@ -6038,9 +7845,12 @@ cases:
     title: "The Mail Divisor Cases"
     volume: "251"
     page: "326"
+    docket: "109"
+    citation: "251 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1920"
-    citation: "251 U.S. 326"
+    voteMajority: 4
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-014"
@@ -6048,9 +7858,12 @@ cases:
     title: "Coca-Cola Co. v. Koke Co. of America"
     volume: "254"
     page: "143"
+    docket: "101"
+    citation: "254 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1920"
-    citation: "254 U.S. 143"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-030"
@@ -6058,9 +7871,12 @@ cases:
     title: "International Bridge Co. v. New York"
     volume: "254"
     page: "126"
+    docket: "46"
+    citation: "254 U.S. 126"
     pdfSource: "loc"
     dateDecision: "Monday, November 22, 1920"
-    citation: "254 U.S. 126"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-031"
@@ -6068,9 +7884,12 @@ cases:
     title: "Horning v. District of Columbia"
     volume: "254"
     page: "135"
+    docket: "77"
+    citation: "254 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, November 22, 1920"
-    citation: "254 U.S. 135"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-032"
@@ -6078,9 +7897,12 @@ cases:
     title: "Rock Island, A. &amp; L. R. Co. v. United States"
     volume: "254"
     page: "141"
+    docket: "82"
+    citation: "254 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, November 22, 1920"
-    citation: "254 U.S. 141"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-033"
@@ -6088,9 +7910,12 @@ cases:
     title: "Northwestern Mut. Life Ins. Co. v. Johnson"
     volume: "254"
     page: "096"
+    docket: "70"
+    citation: "254 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1920"
-    citation: "254 U.S. 96"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-042"
@@ -6098,9 +7923,12 @@ cases:
     title: "New York ex rel. Troy Union R. Co. v. Mealy"
     volume: "254"
     page: "047"
+    docket: "63"
+    citation: "254 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1920"
-    citation: "254 U.S. 47"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-043"
@@ -6108,9 +7936,12 @@ cases:
     title: "Johnson v. Maryland"
     volume: "254"
     page: "051"
+    docket: "289"
+    citation: "254 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1920"
-    citation: "254 U.S. 51"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-051"
@@ -6118,9 +7949,12 @@ cases:
     title: "Western Union Telegraph Co. v. Speight"
     volume: "254"
     page: "017"
+    docket: "241"
+    citation: "254 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, October 25, 1920"
-    citation: "254 U.S. 17"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-057"
@@ -6128,9 +7962,12 @@ cases:
     title: "Missouri, K. &amp; T. R. Co. v. United States"
     volume: "256"
     page: "610"
+    docket: "52"
+    citation: "256 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1921"
-    citation: "256 U.S. 610"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-071"
@@ -6138,9 +7975,12 @@ cases:
     title: "United States v. American Chicle Co."
     volume: "256"
     page: "446"
+    docket: "175"
+    citation: "256 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 1, 1921"
-    citation: "256 U.S. 446"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-094"
@@ -6148,9 +7988,12 @@ cases:
     title: "Brown v. United States"
     volume: "256"
     page: "335"
+    docket: "103"
+    citation: "256 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1921"
-    citation: "256 U.S. 335"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-095"
@@ -6158,9 +8001,12 @@ cases:
     title: "New York Trust Co. v. Eisner"
     volume: "256"
     page: "345"
+    docket: "286"
+    citation: "256 U.S. 345"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1921"
-    citation: "256 U.S. 345"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-096"
@@ -6168,9 +8014,12 @@ cases:
     title: "American Bank &amp; Trust Co. v. Federal Reserve Bank of Atlanta"
     volume: "256"
     page: "350"
+    docket: "679"
+    citation: "256 U.S. 350"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1921"
-    citation: "256 U.S. 350"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-107"
@@ -6178,9 +8027,12 @@ cases:
     title: "St. Louis-San Francisco R. Co. v. Middlekamp"
     volume: "256"
     page: "226"
+    docket: "636"
+    citation: "256 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1921"
-    citation: "256 U.S. 226"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-111"
@@ -6188,9 +8040,12 @@ cases:
     title: "Nickel v. Cole"
     volume: "256"
     page: "222"
+    docket: "268"
+    citation: "256 U.S. 222"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1921"
-    citation: "256 U.S. 222"
+    voteMajority: 7
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-112"
@@ -6198,9 +8053,12 @@ cases:
     title: "Block v. Hirsh"
     volume: "256"
     page: "135"
+    docket: "640"
+    citation: "256 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1921"
-    citation: "256 U.S. 135"
+    voteMajority: 5
+    voteMinority: 4
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-113"
@@ -6208,9 +8066,12 @@ cases:
     title: "Marcus Brown Holding Co. v. Feldman"
     volume: "256"
     page: "170"
+    docket: "731"
+    citation: "256 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1921"
-    citation: "256 U.S. 170"
+    voteMajority: 5
+    voteMinority: 4
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-123"
@@ -6218,9 +8079,12 @@ cases:
     title: "Silver King Coalition Mines Co. v. Conkling Mining Co."
     volume: "256"
     page: "018"
+    docket: "158"
+    citation: "256 U.S. 18"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1921"
-    citation: "256 U.S. 18"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-140"
@@ -6228,9 +8092,12 @@ cases:
     title: "United States v. Coronado Beach Co."
     volume: "255"
     page: "472"
+    docket: "524"
+    citation: "255 U.S. 472"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1921"
-    citation: "255 U.S. 472"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-147"
@@ -6238,9 +8105,12 @@ cases:
     title: "Ex parte Riddle"
     volume: "255"
     page: "450"
+    docket: "27 Orig."
+    citation: "255 U.S. 450"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1921"
-    citation: "255 U.S. 450"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-148"
@@ -6248,9 +8118,12 @@ cases:
     title: "Hollis v. Kutz"
     volume: "255"
     page: "452"
+    docket: "397"
+    citation: "255 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1921"
-    citation: "255 U.S. 452"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-173"
@@ -6258,9 +8131,12 @@ cases:
     title: "Silver King Coalition Mines Co. v. Conkling Mining Co."
     volume: "255"
     page: "151"
+    docket: "158"
+    citation: "255 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1921"
-    citation: "255 U.S. 151"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-198"
@@ -6268,9 +8144,12 @@ cases:
     title: "Alaska Fish Salting &amp; By-Products Co. v. Smith"
     volume: "255"
     page: "044"
+    docket: "166"
+    citation: "255 U.S. 44"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1921"
-    citation: "255 U.S. 44"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-199"
@@ -6278,9 +8157,12 @@ cases:
     title: "Stark Bros. Nurseries &amp; Orchards Co. v. Stark"
     volume: "255"
     page: "050"
+    docket: "171"
+    citation: "255 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1921"
-    citation: "255 U.S. 50"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-202"
@@ -6288,9 +8170,12 @@ cases:
     title: "Panama R. Co. v. Pigott"
     volume: "254"
     page: "552"
+    docket: "133"
+    citation: "254 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1921"
-    citation: "254 U.S. 552"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-203"
@@ -6298,9 +8183,12 @@ cases:
     title: "Central Union Trust Co. of N. Y. v. Garvan"
     volume: "254"
     page: "554"
+    docket: "392"
+    citation: "254 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1921"
-    citation: "254 U.S. 554"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-209"
@@ -6308,9 +8196,12 @@ cases:
     title: "Bullock v. Florida ex rel. Railroad Comm&apos;n of Fla."
     volume: "254"
     page: "513"
+    docket: "262"
+    citation: "254 U.S. 513"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1921"
-    citation: "254 U.S. 513"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-215"
@@ -6318,9 +8209,12 @@ cases:
     title: "Erie R. Co. v. Board of Pub. Util. Comm&apos;rs"
     volume: "254"
     page: "394"
+    docket: "33"
+    citation: "254 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1921"
-    citation: "254 U.S. 394"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-216"
@@ -6328,9 +8222,12 @@ cases:
     title: "Southern Pacific Co. v. Berkshire"
     volume: "254"
     page: "415"
+    docket: "106"
+    citation: "254 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1921"
-    citation: "254 U.S. 415"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1920-217"
@@ -6338,9 +8235,12 @@ cases:
     title: "Atwater v. Guernsey"
     volume: "254"
     page: "423"
+    docket: "511"
+    citation: "254 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1921"
-    citation: "254 U.S. 423"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-001"
@@ -6348,9 +8248,12 @@ cases:
     title: "Smietanka v. Indiana Steel Co."
     volume: "257"
     page: "001"
+    docket: "214"
+    citation: "257 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, October 24, 1921"
-    citation: "257 U.S. 1"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-007"
@@ -6358,9 +8261,12 @@ cases:
     title: "Marine Railway &amp; Coal Co. v. United States"
     volume: "257"
     page: "047"
+    docket: "45"
+    citation: "257 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1921"
-    citation: "257 U.S. 47"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-008"
@@ -6368,9 +8274,12 @@ cases:
     title: "Springfield Gas &amp; Elec. Co. v. Springfield"
     volume: "257"
     page: "066"
+    docket: "46"
+    citation: "257 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1921"
-    citation: "257 U.S. 66"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-025"
@@ -6378,9 +8287,12 @@ cases:
     title: "Robert Mitchell Furniture Co. v. Selden Breck Constr. Co."
     volume: "257"
     page: "213"
+    docket: "56"
+    citation: "257 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1921"
-    citation: "257 U.S. 213"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-032"
@@ -6388,9 +8300,12 @@ cases:
     title: "Curtis v. Connly"
     volume: "257"
     page: "260"
+    docket: "69"
+    citation: "257 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1921"
-    citation: "257 U.S. 260"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-033"
@@ -6398,9 +8313,12 @@ cases:
     title: "Eureka Pipe Line Co. v. Hallanan"
     volume: "257"
     page: "265"
+    docket: "255"
+    citation: "257 U.S. 265"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1921"
-    citation: "257 U.S. 265"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-034"
@@ -6408,9 +8326,12 @@ cases:
     title: "United Fuel Gas Co. v. Hallahan"
     volume: "257"
     page: "277"
+    docket: "276"
+    citation: "257 U.S. 277"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1921"
-    citation: "257 U.S. 277"
+    voteMajority: 7
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-044"
@@ -6418,9 +8339,12 @@ cases:
     title: "Gooch v. Oregon Short Line R. Co."
     volume: "258"
     page: "022"
+    docket: "90"
+    citation: "258 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1922"
-    citation: "258 U.S. 22"
+    voteMajority: 5
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-045"
@@ -6428,9 +8352,12 @@ cases:
     title: "New York, N. H. &amp; H. R. Co. v. United States"
     volume: "258"
     page: "032"
+    docket: "96"
+    citation: "258 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1922"
-    citation: "258 U.S. 32"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-046"
@@ -6438,9 +8365,12 @@ cases:
     title: "Burrill v. Locomobile Co."
     volume: "258"
     page: "034"
+    docket: "98"
+    citation: "258 U.S. 34"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1922"
-    citation: "258 U.S. 34"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-047"
@@ -6448,9 +8378,12 @@ cases:
     title: "John L. Whiting--J. J. Adams Co. v. Burrill"
     volume: "258"
     page: "039"
+    docket: "113"
+    citation: "258 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1922"
-    citation: "258 U.S. 39"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-048"
@@ -6458,9 +8391,12 @@ cases:
     title: "Jones v. United States"
     volume: "258"
     page: "040"
+    docket: "103"
+    citation: "258 U.S. 40"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1922"
-    citation: "258 U.S. 40"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-071"
@@ -6468,9 +8404,12 @@ cases:
     title: "Levinson v. United States"
     volume: "258"
     page: "198"
+    docket: "145"
+    citation: "258 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1922"
-    citation: "258 U.S. 198"
+    voteMajority: 7
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-075"
@@ -6478,9 +8417,12 @@ cases:
     title: "First Nat. Bank of Aiken v. J. L. Mott Iron Works"
     volume: "258"
     page: "240"
+    docket: "159"
+    citation: "258 U.S. 240"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1922"
-    citation: "258 U.S. 240"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-079"
@@ -6488,9 +8430,12 @@ cases:
     title: "Pacific Mail S. S. Co. v. Lucas"
     volume: "258"
     page: "266"
+    docket: "160"
+    citation: "258 U.S. 266"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1922"
-    citation: "258 U.S. 266"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-080"
@@ -6498,9 +8443,12 @@ cases:
     title: "United Zinc &amp; Chemical Co. v. Britt"
     volume: "258"
     page: "268"
+    docket: "164"
+    citation: "258 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1922"
-    citation: "258 U.S. 268"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-088"
@@ -6508,9 +8456,12 @@ cases:
     title: "Forbes Pioneer Boat Line v. Board of Comm&apos;rs of Everglades Drainage Dist."
     volume: "258"
     page: "338"
+    docket: "188"
+    citation: "258 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1922"
-    citation: "258 U.S. 338"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-089"
@@ -6518,9 +8469,12 @@ cases:
     title: "White Oak Transp. Co. v. Boston, Cape Cod &amp; New York Canal Co."
     volume: "258"
     page: "341"
+    docket: "116"
+    citation: "258 U.S. 341"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1922"
-    citation: "258 U.S. 341"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-112"
@@ -6528,9 +8482,12 @@ cases:
     title: "Sloan Shipyards Corp. v. United States Shipping Bd. Emergency Fleet Corporation"
     volume: "258"
     page: "549"
+    docket: "308"
+    citation: "258 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1922"
-    citation: "258 U.S. 549"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-114"
@@ -6538,9 +8495,12 @@ cases:
     title: "Ex parte United States"
     volume: "257"
     page: "419"
+    docket: "21 Orig."
+    citation: "257 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1922"
-    citation: "257 U.S. 419"
+    voteMajority: 5
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-120"
@@ -6548,9 +8508,12 @@ cases:
     title: "North Dakota ex rel. Lemke v. Chicago &amp; Northwestern R. Co."
     volume: "257"
     page: "485"
+    docket: "25 Orig."
+    citation: "257 U.S. 485"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1922"
-    citation: "257 U.S. 485"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-122"
@@ -6558,9 +8521,12 @@ cases:
     title: "Gillespie v. Oklahoma"
     volume: "257"
     page: "501"
+    docket: "322"
+    citation: "257 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1922"
-    citation: "257 U.S. 501"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-139"
@@ -6568,9 +8534,12 @@ cases:
     title: "American Smelting &amp; Refining Co. v. United States"
     volume: "259"
     page: "075"
+    docket: "221"
+    citation: "259 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1922"
-    citation: "259 U.S. 75"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-140"
@@ -6578,9 +8547,12 @@ cases:
     title: "Grogan v. Hiram Walker &amp; Sons, Ltd."
     volume: "259"
     page: "080"
+    docket: "615"
+    citation: "259 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1922"
-    citation: "259 U.S. 80"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-151"
@@ -6588,9 +8560,12 @@ cases:
     title: "Morrisdale Coal Co. v. United States"
     volume: "259"
     page: "188"
+    docket: "65"
+    citation: "259 U.S. 188"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1922"
-    citation: "259 U.S. 188"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-152"
@@ -6598,9 +8573,12 @@ cases:
     title: "Pine Hill Coal Co. v. United States"
     volume: "259"
     page: "191"
+    docket: "101"
+    citation: "259 U.S. 191"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1922"
-    citation: "259 U.S. 191"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-153"
@@ -6608,9 +8586,12 @@ cases:
     title: "Santa Fe Pacific R. Co. v. Fall"
     volume: "259"
     page: "197"
+    docket: "108"
+    citation: "259 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1922"
-    citation: "259 U.S. 197"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-154"
@@ -6618,9 +8599,12 @@ cases:
     title: "Federal Baseball Club of Baltimore, Inc. v. National League of Professional Baseball Clubs"
     volume: "259"
     page: "200"
+    docket: "204"
+    citation: "259 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1922"
-    citation: "259 U.S. 200"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1921-155"
@@ -6628,9 +8612,12 @@ cases:
     title: "Mutual Life Ins. Co. of N. Y. v. Liebing"
     volume: "259"
     page: "209"
+    docket: "215"
+    citation: "259 U.S. 209"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1922"
-    citation: "259 U.S. 209"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-004"
@@ -6638,9 +8625,12 @@ cases:
     title: "Knights v. Jackson"
     volume: "260"
     page: "012"
+    docket: "167"
+    citation: "260 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Monday, October 16, 1922"
-    citation: "260 U.S. 12"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-007"
@@ -6648,9 +8638,12 @@ cases:
     title: "Jackman v. Rosenbaum Co."
     volume: "260"
     page: "022"
+    docket: "3"
+    citation: "260 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, October 23, 1922"
-    citation: "260 U.S. 22"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-019"
@@ -6658,9 +8651,12 @@ cases:
     title: "Keokuk &amp; Hamilton Bridge Co. v. United States"
     volume: "260"
     page: "125"
+    docket: "58"
+    citation: "260 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1922"
-    citation: "260 U.S. 125"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-020"
@@ -6668,9 +8664,12 @@ cases:
     title: "McKee v. Gratz"
     volume: "260"
     page: "127"
+    docket: "61"
+    citation: "260 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1922"
-    citation: "260 U.S. 127"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-021"
@@ -6678,9 +8677,12 @@ cases:
     title: "Browne v. Thorn"
     volume: "260"
     page: "137"
+    docket: "88"
+    citation: "260 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1922"
-    citation: "260 U.S. 137"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-043"
@@ -6688,9 +8690,12 @@ cases:
     title: "Portsmouth Harbor Land &amp; Hotel Co. v. United States"
     volume: "260"
     page: "327"
+    docket: "97"
+    citation: "260 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1922"
-    citation: "260 U.S. 327"
+    voteMajority: 6
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-044"
@@ -6698,9 +8703,12 @@ cases:
     title: "New York Central &amp; Hudson River R. Co. v. Kinney"
     volume: "260"
     page: "340"
+    docket: "110"
+    citation: "260 U.S. 340"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1922"
-    citation: "260 U.S. 340"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-045"
@@ -6708,9 +8716,12 @@ cases:
     title: "St. Louis Cotton Compress Co. v. Arkansas"
     volume: "260"
     page: "346"
+    docket: "120"
+    citation: "260 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1922"
-    citation: "260 U.S. 346"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-046"
@@ -6718,9 +8729,12 @@ cases:
     title: "Davis v. Green"
     volume: "260"
     page: "349"
+    docket: "132"
+    citation: "260 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1922"
-    citation: "260 U.S. 349"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-052"
@@ -6728,9 +8742,12 @@ cases:
     title: "Pennsylvania Coal Co. v. Mahon"
     volume: "260"
     page: "393"
+    docket: "549"
+    citation: "260 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1922"
-    citation: "260 U.S. 393"
+    voteMajority: 7
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-061"
@@ -6738,9 +8755,12 @@ cases:
     title: "Galveston Wharf Co. v. Galveston"
     volume: "260"
     page: "473"
+    docket: "19"
+    citation: "260 U.S. 473"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1923"
-    citation: "260 U.S. 473"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-062"
@@ -6748,9 +8768,12 @@ cases:
     title: "United States v. Stafoff"
     volume: "260"
     page: "477"
+    docket: "197"
+    citation: "260 U.S. 477"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1923"
-    citation: "260 U.S. 477"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-063"
@@ -6758,9 +8781,12 @@ cases:
     title: "United States v. Carver"
     volume: "260"
     page: "482"
+    docket: "402"
+    citation: "260 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1923"
-    citation: "260 U.S. 482"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-075"
@@ -6768,9 +8794,12 @@ cases:
     title: "Hill v. Smith"
     volume: "260"
     page: "592"
+    docket: "164"
+    citation: "260 U.S. 592"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1923"
-    citation: "260 U.S. 592"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-083"
@@ -6778,9 +8807,12 @@ cases:
     title: "Leigh Ellis &amp; Co. v. Davis"
     volume: "260"
     page: "682"
+    docket: "246"
+    citation: "260 U.S. 682"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1923"
-    citation: "260 U.S. 682"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-084"
@@ -6788,9 +8820,12 @@ cases:
     title: "A. Bourjois &amp; Co. v. Katzel"
     volume: "260"
     page: "689"
+    docket: "190"
+    citation: "260 U.S. 689"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1923"
-    citation: "260 U.S. 689"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-092"
@@ -6798,9 +8833,12 @@ cases:
     title: "Moore v. Dempsey"
     volume: "261"
     page: "086"
+    docket: "199"
+    citation: "261 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1923"
-    citation: "261 U.S. 86"
+    voteMajority: 6
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-093"
@@ -6808,9 +8846,12 @@ cases:
     title: "Diaz v. Gonzalez"
     volume: "261"
     page: "102"
+    docket: "263"
+    citation: "261 U.S. 102"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1923"
-    citation: "261 U.S. 102"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-094"
@@ -6818,9 +8859,12 @@ cases:
     title: "United States Grain Corp. v. Phillips"
     volume: "261"
     page: "106"
+    docket: "290"
+    citation: "261 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1923"
-    citation: "261 U.S. 106"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-117"
@@ -6828,9 +8872,12 @@ cases:
     title: "Oklahoma Natural Gas Co. v. Russell"
     volume: "261"
     page: "290"
+    docket: "406"
+    citation: "261 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1923"
-    citation: "261 U.S. 290"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-124"
@@ -6838,9 +8885,12 @@ cases:
     title: "Ewen v. American Fidelity Co."
     volume: "261"
     page: "322"
+    docket: "92"
+    citation: "261 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1923"
-    citation: "261 U.S. 322"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-125"
@@ -6848,9 +8898,12 @@ cases:
     title: "Fox Film Corp. v. Knowles"
     volume: "261"
     page: "326"
+    docket: "310"
+    citation: "261 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1923"
-    citation: "261 U.S. 326"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-131"
@@ -6858,9 +8911,12 @@ cases:
     title: "Federal Land Bank of New Orleans v. Crosland"
     volume: "261"
     page: "374"
+    docket: "428"
+    citation: "261 U.S. 374"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1923"
-    citation: "261 U.S. 374"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-141"
@@ -6868,9 +8924,12 @@ cases:
     title: "Gardner v. Chicago Title &amp; Trust Co."
     volume: "261"
     page: "453"
+    docket: "317"
+    citation: "261 U.S. 453"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1923"
-    citation: "261 U.S. 453"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-164"
@@ -6878,9 +8937,12 @@ cases:
     title: "A. G. Spalding &amp; Bros. v. Edwards"
     volume: "262"
     page: "066"
+    docket: "710"
+    citation: "262 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1923"
-    citation: "262 U.S. 66"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-168"
@@ -6888,9 +8950,12 @@ cases:
     title: "New York ex rel. Clyde v. Gilchrist"
     volume: "262"
     page: "094"
+    docket: "318"
+    citation: "262 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1923"
-    citation: "262 U.S. 94"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-175"
@@ -6898,9 +8963,12 @@ cases:
     title: "United States v. Sischo"
     volume: "262"
     page: "165"
+    docket: "76"
+    citation: "262 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1923"
-    citation: "262 U.S. 165"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-176"
@@ -6908,9 +8976,12 @@ cases:
     title: "Bianchi v. Morales"
     volume: "262"
     page: "170"
+    docket: "934"
+    citation: "262 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1923"
-    citation: "262 U.S. 170"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-187"
@@ -6918,9 +8989,12 @@ cases:
     title: "Stevens v. Arnold"
     volume: "262"
     page: "266"
+    docket: "200"
+    citation: "262 U.S. 266"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1923"
-    citation: "262 U.S. 266"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1922-188"
@@ -6928,9 +9002,12 @@ cases:
     title: "Hart v. B. F. Keith Vaudeville Exchange"
     volume: "262"
     page: "271"
+    docket: "763"
+    citation: "262 U.S. 271"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1923"
-    citation: "262 U.S. 271"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-001"
@@ -6938,9 +9015,12 @@ cases:
     title: "Frese v. Chicago, B. &amp; Q. R. Co."
     volume: "263"
     page: "001"
+    docket: "27"
+    citation: "263 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, October 15, 1923"
-    citation: "263 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-004"
@@ -6948,9 +9028,12 @@ cases:
     title: "United States v. Walter"
     volume: "263"
     page: "015"
+    docket: "20"
+    citation: "263 U.S. 15"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1923"
-    citation: "263 U.S. 15"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-005"
@@ -6958,9 +9041,12 @@ cases:
     title: "American Railway Express Co. v. Levee"
     volume: "263"
     page: "019"
+    docket: "54"
+    citation: "263 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1923"
-    citation: "263 U.S. 19"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-006"
@@ -6968,9 +9054,12 @@ cases:
     title: "Davis v. Wechsler"
     volume: "263"
     page: "022"
+    docket: "70"
+    citation: "263 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1923"
-    citation: "263 U.S. 22"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-015"
@@ -6978,9 +9067,12 @@ cases:
     title: "New Orleans Land Co. v. Brott"
     volume: "263"
     page: "097"
+    docket: "64"
+    citation: "263 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1923"
-    citation: "263 U.S. 97"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-016"
@@ -6988,9 +9080,12 @@ cases:
     title: "Heyer v. Duplicator Mfg. Co."
     volume: "263"
     page: "100"
+    docket: "75"
+    citation: "263 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1923"
-    citation: "263 U.S. 100"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-041"
@@ -6998,9 +9093,12 @@ cases:
     title: "Clallam County v. United States"
     volume: "263"
     page: "341"
+    docket: "255"
+    citation: "263 U.S. 341"
     pdfSource: "loc"
     dateDecision: "Monday, November 26, 1923"
-    citation: "263 U.S. 341"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-049"
@@ -7008,9 +9106,12 @@ cases:
     title: "Diaz v. Patterson"
     volume: "263"
     page: "399"
+    docket: "113"
+    citation: "263 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1923"
-    citation: "263 U.S. 399"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-050"
@@ -7018,9 +9119,12 @@ cases:
     title: "National Assn. of Window Glass Mfrs. v. United States"
     volume: "263"
     page: "403"
+    docket: "353"
+    citation: "263 U.S. 403"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1923"
-    citation: "263 U.S. 403"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-061"
@@ -7028,9 +9132,12 @@ cases:
     title: "Edwards v. Slocum"
     volume: "264"
     page: "061"
+    docket: "276"
+    citation: "264 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1924"
-    citation: "264 U.S. 61"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-062"
@@ -7038,9 +9145,12 @@ cases:
     title: "United States ex rel. St. Louis Southwestern R. Co. v. ICC"
     volume: "264"
     page: "064"
+    docket: "398"
+    citation: "264 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1924"
-    citation: "264 U.S. 64"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-087"
@@ -7048,9 +9158,12 @@ cases:
     title: "Western Union Telegraph Co. v. Czizek"
     volume: "264"
     page: "281"
+    docket: "300"
+    citation: "264 U.S. 281"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1924"
-    citation: "264 U.S. 281"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-090"
@@ -7058,9 +9171,12 @@ cases:
     title: "FTC v. American Tobacco Co."
     volume: "264"
     page: "298"
+    docket: "206"
+    citation: "264 U.S. 298"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1924"
-    citation: "264 U.S. 298"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-098"
@@ -7068,9 +9184,12 @@ cases:
     title: "Prestonettes, Inc. v. Coty"
     volume: "264"
     page: "359"
+    docket: "197"
+    citation: "264 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1924"
-    citation: "264 U.S. 359"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-099"
@@ -7078,9 +9197,12 @@ cases:
     title: "Dillingham v. McLaughlin"
     volume: "264"
     page: "370"
+    docket: "690"
+    citation: "264 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1924"
-    citation: "264 U.S. 370"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-119"
@@ -7088,9 +9210,12 @@ cases:
     title: "Chastleton Corp. v. Sinclair"
     volume: "264"
     page: "543"
+    docket: "467"
+    citation: "264 U.S. 543"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1924"
-    citation: "264 U.S. 543"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-125"
@@ -7098,9 +9223,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. Osborne"
     volume: "265"
     page: "014"
+    docket: "219"
+    citation: "265 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1924"
-    citation: "265 U.S. 14"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-126"
@@ -7108,9 +9236,12 @@ cases:
     title: "Missouri ex rel. Burnes Nat. Bank of St. Joseph v. Duncan"
     volume: "265"
     page: "017"
+    docket: "762"
+    citation: "265 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1924"
-    citation: "265 U.S. 17"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-131"
@@ -7118,9 +9249,12 @@ cases:
     title: "Hester v. United States"
     volume: "265"
     page: "057"
+    docket: "243"
+    citation: "265 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1924"
-    citation: "265 U.S. 57"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-137"
@@ -7128,9 +9262,12 @@ cases:
     title: "New York, Philadelphia &amp; Norfolk Telegraph Co. v. Dolan"
     volume: "265"
     page: "096"
+    docket: "275"
+    citation: "265 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1924"
-    citation: "265 U.S. 96"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-150"
@@ -7138,9 +9275,12 @@ cases:
     title: "City of Opelika v. Opelika Sewer Co."
     volume: "265"
     page: "215"
+    docket: "524"
+    citation: "265 U.S. 215"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1924"
-    citation: "265 U.S. 215"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-151"
@@ -7148,9 +9288,12 @@ cases:
     title: "Davis v. Corona Coal Co."
     volume: "265"
     page: "219"
+    docket: "819"
+    citation: "265 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1924"
-    citation: "265 U.S. 219"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-194"
@@ -7158,9 +9301,12 @@ cases:
     title: "Queen Ins. Co. of America v. Globe &amp; Rutgers Fire Ins. Co."
     volume: "263"
     page: "487"
+    docket: "116"
+    citation: "263 U.S. 487"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1924"
-    citation: "263 U.S. 487"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-195"
@@ -7168,9 +9314,12 @@ cases:
     title: "New York v. Jersawit"
     volume: "263"
     page: "493"
+    docket: "352"
+    citation: "263 U.S. 493"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1924"
-    citation: "263 U.S. 493"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-206"
@@ -7178,9 +9327,12 @@ cases:
     title: "Wilson v. Illinois Southern R. Co."
     volume: "263"
     page: "574"
+    docket: "131"
+    citation: "263 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1924"
-    citation: "263 U.S. 574"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-210"
@@ -7188,9 +9340,12 @@ cases:
     title: "United States v. New York Central R. Co."
     volume: "263"
     page: "603"
+    docket: "469"
+    citation: "263 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1924"
-    citation: "263 U.S. 603"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1923-212"
@@ -7198,9 +9353,12 @@ cases:
     title: "Electric Boat Co. v. United States"
     volume: "263"
     page: "621"
+    docket: "159"
+    citation: "263 U.S. 621"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1924"
-    citation: "263 U.S. 621"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-017"
@@ -7208,9 +9366,12 @@ cases:
     title: "United States v. Norwegian Barque &quot;Thekla&quot;"
     volume: "266"
     page: "328"
+    docket: "258"
+    citation: "266 U.S. 328"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1924"
-    citation: "266 U.S. 328"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-019"
@@ -7218,9 +9379,12 @@ cases:
     title: "In re East River Towing Co."
     volume: "266"
     page: "355"
+    docket: "81"
+    citation: "266 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1924"
-    citation: "266 U.S. 355"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-022"
@@ -7228,9 +9392,12 @@ cases:
     title: "United States v. Weissman"
     volume: "266"
     page: "377"
+    docket: "391"
+    citation: "266 U.S. 377"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1924"
-    citation: "266 U.S. 377"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-030"
@@ -7238,9 +9405,12 @@ cases:
     title: "Avent v. United States"
     volume: "266"
     page: "127"
+    docket: "52"
+    citation: "266 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1924"
-    citation: "266 U.S. 127"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-031"
@@ -7248,9 +9418,12 @@ cases:
     title: "Mackenzie v. A. Engelhard &amp; Sons Co."
     volume: "266"
     page: "131"
+    docket: "55"
+    citation: "266 U.S. 131"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1924"
-    citation: "266 U.S. 131"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-032"
@@ -7258,9 +9431,12 @@ cases:
     title: "B. Fernandez &amp; Bros. v. Ayllon y Ojeda"
     volume: "266"
     page: "144"
+    docket: "82"
+    citation: "266 U.S. 144"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1924"
-    citation: "266 U.S. 144"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-033"
@@ -7268,9 +9444,12 @@ cases:
     title: "Davis v. Kennedy"
     volume: "266"
     page: "147"
+    docket: "85"
+    citation: "266 U.S. 147"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1924"
-    citation: "266 U.S. 147"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-034"
@@ -7278,9 +9457,12 @@ cases:
     title: "A. W. Duckett &amp; Co. v. United States"
     volume: "266"
     page: "149"
+    docket: "108"
+    citation: "266 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1924"
-    citation: "266 U.S. 149"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-053"
@@ -7288,9 +9470,12 @@ cases:
     title: "Love v. Griffith"
     volume: "266"
     page: "032"
+    docket: "12"
+    citation: "266 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Monday, October 20, 1924"
-    citation: "266 U.S. 32"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-077"
@@ -7298,9 +9483,12 @@ cases:
     title: "Guardian Sav. &amp; Trust Co. v. Road Improvement Dist. No. 7 of Poinsett Cty."
     volume: "267"
     page: "001"
+    docket: "389"
+    citation: "267 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1925"
-    citation: "267 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-080"
@@ -7308,9 +9496,12 @@ cases:
     title: "Lederer v. Fidelity Trust Co."
     volume: "267"
     page: "017"
+    docket: "184"
+    citation: "267 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1925"
-    citation: "267 U.S. 17"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-081"
@@ -7318,9 +9509,12 @@ cases:
     title: "Direction der Disconto-Gesellschaft v. United States Steel Corp."
     volume: "267"
     page: "022"
+    docket: "676"
+    citation: "267 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1925"
-    citation: "267 U.S. 22"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-092"
@@ -7328,9 +9522,12 @@ cases:
     title: "United States v. S. S. &quot;Coamo&quot;"
     volume: "267"
     page: "220"
+    docket: "47"
+    citation: "267 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1925"
-    citation: "267 U.S. 220"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-093"
@@ -7338,9 +9535,12 @@ cases:
     title: "Flanagan v. Federal Coal Co."
     volume: "267"
     page: "222"
+    docket: "75"
+    citation: "267 U.S. 222"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1925"
-    citation: "267 U.S. 222"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-094"
@@ -7348,9 +9548,12 @@ cases:
     title: "Stein v. Tip-Top Baking Co."
     volume: "267"
     page: "226"
+    docket: "177"
+    citation: "267 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1925"
-    citation: "267 U.S. 226"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-095"
@@ -7358,9 +9561,12 @@ cases:
     title: "Kaplan v. Tod"
     volume: "267"
     page: "228"
+    docket: "241"
+    citation: "267 U.S. 228"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1925"
-    citation: "267 U.S. 228"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-096"
@@ -7368,9 +9574,12 @@ cases:
     title: "Fort Smith Spelter Co. v. Clear Creek Oil &amp; Gas Co."
     volume: "267"
     page: "231"
+    docket: "266"
+    citation: "267 U.S. 231"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1925"
-    citation: "267 U.S. 231"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-110"
@@ -7378,9 +9587,12 @@ cases:
     title: "Olson v. United States Spruce Production Corp."
     volume: "267"
     page: "462"
+    docket: "128"
+    citation: "267 U.S. 462"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1925"
-    citation: "267 U.S. 462"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-111"
@@ -7388,9 +9600,12 @@ cases:
     title: "United States v. P. Lorillard Co."
     volume: "267"
     page: "471"
+    docket: "319"
+    citation: "267 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1925"
-    citation: "267 U.S. 471"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-115"
@@ -7398,9 +9613,12 @@ cases:
     title: "Yeiser v. Dysart"
     volume: "267"
     page: "540"
+    docket: "130"
+    citation: "267 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1925"
-    citation: "267 U.S. 540"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-116"
@@ -7408,9 +9626,12 @@ cases:
     title: "Modern Woodmen of America v. Mixer"
     volume: "267"
     page: "544"
+    docket: "308"
+    citation: "267 U.S. 544"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1925"
-    citation: "267 U.S. 544"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-129"
@@ -7418,9 +9639,12 @@ cases:
     title: "Irwin v. Gavit"
     volume: "268"
     page: "161"
+    docket: "325"
+    citation: "268 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1925"
-    citation: "268 U.S. 161"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-134"
@@ -7428,9 +9652,12 @@ cases:
     title: "United States v. Johnston"
     volume: "268"
     page: "220"
+    docket: "111"
+    citation: "268 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1925"
-    citation: "268 U.S. 220"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-135"
@@ -7438,9 +9665,12 @@ cases:
     title: "Colorado v. Toll"
     volume: "268"
     page: "228"
+    docket: "234"
+    citation: "268 U.S. 228"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1925"
-    citation: "268 U.S. 228"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-141"
@@ -7448,9 +9678,12 @@ cases:
     title: "Fernandez v. Phillips"
     volume: "268"
     page: "311"
+    docket: "680"
+    citation: "268 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1925"
-    citation: "268 U.S. 311"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-158"
@@ -7458,9 +9691,12 @@ cases:
     title: "Cami v. Central Victoria, Ltd."
     volume: "268"
     page: "469"
+    docket: "370"
+    citation: "268 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1925"
-    citation: "268 U.S. 469"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-180"
@@ -7468,9 +9704,12 @@ cases:
     title: "Sanitary Dist. of Chicago v. United States"
     volume: "266"
     page: "405"
+    docket: "161"
+    citation: "266 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1925"
-    citation: "266 U.S. 405"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-190"
@@ -7478,9 +9717,12 @@ cases:
     title: "Standard Oil Co. of N. J. v. United States"
     volume: "267"
     page: "076"
+    docket: "169"
+    citation: "267 U.S. 76"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1925"
-    citation: "267 U.S. 76"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-195"
@@ -7488,9 +9730,12 @@ cases:
     title: "Lee v. Lehigh Valley Coal Co."
     volume: "267"
     page: "542"
+    docket: "222"
+    citation: "267 U.S. 542"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1925"
-    citation: "267 U.S. 542"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-199"
@@ -7498,9 +9743,12 @@ cases:
     title: "Southern Util. Co. v. City of Palatka"
     volume: "268"
     page: "232"
+    docket: "339"
+    citation: "268 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1925"
-    citation: "268 U.S. 232"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-229"
@@ -7508,9 +9756,12 @@ cases:
     title: "United States Fidelity &amp; Guaranty Co. v. Wooldridge"
     volume: "268"
     page: "234"
+    docket: "352"
+    citation: "268 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1925"
-    citation: "268 U.S. 234"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-230"
@@ -7518,9 +9769,12 @@ cases:
     title: "Lewellyn v. Frick"
     volume: "268"
     page: "238"
+    docket: "681"
+    citation: "268 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1925"
-    citation: "268 U.S. 238"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1924-231"
@@ -7528,9 +9782,12 @@ cases:
     title: "Davis v. Pringle"
     volume: "268"
     page: "315"
+    docket: "786"
+    citation: "268 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1925"
-    citation: "268 U.S. 315"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-021"
@@ -7538,9 +9795,12 @@ cases:
     title: "Pacific American Fisheries v. Alaska"
     volume: "269"
     page: "269"
+    docket: "246"
+    citation: "269 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1925"
-    citation: "269 U.S. 269"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-023"
@@ -7548,9 +9808,12 @@ cases:
     title: "Druggan v. Anderson"
     volume: "269"
     page: "036"
+    docket: "415"
+    citation: "269 U.S. 36"
     pdfSource: "loc"
     dateDecision: "Monday, October 19, 1925"
-    citation: "269 U.S. 36"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-026"
@@ -7558,9 +9821,12 @@ cases:
     title: "American Railway Express Co. v. Daniel"
     volume: "269"
     page: "040"
+    docket: "53"
+    citation: "269 U.S. 40"
     pdfSource: "loc"
     dateDecision: "Monday, October 26, 1925"
-    citation: "269 U.S. 40"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-028"
@@ -7568,9 +9834,12 @@ cases:
     title: "Old Dominion Land Co. v. United States"
     volume: "269"
     page: "055"
+    docket: "55"
+    citation: "269 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1925"
-    citation: "269 U.S. 55"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-029"
@@ -7578,9 +9847,12 @@ cases:
     title: "Western Union Telegraph Co. v. Georgia"
     volume: "269"
     page: "067"
+    docket: "24"
+    citation: "269 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1925"
-    citation: "269 U.S. 67"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-037"
@@ -7588,9 +9860,12 @@ cases:
     title: "Hicks v. Guinness"
     volume: "269"
     page: "071"
+    docket: "80"
+    citation: "269 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1925"
-    citation: "269 U.S. 71"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-040"
@@ -7598,9 +9873,12 @@ cases:
     title: "Atchison, T. &amp; S. F. R. Co. v. United States"
     volume: "269"
     page: "266"
+    docket: "273"
+    citation: "269 U.S. 266"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1925"
-    citation: "269 U.S. 266"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-041"
@@ -7608,9 +9886,12 @@ cases:
     title: "White v. Mechanics Securities Corp."
     volume: "269"
     page: "283"
+    docket: "423"
+    citation: "269 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1925"
-    citation: "269 U.S. 283"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-044"
@@ -7618,9 +9899,12 @@ cases:
     title: "United States v. Robbins"
     volume: "269"
     page: "315"
+    docket: "493"
+    citation: "269 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1926"
-    citation: "269 U.S. 315"
+    voteMajority: 7
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-055"
@@ -7628,9 +9912,12 @@ cases:
     title: "H. E. Crook Co. v. United States"
     volume: "270"
     page: "004"
+    docket: "122"
+    citation: "270 U.S. 4"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1926"
-    citation: "270 U.S. 4"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-056"
@@ -7638,9 +9925,12 @@ cases:
     title: "Mandelbaum v. United States"
     volume: "270"
     page: "007"
+    docket: "139"
+    citation: "270 U.S. 7"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1926"
-    citation: "270 U.S. 7"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-060"
@@ -7648,9 +9938,12 @@ cases:
     title: "Cole v. Norborne Land Drainage Dist. of Carroll Cty."
     volume: "270"
     page: "045"
+    docket: "152"
+    citation: "270 U.S. 45"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1926"
-    citation: "270 U.S. 45"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-071"
@@ -7658,9 +9951,12 @@ cases:
     title: "White v. United States"
     volume: "270"
     page: "175"
+    docket: "177"
+    citation: "270 U.S. 175"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1926"
-    citation: "270 U.S. 175"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-084"
@@ -7668,9 +9964,12 @@ cases:
     title: "Alexander Milburn Co. v. Davis-Bournonville Co."
     volume: "270"
     page: "390"
+    docket: "107"
+    citation: "270 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1926"
-    citation: "270 U.S. 390"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-086"
@@ -7678,9 +9977,12 @@ cases:
     title: "Ashe v. United States ex rel. Valotta"
     volume: "270"
     page: "424"
+    docket: "521"
+    citation: "270 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1926"
-    citation: "270 U.S. 424"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-087"
@@ -7688,9 +9990,12 @@ cases:
     title: "Fidelity &amp; Deposit Co. of Md. v. Tafoya"
     volume: "270"
     page: "426"
+    docket: "88"
+    citation: "270 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1926"
-    citation: "270 U.S. 426"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-089"
@@ -7698,9 +10003,12 @@ cases:
     title: "Edwards v. Chile Copper Co."
     volume: "270"
     page: "452"
+    docket: "375"
+    citation: "270 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1926"
-    citation: "270 U.S. 452"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-093"
@@ -7708,9 +10016,12 @@ cases:
     title: "Liberato v. Royer"
     volume: "270"
     page: "535"
+    docket: "214"
+    citation: "270 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1926"
-    citation: "270 U.S. 535"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-113"
@@ -7718,9 +10029,12 @@ cases:
     title: "United States ex rel. Hughes v. Gault"
     volume: "271"
     page: "142"
+    docket: "513"
+    citation: "271 U.S. 142"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1926"
-    citation: "271 U.S. 142"
+    voteMajority: 7
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-115"
@@ -7728,9 +10042,12 @@ cases:
     title: "Hassler, Inc. v. Shaw"
     volume: "271"
     page: "195"
+    docket: "278"
+    citation: "271 U.S. 195"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1926"
-    citation: "271 U.S. 195"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-118"
@@ -7738,9 +10055,12 @@ cases:
     title: "Chesapeake &amp; Ohio R. Co. v. Nixon"
     volume: "271"
     page: "218"
+    docket: "306"
+    citation: "271 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1926"
-    citation: "271 U.S. 218"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-146"
@@ -7748,9 +10068,12 @@ cases:
     title: "Massachusetts v. New York"
     volume: "271"
     page: "636"
+    docket: "14 Orig."
+    citation: "271 U.S. 636"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1926"
-    citation: "271 U.S. 636"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-171"
@@ -7758,9 +10081,12 @@ cases:
     title: "Morse Drydock &amp; Repair Co. v. S. S. Northern Star"
     volume: "271"
     page: "552"
+    docket: "326"
+    citation: "271 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1926"
-    citation: "271 U.S. 552"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-188"
@@ -7768,9 +10094,12 @@ cases:
     title: "New York Central R. Co. v. New York &amp; Pennsylvania Co."
     volume: "271"
     page: "124"
+    docket: "230"
+    citation: "271 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1926"
-    citation: "271 U.S. 124"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1925-205"
@@ -7778,9 +10107,12 @@ cases:
     title: "United States v. National Exchange Bank of Baltimore"
     volume: "270"
     page: "527"
+    docket: "222"
+    citation: "270 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1926"
-    citation: "270 U.S. 527"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-010"
@@ -7788,9 +10120,12 @@ cases:
     title: "Deutsche Bank Filiale Nurnberg v. Humphrey"
     volume: "272"
     page: "517"
+    docket: "224"
+    citation: "272 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 23, 1926"
-    citation: "272 U.S. 517"
+    voteMajority: 5
+    voteMinority: 4
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-011"
@@ -7798,9 +10133,12 @@ cases:
     title: "Massachusetts State Grange v. Benton"
     volume: "272"
     page: "525"
+    docket: "296"
+    citation: "272 U.S. 525"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 23, 1926"
-    citation: "272 U.S. 525"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-012"
@@ -7808,9 +10146,12 @@ cases:
     title: "Palmetto Fire Ins. Co. v. Conn"
     volume: "272"
     page: "295"
+    docket: "255"
+    citation: "272 U.S. 295"
     pdfSource: "loc"
     dateDecision: "Monday, October 25, 1926"
-    citation: "272 U.S. 295"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-013"
@@ -7818,9 +10159,12 @@ cases:
     title: "Dodge v. United States"
     volume: "272"
     page: "530"
+    docket: "341"
+    citation: "272 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 23, 1926"
-    citation: "272 U.S. 530"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-025"
@@ -7828,9 +10172,12 @@ cases:
     title: "Murphy v. United States"
     volume: "272"
     page: "630"
+    docket: "443"
+    citation: "272 U.S. 630"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1926"
-    citation: "272 U.S. 630"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-027"
@@ -7838,9 +10185,12 @@ cases:
     title: "United States v. Storrs"
     volume: "272"
     page: "652"
+    docket: "95"
+    citation: "272 U.S. 652"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1926"
-    citation: "272 U.S. 652"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-031"
@@ -7848,9 +10198,12 @@ cases:
     title: "International Stevedoring Co. v. Haverty"
     volume: "272"
     page: "050"
+    docket: "236"
+    citation: "272 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, October 18, 1926"
-    citation: "272 U.S. 50"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-048"
@@ -7858,9 +10211,12 @@ cases:
     title: "Ingenohl v. Olsen &amp; Co."
     volume: "273"
     page: "541"
+    docket: "174"
+    citation: "273 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1927"
-    citation: "273 U.S. 541"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-049"
@@ -7868,9 +10224,12 @@ cases:
     title: "Beech-Nut Packing Co. v. P. Lorillard Co."
     volume: "273"
     page: "629"
+    docket: "249"
+    citation: "273 U.S. 629"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1927"
-    citation: "273 U.S. 629"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-061"
@@ -7878,9 +10237,12 @@ cases:
     title: "Buck v. Bell"
     volume: "274"
     page: "200"
+    docket: "292"
+    citation: "274 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1927"
-    citation: "274 U.S. 200"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-065"
@@ -7888,9 +10250,12 @@ cases:
     title: "Zimmermann v. Sutherland"
     volume: "274"
     page: "253"
+    docket: "180"
+    citation: "274 U.S. 253"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1927"
-    citation: "274 U.S. 253"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-066"
@@ -7898,9 +10263,12 @@ cases:
     title: "United States v. Sullivan"
     volume: "274"
     page: "259"
+    docket: "851"
+    citation: "274 U.S. 259"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1927"
-    citation: "274 U.S. 259"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-067"
@@ -7908,9 +10276,12 @@ cases:
     title: "United States v. Alford"
     volume: "274"
     page: "264"
+    docket: "983"
+    citation: "274 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1927"
-    citation: "274 U.S. 264"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-071"
@@ -7918,9 +10289,12 @@ cases:
     title: "Miller v. Milwaukee"
     volume: "272"
     page: "713"
+    docket: "73"
+    citation: "272 U.S. 713"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1927"
-    citation: "272 U.S. 713"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-087"
@@ -7928,9 +10302,12 @@ cases:
     title: "Empire Trust Co. v. Cahan"
     volume: "274"
     page: "473"
+    docket: "318"
+    citation: "274 U.S. 473"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1927"
-    citation: "274 U.S. 473"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-088"
@@ -7938,9 +10315,12 @@ cases:
     title: "Biddle v. Perovich"
     volume: "274"
     page: "480"
+    docket: "771"
+    citation: "274 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1927"
-    citation: "274 U.S. 480"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-113"
@@ -7948,9 +10328,12 @@ cases:
     title: "United States v. Freights"
     volume: "274"
     page: "466"
+    docket: "267"
+    citation: "274 U.S. 466"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1927"
-    citation: "274 U.S. 466"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-121"
@@ -7958,9 +10341,12 @@ cases:
     title: "Westfall v. United States"
     volume: "274"
     page: "256"
+    docket: "766"
+    citation: "274 U.S. 256"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1927"
-    citation: "274 U.S. 256"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-123"
@@ -7968,9 +10354,12 @@ cases:
     title: "Emmons Coal Mining Co. v. Norfolk &amp; Western R. Co."
     volume: "272"
     page: "709"
+    docket: "70"
+    citation: "272 U.S. 709"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1927"
-    citation: "272 U.S. 709"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-144"
@@ -7978,9 +10367,12 @@ cases:
     title: "Mosler Safe Co. v. Ely-Norris Safe Co."
     volume: "273"
     page: "132"
+    docket: "94"
+    citation: "273 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1927"
-    citation: "273 U.S. 132"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-151"
@@ -7988,9 +10380,12 @@ cases:
     title: "United States v. Ritterman"
     volume: "273"
     page: "261"
+    docket: "669"
+    citation: "273 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1927"
-    citation: "273 U.S. 261"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-165"
@@ -7998,9 +10393,12 @@ cases:
     title: "Nixon v. Herndon"
     volume: "273"
     page: "536"
+    docket: "117"
+    citation: "273 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1927"
-    citation: "273 U.S. 536"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-166"
@@ -8008,9 +10406,12 @@ cases:
     title: "Shukert v. Allen"
     volume: "273"
     page: "545"
+    docket: "193"
+    citation: "273 U.S. 545"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1927"
-    citation: "273 U.S. 545"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-172"
@@ -8018,9 +10419,12 @@ cases:
     title: "Railroad and Warehouse Comm&apos;n of Minn. v. Duluth Street R. Co."
     volume: "273"
     page: "625"
+    docket: "228"
+    citation: "273 U.S. 625"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1927"
-    citation: "273 U.S. 625"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1926-190"
@@ -8028,9 +10432,12 @@ cases:
     title: "Jones v. Prairie Oil &amp; Gas Co."
     volume: "273"
     page: "195"
+    docket: "109"
+    citation: "273 U.S. 195"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1927"
-    citation: "273 U.S. 195"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-001"
@@ -8038,9 +10445,12 @@ cases:
     title: "Smallwood v. Gallardo"
     volume: "275"
     page: "056"
+    docket: "211"
+    citation: "275 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, October 24, 1927"
-    citation: "275 U.S. 56"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-002"
@@ -8048,9 +10458,12 @@ cases:
     title: "Gallardo v. Santini Fertilizer Co."
     volume: "275"
     page: "062"
+    docket: "164"
+    citation: "275 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, October 24, 1927"
-    citation: "275 U.S. 62"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-003"
@@ -8058,9 +10471,12 @@ cases:
     title: "Atlantic Coast Line R. Co. v. Southwell"
     volume: "275"
     page: "064"
+    docket: "41"
+    citation: "275 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, October 31, 1927"
-    citation: "275 U.S. 64"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-004"
@@ -8068,9 +10484,12 @@ cases:
     title: "Baltimore &amp; Ohio R. Co. v. Goodman"
     volume: "275"
     page: "066"
+    docket: "58"
+    citation: "275 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Monday, October 31, 1927"
-    citation: "275 U.S. 66"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-009"
@@ -8078,9 +10497,12 @@ cases:
     title: "Simmons v. Swan"
     volume: "275"
     page: "113"
+    docket: "65"
+    citation: "275 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1927"
-    citation: "275 U.S. 113"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-010"
@@ -8088,9 +10510,12 @@ cases:
     title: "Mercantile Trust Co. v. Wilmot Road Dist."
     volume: "275"
     page: "117"
+    docket: "69"
+    citation: "275 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1927"
-    citation: "275 U.S. 117"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-011"
@@ -8098,9 +10523,12 @@ cases:
     title: "Leach &amp; Co. v. Peirson"
     volume: "275"
     page: "120"
+    docket: "78"
+    citation: "275 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1927"
-    citation: "275 U.S. 120"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-036"
@@ -8108,9 +10536,12 @@ cases:
     title: "Robins Dry Dock &amp; Repair Co. v. Flint"
     volume: "275"
     page: "303"
+    docket: "102"
+    citation: "275 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1927"
-    citation: "275 U.S. 303"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-048"
@@ -8118,9 +10549,12 @@ cases:
     title: "Equitable Trust Co. of N. Y. v. First Nat. Bank of Trinidad"
     volume: "275"
     page: "359"
+    docket: "130"
+    citation: "275 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1928"
-    citation: "275 U.S. 359"
+    voteMajority: 7
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-068"
@@ -8128,9 +10562,12 @@ cases:
     title: "Finance &amp; Guaranty Co. v. Oppenhimer"
     volume: "276"
     page: "010"
+    docket: "170"
+    citation: "276 U.S. 10"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1928"
-    citation: "276 U.S. 10"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-070"
@@ -8138,9 +10575,12 @@ cases:
     title: "Levy v. Industrial Finance Corp."
     volume: "276"
     page: "281"
+    docket: "217"
+    citation: "276 U.S. 281"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1928"
-    citation: "276 U.S. 281"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-071"
@@ -8148,9 +10588,12 @@ cases:
     title: "Mitchell v. Hampel"
     volume: "276"
     page: "299"
+    docket: "269"
+    citation: "276 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1928"
-    citation: "276 U.S. 299"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-086"
@@ -8158,9 +10601,12 @@ cases:
     title: "Delaware, L. &amp; W. R. Co. v. Rellstab"
     volume: "276"
     page: "001"
+    docket: "141"
+    citation: "276 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1928"
-    citation: "276 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-098"
@@ -8168,9 +10614,12 @@ cases:
     title: "Brooke v. Norfolk"
     volume: "277"
     page: "027"
+    docket: "229"
+    citation: "277 U.S. 27"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1928"
-    citation: "277 U.S. 27"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-099"
@@ -8178,9 +10627,12 @@ cases:
     title: "Coffin Brothers &amp; Co. v. Bennett"
     volume: "277"
     page: "029"
+    docket: "465"
+    citation: "277 U.S. 29"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1928"
-    citation: "277 U.S. 29"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-104"
@@ -8188,9 +10640,12 @@ cases:
     title: "Ferry v. Ramsey"
     volume: "277"
     page: "088"
+    docket: "407"
+    citation: "277 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1928"
-    citation: "277 U.S. 88"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-105"
@@ -8198,9 +10653,12 @@ cases:
     title: "L. P. Larson, Jr., Co. v. Wm. Wrigley, Jr., Co."
     volume: "277"
     page: "097"
+    docket: "603"
+    citation: "277 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1928"
-    citation: "277 U.S. 97"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-139"
@@ -8208,9 +10666,12 @@ cases:
     title: "Kansas City Southern R. Co. v. Jones"
     volume: "276"
     page: "303"
+    docket: "349"
+    citation: "276 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1928"
-    citation: "276 U.S. 303"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-144"
@@ -8218,9 +10679,12 @@ cases:
     title: "Casey v. United States"
     volume: "276"
     page: "413"
+    docket: "500"
+    citation: "276 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1928"
-    citation: "276 U.S. 413"
+    voteMajority: 5
+    voteMinority: 4
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1927-145"
@@ -8228,9 +10692,12 @@ cases:
     title: "Chesapeake &amp; Ohio R. Co. v. Leitch"
     volume: "276"
     page: "429"
+    docket: "98"
+    citation: "276 U.S. 429"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1928"
-    citation: "276 U.S. 429"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-004"
@@ -8238,9 +10705,12 @@ cases:
     title: "Maney v. United States"
     volume: "278"
     page: "017"
+    docket: "27"
+    citation: "278 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1928"
-    citation: "278 U.S. 17"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-005"
@@ -8248,9 +10718,12 @@ cases:
     title: "Boston Sand and Gravel Co. v. United States"
     volume: "278"
     page: "041"
+    docket: "15"
+    citation: "278 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1928"
-    citation: "278 U.S. 41"
+    voteMajority: 5
+    voteMinority: 4
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-013"
@@ -8258,9 +10731,12 @@ cases:
     title: "United States v. Cambridge Loan &amp; Building Co."
     volume: "278"
     page: "055"
+    docket: "46"
+    citation: "278 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1928"
-    citation: "278 U.S. 55"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-014"
@@ -8268,9 +10744,12 @@ cases:
     title: "United States v. Lenson"
     volume: "278"
     page: "060"
+    docket: "48"
+    citation: "278 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1928"
-    citation: "278 U.S. 60"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-019"
@@ -8278,9 +10757,12 @@ cases:
     title: "Unadilla Valley R. Co. v. Caldine"
     volume: "278"
     page: "139"
+    docket: "73"
+    citation: "278 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1928"
-    citation: "278 U.S. 139"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-020"
@@ -8288,9 +10770,12 @@ cases:
     title: "Lash&apos;s Products Co. v. United States"
     volume: "278"
     page: "175"
+    docket: "98"
+    citation: "278 U.S. 175"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 2, 1929"
-    citation: "278 U.S. 175"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-024"
@@ -8298,9 +10783,12 @@ cases:
     title: "United States v. Commonwealth &amp; Dominion Line, Ltd."
     volume: "278"
     page: "427"
+    docket: "21"
+    citation: "278 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1929"
-    citation: "278 U.S. 427"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-042"
@@ -8308,9 +10796,12 @@ cases:
     title: "Flink v. Paladini"
     volume: "279"
     page: "059"
+    docket: "299"
+    citation: "279 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1929"
-    citation: "279 U.S. 59"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-064"
@@ -8318,9 +10809,12 @@ cases:
     title: "Nashville, C. &amp; St. L. R. Co. v. White"
     volume: "278"
     page: "456"
+    docket: "135"
+    citation: "278 U.S. 456"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1929"
-    citation: "278 U.S. 456"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-065"
@@ -8328,9 +10822,12 @@ cases:
     title: "United States v. New York Central R. Co."
     volume: "279"
     page: "073"
+    docket: "238"
+    citation: "279 U.S. 73"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1929"
-    citation: "279 U.S. 73"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-084"
@@ -8338,9 +10835,12 @@ cases:
     title: "United States Printing &amp; Lithograph Co. v. Griggs, Cooper &amp; Co."
     volume: "279"
     page: "156"
+    docket: "372"
+    citation: "279 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1929"
-    citation: "279 U.S. 156"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-090"
@@ -8348,9 +10848,12 @@ cases:
     title: "Ithaca Trust Co. v. United States"
     volume: "279"
     page: "151"
+    docket: "267"
+    citation: "279 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1929"
-    citation: "279 U.S. 151"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-097"
@@ -8358,9 +10861,12 @@ cases:
     title: "Weiss v. Weiner"
     volume: "279"
     page: "333"
+    docket: "482"
+    citation: "279 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1929"
-    citation: "279 U.S. 333"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-098"
@@ -8368,9 +10874,12 @@ cases:
     title: "Roschen v. Ward"
     volume: "279"
     page: "337"
+    docket: "667"
+    citation: "279 U.S. 337"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1929"
-    citation: "279 U.S. 337"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-102"
@@ -8378,9 +10887,12 @@ cases:
     title: "Douglas v. New York, N. H. &amp; H. R. Co."
     volume: "279"
     page: "377"
+    docket: "312"
+    citation: "279 U.S. 377"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1929"
-    citation: "279 U.S. 377"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-103"
@@ -8388,9 +10900,12 @@ cases:
     title: "Becher v. Contoure Laboratories, Inc."
     volume: "279"
     page: "388"
+    docket: "559"
+    citation: "279 U.S. 388"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1929"
-    citation: "279 U.S. 388"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1928-108"
@@ -8398,9 +10913,12 @@ cases:
     title: "United States v. American Livestock Commission Co."
     volume: "279"
     page: "435"
+    docket: "513"
+    citation: "279 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1929"
-    citation: "279 U.S. 435"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-014"
@@ -8408,9 +10926,12 @@ cases:
     title: "Ex parte Hobbs"
     volume: "280"
     page: "168"
+    docket: "20 Orig."
+    citation: "280 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1929"
-    citation: "280 U.S. 168"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-015"
@@ -8418,9 +10939,12 @@ cases:
     title: "Wheeler v. Greene"
     volume: "280"
     page: "049"
+    docket: "39"
+    citation: "280 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Monday, November 4, 1929"
-    citation: "280 U.S. 49"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-035"
@@ -8428,9 +10952,12 @@ cases:
     title: "Wisconsin v. Illinois"
     volume: "281"
     page: "179"
+    docket: "11 Orig."
+    citation: "281 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1930"
-    citation: "281 U.S. 179"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-036"
@@ -8438,9 +10965,12 @@ cases:
     title: "United States v. Adams"
     volume: "281"
     page: "202"
+    docket: "281"
+    citation: "281 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1930"
-    citation: "281 U.S. 202"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-053"
@@ -8448,9 +10978,12 @@ cases:
     title: "Corliss v. Bowers"
     volume: "281"
     page: "376"
+    docket: "344"
+    citation: "281 U.S. 376"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1930"
-    citation: "281 U.S. 376"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-054"
@@ -8458,9 +10991,12 @@ cases:
     title: "Escher v. Woods"
     volume: "281"
     page: "379"
+    docket: "365"
+    citation: "281 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1930"
-    citation: "281 U.S. 379"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-055"
@@ -8468,9 +11004,12 @@ cases:
     title: "Chesapeake &amp; Potomac Telephone Co. v. United States"
     volume: "281"
     page: "385"
+    docket: "389"
+    citation: "281 U.S. 385"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1930"
-    citation: "281 U.S. 385"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-056"
@@ -8478,9 +11017,12 @@ cases:
     title: "Danovitz v. United States"
     volume: "281"
     page: "389"
+    docket: "424"
+    citation: "281 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1930"
-    citation: "281 U.S. 389"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-061"
@@ -8488,9 +11030,12 @@ cases:
     title: "Eliason v. Wilborn"
     volume: "281"
     page: "457"
+    docket: "347"
+    citation: "281 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1930"
-    citation: "281 U.S. 457"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-062"
@@ -8498,9 +11043,12 @@ cases:
     title: "Barker Painting Co. v. Painters"
     volume: "281"
     page: "462"
+    docket: "477"
+    citation: "281 U.S. 462"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1930"
-    citation: "281 U.S. 462"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-098"
@@ -8508,9 +11056,12 @@ cases:
     title: "Early v. Federal Reserve Bank of Richmond"
     volume: "281"
     page: "084"
+    docket: "226"
+    citation: "281 U.S. 84"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 12, 1930"
-    citation: "281 U.S. 84"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-100"
@@ -8518,9 +11069,12 @@ cases:
     title: "Lucas v. Earl"
     volume: "281"
     page: "111"
+    docket: "99"
+    citation: "281 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1930"
-    citation: "281 U.S. 111"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-105"
@@ -8528,9 +11082,12 @@ cases:
     title: "Wabash R. Co. v. Barclay"
     volume: "280"
     page: "197"
+    docket: "37"
+    citation: "280 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1930"
-    citation: "280 U.S. 197"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-111"
@@ -8538,9 +11095,12 @@ cases:
     title: "Ohio ex rel. Popovici v. Agler"
     volume: "280"
     page: "379"
+    docket: "35"
+    citation: "280 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1930"
-    citation: "280 U.S. 379"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-112"
@@ -8548,9 +11108,12 @@ cases:
     title: "Clarke v. Haberle Crystal Springs Brewing Co."
     volume: "280"
     page: "384"
+    docket: "68"
+    citation: "280 U.S. 384"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1930"
-    citation: "280 U.S. 384"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-113"
@@ -8558,9 +11121,12 @@ cases:
     title: "Renziehausen v. Lucas"
     volume: "280"
     page: "387"
+    docket: "114"
+    citation: "280 U.S. 387"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1930"
-    citation: "280 U.S. 387"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-114"
@@ -8568,9 +11134,12 @@ cases:
     title: "United States v. Wurzbach"
     volume: "280"
     page: "396"
+    docket: "66"
+    citation: "280 U.S. 396"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1930"
-    citation: "280 U.S. 396"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-115"
@@ -8578,9 +11147,12 @@ cases:
     title: "Minerals Separation North American Corp. v. Magma Copper Co."
     volume: "280"
     page: "400"
+    docket: "71"
+    citation: "280 U.S. 400"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1930"
-    citation: "280 U.S. 400"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-116"
@@ -8588,9 +11160,12 @@ cases:
     title: "Chesapeake &amp; Ohio R. Co. v. Bryant"
     volume: "280"
     page: "404"
+    docket: "113"
+    citation: "280 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1930"
-    citation: "280 U.S. 404"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1929-129"
@@ -8598,9 +11173,12 @@ cases:
     title: "Superior Oil Co. v. Mississippi ex rel. Knox"
     volume: "280"
     page: "390"
+    docket: "28"
+    citation: "280 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1930"
-    citation: "280 U.S. 390"
+    voteMajority: 6
+    voteMinority: 2
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-004"
@@ -8608,9 +11186,12 @@ cases:
     title: "Lektophone Corp. v. Rola Co."
     volume: "282"
     page: "168"
+    docket: "19"
+    citation: "282 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1930"
-    citation: "282 U.S. 168"
+    voteMajority: 8
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-009"
@@ -8618,9 +11199,12 @@ cases:
     title: "Klein v. Board of Tax Supervisors of Jefferson Cty."
     volume: "282"
     page: "019"
+    docket: "11"
+    citation: "282 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Monday, November 24, 1930"
-    citation: "282 U.S. 19"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-014"
@@ -8628,9 +11212,12 @@ cases:
     title: "Sherman v. United States"
     volume: "282"
     page: "025"
+    docket: "14"
+    citation: "282 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Monday, November 24, 1930"
-    citation: "282 U.S. 25"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-028"
@@ -8638,9 +11225,12 @@ cases:
     title: "Phillippides v. Day"
     volume: "283"
     page: "048"
+    docket: "92"
+    citation: "283 U.S. 48"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1931"
-    citation: "283 U.S. 48"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-029"
@@ -8648,9 +11238,12 @@ cases:
     title: "United States ex rel. Cateches v. Day"
     volume: "283"
     page: "051"
+    docket: "336"
+    citation: "283 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1931"
-    citation: "283 U.S. 51"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-030"
@@ -8658,9 +11251,12 @@ cases:
     title: "Carr v. Zaja"
     volume: "283"
     page: "052"
+    docket: "125"
+    citation: "283 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1931"
-    citation: "283 U.S. 52"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-031"
@@ -8668,9 +11264,12 @@ cases:
     title: "Flynn v. New York, N. H., &amp; H. R. Co."
     volume: "283"
     page: "053"
+    docket: "235"
+    citation: "283 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1931"
-    citation: "283 U.S. 53"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-039"
@@ -8678,9 +11277,12 @@ cases:
     title: "Southern R. Co. v. Hussey"
     volume: "283"
     page: "136"
+    docket: "342"
+    citation: "283 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1931"
-    citation: "283 U.S. 136"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-040"
@@ -8688,9 +11290,12 @@ cases:
     title: "Eckert v. Burnet"
     volume: "283"
     page: "140"
+    docket: "351"
+    citation: "283 U.S. 140"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1931"
-    citation: "283 U.S. 140"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-045"
@@ -8698,9 +11303,12 @@ cases:
     title: "Burnet v. Willingham Loan &amp; Trust Co."
     volume: "282"
     page: "437"
+    docket: "53"
+    citation: "282 U.S. 437"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1931"
-    citation: "282 U.S. 437"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-056"
@@ -8708,9 +11316,12 @@ cases:
     title: "Railway Express Agency, Inc. v. Virginia"
     volume: "282"
     page: "440"
+    docket: "55"
+    citation: "282 U.S. 440"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1931"
-    citation: "282 U.S. 440"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-057"
@@ -8718,9 +11329,12 @@ cases:
     title: "New Jersey v. New York"
     volume: "283"
     page: "336"
+    docket: "16 Orig."
+    citation: "283 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1931"
-    citation: "283 U.S. 336"
+    voteMajority: 7
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-061"
@@ -8728,9 +11342,12 @@ cases:
     title: "Frank L. Young Co. v. McNeal-Edwards Co."
     volume: "283"
     page: "398"
+    docket: "490"
+    citation: "283 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1931"
-    citation: "283 U.S. 398"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-062"
@@ -8738,9 +11355,12 @@ cases:
     title: "Atlantic Coast Line R. Co. v. Powe"
     volume: "283"
     page: "401"
+    docket: "600"
+    citation: "283 U.S. 401"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1931"
-    citation: "283 U.S. 401"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-074"
@@ -8748,9 +11368,12 @@ cases:
     title: "Northport Power &amp; Light Co. v. Hartley"
     volume: "283"
     page: "568"
+    docket: "66"
+    citation: "283 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1931"
-    citation: "283 U.S. 568"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-092"
@@ -8758,9 +11381,12 @@ cases:
     title: "Bain Peanut Co. of Tex. v. Pinson"
     volume: "282"
     page: "499"
+    docket: "49"
+    citation: "282 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1931"
-    citation: "282 U.S. 499"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-093"
@@ -8768,9 +11394,12 @@ cases:
     title: "Waite v. United States"
     volume: "282"
     page: "508"
+    docket: "103"
+    citation: "282 U.S. 508"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1931"
-    citation: "282 U.S. 508"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-118"
@@ -8778,9 +11407,12 @@ cases:
     title: "Alabama v. United States"
     volume: "282"
     page: "502"
+    docket: "82"
+    citation: "282 U.S. 502"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1931"
-    citation: "282 U.S. 502"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-119"
@@ -8788,9 +11420,12 @@ cases:
     title: "Smoot Sand &amp; Gravel Corp. v. Washington Airport, Inc."
     volume: "283"
     page: "348"
+    docket: "678"
+    citation: "283 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1931"
-    citation: "283 U.S. 348"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-122"
@@ -8798,9 +11433,12 @@ cases:
     title: "Uravic v. F. Jarka Co."
     volume: "282"
     page: "234"
+    docket: "32"
+    citation: "282 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1931"
-    citation: "282 U.S. 234"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-129"
@@ -8808,9 +11446,12 @@ cases:
     title: "International Paper Co. v. United States"
     volume: "282"
     page: "399"
+    docket: "37"
+    citation: "282 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1931"
-    citation: "282 U.S. 399"
+    voteMajority: 6
+    voteMinority: 3
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1930-139"
@@ -8818,9 +11459,12 @@ cases:
     title: "McBoyle v. United States"
     volume: "283"
     page: "025"
+    docket: "552"
+    citation: "283 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1931"
-    citation: "283 U.S. 25"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1931-001"
@@ -8828,9 +11472,12 @@ cases:
     title: "United States v. Kirby Lumber Co."
     volume: "284"
     page: "001"
+    docket: "26"
+    citation: "284 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, November 2, 1931"
-    citation: "284 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1931-004"
@@ -8838,9 +11485,12 @@ cases:
     title: "State Tax Comm&apos;n of Miss. v. Interstate Natural Gas Co."
     volume: "284"
     page: "041"
+    docket: "40"
+    citation: "284 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, November 23, 1931"
-    citation: "284 U.S. 41"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1931-025"
@@ -8848,9 +11498,12 @@ cases:
     title: "Moore v. Bay"
     volume: "284"
     page: "004"
+    docket: "27"
+    citation: "284 U.S. 4"
     pdfSource: "loc"
     dateDecision: "Monday, November 2, 1931"
-    citation: "284 U.S. 4"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1931-116"
@@ -8858,9 +11511,12 @@ cases:
     title: "United States ex rel. Polymeris v. Trudell"
     volume: "284"
     page: "279"
+    docket: "162"
+    citation: "284 U.S. 279"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1932"
-    citation: "284 U.S. 279"
+    voteMajority: 9
+    voteMinority: 0
     authorId: owholmes
     authorName: "Oliver Holmes"
   - id: "1931-125"
@@ -8868,9 +11524,12 @@ cases:
     title: "Dunn v. United States"
     volume: "284"
     page: "390"
+    docket: "393"
+    citation: "284 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1932"
-    citation: "284 U.S. 390"
+    voteMajority: 8
+    voteMinority: 1
     authorId: owholmes
     authorName: "Oliver Holmes"
 ---

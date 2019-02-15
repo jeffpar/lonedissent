@@ -8,9 +8,11 @@ cases:
     title: "Hudson v. Guestier"
     volume: "010"
     page: "281"
+    citation: "10 U.S. 281"
     pdfSource: "loc"
     dateDecision: "Saturday, March 17, 1810"
-    citation: "10 U.S. 281"
+    voteMajority: 4
+    voteMinority: 1
     dissenterId: jmarshall
     dissenterName: "John Marshall"
   - id: "1815-033"
@@ -18,9 +20,11 @@ cases:
     title: "Otis v. Watkins"
     volume: "013"
     page: "339"
+    citation: "13 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1815"
-    citation: "13 U.S. 339"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: jmarshall
     dissenterName: "John Marshall"
   - id: "1817-021"
@@ -28,9 +32,11 @@ cases:
     title: "Shipp v. Miller&apos;s Heirs"
     volume: "015"
     page: "316"
+    citation: "15 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 11, 1817"
-    citation: "15 U.S. 316"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jmarshall
     dissenterName: "John Marshall"
   - id: "1827-026"
@@ -38,9 +44,11 @@ cases:
     title: "Bank of United States v. Dandridge"
     volume: "025"
     page: "064"
+    citation: "25 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 28, 1827"
-    citation: "25 U.S. 64"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jmarshall
     dissenterName: "John Marshall"
   - id: "1832-014"
@@ -48,9 +56,11 @@ cases:
     title: "Greenleaf&apos;s Lessee v. Birth"
     volume: "031"
     page: "302"
+    citation: "31 U.S. 302"
     pdfSource: "loc"
     dateDecision: "Saturday, January 28, 1832"
-    citation: "31 U.S. 302"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: jmarshall
     dissenterName: "John Marshall"
 ---

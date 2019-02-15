@@ -8,9 +8,11 @@ cases:
     title: "Goodman v. Simonds"
     volume: "061"
     page: "343"
+    citation: "61 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1858"
-    citation: "61 U.S. 343"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1857-052"
@@ -18,9 +20,11 @@ cases:
     title: "Suydam v. Williamson"
     volume: "061"
     page: "427"
+    citation: "61 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 11, 1858"
-    citation: "61 U.S. 427"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1857-059"
@@ -28,9 +32,11 @@ cases:
     title: "Ahl v. Johnson"
     volume: "061"
     page: "511"
+    citation: "61 U.S. 511"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 18, 1858"
-    citation: "61 U.S. 511"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1858-008"
@@ -38,9 +44,11 @@ cases:
     title: "Propeller Niagara v. Cordes"
     volume: "062"
     page: "007"
+    citation: "62 U.S. 7"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 4, 1859"
-    citation: "62 U.S. 7"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1858-018"
@@ -48,9 +56,11 @@ cases:
     title: "Barreda v. Silsbee"
     volume: "062"
     page: "146"
+    citation: "62 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1859"
-    citation: "62 U.S. 146"
+    voteMajority: 6
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1858-039"
@@ -58,9 +68,11 @@ cases:
     title: "New York &amp; Liverpool United States Mail S. S. Co. v. Rumball"
     volume: "062"
     page: "372"
+    citation: "62 U.S. 372"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1859"
-    citation: "62 U.S. 372"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1858-064"
@@ -68,9 +80,11 @@ cases:
     title: "Chamberlain v. Ward"
     volume: "062"
     page: "548"
+    citation: "62 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1859"
-    citation: "62 U.S. 548"
+    voteMajority: 7
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1858-065"
@@ -78,9 +92,11 @@ cases:
     title: "Ward v. Chamberlain"
     volume: "062"
     page: "572"
+    citation: "62 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1859"
-    citation: "62 U.S. 572"
+    voteMajority: 7
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-006"
@@ -88,9 +104,11 @@ cases:
     title: "Chaffee v. Boston Belting Co."
     volume: "063"
     page: "217"
+    citation: "63 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 27, 1859"
-    citation: "63 U.S. 217"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-014"
@@ -98,9 +116,11 @@ cases:
     title: "Rey v. Simpson"
     volume: "063"
     page: "341"
+    citation: "63 U.S. 341"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1860"
-    citation: "63 U.S. 341"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-031"
@@ -108,9 +128,11 @@ cases:
     title: "Castle v. Bullard"
     volume: "064"
     page: "172"
+    citation: "64 U.S. 172"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1860"
-    citation: "64 U.S. 172"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-040"
@@ -118,9 +140,11 @@ cases:
     title: "Kimbro v. Bullitt"
     volume: "063"
     page: "256"
+    citation: "63 U.S. 256"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1860"
-    citation: "63 U.S. 256"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-050"
@@ -128,9 +152,11 @@ cases:
     title: "Emerson v. Slater"
     volume: "063"
     page: "028"
+    citation: "63 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "63 U.S. 28"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-052"
@@ -138,9 +164,11 @@ cases:
     title: "Bank of Pittsburgh v. Neal"
     volume: "063"
     page: "096"
+    citation: "63 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "63 U.S. 96"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-067"
@@ -148,9 +176,11 @@ cases:
     title: "United States v. Osio"
     volume: "064"
     page: "273"
+    citation: "64 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "64 U.S. 273"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-078"
@@ -158,9 +188,11 @@ cases:
     title: "Teese v. Huntingdon"
     volume: "064"
     page: "002"
+    citation: "64 U.S. 2"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1860"
-    citation: "64 U.S. 2"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-081"
@@ -168,9 +200,11 @@ cases:
     title: "United States v. Castillero"
     volume: "064"
     page: "464"
+    citation: "64 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1860"
-    citation: "64 U.S. 464"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-085"
@@ -178,9 +212,11 @@ cases:
     title: "Bliven v. New England Screw Co."
     volume: "064"
     page: "420"
+    citation: "64 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1860"
-    citation: "64 U.S. 420"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-086"
@@ -188,9 +224,11 @@ cases:
     title: "Bliven v. New England Screw Co."
     volume: "064"
     page: "433"
+    citation: "64 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1860"
-    citation: "64 U.S. 433"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-089"
@@ -198,9 +236,11 @@ cases:
     title: "United States v. Walker"
     volume: "063"
     page: "299"
+    citation: "63 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1860"
-    citation: "63 U.S. 299"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-096"
@@ -208,9 +248,11 @@ cases:
     title: "New York &amp; Baltimore Transp. Co. v. Philadelphia &amp; Savannah Steam Nav. Co."
     volume: "063"
     page: "461"
+    citation: "63 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1860"
-    citation: "63 U.S. 461"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-113"
@@ -218,9 +260,11 @@ cases:
     title: "Whitridge v. Dill"
     volume: "064"
     page: "448"
+    citation: "64 U.S. 448"
     pdfSource: "loc"
     dateDecision: "Friday, May 4, 1860"
-    citation: "64 U.S. 448"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1859-114"
@@ -228,9 +272,11 @@ cases:
     title: "Jenkins v. Banning"
     volume: "064"
     page: "455"
+    citation: "64 U.S. 455"
     pdfSource: "loc"
     dateDecision: "Friday, May 4, 1860"
-    citation: "64 U.S. 455"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1860-001"
@@ -238,9 +284,11 @@ cases:
     title: "Sturgis v. Boyer"
     volume: "065"
     page: "110"
+    citation: "65 U.S. 110"
     pdfSource: "loc"
     dateDecision: "Monday, December 31, 1860"
-    citation: "65 U.S. 110"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1860-013"
@@ -248,9 +296,11 @@ cases:
     title: "Nations v. Johnson"
     volume: "065"
     page: "195"
+    citation: "65 U.S. 195"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1861"
-    citation: "65 U.S. 195"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1860-028"
@@ -258,9 +308,11 @@ cases:
     title: "Bissell v. Jeffersonville"
     volume: "065"
     page: "287"
+    citation: "65 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1861"
-    citation: "65 U.S. 287"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1860-031"
@@ -268,9 +320,11 @@ cases:
     title: "Powhatan Steamboat Co. v. Appomattox R. Co."
     volume: "065"
     page: "247"
+    citation: "65 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1861"
-    citation: "65 U.S. 247"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1860-039"
@@ -278,9 +332,11 @@ cases:
     title: "Union S. S. Co. of Philadelphia v. New York &amp; Virginia S. S. Co."
     volume: "065"
     page: "307"
+    citation: "65 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1861"
-    citation: "65 U.S. 307"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1860-041"
@@ -288,9 +344,11 @@ cases:
     title: "Rice v. Railroad Co."
     volume: "066"
     page: "358"
+    citation: "66 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1862"
-    citation: "66 U.S. 358"
+    voteMajority: 5
+    voteMinority: 2
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1860-057"
@@ -298,9 +356,11 @@ cases:
     title: "Belcher v. Linn"
     volume: "065"
     page: "508"
+    citation: "65 U.S. 508"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 508"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1860-058"
@@ -308,9 +368,11 @@ cases:
     title: "Knight v. Schell"
     volume: "065"
     page: "526"
+    citation: "65 U.S. 526"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 526"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1860-059"
@@ -318,9 +380,11 @@ cases:
     title: "Belcher v. Linn"
     volume: "065"
     page: "533"
+    citation: "65 U.S. 533"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 533"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1860-060"
@@ -328,9 +392,11 @@ cases:
     title: "Berthold v. Goldsmith"
     volume: "065"
     page: "536"
+    citation: "65 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 536"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1860-061"
@@ -338,9 +404,11 @@ cases:
     title: "Wheeler v. Nesbitt"
     volume: "065"
     page: "544"
+    citation: "65 U.S. 544"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 544"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1861-002"
@@ -348,9 +416,11 @@ cases:
     title: "Dutton v. Strong"
     volume: "066"
     page: "023"
+    citation: "66 U.S. 23"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1861"
-    citation: "66 U.S. 23"
+    voteMajority: 5
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1861-007"
@@ -358,9 +428,11 @@ cases:
     title: "Hager v. Thomson"
     volume: "066"
     page: "080"
+    citation: "66 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1862"
-    citation: "66 U.S. 80"
+    voteMajority: 5
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1861-013"
@@ -368,9 +440,11 @@ cases:
     title: "Weightman v. Corporation of Washington"
     volume: "066"
     page: "039"
+    citation: "66 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1862"
-    citation: "66 U.S. 39"
+    voteMajority: 5
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1861-022"
@@ -378,9 +452,11 @@ cases:
     title: "United States v. Knight&apos;s Administrator"
     volume: "066"
     page: "227"
+    citation: "66 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1862"
-    citation: "66 U.S. 227"
+    voteMajority: 6
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1861-025"
@@ -388,9 +464,11 @@ cases:
     title: "The Brig Collenberg"
     volume: "066"
     page: "170"
+    citation: "66 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1862"
-    citation: "66 U.S. 170"
+    voteMajority: 6
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1861-032"
@@ -398,9 +476,11 @@ cases:
     title: "The Propeller Commerce"
     volume: "066"
     page: "574"
+    citation: "66 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1862"
-    citation: "66 U.S. 574"
+    voteMajority: 6
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1861-056"
@@ -408,9 +488,11 @@ cases:
     title: "Inbusch v. Farwell"
     volume: "066"
     page: "566"
+    citation: "66 U.S. 566"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1862"
-    citation: "66 U.S. 566"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1861-066"
@@ -418,9 +500,11 @@ cases:
     title: "Leonard v. Davis"
     volume: "066"
     page: "476"
+    citation: "66 U.S. 476"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1862"
-    citation: "66 U.S. 476"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1862-001"
@@ -428,9 +512,11 @@ cases:
     title: "Dredge v. Forsyth"
     volume: "067"
     page: "563"
+    citation: "67 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1862"
-    citation: "67 U.S. 563"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1862-002"
@@ -438,9 +524,11 @@ cases:
     title: "Kellogg v. Forsyth"
     volume: "067"
     page: "571"
+    citation: "67 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1862"
-    citation: "67 U.S. 571"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1862-012"
@@ -448,9 +536,11 @@ cases:
     title: "Curtis&apos;s Administratrix v. Fiedler"
     volume: "067"
     page: "461"
+    citation: "67 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1863"
-    citation: "67 U.S. 461"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1862-013"
@@ -458,9 +548,11 @@ cases:
     title: "Taylor v. Morton"
     volume: "067"
     page: "481"
+    citation: "67 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1863"
-    citation: "67 U.S. 481"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1862-024"
@@ -468,9 +560,11 @@ cases:
     title: "Ward v. Chamberlain"
     volume: "067"
     page: "430"
+    citation: "67 U.S. 430"
     pdfSource: "loc"
     dateDecision: "Monday, February 9, 1863"
-    citation: "67 U.S. 430"
+    voteMajority: 6
+    voteMinority: 2
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1862-039"
@@ -478,9 +572,11 @@ cases:
     title: "United States v. Andres Castillero"
     volume: "067"
     page: "017"
+    citation: "67 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 10, 1863"
-    citation: "67 U.S. 17"
+    voteMajority: 5
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1863-011"
@@ -488,9 +584,11 @@ cases:
     title: "Baldwin v. Hale"
     volume: "068"
     page: "223"
+    citation: "68 U.S. 223"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1864"
-    citation: "68 U.S. 223"
+    voteMajority: 10
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1863-012"
@@ -498,9 +596,11 @@ cases:
     title: "Baldwin v. Bank of Newbury"
     volume: "068"
     page: "234"
+    citation: "68 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1864"
-    citation: "68 U.S. 234"
+    voteMajority: 10
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1863-032"
@@ -508,9 +608,11 @@ cases:
     title: "Bloomer v. Millinger"
     volume: "068"
     page: "340"
+    citation: "68 U.S. 340"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1864"
-    citation: "68 U.S. 340"
+    voteMajority: 10
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1863-034"
@@ -518,9 +620,11 @@ cases:
     title: "Dunham v. Cincinnati, P., &amp; C. R. Co."
     volume: "068"
     page: "254"
+    citation: "68 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1864"
-    citation: "68 U.S. 254"
+    voteMajority: 9
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1863-041"
@@ -528,9 +632,11 @@ cases:
     title: "Commander-in-chief"
     volume: "068"
     page: "043"
+    citation: "68 U.S. 43"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1864"
-    citation: "68 U.S. 43"
+    voteMajority: 10
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1863-049"
@@ -538,9 +644,11 @@ cases:
     title: "Romero v. United States"
     volume: "068"
     page: "721"
+    citation: "68 U.S. 721"
     pdfSource: "loc"
     dateDecision: "Monday, February 29, 1864"
-    citation: "68 U.S. 721"
+    voteMajority: 10
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1863-052"
@@ -548,9 +656,11 @@ cases:
     title: "Pomeroy&apos;s Lessee v. State Bank of Ind."
     volume: "068"
     page: "592"
+    citation: "68 U.S. 592"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1864"
-    citation: "68 U.S. 592"
+    voteMajority: 10
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1863-060"
@@ -558,9 +668,11 @@ cases:
     title: "Turrill v. Michigan, S. &amp; N. I. R. Co."
     volume: "068"
     page: "491"
+    citation: "68 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1864"
-    citation: "68 U.S. 491"
+    voteMajority: 10
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1863-073"
@@ -568,9 +680,11 @@ cases:
     title: "Resoluth and Northerner"
     volume: "068"
     page: "682"
+    citation: "68 U.S. 682"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1864"
-    citation: "68 U.S. 682"
+    voteMajority: 10
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1863-074"
@@ -578,9 +692,11 @@ cases:
     title: "United States v. Gomez"
     volume: "068"
     page: "690"
+    citation: "68 U.S. 690"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1864"
-    citation: "68 U.S. 690"
+    voteMajority: 10
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1863-076"
@@ -588,9 +704,11 @@ cases:
     title: "United States v. Workman"
     volume: "068"
     page: "745"
+    citation: "68 U.S. 745"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1864"
-    citation: "68 U.S. 745"
+    voteMajority: 10
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1863-080"
@@ -598,9 +716,12 @@ cases:
     title: "United States v. Carey Jones"
     volume: "068"
     page: "766"
+    docket: "131"
+    citation: "68 U.S. 766"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1864"
-    citation: "68 U.S. 766"
+    voteMajority: 10
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1864-003"
@@ -608,9 +729,11 @@ cases:
     title: "Heckers v. Fowler"
     volume: "069"
     page: "123"
+    citation: "69 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1865"
-    citation: "69 U.S. 123"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1864-015"
@@ -618,9 +741,11 @@ cases:
     title: "Smith v. United States"
     volume: "069"
     page: "219"
+    citation: "69 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1865"
-    citation: "69 U.S. 219"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1864-018"
@@ -628,9 +753,11 @@ cases:
     title: "Read v. Bowman"
     volume: "069"
     page: "591"
+    citation: "69 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1865"
-    citation: "69 U.S. 591"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1864-026"
@@ -638,9 +765,11 @@ cases:
     title: "The Ann Caroline"
     volume: "069"
     page: "538"
+    citation: "69 U.S. 538"
     pdfSource: "loc"
     dateDecision: "Monday, February 6, 1865"
-    citation: "69 U.S. 538"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1864-034"
@@ -648,9 +777,11 @@ cases:
     title: "Higueras v. United States"
     volume: "072"
     page: "827"
+    citation: "72 U.S. 827"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1865"
-    citation: "72 U.S. 827"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1864-037"
@@ -658,9 +789,11 @@ cases:
     title: "The Morning Light"
     volume: "069"
     page: "550"
+    citation: "69 U.S. 550"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1865"
-    citation: "69 U.S. 550"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1864-051"
@@ -668,9 +801,11 @@ cases:
     title: "The Slavers (Sarah)"
     volume: "069"
     page: "366"
+    citation: "69 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1865"
-    citation: "69 U.S. 366"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1864-052"
@@ -678,9 +813,11 @@ cases:
     title: "The Slavers (Weathergage)"
     volume: "069"
     page: "375"
+    citation: "69 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1865"
-    citation: "69 U.S. 375"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1864-053"
@@ -688,9 +825,11 @@ cases:
     title: "The Slavers (Reindeer)"
     volume: "069"
     page: "383"
+    citation: "69 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1865"
-    citation: "69 U.S. 383"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1865-003"
@@ -698,9 +837,11 @@ cases:
     title: "Blossom v. Railroad Co."
     volume: "070"
     page: "196"
+    citation: "70 U.S. 196"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1866"
-    citation: "70 U.S. 196"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1865-012"
@@ -708,9 +849,11 @@ cases:
     title: "The Admiral"
     volume: "070"
     page: "603"
+    citation: "70 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1866"
-    citation: "70 U.S. 603"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1865-021"
@@ -718,9 +861,11 @@ cases:
     title: "The Reform"
     volume: "070"
     page: "617"
+    citation: "70 U.S. 617"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1866"
-    citation: "70 U.S. 617"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1865-022"
@@ -728,9 +873,11 @@ cases:
     title: "Rogers v. Burlington"
     volume: "070"
     page: "654"
+    citation: "70 U.S. 654"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1866"
-    citation: "70 U.S. 654"
+    voteMajority: 5
+    voteMinority: 4
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1865-032"
@@ -738,9 +885,11 @@ cases:
     title: "McAndrews v. Thatcher"
     volume: "070"
     page: "347"
+    citation: "70 U.S. 347"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 13, 1866"
-    citation: "70 U.S. 347"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1865-036"
@@ -748,9 +897,11 @@ cases:
     title: "The Ottawa"
     volume: "070"
     page: "268"
+    citation: "70 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1866"
-    citation: "70 U.S. 268"
+    voteMajority: 8
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1865-052"
@@ -758,9 +909,11 @@ cases:
     title: "Bank for Savings v. Collector"
     volume: "070"
     page: "495"
+    citation: "70 U.S. 495"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1866"
-    citation: "70 U.S. 495"
+    voteMajority: 6
+    voteMinority: 2
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1865-056"
@@ -768,9 +921,11 @@ cases:
     title: "United States v. Gomez"
     volume: "070"
     page: "752"
+    citation: "70 U.S. 752"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1866"
-    citation: "70 U.S. 752"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1865-073"
@@ -778,9 +933,11 @@ cases:
     title: "United States v. Dashiel"
     volume: "070"
     page: "688"
+    citation: "70 U.S. 688"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 3, 1866"
-    citation: "70 U.S. 688"
+    voteMajority: 6
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-002"
@@ -788,9 +945,11 @@ cases:
     title: "Newell v. Nixon"
     volume: "071"
     page: "572"
+    citation: "71 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1866"
-    citation: "71 U.S. 572"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-013"
@@ -798,9 +957,11 @@ cases:
     title: "Christmas v. Russell"
     volume: "072"
     page: "290"
+    citation: "72 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 26, 1866"
-    citation: "72 U.S. 290"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-020"
@@ -808,9 +969,11 @@ cases:
     title: "The Eddy"
     volume: "072"
     page: "481"
+    citation: "72 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Thursday, January 3, 1867"
-    citation: "72 U.S. 481"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-024"
@@ -818,9 +981,11 @@ cases:
     title: "Mitchell v. Burlington"
     volume: "071"
     page: "270"
+    citation: "71 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1867"
-    citation: "71 U.S. 270"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-025"
@@ -828,9 +993,11 @@ cases:
     title: "Larned v. Burlington"
     volume: "071"
     page: "275"
+    citation: "71 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1867"
-    citation: "71 U.S. 275"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-039"
@@ -838,9 +1005,11 @@ cases:
     title: "Ware v. United States"
     volume: "071"
     page: "617"
+    citation: "71 U.S. 617"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1867"
-    citation: "71 U.S. 617"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-055"
@@ -848,9 +1017,11 @@ cases:
     title: "United States v. Macdonald"
     volume: "072"
     page: "647"
+    citation: "72 U.S. 647"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1867"
-    citation: "72 U.S. 647"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-061"
@@ -858,9 +1029,11 @@ cases:
     title: "Nash v. Towne"
     volume: "072"
     page: "689"
+    citation: "72 U.S. 689"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 13, 1867"
-    citation: "72 U.S. 689"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-063"
@@ -868,9 +1041,11 @@ cases:
     title: "Robbins v. Chicago City"
     volume: "071"
     page: "657"
+    citation: "71 U.S. 657"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1867"
-    citation: "71 U.S. 657"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-067"
@@ -878,9 +1053,11 @@ cases:
     title: "Gilman v. Lockwood"
     volume: "071"
     page: "409"
+    citation: "71 U.S. 409"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1867"
-    citation: "71 U.S. 409"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-072"
@@ -888,9 +1065,11 @@ cases:
     title: "Barton v. Forsyth"
     volume: "072"
     page: "190"
+    citation: "72 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1867"
-    citation: "72 U.S. 190"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-076"
@@ -898,9 +1077,11 @@ cases:
     title: "Supervisors v. Schenck"
     volume: "072"
     page: "772"
+    citation: "72 U.S. 772"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1867"
-    citation: "72 U.S. 772"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-086"
@@ -908,9 +1089,11 @@ cases:
     title: "Bentley v. Coyne"
     volume: "071"
     page: "509"
+    citation: "71 U.S. 509"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1867"
-    citation: "71 U.S. 509"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-094"
@@ -918,9 +1101,11 @@ cases:
     title: "The William Bagaley"
     volume: "072"
     page: "377"
+    citation: "72 U.S. 377"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1867"
-    citation: "72 U.S. 377"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-101"
@@ -928,9 +1113,11 @@ cases:
     title: "Philadelphia v. Collector"
     volume: "072"
     page: "720"
+    citation: "72 U.S. 720"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1867"
-    citation: "72 U.S. 720"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-112"
@@ -938,9 +1125,11 @@ cases:
     title: "The Bird of Paradise"
     volume: "072"
     page: "545"
+    citation: "72 U.S. 545"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1867"
-    citation: "72 U.S. 545"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1866-127"
@@ -948,9 +1137,11 @@ cases:
     title: "Thompson v. Riggs"
     volume: "072"
     page: "663"
+    citation: "72 U.S. 663"
     pdfSource: "loc"
     dateDecision: "Thursday, May 16, 1867"
-    citation: "72 U.S. 663"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-010"
@@ -958,9 +1149,11 @@ cases:
     title: "Strong v. United States"
     volume: "073"
     page: "788"
+    citation: "73 U.S. 788"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1867"
-    citation: "73 U.S. 788"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-017"
@@ -968,9 +1161,11 @@ cases:
     title: "Mumford v. Wardwell"
     volume: "073"
     page: "423"
+    citation: "73 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, December 30, 1867"
-    citation: "73 U.S. 423"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-022"
@@ -978,9 +1173,11 @@ cases:
     title: "Riggs v. Johnson County"
     volume: "073"
     page: "166"
+    citation: "73 U.S. 166"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1868"
-    citation: "73 U.S. 166"
+    voteMajority: 5
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-023"
@@ -988,9 +1185,11 @@ cases:
     title: "Weber v. Lee County"
     volume: "073"
     page: "210"
+    citation: "73 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1868"
-    citation: "73 U.S. 210"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-032"
@@ -998,9 +1197,11 @@ cases:
     title: "Selz v. Unna"
     volume: "073"
     page: "327"
+    citation: "73 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1868"
-    citation: "73 U.S. 327"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-040"
@@ -1008,9 +1209,11 @@ cases:
     title: "The Vanderbilt"
     volume: "073"
     page: "225"
+    citation: "73 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1868"
-    citation: "73 U.S. 225"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-070"
@@ -1018,9 +1221,11 @@ cases:
     title: "Society for Savings v. Coite"
     volume: "073"
     page: "594"
+    citation: "73 U.S. 594"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1868"
-    citation: "73 U.S. 594"
+    voteMajority: 5
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-077"
@@ -1028,9 +1233,11 @@ cases:
     title: "Provident Institution v. Massachusetts"
     volume: "073"
     page: "611"
+    citation: "73 U.S. 611"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1868"
-    citation: "73 U.S. 611"
+    voteMajority: 5
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-078"
@@ -1038,9 +1245,11 @@ cases:
     title: "Hamilton Co. v. Massachusetts"
     volume: "073"
     page: "632"
+    citation: "73 U.S. 632"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1868"
-    citation: "73 U.S. 632"
+    voteMajority: 5
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-086"
@@ -1048,9 +1257,11 @@ cases:
     title: "United States v. Eckford"
     volume: "073"
     page: "484"
+    citation: "73 U.S. 484"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "73 U.S. 484"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-089"
@@ -1058,9 +1269,11 @@ cases:
     title: "United States v. Council of Keokuk"
     volume: "073"
     page: "514"
+    citation: "73 U.S. 514"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "73 U.S. 514"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-090"
@@ -1068,9 +1281,11 @@ cases:
     title: "United States v. Council of Keokuk"
     volume: "073"
     page: "518"
+    citation: "73 U.S. 518"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "73 U.S. 518"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-092"
@@ -1078,9 +1293,11 @@ cases:
     title: "Hanger v. Abbott"
     volume: "073"
     page: "532"
+    citation: "73 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "73 U.S. 532"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-094"
@@ -1088,9 +1305,11 @@ cases:
     title: "Tome v. Dubois"
     volume: "073"
     page: "548"
+    citation: "73 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "73 U.S. 548"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-098"
@@ -1098,9 +1317,11 @@ cases:
     title: "Williamson v. Suydam"
     volume: "073"
     page: "723"
+    citation: "73 U.S. 723"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "73 U.S. 723"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1867-113"
@@ -1108,9 +1329,12 @@ cases:
     title: "Williamson v. Moore"
     volume: "154"
     page: "557"
+    docket: "421"
+    citation: "154 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "154 U.S. 557"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1868-001"
@@ -1118,9 +1342,11 @@ cases:
     title: "Moore v. Marsh"
     volume: "074"
     page: "515"
+    citation: "74 U.S. 515"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1869"
-    citation: "74 U.S. 515"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1868-002"
@@ -1128,9 +1354,11 @@ cases:
     title: "Aurora City v. West"
     volume: "074"
     page: "082"
+    citation: "74 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1869"
-    citation: "74 U.S. 82"
+    voteMajority: 7
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1868-012"
@@ -1138,9 +1366,11 @@ cases:
     title: "Railroad Co. v. Schurmeir"
     volume: "074"
     page: "272"
+    citation: "74 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1869"
-    citation: "74 U.S. 272"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1868-030"
@@ -1148,9 +1378,11 @@ cases:
     title: "Railroad Co. v. Howard"
     volume: "074"
     page: "392"
+    citation: "74 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1869"
-    citation: "74 U.S. 392"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1868-034"
@@ -1158,9 +1390,11 @@ cases:
     title: "Brown v. Pierce"
     volume: "074"
     page: "205"
+    citation: "74 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1869"
-    citation: "74 U.S. 205"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1868-039"
@@ -1168,9 +1402,11 @@ cases:
     title: "The Nichols"
     volume: "074"
     page: "656"
+    citation: "74 U.S. 656"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1869"
-    citation: "74 U.S. 656"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1868-046"
@@ -1178,9 +1414,11 @@ cases:
     title: "Agawam Co. v. Jordan"
     volume: "074"
     page: "583"
+    citation: "74 U.S. 583"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1869"
-    citation: "74 U.S. 583"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1868-055"
@@ -1188,9 +1426,11 @@ cases:
     title: "Confiscation Cases"
     volume: "074"
     page: "454"
+    citation: "74 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1869"
-    citation: "74 U.S. 454"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1868-068"
@@ -1198,9 +1438,11 @@ cases:
     title: "Maguire v. Tyler"
     volume: "075"
     page: "650"
+    citation: "75 U.S. 650"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1869"
-    citation: "75 U.S. 650"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1868-076"
@@ -1208,9 +1450,11 @@ cases:
     title: "The Belfast"
     volume: "074"
     page: "624"
+    citation: "74 U.S. 624"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1869"
-    citation: "74 U.S. 624"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1868-082"
@@ -1218,9 +1462,11 @@ cases:
     title: "Ewing v. Howard"
     volume: "074"
     page: "499"
+    citation: "74 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Thursday, April 15, 1869"
-    citation: "74 U.S. 499"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1868-108"
@@ -1228,9 +1474,12 @@ cases:
     title: "Maguire v. Tyler"
     volume: "075"
     page: "668"
+    docket: "107"
+    citation: "75 U.S. 668"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1869"
-    citation: "75 U.S. 668"
+    voteMajority: 6
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-004"
@@ -1238,9 +1487,11 @@ cases:
     title: "Waring v. Mayor"
     volume: "075"
     page: "110"
+    citation: "75 U.S. 110"
     pdfSource: "loc"
     dateDecision: "Monday, October 25, 1869"
-    citation: "75 U.S. 110"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-013"
@@ -1248,9 +1499,11 @@ cases:
     title: "Hudson Canal Co. v. Pennsylvania Coal Co."
     volume: "075"
     page: "276"
+    citation: "75 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1869"
-    citation: "75 U.S. 276"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-027"
@@ -1258,9 +1511,11 @@ cases:
     title: "The Camanche"
     volume: "075"
     page: "448"
+    citation: "75 U.S. 448"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1869"
-    citation: "75 U.S. 448"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-031"
@@ -1268,9 +1523,11 @@ cases:
     title: "Blanchard v. Putnam"
     volume: "075"
     page: "420"
+    citation: "75 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1869"
-    citation: "75 U.S. 420"
+    voteMajority: 5
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-057"
@@ -1278,9 +1535,11 @@ cases:
     title: "The Johnson"
     volume: "076"
     page: "146"
+    citation: "76 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1870"
-    citation: "76 U.S. 146"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-059"
@@ -1288,9 +1547,11 @@ cases:
     title: "The Harriman"
     volume: "076"
     page: "161"
+    citation: "76 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1870"
-    citation: "76 U.S. 161"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-063"
@@ -1298,9 +1559,11 @@ cases:
     title: "Star of Hope"
     volume: "076"
     page: "203"
+    citation: "76 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1870"
-    citation: "76 U.S. 203"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-068"
@@ -1308,9 +1571,11 @@ cases:
     title: "Swain v. Seamans"
     volume: "076"
     page: "254"
+    citation: "76 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1870"
-    citation: "76 U.S. 254"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-073"
@@ -1318,9 +1583,11 @@ cases:
     title: "Secretary v. McGarrahan"
     volume: "076"
     page: "298"
+    citation: "76 U.S. 298"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1870"
-    citation: "76 U.S. 298"
+    voteMajority: 6
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-080"
@@ -1328,9 +1595,11 @@ cases:
     title: "Bank of Washington v. Nock"
     volume: "076"
     page: "373"
+    citation: "76 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1870"
-    citation: "76 U.S. 373"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-085"
@@ -1338,9 +1607,11 @@ cases:
     title: "The Fairbanks"
     volume: "076"
     page: "420"
+    citation: "76 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1870"
-    citation: "76 U.S. 420"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-088"
@@ -1348,9 +1619,11 @@ cases:
     title: "The Maggie Hammond"
     volume: "076"
     page: "435"
+    citation: "76 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1870"
-    citation: "76 U.S. 435"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-101"
@@ -1358,9 +1631,11 @@ cases:
     title: "Michigan Bank v. Eldred"
     volume: "076"
     page: "544"
+    citation: "76 U.S. 544"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1870"
-    citation: "76 U.S. 544"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-103"
@@ -1368,9 +1643,11 @@ cases:
     title: "Hornthall v. Collector"
     volume: "076"
     page: "560"
+    citation: "76 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1870"
-    citation: "76 U.S. 560"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-104"
@@ -1378,9 +1655,11 @@ cases:
     title: "Assessors v. Osbornes"
     volume: "076"
     page: "567"
+    citation: "76 U.S. 567"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1870"
-    citation: "76 U.S. 567"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-112"
@@ -1388,9 +1667,11 @@ cases:
     title: "United States v. Merrill"
     volume: "076"
     page: "614"
+    citation: "76 U.S. 614"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1870"
-    citation: "76 U.S. 614"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-127"
@@ -1398,9 +1679,11 @@ cases:
     title: "Meade v. United States"
     volume: "076"
     page: "691"
+    citation: "76 U.S. 691"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1870"
-    citation: "76 U.S. 691"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-134"
@@ -1408,9 +1691,11 @@ cases:
     title: "Watkins v. United States"
     volume: "076"
     page: "759"
+    citation: "76 U.S. 759"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "76 U.S. 759"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-147"
@@ -1418,9 +1703,11 @@ cases:
     title: "The Baltimore"
     volume: "075"
     page: "377"
+    citation: "75 U.S. 377"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1869"
-    citation: "75 U.S. 377"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-153"
@@ -1428,9 +1715,11 @@ cases:
     title: "Morris&apos;s Cotton"
     volume: "075"
     page: "507"
+    citation: "75 U.S. 507"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1869"
-    citation: "75 U.S. 507"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-155"
@@ -1438,9 +1727,11 @@ cases:
     title: "People&apos;s R. Co. v. Memphis R. Co."
     volume: "077"
     page: "038"
+    citation: "77 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1869"
-    citation: "77 U.S. 38"
+    voteMajority: 5
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-161"
@@ -1448,9 +1739,12 @@ cases:
     title: "Mail Co. v. Flanders"
     volume: "079"
     page: "130"
+    docket: "9"
+    citation: "79 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1870"
-    citation: "79 U.S. 130"
+    voteMajority: 6
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-167"
@@ -1458,9 +1752,11 @@ cases:
     title: "The Schools v. Risley"
     volume: "077"
     page: "091"
+    citation: "77 U.S. 91"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1870"
-    citation: "77 U.S. 91"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1869-175"
@@ -1468,9 +1764,11 @@ cases:
     title: "The Blackwall"
     volume: "077"
     page: "001"
+    citation: "77 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "77 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-003"
@@ -1478,9 +1776,11 @@ cases:
     title: "New Orleans R. Co. v. Morgan"
     volume: "077"
     page: "256"
+    citation: "77 U.S. 256"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1870"
-    citation: "77 U.S. 256"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-007"
@@ -1488,9 +1788,11 @@ cases:
     title: "The Lulu"
     volume: "077"
     page: "192"
+    citation: "77 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1870"
-    citation: "77 U.S. 192"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-012"
@@ -1498,9 +1800,11 @@ cases:
     title: "Slaughter-House Cases"
     volume: "077"
     page: "273"
+    citation: "77 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Friday, December 2, 1870"
-    citation: "77 U.S. 273"
+    voteMajority: 6
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-020"
@@ -1508,9 +1812,11 @@ cases:
     title: "The Kalorama"
     volume: "077"
     page: "204"
+    citation: "77 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1870"
-    citation: "77 U.S. 204"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-028"
@@ -1518,9 +1824,11 @@ cases:
     title: "Kimball v. Collector"
     volume: "077"
     page: "436"
+    citation: "77 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1870"
-    citation: "77 U.S. 436"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-037"
@@ -1528,9 +1836,11 @@ cases:
     title: "Seymour v. Osborne"
     volume: "078"
     page: "516"
+    citation: "78 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1871"
-    citation: "78 U.S. 516"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-046"
@@ -1538,9 +1848,11 @@ cases:
     title: "Edmondson v. Bloomshire"
     volume: "078"
     page: "382"
+    citation: "78 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1871"
-    citation: "78 U.S. 382"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-056"
@@ -1548,9 +1860,11 @@ cases:
     title: "The Maria Martin"
     volume: "079"
     page: "031"
+    citation: "79 U.S. 31"
     pdfSource: "loc"
     dateDecision: "Monday, February 6, 1871"
-    citation: "79 U.S. 31"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-063"
@@ -1558,9 +1872,11 @@ cases:
     title: "Sturges v. Collector"
     volume: "079"
     page: "019"
+    citation: "79 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1871"
-    citation: "79 U.S. 19"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-065"
@@ -1568,9 +1884,11 @@ cases:
     title: "Morgan v. Thornhill"
     volume: "078"
     page: "065"
+    citation: "78 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1871"
-    citation: "78 U.S. 65"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-067"
@@ -1578,9 +1896,11 @@ cases:
     title: "Miller v. State"
     volume: "079"
     page: "159"
+    citation: "79 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1871"
-    citation: "79 U.S. 159"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-068"
@@ -1588,9 +1908,11 @@ cases:
     title: "The Mabey"
     volume: "080"
     page: "738"
+    citation: "80 U.S. 738"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1871"
-    citation: "80 U.S. 738"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-070"
@@ -1598,9 +1920,11 @@ cases:
     title: "Leon v. Galceran"
     volume: "078"
     page: "185"
+    citation: "78 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1871"
-    citation: "78 U.S. 185"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-075"
@@ -1608,9 +1932,11 @@ cases:
     title: "Cook v. Burnley"
     volume: "078"
     page: "672"
+    citation: "78 U.S. 672"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1871"
-    citation: "78 U.S. 672"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-076"
@@ -1618,9 +1944,11 @@ cases:
     title: "Ward v. Maryland"
     volume: "079"
     page: "163"
+    citation: "79 U.S. 163"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1871"
-    citation: "79 U.S. 163"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-077"
@@ -1628,9 +1956,11 @@ cases:
     title: "Levy v. Stewart"
     volume: "078"
     page: "244"
+    citation: "78 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1871"
-    citation: "78 U.S. 244"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-086"
@@ -1638,9 +1968,11 @@ cases:
     title: "Bigler v. Waller"
     volume: "079"
     page: "142"
+    citation: "79 U.S. 142"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1871"
-    citation: "79 U.S. 142"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-093"
@@ -1648,9 +1980,11 @@ cases:
     title: "Baker v. Morton"
     volume: "079"
     page: "150"
+    citation: "79 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1871"
-    citation: "79 U.S. 150"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-102"
@@ -1658,9 +1992,11 @@ cases:
     title: "Collector v. Hubbard"
     volume: "079"
     page: "001"
+    citation: "79 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1871"
-    citation: "79 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-103"
@@ -1668,9 +2004,11 @@ cases:
     title: "French v. Shoemaker"
     volume: "079"
     page: "086"
+    citation: "79 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1871"
-    citation: "79 U.S. 86"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-106"
@@ -1678,9 +2016,11 @@ cases:
     title: "Meader v. Norton"
     volume: "078"
     page: "442"
+    citation: "78 U.S. 442"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1871"
-    citation: "78 U.S. 442"
+    voteMajority: 6
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-109"
@@ -1688,9 +2028,11 @@ cases:
     title: "Noonan v. Bradley"
     volume: "079"
     page: "121"
+    citation: "79 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1871"
-    citation: "79 U.S. 121"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-110"
@@ -1698,9 +2040,11 @@ cases:
     title: "The Eutaw"
     volume: "079"
     page: "136"
+    citation: "79 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1871"
-    citation: "79 U.S. 136"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-123"
@@ -1708,9 +2052,11 @@ cases:
     title: "Reed v. United States"
     volume: "078"
     page: "591"
+    citation: "78 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1871"
-    citation: "78 U.S. 591"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1870-130"
@@ -1718,9 +2064,11 @@ cases:
     title: "Fowler v. Rathbones"
     volume: "079"
     page: "102"
+    citation: "79 U.S. 102"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1871"
-    citation: "79 U.S. 102"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-003"
@@ -1728,9 +2076,11 @@ cases:
     title: "Hoffman &amp; Co. v. Bank of Milwaukee"
     volume: "079"
     page: "181"
+    citation: "79 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1871"
-    citation: "79 U.S. 181"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-004"
@@ -1738,9 +2088,11 @@ cases:
     title: "State Tonnage Tax Cases"
     volume: "079"
     page: "204"
+    citation: "79 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1871"
-    citation: "79 U.S. 204"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-018"
@@ -1748,9 +2100,11 @@ cases:
     title: "Miller v. Life Ins. Co."
     volume: "079"
     page: "285"
+    citation: "79 U.S. 285"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1871"
-    citation: "79 U.S. 285"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-021"
@@ -1758,9 +2112,11 @@ cases:
     title: "Perrin v. United States"
     volume: "079"
     page: "315"
+    citation: "79 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1871"
-    citation: "79 U.S. 315"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-025"
@@ -1768,9 +2124,11 @@ cases:
     title: "Parker v. Latey"
     volume: "079"
     page: "390"
+    citation: "79 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1871"
-    citation: "79 U.S. 390"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-031"
@@ -1778,9 +2136,11 @@ cases:
     title: "Smith v. Mason"
     volume: "081"
     page: "419"
+    citation: "81 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1871"
-    citation: "81 U.S. 419"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-042"
@@ -1788,9 +2148,11 @@ cases:
     title: "United States v. Russell"
     volume: "080"
     page: "623"
+    citation: "80 U.S. 623"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1871"
-    citation: "80 U.S. 623"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-044"
@@ -1798,9 +2160,11 @@ cases:
     title: "Ward v. Maryland"
     volume: "079"
     page: "418"
+    citation: "79 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1871"
-    citation: "79 U.S. 418"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-054"
@@ -1808,9 +2172,11 @@ cases:
     title: "Insurance Co. v. Bailey"
     volume: "080"
     page: "616"
+    citation: "80 U.S. 616"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1871"
-    citation: "80 U.S. 616"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-069"
@@ -1818,9 +2184,11 @@ cases:
     title: "Armstrong v. Morrill"
     volume: "081"
     page: "120"
+    citation: "81 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1872"
-    citation: "81 U.S. 120"
+    voteMajority: 5
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-075"
@@ -1828,9 +2196,11 @@ cases:
     title: "The Delaware"
     volume: "081"
     page: "579"
+    citation: "81 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1872"
-    citation: "81 U.S. 579"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-091"
@@ -1838,9 +2208,11 @@ cases:
     title: "Pennsylvania College Cases"
     volume: "080"
     page: "190"
+    citation: "80 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1872"
-    citation: "80 U.S. 190"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-101"
@@ -1848,9 +2220,11 @@ cases:
     title: "Pugh v. McCormick"
     volume: "081"
     page: "361"
+    citation: "81 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1872"
-    citation: "81 U.S. 361"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-109"
@@ -1858,9 +2232,11 @@ cases:
     title: "The Continental"
     volume: "081"
     page: "345"
+    citation: "81 U.S. 345"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1872"
-    citation: "81 U.S. 345"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-117"
@@ -1868,9 +2244,11 @@ cases:
     title: "Lexington v. Butler"
     volume: "081"
     page: "282"
+    citation: "81 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1872"
-    citation: "81 U.S. 282"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-121"
@@ -1878,9 +2256,12 @@ cases:
     title: "Henderson&apos;s Distilled Spirits"
     volume: "081"
     page: "044"
+    docket: "104"
+    citation: "81 U.S. 44"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1872"
-    citation: "81 U.S. 44"
+    voteMajority: 5
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-138"
@@ -1888,9 +2269,11 @@ cases:
     title: "The Cayuga"
     volume: "081"
     page: "270"
+    citation: "81 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1872"
-    citation: "81 U.S. 270"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-146"
@@ -1898,9 +2281,11 @@ cases:
     title: "Bank of Bethel v. Pahquioque Bank"
     volume: "081"
     page: "383"
+    citation: "81 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1872"
-    citation: "81 U.S. 383"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-153"
@@ -1908,9 +2293,11 @@ cases:
     title: "Steines v. Franklin County"
     volume: "081"
     page: "015"
+    citation: "81 U.S. 15"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1872"
-    citation: "81 U.S. 15"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-160"
@@ -1918,9 +2305,11 @@ cases:
     title: "French v. Shoemaker"
     volume: "081"
     page: "314"
+    citation: "81 U.S. 314"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1872"
-    citation: "81 U.S. 314"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-163"
@@ -1928,9 +2317,11 @@ cases:
     title: "Schuylkill &amp; Dauphin Improvement Co. v. Munson"
     volume: "081"
     page: "442"
+    citation: "81 U.S. 442"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1872"
-    citation: "81 U.S. 442"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-168"
@@ -1938,9 +2329,12 @@ cases:
     title: "Twenty Per Cent. Cases"
     volume: "080"
     page: "568"
+    docket: "204"
+    citation: "80 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1872"
-    citation: "80 U.S. 568"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-173"
@@ -1948,9 +2342,11 @@ cases:
     title: "Ex parte Newman"
     volume: "081"
     page: "152"
+    citation: "81 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1872"
-    citation: "81 U.S. 152"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-174"
@@ -1958,9 +2354,11 @@ cases:
     title: "The Merrimac"
     volume: "081"
     page: "199"
+    citation: "81 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1872"
-    citation: "81 U.S. 199"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-175"
@@ -1968,9 +2366,11 @@ cases:
     title: "The Mabey and Cooper"
     volume: "081"
     page: "204"
+    citation: "81 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1872"
-    citation: "81 U.S. 204"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1871-176"
@@ -1978,9 +2378,11 @@ cases:
     title: "Caperton v. Bowyer"
     volume: "081"
     page: "216"
+    citation: "81 U.S. 216"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1872"
-    citation: "81 U.S. 216"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-004"
@@ -1988,9 +2390,11 @@ cases:
     title: "United States v. Powell"
     volume: "081"
     page: "493"
+    citation: "81 U.S. 493"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1872"
-    citation: "81 U.S. 493"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-006"
@@ -1998,9 +2402,11 @@ cases:
     title: "Fowler v. Rapley"
     volume: "082"
     page: "328"
+    citation: "82 U.S. 328"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1872"
-    citation: "82 U.S. 328"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-015"
@@ -2008,9 +2414,11 @@ cases:
     title: "Holden v. Joy"
     volume: "084"
     page: "211"
+    citation: "84 U.S. 211"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1872"
-    citation: "84 U.S. 211"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-021"
@@ -2018,9 +2426,11 @@ cases:
     title: "Gould v. Rees"
     volume: "082"
     page: "187"
+    citation: "82 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1872"
-    citation: "82 U.S. 187"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-033"
@@ -2028,9 +2438,11 @@ cases:
     title: "United States v. Cook"
     volume: "084"
     page: "168"
+    citation: "84 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1872"
-    citation: "84 U.S. 168"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-051"
@@ -2038,9 +2450,11 @@ cases:
     title: "Miller v. State"
     volume: "082"
     page: "478"
+    citation: "82 U.S. 478"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1873"
-    citation: "82 U.S. 478"
+    voteMajority: 6
+    voteMinority: 2
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-054"
@@ -2048,9 +2462,11 @@ cases:
     title: "Voorhees v. Bonesteel"
     volume: "083"
     page: "016"
+    citation: "83 U.S. 16"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1873"
-    citation: "83 U.S. 16"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-055"
@@ -2058,9 +2474,11 @@ cases:
     title: "Garnharts v. United States"
     volume: "083"
     page: "162"
+    citation: "83 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1873"
-    citation: "83 U.S. 162"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-072"
@@ -2068,9 +2486,11 @@ cases:
     title: "Buchanan v. Smith"
     volume: "083"
     page: "277"
+    citation: "83 U.S. 277"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1873"
-    citation: "83 U.S. 277"
+    voteMajority: 6
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-079"
@@ -2078,9 +2498,11 @@ cases:
     title: "Holyoke Co. v. Lyman"
     volume: "082"
     page: "500"
+    citation: "82 U.S. 500"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1873"
-    citation: "82 U.S. 500"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-085"
@@ -2088,9 +2510,11 @@ cases:
     title: "Mason v. United States"
     volume: "084"
     page: "067"
+    citation: "84 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 11, 1873"
-    citation: "84 U.S. 67"
+    voteMajority: 8
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-100"
@@ -2098,9 +2522,11 @@ cases:
     title: "Mitchell v. Hawley"
     volume: "083"
     page: "544"
+    citation: "83 U.S. 544"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
-    citation: "83 U.S. 544"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-104"
@@ -2108,9 +2534,11 @@ cases:
     title: "Sweeny v. United States"
     volume: "084"
     page: "075"
+    citation: "84 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
-    citation: "84 U.S. 75"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-105"
@@ -2118,9 +2546,11 @@ cases:
     title: "Barnes v. Railroads"
     volume: "084"
     page: "294"
+    citation: "84 U.S. 294"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
-    citation: "84 U.S. 294"
+    voteMajority: 5
+    voteMinority: 4
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-113"
@@ -2128,9 +2558,11 @@ cases:
     title: "St. Joseph Township v. Rogers"
     volume: "083"
     page: "644"
+    citation: "83 U.S. 644"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1873"
-    citation: "83 U.S. 644"
+    voteMajority: 7
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-118"
@@ -2138,9 +2570,11 @@ cases:
     title: "Tyler v. Magwire"
     volume: "084"
     page: "253"
+    citation: "84 U.S. 253"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1873"
-    citation: "84 U.S. 253"
+    voteMajority: 5
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-119"
@@ -2148,9 +2582,11 @@ cases:
     title: "Richmond v. Smith"
     volume: "082"
     page: "429"
+    citation: "82 U.S. 429"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1873"
-    citation: "82 U.S. 429"
+    voteMajority: 8
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-120"
@@ -2158,9 +2594,11 @@ cases:
     title: "Flanders v. Tweed"
     volume: "082"
     page: "450"
+    citation: "82 U.S. 450"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1873"
-    citation: "82 U.S. 450"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-128"
@@ -2168,9 +2606,11 @@ cases:
     title: "The Cayuga"
     volume: "083"
     page: "177"
+    citation: "83 U.S. 177"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1873"
-    citation: "83 U.S. 177"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-131"
@@ -2178,9 +2618,11 @@ cases:
     title: "Insurance Co. v. Piaggio"
     volume: "083"
     page: "378"
+    citation: "83 U.S. 378"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1873"
-    citation: "83 U.S. 378"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-135"
@@ -2188,9 +2630,11 @@ cases:
     title: "Steamboat Co. v. Chase"
     volume: "083"
     page: "522"
+    citation: "83 U.S. 522"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1873"
-    citation: "83 U.S. 522"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-140"
@@ -2198,9 +2642,11 @@ cases:
     title: "Goddard v. Foster"
     volume: "084"
     page: "123"
+    citation: "84 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1873"
-    citation: "84 U.S. 123"
+    voteMajority: 7
+    voteMinority: 2
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-146"
@@ -2208,9 +2654,11 @@ cases:
     title: "Tweed&apos;s Case"
     volume: "083"
     page: "504"
+    citation: "83 U.S. 504"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1873"
-    citation: "83 U.S. 504"
+    voteMajority: 7
+    voteMinority: 2
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-156"
@@ -2218,9 +2666,11 @@ cases:
     title: "United States v. Huckabee"
     volume: "083"
     page: "414"
+    citation: "83 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 15, 1873"
-    citation: "83 U.S. 414"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-164"
@@ -2228,9 +2678,11 @@ cases:
     title: "Burrows v. The Marshal"
     volume: "082"
     page: "682"
+    citation: "82 U.S. 682"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "82 U.S. 682"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-172"
@@ -2238,9 +2690,11 @@ cases:
     title: "Water Co. v. Ware"
     volume: "083"
     page: "566"
+    citation: "83 U.S. 566"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "83 U.S. 566"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-174"
@@ -2248,9 +2702,11 @@ cases:
     title: "Ryan v. Koch"
     volume: "084"
     page: "019"
+    citation: "84 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "84 U.S. 19"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-175"
@@ -2258,9 +2714,11 @@ cases:
     title: "Averill v. Smith"
     volume: "084"
     page: "082"
+    citation: "84 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "84 U.S. 82"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-176"
@@ -2268,9 +2726,11 @@ cases:
     title: "Bailey v. Railroad Co."
     volume: "084"
     page: "096"
+    citation: "84 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "84 U.S. 96"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-177"
@@ -2278,9 +2738,11 @@ cases:
     title: "Oulton v. Savings Institution"
     volume: "084"
     page: "109"
+    citation: "84 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "84 U.S. 109"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-183"
@@ -2288,9 +2750,11 @@ cases:
     title: "Insurance Co. v. Comstock"
     volume: "083"
     page: "258"
+    citation: "83 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Thursday, May 1, 1873"
-    citation: "83 U.S. 258"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-184"
@@ -2298,9 +2762,11 @@ cases:
     title: "Merrill v. Petty"
     volume: "083"
     page: "338"
+    citation: "83 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Thursday, May 1, 1873"
-    citation: "83 U.S. 338"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-186"
@@ -2308,17 +2774,22 @@ cases:
     title: "Wager v. Hall"
     volume: "083"
     page: "584"
+    citation: "83 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Thursday, May 1, 1873"
-    citation: "83 U.S. 584"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-193"
     termId: "1872-12"
     title: "WILLIAMS v. REYNOLDS"
+    docket: "93"
+    citation: "131 U.S. cx"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1873"
-    citation: "131 U.S. cx"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1872-203"
@@ -2326,9 +2797,12 @@ cases:
     title: "Humbird v. Jackson County"
     volume: "154"
     page: "592"
+    docket: "209"
+    citation: "154 U.S. 592"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "154 U.S. 592"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-063"
@@ -2336,9 +2810,11 @@ cases:
     title: "Hodges v. Vaughan"
     volume: "086"
     page: "012"
+    citation: "86 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1873"
-    citation: "86 U.S. 12"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-065"
@@ -2346,9 +2822,11 @@ cases:
     title: "Hall v. Jordan"
     volume: "086"
     page: "271"
+    citation: "86 U.S. 271"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1873"
-    citation: "86 U.S. 271"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-066"
@@ -2356,9 +2834,11 @@ cases:
     title: "Ex parte Robinson"
     volume: "086"
     page: "513"
+    citation: "86 U.S. 513"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1873"
-    citation: "86 U.S. 513"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-073"
@@ -2366,9 +2846,11 @@ cases:
     title: "Insurance Co. v. Folsom"
     volume: "085"
     page: "237"
+    citation: "85 U.S. 237"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1874"
-    citation: "85 U.S. 237"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-079"
@@ -2376,9 +2858,11 @@ cases:
     title: "Cooper v. Omohundro"
     volume: "086"
     page: "065"
+    citation: "86 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1874"
-    citation: "86 U.S. 65"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-087"
@@ -2386,9 +2870,11 @@ cases:
     title: "The Wenona"
     volume: "086"
     page: "041"
+    citation: "86 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1874"
-    citation: "86 U.S. 41"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-088"
@@ -2396,9 +2882,11 @@ cases:
     title: "The Rio Grande"
     volume: "086"
     page: "178"
+    citation: "86 U.S. 178"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1874"
-    citation: "86 U.S. 178"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-094"
@@ -2406,9 +2894,11 @@ cases:
     title: "Jones v. United States"
     volume: "085"
     page: "662"
+    citation: "85 U.S. 662"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1874"
-    citation: "85 U.S. 662"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-096"
@@ -2416,9 +2906,11 @@ cases:
     title: "Crews v. Brewer"
     volume: "086"
     page: "070"
+    citation: "86 U.S. 70"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1874"
-    citation: "86 U.S. 70"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-099"
@@ -2426,9 +2918,11 @@ cases:
     title: "United States v. Arwo"
     volume: "086"
     page: "486"
+    citation: "86 U.S. 486"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1874"
-    citation: "86 U.S. 486"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-117"
@@ -2436,9 +2930,11 @@ cases:
     title: "Case of the Sewing Machine Cos."
     volume: "085"
     page: "553"
+    citation: "85 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1874"
-    citation: "85 U.S. 553"
+    voteMajority: 6
+    voteMinority: 2
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-132"
@@ -2446,9 +2942,11 @@ cases:
     title: "Mitchell v. Tilghman"
     volume: "086"
     page: "287"
+    citation: "86 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 4, 1874"
-    citation: "86 U.S. 287"
+    voteMajority: 4
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-138"
@@ -2456,9 +2954,11 @@ cases:
     title: "Coit v. Robinson"
     volume: "086"
     page: "274"
+    citation: "86 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1874"
-    citation: "86 U.S. 274"
+    voteMajority: 6
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-145"
@@ -2466,9 +2966,11 @@ cases:
     title: "Insurance Co. v. Baring"
     volume: "087"
     page: "159"
+    citation: "87 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1874"
-    citation: "87 U.S. 159"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-157"
@@ -2476,9 +2978,11 @@ cases:
     title: "The Lottawanna"
     volume: "087"
     page: "201"
+    citation: "87 U.S. 201"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1874"
-    citation: "87 U.S. 201"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-165"
@@ -2486,9 +2990,11 @@ cases:
     title: "United States v. Herron"
     volume: "087"
     page: "251"
+    citation: "87 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1874"
-    citation: "87 U.S. 251"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-168"
@@ -2496,9 +3002,11 @@ cases:
     title: "North Missouri R. Co. v. Maguire"
     volume: "087"
     page: "046"
+    citation: "87 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1874"
-    citation: "87 U.S. 46"
+    voteMajority: 7
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-196"
@@ -2506,9 +3014,11 @@ cases:
     title: "Simpson v. Greeley"
     volume: "087"
     page: "152"
+    citation: "87 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
-    citation: "87 U.S. 152"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-197"
@@ -2516,9 +3026,11 @@ cases:
     title: "Twenty per Cent. Cases"
     volume: "087"
     page: "179"
+    citation: "87 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
-    citation: "87 U.S. 179"
+    voteMajority: 8
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-207"
@@ -2526,25 +3038,34 @@ cases:
     title: "Woodman Pebbling Machine Co. v. Guild"
     volume: "154"
     page: "597"
+    docket: "311"
+    citation: "154 U.S. 597"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1874"
-    citation: "154 U.S. 597"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-214"
     termId: "1873-10"
     title: "Stitt v. Huidekopher"
+    docket: "47"
+    citation: "131 U.S. cxviii"
     pdfSource: "loc"
     dateDecision: "Tuesday, October 28, 1873"
-    citation: "131 U.S. cxviii"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1873-215"
     termId: "1873-10"
     title: "Ex parte Lange"
+    docket: "9 Orig."
+    citation: "131 U.S. ccvii"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1874"
-    citation: "131 U.S. ccvii"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-002"
@@ -2552,9 +3073,11 @@ cases:
     title: "Gill v. Wells"
     volume: "089"
     page: "001"
+    citation: "89 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, October 26, 1874"
-    citation: "89 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-017"
@@ -2562,9 +3085,12 @@ cases:
     title: "The Teutonia"
     volume: "090"
     page: "077"
+    docket: "38"
+    citation: "90 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1874"
-    citation: "90 U.S. 77"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-027"
@@ -2572,9 +3098,12 @@ cases:
     title: "Stickney v. Wilt"
     volume: "090"
     page: "150"
+    docket: "37"
+    citation: "90 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Monday, November 23, 1874"
-    citation: "90 U.S. 150"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-034"
@@ -2582,9 +3111,12 @@ cases:
     title: "Edwards v. Elliott"
     volume: "088"
     page: "532"
+    docket: "62"
+    citation: "88 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1874"
-    citation: "88 U.S. 532"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-038"
@@ -2592,9 +3124,12 @@ cases:
     title: "The Lady Pike"
     volume: "088"
     page: "001"
+    docket: "72"
+    citation: "88 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1874"
-    citation: "88 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-055"
@@ -2602,9 +3137,12 @@ cases:
     title: "Michaels v. Post"
     volume: "088"
     page: "398"
+    docket: "85"
+    citation: "88 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1874"
-    citation: "88 U.S. 398"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-072"
@@ -2612,9 +3150,12 @@ cases:
     title: "Clarion Bank v. Jones"
     volume: "088"
     page: "325"
+    docket: "17"
+    citation: "88 U.S. 325"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1875"
-    citation: "88 U.S. 325"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-075"
@@ -2622,9 +3163,12 @@ cases:
     title: "Ross v. Jones"
     volume: "089"
     page: "576"
+    docket: "104"
+    citation: "89 U.S. 576"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1875"
-    citation: "89 U.S. 576"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-076"
@@ -2632,9 +3176,12 @@ cases:
     title: "The Dexter"
     volume: "090"
     page: "069"
+    docket: "114"
+    citation: "90 U.S. 69"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1875"
-    citation: "90 U.S. 69"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-085"
@@ -2642,9 +3189,12 @@ cases:
     title: "The Sea Gull"
     volume: "090"
     page: "165"
+    docket: "131"
+    citation: "90 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1875"
-    citation: "90 U.S. 165"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-093"
@@ -2652,9 +3202,12 @@ cases:
     title: "Scholey v. Rew"
     volume: "090"
     page: "331"
+    docket: "133"
+    citation: "90 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1875"
-    citation: "90 U.S. 331"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-100"
@@ -2662,9 +3215,12 @@ cases:
     title: "Hampton v. Rouse"
     volume: "089"
     page: "263"
+    docket: "144"
+    citation: "89 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1875"
-    citation: "89 U.S. 263"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-106"
@@ -2672,9 +3228,12 @@ cases:
     title: "Donovan v. United States"
     volume: "090"
     page: "383"
+    docket: "479"
+    citation: "90 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1875"
-    citation: "90 U.S. 383"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-117"
@@ -2682,9 +3241,12 @@ cases:
     title: "United States v. O&apos;Grady"
     volume: "089"
     page: "641"
+    docket: "177"
+    citation: "89 U.S. 641"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1875"
-    citation: "89 U.S. 641"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-118"
@@ -2692,9 +3254,12 @@ cases:
     title: "Reedy v. Scott"
     volume: "090"
     page: "352"
+    docket: "168"
+    citation: "90 U.S. 352"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1875"
-    citation: "90 U.S. 352"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-128"
@@ -2702,9 +3267,12 @@ cases:
     title: "Taylor v. Thomas"
     volume: "089"
     page: "479"
+    docket: "181"
+    citation: "89 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1875"
-    citation: "89 U.S. 479"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-136"
@@ -2712,9 +3280,12 @@ cases:
     title: "Amsinck v. Bean"
     volume: "089"
     page: "395"
+    docket: "193"
+    citation: "89 U.S. 395"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1875"
-    citation: "89 U.S. 395"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-144"
@@ -2722,9 +3293,12 @@ cases:
     title: "Ray v. Norseworthy"
     volume: "090"
     page: "128"
+    docket: "214"
+    citation: "90 U.S. 128"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1875"
-    citation: "90 U.S. 128"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-146"
@@ -2732,9 +3306,12 @@ cases:
     title: "Moran v. Prather"
     volume: "090"
     page: "492"
+    docket: "215"
+    citation: "90 U.S. 492"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1875"
-    citation: "90 U.S. 492"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-158"
@@ -2742,9 +3319,12 @@ cases:
     title: "Collar Co. v. Van Dusen"
     volume: "090"
     page: "530"
+    docket: "221"
+    citation: "90 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1875"
-    citation: "90 U.S. 530"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-164"
@@ -2752,9 +3332,11 @@ cases:
     title: "Bailey v. Railroad Co."
     volume: "089"
     page: "604"
+    citation: "89 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1875"
-    citation: "89 U.S. 604"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-173"
@@ -2762,9 +3344,11 @@ cases:
     title: "Piatt&apos;s Administrator v. United States"
     volume: "089"
     page: "496"
+    citation: "89 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1875"
-    citation: "89 U.S. 496"
+    voteMajority: 5
+    voteMinority: 4
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1874-186"
@@ -2772,9 +3356,12 @@ cases:
     title: "The Clarita and The Clara"
     volume: "090"
     page: "001"
+    docket: "230"
+    citation: "90 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1875"
-    citation: "90 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-005"
@@ -2782,9 +3369,12 @@ cases:
     title: "Semmes v. United States"
     volume: "091"
     page: "021"
+    docket: "27"
+    citation: "91 U.S. 21"
     pdfSource: "loc"
     dateDecision: "Monday, October 25, 1875"
-    citation: "91 U.S. 21"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-027"
@@ -2792,9 +3382,12 @@ cases:
     title: "Baltimore &amp; Potomac R. Co. v. Trustees of Sixth Presbyterian Church"
     volume: "091"
     page: "127"
+    docket: "47"
+    citation: "91 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1875"
-    citation: "91 U.S. 127"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-035"
@@ -2802,9 +3395,12 @@ cases:
     title: "First Unitarian Soc. of Chicago v. Faulkner"
     volume: "091"
     page: "415"
+    docket: "57"
+    citation: "91 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1875"
-    citation: "91 U.S. 415"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-040"
@@ -2812,9 +3408,12 @@ cases:
     title: "The &quot;Sunnyside&quot;"
     volume: "091"
     page: "208"
+    docket: "79"
+    citation: "91 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1876"
-    citation: "91 U.S. 208"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-041"
@@ -2822,9 +3421,12 @@ cases:
     title: "Pollard v. Lyon"
     volume: "091"
     page: "225"
+    docket: "93"
+    citation: "91 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1876"
-    citation: "91 U.S. 225"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-046"
@@ -2832,9 +3434,12 @@ cases:
     title: "McMurray v. Brown"
     volume: "091"
     page: "257"
+    docket: "59"
+    citation: "91 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1876"
-    citation: "91 U.S. 257"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-052"
@@ -2842,9 +3447,12 @@ cases:
     title: "New Lamp Chimney Co. v. Ansonia Brass &amp; Copper Co."
     volume: "091"
     page: "656"
+    docket: "85"
+    citation: "91 U.S. 656"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1876"
-    citation: "91 U.S. 656"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-065"
@@ -2852,9 +3460,12 @@ cases:
     title: "Scammon v. Kimball"
     volume: "092"
     page: "362"
+    docket: "113"
+    citation: "92 U.S. 362"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1876"
-    citation: "92 U.S. 362"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-068"
@@ -2862,9 +3473,12 @@ cases:
     title: "The &quot;Dove&quot;"
     volume: "091"
     page: "381"
+    docket: "64"
+    citation: "91 U.S. 381"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1876"
-    citation: "91 U.S. 381"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-077"
@@ -2872,9 +3486,12 @@ cases:
     title: "Williams v. United States"
     volume: "092"
     page: "457"
+    docket: "892"
+    citation: "92 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1876"
-    citation: "92 U.S. 457"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-084"
@@ -2882,9 +3499,12 @@ cases:
     title: "The &quot;Colorado&quot;"
     volume: "091"
     page: "692"
+    docket: "65"
+    citation: "91 U.S. 692"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1876"
-    citation: "91 U.S. 692"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-090"
@@ -2892,9 +3512,12 @@ cases:
     title: "Clements v. Macheboeuf"
     volume: "092"
     page: "418"
+    docket: "120"
+    citation: "92 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1876"
-    citation: "92 U.S. 418"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-094"
@@ -2902,9 +3525,12 @@ cases:
     title: "Earle v. McVeigh"
     volume: "091"
     page: "503"
+    docket: "131"
+    citation: "91 U.S. 503"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1876"
-    citation: "91 U.S. 503"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-106"
@@ -2912,9 +3538,12 @@ cases:
     title: "Gould v. Evansville &amp; Crawfordsville R. Co."
     volume: "091"
     page: "526"
+    docket: "125"
+    citation: "91 U.S. 526"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1876"
-    citation: "91 U.S. 526"
+    voteMajority: 8
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-116"
@@ -2922,9 +3551,12 @@ cases:
     title: "Morrison v. Jackson"
     volume: "092"
     page: "654"
+    docket: "139"
+    citation: "92 U.S. 654"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1876"
-    citation: "92 U.S. 654"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-124"
@@ -2932,9 +3564,12 @@ cases:
     title: "Hall v. United States"
     volume: "091"
     page: "559"
+    docket: "155"
+    citation: "91 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1876"
-    citation: "91 U.S. 559"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-125"
@@ -2942,9 +3577,11 @@ cases:
     title: "Hall v. United States"
     volume: "091"
     page: "566"
+    citation: "91 U.S. 566"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1876"
-    citation: "91 U.S. 566"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-134"
@@ -2952,9 +3589,12 @@ cases:
     title: "Commissioners of Laramie Cty. v. Commissioners of Albany Cty."
     volume: "092"
     page: "307"
+    docket: "153"
+    citation: "92 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1876"
-    citation: "92 U.S. 307"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-143"
@@ -2962,9 +3602,12 @@ cases:
     title: "Angle v. North-Western Mut. Life Ins. Co."
     volume: "092"
     page: "330"
+    docket: "857"
+    citation: "92 U.S. 330"
     pdfSource: "loc"
     dateDecision: "Thursday, March 30, 1876"
-    citation: "92 U.S. 330"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-146"
@@ -2972,9 +3615,12 @@ cases:
     title: "The &quot;City of Washington&quot;"
     volume: "092"
     page: "031"
+    docket: "181"
+    citation: "92 U.S. 31"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1876"
-    citation: "92 U.S. 31"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-149"
@@ -2982,9 +3628,12 @@ cases:
     title: "Harrison v. Myer"
     volume: "092"
     page: "111"
+    docket: "174"
+    citation: "92 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1876"
-    citation: "92 U.S. 111"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-152"
@@ -2992,9 +3641,12 @@ cases:
     title: "Hobson v. Lord"
     volume: "092"
     page: "397"
+    docket: "189"
+    citation: "92 U.S. 397"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1876"
-    citation: "92 U.S. 397"
+    voteMajority: 8
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-163"
@@ -3002,9 +3654,12 @@ cases:
     title: "Savage v. United States"
     volume: "092"
     page: "382"
+    docket: "196"
+    citation: "92 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1876"
-    citation: "92 U.S. 382"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-170"
@@ -3012,9 +3667,12 @@ cases:
     title: "Garsed v. Beall"
     volume: "092"
     page: "684"
+    docket: "136"
+    citation: "92 U.S. 684"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1876"
-    citation: "92 U.S. 684"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-182"
@@ -3022,9 +3680,12 @@ cases:
     title: "The &quot;America&quot;"
     volume: "092"
     page: "432"
+    docket: "219"
+    citation: "92 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1876"
-    citation: "92 U.S. 432"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-183"
@@ -3032,9 +3693,11 @@ cases:
     title: "The &quot;Galatea&quot;"
     volume: "092"
     page: "439"
+    citation: "92 U.S. 439"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1876"
-    citation: "92 U.S. 439"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-186"
@@ -3042,17 +3705,23 @@ cases:
     title: "Tyng v. Grinnell"
     volume: "092"
     page: "467"
+    docket: "78"
+    citation: "92 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1876"
-    citation: "92 U.S. 467"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1875-208"
     termId: "1875-10"
     title: "Morrison et al. v. Benton"
+    docket: "140"
+    citation: "92 U.S. 664n"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1876"
-    citation: "92 U.S. 664n"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-008"
@@ -3060,9 +3729,12 @@ cases:
     title: "Smith v. Chapman"
     volume: "093"
     page: "041"
+    docket: "6"
+    citation: "93 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, October 23, 1876"
-    citation: "93 U.S. 41"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-012"
@@ -3070,9 +3742,12 @@ cases:
     title: "Birdsall v. Coolidge"
     volume: "093"
     page: "064"
+    docket: "41"
+    citation: "93 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1876"
-    citation: "93 U.S. 64"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-024"
@@ -3080,9 +3755,12 @@ cases:
     title: "County of Calhoun v. American Emigrant Co."
     volume: "093"
     page: "124"
+    docket: "71"
+    citation: "93 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1876"
-    citation: "93 U.S. 124"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-045"
@@ -3090,9 +3768,12 @@ cases:
     title: "Whiteside v. United States"
     volume: "093"
     page: "247"
+    docket: "94"
+    citation: "93 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1876"
-    citation: "93 U.S. 247"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-047"
@@ -3100,9 +3781,12 @@ cases:
     title: "The &quot;Atlas&quot;"
     volume: "093"
     page: "302"
+    docket: "47"
+    citation: "93 U.S. 302"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1876"
-    citation: "93 U.S. 302"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-058"
@@ -3110,9 +3794,12 @@ cases:
     title: "Norton v. Switzer"
     volume: "093"
     page: "355"
+    docket: "105"
+    citation: "93 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1876"
-    citation: "93 U.S. 355"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-075"
@@ -3120,9 +3807,12 @@ cases:
     title: "Dunbar v. Myers"
     volume: "094"
     page: "187"
+    docket: "123"
+    citation: "94 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1876"
-    citation: "94 U.S. 187"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-083"
@@ -3130,9 +3820,12 @@ cases:
     title: "Storm v. United States"
     volume: "094"
     page: "076"
+    docket: "23"
+    citation: "94 U.S. 76"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1877"
-    citation: "94 U.S. 76"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-086"
@@ -3140,9 +3833,12 @@ cases:
     title: "The &quot;John L. Hasbrouck&quot;"
     volume: "093"
     page: "405"
+    docket: "138"
+    citation: "93 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1877"
-    citation: "93 U.S. 405"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-100"
@@ -3150,9 +3846,12 @@ cases:
     title: "Stanton v. Embrey"
     volume: "093"
     page: "548"
+    docket: "159"
+    citation: "93 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1877"
-    citation: "93 U.S. 548"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-105"
@@ -3160,9 +3859,12 @@ cases:
     title: "Commissioners of Marion Cty. v. Clark"
     volume: "094"
     page: "278"
+    docket: "653"
+    citation: "94 U.S. 278"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1877"
-    citation: "94 U.S. 278"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-113"
@@ -3170,9 +3872,12 @@ cases:
     title: "Cammeyer v. Newton"
     volume: "094"
     page: "225"
+    docket: "114"
+    citation: "94 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1877"
-    citation: "94 U.S. 225"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-127"
@@ -3180,9 +3885,12 @@ cases:
     title: "Fuller v. Yentzer"
     volume: "094"
     page: "288"
+    docket: "160"
+    citation: "94 U.S. 288"
     pdfSource: "loc"
     dateDecision: "Friday, March 2, 1877"
-    citation: "94 U.S. 288"
+    voteMajority: 5
+    voteMinority: 4
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-128"
@@ -3190,9 +3898,12 @@ cases:
     title: "Fuller v. Yentzer"
     volume: "094"
     page: "299"
+    docket: "161"
+    citation: "94 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Friday, March 2, 1877"
-    citation: "94 U.S. 299"
+    voteMajority: 5
+    voteMinority: 4
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-140"
@@ -3200,9 +3911,12 @@ cases:
     title: "Dutcher v. Wright"
     volume: "094"
     page: "553"
+    docket: "173"
+    citation: "94 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1877"
-    citation: "94 U.S. 553"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-162"
@@ -3210,9 +3924,12 @@ cases:
     title: "Collins v. Gilbert"
     volume: "094"
     page: "753"
+    docket: "186"
+    citation: "94 U.S. 753"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1877"
-    citation: "94 U.S. 753"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-163"
@@ -3220,9 +3937,12 @@ cases:
     title: "Beall v. White"
     volume: "094"
     page: "382"
+    docket: "185"
+    citation: "94 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1877"
-    citation: "94 U.S. 382"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-181"
@@ -3230,9 +3950,12 @@ cases:
     title: "Crim v. Handley"
     volume: "094"
     page: "652"
+    docket: "197"
+    citation: "94 U.S. 652"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1877"
-    citation: "94 U.S. 652"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-201"
@@ -3240,9 +3963,12 @@ cases:
     title: "The &quot;Stephen Morgan&quot;"
     volume: "094"
     page: "599"
+    docket: "232"
+    citation: "94 U.S. 599"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1877"
-    citation: "94 U.S. 599"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-221"
@@ -3250,9 +3976,12 @@ cases:
     title: "Hogan v. Kurtz"
     volume: "094"
     page: "773"
+    docket: "248"
+    citation: "94 U.S. 773"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1877"
-    citation: "94 U.S. 773"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1876-224"
@@ -3260,9 +3989,12 @@ cases:
     title: "Sessions v. Johnson"
     volume: "095"
     page: "347"
+    docket: "244"
+    citation: "95 U.S. 347"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1877"
-    citation: "95 U.S. 347"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-006"
@@ -3270,9 +4002,12 @@ cases:
     title: "Good v. Martin"
     volume: "095"
     page: "090"
+    docket: "11"
+    citation: "95 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1877"
-    citation: "95 U.S. 90"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-014"
@@ -3280,9 +4015,12 @@ cases:
     title: "Williams v. Morris"
     volume: "095"
     page: "444"
+    docket: "8"
+    citation: "95 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Monday, October 29, 1877"
-    citation: "95 U.S. 444"
+    voteMajority: 6
+    voteMinority: 2
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-020"
@@ -3290,9 +4028,11 @@ cases:
     title: "Ex parte Easton"
     volume: "095"
     page: "068"
+    citation: "95 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1877"
-    citation: "95 U.S. 68"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-025"
@@ -3300,9 +4040,12 @@ cases:
     title: "Roemer v. Simon"
     volume: "095"
     page: "214"
+    docket: "40"
+    citation: "95 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1877"
-    citation: "95 U.S. 214"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-040"
@@ -3310,9 +4053,12 @@ cases:
     title: "Hawkins v. United States"
     volume: "096"
     page: "689"
+    docket: "700"
+    citation: "96 U.S. 689"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1877"
-    citation: "96 U.S. 689"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-051"
@@ -3320,9 +4066,12 @@ cases:
     title: "Turnbull v. Payson"
     volume: "095"
     page: "418"
+    docket: "87"
+    citation: "95 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1877"
-    citation: "95 U.S. 418"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-061"
@@ -3330,9 +4079,12 @@ cases:
     title: "The &quot;Wanata&quot;"
     volume: "095"
     page: "600"
+    docket: "86"
+    citation: "95 U.S. 600"
     pdfSource: "loc"
     dateDecision: "Monday, November 26, 1877"
-    citation: "95 U.S. 600"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-065"
@@ -3340,9 +4092,12 @@ cases:
     title: "Fabbri v. Murphy"
     volume: "095"
     page: "191"
+    docket: "114"
+    citation: "95 U.S. 191"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1877"
-    citation: "95 U.S. 191"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-067"
@@ -3350,9 +4105,12 @@ cases:
     title: "Insurance Co. v. Haven"
     volume: "095"
     page: "242"
+    docket: "110"
+    citation: "95 U.S. 242"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1877"
-    citation: "95 U.S. 242"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-084"
@@ -3360,9 +4118,12 @@ cases:
     title: "Brown v. Spofford"
     volume: "095"
     page: "474"
+    docket: "121"
+    citation: "95 U.S. 474"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1877"
-    citation: "95 U.S. 474"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-087"
@@ -3370,9 +4131,12 @@ cases:
     title: "United States v. The &quot;Grace Lothrop&quot;"
     volume: "095"
     page: "527"
+    docket: "276"
+    citation: "95 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1877"
-    citation: "95 U.S. 527"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-088"
@@ -3380,9 +4144,12 @@ cases:
     title: "United States v. Smith"
     volume: "095"
     page: "536"
+    docket: "64"
+    citation: "95 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1877"
-    citation: "95 U.S. 536"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-096"
@@ -3390,9 +4157,12 @@ cases:
     title: "United States v. Mann"
     volume: "095"
     page: "580"
+    docket: "133"
+    citation: "95 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1878"
-    citation: "95 U.S. 580"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-113"
@@ -3400,9 +4170,12 @@ cases:
     title: "Dobbins&apos;s Distillery v. United States"
     volume: "096"
     page: "395"
+    docket: "145"
+    citation: "96 U.S. 395"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1878"
-    citation: "96 U.S. 395"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-117"
@@ -3410,9 +4183,12 @@ cases:
     title: "The &quot;Virginia Ehrman&quot; and the &quot;Agnese&quot;"
     volume: "097"
     page: "309"
+    docket: "147"
+    citation: "97 U.S. 309"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1878"
-    citation: "97 U.S. 309"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-128"
@@ -3420,9 +4196,12 @@ cases:
     title: "Jones v. United States"
     volume: "096"
     page: "024"
+    docket: "539"
+    citation: "96 U.S. 24"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1878"
-    citation: "96 U.S. 24"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-132"
@@ -3430,9 +4209,12 @@ cases:
     title: "Lilienthal&apos;s Tobacco v. United States"
     volume: "097"
     page: "237"
+    docket: "137"
+    citation: "97 U.S. 237"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1878"
-    citation: "97 U.S. 237"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-142"
@@ -3440,9 +4222,12 @@ cases:
     title: "Francis v. United States"
     volume: "096"
     page: "354"
+    docket: "556"
+    citation: "96 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1878"
-    citation: "96 U.S. 354"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-143"
@@ -3450,9 +4235,12 @@ cases:
     title: "Noyes v. Hall"
     volume: "097"
     page: "034"
+    docket: "175"
+    citation: "97 U.S. 34"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1878"
-    citation: "97 U.S. 34"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-148"
@@ -3460,9 +4248,12 @@ cases:
     title: "The &quot;Lady Pike&quot;"
     volume: "096"
     page: "461"
+    docket: "198"
+    citation: "96 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1878"
-    citation: "96 U.S. 461"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-152"
@@ -3470,9 +4261,12 @@ cases:
     title: "Hotel Co. v. Wade"
     volume: "097"
     page: "013"
+    docket: "188"
+    citation: "97 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1878"
-    citation: "97 U.S. 13"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-161"
@@ -3480,9 +4274,12 @@ cases:
     title: "The &quot;City of Hartford&quot; and the &quot;Unit&quot;"
     volume: "097"
     page: "323"
+    docket: "185"
+    citation: "97 U.S. 323"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1878"
-    citation: "97 U.S. 323"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-166"
@@ -3490,9 +4287,12 @@ cases:
     title: "Machine Co. v. Murphy"
     volume: "097"
     page: "120"
+    docket: "232"
+    citation: "97 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1878"
-    citation: "97 U.S. 120"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-186"
@@ -3500,9 +4300,12 @@ cases:
     title: "Marsh v. Seymour"
     volume: "097"
     page: "348"
+    docket: "205"
+    citation: "97 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1878"
-    citation: "97 U.S. 348"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-189"
@@ -3510,9 +4313,12 @@ cases:
     title: "Davies v. Arthur"
     volume: "096"
     page: "148"
+    docket: "492"
+    citation: "96 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1878"
-    citation: "96 U.S. 148"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-219"
@@ -3520,9 +4326,12 @@ cases:
     title: "Garfield v. Paris"
     volume: "096"
     page: "557"
+    docket: "250"
+    citation: "96 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1878"
-    citation: "96 U.S. 557"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-223"
@@ -3530,9 +4339,11 @@ cases:
     title: "McLean v. Fleming"
     volume: "096"
     page: "245"
+    citation: "96 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1878"
-    citation: "96 U.S. 245"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-231"
@@ -3540,9 +4351,12 @@ cases:
     title: "Kohlsaat v. Murphy"
     volume: "096"
     page: "153"
+    docket: "832"
+    citation: "96 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1878"
-    citation: "96 U.S. 153"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-235"
@@ -3550,9 +4364,12 @@ cases:
     title: "Ashcroft v. Railroad Co."
     volume: "097"
     page: "189"
+    docket: "266"
+    citation: "97 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1878"
-    citation: "97 U.S. 189"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1877-240"
@@ -3560,9 +4377,12 @@ cases:
     title: "Insurance Co. v. Gossler"
     volume: "096"
     page: "645"
+    docket: "275"
+    citation: "96 U.S. 645"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1878"
-    citation: "96 U.S. 645"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-002"
@@ -3570,9 +4390,12 @@ cases:
     title: "Glenny v. Langdon"
     volume: "098"
     page: "020"
+    docket: "7"
+    citation: "98 U.S. 20"
     pdfSource: "loc"
     dateDecision: "Monday, October 28, 1878"
-    citation: "98 U.S. 20"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-012"
@@ -3580,9 +4403,12 @@ cases:
     title: "Gifford v. Helms"
     volume: "098"
     page: "248"
+    docket: "43"
+    citation: "98 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Monday, November 4, 1878"
-    citation: "98 U.S. 248"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-014"
@@ -3590,9 +4416,12 @@ cases:
     title: "Four Packages v. United States"
     volume: "097"
     page: "404"
+    docket: "55"
+    citation: "97 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1878"
-    citation: "97 U.S. 404"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-027"
@@ -3600,9 +4429,12 @@ cases:
     title: "Ivinson v. Hutton"
     volume: "098"
     page: "079"
+    docket: "64"
+    citation: "98 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1878"
-    citation: "98 U.S. 79"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-031"
@@ -3610,9 +4442,12 @@ cases:
     title: "Bates v. Coe"
     volume: "098"
     page: "031"
+    docket: "30"
+    citation: "98 U.S. 31"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1878"
-    citation: "98 U.S. 31"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-035"
@@ -3620,9 +4455,11 @@ cases:
     title: "Mimmack v. United States"
     volume: "097"
     page: "426"
+    citation: "97 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1878"
-    citation: "97 U.S. 426"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-048"
@@ -3630,9 +4467,12 @@ cases:
     title: "Snyder v. Sickles"
     volume: "098"
     page: "203"
+    docket: "83"
+    citation: "98 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1878"
-    citation: "98 U.S. 203"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-057"
@@ -3640,9 +4480,12 @@ cases:
     title: "Bradley v. United States"
     volume: "098"
     page: "104"
+    docket: "775"
+    citation: "98 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1878"
-    citation: "98 U.S. 104"
+    voteMajority: 5
+    voteMinority: 4
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-072"
@@ -3650,9 +4493,12 @@ cases:
     title: "Andreae v. Redfield"
     volume: "098"
     page: "225"
+    docket: "22"
+    citation: "98 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1879"
-    citation: "98 U.S. 225"
+    voteMajority: 7
+    voteMinority: 2
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-079"
@@ -3660,9 +4506,12 @@ cases:
     title: "Hendrie v. Sayles"
     volume: "098"
     page: "546"
+    docket: "947"
+    citation: "98 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1879"
-    citation: "98 U.S. 546"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-080"
@@ -3670,9 +4519,12 @@ cases:
     title: "United States v. Farden"
     volume: "099"
     page: "010"
+    docket: "789"
+    citation: "99 U.S. 10"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1879"
-    citation: "99 U.S. 10"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-082"
@@ -3680,9 +4532,12 @@ cases:
     title: "United States v. Hall"
     volume: "098"
     page: "343"
+    docket: "687"
+    citation: "98 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1879"
-    citation: "98 U.S. 343"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-087"
@@ -3690,9 +4545,12 @@ cases:
     title: "United States v. Glab"
     volume: "099"
     page: "225"
+    docket: "566"
+    citation: "99 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1879"
-    citation: "99 U.S. 225"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-102"
@@ -3700,9 +4558,12 @@ cases:
     title: "United States v. Ames"
     volume: "099"
     page: "035"
+    docket: "133"
+    citation: "99 U.S. 35"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1879"
-    citation: "99 U.S. 35"
+    voteMajority: 7
+    voteMinority: 1
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-116"
@@ -3710,9 +4571,12 @@ cases:
     title: "Burbank v. Semmes"
     volume: "099"
     page: "138"
+    docket: "169"
+    citation: "99 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1879"
-    citation: "99 U.S. 138"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-117"
@@ -3720,9 +4584,12 @@ cases:
     title: "Harris v. McGovern"
     volume: "099"
     page: "161"
+    docket: "168"
+    citation: "99 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1879"
-    citation: "99 U.S. 161"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-121"
@@ -3730,9 +4597,12 @@ cases:
     title: "Myrick v. Thompson"
     volume: "099"
     page: "291"
+    docket: "147"
+    citation: "99 U.S. 291"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1879"
-    citation: "99 U.S. 291"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-134"
@@ -3740,9 +4610,12 @@ cases:
     title: "Wilkerson v. Utah"
     volume: "099"
     page: "130"
+    docket: "686"
+    citation: "99 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1879"
-    citation: "99 U.S. 130"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-147"
@@ -3750,9 +4623,12 @@ cases:
     title: "Montgomery v. Samory"
     volume: "099"
     page: "482"
+    docket: "178"
+    citation: "99 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1879"
-    citation: "99 U.S. 482"
+    voteMajority: 6
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-157"
@@ -3760,9 +4636,12 @@ cases:
     title: "Whiskey Cases"
     volume: "099"
     page: "594"
+    docket: "929"
+    citation: "99 U.S. 594"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1879"
-    citation: "99 U.S. 594"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-160"
@@ -3770,9 +4649,12 @@ cases:
     title: "Railroad Co. v. Varnell"
     volume: "098"
     page: "479"
+    docket: "198"
+    citation: "98 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1879"
-    citation: "98 U.S. 479"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-165"
@@ -3780,9 +4662,12 @@ cases:
     title: "Transportation Co. v. Wheeling"
     volume: "099"
     page: "273"
+    docket: "203"
+    citation: "99 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1879"
-    citation: "99 U.S. 273"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-174"
@@ -3790,9 +4675,12 @@ cases:
     title: "Godden v. Kimmell"
     volume: "099"
     page: "201"
+    docket: "211"
+    citation: "99 U.S. 201"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1879"
-    citation: "99 U.S. 201"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-185"
@@ -3800,9 +4688,12 @@ cases:
     title: "Hartman v. Bean"
     volume: "099"
     page: "393"
+    docket: "242"
+    citation: "99 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1879"
-    citation: "99 U.S. 393"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-199"
@@ -3810,9 +4701,12 @@ cases:
     title: "Colby v. Reed"
     volume: "099"
     page: "560"
+    docket: "243"
+    citation: "99 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1879"
-    citation: "99 U.S. 560"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1878-200"
@@ -3820,9 +4714,12 @@ cases:
     title: "Spring Co. v. Edgar"
     volume: "099"
     page: "645"
+    docket: "255"
+    citation: "99 U.S. 645"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1879"
-    citation: "99 U.S. 645"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-006"
@@ -3830,9 +4727,12 @@ cases:
     title: "Soule v. United States"
     volume: "100"
     page: "008"
+    docket: "14"
+    citation: "100 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1879"
-    citation: "100 U.S. 8"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-017"
@@ -3840,9 +4740,12 @@ cases:
     title: "Hatch v. Oil Co."
     volume: "100"
     page: "124"
+    docket: "40"
+    citation: "100 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1879"
-    citation: "100 U.S. 124"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-027"
@@ -3850,9 +4753,12 @@ cases:
     title: "Steam-Engine Co. v. Hubbard"
     volume: "101"
     page: "188"
+    docket: "65"
+    citation: "101 U.S. 188"
     pdfSource: "loc"
     dateDecision: "Monday, November 24, 1879"
-    citation: "101 U.S. 188"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-041"
@@ -3860,9 +4766,12 @@ cases:
     title: "Lansdale v. Daniels"
     volume: "100"
     page: "113"
+    docket: "88"
+    citation: "100 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1879"
-    citation: "100 U.S. 113"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-051"
@@ -3870,9 +4779,12 @@ cases:
     title: "West v. Smith"
     volume: "101"
     page: "263"
+    docket: "101"
+    citation: "101 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1879"
-    citation: "101 U.S. 263"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-055"
@@ -3880,9 +4792,12 @@ cases:
     title: "Wills v. Russell"
     volume: "100"
     page: "621"
+    docket: "126"
+    citation: "100 U.S. 621"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1880"
-    citation: "100 U.S. 621"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-056"
@@ -3890,9 +4805,12 @@ cases:
     title: "Improvement Co. v. Slack"
     volume: "100"
     page: "648"
+    docket: "123"
+    citation: "100 U.S. 648"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1880"
-    citation: "100 U.S. 648"
+    voteMajority: 6
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-057"
@@ -3900,9 +4818,12 @@ cases:
     title: "Railway Co. v. Slack"
     volume: "100"
     page: "659"
+    docket: "122"
+    citation: "100 U.S. 659"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1880"
-    citation: "100 U.S. 659"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-058"
@@ -3910,9 +4831,12 @@ cases:
     title: "Babbitt v. Finn"
     volume: "101"
     page: "007"
+    docket: "106"
+    citation: "101 U.S. 7"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1880"
-    citation: "101 U.S. 7"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-070"
@@ -3920,9 +4844,12 @@ cases:
     title: "Savings Bank v. Ward"
     volume: "100"
     page: "195"
+    docket: "142"
+    citation: "100 U.S. 195"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1880"
-    citation: "100 U.S. 195"
+    voteMajority: 6
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-078"
@@ -3930,9 +4857,12 @@ cases:
     title: "Bank of America v. Banks"
     volume: "101"
     page: "240"
+    docket: "17"
+    citation: "101 U.S. 240"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1880"
-    citation: "101 U.S. 240"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-085"
@@ -3940,9 +4870,12 @@ cases:
     title: "United States v. Lawson"
     volume: "101"
     page: "164"
+    docket: "886"
+    citation: "101 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1880"
-    citation: "101 U.S. 164"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-086"
@@ -3950,9 +4883,12 @@ cases:
     title: "United States v. Ellsworth"
     volume: "101"
     page: "170"
+    docket: "884"
+    citation: "101 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1880"
-    citation: "101 U.S. 170"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-092"
@@ -3960,9 +4896,12 @@ cases:
     title: "Dauterive v. United States"
     volume: "101"
     page: "700"
+    docket: "489"
+    citation: "101 U.S. 700"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1880"
-    citation: "101 U.S. 700"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-110"
@@ -3970,9 +4909,12 @@ cases:
     title: "Case v. Bank"
     volume: "100"
     page: "446"
+    docket: "499"
+    citation: "100 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1880"
-    citation: "100 U.S. 446"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-111"
@@ -3980,9 +4922,12 @@ cases:
     title: "Mount Pleasant v. Beckwith"
     volume: "100"
     page: "514"
+    docket: "39"
+    citation: "100 U.S. 514"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1880"
-    citation: "100 U.S. 514"
+    voteMajority: 6
+    voteMinority: 3
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-123"
@@ -3990,9 +4935,12 @@ cases:
     title: "Railway Co. v. Philadelphia"
     volume: "101"
     page: "528"
+    docket: "177"
+    citation: "101 U.S. 528"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1880"
-    citation: "101 U.S. 528"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-134"
@@ -4000,9 +4948,12 @@ cases:
     title: "Cox v. National Bank"
     volume: "100"
     page: "704"
+    docket: "184"
+    citation: "100 U.S. 704"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1880"
-    citation: "100 U.S. 704"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-144"
@@ -4010,9 +4961,12 @@ cases:
     title: "Imhaeuser v. Buerk"
     volume: "101"
     page: "647"
+    docket: "185"
+    citation: "101 U.S. 647"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1880"
-    citation: "101 U.S. 647"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-154"
@@ -4020,9 +4974,12 @@ cases:
     title: "Walden v. Skinner"
     volume: "101"
     page: "577"
+    docket: "176"
+    citation: "101 U.S. 577"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1880"
-    citation: "101 U.S. 577"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-165"
@@ -4030,9 +4987,12 @@ cases:
     title: "The &quot;Sabine&quot;"
     volume: "101"
     page: "384"
+    docket: "212"
+    citation: "101 U.S. 384"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1880"
-    citation: "101 U.S. 384"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-181"
@@ -4040,9 +5000,12 @@ cases:
     title: "Trenier v. Stewart"
     volume: "101"
     page: "797"
+    docket: "254"
+    citation: "101 U.S. 797"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1880"
-    citation: "101 U.S. 797"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-192"
@@ -4050,9 +5013,12 @@ cases:
     title: "Parks v. Booth"
     volume: "102"
     page: "096"
+    docket: "233"
+    citation: "102 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1880"
-    citation: "102 U.S. 96"
+    voteMajority: 8
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-201"
@@ -4060,9 +5026,12 @@ cases:
     title: "The &quot;City of Panama&quot;"
     volume: "101"
     page: "453"
+    docket: "266"
+    citation: "101 U.S. 453"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1880"
-    citation: "101 U.S. 453"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
   - id: "1879-212"
@@ -4070,9 +5039,12 @@ cases:
     title: "Howard v. Railway Co."
     volume: "101"
     page: "837"
+    docket: "288"
+    citation: "101 U.S. 837"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1880"
-    citation: "101 U.S. 837"
+    voteMajority: 9
+    voteMinority: 0
     authorId: nclifford
     authorName: "Nathan Clifford"
 ---

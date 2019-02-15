@@ -8,9 +8,12 @@ cases:
     title: "First Nat. Bank in Plant City v. Dickinson"
     volume: "396"
     page: "122"
+    docket: "19"
+    citation: "396 U.S. 122"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 9, 1969"
-    citation: "396 U.S. 122"
+    voteMajority: 6
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1969-037"
@@ -18,9 +21,12 @@ cases:
     title: "United States v. ICC"
     volume: "396"
     page: "491"
+    docket: "28"
+    citation: "396 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1970"
-    citation: "396 U.S. 491"
+    voteMajority: 7
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1969-070"
@@ -28,9 +34,12 @@ cases:
     title: "Waller v. Florida"
     volume: "397"
     page: "387"
+    docket: "24"
+    citation: "397 U.S. 387"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1970"
-    citation: "397 U.S. 387"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1969-082"
@@ -38,9 +47,12 @@ cases:
     title: "Tooahnippah v. Hickel"
     volume: "397"
     page: "598"
+    docket: "300"
+    citation: "397 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1970"
-    citation: "397 U.S. 598"
+    voteMajority: 7
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1969-087"
@@ -48,9 +60,12 @@ cases:
     title: "Walz v. Tax Comm&apos;n of City of New York"
     volume: "397"
     page: "664"
+    docket: "135"
+    citation: "397 U.S. 664"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1970"
-    citation: "397 U.S. 664"
+    voteMajority: 7
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1969-088"
@@ -58,9 +73,12 @@ cases:
     title: "Rowan v. Post Office Dept."
     volume: "397"
     page: "728"
+    docket: "399"
+    citation: "397 U.S. 728"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1970"
-    citation: "397 U.S. 728"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1969-096"
@@ -68,9 +86,12 @@ cases:
     title: "Dickey v. Florida"
     volume: "398"
     page: "030"
+    docket: "728"
+    citation: "398 U.S. 30"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1970"
-    citation: "398 U.S. 30"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1969-100"
@@ -78,9 +99,12 @@ cases:
     title: "Chandler v. Judicial Council of Tenth Circuit"
     volume: "398"
     page: "074"
+    docket: "2 Misc."
+    citation: "398 U.S. 74"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1970"
-    citation: "398 U.S. 74"
+    voteMajority: 5
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1969-110"
@@ -88,9 +112,12 @@ cases:
     title: "Price v. Georgia"
     volume: "398"
     page: "323"
+    docket: "269"
+    citation: "398 U.S. 323"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1970"
-    citation: "398 U.S. 323"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1969-127"
@@ -98,9 +125,12 @@ cases:
     title: "Nelson v. George"
     volume: "399"
     page: "224"
+    docket: "595"
+    citation: "399 U.S. 224"
     pdfSource: "loc"
     dateDecision: "Monday, June 29, 1970"
-    citation: "399 U.S. 224"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1969-128"
@@ -108,9 +138,12 @@ cases:
     title: "Williams v. Illinois"
     volume: "399"
     page: "235"
+    docket: "1089"
+    citation: "399 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Monday, June 29, 1970"
-    citation: "399 U.S. 235"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1970-044"
@@ -118,9 +151,12 @@ cases:
     title: "Harris v. New York"
     volume: "401"
     page: "222"
+    docket: "206"
+    citation: "401 U.S. 222"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 24, 1971"
-    citation: "401 U.S. 222"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1970-056"
@@ -128,9 +164,12 @@ cases:
     title: "Griggs v. Duke Power Co."
     volume: "401"
     page: "424"
+    docket: "124"
+    citation: "401 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1971"
-    citation: "401 U.S. 424"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1970-082"
@@ -138,9 +177,12 @@ cases:
     title: "Swann v. Charlotte-Mecklenburg Bd. of Ed."
     volume: "402"
     page: "001"
+    docket: "281"
+    citation: "402 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 20, 1971"
-    citation: "402 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1970-083"
@@ -148,9 +190,12 @@ cases:
     title: "Davis v. Board of School Comm&apos;rs of Mobile Cty."
     volume: "402"
     page: "033"
+    docket: "436"
+    citation: "402 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 20, 1971"
-    citation: "402 U.S. 33"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1970-084"
@@ -158,9 +203,12 @@ cases:
     title: "McDaniel v. Barresi"
     volume: "402"
     page: "039"
+    docket: "420"
+    citation: "402 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 20, 1971"
-    citation: "402 U.S. 39"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1970-085"
@@ -168,9 +216,12 @@ cases:
     title: "North Carolina Bd. of Ed. v. Swann"
     volume: "402"
     page: "043"
+    docket: "498"
+    citation: "402 U.S. 43"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 20, 1971"
-    citation: "402 U.S. 43"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1970-090"
@@ -178,9 +229,12 @@ cases:
     title: "California Dept. of Human Resources Development v. Java"
     volume: "402"
     page: "121"
+    docket: "507"
+    citation: "402 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1971"
-    citation: "402 U.S. 121"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1970-099"
@@ -188,9 +242,12 @@ cases:
     title: "Organization for a Better Austin v. Keefe"
     volume: "402"
     page: "415"
+    docket: "135"
+    citation: "402 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1971"
-    citation: "402 U.S. 415"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1970-100"
@@ -198,9 +255,12 @@ cases:
     title: "California v. Byers"
     volume: "402"
     page: "424"
+    docket: "75"
+    citation: "402 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1971"
-    citation: "402 U.S. 424"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1970-119"
@@ -208,9 +268,12 @@ cases:
     title: "Gordon v. Lance"
     volume: "403"
     page: "001"
+    docket: "96"
+    citation: "403 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1971"
-    citation: "403 U.S. 1"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1970-140"
@@ -218,9 +281,12 @@ cases:
     title: "United States v. Harris"
     volume: "403"
     page: "573"
+    docket: "30"
+    citation: "403 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Monday, June 28, 1971"
-    citation: "403 U.S. 573"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1970-141"
@@ -228,9 +294,12 @@ cases:
     title: "Lemon v. Kurtzman"
     volume: "403"
     page: "602"
+    docket: "89"
+    citation: "403 U.S. 602"
     pdfSource: "loc"
     dateDecision: "Monday, June 28, 1971"
-    citation: "403 U.S. 602"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1970-142"
@@ -238,9 +307,12 @@ cases:
     title: "Tilton v. Richardson"
     volume: "403"
     page: "672"
+    docket: "153"
+    citation: "403 U.S. 672"
     pdfSource: "loc"
     dateDecision: "Monday, June 28, 1971"
-    citation: "403 U.S. 672"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1971-014"
@@ -248,9 +320,12 @@ cases:
     title: "Reed v. Reed"
     volume: "404"
     page: "071"
+    docket: "70-4"
+    citation: "404 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, November 22, 1971"
-    citation: "404 U.S. 71"
+    voteMajority: 7
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1971-026"
@@ -258,9 +333,12 @@ cases:
     title: "Santobello v. New York"
     volume: "404"
     page: "257"
+    docket: "70-98"
+    citation: "404 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1971"
-    citation: "404 U.S. 257"
+    voteMajority: 4
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1971-040"
@@ -268,9 +346,12 @@ cases:
     title: "Groppi v. Leslie"
     volume: "404"
     page: "496"
+    docket: "70-112"
+    citation: "404 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Thursday, January 13, 1972"
-    citation: "404 U.S. 496"
+    voteMajority: 7
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1971-060"
@@ -278,9 +359,12 @@ cases:
     title: "Bullock v. Carter"
     volume: "405"
     page: "134"
+    docket: "70-128"
+    citation: "405 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Thursday, February 24, 1972"
-    citation: "405 U.S. 134"
+    voteMajority: 7
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1971-061"
@@ -288,9 +372,12 @@ cases:
     title: "Giglio v. United States"
     volume: "405"
     page: "150"
+    docket: "70-29"
+    citation: "405 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Thursday, February 24, 1972"
-    citation: "405 U.S. 150"
+    voteMajority: 7
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1971-089"
@@ -298,9 +385,12 @@ cases:
     title: "Cole v. Richardson"
     volume: "405"
     page: "676"
+    docket: "70-14"
+    citation: "405 U.S. 676"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 18, 1972"
-    citation: "405 U.S. 676"
+    voteMajority: 4
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1971-102"
@@ -308,9 +398,12 @@ cases:
     title: "Wisconsin v. Yoder"
     volume: "406"
     page: "205"
+    docket: "70-110"
+    citation: "406 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1972"
-    citation: "406 U.S. 205"
+    voteMajority: 7
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1971-133"
@@ -318,9 +411,12 @@ cases:
     title: "The Bremen v. Zapata Off-Shore Co."
     volume: "407"
     page: "001"
+    docket: "71-322"
+    citation: "407 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1972"
-    citation: "407 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1971-151"
@@ -328,9 +424,12 @@ cases:
     title: "Milton v. Wainwright"
     volume: "407"
     page: "371"
+    docket: "70-5012"
+    citation: "407 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Thursday, June 22, 1972"
-    citation: "407 U.S. 371"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1971-159"
@@ -338,9 +437,12 @@ cases:
     title: "Laird v. Tatum"
     volume: "408"
     page: "001"
+    docket: "71-288"
+    citation: "408 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 26, 1972"
-    citation: "408 U.S. 1"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1971-171"
@@ -348,9 +450,12 @@ cases:
     title: "Morrissey v. Brewer"
     volume: "408"
     page: "471"
+    docket: "71-5103"
+    citation: "408 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Thursday, June 29, 1972"
-    citation: "408 U.S. 471"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1971-172"
@@ -358,9 +463,12 @@ cases:
     title: "United States v. Brewster"
     volume: "408"
     page: "501"
+    docket: "70-45"
+    citation: "408 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Thursday, June 29, 1972"
-    citation: "408 U.S. 501"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-030"
@@ -368,9 +476,12 @@ cases:
     title: "Bronston v. United States"
     volume: "409"
     page: "352"
+    docket: "71-1011"
+    citation: "409 U.S. 352"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 10, 1973"
-    citation: "409 U.S. 352"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-089"
@@ -378,9 +489,12 @@ cases:
     title: "Lemon v. Kurtzman"
     volume: "411"
     page: "192"
+    docket: "71-1470"
+    citation: "411 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1973"
-    citation: "411 U.S. 192"
+    voteMajority: 5
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-092"
@@ -388,9 +502,12 @@ cases:
     title: "Brown v. United States"
     volume: "411"
     page: "223"
+    docket: "71-6193"
+    citation: "411 U.S. 223"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 17, 1973"
-    citation: "411 U.S. 223"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-098"
@@ -398,9 +515,12 @@ cases:
     title: "Mourning v. Family Publications Service, Inc."
     volume: "411"
     page: "356"
+    docket: "71-829"
+    citation: "411 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 24, 1973"
-    citation: "411 U.S. 356"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-102"
@@ -408,9 +528,12 @@ cases:
     title: "Brown v. Chote"
     volume: "411"
     page: "452"
+    docket: "71-1583"
+    citation: "411 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1973"
-    citation: "411 U.S. 452"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-125"
@@ -418,9 +541,12 @@ cases:
     title: "Columbia Broadcasting System, Inc. v. Democratic National Committee"
     volume: "412"
     page: "094"
+    docket: "71-863"
+    citation: "412 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 29, 1973"
-    citation: "412 U.S. 94"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-136"
@@ -428,9 +554,12 @@ cases:
     title: "Strunk v. United States"
     volume: "412"
     page: "434"
+    docket: "72-5521"
+    citation: "412 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1973"
-    citation: "412 U.S. 434"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-145"
@@ -438,9 +567,12 @@ cases:
     title: "Goldstein v. California"
     volume: "412"
     page: "546"
+    docket: "71-1192"
+    citation: "412 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1973"
-    citation: "412 U.S. 546"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-146"
@@ -448,9 +580,12 @@ cases:
     title: "United States v. Little Lake Misere Land Co."
     volume: "412"
     page: "580"
+    docket: "71-1459"
+    citation: "412 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1973"
-    citation: "412 U.S. 580"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-157"
@@ -458,9 +593,12 @@ cases:
     title: "Gilligan v. Morgan"
     volume: "413"
     page: "001"
+    docket: "71-1553"
+    citation: "413 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Thursday, June 21, 1973"
-    citation: "413 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-158"
@@ -468,9 +606,12 @@ cases:
     title: "Miller v. California"
     volume: "413"
     page: "015"
+    docket: "70-73"
+    citation: "413 U.S. 15"
     pdfSource: "loc"
     dateDecision: "Thursday, June 21, 1973"
-    citation: "413 U.S. 15"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-159"
@@ -478,9 +619,12 @@ cases:
     title: "Paris Adult Theatre I v. Slaton"
     volume: "413"
     page: "049"
+    docket: "71-1051"
+    citation: "413 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Thursday, June 21, 1973"
-    citation: "413 U.S. 49"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-160"
@@ -488,9 +632,12 @@ cases:
     title: "Kaplan v. California"
     volume: "413"
     page: "115"
+    docket: "71-1422"
+    citation: "413 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Thursday, June 21, 1973"
-    citation: "413 U.S. 115"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-161"
@@ -498,9 +645,12 @@ cases:
     title: "United States v. 12 200-ft. Reels of Super 8MM. Film"
     volume: "413"
     page: "123"
+    docket: "70-2"
+    citation: "413 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Thursday, June 21, 1973"
-    citation: "413 U.S. 123"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-162"
@@ -508,9 +658,12 @@ cases:
     title: "United States v. Orito"
     volume: "413"
     page: "139"
+    docket: "70-69"
+    citation: "413 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Thursday, June 21, 1973"
-    citation: "413 U.S. 139"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-171"
@@ -518,9 +671,12 @@ cases:
     title: "Norwood v. Harrison"
     volume: "413"
     page: "455"
+    docket: "72-77"
+    citation: "413 U.S. 455"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1973"
-    citation: "413 U.S. 455"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-172"
@@ -528,9 +684,12 @@ cases:
     title: "Levitt v. Committee for Public Ed. &amp; Religious Liberty"
     volume: "413"
     page: "472"
+    docket: "72-269"
+    citation: "413 U.S. 472"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1973"
-    citation: "413 U.S. 472"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-173"
@@ -538,9 +697,12 @@ cases:
     title: "Heller v. New York"
     volume: "413"
     page: "483"
+    docket: "71-1043"
+    citation: "413 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1973"
-    citation: "413 U.S. 483"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1972-174"
@@ -548,9 +710,12 @@ cases:
     title: "Roaden v. Kentucky"
     volume: "413"
     page: "496"
+    docket: "71-1134"
+    citation: "413 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1973"
-    citation: "413 U.S. 496"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-032"
@@ -558,9 +723,12 @@ cases:
     title: "Marshall v. United States"
     volume: "414"
     page: "417"
+    docket: "72-5881"
+    citation: "414 U.S. 417"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 9, 1974"
-    citation: "414 U.S. 417"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-039"
@@ -568,9 +736,12 @@ cases:
     title: "O&apos;Brien v. Skinner"
     volume: "414"
     page: "524"
+    docket: "72-1058"
+    citation: "414 U.S. 524"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 16, 1974"
-    citation: "414 U.S. 524"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-062"
@@ -578,9 +749,12 @@ cases:
     title: "Davis v. Alaska"
     volume: "415"
     page: "308"
+    docket: "72-5794"
+    citation: "415 U.S. 308"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 27, 1974"
-    citation: "415 U.S. 308"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-079"
@@ -588,9 +762,12 @@ cases:
     title: "Lubin v. Panish"
     volume: "415"
     page: "709"
+    docket: "71-6852"
+    citation: "415 U.S. 709"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 26, 1974"
-    citation: "415 U.S. 709"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-089"
@@ -598,9 +775,12 @@ cases:
     title: "Scheuer v. Rhodes"
     volume: "416"
     page: "232"
+    docket: "72-914"
+    citation: "416 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 17, 1974"
-    citation: "416 U.S. 232"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-098"
@@ -608,9 +788,12 @@ cases:
     title: "Kewanee Oil Co. v. Bicron Corp."
     volume: "416"
     page: "470"
+    docket: "73-187"
+    citation: "416 U.S. 470"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1974"
-    citation: "416 U.S. 470"
+    voteMajority: 6
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-144"
@@ -618,9 +801,12 @@ cases:
     title: "Jimenez v. Weinberger"
     volume: "417"
     page: "628"
+    docket: "72-6609"
+    citation: "417 U.S. 628"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 19, 1974"
-    citation: "417 U.S. 628"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-145"
@@ -628,9 +814,12 @@ cases:
     title: "Kokoszka v. Belford"
     volume: "417"
     page: "642"
+    docket: "73-5265"
+    citation: "417 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 19, 1974"
-    citation: "417 U.S. 642"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-157"
@@ -638,9 +827,12 @@ cases:
     title: "United States v. Richardson"
     volume: "418"
     page: "166"
+    docket: "72-885"
+    citation: "418 U.S. 166"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 25, 1974"
-    citation: "418 U.S. 166"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-158"
@@ -648,9 +840,12 @@ cases:
     title: "Schlesinger v. Reservists Comm. to Stop the War"
     volume: "418"
     page: "208"
+    docket: "72-1188"
+    citation: "418 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 25, 1974"
-    citation: "418 U.S. 208"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-159"
@@ -658,9 +853,12 @@ cases:
     title: "Miami Herald Publishing Co. v. Tornillo"
     volume: "418"
     page: "241"
+    docket: "73-797"
+    citation: "418 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 25, 1974"
-    citation: "418 U.S. 241"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-164"
@@ -668,9 +866,12 @@ cases:
     title: "Dorszynski v. United States"
     volume: "418"
     page: "424"
+    docket: "73-5284"
+    citation: "418 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 26, 1974"
-    citation: "418 U.S. 424"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-172"
@@ -678,9 +879,12 @@ cases:
     title: "United States v. Nixon"
     volume: "418"
     page: "683"
+    docket: "73-1766"
+    citation: "418 U.S. 683"
     pdfSource: "loc"
     dateDecision: "Wednesday, July 24, 1974"
-    citation: "418 U.S. 683"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1973-173"
@@ -688,9 +892,12 @@ cases:
     title: "Milliken v. Bradley"
     volume: "418"
     page: "717"
+    docket: "73-434"
+    citation: "418 U.S. 717"
     pdfSource: "loc"
     dateDecision: "Thursday, July 25, 1974"
-    citation: "418 U.S. 717"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-013"
@@ -698,9 +905,12 @@ cases:
     title: "Schick v. Reed"
     volume: "419"
     page: "256"
+    docket: "73-5677"
+    citation: "419 U.S. 256"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1974"
-    citation: "419 U.S. 256"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-022"
@@ -708,9 +918,12 @@ cases:
     title: "Maness v. Meyers"
     volume: "419"
     page: "449"
+    docket: "73-689"
+    citation: "419 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 15, 1975"
-    citation: "419 U.S. 449"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-041"
@@ -718,9 +931,12 @@ cases:
     title: "United States v. Bisceglia"
     volume: "420"
     page: "141"
+    docket: "73-1245"
+    citation: "420 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1975"
-    citation: "420 U.S. 141"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-042"
@@ -728,9 +944,12 @@ cases:
     title: "Drope v. Missouri"
     volume: "420"
     page: "162"
+    docket: "73-6038"
+    citation: "420 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1975"
-    citation: "420 U.S. 162"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-056"
@@ -738,9 +957,12 @@ cases:
     title: "Serfass v. United States"
     volume: "420"
     page: "377"
+    docket: "73-1424"
+    citation: "420 U.S. 377"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1975"
-    citation: "420 U.S. 377"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-093"
@@ -748,9 +970,12 @@ cases:
     title: "United States v. Wilson"
     volume: "421"
     page: "309"
+    docket: "73-1162"
+    citation: "421 U.S. 309"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1975"
-    citation: "421 U.S. 309"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-104"
@@ -758,9 +983,12 @@ cases:
     title: "Eastland v. United States Servicemen&apos;s Fund"
     volume: "421"
     page: "491"
+    docket: "73-1923"
+    citation: "421 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 27, 1975"
-    citation: "421 U.S. 491"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-105"
@@ -768,9 +996,12 @@ cases:
     title: "Breed v. Jones"
     volume: "421"
     page: "519"
+    docket: "73-1995"
+    citation: "421 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 27, 1975"
-    citation: "421 U.S. 519"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-111"
@@ -778,9 +1009,12 @@ cases:
     title: "United States v. Park"
     volume: "421"
     page: "658"
+    docket: "74-215"
+    citation: "421 U.S. 658"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1975"
-    citation: "421 U.S. 658"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-116"
@@ -788,9 +1022,12 @@ cases:
     title: "Goldfarb v. Virginia State Bar"
     volume: "421"
     page: "773"
+    docket: "74-70"
+    citation: "421 U.S. 773"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1975"
-    citation: "421 U.S. 773"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-122"
@@ -798,9 +1035,12 @@ cases:
     title: "Rogers v. United States"
     volume: "422"
     page: "035"
+    docket: "73-6336"
+    citation: "422 U.S. 35"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 17, 1975"
-    citation: "422 U.S. 35"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-123"
@@ -808,9 +1048,12 @@ cases:
     title: "Rondeau v. Mosinee Paper Corp."
     volume: "422"
     page: "049"
+    docket: "74-415"
+    citation: "422 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 17, 1975"
-    citation: "422 U.S. 49"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-131"
@@ -818,9 +1061,12 @@ cases:
     title: "Administrator, Federal Aviation Administration v. Robertson"
     volume: "422"
     page: "255"
+    docket: "74-450"
+    citation: "422 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 24, 1975"
-    citation: "422 U.S. 255"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1974-137"
@@ -828,9 +1074,12 @@ cases:
     title: "Preiser v. Newkirk"
     volume: "422"
     page: "395"
+    docket: "74-107"
+    citation: "422 U.S. 395"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 25, 1975"
-    citation: "422 U.S. 395"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-014"
@@ -838,9 +1087,12 @@ cases:
     title: "United States v. Moore"
     volume: "423"
     page: "077"
+    docket: "74-687"
+    citation: "423 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 2, 1975"
-    citation: "423 U.S. 77"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-023"
@@ -848,9 +1100,12 @@ cases:
     title: "Mathews v. Weber"
     volume: "423"
     page: "261"
+    docket: "74-850"
+    citation: "423 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 14, 1976"
-    citation: "423 U.S. 261"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-030"
@@ -858,9 +1113,12 @@ cases:
     title: "National Independent Coal Operators&apos; Assn. v. Kleppe"
     volume: "423"
     page: "388"
+    docket: "73-2066"
+    citation: "423 U.S. 388"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1976"
-    citation: "423 U.S. 388"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-031"
@@ -868,9 +1126,12 @@ cases:
     title: "Kleppe v. Delta Mining, Inc."
     volume: "423"
     page: "403"
+    docket: "74-521"
+    citation: "423 U.S. 403"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1976"
-    citation: "423 U.S. 403"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-064"
@@ -878,9 +1139,12 @@ cases:
     title: "Geders v. United States"
     volume: "425"
     page: "080"
+    docket: "74-5968"
+    citation: "425 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 30, 1976"
-    citation: "425 U.S. 80"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-078"
@@ -888,9 +1152,12 @@ cases:
     title: "Beckwith v. United States"
     volume: "425"
     page: "341"
+    docket: "74-1243"
+    citation: "425 U.S. 341"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 21, 1976"
-    citation: "425 U.S. 341"
+    voteMajority: 7
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-086"
@@ -898,9 +1165,12 @@ cases:
     title: "Estelle v. Williams"
     volume: "425"
     page: "501"
+    docket: "74-676"
+    citation: "425 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1976"
-    citation: "425 U.S. 501"
+    voteMajority: 6
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-090"
@@ -908,9 +1178,12 @@ cases:
     title: "United States v. Mandujano"
     volume: "425"
     page: "564"
+    docket: "74-754"
+    citation: "425 U.S. 564"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 19, 1976"
-    citation: "425 U.S. 564"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-091"
@@ -918,9 +1191,12 @@ cases:
     title: "Hynes v. Mayor and Council of Oradell"
     volume: "425"
     page: "610"
+    docket: "74-1329"
+    citation: "425 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 19, 1976"
-    citation: "425 U.S. 610"
+    voteMajority: 7
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-102"
@@ -928,9 +1204,12 @@ cases:
     title: "United States v. Orleans"
     volume: "425"
     page: "807"
+    docket: "75-328"
+    citation: "425 U.S. 807"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1976"
-    citation: "425 U.S. 807"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-109"
@@ -938,9 +1217,12 @@ cases:
     title: "Cappaert v. United States"
     volume: "426"
     page: "128"
+    docket: "74-1107"
+    citation: "426 U.S. 128"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1976"
-    citation: "426 U.S. 128"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-130"
@@ -948,9 +1230,12 @@ cases:
     title: "Hortonville Joint School Dist. No. 1 v. Hortonville Ed. Assn."
     volume: "426"
     page: "482"
+    docket: "74-1606"
+    citation: "426 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Thursday, June 17, 1976"
-    citation: "426 U.S. 482"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-131"
@@ -958,9 +1243,12 @@ cases:
     title: "United States v. Chesapeake &amp; Ohio R. Co."
     volume: "426"
     page: "500"
+    docket: "75-420"
+    citation: "426 U.S. 500"
     pdfSource: "loc"
     dateDecision: "Thursday, June 17, 1976"
-    citation: "426 U.S. 500"
+    voteMajority: 6
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-138"
@@ -968,9 +1256,12 @@ cases:
     title: "Eastlake v. Forest City Enterprises, Inc."
     volume: "426"
     page: "668"
+    docket: "74-1563"
+    citation: "426 U.S. 668"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1976"
-    citation: "426 U.S. 668"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-157"
@@ -978,9 +1269,12 @@ cases:
     title: "North v. Russell"
     volume: "427"
     page: "328"
+    docket: "74-1409"
+    citation: "427 U.S. 328"
     pdfSource: "loc"
     dateDecision: "Friday, June 25, 1976"
-    citation: "427 U.S. 328"
+    voteMajority: 6
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-166"
@@ -988,9 +1282,12 @@ cases:
     title: "Nebraska Press Assn. v. Stuart"
     volume: "427"
     page: "539"
+    docket: "75-817"
+    citation: "427 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 30, 1976"
-    citation: "427 U.S. 539"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1975-178"
@@ -998,9 +1295,12 @@ cases:
     title: "South Dakota v. Opperman"
     volume: "428"
     page: "364"
+    docket: "75-76"
+    citation: "428 U.S. 364"
     pdfSource: "loc"
     dateDecision: "Tuesday, July 6, 1976"
-    citation: "428 U.S. 364"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-015"
@@ -1008,9 +1308,12 @@ cases:
     title: "Moody v. Daggett"
     volume: "429"
     page: "078"
+    docket: "74-6632"
+    citation: "429 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1976"
-    citation: "429 U.S. 78"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-023"
@@ -1018,9 +1321,12 @@ cases:
     title: "Madison Joint School Dist. No. 8 v. Wisconsin Employment Relations Comm&apos;n"
     volume: "429"
     page: "167"
+    docket: "75-946"
+    citation: "429 U.S. 167"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 8, 1976"
-    citation: "429 U.S. 167"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-053"
@@ -1028,9 +1334,12 @@ cases:
     title: "Piper v. Chris-Craft Industries, Inc."
     volume: "430"
     page: "001"
+    docket: "75-353"
+    citation: "430 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 23, 1977"
-    citation: "430 U.S. 1"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-062"
@@ -1038,9 +1347,12 @@ cases:
     title: "Nolde Brothers, Inc. v. Bakery Workers"
     volume: "430"
     page: "243"
+    docket: "75-1198"
+    citation: "430 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1977"
-    citation: "430 U.S. 243"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-084"
@@ -1048,9 +1360,12 @@ cases:
     title: "United States v. Antelope"
     volume: "430"
     page: "641"
+    docket: "75-661"
+    citation: "430 U.S. 641"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 19, 1977"
-    citation: "430 U.S. 641"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-088"
@@ -1058,9 +1373,12 @@ cases:
     title: "Wooley v. Maynard"
     volume: "430"
     page: "705"
+    docket: "75-1453"
+    citation: "430 U.S. 705"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 20, 1977"
-    citation: "430 U.S. 705"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-105"
@@ -1068,9 +1386,12 @@ cases:
     title: "United States v. Wong"
     volume: "431"
     page: "174"
+    docket: "74-635"
+    citation: "431 U.S. 174"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1977"
-    citation: "431 U.S. 174"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-106"
@@ -1078,9 +1399,12 @@ cases:
     title: "United States v. Washington"
     volume: "431"
     page: "181"
+    docket: "74-1106"
+    citation: "431 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1977"
-    citation: "431 U.S. 181"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-124"
@@ -1088,9 +1412,12 @@ cases:
     title: "Abney v. United States"
     volume: "431"
     page: "651"
+    docket: "75-6521"
+    citation: "431 U.S. 651"
     pdfSource: "loc"
     dateDecision: "Thursday, June 9, 1977"
-    citation: "431 U.S. 651"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-125"
@@ -1098,9 +1425,12 @@ cases:
     title: "Stencel Aero Engineering Corp. v. United States"
     volume: "431"
     page: "666"
+    docket: "76-321"
+    citation: "431 U.S. 666"
     pdfSource: "loc"
     dateDecision: "Thursday, June 9, 1977"
-    citation: "431 U.S. 666"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-130"
@@ -1108,9 +1438,12 @@ cases:
     title: "Lefkowitz v. Cunningham"
     volume: "431"
     page: "801"
+    docket: "76-260"
+    citation: "431 U.S. 801"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1977"
-    citation: "431 U.S. 801"
+    voteMajority: 7
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-137"
@@ -1118,9 +1451,12 @@ cases:
     title: "E. I. du Pont de Nemours &amp; Co. v. Collins"
     volume: "432"
     page: "046"
+    docket: "75-1870"
+    citation: "432 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Thursday, June 16, 1977"
-    citation: "432 U.S. 46"
+    voteMajority: 7
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-149"
@@ -1128,9 +1464,12 @@ cases:
     title: "Hunt v. Washington State Apple Advertising Comm&apos;n"
     volume: "432"
     page: "333"
+    docket: "76-63"
+    citation: "432 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1977"
-    citation: "432 U.S. 333"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-159"
@@ -1138,9 +1477,12 @@ cases:
     title: "United States v. Chadwick"
     volume: "433"
     page: "001"
+    docket: "75-1721"
+    citation: "433 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 21, 1977"
-    citation: "433 U.S. 1"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1976-171"
@@ -1148,9 +1490,12 @@ cases:
     title: "Milliken v. Bradley"
     volume: "433"
     page: "267"
+    docket: "76-447"
+    citation: "433 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Monday, June 27, 1977"
-    citation: "433 U.S. 267"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-017"
@@ -1158,9 +1503,12 @@ cases:
     title: "United Air Lines, Inc. v. McMann"
     volume: "434"
     page: "192"
+    docket: "76-906"
+    citation: "434 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1977"
-    citation: "434 U.S. 192"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-053"
@@ -1168,9 +1516,12 @@ cases:
     title: "Foley v. Connelie"
     volume: "435"
     page: "291"
+    docket: "76-839"
+    citation: "435 U.S. 291"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 22, 1978"
-    citation: "435 U.S. 291"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-061"
@@ -1178,9 +1529,12 @@ cases:
     title: "Holloway v. Arkansas"
     volume: "435"
     page: "475"
+    docket: "76-5856"
+    citation: "435 U.S. 475"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1978"
-    citation: "435 U.S. 475"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-067"
@@ -1188,9 +1542,12 @@ cases:
     title: "McDaniel v. Paty"
     volume: "435"
     page: "618"
+    docket: "76-1427"
+    citation: "435 U.S. 618"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 19, 1978"
-    citation: "435 U.S. 618"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-074"
@@ -1198,9 +1555,12 @@ cases:
     title: "Landmark Communications, Inc. v. Virginia"
     volume: "435"
     page: "829"
+    docket: "76-1450"
+    citation: "435 U.S. 829"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1978"
-    citation: "435 U.S. 829"
+    voteMajority: 7
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-087"
@@ -1208,9 +1568,12 @@ cases:
     title: "Pinkus v. United States"
     volume: "436"
     page: "293"
+    docket: "77-39"
+    citation: "436 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 23, 1978"
-    citation: "436 U.S. 293"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-109"
@@ -1218,9 +1581,12 @@ cases:
     title: "Burks v. United States"
     volume: "437"
     page: "001"
+    docket: "76-6528"
+    citation: "437 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 14, 1978"
-    citation: "437 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-110"
@@ -1228,9 +1594,12 @@ cases:
     title: "Greene v. Massey"
     volume: "437"
     page: "019"
+    docket: "76-6617"
+    citation: "437 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 14, 1978"
-    citation: "437 U.S. 19"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-115"
@@ -1238,9 +1607,12 @@ cases:
     title: "TVA v. Hill"
     volume: "437"
     page: "153"
+    docket: "76-1701"
+    citation: "437 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Thursday, June 15, 1978"
-    citation: "437 U.S. 153"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-138"
@@ -1248,9 +1620,12 @@ cases:
     title: "Houchins v. KQED, Inc."
     volume: "438"
     page: "001"
+    docket: "76-1310"
+    citation: "438 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 26, 1978"
-    citation: "438 U.S. 1"
+    voteMajority: 4
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-139"
@@ -1258,9 +1633,12 @@ cases:
     title: "United States v. Grayson"
     volume: "438"
     page: "041"
+    docket: "76-1572"
+    citation: "438 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, June 26, 1978"
-    citation: "438 U.S. 41"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-140"
@@ -1268,9 +1646,12 @@ cases:
     title: "Duke Power Co. v. Carolina Environmental Study Group, Inc."
     volume: "438"
     page: "059"
+    docket: "77-262"
+    citation: "438 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Monday, June 26, 1978"
-    citation: "438 U.S. 59"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-145"
@@ -1278,9 +1659,12 @@ cases:
     title: "Swisher v. Brady"
     volume: "438"
     page: "204"
+    docket: "77-653"
+    citation: "438 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, June 26, 1978"
-    citation: "438 U.S. 204"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-149"
@@ -1288,9 +1672,12 @@ cases:
     title: "United States v. United States Gypsum Co."
     volume: "438"
     page: "422"
+    docket: "76-1560"
+    citation: "438 U.S. 422"
     pdfSource: "loc"
     dateDecision: "Thursday, June 29, 1978"
-    citation: "438 U.S. 422"
+    voteMajority: 7
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-153"
@@ -1298,9 +1685,12 @@ cases:
     title: "Lockett v. Ohio"
     volume: "438"
     page: "586"
+    docket: "76-6997"
+    citation: "438 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Monday, July 3, 1978"
-    citation: "438 U.S. 586"
+    voteMajority: 7
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1977-154"
@@ -1308,9 +1698,12 @@ cases:
     title: "Bell v. Ohio"
     volume: "438"
     page: "637"
+    docket: "76-6513"
+    citation: "438 U.S. 637"
     pdfSource: "loc"
     dateDecision: "Monday, July 3, 1978"
-    citation: "438 U.S. 637"
+    voteMajority: 7
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-019"
@@ -1318,9 +1711,12 @@ cases:
     title: "Michigan v. Doran"
     volume: "439"
     page: "282"
+    docket: "77-1202"
+    citation: "439 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1978"
-    citation: "439 U.S. 282"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-048"
@@ -1328,9 +1724,12 @@ cases:
     title: "Aronson v. Quick Point Pencil Co."
     volume: "440"
     page: "257"
+    docket: "77-1413"
+    citation: "440 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 28, 1979"
-    citation: "440 U.S. 257"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-060"
@@ -1338,9 +1737,12 @@ cases:
     title: "NLRB v. Catholic Bishop of Chicago"
     volume: "440"
     page: "490"
+    docket: "77-752"
+    citation: "440 U.S. 490"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 21, 1979"
-    citation: "440 U.S. 490"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-084"
@@ -1348,9 +1750,12 @@ cases:
     title: "Addington v. Texas"
     volume: "441"
     page: "418"
+    docket: "77-5992"
+    citation: "441 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1979"
-    citation: "441 U.S. 418"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-100"
@@ -1358,9 +1763,12 @@ cases:
     title: "Greenholtz v. Inmates of Neb. Penal and Correctional Complex"
     volume: "442"
     page: "001"
+    docket: "78-201"
+    citation: "442 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 29, 1979"
-    citation: "442 U.S. 1"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-115"
@@ -1368,9 +1776,12 @@ cases:
     title: "Lo-Ji Sales, Inc. v. New York"
     volume: "442"
     page: "319"
+    docket: "78-511"
+    citation: "442 U.S. 319"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1979"
-    citation: "442 U.S. 319"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-116"
@@ -1378,9 +1789,12 @@ cases:
     title: "Reiter v. Sonotone Corp."
     volume: "442"
     page: "330"
+    docket: "78-690"
+    citation: "442 U.S. 330"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1979"
-    citation: "442 U.S. 330"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-122"
@@ -1388,9 +1802,12 @@ cases:
     title: "Torres v. Puerto Rico"
     volume: "442"
     page: "465"
+    docket: "77-1609"
+    citation: "442 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1979"
-    citation: "442 U.S. 465"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-123"
@@ -1398,9 +1815,12 @@ cases:
     title: "United States v. Helstoski"
     volume: "442"
     page: "477"
+    docket: "78-349"
+    citation: "442 U.S. 477"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1979"
-    citation: "442 U.S. 477"
+    voteMajority: 6
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-124"
@@ -1408,9 +1828,12 @@ cases:
     title: "Helstoski v. Meanor"
     volume: "442"
     page: "500"
+    docket: "78-546"
+    citation: "442 U.S. 500"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1979"
-    citation: "442 U.S. 500"
+    voteMajority: 7
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-129"
@@ -1418,9 +1841,12 @@ cases:
     title: "Parham v. J. R."
     volume: "442"
     page: "584"
+    docket: "75-1690"
+    citation: "442 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 20, 1979"
-    citation: "442 U.S. 584"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-130"
@@ -1428,9 +1854,12 @@ cases:
     title: "Secretary of Public Welfare of Pa. v. Institutionalized Juveniles"
     volume: "442"
     page: "640"
+    docket: "77-1715"
+    citation: "442 U.S. 640"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 20, 1979"
-    citation: "442 U.S. 640"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-137"
@@ -1438,9 +1867,12 @@ cases:
     title: "Mackey v. Montrym"
     volume: "443"
     page: "001"
+    docket: "77-69"
+    citation: "443 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1979"
-    citation: "443 U.S. 1"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-138"
@@ -1448,9 +1880,12 @@ cases:
     title: "Michigan v. DeFillippo"
     volume: "443"
     page: "031"
+    docket: "77-1680"
+    citation: "443 U.S. 31"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1979"
-    citation: "443 U.S. 31"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-139"
@@ -1458,9 +1893,12 @@ cases:
     title: "Brown v. Texas"
     volume: "443"
     page: "047"
+    docket: "77-6673"
+    citation: "443 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1979"
-    citation: "443 U.S. 47"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-142"
@@ -1468,9 +1906,12 @@ cases:
     title: "Smith v. Daily Mail Publishing Co."
     volume: "443"
     page: "097"
+    docket: "78-482"
+    citation: "443 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 26, 1979"
-    citation: "443 U.S. 97"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1978-143"
@@ -1478,9 +1919,12 @@ cases:
     title: "Hutchinson v. Proxmire"
     volume: "443"
     page: "111"
+    docket: "78-680"
+    citation: "443 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 26, 1979"
-    citation: "443 U.S. 111"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-004"
@@ -1488,9 +1932,12 @@ cases:
     title: "Perrin v. United States"
     volume: "444"
     page: "037"
+    docket: "78-959"
+    citation: "444 U.S. 37"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 27, 1979"
-    citation: "444 U.S. 37"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-015"
@@ -1498,9 +1945,12 @@ cases:
     title: "McLain v. Real Estate Bd. of New Orleans, Inc."
     volume: "444"
     page: "232"
+    docket: "78-1501"
+    citation: "444 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 8, 1980"
-    citation: "444 U.S. 232"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-033"
@@ -1508,9 +1958,12 @@ cases:
     title: "Stafford v. Briggs"
     volume: "444"
     page: "527"
+    docket: "77-1546"
+    citation: "444 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 20, 1980"
-    citation: "444 U.S. 527"
+    voteMajority: 5
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-044"
@@ -1518,9 +1971,12 @@ cases:
     title: "Trammel v. United States"
     volume: "445"
     page: "040"
+    docket: "78-5705"
+    citation: "445 U.S. 40"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 27, 1980"
-    citation: "445 U.S. 40"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-057"
@@ -1528,9 +1984,12 @@ cases:
     title: "Deposit Guaranty Nat. Bank v. Roper"
     volume: "445"
     page: "326"
+    docket: "78-904"
+    citation: "445 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 19, 1980"
-    citation: "445 U.S. 326"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-058"
@@ -1538,9 +1997,12 @@ cases:
     title: "United States v. Gillock"
     volume: "445"
     page: "360"
+    docket: "78-1455"
+    citation: "445 U.S. 360"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 19, 1980"
-    citation: "445 U.S. 360"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-071"
@@ -1548,9 +2010,12 @@ cases:
     title: "Curtiss-Wright Corp. v. General Elec. Co."
     volume: "446"
     page: "001"
+    docket: "79-105"
+    citation: "446 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 22, 1980"
-    citation: "446 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-098"
@@ -1558,9 +2023,12 @@ cases:
     title: "Andrus v. Shell Oil Co."
     volume: "446"
     page: "657"
+    docket: "78-1815"
+    citation: "446 U.S. 657"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1980"
-    citation: "446 U.S. 657"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-103"
@@ -1568,9 +2036,12 @@ cases:
     title: "United States v. California"
     volume: "447"
     page: "001"
+    docket: "5 Orig."
+    citation: "447 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1980"
-    citation: "447 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-104"
@@ -1578,9 +2049,12 @@ cases:
     title: "Standefer v. United States"
     volume: "447"
     page: "010"
+    docket: "79-383"
+    citation: "447 U.S. 10"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1980"
-    citation: "447 U.S. 10"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-115"
@@ -1588,9 +2062,12 @@ cases:
     title: "United States v. Henry"
     volume: "447"
     page: "264"
+    docket: "79-121"
+    citation: "447 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1980"
-    citation: "447 U.S. 264"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-116"
@@ -1598,9 +2075,12 @@ cases:
     title: "Diamond v. Chakrabarty"
     volume: "447"
     page: "303"
+    docket: "79-136"
+    citation: "447 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1980"
-    citation: "447 U.S. 303"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-131"
@@ -1608,9 +2088,12 @@ cases:
     title: "United States v. Raddatz"
     volume: "447"
     page: "667"
+    docket: "79-8"
+    citation: "447 U.S. 667"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1980"
-    citation: "447 U.S. 667"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-153"
@@ -1618,9 +2101,12 @@ cases:
     title: "Fullilove v. Klutznick"
     volume: "448"
     page: "448"
+    docket: "78-1007"
+    citation: "448 U.S. 448"
     pdfSource: "loc"
     dateDecision: "Wednesday, July 2, 1980"
-    citation: "448 U.S. 448"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1979-154"
@@ -1628,9 +2114,12 @@ cases:
     title: "Richmond Newspapers, Inc. v. Virginia"
     volume: "448"
     page: "555"
+    docket: "79-243"
+    citation: "448 U.S. 555"
     pdfSource: "loc"
     dateDecision: "Wednesday, July 2, 1980"
-    citation: "448 U.S. 555"
+    voteMajority: 7
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1980-015"
@@ -1638,9 +2127,12 @@ cases:
     title: "United States v. Will"
     volume: "449"
     page: "200"
+    docket: "79-983"
+    citation: "449 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1980"
-    citation: "449 U.S. 200"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1980-027"
@@ -1648,9 +2140,12 @@ cases:
     title: "United States v. Cortez"
     volume: "449"
     page: "411"
+    docket: "79-404"
+    citation: "449 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 21, 1981"
-    citation: "449 U.S. 411"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1980-028"
@@ -1658,9 +2153,12 @@ cases:
     title: "Rubin v. United States"
     volume: "449"
     page: "424"
+    docket: "79-1013"
+    citation: "449 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 21, 1981"
-    citation: "449 U.S. 424"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1980-033"
@@ -1668,9 +2166,12 @@ cases:
     title: "Chandler v. Florida"
     volume: "449"
     page: "560"
+    docket: "79-1260"
+    citation: "449 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1981"
-    citation: "449 U.S. 560"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1980-057"
@@ -1678,9 +2179,12 @@ cases:
     title: "H. L. v. Matheson"
     volume: "450"
     page: "398"
+    docket: "79-5903"
+    citation: "450 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1981"
-    citation: "450 U.S. 398"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1980-065"
@@ -1688,9 +2192,12 @@ cases:
     title: "Thomas v. Review Bd. of Indiana Employment Security Div."
     volume: "450"
     page: "707"
+    docket: "79-952"
+    citation: "450 U.S. 707"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1981"
-    citation: "450 U.S. 707"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1980-085"
@@ -1698,9 +2205,12 @@ cases:
     title: "Estelle v. Smith"
     volume: "451"
     page: "454"
+    docket: "79-1127"
+    citation: "451 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1981"
-    citation: "451 U.S. 454"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1980-095"
@@ -1708,9 +2218,12 @@ cases:
     title: "Texas Industries, Inc. v. Radcliff Materials, Inc."
     volume: "451"
     page: "630"
+    docket: "79-1144"
+    citation: "451 U.S. 630"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 26, 1981"
-    citation: "451 U.S. 630"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1980-101"
@@ -1718,9 +2231,12 @@ cases:
     title: "Little v. Streater"
     volume: "452"
     page: "001"
+    docket: "79-6779"
+    citation: "452 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1981"
-    citation: "452 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1980-121"
@@ -1728,9 +2244,12 @@ cases:
     title: "Connecticut Bd. of Pardons v. Dumschat"
     volume: "452"
     page: "458"
+    docket: "79-1997"
+    citation: "452 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 17, 1981"
-    citation: "452 U.S. 458"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1980-122"
@@ -1738,9 +2257,12 @@ cases:
     title: "Howe v. Smith"
     volume: "452"
     page: "473"
+    docket: "80-5392"
+    citation: "452 U.S. 473"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 17, 1981"
-    citation: "452 U.S. 473"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1980-142"
@@ -1748,9 +2270,12 @@ cases:
     title: "Haig v. Agee"
     volume: "453"
     page: "280"
+    docket: "80-83"
+    citation: "453 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Monday, June 29, 1981"
-    citation: "453 U.S. 280"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1980-145"
@@ -1758,9 +2283,12 @@ cases:
     title: "CBS, Inc. v. FCC"
     volume: "453"
     page: "367"
+    docket: "80-207"
+    citation: "453 U.S. 367"
     pdfSource: "loc"
     dateDecision: "Wednesday, July 1, 1981"
-    citation: "453 U.S. 367"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-015"
@@ -1768,9 +2296,12 @@ cases:
     title: "Citizens Against Rent Control/Coalition for Fair Housing v. Berkeley"
     volume: "454"
     page: "290"
+    docket: "80-737"
+    citation: "454 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1981"
-    citation: "454 U.S. 290"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-029"
@@ -1778,9 +2309,12 @@ cases:
     title: "Washington v. Chrisman"
     volume: "455"
     page: "001"
+    docket: "80-1349"
+    citation: "455 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 13, 1982"
-    citation: "455 U.S. 1"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-040"
@@ -1788,9 +2322,12 @@ cases:
     title: "United States v. Lee"
     volume: "455"
     page: "252"
+    docket: "80-767"
+    citation: "455 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1982"
-    citation: "455 U.S. 252"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-045"
@@ -1798,9 +2335,12 @@ cases:
     title: "New England Power Co. v. New Hampshire"
     volume: "455"
     page: "331"
+    docket: "80-1208"
+    citation: "455 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 24, 1982"
-    citation: "455 U.S. 331"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-046"
@@ -1808,9 +2348,12 @@ cases:
     title: "Baldrige v. Shapiro"
     volume: "455"
     page: "345"
+    docket: "80-1436"
+    citation: "455 U.S. 345"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 24, 1982"
-    citation: "455 U.S. 345"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-056"
@@ -1818,9 +2361,12 @@ cases:
     title: "Marine Bank v. Weaver"
     volume: "455"
     page: "551"
+    docket: "80-1562"
+    citation: "455 U.S. 551"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1982"
-    citation: "455 U.S. 551"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-066"
@@ -1828,9 +2374,12 @@ cases:
     title: "Transportation Union v. Long Island R. Co."
     volume: "455"
     page: "678"
+    docket: "80-1925"
+    citation: "455 U.S. 678"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 24, 1982"
-    citation: "455 U.S. 678"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-070"
@@ -1838,9 +2387,12 @@ cases:
     title: "United States v. MacDonald"
     volume: "456"
     page: "001"
+    docket: "80-1582"
+    citation: "456 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 31, 1982"
-    citation: "456 U.S. 1"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-088"
@@ -1848,9 +2400,12 @@ cases:
     title: "Finnegan v. Leu"
     volume: "456"
     page: "431"
+    docket: "80-2150"
+    citation: "456 U.S. 431"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1982"
-    citation: "456 U.S. 431"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-095"
@@ -1858,9 +2413,12 @@ cases:
     title: "Hopper v. Evans"
     volume: "456"
     page: "605"
+    docket: "80-1714"
+    citation: "456 U.S. 605"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1982"
-    citation: "456 U.S. 605"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-107"
@@ -1868,9 +2426,12 @@ cases:
     title: "Rodriguez v. Popular Democratic Party"
     volume: "457"
     page: "001"
+    docket: "81-328"
+    citation: "457 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1982"
-    citation: "457 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-111"
@@ -1878,9 +2439,12 @@ cases:
     title: "Zobel v. Williams"
     volume: "457"
     page: "055"
+    docket: "80-1146"
+    citation: "457 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1982"
-    citation: "457 U.S. 55"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-118"
@@ -1888,9 +2452,12 @@ cases:
     title: "Sumitomo Shoji America, Inc. v. Avagliano"
     volume: "457"
     page: "176"
+    docket: "80-2070"
+    citation: "457 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 15, 1982"
-    citation: "457 U.S. 176"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-119"
@@ -1898,9 +2465,12 @@ cases:
     title: "Diedrich v. Commissioner"
     volume: "457"
     page: "191"
+    docket: "80-2204"
+    citation: "457 U.S. 191"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 15, 1982"
-    citation: "457 U.S. 191"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-128"
@@ -1908,9 +2478,12 @@ cases:
     title: "Middlesex County Ethics Comm. v. Garden State Bar Assn."
     volume: "457"
     page: "423"
+    docket: "81-460"
+    citation: "457 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1982"
-    citation: "457 U.S. 423"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1981-142"
@@ -1918,9 +2491,12 @@ cases:
     title: "Rendell-Baker v. Kohn"
     volume: "457"
     page: "830"
+    docket: "80-2102"
+    citation: "457 U.S. 830"
     pdfSource: "loc"
     dateDecision: "Friday, June 25, 1982"
-    citation: "457 U.S. 830"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-010"
@@ -1928,9 +2504,12 @@ cases:
     title: "Larkin v. Grendel&apos;s Den, Inc."
     volume: "459"
     page: "116"
+    docket: "81-878"
+    citation: "459 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1982"
-    citation: "459 U.S. 116"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-011"
@@ -1938,9 +2517,12 @@ cases:
     title: "Burlington Northern Inc. v. United States"
     volume: "459"
     page: "131"
+    docket: "81-1008"
+    citation: "459 U.S. 131"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1982"
-    citation: "459 U.S. 131"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-012"
@@ -1948,9 +2530,12 @@ cases:
     title: "Xerox Corp. v. County of Harris"
     volume: "459"
     page: "145"
+    docket: "81-1489"
+    citation: "459 U.S. 145"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1982"
-    citation: "459 U.S. 145"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-020"
@@ -1958,9 +2543,12 @@ cases:
     title: "Missouri v. Hunter"
     volume: "459"
     page: "359"
+    docket: "81-1214"
+    citation: "459 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 19, 1983"
-    citation: "459 U.S. 359"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-062"
@@ -1968,9 +2556,12 @@ cases:
     title: "Morris v. Slappy"
     volume: "461"
     page: "001"
+    docket: "81-1095"
+    citation: "461 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 20, 1983"
-    citation: "461 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-070"
@@ -1978,9 +2569,12 @@ cases:
     title: "Jim McNeff, Inc. v. Todd"
     volume: "461"
     page: "260"
+    docket: "81-2150"
+    citation: "461 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 27, 1983"
-    citation: "461 U.S. 260"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-079"
@@ -1988,9 +2582,12 @@ cases:
     title: "Verlinden B. V. v. Central Bank of Nigeria"
     volume: "461"
     page: "480"
+    docket: "81-920"
+    citation: "461 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1983"
-    citation: "461 U.S. 480"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-080"
@@ -1998,9 +2595,12 @@ cases:
     title: "United States v. Hasting"
     volume: "461"
     page: "499"
+    docket: "81-1463"
+    citation: "461 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1983"
-    citation: "461 U.S. 499"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-084"
@@ -2008,9 +2608,12 @@ cases:
     title: "Bob Jones Univ. v. United States"
     volume: "461"
     page: "574"
+    docket: "81-3"
+    citation: "461 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 24, 1983"
-    citation: "461 U.S. 574"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-085"
@@ -2018,9 +2621,12 @@ cases:
     title: "Morrison-Knudsen Constr. Co. v. Director, Office of Workers&apos; Compensation Programs"
     volume: "461"
     page: "624"
+    docket: "81-1891"
+    citation: "461 U.S. 624"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 24, 1983"
-    citation: "461 U.S. 624"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-099"
@@ -2028,9 +2634,12 @@ cases:
     title: "BankAmerica Corp. v. United States"
     volume: "462"
     page: "122"
+    docket: "81-1487"
+    citation: "462 U.S. 122"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 8, 1983"
-    citation: "462 U.S. 122"
+    voteMajority: 5
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-104"
@@ -2038,9 +2647,12 @@ cases:
     title: "Chappell v. Wallace"
     volume: "462"
     page: "296"
+    docket: "82-167"
+    citation: "462 U.S. 296"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1983"
-    citation: "462 U.S. 296"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-120"
@@ -2048,9 +2660,12 @@ cases:
     title: "Illinois v. Lafayette"
     volume: "462"
     page: "640"
+    docket: "81-1859"
+    citation: "462 U.S. 640"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1983"
-    citation: "462 U.S. 640"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-130"
@@ -2058,9 +2673,12 @@ cases:
     title: "INS v. Chadha"
     volume: "462"
     page: "919"
+    docket: "80-1832"
+    citation: "462 U.S. 919"
     pdfSource: "loc"
     dateDecision: "Thursday, June 23, 1983"
-    citation: "462 U.S. 919"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-155"
@@ -2068,9 +2686,12 @@ cases:
     title: "Jones v. Barnes"
     volume: "463"
     page: "745"
+    docket: "81-1794"
+    citation: "463 U.S. 745"
     pdfSource: "loc"
     dateDecision: "Tuesday, July 5, 1983"
-    citation: "463 U.S. 745"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-156"
@@ -2078,9 +2699,12 @@ cases:
     title: "Illinois v. Andreas"
     volume: "463"
     page: "765"
+    docket: "81-1843"
+    citation: "463 U.S. 765"
     pdfSource: "loc"
     dateDecision: "Tuesday, July 5, 1983"
-    citation: "463 U.S. 765"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1982-157"
@@ -2088,9 +2712,12 @@ cases:
     title: "Marsh v. Chambers"
     volume: "463"
     page: "783"
+    docket: "82-23"
+    citation: "463 U.S. 783"
     pdfSource: "loc"
     dateDecision: "Tuesday, July 5, 1983"
-    citation: "463 U.S. 783"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-023"
@@ -2098,9 +2725,12 @@ cases:
     title: "Press-Enterprise Co. v. Superior Court of Cal., Riverside Cty."
     volume: "464"
     page: "501"
+    docket: "82-556"
+    citation: "464 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 18, 1984"
-    citation: "464 U.S. 501"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-026"
@@ -2108,9 +2738,12 @@ cases:
     title: "Southland Corp. v. Keating"
     volume: "465"
     page: "001"
+    docket: "82-500"
+    citation: "465 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1984"
-    citation: "465 U.S. 1"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-037"
@@ -2118,9 +2751,12 @@ cases:
     title: "Dickman v. Commissioner"
     volume: "465"
     page: "330"
+    docket: "82-1041"
+    citation: "465 U.S. 330"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 21, 1984"
-    citation: "465 U.S. 330"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-038"
@@ -2128,9 +2764,12 @@ cases:
     title: "United States v. One Assortment of 89 Firearms"
     volume: "465"
     page: "354"
+    docket: "82-1047"
+    citation: "465 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 22, 1984"
-    citation: "465 U.S. 354"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-048"
@@ -2138,9 +2777,12 @@ cases:
     title: "Lynch v. Donnelly"
     volume: "465"
     page: "668"
+    docket: "82-1256"
+    citation: "465 U.S. 668"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1984"
-    citation: "465 U.S. 668"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-054"
@@ -2148,9 +2790,12 @@ cases:
     title: "United States v. Arthur Young &amp; Co."
     volume: "465"
     page: "805"
+    docket: "82-687"
+    citation: "465 U.S. 805"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 21, 1984"
-    citation: "465 U.S. 805"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-081"
@@ -2158,9 +2803,12 @@ cases:
     title: "Palmore v. Sidoti"
     volume: "466"
     page: "429"
+    docket: "82-1734"
+    citation: "466 U.S. 429"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 24, 1984"
-    citation: "466 U.S. 429"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-101"
@@ -2168,9 +2816,12 @@ cases:
     title: "Hishon v. King &amp; Spalding"
     volume: "467"
     page: "069"
+    docket: "82-940"
+    citation: "467 U.S. 69"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 22, 1984"
-    citation: "467 U.S. 69"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-117"
@@ -2178,9 +2829,12 @@ cases:
     title: "Nix v. Williams"
     volume: "467"
     page: "431"
+    docket: "82-1651"
+    citation: "467 U.S. 431"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1984"
-    citation: "467 U.S. 431"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-131"
@@ -2188,9 +2842,12 @@ cases:
     title: "Copperweld Corp. v. Independence Tube Corp."
     volume: "467"
     page: "752"
+    docket: "82-1260"
+    citation: "467 U.S. 752"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 19, 1984"
-    citation: "467 U.S. 752"
+    voteMajority: 5
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-132"
@@ -2198,9 +2855,12 @@ cases:
     title: "United States v. S. A. Empresa De Viacao Aerea Rio Grandense"
     volume: "467"
     page: "797"
+    docket: "82-1349"
+    citation: "467 U.S. 797"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 19, 1984"
-    citation: "467 U.S. 797"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-154"
@@ -2208,9 +2868,12 @@ cases:
     title: "Hobby v. United States"
     volume: "468"
     page: "339"
+    docket: "82-2140"
+    citation: "468 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Monday, July 2, 1984"
-    citation: "468 U.S. 339"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-159"
@@ -2218,9 +2881,12 @@ cases:
     title: "Hudson v. Palmer"
     volume: "468"
     page: "517"
+    docket: "82-1630"
+    citation: "468 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Tuesday, July 3, 1984"
-    citation: "468 U.S. 517"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-160"
@@ -2228,9 +2894,12 @@ cases:
     title: "Wasman v. United States"
     volume: "468"
     page: "559"
+    docket: "83-173"
+    citation: "468 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Tuesday, July 3, 1984"
-    citation: "468 U.S. 559"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-161"
@@ -2238,9 +2907,12 @@ cases:
     title: "Block v. Rutherford"
     volume: "468"
     page: "576"
+    docket: "83-317"
+    citation: "468 U.S. 576"
     pdfSource: "loc"
     dateDecision: "Tuesday, July 3, 1984"
-    citation: "468 U.S. 576"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-167"
@@ -2248,9 +2920,12 @@ cases:
     title: "Segura v. United States"
     volume: "468"
     page: "796"
+    docket: "82-5298"
+    citation: "468 U.S. 796"
     pdfSource: "loc"
     dateDecision: "Thursday, July 5, 1984"
-    citation: "468 U.S. 796"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-168"
@@ -2258,9 +2933,12 @@ cases:
     title: "Selective Service System v. Minnesota Public Interest Research Group"
     volume: "468"
     page: "841"
+    docket: "83-276"
+    citation: "468 U.S. 841"
     pdfSource: "loc"
     dateDecision: "Thursday, July 5, 1984"
-    citation: "468 U.S. 841"
+    voteMajority: 6
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1983-169"
@@ -2268,9 +2946,12 @@ cases:
     title: "Irving Independent School Dist. v. Tatro"
     volume: "468"
     page: "883"
+    docket: "83-558"
+    citation: "468 U.S. 883"
     pdfSource: "loc"
     dateDecision: "Thursday, July 5, 1984"
-    citation: "468 U.S. 883"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-005"
@@ -2278,9 +2959,12 @@ cases:
     title: "Luce v. United States"
     volume: "469"
     page: "038"
+    docket: "83-912"
+    citation: "469 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1984"
-    citation: "469 U.S. 38"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-017"
@@ -2288,9 +2972,12 @@ cases:
     title: "United States v. Boyle"
     volume: "469"
     page: "241"
+    docket: "83-1266"
+    citation: "469 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 9, 1985"
-    citation: "469 U.S. 241"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-027"
@@ -2298,9 +2985,12 @@ cases:
     title: "NLRB v. Action Automotive, Inc."
     volume: "469"
     page: "490"
+    docket: "83-1416"
+    citation: "469 U.S. 490"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 19, 1985"
-    citation: "469 U.S. 490"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-030"
@@ -2308,9 +2998,12 @@ cases:
     title: "United States v. Young"
     volume: "470"
     page: "001"
+    docket: "83-469"
+    citation: "470 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 20, 1985"
-    citation: "470 U.S. 1"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-055"
@@ -2318,9 +3011,12 @@ cases:
     title: "United States v. Sharpe"
     volume: "470"
     page: "675"
+    docket: "83-529"
+    citation: "470 U.S. 675"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 20, 1985"
-    citation: "470 U.S. 675"
+    voteMajority: 7
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-061"
@@ -2328,9 +3024,12 @@ cases:
     title: "Ball v. United States"
     volume: "470"
     page: "856"
+    docket: "84-5004"
+    citation: "470 U.S. 856"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 26, 1985"
-    citation: "470 U.S. 856"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-078"
@@ -2338,9 +3037,12 @@ cases:
     title: "CIA v. Sims"
     volume: "471"
     page: "159"
+    docket: "83-1075"
+    citation: "471 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 16, 1985"
-    citation: "471 U.S. 159"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-079"
@@ -2348,9 +3050,12 @@ cases:
     title: "Kerr-McGee Corp. v. Navajo Tribe"
     volume: "471"
     page: "195"
+    docket: "84-68"
+    citation: "471 U.S. 195"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 16, 1985"
-    citation: "471 U.S. 195"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-091"
@@ -2358,9 +3063,12 @@ cases:
     title: "California v. Carney"
     volume: "471"
     page: "386"
+    docket: "83-859"
+    citation: "471 U.S. 386"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1985"
-    citation: "471 U.S. 386"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-092"
@@ -2368,9 +3076,12 @@ cases:
     title: "Tennessee v. Street"
     volume: "471"
     page: "409"
+    docket: "83-2143"
+    citation: "471 U.S. 409"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1985"
-    citation: "471 U.S. 409"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-113"
@@ -2378,9 +3089,12 @@ cases:
     title: "Schreiber v. Burlington Northern, Inc."
     volume: "472"
     page: "001"
+    docket: "83-2129"
+    citation: "472 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 4, 1985"
-    citation: "472 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-130"
@@ -2388,9 +3102,12 @@ cases:
     title: "McDonald v. Smith"
     volume: "472"
     page: "479"
+    docket: "84-476"
+    citation: "472 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 19, 1985"
-    citation: "472 U.S. 479"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-136"
@@ -2398,9 +3115,12 @@ cases:
     title: "Hooper v. Bernalillo County Assessor"
     volume: "472"
     page: "612"
+    docket: "84-231"
+    citation: "472 U.S. 612"
     pdfSource: "loc"
     dateDecision: "Monday, June 24, 1985"
-    citation: "472 U.S. 612"
+    voteMajority: 5
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-137"
@@ -2408,9 +3128,12 @@ cases:
     title: "In re Snyder"
     volume: "472"
     page: "634"
+    docket: "84-310"
+    citation: "472 U.S. 634"
     pdfSource: "loc"
     dateDecision: "Monday, June 24, 1985"
-    citation: "472 U.S. 634"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-140"
@@ -2418,9 +3141,12 @@ cases:
     title: "Estate of Thornton v. Caldor, Inc."
     volume: "472"
     page: "703"
+    docket: "83-1158"
+    citation: "472 U.S. 703"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 26, 1985"
-    citation: "472 U.S. 703"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-146"
@@ -2428,9 +3154,12 @@ cases:
     title: "Marek v. Chesny"
     volume: "473"
     page: "001"
+    docket: "83-1437"
+    citation: "473 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Thursday, June 27, 1985"
-    citation: "473 U.S. 1"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1984-147"
@@ -2438,9 +3167,12 @@ cases:
     title: "United States v. Shearer"
     volume: "473"
     page: "052"
+    docket: "84-194"
+    citation: "473 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Thursday, June 27, 1985"
-    citation: "473 U.S. 52"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-019"
@@ -2448,9 +3180,12 @@ cases:
     title: "United States v. Rojas-Contreras"
     volume: "474"
     page: "231"
+    docket: "84-1023"
+    citation: "474 U.S. 231"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1985"
-    citation: "474 U.S. 231"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-026"
@@ -2458,9 +3193,12 @@ cases:
     title: "Board of Governors, FRS v. Dimension Financial Corp."
     volume: "474"
     page: "361"
+    docket: "84-1274"
+    citation: "474 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 22, 1986"
-    citation: "474 U.S. 361"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-029"
@@ -2468,9 +3206,12 @@ cases:
     title: "United States v. Lane"
     volume: "474"
     page: "438"
+    docket: "84-744"
+    citation: "474 U.S. 438"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1986"
-    citation: "474 U.S. 438"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-039"
@@ -2478,9 +3219,12 @@ cases:
     title: "Texas v. McCullough"
     volume: "475"
     page: "134"
+    docket: "84-1198"
+    citation: "475 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 26, 1986"
-    citation: "475 U.S. 134"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-040"
@@ -2488,9 +3232,12 @@ cases:
     title: "Nix v. Whiteside"
     volume: "475"
     page: "157"
+    docket: "84-1321"
+    citation: "475 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 26, 1986"
-    citation: "475 U.S. 157"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-069"
@@ -2498,9 +3245,12 @@ cases:
     title: "Aetna Life Ins. Co. v. Lavoie"
     volume: "475"
     page: "813"
+    docket: "84-1601"
+    citation: "475 U.S. 813"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 22, 1986"
-    citation: "475 U.S. 813"
+    voteMajority: 8
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-082"
@@ -2508,9 +3258,12 @@ cases:
     title: "California v. Ciraolo"
     volume: "476"
     page: "207"
+    docket: "84-1513"
+    citation: "476 U.S. 207"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1986"
-    citation: "476 U.S. 207"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-083"
@@ -2518,9 +3271,12 @@ cases:
     title: "Dow Chemical Co. v. United States"
     volume: "476"
     page: "227"
+    docket: "84-1259"
+    citation: "476 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1986"
-    citation: "476 U.S. 227"
+    voteMajority: 5
+    voteMinority: 4
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-104"
@@ -2528,9 +3284,12 @@ cases:
     title: "Bowen v. Roy"
     volume: "476"
     page: "693"
+    docket: "84-780"
+    citation: "476 U.S. 693"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 11, 1986"
-    citation: "476 U.S. 693"
+    voteMajority: 8
+    voteMinority: 1
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-135"
@@ -2538,9 +3297,12 @@ cases:
     title: "Department of Treasury, Bureau of Alcohol, Tobacco and Firearms v. Galioto"
     volume: "477"
     page: "556"
+    docket: "84-1904"
+    citation: "477 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Thursday, June 26, 1986"
-    citation: "477 U.S. 556"
+    voteMajority: 9
+    voteMinority: 0
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-141"
@@ -2548,9 +3310,12 @@ cases:
     title: "Press-Enterprise Co. v. Superior Court of Cal., County of Riverside"
     volume: "478"
     page: "001"
+    docket: "84-1560"
+    citation: "478 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 30, 1986"
-    citation: "478 U.S. 1"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-160"
@@ -2558,9 +3323,12 @@ cases:
     title: "Bethel School Dist. No. 403 v. Fraser"
     volume: "478"
     page: "675"
+    docket: "84-1667"
+    citation: "478 U.S. 675"
     pdfSource: "loc"
     dateDecision: "Monday, July 7, 1986"
-    citation: "478 U.S. 675"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-161"
@@ -2568,9 +3336,12 @@ cases:
     title: "Arcara v. Cloud Books, Inc."
     volume: "478"
     page: "697"
+    docket: "85-437"
+    citation: "478 U.S. 697"
     pdfSource: "loc"
     dateDecision: "Monday, July 7, 1986"
-    citation: "478 U.S. 697"
+    voteMajority: 6
+    voteMinority: 3
     authorId: weburger
     authorName: "Warren Burger"
   - id: "1985-162"
@@ -2578,9 +3349,12 @@ cases:
     title: "Bowsher v. Synar"
     volume: "478"
     page: "714"
+    docket: "85-1377"
+    citation: "478 U.S. 714"
     pdfSource: "loc"
     dateDecision: "Monday, July 7, 1986"
-    citation: "478 U.S. 714"
+    voteMajority: 7
+    voteMinority: 2
     authorId: weburger
     authorName: "Warren Burger"
 ---

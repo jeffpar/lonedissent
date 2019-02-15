@@ -8,9 +8,12 @@ cases:
     title: "Molzof v. United States"
     volume: "502"
     page: "301"
+    docket: "90-838"
+    citation: "502 U.S. 301"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 14, 1992"
-    citation: "502 U.S. 301"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1991-031"
@@ -18,9 +21,12 @@ cases:
     title: "Lechmere, Inc. v. NLRB"
     volume: "502"
     page: "527"
+    docket: "90-970"
+    citation: "502 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1992"
-    citation: "502 U.S. 527"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1991-045"
@@ -28,9 +34,12 @@ cases:
     title: "Connecticut Nat. Bank v. Germain"
     volume: "503"
     page: "249"
+    docket: "90-1791"
+    citation: "503 U.S. 249"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1992"
-    citation: "503 U.S. 249"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1991-050"
@@ -38,9 +47,12 @@ cases:
     title: "United States v. Wilson"
     volume: "503"
     page: "329"
+    docket: "90-1745"
+    citation: "503 U.S. 329"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 24, 1992"
-    citation: "503 U.S. 329"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1991-055"
@@ -48,9 +60,12 @@ cases:
     title: "Robertson v. Seattle Audubon Soc."
     volume: "503"
     page: "429"
+    docket: "90-1596"
+    citation: "503 U.S. 429"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 25, 1992"
-    citation: "503 U.S. 429"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1991-064"
@@ -58,9 +73,12 @@ cases:
     title: "Taylor v. Freeland &amp; Kronz"
     volume: "503"
     page: "638"
+    docket: "91-571"
+    citation: "503 U.S. 638"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 21, 1992"
-    citation: "503 U.S. 638"
+    voteMajority: 8
+    voteMinority: 1
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1991-102"
@@ -68,9 +86,12 @@ cases:
     title: "Wright v. West"
     volume: "505"
     page: "277"
+    docket: "91-542"
+    citation: "505 U.S. 277"
     pdfSource: "loc"
     dateDecision: "Friday, June 19, 1992"
-    citation: "505 U.S. 277"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1991-103"
@@ -78,9 +99,12 @@ cases:
     title: "United States v. Salerno"
     volume: "505"
     page: "317"
+    docket: "91-872"
+    citation: "505 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Friday, June 19, 1992"
-    citation: "505 U.S. 317"
+    voteMajority: 8
+    voteMinority: 1
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1992-010"
@@ -88,9 +112,12 @@ cases:
     title: "Farrar v. Hobby"
     volume: "506"
     page: "103"
+    docket: "91-990"
+    citation: "506 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1992"
-    citation: "506 U.S. 103"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1992-011"
@@ -98,9 +125,12 @@ cases:
     title: "District of Columbia v. Greater Washington Bd. of Trade"
     volume: "506"
     page: "125"
+    docket: "91-1326"
+    citation: "506 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1992"
-    citation: "506 U.S. 125"
+    voteMajority: 8
+    voteMinority: 1
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1992-050"
@@ -108,9 +138,12 @@ cases:
     title: "Delaware v. New York"
     volume: "507"
     page: "490"
+    docket: "111 Orig."
+    citation: "507 U.S. 490"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 30, 1993"
-    citation: "507 U.S. 490"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1992-067"
@@ -118,9 +151,12 @@ cases:
     title: "Professional Real Estate Investors, Inc. v. Columbia Pictures Industries, Inc."
     volume: "508"
     page: "049"
+    docket: "91-1043"
+    citation: "508 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1993"
-    citation: "508 U.S. 49"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1992-082"
@@ -128,9 +164,12 @@ cases:
     title: "FCC v. Beach Communications, Inc."
     volume: "508"
     page: "307"
+    docket: "92-603"
+    citation: "508 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1993"
-    citation: "508 U.S. 307"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1992-083"
@@ -138,9 +177,12 @@ cases:
     title: "Nobelman v. American Savings Bank"
     volume: "508"
     page: "324"
+    docket: "92-641"
+    citation: "508 U.S. 324"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1993"
-    citation: "508 U.S. 324"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1992-090"
@@ -148,9 +190,12 @@ cases:
     title: "Rake v. Wade"
     volume: "508"
     page: "464"
+    docket: "92-621"
+    citation: "508 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1993"
-    citation: "508 U.S. 464"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1992-096"
@@ -158,9 +203,12 @@ cases:
     title: "Northeastern Fla. Chapter, Associated Gen. Contractors of America v. Jacksonville"
     volume: "508"
     page: "656"
+    docket: "91-1721"
+    citation: "508 U.S. 656"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1993"
-    citation: "508 U.S. 656"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1992-097"
@@ -168,9 +216,12 @@ cases:
     title: "South Dakota v. Bourland"
     volume: "508"
     page: "679"
+    docket: "91-2051"
+    citation: "508 U.S. 679"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1993"
-    citation: "508 U.S. 679"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1992-101"
@@ -178,9 +229,12 @@ cases:
     title: "Harper v. Virginia Dept. of Taxation"
     volume: "509"
     page: "086"
+    docket: "91-794"
+    citation: "509 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Friday, June 18, 1993"
-    citation: "509 U.S. 86"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1992-109"
@@ -188,9 +242,12 @@ cases:
     title: "Godinez v. Moran"
     volume: "509"
     page: "389"
+    docket: "92-725"
+    citation: "509 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Thursday, June 24, 1993"
-    citation: "509 U.S. 389"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1993-024"
@@ -198,9 +255,12 @@ cases:
     title: "FDIC v. Meyer"
     volume: "510"
     page: "471"
+    docket: "92-741"
+    citation: "510 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 23, 1994"
-    citation: "510 U.S. 471"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1993-025"
@@ -208,9 +268,12 @@ cases:
     title: "Department of Defense v. FLRA"
     volume: "510"
     page: "487"
+    docket: "92-1223"
+    citation: "510 U.S. 487"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 23, 1994"
-    citation: "510 U.S. 487"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1993-033"
@@ -218,9 +281,12 @@ cases:
     title: "Oregon Waste Systems, Inc. v. Department of Environmental Quality of Ore."
     volume: "511"
     page: "093"
+    docket: "93-70"
+    citation: "511 U.S. 93"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1994"
-    citation: "511 U.S. 93"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1993-044"
@@ -228,9 +294,12 @@ cases:
     title: "United States v. Alvarez-Sanchez"
     volume: "511"
     page: "350"
+    docket: "92-1812"
+    citation: "511 U.S. 350"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1994"
-    citation: "511 U.S. 350"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1993-055"
@@ -238,9 +307,12 @@ cases:
     title: "Staples v. United States"
     volume: "511"
     page: "600"
+    docket: "92-1441"
+    citation: "511 U.S. 600"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1994"
-    citation: "511 U.S. 600"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1993-056"
@@ -248,9 +320,12 @@ cases:
     title: "Associated Industries of Mo. v. Lohman"
     volume: "511"
     page: "641"
+    docket: "93-397"
+    citation: "511 U.S. 641"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1994"
-    citation: "511 U.S. 641"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1993-086"
@@ -258,9 +333,12 @@ cases:
     title: "Consolidated Rail Corporation v. Gottshall"
     volume: "512"
     page: "532"
+    docket: "92-1956"
+    citation: "512 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Friday, June 24, 1994"
-    citation: "512 U.S. 532"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1993-087"
@@ -268,9 +346,12 @@ cases:
     title: "Shannon v. United States"
     volume: "512"
     page: "573"
+    docket: "92-8346"
+    citation: "512 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Friday, June 24, 1994"
-    citation: "512 U.S. 573"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1994-010"
@@ -278,9 +359,12 @@ cases:
     title: "Nebraska Dept. of Revenue v. Loewenstein"
     volume: "513"
     page: "123"
+    docket: "93-823"
+    citation: "513 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1994"
-    citation: "513 U.S. 123"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1994-014"
@@ -288,9 +372,12 @@ cases:
     title: "United States v. Mezzanatto"
     volume: "513"
     page: "196"
+    docket: "93-1340"
+    citation: "513 U.S. 196"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 18, 1995"
-    citation: "513 U.S. 196"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1994-036"
@@ -298,9 +385,12 @@ cases:
     title: "Anderson v. Edwards"
     volume: "514"
     page: "143"
+    docket: "93-1883"
+    citation: "514 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 22, 1995"
-    citation: "514 U.S. 143"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1994-042"
@@ -308,9 +398,12 @@ cases:
     title: "Freightliner Corp. v. Myrick"
     volume: "514"
     page: "280"
+    docket: "94-286"
+    citation: "514 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 18, 1995"
-    citation: "514 U.S. 280"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1994-048"
@@ -318,9 +411,12 @@ cases:
     title: "Rubin v. Coors Brewing Co."
     volume: "514"
     page: "476"
+    docket: "93-1631"
+    citation: "514 U.S. 476"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 19, 1995"
-    citation: "514 U.S. 476"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1994-049"
@@ -328,9 +424,12 @@ cases:
     title: "California Dept. of Corrections v. Morales"
     volume: "514"
     page: "499"
+    docket: "93-1462"
+    citation: "514 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 25, 1995"
-    citation: "514 U.S. 499"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1994-060"
@@ -338,9 +437,12 @@ cases:
     title: "Wilson v. Arkansas"
     volume: "514"
     page: "927"
+    docket: "94-5707"
+    citation: "514 U.S. 927"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1995"
-    citation: "514 U.S. 927"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1994-084"
@@ -348,9 +450,12 @@ cases:
     title: "National Private Truck Council, Inc. v. Oklahoma Tax Comm&apos;n"
     volume: "515"
     page: "582"
+    docket: "94-688"
+    citation: "515 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Monday, June 19, 1995"
-    citation: "515 U.S. 582"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1995-010"
@@ -358,9 +463,12 @@ cases:
     title: "Things Remembered, Inc. v. Petrarca"
     volume: "516"
     page: "124"
+    docket: "94-1530"
+    citation: "516 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 5, 1995"
-    citation: "516 U.S. 124"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1995-024"
@@ -368,9 +476,12 @@ cases:
     title: "Peacock v. Thomas"
     volume: "516"
     page: "349"
+    docket: "94-1453"
+    citation: "516 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 21, 1996"
-    citation: "516 U.S. 349"
+    voteMajority: 8
+    voteMinority: 1
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1995-027"
@@ -378,9 +489,12 @@ cases:
     title: "Matsushita Elec. Industrial Co. v. Epstein"
     volume: "516"
     page: "367"
+    docket: "94-1809"
+    citation: "516 U.S. 367"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 27, 1996"
-    citation: "516 U.S. 367"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1995-028"
@@ -388,9 +502,12 @@ cases:
     title: "Norfolk &amp; Western R. Co. v. Hiles"
     volume: "516"
     page: "400"
+    docket: "95-6"
+    citation: "516 U.S. 400"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 27, 1996"
-    citation: "516 U.S. 400"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1995-064"
@@ -398,9 +515,12 @@ cases:
     title: "Exxon Co., U. S. A. v. Sofec, Inc."
     volume: "517"
     page: "830"
+    docket: "95-129"
+    citation: "517 U.S. 830"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1996"
-    citation: "517 U.S. 830"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1995-065"
@@ -408,9 +528,12 @@ cases:
     title: "United States v. International Business Machines Corp."
     volume: "517"
     page: "843"
+    docket: "95-591"
+    citation: "517 U.S. 843"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1996"
-    citation: "517 U.S. 843"
+    voteMajority: 6
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1995-066"
@@ -418,9 +541,12 @@ cases:
     title: "Lockheed Corp. v. Spink"
     volume: "517"
     page: "882"
+    docket: "95-809"
+    citation: "517 U.S. 882"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1996"
-    citation: "517 U.S. 882"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1995-072"
@@ -428,9 +554,12 @@ cases:
     title: "Melendez v. United States"
     volume: "518"
     page: "120"
+    docket: "95-5661"
+    citation: "518 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1996"
-    citation: "518 U.S. 120"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1996-020"
@@ -438,9 +567,12 @@ cases:
     title: "California Div. of Labor Standards Enforcement v. Dillingham Constr., N. A., Inc."
     volume: "519"
     page: "316"
+    docket: "95-789"
+    citation: "519 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 18, 1997"
-    citation: "519 U.S. 316"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1996-021"
@@ -448,9 +580,12 @@ cases:
     title: "Robinson v. Shell Oil Co."
     volume: "519"
     page: "337"
+    docket: "95-1376"
+    citation: "519 U.S. 337"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 18, 1997"
-    citation: "519 U.S. 337"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1996-033"
@@ -458,9 +593,12 @@ cases:
     title: "Warner-Jenkinson Co. v. Hilton Davis Chemical Co."
     volume: "520"
     page: "017"
+    docket: "95-728"
+    citation: "520 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1997"
-    citation: "520 U.S. 17"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1996-037"
@@ -468,9 +606,12 @@ cases:
     title: "Young v. Harper"
     volume: "520"
     page: "143"
+    docket: "95-1598"
+    citation: "520 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 18, 1997"
-    citation: "520 U.S. 143"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1996-061"
@@ -478,9 +619,12 @@ cases:
     title: "United States v. LaBonte"
     volume: "520"
     page: "751"
+    docket: "95-1726"
+    citation: "520 U.S. 751"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 27, 1997"
-    citation: "520 U.S. 751"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1996-072"
@@ -488,9 +632,12 @@ cases:
     title: "Hughes Aircraft Co. v. United States ex rel. Schumer"
     volume: "520"
     page: "939"
+    docket: "95-1340"
+    citation: "520 U.S. 939"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1997"
-    citation: "520 U.S. 939"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1996-083"
@@ -498,9 +645,12 @@ cases:
     title: "Kansas v. Hendricks"
     volume: "521"
     page: "346"
+    docket: "95-1649"
+    citation: "521 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1997"
-    citation: "521 U.S. 346"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1997-030"
@@ -508,9 +658,12 @@ cases:
     title: "National Credit Union Admin. v. First Nat. Bank &amp; Trust Co."
     volume: "522"
     page: "479"
+    docket: "96-843"
+    citation: "522 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 25, 1998"
-    citation: "522 U.S. 479"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1997-031"
@@ -518,9 +671,12 @@ cases:
     title: "Alaska v. Native Village of Venetie Tribal Government"
     volume: "522"
     page: "520"
+    docket: "96-1577"
+    citation: "522 U.S. 520"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 25, 1998"
-    citation: "522 U.S. 520"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1997-034"
@@ -528,9 +684,12 @@ cases:
     title: "Bogan v. Scott-Harris"
     volume: "523"
     page: "044"
+    docket: "96-1569"
+    citation: "523 U.S. 44"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1998"
-    citation: "523 U.S. 44"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1997-048"
@@ -538,9 +697,12 @@ cases:
     title: "United States v. Scheffer"
     volume: "523"
     page: "303"
+    docket: "96-1133"
+    citation: "523 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 31, 1998"
-    citation: "523 U.S. 303"
+    voteMajority: 8
+    voteMinority: 1
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1997-049"
@@ -548,9 +710,12 @@ cases:
     title: "Feltner v. Columbia Pictures Television, Inc."
     volume: "523"
     page: "340"
+    docket: "96-1768"
+    citation: "523 U.S. 340"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 31, 1998"
-    citation: "523 U.S. 340"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1997-078"
@@ -558,9 +723,12 @@ cases:
     title: "Hopkins v. Reeves"
     volume: "524"
     page: "088"
+    docket: "96-1693"
+    citation: "524 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1998"
-    citation: "524 U.S. 88"
+    voteMajority: 8
+    voteMinority: 1
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1997-079"
@@ -568,9 +736,12 @@ cases:
     title: "Cass County v. Leech Lake Band of Chippewa Indians"
     volume: "524"
     page: "103"
+    docket: "97-174"
+    citation: "524 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1998"
-    citation: "524 U.S. 103"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1997-080"
@@ -578,9 +749,12 @@ cases:
     title: "Dooley v. Korean Air Lines Co."
     volume: "524"
     page: "116"
+    docket: "97-704"
+    citation: "524 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1998"
-    citation: "524 U.S. 116"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1997-091"
@@ -588,9 +762,12 @@ cases:
     title: "United States v. Bajakajian"
     volume: "524"
     page: "321"
+    docket: "96-1487"
+    citation: "524 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1998"
-    citation: "524 U.S. 321"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1997-092"
@@ -598,9 +775,12 @@ cases:
     title: "Pennsylvania Bd. of Probation and Parole v. Scott"
     volume: "524"
     page: "357"
+    docket: "97-581"
+    citation: "524 U.S. 357"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1998"
-    citation: "524 U.S. 357"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1998-021"
@@ -608,9 +788,12 @@ cases:
     title: "Hughes Aircraft Co. v. Jacobson"
     volume: "525"
     page: "432"
+    docket: "97-1287"
+    citation: "525 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1999"
-    citation: "525 U.S. 432"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1998-027"
@@ -618,9 +801,12 @@ cases:
     title: "Arizona Dept. of Revenue v. Blaze Constr. Co."
     volume: "526"
     page: "032"
+    docket: "97-1536"
+    citation: "526 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1999"
-    citation: "526 U.S. 32"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1998-041"
@@ -628,9 +814,12 @@ cases:
     title: "United States v. Rodriguez-Moreno"
     volume: "526"
     page: "275"
+    docket: "97-1139"
+    citation: "526 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 30, 1999"
-    citation: "526 U.S. 275"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1998-054"
@@ -638,9 +827,12 @@ cases:
     title: "Hunt v. Cromartie"
     volume: "526"
     page: "541"
+    docket: "98-85"
+    citation: "526 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1999"
-    citation: "526 U.S. 541"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1998-055"
@@ -648,9 +840,12 @@ cases:
     title: "Florida v. White"
     volume: "526"
     page: "559"
+    docket: "98-223"
+    citation: "526 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1999"
-    citation: "526 U.S. 559"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1998-073"
@@ -658,9 +853,12 @@ cases:
     title: "Cunningham v. Hamilton County"
     volume: "527"
     page: "198"
+    docket: "98-727"
+    citation: "527 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1999"
-    citation: "527 U.S. 198"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1998-079"
@@ -668,9 +866,12 @@ cases:
     title: "Jones v. United States"
     volume: "527"
     page: "373"
+    docket: "97-9361"
+    citation: "527 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1999"
-    citation: "527 U.S. 373"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1999-023"
@@ -678,9 +879,12 @@ cases:
     title: "Smith v. Robbins"
     volume: "528"
     page: "259"
+    docket: "98-1037"
+    citation: "528 U.S. 259"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 19, 2000"
-    citation: "528 U.S. 259"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1999-027"
@@ -688,9 +892,12 @@ cases:
     title: "Baral v. United States"
     volume: "528"
     page: "431"
+    docket: "98-1667"
+    citation: "528 U.S. 431"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 22, 2000"
-    citation: "528 U.S. 431"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1999-054"
@@ -698,9 +905,12 @@ cases:
     title: "Beck v. Prupis"
     volume: "529"
     page: "494"
+    docket: "98-1480"
+    citation: "529 U.S. 494"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 26, 2000"
-    citation: "529 U.S. 494"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1999-056"
@@ -708,9 +918,12 @@ cases:
     title: "Christensen v. Harris County"
     volume: "529"
     page: "576"
+    docket: "98-1167"
+    citation: "529 U.S. 576"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 2000"
-    citation: "529 U.S. 576"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1999-070"
@@ -718,9 +931,12 @@ cases:
     title: "Sims v. Apfel"
     volume: "530"
     page: "103"
+    docket: "98-9537"
+    citation: "530 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 2000"
-    citation: "530 U.S. 103"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1999-075"
@@ -728,9 +944,12 @@ cases:
     title: "Harris Trust and Sav. Bank v. Salomon Smith Barney Inc."
     volume: "530"
     page: "238"
+    docket: "99-579"
+    citation: "530 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 2000"
-    citation: "530 U.S. 238"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1999-076"
@@ -738,9 +957,12 @@ cases:
     title: "Carter v. United States"
     volume: "530"
     page: "255"
+    docket: "99-5716"
+    citation: "530 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 2000"
-    citation: "530 U.S. 255"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "1999-087"
@@ -748,9 +970,12 @@ cases:
     title: "Mitchell v. Helms"
     volume: "530"
     page: "793"
+    docket: "98-1648"
+    citation: "530 U.S. 793"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 28, 2000"
-    citation: "530 U.S. 793"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2000-012"
@@ -758,9 +983,12 @@ cases:
     title: "Gitlitz v. Commissioner"
     volume: "531"
     page: "206"
+    docket: "99-1295"
+    citation: "531 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 2001"
-    citation: "531 U.S. 206"
+    voteMajority: 8
+    voteMinority: 1
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2000-019"
@@ -768,9 +996,12 @@ cases:
     title: "Director of Revenue of Mo. v. CoBank ACB"
     volume: "531"
     page: "316"
+    docket: "99-1792"
+    citation: "531 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 20, 2001"
-    citation: "531 U.S. 316"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2000-036"
@@ -778,9 +1009,12 @@ cases:
     title: "Egelhoff v. Egelhoff"
     volume: "532"
     page: "141"
+    docket: "99-1529"
+    citation: "532 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 21, 2001"
-    citation: "532 U.S. 141"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2000-040"
@@ -788,9 +1022,12 @@ cases:
     title: "Shaw v. Murphy"
     volume: "532"
     page: "223"
+    docket: "99-1613"
+    citation: "532 U.S. 223"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 18, 2001"
-    citation: "532 U.S. 223"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2000-050"
@@ -798,9 +1035,12 @@ cases:
     title: "United States v. Oakland Cannabis Buyers&rsquo; Cooperative"
     volume: "532"
     page: "483"
+    docket: "00-151"
+    citation: "532 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 2001"
-    citation: "532 U.S. 483"
+    voteMajority: 8
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2000-067"
@@ -808,9 +1048,12 @@ cases:
     title: "Pollard v. E. I. du Pont de Nemours &amp; Co."
     volume: "532"
     page: "843"
+    docket: "00-763"
+    citation: "532 U.S. 843"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 2001"
-    citation: "532 U.S. 843"
+    voteMajority: 8
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2000-071"
@@ -818,9 +1061,12 @@ cases:
     title: "Good News Club v. Milford Central School"
     volume: "533"
     page: "098"
+    docket: "99-2036"
+    citation: "533 U.S. 98"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 2001"
-    citation: "533 U.S. 98"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2000-086"
@@ -828,9 +1074,12 @@ cases:
     title: "Tyler v. Cain"
     volume: "533"
     page: "656"
+    docket: "00-5961"
+    citation: "533 U.S. 656"
     pdfSource: "loc"
     dateDecision: "Thursday, June 28, 2001"
-    citation: "533 U.S. 656"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2001-008"
@@ -838,9 +1087,12 @@ cases:
     title: "J. E. M. Ag Supply, Inc. v. Pioneer Hi-Bred International, Inc."
     volume: "534"
     page: "124"
+    docket: "99-1996"
+    citation: "534 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 2001"
-    citation: "534 U.S. 124"
+    voteMajority: 6
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2001-022"
@@ -848,9 +1100,12 @@ cases:
     title: "Barnhart v. Sigmon Coal Co."
     volume: "534"
     page: "438"
+    docket: "00-1307"
+    citation: "534 U.S. 438"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 19, 2002"
-    citation: "534 U.S. 438"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2001-024"
@@ -858,9 +1113,12 @@ cases:
     title: "Swierkiewicz v. Sorema N. A."
     volume: "534"
     page: "506"
+    docket: "00-1853"
+    citation: "534 U.S. 506"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 2002"
-    citation: "534 U.S. 506"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2001-046"
@@ -868,9 +1126,12 @@ cases:
     title: "Ashcroft v. American Civil Liberties Union"
     volume: "535"
     page: "564"
+    docket: "00-1293"
+    citation: "535 U.S. 564"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 2002"
-    citation: "535 U.S. 564"
+    voteMajority: 8
+    voteMinority: 1
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2001-053"
@@ -878,9 +1139,12 @@ cases:
     title: "Federal Maritime Comm&apos;n v. South Carolina Ports Authority"
     volume: "535"
     page: "743"
+    docket: "01-46"
+    citation: "535 U.S. 743"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 2002"
-    citation: "535 U.S. 743"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2001-061"
@@ -888,9 +1152,12 @@ cases:
     title: "National Railroad Passenger Corporation v. Morgan"
     volume: "536"
     page: "101"
+    docket: "00-1614"
+    citation: "536 U.S. 101"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 2002"
-    citation: "536 U.S. 101"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2001-083"
@@ -898,9 +1165,12 @@ cases:
     title: "Board of Ed. of Independent School Dist. No. 92 of Pottawatomie Cty. v. Earls"
     volume: "536"
     page: "822"
+    docket: "01-332"
+    citation: "536 U.S. 822"
     pdfSource: "loc"
     dateDecision: "Thursday, June 27, 2002"
-    citation: "536 U.S. 822"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2002-008"
@@ -908,9 +1178,12 @@ cases:
     title: "United States v. Bean"
     volume: "537"
     page: "071"
+    docket: "01-704"
+    citation: "537 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 10, 2002"
-    citation: "537 U.S. 71"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2002-013"
@@ -918,9 +1191,12 @@ cases:
     title: "Pierce County v. Guillen"
     volume: "537"
     page: "129"
+    docket: "01-1229"
+    citation: "537 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 14, 2003"
-    citation: "537 U.S. 129"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2002-034"
@@ -928,9 +1204,12 @@ cases:
     title: "Woodford v. Garceau"
     volume: "538"
     page: "202"
+    docket: "01-1862"
+    citation: "538 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 25, 2003"
-    citation: "538 U.S. 202"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2002-058"
@@ -938,9 +1217,12 @@ cases:
     title: "Chavez v. Martinez"
     volume: "538"
     page: "760"
+    docket: "01-1444"
+    citation: "538 U.S. 760"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 27, 2003"
-    citation: "538 U.S. 760"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2002-059"
@@ -948,9 +1230,12 @@ cases:
     title: "National Park Hospitality Assn. v. Department of Interior"
     volume: "538"
     page: "803"
+    docket: "02-196"
+    citation: "538 U.S. 803"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 27, 2003"
-    citation: "538 U.S. 803"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2002-064"
@@ -958,9 +1243,12 @@ cases:
     title: "Entergy La., Inc. v. Louisiana Pub. Serv. Comm&apos;n"
     volume: "539"
     page: "039"
+    docket: "02-299"
+    citation: "539 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 2003"
-    citation: "539 U.S. 39"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2002-068"
@@ -968,9 +1256,12 @@ cases:
     title: "Desert Palace, Inc. v. Costa"
     volume: "539"
     page: "090"
+    docket: "02-679"
+    citation: "539 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 2003"
-    citation: "539 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2003-005"
@@ -978,9 +1269,12 @@ cases:
     title: "Raytheon Co. v. Hernandez"
     volume: "540"
     page: "044"
+    docket: "02-749"
+    citation: "540 U.S. 44"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 2, 2003"
-    citation: "540 U.S. 44"
+    voteMajority: 7
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2003-033"
@@ -988,9 +1282,12 @@ cases:
     title: "Olympic Airways v. Husain"
     volume: "540"
     page: "644"
+    docket: "02-1348"
+    citation: "540 U.S. 644"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 2004"
-    citation: "540 U.S. 644"
+    voteMajority: 6
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2003-043"
@@ -998,9 +1295,12 @@ cases:
     title: "United States v. Galletti"
     volume: "541"
     page: "114"
+    docket: "02-1389"
+    citation: "541 U.S. 114"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 23, 2004"
-    citation: "541 U.S. 114"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2003-049"
@@ -1008,9 +1308,12 @@ cases:
     title: "Household Credit Services, Inc. v. Pfennig"
     volume: "541"
     page: "232"
+    docket: "02-857"
+    citation: "541 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 21, 2004"
-    citation: "541 U.S. 232"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2003-067"
@@ -1018,9 +1321,12 @@ cases:
     title: "Department of Transportation v. Public Citizen"
     volume: "541"
     page: "752"
+    docket: "03-358"
+    citation: "541 U.S. 752"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 2004"
-    citation: "541 U.S. 752"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2003-076"
@@ -1028,9 +1334,12 @@ cases:
     title: "Aetna Health Inc. v. Davila"
     volume: "542"
     page: "200"
+    docket: "02-1845"
+    citation: "542 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 2004"
-    citation: "542 U.S. 200"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2003-077"
@@ -1038,9 +1347,12 @@ cases:
     title: "Pliler v. Ford"
     volume: "542"
     page: "225"
+    docket: "03-221"
+    citation: "542 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 2004"
-    citation: "542 U.S. 225"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2003-083"
@@ -1048,9 +1360,12 @@ cases:
     title: "Beard v. Banks"
     volume: "542"
     page: "406"
+    docket: "02-1603"
+    citation: "542 U.S. 406"
     pdfSource: "loc"
     dateDecision: "Thursday, June 24, 2004"
-    citation: "542 U.S. 406"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2003-088"
@@ -1058,9 +1373,12 @@ cases:
     title: "United States v. Patane"
     volume: "542"
     page: "630"
+    docket: "02-1183"
+    citation: "542 U.S. 630"
     pdfSource: "loc"
     dateDecision: "Monday, June 28, 2004"
-    citation: "542 U.S. 630"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2004-010"
@@ -1068,9 +1386,12 @@ cases:
     title: "Cooper Industries, Inc. v. Aviall Services, Inc."
     volume: "543"
     page: "157"
+    docket: "02-1192"
+    citation: "543 U.S. 157"
     pdfSource: "scotusBound"
     dateDecision: "Monday, December 13, 2004"
-    citation: "543 U.S. 157"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2004-022"
@@ -1078,9 +1399,12 @@ cases:
     title: "Stewart v. Dutra Constr. Co."
     volume: "543"
     page: "481"
+    docket: "03-814"
+    citation: "543 U.S. 481"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, February 22, 2005"
-    citation: "543 U.S. 481"
+    voteMajority: 8
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2004-039"
@@ -1088,9 +1412,12 @@ cases:
     title: "Rousey v. Jacoway"
     volume: "544"
     page: "320"
+    docket: "03-1407"
+    citation: "544 U.S. 320"
     pdfSource: "scotusBound"
     dateDecision: "Monday, April 4, 2005"
-    citation: "544 U.S. 320"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2004-041"
@@ -1098,9 +1425,12 @@ cases:
     title: "Pasquantino v. United States"
     volume: "544"
     page: "349"
+    docket: "03-725"
+    citation: "544 U.S. 349"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, April 26, 2005"
-    citation: "544 U.S. 349"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2004-048"
@@ -1108,9 +1438,12 @@ cases:
     title: "Clingman v. Beaver"
     volume: "544"
     page: "581"
+    docket: "04-37"
+    citation: "544 U.S. 581"
     pdfSource: "scotusBound"
     dateDecision: "Monday, May 23, 2005"
-    citation: "544 U.S. 581"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2004-066"
@@ -1118,9 +1451,12 @@ cases:
     title: "Graham County Soil &amp; Water Conservation Dist. v. United States ex rel. Wilson"
     volume: "545"
     page: "409"
+    docket: "04-169"
+    citation: "545 U.S. 409"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 20, 2005"
-    citation: "545 U.S. 409"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2004-072"
@@ -1128,9 +1464,12 @@ cases:
     title: "Orff v. United States"
     volume: "545"
     page: "596"
+    docket: "03-1566"
+    citation: "545 U.S. 596"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 23, 2005"
-    citation: "545 U.S. 596"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2004-080"
@@ -1138,9 +1477,12 @@ cases:
     title: "National Cable &amp; Telecommunications Assn. v. Brand X Internet Services"
     volume: "545"
     page: "967"
+    docket: "04-277"
+    citation: "545 U.S. 967"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 27, 2005"
-    citation: "545 U.S. 967"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2005-011"
@@ -1148,9 +1490,12 @@ cases:
     title: "Wagnon v. Prairie Band Potawatomi Nation"
     volume: "546"
     page: "095"
+    docket: "04-631"
+    citation: "546 U.S. 95"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, December 6, 2005"
-    citation: "546 U.S. 95"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2005-024"
@@ -1158,9 +1503,12 @@ cases:
     title: "Unitherm Food Systems, Inc. v. Swift-Eckrich, Inc."
     volume: "546"
     page: "394"
+    docket: "04-597"
+    citation: "546 U.S. 394"
     pdfSource: "scotusBound"
     dateDecision: "Monday, January 23, 2006"
-    citation: "546 U.S. 394"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2005-036"
@@ -1168,9 +1516,12 @@ cases:
     title: "Texaco Inc. v. Dagher"
     volume: "547"
     page: "001"
+    docket: "04-805"
+    citation: "547 U.S. 1"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, February 28, 2006"
-    citation: "547 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2005-046"
@@ -1178,9 +1529,12 @@ cases:
     title: "Northern Ins. Co. of N. Y. v. ChathamCounty"
     volume: "547"
     page: "189"
+    docket: "04-1618"
+    citation: "547 U.S. 189"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, April 25, 2006"
-    citation: "547 U.S. 189"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2005-056"
@@ -1188,9 +1542,12 @@ cases:
     title: "eBay Inc. v. MercExchange, L. L. C."
     volume: "547"
     page: "388"
+    docket: "05-130"
+    citation: "547 U.S. 388"
     pdfSource: "scotusBound"
     dateDecision: "Monday, May 15, 2006"
-    citation: "547 U.S. 388"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2005-071"
@@ -1198,9 +1555,12 @@ cases:
     title: "Samson v. California"
     volume: "547"
     page: "843"
+    docket: "04-9728"
+    citation: "547 U.S. 843"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 19, 2006"
-    citation: "547 U.S. 843"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2005-079"
@@ -1208,9 +1568,12 @@ cases:
     title: "Kansas v. Marsh"
     volume: "548"
     page: "163"
+    docket: "04-1170"
+    citation: "548 U.S. 163"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 26, 2006"
-    citation: "548 U.S. 163"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2005-080"
@@ -1218,9 +1581,12 @@ cases:
     title: "Washington v. Recuenco"
     volume: "548"
     page: "212"
+    docket: "05-83"
+    citation: "548 U.S. 212"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 26, 2006"
-    citation: "548 U.S. 212"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2006-005"
@@ -1228,9 +1594,12 @@ cases:
     title: "Carey v. Musladin"
     volume: "549"
     page: "070"
+    docket: "05-785"
+    citation: "549 U.S. 70"
     pdfSource: "scotusBound"
     dateDecision: "Monday, December 11, 2006"
-    citation: "549 U.S. 70"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2006-015"
@@ -1238,9 +1607,12 @@ cases:
     title: "Weyerhaeuser Co. v. Ross-Simmons Hardwood Lumber Co."
     volume: "549"
     page: "312"
+    docket: "05-381"
+    citation: "549 U.S. 312"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, February 20, 2007"
-    citation: "549 U.S. 312"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2006-016"
@@ -1248,9 +1620,12 @@ cases:
     title: "Lawrence v. Florida"
     volume: "549"
     page: "327"
+    docket: "05-8820"
+    citation: "549 U.S. 327"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, February 20, 2007"
-    citation: "549 U.S. 327"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2006-025"
@@ -1258,9 +1633,12 @@ cases:
     title: "Limtiaco v. Camacho"
     volume: "549"
     page: "483"
+    docket: "06-116"
+    citation: "549 U.S. 483"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, March 27, 2007"
-    citation: "549 U.S. 483"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2006-041"
@@ -1268,9 +1646,12 @@ cases:
     title: "Schriro v. Landrigan"
     volume: "550"
     page: "465"
+    docket: "05-1575"
+    citation: "550 U.S. 465"
     pdfSource: "scotusBound"
     dateDecision: "Monday, May 14, 2007"
-    citation: "550 U.S. 465"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2006-056"
@@ -1278,9 +1659,12 @@ cases:
     title: "United States v. Atlantic Research Corp."
     volume: "551"
     page: "128"
+    docket: "06-562"
+    citation: "551 U.S. 128"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 11, 2007"
-    citation: "551 U.S. 128"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2006-060"
@@ -1288,9 +1672,12 @@ cases:
     title: "Permanent Mission of India to United Nations v. City of New York"
     volume: "551"
     page: "193"
+    docket: "06-134"
+    citation: "551 U.S. 193"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 14, 2007"
-    citation: "551 U.S. 193"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2006-061"
@@ -1298,9 +1685,12 @@ cases:
     title: "Bowles v. Russell"
     volume: "551"
     page: "205"
+    docket: "06-5306"
+    citation: "551 U.S. 205"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 14, 2007"
-    citation: "551 U.S. 205"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2007-014"
@@ -1308,9 +1698,12 @@ cases:
     title: "Ali v. Federal Bureau of Prisons"
     volume: "552"
     page: "214"
+    docket: "06-9130"
+    citation: "552 U.S. 214"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, January 22, 2008"
-    citation: "552 U.S. 214"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2007-020"
@@ -1318,9 +1711,12 @@ cases:
     title: "Sprint/United Management Co. v. Mendelsohn"
     volume: "552"
     page: "379"
+    docket: "06-1221"
+    citation: "552 U.S. 379"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, February 26, 2008"
-    citation: "552 U.S. 379"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2007-024"
@@ -1328,9 +1724,12 @@ cases:
     title: "Washington State Grange v. Washington State Republican Party"
     volume: "552"
     page: "442"
+    docket: "06-713"
+    citation: "552 U.S. 442"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, March 18, 2008"
-    citation: "552 U.S. 442"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2007-045"
@@ -1338,9 +1737,12 @@ cases:
     title: "Regalado Cuellar v. United States"
     volume: "553"
     page: "550"
+    docket: "06-1456"
+    citation: "553 U.S. 550"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 2, 2008"
-    citation: "553 U.S. 550"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2007-048"
@@ -1348,9 +1750,12 @@ cases:
     title: "Quanta Computer, Inc. v. LG Electronics, Inc."
     volume: "553"
     page: "617"
+    docket: "06-937"
+    citation: "553 U.S. 617"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 9, 2008"
-    citation: "553 U.S. 617"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2007-049"
@@ -1358,9 +1763,12 @@ cases:
     title: "Bridge v. Phoenix Bond &amp; Indemnity Co."
     volume: "553"
     page: "639"
+    docket: "07-210"
+    citation: "553 U.S. 639"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 9, 2008"
-    citation: "553 U.S. 639"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2007-057"
@@ -1368,9 +1776,12 @@ cases:
     title: "Florida Dept. of Revenue v. Piccadilly Cafeterias, Inc."
     volume: "554"
     page: "033"
+    docket: "07-312"
+    citation: "554 U.S. 33"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 16, 2008"
-    citation: "554 U.S. 33"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2008-007"
@@ -1378,9 +1789,12 @@ cases:
     title: "Jimenez v. Quarterman"
     volume: "555"
     page: "113"
+    docket: "07-6984"
+    citation: "555 U.S. 113"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, January 13, 2009"
-    citation: "555 U.S. 113"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2008-011"
@@ -1388,9 +1802,12 @@ cases:
     title: "Waddington v. Sarausad"
     volume: "555"
     page: "179"
+    docket: "07-772"
+    citation: "555 U.S. 179"
     pdfSource: "scotusBound"
     dateDecision: "Wednesday, January 21, 2009"
-    citation: "555 U.S. 179"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2008-023"
@@ -1398,9 +1815,12 @@ cases:
     title: "Carcieri v. Salazar"
     volume: "555"
     page: "379"
+    docket: "07-526"
+    citation: "555 U.S. 379"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, February 24, 2009"
-    citation: "555 U.S. 379"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2008-034"
@@ -1408,9 +1828,12 @@ cases:
     title: "Knowles v. Mirzayance"
     volume: "556"
     page: "111"
+    docket: "07-1315"
+    citation: "556 U.S. 111"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, March 24, 2009"
-    citation: "556 U.S. 111"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2008-041"
@@ -1418,9 +1841,12 @@ cases:
     title: "14 Penn Plaza LLC v. Pyett"
     volume: "556"
     page: "247"
+    docket: "07-581"
+    citation: "556 U.S. 247"
     pdfSource: "scotusBound"
     dateDecision: "Wednesday, April 1, 2009"
-    citation: "556 U.S. 247"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2008-054"
@@ -1428,9 +1854,12 @@ cases:
     title: "Carlsbad Technology, Inc. v. HIF Bio, Inc."
     volume: "556"
     page: "635"
+    docket: "07-1437"
+    citation: "556 U.S. 635"
     pdfSource: "scotusBound"
     dateDecision: "Monday, May 4, 2009"
-    citation: "556 U.S. 635"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2008-066"
@@ -1438,9 +1867,12 @@ cases:
     title: "United States ex rel. Eisenstein v. City of New York"
     volume: "556"
     page: "928"
+    docket: "08-660"
+    citation: "556 U.S. 928"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 8, 2009"
-    citation: "556 U.S. 928"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2008-074"
@@ -1448,9 +1880,12 @@ cases:
     title: "Gross v. FBL Financial Services, Inc."
     volume: "557"
     page: "167"
+    docket: "08-441"
+    citation: "557 U.S. 167"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 18, 2009"
-    citation: "557 U.S. 167"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2008-080"
@@ -1458,9 +1893,12 @@ cases:
     title: "Atlantic Sounding Co. v. Townsend"
     volume: "557"
     page: "404"
+    docket: "08-214"
+    citation: "557 U.S. 404"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 25, 2009"
-    citation: "557 U.S. 404"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2009-028"
@@ -1468,9 +1906,12 @@ cases:
     title: "Reed Elsevier, Inc. v. Muchnick"
     volume: "559"
     page: "154"
+    docket: "08-103"
+    citation: "559 U.S. 154"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, March 2, 2010"
-    citation: "559 U.S. 154"
+    voteMajority: 8
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2009-032"
@@ -1478,9 +1919,12 @@ cases:
     title: "Bloate v. United States"
     volume: "559"
     page: "196"
+    docket: "08-728"
+    citation: "559 U.S. 196"
     pdfSource: "scotusBound"
     dateDecision: "Monday, March 8, 2010"
-    citation: "559 U.S. 196"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2009-038"
@@ -1488,9 +1932,12 @@ cases:
     title: "United Student Aid Funds, Inc. v. Espinosa"
     volume: "559"
     page: "260"
+    docket: "08-1134"
+    citation: "559 U.S. 260"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, March 23, 2010"
-    citation: "559 U.S. 260"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2009-055"
@@ -1498,9 +1945,12 @@ cases:
     title: "Hardt v. Reliance Standard Life Ins. Co."
     volume: "560"
     page: "242"
+    docket: "09-448"
+    citation: "560 U.S. 242"
     pdfSource: "scotusBound"
     dateDecision: "Monday, May 24, 2010"
-    citation: "560 U.S. 242"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2009-069"
@@ -1508,9 +1958,12 @@ cases:
     title: "Astrue v. Ratliff"
     volume: "560"
     page: "586"
+    docket: "08-1322"
+    citation: "560 U.S. 586"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 14, 2010"
-    citation: "560 U.S. 586"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2009-075"
@@ -1518,9 +1971,12 @@ cases:
     title: "Schwab v. Reilly"
     volume: "560"
     page: "770"
+    docket: "08-538"
+    citation: "560 U.S. 770"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 17, 2010"
-    citation: "560 U.S. 770"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2009-083"
@@ -1528,9 +1984,12 @@ cases:
     title: "Granite Rock Co. v. Teamsters"
     volume: "561"
     page: "287"
+    docket: "08-1214"
+    citation: "561 U.S. 287"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 24, 2010"
-    citation: "561 U.S. 287"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2009-084"
@@ -1538,9 +1997,12 @@ cases:
     title: "Magwood v. Patterson"
     volume: "561"
     page: "320"
+    docket: "09-158"
+    citation: "561 U.S. 320"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 24, 2010"
-    citation: "561 U.S. 320"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2010-031"
@@ -1548,9 +2010,12 @@ cases:
     title: "Connick v. Thompson"
     volume: "563"
     page: "051"
+    docket: "09-571"
+    citation: "563 U.S. 51"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, March 29, 2011"
-    citation: "563 U.S. 51"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2010-035"
@@ -1558,9 +2023,12 @@ cases:
     title: "Cullen v. Pinholster"
     volume: "563"
     page: "170"
+    docket: "09-1088"
+    citation: "563 U.S. 170"
     pdfSource: "scotusBound"
     dateDecision: "Monday, April 4, 2011"
-    citation: "563 U.S. 170"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2010-036"
@@ -1568,9 +2036,12 @@ cases:
     title: "Sossamon v. Texas"
     volume: "563"
     page: "277"
+    docket: "08-1438"
+    citation: "563 U.S. 277"
     pdfSource: "scotusBound"
     dateDecision: "Wednesday, April 20, 2011"
-    citation: "563 U.S. 277"
+    voteMajority: 6
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2010-039"
@@ -1578,9 +2049,12 @@ cases:
     title: "Montana v. Wyoming"
     volume: "563"
     page: "368"
+    docket: "137 Orig."
+    citation: "563 U.S. 368"
     pdfSource: "scotusBound"
     dateDecision: "Monday, May 2, 2011"
-    citation: "563 U.S. 368"
+    voteMajority: 7
+    voteMinority: 1
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2010-042"
@@ -1588,9 +2062,12 @@ cases:
     title: "Schindler Elevator Corp. v. United States ex rel. Kirk"
     volume: "563"
     page: "401"
+    docket: "10-188"
+    citation: "563 U.S. 401"
     pdfSource: "scotusBound"
     dateDecision: "Monday, May 16, 2011"
-    citation: "563 U.S. 401"
+    voteMajority: 5
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2010-054"
@@ -1598,9 +2075,12 @@ cases:
     title: "McNeill v. United States"
     volume: "563"
     page: "816"
+    docket: "10-5258"
+    citation: "563 U.S. 816"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 6, 2011"
-    citation: "563 U.S. 816"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2010-059"
@@ -1608,9 +2088,12 @@ cases:
     title: "Talk America, Inc. v. Michigan Bell Telephone Co."
     volume: "564"
     page: "050"
+    docket: "10-313"
+    citation: "564 U.S. 50"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 9, 2011"
-    citation: "564 U.S. 50"
+    voteMajority: 8
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2010-063"
@@ -1618,9 +2101,12 @@ cases:
     title: "Janus Capital Group, Inc. v. First Derivative Traders"
     volume: "564"
     page: "135"
+    docket: "09-525"
+    citation: "564 U.S. 135"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 13, 2011"
-    citation: "564 U.S. 135"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2010-076"
@@ -1628,9 +2114,12 @@ cases:
     title: "PLIVA, Inc. v. Mensing"
     volume: "564"
     page: "604"
+    docket: "09-993"
+    citation: "564 U.S. 604"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 23, 2011"
-    citation: "564 U.S. 604"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2011-010"
@@ -1638,9 +2127,12 @@ cases:
     title: "Pacific Operators Offshore, LLP v. Valladolid"
     volume: "565"
     page: "207"
+    docket: "10-507"
+    citation: "565 U.S. 207"
     pdfSource: "scotusBound"
     dateDecision: "Wednesday, January 11, 2012"
-    citation: "565 U.S. 207"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2011-022"
@@ -1648,385 +2140,482 @@ cases:
     title: "Kawashima v. Holder"
     volume: "565"
     page: "478"
+    docket: "10-577"
+    citation: "565 U.S. 478"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, February 21, 2012"
-    citation: "565 U.S. 478"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2011-029"
     termId: "2011-10"
     title: "Kurns v. Railroad Friction Products Corp."
+    docket: "10-879"
     pdfSource: "scotusBound"
     dateDecision: "Wednesday, February 29, 2012"
-    citation: "No. 10-879"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2011-050"
     termId: "2011-10"
     title: "Kappos v. Hyatt"
+    docket: "10-1219"
     pdfSource: "scotusBound"
     dateDecision: "Wednesday, April 18, 2012"
-    citation: "No. 10-1219"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2011-061"
     termId: "2011-10"
     title: "Reichle v. Howards"
+    docket: "11-262"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 4, 2012"
-    citation: "No. 11-262"
+    voteMajority: 8
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2011-064"
     termId: "2011-10"
     title: "Elgin v. Department of Treasury"
+    docket: "11-45"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 11, 2012"
-    citation: "No. 11-45"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2012-009"
     termId: "2012-10"
     title: "Ryan v. Valencia Gonzales"
+    docket: "10-930"
     pdfSource: "slipopinion/12"
     dateDecision: "Tuesday, January 8, 2013"
-    citation: "No. 10-930"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2012-020"
     termId: "2012-10"
     title: "Marx v. General Revenue Corp."
+    docket: "11-1175"
     pdfSource: "slipopinion/12"
     dateDecision: "Tuesday, February 26, 2013"
-    citation: "No. 11-1175"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2012-032"
     termId: "2012-10"
     title: "Millbrook v. United States"
+    docket: "11-10362"
     pdfSource: "slipopinion/12"
     dateDecision: "Wednesday, March 27, 2013"
-    citation: "No. 11-10362"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2012-034"
     termId: "2012-10"
     title: "Genesis HealthCare Corp. v. Symczyk"
+    docket: "11-1059"
     pdfSource: "slipopinion/12"
     dateDecision: "Tuesday, April 16, 2013"
-    citation: "No. 11-1059"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2012-045"
     termId: "2012-10"
     title: "PPL Corp. v. Commissioner"
+    docket: "12-43"
     pdfSource: "slipopinion/12"
     dateDecision: "Monday, May 20, 2013"
-    citation: "No. 12-43"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2012-053"
     termId: "2012-10"
     title: "Horne v. Department of Agriculture"
+    docket: "12-123"
     pdfSource: "slipopinion/12"
     dateDecision: "Monday, June 10, 2013"
-    citation: "No. 12-123"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2012-059"
     termId: "2012-10"
     title: "Association for Molecular Pathology v. Myriad Genetics, Inc."
+    docket: "12-398"
     pdfSource: "slipopinion/12"
     dateDecision: "Thursday, June 13, 2013"
-    citation: "No. 12-398"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2012-062"
     termId: "2012-10"
     title: "Alleyne v. United States"
+    docket: "11-9335"
     pdfSource: "slipopinion/12"
     dateDecision: "Monday, June 17, 2013"
-    citation: "No. 11-9335"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2013-010"
     termId: "2013-10"
     title: "Heimeshoff v. Hartford Life &amp; Accident Ins. Co."
+    docket: "12-729"
     pdfSource: "slipopinion/13"
     dateDecision: "Monday, December 16, 2013"
-    citation: "No. 12-729"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2013-021"
     termId: "2013-10"
     title: "Walden v. Fiore"
+    docket: "12-574"
     pdfSource: "slipopinion/13"
     dateDecision: "Tuesday, February 25, 2014"
-    citation: "No. 12-574"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2013-026"
     termId: "2013-10"
     title: "Lozano v. Montoya Alvarez"
+    docket: "12-820"
     pdfSource: "slipopinion/13"
     dateDecision: "Wednesday, March 5, 2014"
-    citation: "No. 12-820"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2013-036"
     termId: "2013-10"
     title: "Prado Navarette v. California"
+    docket: "12-9490"
     pdfSource: "slipopinion/13"
     dateDecision: "Tuesday, April 22, 2014"
-    citation: "No. 12-9490"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2013-055"
     termId: "2013-10"
     title: "Executive Benefits Ins. Agency v. Arkison"
+    docket: "12-1200"
     pdfSource: "slipopinion/13"
     dateDecision: "Monday, June 9, 2014"
-    citation: "No. 12-1200"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2013-060"
     termId: "2013-10"
     title: "Susan B. Anthony List v. Driehaus"
+    docket: "13-193"
     pdfSource: "slipopinion/13"
     dateDecision: "Monday, June 16, 2014"
-    citation: "No. 13-193"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2013-074"
     termId: "2013-10"
     title: "Alice Corp. v. CLS Bank Int&rsquo;l"
+    docket: "13-298"
     pdfSource: "slipopinion/13"
     dateDecision: "Thursday, June 19, 2014"
-    citation: "No. 13-298"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2014-005"
     termId: "2014-10"
     title: "Integrity Staffing Solutions, Inc. v. Busk"
+    docket: "13-433"
     pdfSource: "slipopinion/14"
     dateDecision: "Tuesday, December 9, 2014"
-    citation: "No. 13-433"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2014-018"
     termId: "2014-10"
     title: "M&amp;G Polymers USA, LLC v. Tackett"
+    docket: "13-1010"
     pdfSource: "slipopinion/14"
     dateDecision: "Monday, January 26, 2015"
-    citation: "No. 13-1010"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2014-029"
     termId: "2014-10"
     title: "Direct Marketing Assn. v. Brohl"
+    docket: "13-1032"
     pdfSource: "slipopinion/14"
     dateDecision: "Tuesday, March 3, 2015"
-    citation: "No. 13-1032"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2014-037"
     termId: "2014-10"
     title: "Reed v. Town of Gilbert"
+    docket: "13-502"
     pdfSource: "slipopinion/14"
     dateDecision: "Thursday, June 18, 2015"
-    citation: "No. 13-502"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2014-047"
     termId: "2014-10"
     title: "Baker Botts L. L. P. v. ASARCO LLC"
+    docket: "14-103"
     pdfSource: "slipopinion/14"
     dateDecision: "Monday, June 15, 2015"
-    citation: "No. 14-103"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2014-060"
     termId: "2014-10"
     title: "Bank of America, N. A. v. Caulkett"
+    docket: "13-1421"
     pdfSource: "slipopinion/14"
     dateDecision: "Monday, June 1, 2015"
-    citation: "No. 13-1421"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2014-067"
     termId: "2014-10"
     title: "McFadden v. United States"
+    docket: "14-378"
     pdfSource: "slipopinion/14"
     dateDecision: "Thursday, June 18, 2015"
-    citation: "No. 14-378"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2015-016"
     termId: "2015-10"
     title: "Montanile v. Board of Trustees of Nat. Elevator Industry Health Benefit Plan"
+    docket: "14-723"
     pdfSource: "slipopinion/15"
     dateDecision: "Wednesday, January 20, 2016"
-    citation: "No. 14-723"
+    voteMajority: 8
+    voteMinority: 1
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2015-017"
     termId: "2015-10"
     title: "Kingdomware Technologies, Inc. v. United States"
+    docket: "14-916"
     pdfSource: "slipopinion/15"
     dateDecision: "Thursday, June 16, 2016"
-    citation: "No. 14-916"
+    voteMajority: 8
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2015-020"
     termId: "2015-10"
     title: "Musacchio v. United States"
+    docket: "14-1095"
     pdfSource: "slipopinion/15"
     dateDecision: "Monday, January 25, 2016"
-    citation: "No. 14-1095"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2015-037"
     termId: "2015-10"
     title: "Nebraska v. Parker"
+    docket: "14-1406"
     pdfSource: "slipopinion/15"
     dateDecision: "Tuesday, March 22, 2016"
-    citation: "No. 14-1406"
+    voteMajority: 8
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2015-039"
     termId: "2015-10"
     title: "Utah v. Strieff"
+    docket: "14-1373"
     pdfSource: "slipopinion/15"
     dateDecision: "Monday, June 20, 2016"
-    citation: "No. 14-1373"
+    voteMajority: 5
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2015-062"
     termId: "2015-10"
     title: "Puerto Rico v. Franklin Cal. Tax-Free Trust"
+    docket: "15-233"
     pdfSource: "slipopinion/15"
     dateDecision: "Monday, June 13, 2016"
-    citation: "No. 15-233"
+    voteMajority: 5
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2015-067"
     termId: "2015-10"
     title: "Universal Health Services, Inc. v. United States ex rel. Escobar"
+    docket: "15-7"
     pdfSource: "slipopinion/15"
     dateDecision: "Thursday, June 16, 2016"
-    citation: "No. 15-7"
+    voteMajority: 8
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2016-003"
     termId: "2016-10"
     title: "Manrique v. United States"
+    docket: "15-7250"
     pdfSource: "slipopinion/16"
     dateDecision: "Wednesday, April 19, 2017"
-    citation: "No. 15-7250"
+    voteMajority: 6
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2016-007"
     termId: "2016-10"
     title: "Star Athletica, L. L. C. v. Varsity Brands, Inc."
+    docket: "15-866"
     pdfSource: "slipopinion/16"
     dateDecision: "Wednesday, March 22, 2017"
-    citation: "No. 15-866"
+    voteMajority: 6
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2016-026"
     termId: "2016-10"
     title: "Beckles v. United States"
+    docket: "15-8544"
     pdfSource: "slipopinion/16"
     dateDecision: "Monday, March 6, 2017"
-    citation: "No. 15-8544"
+    voteMajority: 7
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2016-047"
     termId: "2016-10"
     title: "Esquivel-Quintana v. Sessions"
+    docket: "16-54"
     pdfSource: "slipopinion/16"
     dateDecision: "Tuesday, May 30, 2017"
-    citation: "No. 16-54"
+    voteMajority: 8
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2016-058"
     termId: "2016-10"
     title: "TC Heartland LLC v. Kraft Foods Group Brands LLC"
+    docket: "16-341"
     pdfSource: "slipopinion/16"
     dateDecision: "Monday, May 22, 2017"
-    citation: "No. 16-341"
+    voteMajority: 8
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2016-071"
     termId: "2016-10"
     title: "Davila v. Davis"
+    docket: "16-6219"
     pdfSource: "slipopinion/16"
     dateDecision: "Monday, June 26, 2017"
-    citation: "No. 16-6219"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2016-074"
     termId: "2016-10"
     title: "Sandoz Inc. v. Amgen Inc."
+    docket: "15-1039"
     pdfSource: "slipopinion/16"
     dateDecision: "Monday, June 12, 2017"
-    citation: "No. 15-1039"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2017-006"
     termId: "2017-10"
     title: "District of Columbia v. Wesby"
+    docket: "15-1485"
     pdfSource: "slipopinion/17"
     dateDecision: "Monday, January 22, 2018"
-    citation: "No. 15-1485"
+    voteMajority: 9
+    voteMinority: 0
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2017-017"
     termId: "2017-10"
     title: "Patchak v. Zinke"
+    docket: "16-498"
     pdfSource: "slipopinion/17"
     dateDecision: "Tuesday, February 27, 2018"
-    citation: "No. 16-498"
+    voteMajority: 6
+    voteMinority: 3
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2017-024"
     termId: "2017-10"
     title: "Oil States Energy Services, LLC v. Greene&rsquo;s Energy Group, LLC"
+    docket: "16-712"
     pdfSource: "slipopinion/17"
     dateDecision: "Tuesday, April 24, 2018"
-    citation: "No. 16-712"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2017-040"
     termId: "2017-10"
     title: "Encino Motor Cars, LLC v. Navarro"
+    docket: "16-1362"
     pdfSource: "slipopinion/17"
     dateDecision: "Monday, April 2, 2018"
-    citation: "No. 16-1362"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2017-041"
     termId: "2017-10"
     title: "National Institute of Family and Life Advocates v. Becerra"
+    docket: "16-1140"
     pdfSource: "slipopinion/17"
     dateDecision: "Tuesday, June 26, 2018"
-    citation: "No. 16-1140"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2017-044"
     termId: "2017-10"
     title: "Ohio v. American Express Co."
+    docket: "16-1454"
     pdfSource: "slipopinion/17"
     dateDecision: "Monday, June 25, 2018"
-    citation: "No. 16-1454"
+    voteMajority: 5
+    voteMinority: 4
     authorId: cthomas
     authorName: "Clarence Thomas"
   - id: "2017-058"
     termId: "2017-10"
     title: "WesternGeco LLC v. ION Geophysical Corp."
+    docket: "16-1011"
     pdfSource: "slipopinion/17"
     dateDecision: "Friday, June 22, 2018"
-    citation: "No. 16-1011"
+    voteMajority: 7
+    voteMinority: 2
     authorId: cthomas
     authorName: "Clarence Thomas"
 ---

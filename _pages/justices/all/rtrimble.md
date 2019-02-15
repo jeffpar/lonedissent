@@ -8,9 +8,11 @@ cases:
     title: "Edward&apos;s Lessee v. Darby"
     volume: "025"
     page: "206"
+    citation: "25 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1827"
-    citation: "25 U.S. 206"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1827-008"
@@ -18,9 +20,11 @@ cases:
     title: "Connor v. Featherstone"
     volume: "025"
     page: "199"
+    citation: "25 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Thursday, February 1, 1827"
-    citation: "25 U.S. 199"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1827-015"
@@ -28,9 +32,11 @@ cases:
     title: "Mallow v. Hinde"
     volume: "025"
     page: "193"
+    citation: "25 U.S. 193"
     pdfSource: "loc"
     dateDecision: "Saturday, February 17, 1827"
-    citation: "25 U.S. 193"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1827-022"
@@ -38,9 +44,11 @@ cases:
     title: "Montgomery v. Hernandez"
     volume: "025"
     page: "129"
+    citation: "25 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Thursday, February 22, 1827"
-    citation: "25 U.S. 129"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1827-030"
@@ -48,9 +56,11 @@ cases:
     title: "United States v. Nicholl"
     volume: "025"
     page: "505"
+    citation: "25 U.S. 505"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1827"
-    citation: "25 U.S. 505"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1827-031"
@@ -58,9 +68,11 @@ cases:
     title: "Newman v. Jackson"
     volume: "025"
     page: "570"
+    citation: "25 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1827"
-    citation: "25 U.S. 570"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1827-037"
@@ -68,9 +80,11 @@ cases:
     title: "The Antelope"
     volume: "025"
     page: "546"
+    citation: "25 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Saturday, March 10, 1827"
-    citation: "25 U.S. 546"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1827-042"
@@ -78,9 +92,11 @@ cases:
     title: "De la Croix v. Chamberlain"
     volume: "025"
     page: "599"
+    citation: "25 U.S. 599"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 14, 1827"
-    citation: "25 U.S. 599"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1828-007"
@@ -88,9 +104,11 @@ cases:
     title: "Wright v. Lessee of Hollingsworth"
     volume: "026"
     page: "165"
+    citation: "26 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 29, 1828"
-    citation: "26 U.S. 165"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1828-009"
@@ -98,9 +116,11 @@ cases:
     title: "Carroll v. Peake"
     volume: "026"
     page: "018"
+    citation: "26 U.S. 18"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1828"
-    citation: "26 U.S. 18"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1828-022"
@@ -108,9 +128,11 @@ cases:
     title: "Elliott v. Lessee of Peirsol"
     volume: "026"
     page: "328"
+    citation: "26 U.S. 328"
     pdfSource: "loc"
     dateDecision: "Saturday, February 16, 1828"
-    citation: "26 U.S. 328"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1828-025"
@@ -118,9 +140,11 @@ cases:
     title: "Steele&apos;s Lessee v. Spencer"
     volume: "026"
     page: "552"
+    citation: "26 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 19, 1828"
-    citation: "26 U.S. 552"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1828-038"
@@ -128,9 +152,11 @@ cases:
     title: "Karthaus v. Ferrer"
     volume: "026"
     page: "222"
+    citation: "26 U.S. 222"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 4, 1828"
-    citation: "26 U.S. 222"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1828-045"
@@ -138,9 +164,11 @@ cases:
     title: "Findlay v. Hinde"
     volume: "026"
     page: "241"
+    citation: "26 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 11, 1828"
-    citation: "26 U.S. 241"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
   - id: "1828-053"
@@ -148,9 +176,11 @@ cases:
     title: "Ross v. Doe"
     volume: "026"
     page: "655"
+    citation: "26 U.S. 655"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1828"
-    citation: "26 U.S. 655"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rtrimble
     authorName: "Robert Trimble"
 ---

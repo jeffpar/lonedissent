@@ -8,9 +8,12 @@ cases:
     title: "Carpenter v. Winn"
     volume: "221"
     page: "533"
+    docket: "135"
+    citation: "221 U.S. 533"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1911"
-    citation: "221 U.S. 533"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cehughes
     dissenterName: "Charles Hughes"
   - id: "1913-001"
@@ -18,9 +21,12 @@ cases:
     title: "Union Pacific R. Co. v. Sides"
     volume: "231"
     page: "213"
+    docket: "683"
+    citation: "231 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 213"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: cehughes
     dissenterName: "Charles Hughes"
   - id: "1913-023"
@@ -28,9 +34,12 @@ cases:
     title: "Union Pacific R. Co. v. Laramie Stock Yards Co."
     volume: "231"
     page: "190"
+    docket: "570"
+    citation: "231 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 190"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: cehughes
     dissenterName: "Charles Hughes"
   - id: "1913-024"
@@ -38,9 +47,12 @@ cases:
     title: "Union Pacific R. Co. v. Snow"
     volume: "231"
     page: "204"
+    docket: "682"
+    citation: "231 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 204"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: cehughes
     dissenterName: "Charles Hughes"
   - id: "1933-031"
@@ -48,9 +60,12 @@ cases:
     title: "Helvering v. Butterworth"
     volume: "290"
     page: "365"
+    docket: "75"
+    citation: "290 U.S. 365"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1933"
-    citation: "290 U.S. 365"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cehughes
     dissenterName: "Charles Hughes"
 ---

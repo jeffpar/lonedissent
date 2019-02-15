@@ -8,9 +8,11 @@ cases:
     title: "Parsons v. Bedford"
     volume: "028"
     page: "433"
+    citation: "28 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 9, 1830"
-    citation: "28 U.S. 433"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1835-003"
@@ -18,9 +20,11 @@ cases:
     title: "United States v. Bailey"
     volume: "034"
     page: "238"
+    citation: "34 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 20, 1835"
-    citation: "34 U.S. 238"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1836-013"
@@ -28,9 +32,11 @@ cases:
     title: "Boone v. Chiles"
     volume: "035"
     page: "177"
+    citation: "35 U.S. 177"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 3, 1836"
-    citation: "35 U.S. 177"
+    voteMajority: 4
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1842-021"
@@ -38,9 +44,11 @@ cases:
     title: "Prigg v. Pennsylvania"
     volume: "041"
     page: "539"
+    citation: "41 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 1, 1842"
-    citation: "41 U.S. 539"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1843-005"
@@ -48,9 +56,11 @@ cases:
     title: "United States v. Linn"
     volume: "042"
     page: "104"
+    citation: "42 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Thursday, January 26, 1843"
-    citation: "42 U.S. 104"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1843-019"
@@ -58,9 +68,11 @@ cases:
     title: "Bronson v. Kinzie"
     volume: "042"
     page: "311"
+    citation: "42 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Thursday, February 23, 1843"
-    citation: "42 U.S. 311"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1845-002"
@@ -68,9 +80,11 @@ cases:
     title: "Aldridge v. Williams"
     volume: "044"
     page: "009"
+    citation: "44 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Friday, December 20, 1844"
-    citation: "44 U.S. 9"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1845-010"
@@ -78,9 +92,11 @@ cases:
     title: "Lessee of Croghan v. Nelson"
     volume: "044"
     page: "187"
+    citation: "44 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1845"
-    citation: "44 U.S. 187"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1845-011"
@@ -88,9 +104,11 @@ cases:
     title: "Kendall v. Stokes"
     volume: "044"
     page: "087"
+    citation: "44 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Friday, January 10, 1845"
-    citation: "44 U.S. 87"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1846-014"
@@ -98,9 +116,11 @@ cases:
     title: "Gratiot v. United States"
     volume: "045"
     page: "080"
+    citation: "45 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 14, 1846"
-    citation: "45 U.S. 80"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1847-025"
@@ -108,9 +128,11 @@ cases:
     title: "Fox v. Ohio"
     volume: "046"
     page: "410"
+    citation: "46 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1847"
-    citation: "46 U.S. 410"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1849-042"
@@ -118,9 +140,11 @@ cases:
     title: "Lewis ex rel. Longworth v. Lewis"
     volume: "048"
     page: "776"
+    citation: "48 U.S. 776"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1849"
-    citation: "48 U.S. 776"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1850-014"
@@ -128,9 +152,11 @@ cases:
     title: "Bissell v. Penrose"
     volume: "049"
     page: "317"
+    citation: "49 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 22, 1850"
-    citation: "49 U.S. 317"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1850-029"
@@ -138,9 +164,11 @@ cases:
     title: "Le Roy v. Beard"
     volume: "049"
     page: "451"
+    citation: "49 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 19, 1850"
-    citation: "49 U.S. 451"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1850-031"
@@ -148,9 +176,11 @@ cases:
     title: "Mills v. County of St. Clair"
     volume: "049"
     page: "569"
+    citation: "49 U.S. 569"
     pdfSource: "loc"
     dateDecision: "Thursday, February 21, 1850"
-    citation: "49 U.S. 569"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1850-055"
@@ -158,9 +188,11 @@ cases:
     title: "Fleming v. Page"
     volume: "050"
     page: "603"
+    citation: "50 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Friday, May 3, 1850"
-    citation: "50 U.S. 603"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1852-001"
@@ -168,9 +200,11 @@ cases:
     title: "Moore v. Illinois"
     volume: "055"
     page: "013"
+    citation: "55 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 21, 1852"
-    citation: "55 U.S. 13"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1852-016"
@@ -178,9 +212,11 @@ cases:
     title: "Silsby v. Foote"
     volume: "055"
     page: "218"
+    citation: "55 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 11, 1853"
-    citation: "55 U.S. 218"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1853-025"
@@ -188,9 +224,11 @@ cases:
     title: "United States v. Dawson"
     volume: "056"
     page: "467"
+    citation: "56 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 31, 1854"
-    citation: "56 U.S. 467"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1854-032"
@@ -198,9 +236,11 @@ cases:
     title: "United States ex rel. Goodrich v. Guthrie"
     volume: "058"
     page: "284"
+    citation: "58 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 6, 1855"
-    citation: "58 U.S. 284"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1855-059"
@@ -208,9 +248,11 @@ cases:
     title: "Pennsylvania v. Wheeling &amp; Belmont Bridge Co."
     volume: "059"
     page: "421"
+    citation: "59 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1856"
-    citation: "59 U.S. 421"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1856-051"
@@ -218,9 +260,11 @@ cases:
     title: "Bryan v. Forsyth"
     volume: "060"
     page: "334"
+    citation: "60 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
-    citation: "60 U.S. 334"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1856-052"
@@ -228,9 +272,11 @@ cases:
     title: "Ballance v. Papin"
     volume: "060"
     page: "342"
+    citation: "60 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
-    citation: "60 U.S. 342"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
   - id: "1857-017"
@@ -238,9 +284,11 @@ cases:
     title: "Dynes v. Hoover"
     volume: "061"
     page: "065"
+    citation: "61 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1858"
-    citation: "61 U.S. 65"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmclean
     dissenterName: "John McLean"
 ---

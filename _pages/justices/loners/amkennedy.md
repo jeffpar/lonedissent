@@ -8,9 +8,12 @@ cases:
     title: "Harris v. Reed"
     volume: "489"
     page: "255"
+    docket: "87-5677"
+    citation: "489 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 22, 1989"
-    citation: "489 U.S. 255"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: amkennedy
     dissenterName: "Anthony Kennedy"
   - id: "1997-040"
@@ -18,9 +21,12 @@ cases:
     title: "Lewis v. United States"
     volume: "523"
     page: "155"
+    docket: "96-7151"
+    citation: "523 U.S. 155"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1998"
-    citation: "523 U.S. 155"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: amkennedy
     dissenterName: "Anthony Kennedy"
   - id: "2004-029"
@@ -28,11 +34,14 @@ cases:
     title: "Wilkinson v. Dotson"
     volume: "544"
     page: "074"
+    docket: "03-287"
+    citation: "544 U.S. 74"
     pdfSource: "scotusBound"
     pdfPage: 168
     pdfPageDissent: 182
     dateDecision: "Monday, March 7, 2005"
-    citation: "544 U.S. 74"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: amkennedy
     dissenterName: "Anthony Kennedy"
   - id: "2010-051"
@@ -40,9 +49,12 @@ cases:
     title: "Global-Tech Appliances, Inc. v. SEB S. A."
     volume: "563"
     page: "754"
+    docket: "10-6"
+    citation: "563 U.S. 754"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, May 31, 2011"
-    citation: "563 U.S. 754"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: amkennedy
     dissenterName: "Anthony Kennedy"
 ---

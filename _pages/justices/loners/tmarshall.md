@@ -8,9 +8,12 @@ cases:
     title: "Dunn v. Louisiana"
     volume: "399"
     page: "520"
+    docket: "664"
+    citation: "399 U.S. 520"
     pdfSource: "loc"
     dateDecision: "Monday, June 29, 1970"
-    citation: "399 U.S. 520"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1974-067"
@@ -18,9 +21,12 @@ cases:
     title: "Burns v. Alcala"
     volume: "420"
     page: "575"
+    docket: "73-1708"
+    citation: "420 U.S. 575"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 18, 1975"
-    citation: "420 U.S. 575"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1975-156"
@@ -28,9 +34,12 @@ cases:
     title: "Massachusetts Bd. of Retirement v. Murgia"
     volume: "427"
     page: "307"
+    docket: "74-1044"
+    citation: "427 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Friday, June 25, 1976"
-    citation: "427 U.S. 307"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1976-042"
@@ -38,9 +47,12 @@ cases:
     title: "Oregon v. Mathiason"
     volume: "429"
     page: "492"
+    docket: "76-201"
+    citation: "429 U.S. 492"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 25, 1977"
-    citation: "429 U.S. 492"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1976-134"
@@ -48,9 +60,12 @@ cases:
     title: "Lee v. United States"
     volume: "432"
     page: "023"
+    docket: "76-5187"
+    citation: "432 U.S. 23"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1977"
-    citation: "432 U.S. 23"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1978-039"
@@ -58,9 +73,12 @@ cases:
     title: "Great Atlantic &amp; Pacific Tea Co. v. FTC"
     volume: "440"
     page: "069"
+    docket: "77-654"
+    citation: "440 U.S. 69"
     pdfSource: "loc"
     dateDecision: "Thursday, February 22, 1979"
-    citation: "440 U.S. 69"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1978-040"
@@ -68,9 +86,12 @@ cases:
     title: "Vance v. Bradley"
     volume: "440"
     page: "093"
+    docket: "77-1254"
+    citation: "440 U.S. 93"
     pdfSource: "loc"
     dateDecision: "Thursday, February 22, 1979"
-    citation: "440 U.S. 93"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1978-063"
@@ -78,9 +99,12 @@ cases:
     title: "Connor v. Coleman"
     volume: "440"
     page: "612"
+    docket: "78-1013"
+    citation: "440 U.S. 612"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1979"
-    citation: "440 U.S. 612"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1978-087"
@@ -88,9 +112,12 @@ cases:
     title: "Smith v. Highway Employees"
     volume: "441"
     page: "463"
+    docket: "78-1223"
+    citation: "441 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1979"
-    citation: "441 U.S. 463"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1978-128"
@@ -98,9 +125,12 @@ cases:
     title: "Touche Ross &amp; Co. v. Redington"
     volume: "442"
     page: "560"
+    docket: "78-309"
+    citation: "442 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1979"
-    citation: "442 U.S. 560"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1979-002"
@@ -108,9 +138,12 @@ cases:
     title: "United States v. Benmar Transport &amp; Leasing Corp."
     volume: "444"
     page: "004"
+    docket: "78-1602"
+    citation: "444 U.S. 4"
     pdfSource: "loc"
     dateDecision: "Monday, October 15, 1979"
-    citation: "444 U.S. 4"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1979-066"
@@ -118,9 +151,12 @@ cases:
     title: "Roberts v. United States"
     volume: "445"
     page: "552"
+    docket: "78-1793"
+    citation: "445 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 15, 1980"
-    citation: "445 U.S. 552"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1979-083"
@@ -128,9 +164,12 @@ cases:
     title: "Cuyler v. Sullivan"
     volume: "446"
     page: "335"
+    docket: "78-1832"
+    citation: "446 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1980"
-    citation: "446 U.S. 335"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1980-087"
@@ -138,9 +177,12 @@ cases:
     title: "Webb v. Webb"
     volume: "451"
     page: "493"
+    docket: "79-6853"
+    citation: "451 U.S. 493"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1981"
-    citation: "451 U.S. 493"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1980-089"
@@ -148,9 +190,12 @@ cases:
     title: "Parratt v. Taylor"
     volume: "451"
     page: "527"
+    docket: "79-1734"
+    citation: "451 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1981"
-    citation: "451 U.S. 527"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1980-114"
@@ -158,9 +203,12 @@ cases:
     title: "Rhodes v. Chapman"
     volume: "452"
     page: "337"
+    docket: "80-332"
+    citation: "452 U.S. 337"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1981"
-    citation: "452 U.S. 337"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1981-001"
@@ -168,9 +216,12 @@ cases:
     title: "Duckworth v. Serrano"
     volume: "454"
     page: "001"
+    docket: "80-2041"
+    citation: "454 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, October 19, 1981"
-    citation: "454 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1981-059"
@@ -178,9 +229,12 @@ cases:
     title: "Wainwright v. Torna"
     volume: "455"
     page: "586"
+    docket: "81-362"
+    citation: "455 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1982"
-    citation: "455 U.S. 586"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1981-061"
@@ -188,9 +242,12 @@ cases:
     title: "Fletcher v. Weir"
     volume: "455"
     page: "603"
+    docket: "81-1049"
+    citation: "455 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1982"
-    citation: "455 U.S. 603"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1981-163"
@@ -198,9 +255,12 @@ cases:
     title: "Crawford v. Board of Ed. of Los Angeles"
     volume: "458"
     page: "527"
+    docket: "81-38"
+    citation: "458 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 30, 1982"
-    citation: "458 U.S. 527"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1982-004"
@@ -208,9 +268,12 @@ cases:
     title: "Landon v. Plasencia"
     volume: "459"
     page: "021"
+    docket: "81-129"
+    citation: "459 U.S. 21"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1982"
-    citation: "459 U.S. 21"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1982-005"
@@ -218,9 +281,12 @@ cases:
     title: "Wyrick v. Fields"
     volume: "459"
     page: "042"
+    docket: "82-158"
+    citation: "459 U.S. 42"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1982"
-    citation: "459 U.S. 42"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1982-006"
@@ -228,9 +294,12 @@ cases:
     title: "Griggs v. Provident Consumer Discount Co."
     volume: "459"
     page: "056"
+    docket: "82-5082"
+    citation: "459 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1982"
-    citation: "459 U.S. 56"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1982-027"
@@ -238,9 +307,12 @@ cases:
     title: "Associated Gen. Contractors of Cal., Inc. v. Carpenters"
     volume: "459"
     page: "519"
+    docket: "81-334"
+    citation: "459 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 22, 1983"
-    citation: "459 U.S. 519"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1982-058"
@@ -248,9 +320,12 @@ cases:
     title: "United States v. Rylander"
     volume: "460"
     page: "752"
+    docket: "81-1120"
+    citation: "460 U.S. 752"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 19, 1983"
-    citation: "460 U.S. 752"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1982-073"
@@ -258,9 +333,12 @@ cases:
     title: "Martinez v. Bynum"
     volume: "461"
     page: "321"
+    docket: "81-857"
+    citation: "461 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1983"
-    citation: "461 U.S. 321"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1982-078"
@@ -268,9 +346,12 @@ cases:
     title: "Heckler v. Campbell"
     volume: "461"
     page: "458"
+    docket: "81-1983"
+    citation: "461 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1983"
-    citation: "461 U.S. 458"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1982-085"
@@ -278,9 +359,12 @@ cases:
     title: "Morrison-Knudsen Constr. Co. v. Director, Office of Workers&apos; Compensation Programs"
     volume: "461"
     page: "624"
+    docket: "81-1891"
+    citation: "461 U.S. 624"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 24, 1983"
-    citation: "461 U.S. 624"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1982-116"
@@ -288,9 +372,12 @@ cases:
     title: "Maggio v. Fulford"
     volume: "462"
     page: "111"
+    docket: "82-1408"
+    citation: "462 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1983"
-    citation: "462 U.S. 111"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1983-011"
@@ -298,9 +385,12 @@ cases:
     title: "Rushen v. Spain"
     volume: "464"
     page: "114"
+    docket: "82-2083"
+    citation: "464 U.S. 114"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1983"
-    citation: "464 U.S. 114"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1983-091"
@@ -308,9 +398,12 @@ cases:
     title: "Strickland v. Washington"
     volume: "466"
     page: "668"
+    docket: "82-1554"
+    citation: "466 U.S. 668"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1984"
-    citation: "466 U.S. 668"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1983-106"
@@ -318,9 +411,12 @@ cases:
     title: "United States v. Gouveia"
     volume: "467"
     page: "180"
+    docket: "83-128"
+    citation: "467 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 29, 1984"
-    citation: "467 U.S. 180"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1985-035"
@@ -328,9 +424,12 @@ cases:
     title: "United States v. Mechanik"
     volume: "475"
     page: "066"
+    docket: "84-1640"
+    citation: "475 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 25, 1986"
-    citation: "475 U.S. 66"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1985-090"
@@ -338,9 +437,12 @@ cases:
     title: "Square D Co. v. Niagara Frontier Tariff Bureau, Inc."
     volume: "476"
     page: "409"
+    docket: "85-21"
+    citation: "476 U.S. 409"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 27, 1986"
-    citation: "476 U.S. 409"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1986-005"
@@ -348,9 +450,12 @@ cases:
     title: "Ansonia Bd. of Ed. v. Philbrook"
     volume: "479"
     page: "060"
+    docket: "85-495"
+    citation: "479 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1986"
-    citation: "479 U.S. 60"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1987-128"
@@ -358,9 +463,12 @@ cases:
     title: "United States Catholic Conference v. Abortion Rights Mobilization, Inc."
     volume: "487"
     page: "072"
+    docket: "87-416"
+    citation: "487 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1988"
-    citation: "487 U.S. 72"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1987-135"
@@ -368,9 +476,12 @@ cases:
     title: "Bank of Nova Scotia v. United States"
     volume: "487"
     page: "250"
+    docket: "87-578"
+    citation: "487 U.S. 250"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 22, 1988"
-    citation: "487 U.S. 250"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1988-103"
@@ -378,9 +489,12 @@ cases:
     title: "Alabama v. Smith"
     volume: "490"
     page: "794"
+    docket: "88-333"
+    citation: "490 U.S. 794"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1989"
-    citation: "490 U.S. 794"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1989-010"
@@ -388,9 +502,12 @@ cases:
     title: "Pavelic &amp; LeFlore v. Marvel Entertainment Group, Div. of Cadence Industries Corp."
     volume: "493"
     page: "120"
+    docket: "88-791"
+    citation: "493 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 5, 1989"
-    citation: "493 U.S. 120"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1989-102"
@@ -398,9 +515,12 @@ cases:
     title: "Illinois v. Perkins"
     volume: "496"
     page: "292"
+    docket: "88-1972"
+    citation: "496 U.S. 292"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1990"
-    citation: "496 U.S. 292"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
   - id: "1989-114"
@@ -408,9 +528,12 @@ cases:
     title: "Pennsylvania v. Muniz"
     volume: "496"
     page: "582"
+    docket: "89-213"
+    citation: "496 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1990"
-    citation: "496 U.S. 582"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: tmarshall
     dissenterName: "Thurgood Marshall"
 ---

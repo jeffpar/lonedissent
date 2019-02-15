@@ -8,9 +8,11 @@ cases:
     title: "Mason v. Haile"
     volume: "025"
     page: "370"
+    citation: "25 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 27, 1827"
-    citation: "25 U.S. 370"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: bwashington
     dissenterName: "Bushrod Washington"
 ---

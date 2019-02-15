@@ -8,9 +8,11 @@ cases:
     title: "Dunham v. Cincinnati, P., &amp; C. R. Co."
     volume: "068"
     page: "254"
+    citation: "68 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1864"
-    citation: "68 U.S. 254"
+    voteMajority: 9
+    voteMinority: 1
     dissenterId: ddavis
     dissenterName: "David Davis"
   - id: "1866-053"
@@ -18,9 +20,11 @@ cases:
     title: "Stanley v. Colt"
     volume: "072"
     page: "119"
+    citation: "72 U.S. 119"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1867"
-    citation: "72 U.S. 119"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ddavis
     dissenterName: "David Davis"
   - id: "1873-030"
@@ -28,9 +32,11 @@ cases:
     title: "Harrell v. Beall"
     volume: "084"
     page: "590"
+    citation: "84 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, November 24, 1873"
-    citation: "84 U.S. 590"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: ddavis
     dissenterName: "David Davis"
   - id: "1874-113"
@@ -38,9 +44,12 @@ cases:
     title: "Putnam v. Day"
     volume: "089"
     page: "060"
+    docket: "124"
+    citation: "89 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1875"
-    citation: "89 U.S. 60"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: ddavis
     dissenterName: "David Davis"
   - id: "1875-026"
@@ -48,9 +57,12 @@ cases:
     title: "Jackson v. Jackson"
     volume: "091"
     page: "122"
+    docket: "45"
+    citation: "91 U.S. 122"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1875"
-    citation: "91 U.S. 122"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ddavis
     dissenterName: "David Davis"
 ---

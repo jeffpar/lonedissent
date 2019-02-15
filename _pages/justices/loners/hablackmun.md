@@ -8,9 +8,12 @@ cases:
     title: "NLRB v. Textile Workers"
     volume: "409"
     page: "213"
+    docket: "71-711"
+    citation: "409 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Thursday, December 7, 1972"
-    citation: "409 U.S. 213"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1973-108"
@@ -18,9 +21,12 @@ cases:
     title: "Alexander v. &quot;Americans United&quot; Inc."
     volume: "416"
     page: "752"
+    docket: "72-1371"
+    citation: "416 U.S. 752"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 15, 1974"
-    citation: "416 U.S. 752"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1974-071"
@@ -28,9 +34,12 @@ cases:
     title: "Austin v. New Hampshire"
     volume: "420"
     page: "656"
+    docket: "73-2060"
+    citation: "420 U.S. 656"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 19, 1975"
-    citation: "420 U.S. 656"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1977-114"
@@ -38,9 +47,12 @@ cases:
     title: "Exxon Corp. v. Governor of Maryland"
     volume: "437"
     page: "117"
+    docket: "77-10"
+    citation: "437 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 14, 1978"
-    citation: "437 U.S. 117"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1977-117"
@@ -48,9 +60,12 @@ cases:
     title: "First Fed. Sav. &amp; Loan Assn. of Boston v. Tax Comm&apos;n of Mass."
     volume: "437"
     page: "255"
+    docket: "77-334"
+    citation: "437 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Thursday, June 15, 1978"
-    citation: "437 U.S. 255"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1978-021"
@@ -58,9 +73,12 @@ cases:
     title: "Mobay Chemical Corp. v. Costle"
     volume: "439"
     page: "320"
+    docket: "78-308"
+    citation: "439 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1979"
-    citation: "439 U.S. 320"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1979-026"
@@ -68,9 +86,12 @@ cases:
     title: "Hatzlachh Supply Co. v. United States"
     volume: "444"
     page: "460"
+    docket: "78-1175"
+    citation: "444 U.S. 460"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1980"
-    citation: "444 U.S. 460"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1979-046"
@@ -78,9 +99,12 @@ cases:
     title: "Bloomer v. Liberty Mut. Ins. Co."
     volume: "445"
     page: "074"
+    docket: "78-1418"
+    citation: "445 U.S. 74"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1980"
-    citation: "445 U.S. 74"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1979-087"
@@ -88,9 +112,12 @@ cases:
     title: "Navarro Savings Assn. v. Lee"
     volume: "446"
     page: "458"
+    docket: "79-465"
+    citation: "446 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1980"
-    citation: "446 U.S. 458"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1980-018"
@@ -98,9 +125,12 @@ cases:
     title: "Potomac Elec. Power Co. v. Director, Office of Workers&apos; Compensation Programs"
     volume: "449"
     page: "268"
+    docket: "79-816"
+    citation: "449 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1980"
-    citation: "449 U.S. 268"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1981-016"
@@ -108,9 +138,12 @@ cases:
     title: "Polk County v. Dodson"
     volume: "454"
     page: "312"
+    docket: "80-824"
+    citation: "454 U.S. 312"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1981"
-    citation: "454 U.S. 312"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1983-032"
@@ -118,9 +151,12 @@ cases:
     title: "United Building &amp; Constr. Trades Council of Camden Cty. v. Mayor and Council of Camden"
     volume: "465"
     page: "208"
+    docket: "81-2110"
+    citation: "465 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 21, 1984"
-    citation: "465 U.S. 208"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1985-115"
@@ -128,9 +164,12 @@ cases:
     title: "Wardair Canada Inc. v. Florida Dept. of Revenue"
     volume: "477"
     page: "001"
+    docket: "84-902"
+    citation: "477 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 18, 1986"
-    citation: "477 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1987-081"
@@ -138,9 +177,12 @@ cases:
     title: "Bankers Life &amp; Casualty Co. v. Crenshaw"
     volume: "486"
     page: "071"
+    docket: "85-1765"
+    citation: "486 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1988"
-    citation: "486 U.S. 71"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1988-140"
@@ -148,9 +190,12 @@ cases:
     title: "Department of Justice v. Tax Analysts"
     volume: "492"
     page: "136"
+    docket: "88-782"
+    citation: "492 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Friday, June 23, 1989"
-    citation: "492 U.S. 136"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1989-084"
@@ -158,9 +203,12 @@ cases:
     title: "United States v. Energy Resources Co."
     volume: "495"
     page: "545"
+    docket: "89-255"
+    citation: "495 U.S. 545"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 29, 1990"
-    citation: "495 U.S. 545"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1992-031"
@@ -168,9 +216,12 @@ cases:
     title: "Itel Containers Int&apos;l Corp. v. Huddleston"
     volume: "507"
     page: "060"
+    docket: "91-321"
+    citation: "507 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1993"
-    citation: "507 U.S. 60"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1992-041"
@@ -178,9 +229,12 @@ cases:
     title: "Reiter v. Cooper"
     volume: "507"
     page: "258"
+    docket: "91-1496"
+    citation: "507 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1993"
-    citation: "507 U.S. 258"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1992-103"
@@ -188,9 +242,12 @@ cases:
     title: "Sale v. Haitian Centers Council, Inc."
     volume: "509"
     page: "155"
+    docket: "92-344"
+    citation: "509 U.S. 155"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1993"
-    citation: "509 U.S. 155"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1993-009"
@@ -198,9 +255,12 @@ cases:
     title: "Tennessee v. Middlebrooks"
     volume: "510"
     page: "124"
+    docket: "92-989"
+    citation: "510 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1993"
-    citation: "510 U.S. 124"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1993-040"
@@ -208,9 +268,12 @@ cases:
     title: "Landgraf v. USI Film Products"
     volume: "511"
     page: "244"
+    docket: "92-757"
+    citation: "511 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 26, 1994"
-    citation: "511 U.S. 244"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1993-041"
@@ -218,9 +281,12 @@ cases:
     title: "Rivers v. Roadway Express, Inc."
     volume: "511"
     page: "298"
+    docket: "92-938"
+    citation: "511 U.S. 298"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 26, 1994"
-    citation: "511 U.S. 298"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
   - id: "1993-095"
@@ -228,9 +294,12 @@ cases:
     title: "Tuilaepa v. California"
     volume: "512"
     page: "967"
+    docket: "93-5131"
+    citation: "512 U.S. 967"
     pdfSource: "loc"
     dateDecision: "Thursday, June 30, 1994"
-    citation: "512 U.S. 967"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hablackmun
     dissenterName: "Harry Blackmun"
 ---

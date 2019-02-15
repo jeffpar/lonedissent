@@ -8,9 +8,12 @@ cases:
     title: "Cameron v. United States"
     volume: "148"
     page: "301"
+    docket: "42"
+    citation: "148 U.S. 301"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1893"
-    citation: "148 U.S. 301"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: mwfuller
     dissenterName: "Melville Fuller"
   - id: "1894-006"
@@ -18,9 +21,12 @@ cases:
     title: "Greeley v. Lowe"
     volume: "155"
     page: "058"
+    docket: "517"
+    citation: "155 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, October 29, 1894"
-    citation: "155 U.S. 58"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: mwfuller
     dissenterName: "Melville Fuller"
   - id: "1894-232"
@@ -28,9 +34,12 @@ cases:
     title: "In re Quarles"
     volume: "158"
     page: "532"
+    docket: "14 Orig."
+    citation: "158 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1895"
-    citation: "158 U.S. 532"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: mwfuller
     dissenterName: "Melville Fuller"
   - id: "1899-007"
@@ -38,9 +47,12 @@ cases:
     title: "Ainsa v. New Mexico &amp; Arizona R. Co."
     volume: "175"
     page: "076"
+    docket: "1"
+    citation: "175 U.S. 76"
     pdfSource: "loc"
     dateDecision: "Friday, October 13, 1899"
-    citation: "175 U.S. 76"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: mwfuller
     dissenterName: "Melville Fuller"
   - id: "1904-071"
@@ -48,9 +60,12 @@ cases:
     title: "Delaware, L. &amp; W. R. Co. v. Pennsylvania"
     volume: "198"
     page: "341"
+    docket: "208"
+    citation: "198 U.S. 341"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1905"
-    citation: "198 U.S. 341"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: mwfuller
     dissenterName: "Melville Fuller"
   - id: "1905-110"
@@ -58,9 +73,12 @@ cases:
     title: "United States v. Cornell S. S. Co."
     volume: "202"
     page: "184"
+    docket: "239"
+    citation: "202 U.S. 184"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1906"
-    citation: "202 U.S. 184"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: mwfuller
     dissenterName: "Melville Fuller"
   - id: "1906-140"
@@ -68,9 +86,12 @@ cases:
     title: "Delamater v. South Dakota"
     volume: "205"
     page: "093"
+    docket: "149"
+    citation: "205 U.S. 93"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1907"
-    citation: "205 U.S. 93"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: mwfuller
     dissenterName: "Melville Fuller"
   - id: "1907-141"
@@ -78,9 +99,12 @@ cases:
     title: "In re Moore"
     volume: "209"
     page: "490"
+    docket: "17 Orig."
+    citation: "209 U.S. 490"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1908"
-    citation: "209 U.S. 490"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: mwfuller
     dissenterName: "Melville Fuller"
   - id: "1908-018"
@@ -88,9 +112,12 @@ cases:
     title: "Prentis v. Atlantic Coast Line Co."
     volume: "211"
     page: "210"
+    docket: "270"
+    citation: "211 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1908"
-    citation: "211 U.S. 210"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: mwfuller
     dissenterName: "Melville Fuller"
   - id: "1908-023"
@@ -98,9 +125,12 @@ cases:
     title: "Honolulu Rapid Transit &amp; Land Co. v. Hawaii"
     volume: "211"
     page: "282"
+    docket: "412"
+    citation: "211 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1908"
-    citation: "211 U.S. 282"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: mwfuller
     dissenterName: "Melville Fuller"
   - id: "1908-061"
@@ -108,9 +138,12 @@ cases:
     title: "Presidio County v. Noel-Young Bond &amp; Stock Co."
     volume: "212"
     page: "058"
+    docket: "41"
+    citation: "212 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1909"
-    citation: "212 U.S. 58"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: mwfuller
     dissenterName: "Melville Fuller"
   - id: "1909-122"
@@ -118,9 +151,12 @@ cases:
     title: "St. Louis Southwestern R. Co. v. Arkansas"
     volume: "217"
     page: "136"
+    docket: "111"
+    citation: "217 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1910"
-    citation: "217 U.S. 136"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: mwfuller
     dissenterName: "Melville Fuller"
 ---

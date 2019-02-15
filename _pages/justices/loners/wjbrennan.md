@@ -8,9 +8,12 @@ cases:
     title: "California v. Green"
     volume: "399"
     page: "149"
+    docket: "387"
+    citation: "399 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 23, 1970"
-    citation: "399 U.S. 149"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1972-095"
@@ -18,9 +21,12 @@ cases:
     title: "Employees of Dept. of Public Health and Welfare of Mo. v. Department of Public Health and Welfare of Mo."
     volume: "411"
     page: "279"
+    docket: "71-1021"
+    citation: "411 U.S. 279"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 18, 1973"
-    citation: "411 U.S. 279"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1974-117"
@@ -28,9 +34,12 @@ cases:
     title: "Murphy v. Florida"
     volume: "421"
     page: "794"
+    docket: "74-5116"
+    citation: "421 U.S. 794"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1975"
-    citation: "421 U.S. 794"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1975-010"
@@ -38,9 +47,12 @@ cases:
     title: "Menna v. New York"
     volume: "423"
     page: "061"
+    docket: "75-5401"
+    citation: "423 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1975"
-    citation: "423 U.S. 61"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1975-078"
@@ -48,9 +60,12 @@ cases:
     title: "Beckwith v. United States"
     volume: "425"
     page: "341"
+    docket: "74-1243"
+    citation: "425 U.S. 341"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 21, 1976"
-    citation: "425 U.S. 341"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1975-087"
@@ -58,9 +73,12 @@ cases:
     title: "Francis v. Henderson"
     volume: "425"
     page: "536"
+    docket: "74-5808"
+    citation: "425 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1976"
-    citation: "425 U.S. 536"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1976-076"
@@ -68,9 +86,12 @@ cases:
     title: "Santa Fe Industries, Inc. v. Green"
     volume: "430"
     page: "462"
+    docket: "75-1753"
+    citation: "430 U.S. 462"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 23, 1977"
-    citation: "430 U.S. 462"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1976-137"
@@ -78,9 +99,12 @@ cases:
     title: "E. I. du Pont de Nemours &amp; Co. v. Collins"
     volume: "432"
     page: "046"
+    docket: "75-1870"
+    citation: "432 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Thursday, June 16, 1977"
-    citation: "432 U.S. 46"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1976-166"
@@ -88,9 +112,12 @@ cases:
     title: "Shaffer v. Heitner"
     volume: "433"
     page: "186"
+    docket: "75-1812"
+    citation: "433 U.S. 186"
     pdfSource: "loc"
     dateDecision: "Friday, June 24, 1977"
-    citation: "433 U.S. 186"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1977-040"
@@ -98,9 +125,12 @@ cases:
     title: "Califano v. Torres"
     volume: "435"
     page: "001"
+    docket: "77-88"
+    citation: "435 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1978"
-    citation: "435 U.S. 1"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1978-124"
@@ -108,9 +138,12 @@ cases:
     title: "Helstoski v. Meanor"
     volume: "442"
     page: "500"
+    docket: "78-546"
+    citation: "442 U.S. 500"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1979"
-    citation: "442 U.S. 500"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1978-143"
@@ -118,9 +151,12 @@ cases:
     title: "Hutchinson v. Proxmire"
     volume: "443"
     page: "111"
+    docket: "78-680"
+    citation: "443 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 26, 1979"
-    citation: "443 U.S. 111"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1978-145"
@@ -128,9 +164,12 @@ cases:
     title: "Wolston v. Reader&apos;s Digest Assn., Inc."
     volume: "443"
     page: "157"
+    docket: "78-5414"
+    citation: "443 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 26, 1979"
-    citation: "443 U.S. 157"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1979-135"
@@ -138,9 +177,12 @@ cases:
     title: "O&apos;Bannon v. Town Court Nursing Center"
     volume: "447"
     page: "773"
+    docket: "78-1318"
+    citation: "447 U.S. 773"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1980"
-    citation: "447 U.S. 773"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1980-116"
@@ -148,9 +190,12 @@ cases:
     title: "Federated Department Stores, Inc. v. Moitie"
     volume: "452"
     page: "394"
+    docket: "79-1517"
+    citation: "452 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1981"
-    citation: "452 U.S. 394"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1981-077"
@@ -158,9 +203,12 @@ cases:
     title: "United States v. Frady"
     volume: "456"
     page: "152"
+    docket: "80-1595"
+    citation: "456 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1982"
-    citation: "456 U.S. 152"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1983-080"
@@ -168,9 +216,12 @@ cases:
     title: "Helicopteros Nacionales de Colombia, S. A. v. Hall"
     volume: "466"
     page: "408"
+    docket: "82-1127"
+    citation: "466 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 24, 1984"
-    citation: "466 U.S. 408"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1984-055"
@@ -178,9 +229,12 @@ cases:
     title: "United States v. Sharpe"
     volume: "470"
     page: "675"
+    docket: "83-529"
+    citation: "470 U.S. 675"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 20, 1985"
-    citation: "470 U.S. 675"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1985-044"
@@ -188,9 +242,12 @@ cases:
     title: "Fisher v. Berkeley"
     volume: "475"
     page: "260"
+    docket: "84-1538"
+    citation: "475 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 26, 1986"
-    citation: "475 U.S. 260"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1985-159"
@@ -198,9 +255,12 @@ cases:
     title: "Randall v. Loftsgaarden"
     volume: "478"
     page: "647"
+    docket: "85-519"
+    citation: "478 U.S. 647"
     pdfSource: "loc"
     dateDecision: "Wednesday, July 2, 1986"
-    citation: "478 U.S. 647"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1986-156"
@@ -208,9 +268,12 @@ cases:
     title: "Rivera v. Minnich"
     volume: "483"
     page: "574"
+    docket: "86-98"
+    citation: "483 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Thursday, June 25, 1987"
-    citation: "483 U.S. 574"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
   - id: "1987-138"
@@ -218,9 +281,12 @@ cases:
     title: "Torres v. Oakland Scavenger Co."
     volume: "487"
     page: "312"
+    docket: "86-1845"
+    citation: "487 U.S. 312"
     pdfSource: "loc"
     dateDecision: "Friday, June 24, 1988"
-    citation: "487 U.S. 312"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wjbrennan
     dissenterName: "William Brennan"
 ---

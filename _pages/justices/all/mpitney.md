@@ -8,9 +8,12 @@ cases:
     title: "The Jason"
     volume: "225"
     page: "032"
+    docket: "220"
+    citation: "225 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1912"
-    citation: "225 U.S. 32"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1911-067"
@@ -18,9 +21,12 @@ cases:
     title: "Johannessen v. United States"
     volume: "225"
     page: "227"
+    docket: "230"
+    citation: "225 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1912"
-    citation: "225 U.S. 227"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1911-097"
@@ -28,9 +34,12 @@ cases:
     title: "Pickford v. Talbott"
     volume: "225"
     page: "651"
+    docket: "512"
+    citation: "225 U.S. 651"
     pdfSource: "loc"
     dateDecision: "Friday, June 7, 1912"
-    citation: "225 U.S. 651"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1911-098"
@@ -38,9 +47,12 @@ cases:
     title: "Ex parte Webb"
     volume: "225"
     page: "663"
+    docket: "11 Orig."
+    citation: "225 U.S. 663"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1912"
-    citation: "225 U.S. 663"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-025"
@@ -48,9 +60,12 @@ cases:
     title: "Beach v. United States"
     volume: "226"
     page: "243"
+    docket: "7"
+    citation: "226 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 243"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-026"
@@ -58,9 +73,12 @@ cases:
     title: "Rosenthal v. New York"
     volume: "226"
     page: "260"
+    docket: "28"
+    citation: "226 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 260"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-027"
@@ -68,9 +86,12 @@ cases:
     title: "Zakonaite v. Wolf"
     volume: "226"
     page: "272"
+    docket: "53"
+    citation: "226 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 272"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-028"
@@ -78,9 +99,12 @@ cases:
     title: "National Surety Co. v. Architectural Decorating Co."
     volume: "226"
     page: "276"
+    docket: "425"
+    citation: "226 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 276"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-060"
@@ -88,9 +112,12 @@ cases:
     title: "Thompson v. Thompson"
     volume: "226"
     page: "551"
+    docket: "45"
+    citation: "226 U.S. 551"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1913"
-    citation: "226 U.S. 551"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-061"
@@ -98,9 +125,12 @@ cases:
     title: "Evans v. United States"
     volume: "226"
     page: "567"
+    docket: "65"
+    citation: "226 U.S. 567"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1913"
-    citation: "226 U.S. 567"
+    voteMajority: 7
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-062"
@@ -108,9 +138,12 @@ cases:
     title: "Missouri, K. &amp; T. R. Co. v. Wulf"
     volume: "226"
     page: "570"
+    docket: "517"
+    citation: "226 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1913"
-    citation: "226 U.S. 570"
+    voteMajority: 8
+    voteMinority: 1
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-064"
@@ -118,9 +151,12 @@ cases:
     title: "El Paso &amp; Southwestern R. Co. v. Eichel &amp; Weikel"
     volume: "226"
     page: "590"
+    docket: "252"
+    citation: "226 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1913"
-    citation: "226 U.S. 590"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-127"
@@ -128,9 +164,12 @@ cases:
     title: "Rosaly v. Graham y Frazer"
     volume: "227"
     page: "584"
+    docket: "64"
+    citation: "227 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 584"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-128"
@@ -138,9 +177,12 @@ cases:
     title: "Ensign v. Pennsylvania"
     volume: "227"
     page: "592"
+    docket: "123"
+    citation: "227 U.S. 592"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 592"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-129"
@@ -148,9 +190,12 @@ cases:
     title: "Southern Pacific Co. v. Schuyler"
     volume: "227"
     page: "601"
+    docket: "143"
+    citation: "227 U.S. 601"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 601"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-130"
@@ -158,9 +203,12 @@ cases:
     title: "Starr v. Long Jim"
     volume: "227"
     page: "613"
+    docket: "151"
+    citation: "227 U.S. 613"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 613"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-131"
@@ -168,9 +216,12 @@ cases:
     title: "Zavelo v. Reeves"
     volume: "227"
     page: "625"
+    docket: "299"
+    citation: "227 U.S. 625"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 625"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-160"
@@ -178,9 +229,12 @@ cases:
     title: "Sweeney v. Erving"
     volume: "228"
     page: "233"
+    docket: "60"
+    citation: "228 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 233"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-161"
@@ -188,9 +242,12 @@ cases:
     title: "Donnelly v. United States"
     volume: "228"
     page: "243"
+    docket: "97"
+    citation: "228 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 243"
+    voteMajority: 6
+    voteMinority: 3
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-162"
@@ -198,9 +255,12 @@ cases:
     title: "McLaughlin Brothers v. Hallowell"
     volume: "228"
     page: "278"
+    docket: "149"
+    citation: "228 U.S. 278"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 278"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-163"
@@ -208,9 +268,12 @@ cases:
     title: "McCoach v. Minehill &amp; Schuylkill Haven R. Co."
     volume: "228"
     page: "295"
+    docket: "670"
+    citation: "228 U.S. 295"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 295"
+    voteMajority: 6
+    voteMinority: 3
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-195"
@@ -218,9 +281,12 @@ cases:
     title: "Lewis Publishing Co. v. Wyman"
     volume: "228"
     page: "610"
+    docket: "179"
+    citation: "228 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1913"
-    citation: "228 U.S. 610"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-207"
@@ -228,9 +294,12 @@ cases:
     title: "Donnelly v. United States"
     volume: "228"
     page: "708"
+    docket: "97"
+    citation: "228 U.S. 708"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "228 U.S. 708"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-227"
@@ -238,9 +307,12 @@ cases:
     title: "Dill v. Ebey"
     volume: "229"
     page: "199"
+    docket: "191"
+    citation: "229 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 199"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-228"
@@ -248,9 +320,12 @@ cases:
     title: "Morse v. United States"
     volume: "229"
     page: "208"
+    docket: "274"
+    citation: "229 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 208"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-229"
@@ -258,9 +333,12 @@ cases:
     title: "Citizens Nat. Bank of Roswell v. Davisson"
     volume: "229"
     page: "212"
+    docket: "551"
+    citation: "229 U.S. 212"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 212"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-230"
@@ -268,9 +346,12 @@ cases:
     title: "United States v. Wright"
     volume: "229"
     page: "226"
+    docket: "918"
+    citation: "229 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 226"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-231"
@@ -278,9 +359,12 @@ cases:
     title: "United States v. Shelley"
     volume: "229"
     page: "239"
+    docket: "943"
+    citation: "229 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 239"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-259"
@@ -288,9 +372,12 @@ cases:
     title: "Camp v. Boyd"
     volume: "229"
     page: "530"
+    docket: "71"
+    citation: "229 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "229 U.S. 530"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-260"
@@ -298,9 +385,12 @@ cases:
     title: "Campbell v. Northwest Eckington Improvement Co."
     volume: "229"
     page: "561"
+    docket: "251"
+    citation: "229 U.S. 561"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "229 U.S. 561"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-261"
@@ -308,9 +398,12 @@ cases:
     title: "Lem Woon v. Oregon"
     volume: "229"
     page: "586"
+    docket: "261"
+    citation: "229 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "229 U.S. 586"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-262"
@@ -318,9 +411,12 @@ cases:
     title: "Wilkinson v. McKimmie"
     volume: "229"
     page: "590"
+    docket: "273"
+    citation: "229 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "229 U.S. 590"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-263"
@@ -328,9 +424,12 @@ cases:
     title: "District of Columbia v. Petty"
     volume: "229"
     page: "593"
+    docket: "316"
+    citation: "229 U.S. 593"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "229 U.S. 593"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-275"
@@ -338,9 +437,12 @@ cases:
     title: "Ochoa v. Hernandez y Morales"
     volume: "230"
     page: "139"
+    docket: "92"
+    citation: "230 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1913"
-    citation: "230 U.S. 139"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1912-276"
@@ -348,9 +450,12 @@ cases:
     title: "Nalle v. Oyster"
     volume: "230"
     page: "165"
+    docket: "218"
+    citation: "230 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1913"
-    citation: "230 U.S. 165"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-041"
@@ -358,9 +463,12 @@ cases:
     title: "Amoskeag Savings Bank v. Purdy"
     volume: "231"
     page: "373"
+    docket: "6"
+    citation: "231 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 373"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-042"
@@ -368,9 +476,12 @@ cases:
     title: "United States Fidelity &amp; Guaranty Co. of Baltimore v. Kentucky"
     volume: "231"
     page: "394"
+    docket: "26"
+    citation: "231 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 394"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-043"
@@ -378,9 +489,12 @@ cases:
     title: "Stratton&apos;s Independence, Ltd. v. Howbert"
     volume: "231"
     page: "399"
+    docket: "457"
+    citation: "231 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 399"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-044"
@@ -388,9 +502,12 @@ cases:
     title: "Kansas City Southern R. Co. v. United States"
     volume: "231"
     page: "423"
+    docket: "571"
+    citation: "231 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 423"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-053"
@@ -398,9 +515,12 @@ cases:
     title: "United States v. Whitridge"
     volume: "231"
     page: "144"
+    docket: "466"
+    citation: "231 U.S. 144"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1913"
-    citation: "231 U.S. 144"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-080"
@@ -408,9 +528,12 @@ cases:
     title: "Hall v. Burr"
     volume: "234"
     page: "712"
+    docket: "767"
+    citation: "234 U.S. 712"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1914"
-    citation: "234 U.S. 712"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-081"
@@ -418,9 +541,12 @@ cases:
     title: "Southern R. Co. v. Crockett"
     volume: "234"
     page: "725"
+    docket: "826"
+    citation: "234 U.S. 725"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1914"
-    citation: "234 U.S. 725"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-082"
@@ -428,9 +554,12 @@ cases:
     title: "Roller v. Murray"
     volume: "234"
     page: "738"
+    docket: "966"
+    citation: "234 U.S. 738"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1914"
-    citation: "234 U.S. 738"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-107"
@@ -438,9 +567,12 @@ cases:
     title: "Gilson v. United States"
     volume: "234"
     page: "380"
+    docket: "207"
+    citation: "234 U.S. 380"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 380"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-108"
@@ -448,9 +580,12 @@ cases:
     title: "Grannis v. Ordean"
     volume: "234"
     page: "385"
+    docket: "325"
+    citation: "234 U.S. 385"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 385"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-109"
@@ -458,9 +593,12 @@ cases:
     title: "Dale v. Pattison"
     volume: "234"
     page: "399"
+    docket: "330"
+    citation: "234 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 399"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-110"
@@ -468,9 +606,12 @@ cases:
     title: "Missouri, K. &amp; T. R. Co. of Tex. v. Harris"
     volume: "234"
     page: "412"
+    docket: "604"
+    citation: "234 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 412"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-111"
@@ -478,9 +619,12 @@ cases:
     title: "Johnson v. Gearlds"
     volume: "234"
     page: "422"
+    docket: "802"
+    citation: "234 U.S. 422"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 422"
+    voteMajority: 7
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-112"
@@ -488,9 +632,12 @@ cases:
     title: "Equitable Surety Co. v. United States ex rel. McMillan"
     volume: "234"
     page: "448"
+    docket: "861"
+    citation: "234 U.S. 448"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 448"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-133"
@@ -498,9 +645,12 @@ cases:
     title: "Ocampo v. United States"
     volume: "234"
     page: "091"
+    docket: "270"
+    citation: "234 U.S. 91"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1914"
-    citation: "234 U.S. 91"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-134"
@@ -508,9 +658,12 @@ cases:
     title: "Carlson v. Washington ex rel. Curtiss"
     volume: "234"
     page: "103"
+    docket: "307"
+    citation: "234 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1914"
-    citation: "234 U.S. 103"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-144"
@@ -518,9 +671,12 @@ cases:
     title: "Missouri, K. &amp; T. R. Co. of Tex. v. Cade"
     volume: "233"
     page: "642"
+    docket: "522"
+    citation: "233 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1914"
-    citation: "233 U.S. 642"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-149"
@@ -528,9 +684,12 @@ cases:
     title: "Richards v. Washington Terminal Co."
     volume: "233"
     page: "546"
+    docket: "52"
+    citation: "233 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1914"
-    citation: "233 U.S. 546"
+    voteMajority: 8
+    voteMinority: 1
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-154"
@@ -538,9 +697,12 @@ cases:
     title: "Seaboard Air Line R. Co. v. Horton"
     volume: "233"
     page: "492"
+    docket: "691"
+    citation: "233 U.S. 492"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1914"
-    citation: "233 U.S. 492"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-190"
@@ -548,9 +710,12 @@ cases:
     title: "Tevis v. Ryan"
     volume: "233"
     page: "273"
+    docket: "189"
+    citation: "233 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 273"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-191"
@@ -558,9 +723,12 @@ cases:
     title: "Lewis v. Frick"
     volume: "233"
     page: "291"
+    docket: "208"
+    citation: "233 U.S. 291"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 291"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-192"
@@ -568,9 +736,12 @@ cases:
     title: "Singer Sewing Machine Co. v. Brickell"
     volume: "233"
     page: "304"
+    docket: "458"
+    citation: "233 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 304"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-242"
@@ -578,9 +749,12 @@ cases:
     title: "Farmers and Mechanics Sav. Bank of Minneapolis v. Minnesota"
     volume: "232"
     page: "516"
+    docket: "39"
+    citation: "232 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 516"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-243"
@@ -588,9 +762,12 @@ cases:
     title: "Plymouth Coal Co. v. Pennsylvania"
     volume: "232"
     page: "531"
+    docket: "102"
+    citation: "232 U.S. 531"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 531"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-244"
@@ -598,9 +775,12 @@ cases:
     title: "Atlantic Coast Line R. Co. v. Goldsboro"
     volume: "232"
     page: "548"
+    docket: "112"
+    citation: "232 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 548"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-245"
@@ -608,9 +788,12 @@ cases:
     title: "Wilson v. United States"
     volume: "232"
     page: "563"
+    docket: "168"
+    citation: "232 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 563"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-246"
@@ -618,9 +801,12 @@ cases:
     title: "Weinman v. De Palma"
     volume: "232"
     page: "571"
+    docket: "173"
+    citation: "232 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 571"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-247"
@@ -628,9 +814,12 @@ cases:
     title: "Ohio Tax Cases"
     volume: "232"
     page: "576"
+    docket: "642"
+    citation: "232 U.S. 576"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 576"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-250"
@@ -638,9 +827,12 @@ cases:
     title: "North Carolina R. Co. v. Zachary"
     volume: "232"
     page: "248"
+    docket: "144"
+    citation: "232 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1914"
-    citation: "232 U.S. 248"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-289"
@@ -648,9 +840,12 @@ cases:
     title: "Lapina v. Williams"
     volume: "232"
     page: "078"
+    docket: "7"
+    citation: "232 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "232 U.S. 78"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-290"
@@ -658,9 +853,12 @@ cases:
     title: "Gila Valley, G. &amp; N. R. Co. v. Hall"
     volume: "232"
     page: "094"
+    docket: "68"
+    citation: "232 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "232 U.S. 94"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-291"
@@ -668,9 +866,12 @@ cases:
     title: "Bank of Arizona v. Thomas Haverty Co."
     volume: "232"
     page: "106"
+    docket: "87"
+    citation: "232 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "232 U.S. 106"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1913-292"
@@ -678,9 +879,12 @@ cases:
     title: "Ross v. Day"
     volume: "232"
     page: "110"
+    docket: "122"
+    citation: "232 U.S. 110"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "232 U.S. 110"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-016"
@@ -688,9 +892,12 @@ cases:
     title: "Porto Rico v. Emmanuel"
     volume: "235"
     page: "251"
+    docket: "4"
+    citation: "235 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1914"
-    citation: "235 U.S. 251"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-017"
@@ -698,9 +905,12 @@ cases:
     title: "Western Life Indemnity Co. of Ill. v. Rupp"
     volume: "235"
     page: "261"
+    docket: "50"
+    citation: "235 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1914"
-    citation: "235 U.S. 261"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-018"
@@ -708,9 +918,12 @@ cases:
     title: "United States v. Wigger"
     volume: "235"
     page: "276"
+    docket: "349"
+    citation: "235 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1914"
-    citation: "235 U.S. 276"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-019"
@@ -718,9 +931,12 @@ cases:
     title: "United States v. Lewis"
     volume: "235"
     page: "282"
+    docket: "380"
+    citation: "235 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1914"
-    citation: "235 U.S. 282"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-052"
@@ -728,9 +944,12 @@ cases:
     title: "St. Louis Southwestern R. Co. v. Arkansas"
     volume: "235"
     page: "350"
+    docket: "119"
+    citation: "235 U.S. 350"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1914"
-    citation: "235 U.S. 350"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-072"
@@ -738,9 +957,12 @@ cases:
     title: "Knapp v. Alexander-Edgar Lumber Co."
     volume: "237"
     page: "162"
+    docket: "139"
+    citation: "237 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1915"
-    citation: "237 U.S. 162"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-073"
@@ -748,9 +970,12 @@ cases:
     title: "Reinman v. Little Rock"
     volume: "237"
     page: "171"
+    docket: "153"
+    citation: "237 U.S. 171"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1915"
-    citation: "237 U.S. 171"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-085"
@@ -758,9 +983,12 @@ cases:
     title: "McGowan v. Parish"
     volume: "237"
     page: "285"
+    docket: "150"
+    citation: "237 U.S. 285"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1915"
-    citation: "237 U.S. 285"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-088"
@@ -768,9 +996,12 @@ cases:
     title: "Frank v. Mangum"
     volume: "237"
     page: "309"
+    docket: "775"
+    citation: "237 U.S. 309"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1915"
-    citation: "237 U.S. 309"
+    voteMajority: 7
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-099"
@@ -778,9 +1009,12 @@ cases:
     title: "Coe v. Armour Fertilizer Works"
     volume: "237"
     page: "413"
+    docket: "140"
+    citation: "237 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1915"
-    citation: "237 U.S. 413"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-110"
@@ -788,9 +1022,12 @@ cases:
     title: "Collins v. Johnston"
     volume: "237"
     page: "502"
+    docket: "594"
+    citation: "237 U.S. 502"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1915"
-    citation: "237 U.S. 502"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-150"
@@ -798,9 +1035,12 @@ cases:
     title: "United States v. Hiawassee Lumber Co."
     volume: "238"
     page: "553"
+    docket: "133"
+    citation: "238 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1915"
-    citation: "238 U.S. 553"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-151"
@@ -808,9 +1048,12 @@ cases:
     title: "Chater v. Carter"
     volume: "238"
     page: "572"
+    docket: "544"
+    citation: "238 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1915"
-    citation: "238 U.S. 572"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-168"
@@ -818,9 +1061,12 @@ cases:
     title: "Illinois Central R. Co. v. Mulberry Hill Coal Co."
     volume: "238"
     page: "275"
+    docket: "118"
+    citation: "238 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 275"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-169"
@@ -828,9 +1074,12 @@ cases:
     title: "Woodward v. De Graffenried"
     volume: "238"
     page: "284"
+    docket: "164"
+    citation: "238 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 284"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-170"
@@ -838,9 +1087,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Murphy"
     volume: "238"
     page: "320"
+    docket: "791"
+    citation: "238 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 320"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-175"
@@ -848,9 +1100,12 @@ cases:
     title: "Mallinckrodt Chemical Works v. Missouri ex rel. Jones"
     volume: "238"
     page: "041"
+    docket: "187"
+    citation: "238 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "238 U.S. 41"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-176"
@@ -858,9 +1113,12 @@ cases:
     title: "Atchison, T. &amp; S. F. R. Co. v. Vosburg"
     volume: "238"
     page: "056"
+    docket: "189"
+    citation: "238 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "238 U.S. 56"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-177"
@@ -868,9 +1126,12 @@ cases:
     title: "Rossi v. Pennsylvania"
     volume: "238"
     page: "062"
+    docket: "193"
+    citation: "238 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "238 U.S. 62"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-178"
@@ -878,9 +1139,12 @@ cases:
     title: "Chicago &amp; Alton R. Co. v. Tranbarger"
     volume: "238"
     page: "067"
+    docket: "214"
+    citation: "238 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "238 U.S. 67"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-179"
@@ -888,9 +1152,12 @@ cases:
     title: "United States v. Rabinowich"
     volume: "238"
     page: "078"
+    docket: "748"
+    citation: "238 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "238 U.S. 78"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-199"
@@ -898,9 +1165,12 @@ cases:
     title: "Michigan Central R. Co. v. Michigan Railroad Comm&apos;n"
     volume: "236"
     page: "615"
+    docket: "91"
+    citation: "236 U.S. 615"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1915"
-    citation: "236 U.S. 615"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-233"
@@ -908,9 +1178,12 @@ cases:
     title: "United States v. United States Fidelity &amp; Guaranty Co."
     volume: "236"
     page: "512"
+    docket: "125"
+    citation: "236 U.S. 512"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 512"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-234"
@@ -918,9 +1191,12 @@ cases:
     title: "Joplin Mercantile Co. v. United States"
     volume: "236"
     page: "531"
+    docket: "648"
+    citation: "236 U.S. 531"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 531"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-242"
@@ -928,9 +1204,12 @@ cases:
     title: "Coppage v. Kansas"
     volume: "236"
     page: "001"
+    docket: "48"
+    citation: "236 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1915"
-    citation: "236 U.S. 1"
+    voteMajority: 6
+    voteMinority: 3
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-257"
@@ -938,9 +1217,12 @@ cases:
     title: "Arizona &amp; New Mexico R. Co. v. Clark"
     volume: "235"
     page: "669"
+    docket: "347"
+    citation: "235 U.S. 669"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1915"
-    citation: "235 U.S. 669"
+    voteMajority: 7
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1914-271"
@@ -948,9 +1230,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Finn"
     volume: "235"
     page: "601"
+    docket: "546"
+    citation: "235 U.S. 601"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 601"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-039"
@@ -958,9 +1243,12 @@ cases:
     title: "Phoenix R. Co. v. Geary"
     volume: "239"
     page: "277"
+    docket: "48"
+    citation: "239 U.S. 277"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1915"
-    citation: "239 U.S. 277"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-040"
@@ -968,9 +1256,12 @@ cases:
     title: "Elzaburu v. Chaves"
     volume: "239"
     page: "283"
+    docket: "52"
+    citation: "239 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1915"
-    citation: "239 U.S. 283"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-048"
@@ -978,9 +1269,12 @@ cases:
     title: "Glenwood Light &amp; Water Co. v. Mutual Light, Heat &amp; Power Co."
     volume: "239"
     page: "121"
+    docket: "38"
+    citation: "239 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1915"
-    citation: "239 U.S. 121"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-053"
@@ -988,9 +1282,12 @@ cases:
     title: "Anderson v. Forty-Two Broadway Co."
     volume: "239"
     page: "069"
+    docket: "246"
+    citation: "239 U.S. 69"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1915"
-    citation: "239 U.S. 69"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-054"
@@ -998,9 +1295,12 @@ cases:
     title: "United States v. Barnow"
     volume: "239"
     page: "074"
+    docket: "454"
+    citation: "239 U.S. 74"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1915"
-    citation: "239 U.S. 74"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-097"
@@ -1008,9 +1308,12 @@ cases:
     title: "Hamilton-Brown Shoe Co. v. Wolf Brothers &amp; Co."
     volume: "240"
     page: "251"
+    docket: "37"
+    citation: "240 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1916"
-    citation: "240 U.S. 251"
+    voteMajority: 6
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-098"
@@ -1018,9 +1321,12 @@ cases:
     title: "Guerini Stone Co. v. P. J. Carlin Constr. Co."
     volume: "240"
     page: "264"
+    docket: "78"
+    citation: "240 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1916"
-    citation: "240 U.S. 264"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-099"
@@ -1028,9 +1334,12 @@ cases:
     title: "Union Naval Stores Co. v. United States"
     volume: "240"
     page: "284"
+    docket: "80"
+    citation: "240 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1916"
-    citation: "240 U.S. 284"
+    voteMajority: 6
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-100"
@@ -1038,9 +1347,12 @@ cases:
     title: "O&apos;Keefe v. United States"
     volume: "240"
     page: "294"
+    docket: "516"
+    citation: "240 U.S. 294"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1916"
-    citation: "240 U.S. 294"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-112"
@@ -1048,9 +1360,12 @@ cases:
     title: "Hanover Star Milling Co. v. Metcalf"
     volume: "240"
     page: "403"
+    docket: "23"
+    citation: "240 U.S. 403"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1916"
-    citation: "240 U.S. 403"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-122"
@@ -1058,9 +1373,12 @@ cases:
     title: "Johnson v. Riddle"
     volume: "240"
     page: "467"
+    docket: "161"
+    citation: "240 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1916"
-    citation: "240 U.S. 467"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-134"
@@ -1068,9 +1386,12 @@ cases:
     title: "Central Trust Co. of Ill. v. Chicago Auditorium Assn."
     volume: "240"
     page: "581"
+    docket: "162"
+    citation: "240 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1916"
-    citation: "240 U.S. 581"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-135"
@@ -1078,9 +1399,12 @@ cases:
     title: "Pinel v. Pinel"
     volume: "240"
     page: "594"
+    docket: "181"
+    citation: "240 U.S. 594"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1916"
-    citation: "240 U.S. 594"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-136"
@@ -1088,9 +1412,12 @@ cases:
     title: "Uterhart v. United States"
     volume: "240"
     page: "598"
+    docket: "214"
+    citation: "240 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1916"
-    citation: "240 U.S. 598"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-137"
@@ -1098,9 +1425,12 @@ cases:
     title: "United States v. Union Mfg. Co."
     volume: "240"
     page: "605"
+    docket: "628"
+    citation: "240 U.S. 605"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1916"
-    citation: "240 U.S. 605"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-143"
@@ -1108,9 +1438,12 @@ cases:
     title: "Fairbanks Steam Shovel Co. v. Wills"
     volume: "240"
     page: "642"
+    docket: "82"
+    citation: "240 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1916"
-    citation: "240 U.S. 642"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-146"
@@ -1118,9 +1451,12 @@ cases:
     title: "Spokane &amp; Inland Empire R. Co. v. Campbell"
     volume: "241"
     page: "497"
+    docket: "325"
+    citation: "241 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1916"
-    citation: "241 U.S. 497"
+    voteMajority: 6
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-159"
@@ -1128,9 +1464,12 @@ cases:
     title: "Abbott v. Brown"
     volume: "241"
     page: "606"
+    docket: "611"
+    citation: "241 U.S. 606"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1916"
-    citation: "241 U.S. 606"
+    voteMajority: 5
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-172"
@@ -1138,9 +1477,12 @@ cases:
     title: "Montelibano y Ramos v. La Compania General de Tabacos de Filipinas"
     volume: "241"
     page: "455"
+    docket: "217"
+    citation: "241 U.S. 455"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1916"
-    citation: "241 U.S. 455"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-173"
@@ -1148,9 +1490,12 @@ cases:
     title: "Chesapeake &amp; Ohio R. Co. v. Proffitt"
     volume: "241"
     page: "462"
+    docket: "273"
+    citation: "241 U.S. 462"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1916"
-    citation: "241 U.S. 462"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-174"
@@ -1158,9 +1503,12 @@ cases:
     title: "Chicago &amp; Northwestern R. Co. v. Bower"
     volume: "241"
     page: "470"
+    docket: "301"
+    citation: "241 U.S. 470"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1916"
-    citation: "241 U.S. 470"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-175"
@@ -1168,9 +1516,12 @@ cases:
     title: "San Antonio &amp; Aransas Pass R. Co. v. Wagner"
     volume: "241"
     page: "476"
+    docket: "311"
+    citation: "241 U.S. 476"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1916"
-    citation: "241 U.S. 476"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-176"
@@ -1178,9 +1529,12 @@ cases:
     title: "Chesapeake &amp; Ohio R. Co. v. Kelly"
     volume: "241"
     page: "485"
+    docket: "321"
+    citation: "241 U.S. 485"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1916"
-    citation: "241 U.S. 485"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-177"
@@ -1188,9 +1542,12 @@ cases:
     title: "Chesapeake &amp; Ohio R. Co. v. Gainey"
     volume: "241"
     page: "494"
+    docket: "453"
+    citation: "241 U.S. 494"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1916"
-    citation: "241 U.S. 494"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-178"
@@ -1198,9 +1555,12 @@ cases:
     title: "Bingham v. Bradley"
     volume: "241"
     page: "511"
+    docket: "592"
+    citation: "241 U.S. 511"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1916"
-    citation: "241 U.S. 511"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-194"
@@ -1208,9 +1568,12 @@ cases:
     title: "Chesapeake &amp; Ohio R. Co. v. De Atley"
     volume: "241"
     page: "310"
+    docket: "274"
+    citation: "241 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1916"
-    citation: "241 U.S. 310"
+    voteMajority: 5
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-220"
@@ -1218,9 +1581,12 @@ cases:
     title: "G. &amp; C. Merriam Co. v. Saalfield"
     volume: "241"
     page: "022"
+    docket: "178"
+    citation: "241 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1916"
-    citation: "241 U.S. 22"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-221"
@@ -1228,9 +1594,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Rigsby"
     volume: "241"
     page: "033"
+    docket: "523"
+    citation: "241 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1916"
-    citation: "241 U.S. 33"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-239"
@@ -1238,9 +1607,12 @@ cases:
     title: "Interstate Amusement Co. v. Albert"
     volume: "239"
     page: "560"
+    docket: "69"
+    citation: "239 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1916"
-    citation: "239 U.S. 560"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-240"
@@ -1248,9 +1620,12 @@ cases:
     title: "Home Bond Co. v. McChesney"
     volume: "239"
     page: "568"
+    docket: "90"
+    citation: "239 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1916"
-    citation: "239 U.S. 568"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-241"
@@ -1258,9 +1633,12 @@ cases:
     title: "Kanawha &amp; Michigan R. Co. v. Kerse"
     volume: "239"
     page: "576"
+    docket: "129"
+    citation: "239 U.S. 576"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1916"
-    citation: "239 U.S. 576"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-242"
@@ -1268,9 +1646,12 @@ cases:
     title: "New York Central &amp; H. R. R. Co. v. Gray"
     volume: "239"
     page: "583"
+    docket: "147"
+    citation: "239 U.S. 583"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1916"
-    citation: "239 U.S. 583"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-243"
@@ -1278,9 +1659,12 @@ cases:
     title: "Cleveland, C., C. &amp; St. L. R. Co. v. Dettlebach"
     volume: "239"
     page: "588"
+    docket: "229"
+    citation: "239 U.S. 588"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1916"
-    citation: "239 U.S. 588"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1915-244"
@@ -1288,9 +1672,12 @@ cases:
     title: "Seaboard Air Line R. Co. v. Horton"
     volume: "239"
     page: "595"
+    docket: "541"
+    citation: "239 U.S. 595"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1916"
-    citation: "239 U.S. 595"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-008"
@@ -1298,9 +1685,12 @@ cases:
     title: "Erie R. Co. v. Welsh"
     volume: "242"
     page: "303"
+    docket: "29"
+    citation: "242 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1916"
-    citation: "242 U.S. 303"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-014"
@@ -1308,9 +1698,12 @@ cases:
     title: "Detroit United R. Co. v. Michigan"
     volume: "242"
     page: "238"
+    docket: "1"
+    citation: "242 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1916"
-    citation: "242 U.S. 238"
+    voteMajority: 7
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-015"
@@ -1318,9 +1711,12 @@ cases:
     title: "Vandalia R. Co. v. Public Serv. Comm&apos;n of Ind."
     volume: "242"
     page: "255"
+    docket: "81"
+    citation: "242 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1916"
-    citation: "242 U.S. 255"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-029"
@@ -1328,9 +1724,12 @@ cases:
     title: "Stewart v. Ramsay"
     volume: "242"
     page: "128"
+    docket: "105"
+    citation: "242 U.S. 128"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1916"
-    citation: "242 U.S. 128"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-108"
@@ -1338,9 +1737,12 @@ cases:
     title: "Greene v. Louisville &amp; Interurban R. Co."
     volume: "244"
     page: "499"
+    docket: "617"
+    citation: "244 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1917"
-    citation: "244 U.S. 499"
+    voteMajority: 6
+    voteMinority: 3
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-109"
@@ -1348,9 +1750,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Greene"
     volume: "244"
     page: "522"
+    docket: "778"
+    citation: "244 U.S. 522"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1917"
-    citation: "244 U.S. 522"
+    voteMajority: 6
+    voteMinority: 3
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-110"
@@ -1358,9 +1763,12 @@ cases:
     title: "Illinois Central R. Co. v. Greene"
     volume: "244"
     page: "555"
+    docket: "642"
+    citation: "244 U.S. 555"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1917"
-    citation: "244 U.S. 555"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-111"
@@ -1368,9 +1776,12 @@ cases:
     title: "Darnell v. Edwards"
     volume: "244"
     page: "564"
+    docket: "216"
+    citation: "244 U.S. 564"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1917"
-    citation: "244 U.S. 564"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-112"
@@ -1378,9 +1789,12 @@ cases:
     title: "Southern R. Co. v. Puckett"
     volume: "244"
     page: "571"
+    docket: "219"
+    citation: "244 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1917"
-    citation: "244 U.S. 571"
+    voteMajority: 8
+    voteMinority: 1
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-113"
@@ -1388,9 +1802,12 @@ cases:
     title: "Puget Sound Traction, Light &amp; Power Co. v. Reynolds"
     volume: "244"
     page: "574"
+    docket: "220"
+    citation: "244 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1917"
-    citation: "244 U.S. 574"
+    voteMajority: 6
+    voteMinority: 3
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-114"
@@ -1398,9 +1815,12 @@ cases:
     title: "Lanham v. McKeel"
     volume: "244"
     page: "582"
+    docket: "245"
+    citation: "244 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1917"
-    citation: "244 U.S. 582"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-115"
@@ -1408,9 +1828,12 @@ cases:
     title: "McCoach v. Insurance Co. of North America"
     volume: "244"
     page: "585"
+    docket: "475"
+    citation: "244 U.S. 585"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1917"
-    citation: "244 U.S. 585"
+    voteMajority: 6
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-145"
@@ -1418,9 +1841,12 @@ cases:
     title: "United States v. Cress"
     volume: "243"
     page: "316"
+    docket: "718"
+    citation: "243 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1917"
-    citation: "243 U.S. 316"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-167"
@@ -1428,9 +1854,12 @@ cases:
     title: "New York Central R. Co. v. White"
     volume: "243"
     page: "188"
+    docket: "320"
+    citation: "243 U.S. 188"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 188"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-168"
@@ -1438,9 +1867,12 @@ cases:
     title: "Hawkins v. Bleakly"
     volume: "243"
     page: "210"
+    docket: "35"
+    citation: "243 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 210"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-169"
@@ -1448,9 +1880,12 @@ cases:
     title: "Mountain Timber Co. v. Washington"
     volume: "243"
     page: "219"
+    docket: "13"
+    citation: "243 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 219"
+    voteMajority: 5
+    voteMinority: 4
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-170"
@@ -1458,9 +1893,12 @@ cases:
     title: "Horn v. Mitchell"
     volume: "243"
     page: "247"
+    docket: "679"
+    citation: "243 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 247"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-171"
@@ -1468,9 +1906,12 @@ cases:
     title: "Grays Harbor Logging Co. v. Coats-Fordney Logging Co."
     volume: "243"
     page: "251"
+    docket: "132"
+    citation: "243 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 251"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-204"
@@ -1478,9 +1919,12 @@ cases:
     title: "Lake Shore &amp; Michigan Southern R. Co. v. Clough"
     volume: "242"
     page: "375"
+    docket: "87"
+    citation: "242 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1917"
-    citation: "242 U.S. 375"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-205"
@@ -1488,9 +1932,12 @@ cases:
     title: "Harnage v. Martin"
     volume: "242"
     page: "386"
+    docket: "112"
+    citation: "242 U.S. 386"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1917"
-    citation: "242 U.S. 386"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-206"
@@ -1498,9 +1945,12 @@ cases:
     title: "Baker v. Baker, Eccles &amp; Co."
     volume: "242"
     page: "394"
+    docket: "115"
+    citation: "242 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1917"
-    citation: "242 U.S. 394"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-207"
@@ -1508,9 +1958,12 @@ cases:
     title: "Newark Natural Gas &amp; Fuel Co. v. Newark"
     volume: "242"
     page: "405"
+    docket: "232"
+    citation: "242 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1917"
-    citation: "242 U.S. 405"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1916-208"
@@ -1518,9 +1971,12 @@ cases:
     title: "Louisville Bridge Co. v. United States"
     volume: "242"
     page: "409"
+    docket: "540"
+    citation: "242 U.S. 409"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1917"
-    citation: "242 U.S. 409"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-012"
@@ -1528,9 +1984,12 @@ cases:
     title: "Hitchman Coal &amp; Coke Co. v. Mitchell"
     volume: "245"
     page: "229"
+    docket: "11"
+    citation: "245 U.S. 229"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1917"
-    citation: "245 U.S. 229"
+    voteMajority: 6
+    voteMinority: 3
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-013"
@@ -1538,9 +1997,12 @@ cases:
     title: "Eagle Glass &amp; Mfg. Co. v. Rowe"
     volume: "245"
     page: "275"
+    docket: "23"
+    citation: "245 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1917"
-    citation: "245 U.S. 275"
+    voteMajority: 6
+    voteMinority: 3
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-014"
@@ -1548,9 +2010,12 @@ cases:
     title: "Schneider Granite Co. v. Gast Realty &amp; Investment Co."
     volume: "245"
     page: "288"
+    docket: "461"
+    citation: "245 U.S. 288"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1917"
-    citation: "245 U.S. 288"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-015"
@@ -1558,9 +2023,12 @@ cases:
     title: "Crew Levick Co. v. Pennsylvania"
     volume: "245"
     page: "292"
+    docket: "499"
+    citation: "245 U.S. 292"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1917"
-    citation: "245 U.S. 292"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-068"
@@ -1568,9 +2036,12 @@ cases:
     title: "Arkansas v. Tennessee"
     volume: "246"
     page: "158"
+    docket: "4 Orig."
+    citation: "246 U.S. 158"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 158"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-069"
@@ -1578,9 +2049,12 @@ cases:
     title: "City and County of Denver v. Denver Union Water Co."
     volume: "246"
     page: "178"
+    docket: "294"
+    citation: "246 U.S. 178"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 178"
+    voteMajority: 6
+    voteMinority: 3
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-070"
@@ -1588,9 +2062,12 @@ cases:
     title: "Sutton v. English"
     volume: "246"
     page: "199"
+    docket: "330"
+    citation: "246 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 199"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-084"
@@ -1598,9 +2075,12 @@ cases:
     title: "Cissna v. Tennessee"
     volume: "246"
     page: "289"
+    docket: "20"
+    citation: "246 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1918"
-    citation: "246 U.S. 289"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-090"
@@ -1608,9 +2088,12 @@ cases:
     title: "Wells v. Roper"
     volume: "246"
     page: "335"
+    docket: "103"
+    citation: "246 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1918"
-    citation: "246 U.S. 335"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-091"
@@ -1618,9 +2101,12 @@ cases:
     title: "Sheckels v. District of Columbia"
     volume: "246"
     page: "338"
+    docket: "144"
+    citation: "246 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1918"
-    citation: "246 U.S. 338"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-104"
@@ -1628,9 +2114,12 @@ cases:
     title: "Manufacturers R. Co. v. United States"
     volume: "246"
     page: "457"
+    docket: "24"
+    citation: "246 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1918"
-    citation: "246 U.S. 457"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-129"
@@ -1638,9 +2127,12 @@ cases:
     title: "Postal Telegraph Cable Co. v. Newport"
     volume: "247"
     page: "464"
+    docket: "273"
+    citation: "247 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1918"
-    citation: "247 U.S. 464"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-140"
@@ -1648,9 +2140,12 @@ cases:
     title: "Hartranft v. Mullowny"
     volume: "247"
     page: "295"
+    docket: "19"
+    citation: "247 U.S. 295"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1918"
-    citation: "247 U.S. 295"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-141"
@@ -1658,9 +2153,12 @@ cases:
     title: "San Pedro, L. A. &amp; S. L. R. Co. v. United States"
     volume: "247"
     page: "307"
+    docket: "48"
+    citation: "247 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1918"
-    citation: "247 U.S. 307"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-142"
@@ -1668,9 +2166,12 @@ cases:
     title: "United States v. St. Paul, M. &amp; M. R. Co."
     volume: "247"
     page: "310"
+    docket: "75"
+    citation: "247 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1918"
-    citation: "247 U.S. 310"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-143"
@@ -1678,9 +2179,12 @@ cases:
     title: "United States Glue Co. v. Town of Oak Creek"
     volume: "247"
     page: "321"
+    docket: "233"
+    citation: "247 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1918"
-    citation: "247 U.S. 321"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-144"
@@ -1688,9 +2192,12 @@ cases:
     title: "Southern Pacific Co. v. Lowe"
     volume: "247"
     page: "330"
+    docket: "452"
+    citation: "247 U.S. 330"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1918"
-    citation: "247 U.S. 330"
+    voteMajority: 8
+    voteMinority: 1
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-145"
@@ -1698,9 +2205,12 @@ cases:
     title: "Lynch v. Hornby"
     volume: "247"
     page: "339"
+    docket: "422"
+    citation: "247 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1918"
-    citation: "247 U.S. 339"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-146"
@@ -1708,9 +2218,12 @@ cases:
     title: "Peabody v. Eisner"
     volume: "247"
     page: "347"
+    docket: "705"
+    citation: "247 U.S. 347"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1918"
-    citation: "247 U.S. 347"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-168"
@@ -1718,9 +2231,12 @@ cases:
     title: "Doyle v. Mitchell Brothers Co."
     volume: "247"
     page: "179"
+    docket: "492"
+    citation: "247 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1918"
-    citation: "247 U.S. 179"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-169"
@@ -1728,9 +2244,12 @@ cases:
     title: "Hays v. Gauley Mountain Coal Co."
     volume: "247"
     page: "189"
+    docket: "327"
+    citation: "247 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1918"
-    citation: "247 U.S. 189"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1917-170"
@@ -1738,9 +2257,12 @@ cases:
     title: "United States v. Cleveland, C., C. &amp; St. L. R. Co."
     volume: "247"
     page: "195"
+    docket: "593"
+    citation: "247 U.S. 195"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1918"
-    citation: "247 U.S. 195"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-005"
@@ -1748,9 +2270,12 @@ cases:
     title: "International News Service v. Associated Press"
     volume: "248"
     page: "215"
+    docket: "221"
+    citation: "248 U.S. 215"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1918"
-    citation: "248 U.S. 215"
+    voteMajority: 8
+    voteMinority: 1
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-017"
@@ -1758,9 +2283,12 @@ cases:
     title: "United Drug Co. v. Theodore Rectanus Co."
     volume: "248"
     page: "090"
+    docket: "27"
+    citation: "248 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1918"
-    citation: "248 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-048"
@@ -1768,9 +2296,12 @@ cases:
     title: "Rust Land &amp; Lumber Co. v. Jackson"
     volume: "250"
     page: "071"
+    docket: "171"
+    citation: "250 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 71"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-049"
@@ -1778,9 +2309,12 @@ cases:
     title: "Fillippon v. Albion Vein Slate Co."
     volume: "250"
     page: "076"
+    docket: "241"
+    citation: "250 U.S. 76"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 76"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-050"
@@ -1788,9 +2322,12 @@ cases:
     title: "New York Central R. Co. v. Goldberg"
     volume: "250"
     page: "085"
+    docket: "256"
+    citation: "250 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 85"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-051"
@@ -1798,9 +2335,12 @@ cases:
     title: "Brothers v. United States"
     volume: "250"
     page: "088"
+    docket: "309"
+    citation: "250 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 88"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-052"
@@ -1808,9 +2348,12 @@ cases:
     title: "Mackay Telegraph &amp; Cable Co. v. Little Rock"
     volume: "250"
     page: "094"
+    docket: "374"
+    citation: "250 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 94"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-053"
@@ -1818,9 +2361,12 @@ cases:
     title: "Philadelphia, B. &amp; W. R. Co. v. Smith"
     volume: "250"
     page: "101"
+    docket: "472"
+    citation: "250 U.S. 101"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 101"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-054"
@@ -1828,9 +2374,12 @@ cases:
     title: "United States v. Reynolds"
     volume: "250"
     page: "104"
+    docket: "591"
+    citation: "250 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 104"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-074"
@@ -1838,9 +2387,12 @@ cases:
     title: "The Lake Monroe"
     volume: "250"
     page: "246"
+    docket: "30 Orig."
+    citation: "250 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1919"
-    citation: "250 U.S. 246"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-075"
@@ -1848,9 +2400,12 @@ cases:
     title: "Lincoln Gas &amp; Elec. Light Co. v. City of Lincoln"
     volume: "250"
     page: "256"
+    docket: "52"
+    citation: "250 U.S. 256"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1919"
-    citation: "250 U.S. 256"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-076"
@@ -1858,9 +2413,12 @@ cases:
     title: "Scow 6-S, The"
     volume: "250"
     page: "269"
+    docket: "301"
+    citation: "250 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1919"
-    citation: "250 U.S. 269"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-077"
@@ -1868,9 +2426,12 @@ cases:
     title: "Blair v. United States"
     volume: "250"
     page: "273"
+    docket: "763"
+    citation: "250 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1919"
-    citation: "250 U.S. 273"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-078"
@@ -1878,9 +2439,12 @@ cases:
     title: "Rumely v. McCarthy"
     volume: "250"
     page: "283"
+    docket: "874"
+    citation: "250 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1919"
-    citation: "250 U.S. 283"
+    voteMajority: 8
+    voteMinority: 1
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-095"
@@ -1888,9 +2452,12 @@ cases:
     title: "Arizona Employers&apos; Liability Cases"
     volume: "250"
     page: "400"
+    docket: "20"
+    citation: "250 U.S. 400"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1919"
-    citation: "250 U.S. 400"
+    voteMajority: 5
+    voteMinority: 4
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-096"
@@ -1898,9 +2465,12 @@ cases:
     title: "Hancock v. Muskogee"
     volume: "250"
     page: "454"
+    docket: "360"
+    citation: "250 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1919"
-    citation: "250 U.S. 454"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-097"
@@ -1908,9 +2478,12 @@ cases:
     title: "American Mfg. Co. v. St. Louis"
     volume: "250"
     page: "459"
+    docket: "365"
+    citation: "250 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1919"
-    citation: "250 U.S. 459"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-130"
@@ -1918,9 +2491,12 @@ cases:
     title: "Corn Products Refining Co. v. Eddy"
     volume: "249"
     page: "427"
+    docket: "119"
+    citation: "249 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1919"
-    citation: "249 U.S. 427"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-131"
@@ -1928,9 +2504,12 @@ cases:
     title: "United States v. Laughlin"
     volume: "249"
     page: "440"
+    docket: "200"
+    citation: "249 U.S. 440"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1919"
-    citation: "249 U.S. 440"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-146"
@@ -1938,9 +2517,12 @@ cases:
     title: "Union Oil Co. of Cal. v. Smith"
     volume: "249"
     page: "337"
+    docket: "8"
+    citation: "249 U.S. 337"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1919"
-    citation: "249 U.S. 337"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-178"
@@ -1948,9 +2530,12 @@ cases:
     title: "Ex parte Whitney Steamboat Corp."
     volume: "249"
     page: "115"
+    docket: "25 Orig."
+    citation: "249 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 115"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-179"
@@ -1958,9 +2543,12 @@ cases:
     title: "North Pacific S. S. Co. v. Hall Brothers Marine Railway &amp; Shipbuilding Co."
     volume: "249"
     page: "119"
+    docket: "53"
+    citation: "249 U.S. 119"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 119"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-180"
@@ -1968,9 +2556,12 @@ cases:
     title: "Werk v. Parker"
     volume: "249"
     page: "130"
+    docket: "73"
+    citation: "249 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 130"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-181"
@@ -1978,9 +2569,12 @@ cases:
     title: "Arkadelphia Milling Co. v. St. Louis Southwestern R. Co."
     volume: "249"
     page: "134"
+    docket: "92"
+    citation: "249 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 134"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-182"
@@ -1988,9 +2582,12 @@ cases:
     title: "Middleton v. Texas Power &amp; Light Co."
     volume: "249"
     page: "152"
+    docket: "102"
+    citation: "249 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 152"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-183"
@@ -1998,9 +2595,12 @@ cases:
     title: "Chicago Great Western R. Co. v. Basham"
     volume: "249"
     page: "164"
+    docket: "111"
+    citation: "249 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 164"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-224"
@@ -2008,9 +2608,12 @@ cases:
     title: "Leary v. Mayor of Jersey City"
     volume: "248"
     page: "328"
+    docket: "3"
+    citation: "248 U.S. 328"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 7, 1919"
-    citation: "248 U.S. 328"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-225"
@@ -2018,9 +2621,12 @@ cases:
     title: "Guerini Stone Co. v. P. J. Carlin Constr. Co."
     volume: "248"
     page: "334"
+    docket: "218"
+    citation: "248 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 7, 1919"
-    citation: "248 U.S. 334"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1918-226"
@@ -2028,9 +2634,12 @@ cases:
     title: "United States v. Comyns"
     volume: "248"
     page: "349"
+    docket: "235"
+    citation: "248 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 7, 1919"
-    citation: "248 U.S. 349"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-010"
@@ -2038,9 +2647,12 @@ cases:
     title: "Mullen v. Pickens"
     volume: "250"
     page: "590"
+    docket: "25"
+    citation: "250 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1919"
-    citation: "250 U.S. 590"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-011"
@@ -2048,9 +2660,12 @@ cases:
     title: "New York Central R. Co. v. Bianc"
     volume: "250"
     page: "596"
+    docket: "374"
+    citation: "250 U.S. 596"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1919"
-    citation: "250 U.S. 596"
+    voteMajority: 8
+    voteMinority: 1
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-030"
@@ -2058,9 +2673,12 @@ cases:
     title: "Corsicana Nat. Bank of Corsicana v. Johnson"
     volume: "251"
     page: "068"
+    docket: "23"
+    citation: "251 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1919"
-    citation: "251 U.S. 68"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-031"
@@ -2068,9 +2686,12 @@ cases:
     title: "Wagner v. City of Covington"
     volume: "251"
     page: "095"
+    docket: "61"
+    citation: "251 U.S. 95"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1919"
-    citation: "251 U.S. 95"
+    voteMajority: 7
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-043"
@@ -2078,9 +2699,12 @@ cases:
     title: "F. S. Royster Guano Co. v. Virginia"
     volume: "253"
     page: "412"
+    docket: "165"
+    citation: "253 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1920"
-    citation: "253 U.S. 412"
+    voteMajority: 7
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-058"
@@ -2088,9 +2712,12 @@ cases:
     title: "Weidhorn v. Levy"
     volume: "253"
     page: "268"
+    docket: "203"
+    citation: "253 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1920"
-    citation: "253 U.S. 268"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-059"
@@ -2098,9 +2725,12 @@ cases:
     title: "United States v. Omaha Tribe"
     volume: "253"
     page: "275"
+    docket: "243"
+    citation: "253 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1920"
-    citation: "253 U.S. 275"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-076"
@@ -2108,9 +2738,12 @@ cases:
     title: "Spiller v. Atchison, T. &amp; S. F. R. Co."
     volume: "253"
     page: "117"
+    docket: "137"
+    citation: "253 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1920"
-    citation: "253 U.S. 117"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-098"
@@ -2118,9 +2751,12 @@ cases:
     title: "Houston v. Ormes"
     volume: "252"
     page: "469"
+    docket: "86"
+    citation: "252 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1920"
-    citation: "252 U.S. 469"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-099"
@@ -2128,9 +2764,12 @@ cases:
     title: "Hull v. Philadelphia &amp; Reading R. Co."
     volume: "252"
     page: "475"
+    docket: "151"
+    citation: "252 U.S. 475"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1920"
-    citation: "252 U.S. 475"
+    voteMajority: 8
+    voteMinority: 1
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-124"
@@ -2138,9 +2777,12 @@ cases:
     title: "Eisner v. Macomber"
     volume: "252"
     page: "189"
+    docket: "29 Orig."
+    citation: "252 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1920"
-    citation: "252 U.S. 189"
+    voteMajority: 5
+    voteMinority: 4
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-125"
@@ -2148,9 +2790,12 @@ cases:
     title: "Pierce v. United States"
     volume: "252"
     page: "239"
+    docket: "234"
+    citation: "252 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1920"
-    citation: "252 U.S. 239"
+    voteMajority: 7
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-144"
@@ -2158,9 +2803,12 @@ cases:
     title: "Shaffer v. Carter"
     volume: "252"
     page: "037"
+    docket: "531"
+    citation: "252 U.S. 37"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "252 U.S. 37"
+    voteMajority: 8
+    voteMinority: 1
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-145"
@@ -2168,9 +2816,12 @@ cases:
     title: "Travis v. Yale &amp; Towne Mfg. Co."
     volume: "252"
     page: "060"
+    docket: "548"
+    citation: "252 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "252 U.S. 60"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-176"
@@ -2178,9 +2829,12 @@ cases:
     title: "Hayes v. Port of Seattle"
     volume: "251"
     page: "233"
+    docket: "70"
+    citation: "251 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1920"
-    citation: "251 U.S. 233"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1919-177"
@@ -2188,9 +2842,12 @@ cases:
     title: "Schall v. Camors"
     volume: "251"
     page: "239"
+    docket: "84"
+    citation: "251 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1920"
-    citation: "251 U.S. 239"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-019"
@@ -2198,9 +2855,12 @@ cases:
     title: "Jin Fuey Moy v. United States"
     volume: "254"
     page: "189"
+    docket: "44"
+    citation: "254 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1920"
-    citation: "254 U.S. 189"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-020"
@@ -2208,9 +2868,12 @@ cases:
     title: "Chicago, M. &amp; St. P. R. Co. v. Des Moines Union R. Co."
     volume: "254"
     page: "196"
+    docket: "66"
+    citation: "254 U.S. 196"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1920"
-    citation: "254 U.S. 196"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-056"
@@ -2218,9 +2881,12 @@ cases:
     title: "United States v. Hutto"
     volume: "256"
     page: "530"
+    docket: "692"
+    citation: "256 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 1, 1921"
-    citation: "256 U.S. 530"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-061"
@@ -2228,9 +2894,12 @@ cases:
     title: "Merchants&apos; Nat. Bank of Richmond v. Richmond"
     volume: "256"
     page: "635"
+    docket: "240"
+    citation: "256 U.S. 635"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1921"
-    citation: "256 U.S. 635"
+    voteMajority: 7
+    voteMinority: 1
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-062"
@@ -2238,9 +2907,12 @@ cases:
     title: "Bowman v. Continental Oil Co."
     volume: "256"
     page: "642"
+    docket: "695"
+    citation: "256 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1921"
-    citation: "256 U.S. 642"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-076"
@@ -2248,9 +2920,12 @@ cases:
     title: "Ex parte New York"
     volume: "256"
     page: "490"
+    docket: "25 Orig."
+    citation: "256 U.S. 490"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 1, 1921"
-    citation: "256 U.S. 490"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-077"
@@ -2258,9 +2933,12 @@ cases:
     title: "Ex parte New York"
     volume: "256"
     page: "503"
+    docket: "26 Orig."
+    citation: "256 U.S. 503"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 1, 1921"
-    citation: "256 U.S. 503"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-078"
@@ -2268,9 +2946,12 @@ cases:
     title: "Ex parte Lincoln Gas &amp; Elec. Light Co."
     volume: "256"
     page: "512"
+    docket: "29 Orig."
+    citation: "256 U.S. 512"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 1, 1921"
-    citation: "256 U.S. 512"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-079"
@@ -2278,9 +2959,12 @@ cases:
     title: "Anchor Oil Co. v. Gray"
     volume: "256"
     page: "519"
+    docket: "188"
+    citation: "256 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 1, 1921"
-    citation: "256 U.S. 519"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-080"
@@ -2288,9 +2972,12 @@ cases:
     title: "United States v. Hutto"
     volume: "256"
     page: "524"
+    docket: "691"
+    citation: "256 U.S. 524"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 1, 1921"
-    citation: "256 U.S. 524"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-100"
@@ -2298,9 +2985,12 @@ cases:
     title: "LaBelle Iron Works v. United States"
     volume: "256"
     page: "377"
+    docket: "453"
+    citation: "256 U.S. 377"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1921"
-    citation: "256 U.S. 377"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-101"
@@ -2308,9 +2998,12 @@ cases:
     title: "Frederick v. Fidelity Mut. Life Ins. Co. of Philadelphia"
     volume: "256"
     page: "395"
+    docket: "547"
+    citation: "256 U.S. 395"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1921"
-    citation: "256 U.S. 395"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-130"
@@ -2318,9 +3011,12 @@ cases:
     title: "Oklahoma v. Texas"
     volume: "256"
     page: "070"
+    docket: "23 Orig."
+    citation: "256 U.S. 70"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1921"
-    citation: "256 U.S. 70"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-131"
@@ -2328,9 +3024,12 @@ cases:
     title: "Ownbey v. Morgan"
     volume: "256"
     page: "094"
+    docket: "99"
+    citation: "256 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1921"
-    citation: "256 U.S. 94"
+    voteMajority: 7
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-132"
@@ -2338,9 +3037,12 @@ cases:
     title: "Economy Light &amp; Power Co. v. United States"
     volume: "256"
     page: "113"
+    docket: "104"
+    citation: "256 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1921"
-    citation: "256 U.S. 113"
+    voteMajority: 8
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-156"
@@ -2348,9 +3050,12 @@ cases:
     title: "Winton v. Amos"
     volume: "255"
     page: "373"
+    docket: "6"
+    citation: "255 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1921"
-    citation: "255 U.S. 373"
+    voteMajority: 7
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-184"
@@ -2358,9 +3063,12 @@ cases:
     title: "St. Louis, I. M. &amp; S. R. Co. v. J. F. Hasty &amp; Sons"
     volume: "255"
     page: "252"
+    docket: "178"
+    citation: "255 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1921"
-    citation: "255 U.S. 252"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-185"
@@ -2368,9 +3076,12 @@ cases:
     title: "United States v. Field"
     volume: "255"
     page: "257"
+    docket: "442"
+    citation: "255 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1921"
-    citation: "255 U.S. 257"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-200"
@@ -2378,9 +3089,12 @@ cases:
     title: "Hogan v. O&apos;Neill"
     volume: "255"
     page: "052"
+    docket: "120"
+    citation: "255 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1921"
-    citation: "255 U.S. 52"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-205"
@@ -2388,9 +3102,12 @@ cases:
     title: "Journal &amp; Tribune Co. v. United States"
     volume: "254"
     page: "581"
+    docket: "86"
+    citation: "254 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1921"
-    citation: "254 U.S. 581"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1920-220"
@@ -2398,9 +3115,12 @@ cases:
     title: "Duplex Printing Press Co. v. Deering"
     volume: "254"
     page: "443"
+    docket: "45"
+    citation: "254 U.S. 443"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1921"
-    citation: "254 U.S. 443"
+    voteMajority: 6
+    voteMinority: 3
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1921-002"
@@ -2408,9 +3128,12 @@ cases:
     title: "Ex parte Lincoln Gas &amp; Elec. Light Co."
     volume: "257"
     page: "006"
+    docket: "29 Orig."
+    citation: "257 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Monday, October 24, 1921"
-    citation: "257 U.S. 6"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1921-014"
@@ -2418,9 +3141,12 @@ cases:
     title: "Citizens Nat. Bank of Cincinnati v. Durr"
     volume: "257"
     page: "099"
+    docket: "27"
+    citation: "257 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1921"
-    citation: "257 U.S. 99"
+    voteMajority: 6
+    voteMinority: 3
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1921-022"
@@ -2428,9 +3154,12 @@ cases:
     title: "United States v. Phellis"
     volume: "257"
     page: "156"
+    docket: "260"
+    citation: "257 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1921"
-    citation: "257 U.S. 156"
+    voteMajority: 7
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1921-023"
@@ -2438,9 +3167,12 @@ cases:
     title: "Rockefeller v. United States"
     volume: "257"
     page: "176"
+    docket: "535"
+    citation: "257 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1921"
-    citation: "257 U.S. 176"
+    voteMajority: 6
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1921-053"
@@ -2448,9 +3180,12 @@ cases:
     title: "John Simmons Co. v. Grier Brothers Co."
     volume: "258"
     page: "082"
+    docket: "57"
+    citation: "258 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1922"
-    citation: "258 U.S. 82"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1921-091"
@@ -2458,9 +3193,12 @@ cases:
     title: "Essanay Film Mfg. Co. v. Kane"
     volume: "258"
     page: "358"
+    docket: "70"
+    citation: "258 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1922"
-    citation: "258 U.S. 358"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1921-105"
@@ -2468,9 +3206,12 @@ cases:
     title: "Texas Co. v. Brown"
     volume: "258"
     page: "466"
+    docket: "126"
+    citation: "258 U.S. 466"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1922"
-    citation: "258 U.S. 466"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1921-157"
@@ -2478,9 +3219,12 @@ cases:
     title: "Miles v. Safe Deposit &amp; Trust Co. of Baltimore"
     volume: "259"
     page: "247"
+    docket: "416"
+    citation: "259 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1922"
-    citation: "259 U.S. 247"
+    voteMajority: 9
+    voteMinority: 0
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1921-174"
@@ -2488,9 +3232,12 @@ cases:
     title: "Ward &amp; Gow v. Krinsky"
     volume: "259"
     page: "503"
+    docket: "343"
+    citation: "259 U.S. 503"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1922"
-    citation: "259 U.S. 503"
+    voteMajority: 7
+    voteMinority: 2
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1921-175"
@@ -2498,9 +3245,12 @@ cases:
     title: "Prudential Ins. Co. of America v. Cheek"
     volume: "259"
     page: "530"
+    docket: "149"
+    citation: "259 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1922"
-    citation: "259 U.S. 530"
+    voteMajority: 6
+    voteMinority: 3
     authorId: mpitney
     authorName: "Mahlon Pitney"
   - id: "1921-176"
@@ -2508,9 +3258,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Perry"
     volume: "259"
     page: "548"
+    docket: "19"
+    citation: "259 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1922"
-    citation: "259 U.S. 548"
+    voteMajority: 6
+    voteMinority: 3
     authorId: mpitney
     authorName: "Mahlon Pitney"
 ---

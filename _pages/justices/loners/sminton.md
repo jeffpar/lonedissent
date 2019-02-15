@@ -8,9 +8,12 @@ cases:
     title: "Kwong Hai Chew v. Colding"
     volume: "344"
     page: "590"
+    docket: "17"
+    citation: "344 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, February 9, 1953"
-    citation: "344 U.S. 590"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: sminton
     dissenterName: "Sherman Minton"
   - id: "1952-084"
@@ -18,9 +21,12 @@ cases:
     title: "Terry v. Adams"
     volume: "345"
     page: "461"
+    docket: "52"
+    citation: "345 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1953"
-    citation: "345 U.S. 461"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: sminton
     dissenterName: "Sherman Minton"
 ---

@@ -8,9 +8,12 @@ cases:
     title: "Dawson v. Delaware"
     volume: "503"
     page: "159"
+    docket: "90-6704"
+    citation: "503 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1992"
-    citation: "503 U.S. 159"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "1993-020"
@@ -18,9 +21,12 @@ cases:
     title: "Northwest Airlines, Inc. v. County of Kent"
     volume: "510"
     page: "355"
+    docket: "92-97"
+    citation: "510 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1994"
-    citation: "510 U.S. 355"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "1994-031"
@@ -28,9 +34,12 @@ cases:
     title: "Mastrobuono v. Shearson Lehman Hutton, Inc."
     volume: "514"
     page: "052"
+    docket: "94-18"
+    citation: "514 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1995"
-    citation: "514 U.S. 52"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "1994-062"
@@ -38,9 +47,12 @@ cases:
     title: "Nebraska v. Wyoming"
     volume: "515"
     page: "001"
+    docket: "108 Orig."
+    citation: "515 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 30, 1995"
-    citation: "515 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "1995-055"
@@ -48,9 +60,12 @@ cases:
     title: "Doctor&apos;s Associates, Inc. v. Casarotto"
     volume: "517"
     page: "681"
+    docket: "95-559"
+    citation: "517 U.S. 681"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1996"
-    citation: "517 U.S. 681"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "1998-016"
@@ -58,9 +73,12 @@ cases:
     title: "Lopez v. Monterey County"
     volume: "525"
     page: "266"
+    docket: "97-1396"
+    citation: "525 U.S. 266"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 20, 1999"
-    citation: "525 U.S. 266"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2002-019"
@@ -68,9 +86,12 @@ cases:
     title: "Miller-El v. Cockrell"
     volume: "537"
     page: "322"
+    docket: "01-7662"
+    citation: "537 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 25, 2003"
-    citation: "537 U.S. 322"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2002-066"
@@ -78,9 +99,12 @@ cases:
     title: "Hillside Dairy Inc. v. Lyons"
     volume: "539"
     page: "059"
+    docket: "01-950"
+    citation: "539 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 2003"
-    citation: "539 U.S. 59"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2003-073"
@@ -88,11 +112,14 @@ cases:
     title: "Pennsylvania State Police v. Suders"
     volume: "542"
     page: "129"
+    docket: "03-95"
+    citation: "542 U.S. 129"
     pdfSource: "loc"
     pdfPage: 2
     pdfPageDissent: 25
     dateDecision: "Monday, June 14, 2004"
-    citation: "542 U.S. 129"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2003-086"
@@ -100,11 +127,14 @@ cases:
     title: "Hamdi v. Rumsfeld"
     volume: "542"
     page: "507"
+    docket: "03-6696"
+    citation: "542 U.S. 507"
     pdfSource: "loc"
     pdfPage: 2
     pdfPageDissent: 74
     dateDecision: "Monday, June 28, 2004"
-    citation: "542 U.S. 507"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2004-057"
@@ -112,11 +142,14 @@ cases:
     title: "Johnson v. California"
     volume: "545"
     page: "162"
+    docket: "04-6964"
+    citation: "545 U.S. 162"
     pdfSource: "scotusBound"
     pdfPage: 213
     pdfPageDissent: 224
     dateDecision: "Monday, June 13, 2005"
-    citation: "545 U.S. 162"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2005-028"
@@ -124,9 +157,12 @@ cases:
     title: "Buckeye Check Cashing, Inc. v. Cardegna"
     volume: "546"
     page: "440"
+    docket: "04-1264"
+    citation: "546 U.S. 440"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, February 21, 2006"
-    citation: "546 U.S. 440"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2005-033"
@@ -134,9 +170,12 @@ cases:
     title: "Dolan v. Postal Service"
     volume: "546"
     page: "481"
+    docket: "04-848"
+    citation: "546 U.S. 481"
     pdfSource: "scotusBound"
     dateDecision: "Wednesday, February 22, 2006"
-    citation: "546 U.S. 481"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2006-003"
@@ -144,9 +183,12 @@ cases:
     title: "Lopez v. Gonzales"
     volume: "549"
     page: "047"
+    docket: "05-547"
+    citation: "549 U.S. 47"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, December 5, 2006"
-    citation: "549 U.S. 47"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2006-008"
@@ -154,9 +196,12 @@ cases:
     title: "MedImmune, Inc. v. Genentech, Inc."
     volume: "549"
     page: "118"
+    docket: "05-608"
+    citation: "549 U.S. 118"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, January 9, 2007"
-    citation: "549 U.S. 118"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2006-053"
@@ -164,9 +209,12 @@ cases:
     title: "Erickson v. Pardus"
     volume: "551"
     page: "089"
+    docket: "06-7317"
+    citation: "551 U.S. 89"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 4, 2007"
-    citation: "551 U.S. 89"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2006-064"
@@ -174,9 +222,12 @@ cases:
     title: "Credit Suisse Securities (USA) LLC v. Billing"
     volume: "551"
     page: "264"
+    docket: "05-1157"
+    citation: "551 U.S. 264"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 18, 2007"
-    citation: "551 U.S. 264"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2007-018"
@@ -184,9 +235,12 @@ cases:
     title: "Preston v. Ferrer"
     volume: "552"
     page: "346"
+    docket: "06-1463"
+    citation: "552 U.S. 346"
     pdfSource: "scotusBound"
     dateDecision: "Wednesday, February 20, 2008"
-    citation: "552 U.S. 346"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2007-036"
@@ -194,9 +248,12 @@ cases:
     title: "Gonzalez v. United States"
     volume: "553"
     page: "242"
+    docket: "06-11612"
+    citation: "553 U.S. 242"
     pdfSource: "scotusBound"
     dateDecision: "Monday, May 12, 2008"
-    citation: "553 U.S. 242"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2007-059"
@@ -204,9 +261,12 @@ cases:
     title: "Meacham v. Knolls Atomic Power Laboratory"
     volume: "554"
     page: "084"
+    docket: "06-1505"
+    citation: "554 U.S. 84"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 19, 2008"
-    citation: "554 U.S. 84"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2007-063"
@@ -214,9 +274,12 @@ cases:
     title: "Rothgery v. Gillespie County"
     volume: "554"
     page: "191"
+    docket: "07-440"
+    citation: "554 U.S. 191"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 23, 2008"
-    citation: "554 U.S. 191"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2008-028"
@@ -224,9 +287,12 @@ cases:
     title: "Negusie v. Holder"
     volume: "555"
     page: "511"
+    docket: "07-499"
+    citation: "555 U.S. 511"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, March 3, 2009"
-    citation: "555 U.S. 511"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2008-075"
@@ -234,9 +300,12 @@ cases:
     title: "Northwest Austin Municipal Util. Dist. No. One v. Holder"
     volume: "557"
     page: "193"
+    docket: "08-322"
+    citation: "557 U.S. 193"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 22, 2009"
-    citation: "557 U.S. 193"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2008-079"
@@ -244,9 +313,12 @@ cases:
     title: "Safford Unified School Dist. #1 v. Redding"
     volume: "557"
     page: "364"
+    docket: "08-479"
+    citation: "557 U.S. 364"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 25, 2009"
-    citation: "557 U.S. 364"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2009-081"
@@ -254,9 +326,12 @@ cases:
     title: "Doe v. Reed"
     volume: "561"
     page: "186"
+    docket: "09-559"
+    citation: "561 U.S. 186"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 24, 2010"
-    citation: "561 U.S. 186"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2011-008"
@@ -264,108 +339,135 @@ cases:
     title: "Smith v. Cain"
     volume: "565"
     page: "073"
+    docket: "10-8145"
+    citation: "565 U.S. 73"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, January 10, 2012"
-    citation: "565 U.S. 73"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2014-024"
     termId: "2014-10"
     title: "Elonis v. United States"
+    docket: "13-983"
     pdfSource: "slipopinion/14"
     dateDecision: "Monday, June 1, 2015"
-    citation: "No. 13-983"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2014-046"
     termId: "2014-10"
     title: "EEOC v. Abercrombie &amp; Fitch Stores, Inc."
+    docket: "14-86"
     pdfSource: "slipopinion/14"
     dateDecision: "Monday, June 1, 2015"
-    citation: "No. 14-86"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2014-072"
     termId: "2014-10"
     title: "Reyes Mata v. Lynch"
+    docket: "14-185"
     pdfSource: "slipopinion/14"
     dateDecision: "Monday, June 15, 2015"
-    citation: "No. 14-185"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2015-011"
     termId: "2015-10"
     title: "Foster v. Chatman"
+    docket: "14-8349"
     pdfSource: "slipopinion/15"
     dateDecision: "Monday, May 23, 2016"
-    citation: "No. 14-8349"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2015-021"
     termId: "2015-10"
     title: "Green v. Brennan"
+    docket: "14-613"
     pdfSource: "slipopinion/15"
     dateDecision: "Monday, May 23, 2016"
-    citation: "No. 14-613"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2015-040"
     termId: "2015-10"
     title: "Taylor v. United States"
+    docket: "14-6166"
     pdfSource: "slipopinion/15"
     dateDecision: "Monday, June 20, 2016"
-    citation: "No. 14-6166"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2015-047"
     termId: "2015-10"
     title: "Husky Int&rsquo;l Electronics, Inc. v. Ritz"
+    docket: "15-145"
     pdfSource: "slipopinion/15"
     dateDecision: "Monday, May 16, 2016"
-    citation: "No. 15-145"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2015-055"
     termId: "2015-10"
     title: "Welch v. United States"
+    docket: "15-6418"
     pdfSource: "slipopinion/15"
     dateDecision: "Monday, April 18, 2016"
-    citation: "No. 15-6418"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2015-068"
     termId: "2015-10"
     title: "Birchfield v. North Dakota"
+    docket: "14-1468"
     pdfSource: "slipopinion/15"
     dateDecision: "Thursday, June 23, 2016"
-    citation: "No. 14-1468"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2016-033"
     termId: "2016-10"
     title: "Nelson v. Colorado"
+    docket: "15-1256"
     pdfSource: "16pdf/15-1256_5i36"
     pdfPageDissent: 25
     dateDecision: "Wednesday, April 19, 2017"
-    citation: "No. 15-1256"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2016-045"
     termId: "2016-10"
     title: "Kindred Nursing Centers L. P. v. Clark"
+    docket: "16-32"
     pdfSource: "16pdf/16-32_o7jp"
     pdfPageDissent: 14
     dateDecision: "Monday, May 15, 2017"
-    citation: "No. 16-32"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
   - id: "2017-049"
     termId: "2017-10"
     title: "Lozman v. Riviera Beach"
+    docket: "17-21"
     pdfSource: "17pdf/17-21_p8k0"
     pdfPageDissent: 17
     dateDecision: "Monday, June 18, 2018"
-    citation: "No. 17-21"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: cthomas
     dissenterName: "Clarence Thomas"
 ---

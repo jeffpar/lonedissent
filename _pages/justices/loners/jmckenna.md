@@ -8,9 +8,12 @@ cases:
     title: "Andersen v. United States"
     volume: "170"
     page: "481"
+    docket: "583"
+    citation: "170 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, May 9, 1898"
-    citation: "170 U.S. 481"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1898-159"
@@ -18,9 +21,12 @@ cases:
     title: "The Olinde Rodrigues"
     volume: "174"
     page: "510"
+    docket: "704"
+    citation: "174 U.S. 510"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1899"
-    citation: "174 U.S. 510"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1899-091"
@@ -28,9 +34,12 @@ cases:
     title: "Blackburn v. Portland Gold Mining Co."
     volume: "175"
     page: "571"
+    docket: "54"
+    citation: "175 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1900"
-    citation: "175 U.S. 571"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1899-200"
@@ -38,9 +47,12 @@ cases:
     title: "Shoshone Mining Co. v. Rutter"
     volume: "177"
     page: "505"
+    docket: "208"
+    citation: "177 U.S. 505"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1900"
-    citation: "177 U.S. 505"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1899-202"
@@ -48,9 +60,12 @@ cases:
     title: "De Lamar&apos;s Nev. Gold Mining Co. v. Nesbitt"
     volume: "177"
     page: "523"
+    docket: "152"
+    citation: "177 U.S. 523"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1900"
-    citation: "177 U.S. 523"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1900-028"
@@ -58,9 +73,12 @@ cases:
     title: "Mutual Life Ins. Co. of N. Y. v. Cohen"
     volume: "179"
     page: "262"
+    docket: "157"
+    citation: "179 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1900"
-    citation: "179 U.S. 262"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1901-080"
@@ -68,9 +86,12 @@ cases:
     title: "Connolly v. Union Sewer Pipe Co."
     volume: "184"
     page: "540"
+    docket: "46"
+    citation: "184 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1902"
-    citation: "184 U.S. 540"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1902-073"
@@ -78,9 +99,12 @@ cases:
     title: "Gutierres v. Albuquerque Land &amp; Irrigation Co."
     volume: "188"
     page: "545"
+    docket: "16"
+    citation: "188 U.S. 545"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1903"
-    citation: "188 U.S. 545"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1902-206"
@@ -88,9 +112,12 @@ cases:
     title: "Worden v. California Fig Syrup Co."
     volume: "187"
     page: "516"
+    docket: "36"
+    citation: "187 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1903"
-    citation: "187 U.S. 516"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1903-072"
@@ -98,9 +125,12 @@ cases:
     title: "German Sav. and Loan Soc. v. Dormitzer"
     volume: "192"
     page: "125"
+    docket: "104"
+    citation: "192 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1904"
-    citation: "192 U.S. 125"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1903-074"
@@ -108,9 +138,12 @@ cases:
     title: "New York County Nat. Bank v. Massey"
     volume: "192"
     page: "138"
+    docket: "90"
+    citation: "192 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1904"
-    citation: "192 U.S. 138"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1904-049"
@@ -118,9 +151,12 @@ cases:
     title: "Lavagnino v. Uhlig"
     volume: "198"
     page: "443"
+    docket: "120"
+    citation: "198 U.S. 443"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1905"
-    citation: "198 U.S. 443"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1906-019"
@@ -128,9 +164,12 @@ cases:
     title: "Pettibone v. Nichols"
     volume: "203"
     page: "192"
+    docket: "249"
+    citation: "203 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 192"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1906-020"
@@ -138,9 +177,12 @@ cases:
     title: "Moyer v. Nichols"
     volume: "203"
     page: "221"
+    docket: "250"
+    citation: "203 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 221"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1907-099"
@@ -148,9 +190,12 @@ cases:
     title: "United States v. Sisseton and Wahpeton Bands of Sioux Indians"
     volume: "208"
     page: "561"
+    docket: "338"
+    citation: "208 U.S. 561"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 561"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1907-151"
@@ -158,9 +203,12 @@ cases:
     title: "Hudson County Water Co. v. McCarter"
     volume: "209"
     page: "349"
+    docket: "184"
+    citation: "209 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1908"
-    citation: "209 U.S. 349"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1908-104"
@@ -168,9 +216,12 @@ cases:
     title: "Davidson Bros. Marble Co. v. United States ex rel. Gibson"
     volume: "213"
     page: "010"
+    docket: "78"
+    citation: "213 U.S. 10"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "213 U.S. 10"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1908-123"
@@ -178,9 +229,12 @@ cases:
     title: "Chesapeake &amp; Ohio R. Co. v. McCabe"
     volume: "213"
     page: "207"
+    docket: "89"
+    citation: "213 U.S. 207"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1909"
-    citation: "213 U.S. 207"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1909-018"
@@ -188,9 +242,12 @@ cases:
     title: "Steward v. American Lava Co."
     volume: "215"
     page: "161"
+    docket: "27"
+    citation: "215 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1909"
-    citation: "215 U.S. 161"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1909-053"
@@ -198,9 +255,12 @@ cases:
     title: "Brill v. Washington Ry. &amp; Electric Co."
     volume: "215"
     page: "527"
+    docket: "66"
+    citation: "215 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1910"
-    citation: "215 U.S. 527"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1909-089"
@@ -208,9 +268,12 @@ cases:
     title: "United States v. Plowman"
     volume: "216"
     page: "372"
+    docket: "96"
+    citation: "216 U.S. 372"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 372"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1910-106"
@@ -218,9 +281,12 @@ cases:
     title: "Arnett v. Reade"
     volume: "220"
     page: "311"
+    docket: "98"
+    citation: "220 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1911"
-    citation: "220 U.S. 311"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1910-118"
@@ -228,9 +294,12 @@ cases:
     title: "Sac and Fox Indians of Miss. in Iowa v. Sac and Fox Indians of Miss. in Okla."
     volume: "220"
     page: "481"
+    docket: "614"
+    citation: "220 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1911"
-    citation: "220 U.S. 481"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1910-146"
@@ -238,9 +307,12 @@ cases:
     title: "Wilson v. United States"
     volume: "221"
     page: "361"
+    docket: "759"
+    citation: "221 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Saturday, April 15, 1911"
-    citation: "221 U.S. 361"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1911-147"
@@ -248,9 +320,12 @@ cases:
     title: "Ker &amp; Co. v. Couden"
     volume: "223"
     page: "268"
+    docket: "11"
+    citation: "223 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 268"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1911-213"
@@ -258,9 +333,12 @@ cases:
     title: "Title Guaranty &amp; Surety Co. v. Nichols"
     volume: "224"
     page: "346"
+    docket: "102"
+    citation: "224 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1912"
-    citation: "224 U.S. 346"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1913-066"
@@ -268,9 +346,12 @@ cases:
     title: "Pipe Line Cases"
     volume: "234"
     page: "548"
+    docket: "481"
+    citation: "234 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1914"
-    citation: "234 U.S. 548"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1913-120"
@@ -278,9 +359,12 @@ cases:
     title: "Oceanic Steam Nav. Co. v. Mellor"
     volume: "233"
     page: "718"
+    docket: "798"
+    citation: "233 U.S. 718"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1914"
-    citation: "233 U.S. 718"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1915-034"
@@ -288,9 +372,12 @@ cases:
     title: "William Cramp &amp; Sons Ship &amp; Engine Building Co. v. United States"
     volume: "239"
     page: "221"
+    docket: "63"
+    citation: "239 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1915"
-    citation: "239 U.S. 221"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1915-057"
@@ -298,9 +385,12 @@ cases:
     title: "United States Fidelity &amp; Guaranty Co. v. Riefler"
     volume: "239"
     page: "017"
+    docket: "11"
+    citation: "239 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1915"
-    citation: "239 U.S. 17"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1915-148"
@@ -308,9 +398,12 @@ cases:
     title: "Missouri v. Chicago, B. &amp; Q. R. Co."
     volume: "241"
     page: "533"
+    docket: "16 Orig."
+    citation: "241 U.S. 533"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1916"
-    citation: "241 U.S. 533"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1915-189"
@@ -318,9 +411,12 @@ cases:
     title: "American Well Works Co. v. Layne &amp; Bowler Co."
     volume: "241"
     page: "257"
+    docket: "376"
+    citation: "241 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1916"
-    citation: "241 U.S. 257"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1915-225"
@@ -328,9 +424,12 @@ cases:
     title: "Northern Pacific R. Co. v. Meese"
     volume: "239"
     page: "614"
+    docket: "133"
+    citation: "239 U.S. 614"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1916"
-    citation: "239 U.S. 614"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1916-044"
@@ -338,9 +437,12 @@ cases:
     title: "Portuguese-American Bank of San Francisco v. Welles"
     volume: "242"
     page: "007"
+    docket: "45"
+    citation: "242 U.S. 7"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1916"
-    citation: "242 U.S. 7"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1916-117"
@@ -348,9 +450,12 @@ cases:
     title: "American Express Co. v. South Dakota ex rel. Caldwell"
     volume: "244"
     page: "617"
+    docket: "902"
+    citation: "244 U.S. 617"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1917"
-    citation: "244 U.S. 617"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1916-128"
@@ -358,9 +463,12 @@ cases:
     title: "United States v. Davis"
     volume: "243"
     page: "570"
+    docket: "621"
+    citation: "243 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1917"
-    citation: "243 U.S. 570"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1916-192"
@@ -368,9 +476,12 @@ cases:
     title: "Thomas Cusack Co. v. Chicago"
     volume: "242"
     page: "526"
+    docket: "126"
+    citation: "242 U.S. 526"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1917"
-    citation: "242 U.S. 526"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1917-055"
@@ -378,9 +489,12 @@ cases:
     title: "Marconi Wireless Telegraph Co. of America v. Simon"
     volume: "246"
     page: "046"
+    docket: "168"
+    citation: "246 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 46"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1917-072"
@@ -388,9 +502,12 @@ cases:
     title: "Lane v. Morrison"
     volume: "246"
     page: "214"
+    docket: "169"
+    citation: "246 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 214"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1917-109"
@@ -398,9 +515,12 @@ cases:
     title: "Bethlehem Steel Co. v. United States"
     volume: "246"
     page: "523"
+    docket: "575"
+    citation: "246 U.S. 523"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1918"
-    citation: "246 U.S. 523"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1917-125"
@@ -408,9 +528,12 @@ cases:
     title: "Grinnell Washing Machine Co. v. E. E. Johnson Co."
     volume: "247"
     page: "426"
+    docket: "272"
+    citation: "247 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1918"
-    citation: "247 U.S. 426"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1917-188"
@@ -418,9 +541,12 @@ cases:
     title: "Greer v. United States"
     volume: "245"
     page: "559"
+    docket: "504"
+    citation: "245 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1918"
-    citation: "245 U.S. 559"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1920-111"
@@ -428,9 +554,12 @@ cases:
     title: "Nickel v. Cole"
     volume: "256"
     page: "222"
+    docket: "268"
+    citation: "256 U.S. 222"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1921"
-    citation: "256 U.S. 222"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1921-071"
@@ -438,9 +567,12 @@ cases:
     title: "Levinson v. United States"
     volume: "258"
     page: "198"
+    docket: "145"
+    citation: "258 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1922"
-    citation: "258 U.S. 198"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1921-104"
@@ -448,9 +580,12 @@ cases:
     title: "United Shoe Machinery Corp. v. United States"
     volume: "258"
     page: "451"
+    docket: "119"
+    citation: "258 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1922"
-    citation: "258 U.S. 451"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1921-156"
@@ -458,9 +593,12 @@ cases:
     title: "United States v. Southern Pacific Co."
     volume: "259"
     page: "214"
+    docket: "5"
+    citation: "259 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1922"
-    citation: "259 U.S. 214"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1922-220"
@@ -468,9 +606,12 @@ cases:
     title: "Georgia Railway &amp; Power Co. v. Railroad Comm&apos;n of Ga."
     volume: "262"
     page: "625"
+    docket: "298"
+    citation: "262 U.S. 625"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1923"
-    citation: "262 U.S. 625"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1923-087"
@@ -478,9 +619,12 @@ cases:
     title: "Western Union Telegraph Co. v. Czizek"
     volume: "264"
     page: "281"
+    docket: "300"
+    citation: "264 U.S. 281"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1924"
-    citation: "264 U.S. 281"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
   - id: "1923-188"
@@ -488,9 +632,12 @@ cases:
     title: "United States v. New River Co."
     volume: "265"
     page: "533"
+    docket: "627"
+    citation: "265 U.S. 533"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1924"
-    citation: "265 U.S. 533"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckenna
     dissenterName: "Joseph McKenna"
 ---

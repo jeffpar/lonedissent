@@ -8,9 +8,12 @@ cases:
     title: "Johnson v. St. Louis, I. M. &amp; S. R. Co."
     volume: "141"
     page: "602"
+    docket: "60"
+    citation: "141 U.S. 602"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1891"
-    citation: "141 U.S. 602"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: lqlamar
     dissenterName: "Lucius Lamar"
 ---

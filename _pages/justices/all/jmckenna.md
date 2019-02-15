@@ -8,9 +8,12 @@ cases:
     title: "Humes v. United States"
     volume: "170"
     page: "210"
+    docket: "150"
+    citation: "170 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1898"
-    citation: "170 U.S. 210"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1897-116"
@@ -18,9 +21,12 @@ cases:
     title: "Williams v. Mississippi"
     volume: "170"
     page: "213"
+    docket: "531"
+    citation: "170 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1898"
-    citation: "170 U.S. 213"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1897-121"
@@ -28,9 +34,12 @@ cases:
     title: "Magoun v. Illinois Trust and Sav. Bank"
     volume: "170"
     page: "283"
+    docket: "464"
+    citation: "170 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1898"
-    citation: "170 U.S. 283"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1897-122"
@@ -38,9 +47,12 @@ cases:
     title: "Drake v. Kochersperger"
     volume: "170"
     page: "303"
+    docket: "425"
+    citation: "170 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1898"
-    citation: "170 U.S. 303"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1897-153"
@@ -48,9 +60,12 @@ cases:
     title: "United States v. Coe"
     volume: "170"
     page: "681"
+    docket: "8"
+    citation: "170 U.S. 681"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1898"
-    citation: "170 U.S. 681"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1897-156"
@@ -58,9 +73,12 @@ cases:
     title: "Pounds v. United States"
     volume: "171"
     page: "035"
+    docket: "298"
+    citation: "171 U.S. 35"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1898"
-    citation: "171 U.S. 35"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1897-157"
@@ -68,9 +86,12 @@ cases:
     title: "Harrison v. Morton"
     volume: "171"
     page: "038"
+    docket: "245"
+    citation: "171 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1898"
-    citation: "171 U.S. 38"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1897-158"
@@ -78,9 +99,12 @@ cases:
     title: "Detroit Citizens&apos; Street R. Co. v. Detroit R. Co."
     volume: "171"
     page: "048"
+    docket: "236"
+    citation: "171 U.S. 48"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1898"
-    citation: "171 U.S. 48"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1897-177"
@@ -88,9 +112,12 @@ cases:
     title: "Walrath v. Champion Mining Co."
     volume: "171"
     page: "293"
+    docket: "230"
+    citation: "171 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1898"
-    citation: "171 U.S. 293"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1897-222"
@@ -98,9 +125,12 @@ cases:
     title: "Sawyer v. Kochersperger"
     volume: "170"
     page: "303"
+    docket: "463"
+    citation: "170 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1898"
-    citation: "170 U.S. 303"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-010"
@@ -108,9 +138,12 @@ cases:
     title: "Northwestern Bank v. Freeman"
     volume: "171"
     page: "620"
+    docket: "18"
+    citation: "171 U.S. 620"
     pdfSource: "loc"
     dateDecision: "Monday, October 24, 1898"
-    citation: "171 U.S. 620"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-021"
@@ -118,9 +151,12 @@ cases:
     title: "Meyer v. Richmond"
     volume: "172"
     page: "082"
+    docket: "48"
+    citation: "172 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1898"
-    citation: "172 U.S. 82"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-025"
@@ -128,9 +164,12 @@ cases:
     title: "New Mexico v. United States Trust Co."
     volume: "172"
     page: "171"
+    docket: "106"
+    citation: "172 U.S. 171"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1898"
-    citation: "172 U.S. 171"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-026"
@@ -138,9 +177,12 @@ cases:
     title: "The Elfrida"
     volume: "172"
     page: "186"
+    docket: "169"
+    citation: "172 U.S. 186"
     pdfSource: "loc"
     dateDecision: "Saturday, October 1, 1898"
-    citation: "172 U.S. 186"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-037"
@@ -148,9 +190,12 @@ cases:
     title: "Clark v. Kansas City"
     volume: "172"
     page: "334"
+    docket: "402"
+    citation: "172 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1899"
-    citation: "172 U.S. 334"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-049"
@@ -158,9 +203,12 @@ cases:
     title: "Chappell Chemical &amp; Fertilizer Co. v. Sulphur Mines Co."
     volume: "172"
     page: "465"
+    docket: "91"
+    citation: "172 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1899"
-    citation: "172 U.S. 465"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-050"
@@ -168,9 +216,12 @@ cases:
     title: "Chappell Chemical &amp; Fertilizer Co. v. Sulphur Mines Co."
     volume: "172"
     page: "472"
+    docket: "92"
+    citation: "172 U.S. 472"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1899"
-    citation: "172 U.S. 472"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-051"
@@ -178,9 +229,11 @@ cases:
     title: "Chappell Chemical &amp; Fertilizer Co. v. Sulphur Mines Co."
     volume: "172"
     page: "474"
+    citation: "172 U.S. 474"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1899"
-    citation: "172 U.S. 474"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-059"
@@ -188,9 +241,12 @@ cases:
     title: "Northern Pacific R. Co. v. Myers"
     volume: "172"
     page: "589"
+    docket: "214"
+    citation: "172 U.S. 589"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1899"
-    citation: "172 U.S. 589"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-062"
@@ -198,9 +254,12 @@ cases:
     title: "Marshall v. Burtis"
     volume: "172"
     page: "630"
+    docket: "118"
+    citation: "172 U.S. 630"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1899"
-    citation: "172 U.S. 630"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-067"
@@ -208,9 +267,12 @@ cases:
     title: "Wilson v. Eureka City"
     volume: "173"
     page: "032"
+    docket: "142"
+    citation: "173 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1899"
-    citation: "173 U.S. 32"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-071"
@@ -218,9 +280,12 @@ cases:
     title: "United States v. Navarre"
     volume: "173"
     page: "077"
+    docket: "393"
+    citation: "173 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1899"
-    citation: "173 U.S. 77"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-077"
@@ -228,9 +293,12 @@ cases:
     title: "Henrietta Mining &amp; Milling Co. v. Gardner"
     volume: "173"
     page: "123"
+    docket: "140"
+    citation: "173 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1899"
-    citation: "173 U.S. 123"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-098"
@@ -238,9 +306,12 @@ cases:
     title: "Yerke v. United States"
     volume: "173"
     page: "439"
+    docket: "664"
+    citation: "173 U.S. 439"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1899"
-    citation: "173 U.S. 439"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-099"
@@ -248,9 +319,12 @@ cases:
     title: "Remington Paper Co. v. Watson"
     volume: "173"
     page: "443"
+    docket: "146"
+    citation: "173 U.S. 443"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1899"
-    citation: "173 U.S. 443"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-114"
@@ -258,9 +332,12 @@ cases:
     title: "Duluth &amp; Iron Range R. Co. v. Roy"
     volume: "173"
     page: "587"
+    docket: "221"
+    citation: "173 U.S. 587"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1899"
-    citation: "173 U.S. 587"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-129"
@@ -268,9 +345,12 @@ cases:
     title: "White v. Leovy"
     volume: "174"
     page: "091"
+    docket: "232"
+    citation: "174 U.S. 91"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1899"
-    citation: "174 U.S. 91"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-131"
@@ -278,9 +358,12 @@ cases:
     title: "Auten v. United States Nat. Bank of N. Y."
     volume: "174"
     page: "125"
+    docket: "206"
+    citation: "174 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1899"
-    citation: "174 U.S. 125"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-160"
@@ -288,9 +371,12 @@ cases:
     title: "Cohn v. Daley"
     volume: "174"
     page: "539"
+    docket: "136"
+    citation: "174 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1899"
-    citation: "174 U.S. 539"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-161"
@@ -298,9 +384,12 @@ cases:
     title: "New Mexico v. United States Trust Co."
     volume: "174"
     page: "545"
+    docket: "169"
+    citation: "174 U.S. 545"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1899"
-    citation: "174 U.S. 545"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-173"
@@ -308,9 +397,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Sturm"
     volume: "174"
     page: "710"
+    docket: "236"
+    citation: "174 U.S. 710"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1899"
-    citation: "174 U.S. 710"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-174"
@@ -318,9 +410,12 @@ cases:
     title: "CHICAGO, ROCK ISLAND AND PACIFIC RAILWAY COMPANY v. DAVID CAMPBELL"
     volume: "174"
     page: "718"
+    docket: "235"
+    citation: "174 U.S. 718"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1899"
-    citation: "174 U.S. 718"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-175"
@@ -328,9 +423,12 @@ cases:
     title: "Davis v. Coblens"
     volume: "174"
     page: "719"
+    docket: "246"
+    citation: "174 U.S. 719"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1899"
-    citation: "174 U.S. 719"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-180"
@@ -338,9 +436,12 @@ cases:
     title: "Orient Ins. Co. v. Daggs"
     volume: "172"
     page: "557"
+    docket: "81"
+    citation: "172 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1899"
-    citation: "172 U.S. 557"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-014"
@@ -348,9 +449,12 @@ cases:
     title: "Coudert v. United States"
     volume: "175"
     page: "178"
+    docket: "15"
+    citation: "175 U.S. 178"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1899"
-    citation: "175 U.S. 178"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-015"
@@ -358,9 +462,12 @@ cases:
     title: "Markuson v. Boucher"
     volume: "175"
     page: "184"
+    docket: "77"
+    citation: "175 U.S. 184"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1899"
-    citation: "175 U.S. 184"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-036"
@@ -368,9 +475,12 @@ cases:
     title: "United States v. Chavez"
     volume: "175"
     page: "509"
+    docket: "38"
+    citation: "175 U.S. 509"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1899"
-    citation: "175 U.S. 509"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-042"
@@ -378,9 +488,12 @@ cases:
     title: "Osborne v. San Diego Land &amp; Town Co."
     volume: "178"
     page: "022"
+    docket: "201"
+    citation: "178 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1900"
-    citation: "178 U.S. 22"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-060"
@@ -388,9 +501,12 @@ cases:
     title: "Pittsburgh &amp; Lake Angeline Iron Co. v. Cleveland Iron Mining Co."
     volume: "178"
     page: "270"
+    docket: "260"
+    citation: "178 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1900"
-    citation: "178 U.S. 270"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-071"
@@ -398,9 +514,12 @@ cases:
     title: "Moffett, Hodgkins &amp; Clarke Co. v. Rochester"
     volume: "178"
     page: "373"
+    docket: "217"
+    citation: "178 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1900"
-    citation: "178 U.S. 373"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-072"
@@ -408,9 +527,12 @@ cases:
     title: "New York Life Ins. Co. v. Cravens"
     volume: "178"
     page: "389"
+    docket: "262"
+    citation: "178 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1900"
-    citation: "178 U.S. 389"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-073"
@@ -418,9 +540,12 @@ cases:
     title: "Banholzer v. New York Life Ins. Co."
     volume: "178"
     page: "402"
+    docket: "277"
+    citation: "178 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1900"
-    citation: "178 U.S. 402"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-074"
@@ -428,9 +553,12 @@ cases:
     title: "Deserant v. Cerillos Coal R. Co."
     volume: "178"
     page: "409"
+    docket: "269"
+    citation: "178 U.S. 409"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1900"
-    citation: "178 U.S. 409"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-075"
@@ -438,9 +566,12 @@ cases:
     title: "In re Connaway"
     volume: "178"
     page: "421"
+    docket: "9 Orig."
+    citation: "178 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1900"
-    citation: "178 U.S. 421"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-108"
@@ -448,9 +579,12 @@ cases:
     title: "The Newfoundland"
     volume: "176"
     page: "097"
+    docket: "156"
+    citation: "176 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1900"
-    citation: "176 U.S. 97"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-109"
@@ -458,9 +592,12 @@ cases:
     title: "Clark v. Kansas City"
     volume: "176"
     page: "114"
+    docket: "268"
+    citation: "176 U.S. 114"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1900"
-    citation: "176 U.S. 114"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-120"
@@ -468,9 +605,12 @@ cases:
     title: "United States v. Tennessee &amp; Coosa R. Co."
     volume: "176"
     page: "242"
+    docket: "53"
+    citation: "176 U.S. 242"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1900"
-    citation: "176 U.S. 242"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-138"
@@ -478,9 +618,12 @@ cases:
     title: "Jackson v. Emmons"
     volume: "176"
     page: "532"
+    docket: "157"
+    citation: "176 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1900"
-    citation: "176 U.S. 532"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-140"
@@ -488,9 +631,12 @@ cases:
     title: "Weyerhaueser v. Minnesota"
     volume: "176"
     page: "550"
+    docket: "128"
+    citation: "176 U.S. 550"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1900"
-    citation: "176 U.S. 550"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-151"
@@ -498,9 +644,12 @@ cases:
     title: "Waters-Pierce Oil Co. v. Texas"
     volume: "177"
     page: "028"
+    docket: "97"
+    citation: "177 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1900"
-    citation: "177 U.S. 28"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-157"
@@ -508,9 +657,12 @@ cases:
     title: "Jamestown &amp; Northern R. Co. v. Jones"
     volume: "177"
     page: "125"
+    docket: "142"
+    citation: "177 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1900"
-    citation: "177 U.S. 125"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-181"
@@ -518,9 +670,12 @@ cases:
     title: "Saranac Land &amp; Timber Co. v. Comptroller of N. Y."
     volume: "177"
     page: "318"
+    docket: "94"
+    citation: "177 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1900"
-    citation: "177 U.S. 318"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-182"
@@ -528,9 +683,12 @@ cases:
     title: "Minneapolis &amp; St. Louis R. Co. v. Gardner"
     volume: "177"
     page: "332"
+    docket: "160"
+    citation: "177 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1900"
-    citation: "177 U.S. 332"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-183"
@@ -538,9 +696,12 @@ cases:
     title: "Caffrey v. Oklahoma Territory"
     volume: "177"
     page: "346"
+    docket: "182"
+    citation: "177 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1900"
-    citation: "177 U.S. 346"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-205"
@@ -548,9 +709,12 @@ cases:
     title: "Daggs v. Phoenix Nat. Bank"
     volume: "177"
     page: "549"
+    docket: "138"
+    citation: "177 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1900"
-    citation: "177 U.S. 549"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1899-206"
@@ -558,9 +722,12 @@ cases:
     title: "Los Angeles v. Los Angeles City Water Co."
     volume: "177"
     page: "558"
+    docket: "148"
+    citation: "177 U.S. 558"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1900"
-    citation: "177 U.S. 558"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-035"
@@ -568,9 +735,12 @@ cases:
     title: "In re De Bara"
     volume: "179"
     page: "316"
+    docket: "15 Orig."
+    citation: "179 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1900"
-    citation: "179 U.S. 316"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-048"
@@ -578,9 +748,12 @@ cases:
     title: "United States v. Morrison"
     volume: "179"
     page: "456"
+    docket: "15"
+    citation: "179 U.S. 456"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1900"
-    citation: "179 U.S. 456"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-049"
@@ -588,9 +761,12 @@ cases:
     title: "Rothschild v. United States"
     volume: "179"
     page: "463"
+    docket: "59"
+    citation: "179 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1900"
-    citation: "179 U.S. 463"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-068"
@@ -598,9 +774,12 @@ cases:
     title: "Pirie v. Chicago Title &amp; Trust Co."
     volume: "182"
     page: "438"
+    docket: "391"
+    citation: "182 U.S. 438"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 438"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-069"
@@ -608,9 +787,12 @@ cases:
     title: "United States ex rel. Queen v. Alvey"
     volume: "182"
     page: "456"
+    docket: "17 Orig."
+    citation: "182 U.S. 456"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 456"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-071"
@@ -618,9 +800,12 @@ cases:
     title: "Calhoun Gold Mining Co. v. Ajax Gold Mining Co."
     volume: "182"
     page: "499"
+    docket: "195"
+    citation: "182 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 499"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-072"
@@ -628,9 +813,12 @@ cases:
     title: "District of Columbia v. Talty"
     volume: "182"
     page: "510"
+    docket: "238"
+    citation: "182 U.S. 510"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 510"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-073"
@@ -638,9 +826,12 @@ cases:
     title: "Russell v. United States"
     volume: "182"
     page: "516"
+    docket: "242"
+    citation: "182 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 516"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-092"
@@ -648,9 +839,12 @@ cases:
     title: "Thompson v. Los Angeles Farming &amp; Milling Co."
     volume: "180"
     page: "072"
+    docket: "87"
+    citation: "180 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 72"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-093"
@@ -658,9 +852,12 @@ cases:
     title: "Gusman v. Marrero"
     volume: "180"
     page: "081"
+    docket: "223"
+    citation: "180 U.S. 81"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 81"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-094"
@@ -668,9 +865,12 @@ cases:
     title: "Turner v. Richardson"
     volume: "180"
     page: "087"
+    docket: "408"
+    citation: "180 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 87"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-095"
@@ -678,9 +878,12 @@ cases:
     title: "District of Columbia v. Robinson"
     volume: "180"
     page: "092"
+    docket: "86"
+    citation: "180 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 92"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-111"
@@ -688,9 +891,12 @@ cases:
     title: "Lampasas v. Bell"
     volume: "180"
     page: "276"
+    docket: "115"
+    citation: "180 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1901"
-    citation: "180 U.S. 276"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-136"
@@ -698,9 +904,12 @@ cases:
     title: "Freeport Water Co. v. Freeport City"
     volume: "180"
     page: "587"
+    docket: "348"
+    citation: "180 U.S. 587"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1901"
-    citation: "180 U.S. 587"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-137"
@@ -708,9 +917,12 @@ cases:
     title: "Danville Water Co. v. Danville City"
     volume: "180"
     page: "619"
+    docket: "373"
+    citation: "180 U.S. 619"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1901"
-    citation: "180 U.S. 619"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-138"
@@ -718,9 +930,12 @@ cases:
     title: "Rogers Park Water Co. v. Fergus"
     volume: "180"
     page: "624"
+    docket: "56"
+    citation: "180 U.S. 624"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1901"
-    citation: "180 U.S. 624"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-164"
@@ -728,9 +943,12 @@ cases:
     title: "Bedford v. Eastern Building and Loan Assn."
     volume: "181"
     page: "227"
+    docket: "153"
+    citation: "181 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1901"
-    citation: "181 U.S. 227"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-166"
@@ -738,9 +956,12 @@ cases:
     title: "Smith v. St. Louis &amp; Southwestern R. Co."
     volume: "181"
     page: "248"
+    docket: "155"
+    citation: "181 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1901"
-    citation: "181 U.S. 248"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-192"
@@ -748,9 +969,12 @@ cases:
     title: "Marks v. Shoup"
     volume: "181"
     page: "562"
+    docket: "82"
+    citation: "181 U.S. 562"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1901"
-    citation: "181 U.S. 562"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-193"
@@ -758,9 +982,12 @@ cases:
     title: "Luhrs v. Hancock"
     volume: "181"
     page: "567"
+    docket: "176"
+    citation: "181 U.S. 567"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1901"
-    citation: "181 U.S. 567"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1900-199"
@@ -768,9 +995,12 @@ cases:
     title: "American Sugar Refiing Co. v. United States"
     volume: "181"
     page: "610"
+    docket: "225"
+    citation: "181 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1901"
-    citation: "181 U.S. 610"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-028"
@@ -778,9 +1008,12 @@ cases:
     title: "Nesbitt v. United States"
     volume: "186"
     page: "153"
+    docket: "578"
+    citation: "186 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1902"
-    citation: "186 U.S. 153"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-029"
@@ -788,9 +1021,12 @@ cases:
     title: "Williams v. Gaylord"
     volume: "186"
     page: "157"
+    docket: "208"
+    citation: "186 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1902"
-    citation: "186 U.S. 157"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-030"
@@ -798,9 +1034,12 @@ cases:
     title: "Lee Lung v. Patterson"
     volume: "186"
     page: "168"
+    docket: "189"
+    citation: "186 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1902"
-    citation: "186 U.S. 168"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-047"
@@ -808,9 +1047,12 @@ cases:
     title: "Talbot v. Sioux City First Nat. Bank"
     volume: "185"
     page: "172"
+    docket: "164"
+    citation: "185 U.S. 172"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1902"
-    citation: "185 U.S. 172"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-048"
@@ -818,9 +1060,12 @@ cases:
     title: "Talbot v. Sioux National Bank"
     volume: "185"
     page: "182"
+    docket: "190"
+    citation: "185 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1902"
-    citation: "185 U.S. 182"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-060"
@@ -828,9 +1073,12 @@ cases:
     title: "Eastern Building and Loan Assn. v. Ebaugh"
     volume: "185"
     page: "114"
+    docket: "177"
+    citation: "185 U.S. 114"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1902"
-    citation: "185 U.S. 114"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-061"
@@ -838,9 +1086,12 @@ cases:
     title: "McIntosh v. Aubrey"
     volume: "185"
     page: "122"
+    docket: "107"
+    citation: "185 U.S. 122"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1902"
-    citation: "185 U.S. 122"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-074"
@@ -848,9 +1099,12 @@ cases:
     title: "Busch v. Jones"
     volume: "184"
     page: "598"
+    docket: "96"
+    citation: "184 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1902"
-    citation: "184 U.S. 598"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-078"
@@ -858,9 +1112,12 @@ cases:
     title: "Monroe v. United States"
     volume: "184"
     page: "524"
+    docket: "98"
+    citation: "184 U.S. 524"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1902"
-    citation: "184 U.S. 524"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-081"
@@ -868,9 +1125,12 @@ cases:
     title: "Clark v. Titusville"
     volume: "184"
     page: "329"
+    docket: "91"
+    citation: "184 U.S. 329"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1902"
-    citation: "184 U.S. 329"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-082"
@@ -878,9 +1138,12 @@ cases:
     title: "Rothschild v. Knight"
     volume: "184"
     page: "334"
+    docket: "108"
+    citation: "184 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1902"
-    citation: "184 U.S. 334"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-093"
@@ -888,9 +1151,12 @@ cases:
     title: "Cleveland Trust Co. v. Lander"
     volume: "184"
     page: "111"
+    docket: "88"
+    citation: "184 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1902"
-    citation: "184 U.S. 111"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-094"
@@ -898,9 +1164,12 @@ cases:
     title: "Voigt v. Detroit City"
     volume: "184"
     page: "115"
+    docket: "83"
+    citation: "184 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1902"
-    citation: "184 U.S. 115"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-095"
@@ -908,9 +1177,12 @@ cases:
     title: "United States v. Barlow"
     volume: "184"
     page: "123"
+    docket: "127"
+    citation: "184 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1902"
-    citation: "184 U.S. 123"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-116"
@@ -918,9 +1190,12 @@ cases:
     title: "King v. Portland City"
     volume: "184"
     page: "061"
+    docket: "307"
+    citation: "184 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1902"
-    citation: "184 U.S. 61"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-137"
@@ -928,9 +1203,12 @@ cases:
     title: "McKinley Creek Mining Co. v. Alaska United Mining Co."
     volume: "183"
     page: "563"
+    docket: "37"
+    citation: "183 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1902"
-    citation: "183 U.S. 563"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-138"
@@ -938,9 +1216,12 @@ cases:
     title: "Maese v. Herman"
     volume: "183"
     page: "572"
+    docket: "226"
+    citation: "183 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1902"
-    citation: "183 U.S. 572"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-139"
@@ -948,9 +1229,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Zernecke"
     volume: "183"
     page: "582"
+    docket: "58"
+    citation: "183 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1902"
-    citation: "183 U.S. 582"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-140"
@@ -958,9 +1242,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Eaton"
     volume: "183"
     page: "589"
+    docket: "57"
+    citation: "183 U.S. 589"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1902"
-    citation: "183 U.S. 589"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-141"
@@ -968,9 +1255,12 @@ cases:
     title: "United States Repair &amp; Guarantee Co. v. Assyrian Asphalt Co."
     volume: "183"
     page: "591"
+    docket: "61"
+    citation: "183 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1902"
-    citation: "183 U.S. 591"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-142"
@@ -978,9 +1268,12 @@ cases:
     title: "Midway Co. v. Eaton"
     volume: "183"
     page: "602"
+    docket: "80"
+    citation: "183 U.S. 602"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1902"
-    citation: "183 U.S. 602"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-143"
@@ -988,9 +1281,12 @@ cases:
     title: "Midway Company v. Eaton"
     volume: "183"
     page: "619"
+    docket: "81"
+    citation: "183 U.S. 619"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1902"
-    citation: "183 U.S. 619"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1901-175"
@@ -998,9 +1294,12 @@ cases:
     title: "Lander v. Mercantile Bank"
     volume: "186"
     page: "458"
+    docket: "227"
+    citation: "186 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1902"
-    citation: "186 U.S. 458"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-006"
@@ -1008,9 +1307,12 @@ cases:
     title: "Iowa Life Ins. Co. v. Lewis"
     volume: "187"
     page: "335"
+    docket: "53"
+    citation: "187 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1902"
-    citation: "187 U.S. 335"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-024"
@@ -1018,9 +1320,12 @@ cases:
     title: "Fidelity &amp; Deposit Co. of Md. v. United States"
     volume: "187"
     page: "315"
+    docket: "381"
+    citation: "187 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1902"
-    citation: "187 U.S. 315"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-025"
@@ -1028,9 +1333,12 @@ cases:
     title: "United States v. Moseley"
     volume: "187"
     page: "322"
+    docket: "248"
+    citation: "187 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1902"
-    citation: "187 U.S. 322"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-029"
@@ -1038,9 +1346,12 @@ cases:
     title: "Bird v. United States"
     volume: "187"
     page: "118"
+    docket: "306"
+    citation: "187 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1902"
-    citation: "187 U.S. 118"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-035"
@@ -1048,9 +1359,12 @@ cases:
     title: "Schwartz v. Duss"
     volume: "187"
     page: "008"
+    docket: "38"
+    citation: "187 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Monday, October 27, 1902"
-    citation: "187 U.S. 8"
+    voteMajority: 5
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-043"
@@ -1058,9 +1372,12 @@ cases:
     title: "Diamond Match Co. v. Ontonagon"
     volume: "188"
     page: "082"
+    docket: "96"
+    citation: "188 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1903"
-    citation: "188 U.S. 82"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-044"
@@ -1068,9 +1385,12 @@ cases:
     title: "Billings v. Illinois"
     volume: "188"
     page: "097"
+    docket: "106"
+    citation: "188 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1903"
-    citation: "188 U.S. 97"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-132"
@@ -1078,9 +1398,12 @@ cases:
     title: "The Conemaugh"
     volume: "189"
     page: "363"
+    docket: "97"
+    citation: "189 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1903"
-    citation: "189 U.S. 363"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-133"
@@ -1088,9 +1411,12 @@ cases:
     title: "Zane v. Hamilton County"
     volume: "189"
     page: "370"
+    docket: "115"
+    citation: "189 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1903"
-    citation: "189 U.S. 370"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-134"
@@ -1098,9 +1424,11 @@ cases:
     title: "Detroit, F. W. &amp; B. I. R. Co. v. Osborn"
     volume: "189"
     page: "383"
+    citation: "189 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1903"
-    citation: "189 U.S. 383"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-135"
@@ -1108,9 +1436,12 @@ cases:
     title: "United States v. Mission Rock Co."
     volume: "189"
     page: "391"
+    docket: "198"
+    citation: "189 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1903"
-    citation: "189 U.S. 391"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-136"
@@ -1118,9 +1449,12 @@ cases:
     title: "Chattanooga Nat. Building and Loan Assn. v. Denson"
     volume: "189"
     page: "408"
+    docket: "206"
+    citation: "189 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1903"
-    citation: "189 U.S. 408"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-137"
@@ -1128,9 +1462,12 @@ cases:
     title: "Gordon v. Randle"
     volume: "189"
     page: "417"
+    docket: "229"
+    citation: "189 U.S. 417"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1903"
-    citation: "189 U.S. 417"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-170"
@@ -1138,9 +1475,12 @@ cases:
     title: "Geer v. Mathieson Alkali Works"
     volume: "190"
     page: "428"
+    docket: "261"
+    citation: "190 U.S. 428"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1903"
-    citation: "190 U.S. 428"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-171"
@@ -1148,9 +1488,12 @@ cases:
     title: "Stanly County v. Coler"
     volume: "190"
     page: "437"
+    docket: "264"
+    citation: "190 U.S. 437"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1903"
-    citation: "190 U.S. 437"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-184"
@@ -1158,9 +1501,12 @@ cases:
     title: "Conley v. Mathieson Alkali Works"
     volume: "190"
     page: "406"
+    docket: "238"
+    citation: "190 U.S. 406"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1903"
-    citation: "190 U.S. 406"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-185"
@@ -1168,9 +1514,12 @@ cases:
     title: "Western Union Telegraph Co. v. Missouri ex rel. Gottlieb"
     volume: "190"
     page: "412"
+    docket: "256"
+    citation: "190 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1903"
-    citation: "190 U.S. 412"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-210"
@@ -1178,9 +1527,12 @@ cases:
     title: "Telluride Power Transmission Co. v. Rio Grande Western R. Co."
     volume: "187"
     page: "569"
+    docket: "72"
+    citation: "187 U.S. 569"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1903"
-    citation: "187 U.S. 569"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-211"
@@ -1188,9 +1540,12 @@ cases:
     title: "Ayres v. Polsdorfer"
     volume: "187"
     page: "585"
+    docket: "89"
+    citation: "187 U.S. 585"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1903"
-    citation: "187 U.S. 585"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1902-212"
@@ -1198,9 +1553,12 @@ cases:
     title: "Page v. Edmunds"
     volume: "187"
     page: "596"
+    docket: "100"
+    citation: "187 U.S. 596"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1903"
-    citation: "187 U.S. 596"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-002"
@@ -1208,9 +1566,12 @@ cases:
     title: "Toltec Ranch Co. v. Cook"
     volume: "191"
     page: "532"
+    docket: "48"
+    citation: "191 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1903"
-    citation: "191 U.S. 532"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-003"
@@ -1218,9 +1579,12 @@ cases:
     title: "Toltec Ranch Co. v. Babcock"
     volume: "191"
     page: "542"
+    docket: "49"
+    citation: "191 U.S. 542"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1903"
-    citation: "191 U.S. 542"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-012"
@@ -1228,9 +1592,12 @@ cases:
     title: "Baltimore &amp; Potomac R. Co. v. Landrigan"
     volume: "191"
     page: "461"
+    docket: "71"
+    citation: "191 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1903"
-    citation: "191 U.S. 461"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-027"
@@ -1238,9 +1605,12 @@ cases:
     title: "Owensboro v. Owensboro Waterworks Co."
     volume: "191"
     page: "358"
+    docket: "58"
+    citation: "191 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1903"
-    citation: "191 U.S. 358"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-038"
@@ -1248,9 +1618,12 @@ cases:
     title: "Joplin v. Southwest Mo. Light Co."
     volume: "191"
     page: "150"
+    docket: "32"
+    citation: "191 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1903"
-    citation: "191 U.S. 150"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-046"
@@ -1258,9 +1631,12 @@ cases:
     title: "Ross v. Aguirre"
     volume: "191"
     page: "060"
+    docket: "19"
+    citation: "191 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, November 2, 1903"
-    citation: "191 U.S. 60"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-052"
@@ -1268,9 +1644,12 @@ cases:
     title: "Bedford v. United States"
     volume: "192"
     page: "217"
+    docket: "23"
+    citation: "192 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1904"
-    citation: "192 U.S. 217"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-067"
@@ -1278,9 +1657,12 @@ cases:
     title: "Citizens&apos; Bank v. Parker"
     volume: "192"
     page: "073"
+    docket: "2"
+    citation: "192 U.S. 73"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1904"
-    citation: "192 U.S. 73"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-068"
@@ -1288,9 +1670,12 @@ cases:
     title: "Joplin v. Chachere"
     volume: "192"
     page: "094"
+    docket: "96"
+    citation: "192 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1904"
-    citation: "192 U.S. 94"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-069"
@@ -1298,9 +1683,12 @@ cases:
     title: "Cronin v. Adams"
     volume: "192"
     page: "108"
+    docket: "100"
+    citation: "192 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1904"
-    citation: "192 U.S. 108"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-070"
@@ -1308,9 +1696,12 @@ cases:
     title: "Cronin v. Denver"
     volume: "192"
     page: "115"
+    docket: "101"
+    citation: "192 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1904"
-    citation: "192 U.S. 115"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-091"
@@ -1318,9 +1709,12 @@ cases:
     title: "Burrell v. Montana"
     volume: "194"
     page: "572"
+    docket: "218"
+    citation: "194 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1904"
-    citation: "194 U.S. 572"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-119"
@@ -1328,9 +1722,12 @@ cases:
     title: "Cau v. Texas &amp; Pacific R. Co."
     volume: "194"
     page: "427"
+    docket: "57"
+    citation: "194 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1904"
-    citation: "194 U.S. 427"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-120"
@@ -1338,9 +1735,12 @@ cases:
     title: "Charnock v. Texas &amp; Pacific R. Co."
     volume: "194"
     page: "432"
+    docket: "194"
+    citation: "194 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1904"
-    citation: "194 U.S. 432"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-121"
@@ -1348,9 +1748,12 @@ cases:
     title: "Swarts v. Hammer"
     volume: "194"
     page: "441"
+    docket: "238"
+    citation: "194 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1904"
-    citation: "194 U.S. 441"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-122"
@@ -1358,9 +1761,12 @@ cases:
     title: "Ohio ex rel. Lloyd v. Dollison"
     volume: "194"
     page: "445"
+    docket: "262"
+    citation: "194 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1904"
-    citation: "194 U.S. 445"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-144"
@@ -1368,9 +1774,12 @@ cases:
     title: "Pacific Electric R. Co. v. Los Angeles"
     volume: "194"
     page: "112"
+    docket: "175"
+    citation: "194 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1904"
-    citation: "194 U.S. 112"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-158"
@@ -1378,9 +1787,12 @@ cases:
     title: "National Mut. Building and Loan Assn. v. Brahan"
     volume: "193"
     page: "635"
+    docket: "158"
+    citation: "193 U.S. 635"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1904"
-    citation: "193 U.S. 635"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-159"
@@ -1388,9 +1800,12 @@ cases:
     title: "United States v. Commonwealth Title Ins. &amp; Trust Co."
     volume: "193"
     page: "651"
+    docket: "172"
+    citation: "193 U.S. 651"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1904"
-    citation: "193 U.S. 651"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-162"
@@ -1398,9 +1813,12 @@ cases:
     title: "Brown v. Schleier"
     volume: "194"
     page: "018"
+    docket: "188"
+    citation: "194 U.S. 18"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1904"
-    citation: "194 U.S. 18"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-192"
@@ -1408,9 +1826,12 @@ cases:
     title: "United States ex rel. Steinmetz v. Allen"
     volume: "192"
     page: "543"
+    docket: "383"
+    citation: "192 U.S. 543"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "192 U.S. 543"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-193"
@@ -1418,9 +1839,12 @@ cases:
     title: "Ex parte Frasch"
     volume: "192"
     page: "566"
+    docket: "13 Orig."
+    citation: "192 U.S. 566"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "192 U.S. 566"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-202"
@@ -1428,9 +1852,12 @@ cases:
     title: "American Book Co. v. Kansas ex rel. Nichols"
     volume: "193"
     page: "049"
+    docket: "126"
+    citation: "193 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "193 U.S. 49"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-203"
@@ -1438,9 +1865,12 @@ cases:
     title: "Minneapolis &amp; St. Louis R. Co. v. Minnesota ex rel. Railroad and Warehouse Comm&apos;n"
     volume: "193"
     page: "053"
+    docket: "138"
+    citation: "193 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "193 U.S. 53"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1903-207"
@@ -1448,9 +1878,12 @@ cases:
     title: "United States v. Choctaw Nation"
     volume: "193"
     page: "115"
+    docket: "322"
+    citation: "193 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "193 U.S. 115"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-013"
@@ -1458,9 +1891,12 @@ cases:
     title: "Western Union Telegraph Co. v. Pennsylvania R. Co."
     volume: "195"
     page: "540"
+    docket: "199"
+    citation: "195 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1904"
-    citation: "195 U.S. 540"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-014"
@@ -1468,9 +1904,12 @@ cases:
     title: "Western Union Telegraph Co. v. Pennsylvania R. Co."
     volume: "195"
     page: "594"
+    docket: "90"
+    citation: "195 U.S. 594"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1904"
-    citation: "195 U.S. 594"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-031"
@@ -1478,9 +1917,12 @@ cases:
     title: "Birkett v. Columbia Bank"
     volume: "195"
     page: "345"
+    docket: "26"
+    citation: "195 U.S. 345"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1904"
-    citation: "195 U.S. 345"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-053"
@@ -1488,9 +1930,12 @@ cases:
     title: "Ah Sin v. Wittman"
     volume: "198"
     page: "500"
+    docket: "245"
+    citation: "198 U.S. 500"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1905"
-    citation: "198 U.S. 500"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-054"
@@ -1498,9 +1943,12 @@ cases:
     title: "Supreme Lodge, Knights of Pythias v. Meyer"
     volume: "198"
     page: "508"
+    docket: "234"
+    citation: "198 U.S. 508"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1905"
-    citation: "198 U.S. 508"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-055"
@@ -1508,9 +1956,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Dashiell"
     volume: "198"
     page: "521"
+    docket: "212"
+    citation: "198 U.S. 521"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1905"
-    citation: "198 U.S. 521"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-073"
@@ -1518,9 +1969,12 @@ cases:
     title: "United States v. Winans"
     volume: "198"
     page: "371"
+    docket: "180"
+    citation: "198 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1905"
-    citation: "198 U.S. 371"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-074"
@@ -1528,9 +1982,12 @@ cases:
     title: "Chicago, M. &amp; St. P. R. Co. v. United States"
     volume: "198"
     page: "385"
+    docket: "198"
+    citation: "198 U.S. 385"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1905"
-    citation: "198 U.S. 385"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-075"
@@ -1538,9 +1995,12 @@ cases:
     title: "Birrell v. New York &amp; Harlem R. Co."
     volume: "198"
     page: "390"
+    docket: "202"
+    citation: "198 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1905"
-    citation: "198 U.S. 390"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-084"
@@ -1548,9 +2008,12 @@ cases:
     title: "Harley v. United States"
     volume: "198"
     page: "229"
+    docket: "195"
+    citation: "198 U.S. 229"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1905"
-    citation: "198 U.S. 229"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-097"
@@ -1558,9 +2021,12 @@ cases:
     title: "Beavers v. Haubert"
     volume: "198"
     page: "077"
+    docket: "354"
+    citation: "198 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1905"
-    citation: "198 U.S. 77"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-105"
@@ -1568,9 +2034,12 @@ cases:
     title: "Knapp v. Lake Shore &amp; Michigan Southern R. Co."
     volume: "197"
     page: "536"
+    docket: "251"
+    citation: "197 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1905"
-    citation: "197 U.S. 536"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-106"
@@ -1578,9 +2047,12 @@ cases:
     title: "Muhlker v. New York &amp; Harlem R. Co."
     volume: "197"
     page: "544"
+    docket: "99"
+    citation: "197 U.S. 544"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1905"
-    citation: "197 U.S. 544"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-136"
@@ -1588,9 +2060,12 @@ cases:
     title: "National Cotton Oil Co. v. Texas"
     volume: "197"
     page: "115"
+    docket: "37"
+    citation: "197 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1905"
-    citation: "197 U.S. 115"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-137"
@@ -1598,9 +2073,12 @@ cases:
     title: "Southern Cotton Oil Co. v. Texas"
     volume: "197"
     page: "134"
+    docket: "38"
+    citation: "197 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1905"
-    citation: "197 U.S. 134"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-156"
@@ -1608,9 +2086,12 @@ cases:
     title: "Wolff v. District of Columbia"
     volume: "196"
     page: "152"
+    docket: "62"
+    citation: "196 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1905"
-    citation: "196 U.S. 152"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-157"
@@ -1618,9 +2099,12 @@ cases:
     title: "Moore v. United States"
     volume: "196"
     page: "157"
+    docket: "71"
+    citation: "196 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1905"
-    citation: "196 U.S. 157"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-158"
@@ -1628,9 +2112,12 @@ cases:
     title: "Hartigan v. United States"
     volume: "196"
     page: "169"
+    docket: "72"
+    citation: "196 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1905"
-    citation: "196 U.S. 169"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-162"
@@ -1638,9 +2125,12 @@ cases:
     title: "United States v. United Verde Copper Co."
     volume: "196"
     page: "207"
+    docket: "68"
+    citation: "196 U.S. 207"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1905"
-    citation: "196 U.S. 207"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-190"
@@ -1648,9 +2138,12 @@ cases:
     title: "Flanigan v. Sierra County"
     volume: "196"
     page: "553"
+    docket: "121"
+    citation: "196 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1905"
-    citation: "196 U.S. 553"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-191"
@@ -1658,9 +2151,12 @@ cases:
     title: "Wheeler v. Plumas County"
     volume: "196"
     page: "562"
+    docket: "122"
+    citation: "196 U.S. 562"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1905"
-    citation: "196 U.S. 562"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-192"
@@ -1668,9 +2164,12 @@ cases:
     title: "McCaffrey v. Manogue"
     volume: "196"
     page: "563"
+    docket: "131"
+    citation: "196 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1905"
-    citation: "196 U.S. 563"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-193"
@@ -1678,9 +2177,12 @@ cases:
     title: "United States v. Montana Lumber &amp; Mfg. Co."
     volume: "196"
     page: "573"
+    docket: "125"
+    citation: "196 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1905"
-    citation: "196 U.S. 573"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1904-194"
@@ -1688,9 +2190,12 @@ cases:
     title: "Doctor v. Harrington"
     volume: "196"
     page: "579"
+    docket: "477"
+    citation: "196 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1905"
-    citation: "196 U.S. 579"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-001"
@@ -1698,9 +2203,12 @@ cases:
     title: "McCune v. Essig"
     volume: "199"
     page: "382"
+    docket: "61"
+    citation: "199 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Wednesday, November 29, 1905"
-    citation: "199 U.S. 382"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-012"
@@ -1708,9 +2216,12 @@ cases:
     title: "Estes v. Timmons"
     volume: "199"
     page: "391"
+    docket: "74"
+    citation: "199 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1905"
-    citation: "199 U.S. 391"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-020"
@@ -1718,9 +2229,12 @@ cases:
     title: "Rankin v. Barton"
     volume: "199"
     page: "228"
+    docket: "125"
+    citation: "199 U.S. 228"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1905"
-    citation: "199 U.S. 228"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-021"
@@ -1728,9 +2242,12 @@ cases:
     title: "Attorney General of Mich. ex rel. Kies v. Lowrey"
     volume: "199"
     page: "233"
+    docket: "21"
+    citation: "199 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1905"
-    citation: "199 U.S. 233"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-056"
@@ -1738,9 +2255,12 @@ cases:
     title: "Mead v. Portland"
     volume: "200"
     page: "148"
+    docket: "56"
+    citation: "200 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1906"
-    citation: "200 U.S. 148"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-057"
@@ -1748,9 +2268,12 @@ cases:
     title: "Howard v. Kentucky"
     volume: "200"
     page: "164"
+    docket: "77"
+    citation: "200 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1906"
-    citation: "200 U.S. 164"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-065"
@@ -1758,9 +2281,12 @@ cases:
     title: "Hallenborg v. Cobre Grande Copper Co."
     volume: "200"
     page: "239"
+    docket: "87"
+    citation: "200 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1906"
-    citation: "200 U.S. 239"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-066"
@@ -1768,9 +2294,12 @@ cases:
     title: "Graham v. Folsom"
     volume: "200"
     page: "248"
+    docket: "108"
+    citation: "200 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1906"
-    citation: "200 U.S. 248"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-085"
@@ -1778,9 +2307,12 @@ cases:
     title: "Looney v. Metropolitan R. Co."
     volume: "200"
     page: "480"
+    docket: "173"
+    citation: "200 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1906"
-    citation: "200 U.S. 480"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-086"
@@ -1788,9 +2320,12 @@ cases:
     title: "United States v. New York &amp; Cuba Mail S. S. Co."
     volume: "200"
     page: "488"
+    docket: "116"
+    citation: "200 U.S. 488"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1906"
-    citation: "200 U.S. 488"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-093"
@@ -1798,9 +2333,12 @@ cases:
     title: "Nelson v. United States"
     volume: "201"
     page: "092"
+    docket: "490"
+    citation: "201 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1906"
-    citation: "201 U.S. 92"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-114"
@@ -1808,9 +2346,12 @@ cases:
     title: "Gila Bend Reservoir &amp; Irrigation Co. v. Gila Water Co."
     volume: "202"
     page: "270"
+    docket: "226"
+    citation: "202 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1906"
-    citation: "202 U.S. 270"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-115"
@@ -1818,9 +2359,12 @@ cases:
     title: "Hulbert v. Chicago"
     volume: "202"
     page: "275"
+    docket: "248"
+    citation: "202 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1906"
-    citation: "202 U.S. 275"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-125"
@@ -1828,9 +2372,12 @@ cases:
     title: "Millard v. Roberts"
     volume: "202"
     page: "429"
+    docket: "234"
+    citation: "202 U.S. 429"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1906"
-    citation: "202 U.S. 429"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-126"
@@ -1838,9 +2385,12 @@ cases:
     title: "Santa Fe Pacific R. Co. v. Holmes"
     volume: "202"
     page: "438"
+    docket: "235"
+    citation: "202 U.S. 438"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1906"
-    citation: "202 U.S. 438"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-134"
@@ -1848,9 +2398,12 @@ cases:
     title: "United States v. American Sugar Refining Co."
     volume: "202"
     page: "563"
+    docket: "269"
+    citation: "202 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1906"
-    citation: "202 U.S. 563"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-135"
@@ -1858,9 +2411,12 @@ cases:
     title: "Franklin Sugar Refining Co. v. United States"
     volume: "202"
     page: "580"
+    docket: "652"
+    citation: "202 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1906"
-    citation: "202 U.S. 580"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-140"
@@ -1868,9 +2424,12 @@ cases:
     title: "St. John v. New York"
     volume: "201"
     page: "633"
+    docket: "210"
+    citation: "201 U.S. 633"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1906"
-    citation: "201 U.S. 633"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-144"
@@ -1878,9 +2437,12 @@ cases:
     title: "Cleveland v. Cleveland Electric R. Co."
     volume: "201"
     page: "529"
+    docket: "183"
+    citation: "201 U.S. 529"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1906"
-    citation: "201 U.S. 529"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-156"
@@ -1888,9 +2450,12 @@ cases:
     title: "United States v. Downing"
     volume: "201"
     page: "354"
+    docket: "104"
+    citation: "201 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1906"
-    citation: "201 U.S. 354"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1905-168"
@@ -1898,9 +2463,12 @@ cases:
     title: "Alexander v. United States"
     volume: "201"
     page: "117"
+    docket: "381"
+    citation: "201 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1906"
-    citation: "201 U.S. 117"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-035"
@@ -1908,9 +2476,12 @@ cases:
     title: "Monterey v. Jacks"
     volume: "203"
     page: "360"
+    docket: "27"
+    citation: "203 U.S. 360"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 360"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-036"
@@ -1918,9 +2489,12 @@ cases:
     title: "International Trust Co. v. Weeks"
     volume: "203"
     page: "364"
+    docket: "31"
+    citation: "203 U.S. 364"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 364"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-037"
@@ -1928,9 +2502,12 @@ cases:
     title: "Cruit v. Owen"
     volume: "203"
     page: "368"
+    docket: "51"
+    citation: "203 U.S. 368"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 368"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-038"
@@ -1938,9 +2515,12 @@ cases:
     title: "Offield v. New York, N. H. &amp; H. R. Co."
     volume: "203"
     page: "372"
+    docket: "59"
+    citation: "203 U.S. 372"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 372"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-039"
@@ -1948,9 +2528,12 @@ cases:
     title: "Fair Haven &amp; Westville R. Co. v. New Haven"
     volume: "203"
     page: "379"
+    docket: "84"
+    citation: "203 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 379"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-048"
@@ -1958,9 +2541,12 @@ cases:
     title: "United States ex rel. Lowry v. Allen"
     volume: "203"
     page: "476"
+    docket: "56"
+    citation: "203 U.S. 476"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1906"
-    citation: "203 U.S. 476"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-057"
@@ -1968,9 +2554,12 @@ cases:
     title: "Cahen v. Brewster"
     volume: "203"
     page: "543"
+    docket: "91"
+    citation: "203 U.S. 543"
     pdfSource: "loc"
     dateDecision: "Monday, December 24, 1906"
-    citation: "203 U.S. 543"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-058"
@@ -1978,9 +2567,12 @@ cases:
     title: "Board of Ed. of Ky. Annual Conference of Methodist Episcopal Church v. Illinois"
     volume: "203"
     page: "553"
+    docket: "103"
+    citation: "203 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Monday, December 24, 1906"
-    citation: "203 U.S. 553"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-073"
@@ -1988,9 +2580,12 @@ cases:
     title: "Lowrey v. Hawaii"
     volume: "206"
     page: "206"
+    docket: "195"
+    citation: "206 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1907"
-    citation: "206 U.S. 206"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-074"
@@ -1998,9 +2593,12 @@ cases:
     title: "Henry E. Frankenberg Co. v. United States"
     volume: "206"
     page: "224"
+    docket: "257"
+    citation: "206 U.S. 224"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1907"
-    citation: "206 U.S. 224"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-075"
@@ -2008,9 +2606,12 @@ cases:
     title: "United States v. Farenholt"
     volume: "206"
     page: "226"
+    docket: "277"
+    citation: "206 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1907"
-    citation: "206 U.S. 226"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-091"
@@ -2018,9 +2619,12 @@ cases:
     title: "Southern R. Co. v. Tift"
     volume: "206"
     page: "428"
+    docket: "601"
+    citation: "206 U.S. 428"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1907"
-    citation: "206 U.S. 428"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-092"
@@ -2028,9 +2632,12 @@ cases:
     title: "Illinois Cent. etc. R. R. v. Inter. Com. Comm."
     volume: "206"
     page: "441"
+    docket: "588"
+    citation: "206 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1907"
-    citation: "206 U.S. 441"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-093"
@@ -2038,9 +2645,12 @@ cases:
     title: "United States v. Paine Lumber Co."
     volume: "206"
     page: "467"
+    docket: "101"
+    citation: "206 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1907"
-    citation: "206 U.S. 467"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-103"
@@ -2048,9 +2658,12 @@ cases:
     title: "Northern Pacific R. Co. v. Slaght"
     volume: "205"
     page: "134"
+    docket: "153"
+    citation: "205 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1907"
-    citation: "205 U.S. 134"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-121"
@@ -2058,9 +2671,12 @@ cases:
     title: "Hunt v. New York Cotton Exchange"
     volume: "205"
     page: "322"
+    docket: "314"
+    citation: "205 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1907"
-    citation: "205 U.S. 322"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-132"
@@ -2068,9 +2684,12 @@ cases:
     title: "Hiscock v. Mertens"
     volume: "205"
     page: "202"
+    docket: "209"
+    citation: "205 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1907"
-    citation: "205 U.S. 202"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-142"
@@ -2078,9 +2697,12 @@ cases:
     title: "Northern Pacific R. Co. v. Slaght"
     volume: "205"
     page: "122"
+    docket: "152"
+    citation: "205 U.S. 122"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1907"
-    citation: "205 U.S. 122"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-168"
@@ -2088,9 +2710,12 @@ cases:
     title: "Eau Claire Nat. Bank v. Jackman"
     volume: "204"
     page: "522"
+    docket: "163"
+    citation: "204 U.S. 522"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 522"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-169"
@@ -2098,9 +2723,12 @@ cases:
     title: "Hammond v. Whittredge"
     volume: "204"
     page: "538"
+    docket: "164"
+    citation: "204 U.S. 538"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 538"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-170"
@@ -2108,9 +2736,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Smith, Huggins &amp; Co."
     volume: "204"
     page: "551"
+    docket: "198"
+    citation: "204 U.S. 551"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 551"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-171"
@@ -2118,9 +2749,12 @@ cases:
     title: "United States v. Keatley"
     volume: "204"
     page: "562"
+    docket: "482"
+    citation: "204 U.S. 562"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 562"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-180"
@@ -2128,9 +2762,12 @@ cases:
     title: "Bacon v. Walker"
     volume: "204"
     page: "311"
+    docket: "147"
+    citation: "204 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1907"
-    citation: "204 U.S. 311"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-181"
@@ -2138,9 +2775,12 @@ cases:
     title: "Bown v. Walling"
     volume: "204"
     page: "320"
+    docket: "81"
+    citation: "204 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1907"
-    citation: "204 U.S. 320"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-191"
@@ -2148,9 +2788,12 @@ cases:
     title: "Ballard v. Hunter"
     volume: "204"
     page: "241"
+    docket: "123"
+    citation: "204 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1907"
-    citation: "204 U.S. 241"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1906-203"
@@ -2158,9 +2801,12 @@ cases:
     title: "United States v. G. Falk &amp; Brother"
     volume: "204"
     page: "143"
+    docket: "259"
+    citation: "204 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1907"
-    citation: "204 U.S. 143"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-026"
@@ -2168,9 +2814,12 @@ cases:
     title: "Bank of Kentucky v. Kentucky"
     volume: "207"
     page: "258"
+    docket: "87"
+    citation: "207 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1907"
-    citation: "207 U.S. 258"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-033"
@@ -2178,9 +2827,12 @@ cases:
     title: "Heath &amp; Milligan Mfg. Co. v. Worst"
     volume: "207"
     page: "338"
+    docket: "41"
+    citation: "207 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1907"
-    citation: "207 U.S. 338"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-038"
@@ -2188,9 +2840,12 @@ cases:
     title: "Water, Light &amp; Gas Co. of Hutchinson v. City of Hutchinson"
     volume: "207"
     page: "385"
+    docket: "53"
+    citation: "207 U.S. 385"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1907"
-    citation: "207 U.S. 385"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-045"
@@ -2198,9 +2853,12 @@ cases:
     title: "Anheuser-Busch Brewing Assn. v. United States"
     volume: "207"
     page: "556"
+    docket: "60"
+    citation: "207 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1908"
-    citation: "207 U.S. 556"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-046"
@@ -2208,9 +2866,12 @@ cases:
     title: "Winters v. United States"
     volume: "207"
     page: "564"
+    docket: "158"
+    citation: "207 U.S. 564"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1908"
-    citation: "207 U.S. 564"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-069"
@@ -2218,9 +2879,12 @@ cases:
     title: "Minneapolis, St. P. &amp; S. Ste. M. R. Co. v. Doughty"
     volume: "208"
     page: "251"
+    docket: "81"
+    citation: "208 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1908"
-    citation: "208 U.S. 251"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-092"
@@ -2228,9 +2892,12 @@ cases:
     title: "Bennett v. Bennett"
     volume: "208"
     page: "505"
+    docket: "98"
+    citation: "208 U.S. 505"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 505"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-093"
@@ -2238,9 +2905,12 @@ cases:
     title: "Crary v. Dye"
     volume: "208"
     page: "515"
+    docket: "103"
+    citation: "208 U.S. 515"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 515"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-094"
@@ -2248,9 +2918,12 @@ cases:
     title: "Starr v. Campbell"
     volume: "208"
     page: "527"
+    docket: "132"
+    citation: "208 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 527"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-095"
@@ -2258,9 +2931,12 @@ cases:
     title: "Drumm-Flato Commission Co. v. Edmisson"
     volume: "208"
     page: "534"
+    docket: "139"
+    citation: "208 U.S. 534"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 534"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-116"
@@ -2268,9 +2944,12 @@ cases:
     title: "Cleveland, C., C. &amp; St. L. R. Co. v. Porter"
     volume: "210"
     page: "177"
+    docket: "213"
+    citation: "210 U.S. 177"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1908"
-    citation: "210 U.S. 177"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-117"
@@ -2278,9 +2957,12 @@ cases:
     title: "Mobile, J. &amp; K. C. R. Co. v. Mississippi"
     volume: "210"
     page: "187"
+    docket: "218"
+    citation: "210 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1908"
-    citation: "210 U.S. 187"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-133"
@@ -2288,9 +2970,12 @@ cases:
     title: "Continental Paper Bag Co. v. Eastern Paper Bag Co."
     volume: "210"
     page: "405"
+    docket: "202"
+    citation: "210 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1908"
-    citation: "210 U.S. 405"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-134"
@@ -2298,9 +2983,12 @@ cases:
     title: "Scully v. Bird"
     volume: "209"
     page: "481"
+    docket: "353"
+    citation: "209 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1908"
-    citation: "209 U.S. 481"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-136"
@@ -2308,9 +2996,12 @@ cases:
     title: "Lang v. New Jersey"
     volume: "209"
     page: "467"
+    docket: "649"
+    citation: "209 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1908"
-    citation: "209 U.S. 467"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-142"
@@ -2318,9 +3009,12 @@ cases:
     title: "Shawnee Compress Co. v. Anderson"
     volume: "209"
     page: "423"
+    docket: "140"
+    citation: "209 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1908"
-    citation: "209 U.S. 423"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-149"
@@ -2328,9 +3022,12 @@ cases:
     title: "United States v. Hermanos y Compa&ntilde;ia"
     volume: "209"
     page: "337"
+    docket: "152"
+    citation: "209 U.S. 337"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1908"
-    citation: "209 U.S. 337"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-150"
@@ -2338,9 +3035,12 @@ cases:
     title: "Thompson v. Kentucky"
     volume: "209"
     page: "340"
+    docket: "160"
+    citation: "209 U.S. 340"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1908"
-    citation: "209 U.S. 340"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1907-164"
@@ -2348,9 +3048,12 @@ cases:
     title: "General Oil Co. v. Crain"
     volume: "209"
     page: "211"
+    docket: "128"
+    citation: "209 U.S. 211"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1908"
-    citation: "209 U.S. 211"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-017"
@@ -2358,9 +3061,12 @@ cases:
     title: "Pickford v. Talbott"
     volume: "211"
     page: "199"
+    docket: "13"
+    citation: "211 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1908"
-    citation: "211 U.S. 199"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-027"
@@ -2368,9 +3074,12 @@ cases:
     title: "Ingersoll v. Coram"
     volume: "211"
     page: "335"
+    docket: "8"
+    citation: "211 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1908"
-    citation: "211 U.S. 335"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-034"
@@ -2378,9 +3087,12 @@ cases:
     title: "McCorquodale v. Texas"
     volume: "211"
     page: "432"
+    docket: "38"
+    citation: "211 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1908"
-    citation: "211 U.S. 432"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-035"
@@ -2388,9 +3100,12 @@ cases:
     title: "McCandless v. Pratt"
     volume: "211"
     page: "437"
+    docket: "109"
+    citation: "211 U.S. 437"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1908"
-    citation: "211 U.S. 437"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-047"
@@ -2398,9 +3113,12 @@ cases:
     title: "Rusch v. John Duncan Land &amp; Mining Co."
     volume: "211"
     page: "526"
+    docket: "53"
+    citation: "211 U.S. 526"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1909"
-    citation: "211 U.S. 526"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-058"
@@ -2408,9 +3126,12 @@ cases:
     title: "Morgan v. Adams"
     volume: "211"
     page: "627"
+    docket: "50"
+    citation: "211 U.S. 627"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1909"
-    citation: "211 U.S. 627"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-089"
@@ -2418,9 +3139,12 @@ cases:
     title: "McDaniel v. Traylor"
     volume: "212"
     page: "428"
+    docket: "70"
+    citation: "212 U.S. 428"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "212 U.S. 428"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-090"
@@ -2428,9 +3152,12 @@ cases:
     title: "Greenameyer v. Coate"
     volume: "212"
     page: "434"
+    docket: "100"
+    citation: "212 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "212 U.S. 434"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-131"
@@ -2438,9 +3165,12 @@ cases:
     title: "Leeds &amp; Catlin Co. v. Victor Talking Machine Co."
     volume: "213"
     page: "301"
+    docket: "80"
+    citation: "213 U.S. 301"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1909"
-    citation: "213 U.S. 301"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-132"
@@ -2448,9 +3178,12 @@ cases:
     title: "Leeds &amp; Catlin v. Victor Talking Mach. Co."
     volume: "213"
     page: "325"
+    docket: "81"
+    citation: "213 U.S. 325"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1909"
-    citation: "213 U.S. 325"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-139"
@@ -2458,9 +3191,12 @@ cases:
     title: "Delaware &amp; Hudson Co. v. Albany &amp; Susquehanna R. Co."
     volume: "213"
     page: "435"
+    docket: "416"
+    citation: "213 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1909"
-    citation: "213 U.S. 435"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-153"
@@ -2468,9 +3204,12 @@ cases:
     title: "United States ex rel. Parish v. MacVeagh"
     volume: "214"
     page: "124"
+    docket: "111"
+    citation: "214 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1909"
-    citation: "214 U.S. 124"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-154"
@@ -2478,9 +3217,12 @@ cases:
     title: "District of Columbia v. Brooke"
     volume: "214"
     page: "138"
+    docket: "117"
+    citation: "214 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1909"
-    citation: "214 U.S. 138"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-155"
@@ -2488,9 +3230,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Eastin"
     volume: "214"
     page: "153"
+    docket: "177"
+    citation: "214 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1909"
-    citation: "214 U.S. 153"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-166"
@@ -2498,9 +3243,12 @@ cases:
     title: "Cabrera v. American Colonial Bank"
     volume: "214"
     page: "224"
+    docket: "136"
+    citation: "214 U.S. 224"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1909"
-    citation: "214 U.S. 224"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-167"
@@ -2508,9 +3256,12 @@ cases:
     title: "Bong v. Alfred S. Campbell Art Co."
     volume: "214"
     page: "236"
+    docket: "150"
+    citation: "214 U.S. 236"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1909"
-    citation: "214 U.S. 236"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1908-179"
@@ -2518,9 +3269,12 @@ cases:
     title: "English v. Arizona ex rel. Griffith"
     volume: "214"
     page: "359"
+    docket: "180"
+    citation: "214 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1909"
-    citation: "214 U.S. 359"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-001"
@@ -2528,9 +3282,12 @@ cases:
     title: "Fall v. Eastin"
     volume: "215"
     page: "001"
+    docket: "24"
+    citation: "215 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1909"
-    citation: "215 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-008"
@@ -2538,9 +3295,12 @@ cases:
     title: "McGilvra v. Ross"
     volume: "215"
     page: "070"
+    docket: "328"
+    citation: "215 U.S. 70"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1909"
-    citation: "215 U.S. 70"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-016"
@@ -2548,9 +3308,12 @@ cases:
     title: "Scully v. Squier"
     volume: "215"
     page: "144"
+    docket: "21"
+    citation: "215 U.S. 144"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1909"
-    citation: "215 U.S. 144"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-028"
@@ -2558,9 +3321,12 @@ cases:
     title: "Lathrop, Shea &amp; Henwood Co. v. Interior Constr. &amp; Improvement Co."
     volume: "215"
     page: "246"
+    docket: "2"
+    citation: "215 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1909"
-    citation: "215 U.S. 246"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-029"
@@ -2568,9 +3334,12 @@ cases:
     title: "Virginia-Carolina Chemical Co. v. Kirven"
     volume: "215"
     page: "252"
+    docket: "18"
+    citation: "215 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1909"
-    citation: "215 U.S. 252"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-034"
@@ -2578,9 +3347,12 @@ cases:
     title: "Commissioners of Santa F&eacute; Cty. v. New Mexico ex rel. Coler"
     volume: "215"
     page: "296"
+    docket: "42"
+    citation: "215 U.S. 296"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1909"
-    citation: "215 U.S. 296"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-043"
@@ -2588,9 +3360,12 @@ cases:
     title: "Elias v. Ramirez"
     volume: "215"
     page: "398"
+    docket: "30"
+    citation: "215 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1910"
-    citation: "215 U.S. 398"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-057"
@@ -2598,9 +3373,12 @@ cases:
     title: "Lowrey v. Territory of Hawaii"
     volume: "215"
     page: "554"
+    docket: "469"
+    citation: "215 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1910"
-    citation: "215 U.S. 554"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-081"
@@ -2608,9 +3386,12 @@ cases:
     title: "Pendleton v. United States"
     volume: "216"
     page: "305"
+    docket: "53"
+    citation: "216 U.S. 305"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 305"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-082"
@@ -2618,9 +3399,12 @@ cases:
     title: "Penman v. St. Paul Fire &amp; Marine Ins. Co."
     volume: "216"
     page: "311"
+    docket: "67"
+    citation: "216 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 311"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-083"
@@ -2628,9 +3412,12 @@ cases:
     title: "Blake v. Openhym"
     volume: "216"
     page: "322"
+    docket: "71"
+    citation: "216 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Saturday, February 12, 1910"
-    citation: "216 U.S. 322"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-084"
@@ -2638,9 +3425,12 @@ cases:
     title: "Albright v. Sandoval (No. 2)"
     volume: "216"
     page: "331"
+    docket: "116"
+    citation: "216 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 331"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-085"
@@ -2648,9 +3438,12 @@ cases:
     title: "Albright v. Sandoval"
     volume: "216"
     page: "342"
+    docket: "118"
+    citation: "216 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 342"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-086"
@@ -2658,9 +3451,12 @@ cases:
     title: "Wm. J. Moxley Corp. v. Hertz"
     volume: "216"
     page: "344"
+    docket: "398"
+    citation: "216 U.S. 344"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 344"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-104"
@@ -2668,9 +3464,12 @@ cases:
     title: "J. J. McCaskill Co. v. United States"
     volume: "216"
     page: "504"
+    docket: "103"
+    citation: "216 U.S. 504"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1910"
-    citation: "216 U.S. 504"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-124"
@@ -2678,9 +3477,12 @@ cases:
     title: "Davis v. Cleveland, C., C. &amp; St. L. R. Co."
     volume: "217"
     page: "157"
+    docket: "123"
+    citation: "217 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1910"
-    citation: "217 U.S. 157"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-125"
@@ -2688,9 +3490,12 @@ cases:
     title: "Chicago, St. P., M. &amp; O. R. Co. v. United States"
     volume: "217"
     page: "180"
+    docket: "133"
+    citation: "217 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1910"
-    citation: "217 U.S. 180"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-139"
@@ -2698,9 +3503,12 @@ cases:
     title: "Weems v. United States"
     volume: "217"
     page: "349"
+    docket: "20"
+    citation: "217 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1910"
-    citation: "217 U.S. 349"
+    voteMajority: 4
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-148"
@@ -2708,9 +3516,12 @@ cases:
     title: "Owen v. Dudley &amp; Michener"
     volume: "217"
     page: "488"
+    docket: "142"
+    citation: "217 U.S. 488"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1910"
-    citation: "217 U.S. 488"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-162"
@@ -2718,9 +3529,12 @@ cases:
     title: "Shevlin-Carpenter Co. v. Minnesota"
     volume: "218"
     page: "057"
+    docket: "139"
+    citation: "218 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1910"
-    citation: "218 U.S. 57"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-163"
@@ -2728,9 +3542,12 @@ cases:
     title: "Chiles v. Chesapeake &amp; Ohio R. Co."
     volume: "218"
     page: "071"
+    docket: "158"
+    citation: "218 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1910"
-    citation: "218 U.S. 71"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-164"
@@ -2738,9 +3555,12 @@ cases:
     title: "Standard Oil Co. v. Brown"
     volume: "218"
     page: "078"
+    docket: "168"
+    citation: "218 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1910"
-    citation: "218 U.S. 78"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-165"
@@ -2748,9 +3568,12 @@ cases:
     title: "ICC v. Chicago, R. I. &amp; P. R. Co."
     volume: "218"
     page: "088"
+    docket: "663"
+    citation: "218 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1910"
-    citation: "218 U.S. 88"
+    voteMajority: 4
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1909-166"
@@ -2758,9 +3581,12 @@ cases:
     title: "ICC v. Chicago, B. &amp; Q. R. Co."
     volume: "218"
     page: "113"
+    docket: "641"
+    citation: "218 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1910"
-    citation: "218 U.S. 113"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-020"
@@ -2768,9 +3594,12 @@ cases:
     title: "Western Union Telegraph Co. v. Commercial Milling Co."
     volume: "218"
     page: "406"
+    docket: "15"
+    citation: "218 U.S. 406"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1910"
-    citation: "218 U.S. 406"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-021"
@@ -2778,9 +3607,12 @@ cases:
     title: "Moore Printing Typewriter Co. v. National Sav. &amp; Trust Co."
     volume: "218"
     page: "422"
+    docket: "21"
+    citation: "218 U.S. 422"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1910"
-    citation: "218 U.S. 422"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-031"
@@ -2788,9 +3620,12 @@ cases:
     title: "United States v. Heinze"
     volume: "218"
     page: "532"
+    docket: "380"
+    citation: "218 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1910"
-    citation: "218 U.S. 532"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-032"
@@ -2798,9 +3633,12 @@ cases:
     title: "United States v. Heinze"
     volume: "218"
     page: "547"
+    docket: "671"
+    citation: "218 U.S. 547"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1910"
-    citation: "218 U.S. 547"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-036"
@@ -2808,9 +3646,12 @@ cases:
     title: "Hunter v. Mutual Reserve Life Ins. Co."
     volume: "218"
     page: "573"
+    docket: "39"
+    citation: "218 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1910"
-    citation: "218 U.S. 573"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-050"
@@ -2818,9 +3659,12 @@ cases:
     title: "Hendrix v. United States"
     volume: "219"
     page: "079"
+    docket: "319"
+    citation: "219 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1911"
-    citation: "219 U.S. 79"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-051"
@@ -2828,9 +3672,12 @@ cases:
     title: "West Side Belt R. Co. v. Pittsburgh Constr. Co."
     volume: "219"
     page: "092"
+    docket: "681"
+    citation: "219 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1911"
-    citation: "219 U.S. 92"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-067"
@@ -2838,9 +3685,12 @@ cases:
     title: "Reaves v. Ainsworth"
     volume: "219"
     page: "296"
+    docket: "14"
+    citation: "219 U.S. 296"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1911"
-    citation: "219 U.S. 296"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-080"
@@ -2848,9 +3698,12 @@ cases:
     title: "Southern Pacific Terminal Co. v. ICC"
     volume: "219"
     page: "498"
+    docket: "459"
+    citation: "219 U.S. 498"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1911"
-    citation: "219 U.S. 498"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-087"
@@ -2858,9 +3711,12 @@ cases:
     title: "Hipolite Egg Co. v. United States"
     volume: "220"
     page: "045"
+    docket: "519"
+    citation: "220 U.S. 45"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1911"
-    citation: "220 U.S. 45"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-089"
@@ -2868,9 +3724,12 @@ cases:
     title: "In re Eastern Cherokees"
     volume: "220"
     page: "083"
+    docket: "15 Orig."
+    citation: "220 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1911"
-    citation: "220 U.S. 83"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-114"
@@ -2878,9 +3737,12 @@ cases:
     title: "Diamond Rubber Co. of N. Y. v. Consolidated Rubber Tire Co."
     volume: "220"
     page: "428"
+    docket: "36"
+    citation: "220 U.S. 428"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1911"
-    citation: "220 U.S. 428"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-115"
@@ -2888,9 +3750,12 @@ cases:
     title: "Standard Paint Co. v. Trinidad Asphalt Mfg. Co."
     volume: "220"
     page: "446"
+    docket: "106"
+    citation: "220 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1911"
-    citation: "220 U.S. 446"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-116"
@@ -2898,9 +3763,12 @@ cases:
     title: "Shawnee Sewerage &amp; Drainage Co. v. Stearns"
     volume: "220"
     page: "462"
+    docket: "109"
+    citation: "220 U.S. 462"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1911"
-    citation: "220 U.S. 462"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-135"
@@ -2908,9 +3776,12 @@ cases:
     title: "United States v. Hammers"
     volume: "221"
     page: "220"
+    docket: "314"
+    citation: "221 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "221 U.S. 220"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-136"
@@ -2918,9 +3789,12 @@ cases:
     title: "West v. Kansas Natural Gas Co."
     volume: "221"
     page: "229"
+    docket: "916"
+    citation: "221 U.S. 229"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "221 U.S. 229"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-153"
@@ -2928,9 +3802,12 @@ cases:
     title: "Montello Salt Co. v. Utah"
     volume: "221"
     page: "452"
+    docket: "136"
+    citation: "221 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1911"
-    citation: "221 U.S. 452"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1910-154"
@@ -2938,9 +3815,12 @@ cases:
     title: "Fifth Avenue Coach Co. v. City of New York"
     volume: "221"
     page: "467"
+    docket: "159"
+    citation: "221 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1911"
-    citation: "221 U.S. 467"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-015"
@@ -2948,9 +3828,12 @@ cases:
     title: "Mutual Loan Co. v. Martell"
     volume: "222"
     page: "225"
+    docket: "29"
+    citation: "222 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1911"
-    citation: "222 U.S. 225"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-016"
@@ -2958,9 +3841,12 @@ cases:
     title: "Union Pacific R. Co. v. Mason City &amp; Fort Dodge R. Co."
     volume: "222"
     page: "237"
+    docket: "31"
+    citation: "222 U.S. 237"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1911"
-    citation: "222 U.S. 237"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-017"
@@ -2968,9 +3854,12 @@ cases:
     title: "Aluminum Co. of America v. Ramsey"
     volume: "222"
     page: "251"
+    docket: "56"
+    citation: "222 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1911"
-    citation: "222 U.S. 251"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-018"
@@ -2978,9 +3867,12 @@ cases:
     title: "United States v. Garbish"
     volume: "222"
     page: "257"
+    docket: "362"
+    citation: "222 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1911"
-    citation: "222 U.S. 257"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-037"
@@ -2988,9 +3880,12 @@ cases:
     title: "Curtin v. Benson"
     volume: "222"
     page: "078"
+    docket: "1"
+    citation: "222 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1911"
-    citation: "222 U.S. 78"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-038"
@@ -2998,9 +3893,12 @@ cases:
     title: "Hussey v. United States"
     volume: "222"
     page: "088"
+    docket: "32"
+    citation: "222 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1911"
-    citation: "222 U.S. 88"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-044"
@@ -3008,9 +3906,12 @@ cases:
     title: "Finley v. California"
     volume: "222"
     page: "028"
+    docket: "15"
+    citation: "222 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1911"
-    citation: "222 U.S. 28"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-047"
@@ -3018,9 +3919,12 @@ cases:
     title: "United States v. Baltimore &amp; Ohio Southwestern R. Co."
     volume: "222"
     page: "008"
+    docket: "464"
+    citation: "222 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1911"
-    citation: "222 U.S. 8"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-075"
@@ -3028,9 +3932,12 @@ cases:
     title: "ICC v. Baltimore &amp; Ohio R. Co."
     volume: "225"
     page: "326"
+    docket: "719"
+    citation: "225 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Friday, June 7, 1912"
-    citation: "225 U.S. 326"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-076"
@@ -3038,9 +3945,12 @@ cases:
     title: "Hyde v. United States"
     volume: "225"
     page: "347"
+    docket: "447"
+    citation: "225 U.S. 347"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1912"
-    citation: "225 U.S. 347"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-077"
@@ -3048,9 +3958,12 @@ cases:
     title: "Brown v. Elliott"
     volume: "225"
     page: "392"
+    docket: "201"
+    citation: "225 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1912"
-    citation: "225 U.S. 392"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-078"
@@ -3058,9 +3971,12 @@ cases:
     title: "Johnson v. United States"
     volume: "225"
     page: "405"
+    docket: "1075"
+    citation: "225 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Friday, June 7, 1912"
-    citation: "225 U.S. 405"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-079"
@@ -3068,9 +3984,12 @@ cases:
     title: "Glasgow v. Moyer"
     volume: "225"
     page: "420"
+    docket: "1123"
+    citation: "225 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Friday, June 7, 1912"
-    citation: "225 U.S. 420"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-107"
@@ -3078,9 +3997,12 @@ cases:
     title: "Vogt v. Graff"
     volume: "222"
     page: "404"
+    docket: "73"
+    citation: "222 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1912"
-    citation: "222 U.S. 404"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-108"
@@ -3088,9 +4010,12 @@ cases:
     title: "Williams v. Walsh"
     volume: "222"
     page: "415"
+    docket: "79"
+    citation: "222 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1912"
-    citation: "222 U.S. 415"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-109"
@@ -3098,9 +4023,12 @@ cases:
     title: "Southern R. Co. v. Reid"
     volume: "222"
     page: "424"
+    docket: "487"
+    citation: "222 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1912"
-    citation: "222 U.S. 424"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-110"
@@ -3108,9 +4036,12 @@ cases:
     title: "Southern R. Co. v. Reid &amp; Beam"
     volume: "222"
     page: "444"
+    docket: "80"
+    citation: "222 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1912"
-    citation: "222 U.S. 444"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-125"
@@ -3118,9 +4049,12 @@ cases:
     title: "Herrera v. United States"
     volume: "222"
     page: "558"
+    docket: "89"
+    citation: "222 U.S. 558"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1912"
-    citation: "222 U.S. 558"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-126"
@@ -3128,9 +4062,12 @@ cases:
     title: "Diaz v. United States"
     volume: "222"
     page: "574"
+    docket: "90"
+    citation: "222 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1912"
-    citation: "222 U.S. 574"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-133"
@@ -3138,9 +4075,12 @@ cases:
     title: "United States ex rel. Lowe v. Fisher"
     volume: "223"
     page: "095"
+    docket: "445"
+    citation: "223 U.S. 95"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1912"
-    citation: "223 U.S. 95"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-134"
@@ -3148,9 +4088,12 @@ cases:
     title: "Cherokee Nation v. Whitmire"
     volume: "223"
     page: "108"
+    docket: "735"
+    citation: "223 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1912"
-    citation: "223 U.S. 108"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-141"
@@ -3158,9 +4101,12 @@ cases:
     title: "Jacobs v. Prichard"
     volume: "223"
     page: "200"
+    docket: "93"
+    citation: "223 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 200"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-142"
@@ -3168,9 +4114,12 @@ cases:
     title: "Fairbanks v. United States"
     volume: "223"
     page: "215"
+    docket: "112"
+    citation: "223 U.S. 215"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 215"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-143"
@@ -3178,9 +4127,12 @@ cases:
     title: "United States Fidelity &amp; Guaranty Co. v. Sandoval"
     volume: "223"
     page: "227"
+    docket: "125"
+    citation: "223 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 227"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-144"
@@ -3188,9 +4140,12 @@ cases:
     title: "Northwestern Mut. Life Ins. Co. v. McCue"
     volume: "223"
     page: "234"
+    docket: "138"
+    citation: "223 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 234"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-145"
@@ -3198,9 +4153,12 @@ cases:
     title: "New York Continental Jewell Filtration Co. v. District of Columbia"
     volume: "223"
     page: "253"
+    docket: "145"
+    citation: "223 U.S. 253"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 253"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-146"
@@ -3208,9 +4166,12 @@ cases:
     title: "Jacob v. Roberts"
     volume: "223"
     page: "261"
+    docket: "169"
+    citation: "223 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 261"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-171"
@@ -3218,9 +4179,12 @@ cases:
     title: "Ontario Land Co. v. Wilfong"
     volume: "223"
     page: "543"
+    docket: "160"
+    citation: "223 U.S. 543"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1912"
-    citation: "223 U.S. 543"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-179"
@@ -3228,9 +4192,12 @@ cases:
     title: "Clason v. Matko"
     volume: "223"
     page: "646"
+    docket: "178"
+    citation: "223 U.S. 646"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1912"
-    citation: "223 U.S. 646"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-186"
@@ -3238,9 +4205,12 @@ cases:
     title: "Thomas v. Taylor"
     volume: "224"
     page: "073"
+    docket: "171"
+    citation: "224 U.S. 73"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1912"
-    citation: "224 U.S. 73"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-196"
@@ -3248,9 +4218,12 @@ cases:
     title: "Guarantee Title &amp; Trust Co. v. Title Guaranty &amp; Surety Co."
     volume: "224"
     page: "152"
+    docket: "188"
+    citation: "224 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1912"
-    citation: "224 U.S. 152"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-211"
@@ -3258,9 +4231,12 @@ cases:
     title: "United States v. Soci&eacute;t&eacute; Anonyme des Anciens Establissements Cail"
     volume: "224"
     page: "309"
+    docket: "209"
+    citation: "224 U.S. 309"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1912"
-    citation: "224 U.S. 309"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-215"
@@ -3268,9 +4244,12 @@ cases:
     title: "Gromer v. Standard Dredging Co."
     volume: "224"
     page: "362"
+    docket: "174"
+    citation: "224 U.S. 362"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1912"
-    citation: "224 U.S. 362"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-221"
@@ -3278,9 +4257,12 @@ cases:
     title: "ICC v. United States ex rel. Humboldt S. S. Co."
     volume: "224"
     page: "474"
+    docket: "859"
+    citation: "224 U.S. 474"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1912"
-    citation: "224 U.S. 474"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-229"
@@ -3288,9 +4270,12 @@ cases:
     title: "American R. Co. of P. R. v. Birch"
     volume: "224"
     page: "547"
+    docket: "224"
+    citation: "224 U.S. 547"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1912"
-    citation: "224 U.S. 547"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1911-230"
@@ -3298,9 +4283,12 @@ cases:
     title: "McCaughey v. Lyall"
     volume: "224"
     page: "558"
+    docket: "228"
+    citation: "224 U.S. 558"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1912"
-    citation: "224 U.S. 558"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-004"
@@ -3308,9 +4296,12 @@ cases:
     title: "Standard Sanitary Mfg. Co. v. United States"
     volume: "226"
     page: "020"
+    docket: "554"
+    citation: "226 U.S. 20"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1912"
-    citation: "226 U.S. 20"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-010"
@@ -3318,9 +4309,12 @@ cases:
     title: "Selover, Bates &amp; Co. v. Walsh"
     volume: "226"
     page: "112"
+    docket: "22"
+    citation: "226 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 112"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-011"
@@ -3328,9 +4322,12 @@ cases:
     title: "Taylor v. Columbian Univ."
     volume: "226"
     page: "126"
+    docket: "41"
+    citation: "226 U.S. 126"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 126"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-012"
@@ -3338,9 +4335,12 @@ cases:
     title: "Eubank v. Richmond"
     volume: "226"
     page: "137"
+    docket: "48"
+    citation: "226 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 137"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-034"
@@ -3348,9 +4348,12 @@ cases:
     title: "McLean v. United States"
     volume: "226"
     page: "374"
+    docket: "33"
+    citation: "226 U.S. 374"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1912"
-    citation: "226 U.S. 374"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-035"
@@ -3358,9 +4361,12 @@ cases:
     title: "Wood v. A. Wilbert&apos;s Sons Shingle &amp; Lumber Co."
     volume: "226"
     page: "384"
+    docket: "61"
+    citation: "226 U.S. 384"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1912"
-    citation: "226 U.S. 384"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-067"
@@ -3368,9 +4374,12 @@ cases:
     title: "Virtue v. Creamery Package Mfg. Co."
     volume: "227"
     page: "008"
+    docket: "80"
+    citation: "227 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1913"
-    citation: "227 U.S. 8"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-068"
@@ -3378,9 +4387,12 @@ cases:
     title: "Cameron Septic Tank Co. v. Knoxville"
     volume: "227"
     page: "039"
+    docket: "82"
+    citation: "227 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1913"
-    citation: "227 U.S. 39"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-076"
@@ -3388,9 +4400,12 @@ cases:
     title: "Texas &amp; New Orleans R. Co. v. Sabine Tram Co."
     volume: "227"
     page: "111"
+    docket: "93"
+    citation: "227 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1913"
-    citation: "227 U.S. 111"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-081"
@@ -3398,9 +4413,12 @@ cases:
     title: "Robinson v. Lundrigan"
     volume: "227"
     page: "173"
+    docket: "108"
+    citation: "227 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1913"
-    citation: "227 U.S. 173"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-093"
@@ -3408,9 +4426,12 @@ cases:
     title: "Winfree v. Northern Pacific R. Co."
     volume: "227"
     page: "296"
+    docket: "139"
+    citation: "227 U.S. 296"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 296"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-094"
@@ -3418,9 +4439,12 @@ cases:
     title: "Hutchinson v. Valdosta"
     volume: "227"
     page: "303"
+    docket: "146"
+    citation: "227 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 303"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-095"
@@ -3428,9 +4452,12 @@ cases:
     title: "Hoke v. United States"
     volume: "227"
     page: "308"
+    docket: "381"
+    citation: "227 U.S. 308"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 308"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-096"
@@ -3438,9 +4465,12 @@ cases:
     title: "Athanasaw v. United States"
     volume: "227"
     page: "326"
+    docket: "588"
+    citation: "227 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 326"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-097"
@@ -3448,9 +4478,12 @@ cases:
     title: "Bennett v. United States"
     volume: "227"
     page: "333"
+    docket: "603"
+    citation: "227 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 333"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-098"
@@ -3458,9 +4491,12 @@ cases:
     title: "Harris v. United States"
     volume: "227"
     page: "340"
+    docket: "602"
+    citation: "227 U.S. 340"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 340"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-099"
@@ -3468,9 +4504,12 @@ cases:
     title: "Stuart v. Union Pacific R. Co."
     volume: "227"
     page: "342"
+    docket: "135"
+    citation: "227 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 342"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-100"
@@ -3478,9 +4517,12 @@ cases:
     title: "Northern Pacific R. Co. v. United States"
     volume: "227"
     page: "355"
+    docket: "500"
+    citation: "227 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 355"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-101"
@@ -3488,9 +4530,12 @@ cases:
     title: "Wadkins v. Producers Oil Co."
     volume: "227"
     page: "368"
+    docket: "638"
+    citation: "227 U.S. 368"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 368"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-138"
@@ -3498,9 +4543,12 @@ cases:
     title: "United States v. George"
     volume: "228"
     page: "014"
+    docket: "442"
+    citation: "228 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1913"
-    citation: "228 U.S. 14"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-143"
@@ -3508,9 +4556,12 @@ cases:
     title: "Metropolis Theatre Co. v. Chicago"
     volume: "228"
     page: "061"
+    docket: "181"
+    citation: "228 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 61"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-144"
@@ -3518,9 +4569,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. Cram"
     volume: "228"
     page: "070"
+    docket: "193"
+    citation: "228 U.S. 70"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 70"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-145"
@@ -3528,9 +4582,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. Kyle"
     volume: "228"
     page: "085"
+    docket: "194"
+    citation: "228 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 85"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-146"
@@ -3538,9 +4595,12 @@ cases:
     title: "United States v. Pacific &amp; Arctic R. &amp; Nav. Co."
     volume: "228"
     page: "087"
+    docket: "697"
+    citation: "228 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 87"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-174"
@@ -3548,9 +4608,12 @@ cases:
     title: "Jordan v. Roche"
     volume: "228"
     page: "436"
+    docket: "202"
+    citation: "228 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1913"
-    citation: "228 U.S. 436"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-175"
@@ -3558,9 +4621,12 @@ cases:
     title: "Bradford v. United States"
     volume: "228"
     page: "446"
+    docket: "571"
+    citation: "228 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1913"
-    citation: "228 U.S. 446"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-186"
@@ -3568,9 +4634,12 @@ cases:
     title: "Clarke v. Rogers"
     volume: "228"
     page: "534"
+    docket: "221"
+    citation: "228 U.S. 534"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1913"
-    citation: "228 U.S. 534"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-190"
@@ -3578,9 +4647,12 @@ cases:
     title: "Adams v. Milwaukee"
     volume: "228"
     page: "572"
+    docket: "247"
+    citation: "228 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1913"
-    citation: "228 U.S. 572"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-199"
@@ -3588,9 +4660,12 @@ cases:
     title: "Ex parte Spencer"
     volume: "228"
     page: "652"
+    docket: "16 Orig."
+    citation: "228 U.S. 652"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "228 U.S. 652"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-200"
@@ -3598,9 +4673,12 @@ cases:
     title: "Susquehanna Coal Co. v. Mayor and Council of South Amboy"
     volume: "228"
     page: "665"
+    docket: "301"
+    citation: "228 U.S. 665"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "228 U.S. 665"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-201"
@@ -3608,9 +4686,12 @@ cases:
     title: "Wood v. Chesborough"
     volume: "228"
     page: "672"
+    docket: "257"
+    citation: "228 U.S. 672"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "228 U.S. 672"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-202"
@@ -3618,9 +4699,12 @@ cases:
     title: "Chicago Dock &amp; Canal Co. v. Fraley"
     volume: "228"
     page: "680"
+    docket: "286"
+    citation: "228 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "228 U.S. 680"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-236"
@@ -3628,9 +4712,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Brown"
     volume: "229"
     page: "317"
+    docket: "230"
+    citation: "229 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1913"
-    citation: "229 U.S. 317"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-237"
@@ -3638,9 +4725,12 @@ cases:
     title: "Citizens&apos; Telephone Co. of Grand Rapids v. Fuller"
     volume: "229"
     page: "322"
+    docket: "284"
+    citation: "229 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1913"
-    citation: "229 U.S. 322"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-238"
@@ -3648,9 +4738,12 @@ cases:
     title: "Citizens&apos; Telephone Co. of Jackson v. Fuller"
     volume: "229"
     page: "335"
+    docket: "285"
+    citation: "229 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1913"
-    citation: "229 U.S. 335"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-239"
@@ -3658,9 +4751,12 @@ cases:
     title: "Railroad Comm&apos;n of La. v. Texas &amp; Pacific R. Co."
     volume: "229"
     page: "336"
+    docket: "335"
+    citation: "229 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1913"
-    citation: "229 U.S. 336"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-240"
@@ -3668,9 +4764,12 @@ cases:
     title: "Wheeler v. City and County of Denver"
     volume: "229"
     page: "342"
+    docket: "473"
+    citation: "229 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1913"
-    citation: "229 U.S. 342"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1912-241"
@@ -3678,9 +4777,12 @@ cases:
     title: "Adams v. Russell"
     volume: "229"
     page: "353"
+    docket: "1048"
+    citation: "229 U.S. 353"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1913"
-    citation: "229 U.S. 353"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-001"
@@ -3688,9 +4790,12 @@ cases:
     title: "Union Pacific R. Co. v. Sides"
     volume: "231"
     page: "213"
+    docket: "683"
+    citation: "231 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 213"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-004"
@@ -3698,9 +4803,12 @@ cases:
     title: "Aetna Life Ins. Co. v. Moore"
     volume: "231"
     page: "543"
+    docket: "33"
+    citation: "231 U.S. 543"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1913"
-    citation: "231 U.S. 543"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-005"
@@ -3708,9 +4816,12 @@ cases:
     title: "Prudential Ins. Co. of America v. Moore"
     volume: "231"
     page: "560"
+    docket: "47"
+    citation: "231 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1913"
-    citation: "231 U.S. 560"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-012"
@@ -3718,9 +4829,12 @@ cases:
     title: "New York Life Ins. Co. v. Deer Lodge County"
     volume: "231"
     page: "495"
+    docket: "56"
+    citation: "231 U.S. 495"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1913"
-    citation: "231 U.S. 495"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-017"
@@ -3728,9 +4842,12 @@ cases:
     title: "Grand Trunk R. Co. v. Michigan Railroad Comm&apos;n"
     volume: "231"
     page: "457"
+    docket: "382"
+    citation: "231 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1913"
-    citation: "231 U.S. 457"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-023"
@@ -3738,9 +4855,12 @@ cases:
     title: "Union Pacific R. Co. v. Laramie Stock Yards Co."
     volume: "231"
     page: "190"
+    docket: "570"
+    citation: "231 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 190"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-024"
@@ -3748,9 +4868,12 @@ cases:
     title: "Union Pacific R. Co. v. Snow"
     volume: "231"
     page: "204"
+    docket: "682"
+    citation: "231 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 204"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-049"
@@ -3758,9 +4881,12 @@ cases:
     title: "Summers v. United States"
     volume: "231"
     page: "092"
+    docket: "502"
+    citation: "231 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1913"
-    citation: "231 U.S. 92"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-063"
@@ -3768,9 +4894,12 @@ cases:
     title: "Illinois ex rel. Dunne v. Economy Light &amp; Power Co."
     volume: "234"
     page: "497"
+    docket: "179"
+    citation: "234 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1914"
-    citation: "234 U.S. 497"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-064"
@@ -3778,9 +4907,12 @@ cases:
     title: "Lane v. Watts"
     volume: "234"
     page: "525"
+    docket: "889"
+    citation: "234 U.S. 525"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1914"
-    citation: "234 U.S. 525"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-090"
@@ -3788,9 +4920,12 @@ cases:
     title: "Mullen v. Simmons"
     volume: "234"
     page: "192"
+    docket: "263"
+    citation: "234 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 192"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-091"
@@ -3798,9 +4933,12 @@ cases:
     title: "International Harvester Co. of America v. Missouri"
     volume: "234"
     page: "199"
+    docket: "166"
+    citation: "234 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 199"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-116"
@@ -3808,9 +4946,12 @@ cases:
     title: "Erie R. Co. v. New York"
     volume: "233"
     page: "671"
+    docket: "266"
+    citation: "233 U.S. 671"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1914"
-    citation: "233 U.S. 671"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-117"
@@ -3818,9 +4959,12 @@ cases:
     title: "Erie R. Co. v. Williams"
     volume: "233"
     page: "685"
+    docket: "274"
+    citation: "233 U.S. 685"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1914"
-    citation: "233 U.S. 685"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-145"
@@ -3828,9 +4972,12 @@ cases:
     title: "United States v. Vulte"
     volume: "233"
     page: "509"
+    docket: "256"
+    citation: "233 U.S. 509"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1914"
-    citation: "233 U.S. 509"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-146"
@@ -3838,9 +4985,12 @@ cases:
     title: "United States v. Foster"
     volume: "233"
     page: "515"
+    docket: "838"
+    citation: "233 U.S. 515"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1914"
-    citation: "233 U.S. 515"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-155"
@@ -3848,9 +4998,12 @@ cases:
     title: "Carondelet Canal &amp; Nav. Co. v. Louisiana"
     volume: "233"
     page: "362"
+    docket: "78"
+    citation: "233 U.S. 362"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1914"
-    citation: "233 U.S. 362"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-156"
@@ -3858,9 +5011,12 @@ cases:
     title: "German Alliance Ins. Co. v. Lewis"
     volume: "233"
     page: "389"
+    docket: "120"
+    citation: "233 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1914"
-    citation: "233 U.S. 389"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-159"
@@ -3868,9 +5024,12 @@ cases:
     title: "O&apos;Sullivan v. Felix"
     volume: "233"
     page: "318"
+    docket: "249"
+    citation: "233 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1914"
-    citation: "233 U.S. 318"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-160"
@@ -3878,9 +5037,12 @@ cases:
     title: "Kansas City Southern R. Co. v. Anderson"
     volume: "233"
     page: "325"
+    docket: "319"
+    citation: "233 U.S. 325"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1914"
-    citation: "233 U.S. 325"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-172"
@@ -3888,9 +5050,12 @@ cases:
     title: "Archer v. Greenville Sand &amp; Gravel Co."
     volume: "233"
     page: "060"
+    docket: "271"
+    citation: "233 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 60"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-194"
@@ -3898,9 +5063,12 @@ cases:
     title: "Riley v. Massachusetts"
     volume: "232"
     page: "671"
+    docket: "228"
+    citation: "232 U.S. 671"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1914"
-    citation: "232 U.S. 671"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-195"
@@ -3908,9 +5076,12 @@ cases:
     title: "Missouri, K. &amp; T. R. Co. v. West"
     volume: "232"
     page: "682"
+    docket: "696"
+    citation: "232 U.S. 682"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1914"
-    citation: "232 U.S. 682"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-200"
@@ -3918,9 +5089,12 @@ cases:
     title: "Porto Rico v. Ramos"
     volume: "232"
     page: "627"
+    docket: "390"
+    citation: "232 U.S. 627"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1914"
-    citation: "232 U.S. 627"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-206"
@@ -3928,9 +5102,12 @@ cases:
     title: "Priest v. Trustees of Town of Las Vegas"
     volume: "232"
     page: "604"
+    docket: "218"
+    citation: "232 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1914"
-    citation: "232 U.S. 604"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-221"
@@ -3938,9 +5115,12 @@ cases:
     title: "LeRoy Fibre Co. v. Chicago, M. &amp; St. P. R. Co."
     volume: "232"
     page: "340"
+    docket: "175"
+    citation: "232 U.S. 340"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 340"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-222"
@@ -3948,9 +5128,12 @@ cases:
     title: "Jones v. St. Louis Land &amp; Cattle Co."
     volume: "232"
     page: "355"
+    docket: "203"
+    citation: "232 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 355"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-223"
@@ -3958,9 +5141,12 @@ cases:
     title: "Taylor v. Taylor"
     volume: "232"
     page: "363"
+    docket: "224"
+    citation: "232 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 363"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-251"
@@ -3968,9 +5154,12 @@ cases:
     title: "United States v. Young"
     volume: "232"
     page: "155"
+    docket: "710"
+    citation: "232 U.S. 155"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1914"
-    citation: "232 U.S. 155"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-258"
@@ -3978,9 +5167,12 @@ cases:
     title: "Cain v. Commercial Publishing Co."
     volume: "232"
     page: "124"
+    docket: "797"
+    citation: "232 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1914"
-    citation: "232 U.S. 124"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-268"
@@ -3988,9 +5180,12 @@ cases:
     title: "In re Louisville"
     volume: "231"
     page: "639"
+    docket: "11 Orig."
+    citation: "231 U.S. 639"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 639"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-269"
@@ -3998,9 +5193,12 @@ cases:
     title: "In re Engelhard &amp; Sons Co."
     volume: "231"
     page: "646"
+    docket: "12 Orig."
+    citation: "231 U.S. 646"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 646"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-270"
@@ -4008,9 +5206,12 @@ cases:
     title: "Louisville v. Cumberland Telephone &amp; Telegraph Co."
     volume: "231"
     page: "652"
+    docket: "538"
+    citation: "231 U.S. 652"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 652"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-271"
@@ -4018,9 +5219,12 @@ cases:
     title: "United States v. Antikamnia Chemical Co."
     volume: "231"
     page: "654"
+    docket: "118"
+    citation: "231 U.S. 654"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 654"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-272"
@@ -4028,9 +5232,12 @@ cases:
     title: "Mulcrevy v. City and County of San Francisco"
     volume: "231"
     page: "669"
+    docket: "133"
+    citation: "231 U.S. 669"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 669"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1913-273"
@@ -4038,9 +5245,12 @@ cases:
     title: "Pennell v. Philadelphia &amp; Reading R. Co."
     volume: "231"
     page: "675"
+    docket: "469"
+    citation: "231 U.S. 675"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 675"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-029"
@@ -4048,9 +5258,12 @@ cases:
     title: "North Carolina v. Tennessee"
     volume: "235"
     page: "001"
+    docket: "4 Orig."
+    citation: "235 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1914"
-    citation: "235 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-033"
@@ -4058,9 +5271,12 @@ cases:
     title: "Lane v. Watts"
     volume: "235"
     page: "017"
+    docket: "889"
+    citation: "235 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, November 2, 1914"
-    citation: "235 U.S. 17"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-042"
@@ -4068,9 +5284,12 @@ cases:
     title: "McGovern v. Philadelphia &amp; Reading R. Co."
     volume: "235"
     page: "389"
+    docket: "430"
+    citation: "235 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1914"
-    citation: "235 U.S. 389"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-050"
@@ -4078,9 +5297,12 @@ cases:
     title: "United States ex rel. Alexander Bryant Co. v. New York Steam Fitting Co."
     volume: "235"
     page: "327"
+    docket: "67"
+    citation: "235 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1914"
-    citation: "235 U.S. 327"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-081"
@@ -4088,9 +5310,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. Railroad Comm&apos;n of Wis."
     volume: "237"
     page: "220"
+    docket: "198"
+    citation: "237 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1915"
-    citation: "237 U.S. 220"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-082"
@@ -4098,9 +5323,12 @@ cases:
     title: "Christie v. United States"
     volume: "237"
     page: "234"
+    docket: "204"
+    citation: "237 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1915"
-    citation: "237 U.S. 234"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-083"
@@ -4108,9 +5336,12 @@ cases:
     title: "Greenleaf Johnson Lumber Co. v. Garrison"
     volume: "237"
     page: "251"
+    docket: "678"
+    citation: "237 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1915"
-    citation: "237 U.S. 251"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-089"
@@ -4118,9 +5349,12 @@ cases:
     title: "Stewart Mining Co. v. Ontario Mining Co."
     volume: "237"
     page: "350"
+    docket: "205"
+    citation: "237 U.S. 350"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1915"
-    citation: "237 U.S. 350"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-090"
@@ -4128,9 +5362,12 @@ cases:
     title: "Doran v. Kennedy"
     volume: "237"
     page: "362"
+    docket: "224"
+    citation: "237 U.S. 362"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1915"
-    citation: "237 U.S. 362"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-095"
@@ -4138,9 +5375,12 @@ cases:
     title: "Booth v. Indiana"
     volume: "237"
     page: "391"
+    docket: "452"
+    citation: "237 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1915"
-    citation: "237 U.S. 391"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-121"
@@ -4148,9 +5388,12 @@ cases:
     title: "Waugh v. Board of Trustees of Univ. of Miss."
     volume: "237"
     page: "589"
+    docket: "255"
+    citation: "237 U.S. 589"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "237 U.S. 589"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-140"
@@ -4158,9 +5401,12 @@ cases:
     title: "Oregon &amp; California R. Co. v. United States"
     volume: "238"
     page: "393"
+    docket: "679"
+    citation: "238 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1915"
-    citation: "238 U.S. 393"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-155"
@@ -4168,9 +5414,12 @@ cases:
     title: "Kapiolani Estate, Ltd. v. Atcherley"
     volume: "238"
     page: "119"
+    docket: "174"
+    citation: "238 U.S. 119"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 119"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-191"
@@ -4178,9 +5427,12 @@ cases:
     title: "Wilson Cypress Co. v. Del Pozo y Marcos"
     volume: "236"
     page: "635"
+    docket: "135"
+    citation: "236 U.S. 635"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1915"
-    citation: "236 U.S. 635"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-192"
@@ -4188,9 +5440,12 @@ cases:
     title: "McCormick v. Oklahoma City"
     volume: "236"
     page: "657"
+    docket: "170"
+    citation: "236 U.S. 657"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1915"
-    citation: "236 U.S. 657"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-193"
@@ -4198,9 +5453,12 @@ cases:
     title: "American Seeding Machine Co. v. Kentucky"
     volume: "236"
     page: "660"
+    docket: "175"
+    citation: "236 U.S. 660"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1915"
-    citation: "236 U.S. 660"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-210"
@@ -4208,9 +5466,12 @@ cases:
     title: "Truskett v. Closser"
     volume: "236"
     page: "223"
+    docket: "160"
+    citation: "236 U.S. 223"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 223"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-211"
@@ -4218,9 +5479,12 @@ cases:
     title: "Mutual Film Corp. v. Industrial Comm&apos;n of Ohio"
     volume: "236"
     page: "230"
+    docket: "456"
+    citation: "236 U.S. 230"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 230"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-212"
@@ -4228,9 +5492,12 @@ cases:
     title: "Mutual Film Co. v. Industrial Comm&apos;n of Ohio"
     volume: "236"
     page: "247"
+    docket: "457"
+    citation: "236 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 247"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-213"
@@ -4238,9 +5505,12 @@ cases:
     title: "Mutual Film Corp. of Mo. v. Hodges"
     volume: "236"
     page: "248"
+    docket: "597"
+    citation: "236 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 248"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-214"
@@ -4248,9 +5518,12 @@ cases:
     title: "United States v. Erie R. Co."
     volume: "236"
     page: "259"
+    docket: "493"
+    citation: "236 U.S. 259"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 259"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-243"
@@ -4258,9 +5531,12 @@ cases:
     title: "Burdick v. United States"
     volume: "236"
     page: "079"
+    docket: "471"
+    citation: "236 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1915"
-    citation: "236 U.S. 79"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-244"
@@ -4268,9 +5544,12 @@ cases:
     title: "Curtin v. United States"
     volume: "236"
     page: "096"
+    docket: "472"
+    citation: "236 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1915"
-    citation: "236 U.S. 96"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-258"
@@ -4278,9 +5557,12 @@ cases:
     title: "Maryland Steel Co. of Baltimore Cty. v. United States"
     volume: "235"
     page: "451"
+    docket: "104"
+    citation: "235 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 451"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-259"
@@ -4288,9 +5570,12 @@ cases:
     title: "Lankford v. Platte Iron Works Co."
     volume: "235"
     page: "461"
+    docket: "381"
+    citation: "235 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 461"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-260"
@@ -4298,9 +5583,12 @@ cases:
     title: "American Water Softener Co. v. Lankford"
     volume: "235"
     page: "496"
+    docket: "418"
+    citation: "235 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 496"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-261"
@@ -4308,9 +5596,12 @@ cases:
     title: "Farish v. State Banking Bd. of Okla."
     volume: "235"
     page: "498"
+    docket: "446"
+    citation: "235 U.S. 498"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 498"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1914-262"
@@ -4318,9 +5609,12 @@ cases:
     title: "United States v. Erie R. Co."
     volume: "235"
     page: "513"
+    docket: "552"
+    citation: "235 U.S. 513"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 513"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-003"
@@ -4328,9 +5622,12 @@ cases:
     title: "Hadacheck v. Sebastian"
     volume: "239"
     page: "394"
+    docket: "32"
+    citation: "239 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1915"
-    citation: "239 U.S. 394"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-004"
@@ -4338,9 +5635,12 @@ cases:
     title: "Williams v. Johnson"
     volume: "239"
     page: "414"
+    docket: "110"
+    citation: "239 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1915"
-    citation: "239 U.S. 414"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-005"
@@ -4348,9 +5648,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Whiteaker"
     volume: "239"
     page: "421"
+    docket: "111"
+    citation: "239 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1915"
-    citation: "239 U.S. 421"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-006"
@@ -4358,9 +5661,12 @@ cases:
     title: "Miller v. Strahl"
     volume: "239"
     page: "426"
+    docket: "458"
+    citation: "239 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1915"
-    citation: "239 U.S. 426"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-014"
@@ -4368,9 +5674,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Bigger"
     volume: "239"
     page: "330"
+    docket: "342"
+    citation: "239 U.S. 330"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1915"
-    citation: "239 U.S. 330"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-022"
@@ -4378,9 +5687,12 @@ cases:
     title: "Mackenzie v. Hare"
     volume: "239"
     page: "299"
+    docket: "79"
+    citation: "239 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1915"
-    citation: "239 U.S. 299"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-027"
@@ -4388,9 +5700,12 @@ cases:
     title: "Fireball Gas Tank &amp; Illuminating Co. v. Commercial Acetylene Co."
     volume: "239"
     page: "156"
+    docket: "13"
+    citation: "239 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1915"
-    citation: "239 U.S. 156"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-028"
@@ -4398,9 +5713,12 @@ cases:
     title: "Porter v. Wilson"
     volume: "239"
     page: "170"
+    docket: "58"
+    citation: "239 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1915"
-    citation: "239 U.S. 170"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-029"
@@ -4408,9 +5726,12 @@ cases:
     title: "Heim v. McCall"
     volume: "239"
     page: "175"
+    docket: "386"
+    citation: "239 U.S. 175"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1915"
-    citation: "239 U.S. 175"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-030"
@@ -4418,9 +5739,12 @@ cases:
     title: "Crane v. New York"
     volume: "239"
     page: "195"
+    docket: "388"
+    citation: "239 U.S. 195"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1915"
-    citation: "239 U.S. 195"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-056"
@@ -4428,9 +5752,12 @@ cases:
     title: "Stewart v. Kansas City"
     volume: "239"
     page: "014"
+    docket: "284"
+    citation: "239 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1915"
-    citation: "239 U.S. 14"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-086"
@@ -4438,9 +5765,12 @@ cases:
     title: "Banning Co. v. California ex rel. Webb"
     volume: "240"
     page: "142"
+    docket: "73"
+    citation: "240 U.S. 142"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1916"
-    citation: "240 U.S. 142"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-087"
@@ -4448,9 +5778,12 @@ cases:
     title: "Carnegie Steel Co. v. United States"
     volume: "240"
     page: "156"
+    docket: "171"
+    citation: "240 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1916"
-    citation: "240 U.S. 156"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-106"
@@ -4458,9 +5791,12 @@ cases:
     title: "Rast v. Van Deman &amp; Lewis Co."
     volume: "240"
     page: "342"
+    docket: "41"
+    citation: "240 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1916"
-    citation: "240 U.S. 342"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-107"
@@ -4468,9 +5804,12 @@ cases:
     title: "Tanner v. Little"
     volume: "240"
     page: "369"
+    docket: "224"
+    citation: "240 U.S. 369"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1916"
-    citation: "240 U.S. 369"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-108"
@@ -4478,9 +5817,12 @@ cases:
     title: "Pitney v. Washington"
     volume: "240"
     page: "387"
+    docket: "242"
+    citation: "240 U.S. 387"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1916"
-    citation: "240 U.S. 387"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-117"
@@ -4488,9 +5830,12 @@ cases:
     title: "Great Northern R. Co. v. Wiles"
     volume: "240"
     page: "444"
+    docket: "196"
+    citation: "240 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1916"
-    citation: "240 U.S. 444"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-118"
@@ -4498,9 +5843,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Bond"
     volume: "240"
     page: "449"
+    docket: "486"
+    citation: "240 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1916"
-    citation: "240 U.S. 449"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-126"
@@ -4508,9 +5856,12 @@ cases:
     title: "Armour &amp; Co. v. North Dakota"
     volume: "240"
     page: "510"
+    docket: "258"
+    citation: "240 U.S. 510"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1916"
-    citation: "240 U.S. 510"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-127"
@@ -4518,9 +5869,12 @@ cases:
     title: "St. Louis, I. M. &amp; S. R. Co. v. Arkansas"
     volume: "240"
     page: "518"
+    docket: "302"
+    citation: "240 U.S. 518"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1916"
-    citation: "240 U.S. 518"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-128"
@@ -4528,9 +5882,12 @@ cases:
     title: "Indian Territory Illuminating Oil Co. v. Oklahoma"
     volume: "240"
     page: "522"
+    docket: "283"
+    citation: "240 U.S. 522"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1916"
-    citation: "240 U.S. 522"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-165"
@@ -4538,9 +5895,12 @@ cases:
     title: "United States v. Hemmer"
     volume: "241"
     page: "379"
+    docket: "86"
+    citation: "241 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1916"
-    citation: "241 U.S. 379"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-166"
@@ -4548,9 +5908,12 @@ cases:
     title: "Merrill-Ruckgaber Co. v. United States"
     volume: "241"
     page: "387"
+    docket: "281"
+    citation: "241 U.S. 387"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1916"
-    citation: "241 U.S. 387"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-184"
@@ -4558,9 +5921,12 @@ cases:
     title: "Jacobs v. Southern R. Co."
     volume: "241"
     page: "229"
+    docket: "326"
+    citation: "241 U.S. 229"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1916"
-    citation: "241 U.S. 229"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-185"
@@ -4568,9 +5934,12 @@ cases:
     title: "Baugham v. New York, P. &amp; N. R. Co."
     volume: "241"
     page: "237"
+    docket: "327"
+    citation: "241 U.S. 237"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1916"
-    citation: "241 U.S. 237"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-186"
@@ -4578,9 +5947,12 @@ cases:
     title: "Chesapeake &amp; Ohio R. Co. v. Carnahan"
     volume: "241"
     page: "241"
+    docket: "743"
+    citation: "241 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1916"
-    citation: "241 U.S. 241"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-203"
@@ -4588,9 +5960,12 @@ cases:
     title: "United States v. Archer"
     volume: "241"
     page: "119"
+    docket: "112"
+    citation: "241 U.S. 119"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1916"
-    citation: "241 U.S. 119"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-204"
@@ -4598,9 +5973,12 @@ cases:
     title: "White v. United States"
     volume: "241"
     page: "149"
+    docket: "309"
+    citation: "241 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1916"
-    citation: "241 U.S. 149"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-211"
@@ -4608,9 +5986,12 @@ cases:
     title: "Menasha Paper Co. v. Chicago &amp; Northwestern R. Co."
     volume: "241"
     page: "055"
+    docket: "696"
+    citation: "241 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1916"
-    citation: "241 U.S. 55"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-212"
@@ -4618,9 +5999,12 @@ cases:
     title: "United States v. New South Farm &amp; Home Co."
     volume: "241"
     page: "064"
+    docket: "808"
+    citation: "241 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1916"
-    citation: "241 U.S. 64"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-213"
@@ -4628,9 +6012,12 @@ cases:
     title: "United States v. Lombardo"
     volume: "241"
     page: "073"
+    docket: "830"
+    citation: "241 U.S. 73"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1916"
-    citation: "241 U.S. 73"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-217"
@@ -4638,9 +6025,12 @@ cases:
     title: "Chin Fong v. Backus"
     volume: "241"
     page: "001"
+    docket: "664"
+    citation: "241 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1916"
-    citation: "241 U.S. 1"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-223"
@@ -4648,9 +6038,12 @@ cases:
     title: "Basso v. United States"
     volume: "239"
     page: "602"
+    docket: "143"
+    citation: "239 U.S. 602"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1916"
-    citation: "239 U.S. 602"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1915-228"
@@ -4658,9 +6051,12 @@ cases:
     title: "Myles Salt Co. v. Board of Comm&apos;rs of Iberia and St. Mary Drainage Dist."
     volume: "239"
     page: "478"
+    docket: "141"
+    citation: "239 U.S. 478"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1916"
-    citation: "239 U.S. 478"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-003"
@@ -4668,9 +6064,12 @@ cases:
     title: "Chicago, T. H. &amp; S. R. Co. v. Anderson"
     volume: "242"
     page: "283"
+    docket: "34"
+    citation: "242 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1916"
-    citation: "242 U.S. 283"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-012"
@@ -4678,9 +6077,12 @@ cases:
     title: "Goshen Mfg. Co. v. Hubert A. Myers Mfg. Co."
     volume: "242"
     page: "202"
+    docket: "60"
+    citation: "242 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1916"
-    citation: "242 U.S. 202"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-013"
@@ -4688,9 +6090,12 @@ cases:
     title: "United States v. Pennsylvania R. Co."
     volume: "242"
     page: "208"
+    docket: "340"
+    citation: "242 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1916"
-    citation: "242 U.S. 208"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-020"
@@ -4698,9 +6103,12 @@ cases:
     title: "Lehon v. Atlanta"
     volume: "242"
     page: "053"
+    docket: "103"
+    citation: "242 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1916"
-    citation: "242 U.S. 53"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-048"
@@ -4708,9 +6116,12 @@ cases:
     title: "Ewing v. United States ex rel. Fowler Car Co."
     volume: "244"
     page: "001"
+    docket: "721"
+    citation: "244 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1917"
-    citation: "244 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-058"
@@ -4718,9 +6129,12 @@ cases:
     title: "Chesbrough v. Woodworth"
     volume: "244"
     page: "072"
+    docket: "179"
+    citation: "244 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1917"
-    citation: "244 U.S. 72"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-059"
@@ -4728,9 +6142,12 @@ cases:
     title: "Woodworth v. Chesbrough"
     volume: "244"
     page: "079"
+    docket: "180"
+    citation: "244 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1917"
-    citation: "244 U.S. 79"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-060"
@@ -4738,9 +6155,12 @@ cases:
     title: "United States v. Illinois Central R. Co."
     volume: "244"
     page: "082"
+    docket: "310"
+    citation: "244 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1917"
-    citation: "244 U.S. 82"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-061"
@@ -4748,9 +6168,12 @@ cases:
     title: "West v. Edward Rutledge Timber Co."
     volume: "244"
     page: "090"
+    docket: "276"
+    citation: "244 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1917"
-    citation: "244 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-086"
@@ -4758,9 +6181,12 @@ cases:
     title: "Seaboard Air Line R. Co. v. Blackwell"
     volume: "244"
     page: "310"
+    docket: "213"
+    citation: "244 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1917"
-    citation: "244 U.S. 310"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-103"
@@ -4768,9 +6194,12 @@ cases:
     title: "Valdez v. United States"
     volume: "244"
     page: "432"
+    docket: "361"
+    citation: "244 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1917"
-    citation: "244 U.S. 432"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-119"
@@ -4778,9 +6207,12 @@ cases:
     title: "Pennsylvania R. Co. v. Olivit Brothers"
     volume: "243"
     page: "574"
+    docket: "577"
+    citation: "243 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1917"
-    citation: "243 U.S. 574"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-120"
@@ -4788,9 +6220,12 @@ cases:
     title: "Pennsylvania R. Co. v. Carr"
     volume: "243"
     page: "587"
+    docket: "578"
+    citation: "243 U.S. 587"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1917"
-    citation: "243 U.S. 587"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-121"
@@ -4798,9 +6233,12 @@ cases:
     title: "Lott v. Pittman"
     volume: "243"
     page: "588"
+    docket: "894"
+    citation: "243 U.S. 588"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1917"
-    citation: "243 U.S. 588"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-126"
@@ -4808,9 +6246,12 @@ cases:
     title: "Oregon &amp; California R. Co. v. United States"
     volume: "243"
     page: "549"
+    docket: "492"
+    citation: "243 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1917"
-    citation: "243 U.S. 549"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-130"
@@ -4818,9 +6259,12 @@ cases:
     title: "Bunting v. Oregon"
     volume: "243"
     page: "426"
+    docket: "38"
+    citation: "243 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1917"
-    citation: "243 U.S. 426"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-131"
@@ -4828,9 +6272,12 @@ cases:
     title: "United States v. Kenofskey"
     volume: "243"
     page: "440"
+    docket: "649"
+    citation: "243 U.S. 440"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1917"
-    citation: "243 U.S. 440"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-155"
@@ -4838,9 +6285,12 @@ cases:
     title: "New Mexico v. Lane"
     volume: "243"
     page: "052"
+    docket: "20 Orig."
+    citation: "243 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 52"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-156"
@@ -4848,9 +6298,12 @@ cases:
     title: "Donohue v. Vosper"
     volume: "243"
     page: "059"
+    docket: "445"
+    citation: "243 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 59"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-157"
@@ -4858,9 +6311,12 @@ cases:
     title: "Thomsen v. Cayser"
     volume: "243"
     page: "066"
+    docket: "2"
+    citation: "243 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 66"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-184"
@@ -4868,9 +6324,12 @@ cases:
     title: "Hall v. Geiger-Jones Co."
     volume: "242"
     page: "539"
+    docket: "438"
+    citation: "242 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1917"
-    citation: "242 U.S. 539"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-185"
@@ -4878,9 +6337,12 @@ cases:
     title: "Caldwell v. Sioux Falls Stock Yards Co."
     volume: "242"
     page: "559"
+    docket: "386"
+    citation: "242 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1917"
-    citation: "242 U.S. 559"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-186"
@@ -4888,9 +6350,12 @@ cases:
     title: "Merrick v. N. W. Halsey &amp; Co."
     volume: "242"
     page: "568"
+    docket: "413"
+    citation: "242 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1917"
-    citation: "242 U.S. 568"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-195"
@@ -4898,9 +6363,12 @@ cases:
     title: "Chicago, M. &amp; St. P. R. Co. v. State Pub. Util. Comm&apos;n of Ill."
     volume: "242"
     page: "333"
+    docket: "148"
+    citation: "242 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1917"
-    citation: "242 U.S. 333"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-196"
@@ -4908,9 +6376,12 @@ cases:
     title: "Crane v. Johnson"
     volume: "242"
     page: "339"
+    docket: "493"
+    citation: "242 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1917"
-    citation: "242 U.S. 339"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1916-197"
@@ -4918,9 +6389,12 @@ cases:
     title: "McNaughton v. Johnson"
     volume: "242"
     page: "344"
+    docket: "494"
+    citation: "242 U.S. 344"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1917"
-    citation: "242 U.S. 344"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-007"
@@ -4928,9 +6402,12 @@ cases:
     title: "Sweet v. Schock"
     volume: "245"
     page: "192"
+    docket: "52"
+    citation: "245 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1917"
-    citation: "245 U.S. 192"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-008"
@@ -4938,9 +6415,12 @@ cases:
     title: "Abercrombie &amp; Fitch Co. v. Baldwin"
     volume: "245"
     page: "198"
+    docket: "67"
+    citation: "245 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1917"
-    citation: "245 U.S. 198"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-034"
@@ -4948,9 +6428,12 @@ cases:
     title: "Smith v. ICC"
     volume: "245"
     page: "033"
+    docket: "337"
+    citation: "245 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1917"
-    citation: "245 U.S. 33"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-035"
@@ -4958,9 +6441,12 @@ cases:
     title: "Smith v. ICC"
     volume: "245"
     page: "047"
+    docket: "339"
+    citation: "245 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1917"
-    citation: "245 U.S. 47"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-036"
@@ -4968,9 +6454,12 @@ cases:
     title: "Jones v. ICC"
     volume: "245"
     page: "048"
+    docket: "340"
+    citation: "245 U.S. 48"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1917"
-    citation: "245 U.S. 48"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-037"
@@ -4978,9 +6467,12 @@ cases:
     title: "Cohen v. Samuels"
     volume: "245"
     page: "050"
+    docket: "359"
+    citation: "245 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1917"
-    citation: "245 U.S. 50"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-087"
@@ -4988,9 +6480,12 @@ cases:
     title: "Rock Spring Distilling Co. v. W. A. Gaines &amp; Co."
     volume: "246"
     page: "312"
+    docket: "58"
+    citation: "246 U.S. 312"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1918"
-    citation: "246 U.S. 312"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-088"
@@ -4998,9 +6493,12 @@ cases:
     title: "Ireland v. Woods"
     volume: "246"
     page: "323"
+    docket: "611"
+    citation: "246 U.S. 323"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1918"
-    citation: "246 U.S. 323"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-097"
@@ -5008,9 +6506,12 @@ cases:
     title: "City of Mitchell v. Dakota Central Telephone Co."
     volume: "246"
     page: "396"
+    docket: "198"
+    citation: "246 U.S. 396"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1918"
-    citation: "246 U.S. 396"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-119"
@@ -5018,9 +6519,12 @@ cases:
     title: "Ibanez de Aldecoa v. Hongkong &amp; Shanghai Banking Corp."
     volume: "246"
     page: "621"
+    docket: "230"
+    citation: "246 U.S. 621"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1918"
-    citation: "246 U.S. 621"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-120"
@@ -5028,9 +6532,12 @@ cases:
     title: "Ibanez de Aldecoa v. Hongkong &amp; Shanghai Banking Corp."
     volume: "246"
     page: "627"
+    docket: "231"
+    citation: "246 U.S. 627"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1918"
-    citation: "246 U.S. 627"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-133"
@@ -5038,9 +6545,12 @@ cases:
     title: "Lynch v. Turrish"
     volume: "247"
     page: "221"
+    docket: "421"
+    citation: "247 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1918"
-    citation: "247 U.S. 221"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-156"
@@ -5048,9 +6558,12 @@ cases:
     title: "United States v. United Shoe Machinery Co. of N. J."
     volume: "247"
     page: "032"
+    docket: "207"
+    citation: "247 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1918"
-    citation: "247 U.S. 32"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-157"
@@ -5058,9 +6571,12 @@ cases:
     title: "McGinis v. California"
     volume: "247"
     page: "091"
+    docket: "133"
+    citation: "247 U.S. 91"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1918"
-    citation: "247 U.S. 91"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-158"
@@ -5068,9 +6584,12 @@ cases:
     title: "McGinis v. California"
     volume: "247"
     page: "095"
+    docket: "134"
+    citation: "247 U.S. 95"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1918"
-    citation: "247 U.S. 95"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-178"
@@ -5078,9 +6597,12 @@ cases:
     title: "Perlman v. United States"
     volume: "247"
     page: "007"
+    docket: "752"
+    citation: "247 U.S. 7"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1918"
-    citation: "247 U.S. 7"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-185"
@@ -5088,9 +6610,12 @@ cases:
     title: "Johnson v. Lankford"
     volume: "245"
     page: "541"
+    docket: "96"
+    citation: "245 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1918"
-    citation: "245 U.S. 541"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-186"
@@ -5098,9 +6623,12 @@ cases:
     title: "Martin v. Lankford"
     volume: "245"
     page: "547"
+    docket: "97"
+    citation: "245 U.S. 547"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1918"
-    citation: "245 U.S. 547"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-187"
@@ -5108,9 +6636,12 @@ cases:
     title: "United States v. Woo Jan"
     volume: "245"
     page: "552"
+    docket: "336"
+    citation: "245 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1918"
-    citation: "245 U.S. 552"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-192"
@@ -5118,9 +6649,12 @@ cases:
     title: "Bates v. Bodie"
     volume: "245"
     page: "520"
+    docket: "120"
+    citation: "245 U.S. 520"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1918"
-    citation: "245 U.S. 520"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-205"
@@ -5128,9 +6662,12 @@ cases:
     title: "United States v. Morena"
     volume: "245"
     page: "392"
+    docket: "523"
+    citation: "245 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1918"
-    citation: "245 U.S. 392"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1917-206"
@@ -5138,9 +6675,12 @@ cases:
     title: "Waller v. Texas &amp; Pacific R. Co."
     volume: "245"
     page: "398"
+    docket: "92"
+    citation: "245 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1918"
-    citation: "245 U.S. 398"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-009"
@@ -5148,9 +6688,12 @@ cases:
     title: "E. W. Bliss Co. v. United States"
     volume: "248"
     page: "037"
+    docket: "15"
+    citation: "248 U.S. 37"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1918"
-    citation: "248 U.S. 37"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-010"
@@ -5158,9 +6701,12 @@ cases:
     title: "Van Dyke v. Arizona Eastern R. Co."
     volume: "248"
     page: "049"
+    docket: "59"
+    citation: "248 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1918"
-    citation: "248 U.S. 49"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-035"
@@ -5168,9 +6714,12 @@ cases:
     title: "South Dakota v. Collins"
     volume: "249"
     page: "220"
+    docket: "10 Orig."
+    citation: "249 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1919"
-    citation: "249 U.S. 220"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-038"
@@ -5178,9 +6727,12 @@ cases:
     title: "American Fire Ins. Co. v. King Lumber &amp; Mfg. Co."
     volume: "250"
     page: "002"
+    docket: "308"
+    citation: "250 U.S. 2"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 2"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-039"
@@ -5188,9 +6740,12 @@ cases:
     title: "Caldwell v. United States"
     volume: "250"
     page: "014"
+    docket: "325"
+    citation: "250 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 14"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-040"
@@ -5198,9 +6753,12 @@ cases:
     title: "Tayabas Land Co. v. Manila R. Co."
     volume: "250"
     page: "022"
+    docket: "331"
+    citation: "250 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 22"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-068"
@@ -5208,9 +6766,12 @@ cases:
     title: "Capital Trust Co. v. Calhoun"
     volume: "250"
     page: "208"
+    docket: "368"
+    citation: "250 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1919"
-    citation: "250 U.S. 208"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-111"
@@ -5218,9 +6779,12 @@ cases:
     title: "Brougham v. Blanton Mfg. Co."
     volume: "249"
     page: "495"
+    docket: "247"
+    citation: "249 U.S. 495"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1919"
-    citation: "249 U.S. 495"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-112"
@@ -5228,9 +6792,12 @@ cases:
     title: "Rand v. United States"
     volume: "249"
     page: "503"
+    docket: "213"
+    citation: "249 U.S. 503"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1919"
-    citation: "249 U.S. 503"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-113"
@@ -5238,9 +6805,12 @@ cases:
     title: "Perley v. North Carolina"
     volume: "249"
     page: "510"
+    docket: "251"
+    citation: "249 U.S. 510"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1919"
-    citation: "249 U.S. 510"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-114"
@@ -5248,9 +6818,12 @@ cases:
     title: "Gillis v. New York, N. H. &amp; H. R. Co."
     volume: "249"
     page: "515"
+    docket: "296"
+    citation: "249 U.S. 515"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1919"
-    citation: "249 U.S. 515"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-142"
@@ -5258,9 +6831,12 @@ cases:
     title: "United States v. Purcell Envelope Co."
     volume: "249"
     page: "313"
+    docket: "168"
+    citation: "249 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1919"
-    citation: "249 U.S. 313"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-143"
@@ -5268,9 +6844,12 @@ cases:
     title: "O&apos;Pry v. United States"
     volume: "249"
     page: "323"
+    docket: "216"
+    citation: "249 U.S. 323"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1919"
-    citation: "249 U.S. 323"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-165"
@@ -5278,9 +6857,12 @@ cases:
     title: "Butte &amp; Superior Copper Co. v. Clark-Montana Realty Co."
     volume: "249"
     page: "012"
+    docket: "598"
+    citation: "249 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 12"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-166"
@@ -5288,9 +6870,12 @@ cases:
     title: "G. S. Nicholas &amp; Co. v. United States"
     volume: "249"
     page: "034"
+    docket: "62"
+    citation: "249 U.S. 34"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 34"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-199"
@@ -5298,9 +6883,12 @@ cases:
     title: "La Tourette v. McMaster"
     volume: "248"
     page: "465"
+    docket: "114"
+    citation: "248 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1919"
-    citation: "248 U.S. 465"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-201"
@@ -5308,9 +6896,12 @@ cases:
     title: "Allanwilde Transport Corp. v. Vacuum Oil Co."
     volume: "248"
     page: "377"
+    docket: "449"
+    citation: "248 U.S. 377"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1919"
-    citation: "248 U.S. 377"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-202"
@@ -5318,9 +6909,12 @@ cases:
     title: "International Paper Co. v. The &quot;Gracie D. Chambers&quot;"
     volume: "248"
     page: "387"
+    docket: "479"
+    citation: "248 U.S. 387"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1919"
-    citation: "248 U.S. 387"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-203"
@@ -5328,9 +6922,12 @@ cases:
     title: "Standard Varnish Works v. S. S. &quot;Bris&quot;"
     volume: "248"
     page: "392"
+    docket: "745"
+    citation: "248 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1919"
-    citation: "248 U.S. 392"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-204"
@@ -5338,9 +6935,12 @@ cases:
     title: "Fink v. Board of Comm&apos;rs of Muskogee Cty."
     volume: "248"
     page: "399"
+    docket: "43"
+    citation: "248 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1919"
-    citation: "248 U.S. 399"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-205"
@@ -5348,9 +6948,12 @@ cases:
     title: "Cochnower v. United States"
     volume: "248"
     page: "405"
+    docket: "80"
+    citation: "248 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1919"
-    citation: "248 U.S. 405"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1918-206"
@@ -5358,9 +6961,12 @@ cases:
     title: "Fullinwider v. Southern Pacific R. Co. of Cal."
     volume: "248"
     page: "409"
+    docket: "121"
+    citation: "248 U.S. 409"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1919"
-    citation: "248 U.S. 409"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-004"
@@ -5368,9 +6974,12 @@ cases:
     title: "United States ex rel. Alaska Smokeless Coal Co. v. Lane"
     volume: "250"
     page: "549"
+    docket: "36"
+    citation: "250 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1919"
-    citation: "250 U.S. 549"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-005"
@@ -5378,9 +6987,12 @@ cases:
     title: "Lehigh Coal &amp; Nav. Co. v. United States"
     volume: "250"
     page: "556"
+    docket: "38"
+    citation: "250 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1919"
-    citation: "250 U.S. 556"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-018"
@@ -5388,9 +7000,12 @@ cases:
     title: "Bone v. Commissioners of Marion Cty."
     volume: "251"
     page: "134"
+    docket: "63"
+    citation: "251 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1919"
-    citation: "251 U.S. 134"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-024"
@@ -5398,9 +7013,12 @@ cases:
     title: "Los Angeles v. Los Angeles Gas &amp; Elec. Corp."
     volume: "251"
     page: "032"
+    docket: "50"
+    citation: "251 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1919"
-    citation: "251 U.S. 32"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-025"
@@ -5408,9 +7026,12 @@ cases:
     title: "Ervien v. United States"
     volume: "251"
     page: "041"
+    docket: "72"
+    citation: "251 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1919"
-    citation: "251 U.S. 41"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-069"
@@ -5418,9 +7039,12 @@ cases:
     title: "Erie R. Co. v. Collins"
     volume: "253"
     page: "077"
+    docket: "348"
+    citation: "253 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1920"
-    citation: "253 U.S. 77"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-070"
@@ -5428,9 +7052,12 @@ cases:
     title: "Erie R. Co. v. Szary"
     volume: "253"
     page: "086"
+    docket: "355"
+    citation: "253 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1920"
-    citation: "253 U.S. 86"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-071"
@@ -5438,9 +7065,12 @@ cases:
     title: "White v. Chin Fong"
     volume: "253"
     page: "090"
+    docket: "506"
+    citation: "253 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1920"
-    citation: "253 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-085"
@@ -5448,9 +7078,12 @@ cases:
     title: "United States v. Atlantic Dredging Co."
     volume: "253"
     page: "001"
+    docket: "214"
+    citation: "253 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1920"
-    citation: "253 U.S. 1"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-090"
@@ -5458,9 +7091,12 @@ cases:
     title: "Cuyahoga River Power Co. v. Northern Ohio Traction &amp; Light Co."
     volume: "252"
     page: "388"
+    docket: "102"
+    citation: "252 U.S. 388"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1920"
-    citation: "252 U.S. 388"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-091"
@@ -5468,9 +7104,12 @@ cases:
     title: "Cincinnati, C. &amp; E. R. Co. v. Kentucky"
     volume: "252"
     page: "408"
+    docket: "253"
+    citation: "252 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1920"
-    citation: "252 U.S. 408"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-110"
@@ -5478,9 +7117,12 @@ cases:
     title: "South Covington &amp; Cincinnati Street R. Co. v. Kentucky"
     volume: "252"
     page: "399"
+    docket: "252"
+    citation: "252 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1920"
-    citation: "252 U.S. 399"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-129"
@@ -5488,9 +7130,12 @@ cases:
     title: "United States v. United States Steel Corp."
     volume: "251"
     page: "417"
+    docket: "6"
+    citation: "251 U.S. 417"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "251 U.S. 417"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-130"
@@ -5498,9 +7143,12 @@ cases:
     title: "Schaefer v. United States"
     volume: "251"
     page: "466"
+    docket: "270"
+    citation: "251 U.S. 466"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "251 U.S. 466"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-131"
@@ -5508,9 +7156,12 @@ cases:
     title: "Carbon Steel Co. v. Lewellyn"
     volume: "251"
     page: "501"
+    docket: "535"
+    citation: "251 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "251 U.S. 501"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-132"
@@ -5518,9 +7169,12 @@ cases:
     title: "Worth Brothers Co. v. Lederer"
     volume: "251"
     page: "507"
+    docket: "525"
+    citation: "251 U.S. 507"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "251 U.S. 507"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-133"
@@ -5528,9 +7182,12 @@ cases:
     title: "Forged Steel Wheel Co. v. Lewellyn"
     volume: "251"
     page: "511"
+    docket: "526"
+    citation: "251 U.S. 511"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "251 U.S. 511"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-134"
@@ -5538,9 +7195,12 @@ cases:
     title: "Dunbar v. City of New York"
     volume: "251"
     page: "516"
+    docket: "160"
+    citation: "251 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "251 U.S. 516"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-162"
@@ -5548,9 +7208,12 @@ cases:
     title: "Napa Valley Elec. Co. v. Railroad Comm&apos;n of Cal."
     volume: "251"
     page: "366"
+    docket: "401"
+    citation: "251 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1920"
-    citation: "251 U.S. 366"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1919-163"
@@ -5558,9 +7221,12 @@ cases:
     title: "Chipman, Ltd. v. Thomas B. Jeffery Co."
     volume: "251"
     page: "373"
+    docket: "516"
+    citation: "251 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1920"
-    citation: "251 U.S. 373"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-003"
@@ -5568,9 +7234,12 @@ cases:
     title: "Thornton v. Duffy"
     volume: "254"
     page: "361"
+    docket: "76"
+    citation: "254 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1920"
-    citation: "254 U.S. 361"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-009"
@@ -5578,9 +7247,12 @@ cases:
     title: "Walls v. Midland Carbon Co."
     volume: "254"
     page: "300"
+    docket: "219"
+    citation: "254 U.S. 300"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1920"
-    citation: "254 U.S. 300"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-010"
@@ -5588,9 +7260,12 @@ cases:
     title: "Gilbert v. Minnesota"
     volume: "254"
     page: "325"
+    docket: "79"
+    citation: "254 U.S. 325"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1920"
-    citation: "254 U.S. 325"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-011"
@@ -5598,9 +7273,12 @@ cases:
     title: "United States ex rel. Hall v. Payne"
     volume: "254"
     page: "343"
+    docket: "95"
+    citation: "254 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1920"
-    citation: "254 U.S. 343"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-012"
@@ -5608,9 +7286,12 @@ cases:
     title: "Vallely v. Northern Fire &amp; Marine Ins. Co."
     volume: "254"
     page: "348"
+    docket: "96"
+    citation: "254 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1920"
-    citation: "254 U.S. 348"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-038"
@@ -5618,9 +7299,12 @@ cases:
     title: "New York Scaffolding Co. v. Liebel-Binney Constr. Co."
     volume: "254"
     page: "024"
+    docket: "22"
+    citation: "254 U.S. 24"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1920"
-    citation: "254 U.S. 24"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-039"
@@ -5628,9 +7312,12 @@ cases:
     title: "New York Scaffolding Co. v. Chain Belt Co."
     volume: "254"
     page: "032"
+    docket: "23"
+    citation: "254 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1920"
-    citation: "254 U.S. 32"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-040"
@@ -5638,9 +7325,12 @@ cases:
     title: "United States v. Butt"
     volume: "254"
     page: "038"
+    docket: "275"
+    citation: "254 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1920"
-    citation: "254 U.S. 38"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-041"
@@ -5648,9 +7338,12 @@ cases:
     title: "Pryor v. Williams"
     volume: "254"
     page: "043"
+    docket: "26"
+    citation: "254 U.S. 43"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1920"
-    citation: "254 U.S. 43"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-068"
@@ -5658,9 +7351,12 @@ cases:
     title: "Bethlehem Motors Corp. v. Flynt"
     volume: "256"
     page: "421"
+    docket: "254"
+    citation: "256 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 1, 1921"
-    citation: "256 U.S. 421"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-069"
@@ -5668,9 +7364,12 @@ cases:
     title: "Michigan Central R. Co. v. Mark Owen &amp; Co."
     volume: "256"
     page: "427"
+    docket: "299"
+    citation: "256 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 1, 1921"
-    citation: "256 U.S. 427"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-070"
@@ -5678,9 +7377,12 @@ cases:
     title: "Heirs of Garland v. Choctaw Nation"
     volume: "256"
     page: "439"
+    docket: "129"
+    citation: "256 U.S. 439"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 1, 1921"
-    citation: "256 U.S. 439"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-091"
@@ -5688,9 +7390,12 @@ cases:
     title: "Blanset v. Cardin"
     volume: "256"
     page: "319"
+    docket: "244"
+    citation: "256 U.S. 319"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1921"
-    citation: "256 U.S. 319"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-092"
@@ -5698,9 +7403,12 @@ cases:
     title: "Philadelphia &amp; Reading R. Co. v. Di Donato"
     volume: "256"
     page: "327"
+    docket: "297"
+    citation: "256 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1921"
-    citation: "256 U.S. 327"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-093"
@@ -5708,9 +7416,12 @@ cases:
     title: "Philadelphia &amp; Reading R. Co. v. Polk"
     volume: "256"
     page: "332"
+    docket: "298"
+    citation: "256 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1921"
-    citation: "256 U.S. 332"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-120"
@@ -5718,9 +7429,12 @@ cases:
     title: "Chase v. United States"
     volume: "256"
     page: "001"
+    docket: "242"
+    citation: "256 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1921"
-    citation: "256 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-121"
@@ -5728,9 +7442,12 @@ cases:
     title: "Gilpin v. United States"
     volume: "256"
     page: "010"
+    docket: "243"
+    citation: "256 U.S. 10"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1921"
-    citation: "256 U.S. 10"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-122"
@@ -5738,9 +7455,12 @@ cases:
     title: "United States v. Smith"
     volume: "256"
     page: "011"
+    docket: "253"
+    citation: "256 U.S. 11"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1921"
-    citation: "256 U.S. 11"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-138"
@@ -5748,9 +7468,12 @@ cases:
     title: "Lang v. New York Central R. Co."
     volume: "255"
     page: "455"
+    docket: "290"
+    citation: "255 U.S. 455"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1921"
-    citation: "255 U.S. 455"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-139"
@@ -5758,9 +7481,12 @@ cases:
     title: "Friedman v. United States"
     volume: "255"
     page: "468"
+    docket: "221"
+    citation: "255 U.S. 468"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1921"
-    citation: "255 U.S. 468"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-152"
@@ -5768,9 +7494,12 @@ cases:
     title: "Oregon-Washington R. &amp; Nav. Co. v. United States"
     volume: "255"
     page: "339"
+    docket: "134"
+    citation: "255 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1921"
-    citation: "255 U.S. 339"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-153"
@@ -5778,9 +7507,12 @@ cases:
     title: "Western Pacific R. Co. v. United States"
     volume: "255"
     page: "349"
+    docket: "136"
+    citation: "255 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1921"
-    citation: "255 U.S. 349"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-168"
@@ -5788,9 +7520,12 @@ cases:
     title: "Vandalia R. Co. v. Schnull"
     volume: "255"
     page: "113"
+    docket: "125"
+    citation: "255 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1921"
-    citation: "255 U.S. 113"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-169"
@@ -5798,9 +7533,12 @@ cases:
     title: "Postal Telegraph-Cable Co. v. City of Fremont"
     volume: "255"
     page: "124"
+    docket: "156"
+    citation: "255 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1921"
-    citation: "255 U.S. 124"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-170"
@@ -5808,9 +7546,12 @@ cases:
     title: "Hartford Life Ins. Co. v. Blincoe"
     volume: "255"
     page: "129"
+    docket: "161"
+    citation: "255 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1921"
-    citation: "255 U.S. 129"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-171"
@@ -5818,9 +7559,12 @@ cases:
     title: "United States v. Russell"
     volume: "255"
     page: "138"
+    docket: "143"
+    citation: "255 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1921"
-    citation: "255 U.S. 138"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-172"
@@ -5828,9 +7572,12 @@ cases:
     title: "Lower Vein Coal Co. v. Industrial Bd. of Ind."
     volume: "255"
     page: "144"
+    docket: "186"
+    citation: "255 U.S. 144"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1921"
-    citation: "255 U.S. 144"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-197"
@@ -5838,9 +7585,12 @@ cases:
     title: "Berger v. United States"
     volume: "255"
     page: "022"
+    docket: "460"
+    citation: "255 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1921"
-    citation: "255 U.S. 22"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-208"
@@ -5848,9 +7598,12 @@ cases:
     title: "J. W. Goldsmith, Jr.-Grant Co. v. United States"
     volume: "254"
     page: "505"
+    docket: "214"
+    citation: "254 U.S. 505"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1921"
-    citation: "254 U.S. 505"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1920-214"
@@ -5858,9 +7611,12 @@ cases:
     title: "Cochran v. United States"
     volume: "254"
     page: "387"
+    docket: "116"
+    citation: "254 U.S. 387"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1921"
-    citation: "254 U.S. 387"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-005"
@@ -5868,9 +7624,12 @@ cases:
     title: "United States v. Sacks"
     volume: "257"
     page: "037"
+    docket: "48"
+    citation: "257 U.S. 37"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1921"
-    citation: "257 U.S. 37"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-006"
@@ -5878,9 +7637,12 @@ cases:
     title: "United States v. Janowitz"
     volume: "257"
     page: "042"
+    docket: "49"
+    citation: "257 U.S. 42"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1921"
-    citation: "257 U.S. 42"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-020"
@@ -5888,9 +7650,12 @@ cases:
     title: "John Horstmann Co. v. United States"
     volume: "257"
     page: "138"
+    docket: "26"
+    citation: "257 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1921"
-    citation: "257 U.S. 138"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-041"
@@ -5898,9 +7663,12 @@ cases:
     title: "Hawes v. Georgia"
     volume: "258"
     page: "001"
+    docket: "95"
+    citation: "258 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1922"
-    citation: "258 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-042"
@@ -5908,9 +7676,12 @@ cases:
     title: "MacArthur Brothers Co. v. United States"
     volume: "258"
     page: "006"
+    docket: "97"
+    citation: "258 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1922"
-    citation: "258 U.S. 6"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-043"
@@ -5918,9 +7689,12 @@ cases:
     title: "Western Union Telegraph Co. v. Louisville &amp; Nashville R. Co."
     volume: "258"
     page: "013"
+    docket: "259"
+    citation: "258 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1922"
-    citation: "258 U.S. 13"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-070"
@@ -5928,9 +7702,12 @@ cases:
     title: "Atchafalaya Land Co. v. F. B. Williams Cypress Co."
     volume: "258"
     page: "190"
+    docket: "106"
+    citation: "258 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1922"
-    citation: "258 U.S. 190"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-074"
@@ -5938,9 +7715,12 @@ cases:
     title: "Oklahoma Natural Gas Co. v. Oklahoma"
     volume: "258"
     page: "234"
+    docket: "37"
+    citation: "258 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1922"
-    citation: "258 U.S. 234"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-085"
@@ -5948,9 +7728,12 @@ cases:
     title: "Ferry v. Spokane, P. &amp; S. R. Co."
     volume: "258"
     page: "314"
+    docket: "177"
+    citation: "258 U.S. 314"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1922"
-    citation: "258 U.S. 314"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-086"
@@ -5958,9 +7741,12 @@ cases:
     title: "United States v. Bethlehem Steel Co."
     volume: "258"
     page: "321"
+    docket: "127"
+    citation: "258 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1922"
-    citation: "258 U.S. 321"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-087"
@@ -5968,9 +7754,12 @@ cases:
     title: "Bankers Trust Co. v. City of Raton"
     volume: "258"
     page: "328"
+    docket: "167"
+    citation: "258 U.S. 328"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1922"
-    citation: "258 U.S. 328"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-103"
@@ -5978,9 +7767,12 @@ cases:
     title: "United States v. Moreland"
     volume: "258"
     page: "433"
+    docket: "629"
+    citation: "258 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1922"
-    citation: "258 U.S. 433"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-108"
@@ -5988,9 +7780,12 @@ cases:
     title: "Shwab v. Doyle"
     volume: "258"
     page: "529"
+    docket: "200"
+    citation: "258 U.S. 529"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1922"
-    citation: "258 U.S. 529"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-109"
@@ -5998,9 +7793,12 @@ cases:
     title: "Union Trust Co. of San Francisco v. Wardell"
     volume: "258"
     page: "537"
+    docket: "236"
+    citation: "258 U.S. 537"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1922"
-    citation: "258 U.S. 537"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-110"
@@ -6008,9 +7806,12 @@ cases:
     title: "Levy v. Wardell"
     volume: "258"
     page: "542"
+    docket: "303"
+    citation: "258 U.S. 542"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1922"
-    citation: "258 U.S. 542"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-111"
@@ -6018,9 +7819,12 @@ cases:
     title: "Knox v. McElligott"
     volume: "258"
     page: "546"
+    docket: "602"
+    citation: "258 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1922"
-    citation: "258 U.S. 546"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-121"
@@ -6028,9 +7832,12 @@ cases:
     title: "Corneli v. Moore"
     volume: "257"
     page: "491"
+    docket: "174"
+    citation: "257 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1922"
-    citation: "257 U.S. 491"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1921-150"
@@ -6038,9 +7845,12 @@ cases:
     title: "Industrial Accident Comm&apos;n of Cal. v. Davis"
     volume: "259"
     page: "182"
+    docket: "224"
+    citation: "259 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1922"
-    citation: "259 U.S. 182"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-003"
@@ -6048,9 +7858,12 @@ cases:
     title: "Charlotte Harbor &amp; Northern R. Co. v. Welles"
     volume: "260"
     page: "008"
+    docket: "4"
+    citation: "260 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Monday, October 16, 1922"
-    citation: "260 U.S. 8"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-006"
@@ -6058,9 +7871,12 @@ cases:
     title: "United States v. Wong Sing"
     volume: "260"
     page: "018"
+    docket: "44"
+    citation: "260 U.S. 18"
     pdfSource: "loc"
     dateDecision: "Monday, October 23, 1922"
-    citation: "260 U.S. 18"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-016"
@@ -6068,9 +7884,12 @@ cases:
     title: "Ortega Co. v. Triay"
     volume: "260"
     page: "103"
+    docket: "75"
+    citation: "260 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1922"
-    citation: "260 U.S. 103"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-017"
@@ -6078,9 +7897,12 @@ cases:
     title: "Bratton v. Chandler"
     volume: "260"
     page: "110"
+    docket: "239"
+    citation: "260 U.S. 110"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1922"
-    citation: "260 U.S. 110"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-018"
@@ -6088,9 +7910,12 @@ cases:
     title: "Duesenberg Motors Corp. v. United States"
     volume: "260"
     page: "115"
+    docket: "80"
+    citation: "260 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1922"
-    citation: "260 U.S. 115"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-036"
@@ -6098,9 +7923,12 @@ cases:
     title: "Heisler v. Thomas Colliery Co."
     volume: "260"
     page: "245"
+    docket: "541"
+    citation: "260 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1922"
-    citation: "260 U.S. 245"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-040"
@@ -6108,9 +7936,12 @@ cases:
     title: "Southern R. Co. v. Clift"
     volume: "260"
     page: "316"
+    docket: "107"
+    citation: "260 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1922"
-    citation: "260 U.S. 316"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-041"
@@ -6118,9 +7949,12 @@ cases:
     title: "United States v. Mason &amp; Hanger Co."
     volume: "260"
     page: "323"
+    docket: "121"
+    citation: "260 U.S. 323"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1922"
-    citation: "260 U.S. 323"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-042"
@@ -6128,9 +7962,12 @@ cases:
     title: "United States v. Northeastern Constr. Co."
     volume: "260"
     page: "326"
+    docket: "122"
+    citation: "260 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1922"
-    citation: "260 U.S. 326"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-051"
@@ -6138,9 +7975,12 @@ cases:
     title: "Regal Drug Corp. v. Wardell"
     volume: "260"
     page: "386"
+    docket: "108"
+    citation: "260 U.S. 386"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1922"
-    citation: "260 U.S. 386"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-059"
@@ -6148,9 +7988,12 @@ cases:
     title: "Kansas City Southern R. Co. v. Van Zant"
     volume: "260"
     page: "459"
+    docket: "142"
+    citation: "260 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1923"
-    citation: "260 U.S. 459"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-060"
@@ -6158,9 +8001,12 @@ cases:
     title: "St. Louis Malleable Casting Co. v. George C. Prendergast Constr. Co."
     volume: "260"
     page: "469"
+    docket: "154"
+    citation: "260 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1923"
-    citation: "260 U.S. 469"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-078"
@@ -6168,9 +8014,12 @@ cases:
     title: "Bankers Trust Co. v. Blodgett"
     volume: "260"
     page: "647"
+    docket: "169"
+    citation: "260 U.S. 647"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1923"
-    citation: "260 U.S. 647"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-081"
@@ -6178,9 +8027,12 @@ cases:
     title: "Foley v. United States"
     volume: "260"
     page: "667"
+    docket: "203"
+    citation: "260 U.S. 667"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1923"
-    citation: "260 U.S. 667"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-082"
@@ -6188,9 +8040,12 @@ cases:
     title: "Conley v. Barton"
     volume: "260"
     page: "677"
+    docket: "193"
+    citation: "260 U.S. 677"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1923"
-    citation: "260 U.S. 677"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-115"
@@ -6198,9 +8053,12 @@ cases:
     title: "Munter v. Weil Corset Co."
     volume: "261"
     page: "276"
+    docket: "255"
+    citation: "261 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1923"
-    citation: "261 U.S. 276"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-116"
@@ -6208,9 +8066,12 @@ cases:
     title: "Davis v. L. N. Dantzler Lumber Co."
     volume: "261"
     page: "280"
+    docket: "228"
+    citation: "261 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1923"
-    citation: "261 U.S. 280"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-122"
@@ -6218,9 +8079,12 @@ cases:
     title: "United States v. Allen"
     volume: "261"
     page: "317"
+    docket: "232"
+    citation: "261 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1923"
-    citation: "261 U.S. 317"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-123"
@@ -6228,9 +8092,12 @@ cases:
     title: "United States v. Moran"
     volume: "261"
     page: "321"
+    docket: "231"
+    citation: "261 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1923"
-    citation: "261 U.S. 321"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-130"
@@ -6238,9 +8105,12 @@ cases:
     title: "St. Louis-San Francisco R. Co. v. Public Serv. Comm&apos;n of Mo."
     volume: "261"
     page: "369"
+    docket: "284"
+    citation: "261 U.S. 369"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1923"
-    citation: "261 U.S. 369"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-139"
@@ -6248,9 +8118,12 @@ cases:
     title: "Page Co. v. Macdonald"
     volume: "261"
     page: "446"
+    docket: "308"
+    citation: "261 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1923"
-    citation: "261 U.S. 446"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-140"
@@ -6258,9 +8131,12 @@ cases:
     title: "Phipps v. Cleveland Refining Co. of Cleveland"
     volume: "261"
     page: "449"
+    docket: "324"
+    citation: "261 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1923"
-    citation: "261 U.S. 449"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-159"
@@ -6268,9 +8144,12 @@ cases:
     title: "Commercial Trust Co. of N. J. v. Miller"
     volume: "262"
     page: "051"
+    docket: "575"
+    citation: "262 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1923"
-    citation: "262 U.S. 51"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-160"
@@ -6278,9 +8157,12 @@ cases:
     title: "United States Trust Co. of N. Y. v. Miller"
     volume: "262"
     page: "058"
+    docket: "292"
+    citation: "262 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1923"
-    citation: "262 U.S. 58"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-161"
@@ -6288,9 +8170,12 @@ cases:
     title: "Ahrenfeldt v. Miller"
     volume: "262"
     page: "060"
+    docket: "576"
+    citation: "262 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1923"
-    citation: "262 U.S. 60"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-162"
@@ -6298,9 +8183,12 @@ cases:
     title: "United States v. Luskey"
     volume: "262"
     page: "062"
+    docket: "371"
+    citation: "262 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1923"
-    citation: "262 U.S. 62"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-163"
@@ -6308,9 +8196,12 @@ cases:
     title: "United States v. Mossel"
     volume: "262"
     page: "065"
+    docket: "372"
+    citation: "262 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1923"
-    citation: "262 U.S. 65"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1922-186"
@@ -6318,9 +8209,12 @@ cases:
     title: "Tulsidas v. Insular Collector of Customs"
     volume: "262"
     page: "258"
+    docket: "77"
+    citation: "262 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1923"
-    citation: "262 U.S. 258"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-002"
@@ -6328,9 +8222,12 @@ cases:
     title: "Brede v. Powers"
     volume: "263"
     page: "004"
+    docket: "45"
+    citation: "263 U.S. 4"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1923"
-    citation: "263 U.S. 4"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-003"
@@ -6338,9 +8235,12 @@ cases:
     title: "Wyman v. United States"
     volume: "263"
     page: "014"
+    docket: "140"
+    citation: "263 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1923"
-    citation: "263 U.S. 14"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-013"
@@ -6348,9 +8248,12 @@ cases:
     title: "Schwab v. Richardson"
     volume: "263"
     page: "088"
+    docket: "81"
+    citation: "263 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1923"
-    citation: "263 U.S. 88"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-014"
@@ -6358,9 +8261,12 @@ cases:
     title: "United States v. Slaymaker"
     volume: "263"
     page: "094"
+    docket: "87"
+    citation: "263 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1923"
-    citation: "263 U.S. 94"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-040"
@@ -6368,9 +8274,12 @@ cases:
     title: "Street v. Shipowners&apos; Assn. of Pacific Coast"
     volume: "263"
     page: "334"
+    docket: "156"
+    citation: "263 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Monday, November 26, 1923"
-    citation: "263 U.S. 334"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-047"
@@ -6378,9 +8287,12 @@ cases:
     title: "Ex parte United States"
     volume: "263"
     page: "389"
+    docket: "23 Orig."
+    citation: "263 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1923"
-    citation: "263 U.S. 389"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-048"
@@ -6388,9 +8300,12 @@ cases:
     title: "Lehmann v. State Bd. of Public Accountancy"
     volume: "263"
     page: "394"
+    docket: "170"
+    citation: "263 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1923"
-    citation: "263 U.S. 394"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-060"
@@ -6398,9 +8313,12 @@ cases:
     title: "Standard Parts Co. v. Peck"
     volume: "264"
     page: "052"
+    docket: "160"
+    citation: "264 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1924"
-    citation: "264 U.S. 52"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-083"
@@ -6408,9 +8326,12 @@ cases:
     title: "Erickson v. United States"
     volume: "264"
     page: "246"
+    docket: "125"
+    citation: "264 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1924"
-    citation: "264 U.S. 246"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-096"
@@ -6418,9 +8339,12 @@ cases:
     title: "Atchison, T. &amp; S. F. R. Co. v. Nichols"
     volume: "264"
     page: "348"
+    docket: "268"
+    citation: "264 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1924"
-    citation: "264 U.S. 348"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-097"
@@ -6428,9 +8352,12 @@ cases:
     title: "United States v. Gay"
     volume: "264"
     page: "353"
+    docket: "205"
+    citation: "264 U.S. 353"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1924"
-    citation: "264 U.S. 353"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-117"
@@ -6438,9 +8365,12 @@ cases:
     title: "Southeastern Express Co. v. Robertson"
     volume: "264"
     page: "535"
+    docket: "201"
+    citation: "264 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1924"
-    citation: "264 U.S. 535"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-118"
@@ -6448,9 +8378,12 @@ cases:
     title: "Southeastern Express Co. v. Robertson"
     volume: "264"
     page: "541"
+    docket: "216"
+    citation: "264 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1924"
-    citation: "264 U.S. 541"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-130"
@@ -6458,9 +8391,12 @@ cases:
     title: "Cook v. Tait"
     volume: "265"
     page: "047"
+    docket: "220"
+    citation: "265 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1924"
-    citation: "265 U.S. 47"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-149"
@@ -6468,9 +8404,12 @@ cases:
     title: "Illinois Central R. Co. v. United States"
     volume: "265"
     page: "209"
+    docket: "248"
+    citation: "265 U.S. 209"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1924"
-    citation: "265 U.S. 209"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-208"
@@ -6478,9 +8417,12 @@ cases:
     title: "Delaney v. United States"
     volume: "263"
     page: "586"
+    docket: "354"
+    citation: "263 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1924"
-    citation: "263 U.S. 586"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1923-209"
@@ -6488,9 +8430,12 @@ cases:
     title: "Banco Mexicano de Commercio e Industria v. Deutsche Bank"
     volume: "263"
     page: "591"
+    docket: "361"
+    citation: "263 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1924"
-    citation: "263 U.S. 591"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1924-013"
@@ -6498,9 +8443,12 @@ cases:
     title: "United States v. Childs"
     volume: "266"
     page: "304"
+    docket: "80"
+    citation: "266 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Monday, November 24, 1924"
-    citation: "266 U.S. 304"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1924-021"
@@ -6508,9 +8456,12 @@ cases:
     title: "National Paper &amp; Type Co. v. Bowers"
     volume: "266"
     page: "373"
+    docket: "320"
+    citation: "266 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1924"
-    citation: "266 U.S. 373"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1924-205"
@@ -6518,9 +8469,12 @@ cases:
     title: "Davis v. Manry"
     volume: "266"
     page: "401"
+    docket: "147"
+    citation: "266 U.S. 401"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1925"
-    citation: "266 U.S. 401"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmckenna
     authorName: "Joseph McKenna"
 ---

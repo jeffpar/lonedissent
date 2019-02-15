@@ -8,9 +8,11 @@ cases:
     title: "Brown v. United States"
     volume: "012"
     page: "110"
+    citation: "12 U.S. 110"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 2, 1814"
-    citation: "12 U.S. 110"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jstory
     dissenterName: "Joseph Story"
   - id: "1814-039"
@@ -18,9 +20,11 @@ cases:
     title: "United States v. 1960 Bags of Coffee"
     volume: "012"
     page: "398"
+    citation: "12 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 15, 1814"
-    citation: "12 U.S. 398"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: jstory
     dissenterName: "Joseph Story"
   - id: "1815-007"
@@ -28,9 +32,11 @@ cases:
     title: "Brig Short Staple v. United States"
     volume: "013"
     page: "055"
+    citation: "13 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Friday, February 17, 1815"
-    citation: "13 U.S. 55"
+    voteMajority: 4
+    voteMinority: 1
     dissenterId: jstory
     dissenterName: "Joseph Story"
   - id: "1815-039"
@@ -38,9 +44,11 @@ cases:
     title: "The Nereide"
     volume: "013"
     page: "388"
+    citation: "13 U.S. 388"
     pdfSource: "loc"
     dateDecision: "Saturday, March 11, 1815"
-    citation: "13 U.S. 388"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: jstory
     dissenterName: "Joseph Story"
   - id: "1830-007"
@@ -48,9 +56,11 @@ cases:
     title: "Inglis v. Trustees of Sailor&apos;s Snug Harbour in City of New York"
     volume: "028"
     page: "099"
+    citation: "28 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 2, 1830"
-    citation: "28 U.S. 99"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jstory
     dissenterName: "Joseph Story"
   - id: "1837-013"
@@ -58,9 +68,11 @@ cases:
     title: "Briscoe v. Bank of Kentucky"
     volume: "036"
     page: "257"
+    citation: "36 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Saturday, February 11, 1837"
-    citation: "36 U.S. 257"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jstory
     dissenterName: "Joseph Story"
   - id: "1837-016"
@@ -68,9 +80,11 @@ cases:
     title: "Mayor of New York v. Miln"
     volume: "036"
     page: "102"
+    citation: "36 U.S. 102"
     pdfSource: "loc"
     dateDecision: "Thursday, February 16, 1837"
-    citation: "36 U.S. 102"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jstory
     dissenterName: "Joseph Story"
 ---

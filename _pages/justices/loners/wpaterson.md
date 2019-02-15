@@ -8,9 +8,11 @@ cases:
     title: "Simms v. Slacum"
     volume: "007"
     page: "300"
+    citation: "7 U.S. 300"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1806"
-    citation: "7 U.S. 300"
+    voteMajority: 4
+    voteMinority: 1
     dissenterId: wpaterson
     dissenterName: "William Paterson"
 ---

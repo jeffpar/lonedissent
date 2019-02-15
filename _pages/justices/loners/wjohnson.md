@@ -8,9 +8,11 @@ cases:
     title: "Ex parte Bollman"
     volume: "008"
     page: "075"
+    citation: "8 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Friday, February 20, 1807"
-    citation: "8 U.S. 75"
+    voteMajority: 3
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1808-001"
@@ -18,9 +20,11 @@ cases:
     title: "Rose v. Himely"
     volume: "008"
     page: "241"
+    citation: "8 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 2, 1808"
-    citation: "8 U.S. 241"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1809-023"
@@ -28,9 +32,11 @@ cases:
     title: "Young v. Bank of Alexandria"
     volume: "009"
     page: "045"
+    citation: "9 U.S. 45"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1809"
-    citation: "9 U.S. 45"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1809-024"
@@ -38,9 +44,11 @@ cases:
     title: "Yeaton v. Bank of Alexandria"
     volume: "009"
     page: "049"
+    citation: "9 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1809"
-    citation: "9 U.S. 49"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1809-025"
@@ -48,9 +56,11 @@ cases:
     title: "Himely v. Rose"
     volume: "009"
     page: "313"
+    citation: "9 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1809"
-    citation: "9 U.S. 313"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1809-028"
@@ -58,9 +68,11 @@ cases:
     title: "Pierce v. Turner"
     volume: "009"
     page: "154"
+    citation: "9 U.S. 154"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1809"
-    citation: "9 U.S. 154"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1810-027"
@@ -68,9 +80,11 @@ cases:
     title: "Fletcher v. Peck"
     volume: "010"
     page: "087"
+    citation: "10 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1810"
-    citation: "10 U.S. 87"
+    voteMajority: 4
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1812-010"
@@ -78,9 +92,11 @@ cases:
     title: "Schooner Paulina&apos;s Cargo v. United States"
     volume: "011"
     page: "052"
+    citation: "11 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Friday, February 21, 1812"
-    citation: "11 U.S. 52"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1813-015"
@@ -88,9 +104,11 @@ cases:
     title: "Herbert v. Wren"
     volume: "011"
     page: "370"
+    citation: "11 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Friday, February 26, 1813"
-    citation: "11 U.S. 370"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1813-029"
@@ -98,9 +116,11 @@ cases:
     title: "Mills v. Duryee"
     volume: "011"
     page: "481"
+    citation: "11 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Thursday, March 11, 1813"
-    citation: "11 U.S. 481"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1813-034"
@@ -108,9 +128,11 @@ cases:
     title: "Fairfax&apos;s Devisee v. Hunter&apos;s Lessee"
     volume: "011"
     page: "603"
+    citation: "11 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1813"
-    citation: "11 U.S. 603"
+    voteMajority: 3
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1818-024"
@@ -118,9 +140,11 @@ cases:
     title: "The Aeolus"
     volume: "016"
     page: "392"
+    citation: "16 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Friday, February 27, 1818"
-    citation: "16 U.S. 392"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1818-038"
@@ -128,9 +152,11 @@ cases:
     title: "United States v. Palmer"
     volume: "016"
     page: "610"
+    citation: "16 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Saturday, March 14, 1818"
-    citation: "16 U.S. 610"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1820-018"
@@ -138,9 +164,11 @@ cases:
     title: "Blake v. Doherty"
     volume: "018"
     page: "359"
+    citation: "18 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1820"
-    citation: "18 U.S. 359"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1821-010"
@@ -148,9 +176,11 @@ cases:
     title: "The Amiable Isabella"
     volume: "019"
     page: "001"
+    citation: "19 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Thursday, February 22, 1821"
-    citation: "19 U.S. 1"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1823-006"
@@ -158,9 +188,11 @@ cases:
     title: "Green v. Biddle"
     volume: "021"
     page: "001"
+    citation: "21 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Thursday, February 27, 1823"
-    citation: "21 U.S. 1"
+    voteMajority: 4
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1823-018"
@@ -168,9 +200,11 @@ cases:
     title: "The Luminary"
     volume: "021"
     page: "407"
+    citation: "21 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Friday, March 7, 1823"
-    citation: "21 U.S. 407"
+    voteMajority: 4
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1823-019"
@@ -178,9 +212,11 @@ cases:
     title: "Wormley v. Wormley"
     volume: "021"
     page: "421"
+    citation: "21 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 12, 1823"
-    citation: "21 U.S. 421"
+    voteMajority: 4
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1823-021"
@@ -188,9 +224,11 @@ cases:
     title: "Daly&apos;s Lessee v. James"
     volume: "021"
     page: "495"
+    citation: "21 U.S. 495"
     pdfSource: "loc"
     dateDecision: "Thursday, March 13, 1823"
-    citation: "21 U.S. 495"
+    voteMajority: 4
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1824-002"
@@ -198,9 +236,11 @@ cases:
     title: "Kirk v. Smith"
     volume: "022"
     page: "241"
+    citation: "22 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Monday, February 16, 1824"
-    citation: "22 U.S. 241"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1824-011"
@@ -208,9 +248,11 @@ cases:
     title: "Miller v. Stewart"
     volume: "022"
     page: "680"
+    citation: "22 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Saturday, February 28, 1824"
-    citation: "22 U.S. 680"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1824-033"
@@ -218,9 +260,11 @@ cases:
     title: "Osborn v. Bank of United States"
     volume: "022"
     page: "738"
+    citation: "22 U.S. 738"
     pdfSource: "loc"
     dateDecision: "Friday, March 19, 1824"
-    citation: "22 U.S. 738"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1824-035"
@@ -228,9 +272,11 @@ cases:
     title: "Bank of United States v. Planters&apos; Bank of Georgia"
     volume: "022"
     page: "904"
+    citation: "22 U.S. 904"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1824"
-    citation: "22 U.S. 904"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1827-035"
@@ -238,9 +284,11 @@ cases:
     title: "Columbian Ins. Co. v. Catlett"
     volume: "025"
     page: "383"
+    citation: "25 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Friday, March 9, 1827"
-    citation: "25 U.S. 383"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1828-011"
@@ -248,9 +296,11 @@ cases:
     title: "Minor v. Mechanics Bank of Alexandria"
     volume: "026"
     page: "046"
+    citation: "26 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 5, 1828"
-    citation: "26 U.S. 46"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1828-033"
@@ -258,9 +308,11 @@ cases:
     title: "Doe v. Grymes"
     volume: "026"
     page: "469"
+    citation: "26 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1828"
-    citation: "26 U.S. 469"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1830-009"
@@ -268,9 +320,11 @@ cases:
     title: "Shanks v. Dupont"
     volume: "028"
     page: "242"
+    citation: "28 U.S. 242"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 2, 1830"
-    citation: "28 U.S. 242"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1830-010"
@@ -278,9 +332,11 @@ cases:
     title: "Finlay v. King&apos;s Lessee"
     volume: "028"
     page: "346"
+    citation: "28 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 2, 1830"
-    citation: "28 U.S. 346"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1830-023"
@@ -288,9 +344,11 @@ cases:
     title: "Willison v. Watkins"
     volume: "028"
     page: "043"
+    citation: "28 U.S. 43"
     pdfSource: "loc"
     dateDecision: "Saturday, February 20, 1830"
-    citation: "28 U.S. 43"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
   - id: "1831-022"
@@ -298,9 +356,11 @@ cases:
     title: "Doe v. Winn"
     volume: "030"
     page: "233"
+    citation: "30 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1831"
-    citation: "30 U.S. 233"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: wjohnson
     dissenterName: "William Johnson"
 ---

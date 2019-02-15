@@ -8,9 +8,12 @@ cases:
     title: "Voris v. Eikel"
     volume: "346"
     page: "328"
+    docket: "20"
+    citation: "346 U.S. 328"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1953"
-    citation: "346 U.S. 328"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1953-034"
@@ -18,9 +21,12 @@ cases:
     title: "Pereira v. United States"
     volume: "347"
     page: "001"
+    docket: "50"
+    citation: "347 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1954"
-    citation: "347 U.S. 1"
+    voteMajority: 5
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1953-044"
@@ -28,9 +34,12 @@ cases:
     title: "United States v. Binghamton Constr. Co."
     volume: "347"
     page: "171"
+    docket: "65"
+    citation: "347 U.S. 171"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1954"
-    citation: "347 U.S. 171"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1953-055"
@@ -38,9 +47,12 @@ cases:
     title: "FCC v. American Broadcasting Co."
     volume: "347"
     page: "284"
+    docket: "117"
+    citation: "347 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1954"
-    citation: "347 U.S. 284"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1953-068"
@@ -48,9 +60,12 @@ cases:
     title: "Hernandez v. Texas"
     volume: "347"
     page: "475"
+    docket: "406"
+    citation: "347 U.S. 475"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1954"
-    citation: "347 U.S. 475"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1953-069"
@@ -58,9 +73,12 @@ cases:
     title: "Brown v. Board of Education"
     volume: "347"
     page: "483"
+    docket: "1"
+    citation: "347 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1954"
-    citation: "347 U.S. 483"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1953-070"
@@ -68,9 +86,12 @@ cases:
     title: "Bolling v. Sharpe"
     volume: "347"
     page: "497"
+    docket: "8"
+    citation: "347 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1954"
-    citation: "347 U.S. 497"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1953-080"
@@ -78,9 +99,12 @@ cases:
     title: "United States v. Harriss"
     volume: "347"
     page: "612"
+    docket: "32"
+    citation: "347 U.S. 612"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1954"
-    citation: "347 U.S. 612"
+    voteMajority: 5
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1953-081"
@@ -88,9 +112,12 @@ cases:
     title: "Barber v. Gonzales"
     volume: "347"
     page: "637"
+    docket: "431"
+    citation: "347 U.S. 637"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1954"
-    citation: "347 U.S. 637"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1954-002"
@@ -98,9 +125,12 @@ cases:
     title: "Chandler v. Fretag"
     volume: "348"
     page: "003"
+    docket: "39"
+    citation: "348 U.S. 3"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1954"
-    citation: "348 U.S. 3"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1954-007"
@@ -108,9 +138,12 @@ cases:
     title: "Lumbermen&apos;s Mut. Casualty Co. v. Elbert"
     volume: "348"
     page: "048"
+    docket: "11"
+    citation: "348 U.S. 48"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1954"
-    citation: "348 U.S. 48"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1954-026"
@@ -118,9 +151,12 @@ cases:
     title: "United States v. Shubert"
     volume: "348"
     page: "222"
+    docket: "36"
+    citation: "348 U.S. 222"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1955"
-    citation: "348 U.S. 222"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1954-027"
@@ -128,9 +164,12 @@ cases:
     title: "United States v. International Boxing Club of N. Y., Inc."
     volume: "348"
     page: "236"
+    docket: "53"
+    citation: "348 U.S. 236"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1955"
-    citation: "348 U.S. 236"
+    voteMajority: 6
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1954-042"
@@ -138,9 +177,12 @@ cases:
     title: "Commissioner v. Glenshaw Glass Co."
     volume: "348"
     page: "426"
+    docket: "199"
+    citation: "348 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1955"
-    citation: "348 U.S. 426"
+    voteMajority: 7
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1954-043"
@@ -148,9 +190,12 @@ cases:
     title: "General American Investors Co. v. Commissioner"
     volume: "348"
     page: "434"
+    docket: "114"
+    citation: "348 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1955"
-    citation: "348 U.S. 434"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1954-078"
@@ -158,9 +203,12 @@ cases:
     title: "Quinn v. United States"
     volume: "349"
     page: "155"
+    docket: "8"
+    citation: "349 U.S. 155"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1955"
-    citation: "349 U.S. 155"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1954-079"
@@ -168,9 +216,12 @@ cases:
     title: "Emspak v. United States"
     volume: "349"
     page: "190"
+    docket: "9"
+    citation: "349 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1955"
-    citation: "349 U.S. 190"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1954-080"
@@ -178,9 +229,12 @@ cases:
     title: "Bart v. United States"
     volume: "349"
     page: "219"
+    docket: "117"
+    citation: "349 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1955"
-    citation: "349 U.S. 219"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1954-085"
@@ -188,9 +242,12 @@ cases:
     title: "Brown v. Board of Education"
     volume: "349"
     page: "294"
+    docket: "1"
+    citation: "349 U.S. 294"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1955"
-    citation: "349 U.S. 294"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1954-087"
@@ -198,9 +255,12 @@ cases:
     title: "Lawlor v. National Screen Service Corp."
     volume: "349"
     page: "322"
+    docket: "163"
+    citation: "349 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1955"
-    citation: "349 U.S. 322"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1954-088"
@@ -208,9 +268,12 @@ cases:
     title: "Peters v. Hobby"
     volume: "349"
     page: "331"
+    docket: "376"
+    citation: "349 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1955"
-    citation: "349 U.S. 331"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1955-012"
@@ -218,9 +281,12 @@ cases:
     title: "NLRB v. Warren Co."
     volume: "350"
     page: "107"
+    docket: "27"
+    citation: "350 U.S. 107"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1955"
-    citation: "350 U.S. 107"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1955-023"
@@ -228,9 +294,12 @@ cases:
     title: "Steiner v. Mitchell"
     volume: "350"
     page: "247"
+    docket: "22"
+    citation: "350 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1956"
-    citation: "350 U.S. 247"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1955-024"
@@ -238,9 +307,12 @@ cases:
     title: "Mitchell v. King Packing Co."
     volume: "350"
     page: "260"
+    docket: "39"
+    citation: "350 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1956"
-    citation: "350 U.S. 260"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1955-049"
@@ -248,9 +320,12 @@ cases:
     title: "Pennsylvania v. Nelson"
     volume: "350"
     page: "497"
+    docket: "10"
+    citation: "350 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1956"
-    citation: "350 U.S. 497"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1955-065"
@@ -258,9 +333,12 @@ cases:
     title: "Squire v. Capoeman"
     volume: "351"
     page: "001"
+    docket: "134"
+    citation: "351 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1956"
-    citation: "351 U.S. 1"
+    voteMajority: 7
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1955-072"
@@ -268,9 +346,12 @@ cases:
     title: "United States v. Zucca"
     volume: "351"
     page: "091"
+    docket: "213"
+    citation: "351 U.S. 91"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1956"
-    citation: "351 U.S. 91"
+    voteMajority: 5
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1955-076"
@@ -278,9 +359,12 @@ cases:
     title: "Covey v. Town of Somers"
     volume: "351"
     page: "141"
+    docket: "380"
+    citation: "351 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1956"
-    citation: "351 U.S. 141"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1955-089"
@@ -288,9 +372,12 @@ cases:
     title: "United States v. McKesson &amp; Robbins, Inc."
     volume: "351"
     page: "305"
+    docket: "448"
+    citation: "351 U.S. 305"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1956"
-    citation: "351 U.S. 305"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1956-001"
@@ -298,9 +385,12 @@ cases:
     title: "Mesarosh v. United States"
     volume: "352"
     page: "001"
+    docket: "20"
+    citation: "352 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1956"
-    citation: "352 U.S. 1"
+    voteMajority: 5
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1956-011"
@@ -308,9 +398,12 @@ cases:
     title: "Nelson v. City of New York"
     volume: "352"
     page: "103"
+    docket: "30"
+    citation: "352 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1956"
-    citation: "352 U.S. 103"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1956-019"
@@ -318,9 +411,12 @@ cases:
     title: "Fikes v. Alabama"
     volume: "352"
     page: "191"
+    docket: "53"
+    citation: "352 U.S. 191"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1957"
-    citation: "352 U.S. 191"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1956-027"
@@ -328,9 +424,12 @@ cases:
     title: "NLRB v. Lion Oil Co."
     volume: "352"
     page: "282"
+    docket: "4"
+    citation: "352 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 22, 1957"
-    citation: "352 U.S. 282"
+    voteMajority: 6
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1956-033"
@@ -338,9 +437,12 @@ cases:
     title: "Prince v. United States"
     volume: "352"
     page: "322"
+    docket: "132"
+    citation: "352 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1957"
-    citation: "352 U.S. 322"
+    voteMajority: 7
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1956-057"
@@ -348,9 +450,12 @@ cases:
     title: "Guss v. Utah Labor Relations Bd."
     volume: "353"
     page: "001"
+    docket: "280"
+    citation: "353 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1957"
-    citation: "353 U.S. 1"
+    voteMajority: 6
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1956-058"
@@ -358,9 +463,12 @@ cases:
     title: "Meat Cutters v. Fairlawn Meats, Inc."
     volume: "353"
     page: "020"
+    docket: "41"
+    citation: "353 U.S. 20"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1957"
-    citation: "353 U.S. 20"
+    voteMajority: 6
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1956-059"
@@ -368,9 +476,12 @@ cases:
     title: "San Diego Building Trades Council v. Garmon"
     volume: "353"
     page: "026"
+    docket: "50"
+    citation: "353 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1957"
-    citation: "353 U.S. 26"
+    voteMajority: 6
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1956-060"
@@ -378,9 +489,12 @@ cases:
     title: "Trainmen v. Chicago R. &amp; I. R. Co."
     volume: "353"
     page: "030"
+    docket: "313"
+    citation: "353 U.S. 30"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1957"
-    citation: "353 U.S. 30"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1956-108"
@@ -388,9 +502,12 @@ cases:
     title: "Watkins v. United States"
     volume: "354"
     page: "178"
+    docket: "261"
+    citation: "354 U.S. 178"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1957"
-    citation: "354 U.S. 178"
+    voteMajority: 6
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1956-109"
@@ -398,9 +515,12 @@ cases:
     title: "Sweezy v. New Hampshire"
     volume: "354"
     page: "234"
+    docket: "175"
+    citation: "354 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1957"
-    citation: "354 U.S. 234"
+    voteMajority: 6
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1956-124"
@@ -408,9 +528,12 @@ cases:
     title: "Carroll v. United States"
     volume: "354"
     page: "394"
+    docket: "571"
+    citation: "354 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, June 24, 1957"
-    citation: "354 U.S. 394"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1957-012"
@@ -418,9 +541,12 @@ cases:
     title: "Schaffer Transp. Co. v. United States"
     volume: "355"
     page: "083"
+    docket: "20"
+    citation: "355 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1957"
-    citation: "355 U.S. 83"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1957-013"
@@ -428,9 +554,12 @@ cases:
     title: "Benanti v. United States"
     volume: "355"
     page: "096"
+    docket: "231"
+    citation: "355 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1957"
-    citation: "355 U.S. 96"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1957-014"
@@ -438,9 +567,12 @@ cases:
     title: "Rathbun v. United States"
     volume: "355"
     page: "107"
+    docket: "30"
+    citation: "355 U.S. 107"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1957"
-    citation: "355 U.S. 107"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1957-072"
@@ -448,9 +580,12 @@ cases:
     title: "Trop v. Dulles"
     volume: "356"
     page: "086"
+    docket: "70"
+    citation: "356 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1958"
-    citation: "356 U.S. 86"
+    voteMajority: 5
+    voteMinority: 4
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1957-073"
@@ -458,9 +593,12 @@ cases:
     title: "Nishikawa v. Dulles"
     volume: "356"
     page: "129"
+    docket: "19"
+    citation: "356 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1958"
-    citation: "356 U.S. 129"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1957-081"
@@ -468,9 +606,12 @@ cases:
     title: "Fidelity-Philadelphia Trust Co. v. Smith"
     volume: "356"
     page: "274"
+    docket: "130"
+    citation: "356 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1958"
-    citation: "356 U.S. 274"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1957-089"
@@ -478,9 +619,12 @@ cases:
     title: "Sherman v. United States"
     volume: "356"
     page: "369"
+    docket: "87"
+    citation: "356 U.S. 369"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1958"
-    citation: "356 U.S. 369"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1957-090"
@@ -488,9 +632,12 @@ cases:
     title: "Masciale v. United States"
     volume: "356"
     page: "386"
+    docket: "84"
+    citation: "356 U.S. 386"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1958"
-    citation: "356 U.S. 386"
+    voteMajority: 5
+    voteMinority: 4
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1957-118"
@@ -498,9 +645,12 @@ cases:
     title: "Flora v. United States"
     volume: "357"
     page: "063"
+    docket: "492"
+    citation: "357 U.S. 63"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1958"
-    citation: "357 U.S. 63"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1957-128"
@@ -508,9 +658,12 @@ cases:
     title: "McAllister v. Magnolia Petroleum Co."
     volume: "357"
     page: "221"
+    docket: "83"
+    citation: "357 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1958"
-    citation: "357 U.S. 221"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1957-129"
@@ -518,9 +671,12 @@ cases:
     title: "Hanson v. Denckla"
     volume: "357"
     page: "235"
+    docket: "107"
+    citation: "357 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1958"
-    citation: "357 U.S. 235"
+    voteMajority: 5
+    voteMinority: 4
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1958-018"
@@ -528,9 +684,12 @@ cases:
     title: "American Trucking Assns., Inc. v. Frisco Transp. Co."
     volume: "358"
     page: "133"
+    docket: "15"
+    citation: "358 U.S. 133"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1958"
-    citation: "358 U.S. 133"
+    voteMajority: 7
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1958-024"
@@ -538,9 +697,12 @@ cases:
     title: "Mitchell v. Lublin, McGaughy &amp; Associates"
     volume: "358"
     page: "207"
+    docket: "37"
+    citation: "358 U.S. 207"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1959"
-    citation: "358 U.S. 207"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1958-037"
@@ -548,9 +710,12 @@ cases:
     title: "United States v. Radio Corp. of America"
     volume: "358"
     page: "334"
+    docket: "54"
+    citation: "358 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1959"
-    citation: "358 U.S. 334"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1958-080"
@@ -558,9 +723,12 @@ cases:
     title: "United States v. Isthmian S. S. Co."
     volume: "359"
     page: "314"
+    docket: "285"
+    citation: "359 U.S. 314"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1959"
-    citation: "359 U.S. 314"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1958-088"
@@ -568,9 +736,12 @@ cases:
     title: "Dick v. New York Life Ins. Co."
     volume: "359"
     page: "437"
+    docket: "58"
+    citation: "359 U.S. 437"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1959"
-    citation: "359 U.S. 437"
+    voteMajority: 6
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1958-096"
@@ -578,9 +749,12 @@ cases:
     title: "Smith v. United States"
     volume: "360"
     page: "001"
+    docket: "90"
+    citation: "360 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1959"
-    citation: "360 U.S. 1"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1958-110"
@@ -588,9 +762,12 @@ cases:
     title: "Burns v. Ohio"
     volume: "360"
     page: "252"
+    docket: "581"
+    citation: "360 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1959"
-    citation: "360 U.S. 252"
+    voteMajority: 6
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1958-111"
@@ -598,9 +775,12 @@ cases:
     title: "Napue v. Illinois"
     volume: "360"
     page: "264"
+    docket: "583"
+    citation: "360 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1959"
-    citation: "360 U.S. 264"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1958-116"
@@ -608,9 +788,12 @@ cases:
     title: "Spano v. New York"
     volume: "360"
     page: "315"
+    docket: "582"
+    citation: "360 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1959"
-    citation: "360 U.S. 315"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1958-127"
@@ -618,9 +801,12 @@ cases:
     title: "Greene v. McElroy"
     volume: "360"
     page: "474"
+    docket: "180"
+    citation: "360 U.S. 474"
     pdfSource: "loc"
     dateDecision: "Monday, June 29, 1959"
-    citation: "360 U.S. 474"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1959-016"
@@ -628,9 +814,12 @@ cases:
     title: "Blackburn v. Alabama"
     volume: "361"
     page: "199"
+    docket: "50"
+    citation: "361 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1960"
-    citation: "361 U.S. 199"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1959-030"
@@ -638,9 +827,12 @@ cases:
     title: "Phillips Chemical Co. v. Dumas Independent School Dist."
     volume: "361"
     page: "376"
+    docket: "40"
+    citation: "361 U.S. 376"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1960"
-    citation: "361 U.S. 376"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1959-031"
@@ -648,9 +840,12 @@ cases:
     title: "Arnold v. Ben Kanowsky, Inc."
     volume: "361"
     page: "388"
+    docket: "60"
+    citation: "361 U.S. 388"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1960"
-    citation: "361 U.S. 388"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1959-047"
@@ -658,9 +853,12 @@ cases:
     title: "Flora v. United States"
     volume: "362"
     page: "145"
+    docket: "492"
+    citation: "362 U.S. 145"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1960"
-    citation: "362 U.S. 145"
+    voteMajority: 5
+    voteMinority: 4
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1959-093"
@@ -668,9 +866,12 @@ cases:
     title: "United States v. Manufacturers Nat. Bank of Detroit"
     volume: "363"
     page: "194"
+    docket: "350"
+    citation: "363 U.S. 194"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1960"
-    citation: "363 U.S. 194"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1959-105"
@@ -678,9 +879,12 @@ cases:
     title: "Hannah v. Larche"
     volume: "363"
     page: "420"
+    docket: "549"
+    citation: "363 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1960"
-    citation: "363 U.S. 420"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1959-106"
@@ -688,9 +892,12 @@ cases:
     title: "Aquilino v. United States"
     volume: "363"
     page: "509"
+    docket: "1"
+    citation: "363 U.S. 509"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1960"
-    citation: "363 U.S. 509"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1959-107"
@@ -698,9 +905,12 @@ cases:
     title: "United States v. Durham Lumber Co."
     volume: "363"
     page: "522"
+    docket: "23"
+    citation: "363 U.S. 522"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1960"
-    citation: "363 U.S. 522"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1959-108"
@@ -708,9 +918,12 @@ cases:
     title: "Locomotive Engineers v. Missouri-Kansas-Texas R. Co."
     volume: "363"
     page: "528"
+    docket: "165"
+    citation: "363 U.S. 528"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1960"
-    citation: "363 U.S. 528"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1959-109"
@@ -718,9 +931,12 @@ cases:
     title: "FTC v. Anheuser-Busch, Inc."
     volume: "363"
     page: "536"
+    docket: "389"
+    citation: "363 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1960"
-    citation: "363 U.S. 536"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1959-120"
@@ -728,9 +944,12 @@ cases:
     title: "American Trucking Assns., Inc. v. United States"
     volume: "364"
     page: "001"
+    docket: "74"
+    citation: "364 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 27, 1960"
-    citation: "364 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1960-001"
@@ -738,9 +957,12 @@ cases:
     title: "United States v. John Hancock Mut. Life Ins. Co."
     volume: "364"
     page: "301"
+    docket: "18"
+    citation: "364 U.S. 301"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1960"
-    citation: "364 U.S. 301"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1960-023"
@@ -748,9 +970,12 @@ cases:
     title: "United States v. Mississippi Valley Generating Co."
     volume: "364"
     page: "520"
+    docket: "26"
+    citation: "364 U.S. 520"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1961"
-    citation: "364 U.S. 520"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1960-032"
@@ -758,9 +983,12 @@ cases:
     title: "FPC v. Transcontinental Gas Pipe Line Corp."
     volume: "365"
     page: "001"
+    docket: "45"
+    citation: "365 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1961"
-    citation: "365 U.S. 1"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1960-084"
@@ -768,9 +996,12 @@ cases:
     title: "Maintenance of Way Employes v. United States"
     volume: "366"
     page: "169"
+    docket: "681"
+    citation: "366 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1961"
-    citation: "366 U.S. 169"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1960-090"
@@ -778,9 +1009,12 @@ cases:
     title: "James v. United States"
     volume: "366"
     page: "213"
+    docket: "63"
+    citation: "366 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1961"
-    citation: "366 U.S. 213"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1960-102"
@@ -788,9 +1022,12 @@ cases:
     title: "McGowan v. Maryland"
     volume: "366"
     page: "420"
+    docket: "8"
+    citation: "366 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1961"
-    citation: "366 U.S. 420"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1960-103"
@@ -798,9 +1035,12 @@ cases:
     title: "Gallagher v. Crown Kosher Super Market of Mass., Inc."
     volume: "366"
     page: "617"
+    docket: "11"
+    citation: "366 U.S. 617"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1961"
-    citation: "366 U.S. 617"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1960-104"
@@ -808,9 +1048,12 @@ cases:
     title: "Two Guys from Harrison-Allentown, Inc. v. McGinley"
     volume: "366"
     page: "582"
+    docket: "36"
+    citation: "366 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1961"
-    citation: "366 U.S. 582"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1960-105"
@@ -818,9 +1061,12 @@ cases:
     title: "Braunfeld v. Brown"
     volume: "366"
     page: "599"
+    docket: "67"
+    citation: "366 U.S. 599"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1961"
-    citation: "366 U.S. 599"
+    voteMajority: 5
+    voteMinority: 4
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1960-119"
@@ -828,9 +1074,12 @@ cases:
     title: "Jarecki v. G. D. Searle &amp; Co."
     volume: "367"
     page: "303"
+    docket: "151"
+    citation: "367 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1961"
-    citation: "367 U.S. 303"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1960-120"
@@ -838,9 +1087,12 @@ cases:
     title: "CAB v. Delta Air Lines, Inc."
     volume: "367"
     page: "316"
+    docket: "492"
+    citation: "367 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1961"
-    citation: "367 U.S. 316"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1961-009"
@@ -848,9 +1100,12 @@ cases:
     title: "Federal Land Bank of Wichita v. Board of Comm&apos;rs of Kiowa Cty."
     volume: "368"
     page: "146"
+    docket: "25"
+    citation: "368 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1961"
-    citation: "368 U.S. 146"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1961-010"
@@ -858,9 +1113,12 @@ cases:
     title: "Garner v. Louisiana"
     volume: "368"
     page: "157"
+    docket: "26"
+    citation: "368 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1961"
-    citation: "368 U.S. 157"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1961-037"
@@ -868,9 +1126,12 @@ cases:
     title: "Richards v. United States"
     volume: "369"
     page: "001"
+    docket: "59"
+    citation: "369 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1962"
-    citation: "369 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1961-058"
@@ -878,9 +1139,12 @@ cases:
     title: "Coppedge v. United States"
     volume: "369"
     page: "438"
+    docket: "157"
+    citation: "369 U.S. 438"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1962"
-    citation: "369 U.S. 438"
+    voteMajority: 5
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1961-071"
@@ -888,9 +1152,12 @@ cases:
     title: "Free v. Bland"
     volume: "369"
     page: "663"
+    docket: "205"
+    citation: "369 U.S. 663"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1962"
-    citation: "369 U.S. 663"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1961-072"
@@ -898,9 +1165,12 @@ cases:
     title: "Hanover Bank v. Commissioner"
     volume: "369"
     page: "672"
+    docket: "224"
+    citation: "369 U.S. 672"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1962"
-    citation: "369 U.S. 672"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1961-081"
@@ -908,9 +1178,12 @@ cases:
     title: "Enochs v. Williams Packing &amp; Nav. Co."
     volume: "370"
     page: "001"
+    docket: "493"
+    citation: "370 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1962"
-    citation: "370 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1961-102"
@@ -918,9 +1191,12 @@ cases:
     title: "Brown Shoe Co. v. United States"
     volume: "370"
     page: "294"
+    docket: "4"
+    citation: "370 U.S. 294"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1962"
-    citation: "370 U.S. 294"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1961-103"
@@ -928,9 +1204,12 @@ cases:
     title: "Wood v. Georgia"
     volume: "370"
     page: "375"
+    docket: "369"
+    citation: "370 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1962"
-    citation: "370 U.S. 375"
+    voteMajority: 5
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1961-104"
@@ -938,9 +1217,12 @@ cases:
     title: "United States v. Wise"
     volume: "370"
     page: "405"
+    docket: "488"
+    citation: "370 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1962"
-    citation: "370 U.S. 405"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1962-012"
@@ -948,9 +1230,12 @@ cases:
     title: "Gilbertville Trucking Co. v. United States"
     volume: "371"
     page: "115"
+    docket: "40"
+    citation: "371 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1962"
-    citation: "371 U.S. 115"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1962-039"
@@ -958,9 +1243,12 @@ cases:
     title: "New Jersey v. New York, S. &amp; W. R. Co."
     volume: "372"
     page: "001"
+    docket: "104"
+    citation: "372 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1963"
-    citation: "372 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1962-057"
@@ -968,9 +1256,12 @@ cases:
     title: "Townsend v. Sain"
     volume: "372"
     page: "293"
+    docket: "8"
+    citation: "372 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1963"
-    citation: "372 U.S. 293"
+    voteMajority: 5
+    voteMinority: 4
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1962-095"
@@ -978,9 +1269,12 @@ cases:
     title: "Halliburton Oil Well Cementing Co. v. Reily"
     volume: "373"
     page: "064"
+    docket: "24"
+    citation: "373 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1963"
-    citation: "373 U.S. 64"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1962-105"
@@ -988,9 +1282,12 @@ cases:
     title: "Peterson v. Greenville"
     volume: "373"
     page: "244"
+    docket: "71"
+    citation: "373 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1963"
-    citation: "373 U.S. 244"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1962-106"
@@ -998,9 +1295,12 @@ cases:
     title: "Shuttlesworth v. Birmingham"
     volume: "373"
     page: "262"
+    docket: "67"
+    citation: "373 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1963"
-    citation: "373 U.S. 262"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1962-107"
@@ -1008,9 +1308,12 @@ cases:
     title: "Lombard v. Louisiana"
     volume: "373"
     page: "267"
+    docket: "58"
+    citation: "373 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1963"
-    citation: "373 U.S. 267"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1962-108"
@@ -1018,9 +1321,12 @@ cases:
     title: "Wright v. Georgia"
     volume: "373"
     page: "284"
+    docket: "68"
+    citation: "373 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1963"
-    citation: "373 U.S. 284"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1962-117"
@@ -1028,9 +1334,12 @@ cases:
     title: "Sperry v. Florida ex rel. Florida Bar"
     volume: "373"
     page: "379"
+    docket: "322"
+    citation: "373 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1963"
-    citation: "373 U.S. 379"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1962-137"
@@ -1038,9 +1347,12 @@ cases:
     title: "Shenker v. Baltimore &amp; Ohio R. Co."
     volume: "374"
     page: "001"
+    docket: "414"
+    citation: "374 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1963"
-    citation: "374 U.S. 1"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1962-144"
@@ -1048,9 +1360,12 @@ cases:
     title: "Yellin v. United States"
     volume: "374"
     page: "109"
+    docket: "35"
+    citation: "374 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1963"
-    citation: "374 U.S. 109"
+    voteMajority: 5
+    voteMinority: 4
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1962-145"
@@ -1058,9 +1373,12 @@ cases:
     title: "United States v. Muniz"
     volume: "374"
     page: "150"
+    docket: "464"
+    citation: "374 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1963"
-    citation: "374 U.S. 150"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1963-019"
@@ -1068,9 +1386,12 @@ cases:
     title: "Fahy v. Connecticut"
     volume: "375"
     page: "085"
+    docket: "19"
+    citation: "375 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1963"
-    citation: "375 U.S. 85"
+    voteMajority: 5
+    voteMinority: 4
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1963-030"
@@ -1078,9 +1399,12 @@ cases:
     title: "Foti v. INS"
     volume: "375"
     page: "217"
+    docket: "28"
+    citation: "375 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1963"
-    citation: "375 U.S. 217"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1963-076"
@@ -1088,9 +1412,12 @@ cases:
     title: "Bruning v. United States"
     volume: "376"
     page: "358"
+    docket: "423"
+    citation: "376 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1964"
-    citation: "376 U.S. 358"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1963-140"
@@ -1098,9 +1425,12 @@ cases:
     title: "Reynolds v. Sims"
     volume: "377"
     page: "533"
+    docket: "23"
+    citation: "377 U.S. 533"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1964"
-    citation: "377 U.S. 533"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1963-141"
@@ -1108,9 +1438,12 @@ cases:
     title: "WMCA, Inc. v. Lomenzo"
     volume: "377"
     page: "633"
+    docket: "20"
+    citation: "377 U.S. 633"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1964"
-    citation: "377 U.S. 633"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1963-142"
@@ -1118,9 +1451,12 @@ cases:
     title: "Maryland Comm. for Fair Representation v. Tawes"
     volume: "377"
     page: "656"
+    docket: "29"
+    citation: "377 U.S. 656"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1964"
-    citation: "377 U.S. 656"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1963-143"
@@ -1128,9 +1464,12 @@ cases:
     title: "Davis v. Mann"
     volume: "377"
     page: "678"
+    docket: "69"
+    citation: "377 U.S. 678"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1964"
-    citation: "377 U.S. 678"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1963-144"
@@ -1138,9 +1477,12 @@ cases:
     title: "Roman v. Sincock"
     volume: "377"
     page: "695"
+    docket: "307"
+    citation: "377 U.S. 695"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1964"
-    citation: "377 U.S. 695"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1963-145"
@@ -1148,9 +1490,12 @@ cases:
     title: "Lucas v. Forty-Fourth Gen. Assembly of Colo."
     volume: "377"
     page: "713"
+    docket: "508"
+    citation: "377 U.S. 713"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1964"
-    citation: "377 U.S. 713"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1963-152"
@@ -1158,9 +1503,12 @@ cases:
     title: "Griffin v. Maryland"
     volume: "378"
     page: "130"
+    docket: "6"
+    citation: "378 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1964"
-    citation: "378 U.S. 130"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1963-153"
@@ -1168,9 +1516,12 @@ cases:
     title: "Fallen v. United States"
     volume: "378"
     page: "139"
+    docket: "210"
+    citation: "378 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1964"
-    citation: "378 U.S. 139"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1964-015"
@@ -1178,9 +1529,12 @@ cases:
     title: "Fibreboard Paper Products Corp. v. NLRB"
     volume: "379"
     page: "203"
+    docket: "14"
+    citation: "379 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1964"
-    citation: "379 U.S. 203"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1964-043"
@@ -1188,9 +1542,12 @@ cases:
     title: "Udall v. Tallman"
     volume: "380"
     page: "001"
+    docket: "34"
+    citation: "380 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1965"
-    citation: "380 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1964-044"
@@ -1198,9 +1555,12 @@ cases:
     title: "Singer v. United States"
     volume: "380"
     page: "024"
+    docket: "42"
+    citation: "380 U.S. 24"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1965"
-    citation: "380 U.S. 24"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1964-068"
@@ -1208,9 +1568,12 @@ cases:
     title: "FTC v. Colgate-Palmolive Co."
     volume: "380"
     page: "374"
+    docket: "62"
+    citation: "380 U.S. 374"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1965"
-    citation: "380 U.S. 374"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1964-075"
@@ -1218,9 +1581,12 @@ cases:
     title: "American Oil Co. v. Neill"
     volume: "380"
     page: "451"
+    docket: "19"
+    citation: "380 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1965"
-    citation: "380 U.S. 451"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1964-076"
@@ -1228,9 +1594,12 @@ cases:
     title: "Hanna v. Plumer"
     volume: "380"
     page: "460"
+    docket: "171"
+    citation: "380 U.S. 460"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1965"
-    citation: "380 U.S. 460"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1964-081"
@@ -1238,9 +1607,12 @@ cases:
     title: "Harman v. Forssenius"
     volume: "380"
     page: "528"
+    docket: "360"
+    citation: "380 U.S. 528"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 27, 1965"
-    citation: "380 U.S. 528"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1964-095"
@@ -1248,9 +1620,12 @@ cases:
     title: "Zemel v. Rusk"
     volume: "381"
     page: "001"
+    docket: "86"
+    citation: "381 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1965"
-    citation: "381 U.S. 1"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1964-110"
@@ -1258,9 +1633,12 @@ cases:
     title: "FCC v. Schreiber"
     volume: "381"
     page: "279"
+    docket: "482"
+    citation: "381 U.S. 279"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1965"
-    citation: "381 U.S. 279"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1964-120"
@@ -1268,9 +1646,12 @@ cases:
     title: "United States v. Brown"
     volume: "381"
     page: "437"
+    docket: "399"
+    citation: "381 U.S. 437"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1965"
-    citation: "381 U.S. 437"
+    voteMajority: 5
+    voteMinority: 4
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1965-025"
@@ -1278,9 +1659,12 @@ cases:
     title: "Automobile Workers v. Scofield"
     volume: "382"
     page: "205"
+    docket: "18"
+    citation: "382 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1965"
-    citation: "382 U.S. 205"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1965-051"
@@ -1288,9 +1672,12 @@ cases:
     title: "Baxstrom v. Herold"
     volume: "383"
     page: "107"
+    docket: "219"
+    citation: "383 U.S. 107"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 23, 1966"
-    citation: "383 U.S. 107"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1965-057"
@@ -1298,9 +1685,12 @@ cases:
     title: "Carnation Co. v. Pacific Westbound Conference"
     volume: "383"
     page: "213"
+    docket: "20"
+    citation: "383 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1966"
-    citation: "383 U.S. 213"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1965-063"
@@ -1308,9 +1698,12 @@ cases:
     title: "Fribourg Nav. Co. v. Commissioner"
     volume: "383"
     page: "272"
+    docket: "23"
+    citation: "383 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1966"
-    citation: "383 U.S. 272"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1965-064"
@@ -1318,9 +1711,12 @@ cases:
     title: "South Carolina v. Katzenbach"
     volume: "383"
     page: "301"
+    docket: "22 Orig."
+    citation: "383 U.S. 301"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1966"
-    citation: "383 U.S. 301"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1965-101"
@@ -1328,9 +1724,12 @@ cases:
     title: "Amell v. United States"
     volume: "384"
     page: "158"
+    docket: "282"
+    citation: "384 U.S. 158"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1966"
-    citation: "384 U.S. 158"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1965-122"
@@ -1338,9 +1737,12 @@ cases:
     title: "Miranda v. Arizona"
     volume: "384"
     page: "436"
+    docket: "759"
+    citation: "384 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1966"
-    citation: "384 U.S. 436"
+    voteMajority: 5
+    voteMinority: 4
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1965-130"
@@ -1348,9 +1750,12 @@ cases:
     title: "Johnson v. New Jersey"
     volume: "384"
     page: "719"
+    docket: "762"
+    citation: "384 U.S. 719"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1966"
-    citation: "384 U.S. 719"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1965-131"
@@ -1358,9 +1763,12 @@ cases:
     title: "Davis v. North Carolina"
     volume: "384"
     page: "737"
+    docket: "815"
+    citation: "384 U.S. 737"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1966"
-    citation: "384 U.S. 737"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1966-012"
@@ -1368,9 +1776,12 @@ cases:
     title: "Bond v. Floyd"
     volume: "385"
     page: "116"
+    docket: "87"
+    citation: "385 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1966"
-    citation: "385 U.S. 116"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1966-020"
@@ -1378,9 +1789,12 @@ cases:
     title: "Lewis v. United States"
     volume: "385"
     page: "206"
+    docket: "36"
+    citation: "385 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1966"
-    citation: "385 U.S. 206"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1966-021"
@@ -1388,9 +1802,12 @@ cases:
     title: "INS v. Errico"
     volume: "385"
     page: "214"
+    docket: "54"
+    citation: "385 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1966"
-    citation: "385 U.S. 214"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1966-060"
@@ -1398,9 +1815,12 @@ cases:
     title: "Klopfer v. North Carolina"
     volume: "386"
     page: "213"
+    docket: "100"
+    citation: "386 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1967"
-    citation: "386 U.S. 213"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1966-065"
@@ -1408,9 +1828,12 @@ cases:
     title: "Commissioner v. Stidger"
     volume: "386"
     page: "287"
+    docket: "173"
+    citation: "386 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1967"
-    citation: "386 U.S. 287"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1966-077"
@@ -1418,9 +1841,12 @@ cases:
     title: "Pierson v. Ray"
     volume: "386"
     page: "547"
+    docket: "79"
+    citation: "386 U.S. 547"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 11, 1967"
-    citation: "386 U.S. 547"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1966-085"
@@ -1428,9 +1854,12 @@ cases:
     title: "Fleischmann Distilling Corp. v. Maier Brewing Co."
     volume: "386"
     page: "714"
+    docket: "214"
+    citation: "386 U.S. 714"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1967"
-    citation: "386 U.S. 714"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1966-107"
@@ -1438,9 +1867,12 @@ cases:
     title: "FTC v. Universal-Rundle Corp."
     volume: "387"
     page: "244"
+    docket: "101"
+    citation: "387 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1967"
-    citation: "387 U.S. 244"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1966-119"
@@ -1448,9 +1880,12 @@ cases:
     title: "Loving v. Virginia"
     volume: "388"
     page: "001"
+    docket: "395"
+    citation: "388 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1967"
-    citation: "388 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1966-120"
@@ -1458,9 +1893,12 @@ cases:
     title: "Washington v. Texas"
     volume: "388"
     page: "014"
+    docket: "649"
+    citation: "388 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1967"
-    citation: "388 U.S. 14"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1966-121"
@@ -1468,9 +1906,12 @@ cases:
     title: "NLRB v. Great Dane Trailers, Inc."
     volume: "388"
     page: "026"
+    docket: "781"
+    citation: "388 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1967"
-    citation: "388 U.S. 26"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1967-020"
@@ -1478,9 +1919,12 @@ cases:
     title: "Will v. United States"
     volume: "389"
     page: "090"
+    docket: "36"
+    citation: "389 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1967"
-    citation: "389 U.S. 90"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1967-033"
@@ -1488,9 +1932,12 @@ cases:
     title: "United States v. Robel"
     volume: "389"
     page: "258"
+    docket: "8"
+    citation: "389 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1967"
-    citation: "389 U.S. 258"
+    voteMajority: 6
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1967-042"
@@ -1498,9 +1945,12 @@ cases:
     title: "Tcherepnin v. Knight"
     volume: "389"
     page: "332"
+    docket: "104"
+    citation: "389 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1967"
-    citation: "389 U.S. 332"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1967-081"
@@ -1508,9 +1958,12 @@ cases:
     title: "FTC v. Fred Meyer, Inc."
     volume: "390"
     page: "341"
+    docket: "27"
+    citation: "390 U.S. 341"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1968"
-    citation: "390 U.S. 341"
+    voteMajority: 6
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1967-082"
@@ -1518,9 +1971,12 @@ cases:
     title: "Poafpybitty v. Skelly Oil Co."
     volume: "390"
     page: "365"
+    docket: "65"
+    citation: "390 U.S. 365"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1968"
-    citation: "390 U.S. 365"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1967-116"
@@ -1528,9 +1984,12 @@ cases:
     title: "Peyton v. Rowe"
     volume: "391"
     page: "054"
+    docket: "802"
+    citation: "391 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1968"
-    citation: "391 U.S. 54"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1967-135"
@@ -1538,9 +1997,12 @@ cases:
     title: "United States v. O&apos;Brien"
     volume: "391"
     page: "367"
+    docket: "232"
+    citation: "391 U.S. 367"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1968"
-    citation: "391 U.S. 367"
+    voteMajority: 7
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1967-157"
@@ -1548,9 +2010,12 @@ cases:
     title: "Terry v. Ohio"
     volume: "392"
     page: "001"
+    docket: "67"
+    citation: "392 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1968"
-    citation: "392 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1967-158"
@@ -1558,9 +2023,12 @@ cases:
     title: "Sibron v. New York"
     volume: "392"
     page: "040"
+    docket: "63"
+    citation: "392 U.S. 40"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1968"
-    citation: "392 U.S. 40"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1967-159"
@@ -1568,9 +2036,12 @@ cases:
     title: "Flast v. Cohen"
     volume: "392"
     page: "083"
+    docket: "416"
+    citation: "392 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1968"
-    citation: "392 U.S. 83"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1967-176"
@@ -1578,9 +2049,12 @@ cases:
     title: "King v. Smith"
     volume: "392"
     page: "309"
+    docket: "949"
+    citation: "392 U.S. 309"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1968"
-    citation: "392 U.S. 309"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1968-025"
@@ -1588,9 +2062,12 @@ cases:
     title: "Thorpe v. Housing Authority of Durham"
     volume: "393"
     page: "268"
+    docket: "20"
+    citation: "393 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1969"
-    citation: "393 U.S. 268"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1968-026"
@@ -1598,9 +2075,12 @@ cases:
     title: "United States v. Nardello"
     volume: "393"
     page: "286"
+    docket: "51"
+    citation: "393 U.S. 286"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1969"
-    citation: "393 U.S. 286"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1968-045"
@@ -1608,9 +2088,12 @@ cases:
     title: "Allen v. State Bd. of Elections"
     volume: "393"
     page: "544"
+    docket: "3"
+    citation: "393 U.S. 544"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1969"
-    citation: "393 U.S. 544"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1968-052"
@@ -1618,9 +2101,12 @@ cases:
     title: "Gregory v. Chicago"
     volume: "394"
     page: "111"
+    docket: "60"
+    citation: "394 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1969"
-    citation: "394 U.S. 111"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1968-072"
@@ -1628,9 +2114,12 @@ cases:
     title: "McCarthy v. United States"
     volume: "394"
     page: "459"
+    docket: "43"
+    citation: "394 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 2, 1969"
-    citation: "394 U.S. 459"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1968-089"
@@ -1638,9 +2127,12 @@ cases:
     title: "United States v. Article of Drug . . . Bacto-Unidisk"
     volume: "394"
     page: "784"
+    docket: "343"
+    citation: "394 U.S. 784"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1969"
-    citation: "394 U.S. 784"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1968-090"
@@ -1648,9 +2140,12 @@ cases:
     title: "McDonald v. Board of Election Comm&apos;rs of Chicago"
     volume: "394"
     page: "802"
+    docket: "68"
+    citation: "394 U.S. 802"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1969"
-    citation: "394 U.S. 802"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1968-110"
@@ -1658,9 +2153,12 @@ cases:
     title: "Jenkins v. Delaware"
     volume: "395"
     page: "213"
+    docket: "748"
+    citation: "395 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1969"
-    citation: "395 U.S. 213"
+    voteMajority: 5
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1968-126"
@@ -1668,9 +2166,12 @@ cases:
     title: "Utah Pub. Serv. Comm&apos;n v. El Paso Natural Gas Co."
     volume: "395"
     page: "464"
+    docket: "776"
+    citation: "395 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1969"
-    citation: "395 U.S. 464"
+    voteMajority: 4
+    voteMinority: 2
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1968-127"
@@ -1678,9 +2179,12 @@ cases:
     title: "Powell v. McCormack"
     volume: "395"
     page: "486"
+    docket: "138"
+    citation: "395 U.S. 486"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1969"
-    citation: "395 U.S. 486"
+    voteMajority: 7
+    voteMinority: 1
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1968-128"
@@ -1688,9 +2192,12 @@ cases:
     title: "NLRB v. Gissel Packing Co."
     volume: "395"
     page: "575"
+    docket: "573"
+    citation: "395 U.S. 575"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1969"
-    citation: "395 U.S. 575"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ewarren
     authorName: "Earl Warren"
   - id: "1968-129"
@@ -1698,9 +2205,12 @@ cases:
     title: "Kramer v. Union Free School Dist. No. 15"
     volume: "395"
     page: "621"
+    docket: "258"
+    citation: "395 U.S. 621"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1969"
-    citation: "395 U.S. 621"
+    voteMajority: 5
+    voteMinority: 3
     authorId: ewarren
     authorName: "Earl Warren"
 ---

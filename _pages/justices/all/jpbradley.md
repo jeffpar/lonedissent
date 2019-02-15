@@ -8,9 +8,11 @@ cases:
     title: "Jones v. Bolles"
     volume: "076"
     page: "364"
+    citation: "76 U.S. 364"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1870"
-    citation: "76 U.S. 364"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1869-095"
@@ -18,9 +20,11 @@ cases:
     title: "The Gray Eagle"
     volume: "076"
     page: "505"
+    citation: "76 U.S. 505"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1870"
-    citation: "76 U.S. 505"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1869-114"
@@ -28,9 +32,11 @@ cases:
     title: "The Corsica"
     volume: "076"
     page: "630"
+    citation: "76 U.S. 630"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "76 U.S. 630"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1869-118"
@@ -38,9 +44,11 @@ cases:
     title: "Green v. United States"
     volume: "076"
     page: "655"
+    citation: "76 U.S. 655"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "76 U.S. 655"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1869-120"
@@ -48,9 +56,11 @@ cases:
     title: "United States v. Adams"
     volume: "076"
     page: "661"
+    citation: "76 U.S. 661"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "76 U.S. 661"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1869-126"
@@ -58,9 +68,11 @@ cases:
     title: "The Protector"
     volume: "076"
     page: "687"
+    citation: "76 U.S. 687"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "76 U.S. 687"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1869-141"
@@ -68,9 +80,11 @@ cases:
     title: "Bischoff v. Wethered"
     volume: "076"
     page: "812"
+    citation: "76 U.S. 812"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "76 U.S. 812"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-011"
@@ -78,9 +92,11 @@ cases:
     title: "Gunnell v. Bird"
     volume: "077"
     page: "304"
+    citation: "77 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1870"
-    citation: "77 U.S. 304"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-014"
@@ -88,9 +104,11 @@ cases:
     title: "Dean v. Nelson"
     volume: "077"
     page: "158"
+    citation: "77 U.S. 158"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 6, 1870"
-    citation: "77 U.S. 158"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-018"
@@ -98,9 +116,11 @@ cases:
     title: "Jones v. Andrews"
     volume: "077"
     page: "327"
+    citation: "77 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 6, 1870"
-    citation: "77 U.S. 327"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-021"
@@ -108,9 +128,11 @@ cases:
     title: "The Farragut"
     volume: "077"
     page: "334"
+    citation: "77 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1870"
-    citation: "77 U.S. 334"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-042"
@@ -118,9 +140,11 @@ cases:
     title: "In re Paschal"
     volume: "077"
     page: "483"
+    citation: "77 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1871"
-    citation: "77 U.S. 483"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-078"
@@ -128,9 +152,11 @@ cases:
     title: "Insurance Co. v. Dunham"
     volume: "078"
     page: "001"
+    citation: "78 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1871"
-    citation: "78 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-083"
@@ -138,9 +164,11 @@ cases:
     title: "Insurance Co. v. Treasurer"
     volume: "078"
     page: "204"
+    citation: "78 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1871"
-    citation: "78 U.S. 204"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-088"
@@ -148,9 +176,11 @@ cases:
     title: "The Sapphire"
     volume: "078"
     page: "164"
+    citation: "78 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1871"
-    citation: "78 U.S. 164"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-098"
@@ -158,9 +188,11 @@ cases:
     title: "The Distilled Spirits"
     volume: "078"
     page: "356"
+    citation: "78 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1871"
-    citation: "78 U.S. 356"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-100"
@@ -168,9 +200,11 @@ cases:
     title: "Rankin v. State"
     volume: "078"
     page: "380"
+    citation: "78 U.S. 380"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1871"
-    citation: "78 U.S. 380"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-117"
@@ -178,9 +212,11 @@ cases:
     title: "Galveston R. Co. v. Cowdrey"
     volume: "078"
     page: "459"
+    citation: "78 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1871"
-    citation: "78 U.S. 459"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-122"
@@ -188,9 +224,11 @@ cases:
     title: "Ludlow v. Ramsey"
     volume: "078"
     page: "581"
+    citation: "78 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1871"
-    citation: "78 U.S. 581"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-124"
@@ -198,9 +236,11 @@ cases:
     title: "Dunphy v. Kleinsmith"
     volume: "078"
     page: "610"
+    citation: "78 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1871"
-    citation: "78 U.S. 610"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1870-126"
@@ -208,9 +248,11 @@ cases:
     title: "United States v. Lynde"
     volume: "078"
     page: "632"
+    citation: "78 U.S. 632"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1871"
-    citation: "78 U.S. 632"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-011"
@@ -218,9 +260,11 @@ cases:
     title: "Junction R. Co. v. Bank of Ashland"
     volume: "079"
     page: "226"
+    citation: "79 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1871"
-    citation: "79 U.S. 226"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-013"
@@ -228,9 +272,11 @@ cases:
     title: "Holladay v. Kennard"
     volume: "079"
     page: "254"
+    citation: "79 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1871"
-    citation: "79 U.S. 254"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-033"
@@ -238,9 +284,11 @@ cases:
     title: "Hanauer v. Doane"
     volume: "079"
     page: "342"
+    citation: "79 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1871"
-    citation: "79 U.S. 342"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-035"
@@ -248,9 +296,11 @@ cases:
     title: "United States v. New Orleans R. Co."
     volume: "079"
     page: "362"
+    citation: "79 U.S. 362"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1871"
-    citation: "79 U.S. 362"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-043"
@@ -258,9 +308,11 @@ cases:
     title: "Thomas v. Richmond"
     volume: "079"
     page: "349"
+    citation: "79 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1871"
-    citation: "79 U.S. 349"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-046"
@@ -268,9 +320,11 @@ cases:
     title: "Webb v. Sharp"
     volume: "080"
     page: "014"
+    citation: "80 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1871"
-    citation: "80 U.S. 14"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-047"
@@ -278,9 +332,11 @@ cases:
     title: "United States v. Clyde"
     volume: "080"
     page: "035"
+    citation: "80 U.S. 35"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1871"
-    citation: "80 U.S. 35"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-077"
@@ -288,9 +344,11 @@ cases:
     title: "United States v. Wormer"
     volume: "080"
     page: "025"
+    citation: "80 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1872"
-    citation: "80 U.S. 25"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-085"
@@ -298,9 +356,11 @@ cases:
     title: "Milwaukee &amp; Minnesota R. Co. v. Soutter"
     volume: "080"
     page: "517"
+    citation: "80 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1872"
-    citation: "80 U.S. 517"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-088"
@@ -308,9 +368,11 @@ cases:
     title: "Carlton v. Bokee"
     volume: "084"
     page: "463"
+    citation: "84 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1872"
-    citation: "84 U.S. 463"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-090"
@@ -318,9 +380,11 @@ cases:
     title: "Norwich Transp. Co. v. Flint"
     volume: "080"
     page: "003"
+    citation: "80 U.S. 3"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1872"
-    citation: "80 U.S. 3"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-100"
@@ -328,9 +392,11 @@ cases:
     title: "The Bridgeport"
     volume: "081"
     page: "116"
+    citation: "81 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1872"
-    citation: "81 U.S. 116"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-110"
@@ -338,9 +404,11 @@ cases:
     title: "Norwich Co. v. Wright"
     volume: "080"
     page: "104"
+    citation: "80 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1872"
-    citation: "80 U.S. 104"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-120"
@@ -348,9 +416,11 @@ cases:
     title: "Insurance Co. v. Thwing"
     volume: "080"
     page: "672"
+    citation: "80 U.S. 672"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1872"
-    citation: "80 U.S. 672"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-130"
@@ -358,9 +428,11 @@ cases:
     title: "Ex parte Russell"
     volume: "080"
     page: "664"
+    citation: "80 U.S. 664"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1872"
-    citation: "80 U.S. 664"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-133"
@@ -368,9 +440,11 @@ cases:
     title: "Klinger v. Missouri"
     volume: "080"
     page: "257"
+    citation: "80 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1872"
-    citation: "80 U.S. 257"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-134"
@@ -378,9 +452,11 @@ cases:
     title: "Kitchen v. Bedford"
     volume: "080"
     page: "413"
+    citation: "80 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1872"
-    citation: "80 U.S. 413"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-142"
@@ -388,9 +464,11 @@ cases:
     title: "Salt Co. v. East Saginaw"
     volume: "080"
     page: "373"
+    citation: "80 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1872"
-    citation: "80 U.S. 373"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-144"
@@ -398,9 +476,11 @@ cases:
     title: "The Java"
     volume: "081"
     page: "189"
+    citation: "81 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1872"
-    citation: "81 U.S. 189"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-166"
@@ -408,9 +488,11 @@ cases:
     title: "Carpentier v. Montgomery"
     volume: "080"
     page: "480"
+    citation: "80 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1872"
-    citation: "80 U.S. 480"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-179"
@@ -418,9 +500,11 @@ cases:
     title: "Easley v. Kellom"
     volume: "081"
     page: "279"
+    citation: "81 U.S. 279"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1872"
-    citation: "81 U.S. 279"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1871-189"
@@ -428,9 +512,12 @@ cases:
     title: "The St. John"
     volume: "154"
     page: "586"
+    docket: "131"
+    citation: "154 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1872"
-    citation: "154 U.S. 586"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-002"
@@ -438,9 +525,11 @@ cases:
     title: "Dirst v. Morris"
     volume: "081"
     page: "484"
+    citation: "81 U.S. 484"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1872"
-    citation: "81 U.S. 484"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-003"
@@ -448,9 +537,11 @@ cases:
     title: "Collins v. Riggs"
     volume: "081"
     page: "491"
+    citation: "81 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1872"
-    citation: "81 U.S. 491"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-007"
@@ -458,9 +549,11 @@ cases:
     title: "Phoenix Ins. Co. v. Hamilton"
     volume: "081"
     page: "504"
+    citation: "81 U.S. 504"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1872"
-    citation: "81 U.S. 504"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-027"
@@ -468,9 +561,11 @@ cases:
     title: "Hedrick v. Hughes"
     volume: "082"
     page: "123"
+    citation: "82 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1872"
-    citation: "82 U.S. 123"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-031"
@@ -478,9 +573,11 @@ cases:
     title: "Frow v. De La Vega"
     volume: "082"
     page: "552"
+    citation: "82 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1872"
-    citation: "82 U.S. 552"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-037"
@@ -488,9 +585,11 @@ cases:
     title: "Canal Co. v. Hill"
     volume: "082"
     page: "094"
+    citation: "82 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1872"
-    citation: "82 U.S. 94"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-047"
@@ -498,9 +597,11 @@ cases:
     title: "United States v. Thomas"
     volume: "082"
     page: "337"
+    citation: "82 U.S. 337"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1873"
-    citation: "82 U.S. 337"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-067"
@@ -508,9 +609,11 @@ cases:
     title: "Bank v. Kennedy"
     volume: "084"
     page: "019"
+    citation: "84 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1873"
-    citation: "84 U.S. 19"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-076"
@@ -518,9 +621,11 @@ cases:
     title: "Beall v. New Mexico"
     volume: "083"
     page: "535"
+    citation: "83 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1873"
-    citation: "83 U.S. 535"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-102"
@@ -528,9 +633,11 @@ cases:
     title: "Branson v. Wirth"
     volume: "084"
     page: "032"
+    citation: "84 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
-    citation: "84 U.S. 32"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-108"
@@ -538,9 +645,11 @@ cases:
     title: "Tomlinson v. Branch"
     volume: "082"
     page: "460"
+    citation: "82 U.S. 460"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1873"
-    citation: "82 U.S. 460"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-109"
@@ -548,9 +657,11 @@ cases:
     title: "Charleston v. Branch"
     volume: "082"
     page: "470"
+    citation: "82 U.S. 470"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1873"
-    citation: "82 U.S. 470"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-127"
@@ -558,9 +669,11 @@ cases:
     title: "Hanrick v. Boston"
     volume: "083"
     page: "166"
+    citation: "83 U.S. 166"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1873"
-    citation: "83 U.S. 166"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-157"
@@ -568,9 +681,11 @@ cases:
     title: "Riggin v. Magwire"
     volume: "082"
     page: "549"
+    citation: "82 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "82 U.S. 549"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-171"
@@ -578,9 +693,11 @@ cases:
     title: "Marshall v. Knox"
     volume: "083"
     page: "551"
+    citation: "83 U.S. 551"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "83 U.S. 551"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-180"
@@ -588,9 +705,11 @@ cases:
     title: "Police Jury v. Britton"
     volume: "082"
     page: "566"
+    citation: "82 U.S. 566"
     pdfSource: "loc"
     dateDecision: "Thursday, May 1, 1873"
-    citation: "82 U.S. 566"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1872-181"
@@ -598,9 +717,11 @@ cases:
     title: "Holdane v. Sumner"
     volume: "082"
     page: "600"
+    citation: "82 U.S. 600"
     pdfSource: "loc"
     dateDecision: "Thursday, May 1, 1873"
-    citation: "82 U.S. 600"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-001"
@@ -608,9 +729,11 @@ cases:
     title: "Railroad Co. v. Lockwood"
     volume: "084"
     page: "357"
+    citation: "84 U.S. 357"
     pdfSource: "loc"
     dateDecision: "Monday, October 20, 1873"
-    citation: "84 U.S. 357"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-005"
@@ -618,9 +741,11 @@ cases:
     title: "Dandelet v. Smith"
     volume: "085"
     page: "642"
+    citation: "85 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Monday, October 27, 1873"
-    citation: "85 U.S. 642"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-013"
@@ -628,9 +753,11 @@ cases:
     title: "Cutner v. United States"
     volume: "084"
     page: "517"
+    citation: "84 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Monday, November 3, 1873"
-    citation: "84 U.S. 517"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-041"
@@ -638,9 +765,11 @@ cases:
     title: "Rea v. Missouri"
     volume: "084"
     page: "532"
+    citation: "84 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1873"
-    citation: "84 U.S. 532"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-045"
@@ -648,9 +777,11 @@ cases:
     title: "The Star of Hope"
     volume: "084"
     page: "651"
+    citation: "84 U.S. 651"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1873"
-    citation: "84 U.S. 651"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-046"
@@ -658,9 +789,11 @@ cases:
     title: "Snow v. United States"
     volume: "085"
     page: "317"
+    citation: "85 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1873"
-    citation: "85 U.S. 317"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-058"
@@ -668,9 +801,11 @@ cases:
     title: "Sohn v. Waterson"
     volume: "084"
     page: "596"
+    citation: "84 U.S. 596"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1873"
-    citation: "84 U.S. 596"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-060"
@@ -678,9 +813,11 @@ cases:
     title: "United States v. Buzzo"
     volume: "085"
     page: "125"
+    citation: "85 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1873"
-    citation: "85 U.S. 125"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-072"
@@ -688,9 +825,11 @@ cases:
     title: "Sykes v. Chadwick"
     volume: "085"
     page: "141"
+    citation: "85 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1874"
-    citation: "85 U.S. 141"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-078"
@@ -698,9 +837,11 @@ cases:
     title: "Hicks v. Kelsey"
     volume: "085"
     page: "670"
+    citation: "85 U.S. 670"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1874"
-    citation: "85 U.S. 670"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-107"
@@ -708,9 +849,11 @@ cases:
     title: "Thompson v. Whitman"
     volume: "085"
     page: "457"
+    citation: "85 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1874"
-    citation: "85 U.S. 457"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-108"
@@ -718,9 +861,11 @@ cases:
     title: "Knowles v. Gaslight &amp; Coke Co."
     volume: "086"
     page: "058"
+    citation: "86 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1874"
-    citation: "86 U.S. 58"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-113"
@@ -728,9 +873,11 @@ cases:
     title: "Railway Co. v. Allerton"
     volume: "085"
     page: "233"
+    citation: "85 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1874"
-    citation: "85 U.S. 233"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-119"
@@ -738,9 +885,11 @@ cases:
     title: "Gray v. Rollo"
     volume: "085"
     page: "629"
+    citation: "85 U.S. 629"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1874"
-    citation: "85 U.S. 629"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-120"
@@ -748,9 +897,11 @@ cases:
     title: "Barings v. Dabney"
     volume: "086"
     page: "001"
+    citation: "86 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1874"
-    citation: "86 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-146"
@@ -758,9 +909,11 @@ cases:
     title: "Mayor v. Ray"
     volume: "086"
     page: "468"
+    citation: "86 U.S. 468"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1874"
-    citation: "86 U.S. 468"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-153"
@@ -768,9 +921,11 @@ cases:
     title: "Mayor v. Lindsey"
     volume: "086"
     page: "485"
+    citation: "86 U.S. 485"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1874"
-    citation: "86 U.S. 485"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-155"
@@ -778,9 +933,11 @@ cases:
     title: "Williams v. Bankhead"
     volume: "086"
     page: "563"
+    citation: "86 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1874"
-    citation: "86 U.S. 563"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-173"
@@ -788,9 +945,11 @@ cases:
     title: "Hornbuckle v. Toombs"
     volume: "085"
     page: "648"
+    citation: "85 U.S. 648"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
-    citation: "85 U.S. 648"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-174"
@@ -798,9 +957,11 @@ cases:
     title: "Hershfield v. Griffith"
     volume: "085"
     page: "657"
+    citation: "85 U.S. 657"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
-    citation: "85 U.S. 657"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-175"
@@ -808,9 +969,11 @@ cases:
     title: "Davis v. Bilsland"
     volume: "085"
     page: "659"
+    citation: "85 U.S. 659"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
-    citation: "85 U.S. 659"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-190"
@@ -818,9 +981,11 @@ cases:
     title: "Oregon Steam Nav. Co. v. Winsor"
     volume: "087"
     page: "064"
+    citation: "87 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
-    citation: "87 U.S. 64"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-195"
@@ -828,9 +993,11 @@ cases:
     title: "Tioga R. Co. v. Blossburg &amp; Corning R. Co."
     volume: "087"
     page: "137"
+    citation: "87 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
-    citation: "87 U.S. 137"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-201"
@@ -838,9 +1005,11 @@ cases:
     title: "The Corn-Planter Patent"
     volume: "090"
     page: "181"
+    citation: "90 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
-    citation: "90 U.S. 181"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1873-206"
@@ -848,9 +1017,12 @@ cases:
     title: "The Adelia"
     volume: "154"
     page: "593"
+    docket: "65"
+    citation: "154 U.S. 593"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1873"
-    citation: "154 U.S. 593"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-024"
@@ -858,9 +1030,12 @@ cases:
     title: "Clinkenbeard v. United States"
     volume: "088"
     page: "065"
+    docket: "28"
+    citation: "88 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Monday, November 23, 1874"
-    citation: "88 U.S. 65"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-044"
@@ -868,9 +1043,12 @@ cases:
     title: "Watson v. Bondurant"
     volume: "088"
     page: "123"
+    docket: "32"
+    citation: "88 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1874"
-    citation: "88 U.S. 123"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-050"
@@ -878,9 +1056,12 @@ cases:
     title: "Grand Tower Co. v. Phillips"
     volume: "090"
     page: "471"
+    docket: "61"
+    citation: "90 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1874"
-    citation: "90 U.S. 471"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-068"
@@ -888,9 +1069,12 @@ cases:
     title: "Hamilton v. Dillin"
     volume: "088"
     page: "073"
+    docket: "7"
+    citation: "88 U.S. 73"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1875"
-    citation: "88 U.S. 73"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-074"
@@ -898,9 +1082,12 @@ cases:
     title: "United States v. Saunders"
     volume: "089"
     page: "492"
+    docket: "382"
+    citation: "89 U.S. 492"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1875"
-    citation: "89 U.S. 492"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-086"
@@ -908,9 +1095,12 @@ cases:
     title: "Collector v. Richards"
     volume: "090"
     page: "246"
+    docket: "549"
+    citation: "90 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1875"
-    citation: "90 U.S. 246"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-108"
@@ -918,9 +1108,12 @@ cases:
     title: "Dupasseur v. Rochereau"
     volume: "088"
     page: "130"
+    docket: "82"
+    citation: "88 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1875"
-    citation: "88 U.S. 130"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-109"
@@ -928,9 +1121,12 @@ cases:
     title: "Insurance Co. v. Mahone"
     volume: "088"
     page: "152"
+    docket: "165"
+    citation: "88 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1875"
-    citation: "88 U.S. 152"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-111"
@@ -938,9 +1134,12 @@ cases:
     title: "Case of Broderick&apos;s Will"
     volume: "088"
     page: "503"
+    docket: "141"
+    citation: "88 U.S. 503"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1875"
-    citation: "88 U.S. 503"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-113"
@@ -948,9 +1147,12 @@ cases:
     title: "Putnam v. Day"
     volume: "089"
     page: "060"
+    docket: "124"
+    citation: "89 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1875"
-    citation: "89 U.S. 60"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-174"
@@ -958,9 +1160,12 @@ cases:
     title: "Slack v. Tucker &amp; Co."
     volume: "090"
     page: "321"
+    docket: "679"
+    citation: "90 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1875"
-    citation: "90 U.S. 321"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-176"
@@ -968,9 +1173,11 @@ cases:
     title: "Railroad Co. v. Maryland"
     volume: "088"
     page: "456"
+    citation: "88 U.S. 456"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1875"
-    citation: "88 U.S. 456"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-178"
@@ -978,17 +1185,23 @@ cases:
     title: "The Lottawanna"
     volume: "088"
     page: "558"
+    docket: "33"
+    citation: "88 U.S. 558"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1875"
-    citation: "88 U.S. 558"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1874-198"
     termId: "1874-10"
     title: "Dane v. Chicago Mfg. Co."
+    docket: "76"
+    citation: "131 U.S. cxxvi"
     pdfSource: "loc"
     dateDecision: "Friday, January 1, 1875"
-    citation: "131 U.S. cxxvi"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-004"
@@ -996,9 +1209,12 @@ cases:
     title: "Dainese v. Hale"
     volume: "091"
     page: "013"
+    docket: "25"
+    citation: "91 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Monday, October 25, 1875"
-    citation: "91 U.S. 13"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-033"
@@ -1006,9 +1222,12 @@ cases:
     title: "Hall v. Lanning"
     volume: "091"
     page: "160"
+    docket: "42"
+    citation: "91 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1875"
-    citation: "91 U.S. 160"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-037"
@@ -1016,9 +1235,12 @@ cases:
     title: "Florida v. Anderson"
     volume: "091"
     page: "667"
+    docket: "3 Orig."
+    citation: "91 U.S. 667"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1875"
-    citation: "91 U.S. 667"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-058"
@@ -1026,9 +1248,12 @@ cases:
     title: "Haines v. Carpenter"
     volume: "091"
     page: "254"
+    docket: "100"
+    citation: "91 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1876"
-    citation: "91 U.S. 254"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-059"
@@ -1036,9 +1261,12 @@ cases:
     title: "Moore v. United States"
     volume: "091"
     page: "270"
+    docket: "81"
+    citation: "91 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1876"
-    citation: "91 U.S. 270"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-071"
@@ -1046,9 +1274,12 @@ cases:
     title: "Mississippi &amp; Missouri R. Co. v. Cromwell"
     volume: "091"
     page: "643"
+    docket: "51"
+    citation: "91 U.S. 643"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1876"
-    citation: "91 U.S. 643"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-073"
@@ -1056,9 +1287,12 @@ cases:
     title: "Kittredge v. Race"
     volume: "092"
     page: "116"
+    docket: "74"
+    citation: "92 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1876"
-    citation: "92 U.S. 116"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-075"
@@ -1066,9 +1300,12 @@ cases:
     title: "Ives v. Hamilton"
     volume: "092"
     page: "426"
+    docket: "67"
+    citation: "92 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1876"
-    citation: "92 U.S. 426"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-099"
@@ -1076,9 +1313,12 @@ cases:
     title: "Roberts v. United States"
     volume: "092"
     page: "041"
+    docket: "539"
+    citation: "92 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1876"
-    citation: "92 U.S. 41"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-105"
@@ -1086,9 +1326,12 @@ cases:
     title: "Lathrop v. Drake"
     volume: "091"
     page: "516"
+    docket: "135"
+    citation: "91 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1876"
-    citation: "91 U.S. 516"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-131"
@@ -1096,9 +1339,12 @@ cases:
     title: "Burbank v. Bigelow"
     volume: "092"
     page: "179"
+    docket: "11"
+    citation: "92 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1876"
-    citation: "92 U.S. 179"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-139"
@@ -1106,9 +1352,12 @@ cases:
     title: "Town of Coloma v. Eaves"
     volume: "092"
     page: "484"
+    docket: "825"
+    citation: "92 U.S. 484"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1876"
-    citation: "92 U.S. 484"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-144"
@@ -1116,9 +1365,12 @@ cases:
     title: "Meyer v. Arthur"
     volume: "091"
     page: "570"
+    docket: "183"
+    citation: "91 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1876"
-    citation: "91 U.S. 570"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-155"
@@ -1126,9 +1378,12 @@ cases:
     title: "Board of Liquidation v. McComb"
     volume: "092"
     page: "531"
+    docket: "609"
+    citation: "92 U.S. 531"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1876"
-    citation: "92 U.S. 531"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-162"
@@ -1136,9 +1391,12 @@ cases:
     title: "Pace v. Burgess"
     volume: "092"
     page: "372"
+    docket: "170"
+    citation: "92 U.S. 372"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1876"
-    citation: "92 U.S. 372"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-171"
@@ -1146,9 +1404,12 @@ cases:
     title: "Hot Springs Cases"
     volume: "092"
     page: "698"
+    docket: "646"
+    citation: "92 U.S. 698"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1876"
-    citation: "92 U.S. 698"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-184"
@@ -1156,9 +1417,12 @@ cases:
     title: "Barney v. Watson"
     volume: "092"
     page: "449"
+    docket: "207"
+    citation: "92 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1876"
-    citation: "92 U.S. 449"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-191"
@@ -1166,9 +1430,12 @@ cases:
     title: "Harshman v. Bates County"
     volume: "092"
     page: "569"
+    docket: "150"
+    citation: "92 U.S. 569"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1876"
-    citation: "92 U.S. 569"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-196"
@@ -1176,9 +1443,12 @@ cases:
     title: "Branch v. Charleston"
     volume: "092"
     page: "677"
+    docket: "199"
+    citation: "92 U.S. 677"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1876"
-    citation: "92 U.S. 677"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-197"
@@ -1186,9 +1456,12 @@ cases:
     title: "The &quot;Alabama&quot; and the &quot;Game-cock&quot;"
     volume: "092"
     page: "695"
+    docket: "201"
+    citation: "92 U.S. 695"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1876"
-    citation: "92 U.S. 695"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1875-212"
@@ -1196,9 +1469,12 @@ cases:
     title: "Florida v. Anderson"
     volume: "091"
     page: "683"
+    docket: "3 Orig."
+    citation: "91 U.S. 683"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1876"
-    citation: "91 U.S. 683"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-002"
@@ -1206,9 +1482,12 @@ cases:
     title: "Gaines v. Hale"
     volume: "093"
     page: "003"
+    docket: "3"
+    citation: "93 U.S. 3"
     pdfSource: "loc"
     dateDecision: "Monday, October 16, 1876"
-    citation: "93 U.S. 3"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-005"
@@ -1216,9 +1495,11 @@ cases:
     title: "Ex parte Parks"
     volume: "093"
     page: "018"
+    citation: "93 U.S. 18"
     pdfSource: "loc"
     dateDecision: "Monday, October 23, 1876"
-    citation: "93 U.S. 18"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-006"
@@ -1226,9 +1507,12 @@ cases:
     title: "New York Life Ins. Co. v. Statham"
     volume: "093"
     page: "024"
+    docket: "28"
+    citation: "93 U.S. 24"
     pdfSource: "loc"
     dateDecision: "Monday, October 23, 1876"
-    citation: "93 U.S. 24"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-014"
@@ -1236,9 +1520,12 @@ cases:
     title: "Chemung Canal Bank v. Lowery"
     volume: "093"
     page: "072"
+    docket: "35"
+    citation: "93 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1876"
-    citation: "93 U.S. 72"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-020"
@@ -1246,9 +1533,12 @@ cases:
     title: "Bird v. Louisiana State Bank"
     volume: "093"
     page: "096"
+    docket: "62"
+    citation: "93 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1876"
-    citation: "93 U.S. 96"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-027"
@@ -1256,9 +1546,12 @@ cases:
     title: "Claflin v. Houseman"
     volume: "093"
     page: "130"
+    docket: "48"
+    citation: "93 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1876"
-    citation: "93 U.S. 130"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-042"
@@ -1266,9 +1559,12 @@ cases:
     title: "Grant v. Hartford &amp; New Haven R. Co."
     volume: "093"
     page: "225"
+    docket: "86"
+    citation: "93 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1876"
-    citation: "93 U.S. 225"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-054"
@@ -1276,9 +1572,12 @@ cases:
     title: "Barkley v. Levee Commissioners"
     volume: "093"
     page: "258"
+    docket: "81"
+    citation: "93 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1876"
-    citation: "93 U.S. 258"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-082"
@@ -1286,9 +1585,12 @@ cases:
     title: "Pike v. Evans"
     volume: "094"
     page: "006"
+    docket: "137"
+    citation: "94 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1877"
-    citation: "94 U.S. 6"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-088"
@@ -1296,9 +1598,12 @@ cases:
     title: "Lake Superior &amp; Mississippi R. Co. v. United States"
     volume: "093"
     page: "442"
+    docket: "487"
+    citation: "93 U.S. 442"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1877"
-    citation: "93 U.S. 442"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-101"
@@ -1306,9 +1611,12 @@ cases:
     title: "Mackie v. Story"
     volume: "093"
     page: "589"
+    docket: "764"
+    citation: "93 U.S. 589"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1877"
-    citation: "93 U.S. 589"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-150"
@@ -1316,9 +1624,12 @@ cases:
     title: "Cochrane v. Deener"
     volume: "094"
     page: "780"
+    docket: "744"
+    citation: "94 U.S. 780"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1877"
-    citation: "94 U.S. 780"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-153"
@@ -1326,9 +1637,12 @@ cases:
     title: "South Ottawa v. Perkins"
     volume: "094"
     page: "260"
+    docket: "58"
+    citation: "94 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1877"
-    citation: "94 U.S. 260"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-168"
@@ -1336,9 +1650,12 @@ cases:
     title: "Bowen v. Chase"
     volume: "094"
     page: "812"
+    docket: "154"
+    citation: "94 U.S. 812"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1877"
-    citation: "94 U.S. 812"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-182"
@@ -1346,9 +1663,12 @@ cases:
     title: "County of Scotland v. Thomas"
     volume: "094"
     page: "682"
+    docket: "190"
+    citation: "94 U.S. 682"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1877"
-    citation: "94 U.S. 682"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-184"
@@ -1356,9 +1676,12 @@ cases:
     title: "Barney v. Keokuk"
     volume: "094"
     page: "324"
+    docket: "958"
+    citation: "94 U.S. 324"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1877"
-    citation: "94 U.S. 324"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-195"
@@ -1366,9 +1689,12 @@ cases:
     title: "Connecticut Mut. Life Ins. Co. v. Schaefer"
     volume: "094"
     page: "457"
+    docket: "228"
+    citation: "94 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1877"
-    citation: "94 U.S. 457"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-204"
@@ -1376,9 +1702,12 @@ cases:
     title: "Johnson v. Harmon"
     volume: "094"
     page: "371"
+    docket: "212"
+    citation: "94 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1877"
-    citation: "94 U.S. 371"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-210"
@@ -1386,9 +1715,12 @@ cases:
     title: "Aetna Life Ins. Co. v. France"
     volume: "094"
     page: "561"
+    docket: "234"
+    citation: "94 U.S. 561"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1877"
-    citation: "94 U.S. 561"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-211"
@@ -1396,9 +1728,12 @@ cases:
     title: "Relief Fire Ins. Co. of N. Y. v. Shaw"
     volume: "094"
     page: "574"
+    docket: "256"
+    citation: "94 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1877"
-    citation: "94 U.S. 574"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1876-214"
@@ -1406,9 +1741,12 @@ cases:
     title: "Eames v. Home Ins. Co."
     volume: "094"
     page: "621"
+    docket: "260"
+    citation: "94 U.S. 621"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1877"
-    citation: "94 U.S. 621"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-007"
@@ -1416,9 +1754,12 @@ cases:
     title: "Keystone Bridge Co. v. Phoenix Iron Co."
     volume: "095"
     page: "274"
+    docket: "2"
+    citation: "95 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1877"
-    citation: "95 U.S. 274"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-009"
@@ -1426,9 +1767,11 @@ cases:
     title: "Reed v. Insurance Co."
     volume: "095"
     page: "023"
+    citation: "95 U.S. 23"
     pdfSource: "loc"
     dateDecision: "Monday, October 29, 1877"
-    citation: "95 U.S. 23"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-023"
@@ -1436,9 +1779,12 @@ cases:
     title: "Buffington v. Harvey"
     volume: "095"
     page: "099"
+    docket: "52"
+    citation: "95 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1877"
-    citation: "95 U.S. 99"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-029"
@@ -1446,9 +1792,12 @@ cases:
     title: "County of Henry v. Nicolay"
     volume: "095"
     page: "619"
+    docket: "37"
+    citation: "95 U.S. 619"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1877"
-    citation: "95 U.S. 619"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-031"
@@ -1456,9 +1805,12 @@ cases:
     title: "Continental Improvement Co. v. Stead"
     volume: "095"
     page: "161"
+    docket: "73"
+    citation: "95 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1877"
-    citation: "95 U.S. 161"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-048"
@@ -1466,9 +1818,11 @@ cases:
     title: "Insurance Co. v. Rodel"
     volume: "095"
     page: "232"
+    citation: "95 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1877"
-    citation: "95 U.S. 232"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-058"
@@ -1476,9 +1830,12 @@ cases:
     title: "Insurance Co. v. Davis"
     volume: "095"
     page: "425"
+    docket: "44"
+    citation: "95 U.S. 425"
     pdfSource: "loc"
     dateDecision: "Monday, November 26, 1877"
-    citation: "95 U.S. 425"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-071"
@@ -1486,9 +1843,11 @@ cases:
     title: "Thompson v. Maxwell"
     volume: "095"
     page: "391"
+    citation: "95 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1877"
-    citation: "95 U.S. 391"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-080"
@@ -1496,9 +1855,12 @@ cases:
     title: "Beckwith v. Talbot"
     volume: "095"
     page: "289"
+    docket: "117"
+    citation: "95 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1877"
-    citation: "95 U.S. 289"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-086"
@@ -1506,9 +1868,12 @@ cases:
     title: "Cochrane v. Deener"
     volume: "095"
     page: "355"
+    docket: "744"
+    citation: "95 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1877"
-    citation: "95 U.S. 355"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-089"
@@ -1516,9 +1881,12 @@ cases:
     title: "Clark v. United States"
     volume: "095"
     page: "539"
+    docket: "76"
+    citation: "95 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1877"
-    citation: "95 U.S. 539"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-098"
@@ -1526,9 +1894,12 @@ cases:
     title: "Railway Co. v. Stevens"
     volume: "095"
     page: "655"
+    docket: "134"
+    citation: "95 U.S. 655"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1878"
-    citation: "95 U.S. 655"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-107"
@@ -1536,9 +1907,12 @@ cases:
     title: "Brawley v. United States"
     volume: "096"
     page: "168"
+    docket: "356"
+    citation: "96 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1878"
-    citation: "96 U.S. 168"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-109"
@@ -1546,9 +1920,12 @@ cases:
     title: "County Comm&apos;rs v. Chandler"
     volume: "096"
     page: "205"
+    docket: "644"
+    citation: "96 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1878"
-    citation: "96 U.S. 205"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-131"
@@ -1556,9 +1933,12 @@ cases:
     title: "Wallace v. Loomis"
     volume: "097"
     page: "146"
+    docket: "31"
+    citation: "97 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1878"
-    citation: "97 U.S. 146"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-133"
@@ -1566,9 +1946,12 @@ cases:
     title: "Turnpike Co. v. Illinois"
     volume: "096"
     page: "063"
+    docket: "768"
+    citation: "96 U.S. 63"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1878"
-    citation: "96 U.S. 63"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-146"
@@ -1576,9 +1959,12 @@ cases:
     title: "King v. Pardee"
     volume: "096"
     page: "090"
+    docket: "173"
+    citation: "96 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1878"
-    citation: "96 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-158"
@@ -1586,9 +1972,12 @@ cases:
     title: "Insurance Co. v. Norton"
     volume: "096"
     page: "234"
+    docket: "745"
+    citation: "96 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1878"
-    citation: "96 U.S. 234"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-160"
@@ -1596,9 +1985,12 @@ cases:
     title: "Lamborn v. County Comm&apos;rs"
     volume: "097"
     page: "181"
+    docket: "673"
+    citation: "97 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1878"
-    citation: "97 U.S. 181"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-181"
@@ -1606,9 +1998,12 @@ cases:
     title: "McMicken v. United States"
     volume: "097"
     page: "204"
+    docket: "391"
+    citation: "97 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1878"
-    citation: "97 U.S. 204"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-182"
@@ -1616,9 +2011,12 @@ cases:
     title: "United States v. Watkins"
     volume: "097"
     page: "219"
+    docket: "668"
+    citation: "97 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1878"
-    citation: "97 U.S. 219"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-184"
@@ -1626,9 +2024,11 @@ cases:
     title: "Herbert v. Butler"
     volume: "097"
     page: "319"
+    citation: "97 U.S. 319"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1878"
-    citation: "97 U.S. 319"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-200"
@@ -1636,9 +2036,12 @@ cases:
     title: "Casey v. Cavaroc"
     volume: "096"
     page: "467"
+    docket: "181"
+    citation: "96 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1878"
-    citation: "96 U.S. 467"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-201"
@@ -1646,9 +2049,12 @@ cases:
     title: "Casey v. National Bank"
     volume: "096"
     page: "492"
+    docket: "180"
+    citation: "96 U.S. 492"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1878"
-    citation: "96 U.S. 492"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-202"
@@ -1656,9 +2062,12 @@ cases:
     title: "Casey v. Schuchardt"
     volume: "096"
     page: "494"
+    docket: "178"
+    citation: "96 U.S. 494"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1878"
-    citation: "96 U.S. 494"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-203"
@@ -1666,9 +2075,12 @@ cases:
     title: "Casey v. Schneider"
     volume: "096"
     page: "496"
+    docket: "179"
+    citation: "96 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1878"
-    citation: "96 U.S. 496"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-227"
@@ -1676,9 +2088,12 @@ cases:
     title: "Insurance Co. v. Eggleston"
     volume: "096"
     page: "572"
+    docket: "170"
+    citation: "96 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1878"
-    citation: "96 U.S. 572"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-228"
@@ -1686,9 +2101,12 @@ cases:
     title: "Grant v. National Bank"
     volume: "097"
     page: "080"
+    docket: "242"
+    citation: "97 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1878"
-    citation: "97 U.S. 80"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-234"
@@ -1696,9 +2114,12 @@ cases:
     title: "County of Warren v. Marcy"
     volume: "097"
     page: "096"
+    docket: "253"
+    citation: "97 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1878"
-    citation: "97 U.S. 96"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-246"
@@ -1706,9 +2127,12 @@ cases:
     title: "Beer Co. v. Massachusetts"
     volume: "097"
     page: "025"
+    docket: "277"
+    citation: "97 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1878"
-    citation: "97 U.S. 25"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1877-248"
@@ -1716,9 +2140,11 @@ cases:
     title: "Elizabeth v. Pavement Co."
     volume: "097"
     page: "126"
+    citation: "97 U.S. 126"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1878"
-    citation: "97 U.S. 126"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-003"
@@ -1726,9 +2152,12 @@ cases:
     title: "Bowen v. Chase"
     volume: "098"
     page: "254"
+    docket: "2"
+    citation: "98 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Monday, October 28, 1878"
-    citation: "98 U.S. 254"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-005"
@@ -1736,9 +2165,12 @@ cases:
     title: "United States v. Mora"
     volume: "097"
     page: "413"
+    docket: "301"
+    citation: "97 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Monday, November 4, 1878"
-    citation: "97 U.S. 413"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-019"
@@ -1746,9 +2178,12 @@ cases:
     title: "Dumont v. United States"
     volume: "098"
     page: "142"
+    docket: "50"
+    citation: "98 U.S. 142"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1878"
-    citation: "98 U.S. 142"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-025"
@@ -1756,9 +2191,11 @@ cases:
     title: "Railway Co. v. Sayles"
     volume: "097"
     page: "554"
+    citation: "97 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1878"
-    citation: "97 U.S. 554"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-033"
@@ -1766,9 +2203,11 @@ cases:
     title: "Powder Co. v. Powder Works"
     volume: "098"
     page: "126"
+    citation: "98 U.S. 126"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1878"
-    citation: "98 U.S. 126"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-044"
@@ -1776,9 +2215,12 @@ cases:
     title: "Wirth v. Branson"
     volume: "098"
     page: "118"
+    docket: "69"
+    citation: "98 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1878"
-    citation: "98 U.S. 118"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-088"
@@ -1786,9 +2228,12 @@ cases:
     title: "Union Pacific R. Co. v. United States"
     volume: "099"
     page: "402"
+    docket: "736"
+    citation: "99 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1879"
-    citation: "99 U.S. 402"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-089"
@@ -1796,9 +2241,12 @@ cases:
     title: "United States v. Central Pacific R. Co."
     volume: "099"
     page: "449"
+    docket: "703"
+    citation: "99 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1879"
-    citation: "99 U.S. 449"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-090"
@@ -1806,9 +2254,12 @@ cases:
     title: "United States v. Kansas Pacific R. Co."
     volume: "099"
     page: "455"
+    docket: "418"
+    citation: "99 U.S. 455"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1879"
-    citation: "99 U.S. 455"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-091"
@@ -1816,9 +2267,12 @@ cases:
     title: "United States v. Denver Pacific R. Co."
     volume: "099"
     page: "460"
+    docket: "781"
+    citation: "99 U.S. 460"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1879"
-    citation: "99 U.S. 460"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-092"
@@ -1826,9 +2280,12 @@ cases:
     title: "United States v. Sioux City &amp; Pacific R. Co."
     volume: "099"
     page: "491"
+    docket: "590"
+    citation: "99 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1879"
-    citation: "99 U.S. 491"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-112"
@@ -1836,9 +2293,12 @@ cases:
     title: "Carr v. United States"
     volume: "098"
     page: "433"
+    docket: "96"
+    citation: "98 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1879"
-    citation: "98 U.S. 433"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-128"
@@ -1846,9 +2306,12 @@ cases:
     title: "United States v. Perot"
     volume: "098"
     page: "428"
+    docket: "143"
+    citation: "98 U.S. 428"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1879"
-    citation: "98 U.S. 428"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-132"
@@ -1856,9 +2319,12 @@ cases:
     title: "Airhart v. Massieu"
     volume: "098"
     page: "491"
+    docket: "61"
+    citation: "98 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1879"
-    citation: "98 U.S. 491"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-152"
@@ -1866,9 +2332,12 @@ cases:
     title: "Gordon v. Gilfoil"
     volume: "099"
     page: "168"
+    docket: "1050"
+    citation: "99 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1879"
-    citation: "99 U.S. 168"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-162"
@@ -1876,9 +2345,12 @@ cases:
     title: "Barrow v. Hunton"
     volume: "099"
     page: "080"
+    docket: "201"
+    citation: "99 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1879"
-    citation: "99 U.S. 80"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-163"
@@ -1886,9 +2358,12 @@ cases:
     title: "Canal &amp; Banking Co. v. New Orleans"
     volume: "099"
     page: "097"
+    docket: "836"
+    citation: "99 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1879"
-    citation: "99 U.S. 97"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-186"
@@ -1896,9 +2371,12 @@ cases:
     title: "Parsons v. Jackson"
     volume: "099"
     page: "434"
+    docket: "156"
+    citation: "99 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1879"
-    citation: "99 U.S. 434"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-187"
@@ -1906,9 +2384,11 @@ cases:
     title: "Jackson v. Ludeling"
     volume: "099"
     page: "513"
+    citation: "99 U.S. 513"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1879"
-    citation: "99 U.S. 513"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-188"
@@ -1916,17 +2396,23 @@ cases:
     title: "Mining Co. v. Tarbet"
     volume: "098"
     page: "463"
+    docket: "998"
+    citation: "98 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1879"
-    citation: "98 U.S. 463"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1878-210"
     termId: "1878-10"
     title: "ELIZABETH v. AMERICAN NICHOLSON PAVEMENT COMPANY"
+    docket: "203"
+    citation: "131 U.S. cxlvii"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1878"
-    citation: "131 U.S. cxlvii"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-021"
@@ -1934,9 +2420,12 @@ cases:
     title: "Emigrant Co. v. County of Adams"
     volume: "100"
     page: "061"
+    docket: "16"
+    citation: "100 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Monday, November 24, 1879"
-    citation: "100 U.S. 61"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-036"
@@ -1944,9 +2433,12 @@ cases:
     title: "County of Cass v. Gillett"
     volume: "100"
     page: "585"
+    docket: "68"
+    citation: "100 U.S. 585"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1879"
-    citation: "100 U.S. 585"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-039"
@@ -1954,9 +2446,12 @@ cases:
     title: "May v. Sloan"
     volume: "101"
     page: "231"
+    docket: "34"
+    citation: "101 U.S. 231"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1879"
-    citation: "101 U.S. 231"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-060"
@@ -1964,9 +2459,12 @@ cases:
     title: "Watt v. Starke"
     volume: "101"
     page: "247"
+    docket: "108"
+    citation: "101 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1880"
-    citation: "101 U.S. 247"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-062"
@@ -1974,9 +2472,12 @@ cases:
     title: "Phillips v. Gilbert"
     volume: "101"
     page: "721"
+    docket: "87"
+    citation: "101 U.S. 721"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1880"
-    citation: "101 U.S. 721"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-074"
@@ -1984,9 +2485,12 @@ cases:
     title: "Baker v. Selden"
     volume: "101"
     page: "099"
+    docket: "95"
+    citation: "101 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1880"
-    citation: "101 U.S. 99"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-080"
@@ -1994,9 +2498,12 @@ cases:
     title: "Phelps v. Harris"
     volume: "101"
     page: "370"
+    docket: "572"
+    citation: "101 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1880"
-    citation: "101 U.S. 370"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-088"
@@ -2004,9 +2511,12 @@ cases:
     title: "Leggett v. Avery"
     volume: "101"
     page: "256"
+    docket: "755"
+    citation: "101 U.S. 256"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1880"
-    citation: "101 U.S. 256"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-102"
@@ -2014,9 +2524,12 @@ cases:
     title: "Montgomery v. Sawyer"
     volume: "100"
     page: "571"
+    docket: "1016"
+    citation: "100 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1880"
-    citation: "100 U.S. 571"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-127"
@@ -2024,9 +2537,11 @@ cases:
     title: "Ex parte Siebold"
     volume: "100"
     page: "371"
+    citation: "100 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1880"
-    citation: "100 U.S. 371"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-128"
@@ -2034,9 +2549,11 @@ cases:
     title: "Ex parte Clarke"
     volume: "100"
     page: "399"
+    citation: "100 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1880"
-    citation: "100 U.S. 399"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-133"
@@ -2044,9 +2561,12 @@ cases:
     title: "Burns v. Meyer"
     volume: "100"
     page: "671"
+    docket: "154"
+    citation: "100 U.S. 671"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1880"
-    citation: "100 U.S. 671"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-145"
@@ -2054,9 +2574,12 @@ cases:
     title: "United States v. Peck"
     volume: "102"
     page: "064"
+    docket: "788"
+    citation: "102 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1880"
-    citation: "102 U.S. 64"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-150"
@@ -2064,9 +2587,11 @@ cases:
     title: "Fleitas v. Cockrem"
     volume: "101"
     page: "301"
+    citation: "101 U.S. 301"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1880"
-    citation: "101 U.S. 301"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-157"
@@ -2074,9 +2599,12 @@ cases:
     title: "Gay v. Alter"
     volume: "102"
     page: "079"
+    docket: "1025"
+    citation: "102 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1880"
-    citation: "102 U.S. 79"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-170"
@@ -2084,9 +2612,12 @@ cases:
     title: "Missouri v. Lewis"
     volume: "101"
     page: "022"
+    docket: "904"
+    citation: "101 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1880"
-    citation: "101 U.S. 22"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-185"
@@ -2094,9 +2625,12 @@ cases:
     title: "Water-Meter Co. v. Desper"
     volume: "101"
     page: "332"
+    docket: "209"
+    citation: "101 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1880"
-    citation: "101 U.S. 332"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-196"
@@ -2104,9 +2638,11 @@ cases:
     title: "Wright v. Blakeslee"
     volume: "101"
     page: "174"
+    citation: "101 U.S. 174"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1880"
-    citation: "101 U.S. 174"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-199"
@@ -2114,9 +2650,12 @@ cases:
     title: "Wheeler v. Insurance Co."
     volume: "101"
     page: "439"
+    docket: "211"
+    citation: "101 U.S. 439"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1880"
-    citation: "101 U.S. 439"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1879-208"
@@ -2124,9 +2663,12 @@ cases:
     title: "Kennedy v. Creswell"
     volume: "101"
     page: "641"
+    docket: "277"
+    citation: "101 U.S. 641"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1880"
-    citation: "101 U.S. 641"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-013"
@@ -2134,9 +2676,12 @@ cases:
     title: "Graham v. Railroad Co."
     volume: "102"
     page: "148"
+    docket: "33"
+    citation: "102 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1880"
-    citation: "102 U.S. 148"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-030"
@@ -2144,9 +2689,12 @@ cases:
     title: "Solomon v. Arthur"
     volume: "102"
     page: "208"
+    docket: "57"
+    citation: "102 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1880"
-    citation: "102 U.S. 208"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-045"
@@ -2154,9 +2702,12 @@ cases:
     title: "Manufacturing Co. v. Ladd"
     volume: "102"
     page: "408"
+    docket: "41"
+    citation: "102 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1880"
-    citation: "102 U.S. 408"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-081"
@@ -2164,9 +2715,12 @@ cases:
     title: "Cramer v. Arthur"
     volume: "102"
     page: "612"
+    docket: "183"
+    citation: "102 U.S. 612"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1881"
-    citation: "102 U.S. 612"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-088"
@@ -2174,9 +2728,12 @@ cases:
     title: "Tilghman v. Proctor"
     volume: "102"
     page: "707"
+    docket: "25"
+    citation: "102 U.S. 707"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1881"
-    citation: "102 U.S. 707"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-095"
@@ -2184,9 +2741,12 @@ cases:
     title: "The &quot;Benefactor&quot;"
     volume: "103"
     page: "239"
+    docket: "66"
+    citation: "103 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1881"
-    citation: "103 U.S. 239"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-150"
@@ -2194,9 +2754,12 @@ cases:
     title: "Railroad Co. v. Falconer"
     volume: "103"
     page: "821"
+    docket: "89"
+    citation: "103 U.S. 821"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 30, 1881"
-    citation: "103 U.S. 821"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-151"
@@ -2204,9 +2767,12 @@ cases:
     title: "Insurance Co. v. Stinson"
     volume: "103"
     page: "025"
+    docket: "123"
+    citation: "103 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1881"
-    citation: "103 U.S. 25"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-158"
@@ -2214,9 +2780,12 @@ cases:
     title: "County of Chicot v. Lewis"
     volume: "103"
     page: "164"
+    docket: "161"
+    citation: "103 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1881"
-    citation: "103 U.S. 164"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-167"
@@ -2224,9 +2793,12 @@ cases:
     title: "Peck v. Collins"
     volume: "103"
     page: "660"
+    docket: "162"
+    citation: "103 U.S. 660"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1881"
-    citation: "103 U.S. 660"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-169"
@@ -2234,9 +2806,12 @@ cases:
     title: "Lincoln v. Iron Co."
     volume: "103"
     page: "412"
+    docket: "189"
+    citation: "103 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1881"
-    citation: "103 U.S. 412"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-171"
@@ -2244,9 +2819,11 @@ cases:
     title: "Edwards v. United States"
     volume: "103"
     page: "471"
+    citation: "103 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1881"
-    citation: "103 U.S. 471"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-172"
@@ -2254,9 +2831,12 @@ cases:
     title: "Thompson v. United States"
     volume: "103"
     page: "480"
+    docket: "188"
+    citation: "103 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1881"
-    citation: "103 U.S. 480"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-182"
@@ -2264,9 +2844,12 @@ cases:
     title: "Land Co. v. Saunders"
     volume: "103"
     page: "316"
+    docket: "251"
+    citation: "103 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1881"
-    citation: "103 U.S. 316"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-193"
@@ -2274,9 +2857,12 @@ cases:
     title: "Hoyt v. Sprague"
     volume: "103"
     page: "613"
+    docket: "517"
+    citation: "103 U.S. 613"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1881"
-    citation: "103 U.S. 613"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1880-242"
@@ -2284,9 +2870,12 @@ cases:
     title: "The &quot;Benefactor&quot;"
     volume: "103"
     page: "247"
+    docket: "65"
+    citation: "103 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 30, 1881"
-    citation: "103 U.S. 247"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-009"
@@ -2294,9 +2883,12 @@ cases:
     title: "Chicago v. Tebbetts"
     volume: "104"
     page: "120"
+    docket: "55"
+    citation: "104 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Monday, October 31, 1881"
-    citation: "104 U.S. 120"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-018"
@@ -2304,9 +2896,12 @@ cases:
     title: "Metcalf v. Williams"
     volume: "104"
     page: "093"
+    docket: "68"
+    citation: "104 U.S. 93"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1881"
-    citation: "104 U.S. 93"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-051"
@@ -2314,9 +2909,12 @@ cases:
     title: "Thompson v. Insurance Co."
     volume: "104"
     page: "252"
+    docket: "67"
+    citation: "104 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1881"
-    citation: "104 U.S. 252"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-059"
@@ -2324,9 +2922,11 @@ cases:
     title: "Draper v. Davis"
     volume: "104"
     page: "347"
+    citation: "104 U.S. 347"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1882"
-    citation: "104 U.S. 347"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-060"
@@ -2334,9 +2934,12 @@ cases:
     title: "Miller v. Brass Co."
     volume: "104"
     page: "350"
+    docket: "31"
+    citation: "104 U.S. 350"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1882"
-    citation: "104 U.S. 350"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-061"
@@ -2344,9 +2947,12 @@ cases:
     title: "James v. Campbell"
     volume: "104"
     page: "356"
+    docket: "630"
+    citation: "104 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1882"
-    citation: "104 U.S. 356"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-067"
@@ -2354,9 +2960,12 @@ cases:
     title: "Draper v. Springport"
     volume: "104"
     page: "501"
+    docket: "159"
+    citation: "104 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1882"
-    citation: "104 U.S. 501"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-091"
@@ -2364,9 +2973,12 @@ cases:
     title: "Merrell v. Tice"
     volume: "104"
     page: "557"
+    docket: "198"
+    citation: "104 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1882"
-    citation: "104 U.S. 557"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-107"
@@ -2374,9 +2986,12 @@ cases:
     title: "Merritt v. Welsh"
     volume: "104"
     page: "694"
+    docket: "1066"
+    citation: "104 U.S. 694"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1882"
-    citation: "104 U.S. 694"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-109"
@@ -2384,9 +2999,12 @@ cases:
     title: "Printing House v. Trustees"
     volume: "104"
     page: "711"
+    docket: "334"
+    citation: "104 U.S. 711"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1882"
-    citation: "104 U.S. 711"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-111"
@@ -2394,9 +3012,12 @@ cases:
     title: "Pott v. Arthur"
     volume: "104"
     page: "735"
+    docket: "183"
+    citation: "104 U.S. 735"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1882"
-    citation: "104 U.S. 735"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-142"
@@ -2404,9 +3025,12 @@ cases:
     title: "The &quot;Scotland&quot;"
     volume: "105"
     page: "024"
+    docket: "43"
+    citation: "105 U.S. 24"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1882"
-    citation: "105 U.S. 24"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-151"
@@ -2414,9 +3038,12 @@ cases:
     title: "Mathews v. Machine Co."
     volume: "105"
     page: "054"
+    docket: "35"
+    citation: "105 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1882"
-    citation: "105 U.S. 54"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-168"
@@ -2424,9 +3051,12 @@ cases:
     title: "Russell v. Farley"
     volume: "105"
     page: "433"
+    docket: "168"
+    citation: "105 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1882"
-    citation: "105 U.S. 433"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-192"
@@ -2434,9 +3064,12 @@ cases:
     title: "Asylum v. New Orleans"
     volume: "105"
     page: "362"
+    docket: "218"
+    citation: "105 U.S. 362"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1882"
-    citation: "105 U.S. 362"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-199"
@@ -2444,9 +3077,12 @@ cases:
     title: "Trustees v. Greenough"
     volume: "105"
     page: "527"
+    docket: "601"
+    citation: "105 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1882"
-    citation: "105 U.S. 527"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-206"
@@ -2454,9 +3090,12 @@ cases:
     title: "Loom Co. v. Higgins"
     volume: "105"
     page: "580"
+    docket: "267"
+    citation: "105 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1882"
-    citation: "105 U.S. 580"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-210"
@@ -2464,9 +3103,12 @@ cases:
     title: "Bridge v. Excelsior Co."
     volume: "105"
     page: "618"
+    docket: "224"
+    citation: "105 U.S. 618"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1882"
-    citation: "105 U.S. 618"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-220"
@@ -2474,9 +3116,11 @@ cases:
     title: "Wurts v. Hoagland"
     volume: "105"
     page: "701"
+    citation: "105 U.S. 701"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1882"
-    citation: "105 U.S. 701"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-225"
@@ -2484,9 +3128,12 @@ cases:
     title: "Stebbins v. Duncan"
     volume: "108"
     page: "032"
+    docket: "153"
+    citation: "108 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Sunday, October 1, 1882"
-    citation: "108 U.S. 32"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1882-014"
@@ -2494,9 +3141,12 @@ cases:
     title: "The &quot;North Star&quot;"
     volume: "106"
     page: "017"
+    docket: "34"
+    citation: "106 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1882"
-    citation: "106 U.S. 17"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1882-031"
@@ -2504,9 +3154,12 @@ cases:
     title: "Bedford v. Burton"
     volume: "106"
     page: "338"
+    docket: "46"
+    citation: "106 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1882"
-    citation: "106 U.S. 338"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1882-044"
@@ -2514,9 +3167,11 @@ cases:
     title: "The &quot;Nevada&quot;"
     volume: "106"
     page: "154"
+    citation: "106 U.S. 154"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1882"
-    citation: "106 U.S. 154"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1882-074"
@@ -2524,9 +3179,12 @@ cases:
     title: "Russell v. Williams"
     volume: "106"
     page: "623"
+    docket: "105"
+    citation: "106 U.S. 623"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1882"
-    citation: "106 U.S. 623"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1882-092"
@@ -2534,9 +3192,12 @@ cases:
     title: "Branch v. Jesup"
     volume: "106"
     page: "468"
+    docket: "81"
+    citation: "106 U.S. 468"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1883"
-    citation: "106 U.S. 468"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1882-115"
@@ -2544,9 +3205,12 @@ cases:
     title: "Burgess v. Seligman"
     volume: "107"
     page: "020"
+    docket: "136"
+    citation: "107 U.S. 20"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1883"
-    citation: "107 U.S. 20"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1882-136"
@@ -2554,9 +3218,12 @@ cases:
     title: "Atlantic Works v. Brady"
     volume: "107"
     page: "192"
+    docket: "101"
+    citation: "107 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1883"
-    citation: "107 U.S. 192"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1882-148"
@@ -2564,9 +3231,12 @@ cases:
     title: "New York Guaranty Co. v. Memphis Water Co."
     volume: "107"
     page: "205"
+    docket: "160"
+    citation: "107 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1883"
-    citation: "107 U.S. 205"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1882-195"
@@ -2574,9 +3244,11 @@ cases:
     title: "Ex parte Wall"
     volume: "107"
     page: "265"
+    citation: "107 U.S. 265"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1883"
-    citation: "107 U.S. 265"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1882-210"
@@ -2584,9 +3256,12 @@ cases:
     title: "Mills County v. Railroad Cos."
     volume: "107"
     page: "557"
+    docket: "191"
+    citation: "107 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1883"
-    citation: "107 U.S. 557"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1882-222"
@@ -2594,9 +3269,12 @@ cases:
     title: "Transportation Co. v. Parkersburg"
     volume: "107"
     page: "691"
+    docket: "172"
+    citation: "107 U.S. 691"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1883"
-    citation: "107 U.S. 691"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1882-228"
@@ -2604,9 +3282,12 @@ cases:
     title: "Kountze v. Omaha Hotel Co."
     volume: "107"
     page: "378"
+    docket: "247"
+    citation: "107 U.S. 378"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1883"
-    citation: "107 U.S. 378"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-004"
@@ -2614,9 +3295,12 @@ cases:
     title: "Civil Rights Cases"
     volume: "109"
     page: "003"
+    docket: "1"
+    citation: "109 U.S. 3"
     pdfSource: "loc"
     dateDecision: "Monday, October 15, 1883"
-    citation: "109 U.S. 3"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-005"
@@ -2624,9 +3308,12 @@ cases:
     title: "United States v. Hamilton"
     volume: "109"
     page: "063"
+    docket: "969"
+    citation: "109 U.S. 63"
     pdfSource: "loc"
     dateDecision: "Monday, October 15, 1883"
-    citation: "109 U.S. 63"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-007"
@@ -2634,9 +3321,11 @@ cases:
     title: "United States v. Gale"
     volume: "109"
     page: "065"
+    citation: "109 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Monday, October 15, 1883"
-    citation: "109 U.S. 65"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-015"
@@ -2644,9 +3333,12 @@ cases:
     title: "Green County v. Conness"
     volume: "109"
     page: "104"
+    docket: "925"
+    citation: "109 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, October 29, 1883"
-    citation: "109 U.S. 104"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-025"
@@ -2654,9 +3346,12 @@ cases:
     title: "Hovey v. McDonald"
     volume: "109"
     page: "150"
+    docket: "23"
+    citation: "109 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1883"
-    citation: "109 U.S. 150"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-076"
@@ -2664,9 +3359,12 @@ cases:
     title: "Providence &amp; New York S. S. Co. v. Hill Mfg. Co."
     volume: "109"
     page: "578"
+    docket: "32"
+    citation: "109 U.S. 578"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1883"
-    citation: "109 U.S. 578"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-121"
@@ -2674,9 +3372,12 @@ cases:
     title: "Zane v. Soffe"
     volume: "110"
     page: "200"
+    docket: "70"
+    citation: "110 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1884"
-    citation: "110 U.S. 200"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-122"
@@ -2684,9 +3385,12 @@ cases:
     title: "Sioux City &amp; Pacific R. Co. v. United States"
     volume: "110"
     page: "205"
+    docket: "167"
+    citation: "110 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1884"
-    citation: "110 U.S. 205"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-149"
@@ -2694,9 +3398,12 @@ cases:
     title: "United States v. Behan"
     volume: "110"
     page: "338"
+    docket: "1126"
+    citation: "110 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1884"
-    citation: "110 U.S. 338"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-171"
@@ -2704,9 +3411,12 @@ cases:
     title: "McDonald v. Hovey"
     volume: "110"
     page: "619"
+    docket: "1138"
+    citation: "110 U.S. 619"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1884"
-    citation: "110 U.S. 619"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-182"
@@ -2714,9 +3424,12 @@ cases:
     title: "United States v. Ryder"
     volume: "110"
     page: "729"
+    docket: "156"
+    citation: "110 U.S. 729"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1884"
-    citation: "110 U.S. 729"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-217"
@@ -2724,9 +3437,12 @@ cases:
     title: "Lovell v. St. Louis Mut. Life Ins. Co."
     volume: "111"
     page: "264"
+    docket: "24"
+    citation: "111 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1884"
-    citation: "111 U.S. 264"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-234"
@@ -2734,9 +3450,12 @@ cases:
     title: "Claiborne County v. Brooks"
     volume: "111"
     page: "400"
+    docket: "234"
+    citation: "111 U.S. 400"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1884"
-    citation: "111 U.S. 400"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-258"
@@ -2744,9 +3463,12 @@ cases:
     title: "Johnson v. Waters"
     volume: "111"
     page: "640"
+    docket: "54"
+    citation: "111 U.S. 640"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1884"
-    citation: "111 U.S. 640"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-259"
@@ -2754,9 +3476,12 @@ cases:
     title: "Hennequin v. Clews"
     volume: "111"
     page: "676"
+    docket: "252"
+    citation: "111 U.S. 676"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1884"
-    citation: "111 U.S. 676"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1883-260"
@@ -2764,9 +3489,11 @@ cases:
     title: "Williams v. Morgan"
     volume: "111"
     page: "684"
+    citation: "111 U.S. 684"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1884"
-    citation: "111 U.S. 684"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1884-021"
@@ -2774,9 +3501,12 @@ cases:
     title: "Mahn v. Harwood"
     volume: "112"
     page: "354"
+    docket: "1"
+    citation: "112 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Monday, November 3, 1884"
-    citation: "112 U.S. 354"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1884-054"
@@ -2784,9 +3514,12 @@ cases:
     title: "Middleton v. Mullica Township"
     volume: "112"
     page: "433"
+    docket: "21"
+    citation: "112 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1884"
-    citation: "112 U.S. 433"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1884-078"
@@ -2794,9 +3527,12 @@ cases:
     title: "Knickerbocker Life Ins. Co. v. Pendleton"
     volume: "112"
     page: "696"
+    docket: "73"
+    citation: "112 U.S. 696"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1885"
-    citation: "112 U.S. 696"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1884-141"
@@ -2804,9 +3540,12 @@ cases:
     title: "Provident Institution for Sav. v. Mayor of Jersey City"
     volume: "113"
     page: "506"
+    docket: "1012"
+    citation: "113 U.S. 506"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "113 U.S. 506"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1884-142"
@@ -2814,9 +3553,12 @@ cases:
     title: "Union Pacific R. Co. v. Cheyenne"
     volume: "113"
     page: "516"
+    docket: "97"
+    citation: "113 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "113 U.S. 516"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1884-152"
@@ -2824,9 +3566,11 @@ cases:
     title: "Ayers v. Watson"
     volume: "113"
     page: "594"
+    citation: "113 U.S. 594"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "113 U.S. 594"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1884-153"
@@ -2834,9 +3578,12 @@ cases:
     title: "California Artificial Stone Paving Co. v. Molitor"
     volume: "113"
     page: "609"
+    docket: "1213"
+    citation: "113 U.S. 609"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "113 U.S. 609"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1884-182"
@@ -2844,9 +3591,12 @@ cases:
     title: "Thomson v. Wooster"
     volume: "114"
     page: "104"
+    docket: "112"
+    citation: "114 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1885"
-    citation: "114 U.S. 104"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1884-204"
@@ -2854,9 +3604,12 @@ cases:
     title: "The Belgenland"
     volume: "114"
     page: "355"
+    docket: "169"
+    citation: "114 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1885"
-    citation: "114 U.S. 355"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1884-245"
@@ -2864,9 +3617,11 @@ cases:
     title: "Brown v. Houston"
     volume: "114"
     page: "622"
+    citation: "114 U.S. 622"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1885"
-    citation: "114 U.S. 622"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1884-246"
@@ -2874,9 +3629,12 @@ cases:
     title: "Provident Sav. Life Assurance Soc. v. Ford"
     volume: "114"
     page: "635"
+    docket: "105"
+    citation: "114 U.S. 635"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1885"
-    citation: "114 U.S. 635"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1884-250"
@@ -2884,9 +3642,11 @@ cases:
     title: "Pacific Railroad Removal Cases"
     volume: "115"
     page: "001"
+    citation: "115 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1885"
-    citation: "115 U.S. 1"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-018"
@@ -2894,9 +3654,12 @@ cases:
     title: "Knickerbocker Life Ins. Co. v. Pendleton"
     volume: "115"
     page: "339"
+    docket: "4"
+    citation: "115 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1885"
-    citation: "115 U.S. 339"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-060"
@@ -2904,9 +3667,12 @@ cases:
     title: "Miller v. Foree"
     volume: "116"
     page: "022"
+    docket: "36"
+    citation: "116 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1885"
-    citation: "116 U.S. 22"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-116"
@@ -2914,9 +3680,12 @@ cases:
     title: "Walling v. Michigan"
     volume: "116"
     page: "446"
+    docket: "741"
+    citation: "116 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1886"
-    citation: "116 U.S. 446"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-124"
@@ -2924,9 +3693,12 @@ cases:
     title: "Coe v. Errol"
     volume: "116"
     page: "517"
+    docket: "43"
+    citation: "116 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1886"
-    citation: "116 U.S. 517"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-138"
@@ -2934,9 +3706,12 @@ cases:
     title: "Boyd v. United States"
     volume: "116"
     page: "616"
+    docket: "983"
+    citation: "116 U.S. 616"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1886"
-    citation: "116 U.S. 616"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-155"
@@ -2944,9 +3719,12 @@ cases:
     title: "Graffam v. Burgess"
     volume: "117"
     page: "180"
+    docket: "79"
+    citation: "117 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1886"
-    citation: "117 U.S. 180"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-157"
@@ -2954,9 +3732,12 @@ cases:
     title: "Patch v. White"
     volume: "117"
     page: "210"
+    docket: "58"
+    citation: "117 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1886"
-    citation: "117 U.S. 210"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-202"
@@ -2964,9 +3745,12 @@ cases:
     title: "Turpin v. Burgess"
     volume: "117"
     page: "504"
+    docket: "180"
+    citation: "117 U.S. 504"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1886"
-    citation: "117 U.S. 504"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-217"
@@ -2974,9 +3758,12 @@ cases:
     title: "Given v. Wright"
     volume: "117"
     page: "648"
+    docket: "143"
+    citation: "117 U.S. 648"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1886"
-    citation: "117 U.S. 648"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-242"
@@ -2984,9 +3771,12 @@ cases:
     title: "Clay v. Freeman"
     volume: "118"
     page: "097"
+    docket: "677"
+    citation: "118 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1886"
-    citation: "118 U.S. 97"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-260"
@@ -2994,9 +3784,12 @@ cases:
     title: "Evans v. Pike"
     volume: "118"
     page: "241"
+    docket: "252"
+    citation: "118 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1886"
-    citation: "118 U.S. 241"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-277"
@@ -3004,9 +3797,11 @@ cases:
     title: "The City of Norwich"
     volume: "118"
     page: "468"
+    citation: "118 U.S. 468"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1886"
-    citation: "118 U.S. 468"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-278"
@@ -3014,9 +3809,12 @@ cases:
     title: "The Scotland"
     volume: "118"
     page: "507"
+    docket: "748"
+    citation: "118 U.S. 507"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1886"
-    citation: "118 U.S. 507"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1885-279"
@@ -3024,9 +3822,12 @@ cases:
     title: "The Great Western"
     volume: "118"
     page: "520"
+    docket: "333"
+    citation: "118 U.S. 520"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1886"
-    citation: "118 U.S. 520"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-004"
@@ -3034,9 +3835,12 @@ cases:
     title: "Little v. Giles"
     volume: "118"
     page: "596"
+    docket: "352"
+    citation: "118 U.S. 596"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1886"
-    citation: "118 U.S. 596"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-012"
@@ -3044,9 +3848,12 @@ cases:
     title: "Harkness v. Russell"
     volume: "118"
     page: "663"
+    docket: "598"
+    citation: "118 U.S. 663"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1886"
-    citation: "118 U.S. 663"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-016"
@@ -3054,9 +3861,12 @@ cases:
     title: "White v. Dunbar"
     volume: "119"
     page: "047"
+    docket: "21"
+    citation: "119 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1886"
-    citation: "119 U.S. 47"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-043"
@@ -3064,9 +3874,12 @@ cases:
     title: "Clark v. Wooster"
     volume: "119"
     page: "322"
+    docket: "31"
+    citation: "119 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1886"
-    citation: "119 U.S. 322"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-070"
@@ -3074,9 +3887,12 @@ cases:
     title: "Greenwich Ins. Co. v. Providence &amp; Stonington S. S. Co."
     volume: "119"
     page: "481"
+    docket: "30"
+    citation: "119 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1886"
-    citation: "119 U.S. 481"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-089"
@@ -3084,9 +3900,12 @@ cases:
     title: "Cope v. Vallette Dry Dock Co."
     volume: "119"
     page: "625"
+    docket: "80"
+    citation: "119 U.S. 625"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1887"
-    citation: "119 U.S. 625"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-095"
@@ -3094,9 +3913,12 @@ cases:
     title: "Enfield v. Jordan"
     volume: "119"
     page: "680"
+    docket: "661"
+    citation: "119 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1887"
-    citation: "119 U.S. 680"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-127"
@@ -3104,9 +3926,12 @@ cases:
     title: "Meyers v. Block"
     volume: "120"
     page: "206"
+    docket: "95"
+    citation: "120 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1887"
-    citation: "120 U.S. 206"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-157"
@@ -3114,9 +3939,12 @@ cases:
     title: "Robbins v. Shelby County Taxing Dist."
     volume: "120"
     page: "489"
+    docket: "816"
+    citation: "120 U.S. 489"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1887"
-    citation: "120 U.S. 489"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-158"
@@ -3124,9 +3952,12 @@ cases:
     title: "Corson v. Maryland"
     volume: "120"
     page: "502"
+    docket: "8"
+    citation: "120 U.S. 502"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1887"
-    citation: "120 U.S. 502"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-174"
@@ -3134,9 +3965,12 @@ cases:
     title: "Gonzales v. Ross"
     volume: "120"
     page: "605"
+    docket: "28"
+    citation: "120 U.S. 605"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1887"
-    citation: "120 U.S. 605"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-180"
@@ -3144,9 +3978,11 @@ cases:
     title: "New Orleans Nat. Banking Assn. v. Le Breton"
     volume: "120"
     page: "765"
+    citation: "120 U.S. 765"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1887"
-    citation: "120 U.S. 765"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-207"
@@ -3154,9 +3990,12 @@ cases:
     title: "Francklyn v. Sprague"
     volume: "121"
     page: "215"
+    docket: "75"
+    citation: "121 U.S. 215"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1887"
-    citation: "121 U.S. 215"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-231"
@@ -3164,9 +4003,12 @@ cases:
     title: "Ouachita Packet Co. v. Aiken"
     volume: "121"
     page: "444"
+    docket: "117"
+    citation: "121 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1887"
-    citation: "121 U.S. 444"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-237"
@@ -3174,9 +4016,12 @@ cases:
     title: "Bragg v. Fitch"
     volume: "121"
     page: "478"
+    docket: "122"
+    citation: "121 U.S. 478"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1887"
-    citation: "121 U.S. 478"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-267"
@@ -3184,9 +4029,12 @@ cases:
     title: "Tuttle v. Detroit, G. H. &amp; M. R. Co."
     volume: "122"
     page: "189"
+    docket: "186"
+    citation: "122 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1887"
-    citation: "122 U.S. 189"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-273"
@@ -3194,9 +4042,11 @@ cases:
     title: "Wisner v. Brown"
     volume: "122"
     page: "214"
+    citation: "122 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Friday, May 27, 1887"
-    citation: "122 U.S. 214"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-283"
@@ -3204,9 +4054,12 @@ cases:
     title: "Philadelphia &amp; Southern S. S. Co. v. Pennsylvania"
     volume: "122"
     page: "326"
+    docket: "203"
+    citation: "122 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Friday, May 27, 1887"
-    citation: "122 U.S. 326"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1886-293"
@@ -3214,9 +4067,12 @@ cases:
     title: "Paxton v. Griswold"
     volume: "122"
     page: "441"
+    docket: "293"
+    citation: "122 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Friday, May 27, 1887"
-    citation: "122 U.S. 441"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-001"
@@ -3224,9 +4080,12 @@ cases:
     title: "Coffee v. Groover"
     volume: "123"
     page: "001"
+    docket: "24"
+    citation: "123 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, October 17, 1887"
-    citation: "123 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-030"
@@ -3234,9 +4093,12 @@ cases:
     title: "Siemens&apos;s Administrator v. Sellers"
     volume: "123"
     page: "276"
+    docket: "6"
+    citation: "123 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1887"
-    citation: "123 U.S. 276"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-037"
@@ -3244,9 +4106,12 @@ cases:
     title: "United States v. Morant"
     volume: "123"
     page: "335"
+    docket: "36"
+    citation: "123 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1887"
-    citation: "123 U.S. 335"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-061"
@@ -3254,9 +4119,12 @@ cases:
     title: "Hailes v. Albany Stove Co."
     volume: "123"
     page: "582"
+    docket: "79"
+    citation: "123 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1887"
-    citation: "123 U.S. 582"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-077"
@@ -3264,9 +4132,12 @@ cases:
     title: "Lawther v. Hamilton"
     volume: "124"
     page: "001"
+    docket: "39"
+    citation: "124 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1888"
-    citation: "124 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-115"
@@ -3274,9 +4145,12 @@ cases:
     title: "Shields v. Schiff"
     volume: "124"
     page: "351"
+    docket: "61"
+    citation: "124 U.S. 351"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1888"
-    citation: "124 U.S. 351"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-151"
@@ -3284,9 +4158,11 @@ cases:
     title: "United States v. Morant"
     volume: "124"
     page: "647"
+    citation: "124 U.S. 647"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1888"
-    citation: "124 U.S. 647"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-159"
@@ -3294,9 +4170,12 @@ cases:
     title: "Willamette Iron Bridge Co. v. Hatch"
     volume: "125"
     page: "001"
+    docket: "80"
+    citation: "125 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1888"
-    citation: "125 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-166"
@@ -3304,9 +4183,12 @@ cases:
     title: "Cunningham v. Norton"
     volume: "125"
     page: "077"
+    docket: "74"
+    citation: "125 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1888"
-    citation: "125 U.S. 77"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-167"
@@ -3314,9 +4196,12 @@ cases:
     title: "Davison v. Davis"
     volume: "125"
     page: "090"
+    docket: "100"
+    citation: "125 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1888"
-    citation: "125 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-195"
@@ -3324,9 +4209,12 @@ cases:
     title: "Williams v. Conger"
     volume: "125"
     page: "397"
+    docket: "105"
+    citation: "125 U.S. 397"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1888"
-    citation: "125 U.S. 397"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-197"
@@ -3334,9 +4222,12 @@ cases:
     title: "Union Trust Co. v. Morrison"
     volume: "125"
     page: "591"
+    docket: "64"
+    citation: "125 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1888"
-    citation: "125 U.S. 591"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-236"
@@ -3344,9 +4235,12 @@ cases:
     title: "California v. Central Pacific R. Co."
     volume: "127"
     page: "001"
+    docket: "660"
+    citation: "127 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1888"
-    citation: "127 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-264"
@@ -3354,9 +4248,12 @@ cases:
     title: "United States v. McLaughlin"
     volume: "127"
     page: "428"
+    docket: "1027"
+    citation: "127 U.S. 428"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1888"
-    citation: "127 U.S. 428"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-281"
@@ -3364,9 +4261,12 @@ cases:
     title: "St. Romes v. Levee Steam Cotton Press Co."
     volume: "127"
     page: "614"
+    docket: "139"
+    citation: "127 U.S. 614"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1888"
-    citation: "127 U.S. 614"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-282"
@@ -3374,9 +4274,12 @@ cases:
     title: "Robbins v. Rollins&apos;s Executors"
     volume: "127"
     page: "622"
+    docket: "237"
+    citation: "127 U.S. 622"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1888"
-    citation: "127 U.S. 622"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-283"
@@ -3384,9 +4287,12 @@ cases:
     title: "Calhoun v. Lanaux"
     volume: "127"
     page: "634"
+    docket: "239"
+    citation: "127 U.S. 634"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1888"
-    citation: "127 U.S. 634"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1887-284"
@@ -3394,9 +4300,12 @@ cases:
     title: "Leloup v. Port of Mobile"
     volume: "127"
     page: "640"
+    docket: "274"
+    citation: "127 U.S. 640"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1888"
-    citation: "127 U.S. 640"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-002"
@@ -3404,9 +4313,12 @@ cases:
     title: "Williams v. Conger"
     volume: "131"
     page: "390"
+    docket: "105"
+    citation: "131 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1888"
-    citation: "131 U.S. 390"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-010"
@@ -3414,9 +4326,12 @@ cases:
     title: "United States ex rel. Dunlap v. Black"
     volume: "128"
     page: "040"
+    docket: "991"
+    citation: "128 U.S. 40"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1888"
-    citation: "128 U.S. 40"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-015"
@@ -3424,9 +4339,12 @@ cases:
     title: "Asher v. Texas"
     volume: "128"
     page: "129"
+    docket: "781"
+    citation: "128 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Monday, October 29, 1888"
-    citation: "128 U.S. 129"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-026"
@@ -3434,9 +4352,12 @@ cases:
     title: "Ridings v. Johnson"
     volume: "128"
     page: "212"
+    docket: "44"
+    citation: "128 U.S. 212"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1888"
-    citation: "128 U.S. 212"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-031"
@@ -3444,9 +4365,12 @@ cases:
     title: "United States v. Cook"
     volume: "128"
     page: "254"
+    docket: "1163"
+    citation: "128 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1888"
-    citation: "128 U.S. 254"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-032"
@@ -3454,9 +4378,12 @@ cases:
     title: "Credit Co. v. Arkansas Central R. Co."
     volume: "128"
     page: "258"
+    docket: "69"
+    citation: "128 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1888"
-    citation: "128 U.S. 258"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-033"
@@ -3464,9 +4391,12 @@ cases:
     title: "United States v. Palmer"
     volume: "128"
     page: "262"
+    docket: "54"
+    citation: "128 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1888"
-    citation: "128 U.S. 262"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-046"
@@ -3474,9 +4404,12 @@ cases:
     title: "Fire Ins. Assn., Ltd. v. Wickham"
     volume: "128"
     page: "426"
+    docket: "1032"
+    citation: "128 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, November 26, 1888"
-    citation: "128 U.S. 426"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-101"
@@ -3484,9 +4417,12 @@ cases:
     title: "Galigher v. Jones"
     volume: "129"
     page: "193"
+    docket: "75"
+    citation: "129 U.S. 193"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1889"
-    citation: "129 U.S. 193"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-109"
@@ -3494,9 +4430,12 @@ cases:
     title: "Carr v. Hamilton"
     volume: "129"
     page: "252"
+    docket: "105"
+    citation: "129 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1889"
-    citation: "129 U.S. 252"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-116"
@@ -3504,9 +4443,12 @@ cases:
     title: "Pinkerton v. Ledoux"
     volume: "129"
     page: "346"
+    docket: "114"
+    citation: "129 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1889"
-    citation: "129 U.S. 346"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-147"
@@ -3514,9 +4456,12 @@ cases:
     title: "Ballard v. Searls"
     volume: "130"
     page: "050"
+    docket: "144"
+    citation: "130 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1889"
-    citation: "130 U.S. 50"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-174"
@@ -3524,9 +4469,12 @@ cases:
     title: "Amy v. Watertown (No. 1)"
     volume: "130"
     page: "301"
+    docket: "196"
+    citation: "130 U.S. 301"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1889"
-    citation: "130 U.S. 301"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-175"
@@ -3534,9 +4482,12 @@ cases:
     title: "Amy v. Watertown (No. 2)"
     volume: "130"
     page: "320"
+    docket: "197"
+    citation: "130 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1889"
-    citation: "130 U.S. 320"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-177"
@@ -3544,9 +4495,12 @@ cases:
     title: "Knowlton v. Watertown"
     volume: "130"
     page: "327"
+    docket: "198"
+    citation: "130 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1889"
-    citation: "130 U.S. 327"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-178"
@@ -3554,9 +4508,12 @@ cases:
     title: "Knowlton v. Watertown"
     volume: "130"
     page: "334"
+    docket: "199"
+    citation: "130 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1889"
-    citation: "130 U.S. 334"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-185"
@@ -3564,9 +4521,12 @@ cases:
     title: "Robertson v. Salomon"
     volume: "130"
     page: "412"
+    docket: "446"
+    citation: "130 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1889"
-    citation: "130 U.S. 412"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-197"
@@ -3574,9 +4534,12 @@ cases:
     title: "Butler v. Boston &amp; Savannah S. S. Co."
     volume: "130"
     page: "527"
+    docket: "244"
+    citation: "130 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1889"
-    citation: "130 U.S. 527"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-216"
@@ -3584,9 +4547,12 @@ cases:
     title: "United States v. Jones"
     volume: "131"
     page: "001"
+    docket: "1102"
+    citation: "131 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1889"
-    citation: "131 U.S. 1"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-217"
@@ -3594,9 +4560,12 @@ cases:
     title: "United States v. Drew"
     volume: "131"
     page: "021"
+    docket: "1061"
+    citation: "131 U.S. 21"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1889"
-    citation: "131 U.S. 21"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-235"
@@ -3604,9 +4573,12 @@ cases:
     title: "In re Nielsen"
     volume: "131"
     page: "176"
+    docket: "1527"
+    citation: "131 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1889"
-    citation: "131 U.S. 176"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-236"
@@ -3614,9 +4586,12 @@ cases:
     title: "New Orleans v. Gaines&apos;s Administrator"
     volume: "131"
     page: "191"
+    docket: "4"
+    citation: "131 U.S. 191"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1889"
-    citation: "131 U.S. 191"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1888-237"
@@ -3624,9 +4599,12 @@ cases:
     title: "New Orleans v. United States ex rel. Gaines&apos;s Administrators"
     volume: "131"
     page: "220"
+    docket: "2"
+    citation: "131 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1889"
-    citation: "131 U.S. 220"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-001"
@@ -3634,9 +4612,12 @@ cases:
     title: "Metropolitan R. Co. v. District of Columbia"
     volume: "132"
     page: "001"
+    docket: "5"
+    citation: "132 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, October 21, 1889"
-    citation: "132 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-003"
@@ -3644,9 +4625,12 @@ cases:
     title: "Robertson v. Frank Brothers Co."
     volume: "132"
     page: "017"
+    docket: "15"
+    citation: "132 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, October 28, 1889"
-    citation: "132 U.S. 17"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-049"
@@ -3654,9 +4638,12 @@ cases:
     title: "Bachrack v. Norton"
     volume: "132"
     page: "337"
+    docket: "116"
+    citation: "132 U.S. 337"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1889"
-    citation: "132 U.S. 337"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-064"
@@ -3664,9 +4651,12 @@ cases:
     title: "Robertson v. Bradbury"
     volume: "132"
     page: "491"
+    docket: "58"
+    citation: "132 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1889"
-    citation: "132 U.S. 491"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-086"
@@ -3674,9 +4664,12 @@ cases:
     title: "Miller v. Texas &amp; Pacific R. Co."
     volume: "132"
     page: "662"
+    docket: "737"
+    citation: "132 U.S. 662"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1890"
-    citation: "132 U.S. 662"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-096"
@@ -3684,9 +4677,12 @@ cases:
     title: "Illinois Central R. Co. v. Bosworth"
     volume: "133"
     page: "092"
+    docket: "79"
+    citation: "133 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1890"
-    citation: "133 U.S. 92"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-107"
@@ -3694,9 +4690,12 @@ cases:
     title: "Christian v. Atlantic &amp; North Carolina R. Co."
     volume: "133"
     page: "233"
+    docket: "46"
+    citation: "133 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1890"
-    citation: "133 U.S. 233"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-138"
@@ -3704,9 +4703,12 @@ cases:
     title: "Aspinwall v. Butler"
     volume: "133"
     page: "595"
+    docket: "957"
+    citation: "133 U.S. 595"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1890"
-    citation: "133 U.S. 595"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-145"
@@ -3714,9 +4716,12 @@ cases:
     title: "Hans v. Louisiana"
     volume: "134"
     page: "001"
+    docket: "4"
+    citation: "134 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1890"
-    citation: "134 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-146"
@@ -3724,9 +4729,12 @@ cases:
     title: "North Carolina v. Temple"
     volume: "134"
     page: "022"
+    docket: "392"
+    citation: "134 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1890"
-    citation: "134 U.S. 22"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-164"
@@ -3734,9 +4742,12 @@ cases:
     title: "Louisiana ex rel. New York Guaranty &amp; Indemnity Co. v. Steele"
     volume: "134"
     page: "230"
+    docket: "140"
+    citation: "134 U.S. 230"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1890"
-    citation: "134 U.S. 230"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-165"
@@ -3744,9 +4755,12 @@ cases:
     title: "Bell&apos;s Gap R. Co. v. Pennsylvania"
     volume: "134"
     page: "232"
+    docket: "1497"
+    citation: "134 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1890"
-    citation: "134 U.S. 232"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-166"
@@ -3754,9 +4768,12 @@ cases:
     title: "Chester City v. Pennsylvania"
     volume: "134"
     page: "240"
+    docket: "1498"
+    citation: "134 U.S. 240"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1890"
-    citation: "134 U.S. 240"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-214"
@@ -3764,9 +4781,12 @@ cases:
     title: "United States ex rel. Miller v. Raum"
     volume: "135"
     page: "200"
+    docket: "1572"
+    citation: "135 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1890"
-    citation: "135 U.S. 200"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-235"
@@ -3774,9 +4794,12 @@ cases:
     title: "Upshur County v. Rich"
     volume: "135"
     page: "467"
+    docket: "81"
+    citation: "135 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1890"
-    citation: "135 U.S. 467"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-252"
@@ -3784,9 +4807,12 @@ cases:
     title: "McGahey v. Virginia"
     volume: "135"
     page: "662"
+    docket: "1057"
+    citation: "135 U.S. 662"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1890"
-    citation: "135 U.S. 662"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-258"
@@ -3794,9 +4820,12 @@ cases:
     title: "Late Corp. of Church of Jesus Christ of Latter-day Saints v. United States"
     volume: "136"
     page: "001"
+    docket: "1031"
+    citation: "136 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1890"
-    citation: "136 U.S. 1"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-276"
@@ -3804,9 +4833,12 @@ cases:
     title: "Saloy v. Bloch"
     volume: "136"
     page: "338"
+    docket: "92"
+    citation: "136 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Friday, May 23, 1890"
-    citation: "136 U.S. 338"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1889-277"
@@ -3814,9 +4846,12 @@ cases:
     title: "Reynolds v. Adden"
     volume: "136"
     page: "348"
+    docket: "153"
+    citation: "136 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1890"
-    citation: "136 U.S. 348"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-049"
@@ -3824,9 +4859,12 @@ cases:
     title: "Robertson v. Oelschlaeger"
     volume: "137"
     page: "436"
+    docket: "255"
+    citation: "137 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1890"
-    citation: "137 U.S. 436"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-050"
@@ -3834,9 +4872,12 @@ cases:
     title: "New York Belting &amp; Packing Co. v. New Jersey Car Spring &amp; Rubber Co."
     volume: "137"
     page: "445"
+    docket: "39"
+    citation: "137 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1890"
-    citation: "137 U.S. 445"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-051"
@@ -3844,9 +4885,12 @@ cases:
     title: "In re Pennsylvania Co."
     volume: "137"
     page: "451"
+    docket: "7 Orig."
+    citation: "137 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1890"
-    citation: "137 U.S. 451"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-052"
@@ -3854,9 +4898,12 @@ cases:
     title: "In re Pennsylvania Co."
     volume: "137"
     page: "457"
+    docket: "6 Orig."
+    citation: "137 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1890"
-    citation: "137 U.S. 457"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-074"
@@ -3864,9 +4911,12 @@ cases:
     title: "Ayers v. Watson"
     volume: "137"
     page: "584"
+    docket: "1356"
+    citation: "137 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1891"
-    citation: "137 U.S. 584"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-092"
@@ -3874,9 +4924,12 @@ cases:
     title: "United States v. Central Pacific R. Co."
     volume: "138"
     page: "084"
+    docket: "758"
+    citation: "138 U.S. 84"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1891"
-    citation: "138 U.S. 84"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-128"
@@ -3884,9 +4937,12 @@ cases:
     title: "Clay v. Field"
     volume: "138"
     page: "464"
+    docket: "1085"
+    citation: "138 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "138 U.S. 464"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-142"
@@ -3894,9 +4950,12 @@ cases:
     title: "New Orleans v. Gaines&apos;s Administrator"
     volume: "138"
     page: "595"
+    docket: "1293"
+    citation: "138 U.S. 595"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "138 U.S. 595"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-184"
@@ -3904,9 +4963,12 @@ cases:
     title: "Mellen v. Buckner"
     volume: "139"
     page: "388"
+    docket: "13"
+    citation: "139 U.S. 388"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1891"
-    citation: "139 U.S. 388"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-262"
@@ -3914,9 +4976,12 @@ cases:
     title: "Hardin v. Jordan"
     volume: "140"
     page: "371"
+    docket: "161"
+    citation: "140 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 371"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-263"
@@ -3924,9 +4989,12 @@ cases:
     title: "Mitchell v. Smale"
     volume: "140"
     page: "406"
+    docket: "167"
+    citation: "140 U.S. 406"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 406"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-270"
@@ -3934,9 +5002,12 @@ cases:
     title: "Clark Thread Co. v. Willimantic Linen Co."
     volume: "140"
     page: "481"
+    docket: "31"
+    citation: "140 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "140 U.S. 481"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-281"
@@ -3944,9 +5015,12 @@ cases:
     title: "Chicago Distilling Co. v. Stone"
     volume: "140"
     page: "647"
+    docket: "130"
+    citation: "140 U.S. 647"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "140 U.S. 647"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-283"
@@ -3954,9 +5028,12 @@ cases:
     title: "In re Garnett"
     volume: "141"
     page: "001"
+    docket: "10 Orig."
+    citation: "141 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-287"
@@ -3964,9 +5041,12 @@ cases:
     title: "Crutcher v. Kentucky"
     volume: "141"
     page: "047"
+    docket: "828"
+    citation: "141 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 47"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-288"
@@ -3974,9 +5054,12 @@ cases:
     title: "Voight v. Wright"
     volume: "141"
     page: "062"
+    docket: "92"
+    citation: "141 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 62"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-304"
@@ -3984,9 +5067,12 @@ cases:
     title: "Pacific Nat. Bank v. Eaton"
     volume: "141"
     page: "227"
+    docket: "239"
+    citation: "141 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 227"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-305"
@@ -3994,9 +5080,12 @@ cases:
     title: "Thayer v. Butler"
     volume: "141"
     page: "234"
+    docket: "300"
+    citation: "141 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 234"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1890-306"
@@ -4004,9 +5093,12 @@ cases:
     title: "Butler v. Eaton"
     volume: "141"
     page: "240"
+    docket: "301"
+    citation: "141 U.S. 240"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 240"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jpbradley
     authorName: "Joseph Bradley"
 ---

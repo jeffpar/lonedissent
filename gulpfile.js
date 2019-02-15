@@ -2125,6 +2125,91 @@ function scoreStrings(left, right)
 }
 
 /**
+ * generateCommonCaseYML(decision, caseNumber, extras)
+ *
+ * @param {Decision} decision
+ * @param {number} [caseNumber]
+ * @param {Array.<string>} [extras]
+ */
+function generateCommonCaseYML(decision, caseNumber=0, extras=[])
+{
+    let volume = 0, page = 0;
+    let matchCite = decision.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
+    if (matchCite) {
+        volume = +matchCite[1];  page = +matchCite[2];
+    }
+    let ymlText = '  - id: "' + decision.caseId + '"\n';
+    if (extras.indexOf("caseNumber") >= 0) {
+        ymlText += '    number: ' + caseNumber + '\n';
+    }
+    ymlText += '    termId: "' + decision.termId + '"\n';
+    let title = encodeString(decision.caseTitle || decision.caseName, "html", false);
+    ymlText += '    title: "' + title + '"\n';
+    /*
+     * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
+     * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
+     * And finally, when using SCOTUS slip opinions, 'pdfSource' should be a SCOTUS path (eg,
+     * "17pdf/17-21_p8k0").
+     *
+     * The LOC appears to have PDFs for everything up through U.S. Reports volume 542, which covers
+     * the end of the 2003 term, and SCOTUS has bound volumes for U.S. Reports volumes 502 through 569,
+     * which spans terms 1991 through 2012, so there's a healthy overlap between LOC and SCOTUS.
+     *
+     * SCOTUS also has slip opinions for the 2012 term and up.  Moreover, SCOTUS claims it will keep
+     * slip opinions until they have been posted in a bound volume PDF.  This means that going forward,
+     * every new SCOTUS opinion will have a SCOTUS source (ie, bound or slip); unfortunately, it also
+     * means that periodically (ie, whenever SCOTUS decides to post a new bound volume PDF and remove
+     * corresponding slip opinion PDFs), we will have to detect the missing opinions and remap them.
+     * Sigh.
+     *
+     * Regarding LOC, you can browse an entire volume like so:
+     *
+     *      https://www.loc.gov/search/?fa=partof:u.s.+reports:+volume+542
+     *
+     * For a case like 542 U.S. 241, the PDF is here:
+     *
+     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.pdf
+     *
+     * and the thumbnail is here:
+     *
+     *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
+     *
+     * Some of the LOC PDFs don't actually start on the correct page.  The above PDF, for example,
+     * actually starts with page 240 of volume 542, not page 241.  Such cases should have the 'pdfPage'
+     * property set (eg, 2); the default value for 'pdfPage' is 1, so it need not be set for PDFs
+     * where the opinion properly begins on the first page (hopefully the case for most LOC opinions).
+     *
+     * As for the dissents, they invariably start at some later page in the PDF, so the 'pdfPageDissent'
+     * property must be set.  Moreover, if the 'pdfPage' is some value greater than 1, then that difference
+     * must be applied to 'pdfPageDissent' as well; our page templates will *not* automatically add
+     * "pdfpage" minus 1 to the dissent page number.
+     */
+    if (volume) ymlText += sprintf('    volume: "%03d"\n', volume);
+    if (page) ymlText += sprintf('    page: "%03d"\n' , page);
+    if (decision.docket) {
+        ymlText += '    docket: "' + decision.docket + '"\n';
+    }
+    if (decision.usCite) {
+        ymlText += '    citation: "' + decision.usCite + '"\n';
+    }
+    if (decision.pdfSource) ymlText += '    pdfSource: "' + decision.pdfSource + '"\n';
+    if (decision.pdfPage) ymlText += '    pdfPage: ' + decision.pdfPage + '\n';
+    if (decision.pdfPageDissent) ymlText += '    pdfPageDissent: ' + decision.pdfPageDissent + '\n';
+    if (extras.indexOf("dateArgument") >= 0 && decision.dateArgument) {
+        ymlText += '    dateArgument: "' + sprintf("%#C", decision.dateArgument) + '"\n';
+    }
+    if (decision.dateDecision) {
+        ymlText += '    dateDecision: "' + (decision.dateDecision.length < 10? getTermName(decision.dateDecision) : sprintf("%#C", decision.dateDecision)) + '"\n';
+    }
+    if (extras.indexOf("urlOyez") >= 0 && decision.urlOyez) {
+        ymlText += '    urlOyez: "' + decision.urlOyez + '"\n';
+    }
+    ymlText += '    voteMajority: ' + (decision.majVotes || 0) + '\n';
+    ymlText += '    voteMinority: ' + (decision.minVotes || 0)+ '\n';
+    return ymlText;
+}
+
+/**
  * generateCaseYML(decisions, vars, courts, justices, extras)
  *
  * @param {Array.<Decision>} decisions
@@ -2138,81 +2223,9 @@ function generateCaseYML(decisions, vars, courts, justices, extras=[])
     let ymlText = '';
     let caseNumber = 0;
     decisions.forEach((decision) => {
-        let volume = 0, page = 0;
-        let matchCite = decision.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
-        if (matchCite) {
-            volume = +matchCite[1];  page = +matchCite[2];
-        }
         caseNumber++;
         if (!ymlText) ymlText = 'cases:\n';
-        let title = encodeString(decision.caseTitle || decision.caseName, "html", false);
-        ymlText += '  - id: "' + decision.caseId + '"\n';
-        if (extras.indexOf("caseNumber") >= 0) {
-            ymlText += '    number: ' + caseNumber + '\n';
-        }
-        ymlText += '    termId: "' + decision.termId + '"\n';
-        ymlText += '    title: "' + title + '"\n';
-        /*
-         * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
-         * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
-         * And finally, when using SCOTUS slip opinions, 'pdfSource' should be a SCOTUS path (eg,
-         * "17pdf/17-21_p8k0").
-         *
-         * The LOC appears to have PDFs for everything up through U.S. Reports volume 542, which covers
-         * the end of the 2003 term, and SCOTUS has bound volumes for U.S. Reports volumes 502 through 569,
-         * which spans terms 1991 through 2012, so there's a healthy overlap between LOC and SCOTUS.
-         *
-         * SCOTUS also has slip opinions for the 2012 term and up.  Moreover, SCOTUS claims it will keep
-         * slip opinions until they have been posted in a bound volume PDF.  This means that going forward,
-         * every new SCOTUS opinion will have a SCOTUS source (ie, bound or slip); unfortunately, it also
-         * means that periodically (ie, whenever SCOTUS decides to post a new bound volume PDF and remove
-         * corresponding slip opinion PDFs), we will have to detect the missing opinions and remap them.
-         * Sigh.
-         *
-         * Regarding LOC, you can browse an entire volume like so:
-         *
-         *      https://www.loc.gov/search/?fa=partof:u.s.+reports:+volume+542
-         *
-         * For a case like 542 U.S. 241, the PDF is here:
-         *
-         *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.pdf
-         *
-         * and the thumbnail is here:
-         *
-         *      https://cdn.loc.gov/service/ll/usrep/usrep542/usrep542241/usrep542241.gif
-         *
-         * Some of the LOC PDFs don't actually start on the correct page.  The above PDF, for example,
-         * actually starts with page 240 of volume 542, not page 241.  Such cases should have the 'pdfPage'
-         * property set (eg, 2); the default value for 'pdfPage' is 1, so it need not be set for PDFs
-         * where the opinion properly begins on the first page (hopefully the case for most LOC opinions).
-         *
-         * As for the dissents, they invariably start at some later page in the PDF, so the 'pdfPageDissent'
-         * property must be set.  Moreover, if the 'pdfPage' is some value greater than 1, then that difference
-         * must be applied to 'pdfPageDissent' as well; our page templates will *not* automatically add
-         * "pdfpage" minus 1 to the dissent page number.
-         */
-        if (volume) ymlText += sprintf('    volume: "%03d"\n', volume);
-        if (page) ymlText += sprintf('    page: "%03d"\n' , page);
-        if (decision.docket) {
-            ymlText += '    docket: "' + decision.docket + '"\n';
-        }
-        if (decision.usCite) {
-            ymlText += '    citation: "' + decision.usCite + '"\n';
-        }
-        if (decision.pdfSource) ymlText += '    pdfSource: "' + decision.pdfSource + '"\n';
-        if (decision.pdfPage) ymlText += '    pdfPage: ' + decision.pdfPage + '\n';
-        if (decision.pdfPageDissent) ymlText += '    pdfPageDissent: ' + decision.pdfPageDissent + '\n';
-        if (extras.indexOf("dateArgument") >= 0 && decision.dateArgument) {
-            ymlText += '    dateArgument: "' + sprintf("%#C", decision.dateArgument) + '"\n';
-        }
-        if (decision.dateDecision) {
-            ymlText += '    dateDecision: "' + (decision.dateDecision.length < 10? getTermName(decision.dateDecision) : sprintf("%#C", decision.dateDecision)) + '"\n';
-        }
-        if (extras.indexOf("urlOyez") >= 0 && decision.urlOyez) {
-            ymlText += '    urlOyez: "' + decision.urlOyez + '"\n';
-        }
-        ymlText += '    voteMajority: ' + (decision.majVotes || 0) + '\n';
-        ymlText += '    voteMinority: ' + (decision.minVotes || 0)+ '\n';
+        ymlText += generateCommonCaseYML(decision, caseNumber, extras);
         if (decision.dissenterId) {
             ymlText += '    dissenterId: ' + getJusticeId(decision.dissenterId) + '\n';
             ymlText += '    dissenterName: "' + decision.dissenterName + '"\n';
@@ -2958,11 +2971,6 @@ function findJustices(done, minVotes)
         text += 'cases:\n';
         let opinions = minVotes == 1? justice.loneDissents : justice.majorityOpinions;
         opinions.forEach((opinion) => {
-            let volume = 0, page = 0;
-            let matchCite = opinion.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
-            if (matchCite) {
-                volume = +matchCite[1];  page = +matchCite[2];
-            }
             let b = searchObjects(lonerBackup, {caseId: opinion.caseId});
             if (b >= 0) {
                 let backup = lonerBackup[b];
@@ -2971,16 +2979,7 @@ function findJustices(done, minVotes)
                 if (backup['pdfPage']) opinion['pdfPage'] = backup['pdfPage'];
                 if (backup['pdfPageDissent']) opinion['pdfPageDissent'] = backup['pdfPageDissent'];
             }
-            text += '  - id: "' + opinion.caseId + '"\n';
-            text += '    termId: "' + opinion.termId + '"\n';
-            text += '    title: "' + encodeString(opinion.caseTitle || opinion.caseName, "html", false) + '"\n';
-            if (volume) text += sprintf('    volume: "%03d"\n', volume);
-            if (page) text += sprintf('    page: "%03d"\n' , page);
-            if (opinion.pdfSource) text += '    pdfSource: "' + opinion.pdfSource + '"\n';
-            if (opinion.pdfPage) text += '    pdfPage: ' + opinion.pdfPage + '\n';
-            if (opinion.pdfPageDissent) text += '    pdfPageDissent: ' + opinion.pdfPageDissent + '\n';
-            text += '    dateDecision: "' + (opinion.dateDecision.length < 10? getTermName(opinion.termId) : sprintf("%#C", opinion.dateDecision)) + '"\n';
-            text += '    citation: "' + (opinion.usCite || ('No. ' + opinion.docket)) + '"\n';
+            text += generateCommonCaseYML(opinion);
             if (minVotes == 1) {
                 text += '    dissenterId: ' + justice.id + '\n';
                 text += '    dissenterName: "' + justice.name + '"\n';

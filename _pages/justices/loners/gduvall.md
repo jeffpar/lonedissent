@@ -8,9 +8,11 @@ cases:
     title: "Queen v. Hepburn"
     volume: "011"
     page: "290"
+    citation: "11 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Friday, February 12, 1813"
-    citation: "11 U.S. 290"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: gduvall
     dissenterName: "Gabriel Duvall"
   - id: "1815-020"
@@ -18,9 +20,11 @@ cases:
     title: "McIver&apos;s Lessee v. Walker"
     volume: "013"
     page: "173"
+    citation: "13 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 1, 1815"
-    citation: "13 U.S. 173"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: gduvall
     dissenterName: "Gabriel Duvall"
   - id: "1819-021"
@@ -28,9 +32,11 @@ cases:
     title: "Trustees of Dartmouth College v. Woodward"
     volume: "017"
     page: "518"
+    citation: "17 U.S. 518"
     pdfSource: "loc"
     dateDecision: "Thursday, February 25, 1819"
-    citation: "17 U.S. 518"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: gduvall
     dissenterName: "Gabriel Duvall"
 ---

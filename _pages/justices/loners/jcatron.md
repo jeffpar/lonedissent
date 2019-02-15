@@ -8,9 +8,11 @@ cases:
     title: "Mayor of Mobile v. Hallett"
     volume: "041"
     page: "261"
+    citation: "41 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Saturday, March 12, 1842"
-    citation: "41 U.S. 261"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jcatron
     dissenterName: "John Catron"
   - id: "1843-008"
@@ -18,9 +20,11 @@ cases:
     title: "Mayor and Aldermen of Mobile v. Emanuel"
     volume: "042"
     page: "095"
+    citation: "42 U.S. 95"
     pdfSource: "loc"
     dateDecision: "Thursday, February 2, 1843"
-    citation: "42 U.S. 95"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jcatron
     dissenterName: "John Catron"
   - id: "1844-022"
@@ -28,9 +32,11 @@ cases:
     title: "Bank of United States v. United States"
     volume: "043"
     page: "711"
+    citation: "43 U.S. 711"
     pdfSource: "loc"
     dateDecision: "Saturday, March 9, 1844"
-    citation: "43 U.S. 711"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jcatron
     dissenterName: "John Catron"
   - id: "1845-019"
@@ -38,9 +44,11 @@ cases:
     title: "Nugent v. Boyd"
     volume: "044"
     page: "426"
+    citation: "44 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Friday, January 17, 1845"
-    citation: "44 U.S. 426"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jcatron
     dissenterName: "John Catron"
   - id: "1850-068"
@@ -48,9 +56,11 @@ cases:
     title: "Tayloe v. Merchants&apos; Fire Ins. Co. of Baltimore"
     volume: "050"
     page: "390"
+    citation: "50 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Thursday, May 23, 1850"
-    citation: "50 U.S. 390"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jcatron
     dissenterName: "John Catron"
   - id: "1850-091"
@@ -58,9 +68,11 @@ cases:
     title: "Strader v. Graham"
     volume: "051"
     page: "082"
+    citation: "51 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1851"
-    citation: "51 U.S. 82"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jcatron
     dissenterName: "John Catron"
   - id: "1853-056"
@@ -68,9 +80,11 @@ cases:
     title: "Stafford v. Union Bank of La."
     volume: "057"
     page: "135"
+    citation: "57 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Friday, May 5, 1854"
-    citation: "57 U.S. 135"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jcatron
     dissenterName: "John Catron"
   - id: "1855-090"
@@ -78,9 +92,11 @@ cases:
     title: "Steamer Oregon v. Rocca"
     volume: "059"
     page: "570"
+    citation: "59 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 14, 1856"
-    citation: "59 U.S. 570"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jcatron
     dissenterName: "John Catron"
   - id: "1860-030"
@@ -88,9 +104,11 @@ cases:
     title: "Moore v. American Transp. Co."
     volume: "065"
     page: "001"
+    citation: "65 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1861"
-    citation: "65 U.S. 1"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jcatron
     dissenterName: "John Catron"
   - id: "1863-044"
@@ -98,9 +116,11 @@ cases:
     title: "Bronson v. La Crosse &amp; Milwaukee R. Co."
     volume: "068"
     page: "405"
+    citation: "68 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1864"
-    citation: "68 U.S. 405"
+    voteMajority: 9
+    voteMinority: 1
     dissenterId: jcatron
     dissenterName: "John Catron"
   - id: "1863-045"
@@ -108,9 +128,11 @@ cases:
     title: "Bronson v. La Crosse &amp; Milwaukie R. Co."
     volume: "069"
     page: "283"
+    citation: "69 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1864"
-    citation: "69 U.S. 283"
+    voteMajority: 9
+    voteMinority: 1
     dissenterId: jcatron
     dissenterName: "John Catron"
   - id: "1863-053"
@@ -118,9 +140,11 @@ cases:
     title: "Brooks v. Martin"
     volume: "069"
     page: "070"
+    citation: "69 U.S. 70"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1864"
-    citation: "69 U.S. 70"
+    voteMajority: 9
+    voteMinority: 1
     dissenterId: jcatron
     dissenterName: "John Catron"
 ---

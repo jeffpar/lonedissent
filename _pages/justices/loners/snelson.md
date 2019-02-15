@@ -8,9 +8,11 @@ cases:
     title: "Withers v. Greene"
     volume: "050"
     page: "213"
+    citation: "50 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 14, 1850"
-    citation: "50 U.S. 213"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: snelson
     dissenterName: "Samuel Nelson"
   - id: "1850-129"
@@ -18,9 +20,11 @@ cases:
     title: "Gratz&apos;s Executors v. Cohen"
     volume: "052"
     page: "001"
+    citation: "52 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1851"
-    citation: "52 U.S. 1"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: snelson
     dissenterName: "Samuel Nelson"
   - id: "1851-025"
@@ -28,9 +32,11 @@ cases:
     title: "Erwin v. Parham"
     volume: "053"
     page: "197"
+    citation: "53 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Friday, February 6, 1852"
-    citation: "53 U.S. 197"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: snelson
     dissenterName: "Samuel Nelson"
   - id: "1853-005"
@@ -38,9 +44,11 @@ cases:
     title: "Curran v. Arkansas"
     volume: "056"
     page: "304"
+    citation: "56 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Thursday, December 29, 1853"
-    citation: "56 U.S. 304"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: snelson
     dissenterName: "Samuel Nelson"
   - id: "1858-022"
@@ -48,9 +56,11 @@ cases:
     title: "McKinlay v. Morrish"
     volume: "062"
     page: "343"
+    citation: "62 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1859"
-    citation: "62 U.S. 343"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: snelson
     dissenterName: "Samuel Nelson"
   - id: "1863-003"
@@ -58,9 +68,11 @@ cases:
     title: "Roosevelt v. Meyer"
     volume: "068"
     page: "512"
+    citation: "68 U.S. 512"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1863"
-    citation: "68 U.S. 512"
+    voteMajority: 9
+    voteMinority: 1
     dissenterId: snelson
     dissenterName: "Samuel Nelson"
   - id: "1864-013"
@@ -68,9 +80,11 @@ cases:
     title: "The Circassian"
     volume: "069"
     page: "135"
+    citation: "69 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1865"
-    citation: "69 U.S. 135"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: snelson
     dissenterName: "Samuel Nelson"
   - id: "1868-033"
@@ -78,9 +92,11 @@ cases:
     title: "The Siren"
     volume: "074"
     page: "152"
+    citation: "74 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1869"
-    citation: "74 U.S. 152"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: snelson
     dissenterName: "Samuel Nelson"
   - id: "1869-015"
@@ -88,9 +104,11 @@ cases:
     title: "Woodruff v. Parham"
     volume: "075"
     page: "123"
+    citation: "75 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1869"
-    citation: "75 U.S. 123"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: snelson
     dissenterName: "Samuel Nelson"
   - id: "1869-016"
@@ -98,9 +116,11 @@ cases:
     title: "Hinson v. Lott"
     volume: "075"
     page: "148"
+    citation: "75 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1869"
-    citation: "75 U.S. 148"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: snelson
     dissenterName: "Samuel Nelson"
 ---

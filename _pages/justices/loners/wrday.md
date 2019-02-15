@@ -8,9 +8,12 @@ cases:
     title: "John Woods &amp; Sons v. Carl"
     volume: "203"
     page: "358"
+    docket: "102"
+    citation: "203 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 358"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wrday
     dissenterName: "William Day"
   - id: "1912-240"
@@ -18,9 +21,12 @@ cases:
     title: "Wheeler v. City and County of Denver"
     volume: "229"
     page: "342"
+    docket: "473"
+    citation: "229 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1913"
-    citation: "229 U.S. 342"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wrday
     dissenterName: "William Day"
   - id: "1912-242"
@@ -28,9 +34,12 @@ cases:
     title: "McGovern v. City of New York"
     volume: "229"
     page: "363"
+    docket: "15"
+    citation: "229 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "229 U.S. 363"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wrday
     dissenterName: "William Day"
   - id: "1913-090"
@@ -38,9 +47,12 @@ cases:
     title: "Mullen v. Simmons"
     volume: "234"
     page: "192"
+    docket: "263"
+    citation: "234 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 192"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wrday
     dissenterName: "William Day"
   - id: "1913-229"
@@ -48,9 +60,12 @@ cases:
     title: "Rubber Tire Wheel Co. v. Goodyear Tire &amp; Rubber Co."
     volume: "232"
     page: "413"
+    docket: "37"
+    citation: "232 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 413"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wrday
     dissenterName: "William Day"
   - id: "1916-160"
@@ -58,9 +73,12 @@ cases:
     title: "Five Per Cent. Discount Cases"
     volume: "243"
     page: "097"
+    docket: "149"
+    citation: "243 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 97"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wrday
     dissenterName: "William Day"
 ---

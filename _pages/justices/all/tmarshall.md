@@ -8,9 +8,12 @@ cases:
     title: "Mempa v. Rhay"
     volume: "389"
     page: "128"
+    docket: "16"
+    citation: "389 U.S. 128"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1967"
-    citation: "389 U.S. 128"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1967-045"
@@ -18,9 +21,12 @@ cases:
     title: "Case-Swayne Co. v. Sunkist Growers, Inc."
     volume: "389"
     page: "384"
+    docket: "66"
+    citation: "389 U.S. 384"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1967"
-    citation: "389 U.S. 384"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1967-107"
@@ -28,9 +34,12 @@ cases:
     title: "Interstate Circuit, Inc. v. Dallas"
     volume: "390"
     page: "676"
+    docket: "56"
+    citation: "390 U.S. 676"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1968"
-    citation: "390 U.S. 676"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1967-108"
@@ -38,9 +47,12 @@ cases:
     title: "Barber v. Page"
     volume: "390"
     page: "719"
+    docket: "703"
+    citation: "390 U.S. 719"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 23, 1968"
-    citation: "390 U.S. 719"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1967-128"
@@ -48,9 +60,12 @@ cases:
     title: "First Nat. Bank of Ariz. v. Cities Service Co."
     volume: "391"
     page: "253"
+    docket: "23"
+    citation: "391 U.S. 253"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1968"
-    citation: "391 U.S. 253"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1967-129"
@@ -58,9 +73,12 @@ cases:
     title: "Food Employees v. Logan Valley Plaza, Inc."
     volume: "391"
     page: "308"
+    docket: "478"
+    citation: "391 U.S. 308"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1968"
-    citation: "391 U.S. 308"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1967-149"
@@ -68,9 +86,12 @@ cases:
     title: "Pickering v. Board of Ed. of Township High School Dist. 205, Will Cty."
     volume: "391"
     page: "563"
+    docket: "510"
+    citation: "391 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1968"
-    citation: "391 U.S. 563"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1967-150"
@@ -78,9 +99,12 @@ cases:
     title: "Sabbath v. United States"
     volume: "391"
     page: "585"
+    docket: "898"
+    citation: "391 U.S. 585"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1968"
-    citation: "391 U.S. 585"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1967-183"
@@ -88,9 +112,12 @@ cases:
     title: "Powell v. Texas"
     volume: "392"
     page: "514"
+    docket: "405"
+    citation: "392 U.S. 514"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1968"
-    citation: "392 U.S. 514"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1967-184"
@@ -98,9 +125,12 @@ cases:
     title: "American Commercial Lines, Inc. v. Louisville &amp; Nashville R. Co."
     volume: "392"
     page: "571"
+    docket: "797"
+    citation: "392 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1968"
-    citation: "392 U.S. 571"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1968-019"
@@ -108,9 +138,12 @@ cases:
     title: "United States v. Concentrated Phosphate Export Assn., Inc."
     volume: "393"
     page: "199"
+    docket: "29"
+    citation: "393 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1968"
-    citation: "393 U.S. 199"
+    voteMajority: 6
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1968-027"
@@ -118,9 +151,12 @@ cases:
     title: "United States v. Donruss Co."
     volume: "393"
     page: "297"
+    docket: "17"
+    citation: "393 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1969"
-    citation: "393 U.S. 297"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1968-040"
@@ -128,9 +164,12 @@ cases:
     title: "SEC v. National Securities, Inc."
     volume: "393"
     page: "453"
+    docket: "41"
+    citation: "393 U.S. 453"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1969"
-    citation: "393 U.S. 453"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1968-078"
@@ -138,9 +177,12 @@ cases:
     title: "Stanley v. Georgia"
     volume: "394"
     page: "557"
+    docket: "293"
+    citation: "394 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1969"
-    citation: "394 U.S. 557"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1968-082"
@@ -148,9 +190,12 @@ cases:
     title: "United States v. Skelly Oil Co."
     volume: "394"
     page: "678"
+    docket: "280"
+    citation: "394 U.S. 678"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1969"
-    citation: "394 U.S. 678"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1968-086"
@@ -158,9 +203,12 @@ cases:
     title: "Frazier v. Cupp"
     volume: "394"
     page: "731"
+    docket: "643"
+    citation: "394 U.S. 731"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 22, 1969"
-    citation: "394 U.S. 731"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1968-103"
@@ -168,9 +216,12 @@ cases:
     title: "Frank v. United States"
     volume: "395"
     page: "147"
+    docket: "200"
+    citation: "395 U.S. 147"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1969"
-    citation: "395 U.S. 147"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1968-106"
@@ -178,9 +229,12 @@ cases:
     title: "McKart v. United States"
     volume: "395"
     page: "185"
+    docket: "403"
+    citation: "395 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1969"
-    citation: "395 U.S. 185"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1968-117"
@@ -188,9 +242,12 @@ cases:
     title: "United States v. Estate of Grace"
     volume: "395"
     page: "316"
+    docket: "574"
+    citation: "395 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1969"
-    citation: "395 U.S. 316"
+    voteMajority: 6
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1968-118"
@@ -198,9 +255,12 @@ cases:
     title: "Rodriquez v. United States"
     volume: "395"
     page: "327"
+    docket: "749"
+    citation: "395 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1969"
-    citation: "395 U.S. 327"
+    voteMajority: 7
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1968-122"
@@ -208,9 +268,12 @@ cases:
     title: "Willingham v. Morgan"
     volume: "395"
     page: "402"
+    docket: "228"
+    citation: "395 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1969"
-    citation: "395 U.S. 402"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1968-123"
@@ -218,9 +281,12 @@ cases:
     title: "Jenkins v. McKeithen"
     volume: "395"
     page: "411"
+    docket: "548"
+    citation: "395 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1969"
-    citation: "395 U.S. 411"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1968-137"
@@ -228,9 +294,12 @@ cases:
     title: "Benton v. Maryland"
     volume: "395"
     page: "784"
+    docket: "201"
+    citation: "395 U.S. 784"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1969"
-    citation: "395 U.S. 784"
+    voteMajority: 6
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1969-020"
@@ -238,9 +307,12 @@ cases:
     title: "NLRB v. J. H. Rutter-Rex Mfg. Co."
     volume: "396"
     page: "258"
+    docket: "32"
+    citation: "396 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1969"
-    citation: "396 U.S. 258"
+    voteMajority: 5
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1969-034"
@@ -248,9 +320,12 @@ cases:
     title: "Goldstein v. Cox"
     volume: "396"
     page: "471"
+    docket: "66"
+    citation: "396 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1970"
-    citation: "396 U.S. 471"
+    voteMajority: 6
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1969-064"
@@ -258,9 +333,12 @@ cases:
     title: "United States v. Estate of Donnelly"
     volume: "397"
     page: "286"
+    docket: "104"
+    citation: "397 U.S. 286"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1970"
-    citation: "397 U.S. 286"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1969-065"
@@ -268,9 +346,12 @@ cases:
     title: "United States v. Davis"
     volume: "397"
     page: "301"
+    docket: "282"
+    citation: "397 U.S. 301"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1970"
-    citation: "397 U.S. 301"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1969-067"
@@ -278,9 +359,12 @@ cases:
     title: "United States v. Key"
     volume: "397"
     page: "322"
+    docket: "402"
+    citation: "397 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1970"
-    citation: "397 U.S. 322"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1969-077"
@@ -288,9 +372,12 @@ cases:
     title: "Woodward v. Commissioner"
     volume: "397"
     page: "572"
+    docket: "412"
+    citation: "397 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1970"
-    citation: "397 U.S. 572"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1969-078"
@@ -298,9 +385,12 @@ cases:
     title: "United States v. Hilton Hotels Corp."
     volume: "397"
     page: "580"
+    docket: "528"
+    citation: "397 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1970"
-    citation: "397 U.S. 580"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1969-083"
@@ -308,9 +398,12 @@ cases:
     title: "Choctaw Nation v. Oklahoma"
     volume: "397"
     page: "620"
+    docket: "41"
+    citation: "397 U.S. 620"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1970"
-    citation: "397 U.S. 620"
+    voteMajority: 4
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1969-095"
@@ -318,9 +411,12 @@ cases:
     title: "NLRB v. Raytheon Co."
     volume: "398"
     page: "025"
+    docket: "440"
+    citation: "398 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1970"
-    citation: "398 U.S. 25"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1969-114"
@@ -328,9 +424,12 @@ cases:
     title: "Evans v. Cornman"
     volume: "398"
     page: "419"
+    docket: "236"
+    citation: "398 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1970"
-    citation: "398 U.S. 419"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1970-011"
@@ -338,9 +437,12 @@ cases:
     title: "Port of Boston Marine Terminal Assn. v. Rederiaktiebolaget Transatlantic"
     volume: "400"
     page: "062"
+    docket: "99"
+    citation: "400 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 8, 1970"
-    citation: "400 U.S. 62"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1970-016"
@@ -348,9 +450,12 @@ cases:
     title: "NLRB v. Operating Engineers"
     volume: "400"
     page: "297"
+    docket: "40"
+    citation: "400 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 12, 1971"
-    citation: "400 U.S. 297"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1970-055"
@@ -358,9 +463,12 @@ cases:
     title: "Citizens to Preserve Overton Park, Inc. v. Volpe"
     volume: "401"
     page: "402"
+    docket: "1066"
+    citation: "401 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1971"
-    citation: "401 U.S. 402"
+    voteMajority: 6
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1970-057"
@@ -368,9 +476,12 @@ cases:
     title: "Gillette v. United States"
     volume: "401"
     page: "437"
+    docket: "85"
+    citation: "401 U.S. 437"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1971"
-    citation: "401 U.S. 437"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1970-078"
@@ -378,9 +489,12 @@ cases:
     title: "Rewis v. United States"
     volume: "401"
     page: "808"
+    docket: "5342"
+    citation: "401 U.S. 808"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1971"
-    citation: "401 U.S. 808"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1970-101"
@@ -388,9 +502,12 @@ cases:
     title: "McGee v. United States"
     volume: "402"
     page: "479"
+    docket: "362"
+    citation: "402 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1971"
-    citation: "402 U.S. 479"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1970-116"
@@ -398,9 +515,12 @@ cases:
     title: "United States v. Armour &amp; Co."
     volume: "402"
     page: "673"
+    docket: "759"
+    citation: "402 U.S. 673"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1971"
-    citation: "402 U.S. 673"
+    voteMajority: 4
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1970-126"
@@ -408,9 +528,12 @@ cases:
     title: "Abate v. Mundt"
     volume: "403"
     page: "182"
+    docket: "71"
+    citation: "403 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1971"
-    citation: "403 U.S. 182"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1970-132"
@@ -418,9 +541,12 @@ cases:
     title: "Hodgson v. Steelworkers"
     volume: "403"
     page: "333"
+    docket: "655"
+    citation: "403 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1971"
-    citation: "403 U.S. 333"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-022"
@@ -428,9 +554,12 @@ cases:
     title: "Britt v. North Carolina"
     volume: "404"
     page: "226"
+    docket: "70-5041"
+    citation: "404 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1971"
-    citation: "404 U.S. 226"
+    voteMajority: 5
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-031"
@@ -438,9 +567,12 @@ cases:
     title: "United States v. Bass"
     volume: "404"
     page: "336"
+    docket: "70-71"
+    citation: "404 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1971"
-    citation: "404 U.S. 336"
+    voteMajority: 5
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-034"
@@ -448,9 +580,12 @@ cases:
     title: "SEC v. Medical Comm. for Human Rights"
     volume: "404"
     page: "403"
+    docket: "70-61"
+    citation: "404 U.S. 403"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1972"
-    citation: "404 U.S. 403"
+    voteMajority: 6
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-044"
@@ -458,9 +593,12 @@ cases:
     title: "Trbovich v. Mine Workers"
     volume: "404"
     page: "528"
+    docket: "71-119"
+    citation: "404 U.S. 528"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1972"
-    citation: "404 U.S. 528"
+    voteMajority: 6
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-069"
@@ -468,9 +606,12 @@ cases:
     title: "Hawaii v. Standard Oil Co. of Cal."
     volume: "405"
     page: "251"
+    docket: "70-49"
+    citation: "405 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 1, 1972"
-    citation: "405 U.S. 251"
+    voteMajority: 5
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-071"
@@ -478,9 +619,12 @@ cases:
     title: "United States v. Mississippi Chemical Corp."
     volume: "405"
     page: "298"
+    docket: "70-52"
+    citation: "405 U.S. 298"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1972"
-    citation: "405 U.S. 298"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-075"
@@ -488,9 +632,12 @@ cases:
     title: "Dunn v. Blumstein"
     volume: "405"
     page: "330"
+    docket: "70-13"
+    citation: "405 U.S. 330"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 21, 1972"
-    citation: "405 U.S. 330"
+    voteMajority: 6
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-081"
@@ -498,9 +645,12 @@ cases:
     title: "Humphrey v. Cady"
     volume: "405"
     page: "504"
+    docket: "70-5004"
+    citation: "405 U.S. 504"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 22, 1972"
-    citation: "405 U.S. 504"
+    voteMajority: 7
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-085"
@@ -508,9 +658,12 @@ cases:
     title: "United States v. Topco Associates, Inc."
     volume: "405"
     page: "596"
+    docket: "70-82"
+    citation: "405 U.S. 596"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 29, 1972"
-    citation: "405 U.S. 596"
+    voteMajority: 6
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-112"
@@ -518,9 +671,12 @@ cases:
     title: "Caplin v. Marine Midland Grace Trust Co."
     volume: "406"
     page: "416"
+    docket: "70-220"
+    citation: "406 U.S. 416"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1972"
-    citation: "406 U.S. 416"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-127"
@@ -528,9 +684,12 @@ cases:
     title: "Brunette Machine Works, Ltd. v. Kockum Industries, Inc."
     volume: "406"
     page: "706"
+    docket: "70-314"
+    citation: "406 U.S. 706"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 7, 1972"
-    citation: "406 U.S. 706"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-145"
@@ -538,9 +697,12 @@ cases:
     title: "McNeil v. Director, Patuxent Institution"
     volume: "407"
     page: "245"
+    docket: "71-5144"
+    citation: "407 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Monday, June 19, 1972"
-    citation: "407 U.S. 245"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-155"
@@ -548,9 +710,12 @@ cases:
     title: "Peters v. Kiff"
     volume: "407"
     page: "493"
+    docket: "71-5078"
+    citation: "407 U.S. 493"
     pdfSource: "loc"
     dateDecision: "Thursday, June 22, 1972"
-    citation: "407 U.S. 493"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-161"
@@ -558,9 +723,12 @@ cases:
     title: "Police Dept. of Chicago v. Mosley"
     volume: "408"
     page: "092"
+    docket: "70-87"
+    citation: "408 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Monday, June 26, 1972"
-    citation: "408 U.S. 92"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1971-162"
@@ -568,9 +736,12 @@ cases:
     title: "Grayned v. City of Rockford"
     volume: "408"
     page: "104"
+    docket: "70-5106"
+    citation: "408 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, June 26, 1972"
-    citation: "408 U.S. 104"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1972-017"
@@ -578,9 +749,12 @@ cases:
     title: "Tidewater Oil Co. v. United States"
     volume: "409"
     page: "151"
+    docket: "71-366"
+    citation: "409 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 6, 1972"
-    citation: "409 U.S. 151"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1972-024"
@@ -588,9 +762,12 @@ cases:
     title: "Erlenbaugh v. United States"
     volume: "409"
     page: "239"
+    docket: "71-839"
+    citation: "409 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 12, 1972"
-    citation: "409 U.S. 239"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1972-026"
@@ -598,9 +775,12 @@ cases:
     title: "Heublein, Inc. v. South Carolina Tax Comm&apos;n"
     volume: "409"
     page: "275"
+    docket: "71-879"
+    citation: "409 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1972"
-    citation: "409 U.S. 275"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1972-070"
@@ -608,9 +788,12 @@ cases:
     title: "Bradley v. United States"
     volume: "410"
     page: "605"
+    docket: "71-1304"
+    citation: "410 U.S. 605"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1973"
-    citation: "410 U.S. 605"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1972-071"
@@ -618,9 +801,12 @@ cases:
     title: "Linda R. S. v. Richard D."
     volume: "410"
     page: "614"
+    docket: "71-6078"
+    citation: "410 U.S. 614"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1973"
-    citation: "410 U.S. 614"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1972-087"
@@ -628,9 +814,12 @@ cases:
     title: "McClanahan v. Arizona Tax Comm&apos;n"
     volume: "411"
     page: "164"
+    docket: "71-834"
+    citation: "411 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 27, 1973"
-    citation: "411 U.S. 164"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1972-114"
@@ -638,9 +827,12 @@ cases:
     title: "Moor v. County of Alameda"
     volume: "411"
     page: "693"
+    docket: "72-10"
+    citation: "411 U.S. 693"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1973"
-    citation: "411 U.S. 693"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1972-115"
@@ -648,9 +840,12 @@ cases:
     title: "Federal Maritime Comm&apos;n v. Seatrain Lines, Inc."
     volume: "411"
     page: "726"
+    docket: "71-1647"
+    citation: "411 U.S. 726"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1973"
-    citation: "411 U.S. 726"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1972-131"
@@ -658,9 +853,12 @@ cases:
     title: "United States v. Tax Comm&apos;n of Miss."
     volume: "412"
     page: "363"
+    docket: "72-350"
+    citation: "412 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1973"
-    citation: "412 U.S. 363"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1972-132"
@@ -668,9 +866,12 @@ cases:
     title: "United States v. Mason"
     volume: "412"
     page: "391"
+    docket: "72-654"
+    citation: "412 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1973"
-    citation: "412 U.S. 391"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1972-138"
@@ -678,9 +879,12 @@ cases:
     title: "Wardius v. Oregon"
     volume: "412"
     page: "470"
+    docket: "71-6042"
+    citation: "412 U.S. 470"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1973"
-    citation: "412 U.S. 470"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1972-155"
@@ -688,9 +892,12 @@ cases:
     title: "Atchison, T. &amp; S. F. R. Co. v. Wichita Bd. of Trade"
     volume: "412"
     page: "800"
+    docket: "72-214"
+    citation: "412 U.S. 800"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1973"
-    citation: "412 U.S. 800"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1973-014"
@@ -698,9 +905,12 @@ cases:
     title: "Espinoza v. Farah Mfg. Co."
     volume: "414"
     page: "086"
+    docket: "72-671"
+    citation: "414 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1973"
-    citation: "414 U.S. 86"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1973-028"
@@ -708,9 +918,12 @@ cases:
     title: "Bonelli Cattle Co. v. Arizona"
     volume: "414"
     page: "313"
+    docket: "72-397"
+    citation: "414 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1973"
-    citation: "414 U.S. 313"
+    voteMajority: 7
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1973-055"
@@ -718,9 +931,12 @@ cases:
     title: "Curtis v. Loether"
     volume: "415"
     page: "189"
+    docket: "72-1035"
+    citation: "415 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 20, 1974"
-    citation: "415 U.S. 189"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1973-058"
@@ -728,9 +944,12 @@ cases:
     title: "Memorial Hospital v. Maricopa County"
     volume: "415"
     page: "250"
+    docket: "72-847"
+    citation: "415 U.S. 250"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1974"
-    citation: "415 U.S. 250"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1973-070"
@@ -738,9 +957,12 @@ cases:
     title: "Granny Goose Foods, Inc. v. Teamsters"
     volume: "415"
     page: "423"
+    docket: "72-1566"
+    citation: "415 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1974"
-    citation: "415 U.S. 423"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1973-094"
@@ -748,9 +970,12 @@ cases:
     title: "Pernell v. Southall Realty"
     volume: "416"
     page: "363"
+    docket: "72-6041"
+    citation: "416 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 24, 1974"
-    citation: "416 U.S. 363"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1973-118"
@@ -758,9 +983,12 @@ cases:
     title: "Bellis v. United States"
     volume: "417"
     page: "085"
+    docket: "73-190"
+    citation: "417 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 1974"
-    citation: "417 U.S. 85"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1973-119"
@@ -768,9 +996,12 @@ cases:
     title: "Cooper Stevedoring Co. v. Fritz Kopke, Inc."
     volume: "417"
     page: "106"
+    docket: "73-726"
+    citation: "417 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 1974"
-    citation: "417 U.S. 106"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1973-120"
@@ -778,9 +1009,12 @@ cases:
     title: "F. D. Rich Co. v. United States ex rel. Industrial Lumber Co."
     volume: "417"
     page: "116"
+    docket: "72-1382"
+    citation: "417 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 1974"
-    citation: "417 U.S. 116"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1973-124"
@@ -788,9 +1022,12 @@ cases:
     title: "Corning Glass Works v. Brennan"
     volume: "417"
     page: "188"
+    docket: "73-29"
+    citation: "417 U.S. 188"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1974"
-    citation: "417 U.S. 188"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1973-125"
@@ -798,9 +1035,12 @@ cases:
     title: "Anderson v. United States"
     volume: "417"
     page: "211"
+    docket: "73-346"
+    citation: "417 U.S. 211"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1974"
-    citation: "417 U.S. 211"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1973-126"
@@ -808,9 +1048,12 @@ cases:
     title: "Howard Johnson Co. v. Hotel Employees"
     volume: "417"
     page: "249"
+    docket: "73-631"
+    citation: "417 U.S. 249"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1974"
-    citation: "417 U.S. 249"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1973-160"
@@ -818,9 +1061,12 @@ cases:
     title: "Letter Carriers v. Austin"
     volume: "418"
     page: "264"
+    docket: "72-1180"
+    citation: "418 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 25, 1974"
-    citation: "418 U.S. 264"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1974-017"
@@ -828,9 +1074,12 @@ cases:
     title: "Kelley v. Southern Pacific Co."
     volume: "419"
     page: "318"
+    docket: "73-1270"
+    citation: "419 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1974"
-    citation: "419 U.S. 318"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1974-034"
@@ -838,9 +1087,12 @@ cases:
     title: "Emporium Capwell Co. v. Western Addition Community Organization"
     volume: "420"
     page: "050"
+    docket: "73-696"
+    citation: "420 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 18, 1975"
-    citation: "420 U.S. 50"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1974-035"
@@ -848,9 +1100,12 @@ cases:
     title: "Harris County Comm&apos;rs Court v. Moore"
     volume: "420"
     page: "077"
+    docket: "73-1475"
+    citation: "420 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 18, 1975"
-    citation: "420 U.S. 77"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1974-036"
@@ -858,9 +1113,12 @@ cases:
     title: "Foster v. Dravo Corp."
     volume: "420"
     page: "092"
+    docket: "73-1773"
+    citation: "420 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 18, 1975"
-    citation: "420 U.S. 92"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1974-052"
@@ -868,9 +1126,12 @@ cases:
     title: "United States v. Wilson"
     volume: "420"
     page: "332"
+    docket: "73-1395"
+    citation: "420 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 25, 1975"
-    citation: "420 U.S. 332"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1974-071"
@@ -878,9 +1139,12 @@ cases:
     title: "Austin v. New Hampshire"
     volume: "420"
     page: "656"
+    docket: "73-2060"
+    citation: "420 U.S. 656"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 19, 1975"
-    citation: "420 U.S. 656"
+    voteMajority: 7
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1974-092"
@@ -888,9 +1152,12 @@ cases:
     title: "Hill v. Stone"
     volume: "421"
     page: "289"
+    docket: "73-1723"
+    citation: "421 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1975"
-    citation: "421 U.S. 289"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1974-099"
@@ -898,9 +1165,12 @@ cases:
     title: "Securities Investor Protection Corp. v. Barbour"
     volume: "421"
     page: "412"
+    docket: "73-2055"
+    citation: "421 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1975"
-    citation: "421 U.S. 412"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1974-106"
@@ -908,9 +1178,12 @@ cases:
     title: "Fry v. United States"
     volume: "421"
     page: "542"
+    docket: "73-822"
+    citation: "421 U.S. 542"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 27, 1975"
-    citation: "421 U.S. 542"
+    voteMajority: 7
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1974-117"
@@ -918,9 +1191,12 @@ cases:
     title: "Murphy v. Florida"
     volume: "421"
     page: "794"
+    docket: "74-5116"
+    citation: "421 U.S. 794"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1975"
-    citation: "421 U.S. 794"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1974-127"
@@ -928,9 +1204,12 @@ cases:
     title: "United States v. Hale"
     volume: "422"
     page: "171"
+    docket: "74-364"
+    citation: "422 U.S. 171"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1975"
-    citation: "422 U.S. 171"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-019"
@@ -938,9 +1217,12 @@ cases:
     title: "American Foreign S. S. Co. v. Matise"
     volume: "423"
     page: "150"
+    docket: "74-966"
+    citation: "423 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 16, 1975"
-    citation: "423 U.S. 150"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-020"
@@ -948,9 +1230,12 @@ cases:
     title: "Laing v. United States"
     volume: "423"
     page: "161"
+    docket: "73-1808"
+    citation: "423 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 13, 1976"
-    citation: "423 U.S. 161"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-067"
@@ -958,9 +1243,12 @@ cases:
     title: "United States v. United Continental Tuna Corp."
     volume: "425"
     page: "164"
+    docket: "74-869"
+    citation: "425 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 30, 1976"
-    citation: "425 U.S. 164"
+    voteMajority: 7
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-069"
@@ -968,9 +1256,12 @@ cases:
     title: "Dann v. Johnston"
     volume: "425"
     page: "219"
+    docket: "74-1033"
+    citation: "425 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 31, 1976"
-    citation: "425 U.S. 219"
+    voteMajority: 7
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-097"
@@ -978,9 +1269,12 @@ cases:
     title: "Hospital Building Co. v. Trustees of Rex Hospital"
     volume: "425"
     page: "738"
+    docket: "74-1452"
+    citation: "425 U.S. 738"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1976"
-    citation: "425 U.S. 738"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-105"
@@ -988,9 +1282,12 @@ cases:
     title: "Train v. Colorado Public Interest Research Group, Inc."
     volume: "426"
     page: "001"
+    docket: "74-1270"
+    citation: "426 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1976"
-    citation: "426 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-115"
@@ -998,9 +1295,12 @@ cases:
     title: "Charlotte v. Firefighters"
     volume: "426"
     page: "283"
+    docket: "75-250"
+    citation: "426 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1976"
-    citation: "426 U.S. 283"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-118"
@@ -1008,9 +1308,12 @@ cases:
     title: "Tennesse v. Dunlap"
     volume: "426"
     page: "312"
+    docket: "75-95"
+    citation: "426 U.S. 312"
     pdfSource: "loc"
     dateDecision: "Thursday, June 10, 1976"
-    citation: "426 U.S. 312"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-123"
@@ -1018,9 +1321,12 @@ cases:
     title: "Kerr v. United States Dist. Court for Northern Dist. of Cal."
     volume: "426"
     page: "394"
+    docket: "74-1023"
+    citation: "426 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1976"
-    citation: "426 U.S. 394"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-124"
@@ -1028,9 +1334,12 @@ cases:
     title: "Oil Workers v. Mobil Oil Corp."
     volume: "426"
     page: "407"
+    docket: "74-1254"
+    citation: "426 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1976"
-    citation: "426 U.S. 407"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-125"
@@ -1038,9 +1347,12 @@ cases:
     title: "TSC Industries, Inc. v. Northway, Inc."
     volume: "426"
     page: "438"
+    docket: "74-1471"
+    citation: "426 U.S. 438"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1976"
-    citation: "426 U.S. 438"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-132"
@@ -1048,9 +1360,12 @@ cases:
     title: "Kleppe v. New Mexico"
     volume: "426"
     page: "529"
+    docket: "74-1488"
+    citation: "426 U.S. 529"
     pdfSource: "loc"
     dateDecision: "Thursday, June 17, 1976"
-    citation: "426 U.S. 529"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-133"
@@ -1058,9 +1373,12 @@ cases:
     title: "Federal Energy Administration v. Algonquin SNG, Inc."
     volume: "426"
     page: "548"
+    docket: "75-382"
+    citation: "426 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Thursday, June 17, 1976"
-    citation: "426 U.S. 548"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-141"
@@ -1068,9 +1386,12 @@ cases:
     title: "Flint Ridge Development Co. v. Scenic Rivers Assn. of Okla."
     volume: "426"
     page: "776"
+    docket: "75-510"
+    citation: "426 U.S. 776"
     pdfSource: "loc"
     dateDecision: "Thursday, June 24, 1976"
-    citation: "426 U.S. 776"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-153"
@@ -1078,9 +1399,12 @@ cases:
     title: "Union Elec. Co. v. EPA"
     volume: "427"
     page: "246"
+    docket: "74-1542"
+    citation: "427 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Friday, June 25, 1976"
-    citation: "427 U.S. 246"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-154"
@@ -1088,9 +1412,12 @@ cases:
     title: "McDonald v. Santa Fe Trail Transp. Co."
     volume: "427"
     page: "273"
+    docket: "75-260"
+    citation: "427 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Friday, June 25, 1976"
-    citation: "427 U.S. 273"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1975-169"
@@ -1098,9 +1425,12 @@ cases:
     title: "Usery v. Turner Elkhorn Mining Co."
     volume: "428"
     page: "001"
+    docket: "74-1302"
+    citation: "428 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Thursday, July 1, 1976"
-    citation: "428 U.S. 1"
+    voteMajority: 6
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1976-016"
@@ -1108,9 +1438,12 @@ cases:
     title: "Estelle v. Gamble"
     volume: "429"
     page: "097"
+    docket: "75-929"
+    citation: "429 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 30, 1976"
-    citation: "429 U.S. 97"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1976-041"
@@ -1118,9 +1451,12 @@ cases:
     title: "Brunswick Corp. v. Pueblo Bowl-O-Mat, Inc."
     volume: "429"
     page: "477"
+    docket: "75-904"
+    citation: "429 U.S. 477"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 25, 1977"
-    citation: "429 U.S. 477"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1976-078"
@@ -1128,9 +1464,12 @@ cases:
     title: "Jones v. Rath Packing Co."
     volume: "430"
     page: "519"
+    docket: "75-1053"
+    citation: "430 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 29, 1977"
-    citation: "430 U.S. 519"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1976-093"
@@ -1138,9 +1477,12 @@ cases:
     title: "Bounds v. Smith"
     volume: "430"
     page: "817"
+    docket: "75-915"
+    citation: "430 U.S. 817"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 27, 1977"
-    citation: "430 U.S. 817"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1976-096"
@@ -1148,9 +1490,12 @@ cases:
     title: "Linmark Associates, Inc. v. Willingboro"
     volume: "431"
     page: "085"
+    docket: "76-357"
+    citation: "431 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1977"
-    citation: "431 U.S. 85"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1976-109"
@@ -1158,9 +1503,12 @@ cases:
     title: "Douglas v. Seacoast Products, Inc."
     volume: "431"
     page: "265"
+    docket: "75-1255"
+    citation: "431 U.S. 265"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1977"
-    citation: "431 U.S. 265"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1976-119"
@@ -1168,9 +1516,12 @@ cases:
     title: "Scarborough v. United States"
     volume: "431"
     page: "563"
+    docket: "75-1344"
+    citation: "431 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1977"
-    citation: "431 U.S. 563"
+    voteMajority: 7
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1976-120"
@@ -1178,9 +1529,12 @@ cases:
     title: "Alabama Power Co. v. Davis"
     volume: "431"
     page: "581"
+    docket: "76-451"
+    citation: "431 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1977"
-    citation: "431 U.S. 581"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1976-129"
@@ -1188,9 +1542,12 @@ cases:
     title: "United States v. Lovasco"
     volume: "431"
     page: "783"
+    docket: "75-1844"
+    citation: "431 U.S. 783"
     pdfSource: "loc"
     dateDecision: "Thursday, June 9, 1977"
-    citation: "431 U.S. 783"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1976-146"
@@ -1198,9 +1555,12 @@ cases:
     title: "Northeast Marine Terminal Co. v. Caputo"
     volume: "432"
     page: "249"
+    docket: "76-444"
+    citation: "432 U.S. 249"
     pdfSource: "loc"
     dateDecision: "Friday, June 17, 1977"
-    citation: "432 U.S. 249"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1976-152"
@@ -1208,9 +1568,12 @@ cases:
     title: "Briscoe v. Bell"
     volume: "432"
     page: "404"
+    docket: "76-60"
+    citation: "432 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1977"
-    citation: "432 U.S. 404"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1976-166"
@@ -1218,9 +1581,12 @@ cases:
     title: "Shaffer v. Heitner"
     volume: "433"
     page: "186"
+    docket: "75-1812"
+    citation: "433 U.S. 186"
     pdfSource: "loc"
     dateDecision: "Friday, June 24, 1977"
-    citation: "433 U.S. 186"
+    voteMajority: 7
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-021"
@@ -1228,9 +1594,12 @@ cases:
     title: "Quilloin v. Walcott"
     volume: "434"
     page: "246"
+    docket: "76-6372"
+    citation: "434 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 10, 1978"
-    citation: "434 U.S. 246"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-029"
@@ -1238,9 +1607,12 @@ cases:
     title: "Zablocki v. Redhail"
     volume: "434"
     page: "374"
+    docket: "76-879"
+    citation: "434 U.S. 374"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 18, 1978"
-    citation: "434 U.S. 374"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-038"
@@ -1248,9 +1620,12 @@ cases:
     title: "Lorillard v. Pons"
     volume: "434"
     page: "575"
+    docket: "76-1346"
+    citation: "434 U.S. 575"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 22, 1978"
-    citation: "434 U.S. 575"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-039"
@@ -1258,9 +1633,12 @@ cases:
     title: "J. W. Bateson Co. v. United States ex rel. Bd. of Trustees of Nat. Automatic Sprinkler Industry Pension Fund"
     volume: "434"
     page: "586"
+    docket: "76-1476"
+    citation: "434 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 22, 1978"
-    citation: "434 U.S. 586"
+    voteMajority: 6
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-057"
@@ -1268,9 +1646,12 @@ cases:
     title: "United States v. Culbert"
     volume: "435"
     page: "371"
+    docket: "77-142"
+    citation: "435 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 28, 1978"
-    citation: "435 U.S. 371"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-079"
@@ -1278,9 +1659,12 @@ cases:
     title: "Santa Clara Pueblo v. Martinez"
     volume: "436"
     page: "049"
+    docket: "76-682"
+    citation: "436 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1978"
-    citation: "436 U.S. 49"
+    voteMajority: 7
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-080"
@@ -1288,9 +1672,12 @@ cases:
     title: "Kulko v. Superior Court of Cal., City and County of San Francisco"
     volume: "436"
     page: "084"
+    docket: "77-293"
+    citation: "436 U.S. 84"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1978"
-    citation: "436 U.S. 84"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-086"
@@ -1298,9 +1685,12 @@ cases:
     title: "United States v. Sotelo"
     volume: "436"
     page: "268"
+    docket: "76-1800"
+    citation: "436 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1978"
-    citation: "436 U.S. 268"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-099"
@@ -1308,9 +1698,12 @@ cases:
     title: "Robertson v. Wegmann"
     volume: "436"
     page: "584"
+    docket: "77-178"
+    citation: "436 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 31, 1978"
-    citation: "436 U.S. 584"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-100"
@@ -1318,9 +1711,12 @@ cases:
     title: "Andrus v. Charlestone Stone Products Co."
     volume: "436"
     page: "604"
+    docket: "77-380"
+    citation: "436 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 31, 1978"
-    citation: "436 U.S. 604"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-105"
@@ -1328,9 +1724,12 @@ cases:
     title: "Agosto v. INS"
     volume: "436"
     page: "748"
+    docket: "76-1410"
+    citation: "436 U.S. 748"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 6, 1978"
-    citation: "436 U.S. 748"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-106"
@@ -1338,9 +1737,12 @@ cases:
     title: "FCC v. National Citizens Comm. for Broadcasting"
     volume: "436"
     page: "775"
+    docket: "76-1471"
+    citation: "436 U.S. 775"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1978"
-    citation: "436 U.S. 775"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-112"
@@ -1348,9 +1750,12 @@ cases:
     title: "Sanabria v. United States"
     volume: "437"
     page: "054"
+    docket: "76-1040"
+    citation: "437 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 14, 1978"
-    citation: "437 U.S. 54"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-116"
@@ -1358,9 +1763,12 @@ cases:
     title: "NLRB v. Robbins Tire &amp; Rubber Co."
     volume: "437"
     page: "214"
+    docket: "77-911"
+    citation: "437 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Thursday, June 15, 1978"
-    citation: "437 U.S. 214"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1977-125"
@@ -1368,9 +1776,12 @@ cases:
     title: "Zenith Radio Corp. v. United States"
     volume: "437"
     page: "443"
+    docket: "77-539"
+    citation: "437 U.S. 443"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 21, 1978"
-    citation: "437 U.S. 443"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1978-007"
@@ -1378,9 +1789,12 @@ cases:
     title: "Dougherty County Bd. of Ed. v. White"
     volume: "439"
     page: "032"
+    docket: "77-120"
+    citation: "439 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 28, 1978"
-    citation: "439 U.S. 32"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1978-015"
@@ -1388,9 +1802,12 @@ cases:
     title: "Board of Governors, FRS v. First Lincolnwood Corp."
     volume: "439"
     page: "234"
+    docket: "77-832"
+    citation: "439 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1978"
-    citation: "439 U.S. 234"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1978-041"
@@ -1398,9 +1815,12 @@ cases:
     title: "Miller v. Youakim"
     volume: "440"
     page: "125"
+    docket: "77-742"
+    citation: "440 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Thursday, February 22, 1979"
-    citation: "440 U.S. 125"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1978-042"
@@ -1408,9 +1828,12 @@ cases:
     title: "Montana v. United States"
     volume: "440"
     page: "147"
+    docket: "77-1134"
+    citation: "440 U.S. 147"
     pdfSource: "loc"
     dateDecision: "Thursday, February 22, 1979"
-    citation: "440 U.S. 147"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1978-043"
@@ -1418,9 +1841,12 @@ cases:
     title: "Illinois Bd. of Elections v. Socialist Workers Party"
     volume: "440"
     page: "173"
+    docket: "77-1248"
+    citation: "440 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Thursday, February 22, 1979"
-    citation: "440 U.S. 173"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1978-068"
@@ -1428,9 +1854,12 @@ cases:
     title: "United States v. Kimbell Foods, Inc."
     volume: "440"
     page: "715"
+    docket: "77-1359"
+    citation: "440 U.S. 715"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1979"
-    citation: "440 U.S. 715"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1978-071"
@@ -1438,9 +1867,12 @@ cases:
     title: "Alexander v. Department of Housing and Urban Development"
     volume: "441"
     page: "039"
+    docket: "77-874"
+    citation: "441 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 17, 1979"
-    citation: "441 U.S. 39"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1978-091"
@@ -1448,9 +1880,12 @@ cases:
     title: "United States v. 564.54 Acres of Monroe and Pike County Land"
     volume: "441"
     page: "506"
+    docket: "78-488"
+    citation: "441 U.S. 506"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1979"
-    citation: "441 U.S. 506"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1978-101"
@@ -1458,9 +1893,12 @@ cases:
     title: "Electrical Workers v. Foust"
     volume: "442"
     page: "042"
+    docket: "78-38"
+    citation: "442 U.S. 42"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 29, 1979"
-    citation: "442 U.S. 42"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1978-105"
@@ -1468,9 +1906,12 @@ cases:
     title: "Dunn v. United States"
     volume: "442"
     page: "100"
+    docket: "77-6949"
+    citation: "442 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1979"
-    citation: "442 U.S. 100"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1978-106"
@@ -1478,9 +1919,12 @@ cases:
     title: "United States v. Batchelder"
     volume: "442"
     page: "114"
+    docket: "78-776"
+    citation: "442 U.S. 114"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1979"
-    citation: "442 U.S. 114"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1978-126"
@@ -1488,9 +1932,12 @@ cases:
     title: "United Gas Pipe Line Co. v. McCombs"
     volume: "442"
     page: "529"
+    docket: "78-17"
+    citation: "442 U.S. 529"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1979"
-    citation: "442 U.S. 529"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1978-127"
@@ -1498,9 +1945,12 @@ cases:
     title: "United States v. Rutherford"
     volume: "442"
     page: "544"
+    docket: "78-605"
+    citation: "442 U.S. 544"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1979"
-    citation: "442 U.S. 544"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-020"
@@ -1508,9 +1958,12 @@ cases:
     title: "Rush v. Savchuk"
     volume: "444"
     page: "320"
+    docket: "78-952"
+    citation: "444 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1980"
-    citation: "444 U.S. 320"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-042"
@@ -1518,9 +1971,12 @@ cases:
     title: "United States v. Clark"
     volume: "445"
     page: "023"
+    docket: "78-1513"
+    citation: "445 U.S. 23"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1980"
-    citation: "445 U.S. 23"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-046"
@@ -1528,9 +1984,12 @@ cases:
     title: "Bloomer v. Liberty Mut. Ins. Co."
     volume: "445"
     page: "074"
+    docket: "78-1418"
+    citation: "445 U.S. 74"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1980"
-    citation: "445 U.S. 74"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-059"
@@ -1538,9 +1997,12 @@ cases:
     title: "GTE Sylvania, Inc. v. Consumers Union of United States, Inc."
     volume: "445"
     page: "375"
+    docket: "78-1248"
+    citation: "445 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 19, 1980"
-    citation: "445 U.S. 375"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-065"
@@ -1548,9 +2010,12 @@ cases:
     title: "United States v. Mitchell"
     volume: "445"
     page: "535"
+    docket: "78-1756"
+    citation: "445 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 15, 1980"
-    citation: "445 U.S. 535"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-075"
@@ -1558,9 +2023,12 @@ cases:
     title: "City of Rome v. United States"
     volume: "446"
     page: "156"
+    docket: "78-1840"
+    citation: "446 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 22, 1980"
-    citation: "446 U.S. 156"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-078"
@@ -1568,9 +2036,12 @@ cases:
     title: "Marshall v. Jerrico, Inc."
     volume: "446"
     page: "238"
+    docket: "79-253"
+    citation: "446 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1980"
-    citation: "446 U.S. 238"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-095"
@@ -1578,9 +2049,12 @@ cases:
     title: "Gomez v. Toledo"
     volume: "446"
     page: "635"
+    docket: "79-5601"
+    citation: "446 U.S. 635"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 27, 1980"
-    citation: "446 U.S. 635"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-101"
@@ -1588,9 +2062,12 @@ cases:
     title: "Walker v. Armco Steel Corp."
     volume: "446"
     page: "740"
+    docket: "78-1862"
+    citation: "446 U.S. 740"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1980"
-    citation: "446 U.S. 740"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-111"
@@ -1598,9 +2075,12 @@ cases:
     title: "Coffy v. Republic Steel Corp."
     volume: "447"
     page: "191"
+    docket: "79-81"
+    citation: "447 U.S. 191"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1980"
-    citation: "447 U.S. 191"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-112"
@@ -1608,9 +2088,12 @@ cases:
     title: "Exxon Corp. v. Department of Revenue of Wis."
     volume: "447"
     page: "207"
+    docket: "79-509"
+    citation: "447 U.S. 207"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1980"
-    citation: "447 U.S. 207"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-125"
@@ -1618,9 +2101,12 @@ cases:
     title: "NLRB v. Longshoremen"
     volume: "447"
     page: "490"
+    docket: "79-1082"
+    citation: "447 U.S. 490"
     pdfSource: "loc"
     dateDecision: "Friday, June 20, 1980"
-    citation: "447 U.S. 490"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-143"
@@ -1628,9 +2114,12 @@ cases:
     title: "White Mountain Apache Tribe v. Bracker"
     volume: "448"
     page: "136"
+    docket: "78-1177"
+    citation: "448 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Friday, June 27, 1980"
-    citation: "448 U.S. 136"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1979-144"
@@ -1638,9 +2127,12 @@ cases:
     title: "Central Machinery Co. v. Arizona Tax Comm&apos;n"
     volume: "448"
     page: "160"
+    docket: "78-1604"
+    citation: "448 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Friday, June 27, 1980"
-    citation: "448 U.S. 160"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1980-023"
@@ -1648,9 +2140,12 @@ cases:
     title: "Firestone Tire &amp; Rubber Co. v. Risjord"
     volume: "449"
     page: "368"
+    docket: "79-1420"
+    citation: "449 U.S. 368"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 13, 1981"
-    citation: "449 U.S. 368"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1980-031"
@@ -1658,9 +2153,12 @@ cases:
     title: "Fedorenko v. United States"
     volume: "449"
     page: "490"
+    docket: "79-5602"
+    citation: "449 U.S. 490"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 21, 1981"
-    citation: "449 U.S. 490"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1980-038"
@@ -1668,9 +2166,12 @@ cases:
     title: "Weaver v. Graham"
     volume: "450"
     page: "024"
+    docket: "79-5780"
+    citation: "450 U.S. 24"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1981"
-    citation: "450 U.S. 24"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1980-052"
@@ -1678,9 +2179,12 @@ cases:
     title: "Chicago &amp; North Western Transp. Co. v. Kalo Brick &amp; Tile Co."
     volume: "450"
     page: "311"
+    docket: "79-1336"
+    citation: "450 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1981"
-    citation: "450 U.S. 311"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1980-058"
@@ -1688,9 +2192,12 @@ cases:
     title: "Kirchberg v. Feenstra"
     volume: "450"
     page: "455"
+    docket: "79-1388"
+    citation: "450 U.S. 455"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1981"
-    citation: "450 U.S. 455"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1980-075"
@@ -1698,9 +2205,12 @@ cases:
     title: "Steagald v. United States"
     volume: "451"
     page: "204"
+    docket: "79-6777"
+    citation: "451 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 21, 1981"
-    citation: "451 U.S. 204"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1980-088"
@@ -1708,9 +2218,12 @@ cases:
     title: "Alessi v. Raybestos-Manhattan, Inc."
     volume: "451"
     page: "504"
+    docket: "79-1943"
+    citation: "451 U.S. 504"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1981"
-    citation: "451 U.S. 504"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1980-112"
@@ -1718,9 +2231,12 @@ cases:
     title: "Hodel v. Virginia Surface Mining &amp; Reclamation Assn., Inc."
     volume: "452"
     page: "264"
+    docket: "79-1538"
+    citation: "452 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1981"
-    citation: "452 U.S. 264"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1980-113"
@@ -1728,9 +2244,12 @@ cases:
     title: "Hodel v. Indiana"
     volume: "452"
     page: "314"
+    docket: "80-231"
+    citation: "452 U.S. 314"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1981"
-    citation: "452 U.S. 314"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1980-126"
@@ -1738,9 +2257,12 @@ cases:
     title: "Donovan v. Dewey"
     volume: "452"
     page: "594"
+    docket: "80-901"
+    citation: "452 U.S. 594"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 17, 1981"
-    citation: "452 U.S. 594"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1980-139"
@@ -1748,9 +2270,12 @@ cases:
     title: "California Medical Assn. v. Federal Election Comm&apos;n"
     volume: "453"
     page: "182"
+    docket: "79-1952"
+    citation: "453 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Friday, June 26, 1981"
-    citation: "453 U.S. 182"
+    voteMajority: 5
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1980-150"
@@ -1758,9 +2283,12 @@ cases:
     title: "Arkansas Louisiana Gas Co. v. Hall"
     volume: "453"
     page: "571"
+    docket: "78-1789"
+    citation: "453 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Thursday, July 2, 1981"
-    citation: "453 U.S. 571"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1980-151"
@@ -1768,9 +2296,12 @@ cases:
     title: "Commonwealth Edison Co. v. Montana"
     volume: "453"
     page: "609"
+    docket: "80-581"
+    citation: "453 U.S. 609"
     pdfSource: "loc"
     dateDecision: "Thursday, July 2, 1981"
-    citation: "453 U.S. 609"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-012"
@@ -1778,9 +2309,12 @@ cases:
     title: "Ralston v. Robinson"
     volume: "454"
     page: "201"
+    docket: "80-2049"
+    citation: "454 U.S. 201"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 2, 1981"
-    citation: "454 U.S. 201"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-013"
@@ -1788,9 +2322,12 @@ cases:
     title: "Piper Aircraft Co. v. Reyno"
     volume: "454"
     page: "235"
+    docket: "80-848"
+    citation: "454 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 8, 1981"
-    citation: "454 U.S. 235"
+    voteMajority: 4
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-036"
@@ -1798,9 +2335,12 @@ cases:
     title: "Merrion v. Jicarilla Apache Tribe"
     volume: "455"
     page: "130"
+    docket: "80-11"
+    citation: "455 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1982"
-    citation: "455 U.S. 130"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-054"
@@ -1808,9 +2348,12 @@ cases:
     title: "Hoffman Estates v. Flipside, Hoffman Estates, Inc."
     volume: "455"
     page: "489"
+    docket: "80-1681"
+    citation: "455 U.S. 489"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1982"
-    citation: "455 U.S. 489"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-067"
@@ -1818,9 +2361,12 @@ cases:
     title: "Underwriters Nat. Assurance Co. v. North Carolina Life &amp; Accident &amp; Health Ins. Guaranty Assn."
     volume: "455"
     page: "691"
+    docket: "80-1496"
+    citation: "455 U.S. 691"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 24, 1982"
-    citation: "455 U.S. 691"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-097"
@@ -1828,9 +2374,12 @@ cases:
     title: "Woelke &amp; Romero Framing, Inc. v. NLRB"
     volume: "456"
     page: "645"
+    docket: "80-1798"
+    citation: "456 U.S. 645"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1982"
-    citation: "456 U.S. 645"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-100"
@@ -1838,9 +2387,12 @@ cases:
     title: "Summit Valley Industries, Inc. v. Carpenters"
     volume: "456"
     page: "717"
+    docket: "81-497"
+    citation: "456 U.S. 717"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1982"
-    citation: "456 U.S. 717"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-113"
@@ -1848,9 +2400,12 @@ cases:
     title: "Steelworkers v. Sadlowski"
     volume: "457"
     page: "102"
+    docket: "81-395"
+    citation: "457 U.S. 102"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1982"
-    citation: "457 U.S. 102"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-114"
@@ -1858,9 +2413,12 @@ cases:
     title: "Blum v. Bacon"
     volume: "457"
     page: "132"
+    docket: "81-770"
+    citation: "457 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1982"
-    citation: "457 U.S. 132"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-131"
@@ -1868,9 +2426,12 @@ cases:
     title: "Patsy v. Board of Regents of Fla."
     volume: "457"
     page: "496"
+    docket: "80-1874"
+    citation: "457 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1982"
-    citation: "457 U.S. 496"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-137"
@@ -1878,9 +2439,12 @@ cases:
     title: "Foremost Ins. Co. v. Richardson"
     volume: "457"
     page: "668"
+    docket: "80-2134"
+    citation: "457 U.S. 668"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 23, 1982"
-    citation: "457 U.S. 668"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-138"
@@ -1888,9 +2452,12 @@ cases:
     title: "Taylor v. Alabama"
     volume: "457"
     page: "687"
+    docket: "81-5152"
+    citation: "457 U.S. 687"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 23, 1982"
-    citation: "457 U.S. 687"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-139"
@@ -1898,9 +2465,12 @@ cases:
     title: "Jacksonville Bulk Terminals, Inc. v. Longshoremen"
     volume: "457"
     page: "702"
+    docket: "80-1045"
+    citation: "457 U.S. 702"
     pdfSource: "loc"
     dateDecision: "Thursday, June 24, 1982"
-    citation: "457 U.S. 702"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-160"
@@ -1908,9 +2478,12 @@ cases:
     title: "Loretto v. Teleprompter Manhattan CATV Corp."
     volume: "458"
     page: "419"
+    docket: "81-244"
+    citation: "458 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 30, 1982"
-    citation: "458 U.S. 419"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1981-173"
@@ -1918,9 +2491,12 @@ cases:
     title: "Ramah Navajo School Bd., Inc. v. Bureau of Revenue of N. M."
     volume: "458"
     page: "832"
+    docket: "80-2162"
+    citation: "458 U.S. 832"
     pdfSource: "loc"
     dateDecision: "Friday, July 2, 1982"
-    citation: "458 U.S. 832"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-009"
@@ -1928,9 +2504,12 @@ cases:
     title: "Brown v. Socialist Workers &apos;74 Campaign Comm. (Ohio)"
     volume: "459"
     page: "087"
+    docket: "81-776"
+    citation: "459 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 8, 1982"
-    citation: "459 U.S. 87"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-014"
@@ -1938,9 +2517,12 @@ cases:
     title: "Colorado v. New Mexico"
     volume: "459"
     page: "176"
+    docket: "80 Orig."
+    citation: "459 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1982"
-    citation: "459 U.S. 176"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-021"
@@ -1948,9 +2530,12 @@ cases:
     title: "Herman &amp; MacLean v. Huddleston"
     volume: "459"
     page: "375"
+    docket: "81-680"
+    citation: "459 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1983"
-    citation: "459 U.S. 375"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-022"
@@ -1958,9 +2543,12 @@ cases:
     title: "Memphis Bank &amp; Trust Co. v. Garner"
     volume: "459"
     page: "392"
+    docket: "81-1613"
+    citation: "459 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1983"
-    citation: "459 U.S. 392"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-039"
@@ -1968,9 +2556,12 @@ cases:
     title: "Block v. Neal"
     volume: "460"
     page: "289"
+    docket: "81-1494"
+    citation: "460 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1983"
-    citation: "460 U.S. 289"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-052"
@@ -1978,9 +2569,12 @@ cases:
     title: "Tuten v. United States"
     volume: "460"
     page: "660"
+    docket: "81-6756"
+    citation: "460 U.S. 660"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 30, 1983"
-    citation: "460 U.S. 660"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-076"
@@ -1988,9 +2582,12 @@ cases:
     title: "American Paper Institute, Inc. v. American Elec. Power Service Corp."
     volume: "461"
     page: "402"
+    docket: "82-34"
+    citation: "461 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1983"
-    citation: "461 U.S. 402"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-081"
@@ -1998,9 +2595,12 @@ cases:
     title: "Pallas Shipping Agency, Ltd. v. Duris"
     volume: "461"
     page: "529"
+    docket: "82-502"
+    citation: "461 U.S. 529"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1983"
-    citation: "461 U.S. 529"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-086"
@@ -2008,9 +2608,12 @@ cases:
     title: "General Motors Corp. v. Devex Corp."
     volume: "461"
     page: "648"
+    docket: "81-1661"
+    citation: "461 U.S. 648"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 24, 1983"
-    citation: "461 U.S. 648"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-096"
@@ -2018,9 +2621,12 @@ cases:
     title: "Watt v. Western Nuclear, Inc."
     volume: "462"
     page: "036"
+    docket: "81-1686"
+    citation: "462 U.S. 36"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1983"
-    citation: "462 U.S. 36"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-101"
@@ -2028,9 +2634,12 @@ cases:
     title: "Exxon Corp. v. Eagerton"
     volume: "462"
     page: "176"
+    docket: "81-1020"
+    citation: "462 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 8, 1983"
-    citation: "462 U.S. 176"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-105"
@@ -2038,9 +2647,12 @@ cases:
     title: "Haring v. Prosise"
     volume: "462"
     page: "306"
+    docket: "81-2169"
+    citation: "462 U.S. 306"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1983"
-    citation: "462 U.S. 306"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-106"
@@ -2048,9 +2660,12 @@ cases:
     title: "New Mexico v. Mescalero Apache Tribe"
     volume: "462"
     page: "324"
+    docket: "82-331"
+    citation: "462 U.S. 324"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1983"
-    citation: "462 U.S. 324"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-125"
@@ -2058,9 +2673,12 @@ cases:
     title: "Mennonite Bd. of Missions v. Adams"
     volume: "462"
     page: "791"
+    docket: "82-11"
+    citation: "462 U.S. 791"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 22, 1983"
-    citation: "462 U.S. 791"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-135"
@@ -2068,9 +2686,12 @@ cases:
     title: "Bolger v. Youngs Drug Products Corp."
     volume: "463"
     page: "060"
+    docket: "81-1590"
+    citation: "463 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Friday, June 24, 1983"
-    citation: "463 U.S. 60"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1982-140"
@@ -2078,9 +2699,12 @@ cases:
     title: "United States v. Mitchell"
     volume: "463"
     page: "206"
+    docket: "81-1748"
+    citation: "463 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Monday, June 27, 1983"
-    citation: "463 U.S. 206"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-002"
@@ -2088,9 +2712,12 @@ cases:
     title: "Aloha Airlines, Inc. v. Director of Taxation of Haw."
     volume: "464"
     page: "007"
+    docket: "82-585"
+    citation: "464 U.S. 7"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 1, 1983"
-    citation: "464 U.S. 7"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-041"
@@ -2098,9 +2725,12 @@ cases:
     title: "Solem v. Bartlett"
     volume: "465"
     page: "463"
+    docket: "82-1253"
+    citation: "465 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 22, 1984"
-    citation: "465 U.S. 463"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-042"
@@ -2108,9 +2738,12 @@ cases:
     title: "Dixson v. United States"
     volume: "465"
     page: "482"
+    docket: "82-5279"
+    citation: "465 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 22, 1984"
-    citation: "465 U.S. 482"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-056"
@@ -2118,9 +2751,12 @@ cases:
     title: "Kosak v. United States"
     volume: "465"
     page: "848"
+    docket: "82-618"
+    citation: "465 U.S. 848"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 21, 1984"
-    citation: "465 U.S. 848"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-057"
@@ -2128,9 +2764,12 @@ cases:
     title: "Heckler v. Edwards"
     volume: "465"
     page: "870"
+    docket: "82-874"
+    citation: "465 U.S. 870"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 21, 1984"
-    citation: "465 U.S. 870"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-062"
@@ -2138,9 +2777,12 @@ cases:
     title: "EEOC v. Shell Oil Co."
     volume: "466"
     page: "054"
+    docket: "82-825"
+    citation: "466 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1984"
-    citation: "466 U.S. 54"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-097"
@@ -2148,9 +2790,12 @@ cases:
     title: "Kirby Forest Industries, Inc. v. United States"
     volume: "467"
     page: "001"
+    docket: "82-1994"
+    citation: "467 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1984"
-    citation: "467 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-108"
@@ -2158,9 +2803,12 @@ cases:
     title: "Bernal v. Fainter"
     volume: "467"
     page: "216"
+    docket: "83-630"
+    citation: "467 U.S. 216"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 30, 1984"
-    citation: "467 U.S. 216"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-114"
@@ -2168,9 +2816,12 @@ cases:
     title: "ICC v. American Trucking Assns., Inc."
     volume: "467"
     page: "354"
+    docket: "82-1643"
+    citation: "467 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 5, 1984"
-    citation: "467 U.S. 354"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-119"
@@ -2178,9 +2829,12 @@ cases:
     title: "California v. Trombetta"
     volume: "467"
     page: "479"
+    docket: "83-305"
+    citation: "467 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1984"
-    citation: "467 U.S. 479"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-125"
@@ -2188,9 +2842,12 @@ cases:
     title: "Hayfield Northern R. Co. v. Chicago &amp; North Western Transp. Co."
     volume: "467"
     page: "622"
+    docket: "82-1579"
+    citation: "467 U.S. 622"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 12, 1984"
-    citation: "467 U.S. 622"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-130"
@@ -2198,9 +2855,12 @@ cases:
     title: "SEC v. Jerry T. O&apos;Brien, Inc."
     volume: "467"
     page: "735"
+    docket: "83-751"
+    citation: "467 U.S. 735"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1984"
-    citation: "467 U.S. 735"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-138"
@@ -2208,9 +2868,12 @@ cases:
     title: "Washington Metropolitan Area Transit Authority v. Johnson"
     volume: "467"
     page: "925"
+    docket: "83-747"
+    citation: "467 U.S. 925"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 26, 1984"
-    citation: "467 U.S. 925"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-144"
@@ -2218,9 +2881,12 @@ cases:
     title: "Burnett v. Grattan"
     volume: "468"
     page: "042"
+    docket: "83-264"
+    citation: "468 U.S. 42"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 27, 1984"
-    citation: "468 U.S. 42"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1983-156"
@@ -2228,9 +2894,12 @@ cases:
     title: "Berkemer v. McCarty"
     volume: "468"
     page: "420"
+    docket: "83-710"
+    citation: "468 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Monday, July 2, 1984"
-    citation: "468 U.S. 420"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1984-020"
@@ -2238,9 +2907,12 @@ cases:
     title: "Alexander v. Choate"
     volume: "469"
     page: "287"
+    docket: "83-727"
+    citation: "469 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 9, 1985"
-    citation: "469 U.S. 287"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1984-021"
@@ -2248,9 +2920,12 @@ cases:
     title: "Tiffany Fine Arts, Inc. v. United States"
     volume: "469"
     page: "310"
+    docket: "83-1007"
+    citation: "469 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 9, 1985"
-    citation: "469 U.S. 310"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1984-033"
@@ -2258,9 +2933,12 @@ cases:
     title: "Ake v. Oklahoma"
     volume: "470"
     page: "068"
+    docket: "83-5424"
+    citation: "470 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 20, 1985"
-    citation: "470 U.S. 68"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1984-038"
@@ -2268,9 +2946,12 @@ cases:
     title: "Dean Witter Reynolds Inc. v. Byrd"
     volume: "470"
     page: "213"
+    docket: "83-1708"
+    citation: "470 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1985"
-    citation: "470 U.S. 213"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1984-046"
@@ -2278,9 +2959,12 @@ cases:
     title: "National Railroad Passenger Corporation v. Atchison, T. &amp; S. F. R. Co."
     volume: "470"
     page: "451"
+    docket: "83-1492"
+    citation: "470 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1985"
-    citation: "470 U.S. 451"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1984-071"
@@ -2288,9 +2972,12 @@ cases:
     title: "United States v. Locke"
     volume: "471"
     page: "084"
+    docket: "83-1394"
+    citation: "471 U.S. 84"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1985"
-    citation: "471 U.S. 84"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1984-072"
@@ -2298,9 +2985,12 @@ cases:
     title: "United States v. Miller"
     volume: "471"
     page: "130"
+    docket: "83-1750"
+    citation: "471 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1985"
-    citation: "471 U.S. 130"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1984-087"
@@ -2308,9 +2998,12 @@ cases:
     title: "Commodity Futures Trading Comm&apos;n v. Weintraub"
     volume: "471"
     page: "343"
+    docket: "84-261"
+    citation: "471 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1985"
-    citation: "471 U.S. 343"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1984-106"
@@ -2318,9 +3011,12 @@ cases:
     title: "Hillsborough County v. Automated Medical Laboratories, Inc."
     volume: "471"
     page: "707"
+    docket: "83-1925"
+    citation: "471 U.S. 707"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1985"
-    citation: "471 U.S. 707"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1984-122"
@@ -2328,9 +3024,12 @@ cases:
     title: "Caldwell v. Mississippi"
     volume: "472"
     page: "320"
+    docket: "83-6607"
+    citation: "472 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 11, 1985"
-    citation: "472 U.S. 320"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1984-123"
@@ -2338,9 +3037,12 @@ cases:
     title: "Johnson v. Mayor and City Council of Baltimore"
     volume: "472"
     page: "353"
+    docket: "84-518"
+    citation: "472 U.S. 353"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1985"
-    citation: "472 U.S. 353"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1984-134"
@@ -2348,9 +3050,12 @@ cases:
     title: "Central States, Southeast &amp; Southwest Areas Pension Fund v. Central Transport, Inc."
     volume: "472"
     page: "559"
+    docket: "82-2157"
+    citation: "472 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 19, 1985"
-    citation: "472 U.S. 559"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1984-151"
@@ -2358,9 +3063,12 @@ cases:
     title: "Kentucky v. Graham"
     volume: "473"
     page: "159"
+    docket: "84-849"
+    citation: "473 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Friday, June 28, 1985"
-    citation: "473 U.S. 159"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-014"
@@ -2368,9 +3076,12 @@ cases:
     title: "Thomas v. Arn"
     volume: "474"
     page: "140"
+    docket: "84-5630"
+    citation: "474 U.S. 140"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 4, 1985"
-    citation: "474 U.S. 140"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-021"
@@ -2378,9 +3089,12 @@ cases:
     title: "Vasquez v. Hillery"
     volume: "474"
     page: "254"
+    docket: "84-836"
+    citation: "474 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 14, 1986"
-    citation: "474 U.S. 254"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-030"
@@ -2388,9 +3102,12 @@ cases:
     title: "Witters v. Washington Dept. of Servs. for Blind"
     volume: "474"
     page: "481"
+    docket: "84-1070"
+    citation: "474 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1986"
-    citation: "474 U.S. 481"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-044"
@@ -2398,9 +3115,12 @@ cases:
     title: "Fisher v. Berkeley"
     volume: "475"
     page: "260"
+    docket: "84-1538"
+    citation: "475 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 26, 1986"
-    citation: "475 U.S. 260"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-049"
@@ -2408,9 +3128,12 @@ cases:
     title: "Exxon Corp. v. Hunt"
     volume: "475"
     page: "355"
+    docket: "84-978"
+    citation: "475 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1986"
-    citation: "475 U.S. 355"
+    voteMajority: 7
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-056"
@@ -2418,9 +3141,12 @@ cases:
     title: "Holbrook v. Flynn"
     volume: "475"
     page: "560"
+    docket: "84-1606"
+    citation: "475 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 25, 1986"
-    citation: "475 U.S. 560"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-061"
@@ -2428,9 +3154,12 @@ cases:
     title: "United States v. Fulton"
     volume: "475"
     page: "657"
+    docket: "84-1725"
+    citation: "475 U.S. 657"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1986"
-    citation: "475 U.S. 657"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-070"
@@ -2438,9 +3167,12 @@ cases:
     title: "United States v. American College of Physicians"
     volume: "475"
     page: "834"
+    docket: "84-1737"
+    citation: "475 U.S. 834"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 22, 1986"
-    citation: "475 U.S. 834"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-084"
@@ -2448,9 +3180,12 @@ cases:
     title: "Brock v. Pierce County"
     volume: "476"
     page: "253"
+    docket: "85-385"
+    citation: "476 U.S. 253"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1986"
-    citation: "476 U.S. 253"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-098"
@@ -2458,9 +3193,12 @@ cases:
     title: "United States v. Hemme"
     volume: "476"
     page: "558"
+    docket: "84-1944"
+    citation: "476 U.S. 558"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 3, 1986"
-    citation: "476 U.S. 558"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-099"
@@ -2468,9 +3206,12 @@ cases:
     title: "Brown-Forman Distillers Corp. v. New York State Liquor Authority"
     volume: "476"
     page: "573"
+    docket: "84-2030"
+    citation: "476 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 3, 1986"
-    citation: "476 U.S. 573"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-105"
@@ -2478,9 +3219,12 @@ cases:
     title: "United States v. Dion"
     volume: "476"
     page: "734"
+    docket: "85-246"
+    citation: "476 U.S. 734"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 11, 1986"
-    citation: "476 U.S. 734"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-120"
@@ -2488,9 +3232,12 @@ cases:
     title: "United States v. American Bar Endowment"
     volume: "477"
     page: "105"
+    docket: "85-599"
+    citation: "477 U.S. 105"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1986"
-    citation: "477 U.S. 105"
+    voteMajority: 6
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-126"
@@ -2498,9 +3245,12 @@ cases:
     title: "Automobile Workers v. Brock"
     volume: "477"
     page: "274"
+    docket: "84-1777"
+    citation: "477 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 25, 1986"
-    citation: "477 U.S. 274"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1985-131"
@@ -2508,9 +3258,12 @@ cases:
     title: "Ford v. Wainwright"
     volume: "477"
     page: "399"
+    docket: "85-5542"
+    citation: "477 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Thursday, June 26, 1986"
-    citation: "477 U.S. 399"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-014"
@@ -2518,9 +3271,12 @@ cases:
     title: "Tashjian v. Republican Party of Conn."
     volume: "479"
     page: "208"
+    docket: "85-766"
+    citation: "479 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 10, 1986"
-    citation: "479 U.S. 208"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-016"
@@ -2528,9 +3284,12 @@ cases:
     title: "California Fed. Sav. &amp; Loan Assn. v. Guerra"
     volume: "479"
     page: "272"
+    docket: "85-494"
+    citation: "479 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 13, 1987"
-    citation: "479 U.S. 272"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-017"
@@ -2538,9 +3297,12 @@ cases:
     title: "West Virginia v. United States"
     volume: "479"
     page: "305"
+    docket: "85-937"
+    citation: "479 U.S. 305"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 13, 1987"
-    citation: "479 U.S. 305"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-032"
@@ -2548,9 +3310,12 @@ cases:
     title: "Burlington Northern R. Co. v. Woods"
     volume: "480"
     page: "001"
+    docket: "85-1088"
+    citation: "480 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1987"
-    citation: "480 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-033"
@@ -2558,9 +3323,12 @@ cases:
     title: "Iowa Mut. Ins. Co. v. LaPlante"
     volume: "480"
     page: "009"
+    docket: "85-1589"
+    citation: "480 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1987"
-    citation: "480 U.S. 9"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-043"
@@ -2568,9 +3336,12 @@ cases:
     title: "FCC v. Florida Power Corp."
     volume: "480"
     page: "245"
+    docket: "85-1658"
+    citation: "480 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 25, 1987"
-    citation: "480 U.S. 245"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-075"
@@ -2578,9 +3349,12 @@ cases:
     title: "Arkansas Writers&apos; Project, Inc. v. Ragland"
     volume: "481"
     page: "221"
+    docket: "85-1370"
+    citation: "481 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 22, 1987"
-    citation: "481 U.S. 221"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-076"
@@ -2588,9 +3362,12 @@ cases:
     title: "United States v. General Dynamics Corp."
     volume: "481"
     page: "239"
+    docket: "85-1385"
+    citation: "481 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 22, 1987"
-    citation: "481 U.S. 239"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-077"
@@ -2598,9 +3375,12 @@ cases:
     title: "Brock v. Roadway Express, Inc."
     volume: "481"
     page: "252"
+    docket: "85-1530"
+    citation: "481 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 22, 1987"
-    citation: "481 U.S. 252"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-086"
@@ -2608,9 +3388,12 @@ cases:
     title: "Burlington Northern R. Co. v. Oklahoma Tax Comm&apos;n"
     volume: "481"
     page: "454"
+    docket: "86-337"
+    citation: "481 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 28, 1987"
-    citation: "481 U.S. 454"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-095"
@@ -2618,9 +3401,12 @@ cases:
     title: "Rose v. Rose"
     volume: "481"
     page: "619"
+    docket: "85-1206"
+    citation: "481 U.S. 619"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1987"
-    citation: "481 U.S. 619"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-105"
@@ -2628,9 +3414,12 @@ cases:
     title: "United States v. Mendoza-Lopez"
     volume: "481"
     page: "828"
+    docket: "85-2067"
+    citation: "481 U.S. 828"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 26, 1987"
-    citation: "481 U.S. 828"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-126"
@@ -2638,9 +3427,12 @@ cases:
     title: "Perry v. Thomas"
     volume: "482"
     page: "483"
+    docket: "86-566"
+    citation: "482 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1987"
-    citation: "482 U.S. 483"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-137"
@@ -2648,9 +3440,12 @@ cases:
     title: "Citicorp Industrial Credit, Inc. v. Brock"
     volume: "483"
     page: "027"
+    docket: "86-88"
+    citation: "483 U.S. 27"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1987"
-    citation: "483 U.S. 27"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-145"
@@ -2658,9 +3453,12 @@ cases:
     title: "Puerto Rico v. Branstad"
     volume: "483"
     page: "219"
+    docket: "85-2116"
+    citation: "483 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 23, 1987"
-    citation: "483 U.S. 219"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1986-151"
@@ -2668,9 +3466,12 @@ cases:
     title: "Rankin v. McPherson"
     volume: "483"
     page: "378"
+    docket: "85-2068"
+    citation: "483 U.S. 378"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 24, 1987"
-    citation: "483 U.S. 378"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-006"
@@ -2678,9 +3479,12 @@ cases:
     title: "Gwaltney of Smithfield, Ltd. v. Chesapeake Bay Foundation, Inc."
     volume: "484"
     page: "049"
+    docket: "86-473"
+    citation: "484 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 1, 1987"
-    citation: "484 U.S. 49"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-014"
@@ -2688,9 +3492,12 @@ cases:
     title: "Thompson v. Thompson"
     volume: "484"
     page: "174"
+    docket: "86-964"
+    citation: "484 U.S. 174"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 12, 1988"
-    citation: "484 U.S. 174"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-020"
@@ -2698,9 +3505,12 @@ cases:
     title: "Westfall v. Erwin"
     volume: "484"
     page: "292"
+    docket: "86-714"
+    citation: "484 U.S. 292"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 13, 1988"
-    citation: "484 U.S. 292"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-023"
@@ -2708,9 +3518,12 @@ cases:
     title: "Carnegie-Mellon Univ. v. Cohill"
     volume: "484"
     page: "343"
+    docket: "86-1021"
+    citation: "484 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 20, 1988"
-    citation: "484 U.S. 343"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-045"
@@ -2718,9 +3531,12 @@ cases:
     title: "Arkansas Best Corp. v. Commissioner"
     volume: "485"
     page: "212"
+    docket: "86-751"
+    citation: "485 U.S. 212"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1988"
-    citation: "485 U.S. 212"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-049"
@@ -2728,9 +3544,12 @@ cases:
     title: "Gulfstream Aerospace Corp. v. Mayacamas Corp."
     volume: "485"
     page: "271"
+    docket: "86-1329"
+    citation: "485 U.S. 271"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 22, 1988"
-    citation: "485 U.S. 271"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-081"
@@ -2738,9 +3557,12 @@ cases:
     title: "Bankers Life &amp; Casualty Co. v. Crenshaw"
     volume: "486"
     page: "071"
+    docket: "85-1765"
+    citation: "486 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1988"
-    citation: "486 U.S. 71"
+    voteMajority: 6
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-082"
@@ -2748,9 +3570,12 @@ cases:
     title: "Patrick v. Burget"
     volume: "486"
     page: "094"
+    docket: "86-1145"
+    citation: "486 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1988"
-    citation: "486 U.S. 94"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-083"
@@ -2758,9 +3583,12 @@ cases:
     title: "EEOC v. Commercial Office Products Co."
     volume: "486"
     page: "107"
+    docket: "86-1696"
+    citation: "486 U.S. 107"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1988"
-    citation: "486 U.S. 107"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-087"
@@ -2768,9 +3596,12 @@ cases:
     title: "Goodyear Atomic Corp. v. Miller"
     volume: "486"
     page: "174"
+    docket: "86-1172"
+    citation: "486 U.S. 174"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1988"
-    citation: "486 U.S. 174"
+    voteMajority: 6
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-090"
@@ -2778,9 +3609,12 @@ cases:
     title: "Amadeo v. Zant"
     volume: "486"
     page: "214"
+    docket: "87-5277"
+    citation: "486 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1988"
-    citation: "486 U.S. 214"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-107"
@@ -2788,9 +3622,12 @@ cases:
     title: "Van Cauwenberghe v. Biard"
     volume: "486"
     page: "517"
+    docket: "87-336"
+    citation: "486 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1988"
-    citation: "486 U.S. 517"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-108"
@@ -2798,9 +3635,12 @@ cases:
     title: "Berkovitz v. United States"
     volume: "486"
     page: "531"
+    docket: "87-498"
+    citation: "486 U.S. 531"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1988"
-    citation: "486 U.S. 531"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-125"
@@ -2808,9 +3648,12 @@ cases:
     title: "Stewart Organization, Inc. v. Ricoh Corp."
     volume: "487"
     page: "022"
+    docket: "86-1908"
+    citation: "487 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1988"
-    citation: "487 U.S. 22"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1987-138"
@@ -2818,9 +3661,12 @@ cases:
     title: "Torres v. Oakland Scavenger Co."
     volume: "487"
     page: "312"
+    docket: "86-1845"
+    citation: "487 U.S. 312"
     pdfSource: "loc"
     dateDecision: "Friday, June 24, 1988"
-    citation: "487 U.S. 312"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-004"
@@ -2828,9 +3674,12 @@ cases:
     title: "Shell Oil Co. v. Iowa Dept. of Revenue"
     volume: "488"
     page: "019"
+    docket: "87-984"
+    citation: "488 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 8, 1988"
-    citation: "488 U.S. 19"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-016"
@@ -2838,9 +3687,12 @@ cases:
     title: "Owens v. Okure"
     volume: "488"
     page: "235"
+    docket: "87-56"
+    citation: "488 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 10, 1989"
-    citation: "488 U.S. 235"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-017"
@@ -2848,9 +3700,12 @@ cases:
     title: "Goldberg v. Sweet"
     volume: "488"
     page: "252"
+    docket: "87-826"
+    citation: "488 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 10, 1989"
-    citation: "488 U.S. 252"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-022"
@@ -2858,9 +3713,12 @@ cases:
     title: "Sheet Metal Workers v. Lynn"
     volume: "488"
     page: "347"
+    docket: "86-1940"
+    citation: "488 U.S. 347"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 18, 1989"
-    citation: "488 U.S. 347"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-038"
@@ -2868,9 +3726,12 @@ cases:
     title: "Eu v. San Francisco County Democratic Central Comm."
     volume: "489"
     page: "214"
+    docket: "87-1269"
+    citation: "489 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 22, 1989"
-    citation: "489 U.S. 214"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-050"
@@ -2878,9 +3739,12 @@ cases:
     title: "Blanton v. North Las Vegas"
     volume: "489"
     page: "538"
+    docket: "87-1437"
+    citation: "489 U.S. 538"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1989"
-    citation: "489 U.S. 538"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-081"
@@ -2888,9 +3752,12 @@ cases:
     title: "Neitzke v. Williams"
     volume: "490"
     page: "319"
+    docket: "87-1882"
+    citation: "490 U.S. 319"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1989"
-    citation: "490 U.S. 319"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-094"
@@ -2898,9 +3765,12 @@ cases:
     title: "Mansell v. Mansell"
     volume: "490"
     page: "581"
+    docket: "87-201"
+    citation: "490 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 30, 1989"
-    citation: "490 U.S. 581"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-098"
@@ -2908,9 +3778,12 @@ cases:
     title: "Hernandez v. Commissioner"
     volume: "490"
     page: "680"
+    docket: "87-963"
+    citation: "490 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1989"
-    citation: "490 U.S. 680"
+    voteMajority: 5
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-099"
@@ -2918,9 +3791,12 @@ cases:
     title: "Mead Corp. v. Tilley"
     volume: "490"
     page: "714"
+    docket: "87-1868"
+    citation: "490 U.S. 714"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1989"
-    citation: "490 U.S. 714"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-100"
@@ -2928,9 +3804,12 @@ cases:
     title: "Community for Creative Non-Violence v. Reid"
     volume: "490"
     page: "730"
+    docket: "88-293"
+    citation: "490 U.S. 730"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1989"
-    citation: "490 U.S. 730"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-105"
@@ -2938,9 +3817,12 @@ cases:
     title: "Newman-Green, Inc. v. Alfonzo-Larrain"
     volume: "490"
     page: "826"
+    docket: "88-774"
+    citation: "490 U.S. 826"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1989"
-    citation: "490 U.S. 826"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-127"
@@ -2948,9 +3830,12 @@ cases:
     title: "Florida Star v. B. J. F."
     volume: "491"
     page: "524"
+    docket: "87-329"
+    citation: "491 U.S. 524"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 21, 1989"
-    citation: "491 U.S. 524"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1988-140"
@@ -2958,9 +3843,12 @@ cases:
     title: "Department of Justice v. Tax Analysts"
     volume: "492"
     page: "136"
+    docket: "88-782"
+    citation: "492 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Friday, June 23, 1989"
-    citation: "492 U.S. 136"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-003"
@@ -2968,9 +3856,12 @@ cases:
     title: "Northbrook Nat. Ins. Co. v. Brewer"
     volume: "493"
     page: "006"
+    docket: "88-995"
+    citation: "493 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 7, 1989"
-    citation: "493 U.S. 6"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-011"
@@ -2978,9 +3869,12 @@ cases:
     title: "United States v. Goodyear Tire &amp; Rubber Co."
     volume: "493"
     page: "132"
+    docket: "88-1474"
+    citation: "493 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1989"
-    citation: "493 U.S. 132"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-031"
@@ -2988,9 +3882,12 @@ cases:
     title: "Reves v. Ernst &amp; Young"
     volume: "494"
     page: "056"
+    docket: "88-1480"
+    citation: "494 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 21, 1990"
-    citation: "494 U.S. 56"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-045"
@@ -2998,9 +3895,12 @@ cases:
     title: "McKoy v. North Carolina"
     volume: "494"
     page: "433"
+    docket: "88-5909"
+    citation: "494 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1990"
-    citation: "494 U.S. 433"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-050"
@@ -3008,9 +3908,12 @@ cases:
     title: "Lytle v. Household Mfg., Inc."
     volume: "494"
     page: "545"
+    docket: "88-334"
+    citation: "494 U.S. 545"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 20, 1990"
-    citation: "494 U.S. 545"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-051"
@@ -3018,9 +3921,12 @@ cases:
     title: "Teamsters v. Terry"
     volume: "494"
     page: "558"
+    docket: "88-1719"
+    citation: "494 U.S. 558"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 20, 1990"
-    citation: "494 U.S. 558"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-054"
@@ -3028,9 +3934,12 @@ cases:
     title: "Adams Fruit Co. v. Barrett"
     volume: "494"
     page: "638"
+    docket: "88-2035"
+    citation: "494 U.S. 638"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 21, 1990"
-    citation: "494 U.S. 638"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-055"
@@ -3038,9 +3947,12 @@ cases:
     title: "Austin v. Michigan Chamber of Commerce"
     volume: "494"
     page: "652"
+    docket: "88-1569"
+    citation: "494 U.S. 652"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 27, 1990"
-    citation: "494 U.S. 652"
+    voteMajority: 6
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-058"
@@ -3048,9 +3960,12 @@ cases:
     title: "NLRB v. Curtin Matheson Scientific, Inc."
     volume: "494"
     page: "775"
+    docket: "88-1685"
+    citation: "494 U.S. 775"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 17, 1990"
-    citation: "494 U.S. 775"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-078"
@@ -3058,9 +3973,12 @@ cases:
     title: "United States v. Munoz-Flores"
     volume: "495"
     page: "385"
+    docket: "88-1932"
+    citation: "495 U.S. 385"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1990"
-    citation: "495 U.S. 385"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-079"
@@ -3068,9 +3986,12 @@ cases:
     title: "Hughey v. United States"
     volume: "495"
     page: "411"
+    docket: "89-5691"
+    citation: "495 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1990"
-    citation: "495 U.S. 411"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-085"
@@ -3078,9 +3999,12 @@ cases:
     title: "Pennsylvania Dept. of Public Welfare v. Davenport"
     volume: "495"
     page: "552"
+    docket: "89-156"
+    citation: "495 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 29, 1990"
-    citation: "495 U.S. 552"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-095"
@@ -3088,9 +4012,12 @@ cases:
     title: "Begier v. IRS"
     volume: "496"
     page: "053"
+    docket: "89-393"
+    citation: "496 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1990"
-    citation: "496 U.S. 53"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1989-127"
@@ -3098,9 +4025,12 @@ cases:
     title: "Sisson v. Ruby"
     volume: "497"
     page: "358"
+    docket: "88-2041"
+    citation: "497 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1990"
-    citation: "497 U.S. 358"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1990-013"
@@ -3108,9 +4038,12 @@ cases:
     title: "Moskal v. United States"
     volume: "498"
     page: "103"
+    docket: "89-964"
+    citation: "498 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1990"
-    citation: "498 U.S. 103"
+    voteMajority: 5
+    voteMinority: 3
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1990-023"
@@ -3118,9 +4051,12 @@ cases:
     title: "Firstier Mortgage Co. v. Investors Mortgage Ins. Co."
     volume: "498"
     page: "269"
+    docket: "89-1063"
+    citation: "498 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 15, 1991"
-    citation: "498 U.S. 269"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1990-046"
@@ -3128,9 +4064,12 @@ cases:
     title: "Martin v. Occupational Safety and Health Review Comm&apos;n"
     volume: "499"
     page: "144"
+    docket: "89-1541"
+    citation: "499 U.S. 144"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 20, 1991"
-    citation: "499 U.S. 144"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1990-047"
@@ -3138,9 +4077,12 @@ cases:
     title: "United States v. Smith"
     volume: "499"
     page: "160"
+    docket: "89-1646"
+    citation: "499 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 20, 1991"
-    citation: "499 U.S. 160"
+    voteMajority: 8
+    voteMinority: 1
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1990-060"
@@ -3148,9 +4090,12 @@ cases:
     title: "Eastern Airlines, Inc. v. Floyd"
     volume: "499"
     page: "530"
+    docket: "89-1598"
+    citation: "499 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 17, 1991"
-    citation: "499 U.S. 530"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1990-061"
@@ -3158,9 +4103,12 @@ cases:
     title: "Cottage Savings Assn. v. Commissioner"
     volume: "499"
     page: "554"
+    docket: "89-1965"
+    citation: "499 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 17, 1991"
-    citation: "499 U.S. 554"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1990-062"
@@ -3168,9 +4116,12 @@ cases:
     title: "United States v. Centennial Savings Bank FSB"
     volume: "499"
     page: "573"
+    docket: "89-1926"
+    citation: "499 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 17, 1991"
-    citation: "499 U.S. 573"
+    voteMajority: 7
+    voteMinority: 2
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1990-070"
@@ -3178,9 +4129,12 @@ cases:
     title: "International Primate Protection League v. Administrators of Tulane Ed. Fund"
     volume: "500"
     page: "072"
+    docket: "90-89"
+    citation: "500 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1991"
-    citation: "500 U.S. 72"
+    voteMajority: 8
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1990-071"
@@ -3188,9 +4142,12 @@ cases:
     title: "Kamen v. Kemper Financial Services, Inc."
     volume: "500"
     page: "090"
+    docket: "90-516"
+    citation: "500 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1991"
-    citation: "500 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1990-093"
@@ -3198,9 +4155,12 @@ cases:
     title: "Exxon Corp. v. Central Gulf Lines, Inc."
     volume: "500"
     page: "603"
+    docket: "90-34"
+    citation: "500 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1991"
-    citation: "500 U.S. 603"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1990-098"
@@ -3208,9 +4168,12 @@ cases:
     title: "Johnson v. Home State Bank"
     volume: "501"
     page: "078"
+    docket: "90-693"
+    citation: "501 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1991"
-    citation: "501 U.S. 78"
+    voteMajority: 9
+    voteMinority: 0
     authorId: tmarshall
     authorName: "Thurgood Marshall"
   - id: "1990-102"
@@ -3218,9 +4181,12 @@ cases:
     title: "Burns v. United States"
     volume: "501"
     page: "129"
+    docket: "89-7260"
+    citation: "501 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Thursday, June 13, 1991"
-    citation: "501 U.S. 129"
+    voteMajority: 5
+    voteMinority: 4
     authorId: tmarshall
     authorName: "Thurgood Marshall"
 ---

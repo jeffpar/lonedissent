@@ -8,9 +8,11 @@ cases:
     title: "Brown v. Clarke"
     volume: "045"
     page: "004"
+    citation: "45 U.S. 4"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1846"
-    citation: "45 U.S. 4"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1846-006"
@@ -18,9 +20,11 @@ cases:
     title: "Garrard v. Lessee of Reynolds"
     volume: "045"
     page: "123"
+    citation: "45 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 16, 1845"
-    citation: "45 U.S. 123"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1846-009"
@@ -28,9 +32,11 @@ cases:
     title: "Erwin&apos;s Lessee v. Dundas"
     volume: "045"
     page: "058"
+    citation: "45 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 30, 1845"
-    citation: "45 U.S. 58"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1846-018"
@@ -38,9 +44,11 @@ cases:
     title: "Clifton v. United States"
     volume: "045"
     page: "242"
+    citation: "45 U.S. 242"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 20, 1846"
-    citation: "45 U.S. 242"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1846-027"
@@ -48,9 +56,11 @@ cases:
     title: "Zeller&apos;s Lessee v. Eckert"
     volume: "045"
     page: "289"
+    citation: "45 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 3, 1846"
-    citation: "45 U.S. 289"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1846-037"
@@ -58,9 +68,11 @@ cases:
     title: "Bradford v. Williams"
     volume: "045"
     page: "576"
+    citation: "45 U.S. 576"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1846"
-    citation: "45 U.S. 576"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1846-043"
@@ -68,9 +80,11 @@ cases:
     title: "Wilson v. Rousseau"
     volume: "045"
     page: "646"
+    citation: "45 U.S. 646"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1846"
-    citation: "45 U.S. 646"
+    voteMajority: 5
+    voteMinority: 3
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1846-044"
@@ -78,9 +92,11 @@ cases:
     title: "Simpson v. Wilson"
     volume: "045"
     page: "709"
+    citation: "45 U.S. 709"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1846"
-    citation: "45 U.S. 709"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1846-045"
@@ -88,9 +104,11 @@ cases:
     title: "Woodworth v. Wilson"
     volume: "045"
     page: "712"
+    citation: "45 U.S. 712"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1846"
-    citation: "45 U.S. 712"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1846-046"
@@ -98,9 +116,11 @@ cases:
     title: "Wilson v. Turner"
     volume: "045"
     page: "712"
+    citation: "45 U.S. 712"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1846"
-    citation: "45 U.S. 712"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1847-005"
@@ -108,9 +128,11 @@ cases:
     title: "United States v. Boyd"
     volume: "046"
     page: "029"
+    citation: "46 U.S. 29"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 29, 1846"
-    citation: "46 U.S. 29"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1847-014"
@@ -118,9 +140,11 @@ cases:
     title: "Bridges v. Armour"
     volume: "046"
     page: "091"
+    citation: "46 U.S. 91"
     pdfSource: "loc"
     dateDecision: "Friday, January 15, 1847"
-    citation: "46 U.S. 91"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1847-020"
@@ -128,9 +152,11 @@ cases:
     title: "Ford v. Douglas"
     volume: "046"
     page: "143"
+    citation: "46 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 26, 1847"
-    citation: "46 U.S. 143"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1847-026"
@@ -138,9 +164,11 @@ cases:
     title: "Gear v. Parish"
     volume: "046"
     page: "168"
+    citation: "46 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1847"
-    citation: "46 U.S. 168"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1848-007"
@@ -148,9 +176,11 @@ cases:
     title: "Bailey v. Dozier"
     volume: "047"
     page: "023"
+    citation: "47 U.S. 23"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 4, 1848"
-    citation: "47 U.S. 23"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1848-026"
@@ -158,9 +188,11 @@ cases:
     title: "New Jersey Steam Nav. Co. v. Merchants&apos; Bank of Boston"
     volume: "047"
     page: "344"
+    citation: "47 U.S. 344"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 7, 1848"
-    citation: "47 U.S. 344"
+    voteMajority: 6
+    voteMinority: 2
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1848-027"
@@ -168,9 +200,11 @@ cases:
     title: "Brashear v. Mason"
     volume: "047"
     page: "092"
+    citation: "47 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 8, 1848"
-    citation: "47 U.S. 92"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1849-007"
@@ -178,9 +212,11 @@ cases:
     title: "Smith v. Kernochen"
     volume: "048"
     page: "198"
+    citation: "48 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 16, 1849"
-    citation: "48 U.S. 198"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1849-011"
@@ -188,9 +224,11 @@ cases:
     title: "Patton v. Taylor"
     volume: "048"
     page: "132"
+    citation: "48 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 30, 1849"
-    citation: "48 U.S. 132"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1849-026"
@@ -198,9 +236,11 @@ cases:
     title: "McDonald v. Hobson"
     volume: "048"
     page: "745"
+    citation: "48 U.S. 745"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 20, 1849"
-    citation: "48 U.S. 745"
+    voteMajority: 7
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1849-032"
@@ -208,9 +248,11 @@ cases:
     title: "Hugg v. Augusta Ins. &amp; Banking Co. of Augusta"
     volume: "048"
     page: "595"
+    citation: "48 U.S. 595"
     pdfSource: "loc"
     dateDecision: "Friday, March 9, 1849"
-    citation: "48 U.S. 595"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-001"
@@ -218,9 +260,11 @@ cases:
     title: "United States v. Staats"
     volume: "049"
     page: "041"
+    citation: "49 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 11, 1849"
-    citation: "49 U.S. 41"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-008"
@@ -228,9 +272,11 @@ cases:
     title: "McClanahan v. Davis"
     volume: "049"
     page: "170"
+    citation: "49 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 9, 1850"
-    citation: "49 U.S. 170"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-014"
@@ -238,9 +284,11 @@ cases:
     title: "Bissell v. Penrose"
     volume: "049"
     page: "317"
+    citation: "49 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 22, 1850"
-    citation: "49 U.S. 317"
+    voteMajority: 7
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-028"
@@ -248,9 +296,11 @@ cases:
     title: "Grove v. Brien"
     volume: "049"
     page: "429"
+    citation: "49 U.S. 429"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 19, 1850"
-    citation: "49 U.S. 429"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-041"
@@ -258,9 +308,11 @@ cases:
     title: "Neves v. Scott"
     volume: "050"
     page: "196"
+    citation: "50 U.S. 196"
     pdfSource: "loc"
     dateDecision: "Thursday, February 28, 1850"
-    citation: "50 U.S. 196"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-053"
@@ -268,9 +320,11 @@ cases:
     title: "Benner v. Porter"
     volume: "050"
     page: "235"
+    citation: "50 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 30, 1850"
-    citation: "50 U.S. 235"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-057"
@@ -278,9 +332,11 @@ cases:
     title: "Gaines v. Nicholson"
     volume: "050"
     page: "356"
+    citation: "50 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 7, 1850"
-    citation: "50 U.S. 356"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-068"
@@ -288,9 +344,11 @@ cases:
     title: "Tayloe v. Merchants&apos; Fire Ins. Co. of Baltimore"
     volume: "050"
     page: "390"
+    citation: "50 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Thursday, May 23, 1850"
-    citation: "50 U.S. 390"
+    voteMajority: 7
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-076"
@@ -298,9 +356,11 @@ cases:
     title: "Forsyth v. United States"
     volume: "050"
     page: "571"
+    citation: "50 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 1850"
-    citation: "50 U.S. 571"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-080"
@@ -308,9 +368,11 @@ cases:
     title: "Pennsylvania v. Wheeling &amp; Belmont Bridge Co."
     volume: "050"
     page: "647"
+    citation: "50 U.S. 647"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 29, 1850"
-    citation: "50 U.S. 647"
+    voteMajority: 7
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-088"
@@ -318,9 +380,11 @@ cases:
     title: "Hoyt v. United States"
     volume: "051"
     page: "109"
+    citation: "51 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 31, 1850"
-    citation: "51 U.S. 109"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-092"
@@ -328,9 +392,11 @@ cases:
     title: "McNulty v. Batty"
     volume: "051"
     page: "072"
+    citation: "51 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 7, 1851"
-    citation: "51 U.S. 72"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-093"
@@ -338,9 +404,11 @@ cases:
     title: "Preston v. Bracken"
     volume: "051"
     page: "081"
+    citation: "51 U.S. 81"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 7, 1851"
-    citation: "51 U.S. 81"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-098"
@@ -348,9 +416,11 @@ cases:
     title: "Louisville Mfg. Co. v. Welch"
     volume: "051"
     page: "461"
+    citation: "51 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 14, 1851"
-    citation: "51 U.S. 461"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-107"
@@ -358,9 +428,11 @@ cases:
     title: "United States v. Girault"
     volume: "052"
     page: "022"
+    citation: "52 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 22, 1851"
-    citation: "52 U.S. 22"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-111"
@@ -368,9 +440,11 @@ cases:
     title: "Stockton v. Ford"
     volume: "052"
     page: "232"
+    citation: "52 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Thursday, January 23, 1851"
-    citation: "52 U.S. 232"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-125"
@@ -378,9 +452,11 @@ cases:
     title: "St. John v. Paine"
     volume: "051"
     page: "557"
+    citation: "51 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Thursday, February 13, 1851"
-    citation: "51 U.S. 557"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-126"
@@ -388,9 +464,11 @@ cases:
     title: "Newton v. Stebbins"
     volume: "051"
     page: "586"
+    citation: "51 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Thursday, February 13, 1851"
-    citation: "51 U.S. 586"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-130"
@@ -398,9 +476,11 @@ cases:
     title: "Hotchkiss v. Greenwood"
     volume: "052"
     page: "248"
+    citation: "52 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1851"
-    citation: "52 U.S. 248"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-145"
@@ -408,9 +488,11 @@ cases:
     title: "Van Renesselaer v. Kearney"
     volume: "052"
     page: "297"
+    citation: "52 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 5, 1851"
-    citation: "52 U.S. 297"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-173"
@@ -418,9 +500,11 @@ cases:
     title: "Simpson v. United States"
     volume: "050"
     page: "578"
+    citation: "50 U.S. 578"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 1850"
-    citation: "50 U.S. 578"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1850-175"
@@ -428,9 +512,11 @@ cases:
     title: "Cotton v. United States"
     volume: "050"
     page: "579"
+    citation: "50 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 1850"
-    citation: "50 U.S. 579"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1851-005"
@@ -438,9 +524,11 @@ cases:
     title: "Farmers&apos; Bank of Va. v. Groves"
     volume: "053"
     page: "051"
+    citation: "53 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 16, 1851"
-    citation: "53 U.S. 51"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1851-010"
@@ -448,9 +536,11 @@ cases:
     title: "Williams v. Oliver"
     volume: "053"
     page: "111"
+    citation: "53 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 24, 1851"
-    citation: "53 U.S. 111"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1851-011"
@@ -458,9 +548,11 @@ cases:
     title: "Williams v. Oliver"
     volume: "053"
     page: "125"
+    citation: "53 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 24, 1851"
-    citation: "53 U.S. 125"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1851-019"
@@ -468,9 +560,11 @@ cases:
     title: "Lyman v. Bank of United States"
     volume: "053"
     page: "225"
+    citation: "53 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 7, 1852"
-    citation: "53 U.S. 225"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1851-027"
@@ -478,9 +572,11 @@ cases:
     title: "Clark v. Barnwell"
     volume: "053"
     page: "272"
+    citation: "53 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, February 9, 1852"
-    citation: "53 U.S. 272"
+    voteMajority: 7
+    voteMinority: 2
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1851-044"
@@ -488,9 +584,11 @@ cases:
     title: "United States v. Hughes"
     volume: "054"
     page: "001"
+    citation: "54 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1852"
-    citation: "54 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1851-045"
@@ -498,9 +596,11 @@ cases:
     title: "United States v. Hughes"
     volume: "054"
     page: "004"
+    citation: "54 U.S. 4"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1852"
-    citation: "54 U.S. 4"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1851-046"
@@ -508,9 +608,11 @@ cases:
     title: "United States v. Hughes"
     volume: "054"
     page: "007"
+    citation: "54 U.S. 7"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1852"
-    citation: "54 U.S. 7"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1851-054"
@@ -518,9 +620,11 @@ cases:
     title: "Rich v. Lambert"
     volume: "053"
     page: "347"
+    citation: "53 U.S. 347"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1852"
-    citation: "53 U.S. 347"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1851-062"
@@ -528,9 +632,11 @@ cases:
     title: "Williamson v. Barrett"
     volume: "054"
     page: "101"
+    citation: "54 U.S. 101"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 20, 1852"
-    citation: "54 U.S. 101"
+    voteMajority: 6
+    voteMinority: 3
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1851-073"
@@ -538,9 +644,11 @@ cases:
     title: "Bradford v. Union Bank of Tenn."
     volume: "054"
     page: "057"
+    citation: "54 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Friday, April 30, 1852"
-    citation: "54 U.S. 57"
+    voteMajority: 7
+    voteMinority: 2
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1851-078"
@@ -548,9 +656,11 @@ cases:
     title: "Rogers v. Lindsey"
     volume: "054"
     page: "441"
+    citation: "54 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 11, 1852"
-    citation: "54 U.S. 441"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1851-087"
@@ -558,9 +668,11 @@ cases:
     title: "De Forest v. Lawrence"
     volume: "054"
     page: "274"
+    citation: "54 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Thursday, May 27, 1852"
-    citation: "54 U.S. 274"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1852-010"
@@ -568,9 +680,11 @@ cases:
     title: "Wiswall v. Sampson"
     volume: "055"
     page: "052"
+    citation: "55 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 5, 1853"
-    citation: "55 U.S. 52"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1852-024"
@@ -578,9 +692,11 @@ cases:
     title: "E. P. Calkin &amp; Co. v. Cocke"
     volume: "055"
     page: "227"
+    citation: "55 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 1, 1853"
-    citation: "55 U.S. 227"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1852-035"
@@ -588,9 +704,11 @@ cases:
     title: "Salmon Falls Mfg. Co. v. Goddard"
     volume: "055"
     page: "446"
+    citation: "55 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 15, 1853"
-    citation: "55 U.S. 446"
+    voteMajority: 5
+    voteMinority: 2
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1852-042"
@@ -598,9 +716,11 @@ cases:
     title: "Stephens v. Cady"
     volume: "055"
     page: "528"
+    citation: "55 U.S. 528"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 23, 1853"
-    citation: "55 U.S. 528"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1852-046"
@@ -608,9 +728,11 @@ cases:
     title: "Stainback v. Rae"
     volume: "055"
     page: "532"
+    citation: "55 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 1, 1853"
-    citation: "55 U.S. 532"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1853-014"
@@ -618,9 +740,11 @@ cases:
     title: "United States v. D&apos;Auterieve"
     volume: "056"
     page: "014"
+    citation: "56 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 17, 1854"
-    citation: "56 U.S. 14"
+    voteMajority: 5
+    voteMinority: 4
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1853-025"
@@ -628,9 +752,11 @@ cases:
     title: "United States v. Dawson"
     volume: "056"
     page: "467"
+    citation: "56 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 31, 1854"
-    citation: "56 U.S. 467"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1853-037"
@@ -638,9 +764,11 @@ cases:
     title: "Kearney v. Taylor"
     volume: "056"
     page: "494"
+    citation: "56 U.S. 494"
     pdfSource: "loc"
     dateDecision: "Thursday, February 16, 1854"
-    citation: "56 U.S. 494"
+    voteMajority: 6
+    voteMinority: 3
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1853-040"
@@ -648,9 +776,11 @@ cases:
     title: "Thorp v. Raymond"
     volume: "057"
     page: "247"
+    citation: "57 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 22, 1854"
-    citation: "57 U.S. 247"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1853-047"
@@ -658,9 +788,11 @@ cases:
     title: "Chapman ex rel. Leavitt v. Smith"
     volume: "057"
     page: "114"
+    citation: "57 U.S. 114"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1854"
-    citation: "57 U.S. 114"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1853-054"
@@ -668,9 +800,11 @@ cases:
     title: "Smith v. Swormstedt"
     volume: "057"
     page: "288"
+    citation: "57 U.S. 288"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 25, 1854"
-    citation: "57 U.S. 288"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1853-063"
@@ -678,9 +812,11 @@ cases:
     title: "Deshler v. Dodge"
     volume: "057"
     page: "622"
+    citation: "57 U.S. 622"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 16, 1854"
-    citation: "57 U.S. 622"
+    voteMajority: 5
+    voteMinority: 4
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1853-070"
@@ -688,9 +824,11 @@ cases:
     title: "Southard v. Russell"
     volume: "057"
     page: "547"
+    citation: "57 U.S. 547"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 23, 1854"
-    citation: "57 U.S. 547"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1854-003"
@@ -698,9 +836,11 @@ cases:
     title: "Arthurs v. Hart"
     volume: "058"
     page: "006"
+    citation: "58 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 19, 1854"
-    citation: "58 U.S. 6"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1854-015"
@@ -708,9 +848,11 @@ cases:
     title: "United States v. Sixty-seven Packages of Dry Goods"
     volume: "058"
     page: "085"
+    citation: "58 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1855"
-    citation: "58 U.S. 85"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1854-016"
@@ -718,9 +860,11 @@ cases:
     title: "United States v. Nine Cases of Silk Hats"
     volume: "058"
     page: "097"
+    citation: "58 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1855"
-    citation: "58 U.S. 97"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1854-017"
@@ -728,9 +872,11 @@ cases:
     title: "United States v. One Package of Merchandise"
     volume: "058"
     page: "098"
+    citation: "58 U.S. 98"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1855"
-    citation: "58 U.S. 98"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1854-018"
@@ -738,9 +884,11 @@ cases:
     title: "United States v. One Case of Clocks"
     volume: "058"
     page: "099"
+    citation: "58 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1855"
-    citation: "58 U.S. 99"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1854-023"
@@ -748,9 +896,11 @@ cases:
     title: "Providence v. Clapp"
     volume: "058"
     page: "161"
+    citation: "58 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 16, 1855"
-    citation: "58 U.S. 161"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1854-039"
@@ -758,9 +908,11 @@ cases:
     title: "McBlair v. Gibbes"
     volume: "058"
     page: "232"
+    citation: "58 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Thursday, February 15, 1855"
-    citation: "58 U.S. 232"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1854-040"
@@ -768,9 +920,11 @@ cases:
     title: "Williams v. Gibbes"
     volume: "058"
     page: "239"
+    citation: "58 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Thursday, February 15, 1855"
-    citation: "58 U.S. 239"
+    voteMajority: 6
+    voteMinority: 3
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1854-041"
@@ -778,9 +932,11 @@ cases:
     title: "Gooding v. Oliver"
     volume: "058"
     page: "274"
+    citation: "58 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Thursday, February 15, 1855"
-    citation: "58 U.S. 274"
+    voteMajority: 6
+    voteMinority: 3
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1854-060"
@@ -788,9 +944,11 @@ cases:
     title: "Ayres v. Carver"
     volume: "058"
     page: "591"
+    citation: "58 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Thursday, March 8, 1855"
-    citation: "58 U.S. 591"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1854-064"
@@ -798,9 +956,11 @@ cases:
     title: "Schooner Catharine v. Dickinson"
     volume: "058"
     page: "170"
+    citation: "58 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Saturday, March 10, 1855"
-    citation: "58 U.S. 170"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1854-066"
@@ -808,9 +968,11 @@ cases:
     title: "United States v. Ritchie"
     volume: "058"
     page: "525"
+    citation: "58 U.S. 525"
     pdfSource: "loc"
     dateDecision: "Saturday, March 10, 1855"
-    citation: "58 U.S. 525"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1854-068"
@@ -818,9 +980,11 @@ cases:
     title: "Hays v. Pacific Mail S. S. Co."
     volume: "058"
     page: "596"
+    citation: "58 U.S. 596"
     pdfSource: "loc"
     dateDecision: "Saturday, March 10, 1855"
-    citation: "58 U.S. 596"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1855-006"
@@ -828,9 +992,11 @@ cases:
     title: "Carrington v. Brig Ann C. Pratt"
     volume: "059"
     page: "063"
+    citation: "59 U.S. 63"
     pdfSource: "loc"
     dateDecision: "Friday, December 21, 1855"
-    citation: "59 U.S. 63"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1855-016"
@@ -838,9 +1004,11 @@ cases:
     title: "McCready v. Goldsmith"
     volume: "059"
     page: "089"
+    citation: "59 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 8, 1856"
-    citation: "59 U.S. 89"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1855-018"
@@ -848,9 +1016,11 @@ cases:
     title: "Savignac v. Garrison"
     volume: "059"
     page: "136"
+    citation: "59 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Thursday, January 10, 1856"
-    citation: "59 U.S. 136"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1855-027"
@@ -858,9 +1028,11 @@ cases:
     title: "Jones v. Johnston"
     volume: "059"
     page: "150"
+    citation: "59 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 22, 1856"
-    citation: "59 U.S. 150"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1855-034"
@@ -868,9 +1040,11 @@ cases:
     title: "United States v. Minnesota &amp; Northwestern R. Co."
     volume: "059"
     page: "241"
+    citation: "59 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 29, 1856"
-    citation: "59 U.S. 241"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1855-041"
@@ -878,9 +1052,11 @@ cases:
     title: "Steamboat New York v. Rea"
     volume: "059"
     page: "223"
+    citation: "59 U.S. 223"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 12, 1856"
-    citation: "59 U.S. 223"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1855-050"
@@ -888,9 +1064,11 @@ cases:
     title: "McCall&apos;s Lessee v. Carpenter"
     volume: "059"
     page: "297"
+    citation: "59 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1856"
-    citation: "59 U.S. 297"
+    voteMajority: 6
+    voteMinority: 2
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1855-052"
@@ -898,9 +1076,11 @@ cases:
     title: "Stockton v. Ford"
     volume: "059"
     page: "418"
+    citation: "59 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Thursday, February 28, 1856"
-    citation: "59 U.S. 418"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1855-059"
@@ -908,9 +1088,11 @@ cases:
     title: "Pennsylvania v. Wheeling &amp; Belmont Bridge Co."
     volume: "059"
     page: "421"
+    citation: "59 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1856"
-    citation: "59 U.S. 421"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1855-066"
@@ -918,9 +1100,11 @@ cases:
     title: "Wood v. Davis"
     volume: "059"
     page: "467"
+    citation: "59 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1856"
-    citation: "59 U.S. 467"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1855-070"
@@ -928,9 +1112,11 @@ cases:
     title: "Pennsylvania v. Wheeling &amp; Belmont Bridge Co."
     volume: "059"
     page: "460"
+    citation: "59 U.S. 460"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 460"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1855-078"
@@ -938,9 +1124,11 @@ cases:
     title: "United States v. Larkin"
     volume: "059"
     page: "557"
+    citation: "59 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 557"
+    voteMajority: 7
+    voteMinority: 2
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1855-083"
@@ -948,9 +1136,11 @@ cases:
     title: "United States v. Shackleford"
     volume: "059"
     page: "588"
+    citation: "59 U.S. 588"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 588"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1856-005"
@@ -958,9 +1148,11 @@ cases:
     title: "Platt v. Jerome"
     volume: "060"
     page: "384"
+    citation: "60 U.S. 384"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 24, 1856"
-    citation: "60 U.S. 384"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1856-011"
@@ -968,9 +1160,11 @@ cases:
     title: "Seymour v. McCormick"
     volume: "060"
     page: "096"
+    citation: "60 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 7, 1857"
-    citation: "60 U.S. 96"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1856-012"
@@ -978,9 +1172,11 @@ cases:
     title: "Rogers v. Steamer St. Charles"
     volume: "060"
     page: "108"
+    citation: "60 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 7, 1857"
-    citation: "60 U.S. 108"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1856-019"
@@ -988,9 +1184,11 @@ cases:
     title: "Coiron v. Millaudon"
     volume: "060"
     page: "113"
+    citation: "60 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Thursday, January 15, 1857"
-    citation: "60 U.S. 113"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1856-027"
@@ -998,9 +1196,11 @@ cases:
     title: "Hartshorn v. Day"
     volume: "060"
     page: "211"
+    citation: "60 U.S. 211"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 27, 1857"
-    citation: "60 U.S. 211"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1856-032"
@@ -1008,9 +1208,11 @@ cases:
     title: "Schuchardt v. Babbidge"
     volume: "060"
     page: "239"
+    citation: "60 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1857"
-    citation: "60 U.S. 239"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1856-044"
@@ -1018,9 +1220,11 @@ cases:
     title: "Pratt v. Reed"
     volume: "060"
     page: "359"
+    citation: "60 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Friday, February 27, 1857"
-    citation: "60 U.S. 359"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1856-045"
@@ -1028,9 +1232,11 @@ cases:
     title: "Tod v. Pratt"
     volume: "060"
     page: "362"
+    citation: "60 U.S. 362"
     pdfSource: "loc"
     dateDecision: "Friday, February 27, 1857"
-    citation: "60 U.S. 362"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1856-056"
@@ -1038,9 +1244,11 @@ cases:
     title: "Fellows v. Blacksmith"
     volume: "060"
     page: "366"
+    citation: "60 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
-    citation: "60 U.S. 366"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1856-060"
@@ -1048,9 +1256,11 @@ cases:
     title: "Ballard v. Thomas"
     volume: "060"
     page: "382"
+    citation: "60 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
-    citation: "60 U.S. 382"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1857-005"
@@ -1058,9 +1268,11 @@ cases:
     title: "Jones v. McMasters"
     volume: "061"
     page: "008"
+    citation: "61 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1858"
-    citation: "61 U.S. 8"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1857-010"
@@ -1068,9 +1280,11 @@ cases:
     title: "Silsby v. Foote"
     volume: "061"
     page: "290"
+    citation: "61 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1858"
-    citation: "61 U.S. 290"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1857-014"
@@ -1078,9 +1292,11 @@ cases:
     title: "United States v. Cambuston"
     volume: "061"
     page: "059"
+    citation: "61 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1858"
-    citation: "61 U.S. 59"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1857-031"
@@ -1088,9 +1304,11 @@ cases:
     title: "Day v. Union India Rubber Co."
     volume: "061"
     page: "216"
+    citation: "61 U.S. 216"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1858"
-    citation: "61 U.S. 216"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1857-032"
@@ -1098,9 +1316,11 @@ cases:
     title: "McGavock v. Woodlief"
     volume: "061"
     page: "221"
+    citation: "61 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1858"
-    citation: "61 U.S. 221"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1857-045"
@@ -1108,9 +1328,11 @@ cases:
     title: "Gazzam v. Phillips&apos; Lessee"
     volume: "061"
     page: "372"
+    citation: "61 U.S. 372"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 4, 1858"
-    citation: "61 U.S. 372"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1857-046"
@@ -1118,9 +1340,11 @@ cases:
     title: "Silsby v. Foote"
     volume: "061"
     page: "378"
+    citation: "61 U.S. 378"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 4, 1858"
-    citation: "61 U.S. 378"
+    voteMajority: 7
+    voteMinority: 2
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1857-063"
@@ -1128,9 +1352,11 @@ cases:
     title: "Williams v. Gibbes"
     volume: "061"
     page: "535"
+    citation: "61 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 18, 1858"
-    citation: "61 U.S. 535"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1857-065"
@@ -1138,9 +1364,11 @@ cases:
     title: "Holcombe v. McKusick"
     volume: "061"
     page: "552"
+    citation: "61 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 18, 1858"
-    citation: "61 U.S. 552"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1857-068"
@@ -1148,9 +1376,11 @@ cases:
     title: "Ransom v. New York"
     volume: "061"
     page: "581"
+    citation: "61 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 18, 1858"
-    citation: "61 U.S. 581"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1857-070"
@@ -1158,9 +1388,11 @@ cases:
     title: "Hudgins v. Kemp"
     volume: "061"
     page: "054"
+    citation: "61 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 10, 1858"
-    citation: "61 U.S. 54"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1857-071"
@@ -1168,9 +1400,11 @@ cases:
     title: "Whyte v. Gibbes"
     volume: "061"
     page: "541"
+    citation: "61 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 18, 1858"
-    citation: "61 U.S. 541"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1858-006"
@@ -1178,9 +1412,11 @@ cases:
     title: "Pennsylvania v. Ravenel"
     volume: "062"
     page: "103"
+    citation: "62 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 28, 1858"
-    citation: "62 U.S. 103"
+    voteMajority: 7
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1858-011"
@@ -1188,9 +1424,11 @@ cases:
     title: "Union Ins. Co. v. Hoge"
     volume: "062"
     page: "035"
+    citation: "62 U.S. 35"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1859"
-    citation: "62 U.S. 35"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1858-025"
@@ -1198,9 +1436,11 @@ cases:
     title: "Allen v. Newberry"
     volume: "062"
     page: "244"
+    citation: "62 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Thursday, February 3, 1859"
-    citation: "62 U.S. 244"
+    voteMajority: 6
+    voteMinority: 3
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1858-028"
@@ -1208,9 +1448,11 @@ cases:
     title: "Maguire v. Card"
     volume: "062"
     page: "248"
+    citation: "62 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1859"
-    citation: "62 U.S. 248"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1858-030"
@@ -1218,9 +1460,11 @@ cases:
     title: "Belcher &amp; Co. v. Lawrason"
     volume: "062"
     page: "251"
+    citation: "62 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1859"
-    citation: "62 U.S. 251"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1858-036"
@@ -1228,9 +1472,11 @@ cases:
     title: "Pemberton v. Lockett"
     volume: "062"
     page: "257"
+    citation: "62 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1859"
-    citation: "62 U.S. 257"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1858-062"
@@ -1238,9 +1484,11 @@ cases:
     title: "Board of Comm&apos;rs of Knox Cty. v. Aspinwall"
     volume: "062"
     page: "539"
+    citation: "62 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1859"
-    citation: "62 U.S. 539"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1858-063"
@@ -1248,9 +1496,11 @@ cases:
     title: "Board of Comm&apos;rs of Knox Cty. v. Wallace"
     volume: "062"
     page: "546"
+    citation: "62 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1859"
-    citation: "62 U.S. 546"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1858-066"
@@ -1258,9 +1508,11 @@ cases:
     title: "White v. Vermont &amp; Massachusetts R. Co."
     volume: "062"
     page: "575"
+    citation: "62 U.S. 575"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1859"
-    citation: "62 U.S. 575"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-007"
@@ -1268,9 +1520,11 @@ cases:
     title: "Sinnot v. Davenport"
     volume: "063"
     page: "227"
+    citation: "63 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 27, 1859"
-    citation: "63 U.S. 227"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-008"
@@ -1278,9 +1532,11 @@ cases:
     title: "Foster v. Davenport"
     volume: "063"
     page: "244"
+    citation: "63 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 27, 1859"
-    citation: "63 U.S. 244"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-013"
@@ -1288,9 +1544,11 @@ cases:
     title: "McMicken&apos;s Executors v. Perin"
     volume: "063"
     page: "282"
+    citation: "63 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1860"
-    citation: "63 U.S. 282"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-024"
@@ -1298,9 +1556,11 @@ cases:
     title: "Collins v. Thompson"
     volume: "063"
     page: "246"
+    citation: "63 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1860"
-    citation: "63 U.S. 246"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-032"
@@ -1308,9 +1568,11 @@ cases:
     title: "Aspinwall v. Board of Comm&apos;rs of Daviess Cty."
     volume: "063"
     page: "364"
+    citation: "63 U.S. 364"
     pdfSource: "loc"
     dateDecision: "Monday, February 6, 1860"
-    citation: "63 U.S. 364"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-033"
@@ -1318,9 +1580,11 @@ cases:
     title: "Clifton v. Sheldon"
     volume: "064"
     page: "481"
+    citation: "64 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, February 6, 1860"
-    citation: "64 U.S. 481"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-041"
@@ -1328,9 +1592,11 @@ cases:
     title: "Pennock v. Coe"
     volume: "064"
     page: "117"
+    citation: "64 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1860"
-    citation: "64 U.S. 117"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-051"
@@ -1338,9 +1604,11 @@ cases:
     title: "United States v. Galbraith"
     volume: "063"
     page: "089"
+    citation: "63 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "63 U.S. 89"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-053"
@@ -1348,9 +1616,11 @@ cases:
     title: "Insurance Co. of Valley of Va. v. Mordecai"
     volume: "063"
     page: "111"
+    citation: "63 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "63 U.S. 111"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-064"
@@ -1358,9 +1628,11 @@ cases:
     title: "United States v. Teschmaker"
     volume: "063"
     page: "392"
+    citation: "63 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "63 U.S. 392"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-065"
@@ -1368,9 +1640,11 @@ cases:
     title: "United States v. Pico"
     volume: "063"
     page: "406"
+    citation: "63 U.S. 406"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "63 U.S. 406"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-066"
@@ -1378,9 +1652,11 @@ cases:
     title: "United States v. Vallejo"
     volume: "063"
     page: "416"
+    citation: "63 U.S. 416"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "63 U.S. 416"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-079"
@@ -1388,9 +1664,11 @@ cases:
     title: "Beaubien v. Baubien"
     volume: "064"
     page: "190"
+    citation: "64 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1860"
-    citation: "64 U.S. 190"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-092"
@@ -1398,9 +1676,11 @@ cases:
     title: "Anson, Bangs, &amp; Co. v. Blue Ridge R. Co."
     volume: "064"
     page: "001"
+    citation: "64 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1860"
-    citation: "64 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-097"
@@ -1408,9 +1688,11 @@ cases:
     title: "Orient Mut. Ins. Co. v. Wright ex rel. Maxwell, Wright, &amp; Co."
     volume: "064"
     page: "401"
+    citation: "64 U.S. 401"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1860"
-    citation: "64 U.S. 401"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-098"
@@ -1418,9 +1700,11 @@ cases:
     title: "Sun Mut. Ins. Co. v. Wright ex rel. Maxwell, Wright, &amp; Co."
     volume: "064"
     page: "412"
+    citation: "64 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1860"
-    citation: "64 U.S. 412"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-099"
@@ -1428,9 +1712,11 @@ cases:
     title: "Callan v. Statham"
     volume: "064"
     page: "477"
+    citation: "64 U.S. 477"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1860"
-    citation: "64 U.S. 477"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-100"
@@ -1438,9 +1724,11 @@ cases:
     title: "Oelricks v. Ford"
     volume: "064"
     page: "049"
+    citation: "64 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1860"
-    citation: "64 U.S. 49"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1859-109"
@@ -1448,9 +1736,11 @@ cases:
     title: "Minturn v. Larue"
     volume: "064"
     page: "435"
+    citation: "64 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Friday, May 4, 1860"
-    citation: "64 U.S. 435"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1860-003"
@@ -1458,9 +1748,11 @@ cases:
     title: "Bulkley v. Naumkeag Steam Cotton Co."
     volume: "065"
     page: "386"
+    citation: "65 U.S. 386"
     pdfSource: "loc"
     dateDecision: "Monday, December 31, 1860"
-    citation: "65 U.S. 386"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1860-010"
@@ -1468,9 +1760,11 @@ cases:
     title: "Davila v. Mumford"
     volume: "065"
     page: "214"
+    citation: "65 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1861"
-    citation: "65 U.S. 214"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1860-017"
@@ -1478,9 +1772,11 @@ cases:
     title: "Lessee of Frost v. Frostburg Coal Co."
     volume: "065"
     page: "278"
+    citation: "65 U.S. 278"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1861"
-    citation: "65 U.S. 278"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1860-019"
@@ -1488,9 +1784,11 @@ cases:
     title: "Phillips v. Page"
     volume: "065"
     page: "164"
+    citation: "65 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1861"
-    citation: "65 U.S. 164"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1860-025"
@@ -1498,9 +1796,11 @@ cases:
     title: "Mayer v. White"
     volume: "065"
     page: "317"
+    citation: "65 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1861"
-    citation: "65 U.S. 317"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1860-030"
@@ -1508,9 +1808,11 @@ cases:
     title: "Moore v. American Transp. Co."
     volume: "065"
     page: "001"
+    citation: "65 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1861"
-    citation: "65 U.S. 1"
+    voteMajority: 7
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1860-042"
@@ -1518,9 +1820,11 @@ cases:
     title: "Day v. Washburn"
     volume: "065"
     page: "352"
+    citation: "65 U.S. 352"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1861"
-    citation: "65 U.S. 352"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1860-055"
@@ -1528,9 +1832,11 @@ cases:
     title: "Freeman v. Howe"
     volume: "065"
     page: "450"
+    citation: "65 U.S. 450"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 450"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1860-056"
@@ -1538,9 +1844,11 @@ cases:
     title: "Howard v. Bugbee"
     volume: "065"
     page: "461"
+    citation: "65 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 461"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-003"
@@ -1548,9 +1856,11 @@ cases:
     title: "Stiles v. Davis &amp; Barton"
     volume: "066"
     page: "101"
+    citation: "66 U.S. 101"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1861"
-    citation: "66 U.S. 101"
+    voteMajority: 5
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-009"
@@ -1558,9 +1868,11 @@ cases:
     title: "Dermott v. Wallach"
     volume: "066"
     page: "096"
+    citation: "66 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1862"
-    citation: "66 U.S. 96"
+    voteMajority: 5
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-014"
@@ -1568,9 +1880,11 @@ cases:
     title: "Rogers v. Law"
     volume: "066"
     page: "253"
+    citation: "66 U.S. 253"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1862"
-    citation: "66 U.S. 253"
+    voteMajority: 5
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-019"
@@ -1578,9 +1892,11 @@ cases:
     title: "Clark v. Hackett"
     volume: "066"
     page: "077"
+    citation: "66 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1862"
-    citation: "66 U.S. 77"
+    voteMajority: 6
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-021"
@@ -1588,9 +1904,11 @@ cases:
     title: "Gregg v. Tesson"
     volume: "066"
     page: "150"
+    citation: "66 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1862"
-    citation: "66 U.S. 150"
+    voteMajority: 6
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-023"
@@ -1598,9 +1916,11 @@ cases:
     title: "Silliman v. Hudson River Bridge Co."
     volume: "066"
     page: "582"
+    citation: "66 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1862"
-    citation: "66 U.S. 582"
+    voteMajority: 3
+    voteMinority: 3
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-026"
@@ -1608,9 +1928,11 @@ cases:
     title: "Crews v. Burcham"
     volume: "066"
     page: "352"
+    citation: "66 U.S. 352"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1862"
-    citation: "66 U.S. 352"
+    voteMajority: 5
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-031"
@@ -1618,9 +1940,11 @@ cases:
     title: "Flanigan v. Turner"
     volume: "066"
     page: "491"
+    citation: "66 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1862"
-    citation: "66 U.S. 491"
+    voteMajority: 6
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-034"
@@ -1628,9 +1952,11 @@ cases:
     title: "O&apos;Brien v. Perry"
     volume: "066"
     page: "132"
+    citation: "66 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1862"
-    citation: "66 U.S. 132"
+    voteMajority: 5
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-039"
@@ -1638,9 +1964,11 @@ cases:
     title: "Bryan v. United States"
     volume: "066"
     page: "140"
+    citation: "66 U.S. 140"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1862"
-    citation: "66 U.S. 140"
+    voteMajority: 5
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-041"
@@ -1648,9 +1976,11 @@ cases:
     title: "United States v. John Wilson"
     volume: "066"
     page: "267"
+    citation: "66 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1862"
-    citation: "66 U.S. 267"
+    voteMajority: 6
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-048"
@@ -1658,9 +1988,11 @@ cases:
     title: "Sherman v. Smith"
     volume: "066"
     page: "587"
+    citation: "66 U.S. 587"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1862"
-    citation: "66 U.S. 587"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-049"
@@ -1668,9 +2000,11 @@ cases:
     title: "Vance v. Campbell"
     volume: "066"
     page: "427"
+    citation: "66 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1862"
-    citation: "66 U.S. 427"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-050"
@@ -1678,9 +2012,11 @@ cases:
     title: "Haussknecht v. Claypool"
     volume: "066"
     page: "431"
+    citation: "66 U.S. 431"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1862"
-    citation: "66 U.S. 431"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-059"
@@ -1688,9 +2024,11 @@ cases:
     title: "Pratt v. Fitzhugh"
     volume: "066"
     page: "271"
+    citation: "66 U.S. 271"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1862"
-    citation: "66 U.S. 271"
+    voteMajority: 6
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-060"
@@ -1698,9 +2036,11 @@ cases:
     title: "Moffitt v. Garr"
     volume: "066"
     page: "273"
+    citation: "66 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1862"
-    citation: "66 U.S. 273"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-062"
@@ -1708,9 +2048,11 @@ cases:
     title: "Clagett v. Kilbourne"
     volume: "066"
     page: "346"
+    citation: "66 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1862"
-    citation: "66 U.S. 346"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-067"
@@ -1718,9 +2060,11 @@ cases:
     title: "United States v. Jackalow"
     volume: "066"
     page: "484"
+    citation: "66 U.S. 484"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1862"
-    citation: "66 U.S. 484"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1861-070"
@@ -1728,9 +2072,11 @@ cases:
     title: "United States v. Vallejo"
     volume: "066"
     page: "541"
+    citation: "66 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1862"
-    citation: "66 U.S. 541"
+    voteMajority: 5
+    voteMinority: 2
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1862-011"
@@ -1738,9 +2084,11 @@ cases:
     title: "Nebraska City v. Campbell"
     volume: "067"
     page: "590"
+    citation: "67 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1863"
-    citation: "67 U.S. 590"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1862-016"
@@ -1748,9 +2096,11 @@ cases:
     title: "Calais Steamboat Co. v. Scudder"
     volume: "067"
     page: "372"
+    citation: "67 U.S. 372"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1863"
-    citation: "67 U.S. 372"
+    voteMajority: 6
+    voteMinority: 2
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1862-023"
@@ -1758,9 +2108,11 @@ cases:
     title: "Lessee of Parrish v. Ferris"
     volume: "067"
     page: "606"
+    citation: "67 U.S. 606"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1863"
-    citation: "67 U.S. 606"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1862-028"
@@ -1768,9 +2120,11 @@ cases:
     title: "Appleton v. Bacon"
     volume: "067"
     page: "699"
+    citation: "67 U.S. 699"
     pdfSource: "loc"
     dateDecision: "Monday, February 9, 1863"
-    citation: "67 U.S. 699"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1862-040"
@@ -1778,9 +2132,11 @@ cases:
     title: "United States v. Galbraith"
     volume: "067"
     page: "394"
+    citation: "67 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 10, 1863"
-    citation: "67 U.S. 394"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1862-041"
@@ -1788,9 +2144,11 @@ cases:
     title: "New York ex rel. Bank of Commerce v. Commissioner of Taxes for City and County of New York"
     volume: "067"
     page: "620"
+    citation: "67 U.S. 620"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 10, 1863"
-    citation: "67 U.S. 620"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1863-014"
@@ -1798,9 +2156,11 @@ cases:
     title: "Van Hostrup v. Madison City"
     volume: "068"
     page: "291"
+    citation: "68 U.S. 291"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1864"
-    citation: "68 U.S. 291"
+    voteMajority: 10
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1863-019"
@@ -1808,9 +2168,11 @@ cases:
     title: "Minnesota v. Bachelder"
     volume: "068"
     page: "109"
+    citation: "68 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1864"
-    citation: "68 U.S. 109"
+    voteMajority: 10
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1863-025"
@@ -1818,9 +2180,11 @@ cases:
     title: "Orchard v. Hughes"
     volume: "068"
     page: "073"
+    citation: "68 U.S. 73"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1864"
-    citation: "68 U.S. 73"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1863-044"
@@ -1828,9 +2192,11 @@ cases:
     title: "Bronson v. La Crosse &amp; Milwaukee R. Co."
     volume: "068"
     page: "405"
+    citation: "68 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1864"
-    citation: "68 U.S. 405"
+    voteMajority: 9
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1863-045"
@@ -1838,9 +2204,11 @@ cases:
     title: "Bronson v. La Crosse &amp; Milwaukie R. Co."
     volume: "069"
     page: "283"
+    citation: "69 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1864"
-    citation: "69 U.S. 283"
+    voteMajority: 9
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1863-058"
@@ -1848,9 +2216,11 @@ cases:
     title: "The Fossat or Quicksilver Mine Case"
     volume: "069"
     page: "649"
+    citation: "69 U.S. 649"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1864"
-    citation: "69 U.S. 649"
+    voteMajority: 9
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1863-063"
@@ -1858,9 +2228,11 @@ cases:
     title: "Parker v. Phetteplace"
     volume: "068"
     page: "684"
+    citation: "68 U.S. 684"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1864"
-    citation: "68 U.S. 684"
+    voteMajority: 9
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1863-064"
@@ -1868,9 +2240,11 @@ cases:
     title: "Dermott v. Wallach"
     volume: "068"
     page: "061"
+    citation: "68 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1864"
-    citation: "68 U.S. 61"
+    voteMajority: 10
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1863-067"
@@ -1878,9 +2252,11 @@ cases:
     title: "Iasigi v. Collector"
     volume: "068"
     page: "375"
+    citation: "68 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1864"
-    citation: "68 U.S. 375"
+    voteMajority: 10
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1863-068"
@@ -1888,9 +2264,11 @@ cases:
     title: "Homer v. Collector"
     volume: "068"
     page: "486"
+    citation: "68 U.S. 486"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1864"
-    citation: "68 U.S. 486"
+    voteMajority: 10
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1863-084"
@@ -1898,9 +2276,12 @@ cases:
     title: "Milwaukee &amp; Minnesota R. Co. v. Soutter"
     volume: "154"
     page: "541"
+    docket: "268"
+    citation: "154 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1864"
-    citation: "154 U.S. 541"
+    voteMajority: 10
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1863-085"
@@ -1908,9 +2289,12 @@ cases:
     title: "United States v. Olvera"
     volume: "154"
     page: "538"
+    docket: "149"
+    citation: "154 U.S. 538"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1864"
-    citation: "154 U.S. 538"
+    voteMajority: 10
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1864-006"
@@ -1918,9 +2302,11 @@ cases:
     title: "Hawthorne v. Calef"
     volume: "069"
     page: "010"
+    citation: "69 U.S. 10"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1865"
-    citation: "69 U.S. 10"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1864-008"
@@ -1928,9 +2314,11 @@ cases:
     title: "Drury v. Foster"
     volume: "069"
     page: "024"
+    citation: "69 U.S. 24"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1865"
-    citation: "69 U.S. 24"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1864-009"
@@ -1938,9 +2326,11 @@ cases:
     title: "Gregg v. Forsyth"
     volume: "069"
     page: "056"
+    citation: "69 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1865"
-    citation: "69 U.S. 56"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1864-014"
@@ -1948,9 +2338,11 @@ cases:
     title: "Bank Tax Case"
     volume: "069"
     page: "200"
+    citation: "69 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1865"
-    citation: "69 U.S. 200"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1864-023"
@@ -1958,9 +2350,11 @@ cases:
     title: "Chittenden v. Brewster"
     volume: "069"
     page: "191"
+    citation: "69 U.S. 191"
     pdfSource: "loc"
     dateDecision: "Monday, February 6, 1865"
-    citation: "69 U.S. 191"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1864-033"
@@ -1968,9 +2362,11 @@ cases:
     title: "Hogan v. Page"
     volume: "069"
     page: "605"
+    citation: "69 U.S. 605"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1865"
-    citation: "69 U.S. 605"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1864-047"
@@ -1978,9 +2374,11 @@ cases:
     title: "The Sutter Case"
     volume: "069"
     page: "562"
+    citation: "69 U.S. 562"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 8, 1865"
-    citation: "69 U.S. 562"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1864-048"
@@ -1988,9 +2386,11 @@ cases:
     title: "Brobst v. Brobst"
     volume: "069"
     page: "096"
+    citation: "69 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1865"
-    citation: "69 U.S. 96"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1864-049"
@@ -1998,9 +2398,11 @@ cases:
     title: "Humiston v. Stainthorp"
     volume: "069"
     page: "106"
+    citation: "69 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1865"
-    citation: "69 U.S. 106"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1865-014"
@@ -2008,9 +2410,11 @@ cases:
     title: "Suffolk Co. v. Hayden"
     volume: "070"
     page: "315"
+    citation: "70 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1866"
-    citation: "70 U.S. 315"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1865-019"
@@ -2018,9 +2422,11 @@ cases:
     title: "Bollinger&apos;s Champagne"
     volume: "070"
     page: "560"
+    citation: "70 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1866"
-    citation: "70 U.S. 560"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1865-023"
@@ -2028,9 +2434,11 @@ cases:
     title: "United States v. Circuit Judges"
     volume: "070"
     page: "673"
+    citation: "70 U.S. 673"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1866"
-    citation: "70 U.S. 673"
+    voteMajority: 6
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1865-026"
@@ -2038,9 +2446,11 @@ cases:
     title: "The Plymouth"
     volume: "070"
     page: "020"
+    citation: "70 U.S. 20"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1866"
-    citation: "70 U.S. 20"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1865-031"
@@ -2048,9 +2458,11 @@ cases:
     title: "Cincinnati City v. Morgan"
     volume: "070"
     page: "275"
+    citation: "70 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 13, 1866"
-    citation: "70 U.S. 275"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1865-044"
@@ -2058,9 +2470,11 @@ cases:
     title: "Turnpike Co. v. State"
     volume: "070"
     page: "210"
+    citation: "70 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1866"
-    citation: "70 U.S. 210"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1865-058"
@@ -2068,9 +2482,11 @@ cases:
     title: "McGuire v. Commonwealth"
     volume: "070"
     page: "387"
+    citation: "70 U.S. 387"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1866"
-    citation: "70 U.S. 387"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1865-064"
@@ -2078,9 +2494,11 @@ cases:
     title: "Van Allen v. Assessors"
     volume: "070"
     page: "573"
+    citation: "70 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1866"
-    citation: "70 U.S. 573"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1865-068"
@@ -2088,17 +2506,22 @@ cases:
     title: "Brown v. Tarkington"
     volume: "070"
     page: "377"
+    citation: "70 U.S. 377"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 3, 1866"
-    citation: "70 U.S. 377"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1865-078"
     termId: "1865-12"
     title: "Smith v. Orton"
+    docket: "80"
+    citation: "131 U.S. lxxv"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1866"
-    citation: "131 U.S. lxxv"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-004"
@@ -2106,9 +2529,11 @@ cases:
     title: "United States v. McMasters"
     volume: "071"
     page: "680"
+    citation: "71 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1866"
-    citation: "71 U.S. 680"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-007"
@@ -2116,9 +2541,11 @@ cases:
     title: "United States v. Dashiel"
     volume: "071"
     page: "182"
+    citation: "71 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 26, 1866"
-    citation: "71 U.S. 182"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-008"
@@ -2126,9 +2553,11 @@ cases:
     title: "United States v. Allsbury"
     volume: "071"
     page: "186"
+    citation: "71 U.S. 186"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 26, 1866"
-    citation: "71 U.S. 186"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-016"
@@ -2136,9 +2565,11 @@ cases:
     title: "Brown v. Bass"
     volume: "071"
     page: "262"
+    citation: "71 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Thursday, January 3, 1867"
-    citation: "71 U.S. 262"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-023"
@@ -2146,9 +2577,11 @@ cases:
     title: "People v. Commissioners"
     volume: "071"
     page: "244"
+    citation: "71 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1867"
-    citation: "71 U.S. 244"
+    voteMajority: 5
+    voteMinority: 3
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-045"
@@ -2156,9 +2589,11 @@ cases:
     title: "United States v. Hathaway"
     volume: "071"
     page: "404"
+    citation: "71 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1867"
-    citation: "71 U.S. 404"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-046"
@@ -2166,9 +2601,11 @@ cases:
     title: "United States v. Quimby"
     volume: "071"
     page: "408"
+    citation: "71 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1867"
-    citation: "71 U.S. 408"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-053"
@@ -2176,9 +2613,11 @@ cases:
     title: "Stanley v. Colt"
     volume: "072"
     page: "119"
+    citation: "72 U.S. 119"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1867"
-    citation: "72 U.S. 119"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-059"
@@ -2186,9 +2625,11 @@ cases:
     title: "Hansbrough v. Peck"
     volume: "072"
     page: "497"
+    citation: "72 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 13, 1867"
-    citation: "72 U.S. 497"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-068"
@@ -2196,9 +2637,11 @@ cases:
     title: "Bradley v. People"
     volume: "071"
     page: "459"
+    citation: "71 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1867"
-    citation: "71 U.S. 459"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-074"
@@ -2206,9 +2649,11 @@ cases:
     title: "Packet Co. v. Sickles"
     volume: "072"
     page: "580"
+    citation: "72 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1867"
-    citation: "72 U.S. 580"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-089"
@@ -2216,9 +2661,11 @@ cases:
     title: "Railroad Co. v. Barron"
     volume: "072"
     page: "090"
+    citation: "72 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1867"
-    citation: "72 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-090"
@@ -2226,9 +2673,11 @@ cases:
     title: "Myers v. Fenn"
     volume: "072"
     page: "205"
+    citation: "72 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1867"
-    citation: "72 U.S. 205"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-091"
@@ -2236,9 +2685,11 @@ cases:
     title: "Seaver v. Bigelows"
     volume: "072"
     page: "208"
+    citation: "72 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1867"
-    citation: "72 U.S. 208"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-102"
@@ -2246,9 +2697,11 @@ cases:
     title: "O&apos;Neal v. Kirkpatrick"
     volume: "072"
     page: "791"
+    citation: "72 U.S. 791"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1867"
-    citation: "72 U.S. 791"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-108"
@@ -2256,9 +2709,11 @@ cases:
     title: "United States v. Repentigny"
     volume: "072"
     page: "211"
+    citation: "72 U.S. 211"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1867"
-    citation: "72 U.S. 211"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-118"
@@ -2266,9 +2721,11 @@ cases:
     title: "United States v. Commissioner"
     volume: "072"
     page: "563"
+    citation: "72 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1867"
-    citation: "72 U.S. 563"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-122"
@@ -2276,9 +2733,11 @@ cases:
     title: "Wolcott v. Des Moines Co."
     volume: "072"
     page: "681"
+    citation: "72 U.S. 681"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1867"
-    citation: "72 U.S. 681"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1866-128"
@@ -2286,9 +2745,11 @@ cases:
     title: "The New York Indians"
     volume: "072"
     page: "761"
+    citation: "72 U.S. 761"
     pdfSource: "loc"
     dateDecision: "Thursday, May 16, 1867"
-    citation: "72 U.S. 761"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-011"
@@ -2296,9 +2757,11 @@ cases:
     title: "Cook v. Burnley"
     volume: "078"
     page: "659"
+    citation: "78 U.S. 659"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1867"
-    citation: "78 U.S. 659"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-016"
@@ -2306,9 +2769,11 @@ cases:
     title: "The Flying Scud"
     volume: "073"
     page: "263"
+    citation: "73 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Monday, December 30, 1867"
-    citation: "73 U.S. 263"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-033"
@@ -2316,9 +2781,11 @@ cases:
     title: "Lorings v. Marsh"
     volume: "073"
     page: "337"
+    citation: "73 U.S. 337"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1868"
-    citation: "73 U.S. 337"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-037"
@@ -2326,9 +2793,11 @@ cases:
     title: "Georgia v. Stanton"
     volume: "073"
     page: "050"
+    citation: "73 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1868"
-    citation: "73 U.S. 50"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-049"
@@ -2336,9 +2805,11 @@ cases:
     title: "Mauran v. Insurance Co."
     volume: "073"
     page: "001"
+    citation: "73 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1868"
-    citation: "73 U.S. 1"
+    voteMajority: 6
+    voteMinority: 2
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-050"
@@ -2346,9 +2817,11 @@ cases:
     title: "McClane v. Boon"
     volume: "073"
     page: "244"
+    citation: "73 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1868"
-    citation: "73 U.S. 244"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-054"
@@ -2356,9 +2829,11 @@ cases:
     title: "Walker v. Villavaso"
     volume: "073"
     page: "124"
+    citation: "73 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1868"
-    citation: "73 U.S. 124"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-059"
@@ -2366,9 +2841,11 @@ cases:
     title: "Minnesota Co. v. St. Paul Co."
     volume: "073"
     page: "742"
+    citation: "73 U.S. 742"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1868"
-    citation: "73 U.S. 742"
+    voteMajority: 7
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-060"
@@ -2376,9 +2853,11 @@ cases:
     title: "Fleming v. Soutter"
     volume: "073"
     page: "747"
+    citation: "73 U.S. 747"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1868"
-    citation: "73 U.S. 747"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-061"
@@ -2386,9 +2865,11 @@ cases:
     title: "Railroad Co. v. Chamberlain"
     volume: "073"
     page: "748"
+    citation: "73 U.S. 748"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1868"
-    citation: "73 U.S. 748"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-062"
@@ -2396,9 +2877,11 @@ cases:
     title: "Railroad Co. v. James"
     volume: "073"
     page: "750"
+    citation: "73 U.S. 750"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1868"
-    citation: "73 U.S. 750"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-063"
@@ -2406,9 +2889,11 @@ cases:
     title: "United States v. Alire"
     volume: "073"
     page: "573"
+    citation: "73 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Friday, March 20, 1868"
-    citation: "73 U.S. 573"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-066"
@@ -2416,9 +2901,11 @@ cases:
     title: "Kail v. Wetmore"
     volume: "073"
     page: "451"
+    citation: "73 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1868"
-    citation: "73 U.S. 451"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-068"
@@ -2426,9 +2913,11 @@ cases:
     title: "City of Washington v. Dennison"
     volume: "073"
     page: "495"
+    citation: "73 U.S. 495"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1868"
-    citation: "73 U.S. 495"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-069"
@@ -2436,9 +2925,11 @@ cases:
     title: "The Wren"
     volume: "073"
     page: "582"
+    citation: "73 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1868"
-    citation: "73 U.S. 582"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-074"
@@ -2446,9 +2937,11 @@ cases:
     title: "Ex parte De Groot"
     volume: "073"
     page: "497"
+    citation: "73 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1868"
-    citation: "73 U.S. 497"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-079"
@@ -2456,9 +2949,11 @@ cases:
     title: "James v. Railroad Co."
     volume: "073"
     page: "752"
+    citation: "73 U.S. 752"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1868"
-    citation: "73 U.S. 752"
+    voteMajority: 7
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-080"
@@ -2466,9 +2961,11 @@ cases:
     title: "United States v. Hart"
     volume: "073"
     page: "770"
+    citation: "73 U.S. 770"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1868"
-    citation: "73 U.S. 770"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-084"
@@ -2476,9 +2973,11 @@ cases:
     title: "Alviso v. United States"
     volume: "073"
     page: "457"
+    citation: "73 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "73 U.S. 457"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-085"
@@ -2486,9 +2985,11 @@ cases:
     title: "Walkley v. City of Muscatine"
     volume: "073"
     page: "481"
+    citation: "73 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "73 U.S. 481"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-088"
@@ -2496,9 +2997,11 @@ cases:
     title: "The Battle"
     volume: "073"
     page: "498"
+    citation: "73 U.S. 498"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "73 U.S. 498"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-099"
@@ -2506,17 +3009,22 @@ cases:
     title: "Smith v. Cockrill"
     volume: "073"
     page: "756"
+    citation: "73 U.S. 756"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "73 U.S. 756"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-102"
     termId: "1867-12"
     title: "United States v. Alire"
+    docket: "114"
+    citation: "73 U.S. 577n"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "73 U.S. 577n"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-111"
@@ -2524,33 +3032,45 @@ cases:
     title: "Ex parte Milwaukee &amp; Minnesota R. Co."
     volume: "154"
     page: "554"
+    docket: "8"
+    citation: "154 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1868"
-    citation: "154 U.S. 554"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-114"
     termId: "1867-12"
     title: "Waters v. Barrill"
+    docket: "90"
+    citation: "131 U.S. lxxxiv"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1868"
-    citation: "131 U.S. lxxxiv"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-116"
     termId: "1867-12"
     title: "Clarke v. United States"
+    docket: "116"
+    citation: "131 U.S. lxxxvi"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1868"
-    citation: "131 U.S. lxxxvi"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1867-117"
     termId: "1867-12"
     title: "Milwaukee &amp; St. P. R. Co. v. Soutter"
+    docket: "161"
+    citation: "131 U.S. lxxxvi"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1868"
-    citation: "131 U.S. lxxxvi"
+    voteMajority: 7
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-013"
@@ -2558,9 +3078,11 @@ cases:
     title: "United States v. Shoemaker"
     volume: "074"
     page: "338"
+    citation: "74 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1869"
-    citation: "74 U.S. 338"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-019"
@@ -2568,9 +3090,11 @@ cases:
     title: "Railroad Co. v. Jackson"
     volume: "074"
     page: "262"
+    citation: "74 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1869"
-    citation: "74 U.S. 262"
+    voteMajority: 6
+    voteMinority: 2
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-031"
@@ -2578,9 +3102,11 @@ cases:
     title: "The Georgia"
     volume: "074"
     page: "032"
+    citation: "74 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1869"
-    citation: "74 U.S. 32"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-041"
@@ -2588,9 +3114,11 @@ cases:
     title: "Supervisors v. Rogers"
     volume: "074"
     page: "175"
+    citation: "74 U.S. 175"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1869"
-    citation: "74 U.S. 175"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-042"
@@ -2598,9 +3126,11 @@ cases:
     title: "Lee County v. Rogers"
     volume: "074"
     page: "181"
+    citation: "74 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1869"
-    citation: "74 U.S. 181"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-059"
@@ -2608,9 +3138,11 @@ cases:
     title: "Whitely v. Swayne"
     volume: "074"
     page: "685"
+    citation: "74 U.S. 685"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1869"
-    citation: "74 U.S. 685"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-061"
@@ -2618,9 +3150,11 @@ cases:
     title: "Whiteley v. Kirby"
     volume: "078"
     page: "678"
+    citation: "78 U.S. 678"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1869"
-    citation: "78 U.S. 678"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-063"
@@ -2628,9 +3162,11 @@ cases:
     title: "White&apos;s Bank v. Smith"
     volume: "074"
     page: "646"
+    citation: "74 U.S. 646"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1869"
-    citation: "74 U.S. 646"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-064"
@@ -2638,9 +3174,11 @@ cases:
     title: "Ex parte Bradley"
     volume: "074"
     page: "364"
+    citation: "74 U.S. 364"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1869"
-    citation: "74 U.S. 364"
+    voteMajority: 6
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-071"
@@ -2648,9 +3186,11 @@ cases:
     title: "United States v. Adams"
     volume: "074"
     page: "463"
+    citation: "74 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1869"
-    citation: "74 U.S. 463"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-090"
@@ -2658,9 +3198,11 @@ cases:
     title: "Reeside v. United States"
     volume: "075"
     page: "038"
+    citation: "75 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Thursday, April 15, 1869"
-    citation: "75 U.S. 38"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-094"
@@ -2668,9 +3210,12 @@ cases:
     title: "United States v. Mowry"
     volume: "154"
     page: "564"
+    docket: "186"
+    citation: "154 U.S. 564"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1869"
-    citation: "154 U.S. 564"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-095"
@@ -2678,9 +3223,12 @@ cases:
     title: "United States v. Morgan"
     volume: "154"
     page: "565"
+    docket: "191"
+    citation: "154 U.S. 565"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1869"
-    citation: "154 U.S. 565"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1868-109"
@@ -2688,9 +3236,12 @@ cases:
     title: "United States v. Ayres"
     volume: "076"
     page: "608"
+    docket: "364"
+    citation: "76 U.S. 608"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1870"
-    citation: "76 U.S. 608"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-001"
@@ -2698,9 +3249,11 @@ cases:
     title: "Memphis City v. Dean"
     volume: "075"
     page: "064"
+    citation: "75 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, October 18, 1869"
-    citation: "75 U.S. 64"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-005"
@@ -2708,9 +3261,11 @@ cases:
     title: "Morey v. Lockwood"
     volume: "075"
     page: "230"
+    citation: "75 U.S. 230"
     pdfSource: "loc"
     dateDecision: "Monday, October 25, 1869"
-    citation: "75 U.S. 230"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-008"
@@ -2718,9 +3273,11 @@ cases:
     title: "The Eagle"
     volume: "075"
     page: "015"
+    citation: "75 U.S. 15"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1869"
-    citation: "75 U.S. 15"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-020"
@@ -2728,9 +3285,11 @@ cases:
     title: "Wood-paper Co. v. Heft"
     volume: "075"
     page: "333"
+    citation: "75 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1869"
-    citation: "75 U.S. 333"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-022"
@@ -2738,9 +3297,11 @@ cases:
     title: "Propeller Mohawk"
     volume: "075"
     page: "153"
+    citation: "75 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1869"
-    citation: "75 U.S. 153"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-033"
@@ -2748,9 +3309,11 @@ cases:
     title: "Bennet v. Fowler"
     volume: "075"
     page: "445"
+    citation: "75 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1869"
-    citation: "75 U.S. 445"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-035"
@@ -2758,9 +3321,11 @@ cases:
     title: "Chicopee Bank v. Philadelphia Bank"
     volume: "075"
     page: "641"
+    citation: "75 U.S. 641"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1869"
-    citation: "75 U.S. 641"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-045"
@@ -2768,9 +3333,11 @@ cases:
     title: "Chicago v. Sheldon"
     volume: "076"
     page: "050"
+    citation: "76 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1870"
-    citation: "76 U.S. 50"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-050"
@@ -2778,9 +3345,11 @@ cases:
     title: "Railroad Co. v. Fremont County"
     volume: "076"
     page: "089"
+    citation: "76 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1870"
-    citation: "76 U.S. 89"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-066"
@@ -2788,9 +3357,11 @@ cases:
     title: "Ex parte Zellner"
     volume: "076"
     page: "244"
+    citation: "76 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1870"
-    citation: "76 U.S. 244"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-069"
@@ -2798,9 +3369,11 @@ cases:
     title: "Justices v. Murray"
     volume: "076"
     page: "274"
+    citation: "76 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1870"
-    citation: "76 U.S. 274"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-086"
@@ -2808,9 +3381,11 @@ cases:
     title: "Flanders v. Tweed"
     volume: "076"
     page: "425"
+    citation: "76 U.S. 425"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1870"
-    citation: "76 U.S. 425"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-091"
@@ -2818,9 +3393,11 @@ cases:
     title: "City v. Lamson"
     volume: "076"
     page: "477"
+    citation: "76 U.S. 477"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1870"
-    citation: "76 U.S. 477"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-102"
@@ -2828,9 +3405,11 @@ cases:
     title: "United States v. Adams"
     volume: "076"
     page: "554"
+    citation: "76 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1870"
-    citation: "76 U.S. 554"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-116"
@@ -2838,9 +3417,11 @@ cases:
     title: "United States v. Rocha"
     volume: "076"
     page: "639"
+    citation: "76 U.S. 639"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1870"
-    citation: "76 U.S. 639"
+    voteMajority: 5
+    voteMinority: 2
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-124"
@@ -2848,9 +3429,11 @@ cases:
     title: "Insurance Co. v. Weide"
     volume: "076"
     page: "677"
+    citation: "76 U.S. 677"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "76 U.S. 677"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-129"
@@ -2858,9 +3441,11 @@ cases:
     title: "Supervisors v. Durant"
     volume: "076"
     page: "736"
+    citation: "76 U.S. 736"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "76 U.S. 736"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-131"
@@ -2868,9 +3453,11 @@ cases:
     title: "Wilkins v. Ellett"
     volume: "076"
     page: "740"
+    citation: "76 U.S. 740"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1870"
-    citation: "76 U.S. 740"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-143"
@@ -2878,9 +3465,11 @@ cases:
     title: "Mandelbaum v. People"
     volume: "075"
     page: "310"
+    citation: "75 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1869"
-    citation: "75 U.S. 310"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-151"
@@ -2888,9 +3477,11 @@ cases:
     title: "Aldrich v. Aetna Co."
     volume: "075"
     page: "491"
+    citation: "75 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1869"
-    citation: "75 U.S. 491"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-168"
@@ -2898,9 +3489,11 @@ cases:
     title: "Willard v. Presbury"
     volume: "081"
     page: "676"
+    citation: "81 U.S. 676"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1870"
-    citation: "81 U.S. 676"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-170"
@@ -2908,9 +3501,11 @@ cases:
     title: "Reilly v. Golding"
     volume: "077"
     page: "056"
+    citation: "77 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1870"
-    citation: "77 U.S. 56"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-172"
@@ -2918,9 +3513,11 @@ cases:
     title: "Clark v. Bousfield"
     volume: "077"
     page: "133"
+    citation: "77 U.S. 133"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1870"
-    citation: "77 U.S. 133"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-174"
@@ -2928,9 +3525,11 @@ cases:
     title: "Stimpson v. Woodman"
     volume: "077"
     page: "117"
+    citation: "77 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1870"
-    citation: "77 U.S. 117"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-177"
@@ -2938,9 +3537,11 @@ cases:
     title: "Little v. Herndon"
     volume: "077"
     page: "026"
+    citation: "77 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "77 U.S. 26"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-187"
@@ -2948,9 +3549,12 @@ cases:
     title: "Burlington &amp; Missouri River R. Co. v. Mills County"
     volume: "154"
     page: "568"
+    docket: "39"
+    citation: "154 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1870"
-    citation: "154 U.S. 568"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-191"
@@ -2958,9 +3562,12 @@ cases:
     title: "Ex parte Pargoud"
     volume: "154"
     page: "567"
+    docket: "9"
+    citation: "154 U.S. 567"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1870"
-    citation: "154 U.S. 567"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-192"
@@ -2968,9 +3575,12 @@ cases:
     title: "Riley v. Welles"
     volume: "154"
     page: "578"
+    docket: "397"
+    citation: "154 U.S. 578"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1870"
-    citation: "154 U.S. 578"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-193"
@@ -2978,9 +3588,12 @@ cases:
     title: "Flanders v. Tweed"
     volume: "154"
     page: "569"
+    docket: "108"
+    citation: "154 U.S. 569"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1870"
-    citation: "154 U.S. 569"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-195"
@@ -2988,9 +3601,12 @@ cases:
     title: "Kenosha v. Lamson"
     volume: "154"
     page: "573"
+    docket: "143"
+    citation: "154 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1870"
-    citation: "154 U.S. 573"
+    voteMajority: 8
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-200"
@@ -2998,9 +3614,12 @@ cases:
     title: "Sturtevant v. Herndon"
     volume: "154"
     page: "575"
+    docket: "198"
+    citation: "154 U.S. 575"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "154 U.S. 575"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-201"
@@ -3008,9 +3627,12 @@ cases:
     title: "Underhill v. Herndon"
     volume: "154"
     page: "574"
+    docket: "197"
+    citation: "154 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "154 U.S. 574"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-202"
@@ -3018,9 +3640,12 @@ cases:
     title: "Long v. Patton"
     volume: "154"
     page: "573"
+    docket: "196"
+    citation: "154 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "154 U.S. 573"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1869-206"
@@ -3028,9 +3653,12 @@ cases:
     title: "Willard v. Willard"
     volume: "154"
     page: "568"
+    docket: "90"
+    citation: "154 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1870"
-    citation: "154 U.S. 568"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-025"
@@ -3038,9 +3666,11 @@ cases:
     title: "United States v. Vigil"
     volume: "077"
     page: "423"
+    citation: "77 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1870"
-    citation: "77 U.S. 423"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-027"
@@ -3048,9 +3678,11 @@ cases:
     title: "The Mabey"
     volume: "077"
     page: "419"
+    citation: "77 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1870"
-    citation: "77 U.S. 419"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-029"
@@ -3058,9 +3690,11 @@ cases:
     title: "The Clinton Bridge"
     volume: "077"
     page: "454"
+    citation: "77 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1870"
-    citation: "77 U.S. 454"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-030"
@@ -3068,9 +3702,11 @@ cases:
     title: "Texas v. Chiles"
     volume: "077"
     page: "127"
+    citation: "77 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1871"
-    citation: "77 U.S. 127"
+    voteMajority: 9
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-031"
@@ -3078,9 +3714,11 @@ cases:
     title: "Ducat v. Chicago"
     volume: "077"
     page: "410"
+    citation: "77 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1871"
-    citation: "77 U.S. 410"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-034"
@@ -3088,9 +3726,11 @@ cases:
     title: "Coddington v. Richardson"
     volume: "077"
     page: "516"
+    citation: "77 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1871"
-    citation: "77 U.S. 516"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-041"
@@ -3098,9 +3738,11 @@ cases:
     title: "Hannauer v. Woodruff"
     volume: "077"
     page: "482"
+    citation: "77 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1871"
-    citation: "77 U.S. 482"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-044"
@@ -3108,9 +3750,11 @@ cases:
     title: "Pennsylvania v. Quicksilver Co."
     volume: "077"
     page: "553"
+    citation: "77 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1871"
-    citation: "77 U.S. 553"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-048"
@@ -3118,9 +3762,11 @@ cases:
     title: "Messenger v. Mason"
     volume: "077"
     page: "507"
+    citation: "77 U.S. 507"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1871"
-    citation: "77 U.S. 507"
+    voteMajority: 7
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-050"
@@ -3128,9 +3774,11 @@ cases:
     title: "Bethell v. Demaret"
     volume: "077"
     page: "537"
+    citation: "77 U.S. 537"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1871"
-    citation: "77 U.S. 537"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-052"
@@ -3138,9 +3786,11 @@ cases:
     title: "The Protector"
     volume: "078"
     page: "082"
+    citation: "78 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1871"
-    citation: "78 U.S. 82"
+    voteMajority: 6
+    voteMinority: 2
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-055"
@@ -3148,9 +3798,11 @@ cases:
     title: "Parmelee v. Lawrence"
     volume: "078"
     page: "036"
+    citation: "78 U.S. 36"
     pdfSource: "loc"
     dateDecision: "Monday, February 6, 1871"
-    citation: "78 U.S. 36"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-061"
@@ -3158,9 +3810,11 @@ cases:
     title: "Miller v. McKenzie"
     volume: "077"
     page: "582"
+    citation: "77 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1871"
-    citation: "77 U.S. 582"
+    voteMajority: 8
+    voteMinority: 0
     authorId: snelson
     authorName: "Samuel Nelson"
   - id: "1870-087"
@@ -3168,9 +3822,11 @@ cases:
     title: "Collector v. Day"
     volume: "078"
     page: "113"
+    citation: "78 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1871"
-    citation: "78 U.S. 113"
+    voteMajority: 7
+    voteMinority: 1
     authorId: snelson
     authorName: "Samuel Nelson"
 ---

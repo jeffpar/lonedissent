@@ -8,9 +8,11 @@ cases:
     title: "Jackson v. Lamphire"
     volume: "028"
     page: "280"
+    citation: "28 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Saturday, February 6, 1830"
-    citation: "28 U.S. 280"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1830-019"
@@ -18,9 +20,11 @@ cases:
     title: "Conard v. Nicoll"
     volume: "029"
     page: "291"
+    citation: "29 U.S. 291"
     pdfSource: "loc"
     dateDecision: "Friday, February 12, 1830"
-    citation: "29 U.S. 291"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1830-023"
@@ -28,9 +32,11 @@ cases:
     title: "Willison v. Watkins"
     volume: "028"
     page: "043"
+    citation: "28 U.S. 43"
     pdfSource: "loc"
     dateDecision: "Saturday, February 20, 1830"
-    citation: "28 U.S. 43"
+    voteMajority: 6
+    voteMinority: 1
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1830-032"
@@ -38,9 +44,11 @@ cases:
     title: "Bank of United States v. Tyler"
     volume: "029"
     page: "366"
+    citation: "29 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 3, 1830"
-    citation: "29 U.S. 366"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1830-047"
@@ -48,9 +56,11 @@ cases:
     title: "Bartle v. Nutt"
     volume: "029"
     page: "184"
+    citation: "29 U.S. 184"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 17, 1830"
-    citation: "29 U.S. 184"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1830-057"
@@ -58,9 +68,11 @@ cases:
     title: "Hollingsworth v. Barbour"
     volume: "029"
     page: "466"
+    citation: "29 U.S. 466"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1830"
-    citation: "29 U.S. 466"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1831-005"
@@ -68,9 +80,11 @@ cases:
     title: "Hinde v. Lessee of Vattier"
     volume: "030"
     page: "398"
+    citation: "30 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Saturday, January 22, 1831"
-    citation: "30 U.S. 398"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1831-017"
@@ -78,9 +92,11 @@ cases:
     title: "Peyton v. Stith"
     volume: "030"
     page: "485"
+    citation: "30 U.S. 485"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1831"
-    citation: "30 U.S. 485"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1831-019"
@@ -88,9 +104,11 @@ cases:
     title: "Henderson v. Griffin"
     volume: "030"
     page: "151"
+    citation: "30 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 9, 1831"
-    citation: "30 U.S. 151"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1831-031"
@@ -98,9 +116,11 @@ cases:
     title: "Tayloe v. Thomson&apos;s Lessee"
     volume: "030"
     page: "358"
+    citation: "30 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Friday, January 28, 1831"
-    citation: "30 U.S. 358"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1832-056"
@@ -108,9 +128,11 @@ cases:
     title: "United States v. Arredondo"
     volume: "031"
     page: "691"
+    citation: "31 U.S. 691"
     pdfSource: "loc"
     dateDecision: "Saturday, March 17, 1832"
-    citation: "31 U.S. 691"
+    voteMajority: 5
+    voteMinority: 1
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1835-038"
@@ -118,9 +140,11 @@ cases:
     title: "Mitchel v. United States"
     volume: "034"
     page: "711"
+    citation: "34 U.S. 711"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 17, 1835"
-    citation: "34 U.S. 711"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-001"
@@ -128,9 +152,11 @@ cases:
     title: "Dubois v. Hepburn"
     volume: "035"
     page: "001"
+    citation: "35 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1836"
-    citation: "35 U.S. 1"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-005"
@@ -138,9 +164,11 @@ cases:
     title: "Soulard&apos;s Heirs v. United States"
     volume: "035"
     page: "100"
+    citation: "35 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Thursday, January 21, 1836"
-    citation: "35 U.S. 100"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-013"
@@ -148,9 +176,11 @@ cases:
     title: "Boone v. Chiles"
     volume: "035"
     page: "177"
+    citation: "35 U.S. 177"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 3, 1836"
-    citation: "35 U.S. 177"
+    voteMajority: 4
+    voteMinority: 1
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-015"
@@ -158,9 +188,11 @@ cases:
     title: "United States v. Fernandez"
     volume: "035"
     page: "303"
+    citation: "35 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Saturday, February 6, 1836"
-    citation: "35 U.S. 303"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-016"
@@ -168,9 +200,11 @@ cases:
     title: "United States v. Segui"
     volume: "035"
     page: "306"
+    citation: "35 U.S. 306"
     pdfSource: "loc"
     dateDecision: "Saturday, February 6, 1836"
-    citation: "35 U.S. 306"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-017"
@@ -178,9 +212,11 @@ cases:
     title: "United States v. Chaires"
     volume: "035"
     page: "308"
+    citation: "35 U.S. 308"
     pdfSource: "loc"
     dateDecision: "Saturday, February 6, 1836"
-    citation: "35 U.S. 308"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-018"
@@ -188,9 +224,11 @@ cases:
     title: "United States v. Seton"
     volume: "035"
     page: "309"
+    citation: "35 U.S. 309"
     pdfSource: "loc"
     dateDecision: "Saturday, February 6, 1836"
-    citation: "35 U.S. 309"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-019"
@@ -198,9 +236,11 @@ cases:
     title: "United States v. Sibbald"
     volume: "035"
     page: "313"
+    citation: "35 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Saturday, February 6, 1836"
-    citation: "35 U.S. 313"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-023"
@@ -208,9 +248,11 @@ cases:
     title: "Smith v. United States"
     volume: "035"
     page: "326"
+    citation: "35 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 10, 1836"
-    citation: "35 U.S. 326"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-028"
@@ -218,9 +260,11 @@ cases:
     title: "Voorhees v. Jackson"
     volume: "035"
     page: "449"
+    citation: "35 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1836"
-    citation: "35 U.S. 449"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-031"
@@ -228,9 +272,11 @@ cases:
     title: "Wherry v. United States"
     volume: "035"
     page: "338"
+    citation: "35 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Thursday, February 18, 1836"
-    citation: "35 U.S. 338"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-032"
@@ -238,9 +284,11 @@ cases:
     title: "Mackey v. United States"
     volume: "035"
     page: "340"
+    citation: "35 U.S. 340"
     pdfSource: "loc"
     dateDecision: "Thursday, February 18, 1836"
-    citation: "35 U.S. 340"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-047"
@@ -248,9 +296,11 @@ cases:
     title: "Dickins v. Beal"
     volume: "035"
     page: "572"
+    citation: "35 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Friday, February 26, 1836"
-    citation: "35 U.S. 572"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1836-049"
@@ -258,9 +308,11 @@ cases:
     title: "Brent v. Bank of Washington"
     volume: "035"
     page: "596"
+    citation: "35 U.S. 596"
     pdfSource: "loc"
     dateDecision: "Friday, February 26, 1836"
-    citation: "35 U.S. 596"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1837-006"
@@ -268,9 +320,11 @@ cases:
     title: "Lessee of Ewing v. Burnet"
     volume: "036"
     page: "041"
+    citation: "36 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Thursday, February 2, 1837"
-    citation: "36 U.S. 41"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1838-013"
@@ -278,9 +332,11 @@ cases:
     title: "Rhode Island v. Massachusetts"
     volume: "037"
     page: "657"
+    citation: "37 U.S. 657"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 21, 1838"
-    citation: "37 U.S. 657"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1838-026"
@@ -288,9 +344,11 @@ cases:
     title: "Strother v. Lucas"
     volume: "037"
     page: "410"
+    citation: "37 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1838"
-    citation: "37 U.S. 410"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1838-036"
@@ -298,9 +356,11 @@ cases:
     title: "Hepburn v. Dubois"
     volume: "037"
     page: "345"
+    citation: "37 U.S. 345"
     pdfSource: "loc"
     dateDecision: "Saturday, March 10, 1838"
-    citation: "37 U.S. 345"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1838-037"
@@ -308,9 +368,11 @@ cases:
     title: "Sibbald v. United States"
     volume: "037"
     page: "488"
+    citation: "37 U.S. 488"
     pdfSource: "loc"
     dateDecision: "Saturday, March 10, 1838"
-    citation: "37 U.S. 488"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1840-039"
@@ -318,9 +380,11 @@ cases:
     title: "Irvine ex rel. Lumberman&apos;s Bank at Warren v. Lowry"
     volume: "039"
     page: "293"
+    citation: "39 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1840"
-    citation: "39 U.S. 293"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1840-042"
@@ -328,9 +392,11 @@ cases:
     title: "United States v. Heirs of Waterman"
     volume: "039"
     page: "478"
+    citation: "39 U.S. 478"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1840"
-    citation: "39 U.S. 478"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1843-010"
@@ -338,9 +404,11 @@ cases:
     title: "McClurg v. Kingsland"
     volume: "042"
     page: "202"
+    citation: "42 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 7, 1843"
-    citation: "42 U.S. 202"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1843-031"
@@ -348,9 +416,11 @@ cases:
     title: "Bank of United States v. Beverly"
     volume: "042"
     page: "134"
+    citation: "42 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1843"
-    citation: "42 U.S. 134"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1844-020"
@@ -358,9 +428,11 @@ cases:
     title: "McCracken v. Hayward"
     volume: "043"
     page: "608"
+    citation: "43 U.S. 608"
     pdfSource: "loc"
     dateDecision: "Saturday, March 9, 1844"
-    citation: "43 U.S. 608"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1844-029"
@@ -368,9 +440,11 @@ cases:
     title: "Grignon v. Astor"
     volume: "043"
     page: "319"
+    citation: "43 U.S. 319"
     pdfSource: "loc"
     dateDecision: "Friday, March 15, 1844"
-    citation: "43 U.S. 319"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1844-030"
@@ -378,9 +452,11 @@ cases:
     title: "Catts v. Phalen"
     volume: "043"
     page: "376"
+    citation: "43 U.S. 376"
     pdfSource: "loc"
     dateDecision: "Friday, March 15, 1844"
-    citation: "43 U.S. 376"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1844-035"
@@ -388,9 +464,11 @@ cases:
     title: "Ladiga v. Roland"
     volume: "043"
     page: "581"
+    citation: "43 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Friday, March 15, 1844"
-    citation: "43 U.S. 581"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbaldwin
     authorName: "Henry Baldwin"
   - id: "1844-040"
@@ -398,9 +476,11 @@ cases:
     title: "McNutt ex rel. Leggett, Smith, &amp; Lawrence v. Bland"
     volume: "043"
     page: "009"
+    citation: "43 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 30, 1844"
-    citation: "43 U.S. 9"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hbaldwin
     authorName: "Henry Baldwin"
 ---

@@ -8,9 +8,11 @@ cases:
     title: "United States v. Davenport&apos;s Heirs"
     volume: "056"
     page: "001"
+    citation: "56 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 28, 1853"
-    citation: "56 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1853-004"
@@ -18,9 +20,11 @@ cases:
     title: "United States v. Patterson"
     volume: "056"
     page: "010"
+    citation: "56 U.S. 10"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 28, 1853"
-    citation: "56 U.S. 10"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1853-012"
@@ -28,9 +32,11 @@ cases:
     title: "Bispham v. Price"
     volume: "056"
     page: "162"
+    citation: "56 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 10, 1854"
-    citation: "56 U.S. 162"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1853-019"
@@ -38,9 +44,11 @@ cases:
     title: "Anderson v. Bock"
     volume: "056"
     page: "323"
+    citation: "56 U.S. 323"
     pdfSource: "loc"
     dateDecision: "Friday, January 27, 1854"
-    citation: "56 U.S. 323"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1853-042"
@@ -48,9 +56,11 @@ cases:
     title: "Executors of McDonogh v. Murdoch"
     volume: "056"
     page: "367"
+    citation: "56 U.S. 367"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1854"
-    citation: "56 U.S. 367"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1853-060"
@@ -58,9 +68,11 @@ cases:
     title: "Amis v. Myers"
     volume: "057"
     page: "492"
+    citation: "57 U.S. 492"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 16, 1854"
-    citation: "57 U.S. 492"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1853-061"
@@ -68,9 +80,11 @@ cases:
     title: "Guitard v. Stoddard"
     volume: "057"
     page: "494"
+    citation: "57 U.S. 494"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 16, 1854"
-    citation: "57 U.S. 494"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1853-075"
@@ -78,9 +92,11 @@ cases:
     title: "Bartlett v. Kane"
     volume: "057"
     page: "263"
+    citation: "57 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Friday, May 26, 1854"
-    citation: "57 U.S. 263"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1853-079"
@@ -88,9 +104,11 @@ cases:
     title: "Early v. Rogers"
     volume: "057"
     page: "599"
+    citation: "57 U.S. 599"
     pdfSource: "loc"
     dateDecision: "Friday, May 26, 1854"
-    citation: "57 U.S. 599"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1854-002"
@@ -98,9 +116,11 @@ cases:
     title: "New York &amp; Maryland Line R. Co. v. Winans"
     volume: "058"
     page: "030"
+    citation: "58 U.S. 30"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1854"
-    citation: "58 U.S. 30"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1854-011"
@@ -108,9 +128,11 @@ cases:
     title: "Wickliffe v. Owings"
     volume: "058"
     page: "047"
+    citation: "58 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 3, 1855"
-    citation: "58 U.S. 47"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1854-031"
@@ -118,9 +140,11 @@ cases:
     title: "Herndon v. Ridgway"
     volume: "058"
     page: "424"
+    citation: "58 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Thursday, February 1, 1855"
-    citation: "58 U.S. 424"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1854-037"
@@ -128,9 +152,11 @@ cases:
     title: "Carpenter v. Pennsylvania"
     volume: "058"
     page: "456"
+    citation: "58 U.S. 456"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 13, 1855"
-    citation: "58 U.S. 456"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1854-044"
@@ -138,9 +164,11 @@ cases:
     title: "Pulliam v. Osborne"
     volume: "058"
     page: "471"
+    citation: "58 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Thursday, February 15, 1855"
-    citation: "58 U.S. 471"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1854-059"
@@ -148,9 +176,11 @@ cases:
     title: "Wanzer v. Truly"
     volume: "058"
     page: "584"
+    citation: "58 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Thursday, March 8, 1855"
-    citation: "58 U.S. 584"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1854-062"
@@ -158,9 +188,11 @@ cases:
     title: "Griffin v. Reynolds"
     volume: "058"
     page: "609"
+    citation: "58 U.S. 609"
     pdfSource: "loc"
     dateDecision: "Thursday, March 8, 1855"
-    citation: "58 U.S. 609"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1855-004"
@@ -168,9 +200,11 @@ cases:
     title: "Holroyd v. Pumphrey"
     volume: "059"
     page: "069"
+    citation: "59 U.S. 69"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 19, 1855"
-    citation: "59 U.S. 69"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1855-008"
@@ -178,9 +212,11 @@ cases:
     title: "Verden v. Coleman"
     volume: "059"
     page: "086"
+    citation: "59 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Friday, December 21, 1855"
-    citation: "59 U.S. 86"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1855-013"
@@ -188,9 +224,11 @@ cases:
     title: "Curtis v. Pettipain"
     volume: "059"
     page: "109"
+    citation: "59 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Thursday, January 3, 1856"
-    citation: "59 U.S. 109"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1855-032"
@@ -198,9 +236,11 @@ cases:
     title: "Cooper v. Roberts"
     volume: "059"
     page: "173"
+    citation: "59 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 29, 1856"
-    citation: "59 U.S. 173"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1855-042"
@@ -208,9 +248,11 @@ cases:
     title: "McKinney v. Saviego"
     volume: "059"
     page: "235"
+    citation: "59 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 12, 1856"
-    citation: "59 U.S. 235"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1855-046"
@@ -218,9 +260,11 @@ cases:
     title: "New York &amp; Cumberland R. Co. v. Myers"
     volume: "059"
     page: "246"
+    citation: "59 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1856"
-    citation: "59 U.S. 246"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1855-054"
@@ -228,9 +272,11 @@ cases:
     title: "Fouvergne v. Municipality No. 2 of New Orleans"
     volume: "059"
     page: "470"
+    citation: "59 U.S. 470"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1856"
-    citation: "59 U.S. 470"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1855-062"
@@ -238,9 +284,11 @@ cases:
     title: "Greely&apos;s Administrator v. Burgess"
     volume: "059"
     page: "413"
+    citation: "59 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Friday, April 25, 1856"
-    citation: "59 U.S. 413"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1855-072"
@@ -248,9 +296,11 @@ cases:
     title: "Beauregard v. New Orleans"
     volume: "059"
     page: "497"
+    citation: "59 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 497"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1855-085"
@@ -258,9 +308,11 @@ cases:
     title: "Bacon v. Robertson"
     volume: "059"
     page: "480"
+    citation: "59 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 14, 1856"
-    citation: "59 U.S. 480"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1855-086"
@@ -268,9 +320,11 @@ cases:
     title: "McMicken v. Perin"
     volume: "059"
     page: "507"
+    citation: "59 U.S. 507"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 14, 1856"
-    citation: "59 U.S. 507"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1856-002"
@@ -278,9 +332,11 @@ cases:
     title: "Baker v. Nachtrieb"
     volume: "060"
     page: "126"
+    citation: "60 U.S. 126"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 16, 1856"
-    citation: "60 U.S. 126"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1856-008"
@@ -288,9 +344,11 @@ cases:
     title: "Long v. O&apos;Fallon"
     volume: "060"
     page: "116"
+    citation: "60 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, December 29, 1856"
-    citation: "60 U.S. 116"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1856-017"
@@ -298,9 +356,11 @@ cases:
     title: "Williams v. Hill, McLane, &amp; Co."
     volume: "060"
     page: "246"
+    citation: "60 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 13, 1857"
-    citation: "60 U.S. 246"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1856-028"
@@ -308,9 +368,11 @@ cases:
     title: "New York &amp; Virginia S. S. Co. v. Calderwood"
     volume: "060"
     page: "241"
+    citation: "60 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 27, 1857"
-    citation: "60 U.S. 241"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1856-029"
@@ -318,9 +380,11 @@ cases:
     title: "Bell v. Hearne"
     volume: "060"
     page: "252"
+    citation: "60 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 27, 1857"
-    citation: "60 U.S. 252"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1856-034"
@@ -328,9 +392,11 @@ cases:
     title: "Hipp v. Babin"
     volume: "060"
     page: "271"
+    citation: "60 U.S. 271"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 17, 1857"
-    citation: "60 U.S. 271"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1856-042"
@@ -338,9 +404,11 @@ cases:
     title: "Garrison v. Memphis Ins. Co."
     volume: "060"
     page: "312"
+    citation: "60 U.S. 312"
     pdfSource: "loc"
     dateDecision: "Friday, February 27, 1857"
-    citation: "60 U.S. 312"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1856-054"
@@ -348,9 +416,11 @@ cases:
     title: "McCullough v. Roots"
     volume: "060"
     page: "349"
+    citation: "60 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
-    citation: "60 U.S. 349"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1857-003"
@@ -358,9 +428,11 @@ cases:
     title: "Rector of Christ Church v. County of Philadelphia"
     volume: "061"
     page: "026"
+    citation: "61 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 30, 1857"
-    citation: "61 U.S. 26"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1857-007"
@@ -368,9 +440,11 @@ cases:
     title: "Wade v. Leroy"
     volume: "061"
     page: "034"
+    citation: "61 U.S. 34"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1858"
-    citation: "61 U.S. 34"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1857-016"
@@ -378,9 +452,11 @@ cases:
     title: "Secombe v. Steele"
     volume: "061"
     page: "094"
+    citation: "61 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Thursday, January 28, 1858"
-    citation: "61 U.S. 94"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1857-019"
@@ -388,9 +464,11 @@ cases:
     title: "Lyon v. Bertram"
     volume: "061"
     page: "149"
+    citation: "61 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1858"
-    citation: "61 U.S. 149"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1857-027"
@@ -398,9 +476,11 @@ cases:
     title: "Hyde v. Stone"
     volume: "061"
     page: "170"
+    citation: "61 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1858"
-    citation: "61 U.S. 170"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1857-039"
@@ -408,9 +488,11 @@ cases:
     title: "Spencer v. Lapsley"
     volume: "061"
     page: "264"
+    citation: "61 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Thursday, February 25, 1858"
-    citation: "61 U.S. 264"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1857-043"
@@ -418,9 +500,11 @@ cases:
     title: "United States v. Fossat"
     volume: "061"
     page: "413"
+    citation: "61 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Friday, April 30, 1858"
-    citation: "61 U.S. 413"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1857-049"
@@ -428,9 +512,11 @@ cases:
     title: "Stinson v. Dousman"
     volume: "061"
     page: "461"
+    citation: "61 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1858"
-    citation: "61 U.S. 461"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1857-069"
@@ -438,9 +524,11 @@ cases:
     title: "Taylor v. Carryl"
     volume: "061"
     page: "583"
+    citation: "61 U.S. 583"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 18, 1858"
-    citation: "61 U.S. 583"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1858-003"
@@ -448,9 +536,11 @@ cases:
     title: "Steamer Louisiana v. Fisher"
     volume: "062"
     page: "001"
+    citation: "62 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 28, 1858"
-    citation: "62 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1858-014"
@@ -458,9 +548,11 @@ cases:
     title: "Philadelphia, W. &amp; B. R. Co. v. Quigley"
     volume: "062"
     page: "202"
+    citation: "62 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1859"
-    citation: "62 U.S. 202"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1858-027"
@@ -468,9 +560,11 @@ cases:
     title: "Combs v. Hodge"
     volume: "062"
     page: "397"
+    citation: "62 U.S. 397"
     pdfSource: "loc"
     dateDecision: "Thursday, February 3, 1859"
-    citation: "62 U.S. 397"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1858-029"
@@ -478,9 +572,11 @@ cases:
     title: "United States v. Sutter"
     volume: "062"
     page: "170"
+    citation: "62 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1859"
-    citation: "62 U.S. 170"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1858-034"
@@ -488,9 +584,11 @@ cases:
     title: "United States v. Nye"
     volume: "062"
     page: "408"
+    citation: "62 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1859"
-    citation: "62 U.S. 408"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1858-035"
@@ -498,9 +596,11 @@ cases:
     title: "United States v. Bassett"
     volume: "062"
     page: "412"
+    citation: "62 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1859"
-    citation: "62 U.S. 412"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1858-042"
@@ -508,9 +608,11 @@ cases:
     title: "White Water Valley Canal Co. v. Vallette"
     volume: "062"
     page: "414"
+    citation: "62 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1859"
-    citation: "62 U.S. 414"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1858-053"
@@ -518,9 +620,11 @@ cases:
     title: "Pearce v. Madison &amp; Indianapolis R. Co."
     volume: "062"
     page: "441"
+    citation: "62 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1859"
-    citation: "62 U.S. 441"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1858-069"
@@ -528,9 +632,11 @@ cases:
     title: "United States v. Fossatt"
     volume: "062"
     page: "445"
+    citation: "62 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1859"
-    citation: "62 U.S. 445"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-003"
@@ -538,9 +644,11 @@ cases:
     title: "Middleton v. McGrew"
     volume: "064"
     page: "045"
+    citation: "64 U.S. 45"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1859"
-    citation: "64 U.S. 45"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-011"
@@ -548,9 +656,11 @@ cases:
     title: "Morrill v. Cone"
     volume: "063"
     page: "075"
+    citation: "63 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Friday, December 30, 1859"
-    citation: "63 U.S. 75"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-016"
@@ -558,9 +668,11 @@ cases:
     title: "Gridley v. Wynant"
     volume: "064"
     page: "500"
+    citation: "64 U.S. 500"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1860"
-    citation: "64 U.S. 500"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-017"
@@ -568,9 +680,11 @@ cases:
     title: "Gridley v. Westbrook"
     volume: "064"
     page: "503"
+    citation: "64 U.S. 503"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1860"
-    citation: "64 U.S. 503"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-027"
@@ -578,9 +692,11 @@ cases:
     title: "Parker v. Kane"
     volume: "063"
     page: "001"
+    citation: "63 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1860"
-    citation: "63 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-030"
@@ -588,9 +704,11 @@ cases:
     title: "Green&apos;s Administratrix v. Creighton"
     volume: "064"
     page: "090"
+    citation: "64 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1860"
-    citation: "64 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-035"
@@ -598,9 +716,11 @@ cases:
     title: "Cage&apos;s Executors v. Cassidy"
     volume: "064"
     page: "109"
+    citation: "64 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1860"
-    citation: "64 U.S. 109"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-044"
@@ -608,9 +728,11 @@ cases:
     title: "United States v. Rose"
     volume: "064"
     page: "262"
+    citation: "64 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1860"
-    citation: "64 U.S. 262"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-048"
@@ -618,9 +740,11 @@ cases:
     title: "United States v. Bennitz"
     volume: "064"
     page: "255"
+    citation: "64 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1860"
-    citation: "64 U.S. 255"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-049"
@@ -628,9 +752,11 @@ cases:
     title: "United States v. Alviso"
     volume: "064"
     page: "318"
+    citation: "64 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1860"
-    citation: "64 U.S. 318"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-062"
@@ -638,9 +764,11 @@ cases:
     title: "Jeter v. Hewitt"
     volume: "063"
     page: "352"
+    citation: "63 U.S. 352"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "63 U.S. 352"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-068"
@@ -648,9 +776,11 @@ cases:
     title: "United States v. Noe"
     volume: "064"
     page: "312"
+    citation: "64 U.S. 312"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "64 U.S. 312"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-069"
@@ -658,9 +788,11 @@ cases:
     title: "United States v. Pico"
     volume: "064"
     page: "321"
+    citation: "64 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "64 U.S. 321"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-071"
@@ -668,9 +800,11 @@ cases:
     title: "United States v. Murphy"
     volume: "064"
     page: "476"
+    citation: "64 U.S. 476"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "64 U.S. 476"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-074"
@@ -678,9 +812,11 @@ cases:
     title: "United States v. Berreyesa&apos;s Heirs"
     volume: "064"
     page: "499"
+    citation: "64 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "64 U.S. 499"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-080"
@@ -688,9 +824,11 @@ cases:
     title: "Zabriskie v. Cleveland, C. &amp; C. R. Co."
     volume: "064"
     page: "381"
+    citation: "64 U.S. 381"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1860"
-    citation: "64 U.S. 381"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-082"
@@ -698,9 +836,11 @@ cases:
     title: "Refeld v. Woodfolk"
     volume: "063"
     page: "318"
+    citation: "63 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1860"
-    citation: "63 U.S. 318"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-091"
@@ -708,9 +848,11 @@ cases:
     title: "Howland v. Greenway"
     volume: "063"
     page: "491"
+    citation: "63 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1860"
-    citation: "63 U.S. 491"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-093"
@@ -718,9 +860,11 @@ cases:
     title: "Benjamin v. Hillard"
     volume: "064"
     page: "149"
+    citation: "64 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1860"
-    citation: "64 U.S. 149"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-101"
@@ -728,9 +872,11 @@ cases:
     title: "Adams v. Norris"
     volume: "064"
     page: "353"
+    citation: "64 U.S. 353"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1860"
-    citation: "64 U.S. 353"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-110"
@@ -738,9 +884,11 @@ cases:
     title: "Castro v. Hendricks"
     volume: "064"
     page: "438"
+    citation: "64 U.S. 438"
     pdfSource: "loc"
     dateDecision: "Friday, May 4, 1860"
-    citation: "64 U.S. 438"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-111"
@@ -748,9 +896,11 @@ cases:
     title: "Bell v. Mayor and Council of Vicksburg"
     volume: "064"
     page: "443"
+    citation: "64 U.S. 443"
     pdfSource: "loc"
     dateDecision: "Friday, May 4, 1860"
-    citation: "64 U.S. 443"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1859-112"
@@ -758,9 +908,11 @@ cases:
     title: "Federickson v. Louisiana"
     volume: "064"
     page: "445"
+    citation: "64 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Friday, May 4, 1860"
-    citation: "64 U.S. 445"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-004"
@@ -768,9 +920,11 @@ cases:
     title: "Rector of Christ Church of Philadelphia v. County of Philadelphia"
     volume: "065"
     page: "300"
+    citation: "65 U.S. 300"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 2, 1861"
-    citation: "65 U.S. 300"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-007"
@@ -778,9 +932,11 @@ cases:
     title: "United States v. Chana"
     volume: "065"
     page: "131"
+    citation: "65 U.S. 131"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1861"
-    citation: "65 U.S. 131"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-008"
@@ -788,9 +944,11 @@ cases:
     title: "Eberly v. Moore"
     volume: "065"
     page: "147"
+    citation: "65 U.S. 147"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1861"
-    citation: "65 U.S. 147"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-015"
@@ -798,9 +956,11 @@ cases:
     title: "Chandler v. Von Roeder"
     volume: "065"
     page: "224"
+    citation: "65 U.S. 224"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1861"
-    citation: "65 U.S. 224"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-023"
@@ -808,9 +968,11 @@ cases:
     title: "Washington, Alexandria, &amp; Georgetown Steam-Packet Co. v. Sickles"
     volume: "065"
     page: "333"
+    citation: "65 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1861"
-    citation: "65 U.S. 333"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-024"
@@ -818,9 +980,11 @@ cases:
     title: "League v. Egery"
     volume: "065"
     page: "264"
+    citation: "65 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1861"
-    citation: "65 U.S. 264"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-036"
@@ -828,9 +992,11 @@ cases:
     title: "Tate v. Carney"
     volume: "065"
     page: "357"
+    citation: "65 U.S. 357"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1861"
-    citation: "65 U.S. 357"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-037"
@@ -838,9 +1004,11 @@ cases:
     title: "Clements v. Warner"
     volume: "065"
     page: "394"
+    citation: "65 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1861"
-    citation: "65 U.S. 394"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-038"
@@ -848,9 +1016,11 @@ cases:
     title: "Adler v. Fenton"
     volume: "065"
     page: "407"
+    citation: "65 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1861"
-    citation: "65 U.S. 407"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-045"
@@ -858,9 +1028,11 @@ cases:
     title: "Meehan v. Forsyth"
     volume: "065"
     page: "175"
+    citation: "65 U.S. 175"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 175"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-051"
@@ -868,9 +1040,11 @@ cases:
     title: "Sheirburn v. De Cordova"
     volume: "065"
     page: "423"
+    citation: "65 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 423"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-053"
@@ -878,9 +1052,11 @@ cases:
     title: "Suydam v. Williamson"
     volume: "065"
     page: "427"
+    citation: "65 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 427"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-063"
@@ -888,9 +1064,11 @@ cases:
     title: "Gregg v. Forsyth"
     volume: "065"
     page: "179"
+    citation: "65 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 179"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-064"
@@ -898,9 +1076,11 @@ cases:
     title: "Ballance v. Forsyth"
     volume: "065"
     page: "183"
+    citation: "65 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 183"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-065"
@@ -908,9 +1088,11 @@ cases:
     title: "Kellogg v. Forsyth"
     volume: "065"
     page: "186"
+    citation: "65 U.S. 186"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1861"
-    citation: "65 U.S. 186"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
   - id: "1860-066"
@@ -918,9 +1100,11 @@ cases:
     title: "Foote v. Egery"
     volume: "065"
     page: "267"
+    citation: "65 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1861"
-    citation: "65 U.S. 267"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jacampbell
     authorName: "John Campbell"
 ---

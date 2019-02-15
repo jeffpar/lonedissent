@@ -8,9 +8,11 @@ cases:
     title: "Perkins v. Fourniquet"
     volume: "055"
     page: "313"
+    citation: "55 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Thursday, January 27, 1853"
-    citation: "55 U.S. 313"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: brcurtis
     dissenterName: "Benjamin Curtis"
 ---

@@ -8,9 +8,12 @@ cases:
     title: "Union Refrigerator Transit Co. v. Kentucky"
     volume: "199"
     page: "194"
+    docket: "84"
+    citation: "199 U.S. 194"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1905"
-    citation: "199 U.S. 194"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: owholmes
     dissenterName: "Oliver Holmes"
   - id: "1906-110"
@@ -18,9 +21,12 @@ cases:
     title: "Travers v. Reinhardt"
     volume: "205"
     page: "423"
+    docket: "76"
+    citation: "205 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1907"
-    citation: "205 U.S. 423"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: owholmes
     dissenterName: "Oliver Holmes"
   - id: "1910-020"
@@ -28,9 +34,12 @@ cases:
     title: "Western Union Telegraph Co. v. Commercial Milling Co."
     volume: "218"
     page: "406"
+    docket: "15"
+    citation: "218 U.S. 406"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1910"
-    citation: "218 U.S. 406"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: owholmes
     dissenterName: "Oliver Holmes"
   - id: "1910-112"
@@ -38,9 +47,12 @@ cases:
     title: "Dr. Miles Medical Co. v. John D. Park &amp; Sons Co."
     volume: "220"
     page: "373"
+    docket: "72"
+    citation: "220 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1911"
-    citation: "220 U.S. 373"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: owholmes
     dissenterName: "Oliver Holmes"
   - id: "1913-143"
@@ -48,9 +60,12 @@ cases:
     title: "Smith v. Texas"
     volume: "233"
     page: "630"
+    docket: "268"
+    citation: "233 U.S. 630"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1914"
-    citation: "233 U.S. 630"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: owholmes
     dissenterName: "Oliver Holmes"
   - id: "1913-165"
@@ -58,9 +73,12 @@ cases:
     title: "Tennessee Coal, Iron &amp; R. Co. v. George"
     volume: "233"
     page: "354"
+    docket: "299"
+    citation: "233 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1914"
-    citation: "233 U.S. 354"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: owholmes
     dissenterName: "Oliver Holmes"
   - id: "1918-018"
@@ -68,9 +86,12 @@ cases:
     title: "Ruddy v. Rossi"
     volume: "248"
     page: "104"
+    docket: "17"
+    citation: "248 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1918"
-    citation: "248 U.S. 104"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: owholmes
     dissenterName: "Oliver Holmes"
   - id: "1922-218"
@@ -78,9 +99,12 @@ cases:
     title: "Pennsylvania v. West Virginia"
     volume: "262"
     page: "553"
+    docket: "15 Orig."
+    citation: "262 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1923"
-    citation: "262 U.S. 553"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: owholmes
     dissenterName: "Oliver Holmes"
   - id: "1927-073"
@@ -88,9 +112,12 @@ cases:
     title: "Williams v. Standard Oil Co. of La."
     volume: "278"
     page: "235"
+    docket: "64"
+    citation: "278 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 2, 1929"
-    citation: "278 U.S. 235"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: owholmes
     dissenterName: "Oliver Holmes"
   - id: "1929-007"
@@ -98,9 +125,12 @@ cases:
     title: "Safe Deposit &amp; Trust Co. of Baltimore v. Virginia"
     volume: "280"
     page: "083"
+    docket: "20"
+    citation: "280 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1929"
-    citation: "280 U.S. 83"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: owholmes
     dissenterName: "Oliver Holmes"
 ---

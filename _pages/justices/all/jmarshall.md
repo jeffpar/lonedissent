@@ -8,9 +8,11 @@ cases:
     title: "Talbot v. Seeman"
     volume: "005"
     page: "001"
+    citation: "5 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, August 11, 1801"
-    citation: "5 U.S. 1"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1801-002"
@@ -18,9 +20,11 @@ cases:
     title: "Talbot v. Ship Amelia"
     volume: "004"
     page: "034"
+    citation: "4 U.S. 34"
     pdfSource: "loc"
     dateDecision: "Friday, August 15, 1800"
-    citation: "4 U.S. 34"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1801-004"
@@ -28,9 +32,11 @@ cases:
     title: "Wilson v. Mason"
     volume: "005"
     page: "045"
+    citation: "5 U.S. 45"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 15, 1801"
-    citation: "5 U.S. 45"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1801-005"
@@ -38,9 +44,11 @@ cases:
     title: "United States v. Schooner Peggy"
     volume: "005"
     page: "103"
+    citation: "5 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1801"
-    citation: "5 U.S. 103"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1801-006"
@@ -48,9 +56,11 @@ cases:
     title: "Turner v. Fendall"
     volume: "005"
     page: "117"
+    citation: "5 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1801"
-    citation: "5 U.S. 117"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1803-001"
@@ -58,9 +68,11 @@ cases:
     title: "Lloyd v. Alexander"
     volume: "005"
     page: "365"
+    citation: "5 U.S. 365"
     pdfSource: "loc"
     dateDecision: "Thursday, February 10, 1803"
-    citation: "5 U.S. 365"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1803-003"
@@ -68,9 +80,11 @@ cases:
     title: "Hooe &amp; Co. v. Groverman"
     volume: "005"
     page: "214"
+    citation: "5 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 23, 1803"
-    citation: "5 U.S. 214"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1803-004"
@@ -78,9 +92,11 @@ cases:
     title: "United States v. Simms"
     volume: "005"
     page: "252"
+    citation: "5 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 23, 1803"
-    citation: "5 U.S. 252"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1803-005"
@@ -88,9 +104,11 @@ cases:
     title: "Marbury v. Madison"
     volume: "005"
     page: "137"
+    citation: "5 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Thursday, February 24, 1803"
-    citation: "5 U.S. 137"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1803-008"
@@ -98,9 +116,11 @@ cases:
     title: "Wilson v. Lennox"
     volume: "005"
     page: "194"
+    citation: "5 U.S. 194"
     pdfSource: "loc"
     dateDecision: "Saturday, February 26, 1803"
-    citation: "5 U.S. 194"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1803-010"
@@ -108,9 +128,11 @@ cases:
     title: "Mandeville v. Joseph Riddle &amp; Co."
     volume: "005"
     page: "290"
+    citation: "5 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Saturday, February 26, 1803"
-    citation: "5 U.S. 290"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1803-011"
@@ -118,9 +140,11 @@ cases:
     title: "Clark v. Robert Young &amp; Co."
     volume: "005"
     page: "181"
+    citation: "5 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Thursday, February 17, 1803"
-    citation: "5 U.S. 181"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1803-012"
@@ -128,9 +152,11 @@ cases:
     title: "Hamilton v. Russel"
     volume: "005"
     page: "309"
+    citation: "5 U.S. 309"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1803"
-    citation: "5 U.S. 309"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1803-013"
@@ -138,9 +164,11 @@ cases:
     title: "Hepburn v. Auld"
     volume: "005"
     page: "321"
+    citation: "5 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1803"
-    citation: "5 U.S. 321"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1803-016"
@@ -148,9 +176,11 @@ cases:
     title: "Wood v. Owings"
     volume: "005"
     page: "239"
+    citation: "5 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 1, 1803"
-    citation: "5 U.S. 239"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1803-019"
@@ -158,9 +188,11 @@ cases:
     title: "Hodgson v. Dexter"
     volume: "005"
     page: "345"
+    citation: "5 U.S. 345"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 2, 1803"
-    citation: "5 U.S. 345"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1804-001"
@@ -168,9 +200,11 @@ cases:
     title: "Faw v. Marsteller"
     volume: "006"
     page: "010"
+    citation: "6 U.S. 10"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 14, 1804"
-    citation: "6 U.S. 10"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1804-005"
@@ -178,9 +212,11 @@ cases:
     title: "Pennington v. Coxe"
     volume: "006"
     page: "033"
+    citation: "6 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 22, 1804"
-    citation: "6 U.S. 33"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1804-007"
@@ -188,9 +224,11 @@ cases:
     title: "Murray v. Schooner Charming Betsy"
     volume: "006"
     page: "064"
+    citation: "6 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 22, 1804"
-    citation: "6 U.S. 64"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1804-008"
@@ -198,9 +236,11 @@ cases:
     title: "Head &amp; Amory v. Providence Ins. Co."
     volume: "006"
     page: "127"
+    citation: "6 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Saturday, February 25, 1804"
-    citation: "6 U.S. 127"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1804-009"
@@ -208,9 +248,11 @@ cases:
     title: "Little v. Barreme"
     volume: "006"
     page: "170"
+    citation: "6 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1804"
-    citation: "6 U.S. 170"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1804-010"
@@ -218,9 +260,11 @@ cases:
     title: "Dunlop &amp; Co. v. Ball"
     volume: "006"
     page: "180"
+    citation: "6 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 28, 1804"
-    citation: "6 U.S. 180"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1804-013"
@@ -228,9 +272,11 @@ cases:
     title: "Church v. Hubbart"
     volume: "006"
     page: "187"
+    citation: "6 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1804"
-    citation: "6 U.S. 187"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1804-014"
@@ -238,9 +284,11 @@ cases:
     title: "Mason v. Ship Blaireau"
     volume: "006"
     page: "240"
+    citation: "6 U.S. 240"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1804"
-    citation: "6 U.S. 240"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-002"
@@ -248,9 +296,11 @@ cases:
     title: "Adams v. Woods"
     volume: "006"
     page: "336"
+    citation: "6 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 19, 1805"
-    citation: "6 U.S. 336"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-003"
@@ -258,9 +308,11 @@ cases:
     title: "Reily v. Lamar"
     volume: "006"
     page: "344"
+    citation: "6 U.S. 344"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 19, 1805"
-    citation: "6 U.S. 344"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-004"
@@ -268,9 +320,11 @@ cases:
     title: "United States v. Fisher"
     volume: "006"
     page: "358"
+    citation: "6 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Thursday, February 21, 1805"
-    citation: "6 U.S. 358"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-007"
@@ -278,9 +332,11 @@ cases:
     title: "Telfair v. Stead&apos;s Executors"
     volume: "006"
     page: "407"
+    citation: "6 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1805"
-    citation: "6 U.S. 407"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-008"
@@ -288,9 +344,11 @@ cases:
     title: "Graves v. Boston Marine Ins. Co."
     volume: "006"
     page: "419"
+    citation: "6 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1805"
-    citation: "6 U.S. 419"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-009"
@@ -298,9 +356,11 @@ cases:
     title: "Hepburn v. Ellzey"
     volume: "006"
     page: "445"
+    citation: "6 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1805"
-    citation: "6 U.S. 445"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-010"
@@ -308,9 +368,11 @@ cases:
     title: "Huidekoper&apos;s Lessee v. Douglass"
     volume: "007"
     page: "001"
+    citation: "7 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 27, 1805"
-    citation: "7 U.S. 1"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-011"
@@ -318,9 +380,11 @@ cases:
     title: "United States v. Hooe"
     volume: "007"
     page: "073"
+    citation: "7 U.S. 73"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 27, 1805"
-    citation: "7 U.S. 73"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-012"
@@ -328,9 +392,11 @@ cases:
     title: "Peyton v. Brooke"
     volume: "007"
     page: "092"
+    citation: "7 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 27, 1805"
-    citation: "7 U.S. 92"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-014"
@@ -338,9 +404,11 @@ cases:
     title: "Hodgson v. Butts"
     volume: "007"
     page: "140"
+    citation: "7 U.S. 140"
     pdfSource: "loc"
     dateDecision: "Saturday, March 2, 1805"
-    citation: "7 U.S. 140"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-015"
@@ -348,9 +416,11 @@ cases:
     title: "United States v. More"
     volume: "007"
     page: "159"
+    citation: "7 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Saturday, March 2, 1805"
-    citation: "7 U.S. 159"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-016"
@@ -358,9 +428,11 @@ cases:
     title: "Faw v. Roberdeau&apos;s Executor"
     volume: "007"
     page: "174"
+    citation: "7 U.S. 174"
     pdfSource: "loc"
     dateDecision: "Saturday, March 2, 1805"
-    citation: "7 U.S. 174"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-018"
@@ -368,9 +440,11 @@ cases:
     title: "Levy v. Gadsby"
     volume: "007"
     page: "180"
+    citation: "7 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1805"
-    citation: "7 U.S. 180"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-019"
@@ -378,9 +452,11 @@ cases:
     title: "Ray v. Law"
     volume: "007"
     page: "179"
+    citation: "7 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1805"
-    citation: "7 U.S. 179"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-021"
@@ -388,9 +464,11 @@ cases:
     title: "Wilson v. Codman&apos;s Executor"
     volume: "007"
     page: "193"
+    citation: "7 U.S. 193"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 6, 1805"
-    citation: "7 U.S. 193"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-022"
@@ -398,9 +476,11 @@ cases:
     title: "Hallet and Bowne v. Jenks"
     volume: "007"
     page: "210"
+    citation: "7 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 6, 1805"
-    citation: "7 U.S. 210"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-023"
@@ -408,9 +488,11 @@ cases:
     title: "Milligan v. Milledge"
     volume: "007"
     page: "220"
+    citation: "7 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 6, 1805"
-    citation: "7 U.S. 220"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1805-024"
@@ -418,9 +500,11 @@ cases:
     title: "Cooke v. Graham&apos;s Administrator"
     volume: "007"
     page: "229"
+    citation: "7 U.S. 229"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 6, 1805"
-    citation: "7 U.S. 229"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-003"
@@ -428,9 +512,11 @@ cases:
     title: "Hannay v. Eve"
     volume: "007"
     page: "242"
+    citation: "7 U.S. 242"
     pdfSource: "loc"
     dateDecision: "Thursday, February 13, 1806"
-    citation: "7 U.S. 242"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-004"
@@ -438,9 +524,11 @@ cases:
     title: "Silsby v. Young"
     volume: "007"
     page: "249"
+    citation: "7 U.S. 249"
     pdfSource: "loc"
     dateDecision: "Thursday, February 13, 1806"
-    citation: "7 U.S. 249"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-005"
@@ -448,9 +536,11 @@ cases:
     title: "Strawbridge v. Curtiss"
     volume: "007"
     page: "267"
+    citation: "7 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Thursday, February 13, 1806"
-    citation: "7 U.S. 267"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-006"
@@ -458,9 +548,11 @@ cases:
     title: "Gordon v. Caldcleugh"
     volume: "007"
     page: "268"
+    citation: "7 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Thursday, February 13, 1806"
-    citation: "7 U.S. 268"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-007"
@@ -468,9 +560,11 @@ cases:
     title: "McFerran v. Taylor"
     volume: "007"
     page: "270"
+    citation: "7 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Friday, February 14, 1806"
-    citation: "7 U.S. 270"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-008"
@@ -478,9 +572,11 @@ cases:
     title: "Wilson v. Speed"
     volume: "007"
     page: "283"
+    citation: "7 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Friday, February 14, 1806"
-    citation: "7 U.S. 283"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-009"
@@ -488,9 +584,11 @@ cases:
     title: "Douglass &amp; Mandeville v. McAllister"
     volume: "007"
     page: "298"
+    citation: "7 U.S. 298"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1806"
-    citation: "7 U.S. 298"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-010"
@@ -498,9 +596,11 @@ cases:
     title: "Simms v. Slacum"
     volume: "007"
     page: "300"
+    citation: "7 U.S. 300"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1806"
-    citation: "7 U.S. 300"
+    voteMajority: 4
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-011"
@@ -508,9 +608,11 @@ cases:
     title: "Harris v. Johnston"
     volume: "007"
     page: "311"
+    citation: "7 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1806"
-    citation: "7 U.S. 311"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-012"
@@ -518,9 +620,11 @@ cases:
     title: "Dixon&apos;s Executors v. Ramsay&apos;s Executors"
     volume: "007"
     page: "319"
+    citation: "7 U.S. 319"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1806"
-    citation: "7 U.S. 319"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-013"
@@ -528,9 +632,11 @@ cases:
     title: "Scott v. London"
     volume: "007"
     page: "324"
+    citation: "7 U.S. 324"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1806"
-    citation: "7 U.S. 324"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-014"
@@ -538,9 +644,11 @@ cases:
     title: "Wise v. Withers"
     volume: "007"
     page: "331"
+    citation: "7 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1806"
-    citation: "7 U.S. 331"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-016"
@@ -548,9 +656,11 @@ cases:
     title: "United States v. Grundy"
     volume: "007"
     page: "337"
+    citation: "7 U.S. 337"
     pdfSource: "loc"
     dateDecision: "Saturday, February 22, 1806"
-    citation: "7 U.S. 337"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-017"
@@ -558,9 +668,11 @@ cases:
     title: "Manella, Pujals, and Co. v. Barry"
     volume: "007"
     page: "415"
+    citation: "7 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 26, 1806"
-    citation: "7 U.S. 415"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-019"
@@ -568,9 +680,11 @@ cases:
     title: "Buddicum v. Kirk"
     volume: "007"
     page: "293"
+    citation: "7 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Saturday, March 1, 1806"
-    citation: "7 U.S. 293"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-020"
@@ -578,9 +692,11 @@ cases:
     title: "Maley v. Shattuck"
     volume: "007"
     page: "458"
+    citation: "7 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1806"
-    citation: "7 U.S. 458"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-023"
@@ -588,9 +704,11 @@ cases:
     title: "Ex parte Burford"
     volume: "007"
     page: "448"
+    citation: "7 U.S. 448"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 4, 1806"
-    citation: "7 U.S. 448"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-025"
@@ -598,9 +716,11 @@ cases:
     title: "Lawrason v. Mason"
     volume: "007"
     page: "492"
+    citation: "7 U.S. 492"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 4, 1806"
-    citation: "7 U.S. 492"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1806-026"
@@ -608,9 +728,11 @@ cases:
     title: "Sands v. Knox"
     volume: "007"
     page: "499"
+    citation: "7 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 4, 1806"
-    citation: "7 U.S. 499"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-002"
@@ -618,9 +740,11 @@ cases:
     title: "Jennings v. Carson"
     volume: "008"
     page: "002"
+    citation: "8 U.S. 2"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 11, 1807"
-    citation: "8 U.S. 2"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-003"
@@ -628,9 +752,11 @@ cases:
     title: "Rhinelander v. Insurance Co. of Pa."
     volume: "008"
     page: "029"
+    citation: "8 U.S. 29"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 11, 1807"
-    citation: "8 U.S. 29"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-005"
@@ -638,9 +764,11 @@ cases:
     title: "United States v. Willings"
     volume: "008"
     page: "048"
+    citation: "8 U.S. 48"
     pdfSource: "loc"
     dateDecision: "Saturday, February 14, 1807"
-    citation: "8 U.S. 48"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-006"
@@ -648,9 +776,11 @@ cases:
     title: "Oneale v. Long"
     volume: "008"
     page: "060"
+    citation: "8 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Saturday, February 14, 1807"
-    citation: "8 U.S. 60"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-007"
@@ -658,9 +788,11 @@ cases:
     title: "Smith v. Carrington"
     volume: "008"
     page: "062"
+    citation: "8 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, February 16, 1807"
-    citation: "8 U.S. 62"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-008"
@@ -668,9 +800,11 @@ cases:
     title: "Wood v. Lide"
     volume: "008"
     page: "180"
+    citation: "8 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Thursday, February 19, 1807"
-    citation: "8 U.S. 180"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-009"
@@ -678,9 +812,11 @@ cases:
     title: "Ex parte Bollman"
     volume: "008"
     page: "075"
+    citation: "8 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Friday, February 20, 1807"
-    citation: "8 U.S. 75"
+    voteMajority: 3
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-010"
@@ -688,9 +824,11 @@ cases:
     title: "French&apos;s Executrix v. Bank of Columbia"
     volume: "008"
     page: "141"
+    citation: "8 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1807"
-    citation: "8 U.S. 141"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-015"
@@ -698,9 +836,11 @@ cases:
     title: "United States v. Cantril"
     volume: "008"
     page: "167"
+    citation: "8 U.S. 167"
     pdfSource: "loc"
     dateDecision: "Saturday, February 28, 1807"
-    citation: "8 U.S. 167"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-016"
@@ -708,9 +848,11 @@ cases:
     title: "Sthreshley v. United States"
     volume: "008"
     page: "169"
+    citation: "8 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Saturday, February 28, 1807"
-    citation: "8 U.S. 169"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-022"
@@ -718,9 +860,11 @@ cases:
     title: "Hudson v. Guestier"
     volume: "008"
     page: "293"
+    citation: "8 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 2, 1808"
-    citation: "8 U.S. 293"
+    voteMajority: 4
+    voteMinority: 2
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-023"
@@ -728,9 +872,11 @@ cases:
     title: "Alexander v. Harris"
     volume: "008"
     page: "299"
+    citation: "8 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 2, 1808"
-    citation: "8 U.S. 299"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-024"
@@ -738,9 +884,11 @@ cases:
     title: "Chappedelaine v. Dechenaux"
     volume: "008"
     page: "306"
+    citation: "8 U.S. 306"
     pdfSource: "loc"
     dateDecision: "Friday, March 4, 1808"
-    citation: "8 U.S. 306"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-026"
@@ -748,9 +896,11 @@ cases:
     title: "Alexandria v. Patten"
     volume: "008"
     page: "317"
+    citation: "8 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1808"
-    citation: "8 U.S. 317"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-027"
@@ -758,9 +908,11 @@ cases:
     title: "Mountz v. Hodgson"
     volume: "008"
     page: "324"
+    citation: "8 U.S. 324"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 8, 1808"
-    citation: "8 U.S. 324"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-029"
@@ -768,9 +920,11 @@ cases:
     title: "United States v. Gurney"
     volume: "008"
     page: "333"
+    citation: "8 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 8, 1808"
-    citation: "8 U.S. 333"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-030"
@@ -778,9 +932,11 @@ cases:
     title: "Peisch v. Ware"
     volume: "008"
     page: "347"
+    citation: "8 U.S. 347"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 9, 1808"
-    citation: "8 U.S. 347"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-031"
@@ -788,9 +944,11 @@ cases:
     title: "Shearman v. Irvine&apos;s Lessee"
     volume: "008"
     page: "367"
+    citation: "8 U.S. 367"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 9, 1808"
-    citation: "8 U.S. 367"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-032"
@@ -798,9 +956,11 @@ cases:
     title: "Alexander v. Baltimore Ins. Co."
     volume: "008"
     page: "370"
+    citation: "8 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1808"
-    citation: "8 U.S. 370"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-033"
@@ -808,9 +968,11 @@ cases:
     title: "Matthews v. Zane"
     volume: "008"
     page: "382"
+    citation: "8 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Saturday, March 12, 1808"
-    citation: "8 U.S. 382"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-034"
@@ -818,9 +980,11 @@ cases:
     title: "Young v. Bank of Alexandria"
     volume: "008"
     page: "384"
+    citation: "8 U.S. 384"
     pdfSource: "loc"
     dateDecision: "Saturday, March 12, 1808"
-    citation: "8 U.S. 384"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-035"
@@ -828,9 +992,11 @@ cases:
     title: "Spiers v. Willison"
     volume: "008"
     page: "398"
+    citation: "8 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1808"
-    citation: "8 U.S. 398"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-036"
@@ -838,9 +1004,11 @@ cases:
     title: "Ramsay v. Lee"
     volume: "008"
     page: "401"
+    citation: "8 U.S. 401"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1808"
-    citation: "8 U.S. 401"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-037"
@@ -848,9 +1016,11 @@ cases:
     title: "Stead&apos;s Executors v. Course"
     volume: "008"
     page: "403"
+    citation: "8 U.S. 403"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1808"
-    citation: "8 U.S. 403"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-038"
@@ -858,9 +1028,11 @@ cases:
     title: "Higginson v. Mein"
     volume: "008"
     page: "415"
+    citation: "8 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1808"
-    citation: "8 U.S. 415"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1807-041"
@@ -868,9 +1040,11 @@ cases:
     title: "Pollard v. Dwight"
     volume: "008"
     page: "421"
+    citation: "8 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 15, 1808"
-    citation: "8 U.S. 421"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1808-001"
@@ -878,9 +1052,11 @@ cases:
     title: "Rose v. Himely"
     volume: "008"
     page: "241"
+    citation: "8 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 2, 1808"
-    citation: "8 U.S. 241"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1808-002"
@@ -888,9 +1064,11 @@ cases:
     title: "Fitzsimmons v. Newport Ins. Co."
     volume: "008"
     page: "185"
+    citation: "8 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1808"
-    citation: "8 U.S. 185"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1808-004"
@@ -898,9 +1076,11 @@ cases:
     title: "Marshall v. Delaware Ins. Co."
     volume: "008"
     page: "202"
+    citation: "8 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1808"
-    citation: "8 U.S. 202"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1808-006"
@@ -908,9 +1088,11 @@ cases:
     title: "Pawling v. United States"
     volume: "008"
     page: "219"
+    citation: "8 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Saturday, February 27, 1808"
-    citation: "8 U.S. 219"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1808-007"
@@ -918,9 +1100,11 @@ cases:
     title: "Grant v. Naylor"
     volume: "008"
     page: "224"
+    citation: "8 U.S. 224"
     pdfSource: "loc"
     dateDecision: "Monday, February 29, 1808"
-    citation: "8 U.S. 224"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1808-008"
@@ -928,9 +1112,11 @@ cases:
     title: "United States v. Schooner Betsey and Charlotte"
     volume: "008"
     page: "443"
+    citation: "8 U.S. 443"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 16, 1808"
-    citation: "8 U.S. 443"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-003"
@@ -938,9 +1124,11 @@ cases:
     title: "Alexander v. Alexandria"
     volume: "009"
     page: "001"
+    citation: "9 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 8, 1809"
-    citation: "9 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-004"
@@ -948,9 +1136,11 @@ cases:
     title: "Henderson v. Moore"
     volume: "009"
     page: "011"
+    citation: "9 U.S. 11"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 8, 1809"
-    citation: "9 U.S. 11"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-005"
@@ -958,9 +1148,11 @@ cases:
     title: "Cook v. Woodrow"
     volume: "009"
     page: "013"
+    citation: "9 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Thursday, February 9, 1809"
-    citation: "9 U.S. 13"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-006"
@@ -968,9 +1160,11 @@ cases:
     title: "Mandeville v. Wilson"
     volume: "009"
     page: "015"
+    citation: "9 U.S. 15"
     pdfSource: "loc"
     dateDecision: "Thursday, February 9, 1809"
-    citation: "9 U.S. 15"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-007"
@@ -978,9 +1172,11 @@ cases:
     title: "Tucker v. Oxley"
     volume: "009"
     page: "034"
+    citation: "9 U.S. 34"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 15, 1809"
-    citation: "9 U.S. 34"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-008"
@@ -988,9 +1184,11 @@ cases:
     title: "Matthews v. Zane&apos;s Lessee"
     volume: "009"
     page: "092"
+    citation: "9 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Thursday, February 16, 1809"
-    citation: "9 U.S. 92"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-009"
@@ -998,9 +1196,11 @@ cases:
     title: "United States v. Peters"
     volume: "009"
     page: "115"
+    citation: "9 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1809"
-    citation: "9 U.S. 115"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-010"
@@ -1008,9 +1208,11 @@ cases:
     title: "Kempe&apos;s Lessee v. Kennedy"
     volume: "009"
     page: "173"
+    citation: "9 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1809"
-    citation: "9 U.S. 173"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-011"
@@ -1018,9 +1220,11 @@ cases:
     title: "Fairfax&apos;s Executor v. Fairfax"
     volume: "009"
     page: "019"
+    citation: "9 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 21, 1809"
-    citation: "9 U.S. 19"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-012"
@@ -1028,9 +1232,11 @@ cases:
     title: "Violett v. Patton"
     volume: "009"
     page: "142"
+    citation: "9 U.S. 142"
     pdfSource: "loc"
     dateDecision: "Thursday, February 23, 1809"
-    citation: "9 U.S. 142"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-014"
@@ -1038,9 +1244,11 @@ cases:
     title: "United States v. Arthur"
     volume: "009"
     page: "257"
+    citation: "9 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Friday, February 24, 1809"
-    citation: "9 U.S. 257"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-015"
@@ -1048,9 +1256,11 @@ cases:
     title: "United States v. Evans"
     volume: "009"
     page: "280"
+    citation: "9 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1809"
-    citation: "9 U.S. 280"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-017"
@@ -1058,9 +1268,11 @@ cases:
     title: "Taylor v. Brown"
     volume: "009"
     page: "234"
+    citation: "9 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 1, 1809"
-    citation: "9 U.S. 234"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-020"
@@ -1068,9 +1280,11 @@ cases:
     title: "Yeaton v. United States"
     volume: "009"
     page: "281"
+    citation: "9 U.S. 281"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 7, 1809"
-    citation: "9 U.S. 281"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-021"
@@ -1078,9 +1292,11 @@ cases:
     title: "United States v. Potts"
     volume: "009"
     page: "284"
+    citation: "9 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 7, 1809"
-    citation: "9 U.S. 284"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-022"
@@ -1088,9 +1304,11 @@ cases:
     title: "United States v. Riddle"
     volume: "009"
     page: "311"
+    citation: "9 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Thursday, March 9, 1809"
-    citation: "9 U.S. 311"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-023"
@@ -1098,9 +1316,11 @@ cases:
     title: "Young v. Bank of Alexandria"
     volume: "009"
     page: "045"
+    citation: "9 U.S. 45"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1809"
-    citation: "9 U.S. 45"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-024"
@@ -1108,9 +1328,11 @@ cases:
     title: "Yeaton v. Bank of Alexandria"
     volume: "009"
     page: "049"
+    citation: "9 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1809"
-    citation: "9 U.S. 49"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-025"
@@ -1118,9 +1340,11 @@ cases:
     title: "Himely v. Rose"
     volume: "009"
     page: "313"
+    citation: "9 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1809"
-    citation: "9 U.S. 313"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-026"
@@ -1128,9 +1352,11 @@ cases:
     title: "McKeen v. Delancy&apos;s Lessee"
     volume: "009"
     page: "022"
+    citation: "9 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Saturday, March 11, 1809"
-    citation: "9 U.S. 22"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-029"
@@ -1138,9 +1364,11 @@ cases:
     title: "Riddle &amp; Co. v. Mandeville"
     volume: "009"
     page: "322"
+    citation: "9 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1809"
-    citation: "9 U.S. 322"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-030"
@@ -1148,9 +1376,11 @@ cases:
     title: "Yeaton v. Fry"
     volume: "009"
     page: "335"
+    citation: "9 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1809"
-    citation: "9 U.S. 335"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-031"
@@ -1158,9 +1388,11 @@ cases:
     title: "Moss v. Riddle &amp; Co."
     volume: "009"
     page: "351"
+    citation: "9 U.S. 351"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1809"
-    citation: "9 U.S. 351"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-032"
@@ -1168,9 +1400,11 @@ cases:
     title: "Bodley v. Taylor"
     volume: "009"
     page: "191"
+    citation: "9 U.S. 191"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 14, 1809"
-    citation: "9 U.S. 191"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-033"
@@ -1178,9 +1412,11 @@ cases:
     title: "Hepburn v. Auld"
     volume: "009"
     page: "262"
+    citation: "9 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 14, 1809"
-    citation: "9 U.S. 262"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-039"
@@ -1188,9 +1424,11 @@ cases:
     title: "Bank of United States v. Deveaux"
     volume: "009"
     page: "061"
+    citation: "9 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 15, 1809"
-    citation: "9 U.S. 61"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-041"
@@ -1198,9 +1436,11 @@ cases:
     title: "Harrison v. Sterry"
     volume: "009"
     page: "289"
+    citation: "9 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 15, 1809"
-    citation: "9 U.S. 289"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-042"
@@ -1208,9 +1448,11 @@ cases:
     title: "Brent v. Chapman"
     volume: "009"
     page: "358"
+    citation: "9 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 15, 1809"
-    citation: "9 U.S. 358"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-043"
@@ -1218,9 +1460,11 @@ cases:
     title: "Slacum v. Simms"
     volume: "009"
     page: "363"
+    citation: "9 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 15, 1809"
-    citation: "9 U.S. 363"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-044"
@@ -1228,9 +1472,11 @@ cases:
     title: "United States v. Vowell"
     volume: "009"
     page: "368"
+    citation: "9 U.S. 368"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 15, 1809"
-    citation: "9 U.S. 368"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-045"
@@ -1238,9 +1484,11 @@ cases:
     title: "Ex parte Wilson"
     volume: "010"
     page: "052"
+    citation: "10 U.S. 52"
     pdfSource: "loc"
     dateDecision: "February Term 1810"
-    citation: "10 U.S. 52"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1809-046"
@@ -1248,9 +1496,11 @@ cases:
     title: "Riddle &amp; Co. v. Mandeville"
     volume: "010"
     page: "086"
+    citation: "10 U.S. 86"
     pdfSource: "loc"
     dateDecision: "February Term 1810"
-    citation: "10 U.S. 86"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-002"
@@ -1258,9 +1508,11 @@ cases:
     title: "Scott v. Ben"
     volume: "010"
     page: "003"
+    citation: "10 U.S. 3"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 7, 1810"
-    citation: "10 U.S. 3"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-003"
@@ -1268,9 +1520,11 @@ cases:
     title: "Young v. Grundy"
     volume: "010"
     page: "051"
+    citation: "10 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Saturday, February 10, 1810"
-    citation: "10 U.S. 51"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-004"
@@ -1278,9 +1532,11 @@ cases:
     title: "Field v. Holland"
     volume: "010"
     page: "008"
+    citation: "10 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1810"
-    citation: "10 U.S. 8"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-005"
@@ -1288,9 +1544,11 @@ cases:
     title: "Oneale v. Thornton"
     volume: "010"
     page: "053"
+    citation: "10 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Thursday, February 15, 1810"
-    citation: "10 U.S. 53"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-006"
@@ -1298,9 +1556,11 @@ cases:
     title: "Maryland Ins. Co. v. Woods"
     volume: "010"
     page: "029"
+    citation: "10 U.S. 29"
     pdfSource: "loc"
     dateDecision: "Friday, February 16, 1810"
-    citation: "10 U.S. 29"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-007"
@@ -1308,9 +1568,11 @@ cases:
     title: "King v. Delaware Ins. Co."
     volume: "010"
     page: "071"
+    citation: "10 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Saturday, February 17, 1810"
-    citation: "10 U.S. 71"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-008"
@@ -1318,9 +1580,11 @@ cases:
     title: "McKnight v. Craig&apos;s Administrator"
     volume: "010"
     page: "183"
+    citation: "10 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1810"
-    citation: "10 U.S. 183"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-011"
@@ -1328,9 +1592,11 @@ cases:
     title: "Massie v. Watts"
     volume: "010"
     page: "148"
+    citation: "10 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 28, 1810"
-    citation: "10 U.S. 148"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-012"
@@ -1338,9 +1604,11 @@ cases:
     title: "Kennedy v. Brent"
     volume: "010"
     page: "187"
+    citation: "10 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 28, 1810"
-    citation: "10 U.S. 187"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-013"
@@ -1348,9 +1616,11 @@ cases:
     title: "Stewart v. Anderson"
     volume: "010"
     page: "203"
+    citation: "10 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Thursday, March 1, 1810"
-    citation: "10 U.S. 203"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-014"
@@ -1358,9 +1628,11 @@ cases:
     title: "United States v. Hall"
     volume: "010"
     page: "171"
+    citation: "10 U.S. 171"
     pdfSource: "loc"
     dateDecision: "Saturday, March 3, 1810"
-    citation: "10 U.S. 171"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-015"
@@ -1368,9 +1640,11 @@ cases:
     title: "Slacum v. Pomery"
     volume: "010"
     page: "221"
+    citation: "10 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1810"
-    citation: "10 U.S. 221"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-016"
@@ -1378,9 +1652,11 @@ cases:
     title: "Vasse v. Smith"
     volume: "010"
     page: "226"
+    citation: "10 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1810"
-    citation: "10 U.S. 226"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-017"
@@ -1388,9 +1664,11 @@ cases:
     title: "Custiss v. Georgetown &amp; Alexandria Turnpike Co."
     volume: "010"
     page: "233"
+    citation: "10 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1810"
-    citation: "10 U.S. 233"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-019"
@@ -1398,9 +1676,11 @@ cases:
     title: "Finley v. Lynn"
     volume: "010"
     page: "238"
+    citation: "10 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1810"
-    citation: "10 U.S. 238"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-022"
@@ -1408,9 +1688,11 @@ cases:
     title: "Chesapeake Ins. Co. v. Stark"
     volume: "010"
     page: "268"
+    citation: "10 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 14, 1810"
-    citation: "10 U.S. 268"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-025"
@@ -1418,9 +1700,11 @@ cases:
     title: "Durousseau v. United States"
     volume: "010"
     page: "307"
+    citation: "10 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Thursday, March 15, 1810"
-    citation: "10 U.S. 307"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-027"
@@ -1428,9 +1712,11 @@ cases:
     title: "Fletcher v. Peck"
     volume: "010"
     page: "087"
+    citation: "10 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1810"
-    citation: "10 U.S. 87"
+    voteMajority: 4
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-028"
@@ -1438,9 +1724,11 @@ cases:
     title: "Sheehy v. Mandeville"
     volume: "010"
     page: "253"
+    citation: "10 U.S. 253"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1810"
-    citation: "10 U.S. 253"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-029"
@@ -1448,9 +1736,11 @@ cases:
     title: "Livingston v. Maryland Ins. Co."
     volume: "010"
     page: "274"
+    citation: "10 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1810"
-    citation: "10 U.S. 274"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-037"
@@ -1458,9 +1748,11 @@ cases:
     title: "Sere v. Pitot"
     volume: "010"
     page: "332"
+    citation: "10 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Saturday, March 17, 1810"
-    citation: "10 U.S. 332"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1810-038"
@@ -1468,9 +1760,11 @@ cases:
     title: "Maryland Ins. Co. v. Ruden&apos;s Administrator"
     volume: "010"
     page: "338"
+    citation: "10 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Saturday, March 17, 1810"
-    citation: "10 U.S. 338"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-003"
@@ -1478,9 +1772,11 @@ cases:
     title: "Shirras v. Caig"
     volume: "011"
     page: "034"
+    citation: "11 U.S. 34"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1812"
-    citation: "11 U.S. 34"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-007"
@@ -1488,9 +1784,11 @@ cases:
     title: "Hawthorne v. United States"
     volume: "011"
     page: "107"
+    citation: "11 U.S. 107"
     pdfSource: "loc"
     dateDecision: "February Term 1812"
-    citation: "11 U.S. 107"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-010"
@@ -1498,9 +1796,11 @@ cases:
     title: "Schooner Paulina&apos;s Cargo v. United States"
     volume: "011"
     page: "052"
+    citation: "11 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Friday, February 21, 1812"
-    citation: "11 U.S. 52"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-013"
@@ -1508,9 +1808,11 @@ cases:
     title: "Sloop Active v. United States"
     volume: "011"
     page: "100"
+    citation: "11 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 26, 1812"
-    citation: "11 U.S. 100"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-014"
@@ -1518,9 +1820,11 @@ cases:
     title: "Schooner Exchange v. McFaddon"
     volume: "011"
     page: "116"
+    citation: "11 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1812"
-    citation: "11 U.S. 116"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-015"
@@ -1528,9 +1832,11 @@ cases:
     title: "New Jersey v. Wilson"
     volume: "011"
     page: "164"
+    citation: "11 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1812"
-    citation: "11 U.S. 164"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-016"
@@ -1538,9 +1844,11 @@ cases:
     title: "King v. Riddle"
     volume: "011"
     page: "168"
+    citation: "11 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 4, 1812"
-    citation: "11 U.S. 168"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-017"
@@ -1548,9 +1856,11 @@ cases:
     title: "United States v. Brig Eliza"
     volume: "011"
     page: "113"
+    citation: "11 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1812"
-    citation: "11 U.S. 113"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-018"
@@ -1558,9 +1868,11 @@ cases:
     title: "Welch v. Mandeville"
     volume: "011"
     page: "152"
+    citation: "11 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1812"
-    citation: "11 U.S. 152"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-019"
@@ -1568,9 +1880,11 @@ cases:
     title: "Hughes v. Moore"
     volume: "011"
     page: "176"
+    citation: "11 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Saturday, March 7, 1812"
-    citation: "11 U.S. 176"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-020"
@@ -1578,9 +1892,11 @@ cases:
     title: "Welch v. Lindo"
     volume: "011"
     page: "159"
+    citation: "11 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1812"
-    citation: "11 U.S. 159"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-021"
@@ -1588,9 +1904,11 @@ cases:
     title: "Davy&apos;s Executors v. Faw"
     volume: "011"
     page: "171"
+    citation: "11 U.S. 171"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1812"
-    citation: "11 U.S. 171"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-024"
@@ -1598,9 +1916,11 @@ cases:
     title: "Wilson v. Koontz"
     volume: "011"
     page: "202"
+    citation: "11 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 10, 1812"
-    citation: "11 U.S. 202"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-025"
@@ -1608,9 +1928,11 @@ cases:
     title: "Riddle v. Moss"
     volume: "011"
     page: "206"
+    citation: "11 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 10, 1812"
-    citation: "11 U.S. 206"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-026"
@@ -1618,9 +1940,11 @@ cases:
     title: "Wood v. Davis"
     volume: "011"
     page: "271"
+    citation: "11 U.S. 271"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 10, 1812"
-    citation: "11 U.S. 271"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-027"
@@ -1628,9 +1952,11 @@ cases:
     title: "Russell v. Clark&apos;s Executors"
     volume: "011"
     page: "069"
+    citation: "11 U.S. 69"
     pdfSource: "loc"
     dateDecision: "Thursday, March 12, 1812"
-    citation: "11 U.S. 69"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-029"
@@ -1638,9 +1964,11 @@ cases:
     title: "Morgan v. Reintzel"
     volume: "011"
     page: "273"
+    citation: "11 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Friday, March 13, 1812"
-    citation: "11 U.S. 273"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-030"
@@ -1648,9 +1976,11 @@ cases:
     title: "Caldwell v. Jackson"
     volume: "011"
     page: "276"
+    citation: "11 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Friday, March 13, 1812"
-    citation: "11 U.S. 276"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-035"
@@ -1658,9 +1988,11 @@ cases:
     title: "Sheehy v. Mandeville"
     volume: "011"
     page: "208"
+    citation: "11 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Saturday, March 14, 1812"
-    citation: "11 U.S. 208"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1812-036"
@@ -1668,9 +2000,11 @@ cases:
     title: "Conway&apos;s Executors v. Alexander"
     volume: "011"
     page: "218"
+    citation: "11 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Saturday, March 14, 1812"
-    citation: "11 U.S. 218"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-002"
@@ -1678,9 +2012,11 @@ cases:
     title: "Queen v. Hepburn"
     volume: "011"
     page: "290"
+    citation: "11 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Friday, February 12, 1813"
-    citation: "11 U.S. 290"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-004"
@@ -1688,9 +2024,11 @@ cases:
     title: "Clark&apos;s Executors v. Carrington"
     volume: "011"
     page: "308"
+    citation: "11 U.S. 308"
     pdfSource: "loc"
     dateDecision: "Saturday, February 13, 1813"
-    citation: "11 U.S. 308"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-005"
@@ -1698,9 +2036,11 @@ cases:
     title: "Dickey v. Baltimore Ins. Co."
     volume: "011"
     page: "327"
+    citation: "11 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 17, 1813"
-    citation: "11 U.S. 327"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-006"
@@ -1708,9 +2048,11 @@ cases:
     title: "Marine Ins. Co. of Alexandria v. Hodgson"
     volume: "011"
     page: "332"
+    citation: "11 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Thursday, February 18, 1813"
-    citation: "11 U.S. 332"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-007"
@@ -1718,9 +2060,11 @@ cases:
     title: "Locke v. United States"
     volume: "011"
     page: "339"
+    citation: "11 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Friday, February 19, 1813"
-    citation: "11 U.S. 339"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-009"
@@ -1728,9 +2072,11 @@ cases:
     title: "Bond v. Jay"
     volume: "011"
     page: "350"
+    citation: "11 U.S. 350"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1813"
-    citation: "11 U.S. 350"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-010"
@@ -1738,9 +2084,11 @@ cases:
     title: "Brig Penobscot v. United States"
     volume: "011"
     page: "356"
+    citation: "11 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1813"
-    citation: "11 U.S. 356"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-011"
@@ -1748,9 +2096,11 @@ cases:
     title: "Preston v. Tremble"
     volume: "011"
     page: "354"
+    citation: "11 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 24, 1813"
-    citation: "11 U.S. 354"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-015"
@@ -1758,9 +2108,11 @@ cases:
     title: "Herbert v. Wren"
     volume: "011"
     page: "370"
+    citation: "11 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Friday, February 26, 1813"
-    citation: "11 U.S. 370"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-017"
@@ -1768,9 +2120,11 @@ cases:
     title: "Schooner Hoppet v. United States"
     volume: "011"
     page: "389"
+    citation: "11 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Saturday, February 27, 1813"
-    citation: "11 U.S. 389"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-024"
@@ -1778,9 +2132,11 @@ cases:
     title: "Williams v. Armroyd"
     volume: "011"
     page: "423"
+    citation: "11 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1813"
-    citation: "11 U.S. 423"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-025"
@@ -1788,9 +2144,11 @@ cases:
     title: "Smith v. Delaware Ins. Co."
     volume: "011"
     page: "434"
+    citation: "11 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 9, 1813"
-    citation: "11 U.S. 434"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-026"
@@ -1798,9 +2156,11 @@ cases:
     title: "Holker v. Parker"
     volume: "011"
     page: "436"
+    citation: "11 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 10, 1813"
-    citation: "11 U.S. 436"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-028"
@@ -1808,9 +2168,11 @@ cases:
     title: "Blackwell v. Patton &amp; Irwin&apos;s Lessee"
     volume: "011"
     page: "471"
+    citation: "11 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Thursday, March 11, 1813"
-    citation: "11 U.S. 471"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-030"
@@ -1818,9 +2180,11 @@ cases:
     title: "Oliver v. Maryland Ins. Co."
     volume: "011"
     page: "487"
+    citation: "11 U.S. 487"
     pdfSource: "loc"
     dateDecision: "Saturday, March 13, 1813"
-    citation: "11 U.S. 487"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-033"
@@ -1828,9 +2192,11 @@ cases:
     title: "Livingston v. Maryland Ins. Co."
     volume: "011"
     page: "506"
+    citation: "11 U.S. 506"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1813"
-    citation: "11 U.S. 506"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1813-040"
@@ -1838,9 +2204,11 @@ cases:
     title: "Schooner Anne v. United States"
     volume: "011"
     page: "570"
+    citation: "11 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 16, 1813"
-    citation: "11 U.S. 570"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-001"
@@ -1848,9 +2216,11 @@ cases:
     title: "Griffith v. Frazier"
     volume: "012"
     page: "009"
+    citation: "12 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 15, 1814"
-    citation: "12 U.S. 9"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-002"
@@ -1858,9 +2228,11 @@ cases:
     title: "Van Ness v. Forrest"
     volume: "012"
     page: "030"
+    citation: "12 U.S. 30"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 15, 1814"
-    citation: "12 U.S. 30"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-003"
@@ -1868,9 +2240,11 @@ cases:
     title: "Bank of Alexandria v. Herbert"
     volume: "012"
     page: "036"
+    citation: "12 U.S. 36"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 16, 1814"
-    citation: "12 U.S. 36"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-007"
@@ -1878,9 +2252,11 @@ cases:
     title: "Clementson v. Williams"
     volume: "012"
     page: "072"
+    citation: "12 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Saturday, February 19, 1814"
-    citation: "12 U.S. 72"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-012"
@@ -1888,9 +2264,11 @@ cases:
     title: "Gracie v. Marine Ins. Co. of Baltimore"
     volume: "012"
     page: "075"
+    citation: "12 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Saturday, February 19, 1814"
-    citation: "12 U.S. 75"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-017"
@@ -1898,9 +2276,11 @@ cases:
     title: "Brown v. United States"
     volume: "012"
     page: "110"
+    citation: "12 U.S. 110"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 2, 1814"
-    citation: "12 U.S. 110"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-019"
@@ -1908,9 +2288,11 @@ cases:
     title: "The Alexander"
     volume: "012"
     page: "169"
+    citation: "12 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1814"
-    citation: "12 U.S. 169"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-023"
@@ -1918,9 +2300,11 @@ cases:
     title: "Pratt v. Carroll"
     volume: "012"
     page: "471"
+    citation: "12 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 8, 1814"
-    citation: "12 U.S. 471"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-028"
@@ -1928,9 +2312,11 @@ cases:
     title: "The Frances"
     volume: "012"
     page: "335"
+    citation: "12 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Saturday, March 12, 1814"
-    citation: "12 U.S. 335"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-029"
@@ -1938,9 +2324,11 @@ cases:
     title: "The Frances"
     volume: "012"
     page: "348"
+    citation: "12 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Saturday, March 12, 1814"
-    citation: "12 U.S. 348"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-030"
@@ -1948,9 +2336,11 @@ cases:
     title: "The Frances"
     volume: "012"
     page: "354"
+    citation: "12 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Saturday, March 12, 1814"
-    citation: "12 U.S. 354"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-031"
@@ -1958,9 +2348,11 @@ cases:
     title: "The Frances"
     volume: "012"
     page: "358"
+    citation: "12 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Saturday, March 12, 1814"
-    citation: "12 U.S. 358"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-032"
@@ -1968,9 +2360,11 @@ cases:
     title: "The Frances"
     volume: "012"
     page: "363"
+    citation: "12 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Saturday, March 12, 1814"
-    citation: "12 U.S. 363"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-033"
@@ -1978,9 +2372,11 @@ cases:
     title: "Alexander v. Pendleton"
     volume: "012"
     page: "462"
+    citation: "12 U.S. 462"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 9, 1814"
-    citation: "12 U.S. 462"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1814-035"
@@ -1988,9 +2384,11 @@ cases:
     title: "The Frances"
     volume: "012"
     page: "359"
+    citation: "12 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 15, 1814"
-    citation: "12 U.S. 359"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-001"
@@ -1998,9 +2396,11 @@ cases:
     title: "Mandeville v. Union Bank of Georgetown"
     volume: "013"
     page: "009"
+    citation: "13 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Thursday, February 9, 1815"
-    citation: "13 U.S. 9"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-002"
@@ -2008,9 +2408,11 @@ cases:
     title: "Meigs v. McClung&apos;s Lessee"
     volume: "013"
     page: "011"
+    citation: "13 U.S. 11"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1815"
-    citation: "13 U.S. 11"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-003"
@@ -2018,9 +2420,11 @@ cases:
     title: "Simms v. Guthrie"
     volume: "013"
     page: "019"
+    citation: "13 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 14, 1815"
-    citation: "13 U.S. 19"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-004"
@@ -2028,9 +2432,11 @@ cases:
     title: "Taber v. Perrott"
     volume: "013"
     page: "039"
+    citation: "13 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 15, 1815"
-    citation: "13 U.S. 39"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-007"
@@ -2038,9 +2444,11 @@ cases:
     title: "Brig Short Staple v. United States"
     volume: "013"
     page: "055"
+    citation: "13 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Friday, February 17, 1815"
-    citation: "13 U.S. 55"
+    voteMajority: 4
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-008"
@@ -2048,9 +2456,11 @@ cases:
     title: "Parker v. Rule&apos;s Lessee"
     volume: "013"
     page: "064"
+    citation: "13 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Saturday, February 18, 1815"
-    citation: "13 U.S. 64"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-011"
@@ -2058,9 +2468,11 @@ cases:
     title: "Polk&apos;s Lessee v. Wendal"
     volume: "013"
     page: "087"
+    citation: "13 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 21, 1815"
-    citation: "13 U.S. 87"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-012"
@@ -2068,9 +2480,11 @@ cases:
     title: "Ship Richmond v. United States"
     volume: "013"
     page: "102"
+    citation: "13 U.S. 102"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 22, 1815"
-    citation: "13 U.S. 102"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-016"
@@ -2078,9 +2492,11 @@ cases:
     title: "The Mary"
     volume: "013"
     page: "126"
+    citation: "13 U.S. 126"
     pdfSource: "loc"
     dateDecision: "Saturday, February 25, 1815"
-    citation: "13 U.S. 126"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-017"
@@ -2088,9 +2504,11 @@ cases:
     title: "Doe v. McFarland"
     volume: "013"
     page: "151"
+    citation: "13 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1815"
-    citation: "13 U.S. 151"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-018"
@@ -2098,9 +2516,11 @@ cases:
     title: "Clark&apos;s Executors v. Van Riemsdyk"
     volume: "013"
     page: "153"
+    citation: "13 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 28, 1815"
-    citation: "13 U.S. 153"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-019"
@@ -2108,9 +2528,11 @@ cases:
     title: "Finley v. Williams"
     volume: "013"
     page: "164"
+    citation: "13 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 28, 1815"
-    citation: "13 U.S. 164"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-020"
@@ -2118,9 +2540,11 @@ cases:
     title: "McIver&apos;s Lessee v. Walker"
     volume: "013"
     page: "173"
+    citation: "13 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 1, 1815"
-    citation: "13 U.S. 173"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-021"
@@ -2128,9 +2552,11 @@ cases:
     title: "Owens v. Hanney"
     volume: "013"
     page: "180"
+    citation: "13 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 1, 1815"
-    citation: "13 U.S. 180"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-024"
@@ -2138,9 +2564,11 @@ cases:
     title: "Thirty Hogsheads of Sugar v. Boyle"
     volume: "013"
     page: "191"
+    citation: "13 U.S. 191"
     pdfSource: "loc"
     dateDecision: "Saturday, March 4, 1815"
-    citation: "13 U.S. 191"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-027"
@@ -2148,9 +2576,11 @@ cases:
     title: "Ship Societe"
     volume: "013"
     page: "209"
+    citation: "13 U.S. 209"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1815"
-    citation: "13 U.S. 209"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-036"
@@ -2158,9 +2588,11 @@ cases:
     title: "Gettings v. Burch&apos;s Administratrix"
     volume: "013"
     page: "372"
+    citation: "13 U.S. 372"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1815"
-    citation: "13 U.S. 372"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-039"
@@ -2168,9 +2600,11 @@ cases:
     title: "The Nereide"
     volume: "013"
     page: "388"
+    citation: "13 U.S. 388"
     pdfSource: "loc"
     dateDecision: "Saturday, March 11, 1815"
-    citation: "13 U.S. 388"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1815-041"
@@ -2178,9 +2612,11 @@ cases:
     title: "The George"
     volume: "014"
     page: "408"
+    citation: "14 U.S. 408"
     pdfSource: "loc"
     dateDecision: "February Term 1816"
-    citation: "14 U.S. 408"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-001"
@@ -2188,9 +2624,11 @@ cases:
     title: "Henry v. Ball"
     volume: "014"
     page: "001"
+    citation: "14 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Saturday, February 10, 1816"
-    citation: "14 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-002"
@@ -2198,9 +2636,11 @@ cases:
     title: "Davis v. Wood"
     volume: "014"
     page: "006"
+    citation: "14 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1816"
-    citation: "14 U.S. 6"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-004"
@@ -2208,9 +2648,11 @@ cases:
     title: "The Mary and Susan"
     volume: "014"
     page: "025"
+    citation: "14 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 14, 1816"
-    citation: "14 U.S. 25"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-006"
@@ -2218,9 +2660,11 @@ cases:
     title: "The Samuel"
     volume: "014"
     page: "009"
+    citation: "14 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Friday, February 16, 1816"
-    citation: "14 U.S. 9"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-008"
@@ -2228,9 +2672,11 @@ cases:
     title: "Anderson v. Longden"
     volume: "014"
     page: "085"
+    citation: "14 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Friday, February 23, 1816"
-    citation: "14 U.S. 85"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-009"
@@ -2238,9 +2684,11 @@ cases:
     title: "Thompson v. Gray"
     volume: "014"
     page: "075"
+    citation: "14 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1816"
-    citation: "14 U.S. 75"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-010"
@@ -2248,9 +2696,11 @@ cases:
     title: "Corporation of New Orleans v. Winter"
     volume: "014"
     page: "091"
+    citation: "14 U.S. 91"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 28, 1816"
-    citation: "14 U.S. 91"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-015"
@@ -2258,9 +2708,11 @@ cases:
     title: "The Astrea"
     volume: "014"
     page: "125"
+    citation: "14 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1816"
-    citation: "14 U.S. 125"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-016"
@@ -2268,9 +2720,11 @@ cases:
     title: "Matson v. Hord"
     volume: "014"
     page: "130"
+    citation: "14 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1816"
-    citation: "14 U.S. 130"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-017"
@@ -2278,9 +2732,11 @@ cases:
     title: "Taylor v. Walton"
     volume: "014"
     page: "141"
+    citation: "14 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 6, 1816"
-    citation: "14 U.S. 141"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-020"
@@ -2288,9 +2744,11 @@ cases:
     title: "Patton&apos;s Lessee v. Easton"
     volume: "014"
     page: "476"
+    citation: "14 U.S. 476"
     pdfSource: "loc"
     dateDecision: "Thursday, March 7, 1816"
-    citation: "14 U.S. 476"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-023"
@@ -2298,9 +2756,11 @@ cases:
     title: "The Nereide"
     volume: "014"
     page: "171"
+    citation: "14 U.S. 171"
     pdfSource: "loc"
     dateDecision: "Friday, March 8, 1816"
-    citation: "14 U.S. 171"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-030"
@@ -2308,9 +2768,11 @@ cases:
     title: "Harden v. Fisher"
     volume: "014"
     page: "300"
+    citation: "14 U.S. 300"
     pdfSource: "loc"
     dateDecision: "Friday, March 15, 1816"
-    citation: "14 U.S. 300"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-032"
@@ -2318,9 +2780,11 @@ cases:
     title: "Walden v. Heirs of Gratz"
     volume: "014"
     page: "292"
+    citation: "14 U.S. 292"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1816"
-    citation: "14 U.S. 292"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-040"
@@ -2328,9 +2792,11 @@ cases:
     title: "The Hiram"
     volume: "014"
     page: "440"
+    citation: "14 U.S. 440"
     pdfSource: "loc"
     dateDecision: "Friday, March 22, 1816"
-    citation: "14 U.S. 440"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1816-041"
@@ -2338,9 +2804,11 @@ cases:
     title: "Ammidon v. Smith"
     volume: "014"
     page: "447"
+    citation: "14 U.S. 447"
     pdfSource: "loc"
     dateDecision: "Friday, March 22, 1816"
-    citation: "14 U.S. 447"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-001"
@@ -2348,9 +2816,11 @@ cases:
     title: "Greenleaf v. Cook"
     volume: "015"
     page: "013"
+    citation: "15 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Saturday, February 8, 1817"
-    citation: "15 U.S. 13"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-002"
@@ -2358,9 +2828,11 @@ cases:
     title: "McIver v. Ragan"
     volume: "015"
     page: "025"
+    citation: "15 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1817"
-    citation: "15 U.S. 25"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-003"
@@ -2368,9 +2840,11 @@ cases:
     title: "Slocum v. Mayberry"
     volume: "015"
     page: "001"
+    citation: "15 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 12, 1817"
-    citation: "15 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-006"
@@ -2378,9 +2852,11 @@ cases:
     title: "Beverly v. Brooke"
     volume: "015"
     page: "100"
+    citation: "15 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1817"
-    citation: "15 U.S. 100"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-008"
@@ -2388,9 +2864,11 @@ cases:
     title: "Coolidge v. Payson"
     volume: "015"
     page: "066"
+    citation: "15 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Friday, February 21, 1817"
-    citation: "15 U.S. 66"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-009"
@@ -2398,9 +2876,11 @@ cases:
     title: "McCoul v. Lekamp&apos;s Administratrix"
     volume: "015"
     page: "111"
+    citation: "15 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1817"
-    citation: "15 U.S. 111"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-015"
@@ -2408,9 +2888,11 @@ cases:
     title: "Rutherford v. Greene&apos;s Heirs"
     volume: "015"
     page: "196"
+    citation: "15 U.S. 196"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 4, 1817"
-    citation: "15 U.S. 196"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-017"
@@ -2418,9 +2900,11 @@ cases:
     title: "Johnson v. Pannel&apos;s Heirs"
     volume: "015"
     page: "206"
+    citation: "15 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Thursday, March 6, 1817"
-    citation: "15 U.S. 206"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-018"
@@ -2428,9 +2912,11 @@ cases:
     title: "The London Packet"
     volume: "015"
     page: "371"
+    citation: "15 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1817"
-    citation: "15 U.S. 371"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-019"
@@ -2438,9 +2924,11 @@ cases:
     title: "The Argo"
     volume: "015"
     page: "287"
+    citation: "15 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 11, 1817"
-    citation: "15 U.S. 287"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-020"
@@ -2448,9 +2936,11 @@ cases:
     title: "Morgan&apos;s Heirs v. Morgan"
     volume: "015"
     page: "290"
+    citation: "15 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 11, 1817"
-    citation: "15 U.S. 290"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-026"
@@ -2458,9 +2948,11 @@ cases:
     title: "The Anna Maria"
     volume: "015"
     page: "327"
+    citation: "15 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Thursday, March 13, 1817"
-    citation: "15 U.S. 327"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-029"
@@ -2468,9 +2960,11 @@ cases:
     title: "Chirac v. Lessee of Chirac"
     volume: "015"
     page: "259"
+    citation: "15 U.S. 259"
     pdfSource: "loc"
     dateDecision: "Friday, March 14, 1817"
-    citation: "15 U.S. 259"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-032"
@@ -2478,9 +2972,11 @@ cases:
     title: "Laidlaw v. Organ"
     volume: "015"
     page: "178"
+    citation: "15 U.S. 178"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1817"
-    citation: "15 U.S. 178"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1817-036"
@@ -2488,9 +2984,11 @@ cases:
     title: "Lenox v. Roberts"
     volume: "015"
     page: "373"
+    citation: "15 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1817"
-    citation: "15 U.S. 373"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-001"
@@ -2498,9 +2996,11 @@ cases:
     title: "Jackson v. Clarke"
     volume: "016"
     page: "001"
+    citation: "16 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Thursday, February 5, 1818"
-    citation: "16 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-002"
@@ -2508,9 +3008,11 @@ cases:
     title: "The Friendschaft"
     volume: "016"
     page: "014"
+    citation: "16 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Friday, February 6, 1818"
-    citation: "16 U.S. 14"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-003"
@@ -2518,9 +3020,11 @@ cases:
     title: "McIver v. Kyger"
     volume: "016"
     page: "053"
+    citation: "16 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 10, 1818"
-    citation: "16 U.S. 53"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-006"
@@ -2528,9 +3032,11 @@ cases:
     title: "The Samuel"
     volume: "016"
     page: "077"
+    citation: "16 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 11, 1818"
-    citation: "16 U.S. 77"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-007"
@@ -2538,9 +3044,11 @@ cases:
     title: "The San Pedro"
     volume: "016"
     page: "078"
+    citation: "16 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 11, 1818"
-    citation: "16 U.S. 78"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-010"
@@ -2548,9 +3056,11 @@ cases:
     title: "Hughes v. Union Ins. Co."
     volume: "016"
     page: "159"
+    citation: "16 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 18, 1818"
-    citation: "16 U.S. 159"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-011"
@@ -2558,9 +3068,11 @@ cases:
     title: "Swan v. Union Ins. Co. of Maryland"
     volume: "016"
     page: "168"
+    citation: "16 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 18, 1818"
-    citation: "16 U.S. 168"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-013"
@@ -2568,9 +3080,11 @@ cases:
     title: "Olivera v. Union Ins. Co."
     volume: "016"
     page: "183"
+    citation: "16 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Thursday, February 19, 1818"
-    citation: "16 U.S. 183"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-014"
@@ -2578,9 +3092,11 @@ cases:
     title: "Shepherd v. Hampton"
     volume: "016"
     page: "200"
+    citation: "16 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Thursday, February 19, 1818"
-    citation: "16 U.S. 200"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-015"
@@ -2588,9 +3104,11 @@ cases:
     title: "Patton v. Nicholson"
     volume: "016"
     page: "204"
+    citation: "16 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Thursday, February 19, 1818"
-    citation: "16 U.S. 204"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-016"
@@ -2598,9 +3116,11 @@ cases:
     title: "United States v. Bevans"
     volume: "016"
     page: "336"
+    citation: "16 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Saturday, February 21, 1818"
-    citation: "16 U.S. 336"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-019"
@@ -2608,9 +3128,11 @@ cases:
     title: "United States v. 150 Crates of Earthen-Ware"
     volume: "016"
     page: "232"
+    citation: "16 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1818"
-    citation: "16 U.S. 232"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-020"
@@ -2618,9 +3140,11 @@ cases:
     title: "Hampton v. McConnel"
     volume: "016"
     page: "234"
+    citation: "16 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1818"
-    citation: "16 U.S. 234"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-025"
@@ -2628,9 +3152,11 @@ cases:
     title: "Houston v. Moore"
     volume: "016"
     page: "433"
+    citation: "16 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1818"
-    citation: "16 U.S. 433"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-026"
@@ -2638,9 +3164,11 @@ cases:
     title: "The Atalanta"
     volume: "016"
     page: "409"
+    citation: "16 U.S. 409"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 4, 1818"
-    citation: "16 U.S. 409"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-029"
@@ -2648,9 +3176,11 @@ cases:
     title: "Evans v. Eaton"
     volume: "016"
     page: "454"
+    citation: "16 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Saturday, March 7, 1818"
-    citation: "16 U.S. 454"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1818-038"
@@ -2658,9 +3188,11 @@ cases:
     title: "United States v. Palmer"
     volume: "016"
     page: "610"
+    citation: "16 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Saturday, March 14, 1818"
-    citation: "16 U.S. 610"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-001"
@@ -2668,9 +3200,11 @@ cases:
     title: "The Experiment"
     volume: "017"
     page: "084"
+    citation: "17 U.S. 84"
     pdfSource: "loc"
     dateDecision: "February Term 1819"
-    citation: "17 U.S. 84"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-002"
@@ -2678,9 +3212,11 @@ cases:
     title: "Trustees of Philadelphia Baptist Assn. v. Hart&apos;s Executors"
     volume: "017"
     page: "001"
+    citation: "17 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 3, 1819"
-    citation: "17 U.S. 1"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-003"
@@ -2688,9 +3224,11 @@ cases:
     title: "The Divina Pastora"
     volume: "017"
     page: "052"
+    citation: "17 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Friday, February 5, 1819"
-    citation: "17 U.S. 52"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-005"
@@ -2698,9 +3236,11 @@ cases:
     title: "Williams v. Peyton&apos;s Lessee"
     volume: "017"
     page: "077"
+    citation: "17 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1819"
-    citation: "17 U.S. 77"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-008"
@@ -2708,9 +3248,11 @@ cases:
     title: "The Sybil"
     volume: "017"
     page: "098"
+    citation: "17 U.S. 98"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1819"
-    citation: "17 U.S. 98"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-011"
@@ -2718,9 +3260,11 @@ cases:
     title: "United States v. Howland"
     volume: "017"
     page: "108"
+    citation: "17 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 17, 1819"
-    citation: "17 U.S. 108"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-012"
@@ -2728,9 +3272,11 @@ cases:
     title: "Sturges v. Crowninshield"
     volume: "017"
     page: "122"
+    citation: "17 U.S. 122"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 17, 1819"
-    citation: "17 U.S. 122"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-014"
@@ -2738,9 +3284,11 @@ cases:
     title: "McMillan v. McNeill"
     volume: "017"
     page: "209"
+    citation: "17 U.S. 209"
     pdfSource: "loc"
     dateDecision: "Saturday, February 20, 1819"
-    citation: "17 U.S. 209"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-019"
@@ -2748,9 +3296,11 @@ cases:
     title: "Brown v. Gilman"
     volume: "017"
     page: "255"
+    citation: "17 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 24, 1819"
-    citation: "17 U.S. 255"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-021"
@@ -2758,9 +3308,11 @@ cases:
     title: "Trustees of Dartmouth College v. Woodward"
     volume: "017"
     page: "518"
+    citation: "17 U.S. 518"
     pdfSource: "loc"
     dateDecision: "Thursday, February 25, 1819"
-    citation: "17 U.S. 518"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-023"
@@ -2768,9 +3320,11 @@ cases:
     title: "McCulloch v. Maryland"
     volume: "017"
     page: "316"
+    citation: "17 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Saturday, March 6, 1819"
-    citation: "17 U.S. 316"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-025"
@@ -2778,9 +3332,11 @@ cases:
     title: "Miller v. Nicholls"
     volume: "017"
     page: "311"
+    citation: "17 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 9, 1819"
-    citation: "17 U.S. 311"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-028"
@@ -2788,9 +3344,11 @@ cases:
     title: "McIver&apos;s Lessee v. Walker"
     volume: "017"
     page: "444"
+    citation: "17 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Thursday, March 11, 1819"
-    citation: "17 U.S. 444"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1819-029"
@@ -2798,9 +3356,11 @@ cases:
     title: "McArthur v. Browder"
     volume: "017"
     page: "488"
+    citation: "17 U.S. 488"
     pdfSource: "loc"
     dateDecision: "Friday, March 12, 1819"
-    citation: "17 U.S. 488"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1820-001"
@@ -2808,9 +3368,11 @@ cases:
     title: "McClung v. Ross"
     volume: "018"
     page: "116"
+    citation: "18 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1820"
-    citation: "18 U.S. 116"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1820-003"
@@ -2818,9 +3380,11 @@ cases:
     title: "United States v. Wiltberger"
     volume: "018"
     page: "076"
+    citation: "18 U.S. 76"
     pdfSource: "loc"
     dateDecision: "Friday, February 18, 1820"
-    citation: "18 U.S. 76"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1820-005"
@@ -2828,9 +3392,11 @@ cases:
     title: "United States v. Klintock"
     volume: "018"
     page: "144"
+    citation: "18 U.S. 144"
     pdfSource: "loc"
     dateDecision: "Thursday, February 24, 1820"
-    citation: "18 U.S. 144"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1820-012"
@@ -2838,9 +3404,11 @@ cases:
     title: "Wallace v. Anderson"
     volume: "018"
     page: "291"
+    citation: "18 U.S. 291"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 8, 1820"
-    citation: "18 U.S. 291"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1820-015"
@@ -2848,9 +3416,11 @@ cases:
     title: "Loughborough v. Blake"
     volume: "018"
     page: "317"
+    citation: "18 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1820"
-    citation: "18 U.S. 317"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1820-018"
@@ -2858,9 +3428,11 @@ cases:
     title: "Blake v. Doherty"
     volume: "018"
     page: "359"
+    citation: "18 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1820"
-    citation: "18 U.S. 359"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1820-019"
@@ -2868,9 +3440,11 @@ cases:
     title: "Handly&apos;s Lessee v. Anthony"
     volume: "018"
     page: "374"
+    citation: "18 U.S. 374"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 14, 1820"
-    citation: "18 U.S. 374"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1820-021"
@@ -2878,9 +3452,11 @@ cases:
     title: "Lyle v. Rodgers"
     volume: "018"
     page: "394"
+    citation: "18 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 15, 1820"
-    citation: "18 U.S. 394"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1820-023"
@@ -2888,9 +3464,11 @@ cases:
     title: "Owings v. Speed"
     volume: "018"
     page: "420"
+    citation: "18 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Thursday, March 16, 1820"
-    citation: "18 U.S. 420"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1820-024"
@@ -2898,9 +3476,11 @@ cases:
     title: "Conn v. Penn"
     volume: "018"
     page: "424"
+    citation: "18 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Thursday, March 16, 1820"
-    citation: "18 U.S. 424"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1820-025"
@@ -2908,9 +3488,11 @@ cases:
     title: "United States v. Lancaster"
     volume: "018"
     page: "434"
+    citation: "18 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Thursday, March 16, 1820"
-    citation: "18 U.S. 434"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1821-003"
@@ -2918,9 +3500,11 @@ cases:
     title: "Mechanics&apos; Bank of Alexandria v. Withers"
     volume: "019"
     page: "106"
+    citation: "19 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Friday, February 9, 1821"
-    citation: "19 U.S. 106"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1821-005"
@@ -2928,9 +3512,11 @@ cases:
     title: "Thatcher v. Powell"
     volume: "019"
     page: "119"
+    citation: "19 U.S. 119"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1821"
-    citation: "19 U.S. 119"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1821-007"
@@ -2938,9 +3524,11 @@ cases:
     title: "Mayhew v. Thatcher"
     volume: "019"
     page: "129"
+    citation: "19 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1821"
-    citation: "19 U.S. 129"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1821-008"
@@ -2948,9 +3536,11 @@ cases:
     title: "Farmers and Mechanics&apos; Bank of Pa. v. Smith"
     volume: "019"
     page: "131"
+    citation: "19 U.S. 131"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1821"
-    citation: "19 U.S. 131"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1821-011"
@@ -2958,9 +3548,11 @@ cases:
     title: "Young v. Bryan"
     volume: "019"
     page: "146"
+    citation: "19 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Thursday, February 22, 1821"
-    citation: "19 U.S. 146"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1821-018"
@@ -2968,9 +3560,11 @@ cases:
     title: "Cohens v. Virginia"
     volume: "019"
     page: "264"
+    citation: "19 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1821"
-    citation: "19 U.S. 264"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1821-020"
@@ -2978,9 +3572,11 @@ cases:
     title: "Willinks v. Hollingsworth"
     volume: "019"
     page: "240"
+    citation: "19 U.S. 240"
     pdfSource: "loc"
     dateDecision: "Thursday, March 8, 1821"
-    citation: "19 U.S. 240"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1821-025"
@@ -2988,9 +3584,11 @@ cases:
     title: "Bartle v. Coleman"
     volume: "019"
     page: "475"
+    citation: "19 U.S. 475"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1821"
-    citation: "19 U.S. 475"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1821-027"
@@ -2998,9 +3596,11 @@ cases:
     title: "Bowie v. Henderson"
     volume: "019"
     page: "514"
+    citation: "19 U.S. 514"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1821"
-    citation: "19 U.S. 514"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1821-028"
@@ -3008,9 +3608,11 @@ cases:
     title: "United States v. Daniel"
     volume: "019"
     page: "542"
+    citation: "19 U.S. 542"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1821"
-    citation: "19 U.S. 542"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1821-030"
@@ -3018,9 +3620,11 @@ cases:
     title: "Brashier v. Gratz"
     volume: "019"
     page: "528"
+    citation: "19 U.S. 528"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 14, 1821"
-    citation: "19 U.S. 528"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1821-033"
@@ -3028,9 +3632,11 @@ cases:
     title: "Goszler v. Corporation of Georgetown"
     volume: "019"
     page: "593"
+    citation: "19 U.S. 593"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1821"
-    citation: "19 U.S. 593"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-001"
@@ -3038,9 +3644,11 @@ cases:
     title: "Newsom v. Pryor&apos;s Lessee"
     volume: "020"
     page: "007"
+    citation: "20 U.S. 7"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1822"
-    citation: "20 U.S. 7"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-002"
@@ -3048,9 +3656,11 @@ cases:
     title: "Tayloe v. Sandiford"
     volume: "020"
     page: "013"
+    citation: "20 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 12, 1822"
-    citation: "20 U.S. 13"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-003"
@@ -3058,9 +3668,11 @@ cases:
     title: "Taylor&apos;s Lessee v. Myers"
     volume: "020"
     page: "023"
+    citation: "20 U.S. 23"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 12, 1822"
-    citation: "20 U.S. 23"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-007"
@@ -3068,9 +3680,11 @@ cases:
     title: "Bayley v. Greenleaf"
     volume: "020"
     page: "046"
+    citation: "20 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1822"
-    citation: "20 U.S. 46"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-010"
@@ -3078,9 +3692,11 @@ cases:
     title: "Bouldin v. Massie&apos;s Heirs"
     volume: "020"
     page: "122"
+    citation: "20 U.S. 122"
     pdfSource: "loc"
     dateDecision: "Friday, March 1, 1822"
-    citation: "20 U.S. 122"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-012"
@@ -3088,9 +3704,11 @@ cases:
     title: "Matthews v. Zane"
     volume: "020"
     page: "164"
+    citation: "20 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Friday, March 1, 1822"
-    citation: "20 U.S. 164"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-013"
@@ -3098,9 +3716,11 @@ cases:
     title: "Hoofnagle v. Anderson"
     volume: "020"
     page: "212"
+    citation: "20 U.S. 212"
     pdfSource: "loc"
     dateDecision: "Saturday, March 2, 1822"
-    citation: "20 U.S. 212"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-015"
@@ -3108,9 +3728,11 @@ cases:
     title: "Blunt&apos;s Lessee v. Smith"
     volume: "020"
     page: "248"
+    citation: "20 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Thursday, March 7, 1822"
-    citation: "20 U.S. 248"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-016"
@@ -3118,9 +3740,11 @@ cases:
     title: "Crocket v. Lee"
     volume: "020"
     page: "522"
+    citation: "20 U.S. 522"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 12, 1822"
-    citation: "20 U.S. 522"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-021"
@@ -3128,9 +3752,11 @@ cases:
     title: "The Gran Para"
     volume: "020"
     page: "471"
+    citation: "20 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Saturday, March 16, 1822"
-    citation: "20 U.S. 471"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-024"
@@ -3138,9 +3764,11 @@ cases:
     title: "The Monte Allegre"
     volume: "020"
     page: "520"
+    citation: "20 U.S. 520"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 20, 1822"
-    citation: "20 U.S. 520"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-025"
@@ -3148,9 +3776,11 @@ cases:
     title: "Blight&apos;s Lessee v. Rochester"
     volume: "020"
     page: "535"
+    citation: "20 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 20, 1822"
-    citation: "20 U.S. 535"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-029"
@@ -3158,9 +3788,11 @@ cases:
     title: "The Irresistible"
     volume: "020"
     page: "551"
+    citation: "20 U.S. 551"
     pdfSource: "loc"
     dateDecision: "Thursday, March 21, 1822"
-    citation: "20 U.S. 551"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-030"
@@ -3168,9 +3800,11 @@ cases:
     title: "Holbrook v. Union Bank of Alexandria"
     volume: "020"
     page: "553"
+    citation: "20 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Thursday, March 21, 1822"
-    citation: "20 U.S. 553"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1822-032"
@@ -3178,9 +3812,11 @@ cases:
     title: "Marbury v. Brooks"
     volume: "020"
     page: "556"
+    citation: "20 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Friday, March 22, 1822"
-    citation: "20 U.S. 556"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1823-001"
@@ -3188,9 +3824,11 @@ cases:
     title: "Siglar v. Haywood"
     volume: "021"
     page: "675"
+    citation: "21 U.S. 675"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 5, 1823"
-    citation: "21 U.S. 675"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1823-002"
@@ -3198,9 +3836,11 @@ cases:
     title: "Sexton v. Wheaton"
     volume: "021"
     page: "229"
+    citation: "21 U.S. 229"
     pdfSource: "loc"
     dateDecision: "Thursday, February 13, 1823"
-    citation: "21 U.S. 229"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1823-013"
@@ -3208,9 +3848,11 @@ cases:
     title: "Johnson&apos;s Lessee v. McIntosh"
     volume: "021"
     page: "543"
+    citation: "21 U.S. 543"
     pdfSource: "loc"
     dateDecision: "Friday, February 28, 1823"
-    citation: "21 U.S. 543"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1823-015"
@@ -3218,9 +3860,11 @@ cases:
     title: "The Mary Ann"
     volume: "021"
     page: "380"
+    citation: "21 U.S. 380"
     pdfSource: "loc"
     dateDecision: "Saturday, March 1, 1823"
-    citation: "21 U.S. 380"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1823-016"
@@ -3228,9 +3872,11 @@ cases:
     title: "The Sarah"
     volume: "021"
     page: "391"
+    citation: "21 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 4, 1823"
-    citation: "21 U.S. 391"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1823-022"
@@ -3238,9 +3884,11 @@ cases:
     title: "Hunt v. Rousmanier&apos;s Administrators"
     volume: "021"
     page: "174"
+    citation: "21 U.S. 174"
     pdfSource: "loc"
     dateDecision: "Friday, March 14, 1823"
-    citation: "21 U.S. 174"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1823-025"
@@ -3248,9 +3896,11 @@ cases:
     title: "Hugh v. Higgs"
     volume: "021"
     page: "697"
+    citation: "21 U.S. 697"
     pdfSource: "loc"
     dateDecision: "Friday, March 14, 1823"
-    citation: "21 U.S. 697"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1823-026"
@@ -3258,9 +3908,11 @@ cases:
     title: "Gracie v. Palmer"
     volume: "021"
     page: "699"
+    citation: "21 U.S. 699"
     pdfSource: "loc"
     dateDecision: "Friday, March 14, 1823"
-    citation: "21 U.S. 699"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-001"
@@ -3268,9 +3920,11 @@ cases:
     title: "Taylor v. Mason"
     volume: "022"
     page: "325"
+    citation: "22 U.S. 325"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 3, 1824"
-    citation: "22 U.S. 325"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-002"
@@ -3278,9 +3932,11 @@ cases:
     title: "Kirk v. Smith"
     volume: "022"
     page: "241"
+    citation: "22 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Monday, February 16, 1824"
-    citation: "22 U.S. 241"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-004"
@@ -3288,9 +3944,11 @@ cases:
     title: "Baits v. Peters"
     volume: "022"
     page: "556"
+    citation: "22 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 17, 1824"
-    citation: "22 U.S. 556"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-006"
@@ -3298,9 +3956,11 @@ cases:
     title: "Stephens v. McCargo"
     volume: "022"
     page: "502"
+    citation: "22 U.S. 502"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 18, 1824"
-    citation: "22 U.S. 502"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-012"
@@ -3308,9 +3968,11 @@ cases:
     title: "Gibbons v. Ogden"
     volume: "022"
     page: "001"
+    citation: "22 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1824"
-    citation: "22 U.S. 1"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-013"
@@ -3318,9 +3980,11 @@ cases:
     title: "Smith v. McIver"
     volume: "022"
     page: "532"
+    citation: "22 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 3, 1824"
-    citation: "22 U.S. 532"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-014"
@@ -3328,9 +3992,11 @@ cases:
     title: "Meredith v. Picket"
     volume: "022"
     page: "573"
+    citation: "22 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 3, 1824"
-    citation: "22 U.S. 573"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-015"
@@ -3338,9 +4004,11 @@ cases:
     title: "Walden v. Craig"
     volume: "022"
     page: "576"
+    citation: "22 U.S. 576"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 3, 1824"
-    citation: "22 U.S. 576"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-022"
@@ -3348,9 +4016,11 @@ cases:
     title: "Mollan v. Torrance"
     volume: "022"
     page: "537"
+    citation: "22 U.S. 537"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 10, 1824"
-    citation: "22 U.S. 537"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-024"
@@ -3358,9 +4028,11 @@ cases:
     title: "Peyton v. Robertson"
     volume: "022"
     page: "527"
+    citation: "22 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Friday, March 12, 1824"
-    citation: "22 U.S. 527"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-030"
@@ -3368,9 +4040,11 @@ cases:
     title: "Ex parte Burr"
     volume: "022"
     page: "529"
+    citation: "22 U.S. 529"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 17, 1824"
-    citation: "22 U.S. 529"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-033"
@@ -3378,9 +4052,11 @@ cases:
     title: "Osborn v. Bank of United States"
     volume: "022"
     page: "738"
+    citation: "22 U.S. 738"
     pdfSource: "loc"
     dateDecision: "Friday, March 19, 1824"
-    citation: "22 U.S. 738"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-035"
@@ -3388,9 +4064,11 @@ cases:
     title: "Bank of United States v. Planters&apos; Bank of Georgia"
     volume: "022"
     page: "904"
+    citation: "22 U.S. 904"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1824"
-    citation: "22 U.S. 904"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1824-036"
@@ -3398,9 +4076,11 @@ cases:
     title: "Doddridge v. Thompson"
     volume: "022"
     page: "469"
+    citation: "22 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 23, 1824"
-    citation: "22 U.S. 469"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1825-002"
@@ -3408,9 +4088,11 @@ cases:
     title: "Carneal v. Banks"
     volume: "023"
     page: "181"
+    citation: "23 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Saturday, February 19, 1825"
-    citation: "23 U.S. 181"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1825-003"
@@ -3418,9 +4100,11 @@ cases:
     title: "The Palmyra"
     volume: "023"
     page: "502"
+    citation: "23 U.S. 502"
     pdfSource: "loc"
     dateDecision: "Saturday, February 19, 1825"
-    citation: "23 U.S. 502"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1825-004"
@@ -3428,9 +4112,11 @@ cases:
     title: "Day v. Chism"
     volume: "023"
     page: "449"
+    citation: "23 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 23, 1825"
-    citation: "23 U.S. 449"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1825-008"
@@ -3438,9 +4124,11 @@ cases:
     title: "McDowell v. Peyton"
     volume: "023"
     page: "454"
+    citation: "23 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Thursday, March 3, 1825"
-    citation: "23 U.S. 454"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1825-011"
@@ -3448,9 +4136,11 @@ cases:
     title: "The Dos Hermanos"
     volume: "023"
     page: "306"
+    citation: "23 U.S. 306"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1825"
-    citation: "23 U.S. 306"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1825-013"
@@ -3458,9 +4148,11 @@ cases:
     title: "Elmendorf v. Taylor"
     volume: "023"
     page: "152"
+    citation: "23 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Thursday, March 10, 1825"
-    citation: "23 U.S. 152"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1825-017"
@@ -3468,9 +4160,11 @@ cases:
     title: "The Antelope"
     volume: "023"
     page: "066"
+    citation: "23 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 15, 1825"
-    citation: "23 U.S. 66"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1825-025"
@@ -3478,9 +4172,11 @@ cases:
     title: "Brent v. Davis"
     volume: "023"
     page: "395"
+    citation: "23 U.S. 395"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1825"
-    citation: "23 U.S. 395"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1825-026"
@@ -3488,9 +4184,11 @@ cases:
     title: "Corporation of Washington ex rel. McCue v. Young"
     volume: "023"
     page: "406"
+    citation: "23 U.S. 406"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1825"
-    citation: "23 U.S. 406"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-001"
@@ -3498,9 +4196,11 @@ cases:
     title: "Wetzell v. Bussard"
     volume: "024"
     page: "309"
+    citation: "24 U.S. 309"
     pdfSource: "loc"
     dateDecision: "Saturday, February 11, 1826"
-    citation: "24 U.S. 309"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-006"
@@ -3508,9 +4208,11 @@ cases:
     title: "Brooks v. Marbury"
     volume: "024"
     page: "078"
+    citation: "24 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1826"
-    citation: "24 U.S. 78"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-010"
@@ -3518,9 +4220,11 @@ cases:
     title: "Taylor&apos;s Devisee v. Owing"
     volume: "024"
     page: "226"
+    citation: "24 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Thursday, February 23, 1826"
-    citation: "24 U.S. 226"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-013"
@@ -3528,9 +4232,11 @@ cases:
     title: "Finley v. Bank of United States"
     volume: "024"
     page: "304"
+    citation: "24 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Thursday, March 2, 1826"
-    citation: "24 U.S. 304"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-014"
@@ -3538,9 +4244,11 @@ cases:
     title: "Armstrong v. Toler"
     volume: "024"
     page: "258"
+    citation: "24 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Saturday, March 4, 1826"
-    citation: "24 U.S. 258"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-019"
@@ -3548,9 +4256,11 @@ cases:
     title: "Walker v. Griffin&apos;s Heirs"
     volume: "024"
     page: "375"
+    citation: "24 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1826"
-    citation: "24 U.S. 375"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-021"
@@ -3558,9 +4268,11 @@ cases:
     title: "United States v. Ortega"
     volume: "024"
     page: "467"
+    citation: "24 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1826"
-    citation: "24 U.S. 467"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-022"
@@ -3568,9 +4280,11 @@ cases:
     title: "Harding v. Handy"
     volume: "024"
     page: "103"
+    citation: "24 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Saturday, March 11, 1826"
-    citation: "24 U.S. 103"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-023"
@@ -3578,9 +4292,11 @@ cases:
     title: "Williams v. Bank of United States"
     volume: "024"
     page: "414"
+    citation: "24 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 14, 1826"
-    citation: "24 U.S. 414"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-024"
@@ -3588,9 +4304,11 @@ cases:
     title: "Barnes v. Williams"
     volume: "024"
     page: "415"
+    citation: "24 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 14, 1826"
-    citation: "24 U.S. 415"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-026"
@@ -3598,9 +4316,11 @@ cases:
     title: "Miller&apos;s Heirs v. McIntire"
     volume: "024"
     page: "441"
+    citation: "24 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 14, 1826"
-    citation: "24 U.S. 441"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-027"
@@ -3608,9 +4328,11 @@ cases:
     title: "Etting v. Bank of United States"
     volume: "024"
     page: "059"
+    citation: "24 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Thursday, March 16, 1826"
-    citation: "24 U.S. 59"
+    voteMajority: 3
+    voteMinority: 3
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-028"
@@ -3618,9 +4340,11 @@ cases:
     title: "The Antelope"
     volume: "024"
     page: "413"
+    citation: "24 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Thursday, March 16, 1826"
-    citation: "24 U.S. 413"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1826-033"
@@ -3628,9 +4352,11 @@ cases:
     title: "Carnochan v. Christie"
     volume: "024"
     page: "446"
+    citation: "24 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 21, 1826"
-    citation: "24 U.S. 446"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-003"
@@ -3638,9 +4364,11 @@ cases:
     title: "Williams v. Norris"
     volume: "025"
     page: "117"
+    citation: "25 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Friday, January 19, 1827"
-    citation: "25 U.S. 117"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-005"
@@ -3648,9 +4376,11 @@ cases:
     title: "Rankin v. Scott"
     volume: "025"
     page: "177"
+    citation: "25 U.S. 177"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 23, 1827"
-    citation: "25 U.S. 177"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-010"
@@ -3658,9 +4388,11 @@ cases:
     title: "Clark v. Mayor, Aldermen, and Common Council of Washington"
     volume: "025"
     page: "040"
+    citation: "25 U.S. 40"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 7, 1827"
-    citation: "25 U.S. 40"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-012"
@@ -3668,9 +4400,11 @@ cases:
     title: "Potter v. Gardner"
     volume: "025"
     page: "498"
+    citation: "25 U.S. 498"
     pdfSource: "loc"
     dateDecision: "Friday, February 9, 1827"
-    citation: "25 U.S. 498"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-016"
@@ -3678,9 +4412,11 @@ cases:
     title: "Dunlap v. Dunlap"
     volume: "025"
     page: "574"
+    citation: "25 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Saturday, February 17, 1827"
-    citation: "25 U.S. 574"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-020"
@@ -3688,9 +4424,11 @@ cases:
     title: "Parker v. Judges of Circuit Court of Md."
     volume: "025"
     page: "561"
+    citation: "25 U.S. 561"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 20, 1827"
-    citation: "25 U.S. 561"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-023"
@@ -3698,9 +4436,11 @@ cases:
     title: "McConnell v. Trustees of Town of Lexington"
     volume: "025"
     page: "582"
+    citation: "25 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Thursday, February 22, 1827"
-    citation: "25 U.S. 582"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-024"
@@ -3708,9 +4448,11 @@ cases:
     title: "United States v. Barker"
     volume: "025"
     page: "559"
+    citation: "25 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Friday, February 23, 1827"
-    citation: "25 U.S. 559"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-028"
@@ -3718,9 +4460,11 @@ cases:
     title: "Ramsay v. Allegre"
     volume: "025"
     page: "611"
+    citation: "25 U.S. 611"
     pdfSource: "loc"
     dateDecision: "Friday, March 2, 1827"
-    citation: "25 U.S. 611"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-032"
@@ -3728,9 +4472,11 @@ cases:
     title: "Henderson v. Poindexter&apos;s Lessee"
     volume: "025"
     page: "530"
+    citation: "25 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 7, 1827"
-    citation: "25 U.S. 530"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-033"
@@ -3738,9 +4484,11 @@ cases:
     title: "Thompson v. Peter"
     volume: "025"
     page: "565"
+    citation: "25 U.S. 565"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 7, 1827"
-    citation: "25 U.S. 565"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-034"
@@ -3748,9 +4496,11 @@ cases:
     title: "Davidson v. Taylor"
     volume: "025"
     page: "604"
+    citation: "25 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Thursday, March 8, 1827"
-    citation: "25 U.S. 604"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-039"
@@ -3758,9 +4508,11 @@ cases:
     title: "Brown v. Maryland"
     volume: "025"
     page: "419"
+    citation: "25 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1827"
-    citation: "25 U.S. 419"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-043"
@@ -3768,9 +4520,11 @@ cases:
     title: "Postmaster General v. Early"
     volume: "025"
     page: "136"
+    citation: "25 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Thursday, March 15, 1827"
-    citation: "25 U.S. 136"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1827-046"
@@ -3778,9 +4532,11 @@ cases:
     title: "Williamson v. Daniel"
     volume: "025"
     page: "568"
+    citation: "25 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1827"
-    citation: "25 U.S. 568"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-001"
@@ -3788,9 +4544,11 @@ cases:
     title: "Dox v. Postmaster General"
     volume: "026"
     page: "318"
+    citation: "26 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Saturday, January 19, 1828"
-    citation: "26 U.S. 318"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-002"
@@ -3798,9 +4556,11 @@ cases:
     title: "Mandeville v. Holey &amp; Suckley"
     volume: "026"
     page: "136"
+    citation: "26 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1828"
-    citation: "26 U.S. 136"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-003"
@@ -3808,9 +4568,11 @@ cases:
     title: "Grant v. McKee ex rel. Bank of Kentucky"
     volume: "026"
     page: "248"
+    citation: "26 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Saturday, January 26, 1828"
-    citation: "26 U.S. 248"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-004"
@@ -3818,9 +4580,11 @@ cases:
     title: "Bank of Washington v. Triplett"
     volume: "026"
     page: "025"
+    citation: "26 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 29, 1828"
-    citation: "26 U.S. 25"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-006"
@@ -3828,9 +4592,11 @@ cases:
     title: "Hickie v. Starke"
     volume: "026"
     page: "094"
+    citation: "26 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 29, 1828"
-    citation: "26 U.S. 94"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-012"
@@ -3838,9 +4604,11 @@ cases:
     title: "Horsburg v. Baker"
     volume: "026"
     page: "232"
+    citation: "26 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 6, 1828"
-    citation: "26 U.S. 232"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-015"
@@ -3848,9 +4616,11 @@ cases:
     title: "Pearson v. Bank of Metropolis"
     volume: "026"
     page: "089"
+    citation: "26 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1828"
-    citation: "26 U.S. 89"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-018"
@@ -3858,9 +4628,11 @@ cases:
     title: "Governor of Georgia v. Madrazo"
     volume: "026"
     page: "110"
+    citation: "26 U.S. 110"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 13, 1828"
-    citation: "26 U.S. 110"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-019"
@@ -3868,9 +4640,11 @@ cases:
     title: "Barry v. Foyles"
     volume: "026"
     page: "311"
+    citation: "26 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Thursday, February 14, 1828"
-    citation: "26 U.S. 311"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-020"
@@ -3878,9 +4652,11 @@ cases:
     title: "Lessee of Spratt v. Spratt"
     volume: "026"
     page: "343"
+    citation: "26 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Thursday, February 14, 1828"
-    citation: "26 U.S. 343"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-023"
@@ -3888,9 +4664,11 @@ cases:
     title: "Archer v. Deneale"
     volume: "026"
     page: "585"
+    citation: "26 U.S. 585"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1828"
-    citation: "26 U.S. 585"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-024"
@@ -3898,9 +4676,11 @@ cases:
     title: "McArthur v. Porter&apos;s Lessee"
     volume: "026"
     page: "626"
+    citation: "26 U.S. 626"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1828"
-    citation: "26 U.S. 626"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-027"
@@ -3908,9 +4688,11 @@ cases:
     title: "McDonald v. Smalley"
     volume: "026"
     page: "620"
+    citation: "26 U.S. 620"
     pdfSource: "loc"
     dateDecision: "Thursday, February 21, 1828"
-    citation: "26 U.S. 620"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-028"
@@ -3918,9 +4700,11 @@ cases:
     title: "Alexander v. Brown"
     volume: "026"
     page: "683"
+    citation: "26 U.S. 683"
     pdfSource: "loc"
     dateDecision: "Thursday, February 21, 1828"
-    citation: "26 U.S. 683"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-030"
@@ -3928,9 +4712,11 @@ cases:
     title: "Tayloe v. Riggs"
     volume: "026"
     page: "591"
+    citation: "26 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Friday, February 22, 1828"
-    citation: "26 U.S. 591"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-033"
@@ -3938,9 +4724,11 @@ cases:
     title: "Doe v. Grymes"
     volume: "026"
     page: "469"
+    citation: "26 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1828"
-    citation: "26 U.S. 469"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-034"
@@ -3948,9 +4736,11 @@ cases:
     title: "Jackson v. Clark"
     volume: "026"
     page: "628"
+    citation: "26 U.S. 628"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1828"
-    citation: "26 U.S. 628"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-041"
@@ -3958,9 +4748,11 @@ cases:
     title: "United States v. Saline Bank of Va."
     volume: "026"
     page: "100"
+    citation: "26 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1828"
-    citation: "26 U.S. 100"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-042"
@@ -3968,9 +4760,11 @@ cases:
     title: "Konig v. Bayard"
     volume: "026"
     page: "250"
+    citation: "26 U.S. 250"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1828"
-    citation: "26 U.S. 250"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-043"
@@ -3978,9 +4772,11 @@ cases:
     title: "Schimmelpennich v. Bayard"
     volume: "026"
     page: "264"
+    citation: "26 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1828"
-    citation: "26 U.S. 264"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-044"
@@ -3988,9 +4784,11 @@ cases:
     title: "Bank of Columbia v. Sweeny"
     volume: "026"
     page: "567"
+    citation: "26 U.S. 567"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1828"
-    citation: "26 U.S. 567"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-050"
@@ -3998,9 +4796,11 @@ cases:
     title: "American Ins. Co. v. 356 Bales of Cotton"
     volume: "026"
     page: "511"
+    citation: "26 U.S. 511"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1828"
-    citation: "26 U.S. 511"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-052"
@@ -4008,9 +4808,11 @@ cases:
     title: "United States v. Stansbury"
     volume: "026"
     page: "573"
+    citation: "26 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1828"
-    citation: "26 U.S. 573"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1828-054"
@@ -4018,9 +4820,11 @@ cases:
     title: "Pray v. Belt"
     volume: "026"
     page: "670"
+    citation: "26 U.S. 670"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1828"
-    citation: "26 U.S. 670"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-002"
@@ -4028,9 +4832,11 @@ cases:
     title: "Columbian Ins. Co. of Alexandria v. Lawrence"
     volume: "027"
     page: "025"
+    citation: "27 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 28, 1829"
-    citation: "27 U.S. 25"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-007"
@@ -4038,9 +4844,11 @@ cases:
     title: "Reynolds v. McArthur"
     volume: "027"
     page: "417"
+    citation: "27 U.S. 417"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 4, 1829"
-    citation: "27 U.S. 417"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-010"
@@ -4048,9 +4856,11 @@ cases:
     title: "Boyce v. Anderson"
     volume: "027"
     page: "150"
+    citation: "27 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Saturday, February 7, 1829"
-    citation: "27 U.S. 150"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-014"
@@ -4058,9 +4868,11 @@ cases:
     title: "Patterson v. Jenks"
     volume: "027"
     page: "216"
+    citation: "27 U.S. 216"
     pdfSource: "loc"
     dateDecision: "Friday, February 13, 1829"
-    citation: "27 U.S. 216"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-017"
@@ -4068,9 +4880,11 @@ cases:
     title: "Ritchie v. Mauro"
     volume: "027"
     page: "243"
+    citation: "27 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Monday, February 16, 1829"
-    citation: "27 U.S. 243"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-018"
@@ -4078,9 +4892,11 @@ cases:
     title: "Dandridge v. Washington&apos;s Executors"
     volume: "027"
     page: "370"
+    citation: "27 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Monday, February 16, 1829"
-    citation: "27 U.S. 370"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-021"
@@ -4088,9 +4904,11 @@ cases:
     title: "Bank of Hamilton v. Lessee of Dudley"
     volume: "027"
     page: "492"
+    citation: "27 U.S. 492"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 25, 1829"
-    citation: "27 U.S. 492"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-022"
@@ -4098,9 +4916,11 @@ cases:
     title: "Hunt v. Wickliffe"
     volume: "027"
     page: "201"
+    citation: "27 U.S. 201"
     pdfSource: "loc"
     dateDecision: "Friday, February 27, 1829"
-    citation: "27 U.S. 201"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-024"
@@ -4108,9 +4928,11 @@ cases:
     title: "Harper v. Butler"
     volume: "027"
     page: "239"
+    citation: "27 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1829"
-    citation: "27 U.S. 239"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-025"
@@ -4118,9 +4940,11 @@ cases:
     title: "Lessee of Powell v. Harman"
     volume: "027"
     page: "241"
+    citation: "27 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1829"
-    citation: "27 U.S. 241"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-027"
@@ -4128,9 +4952,11 @@ cases:
     title: "Southwick v. Postmaster General"
     volume: "027"
     page: "442"
+    citation: "27 U.S. 442"
     pdfSource: "loc"
     dateDecision: "Saturday, March 7, 1829"
-    citation: "27 U.S. 442"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-028"
@@ -4138,9 +4964,11 @@ cases:
     title: "Conolly v. Taylor"
     volume: "027"
     page: "556"
+    citation: "27 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Saturday, March 7, 1829"
-    citation: "27 U.S. 556"
+    voteMajority: 3
+    voteMinority: 3
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-029"
@@ -4148,9 +4976,11 @@ cases:
     title: "Foster v. Neilson"
     volume: "027"
     page: "253"
+    citation: "27 U.S. 253"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1829"
-    citation: "27 U.S. 253"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-036"
@@ -4158,9 +4988,11 @@ cases:
     title: "Canter v. American &amp; Ocean Ins. Co. of N. Y."
     volume: "027"
     page: "554"
+    citation: "27 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 17, 1829"
-    citation: "27 U.S. 554"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-038"
@@ -4168,9 +5000,11 @@ cases:
     title: "Weston v. City Council of Charleston"
     volume: "027"
     page: "449"
+    citation: "27 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 18, 1829"
-    citation: "27 U.S. 449"
+    voteMajority: 4
+    voteMinority: 2
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-040"
@@ -4178,9 +5012,11 @@ cases:
     title: "Bank of Columbia v. Sweeney"
     volume: "027"
     page: "671"
+    citation: "27 U.S. 671"
     pdfSource: "loc"
     dateDecision: "Thursday, March 19, 1829"
-    citation: "27 U.S. 671"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1829-041"
@@ -4188,9 +5024,11 @@ cases:
     title: "Willson v. Black Bird Creek Marsh Co."
     volume: "027"
     page: "245"
+    citation: "27 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Friday, March 20, 1829"
-    citation: "27 U.S. 245"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-004"
@@ -4198,9 +5036,11 @@ cases:
     title: "Gordon v. Ogden"
     volume: "028"
     page: "033"
+    citation: "28 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Friday, January 29, 1830"
-    citation: "28 U.S. 33"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-006"
@@ -4208,9 +5048,11 @@ cases:
     title: "Bank of United States v. Swan"
     volume: "028"
     page: "068"
+    citation: "28 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1830"
-    citation: "28 U.S. 68"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-010"
@@ -4218,9 +5060,11 @@ cases:
     title: "Finlay v. King&apos;s Lessee"
     volume: "028"
     page: "346"
+    citation: "28 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 2, 1830"
-    citation: "28 U.S. 346"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-011"
@@ -4228,9 +5072,11 @@ cases:
     title: "Ex parte Watkins"
     volume: "028"
     page: "193"
+    citation: "28 U.S. 193"
     pdfSource: "loc"
     dateDecision: "Saturday, February 6, 1830"
-    citation: "28 U.S. 193"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-015"
@@ -4238,9 +5084,11 @@ cases:
     title: "Bell v. Cunningham"
     volume: "028"
     page: "069"
+    citation: "28 U.S. 69"
     pdfSource: "loc"
     dateDecision: "Thursday, February 11, 1830"
-    citation: "28 U.S. 69"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-016"
@@ -4248,9 +5096,11 @@ cases:
     title: "Farrar v. United States"
     volume: "028"
     page: "459"
+    citation: "28 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Thursday, February 11, 1830"
-    citation: "28 U.S. 459"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-020"
@@ -4258,9 +5108,11 @@ cases:
     title: "Magruder v. Union Bank of Georgetown"
     volume: "028"
     page: "087"
+    citation: "28 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1830"
-    citation: "28 U.S. 87"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-021"
@@ -4268,9 +5120,11 @@ cases:
     title: "Chinoweth v. Lessee of Haskell"
     volume: "028"
     page: "092"
+    citation: "28 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1830"
-    citation: "28 U.S. 92"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-025"
@@ -4278,9 +5132,11 @@ cases:
     title: "Fowle v. Common Council of Alexandria"
     volume: "028"
     page: "398"
+    citation: "28 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Saturday, February 20, 1830"
-    citation: "28 U.S. 398"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-031"
@@ -4288,9 +5144,11 @@ cases:
     title: "Saunders v. Gould"
     volume: "029"
     page: "392"
+    citation: "29 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1830"
-    citation: "29 U.S. 392"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-034"
@@ -4298,9 +5156,11 @@ cases:
     title: "McDonald v. Magruder"
     volume: "028"
     page: "470"
+    citation: "28 U.S. 470"
     pdfSource: "loc"
     dateDecision: "Thursday, March 4, 1830"
-    citation: "28 U.S. 470"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-036"
@@ -4308,9 +5168,11 @@ cases:
     title: "Spratt v. Spratt"
     volume: "029"
     page: "393"
+    citation: "29 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Thursday, March 4, 1830"
-    citation: "29 U.S. 393"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-037"
@@ -4318,9 +5180,11 @@ cases:
     title: "New Jersey v. New York"
     volume: "028"
     page: "461"
+    citation: "28 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Saturday, March 6, 1830"
-    citation: "28 U.S. 461"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-038"
@@ -4328,9 +5192,11 @@ cases:
     title: "Ex parte Bradstreet"
     volume: "029"
     page: "102"
+    citation: "29 U.S. 102"
     pdfSource: "loc"
     dateDecision: "Saturday, March 6, 1830"
-    citation: "29 U.S. 102"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-039"
@@ -4338,9 +5204,11 @@ cases:
     title: "Craig v. Missouri"
     volume: "029"
     page: "410"
+    citation: "29 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Friday, March 12, 1830"
-    citation: "29 U.S. 410"
+    voteMajority: 4
+    voteMinority: 3
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-040"
@@ -4348,9 +5216,11 @@ cases:
     title: "Stringer v. Lessee of Young"
     volume: "028"
     page: "320"
+    citation: "28 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1830"
-    citation: "28 U.S. 320"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-043"
@@ -4358,9 +5228,11 @@ cases:
     title: "United States v. Morrison"
     volume: "029"
     page: "124"
+    citation: "29 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 16, 1830"
-    citation: "29 U.S. 124"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-044"
@@ -4368,9 +5240,11 @@ cases:
     title: "Harris v. D&apos;Wolf"
     volume: "029"
     page: "147"
+    citation: "29 U.S. 147"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 16, 1830"
-    citation: "29 U.S. 147"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-048"
@@ -4378,9 +5252,11 @@ cases:
     title: "Soulard v. United States"
     volume: "029"
     page: "511"
+    citation: "29 U.S. 511"
     pdfSource: "loc"
     dateDecision: "Saturday, March 13, 1830"
-    citation: "29 U.S. 511"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-049"
@@ -4388,9 +5264,11 @@ cases:
     title: "Bank of Kentucky v. Wistar"
     volume: "028"
     page: "431"
+    citation: "28 U.S. 431"
     pdfSource: "loc"
     dateDecision: "Thursday, March 18, 1830"
-    citation: "28 U.S. 431"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-050"
@@ -4398,9 +5276,11 @@ cases:
     title: "Ex parte Tillinghast"
     volume: "029"
     page: "108"
+    citation: "29 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Thursday, March 18, 1830"
-    citation: "29 U.S. 108"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-055"
@@ -4408,9 +5288,11 @@ cases:
     title: "Lagrange v. Chouteau"
     volume: "029"
     page: "287"
+    citation: "29 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1830"
-    citation: "29 U.S. 287"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1830-058"
@@ -4418,9 +5300,11 @@ cases:
     title: "Providence Bank v. Billings"
     volume: "029"
     page: "514"
+    citation: "29 U.S. 514"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1830"
-    citation: "29 U.S. 514"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1831-002"
@@ -4428,9 +5312,11 @@ cases:
     title: "Yeaton v. Lynn ex rel. Lyles"
     volume: "030"
     page: "224"
+    citation: "30 U.S. 224"
     pdfSource: "loc"
     dateDecision: "Friday, January 21, 1831"
-    citation: "30 U.S. 224"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1831-006"
@@ -4438,9 +5324,11 @@ cases:
     title: "Fowle v. Lawrason&apos;s Executor"
     volume: "030"
     page: "495"
+    citation: "30 U.S. 495"
     pdfSource: "loc"
     dateDecision: "Saturday, January 22, 1831"
-    citation: "30 U.S. 495"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1831-013"
@@ -4448,9 +5336,11 @@ cases:
     title: "Cathcart v. Robinson"
     volume: "030"
     page: "264"
+    citation: "30 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Thursday, February 3, 1831"
-    citation: "30 U.S. 264"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1831-015"
@@ -4458,9 +5348,11 @@ cases:
     title: "Bank of United States v. Martin"
     volume: "030"
     page: "479"
+    citation: "30 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Friday, February 4, 1831"
-    citation: "30 U.S. 479"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1831-016"
@@ -4468,9 +5360,11 @@ cases:
     title: "Peltz v. Clarke"
     volume: "030"
     page: "481"
+    citation: "30 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Saturday, February 5, 1831"
-    citation: "30 U.S. 481"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1831-020"
@@ -4478,9 +5372,11 @@ cases:
     title: "Lessor of Fisher v. Cockerell"
     volume: "030"
     page: "248"
+    citation: "30 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 9, 1831"
-    citation: "30 U.S. 248"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1831-021"
@@ -4488,9 +5384,11 @@ cases:
     title: "New Jersey v. New York"
     volume: "030"
     page: "284"
+    citation: "30 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Friday, February 11, 1831"
-    citation: "30 U.S. 284"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1831-027"
@@ -4498,9 +5396,11 @@ cases:
     title: "Winship v. Bank of United States"
     volume: "030"
     page: "529"
+    citation: "30 U.S. 529"
     pdfSource: "loc"
     dateDecision: "Saturday, February 26, 1831"
-    citation: "30 U.S. 529"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1831-028"
@@ -4508,9 +5408,11 @@ cases:
     title: "Ex parte Crane"
     volume: "030"
     page: "190"
+    citation: "30 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 2, 1831"
-    citation: "30 U.S. 190"
+    voteMajority: 5
+    voteMinority: 2
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1831-035"
@@ -4518,9 +5420,11 @@ cases:
     title: "United States v. Robertson"
     volume: "030"
     page: "641"
+    citation: "30 U.S. 641"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1831"
-    citation: "30 U.S. 641"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1831-036"
@@ -4528,9 +5432,11 @@ cases:
     title: "Lessee of Scott v. Ratliffe"
     volume: "030"
     page: "081"
+    citation: "30 U.S. 81"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1831"
-    citation: "30 U.S. 81"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1831-037"
@@ -4538,9 +5444,11 @@ cases:
     title: "Edmondston v. Drake"
     volume: "030"
     page: "624"
+    citation: "30 U.S. 624"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1831"
-    citation: "30 U.S. 624"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1831-041"
@@ -4548,9 +5456,11 @@ cases:
     title: "Cherokee Nation v. Georgia"
     volume: "030"
     page: "001"
+    citation: "30 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Friday, March 18, 1831"
-    citation: "30 U.S. 1"
+    voteMajority: 4
+    voteMinority: 2
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-002"
@@ -4558,9 +5468,11 @@ cases:
     title: "Peirsoll v. Elliott"
     volume: "031"
     page: "095"
+    citation: "31 U.S. 95"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 18, 1832"
-    citation: "31 U.S. 95"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-006"
@@ -4568,9 +5480,11 @@ cases:
     title: "Kirkman v. Hamilton"
     volume: "031"
     page: "020"
+    citation: "31 U.S. 20"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 24, 1832"
-    citation: "31 U.S. 20"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-010"
@@ -4578,9 +5492,11 @@ cases:
     title: "Lessee of Sicard v. Davis"
     volume: "031"
     page: "124"
+    citation: "31 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Thursday, January 26, 1832"
-    citation: "31 U.S. 124"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-015"
@@ -4588,9 +5504,11 @@ cases:
     title: "Bank of United States v. Green"
     volume: "031"
     page: "026"
+    citation: "31 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1832"
-    citation: "31 U.S. 26"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-016"
@@ -4598,9 +5516,11 @@ cases:
     title: "Bank of United States v. Dunn"
     volume: "031"
     page: "051"
+    citation: "31 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1832"
-    citation: "31 U.S. 51"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-017"
@@ -4608,9 +5528,11 @@ cases:
     title: "Scott v. Lunt&apos;s Administrator"
     volume: "031"
     page: "349"
+    citation: "31 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1832"
-    citation: "31 U.S. 349"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-020"
@@ -4618,9 +5540,11 @@ cases:
     title: "New Jersey v. New York"
     volume: "031"
     page: "323"
+    citation: "31 U.S. 323"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 31, 1832"
-    citation: "31 U.S. 323"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-021"
@@ -4628,9 +5552,11 @@ cases:
     title: "Wallace v. Parker"
     volume: "031"
     page: "680"
+    citation: "31 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 31, 1832"
-    citation: "31 U.S. 680"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-023"
@@ -4638,9 +5564,11 @@ cases:
     title: "Dufau v. Couprey&apos;s Heirs"
     volume: "031"
     page: "170"
+    citation: "31 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Thursday, February 3, 1831"
-    citation: "31 U.S. 170"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-025"
@@ -4648,9 +5576,11 @@ cases:
     title: "Smith T. v. Bell"
     volume: "031"
     page: "068"
+    citation: "31 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Saturday, February 4, 1832"
-    citation: "31 U.S. 68"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-029"
@@ -4658,9 +5588,11 @@ cases:
     title: "Spring v. Executors of Gray"
     volume: "031"
     page: "151"
+    citation: "31 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Thursday, February 9, 1832"
-    citation: "31 U.S. 151"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-031"
@@ -4668,9 +5600,11 @@ cases:
     title: "United States v. McDaniel"
     volume: "031"
     page: "634"
+    citation: "31 U.S. 634"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 14, 1832"
-    citation: "31 U.S. 634"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-032"
@@ -4678,9 +5612,11 @@ cases:
     title: "Hughes v. Trustees of Clarksville"
     volume: "031"
     page: "369"
+    citation: "31 U.S. 369"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 15, 1832"
-    citation: "31 U.S. 369"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-035"
@@ -4688,9 +5624,11 @@ cases:
     title: "United States v. Paul"
     volume: "031"
     page: "141"
+    citation: "31 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Saturday, February 18, 1832"
-    citation: "31 U.S. 141"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-036"
@@ -4698,9 +5636,11 @@ cases:
     title: "Leland v. Wilkinson"
     volume: "031"
     page: "317"
+    citation: "31 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Saturday, February 18, 1832"
-    citation: "31 U.S. 317"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-042"
@@ -4708,9 +5648,11 @@ cases:
     title: "Grant v. Raymond"
     volume: "031"
     page: "218"
+    citation: "31 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Thursday, February 23, 1832"
-    citation: "31 U.S. 218"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-043"
@@ -4718,9 +5660,11 @@ cases:
     title: "Ex parte Roberts"
     volume: "031"
     page: "216"
+    citation: "31 U.S. 216"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 28, 1832"
-    citation: "31 U.S. 216"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-046"
@@ -4728,9 +5672,11 @@ cases:
     title: "Worcester v. Georgia"
     volume: "031"
     page: "515"
+    citation: "31 U.S. 515"
     pdfSource: "loc"
     dateDecision: "Saturday, March 3, 1832"
-    citation: "31 U.S. 515"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-049"
@@ -4738,9 +5684,11 @@ cases:
     title: "McDonald&apos;s Heirs v. Smalley"
     volume: "031"
     page: "261"
+    citation: "31 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1832"
-    citation: "31 U.S. 261"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-052"
@@ -4748,9 +5696,11 @@ cases:
     title: "Gassies v. Ballon"
     volume: "031"
     page: "761"
+    citation: "31 U.S. 761"
     pdfSource: "loc"
     dateDecision: "Thursday, March 15, 1832"
-    citation: "31 U.S. 761"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-054"
@@ -4758,9 +5708,11 @@ cases:
     title: "Ross v. McLung"
     volume: "031"
     page: "283"
+    citation: "31 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1832"
-    citation: "31 U.S. 283"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1832-055"
@@ -4768,9 +5720,11 @@ cases:
     title: "Ex parte Bradstreet"
     volume: "031"
     page: "774"
+    citation: "31 U.S. 774"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1832"
-    citation: "31 U.S. 774"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-001"
@@ -4778,9 +5732,11 @@ cases:
     title: "Tyrell&apos;s Heirs v. Rountree"
     volume: "032"
     page: "464"
+    citation: "32 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Friday, January 18, 1833"
-    citation: "32 U.S. 464"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-002"
@@ -4788,9 +5744,11 @@ cases:
     title: "United States v. Wilson"
     volume: "032"
     page: "150"
+    citation: "32 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Saturday, January 26, 1833"
-    citation: "32 U.S. 150"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-006"
@@ -4798,9 +5756,11 @@ cases:
     title: "Owings v. Kincannon"
     volume: "032"
     page: "399"
+    citation: "32 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Saturday, February 2, 1833"
-    citation: "32 U.S. 399"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-010"
@@ -4808,9 +5768,11 @@ cases:
     title: "United States v. Percheman"
     volume: "032"
     page: "051"
+    citation: "32 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Thursday, February 14, 1833"
-    citation: "32 U.S. 51"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-012"
@@ -4818,9 +5780,11 @@ cases:
     title: "Barron ex rel. Tiernan v. Mayor of Baltimore"
     volume: "032"
     page: "243"
+    citation: "32 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Saturday, February 16, 1833"
-    citation: "32 U.S. 243"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-019"
@@ -4828,9 +5792,11 @@ cases:
     title: "Breedlove &amp; Robeson v. Nicolet &amp; Sigg"
     volume: "032"
     page: "413"
+    citation: "32 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1833"
-    citation: "32 U.S. 413"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-022"
@@ -4838,9 +5804,11 @@ cases:
     title: "Ex parte Madrazzo"
     volume: "032"
     page: "627"
+    citation: "32 U.S. 627"
     pdfSource: "loc"
     dateDecision: "Thursday, February 28, 1833"
-    citation: "32 U.S. 627"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-024"
@@ -4848,9 +5816,11 @@ cases:
     title: "Brashear v. West"
     volume: "032"
     page: "608"
+    citation: "32 U.S. 608"
     pdfSource: "loc"
     dateDecision: "Friday, March 1, 1833"
-    citation: "32 U.S. 608"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-027"
@@ -4858,9 +5828,11 @@ cases:
     title: "Yeaton v. Lenox"
     volume: "032"
     page: "220"
+    citation: "32 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1833"
-    citation: "32 U.S. 220"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-028"
@@ -4868,9 +5840,11 @@ cases:
     title: "Vattier v. Hinde"
     volume: "032"
     page: "252"
+    citation: "32 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1833"
-    citation: "32 U.S. 252"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-030"
@@ -4878,9 +5852,11 @@ cases:
     title: "Estho v. Lear"
     volume: "032"
     page: "130"
+    citation: "32 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 6, 1833"
-    citation: "32 U.S. 130"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-032"
@@ -4888,9 +5864,11 @@ cases:
     title: "Heirs of Dubourg de St. Colombe v. United States"
     volume: "032"
     page: "625"
+    citation: "32 U.S. 625"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 6, 1833"
-    citation: "32 U.S. 625"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-040"
@@ -4898,9 +5876,11 @@ cases:
     title: "Farmers&apos; Bank of Alexandria v. Hooff"
     volume: "032"
     page: "168"
+    citation: "32 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 13, 1833"
-    citation: "32 U.S. 168"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1833-041"
@@ -4908,9 +5888,11 @@ cases:
     title: "Ex parte Bradstreet"
     volume: "032"
     page: "634"
+    citation: "32 U.S. 634"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 13, 1833"
-    citation: "32 U.S. 634"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-001"
@@ -4918,9 +5900,11 @@ cases:
     title: "Byrne v. Missouri"
     volume: "033"
     page: "040"
+    citation: "33 U.S. 40"
     pdfSource: "loc"
     dateDecision: "Saturday, January 18, 1834"
-    citation: "33 U.S. 40"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-004"
@@ -4928,9 +5912,11 @@ cases:
     title: "Dick v. Balch"
     volume: "033"
     page: "030"
+    citation: "33 U.S. 30"
     pdfSource: "loc"
     dateDecision: "Thursday, January 23, 1834"
-    citation: "33 U.S. 30"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-005"
@@ -4938,9 +5924,11 @@ cases:
     title: "Mandeville v. Burt"
     volume: "033"
     page: "256"
+    citation: "33 U.S. 256"
     pdfSource: "loc"
     dateDecision: "Thursday, January 23, 1834"
-    citation: "33 U.S. 256"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-006"
@@ -4948,9 +5936,11 @@ cases:
     title: "Chesapeake &amp; Ohio Canal Co. v. Union Bank of Georgetown"
     volume: "033"
     page: "259"
+    citation: "33 U.S. 259"
     pdfSource: "loc"
     dateDecision: "Friday, January 24, 1834"
-    citation: "33 U.S. 259"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-011"
@@ -4958,9 +5948,11 @@ cases:
     title: "Brown v. Keene"
     volume: "033"
     page: "112"
+    citation: "33 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Saturday, February 1, 1834"
-    citation: "33 U.S. 112"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-016"
@@ -4968,9 +5960,11 @@ cases:
     title: "Bank of United States v. Ritchie"
     volume: "033"
     page: "128"
+    citation: "33 U.S. 128"
     pdfSource: "loc"
     dateDecision: "Saturday, February 8, 1834"
-    citation: "33 U.S. 128"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-018"
@@ -4978,9 +5972,11 @@ cases:
     title: "Lessee of Binney v. Chesapeake &amp; Ohio Canal Co."
     volume: "033"
     page: "214"
+    citation: "33 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 12, 1834"
-    citation: "33 U.S. 214"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-020"
@@ -4988,9 +5984,11 @@ cases:
     title: "Deneale v. Archer"
     volume: "033"
     page: "526"
+    citation: "33 U.S. 526"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 12, 1834"
-    citation: "33 U.S. 526"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-022"
@@ -4998,9 +5996,11 @@ cases:
     title: "Yeaton v. Lenox"
     volume: "033"
     page: "123"
+    citation: "33 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1834"
-    citation: "33 U.S. 123"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-026"
@@ -5008,9 +6008,11 @@ cases:
     title: "Field v. United States"
     volume: "034"
     page: "182"
+    citation: "34 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Friday, February 21, 1834"
-    citation: "34 U.S. 182"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-028"
@@ -5018,9 +6020,11 @@ cases:
     title: "Deneale v. Archer"
     volume: "033"
     page: "528"
+    citation: "33 U.S. 528"
     pdfSource: "loc"
     dateDecision: "Friday, February 28, 1834"
-    citation: "33 U.S. 528"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-031"
@@ -5028,9 +6032,11 @@ cases:
     title: "Jackson v. Ashton"
     volume: "033"
     page: "148"
+    citation: "33 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Friday, March 7, 1834"
-    citation: "33 U.S. 148"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-033"
@@ -5038,9 +6044,11 @@ cases:
     title: "Brown v. Swann"
     volume: "033"
     page: "435"
+    citation: "33 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Friday, March 7, 1834"
-    citation: "33 U.S. 435"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-039"
@@ -5048,9 +6056,11 @@ cases:
     title: "United States v. Randenbush"
     volume: "033"
     page: "288"
+    citation: "33 U.S. 288"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 11, 1834"
-    citation: "33 U.S. 288"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-042"
@@ -5058,9 +6068,11 @@ cases:
     title: "Ex parte Bradstreet"
     volume: "033"
     page: "588"
+    citation: "33 U.S. 588"
     pdfSource: "loc"
     dateDecision: "Thursday, March 13, 1834"
-    citation: "33 U.S. 588"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-045"
@@ -5068,9 +6080,11 @@ cases:
     title: "United States v. Clarke"
     volume: "033"
     page: "436"
+    citation: "33 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 12, 1834"
-    citation: "33 U.S. 436"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-046"
@@ -5078,9 +6092,11 @@ cases:
     title: "United States v. Hernandez"
     volume: "033"
     page: "485"
+    citation: "33 U.S. 485"
     pdfSource: "loc"
     dateDecision: "Friday, March 14, 1834"
-    citation: "33 U.S. 485"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-047"
@@ -5088,9 +6104,11 @@ cases:
     title: "United States v. Huertas"
     volume: "033"
     page: "488"
+    citation: "33 U.S. 488"
     pdfSource: "loc"
     dateDecision: "Friday, March 14, 1834"
-    citation: "33 U.S. 488"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-049"
@@ -5098,9 +6116,11 @@ cases:
     title: "United States v. Richard"
     volume: "033"
     page: "470"
+    citation: "33 U.S. 470"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1834"
-    citation: "33 U.S. 470"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-050"
@@ -5108,9 +6128,11 @@ cases:
     title: "United States v. Huertas"
     volume: "033"
     page: "475"
+    citation: "33 U.S. 475"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1834"
-    citation: "33 U.S. 475"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-051"
@@ -5118,9 +6140,11 @@ cases:
     title: "United States v. Gomez"
     volume: "033"
     page: "477"
+    citation: "33 U.S. 477"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1834"
-    citation: "33 U.S. 477"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-052"
@@ -5128,9 +6152,11 @@ cases:
     title: "United States v. Fleming&apos;s Heirs"
     volume: "033"
     page: "478"
+    citation: "33 U.S. 478"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1834"
-    citation: "33 U.S. 478"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-053"
@@ -5138,9 +6164,11 @@ cases:
     title: "United States v. Levi"
     volume: "033"
     page: "479"
+    citation: "33 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1834"
-    citation: "33 U.S. 479"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-054"
@@ -5148,9 +6176,11 @@ cases:
     title: "United States v. Younge"
     volume: "033"
     page: "484"
+    citation: "33 U.S. 484"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1834"
-    citation: "33 U.S. 484"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-055"
@@ -5158,9 +6188,11 @@ cases:
     title: "United States v. Fatio&apos;s Heirs"
     volume: "033"
     page: "492"
+    citation: "33 U.S. 492"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1834"
-    citation: "33 U.S. 492"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-056"
@@ -5168,9 +6200,11 @@ cases:
     title: "United States v. Gibson"
     volume: "033"
     page: "494"
+    citation: "33 U.S. 494"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1834"
-    citation: "33 U.S. 494"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-058"
@@ -5178,9 +6212,11 @@ cases:
     title: "Davis v. Packard"
     volume: "033"
     page: "312"
+    citation: "33 U.S. 312"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1834"
-    citation: "33 U.S. 312"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-060"
@@ -5188,9 +6224,11 @@ cases:
     title: "Boon&apos;s Heirs v. Chiles"
     volume: "033"
     page: "532"
+    citation: "33 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 19, 1834"
-    citation: "33 U.S. 532"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-062"
@@ -5198,9 +6236,11 @@ cases:
     title: "United States v. Phelps"
     volume: "033"
     page: "700"
+    citation: "33 U.S. 700"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 19, 1834"
-    citation: "33 U.S. 700"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-063"
@@ -5208,9 +6248,11 @@ cases:
     title: "Briscoe v. Commonwealth&apos;s Bank of Ky."
     volume: "033"
     page: "118"
+    citation: "33 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Thursday, January 30, 1834"
-    citation: "33 U.S. 118"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-064"
@@ -5218,9 +6260,11 @@ cases:
     title: "Brown v. Swann"
     volume: "034"
     page: "001"
+    citation: "34 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 14, 1835"
-    citation: "34 U.S. 1"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1834-065"
@@ -5228,9 +6272,11 @@ cases:
     title: "Life &amp; Fire Ins. Co. of N. Y. v. Adams"
     volume: "034"
     page: "571"
+    citation: "34 U.S. 571"
     pdfSource: "loc"
     dateDecision: "January Term 1835"
-    citation: "34 U.S. 571"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1835-001"
@@ -5238,9 +6284,11 @@ cases:
     title: "Lessee of Smith v. Trabue&apos;s Heirs"
     volume: "034"
     page: "004"
+    citation: "34 U.S. 4"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1835"
-    citation: "34 U.S. 4"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1835-004"
@@ -5248,9 +6296,11 @@ cases:
     title: "United States v. Bailey"
     volume: "034"
     page: "267"
+    citation: "34 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Friday, January 23, 1835"
-    citation: "34 U.S. 267"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1835-006"
@@ -5258,9 +6308,11 @@ cases:
     title: "Caldwell v. Carrington&apos;s Heirs"
     volume: "034"
     page: "086"
+    citation: "34 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Thursday, January 29, 1835"
-    citation: "34 U.S. 86"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1835-008"
@@ -5268,9 +6320,11 @@ cases:
     title: "United States v. Nourse"
     volume: "034"
     page: "008"
+    citation: "34 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Saturday, January 31, 1835"
-    citation: "34 U.S. 8"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1835-011"
@@ -5278,9 +6332,11 @@ cases:
     title: "Bradley v. Washington, Alexandria, &amp; Georgetown Steam-Packet Co."
     volume: "034"
     page: "107"
+    citation: "34 U.S. 107"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 3, 1835"
-    citation: "34 U.S. 107"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1835-013"
@@ -5288,9 +6344,11 @@ cases:
     title: "Mayor of New Orleans v. De Armas"
     volume: "034"
     page: "224"
+    citation: "34 U.S. 224"
     pdfSource: "loc"
     dateDecision: "Monday, February 9, 1835"
-    citation: "34 U.S. 224"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1835-019"
@@ -5298,9 +6356,11 @@ cases:
     title: "Delassus v. United States"
     volume: "034"
     page: "117"
+    citation: "34 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 18, 1835"
-    citation: "34 U.S. 117"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1835-020"
@@ -5308,9 +6368,11 @@ cases:
     title: "Chouteau&apos;s Heirs v. United States"
     volume: "034"
     page: "137"
+    citation: "34 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 18, 1835"
-    citation: "34 U.S. 137"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1835-021"
@@ -5318,9 +6380,11 @@ cases:
     title: "Choteau&apos;s Heirs v. United States"
     volume: "034"
     page: "147"
+    citation: "34 U.S. 147"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 18, 1835"
-    citation: "34 U.S. 147"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1835-026"
@@ -5328,9 +6392,11 @@ cases:
     title: "Life &amp; Fire Ins. Co. of N. Y. v. Adams"
     volume: "034"
     page: "573"
+    citation: "34 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1835"
-    citation: "34 U.S. 573"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1835-028"
@@ -5338,9 +6404,11 @@ cases:
     title: "Scott v. Lloyd"
     volume: "034"
     page: "418"
+    citation: "34 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1835"
-    citation: "34 U.S. 418"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1835-032"
@@ -5348,9 +6416,11 @@ cases:
     title: "United States v. Clarke"
     volume: "034"
     page: "168"
+    citation: "34 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Friday, March 14, 1834"
-    citation: "34 U.S. 168"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
   - id: "1835-033"
@@ -5358,9 +6428,11 @@ cases:
     title: "United States v. Huertas"
     volume: "034"
     page: "171"
+    citation: "34 U.S. 171"
     pdfSource: "loc"
     dateDecision: "Friday, March 14, 1834"
-    citation: "34 U.S. 171"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmarshall
     authorName: "John Marshall"
 ---

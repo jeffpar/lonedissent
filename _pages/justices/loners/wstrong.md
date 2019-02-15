@@ -8,9 +8,11 @@ cases:
     title: "Hanauer v. Doane"
     volume: "079"
     page: "342"
+    citation: "79 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1871"
-    citation: "79 U.S. 342"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wstrong
     dissenterName: "William Strong"
   - id: "1871-134"
@@ -18,9 +20,11 @@ cases:
     title: "Kitchen v. Bedford"
     volume: "080"
     page: "413"
+    citation: "80 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1872"
-    citation: "80 U.S. 413"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wstrong
     dissenterName: "William Strong"
   - id: "1872-080"
@@ -28,9 +32,11 @@ cases:
     title: "Bank v. Turnbull &amp; Co."
     volume: "083"
     page: "190"
+    citation: "83 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1873"
-    citation: "83 U.S. 190"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wstrong
     dissenterName: "William Strong"
   - id: "1872-159"
@@ -38,9 +44,11 @@ cases:
     title: "Life Ins. Co. v. Terry"
     volume: "082"
     page: "580"
+    citation: "82 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "82 U.S. 580"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wstrong
     dissenterName: "William Strong"
   - id: "1875-180"
@@ -48,9 +56,12 @@ cases:
     title: "Chamberlain v. St. Paul &amp; Sioux City R. Co."
     volume: "092"
     page: "299"
+    docket: "190"
+    citation: "92 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1876"
-    citation: "92 U.S. 299"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wstrong
     dissenterName: "William Strong"
   - id: "1876-169"
@@ -58,9 +69,12 @@ cases:
     title: "Eyster v. Centennial Bd. of Finance"
     volume: "094"
     page: "500"
+    docket: "988"
+    citation: "94 U.S. 500"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1877"
-    citation: "94 U.S. 500"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wstrong
     dissenterName: "William Strong"
   - id: "1876-220"
@@ -68,9 +82,12 @@ cases:
     title: "Lippincott v. Mitchell"
     volume: "094"
     page: "767"
+    docket: "249"
+    citation: "94 U.S. 767"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1877"
-    citation: "94 U.S. 767"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wstrong
     dissenterName: "William Strong"
   - id: "1877-174"
@@ -78,9 +95,12 @@ cases:
     title: "Railroad Co. v. Richmond"
     volume: "096"
     page: "521"
+    docket: "150"
+    citation: "96 U.S. 521"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1878"
-    citation: "96 U.S. 521"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wstrong
     dissenterName: "William Strong"
   - id: "1877-226"
@@ -88,9 +108,12 @@ cases:
     title: "Railroad Co. v. Maine"
     volume: "096"
     page: "499"
+    docket: "953"
+    citation: "96 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1878"
-    citation: "96 U.S. 499"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: wstrong
     dissenterName: "William Strong"
   - id: "1878-017"
@@ -98,9 +121,12 @@ cases:
     title: "Fertilizing Co. v. Hyde Park"
     volume: "097"
     page: "659"
+    docket: "5"
+    citation: "97 U.S. 659"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1878"
-    citation: "97 U.S. 659"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wstrong
     dissenterName: "William Strong"
   - id: "1878-183"
@@ -108,9 +134,12 @@ cases:
     title: "Burt v. Panjaud"
     volume: "099"
     page: "180"
+    docket: "235"
+    citation: "99 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1879"
-    citation: "99 U.S. 180"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: wstrong
     dissenterName: "William Strong"
 ---

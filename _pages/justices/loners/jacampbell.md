@@ -8,9 +8,11 @@ cases:
     title: "Broome v. United States"
     volume: "056"
     page: "143"
+    citation: "56 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Friday, January 6, 1854"
-    citation: "56 U.S. 143"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jacampbell
     dissenterName: "John Campbell"
   - id: "1854-015"
@@ -18,9 +20,11 @@ cases:
     title: "United States v. Sixty-seven Packages of Dry Goods"
     volume: "058"
     page: "085"
+    citation: "58 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1855"
-    citation: "58 U.S. 85"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jacampbell
     dissenterName: "John Campbell"
   - id: "1854-016"
@@ -28,9 +32,11 @@ cases:
     title: "United States v. Nine Cases of Silk Hats"
     volume: "058"
     page: "097"
+    citation: "58 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1855"
-    citation: "58 U.S. 97"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jacampbell
     dissenterName: "John Campbell"
   - id: "1854-017"
@@ -38,9 +44,11 @@ cases:
     title: "United States v. One Package of Merchandise"
     volume: "058"
     page: "098"
+    citation: "58 U.S. 98"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1855"
-    citation: "58 U.S. 98"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jacampbell
     dissenterName: "John Campbell"
   - id: "1854-018"
@@ -48,9 +56,11 @@ cases:
     title: "United States v. One Case of Clocks"
     volume: "058"
     page: "099"
+    citation: "58 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1855"
-    citation: "58 U.S. 99"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jacampbell
     dissenterName: "John Campbell"
   - id: "1855-060"
@@ -58,9 +68,11 @@ cases:
     title: "Lafayette Ins. Co. v. French"
     volume: "059"
     page: "404"
+    citation: "59 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Friday, April 25, 1856"
-    citation: "59 U.S. 404"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jacampbell
     dissenterName: "John Campbell"
 ---

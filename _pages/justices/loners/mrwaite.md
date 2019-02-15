@@ -8,9 +8,11 @@ cases:
     title: "North Missouri R. Co. v. Maguire"
     volume: "087"
     page: "046"
+    citation: "87 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1874"
-    citation: "87 U.S. 46"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: mrwaite
     dissenterName: "Morrison Waite"
   - id: "1878-177"
@@ -18,9 +20,12 @@ cases:
     title: "Railway Co. v. Alling"
     volume: "099"
     page: "463"
+    docket: "811"
+    citation: "99 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1879"
-    citation: "99 U.S. 463"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: mrwaite
     dissenterName: "Morrison Waite"
   - id: "1879-118"
@@ -28,9 +33,12 @@ cases:
     title: "Pelton v. National Bank"
     volume: "101"
     page: "143"
+    docket: "827"
+    citation: "101 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1880"
-    citation: "101 U.S. 143"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: mrwaite
     dissenterName: "Morrison Waite"
   - id: "1879-119"
@@ -38,9 +46,12 @@ cases:
     title: "Cummings v. National Bank"
     volume: "101"
     page: "153"
+    docket: "563"
+    citation: "101 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1880"
-    citation: "101 U.S. 153"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: mrwaite
     dissenterName: "Morrison Waite"
   - id: "1879-136"
@@ -48,9 +59,12 @@ cases:
     title: "Guy v. Baltimore"
     volume: "100"
     page: "434"
+    docket: "136"
+    citation: "100 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1880"
-    citation: "100 U.S. 434"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: mrwaite
     dissenterName: "Morrison Waite"
   - id: "1880-044"
@@ -58,9 +72,12 @@ cases:
     title: "United States v. Schurz"
     volume: "102"
     page: "378"
+    docket: "707"
+    citation: "102 U.S. 378"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1880"
-    citation: "102 U.S. 378"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: mrwaite
     dissenterName: "Morrison Waite"
   - id: "1880-190"
@@ -68,9 +85,12 @@ cases:
     title: "Railroad Co. v. Baldwin"
     volume: "103"
     page: "426"
+    docket: "273"
+    citation: "103 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1881"
-    citation: "103 U.S. 426"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: mrwaite
     dissenterName: "Morrison Waite"
   - id: "1885-143"
@@ -78,9 +98,12 @@ cases:
     title: "Reynolds v. Iron Silver Mining Co."
     volume: "116"
     page: "687"
+    docket: "843"
+    citation: "116 U.S. 687"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1886"
-    citation: "116 U.S. 687"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: mrwaite
     dissenterName: "Morrison Waite"
   - id: "1886-014"
@@ -88,9 +111,12 @@ cases:
     title: "Choctaw Nation v. United States"
     volume: "119"
     page: "001"
+    docket: "848"
+    citation: "119 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1886"
-    citation: "119 U.S. 1"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: mrwaite
     dissenterName: "Morrison Waite"
   - id: "1886-047"
@@ -98,9 +124,12 @@ cases:
     title: "United States v. Rauscher"
     volume: "119"
     page: "407"
+    docket: "827"
+    citation: "119 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1886"
-    citation: "119 U.S. 407"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: mrwaite
     dissenterName: "Morrison Waite"
   - id: "1887-043"
@@ -108,9 +137,12 @@ cases:
     title: "Doolan v. Carr"
     volume: "125"
     page: "618"
+    docket: "34"
+    citation: "125 U.S. 618"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1887"
-    citation: "125 U.S. 618"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: mrwaite
     dissenterName: "Morrison Waite"
   - id: "1887-171"
@@ -118,9 +150,12 @@ cases:
     title: "Tilghman v. Proctor"
     volume: "125"
     page: "136"
+    docket: "537"
+    citation: "125 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1888"
-    citation: "125 U.S. 136"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: mrwaite
     dissenterName: "Morrison Waite"
 ---

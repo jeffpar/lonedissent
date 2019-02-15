@@ -8,9 +8,11 @@ cases:
     title: "Marshall v. Currie"
     volume: "008"
     page: "172"
+    citation: "8 U.S. 172"
     pdfSource: "loc"
     dateDecision: "Saturday, February 28, 1807"
-    citation: "8 U.S. 172"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1807-039"
@@ -18,9 +20,11 @@ cases:
     title: "Dawson&apos;s Lessee v. Godfrey"
     volume: "008"
     page: "321"
+    citation: "8 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 15, 1808"
-    citation: "8 U.S. 321"
+    voteMajority: 4
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1810-023"
@@ -28,9 +32,11 @@ cases:
     title: "Korn v. Mutual Assurance Soc. Against Fire on Buildings of Va."
     volume: "010"
     page: "192"
+    citation: "10 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Thursday, March 15, 1810"
-    citation: "10 U.S. 192"
+    voteMajority: 5
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1810-034"
@@ -38,9 +44,11 @@ cases:
     title: "Atkinson v. Mutual Assurance Soc. Against Fire on Buildings of Va."
     volume: "010"
     page: "202"
+    citation: "10 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Saturday, March 17, 1810"
-    citation: "10 U.S. 202"
+    voteMajority: 5
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1812-009"
@@ -48,9 +56,11 @@ cases:
     title: "Maryland Ins. Co. v. Le Roy"
     volume: "011"
     page: "026"
+    citation: "11 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Saturday, February 22, 1812"
-    citation: "11 U.S. 26"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1812-033"
@@ -58,9 +68,11 @@ cases:
     title: "United States v. Hudson"
     volume: "011"
     page: "032"
+    citation: "11 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Saturday, March 14, 1812"
-    citation: "11 U.S. 32"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1812-037"
@@ -68,9 +80,11 @@ cases:
     title: "Dunlop v. Munroe"
     volume: "011"
     page: "242"
+    citation: "11 U.S. 242"
     pdfSource: "loc"
     dateDecision: "Saturday, March 14, 1812"
-    citation: "11 U.S. 242"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1813-016"
@@ -78,9 +92,11 @@ cases:
     title: "Cargo of Brig Aurora v. United States"
     volume: "011"
     page: "382"
+    citation: "11 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Friday, February 26, 1813"
-    citation: "11 U.S. 382"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1813-018"
@@ -88,9 +104,11 @@ cases:
     title: "Mutual Assurance Soc. v. Korn"
     volume: "011"
     page: "396"
+    citation: "11 U.S. 396"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 3, 1813"
-    citation: "11 U.S. 396"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1813-032"
@@ -98,9 +116,11 @@ cases:
     title: "McIntire v. Wood"
     volume: "011"
     page: "504"
+    citation: "11 U.S. 504"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1813"
-    citation: "11 U.S. 504"
+    voteMajority: 5
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1813-038"
@@ -108,9 +128,11 @@ cases:
     title: "Palmer v. Allen"
     volume: "011"
     page: "550"
+    citation: "11 U.S. 550"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 16, 1813"
-    citation: "11 U.S. 550"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1814-008"
@@ -118,9 +140,11 @@ cases:
     title: "Pleasants v. Maryland Ins. Co."
     volume: "012"
     page: "055"
+    citation: "12 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1814"
-    citation: "12 U.S. 55"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1814-013"
@@ -128,9 +152,11 @@ cases:
     title: "Gracie v. Maryland Ins. Co."
     volume: "012"
     page: "084"
+    citation: "12 U.S. 84"
     pdfSource: "loc"
     dateDecision: "Friday, February 25, 1814"
-    citation: "12 U.S. 84"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1814-018"
@@ -138,9 +164,11 @@ cases:
     title: "The Rapid"
     volume: "012"
     page: "155"
+    citation: "12 U.S. 155"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1814"
-    citation: "12 U.S. 155"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1814-022"
@@ -148,9 +176,11 @@ cases:
     title: "The Adventure"
     volume: "012"
     page: "221"
+    citation: "12 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1814"
-    citation: "12 U.S. 221"
+    voteMajority: 5
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1814-039"
@@ -158,9 +188,11 @@ cases:
     title: "United States v. 1960 Bags of Coffee"
     volume: "012"
     page: "398"
+    citation: "12 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 15, 1814"
-    citation: "12 U.S. 398"
+    voteMajority: 5
+    voteMinority: 1
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1814-040"
@@ -168,9 +200,11 @@ cases:
     title: "United States v. Brigantine Mars"
     volume: "012"
     page: "417"
+    citation: "12 U.S. 417"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 15, 1814"
-    citation: "12 U.S. 417"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1815-022"
@@ -178,9 +212,11 @@ cases:
     title: "United States v. Cargo of Ship Fanny"
     volume: "013"
     page: "181"
+    citation: "13 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 1, 1815"
-    citation: "13 U.S. 181"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1815-023"
@@ -188,9 +224,11 @@ cases:
     title: "The Frances"
     volume: "013"
     page: "183"
+    citation: "13 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Thursday, March 2, 1815"
-    citation: "13 U.S. 183"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1815-040"
@@ -198,9 +236,11 @@ cases:
     title: "Pratt v. Law"
     volume: "013"
     page: "456"
+    citation: "13 U.S. 456"
     pdfSource: "loc"
     dateDecision: "Saturday, March 11, 1815"
-    citation: "13 U.S. 456"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1816-005"
@@ -208,9 +248,11 @@ cases:
     title: "The Mary and Susan"
     volume: "014"
     page: "046"
+    citation: "14 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 14, 1816"
-    citation: "14 U.S. 46"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1816-012"
@@ -218,9 +260,11 @@ cases:
     title: "L&apos;Invincible"
     volume: "014"
     page: "238"
+    citation: "14 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Friday, March 1, 1816"
-    citation: "14 U.S. 238"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1816-018"
@@ -228,9 +272,11 @@ cases:
     title: "Barr v. Lapsley"
     volume: "014"
     page: "151"
+    citation: "14 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 6, 1816"
-    citation: "14 U.S. 151"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1816-029"
@@ -238,9 +284,11 @@ cases:
     title: "Mutual Assurance Soc. v. Watts&apos; Executor"
     volume: "014"
     page: "279"
+    citation: "14 U.S. 279"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 13, 1816"
-    citation: "14 U.S. 279"
+    voteMajority: 5
+    voteMinority: 2
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1816-035"
@@ -248,9 +296,11 @@ cases:
     title: "United States v. Coolidge"
     volume: "014"
     page: "415"
+    citation: "14 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Thursday, March 21, 1816"
-    citation: "14 U.S. 415"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1816-036"
@@ -258,9 +308,11 @@ cases:
     title: "The St. Nicholas"
     volume: "014"
     page: "417"
+    citation: "14 U.S. 417"
     pdfSource: "loc"
     dateDecision: "Thursday, March 21, 1816"
-    citation: "14 U.S. 417"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1816-039"
@@ -268,9 +320,11 @@ cases:
     title: "Russel v. Trustees of Transylvania Univ."
     volume: "014"
     page: "432"
+    citation: "14 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Friday, March 22, 1816"
-    citation: "14 U.S. 432"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1817-004"
@@ -278,9 +332,11 @@ cases:
     title: "The Mary"
     volume: "015"
     page: "123"
+    citation: "15 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Friday, February 14, 1817"
-    citation: "15 U.S. 123"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1817-007"
@@ -288,9 +344,11 @@ cases:
     title: "Otis v. Walter"
     volume: "015"
     page: "018"
+    citation: "15 U.S. 18"
     pdfSource: "loc"
     dateDecision: "Friday, February 21, 1817"
-    citation: "15 U.S. 18"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1817-014"
@@ -298,9 +356,11 @@ cases:
     title: "The William King"
     volume: "015"
     page: "148"
+    citation: "15 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 4, 1817"
-    citation: "15 U.S. 148"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1817-022"
@@ -308,9 +368,11 @@ cases:
     title: "Hunter v. Bryant"
     volume: "015"
     page: "032"
+    citation: "15 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 12, 1817"
-    citation: "15 U.S. 32"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1817-031"
@@ -318,9 +380,11 @@ cases:
     title: "The Bothnea"
     volume: "015"
     page: "169"
+    citation: "15 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 4, 1817"
-    citation: "15 U.S. 169"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1817-034"
@@ -328,9 +392,11 @@ cases:
     title: "The George"
     volume: "015"
     page: "278"
+    citation: "15 U.S. 278"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1817"
-    citation: "15 U.S. 278"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1817-035"
@@ -338,9 +404,11 @@ cases:
     title: "The Eleanor"
     volume: "015"
     page: "345"
+    citation: "15 U.S. 345"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1817"
-    citation: "15 U.S. 345"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1817-042"
@@ -348,9 +416,11 @@ cases:
     title: "The Fortuna"
     volume: "015"
     page: "161"
+    citation: "15 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1817"
-    citation: "15 U.S. 161"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1818-009"
@@ -358,9 +428,11 @@ cases:
     title: "Lanusse v. Barker"
     volume: "016"
     page: "101"
+    citation: "16 U.S. 101"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 17, 1818"
-    citation: "16 U.S. 101"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1818-022"
@@ -368,9 +440,11 @@ cases:
     title: "The Fortuna"
     volume: "016"
     page: "236"
+    citation: "16 U.S. 236"
     pdfSource: "loc"
     dateDecision: "Thursday, February 26, 1818"
-    citation: "16 U.S. 236"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1818-032"
@@ -378,9 +452,11 @@ cases:
     title: "Burton&apos;s Lessee v. Williams"
     volume: "016"
     page: "529"
+    citation: "16 U.S. 529"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1818"
-    citation: "16 U.S. 529"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1818-033"
@@ -388,9 +464,11 @@ cases:
     title: "Murray&apos;s Lessee v. Baker"
     volume: "016"
     page: "541"
+    citation: "16 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1818"
-    citation: "16 U.S. 541"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1819-006"
@@ -398,9 +476,11 @@ cases:
     title: "Weightman v. Caldwell"
     volume: "017"
     page: "085"
+    citation: "17 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 10, 1819"
-    citation: "17 U.S. 85"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1819-017"
@@ -408,9 +488,11 @@ cases:
     title: "Bank of Columbia v. Okely"
     volume: "017"
     page: "235"
+    citation: "17 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1819"
-    citation: "17 U.S. 235"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1819-024"
@@ -418,9 +500,11 @@ cases:
     title: "Astor v. Wells"
     volume: "017"
     page: "466"
+    citation: "17 U.S. 466"
     pdfSource: "loc"
     dateDecision: "Saturday, March 6, 1819"
-    citation: "17 U.S. 466"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1819-030"
@@ -428,9 +512,11 @@ cases:
     title: "The Neustra Senora de la Caridad"
     volume: "017"
     page: "497"
+    citation: "17 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Friday, March 12, 1819"
-    citation: "17 U.S. 497"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1819-031"
@@ -438,9 +524,11 @@ cases:
     title: "Wheaton v. Sexton&apos;s Lessee"
     volume: "017"
     page: "503"
+    citation: "17 U.S. 503"
     pdfSource: "loc"
     dateDecision: "Friday, March 12, 1819"
-    citation: "17 U.S. 503"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1820-004"
@@ -448,9 +536,11 @@ cases:
     title: "The Venus"
     volume: "018"
     page: "127"
+    citation: "18 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1820"
-    citation: "18 U.S. 127"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1820-008"
@@ -458,9 +548,11 @@ cases:
     title: "United States v. Furlong"
     volume: "018"
     page: "184"
+    citation: "18 U.S. 184"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 1, 1820"
-    citation: "18 U.S. 184"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1820-013"
@@ -468,9 +560,11 @@ cases:
     title: "Polk&apos;s Lessee v. Wendell"
     volume: "018"
     page: "293"
+    citation: "18 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Thursday, March 9, 1820"
-    citation: "18 U.S. 293"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1820-016"
@@ -478,9 +572,11 @@ cases:
     title: "Mechanics&apos; Bank of Alexandria v. Bank of Columbia"
     volume: "018"
     page: "326"
+    citation: "18 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1820"
-    citation: "18 U.S. 326"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1820-026"
@@ -488,9 +584,11 @@ cases:
     title: "Campbell v. Pratt"
     volume: "018"
     page: "429"
+    citation: "18 U.S. 429"
     pdfSource: "loc"
     dateDecision: "Friday, March 17, 1820"
-    citation: "18 U.S. 429"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1821-012"
@@ -498,9 +596,11 @@ cases:
     title: "The Bello Corrunes"
     volume: "019"
     page: "152"
+    citation: "19 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1821"
-    citation: "19 U.S. 152"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1821-017"
@@ -508,9 +608,11 @@ cases:
     title: "Anderson v. Dunn"
     volume: "019"
     page: "204"
+    citation: "19 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Friday, March 2, 1821"
-    citation: "19 U.S. 204"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1821-034"
@@ -518,9 +620,11 @@ cases:
     title: "Kerr v. Watts"
     volume: "019"
     page: "550"
+    citation: "19 U.S. 550"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1821"
-    citation: "19 U.S. 550"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1821-035"
@@ -528,9 +632,11 @@ cases:
     title: "Leeds v. Marine Ins. Co."
     volume: "019"
     page: "565"
+    citation: "19 U.S. 565"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1821"
-    citation: "19 U.S. 565"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1821-036"
@@ -538,9 +644,11 @@ cases:
     title: "Union Bank v. Hyde"
     volume: "019"
     page: "572"
+    citation: "19 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1821"
-    citation: "19 U.S. 572"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1821-040"
@@ -548,9 +656,11 @@ cases:
     title: "McClung v. Silliman"
     volume: "019"
     page: "598"
+    citation: "19 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Thursday, March 8, 1821"
-    citation: "19 U.S. 598"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1821-041"
@@ -558,9 +668,11 @@ cases:
     title: "Mutual Assurance Soc. v. Faxon"
     volume: "019"
     page: "606"
+    citation: "19 U.S. 606"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1821"
-    citation: "19 U.S. 606"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1822-022"
@@ -568,9 +680,11 @@ cases:
     title: "The Arrogante Barcelones"
     volume: "020"
     page: "496"
+    citation: "20 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 19, 1822"
-    citation: "20 U.S. 496"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1822-031"
@@ -578,9 +692,11 @@ cases:
     title: "Dorr v. Pacific Ins. Co."
     volume: "020"
     page: "581"
+    citation: "20 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Thursday, March 21, 1822"
-    citation: "20 U.S. 581"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1823-007"
@@ -588,9 +704,11 @@ cases:
     title: "Hughes v. Union Ins. Co. of Baltimore"
     volume: "021"
     page: "294"
+    citation: "21 U.S. 294"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1823"
-    citation: "21 U.S. 294"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1823-008"
@@ -598,9 +716,11 @@ cases:
     title: "Buel v. Van Ness"
     volume: "021"
     page: "312"
+    citation: "21 U.S. 312"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 18, 1823"
-    citation: "21 U.S. 312"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1823-014"
@@ -608,9 +728,11 @@ cases:
     title: "The Pitt"
     volume: "021"
     page: "371"
+    citation: "21 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Saturday, March 1, 1823"
-    citation: "21 U.S. 371"
+    voteMajority: 5
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1823-023"
@@ -618,9 +740,11 @@ cases:
     title: "Gracie v. Palmer"
     volume: "021"
     page: "605"
+    citation: "21 U.S. 605"
     pdfSource: "loc"
     dateDecision: "Friday, March 14, 1823"
-    citation: "21 U.S. 605"
+    voteMajority: 5
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1823-028"
@@ -628,9 +752,11 @@ cases:
     title: "Corporation of City of Washington v. Pratt"
     volume: "021"
     page: "681"
+    citation: "21 U.S. 681"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1823"
-    citation: "21 U.S. 681"
+    voteMajority: 5
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1824-009"
@@ -638,9 +764,11 @@ cases:
     title: "Love v. Simm&apos;s Lessee"
     volume: "022"
     page: "515"
+    citation: "22 U.S. 515"
     pdfSource: "loc"
     dateDecision: "Saturday, February 28, 1824"
-    citation: "22 U.S. 515"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1824-019"
@@ -648,9 +776,11 @@ cases:
     title: "Danforth v. Wear"
     volume: "022"
     page: "673"
+    citation: "22 U.S. 673"
     pdfSource: "loc"
     dateDecision: "Saturday, March 6, 1824"
-    citation: "22 U.S. 673"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1824-025"
@@ -658,9 +788,11 @@ cases:
     title: "McGruder v. Bank of Washington"
     volume: "022"
     page: "598"
+    citation: "22 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Saturday, March 13, 1824"
-    citation: "22 U.S. 598"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1824-026"
@@ -668,9 +800,11 @@ cases:
     title: "The St. Jago de Cuba"
     volume: "022"
     page: "409"
+    citation: "22 U.S. 409"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1824"
-    citation: "22 U.S. 409"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1825-010"
@@ -678,9 +812,11 @@ cases:
     title: "Janney v. Columbian Ins. Co."
     volume: "023"
     page: "411"
+    citation: "23 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Friday, March 4, 1825"
-    citation: "23 U.S. 411"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1825-012"
@@ -688,9 +824,11 @@ cases:
     title: "Manro v. Almeida"
     volume: "023"
     page: "473"
+    citation: "23 U.S. 473"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 9, 1825"
-    citation: "23 U.S. 473"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1825-015"
@@ -698,9 +836,11 @@ cases:
     title: "Darby&apos;s Lessee v. Mayer"
     volume: "023"
     page: "465"
+    citation: "23 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Saturday, March 12, 1825"
-    citation: "23 U.S. 465"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1825-020"
@@ -708,9 +848,11 @@ cases:
     title: "Sixty Pipes of Brandy"
     volume: "023"
     page: "421"
+    citation: "23 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 16, 1825"
-    citation: "23 U.S. 421"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1825-024"
@@ -718,9 +860,11 @@ cases:
     title: "De Wolf v. Johnson"
     volume: "023"
     page: "367"
+    citation: "23 U.S. 367"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1825"
-    citation: "23 U.S. 367"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1826-003"
@@ -728,9 +872,11 @@ cases:
     title: "Otis v. Walter"
     volume: "024"
     page: "192"
+    citation: "24 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1826"
-    citation: "24 U.S. 192"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1826-008"
@@ -738,9 +884,11 @@ cases:
     title: "Littlepage v. Fowler"
     volume: "024"
     page: "215"
+    citation: "24 U.S. 215"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 22, 1826"
-    citation: "24 U.S. 215"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1826-015"
@@ -748,9 +896,11 @@ cases:
     title: "Doe v. Robertson"
     volume: "024"
     page: "332"
+    citation: "24 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Saturday, March 4, 1826"
-    citation: "24 U.S. 332"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1826-030"
@@ -758,9 +908,11 @@ cases:
     title: "Shelby v. Guy"
     volume: "024"
     page: "361"
+    citation: "24 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Saturday, March 18, 1826"
-    citation: "24 U.S. 361"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1827-013"
@@ -768,9 +920,11 @@ cases:
     title: "Chotard v. Pope"
     volume: "025"
     page: "586"
+    citation: "25 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Saturday, February 10, 1827"
-    citation: "25 U.S. 586"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1827-017"
@@ -778,9 +932,11 @@ cases:
     title: "Lidderdale&apos;s Executors v. Executor of Robinson"
     volume: "025"
     page: "594"
+    citation: "25 U.S. 594"
     pdfSource: "loc"
     dateDecision: "Saturday, February 17, 1827"
-    citation: "25 U.S. 594"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1827-018"
@@ -788,9 +944,11 @@ cases:
     title: "McGill v. Bank of United States"
     volume: "025"
     page: "511"
+    citation: "25 U.S. 511"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 20, 1827"
-    citation: "25 U.S. 511"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1827-029"
@@ -798,9 +956,11 @@ cases:
     title: "Harcourt v. Gaillard"
     volume: "025"
     page: "523"
+    citation: "25 U.S. 523"
     pdfSource: "loc"
     dateDecision: "Saturday, March 3, 1827"
-    citation: "25 U.S. 523"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1827-036"
@@ -808,9 +968,11 @@ cases:
     title: "Drummond v. Executors of Prestman"
     volume: "025"
     page: "515"
+    citation: "25 U.S. 515"
     pdfSource: "loc"
     dateDecision: "Friday, March 9, 1827"
-    citation: "25 U.S. 515"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1827-047"
@@ -818,9 +980,11 @@ cases:
     title: "Mason v. Matilda"
     volume: "025"
     page: "590"
+    citation: "25 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1827"
-    citation: "25 U.S. 590"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1828-005"
@@ -828,9 +992,11 @@ cases:
     title: "Gaither v. Farmers &amp; Mechanics Bank of Georgetown ex rel. Corcorran"
     volume: "026"
     page: "037"
+    citation: "26 U.S. 37"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 29, 1828"
-    citation: "26 U.S. 37"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1828-014"
@@ -838,9 +1004,11 @@ cases:
     title: "Buck &amp; Hedrick v. Chesapeake Ins. Co."
     volume: "026"
     page: "151"
+    citation: "26 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Friday, February 8, 1828"
-    citation: "26 U.S. 151"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1828-029"
@@ -848,9 +1016,11 @@ cases:
     title: "Davis v. Mason"
     volume: "026"
     page: "503"
+    citation: "26 U.S. 503"
     pdfSource: "loc"
     dateDecision: "Friday, February 22, 1828"
-    citation: "26 U.S. 503"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1828-037"
@@ -858,9 +1028,11 @@ cases:
     title: "Barry v. Coombe"
     volume: "026"
     page: "640"
+    citation: "26 U.S. 640"
     pdfSource: "loc"
     dateDecision: "Friday, February 29, 1828"
-    citation: "26 U.S. 640"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1828-040"
@@ -868,9 +1040,11 @@ cases:
     title: "Fullerton v. Bank of United States"
     volume: "026"
     page: "604"
+    citation: "26 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Friday, March 7, 1828"
-    citation: "26 U.S. 604"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1828-046"
@@ -878,9 +1052,11 @@ cases:
     title: "Waring v. Jackson"
     volume: "026"
     page: "570"
+    citation: "26 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 11, 1828"
-    citation: "26 U.S. 570"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1829-015"
@@ -888,9 +1064,11 @@ cases:
     title: "Bank of Kentucky v. Wister"
     volume: "027"
     page: "318"
+    citation: "27 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Saturday, February 14, 1829"
-    citation: "27 U.S. 318"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1829-016"
@@ -898,9 +1076,11 @@ cases:
     title: "Bank of Kentucky v. Ashley"
     volume: "027"
     page: "327"
+    citation: "27 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Saturday, February 14, 1829"
-    citation: "27 U.S. 327"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1829-023"
@@ -908,9 +1088,11 @@ cases:
     title: "Bank of United States v. Weisiger"
     volume: "027"
     page: "331"
+    citation: "27 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Friday, February 27, 1829"
-    citation: "27 U.S. 331"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1829-026"
@@ -918,9 +1100,11 @@ cases:
     title: "Campbell&apos;s Executors v. Pratt"
     volume: "027"
     page: "354"
+    citation: "27 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1829"
-    citation: "27 U.S. 354"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1829-035"
@@ -928,9 +1112,11 @@ cases:
     title: "Bank of United States v. Owens"
     volume: "027"
     page: "527"
+    citation: "27 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 17, 1829"
-    citation: "27 U.S. 527"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1830-005"
@@ -938,9 +1124,11 @@ cases:
     title: "United States v. Preston"
     volume: "028"
     page: "057"
+    citation: "28 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Friday, January 29, 1830"
-    citation: "28 U.S. 57"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1830-008"
@@ -948,9 +1136,11 @@ cases:
     title: "Boyce&apos;s Executors v. Grundy"
     volume: "028"
     page: "210"
+    citation: "28 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 2, 1830"
-    citation: "28 U.S. 210"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1830-013"
@@ -958,9 +1148,11 @@ cases:
     title: "Parsons v. Armor"
     volume: "028"
     page: "413"
+    citation: "28 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 9, 1830"
-    citation: "28 U.S. 413"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1830-022"
@@ -968,9 +1160,11 @@ cases:
     title: "Clay v. Smith"
     volume: "028"
     page: "411"
+    citation: "28 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 16, 1830"
-    citation: "28 U.S. 411"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1830-033"
@@ -978,9 +1172,11 @@ cases:
     title: "Patapsco Ins. Co. v. Coulter"
     volume: "028"
     page: "222"
+    citation: "28 U.S. 222"
     pdfSource: "loc"
     dateDecision: "Thursday, March 4, 1830"
-    citation: "28 U.S. 222"
+    voteMajority: 5
+    voteMinority: 2
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1830-045"
@@ -988,9 +1184,11 @@ cases:
     title: "Caldwell v. Taggart"
     volume: "029"
     page: "190"
+    citation: "29 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 16, 1830"
-    citation: "29 U.S. 190"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1830-052"
@@ -998,9 +1196,11 @@ cases:
     title: "Wilcox v. Executors of Plummer"
     volume: "029"
     page: "172"
+    citation: "29 U.S. 172"
     pdfSource: "loc"
     dateDecision: "Friday, March 19, 1830"
-    citation: "29 U.S. 172"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1831-004"
@@ -1008,9 +1208,11 @@ cases:
     title: "Livingston v. Smith"
     volume: "030"
     page: "090"
+    citation: "30 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Saturday, January 22, 1831"
-    citation: "30 U.S. 90"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1831-012"
@@ -1018,9 +1220,11 @@ cases:
     title: "Farrar v. United States"
     volume: "030"
     page: "373"
+    citation: "30 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 1, 1831"
-    citation: "30 U.S. 373"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1831-018"
@@ -1028,9 +1232,11 @@ cases:
     title: "Smith v. Union Bank of Georgetown"
     volume: "030"
     page: "518"
+    citation: "30 U.S. 518"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 8, 1831"
-    citation: "30 U.S. 518"
+    voteMajority: 6
+    voteMinority: 1
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1831-025"
@@ -1038,9 +1244,11 @@ cases:
     title: "Hawkins v. Barney&apos;s Lessee"
     volume: "030"
     page: "457"
+    citation: "30 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Thursday, February 17, 1831"
-    citation: "30 U.S. 457"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1831-038"
@@ -1048,9 +1256,11 @@ cases:
     title: "Jackson v. Huntington"
     volume: "030"
     page: "402"
+    citation: "30 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 15, 1831"
-    citation: "30 U.S. 402"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1833-008"
@@ -1058,9 +1268,11 @@ cases:
     title: "Scholefield v. Eichelberger"
     volume: "032"
     page: "586"
+    citation: "32 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1833"
-    citation: "32 U.S. 586"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1833-020"
@@ -1068,9 +1280,11 @@ cases:
     title: "Lessee of Livingston v. Moore"
     volume: "032"
     page: "469"
+    citation: "32 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1833"
-    citation: "32 U.S. 469"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1833-025"
@@ -1078,9 +1292,11 @@ cases:
     title: "Pickett&apos;s Heirs v. Legerwood"
     volume: "032"
     page: "144"
+    citation: "32 U.S. 144"
     pdfSource: "loc"
     dateDecision: "Saturday, March 2, 1833"
-    citation: "32 U.S. 144"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
   - id: "1833-034"
@@ -1088,9 +1304,11 @@ cases:
     title: "Nichols v. Fearson"
     volume: "032"
     page: "103"
+    citation: "32 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 12, 1833"
-    citation: "32 U.S. 103"
+    voteMajority: 6
+    voteMinority: 0
     authorId: wjohnson
     authorName: "William Johnson"
 ---

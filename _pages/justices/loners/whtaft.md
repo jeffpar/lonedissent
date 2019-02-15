@@ -8,9 +8,12 @@ cases:
     title: "Toyota v. United States"
     volume: "268"
     page: "402"
+    docket: "231"
+    citation: "268 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1925"
-    citation: "268 U.S. 402"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whtaft
     dissenterName: "William Taft"
 ---

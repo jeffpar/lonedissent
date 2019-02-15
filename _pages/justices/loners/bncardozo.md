@@ -8,9 +8,12 @@ cases:
     title: "Landress v. Phoenix Mut. Life Ins. Co."
     volume: "291"
     page: "491"
+    docket: "295"
+    citation: "291 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1934"
-    citation: "291 U.S. 491"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: bncardozo
     dissenterName: "Benjamin Cardozo"
   - id: "1934-073"
@@ -18,9 +21,12 @@ cases:
     title: "Panama Refining Co. v. Ryan"
     volume: "293"
     page: "388"
+    docket: "135"
+    citation: "293 U.S. 388"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1935"
-    citation: "293 U.S. 388"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: bncardozo
     dissenterName: "Benjamin Cardozo"
   - id: "1934-087"
@@ -28,9 +34,12 @@ cases:
     title: "Broderick v. Rosner"
     volume: "294"
     page: "629"
+    docket: "528"
+    citation: "294 U.S. 629"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1935"
-    citation: "294 U.S. 629"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: bncardozo
     dissenterName: "Benjamin Cardozo"
   - id: "1936-049"
@@ -38,9 +47,12 @@ cases:
     title: "Powell v. United States"
     volume: "300"
     page: "276"
+    docket: "295"
+    citation: "300 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1937"
-    citation: "300 U.S. 276"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: bncardozo
     dissenterName: "Benjamin Cardozo"
 ---

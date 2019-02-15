@@ -8,9 +8,11 @@ cases:
     title: "Wiscart v. Dauchy"
     volume: "003"
     page: "321"
+    citation: "3 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Friday, August 12, 1796"
-    citation: "3 U.S. 321"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: jwilson
     dissenterName: "James Wilson"
 ---

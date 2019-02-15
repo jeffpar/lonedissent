@@ -8,9 +8,12 @@ cases:
     title: "Society for Sav. in Cleveland v. Bowers"
     volume: "349"
     page: "143"
+    docket: "204"
+    citation: "349 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1955"
-    citation: "349 U.S. 143"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1954-095"
@@ -18,9 +21,12 @@ cases:
     title: "Ellis v. Dixon"
     volume: "349"
     page: "458"
+    docket: "20"
+    citation: "349 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1955"
-    citation: "349 U.S. 458"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1955-018"
@@ -28,9 +34,12 @@ cases:
     title: "Secretary of Agriculture v. United States"
     volume: "350"
     page: "162"
+    docket: "6"
+    citation: "350 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1956"
-    citation: "350 U.S. 162"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1955-030"
@@ -38,9 +47,12 @@ cases:
     title: "United Gas Pipe Line Co. v. Mobile Gas Service Corp."
     volume: "350"
     page: "332"
+    docket: "17"
+    citation: "350 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1956"
-    citation: "350 U.S. 332"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1955-031"
@@ -48,9 +60,12 @@ cases:
     title: "FPC v. Sierra Pacific Power Co."
     volume: "350"
     page: "348"
+    docket: "51"
+    citation: "350 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1956"
-    citation: "350 U.S. 348"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1955-036"
@@ -58,9 +73,12 @@ cases:
     title: "United States v. Leslie Salt Co."
     volume: "350"
     page: "383"
+    docket: "74"
+    citation: "350 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1956"
-    citation: "350 U.S. 383"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1955-075"
@@ -68,9 +86,12 @@ cases:
     title: "Berra v. United States"
     volume: "351"
     page: "131"
+    docket: "60"
+    citation: "351 U.S. 131"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1956"
-    citation: "351 U.S. 131"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1955-100"
@@ -78,9 +99,12 @@ cases:
     title: "Parr v. United States"
     volume: "351"
     page: "513"
+    docket: "320"
+    citation: "351 U.S. 513"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1956"
-    citation: "351 U.S. 513"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1955-101"
@@ -88,9 +112,12 @@ cases:
     title: "Czaplicki v. The Hoegh Silvercloud"
     volume: "351"
     page: "525"
+    docket: "342"
+    citation: "351 U.S. 525"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1956"
-    citation: "351 U.S. 525"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1955-102"
@@ -98,9 +125,12 @@ cases:
     title: "Cole v. Young"
     volume: "351"
     page: "536"
+    docket: "442"
+    citation: "351 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1956"
-    citation: "351 U.S. 536"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1955-103"
@@ -108,9 +138,12 @@ cases:
     title: "De Sylva v. Ballentine"
     volume: "351"
     page: "570"
+    docket: "529"
+    citation: "351 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1956"
-    citation: "351 U.S. 570"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1956-008"
@@ -118,9 +151,12 @@ cases:
     title: "United States v. Western Pacific R. Co."
     volume: "352"
     page: "059"
+    docket: "18"
+    citation: "352 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1956"
-    citation: "352 U.S. 59"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1956-009"
@@ -128,9 +164,12 @@ cases:
     title: "United States v. Chesapeake &amp; Ohio R. Co."
     volume: "352"
     page: "077"
+    docket: "19"
+    citation: "352 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1956"
-    citation: "352 U.S. 77"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1956-043"
@@ -138,9 +177,12 @@ cases:
     title: "United States Gypsum Co. v. National Gypsum Co."
     volume: "352"
     page: "457"
+    docket: "11"
+    citation: "352 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1957"
-    citation: "352 U.S. 457"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1956-044"
@@ -148,9 +190,12 @@ cases:
     title: "Pennsylvania R. Co. v. Rychlik"
     volume: "352"
     page: "480"
+    docket: "56"
+    citation: "352 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1957"
-    citation: "352 U.S. 480"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1956-063"
@@ -158,9 +203,12 @@ cases:
     title: "United States ex rel. Hintopoulos v. Shaughnessy"
     volume: "353"
     page: "072"
+    docket: "205"
+    citation: "353 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1957"
-    citation: "353 U.S. 72"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1956-088"
@@ -168,9 +216,12 @@ cases:
     title: "Grunewald v. United States"
     volume: "353"
     page: "391"
+    docket: "183"
+    citation: "353 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1957"
-    citation: "353 U.S. 391"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1956-107"
@@ -178,9 +229,12 @@ cases:
     title: "Chessman v. Teets"
     volume: "354"
     page: "156"
+    docket: "893"
+    citation: "354 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1957"
-    citation: "354 U.S. 156"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1956-113"
@@ -188,9 +242,12 @@ cases:
     title: "Yates v. United States"
     volume: "354"
     page: "298"
+    docket: "6"
+    citation: "354 U.S. 298"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1957"
-    citation: "354 U.S. 298"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1956-120"
@@ -198,9 +255,12 @@ cases:
     title: "United States v. Calamaro"
     volume: "354"
     page: "351"
+    docket: "304"
+    citation: "354 U.S. 351"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1957"
-    citation: "354 U.S. 351"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1956-121"
@@ -208,9 +268,12 @@ cases:
     title: "Service v. Dulles"
     volume: "354"
     page: "363"
+    docket: "407"
+    citation: "354 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1957"
-    citation: "354 U.S. 363"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1956-122"
@@ -218,9 +281,12 @@ cases:
     title: "West Point Wholesale Grocery Co. v. City of Opelika"
     volume: "354"
     page: "390"
+    docket: "478"
+    citation: "354 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1957"
-    citation: "354 U.S. 390"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-025"
@@ -228,9 +294,12 @@ cases:
     title: "United States v. Shotwell Mfg. Co."
     volume: "355"
     page: "233"
+    docket: "1"
+    citation: "355 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1957"
-    citation: "355 U.S. 233"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-036"
@@ -238,9 +307,12 @@ cases:
     title: "Nashville Milk Co. v. Carnation Co."
     volume: "355"
     page: "373"
+    docket: "67"
+    citation: "355 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1958"
-    citation: "355 U.S. 373"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-037"
@@ -248,9 +320,12 @@ cases:
     title: "Safeway Stores, Inc. v. Vance"
     volume: "355"
     page: "389"
+    docket: "69"
+    citation: "355 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1958"
-    citation: "355 U.S. 389"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-074"
@@ -258,9 +333,12 @@ cases:
     title: "Green v. United States"
     volume: "356"
     page: "165"
+    docket: "100"
+    citation: "356 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1958"
-    citation: "356 U.S. 165"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-095"
@@ -268,9 +346,12 @@ cases:
     title: "Hoag v. New Jersey"
     volume: "356"
     page: "464"
+    docket: "40"
+    citation: "356 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1958"
-    citation: "356 U.S. 464"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-107"
@@ -278,9 +359,12 @@ cases:
     title: "Nowak v. United States"
     volume: "356"
     page: "660"
+    docket: "72"
+    citation: "356 U.S. 660"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1958"
-    citation: "356 U.S. 660"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-108"
@@ -288,9 +372,12 @@ cases:
     title: "Maisenberg v. United States"
     volume: "356"
     page: "670"
+    docket: "76"
+    citation: "356 U.S. 670"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1958"
-    citation: "356 U.S. 670"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-114"
@@ -298,9 +385,12 @@ cases:
     title: "United States v. Dow"
     volume: "357"
     page: "017"
+    docket: "102"
+    citation: "357 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1958"
-    citation: "357 U.S. 17"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-115"
@@ -308,9 +398,12 @@ cases:
     title: "Colony, Inc. v. Commissioner"
     volume: "357"
     page: "028"
+    docket: "306"
+    citation: "357 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1958"
-    citation: "357 U.S. 28"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-126"
@@ -318,9 +411,12 @@ cases:
     title: "Societe Internationale pour Participations Industrielles et Commerciales, S. A. v. Rogers"
     volume: "357"
     page: "197"
+    docket: "348"
+    citation: "357 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1958"
-    citation: "357 U.S. 197"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-141"
@@ -328,9 +424,12 @@ cases:
     title: "Lerner v. Casey"
     volume: "357"
     page: "468"
+    docket: "165"
+    citation: "357 U.S. 468"
     pdfSource: "loc"
     dateDecision: "Monday, June 30, 1958"
-    citation: "357 U.S. 468"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-146"
@@ -338,9 +437,12 @@ cases:
     title: "NAACP v. Alabama ex rel. Patterson"
     volume: "357"
     page: "449"
+    docket: "91"
+    citation: "357 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Monday, June 30, 1958"
-    citation: "357 U.S. 449"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-147"
@@ -348,9 +450,12 @@ cases:
     title: "Giordenello v. United States"
     volume: "357"
     page: "480"
+    docket: "549"
+    citation: "357 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Monday, June 30, 1958"
-    citation: "357 U.S. 480"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-148"
@@ -358,9 +463,12 @@ cases:
     title: "Jones v. United States"
     volume: "357"
     page: "493"
+    docket: "331"
+    citation: "357 U.S. 493"
     pdfSource: "loc"
     dateDecision: "Monday, June 30, 1958"
-    citation: "357 U.S. 493"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1957-149"
@@ -368,9 +476,12 @@ cases:
     title: "Cicenia v. Lagay"
     volume: "357"
     page: "504"
+    docket: "177"
+    citation: "357 U.S. 504"
     pdfSource: "loc"
     dateDecision: "Monday, June 30, 1958"
-    citation: "357 U.S. 504"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1958-016"
@@ -378,9 +489,12 @@ cases:
     title: "United Gas Pipe Line Co. v. Memphis Light, Gas and Water Div."
     volume: "358"
     page: "103"
+    docket: "23"
+    citation: "358 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1958"
-    citation: "358 U.S. 103"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1958-017"
@@ -388,9 +502,12 @@ cases:
     title: "United States v. A &amp; P Trucking Co."
     volume: "358"
     page: "121"
+    docket: "32"
+    citation: "358 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1958"
-    citation: "358 U.S. 121"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1958-043"
@@ -398,9 +515,12 @@ cases:
     title: "Cammarano v. United States"
     volume: "358"
     page: "498"
+    docket: "29"
+    citation: "358 U.S. 498"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1959"
-    citation: "358 U.S. 498"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1958-077"
@@ -408,9 +528,12 @@ cases:
     title: "Mitchell v. Kentucky Finance Co."
     volume: "359"
     page: "290"
+    docket: "161"
+    citation: "359 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1959"
-    citation: "359 U.S. 290"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1958-089"
@@ -418,9 +541,12 @@ cases:
     title: "T. I. M. E. Inc. v. United States"
     volume: "359"
     page: "464"
+    docket: "68"
+    citation: "359 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1959"
-    citation: "359 U.S. 464"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1958-094"
@@ -428,9 +554,12 @@ cases:
     title: "Vitarelli v. Seaton"
     volume: "359"
     page: "535"
+    docket: "101"
+    citation: "359 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1959"
-    citation: "359 U.S. 535"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1958-102"
@@ -438,9 +567,12 @@ cases:
     title: "Barenblatt v. United States"
     volume: "360"
     page: "109"
+    docket: "35"
+    citation: "360 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1959"
-    citation: "360 U.S. 109"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1958-103"
@@ -448,9 +580,12 @@ cases:
     title: "Harrison v. NAACP"
     volume: "360"
     page: "167"
+    docket: "127"
+    citation: "360 U.S. 167"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1959"
-    citation: "360 U.S. 167"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1958-113"
@@ -458,9 +593,12 @@ cases:
     title: "Anonymous v. Baker"
     volume: "360"
     page: "287"
+    docket: "378"
+    citation: "360 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1959"
-    citation: "360 U.S. 287"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1958-123"
@@ -468,9 +606,12 @@ cases:
     title: "Southwestern Sugar &amp; Molasses Co. v. River Terminals Corp."
     volume: "360"
     page: "411"
+    docket: "155"
+    citation: "360 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1959"
-    citation: "360 U.S. 411"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1958-130"
@@ -478,9 +619,12 @@ cases:
     title: "Barr v. Mateo"
     volume: "360"
     page: "564"
+    docket: "350"
+    citation: "360 U.S. 564"
     pdfSource: "loc"
     dateDecision: "Monday, June 29, 1959"
-    citation: "360 U.S. 564"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1958-131"
@@ -488,9 +632,12 @@ cases:
     title: "Howard v. Lyons"
     volume: "360"
     page: "593"
+    docket: "57"
+    citation: "360 U.S. 593"
     pdfSource: "loc"
     dateDecision: "Monday, June 29, 1959"
-    citation: "360 U.S. 593"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1959-024"
@@ -498,9 +645,12 @@ cases:
     title: "Mitchell v. Robert DeMario Jewelry, Inc."
     volume: "361"
     page: "288"
+    docket: "39"
+    citation: "361 U.S. 288"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1960"
-    citation: "361 U.S. 288"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1959-025"
@@ -508,9 +658,12 @@ cases:
     title: "United States v. Price"
     volume: "361"
     page: "304"
+    docket: "48"
+    citation: "361 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1960"
-    citation: "361 U.S. 304"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1959-068"
@@ -518,9 +671,12 @@ cases:
     title: "Machinists v. NLRB"
     volume: "362"
     page: "411"
+    docket: "44"
+    citation: "362 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1960"
-    citation: "362 U.S. 411"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1959-077"
@@ -528,9 +684,12 @@ cases:
     title: "Wyatt v. United States"
     volume: "362"
     page: "525"
+    docket: "119"
+    citation: "362 U.S. 525"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1960"
-    citation: "362 U.S. 525"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1959-086"
@@ -538,9 +697,12 @@ cases:
     title: "United States v. Louisiana"
     volume: "363"
     page: "001"
+    docket: "10 Orig."
+    citation: "363 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1960"
-    citation: "363 U.S. 1"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1959-097"
@@ -548,9 +710,12 @@ cases:
     title: "United States v. Brosnan"
     volume: "363"
     page: "237"
+    docket: "137"
+    citation: "363 U.S. 237"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1960"
-    citation: "363 U.S. 237"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1959-114"
@@ -558,9 +723,12 @@ cases:
     title: "Flemming v. Nestor"
     volume: "363"
     page: "603"
+    docket: "54"
+    citation: "363 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1960"
-    citation: "363 U.S. 603"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1959-115"
@@ -568,9 +736,12 @@ cases:
     title: "Miner v. Atlass"
     volume: "363"
     page: "641"
+    docket: "156"
+    citation: "363 U.S. 641"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1960"
-    citation: "363 U.S. 641"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1959-116"
@@ -578,9 +749,12 @@ cases:
     title: "Schilling v. Rogers"
     volume: "363"
     page: "666"
+    docket: "319"
+    citation: "363 U.S. 666"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1960"
-    citation: "363 U.S. 666"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1959-128"
@@ -588,9 +762,12 @@ cases:
     title: "Commissioner v. Gillette Motor Transport, Inc."
     volume: "364"
     page: "130"
+    docket: "359"
+    citation: "364 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Monday, June 27, 1960"
-    citation: "364 U.S. 130"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1960-029"
@@ -598,9 +775,12 @@ cases:
     title: "Railway Employees v. Wright"
     volume: "364"
     page: "642"
+    docket: "48"
+    citation: "364 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1961"
-    citation: "364 U.S. 642"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1960-073"
@@ -608,9 +788,12 @@ cases:
     title: "Kossick v. United Fruit Co."
     volume: "365"
     page: "731"
+    docket: "96"
+    citation: "365 U.S. 731"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1961"
-    citation: "365 U.S. 731"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1960-080"
@@ -618,9 +801,12 @@ cases:
     title: "Konigsberg v. State Bar of Cal."
     volume: "366"
     page: "036"
+    docket: "28"
+    citation: "366 U.S. 36"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1961"
-    citation: "366 U.S. 36"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1960-081"
@@ -628,9 +814,12 @@ cases:
     title: "In re Anastaplo"
     volume: "366"
     page: "082"
+    docket: "58"
+    citation: "366 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1961"
-    citation: "366 U.S. 82"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1960-082"
@@ -638,9 +827,12 @@ cases:
     title: "Cohen v. Hurley"
     volume: "366"
     page: "117"
+    docket: "84"
+    citation: "366 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1961"
-    citation: "366 U.S. 117"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1960-096"
@@ -648,9 +840,12 @@ cases:
     title: "Montana v. Kennedy"
     volume: "366"
     page: "308"
+    docket: "198"
+    citation: "366 U.S. 308"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1961"
-    citation: "366 U.S. 308"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1960-109"
@@ -658,9 +853,12 @@ cases:
     title: "Sam Fox Publishing Co. v. United States"
     volume: "366"
     page: "683"
+    docket: "56"
+    citation: "366 U.S. 683"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1961"
-    citation: "366 U.S. 683"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1960-115"
@@ -668,9 +866,12 @@ cases:
     title: "Scales v. United States"
     volume: "367"
     page: "203"
+    docket: "1"
+    citation: "367 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1961"
-    citation: "367 U.S. 203"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1960-116"
@@ -678,9 +879,12 @@ cases:
     title: "Noto v. United States"
     volume: "367"
     page: "290"
+    docket: "9"
+    citation: "367 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1961"
-    citation: "367 U.S. 290"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1960-123"
@@ -688,9 +892,12 @@ cases:
     title: "United States v. Shimer"
     volume: "367"
     page: "374"
+    docket: "392"
+    citation: "367 U.S. 374"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1961"
-    citation: "367 U.S. 374"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1960-124"
@@ -698,9 +905,12 @@ cases:
     title: "Communist Party, U. S. A. v. Catherwood"
     volume: "367"
     page: "389"
+    docket: "495"
+    citation: "367 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1961"
-    citation: "367 U.S. 389"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1961-005"
@@ -708,9 +918,12 @@ cases:
     title: "Hoyt v. Florida"
     volume: "368"
     page: "057"
+    docket: "31"
+    citation: "368 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1961"
-    citation: "368 U.S. 57"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1961-062"
@@ -718,9 +931,12 @@ cases:
     title: "Commissioner v. Bilder"
     volume: "369"
     page: "499"
+    docket: "384"
+    citation: "369 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1962"
-    citation: "369 U.S. 499"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1961-067"
@@ -728,9 +944,12 @@ cases:
     title: "Hutcheson v. United States"
     volume: "369"
     page: "599"
+    docket: "46"
+    citation: "369 U.S. 599"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1962"
-    citation: "369 U.S. 599"
+    voteMajority: 4
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1961-075"
@@ -738,9 +957,12 @@ cases:
     title: "Lynch v. Overholser"
     volume: "369"
     page: "705"
+    docket: "159"
+    citation: "369 U.S. 705"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1962"
-    citation: "369 U.S. 705"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1961-088"
@@ -748,9 +970,12 @@ cases:
     title: "Lehigh Valley Cooperative Farmers, Inc. v. United States"
     volume: "370"
     page: "076"
+    docket: "79"
+    citation: "370 U.S. 76"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1962"
-    citation: "370 U.S. 76"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1961-108"
@@ -758,9 +983,12 @@ cases:
     title: "Manual Enterprises, Inc. v. Day"
     volume: "370"
     page: "478"
+    docket: "123"
+    citation: "370 U.S. 478"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1962"
-    citation: "370 U.S. 478"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1961-109"
@@ -768,9 +996,12 @@ cases:
     title: "Glidden Co. v. Zdanok"
     volume: "370"
     page: "530"
+    docket: "242"
+    citation: "370 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1962"
-    citation: "370 U.S. 530"
+    voteMajority: 5
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1961-110"
@@ -778,9 +1009,12 @@ cases:
     title: "Central R. Co. of Pa. v. Pennsylvania"
     volume: "370"
     page: "607"
+    docket: "400"
+    citation: "370 U.S. 607"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1962"
-    citation: "370 U.S. 607"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1961-111"
@@ -788,9 +1022,12 @@ cases:
     title: "Link v. Wabash R. Co."
     volume: "370"
     page: "626"
+    docket: "422"
+    citation: "370 U.S. 626"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1962"
-    citation: "370 U.S. 626"
+    voteMajority: 4
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1961-112"
@@ -798,9 +1035,12 @@ cases:
     title: "Gilbert v. United States"
     volume: "370"
     page: "650"
+    docket: "478"
+    citation: "370 U.S. 650"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1962"
-    citation: "370 U.S. 650"
+    voteMajority: 4
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1962-030"
@@ -808,9 +1048,12 @@ cases:
     title: "Shotwell Mfg. Co. v. United States"
     volume: "371"
     page: "341"
+    docket: "16"
+    citation: "371 U.S. 341"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1963"
-    citation: "371 U.S. 341"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1962-031"
@@ -818,9 +1061,12 @@ cases:
     title: "Cleary v. Bolger"
     volume: "371"
     page: "392"
+    docket: "57"
+    citation: "371 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1963"
-    citation: "371 U.S. 392"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1962-043"
@@ -828,9 +1074,12 @@ cases:
     title: "United States v. Gilmore"
     volume: "372"
     page: "039"
+    docket: "21"
+    citation: "372 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1963"
-    citation: "372 U.S. 39"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1962-044"
@@ -838,9 +1087,12 @@ cases:
     title: "United States v. Patrick"
     volume: "372"
     page: "053"
+    docket: "22"
+    citation: "372 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1963"
-    citation: "372 U.S. 53"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1962-082"
@@ -848,9 +1100,12 @@ cases:
     title: "ICC v. New York, N. H. &amp; H. R. Co."
     volume: "372"
     page: "744"
+    docket: "108"
+    citation: "372 U.S. 744"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1963"
-    citation: "372 U.S. 744"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1962-109"
@@ -858,9 +1113,12 @@ cases:
     title: "Wisconsin v. FPC"
     volume: "373"
     page: "294"
+    docket: "72"
+    citation: "373 U.S. 294"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1963"
-    citation: "373 U.S. 294"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1962-121"
@@ -868,9 +1126,12 @@ cases:
     title: "Lopez v. United States"
     volume: "373"
     page: "427"
+    docket: "236"
+    citation: "373 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1963"
-    citation: "373 U.S. 427"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1962-122"
@@ -878,9 +1139,12 @@ cases:
     title: "Boesche v. Udall"
     volume: "373"
     page: "472"
+    docket: "332"
+    citation: "373 U.S. 472"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1963"
-    citation: "373 U.S. 472"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1962-131"
@@ -888,9 +1152,12 @@ cases:
     title: "Plumbers v. Borden"
     volume: "373"
     page: "690"
+    docket: "541"
+    citation: "373 U.S. 690"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1963"
-    citation: "373 U.S. 690"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1962-132"
@@ -898,9 +1165,12 @@ cases:
     title: "Iron Workers v. Perko"
     volume: "373"
     page: "701"
+    docket: "482"
+    citation: "373 U.S. 701"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1963"
-    citation: "373 U.S. 701"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1962-133"
@@ -908,9 +1178,12 @@ cases:
     title: "United States v. Carlo Bianchi &amp; Co."
     volume: "373"
     page: "709"
+    docket: "529"
+    citation: "373 U.S. 709"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1963"
-    citation: "373 U.S. 709"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1962-141"
@@ -918,9 +1191,12 @@ cases:
     title: "Braunstein v. Commissioner"
     volume: "374"
     page: "065"
+    docket: "476"
+    citation: "374 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1963"
-    citation: "374 U.S. 65"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1963-016"
@@ -928,9 +1204,12 @@ cases:
     title: "United States v. Zacks"
     volume: "375"
     page: "059"
+    docket: "44"
+    citation: "375 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 12, 1963"
-    citation: "375 U.S. 59"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1963-044"
@@ -938,9 +1217,12 @@ cases:
     title: "NLRB v. Exchange Parts Co."
     volume: "375"
     page: "405"
+    docket: "26"
+    citation: "375 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1964"
-    citation: "375 U.S. 405"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1963-049"
@@ -948,9 +1230,12 @@ cases:
     title: "United States v. Healy"
     volume: "376"
     page: "075"
+    docket: "64"
+    citation: "376 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1964"
-    citation: "376 U.S. 75"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1963-066"
@@ -958,9 +1243,12 @@ cases:
     title: "Packinghouse Workers v. Needham Packing Co."
     volume: "376"
     page: "247"
+    docket: "102"
+    citation: "376 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1964"
-    citation: "376 U.S. 247"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1963-081"
@@ -968,9 +1256,12 @@ cases:
     title: "Banco Nacional de Cuba v. Sabbatino"
     volume: "376"
     page: "398"
+    docket: "16"
+    citation: "376 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1964"
-    citation: "376 U.S. 398"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1963-088"
@@ -978,9 +1269,12 @@ cases:
     title: "John Wiley &amp; Sons, Inc. v. Livingston"
     volume: "376"
     page: "543"
+    docket: "91"
+    citation: "376 U.S. 543"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1964"
-    citation: "376 U.S. 543"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1963-089"
@@ -988,9 +1282,12 @@ cases:
     title: "Mrvica v. Esperdy"
     volume: "376"
     page: "560"
+    docket: "353"
+    citation: "376 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1964"
-    citation: "376 U.S. 560"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1963-118"
@@ -998,9 +1295,12 @@ cases:
     title: "Massachusetts Trustees of Eastern Gas &amp; Fuel Associates v. United States"
     volume: "377"
     page: "235"
+    docket: "137"
+    citation: "377 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1964"
-    citation: "377 U.S. 235"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1963-124"
@@ -1008,9 +1308,12 @@ cases:
     title: "NAACP v. Alabama ex rel. Flowers"
     volume: "377"
     page: "288"
+    docket: "169"
+    citation: "377 U.S. 288"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1964"
-    citation: "377 U.S. 288"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1963-137"
@@ -1018,9 +1321,12 @@ cases:
     title: "United States v. Tateo"
     volume: "377"
     page: "463"
+    docket: "328"
+    citation: "377 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1964"
-    citation: "377 U.S. 463"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1964-005"
@@ -1028,9 +1334,12 @@ cases:
     title: "United States v. Powell"
     volume: "379"
     page: "048"
+    docket: "54"
+    citation: "379 U.S. 48"
     pdfSource: "loc"
     dateDecision: "Monday, November 23, 1964"
-    citation: "379 U.S. 48"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1964-006"
@@ -1038,9 +1347,12 @@ cases:
     title: "Ryan v. United States"
     volume: "379"
     page: "061"
+    docket: "12"
+    citation: "379 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Monday, November 23, 1964"
-    citation: "379 U.S. 61"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1964-020"
@@ -1048,9 +1360,12 @@ cases:
     title: "King v. United States"
     volume: "379"
     page: "329"
+    docket: "16"
+    citation: "379 U.S. 329"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1964"
-    citation: "379 U.S. 329"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1964-038"
@@ -1058,9 +1373,12 @@ cases:
     title: "Republic Steel Corp. v. Maddox"
     volume: "379"
     page: "650"
+    docket: "43"
+    citation: "379 U.S. 650"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1965"
-    citation: "379 U.S. 650"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1964-056"
@@ -1068,9 +1386,12 @@ cases:
     title: "Department of Mental Hygiene of Cal. v. Kirchner"
     volume: "380"
     page: "194"
+    docket: "111"
+    citation: "380 U.S. 194"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1965"
-    citation: "380 U.S. 194"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1964-062"
@@ -1078,9 +1399,12 @@ cases:
     title: "Textile Workers v. Darlington Mfg. Co."
     volume: "380"
     page: "263"
+    docket: "37"
+    citation: "380 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1965"
-    citation: "380 U.S. 263"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1964-096"
@@ -1088,9 +1412,12 @@ cases:
     title: "Maryland ex rel. Levin v. United States"
     volume: "381"
     page: "041"
+    docket: "345"
+    citation: "381 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1965"
-    citation: "381 U.S. 41"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1964-106"
@@ -1098,9 +1425,12 @@ cases:
     title: "United States v. California"
     volume: "381"
     page: "139"
+    docket: "5 Orig."
+    citation: "381 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1965"
-    citation: "381 U.S. 139"
+    voteMajority: 5
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1964-107"
@@ -1108,9 +1438,12 @@ cases:
     title: "Jaben v. United States"
     volume: "381"
     page: "214"
+    docket: "347"
+    citation: "381 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1965"
-    citation: "381 U.S. 214"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1964-116"
@@ -1118,9 +1451,12 @@ cases:
     title: "United Gas Improvement Co. v. Continental Oil Co."
     volume: "381"
     page: "392"
+    docket: "644"
+    citation: "381 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1965"
-    citation: "381 U.S. 392"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1965-013"
@@ -1128,9 +1464,12 @@ cases:
     title: "Swift &amp; Co. v. Wickham"
     volume: "382"
     page: "111"
+    docket: "9"
+    citation: "382 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, November 22, 1965"
-    citation: "382 U.S. 111"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1965-021"
@@ -1138,9 +1477,12 @@ cases:
     title: "Hanna Mining Co. v. Marine Engineers"
     volume: "382"
     page: "181"
+    docket: "7"
+    citation: "382 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1965"
-    citation: "382 U.S. 181"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1965-039"
@@ -1148,9 +1490,12 @@ cases:
     title: "Segal v. Rochelle"
     volume: "382"
     page: "375"
+    docket: "44"
+    citation: "382 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 18, 1966"
-    citation: "382 U.S. 375"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1965-054"
@@ -1158,9 +1503,12 @@ cases:
     title: "United States v. Johnson"
     volume: "383"
     page: "169"
+    docket: "25"
+    citation: "383 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Thursday, February 24, 1966"
-    citation: "383 U.S. 169"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1965-055"
@@ -1168,9 +1516,12 @@ cases:
     title: "Idaho Sheet Metal Works, Inc. v. Wirtz"
     volume: "383"
     page: "190"
+    docket: "30"
+    citation: "383 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Thursday, February 24, 1966"
-    citation: "383 U.S. 190"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1965-093"
@@ -1178,9 +1529,12 @@ cases:
     title: "Wallis v. Pan American Petroleum Corp."
     volume: "384"
     page: "063"
+    docket: "341"
+    citation: "384 U.S. 63"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1966"
-    citation: "384 U.S. 63"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1965-104"
@@ -1188,9 +1542,12 @@ cases:
     title: "Pure Oil Co. v. Suarez"
     volume: "384"
     page: "202"
+    docket: "692"
+    citation: "384 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1966"
-    citation: "384 U.S. 202"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1965-108"
@@ -1198,9 +1555,12 @@ cases:
     title: "United States v. Blue"
     volume: "384"
     page: "251"
+    docket: "531"
+    citation: "384 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1966"
-    citation: "384 U.S. 251"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1966-024"
@@ -1208,9 +1568,12 @@ cases:
     title: "United States v. Fabrizio"
     volume: "385"
     page: "263"
+    docket: "47"
+    citation: "385 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1966"
-    citation: "385 U.S. 263"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1966-035"
@@ -1218,9 +1581,12 @@ cases:
     title: "Lassen v. Arizona ex rel. Arizona Highway Dept."
     volume: "385"
     page: "458"
+    docket: "84"
+    citation: "385 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 10, 1967"
-    citation: "385 U.S. 458"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1966-043"
@@ -1228,9 +1594,12 @@ cases:
     title: "Spencer v. Texas"
     volume: "385"
     page: "554"
+    docket: "68"
+    citation: "385 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1967"
-    citation: "385 U.S. 554"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1966-073"
@@ -1238,9 +1607,12 @@ cases:
     title: "Honda v. Clark"
     volume: "386"
     page: "484"
+    docket: "164"
+    citation: "386 U.S. 484"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1967"
-    citation: "386 U.S. 484"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1966-101"
@@ -1248,9 +1620,12 @@ cases:
     title: "SEC v. United Benefit Life Ins. Co."
     volume: "387"
     page: "202"
+    docket: "428"
+    citation: "387 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1967"
-    citation: "387 U.S. 202"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1966-102"
@@ -1258,9 +1633,12 @@ cases:
     title: "Abbott Laboratories v. Gardner"
     volume: "387"
     page: "136"
+    docket: "39"
+    citation: "387 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1967"
-    citation: "387 U.S. 136"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1966-103"
@@ -1268,9 +1646,12 @@ cases:
     title: "Toilet Goods Assn., Inc. v. Gardner"
     volume: "387"
     page: "158"
+    docket: "336"
+    citation: "387 U.S. 158"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1967"
-    citation: "387 U.S. 158"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1966-104"
@@ -1278,9 +1659,12 @@ cases:
     title: "Gardner v. Toilet Goods Assn., Inc."
     volume: "387"
     page: "167"
+    docket: "438"
+    citation: "387 U.S. 167"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1967"
-    citation: "387 U.S. 167"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1966-123"
@@ -1288,9 +1672,12 @@ cases:
     title: "Curtis Publishing Co. v. Butts"
     volume: "388"
     page: "130"
+    docket: "37"
+    citation: "388 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1967"
-    citation: "388 U.S. 130"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1967-061"
@@ -1298,9 +1685,12 @@ cases:
     title: "Marchetti v. United States"
     volume: "390"
     page: "039"
+    docket: "2"
+    citation: "390 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1968"
-    citation: "390 U.S. 39"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1967-062"
@@ -1308,9 +1698,12 @@ cases:
     title: "Grosso v. United States"
     volume: "390"
     page: "062"
+    docket: "12"
+    citation: "390 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1968"
-    citation: "390 U.S. 62"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1967-063"
@@ -1318,9 +1711,12 @@ cases:
     title: "Haynes v. United States"
     volume: "390"
     page: "085"
+    docket: "236"
+    citation: "390 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1968"
-    citation: "390 U.S. 85"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1967-064"
@@ -1328,9 +1724,12 @@ cases:
     title: "Provident Tradesmens Bank &amp; Trust Co. v. Patterson"
     volume: "390"
     page: "102"
+    docket: "28"
+    citation: "390 U.S. 102"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1968"
-    citation: "390 U.S. 102"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1967-083"
@@ -1338,9 +1737,12 @@ cases:
     title: "Simmons v. United States"
     volume: "390"
     page: "377"
+    docket: "55"
+    citation: "390 U.S. 377"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1968"
-    citation: "390 U.S. 377"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1967-112"
@@ -1348,9 +1750,12 @@ cases:
     title: "Permian Basin Area Rate Cases"
     volume: "390"
     page: "747"
+    docket: "90"
+    citation: "390 U.S. 747"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 1, 1968"
-    citation: "390 U.S. 747"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1967-114"
@@ -1358,9 +1763,12 @@ cases:
     title: "FPC v. Sunray DX Oil Co."
     volume: "391"
     page: "009"
+    docket: "60"
+    citation: "391 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1968"
-    citation: "391 U.S. 9"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1967-119"
@@ -1368,9 +1776,12 @@ cases:
     title: "Commissioner v. Gordon"
     volume: "391"
     page: "083"
+    docket: "760"
+    citation: "391 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1968"
-    citation: "391 U.S. 83"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1967-145"
@@ -1378,9 +1789,12 @@ cases:
     title: "Reading Co. v. Brown"
     volume: "391"
     page: "471"
+    docket: "127"
+    citation: "391 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1968"
-    citation: "391 U.S. 471"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1967-161"
@@ -1388,9 +1802,12 @@ cases:
     title: "United States v. Southwestern Cable Co."
     volume: "392"
     page: "157"
+    docket: "363"
+    citation: "392 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1968"
-    citation: "392 U.S. 157"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1967-162"
@@ -1398,9 +1815,12 @@ cases:
     title: "Maryland v. Wirtz"
     volume: "392"
     page: "183"
+    docket: "742"
+    citation: "392 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1968"
-    citation: "392 U.S. 183"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1967-163"
@@ -1408,9 +1828,12 @@ cases:
     title: "Cheng Fan Kwok v. INS"
     volume: "392"
     page: "206"
+    docket: "638"
+    citation: "392 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1968"
-    citation: "392 U.S. 206"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1967-178"
@@ -1418,9 +1841,12 @@ cases:
     title: "Mancusi v. DeForte"
     volume: "392"
     page: "364"
+    docket: "844"
+    citation: "392 U.S. 364"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1968"
-    citation: "392 U.S. 364"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1968-038"
@@ -1428,9 +1854,12 @@ cases:
     title: "Spinelli v. United States"
     volume: "393"
     page: "410"
+    docket: "8"
+    citation: "393 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1969"
-    citation: "393 U.S. 410"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1968-066"
@@ -1438,9 +1867,12 @@ cases:
     title: "Trainmen v. Jacksonville Terminal Co."
     volume: "394"
     page: "369"
+    docket: "69"
+    citation: "394 U.S. 369"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 25, 1969"
-    citation: "394 U.S. 369"
+    voteMajority: 4
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1968-080"
@@ -1448,9 +1880,12 @@ cases:
     title: "Street v. New York"
     volume: "394"
     page: "576"
+    docket: "5"
+    citation: "394 U.S. 576"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1969"
-    citation: "394 U.S. 576"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1968-092"
@@ -1458,9 +1893,12 @@ cases:
     title: "Kramer v. Caribbean Mills, Inc."
     volume: "394"
     page: "823"
+    docket: "156"
+    citation: "394 U.S. 823"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1969"
-    citation: "394 U.S. 823"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1968-098"
@@ -1468,9 +1906,12 @@ cases:
     title: "Leary v. United States"
     volume: "395"
     page: "006"
+    docket: "65"
+    citation: "395 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1969"
-    citation: "395 U.S. 6"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1968-099"
@@ -1478,9 +1919,12 @@ cases:
     title: "United States v. Covington"
     volume: "395"
     page: "057"
+    docket: "366"
+    citation: "395 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1969"
-    citation: "395 U.S. 57"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1968-100"
@@ -1488,9 +1932,12 @@ cases:
     title: "INS v. Stanisic"
     volume: "395"
     page: "062"
+    docket: "297"
+    citation: "395 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1969"
-    citation: "395 U.S. 62"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1968-115"
@@ -1498,9 +1945,12 @@ cases:
     title: "Gaston County v. United States"
     volume: "395"
     page: "285"
+    docket: "701"
+    citation: "395 U.S. 285"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1969"
-    citation: "395 U.S. 285"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1968-131"
@@ -1508,9 +1958,12 @@ cases:
     title: "Lear, Inc. v. Adkins"
     volume: "395"
     page: "653"
+    docket: "56"
+    citation: "395 U.S. 653"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1969"
-    citation: "395 U.S. 653"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1968-132"
@@ -1518,9 +1971,12 @@ cases:
     title: "Noyd v. Bond"
     volume: "395"
     page: "683"
+    docket: "830"
+    citation: "395 U.S. 683"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1969"
-    citation: "395 U.S. 683"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1969-007"
@@ -1528,9 +1984,12 @@ cases:
     title: "Bryson v. United States"
     volume: "396"
     page: "064"
+    docket: "35"
+    citation: "396 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1969"
-    citation: "396 U.S. 64"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1969-008"
@@ -1538,9 +1997,12 @@ cases:
     title: "United States v. Knox"
     volume: "396"
     page: "077"
+    docket: "17"
+    citation: "396 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1969"
-    citation: "396 U.S. 77"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1969-016"
@@ -1548,9 +2010,12 @@ cases:
     title: "Zuber v. Allen"
     volume: "396"
     page: "168"
+    docket: "25"
+    citation: "396 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 9, 1969"
-    citation: "396 U.S. 168"
+    voteMajority: 4
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1969-030"
@@ -1558,9 +2023,12 @@ cases:
     title: "Mills v. Electric Auto-Lite Co."
     volume: "396"
     page: "375"
+    docket: "64"
+    citation: "396 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 20, 1970"
-    citation: "396 U.S. 375"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1969-055"
@@ -1568,9 +2036,12 @@ cases:
     title: "United States v. W. M. Webb, Inc."
     volume: "397"
     page: "179"
+    docket: "63"
+    citation: "397 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1970"
-    citation: "397 U.S. 179"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1969-071"
@@ -1578,9 +2049,12 @@ cases:
     title: "Rosado v. Wyman"
     volume: "397"
     page: "397"
+    docket: "540"
+    citation: "397 U.S. 397"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1970"
-    citation: "397 U.S. 397"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1969-101"
@@ -1588,9 +2062,12 @@ cases:
     title: "Adickes v. S. H. Kress &amp; Co."
     volume: "398"
     page: "144"
+    docket: "79"
+    citation: "398 U.S. 144"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1970"
-    citation: "398 U.S. 144"
+    voteMajority: 5
+    voteMinority: 2
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1969-112"
@@ -1598,9 +2075,12 @@ cases:
     title: "Moragne v. States Marine Lines, Inc."
     volume: "398"
     page: "375"
+    docket: "175"
+    citation: "398 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1970"
-    citation: "398 U.S. 375"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1969-129"
@@ -1608,9 +2088,12 @@ cases:
     title: "United States v. Sisson"
     volume: "399"
     page: "267"
+    docket: "305"
+    citation: "399 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Monday, June 29, 1970"
-    citation: "399 U.S. 267"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1970-027"
@@ -1618,9 +2101,12 @@ cases:
     title: "United States v. Jorn"
     volume: "400"
     page: "470"
+    docket: "19"
+    citation: "400 U.S. 470"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1971"
-    citation: "400 U.S. 470"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1970-040"
@@ -1628,9 +2114,12 @@ cases:
     title: "Sanks v. Georgia"
     volume: "401"
     page: "144"
+    docket: "28"
+    citation: "401 U.S. 144"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1971"
-    citation: "401 U.S. 144"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1970-053"
@@ -1638,9 +2127,12 @@ cases:
     title: "Boddie v. Connecticut"
     volume: "401"
     page: "371"
+    docket: "27"
+    citation: "401 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1971"
-    citation: "401 U.S. 371"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1970-062"
@@ -1648,9 +2140,12 @@ cases:
     title: "Ohio v. Wyandotte Chemicals Corp."
     volume: "401"
     page: "493"
+    docket: "41 Orig."
+    citation: "401 U.S. 493"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 23, 1971"
-    citation: "401 U.S. 493"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1970-069"
@@ -1658,9 +2153,12 @@ cases:
     title: "Whiteley v. Warden, Wyo. State Penitentiary"
     volume: "401"
     page: "560"
+    docket: "136"
+    citation: "401 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1971"
-    citation: "401 U.S. 560"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1970-075"
@@ -1668,9 +2166,12 @@ cases:
     title: "United States v. United States Coin &amp; Currency"
     volume: "401"
     page: "715"
+    docket: "5"
+    citation: "401 U.S. 715"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1971"
-    citation: "401 U.S. 715"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1970-094"
@@ -1678,9 +2179,12 @@ cases:
     title: "McGautha v. California"
     volume: "402"
     page: "183"
+    docket: "203"
+    citation: "402 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1971"
-    citation: "402 U.S. 183"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1970-111"
@@ -1688,9 +2192,12 @@ cases:
     title: "Chicago &amp; North Western R. Co. v. Transportation Union"
     volume: "402"
     page: "570"
+    docket: "189"
+    citation: "402 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1971"
-    citation: "402 U.S. 570"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1970-121"
@@ -1698,9 +2205,12 @@ cases:
     title: "Cohen v. California"
     volume: "403"
     page: "015"
+    docket: "299"
+    citation: "403 U.S. 15"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1971"
-    citation: "403 U.S. 15"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
   - id: "1970-131"
@@ -1708,9 +2218,12 @@ cases:
     title: "Motor Coach Employees v. Lockridge"
     volume: "403"
     page: "274"
+    docket: "76"
+    citation: "403 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1971"
-    citation: "403 U.S. 274"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan2
     authorName: "John M. Harlan II"
 ---

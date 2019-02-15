@@ -8,9 +8,11 @@ cases:
     title: "Rhode Island v. Massachusetts"
     volume: "037"
     page: "657"
+    citation: "37 U.S. 657"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 21, 1838"
-    citation: "37 U.S. 657"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: rbtaney
     dissenterName: "Roger Taney"
   - id: "1854-039"
@@ -18,9 +20,11 @@ cases:
     title: "McBlair v. Gibbes"
     volume: "058"
     page: "232"
+    citation: "58 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Thursday, February 15, 1855"
-    citation: "58 U.S. 232"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: rbtaney
     dissenterName: "Roger Taney"
   - id: "1859-107"
@@ -28,9 +32,11 @@ cases:
     title: "Haney v. Baltimore Steam Packet Co."
     volume: "064"
     page: "287"
+    citation: "64 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Friday, May 4, 1860"
-    citation: "64 U.S. 287"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: rbtaney
     dissenterName: "Roger Taney"
 ---

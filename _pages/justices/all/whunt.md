@@ -8,9 +8,11 @@ cases:
     title: "Railroad Co. v. Gladmon"
     volume: "082"
     page: "401"
+    citation: "82 U.S. 401"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1873"
-    citation: "82 U.S. 401"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-074"
@@ -18,9 +20,11 @@ cases:
     title: "Harwood v. Railroad Co."
     volume: "084"
     page: "078"
+    citation: "84 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1873"
-    citation: "84 U.S. 78"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-082"
@@ -28,9 +32,11 @@ cases:
     title: "Morgan v. Parham"
     volume: "083"
     page: "471"
+    citation: "83 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1873"
-    citation: "83 U.S. 471"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-083"
@@ -38,9 +44,11 @@ cases:
     title: "United States v. Hickey"
     volume: "084"
     page: "009"
+    citation: "84 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1873"
-    citation: "84 U.S. 9"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-090"
@@ -48,9 +56,11 @@ cases:
     title: "Grand Chute v. Winegar"
     volume: "082"
     page: "355"
+    citation: "82 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
-    citation: "82 U.S. 355"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-091"
@@ -58,9 +68,11 @@ cases:
     title: "Grand Chute v. Winegar"
     volume: "082"
     page: "373"
+    citation: "82 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
-    citation: "82 U.S. 373"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-099"
@@ -68,9 +80,11 @@ cases:
     title: "Kenicott v. Supervisors"
     volume: "083"
     page: "452"
+    citation: "83 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
-    citation: "83 U.S. 452"
+    voteMajority: 6
+    voteMinority: 2
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-112"
@@ -78,9 +92,11 @@ cases:
     title: "Humphrey v. Pegues"
     volume: "083"
     page: "244"
+    citation: "83 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1873"
-    citation: "83 U.S. 244"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-115"
@@ -88,9 +104,11 @@ cases:
     title: "Cofield v. McClelland"
     volume: "083"
     page: "331"
+    citation: "83 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1873"
-    citation: "83 U.S. 331"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-124"
@@ -98,9 +116,11 @@ cases:
     title: "New Orleans v. Gaines"
     volume: "082"
     page: "624"
+    citation: "82 U.S. 624"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1873"
-    citation: "82 U.S. 624"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-125"
@@ -108,9 +128,11 @@ cases:
     title: "New Orleans, M., &amp; C. R. Co. v. Hanning"
     volume: "082"
     page: "649"
+    citation: "82 U.S. 649"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1873"
-    citation: "82 U.S. 649"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-147"
@@ -118,9 +140,11 @@ cases:
     title: "United States v. Railroad Co."
     volume: "084"
     page: "322"
+    citation: "84 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1873"
-    citation: "84 U.S. 322"
+    voteMajority: 7
+    voteMinority: 2
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-149"
@@ -128,9 +152,11 @@ cases:
     title: "Hannewinkle v. Georgetown"
     volume: "082"
     page: "547"
+    citation: "82 U.S. 547"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1873"
-    citation: "82 U.S. 547"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-152"
@@ -138,9 +164,11 @@ cases:
     title: "Crapo v. Kelly"
     volume: "083"
     page: "610"
+    citation: "83 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1873"
-    citation: "83 U.S. 610"
+    voteMajority: 7
+    voteMinority: 2
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-159"
@@ -148,9 +176,11 @@ cases:
     title: "Life Ins. Co. v. Terry"
     volume: "082"
     page: "580"
+    citation: "82 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "82 U.S. 580"
+    voteMajority: 8
+    voteMinority: 1
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-163"
@@ -158,9 +188,11 @@ cases:
     title: "The Lucille"
     volume: "082"
     page: "676"
+    citation: "82 U.S. 676"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "82 U.S. 676"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1872-185"
@@ -168,9 +200,11 @@ cases:
     title: "The Mary Eveline"
     volume: "083"
     page: "348"
+    citation: "83 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Thursday, May 1, 1873"
-    citation: "83 U.S. 348"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-006"
@@ -178,9 +212,11 @@ cases:
     title: "United States v. Gaussen"
     volume: "086"
     page: "198"
+    citation: "86 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Monday, October 27, 1873"
-    citation: "86 U.S. 198"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-008"
@@ -188,9 +224,11 @@ cases:
     title: "State v. Stoll"
     volume: "084"
     page: "425"
+    citation: "84 U.S. 425"
     pdfSource: "loc"
     dateDecision: "Monday, November 3, 1873"
-    citation: "84 U.S. 425"
+    voteMajority: 6
+    voteMinority: 1
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-015"
@@ -198,9 +236,11 @@ cases:
     title: "Reed v. Gardner"
     volume: "084"
     page: "409"
+    citation: "84 U.S. 409"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1873"
-    citation: "84 U.S. 409"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-025"
@@ -208,9 +248,11 @@ cases:
     title: "The Merritt"
     volume: "084"
     page: "582"
+    citation: "84 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1873"
-    citation: "84 U.S. 582"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-027"
@@ -218,9 +260,11 @@ cases:
     title: "Eunson v. Dodge"
     volume: "085"
     page: "414"
+    citation: "85 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1873"
-    citation: "85 U.S. 414"
+    voteMajority: 7
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-031"
@@ -228,9 +272,11 @@ cases:
     title: "United States v. Lap&egrave;ne"
     volume: "084"
     page: "601"
+    citation: "84 U.S. 601"
     pdfSource: "loc"
     dateDecision: "Monday, November 24, 1873"
-    citation: "84 U.S. 601"
+    voteMajority: 6
+    voteMinority: 2
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-036"
@@ -238,9 +284,11 @@ cases:
     title: "Batesville Institute v. Kauffman"
     volume: "085"
     page: "151"
+    citation: "85 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1873"
-    citation: "85 U.S. 151"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-037"
@@ -248,9 +296,11 @@ cases:
     title: "Brent v. Maryland"
     volume: "085"
     page: "430"
+    citation: "85 U.S. 430"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1873"
-    citation: "85 U.S. 430"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-054"
@@ -258,9 +308,11 @@ cases:
     title: "Railroad Co. v. Orr"
     volume: "085"
     page: "471"
+    citation: "85 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1873"
-    citation: "85 U.S. 471"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-057"
@@ -268,9 +320,11 @@ cases:
     title: "United States v. Isham"
     volume: "084"
     page: "496"
+    citation: "84 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1873"
-    citation: "84 U.S. 496"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-069"
@@ -278,9 +332,11 @@ cases:
     title: "Stuart v. United States"
     volume: "085"
     page: "084"
+    citation: "85 U.S. 84"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1874"
-    citation: "85 U.S. 84"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-077"
@@ -288,9 +344,11 @@ cases:
     title: "Shrewsbury v. United States"
     volume: "085"
     page: "664"
+    citation: "85 U.S. 664"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1874"
-    citation: "85 U.S. 664"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-082"
@@ -298,9 +356,11 @@ cases:
     title: "Allen &amp; Co. v. Ferguson"
     volume: "085"
     page: "001"
+    citation: "85 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1874"
-    citation: "85 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-089"
@@ -308,9 +368,11 @@ cases:
     title: "Kibbe v. Benson"
     volume: "084"
     page: "624"
+    citation: "84 U.S. 624"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1874"
-    citation: "84 U.S. 624"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-101"
@@ -318,9 +380,11 @@ cases:
     title: "Railroad Co. v. Stout"
     volume: "084"
     page: "657"
+    citation: "84 U.S. 657"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1874"
-    citation: "84 U.S. 657"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-109"
@@ -328,9 +392,11 @@ cases:
     title: "Rees v. Watertown"
     volume: "086"
     page: "107"
+    citation: "86 U.S. 107"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1874"
-    citation: "86 U.S. 107"
+    voteMajority: 6
+    voteMinority: 2
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-126"
@@ -338,9 +404,11 @@ cases:
     title: "Sawyer v. Prickett"
     volume: "086"
     page: "146"
+    citation: "86 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1874"
-    citation: "86 U.S. 146"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-128"
@@ -348,9 +416,11 @@ cases:
     title: "Caldwell&apos;s Case"
     volume: "086"
     page: "264"
+    citation: "86 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1874"
-    citation: "86 U.S. 264"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-142"
@@ -358,9 +428,11 @@ cases:
     title: "Head v. University"
     volume: "086"
     page: "526"
+    citation: "86 U.S. 526"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1874"
-    citation: "86 U.S. 526"
+    voteMajority: 8
+    voteMinority: 1
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-158"
@@ -368,9 +440,11 @@ cases:
     title: "Memphis v. Brown"
     volume: "087"
     page: "289"
+    citation: "87 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1874"
-    citation: "87 U.S. 289"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-162"
@@ -378,9 +452,11 @@ cases:
     title: "United States v. Innerarity"
     volume: "086"
     page: "595"
+    citation: "86 U.S. 595"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1874"
-    citation: "86 U.S. 595"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-167"
@@ -388,9 +464,11 @@ cases:
     title: "Pacific R. Co. v. Maguire"
     volume: "087"
     page: "036"
+    citation: "87 U.S. 36"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1874"
-    citation: "87 U.S. 36"
+    voteMajority: 6
+    voteMinority: 2
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-186"
@@ -398,9 +476,11 @@ cases:
     title: "Habich v. Folger"
     volume: "087"
     page: "001"
+    citation: "87 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
-    citation: "87 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1873-187"
@@ -408,9 +488,11 @@ cases:
     title: "Creighton v. Kerr"
     volume: "087"
     page: "008"
+    citation: "87 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
-    citation: "87 U.S. 8"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-006"
@@ -418,9 +500,12 @@ cases:
     title: "Home Ins. Co. v. Morse"
     volume: "087"
     page: "445"
+    docket: "35"
+    citation: "87 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1874"
-    citation: "87 U.S. 445"
+    voteMajority: 7
+    voteMinority: 2
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-019"
@@ -428,9 +513,12 @@ cases:
     title: "Mays v. Fritton"
     volume: "087"
     page: "414"
+    docket: "56"
+    citation: "87 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Monday, November 23, 1874"
-    citation: "87 U.S. 414"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-032"
@@ -438,9 +526,12 @@ cases:
     title: "Cooper &amp; Co. v. Coates &amp; Co."
     volume: "088"
     page: "105"
+    docket: "74"
+    citation: "88 U.S. 105"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1874"
-    citation: "88 U.S. 105"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-035"
@@ -448,9 +539,12 @@ cases:
     title: "Railroad Co. v. Androscoggin Mills"
     volume: "089"
     page: "594"
+    docket: "431"
+    citation: "89 U.S. 594"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1874"
-    citation: "89 U.S. 594"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-039"
@@ -458,9 +552,12 @@ cases:
     title: "Adams v. Adams"
     volume: "088"
     page: "185"
+    docket: "75"
+    citation: "88 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1874"
-    citation: "88 U.S. 185"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-051"
@@ -468,9 +565,12 @@ cases:
     title: "Green v. Green"
     volume: "090"
     page: "486"
+    docket: "95"
+    citation: "90 U.S. 486"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1874"
-    citation: "90 U.S. 486"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-054"
@@ -478,9 +578,12 @@ cases:
     title: "Chambers County v. Clews"
     volume: "088"
     page: "317"
+    docket: "79"
+    citation: "88 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1874"
-    citation: "88 U.S. 317"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-071"
@@ -488,9 +591,12 @@ cases:
     title: "Jennisons v. Leonard"
     volume: "088"
     page: "302"
+    docket: "106"
+    citation: "88 U.S. 302"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1875"
-    citation: "88 U.S. 302"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-078"
@@ -498,9 +604,12 @@ cases:
     title: "United States v. Williamson"
     volume: "090"
     page: "411"
+    docket: "406"
+    citation: "90 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1875"
-    citation: "90 U.S. 411"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-082"
@@ -508,9 +617,12 @@ cases:
     title: "Doe v. Childress"
     volume: "088"
     page: "642"
+    docket: "125"
+    citation: "88 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1875"
-    citation: "88 U.S. 642"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-127"
@@ -518,9 +630,12 @@ cases:
     title: "Stephen v. Beall"
     volume: "089"
     page: "329"
+    docket: "187"
+    citation: "89 U.S. 329"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1875"
-    citation: "89 U.S. 329"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-145"
@@ -528,9 +643,12 @@ cases:
     title: "Blake v. National Banks"
     volume: "090"
     page: "307"
+    docket: "553"
+    citation: "90 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1875"
-    citation: "90 U.S. 307"
+    voteMajority: 6
+    voteMinority: 3
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-153"
@@ -538,9 +656,12 @@ cases:
     title: "Railroad Co. v. Pratt"
     volume: "089"
     page: "123"
+    docket: "217"
+    citation: "89 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1875"
-    citation: "89 U.S. 123"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-162"
@@ -548,9 +669,12 @@ cases:
     title: "Jeffries v. Life Ins. Co."
     volume: "089"
     page: "047"
+    docket: "209"
+    citation: "89 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1875"
-    citation: "89 U.S. 47"
+    voteMajority: 7
+    voteMinority: 2
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-177"
@@ -558,9 +682,12 @@ cases:
     title: "Fox v. Gardner"
     volume: "088"
     page: "475"
+    docket: "227"
+    citation: "88 U.S. 475"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1875"
-    citation: "88 U.S. 475"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-190"
@@ -568,9 +695,12 @@ cases:
     title: "The Rio Grande"
     volume: "090"
     page: "458"
+    docket: "231"
+    citation: "90 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1875"
-    citation: "90 U.S. 458"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-192"
@@ -578,9 +708,12 @@ cases:
     title: "Hardy v. Harbin"
     volume: "154"
     page: "598"
+    docket: "14"
+    citation: "154 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1874"
-    citation: "154 U.S. 598"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1874-197"
@@ -588,9 +721,12 @@ cases:
     title: "Rogers Locomotive and Machine Works v. Helm"
     volume: "154"
     page: "610"
+    docket: "134"
+    citation: "154 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1875"
-    citation: "154 U.S. 610"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-010"
@@ -598,9 +734,12 @@ cases:
     title: "Upton v. Tribilcock"
     volume: "091"
     page: "045"
+    docket: "482"
+    citation: "91 U.S. 45"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1875"
-    citation: "91 U.S. 45"
+    voteMajority: 6
+    voteMinority: 3
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-020"
@@ -608,9 +747,12 @@ cases:
     title: "Scudder v. Union Nat. Bank"
     volume: "091"
     page: "406"
+    docket: "33"
+    citation: "91 U.S. 406"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1875"
-    citation: "91 U.S. 406"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-034"
@@ -618,9 +760,12 @@ cases:
     title: "Sewall v. Jones"
     volume: "091"
     page: "171"
+    docket: "52"
+    citation: "91 U.S. 171"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1875"
-    citation: "91 U.S. 171"
+    voteMajority: 8
+    voteMinority: 1
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-038"
@@ -628,9 +773,12 @@ cases:
     title: "The &quot;Free State&quot;"
     volume: "091"
     page: "200"
+    docket: "66"
+    citation: "91 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1876"
-    citation: "91 U.S. 200"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-042"
@@ -638,9 +786,12 @@ cases:
     title: "Mutual Benefit Life Ins. Co. v. Tisdale"
     volume: "091"
     page: "238"
+    docket: "94"
+    citation: "91 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1876"
-    citation: "91 U.S. 238"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-053"
@@ -648,9 +799,12 @@ cases:
     title: "Neblett v. Macfarland"
     volume: "092"
     page: "101"
+    docket: "80"
+    citation: "92 U.S. 101"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1876"
-    citation: "92 U.S. 101"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-091"
@@ -658,9 +812,12 @@ cases:
     title: "Hoover v. Wise"
     volume: "091"
     page: "308"
+    docket: "608"
+    citation: "91 U.S. 308"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1876"
-    citation: "91 U.S. 308"
+    voteMajority: 6
+    voteMinority: 3
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-095"
@@ -668,9 +825,12 @@ cases:
     title: "Aetna Life Ins. Co. v. France"
     volume: "091"
     page: "510"
+    docket: "132"
+    citation: "91 U.S. 510"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1876"
-    citation: "91 U.S. 510"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-104"
@@ -678,9 +838,12 @@ cases:
     title: "Townsend v. Todd"
     volume: "091"
     page: "452"
+    docket: "664"
+    citation: "91 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1876"
-    citation: "91 U.S. 452"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-108"
@@ -688,9 +851,12 @@ cases:
     title: "Warren v. Shook"
     volume: "091"
     page: "704"
+    docket: "856"
+    citation: "91 U.S. 704"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1876"
-    citation: "91 U.S. 704"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-121"
@@ -698,9 +864,12 @@ cases:
     title: "Barnes v. District of Columbia"
     volume: "091"
     page: "540"
+    docket: "147"
+    citation: "91 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1876"
-    citation: "91 U.S. 540"
+    voteMajority: 5
+    voteMinority: 4
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-122"
@@ -708,9 +877,12 @@ cases:
     title: "Dant v. District of Columbia"
     volume: "091"
     page: "557"
+    docket: "138"
+    citation: "91 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1876"
-    citation: "91 U.S. 557"
+    voteMajority: 5
+    voteMinority: 4
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-123"
@@ -718,9 +890,12 @@ cases:
     title: "Maxwell v. District of Columbia"
     volume: "091"
     page: "557"
+    docket: "137"
+    citation: "91 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1876"
-    citation: "91 U.S. 557"
+    voteMajority: 5
+    voteMinority: 4
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-129"
@@ -728,9 +903,12 @@ cases:
     title: "Terry v. Tubman"
     volume: "092"
     page: "156"
+    docket: "166"
+    citation: "92 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1876"
-    citation: "92 U.S. 156"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-150"
@@ -738,9 +916,12 @@ cases:
     title: "Wilson v. Boyce"
     volume: "092"
     page: "320"
+    docket: "178"
+    citation: "92 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1876"
-    citation: "92 U.S. 320"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-165"
@@ -748,9 +929,12 @@ cases:
     title: "O&apos;Brien v. Weld"
     volume: "092"
     page: "081"
+    docket: "208"
+    citation: "92 U.S. 81"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1876"
-    citation: "92 U.S. 81"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-169"
@@ -758,9 +942,12 @@ cases:
     title: "Butler v. Thomson"
     volume: "092"
     page: "412"
+    docket: "209"
+    citation: "92 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1876"
-    citation: "92 U.S. 412"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-181"
@@ -768,9 +955,12 @@ cases:
     title: "Reckendorfer v. Faber"
     volume: "092"
     page: "347"
+    docket: "215"
+    citation: "92 U.S. 347"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1876"
-    citation: "92 U.S. 347"
+    voteMajority: 6
+    voteMinority: 3
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-189"
@@ -778,9 +968,12 @@ cases:
     title: "Franklin Fire Ins. Co. v. Vaughan"
     volume: "092"
     page: "516"
+    docket: "222"
+    citation: "92 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1876"
-    citation: "92 U.S. 516"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1875-213"
@@ -788,9 +981,12 @@ cases:
     title: "Mead v. Pinyard"
     volume: "154"
     page: "620"
+    docket: "754"
+    citation: "154 U.S. 620"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1876"
-    citation: "154 U.S. 620"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-004"
@@ -798,9 +994,12 @@ cases:
     title: "Fuller v. Claflin"
     volume: "093"
     page: "014"
+    docket: "34"
+    citation: "93 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, October 23, 1876"
-    citation: "93 U.S. 14"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-010"
@@ -808,9 +1007,12 @@ cases:
     title: "Beaver v. Taylor"
     volume: "093"
     page: "046"
+    docket: "50"
+    citation: "93 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1876"
-    citation: "93 U.S. 46"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-019"
@@ -818,9 +1020,12 @@ cases:
     title: "Dresser v. Missouri &amp; Iowa Railway Constr. Co."
     volume: "093"
     page: "092"
+    docket: "72"
+    citation: "93 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1876"
-    citation: "93 U.S. 92"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-032"
@@ -828,9 +1033,11 @@ cases:
     title: "Lovejoy v. Spafford"
     volume: "093"
     page: "430"
+    citation: "93 U.S. 430"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1876"
-    citation: "93 U.S. 430"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-060"
@@ -838,9 +1045,12 @@ cases:
     title: "County of Callaway v. Foster"
     volume: "093"
     page: "567"
+    docket: "70"
+    citation: "93 U.S. 567"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1876"
-    citation: "93 U.S. 567"
+    voteMajority: 5
+    voteMinority: 4
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-065"
@@ -848,9 +1058,12 @@ cases:
     title: "Dodge v. Freedman&apos;s Sav. &amp; Trust Co."
     volume: "093"
     page: "379"
+    docket: "150"
+    citation: "93 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1876"
-    citation: "93 U.S. 379"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-073"
@@ -858,9 +1071,12 @@ cases:
     title: "DeBary v. Arthur"
     volume: "093"
     page: "420"
+    docket: "564"
+    citation: "93 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1876"
-    citation: "93 U.S. 420"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-080"
@@ -868,9 +1084,12 @@ cases:
     title: "County of Randolph v. Post"
     volume: "093"
     page: "502"
+    docket: "591"
+    citation: "93 U.S. 502"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1877"
-    citation: "93 U.S. 502"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-097"
@@ -878,9 +1097,12 @@ cases:
     title: "Humes v. Scruggs"
     volume: "094"
     page: "022"
+    docket: "146"
+    citation: "94 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1877"
-    citation: "94 U.S. 22"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-104"
@@ -888,9 +1110,12 @@ cases:
     title: "County of Leavenworth v. Barnes"
     volume: "094"
     page: "070"
+    docket: "662"
+    citation: "94 U.S. 70"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1877"
-    citation: "94 U.S. 70"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-106"
@@ -898,9 +1123,12 @@ cases:
     title: "Badger v. United States ex rel. Bolles"
     volume: "093"
     page: "599"
+    docket: "406"
+    citation: "93 U.S. 599"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1877"
-    citation: "93 U.S. 599"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-132"
@@ -908,9 +1136,12 @@ cases:
     title: "United States v. Phisterer"
     volume: "094"
     page: "219"
+    docket: "963"
+    citation: "94 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1877"
-    citation: "94 U.S. 219"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-136"
@@ -918,9 +1149,12 @@ cases:
     title: "East Oakland v. Skinner"
     volume: "094"
     page: "255"
+    docket: "927"
+    citation: "94 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1877"
-    citation: "94 U.S. 255"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-138"
@@ -928,9 +1162,12 @@ cases:
     title: "United States v. Martin"
     volume: "094"
     page: "400"
+    docket: "401"
+    citation: "94 U.S. 400"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1877"
-    citation: "94 U.S. 400"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-142"
@@ -938,9 +1175,12 @@ cases:
     title: "Commissioners of Johnson Cty. v. Thayer"
     volume: "094"
     page: "631"
+    docket: "807"
+    citation: "94 U.S. 631"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1877"
-    citation: "94 U.S. 631"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-149"
@@ -948,9 +1188,12 @@ cases:
     title: "Doyle v. Continental Ins. Co."
     volume: "094"
     page: "535"
+    docket: "910"
+    citation: "94 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1877"
-    citation: "94 U.S. 535"
+    voteMajority: 5
+    voteMinority: 3
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-155"
@@ -958,9 +1201,12 @@ cases:
     title: "Burlington v. Beasley"
     volume: "094"
     page: "310"
+    docket: "680"
+    citation: "94 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1877"
-    citation: "94 U.S. 310"
+    voteMajority: 7
+    voteMinority: 1
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-156"
@@ -968,9 +1214,12 @@ cases:
     title: "People v. Commissioners of Taxes and Assessments"
     volume: "094"
     page: "415"
+    docket: "965"
+    citation: "94 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1877"
-    citation: "94 U.S. 415"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-167"
@@ -978,9 +1227,12 @@ cases:
     title: "County of Dallas v. MacKenzie"
     volume: "094"
     page: "660"
+    docket: "182"
+    citation: "94 U.S. 660"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1877"
-    citation: "94 U.S. 660"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-178"
@@ -988,9 +1240,12 @@ cases:
     title: "Clapp v. Mason"
     volume: "094"
     page: "589"
+    docket: "201"
+    citation: "94 U.S. 589"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1877"
-    citation: "94 U.S. 589"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-185"
@@ -998,9 +1253,12 @@ cases:
     title: "First Nat. Bank of Washington v. Whitman"
     volume: "094"
     page: "343"
+    docket: "211"
+    citation: "94 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1877"
-    citation: "94 U.S. 343"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-202"
@@ -1008,9 +1266,12 @@ cases:
     title: "New Jersey Mut. Life Ins. Co. v. Baker"
     volume: "094"
     page: "610"
+    docket: "229"
+    citation: "94 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1877"
-    citation: "94 U.S. 610"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-203"
@@ -1018,9 +1279,12 @@ cases:
     title: "East Lincoln v. Davenport"
     volume: "094"
     page: "801"
+    docket: "583"
+    citation: "94 U.S. 801"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1877"
-    citation: "94 U.S. 801"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-209"
@@ -1028,17 +1292,23 @@ cases:
     title: "Southern Express Co. v. Dickson"
     volume: "094"
     page: "549"
+    docket: "247"
+    citation: "94 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1877"
-    citation: "94 U.S. 549"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1876-245"
     termId: "1876-10"
     title: "Wilson v. Hoss"
+    docket: "243"
+    citation: "131 U.S. ccx"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1877"
-    citation: "131 U.S. ccx"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-004"
@@ -1046,9 +1316,12 @@ cases:
     title: "Pratt v. Railway Co."
     volume: "095"
     page: "043"
+    docket: "20"
+    citation: "95 U.S. 43"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1877"
-    citation: "95 U.S. 43"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-015"
@@ -1056,9 +1329,12 @@ cases:
     title: "Eddy v. Dennis"
     volume: "095"
     page: "560"
+    docket: "28"
+    citation: "95 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, October 29, 1877"
-    citation: "95 U.S. 560"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-017"
@@ -1066,9 +1342,12 @@ cases:
     title: "Adams v. Nashville"
     volume: "095"
     page: "019"
+    docket: "46"
+    citation: "95 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1877"
-    citation: "95 U.S. 19"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-032"
@@ -1076,9 +1355,12 @@ cases:
     title: "West Philadelphia Bank v. Dickson"
     volume: "095"
     page: "180"
+    docket: "66"
+    citation: "95 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1877"
-    citation: "95 U.S. 180"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-035"
@@ -1086,9 +1368,12 @@ cases:
     title: "Merchants&apos; Nat. Bank v. Cook"
     volume: "095"
     page: "342"
+    docket: "68"
+    citation: "95 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1877"
-    citation: "95 U.S. 342"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-041"
@@ -1096,9 +1381,12 @@ cases:
     title: "Movius v. Arthur"
     volume: "095"
     page: "144"
+    docket: "82"
+    citation: "95 U.S. 144"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1877"
-    citation: "95 U.S. 144"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-063"
@@ -1106,9 +1394,12 @@ cases:
     title: "Tennessee v. Sneed"
     volume: "096"
     page: "069"
+    docket: "83"
+    citation: "96 U.S. 69"
     pdfSource: "loc"
     dateDecision: "Monday, November 26, 1877"
-    citation: "96 U.S. 69"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-068"
@@ -1116,9 +1407,12 @@ cases:
     title: "Transportation Line v. Hope"
     volume: "095"
     page: "297"
+    docket: "118"
+    citation: "95 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1877"
-    citation: "95 U.S. 297"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-081"
@@ -1126,9 +1420,12 @@ cases:
     title: "Insurance Co. v. Higginbotham"
     volume: "095"
     page: "380"
+    docket: "119"
+    citation: "95 U.S. 380"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1877"
-    citation: "95 U.S. 380"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-091"
@@ -1136,9 +1433,12 @@ cases:
     title: "Chubb v. Upton"
     volume: "095"
     page: "665"
+    docket: "124"
+    citation: "95 U.S. 665"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1877"
-    citation: "95 U.S. 665"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-097"
@@ -1146,9 +1446,12 @@ cases:
     title: "Burdette v. Bartlett"
     volume: "095"
     page: "637"
+    docket: "149"
+    citation: "95 U.S. 637"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1878"
-    citation: "95 U.S. 637"
+    voteMajority: 8
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-112"
@@ -1156,9 +1459,12 @@ cases:
     title: "Ames v. Quimby"
     volume: "096"
     page: "324"
+    docket: "146"
+    citation: "96 U.S. 324"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1878"
-    citation: "96 U.S. 324"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-114"
@@ -1166,9 +1472,12 @@ cases:
     title: "National Bank v. Warren"
     volume: "096"
     page: "539"
+    docket: "138"
+    citation: "96 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1878"
-    citation: "96 U.S. 539"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-126"
@@ -1176,9 +1485,12 @@ cases:
     title: "Insurance Co. v. Brame"
     volume: "095"
     page: "754"
+    docket: "748"
+    citation: "95 U.S. 754"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1878"
-    citation: "95 U.S. 754"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-130"
@@ -1186,9 +1498,12 @@ cases:
     title: "Gold-Mining Co. v. National Bank"
     volume: "096"
     page: "640"
+    docket: "157"
+    citation: "96 U.S. 640"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1878"
-    citation: "96 U.S. 640"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-151"
@@ -1196,9 +1511,12 @@ cases:
     title: "Bissell v. Heyward"
     volume: "096"
     page: "580"
+    docket: "172"
+    citation: "96 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1878"
-    citation: "96 U.S. 580"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-165"
@@ -1206,9 +1524,12 @@ cases:
     title: "County of Bates v. Winters"
     volume: "097"
     page: "083"
+    docket: "210"
+    citation: "97 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1878"
-    citation: "97 U.S. 83"
+    voteMajority: 6
+    voteMinority: 3
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-179"
@@ -1216,9 +1537,12 @@ cases:
     title: "Rubber-Coated Harness-Trimming Co. v. Welling"
     volume: "097"
     page: "007"
+    docket: "221"
+    citation: "97 U.S. 7"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1878"
-    citation: "97 U.S. 7"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-191"
@@ -1226,9 +1550,12 @@ cases:
     title: "Arthur v. Morrison"
     volume: "096"
     page: "108"
+    docket: "517"
+    citation: "96 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1878"
-    citation: "96 U.S. 108"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-192"
@@ -1236,9 +1563,12 @@ cases:
     title: "Arthur v. Lahey"
     volume: "096"
     page: "112"
+    docket: "518"
+    citation: "96 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1878"
-    citation: "96 U.S. 112"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-193"
@@ -1246,9 +1576,12 @@ cases:
     title: "Arthur v. Unkart"
     volume: "096"
     page: "118"
+    docket: "609"
+    citation: "96 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1878"
-    citation: "96 U.S. 118"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-194"
@@ -1256,9 +1589,12 @@ cases:
     title: "Arthur v. Zimmerman"
     volume: "096"
     page: "124"
+    docket: "515"
+    citation: "96 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1878"
-    citation: "96 U.S. 124"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-195"
@@ -1266,9 +1602,12 @@ cases:
     title: "Arthur v. Stephani"
     volume: "096"
     page: "125"
+    docket: "607"
+    citation: "96 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1878"
-    citation: "96 U.S. 125"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-196"
@@ -1276,9 +1615,12 @@ cases:
     title: "Arthur v. Sussfield"
     volume: "096"
     page: "128"
+    docket: "516"
+    citation: "96 U.S. 128"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1878"
-    citation: "96 U.S. 128"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-197"
@@ -1286,9 +1628,12 @@ cases:
     title: "Murphy v. Arnson"
     volume: "096"
     page: "131"
+    docket: "304"
+    citation: "96 U.S. 131"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1878"
-    citation: "96 U.S. 131"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-210"
@@ -1296,9 +1641,12 @@ cases:
     title: "Arthur v. Davies"
     volume: "096"
     page: "135"
+    docket: "604"
+    citation: "96 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1878"
-    citation: "96 U.S. 135"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-211"
@@ -1306,9 +1654,12 @@ cases:
     title: "Arthur v. Homer"
     volume: "096"
     page: "137"
+    docket: "608"
+    citation: "96 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1878"
-    citation: "96 U.S. 137"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-212"
@@ -1316,9 +1667,12 @@ cases:
     title: "Arthur v. Herman"
     volume: "096"
     page: "141"
+    docket: "606"
+    citation: "96 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1878"
-    citation: "96 U.S. 141"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-213"
@@ -1326,9 +1680,12 @@ cases:
     title: "Arthur v. Rheims"
     volume: "096"
     page: "143"
+    docket: "602"
+    citation: "96 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1878"
-    citation: "96 U.S. 143"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-214"
@@ -1336,9 +1693,12 @@ cases:
     title: "Arthur v. Goddard"
     volume: "096"
     page: "145"
+    docket: "514"
+    citation: "96 U.S. 145"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1878"
-    citation: "96 U.S. 145"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-229"
@@ -1346,9 +1706,12 @@ cases:
     title: "Powder Co. v. Burkhardt"
     volume: "097"
     page: "110"
+    docket: "264"
+    citation: "97 U.S. 110"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1878"
-    citation: "97 U.S. 110"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-273"
@@ -1356,17 +1719,23 @@ cases:
     title: "Hutchinson v. The Northfield"
     volume: "154"
     page: "629"
+    docket: "213"
+    citation: "154 U.S. 629"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1878"
-    citation: "154 U.S. 629"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1877-276"
     termId: "1877-10"
     title: "Connecticut Gen. Life Ins. Co. v. Burnstine"
+    docket: "240"
+    citation: "131 U.S. cliii"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1878"
-    citation: "131 U.S. cliii"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1878-008"
@@ -1374,9 +1743,12 @@ cases:
     title: "Howland v. Blake"
     volume: "097"
     page: "624"
+    docket: "36"
+    citation: "97 U.S. 624"
     pdfSource: "loc"
     dateDecision: "Monday, November 4, 1878"
-    citation: "97 U.S. 624"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1878-016"
@@ -1384,9 +1756,12 @@ cases:
     title: "Stacey v. Emery"
     volume: "097"
     page: "642"
+    docket: "52"
+    citation: "97 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1878"
-    citation: "97 U.S. 642"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1878-021"
@@ -1394,9 +1769,12 @@ cases:
     title: "Arthur v. Moller"
     volume: "097"
     page: "365"
+    docket: "510"
+    citation: "97 U.S. 365"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1878"
-    citation: "97 U.S. 365"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1878-028"
@@ -1404,9 +1782,12 @@ cases:
     title: "Commissioners v. Bank of Commerce"
     volume: "097"
     page: "374"
+    docket: "66"
+    citation: "97 U.S. 374"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1878"
-    citation: "97 U.S. 374"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1878-045"
@@ -1414,9 +1795,12 @@ cases:
     title: "County of Schuyler v. Thomas"
     volume: "098"
     page: "169"
+    docket: "62"
+    citation: "98 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1878"
-    citation: "98 U.S. 169"
+    voteMajority: 6
+    voteMinority: 3
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1878-049"
@@ -1424,9 +1808,12 @@ cases:
     title: "Elcox v. Hill"
     volume: "098"
     page: "218"
+    docket: "84"
+    citation: "98 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1878"
-    citation: "98 U.S. 218"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1878-054"
@@ -1434,9 +1821,12 @@ cases:
     title: "Burgess v. Salmon"
     volume: "097"
     page: "381"
+    docket: "90"
+    citation: "97 U.S. 381"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1878"
-    citation: "97 U.S. 381"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1878-058"
@@ -1444,9 +1834,12 @@ cases:
     title: "Little Rock v. National Bank"
     volume: "098"
     page: "308"
+    docket: "714"
+    citation: "98 U.S. 308"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1878"
-    citation: "98 U.S. 308"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1878-061"
@@ -1454,9 +1847,12 @@ cases:
     title: "Welch v. Cook"
     volume: "097"
     page: "541"
+    docket: "91"
+    citation: "97 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1879"
-    citation: "97 U.S. 541"
+    voteMajority: 8
+    voteMinority: 1
     authorId: whunt
     authorName: "Ward Hunt"
   - id: "1878-063"
@@ -1464,9 +1860,12 @@ cases:
     title: "County of Daviess v. Huidekoper"
     volume: "098"
     page: "098"
+    docket: "95"
+    citation: "98 U.S. 98"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1879"
-    citation: "98 U.S. 98"
+    voteMajority: 9
+    voteMinority: 0
     authorId: whunt
     authorName: "Ward Hunt"
 ---

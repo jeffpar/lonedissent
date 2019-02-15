@@ -8,9 +8,12 @@ cases:
     title: "Missouri, K. &amp; T. R. Co. v. Wulf"
     volume: "226"
     page: "570"
+    docket: "517"
+    citation: "226 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1913"
-    citation: "226 U.S. 570"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hhlurton
     dissenterName: "Horace Lurton"
   - id: "1913-119"
@@ -18,9 +21,12 @@ cases:
     title: "Detroit Steel Cooperage Co. v. Sistersville Brewing Co."
     volume: "233"
     page: "712"
+    docket: "368"
+    citation: "233 U.S. 712"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1914"
-    citation: "233 U.S. 712"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hhlurton
     dissenterName: "Horace Lurton"
   - id: "1913-149"
@@ -28,9 +34,12 @@ cases:
     title: "Richards v. Washington Terminal Co."
     volume: "233"
     page: "546"
+    docket: "52"
+    citation: "233 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1914"
-    citation: "233 U.S. 546"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: hhlurton
     dissenterName: "Horace Lurton"
 ---

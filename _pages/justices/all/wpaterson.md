@@ -8,9 +8,11 @@ cases:
     title: "Stuart v. Laird"
     volume: "005"
     page: "299"
+    citation: "5 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 2, 1803"
-    citation: "5 U.S. 299"
+    voteMajority: 4
+    voteMinority: 0
     authorId: wpaterson
     authorName: "William Paterson"
 ---

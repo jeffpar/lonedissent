@@ -8,9 +8,11 @@ cases:
     title: "Brown v. Van Braam"
     volume: "003"
     page: "344"
+    citation: "3 U.S. 344"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1797"
-    citation: "3 U.S. 344"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jwilson
     authorName: "James Wilson"
 ---

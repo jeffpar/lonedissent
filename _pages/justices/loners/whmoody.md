@@ -8,9 +8,12 @@ cases:
     title: "General Oil Co. v. Crain"
     volume: "209"
     page: "211"
+    docket: "128"
+    citation: "209 U.S. 211"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1908"
-    citation: "209 U.S. 211"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whmoody
     dissenterName: "William Moody"
 ---

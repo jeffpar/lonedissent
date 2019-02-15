@@ -8,9 +8,12 @@ cases:
     title: "Cope v. Cope"
     volume: "137"
     page: "682"
+    docket: "1327"
+    citation: "137 U.S. 682"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1891"
-    citation: "137 U.S. 682"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-085"
@@ -18,9 +21,12 @@ cases:
     title: "Massachusetts Benefit Assn. v. Miles"
     volume: "137"
     page: "689"
+    docket: "1380"
+    citation: "137 U.S. 689"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1891"
-    citation: "137 U.S. 689"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-093"
@@ -28,9 +34,12 @@ cases:
     title: "United States v. Kingsley"
     volume: "138"
     page: "087"
+    docket: "778"
+    citation: "138 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1891"
-    citation: "138 U.S. 87"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-094"
@@ -38,9 +47,12 @@ cases:
     title: "Superior City v. Ripley"
     volume: "138"
     page: "093"
+    docket: "1322"
+    citation: "138 U.S. 93"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1891"
-    citation: "138 U.S. 93"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-115"
@@ -48,9 +60,12 @@ cases:
     title: "Alexander v. United States"
     volume: "138"
     page: "353"
+    docket: "1309"
+    citation: "138 U.S. 353"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1891"
-    citation: "138 U.S. 353"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-116"
@@ -58,9 +73,12 @@ cases:
     title: "Crumpton v. United States"
     volume: "138"
     page: "361"
+    docket: "1310"
+    citation: "138 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1891"
-    citation: "138 U.S. 361"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-131"
@@ -68,9 +86,12 @@ cases:
     title: "Missouri v. Andriano"
     volume: "138"
     page: "496"
+    docket: "127"
+    citation: "138 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "138 U.S. 496"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-139"
@@ -78,9 +99,12 @@ cases:
     title: "Schell&apos;s Executors v. Fauch&eacute;"
     volume: "138"
     page: "562"
+    docket: "690"
+    citation: "138 U.S. 562"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "138 U.S. 562"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-141"
@@ -88,9 +112,12 @@ cases:
     title: "Ducie v. Ford"
     volume: "138"
     page: "587"
+    docket: "777"
+    citation: "138 U.S. 587"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "138 U.S. 587"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-158"
@@ -98,9 +125,12 @@ cases:
     title: "Guaranty Trust &amp; Safe Deposit Co. v. Green Cove Springs &amp; Melrose R. Co."
     volume: "139"
     page: "137"
+    docket: "155"
+    citation: "139 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "139 U.S. 137"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-173"
@@ -108,9 +138,12 @@ cases:
     title: "Walter A. Wood Mowing &amp; Reaping Machine Co. v. Skinner"
     volume: "139"
     page: "293"
+    docket: "1235"
+    citation: "139 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1891"
-    citation: "139 U.S. 293"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-176"
@@ -118,9 +151,12 @@ cases:
     title: "Hoff v. Iron Clad Mfg. Co."
     volume: "139"
     page: "326"
+    docket: "225"
+    citation: "139 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1891"
-    citation: "139 U.S. 326"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-185"
@@ -128,9 +164,12 @@ cases:
     title: "Handley v. Stutz"
     volume: "139"
     page: "417"
+    docket: "1516"
+    citation: "139 U.S. 417"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1891"
-    citation: "139 U.S. 417"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-195"
@@ -138,9 +177,12 @@ cases:
     title: "Union Edge Setter Co. v. Keith"
     volume: "139"
     page: "530"
+    docket: "283"
+    citation: "139 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1891"
-    citation: "139 U.S. 530"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-196"
@@ -148,9 +190,12 @@ cases:
     title: "Brown Chemical Co. v. Meyer"
     volume: "139"
     page: "540"
+    docket: "226"
+    citation: "139 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1891"
-    citation: "139 U.S. 540"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-203"
@@ -158,9 +203,12 @@ cases:
     title: "Western Elec. Co. v. LaRue"
     volume: "139"
     page: "601"
+    docket: "279"
+    citation: "139 U.S. 601"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1891"
-    citation: "139 U.S. 601"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-213"
@@ -168,9 +216,12 @@ cases:
     title: "Bybee v. Oregon &amp; California R. Co."
     volume: "139"
     page: "663"
+    docket: "276"
+    citation: "139 U.S. 663"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1891"
-    citation: "139 U.S. 663"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-224"
@@ -178,9 +229,12 @@ cases:
     title: "International Tooth Crown Co. v. Gaylord"
     volume: "140"
     page: "055"
+    docket: "294"
+    citation: "140 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1891"
-    citation: "140 U.S. 55"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-235"
@@ -188,9 +242,12 @@ cases:
     title: "United States v. Ewing"
     volume: "140"
     page: "142"
+    docket: "1117"
+    citation: "140 U.S. 142"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 142"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-236"
@@ -198,9 +255,12 @@ cases:
     title: "United States v. McDermott"
     volume: "140"
     page: "151"
+    docket: "1152"
+    citation: "140 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 151"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-237"
@@ -208,9 +268,12 @@ cases:
     title: "United States v. Poinier"
     volume: "140"
     page: "160"
+    docket: "1151"
+    citation: "140 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 160"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-238"
@@ -218,9 +281,12 @@ cases:
     title: "United States v. Barber"
     volume: "140"
     page: "164"
+    docket: "1164"
+    citation: "140 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 164"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-239"
@@ -228,9 +294,12 @@ cases:
     title: "United States v. Van Duzee"
     volume: "140"
     page: "169"
+    docket: "1244"
+    citation: "140 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 169"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-240"
@@ -238,9 +307,12 @@ cases:
     title: "United States v. Barber"
     volume: "140"
     page: "177"
+    docket: "339"
+    citation: "140 U.S. 177"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 177"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-241"
@@ -248,9 +320,12 @@ cases:
     title: "Cluett v. Claflin"
     volume: "140"
     page: "180"
+    docket: "174"
+    citation: "140 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 180"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-261"
@@ -258,9 +333,12 @@ cases:
     title: "The E. A. Packer"
     volume: "140"
     page: "360"
+    docket: "286"
+    citation: "140 U.S. 360"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 360"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-293"
@@ -268,9 +346,12 @@ cases:
     title: "In re Mayfield"
     volume: "141"
     page: "107"
+    docket: "15 Orig."
+    citation: "141 U.S. 107"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 107"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-294"
@@ -278,9 +359,12 @@ cases:
     title: "Reynolds v. Burns"
     volume: "141"
     page: "117"
+    docket: "364"
+    citation: "141 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 117"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-295"
@@ -288,9 +372,12 @@ cases:
     title: "Denny v. Pironi"
     volume: "141"
     page: "121"
+    docket: "1661"
+    citation: "141 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 121"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1890-300"
@@ -298,9 +385,12 @@ cases:
     title: "Gorman v. Havird"
     volume: "141"
     page: "206"
+    docket: "1296"
+    citation: "141 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 206"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-002"
@@ -308,9 +398,12 @@ cases:
     title: "McNulta v. Lochridge"
     volume: "141"
     page: "327"
+    docket: "1324"
+    citation: "141 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, October 26, 1891"
-    citation: "141 U.S. 327"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-010"
@@ -318,9 +411,12 @@ cases:
     title: "McClain v. Ortmayer"
     volume: "141"
     page: "419"
+    docket: "44"
+    citation: "141 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Monday, November 2, 1891"
-    citation: "141 U.S. 419"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-014"
@@ -328,9 +424,12 @@ cases:
     title: "McCreary v. Pennsylvania Canal Co."
     volume: "141"
     page: "459"
+    docket: "54"
+    citation: "141 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1891"
-    citation: "141 U.S. 459"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-015"
@@ -338,9 +437,12 @@ cases:
     title: "American Net &amp; Twine Co. v. Worthington"
     volume: "141"
     page: "468"
+    docket: "55"
+    citation: "141 U.S. 468"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1891"
-    citation: "141 U.S. 468"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-027"
@@ -348,9 +450,12 @@ cases:
     title: "Fire Ins. Assn., Ltd. v. Wickham"
     volume: "141"
     page: "564"
+    docket: "59"
+    citation: "141 U.S. 564"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1891"
-    citation: "141 U.S. 564"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-048"
@@ -358,9 +463,12 @@ cases:
     title: "New Orleans v. New Orleans Water Works Co."
     volume: "142"
     page: "079"
+    docket: "632"
+    citation: "142 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1891"
-    citation: "142 U.S. 79"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-049"
@@ -368,9 +476,12 @@ cases:
     title: "Franklin County v. German Savings Bank"
     volume: "142"
     page: "093"
+    docket: "1234"
+    citation: "142 U.S. 93"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1891"
-    citation: "142 U.S. 93"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-062"
@@ -378,9 +489,12 @@ cases:
     title: "Kaukauna Water Power Co. v. Green Bay &amp; Mississippi Canal Co."
     volume: "142"
     page: "254"
+    docket: "65"
+    citation: "142 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1891"
-    citation: "142 U.S. 254"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-067"
@@ -388,9 +502,12 @@ cases:
     title: "Sunflower Oil Co. v. Wilson"
     volume: "142"
     page: "313"
+    docket: "122"
+    citation: "142 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1892"
-    citation: "142 U.S. 313"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-074"
@@ -398,9 +515,12 @@ cases:
     title: "Wiggins Ferry Co. v. Ohio &amp; Mississippi R. Co."
     volume: "142"
     page: "396"
+    docket: "27"
+    citation: "142 U.S. 396"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1892"
-    citation: "142 U.S. 396"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-078"
@@ -408,9 +528,12 @@ cases:
     title: "Thompson v. United States"
     volume: "142"
     page: "471"
+    docket: "124"
+    citation: "142 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1892"
-    citation: "142 U.S. 471"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-088"
@@ -418,9 +541,12 @@ cases:
     title: "United States v. Alabama Great Southern R. Co."
     volume: "142"
     page: "615"
+    docket: "749"
+    citation: "142 U.S. 615"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1892"
-    citation: "142 U.S. 615"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-100"
@@ -428,9 +554,12 @@ cases:
     title: "National S. S. Co. v. Tugman"
     volume: "143"
     page: "028"
+    docket: "150"
+    citation: "143 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1892"
-    citation: "143 U.S. 28"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-115"
@@ -438,9 +567,12 @@ cases:
     title: "The Barbed Wire Patent"
     volume: "143"
     page: "275"
+    docket: "128"
+    citation: "143 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Monday, February 29, 1892"
-    citation: "143 U.S. 275"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-116"
@@ -448,9 +580,12 @@ cases:
     title: "THE WASHBURN AND MOEN MANUFACTURING COMPANY v. NORWOOD"
     volume: "143"
     page: "293"
+    docket: "129"
+    citation: "143 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, February 29, 1892"
-    citation: "143 U.S. 293"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-120"
@@ -458,9 +593,12 @@ cases:
     title: "Chandler v. Pomeroy"
     volume: "143"
     page: "318"
+    docket: "1343"
+    citation: "143 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Monday, February 29, 1892"
-    citation: "143 U.S. 318"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-133"
@@ -468,9 +606,12 @@ cases:
     title: "Hoyt v. Latham"
     volume: "143"
     page: "553"
+    docket: "173"
+    citation: "143 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Monday, February 29, 1892"
-    citation: "143 U.S. 553"
+    voteMajority: 6
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-136"
@@ -478,9 +619,12 @@ cases:
     title: "Gandy v. Main Belting Co."
     volume: "143"
     page: "587"
+    docket: "148"
+    citation: "143 U.S. 587"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1892"
-    citation: "143 U.S. 587"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-137"
@@ -488,9 +632,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Denver &amp; Rio Grande R. Co."
     volume: "143"
     page: "596"
+    docket: "1095"
+    citation: "143 U.S. 596"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1892"
-    citation: "143 U.S. 596"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-141"
@@ -498,9 +645,12 @@ cases:
     title: "Ansonia Brass &amp; Copper Co. v. Electrical Supply Co."
     volume: "144"
     page: "011"
+    docket: "165"
+    citation: "144 U.S. 11"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1892"
-    citation: "144 U.S. 11"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-152"
@@ -508,9 +658,12 @@ cases:
     title: "Camden v. Stuart"
     volume: "144"
     page: "104"
+    docket: "159"
+    citation: "144 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1892"
-    citation: "144 U.S. 104"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-167"
@@ -518,9 +671,12 @@ cases:
     title: "Pope Mfg. Co. v. Gormully"
     volume: "144"
     page: "224"
+    docket: "204"
+    citation: "144 U.S. 224"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1892"
-    citation: "144 U.S. 224"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-168"
@@ -528,9 +684,12 @@ cases:
     title: "Pope Mfg. Co. v. Gormully"
     volume: "144"
     page: "238"
+    docket: "205"
+    citation: "144 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1892"
-    citation: "144 U.S. 238"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-170"
@@ -538,9 +697,12 @@ cases:
     title: "Pope Mfg. Co. v. Gormully"
     volume: "144"
     page: "248"
+    docket: "207"
+    citation: "144 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1892"
-    citation: "144 U.S. 248"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-171"
@@ -548,9 +710,12 @@ cases:
     title: "Pope Mfg. Co. v. Gormully"
     volume: "144"
     page: "254"
+    docket: "208"
+    citation: "144 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1892"
-    citation: "144 U.S. 254"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-187"
@@ -558,9 +723,12 @@ cases:
     title: "Smith v. Gale"
     volume: "144"
     page: "509"
+    docket: "225"
+    citation: "144 U.S. 509"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1892"
-    citation: "144 U.S. 509"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-213"
@@ -568,9 +736,12 @@ cases:
     title: "Sessions v. Romadka"
     volume: "145"
     page: "029"
+    docket: "262"
+    citation: "145 U.S. 29"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1892"
-    citation: "145 U.S. 29"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-218"
@@ -578,9 +749,12 @@ cases:
     title: "New England Mortgage Security Co. v. Gay"
     volume: "145"
     page: "123"
+    docket: "221"
+    citation: "145 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1892"
-    citation: "145 U.S. 123"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-220"
@@ -588,9 +762,12 @@ cases:
     title: "Barnett v. Denison"
     volume: "145"
     page: "135"
+    docket: "297"
+    citation: "145 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1892"
-    citation: "145 U.S. 135"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-221"
@@ -598,9 +775,12 @@ cases:
     title: "Topliff v. Topliff"
     volume: "145"
     page: "156"
+    docket: "220"
+    citation: "145 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1892"
-    citation: "145 U.S. 156"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-231"
@@ -608,9 +788,12 @@ cases:
     title: "ICC v. Baltimore &amp; Ohio R. Co."
     volume: "145"
     page: "263"
+    docket: "889"
+    citation: "145 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1892"
-    citation: "145 U.S. 263"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-234"
@@ -618,9 +801,12 @@ cases:
     title: "Hoyt v. Horne"
     volume: "145"
     page: "302"
+    docket: "336"
+    citation: "145 U.S. 302"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1892"
-    citation: "145 U.S. 302"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-235"
@@ -628,9 +814,12 @@ cases:
     title: "Pickering v. Lomax"
     volume: "145"
     page: "310"
+    docket: "342"
+    citation: "145 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1892"
-    citation: "145 U.S. 310"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-236"
@@ -638,9 +827,12 @@ cases:
     title: "Felix v. Patrick"
     volume: "145"
     page: "317"
+    docket: "301"
+    citation: "145 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1892"
-    citation: "145 U.S. 317"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-237"
@@ -648,9 +840,12 @@ cases:
     title: "The Corsair"
     volume: "145"
     page: "335"
+    docket: "344"
+    citation: "145 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1892"
-    citation: "145 U.S. 335"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-239"
@@ -658,9 +853,12 @@ cases:
     title: "Galliher v. Cadwell"
     volume: "145"
     page: "368"
+    docket: "265"
+    citation: "145 U.S. 368"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1892"
-    citation: "145 U.S. 368"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1891-265"
@@ -668,9 +866,12 @@ cases:
     title: "New Orleans Pacific R. Co. v. Parker"
     volume: "143"
     page: "042"
+    docket: "137"
+    citation: "143 U.S. 42"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1892"
-    citation: "143 U.S. 42"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-005"
@@ -678,9 +879,12 @@ cases:
     title: "Earnshaw v. United States"
     volume: "146"
     page: "060"
+    docket: "4"
+    citation: "146 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1892"
-    citation: "146 U.S. 60"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-006"
@@ -688,9 +892,12 @@ cases:
     title: "United States v. Perry"
     volume: "146"
     page: "071"
+    docket: "794"
+    citation: "146 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1892"
-    citation: "146 U.S. 71"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-009"
@@ -698,9 +905,12 @@ cases:
     title: "Foster v. Mansfield, C. &amp; L. M. R. Co."
     volume: "146"
     page: "088"
+    docket: "25"
+    citation: "146 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1892"
-    citation: "146 U.S. 88"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-017"
@@ -708,9 +918,12 @@ cases:
     title: "Cook v. Hart"
     volume: "146"
     page: "183"
+    docket: "1067"
+    citation: "146 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1892"
-    citation: "146 U.S. 183"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-031"
@@ -718,9 +931,12 @@ cases:
     title: "United States v. Dunnington"
     volume: "146"
     page: "338"
+    docket: "51"
+    citation: "146 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Thursday, December 8, 1892"
-    citation: "146 U.S. 338"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-039"
@@ -728,9 +944,12 @@ cases:
     title: "Derby v. Thompson"
     volume: "146"
     page: "476"
+    docket: "40"
+    citation: "146 U.S. 476"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1892"
-    citation: "146 U.S. 476"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-046"
@@ -738,9 +957,12 @@ cases:
     title: "Cameron v. United States"
     volume: "146"
     page: "533"
+    docket: "42"
+    citation: "146 U.S. 533"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1892"
-    citation: "146 U.S. 533"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-047"
@@ -748,9 +970,12 @@ cases:
     title: "McGourkey v. Toledo &amp; Ohio Central R. Co."
     volume: "146"
     page: "536"
+    docket: "35"
+    citation: "146 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1892"
-    citation: "146 U.S. 536"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-060"
@@ -758,9 +983,12 @@ cases:
     title: "Monroe Cattle Co. v. Becker"
     volume: "147"
     page: "047"
+    docket: "87"
+    citation: "147 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1893"
-    citation: "147 U.S. 47"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-061"
@@ -768,9 +996,12 @@ cases:
     title: "Lytle v. Lansing"
     volume: "147"
     page: "059"
+    docket: "79"
+    citation: "147 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1893"
-    citation: "147 U.S. 59"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-062"
@@ -778,9 +1009,12 @@ cases:
     title: "The City of New York"
     volume: "147"
     page: "072"
+    docket: "61"
+    citation: "147 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1893"
-    citation: "147 U.S. 72"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-071"
@@ -788,9 +1022,12 @@ cases:
     title: "Noble v. Union River Logging R. Co."
     volume: "147"
     page: "165"
+    docket: "1157"
+    citation: "147 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1893"
-    citation: "147 U.S. 165"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-079"
@@ -798,9 +1035,12 @@ cases:
     title: "New Orleans v. Paine"
     volume: "147"
     page: "261"
+    docket: "1154"
+    citation: "147 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1893"
-    citation: "147 U.S. 261"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-085"
@@ -808,9 +1048,12 @@ cases:
     title: "Walter v. Northeastern R. Co."
     volume: "147"
     page: "370"
+    docket: "1206"
+    citation: "147 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1893"
-    citation: "147 U.S. 370"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-086"
@@ -818,9 +1061,12 @@ cases:
     title: "KEELS v. CENTRAL RAILROAD COMPANY"
     volume: "147"
     page: "374"
+    docket: "1207"
+    citation: "147 U.S. 374"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1893"
-    citation: "147 U.S. 374"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-109"
@@ -828,9 +1074,12 @@ cases:
     title: "United States v. Tanner"
     volume: "147"
     page: "661"
+    docket: "335"
+    citation: "147 U.S. 661"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1893"
-    citation: "147 U.S. 661"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-110"
@@ -838,9 +1087,12 @@ cases:
     title: "United States v. Fletcher"
     volume: "147"
     page: "664"
+    docket: "783"
+    citation: "147 U.S. 664"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1893"
-    citation: "147 U.S. 664"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-111"
@@ -848,9 +1100,12 @@ cases:
     title: "United States v. Pitman"
     volume: "147"
     page: "669"
+    docket: "699"
+    citation: "147 U.S. 669"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1893"
-    citation: "147 U.S. 669"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-112"
@@ -858,9 +1113,12 @@ cases:
     title: "United States v. Jones"
     volume: "147"
     page: "672"
+    docket: "312"
+    citation: "147 U.S. 672"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1893"
-    citation: "147 U.S. 672"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-113"
@@ -868,9 +1126,12 @@ cases:
     title: "United States v. King"
     volume: "147"
     page: "676"
+    docket: "628"
+    citation: "147 U.S. 676"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1893"
-    citation: "147 U.S. 676"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-114"
@@ -878,9 +1139,12 @@ cases:
     title: "United States v. Erwin"
     volume: "147"
     page: "685"
+    docket: "1194"
+    citation: "147 U.S. 685"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1893"
-    citation: "147 U.S. 685"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-115"
@@ -888,9 +1152,12 @@ cases:
     title: "United States v. Payne"
     volume: "147"
     page: "687"
+    docket: "673"
+    citation: "147 U.S. 687"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1893"
-    citation: "147 U.S. 687"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-116"
@@ -898,9 +1165,12 @@ cases:
     title: "United States v. Hall"
     volume: "147"
     page: "691"
+    docket: "459"
+    citation: "147 U.S. 691"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1893"
-    citation: "147 U.S. 691"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-117"
@@ -908,9 +1178,12 @@ cases:
     title: "United States v. McCandless"
     volume: "147"
     page: "692"
+    docket: "900"
+    citation: "147 U.S. 692"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1893"
-    citation: "147 U.S. 692"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-118"
@@ -918,9 +1191,12 @@ cases:
     title: "United States v. Taylor"
     volume: "147"
     page: "695"
+    docket: "795"
+    citation: "147 U.S. 695"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1893"
-    citation: "147 U.S. 695"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-132"
@@ -928,9 +1204,12 @@ cases:
     title: "Bier v. McGehee"
     volume: "148"
     page: "137"
+    docket: "1254"
+    citation: "148 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1893"
-    citation: "148 U.S. 137"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-150"
@@ -938,9 +1217,12 @@ cases:
     title: "Cameron v. United States"
     volume: "148"
     page: "301"
+    docket: "42"
+    citation: "148 U.S. 301"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1893"
-    citation: "148 U.S. 301"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-153"
@@ -948,9 +1230,12 @@ cases:
     title: "Johnston v. Standard Mining Co."
     volume: "148"
     page: "360"
+    docket: "133"
+    citation: "148 U.S. 360"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1893"
-    citation: "148 U.S. 360"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-162"
@@ -958,9 +1243,12 @@ cases:
     title: "National Hat Pouncing Machine Co. v. Hedden"
     volume: "148"
     page: "482"
+    docket: "138"
+    citation: "148 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1893"
-    citation: "148 U.S. 482"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-170"
@@ -968,9 +1256,12 @@ cases:
     title: "United States v. Union Pacific R. Co."
     volume: "148"
     page: "562"
+    docket: "149"
+    citation: "148 U.S. 562"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1893"
-    citation: "148 U.S. 562"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-171"
@@ -978,9 +1269,12 @@ cases:
     title: "German Bank of Memphis v. United States"
     volume: "148"
     page: "573"
+    docket: "693"
+    citation: "148 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1893"
-    citation: "148 U.S. 573"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-185"
@@ -988,9 +1282,12 @@ cases:
     title: "Bogk v. Gassert"
     volume: "149"
     page: "017"
+    docket: "179"
+    citation: "149 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1893"
-    citation: "149 U.S. 17"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-202"
@@ -998,9 +1295,12 @@ cases:
     title: "Duer v. Corbin Cabinet Lock Co."
     volume: "149"
     page: "216"
+    docket: "191"
+    citation: "149 U.S. 216"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1893"
-    citation: "149 U.S. 216"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-230"
@@ -1008,9 +1308,12 @@ cases:
     title: "Patrick v. Bowman"
     volume: "149"
     page: "411"
+    docket: "157"
+    citation: "149 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1893"
-    citation: "149 U.S. 411"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-240"
@@ -1018,9 +1321,12 @@ cases:
     title: "Ide v. Ball Engine Co."
     volume: "149"
     page: "550"
+    docket: "227"
+    citation: "149 U.S. 550"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 10, 1893"
-    citation: "149 U.S. 550"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-241"
@@ -1028,9 +1334,12 @@ cases:
     title: "Brigham v. Coffin"
     volume: "149"
     page: "557"
+    docket: "251"
+    citation: "149 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 10, 1893"
-    citation: "149 U.S. 557"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-242"
@@ -1038,9 +1347,12 @@ cases:
     title: "Coats v. Merrick Thread Co."
     volume: "149"
     page: "562"
+    docket: "261"
+    citation: "149 U.S. 562"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 10, 1893"
-    citation: "149 U.S. 562"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1892-255"
@@ -1048,9 +1360,12 @@ cases:
     title: "Union Pacific R. Co. v. Goodridge"
     volume: "149"
     page: "680"
+    docket: "211"
+    citation: "149 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1893"
-    citation: "149 U.S. 680"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-003"
@@ -1058,9 +1373,12 @@ cases:
     title: "Wood v. Brady"
     volume: "150"
     page: "018"
+    docket: "815"
+    citation: "150 U.S. 18"
     pdfSource: "loc"
     dateDecision: "Monday, October 23, 1893"
-    citation: "150 U.S. 18"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-008"
@@ -1068,9 +1386,12 @@ cases:
     title: "United States v. Baird"
     volume: "150"
     page: "054"
+    docket: "963"
+    citation: "150 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1893"
-    citation: "150 U.S. 54"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-009"
@@ -1078,9 +1399,12 @@ cases:
     title: "Moore v. United States"
     volume: "150"
     page: "057"
+    docket: "789"
+    citation: "150 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1893"
-    citation: "150 U.S. 57"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-021"
@@ -1088,9 +1412,12 @@ cases:
     title: "Ball &amp; Socket Fastener Co. v. Kraetzer"
     volume: "150"
     page: "111"
+    docket: "58"
+    citation: "150 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1893"
-    citation: "150 U.S. 111"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-022"
@@ -1098,9 +1425,12 @@ cases:
     title: "Graves v. United States"
     volume: "150"
     page: "118"
+    docket: "838"
+    citation: "150 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1893"
-    citation: "150 U.S. 118"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-037"
@@ -1108,9 +1438,12 @@ cases:
     title: "Thompson v. Sioux Falls Nat. Bank"
     volume: "150"
     page: "231"
+    docket: "53"
+    citation: "150 U.S. 231"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1893"
-    citation: "150 U.S. 231"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-040"
@@ -1118,9 +1451,12 @@ cases:
     title: "United States Trust Co. v. Wabash Western R. Co."
     volume: "150"
     page: "287"
+    docket: "51"
+    citation: "150 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1893"
-    citation: "150 U.S. 287"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-041"
@@ -1128,9 +1464,12 @@ cases:
     title: "Seney v. Wabash Western R. Co."
     volume: "150"
     page: "310"
+    docket: "26"
+    citation: "150 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1893"
-    citation: "150 U.S. 310"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-052"
@@ -1138,9 +1477,12 @@ cases:
     title: "Seeberger v. Hardy"
     volume: "150"
     page: "420"
+    docket: "276"
+    citation: "150 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1893"
-    citation: "150 U.S. 420"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-059"
@@ -1148,9 +1490,12 @@ cases:
     title: "Kinkead v. United States"
     volume: "150"
     page: "483"
+    docket: "83"
+    citation: "150 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1893"
-    citation: "150 U.S. 483"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-060"
@@ -1158,9 +1503,12 @@ cases:
     title: "Insley v. United States"
     volume: "150"
     page: "512"
+    docket: "921"
+    citation: "150 U.S. 512"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1893"
-    citation: "150 U.S. 512"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-062"
@@ -1168,9 +1516,12 @@ cases:
     title: "Long v. Thayer"
     volume: "150"
     page: "520"
+    docket: "471"
+    citation: "150 U.S. 520"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1893"
-    citation: "150 U.S. 520"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-067"
@@ -1178,9 +1529,12 @@ cases:
     title: "Turner v. Sawyer"
     volume: "150"
     page: "578"
+    docket: "70"
+    citation: "150 U.S. 578"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1893"
-    citation: "150 U.S. 578"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-071"
@@ -1188,9 +1542,12 @@ cases:
     title: "Giles v. Heysinger"
     volume: "150"
     page: "627"
+    docket: "152"
+    citation: "150 U.S. 627"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1893"
-    citation: "150 U.S. 627"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-079"
@@ -1198,9 +1555,12 @@ cases:
     title: "Famous Smith v. United States"
     volume: "151"
     page: "050"
+    docket: "1003"
+    citation: "151 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 3, 1894"
-    citation: "151 U.S. 50"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-093"
@@ -1208,9 +1568,12 @@ cases:
     title: "Bates v. Preble"
     volume: "151"
     page: "149"
+    docket: "123"
+    citation: "151 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1894"
-    citation: "151 U.S. 149"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-098"
@@ -1218,9 +1581,12 @@ cases:
     title: "Chicago, M. &amp; St. P. R. Co. v. Lowell"
     volume: "151"
     page: "209"
+    docket: "173"
+    citation: "151 U.S. 209"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1894"
-    citation: "151 U.S. 209"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-106"
@@ -1228,9 +1594,12 @@ cases:
     title: "Sheffield &amp; Birmingham Coal, Iron &amp; R. Co. v. Gordon"
     volume: "151"
     page: "285"
+    docket: "176"
+    citation: "151 U.S. 285"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1894"
-    citation: "151 U.S. 285"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-125"
@@ -1238,9 +1607,12 @@ cases:
     title: "Galveston, H. &amp; S. A. R. Co. v. Gonzales"
     volume: "151"
     page: "496"
+    docket: "158"
+    citation: "151 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1894"
-    citation: "151 U.S. 496"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-128"
@@ -1248,9 +1620,12 @@ cases:
     title: "United States v. Hutchins"
     volume: "151"
     page: "542"
+    docket: "729"
+    citation: "151 U.S. 542"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1894"
-    citation: "151 U.S. 542"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-134"
@@ -1258,9 +1633,12 @@ cases:
     title: "Maxwell Land Grant Co. v. Dawson"
     volume: "151"
     page: "586"
+    docket: "1065"
+    citation: "151 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1894"
-    citation: "151 U.S. 586"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-144"
@@ -1268,9 +1646,12 @@ cases:
     title: "St. Louis &amp; San Francisco R. Co. v. Schumacher"
     volume: "152"
     page: "077"
+    docket: "239"
+    citation: "152 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1894"
-    citation: "152 U.S. 77"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-145"
@@ -1278,9 +1659,12 @@ cases:
     title: "Lazarus v. Phelps"
     volume: "152"
     page: "081"
+    docket: "225"
+    citation: "152 U.S. 81"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1894"
-    citation: "152 U.S. 81"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-146"
@@ -1288,9 +1672,12 @@ cases:
     title: "Rowe v. Phelps"
     volume: "152"
     page: "087"
+    docket: "237"
+    citation: "152 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1894"
-    citation: "152 U.S. 87"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-152"
@@ -1298,9 +1685,12 @@ cases:
     title: "The Main v. Williams"
     volume: "152"
     page: "122"
+    docket: "233"
+    citation: "152 U.S. 122"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1894"
-    citation: "152 U.S. 122"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-153"
@@ -1308,9 +1698,12 @@ cases:
     title: "Lawton v. Steele"
     volume: "152"
     page: "133"
+    docket: "203"
+    citation: "152 U.S. 133"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1894"
-    citation: "152 U.S. 133"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-169"
@@ -1318,9 +1711,12 @@ cases:
     title: "Keokuk &amp; Western R. Co. v. Missouri"
     volume: "152"
     page: "301"
+    docket: "182"
+    citation: "152 U.S. 301"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1894"
-    citation: "152 U.S. 301"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-170"
@@ -1328,9 +1724,12 @@ cases:
     title: "Keokuk &amp; Western R. Co. v. Scotland County"
     volume: "152"
     page: "317"
+    docket: "183"
+    citation: "152 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1894"
-    citation: "152 U.S. 317"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-171"
@@ -1338,9 +1737,12 @@ cases:
     title: "Keokuk &amp; Western R. Co. v. Scotland County"
     volume: "152"
     page: "318"
+    docket: "414"
+    citation: "152 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1894"
-    citation: "152 U.S. 318"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-182"
@@ -1348,9 +1750,12 @@ cases:
     title: "Morgan Envelope Co. v. Albany Perforated Wrapping Paper Co."
     volume: "152"
     page: "425"
+    docket: "254"
+    citation: "152 U.S. 425"
     pdfSource: "loc"
     dateDecision: "Thursday, March 8, 1894"
-    citation: "152 U.S. 425"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-192"
@@ -1358,9 +1763,12 @@ cases:
     title: "Huntley v. Kingman"
     volume: "152"
     page: "527"
+    docket: "256"
+    citation: "152 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1894"
-    citation: "152 U.S. 527"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-198"
@@ -1368,9 +1776,12 @@ cases:
     title: "Seeberger v. Schlesinger"
     volume: "152"
     page: "581"
+    docket: "274"
+    citation: "152 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1894"
-    citation: "152 U.S. 581"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-212"
@@ -1378,9 +1789,12 @@ cases:
     title: "Wilson v. Haley Live Stock Co."
     volume: "153"
     page: "039"
+    docket: "332"
+    citation: "153 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1894"
-    citation: "153 U.S. 39"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-214"
@@ -1388,9 +1802,12 @@ cases:
     title: "The Martello"
     volume: "153"
     page: "064"
+    docket: "293"
+    citation: "153 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1894"
-    citation: "153 U.S. 64"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-218"
@@ -1398,9 +1815,12 @@ cases:
     title: "Lutz v. Magone"
     volume: "153"
     page: "105"
+    docket: "336"
+    citation: "153 U.S. 105"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1894"
-    citation: "153 U.S. 105"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-252"
@@ -1408,9 +1828,12 @@ cases:
     title: "Miller v. Texas"
     volume: "153"
     page: "535"
+    docket: "1166"
+    citation: "153 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1894"
-    citation: "153 U.S. 535"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-256"
@@ -1418,9 +1841,12 @@ cases:
     title: "Evans v. United States"
     volume: "153"
     page: "584"
+    docket: "922"
+    citation: "153 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1894"
-    citation: "153 U.S. 584"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-257"
@@ -1428,9 +1854,12 @@ cases:
     title: "Evans v. United States"
     volume: "153"
     page: "608"
+    docket: "923"
+    citation: "153 U.S. 608"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1894"
-    citation: "153 U.S. 608"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-268"
@@ -1438,9 +1867,12 @@ cases:
     title: "Constable v. National S. S. Co."
     volume: "154"
     page: "051"
+    docket: "21"
+    citation: "154 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Saturday, May 26, 1894"
-    citation: "154 U.S. 51"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-279"
@@ -1448,9 +1880,12 @@ cases:
     title: "Covington &amp; Cincinnati Bridge Co. v. Kentucky"
     volume: "154"
     page: "204"
+    docket: "1025"
+    citation: "154 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Saturday, May 26, 1894"
-    citation: "154 U.S. 204"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-280"
@@ -1458,9 +1893,12 @@ cases:
     title: "Covington &amp; Cincinnati Elevated Railroad &amp; Transfer &amp; Bridge Co. v. Kentucky"
     volume: "154"
     page: "224"
+    docket: "1043"
+    citation: "154 U.S. 224"
     pdfSource: "loc"
     dateDecision: "Saturday, May 26, 1894"
-    citation: "154 U.S. 224"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-282"
@@ -1468,9 +1906,12 @@ cases:
     title: "Riggles v. Erney"
     volume: "154"
     page: "244"
+    docket: "335"
+    citation: "154 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Saturday, May 26, 1894"
-    citation: "154 U.S. 244"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1893-285"
@@ -1478,9 +1919,12 @@ cases:
     title: "Northern Pacific R. Co. v. Hambly"
     volume: "154"
     page: "349"
+    docket: "187"
+    citation: "154 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Saturday, May 26, 1894"
-    citation: "154 U.S. 349"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-003"
@@ -1488,9 +1932,12 @@ cases:
     title: "Wright v. Yuengling"
     volume: "155"
     page: "047"
+    docket: "1"
+    citation: "155 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1894"
-    citation: "155 U.S. 47"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-004"
@@ -1498,9 +1945,12 @@ cases:
     title: "Wright v. Beggs"
     volume: "155"
     page: "054"
+    docket: "1"
+    citation: "155 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1894"
-    citation: "155 U.S. 54"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-005"
@@ -1508,9 +1958,12 @@ cases:
     title: "Lewis v. Pima County"
     volume: "155"
     page: "054"
+    docket: "550"
+    citation: "155 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Monday, October 29, 1894"
-    citation: "155 U.S. 54"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-006"
@@ -1518,9 +1971,12 @@ cases:
     title: "Greeley v. Lowe"
     volume: "155"
     page: "058"
+    docket: "517"
+    citation: "155 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, October 29, 1894"
-    citation: "155 U.S. 58"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-020"
@@ -1528,9 +1984,12 @@ cases:
     title: "United States v. Blackfeather"
     volume: "155"
     page: "180"
+    docket: "622"
+    citation: "155 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1894"
-    citation: "155 U.S. 180"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-027"
@@ -1538,9 +1997,12 @@ cases:
     title: "The Breakwater"
     volume: "155"
     page: "252"
+    docket: "61"
+    citation: "155 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1894"
-    citation: "155 U.S. 252"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-031"
@@ -1548,9 +2010,12 @@ cases:
     title: "Deering v. Winona Harvester Works"
     volume: "155"
     page: "286"
+    docket: "54"
+    citation: "155 U.S. 286"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1894"
-    citation: "155 U.S. 286"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-034"
@@ -1558,9 +2023,12 @@ cases:
     title: "Wehrman v. Conklin"
     volume: "155"
     page: "314"
+    docket: "45"
+    citation: "155 U.S. 314"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1894"
-    citation: "155 U.S. 314"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-064"
@@ -1568,9 +2036,12 @@ cases:
     title: "United States v. Allred"
     volume: "155"
     page: "591"
+    docket: "552"
+    citation: "155 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1895"
-    citation: "155 U.S. 591"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-065"
@@ -1578,9 +2049,12 @@ cases:
     title: "Potts v. Creager"
     volume: "155"
     page: "597"
+    docket: "94"
+    citation: "155 U.S. 597"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1895"
-    citation: "155 U.S. 597"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-066"
@@ -1588,9 +2062,12 @@ cases:
     title: "Campbell v. Haverhill"
     volume: "155"
     page: "610"
+    docket: "87"
+    citation: "155 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1895"
-    citation: "155 U.S. 610"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-068"
@@ -1598,9 +2075,12 @@ cases:
     title: "Davis v. Schwartz"
     volume: "155"
     page: "631"
+    docket: "75"
+    citation: "155 U.S. 631"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1895"
-    citation: "155 U.S. 631"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-071"
@@ -1608,9 +2088,12 @@ cases:
     title: "Sherman v. United States"
     volume: "155"
     page: "673"
+    docket: "664"
+    citation: "155 U.S. 673"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1895"
-    citation: "155 U.S. 673"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-072"
@@ -1618,9 +2101,12 @@ cases:
     title: "McKnight v. James"
     volume: "155"
     page: "685"
+    docket: "841"
+    citation: "155 U.S. 685"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1895"
-    citation: "155 U.S. 685"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-080"
@@ -1628,9 +2114,12 @@ cases:
     title: "Lazarus v. Phelps"
     volume: "156"
     page: "202"
+    docket: "105"
+    citation: "156 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1895"
-    citation: "156 U.S. 202"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-087"
@@ -1638,9 +2127,12 @@ cases:
     title: "Mattox v. United States"
     volume: "156"
     page: "237"
+    docket: "667"
+    citation: "156 U.S. 237"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1895"
-    citation: "156 U.S. 237"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-088"
@@ -1648,9 +2140,12 @@ cases:
     title: "The Roller Mill Patent"
     volume: "156"
     page: "261"
+    docket: "70"
+    citation: "156 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1895"
-    citation: "156 U.S. 261"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-107"
@@ -1658,9 +2153,12 @@ cases:
     title: "Bannon v. United States"
     volume: "156"
     page: "464"
+    docket: "807"
+    citation: "156 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "156 U.S. 464"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-112"
@@ -1668,9 +2166,12 @@ cases:
     title: "National Cash Register Co. v. Boston Cash Indicator &amp; Recorder Co."
     volume: "156"
     page: "502"
+    docket: "155"
+    citation: "156 U.S. 502"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "156 U.S. 502"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-114"
@@ -1678,9 +2179,12 @@ cases:
     title: "Evers v. Watson"
     volume: "156"
     page: "527"
+    docket: "180"
+    citation: "156 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "156 U.S. 527"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-122"
@@ -1688,9 +2192,12 @@ cases:
     title: "Saltonstall v. Wiebusch"
     volume: "156"
     page: "601"
+    docket: "150"
+    citation: "156 U.S. 601"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "156 U.S. 601"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-124"
@@ -1698,9 +2205,12 @@ cases:
     title: "Black Diamond Coal Mining Co. v. Excelsior Coal Co."
     volume: "156"
     page: "611"
+    docket: "200"
+    citation: "156 U.S. 611"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "156 U.S. 611"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-130"
@@ -1708,9 +2218,12 @@ cases:
     title: "Davis v. Wakelee"
     volume: "156"
     page: "680"
+    docket: "181"
+    citation: "156 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "156 U.S. 680"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-134"
@@ -1718,9 +2231,12 @@ cases:
     title: "The Ludvig Holberg"
     volume: "157"
     page: "060"
+    docket: "136"
+    citation: "157 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "157 U.S. 60"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-145"
@@ -1728,9 +2244,12 @@ cases:
     title: "Seeberger v. Wright &amp; Lawther Oil &amp; Lead Mfg. Co."
     volume: "157"
     page: "183"
+    docket: "219"
+    citation: "157 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1895"
-    citation: "157 U.S. 183"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-146"
@@ -1738,9 +2257,12 @@ cases:
     title: "Stokes v. United States"
     volume: "157"
     page: "187"
+    docket: "746"
+    citation: "157 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1895"
-    citation: "157 U.S. 187"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-157"
@@ -1748,9 +2270,12 @@ cases:
     title: "United States v. Sweeny"
     volume: "157"
     page: "281"
+    docket: "889"
+    citation: "157 U.S. 281"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1895"
-    citation: "157 U.S. 281"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-158"
@@ -1758,9 +2283,12 @@ cases:
     title: "Cochran v. United States"
     volume: "157"
     page: "286"
+    docket: "815"
+    citation: "157 U.S. 286"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1895"
-    citation: "157 U.S. 286"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-186"
@@ -1768,9 +2296,12 @@ cases:
     title: "Du Bois v. Kirk"
     volume: "158"
     page: "058"
+    docket: "240"
+    citation: "158 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1895"
-    citation: "158 U.S. 58"
+    voteMajority: 6
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-187"
@@ -1778,9 +2309,12 @@ cases:
     title: "Risdon Locomotive Works v. Medart"
     volume: "158"
     page: "068"
+    docket: "164"
+    citation: "158 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1895"
-    citation: "158 U.S. 68"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-199"
@@ -1788,9 +2322,12 @@ cases:
     title: "The Oregon"
     volume: "158"
     page: "186"
+    docket: "270"
+    citation: "158 U.S. 186"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1895"
-    citation: "158 U.S. 186"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-211"
@@ -1798,9 +2335,12 @@ cases:
     title: "Richards v. Chase Elevator Co."
     volume: "158"
     page: "299"
+    docket: "310"
+    citation: "158 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1895"
-    citation: "158 U.S. 299"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-212"
@@ -1808,9 +2348,12 @@ cases:
     title: "The Beaconsfield"
     volume: "158"
     page: "303"
+    docket: "943"
+    citation: "158 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1895"
-    citation: "158 U.S. 303"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-217"
@@ -1818,9 +2361,12 @@ cases:
     title: "United States v. Smith"
     volume: "158"
     page: "346"
+    docket: "289"
+    citation: "158 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1895"
-    citation: "158 U.S. 346"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-218"
@@ -1828,9 +2374,12 @@ cases:
     title: "Shipman v. Straitsville Central Mining Co."
     volume: "158"
     page: "356"
+    docket: "306"
+    citation: "158 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1895"
-    citation: "158 U.S. 356"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-219"
@@ -1838,9 +2387,12 @@ cases:
     title: "Eby v. King"
     volume: "158"
     page: "366"
+    docket: "336"
+    citation: "158 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1895"
-    citation: "158 U.S. 366"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1894-239"
@@ -1848,9 +2400,12 @@ cases:
     title: "White v. Ewing"
     volume: "159"
     page: "036"
+    docket: "913"
+    citation: "159 U.S. 36"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1895"
-    citation: "159 U.S. 36"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-003"
@@ -1858,9 +2413,12 @@ cases:
     title: "Richmond Nervine Co. v. Richmond"
     volume: "159"
     page: "293"
+    docket: "59"
+    citation: "159 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, October 21, 1895"
-    citation: "159 U.S. 293"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-004"
@@ -1868,9 +2426,12 @@ cases:
     title: "Gilfillan v. McKee"
     volume: "159"
     page: "303"
+    docket: "26"
+    citation: "159 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, October 21, 1895"
-    citation: "159 U.S. 303"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-005"
@@ -1878,9 +2439,12 @@ cases:
     title: "McKee v. Lamon"
     volume: "159"
     page: "317"
+    docket: "33"
+    citation: "159 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, October 21, 1895"
-    citation: "159 U.S. 317"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-006"
@@ -1888,9 +2452,12 @@ cases:
     title: "McKee v. Latrobe"
     volume: "159"
     page: "327"
+    docket: "35"
+    citation: "159 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, October 21, 1895"
-    citation: "159 U.S. 327"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-017"
@@ -1898,9 +2465,12 @@ cases:
     title: "The Incandescent Lamp Patent"
     volume: "159"
     page: "465"
+    docket: "10"
+    citation: "159 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1895"
-    citation: "159 U.S. 465"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-018"
@@ -1908,9 +2478,12 @@ cases:
     title: "Isaacs v. United States"
     volume: "159"
     page: "487"
+    docket: "609"
+    citation: "159 U.S. 487"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1895"
-    citation: "159 U.S. 487"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-019"
@@ -1918,9 +2491,12 @@ cases:
     title: "Shiver v. United States"
     volume: "159"
     page: "491"
+    docket: "548"
+    citation: "159 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1895"
-    citation: "159 U.S. 491"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-020"
@@ -1928,9 +2504,12 @@ cases:
     title: "Patton v. United States"
     volume: "159"
     page: "500"
+    docket: "36"
+    citation: "159 U.S. 500"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1895"
-    citation: "159 U.S. 500"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-029"
@@ -1938,9 +2517,12 @@ cases:
     title: "Cowley v. Northern Pacific R. Co."
     volume: "159"
     page: "569"
+    docket: "67"
+    citation: "159 U.S. 569"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1895"
-    citation: "159 U.S. 569"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-030"
@@ -1948,9 +2530,12 @@ cases:
     title: "Hilton&apos;s Administrator v. Jones"
     volume: "159"
     page: "584"
+    docket: "1"
+    citation: "159 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1895"
-    citation: "159 U.S. 584"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-040"
@@ -1958,9 +2543,12 @@ cases:
     title: "Goode v. United States"
     volume: "159"
     page: "663"
+    docket: "616"
+    citation: "159 U.S. 663"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1895"
-    citation: "159 U.S. 663"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-053"
@@ -1968,9 +2556,12 @@ cases:
     title: "McCarty v. Lehigh Valley R. Co."
     volume: "160"
     page: "110"
+    docket: "9"
+    citation: "160 U.S. 110"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1895"
-    citation: "160 U.S. 110"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-060"
@@ -1978,9 +2569,12 @@ cases:
     title: "Townsend v. Vanderwerker"
     volume: "160"
     page: "171"
+    docket: "73"
+    citation: "160 U.S. 171"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1895"
-    citation: "160 U.S. 171"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-068"
@@ -1988,9 +2582,12 @@ cases:
     title: "Moore v. United States"
     volume: "160"
     page: "268"
+    docket: "719"
+    citation: "160 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1895"
-    citation: "160 U.S. 268"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-078"
@@ -1998,9 +2595,12 @@ cases:
     title: "Richards v. Chase Elevator Co."
     volume: "159"
     page: "477"
+    docket: "319"
+    citation: "159 U.S. 477"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1895"
-    citation: "159 U.S. 477"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-079"
@@ -2008,9 +2608,12 @@ cases:
     title: "Pierce v. United States"
     volume: "160"
     page: "355"
+    docket: "648"
+    citation: "160 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1896"
-    citation: "160 U.S. 355"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-080"
@@ -2018,9 +2621,12 @@ cases:
     title: "Bartlett v. Lockwood"
     volume: "160"
     page: "357"
+    docket: "95"
+    citation: "160 U.S. 357"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1896"
-    citation: "160 U.S. 357"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-081"
@@ -2028,9 +2634,12 @@ cases:
     title: "Van Wagenen v. Sewall"
     volume: "160"
     page: "369"
+    docket: "140"
+    citation: "160 U.S. 369"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1896"
-    citation: "160 U.S. 369"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-082"
@@ -2038,9 +2647,12 @@ cases:
     title: "Union Mut. Life Ins. Co. v. Kirchoff"
     volume: "160"
     page: "374"
+    docket: "182"
+    citation: "160 U.S. 374"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1896"
-    citation: "160 U.S. 374"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-083"
@@ -2048,9 +2660,12 @@ cases:
     title: "Kirby v. Tallmadge"
     volume: "160"
     page: "379"
+    docket: "96"
+    citation: "160 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1896"
-    citation: "160 U.S. 379"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-087"
@@ -2058,9 +2673,12 @@ cases:
     title: "Gill v. United States"
     volume: "160"
     page: "426"
+    docket: "85"
+    citation: "160 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1896"
-    citation: "160 U.S. 426"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-097"
@@ -2068,9 +2686,12 @@ cases:
     title: "United States v. Fuller"
     volume: "160"
     page: "593"
+    docket: "805"
+    citation: "160 U.S. 593"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1896"
-    citation: "160 U.S. 593"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-102"
@@ -2078,9 +2699,12 @@ cases:
     title: "United States v. Thornton"
     volume: "160"
     page: "654"
+    docket: "138"
+    citation: "160 U.S. 654"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1896"
-    citation: "160 U.S. 654"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-141"
@@ -2088,9 +2712,12 @@ cases:
     title: "Schroeder v. Young"
     volume: "161"
     page: "334"
+    docket: "458"
+    citation: "161 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1896"
-    citation: "161 U.S. 334"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-142"
@@ -2098,9 +2725,12 @@ cases:
     title: "Douglas v. Wallace"
     volume: "161"
     page: "346"
+    docket: "611"
+    citation: "161 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1896"
-    citation: "161 U.S. 346"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-152"
@@ -2108,9 +2738,12 @@ cases:
     title: "The Delaware"
     volume: "161"
     page: "459"
+    docket: "555"
+    citation: "161 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1896"
-    citation: "161 U.S. 459"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-164"
@@ -2118,9 +2751,12 @@ cases:
     title: "Brown v. Walker"
     volume: "161"
     page: "591"
+    docket: "765"
+    citation: "161 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1896"
-    citation: "161 U.S. 591"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-167"
@@ -2128,9 +2764,12 @@ cases:
     title: "Pearsall v. Great Northern R. Co."
     volume: "161"
     page: "646"
+    docket: "768"
+    citation: "161 U.S. 646"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1896"
-    citation: "161 U.S. 646"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-168"
@@ -2138,9 +2777,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Kentucky"
     volume: "161"
     page: "677"
+    docket: "722"
+    citation: "161 U.S. 677"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1896"
-    citation: "161 U.S. 677"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-180"
@@ -2148,9 +2790,12 @@ cases:
     title: "United States v. Julian"
     volume: "162"
     page: "324"
+    docket: "925"
+    citation: "162 U.S. 324"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1896"
-    citation: "162 U.S. 324"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-181"
@@ -2158,9 +2803,12 @@ cases:
     title: "Hollander v. Fechheimer"
     volume: "162"
     page: "326"
+    docket: "146"
+    citation: "162 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1896"
-    citation: "162 U.S. 326"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-195"
@@ -2168,9 +2816,12 @@ cases:
     title: "Dashiell v. Grosvenor"
     volume: "162"
     page: "425"
+    docket: "569"
+    citation: "162 U.S. 425"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1896"
-    citation: "162 U.S. 425"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-203"
@@ -2178,9 +2829,12 @@ cases:
     title: "Alberty v. United States"
     volume: "162"
     page: "499"
+    docket: "853"
+    citation: "162 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1896"
-    citation: "162 U.S. 499"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-204"
@@ -2188,9 +2842,12 @@ cases:
     title: "Central Pacific R. Co. v. Nevada"
     volume: "162"
     page: "512"
+    docket: "170"
+    citation: "162 U.S. 512"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1896"
-    citation: "162 U.S. 512"
+    voteMajority: 6
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-205"
@@ -2198,9 +2855,12 @@ cases:
     title: "Girard Ins. &amp; Trust Co. v. Cooper"
     volume: "162"
     page: "529"
+    docket: "164"
+    citation: "162 U.S. 529"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1896"
-    citation: "162 U.S. 529"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-209"
@@ -2208,9 +2868,12 @@ cases:
     title: "Fee v. Brown"
     volume: "162"
     page: "602"
+    docket: "165"
+    citation: "162 U.S. 602"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1896"
-    citation: "162 U.S. 602"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-217"
@@ -2218,9 +2881,12 @@ cases:
     title: "Kirk v. United States"
     volume: "163"
     page: "049"
+    docket: "214"
+    citation: "163 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1896"
-    citation: "163 U.S. 49"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-240"
@@ -2228,9 +2894,12 @@ cases:
     title: "Knights of Pythias v. Kalinski"
     volume: "163"
     page: "289"
+    docket: "268"
+    citation: "163 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1896"
-    citation: "163 U.S. 289"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-246"
@@ -2238,9 +2907,12 @@ cases:
     title: "Hilborn v. United States"
     volume: "163"
     page: "342"
+    docket: "267"
+    citation: "163 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1896"
-    citation: "163 U.S. 342"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-257"
@@ -2248,9 +2920,12 @@ cases:
     title: "Grayson v. Lynch"
     volume: "163"
     page: "468"
+    docket: "290"
+    citation: "163 U.S. 468"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1896"
-    citation: "163 U.S. 468"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-267"
@@ -2258,9 +2933,12 @@ cases:
     title: "United States v. Perkins"
     volume: "163"
     page: "625"
+    docket: "422"
+    citation: "163 U.S. 625"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1896"
-    citation: "163 U.S. 625"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-268"
@@ -2268,9 +2946,12 @@ cases:
     title: "United States v. Fitch"
     volume: "163"
     page: "631"
+    docket: "828"
+    citation: "163 U.S. 631"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1896"
-    citation: "163 U.S. 631"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1895-271"
@@ -2278,9 +2959,12 @@ cases:
     title: "Plessy v. Ferguson"
     volume: "163"
     page: "537"
+    docket: "210"
+    citation: "163 U.S. 537"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1896"
-    citation: "163 U.S. 537"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-005"
@@ -2288,9 +2972,12 @@ cases:
     title: "United States v. Kurtz"
     volume: "164"
     page: "049"
+    docket: "530"
+    citation: "164 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Monday, October 26, 1896"
-    citation: "164 U.S. 49"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-008"
@@ -2298,9 +2985,12 @@ cases:
     title: "United States v. McMahon"
     volume: "164"
     page: "081"
+    docket: "356"
+    citation: "164 U.S. 81"
     pdfSource: "loc"
     dateDecision: "Monday, November 2, 1896"
-    citation: "164 U.S. 81"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-016"
@@ -2308,9 +2998,12 @@ cases:
     title: "United States v. Verdier"
     volume: "164"
     page: "213"
+    docket: "49"
+    citation: "164 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1896"
-    citation: "164 U.S. 213"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-023"
@@ -2318,9 +3011,12 @@ cases:
     title: "Old Jordan Mining &amp; Milling Co. v. Soci&eacute;t&eacute; Anonyme des Mines"
     volume: "164"
     page: "261"
+    docket: "71"
+    citation: "164 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1896"
-    citation: "164 U.S. 261"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-030"
@@ -2328,9 +3024,12 @@ cases:
     title: "Cake v. Mohun"
     volume: "164"
     page: "311"
+    docket: "123"
+    citation: "164 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1896"
-    citation: "164 U.S. 311"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-032"
@@ -2338,9 +3037,12 @@ cases:
     title: "Carothers v. Mayer"
     volume: "164"
     page: "325"
+    docket: "144"
+    citation: "164 U.S. 325"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1896"
-    citation: "164 U.S. 325"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-033"
@@ -2348,9 +3050,12 @@ cases:
     title: "Central Railroad &amp; Banking Co. v. Wright"
     volume: "164"
     page: "327"
+    docket: "300"
+    citation: "164 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1896"
-    citation: "164 U.S. 327"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-052"
@@ -2358,9 +3063,12 @@ cases:
     title: "Allen v. United States"
     volume: "164"
     page: "492"
+    docket: "371"
+    citation: "164 U.S. 492"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1896"
-    citation: "164 U.S. 492"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-070"
@@ -2368,9 +3076,11 @@ cases:
     title: "Ex parte Jones"
     volume: "164"
     page: "691"
+    citation: "164 U.S. 691"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1897"
-    citation: "164 U.S. 691"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-071"
@@ -2378,9 +3088,12 @@ cases:
     title: "Carver v. United States"
     volume: "164"
     page: "694"
+    docket: "588"
+    citation: "164 U.S. 694"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1897"
-    citation: "164 U.S. 694"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-088"
@@ -2388,9 +3101,12 @@ cases:
     title: "Robertson v. Baldwin"
     volume: "165"
     page: "275"
+    docket: "334"
+    citation: "165 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1897"
-    citation: "165 U.S. 275"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-104"
@@ -2398,9 +3114,12 @@ cases:
     title: "Glover v. Patten"
     volume: "165"
     page: "394"
+    docket: "78"
+    citation: "165 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1897"
-    citation: "165 U.S. 394"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-105"
@@ -2408,9 +3127,12 @@ cases:
     title: "Atlantic &amp; Pacific R. Co. v. Mingus"
     volume: "165"
     page: "413"
+    docket: "100"
+    citation: "165 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1897"
-    citation: "165 U.S. 413"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-110"
@@ -2418,9 +3140,12 @@ cases:
     title: "Dunlop v. United States"
     volume: "165"
     page: "486"
+    docket: "472"
+    citation: "165 U.S. 486"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1897"
-    citation: "165 U.S. 486"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-127"
@@ -2428,9 +3153,12 @@ cases:
     title: "The Conqueror"
     volume: "166"
     page: "110"
+    docket: "98"
+    citation: "166 U.S. 110"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1897"
-    citation: "166 U.S. 110"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-129"
@@ -2438,9 +3166,12 @@ cases:
     title: "Allen v. Georgia"
     volume: "166"
     page: "138"
+    docket: "641"
+    citation: "166 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1897"
-    citation: "166 U.S. 138"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-130"
@@ -2448,9 +3179,12 @@ cases:
     title: "Grand Lodge F. and A. Masons of La. v. New Orleans"
     volume: "166"
     page: "143"
+    docket: "111"
+    citation: "166 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1897"
-    citation: "166 U.S. 143"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-139"
@@ -2458,9 +3192,12 @@ cases:
     title: "Panama R. Co. v. Napier Shipping Co."
     volume: "166"
     page: "280"
+    docket: "102"
+    citation: "166 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1897"
-    citation: "166 U.S. 280"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-146"
@@ -2468,9 +3205,12 @@ cases:
     title: "The Umbria"
     volume: "166"
     page: "404"
+    docket: "28"
+    citation: "166 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1897"
-    citation: "166 U.S. 404"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-158"
@@ -2478,9 +3218,12 @@ cases:
     title: "Allen v. Culp"
     volume: "166"
     page: "501"
+    docket: "252"
+    citation: "166 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1897"
-    citation: "166 U.S. 501"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-162"
@@ -2488,9 +3231,12 @@ cases:
     title: "In re Lennon"
     volume: "166"
     page: "548"
+    docket: "254"
+    citation: "166 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1897"
-    citation: "166 U.S. 548"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-163"
@@ -2498,9 +3244,12 @@ cases:
     title: "City R. Co. v. Citizens&apos; Street R. Co."
     volume: "166"
     page: "557"
+    docket: "214"
+    citation: "166 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1897"
-    citation: "166 U.S. 557"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-174"
@@ -2508,9 +3257,12 @@ cases:
     title: "Sentell v. New Orleans &amp; Carrollton R. Co."
     volume: "166"
     page: "698"
+    docket: "232"
+    citation: "166 U.S. 698"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1897"
-    citation: "166 U.S. 698"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-186"
@@ -2518,9 +3270,12 @@ cases:
     title: "Wabash R. Co. v. Defiance"
     volume: "167"
     page: "088"
+    docket: "239"
+    citation: "167 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1897"
-    citation: "167 U.S. 88"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-187"
@@ -2528,9 +3283,12 @@ cases:
     title: "Bryant v. United States"
     volume: "167"
     page: "104"
+    docket: "779"
+    citation: "167 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1897"
-    citation: "167 U.S. 104"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-190"
@@ -2538,9 +3296,12 @@ cases:
     title: "In re Johnson"
     volume: "167"
     page: "120"
+    docket: "13 Orig."
+    citation: "167 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1897"
-    citation: "167 U.S. 120"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-215"
@@ -2548,9 +3309,12 @@ cases:
     title: "Camfield v. United States"
     volume: "167"
     page: "518"
+    docket: "278"
+    citation: "167 U.S. 518"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1897"
-    citation: "167 U.S. 518"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1896-216"
@@ -2558,9 +3322,12 @@ cases:
     title: "Whitney v. United States"
     volume: "167"
     page: "529"
+    docket: "271"
+    citation: "167 U.S. 529"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1897"
-    citation: "167 U.S. 529"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-012"
@@ -2568,9 +3335,12 @@ cases:
     title: "Zia v. United States"
     volume: "168"
     page: "198"
+    docket: "5"
+    citation: "168 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1897"
-    citation: "168 U.S. 198"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-013"
@@ -2578,9 +3348,12 @@ cases:
     title: "Crespin v. United States"
     volume: "168"
     page: "208"
+    docket: "6"
+    citation: "168 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1897"
-    citation: "168 U.S. 208"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-016"
@@ -2588,9 +3361,12 @@ cases:
     title: "Dennison v. United States"
     volume: "168"
     page: "241"
+    docket: "84"
+    citation: "168 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1897"
-    citation: "168 U.S. 241"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-018"
@@ -2598,9 +3374,12 @@ cases:
     title: "Pratt v. Paris Gas Light &amp; Coke Co."
     volume: "168"
     page: "255"
+    docket: "85"
+    citation: "168 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1897"
-    citation: "168 U.S. 255"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-032"
@@ -2608,9 +3387,12 @@ cases:
     title: "The Resolute"
     volume: "168"
     page: "437"
+    docket: "135"
+    citation: "168 U.S. 437"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1897"
-    citation: "168 U.S. 437"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-033"
@@ -2618,9 +3400,12 @@ cases:
     title: "The William H. Hoag"
     volume: "168"
     page: "443"
+    docket: "137"
+    citation: "168 U.S. 443"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1897"
-    citation: "168 U.S. 443"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-074"
@@ -2628,9 +3413,12 @@ cases:
     title: "Wetzel v. Minnesota Railway Transfer Co."
     volume: "169"
     page: "237"
+    docket: "94"
+    citation: "169 U.S. 237"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1898"
-    citation: "169 U.S. 237"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-087"
@@ -2638,9 +3426,12 @@ cases:
     title: "Holden v. Hardy"
     volume: "169"
     page: "366"
+    docket: "261"
+    citation: "169 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1898"
-    citation: "169 U.S. 366"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-097"
@@ -2648,9 +3439,12 @@ cases:
     title: "McCormick Harvesting Machine Co. v. Aultman"
     volume: "169"
     page: "606"
+    docket: "130"
+    citation: "169 U.S. 606"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1898"
-    citation: "169 U.S. 606"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-101"
@@ -2658,9 +3452,12 @@ cases:
     title: "New York Indians v. United States"
     volume: "170"
     page: "001"
+    docket: "106"
+    citation: "170 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1898"
-    citation: "170 U.S. 1"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-120"
@@ -2668,9 +3465,12 @@ cases:
     title: "Calderon v. Atlas S. S. Co."
     volume: "170"
     page: "272"
+    docket: "83"
+    citation: "170 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1898"
-    citation: "170 U.S. 272"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-140"
@@ -2678,9 +3478,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Reeder"
     volume: "170"
     page: "530"
+    docket: "208"
+    citation: "170 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Monday, May 9, 1898"
-    citation: "170 U.S. 530"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-141"
@@ -2688,9 +3491,12 @@ cases:
     title: "Westinghouse v. Boyden Power Brake Co."
     volume: "170"
     page: "537"
+    docket: "116"
+    citation: "170 U.S. 537"
     pdfSource: "loc"
     dateDecision: "Monday, May 9, 1898"
-    citation: "170 U.S. 537"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-145"
@@ -2698,9 +3504,12 @@ cases:
     title: "Ledbetter v. United States"
     volume: "170"
     page: "606"
+    docket: "196"
+    citation: "170 U.S. 606"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1898"
-    citation: "170 U.S. 606"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-169"
@@ -2708,9 +3517,12 @@ cases:
     title: "Hubbell v. United States"
     volume: "171"
     page: "203"
+    docket: "198"
+    citation: "171 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1898"
-    citation: "171 U.S. 203"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1897-170"
@@ -2718,9 +3530,12 @@ cases:
     title: "Tide Water Oil Co. v. United States"
     volume: "171"
     page: "210"
+    docket: "149"
+    citation: "171 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1898"
-    citation: "171 U.S. 210"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-001"
@@ -2728,9 +3543,12 @@ cases:
     title: "California Nat. Bank v. Thomas"
     volume: "171"
     page: "441"
+    docket: "36"
+    citation: "171 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Monday, October 17, 1898"
-    citation: "171 U.S. 441"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-002"
@@ -2738,9 +3556,12 @@ cases:
     title: "California Nat. Bank v. Stateler"
     volume: "171"
     page: "447"
+    docket: "37"
+    citation: "171 U.S. 447"
     pdfSource: "loc"
     dateDecision: "Monday, October 17, 1898"
-    citation: "171 U.S. 447"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-016"
@@ -2748,9 +3569,12 @@ cases:
     title: "Walla Walla City v. Walla Walla Water Co."
     volume: "172"
     page: "001"
+    docket: "28"
+    citation: "172 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1898"
-    citation: "172 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-027"
@@ -2758,9 +3582,12 @@ cases:
     title: "The Elfrida"
     volume: "172"
     page: "186"
+    docket: "60"
+    citation: "172 U.S. 186"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1898"
-    citation: "172 U.S. 186"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-028"
@@ -2768,9 +3595,12 @@ cases:
     title: "United States v. Loughrey"
     volume: "172"
     page: "206"
+    docket: "22"
+    citation: "172 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1898"
-    citation: "172 U.S. 206"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-044"
@@ -2778,9 +3608,12 @@ cases:
     title: "Sonnentheil v. Christian Moerlein Brewing Co."
     volume: "172"
     page: "401"
+    docket: "45"
+    citation: "172 U.S. 401"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1899"
-    citation: "172 U.S. 401"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-045"
@@ -2788,9 +3621,12 @@ cases:
     title: "Utter v. Franklin"
     volume: "172"
     page: "416"
+    docket: "94"
+    citation: "172 U.S. 416"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1899"
-    citation: "172 U.S. 416"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-052"
@@ -2798,9 +3634,12 @@ cases:
     title: "Columbia Water Power Co. v. Columbia Electric Street Railway Light &amp; Power Co."
     volume: "172"
     page: "475"
+    docket: "67"
+    citation: "172 U.S. 475"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1899"
-    citation: "172 U.S. 475"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-063"
@@ -2808,9 +3647,12 @@ cases:
     title: "McQuade v. Trenton"
     volume: "172"
     page: "636"
+    docket: "125"
+    citation: "172 U.S. 636"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1899"
-    citation: "172 U.S. 636"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-066"
@@ -2818,9 +3660,12 @@ cases:
     title: "Lomax v. Pickering"
     volume: "173"
     page: "026"
+    docket: "123"
+    citation: "173 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1899"
-    citation: "173 U.S. 26"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-068"
@@ -2828,9 +3673,12 @@ cases:
     title: "McIntire v. Pryor"
     volume: "173"
     page: "038"
+    docket: "109"
+    citation: "173 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1899"
-    citation: "173 U.S. 38"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-083"
@@ -2838,9 +3686,12 @@ cases:
     title: "Henrietta Mining &amp; Milling Co. v. Johnson"
     volume: "173"
     page: "221"
+    docket: "139"
+    citation: "173 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1899"
-    citation: "173 U.S. 221"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-094"
@@ -2848,9 +3699,12 @@ cases:
     title: "Allen v. Smith"
     volume: "173"
     page: "389"
+    docket: "168"
+    citation: "173 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1899"
-    citation: "173 U.S. 389"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-103"
@@ -2858,9 +3712,12 @@ cases:
     title: "United States v. New York Indians"
     volume: "173"
     page: "464"
+    docket: "697"
+    citation: "173 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1899"
-    citation: "173 U.S. 464"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-110"
@@ -2868,9 +3725,12 @@ cases:
     title: "The Chattahoochee"
     volume: "173"
     page: "540"
+    docket: "27"
+    citation: "173 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1899"
-    citation: "173 U.S. 540"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-117"
@@ -2878,9 +3738,12 @@ cases:
     title: "Security Trust Co. v. Dodd, Mead &amp; Co."
     volume: "173"
     page: "624"
+    docket: "188"
+    citation: "173 U.S. 624"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 11, 1899"
-    citation: "173 U.S. 624"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-128"
@@ -2888,9 +3751,12 @@ cases:
     title: "Holmes v. Hurst"
     volume: "174"
     page: "082"
+    docket: "124"
+    citation: "174 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1899"
-    citation: "174 U.S. 82"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-143"
@@ -2898,9 +3764,12 @@ cases:
     title: "Northern Pacific R. Co. v. Freeman"
     volume: "174"
     page: "379"
+    docket: "241"
+    citation: "174 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1899"
-    citation: "174 U.S. 379"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-157"
@@ -2908,9 +3777,12 @@ cases:
     title: "Office Specialty Mfg. Co. v. Fenton Metallic Mfg. Co."
     volume: "174"
     page: "492"
+    docket: "253"
+    citation: "174 U.S. 492"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1899"
-    citation: "174 U.S. 492"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-158"
@@ -2918,9 +3790,12 @@ cases:
     title: "Wade v. Travis County"
     volume: "174"
     page: "499"
+    docket: "267"
+    citation: "174 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1899"
-    citation: "174 U.S. 499"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1898-170"
@@ -2928,9 +3803,12 @@ cases:
     title: "United States v. Dudley"
     volume: "174"
     page: "670"
+    docket: "103"
+    citation: "174 U.S. 670"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1899"
-    citation: "174 U.S. 670"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-004"
@@ -2938,9 +3816,12 @@ cases:
     title: "De la Vergne Refrigerating Machine Co. v. German Savings Institution"
     volume: "175"
     page: "040"
+    docket: "45"
+    citation: "175 U.S. 40"
     pdfSource: "loc"
     dateDecision: "Thursday, November 30, 1899"
-    citation: "175 U.S. 40"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-005"
@@ -2948,9 +3829,12 @@ cases:
     title: "United States v. Conway"
     volume: "175"
     page: "060"
+    docket: "13"
+    citation: "175 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1899"
-    citation: "175 U.S. 60"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-006"
@@ -2958,9 +3842,12 @@ cases:
     title: "Real de Dolores del Oro v. United States"
     volume: "175"
     page: "071"
+    docket: "17"
+    citation: "175 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Thursday, November 30, 1899"
-    citation: "175 U.S. 71"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-010"
@@ -2968,9 +3855,12 @@ cases:
     title: "New Orleans v. Warner"
     volume: "175"
     page: "120"
+    docket: "172"
+    citation: "175 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1899"
-    citation: "175 U.S. 120"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-016"
@@ -2978,9 +3868,12 @@ cases:
     title: "The New York"
     volume: "175"
     page: "187"
+    docket: "56"
+    citation: "175 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1899"
-    citation: "175 U.S. 187"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-018"
@@ -2988,9 +3881,12 @@ cases:
     title: "Hays v. United States"
     volume: "175"
     page: "248"
+    docket: "19"
+    citation: "175 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1899"
-    citation: "175 U.S. 248"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-019"
@@ -2998,9 +3894,12 @@ cases:
     title: "Bolles v. Outing Co."
     volume: "175"
     page: "262"
+    docket: "47"
+    citation: "175 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1899"
-    citation: "175 U.S. 262"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-033"
@@ -3008,9 +3907,12 @@ cases:
     title: "Hamilton v. Rathbone"
     volume: "175"
     page: "414"
+    docket: "6"
+    citation: "175 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1899"
-    citation: "175 U.S. 414"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-052"
@@ -3018,9 +3920,12 @@ cases:
     title: "Browning v. De Ford"
     volume: "178"
     page: "196"
+    docket: "245"
+    citation: "178 U.S. 196"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1900"
-    citation: "178 U.S. 196"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-063"
@@ -3028,9 +3933,11 @@ cases:
     title: "Fitzpatrick v. United States"
     volume: "178"
     page: "304"
+    citation: "178 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1900"
-    citation: "178 U.S. 304"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-064"
@@ -3038,9 +3945,12 @@ cases:
     title: "Ex parte Union S. S. Co."
     volume: "178"
     page: "317"
+    docket: "12 Orig."
+    citation: "178 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1900"
-    citation: "178 U.S. 317"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-065"
@@ -3048,9 +3958,12 @@ cases:
     title: "Wheeler v. New York, N. H. &amp; H. R. Co."
     volume: "178"
     page: "321"
+    docket: "534"
+    citation: "178 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1900"
-    citation: "178 U.S. 321"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-096"
@@ -3058,9 +3971,12 @@ cases:
     title: "Telluride Power Transmission Co. v. Rio Grande Western R. Co."
     volume: "175"
     page: "639"
+    docket: "70"
+    citation: "175 U.S. 639"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1900"
-    citation: "175 U.S. 639"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-106"
@@ -3068,9 +3984,12 @@ cases:
     title: "Bolln v. Nebraska"
     volume: "176"
     page: "083"
+    docket: "393"
+    citation: "176 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1900"
-    citation: "176 U.S. 83"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-107"
@@ -3078,9 +3997,12 @@ cases:
     title: "New Orleans v. Warner"
     volume: "176"
     page: "092"
+    docket: "172"
+    citation: "176 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1900"
-    citation: "176 U.S. 92"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-114"
@@ -3088,9 +4010,12 @@ cases:
     title: "Dickerman v. Northern Trust Co."
     volume: "176"
     page: "181"
+    docket: "33"
+    citation: "176 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1900"
-    citation: "176 U.S. 181"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-119"
@@ -3098,9 +4023,12 @@ cases:
     title: "Baltimore &amp; Potomac R. Co. v. Cumberland"
     volume: "176"
     page: "232"
+    docket: "87"
+    citation: "176 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1900"
-    citation: "176 U.S. 232"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-127"
@@ -3108,9 +4036,12 @@ cases:
     title: "Benedict v. United States"
     volume: "176"
     page: "357"
+    docket: "435"
+    citation: "176 U.S. 357"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1900"
-    citation: "176 U.S. 357"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-128"
@@ -3118,9 +4049,12 @@ cases:
     title: "The Adula"
     volume: "176"
     page: "361"
+    docket: "167"
+    citation: "176 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1900"
-    citation: "176 U.S. 361"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-129"
@@ -3128,9 +4062,12 @@ cases:
     title: "Roller v. Holly"
     volume: "176"
     page: "398"
+    docket: "104"
+    citation: "176 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1900"
-    citation: "176 U.S. 398"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-134"
@@ -3138,9 +4075,12 @@ cases:
     title: "Walsh v. Columbus, H. V. &amp; A. R. Co."
     volume: "176"
     page: "469"
+    docket: "90"
+    citation: "176 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1900"
-    citation: "176 U.S. 469"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-135"
@@ -3148,9 +4088,12 @@ cases:
     title: "Wright v. Columbus, H. V. &amp; A. R. Co."
     volume: "176"
     page: "481"
+    docket: "92"
+    citation: "176 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1900"
-    citation: "176 U.S. 481"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-146"
@@ -3158,9 +4101,12 @@ cases:
     title: "Illinois Central R. Co. v. Chicago"
     volume: "176"
     page: "646"
+    docket: "114"
+    citation: "176 U.S. 646"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1900"
-    citation: "176 U.S. 646"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-173"
@@ -3168,9 +4114,12 @@ cases:
     title: "The Albert Dumois"
     volume: "177"
     page: "240"
+    docket: "139"
+    citation: "177 U.S. 240"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1900"
-    citation: "177 U.S. 240"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-174"
@@ -3178,9 +4127,12 @@ cases:
     title: "Knights of Pythias v. Withers"
     volume: "177"
     page: "260"
+    docket: "170"
+    citation: "177 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1900"
-    citation: "177 U.S. 260"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-175"
@@ -3188,9 +4140,12 @@ cases:
     title: "Arnold v. Hatch"
     volume: "177"
     page: "276"
+    docket: "183"
+    citation: "177 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1900"
-    citation: "177 U.S. 276"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-197"
@@ -3198,9 +4153,12 @@ cases:
     title: "Mast, Foos &amp; Co. v. Stover Mfg. Co."
     volume: "177"
     page: "485"
+    docket: "149"
+    citation: "177 U.S. 485"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1900"
-    citation: "177 U.S. 485"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-201"
@@ -3208,9 +4166,12 @@ cases:
     title: "Cleveland, C., C. &amp; St. L. R. Co. v. Illinois"
     volume: "177"
     page: "514"
+    docket: "198"
+    citation: "177 U.S. 514"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1900"
-    citation: "177 U.S. 514"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-202"
@@ -3218,9 +4179,12 @@ cases:
     title: "De Lamar&apos;s Nev. Gold Mining Co. v. Nesbitt"
     volume: "177"
     page: "523"
+    docket: "152"
+    citation: "177 U.S. 523"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1900"
-    citation: "177 U.S. 523"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-214"
@@ -3228,9 +4192,12 @@ cases:
     title: "Knapp, Stout &amp; Co. v. McCaffrey"
     volume: "177"
     page: "638"
+    docket: "263"
+    citation: "177 U.S. 638"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1900"
-    citation: "177 U.S. 638"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1899-215"
@@ -3238,9 +4205,12 @@ cases:
     title: "Bryar v. Campbell"
     volume: "177"
     page: "649"
+    docket: "227"
+    citation: "177 U.S. 649"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1900"
-    citation: "177 U.S. 649"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-002"
@@ -3248,9 +4218,12 @@ cases:
     title: "Saxlehner v. Eisner &amp; Mendelson Co."
     volume: "179"
     page: "019"
+    docket: "29"
+    citation: "179 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Monday, October 15, 1900"
-    citation: "179 U.S. 19"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-003"
@@ -3258,9 +4231,12 @@ cases:
     title: "Saxlehner v. Siegel-Cooper Co."
     volume: "179"
     page: "042"
+    docket: "30"
+    citation: "179 U.S. 42"
     pdfSource: "loc"
     dateDecision: "Monday, October 15, 1900"
-    citation: "179 U.S. 42"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-004"
@@ -3268,9 +4244,12 @@ cases:
     title: "Saxlehner v. Nielsen"
     volume: "179"
     page: "043"
+    docket: "33"
+    citation: "179 U.S. 43"
     pdfSource: "loc"
     dateDecision: "Monday, October 15, 1900"
-    citation: "179 U.S. 43"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-012"
@@ -3278,9 +4257,12 @@ cases:
     title: "American Sugar Refining Co. v. Louisiana"
     volume: "179"
     page: "089"
+    docket: "38"
+    citation: "179 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1900"
-    citation: "179 U.S. 89"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-034"
@@ -3288,9 +4270,12 @@ cases:
     title: "Avery v. Popper"
     volume: "179"
     page: "305"
+    docket: "72"
+    citation: "179 U.S. 305"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1900"
-    citation: "179 U.S. 305"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-039"
@@ -3298,9 +4283,12 @@ cases:
     title: "Austin v. Tennessee"
     volume: "179"
     page: "343"
+    docket: "25"
+    citation: "179 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1900"
-    citation: "179 U.S. 343"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-040"
@@ -3308,9 +4296,12 @@ cases:
     title: "Chesapeake &amp; Ohio R. Co. v. Kentucky"
     volume: "179"
     page: "388"
+    docket: "103"
+    citation: "179 U.S. 388"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1900"
-    citation: "179 U.S. 388"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-041"
@@ -3318,9 +4309,12 @@ cases:
     title: "Cincinnati Street R. Co. v. Snell"
     volume: "179"
     page: "395"
+    docket: "110"
+    citation: "179 U.S. 395"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1900"
-    citation: "179 U.S. 395"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-042"
@@ -3328,9 +4322,12 @@ cases:
     title: "Davis v. Burke"
     volume: "179"
     page: "399"
+    docket: "286"
+    citation: "179 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1900"
-    citation: "179 U.S. 399"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-043"
@@ -3338,9 +4335,12 @@ cases:
     title: "Tyler v. Judges of Court of Registration"
     volume: "179"
     page: "405"
+    docket: "213"
+    citation: "179 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1900"
-    citation: "179 U.S. 405"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-058"
@@ -3348,9 +4348,12 @@ cases:
     title: "De Lima v. Bidwell"
     volume: "182"
     page: "001"
+    docket: "456"
+    citation: "182 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 1"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-059"
@@ -3358,9 +4361,12 @@ cases:
     title: "Goetze v. United States"
     volume: "182"
     page: "221"
+    docket: "340"
+    citation: "182 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 221"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-060"
@@ -3368,9 +4374,12 @@ cases:
     title: "Dooley v. United States"
     volume: "182"
     page: "222"
+    docket: "501"
+    citation: "182 U.S. 222"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 222"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-061"
@@ -3378,9 +4387,12 @@ cases:
     title: "Armstrong v. United States"
     volume: "182"
     page: "243"
+    docket: "509"
+    citation: "182 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 243"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-062"
@@ -3388,9 +4400,12 @@ cases:
     title: "Huus v. New York &amp; Porto Rico S. S. Co."
     volume: "182"
     page: "392"
+    docket: "514"
+    citation: "182 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 392"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-063"
@@ -3398,9 +4413,12 @@ cases:
     title: "Carson v. Brockton Sewerage Comm&apos;n"
     volume: "182"
     page: "398"
+    docket: "249"
+    citation: "182 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 398"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-086"
@@ -3408,9 +4426,12 @@ cases:
     title: "Yazoo &amp; Mississippi Valley R. Co. v. Adams"
     volume: "180"
     page: "001"
+    docket: "35"
+    citation: "180 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-087"
@@ -3418,9 +4439,12 @@ cases:
     title: "Yazoo and Mississippi V. R&apos;y Co. v. Adams"
     volume: "180"
     page: "026"
+    docket: "355"
+    citation: "180 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 26"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-088"
@@ -3428,9 +4452,12 @@ cases:
     title: "Illinois Central Railroad Co. v. Adams; Yazoo and Mississippi V. R&apos;y Co. v. Adams"
     volume: "180"
     page: "028"
+    docket: "77"
+    citation: "180 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 28"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-089"
@@ -3438,9 +4465,12 @@ cases:
     title: "Yazoo &amp; Mississippi Valley R. Co. v. Adams"
     volume: "180"
     page: "041"
+    docket: "80"
+    citation: "180 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 41"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-090"
@@ -3448,9 +4478,12 @@ cases:
     title: "Queen of the Pacific"
     volume: "180"
     page: "049"
+    docket: "130"
+    citation: "180 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 49"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-105"
@@ -3458,9 +4491,12 @@ cases:
     title: "New Orleans v. Warner"
     volume: "180"
     page: "199"
+    docket: "281"
+    citation: "180 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1901"
-    citation: "180 U.S. 199"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-109"
@@ -3468,9 +4504,12 @@ cases:
     title: "Montoya v. United States"
     volume: "180"
     page: "261"
+    docket: "43"
+    citation: "180 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1901"
-    citation: "180 U.S. 261"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-110"
@@ -3478,9 +4517,12 @@ cases:
     title: "Conners v. United States"
     volume: "180"
     page: "271"
+    docket: "44"
+    citation: "180 U.S. 271"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1901"
-    citation: "180 U.S. 271"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-121"
@@ -3488,9 +4530,12 @@ cases:
     title: "Rice v. Ames"
     volume: "180"
     page: "371"
+    docket: "420"
+    citation: "180 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1901"
-    citation: "180 U.S. 371"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-123"
@@ -3498,9 +4543,12 @@ cases:
     title: "Hobbs v. Beach"
     volume: "180"
     page: "383"
+    docket: "139"
+    citation: "180 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1901"
-    citation: "180 U.S. 383"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-125"
@@ -3508,9 +4556,12 @@ cases:
     title: "Johns v. Wilson"
     volume: "180"
     page: "440"
+    docket: "67"
+    citation: "180 U.S. 440"
     pdfSource: "loc"
     dateDecision: "Friday, March 1, 1901"
-    citation: "180 U.S. 440"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-184"
@@ -3518,9 +4569,12 @@ cases:
     title: "The Barnstable"
     volume: "181"
     page: "464"
+    docket: "178"
+    citation: "181 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1901"
-    citation: "181 U.S. 464"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-185"
@@ -3528,9 +4582,12 @@ cases:
     title: "Hale v. Lewis"
     volume: "181"
     page: "473"
+    docket: "151"
+    citation: "181 U.S. 473"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1901"
-    citation: "181 U.S. 473"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-195"
@@ -3538,9 +4595,12 @@ cases:
     title: "Yazoo &amp; Mississippi Valley R. Co. v. Adams"
     volume: "181"
     page: "580"
+    docket: "35"
+    citation: "181 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1901"
-    citation: "181 U.S. 580"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-196"
@@ -3548,9 +4608,12 @@ cases:
     title: "Joseph Schlitz Brewing Co. v. United States"
     volume: "181"
     page: "584"
+    docket: "232"
+    citation: "181 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1901"
-    citation: "181 U.S. 584"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1900-200"
@@ -3558,9 +4621,12 @@ cases:
     title: "Downes v. Bidwell"
     volume: "182"
     page: "244"
+    docket: "507"
+    citation: "182 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 244"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-008"
@@ -3568,9 +4634,12 @@ cases:
     title: "Gulf &amp; Ship Island R. Co. v. Hewes"
     volume: "183"
     page: "066"
+    docket: "5"
+    citation: "183 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1901"
-    citation: "183 U.S. 66"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-012"
@@ -3578,9 +4647,12 @@ cases:
     title: "Haseltine v. Central Bank of Springfield"
     volume: "183"
     page: "130"
+    docket: "62"
+    citation: "183 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1901"
-    citation: "183 U.S. 130"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-013"
@@ -3588,9 +4660,12 @@ cases:
     title: "Haseltine v. Central Bank of Springfield"
     volume: "183"
     page: "132"
+    docket: "63"
+    citation: "183 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1901"
-    citation: "183 U.S. 132"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-016"
@@ -3598,9 +4673,12 @@ cases:
     title: "Dooley v. United States"
     volume: "183"
     page: "151"
+    docket: "207"
+    citation: "183 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1901"
-    citation: "183 U.S. 151"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-023"
@@ -3608,9 +4686,12 @@ cases:
     title: "Murphy v. Utter"
     volume: "186"
     page: "095"
+    docket: "388"
+    citation: "186 U.S. 95"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1902"
-    citation: "186 U.S. 95"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-031"
@@ -3618,9 +4699,12 @@ cases:
     title: "Excelsior Wooden Pipe Co. v. Pacific Bridge Co."
     volume: "185"
     page: "282"
+    docket: "375"
+    citation: "185 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1902"
-    citation: "185 U.S. 282"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-039"
@@ -3628,9 +4712,12 @@ cases:
     title: "Carnegie Steel Co. v. Cambria Iron Co."
     volume: "185"
     page: "403"
+    docket: "17"
+    citation: "185 U.S. 403"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1902"
-    citation: "185 U.S. 403"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-049"
@@ -3638,9 +4725,12 @@ cases:
     title: "St. Louis Consol. Coal Co. v. Illinois"
     volume: "185"
     page: "203"
+    docket: "197"
+    citation: "185 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1902"
-    citation: "185 U.S. 203"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-069"
@@ -3648,9 +4738,12 @@ cases:
     title: "Gwin v. United States"
     volume: "184"
     page: "669"
+    docket: "172"
+    citation: "184 U.S. 669"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1902"
-    citation: "184 U.S. 669"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-072"
@@ -3658,9 +4751,12 @@ cases:
     title: "Eidman v. Martinez"
     volume: "184"
     page: "578"
+    docket: "287"
+    citation: "184 U.S. 578"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1902"
-    citation: "184 U.S. 578"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-073"
@@ -3668,9 +4764,12 @@ cases:
     title: "Moore v. Ruckgaber"
     volume: "184"
     page: "593"
+    docket: "295"
+    citation: "184 U.S. 593"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1902"
-    citation: "184 U.S. 593"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-089"
@@ -3678,9 +4777,12 @@ cases:
     title: "Goodrich v. Detroit"
     volume: "184"
     page: "432"
+    docket: "123"
+    citation: "184 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1902"
-    citation: "184 U.S. 432"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-090"
@@ -3688,9 +4790,12 @@ cases:
     title: "United States v. Martinez"
     volume: "184"
     page: "441"
+    docket: "169"
+    citation: "184 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1902"
-    citation: "184 U.S. 441"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-111"
@@ -3698,9 +4803,12 @@ cases:
     title: "McDonald v. Thompson"
     volume: "184"
     page: "071"
+    docket: "95"
+    citation: "184 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1902"
-    citation: "184 U.S. 71"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-123"
@@ -3708,9 +4816,12 @@ cases:
     title: "Schrimpscher v. Stockton"
     volume: "183"
     page: "290"
+    docket: "19"
+    citation: "183 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1902"
-    citation: "183 U.S. 290"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-128"
@@ -3718,9 +4829,12 @@ cases:
     title: "Tucker v. Alexandroff"
     volume: "183"
     page: "424"
+    docket: "303"
+    citation: "183 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1902"
-    citation: "183 U.S. 424"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-147"
@@ -3728,9 +4842,12 @@ cases:
     title: "Southern Pacific R. Co. v. Bell"
     volume: "183"
     page: "675"
+    docket: "20"
+    citation: "183 U.S. 675"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1902"
-    citation: "183 U.S. 675"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-148"
@@ -3738,9 +4855,12 @@ cases:
     title: "Groeck v. Southern Pacific R. Co."
     volume: "183"
     page: "690"
+    docket: "82"
+    citation: "183 U.S. 690"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1902"
-    citation: "183 U.S. 690"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-160"
@@ -3748,9 +4868,12 @@ cases:
     title: "Minneapolis &amp; St. Louis R. Co. v. Minnesota"
     volume: "186"
     page: "257"
+    docket: "131"
+    citation: "186 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1902"
-    citation: "186 U.S. 257"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-161"
@@ -3758,9 +4881,12 @@ cases:
     title: "New York Central R. Co. v. New York"
     volume: "186"
     page: "269"
+    docket: "234"
+    citation: "186 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1902"
-    citation: "186 U.S. 269"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-162"
@@ -3768,9 +4894,12 @@ cases:
     title: "Hoffeld v. United States"
     volume: "186"
     page: "273"
+    docket: "318"
+    citation: "186 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1902"
-    citation: "186 U.S. 273"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-163"
@@ -3778,9 +4907,12 @@ cases:
     title: "Pine River Logging Co. v. United States"
     volume: "186"
     page: "279"
+    docket: "250"
+    citation: "186 U.S. 279"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1902"
-    citation: "186 U.S. 279"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1901-164"
@@ -3788,9 +4920,12 @@ cases:
     title: "United States v. Nichols"
     volume: "186"
     page: "298"
+    docket: "249"
+    citation: "186 U.S. 298"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1902"
-    citation: "186 U.S. 298"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-004"
@@ -3798,9 +4933,12 @@ cases:
     title: "Knights Templars&apos; &amp; Masons&apos; Life Indemnity Co. v. Jarman"
     volume: "187"
     page: "197"
+    docket: "48"
+    citation: "187 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1902"
-    citation: "187 U.S. 197"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-013"
@@ -3808,9 +4946,12 @@ cases:
     title: "Grin v. Shine"
     volume: "187"
     page: "181"
+    docket: "303"
+    citation: "187 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1902"
-    citation: "187 U.S. 181"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-026"
@@ -3818,9 +4959,12 @@ cases:
     title: "Iowa v. Rood"
     volume: "187"
     page: "087"
+    docket: "9"
+    citation: "187 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1902"
-    citation: "187 U.S. 87"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-032"
@@ -3828,9 +4972,12 @@ cases:
     title: "Turpin v. Lemon"
     volume: "187"
     page: "051"
+    docket: "35"
+    citation: "187 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, November 3, 1902"
-    citation: "187 U.S. 51"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-036"
@@ -3838,9 +4985,12 @@ cases:
     title: "Robinson &amp; Co. v. Belt"
     volume: "187"
     page: "041"
+    docket: "46"
+    citation: "187 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, October 27, 1902"
-    citation: "187 U.S. 41"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-038"
@@ -3848,9 +4998,12 @@ cases:
     title: "Kelley v. Rhoads"
     volume: "188"
     page: "001"
+    docket: "93"
+    citation: "188 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1903"
-    citation: "188 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-039"
@@ -3858,9 +5011,12 @@ cases:
     title: "Weber v. Rogan"
     volume: "188"
     page: "010"
+    docket: "107"
+    citation: "188 U.S. 10"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1903"
-    citation: "188 U.S. 10"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-050"
@@ -3868,9 +5024,12 @@ cases:
     title: "Connecticut Mut. Life Ins. Co. v. Hillmon"
     volume: "188"
     page: "208"
+    docket: "94"
+    citation: "188 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Friday, January 2, 1903"
-    citation: "188 U.S. 208"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-071"
@@ -3878,9 +5037,12 @@ cases:
     title: "Northern Pacific R. Co. v. Soderberg"
     volume: "188"
     page: "526"
+    docket: "61"
+    citation: "188 U.S. 526"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1903"
-    citation: "188 U.S. 526"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-112"
@@ -3888,9 +5050,12 @@ cases:
     title: "The Osceola"
     volume: "189"
     page: "158"
+    docket: "98"
+    citation: "189 U.S. 158"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1903"
-    citation: "189 U.S. 158"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-113"
@@ -3898,9 +5063,12 @@ cases:
     title: "San Jos&eacute; Land &amp; Water Co. v. San Jos&eacute; Ranch Co."
     volume: "189"
     page: "177"
+    docket: "113"
+    citation: "189 U.S. 177"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1903"
-    citation: "189 U.S. 177"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-114"
@@ -3908,9 +5076,12 @@ cases:
     title: "The Roanoke"
     volume: "189"
     page: "185"
+    docket: "123"
+    citation: "189 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1903"
-    citation: "189 U.S. 185"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-115"
@@ -3918,9 +5089,12 @@ cases:
     title: "United States v. Nix"
     volume: "189"
     page: "199"
+    docket: "142"
+    citation: "189 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1903"
-    citation: "189 U.S. 199"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-116"
@@ -3928,9 +5102,12 @@ cases:
     title: "Davis &amp; Farnum Mfg. Co. v. Los Angeles"
     volume: "189"
     page: "207"
+    docket: "507"
+    citation: "189 U.S. 207"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1903"
-    citation: "189 U.S. 207"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-117"
@@ -3938,9 +5115,12 @@ cases:
     title: "Nashua Savings Bank v. Anglo-American Land, Mortgage &amp; Agency Co."
     volume: "189"
     page: "221"
+    docket: "167"
+    citation: "189 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1903"
-    citation: "189 U.S. 221"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-118"
@@ -3948,9 +5128,12 @@ cases:
     title: "Sena v. United States"
     volume: "189"
     page: "233"
+    docket: "40"
+    citation: "189 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1903"
-    citation: "189 U.S. 233"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-119"
@@ -3958,9 +5141,12 @@ cases:
     title: "Rankin v. Fidelity Ins., Trust &amp; Safe Deposit Co."
     volume: "189"
     page: "242"
+    docket: "178"
+    citation: "189 U.S. 242"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1903"
-    citation: "189 U.S. 242"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-120"
@@ -3968,9 +5154,12 @@ cases:
     title: "Glidden v. Harrington"
     volume: "189"
     page: "255"
+    docket: "199"
+    citation: "189 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1903"
-    citation: "189 U.S. 255"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-121"
@@ -3978,9 +5167,12 @@ cases:
     title: "Wiser v. Lawler"
     volume: "189"
     page: "260"
+    docket: "174"
+    citation: "189 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1903"
-    citation: "189 U.S. 260"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-150"
@@ -3988,9 +5180,12 @@ cases:
     title: "Mifflin v. Dutton"
     volume: "190"
     page: "265"
+    docket: "267"
+    citation: "190 U.S. 265"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1903"
-    citation: "190 U.S. 265"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-161"
@@ -3998,9 +5193,12 @@ cases:
     title: "Hawaii v. Mankichi"
     volume: "190"
     page: "197"
+    docket: "219"
+    citation: "190 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1903"
-    citation: "190 U.S. 197"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-162"
@@ -4008,9 +5206,12 @@ cases:
     title: "Snyder v. Bettman"
     volume: "190"
     page: "249"
+    docket: "230"
+    citation: "190 U.S. 249"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1903"
-    citation: "190 U.S. 249"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-163"
@@ -4018,9 +5219,12 @@ cases:
     title: "Mifflin v. R. H. White Co."
     volume: "190"
     page: "260"
+    docket: "268"
+    citation: "190 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1903"
-    citation: "190 U.S. 260"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-189"
@@ -4028,9 +5232,12 @@ cases:
     title: "Oregon &amp; California R. Co. v. United States"
     volume: "190"
     page: "186"
+    docket: "188"
+    citation: "190 U.S. 186"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1903"
-    citation: "190 U.S. 186"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-203"
@@ -4038,9 +5245,12 @@ cases:
     title: "Mobile Transp. Co. v. Mobile"
     volume: "187"
     page: "479"
+    docket: "62"
+    citation: "187 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1903"
-    citation: "187 U.S. 479"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-204"
@@ -4048,9 +5258,12 @@ cases:
     title: "Johnson v. New York Life Ins. Co."
     volume: "187"
     page: "491"
+    docket: "87"
+    citation: "187 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1903"
-    citation: "187 U.S. 491"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-205"
@@ -4058,9 +5271,12 @@ cases:
     title: "Downs v. United States"
     volume: "187"
     page: "496"
+    docket: "318"
+    citation: "187 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1903"
-    citation: "187 U.S. 496"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1902-216"
@@ -4068,9 +5284,12 @@ cases:
     title: "Sena v. United States"
     volume: "189"
     page: "504"
+    docket: "40"
+    citation: "189 U.S. 504"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1903"
-    citation: "189 U.S. 504"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-008"
@@ -4078,9 +5297,12 @@ cases:
     title: "Guaranty Co. v. Pressed Brick Co."
     volume: "191"
     page: "416"
+    docket: "39"
+    citation: "191 U.S. 416"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1903"
-    citation: "191 U.S. 416"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-009"
@@ -4088,9 +5310,12 @@ cases:
     title: "French Republic v. Saratoga Vichy Spring Co."
     volume: "191"
     page: "427"
+    docket: "53"
+    citation: "191 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1903"
-    citation: "191 U.S. 427"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-010"
@@ -4098,9 +5323,12 @@ cases:
     title: "Norfolk &amp; Western R. Co. v. Sims"
     volume: "191"
     page: "441"
+    docket: "74"
+    citation: "191 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1903"
-    citation: "191 U.S. 441"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-037"
@@ -4108,9 +5336,12 @@ cases:
     title: "Smith v. Indiana"
     volume: "191"
     page: "138"
+    docket: "81"
+    citation: "191 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1903"
-    citation: "191 U.S. 138"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-044"
@@ -4118,9 +5349,12 @@ cases:
     title: "United States v. Denver &amp; Rio Grande R. Co."
     volume: "191"
     page: "084"
+    docket: "20"
+    citation: "191 U.S. 84"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1903"
-    citation: "191 U.S. 84"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-048"
@@ -4128,9 +5362,12 @@ cases:
     title: "The Robert W. Parsons"
     volume: "191"
     page: "017"
+    docket: "16"
+    citation: "191 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Monday, October 26, 1903"
-    citation: "191 U.S. 17"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-081"
@@ -4138,9 +5375,12 @@ cases:
     title: "Schefe v. St. Louis"
     volume: "194"
     page: "373"
+    docket: "62"
+    citation: "194 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1904"
-    citation: "194 U.S. 373"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-083"
@@ -4148,9 +5388,12 @@ cases:
     title: "Public Clearing House v. Coyne"
     volume: "194"
     page: "497"
+    docket: "224"
+    citation: "194 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1904"
-    citation: "194 U.S. 497"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-112"
@@ -4158,9 +5401,12 @@ cases:
     title: "Fischer v. St. Louis"
     volume: "194"
     page: "361"
+    docket: "204"
+    citation: "194 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1904"
-    citation: "194 U.S. 361"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-129"
@@ -4168,9 +5414,12 @@ cases:
     title: "The Iroquois"
     volume: "194"
     page: "240"
+    docket: "200"
+    citation: "194 U.S. 240"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1904"
-    citation: "194 U.S. 240"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-141"
@@ -4178,9 +5427,12 @@ cases:
     title: "Houghton v. Payne"
     volume: "194"
     page: "088"
+    docket: "372"
+    citation: "194 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1904"
-    citation: "194 U.S. 88"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-142"
@@ -4188,9 +5440,12 @@ cases:
     title: "Smith v. Payne"
     volume: "194"
     page: "104"
+    docket: "481"
+    citation: "194 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1904"
-    citation: "194 U.S. 104"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-143"
@@ -4198,9 +5453,12 @@ cases:
     title: "Bates &amp; Guild Co. v. Payne"
     volume: "194"
     page: "106"
+    docket: "373"
+    citation: "194 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1904"
-    citation: "194 U.S. 106"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1903-167"
@@ -4208,9 +5466,12 @@ cases:
     title: "Gagnon v. United States"
     volume: "193"
     page: "451"
+    docket: "163"
+    citation: "193 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1904"
-    citation: "193 U.S. 451"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-004"
@@ -4218,9 +5479,12 @@ cases:
     title: "Keely v. Moore"
     volume: "196"
     page: "038"
+    docket: "55"
+    citation: "196 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1904"
-    citation: "196 U.S. 38"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-005"
@@ -4228,9 +5492,12 @@ cases:
     title: "Hunt v. Springfield Fire &amp; Marine Ins. Co."
     volume: "196"
     page: "047"
+    docket: "65"
+    citation: "196 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1904"
-    citation: "196 U.S. 47"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-018"
@@ -4238,9 +5505,12 @@ cases:
     title: "Cramer v. Wilson"
     volume: "195"
     page: "408"
+    docket: "47"
+    citation: "195 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1904"
-    citation: "195 U.S. 408"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-019"
@@ -4248,9 +5518,12 @@ cases:
     title: "United States v. Thomas"
     volume: "195"
     page: "418"
+    docket: "94"
+    citation: "195 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1904"
-    citation: "195 U.S. 418"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-028"
@@ -4258,9 +5531,12 @@ cases:
     title: "Patterson v. Hewitt"
     volume: "195"
     page: "309"
+    docket: "23"
+    citation: "195 U.S. 309"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1904"
-    citation: "195 U.S. 309"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-044"
@@ -4268,9 +5544,12 @@ cases:
     title: "Crawford v. Burke"
     volume: "195"
     page: "176"
+    docket: "22"
+    citation: "195 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1904"
-    citation: "195 U.S. 176"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-048"
@@ -4278,9 +5557,12 @@ cases:
     title: "Board of Trade of Chicago v. Hammond Elevator Co."
     volume: "198"
     page: "424"
+    docket: "215"
+    citation: "198 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1905"
-    citation: "198 U.S. 424"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-064"
@@ -4288,9 +5570,12 @@ cases:
     title: "Hyde v. Shine"
     volume: "199"
     page: "062"
+    docket: "406"
+    citation: "199 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1905"
-    citation: "199 U.S. 62"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-089"
@@ -4298,9 +5583,12 @@ cases:
     title: "Dunbar v. Green"
     volume: "198"
     page: "166"
+    docket: "200"
+    citation: "198 U.S. 166"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1905"
-    citation: "198 U.S. 166"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-094"
@@ -4308,9 +5596,12 @@ cases:
     title: "Benson v. Henkel"
     volume: "198"
     page: "001"
+    docket: "308"
+    citation: "198 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1905"
-    citation: "198 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-111"
@@ -4318,9 +5609,12 @@ cases:
     title: "McMillen v. Ferrum Mining Co."
     volume: "197"
     page: "343"
+    docket: "185"
+    citation: "197 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1905"
-    citation: "197 U.S. 343"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-112"
@@ -4328,9 +5622,12 @@ cases:
     title: "Carter v. Gear"
     volume: "197"
     page: "348"
+    docket: "442"
+    citation: "197 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1905"
-    citation: "197 U.S. 348"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-134"
@@ -4338,9 +5635,12 @@ cases:
     title: "Kehrer v. Stewart"
     volume: "197"
     page: "060"
+    docket: "152"
+    citation: "197 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1905"
-    citation: "197 U.S. 60"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-145"
@@ -4348,9 +5648,12 @@ cases:
     title: "Bishop v. United States"
     volume: "197"
     page: "334"
+    docket: "92"
+    citation: "197 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1905"
-    citation: "197 U.S. 334"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-152"
@@ -4358,9 +5661,12 @@ cases:
     title: "Chicago, I. &amp; L. R. Co. v. McGuire"
     volume: "196"
     page: "128"
+    docket: "69"
+    citation: "196 U.S. 128"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1905"
-    citation: "196 U.S. 128"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-167"
@@ -4368,9 +5674,12 @@ cases:
     title: "Cook v. Marshall County"
     volume: "196"
     page: "261"
+    docket: "98"
+    citation: "196 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1905"
-    citation: "196 U.S. 261"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-168"
@@ -4378,9 +5687,12 @@ cases:
     title: "Hodge v. Muscatine County"
     volume: "196"
     page: "276"
+    docket: "150"
+    citation: "196 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1905"
-    citation: "196 U.S. 276"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1904-182"
@@ -4388,9 +5700,12 @@ cases:
     title: "Allen v. Alleghany Co."
     volume: "196"
     page: "458"
+    docket: "119"
+    citation: "196 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1905"
-    citation: "196 U.S. 458"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-018"
@@ -4398,9 +5713,12 @@ cases:
     title: "Union Refrigerator Transit Co. v. Kentucky"
     volume: "199"
     page: "194"
+    docket: "84"
+    citation: "199 U.S. 194"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1905"
-    citation: "199 U.S. 194"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-030"
@@ -4408,9 +5726,12 @@ cases:
     title: "Russian-American Packing Co. v. United States"
     volume: "199"
     page: "570"
+    docket: "85"
+    citation: "199 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1905"
-    citation: "199 U.S. 570"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-031"
@@ -4418,9 +5739,12 @@ cases:
     title: "Alexander v. Crollott"
     volume: "199"
     page: "580"
+    docket: "118"
+    citation: "199 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1905"
-    citation: "199 U.S. 580"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-037"
@@ -4428,9 +5752,12 @@ cases:
     title: "Manigault v. Springs"
     volume: "199"
     page: "473"
+    docket: "46"
+    citation: "199 U.S. 473"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1905"
-    citation: "199 U.S. 473"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-050"
@@ -4438,9 +5765,12 @@ cases:
     title: "Kolze v. Hoadley"
     volume: "200"
     page: "076"
+    docket: "91"
+    citation: "200 U.S. 76"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1906"
-    citation: "200 U.S. 76"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-072"
@@ -4448,9 +5778,12 @@ cases:
     title: "San Antonio Traction Co. v. Altgelt"
     volume: "200"
     page: "304"
+    docket: "131"
+    citation: "200 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1906"
-    citation: "200 U.S. 304"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-073"
@@ -4458,9 +5791,12 @@ cases:
     title: "Hibernia Sav. &amp; Loan Soc. v. San Francisco"
     volume: "200"
     page: "310"
+    docket: "154"
+    citation: "200 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1906"
-    citation: "200 U.S. 310"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-105"
@@ -4468,9 +5804,12 @@ cases:
     title: "First Nat. Bank of Baltimore v. Staake"
     volume: "202"
     page: "141"
+    docket: "213"
+    citation: "202 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1906"
-    citation: "202 U.S. 141"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-110"
@@ -4478,9 +5817,12 @@ cases:
     title: "United States v. Cornell S. S. Co."
     volume: "202"
     page: "184"
+    docket: "239"
+    citation: "202 U.S. 184"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1906"
-    citation: "202 U.S. 184"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-132"
@@ -4488,9 +5830,12 @@ cases:
     title: "McDonald v. Dewey"
     volume: "202"
     page: "510"
+    docket: "220"
+    citation: "202 U.S. 510"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1906"
-    citation: "202 U.S. 510"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-151"
@@ -4498,9 +5843,12 @@ cases:
     title: "De la Rama v. De la Rama"
     volume: "201"
     page: "303"
+    docket: "102"
+    citation: "201 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1906"
-    citation: "201 U.S. 303"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-152"
@@ -4508,9 +5856,12 @@ cases:
     title: "Keen v. Keen"
     volume: "201"
     page: "319"
+    docket: "188"
+    citation: "201 U.S. 319"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1906"
-    citation: "201 U.S. 319"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-153"
@@ -4518,9 +5869,12 @@ cases:
     title: "Houston &amp; Texas Central R. Co. v. Mayes"
     volume: "201"
     page: "321"
+    docket: "198"
+    citation: "201 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1906"
-    citation: "201 U.S. 321"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-162"
@@ -4528,9 +5882,12 @@ cases:
     title: "A. Leschen &amp; Sons Rope Co. v. Broderick &amp; Bascom Rope Co."
     volume: "201"
     page: "166"
+    docket: "187"
+    citation: "201 U.S. 166"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1906"
-    citation: "201 U.S. 166"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-166"
@@ -4538,9 +5895,12 @@ cases:
     title: "Hale v. Henkel"
     volume: "201"
     page: "043"
+    docket: "340"
+    citation: "201 U.S. 43"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1906"
-    citation: "201 U.S. 43"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hbbrown
     authorName: "Henry Brown"
   - id: "1905-167"
@@ -4548,9 +5908,12 @@ cases:
     title: "McAlister v. Henkel"
     volume: "201"
     page: "090"
+    docket: "341"
+    citation: "201 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1906"
-    citation: "201 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hbbrown
     authorName: "Henry Brown"
 ---

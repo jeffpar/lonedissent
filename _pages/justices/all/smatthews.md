@@ -8,9 +8,12 @@ cases:
     title: "Martin v. Cole"
     volume: "104"
     page: "030"
+    docket: "14"
+    citation: "104 U.S. 30"
     pdfSource: "loc"
     dateDecision: "Monday, October 31, 1881"
-    citation: "104 U.S. 30"
+    voteMajority: 6
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-013"
@@ -18,9 +21,12 @@ cases:
     title: "National Bank v. Insurance Co."
     volume: "104"
     page: "054"
+    docket: "44"
+    citation: "104 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1881"
-    citation: "104 U.S. 54"
+    voteMajority: 6
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-024"
@@ -28,9 +34,12 @@ cases:
     title: "Davis v. Wells"
     volume: "104"
     page: "159"
+    docket: "64"
+    citation: "104 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1881"
-    citation: "104 U.S. 159"
+    voteMajority: 6
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-031"
@@ -38,9 +47,12 @@ cases:
     title: "Insurance Co. v. Trefz"
     volume: "104"
     page: "197"
+    docket: "85"
+    citation: "104 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1881"
-    citation: "104 U.S. 197"
+    voteMajority: 6
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-036"
@@ -48,9 +60,12 @@ cases:
     title: "Conner v. Long"
     volume: "104"
     page: "228"
+    docket: "76"
+    citation: "104 U.S. 228"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1881"
-    citation: "104 U.S. 228"
+    voteMajority: 6
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-043"
@@ -58,9 +73,12 @@ cases:
     title: "National Bank v. Johnson"
     volume: "104"
     page: "271"
+    docket: "139"
+    citation: "104 U.S. 271"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1881"
-    citation: "104 U.S. 271"
+    voteMajority: 6
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-045"
@@ -68,9 +86,12 @@ cases:
     title: "Pickering v. McCullough"
     volume: "104"
     page: "310"
+    docket: "155"
+    citation: "104 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1881"
-    citation: "104 U.S. 310"
+    voteMajority: 6
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-064"
@@ -78,9 +99,12 @@ cases:
     title: "Neslin v. Wells"
     volume: "104"
     page: "428"
+    docket: "98"
+    citation: "104 U.S. 428"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1882"
-    citation: "104 U.S. 428"
+    voteMajority: 7
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-081"
@@ -88,9 +112,12 @@ cases:
     title: "Micou v. National Bank"
     volume: "104"
     page: "530"
+    docket: "66"
+    citation: "104 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1882"
-    citation: "104 U.S. 530"
+    voteMajority: 6
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-102"
@@ -98,9 +125,12 @@ cases:
     title: "Union Pacific R. Co. v. United States"
     volume: "104"
     page: "662"
+    docket: "860"
+    citation: "104 U.S. 662"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1882"
-    citation: "104 U.S. 662"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-104"
@@ -108,9 +138,12 @@ cases:
     title: "Chicago &amp; Northwestern R. Co. v. United States"
     volume: "104"
     page: "680"
+    docket: "508"
+    citation: "104 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1882"
-    citation: "104 U.S. 680"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-105"
@@ -118,9 +151,12 @@ cases:
     title: "Chicago, M. &amp; St. P. R. Co. v. United States"
     volume: "104"
     page: "687"
+    docket: "194"
+    citation: "104 U.S. 687"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1882"
-    citation: "104 U.S. 687"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-106"
@@ -128,9 +164,12 @@ cases:
     title: "Mason v. Sargent"
     volume: "104"
     page: "689"
+    docket: "380"
+    citation: "104 U.S. 689"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1882"
-    citation: "104 U.S. 689"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-112"
@@ -138,9 +177,12 @@ cases:
     title: "Heald v. Rice"
     volume: "104"
     page: "737"
+    docket: "193"
+    citation: "104 U.S. 737"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1882"
-    citation: "104 U.S. 737"
+    voteMajority: 7
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-129"
@@ -148,9 +190,12 @@ cases:
     title: "Chicago &amp; Vincennes R. Co. v. Fosdick"
     volume: "106"
     page: "047"
+    docket: "82"
+    citation: "106 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1882"
-    citation: "106 U.S. 47"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-134"
@@ -158,9 +203,12 @@ cases:
     title: "Root v. Railway Co."
     volume: "105"
     page: "189"
+    docket: "176"
+    citation: "105 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1882"
-    citation: "105 U.S. 189"
+    voteMajority: 7
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-147"
@@ -168,9 +216,12 @@ cases:
     title: "Railroad Co. v. Ellerman"
     volume: "105"
     page: "166"
+    docket: "9"
+    citation: "105 U.S. 166"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1882"
-    citation: "105 U.S. 166"
+    voteMajority: 7
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-159"
@@ -178,9 +229,12 @@ cases:
     title: "Manufacturing Co. v. Bradley"
     volume: "105"
     page: "175"
+    docket: "215"
+    citation: "105 U.S. 175"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1882"
-    citation: "105 U.S. 175"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-160"
@@ -188,9 +242,12 @@ cases:
     title: "United States v. Hunt"
     volume: "105"
     page: "183"
+    docket: "228"
+    citation: "105 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1882"
-    citation: "105 U.S. 183"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-161"
@@ -198,9 +255,12 @@ cases:
     title: "National Bank v. Watsontown Bank"
     volume: "105"
     page: "217"
+    docket: "241"
+    citation: "105 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1882"
-    citation: "105 U.S. 217"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-174"
@@ -208,9 +268,12 @@ cases:
     title: "Hewitt v. Phelps"
     volume: "105"
     page: "393"
+    docket: "229"
+    citation: "105 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1882"
-    citation: "105 U.S. 393"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-175"
@@ -218,9 +281,12 @@ cases:
     title: "Hauselt v. Harrison"
     volume: "105"
     page: "401"
+    docket: "253"
+    citation: "105 U.S. 401"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1882"
-    citation: "105 U.S. 401"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-178"
@@ -228,9 +294,12 @@ cases:
     title: "Marsh v. McPherson"
     volume: "105"
     page: "709"
+    docket: "282"
+    citation: "105 U.S. 709"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1882"
-    citation: "105 U.S. 709"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-183"
@@ -238,9 +307,12 @@ cases:
     title: "Hannibal v. Fauntleroy"
     volume: "105"
     page: "408"
+    docket: "251"
+    citation: "105 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1882"
-    citation: "105 U.S. 408"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-186"
@@ -248,9 +320,12 @@ cases:
     title: "Swift Co. v. United States"
     volume: "105"
     page: "691"
+    docket: "266"
+    citation: "105 U.S. 691"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1882"
-    citation: "105 U.S. 691"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-194"
@@ -258,9 +333,12 @@ cases:
     title: "Louisiana v. Taylor"
     volume: "105"
     page: "454"
+    docket: "264"
+    citation: "105 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1882"
-    citation: "105 U.S. 454"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-216"
@@ -268,9 +346,11 @@ cases:
     title: "Ex parte Boyd"
     volume: "105"
     page: "647"
+    citation: "105 U.S. 647"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1882"
-    citation: "105 U.S. 647"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-221"
@@ -278,9 +358,12 @@ cases:
     title: "Stevenson v. Texas R. Co."
     volume: "105"
     page: "703"
+    docket: "23"
+    citation: "105 U.S. 703"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1882"
-    citation: "105 U.S. 703"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-224"
@@ -288,9 +371,12 @@ cases:
     title: "Carite v. Trotot"
     volume: "105"
     page: "751"
+    docket: "276"
+    citation: "105 U.S. 751"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1882"
-    citation: "105 U.S. 751"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-226"
@@ -298,9 +384,12 @@ cases:
     title: "Connecticut Mut. Life Ins. Co. v. Cushman"
     volume: "108"
     page: "051"
+    docket: "662"
+    citation: "108 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Sunday, October 1, 1882"
-    citation: "108 U.S. 51"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-227"
@@ -308,9 +397,12 @@ cases:
     title: "Medsker v. Bonebrake"
     volume: "108"
     page: "066"
+    docket: "156"
+    citation: "108 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Sunday, October 1, 1882"
-    citation: "108 U.S. 66"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-237"
@@ -318,9 +410,12 @@ cases:
     title: "Chicago &amp; Vincennes R. Co. v. Huidekoper"
     volume: "106"
     page: "080"
+    docket: "173"
+    citation: "106 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1882"
-    citation: "106 U.S. 80"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-016"
@@ -328,9 +423,12 @@ cases:
     title: "Bailey v. Railroad Co."
     volume: "106"
     page: "109"
+    docket: "27"
+    citation: "106 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1882"
-    citation: "106 U.S. 109"
+    voteMajority: 8
+    voteMinority: 1
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-027"
@@ -338,9 +436,12 @@ cases:
     title: "Pritchard v. Norton"
     volume: "106"
     page: "124"
+    docket: "42"
+    citation: "106 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1882"
-    citation: "106 U.S. 124"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-041"
@@ -348,9 +449,12 @@ cases:
     title: "Oil Co. v. Van Etten"
     volume: "107"
     page: "325"
+    docket: "56"
+    citation: "107 U.S. 325"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1882"
-    citation: "107 U.S. 325"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-051"
@@ -358,9 +462,12 @@ cases:
     title: "Clarkson v. Stevens"
     volume: "106"
     page: "505"
+    docket: "88"
+    citation: "106 U.S. 505"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1882"
-    citation: "106 U.S. 505"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-059"
@@ -368,9 +475,12 @@ cases:
     title: "United States v. Stone"
     volume: "106"
     page: "525"
+    docket: "97"
+    citation: "106 U.S. 525"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1882"
-    citation: "106 U.S. 525"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-061"
@@ -378,9 +488,12 @@ cases:
     title: "Fink v. O&apos;Neil"
     volume: "106"
     page: "272"
+    docket: "96"
+    citation: "106 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1882"
-    citation: "106 U.S. 272"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-075"
@@ -388,9 +501,12 @@ cases:
     title: "Fitzpatrick v. Flannagan"
     volume: "106"
     page: "648"
+    docket: "111"
+    citation: "106 U.S. 648"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1882"
-    citation: "106 U.S. 648"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-076"
@@ -398,9 +514,12 @@ cases:
     title: "McGinty v. Flannagan"
     volume: "106"
     page: "661"
+    docket: "112"
+    citation: "106 U.S. 661"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1882"
-    citation: "106 U.S. 661"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-086"
@@ -408,9 +527,12 @@ cases:
     title: "Elgin v. Marshall"
     volume: "106"
     page: "578"
+    docket: "803"
+    citation: "106 U.S. 578"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1883"
-    citation: "106 U.S. 578"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-098"
@@ -418,9 +540,12 @@ cases:
     title: "Hayward v. Andrews"
     volume: "106"
     page: "672"
+    docket: "918"
+    citation: "106 U.S. 672"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1883"
-    citation: "106 U.S. 672"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-107"
@@ -428,9 +553,12 @@ cases:
     title: "Sun Mut. Ins. Co. v. Ocean Ins. Co."
     volume: "107"
     page: "485"
+    docket: "119"
+    citation: "107 U.S. 485"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1883"
-    citation: "107 U.S. 485"
+    voteMajority: 6
+    voteMinority: 3
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-114"
@@ -438,9 +566,12 @@ cases:
     title: "Embry v. Palmer"
     volume: "107"
     page: "003"
+    docket: "144"
+    citation: "107 U.S. 3"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1883"
-    citation: "107 U.S. 3"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-123"
@@ -448,9 +579,12 @@ cases:
     title: "County of Kankakee v. Aetna Life Ins. Co."
     volume: "106"
     page: "668"
+    docket: "1146"
+    citation: "106 U.S. 668"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1883"
-    citation: "106 U.S. 668"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-128"
@@ -458,9 +592,12 @@ cases:
     title: "Chapman v. County of Douglas"
     volume: "107"
     page: "348"
+    docket: "143"
+    citation: "107 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1883"
-    citation: "107 U.S. 348"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-141"
@@ -468,9 +605,12 @@ cases:
     title: "Read v. Plattsmouth"
     volume: "107"
     page: "568"
+    docket: "167"
+    citation: "107 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1883"
-    citation: "107 U.S. 568"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-163"
@@ -478,9 +618,12 @@ cases:
     title: "Basket v. Hassell"
     volume: "107"
     page: "602"
+    docket: "170"
+    citation: "107 U.S. 602"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1883"
-    citation: "107 U.S. 602"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-165"
@@ -488,9 +631,12 @@ cases:
     title: "Ewell v. Daggs"
     volume: "108"
     page: "143"
+    docket: "139"
+    citation: "108 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1883"
-    citation: "108 U.S. 143"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-178"
@@ -498,9 +644,12 @@ cases:
     title: "Savannah v. Kelly"
     volume: "108"
     page: "184"
+    docket: "198"
+    citation: "108 U.S. 184"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1883"
-    citation: "108 U.S. 184"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-179"
@@ -508,9 +657,12 @@ cases:
     title: "Savannah v. Martin"
     volume: "108"
     page: "191"
+    docket: "199"
+    citation: "108 U.S. 191"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1883"
-    citation: "108 U.S. 191"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-194"
@@ -518,9 +670,12 @@ cases:
     title: "District of Columbia v. Washington Market Co."
     volume: "108"
     page: "243"
+    docket: "193"
+    citation: "108 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1883"
-    citation: "108 U.S. 243"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-201"
@@ -528,9 +683,12 @@ cases:
     title: "Hampton v. Phipps"
     volume: "108"
     page: "260"
+    docket: "218"
+    citation: "108 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1883"
-    citation: "108 U.S. 260"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-202"
@@ -538,9 +696,11 @@ cases:
     title: "Basket v. Hassell"
     volume: "108"
     page: "267"
+    citation: "108 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1883"
-    citation: "108 U.S. 267"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-211"
@@ -548,9 +708,12 @@ cases:
     title: "Davis v. South Carolina"
     volume: "107"
     page: "597"
+    docket: "215"
+    citation: "107 U.S. 597"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1883"
-    citation: "107 U.S. 597"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-225"
@@ -558,9 +721,12 @@ cases:
     title: "Adriatic Fire Ins. Co. v. Treadwell"
     volume: "108"
     page: "361"
+    docket: "250"
+    citation: "108 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1883"
-    citation: "108 U.S. 361"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-238"
@@ -568,9 +734,12 @@ cases:
     title: "Hawkins v. Blake"
     volume: "108"
     page: "422"
+    docket: "261"
+    citation: "108 U.S. 422"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1883"
-    citation: "108 U.S. 422"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-239"
@@ -578,9 +747,12 @@ cases:
     title: "Clark v. Barnard"
     volume: "108"
     page: "436"
+    docket: "266"
+    citation: "108 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1883"
-    citation: "108 U.S. 436"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-258"
@@ -588,17 +760,22 @@ cases:
     title: "Chicago &amp; Vincennes R. Co. v. Huidekoper"
     volume: "106"
     page: "082"
+    docket: "21"
+    citation: "106 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, October 23, 1882"
-    citation: "106 U.S. 82"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1882-260"
     termId: "1882-10"
     title: "TOWN OF PLAINVIEW v. SAMUEL MARSHALL"
+    citation: "106 U.S. 583n"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1883"
-    citation: "106 U.S. 583n"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-012"
@@ -606,9 +783,12 @@ cases:
     title: "Laver v. Dennett"
     volume: "109"
     page: "090"
+    docket: "10"
+    citation: "109 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, October 29, 1883"
-    citation: "109 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-021"
@@ -616,9 +796,12 @@ cases:
     title: "Newman v. Arthur"
     volume: "109"
     page: "132"
+    docket: "79"
+    citation: "109 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1883"
-    citation: "109 U.S. 132"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-022"
@@ -626,9 +809,12 @@ cases:
     title: "Arthur v. Pastor"
     volume: "109"
     page: "139"
+    docket: "47"
+    citation: "109 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1883"
-    citation: "109 U.S. 139"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-034"
@@ -636,9 +822,12 @@ cases:
     title: "United States v. Gibbons"
     volume: "109"
     page: "200"
+    docket: "57"
+    citation: "109 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1883"
-    citation: "109 U.S. 200"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-035"
@@ -646,9 +835,12 @@ cases:
     title: "Booth v. Tiernan"
     volume: "109"
     page: "205"
+    docket: "95"
+    citation: "109 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1883"
-    citation: "109 U.S. 205"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-044"
@@ -656,9 +848,12 @@ cases:
     title: "Arnson v. Murphy"
     volume: "109"
     page: "238"
+    docket: "48"
+    citation: "109 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1883"
-    citation: "109 U.S. 238"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-045"
@@ -666,9 +861,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Palmes"
     volume: "109"
     page: "244"
+    docket: "765"
+    citation: "109 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1883"
-    citation: "109 U.S. 244"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-055"
@@ -676,9 +874,12 @@ cases:
     title: "Warner v. Connecticut Mut. Life Ins. Co."
     volume: "109"
     page: "357"
+    docket: "125"
+    citation: "109 U.S. 357"
     pdfSource: "loc"
     dateDecision: "Monday, November 26, 1883"
-    citation: "109 U.S. 357"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-062"
@@ -686,9 +887,12 @@ cases:
     title: "Feibelman v. Packard"
     volume: "109"
     page: "421"
+    docket: "103"
+    citation: "109 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1883"
-    citation: "109 U.S. 421"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-068"
@@ -696,9 +900,12 @@ cases:
     title: "Ellis v. Davis"
     volume: "109"
     page: "485"
+    docket: "104"
+    citation: "109 U.S. 485"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1883"
-    citation: "109 U.S. 485"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-074"
@@ -706,9 +913,11 @@ cases:
     title: "Ex parte Crow Dog"
     volume: "109"
     page: "556"
+    citation: "109 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1883"
-    citation: "109 U.S. 556"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-089"
@@ -716,9 +925,11 @@ cases:
     title: "Smith v. Greenhow"
     volume: "109"
     page: "669"
+    citation: "109 U.S. 669"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1884"
-    citation: "109 U.S. 669"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-090"
@@ -726,9 +937,12 @@ cases:
     title: "Potomac S. S. Co. v. Upper Potomac S. S. Co."
     volume: "109"
     page: "672"
+    docket: "133"
+    citation: "109 U.S. 672"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1884"
-    citation: "109 U.S. 672"
+    voteMajority: 6
+    voteMinority: 3
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-108"
@@ -736,9 +950,11 @@ cases:
     title: "Claflin v. Commonwealth Ins. Co."
     volume: "110"
     page: "081"
+    citation: "110 U.S. 81"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1884"
-    citation: "110 U.S. 81"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-116"
@@ -746,9 +962,12 @@ cases:
     title: "Bissell v. Spring Valley Township"
     volume: "110"
     page: "162"
+    docket: "880"
+    citation: "110 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1884"
-    citation: "110 U.S. 162"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-117"
@@ -756,9 +975,12 @@ cases:
     title: "Redfield v. Ystalyfera Iron Co."
     volume: "110"
     page: "174"
+    docket: "1143"
+    citation: "110 U.S. 174"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1884"
-    citation: "110 U.S. 174"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-137"
@@ -766,9 +988,12 @@ cases:
     title: "James v. Hicks"
     volume: "110"
     page: "272"
+    docket: "809"
+    citation: "110 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1884"
-    citation: "110 U.S. 272"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-138"
@@ -776,9 +1001,12 @@ cases:
     title: "Krippendorf v. Hyde"
     volume: "110"
     page: "276"
+    docket: "1227"
+    citation: "110 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1884"
-    citation: "110 U.S. 276"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-145"
@@ -786,9 +1014,12 @@ cases:
     title: "Corker v. Jones"
     volume: "110"
     page: "317"
+    docket: "220"
+    citation: "110 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1884"
-    citation: "110 U.S. 317"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-146"
@@ -796,9 +1027,12 @@ cases:
     title: "East St. Louis v. United States ex rel. Zebley"
     volume: "110"
     page: "321"
+    docket: "1141"
+    citation: "110 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1884"
-    citation: "110 U.S. 321"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-163"
@@ -806,9 +1040,12 @@ cases:
     title: "Irwin v. Williar"
     volume: "110"
     page: "499"
+    docket: "56"
+    citation: "110 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1884"
-    citation: "110 U.S. 499"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-164"
@@ -816,9 +1053,12 @@ cases:
     title: "Hurtado v. California"
     volume: "110"
     page: "516"
+    docket: "1207"
+    citation: "110 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1884"
-    citation: "110 U.S. 516"
+    voteMajority: 7
+    voteMinority: 1
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-180"
@@ -826,9 +1066,12 @@ cases:
     title: "Freedman&apos;s Sav. &amp; Trust Co. v. Earle"
     volume: "110"
     page: "710"
+    docket: "248"
+    citation: "110 U.S. 710"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1884"
-    citation: "110 U.S. 710"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-187"
@@ -836,9 +1079,12 @@ cases:
     title: "Swift Co. v. United States"
     volume: "111"
     page: "022"
+    docket: "826"
+    citation: "111 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1884"
-    citation: "111 U.S. 22"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-188"
@@ -846,9 +1092,12 @@ cases:
     title: "Walsh v. Mayer"
     volume: "111"
     page: "031"
+    docket: "239"
+    citation: "111 U.S. 31"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1884"
-    citation: "111 U.S. 31"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-195"
@@ -856,9 +1105,11 @@ cases:
     title: "Dixon County v. Field"
     volume: "111"
     page: "083"
+    citation: "111 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1884"
-    citation: "111 U.S. 83"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-206"
@@ -866,9 +1117,12 @@ cases:
     title: "Ware v. Galveston City Co."
     volume: "111"
     page: "170"
+    docket: "264"
+    citation: "111 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1884"
-    citation: "111 U.S. 170"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-207"
@@ -876,9 +1130,12 @@ cases:
     title: "Covell v. Heyman"
     volume: "111"
     page: "176"
+    docket: "255"
+    citation: "111 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1884"
-    citation: "111 U.S. 176"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-214"
@@ -886,9 +1143,12 @@ cases:
     title: "Hayes v. Michigan Central R. Co."
     volume: "111"
     page: "228"
+    docket: "263"
+    citation: "111 U.S. 228"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1884"
-    citation: "111 U.S. 228"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-221"
@@ -896,9 +1156,12 @@ cases:
     title: "Turner &amp; Seymour Mfg. Co. v. Dover Stamping Co."
     volume: "111"
     page: "319"
+    docket: "268"
+    citation: "111 U.S. 319"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1884"
-    citation: "111 U.S. 319"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-231"
@@ -906,9 +1169,12 @@ cases:
     title: "Mansfield, C. &amp; L. M. R. Co. v. Swan"
     volume: "111"
     page: "379"
+    docket: "293"
+    citation: "111 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1884"
-    citation: "111 U.S. 379"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-248"
@@ -916,9 +1182,11 @@ cases:
     title: "Spindle v. Shreve"
     volume: "111"
     page: "542"
+    citation: "111 U.S. 542"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1884"
-    citation: "111 U.S. 542"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-249"
@@ -926,9 +1194,12 @@ cases:
     title: "Thorwegan v. King"
     volume: "111"
     page: "549"
+    docket: "323"
+    citation: "111 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1884"
-    citation: "111 U.S. 549"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-250"
@@ -936,9 +1207,12 @@ cases:
     title: "Carroll County v. Smith"
     volume: "111"
     page: "556"
+    docket: "333"
+    citation: "111 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1884"
-    citation: "111 U.S. 556"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1883-251"
@@ -946,9 +1220,12 @@ cases:
     title: "Colt v. Colt"
     volume: "111"
     page: "566"
+    docket: "343"
+    citation: "111 U.S. 566"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1884"
-    citation: "111 U.S. 566"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-010"
@@ -956,9 +1233,12 @@ cases:
     title: "Butterworth v. United States ex rel. Hoe"
     volume: "112"
     page: "050"
+    docket: "838"
+    citation: "112 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, November 3, 1884"
-    citation: "112 U.S. 50"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-011"
@@ -966,9 +1246,12 @@ cases:
     title: "Moran v. New Orleans"
     volume: "112"
     page: "069"
+    docket: "33"
+    citation: "112 U.S. 69"
     pdfSource: "loc"
     dateDecision: "Monday, November 3, 1884"
-    citation: "112 U.S. 69"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-022"
@@ -976,9 +1259,12 @@ cases:
     title: "Buena Vista County v. Iowa Falls &amp; Sioux City R. Co."
     volume: "112"
     page: "165"
+    docket: "57"
+    citation: "112 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1884"
-    citation: "112 U.S. 165"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-031"
@@ -986,9 +1272,12 @@ cases:
     title: "Labette County Comm&apos;rs v. United States ex rel. Moulton"
     volume: "112"
     page: "217"
+    docket: "286"
+    citation: "112 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1884"
-    citation: "112 U.S. 217"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-040"
@@ -996,9 +1285,12 @@ cases:
     title: "Heidritter v. Elizabeth Oil-Cloth Co."
     volume: "112"
     page: "294"
+    docket: "69"
+    citation: "112 U.S. 294"
     pdfSource: "loc"
     dateDecision: "Monday, November 24, 1884"
-    citation: "112 U.S. 294"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-047"
@@ -1006,9 +1298,12 @@ cases:
     title: "Brandies v. Cochrane"
     volume: "112"
     page: "344"
+    docket: "92"
+    citation: "112 U.S. 344"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1884"
-    citation: "112 U.S. 344"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-071"
@@ -1016,9 +1311,12 @@ cases:
     title: "Memphis &amp; Little Rock R. Co. v. Railroad Comm&apos;rs"
     volume: "112"
     page: "609"
+    docket: "859"
+    citation: "112 U.S. 609"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1884"
-    citation: "112 U.S. 609"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-079"
@@ -1026,9 +1324,12 @@ cases:
     title: "Halferty v. Wilmering"
     volume: "112"
     page: "713"
+    docket: "118"
+    citation: "112 U.S. 713"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1885"
-    citation: "112 U.S. 713"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-082"
@@ -1036,9 +1337,12 @@ cases:
     title: "St. Paul &amp; Duluth R. Co. v. United States"
     volume: "112"
     page: "733"
+    docket: "520"
+    citation: "112 U.S. 733"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1885"
-    citation: "112 U.S. 733"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-083"
@@ -1046,9 +1350,12 @@ cases:
     title: "Peugh v. Porter"
     volume: "112"
     page: "737"
+    docket: "135"
+    citation: "112 U.S. 737"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1885"
-    citation: "112 U.S. 737"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-087"
@@ -1056,9 +1363,12 @@ cases:
     title: "Liverpool, New York &amp; Philadelphia S. S. Co. v. Commissioners of Emigration"
     volume: "113"
     page: "033"
+    docket: "19"
+    citation: "113 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1885"
-    citation: "113 U.S. 33"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-090"
@@ -1066,9 +1376,12 @@ cases:
     title: "Hollister v. Benedict &amp; Burnham Mfg. Co."
     volume: "113"
     page: "059"
+    docket: "76"
+    citation: "113 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1885"
-    citation: "113 U.S. 59"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-124"
@@ -1076,9 +1389,12 @@ cases:
     title: "Stone v. Chisolm"
     volume: "113"
     page: "302"
+    docket: "902"
+    citation: "113 U.S. 302"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1885"
-    citation: "113 U.S. 302"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-126"
@@ -1086,9 +1402,12 @@ cases:
     title: "Baylis v. Travellers&apos; Ins. Co."
     volume: "113"
     page: "316"
+    docket: "140"
+    citation: "113 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1885"
-    citation: "113 U.S. 316"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-135"
@@ -1096,9 +1415,12 @@ cases:
     title: "Chicago &amp; Northwestern R. Co. v. Crane"
     volume: "113"
     page: "424"
+    docket: "1186"
+    citation: "113 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "113 U.S. 424"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-136"
@@ -1106,9 +1428,12 @@ cases:
     title: "Prentice v. Stearns"
     volume: "113"
     page: "435"
+    docket: "1157"
+    citation: "113 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "113 U.S. 435"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-137"
@@ -1116,9 +1441,12 @@ cases:
     title: "Morgan v. Hamlet"
     volume: "113"
     page: "449"
+    docket: "187"
+    citation: "113 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "113 U.S. 449"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-138"
@@ -1126,9 +1454,12 @@ cases:
     title: "Chase v. Curtis"
     volume: "113"
     page: "452"
+    docket: "154"
+    citation: "113 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "113 U.S. 452"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-139"
@@ -1136,9 +1467,12 @@ cases:
     title: "St. Louis, I. M. &amp; S. R. Co. v. Berry"
     volume: "113"
     page: "465"
+    docket: "907"
+    citation: "113 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "113 U.S. 465"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-140"
@@ -1146,9 +1480,12 @@ cases:
     title: "Morgan v. United States"
     volume: "113"
     page: "476"
+    docket: "526"
+    citation: "113 U.S. 476"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "113 U.S. 476"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-173"
@@ -1156,9 +1493,11 @@ cases:
     title: "Murphy v. Ramsey"
     volume: "114"
     page: "015"
+    citation: "114 U.S. 15"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1885"
-    citation: "114 U.S. 15"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-181"
@@ -1166,9 +1505,12 @@ cases:
     title: "Electric Railroad Signal Co. v. Hall Railway Signal Co."
     volume: "114"
     page: "087"
+    docket: "141"
+    citation: "114 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1885"
-    citation: "114 U.S. 87"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-194"
@@ -1176,9 +1518,12 @@ cases:
     title: "Chesapeake &amp; Ohio R. Co. v. Miller"
     volume: "114"
     page: "176"
+    docket: "203"
+    citation: "114 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1885"
-    citation: "114 U.S. 176"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-212"
@@ -1186,9 +1531,12 @@ cases:
     title: "Poindexter v. Greenhow"
     volume: "114"
     page: "270"
+    docket: "588"
+    citation: "114 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1885"
-    citation: "114 U.S. 270"
+    voteMajority: 5
+    voteMinority: 4
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-213"
@@ -1196,9 +1544,11 @@ cases:
     title: "White v. Greenhow"
     volume: "114"
     page: "307"
+    citation: "114 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1885"
-    citation: "114 U.S. 307"
+    voteMajority: 5
+    voteMinority: 4
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-214"
@@ -1206,9 +1556,11 @@ cases:
     title: "Chaffin v. Taylor"
     volume: "114"
     page: "309"
+    citation: "114 U.S. 309"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1885"
-    citation: "114 U.S. 309"
+    voteMajority: 5
+    voteMinority: 4
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-215"
@@ -1216,9 +1568,12 @@ cases:
     title: "Allen v. Baltimore &amp; Ohio R. Co."
     volume: "114"
     page: "311"
+    docket: "826"
+    citation: "114 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1885"
-    citation: "114 U.S. 311"
+    voteMajority: 5
+    voteMinority: 4
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-216"
@@ -1226,9 +1581,12 @@ cases:
     title: "Carter v. Greenhow"
     volume: "114"
     page: "317"
+    docket: "590"
+    citation: "114 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1885"
-    citation: "114 U.S. 317"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-217"
@@ -1236,9 +1594,12 @@ cases:
     title: "Pleasants v. Greenhow"
     volume: "114"
     page: "323"
+    docket: "941"
+    citation: "114 U.S. 323"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1885"
-    citation: "114 U.S. 323"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-218"
@@ -1246,9 +1607,12 @@ cases:
     title: "Marye v. Parsons"
     volume: "114"
     page: "325"
+    docket: "1278"
+    citation: "114 U.S. 325"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1885"
-    citation: "114 U.S. 325"
+    voteMajority: 5
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-227"
@@ -1256,9 +1620,12 @@ cases:
     title: "Moore v. Greenhow"
     volume: "114"
     page: "338"
+    docket: "905"
+    citation: "114 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1885"
-    citation: "114 U.S. 338"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-251"
@@ -1266,9 +1633,12 @@ cases:
     title: "Hadden v. Merritt"
     volume: "115"
     page: "025"
+    docket: "269"
+    citation: "115 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1885"
-    citation: "115 U.S. 25"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-258"
@@ -1276,9 +1646,11 @@ cases:
     title: "Stewart v. Dunham"
     volume: "115"
     page: "061"
+    citation: "115 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1885"
-    citation: "115 U.S. 61"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-262"
@@ -1286,9 +1658,12 @@ cases:
     title: "Wollensak v. Reiher"
     volume: "115"
     page: "087"
+    docket: "249"
+    citation: "115 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1885"
-    citation: "115 U.S. 87"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-263"
@@ -1296,9 +1671,12 @@ cases:
     title: "Wollensak v. Reiher"
     volume: "115"
     page: "096"
+    docket: "1242"
+    citation: "115 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1885"
-    citation: "115 U.S. 96"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1884-270"
@@ -1306,9 +1684,12 @@ cases:
     title: "FLINT AND PERE MARQUETTE RAILROAD COMPANY v. UNITED STATES"
     volume: "112"
     page: "762"
+    docket: "521"
+    citation: "112 U.S. 762"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1885"
-    citation: "112 U.S. 762"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-017"
@@ -1316,9 +1697,12 @@ cases:
     title: "Kentucky Railroad Tax Cases"
     volume: "115"
     page: "321"
+    docket: "497"
+    citation: "115 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1885"
-    citation: "115 U.S. 321"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-026"
@@ -1326,9 +1710,12 @@ cases:
     title: "Eachus v. Broomall"
     volume: "115"
     page: "429"
+    docket: "19"
+    citation: "115 U.S. 429"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1885"
-    citation: "115 U.S. 429"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-027"
@@ -1336,9 +1723,12 @@ cases:
     title: "Gibson v. Lyon"
     volume: "115"
     page: "439"
+    docket: "16"
+    citation: "115 U.S. 439"
     pdfSource: "loc"
     dateDecision: "Monday, November 23, 1885"
-    citation: "115 U.S. 439"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-058"
@@ -1346,9 +1736,12 @@ cases:
     title: "Marvel v. Merritt"
     volume: "116"
     page: "011"
+    docket: "72"
+    citation: "116 U.S. 11"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1885"
-    citation: "116 U.S. 11"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-059"
@@ -1356,9 +1749,12 @@ cases:
     title: "Saxonville Mills v. Russell"
     volume: "116"
     page: "013"
+    docket: "81"
+    citation: "116 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1885"
-    citation: "116 U.S. 13"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-066"
@@ -1366,9 +1762,12 @@ cases:
     title: "Roberts v. Reilly"
     volume: "116"
     page: "080"
+    docket: "992"
+    citation: "116 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1885"
-    citation: "116 U.S. 80"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-071"
@@ -1376,9 +1775,12 @@ cases:
     title: "Liverpool &amp; London Ins. Co. v. Gunther"
     volume: "116"
     page: "113"
+    docket: "61"
+    citation: "116 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1885"
-    citation: "116 U.S. 113"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-081"
@@ -1386,9 +1788,12 @@ cases:
     title: "Field v. De Comeau"
     volume: "116"
     page: "187"
+    docket: "84"
+    citation: "116 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1886"
-    citation: "116 U.S. 187"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-092"
@@ -1396,9 +1801,12 @@ cases:
     title: "Renaud v. Abbott"
     volume: "116"
     page: "277"
+    docket: "23"
+    citation: "116 U.S. 277"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1886"
-    citation: "116 U.S. 277"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-101"
@@ -1406,9 +1814,11 @@ cases:
     title: "United States v. Spiegel"
     volume: "116"
     page: "270"
+    citation: "116 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1886"
-    citation: "116 U.S. 270"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-107"
@@ -1416,9 +1826,12 @@ cases:
     title: "United States v. Wallace"
     volume: "116"
     page: "398"
+    docket: "988"
+    citation: "116 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1886"
-    citation: "116 U.S. 398"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-119"
@@ -1426,9 +1839,12 @@ cases:
     title: "United States v. Redgrave"
     volume: "116"
     page: "474"
+    docket: "985"
+    citation: "116 U.S. 474"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1886"
-    citation: "116 U.S. 474"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-120"
@@ -1436,9 +1852,12 @@ cases:
     title: "United States v. Perkins"
     volume: "116"
     page: "483"
+    docket: "986"
+    citation: "116 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1886"
-    citation: "116 U.S. 483"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-129"
@@ -1446,9 +1865,12 @@ cases:
     title: "Barry v. Edmunds"
     volume: "116"
     page: "550"
+    docket: "973"
+    citation: "116 U.S. 550"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1886"
-    citation: "116 U.S. 550"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-130"
@@ -1456,9 +1878,12 @@ cases:
     title: "Chaffin v. Taylor"
     volume: "116"
     page: "567"
+    docket: "1011"
+    citation: "116 U.S. 567"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1886"
-    citation: "116 U.S. 567"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-131"
@@ -1466,9 +1891,12 @@ cases:
     title: "Royall v. Virginia"
     volume: "116"
     page: "572"
+    docket: "1010"
+    citation: "116 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1886"
-    citation: "116 U.S. 572"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-132"
@@ -1476,9 +1904,12 @@ cases:
     title: "Sands v. Edmunds"
     volume: "116"
     page: "585"
+    docket: "1009"
+    citation: "116 U.S. 585"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1886"
-    citation: "116 U.S. 585"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-148"
@@ -1486,9 +1917,12 @@ cases:
     title: "Hagood v. Southern"
     volume: "117"
     page: "052"
+    docket: "108"
+    citation: "117 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1886"
-    citation: "117 U.S. 52"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-167"
@@ -1496,9 +1930,12 @@ cases:
     title: "Phelps v. Oaks"
     volume: "117"
     page: "236"
+    docket: "807"
+    citation: "117 U.S. 236"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1886"
-    citation: "117 U.S. 236"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-174"
@@ -1506,9 +1943,12 @@ cases:
     title: "Kleinschmidt v. McAndrews"
     volume: "117"
     page: "282"
+    docket: "147"
+    citation: "117 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1886"
-    citation: "117 U.S. 282"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-184"
@@ -1516,9 +1956,12 @@ cases:
     title: "Union Pacific R. Co. v. United States"
     volume: "117"
     page: "355"
+    docket: "193"
+    citation: "117 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1886"
-    citation: "117 U.S. 355"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-188"
@@ -1526,9 +1969,12 @@ cases:
     title: "Yale Lock Mfg. Co. v. Sargent"
     volume: "117"
     page: "373"
+    docket: "165"
+    citation: "117 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1886"
-    citation: "117 U.S. 373"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-189"
@@ -1536,9 +1982,12 @@ cases:
     title: "Kerr v. South Park Comm&apos;rs"
     volume: "117"
     page: "379"
+    docket: "1142"
+    citation: "117 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1886"
-    citation: "117 U.S. 379"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-190"
@@ -1546,9 +1995,12 @@ cases:
     title: "Kerr v. South Park Comm&apos;rs"
     volume: "117"
     page: "388"
+    docket: "124"
+    citation: "117 U.S. 388"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1886"
-    citation: "117 U.S. 388"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-201"
@@ -1556,9 +2008,11 @@ cases:
     title: "Dingley v. Oler"
     volume: "117"
     page: "490"
+    citation: "117 U.S. 490"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1886"
-    citation: "117 U.S. 490"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-219"
@@ -1566,9 +2020,12 @@ cases:
     title: "Phillips v. Negley"
     volume: "117"
     page: "665"
+    docket: "199"
+    citation: "117 U.S. 665"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1886"
-    citation: "117 U.S. 665"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-228"
@@ -1576,9 +2033,12 @@ cases:
     title: "Keyes v. Grant"
     volume: "118"
     page: "025"
+    docket: "208"
+    citation: "118 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1886"
-    citation: "118 U.S. 25"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-240"
@@ -1586,9 +2046,12 @@ cases:
     title: "United States v. Wilson"
     volume: "118"
     page: "086"
+    docket: "226"
+    citation: "118 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1886"
-    citation: "118 U.S. 86"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-241"
@@ -1596,9 +2059,12 @@ cases:
     title: "Spraigue v. Thompson"
     volume: "118"
     page: "090"
+    docket: "212"
+    citation: "118 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1886"
-    citation: "118 U.S. 90"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1885-269"
@@ -1606,9 +2072,12 @@ cases:
     title: "Yick Wo v. Hopkins"
     volume: "118"
     page: "356"
+    docket: "1280"
+    citation: "118 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1886"
-    citation: "118 U.S. 356"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-008"
@@ -1616,9 +2085,12 @@ cases:
     title: "Delano v. Butler"
     volume: "118"
     page: "634"
+    docket: "789"
+    citation: "118 U.S. 634"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1886"
-    citation: "118 U.S. 634"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-014"
@@ -1626,9 +2098,12 @@ cases:
     title: "Choctaw Nation v. United States"
     volume: "119"
     page: "001"
+    docket: "848"
+    citation: "119 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1886"
-    citation: "119 U.S. 1"
+    voteMajority: 7
+    voteMinority: 1
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-029"
@@ -1636,9 +2111,12 @@ cases:
     title: "French v. Hall"
     volume: "119"
     page: "152"
+    docket: "628"
+    citation: "119 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1886"
-    citation: "119 U.S. 152"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-030"
@@ -1646,9 +2124,12 @@ cases:
     title: "Hanrick v. Patrick"
     volume: "119"
     page: "156"
+    docket: "20"
+    citation: "119 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1886"
-    citation: "119 U.S. 156"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-031"
@@ -1656,9 +2137,12 @@ cases:
     title: "Washington County v. Sallinger"
     volume: "119"
     page: "176"
+    docket: "35"
+    citation: "119 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1886"
-    citation: "119 U.S. 176"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-040"
@@ -1666,9 +2150,12 @@ cases:
     title: "New Orleans v. Houston"
     volume: "119"
     page: "265"
+    docket: "54"
+    citation: "119 U.S. 265"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1886"
-    citation: "119 U.S. 265"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-054"
@@ -1676,9 +2163,12 @@ cases:
     title: "Wylie v. Northampton Bank"
     volume: "119"
     page: "361"
+    docket: "62"
+    citation: "119 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1886"
-    citation: "119 U.S. 361"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-075"
@@ -1686,9 +2176,12 @@ cases:
     title: "Eldred v. Bell Telephone Co."
     volume: "119"
     page: "513"
+    docket: "84"
+    citation: "119 U.S. 513"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1886"
-    citation: "119 U.S. 513"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-077"
@@ -1696,9 +2189,12 @@ cases:
     title: "Sutter v. Robinson"
     volume: "119"
     page: "530"
+    docket: "87"
+    citation: "119 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1886"
-    citation: "119 U.S. 530"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-085"
@@ -1706,9 +2202,12 @@ cases:
     title: "Borer v. Chapman"
     volume: "119"
     page: "587"
+    docket: "91"
+    citation: "119 U.S. 587"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1887"
-    citation: "119 U.S. 587"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-093"
@@ -1716,9 +2215,12 @@ cases:
     title: "Ives v. Sargent"
     volume: "119"
     page: "652"
+    docket: "94"
+    citation: "119 U.S. 652"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1887"
-    citation: "119 U.S. 652"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-094"
@@ -1726,9 +2228,12 @@ cases:
     title: "Hartshorn v. Saginaw Barrel Co."
     volume: "119"
     page: "664"
+    docket: "66"
+    citation: "119 U.S. 664"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1887"
-    citation: "119 U.S. 664"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-104"
@@ -1736,9 +2241,12 @@ cases:
     title: "Hubbard v. Investment Co."
     volume: "119"
     page: "696"
+    docket: "103"
+    citation: "119 U.S. 696"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1887"
-    citation: "119 U.S. 696"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-105"
@@ -1746,9 +2254,12 @@ cases:
     title: "Nemaha County v. Frank"
     volume: "120"
     page: "041"
+    docket: "1048"
+    citation: "120 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1887"
-    citation: "120 U.S. 41"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-112"
@@ -1756,9 +2267,12 @@ cases:
     title: "United States v. Parker"
     volume: "120"
     page: "089"
+    docket: "945"
+    citation: "120 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1887"
-    citation: "120 U.S. 89"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-120"
@@ -1766,9 +2280,12 @@ cases:
     title: "Crescent City Live Stock Co. v. Butchers&apos; Union Slaughter-House Co."
     volume: "120"
     page: "141"
+    docket: "1167"
+    citation: "120 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1887"
-    citation: "120 U.S. 141"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-126"
@@ -1776,9 +2293,12 @@ cases:
     title: "Boffinger v. Tuyes"
     volume: "120"
     page: "198"
+    docket: "135"
+    citation: "120 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1887"
-    citation: "120 U.S. 198"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-144"
@@ -1786,9 +2306,12 @@ cases:
     title: "United States v. Northway"
     volume: "120"
     page: "327"
+    docket: "1064"
+    citation: "120 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1887"
-    citation: "120 U.S. 327"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-145"
@@ -1796,9 +2319,12 @@ cases:
     title: "The L. P. Dayton"
     volume: "120"
     page: "337"
+    docket: "145"
+    citation: "120 U.S. 337"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1887"
-    citation: "120 U.S. 337"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-146"
@@ -1806,9 +2332,12 @@ cases:
     title: "Harmon v. Adams"
     volume: "120"
     page: "363"
+    docket: "1203"
+    citation: "120 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1887"
-    citation: "120 U.S. 363"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-153"
@@ -1816,9 +2345,12 @@ cases:
     title: "Plummer v. Sargent"
     volume: "120"
     page: "442"
+    docket: "121"
+    citation: "120 U.S. 442"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1887"
-    citation: "120 U.S. 442"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-155"
@@ -1826,9 +2358,12 @@ cases:
     title: "Herron v. Dater"
     volume: "120"
     page: "464"
+    docket: "142"
+    citation: "120 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1887"
-    citation: "120 U.S. 464"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-178"
@@ -1836,9 +2371,11 @@ cases:
     title: "Ex parte Parker"
     volume: "120"
     page: "737"
+    citation: "120 U.S. 737"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1887"
-    citation: "120 U.S. 737"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-186"
@@ -1846,9 +2383,11 @@ cases:
     title: "Richmond v. Irons"
     volume: "121"
     page: "027"
+    citation: "121 U.S. 27"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1887"
-    citation: "121 U.S. 27"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-197"
@@ -1856,9 +2395,12 @@ cases:
     title: "Mercantile Bank v. New York"
     volume: "121"
     page: "138"
+    docket: "1258"
+    citation: "121 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1887"
-    citation: "121 U.S. 138"
+    voteMajority: 7
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-198"
@@ -1866,9 +2408,12 @@ cases:
     title: "Newark Banking Co. v. Newark"
     volume: "121"
     page: "163"
+    docket: "1301"
+    citation: "121 U.S. 163"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1887"
-    citation: "121 U.S. 163"
+    voteMajority: 6
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-206"
@@ -1876,9 +2421,12 @@ cases:
     title: "McConihay v. Wright"
     volume: "121"
     page: "201"
+    docket: "159"
+    citation: "121 U.S. 201"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1887"
-    citation: "121 U.S. 201"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-219"
@@ -1886,9 +2434,12 @@ cases:
     title: "Thatcher Heating Co. v. Burtis"
     volume: "121"
     page: "286"
+    docket: "208"
+    citation: "121 U.S. 286"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1887"
-    citation: "121 U.S. 286"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-221"
@@ -1896,9 +2447,12 @@ cases:
     title: "Minneapolis Association v. Canfield"
     volume: "121"
     page: "295"
+    docket: "175"
+    citation: "121 U.S. 295"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1887"
-    citation: "121 U.S. 295"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-230"
@@ -1906,9 +2460,12 @@ cases:
     title: "Milwaukee &amp; Northern R. Co. v. Brooks Locomotive Works"
     volume: "121"
     page: "430"
+    docket: "226"
+    citation: "121 U.S. 430"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1887"
-    citation: "121 U.S. 430"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-243"
@@ -1916,9 +2473,12 @@ cases:
     title: "Metropolitan R. Co. v. Moore"
     volume: "121"
     page: "558"
+    docket: "247"
+    citation: "121 U.S. 558"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1887"
-    citation: "121 U.S. 558"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-247"
@@ -1926,9 +2486,12 @@ cases:
     title: "Snow v. Lake Shore &amp; Michigan Southern R. Co."
     volume: "121"
     page: "617"
+    docket: "234"
+    citation: "121 U.S. 617"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1887"
-    citation: "121 U.S. 617"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-255"
@@ -1936,9 +2499,12 @@ cases:
     title: "Eames v. Andrews"
     volume: "122"
     page: "040"
+    docket: "120"
+    citation: "122 U.S. 40"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1887"
-    citation: "122 U.S. 40"
+    voteMajority: 5
+    voteMinority: 3
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-256"
@@ -1946,9 +2512,12 @@ cases:
     title: "Beedle v. Bennett"
     volume: "122"
     page: "071"
+    docket: "1320"
+    citation: "122 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1887"
-    citation: "122 U.S. 71"
+    voteMajority: 5
+    voteMinority: 3
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-257"
@@ -1956,9 +2525,12 @@ cases:
     title: "St. Louis, I. M. &amp; S. R. Co. v. Knight"
     volume: "122"
     page: "079"
+    docket: "283"
+    citation: "122 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1887"
-    citation: "122 U.S. 79"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-261"
@@ -1966,9 +2538,12 @@ cases:
     title: "Topliff v. Topliff"
     volume: "122"
     page: "121"
+    docket: "286"
+    citation: "122 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1887"
-    citation: "122 U.S. 121"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-276"
@@ -1976,9 +2551,12 @@ cases:
     title: "Drexel v. Berney"
     volume: "122"
     page: "241"
+    docket: "305"
+    citation: "122 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Friday, May 27, 1887"
-    citation: "122 U.S. 241"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-279"
@@ -1986,9 +2564,12 @@ cases:
     title: "Seibert v. Lewis"
     volume: "122"
     page: "284"
+    docket: "299"
+    citation: "122 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Friday, May 27, 1887"
-    citation: "122 U.S. 284"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-280"
@@ -1996,9 +2577,12 @@ cases:
     title: "Minneapolis Gas Light Co. v. Kerr Murray Mfg. Co."
     volume: "122"
     page: "300"
+    docket: "297"
+    citation: "122 U.S. 300"
     pdfSource: "loc"
     dateDecision: "Friday, May 27, 1887"
-    citation: "122 U.S. 300"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-281"
@@ -2006,9 +2590,12 @@ cases:
     title: "Harshman v. Knox County"
     volume: "122"
     page: "306"
+    docket: "258"
+    citation: "122 U.S. 306"
     pdfSource: "loc"
     dateDecision: "Friday, May 27, 1887"
-    citation: "122 U.S. 306"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1886-298"
@@ -2016,9 +2603,12 @@ cases:
     title: "Struthers v. Drexel"
     volume: "122"
     page: "487"
+    docket: "278"
+    citation: "122 U.S. 487"
     pdfSource: "loc"
     dateDecision: "Friday, May 27, 1887"
-    citation: "122 U.S. 487"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-017"
@@ -2026,9 +2616,12 @@ cases:
     title: "Coan v. Flagg"
     volume: "123"
     page: "117"
+    docket: "21"
+    citation: "123 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Monday, October 31, 1887"
-    citation: "123 U.S. 117"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-019"
@@ -2036,9 +2629,12 @@ cases:
     title: "Craig v. Leitensdorfer"
     volume: "123"
     page: "189"
+    docket: "1"
+    citation: "123 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Monday, October 31, 1887"
-    citation: "123 U.S. 189"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-028"
@@ -2046,9 +2642,12 @@ cases:
     title: "Smith &amp; Griggs Mfg. Co. v. Sprague"
     volume: "123"
     page: "249"
+    docket: "29"
+    citation: "123 U.S. 249"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1887"
-    citation: "123 U.S. 249"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-035"
@@ -2056,9 +2655,12 @@ cases:
     title: "Colorado Coal &amp; Iron Co. v. United States"
     volume: "123"
     page: "307"
+    docket: "46"
+    citation: "123 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1887"
-    citation: "123 U.S. 307"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-036"
@@ -2066,9 +2668,12 @@ cases:
     title: "Dewey v. West Fairmont Gas Coal Co."
     volume: "123"
     page: "329"
+    docket: "60"
+    citation: "123 U.S. 329"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1887"
-    citation: "123 U.S. 329"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-048"
@@ -2076,9 +2681,11 @@ cases:
     title: "In re Ayers"
     volume: "123"
     page: "443"
+    citation: "123 U.S. 443"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1887"
-    citation: "123 U.S. 443"
+    voteMajority: 7
+    voteMinority: 1
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-069"
@@ -2086,9 +2693,12 @@ cases:
     title: "Robison v. Female Orphan Asylum of Portland"
     volume: "123"
     page: "702"
+    docket: "103"
+    citation: "123 U.S. 702"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1887"
-    citation: "123 U.S. 702"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-070"
@@ -2096,9 +2706,12 @@ cases:
     title: "Northern Pacific R. Co. v. Mares"
     volume: "123"
     page: "710"
+    docket: "102"
+    citation: "123 U.S. 710"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1887"
-    citation: "123 U.S. 710"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-078"
@@ -2106,9 +2719,12 @@ cases:
     title: "Humiston v. Wood"
     volume: "124"
     page: "012"
+    docket: "83"
+    citation: "124 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1888"
-    citation: "124 U.S. 12"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-081"
@@ -2116,9 +2732,12 @@ cases:
     title: "Hinchman v. Lincoln"
     volume: "124"
     page: "038"
+    docket: "77"
+    citation: "124 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1888"
-    citation: "124 U.S. 38"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-087"
@@ -2126,9 +2745,12 @@ cases:
     title: "Boyd v. Wyly"
     volume: "124"
     page: "098"
+    docket: "113"
+    citation: "124 U.S. 98"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1888"
-    citation: "124 U.S. 98"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-091"
@@ -2136,9 +2758,12 @@ cases:
     title: "Gumbel v. Pitkin"
     volume: "124"
     page: "131"
+    docket: "116"
+    citation: "124 U.S. 131"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1888"
-    citation: "124 U.S. 131"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-105"
@@ -2146,9 +2771,12 @@ cases:
     title: "Searl v. School Dist. No. 2"
     volume: "124"
     page: "197"
+    docket: "117"
+    citation: "124 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1888"
-    citation: "124 U.S. 197"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-107"
@@ -2156,9 +2784,12 @@ cases:
     title: "Sabariego v. Maverick"
     volume: "124"
     page: "261"
+    docket: "67"
+    citation: "124 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1888"
-    citation: "124 U.S. 261"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-112"
@@ -2166,9 +2797,12 @@ cases:
     title: "District of Columbia v. McBlair"
     volume: "124"
     page: "320"
+    docket: "1329"
+    citation: "124 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1888"
-    citation: "124 U.S. 320"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-129"
@@ -2176,9 +2810,12 @@ cases:
     title: "Western Union Telegraph Co. v. Hall"
     volume: "124"
     page: "444"
+    docket: "85"
+    citation: "124 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1888"
-    citation: "124 U.S. 444"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-131"
@@ -2186,9 +2823,12 @@ cases:
     title: "Smith v. Alabama"
     volume: "124"
     page: "465"
+    docket: "1009"
+    citation: "124 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1888"
-    citation: "124 U.S. 465"
+    voteMajority: 7
+    voteMinority: 1
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-136"
@@ -2196,9 +2836,12 @@ cases:
     title: "District of Columbia v. Gallaher"
     volume: "124"
     page: "505"
+    docket: "141"
+    citation: "124 U.S. 505"
     pdfSource: "loc"
     dateDecision: "Monday, February 6, 1888"
-    citation: "124 U.S. 505"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-145"
@@ -2206,9 +2849,12 @@ cases:
     title: "The Strathairly"
     volume: "124"
     page: "558"
+    docket: "154"
+    citation: "124 U.S. 558"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1888"
-    citation: "124 U.S. 558"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-154"
@@ -2216,9 +2862,12 @@ cases:
     title: "Hoboken v. Pennsylvania R. Co."
     volume: "124"
     page: "656"
+    docket: "170"
+    citation: "124 U.S. 656"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1888"
-    citation: "124 U.S. 656"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-164"
@@ -2226,9 +2875,12 @@ cases:
     title: "Bank of Redemption v. Boston"
     volume: "125"
     page: "060"
+    docket: "1324"
+    citation: "125 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1888"
-    citation: "125 U.S. 60"
+    voteMajority: 6
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-168"
@@ -2236,9 +2888,12 @@ cases:
     title: "Weir v. Morden"
     volume: "125"
     page: "098"
+    docket: "182"
+    citation: "125 U.S. 98"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1888"
-    citation: "125 U.S. 98"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-170"
@@ -2246,9 +2901,12 @@ cases:
     title: "Hartranft v. Langfeld"
     volume: "125"
     page: "128"
+    docket: "750"
+    citation: "125 U.S. 128"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1888"
-    citation: "125 U.S. 128"
+    voteMajority: 9
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-187"
@@ -2256,9 +2914,12 @@ cases:
     title: "Bowman v. Chicago &amp; Northwestern R. Co."
     volume: "125"
     page: "465"
+    docket: "798"
+    citation: "125 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1888"
-    citation: "125 U.S. 465"
+    voteMajority: 5
+    voteMinority: 3
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-207"
@@ -2266,9 +2927,12 @@ cases:
     title: "Nutt v. United States"
     volume: "125"
     page: "650"
+    docket: "1380"
+    citation: "125 U.S. 650"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1888"
-    citation: "125 U.S. 650"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-208"
@@ -2276,9 +2940,12 @@ cases:
     title: "United States v. Strong"
     volume: "125"
     page: "656"
+    docket: "1381"
+    citation: "125 U.S. 656"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1888"
-    citation: "125 U.S. 656"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-209"
@@ -2286,9 +2953,12 @@ cases:
     title: "St. Louis, A. &amp; T. H. R. Co. v. Cleveland, C., C., &amp; I. R. Co."
     volume: "125"
     page: "658"
+    docket: "192"
+    citation: "125 U.S. 658"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1888"
-    citation: "125 U.S. 658"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-223"
@@ -2296,9 +2966,12 @@ cases:
     title: "Smith v. Bourbon County"
     volume: "127"
     page: "105"
+    docket: "193"
+    citation: "127 U.S. 105"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1888"
-    citation: "127 U.S. 105"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-225"
@@ -2306,9 +2979,12 @@ cases:
     title: "Marye v. Baltimore &amp; Ohio R. Co."
     volume: "127"
     page: "117"
+    docket: "223"
+    citation: "127 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1888"
-    citation: "127 U.S. 117"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-226"
@@ -2316,9 +2992,12 @@ cases:
     title: "United States v. Irwin"
     volume: "127"
     page: "125"
+    docket: "1384"
+    citation: "127 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1888"
-    citation: "127 U.S. 125"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-239"
@@ -2326,9 +3005,12 @@ cases:
     title: "De Saussure v. Gaillard"
     volume: "127"
     page: "216"
+    docket: "205"
+    citation: "127 U.S. 216"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1888"
-    citation: "127 U.S. 216"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-244"
@@ -2336,9 +3018,12 @@ cases:
     title: "Colton v. Colton"
     volume: "127"
     page: "300"
+    docket: "228"
+    citation: "127 U.S. 300"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1888"
-    citation: "127 U.S. 300"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-268"
@@ -2346,9 +3031,12 @@ cases:
     title: "Jenkins v. International Bank of Chicago"
     volume: "127"
     page: "484"
+    docket: "254"
+    citation: "127 U.S. 484"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1888"
-    citation: "127 U.S. 484"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-271"
@@ -2356,9 +3044,12 @@ cases:
     title: "Stuart v. Gay"
     volume: "127"
     page: "518"
+    docket: "255"
+    citation: "127 U.S. 518"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1888"
-    citation: "127 U.S. 518"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1887-272"
@@ -2366,9 +3057,12 @@ cases:
     title: "Easton v. German-American Bank"
     volume: "127"
     page: "532"
+    docket: "291"
+    citation: "127 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1888"
-    citation: "127 U.S. 532"
+    voteMajority: 8
+    voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
 ---

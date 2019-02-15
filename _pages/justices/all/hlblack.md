@@ -8,9 +8,12 @@ cases:
     title: "McNair v. Knott"
     volume: "302"
     page: "369"
+    docket: "32"
+    citation: "302 U.S. 369"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1937"
-    citation: "302 U.S. 369"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-023"
@@ -18,9 +21,12 @@ cases:
     title: "FTC v. Standard Education Soc."
     volume: "302"
     page: "112"
+    docket: "14"
+    citation: "302 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1937"
-    citation: "302 U.S. 112"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-051"
@@ -28,9 +34,12 @@ cases:
     title: "Zerbst v. Kidwell"
     volume: "304"
     page: "359"
+    docket: "782"
+    citation: "304 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1938"
-    citation: "304 U.S. 359"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-054"
@@ -38,9 +47,12 @@ cases:
     title: "Arkansas Fuel Oil Co. v. Louisiana ex rel. Muslow"
     volume: "304"
     page: "197"
+    docket: "760"
+    citation: "304 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1938"
-    citation: "304 U.S. 197"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-070"
@@ -48,9 +60,12 @@ cases:
     title: "United States v. Stevens"
     volume: "302"
     page: "623"
+    docket: "143"
+    citation: "302 U.S. 623"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1938"
-    citation: "302 U.S. 623"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-085"
@@ -58,9 +73,12 @@ cases:
     title: "United States v. Jackson"
     volume: "302"
     page: "628"
+    docket: "199"
+    citation: "302 U.S. 628"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1938"
-    citation: "302 U.S. 628"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-099"
@@ -68,9 +86,12 @@ cases:
     title: "Maty v. Grasselli Chemical Co."
     volume: "303"
     page: "197"
+    docket: "378"
+    citation: "303 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1938"
-    citation: "303 U.S. 197"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-119"
@@ -78,9 +99,12 @@ cases:
     title: "United States v. Patryas"
     volume: "303"
     page: "341"
+    docket: "445"
+    citation: "303 U.S. 341"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1938"
-    citation: "303 U.S. 341"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-138"
@@ -88,9 +112,12 @@ cases:
     title: "United States v. Hendler"
     volume: "303"
     page: "564"
+    docket: "563"
+    citation: "303 U.S. 564"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1938"
-    citation: "303 U.S. 564"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-139"
@@ -98,9 +125,12 @@ cases:
     title: "Bates Mfg. Co. v. United States"
     volume: "303"
     page: "567"
+    docket: "647"
+    citation: "303 U.S. 567"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1938"
-    citation: "303 U.S. 567"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-145"
@@ -108,9 +138,12 @@ cases:
     title: "Foster v. United States"
     volume: "303"
     page: "118"
+    docket: "189"
+    citation: "303 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1938"
-    citation: "303 U.S. 118"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-147"
@@ -118,9 +151,12 @@ cases:
     title: "United States v. Wurts"
     volume: "303"
     page: "414"
+    docket: "499"
+    citation: "303 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1938"
-    citation: "303 U.S. 414"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-152"
@@ -128,9 +164,12 @@ cases:
     title: "United States v. McGowan"
     volume: "302"
     page: "535"
+    docket: "138"
+    citation: "302 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1938"
-    citation: "302 U.S. 535"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-153"
@@ -138,9 +177,12 @@ cases:
     title: "United States v. Raynor"
     volume: "302"
     page: "540"
+    docket: "146"
+    citation: "302 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1938"
-    citation: "302 U.S. 540"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1937-168"
@@ -148,9 +190,12 @@ cases:
     title: "Johnson v. Zerbst"
     volume: "304"
     page: "458"
+    docket: "699"
+    citation: "304 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1938"
-    citation: "304 U.S. 458"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-002"
@@ -158,9 +203,12 @@ cases:
     title: "Inter-Island Steam Nav. Co. v. Hawaii"
     volume: "305"
     page: "306"
+    docket: "94"
+    citation: "305 U.S. 306"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1938"
-    citation: "305 U.S. 306"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-005"
@@ -168,9 +216,12 @@ cases:
     title: "Harris v. Avery Brundage Co."
     volume: "305"
     page: "160"
+    docket: "53"
+    citation: "305 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1938"
-    citation: "305 U.S. 160"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-030"
@@ -178,9 +229,12 @@ cases:
     title: "Helvering v. Winmill"
     volume: "305"
     page: "079"
+    docket: "11"
+    citation: "305 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1938"
-    citation: "305 U.S. 79"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-031"
@@ -188,9 +242,12 @@ cases:
     title: "Hines v. Lowrey"
     volume: "305"
     page: "085"
+    docket: "24"
+    citation: "305 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1938"
-    citation: "305 U.S. 85"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-034"
@@ -198,9 +255,12 @@ cases:
     title: "Inland Steel Co. v. United States"
     volume: "306"
     page: "153"
+    docket: "227"
+    citation: "306 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1939"
-    citation: "306 U.S. 153"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-042"
@@ -208,9 +268,12 @@ cases:
     title: "United States v. Midstate Horticultural Co."
     volume: "306"
     page: "161"
+    docket: "286"
+    citation: "306 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1939"
-    citation: "306 U.S. 161"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-048"
@@ -218,9 +281,12 @@ cases:
     title: "Guaranty Trust Co. v. Henwood"
     volume: "307"
     page: "247"
+    docket: "384"
+    citation: "307 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1939"
-    citation: "307 U.S. 247"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-060"
@@ -228,9 +294,12 @@ cases:
     title: "McCrone v. United States"
     volume: "307"
     page: "061"
+    docket: "660"
+    citation: "307 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1939"
-    citation: "307 U.S. 61"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-063"
@@ -238,9 +307,12 @@ cases:
     title: "Bonet v. Yabucoa Sugar Co."
     volume: "306"
     page: "505"
+    docket: "498"
+    citation: "306 U.S. 505"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1939"
-    citation: "306 U.S. 505"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-064"
@@ -248,9 +320,12 @@ cases:
     title: "State Tax Comm&apos;n v. Van Cott"
     volume: "306"
     page: "511"
+    docket: "491"
+    citation: "306 U.S. 511"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1939"
-    citation: "306 U.S. 511"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-073"
@@ -258,9 +333,12 @@ cases:
     title: "United States v. Jacobs"
     volume: "306"
     page: "363"
+    docket: "391"
+    citation: "306 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1939"
-    citation: "306 U.S. 363"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-085"
@@ -268,9 +346,12 @@ cases:
     title: "Bethlehem Steel Co. v. Zurich Gen. Accident &amp; Liability Ins. Co."
     volume: "307"
     page: "265"
+    docket: "590"
+    citation: "307 U.S. 265"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1939"
-    citation: "307 U.S. 265"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-105"
@@ -278,9 +359,12 @@ cases:
     title: "Pierre v. Louisiana"
     volume: "306"
     page: "354"
+    docket: "142"
+    citation: "306 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1939"
-    citation: "306 U.S. 354"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-127"
@@ -288,9 +372,12 @@ cases:
     title: "United States v. McClure"
     volume: "305"
     page: "472"
+    docket: "154"
+    citation: "305 U.S. 472"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1939"
-    citation: "305 U.S. 472"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-128"
@@ -298,9 +385,12 @@ cases:
     title: "Chippewa Indians of Minn. v. United States"
     volume: "305"
     page: "479"
+    docket: "244"
+    citation: "305 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1939"
-    citation: "305 U.S. 479"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-129"
@@ -308,9 +398,12 @@ cases:
     title: "Lyon v. Mutual Benefit Health &amp; Accident Assn."
     volume: "305"
     page: "484"
+    docket: "189"
+    citation: "305 U.S. 484"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1939"
-    citation: "305 U.S. 484"
+    voteMajority: 5
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1938-134"
@@ -318,9 +411,12 @@ cases:
     title: "United States Trust Co. v. Helvering"
     volume: "307"
     page: "057"
+    docket: "453"
+    citation: "307 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1939"
-    citation: "307 U.S. 57"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-010"
@@ -328,9 +424,12 @@ cases:
     title: "Boteler v. Ingels"
     volume: "308"
     page: "057"
+    docket: "15"
+    citation: "308 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1939"
-    citation: "308 U.S. 57"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-016"
@@ -338,9 +437,12 @@ cases:
     title: "Helvering v. F. &amp; R. Lazarus &amp; Co."
     volume: "308"
     page: "252"
+    docket: "56"
+    citation: "308 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1939"
-    citation: "308 U.S. 252"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-026"
@@ -348,9 +450,12 @@ cases:
     title: "United States v. Sponenbarger"
     volume: "308"
     page: "256"
+    docket: "72"
+    citation: "308 U.S. 256"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1939"
-    citation: "308 U.S. 256"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-034"
@@ -358,9 +463,12 @@ cases:
     title: "United States v. Glenn L. Martin Co."
     volume: "308"
     page: "062"
+    docket: "30"
+    citation: "308 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1939"
-    citation: "308 U.S. 62"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-036"
@@ -368,9 +476,12 @@ cases:
     title: "Avery v. Alabama"
     volume: "308"
     page: "444"
+    docket: "124"
+    citation: "308 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1940"
-    citation: "308 U.S. 444"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-039"
@@ -378,9 +489,12 @@ cases:
     title: "Thompson v. Magnolia Petroleum Co."
     volume: "309"
     page: "478"
+    docket: "481"
+    citation: "309 U.S. 478"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1940"
-    citation: "309 U.S. 478"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-044"
@@ -388,9 +502,12 @@ cases:
     title: "Perkins v. Lukens Steel Co."
     volume: "310"
     page: "113"
+    docket: "593"
+    citation: "310 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1940"
-    citation: "310 U.S. 113"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-052"
@@ -398,9 +515,12 @@ cases:
     title: "NLRB v. Waterman S. S. Corp."
     volume: "309"
     page: "206"
+    docket: "193"
+    citation: "309 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1940"
-    citation: "309 U.S. 206"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-061"
@@ -408,9 +528,12 @@ cases:
     title: "United States v. Chicago Heights Trucking Co."
     volume: "310"
     page: "344"
+    docket: "724"
+    citation: "310 U.S. 344"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1940"
-    citation: "310 U.S. 344"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-080"
@@ -418,9 +541,12 @@ cases:
     title: "NLRB v. Bradford Dyeing Assn."
     volume: "310"
     page: "318"
+    docket: "588"
+    citation: "310 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1940"
-    citation: "310 U.S. 318"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-095"
@@ -428,9 +554,12 @@ cases:
     title: "Kalb v. Feuerstein"
     volume: "308"
     page: "433"
+    docket: "120"
+    citation: "308 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1940"
-    citation: "308 U.S. 433"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-096"
@@ -438,9 +567,12 @@ cases:
     title: "NLRB v. Falk Corp."
     volume: "308"
     page: "453"
+    docket: "460"
+    citation: "308 U.S. 453"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1940"
-    citation: "308 U.S. 453"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-123"
@@ -448,9 +580,12 @@ cases:
     title: "White v. Texas"
     volume: "310"
     page: "530"
+    docket: "87"
+    citation: "310 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1940"
-    citation: "310 U.S. 530"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-127"
@@ -458,9 +593,12 @@ cases:
     title: "United States v. City and County of San Francisco"
     volume: "310"
     page: "016"
+    docket: "587"
+    citation: "310 U.S. 16"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1940"
-    citation: "310 U.S. 16"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-131"
@@ -468,9 +606,12 @@ cases:
     title: "Kersh Lake Drainage Dist. v. Johnson"
     volume: "309"
     page: "485"
+    docket: "595"
+    citation: "309 U.S. 485"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1940"
-    citation: "309 U.S. 485"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1939-138"
@@ -478,9 +619,12 @@ cases:
     title: "Chambers v. Florida"
     volume: "309"
     page: "227"
+    docket: "195"
+    citation: "309 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1940"
-    citation: "309 U.S. 227"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-014"
@@ -488,9 +632,12 @@ cases:
     title: "Milk Wagon Drivers v. Lake Valley Farm Products, Inc."
     volume: "311"
     page: "091"
+    docket: "20"
+    citation: "311 U.S. 91"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1940"
-    citation: "311 U.S. 91"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-017"
@@ -498,9 +645,12 @@ cases:
     title: "Crane-Johnson Co. v. Helvering"
     volume: "311"
     page: "054"
+    docket: "8"
+    citation: "311 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 12, 1940"
-    citation: "311 U.S. 54"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-020"
@@ -508,9 +658,12 @@ cases:
     title: "Helvering v. Northwest Steel Rolling Mills, Inc."
     volume: "311"
     page: "046"
+    docket: "121"
+    citation: "311 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 12, 1940"
-    citation: "311 U.S. 46"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-023"
@@ -518,9 +671,12 @@ cases:
     title: "Helvering v. Oregon Mut. Life Ins. Co."
     volume: "311"
     page: "267"
+    docket: "564"
+    citation: "311 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1940"
-    citation: "311 U.S. 267"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-024"
@@ -528,9 +684,12 @@ cases:
     title: "Helvering v. Pan-American Life Ins. Co."
     volume: "311"
     page: "272"
+    docket: "264"
+    citation: "311 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1940"
-    citation: "311 U.S. 272"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-043"
@@ -538,9 +697,12 @@ cases:
     title: "Smith v. Texas"
     volume: "311"
     page: "128"
+    docket: "33"
+    citation: "311 U.S. 128"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1940"
-    citation: "311 U.S. 128"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-050"
@@ -548,9 +710,12 @@ cases:
     title: "Voeller v. Neilston Warehouse Co."
     volume: "311"
     page: "531"
+    docket: "97"
+    citation: "311 U.S. 531"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1941"
-    citation: "311 U.S. 531"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-064"
@@ -558,9 +723,12 @@ cases:
     title: "Hines v. Davidowitz"
     volume: "312"
     page: "052"
+    docket: "22"
+    citation: "312 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1941"
-    citation: "312 U.S. 52"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-072"
@@ -568,9 +736,12 @@ cases:
     title: "Public Serv. Comm&apos;n of Mo. v. Brashear Freight Lines, Inc."
     volume: "312"
     page: "621"
+    docket: "549"
+    citation: "312 U.S. 621"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1941"
-    citation: "312 U.S. 621"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-074"
@@ -578,9 +749,12 @@ cases:
     title: "Armour &amp; Co. v. Alton R. Co."
     volume: "312"
     page: "195"
+    docket: "293"
+    citation: "312 U.S. 195"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1941"
-    citation: "312 U.S. 195"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-078"
@@ -588,9 +762,12 @@ cases:
     title: "Arkansas Corporation Comm&apos;n v. Thompson"
     volume: "313"
     page: "132"
+    docket: "715"
+    citation: "313 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1941"
-    citation: "313 U.S. 132"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-101"
@@ -598,9 +775,12 @@ cases:
     title: "Moore v. Illinois Central R. Co."
     volume: "312"
     page: "630"
+    docket: "550"
+    citation: "312 U.S. 630"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1941"
-    citation: "312 U.S. 630"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-105"
@@ -608,9 +788,12 @@ cases:
     title: "Helvering v. Richter"
     volume: "312"
     page: "561"
+    docket: "516"
+    citation: "312 U.S. 561"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1941"
-    citation: "312 U.S. 561"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-106"
@@ -618,9 +801,12 @@ cases:
     title: "Hormel v. Helvering"
     volume: "312"
     page: "552"
+    docket: "257"
+    citation: "312 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1941"
-    citation: "312 U.S. 552"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-122"
@@ -628,9 +814,12 @@ cases:
     title: "City Bank Farmers Trust Co. v. Helvering"
     volume: "313"
     page: "121"
+    docket: "408"
+    citation: "313 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1941"
-    citation: "313 U.S. 121"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-123"
@@ -638,9 +827,12 @@ cases:
     title: "United States v. Pyne"
     volume: "313"
     page: "127"
+    docket: "683"
+    citation: "313 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1941"
-    citation: "313 U.S. 127"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-135"
@@ -648,9 +840,12 @@ cases:
     title: "Watson v. Buck"
     volume: "313"
     page: "387"
+    docket: "610"
+    citation: "313 U.S. 387"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1941"
-    citation: "313 U.S. 387"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-138"
@@ -658,9 +853,12 @@ cases:
     title: "Marsh v. Buck"
     volume: "313"
     page: "406"
+    docket: "312"
+    citation: "313 U.S. 406"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1941"
-    citation: "313 U.S. 406"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-139"
@@ -668,9 +866,12 @@ cases:
     title: "Fashion Originators&apos; Guild of America, Inc. v. FTC"
     volume: "312"
     page: "457"
+    docket: "537"
+    citation: "312 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1941"
-    citation: "312 U.S. 457"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-140"
@@ -678,9 +879,12 @@ cases:
     title: "Millinery Creator&apos;s Guild, Inc. v. FTC"
     volume: "312"
     page: "469"
+    docket: "251"
+    citation: "312 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1941"
-    citation: "312 U.S. 469"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-154"
@@ -688,9 +892,12 @@ cases:
     title: "Berry v. United States"
     volume: "312"
     page: "450"
+    docket: "336"
+    citation: "312 U.S. 450"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1941"
-    citation: "312 U.S. 450"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-157"
@@ -698,9 +905,12 @@ cases:
     title: "Smith v. O&apos;Grady"
     volume: "312"
     page: "329"
+    docket: "364"
+    citation: "312 U.S. 329"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1941"
-    citation: "312 U.S. 329"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-164"
@@ -708,9 +918,12 @@ cases:
     title: "Superior Bath House Co. v. McCarroll"
     volume: "312"
     page: "176"
+    docket: "180"
+    citation: "312 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1941"
-    citation: "312 U.S. 176"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1940-165"
@@ -718,9 +931,12 @@ cases:
     title: "Huron Holding Corp. v. Lincoln Mine Operating Co."
     volume: "312"
     page: "183"
+    docket: "212"
+    citation: "312 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1941"
-    citation: "312 U.S. 183"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-004"
@@ -728,9 +944,12 @@ cases:
     title: "Bridges v. California"
     volume: "314"
     page: "252"
+    docket: "1"
+    citation: "314 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1941"
-    citation: "314 U.S. 252"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-011"
@@ -738,9 +957,12 @@ cases:
     title: "Parker v. Motor Boat Sales, Inc."
     volume: "314"
     page: "244"
+    docket: "46"
+    citation: "314 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1941"
-    citation: "314 U.S. 244"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-039"
@@ -748,9 +970,12 @@ cases:
     title: "United States v. Bethlehem Steel Corp."
     volume: "315"
     page: "289"
+    docket: "8"
+    citation: "315 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Monday, February 16, 1942"
-    citation: "315 U.S. 289"
+    voteMajority: 5
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-047"
@@ -758,9 +983,12 @@ cases:
     title: "ICC v. Railway Labor Executives Assn."
     volume: "315"
     page: "373"
+    docket: "223"
+    citation: "315 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1942"
-    citation: "315 U.S. 373"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-053"
@@ -768,9 +996,12 @@ cases:
     title: "Purcell v. United States"
     volume: "315"
     page: "381"
+    docket: "803"
+    citation: "315 U.S. 381"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1942"
-    citation: "315 U.S. 381"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-082"
@@ -778,9 +1009,12 @@ cases:
     title: "Wright v. Logan"
     volume: "315"
     page: "139"
+    docket: "229"
+    citation: "315 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1942"
-    citation: "315 U.S. 139"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-083"
@@ -788,9 +1022,12 @@ cases:
     title: "Columbia River Packers Assn., Inc. v. Hinton"
     volume: "315"
     page: "143"
+    docket: "142"
+    citation: "315 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1942"
-    citation: "315 U.S. 143"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-090"
@@ -798,9 +1035,12 @@ cases:
     title: "United States v. Ragen"
     volume: "314"
     page: "513"
+    docket: "54"
+    citation: "314 U.S. 513"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1942"
-    citation: "314 U.S. 513"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-096"
@@ -808,9 +1048,12 @@ cases:
     title: "Milcor Steel Co. v. George A. Fuller Co."
     volume: "316"
     page: "143"
+    docket: "720"
+    citation: "316 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1942"
-    citation: "316 U.S. 143"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-116"
@@ -818,9 +1061,12 @@ cases:
     title: "Standard Oil Co. of Cal. v. Johnson"
     volume: "316"
     page: "481"
+    docket: "1125"
+    citation: "316 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1942"
-    citation: "316 U.S. 481"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-117"
@@ -828,9 +1074,12 @@ cases:
     title: "Query v. United States"
     volume: "316"
     page: "486"
+    docket: "619"
+    citation: "316 U.S. 486"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1942"
-    citation: "316 U.S. 486"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-122"
@@ -838,9 +1087,12 @@ cases:
     title: "Cochran v. Kansas"
     volume: "316"
     page: "255"
+    docket: "510"
+    citation: "316 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1942"
-    citation: "316 U.S. 255"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-132"
@@ -848,9 +1100,12 @@ cases:
     title: "FTC v. Raladam Co."
     volume: "316"
     page: "149"
+    docket: "826"
+    citation: "316 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1942"
-    citation: "316 U.S. 149"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-138"
@@ -858,9 +1113,12 @@ cases:
     title: "Helvering v. Safe Deposit &amp; Trust Co. of Baltimore"
     volume: "316"
     page: "056"
+    docket: "600"
+    citation: "316 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1942"
-    citation: "316 U.S. 56"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-142"
@@ -868,9 +1126,12 @@ cases:
     title: "Tulee v. Washington"
     volume: "315"
     page: "681"
+    docket: "318"
+    citation: "315 U.S. 681"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1942"
-    citation: "315 U.S. 681"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-145"
@@ -878,9 +1139,12 @@ cases:
     title: "Spreckels v. Commissioner"
     volume: "315"
     page: "626"
+    docket: "581"
+    citation: "315 U.S. 626"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1942"
-    citation: "315 U.S. 626"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1941-159"
@@ -888,9 +1152,12 @@ cases:
     title: "Duncan v. Thompson"
     volume: "315"
     page: "001"
+    docket: "78"
+    citation: "315 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1942"
-    citation: "315 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-004"
@@ -898,9 +1165,12 @@ cases:
     title: "United States v. Rice"
     volume: "317"
     page: "061"
+    docket: "31"
+    citation: "317 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1942"
-    citation: "317 U.S. 61"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-008"
@@ -908,9 +1178,12 @@ cases:
     title: "Garrett v. Moore-McCormack Co."
     volume: "317"
     page: "239"
+    docket: "67"
+    citation: "317 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1942"
-    citation: "317 U.S. 239"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-009"
@@ -918,9 +1191,12 @@ cases:
     title: "Davis v. Department of Labor and Industries of Wash."
     volume: "317"
     page: "249"
+    docket: "86"
+    citation: "317 U.S. 249"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1942"
-    citation: "317 U.S. 249"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-024"
@@ -928,9 +1204,12 @@ cases:
     title: "Ex parte Kawato"
     volume: "317"
     page: "069"
+    docket: "10 Orig."
+    citation: "317 U.S. 69"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1942"
-    citation: "317 U.S. 69"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-032"
@@ -938,9 +1217,12 @@ cases:
     title: "United States ex rel. Ostrager v. New Orleans Chapter, Associated Gen. Contractors, Inc."
     volume: "317"
     page: "562"
+    docket: "236"
+    citation: "317 U.S. 562"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1943"
-    citation: "317 U.S. 562"
+    voteMajority: 6
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-037"
@@ -948,9 +1230,12 @@ cases:
     title: "Standard Dredging Corp. v. Murphy"
     volume: "319"
     page: "306"
+    docket: "722"
+    citation: "319 U.S. 306"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1943"
-    citation: "319 U.S. 306"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-038"
@@ -958,9 +1243,12 @@ cases:
     title: "Burford v. Sun Oil Co."
     volume: "319"
     page: "315"
+    docket: "495"
+    citation: "319 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1943"
-    citation: "319 U.S. 315"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-043"
@@ -968,9 +1256,12 @@ cases:
     title: "United States ex rel. Marcus v. Hess"
     volume: "317"
     page: "537"
+    docket: "173"
+    citation: "317 U.S. 537"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1943"
-    citation: "317 U.S. 537"
+    voteMajority: 6
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-057"
@@ -978,9 +1269,12 @@ cases:
     title: "Clyde-Mallory Lines v. The Eglantine"
     volume: "317"
     page: "395"
+    docket: "265"
+    citation: "317 U.S. 395"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1943"
-    citation: "317 U.S. 395"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-059"
@@ -988,9 +1282,12 @@ cases:
     title: "Oklahoma Tax Comm&apos;n v. United States"
     volume: "319"
     page: "598"
+    docket: "623"
+    citation: "319 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1943"
-    citation: "319 U.S. 598"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-073"
@@ -998,9 +1295,12 @@ cases:
     title: "Martin v. City of Struthers"
     volume: "319"
     page: "141"
+    docket: "238"
+    citation: "319 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1943"
-    citation: "319 U.S. 141"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-104"
@@ -1008,9 +1308,12 @@ cases:
     title: "Creek Nation v. United States"
     volume: "318"
     page: "629"
+    docket: "321"
+    citation: "318 U.S. 629"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1943"
-    citation: "318 U.S. 629"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-112"
@@ -1018,9 +1321,12 @@ cases:
     title: "Tiller v. Atlantic Coast Line R. Co."
     volume: "318"
     page: "054"
+    docket: "296"
+    citation: "318 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1943"
-    citation: "318 U.S. 54"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-122"
@@ -1028,9 +1334,12 @@ cases:
     title: "Smith v. Shaughnessy"
     volume: "318"
     page: "176"
+    docket: "429"
+    citation: "318 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1943"
-    citation: "318 U.S. 176"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-123"
@@ -1038,9 +1347,12 @@ cases:
     title: "Robinette v. Helvering"
     volume: "318"
     page: "184"
+    docket: "499"
+    citation: "318 U.S. 184"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1943"
-    citation: "318 U.S. 184"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-135"
@@ -1048,9 +1360,12 @@ cases:
     title: "County of Mahnomen v. United States"
     volume: "319"
     page: "474"
+    docket: "684"
+    citation: "319 U.S. 474"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1943"
-    citation: "319 U.S. 474"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-142"
@@ -1058,9 +1373,12 @@ cases:
     title: "Korematsu v. United States"
     volume: "319"
     page: "432"
+    docket: "912"
+    citation: "319 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1943"
-    citation: "319 U.S. 432"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-146"
@@ -1068,9 +1386,12 @@ cases:
     title: "Adams v. United States"
     volume: "319"
     page: "312"
+    docket: "889"
+    citation: "319 U.S. 312"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1943"
-    citation: "319 U.S. 312"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-147"
@@ -1078,9 +1399,12 @@ cases:
     title: "Hastings v. Selby Oil &amp; Gas Co."
     volume: "319"
     page: "348"
+    docket: "528"
+    citation: "319 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1943"
-    citation: "319 U.S. 348"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-156"
@@ -1088,9 +1412,12 @@ cases:
     title: "United States v. Lepowitch"
     volume: "318"
     page: "702"
+    docket: "629"
+    citation: "318 U.S. 702"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1943"
-    citation: "318 U.S. 702"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-159"
@@ -1098,9 +1425,12 @@ cases:
     title: "Jamison v. Texas"
     volume: "318"
     page: "413"
+    docket: "558"
+    citation: "318 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1943"
-    citation: "318 U.S. 413"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1942-164"
@@ -1108,9 +1438,12 @@ cases:
     title: "Hoopeston Canning Co. v. Cullen"
     volume: "318"
     page: "313"
+    docket: "358"
+    citation: "318 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1943"
-    citation: "318 U.S. 313"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-002"
@@ -1118,9 +1451,12 @@ cases:
     title: "Atlantic Refining Co. v. Moller"
     volume: "320"
     page: "462"
+    docket: "56"
+    citation: "320 U.S. 462"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1943"
-    citation: "320 U.S. 462"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-017"
@@ -1128,9 +1464,12 @@ cases:
     title: "Commissioner v. Heininger"
     volume: "320"
     page: "467"
+    docket: "63"
+    citation: "320 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1943"
-    citation: "320 U.S. 467"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-023"
@@ -1138,9 +1477,12 @@ cases:
     title: "Bell v. Preferred Life Assurance Soc."
     volume: "320"
     page: "238"
+    docket: "17"
+    citation: "320 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1943"
-    citation: "320 U.S. 238"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-027"
@@ -1148,9 +1490,12 @@ cases:
     title: "Roberts v. United States"
     volume: "320"
     page: "264"
+    docket: "19"
+    citation: "320 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, November 22, 1943"
-    citation: "320 U.S. 264"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-038"
@@ -1158,9 +1503,12 @@ cases:
     title: "Falbo v. United States"
     volume: "320"
     page: "549"
+    docket: "73"
+    citation: "320 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1944"
-    citation: "320 U.S. 549"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-039"
@@ -1168,9 +1516,12 @@ cases:
     title: "United States v. South-Eastern Underwriters Assn."
     volume: "322"
     page: "533"
+    docket: "354"
+    citation: "322 U.S. 533"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1944"
-    citation: "322 U.S. 533"
+    voteMajority: 4
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-040"
@@ -1178,9 +1529,12 @@ cases:
     title: "Hazel-Atlas Glass Co. v. Hartford-Empire Co."
     volume: "322"
     page: "238"
+    docket: "398"
+    citation: "322 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1944"
-    citation: "322 U.S. 238"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-050"
@@ -1188,9 +1542,12 @@ cases:
     title: "United States v. Laudani"
     volume: "320"
     page: "543"
+    docket: "71"
+    citation: "320 U.S. 543"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1944"
-    citation: "320 U.S. 543"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-052"
@@ -1198,9 +1555,12 @@ cases:
     title: "Cornell S. S. Co. v. United States"
     volume: "321"
     page: "634"
+    docket: "384"
+    citation: "321 U.S. 634"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1944"
-    citation: "321 U.S. 634"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-070"
@@ -1208,9 +1568,12 @@ cases:
     title: "Boston Tow Boat Co. v. United States"
     volume: "321"
     page: "632"
+    docket: "385"
+    citation: "321 U.S. 632"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1944"
-    citation: "321 U.S. 632"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-086"
@@ -1218,9 +1581,12 @@ cases:
     title: "Franks Bros. Co. v. NLRB"
     volume: "321"
     page: "702"
+    docket: "521"
+    citation: "321 U.S. 702"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1944"
-    citation: "321 U.S. 702"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-098"
@@ -1228,9 +1594,12 @@ cases:
     title: "Walton v. Southern Package Corp."
     volume: "320"
     page: "540"
+    docket: "159"
+    citation: "320 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1944"
-    citation: "320 U.S. 540"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-102"
@@ -1238,9 +1607,12 @@ cases:
     title: "Shawkee Mfg. Co. v. Hartford-Empire Co."
     volume: "322"
     page: "271"
+    docket: "423"
+    citation: "322 U.S. 271"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1944"
-    citation: "322 U.S. 271"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-108"
@@ -1248,9 +1620,12 @@ cases:
     title: "B. F. Goodrich Co. v. United States"
     volume: "321"
     page: "126"
+    docket: "158"
+    citation: "321 U.S. 126"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1944"
-    citation: "321 U.S. 126"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-121"
@@ -1258,9 +1633,12 @@ cases:
     title: "Keefe v. Clark"
     volume: "322"
     page: "393"
+    docket: "634"
+    citation: "322 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1944"
-    citation: "322 U.S. 393"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-129"
@@ -1268,9 +1646,12 @@ cases:
     title: "Ashcraft v. Tennessee"
     volume: "322"
     page: "143"
+    docket: "391"
+    citation: "322 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1944"
-    citation: "322 U.S. 143"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1943-137"
@@ -1278,9 +1659,12 @@ cases:
     title: "Johnson v. Yellow Cab Transit Co."
     volume: "321"
     page: "383"
+    docket: "447"
+    citation: "321 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1944"
-    citation: "321 U.S. 383"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-009"
@@ -1288,9 +1672,12 @@ cases:
     title: "Wallace Corp. v. NLRB"
     volume: "323"
     page: "248"
+    docket: "66"
+    citation: "323 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1944"
-    citation: "323 U.S. 248"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-018"
@@ -1298,9 +1685,12 @@ cases:
     title: "Korematsu v. United States"
     volume: "323"
     page: "214"
+    docket: "22"
+    citation: "323 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1944"
-    citation: "323 U.S. 214"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-043"
@@ -1308,9 +1698,12 @@ cases:
     title: "Rice v. Olson"
     volume: "324"
     page: "786"
+    docket: "391"
+    citation: "324 U.S. 786"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1945"
-    citation: "324 U.S. 786"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-047"
@@ -1318,9 +1711,12 @@ cases:
     title: "Robinson v. United States"
     volume: "324"
     page: "282"
+    docket: "514"
+    citation: "324 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1945"
-    citation: "324 U.S. 282"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-053"
@@ -1328,9 +1724,12 @@ cases:
     title: "Blair v. Baltimore &amp; Ohio R. Co."
     volume: "323"
     page: "600"
+    docket: "265"
+    citation: "323 U.S. 600"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1945"
-    citation: "323 U.S. 600"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-054"
@@ -1338,9 +1737,12 @@ cases:
     title: "Weiler v. United States"
     volume: "323"
     page: "606"
+    docket: "340"
+    citation: "323 U.S. 606"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1945"
-    citation: "323 U.S. 606"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-057"
@@ -1348,9 +1750,12 @@ cases:
     title: "National Metropolitan Bank v. United States"
     volume: "323"
     page: "454"
+    docket: "161"
+    citation: "323 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1945"
-    citation: "323 U.S. 454"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-075"
@@ -1358,9 +1763,12 @@ cases:
     title: "United States v. Commodore Park, Inc."
     volume: "324"
     page: "386"
+    docket: "495"
+    citation: "324 U.S. 386"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1945"
-    citation: "324 U.S. 386"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-093"
@@ -1368,9 +1776,12 @@ cases:
     title: "North Carolina v. United States"
     volume: "325"
     page: "507"
+    docket: "560"
+    citation: "325 U.S. 507"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1945"
-    citation: "325 U.S. 507"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-094"
@@ -1378,9 +1789,12 @@ cases:
     title: "Alabama v. United States"
     volume: "325"
     page: "535"
+    docket: "574"
+    citation: "325 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1945"
-    citation: "325 U.S. 535"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-095"
@@ -1388,9 +1802,12 @@ cases:
     title: "United States v. Capital Transit Co."
     volume: "325"
     page: "357"
+    docket: "663"
+    citation: "325 U.S. 357"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1945"
-    citation: "325 U.S. 357"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-097"
@@ -1398,9 +1815,12 @@ cases:
     title: "United States v. Pennsylvania R. Co."
     volume: "323"
     page: "612"
+    docket: "47"
+    citation: "323 U.S. 612"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1945"
-    citation: "323 U.S. 612"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-098"
@@ -1408,9 +1828,12 @@ cases:
     title: "Tiller v. Atlantic Coast Line R. Co."
     volume: "323"
     page: "574"
+    docket: "335"
+    citation: "323 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1945"
-    citation: "323 U.S. 574"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-099"
@@ -1418,9 +1841,12 @@ cases:
     title: "Associated Press v. United States"
     volume: "326"
     page: "001"
+    docket: "57"
+    citation: "326 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1945"
-    citation: "326 U.S. 1"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-102"
@@ -1428,9 +1854,12 @@ cases:
     title: "Allen Bradley Co. v. Electrical Workers"
     volume: "325"
     page: "797"
+    docket: "702"
+    citation: "325 U.S. 797"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1945"
-    citation: "325 U.S. 797"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-103"
@@ -1438,9 +1867,12 @@ cases:
     title: "Hunt v. Crumboch"
     volume: "325"
     page: "821"
+    docket: "570"
+    citation: "325 U.S. 821"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1945"
-    citation: "325 U.S. 821"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-106"
@@ -1448,9 +1880,12 @@ cases:
     title: "Hill v. Florida ex rel. Watson"
     volume: "325"
     page: "538"
+    docket: "811"
+    citation: "325 U.S. 538"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1945"
-    citation: "325 U.S. 538"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-120"
@@ -1458,9 +1893,12 @@ cases:
     title: "Young v. Higbee Co."
     volume: "324"
     page: "204"
+    docket: "342"
+    citation: "324 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1945"
-    citation: "324 U.S. 204"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-137"
@@ -1468,9 +1906,12 @@ cases:
     title: "Commissioner v. Court Holding Co."
     volume: "324"
     page: "331"
+    docket: "581"
+    citation: "324 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1945"
-    citation: "324 U.S. 331"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1944-158"
@@ -1478,9 +1919,12 @@ cases:
     title: "United States v. Frankfort Distilleries, Inc."
     volume: "324"
     page: "293"
+    docket: "523"
+    citation: "324 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1945"
-    citation: "324 U.S. 293"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-008"
@@ -1488,9 +1932,12 @@ cases:
     title: "Levers v. Anderson"
     volume: "326"
     page: "219"
+    docket: "51"
+    citation: "326 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1945"
-    citation: "326 U.S. 219"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-010"
@@ -1498,9 +1945,12 @@ cases:
     title: "Mine Safety Appliances Co. v. Forrestal"
     volume: "326"
     page: "371"
+    docket: "71"
+    citation: "326 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1945"
-    citation: "326 U.S. 371"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-014"
@@ -1508,9 +1958,12 @@ cases:
     title: "Glass City Bank v. United States"
     volume: "326"
     page: "265"
+    docket: "50"
+    citation: "326 U.S. 265"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 13, 1945"
-    citation: "326 U.S. 265"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-016"
@@ -1518,9 +1971,12 @@ cases:
     title: "In re Michael"
     volume: "326"
     page: "224"
+    docket: "38"
+    citation: "326 U.S. 224"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1945"
-    citation: "326 U.S. 224"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-017"
@@ -1528,9 +1984,12 @@ cases:
     title: "Hercules Gasoline Co. v. Commissioner"
     volume: "326"
     page: "425"
+    docket: "93"
+    citation: "326 U.S. 425"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1945"
-    citation: "326 U.S. 425"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-030"
@@ -1538,9 +1997,12 @@ cases:
     title: "United States v. Lovett"
     volume: "328"
     page: "303"
+    docket: "809"
+    citation: "328 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1946"
-    citation: "328 U.S. 303"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-033"
@@ -1548,9 +2010,12 @@ cases:
     title: "Porter v. Lee"
     volume: "328"
     page: "246"
+    docket: "1116"
+    citation: "328 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1946"
-    citation: "328 U.S. 246"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-034"
@@ -1558,9 +2023,12 @@ cases:
     title: "Porter v. Dicken"
     volume: "328"
     page: "252"
+    docket: "1118"
+    citation: "328 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1946"
-    citation: "328 U.S. 252"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-035"
@@ -1568,9 +2036,12 @@ cases:
     title: "Woods v. Nierstheimer"
     volume: "328"
     page: "211"
+    docket: "631"
+    citation: "328 U.S. 211"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1946"
-    citation: "328 U.S. 211"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-042"
@@ -1578,9 +2049,12 @@ cases:
     title: "Bell v. Hood"
     volume: "327"
     page: "678"
+    docket: "344"
+    citation: "327 U.S. 678"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1946"
-    citation: "327 U.S. 678"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-047"
@@ -1588,9 +2062,12 @@ cases:
     title: "Ashcraft v. Tennessee"
     volume: "327"
     page: "274"
+    docket: "381"
+    citation: "327 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1946"
-    citation: "327 U.S. 274"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-052"
@@ -1598,9 +2075,12 @@ cases:
     title: "Canizio v. New York"
     volume: "327"
     page: "082"
+    docket: "152"
+    citation: "327 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1946"
-    citation: "327 U.S. 82"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-053"
@@ -1608,9 +2088,12 @@ cases:
     title: "Case v. Bowles"
     volume: "327"
     page: "092"
+    docket: "261"
+    citation: "327 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1946"
-    citation: "327 U.S. 92"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-054"
@@ -1618,9 +2101,12 @@ cases:
     title: "Hulbert v. Twin Falls County"
     volume: "327"
     page: "103"
+    docket: "238"
+    citation: "327 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1946"
-    citation: "327 U.S. 103"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-059"
@@ -1628,9 +2114,12 @@ cases:
     title: "New York ex rel. Ray v. Martin"
     volume: "326"
     page: "496"
+    docket: "158"
+    citation: "326 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1946"
-    citation: "326 U.S. 496"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-060"
@@ -1638,9 +2127,12 @@ cases:
     title: "Tucker v. Texas"
     volume: "326"
     page: "517"
+    docket: "87"
+    citation: "326 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1946"
-    citation: "326 U.S. 517"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-065"
@@ -1648,9 +2140,12 @@ cases:
     title: "Macauley v. Waterman S. S. Corp."
     volume: "327"
     page: "540"
+    docket: "435"
+    citation: "327 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1946"
-    citation: "327 U.S. 540"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-071"
@@ -1658,9 +2153,12 @@ cases:
     title: "Reconstruction Finance Corporation v. Beaver County"
     volume: "328"
     page: "204"
+    docket: "40"
+    citation: "328 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1946"
-    citation: "328 U.S. 204"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-073"
@@ -1668,9 +2166,12 @@ cases:
     title: "United States ex rel. TVA v. Welch"
     volume: "327"
     page: "546"
+    docket: "528"
+    citation: "327 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1946"
-    citation: "327 U.S. 546"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-080"
@@ -1678,9 +2179,12 @@ cases:
     title: "El Dorado Oil Works v. United States"
     volume: "328"
     page: "012"
+    docket: "428"
+    citation: "328 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1946"
-    citation: "328 U.S. 12"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-083"
@@ -1688,9 +2192,12 @@ cases:
     title: "Duncan v. Kahanamoku"
     volume: "327"
     page: "304"
+    docket: "14"
+    citation: "327 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1946"
-    citation: "327 U.S. 304"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-095"
@@ -1698,9 +2205,12 @@ cases:
     title: "Howitt v. United States"
     volume: "328"
     page: "189"
+    docket: "354"
+    citation: "328 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1946"
-    citation: "328 U.S. 189"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-108"
@@ -1708,9 +2218,12 @@ cases:
     title: "American Surety Co. of N. Y. v. Sampsell"
     volume: "327"
     page: "269"
+    docket: "142"
+    citation: "327 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1946"
-    citation: "327 U.S. 269"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-117"
@@ -1718,9 +2231,12 @@ cases:
     title: "Railway Conductors v. Pitney"
     volume: "326"
     page: "561"
+    docket: "37"
+    citation: "326 U.S. 561"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1946"
-    citation: "326 U.S. 561"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-118"
@@ -1728,9 +2244,12 @@ cases:
     title: "Marsh v. Alabama"
     volume: "326"
     page: "501"
+    docket: "114"
+    citation: "326 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1946"
-    citation: "326 U.S. 501"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-122"
@@ -1738,9 +2257,12 @@ cases:
     title: "Cherry Cotton Mills, Inc. v. United States"
     volume: "327"
     page: "536"
+    docket: "187"
+    citation: "327 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1946"
-    citation: "327 U.S. 536"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-123"
@@ -1748,9 +2270,12 @@ cases:
     title: "Commissioner v. Fisher"
     volume: "327"
     page: "512"
+    docket: "452"
+    citation: "327 U.S. 512"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1946"
-    citation: "327 U.S. 512"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-124"
@@ -1758,9 +2283,12 @@ cases:
     title: "Commissioner v. Tower"
     volume: "327"
     page: "280"
+    docket: "317"
+    citation: "327 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1946"
-    citation: "327 U.S. 280"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-125"
@@ -1768,9 +2296,12 @@ cases:
     title: "Lusthaus v. Commissioner"
     volume: "327"
     page: "293"
+    docket: "263"
+    citation: "327 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1946"
-    citation: "327 U.S. 293"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-126"
@@ -1778,9 +2309,12 @@ cases:
     title: "United States v. Johnson"
     volume: "327"
     page: "106"
+    docket: "115"
+    citation: "327 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1946"
-    citation: "327 U.S. 106"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1945-135"
@@ -1788,9 +2322,12 @@ cases:
     title: "Illinois ex rel. Gordon v. United States"
     volume: "328"
     page: "008"
+    docket: "749"
+    citation: "328 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1946"
-    citation: "328 U.S. 8"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-001"
@@ -1798,9 +2335,12 @@ cases:
     title: "Halliburton Oil Well Cementing Co. v. Walker"
     volume: "329"
     page: "001"
+    docket: "24"
+    citation: "329 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1946"
-    citation: "329 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-005"
@@ -1808,9 +2348,12 @@ cases:
     title: "United States v. Howard P. Foley Co."
     volume: "329"
     page: "064"
+    docket: "50"
+    citation: "329 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1946"
-    citation: "329 U.S. 64"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-010"
@@ -1818,9 +2361,12 @@ cases:
     title: "Vanston Bondholders Protective Comm. v. Green"
     volume: "329"
     page: "156"
+    docket: "42"
+    citation: "329 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1946"
-    citation: "329 U.S. 156"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-026"
@@ -1828,9 +2374,12 @@ cases:
     title: "Edward Katzinger Co. v. Chicago Metallic Mfg. Co."
     volume: "329"
     page: "394"
+    docket: "70"
+    citation: "329 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1947"
-    citation: "329 U.S. 394"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-027"
@@ -1838,9 +2387,12 @@ cases:
     title: "MacGregor v. Westinghouse Elec. &amp; Mfg. Co."
     volume: "329"
     page: "402"
+    docket: "28"
+    citation: "329 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1947"
-    citation: "329 U.S. 402"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-028"
@@ -1848,9 +2400,12 @@ cases:
     title: "International Harvester Co. v. Evatt"
     volume: "329"
     page: "416"
+    docket: "75"
+    citation: "329 U.S. 416"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1947"
-    citation: "329 U.S. 416"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-029"
@@ -1858,9 +2413,12 @@ cases:
     title: "United States v. Seatrain Lines, Inc."
     volume: "329"
     page: "424"
+    docket: "61"
+    citation: "329 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1947"
-    citation: "329 U.S. 424"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-030"
@@ -1868,9 +2426,12 @@ cases:
     title: "Steele v. General Mills, Inc."
     volume: "329"
     page: "433"
+    docket: "79"
+    citation: "329 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1947"
-    citation: "329 U.S. 433"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-032"
@@ -1878,9 +2439,12 @@ cases:
     title: "Jesionowski v. Boston &amp; Maine R. Co."
     volume: "329"
     page: "452"
+    docket: "88"
+    citation: "329 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1947"
-    citation: "329 U.S. 452"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-037"
@@ -1888,9 +2452,12 @@ cases:
     title: "Parker v. Fleming"
     volume: "329"
     page: "531"
+    docket: "80"
+    citation: "329 U.S. 531"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1947"
-    citation: "329 U.S. 531"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-038"
@@ -1898,9 +2465,12 @@ cases:
     title: "Patterson v. Lamb"
     volume: "329"
     page: "539"
+    docket: "229"
+    citation: "329 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1947"
-    citation: "329 U.S. 539"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-042"
@@ -1908,9 +2478,12 @@ cases:
     title: "Krug v. Santa Fe Pacific R. Co."
     volume: "329"
     page: "591"
+    docket: "97"
+    citation: "329 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1947"
-    citation: "329 U.S. 591"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-043"
@@ -1918,9 +2491,12 @@ cases:
     title: "Albrecht v. United States"
     volume: "329"
     page: "599"
+    docket: "148"
+    citation: "329 U.S. 599"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1947"
-    citation: "329 U.S. 599"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-049"
@@ -1928,9 +2504,12 @@ cases:
     title: "Everson v. Board of Ed. of Ewing"
     volume: "330"
     page: "001"
+    docket: "52"
+    citation: "330 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1947"
-    citation: "330 U.S. 1"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-052"
@@ -1938,9 +2517,12 @@ cases:
     title: "Walling v. Nashville, C. &amp; St. L. R. Co."
     volume: "330"
     page: "158"
+    docket: "335"
+    citation: "330 U.S. 158"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1947"
-    citation: "330 U.S. 158"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-053"
@@ -1948,9 +2530,12 @@ cases:
     title: "Bozza v. United States"
     volume: "330"
     page: "160"
+    docket: "190"
+    citation: "330 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1947"
-    citation: "330 U.S. 160"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-054"
@@ -1958,9 +2543,12 @@ cases:
     title: "Confederated Bands of Ute Indians v. United States"
     volume: "330"
     page: "169"
+    docket: "141"
+    citation: "330 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1947"
-    citation: "330 U.S. 169"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-056"
@@ -1968,9 +2556,12 @@ cases:
     title: "Cone v. West Virginia Pulp &amp; Paper Co."
     volume: "330"
     page: "212"
+    docket: "184"
+    citation: "330 U.S. 212"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1947"
-    citation: "330 U.S. 212"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-061"
@@ -1978,9 +2569,12 @@ cases:
     title: "Testa v. Katt"
     volume: "330"
     page: "386"
+    docket: "431"
+    citation: "330 U.S. 386"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1947"
-    citation: "330 U.S. 386"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-072"
@@ -1988,9 +2582,12 @@ cases:
     title: "Kotch v. Board of River Port Pilot Comm&apos;rs for Port of New Orleans"
     volume: "330"
     page: "552"
+    docket: "291"
+    citation: "330 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1947"
-    citation: "330 U.S. 552"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-073"
@@ -1998,9 +2595,12 @@ cases:
     title: "ICC v. Mechling"
     volume: "330"
     page: "567"
+    docket: "72"
+    citation: "330 U.S. 567"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1947"
-    citation: "330 U.S. 567"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-080"
@@ -2008,9 +2608,12 @@ cases:
     title: "United States v. Ogilvie Hardware Co."
     volume: "330"
     page: "709"
+    docket: "430"
+    citation: "330 U.S. 709"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1947"
-    citation: "330 U.S. 709"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-081"
@@ -2018,9 +2621,12 @@ cases:
     title: "United States v. Lem Hoy"
     volume: "330"
     page: "724"
+    docket: "585"
+    citation: "330 U.S. 724"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1947"
-    citation: "330 U.S. 724"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-090"
@@ -2028,9 +2634,12 @@ cases:
     title: "McCullough v. Kammerer Corp."
     volume: "331"
     page: "096"
+    docket: "755"
+    citation: "331 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1947"
-    citation: "331 U.S. 96"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-097"
@@ -2038,9 +2647,12 @@ cases:
     title: "Commissioner v. Munter"
     volume: "331"
     page: "210"
+    docket: "674"
+    citation: "331 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1947"
-    citation: "331 U.S. 210"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-106"
@@ -2048,9 +2660,12 @@ cases:
     title: "Cope v. Anderson"
     volume: "331"
     page: "461"
+    docket: "593"
+    citation: "331 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1947"
-    citation: "331 U.S. 461"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-125"
@@ -2058,9 +2673,12 @@ cases:
     title: "United States v. Petrillo"
     volume: "332"
     page: "001"
+    docket: "954"
+    citation: "332 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1947"
-    citation: "332 U.S. 1"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1946-143"
@@ -2068,9 +2686,12 @@ cases:
     title: "United States v. California"
     volume: "332"
     page: "019"
+    docket: "12"
+    citation: "332 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1947"
-    citation: "332 U.S. 19"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-001"
@@ -2078,9 +2699,12 @@ cases:
     title: "Rodgers v. United States"
     volume: "332"
     page: "371"
+    docket: "58"
+    citation: "332 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1947"
-    citation: "332 U.S. 371"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-009"
@@ -2088,9 +2712,12 @@ cases:
     title: "Patton v. Mississippi"
     volume: "332"
     page: "463"
+    docket: "122"
+    citation: "332 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1947"
-    citation: "332 U.S. 463"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-019"
@@ -2098,9 +2725,12 @@ cases:
     title: "Globe Liquor Co. v. San Roman"
     volume: "332"
     page: "571"
+    docket: "205"
+    citation: "332 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1948"
-    citation: "332 U.S. 571"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-026"
@@ -2108,9 +2738,12 @@ cases:
     title: "United States v. Sullivan"
     volume: "332"
     page: "689"
+    docket: "121"
+    citation: "332 U.S. 689"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1948"
-    citation: "332 U.S. 689"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-027"
@@ -2118,9 +2751,12 @@ cases:
     title: "Von Moltke v. Gillies"
     volume: "332"
     page: "708"
+    docket: "73"
+    citation: "332 U.S. 708"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1948"
-    citation: "332 U.S. 708"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-038"
@@ -2128,9 +2764,12 @@ cases:
     title: "Seaboard Air Line R. Co. v. Daniel"
     volume: "333"
     page: "118"
+    docket: "390"
+    citation: "333 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Monday, February 16, 1948"
-    citation: "333 U.S. 118"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-044"
@@ -2138,9 +2777,12 @@ cases:
     title: "United States v. Baltimore &amp; Ohio R. Co."
     volume: "333"
     page: "169"
+    docket: "223"
+    citation: "333 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1948"
-    citation: "333 U.S. 169"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-045"
@@ -2148,9 +2790,12 @@ cases:
     title: "Donaldson v. Read Magazine, Inc."
     volume: "333"
     page: "178"
+    docket: "50"
+    citation: "333 U.S. 178"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1948"
-    citation: "333 U.S. 178"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-046"
@@ -2158,9 +2803,12 @@ cases:
     title: "Cole v. Arkansas"
     volume: "333"
     page: "196"
+    docket: "373"
+    citation: "333 U.S. 196"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1948"
-    citation: "333 U.S. 196"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-047"
@@ -2168,9 +2816,12 @@ cases:
     title: "Illinois ex rel. McCollum v. Board of Ed. of School Dist. No. 71, Champaign Cty."
     volume: "333"
     page: "203"
+    docket: "90"
+    citation: "333 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1948"
-    citation: "333 U.S. 203"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-048"
@@ -2178,9 +2829,12 @@ cases:
     title: "In re Oliver"
     volume: "333"
     page: "257"
+    docket: "215"
+    citation: "333 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1948"
-    citation: "333 U.S. 257"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-058"
@@ -2188,9 +2842,12 @@ cases:
     title: "Commissioner v. South Tex. Lumber Co."
     volume: "333"
     page: "496"
+    docket: "384"
+    citation: "333 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1948"
-    citation: "333 U.S. 496"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-067"
@@ -2198,9 +2855,12 @@ cases:
     title: "FTC v. Cement Institute"
     volume: "333"
     page: "683"
+    docket: "23"
+    citation: "333 U.S. 683"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1948"
-    citation: "333 U.S. 683"
+    voteMajority: 6
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-074"
@@ -2208,9 +2868,12 @@ cases:
     title: "FTC v. Morton Salt Co."
     volume: "334"
     page: "037"
+    docket: "464"
+    citation: "334 U.S. 37"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1948"
-    citation: "334 U.S. 37"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-087"
@@ -2218,9 +2881,12 @@ cases:
     title: "Paterno v. Lyons"
     volume: "334"
     page: "314"
+    docket: "583"
+    citation: "334 U.S. 314"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1948"
-    citation: "334 U.S. 314"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-088"
@@ -2228,9 +2894,12 @@ cases:
     title: "Hilton v. Sullivan"
     volume: "334"
     page: "323"
+    docket: "560"
+    citation: "334 U.S. 323"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1948"
-    citation: "334 U.S. 323"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-092"
@@ -2238,9 +2907,12 @@ cases:
     title: "Takahashi v. Fish and Game Comm&apos;n"
     volume: "334"
     page: "410"
+    docket: "533"
+    citation: "334 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1948"
-    citation: "334 U.S. 410"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1947-093"
@@ -2248,9 +2920,12 @@ cases:
     title: "Phyle v. Duffy"
     volume: "334"
     page: "431"
+    docket: "655"
+    citation: "334 U.S. 431"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1948"
-    citation: "334 U.S. 431"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-002"
@@ -2258,9 +2933,12 @@ cases:
     title: "Mandel Brothers, Inc. v. Wallace"
     volume: "335"
     page: "291"
+    docket: "16"
+    citation: "335 U.S. 291"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1948"
-    citation: "335 U.S. 291"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-006"
@@ -2268,9 +2946,12 @@ cases:
     title: "Adkins v. E. I. DuPont de Nemours &amp; Co."
     volume: "335"
     page: "331"
+    docket: "1 Misc."
+    citation: "335 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Monday, November 22, 1948"
-    citation: "335 U.S. 331"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-011"
@@ -2278,9 +2959,12 @@ cases:
     title: "Upshaw v. United States"
     volume: "335"
     page: "410"
+    docket: "98"
+    citation: "335 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1948"
-    citation: "335 U.S. 410"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-017"
@@ -2288,9 +2972,12 @@ cases:
     title: "Coray v. Southern Pacific Co."
     volume: "335"
     page: "520"
+    docket: "54"
+    citation: "335 U.S. 520"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1949"
-    citation: "335 U.S. 520"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-018"
@@ -2298,9 +2985,12 @@ cases:
     title: "Lincoln Fed. Union v. Northwestern Iron &amp; Metal Co."
     volume: "335"
     page: "525"
+    docket: "47"
+    citation: "335 U.S. 525"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1949"
-    citation: "335 U.S. 525"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-019"
@@ -2308,9 +2998,12 @@ cases:
     title: "AFL v. American Sash &amp; Door Co."
     volume: "335"
     page: "538"
+    docket: "27"
+    citation: "335 U.S. 538"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1949"
-    citation: "335 U.S. 538"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-023"
@@ -2318,9 +3011,12 @@ cases:
     title: "Klapprott v. United States"
     volume: "335"
     page: "601"
+    docket: "42"
+    citation: "335 U.S. 601"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1949"
-    citation: "335 U.S. 601"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-024"
@@ -2328,9 +3024,12 @@ cases:
     title: "Commissioner v. Estate of Church"
     volume: "335"
     page: "632"
+    docket: "5"
+    citation: "335 U.S. 632"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1949"
-    citation: "335 U.S. 632"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-025"
@@ -2338,9 +3037,12 @@ cases:
     title: "Estate of Spiegel v. Commissioner"
     volume: "335"
     page: "701"
+    docket: "3"
+    citation: "335 U.S. 701"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1949"
-    citation: "335 U.S. 701"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-029"
@@ -2348,9 +3050,12 @@ cases:
     title: "Wilkerson v. McCarthy"
     volume: "336"
     page: "053"
+    docket: "53"
+    citation: "336 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1949"
-    citation: "336 U.S. 53"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-040"
@@ -2358,9 +3063,12 @@ cases:
     title: "United States ex rel. Hirshberg v. Cooke"
     volume: "336"
     page: "210"
+    docket: "231"
+    citation: "336 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1949"
-    citation: "336 U.S. 210"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-053"
@@ -2368,9 +3076,12 @@ cases:
     title: "Krulewitch v. United States"
     volume: "336"
     page: "440"
+    docket: "143"
+    citation: "336 U.S. 440"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1949"
-    citation: "336 U.S. 440"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-056"
@@ -2378,9 +3089,12 @@ cases:
     title: "Giboney v. Empire Storage &amp; Ice Co."
     volume: "336"
     page: "490"
+    docket: "182"
+    citation: "336 U.S. 490"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1949"
-    citation: "336 U.S. 490"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-067"
@@ -2388,9 +3102,12 @@ cases:
     title: "Wade v. Hunter"
     volume: "336"
     page: "684"
+    docket: "427"
+    citation: "336 U.S. 684"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1949"
-    citation: "336 U.S. 684"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-068"
@@ -2398,9 +3115,12 @@ cases:
     title: "Humphrey v. Smith"
     volume: "336"
     page: "695"
+    docket: "457"
+    citation: "336 U.S. 695"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1949"
-    citation: "336 U.S. 695"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-071"
@@ -2408,9 +3128,12 @@ cases:
     title: "United States v. Wallace &amp; Tiernan Co."
     volume: "336"
     page: "793"
+    docket: "416"
+    citation: "336 U.S. 793"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1949"
-    citation: "336 U.S. 793"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-073"
@@ -2418,9 +3141,12 @@ cases:
     title: "United States ex rel. Johnson v. Shaughnessy"
     volume: "336"
     page: "806"
+    docket: "506"
+    citation: "336 U.S. 806"
     pdfSource: "loc"
     dateDecision: "Monday, May 9, 1949"
-    citation: "336 U.S. 806"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-087"
@@ -2428,9 +3154,12 @@ cases:
     title: "Williams v. New York"
     volume: "337"
     page: "241"
+    docket: "671"
+    citation: "337 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1949"
-    citation: "337 U.S. 241"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1948-095"
@@ -2438,9 +3167,12 @@ cases:
     title: "United States v. ICC"
     volume: "337"
     page: "426"
+    docket: "330"
+    citation: "337 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1949"
-    citation: "337 U.S. 426"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1949-009"
@@ -2448,9 +3180,12 @@ cases:
     title: "Reilly v. Pinkus"
     volume: "338"
     page: "269"
+    docket: "31"
+    citation: "338 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1949"
-    citation: "338 U.S. 269"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1949-012"
@@ -2458,9 +3193,12 @@ cases:
     title: "Brown v. Western R. Co. of Ala."
     volume: "338"
     page: "294"
+    docket: "43"
+    citation: "338 U.S. 294"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1949"
-    citation: "338 U.S. 294"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1949-027"
@@ -2468,9 +3206,12 @@ cases:
     title: "United States v. Cumberland Public Service Co."
     volume: "338"
     page: "451"
+    docket: "214"
+    citation: "338 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1950"
-    citation: "338 U.S. 451"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1949-028"
@@ -2478,9 +3219,12 @@ cases:
     title: "United States v. Moorman"
     volume: "338"
     page: "457"
+    docket: "97"
+    citation: "338 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1950"
-    citation: "338 U.S. 457"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1949-029"
@@ -2488,9 +3232,12 @@ cases:
     title: "FPC v. East Ohio Gas Co."
     volume: "338"
     page: "464"
+    docket: "71"
+    citation: "338 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1950"
-    citation: "338 U.S. 464"
+    voteMajority: 5
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1949-036"
@@ -2498,9 +3245,12 @@ cases:
     title: "CAB v. State Airlines, Inc."
     volume: "338"
     page: "572"
+    docket: "157"
+    citation: "338 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Monday, February 6, 1950"
-    citation: "338 U.S. 572"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1949-046"
@@ -2508,9 +3258,12 @@ cases:
     title: "District of Columbia v. Little"
     volume: "339"
     page: "001"
+    docket: "302"
+    citation: "339 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1950"
-    citation: "339 U.S. 1"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1949-047"
@@ -2518,9 +3271,12 @@ cases:
     title: "Solesbee v. Balkcom"
     volume: "339"
     page: "009"
+    docket: "77"
+    citation: "339 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1950"
-    citation: "339 U.S. 9"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1949-054"
@@ -2528,9 +3284,12 @@ cases:
     title: "United States v. Commodities Trading Corp."
     volume: "339"
     page: "121"
+    docket: "156"
+    citation: "339 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1950"
-    citation: "339 U.S. 121"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1949-060"
@@ -2538,9 +3297,12 @@ cases:
     title: "Slocum v. Delaware, L. &amp; W. R. Co."
     volume: "339"
     page: "239"
+    docket: "391"
+    citation: "339 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1950"
-    citation: "339 U.S. 239"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1949-061"
@@ -2548,9 +3310,12 @@ cases:
     title: "Railway Conductors v. Southern R. Co."
     volume: "339"
     page: "255"
+    docket: "438"
+    citation: "339 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1950"
-    citation: "339 U.S. 255"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1949-077"
@@ -2558,9 +3323,12 @@ cases:
     title: "Capitol Greyhound Lines v. Brice"
     volume: "339"
     page: "542"
+    docket: "118"
+    citation: "339 U.S. 542"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1950"
-    citation: "339 U.S. 542"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1949-086"
@@ -2568,9 +3336,12 @@ cases:
     title: "Travelers Health Assn. v. Virginia ex rel. State Corporation Comm&apos;n"
     volume: "339"
     page: "643"
+    docket: "76"
+    citation: "339 U.S. 643"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1950"
-    citation: "339 U.S. 643"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1950-007"
@@ -2578,9 +3349,12 @@ cases:
     title: "Standard Oil Co. of N. J. v. United States"
     volume: "340"
     page: "054"
+    docket: "27"
+    citation: "340 U.S. 54"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1950"
-    citation: "340 U.S. 54"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1950-008"
@@ -2588,9 +3362,12 @@ cases:
     title: "Libby, McNeill &amp; Libby v. United States"
     volume: "340"
     page: "071"
+    docket: "37"
+    citation: "340 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1950"
-    citation: "340 U.S. 71"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1950-015"
@@ -2598,9 +3375,12 @@ cases:
     title: "Blau v. United States"
     volume: "340"
     page: "159"
+    docket: "22"
+    citation: "340 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1950"
-    citation: "340 U.S. 159"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1950-020"
@@ -2608,9 +3388,12 @@ cases:
     title: "Dowd v. United States ex rel. Cook"
     volume: "340"
     page: "206"
+    docket: "66"
+    citation: "340 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1951"
-    citation: "340 U.S. 206"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1950-021"
@@ -2618,9 +3401,12 @@ cases:
     title: "Kiefer-Stewart Co. v. Joseph E. Seagram &amp; Sons, Inc."
     volume: "340"
     page: "211"
+    docket: "297"
+    citation: "340 U.S. 211"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1951"
-    citation: "340 U.S. 211"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1950-027"
@@ -2628,9 +3414,12 @@ cases:
     title: "Blau v. United States"
     volume: "340"
     page: "332"
+    docket: "21"
+    citation: "340 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1951"
-    citation: "340 U.S. 332"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1950-049"
@@ -2638,9 +3427,12 @@ cases:
     title: "United States v. Lewis"
     volume: "340"
     page: "590"
+    docket: "347"
+    citation: "340 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1951"
-    citation: "340 U.S. 590"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1950-054"
@@ -2648,9 +3440,12 @@ cases:
     title: "United States v. Allied Oil Corp."
     volume: "341"
     page: "001"
+    docket: "364"
+    citation: "341 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1951"
-    citation: "341 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1950-067"
@@ -2658,9 +3453,12 @@ cases:
     title: "United States v. Pewee Coal Co."
     volume: "341"
     page: "114"
+    docket: "168"
+    citation: "341 U.S. 114"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1951"
-    citation: "341 U.S. 114"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1950-083"
@@ -2668,9 +3466,12 @@ cases:
     title: "Radio Corp. of America v. United States"
     volume: "341"
     page: "412"
+    docket: "565"
+    citation: "341 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1951"
-    citation: "341 U.S. 412"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1950-090"
@@ -2678,9 +3479,12 @@ cases:
     title: "Timken Roller Bearing Co. v. United States"
     volume: "341"
     page: "593"
+    docket: "352"
+    citation: "341 U.S. 593"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1951"
-    citation: "341 U.S. 593"
+    voteMajority: 5
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1950-091"
@@ -2688,9 +3492,12 @@ cases:
     title: "Hughes v. Fetter"
     volume: "341"
     page: "609"
+    docket: "355"
+    citation: "341 U.S. 609"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1951"
-    citation: "341 U.S. 609"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1951-015"
@@ -2698,9 +3505,12 @@ cases:
     title: "Palmer v. Ashe"
     volume: "342"
     page: "134"
+    docket: "38"
+    citation: "342 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 11, 1951"
-    citation: "342 U.S. 134"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1951-030"
@@ -2708,9 +3518,12 @@ cases:
     title: "Halcyon Lines v. Haenn Ship Ceiling &amp; Refitting Corp."
     volume: "342"
     page: "282"
+    docket: "62"
+    citation: "342 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1952"
-    citation: "342 U.S. 282"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1951-038"
@@ -2718,9 +3531,12 @@ cases:
     title: "Hughes v. United States"
     volume: "342"
     page: "353"
+    docket: "86"
+    citation: "342 U.S. 353"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1952"
-    citation: "342 U.S. 353"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1951-039"
@@ -2728,9 +3544,12 @@ cases:
     title: "Dice v. Akron, C. &amp; Y. R. Co."
     volume: "342"
     page: "359"
+    docket: "374"
+    citation: "342 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1952"
-    citation: "342 U.S. 359"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1951-043"
@@ -2738,9 +3557,12 @@ cases:
     title: "First Nat. Bank of Chicago v. United Air Lines, Inc."
     volume: "342"
     page: "396"
+    docket: "349"
+    citation: "342 U.S. 396"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1952"
-    citation: "342 U.S. 396"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1951-053"
@@ -2748,9 +3570,12 @@ cases:
     title: "Frisbie v. Collins"
     volume: "342"
     page: "519"
+    docket: "331"
+    citation: "342 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1952"
-    citation: "342 U.S. 519"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1951-065"
@@ -2758,9 +3583,12 @@ cases:
     title: "Kaufman v. Societe Internationale pour Participations Industrielles et Commerciales, S. A."
     volume: "343"
     page: "156"
+    docket: "172"
+    citation: "343 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1952"
-    citation: "343 U.S. 156"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1951-070"
@@ -2768,9 +3596,12 @@ cases:
     title: "United States v. Atlantic Mut. Ins. Co."
     volume: "343"
     page: "236"
+    docket: "450"
+    citation: "343 U.S. 236"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1952"
-    citation: "343 U.S. 236"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1951-079"
@@ -2778,9 +3609,12 @@ cases:
     title: "Pennsylvania Water &amp; Power Co. v. FPC"
     volume: "343"
     page: "414"
+    docket: "428"
+    citation: "343 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1952"
-    citation: "343 U.S. 414"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1951-088"
@@ -2788,9 +3622,12 @@ cases:
     title: "Youngstown Sheet &amp; Tube Co. v. Sawyer"
     volume: "343"
     page: "579"
+    docket: "744"
+    citation: "343 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1952"
-    citation: "343 U.S. 579"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1951-092"
@@ -2798,9 +3635,12 @@ cases:
     title: "Trainmen v. Howard"
     volume: "343"
     page: "768"
+    docket: "458"
+    citation: "343 U.S. 768"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1952"
-    citation: "343 U.S. 768"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1952-003"
@@ -2808,9 +3648,12 @@ cases:
     title: "Arrowsmith v. Commissioner"
     volume: "344"
     page: "006"
+    docket: "51"
+    citation: "344 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1952"
-    citation: "344 U.S. 6"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1952-004"
@@ -2818,9 +3661,12 @@ cases:
     title: "Sanford v. Kepner"
     volume: "344"
     page: "013"
+    docket: "46"
+    citation: "344 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1952"
-    citation: "344 U.S. 13"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1952-009"
@@ -2828,9 +3674,12 @@ cases:
     title: "Johnson v. New York, N. H. &amp; H. R. Co."
     volume: "344"
     page: "048"
+    docket: "40"
+    citation: "344 U.S. 48"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1952"
-    citation: "344 U.S. 48"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1952-018"
@@ -2838,9 +3687,12 @@ cases:
     title: "Lloyd A. Fry Roofing Co. v. Wood"
     volume: "344"
     page: "157"
+    docket: "37"
+    citation: "344 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1952"
-    citation: "344 U.S. 157"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1952-019"
@@ -2848,9 +3700,12 @@ cases:
     title: "Alison v. United States"
     volume: "344"
     page: "167"
+    docket: "79"
+    citation: "344 U.S. 167"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1952"
-    citation: "344 U.S. 167"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1952-031"
@@ -2858,9 +3713,12 @@ cases:
     title: "New York City v. New York, N. H. &amp; H. R. Co."
     volume: "344"
     page: "293"
+    docket: "203"
+    citation: "344 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1953"
-    citation: "344 U.S. 293"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1952-052"
@@ -2868,9 +3726,12 @@ cases:
     title: "Alstate Constr. Co. v. Durkin"
     volume: "345"
     page: "013"
+    docket: "296"
+    citation: "345 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1953"
-    citation: "345 U.S. 13"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1952-053"
@@ -2878,9 +3739,12 @@ cases:
     title: "Thomas v. Hempt Brothers"
     volume: "345"
     page: "019"
+    docket: "410"
+    citation: "345 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1953"
-    citation: "345 U.S. 19"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1952-063"
@@ -2888,9 +3752,12 @@ cases:
     title: "Baltimore &amp; Ohio R. Co. v. United States"
     volume: "345"
     page: "146"
+    docket: "258"
+    citation: "345 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1953"
-    citation: "345 U.S. 146"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1952-084"
@@ -2898,9 +3765,12 @@ cases:
     title: "Terry v. Adams"
     volume: "345"
     page: "461"
+    docket: "52"
+    citation: "345 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1953"
-    citation: "345 U.S. 461"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1953-004"
@@ -2908,9 +3778,12 @@ cases:
     title: "Lober v. United States"
     volume: "346"
     page: "335"
+    docket: "30"
+    citation: "346 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1953"
-    citation: "346 U.S. 335"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1953-014"
@@ -2918,9 +3791,12 @@ cases:
     title: "Pope &amp; Talbot, Inc. v. Hawn"
     volume: "346"
     page: "406"
+    docket: "13"
+    citation: "346 U.S. 406"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1953"
-    citation: "346 U.S. 406"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1953-018"
@@ -2928,9 +3804,12 @@ cases:
     title: "Howell Chevrolet Co. v. NLRB"
     volume: "346"
     page: "482"
+    docket: "34"
+    citation: "346 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1953"
-    citation: "346 U.S. 482"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1953-024"
@@ -2938,9 +3817,12 @@ cases:
     title: "Madruga v. Superior Court of Cal., County of San Diego"
     volume: "346"
     page: "556"
+    docket: "35"
+    citation: "346 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1954"
-    citation: "346 U.S. 556"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1953-025"
@@ -2948,9 +3830,12 @@ cases:
     title: "United States v. Lindsay"
     volume: "346"
     page: "568"
+    docket: "94"
+    citation: "346 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1954"
-    citation: "346 U.S. 568"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1953-045"
@@ -2958,9 +3843,12 @@ cases:
     title: "Adams v. Maryland"
     volume: "347"
     page: "179"
+    docket: "271"
+    citation: "347 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1954"
-    citation: "347 U.S. 179"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1953-046"
@@ -2968,9 +3856,12 @@ cases:
     title: "United States v. Employing Plasterers Assn. of Chicago"
     volume: "347"
     page: "186"
+    docket: "440"
+    citation: "347 U.S. 186"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1954"
-    citation: "347 U.S. 186"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1953-047"
@@ -2978,9 +3869,12 @@ cases:
     title: "United States v. Employing Lathers Assn. of Chicago"
     volume: "347"
     page: "198"
+    docket: "439"
+    citation: "347 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1954"
-    citation: "347 U.S. 198"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1953-077"
@@ -2988,9 +3882,12 @@ cases:
     title: "Leyra v. Denno"
     volume: "347"
     page: "556"
+    docket: "635"
+    citation: "347 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1954"
-    citation: "347 U.S. 556"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1954-008"
@@ -2998,9 +3895,12 @@ cases:
     title: "Castle v. Hayes Freight Lines, Inc."
     volume: "348"
     page: "061"
+    docket: "44"
+    citation: "348 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1954"
-    citation: "348 U.S. 61"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1954-009"
@@ -3008,9 +3908,12 @@ cases:
     title: "Watson v. Employers Liability Assurance Corp."
     volume: "348"
     page: "066"
+    docket: "6"
+    citation: "348 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1954"
-    citation: "348 U.S. 66"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1954-031"
@@ -3018,9 +3921,12 @@ cases:
     title: "Wilburn Boat Co. v. Fireman&apos;s Fund Ins. Co."
     volume: "348"
     page: "310"
+    docket: "7"
+    citation: "348 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1955"
-    citation: "348 U.S. 310"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1954-034"
@@ -3028,9 +3934,12 @@ cases:
     title: "United States v. California Eastern Line, Inc."
     volume: "348"
     page: "351"
+    docket: "263"
+    citation: "348 U.S. 351"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1955"
-    citation: "348 U.S. 351"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1954-069"
@@ -3038,9 +3947,12 @@ cases:
     title: "Shaughnessy v. Pedreiro"
     volume: "349"
     page: "048"
+    docket: "374"
+    citation: "349 U.S. 48"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1955"
-    citation: "349 U.S. 48"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1954-073"
@@ -3048,9 +3960,12 @@ cases:
     title: "Bisso v. Inland Waterways Corp."
     volume: "349"
     page: "085"
+    docket: "50"
+    citation: "349 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1955"
-    citation: "349 U.S. 85"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1954-074"
@@ -3058,9 +3973,12 @@ cases:
     title: "Boston Metals Co. v. The Winding Gulf"
     volume: "349"
     page: "122"
+    docket: "70"
+    citation: "349 U.S. 122"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1955"
-    citation: "349 U.S. 122"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1954-075"
@@ -3068,9 +3986,12 @@ cases:
     title: "United States v. Nielson"
     volume: "349"
     page: "129"
+    docket: "210"
+    citation: "349 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1955"
-    citation: "349 U.S. 129"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1954-076"
@@ -3078,9 +3999,12 @@ cases:
     title: "In re Murchison"
     volume: "349"
     page: "133"
+    docket: "405"
+    citation: "349 U.S. 133"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1955"
-    citation: "349 U.S. 133"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1955-004"
@@ -3088,9 +4012,12 @@ cases:
     title: "United States ex rel. Toth v. Quarles"
     volume: "350"
     page: "011"
+    docket: "3"
+    citation: "350 U.S. 11"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1955"
-    citation: "350 U.S. 11"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1955-014"
@@ -3098,9 +4025,12 @@ cases:
     title: "Pennsylvania ex rel. Herman v. Claudy"
     volume: "350"
     page: "116"
+    docket: "45"
+    citation: "350 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1956"
-    citation: "350 U.S. 116"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1955-033"
@@ -3108,9 +4038,12 @@ cases:
     title: "Costello v. United States"
     volume: "350"
     page: "359"
+    docket: "72"
+    citation: "350 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1956"
-    citation: "350 U.S. 359"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1955-037"
@@ -3118,9 +4051,12 @@ cases:
     title: "Cammer v. United States"
     volume: "350"
     page: "399"
+    docket: "110"
+    citation: "350 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1956"
-    citation: "350 U.S. 399"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1955-051"
@@ -3128,9 +4064,12 @@ cases:
     title: "Schulz v. Pennsylvania R. Co."
     volume: "350"
     page: "523"
+    docket: "282"
+    citation: "350 U.S. 523"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1956"
-    citation: "350 U.S. 523"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1955-066"
@@ -3138,9 +4077,12 @@ cases:
     title: "Griffin v. Illinois"
     volume: "351"
     page: "012"
+    docket: "95"
+    citation: "351 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1956"
-    citation: "351 U.S. 12"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1955-077"
@@ -3148,9 +4090,12 @@ cases:
     title: "NLRB v. Truitt Mfg. Co."
     volume: "351"
     page: "149"
+    docket: "486"
+    citation: "351 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1956"
-    citation: "351 U.S. 149"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1955-084"
@@ -3158,9 +4103,12 @@ cases:
     title: "Commissioner v. LoBue"
     volume: "351"
     page: "243"
+    docket: "373"
+    citation: "351 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1956"
-    citation: "351 U.S. 243"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1955-090"
@@ -3168,9 +4116,12 @@ cases:
     title: "Denver &amp; Rio Grande Western R. Co. v. Union Pacific R. Co."
     volume: "351"
     page: "321"
+    docket: "117"
+    citation: "351 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1956"
-    citation: "351 U.S. 321"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1956-012"
@@ -3178,9 +4129,12 @@ cases:
     title: "Walker v. City of Hutchinson"
     volume: "352"
     page: "112"
+    docket: "13"
+    citation: "352 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1956"
-    citation: "352 U.S. 112"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1956-020"
@@ -3188,9 +4142,12 @@ cases:
     title: "United States v. Plesha"
     volume: "352"
     page: "202"
+    docket: "39"
+    citation: "352 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1957"
-    citation: "352 U.S. 202"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1956-028"
@@ -3198,9 +4155,12 @@ cases:
     title: "United States v. Allen-Bradley Co."
     volume: "352"
     page: "306"
+    docket: "78"
+    citation: "352 U.S. 306"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 22, 1957"
-    citation: "352 U.S. 306"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1956-029"
@@ -3208,9 +4168,12 @@ cases:
     title: "National Lead Co. v. Commissioner"
     volume: "352"
     page: "313"
+    docket: "124"
+    citation: "352 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 22, 1957"
-    citation: "352 U.S. 313"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1956-030"
@@ -3218,9 +4181,12 @@ cases:
     title: "Rayonier Inc. v. United States"
     volume: "352"
     page: "315"
+    docket: "45"
+    citation: "352 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1957"
-    citation: "352 U.S. 315"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1956-064"
@@ -3228,9 +4194,12 @@ cases:
     title: "Haynes v. United States"
     volume: "353"
     page: "081"
+    docket: "257"
+    citation: "353 U.S. 81"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1957"
-    citation: "353 U.S. 81"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1956-077"
@@ -3238,9 +4207,12 @@ cases:
     title: "Schware v. Board of Bar Examiners of N. M."
     volume: "353"
     page: "232"
+    docket: "92"
+    citation: "353 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1957"
-    citation: "353 U.S. 232"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1956-078"
@@ -3248,9 +4220,12 @@ cases:
     title: "Konigsberg v. State Bar of Cal."
     volume: "353"
     page: "252"
+    docket: "5"
+    citation: "353 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1957"
-    citation: "353 U.S. 252"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1956-101"
@@ -3258,9 +4233,12 @@ cases:
     title: "Reid v. Covert"
     volume: "354"
     page: "001"
+    docket: "701"
+    citation: "354 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1957"
-    citation: "354 U.S. 1"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1956-110"
@@ -3268,9 +4246,12 @@ cases:
     title: "United States v. Korpan"
     volume: "354"
     page: "271"
+    docket: "596"
+    citation: "354 U.S. 271"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1957"
-    citation: "354 U.S. 271"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1956-125"
@@ -3278,9 +4259,12 @@ cases:
     title: "Vanderbilt v. Vanderbilt"
     volume: "354"
     page: "416"
+    docket: "302"
+    citation: "354 U.S. 416"
     pdfSource: "loc"
     dateDecision: "Monday, June 24, 1957"
-    citation: "354 U.S. 416"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1957-007"
@@ -3288,9 +4272,12 @@ cases:
     title: "Conley v. Gibson"
     volume: "355"
     page: "041"
+    docket: "7"
+    citation: "355 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1957"
-    citation: "355 U.S. 41"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1957-022"
@@ -3298,9 +4285,12 @@ cases:
     title: "Green v. United States"
     volume: "355"
     page: "184"
+    docket: "46"
+    citation: "355 U.S. 184"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1957"
-    citation: "355 U.S. 184"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1957-023"
@@ -3308,9 +4298,12 @@ cases:
     title: "McGee v. International Life Ins. Co."
     volume: "355"
     page: "220"
+    docket: "50"
+    citation: "355 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1957"
-    citation: "355 U.S. 220"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1957-050"
@@ -3318,9 +4311,12 @@ cases:
     title: "United States v. Detroit"
     volume: "355"
     page: "466"
+    docket: "26"
+    citation: "355 U.S. 466"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1958"
-    citation: "355 U.S. 466"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1957-051"
@@ -3328,9 +4324,12 @@ cases:
     title: "United States v. Muskegon"
     volume: "355"
     page: "484"
+    docket: "37"
+    citation: "355 U.S. 484"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1958"
-    citation: "355 U.S. 484"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1957-052"
@@ -3338,9 +4337,12 @@ cases:
     title: "Detroit v. Murray Corp. of America"
     volume: "355"
     page: "489"
+    docket: "18"
+    citation: "355 U.S. 489"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1958"
-    citation: "355 U.S. 489"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1957-062"
@@ -3348,9 +4350,12 @@ cases:
     title: "Northern Pacific R. Co. v. United States"
     volume: "356"
     page: "001"
+    docket: "59"
+    citation: "356 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1958"
-    citation: "356 U.S. 1"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1957-101"
@@ -3358,9 +4363,12 @@ cases:
     title: "Eubanks v. Louisiana"
     volume: "356"
     page: "584"
+    docket: "550"
+    citation: "356 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1958"
-    citation: "356 U.S. 584"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1957-102"
@@ -3368,9 +4376,12 @@ cases:
     title: "Rainwater v. United States"
     volume: "356"
     page: "590"
+    docket: "276"
+    citation: "356 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1958"
-    citation: "356 U.S. 590"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1957-103"
@@ -3378,9 +4389,12 @@ cases:
     title: "United States v. McNinch"
     volume: "356"
     page: "595"
+    docket: "146"
+    citation: "356 U.S. 595"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1958"
-    citation: "356 U.S. 595"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1957-104"
@@ -3388,9 +4402,12 @@ cases:
     title: "Kovacs v. Brewer"
     volume: "356"
     page: "604"
+    docket: "200"
+    citation: "356 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1958"
-    citation: "356 U.S. 604"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1957-119"
@@ -3398,9 +4415,12 @@ cases:
     title: "Chicago v. Atchison, T. &amp; S. F. R. Co."
     volume: "357"
     page: "077"
+    docket: "103"
+    citation: "357 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1958"
-    citation: "357 U.S. 77"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1958-012"
@@ -3408,9 +4428,12 @@ cases:
     title: "Hawkins v. United States"
     volume: "358"
     page: "074"
+    docket: "20"
+    citation: "358 U.S. 74"
     pdfSource: "loc"
     dateDecision: "Monday, November 24, 1958"
-    citation: "358 U.S. 74"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1958-025"
@@ -3418,9 +4441,12 @@ cases:
     title: "Williams v. Lee"
     volume: "358"
     page: "217"
+    docket: "39"
+    citation: "358 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1959"
-    citation: "358 U.S. 217"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1958-069"
@@ -3428,9 +4454,12 @@ cases:
     title: "Klor&apos;s, Inc. v. Broadway-Hale Stores, Inc."
     volume: "359"
     page: "207"
+    docket: "76"
+    citation: "359 U.S. 207"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1959"
-    citation: "359 U.S. 207"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1958-072"
@@ -3438,9 +4467,12 @@ cases:
     title: "Glus v. Brooklyn Eastern Dist. Terminal"
     volume: "359"
     page: "231"
+    docket: "446"
+    citation: "359 U.S. 231"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1959"
-    citation: "359 U.S. 231"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1958-082"
@@ -3448,9 +4480,12 @@ cases:
     title: "Scull v. Virginia ex rel. Comm. on Law Reform and Racial Activities"
     volume: "359"
     page: "344"
+    docket: "51"
+    citation: "359 U.S. 344"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1959"
-    citation: "359 U.S. 344"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1958-083"
@@ -3458,9 +4493,12 @@ cases:
     title: "Plumbers v. County of Door"
     volume: "359"
     page: "354"
+    docket: "396"
+    citation: "359 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1959"
-    citation: "359 U.S. 354"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1958-092"
@@ -3468,9 +4506,12 @@ cases:
     title: "Beacon Theatres, Inc. v. Westover"
     volume: "359"
     page: "500"
+    docket: "45"
+    citation: "359 U.S. 500"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1959"
-    citation: "359 U.S. 500"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1958-097"
@@ -3478,9 +4519,12 @@ cases:
     title: "United States v. Atlantic Refining Co."
     volume: "360"
     page: "019"
+    docket: "210"
+    citation: "360 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1959"
-    citation: "360 U.S. 19"
+    voteMajority: 6
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1958-117"
@@ -3488,9 +4532,12 @@ cases:
     title: "United States v. 93.970 Acres of Land"
     volume: "360"
     page: "328"
+    docket: "573"
+    citation: "360 U.S. 328"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1959"
-    citation: "360 U.S. 328"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1958-128"
@@ -3498,9 +4545,12 @@ cases:
     title: "Farmers v. WDAY, Inc."
     volume: "360"
     page: "525"
+    docket: "248"
+    citation: "360 U.S. 525"
     pdfSource: "loc"
     dateDecision: "Monday, June 29, 1959"
-    citation: "360 U.S. 525"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1959-017"
@@ -3508,9 +4558,12 @@ cases:
     title: "Stirone v. United States"
     volume: "361"
     page: "212"
+    docket: "35"
+    citation: "361 U.S. 212"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1960"
-    citation: "361 U.S. 212"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1959-043"
@@ -3518,9 +4571,12 @@ cases:
     title: "Talley v. California"
     volume: "362"
     page: "060"
+    docket: "154"
+    citation: "362 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1960"
-    citation: "362 U.S. 60"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1959-048"
@@ -3528,9 +4584,12 @@ cases:
     title: "Thompson v. Louisville"
     volume: "362"
     page: "199"
+    docket: "59"
+    citation: "362 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1960"
-    citation: "362 U.S. 199"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1959-060"
@@ -3538,9 +4597,12 @@ cases:
     title: "Railroad Telegraphers v. Chicago &amp; North Western R. Co."
     volume: "362"
     page: "330"
+    docket: "100"
+    citation: "362 U.S. 330"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1960"
-    citation: "362 U.S. 330"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1959-061"
@@ -3548,9 +4610,12 @@ cases:
     title: "Marine Cooks v. Panama S. S. Co."
     volume: "362"
     page: "365"
+    docket: "403"
+    citation: "362 U.S. 365"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1960"
-    citation: "362 U.S. 365"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1959-067"
@@ -3558,9 +4623,12 @@ cases:
     title: "New Hampshire Fire Ins. Co. v. Scanlon"
     volume: "362"
     page: "404"
+    docket: "339"
+    citation: "362 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1960"
-    citation: "362 U.S. 404"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1959-072"
@@ -3568,9 +4636,12 @@ cases:
     title: "Maryland &amp; Virginia Milk Producers Assn., Inc. v. United States"
     volume: "362"
     page: "458"
+    docket: "62"
+    citation: "362 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1960"
-    citation: "362 U.S. 458"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1959-088"
@@ -3578,9 +4649,12 @@ cases:
     title: "United States v. Florida"
     volume: "363"
     page: "121"
+    docket: "10 Orig."
+    citation: "363 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1960"
-    citation: "363 U.S. 121"
+    voteMajority: 6
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1959-094"
@@ -3588,9 +4662,12 @@ cases:
     title: "Pennsylvania R. Co. v. United States"
     volume: "363"
     page: "202"
+    docket: "451"
+    citation: "363 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1960"
-    citation: "363 U.S. 202"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1959-121"
@@ -3598,9 +4675,12 @@ cases:
     title: "Continental Grain Co. v. Barge FBL-585"
     volume: "364"
     page: "019"
+    docket: "229"
+    citation: "364 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Monday, June 27, 1960"
-    citation: "364 U.S. 19"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1959-122"
@@ -3608,9 +4688,12 @@ cases:
     title: "Armstrong v. United States"
     volume: "364"
     page: "040"
+    docket: "270"
+    citation: "364 U.S. 40"
     pdfSource: "loc"
     dateDecision: "Monday, June 27, 1960"
-    citation: "364 U.S. 40"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-002"
@@ -3618,9 +4701,12 @@ cases:
     title: "United States v. Hougham"
     volume: "364"
     page: "310"
+    docket: "24"
+    citation: "364 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1960"
-    citation: "364 U.S. 310"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-015"
@@ -3628,9 +4714,12 @@ cases:
     title: "Small Business Administration v. McClellan"
     volume: "364"
     page: "446"
+    docket: "42"
+    citation: "364 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1960"
-    citation: "364 U.S. 446"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-016"
@@ -3638,9 +4727,12 @@ cases:
     title: "Boynton v. Virginia"
     volume: "364"
     page: "454"
+    docket: "7"
+    citation: "364 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1960"
-    citation: "364 U.S. 454"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-024"
@@ -3648,9 +4740,12 @@ cases:
     title: "NLRB v. Radio Engineers"
     volume: "364"
     page: "573"
+    docket: "69"
+    citation: "364 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1961"
-    citation: "364 U.S. 573"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-038"
@@ -3658,9 +4753,12 @@ cases:
     title: "Eastern Railroad Presidents Conference v. Noerr Motor Freight, Inc."
     volume: "365"
     page: "127"
+    docket: "50"
+    citation: "365 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1961"
-    citation: "365 U.S. 127"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-058"
@@ -3668,9 +4766,12 @@ cases:
     title: "Laurens Fed. Sav. &amp; Loan Assn. v. South Carolina Tax Comm&apos;n"
     volume: "365"
     page: "517"
+    docket: "126"
+    citation: "365 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1961"
-    citation: "365 U.S. 517"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-059"
@@ -3678,9 +4779,12 @@ cases:
     title: "Reynolds v. Cochran"
     volume: "365"
     page: "525"
+    docket: "115"
+    citation: "365 U.S. 525"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1961"
-    citation: "365 U.S. 525"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-078"
@@ -3688,9 +4792,12 @@ cases:
     title: "Stewart v. United States"
     volume: "366"
     page: "001"
+    docket: "143"
+    citation: "366 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1961"
-    citation: "366 U.S. 1"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-085"
@@ -3698,9 +4805,12 @@ cases:
     title: "Kolovrat v. Oregon"
     volume: "366"
     page: "187"
+    docket: "102"
+    citation: "366 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1961"
-    citation: "366 U.S. 187"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-092"
@@ -3708,9 +4818,12 @@ cases:
     title: "H. K. Porter Co. v. Central Vermont R. Co."
     volume: "366"
     page: "272"
+    docket: "257"
+    citation: "366 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1961"
-    citation: "366 U.S. 272"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-093"
@@ -3718,9 +4831,12 @@ cases:
     title: "Eli Lilly &amp; Co. v. Sav-On-Drugs, Inc."
     volume: "366"
     page: "276"
+    docket: "203"
+    citation: "366 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1961"
-    citation: "366 U.S. 276"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-106"
@@ -3728,9 +4844,12 @@ cases:
     title: "United States v. Oregon"
     volume: "366"
     page: "643"
+    docket: "329"
+    citation: "366 U.S. 643"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1961"
-    citation: "366 U.S. 643"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-121"
@@ -3738,9 +4857,12 @@ cases:
     title: "Horton v. Liberty Mut. Ins. Co."
     volume: "367"
     page: "348"
+    docket: "478"
+    citation: "367 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1961"
-    citation: "367 U.S. 348"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1960-129"
@@ -3748,9 +4870,12 @@ cases:
     title: "Torcaso v. Watkins"
     volume: "367"
     page: "488"
+    docket: "373"
+    citation: "367 U.S. 488"
     pdfSource: "loc"
     dateDecision: "Monday, June 19, 1961"
-    citation: "367 U.S. 488"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1961-003"
@@ -3758,9 +4883,12 @@ cases:
     title: "Still v. Norfolk &amp; Western R. Co."
     volume: "368"
     page: "035"
+    docket: "48"
+    citation: "368 U.S. 35"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1961"
-    citation: "368 U.S. 35"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1961-006"
@@ -3768,9 +4896,12 @@ cases:
     title: "Western Union Telegraph Co. v. Pennsylvania"
     volume: "368"
     page: "071"
+    docket: "15"
+    citation: "368 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1961"
-    citation: "368 U.S. 71"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1961-014"
@@ -3778,9 +4909,12 @@ cases:
     title: "United States v. Union Central Life Ins. Co."
     volume: "368"
     page: "291"
+    docket: "52"
+    citation: "368 U.S. 291"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1961"
-    citation: "368 U.S. 291"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1961-021"
@@ -3788,9 +4922,12 @@ cases:
     title: "Seymour v. Superintendent of Wash. State Penitentiary"
     volume: "368"
     page: "351"
+    docket: "62"
+    citation: "368 U.S. 351"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1962"
-    citation: "368 U.S. 351"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1961-027"
@@ -3798,9 +4935,12 @@ cases:
     title: "Blau v. Lehman"
     volume: "368"
     page: "403"
+    docket: "66"
+    citation: "368 U.S. 403"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1962"
-    citation: "368 U.S. 403"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1961-040"
@@ -3808,9 +4948,12 @@ cases:
     title: "Simonson v. Granquist"
     volume: "369"
     page: "038"
+    docket: "83"
+    citation: "369 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1962"
-    citation: "369 U.S. 38"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1961-059"
@@ -3818,9 +4961,12 @@ cases:
     title: "Goldlawr, Inc. v. Heiman"
     volume: "369"
     page: "463"
+    docket: "101"
+    citation: "369 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1962"
-    citation: "369 U.S. 463"
+    voteMajority: 5
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1961-060"
@@ -3828,9 +4974,12 @@ cases:
     title: "Dairy Queen, Inc. v. Wood"
     volume: "369"
     page: "469"
+    docket: "244"
+    citation: "369 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1962"
-    citation: "369 U.S. 469"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1961-082"
@@ -3838,9 +4987,12 @@ cases:
     title: "NLRB v. Washington Aluminum Co."
     volume: "370"
     page: "009"
+    docket: "464"
+    citation: "370 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1962"
-    citation: "370 U.S. 9"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1961-096"
@@ -3848,9 +5000,12 @@ cases:
     title: "In re McConnell"
     volume: "370"
     page: "230"
+    docket: "498"
+    citation: "370 U.S. 230"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1962"
-    citation: "370 U.S. 230"
+    voteMajority: 5
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1961-097"
@@ -3858,9 +5013,12 @@ cases:
     title: "Sinclair Refining Co. v. Atkinson"
     volume: "370"
     page: "195"
+    docket: "434"
+    citation: "370 U.S. 195"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1962"
-    citation: "370 U.S. 195"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1961-105"
@@ -3868,9 +5026,12 @@ cases:
     title: "Engel v. Vitale"
     volume: "370"
     page: "421"
+    docket: "468"
+    citation: "370 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1962"
-    citation: "370 U.S. 421"
+    voteMajority: 6
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1962-009"
@@ -3878,9 +5039,12 @@ cases:
     title: "United States v. Sampson"
     volume: "371"
     page: "075"
+    docket: "69"
+    citation: "371 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1962"
-    citation: "371 U.S. 75"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1962-013"
@@ -3888,9 +5052,12 @@ cases:
     title: "Pearlman v. Reliance Ins. Co."
     volume: "371"
     page: "132"
+    docket: "78"
+    citation: "371 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1962"
-    citation: "371 U.S. 132"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1962-018"
@@ -3898,9 +5065,12 @@ cases:
     title: "Ford v. Ford"
     volume: "371"
     page: "187"
+    docket: "63"
+    citation: "371 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1962"
-    citation: "371 U.S. 187"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1962-025"
@@ -3908,9 +5078,12 @@ cases:
     title: "Jones v. Cunningham"
     volume: "371"
     page: "236"
+    docket: "77"
+    citation: "371 U.S. 236"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1963"
-    citation: "371 U.S. 236"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1962-058"
@@ -3918,9 +5091,12 @@ cases:
     title: "Gideon v. Wainwright"
     volume: "372"
     page: "335"
+    docket: "155"
+    citation: "372 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1963"
-    citation: "372 U.S. 335"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1962-079"
@@ -3928,9 +5104,12 @@ cases:
     title: "Colorado Anti-Discrimination Comm&apos;n v. Continental Air Lines, Inc."
     volume: "372"
     page: "714"
+    docket: "146"
+    citation: "372 U.S. 714"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1963"
-    citation: "372 U.S. 714"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1962-080"
@@ -3938,9 +5117,12 @@ cases:
     title: "Ferguson v. Skrupa"
     volume: "372"
     page: "726"
+    docket: "111"
+    citation: "372 U.S. 726"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1963"
-    citation: "372 U.S. 726"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1962-118"
@@ -3948,9 +5130,12 @@ cases:
     title: "United States v. Braverman"
     volume: "373"
     page: "405"
+    docket: "506"
+    citation: "373 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1963"
-    citation: "373 U.S. 405"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1962-119"
@@ -3958,9 +5143,12 @@ cases:
     title: "Reed v. The Yaka"
     volume: "373"
     page: "410"
+    docket: "509"
+    citation: "373 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1963"
-    citation: "373 U.S. 410"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1962-127"
@@ -3968,9 +5156,12 @@ cases:
     title: "Arizona v. California"
     volume: "373"
     page: "546"
+    docket: "8 Orig."
+    citation: "373 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1963"
-    citation: "373 U.S. 546"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1962-138"
@@ -3978,9 +5169,12 @@ cases:
     title: "Fitzgerald v. United States Lines Co."
     volume: "374"
     page: "016"
+    docket: "463"
+    citation: "374 U.S. 16"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1963"
-    citation: "374 U.S. 16"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1963-025"
@@ -3988,9 +5182,12 @@ cases:
     title: "United States v. Behrens"
     volume: "375"
     page: "162"
+    docket: "86"
+    citation: "375 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1963"
-    citation: "375 U.S. 162"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1963-047"
@@ -3998,9 +5195,12 @@ cases:
     title: "Wesberry v. Sanders"
     volume: "376"
     page: "001"
+    docket: "22"
+    citation: "376 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1964"
-    citation: "376 U.S. 1"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1963-048"
@@ -4008,9 +5208,12 @@ cases:
     title: "Wright v. Rockefeller"
     volume: "376"
     page: "052"
+    docket: "96"
+    citation: "376 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1964"
-    citation: "376 U.S. 52"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1963-063"
@@ -4018,9 +5221,12 @@ cases:
     title: "Sears, Roebuck &amp; Co. v. Stiffel Co."
     volume: "376"
     page: "225"
+    docket: "108"
+    citation: "376 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1964"
-    citation: "376 U.S. 225"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1963-064"
@@ -4028,9 +5234,12 @@ cases:
     title: "Compco Corp. v. Day-Brite Lighting, Inc."
     volume: "376"
     page: "234"
+    docket: "106"
+    citation: "376 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1964"
-    citation: "376 U.S. 234"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1963-077"
@@ -4038,9 +5247,12 @@ cases:
     title: "Preston v. United States"
     volume: "376"
     page: "364"
+    docket: "163"
+    citation: "376 U.S. 364"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1964"
-    citation: "376 U.S. 364"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1963-078"
@@ -4048,9 +5260,12 @@ cases:
     title: "Humble Pipe Line Co. v. Waggonner"
     volume: "376"
     page: "369"
+    docket: "329"
+    citation: "376 U.S. 369"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1964"
-    citation: "376 U.S. 369"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1963-100"
@@ -4058,9 +5273,12 @@ cases:
     title: "Trainmen v. Virginia ex rel. Virginia State Bar"
     volume: "377"
     page: "001"
+    docket: "34"
+    citation: "377 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1964"
-    citation: "377 U.S. 1"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1963-117"
@@ -4068,9 +5286,12 @@ cases:
     title: "Griffin v. School Bd. of Prince Edward Cty."
     volume: "377"
     page: "218"
+    docket: "592"
+    citation: "377 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1964"
-    citation: "377 U.S. 218"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1963-133"
@@ -4078,9 +5299,12 @@ cases:
     title: "Donovan v. Dallas"
     volume: "377"
     page: "408"
+    docket: "264"
+    citation: "377 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1964"
-    citation: "377 U.S. 408"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1963-154"
@@ -4088,9 +5312,12 @@ cases:
     title: "Barr v. City of Columbia"
     volume: "378"
     page: "146"
+    docket: "9"
+    citation: "378 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1964"
-    citation: "378 U.S. 146"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1963-155"
@@ -4098,9 +5325,12 @@ cases:
     title: "Robinson v. Florida"
     volume: "378"
     page: "153"
+    docket: "60"
+    citation: "378 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1964"
-    citation: "378 U.S. 153"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1964-011"
@@ -4108,9 +5338,12 @@ cases:
     title: "Calhoon v. Harvey"
     volume: "379"
     page: "134"
+    docket: "17"
+    citation: "379 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1964"
-    citation: "379 U.S. 134"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1964-012"
@@ -4118,9 +5351,12 @@ cases:
     title: "Gillespie v. United States Steel Corp."
     volume: "379"
     page: "148"
+    docket: "10"
+    citation: "379 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1964"
-    citation: "379 U.S. 148"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1964-016"
@@ -4128,9 +5364,12 @@ cases:
     title: "Farmer v. Arabian American Oil Co."
     volume: "379"
     page: "227"
+    docket: "32"
+    citation: "379 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1964"
-    citation: "379 U.S. 227"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1964-040"
@@ -4138,9 +5377,12 @@ cases:
     title: "Texas v. New Jersey"
     volume: "379"
     page: "674"
+    docket: "13 Orig."
+    citation: "379 U.S. 674"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1965"
-    citation: "379 U.S. 674"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1964-052"
@@ -4148,9 +5390,12 @@ cases:
     title: "Louisiana v. United States"
     volume: "380"
     page: "145"
+    docket: "67"
+    citation: "380 U.S. 145"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1965"
-    citation: "380 U.S. 145"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1964-053"
@@ -4158,9 +5403,12 @@ cases:
     title: "United States v. Mississippi"
     volume: "380"
     page: "128"
+    docket: "73"
+    citation: "380 U.S. 128"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1965"
-    citation: "380 U.S. 128"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1964-069"
@@ -4168,9 +5416,12 @@ cases:
     title: "Pointer v. Texas"
     volume: "380"
     page: "400"
+    docket: "577"
+    citation: "380 U.S. 400"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1965"
-    citation: "380 U.S. 400"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1964-092"
@@ -4178,9 +5429,12 @@ cases:
     title: "Commissioner v. Estate of Noel"
     volume: "380"
     page: "678"
+    docket: "503"
+    citation: "380 U.S. 678"
     pdfSource: "loc"
     dateDecision: "Thursday, April 29, 1965"
-    citation: "380 U.S. 678"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1964-093"
@@ -4188,9 +5442,12 @@ cases:
     title: "Warren Trading Post Co. v. Arizona Tax Comm&apos;n"
     volume: "380"
     page: "685"
+    docket: "115"
+    citation: "380 U.S. 685"
     pdfSource: "loc"
     dateDecision: "Thursday, April 29, 1965"
-    citation: "380 U.S. 685"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1964-105"
@@ -4198,9 +5455,12 @@ cases:
     title: "Holt v. Virginia"
     volume: "381"
     page: "131"
+    docket: "464"
+    citation: "381 U.S. 131"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1965"
-    citation: "381 U.S. 131"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1965-028"
@@ -4208,9 +5468,12 @@ cases:
     title: "Hazeltine Research, Inc. v. Brenner"
     volume: "382"
     page: "252"
+    docket: "57"
+    citation: "382 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 8, 1965"
-    citation: "382 U.S. 252"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1965-029"
@@ -4218,9 +5481,12 @@ cases:
     title: "Gunther v. San Diego &amp; Arizona Eastern R. Co."
     volume: "382"
     page: "257"
+    docket: "27"
+    citation: "382 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 8, 1965"
-    citation: "382 U.S. 257"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1965-042"
@@ -4228,9 +5494,12 @@ cases:
     title: "Giaccio v. Pennsylvania"
     volume: "382"
     page: "399"
+    docket: "47"
+    citation: "382 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 19, 1966"
-    citation: "382 U.S. 399"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1965-045"
@@ -4238,9 +5507,12 @@ cases:
     title: "Locomotive Engineers v. Chicago, R. I. &amp; P. R. Co."
     volume: "382"
     page: "423"
+    docket: "69"
+    citation: "382 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1966"
-    citation: "382 U.S. 423"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1965-058"
@@ -4248,9 +5520,12 @@ cases:
     title: "Accardi v. Pennsylvania R. Co."
     volume: "383"
     page: "225"
+    docket: "280"
+    citation: "383 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1966"
-    citation: "383 U.S. 225"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1965-065"
@@ -4258,9 +5533,12 @@ cases:
     title: "Surowitz v. Hilton Hotels Corp."
     volume: "383"
     page: "363"
+    docket: "161"
+    citation: "383 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1966"
-    citation: "383 U.S. 363"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1965-087"
@@ -4268,9 +5546,12 @@ cases:
     title: "Brookhart v. Janis"
     volume: "384"
     page: "001"
+    docket: "657"
+    citation: "384 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1966"
-    citation: "384 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1965-105"
@@ -4278,9 +5559,12 @@ cases:
     title: "Mills v. Alabama"
     volume: "384"
     page: "214"
+    docket: "597"
+    citation: "384 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1966"
-    citation: "384 U.S. 214"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1965-112"
@@ -4288,9 +5572,12 @@ cases:
     title: "United States v. Von&apos;s Grocery Co."
     volume: "384"
     page: "270"
+    docket: "303"
+    citation: "384 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1966"
-    citation: "384 U.S. 270"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1965-115"
@@ -4298,9 +5585,12 @@ cases:
     title: "FTC v. Brown Shoe Co."
     volume: "384"
     page: "316"
+    docket: "118"
+    citation: "384 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1966"
-    citation: "384 U.S. 316"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1965-123"
@@ -4308,9 +5598,12 @@ cases:
     title: "United States v. Pabst Brewing Co."
     volume: "384"
     page: "546"
+    docket: "404"
+    citation: "384 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1966"
-    citation: "384 U.S. 546"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1966-005"
@@ -4318,9 +5611,12 @@ cases:
     title: "Adderley v. Florida"
     volume: "385"
     page: "039"
+    docket: "19"
+    citation: "385 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1966"
-    citation: "385 U.S. 39"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1966-013"
@@ -4328,9 +5624,12 @@ cases:
     title: "United States v. Acme Process Equipment Co."
     volume: "385"
     page: "138"
+    docket: "86"
+    citation: "385 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1966"
-    citation: "385 U.S. 138"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1966-014"
@@ -4338,9 +5637,12 @@ cases:
     title: "United States v. Demko"
     volume: "385"
     page: "149"
+    docket: "76"
+    citation: "385 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1966"
-    citation: "385 U.S. 149"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1966-015"
@@ -4348,9 +5650,12 @@ cases:
     title: "Transportation-Communication Employees v. Union Pacific R. Co."
     volume: "385"
     page: "157"
+    docket: "28"
+    citation: "385 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1966"
-    citation: "385 U.S. 157"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1966-022"
@@ -4358,9 +5663,12 @@ cases:
     title: "Fortson v. Morris"
     volume: "385"
     page: "231"
+    docket: "800"
+    citation: "385 U.S. 231"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1966"
-    citation: "385 U.S. 231"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1966-052"
@@ -4368,9 +5676,12 @@ cases:
     title: "Chapman v. California"
     volume: "386"
     page: "018"
+    docket: "95"
+    citation: "386 U.S. 18"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1967"
-    citation: "386 U.S. 18"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1966-053"
@@ -4378,9 +5689,12 @@ cases:
     title: "Cooper v. California"
     volume: "386"
     page: "058"
+    docket: "103"
+    citation: "386 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1967"
-    citation: "386 U.S. 58"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1966-069"
@@ -4388,9 +5702,12 @@ cases:
     title: "Railroad Transfer Service, Inc. v. Chicago"
     volume: "386"
     page: "351"
+    docket: "209"
+    citation: "386 U.S. 351"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1967"
-    citation: "386 U.S. 351"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1966-086"
@@ -4398,9 +5715,12 @@ cases:
     title: "Waldron v. Moore-McCormack Lines, Inc."
     volume: "386"
     page: "724"
+    docket: "233"
+    citation: "386 U.S. 724"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1967"
-    citation: "386 U.S. 724"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1966-087"
@@ -4408,9 +5728,12 @@ cases:
     title: "Jackson v. Lykes Bros. S. S. Co."
     volume: "386"
     page: "731"
+    docket: "575"
+    citation: "386 U.S. 731"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1967"
-    citation: "386 U.S. 731"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1966-108"
@@ -4418,9 +5741,12 @@ cases:
     title: "Afroyim v. Rusk"
     volume: "387"
     page: "253"
+    docket: "456"
+    citation: "387 U.S. 253"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1967"
-    citation: "387 U.S. 253"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1967-026"
@@ -4428,9 +5754,12 @@ cases:
     title: "United States v. Louisiana"
     volume: "389"
     page: "155"
+    docket: "9 Orig."
+    citation: "389 U.S. 155"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1967"
-    citation: "389 U.S. 155"
+    voteMajority: 6
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1967-030"
@@ -4438,9 +5767,12 @@ cases:
     title: "Mine Workers v. Illinois Bar Assn."
     volume: "389"
     page: "217"
+    docket: "33"
+    citation: "389 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 5, 1967"
-    citation: "389 U.S. 217"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1967-031"
@@ -4448,9 +5780,12 @@ cases:
     title: "Nash v. Florida Industrial Comm&apos;n"
     volume: "389"
     page: "235"
+    docket: "48"
+    citation: "389 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 5, 1967"
-    citation: "389 U.S. 235"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1967-034"
@@ -4458,9 +5793,12 @@ cases:
     title: "Hughes v. Washington"
     volume: "389"
     page: "290"
+    docket: "15"
+    citation: "389 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1967"
-    citation: "389 U.S. 290"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1967-058"
@@ -4468,9 +5806,12 @@ cases:
     title: "Hardin v. Kentucky Util. Co."
     volume: "390"
     page: "001"
+    docket: "40"
+    citation: "390 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 16, 1968"
-    citation: "390 U.S. 1"
+    voteMajority: 6
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1967-074"
@@ -4478,9 +5819,12 @@ cases:
     title: "Federal Maritime Comm&apos;n v. Aktiebolaget Svenska Amerika Linien"
     volume: "390"
     page: "238"
+    docket: "257"
+    citation: "390 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 6, 1968"
-    citation: "390 U.S. 238"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1967-075"
@@ -4488,9 +5832,12 @@ cases:
     title: "NLRB v. United Ins. Co. of America"
     volume: "390"
     page: "254"
+    docket: "178"
+    citation: "390 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 6, 1968"
-    citation: "390 U.S. 254"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1967-097"
@@ -4498,9 +5845,12 @@ cases:
     title: "Edwards v. Pacific Fruit Express Co."
     volume: "390"
     page: "538"
+    docket: "465"
+    citation: "390 U.S. 538"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1968"
-    citation: "390 U.S. 538"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1967-103"
@@ -4508,9 +5858,12 @@ cases:
     title: "United States v. Coleman"
     volume: "390"
     page: "599"
+    docket: "630"
+    citation: "390 U.S. 599"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1968"
-    citation: "390 U.S. 599"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1967-104"
@@ -4518,9 +5871,12 @@ cases:
     title: "Stern v. South Chester Tube Co."
     volume: "390"
     page: "606"
+    docket: "486"
+    citation: "390 U.S. 606"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1968"
-    citation: "390 U.S. 606"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1967-113"
@@ -4528,9 +5884,12 @@ cases:
     title: "Mathis v. United States"
     volume: "391"
     page: "001"
+    docket: "726"
+    citation: "391 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1968"
-    citation: "391 U.S. 1"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1967-160"
@@ -4538,9 +5897,12 @@ cases:
     title: "Perma Life Mufflers, Inc. v. International Parts Corp."
     volume: "392"
     page: "134"
+    docket: "733"
+    citation: "392 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1968"
-    citation: "392 U.S. 134"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1967-177"
@@ -4548,9 +5910,12 @@ cases:
     title: "First Agricultural Nat. Bank of Berkshire Cty. v. State Tax Comm&apos;n"
     volume: "392"
     page: "339"
+    docket: "755"
+    citation: "392 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1968"
-    citation: "392 U.S. 339"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1968-003"
@@ -4558,9 +5923,12 @@ cases:
     title: "Williams v. Rhodes"
     volume: "393"
     page: "023"
+    docket: "543"
+    citation: "393 U.S. 23"
     pdfSource: "loc"
     dateDecision: "Tuesday, October 15, 1968"
-    citation: "393 U.S. 23"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1968-013"
@@ -4568,9 +5936,12 @@ cases:
     title: "Locomotive Firemen v. Chicago, R. I. &amp; P. R. Co."
     volume: "393"
     page: "129"
+    docket: "16"
+    citation: "393 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1968"
-    citation: "393 U.S. 129"
+    voteMajority: 7
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1968-014"
@@ -4578,9 +5949,12 @@ cases:
     title: "Commonwealth Coatings Corp. v. Continental Casualty Co."
     volume: "393"
     page: "145"
+    docket: "14"
+    citation: "393 U.S. 145"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1968"
-    citation: "393 U.S. 145"
+    voteMajority: 6
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1968-021"
@@ -4588,9 +5962,12 @@ cases:
     title: "FTC v. Texaco Inc."
     volume: "393"
     page: "223"
+    docket: "24"
+    citation: "393 U.S. 223"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1968"
-    citation: "393 U.S. 223"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1968-029"
@@ -4598,9 +5975,12 @@ cases:
     title: "Glover v. St. Louis-San Francisco R. Co."
     volume: "393"
     page: "324"
+    docket: "38"
+    citation: "393 U.S. 324"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 14, 1969"
-    citation: "393 U.S. 324"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1968-063"
@@ -4608,9 +5988,12 @@ cases:
     title: "Orozco v. Texas"
     volume: "394"
     page: "324"
+    docket: "641"
+    citation: "394 U.S. 324"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 25, 1969"
-    citation: "394 U.S. 324"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1968-064"
@@ -4618,9 +6001,12 @@ cases:
     title: "Snyder v. Harris"
     volume: "394"
     page: "332"
+    docket: "109"
+    citation: "394 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 25, 1969"
-    citation: "394 U.S. 332"
+    voteMajority: 7
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1968-075"
@@ -4628,9 +6014,12 @@ cases:
     title: "Fortner Enterprises, Inc. v. United States Steel Corp."
     volume: "394"
     page: "495"
+    docket: "306"
+    citation: "394 U.S. 495"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1969"
-    citation: "394 U.S. 495"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1968-097"
@@ -4638,9 +6027,12 @@ cases:
     title: "United States v. King"
     volume: "395"
     page: "001"
+    docket: "672"
+    citation: "395 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1969"
-    citation: "395 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1968-111"
@@ -4648,9 +6040,12 @@ cases:
     title: "United States v. Montgomery County Bd. of Ed."
     volume: "395"
     page: "225"
+    docket: "798"
+    citation: "395 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1969"
-    citation: "395 U.S. 225"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1968-130"
@@ -4658,9 +6053,12 @@ cases:
     title: "Perkins v. Standard Oil Co. of Cal."
     volume: "395"
     page: "642"
+    docket: "624"
+    citation: "395 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1969"
-    citation: "395 U.S. 642"
+    voteMajority: 5
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1969-014"
@@ -4668,9 +6066,12 @@ cases:
     title: "Detroit &amp; Toledo Shore Line R. Co. v. Transportation Union"
     volume: "396"
     page: "142"
+    docket: "29"
+    citation: "396 U.S. 142"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 9, 1969"
-    citation: "396 U.S. 142"
+    voteMajority: 6
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1969-032"
@@ -4678,9 +6079,12 @@ cases:
     title: "Evans v. Abney"
     volume: "396"
     page: "435"
+    docket: "60"
+    citation: "396 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1970"
-    citation: "396 U.S. 435"
+    voteMajority: 5
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1969-033"
@@ -4688,9 +6092,12 @@ cases:
     title: "Breen v. Selective Serv. Local Bd. No. 16"
     volume: "396"
     page: "460"
+    docket: "65"
+    citation: "396 U.S. 460"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1970"
-    citation: "396 U.S. 460"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1969-045"
@@ -4698,9 +6105,12 @@ cases:
     title: "Hadley v. Junior College Dist. of Metropolitan Kansas City"
     volume: "397"
     page: "050"
+    docket: "37"
+    citation: "397 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 25, 1970"
-    citation: "397 U.S. 50"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1969-050"
@@ -4708,9 +6118,12 @@ cases:
     title: "H. K. Porter Co. v. NLRB"
     volume: "397"
     page: "099"
+    docket: "230"
+    citation: "397 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1970"
-    citation: "397 U.S. 99"
+    voteMajority: 4
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1969-051"
@@ -4718,9 +6131,12 @@ cases:
     title: "Toussie v. United States"
     volume: "397"
     page: "112"
+    docket: "441"
+    citation: "397 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1970"
-    citation: "397 U.S. 112"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1969-068"
@@ -4728,9 +6144,12 @@ cases:
     title: "Illinois v. Allen"
     volume: "397"
     page: "337"
+    docket: "606"
+    citation: "397 U.S. 337"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 31, 1970"
-    citation: "397 U.S. 337"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1969-097"
@@ -4738,9 +6157,12 @@ cases:
     title: "Schacht v. United States"
     volume: "398"
     page: "058"
+    docket: "628"
+    citation: "398 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1970"
-    citation: "398 U.S. 58"
+    voteMajority: 8
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1969-107"
@@ -4748,9 +6170,12 @@ cases:
     title: "Atlantic Coast Line R. Co. v. Locomotive Engineers"
     volume: "398"
     page: "281"
+    docket: "477"
+    citation: "398 U.S. 281"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1970"
-    citation: "398 U.S. 281"
+    voteMajority: 5
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1969-111"
@@ -4758,9 +6183,12 @@ cases:
     title: "Welsh v. United States"
     volume: "398"
     page: "333"
+    docket: "76"
+    citation: "398 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1970"
-    citation: "398 U.S. 333"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-014"
@@ -4768,9 +6196,12 @@ cases:
     title: "Oregon v. Mitchell"
     volume: "400"
     page: "112"
+    docket: "43 Orig."
+    citation: "400 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1970"
-    citation: "400 U.S. 112"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-033"
@@ -4778,9 +6209,12 @@ cases:
     title: "Baird v. State Bar of Ariz."
     volume: "401"
     page: "001"
+    docket: "15"
+    citation: "401 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1971"
-    citation: "401 U.S. 1"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-034"
@@ -4788,9 +6222,12 @@ cases:
     title: "In re Stolar"
     volume: "401"
     page: "023"
+    docket: "18"
+    citation: "401 U.S. 23"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1971"
-    citation: "401 U.S. 23"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-035"
@@ -4798,9 +6235,12 @@ cases:
     title: "Younger v. Harris"
     volume: "401"
     page: "037"
+    docket: "2"
+    citation: "401 U.S. 37"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1971"
-    citation: "401 U.S. 37"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-036"
@@ -4808,9 +6248,12 @@ cases:
     title: "Samuels v. Mackell"
     volume: "401"
     page: "066"
+    docket: "7"
+    citation: "401 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1971"
-    citation: "401 U.S. 66"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-037"
@@ -4818,9 +6261,12 @@ cases:
     title: "Boyle v. Landry"
     volume: "401"
     page: "077"
+    docket: "4"
+    citation: "401 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1971"
-    citation: "401 U.S. 77"
+    voteMajority: 8
+    voteMinority: 1
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-038"
@@ -4828,9 +6274,12 @@ cases:
     title: "Perez v. Ledesma"
     volume: "401"
     page: "082"
+    docket: "60"
+    citation: "401 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1971"
-    citation: "401 U.S. 82"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-068"
@@ -4838,9 +6287,12 @@ cases:
     title: "Labine v. Vincent"
     volume: "401"
     page: "532"
+    docket: "5257"
+    citation: "401 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1971"
-    citation: "401 U.S. 532"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-070"
@@ -4848,9 +6300,12 @@ cases:
     title: "Transportation Union v. State Bar of Mich."
     volume: "401"
     page: "576"
+    docket: "434"
+    citation: "401 U.S. 576"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1971"
-    citation: "401 U.S. 576"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-087"
@@ -4858,9 +6313,12 @@ cases:
     title: "Rosenberg v. Yee Chien Woo"
     volume: "402"
     page: "049"
+    docket: "156"
+    citation: "402 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 21, 1971"
-    citation: "402 U.S. 49"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-088"
@@ -4868,9 +6326,12 @@ cases:
     title: "United States v. Vuitch"
     volume: "402"
     page: "062"
+    docket: "84"
+    citation: "402 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 21, 1971"
-    citation: "402 U.S. 62"
+    voteMajority: 5
+    voteMinority: 2
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-091"
@@ -4878,9 +6339,12 @@ cases:
     title: "James v. Valtierra"
     volume: "402"
     page: "137"
+    docket: "154"
+    citation: "402 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1971"
-    citation: "402 U.S. 137"
+    voteMajority: 5
+    voteMinority: 3
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-103"
@@ -4888,9 +6352,12 @@ cases:
     title: "Astrup v. INS"
     volume: "402"
     page: "509"
+    docket: "840"
+    citation: "402 U.S. 509"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1971"
-    citation: "402 U.S. 509"
+    voteMajority: 9
+    voteMinority: 0
     authorId: hlblack
     authorName: "Hugo Black"
   - id: "1970-130"
@@ -4898,9 +6365,12 @@ cases:
     title: "Palmer v. Thompson"
     volume: "403"
     page: "217"
+    docket: "107"
+    citation: "403 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1971"
-    citation: "403 U.S. 217"
+    voteMajority: 5
+    voteMinority: 4
     authorId: hlblack
     authorName: "Hugo Black"
 ---

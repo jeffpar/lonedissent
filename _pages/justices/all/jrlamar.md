@@ -8,9 +8,12 @@ cases:
     title: "J. W. Perry Co. v. Norfolk"
     volume: "220"
     page: "472"
+    docket: "103"
+    citation: "220 U.S. 472"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1911"
-    citation: "220 U.S. 472"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1910-122"
@@ -18,9 +21,12 @@ cases:
     title: "United States v. Grimaud"
     volume: "220"
     page: "506"
+    docket: "241"
+    citation: "220 U.S. 506"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 3, 1911"
-    citation: "220 U.S. 506"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1910-123"
@@ -28,9 +34,12 @@ cases:
     title: "Light v. United States"
     volume: "220"
     page: "523"
+    docket: "360"
+    citation: "220 U.S. 523"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1911"
-    citation: "220 U.S. 523"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1910-152"
@@ -38,9 +47,12 @@ cases:
     title: "Gompers v. Bucks Stove &amp; Range Co."
     volume: "221"
     page: "418"
+    docket: "372"
+    citation: "221 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "221 U.S. 418"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1910-168"
@@ -48,9 +60,12 @@ cases:
     title: "Hopkins v. Clemson"
     volume: "221"
     page: "636"
+    docket: "70"
+    citation: "221 U.S. 636"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1911"
-    citation: "221 U.S. 636"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1910-169"
@@ -58,9 +73,12 @@ cases:
     title: "Faber v. United States"
     volume: "221"
     page: "649"
+    docket: "134"
+    citation: "221 U.S. 649"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1911"
-    citation: "221 U.S. 649"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1910-170"
@@ -68,9 +86,12 @@ cases:
     title: "Provident Institution for Sav. v. Malone"
     volume: "221"
     page: "660"
+    docket: "151"
+    citation: "221 U.S. 660"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1911"
-    citation: "221 U.S. 660"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1910-171"
@@ -78,9 +99,12 @@ cases:
     title: "Baltimore &amp; Ohio Southwestern R. Co. v. United States"
     volume: "220"
     page: "094"
+    docket: "7"
+    citation: "220 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1911"
-    citation: "220 U.S. 94"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-011"
@@ -88,9 +112,12 @@ cases:
     title: "United States ex rel. Turner v. Fisher"
     volume: "222"
     page: "204"
+    docket: "60"
+    citation: "222 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1911"
-    citation: "222 U.S. 204"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-012"
@@ -98,9 +125,12 @@ cases:
     title: "Banker Brothers Co. v. Pennsylvania"
     volume: "222"
     page: "210"
+    docket: "72"
+    citation: "222 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1911"
-    citation: "222 U.S. 210"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-013"
@@ -108,9 +138,12 @@ cases:
     title: "Union Pacific R. Co. v. Updike Grain Co."
     volume: "222"
     page: "215"
+    docket: "353"
+    citation: "222 U.S. 215"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1911"
-    citation: "222 U.S. 215"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-019"
@@ -118,9 +151,12 @@ cases:
     title: "Consaul v. Cummings"
     volume: "222"
     page: "262"
+    docket: "38"
+    citation: "222 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1911"
-    citation: "222 U.S. 262"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-020"
@@ -128,9 +164,12 @@ cases:
     title: "United States v. Morgan"
     volume: "222"
     page: "274"
+    docket: "463"
+    citation: "222 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1911"
-    citation: "222 U.S. 274"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-093"
@@ -138,9 +177,12 @@ cases:
     title: "Westinghouse Elec. &amp; Mfg. Co. v. Wagner Elec. &amp; Mfg. Co."
     volume: "225"
     page: "604"
+    docket: "179"
+    citation: "225 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Friday, June 7, 1912"
-    citation: "225 U.S. 604"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-094"
@@ -148,9 +190,12 @@ cases:
     title: "Murphy v. California"
     volume: "225"
     page: "623"
+    docket: "204"
+    citation: "225 U.S. 623"
     pdfSource: "loc"
     dateDecision: "Friday, June 7, 1912"
-    citation: "225 U.S. 623"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-095"
@@ -158,9 +203,12 @@ cases:
     title: "Henderson v. Mayer"
     volume: "225"
     page: "631"
+    docket: "219"
+    citation: "225 U.S. 631"
     pdfSource: "loc"
     dateDecision: "Friday, June 7, 1912"
-    citation: "225 U.S. 631"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-096"
@@ -168,9 +216,12 @@ cases:
     title: "Atchison, T. &amp; S. F. R. Co. v. United States"
     volume: "225"
     page: "640"
+    docket: "716"
+    citation: "225 U.S. 640"
     pdfSource: "loc"
     dateDecision: "Friday, June 7, 1912"
-    citation: "225 U.S. 640"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-120"
@@ -178,9 +229,12 @@ cases:
     title: "Soliah v. Heskin"
     volume: "222"
     page: "522"
+    docket: "76"
+    citation: "222 U.S. 522"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1912"
-    citation: "222 U.S. 522"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-121"
@@ -188,9 +242,12 @@ cases:
     title: "Keeney v. Comptroller of N. Y."
     volume: "222"
     page: "525"
+    docket: "81"
+    citation: "222 U.S. 525"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1912"
-    citation: "222 U.S. 525"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-122"
@@ -198,9 +255,12 @@ cases:
     title: "Johnson v. Collier"
     volume: "222"
     page: "538"
+    docket: "104"
+    citation: "222 U.S. 538"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1912"
-    citation: "222 U.S. 538"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-123"
@@ -208,9 +268,12 @@ cases:
     title: "ICC v. Union Pacific R. Co."
     volume: "222"
     page: "541"
+    docket: "451"
+    citation: "222 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1912"
-    citation: "222 U.S. 541"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-162"
@@ -218,9 +281,12 @@ cases:
     title: "Gaar, Scott &amp; Co. v. Shannon"
     volume: "223"
     page: "468"
+    docket: "88"
+    citation: "223 U.S. 468"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 468"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-163"
@@ -228,9 +294,12 @@ cases:
     title: "New Marshall Engine Co. v. Marshall Engine Co."
     volume: "223"
     page: "473"
+    docket: "107"
+    citation: "223 U.S. 473"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 473"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-164"
@@ -238,9 +307,12 @@ cases:
     title: "Galveston, H. &amp; S. A. R. Co. v. Wallace"
     volume: "223"
     page: "481"
+    docket: "108"
+    citation: "223 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 481"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-165"
@@ -248,9 +320,12 @@ cases:
     title: "McCarthy v. First Nat. Bank of Rapid City"
     volume: "223"
     page: "493"
+    docket: "122"
+    citation: "223 U.S. 493"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 493"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-166"
@@ -258,9 +333,12 @@ cases:
     title: "Latimer v. United States"
     volume: "223"
     page: "501"
+    docket: "151"
+    citation: "223 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 501"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-167"
@@ -268,9 +346,12 @@ cases:
     title: "Miller v. King"
     volume: "223"
     page: "505"
+    docket: "153"
+    citation: "223 U.S. 505"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 505"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-168"
@@ -278,9 +359,12 @@ cases:
     title: "United States v. Nord Deutscher Lloyd"
     volume: "223"
     page: "512"
+    docket: "611"
+    citation: "223 U.S. 512"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 512"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-169"
@@ -288,9 +372,12 @@ cases:
     title: "Metropolitan Water Co. v. Kaw Valley Drainage Dist. of Wyandotte Cty."
     volume: "223"
     page: "519"
+    docket: "844"
+    citation: "223 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 519"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-184"
@@ -298,9 +385,12 @@ cases:
     title: "Ripley v. United States"
     volume: "223"
     page: "695"
+    docket: "498"
+    citation: "223 U.S. 695"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1912"
-    citation: "223 U.S. 695"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-209"
@@ -308,9 +398,12 @@ cases:
     title: "Standard Oil Co. of Ind. v. Missouri"
     volume: "224"
     page: "270"
+    docket: "47"
+    citation: "224 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1912"
-    citation: "224 U.S. 270"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-226"
@@ -318,9 +411,12 @@ cases:
     title: "Washington ex rel. Oregon R. &amp; Nav. Co. v. Fairchild"
     volume: "224"
     page: "510"
+    docket: "118"
+    citation: "224 U.S. 510"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1912"
-    citation: "224 U.S. 510"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-239"
@@ -328,9 +424,12 @@ cases:
     title: "Louisville v. Cumberland Telephone &amp; Telegraph Co."
     volume: "224"
     page: "649"
+    docket: "197"
+    citation: "224 U.S. 649"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1912"
-    citation: "224 U.S. 649"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-240"
@@ -338,9 +437,12 @@ cases:
     title: "Choate v. Trapp"
     volume: "224"
     page: "665"
+    docket: "809"
+    citation: "224 U.S. 665"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1912"
-    citation: "224 U.S. 665"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-241"
@@ -348,9 +450,12 @@ cases:
     title: "Gleason v. Wood"
     volume: "224"
     page: "679"
+    docket: "575"
+    citation: "224 U.S. 679"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1912"
-    citation: "224 U.S. 679"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1911-242"
@@ -358,9 +463,12 @@ cases:
     title: "English v. Richardson"
     volume: "224"
     page: "680"
+    docket: "559"
+    citation: "224 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1912"
-    citation: "224 U.S. 680"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-023"
@@ -368,9 +476,12 @@ cases:
     title: "German Alliance Ins. Co. v. Home Water Supply Co."
     volume: "226"
     page: "220"
+    docket: "19"
+    citation: "226 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 220"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-024"
@@ -378,9 +489,12 @@ cases:
     title: "Veve v. Sanchez"
     volume: "226"
     page: "234"
+    docket: "42"
+    citation: "226 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 234"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-058"
@@ -388,9 +502,12 @@ cases:
     title: "Plumley v. United States"
     volume: "226"
     page: "545"
+    docket: "35"
+    citation: "226 U.S. 545"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1913"
-    citation: "226 U.S. 545"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-059"
@@ -398,9 +515,12 @@ cases:
     title: "Bunker Hill &amp; Sullivan Mining &amp; Concentrating Co. v. United States"
     volume: "226"
     page: "548"
+    docket: "101"
+    citation: "226 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1913"
-    citation: "226 U.S. 548"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-073"
@@ -408,9 +528,12 @@ cases:
     title: "ICC v. Louisville &amp; Nashville R. Co."
     volume: "227"
     page: "088"
+    docket: "600"
+    citation: "227 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1913"
-    citation: "227 U.S. 88"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-088"
@@ -418,9 +541,12 @@ cases:
     title: "Johnson v. Hoy"
     volume: "227"
     page: "245"
+    docket: "842"
+    citation: "227 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1913"
-    citation: "227 U.S. 245"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-123"
@@ -428,9 +554,12 @@ cases:
     title: "Matheson v. United States"
     volume: "227"
     page: "540"
+    docket: "148"
+    citation: "227 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 540"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-124"
@@ -438,9 +567,12 @@ cases:
     title: "Grand Trunk Western R. Co. v. South Bend"
     volume: "227"
     page: "544"
+    docket: "81"
+    citation: "227 U.S. 544"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 544"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-125"
@@ -448,9 +580,12 @@ cases:
     title: "Southern Pacific Co. v. Portland"
     volume: "227"
     page: "559"
+    docket: "122"
+    citation: "227 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 559"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-126"
@@ -458,9 +593,12 @@ cases:
     title: "Van Iderstine v. National Discount Co."
     volume: "227"
     page: "575"
+    docket: "136"
+    citation: "227 U.S. 575"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 575"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-156"
@@ -468,9 +606,12 @@ cases:
     title: "Hebert v. Crawford"
     volume: "228"
     page: "204"
+    docket: "83"
+    citation: "228 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 204"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-157"
@@ -478,9 +619,12 @@ cases:
     title: "Lyle v. Patterson"
     volume: "228"
     page: "211"
+    docket: "167"
+    citation: "228 U.S. 211"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 211"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-158"
@@ -488,9 +632,12 @@ cases:
     title: "Wilson v. Snow"
     volume: "228"
     page: "217"
+    docket: "187"
+    citation: "228 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 217"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-159"
@@ -498,9 +645,12 @@ cases:
     title: "Pico v. United States"
     volume: "228"
     page: "225"
+    docket: "319"
+    citation: "228 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 225"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-181"
@@ -508,9 +658,12 @@ cases:
     title: "Northern Pacific R. Co. v. Boyd"
     volume: "228"
     page: "482"
+    docket: "47"
+    citation: "228 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1913"
-    citation: "228 U.S. 482"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-222"
@@ -518,9 +671,12 @@ cases:
     title: "Degge v. Hitchcock"
     volume: "229"
     page: "162"
+    docket: "157"
+    citation: "229 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 162"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-223"
@@ -528,9 +684,12 @@ cases:
     title: "Mackay v. Uinta Development Co."
     volume: "229"
     page: "173"
+    docket: "190"
+    citation: "229 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 173"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-224"
@@ -538,9 +697,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Prater"
     volume: "229"
     page: "177"
+    docket: "211"
+    citation: "229 U.S. 177"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 177"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-225"
@@ -548,9 +710,12 @@ cases:
     title: "First Nat. Bank of Claremore v. Keys"
     volume: "229"
     page: "179"
+    docket: "263"
+    citation: "229 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 179"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-226"
@@ -558,9 +723,12 @@ cases:
     title: "Swigart v. Baker"
     volume: "229"
     page: "187"
+    docket: "944"
+    citation: "229 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 187"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-256"
@@ -568,9 +736,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. Hall"
     volume: "229"
     page: "511"
+    docket: "249"
+    citation: "229 U.S. 511"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "229 U.S. 511"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-257"
@@ -578,9 +749,12 @@ cases:
     title: "American Nat. Bank of Nashville v. Miller"
     volume: "229"
     page: "517"
+    docket: "325"
+    citation: "229 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "229 U.S. 517"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-258"
@@ -588,9 +762,12 @@ cases:
     title: "Studley v. Boylston Nat. Bank"
     volume: "229"
     page: "523"
+    docket: "899"
+    citation: "229 U.S. 523"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "229 U.S. 523"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-285"
@@ -598,9 +775,12 @@ cases:
     title: "Pennsylvania R. Co. v. International Coal Mining Co."
     volume: "230"
     page: "184"
+    docket: "14"
+    citation: "230 U.S. 184"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "230 U.S. 184"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-286"
@@ -608,9 +788,12 @@ cases:
     title: "Mitchell Coal &amp; Coke Co. v. Pennsylvania R. Co."
     volume: "230"
     page: "247"
+    docket: "674"
+    citation: "230 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "230 U.S. 247"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-287"
@@ -618,9 +801,12 @@ cases:
     title: "Morrisdale Coal Co. v. Pennsylvania R. Co."
     volume: "230"
     page: "304"
+    docket: "207"
+    citation: "230 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "230 U.S. 304"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-288"
@@ -628,9 +814,12 @@ cases:
     title: "Fourche River Lumber Co. v. Bryant Lumber Co."
     volume: "230"
     page: "316"
+    docket: "296"
+    citation: "230 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "230 U.S. 316"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1912-289"
@@ -638,9 +827,12 @@ cases:
     title: "Omaha &amp; Council Bluffs Street R. Co. v. ICC"
     volume: "230"
     page: "324"
+    docket: "458"
+    citation: "230 U.S. 324"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1913"
-    citation: "230 U.S. 324"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-010"
@@ -648,9 +840,12 @@ cases:
     title: "Baker v. Warner"
     volume: "231"
     page: "588"
+    docket: "41"
+    citation: "231 U.S. 588"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1913"
-    citation: "231 U.S. 588"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-038"
@@ -658,9 +853,12 @@ cases:
     title: "Downman v. Texas"
     volume: "231"
     page: "353"
+    docket: "43"
+    citation: "231 U.S. 353"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 353"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-039"
@@ -668,9 +866,12 @@ cases:
     title: "United States v. Twenty-Five Packages of Panama Hats"
     volume: "231"
     page: "358"
+    docket: "257"
+    citation: "231 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 358"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-040"
@@ -678,9 +879,12 @@ cases:
     title: "Delaware, L. &amp; W. R. Co. v. United States"
     volume: "231"
     page: "363"
+    docket: "275"
+    citation: "231 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 363"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-143"
@@ -688,9 +892,12 @@ cases:
     title: "Smith v. Texas"
     volume: "233"
     page: "630"
+    docket: "268"
+    citation: "233 U.S. 630"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1914"
-    citation: "233 U.S. 630"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-153"
@@ -698,9 +905,12 @@ cases:
     title: "Baer Brothers Mercantile Co. v. Denver &amp; Rio Grande R. Co."
     volume: "233"
     page: "479"
+    docket: "140"
+    citation: "233 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1914"
-    citation: "233 U.S. 479"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-165"
@@ -708,9 +918,12 @@ cases:
     title: "Tennessee Coal, Iron &amp; R. Co. v. George"
     volume: "233"
     page: "354"
+    docket: "299"
+    citation: "233 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1914"
-    citation: "233 U.S. 354"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-187"
@@ -718,9 +931,12 @@ cases:
     title: "El Paso Brick Co. v. McKnight"
     volume: "233"
     page: "250"
+    docket: "185"
+    citation: "233 U.S. 250"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 250"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-188"
@@ -728,9 +944,12 @@ cases:
     title: "Am. Iron Co. v. Seaboard Air Line"
     volume: "233"
     page: "261"
+    docket: "233"
+    citation: "233 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 261"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-189"
@@ -738,9 +957,12 @@ cases:
     title: "Franklin v. Lynch"
     volume: "233"
     page: "269"
+    docket: "553"
+    citation: "233 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 269"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-197"
@@ -748,9 +970,12 @@ cases:
     title: "Eberle v. Michigan"
     volume: "232"
     page: "700"
+    docket: "164"
+    citation: "232 U.S. 700"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1914"
-    citation: "232 U.S. 700"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-198"
@@ -758,9 +983,12 @@ cases:
     title: "Schuyler v. Littlefield"
     volume: "232"
     page: "707"
+    docket: "213"
+    citation: "232 U.S. 707"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1914"
-    citation: "232 U.S. 707"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-239"
@@ -768,9 +996,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Cramer"
     volume: "232"
     page: "490"
+    docket: "156"
+    citation: "232 U.S. 490"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 490"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-240"
@@ -778,9 +1009,12 @@ cases:
     title: "D. E. Foote &amp; Co. v. Stanley"
     volume: "232"
     page: "494"
+    docket: "159"
+    citation: "232 U.S. 494"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 494"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-241"
@@ -788,9 +1022,12 @@ cases:
     title: "Great Northern R. Co. v. O&apos;Connor"
     volume: "232"
     page: "508"
+    docket: "473"
+    citation: "232 U.S. 508"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 508"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-257"
@@ -798,9 +1035,12 @@ cases:
     title: "Atchison, T. &amp; S. F. R. Co. v. United States"
     volume: "232"
     page: "199"
+    docket: "590"
+    citation: "232 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1914"
-    citation: "232 U.S. 199"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-286"
@@ -808,9 +1048,12 @@ cases:
     title: "Swift v. McPherson"
     volume: "232"
     page: "051"
+    docket: "77"
+    citation: "232 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "232 U.S. 51"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-287"
@@ -818,9 +1061,12 @@ cases:
     title: "National Safe Deposit Co. v. Stead"
     volume: "232"
     page: "058"
+    docket: "138"
+    citation: "232 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "232 U.S. 58"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1913-288"
@@ -828,9 +1074,12 @@ cases:
     title: "United States v. Buchanan"
     volume: "232"
     page: "072"
+    docket: "589"
+    citation: "232 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "232 U.S. 72"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-012"
@@ -838,9 +1087,12 @@ cases:
     title: "Minidoka &amp; Southwestern R. Co. v. United States"
     volume: "235"
     page: "211"
+    docket: "19"
+    citation: "235 U.S. 211"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1914"
-    citation: "235 U.S. 211"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-013"
@@ -848,9 +1100,12 @@ cases:
     title: "Henry v. Henkel"
     volume: "235"
     page: "219"
+    docket: "216"
+    citation: "235 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1914"
-    citation: "235 U.S. 219"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-014"
@@ -858,9 +1113,12 @@ cases:
     title: "United States v. Nixon"
     volume: "235"
     page: "231"
+    docket: "427"
+    citation: "235 U.S. 231"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1914"
-    citation: "235 U.S. 231"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-015"
@@ -868,9 +1126,12 @@ cases:
     title: "United States v. Salen"
     volume: "235"
     page: "237"
+    docket: "506"
+    citation: "235 U.S. 237"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1914"
-    citation: "235 U.S. 237"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-067"
@@ -878,9 +1139,12 @@ cases:
     title: "Pennsylvania R. Co. v. Puritan Coal Mining Co."
     volume: "237"
     page: "121"
+    docket: "76"
+    citation: "237 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1915"
-    citation: "237 U.S. 121"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-068"
@@ -888,9 +1152,12 @@ cases:
     title: "Chapman v. Zobelein"
     volume: "237"
     page: "135"
+    docket: "200"
+    citation: "237 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1915"
-    citation: "237 U.S. 135"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-069"
@@ -898,9 +1165,12 @@ cases:
     title: "Eastern R. Co. of N. M. v. Littlefield"
     volume: "237"
     page: "140"
+    docket: "320"
+    citation: "237 U.S. 140"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1915"
-    citation: "237 U.S. 140"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-070"
@@ -908,9 +1178,12 @@ cases:
     title: "United States v. Sherman &amp; Sons Co."
     volume: "237"
     page: "146"
+    docket: "541"
+    citation: "237 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1915"
-    citation: "237 U.S. 146"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-071"
@@ -918,9 +1191,12 @@ cases:
     title: "American Surety Co. of N. Y. v. Shulz"
     volume: "237"
     page: "159"
+    docket: "643"
+    citation: "237 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1915"
-    citation: "237 U.S. 159"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-131"
@@ -928,9 +1204,12 @@ cases:
     title: "Hartford Life Ins. Co. v. IBS"
     volume: "237"
     page: "662"
+    docket: "213"
+    citation: "237 U.S. 662"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "237 U.S. 662"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-136"
@@ -938,9 +1217,12 @@ cases:
     title: "Newman v. United States ex rel. Frizzell"
     volume: "238"
     page: "537"
+    docket: "813"
+    citation: "238 U.S. 537"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1915"
-    citation: "238 U.S. 537"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-146"
@@ -948,9 +1230,12 @@ cases:
     title: "Chicago, M. &amp; St. P. R. Co. v. Wisconsin"
     volume: "238"
     page: "491"
+    docket: "177"
+    citation: "238 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1915"
-    citation: "238 U.S. 491"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-147"
@@ -958,9 +1243,12 @@ cases:
     title: "Wells Fargo &amp; Co. Express v. Ford"
     volume: "238"
     page: "503"
+    docket: "259"
+    citation: "238 U.S. 503"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1915"
-    citation: "238 U.S. 503"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-148"
@@ -968,9 +1256,12 @@ cases:
     title: "Central Vermont R. Co. v. White"
     volume: "238"
     page: "507"
+    docket: "407"
+    citation: "238 U.S. 507"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1915"
-    citation: "238 U.S. 507"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-149"
@@ -978,9 +1269,12 @@ cases:
     title: "United States v. Delaware, L. &amp; W. R. Co."
     volume: "238"
     page: "516"
+    docket: "517"
+    citation: "238 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1915"
-    citation: "238 U.S. 516"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-165"
@@ -988,9 +1282,12 @@ cases:
     title: "New York Central &amp; H. R. R. Co. v. Carr"
     volume: "238"
     page: "260"
+    docket: "257"
+    citation: "238 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 260"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-166"
@@ -998,9 +1295,12 @@ cases:
     title: "McDonald v. Pless"
     volume: "238"
     page: "264"
+    docket: "283"
+    citation: "238 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 264"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-167"
@@ -1008,9 +1308,12 @@ cases:
     title: "Norfolk Southern R. Co. v. Ferebee"
     volume: "238"
     page: "269"
+    docket: "779"
+    citation: "238 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 269"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-173"
@@ -1018,9 +1321,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. United States"
     volume: "238"
     page: "001"
+    docket: "673"
+    citation: "238 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "238 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-174"
@@ -1028,9 +1334,12 @@ cases:
     title: "Kreitlein v. Ferger"
     volume: "238"
     page: "021"
+    docket: "157"
+    citation: "238 U.S. 21"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "238 U.S. 21"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-194"
@@ -1038,9 +1347,12 @@ cases:
     title: "A. J. Phillips Co. v. Grand Trunk Western R. Co."
     volume: "236"
     page: "662"
+    docket: "124"
+    citation: "236 U.S. 662"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1915"
-    citation: "236 U.S. 662"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-229"
@@ -1048,9 +1360,12 @@ cases:
     title: "Southern R. Co. v. Railroad Comm&apos;n of Ind."
     volume: "236"
     page: "439"
+    docket: "107"
+    citation: "236 U.S. 439"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 439"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-230"
@@ -1058,9 +1373,12 @@ cases:
     title: "Lehman, Stern &amp; Co. v. S. Gumbel &amp; Co."
     volume: "236"
     page: "448"
+    docket: "146"
+    citation: "236 U.S. 448"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 448"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-231"
@@ -1068,9 +1386,12 @@ cases:
     title: "Toledo, St. L. &amp; W. R. Co. v. Slavin"
     volume: "236"
     page: "454"
+    docket: "147"
+    citation: "236 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 454"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-232"
@@ -1078,9 +1399,12 @@ cases:
     title: "United States v. Midwest Oil Co."
     volume: "236"
     page: "459"
+    docket: "278"
+    citation: "236 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 459"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-247"
@@ -1088,9 +1412,12 @@ cases:
     title: "Simon v. Southern R. Co."
     volume: "236"
     page: "115"
+    docket: "34"
+    citation: "236 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1915"
-    citation: "236 U.S. 115"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-256"
@@ -1098,9 +1425,12 @@ cases:
     title: "Wadley Southern R. Co. v. Georgia"
     volume: "235"
     page: "651"
+    docket: "27"
+    citation: "235 U.S. 651"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1915"
-    citation: "235 U.S. 651"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-268"
@@ -1108,9 +1438,12 @@ cases:
     title: "Mercelis v. Wilson"
     volume: "235"
     page: "579"
+    docket: "68"
+    citation: "235 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 579"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-269"
@@ -1118,9 +1451,12 @@ cases:
     title: "Hull v. Dicks"
     volume: "235"
     page: "584"
+    docket: "78"
+    citation: "235 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 584"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
   - id: "1914-270"
@@ -1128,9 +1464,12 @@ cases:
     title: "Brown v. Fletcher"
     volume: "235"
     page: "589"
+    docket: "454"
+    citation: "235 U.S. 589"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 589"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jrlamar
     authorName: "Joseph Lamar"
 ---

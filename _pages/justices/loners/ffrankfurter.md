@@ -8,9 +8,12 @@ cases:
     title: "United States v. Bethlehem Steel Corp."
     volume: "315"
     page: "289"
+    docket: "8"
+    citation: "315 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Monday, February 16, 1942"
-    citation: "315 U.S. 289"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1945-086"
@@ -18,9 +21,12 @@ cases:
     title: "First Iowa Hydro-Electric Cooperative v. FPC"
     volume: "328"
     page: "152"
+    docket: "603"
+    citation: "328 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1946"
-    citation: "328 U.S. 152"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1945-088"
@@ -28,9 +34,12 @@ cases:
     title: "Bigelow v. RKO Radio Pictures, Inc."
     volume: "327"
     page: "251"
+    docket: "444"
+    citation: "327 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1946"
-    citation: "327 U.S. 251"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1945-090"
@@ -38,9 +47,12 @@ cases:
     title: "Reconstruction Finance Corporation v. Denver &amp; Rio Grande Western R. Co."
     volume: "328"
     page: "495"
+    docket: "278"
+    citation: "328 U.S. 495"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1946"
-    citation: "328 U.S. 495"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1945-119"
@@ -48,9 +60,12 @@ cases:
     title: "Mason v. Paradise District"
     volume: "326"
     page: "536"
+    docket: "306"
+    citation: "326 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1946"
-    citation: "326 U.S. 536"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1945-134"
@@ -58,9 +73,12 @@ cases:
     title: "SEC v. W. J. Howey Co."
     volume: "328"
     page: "293"
+    docket: "843"
+    citation: "328 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1946"
-    citation: "328 U.S. 293"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1946-036"
@@ -68,9 +86,12 @@ cases:
     title: "Railway Conductors v. Swan"
     volume: "329"
     page: "520"
+    docket: "63"
+    citation: "329 U.S. 520"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1947"
-    citation: "329 U.S. 520"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1946-044"
@@ -78,9 +99,12 @@ cases:
     title: "Insurance Group Committee v. Denver &amp; Rio Grande Western R. Co."
     volume: "329"
     page: "607"
+    docket: "690"
+    citation: "329 U.S. 607"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1947"
-    citation: "329 U.S. 607"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1946-091"
@@ -88,9 +112,12 @@ cases:
     title: "Fleming v. Rhodes"
     volume: "331"
     page: "100"
+    docket: "682"
+    citation: "331 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1947"
-    citation: "331 U.S. 100"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1947-076"
@@ -98,9 +125,12 @@ cases:
     title: "United States v. Griffith"
     volume: "334"
     page: "100"
+    docket: "64"
+    citation: "334 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1948"
-    citation: "334 U.S. 100"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1947-078"
@@ -108,9 +138,12 @@ cases:
     title: "United States v. Paramount Pictures, Inc."
     volume: "334"
     page: "131"
+    docket: "79"
+    citation: "334 U.S. 131"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1948"
-    citation: "334 U.S. 131"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1948-057"
@@ -118,9 +151,12 @@ cases:
     title: "United States v. Knight"
     volume: "336"
     page: "505"
+    docket: "406"
+    citation: "336 U.S. 505"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1949"
-    citation: "336 U.S. 505"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1948-082"
@@ -128,9 +164,12 @@ cases:
     title: "Empresa Siderurgica, S. A. v. County of Merced"
     volume: "337"
     page: "154"
+    docket: "327"
+    citation: "337 U.S. 154"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1949"
-    citation: "337 U.S. 154"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1949-047"
@@ -138,9 +177,12 @@ cases:
     title: "Solesbee v. Balkcom"
     volume: "339"
     page: "009"
+    docket: "77"
+    citation: "339 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1950"
-    citation: "339 U.S. 9"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1949-053"
@@ -148,9 +190,12 @@ cases:
     title: "Reider v. Thompson"
     volume: "339"
     page: "113"
+    docket: "403"
+    citation: "339 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1950"
-    citation: "339 U.S. 113"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1949-113"
@@ -158,9 +203,12 @@ cases:
     title: "United States v. Louisiana"
     volume: "339"
     page: "699"
+    docket: "12 Orig."
+    citation: "339 U.S. 699"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1950"
-    citation: "339 U.S. 699"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1950-048"
@@ -168,9 +216,12 @@ cases:
     title: "Johnson v. Muelberger"
     volume: "340"
     page: "581"
+    docket: "296"
+    citation: "340 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1951"
-    citation: "340 U.S. 581"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1951-014"
@@ -178,9 +229,12 @@ cases:
     title: "Cook v. Cook"
     volume: "342"
     page: "126"
+    docket: "30"
+    citation: "342 U.S. 126"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1951"
-    citation: "342 U.S. 126"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1952-079"
@@ -188,9 +242,12 @@ cases:
     title: "Pope v. Atlantic Coast Line R. Co."
     volume: "345"
     page: "379"
+    docket: "322"
+    citation: "345 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1953"
-    citation: "345 U.S. 379"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1955-046"
@@ -198,9 +255,12 @@ cases:
     title: "Murdock Acceptance Corp. v. United States"
     volume: "350"
     page: "488"
+    docket: "56"
+    citation: "350 U.S. 488"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1956"
-    citation: "350 U.S. 488"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1955-070"
@@ -208,9 +268,12 @@ cases:
     title: "Mine Workers v. Arkansas Oak Flooring Co."
     volume: "351"
     page: "062"
+    docket: "227"
+    citation: "351 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1956"
-    citation: "351 U.S. 62"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1955-076"
@@ -218,9 +281,12 @@ cases:
     title: "Covey v. Town of Somers"
     volume: "351"
     page: "141"
+    docket: "380"
+    citation: "351 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1956"
-    citation: "351 U.S. 141"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1956-091"
@@ -228,9 +294,12 @@ cases:
     title: "Textile Workers v. Lincoln Mills of Ala."
     volume: "353"
     page: "448"
+    docket: "211"
+    citation: "353 U.S. 448"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1957"
-    citation: "353 U.S. 448"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1956-092"
@@ -238,9 +307,12 @@ cases:
     title: "General Elec. Co. v. Electrical Workers"
     volume: "353"
     page: "547"
+    docket: "276"
+    citation: "353 U.S. 547"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1957"
-    citation: "353 U.S. 547"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1956-093"
@@ -248,9 +320,12 @@ cases:
     title: "Goodall-Sanford, Inc. v. Textile Workers"
     volume: "353"
     page: "550"
+    docket: "262"
+    citation: "353 U.S. 550"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1957"
-    citation: "353 U.S. 550"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1957-012"
@@ -258,9 +333,12 @@ cases:
     title: "Schaffer Transp. Co. v. United States"
     volume: "355"
     page: "083"
+    docket: "20"
+    citation: "355 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1957"
-    citation: "355 U.S. 83"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1957-026"
@@ -268,9 +346,12 @@ cases:
     title: "United States v. New York, N. H. &amp; H. R. Co."
     volume: "355"
     page: "253"
+    docket: "45"
+    citation: "355 U.S. 253"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1957"
-    citation: "355 U.S. 253"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1957-104"
@@ -278,9 +359,12 @@ cases:
     title: "Kovacs v. Brewer"
     volume: "356"
     page: "604"
+    docket: "200"
+    citation: "356 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1958"
-    citation: "356 U.S. 604"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1959-035"
@@ -288,9 +372,12 @@ cases:
     title: "Lewis v. Benedict Coal Corp."
     volume: "361"
     page: "459"
+    docket: "18"
+    citation: "361 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1960"
-    citation: "361 U.S. 459"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1959-137"
@@ -298,9 +385,12 @@ cases:
     title: "Euziere v. United States"
     volume: "364"
     page: "282"
+    docket: "119 Misc."
+    citation: "364 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Monday, June 27, 1960"
-    citation: "364 U.S. 282"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1959-138"
@@ -308,9 +398,12 @@ cases:
     title: "Camara v. United States"
     volume: "364"
     page: "283"
+    docket: "605 Misc."
+    citation: "364 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Monday, June 27, 1960"
-    citation: "364 U.S. 283"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
   - id: "1960-041"
@@ -318,9 +411,12 @@ cases:
     title: "Monroe v. Pape"
     volume: "365"
     page: "167"
+    docket: "39"
+    citation: "365 U.S. 167"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1961"
-    citation: "365 U.S. 167"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: ffrankfurter
     dissenterName: "Felix Frankfurter"
 ---

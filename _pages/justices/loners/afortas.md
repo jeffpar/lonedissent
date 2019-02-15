@@ -8,9 +8,12 @@ cases:
     title: "St. Amant v. Thompson"
     volume: "390"
     page: "727"
+    docket: "517"
+    citation: "390 U.S. 727"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1968"
-    citation: "390 U.S. 727"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: afortas
     dissenterName: "Abe Fortas"
   - id: "1967-180"
@@ -18,9 +21,12 @@ cases:
     title: "Fortnightly Corp. v. United Artists Television, Inc."
     volume: "392"
     page: "390"
+    docket: "618"
+    citation: "392 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1968"
-    citation: "392 U.S. 390"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: afortas
     dissenterName: "Abe Fortas"
 ---

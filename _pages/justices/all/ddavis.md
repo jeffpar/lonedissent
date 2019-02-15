@@ -8,9 +8,11 @@ cases:
     title: "Randall v. Howard"
     volume: "067"
     page: "585"
+    citation: "67 U.S. 585"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1863"
-    citation: "67 U.S. 585"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1862-018"
@@ -18,9 +20,11 @@ cases:
     title: "Chicago City v. Robbins"
     volume: "067"
     page: "418"
+    citation: "67 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1863"
-    citation: "67 U.S. 418"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1862-029"
@@ -28,9 +32,11 @@ cases:
     title: "Koehler v. Black River Falls Iron Co."
     volume: "067"
     page: "715"
+    citation: "67 U.S. 715"
     pdfSource: "loc"
     dateDecision: "Monday, February 9, 1863"
-    citation: "67 U.S. 715"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1862-045"
@@ -38,9 +44,11 @@ cases:
     title: "Bronson v. Railroad Co."
     volume: "067"
     page: "524"
+    citation: "67 U.S. 524"
     pdfSource: "loc"
     dateDecision: "Monday, February 16, 1863"
-    citation: "67 U.S. 524"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1863-002"
@@ -48,9 +56,11 @@ cases:
     title: "Bayne v. Morris"
     volume: "068"
     page: "097"
+    citation: "68 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1863"
-    citation: "68 U.S. 97"
+    voteMajority: 10
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1863-013"
@@ -58,9 +68,11 @@ cases:
     title: "Gregg v. Von Phul"
     volume: "068"
     page: "274"
+    citation: "68 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1864"
-    citation: "68 U.S. 274"
+    voteMajority: 10
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1863-016"
@@ -68,9 +80,11 @@ cases:
     title: "Woods v. Freeman"
     volume: "068"
     page: "398"
+    citation: "68 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1864"
-    citation: "68 U.S. 398"
+    voteMajority: 10
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1863-017"
@@ -78,9 +92,11 @@ cases:
     title: "Eames v. Godfrey"
     volume: "068"
     page: "078"
+    citation: "68 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1864"
-    citation: "68 U.S. 78"
+    voteMajority: 10
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1863-024"
@@ -88,9 +104,11 @@ cases:
     title: "Ryan v. Bindley"
     volume: "068"
     page: "066"
+    citation: "68 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1864"
-    citation: "68 U.S. 66"
+    voteMajority: 10
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1863-027"
@@ -98,9 +116,11 @@ cases:
     title: "Baker v. Gee"
     volume: "068"
     page: "333"
+    citation: "68 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1864"
-    citation: "68 U.S. 333"
+    voteMajority: 10
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1863-040"
@@ -108,9 +128,11 @@ cases:
     title: "Clearwater v. Meredith"
     volume: "068"
     page: "025"
+    citation: "68 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1864"
-    citation: "68 U.S. 25"
+    voteMajority: 10
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1863-055"
@@ -118,9 +140,11 @@ cases:
     title: "Wheeler v. Sage"
     volume: "068"
     page: "518"
+    citation: "68 U.S. 518"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1864"
-    citation: "68 U.S. 518"
+    voteMajority: 10
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1863-070"
@@ -128,9 +152,11 @@ cases:
     title: "Gray v. Brignardello"
     volume: "068"
     page: "627"
+    citation: "68 U.S. 627"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1864"
-    citation: "68 U.S. 627"
+    voteMajority: 10
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1863-071"
@@ -138,9 +164,11 @@ cases:
     title: "Rogers v. Marshal"
     volume: "068"
     page: "644"
+    citation: "68 U.S. 644"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1864"
-    citation: "68 U.S. 644"
+    voteMajority: 10
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1865-001"
@@ -148,9 +176,11 @@ cases:
     title: "City v. Babcock"
     volume: "070"
     page: "240"
+    citation: "70 U.S. 240"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1865"
-    citation: "70 U.S. 240"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1865-011"
@@ -158,9 +188,11 @@ cases:
     title: "The Thompson"
     volume: "070"
     page: "155"
+    citation: "70 U.S. 155"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1866"
-    citation: "70 U.S. 155"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1865-013"
@@ -168,9 +200,11 @@ cases:
     title: "Blanchard v. Brown"
     volume: "070"
     page: "245"
+    citation: "70 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1866"
-    citation: "70 U.S. 245"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1865-027"
@@ -178,9 +212,11 @@ cases:
     title: "The Binghamton Bridge"
     volume: "070"
     page: "051"
+    citation: "70 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1866"
-    citation: "70 U.S. 51"
+    voteMajority: 5
+    voteMinority: 3
     authorId: ddavis
     authorName: "David Davis"
   - id: "1865-033"
@@ -188,9 +224,11 @@ cases:
     title: "Secrist v. Green"
     volume: "070"
     page: "744"
+    citation: "70 U.S. 744"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 13, 1866"
-    citation: "70 U.S. 744"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1865-047"
@@ -198,9 +236,11 @@ cases:
     title: "Thomson v. Lee County"
     volume: "070"
     page: "327"
+    citation: "70 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1866"
-    citation: "70 U.S. 327"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1865-059"
@@ -208,9 +248,11 @@ cases:
     title: "Peralta v. United States"
     volume: "070"
     page: "434"
+    citation: "70 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1866"
-    citation: "70 U.S. 434"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1865-071"
@@ -218,9 +260,11 @@ cases:
     title: "Simpson &amp; Co. v. Dall"
     volume: "070"
     page: "460"
+    citation: "70 U.S. 460"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 3, 1866"
-    citation: "70 U.S. 460"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1865-075"
@@ -228,9 +272,11 @@ cases:
     title: "Ex parte Milligan"
     volume: "071"
     page: "002"
+    citation: "71 U.S. 2"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 3, 1866"
-    citation: "71 U.S. 2"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1866-011"
@@ -238,9 +284,11 @@ cases:
     title: "Mitchell v. St. Maxent&apos;s Lessee"
     volume: "071"
     page: "237"
+    citation: "71 U.S. 237"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 26, 1866"
-    citation: "71 U.S. 237"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1866-018"
@@ -248,9 +296,11 @@ cases:
     title: "Bell v. Railroad Co."
     volume: "071"
     page: "598"
+    citation: "71 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Thursday, January 3, 1867"
-    citation: "71 U.S. 598"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1866-021"
@@ -258,9 +308,11 @@ cases:
     title: "Witherspoon v. Duncan"
     volume: "071"
     page: "210"
+    citation: "71 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1867"
-    citation: "71 U.S. 210"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1866-041"
@@ -268,9 +320,11 @@ cases:
     title: "Serrano v. United States"
     volume: "072"
     page: "451"
+    citation: "72 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1867"
-    citation: "72 U.S. 451"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1866-051"
@@ -278,9 +332,11 @@ cases:
     title: "The Nassau"
     volume: "071"
     page: "634"
+    citation: "71 U.S. 634"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1867"
-    citation: "71 U.S. 634"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1866-060"
@@ -288,9 +344,11 @@ cases:
     title: "Insurance Co. v. Chase"
     volume: "072"
     page: "509"
+    citation: "72 U.S. 509"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 13, 1867"
-    citation: "72 U.S. 509"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ddavis
     authorName: "David Davis"
   - id: "1866-062"
@@ -298,9 +356,11 @@ cases:
     title: "Thompson v. Bowie"
     volume: "071"
     page: "463"
+    citation: "71 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1867"
-    citation: "71 U.S. 463"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ddavis
     authorName: "David Davis"
   - id: "1866-070"
@@ -308,9 +368,11 @@ cases:
     title: "Parmelee v. Simpson"
     volume: "072"
     page: "081"
+    citation: "72 U.S. 81"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1867"
-    citation: "72 U.S. 81"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1866-081"
@@ -318,9 +380,11 @@ cases:
     title: "Pearson v. Duane"
     volume: "071"
     page: "605"
+    citation: "71 U.S. 605"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1867"
-    citation: "71 U.S. 605"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1866-088"
@@ -328,9 +392,11 @@ cases:
     title: "Watson v. Sutherland"
     volume: "072"
     page: "074"
+    citation: "72 U.S. 74"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1867"
-    citation: "72 U.S. 74"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1866-098"
@@ -338,9 +404,11 @@ cases:
     title: "Campbell v. Kenosha"
     volume: "072"
     page: "194"
+    citation: "72 U.S. 194"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1867"
-    citation: "72 U.S. 194"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1866-113"
@@ -348,9 +416,11 @@ cases:
     title: "The Kansas Indians"
     volume: "072"
     page: "737"
+    citation: "72 U.S. 737"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1867"
-    citation: "72 U.S. 737"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1866-120"
@@ -358,9 +428,11 @@ cases:
     title: "De Haro v. United States"
     volume: "072"
     page: "599"
+    citation: "72 U.S. 599"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1867"
-    citation: "72 U.S. 599"
+    voteMajority: 8
+    voteMinority: 1
     authorId: ddavis
     authorName: "David Davis"
   - id: "1867-003"
@@ -368,9 +440,11 @@ cases:
     title: "Osterman v. Baldwin"
     volume: "073"
     page: "116"
+    citation: "73 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1867"
-    citation: "73 U.S. 116"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1867-009"
@@ -378,9 +452,11 @@ cases:
     title: "Lum v. Robertson"
     volume: "073"
     page: "277"
+    citation: "73 U.S. 277"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1867"
-    citation: "73 U.S. 277"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1867-013"
@@ -388,9 +464,11 @@ cases:
     title: "Lukins v. Aird"
     volume: "073"
     page: "078"
+    citation: "73 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, December 30, 1867"
-    citation: "73 U.S. 78"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1867-021"
@@ -398,9 +476,11 @@ cases:
     title: "Thompson v. Railroad Cos."
     volume: "073"
     page: "134"
+    citation: "73 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1868"
-    citation: "73 U.S. 134"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1867-034"
@@ -408,9 +488,11 @@ cases:
     title: "The Amelie"
     volume: "073"
     page: "018"
+    citation: "73 U.S. 18"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1868"
-    citation: "73 U.S. 18"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1867-039"
@@ -418,9 +500,11 @@ cases:
     title: "Savery v. Sypher"
     volume: "073"
     page: "157"
+    citation: "73 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1868"
-    citation: "73 U.S. 157"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1867-048"
@@ -428,9 +512,11 @@ cases:
     title: "Crawshay v. Soutter"
     volume: "073"
     page: "739"
+    citation: "73 U.S. 739"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1868"
-    citation: "73 U.S. 739"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1867-051"
@@ -438,9 +524,11 @@ cases:
     title: "Vose v. Bronson"
     volume: "073"
     page: "452"
+    citation: "73 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1868"
-    citation: "73 U.S. 452"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1867-096"
@@ -448,9 +536,11 @@ cases:
     title: "Gaines v. New Orleans"
     volume: "073"
     page: "642"
+    citation: "73 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "73 U.S. 642"
+    voteMajority: 5
+    voteMinority: 3
     authorId: ddavis
     authorName: "David Davis"
   - id: "1867-097"
@@ -458,9 +548,11 @@ cases:
     title: "Gaines v. De La Croix"
     volume: "073"
     page: "719"
+    citation: "73 U.S. 719"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "73 U.S. 719"
+    voteMajority: 5
+    voteMinority: 3
     authorId: ddavis
     authorName: "David Davis"
   - id: "1867-104"
@@ -468,9 +560,12 @@ cases:
     title: "Gaines v. Lizardi"
     volume: "154"
     page: "555"
+    docket: "83"
+    citation: "154 U.S. 555"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "154 U.S. 555"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1868-003"
@@ -478,9 +573,11 @@ cases:
     title: "Drury v. Cross"
     volume: "074"
     page: "299"
+    citation: "74 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1869"
-    citation: "74 U.S. 299"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1868-005"
@@ -488,9 +585,11 @@ cases:
     title: "Benbow v. Iowa City"
     volume: "074"
     page: "313"
+    citation: "74 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1869"
-    citation: "74 U.S. 313"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1868-028"
@@ -498,9 +597,11 @@ cases:
     title: "Green v. Van Buskirk"
     volume: "074"
     page: "139"
+    citation: "74 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1869"
-    citation: "74 U.S. 139"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1868-032"
@@ -508,9 +609,11 @@ cases:
     title: "Nichols v. United States"
     volume: "074"
     page: "122"
+    citation: "74 U.S. 122"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1869"
-    citation: "74 U.S. 122"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1868-048"
@@ -518,9 +621,11 @@ cases:
     title: "Roland v. United States"
     volume: "074"
     page: "743"
+    citation: "74 U.S. 743"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1869"
-    citation: "74 U.S. 743"
+    voteMajority: 6
+    voteMinority: 2
     authorId: ddavis
     authorName: "David Davis"
   - id: "1868-052"
@@ -528,9 +633,11 @@ cases:
     title: "Grant v. United States"
     volume: "074"
     page: "331"
+    citation: "74 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1869"
-    citation: "74 U.S. 331"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1868-060"
@@ -538,9 +645,11 @@ cases:
     title: "Stansbury v. United States"
     volume: "075"
     page: "033"
+    citation: "75 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1869"
-    citation: "75 U.S. 33"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1868-066"
@@ -548,9 +657,11 @@ cases:
     title: "Mulligan v. Corbins"
     volume: "074"
     page: "487"
+    citation: "74 U.S. 487"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1869"
-    citation: "74 U.S. 487"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1868-070"
@@ -558,9 +669,11 @@ cases:
     title: "Payne v. Hook"
     volume: "074"
     page: "425"
+    citation: "74 U.S. 425"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1869"
-    citation: "74 U.S. 425"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1868-084"
@@ -568,9 +681,11 @@ cases:
     title: "Cocks v. Izard"
     volume: "074"
     page: "559"
+    citation: "74 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Thursday, April 15, 1869"
-    citation: "74 U.S. 559"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1868-099"
@@ -578,9 +693,12 @@ cases:
     title: "Tillinghast v. Van Buskirk"
     volume: "154"
     page: "557"
+    docket: "32"
+    citation: "154 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1869"
-    citation: "154 U.S. 557"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-002"
@@ -588,9 +706,11 @@ cases:
     title: "McKee v. United States"
     volume: "075"
     page: "163"
+    citation: "75 U.S. 163"
     pdfSource: "loc"
     dateDecision: "Monday, October 18, 1869"
-    citation: "75 U.S. 163"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-010"
@@ -598,9 +718,11 @@ cases:
     title: "Furman v. Nichol"
     volume: "075"
     page: "044"
+    citation: "75 U.S. 44"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1869"
-    citation: "75 U.S. 44"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-017"
@@ -608,9 +730,11 @@ cases:
     title: "The Carroll"
     volume: "075"
     page: "302"
+    citation: "75 U.S. 302"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1869"
-    citation: "75 U.S. 302"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-023"
@@ -618,9 +742,11 @@ cases:
     title: "Drakely v. Gregg"
     volume: "075"
     page: "242"
+    citation: "75 U.S. 242"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1869"
-    citation: "75 U.S. 242"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-029"
@@ -628,9 +754,11 @@ cases:
     title: "United States v. Lane"
     volume: "075"
     page: "185"
+    citation: "75 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1869"
-    citation: "75 U.S. 185"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-037"
@@ -638,9 +766,11 @@ cases:
     title: "Neale v. Neales"
     volume: "076"
     page: "001"
+    citation: "76 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1870"
-    citation: "76 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-040"
@@ -648,9 +778,11 @@ cases:
     title: "Haver v. Yaker"
     volume: "076"
     page: "032"
+    citation: "76 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1870"
-    citation: "76 U.S. 32"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-046"
@@ -658,9 +790,11 @@ cases:
     title: "United States v. Anderson"
     volume: "076"
     page: "056"
+    citation: "76 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1870"
-    citation: "76 U.S. 56"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-047"
@@ -668,9 +802,11 @@ cases:
     title: "United States v. Grossmayer"
     volume: "076"
     page: "072"
+    citation: "76 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1870"
-    citation: "76 U.S. 72"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-058"
@@ -678,9 +814,11 @@ cases:
     title: "Bonner v. United States"
     volume: "076"
     page: "156"
+    citation: "76 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1870"
-    citation: "76 U.S. 156"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-072"
@@ -688,9 +826,11 @@ cases:
     title: "Lobrano v. Nelligan"
     volume: "076"
     page: "295"
+    citation: "76 U.S. 295"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1870"
-    citation: "76 U.S. 295"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-090"
@@ -698,9 +838,11 @@ cases:
     title: "Lionberger v. Rouse"
     volume: "076"
     page: "468"
+    citation: "76 U.S. 468"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1870"
-    citation: "76 U.S. 468"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-097"
@@ -708,9 +850,11 @@ cases:
     title: "The Keokuk"
     volume: "076"
     page: "517"
+    citation: "76 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1870"
-    citation: "76 U.S. 517"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-122"
@@ -718,9 +862,11 @@ cases:
     title: "The Quickstep"
     volume: "076"
     page: "665"
+    citation: "76 U.S. 665"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1870"
-    citation: "76 U.S. 665"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-132"
@@ -728,9 +874,11 @@ cases:
     title: "Walker v. Walker&apos;s Executor"
     volume: "076"
     page: "743"
+    citation: "76 U.S. 743"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
-    citation: "76 U.S. 743"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-144"
@@ -738,9 +886,11 @@ cases:
     title: "The Lady Franklin"
     volume: "075"
     page: "325"
+    citation: "75 U.S. 325"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1869"
-    citation: "75 U.S. 325"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-145"
@@ -748,9 +898,11 @@ cases:
     title: "Express Co. v. Kountze Brothers"
     volume: "075"
     page: "342"
+    citation: "75 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1869"
-    citation: "75 U.S. 342"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-156"
@@ -758,9 +910,11 @@ cases:
     title: "Home of Friendless v. Rouse"
     volume: "075"
     page: "430"
+    citation: "75 U.S. 430"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1869"
-    citation: "75 U.S. 430"
+    voteMajority: 5
+    voteMinority: 3
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-157"
@@ -768,9 +922,11 @@ cases:
     title: "Washington Univ. v. Rouse"
     volume: "075"
     page: "439"
+    citation: "75 U.S. 439"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1869"
-    citation: "75 U.S. 439"
+    voteMajority: 5
+    voteMinority: 3
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-164"
@@ -778,9 +934,11 @@ cases:
     title: "The Potomac"
     volume: "075"
     page: "590"
+    citation: "75 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1870"
-    citation: "75 U.S. 590"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1869-190"
@@ -788,9 +946,12 @@ cases:
     title: "United States v. Pollard"
     volume: "154"
     page: "577"
+    docket: "391"
+    citation: "154 U.S. 577"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1870"
-    citation: "154 U.S. 577"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-005"
@@ -798,9 +959,11 @@ cases:
     title: "Bank of Republic v. Millard"
     volume: "077"
     page: "152"
+    citation: "77 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1870"
-    citation: "77 U.S. 152"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-017"
@@ -808,9 +971,11 @@ cases:
     title: "Smith v. Stevens"
     volume: "077"
     page: "321"
+    citation: "77 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 6, 1870"
-    citation: "77 U.S. 321"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-022"
@@ -818,9 +983,11 @@ cases:
     title: "Hanrick v. Neely"
     volume: "077"
     page: "364"
+    citation: "77 U.S. 364"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1870"
-    citation: "77 U.S. 364"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-040"
@@ -828,9 +995,11 @@ cases:
     title: "Barnard v. Kellogg"
     volume: "077"
     page: "383"
+    citation: "77 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1871"
-    citation: "77 U.S. 383"
+    voteMajority: 6
+    voteMinority: 2
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-054"
@@ -838,9 +1007,11 @@ cases:
     title: "Ward v. United States"
     volume: "077"
     page: "593"
+    citation: "77 U.S. 593"
     pdfSource: "loc"
     dateDecision: "Monday, February 6, 1871"
-    citation: "77 U.S. 593"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-064"
@@ -848,9 +1019,11 @@ cases:
     title: "Baltimore v. Baltimore R. Co."
     volume: "077"
     page: "543"
+    citation: "77 U.S. 543"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1871"
-    citation: "77 U.S. 543"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-071"
@@ -858,9 +1031,11 @@ cases:
     title: "Insurance Co. v. Francis"
     volume: "078"
     page: "210"
+    citation: "78 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1871"
-    citation: "78 U.S. 210"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-085"
@@ -868,9 +1043,11 @@ cases:
     title: "Missouri v. Kentucky"
     volume: "078"
     page: "395"
+    citation: "78 U.S. 395"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1871"
-    citation: "78 U.S. 395"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-089"
@@ -878,9 +1055,11 @@ cases:
     title: "United States v. O&apos;Keefe"
     volume: "078"
     page: "178"
+    citation: "78 U.S. 178"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1871"
-    citation: "78 U.S. 178"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-099"
@@ -888,9 +1067,11 @@ cases:
     title: "Bank v. Lanier"
     volume: "078"
     page: "369"
+    citation: "78 U.S. 369"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1871"
-    citation: "78 U.S. 369"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-107"
@@ -898,9 +1079,11 @@ cases:
     title: "United States v. Wright"
     volume: "078"
     page: "648"
+    citation: "78 U.S. 648"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1871"
-    citation: "78 U.S. 648"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-116"
@@ -908,9 +1091,11 @@ cases:
     title: "Insurance Co. v. Weide"
     volume: "078"
     page: "438"
+    citation: "78 U.S. 438"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1871"
-    citation: "78 U.S. 438"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-121"
@@ -918,9 +1103,11 @@ cases:
     title: "Halliday v. Hamilton"
     volume: "078"
     page: "560"
+    citation: "78 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1871"
-    citation: "78 U.S. 560"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1870-131"
@@ -928,9 +1115,11 @@ cases:
     title: "The Spray"
     volume: "079"
     page: "366"
+    citation: "79 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1871"
-    citation: "79 U.S. 366"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-006"
@@ -938,9 +1127,11 @@ cases:
     title: "The Steamer Syracuse"
     volume: "079"
     page: "167"
+    citation: "79 U.S. 167"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1871"
-    citation: "79 U.S. 167"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-019"
@@ -948,9 +1139,11 @@ cases:
     title: "Avery v. United States"
     volume: "079"
     page: "304"
+    citation: "79 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1871"
-    citation: "79 U.S. 304"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-027"
@@ -958,9 +1151,11 @@ cases:
     title: "Rogers v. Ritter"
     volume: "079"
     page: "317"
+    citation: "79 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1871"
-    citation: "79 U.S. 317"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-034"
@@ -968,9 +1163,11 @@ cases:
     title: "Smith v. Sheeley"
     volume: "079"
     page: "358"
+    citation: "79 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1871"
-    citation: "79 U.S. 358"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-037"
@@ -978,9 +1175,11 @@ cases:
     title: "Insurance Co. v. Slaughter"
     volume: "079"
     page: "404"
+    citation: "79 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1871"
-    citation: "79 U.S. 404"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-045"
@@ -988,9 +1187,11 @@ cases:
     title: "Yeager v. Farwell"
     volume: "080"
     page: "006"
+    citation: "80 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1871"
-    citation: "80 U.S. 6"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-050"
@@ -998,9 +1199,11 @@ cases:
     title: "Rice v. Houston"
     volume: "080"
     page: "066"
+    citation: "80 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1871"
-    citation: "80 U.S. 66"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-060"
@@ -1008,9 +1211,11 @@ cases:
     title: "Caujolle v. Ferri&eacute;"
     volume: "080"
     page: "465"
+    citation: "80 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1871"
-    citation: "80 U.S. 465"
+    voteMajority: 7
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-074"
@@ -1018,9 +1223,11 @@ cases:
     title: "Nicolson Pavement Co. v. Jenkins"
     volume: "081"
     page: "452"
+    citation: "81 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1872"
-    citation: "81 U.S. 452"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-092"
@@ -1028,9 +1235,11 @@ cases:
     title: "Myers v. Croft"
     volume: "080"
     page: "291"
+    citation: "80 U.S. 291"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1872"
-    citation: "80 U.S. 291"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-093"
@@ -1038,9 +1247,11 @@ cases:
     title: "Alexander v. Roulet"
     volume: "080"
     page: "386"
+    citation: "80 U.S. 386"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1872"
-    citation: "80 U.S. 386"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-102"
@@ -1048,9 +1259,11 @@ cases:
     title: "Reiche v. Smythe"
     volume: "080"
     page: "162"
+    citation: "80 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1872"
-    citation: "80 U.S. 162"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-103"
@@ -1058,9 +1271,11 @@ cases:
     title: "Wilmington R. Co. v. Reid"
     volume: "080"
     page: "264"
+    citation: "80 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1872"
-    citation: "80 U.S. 264"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-104"
@@ -1068,9 +1283,11 @@ cases:
     title: "Raleigh &amp; Gaston R. Co. v. Reid"
     volume: "080"
     page: "269"
+    citation: "80 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1872"
-    citation: "80 U.S. 269"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-114"
@@ -1078,9 +1295,11 @@ cases:
     title: "United States v. Vigil"
     volume: "080"
     page: "449"
+    citation: "80 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1872"
-    citation: "80 U.S. 449"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-129"
@@ -1088,9 +1307,11 @@ cases:
     title: "Commonwealth v. Boutwell"
     volume: "080"
     page: "526"
+    citation: "80 U.S. 526"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1872"
-    citation: "80 U.S. 526"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-139"
@@ -1098,9 +1319,11 @@ cases:
     title: "Dolton v. Cain"
     volume: "081"
     page: "472"
+    citation: "81 U.S. 472"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1872"
-    citation: "81 U.S. 472"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-148"
@@ -1108,9 +1331,11 @@ cases:
     title: "Robinson v. United States"
     volume: "080"
     page: "363"
+    citation: "80 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1872"
-    citation: "80 U.S. 363"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-154"
@@ -1118,9 +1343,11 @@ cases:
     title: "Black v. Curran"
     volume: "081"
     page: "463"
+    citation: "81 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1872"
-    citation: "81 U.S. 463"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-155"
@@ -1128,9 +1355,11 @@ cases:
     title: "United States v. Wilder"
     volume: "080"
     page: "254"
+    citation: "80 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1872"
-    citation: "80 U.S. 254"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-165"
@@ -1138,9 +1367,11 @@ cases:
     title: "The Patapsco"
     volume: "080"
     page: "329"
+    citation: "80 U.S. 329"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1872"
-    citation: "80 U.S. 329"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-170"
@@ -1148,9 +1379,11 @@ cases:
     title: "Paige v. Banks"
     volume: "080"
     page: "608"
+    citation: "80 U.S. 608"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1872"
-    citation: "80 U.S. 608"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-177"
@@ -1158,9 +1391,11 @@ cases:
     title: "Caperton v. Ballard"
     volume: "081"
     page: "238"
+    citation: "81 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1872"
-    citation: "81 U.S. 238"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1871-194"
@@ -1168,9 +1403,12 @@ cases:
     title: "The Des Moines"
     volume: "154"
     page: "584"
+    docket: "108"
+    citation: "154 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1872"
-    citation: "154 U.S. 584"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-001"
@@ -1178,9 +1416,11 @@ cases:
     title: "Cross v. United States"
     volume: "081"
     page: "479"
+    citation: "81 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1872"
-    citation: "81 U.S. 479"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-009"
@@ -1188,9 +1428,11 @@ cases:
     title: "Morgan v. United States"
     volume: "081"
     page: "531"
+    citation: "81 U.S. 531"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1872"
-    citation: "81 U.S. 531"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-016"
@@ -1198,9 +1440,11 @@ cases:
     title: "United States v. Justice"
     volume: "081"
     page: "535"
+    citation: "81 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1872"
-    citation: "81 U.S. 535"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-029"
@@ -1208,9 +1452,11 @@ cases:
     title: "Reybold v. United States"
     volume: "082"
     page: "202"
+    citation: "82 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1872"
-    citation: "82 U.S. 202"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-035"
@@ -1218,9 +1464,11 @@ cases:
     title: "Maddox v. United States"
     volume: "082"
     page: "058"
+    citation: "82 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1872"
-    citation: "82 U.S. 58"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-070"
@@ -1228,9 +1476,11 @@ cases:
     title: "Pickersgill v. Lahens"
     volume: "082"
     page: "140"
+    citation: "82 U.S. 140"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1873"
-    citation: "82 U.S. 140"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-081"
@@ -1238,9 +1488,11 @@ cases:
     title: "Railroad Co. v. Manufacturing Co."
     volume: "083"
     page: "318"
+    citation: "83 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1873"
-    citation: "83 U.S. 318"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-086"
@@ -1248,9 +1500,11 @@ cases:
     title: "Duncan v. Jaudon"
     volume: "082"
     page: "165"
+    citation: "82 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
-    citation: "82 U.S. 165"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-111"
@@ -1258,9 +1512,11 @@ cases:
     title: "Haffin v. Mason"
     volume: "082"
     page: "671"
+    citation: "82 U.S. 671"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1873"
-    citation: "82 U.S. 671"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-114"
@@ -1268,9 +1524,11 @@ cases:
     title: "Tiffany v. Lucas"
     volume: "082"
     page: "410"
+    citation: "82 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1873"
-    citation: "82 U.S. 410"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-129"
@@ -1278,9 +1536,11 @@ cases:
     title: "Slawson v. United States"
     volume: "083"
     page: "310"
+    citation: "83 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1873"
-    citation: "83 U.S. 310"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-133"
@@ -1288,9 +1548,11 @@ cases:
     title: "Walker v. Henshaw"
     volume: "083"
     page: "436"
+    citation: "83 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1873"
-    citation: "83 U.S. 436"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-148"
@@ -1298,9 +1560,11 @@ cases:
     title: "Hume v. Beale&apos;s Executrix"
     volume: "084"
     page: "336"
+    citation: "84 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1873"
-    citation: "84 U.S. 336"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-173"
@@ -1308,9 +1572,11 @@ cases:
     title: "Walbrun v. Babbitt"
     volume: "083"
     page: "577"
+    citation: "83 U.S. 577"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "83 U.S. 577"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-178"
@@ -1318,9 +1584,11 @@ cases:
     title: "Homestead Co. v. Valley R. Co."
     volume: "084"
     page: "153"
+    citation: "84 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "84 U.S. 153"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-179"
@@ -1328,9 +1596,11 @@ cases:
     title: "Young v. Godbe"
     volume: "082"
     page: "562"
+    citation: "82 U.S. 562"
     pdfSource: "loc"
     dateDecision: "Thursday, May 1, 1873"
-    citation: "82 U.S. 562"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-182"
@@ -1338,9 +1608,11 @@ cases:
     title: "Dair v. United States"
     volume: "083"
     page: "001"
+    citation: "83 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Thursday, May 1, 1873"
-    citation: "83 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1872-191"
@@ -1348,9 +1620,12 @@ cases:
     title: "CRILLEY v. BURROWS"
     volume: "084"
     page: "167"
+    docket: "129"
+    citation: "84 U.S. 167"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
-    citation: "84 U.S. 167"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-003"
@@ -1358,9 +1633,11 @@ cases:
     title: "Boyce v. Tabb"
     volume: "085"
     page: "546"
+    citation: "85 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Monday, October 27, 1873"
-    citation: "85 U.S. 546"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-007"
@@ -1368,9 +1645,11 @@ cases:
     title: "Conway v. Stannard"
     volume: "084"
     page: "398"
+    citation: "84 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, November 3, 1873"
-    citation: "84 U.S. 398"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-021"
@@ -1378,9 +1657,11 @@ cases:
     title: "Railroad Co. v. Brown"
     volume: "084"
     page: "445"
+    citation: "84 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1873"
-    citation: "84 U.S. 445"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-040"
@@ -1388,9 +1669,11 @@ cases:
     title: "Packet Co. v. McCue"
     volume: "084"
     page: "508"
+    citation: "84 U.S. 508"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1873"
-    citation: "84 U.S. 508"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-047"
@@ -1398,9 +1681,11 @@ cases:
     title: "Tacey v. Irwin"
     volume: "085"
     page: "549"
+    citation: "85 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1873"
-    citation: "85 U.S. 549"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-052"
@@ -1408,9 +1693,11 @@ cases:
     title: "Best v. Polk"
     volume: "085"
     page: "112"
+    citation: "85 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1873"
-    citation: "85 U.S. 112"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-067"
@@ -1418,9 +1705,11 @@ cases:
     title: "Railroad Co. v. Fort"
     volume: "084"
     page: "553"
+    citation: "84 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1874"
-    citation: "84 U.S. 553"
+    voteMajority: 7
+    voteMinority: 1
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-084"
@@ -1428,9 +1717,11 @@ cases:
     title: "The Favorita"
     volume: "085"
     page: "598"
+    citation: "85 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1874"
-    citation: "85 U.S. 598"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-102"
@@ -1438,9 +1729,11 @@ cases:
     title: "Tiffany v. Boatman&apos;s Institution"
     volume: "085"
     page: "375"
+    citation: "85 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1874"
-    citation: "85 U.S. 375"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-133"
@@ -1448,9 +1741,11 @@ cases:
     title: "Davenport v. Dows"
     volume: "085"
     page: "626"
+    citation: "85 U.S. 626"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1874"
-    citation: "85 U.S. 626"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-134"
@@ -1458,9 +1753,11 @@ cases:
     title: "Stowe v. United States"
     volume: "086"
     page: "013"
+    citation: "86 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1874"
-    citation: "86 U.S. 13"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-135"
@@ -1468,9 +1765,11 @@ cases:
     title: "Eldred v. Sexton"
     volume: "086"
     page: "189"
+    citation: "86 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1874"
-    citation: "86 U.S. 189"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-141"
@@ -1478,9 +1777,11 @@ cases:
     title: "Burke v. Miltenberger"
     volume: "086"
     page: "519"
+    citation: "86 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1874"
-    citation: "86 U.S. 519"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-149"
@@ -1488,9 +1789,11 @@ cases:
     title: "United States v. Jonas"
     volume: "086"
     page: "598"
+    citation: "86 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1874"
-    citation: "86 U.S. 598"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-161"
@@ -1498,9 +1801,11 @@ cases:
     title: "Peete v. Morgan"
     volume: "086"
     page: "581"
+    citation: "86 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1874"
-    citation: "86 U.S. 581"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-166"
@@ -1508,9 +1813,11 @@ cases:
     title: "Humaston v. Telegraph Co."
     volume: "087"
     page: "020"
+    citation: "87 U.S. 20"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1874"
-    citation: "87 U.S. 20"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-188"
@@ -1518,9 +1825,11 @@ cases:
     title: "McQuiddy v. Ware"
     volume: "087"
     page: "014"
+    citation: "87 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
-    citation: "87 U.S. 14"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-189"
@@ -1528,9 +1837,11 @@ cases:
     title: "Kehr v. Smith"
     volume: "087"
     page: "031"
+    citation: "87 U.S. 31"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
-    citation: "87 U.S. 31"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1873-194"
@@ -1538,9 +1849,11 @@ cases:
     title: "Knapp v. Railroad Co."
     volume: "087"
     page: "117"
+    citation: "87 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
-    citation: "87 U.S. 117"
+    voteMajority: 8
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-012"
@@ -1548,9 +1861,12 @@ cases:
     title: "Avery v. Hackley"
     volume: "087"
     page: "407"
+    docket: "29"
+    citation: "87 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1874"
-    citation: "87 U.S. 407"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-020"
@@ -1558,9 +1874,12 @@ cases:
     title: "The Montello"
     volume: "087"
     page: "430"
+    docket: "30"
+    citation: "87 U.S. 430"
     pdfSource: "loc"
     dateDecision: "Monday, November 23, 1874"
-    citation: "87 U.S. 430"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-033"
@@ -1568,9 +1887,12 @@ cases:
     title: "The Mohler"
     volume: "088"
     page: "230"
+    docket: "71"
+    citation: "88 U.S. 230"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1874"
-    citation: "88 U.S. 230"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-040"
@@ -1578,9 +1900,12 @@ cases:
     title: "The Great Republic"
     volume: "090"
     page: "020"
+    docket: "78"
+    citation: "90 U.S. 20"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1874"
-    citation: "90 U.S. 20"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-048"
@@ -1588,9 +1913,12 @@ cases:
     title: "Secombe v. Railroad Co."
     volume: "090"
     page: "108"
+    docket: "196"
+    citation: "90 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1874"
-    citation: "90 U.S. 108"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-070"
@@ -1598,9 +1926,12 @@ cases:
     title: "Yonley v. Lavender"
     volume: "088"
     page: "276"
+    docket: "98"
+    citation: "88 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1875"
-    citation: "88 U.S. 276"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-081"
@@ -1608,9 +1939,12 @@ cases:
     title: "Ochiltree v. Railroad Co."
     volume: "088"
     page: "249"
+    docket: "486"
+    citation: "88 U.S. 249"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1875"
-    citation: "88 U.S. 249"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-090"
@@ -1618,9 +1952,12 @@ cases:
     title: "Decatur Bank v. St. Louis Bank"
     volume: "088"
     page: "294"
+    docket: "120"
+    citation: "88 U.S. 294"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1875"
-    citation: "88 U.S. 294"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-105"
@@ -1628,9 +1965,12 @@ cases:
     title: "Robinson v. Elliott"
     volume: "089"
     page: "513"
+    docket: "417"
+    citation: "89 U.S. 513"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1875"
-    citation: "89 U.S. 513"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-107"
@@ -1638,9 +1978,12 @@ cases:
     title: "Sacramento v. Fowle"
     volume: "088"
     page: "119"
+    docket: "179"
+    citation: "88 U.S. 119"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1875"
-    citation: "88 U.S. 119"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-115"
@@ -1648,9 +1991,12 @@ cases:
     title: "Fretz v. Stover"
     volume: "089"
     page: "198"
+    docket: "164"
+    citation: "89 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1875"
-    citation: "89 U.S. 198"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-126"
@@ -1658,9 +2004,12 @@ cases:
     title: "Gavinzel v. Crump"
     volume: "089"
     page: "308"
+    docket: "190"
+    citation: "89 U.S. 308"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1875"
-    citation: "89 U.S. 308"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-135"
@@ -1668,9 +2017,12 @@ cases:
     title: "Morgan v. Campbell"
     volume: "089"
     page: "381"
+    docket: "732"
+    citation: "89 U.S. 381"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1875"
-    citation: "89 U.S. 381"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-151"
@@ -1678,9 +2030,12 @@ cases:
     title: "Morton v. Nebraska"
     volume: "088"
     page: "660"
+    docket: "391"
+    citation: "88 U.S. 660"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1875"
-    citation: "88 U.S. 660"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-152"
@@ -1688,9 +2043,12 @@ cases:
     title: "Ritchie v. Franklin County"
     volume: "089"
     page: "067"
+    docket: "208"
+    citation: "89 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1875"
-    citation: "89 U.S. 67"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-163"
@@ -1698,9 +2056,12 @@ cases:
     title: "Connoyer v. Schaeffer"
     volume: "089"
     page: "254"
+    docket: "189"
+    citation: "89 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1875"
-    citation: "89 U.S. 254"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1874-170"
@@ -1708,9 +2069,12 @@ cases:
     title: "Bailey v. Magwire"
     volume: "089"
     page: "215"
+    docket: "474"
+    citation: "89 U.S. 215"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1875"
-    citation: "89 U.S. 215"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1875-006"
@@ -1718,9 +2082,12 @@ cases:
     title: "McLemore v. Louisiana State Bank"
     volume: "091"
     page: "027"
+    docket: "28"
+    citation: "91 U.S. 27"
     pdfSource: "loc"
     dateDecision: "Monday, October 25, 1875"
-    citation: "91 U.S. 27"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1875-016"
@@ -1728,9 +2095,12 @@ cases:
     title: "United States v. Union Pacific R. Co."
     volume: "091"
     page: "072"
+    docket: "571"
+    citation: "91 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1875"
-    citation: "91 U.S. 72"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1875-074"
@@ -1738,9 +2108,12 @@ cases:
     title: "Wills v. Claflin"
     volume: "092"
     page: "135"
+    docket: "73"
+    citation: "92 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1876"
-    citation: "92 U.S. 135"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1875-082"
@@ -1748,9 +2121,12 @@ cases:
     title: "Milwaukee &amp; St. Paul R. Co. v. Arms"
     volume: "091"
     page: "489"
+    docket: "105"
+    citation: "91 U.S. 489"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1876"
-    citation: "91 U.S. 489"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1875-107"
@@ -1758,9 +2134,11 @@ cases:
     title: "Lower v. United States ex rel. Marcy"
     volume: "091"
     page: "536"
+    citation: "91 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1876"
-    citation: "91 U.S. 536"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1875-113"
@@ -1768,9 +2146,12 @@ cases:
     title: "Haldeman v. United States"
     volume: "091"
     page: "584"
+    docket: "157"
+    citation: "91 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1876"
-    citation: "91 U.S. 584"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1875-158"
@@ -1778,9 +2159,12 @@ cases:
     title: "Leavenworth, L. &amp; G. R. Co. v. United States"
     volume: "092"
     page: "733"
+    docket: "401"
+    citation: "92 U.S. 733"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1876"
-    citation: "92 U.S. 733"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ddavis
     authorName: "David Davis"
   - id: "1875-161"
@@ -1788,9 +2172,12 @@ cases:
     title: "Montgomery v. Bucyrus Machine Works"
     volume: "092"
     page: "257"
+    docket: "184"
+    citation: "92 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1876"
-    citation: "92 U.S. 257"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1875-179"
@@ -1798,9 +2185,11 @@ cases:
     title: "Elmwood v. Marcy"
     volume: "092"
     page: "289"
+    citation: "92 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1876"
-    citation: "92 U.S. 289"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ddavis
     authorName: "David Davis"
   - id: "1875-201"
@@ -1808,25 +2197,34 @@ cases:
     title: "Newhall v. Sanger"
     volume: "092"
     page: "761"
+    docket: "503"
+    citation: "92 U.S. 761"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1876"
-    citation: "92 U.S. 761"
+    voteMajority: 7
+    voteMinority: 2
     authorId: ddavis
     authorName: "David Davis"
   - id: "1875-215"
     termId: "1875-10"
     title: "Missouri, Kansas, and Texas Railway Company v. United States"
+    docket: "471"
+    citation: "92 U.S. 760n"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1876"
-    citation: "92 U.S. 760n"
+    voteMajority: 6
+    voteMinority: 3
     authorId: ddavis
     authorName: "David Davis"
   - id: "1875-216"
     termId: "1875-10"
     title: "Western Union Telegraph Company v. Eyser"
+    docket: "118"
+    citation: "91 U.S. 495n"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1876"
-    citation: "91 U.S. 495n"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-015"
@@ -1834,9 +2232,12 @@ cases:
     title: "Ryan v. Carter"
     volume: "093"
     page: "078"
+    docket: "51"
+    citation: "93 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1876"
-    citation: "93 U.S. 78"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-030"
@@ -1844,9 +2245,12 @@ cases:
     title: "United States v. Forty-three Gallons of Whiskey"
     volume: "093"
     page: "188"
+    docket: "61"
+    citation: "93 U.S. 188"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1876"
-    citation: "93 U.S. 188"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-033"
@@ -1854,9 +2258,12 @@ cases:
     title: "Hendrick v. Lindsay"
     volume: "093"
     page: "143"
+    docket: "75"
+    citation: "93 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1876"
-    citation: "93 U.S. 143"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-049"
@@ -1864,9 +2271,12 @@ cases:
     title: "Mutual Life Ins. Co. v. Snyder"
     volume: "093"
     page: "393"
+    docket: "91"
+    citation: "93 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1876"
-    citation: "93 U.S. 393"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-062"
@@ -1874,9 +2284,12 @@ cases:
     title: "Bigelow v. Berkshire Life Ins. Co."
     volume: "093"
     page: "284"
+    docket: "124"
+    citation: "93 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1876"
-    citation: "93 U.S. 284"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-074"
@@ -1884,9 +2297,12 @@ cases:
     title: "White v. Luning"
     volume: "093"
     page: "514"
+    docket: "49"
+    citation: "93 U.S. 514"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1876"
-    citation: "93 U.S. 514"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-087"
@@ -1894,9 +2310,12 @@ cases:
     title: "Osterberg v. Union Trust Co."
     volume: "093"
     page: "424"
+    docket: "931"
+    citation: "93 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1877"
-    citation: "93 U.S. 424"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-102"
@@ -1904,9 +2323,12 @@ cases:
     title: "City of Winona v. Cowdrey"
     volume: "093"
     page: "612"
+    docket: "149"
+    citation: "93 U.S. 612"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1877"
-    citation: "93 U.S. 612"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-115"
@@ -1914,9 +2336,12 @@ cases:
     title: "Donaldson v. Farwell"
     volume: "093"
     page: "631"
+    docket: "172"
+    citation: "93 U.S. 631"
     pdfSource: "loc"
     dateDecision: "Thursday, March 1, 1877"
-    citation: "93 U.S. 631"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-116"
@@ -1924,9 +2349,12 @@ cases:
     title: "Heydenfeldt v. Daney Gold and Silver Mining Co."
     volume: "093"
     page: "634"
+    docket: "878"
+    citation: "93 U.S. 634"
     pdfSource: "loc"
     dateDecision: "Thursday, March 1, 1877"
-    citation: "93 U.S. 634"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-117"
@@ -1934,9 +2362,12 @@ cases:
     title: "Bayne v. United States"
     volume: "093"
     page: "642"
+    docket: "170"
+    citation: "93 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Thursday, March 1, 1877"
-    citation: "93 U.S. 642"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-118"
@@ -1944,9 +2375,12 @@ cases:
     title: "Tameling v. United States Freehold and Emigration Co."
     volume: "093"
     page: "644"
+    docket: "73"
+    citation: "93 U.S. 644"
     pdfSource: "loc"
     dateDecision: "Thursday, March 1, 1877"
-    citation: "93 U.S. 644"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-119"
@@ -1954,9 +2388,12 @@ cases:
     title: "Hervey v. Rhode Island Locomotive Works"
     volume: "093"
     page: "664"
+    docket: "157"
+    citation: "93 U.S. 664"
     pdfSource: "loc"
     dateDecision: "Thursday, March 1, 1877"
-    citation: "93 U.S. 664"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
   - id: "1876-126"
@@ -1964,9 +2401,12 @@ cases:
     title: "Kibbe v. Ditto"
     volume: "093"
     page: "674"
+    docket: "13"
+    citation: "93 U.S. 674"
     pdfSource: "loc"
     dateDecision: "Friday, March 2, 1877"
-    citation: "93 U.S. 674"
+    voteMajority: 9
+    voteMinority: 0
     authorId: ddavis
     authorName: "David Davis"
 ---

@@ -8,9 +8,11 @@ cases:
     title: "Walker v. Taylor"
     volume: "046"
     page: "064"
+    citation: "46 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 29, 1846"
-    citation: "46 U.S. 64"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1847-023"
@@ -18,9 +20,11 @@ cases:
     title: "Truly v. Wanzer"
     volume: "046"
     page: "141"
+    citation: "46 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 9, 1847"
-    citation: "46 U.S. 141"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1847-034"
@@ -28,9 +32,11 @@ cases:
     title: "Cook v. Moffat"
     volume: "046"
     page: "295"
+    citation: "46 U.S. 295"
     pdfSource: "loc"
     dateDecision: "Friday, January 15, 1847"
-    citation: "46 U.S. 295"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1847-036"
@@ -38,9 +44,11 @@ cases:
     title: "Commercial Bank of Cincinnati v. Buckingham&apos;s Executors"
     volume: "046"
     page: "317"
+    citation: "46 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Friday, March 5, 1847"
-    citation: "46 U.S. 317"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1848-010"
@@ -48,9 +56,11 @@ cases:
     title: "Curtis v. Innerarity"
     volume: "047"
     page: "146"
+    citation: "47 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Friday, January 21, 1848"
-    citation: "47 U.S. 146"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1848-012"
@@ -58,9 +68,11 @@ cases:
     title: "Stacy v. Thrasher ex rel. Sellers"
     volume: "047"
     page: "044"
+    citation: "47 U.S. 44"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 26, 1848"
-    citation: "47 U.S. 44"
+    voteMajority: 6
+    voteMinority: 2
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1848-016"
@@ -68,9 +80,11 @@ cases:
     title: "Bowling v. Harrison"
     volume: "047"
     page: "248"
+    citation: "47 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Friday, February 25, 1848"
-    citation: "47 U.S. 248"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1848-022"
@@ -78,9 +92,11 @@ cases:
     title: "Sheppard v. Wilson"
     volume: "047"
     page: "260"
+    citation: "47 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1848"
-    citation: "47 U.S. 260"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1848-034"
@@ -88,9 +104,11 @@ cases:
     title: "Bush v. Marshall"
     volume: "047"
     page: "284"
+    citation: "47 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Saturday, March 11, 1848"
-    citation: "47 U.S. 284"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1849-005"
@@ -98,9 +116,11 @@ cases:
     title: "Wagner v. Baird"
     volume: "048"
     page: "234"
+    citation: "48 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1849"
-    citation: "48 U.S. 234"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1849-015"
@@ -108,9 +128,11 @@ cases:
     title: "Peck v. Jenness"
     volume: "048"
     page: "612"
+    citation: "48 U.S. 612"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1849"
-    citation: "48 U.S. 612"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1849-016"
@@ -118,9 +140,11 @@ cases:
     title: "Colby v. Ledden"
     volume: "048"
     page: "626"
+    citation: "48 U.S. 626"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1849"
-    citation: "48 U.S. 626"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1849-025"
@@ -128,9 +152,11 @@ cases:
     title: "Shawhan v. Wherritt"
     volume: "048"
     page: "627"
+    citation: "48 U.S. 627"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1849"
-    citation: "48 U.S. 627"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1849-031"
@@ -138,9 +164,11 @@ cases:
     title: "Stearns v. Page"
     volume: "048"
     page: "819"
+    citation: "48 U.S. 819"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 7, 1849"
-    citation: "48 U.S. 819"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1849-038"
@@ -148,9 +176,11 @@ cases:
     title: "Harris v. Wall"
     volume: "048"
     page: "693"
+    citation: "48 U.S. 693"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1849"
-    citation: "48 U.S. 693"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-012"
@@ -158,9 +188,11 @@ cases:
     title: "Phalen v. Virginia"
     volume: "049"
     page: "163"
+    citation: "49 U.S. 163"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 15, 1850"
-    citation: "49 U.S. 163"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-013"
@@ -168,9 +200,11 @@ cases:
     title: "Reed v. Proprietors of Locks and Canals on Merrimac River"
     volume: "049"
     page: "274"
+    citation: "49 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 22, 1850"
-    citation: "49 U.S. 274"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-017"
@@ -178,9 +212,11 @@ cases:
     title: "Williams v. Benedict"
     volume: "049"
     page: "107"
+    citation: "49 U.S. 107"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 29, 1850"
-    citation: "49 U.S. 107"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-030"
@@ -188,9 +224,11 @@ cases:
     title: "Sheldon v. Sill"
     volume: "049"
     page: "441"
+    citation: "49 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Thursday, February 21, 1850"
-    citation: "49 U.S. 441"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-035"
@@ -198,9 +236,11 @@ cases:
     title: "Prentice v. Zane&apos;s Administrator"
     volume: "049"
     page: "470"
+    citation: "49 U.S. 470"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1850"
-    citation: "49 U.S. 470"
+    voteMajority: 5
+    voteMinority: 3
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-045"
@@ -208,9 +248,11 @@ cases:
     title: "United States v. Price"
     volume: "050"
     page: "083"
+    citation: "50 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 10, 1850"
-    citation: "50 U.S. 83"
+    voteMajority: 6
+    voteMinority: 2
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-050"
@@ -218,9 +260,11 @@ cases:
     title: "Strader v. Baldwin"
     volume: "050"
     page: "261"
+    citation: "50 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 23, 1850"
-    citation: "50 U.S. 261"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-056"
@@ -228,9 +272,11 @@ cases:
     title: "Humphreys v. Leggett, Smith, &amp; Lawrence"
     volume: "050"
     page: "297"
+    citation: "50 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 7, 1850"
-    citation: "50 U.S. 297"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-067"
@@ -238,9 +284,11 @@ cases:
     title: "Lessee of Atkinson v. Cummins"
     volume: "050"
     page: "479"
+    citation: "50 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 21, 1850"
-    citation: "50 U.S. 479"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-075"
@@ -248,9 +296,11 @@ cases:
     title: "Bayard v. Lombard"
     volume: "050"
     page: "530"
+    citation: "50 U.S. 530"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 1850"
-    citation: "50 U.S. 530"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-086"
@@ -258,9 +308,11 @@ cases:
     title: "Hallett v. Collins"
     volume: "051"
     page: "174"
+    citation: "51 U.S. 174"
     pdfSource: "loc"
     dateDecision: "Friday, December 27, 1850"
-    citation: "51 U.S. 174"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-101"
@@ -268,9 +320,11 @@ cases:
     title: "Barnard v. Adams"
     volume: "051"
     page: "270"
+    citation: "51 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 15, 1851"
-    citation: "51 U.S. 270"
+    voteMajority: 8
+    voteMinority: 1
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-105"
@@ -278,9 +332,11 @@ cases:
     title: "Washington, Alexandria &amp; Georgetown Steam Packet Co. v. Sickles"
     volume: "051"
     page: "419"
+    citation: "51 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 28, 1851"
-    citation: "51 U.S. 419"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-108"
@@ -288,9 +344,11 @@ cases:
     title: "Cotton v. United States"
     volume: "052"
     page: "229"
+    citation: "52 U.S. 229"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 22, 1851"
-    citation: "52 U.S. 229"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-142"
@@ -298,9 +356,11 @@ cases:
     title: "League v. De Young"
     volume: "052"
     page: "185"
+    citation: "52 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 26, 1851"
-    citation: "52 U.S. 185"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-153"
@@ -308,9 +368,11 @@ cases:
     title: "Parks v. Ross"
     volume: "052"
     page: "362"
+    citation: "52 U.S. 362"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1851"
-    citation: "52 U.S. 362"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-159"
@@ -318,9 +380,11 @@ cases:
     title: "Randon v. Toby"
     volume: "052"
     page: "493"
+    citation: "52 U.S. 493"
     pdfSource: "loc"
     dateDecision: "Friday, March 7, 1851"
-    citation: "52 U.S. 493"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1850-161"
@@ -328,9 +392,11 @@ cases:
     title: "Gill v. Oliver&apos;s Executors"
     volume: "052"
     page: "529"
+    citation: "52 U.S. 529"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 11, 1851"
-    citation: "52 U.S. 529"
+    voteMajority: 6
+    voteMinority: 3
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1851-017"
@@ -338,9 +404,11 @@ cases:
     title: "Dorsey v. Packwood"
     volume: "053"
     page: "126"
+    citation: "53 U.S. 126"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 7, 1852"
-    citation: "53 U.S. 126"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1851-023"
@@ -348,9 +416,11 @@ cases:
     title: "Dundas v. Hitchcock"
     volume: "053"
     page: "256"
+    citation: "53 U.S. 256"
     pdfSource: "loc"
     dateDecision: "Thursday, January 22, 1852"
-    citation: "53 U.S. 256"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1851-030"
@@ -358,9 +428,11 @@ cases:
     title: "Richmond, F. &amp; P. R. Co. v. Louisa R. Co."
     volume: "054"
     page: "071"
+    citation: "54 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, February 9, 1852"
-    citation: "54 U.S. 71"
+    voteMajority: 5
+    voteMinority: 3
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1851-041"
@@ -368,9 +440,11 @@ cases:
     title: "United States v. Simon"
     volume: "053"
     page: "433"
+    citation: "53 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1852"
-    citation: "53 U.S. 433"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1851-052"
@@ -378,9 +452,11 @@ cases:
     title: "Union Bank of La. v. Stafford"
     volume: "053"
     page: "327"
+    citation: "53 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1852"
-    citation: "53 U.S. 327"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1851-053"
@@ -388,9 +464,11 @@ cases:
     title: "New Orleans Canal &amp; Banking Co. v. Stafford"
     volume: "053"
     page: "343"
+    citation: "53 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1852"
-    citation: "53 U.S. 343"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1851-065"
@@ -398,9 +476,11 @@ cases:
     title: "Walsh v. Rogers"
     volume: "054"
     page: "283"
+    citation: "54 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 20, 1852"
-    citation: "54 U.S. 283"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1851-077"
@@ -408,9 +488,11 @@ cases:
     title: "Weems v. George"
     volume: "054"
     page: "190"
+    citation: "54 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 11, 1852"
-    citation: "54 U.S. 190"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1851-081"
@@ -418,9 +500,11 @@ cases:
     title: "Day v. Woodworth"
     volume: "054"
     page: "363"
+    citation: "54 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 12, 1852"
-    citation: "54 U.S. 363"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1851-093"
@@ -428,9 +512,11 @@ cases:
     title: "Pillow v. Roberts"
     volume: "054"
     page: "472"
+    citation: "54 U.S. 472"
     pdfSource: "loc"
     dateDecision: "Thursday, May 27, 1852"
-    citation: "54 U.S. 472"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1852-001"
@@ -438,9 +524,11 @@ cases:
     title: "Moore v. Illinois"
     volume: "055"
     page: "013"
+    citation: "55 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 21, 1852"
-    citation: "55 U.S. 13"
+    voteMajority: 7
+    voteMinority: 1
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1852-013"
@@ -448,9 +536,11 @@ cases:
     title: "Rundle v. Delaware &amp; Raritan Canal Co."
     volume: "055"
     page: "080"
+    citation: "55 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1853"
-    citation: "55 U.S. 80"
+    voteMajority: 5
+    voteMinority: 2
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1852-021"
@@ -458,9 +548,11 @@ cases:
     title: "Doss v. Tyack"
     volume: "055"
     page: "297"
+    citation: "55 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Thursday, January 27, 1853"
-    citation: "55 U.S. 297"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1852-034"
@@ -468,9 +560,11 @@ cases:
     title: "Winder v. Caldwell"
     volume: "055"
     page: "434"
+    citation: "55 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 15, 1853"
-    citation: "55 U.S. 434"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1852-037"
@@ -478,9 +572,11 @@ cases:
     title: "Philadelphia &amp; Reading R. Co. v. Derby"
     volume: "055"
     page: "468"
+    citation: "55 U.S. 468"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 23, 1853"
-    citation: "55 U.S. 468"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1852-047"
@@ -488,9 +584,11 @@ cases:
     title: "Doolittle v. Bryan"
     volume: "055"
     page: "563"
+    citation: "55 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 1, 1853"
-    citation: "55 U.S. 563"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1852-049"
@@ -498,9 +596,11 @@ cases:
     title: "Boyden v. Burke"
     volume: "055"
     page: "575"
+    citation: "55 U.S. 575"
     pdfSource: "loc"
     dateDecision: "Thursday, March 3, 1853"
-    citation: "55 U.S. 575"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1852-057"
@@ -508,9 +608,11 @@ cases:
     title: "Deacon v. Oliver"
     volume: "055"
     page: "610"
+    citation: "55 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1853"
-    citation: "55 U.S. 610"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1853-015"
@@ -518,9 +620,11 @@ cases:
     title: "United States v. Ducros"
     volume: "056"
     page: "038"
+    citation: "56 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 17, 1854"
-    citation: "56 U.S. 38"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1853-016"
@@ -528,9 +632,11 @@ cases:
     title: "Rockhill v. Hanna"
     volume: "056"
     page: "189"
+    citation: "56 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 17, 1854"
-    citation: "56 U.S. 189"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1853-017"
@@ -538,9 +644,11 @@ cases:
     title: "Corning v. Burden"
     volume: "056"
     page: "252"
+    citation: "56 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Friday, January 27, 1854"
-    citation: "56 U.S. 252"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1853-036"
@@ -548,9 +656,11 @@ cases:
     title: "Corning v. Troy Iron &amp; Nail Factory"
     volume: "056"
     page: "451"
+    citation: "56 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Thursday, February 16, 1854"
-    citation: "56 U.S. 451"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1853-043"
@@ -558,9 +668,11 @@ cases:
     title: "Yerger v. Jones"
     volume: "057"
     page: "030"
+    citation: "57 U.S. 30"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1854"
-    citation: "57 U.S. 30"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1853-046"
@@ -568,9 +680,11 @@ cases:
     title: "Piquignot v. Pennsylvania R. Co."
     volume: "057"
     page: "104"
+    citation: "57 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1854"
-    citation: "57 U.S. 104"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1853-058"
@@ -578,9 +692,11 @@ cases:
     title: "Marshall v. Baltimore &amp; Ohio R. Co."
     volume: "057"
     page: "314"
+    citation: "57 U.S. 314"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1854"
-    citation: "57 U.S. 314"
+    voteMajority: 6
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1853-062"
@@ -588,9 +704,11 @@ cases:
     title: "Irwin v. United States"
     volume: "057"
     page: "513"
+    citation: "57 U.S. 513"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 16, 1854"
-    citation: "57 U.S. 513"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1853-069"
@@ -598,9 +716,11 @@ cases:
     title: "Barney v. Saunders"
     volume: "057"
     page: "535"
+    citation: "57 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 23, 1854"
-    citation: "57 U.S. 535"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1853-076"
@@ -608,9 +728,11 @@ cases:
     title: "Seymour v. McCormick"
     volume: "057"
     page: "480"
+    citation: "57 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Friday, May 26, 1854"
-    citation: "57 U.S. 480"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1854-005"
@@ -618,9 +740,11 @@ cases:
     title: "Webb v. Den"
     volume: "058"
     page: "576"
+    citation: "58 U.S. 576"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 19, 1854"
-    citation: "58 U.S. 576"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1854-021"
@@ -628,9 +752,11 @@ cases:
     title: "Propeller Monticello v. Mollison"
     volume: "058"
     page: "152"
+    citation: "58 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 16, 1855"
-    citation: "58 U.S. 152"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1854-030"
@@ -638,9 +764,11 @@ cases:
     title: "Burchell v. Marsh"
     volume: "058"
     page: "344"
+    citation: "58 U.S. 344"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 30, 1855"
-    citation: "58 U.S. 344"
+    voteMajority: 5
+    voteMinority: 2
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1854-035"
@@ -648,9 +776,11 @@ cases:
     title: "Boston v. Lecraw"
     volume: "058"
     page: "426"
+    citation: "58 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1855"
-    citation: "58 U.S. 426"
+    voteMajority: 7
+    voteMinority: 1
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1854-042"
@@ -658,9 +788,11 @@ cases:
     title: "Adams v. Law"
     volume: "058"
     page: "417"
+    citation: "58 U.S. 417"
     pdfSource: "loc"
     dateDecision: "Thursday, February 15, 1855"
-    citation: "58 U.S. 417"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1854-052"
@@ -668,9 +800,11 @@ cases:
     title: "Lewis v. Bell"
     volume: "058"
     page: "616"
+    citation: "58 U.S. 616"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1855"
-    citation: "58 U.S. 616"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1854-061"
@@ -678,9 +812,11 @@ cases:
     title: "Dennistoun v. Stewart"
     volume: "058"
     page: "606"
+    citation: "58 U.S. 606"
     pdfSource: "loc"
     dateDecision: "Thursday, March 8, 1855"
-    citation: "58 U.S. 606"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1854-065"
@@ -688,9 +824,11 @@ cases:
     title: "Minturn v. Maynard"
     volume: "058"
     page: "477"
+    citation: "58 U.S. 477"
     pdfSource: "loc"
     dateDecision: "Saturday, March 10, 1855"
-    citation: "58 U.S. 477"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-005"
@@ -698,9 +836,11 @@ cases:
     title: "Graham v. Bayne"
     volume: "059"
     page: "060"
+    citation: "59 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Friday, December 21, 1855"
-    citation: "59 U.S. 60"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-010"
@@ -708,9 +848,11 @@ cases:
     title: "United States v. Jones"
     volume: "059"
     page: "092"
+    citation: "59 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 2, 1856"
-    citation: "59 U.S. 92"
+    voteMajority: 7
+    voteMinority: 2
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-017"
@@ -718,9 +860,11 @@ cases:
     title: "Guild v. Frontin"
     volume: "059"
     page: "135"
+    citation: "59 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 8, 1856"
-    citation: "59 U.S. 135"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-023"
@@ -728,9 +872,11 @@ cases:
     title: "Griffith v. Bogert"
     volume: "059"
     page: "158"
+    citation: "59 U.S. 158"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 15, 1856"
-    citation: "59 U.S. 158"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-026"
@@ -738,9 +884,11 @@ cases:
     title: "Parker v. Overman"
     volume: "059"
     page: "137"
+    citation: "59 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 22, 1856"
-    citation: "59 U.S. 137"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-035"
@@ -748,9 +896,11 @@ cases:
     title: "Calcote v. Stanton"
     volume: "059"
     page: "243"
+    citation: "59 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 29, 1856"
-    citation: "59 U.S. 243"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-037"
@@ -758,9 +908,11 @@ cases:
     title: "Abbott v. Essex Co."
     volume: "059"
     page: "202"
+    citation: "59 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Thursday, February 7, 1856"
-    citation: "59 U.S. 202"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-047"
@@ -768,9 +920,11 @@ cases:
     title: "Ward v. Peck"
     volume: "059"
     page: "267"
+    citation: "59 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1856"
-    citation: "59 U.S. 267"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-051"
@@ -778,9 +932,11 @@ cases:
     title: "Orton v. Smith"
     volume: "059"
     page: "263"
+    citation: "59 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Thursday, February 28, 1856"
-    citation: "59 U.S. 263"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-057"
@@ -788,9 +944,11 @@ cases:
     title: "Connor v. Peugh&apos;s Lessee"
     volume: "059"
     page: "394"
+    citation: "59 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Thursday, April 10, 1856"
-    citation: "59 U.S. 394"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-058"
@@ -798,9 +956,11 @@ cases:
     title: "South v. Maryland ex rel. Pottle"
     volume: "059"
     page: "396"
+    citation: "59 U.S. 396"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1856"
-    citation: "59 U.S. 396"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-075"
@@ -808,9 +968,11 @@ cases:
     title: "Solidad de Arguello v. United States"
     volume: "059"
     page: "539"
+    citation: "59 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 539"
+    voteMajority: 8
+    voteMinority: 1
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-076"
@@ -818,9 +980,11 @@ cases:
     title: "United States v. Cervantes"
     volume: "059"
     page: "553"
+    citation: "59 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 553"
+    voteMajority: 8
+    voteMinority: 1
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-077"
@@ -828,9 +992,11 @@ cases:
     title: "United States v. Vaca"
     volume: "059"
     page: "556"
+    citation: "59 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 556"
+    voteMajority: 8
+    voteMinority: 1
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1855-091"
@@ -838,9 +1004,11 @@ cases:
     title: "Pease v. Peck"
     volume: "059"
     page: "595"
+    citation: "59 U.S. 595"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 14, 1856"
-    citation: "59 U.S. 595"
+    voteMajority: 7
+    voteMinority: 2
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1856-003"
@@ -848,9 +1016,11 @@ cases:
     title: "United States v. Brig Neurea"
     volume: "060"
     page: "092"
+    citation: "60 U.S. 92"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 17, 1856"
-    citation: "60 U.S. 92"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1856-010"
@@ -858,9 +1028,11 @@ cases:
     title: "Vandewater v. Mills"
     volume: "060"
     page: "082"
+    citation: "60 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 7, 1857"
-    citation: "60 U.S. 82"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1856-030"
@@ -868,9 +1040,11 @@ cases:
     title: "Post v. Jones"
     volume: "060"
     page: "150"
+    citation: "60 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 28, 1857"
-    citation: "60 U.S. 150"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1856-036"
@@ -878,9 +1052,11 @@ cases:
     title: "Richardson v. Boston"
     volume: "060"
     page: "263"
+    citation: "60 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 18, 1857"
-    citation: "60 U.S. 263"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1856-053"
@@ -888,9 +1064,11 @@ cases:
     title: "United States v. Peralta"
     volume: "060"
     page: "343"
+    citation: "60 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
-    citation: "60 U.S. 343"
+    voteMajority: 8
+    voteMinority: 1
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1856-055"
@@ -898,9 +1076,11 @@ cases:
     title: "United States v. Sutherland"
     volume: "060"
     page: "363"
+    citation: "60 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
-    citation: "60 U.S. 363"
+    voteMajority: 8
+    voteMinority: 1
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1856-059"
@@ -908,9 +1088,11 @@ cases:
     title: "Michigan Central R. Co. v. Michigan Southern R. Co."
     volume: "060"
     page: "378"
+    citation: "60 U.S. 378"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
-    citation: "60 U.S. 378"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1857-006"
@@ -918,9 +1100,11 @@ cases:
     title: "Bacon v. Howard"
     volume: "061"
     page: "022"
+    citation: "61 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1858"
-    citation: "61 U.S. 22"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1857-011"
@@ -928,9 +1112,11 @@ cases:
     title: "Morgan v. Curtenius"
     volume: "061"
     page: "001"
+    citation: "61 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1858"
-    citation: "61 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1857-023"
@@ -938,9 +1124,11 @@ cases:
     title: "Smith v. Corporation of Washington"
     volume: "061"
     page: "135"
+    citation: "61 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 10, 1858"
-    citation: "61 U.S. 135"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1857-030"
@@ -948,9 +1136,11 @@ cases:
     title: "Fisher v. Haldeman"
     volume: "061"
     page: "186"
+    citation: "61 U.S. 186"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1858"
-    citation: "61 U.S. 186"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1857-040"
@@ -958,9 +1148,11 @@ cases:
     title: "Jackson v. Steamboat Magnolia"
     volume: "061"
     page: "296"
+    citation: "61 U.S. 296"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 13, 1858"
-    citation: "61 U.S. 296"
+    voteMajority: 6
+    voteMinority: 3
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1857-041"
@@ -968,9 +1160,11 @@ cases:
     title: "McCormick v. Talcott"
     volume: "061"
     page: "402"
+    citation: "61 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Thursday, April 22, 1858"
-    citation: "61 U.S. 402"
+    voteMajority: 8
+    voteMinority: 1
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1857-048"
@@ -978,9 +1172,11 @@ cases:
     title: "Brown v. Wiley"
     volume: "061"
     page: "442"
+    citation: "61 U.S. 442"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1858"
-    citation: "61 U.S. 442"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1857-050"
@@ -988,9 +1184,11 @@ cases:
     title: "Roberts v. Cooper"
     volume: "061"
     page: "467"
+    citation: "61 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1858"
-    citation: "61 U.S. 467"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1857-060"
@@ -998,9 +1196,11 @@ cases:
     title: "Moreland v. Page"
     volume: "061"
     page: "522"
+    citation: "61 U.S. 522"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 18, 1858"
-    citation: "61 U.S. 522"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1857-061"
@@ -1008,9 +1208,11 @@ cases:
     title: "McFaul v. Ramsey"
     volume: "061"
     page: "523"
+    citation: "61 U.S. 523"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 18, 1858"
-    citation: "61 U.S. 523"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1858-007"
@@ -1018,9 +1220,11 @@ cases:
     title: "Ford v. Williams"
     volume: "062"
     page: "287"
+    citation: "62 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 28, 1858"
-    citation: "62 U.S. 287"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1858-013"
@@ -1028,9 +1232,11 @@ cases:
     title: "Winans v. New York &amp; Erie R. Co."
     volume: "062"
     page: "088"
+    citation: "62 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1859"
-    citation: "62 U.S. 88"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1858-026"
@@ -1038,9 +1244,11 @@ cases:
     title: "Hill v. Smith"
     volume: "062"
     page: "283"
+    citation: "62 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Thursday, February 3, 1859"
-    citation: "62 U.S. 283"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1858-033"
@@ -1048,9 +1256,11 @@ cases:
     title: "Martin v. Imhsen"
     volume: "062"
     page: "394"
+    citation: "62 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1859"
-    citation: "62 U.S. 394"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1858-038"
@@ -1058,9 +1268,11 @@ cases:
     title: "New York ex rel. Cutler v. Dibble"
     volume: "062"
     page: "366"
+    citation: "62 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1859"
-    citation: "62 U.S. 366"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1858-055"
@@ -1068,9 +1280,11 @@ cases:
     title: "Sturgis v. Clough"
     volume: "062"
     page: "451"
+    citation: "62 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1859"
-    citation: "62 U.S. 451"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1858-067"
@@ -1078,9 +1292,11 @@ cases:
     title: "Walker v. Smith"
     volume: "062"
     page: "579"
+    citation: "62 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1859"
-    citation: "62 U.S. 579"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-002"
@@ -1088,9 +1304,11 @@ cases:
     title: "Bondies v. Sherwood"
     volume: "063"
     page: "214"
+    citation: "63 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1859"
-    citation: "63 U.S. 214"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-009"
@@ -1098,9 +1316,11 @@ cases:
     title: "Ward v. Thompson"
     volume: "063"
     page: "330"
+    citation: "63 U.S. 330"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 27, 1859"
-    citation: "63 U.S. 330"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-015"
@@ -1108,9 +1328,11 @@ cases:
     title: "Ogden v. Parsons"
     volume: "064"
     page: "167"
+    citation: "64 U.S. 167"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1860"
-    citation: "64 U.S. 167"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-021"
@@ -1118,9 +1340,11 @@ cases:
     title: "Richardson v. Goddard"
     volume: "064"
     page: "028"
+    citation: "64 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1860"
-    citation: "64 U.S. 28"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-028"
@@ -1128,9 +1352,11 @@ cases:
     title: "Roach &amp; Long v. Chapman"
     volume: "063"
     page: "129"
+    citation: "63 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1860"
-    citation: "63 U.S. 129"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-034"
@@ -1138,9 +1364,11 @@ cases:
     title: "Cucullu v. Emmerling"
     volume: "063"
     page: "083"
+    citation: "63 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1860"
-    citation: "63 U.S. 83"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-036"
@@ -1148,9 +1376,11 @@ cases:
     title: "Philadelphia, W. &amp; B. R. Co. v. Philadelphia &amp; Havre de Grace Steam Towboat Co."
     volume: "064"
     page: "209"
+    citation: "64 U.S. 209"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1860"
-    citation: "64 U.S. 209"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-045"
@@ -1158,9 +1388,11 @@ cases:
     title: "Sutton v. Bancroft, Beaver, &amp; Co."
     volume: "064"
     page: "320"
+    citation: "64 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1860"
-    citation: "64 U.S. 320"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-063"
@@ -1168,9 +1400,11 @@ cases:
     title: "Ogilvie v. Knox Ins. Co."
     volume: "063"
     page: "380"
+    citation: "63 U.S. 380"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "63 U.S. 380"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-072"
@@ -1178,9 +1412,11 @@ cases:
     title: "Green v. Custard"
     volume: "064"
     page: "484"
+    citation: "64 U.S. 484"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "64 U.S. 484"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-087"
@@ -1188,9 +1424,11 @@ cases:
     title: "City of New York v. Ranson"
     volume: "064"
     page: "487"
+    citation: "64 U.S. 487"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1860"
-    citation: "64 U.S. 487"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-088"
@@ -1198,9 +1436,11 @@ cases:
     title: "Morewood v. Enequist"
     volume: "064"
     page: "491"
+    citation: "64 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1860"
-    citation: "64 U.S. 491"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-090"
@@ -1208,9 +1448,11 @@ cases:
     title: "Thompson v. Roe"
     volume: "063"
     page: "422"
+    citation: "63 U.S. 422"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1860"
-    citation: "63 U.S. 422"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-095"
@@ -1218,9 +1460,11 @@ cases:
     title: "Dalton v. United States"
     volume: "063"
     page: "436"
+    citation: "63 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1860"
-    citation: "63 U.S. 436"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-102"
@@ -1228,9 +1472,11 @@ cases:
     title: "Luco v. United States"
     volume: "064"
     page: "515"
+    citation: "64 U.S. 515"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1860"
-    citation: "64 U.S. 515"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-106"
@@ -1238,9 +1484,11 @@ cases:
     title: "United States v. White"
     volume: "064"
     page: "249"
+    citation: "64 U.S. 249"
     pdfSource: "loc"
     dateDecision: "Friday, May 4, 1860"
-    citation: "64 U.S. 249"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1859-107"
@@ -1248,9 +1496,11 @@ cases:
     title: "Haney v. Baltimore Steam Packet Co."
     volume: "064"
     page: "287"
+    citation: "64 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Friday, May 4, 1860"
-    citation: "64 U.S. 287"
+    voteMajority: 8
+    voteMinority: 1
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1860-006"
@@ -1258,9 +1508,11 @@ cases:
     title: "Palmer v. United States"
     volume: "065"
     page: "125"
+    citation: "65 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1861"
-    citation: "65 U.S. 125"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1860-012"
@@ -1268,9 +1520,11 @@ cases:
     title: "Richardson v. Boston"
     volume: "065"
     page: "188"
+    citation: "65 U.S. 188"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1861"
-    citation: "65 U.S. 188"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1860-022"
@@ -1278,9 +1532,11 @@ cases:
     title: "Thompson v. Roberts"
     volume: "065"
     page: "233"
+    citation: "65 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1861"
-    citation: "65 U.S. 233"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1860-027"
@@ -1288,9 +1544,11 @@ cases:
     title: "Greer v. Mezes"
     volume: "065"
     page: "268"
+    citation: "65 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1861"
-    citation: "65 U.S. 268"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1860-035"
@@ -1298,9 +1556,11 @@ cases:
     title: "Fackler v. Ford"
     volume: "065"
     page: "322"
+    citation: "65 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1861"
-    citation: "65 U.S. 322"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1860-047"
@@ -1308,9 +1568,11 @@ cases:
     title: "Board of Comm&apos;rs of Knox Cty. v. Aspinwall"
     volume: "065"
     page: "376"
+    citation: "65 U.S. 376"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 376"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1860-048"
@@ -1318,9 +1580,11 @@ cases:
     title: "Medberry v. Ohio"
     volume: "065"
     page: "413"
+    citation: "65 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 413"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1860-049"
@@ -1328,9 +1592,11 @@ cases:
     title: "Porter v. Foley"
     volume: "065"
     page: "415"
+    citation: "65 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 415"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-001"
@@ -1338,9 +1604,11 @@ cases:
     title: "United States v. Hensley"
     volume: "066"
     page: "035"
+    citation: "66 U.S. 35"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1861"
-    citation: "66 U.S. 35"
+    voteMajority: 5
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-011"
@@ -1348,9 +1616,11 @@ cases:
     title: "Singleton v. Touchard"
     volume: "066"
     page: "342"
+    citation: "66 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1862"
-    citation: "66 U.S. 342"
+    voteMajority: 5
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-015"
@@ -1358,9 +1628,11 @@ cases:
     title: "Attorney General v. Federal Street Meeting-house"
     volume: "066"
     page: "262"
+    citation: "66 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1862"
-    citation: "66 U.S. 262"
+    voteMajority: 5
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-017"
@@ -1368,9 +1640,11 @@ cases:
     title: "Farni v. Tesson"
     volume: "066"
     page: "309"
+    citation: "66 U.S. 309"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1862"
-    citation: "66 U.S. 309"
+    voteMajority: 5
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-020"
@@ -1378,9 +1652,11 @@ cases:
     title: "The Barque Island City"
     volume: "066"
     page: "121"
+    citation: "66 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1862"
-    citation: "66 U.S. 121"
+    voteMajority: 6
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-027"
@@ -1388,9 +1664,11 @@ cases:
     title: "Cleveland v. Chamberlain"
     volume: "066"
     page: "419"
+    citation: "66 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1862"
-    citation: "66 U.S. 419"
+    voteMajority: 6
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-033"
@@ -1398,9 +1676,11 @@ cases:
     title: "Glasgow v. Hortiz"
     volume: "066"
     page: "595"
+    citation: "66 U.S. 595"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1862"
-    citation: "66 U.S. 595"
+    voteMajority: 4
+    voteMinority: 1
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-043"
@@ -1408,9 +1688,11 @@ cases:
     title: "United States v. Neleigh"
     volume: "066"
     page: "298"
+    citation: "66 U.S. 298"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1862"
-    citation: "66 U.S. 298"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-044"
@@ -1418,9 +1700,11 @@ cases:
     title: "The Water Witch"
     volume: "066"
     page: "494"
+    citation: "66 U.S. 494"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1862"
-    citation: "66 U.S. 494"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-045"
@@ -1428,9 +1712,11 @@ cases:
     title: "Hodge v. Combs"
     volume: "066"
     page: "192"
+    citation: "66 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1862"
-    citation: "66 U.S. 192"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-046"
@@ -1438,9 +1724,11 @@ cases:
     title: "Verden v. Coleman"
     volume: "066"
     page: "472"
+    citation: "66 U.S. 472"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1862"
-    citation: "66 U.S. 472"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-055"
@@ -1448,9 +1736,11 @@ cases:
     title: "Law v. Cross"
     volume: "066"
     page: "533"
+    citation: "66 U.S. 533"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1862"
-    citation: "66 U.S. 533"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-058"
@@ -1458,9 +1748,11 @@ cases:
     title: "Washington v. Ogden"
     volume: "066"
     page: "450"
+    citation: "66 U.S. 450"
     pdfSource: "loc"
     dateDecision: "Friday, March 21, 1862"
-    citation: "66 U.S. 450"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-064"
@@ -1468,9 +1760,11 @@ cases:
     title: "The Ship Marcellus"
     volume: "066"
     page: "414"
+    citation: "66 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1862"
-    citation: "66 U.S. 414"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1861-068"
@@ -1478,9 +1772,11 @@ cases:
     title: "White&apos;s Administrator v. United States"
     volume: "066"
     page: "501"
+    citation: "66 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1862"
-    citation: "66 U.S. 501"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1862-006"
@@ -1488,9 +1784,11 @@ cases:
     title: "Hogg v. Ruffner"
     volume: "066"
     page: "115"
+    citation: "66 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1861"
-    citation: "66 U.S. 115"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1862-007"
@@ -1498,9 +1796,11 @@ cases:
     title: "The Ship Potomac"
     volume: "067"
     page: "581"
+    citation: "67 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 23, 1862"
-    citation: "67 U.S. 581"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1862-017"
@@ -1508,9 +1808,11 @@ cases:
     title: "King v. Ackerman"
     volume: "067"
     page: "408"
+    citation: "67 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1863"
-    citation: "67 U.S. 408"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1862-019"
@@ -1518,9 +1820,11 @@ cases:
     title: "Chilton v. Braiden&apos;s Administratrix"
     volume: "067"
     page: "458"
+    citation: "67 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1863"
-    citation: "67 U.S. 458"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1862-031"
@@ -1528,9 +1832,11 @@ cases:
     title: "Ogilvie v. Knox Ins. Co."
     volume: "067"
     page: "539"
+    citation: "67 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, February 16, 1863"
-    citation: "67 U.S. 539"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1862-035"
@@ -1538,9 +1844,11 @@ cases:
     title: "United States v. Grimes"
     volume: "067"
     page: "610"
+    citation: "67 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1863"
-    citation: "67 U.S. 610"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1862-042"
@@ -1548,9 +1856,11 @@ cases:
     title: "Prize Cases"
     volume: "067"
     page: "635"
+    citation: "67 U.S. 635"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 10, 1863"
-    citation: "67 U.S. 635"
+    voteMajority: 5
+    voteMinority: 4
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1863-008"
@@ -1558,9 +1868,11 @@ cases:
     title: "Cross v. De Valle"
     volume: "068"
     page: "005"
+    citation: "68 U.S. 5"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1864"
-    citation: "68 U.S. 5"
+    voteMajority: 10
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1863-018"
@@ -1568,9 +1880,11 @@ cases:
     title: "Mercer County v. Hacket"
     volume: "068"
     page: "083"
+    citation: "68 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1864"
-    citation: "68 U.S. 83"
+    voteMajority: 9
+    voteMinority: 1
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1863-020"
@@ -1578,9 +1892,11 @@ cases:
     title: "Seybert v. Pittsburg"
     volume: "068"
     page: "272"
+    citation: "68 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1864"
-    citation: "68 U.S. 272"
+    voteMajority: 10
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1863-031"
@@ -1588,9 +1904,11 @@ cases:
     title: "Sturgis v. Clough"
     volume: "068"
     page: "269"
+    citation: "68 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1864"
-    citation: "68 U.S. 269"
+    voteMajority: 10
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1863-037"
@@ -1598,9 +1916,11 @@ cases:
     title: "United States v. Johnson"
     volume: "068"
     page: "326"
+    citation: "68 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1864"
-    citation: "68 U.S. 326"
+    voteMajority: 10
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1863-056"
@@ -1608,9 +1928,11 @@ cases:
     title: "Burr v. Duryee"
     volume: "068"
     page: "531"
+    citation: "68 U.S. 531"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1864"
-    citation: "68 U.S. 531"
+    voteMajority: 10
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1863-079"
@@ -1618,9 +1940,12 @@ cases:
     title: "Burr v. Duryee"
     volume: "068"
     page: "579"
+    docket: "231"
+    citation: "68 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1864"
-    citation: "68 U.S. 579"
+    voteMajority: 10
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1863-081"
@@ -1628,9 +1953,12 @@ cases:
     title: "Richardson v. Lawrence County"
     volume: "154"
     page: "536"
+    docket: "100"
+    citation: "154 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1864"
-    citation: "154 U.S. 536"
+    voteMajority: 10
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1863-082"
@@ -1638,17 +1966,22 @@ cases:
     title: "United States v. Hallock"
     volume: "154"
     page: "537"
+    citation: "154 U.S. 537"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1864"
-    citation: "154 U.S. 537"
+    voteMajority: 10
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1863-083"
     termId: "1863-12"
     title: "Miramontes v. United States"
+    docket: "120"
+    citation: "131 U.S. lxxiii"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1864"
-    citation: "131 U.S. lxxiii"
+    voteMajority: 10
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1863-086"
@@ -1656,9 +1989,12 @@ cases:
     title: "Burr v. Duryee"
     volume: "068"
     page: "578"
+    docket: "232"
+    citation: "68 U.S. 578"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1864"
-    citation: "68 U.S. 578"
+    voteMajority: 10
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1864-005"
@@ -1666,9 +2002,11 @@ cases:
     title: "United States v. Stone"
     volume: "069"
     page: "525"
+    citation: "69 U.S. 525"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1865"
-    citation: "69 U.S. 525"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1864-011"
@@ -1676,9 +2014,11 @@ cases:
     title: "Florentine v. Barton"
     volume: "069"
     page: "210"
+    citation: "69 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1865"
-    citation: "69 U.S. 210"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1864-019"
@@ -1686,9 +2026,11 @@ cases:
     title: "Case v. Brown"
     volume: "069"
     page: "320"
+    citation: "69 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 31, 1865"
-    citation: "69 U.S. 320"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1864-021"
@@ -1696,9 +2038,11 @@ cases:
     title: "Badger v. Badger"
     volume: "069"
     page: "087"
+    citation: "69 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Monday, February 6, 1865"
-    citation: "69 U.S. 87"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1864-030"
@@ -1706,9 +2050,11 @@ cases:
     title: "United States v. Billing"
     volume: "069"
     page: "444"
+    citation: "69 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1865"
-    citation: "69 U.S. 444"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1864-050"
@@ -1716,9 +2062,11 @@ cases:
     title: "Freeborn v. Smith"
     volume: "069"
     page: "160"
+    citation: "69 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1865"
-    citation: "69 U.S. 160"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1865-002"
@@ -1726,9 +2074,11 @@ cases:
     title: "Sheboygan Co. v. Parker"
     volume: "070"
     page: "093"
+    citation: "70 U.S. 93"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1866"
-    citation: "70 U.S. 93"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1865-006"
@@ -1736,9 +2086,11 @@ cases:
     title: "Minnesota Co. v. National Co."
     volume: "070"
     page: "332"
+    citation: "70 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1866"
-    citation: "70 U.S. 332"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1865-017"
@@ -1746,9 +2098,11 @@ cases:
     title: "The Louisiana"
     volume: "070"
     page: "164"
+    citation: "70 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1866"
-    citation: "70 U.S. 164"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1865-046"
@@ -1756,9 +2110,11 @@ cases:
     title: "The Granite State"
     volume: "070"
     page: "310"
+    citation: "70 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1866"
-    citation: "70 U.S. 310"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1865-060"
@@ -1766,9 +2122,11 @@ cases:
     title: "United States v. Cutting"
     volume: "070"
     page: "441"
+    citation: "70 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1866"
-    citation: "70 U.S. 441"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1865-061"
@@ -1776,9 +2134,11 @@ cases:
     title: "United States v. Fisk"
     volume: "070"
     page: "445"
+    citation: "70 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1866"
-    citation: "70 U.S. 445"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1865-065"
@@ -1786,9 +2146,11 @@ cases:
     title: "Newell v. Norton and Ship"
     volume: "070"
     page: "257"
+    citation: "70 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 3, 1866"
-    citation: "70 U.S. 257"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1865-082"
@@ -1796,9 +2158,12 @@ cases:
     title: "United States v. De Haro"
     volume: "154"
     page: "544"
+    docket: "81"
+    citation: "154 U.S. 544"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1866"
-    citation: "154 U.S. 544"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1865-083"
@@ -1806,9 +2171,12 @@ cases:
     title: "Rogers v. Keokuk"
     volume: "154"
     page: "546"
+    docket: "94"
+    citation: "154 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1866"
-    citation: "154 U.S. 546"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1866-037"
@@ -1816,9 +2184,11 @@ cases:
     title: "Sturdy v. Jackaway"
     volume: "071"
     page: "174"
+    citation: "71 U.S. 174"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 23, 1867"
-    citation: "71 U.S. 174"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1866-044"
@@ -1826,9 +2196,11 @@ cases:
     title: "Evans v. Patterson"
     volume: "071"
     page: "224"
+    citation: "71 U.S. 224"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1867"
-    citation: "71 U.S. 224"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1866-048"
@@ -1836,9 +2208,11 @@ cases:
     title: "Semple v. Hagar"
     volume: "071"
     page: "431"
+    citation: "71 U.S. 431"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1867"
-    citation: "71 U.S. 431"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1866-069"
@@ -1846,9 +2220,11 @@ cases:
     title: "Purcell v. Miner"
     volume: "071"
     page: "513"
+    citation: "71 U.S. 513"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1867"
-    citation: "71 U.S. 513"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1866-080"
@@ -1856,9 +2232,11 @@ cases:
     title: "Saulet v. Shepherd"
     volume: "071"
     page: "502"
+    citation: "71 U.S. 502"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1867"
-    citation: "71 U.S. 502"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1866-093"
@@ -1866,9 +2244,11 @@ cases:
     title: "Francis v. United States"
     volume: "072"
     page: "338"
+    citation: "72 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1867"
-    citation: "72 U.S. 338"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1866-096"
@@ -1876,9 +2256,12 @@ cases:
     title: "Purcell v. Miner"
     volume: "071"
     page: "519"
+    docket: "135"
+    citation: "71 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1867"
-    citation: "71 U.S. 519"
+    voteMajority: 9
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1867-002"
@@ -1886,9 +2269,11 @@ cases:
     title: "Wilson v. Wall"
     volume: "073"
     page: "083"
+    citation: "73 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1867"
-    citation: "73 U.S. 83"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1867-020"
@@ -1896,9 +2281,11 @@ cases:
     title: "League v. Atchison"
     volume: "073"
     page: "112"
+    citation: "73 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1868"
-    citation: "73 U.S. 112"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1867-030"
@@ -1906,9 +2293,11 @@ cases:
     title: "The Hypodame"
     volume: "073"
     page: "216"
+    citation: "73 U.S. 216"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1868"
-    citation: "73 U.S. 216"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1867-036"
@@ -1916,9 +2305,11 @@ cases:
     title: "Haight v. Railroad Co."
     volume: "073"
     page: "015"
+    citation: "73 U.S. 15"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1868"
-    citation: "73 U.S. 15"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1867-055"
@@ -1926,9 +2317,11 @@ cases:
     title: "Reichart v. Felps"
     volume: "073"
     page: "160"
+    citation: "73 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1868"
-    citation: "73 U.S. 160"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1867-065"
@@ -1936,9 +2329,11 @@ cases:
     title: "Turton v. Dufief"
     volume: "073"
     page: "420"
+    citation: "73 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1868"
-    citation: "73 U.S. 420"
+    voteMajority: 7
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1867-100"
@@ -1946,17 +2341,22 @@ cases:
     title: "Gordon v. United States"
     volume: "074"
     page: "188"
+    citation: "74 U.S. 188"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1868"
-    citation: "74 U.S. 188"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1867-108"
     termId: "1867-12"
     title: "Clark v. United States"
+    docket: "113"
+    citation: "131 U.S. lxxxv"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1868"
-    citation: "131 U.S. lxxxv"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1868-006"
@@ -1964,9 +2364,11 @@ cases:
     title: "Girard v. Philadelphia"
     volume: "074"
     page: "001"
+    citation: "74 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1869"
-    citation: "74 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1868-014"
@@ -1974,9 +2376,11 @@ cases:
     title: "Kellogg v. United States"
     volume: "074"
     page: "361"
+    citation: "74 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1869"
-    citation: "74 U.S. 361"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1868-021"
@@ -1984,9 +2388,11 @@ cases:
     title: "Tyler v. Boston"
     volume: "074"
     page: "327"
+    citation: "74 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1869"
-    citation: "74 U.S. 327"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1868-049"
@@ -1994,9 +2400,11 @@ cases:
     title: "Dorsheimer v. United States"
     volume: "074"
     page: "166"
+    citation: "74 U.S. 166"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1869"
-    citation: "74 U.S. 166"
+    voteMajority: 6
+    voteMinority: 2
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1868-054"
@@ -2004,9 +2412,11 @@ cases:
     title: "Jacobs v. Baker"
     volume: "074"
     page: "295"
+    citation: "74 U.S. 295"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1869"
-    citation: "74 U.S. 295"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1869-009"
@@ -2014,9 +2424,11 @@ cases:
     title: "Mills v. Smith"
     volume: "075"
     page: "027"
+    citation: "75 U.S. 27"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1869"
-    citation: "75 U.S. 27"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1869-146"
@@ -2024,9 +2436,11 @@ cases:
     title: "Kempner v. Churchill"
     volume: "075"
     page: "362"
+    citation: "75 U.S. 362"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1869"
-    citation: "75 U.S. 362"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
   - id: "1869-160"
@@ -2034,9 +2448,11 @@ cases:
     title: "United States v. Smith"
     volume: "075"
     page: "587"
+    citation: "75 U.S. 587"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1870"
-    citation: "75 U.S. 587"
+    voteMajority: 8
+    voteMinority: 0
     authorId: rcgrier
     authorName: "Robert Grier"
 ---

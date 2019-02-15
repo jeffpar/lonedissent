@@ -8,9 +8,12 @@ cases:
     title: "Cruz v. Beto"
     volume: "405"
     page: "319"
+    docket: "71-5552"
+    citation: "405 U.S. 319"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1972"
-    citation: "405 U.S. 319"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1971-098"
@@ -18,9 +21,12 @@ cases:
     title: "Weber v. Aetna Casualty &amp; Surety Co."
     volume: "406"
     page: "164"
+    docket: "70-5112"
+    citation: "406 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1972"
-    citation: "406 U.S. 164"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1972-053"
@@ -28,9 +34,12 @@ cases:
     title: "Chambers v. Mississippi"
     volume: "410"
     page: "284"
+    docket: "71-5908"
+    citation: "410 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 21, 1973"
-    citation: "410 U.S. 284"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1972-110"
@@ -38,9 +47,12 @@ cases:
     title: "New Jersey Welfare Rights Organization v. Cahill"
     volume: "411"
     page: "619"
+    docket: "72-6258"
+    citation: "411 U.S. 619"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1973"
-    citation: "411 U.S. 619"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1972-113"
@@ -48,9 +60,12 @@ cases:
     title: "Frontiero v. Richardson"
     volume: "411"
     page: "677"
+    docket: "71-1694"
+    citation: "411 U.S. 677"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1973"
-    citation: "411 U.S. 677"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1972-164"
@@ -58,9 +73,12 @@ cases:
     title: "Keyes v. School Dist. No. 1, Denver"
     volume: "413"
     page: "189"
+    docket: "71-507"
+    citation: "413 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Thursday, June 21, 1973"
-    citation: "413 U.S. 189"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1972-179"
@@ -68,9 +86,12 @@ cases:
     title: "Sugarman v. Dougall"
     volume: "413"
     page: "634"
+    docket: "71-1222"
+    citation: "413 U.S. 634"
     pdfSource: "loc"
     dateDecision: "Monday, June 25, 1973"
-    citation: "413 U.S. 634"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1973-004"
@@ -78,9 +99,12 @@ cases:
     title: "Dennett v. Hogan"
     volume: "414"
     page: "012"
+    docket: "72-6449"
+    citation: "414 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Tuesday, October 23, 1973"
-    citation: "414 U.S. 12"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1973-058"
@@ -88,9 +112,12 @@ cases:
     title: "Memorial Hospital v. Maricopa County"
     volume: "415"
     page: "250"
+    docket: "72-847"
+    citation: "415 U.S. 250"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1974"
-    citation: "415 U.S. 250"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1973-136"
@@ -98,9 +125,12 @@ cases:
     title: "Baker v. Gold Seal Liquors, Inc."
     volume: "417"
     page: "467"
+    docket: "73-804"
+    citation: "417 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1974"
-    citation: "417 U.S. 467"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1973-144"
@@ -108,9 +138,12 @@ cases:
     title: "Jimenez v. Weinberger"
     volume: "417"
     page: "628"
+    docket: "72-6609"
+    citation: "417 U.S. 628"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 19, 1974"
-    citation: "417 U.S. 628"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1973-166"
@@ -118,9 +151,12 @@ cases:
     title: "Taylor v. Hayes"
     volume: "418"
     page: "488"
+    docket: "73-473"
+    citation: "418 U.S. 488"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 26, 1974"
-    citation: "418 U.S. 488"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1974-004"
@@ -128,9 +164,12 @@ cases:
     title: "Allenberg Cotton Co. v. Pittman"
     volume: "419"
     page: "020"
+    docket: "73-628"
+    citation: "419 U.S. 20"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 19, 1974"
-    citation: "419 U.S. 20"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1974-025"
@@ -138,9 +177,12 @@ cases:
     title: "Taylor v. Louisiana"
     volume: "419"
     page: "522"
+    docket: "73-5744"
+    citation: "419 U.S. 522"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 21, 1975"
-    citation: "419 U.S. 522"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1974-080"
@@ -148,9 +190,12 @@ cases:
     title: "Stanton v. Stanton"
     volume: "421"
     page: "007"
+    docket: "73-1461"
+    citation: "421 U.S. 7"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 15, 1975"
-    citation: "421 U.S. 7"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1974-095"
@@ -158,9 +203,12 @@ cases:
     title: "Van Lare v. Hurley"
     volume: "421"
     page: "338"
+    docket: "74-453"
+    citation: "421 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1975"
-    citation: "421 U.S. 338"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1974-106"
@@ -168,9 +216,12 @@ cases:
     title: "Fry v. United States"
     volume: "421"
     page: "542"
+    docket: "73-822"
+    citation: "421 U.S. 542"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 27, 1975"
-    citation: "421 U.S. 542"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1974-107"
@@ -178,9 +229,12 @@ cases:
     title: "Dunlop v. Bachowski"
     volume: "421"
     page: "560"
+    docket: "74-466"
+    citation: "421 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1975"
-    citation: "421 U.S. 560"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1975-008"
@@ -188,9 +242,12 @@ cases:
     title: "Turner v. Utah Dept. of Employment Security"
     volume: "423"
     page: "044"
+    docket: "74-1312"
+    citation: "423 U.S. 44"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1975"
-    citation: "423 U.S. 44"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1975-091"
@@ -198,9 +255,12 @@ cases:
     title: "Hynes v. Mayor and Council of Oradell"
     volume: "425"
     page: "610"
+    docket: "74-1329"
+    citation: "425 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 19, 1976"
-    citation: "425 U.S. 610"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1975-095"
@@ -208,9 +268,12 @@ cases:
     title: "Connor v. Coleman"
     volume: "425"
     page: "675"
+    docket: "75-1184"
+    citation: "425 U.S. 675"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 19, 1976"
-    citation: "425 U.S. 675"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1975-098"
@@ -218,9 +281,12 @@ cases:
     title: "Virginia Bd. of Pharmacy v. Virginia Citizens Consumer Council, Inc."
     volume: "425"
     page: "748"
+    docket: "74-895"
+    citation: "425 U.S. 748"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1976"
-    citation: "425 U.S. 748"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1975-134"
@@ -228,9 +294,12 @@ cases:
     title: "Examining Bd. of Engineers, Architects and Surveyors v. Flores de Otero"
     volume: "426"
     page: "572"
+    docket: "74-1267"
+    citation: "426 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Thursday, June 17, 1976"
-    citation: "426 U.S. 572"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1976-071"
@@ -238,9 +307,12 @@ cases:
     title: "Gardner v. Florida"
     volume: "430"
     page: "349"
+    docket: "74-6593"
+    citation: "430 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 22, 1977"
-    citation: "430 U.S. 349"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1976-103"
@@ -248,9 +320,12 @@ cases:
     title: "Chappelle v. Greater Baton Rouge Airport Dist."
     volume: "431"
     page: "159"
+    docket: "76-352"
+    citation: "431 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1977"
-    citation: "431 U.S. 159"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1977-004"
@@ -258,9 +333,12 @@ cases:
     title: "General Atomic Co. v. Felter"
     volume: "434"
     page: "012"
+    docket: "76-1640"
+    citation: "434 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Monday, October 31, 1977"
-    citation: "434 U.S. 12"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1977-029"
@@ -268,9 +346,12 @@ cases:
     title: "Zablocki v. Redhail"
     volume: "434"
     page: "374"
+    docket: "76-879"
+    citation: "434 U.S. 374"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 18, 1978"
-    citation: "434 U.S. 374"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1977-041"
@@ -278,9 +359,12 @@ cases:
     title: "Simpson v. United States"
     volume: "435"
     page: "006"
+    docket: "76-5796"
+    citation: "435 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 28, 1978"
-    citation: "435 U.S. 6"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1977-092"
@@ -288,9 +372,12 @@ cases:
     title: "In re Primus"
     volume: "436"
     page: "412"
+    docket: "77-56"
+    citation: "436 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 30, 1978"
-    citation: "436 U.S. 412"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1977-096"
@@ -298,9 +385,12 @@ cases:
     title: "Michigan v. Tyler"
     volume: "436"
     page: "499"
+    docket: "76-1608"
+    citation: "436 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 31, 1978"
-    citation: "436 U.S. 499"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1977-149"
@@ -308,9 +398,12 @@ cases:
     title: "United States v. United States Gypsum Co."
     volume: "438"
     page: "422"
+    docket: "76-1560"
+    citation: "438 U.S. 422"
     pdfSource: "loc"
     dateDecision: "Thursday, June 29, 1978"
-    citation: "438 U.S. 422"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1977-153"
@@ -318,9 +411,12 @@ cases:
     title: "Lockett v. Ohio"
     volume: "438"
     page: "586"
+    docket: "76-6997"
+    citation: "438 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Monday, July 3, 1978"
-    citation: "438 U.S. 586"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1977-154"
@@ -328,9 +424,12 @@ cases:
     title: "Bell v. Ohio"
     volume: "438"
     page: "637"
+    docket: "76-6513"
+    citation: "438 U.S. 637"
     pdfSource: "loc"
     dateDecision: "Monday, July 3, 1978"
-    citation: "438 U.S. 637"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1978-022"
@@ -338,9 +437,12 @@ cases:
     title: "Parklane Hosiery Co. v. Shore"
     volume: "439"
     page: "322"
+    docket: "77-1305"
+    citation: "439 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1979"
-    citation: "439 U.S. 322"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1978-023"
@@ -348,9 +450,12 @@ cases:
     title: "Duren v. Missouri"
     volume: "439"
     page: "357"
+    docket: "77-6067"
+    citation: "439 U.S. 357"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1979"
-    citation: "439 U.S. 357"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1978-028"
@@ -358,9 +463,12 @@ cases:
     title: "Harlin v. Missouri"
     volume: "439"
     page: "459"
+    docket: "77-6062"
+    citation: "439 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1979"
-    citation: "439 U.S. 459"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1978-029"
@@ -368,9 +476,12 @@ cases:
     title: "Lee v. Missouri"
     volume: "439"
     page: "461"
+    docket: "77-6066"
+    citation: "439 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1979"
-    citation: "439 U.S. 461"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1978-065"
@@ -378,9 +489,12 @@ cases:
     title: "Delaware v. Prouse"
     volume: "440"
     page: "648"
+    docket: "77-1571"
+    citation: "440 U.S. 648"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 27, 1979"
-    citation: "440 U.S. 648"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1978-085"
@@ -388,9 +502,12 @@ cases:
     title: "Japan Line, Ltd. v. County of Los Angeles"
     volume: "441"
     page: "434"
+    docket: "77-1378"
+    citation: "441 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1979"
-    citation: "441 U.S. 434"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1978-104"
@@ -398,9 +515,12 @@ cases:
     title: "Green v. Georgia"
     volume: "442"
     page: "095"
+    docket: "78-5944"
+    citation: "442 U.S. 95"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 29, 1979"
-    citation: "442 U.S. 95"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1979-027"
@@ -408,9 +528,12 @@ cases:
     title: "Tague v. Louisiana"
     volume: "444"
     page: "469"
+    docket: "79-5386"
+    citation: "444 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1980"
-    citation: "444 U.S. 469"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1979-037"
@@ -418,9 +541,12 @@ cases:
     title: "Schaumburg v. Citizens for a Better Environment"
     volume: "444"
     page: "620"
+    docket: "78-1335"
+    citation: "444 U.S. 620"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 20, 1980"
-    citation: "444 U.S. 620"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1979-074"
@@ -428,9 +554,12 @@ cases:
     title: "Wengler v. Druggists Mut. Ins. Co."
     volume: "446"
     page: "142"
+    docket: "79-381"
+    citation: "446 U.S. 142"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 22, 1980"
-    citation: "446 U.S. 142"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1979-118"
@@ -438,9 +567,12 @@ cases:
     title: "Hicks v. Oklahoma"
     volume: "447"
     page: "343"
+    docket: "78-6885"
+    citation: "447 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1980"
-    citation: "447 U.S. 343"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1979-127"
@@ -448,9 +580,12 @@ cases:
     title: "Central Hudson Gas &amp; Elec. Corp. v. Public Serv. Comm&apos;n of N. Y."
     volume: "447"
     page: "557"
+    docket: "79-565"
+    citation: "447 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Friday, June 20, 1980"
-    citation: "447 U.S. 557"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1979-138"
@@ -458,9 +593,12 @@ cases:
     title: "Adams v. Texas"
     volume: "448"
     page: "038"
+    docket: "79-5175"
+    citation: "448 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 25, 1980"
-    citation: "448 U.S. 38"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1979-150"
@@ -468,9 +606,12 @@ cases:
     title: "United States v. Sioux Nation"
     volume: "448"
     page: "371"
+    docket: "79-639"
+    citation: "448 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Monday, June 30, 1980"
-    citation: "448 U.S. 371"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1979-151"
@@ -478,9 +619,12 @@ cases:
     title: "Reid v. Georgia"
     volume: "448"
     page: "438"
+    docket: "79-448"
+    citation: "448 U.S. 438"
     pdfSource: "loc"
     dateDecision: "Monday, June 30, 1980"
-    citation: "448 U.S. 438"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1979-154"
@@ -488,9 +632,12 @@ cases:
     title: "Richmond Newspapers, Inc. v. Virginia"
     volume: "448"
     page: "555"
+    docket: "79-243"
+    citation: "448 U.S. 555"
     pdfSource: "loc"
     dateDecision: "Wednesday, July 2, 1980"
-    citation: "448 U.S. 555"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1980-002"
@@ -498,9 +645,12 @@ cases:
     title: "Hughes v. Rowe"
     volume: "449"
     page: "005"
+    docket: "79-6000"
+    citation: "449 U.S. 5"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1980"
-    citation: "449 U.S. 5"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1980-051"
@@ -508,9 +658,12 @@ cases:
     title: "Carter v. Kentucky"
     volume: "450"
     page: "288"
+    docket: "80-5060"
+    citation: "450 U.S. 288"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1981"
-    citation: "450 U.S. 288"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1980-065"
@@ -518,9 +671,12 @@ cases:
     title: "Thomas v. Review Bd. of Indiana Employment Security Div."
     volume: "450"
     page: "707"
+    docket: "79-952"
+    citation: "450 U.S. 707"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1981"
-    citation: "450 U.S. 707"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1980-099"
@@ -528,9 +684,12 @@ cases:
     title: "Maryland v. Louisiana"
     volume: "451"
     page: "725"
+    docket: "83 Orig."
+    citation: "451 U.S. 725"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 26, 1981"
-    citation: "451 U.S. 725"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1981-111"
@@ -538,9 +697,12 @@ cases:
     title: "Zobel v. Williams"
     volume: "457"
     page: "055"
+    docket: "80-1146"
+    citation: "457 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1982"
-    citation: "457 U.S. 55"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1981-119"
@@ -548,9 +710,12 @@ cases:
     title: "Diedrich v. Commissioner"
     volume: "457"
     page: "191"
+    docket: "80-2204"
+    citation: "457 U.S. 191"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 15, 1982"
-    citation: "457 U.S. 191"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1981-121"
@@ -558,9 +723,12 @@ cases:
     title: "Hathorn v. Lovorn"
     volume: "457"
     page: "255"
+    docket: "81-451"
+    citation: "457 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 15, 1982"
-    citation: "457 U.S. 255"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1982-010"
@@ -568,9 +736,12 @@ cases:
     title: "Larkin v. Grendel&apos;s Den, Inc."
     volume: "459"
     page: "116"
+    docket: "81-878"
+    citation: "459 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1982"
-    citation: "459 U.S. 116"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1982-050"
@@ -578,9 +749,12 @@ cases:
     title: "Minneapolis Star &amp; Tribune Co. v. Minnesota Comm&apos;r of Revenue"
     volume: "460"
     page: "575"
+    docket: "81-1839"
+    citation: "460 U.S. 575"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 29, 1983"
-    citation: "460 U.S. 575"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1982-084"
@@ -588,9 +762,12 @@ cases:
     title: "Bob Jones Univ. v. United States"
     volume: "461"
     page: "574"
+    docket: "81-3"
+    citation: "461 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 24, 1983"
-    citation: "461 U.S. 574"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1983-073"
@@ -598,9 +775,12 @@ cases:
     title: "James v. Kentucky"
     volume: "466"
     page: "341"
+    docket: "82-6840"
+    citation: "466 U.S. 341"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 18, 1984"
-    citation: "466 U.S. 341"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1983-108"
@@ -608,9 +788,12 @@ cases:
     title: "Bernal v. Fainter"
     volume: "467"
     page: "216"
+    docket: "83-630"
+    citation: "467 U.S. 216"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 30, 1984"
-    citation: "467 U.S. 216"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1983-126"
@@ -618,9 +801,12 @@ cases:
     title: "Armco Inc. v. Hardesty"
     volume: "467"
     page: "638"
+    docket: "83-297"
+    citation: "467 U.S. 638"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 12, 1984"
-    citation: "467 U.S. 638"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1984-025"
@@ -628,9 +814,12 @@ cases:
     title: "Brandon v. Holt"
     volume: "469"
     page: "464"
+    docket: "83-1622"
+    citation: "469 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1985"
-    citation: "469 U.S. 464"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1984-033"
@@ -638,9 +827,12 @@ cases:
     title: "Ake v. Oklahoma"
     volume: "470"
     page: "068"
+    docket: "83-5424"
+    citation: "470 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 20, 1985"
-    citation: "470 U.S. 68"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1984-040"
@@ -648,9 +840,12 @@ cases:
     title: "Supreme Court of N. H. v. Piper"
     volume: "470"
     page: "274"
+    docket: "83-1466"
+    citation: "470 U.S. 274"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1985"
-    citation: "470 U.S. 274"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1984-049"
@@ -658,9 +853,12 @@ cases:
     title: "Cleveland Bd. of Ed. v. Loudermill"
     volume: "470"
     page: "532"
+    docket: "83-1362"
+    citation: "470 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 19, 1985"
-    citation: "470 U.S. 532"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1984-140"
@@ -668,9 +866,12 @@ cases:
     title: "Estate of Thornton v. Caldor, Inc."
     volume: "472"
     page: "703"
+    docket: "83-1158"
+    citation: "472 U.S. 703"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 26, 1985"
-    citation: "472 U.S. 703"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1985-011"
@@ -678,9 +879,12 @@ cases:
     title: "Miller v. Fenton"
     volume: "474"
     page: "104"
+    docket: "84-5786"
+    citation: "474 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 3, 1985"
-    citation: "474 U.S. 104"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1985-058"
@@ -688,9 +892,12 @@ cases:
     title: "Golden State Transit Corp. v. Los Angeles"
     volume: "475"
     page: "608"
+    docket: "84-1644"
+    citation: "475 U.S. 608"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 1, 1986"
-    citation: "475 U.S. 608"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1986-039"
@@ -698,9 +905,12 @@ cases:
     title: "Hobbie v. Unemployment Appeals Comm&apos;n of Fla."
     volume: "480"
     page: "136"
+    docket: "85-993"
+    citation: "480 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 25, 1987"
-    citation: "480 U.S. 136"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1986-125"
@@ -708,9 +918,12 @@ cases:
     title: "Houston v. Hill"
     volume: "482"
     page: "451"
+    docket: "86-243"
+    citation: "482 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1987"
-    citation: "482 U.S. 451"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1987-062"
@@ -718,9 +931,12 @@ cases:
     title: "Tulsa Professional Collection Services, Inc. v. Pope"
     volume: "485"
     page: "478"
+    docket: "86-1961"
+    citation: "485 U.S. 478"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 19, 1988"
-    citation: "485 U.S. 478"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1987-123"
@@ -728,9 +944,12 @@ cases:
     title: "Bendix Autolite Corp. v. Midwesco Enterprises, Inc."
     volume: "486"
     page: "888"
+    docket: "87-367"
+    citation: "486 U.S. 888"
     pdfSource: "loc"
     dateDecision: "Friday, June 17, 1988"
-    citation: "486 U.S. 888"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1988-007"
@@ -738,9 +957,12 @@ cases:
     title: "Penson v. Ohio"
     volume: "488"
     page: "075"
+    docket: "87-6116"
+    citation: "488 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 29, 1988"
-    citation: "488 U.S. 75"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1991-078"
@@ -748,9 +970,12 @@ cases:
     title: "Chemical Waste Management, Inc. v. Hunt"
     volume: "504"
     page: "334"
+    docket: "91-471"
+    citation: "504 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1992"
-    citation: "504 U.S. 334"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1996-044"
@@ -758,9 +983,12 @@ cases:
     title: "Chandler v. Miller"
     volume: "520"
     page: "305"
+    docket: "96-126"
+    citation: "520 U.S. 305"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 15, 1997"
-    citation: "520 U.S. 305"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "1999-068"
@@ -768,9 +996,12 @@ cases:
     title: "United States v. Hubbell"
     volume: "530"
     page: "027"
+    docket: "99-166"
+    citation: "530 U.S. 27"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 2000"
-    citation: "530 U.S. 27"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
   - id: "2001-063"
@@ -778,9 +1009,12 @@ cases:
     title: "Watchtower Bible &amp; Tract Soc. of N. Y., Inc. v. Village of Stratton"
     volume: "536"
     page: "150"
+    docket: "00-1737"
+    citation: "536 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 2002"
-    citation: "536 U.S. 150"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: whrehnquist
     dissenterName: "William Rehnquist"
 ---

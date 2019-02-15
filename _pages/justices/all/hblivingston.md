@@ -8,9 +8,11 @@ cases:
     title: "Keene v. United States"
     volume: "009"
     page: "304"
+    citation: "9 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 14, 1809"
-    citation: "9 U.S. 304"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1810-010"
@@ -18,9 +20,11 @@ cases:
     title: "Lewis v. Harwood"
     volume: "010"
     page: "082"
+    citation: "10 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Saturday, February 24, 1810"
-    citation: "10 U.S. 82"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1810-035"
@@ -28,9 +32,11 @@ cases:
     title: "Marine Ins. Co. of Alexandria v. Hodgson"
     volume: "010"
     page: "206"
+    citation: "10 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Saturday, March 17, 1810"
-    citation: "10 U.S. 206"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1810-036"
@@ -38,9 +44,11 @@ cases:
     title: "Hudson v. Guestier"
     volume: "010"
     page: "281"
+    citation: "10 U.S. 281"
     pdfSource: "loc"
     dateDecision: "Saturday, March 17, 1810"
-    citation: "10 U.S. 281"
+    voteMajority: 4
+    voteMinority: 1
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1812-012"
@@ -48,9 +56,11 @@ cases:
     title: "United States v. Tyler"
     volume: "011"
     page: "285"
+    citation: "11 U.S. 285"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 25, 1812"
-    citation: "11 U.S. 285"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1813-014"
@@ -58,9 +68,11 @@ cases:
     title: "Lee v. Munroe"
     volume: "011"
     page: "366"
+    citation: "11 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Friday, February 26, 1813"
-    citation: "11 U.S. 366"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1813-019"
@@ -68,9 +80,11 @@ cases:
     title: "Webster v. Hoban"
     volume: "011"
     page: "399"
+    citation: "11 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 3, 1813"
-    citation: "11 U.S. 399"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1813-020"
@@ -78,9 +92,11 @@ cases:
     title: "Maryland Ins. Co. v. Wood"
     volume: "011"
     page: "402"
+    citation: "11 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Saturday, March 13, 1813"
-    citation: "11 U.S. 402"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1813-022"
@@ -88,9 +104,11 @@ cases:
     title: "Biays v. Chesapeake Ins. Co."
     volume: "011"
     page: "415"
+    citation: "11 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Saturday, March 6, 1813"
-    citation: "11 U.S. 415"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1813-031"
@@ -98,9 +116,11 @@ cases:
     title: "Riggs v. Lindsay"
     volume: "011"
     page: "500"
+    citation: "11 U.S. 500"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1813"
-    citation: "11 U.S. 500"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1813-037"
@@ -108,9 +128,11 @@ cases:
     title: "Young v. Grundy"
     volume: "011"
     page: "548"
+    citation: "11 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 16, 1813"
-    citation: "11 U.S. 548"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1814-005"
@@ -118,9 +140,11 @@ cases:
     title: "Hall v. Leigh"
     volume: "012"
     page: "050"
+    citation: "12 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Friday, February 18, 1814"
-    citation: "12 U.S. 50"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1814-021"
@@ -128,9 +152,11 @@ cases:
     title: "The Aurora"
     volume: "012"
     page: "203"
+    citation: "12 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1814"
-    citation: "12 U.S. 203"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1814-037"
@@ -138,9 +164,11 @@ cases:
     title: "The Euphrates"
     volume: "012"
     page: "385"
+    citation: "12 U.S. 385"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 15, 1814"
-    citation: "12 U.S. 385"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1814-044"
@@ -148,9 +176,11 @@ cases:
     title: "The St. Lawrence"
     volume: "012"
     page: "434"
+    citation: "12 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 16, 1814"
-    citation: "12 U.S. 434"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1815-009"
@@ -158,9 +188,11 @@ cases:
     title: "Brig Struggle v. United States"
     volume: "013"
     page: "071"
+    citation: "13 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Saturday, February 18, 1815"
-    citation: "13 U.S. 71"
+    voteMajority: 5
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1815-026"
@@ -168,9 +200,11 @@ cases:
     title: "Cargo of Ship Hazard v. Campbell"
     volume: "013"
     page: "205"
+    citation: "13 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1815"
-    citation: "13 U.S. 205"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1815-028"
@@ -178,9 +212,11 @@ cases:
     title: "United States v. Giles"
     volume: "013"
     page: "212"
+    citation: "13 U.S. 212"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 7, 1815"
-    citation: "13 U.S. 212"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1815-033"
@@ -188,9 +224,11 @@ cases:
     title: "Otis v. Watkins"
     volume: "013"
     page: "339"
+    citation: "13 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1815"
-    citation: "13 U.S. 339"
+    voteMajority: 5
+    voteMinority: 1
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1815-037"
@@ -198,9 +236,11 @@ cases:
     title: "United States v. Bryan"
     volume: "013"
     page: "374"
+    citation: "13 U.S. 374"
     pdfSource: "loc"
     dateDecision: "Saturday, March 11, 1815"
-    citation: "13 U.S. 374"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1816-007"
@@ -208,9 +248,11 @@ cases:
     title: "The Rugen"
     volume: "014"
     page: "062"
+    citation: "14 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1816"
-    citation: "14 U.S. 62"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1818-005"
@@ -218,9 +260,11 @@ cases:
     title: "The New-York"
     volume: "016"
     page: "059"
+    citation: "16 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 10, 1818"
-    citation: "16 U.S. 59"
+    voteMajority: 4
+    voteMinority: 3
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1818-012"
@@ -228,9 +272,11 @@ cases:
     title: "Dugan v. United States"
     volume: "016"
     page: "172"
+    citation: "16 U.S. 172"
     pdfSource: "loc"
     dateDecision: "Thursday, February 19, 1818"
-    citation: "16 U.S. 172"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1818-024"
@@ -238,9 +284,11 @@ cases:
     title: "The Aeolus"
     volume: "016"
     page: "392"
+    citation: "16 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Friday, February 27, 1818"
-    citation: "16 U.S. 392"
+    voteMajority: 6
+    voteMinority: 1
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1818-031"
@@ -248,9 +296,11 @@ cases:
     title: "Lenox v. Prout"
     volume: "016"
     page: "520"
+    citation: "16 U.S. 520"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1818"
-    citation: "16 U.S. 520"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1819-022"
@@ -258,9 +308,11 @@ cases:
     title: "The Estrella"
     volume: "017"
     page: "298"
+    citation: "17 U.S. 298"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1819"
-    citation: "17 U.S. 298"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1820-007"
@@ -268,9 +320,11 @@ cases:
     title: "The London Packet"
     volume: "018"
     page: "132"
+    citation: "18 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 29, 1820"
-    citation: "18 U.S. 132"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1820-014"
@@ -278,9 +332,11 @@ cases:
     title: "Marshall v. Beverley"
     volume: "018"
     page: "313"
+    citation: "18 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Thursday, March 9, 1820"
-    citation: "18 U.S. 313"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1820-017"
@@ -288,9 +344,11 @@ cases:
     title: "The Josefa Segunda"
     volume: "018"
     page: "338"
+    citation: "18 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1820"
-    citation: "18 U.S. 338"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1821-004"
@@ -298,9 +356,11 @@ cases:
     title: "Hopkins v. Lee"
     volume: "019"
     page: "109"
+    citation: "19 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1821"
-    citation: "19 U.S. 109"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1821-014"
@@ -308,9 +368,11 @@ cases:
     title: "The Robert Edwards"
     volume: "019"
     page: "187"
+    citation: "19 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1821"
-    citation: "19 U.S. 187"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1821-016"
@@ -318,9 +380,11 @@ cases:
     title: "The Collector"
     volume: "019"
     page: "194"
+    citation: "19 U.S. 194"
     pdfSource: "loc"
     dateDecision: "Friday, March 2, 1821"
-    citation: "19 U.S. 194"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1821-024"
@@ -328,9 +392,11 @@ cases:
     title: "Hughes v. Blake"
     volume: "019"
     page: "453"
+    citation: "19 U.S. 453"
     pdfSource: "loc"
     dateDecision: "Saturday, March 10, 1821"
-    citation: "19 U.S. 453"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1821-029"
@@ -338,9 +404,11 @@ cases:
     title: "United States v. Six Packages of Goods"
     volume: "019"
     page: "520"
+    citation: "19 U.S. 520"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 14, 1821"
-    citation: "19 U.S. 520"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1821-039"
@@ -348,9 +416,11 @@ cases:
     title: "Otis v. Walter"
     volume: "019"
     page: "583"
+    citation: "19 U.S. 583"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1821"
-    citation: "19 U.S. 583"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1822-005"
@@ -358,9 +428,11 @@ cases:
     title: "Page&apos;s Administrators v. Bank of Alexandria"
     volume: "020"
     page: "035"
+    citation: "20 U.S. 35"
     pdfSource: "loc"
     dateDecision: "Thursday, February 14, 1822"
-    citation: "20 U.S. 35"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1822-014"
@@ -368,9 +440,11 @@ cases:
     title: "Brown v. Jackson"
     volume: "020"
     page: "218"
+    citation: "20 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1822"
-    citation: "20 U.S. 218"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1822-018"
@@ -378,9 +452,11 @@ cases:
     title: "The Santa Maria"
     volume: "020"
     page: "490"
+    citation: "20 U.S. 490"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1822"
-    citation: "20 U.S. 490"
+    voteMajority: 7
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
   - id: "1823-009"
@@ -388,9 +464,11 @@ cases:
     title: "Spring v. South Carolina Ins. Co."
     volume: "021"
     page: "268"
+    citation: "21 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Friday, February 21, 1823"
-    citation: "21 U.S. 268"
+    voteMajority: 6
+    voteMinority: 0
     authorId: hblivingston
     authorName: "Henry Livingston"
 ---

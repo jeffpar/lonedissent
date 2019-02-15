@@ -8,9 +8,11 @@ cases:
     title: "Fenwick v. Chapman"
     volume: "034"
     page: "461"
+    citation: "34 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Thursday, March 12, 1835"
-    citation: "34 U.S. 461"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1836-012"
@@ -18,9 +20,11 @@ cases:
     title: "United States v. Heirs of Hawkins"
     volume: "035"
     page: "125"
+    citation: "35 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 2, 1836"
-    citation: "35 U.S. 125"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1836-022"
@@ -28,9 +32,11 @@ cases:
     title: "Ringo v. Binns"
     volume: "035"
     page: "269"
+    citation: "35 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 10, 1836"
-    citation: "35 U.S. 269"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1836-033"
@@ -38,9 +44,11 @@ cases:
     title: "Brown v. Swann"
     volume: "035"
     page: "497"
+    citation: "35 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Thursday, February 18, 1836"
-    citation: "35 U.S. 497"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1836-038"
@@ -48,9 +56,11 @@ cases:
     title: "Wetmore v. United States"
     volume: "035"
     page: "647"
+    citation: "35 U.S. 647"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1836"
-    citation: "35 U.S. 647"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1836-046"
@@ -58,9 +68,11 @@ cases:
     title: "Stanley v. Gadsby"
     volume: "035"
     page: "521"
+    citation: "35 U.S. 521"
     pdfSource: "loc"
     dateDecision: "Friday, February 26, 1836"
-    citation: "35 U.S. 521"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1836-048"
@@ -68,9 +80,11 @@ cases:
     title: "Wallingsford v. Allen"
     volume: "035"
     page: "583"
+    citation: "35 U.S. 583"
     pdfSource: "loc"
     dateDecision: "Friday, February 26, 1836"
-    citation: "35 U.S. 583"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1837-009"
@@ -78,9 +92,11 @@ cases:
     title: "Evans v. Gee"
     volume: "036"
     page: "080"
+    citation: "36 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Thursday, February 9, 1837"
-    citation: "36 U.S. 80"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1837-020"
@@ -88,9 +104,11 @@ cases:
     title: "Livingston&apos;s Executrix v. Story"
     volume: "036"
     page: "351"
+    citation: "36 U.S. 351"
     pdfSource: "loc"
     dateDecision: "Thursday, February 16, 1837"
-    citation: "36 U.S. 351"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1838-022"
@@ -98,9 +116,11 @@ cases:
     title: "Levy v. Arredondo"
     volume: "037"
     page: "218"
+    citation: "37 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Saturday, March 3, 1838"
-    citation: "37 U.S. 218"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1838-024"
@@ -108,9 +128,11 @@ cases:
     title: "United States v. Delespine&apos;s Heirs"
     volume: "037"
     page: "654"
+    citation: "37 U.S. 654"
     pdfSource: "loc"
     dateDecision: "Saturday, March 3, 1838"
-    citation: "37 U.S. 654"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1838-030"
@@ -118,9 +140,11 @@ cases:
     title: "United States v. Kingsley"
     volume: "037"
     page: "476"
+    citation: "37 U.S. 476"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 7, 1838"
-    citation: "37 U.S. 476"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1838-033"
@@ -128,9 +152,11 @@ cases:
     title: "United States v. Mills&apos; Heirs"
     volume: "037"
     page: "215"
+    citation: "37 U.S. 215"
     pdfSource: "loc"
     dateDecision: "Thursday, March 8, 1838"
-    citation: "37 U.S. 215"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1838-038"
@@ -138,9 +164,11 @@ cases:
     title: "Bradstreet v. Thomas"
     volume: "037"
     page: "174"
+    citation: "37 U.S. 174"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1838"
-    citation: "37 U.S. 174"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1839-012"
@@ -148,9 +176,11 @@ cases:
     title: "McElmoyle ex rel. Bailey v. Cohen"
     volume: "038"
     page: "312"
+    citation: "38 U.S. 312"
     pdfSource: "loc"
     dateDecision: "Friday, February 8, 1839"
-    citation: "38 U.S. 312"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1839-013"
@@ -158,9 +188,11 @@ cases:
     title: "United States v. Levy"
     volume: "038"
     page: "081"
+    citation: "38 U.S. 81"
     pdfSource: "loc"
     dateDecision: "Saturday, February 9, 1839"
-    citation: "38 U.S. 81"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1839-014"
@@ -168,9 +200,11 @@ cases:
     title: "United States v. Drummond"
     volume: "038"
     page: "084"
+    citation: "38 U.S. 84"
     pdfSource: "loc"
     dateDecision: "Saturday, February 9, 1839"
-    citation: "38 U.S. 84"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1839-015"
@@ -178,9 +212,11 @@ cases:
     title: "United States v. Burgevin"
     volume: "038"
     page: "085"
+    citation: "38 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Saturday, February 9, 1839"
-    citation: "38 U.S. 85"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1839-016"
@@ -188,9 +224,11 @@ cases:
     title: "United States v. Heirs of De La Maza Arredondo"
     volume: "038"
     page: "088"
+    citation: "38 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Saturday, February 9, 1839"
-    citation: "38 U.S. 88"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1839-032"
@@ -198,9 +236,11 @@ cases:
     title: "Keene v. Whittaker"
     volume: "038"
     page: "459"
+    citation: "38 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Thursday, February 28, 1839"
-    citation: "38 U.S. 459"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1839-033"
@@ -208,9 +248,11 @@ cases:
     title: "United States v. Heirs of Arredondo"
     volume: "038"
     page: "133"
+    citation: "38 U.S. 133"
     pdfSource: "loc"
     dateDecision: "Friday, March 1, 1839"
-    citation: "38 U.S. 133"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1839-040"
@@ -218,9 +260,11 @@ cases:
     title: "Story v. Livingston"
     volume: "038"
     page: "359"
+    citation: "38 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Thursday, March 7, 1839"
-    citation: "38 U.S. 359"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1839-046"
@@ -228,9 +272,11 @@ cases:
     title: "New England Ins. Co. v. Brig Sarah Ann"
     volume: "038"
     page: "387"
+    citation: "38 U.S. 387"
     pdfSource: "loc"
     dateDecision: "Saturday, March 9, 1839"
-    citation: "38 U.S. 387"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1840-016"
@@ -238,9 +284,11 @@ cases:
     title: "Kane v. Paul"
     volume: "039"
     page: "033"
+    citation: "39 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Friday, February 14, 1840"
-    citation: "39 U.S. 33"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1840-028"
@@ -248,9 +296,11 @@ cases:
     title: "Suydam v. Broadnax"
     volume: "039"
     page: "067"
+    citation: "39 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 26, 1840"
-    citation: "39 U.S. 67"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1840-031"
@@ -258,9 +308,11 @@ cases:
     title: "United States v. Wood"
     volume: "039"
     page: "430"
+    citation: "39 U.S. 430"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1840"
-    citation: "39 U.S. 430"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1841-008"
@@ -268,9 +320,11 @@ cases:
     title: "Mitchel v. United States"
     volume: "040"
     page: "052"
+    citation: "40 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 9, 1841"
-    citation: "40 U.S. 52"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1841-013"
@@ -278,9 +332,11 @@ cases:
     title: "United States v. Rodman"
     volume: "040"
     page: "130"
+    citation: "40 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Friday, February 12, 1841"
-    citation: "40 U.S. 130"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1841-014"
@@ -288,9 +344,11 @@ cases:
     title: "United States v. Heirs of Delespine"
     volume: "040"
     page: "226"
+    citation: "40 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Friday, February 12, 1841"
-    citation: "40 U.S. 226"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1841-019"
@@ -298,9 +356,11 @@ cases:
     title: "Buyck v. United States"
     volume: "040"
     page: "215"
+    citation: "40 U.S. 215"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 17, 1841"
-    citation: "40 U.S. 215"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1841-021"
@@ -308,9 +368,11 @@ cases:
     title: "O&apos;Hara v. United States"
     volume: "040"
     page: "275"
+    citation: "40 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1841"
-    citation: "40 U.S. 275"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1841-025"
@@ -318,9 +380,11 @@ cases:
     title: "United States v. Bank of Metropolis"
     volume: "040"
     page: "377"
+    citation: "40 U.S. 377"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1841"
-    citation: "40 U.S. 377"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1842-014"
@@ -328,9 +392,11 @@ cases:
     title: "United States v. Miranda"
     volume: "041"
     page: "153"
+    citation: "41 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 15, 1842"
-    citation: "41 U.S. 153"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1842-025"
@@ -338,9 +404,11 @@ cases:
     title: "Dobbins v. Commissioners of Erie Cty."
     volume: "041"
     page: "435"
+    citation: "41 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Friday, March 4, 1842"
-    citation: "41 U.S. 435"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1842-033"
@@ -348,9 +416,11 @@ cases:
     title: "Gibson v. Chew"
     volume: "041"
     page: "315"
+    citation: "41 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Thursday, March 10, 1842"
-    citation: "41 U.S. 315"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1842-034"
@@ -358,9 +428,11 @@ cases:
     title: "Bradstreet v. Potter"
     volume: "041"
     page: "317"
+    citation: "41 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Thursday, March 10, 1842"
-    citation: "41 U.S. 317"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1843-020"
@@ -368,9 +440,11 @@ cases:
     title: "Morris v. Nixon"
     volume: "042"
     page: "118"
+    citation: "42 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Saturday, February 25, 1843"
-    citation: "42 U.S. 118"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1843-027"
@@ -378,9 +452,11 @@ cases:
     title: "McKenna v. Fisk"
     volume: "042"
     page: "241"
+    citation: "42 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Thursday, March 9, 1843"
-    citation: "42 U.S. 241"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1844-021"
@@ -388,9 +464,11 @@ cases:
     title: "Hanson v. Lessee of Eustace"
     volume: "043"
     page: "653"
+    citation: "43 U.S. 653"
     pdfSource: "loc"
     dateDecision: "Saturday, March 9, 1844"
-    citation: "43 U.S. 653"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1844-033"
@@ -398,9 +476,11 @@ cases:
     title: "Adams v. Roberts"
     volume: "043"
     page: "486"
+    citation: "43 U.S. 486"
     pdfSource: "loc"
     dateDecision: "Friday, March 15, 1844"
-    citation: "43 U.S. 486"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1844-034"
@@ -408,9 +488,11 @@ cases:
     title: "Louisville, C. &amp; C. R. Co. v. Letson"
     volume: "043"
     page: "497"
+    citation: "43 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Friday, March 15, 1844"
-    citation: "43 U.S. 497"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1845-005"
@@ -418,9 +500,11 @@ cases:
     title: "Walker v. Bank of Washington"
     volume: "044"
     page: "062"
+    citation: "44 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 24, 1844"
-    citation: "44 U.S. 62"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1845-024"
@@ -428,9 +512,11 @@ cases:
     title: "Gordon v. Appeal Tax Court"
     volume: "044"
     page: "133"
+    citation: "44 U.S. 133"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 22, 1845"
-    citation: "44 U.S. 133"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1845-033"
@@ -438,9 +524,11 @@ cases:
     title: "United States v. Freeman"
     volume: "044"
     page: "556"
+    citation: "44 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 11, 1845"
-    citation: "44 U.S. 556"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1845-037"
@@ -448,9 +536,11 @@ cases:
     title: "Washington Bridge Co. v. Stewart"
     volume: "044"
     page: "413"
+    citation: "44 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 18, 1845"
-    citation: "44 U.S. 413"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1845-045"
@@ -458,9 +548,11 @@ cases:
     title: "United States v. Gear"
     volume: "044"
     page: "120"
+    citation: "44 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1845"
-    citation: "44 U.S. 120"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1846-004"
@@ -468,9 +560,11 @@ cases:
     title: "Levi v. Thompson"
     volume: "045"
     page: "017"
+    citation: "45 U.S. 17"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 16, 1845"
-    citation: "45 U.S. 17"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1846-014"
@@ -478,9 +572,11 @@ cases:
     title: "Gratiot v. United States"
     volume: "045"
     page: "080"
+    citation: "45 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 14, 1846"
-    citation: "45 U.S. 80"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1846-031"
@@ -488,9 +584,11 @@ cases:
     title: "Buckley v. United States"
     volume: "045"
     page: "251"
+    citation: "45 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Thursday, February 12, 1846"
-    citation: "45 U.S. 251"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1846-039"
@@ -498,9 +596,11 @@ cases:
     title: "Michoud v. Girod"
     volume: "045"
     page: "503"
+    citation: "45 U.S. 503"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 4, 1846"
-    citation: "45 U.S. 503"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1847-007"
@@ -508,9 +608,11 @@ cases:
     title: "Sewall v. Chamberlain"
     volume: "046"
     page: "006"
+    citation: "46 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1847"
-    citation: "46 U.S. 6"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1847-009"
@@ -518,9 +620,11 @@ cases:
     title: "Hall v. Smith"
     volume: "046"
     page: "096"
+    citation: "46 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1847"
-    citation: "46 U.S. 96"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1847-031"
@@ -528,9 +632,11 @@ cases:
     title: "Waring v. Clarke"
     volume: "046"
     page: "441"
+    citation: "46 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1847"
-    citation: "46 U.S. 441"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1848-008"
@@ -538,9 +644,11 @@ cases:
     title: "Patterson v. Gaines"
     volume: "047"
     page: "550"
+    citation: "47 U.S. 550"
     pdfSource: "loc"
     dateDecision: "Thursday, January 13, 1848"
-    citation: "47 U.S. 550"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1848-019"
@@ -548,9 +656,11 @@ cases:
     title: "Pease v. Dwight"
     volume: "047"
     page: "190"
+    citation: "47 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Friday, March 3, 1848"
-    citation: "47 U.S. 190"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1849-009"
@@ -558,9 +668,11 @@ cases:
     title: "Tyler v. Hand"
     volume: "048"
     page: "573"
+    citation: "48 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Thursday, January 18, 1849"
-    citation: "48 U.S. 573"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-015"
@@ -568,9 +680,11 @@ cases:
     title: "Caldwell v. United States"
     volume: "049"
     page: "366"
+    citation: "49 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 23, 1850"
-    citation: "49 U.S. 366"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-036"
@@ -578,9 +692,11 @@ cases:
     title: "Williamson v. Berry"
     volume: "049"
     page: "495"
+    citation: "49 U.S. 495"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1850"
-    citation: "49 U.S. 495"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-037"
@@ -588,9 +704,11 @@ cases:
     title: "Williamson v. Irish Presbyterian Congregation of City of New York"
     volume: "049"
     page: "565"
+    citation: "49 U.S. 565"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1850"
-    citation: "49 U.S. 565"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-038"
@@ -598,9 +716,11 @@ cases:
     title: "Williamson v. Ball"
     volume: "049"
     page: "566"
+    citation: "49 U.S. 566"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1850"
-    citation: "49 U.S. 566"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-052"
@@ -608,9 +728,11 @@ cases:
     title: "Wilson v. Simpson"
     volume: "050"
     page: "109"
+    citation: "50 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Friday, April 26, 1850"
-    citation: "50 U.S. 109"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-066"
@@ -618,9 +740,11 @@ cases:
     title: "Davis v. Police Jury of Parish of Concordia"
     volume: "050"
     page: "280"
+    citation: "50 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 21, 1850"
-    citation: "50 U.S. 280"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-070"
@@ -628,9 +752,11 @@ cases:
     title: "Townsend v. Jemison"
     volume: "050"
     page: "407"
+    citation: "50 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 1850"
-    citation: "50 U.S. 407"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-077"
@@ -638,9 +764,11 @@ cases:
     title: "United States v. Roberts"
     volume: "050"
     page: "501"
+    citation: "50 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 29, 1850"
-    citation: "50 U.S. 501"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-113"
@@ -648,9 +776,11 @@ cases:
     title: "Blanc v. Lafayette"
     volume: "052"
     page: "104"
+    citation: "52 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1851"
-    citation: "52 U.S. 104"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-116"
@@ -658,9 +788,11 @@ cases:
     title: "United States v. Brooks"
     volume: "051"
     page: "442"
+    citation: "51 U.S. 442"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 28, 1851"
-    citation: "51 U.S. 442"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-123"
@@ -668,9 +800,11 @@ cases:
     title: "Oldfield v. Marriott"
     volume: "051"
     page: "146"
+    citation: "51 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 11, 1851"
-    citation: "51 U.S. 146"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-136"
@@ -678,9 +812,11 @@ cases:
     title: "Warner v. Martin"
     volume: "052"
     page: "209"
+    citation: "52 U.S. 209"
     pdfSource: "loc"
     dateDecision: "Friday, February 21, 1851"
-    citation: "52 U.S. 209"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-152"
@@ -688,9 +824,11 @@ cases:
     title: "Den v. Baskerville"
     volume: "052"
     page: "329"
+    citation: "52 U.S. 329"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1851"
-    citation: "52 U.S. 329"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1850-157"
@@ -698,9 +836,11 @@ cases:
     title: "Moore v. Brown"
     volume: "052"
     page: "414"
+    citation: "52 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 11, 1851"
-    citation: "52 U.S. 414"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1851-009"
@@ -708,9 +848,11 @@ cases:
     title: "Harris v. Runnels"
     volume: "053"
     page: "079"
+    citation: "53 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1851"
-    citation: "53 U.S. 79"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1851-037"
@@ -718,9 +860,11 @@ cases:
     title: "Teal v. Felton"
     volume: "053"
     page: "284"
+    citation: "53 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Friday, February 20, 1852"
-    citation: "53 U.S. 284"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1851-057"
@@ -728,9 +872,11 @@ cases:
     title: "Fretz v. Bull"
     volume: "053"
     page: "466"
+    citation: "53 U.S. 466"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1852"
-    citation: "53 U.S. 466"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1851-082"
@@ -738,9 +884,11 @@ cases:
     title: "Tyler v. Black"
     volume: "054"
     page: "230"
+    citation: "54 U.S. 230"
     pdfSource: "loc"
     dateDecision: "Thursday, May 13, 1852"
-    citation: "54 U.S. 230"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1851-089"
@@ -748,9 +896,12 @@ cases:
     title: "Howard v. Ingersoll"
     volume: "054"
     page: "381"
+    docket: "121"
+    citation: "54 U.S. 381"
     pdfSource: "loc"
     dateDecision: "Thursday, May 27, 1852"
-    citation: "54 U.S. 381"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1851-091"
@@ -758,9 +909,11 @@ cases:
     title: "Hill v. Tucker"
     volume: "054"
     page: "458"
+    citation: "54 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Thursday, May 27, 1852"
-    citation: "54 U.S. 458"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1851-092"
@@ -768,9 +921,11 @@ cases:
     title: "Goodall v. Tucker"
     volume: "054"
     page: "469"
+    citation: "54 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Thursday, May 27, 1852"
-    citation: "54 U.S. 469"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1852-007"
@@ -778,9 +933,11 @@ cases:
     title: "Lawler v. Walker"
     volume: "055"
     page: "149"
+    citation: "55 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 28, 1852"
-    citation: "55 U.S. 149"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1852-018"
@@ -788,9 +945,11 @@ cases:
     title: "Troy Iron &amp; Nail Factory v. Corning"
     volume: "055"
     page: "193"
+    citation: "55 U.S. 193"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 18, 1853"
-    citation: "55 U.S. 193"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1852-022"
@@ -798,9 +957,11 @@ cases:
     title: "Perkins v. Fourniquet"
     volume: "055"
     page: "313"
+    citation: "55 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Thursday, January 27, 1853"
-    citation: "55 U.S. 313"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1852-044"
@@ -808,9 +969,11 @@ cases:
     title: "Ennis v. Smith"
     volume: "055"
     page: "400"
+    citation: "55 U.S. 400"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1853"
-    citation: "55 U.S. 400"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1853-007"
@@ -818,9 +981,11 @@ cases:
     title: "Broome v. United States"
     volume: "056"
     page: "143"
+    citation: "56 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Friday, January 6, 1854"
-    citation: "56 U.S. 143"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1853-030"
@@ -828,9 +993,11 @@ cases:
     title: "Lewis v. Darling"
     volume: "057"
     page: "001"
+    citation: "57 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Thursday, February 9, 1854"
-    citation: "57 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1853-041"
@@ -838,9 +1005,11 @@ cases:
     title: "Chouteau v. Molony"
     volume: "057"
     page: "203"
+    citation: "57 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Thursday, February 23, 1854"
-    citation: "57 U.S. 203"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1853-064"
@@ -848,9 +1017,11 @@ cases:
     title: "Homer v. Brown"
     volume: "057"
     page: "354"
+    citation: "57 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 17, 1854"
-    citation: "57 U.S. 354"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1853-066"
@@ -858,9 +1029,11 @@ cases:
     title: "Cross v. Harrison"
     volume: "057"
     page: "164"
+    citation: "57 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 23, 1854"
-    citation: "57 U.S. 164"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1853-080"
@@ -868,9 +1041,11 @@ cases:
     title: "Early v. Doe"
     volume: "057"
     page: "610"
+    citation: "57 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Friday, May 26, 1854"
-    citation: "57 U.S. 610"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1854-012"
@@ -878,9 +1053,11 @@ cases:
     title: "Raymond v. Tyson"
     volume: "058"
     page: "053"
+    citation: "58 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 3, 1855"
-    citation: "58 U.S. 53"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1854-029"
@@ -888,9 +1065,11 @@ cases:
     title: "Bogart v. Steamboat John Jay"
     volume: "058"
     page: "399"
+    citation: "58 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 23, 1855"
-    citation: "58 U.S. 399"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1854-049"
@@ -898,9 +1077,11 @@ cases:
     title: "Booth v. Clark"
     volume: "058"
     page: "322"
+    citation: "58 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Thursday, March 1, 1855"
-    citation: "58 U.S. 322"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1855-019"
@@ -908,9 +1089,11 @@ cases:
     title: "United States v. Reading"
     volume: "059"
     page: "001"
+    citation: "59 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Friday, January 11, 1856"
-    citation: "59 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1855-055"
@@ -918,9 +1101,11 @@ cases:
     title: "Dodge v. Woolsey"
     volume: "059"
     page: "331"
+    citation: "59 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 8, 1856"
-    citation: "59 U.S. 331"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1855-056"
@@ -928,9 +1113,11 @@ cases:
     title: "Ex parte Wells"
     volume: "059"
     page: "307"
+    citation: "59 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 9, 1856"
-    citation: "59 U.S. 307"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1855-064"
@@ -938,9 +1125,11 @@ cases:
     title: "Mechanics&apos; and Traders&apos; Bank v. Debolt"
     volume: "059"
     page: "380"
+    citation: "59 U.S. 380"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 29, 1856"
-    citation: "59 U.S. 380"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1855-065"
@@ -948,9 +1137,11 @@ cases:
     title: "Mechanics&apos; and Trders&apos; Bank v. Thomas"
     volume: "059"
     page: "384"
+    citation: "59 U.S. 384"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 29, 1856"
-    citation: "59 U.S. 384"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1855-071"
@@ -958,9 +1149,11 @@ cases:
     title: "S. S. Masters &amp; Son v. F. L. Barreda &amp; Brother"
     volume: "059"
     page: "489"
+    citation: "59 U.S. 489"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 489"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1855-073"
@@ -968,9 +1161,11 @@ cases:
     title: "Union Bank of Tenn. v. Jolly&apos;s Administrators"
     volume: "059"
     page: "503"
+    citation: "59 U.S. 503"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 503"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1856-014"
@@ -978,9 +1173,11 @@ cases:
     title: "Ure v. Coffman"
     volume: "060"
     page: "056"
+    citation: "60 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1857"
-    citation: "60 U.S. 56"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1856-031"
@@ -988,9 +1185,11 @@ cases:
     title: "Mordecai v. Lindsay"
     volume: "060"
     page: "199"
+    citation: "60 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1857"
-    citation: "60 U.S. 199"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1856-039"
@@ -998,9 +1197,11 @@ cases:
     title: "Field v. Seabury"
     volume: "060"
     page: "323"
+    citation: "60 U.S. 323"
     pdfSource: "loc"
     dateDecision: "Thursday, February 19, 1857"
-    citation: "60 U.S. 323"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1856-040"
@@ -1008,9 +1209,11 @@ cases:
     title: "Field v. Seabury"
     volume: "060"
     page: "333"
+    citation: "60 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Thursday, February 19, 1857"
-    citation: "60 U.S. 333"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1856-048"
@@ -1018,9 +1221,11 @@ cases:
     title: "Beebe v. Russell"
     volume: "060"
     page: "283"
+    citation: "60 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
-    citation: "60 U.S. 283"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1856-049"
@@ -1028,9 +1233,11 @@ cases:
     title: "Farrelly v. Woodfolk"
     volume: "060"
     page: "288"
+    citation: "60 U.S. 288"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
-    citation: "60 U.S. 288"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1856-057"
@@ -1038,9 +1245,11 @@ cases:
     title: "Roberts v. Cooper"
     volume: "060"
     page: "373"
+    citation: "60 U.S. 373"
     pdfSource: "loc"
     dateDecision: "December Term 1856"
-    citation: "60 U.S. 373"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1857-017"
@@ -1048,9 +1257,11 @@ cases:
     title: "Dynes v. Hoover"
     volume: "061"
     page: "065"
+    citation: "61 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1858"
-    citation: "61 U.S. 65"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1857-024"
@@ -1058,9 +1269,11 @@ cases:
     title: "Commercial Bank of Manchester v. Buckner"
     volume: "061"
     page: "108"
+    citation: "61 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1858"
-    citation: "61 U.S. 108"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1857-067"
@@ -1068,9 +1281,11 @@ cases:
     title: "Sampson v. Peaslee"
     volume: "061"
     page: "571"
+    citation: "61 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 18, 1858"
-    citation: "61 U.S. 571"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1858-010"
@@ -1078,9 +1293,11 @@ cases:
     title: "Livermore v. Jenckes"
     volume: "062"
     page: "126"
+    citation: "62 U.S. 126"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 4, 1859"
-    citation: "62 U.S. 126"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1858-022"
@@ -1088,9 +1305,11 @@ cases:
     title: "McKinlay v. Morrish"
     volume: "062"
     page: "343"
+    citation: "62 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1859"
-    citation: "62 U.S. 343"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1858-032"
@@ -1098,9 +1317,11 @@ cases:
     title: "United States v. City Bank of Columbus"
     volume: "062"
     page: "356"
+    citation: "62 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1859"
-    citation: "62 U.S. 356"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1858-052"
@@ -1108,9 +1329,11 @@ cases:
     title: "Brittan v. Barnaby"
     volume: "062"
     page: "527"
+    citation: "62 U.S. 527"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1859"
-    citation: "62 U.S. 527"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1858-068"
@@ -1118,9 +1341,11 @@ cases:
     title: "Barber v. Barber"
     volume: "062"
     page: "582"
+    citation: "62 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1859"
-    citation: "62 U.S. 582"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1859-010"
@@ -1128,9 +1353,11 @@ cases:
     title: "Flowers v. Foreman"
     volume: "064"
     page: "132"
+    citation: "64 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 27, 1859"
-    citation: "64 U.S. 132"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1859-020"
@@ -1138,9 +1365,11 @@ cases:
     title: "Adams v. Preston"
     volume: "063"
     page: "473"
+    citation: "63 U.S. 473"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1860"
-    citation: "63 U.S. 473"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1859-025"
@@ -1148,9 +1377,11 @@ cases:
     title: "Irvine v. Redfield"
     volume: "064"
     page: "170"
+    citation: "64 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1860"
-    citation: "64 U.S. 170"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1859-042"
@@ -1158,9 +1389,11 @@ cases:
     title: "Dermott v. Jones"
     volume: "064"
     page: "220"
+    citation: "64 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1860"
-    citation: "64 U.S. 220"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1859-046"
@@ -1168,9 +1401,11 @@ cases:
     title: "United States v. West&apos;s Heirs"
     volume: "063"
     page: "315"
+    citation: "63 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1860"
-    citation: "63 U.S. 315"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1859-070"
@@ -1178,9 +1413,11 @@ cases:
     title: "Wiseman v. Chiappella"
     volume: "064"
     page: "368"
+    citation: "64 U.S. 368"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1860"
-    citation: "64 U.S. 368"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1859-076"
@@ -1188,9 +1425,11 @@ cases:
     title: "Lawrence v. Tucker"
     volume: "064"
     page: "014"
+    citation: "64 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1860"
-    citation: "64 U.S. 14"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1859-077"
@@ -1198,9 +1437,11 @@ cases:
     title: "Kilbourne v. State Sav. Institution of St. Louis"
     volume: "063"
     page: "503"
+    citation: "63 U.S. 503"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1860"
-    citation: "63 U.S. 503"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1859-083"
@@ -1208,9 +1449,11 @@ cases:
     title: "Fuentes v. United States"
     volume: "063"
     page: "443"
+    citation: "63 U.S. 443"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1860"
-    citation: "63 U.S. 443"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1859-094"
@@ -1218,9 +1461,11 @@ cases:
     title: "Very v. Watkins"
     volume: "064"
     page: "469"
+    citation: "64 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1860"
-    citation: "64 U.S. 469"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1859-103"
@@ -1228,9 +1473,11 @@ cases:
     title: "Day v. Washburn"
     volume: "064"
     page: "309"
+    citation: "64 U.S. 309"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 1, 1860"
-    citation: "64 U.S. 309"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1859-104"
@@ -1238,9 +1485,11 @@ cases:
     title: "United States v. Gomez"
     volume: "064"
     page: "326"
+    citation: "64 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 1, 1860"
-    citation: "64 U.S. 326"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1859-105"
@@ -1248,9 +1497,11 @@ cases:
     title: "Alabama v. Georgia"
     volume: "064"
     page: "505"
+    citation: "64 U.S. 505"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 1, 1860"
-    citation: "64 U.S. 505"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1860-009"
@@ -1258,9 +1509,11 @@ cases:
     title: "Amey v. Mayor of Allegheny City"
     volume: "065"
     page: "364"
+    citation: "65 U.S. 364"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1861"
-    citation: "65 U.S. 364"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1860-018"
@@ -1268,9 +1521,11 @@ cases:
     title: "Hall v. Papin"
     volume: "065"
     page: "132"
+    citation: "65 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1861"
-    citation: "65 U.S. 132"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1860-040"
@@ -1278,9 +1533,11 @@ cases:
     title: "Perin v. Carey"
     volume: "065"
     page: "465"
+    citation: "65 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1861"
-    citation: "65 U.S. 465"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1860-054"
@@ -1288,9 +1545,11 @@ cases:
     title: "Curtis v. County of Butler"
     volume: "065"
     page: "435"
+    citation: "65 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 435"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1860-062"
@@ -1298,9 +1557,11 @@ cases:
     title: "Gaines v. Hennen"
     volume: "065"
     page: "553"
+    citation: "65 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Thursday, March 14, 1861"
-    citation: "65 U.S. 553"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1861-010"
@@ -1308,9 +1569,11 @@ cases:
     title: "Laflin v. Herrington"
     volume: "066"
     page: "326"
+    citation: "66 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1862"
-    citation: "66 U.S. 326"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1861-024"
@@ -1318,9 +1581,11 @@ cases:
     title: "The Steamer New Philadelphia"
     volume: "066"
     page: "062"
+    citation: "66 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1862"
-    citation: "66 U.S. 62"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1861-029"
@@ -1328,9 +1593,11 @@ cases:
     title: "Nelson v. Woodruff"
     volume: "066"
     page: "156"
+    citation: "66 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1862"
-    citation: "66 U.S. 156"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1861-037"
@@ -1338,9 +1605,11 @@ cases:
     title: "Woods v. Lawrence County"
     volume: "066"
     page: "386"
+    citation: "66 U.S. 386"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1862"
-    citation: "66 U.S. 386"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1861-042"
@@ -1348,9 +1617,11 @@ cases:
     title: "United States v. Vallejo"
     volume: "066"
     page: "283"
+    citation: "66 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1862"
-    citation: "66 U.S. 283"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1861-051"
@@ -1358,9 +1629,11 @@ cases:
     title: "Jefferson Branch Bank v. Skelly"
     volume: "066"
     page: "436"
+    citation: "66 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1862"
-    citation: "66 U.S. 436"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1861-052"
@@ -1368,9 +1641,11 @@ cases:
     title: "Franklin Branch Bank v. Ohio"
     volume: "066"
     page: "474"
+    citation: "66 U.S. 474"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1862"
-    citation: "66 U.S. 474"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1862-008"
@@ -1378,9 +1653,11 @@ cases:
     title: "Wright v. Bales"
     volume: "067"
     page: "535"
+    citation: "67 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1863"
-    citation: "67 U.S. 535"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1862-030"
@@ -1388,9 +1665,11 @@ cases:
     title: "Moran v. Commissioners of Miami Cty."
     volume: "067"
     page: "722"
+    citation: "67 U.S. 722"
     pdfSource: "loc"
     dateDecision: "Monday, February 9, 1863"
-    citation: "67 U.S. 722"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1862-032"
@@ -1398,9 +1677,11 @@ cases:
     title: "Griffing v. Gibb"
     volume: "067"
     page: "519"
+    citation: "67 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1863"
-    citation: "67 U.S. 519"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1863-001"
@@ -1408,9 +1689,11 @@ cases:
     title: "Pomeroy&apos;s Lessee v. State Bank of Ind."
     volume: "068"
     page: "023"
+    citation: "68 U.S. 23"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1863"
-    citation: "68 U.S. 23"
+    voteMajority: 10
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1863-003"
@@ -1418,9 +1701,11 @@ cases:
     title: "Roosevelt v. Meyer"
     volume: "068"
     page: "512"
+    citation: "68 U.S. 512"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1863"
-    citation: "68 U.S. 512"
+    voteMajority: 9
+    voteMinority: 1
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1863-033"
@@ -1428,9 +1713,11 @@ cases:
     title: "Ex parte Vallandigham"
     volume: "068"
     page: "243"
+    citation: "68 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1864"
-    citation: "68 U.S. 243"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1863-047"
@@ -1438,9 +1725,11 @@ cases:
     title: "Spain v. Hamilton&apos;s Administrator"
     volume: "068"
     page: "604"
+    citation: "68 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Monday, February 29, 1864"
-    citation: "68 U.S. 604"
+    voteMajority: 8
+    voteMinority: 2
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1864-027"
@@ -1448,9 +1737,11 @@ cases:
     title: "Day v. Gallup"
     volume: "069"
     page: "097"
+    citation: "69 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1865"
-    citation: "69 U.S. 97"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jmwayne
     authorName: "James Wayne"
   - id: "1864-029"
@@ -1458,9 +1749,11 @@ cases:
     title: "Tobey v. Leonards"
     volume: "069"
     page: "423"
+    citation: "69 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1865"
-    citation: "69 U.S. 423"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jmwayne
     authorName: "James Wayne"
 ---

@@ -8,9 +8,11 @@ cases:
     title: "Neilson v. Lagow"
     volume: "053"
     page: "098"
+    citation: "53 U.S. 98"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 9, 1851"
-    citation: "53 U.S. 98"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1851-013"
@@ -18,9 +20,11 @@ cases:
     title: "Russell v. Southard"
     volume: "053"
     page: "139"
+    citation: "53 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 31, 1851"
-    citation: "53 U.S. 139"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1851-018"
@@ -28,9 +32,11 @@ cases:
     title: "Wilbur v. Almy"
     volume: "053"
     page: "180"
+    citation: "53 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 7, 1852"
-    citation: "53 U.S. 180"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1851-028"
@@ -38,9 +44,11 @@ cases:
     title: "Achison v. Huddleson"
     volume: "053"
     page: "293"
+    citation: "53 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, February 9, 1852"
-    citation: "53 U.S. 293"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1851-036"
@@ -48,9 +56,11 @@ cases:
     title: "McCormick v. Gray"
     volume: "054"
     page: "026"
+    citation: "54 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Thursday, February 19, 1852"
-    citation: "54 U.S. 26"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1851-051"
@@ -58,9 +68,11 @@ cases:
     title: "Cooley v. Board of Wardens of Port of Philadelphia ex rel. Soc. for Relief of Distressed Pilots"
     volume: "053"
     page: "299"
+    citation: "53 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1852"
-    citation: "53 U.S. 299"
+    voteMajority: 6
+    voteMinority: 2
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1851-064"
@@ -68,9 +80,11 @@ cases:
     title: "Buckingham v. McLean"
     volume: "054"
     page: "151"
+    citation: "54 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 20, 1852"
-    citation: "54 U.S. 151"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1851-071"
@@ -78,9 +92,11 @@ cases:
     title: "Very v. Levy"
     volume: "054"
     page: "345"
+    citation: "54 U.S. 345"
     pdfSource: "loc"
     dateDecision: "Wednesday, April 28, 1852"
-    citation: "54 U.S. 345"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1851-083"
@@ -88,9 +104,11 @@ cases:
     title: "Philadelphia, W., &amp; B. R. Co. v. Howard"
     volume: "054"
     page: "307"
+    citation: "54 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 18, 1852"
-    citation: "54 U.S. 307"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1851-086"
@@ -98,9 +116,11 @@ cases:
     title: "Neves v. Scott"
     volume: "054"
     page: "268"
+    citation: "54 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Thursday, May 27, 1852"
-    citation: "54 U.S. 268"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1852-003"
@@ -108,9 +128,11 @@ cases:
     title: "Hagan v. Walker"
     volume: "055"
     page: "029"
+    citation: "55 U.S. 29"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 21, 1852"
-    citation: "55 U.S. 29"
+    voteMajority: 8
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1852-016"
@@ -118,9 +140,11 @@ cases:
     title: "Silsby v. Foote"
     volume: "055"
     page: "218"
+    citation: "55 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 11, 1853"
-    citation: "55 U.S. 218"
+    voteMajority: 7
+    voteMinority: 1
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1852-026"
@@ -128,9 +152,11 @@ cases:
     title: "Christy v. Scott"
     volume: "055"
     page: "282"
+    citation: "55 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 1, 1853"
-    citation: "55 U.S. 282"
+    voteMajority: 8
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1852-027"
@@ -138,9 +164,11 @@ cases:
     title: "Christy v. Young"
     volume: "055"
     page: "296"
+    citation: "55 U.S. 296"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 1, 1853"
-    citation: "55 U.S. 296"
+    voteMajority: 8
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1852-028"
@@ -148,9 +176,11 @@ cases:
     title: "Christy v. Findley"
     volume: "055"
     page: "296"
+    citation: "55 U.S. 296"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 1, 1853"
-    citation: "55 U.S. 296"
+    voteMajority: 8
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1852-029"
@@ -158,9 +188,11 @@ cases:
     title: "Christy v. Henley"
     volume: "055"
     page: "297"
+    citation: "55 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 1, 1853"
-    citation: "55 U.S. 297"
+    voteMajority: 8
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1852-038"
@@ -168,9 +200,11 @@ cases:
     title: "Webster v. Cooper"
     volume: "055"
     page: "488"
+    citation: "55 U.S. 488"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 23, 1853"
-    citation: "55 U.S. 488"
+    voteMajority: 8
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1852-052"
@@ -178,9 +212,11 @@ cases:
     title: "General Mut. Ins. Co. v. Sherwood"
     volume: "055"
     page: "351"
+    citation: "55 U.S. 351"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1853"
-    citation: "55 U.S. 351"
+    voteMajority: 7
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1853-005"
@@ -188,9 +224,11 @@ cases:
     title: "Curran v. Arkansas"
     volume: "056"
     page: "304"
+    citation: "56 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Thursday, December 29, 1853"
-    citation: "56 U.S. 304"
+    voteMajority: 6
+    voteMinority: 1
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1853-013"
@@ -198,9 +236,11 @@ cases:
     title: "Kanouse v. Martin"
     volume: "056"
     page: "198"
+    citation: "56 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 10, 1854"
-    citation: "56 U.S. 198"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1853-018"
@@ -208,9 +248,11 @@ cases:
     title: "Garrow v. Davis"
     volume: "056"
     page: "272"
+    citation: "56 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Friday, January 27, 1854"
-    citation: "56 U.S. 272"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1853-027"
@@ -218,9 +260,11 @@ cases:
     title: "Winans v. Denmead"
     volume: "056"
     page: "330"
+    citation: "56 U.S. 330"
     pdfSource: "loc"
     dateDecision: "Thursday, February 9, 1854"
-    citation: "56 U.S. 330"
+    voteMajority: 5
+    voteMinority: 4
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1853-053"
@@ -228,9 +272,11 @@ cases:
     title: "Carroll v. Lessee of Carroll"
     volume: "057"
     page: "275"
+    citation: "57 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 1, 1854"
-    citation: "57 U.S. 275"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1853-059"
@@ -238,9 +284,11 @@ cases:
     title: "Steamboat New World v. King"
     volume: "057"
     page: "469"
+    citation: "57 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 16, 1854"
-    citation: "57 U.S. 469"
+    voteMajority: 8
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1853-065"
@@ -248,9 +296,11 @@ cases:
     title: "Stuart v. Maxwell"
     volume: "057"
     page: "150"
+    citation: "57 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 23, 1854"
-    citation: "57 U.S. 150"
+    voteMajority: 8
+    voteMinority: 1
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1853-081"
@@ -258,9 +308,11 @@ cases:
     title: "Turner v. Yates"
     volume: "057"
     page: "014"
+    citation: "57 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Thursday, February 23, 1854"
-    citation: "57 U.S. 14"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1854-001"
@@ -268,9 +320,11 @@ cases:
     title: "Ring v. Maxwell"
     volume: "058"
     page: "147"
+    citation: "58 U.S. 147"
     pdfSource: "loc"
     dateDecision: "Thursday, December 14, 1854"
-    citation: "58 U.S. 147"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1854-008"
@@ -278,9 +332,11 @@ cases:
     title: "Bush v. Cooper&apos;s Administrator"
     volume: "059"
     page: "082"
+    citation: "59 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 2, 1856"
-    citation: "59 U.S. 82"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1854-019"
@@ -288,9 +344,11 @@ cases:
     title: "Lawrence v. Minturn"
     volume: "058"
     page: "100"
+    citation: "58 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1855"
-    citation: "58 U.S. 100"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1854-036"
@@ -298,9 +356,11 @@ cases:
     title: "Hendrickson v. Hinckley"
     volume: "058"
     page: "443"
+    citation: "58 U.S. 443"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1855"
-    citation: "58 U.S. 443"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1854-046"
@@ -308,9 +368,11 @@ cases:
     title: "Stevens v. Gladding"
     volume: "058"
     page: "447"
+    citation: "58 U.S. 447"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1855"
-    citation: "58 U.S. 447"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1854-047"
@@ -318,9 +380,11 @@ cases:
     title: "Shields v. Barrow"
     volume: "058"
     page: "130"
+    citation: "58 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 20, 1855"
-    citation: "58 U.S. 130"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1854-055"
@@ -328,9 +392,11 @@ cases:
     title: "United States v. Nickerson"
     volume: "058"
     page: "204"
+    citation: "58 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Thursday, March 8, 1855"
-    citation: "58 U.S. 204"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1854-069"
@@ -338,9 +404,11 @@ cases:
     title: "Christy v. Alford"
     volume: "058"
     page: "601"
+    citation: "58 U.S. 601"
     pdfSource: "loc"
     dateDecision: "Saturday, March 10, 1855"
-    citation: "58 U.S. 601"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1855-007"
@@ -348,9 +416,11 @@ cases:
     title: "Smith v. Maryland"
     volume: "059"
     page: "071"
+    citation: "59 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Friday, December 21, 1855"
-    citation: "59 U.S. 71"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1855-022"
@@ -358,9 +428,11 @@ cases:
     title: "Richards v. Holmes"
     volume: "059"
     page: "143"
+    citation: "59 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 15, 1856"
-    citation: "59 U.S. 143"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1855-025"
@@ -368,9 +440,11 @@ cases:
     title: "Schooner Freeman v. Buckingham"
     volume: "059"
     page: "182"
+    citation: "59 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 29, 1856"
-    citation: "59 U.S. 182"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1855-038"
@@ -378,9 +452,11 @@ cases:
     title: "McLaughlin v. Swann"
     volume: "059"
     page: "217"
+    citation: "59 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Thursday, February 7, 1856"
-    citation: "59 U.S. 217"
+    voteMajority: 8
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1855-044"
@@ -388,9 +464,11 @@ cases:
     title: "Murray&apos;s Lessee v. Hoboken Land &amp; Improvement Co."
     volume: "059"
     page: "272"
+    citation: "59 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 19, 1856"
-    citation: "59 U.S. 272"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1855-048"
@@ -398,9 +476,11 @@ cases:
     title: "Kinsman v. Parkhurst"
     volume: "059"
     page: "289"
+    citation: "59 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1856"
-    citation: "59 U.S. 289"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1855-060"
@@ -408,9 +488,11 @@ cases:
     title: "Lafayette Ins. Co. v. French"
     volume: "059"
     page: "404"
+    citation: "59 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Friday, April 25, 1856"
-    citation: "59 U.S. 404"
+    voteMajority: 8
+    voteMinority: 1
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1855-081"
@@ -418,9 +500,11 @@ cases:
     title: "Crockett v. Steamboat Isaac Newton"
     volume: "059"
     page: "581"
+    citation: "59 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 581"
+    voteMajority: 8
+    voteMinority: 1
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1855-084"
@@ -428,9 +512,11 @@ cases:
     title: "Conner v. Connor&apos;s Administrator"
     volume: "059"
     page: "591"
+    citation: "59 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1856"
-    citation: "59 U.S. 591"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1856-001"
@@ -438,9 +524,11 @@ cases:
     title: "United States v. Le Baron"
     volume: "060"
     page: "073"
+    citation: "60 U.S. 73"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 16, 1856"
-    citation: "60 U.S. 73"
+    voteMajority: 8
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1856-006"
@@ -448,9 +536,11 @@ cases:
     title: "Thomas v. Osborn"
     volume: "060"
     page: "022"
+    citation: "60 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, December 29, 1856"
-    citation: "60 U.S. 22"
+    voteMajority: 6
+    voteMinority: 3
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1856-020"
@@ -458,9 +548,11 @@ cases:
     title: "Betts v. Lewis"
     volume: "060"
     page: "072"
+    citation: "60 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 20, 1857"
-    citation: "60 U.S. 72"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1856-022"
@@ -468,9 +560,11 @@ cases:
     title: "E. J. DuPont de Nemours &amp; Co. v. Vance"
     volume: "060"
     page: "162"
+    citation: "60 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 20, 1857"
-    citation: "60 U.S. 162"
+    voteMajority: 6
+    voteMinority: 3
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1856-035"
@@ -478,9 +572,11 @@ cases:
     title: "Commercial Mut. Marine Ins. Co. v. Union Mut. Ins. Co. of N. Y."
     volume: "060"
     page: "318"
+    citation: "60 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 17, 1857"
-    citation: "60 U.S. 318"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1856-047"
@@ -488,9 +584,11 @@ cases:
     title: "Bulkley v. Honold"
     volume: "060"
     page: "390"
+    citation: "60 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Friday, February 27, 1857"
-    citation: "60 U.S. 390"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1856-058"
@@ -498,9 +596,11 @@ cases:
     title: "McRea v. Branch of Bank of Ala. at Mobile"
     volume: "060"
     page: "376"
+    citation: "60 U.S. 376"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
-    citation: "60 U.S. 376"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1856-062"
@@ -508,9 +608,11 @@ cases:
     title: "United States v. Stewart"
     volume: "060"
     page: "079"
+    citation: "60 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 16, 1856"
-    citation: "60 U.S. 79"
+    voteMajority: 8
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
   - id: "1856-063"
@@ -518,9 +620,11 @@ cases:
     title: "Sturgis v. Honold"
     volume: "060"
     page: "393"
+    citation: "60 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Friday, February 27, 1857"
-    citation: "60 U.S. 393"
+    voteMajority: 9
+    voteMinority: 0
     authorId: brcurtis
     authorName: "Benjamin Curtis"
 ---

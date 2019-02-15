@@ -8,9 +8,12 @@ cases:
     title: "United States v. Dickerson"
     volume: "310"
     page: "554"
+    docket: "705"
+    citation: "310 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1940"
-    citation: "310 U.S. 554"
+    voteMajority: 5
+    voteMinority: 4
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1939-067"
@@ -18,9 +21,12 @@ cases:
     title: "Anderson v. Helvering"
     volume: "310"
     page: "404"
+    docket: "682"
+    citation: "310 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1940"
-    citation: "310 U.S. 404"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1939-082"
@@ -28,9 +34,12 @@ cases:
     title: "Thornhill v. Alabama"
     volume: "310"
     page: "088"
+    docket: "514"
+    citation: "310 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1940"
-    citation: "310 U.S. 88"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1939-083"
@@ -38,9 +47,12 @@ cases:
     title: "Carlson v. California"
     volume: "310"
     page: "106"
+    docket: "667"
+    citation: "310 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1940"
-    citation: "310 U.S. 106"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1939-135"
@@ -48,9 +60,12 @@ cases:
     title: "Tradesmens Nat. Bank of Oklahoma City v. Oklahoma Tax Comm&apos;n"
     volume: "309"
     page: "560"
+    docket: "596"
+    citation: "309 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1940"
-    citation: "309 U.S. 560"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-011"
@@ -58,9 +73,12 @@ cases:
     title: "Deckert v. Independence Shares Corp."
     volume: "311"
     page: "282"
+    docket: "17"
+    citation: "311 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1940"
-    citation: "311 U.S. 282"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-019"
@@ -68,9 +86,12 @@ cases:
     title: "Neuberger v. Commissioner"
     volume: "311"
     page: "083"
+    docket: "5"
+    citation: "311 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 12, 1940"
-    citation: "311 U.S. 83"
+    voteMajority: 6
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-033"
@@ -78,9 +99,12 @@ cases:
     title: "Stoner v. New York Life Ins. Co."
     volume: "311"
     page: "464"
+    docket: "74"
+    citation: "311 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1940"
-    citation: "311 U.S. 464"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-041"
@@ -88,9 +112,12 @@ cases:
     title: "United States v. Harris"
     volume: "311"
     page: "292"
+    docket: "52"
+    citation: "311 U.S. 292"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1940"
-    citation: "311 U.S. 292"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-044"
@@ -98,9 +125,12 @@ cases:
     title: "Wilson &amp; Co. v. United States"
     volume: "311"
     page: "104"
+    docket: "23"
+    citation: "311 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1940"
-    citation: "311 U.S. 104"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-060"
@@ -108,9 +138,12 @@ cases:
     title: "United States v. Cowden Mfg. Co."
     volume: "312"
     page: "034"
+    docket: "188"
+    citation: "312 U.S. 34"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1941"
-    citation: "312 U.S. 34"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-071"
@@ -118,9 +151,12 @@ cases:
     title: "United States v. Resler"
     volume: "313"
     page: "057"
+    docket: "616"
+    citation: "313 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1941"
-    citation: "313 U.S. 57"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-077"
@@ -128,9 +164,12 @@ cases:
     title: "Benitez Sampayo v. Bank of Nova Scotia"
     volume: "313"
     page: "270"
+    docket: "90"
+    citation: "313 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Monday, May 12, 1941"
-    citation: "313 U.S. 270"
+    voteMajority: 7
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-111"
@@ -138,9 +177,12 @@ cases:
     title: "Helvering v. Le Gierse"
     volume: "312"
     page: "531"
+    docket: "237"
+    citation: "312 U.S. 531"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1941"
-    citation: "312 U.S. 531"
+    voteMajority: 6
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-112"
@@ -148,9 +190,12 @@ cases:
     title: "Estate of Keller v. Commissioner"
     volume: "312"
     page: "543"
+    docket: "371"
+    citation: "312 U.S. 543"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1941"
-    citation: "312 U.S. 543"
+    voteMajority: 6
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-124"
@@ -158,9 +203,12 @@ cases:
     title: "Helvering v. William Flaccus Oak Leather Co."
     volume: "313"
     page: "247"
+    docket: "627"
+    citation: "313 U.S. 247"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1941"
-    citation: "313 U.S. 247"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-128"
@@ -168,9 +216,12 @@ cases:
     title: "Hort v. Commissioner"
     volume: "313"
     page: "028"
+    docket: "517"
+    citation: "313 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1941"
-    citation: "313 U.S. 28"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-133"
@@ -178,9 +229,12 @@ cases:
     title: "United States v. A. S. Kreider Co."
     volume: "313"
     page: "443"
+    docket: "853"
+    citation: "313 U.S. 443"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1941"
-    citation: "313 U.S. 443"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-147"
@@ -188,9 +242,12 @@ cases:
     title: "Jenkins v. Kurn"
     volume: "313"
     page: "256"
+    docket: "732"
+    citation: "313 U.S. 256"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1941"
-    citation: "313 U.S. 256"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-153"
@@ -198,9 +255,12 @@ cases:
     title: "Metropolitan Casualty Ins. Co. v. Stevens"
     volume: "312"
     page: "563"
+    docket: "425"
+    citation: "312 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1941"
-    citation: "312 U.S. 563"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-156"
@@ -208,9 +268,11 @@ cases:
     title: "Ex parte Hull"
     volume: "312"
     page: "546"
+    citation: "312 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1941"
-    citation: "312 U.S. 546"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1940-168"
@@ -218,9 +280,12 @@ cases:
     title: "Maryland Casualty Co. v. Pacific Coal &amp; Oil Co."
     volume: "312"
     page: "270"
+    docket: "194"
+    citation: "312 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1941"
-    citation: "312 U.S. 270"
+    voteMajority: 7
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-013"
@@ -228,9 +293,12 @@ cases:
     title: "Federal Land Bank of St. Paul v. Bismarck Lumber Co."
     volume: "314"
     page: "095"
+    docket: "76"
+    citation: "314 U.S. 95"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1941"
-    citation: "314 U.S. 95"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-017"
@@ -238,9 +306,12 @@ cases:
     title: "NLRB v. Virginia Elec. &amp; Power Co."
     volume: "314"
     page: "469"
+    docket: "25"
+    citation: "314 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1941"
-    citation: "314 U.S. 469"
+    voteMajority: 7
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-044"
@@ -248,9 +319,12 @@ cases:
     title: "Great Northern R. Co. v. United States"
     volume: "315"
     page: "262"
+    docket: "149"
+    citation: "315 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1942"
-    citation: "315 U.S. 262"
+    voteMajority: 7
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-056"
@@ -258,9 +332,12 @@ cases:
     title: "United States v. N. E. Rosenblum Truck Lines, Inc."
     volume: "315"
     page: "050"
+    docket: "52"
+    citation: "315 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1942"
-    citation: "315 U.S. 50"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-057"
@@ -268,9 +345,12 @@ cases:
     title: "Lubetich v. United States"
     volume: "315"
     page: "057"
+    docket: "322"
+    citation: "315 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1942"
-    citation: "315 U.S. 57"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-066"
@@ -278,9 +358,12 @@ cases:
     title: "Magruder v. Supplee"
     volume: "316"
     page: "394"
+    docket: "947"
+    citation: "316 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1942"
-    citation: "316 U.S. 394"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-091"
@@ -288,9 +371,12 @@ cases:
     title: "Magruder v. Washington, Baltimore &amp; Annapolis Realty Corp."
     volume: "316"
     page: "069"
+    docket: "601"
+    citation: "316 U.S. 69"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1942"
-    citation: "316 U.S. 69"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-101"
@@ -298,9 +384,12 @@ cases:
     title: "Stonite Products Co. v. Melvin Lloyd Co."
     volume: "315"
     page: "561"
+    docket: "321"
+    citation: "315 U.S. 561"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1942"
-    citation: "315 U.S. 561"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-110"
@@ -308,9 +397,12 @@ cases:
     title: "Jacob v. New York City"
     volume: "315"
     page: "752"
+    docket: "589"
+    citation: "315 U.S. 752"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1942"
-    citation: "315 U.S. 752"
+    voteMajority: 6
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-124"
@@ -318,9 +410,12 @@ cases:
     title: "Seminole Nation v. United States"
     volume: "316"
     page: "286"
+    docket: "348"
+    citation: "316 U.S. 286"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1942"
-    citation: "316 U.S. 286"
+    voteMajority: 7
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-125"
@@ -328,9 +423,12 @@ cases:
     title: "Seminole Nation v. United States"
     volume: "316"
     page: "310"
+    docket: "830"
+    citation: "316 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1942"
-    citation: "316 U.S. 310"
+    voteMajority: 7
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-148"
@@ -338,9 +436,12 @@ cases:
     title: "Chaplinsky v. New Hampshire"
     volume: "315"
     page: "568"
+    docket: "255"
+    citation: "315 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1942"
-    citation: "315 U.S. 568"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-155"
@@ -348,9 +449,12 @@ cases:
     title: "Young v. United States"
     volume: "315"
     page: "257"
+    docket: "86"
+    citation: "315 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1942"
-    citation: "315 U.S. 257"
+    voteMajority: 7
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1941-157"
@@ -358,9 +462,12 @@ cases:
     title: "Glasser v. United States"
     volume: "315"
     page: "060"
+    docket: "30"
+    citation: "315 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1942"
-    citation: "315 U.S. 60"
+    voteMajority: 6
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-002"
@@ -368,9 +475,12 @@ cases:
     title: "Fisher v. Whiton"
     volume: "317"
     page: "217"
+    docket: "85"
+    citation: "317 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1942"
-    citation: "317 U.S. 217"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-016"
@@ -378,9 +488,12 @@ cases:
     title: "Warren-Bradshaw Drilling Co. v. Hall"
     volume: "317"
     page: "088"
+    docket: "21"
+    citation: "317 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1942"
-    citation: "317 U.S. 88"
+    voteMajority: 7
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-018"
@@ -388,9 +501,12 @@ cases:
     title: "Mother Lode Coalition Mines Co. v. Commissioner"
     volume: "317"
     page: "222"
+    docket: "94"
+    citation: "317 U.S. 222"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1942"
-    citation: "317 U.S. 222"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-021"
@@ -398,9 +514,12 @@ cases:
     title: "Helvering v. Ohio Leather Co."
     volume: "317"
     page: "102"
+    docket: "40"
+    citation: "317 U.S. 102"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1942"
-    citation: "317 U.S. 102"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-023"
@@ -408,9 +527,12 @@ cases:
     title: "Riggs v. Del Drago"
     volume: "317"
     page: "095"
+    docket: "30"
+    citation: "317 U.S. 95"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1942"
-    citation: "317 U.S. 95"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-029"
@@ -418,9 +540,12 @@ cases:
     title: "Pyle v. Kansas"
     volume: "317"
     page: "213"
+    docket: "50"
+    citation: "317 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1942"
-    citation: "317 U.S. 213"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-045"
@@ -428,9 +553,12 @@ cases:
     title: "Schneiderman v. United States"
     volume: "320"
     page: "118"
+    docket: "2"
+    citation: "320 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1943"
-    citation: "320 U.S. 118"
+    voteMajority: 5
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-067"
@@ -438,9 +566,12 @@ cases:
     title: "Lilly v. Grand Trunk Western R. Co."
     volume: "317"
     page: "481"
+    docket: "124"
+    citation: "317 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1943"
-    citation: "317 U.S. 481"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-069"
@@ -448,9 +579,12 @@ cases:
     title: "Virginia Elec. &amp; Power Co. v. NLRB"
     volume: "319"
     page: "533"
+    docket: "709"
+    citation: "319 U.S. 533"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1943"
-    citation: "319 U.S. 533"
+    voteMajority: 6
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-088"
@@ -458,9 +592,12 @@ cases:
     title: "Harrison v. Northern Trust Co."
     volume: "317"
     page: "476"
+    docket: "103"
+    citation: "317 U.S. 476"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1943"
-    citation: "317 U.S. 476"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-094"
@@ -468,9 +605,12 @@ cases:
     title: "United States v. Brooks-Callaway Co."
     volume: "318"
     page: "120"
+    docket: "366"
+    citation: "318 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1943"
-    citation: "318 U.S. 120"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-098"
@@ -478,9 +618,12 @@ cases:
     title: "Board of County Comm&apos;rs v. Seber"
     volume: "318"
     page: "705"
+    docket: "556"
+    citation: "318 U.S. 705"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1943"
-    citation: "318 U.S. 705"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-114"
@@ -488,9 +631,12 @@ cases:
     title: "Overstreet v. North Shore Corp."
     volume: "318"
     page: "125"
+    docket: "284"
+    citation: "318 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1943"
-    citation: "318 U.S. 125"
+    voteMajority: 6
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-125"
@@ -498,9 +644,12 @@ cases:
     title: "Leishman v. Associated Wholesale Elec. Co."
     volume: "318"
     page: "203"
+    docket: "332"
+    citation: "318 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1943"
-    citation: "318 U.S. 203"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1942-161"
@@ -508,9 +657,12 @@ cases:
     title: "Choctaw Nation v. United States"
     volume: "318"
     page: "423"
+    docket: "80"
+    citation: "318 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1943"
-    citation: "318 U.S. 423"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1943-016"
@@ -518,9 +670,12 @@ cases:
     title: "Carter v. Kubler"
     volume: "320"
     page: "243"
+    docket: "18"
+    citation: "320 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1943"
-    citation: "320 U.S. 243"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1943-019"
@@ -528,9 +683,12 @@ cases:
     title: "Commissioner v. Gooch Milling &amp; Elevator Co."
     volume: "320"
     page: "418"
+    docket: "53"
+    citation: "320 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1943"
-    citation: "320 U.S. 418"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1943-032"
@@ -538,9 +696,12 @@ cases:
     title: "Tennant v. Peoria &amp; Pekin Union R. Co."
     volume: "321"
     page: "029"
+    docket: "94"
+    citation: "321 U.S. 29"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1944"
-    citation: "321 U.S. 29"
+    voteMajority: 7
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1943-047"
@@ -548,9 +709,12 @@ cases:
     title: "United States v. American Surety Co."
     volume: "322"
     page: "096"
+    docket: "381"
+    citation: "322 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1944"
-    citation: "322 U.S. 96"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1943-048"
@@ -558,9 +722,12 @@ cases:
     title: "Clifford F. MacEvoy Co. v. United States ex rel. Calvin Tomkins Co."
     volume: "322"
     page: "102"
+    docket: "483"
+    citation: "322 U.S. 102"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1944"
-    citation: "322 U.S. 102"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1943-049"
@@ -568,9 +735,12 @@ cases:
     title: "United States v. Blair"
     volume: "321"
     page: "730"
+    docket: "75"
+    citation: "321 U.S. 730"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1944"
-    citation: "321 U.S. 730"
+    voteMajority: 7
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1943-072"
@@ -578,9 +748,12 @@ cases:
     title: "Thomson v. United States"
     volume: "321"
     page: "019"
+    docket: "70"
+    citation: "321 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1944"
-    citation: "321 U.S. 19"
+    voteMajority: 6
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1943-075"
@@ -588,9 +761,12 @@ cases:
     title: "Hartzel v. United States"
     volume: "322"
     page: "680"
+    docket: "531"
+    citation: "322 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1944"
-    citation: "322 U.S. 680"
+    voteMajority: 5
+    voteMinority: 4
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1943-081"
@@ -598,9 +774,12 @@ cases:
     title: "Crites, Inc. v. Prudential Ins. Co."
     volume: "322"
     page: "408"
+    docket: "317"
+    citation: "322 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1944"
-    citation: "322 U.S. 408"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1943-082"
@@ -608,9 +787,12 @@ cases:
     title: "Mortensen v. United States"
     volume: "322"
     page: "369"
+    docket: "559"
+    citation: "322 U.S. 369"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1944"
-    citation: "322 U.S. 369"
+    voteMajority: 5
+    voteMinority: 4
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1943-089"
@@ -618,9 +800,12 @@ cases:
     title: "Tennessee Coal, Iron &amp; R. Co. v. Muscoda Local No. 123"
     volume: "321"
     page: "590"
+    docket: "409"
+    citation: "321 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1944"
-    citation: "321 U.S. 590"
+    voteMajority: 6
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1943-104"
@@ -628,9 +813,12 @@ cases:
     title: "United States v. Seattle-First Nat. Bank"
     volume: "321"
     page: "583"
+    docket: "267"
+    citation: "321 U.S. 583"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1944"
-    citation: "321 U.S. 583"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1943-110"
@@ -638,9 +826,12 @@ cases:
     title: "United States v. White"
     volume: "322"
     page: "694"
+    docket: "366"
+    citation: "322 U.S. 694"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1944"
-    citation: "322 U.S. 694"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-005"
@@ -648,9 +839,12 @@ cases:
     title: "Smith v. Davis"
     volume: "323"
     page: "111"
+    docket: "23"
+    citation: "323 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1944"
-    citation: "323 U.S. 111"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-017"
@@ -658,9 +852,12 @@ cases:
     title: "Walling v. Helmerich &amp; Payne, Inc."
     volume: "323"
     page: "037"
+    docket: "27"
+    citation: "323 U.S. 37"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1944"
-    citation: "323 U.S. 37"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-020"
@@ -668,9 +865,12 @@ cases:
     title: "Commissioner v. Scottish American Investment Co."
     volume: "323"
     page: "119"
+    docket: "52"
+    citation: "323 U.S. 119"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1944"
-    citation: "323 U.S. 119"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-031"
@@ -678,9 +878,12 @@ cases:
     title: "Goldstone v. United States"
     volume: "325"
     page: "687"
+    docket: "699"
+    citation: "325 U.S. 687"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1945"
-    citation: "325 U.S. 687"
+    voteMajority: 7
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-069"
@@ -688,9 +891,12 @@ cases:
     title: "Bowles v. Seminole Rock &amp; Sand Co."
     volume: "325"
     page: "410"
+    docket: "914"
+    citation: "325 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1945"
-    citation: "325 U.S. 410"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-108"
@@ -698,9 +904,12 @@ cases:
     title: "Borden Co. v. Borella"
     volume: "325"
     page: "679"
+    docket: "688"
+    citation: "325 U.S. 679"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1945"
-    citation: "325 U.S. 679"
+    voteMajority: 7
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-111"
@@ -708,9 +917,12 @@ cases:
     title: "Walling v. Youngerman-Reynolds Hardwood Co."
     volume: "325"
     page: "419"
+    docket: "955"
+    citation: "325 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1945"
-    citation: "325 U.S. 419"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-112"
@@ -718,9 +930,12 @@ cases:
     title: "Walling v. Harnischfeger Corp."
     volume: "325"
     page: "427"
+    docket: "956"
+    citation: "325 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1945"
-    citation: "325 U.S. 427"
+    voteMajority: 7
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-115"
@@ -728,9 +943,12 @@ cases:
     title: "Jewell Ridge Coal Corp. v. Mine Workers"
     volume: "325"
     page: "161"
+    docket: "721"
+    citation: "325 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1945"
-    citation: "325 U.S. 161"
+    voteMajority: 5
+    voteMinority: 4
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-119"
@@ -738,9 +956,12 @@ cases:
     title: "A. H. Phillips, Inc. v. Walling"
     volume: "324"
     page: "490"
+    docket: "608"
+    citation: "324 U.S. 490"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1945"
-    citation: "324 U.S. 490"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-124"
@@ -748,9 +969,12 @@ cases:
     title: "Herget v. Central Nat. Bank &amp; Trust Co."
     volume: "324"
     page: "004"
+    docket: "322"
+    citation: "324 U.S. 4"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1945"
-    citation: "324 U.S. 4"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-130"
@@ -758,9 +982,12 @@ cases:
     title: "United States v. Rosenwasser"
     volume: "323"
     page: "360"
+    docket: "106"
+    citation: "323 U.S. 360"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1945"
-    citation: "323 U.S. 360"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-141"
@@ -768,9 +995,12 @@ cases:
     title: "Fidelity-Philadelphia Trust Co. v. Rothensies"
     volume: "324"
     page: "108"
+    docket: "263"
+    citation: "324 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1945"
-    citation: "324 U.S. 108"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-142"
@@ -778,9 +1008,12 @@ cases:
     title: "Commissioner v. Estate of Field"
     volume: "324"
     page: "113"
+    docket: "578"
+    citation: "324 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1945"
-    citation: "324 U.S. 113"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-145"
@@ -788,9 +1021,12 @@ cases:
     title: "F. W. Fitch Co. v. United States"
     volume: "323"
     page: "582"
+    docket: "181"
+    citation: "323 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1945"
-    citation: "323 U.S. 582"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-147"
@@ -798,9 +1034,12 @@ cases:
     title: "United States v. Waddill, Holland &amp; Flinn, Inc."
     volume: "323"
     page: "353"
+    docket: "65"
+    citation: "323 U.S. 353"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1945"
-    citation: "323 U.S. 353"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-152"
@@ -808,9 +1047,12 @@ cases:
     title: "Precision Instrument Mfg. Co. v. Automotive Maintenance Machinery Co."
     volume: "324"
     page: "806"
+    docket: "377"
+    citation: "324 U.S. 806"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1945"
-    citation: "324 U.S. 806"
+    voteMajority: 7
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1944-159"
@@ -818,9 +1060,12 @@ cases:
     title: "Dow Chemical Co. v. Halliburton Oil Well Cementing Co."
     volume: "324"
     page: "320"
+    docket: "50"
+    citation: "324 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1945"
-    citation: "324 U.S. 320"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-015"
@@ -828,9 +1073,12 @@ cases:
     title: "Boehm v. Commissioner"
     volume: "326"
     page: "287"
+    docket: "69"
+    citation: "326 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 13, 1945"
-    citation: "326 U.S. 287"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-020"
@@ -838,9 +1086,12 @@ cases:
     title: "Better Business Bureau of Washingon, D. C., Inc. v. United States"
     volume: "326"
     page: "279"
+    docket: "52"
+    citation: "326 U.S. 279"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 13, 1945"
-    citation: "326 U.S. 279"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-032"
@@ -848,9 +1099,12 @@ cases:
     title: "Porter v. Warner Holding Co."
     volume: "328"
     page: "395"
+    docket: "793"
+    citation: "328 U.S. 395"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1946"
-    citation: "328 U.S. 395"
+    voteMajority: 4
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-045"
@@ -858,9 +1112,12 @@ cases:
     title: "M. Kraus &amp; Bros., Inc. v. United States"
     volume: "327"
     page: "614"
+    docket: "198"
+    citation: "327 U.S. 614"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1946"
-    citation: "327 U.S. 614"
+    voteMajority: 5
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-061"
@@ -868,9 +1125,12 @@ cases:
     title: "Chatwin v. United States"
     volume: "326"
     page: "455"
+    docket: "31"
+    citation: "326 U.S. 455"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 2, 1946"
-    citation: "326 U.S. 455"
+    voteMajority: 8
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-064"
@@ -878,9 +1138,12 @@ cases:
     title: "North American Co. v. SEC"
     volume: "327"
     page: "686"
+    docket: "1"
+    citation: "327 U.S. 686"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1946"
-    citation: "327 U.S. 686"
+    voteMajority: 6
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-066"
@@ -888,9 +1151,12 @@ cases:
     title: "United States v. Carbone"
     volume: "327"
     page: "633"
+    docket: "474"
+    citation: "327 U.S. 633"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1946"
-    citation: "327 U.S. 633"
+    voteMajority: 5
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-070"
@@ -898,9 +1164,12 @@ cases:
     title: "United States v. Joseph A. Holpuch Co."
     volume: "328"
     page: "234"
+    docket: "696"
+    citation: "328 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1946"
-    citation: "328 U.S. 234"
+    voteMajority: 4
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-078"
@@ -908,9 +1177,12 @@ cases:
     title: "Thiel v. Southern Pacific Co."
     volume: "328"
     page: "217"
+    docket: "349"
+    citation: "328 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1946"
-    citation: "328 U.S. 217"
+    voteMajority: 5
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-082"
@@ -918,9 +1190,12 @@ cases:
     title: "Lavender v. Kurn"
     volume: "327"
     page: "645"
+    docket: "550"
+    citation: "327 U.S. 645"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1946"
-    citation: "327 U.S. 645"
+    voteMajority: 7
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-096"
@@ -928,9 +1203,12 @@ cases:
     title: "McAllister Lighterage Line, Inc. v. United States"
     volume: "327"
     page: "655"
+    docket: "616"
+    citation: "327 U.S. 655"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1946"
-    citation: "327 U.S. 655"
+    voteMajority: 5
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-099"
@@ -938,9 +1216,12 @@ cases:
     title: "Anderson v. Mt. Clemens Pottery Co."
     volume: "328"
     page: "680"
+    docket: "342"
+    citation: "328 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1946"
-    citation: "328 U.S. 680"
+    voteMajority: 5
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-107"
@@ -948,9 +1229,12 @@ cases:
     title: "Commissioner v. Wilcox"
     volume: "327"
     page: "404"
+    docket: "163"
+    citation: "327 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1946"
-    citation: "327 U.S. 404"
+    voteMajority: 7
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-130"
@@ -958,9 +1242,12 @@ cases:
     title: "Commissioner v. Flowers"
     volume: "326"
     page: "465"
+    docket: "145"
+    citation: "326 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 2, 1946"
-    citation: "326 U.S. 465"
+    voteMajority: 7
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1945-134"
@@ -968,9 +1255,12 @@ cases:
     title: "SEC v. W. J. Howey Co."
     volume: "328"
     page: "293"
+    docket: "843"
+    citation: "328 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1946"
-    citation: "328 U.S. 293"
+    voteMajority: 6
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-007"
@@ -978,9 +1268,12 @@ cases:
     title: "American Power &amp; Light Co. v. SEC"
     volume: "329"
     page: "090"
+    docket: "4"
+    citation: "329 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1946"
-    citation: "329 U.S. 90"
+    voteMajority: 6
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-022"
@@ -988,9 +1281,12 @@ cases:
     title: "NLRB v. A. J. Tower Co."
     volume: "329"
     page: "324"
+    docket: "60"
+    citation: "329 U.S. 324"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1946"
-    citation: "329 U.S. 324"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-035"
@@ -998,9 +1294,12 @@ cases:
     title: "Hickman v. Taylor"
     volume: "329"
     page: "495"
+    docket: "47"
+    citation: "329 U.S. 495"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1947"
-    citation: "329 U.S. 495"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-036"
@@ -1008,9 +1307,12 @@ cases:
     title: "Railway Conductors v. Swan"
     volume: "329"
     page: "520"
+    docket: "63"
+    citation: "329 U.S. 520"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1947"
-    citation: "329 U.S. 520"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-041"
@@ -1018,9 +1320,12 @@ cases:
     title: "United States v. Thayer-West Point Hotel Co."
     volume: "329"
     page: "585"
+    docket: "106"
+    citation: "329 U.S. 585"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1947"
-    citation: "329 U.S. 585"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-047"
@@ -1028,9 +1333,12 @@ cases:
     title: "United States v. N. Y. Rayon Importing Co. (#2)"
     volume: "329"
     page: "654"
+    docket: "94"
+    citation: "329 U.S. 654"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1947"
-    citation: "329 U.S. 654"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-066"
@@ -1038,9 +1346,12 @@ cases:
     title: "Cardillo v. Liberty Mut. Ins. Co."
     volume: "330"
     page: "469"
+    docket: "265"
+    citation: "330 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1947"
-    citation: "330 U.S. 469"
+    voteMajority: 7
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-070"
@@ -1048,9 +1359,12 @@ cases:
     title: "Department of Agriculture, Emergency Crop and Feed Loans v. Remund"
     volume: "330"
     page: "539"
+    docket: "417"
+    citation: "330 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1947"
-    citation: "330 U.S. 539"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-076"
@@ -1058,9 +1372,12 @@ cases:
     title: "Industrial Comm&apos;n of Wis. v. McCartin"
     volume: "330"
     page: "622"
+    docket: "270"
+    citation: "330 U.S. 622"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1947"
-    citation: "330 U.S. 622"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-087"
@@ -1068,9 +1385,12 @@ cases:
     title: "United States Nat. Bank v. Chase Nat. Bank"
     volume: "331"
     page: "028"
+    docket: "371"
+    citation: "331 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1947"
-    citation: "331 U.S. 28"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-094"
@@ -1078,9 +1398,12 @@ cases:
     title: "Ayrshire Collieries Corp. v. United States"
     volume: "331"
     page: "132"
+    docket: "467"
+    citation: "331 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1947"
-    citation: "331 U.S. 132"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-103"
@@ -1088,9 +1411,12 @@ cases:
     title: "NLRB v. E. C. Atkins &amp; Co."
     volume: "331"
     page: "398"
+    docket: "419"
+    citation: "331 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1947"
-    citation: "331 U.S. 398"
+    voteMajority: 6
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-104"
@@ -1098,9 +1424,12 @@ cases:
     title: "NLRB v. Jones &amp; Laughlin Steel Corp."
     volume: "331"
     page: "416"
+    docket: "418"
+    citation: "331 U.S. 416"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1947"
-    citation: "331 U.S. 416"
+    voteMajority: 5
+    voteMinority: 4
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-105"
@@ -1108,9 +1437,12 @@ cases:
     title: "United States v. Walsh"
     volume: "331"
     page: "432"
+    docket: "718"
+    citation: "331 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1947"
-    citation: "331 U.S. 432"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-111"
@@ -1118,9 +1450,12 @@ cases:
     title: "Trainmen v. Baltimore &amp; Ohio R. Co."
     volume: "331"
     page: "519"
+    docket: "970"
+    citation: "331 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1947"
-    citation: "331 U.S. 519"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-133"
@@ -1128,9 +1463,12 @@ cases:
     title: "SEC v. Chenery Corp."
     volume: "332"
     page: "194"
+    docket: "81"
+    citation: "332 U.S. 194"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1947"
-    citation: "332 U.S. 194"
+    voteMajority: 5
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1946-134"
@@ -1138,9 +1476,12 @@ cases:
     title: "United States v. Yellow Cab Co."
     volume: "332"
     page: "218"
+    docket: "1035"
+    citation: "332 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1947"
-    citation: "332 U.S. 218"
+    voteMajority: 7
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1947-015"
@@ -1148,9 +1489,12 @@ cases:
     title: "Jones v. Liberty Glass Co."
     volume: "332"
     page: "524"
+    docket: "71"
+    citation: "332 U.S. 524"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1947"
-    citation: "332 U.S. 524"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1947-016"
@@ -1158,9 +1502,12 @@ cases:
     title: "Kavanagh v. Noble"
     volume: "332"
     page: "535"
+    docket: "70"
+    citation: "332 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1947"
-    citation: "332 U.S. 535"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1947-028"
@@ -1168,9 +1515,12 @@ cases:
     title: "Lee v. Mississippi"
     volume: "332"
     page: "742"
+    docket: "91"
+    citation: "332 U.S. 742"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1948"
-    citation: "332 U.S. 742"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1947-051"
@@ -1178,9 +1528,12 @@ cases:
     title: "Mitchell v. Cohen"
     volume: "333"
     page: "411"
+    docket: "130"
+    citation: "333 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1948"
-    citation: "333 U.S. 411"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1947-064"
@@ -1188,9 +1541,12 @@ cases:
     title: "Commissioner v. Sunnen"
     volume: "333"
     page: "591"
+    docket: "227"
+    citation: "333 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1948"
-    citation: "333 U.S. 591"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1947-084"
@@ -1198,9 +1554,12 @@ cases:
     title: "Price v. Johnston"
     volume: "334"
     page: "266"
+    docket: "111"
+    citation: "334 U.S. 266"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1948"
-    citation: "334 U.S. 266"
+    voteMajority: 5
+    voteMinority: 4
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1947-103"
@@ -1208,9 +1567,12 @@ cases:
     title: "Wade v. Mayo"
     volume: "334"
     page: "672"
+    docket: "40"
+    citation: "334 U.S. 672"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1948"
-    citation: "334 U.S. 672"
+    voteMajority: 5
+    voteMinority: 4
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1947-104"
@@ -1218,9 +1580,12 @@ cases:
     title: "Trupiano v. United States"
     volume: "334"
     page: "699"
+    docket: "427"
+    citation: "334 U.S. 699"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1948"
-    citation: "334 U.S. 699"
+    voteMajority: 5
+    voteMinority: 4
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1947-105"
@@ -1228,9 +1593,12 @@ cases:
     title: "West v. Oklahoma Tax Comm&apos;n"
     volume: "334"
     page: "717"
+    docket: "489"
+    citation: "334 U.S. 717"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1948"
-    citation: "334 U.S. 717"
+    voteMajority: 6
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1948-038"
@@ -1238,9 +1606,12 @@ cases:
     title: "Lawson v. Suwannee Fruit &amp; S. S. Co."
     volume: "336"
     page: "198"
+    docket: "56"
+    citation: "336 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1949"
-    citation: "336 U.S. 198"
+    voteMajority: 8
+    voteMinority: 1
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1948-041"
@@ -1248,9 +1619,12 @@ cases:
     title: "Daniel v. Family Security Life Ins. Co."
     volume: "336"
     page: "220"
+    docket: "297"
+    citation: "336 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1949"
-    citation: "336 U.S. 220"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1948-042"
@@ -1258,9 +1632,12 @@ cases:
     title: "NLRB v. Stowe Spinning Co."
     volume: "336"
     page: "226"
+    docket: "46"
+    citation: "336 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1949"
-    citation: "336 U.S. 226"
+    voteMajority: 6
+    voteMinority: 3
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1948-051"
@@ -1268,9 +1645,12 @@ cases:
     title: "Commissioner v. Phipps"
     volume: "336"
     page: "410"
+    docket: "83"
+    citation: "336 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1949"
-    citation: "336 U.S. 410"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1948-063"
@@ -1278,9 +1658,12 @@ cases:
     title: "Defense Supplies Corp. v. Lawrence Warehouse Co."
     volume: "336"
     page: "631"
+    docket: "298"
+    citation: "336 U.S. 631"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1949"
-    citation: "336 U.S. 631"
+    voteMajority: 9
+    voteMinority: 0
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1948-070"
@@ -1288,9 +1671,12 @@ cases:
     title: "California v. Zook"
     volume: "336"
     page: "725"
+    docket: "355"
+    citation: "336 U.S. 725"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1949"
-    citation: "336 U.S. 725"
+    voteMajority: 5
+    voteMinority: 4
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1948-076"
@@ -1298,9 +1684,12 @@ cases:
     title: "Brooks v. United States"
     volume: "337"
     page: "049"
+    docket: "388"
+    citation: "337 U.S. 49"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1949"
-    citation: "337 U.S. 49"
+    voteMajority: 7
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1948-088"
@@ -1308,9 +1697,12 @@ cases:
     title: "Morgantown v. Royal Ins. Co."
     volume: "337"
     page: "254"
+    docket: "396"
+    citation: "337 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1949"
-    citation: "337 U.S. 254"
+    voteMajority: 7
+    voteMinority: 2
     authorId: fmurphy
     authorName: "Francis Murphy"
   - id: "1948-119"
@@ -1318,9 +1710,12 @@ cases:
     title: "Christoffel v. United States"
     volume: "338"
     page: "084"
+    docket: "528"
+    citation: "338 U.S. 84"
     pdfSource: "loc"
     dateDecision: "Monday, June 27, 1949"
-    citation: "338 U.S. 84"
+    voteMajority: 5
+    voteMinority: 4
     authorId: fmurphy
     authorName: "Francis Murphy"
 ---

@@ -8,9 +8,12 @@ cases:
     title: "National Bank v. Insurance Co."
     volume: "095"
     page: "673"
+    docket: "167"
+    citation: "95 U.S. 673"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1878"
-    citation: "95 U.S. 673"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1877-139"
@@ -18,9 +21,12 @@ cases:
     title: "Neal v. Clark"
     volume: "095"
     page: "704"
+    docket: "127"
+    citation: "95 U.S. 704"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1878"
-    citation: "95 U.S. 704"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1877-155"
@@ -28,9 +34,12 @@ cases:
     title: "Yeatman v. Savings Institution"
     volume: "095"
     page: "764"
+    docket: "189"
+    citation: "95 U.S. 764"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1878"
-    citation: "95 U.S. 764"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1877-188"
@@ -38,9 +47,12 @@ cases:
     title: "Railroad Co. v. Vance"
     volume: "096"
     page: "450"
+    docket: "896"
+    citation: "96 U.S. 450"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1878"
-    citation: "96 U.S. 450"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1877-206"
@@ -48,9 +60,12 @@ cases:
     title: "County of Ray v. Vansycle"
     volume: "096"
     page: "675"
+    docket: "216"
+    citation: "96 U.S. 675"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1878"
-    citation: "96 U.S. 675"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1877-218"
@@ -58,9 +73,11 @@ cases:
     title: "United States v. Simmons"
     volume: "096"
     page: "360"
+    citation: "96 U.S. 360"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1878"
-    citation: "96 U.S. 360"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1877-224"
@@ -68,9 +85,12 @@ cases:
     title: "Wheeler v. National Bank"
     volume: "096"
     page: "268"
+    docket: "263"
+    citation: "96 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1878"
-    citation: "96 U.S. 268"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1877-238"
@@ -78,9 +98,12 @@ cases:
     title: "Hayward v. National Bank"
     volume: "096"
     page: "611"
+    docket: "273"
+    citation: "96 U.S. 611"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1878"
-    citation: "96 U.S. 611"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1877-272"
@@ -88,9 +111,12 @@ cases:
     title: "Strong v. United States"
     volume: "154"
     page: "632"
+    docket: "537"
+    citation: "154 U.S. 632"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1878"
-    citation: "154 U.S. 632"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-007"
@@ -98,9 +124,11 @@ cases:
     title: "Ford v. Surget"
     volume: "097"
     page: "594"
+    citation: "97 U.S. 594"
     pdfSource: "loc"
     dateDecision: "Monday, November 4, 1878"
-    citation: "97 U.S. 594"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-010"
@@ -108,9 +136,12 @@ cases:
     title: "Snell v. Insurance Co."
     volume: "098"
     page: "085"
+    docket: "24"
+    citation: "98 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, November 4, 1878"
-    citation: "98 U.S. 85"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-026"
@@ -118,9 +149,12 @@ cases:
     title: "Robertson v. Cease"
     volume: "097"
     page: "646"
+    docket: "46"
+    citation: "97 U.S. 646"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1878"
-    citation: "97 U.S. 646"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-040"
@@ -128,9 +162,12 @@ cases:
     title: "Davie v. Briggs"
     volume: "097"
     page: "628"
+    docket: "82"
+    citation: "97 U.S. 628"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1878"
-    citation: "97 U.S. 628"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-055"
@@ -138,9 +175,12 @@ cases:
     title: "Kihlberg v. United States"
     volume: "097"
     page: "398"
+    docket: "956"
+    citation: "97 U.S. 398"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1878"
-    citation: "97 U.S. 398"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-062"
@@ -148,9 +188,12 @@ cases:
     title: "Insurance Co. v. Lewis"
     volume: "097"
     page: "682"
+    docket: "374"
+    citation: "97 U.S. 682"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1879"
-    citation: "97 U.S. 682"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-069"
@@ -158,9 +201,12 @@ cases:
     title: "Beckwith v. Bean"
     volume: "098"
     page: "266"
+    docket: "39"
+    citation: "98 U.S. 266"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1879"
-    citation: "98 U.S. 266"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-077"
@@ -168,9 +214,12 @@ cases:
     title: "Reed v. McIntyre"
     volume: "098"
     page: "507"
+    docket: "99"
+    citation: "98 U.S. 507"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1879"
-    citation: "98 U.S. 507"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-095"
@@ -178,9 +227,12 @@ cases:
     title: "Patterson v. Kentucky"
     volume: "097"
     page: "501"
+    docket: "117"
+    citation: "97 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1879"
-    citation: "97 U.S. 501"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-135"
@@ -188,9 +240,12 @@ cases:
     title: "United States v. Fort Scott"
     volume: "099"
     page: "152"
+    docket: "829"
+    citation: "99 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1879"
-    citation: "99 U.S. 152"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-136"
@@ -198,9 +253,12 @@ cases:
     title: "Tice v. United States"
     volume: "099"
     page: "286"
+    docket: "1034"
+    citation: "99 U.S. 286"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1879"
-    citation: "99 U.S. 286"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-143"
@@ -208,9 +266,12 @@ cases:
     title: "Hackett v. Ottawa"
     volume: "099"
     page: "086"
+    docket: "880"
+    citation: "99 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1879"
-    citation: "99 U.S. 86"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-150"
@@ -218,9 +279,12 @@ cases:
     title: "Amy v. Dubuque"
     volume: "098"
     page: "470"
+    docket: "104"
+    citation: "98 U.S. 470"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1879"
-    citation: "98 U.S. 470"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-166"
@@ -228,9 +292,12 @@ cases:
     title: "Brooklyn v. Insurance Co."
     volume: "099"
     page: "362"
+    docket: "177"
+    citation: "99 U.S. 362"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1879"
-    citation: "99 U.S. 362"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1878-177"
@@ -238,9 +305,12 @@ cases:
     title: "Railway Co. v. Alling"
     volume: "099"
     page: "463"
+    docket: "811"
+    citation: "99 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1879"
-    citation: "99 U.S. 463"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-004"
@@ -248,9 +318,12 @@ cases:
     title: "Railroad Co. v. Fraloff"
     volume: "100"
     page: "024"
+    docket: "33"
+    citation: "100 U.S. 24"
     pdfSource: "loc"
     dateDecision: "Monday, November 3, 1879"
-    citation: "100 U.S. 24"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-018"
@@ -258,9 +331,12 @@ cases:
     title: "Kirtland v. Hotchkiss"
     volume: "100"
     page: "491"
+    docket: "23"
+    citation: "100 U.S. 491"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1879"
-    citation: "100 U.S. 491"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-031"
@@ -268,9 +344,12 @@ cases:
     title: "Clark v. Trust Co."
     volume: "100"
     page: "149"
+    docket: "58"
+    citation: "100 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1879"
-    citation: "100 U.S. 149"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-035"
@@ -278,9 +357,12 @@ cases:
     title: "Oates v. National Bank"
     volume: "100"
     page: "239"
+    docket: "74"
+    citation: "100 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1879"
-    citation: "100 U.S. 239"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-054"
@@ -288,9 +370,11 @@ cases:
     title: "Stewart v. Platt"
     volume: "101"
     page: "731"
+    citation: "101 U.S. 731"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1879"
-    citation: "101 U.S. 731"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-065"
@@ -298,9 +382,12 @@ cases:
     title: "Hough v. Railway Co."
     volume: "100"
     page: "213"
+    docket: "79"
+    citation: "100 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1880"
-    citation: "100 U.S. 213"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-093"
@@ -308,9 +395,11 @@ cases:
     title: "Ex parte Railway Co."
     volume: "101"
     page: "711"
+    citation: "101 U.S. 711"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1880"
-    citation: "101 U.S. 711"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-100"
@@ -318,9 +407,12 @@ cases:
     title: "Packett Co. v. St. Louis"
     volume: "100"
     page: "423"
+    docket: "110"
+    citation: "100 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1880"
-    citation: "100 U.S. 423"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-101"
@@ -328,9 +420,12 @@ cases:
     title: "Vicksburg v. Tobin"
     volume: "100"
     page: "430"
+    docket: "148"
+    citation: "100 U.S. 430"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1880"
-    citation: "100 U.S. 430"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-104"
@@ -338,9 +433,12 @@ cases:
     title: "Empire v. Darlington"
     volume: "101"
     page: "087"
+    docket: "1097"
+    citation: "101 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1880"
-    citation: "101 U.S. 87"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-105"
@@ -348,9 +446,12 @@ cases:
     title: "Roberts v. Bolles"
     volume: "101"
     page: "119"
+    docket: "146"
+    citation: "101 U.S. 119"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1880"
-    citation: "101 U.S. 119"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-107"
@@ -358,9 +459,12 @@ cases:
     title: "Christian Union v. Yount"
     volume: "101"
     page: "352"
+    docket: "325"
+    citation: "101 U.S. 352"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1880"
-    citation: "101 U.S. 352"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-109"
@@ -368,9 +472,12 @@ cases:
     title: "Gates v. Goodloe"
     volume: "101"
     page: "612"
+    docket: "96"
+    citation: "101 U.S. 612"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1880"
-    citation: "101 U.S. 612"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-136"
@@ -378,9 +485,12 @@ cases:
     title: "Guy v. Baltimore"
     volume: "100"
     page: "434"
+    docket: "136"
+    citation: "100 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1880"
-    citation: "100 U.S. 434"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-138"
@@ -388,9 +498,11 @@ cases:
     title: "United States v. Lippitt"
     volume: "100"
     page: "663"
+    citation: "100 U.S. 663"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1880"
-    citation: "100 U.S. 663"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-146"
@@ -398,9 +510,12 @@ cases:
     title: "Jones v. Blackwell"
     volume: "100"
     page: "599"
+    docket: "189"
+    citation: "100 U.S. 599"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1880"
-    citation: "100 U.S. 599"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-167"
@@ -408,9 +523,12 @@ cases:
     title: "Silliman v. United States"
     volume: "101"
     page: "465"
+    docket: "194"
+    citation: "101 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1880"
-    citation: "101 U.S. 465"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-172"
@@ -418,9 +536,12 @@ cases:
     title: "Ketchum v. St. Louis"
     volume: "101"
     page: "306"
+    docket: "162"
+    citation: "101 U.S. 306"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1880"
-    citation: "101 U.S. 306"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-179"
@@ -428,9 +549,12 @@ cases:
     title: "County of Livingston v. Darlington"
     volume: "101"
     page: "407"
+    docket: "232"
+    citation: "101 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1880"
-    citation: "101 U.S. 407"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-187"
@@ -438,9 +562,12 @@ cases:
     title: "Hollingsworth v. Flint"
     volume: "101"
     page: "591"
+    docket: "217"
+    citation: "101 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1880"
-    citation: "101 U.S. 591"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-214"
@@ -448,9 +575,12 @@ cases:
     title: "Railroad Co. v. National Bank"
     volume: "102"
     page: "014"
+    docket: "229"
+    citation: "102 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1880"
-    citation: "102 U.S. 14"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-215"
@@ -458,9 +588,12 @@ cases:
     title: "National Bank v. Dayton"
     volume: "102"
     page: "059"
+    docket: "276"
+    citation: "102 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1880"
-    citation: "102 U.S. 59"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1879-216"
@@ -468,9 +601,11 @@ cases:
     title: "Kirk v. Hamilton"
     volume: "102"
     page: "068"
+    citation: "102 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1880"
-    citation: "102 U.S. 68"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-007"
@@ -478,9 +613,12 @@ cases:
     title: "Railroad Co. v. Mississippi"
     volume: "102"
     page: "135"
+    docket: "32"
+    citation: "102 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1880"
-    citation: "102 U.S. 135"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-008"
@@ -488,9 +626,12 @@ cases:
     title: "Potter v. National Bank"
     volume: "102"
     page: "163"
+    docket: "46"
+    citation: "102 U.S. 163"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1880"
-    citation: "102 U.S. 163"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-025"
@@ -498,9 +639,12 @@ cases:
     title: "Buchanan v. Litchfield"
     volume: "102"
     page: "278"
+    docket: "51"
+    citation: "102 U.S. 278"
     pdfSource: "loc"
     dateDecision: "Monday, November 22, 1880"
-    citation: "102 U.S. 278"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-026"
@@ -508,9 +652,11 @@ cases:
     title: "Pennsylvania Co. v. Roy"
     volume: "102"
     page: "451"
+    citation: "102 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Monday, November 22, 1880"
-    citation: "102 U.S. 451"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-047"
@@ -518,9 +664,12 @@ cases:
     title: "McElrath v. United States"
     volume: "102"
     page: "426"
+    docket: "87"
+    citation: "102 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1880"
-    citation: "102 U.S. 426"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-058"
@@ -528,9 +677,12 @@ cases:
     title: "Wadsworth v. Supervisors"
     volume: "102"
     page: "534"
+    docket: "153"
+    citation: "102 U.S. 534"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1881"
-    citation: "102 U.S. 534"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-060"
@@ -538,9 +690,11 @@ cases:
     title: "United States v. Pinson"
     volume: "102"
     page: "548"
+    citation: "102 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1881"
-    citation: "102 U.S. 548"
+    voteMajority: 4
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-064"
@@ -548,9 +702,12 @@ cases:
     title: "Bennett v. Railroad Co."
     volume: "102"
     page: "577"
+    docket: "149"
+    citation: "102 U.S. 577"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1881"
-    citation: "102 U.S. 577"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-071"
@@ -558,9 +715,12 @@ cases:
     title: "Dugger v. Bocock"
     volume: "104"
     page: "596"
+    docket: "165"
+    citation: "104 U.S. 596"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1882"
-    citation: "104 U.S. 596"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-085"
@@ -568,9 +728,12 @@ cases:
     title: "Page v. Burnstine"
     volume: "102"
     page: "664"
+    docket: "175"
+    citation: "102 U.S. 664"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1881"
-    citation: "102 U.S. 664"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-091"
@@ -578,9 +741,12 @@ cases:
     title: "County of Tipton v. Locomotive Works"
     volume: "103"
     page: "523"
+    docket: "75"
+    citation: "103 U.S. 523"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1881"
-    citation: "103 U.S. 523"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-098"
@@ -588,9 +754,12 @@ cases:
     title: "Folger v. United States"
     volume: "103"
     page: "030"
+    docket: "168"
+    citation: "103 U.S. 30"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1881"
-    citation: "103 U.S. 30"
+    voteMajority: 3
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-100"
@@ -598,9 +767,12 @@ cases:
     title: "Mitchell v. Overman"
     volume: "103"
     page: "062"
+    docket: "176"
+    citation: "103 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1881"
-    citation: "103 U.S. 62"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-115"
@@ -608,9 +780,12 @@ cases:
     title: "Harter v. Kernochan"
     volume: "103"
     page: "562"
+    docket: "996"
+    citation: "103 U.S. 562"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1881"
-    citation: "103 U.S. 562"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-122"
@@ -618,9 +793,12 @@ cases:
     title: "People v. Commissioners"
     volume: "104"
     page: "466"
+    docket: "209"
+    citation: "104 U.S. 466"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1881"
-    citation: "104 U.S. 466"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-135"
@@ -628,9 +806,12 @@ cases:
     title: "Bonham v. Needles"
     volume: "103"
     page: "648"
+    docket: "1096"
+    citation: "103 U.S. 648"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1881"
-    citation: "103 U.S. 648"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-136"
@@ -638,9 +819,12 @@ cases:
     title: "Yates v. National Home"
     volume: "103"
     page: "674"
+    docket: "224"
+    citation: "103 U.S. 674"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1881"
-    citation: "103 U.S. 674"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-146"
@@ -648,9 +832,11 @@ cases:
     title: "Blake v. United States"
     volume: "103"
     page: "227"
+    citation: "103 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 30, 1881"
-    citation: "103 U.S. 227"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-161"
@@ -658,9 +844,12 @@ cases:
     title: "County of Morgan v. Allen"
     volume: "103"
     page: "498"
+    docket: "78"
+    citation: "103 U.S. 498"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1881"
-    citation: "103 U.S. 498"
+    voteMajority: 4
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-168"
@@ -668,9 +857,12 @@ cases:
     title: "Barney v. Latham"
     volume: "103"
     page: "205"
+    docket: "192"
+    citation: "103 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1881"
-    citation: "103 U.S. 205"
+    voteMajority: 4
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-187"
@@ -678,9 +870,12 @@ cases:
     title: "Blake v. McKim"
     volume: "103"
     page: "336"
+    docket: "860"
+    citation: "103 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1881"
-    citation: "103 U.S. 336"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-189"
@@ -688,9 +883,12 @@ cases:
     title: "Neal v. Delaware"
     volume: "103"
     page: "370"
+    docket: "865"
+    citation: "103 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1881"
-    citation: "103 U.S. 370"
+    voteMajority: 4
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-202"
@@ -698,9 +896,12 @@ cases:
     title: "Clark v. Killian"
     volume: "103"
     page: "766"
+    docket: "264"
+    citation: "103 U.S. 766"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1881"
-    citation: "103 U.S. 766"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-205"
@@ -708,25 +909,34 @@ cases:
     title: "Thompson v. Perrine"
     volume: "103"
     page: "806"
+    docket: "282"
+    citation: "103 U.S. 806"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1881"
-    citation: "103 U.S. 806"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-215"
     termId: "1880-10"
     title: "Fletcher v. Blake"
+    docket: "685"
+    citation: "131 U.S. cxcvii"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1880"
-    citation: "131 U.S. cxcvii"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1880-241"
     termId: "1880-10"
     title: "COUNTY OF MORGAN v. ALLEN"
+    docket: "78"
+    citation: "103 U.S. 515n"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1881"
-    citation: "103 U.S. 515n"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-002"
@@ -734,9 +944,12 @@ cases:
     title: "Smith v. McCullough"
     volume: "104"
     page: "025"
+    docket: "10"
+    citation: "104 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Tuesday, October 25, 1881"
-    citation: "104 U.S. 25"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-023"
@@ -744,9 +957,12 @@ cases:
     title: "Insurance Co. v. Railroad Co."
     volume: "104"
     page: "146"
+    docket: "47"
+    citation: "104 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1881"
-    citation: "104 U.S. 146"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-030"
@@ -754,9 +970,12 @@ cases:
     title: "Mining Co. v. Anglo-Californian Bank"
     volume: "104"
     page: "192"
+    docket: "78"
+    citation: "104 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1881"
-    citation: "104 U.S. 192"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-038"
@@ -764,9 +983,12 @@ cases:
     title: "Hale v. Finch"
     volume: "104"
     page: "261"
+    docket: "79"
+    citation: "104 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1881"
-    citation: "104 U.S. 261"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-046"
@@ -774,9 +996,12 @@ cases:
     title: "Collins v. Riley"
     volume: "104"
     page: "322"
+    docket: "152"
+    citation: "104 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1881"
-    citation: "104 U.S. 322"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-057"
@@ -784,9 +1009,12 @@ cases:
     title: "Louisville v. Savings Bank"
     volume: "104"
     page: "469"
+    docket: "1005"
+    citation: "104 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1881"
-    citation: "104 U.S. 469"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-072"
@@ -794,9 +1022,12 @@ cases:
     title: "Davis v. Friedlander"
     volume: "104"
     page: "570"
+    docket: "170"
+    citation: "104 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1882"
-    citation: "104 U.S. 570"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-101"
@@ -804,9 +1035,12 @@ cases:
     title: "St. Louis v. Knapp Co."
     volume: "104"
     page: "658"
+    docket: "813"
+    citation: "104 U.S. 658"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1882"
-    citation: "104 U.S. 658"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-103"
@@ -814,9 +1048,12 @@ cases:
     title: "Koshkonong v. Burton"
     volume: "104"
     page: "668"
+    docket: "827"
+    citation: "104 U.S. 668"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1882"
-    citation: "104 U.S. 668"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-140"
@@ -824,9 +1061,12 @@ cases:
     title: "Lewis v. Commissioners"
     volume: "105"
     page: "739"
+    docket: "819"
+    citation: "105 U.S. 739"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1882"
-    citation: "105 U.S. 739"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-145"
@@ -834,9 +1074,12 @@ cases:
     title: "Taylor v. Ypsilanti"
     volume: "105"
     page: "060"
+    docket: "153"
+    citation: "105 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1882"
-    citation: "105 U.S. 60"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-152"
@@ -844,9 +1087,12 @@ cases:
     title: "New Buffalo v. Iron Co."
     volume: "105"
     page: "073"
+    docket: "189"
+    citation: "105 U.S. 73"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1882"
-    citation: "105 U.S. 73"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-187"
@@ -854,9 +1100,12 @@ cases:
     title: "Hammock v. Loan &amp; Trust Co."
     volume: "105"
     page: "077"
+    docket: "164"
+    citation: "105 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1882"
-    citation: "105 U.S. 77"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-189"
@@ -864,9 +1113,12 @@ cases:
     title: "Insurance Co. v. Bruce"
     volume: "105"
     page: "328"
+    docket: "41"
+    citation: "105 U.S. 328"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1882"
-    citation: "105 U.S. 328"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-190"
@@ -874,9 +1126,12 @@ cases:
     title: "Sullivan v. Burnett"
     volume: "105"
     page: "334"
+    docket: "225"
+    citation: "105 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1882"
-    citation: "105 U.S. 334"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-191"
@@ -884,9 +1139,12 @@ cases:
     title: "Ottawa v. National Bank"
     volume: "105"
     page: "342"
+    docket: "1048"
+    citation: "105 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1882"
-    citation: "105 U.S. 342"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-214"
@@ -894,9 +1152,12 @@ cases:
     title: "Venable v. Richards"
     volume: "105"
     page: "636"
+    docket: "295"
+    citation: "105 U.S. 636"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1882"
-    citation: "105 U.S. 636"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1881-241"
@@ -904,9 +1165,12 @@ cases:
     title: "Hearst v. Halligan"
     volume: "154"
     page: "669"
+    docket: "6"
+    citation: "154 U.S. 669"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1881"
-    citation: "154 U.S. 669"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-005"
@@ -914,9 +1178,12 @@ cases:
     title: "Phoenix Ins. Co. v. Doster"
     volume: "106"
     page: "030"
+    docket: "28"
+    citation: "106 U.S. 30"
     pdfSource: "loc"
     dateDecision: "Monday, October 23, 1882"
-    citation: "106 U.S. 30"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-007"
@@ -924,9 +1191,12 @@ cases:
     title: "Bacon v. Rives"
     volume: "106"
     page: "099"
+    docket: "29"
+    citation: "106 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Monday, October 23, 1882"
-    citation: "106 U.S. 99"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-017"
@@ -934,9 +1204,12 @@ cases:
     title: "Steamship Co. v. Tugman"
     volume: "106"
     page: "118"
+    docket: "54"
+    citation: "106 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1882"
-    citation: "106 U.S. 118"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-019"
@@ -944,9 +1217,12 @@ cases:
     title: "School Dist. v. Stone"
     volume: "106"
     page: "183"
+    docket: "759"
+    citation: "106 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1882"
-    citation: "106 U.S. 183"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-038"
@@ -954,9 +1230,12 @@ cases:
     title: "Osborne v. County of Adams"
     volume: "106"
     page: "181"
+    docket: "577"
+    citation: "106 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1882"
-    citation: "106 U.S. 181"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-049"
@@ -964,9 +1243,12 @@ cases:
     title: "Wallace v. Penfield"
     volume: "106"
     page: "260"
+    docket: "19"
+    citation: "106 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1882"
-    citation: "106 U.S. 260"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-057"
@@ -974,9 +1256,12 @@ cases:
     title: "Hodges v. Easton"
     volume: "106"
     page: "408"
+    docket: "92"
+    citation: "106 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1882"
-    citation: "106 U.S. 408"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-058"
@@ -984,9 +1269,12 @@ cases:
     title: "Walker&apos;s Executors v. United States"
     volume: "106"
     page: "413"
+    docket: "9"
+    citation: "106 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1882"
-    citation: "106 U.S. 413"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-067"
@@ -994,9 +1282,12 @@ cases:
     title: "Landsdale v. Smith"
     volume: "106"
     page: "391"
+    docket: "117"
+    citation: "106 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1882"
-    citation: "106 U.S. 391"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-073"
@@ -1004,9 +1295,12 @@ cases:
     title: "Georgia v. Jesup"
     volume: "106"
     page: "458"
+    docket: "109"
+    citation: "106 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1882"
-    citation: "106 U.S. 458"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-095"
@@ -1014,9 +1308,12 @@ cases:
     title: "Turner v. Farmers&apos; Loan &amp; Trust Co."
     volume: "106"
     page: "552"
+    docket: "120"
+    citation: "106 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1883"
-    citation: "106 U.S. 552"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-096"
@@ -1024,9 +1321,11 @@ cases:
     title: "Savannah v. Jesup"
     volume: "106"
     page: "563"
+    citation: "106 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1883"
-    citation: "106 U.S. 563"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-103"
@@ -1034,9 +1333,12 @@ cases:
     title: "Thompson v. Perrine"
     volume: "106"
     page: "589"
+    docket: "76"
+    citation: "106 U.S. 589"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1883"
-    citation: "106 U.S. 589"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-117"
@@ -1044,9 +1346,12 @@ cases:
     title: "Bush v. Kentucky"
     volume: "107"
     page: "110"
+    docket: "1130"
+    citation: "107 U.S. 110"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1883"
-    citation: "107 U.S. 110"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-131"
@@ -1054,9 +1359,12 @@ cases:
     title: "Kendall v. United States"
     volume: "107"
     page: "123"
+    docket: "168"
+    citation: "107 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1883"
-    citation: "107 U.S. 123"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-132"
@@ -1064,9 +1372,12 @@ cases:
     title: "Montclair v. Ramsdell"
     volume: "107"
     page: "147"
+    docket: "147"
+    citation: "107 U.S. 147"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1883"
-    citation: "107 U.S. 147"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-133"
@@ -1074,9 +1385,12 @@ cases:
     title: "Montclair v. Dana"
     volume: "107"
     page: "162"
+    docket: "146"
+    citation: "107 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1883"
-    citation: "107 U.S. 162"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-183"
@@ -1084,9 +1398,12 @@ cases:
     title: "Kirkbride v. Lafayette County"
     volume: "108"
     page: "208"
+    docket: "197"
+    citation: "108 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1883"
-    citation: "108 U.S. 208"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-184"
@@ -1094,9 +1411,12 @@ cases:
     title: "St. Paul &amp; Chicago R. Co. v. McLean"
     volume: "108"
     page: "212"
+    docket: "174"
+    citation: "108 U.S. 212"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1883"
-    citation: "108 U.S. 212"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-193"
@@ -1104,9 +1424,12 @@ cases:
     title: "United States v. Curtis"
     volume: "107"
     page: "671"
+    docket: "408"
+    citation: "107 U.S. 671"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1883"
-    citation: "107 U.S. 671"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-199"
@@ -1114,9 +1437,12 @@ cases:
     title: "Quincy v. Cooke"
     volume: "107"
     page: "549"
+    docket: "1043"
+    citation: "107 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1883"
-    citation: "107 U.S. 549"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-216"
@@ -1124,9 +1450,12 @@ cases:
     title: "Howard County v. Booneville Central Nat. Bank"
     volume: "108"
     page: "314"
+    docket: "245"
+    citation: "108 U.S. 314"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1883"
-    citation: "108 U.S. 314"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-227"
@@ -1134,9 +1463,12 @@ cases:
     title: "Boese v. King"
     volume: "108"
     page: "379"
+    docket: "235"
+    citation: "108 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1883"
-    citation: "108 U.S. 379"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-229"
@@ -1144,9 +1476,12 @@ cases:
     title: "Wabash R. Co. v. McDaniels"
     volume: "107"
     page: "454"
+    docket: "286"
+    citation: "107 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1883"
-    citation: "107 U.S. 454"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1882-242"
@@ -1154,9 +1489,12 @@ cases:
     title: "Gross v. United States Mortgage Co."
     volume: "108"
     page: "477"
+    docket: "224"
+    citation: "108 U.S. 477"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1883"
-    citation: "108 U.S. 477"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-003"
@@ -1164,9 +1502,11 @@ cases:
     title: "Osborne v. Adams County"
     volume: "109"
     page: "001"
+    citation: "109 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, October 15, 1883"
-    citation: "109 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-008"
@@ -1174,9 +1514,12 @@ cases:
     title: "Monongahela Nat. Bank v. Jacobus"
     volume: "109"
     page: "275"
+    docket: "84"
+    citation: "109 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Friday, October 19, 1883"
-    citation: "109 U.S. 275"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-014"
@@ -1184,9 +1527,11 @@ cases:
     title: "Hewitt v. Campbell"
     volume: "109"
     page: "103"
+    citation: "109 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, October 29, 1883"
-    citation: "109 U.S. 103"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-048"
@@ -1194,9 +1539,12 @@ cases:
     title: "Grace v. American Central Ins. Co."
     volume: "109"
     page: "278"
+    docket: "60"
+    citation: "109 U.S. 278"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1883"
-    citation: "109 U.S. 278"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-056"
@@ -1204,9 +1552,12 @@ cases:
     title: "Terre Haute &amp; Indiana R. Co. v. Struble"
     volume: "109"
     page: "381"
+    docket: "123"
+    citation: "109 U.S. 381"
     pdfSource: "loc"
     dateDecision: "Monday, November 26, 1883"
-    citation: "109 U.S. 381"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-063"
@@ -1214,9 +1565,12 @@ cases:
     title: "Bailey v. United States"
     volume: "109"
     page: "432"
+    docket: "86"
+    citation: "109 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1883"
-    citation: "109 U.S. 432"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-075"
@@ -1224,9 +1578,12 @@ cases:
     title: "Young v. Duvall"
     volume: "109"
     page: "573"
+    docket: "129"
+    citation: "109 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1883"
-    citation: "109 U.S. 573"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-094"
@@ -1234,9 +1591,12 @@ cases:
     title: "Goodwin v. Colorado Mortgage Investment Co."
     volume: "110"
     page: "001"
+    docket: "177"
+    citation: "110 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1884"
-    citation: "110 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-095"
@@ -1244,9 +1604,12 @@ cases:
     title: "Martin v. Webb"
     volume: "110"
     page: "007"
+    docket: "801"
+    citation: "110 U.S. 7"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1884"
-    citation: "110 U.S. 7"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-110"
@@ -1254,9 +1617,12 @@ cases:
     title: "Kellogg Bridge Co. v. Hamilton"
     volume: "110"
     page: "108"
+    docket: "59"
+    citation: "110 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1884"
-    citation: "110 U.S. 108"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-120"
@@ -1264,9 +1630,12 @@ cases:
     title: "Jonesboro City v. Cairo &amp; St. Louis R. Co."
     volume: "110"
     page: "192"
+    docket: "1049"
+    citation: "110 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1884"
-    citation: "110 U.S. 192"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-167"
@@ -1274,9 +1643,11 @@ cases:
     title: "Hopt v. Territory of Utah"
     volume: "110"
     page: "574"
+    citation: "110 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1884"
-    citation: "110 U.S. 574"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-168"
@@ -1284,9 +1655,12 @@ cases:
     title: "Swann v. Wright&apos;s Executor"
     volume: "110"
     page: "590"
+    docket: "162"
+    citation: "110 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1884"
-    citation: "110 U.S. 590"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-169"
@@ -1294,9 +1668,12 @@ cases:
     title: "Swann v. Clark"
     volume: "110"
     page: "602"
+    docket: "163"
+    citation: "110 U.S. 602"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1884"
-    citation: "110 U.S. 602"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-170"
@@ -1304,9 +1681,12 @@ cases:
     title: "Northern Bank of Toledo v. Porter Township Trustees"
     volume: "110"
     page: "608"
+    docket: "221"
+    citation: "110 U.S. 608"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1884"
-    citation: "110 U.S. 608"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-190"
@@ -1314,9 +1694,11 @@ cases:
     title: "Ex parte Virginia"
     volume: "111"
     page: "043"
+    citation: "111 U.S. 43"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1884"
-    citation: "111 U.S. 43"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-197"
@@ -1324,9 +1706,12 @@ cases:
     title: "Taylor v. Bowker"
     volume: "111"
     page: "110"
+    docket: "251"
+    citation: "111 U.S. 110"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1884"
-    citation: "111 U.S. 110"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-216"
@@ -1334,9 +1719,12 @@ cases:
     title: "B&ouml;rs v. Preston"
     volume: "111"
     page: "252"
+    docket: "178"
+    citation: "111 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1884"
-    citation: "111 U.S. 252"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-223"
@@ -1344,9 +1732,12 @@ cases:
     title: "Moulor v. American Life Ins. Co."
     volume: "111"
     page: "335"
+    docket: "247"
+    citation: "111 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1884"
-    citation: "111 U.S. 335"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-255"
@@ -1354,9 +1745,12 @@ cases:
     title: "Carver v. United States"
     volume: "111"
     page: "609"
+    docket: "338"
+    citation: "111 U.S. 609"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1884"
-    citation: "111 U.S. 609"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-256"
@@ -1364,9 +1758,12 @@ cases:
     title: "Connecticut Mut. Life Ins. Co. v. Lathrop"
     volume: "111"
     page: "612"
+    docket: "66"
+    citation: "111 U.S. 612"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1884"
-    citation: "111 U.S. 612"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1883-257"
@@ -1374,9 +1771,12 @@ cases:
     title: "Robb v. Connolly"
     volume: "111"
     page: "624"
+    docket: "1258"
+    citation: "111 U.S. 624"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1884"
-    citation: "111 U.S. 624"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-003"
@@ -1384,9 +1784,12 @@ cases:
     title: "New Orleans, M. &amp; T. R. Co. v. Mississippi ex rel. District Attorney"
     volume: "112"
     page: "012"
+    docket: "599"
+    citation: "112 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Monday, October 27, 1884"
-    citation: "112 U.S. 12"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-036"
@@ -1394,9 +1797,12 @@ cases:
     title: "Connecticut Mut. Life Ins. Co. v. Union Trust Co."
     volume: "112"
     page: "250"
+    docket: "26"
+    citation: "112 U.S. 250"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1884"
-    citation: "112 U.S. 250"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-037"
@@ -1404,9 +1810,12 @@ cases:
     title: "Grenada County Supervisors v. Brogden"
     volume: "112"
     page: "261"
+    docket: "37"
+    citation: "112 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1884"
-    citation: "112 U.S. 261"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-045"
@@ -1414,9 +1823,12 @@ cases:
     title: "Mackall v. Richards"
     volume: "112"
     page: "369"
+    docket: "72"
+    citation: "112 U.S. 369"
     pdfSource: "loc"
     dateDecision: "Monday, November 24, 1884"
-    citation: "112 U.S. 369"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-059"
@@ -1424,9 +1836,12 @@ cases:
     title: "Chew Heong v. United States"
     volume: "112"
     page: "536"
+    docket: "1088"
+    citation: "112 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1884"
-    citation: "112 U.S. 536"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-073"
@@ -1434,9 +1849,12 @@ cases:
     title: "United States v. Great Falls Mfg. Co."
     volume: "112"
     page: "645"
+    docket: "111"
+    citation: "112 U.S. 645"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1884"
-    citation: "112 U.S. 645"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-080"
@@ -1444,9 +1862,12 @@ cases:
     title: "Thayer v. Life Assn. of America"
     volume: "112"
     page: "717"
+    docket: "133"
+    citation: "112 U.S. 717"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1885"
-    citation: "112 U.S. 717"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-089"
@@ -1454,9 +1875,12 @@ cases:
     title: "Drennen v. London Assurance Co."
     volume: "113"
     page: "051"
+    docket: "935"
+    citation: "113 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1885"
-    citation: "113 U.S. 51"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-094"
@@ -1464,9 +1888,11 @@ cases:
     title: "Central Railroad &amp; Banking Co. of Ga. v. Pettus"
     volume: "113"
     page: "116"
+    citation: "113 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1885"
-    citation: "113 U.S. 116"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-095"
@@ -1474,9 +1900,12 @@ cases:
     title: "Bryan v. Kennett"
     volume: "113"
     page: "179"
+    docket: "7"
+    citation: "113 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1885"
-    citation: "113 U.S. 179"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-101"
@@ -1484,9 +1913,12 @@ cases:
     title: "Ackley School Dist. v. Hall"
     volume: "113"
     page: "135"
+    docket: "119"
+    citation: "113 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1885"
-    citation: "113 U.S. 135"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-102"
@@ -1494,9 +1926,12 @@ cases:
     title: "Clawson v. United States"
     volume: "113"
     page: "143"
+    docket: "1235"
+    citation: "113 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1885"
-    citation: "113 U.S. 143"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-129"
@@ -1504,9 +1939,12 @@ cases:
     title: "Quincy v. Jackson"
     volume: "113"
     page: "332"
+    docket: "1083"
+    citation: "113 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1885"
-    citation: "113 U.S. 332"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-130"
@@ -1514,9 +1952,12 @@ cases:
     title: "Santa Anna v. Frank"
     volume: "113"
     page: "339"
+    docket: "1166"
+    citation: "113 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1885"
-    citation: "113 U.S. 339"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-150"
@@ -1524,9 +1965,12 @@ cases:
     title: "Chicago Life Ins. Co. v. Needles"
     volume: "113"
     page: "574"
+    docket: "184"
+    citation: "113 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "113 U.S. 574"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-157"
@@ -1534,9 +1978,12 @@ cases:
     title: "Camp v. United States"
     volume: "113"
     page: "648"
+    docket: "183"
+    citation: "113 U.S. 648"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "113 U.S. 648"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-161"
@@ -1544,9 +1991,12 @@ cases:
     title: "Boyer v. Boyer"
     volume: "113"
     page: "689"
+    docket: "749"
+    citation: "113 U.S. 689"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "113 U.S. 689"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-163"
@@ -1554,9 +2004,12 @@ cases:
     title: "Buncombe County Comm&apos;rs v. Tommey"
     volume: "115"
     page: "122"
+    docket: "136"
+    citation: "115 U.S. 122"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1885"
-    citation: "115 U.S. 122"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-164"
@@ -1564,9 +2017,12 @@ cases:
     title: "Hardin v. Boyd"
     volume: "113"
     page: "756"
+    docket: "886"
+    citation: "113 U.S. 756"
     pdfSource: "loc"
     dateDecision: "Sunday, March 15, 1885"
-    citation: "113 U.S. 756"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-167"
@@ -1574,9 +2030,12 @@ cases:
     title: "United States v. Indianapolis &amp; St. Louis R. Co."
     volume: "113"
     page: "711"
+    docket: "525"
+    citation: "113 U.S. 711"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1885"
-    citation: "113 U.S. 711"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-197"
@@ -1584,9 +2043,12 @@ cases:
     title: "Huntley v. Huntley"
     volume: "114"
     page: "394"
+    docket: "201"
+    citation: "114 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1885"
-    citation: "114 U.S. 394"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-209"
@@ -1594,9 +2056,12 @@ cases:
     title: "State Bank v. United States"
     volume: "114"
     page: "401"
+    docket: "229"
+    citation: "114 U.S. 401"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1885"
-    citation: "114 U.S. 401"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-210"
@@ -1604,9 +2069,12 @@ cases:
     title: "The Laura"
     volume: "114"
     page: "411"
+    docket: "191"
+    citation: "114 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1885"
-    citation: "114 U.S. 411"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-224"
@@ -1614,9 +2082,12 @@ cases:
     title: "Burton v. West Jersey Ferry Co."
     volume: "114"
     page: "474"
+    docket: "242"
+    citation: "114 U.S. 474"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1885"
-    citation: "114 U.S. 474"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-235"
@@ -1624,9 +2095,12 @@ cases:
     title: "Martinsburg &amp; Potomac R. Co. v. March"
     volume: "114"
     page: "549"
+    docket: "272"
+    citation: "114 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1885"
-    citation: "114 U.S. 549"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-236"
@@ -1634,9 +2108,12 @@ cases:
     title: "Strang v. Bradner"
     volume: "114"
     page: "555"
+    docket: "246"
+    citation: "114 U.S. 555"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1885"
-    citation: "114 U.S. 555"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-244"
@@ -1644,9 +2121,12 @@ cases:
     title: "United States v. Corson"
     volume: "114"
     page: "619"
+    docket: "266"
+    citation: "114 U.S. 619"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1885"
-    citation: "114 U.S. 619"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1884-247"
@@ -1654,9 +2134,12 @@ cases:
     title: "Ex parte Reggel"
     volume: "114"
     page: "642"
+    docket: "250"
+    citation: "114 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1885"
-    citation: "114 U.S. 642"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-011"
@@ -1664,9 +2147,12 @@ cases:
     title: "Hazlett v. United States"
     volume: "115"
     page: "291"
+    docket: "17"
+    citation: "115 U.S. 291"
     pdfSource: "loc"
     dateDecision: "Monday, November 2, 1885"
-    citation: "115 U.S. 291"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-014"
@@ -1674,9 +2160,12 @@ cases:
     title: "Merrick&apos;s Executor v. Giddings"
     volume: "115"
     page: "300"
+    docket: "25"
+    citation: "115 U.S. 300"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1885"
-    citation: "115 U.S. 300"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-028"
@@ -1684,9 +2173,12 @@ cases:
     title: "Gage v. Pumpelly"
     volume: "115"
     page: "454"
+    docket: "42"
+    citation: "115 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Monday, November 23, 1885"
-    citation: "115 U.S. 454"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-052"
@@ -1694,9 +2186,12 @@ cases:
     title: "New Orleans Gas Co. v. Louisiana Light Co."
     volume: "115"
     page: "650"
+    docket: "18"
+    citation: "115 U.S. 650"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1885"
-    citation: "115 U.S. 650"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-053"
@@ -1704,9 +2199,12 @@ cases:
     title: "New Orleans Water-Works Co. v. Rivers"
     volume: "115"
     page: "674"
+    docket: "539"
+    citation: "115 U.S. 674"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1885"
-    citation: "115 U.S. 674"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-054"
@@ -1714,9 +2212,12 @@ cases:
     title: "Louisville Gas Co. v. Citizens&apos; Gas Co."
     volume: "115"
     page: "683"
+    docket: "489"
+    citation: "115 U.S. 683"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1885"
-    citation: "115 U.S. 683"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-078"
@@ -1724,9 +2225,12 @@ cases:
     title: "Burnett v. United States"
     volume: "116"
     page: "158"
+    docket: "951"
+    citation: "116 U.S. 158"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1885"
-    citation: "116 U.S. 158"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-079"
@@ -1734,9 +2238,12 @@ cases:
     title: "Winchester &amp; Partridge Mfg. Co. v. Creary"
     volume: "116"
     page: "161"
+    docket: "65"
+    citation: "116 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1885"
-    citation: "116 U.S. 161"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-086"
@@ -1744,9 +2251,12 @@ cases:
     title: "Brown v. Grant"
     volume: "116"
     page: "207"
+    docket: "588"
+    citation: "116 U.S. 207"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1886"
-    citation: "116 U.S. 207"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-087"
@@ -1754,9 +2264,12 @@ cases:
     title: "Ford v. United States"
     volume: "116"
     page: "213"
+    docket: "1108"
+    citation: "116 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1886"
-    citation: "116 U.S. 213"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-097"
@@ -1764,9 +2277,12 @@ cases:
     title: "Anderson v. Santa Anna"
     volume: "116"
     page: "356"
+    docket: "76"
+    citation: "116 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1886"
-    citation: "116 U.S. 356"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-117"
@@ -1774,9 +2290,12 @@ cases:
     title: "London Assurance Co. v. Drennen"
     volume: "116"
     page: "461"
+    docket: "1222"
+    citation: "116 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1886"
-    citation: "116 U.S. 461"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-137"
@@ -1784,9 +2303,11 @@ cases:
     title: "Jones v. Simpson"
     volume: "116"
     page: "609"
+    citation: "116 U.S. 609"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1886"
-    citation: "116 U.S. 609"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-150"
@@ -1794,9 +2315,12 @@ cases:
     title: "Leather Manufacturers&apos; Bank v. Morgan"
     volume: "117"
     page: "096"
+    docket: "45"
+    citation: "117 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1886"
-    citation: "117 U.S. 96"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-159"
@@ -1804,9 +2328,12 @@ cases:
     title: "Ex parte Royall"
     volume: "117"
     page: "241"
+    docket: "974"
+    citation: "117 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1886"
-    citation: "117 U.S. 241"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-160"
@@ -1814,9 +2341,11 @@ cases:
     title: "Ex parte Royall"
     volume: "117"
     page: "254"
+    citation: "117 U.S. 254"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1886"
-    citation: "117 U.S. 254"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-183"
@@ -1824,9 +2353,12 @@ cases:
     title: "Marshall v. Hubbard"
     volume: "117"
     page: "415"
+    docket: "110"
+    citation: "117 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1886"
-    citation: "117 U.S. 415"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-196"
@@ -1834,9 +2366,12 @@ cases:
     title: "District of Columbia v. McElligott"
     volume: "117"
     page: "621"
+    docket: "138"
+    citation: "117 U.S. 621"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1886"
-    citation: "117 U.S. 621"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-223"
@@ -1844,9 +2379,12 @@ cases:
     title: "Emerson v. Senter"
     volume: "118"
     page: "003"
+    docket: "154"
+    citation: "118 U.S. 3"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1886"
-    citation: "118 U.S. 3"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-233"
@@ -1854,9 +2392,12 @@ cases:
     title: "Cape Girardeau County Court v. Hill"
     volume: "118"
     page: "068"
+    docket: "215"
+    citation: "118 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1886"
-    citation: "118 U.S. 68"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-272"
@@ -1864,9 +2405,12 @@ cases:
     title: "United States v. Langston"
     volume: "118"
     page: "389"
+    docket: "1322"
+    citation: "118 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1886"
-    citation: "118 U.S. 389"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-273"
@@ -1874,9 +2418,12 @@ cases:
     title: "Santa Clara County v. Southern Pacific R. Co."
     volume: "118"
     page: "394"
+    docket: "6"
+    citation: "118 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1886"
-    citation: "118 U.S. 394"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1885-274"
@@ -1884,9 +2431,12 @@ cases:
     title: "San Bernardino County v. Southern Pacific R. Co."
     volume: "118"
     page: "417"
+    docket: "619"
+    citation: "118 U.S. 417"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1886"
-    citation: "118 U.S. 417"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-009"
@@ -1894,9 +2444,12 @@ cases:
     title: "Whitney v. Butler"
     volume: "118"
     page: "655"
+    docket: "1065"
+    citation: "118 U.S. 655"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1886"
-    citation: "118 U.S. 655"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-010"
@@ -1904,9 +2457,12 @@ cases:
     title: "Vicksburg &amp; Meridian R. Co. v. O&apos;Brien"
     volume: "119"
     page: "099"
+    docket: "12"
+    citation: "119 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1886"
-    citation: "119 U.S. 99"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-038"
@@ -1914,9 +2470,12 @@ cases:
     title: "Newhall v. Le Breton"
     volume: "119"
     page: "259"
+    docket: "24"
+    citation: "119 U.S. 259"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1886"
-    citation: "119 U.S. 259"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-039"
@@ -1924,9 +2483,12 @@ cases:
     title: "New York, L. E., &amp; W. R. Co. v. Nickals"
     volume: "119"
     page: "296"
+    docket: "22"
+    citation: "119 U.S. 296"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1886"
-    citation: "119 U.S. 296"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-098"
@@ -1934,9 +2496,12 @@ cases:
     title: "United States v. Symonds"
     volume: "120"
     page: "046"
+    docket: "1023"
+    citation: "120 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1887"
-    citation: "120 U.S. 46"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-099"
@@ -1944,9 +2509,12 @@ cases:
     title: "United States v. Bishop"
     volume: "120"
     page: "051"
+    docket: "1029"
+    citation: "120 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1887"
-    citation: "120 U.S. 51"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-100"
@@ -1954,9 +2522,12 @@ cases:
     title: "United States v. Philbrick"
     volume: "120"
     page: "052"
+    docket: "1032"
+    citation: "120 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1887"
-    citation: "120 U.S. 52"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-101"
@@ -1964,9 +2535,12 @@ cases:
     title: "United States v. Rockwell"
     volume: "120"
     page: "060"
+    docket: "1030"
+    citation: "120 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1887"
-    citation: "120 U.S. 60"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-102"
@@ -1974,9 +2548,12 @@ cases:
     title: "St. Tammany Water Works v. New Orleans Water Works"
     volume: "120"
     page: "064"
+    docket: "74"
+    citation: "120 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1887"
-    citation: "120 U.S. 64"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-103"
@@ -1984,9 +2561,12 @@ cases:
     title: "Kirby v. Lake Shore &amp; Michigan Southern R. Co."
     volume: "120"
     page: "130"
+    docket: "50"
+    citation: "120 U.S. 130"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1887"
-    citation: "120 U.S. 130"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-122"
@@ -1994,9 +2574,11 @@ cases:
     title: "Memphis &amp; Little Rock R. Co. v. Dow"
     volume: "120"
     page: "287"
+    citation: "120 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1887"
-    citation: "120 U.S. 287"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-129"
@@ -2004,9 +2586,12 @@ cases:
     title: "King Bridge Co. v. Otoe County"
     volume: "120"
     page: "225"
+    docket: "938"
+    citation: "120 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1887"
-    citation: "120 U.S. 225"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-138"
@@ -2014,9 +2599,12 @@ cases:
     title: "Meriwether v. Muhlenburg County Court"
     volume: "120"
     page: "354"
+    docket: "115"
+    citation: "120 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1887"
-    citation: "120 U.S. 354"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-164"
@@ -2024,9 +2612,12 @@ cases:
     title: "People&apos;s Savings Bank v. Bates"
     volume: "120"
     page: "556"
+    docket: "52"
+    citation: "120 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1887"
-    citation: "120 U.S. 556"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-165"
@@ -2034,9 +2625,12 @@ cases:
     title: "Chicago, B. &amp; K. C. R. Co. v. Guffey"
     volume: "120"
     page: "569"
+    docket: "1244"
+    citation: "120 U.S. 569"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1887"
-    citation: "120 U.S. 569"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-166"
@@ -2044,9 +2638,12 @@ cases:
     title: "Schley v. Pullman Car Co."
     volume: "120"
     page: "575"
+    docket: "1113"
+    citation: "120 U.S. 575"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1887"
-    citation: "120 U.S. 575"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-167"
@@ -2054,9 +2651,12 @@ cases:
     title: "Gilmer v. Stone"
     volume: "120"
     page: "586"
+    docket: "1168"
+    citation: "120 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1887"
-    citation: "120 U.S. 586"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-169"
@@ -2064,9 +2664,12 @@ cases:
     title: "Bolles v. Brimfield"
     volume: "120"
     page: "759"
+    docket: "279"
+    citation: "120 U.S. 759"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1887"
-    citation: "120 U.S. 759"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-190"
@@ -2074,9 +2677,12 @@ cases:
     title: "United States v. McDougall&apos;s Administrator"
     volume: "121"
     page: "089"
+    docket: "1024"
+    citation: "121 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1887"
-    citation: "121 U.S. 89"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-199"
@@ -2084,9 +2690,12 @@ cases:
     title: "Concord v. Robinson"
     volume: "121"
     page: "165"
+    docket: "161"
+    citation: "121 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1887"
-    citation: "121 U.S. 165"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-213"
@@ -2094,9 +2703,12 @@ cases:
     title: "Fisher v. Kelsey"
     volume: "121"
     page: "383"
+    docket: "173"
+    citation: "121 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1887"
-    citation: "121 U.S. 383"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-224"
@@ -2104,9 +2716,12 @@ cases:
     title: "Lehigh Water Co. v. Easton"
     volume: "121"
     page: "388"
+    docket: "199"
+    citation: "121 U.S. 388"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1887"
-    citation: "121 U.S. 388"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-250"
@@ -2114,9 +2729,12 @@ cases:
     title: "New Jersey Steamboat Co. v. Brockett"
     volume: "121"
     page: "637"
+    docket: "254"
+    citation: "121 U.S. 637"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1887"
-    citation: "121 U.S. 637"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-269"
@@ -2124,9 +2742,11 @@ cases:
     title: "Chicago, B. &amp; K. C. R. Co. v. Guffey"
     volume: "122"
     page: "561"
+    citation: "122 U.S. 561"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1887"
-    citation: "122 U.S. 561"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-270"
@@ -2134,9 +2754,12 @@ cases:
     title: "Sun Ins. Co. v. Kountz Line"
     volume: "122"
     page: "583"
+    docket: "136"
+    citation: "122 U.S. 583"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1887"
-    citation: "122 U.S. 583"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-282"
@@ -2144,9 +2767,12 @@ cases:
     title: "Walter v. Bickham"
     volume: "122"
     page: "320"
+    docket: "302"
+    citation: "122 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Friday, May 27, 1887"
-    citation: "122 U.S. 320"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-289"
@@ -2154,9 +2780,12 @@ cases:
     title: "Adams v. Collier"
     volume: "122"
     page: "382"
+    docket: "238"
+    citation: "122 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Friday, May 27, 1887"
-    citation: "122 U.S. 382"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-290"
@@ -2164,9 +2793,12 @@ cases:
     title: "Goodlett v. Louisville &amp; Nashville R. Co."
     volume: "122"
     page: "391"
+    docket: "184"
+    citation: "122 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Friday, May 27, 1887"
-    citation: "122 U.S. 391"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-307"
@@ -2174,9 +2806,12 @@ cases:
     title: "Shippen v. Bowen"
     volume: "122"
     page: "575"
+    docket: "253"
+    citation: "122 U.S. 575"
     pdfSource: "loc"
     dateDecision: "Friday, May 27, 1887"
-    citation: "122 U.S. 575"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1886-308"
@@ -2184,9 +2819,12 @@ cases:
     title: "Denver &amp; Rio Grande R. Co. v. Harris"
     volume: "122"
     page: "597"
+    docket: "290"
+    citation: "122 U.S. 597"
     pdfSource: "loc"
     dateDecision: "Friday, May 27, 1887"
-    citation: "122 U.S. 597"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-009"
@@ -2194,9 +2832,11 @@ cases:
     title: "Sun Ins. Co. v. Kountz Line"
     volume: "123"
     page: "065"
+    citation: "123 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Monday, October 24, 1887"
-    citation: "123 U.S. 65"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-010"
@@ -2204,9 +2844,12 @@ cases:
     title: "Orient Ins. Co. v. Adams"
     volume: "123"
     page: "067"
+    docket: "23"
+    citation: "123 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Monday, October 24, 1887"
-    citation: "123 U.S. 67"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-018"
@@ -2214,9 +2857,12 @@ cases:
     title: "Mathews v. United States"
     volume: "123"
     page: "182"
+    docket: "959"
+    citation: "123 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Monday, October 31, 1887"
-    citation: "123 U.S. 182"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-021"
@@ -2224,9 +2870,12 @@ cases:
     title: "Finn v. United States"
     volume: "123"
     page: "227"
+    docket: "1008"
+    citation: "123 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Monday, October 31, 1887"
-    citation: "123 U.S. 227"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-027"
@@ -2234,9 +2883,12 @@ cases:
     title: "United States v. Allen"
     volume: "123"
     page: "345"
+    docket: "1083"
+    citation: "123 U.S. 345"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1887"
-    citation: "123 U.S. 345"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-060"
@@ -2244,9 +2896,12 @@ cases:
     title: "Mugler v. Kansas"
     volume: "123"
     page: "623"
+    docket: "19"
+    citation: "123 U.S. 623"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1887"
-    citation: "123 U.S. 623"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-074"
@@ -2254,9 +2909,12 @@ cases:
     title: "Aetna Life Ins. Co. v. Davey"
     volume: "123"
     page: "739"
+    docket: "78"
+    citation: "123 U.S. 739"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1887"
-    citation: "123 U.S. 739"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-095"
@@ -2264,9 +2922,12 @@ cases:
     title: "Vetterlein v. Barnes"
     volume: "124"
     page: "169"
+    docket: "104"
+    citation: "124 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1888"
-    citation: "124 U.S. 169"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-096"
@@ -2274,9 +2935,12 @@ cases:
     title: "Richards v. Mackall"
     volume: "124"
     page: "183"
+    docket: "106"
+    citation: "124 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1888"
-    citation: "124 U.S. 183"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-101"
@@ -2284,9 +2948,12 @@ cases:
     title: "United States v. Johnston"
     volume: "124"
     page: "236"
+    docket: "112"
+    citation: "124 U.S. 236"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1888"
-    citation: "124 U.S. 236"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-104"
@@ -2294,9 +2961,12 @@ cases:
     title: "Union R. Co. v. Dull"
     volume: "124"
     page: "173"
+    docket: "68"
+    citation: "124 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1888"
-    citation: "124 U.S. 173"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-122"
@@ -2304,9 +2974,12 @@ cases:
     title: "Marshall v. United States"
     volume: "124"
     page: "391"
+    docket: "318"
+    citation: "124 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1888"
-    citation: "124 U.S. 391"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-144"
@@ -2314,9 +2987,12 @@ cases:
     title: "Great Falls Mfg. Co. v. Attorney General"
     volume: "124"
     page: "581"
+    docket: "605"
+    citation: "124 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Monday, February 6, 1888"
-    citation: "124 U.S. 581"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-172"
@@ -2324,9 +3000,12 @@ cases:
     title: "Chicago v. Taylor"
     volume: "125"
     page: "161"
+    docket: "151"
+    citation: "125 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1888"
-    citation: "125 U.S. 161"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-185"
@@ -2334,9 +3013,12 @@ cases:
     title: "Sage v. Memphis &amp; Little Rock R. Co."
     volume: "125"
     page: "361"
+    docket: "126"
+    citation: "125 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1888"
-    citation: "125 U.S. 361"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-202"
@@ -2344,9 +3026,12 @@ cases:
     title: "Powell v. Pennsylvania"
     volume: "127"
     page: "678"
+    docket: "914"
+    citation: "127 U.S. 678"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1888"
-    citation: "127 U.S. 678"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-203"
@@ -2354,9 +3039,12 @@ cases:
     title: "Walker v. Pennsylvania"
     volume: "127"
     page: "699"
+    docket: "1303"
+    citation: "127 U.S. 699"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1888"
-    citation: "127 U.S. 699"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-213"
@@ -2364,9 +3052,12 @@ cases:
     title: "RoBards v. Lamb"
     volume: "127"
     page: "058"
+    docket: "1088"
+    citation: "127 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1888"
-    citation: "127 U.S. 58"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-214"
@@ -2374,9 +3065,12 @@ cases:
     title: "Morgan v. Eggers"
     volume: "127"
     page: "063"
+    docket: "200"
+    citation: "127 U.S. 63"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1888"
-    citation: "127 U.S. 63"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-217"
@@ -2384,9 +3078,12 @@ cases:
     title: "Rucker v. Wheeler"
     volume: "127"
     page: "085"
+    docket: "1306"
+    citation: "127 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1888"
-    citation: "127 U.S. 85"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-249"
@@ -2394,9 +3091,12 @@ cases:
     title: "Freedman&apos;s Sav. &amp; Trust Co. v. Shepherd"
     volume: "127"
     page: "494"
+    docket: "230"
+    citation: "127 U.S. 494"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1888"
-    citation: "127 U.S. 494"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-273"
@@ -2404,9 +3104,12 @@ cases:
     title: "Callan v. Wilson"
     volume: "127"
     page: "540"
+    docket: "1318"
+    citation: "127 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1888"
-    citation: "127 U.S. 540"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-285"
@@ -2414,9 +3117,12 @@ cases:
     title: "Farmers&apos; Loan &amp; Trust Co. v. Newman"
     volume: "127"
     page: "649"
+    docket: "253"
+    citation: "127 U.S. 649"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1888"
-    citation: "127 U.S. 649"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-286"
@@ -2424,9 +3130,12 @@ cases:
     title: "Travellers&apos; Ins. Co. v. McConkey"
     volume: "127"
     page: "661"
+    docket: "273"
+    citation: "127 U.S. 661"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1888"
-    citation: "127 U.S. 661"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-287"
@@ -2434,9 +3143,12 @@ cases:
     title: "Nickerson v. Nickerson"
     volume: "127"
     page: "668"
+    docket: "881"
+    citation: "127 U.S. 668"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1888"
-    citation: "127 U.S. 668"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1887-289"
@@ -2444,9 +3156,12 @@ cases:
     title: "Sewall v. Haymaker"
     volume: "127"
     page: "719"
+    docket: "244"
+    citation: "127 U.S. 719"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1888"
-    citation: "127 U.S. 719"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-011"
@@ -2454,9 +3169,12 @@ cases:
     title: "Robinson v. Fair"
     volume: "128"
     page: "053"
+    docket: "18"
+    citation: "128 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1888"
-    citation: "128 U.S. 53"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-012"
@@ -2464,9 +3182,12 @@ cases:
     title: "Kane v. Northern Central R. Co."
     volume: "128"
     page: "091"
+    docket: "8"
+    citation: "128 U.S. 91"
     pdfSource: "loc"
     dateDecision: "Monday, October 22, 1888"
-    citation: "128 U.S. 91"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-035"
@@ -2474,9 +3195,12 @@ cases:
     title: "Ex parte Terry"
     volume: "128"
     page: "289"
+    docket: "6 Orig."
+    citation: "128 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1888"
-    citation: "128 U.S. 289"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-039"
@@ -2484,9 +3208,12 @@ cases:
     title: "Cogswell v. Fordyce"
     volume: "128"
     page: "391"
+    docket: "63"
+    citation: "128 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1888"
-    citation: "128 U.S. 391"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-047"
@@ -2494,9 +3221,12 @@ cases:
     title: "United States v. Foster"
     volume: "128"
     page: "435"
+    docket: "1162"
+    citation: "128 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1888"
-    citation: "128 U.S. 435"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-048"
@@ -2504,9 +3234,12 @@ cases:
     title: "Hennessy v. Woolworth"
     volume: "128"
     page: "438"
+    docket: "74"
+    citation: "128 U.S. 438"
     pdfSource: "loc"
     dateDecision: "Monday, November 26, 1888"
-    citation: "128 U.S. 438"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-050"
@@ -2514,9 +3247,12 @@ cases:
     title: "Pollak v. Brush Elec. Assn. of St. Louis"
     volume: "128"
     page: "446"
+    docket: "43"
+    citation: "128 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1888"
-    citation: "128 U.S. 446"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-064"
@@ -2524,9 +3260,12 @@ cases:
     title: "Purdy v. Lansing"
     volume: "128"
     page: "557"
+    docket: "96"
+    citation: "128 U.S. 557"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1888"
-    citation: "128 U.S. 557"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-069"
@@ -2534,9 +3273,12 @@ cases:
     title: "Metcalf v. Watertown"
     volume: "128"
     page: "586"
+    docket: "90"
+    citation: "128 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1888"
-    citation: "128 U.S. 586"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-076"
@@ -2544,9 +3286,12 @@ cases:
     title: "Stachelberg v. Ponce"
     volume: "128"
     page: "686"
+    docket: "51"
+    citation: "128 U.S. 686"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1888"
-    citation: "128 U.S. 686"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-088"
@@ -2554,9 +3299,12 @@ cases:
     title: "Camden v. Mayhew"
     volume: "129"
     page: "073"
+    docket: "80"
+    citation: "129 U.S. 73"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1889"
-    citation: "129 U.S. 73"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-089"
@@ -2564,9 +3312,12 @@ cases:
     title: "Arrowsmith v. Gleason"
     volume: "129"
     page: "086"
+    docket: "133"
+    citation: "129 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1889"
-    citation: "129 U.S. 86"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-114"
@@ -2574,9 +3325,12 @@ cases:
     title: "Morris v. Gilmer"
     volume: "129"
     page: "315"
+    docket: "1150"
+    citation: "129 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1889"
-    citation: "129 U.S. 315"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-115"
@@ -2584,9 +3338,12 @@ cases:
     title: "White v. Cotzhausen"
     volume: "129"
     page: "329"
+    docket: "129"
+    citation: "129 U.S. 329"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1889"
-    citation: "129 U.S. 329"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-121"
@@ -2594,9 +3351,12 @@ cases:
     title: "Ruckman v. Cory"
     volume: "129"
     page: "387"
+    docket: "1199"
+    citation: "129 U.S. 387"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1889"
-    citation: "129 U.S. 387"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-122"
@@ -2604,9 +3364,12 @@ cases:
     title: "Eastern R. Co. v. United States"
     volume: "129"
     page: "391"
+    docket: "134"
+    citation: "129 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1889"
-    citation: "129 U.S. 391"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-140"
@@ -2614,9 +3377,12 @@ cases:
     title: "Ralston v. Turpin"
     volume: "129"
     page: "663"
+    docket: "98"
+    citation: "129 U.S. 663"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1889"
-    citation: "129 U.S. 663"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-145"
@@ -2624,9 +3390,12 @@ cases:
     title: "Badger v. Cusimano"
     volume: "130"
     page: "039"
+    docket: "179"
+    citation: "130 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1889"
-    citation: "130 U.S. 39"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-146"
@@ -2634,9 +3403,12 @@ cases:
     title: "Parker v. Dacres"
     volume: "130"
     page: "043"
+    docket: "157"
+    citation: "130 U.S. 43"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1889"
-    citation: "130 U.S. 43"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-149"
@@ -2644,9 +3416,12 @@ cases:
     title: "Arkansas Valley Land &amp; Cattle Co. v. Mann"
     volume: "130"
     page: "069"
+    docket: "147"
+    citation: "130 U.S. 69"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1889"
-    citation: "130 U.S. 69"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-151"
@@ -2654,9 +3429,12 @@ cases:
     title: "Calton v. Utah"
     volume: "130"
     page: "083"
+    docket: "1408"
+    citation: "130 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1889"
-    citation: "130 U.S. 83"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-165"
@@ -2664,9 +3442,12 @@ cases:
     title: "Stevens v. Nichols"
     volume: "130"
     page: "230"
+    docket: "190"
+    citation: "130 U.S. 230"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1889"
-    citation: "130 U.S. 230"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-180"
@@ -2674,9 +3455,12 @@ cases:
     title: "Brock v. Northwestern Fuel Co."
     volume: "130"
     page: "341"
+    docket: "210"
+    citation: "130 U.S. 341"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1889"
-    citation: "130 U.S. 341"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-187"
@@ -2684,9 +3468,12 @@ cases:
     title: "Shepherd v. Baltimore &amp; Ohio R. Co."
     volume: "130"
     page: "426"
+    docket: "213"
+    citation: "130 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1889"
-    citation: "130 U.S. 426"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-190"
@@ -2694,9 +3481,12 @@ cases:
     title: "United States v. Cumming"
     volume: "130"
     page: "452"
+    docket: "723"
+    citation: "130 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1889"
-    citation: "130 U.S. 452"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-193"
@@ -2704,9 +3494,12 @@ cases:
     title: "Central Trust Co. v. Seasongood"
     volume: "130"
     page: "482"
+    docket: "224"
+    citation: "130 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1889"
-    citation: "130 U.S. 482"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-199"
@@ -2714,9 +3507,12 @@ cases:
     title: "Union Trust Co. v. Southern Inland Nav. &amp; Improvement Co."
     volume: "130"
     page: "565"
+    docket: "191"
+    citation: "130 U.S. 565"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1889"
-    citation: "130 U.S. 565"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-240"
@@ -2724,9 +3520,12 @@ cases:
     title: "Crehore v. Ohio &amp; Mississippi R. Co."
     volume: "131"
     page: "240"
+    docket: "272"
+    citation: "131 U.S. 240"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1889"
-    citation: "131 U.S. 240"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-243"
@@ -2734,9 +3533,12 @@ cases:
     title: "In re Savin"
     volume: "131"
     page: "267"
+    docket: "1553"
+    citation: "131 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1889"
-    citation: "131 U.S. 267"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-244"
@@ -2744,9 +3546,12 @@ cases:
     title: "In re Cuddy"
     volume: "131"
     page: "280"
+    docket: "1552"
+    citation: "131 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1889"
-    citation: "131 U.S. 280"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-245"
@@ -2754,9 +3559,12 @@ cases:
     title: "Segrist v. Crabtree"
     volume: "131"
     page: "287"
+    docket: "115"
+    citation: "131 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1889"
-    citation: "131 U.S. 287"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-248"
@@ -2764,9 +3572,12 @@ cases:
     title: "Embrey v. Jemison"
     volume: "131"
     page: "336"
+    docket: "235"
+    citation: "131 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1889"
-    citation: "131 U.S. 336"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1888-249"
@@ -2774,9 +3585,12 @@ cases:
     title: "Mellen v. Moline Malleable Iron Works"
     volume: "131"
     page: "352"
+    docket: "250"
+    citation: "131 U.S. 352"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1889"
-    citation: "131 U.S. 352"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-014"
@@ -2784,9 +3598,12 @@ cases:
     title: "Scotland County v. Hill"
     volume: "132"
     page: "107"
+    docket: "29"
+    citation: "132 U.S. 107"
     pdfSource: "loc"
     dateDecision: "Monday, November 4, 1889"
-    citation: "132 U.S. 107"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-017"
@@ -2794,9 +3611,12 @@ cases:
     title: "Cross v. North Carolina"
     volume: "132"
     page: "131"
+    docket: "1084"
+    citation: "132 U.S. 131"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1889"
-    citation: "132 U.S. 131"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-018"
@@ -2804,9 +3624,12 @@ cases:
     title: "First Nat. Bank of Charlotte v. Morgan"
     volume: "132"
     page: "141"
+    docket: "50"
+    citation: "132 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, November 11, 1889"
-    citation: "132 U.S. 141"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-042"
@@ -2814,9 +3637,12 @@ cases:
     title: "Fritts v. Palmer"
     volume: "132"
     page: "282"
+    docket: "72"
+    citation: "132 U.S. 282"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1889"
-    citation: "132 U.S. 282"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-043"
@@ -2824,9 +3650,12 @@ cases:
     title: "Cleveland v. King"
     volume: "132"
     page: "295"
+    docket: "89"
+    citation: "132 U.S. 295"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1889"
-    citation: "132 U.S. 295"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-044"
@@ -2834,9 +3663,12 @@ cases:
     title: "Continental Life Ins. Co. v. Chamberlain"
     volume: "132"
     page: "304"
+    docket: "100"
+    citation: "132 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Monday, November 25, 1889"
-    citation: "132 U.S. 304"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-063"
@@ -2844,9 +3676,12 @@ cases:
     title: "Dravo v. Fabel"
     volume: "132"
     page: "487"
+    docket: "142"
+    citation: "132 U.S. 487"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1889"
-    citation: "132 U.S. 487"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-070"
@@ -2854,9 +3689,12 @@ cases:
     title: "Paul v. Cullum"
     volume: "132"
     page: "539"
+    docket: "107"
+    citation: "132 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1889"
-    citation: "132 U.S. 539"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-077"
@@ -2864,9 +3702,12 @@ cases:
     title: "Richmond v. Blake"
     volume: "132"
     page: "592"
+    docket: "171"
+    citation: "132 U.S. 592"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1890"
-    citation: "132 U.S. 592"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-079"
@@ -2874,9 +3715,12 @@ cases:
     title: "Avery v. Cleary"
     volume: "132"
     page: "604"
+    docket: "162"
+    citation: "132 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1890"
-    citation: "132 U.S. 604"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-080"
@@ -2884,9 +3728,12 @@ cases:
     title: "Cleary v. Ellis Foundry Co."
     volume: "132"
     page: "612"
+    docket: "160"
+    citation: "132 U.S. 612"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1890"
-    citation: "132 U.S. 612"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-098"
@@ -2894,9 +3741,12 @@ cases:
     title: "Keyser v. Hitz"
     volume: "133"
     page: "138"
+    docket: "42"
+    citation: "133 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1890"
-    citation: "133 U.S. 138"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-150"
@@ -2904,9 +3754,12 @@ cases:
     title: "Ormsby v. Webb"
     volume: "134"
     page: "047"
+    docket: "179"
+    citation: "134 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1890"
-    citation: "134 U.S. 47"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-151"
@@ -2914,9 +3767,12 @@ cases:
     title: "Cheney v. Libby"
     volume: "134"
     page: "068"
+    docket: "724"
+    citation: "134 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1890"
-    citation: "134 U.S. 68"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-155"
@@ -2924,9 +3780,12 @@ cases:
     title: "Kenaday v. Edwards"
     volume: "134"
     page: "117"
+    docket: "1236"
+    citation: "134 U.S. 117"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1890"
-    citation: "134 U.S. 117"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-156"
@@ -2934,9 +3793,12 @@ cases:
     title: "Bryan v. Kales"
     volume: "134"
     page: "126"
+    docket: "1287"
+    citation: "134 U.S. 126"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1890"
-    citation: "134 U.S. 126"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-158"
@@ -2944,9 +3806,12 @@ cases:
     title: "McMurray v. Moran"
     volume: "134"
     page: "150"
+    docket: "193"
+    citation: "134 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1890"
-    citation: "134 U.S. 150"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-163"
@@ -2954,9 +3819,12 @@ cases:
     title: "Tracy v. Tuffly"
     volume: "134"
     page: "206"
+    docket: "134"
+    citation: "134 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1890"
-    citation: "134 U.S. 206"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-177"
@@ -2964,9 +3832,12 @@ cases:
     title: "Penfield v. Chesapeake, O. &amp; S. R. Co."
     volume: "134"
     page: "351"
+    docket: "187"
+    citation: "134 U.S. 351"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1890"
-    citation: "134 U.S. 351"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-178"
@@ -2974,9 +3845,12 @@ cases:
     title: "Clough v. Curtis"
     volume: "134"
     page: "361"
+    docket: "1133"
+    citation: "134 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1890"
-    citation: "134 U.S. 361"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-193"
@@ -2984,9 +3858,12 @@ cases:
     title: "Hill v. Merchants&apos; Mut. Ins. Co."
     volume: "134"
     page: "515"
+    docket: "215"
+    citation: "134 U.S. 515"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1890"
-    citation: "134 U.S. 515"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-198"
@@ -2994,9 +3871,12 @@ cases:
     title: "Mendenhall v. Hall"
     volume: "134"
     page: "559"
+    docket: "158"
+    citation: "134 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1890"
-    citation: "134 U.S. 559"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-206"
@@ -3004,9 +3884,12 @@ cases:
     title: "Kingsbury v. Buckner"
     volume: "134"
     page: "650"
+    docket: "176"
+    citation: "134 U.S. 650"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1890"
-    citation: "134 U.S. 650"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-222"
@@ -3014,9 +3897,12 @@ cases:
     title: "In re Mills"
     volume: "135"
     page: "263"
+    docket: "4 Orig."
+    citation: "135 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1890"
-    citation: "135 U.S. 263"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-223"
@@ -3024,9 +3910,12 @@ cases:
     title: "United States v. Sanborn"
     volume: "135"
     page: "271"
+    docket: "224"
+    citation: "135 U.S. 271"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1890"
-    citation: "135 U.S. 271"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-229"
@@ -3034,9 +3923,12 @@ cases:
     title: "Mansfield v. Excelsior Refining Co."
     volume: "135"
     page: "326"
+    docket: "239"
+    citation: "135 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Monday, May 5, 1890"
-    citation: "135 U.S. 326"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-233"
@@ -3044,9 +3936,12 @@ cases:
     title: "Burns v. Rosenstein"
     volume: "135"
     page: "449"
+    docket: "207"
+    citation: "135 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Monday, March 31, 1890"
-    citation: "135 U.S. 449"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-250"
@@ -3054,9 +3949,12 @@ cases:
     title: "Cherokee Nation v. Southern Kansas R. Co."
     volume: "135"
     page: "641"
+    docket: "664"
+    citation: "135 U.S. 641"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1890"
-    citation: "135 U.S. 641"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-259"
@@ -3064,9 +3962,12 @@ cases:
     title: "Ryan v. United States"
     volume: "136"
     page: "068"
+    docket: "1307"
+    citation: "136 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1890"
-    citation: "136 U.S. 68"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-271"
@@ -3074,9 +3975,12 @@ cases:
     title: "Chicago Railway Equipment Co. v. Merchants&apos; Bank"
     volume: "136"
     page: "268"
+    docket: "64"
+    citation: "136 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1890"
-    citation: "136 U.S. 268"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-272"
@@ -3084,9 +3988,12 @@ cases:
     title: "Thompson v. Phenix Ins. Co."
     volume: "136"
     page: "287"
+    docket: "311"
+    citation: "136 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1890"
-    citation: "136 U.S. 287"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-273"
@@ -3094,9 +4001,12 @@ cases:
     title: "Allen v. Hanks"
     volume: "136"
     page: "300"
+    docket: "316"
+    citation: "136 U.S. 300"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1890"
-    citation: "136 U.S. 300"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-274"
@@ -3104,9 +4014,12 @@ cases:
     title: "Minnesota v. Barber"
     volume: "136"
     page: "313"
+    docket: "1346"
+    citation: "136 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1890"
-    citation: "136 U.S. 313"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1889-283"
@@ -3114,9 +4027,12 @@ cases:
     title: "District of Columbia v. Woodbury"
     volume: "136"
     page: "450"
+    docket: "234"
+    citation: "136 U.S. 450"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1890"
-    citation: "136 U.S. 450"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-014"
@@ -3124,9 +4040,12 @@ cases:
     title: "Hennessy v. Bacon"
     volume: "137"
     page: "078"
+    docket: "1103"
+    citation: "137 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1890"
-    citation: "137 U.S. 78"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-023"
@@ -3134,9 +4053,12 @@ cases:
     title: "United States v. Trinidad Coal &amp; Coking Co."
     volume: "137"
     page: "160"
+    docket: "774"
+    citation: "137 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Monday, November 17, 1890"
-    citation: "137 U.S. 160"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-028"
@@ -3144,9 +4066,12 @@ cases:
     title: "Wheeler v. Jackson"
     volume: "137"
     page: "245"
+    docket: "65"
+    citation: "137 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Monday, November 24, 1890"
-    citation: "137 U.S. 245"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-029"
@@ -3154,9 +4079,12 @@ cases:
     title: "MACFARLAND v. JACKSON"
     volume: "137"
     page: "258"
+    docket: "66"
+    citation: "137 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, November 24, 1890"
-    citation: "137 U.S. 258"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-039"
@@ -3164,9 +4092,12 @@ cases:
     title: "Central Nat. Bank v. United States"
     volume: "137"
     page: "355"
+    docket: "90"
+    citation: "137 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1890"
-    citation: "137 U.S. 355"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-054"
@@ -3174,9 +4105,12 @@ cases:
     title: "Hoffman v. Overbey"
     volume: "137"
     page: "465"
+    docket: "99"
+    citation: "137 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1890"
-    citation: "137 U.S. 465"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-057"
@@ -3184,9 +4118,12 @@ cases:
     title: "Holden v. Minnesota"
     volume: "137"
     page: "483"
+    docket: "1237"
+    citation: "137 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1890"
-    citation: "137 U.S. 483"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-091"
@@ -3194,9 +4131,12 @@ cases:
     title: "Brimmer v. Rebman"
     volume: "138"
     page: "078"
+    docket: "1154"
+    citation: "138 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1891"
-    citation: "138 U.S. 78"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-101"
@@ -3204,9 +4144,12 @@ cases:
     title: "Cook v. United States"
     volume: "138"
     page: "157"
+    docket: "1311"
+    citation: "138 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1891"
-    citation: "138 U.S. 157"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-102"
@@ -3214,9 +4157,12 @@ cases:
     title: "Chicago, S. F. &amp; C. R. Co. v. Price"
     volume: "138"
     page: "185"
+    docket: "1456"
+    citation: "138 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1891"
-    citation: "138 U.S. 185"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-109"
@@ -3224,9 +4170,12 @@ cases:
     title: "Kauffman v. Wootters"
     volume: "138"
     page: "285"
+    docket: "1360"
+    citation: "138 U.S. 285"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1891"
-    citation: "138 U.S. 285"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-113"
@@ -3234,9 +4183,12 @@ cases:
     title: "Ames v. Moir"
     volume: "138"
     page: "306"
+    docket: "1404"
+    citation: "138 U.S. 306"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1891"
-    citation: "138 U.S. 306"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-114"
@@ -3244,9 +4196,12 @@ cases:
     title: "United States Mortgage Co. v. Sperry"
     volume: "138"
     page: "313"
+    docket: "22"
+    citation: "138 U.S. 313"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1891"
-    citation: "138 U.S. 313"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-118"
@@ -3254,9 +4209,12 @@ cases:
     title: "Wadsworth v. Adams"
     volume: "138"
     page: "380"
+    docket: "152"
+    citation: "138 U.S. 380"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1891"
-    citation: "138 U.S. 380"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-120"
@@ -3264,9 +4222,12 @@ cases:
     title: "Beaupr&eacute; v. Noyes"
     volume: "138"
     page: "397"
+    docket: "160"
+    citation: "138 U.S. 397"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1891"
-    citation: "138 U.S. 397"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-153"
@@ -3274,9 +4235,12 @@ cases:
     title: "Logan County Nat. Bank v. Townsend"
     volume: "139"
     page: "067"
+    docket: "170"
+    citation: "139 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "139 U.S. 67"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-154"
@@ -3284,9 +4248,12 @@ cases:
     title: "Chicago, St. L. &amp; N. O. R. Co. v. Pullman Southern Car Co."
     volume: "139"
     page: "079"
+    docket: "118"
+    citation: "139 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "139 U.S. 79"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-155"
@@ -3294,9 +4261,12 @@ cases:
     title: "Clark v. Bever"
     volume: "139"
     page: "096"
+    docket: "116"
+    citation: "139 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "139 U.S. 96"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-156"
@@ -3304,9 +4274,12 @@ cases:
     title: "Fogg v. Blair"
     volume: "139"
     page: "118"
+    docket: "135"
+    citation: "139 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "139 U.S. 118"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-157"
@@ -3314,9 +4287,12 @@ cases:
     title: "Covington Stock-Yards Co. v. Keith"
     volume: "139"
     page: "128"
+    docket: "33"
+    citation: "139 U.S. 128"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "139 U.S. 128"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-161"
@@ -3324,9 +4300,12 @@ cases:
     title: "King v. Doane"
     volume: "139"
     page: "166"
+    docket: "77"
+    citation: "139 U.S. 166"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "139 U.S. 166"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-162"
@@ -3334,9 +4313,12 @@ cases:
     title: "Stockmeyer v. Tobin"
     volume: "139"
     page: "176"
+    docket: "143"
+    citation: "139 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "139 U.S. 176"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-174"
@@ -3344,9 +4326,12 @@ cases:
     title: "Mutual Reserve Fund Life Assn. v. Hamlin"
     volume: "139"
     page: "297"
+    docket: "184"
+    citation: "139 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1891"
-    citation: "139 U.S. 297"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-189"
@@ -3354,9 +4339,12 @@ cases:
     title: "Delaware, L. &amp; W. R. Co. v. Converse"
     volume: "139"
     page: "469"
+    docket: "228"
+    citation: "139 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1891"
-    citation: "139 U.S. 469"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-190"
@@ -3364,9 +4352,12 @@ cases:
     title: "Snyder v. Fiedler"
     volume: "139"
     page: "478"
+    docket: "231"
+    citation: "139 U.S. 478"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1891"
-    citation: "139 U.S. 478"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-200"
@@ -3374,9 +4365,12 @@ cases:
     title: "Selma, R. &amp; D. R. Co. v. United States"
     volume: "139"
     page: "560"
+    docket: "12"
+    citation: "139 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1891"
-    citation: "139 U.S. 560"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-209"
@@ -3384,9 +4378,12 @@ cases:
     title: "Bock v. Perkins"
     volume: "139"
     page: "628"
+    docket: "285"
+    citation: "139 U.S. 628"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1891"
-    citation: "139 U.S. 628"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-218"
@@ -3394,9 +4391,12 @@ cases:
     title: "Scotland County Court v. United States ex rel. Hill"
     volume: "140"
     page: "041"
+    docket: "298"
+    citation: "140 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1891"
-    citation: "140 U.S. 41"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-249"
@@ -3404,9 +4404,12 @@ cases:
     title: "Block v. Darling"
     volume: "140"
     page: "234"
+    docket: "299"
+    citation: "140 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 234"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-250"
@@ -3414,9 +4417,12 @@ cases:
     title: "Mullan v. United States"
     volume: "140"
     page: "240"
+    docket: "330"
+    citation: "140 U.S. 240"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 240"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-254"
@@ -3424,9 +4430,12 @@ cases:
     title: "In re Wood"
     volume: "140"
     page: "278"
+    docket: "1581"
+    citation: "140 U.S. 278"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 278"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-255"
@@ -3434,9 +4443,12 @@ cases:
     title: "In re Jugiro"
     volume: "140"
     page: "291"
+    docket: "1632"
+    citation: "140 U.S. 291"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 291"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-258"
@@ -3444,9 +4456,12 @@ cases:
     title: "Lent v. Tillson"
     volume: "140"
     page: "316"
+    docket: "144"
+    citation: "140 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 316"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-289"
@@ -3454,9 +4469,12 @@ cases:
     title: "Stein v. Bienville Water Supply Co."
     volume: "141"
     page: "067"
+    docket: "344"
+    citation: "141 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "141 U.S. 67"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-290"
@@ -3464,9 +4482,12 @@ cases:
     title: "Parker v. Ormsby"
     volume: "141"
     page: "081"
+    docket: "1658"
+    citation: "141 U.S. 81"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 81"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-298"
@@ -3474,9 +4495,12 @@ cases:
     title: "McAllister v. United States"
     volume: "141"
     page: "174"
+    docket: "238"
+    citation: "141 U.S. 174"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 174"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-299"
@@ -3484,9 +4508,12 @@ cases:
     title: "Wingard v. United States"
     volume: "141"
     page: "201"
+    docket: "319"
+    citation: "141 U.S. 201"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 201"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-310"
@@ -3494,9 +4521,12 @@ cases:
     title: "Griswold v. Hazard"
     volume: "141"
     page: "260"
+    docket: "50"
+    citation: "141 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1891"
-    citation: "141 U.S. 260"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1890-312"
@@ -3504,9 +4534,12 @@ cases:
     title: "Beaupr&eacute; v. Noyes"
     volume: "138"
     page: "402"
+    docket: "159"
+    citation: "138 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Friday, January 23, 1891"
-    citation: "138 U.S. 402"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-004"
@@ -3514,9 +4547,12 @@ cases:
     title: "Gage v. Bani"
     volume: "141"
     page: "344"
+    docket: "20"
+    citation: "141 U.S. 344"
     pdfSource: "loc"
     dateDecision: "Monday, October 26, 1891"
-    citation: "141 U.S. 344"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-005"
@@ -3524,9 +4560,12 @@ cases:
     title: "United States v. Missouri, K. &amp; T. R. Co."
     volume: "141"
     page: "358"
+    docket: "317"
+    citation: "141 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Monday, October 19, 1891"
-    citation: "141 U.S. 358"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-006"
@@ -3534,9 +4573,12 @@ cases:
     title: "Fowler v. Equitable Trust Co."
     volume: "141"
     page: "384"
+    docket: "32"
+    citation: "141 U.S. 384"
     pdfSource: "loc"
     dateDecision: "Monday, October 26, 1891"
-    citation: "141 U.S. 384"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-007"
@@ -3544,9 +4586,12 @@ cases:
     title: "Fowler v. Equitable Trust Co."
     volume: "141"
     page: "408"
+    docket: "34"
+    citation: "141 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, October 26, 1891"
-    citation: "141 U.S. 408"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-008"
@@ -3554,9 +4599,12 @@ cases:
     title: "Fowler v. Equitable Trust Co."
     volume: "141"
     page: "411"
+    docket: "36"
+    citation: "141 U.S. 411"
     pdfSource: "loc"
     dateDecision: "Monday, October 26, 1891"
-    citation: "141 U.S. 411"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-009"
@@ -3564,9 +4612,12 @@ cases:
     title: "Hickman v. Fort Scott"
     volume: "141"
     page: "415"
+    docket: "10"
+    citation: "141 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Monday, October 26, 1891"
-    citation: "141 U.S. 415"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-029"
@@ -3574,9 +4625,12 @@ cases:
     title: "Marshall v. Holmes"
     volume: "141"
     page: "589"
+    docket: "28"
+    citation: "141 U.S. 589"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1891"
-    citation: "141 U.S. 589"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-031"
@@ -3584,9 +4638,12 @@ cases:
     title: "Moline Plow Co. v. Webb"
     volume: "141"
     page: "616"
+    docket: "1227"
+    citation: "141 U.S. 616"
     pdfSource: "loc"
     dateDecision: "Monday, November 9, 1891"
-    citation: "141 U.S. 616"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-032"
@@ -3594,9 +4651,12 @@ cases:
     title: "Willcox &amp; Gibbs Sewing Machine Co. v. Ewing"
     volume: "141"
     page: "627"
+    docket: "64"
+    citation: "141 U.S. 627"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1891"
-    citation: "141 U.S. 627"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-034"
@@ -3604,9 +4664,12 @@ cases:
     title: "Thompson v. Baker"
     volume: "141"
     page: "648"
+    docket: "72"
+    citation: "141 U.S. 648"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1891"
-    citation: "141 U.S. 648"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-045"
@@ -3614,9 +4677,12 @@ cases:
     title: "Pearce v. Rice"
     volume: "142"
     page: "028"
+    docket: "51"
+    citation: "142 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1891"
-    citation: "142 U.S. 28"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-050"
@@ -3624,9 +4690,12 @@ cases:
     title: "Coghlan v. South Carolina R. Co."
     volume: "142"
     page: "101"
+    docket: "47"
+    citation: "142 U.S. 101"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1891"
-    citation: "142 U.S. 101"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-051"
@@ -3634,9 +4703,12 @@ cases:
     title: "Hall v. Cordell"
     volume: "142"
     page: "116"
+    docket: "90"
+    citation: "142 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1891"
-    citation: "142 U.S. 116"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-072"
@@ -3644,9 +4716,12 @@ cases:
     title: "Scott v. Ellery"
     volume: "142"
     page: "381"
+    docket: "117"
+    citation: "142 U.S. 381"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1892"
-    citation: "142 U.S. 381"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-076"
@@ -3654,9 +4729,12 @@ cases:
     title: "Boyd v. United States"
     volume: "142"
     page: "450"
+    docket: "1048"
+    citation: "142 U.S. 450"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1892"
-    citation: "142 U.S. 450"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-087"
@@ -3664,9 +4742,12 @@ cases:
     title: "Kennedy v. McKee"
     volume: "142"
     page: "606"
+    docket: "126"
+    citation: "142 U.S. 606"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1892"
-    citation: "142 U.S. 606"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-098"
@@ -3674,9 +4755,12 @@ cases:
     title: "Louisville Water Co. v. Clark"
     volume: "143"
     page: "001"
+    docket: "1024"
+    citation: "143 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1892"
-    citation: "143 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-127"
@@ -3684,9 +4768,12 @@ cases:
     title: "Schwab v. Berggren"
     volume: "143"
     page: "442"
+    docket: "977"
+    citation: "143 U.S. 442"
     pdfSource: "loc"
     dateDecision: "Monday, February 29, 1892"
-    citation: "143 U.S. 442"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-128"
@@ -3694,9 +4781,12 @@ cases:
     title: "Fielden v. Illinois"
     volume: "143"
     page: "452"
+    docket: "909"
+    citation: "143 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, February 29, 1892"
-    citation: "143 U.S. 452"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-135"
@@ -3704,9 +4794,12 @@ cases:
     title: "Dunwoody v. United States"
     volume: "143"
     page: "578"
+    docket: "156"
+    citation: "143 U.S. 578"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 26, 1892"
-    citation: "143 U.S. 578"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-138"
@@ -3714,9 +4807,12 @@ cases:
     title: "United States v. Texas"
     volume: "143"
     page: "621"
+    docket: "5 Orig."
+    citation: "143 U.S. 621"
     pdfSource: "loc"
     dateDecision: "Monday, February 29, 1892"
-    citation: "143 U.S. 621"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-139"
@@ -3724,9 +4820,12 @@ cases:
     title: "Field v. Clark"
     volume: "143"
     page: "649"
+    docket: "1052"
+    citation: "143 U.S. 649"
     pdfSource: "loc"
     dateDecision: "Monday, February 29, 1892"
-    citation: "143 U.S. 649"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-148"
@@ -3734,9 +4833,12 @@ cases:
     title: "Butler v. National Home for Disabled Volunteer Soldiers"
     volume: "144"
     page: "064"
+    docket: "170"
+    citation: "144 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1892"
-    citation: "144 U.S. 64"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-177"
@@ -3744,9 +4846,12 @@ cases:
     title: "Waterman v. Banks"
     volume: "144"
     page: "394"
+    docket: "190"
+    citation: "144 U.S. 394"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1892"
-    citation: "144 U.S. 394"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-178"
@@ -3754,9 +4859,12 @@ cases:
     title: "Porter v. Banks"
     volume: "144"
     page: "407"
+    docket: "191"
+    citation: "144 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1892"
-    citation: "144 U.S. 407"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-180"
@@ -3764,9 +4872,12 @@ cases:
     title: "Keator Lumber Co. v. Thompson"
     volume: "144"
     page: "434"
+    docket: "242"
+    citation: "144 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1892"
-    citation: "144 U.S. 434"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-181"
@@ -3774,9 +4885,12 @@ cases:
     title: "Hartford Life Annuity Ins. Co. v. Unsell"
     volume: "144"
     page: "439"
+    docket: "224"
+    citation: "144 U.S. 439"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1892"
-    citation: "144 U.S. 439"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-192"
@@ -3784,9 +4898,12 @@ cases:
     title: "Coosaw Mining Co. v. South Carolina"
     volume: "144"
     page: "550"
+    docket: "1448"
+    citation: "144 U.S. 550"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1892"
-    citation: "144 U.S. 550"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-209"
@@ -3794,9 +4911,12 @@ cases:
     title: "Gregory v. Boston Safe Deposit &amp; Trust Co."
     volume: "144"
     page: "665"
+    docket: "292"
+    citation: "144 U.S. 665"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1892"
-    citation: "144 U.S. 665"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-226"
@@ -3804,9 +4924,12 @@ cases:
     title: "Washington v. Opie"
     volume: "145"
     page: "214"
+    docket: "282"
+    citation: "145 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1892"
-    citation: "145 U.S. 214"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-240"
@@ -3814,9 +4937,12 @@ cases:
     title: "Cox v. Hart"
     volume: "145"
     page: "376"
+    docket: "828"
+    citation: "145 U.S. 376"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1892"
-    citation: "145 U.S. 376"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-249"
@@ -3824,9 +4950,12 @@ cases:
     title: "Franklin Telegraph Co. v. Harrison"
     volume: "145"
     page: "459"
+    docket: "319"
+    citation: "145 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1892"
-    citation: "145 U.S. 459"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-250"
@@ -3834,9 +4963,12 @@ cases:
     title: "Matthews v. Warner"
     volume: "145"
     page: "475"
+    docket: "250"
+    citation: "145 U.S. 475"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1892"
-    citation: "145 U.S. 475"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-251"
@@ -3844,9 +4976,12 @@ cases:
     title: "Baker&apos;s Executors v. Kilgore"
     volume: "145"
     page: "487"
+    docket: "322"
+    citation: "145 U.S. 487"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1892"
-    citation: "145 U.S. 487"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-252"
@@ -3854,9 +4989,12 @@ cases:
     title: "McDonald v. Belding"
     volume: "145"
     page: "492"
+    docket: "379"
+    citation: "145 U.S. 492"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1892"
-    citation: "145 U.S. 492"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-253"
@@ -3864,9 +5002,12 @@ cases:
     title: "Glenn v. Marbury"
     volume: "145"
     page: "499"
+    docket: "1231"
+    citation: "145 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1892"
-    citation: "145 U.S. 499"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-254"
@@ -3874,9 +5015,12 @@ cases:
     title: "Dowling v. Exchange Bank of Boston"
     volume: "145"
     page: "512"
+    docket: "349"
+    citation: "145 U.S. 512"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1892"
-    citation: "145 U.S. 512"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1891-266"
@@ -3884,9 +5028,12 @@ cases:
     title: "Lewis v. Barnhart"
     volume: "145"
     page: "056"
+    docket: "1211"
+    citation: "145 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1892"
-    citation: "145 U.S. 56"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1892-014"
@@ -3894,9 +5041,12 @@ cases:
     title: "Roby v. Colehour"
     volume: "146"
     page: "153"
+    docket: "990"
+    citation: "146 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1892"
-    citation: "146 U.S. 153"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1892-025"
@@ -3904,9 +5054,12 @@ cases:
     title: "Hamilton Gas Light &amp; Coke Co. v. Hamilton City"
     volume: "146"
     page: "258"
+    docket: "32"
+    citation: "146 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, November 21, 1892"
-    citation: "146 U.S. 258"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1892-035"
@@ -3914,9 +5067,12 @@ cases:
     title: "McMullen v. United States"
     volume: "146"
     page: "360"
+    docket: "55"
+    citation: "146 U.S. 360"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1892"
-    citation: "146 U.S. 360"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1892-036"
@@ -3924,9 +5080,12 @@ cases:
     title: "Balloch v. Hooper"
     volume: "146"
     page: "363"
+    docket: "21"
+    citation: "146 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1892"
-    citation: "146 U.S. 363"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-043"
@@ -3934,9 +5093,12 @@ cases:
     title: "Gibson v. Peters"
     volume: "150"
     page: "342"
+    docket: "61"
+    citation: "150 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, November 13, 1893"
-    citation: "150 U.S. 342"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-075"
@@ -3944,9 +5106,12 @@ cases:
     title: "Lehigh Zinc &amp; Iron Co. v. Bamford"
     volume: "150"
     page: "665"
+    docket: "8"
+    citation: "150 U.S. 665"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1893"
-    citation: "150 U.S. 665"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-100"
@@ -3954,9 +5119,12 @@ cases:
     title: "Halliday v. Stuart"
     volume: "151"
     page: "229"
+    docket: "25"
+    citation: "151 U.S. 229"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1894"
-    citation: "151 U.S. 229"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-103"
@@ -3964,9 +5132,12 @@ cases:
     title: "Davis v. Utah Territory"
     volume: "151"
     page: "262"
+    docket: "961"
+    citation: "151 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1894"
-    citation: "151 U.S. 262"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-117"
@@ -3974,9 +5145,12 @@ cases:
     title: "Pointer v. United States"
     volume: "151"
     page: "396"
+    docket: "759"
+    citation: "151 U.S. 396"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1894"
-    citation: "151 U.S. 396"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-118"
@@ -3984,9 +5158,12 @@ cases:
     title: "Garner v. Second Nat. Bank of Providence"
     volume: "151"
     page: "420"
+    docket: "43"
+    citation: "151 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1894"
-    citation: "151 U.S. 420"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-135"
@@ -3994,9 +5171,12 @@ cases:
     title: "Shauer v. Alterton"
     volume: "151"
     page: "607"
+    docket: "174"
+    citation: "151 U.S. 607"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1894"
-    citation: "151 U.S. 607"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-136"
@@ -4004,9 +5184,12 @@ cases:
     title: "Buckstaff v. Russell"
     volume: "151"
     page: "626"
+    docket: "207"
+    citation: "151 U.S. 626"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1894"
-    citation: "151 U.S. 626"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-137"
@@ -4014,9 +5197,12 @@ cases:
     title: "Bryan v. Board of Ed. of Ky. Conference of Methodist Episcopal Church, South"
     volume: "151"
     page: "639"
+    docket: "134"
+    citation: "151 U.S. 639"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1894"
-    citation: "151 U.S. 639"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-163"
@@ -4024,9 +5210,12 @@ cases:
     title: "Louisville, E. &amp; St. L. R. Co. v. Clarke"
     volume: "152"
     page: "230"
+    docket: "191"
+    citation: "152 U.S. 230"
     pdfSource: "loc"
     dateDecision: "Sunday, March 4, 1894"
-    citation: "152 U.S. 230"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-166"
@@ -4034,9 +5223,12 @@ cases:
     title: "Johnson Co. v. Wharton"
     volume: "152"
     page: "252"
+    docket: "114"
+    citation: "152 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1894"
-    citation: "152 U.S. 252"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-167"
@@ -4044,9 +5236,12 @@ cases:
     title: "Union Pacific R. Co. v. McDonald"
     volume: "152"
     page: "262"
+    docket: "224"
+    citation: "152 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1894"
-    citation: "152 U.S. 262"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-168"
@@ -4054,9 +5249,12 @@ cases:
     title: "United States v. Northern Pacific R. Co."
     volume: "152"
     page: "284"
+    docket: "135"
+    citation: "152 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1894"
-    citation: "152 U.S. 284"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-172"
@@ -4064,9 +5262,12 @@ cases:
     title: "Dowell v. Applegate"
     volume: "152"
     page: "327"
+    docket: "209"
+    citation: "152 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1894"
-    citation: "152 U.S. 327"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-184"
@@ -4074,9 +5275,12 @@ cases:
     title: "Schlesinger v. Kansas City &amp; Southern R. Co."
     volume: "152"
     page: "444"
+    docket: "243"
+    citation: "152 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1894"
-    citation: "152 U.S. 444"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-186"
@@ -4084,9 +5288,12 @@ cases:
     title: "McKittrick v. Arkansas Central R. Co."
     volume: "152"
     page: "473"
+    docket: "248"
+    citation: "152 U.S. 473"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1894"
-    citation: "152 U.S. 473"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-189"
@@ -4094,9 +5301,12 @@ cases:
     title: "City Bank of Fort Worth v. Hunter"
     volume: "152"
     page: "512"
+    docket: "264"
+    citation: "152 U.S. 512"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1894"
-    citation: "152 U.S. 512"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-205"
@@ -4104,9 +5314,12 @@ cases:
     title: "Robertson v. Chapman"
     volume: "152"
     page: "673"
+    docket: "255"
+    citation: "152 U.S. 673"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1894"
-    citation: "152 U.S. 673"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-208"
@@ -4114,9 +5327,12 @@ cases:
     title: "Worthington v. Boston"
     volume: "152"
     page: "695"
+    docket: "312"
+    citation: "152 U.S. 695"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1894"
-    citation: "152 U.S. 695"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-224"
@@ -4124,9 +5340,12 @@ cases:
     title: "Gourko v. United States"
     volume: "153"
     page: "183"
+    docket: "972"
+    citation: "153 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1894"
-    citation: "153 U.S. 183"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-228"
@@ -4134,9 +5353,12 @@ cases:
     title: "Burke v. Dulaney"
     volume: "153"
     page: "228"
+    docket: "326"
+    citation: "153 U.S. 228"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1894"
-    citation: "153 U.S. 228"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-235"
@@ -4144,9 +5366,12 @@ cases:
     title: "Blitz v. United States"
     volume: "153"
     page: "308"
+    docket: "1102"
+    citation: "153 U.S. 308"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1894"
-    citation: "153 U.S. 308"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-236"
@@ -4154,9 +5379,12 @@ cases:
     title: "McBroom v. Scottish Mortgage &amp; Land Investment Co."
     volume: "153"
     page: "318"
+    docket: "1028"
+    citation: "153 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1894"
-    citation: "153 U.S. 318"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-260"
@@ -4164,9 +5392,12 @@ cases:
     title: "New York, L. E. &amp; W. R. Co. v. Pennsylvania"
     volume: "153"
     page: "628"
+    docket: "591"
+    citation: "153 U.S. 628"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1894"
-    citation: "153 U.S. 628"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-263"
@@ -4174,9 +5405,12 @@ cases:
     title: "McKane v. Durston"
     volume: "153"
     page: "684"
+    docket: "1185"
+    citation: "153 U.S. 684"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1894"
-    citation: "153 U.S. 684"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-274"
@@ -4184,9 +5418,12 @@ cases:
     title: "St. Clair v. United States"
     volume: "154"
     page: "134"
+    docket: "1062"
+    citation: "154 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Saturday, May 26, 1894"
-    citation: "154 U.S. 134"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-276"
@@ -4194,9 +5431,12 @@ cases:
     title: "Prentice v. Northern Pacific R. Co."
     volume: "154"
     page: "163"
+    docket: "319"
+    citation: "154 U.S. 163"
     pdfSource: "loc"
     dateDecision: "Saturday, May 26, 1894"
-    citation: "154 U.S. 163"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1893-293"
@@ -4204,9 +5444,12 @@ cases:
     title: "ICC v. Brimson"
     volume: "154"
     page: "447"
+    docket: "883"
+    citation: "154 U.S. 447"
     pdfSource: "loc"
     dateDecision: "Saturday, May 26, 1894"
-    citation: "154 U.S. 447"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-009"
@@ -4214,9 +5457,12 @@ cases:
     title: "New York v. Eno"
     volume: "155"
     page: "089"
+    docket: "602"
+    citation: "155 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Monday, October 29, 1894"
-    citation: "155 U.S. 89"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-046"
@@ -4224,9 +5470,12 @@ cases:
     title: "Ingraham v. United States"
     volume: "155"
     page: "434"
+    docket: "379"
+    citation: "155 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1894"
-    citation: "155 U.S. 434"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-048"
@@ -4234,9 +5483,12 @@ cases:
     title: "Alsop v. Riker"
     volume: "155"
     page: "448"
+    docket: "59"
+    citation: "155 U.S. 448"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1894"
-    citation: "155 U.S. 448"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-049"
@@ -4244,9 +5496,12 @@ cases:
     title: "Plumley v. Massachusetts"
     volume: "155"
     page: "461"
+    docket: "406"
+    citation: "155 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1894"
-    citation: "155 U.S. 461"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-052"
@@ -4254,9 +5509,12 @@ cases:
     title: "Chase v. United States"
     volume: "155"
     page: "489"
+    docket: "83"
+    citation: "155 U.S. 489"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1894"
-    citation: "155 U.S. 489"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-076"
@@ -4264,9 +5522,12 @@ cases:
     title: "Sparf v. United States"
     volume: "156"
     page: "051"
+    docket: "613"
+    citation: "156 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1895"
-    citation: "156 U.S. 51"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-089"
@@ -4274,9 +5535,12 @@ cases:
     title: "Andrews v. Swartz"
     volume: "156"
     page: "272"
+    docket: "710"
+    citation: "156 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1895"
-    citation: "156 U.S. 272"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-131"
@@ -4284,9 +5548,12 @@ cases:
     title: "Citizens&apos; Sav. and Loan Assn. v. Perry County"
     volume: "156"
     page: "692"
+    docket: "56"
+    citation: "156 U.S. 692"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "156 U.S. 692"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-132"
@@ -4294,9 +5561,12 @@ cases:
     title: "Bate Refrigerating Co. v. Sulzberger"
     volume: "157"
     page: "001"
+    docket: "687"
+    citation: "157 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "157 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-133"
@@ -4304,9 +5574,12 @@ cases:
     title: "Frost v. Wenie"
     volume: "157"
     page: "046"
+    docket: "172"
+    citation: "157 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "157 U.S. 46"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-135"
@@ -4314,9 +5587,12 @@ cases:
     title: "Baltimore &amp; Potomac R. Co. v. Mackey"
     volume: "157"
     page: "072"
+    docket: "84"
+    citation: "157 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "157 U.S. 72"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-136"
@@ -4324,9 +5600,12 @@ cases:
     title: "Pullman&apos;s Palace Car Co. v. Metropolitan Street R. Co."
     volume: "157"
     page: "094"
+    docket: "146"
+    citation: "157 U.S. 94"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "157 U.S. 94"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-137"
@@ -4334,9 +5613,12 @@ cases:
     title: "United States v. Piatt"
     volume: "157"
     page: "113"
+    docket: "166"
+    citation: "157 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "157 U.S. 113"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-138"
@@ -4344,9 +5626,12 @@ cases:
     title: "United States v. Salisbury"
     volume: "157"
     page: "121"
+    docket: "167"
+    citation: "157 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "157 U.S. 121"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-152"
@@ -4354,9 +5639,12 @@ cases:
     title: "New Orleans City &amp; Lake R. Co. v. Louisiana ex rel. New Orleans"
     volume: "157"
     page: "219"
+    docket: "29"
+    citation: "157 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "157 U.S. 219"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-153"
@@ -4364,9 +5652,12 @@ cases:
     title: "Pennsylvania R. Co. v. Wabash, St. L. &amp; P. R. Co."
     volume: "157"
     page: "225"
+    docket: "158"
+    citation: "157 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1895"
-    citation: "157 U.S. 225"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-173"
@@ -4374,9 +5665,12 @@ cases:
     title: "Bergemann v. Backer"
     volume: "157"
     page: "655"
+    docket: "709"
+    citation: "157 U.S. 655"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1895"
-    citation: "157 U.S. 655"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-220"
@@ -4384,9 +5678,12 @@ cases:
     title: "Rich v. Braxton"
     volume: "158"
     page: "375"
+    docket: "17"
+    citation: "158 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1895"
-    citation: "158 U.S. 375"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-221"
@@ -4394,9 +5691,12 @@ cases:
     title: "Connors v. United States"
     volume: "158"
     page: "408"
+    docket: "512"
+    citation: "158 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1895"
-    citation: "158 U.S. 408"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-222"
@@ -4404,9 +5704,12 @@ cases:
     title: "Abraham v. Ordway"
     volume: "158"
     page: "416"
+    docket: "274"
+    citation: "158 U.S. 416"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1895"
-    citation: "158 U.S. 416"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-233"
@@ -4414,9 +5717,12 @@ cases:
     title: "Lem Moon Sing v. United States"
     volume: "158"
     page: "538"
+    docket: "946"
+    citation: "158 U.S. 538"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1895"
-    citation: "158 U.S. 538"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-234"
@@ -4424,9 +5730,12 @@ cases:
     title: "Beard v. United States"
     volume: "158"
     page: "550"
+    docket: "842"
+    citation: "158 U.S. 550"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1895"
-    citation: "158 U.S. 550"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1894-248"
@@ -4434,9 +5743,12 @@ cases:
     title: "Brown v. United States"
     volume: "159"
     page: "100"
+    docket: "863"
+    citation: "159 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1895"
-    citation: "159 U.S. 100"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-007"
@@ -4444,9 +5756,12 @@ cases:
     title: "McCormick v. Hayes"
     volume: "159"
     page: "332"
+    docket: "37"
+    citation: "159 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Monday, October 21, 1895"
-    citation: "159 U.S. 332"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-008"
@@ -4454,9 +5769,12 @@ cases:
     title: "Sioux City &amp; St. Paul R. Co. v. United States"
     volume: "159"
     page: "349"
+    docket: "20"
+    citation: "159 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, October 21, 1895"
-    citation: "159 U.S. 349"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-009"
@@ -4464,9 +5782,12 @@ cases:
     title: "Chicago, M. &amp; St. P. R. Co. v. United States"
     volume: "159"
     page: "372"
+    docket: "47"
+    citation: "159 U.S. 372"
     pdfSource: "loc"
     dateDecision: "Monday, October 21, 1895"
-    citation: "159 U.S. 372"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-010"
@@ -4474,9 +5795,12 @@ cases:
     title: "Sioux City &amp; St. Paul R. Co. v. Countryman"
     volume: "159"
     page: "377"
+    docket: "30"
+    citation: "159 U.S. 377"
     pdfSource: "loc"
     dateDecision: "Monday, October 21, 1895"
-    citation: "159 U.S. 377"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-011"
@@ -4484,9 +5808,12 @@ cases:
     title: "Sweet v. Rechel"
     volume: "159"
     page: "380"
+    docket: "18"
+    citation: "159 U.S. 380"
     pdfSource: "loc"
     dateDecision: "Monday, October 21, 1895"
-    citation: "159 U.S. 380"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-042"
@@ -4494,9 +5821,12 @@ cases:
     title: "Bucklin v. United States"
     volume: "159"
     page: "680"
+    docket: "246"
+    citation: "159 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1895"
-    citation: "159 U.S. 680"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-043"
@@ -4504,9 +5834,12 @@ cases:
     title: "Bucklin v. United States"
     volume: "159"
     page: "682"
+    docket: "572"
+    citation: "159 U.S. 682"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1895"
-    citation: "159 U.S. 682"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-047"
@@ -4514,9 +5847,12 @@ cases:
     title: "United States v. Union Pacific R. Co."
     volume: "160"
     page: "001"
+    docket: "334"
+    citation: "160 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1895"
-    citation: "160 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-048"
@@ -4524,9 +5860,12 @@ cases:
     title: "United States v. Western Union Telegraph Co."
     volume: "160"
     page: "053"
+    docket: "19"
+    citation: "160 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1895"
-    citation: "160 U.S. 53"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-056"
@@ -4534,9 +5873,12 @@ cases:
     title: "United States v. Healey"
     volume: "160"
     page: "136"
+    docket: "378"
+    citation: "160 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1895"
-    citation: "160 U.S. 136"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-073"
@@ -4544,9 +5886,12 @@ cases:
     title: "Markham v. United States"
     volume: "160"
     page: "319"
+    docket: "544"
+    citation: "160 U.S. 319"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1895"
-    citation: "160 U.S. 319"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-074"
@@ -4554,9 +5899,12 @@ cases:
     title: "Lehigh Mining &amp; Mfg. Co. v. Kelly"
     volume: "160"
     page: "327"
+    docket: "617"
+    citation: "160 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1895"
-    citation: "160 U.S. 327"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-075"
@@ -4564,9 +5912,12 @@ cases:
     title: "Davis v. United States"
     volume: "160"
     page: "469"
+    docket: "593"
+    citation: "160 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1895"
-    citation: "160 U.S. 469"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-076"
@@ -4574,9 +5925,12 @@ cases:
     title: "United States v. Sayward"
     volume: "160"
     page: "493"
+    docket: "75"
+    citation: "160 U.S. 493"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1895"
-    citation: "160 U.S. 493"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-096"
@@ -4584,9 +5938,12 @@ cases:
     title: "Dickson v. Patterson"
     volume: "160"
     page: "584"
+    docket: "15"
+    citation: "160 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1896"
-    citation: "160 U.S. 584"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-098"
@@ -4594,9 +5951,12 @@ cases:
     title: "United States v. New York"
     volume: "160"
     page: "598"
+    docket: "45"
+    citation: "160 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1896"
-    citation: "160 U.S. 598"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-105"
@@ -4604,9 +5964,11 @@ cases:
     title: "Sioux City &amp; St. Paul R. Co. v. United States"
     volume: "160"
     page: "686"
+    citation: "160 U.S. 686"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1896"
-    citation: "160 U.S. 686"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-109"
@@ -4614,9 +5976,12 @@ cases:
     title: "Rosen v. United States"
     volume: "161"
     page: "029"
+    docket: "424"
+    citation: "161 U.S. 29"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1896"
-    citation: "161 U.S. 29"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-148"
@@ -4624,9 +5989,12 @@ cases:
     title: "United States v. Stanford"
     volume: "161"
     page: "412"
+    docket: "783"
+    citation: "161 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1896"
-    citation: "161 U.S. 412"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-149"
@@ -4634,9 +6002,12 @@ cases:
     title: "Evansville v. Dennett"
     volume: "161"
     page: "434"
+    docket: "509"
+    citation: "161 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1896"
-    citation: "161 U.S. 434"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-153"
@@ -4644,9 +6015,12 @@ cases:
     title: "United States v. Zucker"
     volume: "161"
     page: "475"
+    docket: "794"
+    citation: "161 U.S. 475"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1896"
-    citation: "161 U.S. 475"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-154"
@@ -4654,9 +6028,12 @@ cases:
     title: "Spalding v. Vilas"
     volume: "161"
     page: "483"
+    docket: "81"
+    citation: "161 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1896"
-    citation: "161 U.S. 483"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-155"
@@ -4664,9 +6041,12 @@ cases:
     title: "Spalding v. Dickinson"
     volume: "161"
     page: "499"
+    docket: "82"
+    citation: "161 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1896"
-    citation: "161 U.S. 499"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-169"
@@ -4674,9 +6054,12 @@ cases:
     title: "United States v. Texas"
     volume: "162"
     page: "001"
+    docket: "3 Orig."
+    citation: "162 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1896"
-    citation: "162 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-206"
@@ -4684,9 +6067,12 @@ cases:
     title: "Harwood v. Wentworth"
     volume: "162"
     page: "547"
+    docket: "756"
+    citation: "162 U.S. 547"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1896"
-    citation: "162 U.S. 547"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-207"
@@ -4694,9 +6080,12 @@ cases:
     title: "Gibson v. Mississippi"
     volume: "162"
     page: "565"
+    docket: "711"
+    citation: "162 U.S. 565"
     pdfSource: "loc"
     dateDecision: "Monday, April 13, 1896"
-    citation: "162 U.S. 565"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-208"
@@ -4704,9 +6093,12 @@ cases:
     title: "Smith v. Mississippi"
     volume: "162"
     page: "592"
+    docket: "710"
+    citation: "162 U.S. 592"
     pdfSource: "loc"
     dateDecision: "Saturday, April 18, 1896"
-    citation: "162 U.S. 592"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-211"
@@ -4714,9 +6106,12 @@ cases:
     title: "Crain v. United States"
     volume: "162"
     page: "625"
+    docket: "557"
+    citation: "162 U.S. 625"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1896"
-    citation: "162 U.S. 625"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-235"
@@ -4724,9 +6119,12 @@ cases:
     title: "United States v. Winchester &amp; Potomac R. Co."
     volume: "163"
     page: "244"
+    docket: "195"
+    citation: "163 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1896"
-    citation: "163 U.S. 244"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-238"
@@ -4734,9 +6132,12 @@ cases:
     title: "Hanford v. Davies"
     volume: "163"
     page: "273"
+    docket: "260"
+    citation: "163 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1896"
-    citation: "163 U.S. 273"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-239"
@@ -4744,9 +6145,12 @@ cases:
     title: "Rio Grande Western R. Co. v. Leak"
     volume: "163"
     page: "280"
+    docket: "285"
+    citation: "163 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1896"
-    citation: "163 U.S. 280"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-241"
@@ -4754,9 +6158,12 @@ cases:
     title: "Hennington v. Georgia"
     volume: "163"
     page: "299"
+    docket: "150"
+    citation: "163 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1896"
-    citation: "163 U.S. 299"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-245"
@@ -4764,9 +6171,12 @@ cases:
     title: "Webster v. Luther"
     volume: "163"
     page: "331"
+    docket: "161"
+    citation: "163 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1896"
-    citation: "163 U.S. 331"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-247"
@@ -4774,9 +6184,12 @@ cases:
     title: "Steamer Coquitlam v. United States"
     volume: "163"
     page: "346"
+    docket: "804"
+    citation: "163 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1896"
-    citation: "163 U.S. 346"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1895-248"
@@ -4784,9 +6197,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Gentry"
     volume: "163"
     page: "353"
+    docket: "258"
+    citation: "163 U.S. 353"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1896"
-    citation: "163 U.S. 353"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-048"
@@ -4794,9 +6210,12 @@ cases:
     title: "Chicago &amp; Northwestern R. Co. v. Chicago"
     volume: "164"
     page: "454"
+    docket: "11"
+    citation: "164 U.S. 454"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1896"
-    citation: "164 U.S. 454"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-049"
@@ -4804,9 +6223,12 @@ cases:
     title: "The Kate"
     volume: "164"
     page: "458"
+    docket: "106"
+    citation: "164 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1896"
-    citation: "164 U.S. 458"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-050"
@@ -4814,9 +6236,12 @@ cases:
     title: "New Orleans Water Works Co. v. New Orleans"
     volume: "164"
     page: "471"
+    docket: "134"
+    citation: "164 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1896"
-    citation: "164 U.S. 471"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-051"
@@ -4824,9 +6249,12 @@ cases:
     title: "Grimes Dry Goods Co. v. Malcolm"
     volume: "164"
     page: "483"
+    docket: "60"
+    citation: "164 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1896"
-    citation: "164 U.S. 483"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-055"
@@ -4834,9 +6262,12 @@ cases:
     title: "Rowe v. United States"
     volume: "164"
     page: "546"
+    docket: "439"
+    citation: "164 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1896"
-    citation: "164 U.S. 546"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-056"
@@ -4844,9 +6275,12 @@ cases:
     title: "Rogers Locomotive Machine Works v. American Emigrant Co."
     volume: "164"
     page: "559"
+    docket: "23"
+    citation: "164 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1896"
-    citation: "164 U.S. 559"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-057"
@@ -4854,9 +6288,12 @@ cases:
     title: "Covington &amp; Lexington Turnpike Road Co. v. Sandford"
     volume: "164"
     page: "578"
+    docket: "50"
+    citation: "164 U.S. 578"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1896"
-    citation: "164 U.S. 578"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-081"
@@ -4864,9 +6301,12 @@ cases:
     title: "Addington v. United States"
     volume: "165"
     page: "184"
+    docket: "579"
+    citation: "165 U.S. 184"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1897"
-    citation: "165 U.S. 184"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-086"
@@ -4874,9 +6314,12 @@ cases:
     title: "The Valencia"
     volume: "165"
     page: "264"
+    docket: "51"
+    citation: "165 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1897"
-    citation: "165 U.S. 264"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-087"
@@ -4884,9 +6327,12 @@ cases:
     title: "Pim v. St. Louis"
     volume: "165"
     page: "273"
+    docket: "180"
+    citation: "165 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1897"
-    citation: "165 U.S. 273"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-097"
@@ -4894,9 +6340,12 @@ cases:
     title: "Robinson v. Caldwell"
     volume: "165"
     page: "359"
+    docket: "162"
+    citation: "165 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1897"
-    citation: "165 U.S. 359"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-119"
@@ -4904,9 +6353,12 @@ cases:
     title: "Pauly v. State Loan &amp; Trust Co."
     volume: "165"
     page: "606"
+    docket: "201"
+    citation: "165 U.S. 606"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1897"
-    citation: "165 U.S. 606"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-121"
@@ -4914,9 +6366,12 @@ cases:
     title: "New York, N. H. &amp; H. R. Co. v. New York"
     volume: "165"
     page: "628"
+    docket: "128"
+    citation: "165 U.S. 628"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1897"
-    citation: "165 U.S. 628"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-134"
@@ -4924,9 +6379,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. Chicago"
     volume: "166"
     page: "226"
+    docket: "129"
+    citation: "166 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1897"
-    citation: "166 U.S. 226"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-135"
@@ -4934,9 +6392,12 @@ cases:
     title: "Chicago, Burlington etc. R&apos;D v. Chicago"
     volume: "166"
     page: "258"
+    docket: "130"
+    citation: "166 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1897"
-    citation: "166 U.S. 258"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-165"
@@ -4944,9 +6405,12 @@ cases:
     title: "United States v. Greathouse"
     volume: "166"
     page: "601"
+    docket: "234"
+    citation: "166 U.S. 601"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1897"
-    citation: "166 U.S. 601"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-168"
@@ -4954,9 +6418,12 @@ cases:
     title: "Northern Pacific R. Co. v. Sanders"
     volume: "166"
     page: "620"
+    docket: "12"
+    citation: "166 U.S. 620"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1897"
-    citation: "166 U.S. 620"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-169"
@@ -4964,9 +6431,12 @@ cases:
     title: "Whitney v. Fox"
     volume: "166"
     page: "637"
+    docket: "68"
+    citation: "166 U.S. 637"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1897"
-    citation: "166 U.S. 637"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-170"
@@ -4974,9 +6444,12 @@ cases:
     title: "Oxley Stave Co. v. Butler County"
     volume: "166"
     page: "648"
+    docket: "221"
+    citation: "166 U.S. 648"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1897"
-    citation: "166 U.S. 648"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-193"
@@ -4984,9 +6457,12 @@ cases:
     title: "Levy v. Superior Court of San Francisco"
     volume: "167"
     page: "175"
+    docket: "294"
+    citation: "167 U.S. 175"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1897"
-    citation: "167 U.S. 175"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-194"
@@ -4994,9 +6470,12 @@ cases:
     title: "Stone v. United States"
     volume: "167"
     page: "178"
+    docket: "265"
+    citation: "167 U.S. 178"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1897"
-    citation: "167 U.S. 178"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-195"
@@ -5004,9 +6483,12 @@ cases:
     title: "Twin City Bank v. Nebeker"
     volume: "167"
     page: "196"
+    docket: "202"
+    citation: "167 U.S. 196"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1897"
-    citation: "167 U.S. 196"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-196"
@@ -5014,9 +6496,12 @@ cases:
     title: "Lumberman&apos;s Bank v. Huston"
     volume: "167"
     page: "203"
+    docket: "203"
+    citation: "167 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1897"
-    citation: "167 U.S. 203"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-197"
@@ -5024,9 +6509,12 @@ cases:
     title: "Tindal v. Wesley"
     volume: "167"
     page: "204"
+    docket: "231"
+    citation: "167 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1897"
-    citation: "167 U.S. 204"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-227"
@@ -5034,9 +6522,12 @@ cases:
     title: "MacGreal v. Taylor"
     volume: "167"
     page: "688"
+    docket: "75"
+    citation: "167 U.S. 688"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1897"
-    citation: "167 U.S. 688"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-228"
@@ -5044,9 +6535,12 @@ cases:
     title: "Menotti v. Dillon"
     volume: "167"
     page: "703"
+    docket: "309"
+    citation: "167 U.S. 703"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1897"
-    citation: "167 U.S. 703"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1896-229"
@@ -5054,9 +6548,12 @@ cases:
     title: "Dominguez de Guyer v. Banning"
     volume: "167"
     page: "723"
+    docket: "24"
+    citation: "167 U.S. 723"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1897"
-    citation: "167 U.S. 723"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-001"
@@ -5064,9 +6561,12 @@ cases:
     title: "Southern Pacific R. Co. v. United States"
     volume: "168"
     page: "001"
+    docket: "71"
+    citation: "168 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, October 18, 1897"
-    citation: "168 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-027"
@@ -5074,9 +6574,12 @@ cases:
     title: "United States v. Crosthwaite"
     volume: "168"
     page: "375"
+    docket: "77"
+    citation: "168 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1897"
-    citation: "168 U.S. 375"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-028"
@@ -5084,9 +6587,12 @@ cases:
     title: "Williams v. United States"
     volume: "168"
     page: "382"
+    docket: "266"
+    citation: "168 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1897"
-    citation: "168 U.S. 382"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-038"
@@ -5094,9 +6600,12 @@ cases:
     title: "Douglas v. Kentucky"
     volume: "168"
     page: "488"
+    docket: "10"
+    citation: "168 U.S. 488"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1897"
-    citation: "168 U.S. 488"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-042"
@@ -5104,9 +6613,12 @@ cases:
     title: "Adams v. Henderson"
     volume: "168"
     page: "573"
+    docket: "70"
+    citation: "168 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1897"
-    citation: "168 U.S. 573"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-056"
@@ -5114,9 +6626,12 @@ cases:
     title: "Stuart v. Hayden"
     volume: "169"
     page: "001"
+    docket: "151"
+    citation: "169 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1898"
-    citation: "169 U.S. 1"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-058"
@@ -5124,9 +6639,12 @@ cases:
     title: "Hetzel v. Baltimore &amp; Ohio R. Co."
     volume: "169"
     page: "026"
+    docket: "110"
+    citation: "169 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1898"
-    citation: "169 U.S. 26"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-066"
@@ -5134,9 +6652,12 @@ cases:
     title: "Ritter v. Mutual Life Ins. Co. of N. Y."
     volume: "169"
     page: "139"
+    docket: "142"
+    citation: "169 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1898"
-    citation: "169 U.S. 139"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-089"
@@ -5144,9 +6665,12 @@ cases:
     title: "Brown v. Marion Nat. Bank"
     volume: "169"
     page: "416"
+    docket: "201"
+    citation: "169 U.S. 416"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1898"
-    citation: "169 U.S. 416"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-092"
@@ -5154,9 +6678,12 @@ cases:
     title: "Smyth v. Ames"
     volume: "169"
     page: "466"
+    docket: "49"
+    citation: "169 U.S. 466"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1898"
-    citation: "169 U.S. 466"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-093"
@@ -5164,9 +6691,12 @@ cases:
     title: "Merritt v. Bowdoin College"
     volume: "169"
     page: "551"
+    docket: "505"
+    citation: "169 U.S. 551"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1898"
-    citation: "169 U.S. 551"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-098"
@@ -5174,9 +6704,12 @@ cases:
     title: "Missouri, K. &amp; T. R. Co. v. Haber"
     volume: "169"
     page: "613"
+    docket: "268"
+    citation: "169 U.S. 613"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1898"
-    citation: "169 U.S. 613"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-109"
@@ -5184,9 +6717,12 @@ cases:
     title: "Louisville Water Co. v. Kentucky"
     volume: "170"
     page: "127"
+    docket: "179"
+    citation: "170 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1898"
-    citation: "170 U.S. 127"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-110"
@@ -5194,9 +6730,12 @@ cases:
     title: "American Surety Co. v. Pauly"
     volume: "170"
     page: "133"
+    docket: "168"
+    citation: "170 U.S. 133"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1898"
-    citation: "170 U.S. 133"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-111"
@@ -5204,9 +6743,12 @@ cases:
     title: "American Surety Co. v. Pauly"
     volume: "170"
     page: "160"
+    docket: "169"
+    citation: "170 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1898"
-    citation: "170 U.S. 160"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-112"
@@ -5214,9 +6756,12 @@ cases:
     title: "Kipley v. Illinois"
     volume: "170"
     page: "182"
+    docket: "586"
+    citation: "170 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1898"
-    citation: "170 U.S. 182"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-126"
@@ -5224,9 +6769,12 @@ cases:
     title: "Thompson v. Utah"
     volume: "170"
     page: "343"
+    docket: "553"
+    citation: "170 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1898"
-    citation: "170 U.S. 343"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-136"
@@ -5234,9 +6782,12 @@ cases:
     title: "Plaquemines Tropical Fruit Co. v. Henderson"
     volume: "170"
     page: "511"
+    docket: "204"
+    citation: "170 U.S. 511"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1898"
-    citation: "170 U.S. 511"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-180"
@@ -5244,9 +6795,12 @@ cases:
     title: "Smyth v. Ames"
     volume: "171"
     page: "361"
+    docket: "49"
+    citation: "171 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1898"
-    citation: "171 U.S. 361"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-181"
@@ -5254,9 +6808,12 @@ cases:
     title: "White v. Berry"
     volume: "171"
     page: "366"
+    docket: "539"
+    citation: "171 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1898"
-    citation: "171 U.S. 366"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-182"
@@ -5264,9 +6821,12 @@ cases:
     title: "White v. Butler"
     volume: "171"
     page: "379"
+    docket: "540"
+    citation: "171 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1898"
-    citation: "171 U.S. 379"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-184"
@@ -5274,9 +6834,12 @@ cases:
     title: "Baldy v. Hunter"
     volume: "171"
     page: "388"
+    docket: "241"
+    citation: "171 U.S. 388"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1898"
-    citation: "171 U.S. 388"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-185"
@@ -5284,9 +6847,12 @@ cases:
     title: "King v. Mullins"
     volume: "171"
     page: "404"
+    docket: "157"
+    citation: "171 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1898"
-    citation: "171 U.S. 404"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-186"
@@ -5294,9 +6860,12 @@ cases:
     title: "King v. Panther Lumber Co."
     volume: "171"
     page: "437"
+    docket: "240"
+    citation: "171 U.S. 437"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1898"
-    citation: "171 U.S. 437"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1897-221"
@@ -5304,9 +6873,12 @@ cases:
     title: "Thompson v. Missouri"
     volume: "171"
     page: "380"
+    docket: "623"
+    citation: "171 U.S. 380"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1898"
-    citation: "171 U.S. 380"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-030"
@@ -5314,9 +6886,12 @@ cases:
     title: "Blake v. McClung"
     volume: "172"
     page: "239"
+    docket: "6"
+    citation: "172 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1898"
-    citation: "172 U.S. 239"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-031"
@@ -5324,9 +6899,12 @@ cases:
     title: "Norwood v. Baker"
     volume: "172"
     page: "269"
+    docket: "34"
+    citation: "172 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1898"
-    citation: "172 U.S. 269"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-053"
@@ -5334,9 +6912,12 @@ cases:
     title: "Pittsburgh, C., C. &amp; St. L. R. Co. v. Long Island Loan &amp; Trust Co."
     volume: "172"
     page: "493"
+    docket: "16"
+    citation: "172 U.S. 493"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1899"
-    citation: "172 U.S. 493"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-054"
@@ -5344,9 +6925,12 @@ cases:
     title: "Fitts v. McGhee"
     volume: "172"
     page: "516"
+    docket: "130"
+    citation: "172 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1899"
-    citation: "172 U.S. 516"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-084"
@@ -5354,9 +6938,12 @@ cases:
     title: "Baltimore &amp; Ohio R. Co. v. Joy"
     volume: "173"
     page: "226"
+    docket: "129"
+    citation: "173 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1899"
-    citation: "173 U.S. 226"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-085"
@@ -5364,9 +6951,12 @@ cases:
     title: "Covington v. Kentucky"
     volume: "173"
     page: "231"
+    docket: "152"
+    citation: "173 U.S. 231"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1899"
-    citation: "173 U.S. 231"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-086"
@@ -5374,9 +6964,12 @@ cases:
     title: "Lake County Comm&apos;rs v. Dudley"
     volume: "173"
     page: "243"
+    docket: "406"
+    citation: "173 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1899"
-    citation: "173 U.S. 243"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-087"
@@ -5384,9 +6977,12 @@ cases:
     title: "Gunnison County Comm&apos;rs v. Rollins"
     volume: "173"
     page: "255"
+    docket: "178"
+    citation: "173 U.S. 255"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1899"
-    citation: "173 U.S. 255"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-089"
@@ -5394,9 +6990,12 @@ cases:
     title: "Lake Shore &amp; Michigan Southern R. Co. v. Ohio"
     volume: "173"
     page: "285"
+    docket: "95"
+    citation: "173 U.S. 285"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1899"
-    citation: "173 U.S. 285"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-090"
@@ -5404,9 +7003,12 @@ cases:
     title: "Nugent v. Arizona Improvement Co."
     volume: "173"
     page: "338"
+    docket: "119"
+    citation: "173 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1899"
-    citation: "173 U.S. 338"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-091"
@@ -5414,9 +7016,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Clayton"
     volume: "173"
     page: "348"
+    docket: "222"
+    citation: "173 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1899"
-    citation: "173 U.S. 348"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-092"
@@ -5424,9 +7029,12 @@ cases:
     title: "United States v. Johnson"
     volume: "173"
     page: "363"
+    docket: "59"
+    citation: "173 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1899"
-    citation: "173 U.S. 363"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-096"
@@ -5434,9 +7042,12 @@ cases:
     title: "Price v. Forrest"
     volume: "173"
     page: "410"
+    docket: "105"
+    citation: "173 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1899"
-    citation: "173 U.S. 410"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-113"
@@ -5444,9 +7055,12 @@ cases:
     title: "Guarantee Co. v. Mechanics&apos; Sav. Bank &amp; Trust Co."
     volume: "173"
     page: "582"
+    docket: "224"
+    citation: "173 U.S. 582"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1899"
-    citation: "173 U.S. 582"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-115"
@@ -5454,9 +7068,12 @@ cases:
     title: "Henderson Bridge Co. v. Henderson City"
     volume: "173"
     page: "592"
+    docket: "32"
+    citation: "173 U.S. 592"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1899"
-    citation: "173 U.S. 592"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-116"
@@ -5464,9 +7081,12 @@ cases:
     title: "HENDERSON BRIDGE COMPANY v. HENDERSON CITY"
     volume: "173"
     page: "624"
+    docket: "31"
+    citation: "173 U.S. 624"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1899"
-    citation: "173 U.S. 624"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-125"
@@ -5474,9 +7094,12 @@ cases:
     title: "Kirby v. United States"
     volume: "174"
     page: "047"
+    docket: "164"
+    citation: "174 U.S. 47"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 11, 1899"
-    citation: "174 U.S. 47"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-132"
@@ -5484,9 +7107,12 @@ cases:
     title: "United States v. One Distillery"
     volume: "174"
     page: "149"
+    docket: "190"
+    citation: "174 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1899"
-    citation: "174 U.S. 149"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-177"
@@ -5494,9 +7120,12 @@ cases:
     title: "San Diego Land &amp; Town Co. v. National City"
     volume: "174"
     page: "739"
+    docket: "25"
+    citation: "174 U.S. 739"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1899"
-    citation: "174 U.S. 739"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1898-178"
@@ -5504,9 +7133,12 @@ cases:
     title: "Richmond v. Southern Bell Telephone &amp; Telegraph Co."
     volume: "174"
     page: "761"
+    docket: "264"
+    citation: "174 U.S. 761"
     pdfSource: "loc"
     dateDecision: "Monday, May 22, 1899"
-    citation: "174 U.S. 761"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-032"
@@ -5514,9 +7146,12 @@ cases:
     title: "Abbott v. Tacoma Bank of Commerce"
     volume: "175"
     page: "409"
+    docket: "376"
+    citation: "175 U.S. 409"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1899"
-    citation: "175 U.S. 409"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-034"
@@ -5524,9 +7159,12 @@ cases:
     title: "La Abra Silver Mining Co. v. United States"
     volume: "175"
     page: "423"
+    docket: "29"
+    citation: "175 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1899"
-    citation: "175 U.S. 423"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-038"
@@ -5534,9 +7172,12 @@ cases:
     title: "Cumming v. Richmond County Bd. of Ed."
     volume: "175"
     page: "528"
+    docket: "164"
+    citation: "175 U.S. 528"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1899"
-    citation: "175 U.S. 528"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-058"
@@ -5544,9 +7185,12 @@ cases:
     title: "Rider v. United States"
     volume: "178"
     page: "251"
+    docket: "40"
+    citation: "178 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1900"
-    citation: "178 U.S. 251"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-076"
@@ -5554,9 +7198,12 @@ cases:
     title: "Smith v. Reeves"
     volume: "178"
     page: "436"
+    docket: "242"
+    citation: "178 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1900"
-    citation: "178 U.S. 436"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-077"
@@ -5564,9 +7211,12 @@ cases:
     title: "Earle v. Pennsylvania"
     volume: "178"
     page: "449"
+    docket: "218"
+    citation: "178 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1900"
-    citation: "178 U.S. 449"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-078"
@@ -5574,9 +7224,12 @@ cases:
     title: "Earle v. Conway"
     volume: "178"
     page: "456"
+    docket: "219"
+    citation: "178 U.S. 456"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1900"
-    citation: "178 U.S. 456"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-079"
@@ -5584,9 +7237,12 @@ cases:
     title: "Motes v. United States"
     volume: "178"
     page: "458"
+    docket: "257"
+    citation: "178 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1900"
-    citation: "178 U.S. 458"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-080"
@@ -5594,9 +7250,12 @@ cases:
     title: "Hawley v. Diller"
     volume: "178"
     page: "476"
+    docket: "116"
+    citation: "178 U.S. 476"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1900"
-    citation: "178 U.S. 476"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-081"
@@ -5604,9 +7263,12 @@ cases:
     title: "May v. New Orleans"
     volume: "178"
     page: "496"
+    docket: "332"
+    citation: "178 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1900"
-    citation: "178 U.S. 496"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-082"
@@ -5614,9 +7276,12 @@ cases:
     title: "Dewey v. United States"
     volume: "178"
     page: "510"
+    docket: "546"
+    citation: "178 U.S. 510"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1900"
-    citation: "178 U.S. 510"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-100"
@@ -5624,9 +7289,12 @@ cases:
     title: "United States v. Oregon &amp; California R. Co."
     volume: "176"
     page: "028"
+    docket: "9"
+    citation: "176 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1900"
-    citation: "176 U.S. 28"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-101"
@@ -5634,9 +7302,12 @@ cases:
     title: "Wilcox v. Eastern Oregon Land Co."
     volume: "176"
     page: "051"
+    docket: "23"
+    citation: "176 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1900"
-    citation: "176 U.S. 51"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-102"
@@ -5644,9 +7315,12 @@ cases:
     title: "Messinger v. Eastern Oregon Land Co."
     volume: "176"
     page: "058"
+    docket: "24"
+    citation: "176 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1900"
-    citation: "176 U.S. 58"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-103"
@@ -5654,9 +7328,12 @@ cases:
     title: "Blake v. McClung"
     volume: "176"
     page: "059"
+    docket: "466"
+    citation: "176 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1900"
-    citation: "176 U.S. 59"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-121"
@@ -5664,9 +7341,12 @@ cases:
     title: "Southern R. Co. v. Carnegie Steel Co."
     volume: "176"
     page: "257"
+    docket: "8"
+    citation: "176 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1900"
-    citation: "176 U.S. 257"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-122"
@@ -5674,9 +7354,12 @@ cases:
     title: "Lackawanna Iron &amp; Coal Co. v. Farmers&apos; Loan &amp; Trust Co."
     volume: "176"
     page: "298"
+    docket: "22"
+    citation: "176 U.S. 298"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1900"
-    citation: "176 U.S. 298"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-144"
@@ -5684,9 +7367,12 @@ cases:
     title: "Aldrich v. Chemical Nat. Bank"
     volume: "176"
     page: "618"
+    docket: "58"
+    citation: "176 U.S. 618"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1900"
-    citation: "176 U.S. 618"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-148"
@@ -5694,9 +7380,12 @@ cases:
     title: "Jellenik v. Huron Copper Mining Co."
     volume: "177"
     page: "001"
+    docket: "100"
+    citation: "177 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1900"
-    citation: "177 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-184"
@@ -5704,9 +7393,12 @@ cases:
     title: "Black v. Jackson"
     volume: "177"
     page: "349"
+    docket: "107"
+    citation: "177 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1900"
-    citation: "177 U.S. 349"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-185"
@@ -5714,9 +7406,12 @@ cases:
     title: "Potts v. Hollen"
     volume: "177"
     page: "365"
+    docket: "143"
+    citation: "177 U.S. 365"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1900"
-    citation: "177 U.S. 365"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-186"
@@ -5724,9 +7419,12 @@ cases:
     title: "Wesley v. Eells"
     volume: "177"
     page: "370"
+    docket: "176"
+    citation: "177 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1900"
-    citation: "177 U.S. 370"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-194"
@@ -5734,9 +7432,12 @@ cases:
     title: "Great Southern Fire Proof Hotel Co. v. Jones"
     volume: "177"
     page: "449"
+    docket: "210"
+    citation: "177 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1900"
-    citation: "177 U.S. 449"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1899-195"
@@ -5744,9 +7445,11 @@ cases:
     title: "Boske v. Comingore"
     volume: "177"
     page: "459"
+    citation: "177 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1900"
-    citation: "177 U.S. 459"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-015"
@@ -5754,9 +7457,12 @@ cases:
     title: "Sigafus v. Porter"
     volume: "179"
     page: "116"
+    docket: "8"
+    citation: "179 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, October 29, 1900"
-    citation: "179 U.S. 116"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-019"
@@ -5764,9 +7470,12 @@ cases:
     title: "Scranton v. Wheeler"
     volume: "179"
     page: "141"
+    docket: "9"
+    citation: "179 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, November 12, 1900"
-    citation: "179 U.S. 141"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-050"
@@ -5774,9 +7483,12 @@ cases:
     title: "Loeb v. Columbia Township Trustees"
     volume: "179"
     page: "472"
+    docket: "42"
+    citation: "179 U.S. 472"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1900"
-    citation: "179 U.S. 472"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-051"
@@ -5784,9 +7496,12 @@ cases:
     title: "United States v. Choctaw Nation"
     volume: "179"
     page: "494"
+    docket: "88"
+    citation: "179 U.S. 494"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1900"
-    citation: "179 U.S. 494"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-074"
@@ -5794,9 +7509,12 @@ cases:
     title: "Lantry v. Wallace"
     volume: "182"
     page: "536"
+    docket: "180"
+    citation: "182 U.S. 536"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 536"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-075"
@@ -5804,9 +7522,12 @@ cases:
     title: "Hood v. Wallace"
     volume: "182"
     page: "555"
+    docket: "179"
+    citation: "182 U.S. 555"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 555"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-077"
@@ -5814,9 +7535,12 @@ cases:
     title: "Fuller v. United States"
     volume: "182"
     page: "562"
+    docket: "7"
+    citation: "182 U.S. 562"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 562"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-080"
@@ -5824,9 +7548,12 @@ cases:
     title: "Glavey v. United States"
     volume: "182"
     page: "595"
+    docket: "235"
+    citation: "182 U.S. 595"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1901"
-    citation: "182 U.S. 595"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-096"
@@ -5834,9 +7561,12 @@ cases:
     title: "Neely v. Henkel"
     volume: "180"
     page: "109"
+    docket: "387"
+    citation: "180 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1901"
-    citation: "180 U.S. 109"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-097"
@@ -5844,9 +7574,12 @@ cases:
     title: "Neely v. Henkel"
     volume: "180"
     page: "126"
+    docket: "406"
+    citation: "180 U.S. 126"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1901"
-    citation: "180 U.S. 126"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-099"
@@ -5854,9 +7587,12 @@ cases:
     title: "Liverpool &amp; London &amp; Globe Ins. Co. v. Kearney"
     volume: "180"
     page: "132"
+    docket: "85"
+    citation: "180 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 132"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-100"
@@ -5864,9 +7600,12 @@ cases:
     title: "Hewitt v. Schultz"
     volume: "180"
     page: "139"
+    docket: "34"
+    citation: "180 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 139"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-101"
@@ -5874,9 +7613,12 @@ cases:
     title: "Moore v. Cormode"
     volume: "180"
     page: "167"
+    docket: "49"
+    citation: "180 U.S. 167"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 167"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-102"
@@ -5884,9 +7626,12 @@ cases:
     title: "Powers v. Slaght"
     volume: "180"
     page: "173"
+    docket: "47"
+    citation: "180 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 173"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-103"
@@ -5894,9 +7639,12 @@ cases:
     title: "Moore v. Stone"
     volume: "180"
     page: "180"
+    docket: "48"
+    citation: "180 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1901"
-    citation: "180 U.S. 180"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-126"
@@ -5904,9 +7652,12 @@ cases:
     title: "W. W. Cargill Co. v. Minnesota"
     volume: "180"
     page: "452"
+    docket: "116"
+    citation: "180 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1901"
-    citation: "180 U.S. 452"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-127"
@@ -5914,9 +7665,11 @@ cases:
     title: "Mitchell v. First Nat. Bank of Chicago"
     volume: "180"
     page: "471"
+    citation: "180 U.S. 471"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1901"
-    citation: "180 U.S. 471"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-131"
@@ -5924,9 +7677,12 @@ cases:
     title: "Minnesota v. Brundage"
     volume: "180"
     page: "499"
+    docket: "159"
+    citation: "180 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1901"
-    citation: "180 U.S. 499"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-132"
@@ -5934,9 +7690,12 @@ cases:
     title: "Wilkes County v. Coler"
     volume: "180"
     page: "506"
+    docket: "167"
+    citation: "180 U.S. 506"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1901"
-    citation: "180 U.S. 506"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-148"
@@ -5944,9 +7703,12 @@ cases:
     title: "Whitney v. Hay"
     volume: "181"
     page: "077"
+    docket: "112"
+    citation: "181 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1901"
-    citation: "181 U.S. 77"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1900-162"
@@ -5954,9 +7716,12 @@ cases:
     title: "Scott v. Deweese"
     volume: "181"
     page: "202"
+    docket: "148"
+    citation: "181 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1901"
-    citation: "181 U.S. 202"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1901-007"
@@ -5964,9 +7729,12 @@ cases:
     title: "District of Columbia v. Eslin"
     volume: "183"
     page: "062"
+    docket: "36"
+    citation: "183 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Sunday, November 3, 1901"
-    citation: "183 U.S. 62"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1901-010"
@@ -5974,9 +7742,12 @@ cases:
     title: "Dinsmore v. Southern Express Co."
     volume: "183"
     page: "115"
+    docket: "136"
+    citation: "183 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1901"
-    citation: "183 U.S. 115"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1901-044"
@@ -5984,9 +7755,12 @@ cases:
     title: "United States v. Lee Yen Tai"
     volume: "185"
     page: "213"
+    docket: "503"
+    citation: "185 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1902"
-    citation: "185 U.S. 213"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1901-045"
@@ -5994,9 +7768,12 @@ cases:
     title: "United States v. Finnell"
     volume: "185"
     page: "236"
+    docket: "523"
+    citation: "185 U.S. 236"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1902"
-    citation: "185 U.S. 236"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1901-063"
@@ -6004,9 +7781,12 @@ cases:
     title: "Erie R. Co. v. Purdy"
     volume: "185"
     page: "148"
+    docket: "171"
+    citation: "185 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1902"
-    citation: "185 U.S. 148"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1901-064"
@@ -6014,9 +7794,12 @@ cases:
     title: "Hitz v. Jenks"
     volume: "185"
     page: "155"
+    docket: "99"
+    citation: "185 U.S. 155"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1902"
-    citation: "185 U.S. 155"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1901-070"
@@ -6024,9 +7807,12 @@ cases:
     title: "Howard v. United States"
     volume: "184"
     page: "676"
+    docket: "121"
+    citation: "184 U.S. 676"
     pdfSource: "loc"
     dateDecision: "Monday, March 24, 1902"
-    citation: "184 U.S. 676"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1901-080"
@@ -6034,9 +7820,12 @@ cases:
     title: "Connolly v. Union Sewer Pipe Co."
     volume: "184"
     page: "540"
+    docket: "46"
+    citation: "184 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1902"
-    citation: "184 U.S. 540"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1901-087"
@@ -6044,9 +7833,12 @@ cases:
     title: "United States v. Rio Grande Dam &amp; Irrigation Co."
     volume: "184"
     page: "416"
+    docket: "239"
+    citation: "184 U.S. 416"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1902"
-    citation: "184 U.S. 416"
+    voteMajority: 5
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1901-088"
@@ -6054,9 +7846,12 @@ cases:
     title: "Booth v. Illinois"
     volume: "184"
     page: "425"
+    docket: "201"
+    citation: "184 U.S. 425"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1902"
-    citation: "184 U.S. 425"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1901-108"
@@ -6064,9 +7859,12 @@ cases:
     title: "Waite v. Santa Cruz"
     volume: "184"
     page: "302"
+    docket: "39"
+    citation: "184 U.S. 302"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1902"
-    citation: "184 U.S. 302"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1901-112"
@@ -6074,9 +7872,12 @@ cases:
     title: "Illinois v. Illinois Central R. Co."
     volume: "184"
     page: "077"
+    docket: "28"
+    citation: "184 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1902"
-    citation: "184 U.S. 77"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-007"
@@ -6084,9 +7885,12 @@ cases:
     title: "Reid v. Colorado"
     volume: "187"
     page: "137"
+    docket: "269"
+    citation: "187 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1902"
-    citation: "187 U.S. 137"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-008"
@@ -6094,9 +7898,12 @@ cases:
     title: "Reid v. Jones"
     volume: "187"
     page: "153"
+    docket: "147"
+    citation: "187 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1902"
-    citation: "187 U.S. 153"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-009"
@@ -6104,9 +7911,12 @@ cases:
     title: "Home for Incurables v. City of New York"
     volume: "187"
     page: "155"
+    docket: "86"
+    citation: "187 U.S. 155"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1902"
-    citation: "187 U.S. 155"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-031"
@@ -6114,9 +7924,12 @@ cases:
     title: "Dreyer v. Illinois"
     volume: "187"
     page: "071"
+    docket: "37"
+    citation: "187 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1902"
-    citation: "187 U.S. 71"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-046"
@@ -6124,9 +7937,12 @@ cases:
     title: "Nelson v. Northern Pacific R. Co."
     volume: "188"
     page: "108"
+    docket: "44"
+    citation: "188 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1903"
-    citation: "188 U.S. 108"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-047"
@@ -6134,9 +7950,12 @@ cases:
     title: "Smythe v. United States"
     volume: "188"
     page: "156"
+    docket: "88"
+    citation: "188 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1903"
-    citation: "188 U.S. 156"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-057"
@@ -6144,9 +7963,12 @@ cases:
     title: "Lottery Case"
     volume: "188"
     page: "321"
+    docket: "2"
+    citation: "188 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1903"
-    citation: "188 U.S. 321"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-059"
@@ -6154,9 +7976,12 @@ cases:
     title: "Louisville &amp; Jeffersonville Ferry Co. v. Kentucky"
     volume: "188"
     page: "385"
+    docket: "17"
+    citation: "188 U.S. 385"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1903"
-    citation: "188 U.S. 385"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-060"
@@ -6164,9 +7989,12 @@ cases:
     title: "Bigby v. United States"
     volume: "188"
     page: "400"
+    docket: "111"
+    citation: "188 U.S. 400"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1903"
-    citation: "188 U.S. 400"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-061"
@@ -6174,9 +8002,12 @@ cases:
     title: "Cummings v. Chicago"
     volume: "188"
     page: "410"
+    docket: "136"
+    citation: "188 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1903"
-    citation: "188 U.S. 410"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-062"
@@ -6184,9 +8015,12 @@ cases:
     title: "Calumet Grain &amp; Elevator Co. v. Chicago"
     volume: "188"
     page: "431"
+    docket: "135"
+    citation: "188 U.S. 431"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1903"
-    citation: "188 U.S. 431"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-063"
@@ -6194,9 +8028,12 @@ cases:
     title: "United States v. Rickert"
     volume: "188"
     page: "432"
+    docket: "216"
+    citation: "188 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1903"
-    citation: "188 U.S. 432"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-102"
@@ -6204,9 +8041,12 @@ cases:
     title: "The Japanese Immigrant Case"
     volume: "189"
     page: "086"
+    docket: "171"
+    citation: "189 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1903"
-    citation: "189 U.S. 86"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-103"
@@ -6214,9 +8054,12 @@ cases:
     title: "Oregon &amp; California R. Co. v. United States"
     volume: "189"
     page: "103"
+    docket: "186"
+    citation: "189 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1903"
-    citation: "189 U.S. 103"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-104"
@@ -6224,9 +8067,12 @@ cases:
     title: "Oregon &amp; California R. Co. v. United States"
     volume: "189"
     page: "116"
+    docket: "187"
+    citation: "189 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1903"
-    citation: "189 U.S. 116"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-157"
@@ -6234,9 +8080,12 @@ cases:
     title: "Bockfinger v. Foster"
     volume: "190"
     page: "116"
+    docket: "175"
+    citation: "190 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1903"
-    citation: "190 U.S. 116"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-176"
@@ -6244,9 +8093,12 @@ cases:
     title: "Montgomery v. Portland"
     volume: "190"
     page: "089"
+    docket: "47"
+    citation: "190 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1903"
-    citation: "190 U.S. 89"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-177"
@@ -6254,9 +8106,12 @@ cases:
     title: "Wilkes County v. Coler"
     volume: "190"
     page: "107"
+    docket: "247"
+    citation: "190 U.S. 107"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1903"
-    citation: "190 U.S. 107"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1902-199"
@@ -6264,9 +8119,12 @@ cases:
     title: "Oshkosh Waterworks Co. v. Oshkosh"
     volume: "187"
     page: "437"
+    docket: "74"
+    citation: "187 U.S. 437"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1903"
-    citation: "187 U.S. 437"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1903-016"
@@ -6274,9 +8132,12 @@ cases:
     title: "Atkin v. Kansas"
     volume: "191"
     page: "207"
+    docket: "30"
+    citation: "191 U.S. 207"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1903"
-    citation: "191 U.S. 207"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1903-017"
@@ -6284,9 +8145,12 @@ cases:
     title: "Louisville Trust Co. v. Knott"
     volume: "191"
     page: "225"
+    docket: "389"
+    citation: "191 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1903"
-    citation: "191 U.S. 225"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1903-035"
@@ -6294,9 +8158,12 @@ cases:
     title: "Continental Nat. Bank of Memphis v. Buford"
     volume: "191"
     page: "119"
+    docket: "60"
+    citation: "191 U.S. 119"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1903"
-    citation: "191 U.S. 119"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1903-056"
@@ -6304,9 +8171,12 @@ cases:
     title: "Royal Ins. Co. v. Martin"
     volume: "192"
     page: "149"
+    docket: "86"
+    citation: "192 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1904"
-    citation: "192 U.S. 149"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1903-078"
@@ -6314,9 +8184,12 @@ cases:
     title: "Minnesota v. Northern Securities Co."
     volume: "194"
     page: "048"
+    docket: "433"
+    citation: "194 U.S. 48"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1904"
-    citation: "194 U.S. 48"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1903-085"
@@ -6324,9 +8197,12 @@ cases:
     title: "Crowley v. United States"
     volume: "194"
     page: "461"
+    docket: "205"
+    citation: "194 U.S. 461"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1904"
-    citation: "194 U.S. 461"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1903-086"
@@ -6334,9 +8210,12 @@ cases:
     title: "Knepper v. Sands"
     volume: "194"
     page: "476"
+    docket: "233"
+    citation: "194 U.S. 476"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1904"
-    citation: "194 U.S. 476"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1903-108"
@@ -6344,9 +8223,12 @@ cases:
     title: "R. Ribas y Hijo v. United States"
     volume: "194"
     page: "315"
+    docket: "151"
+    citation: "194 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1904"
-    citation: "194 U.S. 315"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1903-125"
@@ -6354,9 +8236,12 @@ cases:
     title: "City &amp; Suburban R. Co. v. Svedborg"
     volume: "194"
     page: "201"
+    docket: "214"
+    citation: "194 U.S. 201"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1904"
-    citation: "194 U.S. 201"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1903-126"
@@ -6364,9 +8249,12 @@ cases:
     title: "Pettit v. Walshe"
     volume: "194"
     page: "205"
+    docket: "563"
+    citation: "194 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1904"
-    citation: "194 U.S. 205"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1903-149"
@@ -6374,9 +8262,11 @@ cases:
     title: "Great Southern Fire Proof Hotel Co. v. Jones"
     volume: "193"
     page: "532"
+    citation: "193 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1904"
-    citation: "193 U.S. 532"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1903-174"
@@ -6384,9 +8274,12 @@ cases:
     title: "Northern Securities Co. v. United States"
     volume: "193"
     page: "197"
+    docket: "277"
+    citation: "193 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1904"
-    citation: "193 U.S. 197"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1903-183"
@@ -6394,9 +8287,12 @@ cases:
     title: "Spreckels Sugar Refining Co. v. McClain"
     volume: "192"
     page: "397"
+    docket: "103"
+    citation: "192 U.S. 397"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "192 U.S. 397"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-003"
@@ -6404,9 +8300,12 @@ cases:
     title: "Missouri v. Nebraska"
     volume: "196"
     page: "023"
+    docket: "5"
+    citation: "196 U.S. 23"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1904"
-    citation: "196 U.S. 23"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-010"
@@ -6414,9 +8313,12 @@ cases:
     title: "Humbird v. Avery"
     volume: "195"
     page: "480"
+    docket: "7"
+    citation: "195 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1904"
-    citation: "195 U.S. 480"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-025"
@@ -6424,9 +8326,12 @@ cases:
     title: "National Exchange Bank of Tiffin v. Wiley"
     volume: "195"
     page: "257"
+    docket: "53"
+    citation: "195 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1904"
-    citation: "195 U.S. 257"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-037"
@@ -6434,9 +8339,12 @@ cases:
     title: "Thomas v. Board of Trustees of Ohio State Univ."
     volume: "195"
     page: "207"
+    docket: "43"
+    citation: "195 U.S. 207"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1904"
-    citation: "195 U.S. 207"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-043"
@@ -6444,9 +8352,12 @@ cases:
     title: "Amado v. United States"
     volume: "195"
     page: "172"
+    docket: "33"
+    citation: "195 U.S. 172"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1904"
-    citation: "195 U.S. 172"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-080"
@@ -6454,9 +8365,12 @@ cases:
     title: "W. L. Wells Co. v. Gastonia Cotton Mfg. Co."
     volume: "198"
     page: "177"
+    docket: "237"
+    citation: "198 U.S. 177"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1905"
-    citation: "198 U.S. 177"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-088"
@@ -6464,9 +8378,12 @@ cases:
     title: "Rodriguez v. United States"
     volume: "198"
     page: "156"
+    docket: "183"
+    citation: "198 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1905"
-    citation: "198 U.S. 156"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-092"
@@ -6474,9 +8391,12 @@ cases:
     title: "Steigleder v. McQuesten"
     volume: "198"
     page: "141"
+    docket: "227"
+    citation: "198 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1905"
-    citation: "198 U.S. 141"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-108"
@@ -6484,9 +8404,12 @@ cases:
     title: "McMichael v. Murphy"
     volume: "197"
     page: "304"
+    docket: "166"
+    citation: "197 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1905"
-    citation: "197 U.S. 304"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-142"
@@ -6494,9 +8417,12 @@ cases:
     title: "Jacobson v. Massachusetts"
     volume: "197"
     page: "011"
+    docket: "70"
+    citation: "197 U.S. 11"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1905"
-    citation: "197 U.S. 11"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-166"
@@ -6504,9 +8430,12 @@ cases:
     title: "Madisonville Traction Co. v. Saint Bernard Mining Co."
     volume: "196"
     page: "239"
+    docket: "362"
+    citation: "196 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1905"
-    citation: "196 U.S. 239"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-171"
@@ -6514,9 +8443,12 @@ cases:
     title: "Rooney v. North Dakota"
     volume: "196"
     page: "319"
+    docket: "123"
+    citation: "196 U.S. 319"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1905"
-    citation: "196 U.S. 319"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-179"
@@ -6524,9 +8456,12 @@ cases:
     title: "McDaniel v. Traylor"
     volume: "196"
     page: "415"
+    docket: "129"
+    citation: "196 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1905"
-    citation: "196 U.S. 415"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1904-180"
@@ -6534,9 +8469,12 @@ cases:
     title: "Caledonian Coal Co. v. Baker"
     volume: "196"
     page: "432"
+    docket: "419"
+    citation: "196 U.S. 432"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1905"
-    citation: "196 U.S. 432"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-005"
@@ -6544,9 +8482,12 @@ cases:
     title: "Donovan v. Pennsylvania Co."
     volume: "199"
     page: "279"
+    docket: "5"
+    citation: "199 U.S. 279"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1905"
-    citation: "199 U.S. 279"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-006"
@@ -6554,9 +8495,12 @@ cases:
     title: "California Reduction Co. v. Sanitary Reduction Works"
     volume: "199"
     page: "306"
+    docket: "25"
+    citation: "199 U.S. 306"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1905"
-    citation: "199 U.S. 306"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-007"
@@ -6564,9 +8508,12 @@ cases:
     title: "Gardner v. Michigan"
     volume: "199"
     page: "325"
+    docket: "62"
+    citation: "199 U.S. 325"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1905"
-    citation: "199 U.S. 325"
+    voteMajority: 7
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-029"
@@ -6574,9 +8521,12 @@ cases:
     title: "Sjoli v. Dreschel"
     volume: "199"
     page: "564"
+    docket: "79"
+    citation: "199 U.S. 564"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1905"
-    citation: "199 U.S. 564"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-044"
@@ -6584,9 +8534,12 @@ cases:
     title: "Nutt v. Knut"
     volume: "200"
     page: "012"
+    docket: "78"
+    citation: "200 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1906"
-    citation: "200 U.S. 12"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-045"
@@ -6594,9 +8547,12 @@ cases:
     title: "Knoxville Water Co. v. Knoxville"
     volume: "200"
     page: "022"
+    docket: "123"
+    citation: "200 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1906"
-    citation: "200 U.S. 22"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-046"
@@ -6604,9 +8560,12 @@ cases:
     title: "Owensboro Waterworks Co. v. Owensboro"
     volume: "200"
     page: "038"
+    docket: "145"
+    citation: "200 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1906"
-    citation: "200 U.S. 38"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-074"
@@ -6614,9 +8573,12 @@ cases:
     title: "Martin v. Texas"
     volume: "200"
     page: "316"
+    docket: "170"
+    citation: "200 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1906"
-    citation: "200 U.S. 316"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-091"
@@ -6624,9 +8586,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. Illinois ex rel. Drainage Comm&apos;rs"
     volume: "200"
     page: "561"
+    docket: "157"
+    citation: "200 U.S. 561"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1906"
-    citation: "200 U.S. 561"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-122"
@@ -6634,9 +8599,12 @@ cases:
     title: "Burton v. United States"
     volume: "202"
     page: "344"
+    docket: "539"
+    citation: "202 U.S. 344"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1906"
-    citation: "202 U.S. 344"
+    voteMajority: 6
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-143"
@@ -6644,9 +8612,12 @@ cases:
     title: "West Chicago Street R. Co. v. Illinois ex rel. Chicago"
     volume: "201"
     page: "506"
+    docket: "241"
+    citation: "201 U.S. 506"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1906"
-    citation: "201 U.S. 506"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-147"
@@ -6654,9 +8625,12 @@ cases:
     title: "Wisconsin v. Hitchcock"
     volume: "201"
     page: "202"
+    docket: "12 Orig."
+    citation: "201 U.S. 202"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1906"
-    citation: "201 U.S. 202"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-148"
@@ -6664,9 +8638,12 @@ cases:
     title: "Christopher v. Norvell"
     volume: "201"
     page: "216"
+    docket: "211"
+    citation: "201 U.S. 216"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1906"
-    citation: "201 U.S. 216"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1905-164"
@@ -6674,9 +8651,12 @@ cases:
     title: "Kentucky v. Powers"
     volume: "201"
     page: "001"
+    docket: "15 Orig."
+    citation: "201 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1906"
-    citation: "201 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-019"
@@ -6684,9 +8664,12 @@ cases:
     title: "Pettibone v. Nichols"
     volume: "203"
     page: "192"
+    docket: "249"
+    citation: "203 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 192"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-020"
@@ -6694,9 +8677,12 @@ cases:
     title: "Moyer v. Nichols"
     volume: "203"
     page: "221"
+    docket: "250"
+    citation: "203 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 221"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-021"
@@ -6704,9 +8690,12 @@ cases:
     title: "Appleyard v. Massachusetts"
     volume: "203"
     page: "222"
+    docket: "115"
+    citation: "203 U.S. 222"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 222"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-022"
@@ -6714,9 +8703,12 @@ cases:
     title: "Francis v. Francis"
     volume: "203"
     page: "233"
+    docket: "8"
+    citation: "203 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 233"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-023"
@@ -6724,9 +8716,12 @@ cases:
     title: "Northwestern Nat. Life Ins. Co. v. Riggs"
     volume: "203"
     page: "243"
+    docket: "34"
+    citation: "203 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 243"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-085"
@@ -6734,9 +8729,12 @@ cases:
     title: "Grafton v. United States"
     volume: "206"
     page: "333"
+    docket: "358"
+    citation: "206 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1907"
-    citation: "206 U.S. 333"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-107"
@@ -6744,9 +8742,12 @@ cases:
     title: "Whitfield v. Aetna Life Ins. Co. of Hartford"
     volume: "205"
     page: "489"
+    docket: "258"
+    citation: "205 U.S. 489"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1907"
-    citation: "205 U.S. 489"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-110"
@@ -6754,9 +8755,12 @@ cases:
     title: "Travers v. Reinhardt"
     volume: "205"
     page: "423"
+    docket: "76"
+    citation: "205 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1907"
-    citation: "205 U.S. 423"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-111"
@@ -6764,9 +8768,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. Williams"
     volume: "205"
     page: "444"
+    docket: "243"
+    citation: "205 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1907"
-    citation: "205 U.S. 444"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-137"
@@ -6774,9 +8781,12 @@ cases:
     title: "Tracy v. Ginzberg"
     volume: "205"
     page: "170"
+    docket: "204"
+    citation: "205 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1907"
-    citation: "205 U.S. 170"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-138"
@@ -6784,9 +8794,12 @@ cases:
     title: "Urquhart v. Brown"
     volume: "205"
     page: "179"
+    docket: "226"
+    citation: "205 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1907"
-    citation: "205 U.S. 179"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-148"
@@ -6794,9 +8807,12 @@ cases:
     title: "Halter v. Nebraska"
     volume: "205"
     page: "034"
+    docket: "174"
+    citation: "205 U.S. 34"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1907"
-    citation: "205 U.S. 34"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-149"
@@ -6804,9 +8820,12 @@ cases:
     title: "Citizens&apos; Sav. &amp; Trust Co. v. Illinois Central R. Co."
     volume: "205"
     page: "046"
+    docket: "238"
+    citation: "205 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1907"
-    citation: "205 U.S. 46"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-154"
@@ -6814,9 +8833,12 @@ cases:
     title: "United States Fidelity &amp; Guaranty Co. v. United States ex rel. Kenyon"
     volume: "204"
     page: "349"
+    docket: "173"
+    citation: "204 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 349"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-155"
@@ -6824,9 +8846,12 @@ cases:
     title: "Western Turf Assn. v. Greenberg"
     volume: "204"
     page: "359"
+    docket: "189"
+    citation: "204 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 359"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-156"
@@ -6834,9 +8859,12 @@ cases:
     title: "Union Bridge Co. v. United States"
     volume: "204"
     page: "364"
+    docket: "431"
+    citation: "204 U.S. 364"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 364"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-188"
@@ -6844,9 +8872,12 @@ cases:
     title: "Northern Lumber Co. v. O&apos;Brien"
     volume: "204"
     page: "190"
+    docket: "121"
+    citation: "204 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1907"
-    citation: "204 U.S. 190"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1906-193"
@@ -6854,9 +8885,12 @@ cases:
     title: "Old Wayne Mut. Life Assn. of Indianapolis v. McDonough"
     volume: "204"
     page: "008"
+    docket: "57"
+    citation: "204 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1907"
-    citation: "204 U.S. 8"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1907-011"
@@ -6864,9 +8898,12 @@ cases:
     title: "Illinois ex rel. McNichols v. Pease"
     volume: "207"
     page: "100"
+    docket: "19"
+    citation: "207 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1907"
-    citation: "207 U.S. 100"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1907-019"
@@ -6874,9 +8911,12 @@ cases:
     title: "Shoener v. Pennsylvania"
     volume: "207"
     page: "188"
+    docket: "161"
+    citation: "207 U.S. 188"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1907"
-    citation: "207 U.S. 188"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1907-055"
@@ -6884,9 +8924,12 @@ cases:
     title: "Prosser v. Finn"
     volume: "208"
     page: "067"
+    docket: "64"
+    citation: "208 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1908"
-    citation: "208 U.S. 67"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1907-056"
@@ -6894,9 +8937,12 @@ cases:
     title: "Blacklock v. United States"
     volume: "208"
     page: "075"
+    docket: "65"
+    citation: "208 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1908"
-    citation: "208 U.S. 75"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1907-062"
@@ -6904,9 +8950,12 @@ cases:
     title: "Adair v. United States"
     volume: "208"
     page: "161"
+    docket: "293"
+    citation: "208 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1908"
-    citation: "208 U.S. 161"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1907-077"
@@ -6914,9 +8963,12 @@ cases:
     title: "Dick v. United States"
     volume: "208"
     page: "340"
+    docket: "62"
+    citation: "208 U.S. 340"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 340"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1907-078"
@@ -6924,9 +8976,12 @@ cases:
     title: "Atlantic Trust Co. v. Chapman"
     volume: "208"
     page: "360"
+    docket: "109"
+    citation: "208 U.S. 360"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 360"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1907-079"
@@ -6934,9 +8989,12 @@ cases:
     title: "Cosmopolitan Club v. Virginia"
     volume: "208"
     page: "378"
+    docket: "130"
+    citation: "208 U.S. 378"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 378"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1907-080"
@@ -6944,9 +9002,12 @@ cases:
     title: "Bassing v. Cady"
     volume: "208"
     page: "386"
+    docket: "426"
+    citation: "208 U.S. 386"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 386"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1907-081"
@@ -6954,9 +9015,12 @@ cases:
     title: "United States v. Bitty"
     volume: "208"
     page: "393"
+    docket: "503"
+    citation: "208 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 393"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1907-135"
@@ -6964,9 +9028,12 @@ cases:
     title: "Bogard v. Sweet"
     volume: "209"
     page: "464"
+    docket: "156"
+    citation: "209 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, April 27, 1908"
-    citation: "209 U.S. 464"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1907-160"
@@ -6974,9 +9041,12 @@ cases:
     title: "Hallowell v. United States"
     volume: "209"
     page: "101"
+    docket: "175"
+    citation: "209 U.S. 101"
     pdfSource: "loc"
     dateDecision: "Monday, March 23, 1908"
-    citation: "209 U.S. 101"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1908-002"
@@ -6984,9 +9054,12 @@ cases:
     title: "Brandon v. Ard"
     volume: "211"
     page: "011"
+    docket: "24"
+    citation: "211 U.S. 11"
     pdfSource: "loc"
     dateDecision: "Monday, October 19, 1908"
-    citation: "211 U.S. 11"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1908-024"
@@ -6994,9 +9067,12 @@ cases:
     title: "Miller &amp; Lux, Inc. v. East Side Canal &amp; Irrigation Co."
     volume: "211"
     page: "293"
+    docket: "518"
+    citation: "211 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1908"
-    citation: "211 U.S. 293"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1908-055"
@@ -7004,9 +9080,12 @@ cases:
     title: "Southern Realty Investment Co. v. Walker"
     volume: "211"
     page: "603"
+    docket: "43"
+    citation: "211 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1909"
-    citation: "211 U.S. 603"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1908-061"
@@ -7014,9 +9093,12 @@ cases:
     title: "Presidio County v. Noel-Young Bond &amp; Stock Co."
     volume: "212"
     page: "058"
+    docket: "41"
+    citation: "212 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1909"
-    citation: "212 U.S. 58"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1908-072"
@@ -7024,9 +9106,12 @@ cases:
     title: "Continental Wall Paper Co. v. Louis Voight &amp; Sons Co."
     volume: "212"
     page: "227"
+    docket: "15"
+    citation: "212 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1909"
-    citation: "212 U.S. 227"
+    voteMajority: 5
+    voteMinority: 4
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1908-078"
@@ -7034,9 +9119,12 @@ cases:
     title: "Juragua Iron Co. v. United States"
     volume: "212"
     page: "297"
+    docket: "34"
+    citation: "212 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "212 U.S. 297"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1908-113"
@@ -7044,9 +9132,12 @@ cases:
     title: "Hepner v. United States"
     volume: "213"
     page: "103"
+    docket: "626"
+    citation: "213 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1909"
-    citation: "213 U.S. 103"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1908-114"
@@ -7054,9 +9145,12 @@ cases:
     title: "United States v. Mason"
     volume: "213"
     page: "115"
+    docket: "642"
+    citation: "213 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1909"
-    citation: "213 U.S. 115"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1908-142"
@@ -7064,9 +9158,12 @@ cases:
     title: "Compton v. Alabama"
     volume: "214"
     page: "001"
+    docket: "175"
+    citation: "214 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1909"
-    citation: "214 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-007"
@@ -7074,9 +9171,12 @@ cases:
     title: "Marbles v. Creecy"
     volume: "215"
     page: "063"
+    docket: "23"
+    citation: "215 U.S. 63"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1909"
-    citation: "215 U.S. 63"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-023"
@@ -7084,9 +9184,12 @@ cases:
     title: "Everett v. Everett"
     volume: "215"
     page: "203"
+    docket: "1"
+    citation: "215 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1909"
-    citation: "215 U.S. 203"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-031"
@@ -7094,9 +9197,12 @@ cases:
     title: "Rio Grande Dam &amp; Irrigation Co. v. United States"
     volume: "215"
     page: "266"
+    docket: "49"
+    citation: "215 U.S. 266"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1909"
-    citation: "215 U.S. 266"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-039"
@@ -7104,9 +9210,12 @@ cases:
     title: "Kuhn v. Fairmont Coal Co."
     volume: "215"
     page: "349"
+    docket: "50"
+    citation: "215 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1910"
-    citation: "215 U.S. 349"
+    voteMajority: 4
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-040"
@@ -7114,9 +9223,12 @@ cases:
     title: "Henley v. Myers"
     volume: "215"
     page: "373"
+    docket: "72"
+    citation: "215 U.S. 373"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1910"
-    citation: "215 U.S. 373"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-058"
@@ -7124,9 +9236,12 @@ cases:
     title: "Western Union Telegraph Co. v. Kansas ex rel. Coleman"
     volume: "216"
     page: "001"
+    docket: "4"
+    citation: "216 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1910"
-    citation: "216 U.S. 1"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-059"
@@ -7134,9 +9249,12 @@ cases:
     title: "Pullman Co. v. Kansas ex rel. Coleman"
     volume: "216"
     page: "056"
+    docket: "5"
+    citation: "216 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1910"
-    citation: "216 U.S. 56"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-069"
@@ -7144,9 +9262,12 @@ cases:
     title: "Ludwig v. Western Union Telegraph Co."
     volume: "216"
     page: "146"
+    docket: "45"
+    citation: "216 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 146"
+    voteMajority: 5
+    voteMinority: 3
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-071"
@@ -7154,9 +9275,12 @@ cases:
     title: "Alvarez y Sanchez v. United States"
     volume: "216"
     page: "167"
+    docket: "69"
+    citation: "216 U.S. 167"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 167"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-072"
@@ -7164,9 +9288,12 @@ cases:
     title: "President of Monongahela Bridge Co. v. United States"
     volume: "216"
     page: "177"
+    docket: "91"
+    citation: "216 U.S. 177"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 177"
+    voteMajority: 7
+    voteMinority: 1
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-073"
@@ -7174,9 +9301,12 @@ cases:
     title: "Citizens&apos; Central Nat. Bank of N. Y. v. Appleton"
     volume: "216"
     page: "196"
+    docket: "113"
+    citation: "216 U.S. 196"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 196"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-074"
@@ -7184,9 +9314,12 @@ cases:
     title: "Great Northern R. Co. v. Minnesota"
     volume: "216"
     page: "206"
+    docket: "359"
+    citation: "216 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 206"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-075"
@@ -7194,9 +9327,12 @@ cases:
     title: "Chicago Great Western R. Co. v. Minnesota"
     volume: "216"
     page: "234"
+    docket: "377"
+    citation: "216 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 234"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-119"
@@ -7204,9 +9340,12 @@ cases:
     title: "International Textbook Co. v. Pigg"
     volume: "217"
     page: "091"
+    docket: "15"
+    citation: "217 U.S. 91"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1910"
-    citation: "217 U.S. 91"
+    voteMajority: 5
+    voteMinority: 2
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-120"
@@ -7214,9 +9353,12 @@ cases:
     title: "Southwestern Oil Co. v. Texas"
     volume: "217"
     page: "114"
+    docket: "119"
+    citation: "217 U.S. 114"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1910"
-    citation: "217 U.S. 114"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-121"
@@ -7224,9 +9366,12 @@ cases:
     title: "Unity Banking &amp; Sav. Co. v. Bettman"
     volume: "217"
     page: "127"
+    docket: "126"
+    citation: "217 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1910"
-    citation: "217 U.S. 127"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1909-138"
@@ -7234,9 +9379,12 @@ cases:
     title: "Lord &amp; Hewlett v. United States"
     volume: "217"
     page: "340"
+    docket: "162"
+    citation: "217 U.S. 340"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1910"
-    citation: "217 U.S. 340"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-001"
@@ -7244,9 +9392,12 @@ cases:
     title: "United States v. Chicago, M. &amp; St. P. R. Co."
     volume: "218"
     page: "233"
+    docket: "11"
+    citation: "218 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, October 17, 1910"
-    citation: "218 U.S. 233"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-012"
@@ -7254,9 +9405,12 @@ cases:
     title: "Hooe v. United States"
     volume: "218"
     page: "322"
+    docket: "13"
+    citation: "218 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1910"
-    citation: "218 U.S. 322"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-013"
@@ -7264,9 +9418,12 @@ cases:
     title: "Cincinnati, I. &amp; W. R. Co. v. Connersville"
     volume: "218"
     page: "336"
+    docket: "19"
+    citation: "218 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1910"
-    citation: "218 U.S. 336"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-014"
@@ -7274,9 +9431,12 @@ cases:
     title: "National Bank of Commerce v. Downie"
     volume: "218"
     page: "345"
+    docket: "31"
+    citation: "218 U.S. 345"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1910"
-    citation: "218 U.S. 345"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-015"
@@ -7284,9 +9444,12 @@ cases:
     title: "Ladew v. Tennessee Copper Co."
     volume: "218"
     page: "357"
+    docket: "495"
+    citation: "218 U.S. 357"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1910"
-    citation: "218 U.S. 357"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-016"
@@ -7294,9 +9457,12 @@ cases:
     title: "Wetmore v. Tennessee Copper Co."
     volume: "218"
     page: "369"
+    docket: "500"
+    citation: "218 U.S. 369"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1910"
-    citation: "218 U.S. 369"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-065"
@@ -7304,9 +9470,12 @@ cases:
     title: "House v. Mayes"
     volume: "219"
     page: "270"
+    docket: "597"
+    citation: "219 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1911"
-    citation: "219 U.S. 270"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-066"
@@ -7314,9 +9483,12 @@ cases:
     title: "Brodnax v. Missouri"
     volume: "219"
     page: "285"
+    docket: "598"
+    citation: "219 U.S. 285"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1911"
-    citation: "219 U.S. 285"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-068"
@@ -7324,9 +9496,12 @@ cases:
     title: "German Alliance Ins. Co. v. Hale"
     volume: "219"
     page: "307"
+    docket: "56"
+    citation: "219 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Monday, January 16, 1911"
-    citation: "219 U.S. 307"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-077"
@@ -7334,9 +9509,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Arkansas"
     volume: "219"
     page: "453"
+    docket: "50"
+    citation: "219 U.S. 453"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1911"
-    citation: "219 U.S. 453"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-078"
@@ -7344,9 +9522,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Mottley"
     volume: "219"
     page: "467"
+    docket: "246"
+    citation: "219 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1911"
-    citation: "219 U.S. 467"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-079"
@@ -7354,9 +9535,12 @@ cases:
     title: "Chicago, I. &amp; L. R. Co. v. United States"
     volume: "219"
     page: "486"
+    docket: "74"
+    citation: "219 U.S. 486"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1911"
-    citation: "219 U.S. 486"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-102"
@@ -7364,9 +9548,12 @@ cases:
     title: "Oklahoma v. Atchison, T. &amp; S. F. R. Co."
     volume: "220"
     page: "277"
+    docket: "13 Orig."
+    citation: "220 U.S. 277"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1911"
-    citation: "220 U.S. 277"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-103"
@@ -7374,9 +9561,12 @@ cases:
     title: "Oklahoma ex rel. West v. Gulf, C. &amp; S. F. R. Co."
     volume: "220"
     page: "290"
+    docket: "14 Orig."
+    citation: "220 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1911"
-    citation: "220 U.S. 290"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-104"
@@ -7384,9 +9574,12 @@ cases:
     title: "Oklahoma ex rel. West v. Chicago, R. I. &amp; P. R. Co."
     volume: "220"
     page: "302"
+    docket: "96"
+    citation: "220 U.S. 302"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1911"
-    citation: "220 U.S. 302"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-113"
@@ -7394,9 +9587,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. Willard"
     volume: "220"
     page: "413"
+    docket: "105"
+    citation: "220 U.S. 413"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1911"
-    citation: "220 U.S. 413"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-128"
@@ -7404,9 +9600,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. United States"
     volume: "220"
     page: "559"
+    docket: "329"
+    citation: "220 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "220 U.S. 559"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-129"
@@ -7414,9 +9613,12 @@ cases:
     title: "Delk v. St. Louis &amp; San Francisco R. Co."
     volume: "220"
     page: "580"
+    docket: "88"
+    citation: "220 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "220 U.S. 580"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-133"
@@ -7424,9 +9626,12 @@ cases:
     title: "Hannibal Bridge Co. v. United States"
     volume: "221"
     page: "194"
+    docket: "100"
+    citation: "221 U.S. 194"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "221 U.S. 194"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
   - id: "1910-134"
@@ -7434,9 +9639,12 @@ cases:
     title: "Northern Pacific R. Co. v. Trodick"
     volume: "221"
     page: "208"
+    docket: "117"
+    citation: "221 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "221 U.S. 208"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jharlan1
     authorName: "John M. Harlan"
 ---

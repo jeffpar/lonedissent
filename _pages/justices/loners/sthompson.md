@@ -8,9 +8,11 @@ cases:
     title: "Brown v. Maryland"
     volume: "025"
     page: "419"
+    citation: "25 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1827"
-    citation: "25 U.S. 419"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: sthompson
     dissenterName: "Smith Thompson"
   - id: "1832-056"
@@ -18,9 +20,11 @@ cases:
     title: "United States v. Arredondo"
     volume: "031"
     page: "691"
+    citation: "31 U.S. 691"
     pdfSource: "loc"
     dateDecision: "Saturday, March 17, 1832"
-    citation: "31 U.S. 691"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: sthompson
     dissenterName: "Smith Thompson"
   - id: "1839-027"
@@ -28,9 +32,11 @@ cases:
     title: "Bend v. Hoyt"
     volume: "038"
     page: "263"
+    citation: "38 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 27, 1839"
-    citation: "38 U.S. 263"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: sthompson
     dissenterName: "Smith Thompson"
   - id: "1840-031"
@@ -38,9 +44,11 @@ cases:
     title: "United States v. Wood"
     volume: "039"
     page: "430"
+    citation: "39 U.S. 430"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1840"
-    citation: "39 U.S. 430"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: sthompson
     dissenterName: "Smith Thompson"
 ---

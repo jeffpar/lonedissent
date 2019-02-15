@@ -8,9 +8,12 @@ cases:
     title: "Radzanower v. Touche Ross &amp; Co."
     volume: "426"
     page: "148"
+    docket: "75-268"
+    citation: "426 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1976"
-    citation: "426 U.S. 148"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1976-016"
@@ -18,9 +21,12 @@ cases:
     title: "Estelle v. Gamble"
     volume: "429"
     page: "097"
+    docket: "75-929"
+    citation: "429 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 30, 1976"
-    citation: "429 U.S. 97"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1976-040"
@@ -28,9 +34,12 @@ cases:
     title: "United States v. County of Fresno"
     volume: "429"
     page: "452"
+    docket: "75-1262"
+    citation: "429 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 25, 1977"
-    citation: "429 U.S. 452"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1976-043"
@@ -38,9 +47,12 @@ cases:
     title: "Stanton v. Stanton"
     volume: "429"
     page: "501"
+    docket: "76-512"
+    citation: "429 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 25, 1977"
-    citation: "429 U.S. 501"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1976-054"
@@ -48,9 +60,12 @@ cases:
     title: "Delaware Tribal Business Comm. v. Weeks"
     volume: "430"
     page: "073"
+    docket: "75-1301"
+    citation: "430 U.S. 73"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 23, 1977"
-    citation: "430 U.S. 73"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1976-097"
@@ -58,9 +73,12 @@ cases:
     title: "EPA v. Brown"
     volume: "431"
     page: "099"
+    docket: "75-909"
+    citation: "431 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1977"
-    citation: "431 U.S. 99"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1976-101"
@@ -68,9 +86,12 @@ cases:
     title: "Pressler v. Blumenthal"
     volume: "431"
     page: "169"
+    docket: "76-1005"
+    citation: "431 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1977"
-    citation: "431 U.S. 169"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1976-129"
@@ -78,9 +99,12 @@ cases:
     title: "United States v. Lovasco"
     volume: "431"
     page: "783"
+    docket: "75-1844"
+    citation: "431 U.S. 783"
     pdfSource: "loc"
     dateDecision: "Thursday, June 9, 1977"
-    citation: "431 U.S. 783"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1976-130"
@@ -88,9 +112,12 @@ cases:
     title: "Lefkowitz v. Cunningham"
     volume: "431"
     page: "801"
+    docket: "76-260"
+    citation: "431 U.S. 801"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1977"
-    citation: "431 U.S. 801"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1976-142"
@@ -98,9 +125,12 @@ cases:
     title: "Mandel v. Bradley"
     volume: "432"
     page: "173"
+    docket: "76-128"
+    citation: "432 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Thursday, June 16, 1977"
-    citation: "432 U.S. 173"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1976-172"
@@ -108,9 +138,12 @@ cases:
     title: "Hazelwood School Dist. v. United States"
     volume: "433"
     page: "299"
+    docket: "76-255"
+    citation: "433 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Monday, June 27, 1977"
-    citation: "433 U.S. 299"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1977-091"
@@ -118,9 +151,12 @@ cases:
     title: "Vitek v. Jones"
     volume: "436"
     page: "407"
+    docket: "77-888"
+    citation: "436 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 23, 1978"
-    citation: "436 U.S. 407"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1978-010"
@@ -128,9 +164,12 @@ cases:
     title: "New Motor Vehicle Bd. of Cal. v. Orrin W. Fox Co."
     volume: "439"
     page: "096"
+    docket: "77-837"
+    citation: "439 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 5, 1978"
-    citation: "439 U.S. 96"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1978-070"
@@ -138,9 +177,12 @@ cases:
     title: "Broadcast Music, Inc. v. Columbia Broadcasting System, Inc."
     volume: "441"
     page: "001"
+    docket: "77-1578"
+    citation: "441 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 17, 1979"
-    citation: "441 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1979-061"
@@ -148,9 +190,12 @@ cases:
     title: "Mobil Oil Corp. v. Commissioner of Taxes of Vt."
     volume: "445"
     page: "425"
+    docket: "78-1201"
+    citation: "445 U.S. 425"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 19, 1980"
-    citation: "445 U.S. 425"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1979-090"
@@ -158,9 +203,12 @@ cases:
     title: "Texas v. New Mexico"
     volume: "446"
     page: "540"
+    docket: "65 Orig."
+    citation: "446 U.S. 540"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1980"
-    citation: "446 U.S. 540"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1979-146"
@@ -168,9 +216,12 @@ cases:
     title: "United States v. Ward"
     volume: "448"
     page: "242"
+    docket: "79-394"
+    citation: "448 U.S. 242"
     pdfSource: "loc"
     dateDecision: "Friday, June 27, 1980"
-    citation: "448 U.S. 242"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1980-030"
@@ -178,9 +229,12 @@ cases:
     title: "Minnesota v. Clover Leaf Creamery Co."
     volume: "449"
     page: "456"
+    docket: "79-1171"
+    citation: "449 U.S. 456"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 21, 1981"
-    citation: "449 U.S. 456"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1980-034"
@@ -188,9 +242,12 @@ cases:
     title: "EEOC v. Associated Dry Goods Corp."
     volume: "449"
     page: "590"
+    docket: "79-1068"
+    citation: "449 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1981"
-    citation: "449 U.S. 590"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1980-037"
@@ -198,9 +255,12 @@ cases:
     title: "HCSC-Laundry v. United States"
     volume: "450"
     page: "001"
+    docket: "80-338"
+    citation: "450 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1981"
-    citation: "450 U.S. 1"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1980-131"
@@ -208,9 +268,12 @@ cases:
     title: "New York State Liquor Authority v. Bellanca"
     volume: "452"
     page: "714"
+    docket: "80-813"
+    citation: "452 U.S. 714"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1981"
-    citation: "452 U.S. 714"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1980-143"
@@ -218,9 +281,12 @@ cases:
     title: "NLRB v. Amax Coal Co."
     volume: "453"
     page: "322"
+    docket: "80-692"
+    citation: "453 U.S. 322"
     pdfSource: "loc"
     dateDecision: "Monday, June 29, 1981"
-    citation: "453 U.S. 322"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1981-039"
@@ -228,9 +294,12 @@ cases:
     title: "Tully v. Mobil Oil Corp."
     volume: "455"
     page: "245"
+    docket: "81-96"
+    citation: "455 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1982"
-    citation: "455 U.S. 245"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1981-049"
@@ -238,9 +307,12 @@ cases:
     title: "G. D. Searle &amp; Co. v. Cohn"
     volume: "455"
     page: "404"
+    docket: "80-644"
+    citation: "455 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 24, 1982"
-    citation: "455 U.S. 404"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1981-064"
@@ -248,9 +320,12 @@ cases:
     title: "McElroy v. United States"
     volume: "455"
     page: "642"
+    docket: "80-6680"
+    citation: "455 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 23, 1982"
-    citation: "455 U.S. 642"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1981-083"
@@ -258,9 +333,12 @@ cases:
     title: "Weinberger v. Romero-Barcelo"
     volume: "456"
     page: "305"
+    docket: "80-1990"
+    citation: "456 U.S. 305"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 27, 1982"
-    citation: "456 U.S. 305"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1982-018"
@@ -268,9 +346,12 @@ cases:
     title: "Director, Office of Workers&apos; Compensation Programs v. Perini North River Associates"
     volume: "459"
     page: "297"
+    docket: "81-897"
+    citation: "459 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 11, 1983"
-    citation: "459 U.S. 297"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1982-045"
@@ -278,9 +359,12 @@ cases:
     title: "District of Columbia Court of Appeals v. Feldman"
     volume: "460"
     page: "462"
+    docket: "81-1335"
+    citation: "460 U.S. 462"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 23, 1983"
-    citation: "460 U.S. 462"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1982-083"
@@ -288,9 +372,12 @@ cases:
     title: "United States v. $8,850"
     volume: "461"
     page: "555"
+    docket: "81-1062"
+    citation: "461 U.S. 555"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1983"
-    citation: "461 U.S. 555"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1982-108"
@@ -298,9 +385,12 @@ cases:
     title: "Bell v. United States"
     volume: "462"
     page: "356"
+    docket: "82-5119"
+    citation: "462 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Monday, June 13, 1983"
-    citation: "462 U.S. 356"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1982-114"
@@ -308,9 +398,12 @@ cases:
     title: "Simopoulos v. Virginia"
     volume: "462"
     page: "506"
+    docket: "81-185"
+    citation: "462 U.S. 506"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 15, 1983"
-    citation: "462 U.S. 506"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1983-020"
@@ -318,9 +411,12 @@ cases:
     title: "Badaracco v. Commissioner"
     volume: "464"
     page: "386"
+    docket: "82-1453"
+    citation: "464 U.S. 386"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 17, 1984"
-    citation: "464 U.S. 386"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1983-056"
@@ -328,9 +424,12 @@ cases:
     title: "Kosak v. United States"
     volume: "465"
     page: "848"
+    docket: "82-618"
+    citation: "465 U.S. 848"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 21, 1984"
-    citation: "465 U.S. 848"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1983-070"
@@ -338,9 +437,12 @@ cases:
     title: "Trans World Airlines, Inc. v. Franklin Mint Corp."
     volume: "466"
     page: "243"
+    docket: "82-1186"
+    citation: "466 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 17, 1984"
-    citation: "466 U.S. 243"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1983-112"
@@ -348,9 +450,12 @@ cases:
     title: "Colorado v. New Mexico"
     volume: "467"
     page: "310"
+    docket: "80 Orig."
+    citation: "467 U.S. 310"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1984"
-    citation: "467 U.S. 310"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1983-115"
@@ -358,9 +463,12 @@ cases:
     title: "Aluminum Co. of America v. Central Lincoln Peoples&apos; Util. Dist."
     volume: "467"
     page: "380"
+    docket: "82-1071"
+    citation: "467 U.S. 380"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 5, 1984"
-    citation: "467 U.S. 380"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1983-123"
@@ -368,9 +476,12 @@ cases:
     title: "Furniture Moving Drivers v. Crowley"
     volume: "467"
     page: "526"
+    docket: "82-432"
+    citation: "467 U.S. 526"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 12, 1984"
-    citation: "467 U.S. 526"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1984-002"
@@ -378,9 +489,12 @@ cases:
     title: "Department of Justice v. Provenzano"
     volume: "469"
     page: "014"
+    docket: "83-1045"
+    citation: "469 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, November 26, 1984"
-    citation: "469 U.S. 14"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1984-014"
@@ -388,9 +502,12 @@ cases:
     title: "Park &apos;N Fly, Inc. v. Dollar Park &amp; Fly, Inc."
     volume: "469"
     page: "189"
+    docket: "83-1132"
+    citation: "469 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 8, 1985"
-    citation: "469 U.S. 189"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1984-056"
@@ -398,9 +515,12 @@ cases:
     title: "Florida Power &amp; Light Co. v. Lorion"
     volume: "470"
     page: "729"
+    docket: "83-703"
+    citation: "470 U.S. 729"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 20, 1985"
-    citation: "470 U.S. 729"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1984-104"
@@ -408,9 +528,12 @@ cases:
     title: "Landreth Timber Co. v. Landreth"
     volume: "471"
     page: "681"
+    docket: "83-1961"
+    citation: "471 U.S. 681"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 1985"
-    citation: "471 U.S. 681"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1984-105"
@@ -418,9 +541,12 @@ cases:
     title: "Gould v. Ruefenacht"
     volume: "471"
     page: "701"
+    docket: "84-165"
+    citation: "471 U.S. 701"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 1985"
-    citation: "471 U.S. 701"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1984-110"
@@ -428,9 +554,12 @@ cases:
     title: "Oklahoma City v. Tuttle"
     volume: "471"
     page: "808"
+    docket: "83-1919"
+    citation: "471 U.S. 808"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1985"
-    citation: "471 U.S. 808"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1984-126"
@@ -438,9 +567,12 @@ cases:
     title: "Richardson-Merrell Inc. v. Koller"
     volume: "472"
     page: "424"
+    docket: "84-127"
+    citation: "472 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Monday, June 17, 1985"
-    citation: "472 U.S. 424"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1985-007"
@@ -448,9 +580,12 @@ cases:
     title: "Pennsylvania Bureau of Correction v. United States Marshals Service"
     volume: "474"
     page: "034"
+    docket: "84-489"
+    citation: "474 U.S. 34"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1985"
-    citation: "474 U.S. 34"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1985-049"
@@ -458,9 +593,12 @@ cases:
     title: "Exxon Corp. v. Hunt"
     volume: "475"
     page: "355"
+    docket: "84-978"
+    citation: "475 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1986"
-    citation: "475 U.S. 355"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1985-063"
@@ -468,9 +606,12 @@ cases:
     title: "Icicle Seafoods, Inc. v. Worthington"
     volume: "475"
     page: "709"
+    docket: "85-195"
+    citation: "475 U.S. 709"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1986"
-    citation: "475 U.S. 709"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1985-071"
@@ -478,9 +619,12 @@ cases:
     title: "Sorenson v. Secretary of Treasury"
     volume: "475"
     page: "851"
+    docket: "84-1686"
+    citation: "475 U.S. 851"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 22, 1986"
-    citation: "475 U.S. 851"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1985-075"
@@ -488,9 +632,12 @@ cases:
     title: "EEOC v. FLRA"
     volume: "476"
     page: "019"
+    docket: "84-1728"
+    citation: "476 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 29, 1986"
-    citation: "476 U.S. 19"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1985-112"
@@ -498,9 +645,12 @@ cases:
     title: "Lyng v. Payne"
     volume: "476"
     page: "926"
+    docket: "84-1948"
+    citation: "476 U.S. 926"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1986"
-    citation: "476 U.S. 926"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1985-114"
@@ -508,9 +658,12 @@ cases:
     title: "Young v. Community Nutrition Institute"
     volume: "476"
     page: "974"
+    docket: "85-664"
+    citation: "476 U.S. 974"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1986"
-    citation: "476 U.S. 974"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1985-120"
@@ -518,9 +671,12 @@ cases:
     title: "United States v. American Bar Endowment"
     volume: "477"
     page: "105"
+    docket: "85-599"
+    citation: "477 U.S. 105"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1986"
-    citation: "477 U.S. 105"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1985-121"
@@ -528,9 +684,12 @@ cases:
     title: "Maine v. Taylor"
     volume: "477"
     page: "131"
+    docket: "85-62"
+    citation: "477 U.S. 131"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 24, 1986"
-    citation: "477 U.S. 131"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1986-033"
@@ -538,9 +697,12 @@ cases:
     title: "Iowa Mut. Ins. Co. v. LaPlante"
     volume: "480"
     page: "009"
+    docket: "85-1589"
+    citation: "480 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1987"
-    citation: "480 U.S. 9"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1986-140"
@@ -548,9 +710,12 @@ cases:
     title: "Commissioner v. Fink"
     volume: "483"
     page: "089"
+    docket: "86-511"
+    citation: "483 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1987"
-    citation: "483 U.S. 89"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1987-041"
@@ -558,9 +723,12 @@ cases:
     title: "St. Louis v. Praprotnik"
     volume: "485"
     page: "112"
+    docket: "86-772"
+    citation: "485 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 2, 1988"
-    citation: "485 U.S. 112"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1987-113"
@@ -568,9 +736,12 @@ cases:
     title: "Pinter v. Dahl"
     volume: "486"
     page: "622"
+    docket: "86-805"
+    citation: "486 U.S. 622"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 15, 1988"
-    citation: "486 U.S. 622"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1987-133"
@@ -578,9 +749,12 @@ cases:
     title: "Doe v. United States"
     volume: "487"
     page: "201"
+    docket: "86-1753"
+    citation: "487 U.S. 201"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 22, 1988"
-    citation: "487 U.S. 201"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1988-062"
@@ -588,9 +762,12 @@ cases:
     title: "Davis v. Michigan Dept. of Treasury"
     volume: "489"
     page: "803"
+    docket: "87-1020"
+    citation: "489 U.S. 803"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 28, 1989"
-    citation: "489 U.S. 803"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1988-099"
@@ -598,9 +775,12 @@ cases:
     title: "Mead Corp. v. Tilley"
     volume: "490"
     page: "714"
+    docket: "87-1868"
+    citation: "490 U.S. 714"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1989"
-    citation: "490 U.S. 714"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1989-003"
@@ -608,9 +788,12 @@ cases:
     title: "Northbrook Nat. Ins. Co. v. Brewer"
     volume: "493"
     page: "006"
+    docket: "88-995"
+    citation: "493 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 7, 1989"
-    citation: "493 U.S. 6"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1989-089"
@@ -618,9 +801,12 @@ cases:
     title: "Citibank, N. A. v. Wells Fargo Asia Ltd."
     volume: "495"
     page: "660"
+    docket: "88-1260"
+    citation: "495 U.S. 660"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 29, 1990"
-    citation: "495 U.S. 660"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1989-101"
@@ -628,9 +814,12 @@ cases:
     title: "Board of Ed. of Westside Community Schools (Dist. 66) v. Mergens"
     volume: "496"
     page: "226"
+    docket: "88-1597"
+    citation: "496 U.S. 226"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1990"
-    citation: "496 U.S. 226"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1989-107"
@@ -638,9 +827,12 @@ cases:
     title: "Cooter &amp; Gell v. Hartmarx Corp."
     volume: "496"
     page: "384"
+    docket: "89-275"
+    citation: "496 U.S. 384"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1990"
-    citation: "496 U.S. 384"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1989-116"
@@ -648,9 +840,12 @@ cases:
     title: "Pension Benefit Guaranty Corporation v. LTV Corp."
     volume: "496"
     page: "633"
+    docket: "89-390"
+    citation: "496 U.S. 633"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1990"
-    citation: "496 U.S. 633"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1990-010"
@@ -658,9 +853,12 @@ cases:
     title: "FMC Corp. v. Holliday"
     volume: "498"
     page: "052"
+    docket: "89-1048"
+    citation: "498 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 27, 1990"
-    citation: "498 U.S. 52"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1990-012"
@@ -668,9 +866,12 @@ cases:
     title: "Irwin v. Department of Veterans Affairs"
     volume: "498"
     page: "089"
+    docket: "89-5867"
+    citation: "498 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1990"
-    citation: "498 U.S. 89"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1990-047"
@@ -678,9 +879,12 @@ cases:
     title: "United States v. Smith"
     volume: "499"
     page: "160"
+    docket: "89-1646"
+    citation: "499 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 20, 1991"
-    citation: "499 U.S. 160"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1990-082"
@@ -688,9 +892,12 @@ cases:
     title: "Owen v. Owen"
     volume: "500"
     page: "305"
+    docket: "89-1008"
+    citation: "500 U.S. 305"
     pdfSource: "loc"
     dateDecision: "Thursday, May 23, 1991"
-    citation: "500 U.S. 305"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1990-103"
@@ -698,9 +905,12 @@ cases:
     title: "Toibb v. Radloff"
     volume: "501"
     page: "157"
+    docket: "90-368"
+    citation: "501 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Thursday, June 13, 1991"
-    citation: "501 U.S. 157"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1991-002"
@@ -708,9 +918,12 @@ cases:
     title: "Mireles v. Waco"
     volume: "502"
     page: "009"
+    docket: "91-311"
+    citation: "502 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Monday, October 21, 1991"
-    citation: "502 U.S. 9"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1991-018"
@@ -718,9 +931,12 @@ cases:
     title: "Hunter v. Bryant"
     volume: "502"
     page: "224"
+    docket: "90-1440"
+    citation: "502 U.S. 224"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1991"
-    citation: "502 U.S. 224"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1991-064"
@@ -728,9 +944,12 @@ cases:
     title: "Taylor v. Freeland &amp; Kronz"
     volume: "503"
     page: "638"
+    docket: "91-571"
+    citation: "503 U.S. 638"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 21, 1992"
-    citation: "503 U.S. 638"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1991-094"
@@ -738,9 +957,12 @@ cases:
     title: "Nordlinger v. Hahn"
     volume: "505"
     page: "001"
+    docket: "90-1912"
+    citation: "505 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Thursday, June 18, 1992"
-    citation: "505 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1991-103"
@@ -748,9 +970,12 @@ cases:
     title: "United States v. Salerno"
     volume: "505"
     page: "317"
+    docket: "91-872"
+    citation: "505 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Friday, June 19, 1992"
-    citation: "505 U.S. 317"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1992-011"
@@ -758,9 +983,12 @@ cases:
     title: "District of Columbia v. Greater Washington Bd. of Trade"
     volume: "506"
     page: "125"
+    docket: "91-1326"
+    citation: "506 U.S. 125"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1992"
-    citation: "506 U.S. 125"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1992-012"
@@ -768,9 +996,12 @@ cases:
     title: "Puerto Rico Aqueduct and Sewer Authority v. Metcalf &amp; Eddy, Inc."
     volume: "506"
     page: "139"
+    docket: "91-1010"
+    citation: "506 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 12, 1993"
-    citation: "506 U.S. 139"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1992-014"
@@ -778,9 +1009,12 @@ cases:
     title: "Commissioner v. Soliman"
     volume: "506"
     page: "168"
+    docket: "91-998"
+    citation: "506 U.S. 168"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 12, 1993"
-    citation: "506 U.S. 168"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1992-038"
@@ -788,9 +1022,12 @@ cases:
     title: "Smith v. United States"
     volume: "507"
     page: "197"
+    docket: "91-1538"
+    citation: "507 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1993"
-    citation: "507 U.S. 197"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1992-052"
@@ -798,9 +1035,12 @@ cases:
     title: "United States v. Texas"
     volume: "507"
     page: "529"
+    docket: "91-1729"
+    citation: "507 U.S. 529"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1993"
-    citation: "507 U.S. 529"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1992-074"
@@ -808,9 +1048,12 @@ cases:
     title: "Commissioner v. Keystone Consol. Industries, Inc."
     volume: "508"
     page: "152"
+    docket: "91-1677"
+    citation: "508 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1993"
-    citation: "508 U.S. 152"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1992-077"
@@ -818,9 +1061,12 @@ cases:
     title: "Keene Corp. v. United States"
     volume: "508"
     page: "200"
+    docket: "92-166"
+    citation: "508 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1993"
-    citation: "508 U.S. 200"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1993-019"
@@ -828,9 +1074,12 @@ cases:
     title: "Department of Revenue of Ore. v. ACF Industries, Inc."
     volume: "510"
     page: "332"
+    docket: "92-74"
+    citation: "510 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Monday, January 24, 1994"
-    citation: "510 U.S. 332"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1993-021"
@@ -838,9 +1087,12 @@ cases:
     title: "Caspari v. Bohlen"
     volume: "510"
     page: "383"
+    docket: "92-1500"
+    citation: "510 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 23, 1994"
-    citation: "510 U.S. 383"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1994-001"
@@ -848,9 +1100,12 @@ cases:
     title: "In re Whitaker"
     volume: "513"
     page: "001"
+    docket: "93-9220"
+    citation: "513 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, October 11, 1994"
-    citation: "513 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1994-007"
@@ -858,9 +1113,12 @@ cases:
     title: "Federal Election Comm&apos;n v. NRA Political Victory Fund"
     volume: "513"
     page: "088"
+    docket: "93-1151"
+    citation: "513 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 6, 1994"
-    citation: "513 U.S. 88"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1994-013"
@@ -868,9 +1126,12 @@ cases:
     title: "Asgrow Seed Co. v. Winterboer"
     volume: "513"
     page: "179"
+    docket: "92-2038"
+    citation: "513 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 18, 1995"
-    citation: "513 U.S. 179"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1994-020"
@@ -878,9 +1139,12 @@ cases:
     title: "Duncan v. Henry"
     volume: "513"
     page: "364"
+    docket: "94-941"
+    citation: "513 U.S. 364"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1995"
-    citation: "513 U.S. 364"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1994-025"
@@ -888,9 +1152,12 @@ cases:
     title: "Harris v. Alabama"
     volume: "513"
     page: "504"
+    docket: "93-7659"
+    citation: "513 U.S. 504"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 22, 1995"
-    citation: "513 U.S. 504"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1994-039"
@@ -898,9 +1165,12 @@ cases:
     title: "Whitaker v. Superior Court of Cal., San Francisco Cty."
     volume: "514"
     page: "208"
+    docket: "94-7743"
+    citation: "514 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1995"
-    citation: "514 U.S. 208"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1994-065"
@@ -908,9 +1178,12 @@ cases:
     title: "Reno v. Koray"
     volume: "515"
     page: "050"
+    docket: "94-790"
+    citation: "515 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1995"
-    citation: "515 U.S. 50"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1994-071"
@@ -918,9 +1191,12 @@ cases:
     title: "Metropolitan Stevedore Co. v. Rambo"
     volume: "515"
     page: "291"
+    docket: "94-820"
+    citation: "515 U.S. 291"
     pdfSource: "loc"
     dateDecision: "Monday, June 12, 1995"
-    citation: "515 U.S. 291"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1994-076"
@@ -928,9 +1204,12 @@ cases:
     title: "Witte v. United States"
     volume: "515"
     page: "389"
+    docket: "94-6187"
+    citation: "515 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 14, 1995"
-    citation: "515 U.S. 389"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1994-082"
@@ -938,9 +1217,12 @@ cases:
     title: "Vimar Seguros y Reaseguros, S. A. v. M/V Sky Reefer"
     volume: "515"
     page: "528"
+    docket: "94-623"
+    citation: "515 U.S. 528"
     pdfSource: "loc"
     dateDecision: "Monday, June 19, 1995"
-    citation: "515 U.S. 528"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1995-005"
@@ -948,9 +1230,12 @@ cases:
     title: "Libretti v. United States"
     volume: "516"
     page: "029"
+    docket: "94-7427"
+    citation: "516 U.S. 29"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 7, 1995"
-    citation: "516 U.S. 29"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1995-021"
@@ -958,9 +1243,12 @@ cases:
     title: "Attwood v. Singletary"
     volume: "516"
     page: "297"
+    docket: "95-6710"
+    citation: "516 U.S. 297"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1996"
-    citation: "516 U.S. 297"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1995-024"
@@ -968,9 +1256,12 @@ cases:
     title: "Peacock v. Thomas"
     volume: "516"
     page: "349"
+    docket: "94-1453"
+    citation: "516 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 21, 1996"
-    citation: "516 U.S. 349"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1995-025"
@@ -978,9 +1269,12 @@ cases:
     title: "Jones v. ABC-TV"
     volume: "516"
     page: "363"
+    docket: "95-7186"
+    citation: "516 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1996"
-    citation: "516 U.S. 363"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1995-042"
@@ -988,9 +1282,12 @@ cases:
     title: "Shieh v. Kakita"
     volume: "517"
     page: "343"
+    docket: "95-7587"
+    citation: "517 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1996"
-    citation: "517 U.S. 343"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1995-048"
@@ -998,9 +1295,12 @@ cases:
     title: "United States v. Armstrong"
     volume: "517"
     page: "456"
+    docket: "95-157"
+    citation: "517 U.S. 456"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1996"
-    citation: "517 U.S. 456"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1995-078"
@@ -1008,9 +1308,12 @@ cases:
     title: "Brown v. Pro Football, Inc."
     volume: "518"
     page: "231"
+    docket: "95-388"
+    citation: "518 U.S. 231"
     pdfSource: "loc"
     dateDecision: "Thursday, June 20, 1996"
-    citation: "518 U.S. 231"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1995-079"
@@ -1018,9 +1321,12 @@ cases:
     title: "United States v. Ursery"
     volume: "518"
     page: "267"
+    docket: "95-345"
+    citation: "518 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Monday, June 24, 1996"
-    citation: "518 U.S. 267"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1995-081"
@@ -1028,9 +1334,12 @@ cases:
     title: "Lewis v. Casey"
     volume: "518"
     page: "343"
+    docket: "94-1511"
+    citation: "518 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, June 24, 1996"
-    citation: "518 U.S. 343"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1996-005"
@@ -1038,9 +1347,12 @@ cases:
     title: "Ohio v. Robinette"
     volume: "519"
     page: "033"
+    docket: "95-891"
+    citation: "519 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1996"
-    citation: "519 U.S. 33"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1996-007"
@@ -1048,9 +1360,12 @@ cases:
     title: "In re Gaydos"
     volume: "519"
     page: "059"
+    docket: "96-5831"
+    citation: "519 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1996"
-    citation: "519 U.S. 59"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1996-012"
@@ -1058,9 +1373,12 @@ cases:
     title: "United States v. Watts"
     volume: "519"
     page: "148"
+    docket: "95-1906"
+    citation: "519 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1997"
-    citation: "519 U.S. 148"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1996-017"
@@ -1068,9 +1386,12 @@ cases:
     title: "Babbitt v. Youpee"
     volume: "519"
     page: "234"
+    docket: "95-1595"
+    citation: "519 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 21, 1997"
-    citation: "519 U.S. 234"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1996-019"
@@ -1078,9 +1399,12 @@ cases:
     title: "General Motors Corp. v. Tracy"
     volume: "519"
     page: "278"
+    docket: "95-1232"
+    citation: "519 U.S. 278"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 18, 1997"
-    citation: "519 U.S. 278"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1996-031"
@@ -1088,9 +1412,12 @@ cases:
     title: "United States v. Wells"
     volume: "519"
     page: "482"
+    docket: "95-1228"
+    citation: "519 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 26, 1997"
-    citation: "519 U.S. 482"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1996-043"
@@ -1098,9 +1425,12 @@ cases:
     title: "In re Vey"
     volume: "520"
     page: "303"
+    docket: "96-8005"
+    citation: "520 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1997"
-    citation: "520 U.S. 303"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1996-071"
@@ -1108,9 +1438,12 @@ cases:
     title: "Vey v. Clinton"
     volume: "520"
     page: "937"
+    docket: "96-8796"
+    citation: "520 U.S. 937"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1997"
-    citation: "520 U.S. 937"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1996-073"
@@ -1118,9 +1451,12 @@ cases:
     title: "Associates Commercial Corp. v. Rash"
     volume: "520"
     page: "953"
+    docket: "96-454"
+    citation: "520 U.S. 953"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1997"
-    citation: "520 U.S. 953"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1997-001"
@@ -1128,9 +1464,12 @@ cases:
     title: "Brown v. Williams"
     volume: "522"
     page: "001"
+    docket: "97-5370"
+    citation: "522 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, October 20, 1997"
-    citation: "522 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1997-007"
@@ -1138,9 +1477,12 @@ cases:
     title: "Jefferson v. City of Tarrant"
     volume: "522"
     page: "075"
+    docket: "96-957"
+    citation: "522 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 9, 1997"
-    citation: "522 U.S. 75"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1997-027"
@@ -1148,9 +1490,12 @@ cases:
     title: "Arteaga v. United States Court of Appeals for Ninth Circuit"
     volume: "522"
     page: "446"
+    docket: "97-6749"
+    citation: "522 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1998"
-    citation: "522 U.S. 446"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1997-032"
@@ -1158,9 +1503,12 @@ cases:
     title: "Spencer v. Kemna"
     volume: "523"
     page: "001"
+    docket: "96-7171"
+    citation: "523 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1998"
-    citation: "523 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1997-042"
@@ -1168,9 +1516,12 @@ cases:
     title: "Glendora v. Porzio"
     volume: "523"
     page: "206"
+    docket: "97-7300"
+    citation: "523 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1998"
-    citation: "523 U.S. 206"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1997-048"
@@ -1178,9 +1529,12 @@ cases:
     title: "United States v. Scheffer"
     volume: "523"
     page: "303"
+    docket: "96-1133"
+    citation: "523 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 31, 1998"
-    citation: "523 U.S. 303"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1997-078"
@@ -1188,9 +1542,12 @@ cases:
     title: "Hopkins v. Reeves"
     volume: "524"
     page: "088"
+    docket: "96-1693"
+    citation: "524 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1998"
-    citation: "524 U.S. 88"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1997-086"
@@ -1198,9 +1555,12 @@ cases:
     title: "American Telephone &amp; Telegraph Co. v. Central Office Telephone, Inc."
     volume: "524"
     page: "214"
+    docket: "97-679"
+    citation: "524 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1998"
-    citation: "524 U.S. 214"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1998-010"
@@ -1208,9 +1568,12 @@ cases:
     title: "In re Kennedy"
     volume: "525"
     page: "153"
+    docket: "98-6945"
+    citation: "525 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1999"
-    citation: "525 U.S. 153"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1998-011"
@@ -1218,9 +1581,12 @@ cases:
     title: "El Al Israel Airlines, Ltd. v. Tsui Yuan Tseng"
     volume: "525"
     page: "155"
+    docket: "97-475"
+    citation: "525 U.S. 155"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 12, 1999"
-    citation: "525 U.S. 155"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1998-028"
@@ -1228,9 +1594,12 @@ cases:
     title: "American Mfrs. Mut. Ins. Co. v. Sullivan"
     volume: "526"
     page: "040"
+    docket: "97-2000"
+    citation: "526 U.S. 40"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 3, 1999"
-    citation: "526 U.S. 40"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1998-033"
@@ -1238,9 +1607,12 @@ cases:
     title: "Schwarz v. National Security Agency"
     volume: "526"
     page: "122"
+    docket: "98-7771"
+    citation: "526 U.S. 122"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1999"
-    citation: "526 U.S. 122"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1998-035"
@@ -1248,9 +1620,12 @@ cases:
     title: "Rivera v. Florida Dept. of Corrections"
     volume: "526"
     page: "135"
+    docket: "98-7450"
+    citation: "526 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1999"
-    citation: "526 U.S. 135"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1998-040"
@@ -1258,9 +1633,12 @@ cases:
     title: "Lowe v. Pogue"
     volume: "526"
     page: "273"
+    docket: "98-7591"
+    citation: "526 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1999"
-    citation: "526 U.S. 273"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1998-050"
@@ -1268,9 +1646,12 @@ cases:
     title: "Bank of America Nat. Trust and Sav. Assn. v. 203 North LaSalle Street Partnership"
     volume: "526"
     page: "434"
+    docket: "97-1418"
+    citation: "526 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, May 3, 1999"
-    citation: "526 U.S. 434"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1998-058"
@@ -1278,9 +1659,12 @@ cases:
     title: "Wilson v. Layne"
     volume: "526"
     page: "603"
+    docket: "98-83"
+    citation: "526 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1999"
-    citation: "526 U.S. 603"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1998-063"
@@ -1288,9 +1672,12 @@ cases:
     title: "Hanlon v. Berger"
     volume: "526"
     page: "808"
+    docket: "97-1927"
+    citation: "526 U.S. 808"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1999"
-    citation: "526 U.S. 808"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1998-064"
@@ -1298,9 +1685,12 @@ cases:
     title: "Cross v. Pelican Bay State Prison"
     volume: "526"
     page: "811"
+    docket: "98-8486"
+    citation: "526 U.S. 811"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1999"
-    citation: "526 U.S. 811"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1998-082"
@@ -1308,9 +1698,12 @@ cases:
     title: "Fertel-Rust v. Milwaukee County Mental Health Center"
     volume: "527"
     page: "469"
+    docket: "98-8952"
+    citation: "527 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1999"
-    citation: "527 U.S. 469"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1998-093"
@@ -1318,9 +1711,12 @@ cases:
     title: "Whitfield v. Texas"
     volume: "527"
     page: "885"
+    docket: "98-9085"
+    citation: "527 U.S. 885"
     pdfSource: "loc"
     dateDecision: "Thursday, June 24, 1999"
-    citation: "527 U.S. 885"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1999-002"
@@ -1328,9 +1724,12 @@ cases:
     title: "Brancato v. Gunn"
     volume: "528"
     page: "001"
+    docket: "98-9913"
+    citation: "528 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, October 12, 1999"
-    citation: "528 U.S. 1"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1999-003"
@@ -1338,9 +1737,12 @@ cases:
     title: "Antonelli v. Caridine"
     volume: "528"
     page: "003"
+    docket: "98-9933"
+    citation: "528 U.S. 3"
     pdfSource: "loc"
     dateDecision: "Tuesday, October 12, 1999"
-    citation: "528 U.S. 3"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1999-004"
@@ -1348,9 +1750,12 @@ cases:
     title: "Judd v. United States Dist. Court for Western Dist. of Tex."
     volume: "528"
     page: "005"
+    docket: "99-5260"
+    citation: "528 U.S. 5"
     pdfSource: "loc"
     dateDecision: "Tuesday, October 12, 1999"
-    citation: "528 U.S. 5"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1999-005"
@@ -1358,9 +1763,12 @@ cases:
     title: "Prunty v. Brooks"
     volume: "528"
     page: "009"
+    docket: "99-5316"
+    citation: "528 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Tuesday, October 12, 1999"
-    citation: "528 U.S. 9"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1999-008"
@@ -1368,9 +1776,12 @@ cases:
     title: "In re Bauer"
     volume: "528"
     page: "016"
+    docket: "99-5440"
+    citation: "528 U.S. 16"
     pdfSource: "loc"
     dateDecision: "Monday, October 18, 1999"
-    citation: "528 U.S. 16"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "1999-084"
@@ -1378,9 +1789,12 @@ cases:
     title: "Mobil Oil Exploration &amp; Producing Southeast, Inc. v. United States"
     volume: "530"
     page: "604"
+    docket: "99-244"
+    citation: "530 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Monday, June 26, 2000"
-    citation: "530 U.S. 604"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2000-015"
@@ -1388,9 +1802,12 @@ cases:
     title: "Seling v. Young"
     volume: "531"
     page: "250"
+    docket: "99-1185"
+    citation: "531 U.S. 250"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 17, 2001"
-    citation: "531 U.S. 250"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2000-020"
@@ -1398,9 +1815,12 @@ cases:
     title: "Illinois v. McArthur"
     volume: "531"
     page: "326"
+    docket: "99-1132"
+    citation: "531 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 20, 2001"
-    citation: "531 U.S. 326"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2000-051"
@@ -1408,9 +1828,12 @@ cases:
     title: "Major League Baseball Players Assn. v. Garvey"
     volume: "532"
     page: "504"
+    docket: "00-1210"
+    citation: "532 U.S. 504"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 2001"
-    citation: "532 U.S. 504"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2000-066"
@@ -1418,9 +1841,12 @@ cases:
     title: "United Dominion Industries, Inc. v. United States"
     volume: "532"
     page: "822"
+    docket: "00-157"
+    citation: "532 U.S. 822"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 2001"
-    citation: "532 U.S. 822"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2001-029"
@@ -1428,9 +1854,12 @@ cases:
     title: "United States v. Vonn"
     volume: "535"
     page: "055"
+    docket: "00-973"
+    citation: "535 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 2002"
-    citation: "535 U.S. 55"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2001-046"
@@ -1438,9 +1867,12 @@ cases:
     title: "Ashcroft v. American Civil Liberties Union"
     volume: "535"
     page: "564"
+    docket: "00-1293"
+    citation: "535 U.S. 564"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 2002"
-    citation: "535 U.S. 564"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2001-051"
@@ -1448,9 +1880,12 @@ cases:
     title: "Bell v. Cone"
     volume: "535"
     page: "685"
+    docket: "01-400"
+    citation: "535 U.S. 685"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 2002"
-    citation: "535 U.S. 685"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2002-010"
@@ -1458,9 +1893,12 @@ cases:
     title: "Abdur&apos;Rahman v. Bell"
     volume: "537"
     page: "088"
+    docket: "01-9094"
+    citation: "537 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 10, 2002"
-    citation: "537 U.S. 88"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2002-016"
@@ -1468,9 +1906,12 @@ cases:
     title: "United States v. Jimenez Recio"
     volume: "537"
     page: "270"
+    docket: "01-1184"
+    citation: "537 U.S. 270"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 21, 2003"
-    citation: "537 U.S. 270"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2002-021"
@@ -1478,9 +1919,12 @@ cases:
     title: "Scheidler v. National Organization for Women, Inc."
     volume: "537"
     page: "393"
+    docket: "01-1118"
+    citation: "537 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 26, 2003"
-    citation: "537 U.S. 393"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2003-039"
@@ -1488,10 +1932,13 @@ cases:
     title: "Baldwin v. Reese"
     volume: "541"
     page: "027"
+    docket: "02-964"
+    citation: "541 U.S. 27"
     pdfSource: "loc"
     pdfPageDissent: 8
     dateDecision: "Tuesday, March 2, 2004"
-    citation: "541 U.S. 27"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2003-044"
@@ -1499,10 +1946,13 @@ cases:
     title: "Nixon v. Missouri Municipal League"
     volume: "541"
     page: "125"
+    docket: "02-1238"
+    citation: "541 U.S. 125"
     pdfSource: "loc"
     pdfPageDissent: 18
     dateDecision: "Wednesday, March 24, 2004"
-    citation: "541 U.S. 125"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2004-006"
@@ -1510,11 +1960,14 @@ cases:
     title: "Kansas v. Colorado"
     volume: "543"
     page: "086"
+    docket: "105 Orig."
+    citation: "543 U.S. 86"
     pdfSource: "scotusBound"
     pdfPage: 288
     pdfPageDissent: 309
     dateDecision: "Tuesday, December 7, 2004"
-    citation: "543 U.S. 86"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2004-012"
@@ -1522,11 +1975,14 @@ cases:
     title: "Brosseau v. Haugen"
     volume: "543"
     page: "194"
+    docket: "03-1261"
+    citation: "543 U.S. 194"
     pdfSource: "scotusBound"
     pdfPage: 396
     pdfPageDissent: 404
     dateDecision: "Monday, December 13, 2004"
-    citation: "543 U.S. 194"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2004-034"
@@ -1534,11 +1990,14 @@ cases:
     title: "City of Sherrill v. Oneida Indian Nation of N. Y."
     volume: "544"
     page: "197"
+    docket: "03-855"
+    citation: "544 U.S. 197"
     pdfSource: "scotusBound"
     pdfPage: 291
     pdfPageDissent: 316
     dateDecision: "Tuesday, March 29, 2005"
-    citation: "544 U.S. 197"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2005-074"
@@ -1546,9 +2005,12 @@ cases:
     title: "Fernandez-Vargas v. Gonzales"
     volume: "548"
     page: "030"
+    docket: "04-1376"
+    citation: "548 U.S. 30"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 22, 2006"
-    citation: "548 U.S. 30"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2006-037"
@@ -1556,9 +2018,12 @@ cases:
     title: "Scott v. Harris"
     volume: "550"
     page: "372"
+    docket: "05-1631"
+    citation: "550 U.S. 372"
     pdfSource: "scotusBound"
     dateDecision: "Monday, April 30, 2007"
-    citation: "550 U.S. 372"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2006-040"
@@ -1566,9 +2031,12 @@ cases:
     title: "Microsoft Corp. v. AT&amp;T Corp."
     volume: "550"
     page: "437"
+    docket: "05-1056"
+    citation: "550 U.S. 437"
     pdfSource: "scotusBound"
     dateDecision: "Monday, April 30, 2007"
-    citation: "550 U.S. 437"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2006-066"
@@ -1576,9 +2044,12 @@ cases:
     title: "Tellabs, Inc. v. Makor Issues &amp; Rights, Ltd."
     volume: "551"
     page: "308"
+    docket: "06-484"
+    citation: "551 U.S. 308"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 21, 2007"
-    citation: "551 U.S. 308"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2009-002"
@@ -1586,9 +2057,12 @@ cases:
     title: "Alvarez v. Smith"
     volume: "558"
     page: "087"
+    docket: "08-351"
+    citation: "558 U.S. 87"
     pdfSource: "scotusBound"
     dateDecision: "Tuesday, December 8, 2009"
-    citation: "558 U.S. 87"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2009-019"
@@ -1596,9 +2070,12 @@ cases:
     title: "NRG Power Marketing, LLC v. Maine Pub. Util. Comm&rsquo;n"
     volume: "558"
     page: "165"
+    docket: "08-674"
+    citation: "558 U.S. 165"
     pdfSource: "scotusBound"
     dateDecision: "Wednesday, January 13, 2010"
-    citation: "558 U.S. 165"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2009-056"
@@ -1606,9 +2083,12 @@ cases:
     title: "United States v. Marcus"
     volume: "560"
     page: "258"
+    docket: "08-1341"
+    citation: "560 U.S. 258"
     pdfSource: "scotusBound"
     dateDecision: "Monday, May 24, 2010"
-    citation: "560 U.S. 258"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2009-076"
@@ -1616,9 +2096,12 @@ cases:
     title: "Dillon v. United States"
     volume: "560"
     page: "817"
+    docket: "09-6338"
+    citation: "560 U.S. 817"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 17, 2010"
-    citation: "560 U.S. 817"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
   - id: "2009-080"
@@ -1626,9 +2109,12 @@ cases:
     title: "Monsanto Co. v. Geertson Seed Farms"
     volume: "561"
     page: "139"
+    docket: "09-475"
+    citation: "561 U.S. 139"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 21, 2010"
-    citation: "561 U.S. 139"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: jpstevens
     dissenterName: "John Paul Stevens"
 ---

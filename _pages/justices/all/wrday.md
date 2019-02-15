@@ -8,9 +8,12 @@ cases:
     title: "White v. United States"
     volume: "191"
     page: "545"
+    docket: "75"
+    citation: "191 U.S. 545"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1903"
-    citation: "191 U.S. 545"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-006"
@@ -18,9 +21,12 @@ cases:
     title: "Deposit Bank v. Frankfort"
     volume: "191"
     page: "499"
+    docket: "33"
+    citation: "191 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1903"
-    citation: "191 U.S. 499"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wrday
     authorName: "William Day"
   - id: "1903-013"
@@ -28,9 +34,12 @@ cases:
     title: "Pennsylvania R. Co. v. Hughes"
     volume: "191"
     page: "477"
+    docket: "56"
+    citation: "191 U.S. 477"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1903"
-    citation: "191 U.S. 477"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-031"
@@ -38,9 +47,12 @@ cases:
     title: "State Bd. of Assessors v. Comptoir National D&apos;Escompte"
     volume: "191"
     page: "388"
+    docket: "157"
+    citation: "191 U.S. 388"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1903"
-    citation: "191 U.S. 388"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-041"
@@ -48,9 +60,12 @@ cases:
     title: "Allen v. Pullman&apos;s Palace Car Co."
     volume: "191"
     page: "171"
+    docket: "27"
+    citation: "191 U.S. 171"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1903"
-    citation: "191 U.S. 171"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-047"
@@ -58,9 +73,12 @@ cases:
     title: "Choctaw, O. &amp; G. R. Co. v. McDade"
     volume: "191"
     page: "064"
+    docket: "26"
+    citation: "191 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, November 2, 1903"
-    citation: "191 U.S. 64"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-050"
@@ -68,9 +86,12 @@ cases:
     title: "The Southwark"
     volume: "191"
     page: "001"
+    docket: "12"
+    citation: "191 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, October 19, 1903"
-    citation: "191 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-054"
@@ -78,9 +99,12 @@ cases:
     title: "Shappirio v. Goldberg"
     volume: "192"
     page: "232"
+    docket: "87"
+    citation: "192 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1904"
-    citation: "192 U.S. 232"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-055"
@@ -88,9 +112,12 @@ cases:
     title: "Commercial Nat. Bank v. Weinhard"
     volume: "192"
     page: "243"
+    docket: "109"
+    citation: "192 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1904"
-    citation: "192 U.S. 243"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-074"
@@ -98,9 +125,12 @@ cases:
     title: "New York County Nat. Bank v. Massey"
     volume: "192"
     page: "138"
+    docket: "90"
+    citation: "192 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1904"
-    citation: "192 U.S. 138"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1903-080"
@@ -108,9 +138,12 @@ cases:
     title: "Lowe v. United States"
     volume: "194"
     page: "193"
+    docket: "212"
+    citation: "194 U.S. 193"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1904"
-    citation: "194 U.S. 193"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-082"
@@ -118,9 +151,12 @@ cases:
     title: "Mendezona y Mendezona v. United States"
     volume: "195"
     page: "158"
+    docket: "584"
+    citation: "195 U.S. 158"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1904"
-    citation: "195 U.S. 158"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wrday
     authorName: "William Day"
   - id: "1903-096"
@@ -128,9 +164,12 @@ cases:
     title: "Field v. Barber Asphalt Paving Co."
     volume: "194"
     page: "618"
+    docket: "201"
+    citation: "194 U.S. 618"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1904"
-    citation: "194 U.S. 618"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-102"
@@ -138,9 +177,12 @@ cases:
     title: "Kepner v. United States"
     volume: "195"
     page: "100"
+    docket: "244"
+    citation: "195 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1904"
-    citation: "195 U.S. 100"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wrday
     authorName: "William Day"
   - id: "1903-103"
@@ -148,9 +190,12 @@ cases:
     title: "Dorr v. United States"
     volume: "195"
     page: "138"
+    docket: "583"
+    citation: "195 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1904"
-    citation: "195 U.S. 138"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1903-133"
@@ -158,9 +203,12 @@ cases:
     title: "Raphael v. Trask"
     volume: "194"
     page: "272"
+    docket: "229"
+    citation: "194 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1904"
-    citation: "194 U.S. 272"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-138"
@@ -168,9 +216,12 @@ cases:
     title: "Gibson v. United States"
     volume: "194"
     page: "182"
+    docket: "195"
+    citation: "194 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1904"
-    citation: "194 U.S. 182"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-160"
@@ -178,9 +229,12 @@ cases:
     title: "Wright v. Minnesota Mut. Life Ins. Co."
     volume: "193"
     page: "657"
+    docket: "178"
+    citation: "193 U.S. 657"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1904"
-    citation: "193 U.S. 657"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-163"
@@ -188,9 +242,12 @@ cases:
     title: "ICC v. Baird"
     volume: "194"
     page: "025"
+    docket: "409"
+    citation: "194 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1904"
-    citation: "194 U.S. 25"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1903-172"
@@ -198,9 +255,12 @@ cases:
     title: "Adams v. Church"
     volume: "193"
     page: "510"
+    docket: "169"
+    citation: "193 U.S. 510"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1904"
-    citation: "193 U.S. 510"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-173"
@@ -208,9 +268,12 @@ cases:
     title: "Tom Hong v. United States"
     volume: "193"
     page: "517"
+    docket: "310"
+    citation: "193 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1904"
-    citation: "193 U.S. 517"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-196"
@@ -218,9 +281,12 @@ cases:
     title: "Adams v. New York"
     volume: "192"
     page: "585"
+    docket: "504"
+    citation: "192 U.S. 585"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "192 U.S. 585"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-205"
@@ -228,9 +294,12 @@ cases:
     title: "Leigh v. Green"
     volume: "193"
     page: "079"
+    docket: "119"
+    citation: "193 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "193 U.S. 79"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-206"
@@ -238,9 +307,12 @@ cases:
     title: "Julian v. Central Trust Co."
     volume: "193"
     page: "093"
+    docket: "139"
+    citation: "193 U.S. 93"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "193 U.S. 93"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-208"
@@ -248,9 +320,12 @@ cases:
     title: "Delaware Indians v. Cherokee Nation"
     volume: "193"
     page: "127"
+    docket: "240"
+    citation: "193 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "193 U.S. 127"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1903-209"
@@ -258,9 +333,12 @@ cases:
     title: "Giles v. Teasley"
     volume: "193"
     page: "146"
+    docket: "337"
+    citation: "193 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1904"
-    citation: "193 U.S. 146"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1904-008"
@@ -268,9 +346,12 @@ cases:
     title: "Wetmore v. Markoe"
     volume: "196"
     page: "068"
+    docket: "56"
+    citation: "196 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1904"
-    citation: "196 U.S. 68"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-009"
@@ -278,9 +359,12 @@ cases:
     title: "Harding v. Illinois"
     volume: "196"
     page: "078"
+    docket: "61"
+    citation: "196 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, December 19, 1904"
-    citation: "196 U.S. 78"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-016"
@@ -288,9 +372,12 @@ cases:
     title: "Bullis v. O&apos;Beirne"
     volume: "195"
     page: "606"
+    docket: "60"
+    citation: "195 U.S. 606"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1904"
-    citation: "195 U.S. 606"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-022"
@@ -298,9 +385,12 @@ cases:
     title: "United States v. Martinez"
     volume: "195"
     page: "469"
+    docket: "15"
+    citation: "195 U.S. 469"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1904"
-    citation: "195 U.S. 469"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1904-036"
@@ -308,9 +398,12 @@ cases:
     title: "Helena Water Works Co. v. Helena"
     volume: "195"
     page: "383"
+    docket: "27"
+    citation: "195 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1904"
-    citation: "195 U.S. 383"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-039"
@@ -318,9 +411,12 @@ cases:
     title: "Dobbins v. Los Angeles"
     volume: "195"
     page: "223"
+    docket: "107"
+    citation: "195 U.S. 223"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1904"
-    citation: "195 U.S. 223"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-040"
@@ -328,9 +424,12 @@ cases:
     title: "Daly v. Elton"
     volume: "195"
     page: "242"
+    docket: "108"
+    citation: "195 U.S. 242"
     pdfSource: "loc"
     dateDecision: "Monday, November 14, 1904"
-    citation: "195 U.S. 242"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-057"
@@ -338,9 +437,12 @@ cases:
     title: "Whitney v. Wenman"
     volume: "198"
     page: "539"
+    docket: "576"
+    citation: "198 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1905"
-    citation: "198 U.S. 539"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-058"
@@ -348,9 +450,12 @@ cases:
     title: "Van Reed v. Peoples Nat. Bank of Lebanon"
     volume: "198"
     page: "554"
+    docket: "229"
+    citation: "198 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1905"
-    citation: "198 U.S. 554"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-059"
@@ -358,9 +463,12 @@ cases:
     title: "Great Western Mining &amp; Mfg. Co. v. Harris"
     volume: "198"
     page: "561"
+    docket: "217"
+    citation: "198 U.S. 561"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1905"
-    citation: "198 U.S. 561"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-077"
@@ -368,9 +476,12 @@ cases:
     title: "Cimiotti Unhairing Co. v. American Fur Refining Co."
     volume: "198"
     page: "399"
+    docket: "192"
+    citation: "198 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1905"
-    citation: "198 U.S. 399"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-100"
@@ -378,9 +489,12 @@ cases:
     title: "Covington v. First Nat. Bank of Covington"
     volume: "198"
     page: "100"
+    docket: "113"
+    citation: "198 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1905"
-    citation: "198 U.S. 100"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-120"
@@ -388,9 +502,12 @@ cases:
     title: "H. Hackfeld &amp; Co. v. United States"
     volume: "197"
     page: "442"
+    docket: "164"
+    citation: "197 U.S. 442"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1905"
-    citation: "197 U.S. 442"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-121"
@@ -398,9 +515,12 @@ cases:
     title: "New Orleans Gas Light Co. v. Drainage Comm&apos;n of New Orleans"
     volume: "197"
     page: "453"
+    docket: "172"
+    citation: "197 U.S. 453"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1905"
-    citation: "197 U.S. 453"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-122"
@@ -408,9 +528,12 @@ cases:
     title: "Iron Cliffs Co. v. Negaunee Iron Co."
     volume: "197"
     page: "463"
+    docket: "173"
+    citation: "197 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1905"
-    citation: "197 U.S. 463"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-123"
@@ -418,9 +541,12 @@ cases:
     title: "United States v. Cadarr"
     volume: "197"
     page: "475"
+    docket: "438"
+    citation: "197 U.S. 475"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1905"
-    citation: "197 U.S. 475"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-139"
@@ -428,9 +554,12 @@ cases:
     title: "District of Columbia v. Barnes"
     volume: "197"
     page: "146"
+    docket: "143"
+    citation: "197 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1905"
-    citation: "197 U.S. 146"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-159"
@@ -438,9 +567,12 @@ cases:
     title: "Sixto v. Sarria"
     volume: "196"
     page: "175"
+    docket: "40"
+    citation: "196 U.S. 175"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1905"
-    citation: "196 U.S. 175"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-163"
@@ -448,9 +580,12 @@ cases:
     title: "Union Stock Yards Co. of Omaha v. Chicago, B. &amp; Q. R. Co."
     volume: "196"
     page: "217"
+    docket: "100"
+    citation: "196 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1905"
-    citation: "196 U.S. 217"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-164"
@@ -458,9 +593,12 @@ cases:
     title: "Slavens v. United States"
     volume: "196"
     page: "229"
+    docket: "228"
+    citation: "196 U.S. 229"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1905"
-    citation: "196 U.S. 229"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-165"
@@ -468,9 +606,12 @@ cases:
     title: "Travis v. United States"
     volume: "196"
     page: "239"
+    docket: "84"
+    citation: "196 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, January 9, 1905"
-    citation: "196 U.S. 239"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-172"
@@ -478,9 +619,12 @@ cases:
     title: "United States v. Crosley"
     volume: "196"
     page: "327"
+    docket: "96"
+    citation: "196 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1905"
-    citation: "196 U.S. 327"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1904-197"
@@ -488,9 +632,12 @@ cases:
     title: "Scottish Union &amp; Nat. Ins. Co. v. Bowland"
     volume: "196"
     page: "611"
+    docket: "360"
+    citation: "196 U.S. 611"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1905"
-    citation: "196 U.S. 611"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-015"
@@ -498,9 +645,12 @@ cases:
     title: "United States v. Utah, Nev. &amp; Cal. Stage Co."
     volume: "199"
     page: "414"
+    docket: "51"
+    citation: "199 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1905"
-    citation: "199 U.S. 414"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-016"
@@ -508,9 +658,12 @@ cases:
     title: "Rogers v. Peck"
     volume: "199"
     page: "425"
+    docket: "368"
+    citation: "199 U.S. 425"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1905"
-    citation: "199 U.S. 425"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-026"
@@ -518,9 +671,12 @@ cases:
     title: "McGuire v. Blount"
     volume: "199"
     page: "142"
+    docket: "6"
+    citation: "199 U.S. 142"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1905"
-    citation: "199 U.S. 142"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-027"
@@ -528,9 +684,12 @@ cases:
     title: "Guthrie v. Harkness"
     volume: "199"
     page: "148"
+    docket: "9"
+    citation: "199 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1905"
-    citation: "199 U.S. 148"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-035"
@@ -538,9 +697,12 @@ cases:
     title: "New York ex rel. Lieberman v. Van De Carr"
     volume: "199"
     page: "552"
+    docket: "71"
+    citation: "199 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Monday, December 11, 1905"
-    citation: "199 U.S. 552"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-061"
@@ -548,9 +710,12 @@ cases:
     title: "United States ex rel. Hill v. American Surety Co. of N. Y."
     volume: "200"
     page: "197"
+    docket: "39"
+    citation: "200 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1906"
-    citation: "200 U.S. 197"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-062"
@@ -558,9 +723,12 @@ cases:
     title: "Alabama Great Southern R. Co. v. Thompson"
     volume: "200"
     page: "206"
+    docket: "58"
+    citation: "200 U.S. 206"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1906"
-    citation: "200 U.S. 206"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-063"
@@ -568,9 +736,12 @@ cases:
     title: "Cincinnati, N. O. &amp; T. P. R. Co. v. Bohon"
     volume: "200"
     page: "221"
+    docket: "177"
+    citation: "200 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 2, 1906"
-    citation: "200 U.S. 221"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-068"
@@ -578,9 +749,12 @@ cases:
     title: "Warner v. Grayson"
     volume: "200"
     page: "257"
+    docket: "89"
+    citation: "200 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1906"
-    citation: "200 U.S. 257"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-102"
@@ -588,9 +762,12 @@ cases:
     title: "Perez v. Fernandez"
     volume: "202"
     page: "080"
+    docket: "1"
+    citation: "202 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Monday, April 23, 1906"
-    citation: "202 U.S. 80"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1905-119"
@@ -598,9 +775,12 @@ cases:
     title: "United States v. Dieckerhoff"
     volume: "202"
     page: "302"
+    docket: "228"
+    citation: "202 U.S. 302"
     pdfSource: "loc"
     dateDecision: "Monday, May 14, 1906"
-    citation: "202 U.S. 302"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-128"
@@ -608,9 +788,12 @@ cases:
     title: "Vicksburg v. Vicksburg Waterworks Co."
     volume: "202"
     page: "453"
+    docket: "133"
+    citation: "202 U.S. 453"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1906"
-    citation: "202 U.S. 453"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1905-129"
@@ -618,9 +801,12 @@ cases:
     title: "Naganab v. Hitchcock"
     volume: "202"
     page: "473"
+    docket: "247"
+    citation: "202 U.S. 473"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1906"
-    citation: "202 U.S. 473"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-130"
@@ -628,9 +814,12 @@ cases:
     title: "Bush v. Elliott"
     volume: "202"
     page: "477"
+    docket: "245"
+    citation: "202 U.S. 477"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1906"
-    citation: "202 U.S. 477"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-138"
@@ -638,9 +827,12 @@ cases:
     title: "McDermott v. Severe"
     volume: "202"
     page: "600"
+    docket: "244"
+    citation: "202 U.S. 600"
     pdfSource: "loc"
     dateDecision: "Monday, May 28, 1906"
-    citation: "202 U.S. 600"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-159"
@@ -648,9 +840,12 @@ cases:
     title: "The Wildcroft"
     volume: "201"
     page: "378"
+    docket: "127"
+    citation: "201 U.S. 378"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1906"
-    citation: "201 U.S. 378"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-160"
@@ -658,9 +853,12 @@ cases:
     title: "United States v. Wickersham"
     volume: "201"
     page: "390"
+    docket: "185"
+    citation: "201 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Monday, April 2, 1906"
-    citation: "201 U.S. 390"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1905-172"
@@ -668,9 +866,12 @@ cases:
     title: "Blair v. Chicago"
     volume: "201"
     page: "400"
+    docket: "331"
+    citation: "201 U.S. 400"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1906"
-    citation: "201 U.S. 400"
+    voteMajority: 6
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1906-001"
@@ -678,9 +879,12 @@ cases:
     title: "New Mexico ex rel. E. J. McLean &amp; Co. v. Denver &amp; Rio Grande R. Co."
     volume: "203"
     page: "038"
+    docket: "18"
+    citation: "203 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Monday, October 15, 1906"
-    citation: "203 U.S. 38"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-007"
@@ -688,9 +892,12 @@ cases:
     title: "Covington &amp; Cincinnati Bridge Co. v. Hager"
     volume: "203"
     page: "109"
+    docket: "37"
+    citation: "203 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1906"
-    citation: "203 U.S. 109"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-008"
@@ -698,9 +905,12 @@ cases:
     title: "Commissioners of Wicomico Cty. v. Bancroft"
     volume: "203"
     page: "112"
+    docket: "129"
+    citation: "203 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1906"
-    citation: "203 U.S. 112"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-016"
@@ -708,9 +918,12 @@ cases:
     title: "Clark v. Wells"
     volume: "203"
     page: "164"
+    docket: "42"
+    citation: "203 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Monday, November 19, 1906"
-    citation: "203 U.S. 164"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-043"
@@ -718,9 +931,12 @@ cases:
     title: "New York Foundling Hospital v. Gatti"
     volume: "203"
     page: "429"
+    docket: "21"
+    citation: "203 U.S. 429"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 429"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-044"
@@ -728,9 +944,12 @@ cases:
     title: "Crane v. Buckley"
     volume: "203"
     page: "441"
+    docket: "58"
+    citation: "203 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Monday, December 3, 1906"
-    citation: "203 U.S. 441"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-049"
@@ -738,9 +957,12 @@ cases:
     title: "New Jersey v. Anderson"
     volume: "203"
     page: "483"
+    docket: "49"
+    citation: "203 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1906"
-    citation: "203 U.S. 483"
+    voteMajority: 5
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1906-054"
@@ -748,9 +970,12 @@ cases:
     title: "Illinois Central R. Co. v. McKendree"
     volume: "203"
     page: "514"
+    docket: "13"
+    citation: "203 U.S. 514"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1906"
-    citation: "203 U.S. 514"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-079"
@@ -758,9 +983,12 @@ cases:
     title: "Stone v. Southern Ill. &amp; Mo. Bridge Co."
     volume: "206"
     page: "267"
+    docket: "253"
+    citation: "206 U.S. 267"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1907"
-    citation: "206 U.S. 267"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-095"
@@ -768,9 +996,12 @@ cases:
     title: "Iowa Railroad Land Co. v. Blumer"
     volume: "206"
     page: "482"
+    docket: "207"
+    citation: "206 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1907"
-    citation: "206 U.S. 482"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-096"
@@ -778,9 +1009,12 @@ cases:
     title: "Vicksburg v. Vicksburg Waterworks Co."
     volume: "206"
     page: "496"
+    docket: "275"
+    citation: "206 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1907"
-    citation: "206 U.S. 496"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-097"
@@ -788,9 +1022,12 @@ cases:
     title: "Bernheimer v. Converse"
     volume: "206"
     page: "516"
+    docket: "278"
+    citation: "206 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1907"
-    citation: "206 U.S. 516"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-113"
@@ -798,9 +1035,12 @@ cases:
     title: "Chanler v. Kelsey"
     volume: "205"
     page: "466"
+    docket: "240"
+    citation: "205 U.S. 466"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1907"
-    citation: "205 U.S. 466"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1906-124"
@@ -808,9 +1048,12 @@ cases:
     title: "The Winnebago"
     volume: "205"
     page: "354"
+    docket: "218"
+    citation: "205 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1907"
-    citation: "205 U.S. 354"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-125"
@@ -818,9 +1061,12 @@ cases:
     title: "Peterson v. Chicago, R. I. &amp; P. R. Co."
     volume: "205"
     page: "364"
+    docket: "225"
+    citation: "205 U.S. 364"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1907"
-    citation: "205 U.S. 364"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1906-134"
@@ -828,9 +1074,12 @@ cases:
     title: "Empire State-Idaho Mining &amp; Developing Co. v. Hanley"
     volume: "205"
     page: "225"
+    docket: "206"
+    citation: "205 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1907"
-    citation: "205 U.S. 225"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-144"
@@ -838,9 +1087,12 @@ cases:
     title: "Wetmore v. Karrick"
     volume: "205"
     page: "141"
+    docket: "144"
+    citation: "205 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1907"
-    citation: "205 U.S. 141"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-176"
@@ -848,9 +1100,12 @@ cases:
     title: "Doyle v. London Guarantee &amp; Accident Co."
     volume: "204"
     page: "599"
+    docket: "155"
+    citation: "204 U.S. 599"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 599"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-177"
@@ -858,9 +1113,12 @@ cases:
     title: "Computing Scale Co. of America v. Automatic Scale Co."
     volume: "204"
     page: "609"
+    docket: "175"
+    citation: "204 U.S. 609"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 609"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-178"
@@ -868,9 +1126,12 @@ cases:
     title: "Duke v. Turner"
     volume: "204"
     page: "623"
+    docket: "178"
+    citation: "204 U.S. 623"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 623"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-182"
@@ -878,9 +1139,12 @@ cases:
     title: "Chicago v. Mills"
     volume: "204"
     page: "321"
+    docket: "286"
+    citation: "204 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1907"
-    citation: "204 U.S. 321"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1906-205"
@@ -888,9 +1152,12 @@ cases:
     title: "Ohio Valley Nat. Bank v. Hulitt"
     volume: "204"
     page: "162"
+    docket: "108"
+    citation: "204 U.S. 162"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1907"
-    citation: "204 U.S. 162"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-206"
@@ -898,9 +1165,12 @@ cases:
     title: "Zartarian v. Billings"
     volume: "204"
     page: "170"
+    docket: "120"
+    citation: "204 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1907"
-    citation: "204 U.S. 170"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1906-207"
@@ -908,9 +1178,12 @@ cases:
     title: "Wecker v. National Enameling &amp; Stamping Co."
     volume: "204"
     page: "176"
+    docket: "133"
+    citation: "204 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1907"
-    citation: "204 U.S. 176"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-006"
@@ -918,9 +1191,12 @@ cases:
     title: "Lee v. New Jersey"
     volume: "207"
     page: "067"
+    docket: "16"
+    citation: "207 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Monday, October 28, 1907"
-    citation: "207 U.S. 67"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-014"
@@ -928,9 +1204,12 @@ cases:
     title: "Central of Georgia R. Co. v. Wright"
     volume: "207"
     page: "127"
+    docket: "85"
+    citation: "207 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1907"
-    citation: "207 U.S. 127"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-029"
@@ -938,9 +1217,12 @@ cases:
     title: "American Tobacco Co. v. Werckmeister"
     volume: "207"
     page: "284"
+    docket: "28"
+    citation: "207 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1907"
-    citation: "207 U.S. 284"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-037"
@@ -948,9 +1230,12 @@ cases:
     title: "Werckmeister v. American Tobacco Co."
     volume: "207"
     page: "375"
+    docket: "29"
+    citation: "207 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1907"
-    citation: "207 U.S. 375"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-049"
@@ -958,9 +1243,12 @@ cases:
     title: "New York ex rel. Edward &amp; John Burke, Ltd. v. Wells"
     volume: "208"
     page: "014"
+    docket: "39"
+    citation: "208 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1908"
-    citation: "208 U.S. 14"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-050"
@@ -968,9 +1256,12 @@ cases:
     title: "Yosemite Gold Mining &amp; Milling Co. v. Emerson"
     volume: "208"
     page: "025"
+    docket: "69"
+    citation: "208 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1908"
-    citation: "208 U.S. 25"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-051"
@@ -978,9 +1269,12 @@ cases:
     title: "United States v. Miller"
     volume: "208"
     page: "032"
+    docket: "90"
+    citation: "208 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1908"
-    citation: "208 U.S. 32"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-061"
@@ -988,9 +1282,12 @@ cases:
     title: "Houghton v. Meyer"
     volume: "208"
     page: "149"
+    docket: "49"
+    citation: "208 U.S. 149"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1908"
-    citation: "208 U.S. 149"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-100"
@@ -998,9 +1295,12 @@ cases:
     title: "Disconto Gesellschaft v. Umbreit"
     volume: "208"
     page: "570"
+    docket: "63"
+    citation: "208 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 570"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-101"
@@ -1008,9 +1308,12 @@ cases:
     title: "Northern Pacific R. Co. v. Minnesota ex rel. Duluth"
     volume: "208"
     page: "583"
+    docket: "92"
+    citation: "208 U.S. 583"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 583"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-104"
@@ -1018,9 +1321,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. United States"
     volume: "209"
     page: "090"
+    docket: "552"
+    citation: "209 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1908"
-    citation: "209 U.S. 90"
+    voteMajority: 7
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1907-121"
@@ -1028,9 +1334,12 @@ cases:
     title: "In re Wood &amp; Henderson"
     volume: "210"
     page: "246"
+    docket: "167"
+    citation: "210 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1908"
-    citation: "210 U.S. 246"
+    voteMajority: 6
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1907-122"
@@ -1038,9 +1347,12 @@ cases:
     title: "St. Louis v. United Railways Co."
     volume: "210"
     page: "266"
+    docket: "193"
+    citation: "210 U.S. 266"
     pdfSource: "loc"
     dateDecision: "Monday, May 18, 1908"
-    citation: "210 U.S. 266"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-127"
@@ -1048,9 +1360,12 @@ cases:
     title: "Bobbs-Merrill Co. v. Straus"
     volume: "210"
     page: "339"
+    docket: "176"
+    citation: "210 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1908"
-    citation: "210 U.S. 339"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-128"
@@ -1058,9 +1373,12 @@ cases:
     title: "Scribner v. Straus"
     volume: "210"
     page: "352"
+    docket: "204"
+    citation: "210 U.S. 352"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1908"
-    citation: "210 U.S. 352"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-129"
@@ -1068,9 +1386,12 @@ cases:
     title: "Globe Newspaper Co. v. Walker"
     volume: "210"
     page: "356"
+    docket: "210"
+    citation: "210 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1908"
-    citation: "210 U.S. 356"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-130"
@@ -1078,9 +1399,12 @@ cases:
     title: "Western Loan &amp; Sav. Co. v. Butte &amp; Boston Consol. Mining Co."
     volume: "210"
     page: "368"
+    docket: "351"
+    citation: "210 U.S. 368"
     pdfSource: "loc"
     dateDecision: "Monday, June 1, 1908"
-    citation: "210 U.S. 368"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-140"
@@ -1088,9 +1412,12 @@ cases:
     title: "Liu Hop Fong v. United States"
     volume: "209"
     page: "453"
+    docket: "181"
+    citation: "209 U.S. 453"
     pdfSource: "loc"
     dateDecision: "Monday, April 20, 1908"
-    citation: "209 U.S. 453"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-152"
@@ -1098,9 +1425,12 @@ cases:
     title: "Yazoo &amp; Mississippi Valley R. Co. v. Vicksburg"
     volume: "209"
     page: "358"
+    docket: "97"
+    citation: "209 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1908"
-    citation: "209 U.S. 358"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-153"
@@ -1108,9 +1438,12 @@ cases:
     title: "Richardson v. Shaw"
     volume: "209"
     page: "365"
+    docket: "122"
+    citation: "209 U.S. 365"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1908"
-    citation: "209 U.S. 365"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-154"
@@ -1118,9 +1451,12 @@ cases:
     title: "Thomas v. Taggart"
     volume: "209"
     page: "385"
+    docket: "197"
+    citation: "209 U.S. 385"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1908"
-    citation: "209 U.S. 385"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-155"
@@ -1128,9 +1464,12 @@ cases:
     title: "Beadles v. Smyser"
     volume: "209"
     page: "393"
+    docket: "150"
+    citation: "209 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1908"
-    citation: "209 U.S. 393"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-156"
@@ -1138,9 +1477,12 @@ cases:
     title: "Ware &amp; Leland v. Mobile County"
     volume: "209"
     page: "405"
+    docket: "173"
+    citation: "209 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1908"
-    citation: "209 U.S. 405"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1907-171"
@@ -1148,9 +1490,12 @@ cases:
     title: "Armour Packing Co. v. United States"
     volume: "209"
     page: "056"
+    docket: "467"
+    citation: "209 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1908"
-    citation: "209 U.S. 56"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1907-174"
@@ -1158,9 +1503,12 @@ cases:
     title: "White-Smith Music Publishing Co. v. Apollo Co."
     volume: "209"
     page: "001"
+    docket: "110"
+    citation: "209 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "209 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-004"
@@ -1168,9 +1516,12 @@ cases:
     title: "New York ex rel. Silz v. Hesterberg"
     volume: "211"
     page: "031"
+    docket: "206"
+    citation: "211 U.S. 31"
     pdfSource: "loc"
     dateDecision: "Monday, November 2, 1908"
-    citation: "211 U.S. 31"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-019"
@@ -1178,9 +1529,12 @@ cases:
     title: "Wilder v. Inter-Island Steam Nav. Co."
     volume: "211"
     page: "239"
+    docket: "30"
+    citation: "211 U.S. 239"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1908"
-    citation: "211 U.S. 239"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-020"
@@ -1188,9 +1542,12 @@ cases:
     title: "Garfield v. United States ex rel. Goldsby"
     volume: "211"
     page: "249"
+    docket: "248"
+    citation: "211 U.S. 249"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1908"
-    citation: "211 U.S. 249"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-021"
@@ -1198,9 +1555,12 @@ cases:
     title: "Garfield v. United States ex rel. Allison"
     volume: "211"
     page: "264"
+    docket: "249"
+    citation: "211 U.S. 264"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1908"
-    citation: "211 U.S. 264"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-049"
@@ -1208,9 +1568,12 @@ cases:
     title: "McLean v. Arkansas"
     volume: "211"
     page: "539"
+    docket: "29"
+    citation: "211 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1909"
-    citation: "211 U.S. 539"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1908-050"
@@ -1218,9 +1581,12 @@ cases:
     title: "Hardaway v. National Surety Co."
     volume: "211"
     page: "552"
+    docket: "44"
+    citation: "211 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Monday, January 4, 1909"
-    citation: "211 U.S. 552"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-063"
@@ -1228,9 +1594,12 @@ cases:
     title: "Waters-Pierce Oil Co. v. Texas (No. 1)"
     volume: "212"
     page: "086"
+    docket: "359"
+    citation: "212 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1909"
-    citation: "212 U.S. 86"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-064"
@@ -1238,9 +1607,12 @@ cases:
     title: "Waters-Pierce Oil Co. v. Texas (No. 2)"
     volume: "212"
     page: "112"
+    docket: "360"
+    citation: "212 U.S. 112"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1909"
-    citation: "212 U.S. 112"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-065"
@@ -1248,9 +1620,12 @@ cases:
     title: "Palmer v. Texas"
     volume: "212"
     page: "118"
+    docket: "224"
+    citation: "212 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1909"
-    citation: "212 U.S. 118"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-096"
@@ -1258,9 +1633,12 @@ cases:
     title: "New York Central &amp; Hudson River R. Co. v. United States"
     volume: "212"
     page: "481"
+    docket: "57"
+    citation: "212 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "212 U.S. 481"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-097"
@@ -1268,9 +1646,12 @@ cases:
     title: "New York Central &amp; Hudson River R. Co. v. United States"
     volume: "212"
     page: "500"
+    docket: "69"
+    citation: "212 U.S. 500"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "212 U.S. 500"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-098"
@@ -1278,9 +1659,12 @@ cases:
     title: "United States v. New York Central &amp; Hudson River R. Co."
     volume: "212"
     page: "509"
+    docket: "285"
+    citation: "212 U.S. 509"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "212 U.S. 509"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-099"
@@ -1288,9 +1672,12 @@ cases:
     title: "Mullan v. United States"
     volume: "212"
     page: "516"
+    docket: "82"
+    citation: "212 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "212 U.S. 516"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-100"
@@ -1298,9 +1685,12 @@ cases:
     title: "American Express Co. v. United States"
     volume: "212"
     page: "522"
+    docket: "405"
+    citation: "212 U.S. 522"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1909"
-    citation: "212 U.S. 522"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-108"
@@ -1308,9 +1698,12 @@ cases:
     title: "Atchison, T. &amp; S. F. R. Co. v. Sowers"
     volume: "213"
     page: "055"
+    docket: "64"
+    citation: "213 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1909"
-    citation: "213 U.S. 55"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1908-123"
@@ -1318,9 +1711,12 @@ cases:
     title: "Chesapeake &amp; Ohio R. Co. v. McCabe"
     volume: "213"
     page: "207"
+    docket: "89"
+    citation: "213 U.S. 207"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1909"
-    citation: "213 U.S. 207"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1908-124"
@@ -1328,9 +1724,12 @@ cases:
     title: "Coder v. Arts"
     volume: "213"
     page: "223"
+    docket: "93"
+    citation: "213 U.S. 223"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1909"
-    citation: "213 U.S. 223"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-125"
@@ -1338,9 +1737,12 @@ cases:
     title: "Commercial Mut. Accident Co. v. Davis"
     volume: "213"
     page: "245"
+    docket: "114"
+    citation: "213 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1909"
-    citation: "213 U.S. 245"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-136"
@@ -1348,9 +1750,12 @@ cases:
     title: "Sand Filtration Corp. of America v. Cowardin"
     volume: "213"
     page: "360"
+    docket: "123"
+    citation: "213 U.S. 360"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1909"
-    citation: "213 U.S. 360"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1908-162"
@@ -1358,9 +1763,12 @@ cases:
     title: "Chesapeake &amp; Ohio R. Co. v. McDonald"
     volume: "214"
     page: "191"
+    docket: "158"
+    citation: "214 U.S. 191"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1909"
-    citation: "214 U.S. 191"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-168"
@@ -1368,9 +1776,12 @@ cases:
     title: "Kreigh v. Westinghouse, Church, Kerr &amp; Co."
     volume: "214"
     page: "249"
+    docket: "188"
+    citation: "214 U.S. 249"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1909"
-    citation: "214 U.S. 249"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1908-180"
@@ -1378,9 +1789,12 @@ cases:
     title: "Expanded Metal Co. v. Bradford"
     volume: "214"
     page: "366"
+    docket: "606"
+    citation: "214 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1909"
-    citation: "214 U.S. 366"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-004"
@@ -1388,9 +1802,12 @@ cases:
     title: "Waterman v. Canal-Louisiana Bank &amp; Trust Co."
     volume: "215"
     page: "033"
+    docket: "306"
+    citation: "215 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1909"
-    citation: "215 U.S. 33"
+    voteMajority: 6
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1909-010"
@@ -1398,9 +1815,12 @@ cases:
     title: "El Paso &amp; Northeastern R. Co. v. Gutierrez"
     volume: "215"
     page: "087"
+    docket: "505"
+    citation: "215 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1909"
-    citation: "215 U.S. 87"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-019"
@@ -1408,9 +1828,12 @@ cases:
     title: "Louisiana ex rel. Hubert v. Mayor and Council of New Orleans"
     volume: "215"
     page: "170"
+    docket: "11"
+    citation: "215 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1909"
-    citation: "215 U.S. 170"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-020"
@@ -1418,9 +1841,12 @@ cases:
     title: "Caliga v. Inter Ocean Newspaper Co."
     volume: "215"
     page: "182"
+    docket: "22"
+    citation: "215 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1909"
-    citation: "215 U.S. 182"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-021"
@@ -1428,9 +1854,12 @@ cases:
     title: "United States v. Stevenson"
     volume: "215"
     page: "190"
+    docket: "292"
+    citation: "215 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1909"
-    citation: "215 U.S. 190"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-022"
@@ -1438,9 +1867,12 @@ cases:
     title: "United States v. Stevenson (No. 2)"
     volume: "215"
     page: "200"
+    docket: "293"
+    citation: "215 U.S. 200"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1909"
-    citation: "215 U.S. 200"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-045"
@@ -1448,9 +1880,12 @@ cases:
     title: "Minneapolis v. Minneapolis Street R. Co."
     volume: "215"
     page: "417"
+    docket: "46"
+    citation: "215 U.S. 417"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1910"
-    citation: "215 U.S. 417"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-046"
@@ -1458,9 +1893,12 @@ cases:
     title: "Mechanical Appliance Co. v. Castleman"
     volume: "215"
     page: "437"
+    docket: "48"
+    citation: "215 U.S. 437"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1910"
-    citation: "215 U.S. 437"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-054"
@@ -1468,9 +1906,12 @@ cases:
     title: "Mankin v. United States ex rel. Ludowici-Celadon Co."
     volume: "215"
     page: "533"
+    docket: "167"
+    citation: "215 U.S. 533"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1910"
-    citation: "215 U.S. 533"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-070"
@@ -1478,9 +1919,12 @@ cases:
     title: "Western Union Telegraph Co. v. Andrews"
     volume: "216"
     page: "165"
+    docket: "8"
+    citation: "216 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 165"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-091"
@@ -1488,9 +1932,12 @@ cases:
     title: "Harris v. First Nat. Bank of Mt. Pleasant"
     volume: "216"
     page: "382"
+    docket: "98"
+    citation: "216 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 382"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-092"
@@ -1498,9 +1945,12 @@ cases:
     title: "Olmsted v. Olmsted"
     volume: "216"
     page: "386"
+    docket: "102"
+    citation: "216 U.S. 386"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 386"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-093"
@@ -1508,9 +1958,12 @@ cases:
     title: "Forbes v. State Council of Va., Junior Order United American Mechanics of Va."
     volume: "216"
     page: "396"
+    docket: "104"
+    citation: "216 U.S. 396"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 396"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-094"
@@ -1518,9 +1971,12 @@ cases:
     title: "Southern R. Co. v. Greene"
     volume: "216"
     page: "400"
+    docket: "450"
+    citation: "216 U.S. 400"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 400"
+    voteMajority: 4
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1909-095"
@@ -1528,9 +1984,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Gaston"
     volume: "216"
     page: "418"
+    docket: "451"
+    citation: "216 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 418"
+    voteMajority: 4
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1909-109"
@@ -1538,9 +1997,12 @@ cases:
     title: "Knapp v. Milwaukee Trust Co."
     volume: "216"
     page: "545"
+    docket: "206"
+    citation: "216 U.S. 545"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1910"
-    citation: "216 U.S. 545"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-115"
@@ -1548,9 +2010,12 @@ cases:
     title: "Maryland v. West Virginia"
     volume: "217"
     page: "001"
+    docket: "1 Orig."
+    citation: "217 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "217 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-128"
@@ -1558,9 +2023,12 @@ cases:
     title: "Southern R. Co. v. Miller"
     volume: "217"
     page: "209"
+    docket: "122"
+    citation: "217 U.S. 209"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1910"
-    citation: "217 U.S. 209"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-129"
@@ -1568,9 +2036,12 @@ cases:
     title: "Los Angeles Farming &amp; Milling Co. v. Los Angeles"
     volume: "217"
     page: "217"
+    docket: "137"
+    citation: "217 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1910"
-    citation: "217 U.S. 217"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-133"
@@ -1578,9 +2049,12 @@ cases:
     title: "McClellan v. Carland"
     volume: "217"
     page: "268"
+    docket: "630"
+    citation: "217 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1910"
-    citation: "217 U.S. 268"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-141"
@@ -1588,9 +2062,12 @@ cases:
     title: "Heike v. United States"
     volume: "217"
     page: "423"
+    docket: "849"
+    citation: "217 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1910"
-    citation: "217 U.S. 423"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-152"
@@ -1598,9 +2075,12 @@ cases:
     title: "Holmgren v. United States"
     volume: "217"
     page: "509"
+    docket: "132"
+    citation: "217 U.S. 509"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1910"
-    citation: "217 U.S. 509"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-153"
@@ -1608,9 +2088,12 @@ cases:
     title: "Southern R. Co. v. King"
     volume: "217"
     page: "524"
+    docket: "140"
+    citation: "217 U.S. 524"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1910"
-    citation: "217 U.S. 524"
+    voteMajority: 5
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1909-154"
@@ -1618,9 +2101,12 @@ cases:
     title: "Freeman v. United States"
     volume: "217"
     page: "539"
+    docket: "156"
+    citation: "217 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1910"
-    citation: "217 U.S. 539"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-170"
@@ -1628,9 +2114,12 @@ cases:
     title: "Herndon v. Chicago, R. I. &amp; P. R. Co."
     volume: "218"
     page: "135"
+    docket: "150"
+    citation: "218 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1910"
-    citation: "218 U.S. 135"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-171"
@@ -1638,9 +2127,12 @@ cases:
     title: "Roach v. Atchison, T. &amp; S. F. R. Co."
     volume: "218"
     page: "159"
+    docket: "151"
+    citation: "218 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1910"
-    citation: "218 U.S. 159"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-172"
@@ -1648,9 +2140,12 @@ cases:
     title: "Franklin v. South Carolina"
     volume: "218"
     page: "161"
+    docket: "164"
+    citation: "218 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1910"
-    citation: "218 U.S. 161"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-173"
@@ -1658,9 +2153,12 @@ cases:
     title: "Watson v. Maryland"
     volume: "218"
     page: "173"
+    docket: "174"
+    citation: "218 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1910"
-    citation: "218 U.S. 173"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1909-176"
@@ -1668,9 +2166,12 @@ cases:
     title: "Maryland v. West Virginia"
     volume: "217"
     page: "577"
+    docket: "1 Orig."
+    citation: "217 U.S. 577"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1910"
-    citation: "217 U.S. 577"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-006"
@@ -1678,9 +2179,12 @@ cases:
     title: "Ong Chang Wing v. United States"
     volume: "218"
     page: "272"
+    docket: "418"
+    citation: "218 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1910"
-    citation: "218 U.S. 272"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-024"
@@ -1688,9 +2192,12 @@ cases:
     title: "Harlan v. McGourin"
     volume: "218"
     page: "442"
+    docket: "378"
+    citation: "218 U.S. 442"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1910"
-    citation: "218 U.S. 442"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-025"
@@ -1698,9 +2205,12 @@ cases:
     title: "United States v. Ansonia Brass &amp; Copper Co."
     volume: "218"
     page: "452"
+    docket: "458"
+    citation: "218 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, November 28, 1910"
-    citation: "218 U.S. 452"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-039"
@@ -1708,9 +2218,12 @@ cases:
     title: "Thompson v. Thompson"
     volume: "218"
     page: "611"
+    docket: "17"
+    citation: "218 U.S. 611"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1910"
-    citation: "218 U.S. 611"
+    voteMajority: 4
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1910-040"
@@ -1718,9 +2231,12 @@ cases:
     title: "Memphis v. Cumberland Telephone &amp; Telegraph Co."
     volume: "218"
     page: "624"
+    docket: "42"
+    citation: "218 U.S. 624"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1910"
-    citation: "218 U.S. 624"
+    voteMajority: 4
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1910-056"
@@ -1728,9 +2244,12 @@ cases:
     title: "Kentucky Union Co. v. Kentucky"
     volume: "219"
     page: "140"
+    docket: "22"
+    citation: "219 U.S. 140"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1911"
-    citation: "219 U.S. 140"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-057"
@@ -1738,9 +2257,12 @@ cases:
     title: "Spokane &amp; British Columbia R. Co. v. Washington &amp; Great Northern R. Co."
     volume: "219"
     page: "166"
+    docket: "49"
+    citation: "219 U.S. 166"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1911"
-    citation: "219 U.S. 166"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-058"
@@ -1748,9 +2270,12 @@ cases:
     title: "Fore River Shipbuilding Co. v. Hagg"
     volume: "219"
     page: "175"
+    docket: "75"
+    citation: "219 U.S. 175"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1911"
-    citation: "219 U.S. 175"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-071"
@@ -1758,9 +2283,12 @@ cases:
     title: "Muskrat v. United States"
     volume: "219"
     page: "346"
+    docket: "330"
+    citation: "219 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1911"
-    citation: "219 U.S. 346"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-091"
@@ -1768,9 +2296,12 @@ cases:
     title: "Flint v. Stone Tracy Co."
     volume: "220"
     page: "107"
+    docket: "407"
+    citation: "220 U.S. 107"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1911"
-    citation: "220 U.S. 107"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-092"
@@ -1778,9 +2309,12 @@ cases:
     title: "Eliot v. Freeman"
     volume: "220"
     page: "178"
+    docket: "448"
+    citation: "220 U.S. 178"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1911"
-    citation: "220 U.S. 178"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-093"
@@ -1788,9 +2322,12 @@ cases:
     title: "Zonne v. Minneapolis Syndicate"
     volume: "220"
     page: "187"
+    docket: "627"
+    citation: "220 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, March 13, 1911"
-    citation: "220 U.S. 187"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-108"
@@ -1798,9 +2335,12 @@ cases:
     title: "Hills &amp; Co. v. Hoover"
     volume: "220"
     page: "329"
+    docket: "101"
+    citation: "220 U.S. 329"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1911"
-    citation: "220 U.S. 329"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-109"
@@ -1808,9 +2348,12 @@ cases:
     title: "Gavieres v. United States"
     volume: "220"
     page: "338"
+    docket: "102"
+    citation: "220 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, April 3, 1911"
-    citation: "220 U.S. 338"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1910-130"
@@ -1818,9 +2361,12 @@ cases:
     title: "Schlemmer v. Buffalo, R. &amp; T. R. Co."
     volume: "220"
     page: "590"
+    docket: "374"
+    citation: "220 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "220 U.S. 590"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-140"
@@ -1828,9 +2374,12 @@ cases:
     title: "Tiger v. Western Investment Co."
     volume: "221"
     page: "286"
+    docket: "60"
+    citation: "221 U.S. 286"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "221 U.S. 286"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-141"
@@ -1838,9 +2387,12 @@ cases:
     title: "Hallowell v. United States"
     volume: "221"
     page: "317"
+    docket: "89"
+    citation: "221 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "221 U.S. 317"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-142"
@@ -1848,9 +2400,12 @@ cases:
     title: "Dowdell v. United States"
     volume: "221"
     page: "325"
+    docket: "131"
+    citation: "221 U.S. 325"
     pdfSource: "loc"
     dateDecision: "Monday, May 15, 1911"
-    citation: "221 U.S. 325"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1910-158"
@@ -1858,9 +2413,12 @@ cases:
     title: "Apsey v. Kimball"
     volume: "221"
     page: "514"
+    docket: "132"
+    citation: "221 U.S. 514"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1911"
-    citation: "221 U.S. 514"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1910-159"
@@ -1868,9 +2426,12 @@ cases:
     title: "Appleby v. Buffalo"
     volume: "221"
     page: "524"
+    docket: "162"
+    citation: "221 U.S. 524"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1911"
-    citation: "221 U.S. 524"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1911-024"
@@ -1878,9 +2439,12 @@ cases:
     title: "Acme Harvester Co. v. Beekman Lumber Co."
     volume: "222"
     page: "300"
+    docket: "9"
+    citation: "222 U.S. 300"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1911"
-    citation: "222 U.S. 300"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1911-058"
@@ -1888,9 +2452,12 @@ cases:
     title: "Railroad Comm&apos;n of Ohio v. Worthington"
     volume: "225"
     page: "101"
+    docket: "505"
+    citation: "225 U.S. 101"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1912"
-    citation: "225 U.S. 101"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1911-082"
@@ -1898,9 +2465,12 @@ cases:
     title: "Zeckendorf v. Steinfeld"
     volume: "225"
     page: "445"
+    docket: "139"
+    citation: "225 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Friday, June 7, 1912"
-    citation: "225 U.S. 445"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1911-083"
@@ -1908,9 +2478,12 @@ cases:
     title: "Low Wah Suey v. Backus"
     volume: "225"
     page: "460"
+    docket: "869"
+    citation: "225 U.S. 460"
     pdfSource: "loc"
     dateDecision: "Friday, June 7, 1912"
-    citation: "225 U.S. 460"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1911-151"
@@ -1918,9 +2491,12 @@ cases:
     title: "Powers v. United States"
     volume: "223"
     page: "303"
+    docket: "152"
+    citation: "223 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 303"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1911-152"
@@ -1928,9 +2504,12 @@ cases:
     title: "Rocca v. Thompson"
     volume: "223"
     page: "317"
+    docket: "292"
+    citation: "223 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 317"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1911-153"
@@ -1938,9 +2517,12 @@ cases:
     title: "United States Express Co. v. Minnesota"
     volume: "223"
     page: "335"
+    docket: "708"
+    citation: "223 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1912"
-    citation: "223 U.S. 335"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1911-200"
@@ -1948,9 +2530,12 @@ cases:
     title: "In re Loving"
     volume: "224"
     page: "183"
+    docket: "216"
+    citation: "224 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1912"
-    citation: "224 U.S. 183"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1911-201"
@@ -1958,9 +2543,12 @@ cases:
     title: "Brown v. Selfridge"
     volume: "224"
     page: "189"
+    docket: "214"
+    citation: "224 U.S. 189"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1912"
-    citation: "224 U.S. 189"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1911-202"
@@ -1968,9 +2556,12 @@ cases:
     title: "ICC v. Goodrich Transit Co."
     volume: "224"
     page: "194"
+    docket: "879"
+    citation: "224 U.S. 194"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1912"
-    citation: "224 U.S. 194"
+    voteMajority: 6
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1911-203"
@@ -1978,9 +2569,12 @@ cases:
     title: "Haskell v. Kansas Natural Gas Co."
     volume: "224"
     page: "217"
+    docket: "914"
+    citation: "224 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, April 1, 1912"
-    citation: "224 U.S. 217"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1911-224"
@@ -1988,9 +2582,12 @@ cases:
     title: "Herndon-Carter Co. v. James N. Norris, Son &amp; Co."
     volume: "224"
     page: "496"
+    docket: "923"
+    citation: "224 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1912"
-    citation: "224 U.S. 496"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1911-234"
@@ -1998,9 +2595,12 @@ cases:
     title: "B. Altman &amp; Co. v. United States"
     volume: "224"
     page: "583"
+    docket: "208"
+    citation: "224 U.S. 583"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1912"
-    citation: "224 U.S. 583"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-006"
@@ -2008,9 +2608,12 @@ cases:
     title: "United States v. Union Pacific R. Co."
     volume: "226"
     page: "061"
+    docket: "446"
+    citation: "226 U.S. 61"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 61"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-017"
@@ -2018,9 +2621,12 @@ cases:
     title: "Miller v. Guasti"
     volume: "226"
     page: "170"
+    docket: "478"
+    citation: "226 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 170"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-018"
@@ -2028,9 +2634,12 @@ cases:
     title: "Four Hundred and Forty-Three Cans of Frozen Egg Product v. United States"
     volume: "226"
     page: "172"
+    docket: "590"
+    citation: "226 U.S. 172"
     pdfSource: "loc"
     dateDecision: "Monday, December 2, 1912"
-    citation: "226 U.S. 172"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-029"
@@ -2038,9 +2647,12 @@ cases:
     title: "United States v. Union Stock Yard &amp; Transit Co. of Chicago"
     volume: "226"
     page: "286"
+    docket: "621"
+    citation: "226 U.S. 286"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1912"
-    citation: "226 U.S. 286"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-038"
@@ -2048,9 +2660,12 @@ cases:
     title: "Williams v. City of Talladega"
     volume: "226"
     page: "404"
+    docket: "44"
+    citation: "226 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1912"
-    citation: "226 U.S. 404"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-050"
@@ -2058,9 +2673,12 @@ cases:
     title: "Ewing v. City of Leavenworth"
     volume: "226"
     page: "464"
+    docket: "66"
+    citation: "226 U.S. 464"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1913"
-    citation: "226 U.S. 464"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-051"
@@ -2068,9 +2686,12 @@ cases:
     title: "United States v. Union Pacific R. Co."
     volume: "226"
     page: "470"
+    docket: "446"
+    citation: "226 U.S. 470"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1913"
-    citation: "226 U.S. 470"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-052"
@@ -2078,9 +2699,12 @@ cases:
     title: "Wheeler v. United States"
     volume: "226"
     page: "478"
+    docket: "658"
+    citation: "226 U.S. 478"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1913"
-    citation: "226 U.S. 478"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-063"
@@ -2088,9 +2712,12 @@ cases:
     title: "Schmidinger v. Chicago"
     volume: "226"
     page: "578"
+    docket: "115"
+    citation: "226 U.S. 578"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1913"
-    citation: "226 U.S. 578"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-086"
@@ -2098,9 +2725,12 @@ cases:
     title: "St. Louis Southwestern R. Co. of Tex. v. Alexander"
     volume: "227"
     page: "218"
+    docket: "738"
+    citation: "227 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1913"
-    citation: "227 U.S. 218"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-105"
@@ -2108,9 +2738,12 @@ cases:
     title: "Crenshaw v. Arkansas"
     volume: "227"
     page: "389"
+    docket: "127"
+    citation: "227 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 389"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-106"
@@ -2118,9 +2751,12 @@ cases:
     title: "Rogers v. Arkansas"
     volume: "227"
     page: "401"
+    docket: "576"
+    citation: "227 U.S. 401"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 401"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-107"
@@ -2128,9 +2764,12 @@ cases:
     title: "James v. Stone &amp; Co."
     volume: "227"
     page: "410"
+    docket: "142"
+    citation: "227 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 410"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-108"
@@ -2138,9 +2777,12 @@ cases:
     title: "Lovell v. Newman &amp; Son"
     volume: "227"
     page: "412"
+    docket: "593"
+    citation: "227 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 412"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-109"
@@ -2148,9 +2790,12 @@ cases:
     title: "Bartell v. United States"
     volume: "227"
     page: "427"
+    docket: "691"
+    citation: "227 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 427"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-110"
@@ -2158,9 +2803,12 @@ cases:
     title: "Troxell v. Delaware, L. &amp; W. R. Co."
     volume: "227"
     page: "434"
+    docket: "854"
+    citation: "227 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 434"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-111"
@@ -2168,9 +2816,11 @@ cases:
     title: "United States ex rel. Champion Lumber Co. v. Fisher"
     volume: "227"
     page: "445"
+    citation: "227 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 445"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-112"
@@ -2178,9 +2828,11 @@ cases:
     title: "United States ex rel. Foreman v. Meyer"
     volume: "227"
     page: "452"
+    citation: "227 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1913"
-    citation: "227 U.S. 452"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-148"
@@ -2188,9 +2840,12 @@ cases:
     title: "McDermott v. Wisconsin"
     volume: "228"
     page: "115"
+    docket: "112"
+    citation: "228 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 115"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-149"
@@ -2198,9 +2853,12 @@ cases:
     title: "Bogart v. Southern Pacific Co."
     volume: "228"
     page: "137"
+    docket: "165"
+    citation: "228 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1913"
-    citation: "228 U.S. 137"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-165"
@@ -2208,9 +2866,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Harvey"
     volume: "228"
     page: "319"
+    docket: "204"
+    citation: "228 U.S. 319"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1913"
-    citation: "228 U.S. 319"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-170"
@@ -2218,9 +2879,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Stewart"
     volume: "228"
     page: "357"
+    docket: "205"
+    citation: "228 U.S. 357"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1913"
-    citation: "228 U.S. 357"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-178"
@@ -2228,9 +2892,12 @@ cases:
     title: "Burlingham v. Crouse"
     volume: "228"
     page: "459"
+    docket: "184"
+    citation: "228 U.S. 459"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1913"
-    citation: "228 U.S. 459"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-179"
@@ -2238,9 +2905,12 @@ cases:
     title: "Everett v. Judson"
     volume: "228"
     page: "474"
+    docket: "595"
+    citation: "228 U.S. 474"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1913"
-    citation: "228 U.S. 474"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-180"
@@ -2248,9 +2918,12 @@ cases:
     title: "Andrews v. Partridge"
     volume: "228"
     page: "479"
+    docket: "496"
+    citation: "228 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1913"
-    citation: "228 U.S. 479"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-208"
@@ -2258,9 +2931,12 @@ cases:
     title: "Bauer &amp; Cie v. O&apos;Donnell"
     volume: "229"
     page: "001"
+    docket: "951"
+    citation: "229 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 1"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wrday
     authorName: "William Day"
   - id: "1912-209"
@@ -2268,9 +2944,12 @@ cases:
     title: "Gorman v. Littlefield"
     volume: "229"
     page: "019"
+    docket: "243"
+    citation: "229 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 19"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-210"
@@ -2278,9 +2957,12 @@ cases:
     title: "Barrett v. Indiana"
     volume: "229"
     page: "026"
+    docket: "245"
+    citation: "229 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 26"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-211"
@@ -2288,9 +2970,12 @@ cases:
     title: "Big Vein Coal Co. of W. Va. v. Read"
     volume: "229"
     page: "031"
+    docket: "501"
+    citation: "229 U.S. 31"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 31"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-212"
@@ -2298,9 +2983,12 @@ cases:
     title: "Detroit United R. Co. v. Detroit"
     volume: "229"
     page: "039"
+    docket: "1047"
+    citation: "229 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Monday, May 26, 1913"
-    citation: "229 U.S. 39"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-245"
@@ -2308,9 +2996,12 @@ cases:
     title: "National Safe Deposit, Sav. &amp; Trust Co. of D. C. v. Hibbs"
     volume: "229"
     page: "391"
+    docket: "79"
+    citation: "229 U.S. 391"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1913"
-    citation: "229 U.S. 391"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-246"
@@ -2318,9 +3009,12 @@ cases:
     title: "Portland Railway, Light &amp; Power Co. v. Railroad Comm&apos;n of Ore."
     volume: "229"
     page: "397"
+    docket: "119"
+    citation: "229 U.S. 397"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1913"
-    citation: "229 U.S. 397"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-247"
@@ -2328,9 +3022,12 @@ cases:
     title: "Portland Railway, Light &amp; Power Co. v. Railroad Comm&apos;n of Ore."
     volume: "229"
     page: "414"
+    docket: "120"
+    citation: "229 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1913"
-    citation: "229 U.S. 414"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-248"
@@ -2338,9 +3035,12 @@ cases:
     title: "MacLeod v. United States"
     volume: "229"
     page: "416"
+    docket: "259"
+    citation: "229 U.S. 416"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1913"
-    citation: "229 U.S. 416"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1912-249"
@@ -2348,9 +3048,12 @@ cases:
     title: "Continental &amp; Commercial Trust &amp; Sav. Bank v. Chicago Title &amp; Trust Co."
     volume: "229"
     page: "435"
+    docket: "741"
+    citation: "229 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 10, 1913"
-    citation: "229 U.S. 435"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-007"
@@ -2358,9 +3061,12 @@ cases:
     title: "Pullman Co. v. Croom"
     volume: "231"
     page: "571"
+    docket: "158"
+    citation: "231 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1913"
-    citation: "231 U.S. 571"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-015"
@@ -2368,9 +3074,12 @@ cases:
     title: "Ludvigh v. American Woolen Co. of N. Y."
     volume: "231"
     page: "522"
+    docket: "55"
+    citation: "231 U.S. 522"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1913"
-    citation: "231 U.S. 522"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-027"
@@ -2378,9 +3087,12 @@ cases:
     title: "Straus and Straus v. American Publishers&apos; Assn."
     volume: "231"
     page: "222"
+    docket: "19"
+    citation: "231 U.S. 222"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 222"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-028"
@@ -2388,9 +3100,12 @@ cases:
     title: "United States Fidelity &amp; Guaranty Co. v. United States ex rel. Bartlett"
     volume: "231"
     page: "237"
+    docket: "50"
+    citation: "231 U.S. 237"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 237"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-029"
@@ -2398,9 +3113,12 @@ cases:
     title: "Yazoo &amp; Mississippi Valley R. Co. v. Brewer"
     volume: "231"
     page: "245"
+    docket: "62"
+    citation: "231 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 245"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-030"
@@ -2408,9 +3126,12 @@ cases:
     title: "Marshall v. Dye"
     volume: "231"
     page: "250"
+    docket: "401"
+    citation: "231 U.S. 250"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 250"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-031"
@@ -2418,9 +3139,12 @@ cases:
     title: "Mayor of Vicksburg v. Henson"
     volume: "231"
     page: "259"
+    docket: "546"
+    citation: "231 U.S. 259"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1913"
-    citation: "231 U.S. 259"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-056"
@@ -2428,9 +3152,12 @@ cases:
     title: "Baltic Mining Co. v. Massachusetts"
     volume: "231"
     page: "068"
+    docket: "30"
+    citation: "231 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Monday, November 3, 1913"
-    citation: "231 U.S. 68"
+    voteMajority: 6
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1913-068"
@@ -2438,9 +3165,12 @@ cases:
     title: "International Harvester Co. of America v. Kentucky"
     volume: "234"
     page: "579"
+    docket: "297"
+    citation: "234 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1914"
-    citation: "234 U.S. 579"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-069"
@@ -2448,9 +3178,12 @@ cases:
     title: "International Harvester Co. of America v. Kentucky"
     volume: "234"
     page: "589"
+    docket: "298"
+    citation: "234 U.S. 589"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1914"
-    citation: "234 U.S. 589"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-070"
@@ -2458,9 +3191,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Higdon"
     volume: "234"
     page: "592"
+    docket: "322"
+    citation: "234 U.S. 592"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1914"
-    citation: "234 U.S. 592"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-071"
@@ -2468,9 +3204,12 @@ cases:
     title: "Eastern States Retail Lumber Dealers&apos; Assn. v. United States"
     volume: "234"
     page: "600"
+    docket: "511"
+    citation: "234 U.S. 600"
     pdfSource: "loc"
     dateDecision: "Monday, June 22, 1914"
-    citation: "234 U.S. 600"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-094"
@@ -2478,9 +3217,12 @@ cases:
     title: "United States v. Buffalo Pitts Co."
     volume: "234"
     page: "228"
+    docket: "369"
+    citation: "234 U.S. 228"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 228"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-095"
@@ -2488,9 +3230,12 @@ cases:
     title: "United States v. United Engineering &amp; Contracting Co."
     volume: "234"
     page: "236"
+    docket: "381"
+    citation: "234 U.S. 236"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 236"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-096"
@@ -2498,9 +3243,12 @@ cases:
     title: "United States v. First Nat. Bank of Detroit"
     volume: "234"
     page: "245"
+    docket: "873"
+    citation: "234 U.S. 245"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 245"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-097"
@@ -2508,9 +3256,12 @@ cases:
     title: "Lazarus, Michel &amp; Lazarus v. Prentice"
     volume: "234"
     page: "263"
+    docket: "1012"
+    citation: "234 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Monday, June 8, 1914"
-    citation: "234 U.S. 263"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-121"
@@ -2518,9 +3269,12 @@ cases:
     title: "Tap Line Cases"
     volume: "234"
     page: "001"
+    docket: "829"
+    citation: "234 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1914"
-    citation: "234 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-122"
@@ -2528,9 +3282,12 @@ cases:
     title: "United States v. Butler County R. Co."
     volume: "234"
     page: "029"
+    docket: "837"
+    citation: "234 U.S. 29"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1914"
-    citation: "234 U.S. 29"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-123"
@@ -2538,9 +3295,12 @@ cases:
     title: "United States v. Axman"
     volume: "234"
     page: "036"
+    docket: "242"
+    citation: "234 U.S. 36"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1914"
-    citation: "234 U.S. 36"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-124"
@@ -2548,9 +3308,12 @@ cases:
     title: "Louisville &amp; Nashville R. Co. v. Woodford"
     volume: "234"
     page: "046"
+    docket: "531"
+    citation: "234 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Monday, May 25, 1914"
-    citation: "234 U.S. 46"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-176"
@@ -2558,9 +3321,12 @@ cases:
     title: "Arizona ex rel. Gaines v. Copper Queen Consol. Mining Co."
     volume: "233"
     page: "087"
+    docket: "89"
+    citation: "233 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 87"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-177"
@@ -2568,9 +3334,12 @@ cases:
     title: "Boston &amp; Maine R. Co. v. Hooker"
     volume: "233"
     page: "097"
+    docket: "121"
+    citation: "233 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 97"
+    voteMajority: 7
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1913-178"
@@ -2578,9 +3347,12 @@ cases:
     title: "United States ex rel. Texas Portland Cement Co. v. McCord"
     volume: "233"
     page: "157"
+    docket: "234"
+    citation: "233 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 157"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-179"
@@ -2588,9 +3360,12 @@ cases:
     title: "Hollerbach v. United States"
     volume: "233"
     page: "165"
+    docket: "250"
+    citation: "233 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 165"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-180"
@@ -2598,9 +3373,12 @@ cases:
     title: "Atchison, T. &amp; S. F. R. Co. v. Robinson"
     volume: "233"
     page: "173"
+    docket: "450"
+    citation: "233 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 173"
+    voteMajority: 7
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1913-181"
@@ -2608,9 +3386,12 @@ cases:
     title: "Atchison, T. &amp; S. F. R. Co. v. Moore"
     volume: "233"
     page: "182"
+    docket: "451"
+    citation: "233 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 182"
+    voteMajority: 7
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1913-182"
@@ -2618,9 +3399,12 @@ cases:
     title: "Myers v. Pittsburgh Coal Co."
     volume: "233"
     page: "184"
+    docket: "816"
+    citation: "233 U.S. 184"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1914"
-    citation: "233 U.S. 184"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-203"
@@ -2628,9 +3412,12 @@ cases:
     title: "Garland v. Washington"
     volume: "232"
     page: "642"
+    docket: "226"
+    citation: "232 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1914"
-    citation: "232 U.S. 642"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-226"
@@ -2638,9 +3425,12 @@ cases:
     title: "Mitchell Store Building Co. v. Carroll"
     volume: "232"
     page: "379"
+    docket: "212"
+    citation: "232 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 379"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-227"
@@ -2648,9 +3438,12 @@ cases:
     title: "Weeks v. United States"
     volume: "232"
     page: "383"
+    docket: "461"
+    citation: "232 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 383"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-228"
@@ -2658,9 +3451,12 @@ cases:
     title: "United States v. Lexington Mill &amp; Elevator Co."
     volume: "232"
     page: "399"
+    docket: "548"
+    citation: "232 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1914"
-    citation: "232 U.S. 399"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-249"
@@ -2668,9 +3464,12 @@ cases:
     title: "Miedreich v. Lauenstein"
     volume: "232"
     page: "236"
+    docket: "20"
+    citation: "232 U.S. 236"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1914"
-    citation: "232 U.S. 236"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-279"
@@ -2678,9 +3477,12 @@ cases:
     title: "Rainey v. W. R. Grace &amp; Co."
     volume: "231"
     page: "703"
+    docket: "119"
+    citation: "231 U.S. 703"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 703"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-280"
@@ -2688,9 +3490,12 @@ cases:
     title: "Cameron v. United States"
     volume: "231"
     page: "710"
+    docket: "165"
+    citation: "231 U.S. 710"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 710"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1913-281"
@@ -2698,9 +3503,12 @@ cases:
     title: "Radford v. Myers"
     volume: "231"
     page: "725"
+    docket: "251"
+    citation: "231 U.S. 725"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1914"
-    citation: "231 U.S. 725"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-004"
@@ -2708,9 +3516,12 @@ cases:
     title: "Magruder v. Drury"
     volume: "235"
     page: "106"
+    docket: "17"
+    citation: "235 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1914"
-    citation: "235 U.S. 106"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-005"
@@ -2718,9 +3529,12 @@ cases:
     title: "Missouri Pacific R. Co. v. Omaha"
     volume: "235"
     page: "121"
+    docket: "47"
+    citation: "235 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1914"
-    citation: "235 U.S. 121"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-006"
@@ -2728,9 +3542,12 @@ cases:
     title: "United States v. Reynolds"
     volume: "235"
     page: "133"
+    docket: "478"
+    citation: "235 U.S. 133"
     pdfSource: "loc"
     dateDecision: "Monday, November 30, 1914"
-    citation: "235 U.S. 133"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-026"
@@ -2738,9 +3555,12 @@ cases:
     title: "Cleveland &amp; Pittsburgh R. Co. v. Cleveland"
     volume: "235"
     page: "050"
+    docket: "95"
+    citation: "235 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1914"
-    citation: "235 U.S. 50"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-044"
@@ -2748,9 +3568,12 @@ cases:
     title: "Scotten v. Littlefield"
     volume: "235"
     page: "407"
+    docket: "439"
+    citation: "235 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Monday, December 14, 1914"
-    citation: "235 U.S. 407"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-059"
@@ -2758,9 +3581,12 @@ cases:
     title: "Henkel v. United States"
     volume: "237"
     page: "043"
+    docket: "142"
+    citation: "237 U.S. 43"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1915"
-    citation: "237 U.S. 43"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-060"
@@ -2768,9 +3594,12 @@ cases:
     title: "Sligh v. Kirkwood"
     volume: "237"
     page: "052"
+    docket: "185"
+    citation: "237 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1915"
-    citation: "237 U.S. 52"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-061"
@@ -2778,9 +3607,12 @@ cases:
     title: "South Carolina ex rel. Phoenix Mut. Life Ins. Co. v. McMaster"
     volume: "237"
     page: "063"
+    docket: "195"
+    citation: "237 U.S. 63"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1915"
-    citation: "237 U.S. 63"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-103"
@@ -2788,9 +3620,12 @@ cases:
     title: "Cumberland Glass Mfg. Co. v. De Witt &amp; Co."
     volume: "237"
     page: "447"
+    docket: "191"
+    citation: "237 U.S. 447"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1915"
-    citation: "237 U.S. 447"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wrday
     authorName: "William Day"
   - id: "1914-126"
@@ -2798,9 +3633,12 @@ cases:
     title: "G. &amp; C. Merriam Co. v. Syndicate Publishing Co."
     volume: "237"
     page: "618"
+    docket: "217"
+    citation: "237 U.S. 618"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "237 U.S. 618"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-127"
@@ -2808,9 +3646,12 @@ cases:
     title: "Ebeling v. Morgan"
     volume: "237"
     page: "625"
+    docket: "736"
+    citation: "237 U.S. 625"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "237 U.S. 625"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-128"
@@ -2818,9 +3659,12 @@ cases:
     title: "Morgan v. Devine"
     volume: "237"
     page: "632"
+    docket: "685"
+    citation: "237 U.S. 632"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1915"
-    citation: "237 U.S. 632"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-134"
@@ -2828,9 +3672,12 @@ cases:
     title: "Washington-Virginia R. Co. v. Real Estate Trust Co. of Philadelphia"
     volume: "238"
     page: "185"
+    docket: "212"
+    citation: "238 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 185"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-141"
@@ -2838,9 +3685,12 @@ cases:
     title: "Delaware, L. &amp; W. R. Co. v. Yurkonis"
     volume: "238"
     page: "439"
+    docket: "852"
+    citation: "238 U.S. 439"
     pdfSource: "loc"
     dateDecision: "Monday, June 21, 1915"
-    citation: "238 U.S. 439"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-159"
@@ -2848,9 +3698,12 @@ cases:
     title: "Des Moines Gas Co. v. Des Moines"
     volume: "238"
     page: "153"
+    docket: "75"
+    citation: "238 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 153"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-160"
@@ -2858,9 +3711,12 @@ cases:
     title: "Milwaukee Electric Railroad &amp; Light Co. v. Railroad Comm&apos;n of Wis."
     volume: "238"
     page: "174"
+    docket: "233"
+    citation: "238 U.S. 174"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 174"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-161"
@@ -2868,9 +3724,12 @@ cases:
     title: "Adams Express Co. v. Kentucky"
     volume: "238"
     page: "190"
+    docket: "271"
+    citation: "238 U.S. 190"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1915"
-    citation: "238 U.S. 190"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-188"
@@ -2878,9 +3737,12 @@ cases:
     title: "Great Northern R. Co. v. Hower"
     volume: "236"
     page: "702"
+    docket: "88"
+    citation: "236 U.S. 702"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1915"
-    citation: "236 U.S. 702"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-216"
@@ -2888,9 +3750,12 @@ cases:
     title: "George N. Pierce Co. v. Wells, Fargo &amp; Co."
     volume: "236"
     page: "278"
+    docket: "14"
+    citation: "236 U.S. 278"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 278"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1914-217"
@@ -2898,9 +3763,12 @@ cases:
     title: "Globe Bank &amp; Trust Co. of Paducah v. Martin"
     volume: "236"
     page: "288"
+    docket: "100"
+    citation: "236 U.S. 288"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 288"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1914-218"
@@ -2908,9 +3776,12 @@ cases:
     title: "Iowa Central R. Co. v. Bacon"
     volume: "236"
     page: "305"
+    docket: "130"
+    citation: "236 U.S. 305"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 305"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-219"
@@ -2918,9 +3789,12 @@ cases:
     title: "American Car &amp; Foundry Co. v. Kettlehake"
     volume: "236"
     page: "311"
+    docket: "138"
+    citation: "236 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 311"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-220"
@@ -2928,9 +3802,12 @@ cases:
     title: "United States v. Louisville &amp; Nashville R. Co."
     volume: "236"
     page: "318"
+    docket: "499"
+    citation: "236 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 318"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-221"
@@ -2938,9 +3815,12 @@ cases:
     title: "Rail &amp; River Coal Co. v. Yaple"
     volume: "236"
     page: "338"
+    docket: "513"
+    citation: "236 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 338"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-222"
@@ -2948,9 +3828,12 @@ cases:
     title: "Pennsylvania Co. v. United States"
     volume: "236"
     page: "351"
+    docket: "591"
+    citation: "236 U.S. 351"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1915"
-    citation: "236 U.S. 351"
+    voteMajority: 7
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1914-264"
@@ -2958,9 +3841,12 @@ cases:
     title: "South Covington &amp; Cincinnati Street R. Co. v. City of Covington"
     volume: "235"
     page: "537"
+    docket: "28"
+    citation: "235 U.S. 537"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 537"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-265"
@@ -2968,9 +3854,12 @@ cases:
     title: "New York ex rel. Cornell S. S. Co. v. Sohmer"
     volume: "235"
     page: "549"
+    docket: "62"
+    citation: "235 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 549"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-266"
@@ -2978,9 +3867,12 @@ cases:
     title: "Gilbert v. David"
     volume: "235"
     page: "561"
+    docket: "97"
+    citation: "235 U.S. 561"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 561"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1914-267"
@@ -2988,9 +3880,12 @@ cases:
     title: "Jeffrey Mfg. Co. v. Blagg"
     volume: "235"
     page: "571"
+    docket: "511"
+    citation: "235 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 5, 1915"
-    citation: "235 U.S. 571"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1915-009"
@@ -2998,9 +3893,12 @@ cases:
     title: "Dayton Coal &amp; Iron Co. v. Cincinnati, N. O. &amp; T. P. R. Co."
     volume: "239"
     page: "446"
+    docket: "81"
+    citation: "239 U.S. 446"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1915"
-    citation: "239 U.S. 446"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1915-033"
@@ -3008,9 +3906,12 @@ cases:
     title: "Phillip Wagner, Inc. v. Leser"
     volume: "239"
     page: "207"
+    docket: "28"
+    citation: "239 U.S. 207"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1915"
-    citation: "239 U.S. 207"
+    voteMajority: 6
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1915-034"
@@ -3018,9 +3919,12 @@ cases:
     title: "William Cramp &amp; Sons Ship &amp; Engine Building Co. v. United States"
     volume: "239"
     page: "221"
+    docket: "63"
+    citation: "239 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1915"
-    citation: "239 U.S. 221"
+    voteMajority: 6
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1915-035"
@@ -3028,9 +3932,12 @@ cases:
     title: "Johnson v. Wells Fargo &amp; Co."
     volume: "239"
     page: "234"
+    docket: "277"
+    citation: "239 U.S. 234"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1915"
-    citation: "239 U.S. 234"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1915-044"
@@ -3038,9 +3945,12 @@ cases:
     title: "Gsell v. Insular Collector of Customs"
     volume: "239"
     page: "093"
+    docket: "31"
+    citation: "239 U.S. 93"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1915"
-    citation: "239 U.S. 93"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1915-059"
@@ -3048,9 +3958,12 @@ cases:
     title: "Manila Investment Co. v. Trammell"
     volume: "239"
     page: "031"
+    docket: "250"
+    citation: "239 U.S. 31"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1915"
-    citation: "239 U.S. 31"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1915-229"
@@ -3058,9 +3971,12 @@ cases:
     title: "Northwestern Laundry v. Des Moines"
     volume: "239"
     page: "486"
+    docket: "121"
+    citation: "239 U.S. 486"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1916"
-    citation: "239 U.S. 486"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1915-230"
@@ -3068,9 +3984,12 @@ cases:
     title: "Southern R. Co. v. Lloyd"
     volume: "239"
     page: "496"
+    docket: "296"
+    citation: "239 U.S. 496"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1916"
-    citation: "239 U.S. 496"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-024"
@@ -3078,9 +3997,12 @@ cases:
     title: "Pennsylvania R. Co. v. W. F. Jacoby &amp; Co."
     volume: "242"
     page: "089"
+    docket: "22"
+    citation: "242 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1916"
-    citation: "242 U.S. 89"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1916-025"
@@ -3088,9 +4010,12 @@ cases:
     title: "Seton Hall College v. South Orange"
     volume: "242"
     page: "100"
+    docket: "74"
+    citation: "242 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1916"
-    citation: "242 U.S. 100"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-026"
@@ -3098,9 +4023,12 @@ cases:
     title: "Swift &amp; Co. v. Hoover"
     volume: "242"
     page: "107"
+    docket: "101"
+    citation: "242 U.S. 107"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1916"
-    citation: "242 U.S. 107"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-027"
@@ -3108,9 +4036,12 @@ cases:
     title: "Kansas City, M. &amp; B. R. Co. v. Stiles"
     volume: "242"
     page: "111"
+    docket: "212"
+    citation: "242 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1916"
-    citation: "242 U.S. 111"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-051"
@@ -3118,9 +4049,12 @@ cases:
     title: "Gulf, C. &amp; S. F. R. Co. v. Texas Packing Co."
     volume: "244"
     page: "031"
+    docket: "334"
+    citation: "244 U.S. 31"
     pdfSource: "loc"
     dateDecision: "Monday, May 7, 1917"
-    citation: "244 U.S. 31"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-065"
@@ -3128,9 +4062,12 @@ cases:
     title: "United States v. Wildcat"
     volume: "244"
     page: "111"
+    docket: "741"
+    citation: "244 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1917"
-    citation: "244 U.S. 111"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-066"
@@ -3138,9 +4075,12 @@ cases:
     title: "Yankaus v. Feltenstein"
     volume: "244"
     page: "127"
+    docket: "407"
+    citation: "244 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1917"
-    citation: "244 U.S. 127"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-067"
@@ -3148,9 +4088,12 @@ cases:
     title: "Lewis v. United States"
     volume: "244"
     page: "134"
+    docket: "197"
+    citation: "244 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1917"
-    citation: "244 U.S. 134"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-088"
@@ -3158,9 +4101,12 @@ cases:
     title: "Erie R. Co. v. Purucker"
     volume: "244"
     page: "320"
+    docket: "211"
+    citation: "244 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1917"
-    citation: "244 U.S. 320"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-089"
@@ -3168,9 +4114,12 @@ cases:
     title: "Farmers Irrigation Dist. v. Nebraska ex rel. O&apos;Shea"
     volume: "244"
     page: "325"
+    docket: "215"
+    citation: "244 U.S. 325"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1917"
-    citation: "244 U.S. 325"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-090"
@@ -3178,9 +4127,12 @@ cases:
     title: "Erie R. Co. v. Stone"
     volume: "244"
     page: "332"
+    docket: "254"
+    citation: "244 U.S. 332"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1917"
-    citation: "244 U.S. 332"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-091"
@@ -3188,9 +4140,12 @@ cases:
     title: "Atchison, T. &amp; S. F. R. Co. v. United States"
     volume: "244"
     page: "336"
+    docket: "267"
+    citation: "244 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1917"
-    citation: "244 U.S. 336"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-122"
@@ -3198,9 +4153,12 @@ cases:
     title: "St. Louis, I. M. &amp; S. R. Co. v. Starbird"
     volume: "243"
     page: "592"
+    docket: "275"
+    citation: "243 U.S. 592"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1917"
-    citation: "243 U.S. 592"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-133"
@@ -3208,9 +4166,12 @@ cases:
     title: "Pullman Co. v. Knott"
     volume: "243"
     page: "447"
+    docket: "262"
+    citation: "243 U.S. 447"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1917"
-    citation: "243 U.S. 447"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-134"
@@ -3218,9 +4179,12 @@ cases:
     title: "United States v. Waller"
     volume: "243"
     page: "452"
+    docket: "697"
+    citation: "243 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, April 9, 1917"
-    citation: "243 U.S. 452"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-141"
@@ -3228,9 +4192,12 @@ cases:
     title: "California v. Deseret Water, Oil &amp; Irrigation Co."
     volume: "243"
     page: "415"
+    docket: "269"
+    citation: "243 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1917"
-    citation: "243 U.S. 415"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-161"
@@ -3238,9 +4205,12 @@ cases:
     title: "Gannon v. Johnston"
     volume: "243"
     page: "108"
+    docket: "131"
+    citation: "243 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 108"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-162"
@@ -3248,9 +4218,12 @@ cases:
     title: "Baker v. Schofield"
     volume: "243"
     page: "114"
+    docket: "133"
+    citation: "243 U.S. 114"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 114"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-163"
@@ -3258,9 +4231,12 @@ cases:
     title: "William R. Staats Co. v. Security Trust and Sav. Bank"
     volume: "243"
     page: "121"
+    docket: "608"
+    citation: "243 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 121"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-164"
@@ -3268,9 +4244,12 @@ cases:
     title: "The S. S. Appam"
     volume: "243"
     page: "124"
+    docket: "650"
+    citation: "243 U.S. 124"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1917"
-    citation: "243 U.S. 124"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-181"
@@ -3278,9 +4257,12 @@ cases:
     title: "Second Nat. Bank of Cincinnati v. First Nat. Bank of Okeana"
     volume: "242"
     page: "600"
+    docket: "491"
+    citation: "242 U.S. 600"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1917"
-    citation: "242 U.S. 600"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1916-190"
@@ -3288,9 +4270,12 @@ cases:
     title: "Caminetti v. United States"
     volume: "242"
     page: "470"
+    docket: "139"
+    citation: "242 U.S. 470"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1917"
-    citation: "242 U.S. 470"
+    voteMajority: 5
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1916-191"
@@ -3298,9 +4283,12 @@ cases:
     title: "Von Baumbach v. Sargent Land Co."
     volume: "242"
     page: "503"
+    docket: "286"
+    citation: "242 U.S. 503"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1917"
-    citation: "242 U.S. 503"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-002"
@@ -3308,9 +4296,12 @@ cases:
     title: "Southern Pacific Co. v. Stewart"
     volume: "245"
     page: "359"
+    docket: "348"
+    citation: "245 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Monday, December 17, 1917"
-    citation: "245 U.S. 359"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1917-009"
@@ -3318,9 +4309,12 @@ cases:
     title: "Stevirmac Oil &amp; Gas Co. v. Dittman"
     volume: "245"
     page: "210"
+    docket: "131"
+    citation: "245 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1917"
-    citation: "245 U.S. 210"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-010"
@@ -3328,9 +4322,12 @@ cases:
     title: "Jones v. Portland"
     volume: "245"
     page: "217"
+    docket: "77"
+    citation: "245 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Monday, December 10, 1917"
-    citation: "245 U.S. 217"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-039"
@@ -3338,9 +4335,12 @@ cases:
     title: "Buchanan v. Warley"
     volume: "245"
     page: "060"
+    docket: "33"
+    citation: "245 U.S. 60"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1917"
-    citation: "245 U.S. 60"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-040"
@@ -3348,9 +4348,12 @@ cases:
     title: "Gauzon v. Compa&ntilde;ia General de Tabacos de Filipinas"
     volume: "245"
     page: "086"
+    docket: "437"
+    citation: "245 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1917"
-    citation: "245 U.S. 86"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-050"
@@ -3358,9 +4361,12 @@ cases:
     title: "Pennsylvania R. Co. v. Towers"
     volume: "245"
     page: "006"
+    docket: "31"
+    citation: "245 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Monday, October 15, 1917"
-    citation: "245 U.S. 6"
+    voteMajority: 6
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1917-051"
@@ -3368,9 +4374,12 @@ cases:
     title: "Ex parte Park &amp; Tilford"
     volume: "245"
     page: "082"
+    docket: "24 Orig."
+    citation: "245 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, November 5, 1917"
-    citation: "245 U.S. 82"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-057"
@@ -3378,9 +4387,12 @@ cases:
     title: "Municipal Securities Corp. v. Kansas City"
     volume: "246"
     page: "063"
+    docket: "56"
+    citation: "246 U.S. 63"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 63"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-058"
@@ -3388,9 +4400,12 @@ cases:
     title: "Krueger v. United States"
     volume: "246"
     page: "069"
+    docket: "111"
+    citation: "246 U.S. 69"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 69"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-059"
@@ -3398,9 +4413,12 @@ cases:
     title: "People&apos;s Tobacco Co. v. American Tobacco Co."
     volume: "246"
     page: "079"
+    docket: "124"
+    citation: "246 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 79"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-060"
@@ -3408,9 +4426,12 @@ cases:
     title: "Brader v. James"
     volume: "246"
     page: "088"
+    docket: "126"
+    citation: "246 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 88"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-061"
@@ -3418,9 +4439,12 @@ cases:
     title: "Eiger v. Garrity"
     volume: "246"
     page: "097"
+    docket: "143"
+    citation: "246 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 97"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-062"
@@ -3428,9 +4452,12 @@ cases:
     title: "Talley v. Burgess"
     volume: "246"
     page: "104"
+    docket: "157"
+    citation: "246 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 104"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-063"
@@ -3438,9 +4465,12 @@ cases:
     title: "Anicker v. Gunsburg"
     volume: "246"
     page: "110"
+    docket: "164"
+    citation: "246 U.S. 110"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 110"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-064"
@@ -3448,9 +4478,12 @@ cases:
     title: "Great Northern R. Co. v. Donaldson"
     volume: "246"
     page: "121"
+    docket: "172"
+    citation: "246 U.S. 121"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1918"
-    citation: "246 U.S. 121"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-100"
@@ -3458,9 +4491,12 @@ cases:
     title: "Great Northern R. Co. v. Minnesota ex rel. Clara City"
     volume: "246"
     page: "434"
+    docket: "185"
+    citation: "246 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1918"
-    citation: "246 U.S. 434"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-101"
@@ -3468,9 +4504,12 @@ cases:
     title: "Boston &amp; Maine R. Co. v. Piper"
     volume: "246"
     page: "439"
+    docket: "208"
+    citation: "246 U.S. 439"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1918"
-    citation: "246 U.S. 439"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-125"
@@ -3478,9 +4517,12 @@ cases:
     title: "Grinnell Washing Machine Co. v. E. E. Johnson Co."
     volume: "247"
     page: "426"
+    docket: "272"
+    citation: "247 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1918"
-    citation: "247 U.S. 426"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1917-126"
@@ -3488,9 +4530,12 @@ cases:
     title: "Exploration Co. v. United States"
     volume: "247"
     page: "435"
+    docket: "277"
+    citation: "247 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1918"
-    citation: "247 U.S. 435"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1917-136"
@@ -3498,9 +4543,12 @@ cases:
     title: "Minnesota v. Lane"
     volume: "247"
     page: "243"
+    docket: "20 Orig."
+    citation: "247 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1918"
-    citation: "247 U.S. 243"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-137"
@@ -3508,9 +4556,12 @@ cases:
     title: "Hammer v. Dagenhart"
     volume: "247"
     page: "251"
+    docket: "704"
+    citation: "247 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1918"
-    citation: "247 U.S. 251"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wrday
     authorName: "William Day"
   - id: "1917-162"
@@ -3518,9 +4569,12 @@ cases:
     title: "United States v. Biwabik Mining Co."
     volume: "247"
     page: "116"
+    docket: "594"
+    citation: "247 U.S. 116"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1918"
-    citation: "247 U.S. 116"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-163"
@@ -3528,9 +4582,12 @@ cases:
     title: "Goldfield Consol. Mines Co. v. Scott"
     volume: "247"
     page: "126"
+    docket: "334"
+    citation: "247 U.S. 126"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1918"
-    citation: "247 U.S. 126"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-164"
@@ -3538,9 +4595,12 @@ cases:
     title: "Northwestern Mut. Life Ins. Co. v. Wisconsin"
     volume: "247"
     page: "132"
+    docket: "240"
+    citation: "247 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Monday, May 20, 1918"
-    citation: "247 U.S. 132"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-183"
@@ -3548,9 +4608,12 @@ cases:
     title: "Stellwagen v. Clum"
     volume: "245"
     page: "605"
+    docket: "89"
+    citation: "245 U.S. 605"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1918"
-    citation: "245 U.S. 605"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-209"
@@ -3558,9 +4621,12 @@ cases:
     title: "Wisconsin v. Lane"
     volume: "245"
     page: "427"
+    docket: "7 Orig."
+    citation: "245 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1918"
-    citation: "245 U.S. 427"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-210"
@@ -3568,9 +4634,12 @@ cases:
     title: "United States v. J. S. Stearns Lumber Co."
     volume: "245"
     page: "436"
+    docket: "94"
+    citation: "245 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1918"
-    citation: "245 U.S. 436"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1917-217"
@@ -3578,9 +4647,12 @@ cases:
     title: "Southern Pacific Co. v. Stewart"
     volume: "245"
     page: "562"
+    docket: "348"
+    citation: "245 U.S. 562"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1918"
-    citation: "245 U.S. 562"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-002"
@@ -3588,9 +4660,12 @@ cases:
     title: "Dillon v. Strathearn S. S. Co."
     volume: "248"
     page: "182"
+    docket: "361"
+    citation: "248 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1918"
-    citation: "248 U.S. 182"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-003"
@@ -3598,9 +4673,12 @@ cases:
     title: "Sandberg v. McDonald"
     volume: "248"
     page: "185"
+    docket: "392"
+    citation: "248 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1918"
-    citation: "248 U.S. 185"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wrday
     authorName: "William Day"
   - id: "1918-004"
@@ -3608,9 +4686,12 @@ cases:
     title: "Neilson v. Rhine Shipping Co."
     volume: "248"
     page: "205"
+    docket: "393"
+    citation: "248 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1918"
-    citation: "248 U.S. 205"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wrday
     authorName: "William Day"
   - id: "1918-015"
@@ -3618,9 +4699,12 @@ cases:
     title: "Sterrett v. Second Nat. Bank of Cincinnati"
     volume: "248"
     page: "073"
+    docket: "378"
+    citation: "248 U.S. 73"
     pdfSource: "loc"
     dateDecision: "Monday, December 9, 1918"
-    citation: "248 U.S. 73"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-033"
@@ -3628,9 +4712,12 @@ cases:
     title: "Pittsburgh Melting Co. v. Totten"
     volume: "248"
     page: "001"
+    docket: "28"
+    citation: "248 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, November 4, 1918"
-    citation: "248 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-036"
@@ -3638,9 +4725,12 @@ cases:
     title: "Burr v. Columbus"
     volume: "249"
     page: "415"
+    docket: "739"
+    citation: "249 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1919"
-    citation: "249 U.S. 415"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-044"
@@ -3648,9 +4738,12 @@ cases:
     title: "Arkansas v. Mississippi"
     volume: "250"
     page: "039"
+    docket: "7 Orig."
+    citation: "250 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 19, 1919"
-    citation: "250 U.S. 39"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-045"
@@ -3658,9 +4751,12 @@ cases:
     title: "Ball Engineering Co. v. J. G. White &amp; Co."
     volume: "250"
     page: "046"
+    docket: "227"
+    citation: "250 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1919"
-    citation: "250 U.S. 46"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-069"
@@ -3668,9 +4764,12 @@ cases:
     title: "Dana v. Dana"
     volume: "250"
     page: "220"
+    docket: "276"
+    citation: "250 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1919"
-    citation: "250 U.S. 220"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-070"
@@ -3678,9 +4777,12 @@ cases:
     title: "Flanders v. Coleman"
     volume: "250"
     page: "223"
+    docket: "419"
+    citation: "250 U.S. 223"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1919"
-    citation: "250 U.S. 223"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-071"
@@ -3688,9 +4790,12 @@ cases:
     title: "Brainerd, Shaler &amp; Hall Quarry Co. v. Brice"
     volume: "250"
     page: "229"
+    docket: "431"
+    citation: "250 U.S. 229"
     pdfSource: "loc"
     dateDecision: "Monday, June 2, 1919"
-    citation: "250 U.S. 229"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-090"
@@ -3698,9 +4803,12 @@ cases:
     title: "Pennsylvania R. Co. v. Minds"
     volume: "250"
     page: "368"
+    docket: "293"
+    citation: "250 U.S. 368"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1919"
-    citation: "250 U.S. 368"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-091"
@@ -3708,9 +4816,12 @@ cases:
     title: "DeGanay v. Lederer"
     volume: "250"
     page: "376"
+    docket: "319"
+    citation: "250 U.S. 376"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1919"
-    citation: "250 U.S. 376"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-124"
@@ -3718,9 +4829,12 @@ cases:
     title: "Standard Oil Co. v. Graves"
     volume: "249"
     page: "389"
+    docket: "177"
+    citation: "249 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1919"
-    citation: "249 U.S. 389"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-125"
@@ -3728,9 +4842,12 @@ cases:
     title: "McKinley v. United States"
     volume: "249"
     page: "397"
+    docket: "417"
+    citation: "249 U.S. 397"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1919"
-    citation: "249 U.S. 397"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-126"
@@ -3738,9 +4855,12 @@ cases:
     title: "Columbus Railway, Power &amp; Light Co. v. Columbus"
     volume: "249"
     page: "399"
+    docket: "715"
+    citation: "249 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1919"
-    citation: "249 U.S. 399"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-169"
@@ -3748,9 +4868,12 @@ cases:
     title: "Alaska Pacific Fisheries v. Alaska"
     volume: "249"
     page: "053"
+    docket: "117, 118"
+    citation: "249 U.S. 53"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 53"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-170"
@@ -3758,9 +4881,12 @@ cases:
     title: "Alaska Salmon Co. v. Alaska"
     volume: "249"
     page: "062"
+    docket: "151"
+    citation: "249 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 62"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-171"
@@ -3768,9 +4894,12 @@ cases:
     title: "Withnell v. Ruecking Constr. Co."
     volume: "249"
     page: "063"
+    docket: "142"
+    citation: "249 U.S. 63"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 63"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-172"
@@ -3778,9 +4907,12 @@ cases:
     title: "Compa&ntilde;ia General de Tabacos de Filipinas v. Alhambra Cigar &amp; Cigarette Mfg. Co."
     volume: "249"
     page: "072"
+    docket: "180"
+    citation: "249 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 72"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-173"
@@ -3788,9 +4920,12 @@ cases:
     title: "Whitehead v. Galloway"
     volume: "249"
     page: "079"
+    docket: "184"
+    citation: "249 U.S. 79"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 79"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-174"
@@ -3798,9 +4933,12 @@ cases:
     title: "United States v. Doremus"
     volume: "249"
     page: "086"
+    docket: "367"
+    citation: "249 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 86"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wrday
     authorName: "William Day"
   - id: "1918-175"
@@ -3808,9 +4946,12 @@ cases:
     title: "Webb v. United States"
     volume: "249"
     page: "096"
+    docket: "370"
+    citation: "249 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1919"
-    citation: "249 U.S. 96"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wrday
     authorName: "William Day"
   - id: "1918-196"
@@ -3818,9 +4959,12 @@ cases:
     title: "Mount Saint Mary&apos;s Cemetery Assn. v. Mullins"
     volume: "248"
     page: "501"
+    docket: "56"
+    citation: "248 U.S. 501"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1919"
-    citation: "248 U.S. 501"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1918-208"
@@ -3828,9 +4972,12 @@ cases:
     title: "United States v. Hill"
     volume: "248"
     page: "420"
+    docket: "357"
+    citation: "248 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1919"
-    citation: "248 U.S. 420"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1918-209"
@@ -3838,9 +4985,12 @@ cases:
     title: "Detroit United R. Co. v. Detroit"
     volume: "248"
     page: "429"
+    docket: "666"
+    citation: "248 U.S. 429"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1919"
-    citation: "248 U.S. 429"
+    voteMajority: 6
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1918-221"
@@ -3848,9 +4998,12 @@ cases:
     title: "Union Fish Co. v. Erickson"
     volume: "248"
     page: "308"
+    docket: "76"
+    citation: "248 U.S. 308"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 7, 1919"
-    citation: "248 U.S. 308"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-002"
@@ -3858,9 +5011,12 @@ cases:
     title: "Maxwell v. Bugbee"
     volume: "250"
     page: "525"
+    docket: "238"
+    citation: "250 U.S. 525"
     pdfSource: "loc"
     dateDecision: "Monday, October 27, 1919"
-    citation: "250 U.S. 525"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wrday
     authorName: "William Day"
   - id: "1919-008"
@@ -3868,9 +5024,12 @@ cases:
     title: "Pittsburgh, C., C. &amp; St. L. R. Co. v. Fink"
     volume: "250"
     page: "577"
+    docket: "2"
+    citation: "250 U.S. 577"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1919"
-    citation: "250 U.S. 577"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-009"
@@ -3878,9 +5037,12 @@ cases:
     title: "Stilson v. United States"
     volume: "250"
     page: "583"
+    docket: "264"
+    citation: "250 U.S. 583"
     pdfSource: "loc"
     dateDecision: "Monday, November 10, 1919"
-    citation: "250 U.S. 583"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1919-036"
@@ -3888,9 +5050,12 @@ cases:
     title: "Stroud v. United States"
     volume: "251"
     page: "015"
+    docket: "276"
+    citation: "251 U.S. 15"
     pdfSource: "loc"
     dateDecision: "Monday, November 24, 1919"
-    citation: "251 U.S. 15"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-040"
@@ -3898,9 +5063,12 @@ cases:
     title: "Scott v. Frazier"
     volume: "253"
     page: "243"
+    docket: "508"
+    citation: "253 U.S. 243"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1920"
-    citation: "253 U.S. 243"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-053"
@@ -3908,9 +5076,12 @@ cases:
     title: "City of New York v. Consolidated Gas Co. of N. Y."
     volume: "253"
     page: "219"
+    docket: "566"
+    citation: "253 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1920"
-    citation: "253 U.S. 219"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-054"
@@ -3918,9 +5089,12 @@ cases:
     title: "Hawke v. Smith (No. 1)"
     volume: "253"
     page: "221"
+    docket: "582"
+    citation: "253 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1920"
-    citation: "253 U.S. 221"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-055"
@@ -3928,9 +5102,12 @@ cases:
     title: "Hawke v. Smith (No. 2)"
     volume: "253"
     page: "231"
+    docket: "601"
+    citation: "253 U.S. 231"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1920"
-    citation: "253 U.S. 231"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-056"
@@ -3938,9 +5115,12 @@ cases:
     title: "Green v. Frazier"
     volume: "253"
     page: "233"
+    docket: "811"
+    citation: "253 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Tuesday, June 1, 1920"
-    citation: "253 U.S. 233"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-074"
@@ -3948,9 +5128,12 @@ cases:
     title: "Western Union Telegraph Co. v. Brown"
     volume: "253"
     page: "101"
+    docket: "159"
+    citation: "253 U.S. 101"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1920"
-    citation: "253 U.S. 101"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-075"
@@ -3958,9 +5141,12 @@ cases:
     title: "United States v. Alaska S. S. Co."
     volume: "253"
     page: "113"
+    docket: "541"
+    citation: "253 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Monday, May 17, 1920"
-    citation: "253 U.S. 113"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-086"
@@ -3968,9 +5154,12 @@ cases:
     title: "Maguire v. Trefry"
     volume: "253"
     page: "012"
+    docket: "280"
+    citation: "253 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1920"
-    citation: "253 U.S. 12"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1919-094"
@@ -3978,9 +5167,12 @@ cases:
     title: "Blumenstock Brothers Advertising Agency v. Curtis Publishing Co."
     volume: "252"
     page: "436"
+    docket: "197"
+    citation: "252 U.S. 436"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1920"
-    citation: "252 U.S. 436"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-095"
@@ -3988,9 +5180,12 @@ cases:
     title: "Askren v. Continental Oil Co."
     volume: "252"
     page: "444"
+    docket: "521"
+    citation: "252 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1920"
-    citation: "252 U.S. 444"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-112"
@@ -3998,9 +5193,12 @@ cases:
     title: "Strathearn S. S. Co. v. Dillon"
     volume: "252"
     page: "348"
+    docket: "373"
+    citation: "252 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1920"
-    citation: "252 U.S. 348"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-113"
@@ -4008,9 +5206,12 @@ cases:
     title: "Thompson v. Lucas"
     volume: "252"
     page: "358"
+    docket: "391"
+    citation: "252 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1920"
-    citation: "252 U.S. 358"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-138"
@@ -4018,9 +5219,12 @@ cases:
     title: "Jett Bros. Distilling Co. v. Carrollton"
     volume: "252"
     page: "001"
+    docket: "108"
+    citation: "252 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "252 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-139"
@@ -4028,9 +5232,12 @@ cases:
     title: "Farncomb v. City and County of Denver"
     volume: "252"
     page: "007"
+    docket: "110"
+    citation: "252 U.S. 7"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "252 U.S. 7"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-140"
@@ -4038,9 +5245,12 @@ cases:
     title: "Goldsmith v. George G. Prendergast Constr. Co."
     volume: "252"
     page: "012"
+    docket: "127"
+    citation: "252 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "252 U.S. 12"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-141"
@@ -4048,9 +5258,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Ward"
     volume: "252"
     page: "018"
+    docket: "198"
+    citation: "252 U.S. 18"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "252 U.S. 18"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-142"
@@ -4058,9 +5271,12 @@ cases:
     title: "Pennsylvania Gas Co. v. Public Serv. Comm&apos;n of N. Y."
     volume: "252"
     page: "023"
+    docket: "330"
+    citation: "252 U.S. 23"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "252 U.S. 23"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-143"
@@ -4068,9 +5284,12 @@ cases:
     title: "Ex parte Tiffany"
     volume: "252"
     page: "032"
+    docket: "26 Orig."
+    citation: "252 U.S. 32"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1920"
-    citation: "252 U.S. 32"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-164"
@@ -4078,9 +5297,12 @@ cases:
     title: "Stroud v. United States"
     volume: "251"
     page: "380"
+    docket: "276"
+    citation: "251 U.S. 380"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1920"
-    citation: "251 U.S. 380"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-171"
@@ -4088,9 +5310,12 @@ cases:
     title: "Winchester v. Winchester Water Works Co."
     volume: "251"
     page: "192"
+    docket: "51"
+    citation: "251 U.S. 192"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1920"
-    citation: "251 U.S. 192"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1919-172"
@@ -4098,9 +5323,12 @@ cases:
     title: "St. Louis, I. M. &amp; S. R. Co. v. United States"
     volume: "251"
     page: "198"
+    docket: "71"
+    citation: "251 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1920"
-    citation: "251 U.S. 198"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1919-173"
@@ -4108,9 +5336,12 @@ cases:
     title: "United States v. Standard Brewery, Inc."
     volume: "251"
     page: "210"
+    docket: "458"
+    citation: "251 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Monday, January 5, 1920"
-    citation: "251 U.S. 210"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-015"
@@ -4118,9 +5349,12 @@ cases:
     title: "United States v. Nederlandsch-Amerikaansche Stoomvaart Maatschappij (Holland-America Lijn)"
     volume: "254"
     page: "148"
+    docket: "53"
+    citation: "254 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1920"
-    citation: "254 U.S. 148"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-016"
@@ -4128,9 +5362,12 @@ cases:
     title: "Berlin Mills Co. v. Procter &amp; Gamble Co."
     volume: "254"
     page: "156"
+    docket: "93"
+    citation: "254 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1920"
-    citation: "254 U.S. 156"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-017"
@@ -4138,9 +5375,12 @@ cases:
     title: "De Rees v. Costaguta"
     volume: "254"
     page: "166"
+    docket: "341"
+    citation: "254 U.S. 166"
     pdfSource: "loc"
     dateDecision: "Monday, December 6, 1920"
-    citation: "254 U.S. 166"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-044"
@@ -4148,9 +5388,12 @@ cases:
     title: "Seaboard Air Line R. Co. v. United States"
     volume: "254"
     page: "057"
+    docket: "27"
+    citation: "254 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1920"
-    citation: "254 U.S. 57"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-045"
@@ -4158,9 +5401,12 @@ cases:
     title: "Turner v. Wade"
     volume: "254"
     page: "064"
+    docket: "29"
+    citation: "254 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1920"
-    citation: "254 U.S. 64"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-072"
@@ -4168,9 +5414,12 @@ cases:
     title: "United States v. Yuginovich"
     volume: "256"
     page: "450"
+    docket: "523"
+    citation: "256 U.S. 450"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 1, 1921"
-    citation: "256 U.S. 450"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-073"
@@ -4178,9 +5427,12 @@ cases:
     title: "Burdeau v. McDowell"
     volume: "256"
     page: "465"
+    docket: "646"
+    citation: "256 U.S. 465"
     pdfSource: "loc"
     dateDecision: "Wednesday, June 1, 1921"
-    citation: "256 U.S. 465"
+    voteMajority: 6
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1920-097"
@@ -4188,9 +5440,12 @@ cases:
     title: "Heitmuller v. Stokes"
     volume: "256"
     page: "359"
+    docket: "279"
+    citation: "256 U.S. 359"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1921"
-    citation: "256 U.S. 359"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-098"
@@ -4198,9 +5453,12 @@ cases:
     title: "Krichman v. United States"
     volume: "256"
     page: "363"
+    docket: "260"
+    citation: "256 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Monday, May 16, 1921"
-    citation: "256 U.S. 363"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-124"
@@ -4208,9 +5466,12 @@ cases:
     title: "Arkansas v. Mississippi"
     volume: "256"
     page: "028"
+    docket: "6 Orig."
+    citation: "256 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1921"
-    citation: "256 U.S. 28"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-125"
@@ -4218,9 +5479,12 @@ cases:
     title: "Baldwin Co. v. R. S. Howard Co."
     volume: "256"
     page: "035"
+    docket: "113"
+    citation: "256 U.S. 35"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1921"
-    citation: "256 U.S. 35"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-126"
@@ -4228,9 +5492,12 @@ cases:
     title: "American Steel Foundries v. Whitehead"
     volume: "256"
     page: "040"
+    docket: "131"
+    citation: "256 U.S. 40"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1921"
-    citation: "256 U.S. 40"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-127"
@@ -4238,9 +5505,12 @@ cases:
     title: "Minnesota ex rel. Whipple v. Martinson"
     volume: "256"
     page: "041"
+    docket: "224"
+    citation: "256 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1921"
-    citation: "256 U.S. 41"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-128"
@@ -4248,9 +5518,12 @@ cases:
     title: "Galbraith v. Vallely"
     volume: "256"
     page: "046"
+    docket: "234"
+    citation: "256 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1921"
-    citation: "256 U.S. 46"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-154"
@@ -4258,9 +5531,12 @@ cases:
     title: "Supreme Tribe of Ben-Hur v. Cauble"
     volume: "255"
     page: "356"
+    docket: "274"
+    citation: "255 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1921"
-    citation: "255 U.S. 356"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-174"
@@ -4268,9 +5544,12 @@ cases:
     title: "United States v. Rogers"
     volume: "255"
     page: "163"
+    docket: "147"
+    citation: "255 U.S. 163"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1921"
-    citation: "255 U.S. 163"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-175"
@@ -4278,9 +5557,12 @@ cases:
     title: "United States v. Highsmith"
     volume: "255"
     page: "170"
+    docket: "148"
+    citation: "255 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1921"
-    citation: "255 U.S. 170"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-176"
@@ -4288,9 +5570,12 @@ cases:
     title: "Detroit United R. Co. v. Detroit"
     volume: "255"
     page: "171"
+    docket: "492"
+    citation: "255 U.S. 171"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1921"
-    citation: "255 U.S. 171"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-177"
@@ -4298,9 +5583,12 @@ cases:
     title: "Smith v. Kansas City Title &amp; Trust Co."
     volume: "255"
     page: "180"
+    docket: "199"
+    citation: "255 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1921"
-    citation: "255 U.S. 180"
+    voteMajority: 6
+    voteMinority: 2
     authorId: wrday
     authorName: "William Day"
   - id: "1920-218"
@@ -4308,9 +5596,12 @@ cases:
     title: "National Brake &amp; Elec. Co. v. Christensen"
     volume: "254"
     page: "425"
+    docket: "111"
+    citation: "254 U.S. 425"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1921"
-    citation: "254 U.S. 425"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1920-219"
@@ -4318,9 +5609,12 @@ cases:
     title: "Sullivan v. Kidd"
     volume: "254"
     page: "433"
+    docket: "65"
+    citation: "254 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Monday, January 3, 1921"
-    citation: "254 U.S. 433"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1921-009"
@@ -4328,9 +5622,12 @@ cases:
     title: "Nicholas v. United States"
     volume: "257"
     page: "071"
+    docket: "10"
+    citation: "257 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1921"
-    citation: "257 U.S. 71"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1921-010"
@@ -4338,9 +5635,12 @@ cases:
     title: "Norris v. United States"
     volume: "257"
     page: "077"
+    docket: "11"
+    citation: "257 U.S. 77"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1921"
-    citation: "257 U.S. 77"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1921-011"
@@ -4348,9 +5648,12 @@ cases:
     title: "Eberlein v. United States"
     volume: "257"
     page: "082"
+    docket: "12"
+    citation: "257 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1921"
-    citation: "257 U.S. 82"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1921-012"
@@ -4358,9 +5661,12 @@ cases:
     title: "Pennsylvania R. Co. v. Weber"
     volume: "257"
     page: "085"
+    docket: "210"
+    citation: "257 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, November 7, 1921"
-    citation: "257 U.S. 85"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1921-026"
@@ -4368,9 +5674,12 @@ cases:
     title: "North Pacific S. S. Co. v. Soley"
     volume: "257"
     page: "216"
+    docket: "63"
+    citation: "257 U.S. 216"
     pdfSource: "loc"
     dateDecision: "Monday, December 5, 1921"
-    citation: "257 U.S. 216"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1921-049"
@@ -4378,9 +5687,12 @@ cases:
     title: "Lemke v. Farmers Grain Co. of Embden"
     volume: "258"
     page: "050"
+    docket: "456"
+    citation: "258 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1922"
-    citation: "258 U.S. 50"
+    voteMajority: 6
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1921-050"
@@ -4388,9 +5700,12 @@ cases:
     title: "Lemke v. Homer Farmers Elevator Co."
     volume: "258"
     page: "065"
+    docket: "604"
+    citation: "258 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1922"
-    citation: "258 U.S. 65"
+    voteMajority: 6
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1921-051"
@@ -4398,9 +5713,12 @@ cases:
     title: "Crichton v. Wingfield"
     volume: "258"
     page: "066"
+    docket: "312"
+    citation: "258 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1922"
-    citation: "258 U.S. 66"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1921-052"
@@ -4408,9 +5726,12 @@ cases:
     title: "Schaff v. J. C. Famechon Co."
     volume: "258"
     page: "076"
+    docket: "91"
+    citation: "258 U.S. 76"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1922"
-    citation: "258 U.S. 76"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1921-081"
@@ -4418,9 +5739,12 @@ cases:
     title: "United States v. Behrman"
     volume: "258"
     page: "280"
+    docket: "582"
+    citation: "258 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Monday, March 27, 1922"
-    citation: "258 U.S. 280"
+    voteMajority: 6
+    voteMinority: 3
     authorId: wrday
     authorName: "William Day"
   - id: "1921-090"
@@ -4428,9 +5752,12 @@ cases:
     title: "Standard Fashion Co. v. Magrane-Houston Co."
     volume: "258"
     page: "346"
+    docket: "20"
+    citation: "258 U.S. 346"
     pdfSource: "loc"
     dateDecision: "Monday, April 10, 1922"
-    citation: "258 U.S. 346"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
   - id: "1921-104"
@@ -4438,9 +5765,12 @@ cases:
     title: "United Shoe Machinery Corp. v. United States"
     volume: "258"
     page: "451"
+    docket: "119"
+    citation: "258 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Monday, April 17, 1922"
-    citation: "258 U.S. 451"
+    voteMajority: 7
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1921-115"
@@ -4448,9 +5778,12 @@ cases:
     title: "FTC v. Beech-Nut Packing Co."
     volume: "257"
     page: "441"
+    docket: "47"
+    citation: "257 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 3, 1922"
-    citation: "257 U.S. 441"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wrday
     authorName: "William Day"
   - id: "1921-156"
@@ -4458,9 +5791,12 @@ cases:
     title: "United States v. Southern Pacific Co."
     volume: "259"
     page: "214"
+    docket: "5"
+    citation: "259 U.S. 214"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1922"
-    citation: "259 U.S. 214"
+    voteMajority: 6
+    voteMinority: 1
     authorId: wrday
     authorName: "William Day"
   - id: "1921-170"
@@ -4468,9 +5804,12 @@ cases:
     title: "Ex parte Harley-Davidson Motor Co."
     volume: "259"
     page: "414"
+    docket: "26 Orig."
+    citation: "259 U.S. 414"
     pdfSource: "loc"
     dateDecision: "Monday, June 5, 1922"
-    citation: "259 U.S. 414"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wrday
     authorName: "William Day"
 ---

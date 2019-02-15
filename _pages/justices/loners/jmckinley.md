@@ -8,9 +8,11 @@ cases:
     title: "Bank of Augusta v. Earle"
     volume: "038"
     page: "519"
+    citation: "38 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Saturday, March 9, 1839"
-    citation: "38 U.S. 519"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckinley
     dissenterName: "John McKinley"
   - id: "1849-006"
@@ -18,9 +20,11 @@ cases:
     title: "McLaughlin v. Bank of Potomac"
     volume: "048"
     page: "220"
+    citation: "48 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Thursday, January 11, 1849"
-    citation: "48 U.S. 220"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: jmckinley
     dissenterName: "John McKinley"
 ---

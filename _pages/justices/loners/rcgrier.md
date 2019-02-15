@@ -8,9 +8,11 @@ cases:
     title: "Darrington v. Branch of Bank of Ala."
     volume: "054"
     page: "012"
+    citation: "54 U.S. 12"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 17, 1852"
-    citation: "54 U.S. 12"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1852-033"
@@ -18,9 +20,11 @@ cases:
     title: "Bosley v. Wyatt"
     volume: "055"
     page: "390"
+    citation: "55 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 15, 1853"
-    citation: "55 U.S. 390"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1853-065"
@@ -28,9 +32,11 @@ cases:
     title: "Stuart v. Maxwell"
     volume: "057"
     page: "150"
+    citation: "57 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 23, 1854"
-    citation: "57 U.S. 150"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1856-011"
@@ -38,9 +44,11 @@ cases:
     title: "Seymour v. McCormick"
     volume: "060"
     page: "096"
+    citation: "60 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 7, 1857"
-    citation: "60 U.S. 96"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1857-063"
@@ -48,9 +56,11 @@ cases:
     title: "Williams v. Gibbes"
     volume: "061"
     page: "535"
+    citation: "61 U.S. 535"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 18, 1858"
-    citation: "61 U.S. 535"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1857-067"
@@ -58,9 +68,11 @@ cases:
     title: "Sampson v. Peaslee"
     volume: "061"
     page: "571"
+    citation: "61 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 18, 1858"
-    citation: "61 U.S. 571"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1857-071"
@@ -68,9 +80,11 @@ cases:
     title: "Whyte v. Gibbes"
     volume: "061"
     page: "541"
+    citation: "61 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 18, 1858"
-    citation: "61 U.S. 541"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1858-064"
@@ -78,9 +92,11 @@ cases:
     title: "Chamberlain v. Ward"
     volume: "062"
     page: "548"
+    citation: "62 U.S. 548"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1859"
-    citation: "62 U.S. 548"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1858-065"
@@ -88,9 +104,11 @@ cases:
     title: "Ward v. Chamberlain"
     volume: "062"
     page: "572"
+    citation: "62 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1859"
-    citation: "62 U.S. 572"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1861-024"
@@ -98,9 +116,11 @@ cases:
     title: "The Steamer New Philadelphia"
     volume: "066"
     page: "062"
+    citation: "66 U.S. 62"
     pdfSource: "loc"
     dateDecision: "Monday, February 3, 1862"
-    citation: "66 U.S. 62"
+    voteMajority: 5
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1861-042"
@@ -108,9 +128,11 @@ cases:
     title: "United States v. Vallejo"
     volume: "066"
     page: "283"
+    citation: "66 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1862"
-    citation: "66 U.S. 283"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1865-036"
@@ -118,9 +140,11 @@ cases:
     title: "The Ottawa"
     volume: "070"
     page: "268"
+    citation: "70 U.S. 268"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1866"
-    citation: "70 U.S. 268"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1866-062"
@@ -128,9 +152,11 @@ cases:
     title: "Thompson v. Bowie"
     volume: "071"
     page: "463"
+    citation: "71 U.S. 463"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1867"
-    citation: "71 U.S. 463"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1866-100"
@@ -138,9 +164,11 @@ cases:
     title: "The Sea Lion"
     volume: "072"
     page: "630"
+    citation: "72 U.S. 630"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1867"
-    citation: "72 U.S. 630"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1868-077"
@@ -148,9 +176,11 @@ cases:
     title: "Texas v. White"
     volume: "074"
     page: "700"
+    citation: "74 U.S. 700"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1869"
-    citation: "74 U.S. 700"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
   - id: "1868-108"
@@ -158,9 +188,12 @@ cases:
     title: "Maguire v. Tyler"
     volume: "075"
     page: "668"
+    docket: "107"
+    citation: "75 U.S. 668"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1869"
-    citation: "75 U.S. 668"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: rcgrier
     dissenterName: "Robert Grier"
 ---

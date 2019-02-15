@@ -8,9 +8,11 @@ cases:
     title: "United States v. Crosby"
     volume: "011"
     page: "115"
+    citation: "11 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1812"
-    citation: "11 U.S. 115"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1812-028"
@@ -18,9 +20,11 @@ cases:
     title: "Marsteller v. McClean"
     volume: "011"
     page: "156"
+    citation: "11 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Friday, March 13, 1812"
-    citation: "11 U.S. 156"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1813-003"
@@ -28,9 +32,11 @@ cases:
     title: "Bank of Columbia v. Patterson&apos;s Administrator"
     volume: "011"
     page: "299"
+    citation: "11 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Saturday, February 13, 1813"
-    citation: "11 U.S. 299"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1813-012"
@@ -38,9 +44,11 @@ cases:
     title: "Caze v. Baltimore Ins. Co."
     volume: "011"
     page: "358"
+    citation: "11 U.S. 358"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 24, 1813"
-    citation: "11 U.S. 358"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1813-021"
@@ -48,9 +56,11 @@ cases:
     title: "Ferguson v. Harwood"
     volume: "011"
     page: "408"
+    citation: "11 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Friday, March 5, 1813"
-    citation: "11 U.S. 408"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1813-027"
@@ -58,9 +68,11 @@ cases:
     title: "Barnitz&apos;s Lessee v. Casey"
     volume: "011"
     page: "456"
+    citation: "11 U.S. 456"
     pdfSource: "loc"
     dateDecision: "Thursday, March 11, 1813"
-    citation: "11 U.S. 456"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1813-029"
@@ -68,9 +80,11 @@ cases:
     title: "Mills v. Duryee"
     volume: "011"
     page: "481"
+    citation: "11 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Thursday, March 11, 1813"
-    citation: "11 U.S. 481"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1813-034"
@@ -78,9 +92,11 @@ cases:
     title: "Fairfax&apos;s Devisee v. Hunter&apos;s Lessee"
     volume: "011"
     page: "603"
+    citation: "11 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1813"
-    citation: "11 U.S. 603"
+    voteMajority: 3
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1813-039"
@@ -88,9 +104,11 @@ cases:
     title: "Young v. Black"
     volume: "011"
     page: "565"
+    citation: "11 U.S. 565"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 16, 1813"
-    citation: "11 U.S. 565"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1814-004"
@@ -98,9 +116,11 @@ cases:
     title: "Marcardier v. Chesapeake Ins. Co."
     volume: "012"
     page: "039"
+    citation: "12 U.S. 39"
     pdfSource: "loc"
     dateDecision: "Thursday, February 17, 1814"
-    citation: "12 U.S. 39"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1814-009"
@@ -108,9 +128,11 @@ cases:
     title: "McCall v. Marine Ins. Co."
     volume: "012"
     page: "059"
+    citation: "12 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1814"
-    citation: "12 U.S. 59"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1814-011"
@@ -118,9 +140,11 @@ cases:
     title: "Beale v. Thompson"
     volume: "012"
     page: "070"
+    citation: "12 U.S. 70"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 23, 1814"
-    citation: "12 U.S. 70"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1814-015"
@@ -128,9 +152,11 @@ cases:
     title: "Beatty&apos;s Administrators v. Burnes&apos;s Administrators"
     volume: "012"
     page: "098"
+    citation: "12 U.S. 98"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 1, 1814"
-    citation: "12 U.S. 98"
+    voteMajority: 4
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1814-016"
@@ -138,9 +164,11 @@ cases:
     title: "Harford v. United States"
     volume: "012"
     page: "109"
+    citation: "12 U.S. 109"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 1, 1814"
-    citation: "12 U.S. 109"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1814-020"
@@ -148,9 +176,11 @@ cases:
     title: "The Julia"
     volume: "012"
     page: "181"
+    citation: "12 U.S. 181"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1814"
-    citation: "12 U.S. 181"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1814-024"
@@ -158,9 +188,11 @@ cases:
     title: "Green v. Liter"
     volume: "012"
     page: "229"
+    citation: "12 U.S. 229"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1814"
-    citation: "12 U.S. 229"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1814-025"
@@ -168,9 +200,11 @@ cases:
     title: "Carter&apos;s Heirs v. Cutting"
     volume: "012"
     page: "251"
+    citation: "12 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Friday, March 11, 1814"
-    citation: "12 U.S. 251"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1814-036"
@@ -178,9 +212,11 @@ cases:
     title: "The Sally"
     volume: "012"
     page: "382"
+    citation: "12 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 15, 1814"
-    citation: "12 U.S. 382"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1814-042"
@@ -188,9 +224,11 @@ cases:
     title: "The Thomas Gibbons"
     volume: "012"
     page: "421"
+    citation: "12 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 16, 1814"
-    citation: "12 U.S. 421"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1815-005"
@@ -198,9 +236,11 @@ cases:
     title: "Speake v. United States"
     volume: "013"
     page: "028"
+    citation: "13 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Thursday, February 16, 1815"
-    citation: "13 U.S. 28"
+    voteMajority: 4
+    voteMinority: 2
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1815-006"
@@ -208,9 +248,11 @@ cases:
     title: "Terrett v. Taylor"
     volume: "013"
     page: "043"
+    citation: "13 U.S. 43"
     pdfSource: "loc"
     dateDecision: "Friday, February 17, 1815"
-    citation: "13 U.S. 43"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1815-010"
@@ -218,9 +260,11 @@ cases:
     title: "Randolph v. Donaldson"
     volume: "013"
     page: "076"
+    citation: "13 U.S. 76"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 21, 1815"
-    citation: "13 U.S. 76"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1815-013"
@@ -228,9 +272,11 @@ cases:
     title: "Arnold v. United States"
     volume: "013"
     page: "104"
+    citation: "13 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Thursday, February 23, 1815"
-    citation: "13 U.S. 104"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1815-014"
@@ -238,9 +284,11 @@ cases:
     title: "The St. Lawrence"
     volume: "013"
     page: "120"
+    citation: "13 U.S. 120"
     pdfSource: "loc"
     dateDecision: "Saturday, February 25, 1815"
-    citation: "13 U.S. 120"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1815-030"
@@ -248,9 +296,11 @@ cases:
     title: "The Schooner Adeline"
     volume: "013"
     page: "244"
+    citation: "13 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1815"
-    citation: "13 U.S. 244"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1815-031"
@@ -258,9 +308,11 @@ cases:
     title: "The Brig Ann"
     volume: "013"
     page: "289"
+    citation: "13 U.S. 289"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1815"
-    citation: "13 U.S. 289"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1815-032"
@@ -268,9 +320,11 @@ cases:
     title: "Town of Pawlet v. Clark"
     volume: "013"
     page: "292"
+    citation: "13 U.S. 292"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1815"
-    citation: "13 U.S. 292"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1815-038"
@@ -278,9 +332,11 @@ cases:
     title: "The Brig Concord"
     volume: "013"
     page: "387"
+    citation: "13 U.S. 387"
     pdfSource: "loc"
     dateDecision: "Saturday, March 11, 1815"
-    citation: "13 U.S. 387"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1816-003"
@@ -288,9 +344,11 @@ cases:
     title: "The Octavia"
     volume: "014"
     page: "020"
+    citation: "14 U.S. 20"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 13, 1816"
-    citation: "14 U.S. 20"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1816-011"
@@ -298,9 +356,11 @@ cases:
     title: "The Aurora"
     volume: "014"
     page: "096"
+    citation: "14 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Thursday, February 29, 1816"
-    citation: "14 U.S. 96"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1816-019"
@@ -308,9 +368,11 @@ cases:
     title: "Jones v. Shore&apos;s Executor"
     volume: "014"
     page: "462"
+    citation: "14 U.S. 462"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 6, 1816"
-    citation: "14 U.S. 462"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1816-022"
@@ -318,9 +380,11 @@ cases:
     title: "The Antonia Johanna"
     volume: "014"
     page: "159"
+    citation: "14 U.S. 159"
     pdfSource: "loc"
     dateDecision: "Friday, March 8, 1816"
-    citation: "14 U.S. 159"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1816-025"
@@ -328,9 +392,11 @@ cases:
     title: "The St. Joze Indiano"
     volume: "014"
     page: "208"
+    citation: "14 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Saturday, March 9, 1816"
-    citation: "14 U.S. 208"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1816-027"
@@ -338,9 +404,11 @@ cases:
     title: "Welch v. Mandeville"
     volume: "014"
     page: "233"
+    citation: "14 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1816"
-    citation: "14 U.S. 233"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1816-028"
@@ -348,9 +416,11 @@ cases:
     title: "Renner &amp; Bussard v. Marshall"
     volume: "014"
     page: "215"
+    citation: "14 U.S. 215"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 12, 1816"
-    citation: "14 U.S. 215"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1816-033"
@@ -358,9 +428,11 @@ cases:
     title: "The Harrison"
     volume: "014"
     page: "298"
+    citation: "14 U.S. 298"
     pdfSource: "loc"
     dateDecision: "Monday, March 18, 1816"
-    citation: "14 U.S. 298"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1816-034"
@@ -368,9 +440,11 @@ cases:
     title: "Martin v. Hunter&apos;s Lessee"
     volume: "014"
     page: "304"
+    citation: "14 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 20, 1816"
-    citation: "14 U.S. 304"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1816-038"
@@ -378,9 +452,11 @@ cases:
     title: "The Commercen"
     volume: "014"
     page: "382"
+    citation: "14 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Friday, March 22, 1816"
-    citation: "14 U.S. 382"
+    voteMajority: 4
+    voteMinority: 3
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1817-011"
@@ -388,9 +464,11 @@ cases:
     title: "Duvall v. Craig"
     volume: "015"
     page: "045"
+    citation: "15 U.S. 45"
     pdfSource: "loc"
     dateDecision: "Thursday, February 27, 1817"
-    citation: "15 U.S. 45"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1817-013"
@@ -398,9 +476,11 @@ cases:
     title: "The Dos Hermanos"
     volume: "015"
     page: "076"
+    citation: "15 U.S. 76"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1817"
-    citation: "15 U.S. 76"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1817-016"
@@ -408,9 +488,11 @@ cases:
     title: "The Pizarro"
     volume: "015"
     page: "227"
+    citation: "15 U.S. 227"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 5, 1817"
-    citation: "15 U.S. 227"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1817-021"
@@ -418,9 +500,11 @@ cases:
     title: "Shipp v. Miller&apos;s Heirs"
     volume: "015"
     page: "316"
+    citation: "15 U.S. 316"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 11, 1817"
-    citation: "15 U.S. 316"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1817-025"
@@ -428,9 +512,11 @@ cases:
     title: "Liter v. Green"
     volume: "015"
     page: "306"
+    citation: "15 U.S. 306"
     pdfSource: "loc"
     dateDecision: "Thursday, March 13, 1817"
-    citation: "15 U.S. 306"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1817-027"
@@ -438,9 +524,11 @@ cases:
     title: "Inglee v. Coolidge"
     volume: "015"
     page: "363"
+    citation: "15 U.S. 363"
     pdfSource: "loc"
     dateDecision: "Thursday, March 13, 1817"
-    citation: "15 U.S. 363"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1817-038"
@@ -448,9 +536,11 @@ cases:
     title: "Raborg v. Peyton"
     volume: "015"
     page: "385"
+    citation: "15 U.S. 385"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1817"
-    citation: "15 U.S. 385"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1817-039"
@@ -458,9 +548,11 @@ cases:
     title: "Union Bank of Georgetown v. Laird"
     volume: "015"
     page: "390"
+    citation: "15 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1817"
-    citation: "15 U.S. 390"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1818-008"
@@ -468,9 +560,11 @@ cases:
     title: "The Star"
     volume: "016"
     page: "078"
+    citation: "16 U.S. 78"
     pdfSource: "loc"
     dateDecision: "Monday, February 16, 1818"
-    citation: "16 U.S. 78"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1818-023"
@@ -478,9 +572,11 @@ cases:
     title: "Gelston v. Hoyt"
     volume: "016"
     page: "246"
+    citation: "16 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Friday, February 27, 1818"
-    citation: "16 U.S. 246"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1818-027"
@@ -488,9 +584,11 @@ cases:
     title: "The Anne"
     volume: "016"
     page: "435"
+    citation: "16 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Saturday, March 7, 1818"
-    citation: "16 U.S. 435"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1818-034"
@@ -498,9 +596,11 @@ cases:
     title: "The Amiable Nancy"
     volume: "016"
     page: "546"
+    citation: "16 U.S. 546"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 11, 1818"
-    citation: "16 U.S. 546"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1819-004"
@@ -508,9 +608,11 @@ cases:
     title: "Van Ness v. Buel"
     volume: "017"
     page: "074"
+    citation: "17 U.S. 74"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1819"
-    citation: "17 U.S. 74"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1819-009"
@@ -518,9 +620,11 @@ cases:
     title: "The Caledonian"
     volume: "017"
     page: "100"
+    citation: "17 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 16, 1819"
-    citation: "17 U.S. 100"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1819-010"
@@ -528,9 +632,11 @@ cases:
     title: "The Langdon Cheves"
     volume: "017"
     page: "103"
+    citation: "17 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 16, 1819"
-    citation: "17 U.S. 103"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1819-013"
@@ -538,9 +644,11 @@ cases:
     title: "Barr v. Gratz&apos;s Heirs"
     volume: "017"
     page: "213"
+    citation: "17 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Friday, February 19, 1819"
-    citation: "17 U.S. 213"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1819-016"
@@ -548,9 +656,11 @@ cases:
     title: "Somerville&apos;s Executors v. Hamilton"
     volume: "017"
     page: "230"
+    citation: "17 U.S. 230"
     pdfSource: "loc"
     dateDecision: "Saturday, February 20, 1819"
-    citation: "17 U.S. 230"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1819-018"
@@ -558,9 +668,11 @@ cases:
     title: "United States v. Rice"
     volume: "017"
     page: "246"
+    citation: "17 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1819"
-    citation: "17 U.S. 246"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1819-020"
@@ -568,9 +680,11 @@ cases:
     title: "The Friendschaft"
     volume: "017"
     page: "105"
+    citation: "17 U.S. 105"
     pdfSource: "loc"
     dateDecision: "Thursday, February 25, 1819"
-    citation: "17 U.S. 105"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1819-026"
@@ -578,9 +692,11 @@ cases:
     title: "The General Smith"
     volume: "017"
     page: "438"
+    citation: "17 U.S. 438"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 10, 1819"
-    citation: "17 U.S. 438"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1819-027"
@@ -588,9 +704,11 @@ cases:
     title: "Orr v. Hodgson"
     volume: "017"
     page: "453"
+    citation: "17 U.S. 453"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 10, 1819"
-    citation: "17 U.S. 453"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1820-006"
@@ -598,9 +716,11 @@ cases:
     title: "United States v. Smith"
     volume: "018"
     page: "153"
+    citation: "18 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Friday, February 25, 1820"
-    citation: "18 U.S. 153"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1820-011"
@@ -608,9 +728,11 @@ cases:
     title: "Mandeville v. Welch"
     volume: "018"
     page: "277"
+    citation: "18 U.S. 277"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 7, 1820"
-    citation: "18 U.S. 277"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1820-020"
@@ -618,9 +740,11 @@ cases:
     title: "La Amistad de Rues"
     volume: "018"
     page: "385"
+    citation: "18 U.S. 385"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 14, 1820"
-    citation: "18 U.S. 385"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1821-009"
@@ -628,9 +752,11 @@ cases:
     title: "United States v. Wilkins"
     volume: "019"
     page: "135"
+    citation: "19 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 14, 1821"
-    citation: "19 U.S. 135"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1821-010"
@@ -638,9 +764,11 @@ cases:
     title: "The Amiable Isabella"
     volume: "019"
     page: "001"
+    citation: "19 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Thursday, February 22, 1821"
-    citation: "19 U.S. 1"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1821-013"
@@ -648,9 +776,11 @@ cases:
     title: "Smith v. Universal Ins. Co."
     volume: "019"
     page: "176"
+    citation: "19 U.S. 176"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1821"
-    citation: "19 U.S. 176"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1821-019"
@@ -658,9 +788,11 @@ cases:
     title: "La Conception"
     volume: "019"
     page: "235"
+    citation: "19 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Thursday, March 8, 1821"
-    citation: "19 U.S. 235"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1821-021"
@@ -668,9 +800,11 @@ cases:
     title: "Green v. Watkins"
     volume: "019"
     page: "260"
+    citation: "19 U.S. 260"
     pdfSource: "loc"
     dateDecision: "Thursday, March 8, 1821"
-    citation: "19 U.S. 260"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1821-026"
@@ -678,9 +812,11 @@ cases:
     title: "Prevost v. Gratz"
     volume: "019"
     page: "481"
+    citation: "19 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1821"
-    citation: "19 U.S. 481"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1821-038"
@@ -688,9 +824,11 @@ cases:
     title: "Preston&apos;s Heirs v. Bowmar"
     volume: "019"
     page: "580"
+    citation: "19 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1821"
-    citation: "19 U.S. 580"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1822-004"
@@ -698,9 +836,11 @@ cases:
     title: "Green v. Watkins"
     volume: "020"
     page: "027"
+    citation: "20 U.S. 27"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 12, 1822"
-    citation: "20 U.S. 27"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1822-006"
@@ -708,9 +848,11 @@ cases:
     title: "Ex parte Kearney"
     volume: "020"
     page: "038"
+    citation: "20 U.S. 38"
     pdfSource: "loc"
     dateDecision: "Friday, February 15, 1822"
-    citation: "20 U.S. 38"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1822-009"
@@ -718,9 +860,11 @@ cases:
     title: "Ricard v. Williams"
     volume: "020"
     page: "059"
+    citation: "20 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Thursday, February 28, 1822"
-    citation: "20 U.S. 59"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1822-017"
@@ -728,9 +872,11 @@ cases:
     title: "The Santissima Trinidad"
     volume: "020"
     page: "283"
+    citation: "20 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 12, 1822"
-    citation: "20 U.S. 283"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1822-023"
@@ -738,9 +884,11 @@ cases:
     title: "Goldsborough v. Orr"
     volume: "021"
     page: "217"
+    citation: "21 U.S. 217"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 19, 1822"
-    citation: "21 U.S. 217"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1822-026"
@@ -748,9 +896,11 @@ cases:
     title: "Evans v. Eaton"
     volume: "020"
     page: "356"
+    citation: "20 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Thursday, March 21, 1822"
-    citation: "20 U.S. 356"
+    voteMajority: 4
+    voteMinority: 3
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1822-027"
@@ -758,9 +908,11 @@ cases:
     title: "Evans v. Hettich"
     volume: "020"
     page: "453"
+    citation: "20 U.S. 453"
     pdfSource: "loc"
     dateDecision: "Thursday, March 21, 1822"
-    citation: "20 U.S. 453"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1823-005"
@@ -768,9 +920,11 @@ cases:
     title: "The Experiment"
     volume: "021"
     page: "261"
+    citation: "21 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Saturday, February 15, 1823"
-    citation: "21 U.S. 261"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1823-010"
@@ -778,9 +932,11 @@ cases:
     title: "Nicholls v. Webb"
     volume: "021"
     page: "326"
+    citation: "21 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Saturday, February 22, 1823"
-    citation: "21 U.S. 326"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1823-011"
@@ -788,9 +944,11 @@ cases:
     title: "Nicholas v. Anderson"
     volume: "021"
     page: "365"
+    citation: "21 U.S. 365"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1823"
-    citation: "21 U.S. 365"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1823-012"
@@ -798,9 +956,11 @@ cases:
     title: "Fleckner v. Bank of United States"
     volume: "021"
     page: "338"
+    citation: "21 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Friday, February 28, 1823"
-    citation: "21 U.S. 338"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1823-018"
@@ -808,9 +968,11 @@ cases:
     title: "The Luminary"
     volume: "021"
     page: "407"
+    citation: "21 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Friday, March 7, 1823"
-    citation: "21 U.S. 407"
+    voteMajority: 4
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1823-019"
@@ -818,9 +980,11 @@ cases:
     title: "Wormley v. Wormley"
     volume: "021"
     page: "421"
+    citation: "21 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 12, 1823"
-    citation: "21 U.S. 421"
+    voteMajority: 4
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1823-024"
@@ -828,9 +992,11 @@ cases:
     title: "Childress v. Emory"
     volume: "021"
     page: "642"
+    citation: "21 U.S. 642"
     pdfSource: "loc"
     dateDecision: "Friday, March 14, 1823"
-    citation: "21 U.S. 642"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1823-027"
@@ -838,9 +1004,11 @@ cases:
     title: "La Nereyda"
     volume: "021"
     page: "108"
+    citation: "21 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Saturday, March 15, 1823"
-    citation: "21 U.S. 108"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1824-003"
@@ -848,9 +1016,11 @@ cases:
     title: "McCreery&apos;s Lessee v. Somerville"
     volume: "022"
     page: "354"
+    citation: "22 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Monday, February 16, 1824"
-    citation: "22 U.S. 354"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1824-008"
@@ -858,9 +1028,11 @@ cases:
     title: "The Margaret"
     volume: "022"
     page: "421"
+    citation: "22 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Saturday, February 28, 1824"
-    citation: "22 U.S. 421"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1824-011"
@@ -868,9 +1040,11 @@ cases:
     title: "Miller v. Stewart"
     volume: "022"
     page: "680"
+    citation: "22 U.S. 680"
     pdfSource: "loc"
     dateDecision: "Saturday, February 28, 1824"
-    citation: "22 U.S. 680"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1824-018"
@@ -878,9 +1052,11 @@ cases:
     title: "Sebree v. Dorr"
     volume: "022"
     page: "558"
+    citation: "22 U.S. 558"
     pdfSource: "loc"
     dateDecision: "Saturday, March 6, 1824"
-    citation: "22 U.S. 558"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1824-023"
@@ -888,9 +1064,11 @@ cases:
     title: "Mason v. Muncaster"
     volume: "022"
     page: "445"
+    citation: "22 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Thursday, March 11, 1824"
-    citation: "22 U.S. 445"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1824-027"
@@ -898,9 +1076,11 @@ cases:
     title: "Two Hundred Chests of Tea"
     volume: "022"
     page: "430"
+    citation: "22 U.S. 430"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1824"
-    citation: "22 U.S. 430"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1824-031"
@@ -908,9 +1088,11 @@ cases:
     title: "Ex parte Wood"
     volume: "022"
     page: "603"
+    citation: "22 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Saturday, March 20, 1824"
-    citation: "22 U.S. 603"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1824-034"
@@ -918,9 +1100,11 @@ cases:
     title: "The Apollon"
     volume: "022"
     page: "362"
+    citation: "22 U.S. 362"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1824"
-    citation: "22 U.S. 362"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1824-037"
@@ -928,9 +1112,11 @@ cases:
     title: "Catlett v. Brodie"
     volume: "022"
     page: "553"
+    citation: "22 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 23, 1824"
-    citation: "22 U.S. 553"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1824-039"
@@ -938,9 +1124,11 @@ cases:
     title: "United States v. Perez"
     volume: "022"
     page: "579"
+    citation: "22 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 23, 1824"
-    citation: "22 U.S. 579"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1824-040"
@@ -948,9 +1136,11 @@ cases:
     title: "United States v. Kirkpatrick"
     volume: "022"
     page: "720"
+    citation: "22 U.S. 720"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 23, 1824"
-    citation: "22 U.S. 720"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1825-005"
@@ -958,9 +1148,11 @@ cases:
     title: "The Santa Maria"
     volume: "023"
     page: "431"
+    citation: "23 U.S. 431"
     pdfSource: "loc"
     dateDecision: "Saturday, February 26, 1825"
-    citation: "23 U.S. 431"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1825-009"
@@ -968,9 +1160,11 @@ cases:
     title: "Wright v. Denn"
     volume: "023"
     page: "204"
+    citation: "23 U.S. 204"
     pdfSource: "loc"
     dateDecision: "Friday, March 4, 1825"
-    citation: "23 U.S. 204"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1825-014"
@@ -978,9 +1172,11 @@ cases:
     title: "The Gran Para"
     volume: "023"
     page: "497"
+    citation: "23 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Thursday, March 10, 1825"
-    citation: "23 U.S. 497"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1825-016"
@@ -988,9 +1184,11 @@ cases:
     title: "The Plattsburgh"
     volume: "023"
     page: "133"
+    citation: "23 U.S. 133"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1825"
-    citation: "23 U.S. 133"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1825-021"
@@ -998,9 +1196,11 @@ cases:
     title: "Bank of United States v. Bank of Georgia"
     volume: "023"
     page: "333"
+    citation: "23 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Saturday, March 19, 1825"
-    citation: "23 U.S. 333"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1825-023"
@@ -1008,9 +1208,11 @@ cases:
     title: "The Josefa Segunda"
     volume: "023"
     page: "312"
+    citation: "23 U.S. 312"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1825"
-    citation: "23 U.S. 312"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1825-027"
@@ -1018,9 +1220,11 @@ cases:
     title: "The Steamboat Thomas Jefferson"
     volume: "023"
     page: "428"
+    citation: "23 U.S. 428"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1825"
-    citation: "23 U.S. 428"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1826-007"
@@ -1028,9 +1232,11 @@ cases:
     title: "Chirac v. Reinicker"
     volume: "024"
     page: "280"
+    citation: "24 U.S. 280"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1826"
-    citation: "24 U.S. 280"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1826-011"
@@ -1038,9 +1244,11 @@ cases:
     title: "Fowle v. Common Council of Alexandria"
     volume: "024"
     page: "320"
+    citation: "24 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Saturday, March 11, 1826"
-    citation: "24 U.S. 320"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1826-016"
@@ -1048,9 +1256,11 @@ cases:
     title: "The Marianna Flora"
     volume: "024"
     page: "001"
+    citation: "24 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1826"
-    citation: "24 U.S. 1"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1826-025"
@@ -1058,9 +1268,11 @@ cases:
     title: "Mills v. Bank of United States"
     volume: "024"
     page: "431"
+    citation: "24 U.S. 431"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 14, 1826"
-    citation: "24 U.S. 431"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1826-031"
@@ -1068,9 +1280,11 @@ cases:
     title: "Cassell v. Carroll"
     volume: "024"
     page: "134"
+    citation: "24 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Monday, March 20, 1826"
-    citation: "24 U.S. 134"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1826-032"
@@ -1078,9 +1292,11 @@ cases:
     title: "United States v. Amedy"
     volume: "024"
     page: "392"
+    citation: "24 U.S. 392"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 21, 1826"
-    citation: "24 U.S. 392"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1827-001"
@@ -1088,9 +1304,11 @@ cases:
     title: "The Palmyra"
     volume: "025"
     page: "001"
+    citation: "25 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1827"
-    citation: "25 U.S. 1"
+    voteMajority: 1
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1827-009"
@@ -1098,9 +1316,11 @@ cases:
     title: "Martin v. Mott"
     volume: "025"
     page: "019"
+    citation: "25 U.S. 19"
     pdfSource: "loc"
     dateDecision: "Friday, February 2, 1827"
-    citation: "25 U.S. 19"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1827-019"
@@ -1108,9 +1328,11 @@ cases:
     title: "McLemore v. Powell"
     volume: "025"
     page: "554"
+    citation: "25 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 20, 1827"
-    citation: "25 U.S. 554"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1827-021"
@@ -1118,9 +1340,11 @@ cases:
     title: "Armstrong v. Lear"
     volume: "025"
     page: "169"
+    citation: "25 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 21, 1827"
-    citation: "25 U.S. 169"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1827-026"
@@ -1128,9 +1352,11 @@ cases:
     title: "Bank of United States v. Dandridge"
     volume: "025"
     page: "064"
+    citation: "25 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 28, 1827"
-    citation: "25 U.S. 64"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1827-027"
@@ -1138,9 +1364,11 @@ cases:
     title: "United States v. Tillotson"
     volume: "025"
     page: "180"
+    citation: "25 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Friday, March 2, 1827"
-    citation: "25 U.S. 180"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1827-035"
@@ -1148,9 +1376,11 @@ cases:
     title: "Columbian Ins. Co. v. Catlett"
     volume: "025"
     page: "383"
+    citation: "25 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Friday, March 9, 1827"
-    citation: "25 U.S. 383"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1827-040"
@@ -1158,9 +1388,11 @@ cases:
     title: "United States v. Marchant"
     volume: "025"
     page: "480"
+    citation: "25 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1827"
-    citation: "25 U.S. 480"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1827-045"
@@ -1168,9 +1400,11 @@ cases:
     title: "United States v. Gooding"
     volume: "025"
     page: "460"
+    citation: "25 U.S. 460"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1827"
-    citation: "25 U.S. 460"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1828-011"
@@ -1178,9 +1412,11 @@ cases:
     title: "Minor v. Mechanics Bank of Alexandria"
     volume: "026"
     page: "046"
+    citation: "26 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 5, 1828"
-    citation: "26 U.S. 46"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1828-016"
@@ -1188,9 +1424,11 @@ cases:
     title: "McLanahan v. Universal Ins. Co."
     volume: "026"
     page: "170"
+    citation: "26 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 12, 1828"
-    citation: "26 U.S. 170"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1828-021"
@@ -1198,9 +1436,11 @@ cases:
     title: "United States v. 422 Casks of Wine"
     volume: "026"
     page: "547"
+    citation: "26 U.S. 547"
     pdfSource: "loc"
     dateDecision: "Friday, February 15, 1828"
-    citation: "26 U.S. 547"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1828-032"
@@ -1208,9 +1448,11 @@ cases:
     title: "Bell v. Morrison"
     volume: "026"
     page: "351"
+    citation: "26 U.S. 351"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1828"
-    citation: "26 U.S. 351"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1828-039"
@@ -1218,9 +1460,11 @@ cases:
     title: "Comegys v. Vasse"
     volume: "026"
     page: "193"
+    citation: "26 U.S. 193"
     pdfSource: "loc"
     dateDecision: "Friday, March 7, 1828"
-    citation: "26 U.S. 193"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1828-047"
@@ -1228,9 +1472,11 @@ cases:
     title: "Conard v. Atlantic Ins. Co. of N. Y."
     volume: "026"
     page: "386"
+    citation: "26 U.S. 386"
     pdfSource: "loc"
     dateDecision: "Friday, March 14, 1828"
-    citation: "26 U.S. 386"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1828-051"
@@ -1238,9 +1484,11 @@ cases:
     title: "D&apos;Wolf v. Rabaud"
     volume: "026"
     page: "476"
+    citation: "26 U.S. 476"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1828"
-    citation: "26 U.S. 476"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1829-001"
@@ -1248,9 +1496,11 @@ cases:
     title: "Pennock v. Dialogue"
     volume: "027"
     page: "001"
+    citation: "27 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 26, 1829"
-    citation: "27 U.S. 1"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1829-004"
@@ -1258,9 +1508,11 @@ cases:
     title: "Gardner v. Collins"
     volume: "027"
     page: "058"
+    citation: "27 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 3, 1829"
-    citation: "27 U.S. 58"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1829-005"
@@ -1268,9 +1520,11 @@ cases:
     title: "Venable v. Bank of United States"
     volume: "027"
     page: "107"
+    citation: "27 U.S. 107"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 3, 1829"
-    citation: "27 U.S. 107"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1829-009"
@@ -1278,9 +1532,11 @@ cases:
     title: "Van Ness v. Pacard"
     volume: "027"
     page: "137"
+    citation: "27 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Saturday, February 7, 1829"
-    citation: "27 U.S. 137"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1829-011"
@@ -1288,9 +1544,11 @@ cases:
     title: "Townsley v. Sumrall"
     volume: "027"
     page: "170"
+    citation: "27 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 10, 1829"
-    citation: "27 U.S. 170"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1829-019"
@@ -1298,9 +1556,11 @@ cases:
     title: "Wilkinson v. Leland"
     volume: "027"
     page: "627"
+    citation: "27 U.S. 627"
     pdfSource: "loc"
     dateDecision: "Monday, February 23, 1829"
-    citation: "27 U.S. 627"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1829-030"
@@ -1308,9 +1568,11 @@ cases:
     title: "Bank of United States v. Carneal"
     volume: "027"
     page: "543"
+    citation: "27 U.S. 543"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 10, 1829"
-    citation: "27 U.S. 543"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1829-033"
@@ -1318,9 +1580,11 @@ cases:
     title: "Mandeville v. Riggs"
     volume: "027"
     page: "482"
+    citation: "27 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Thursday, March 12, 1829"
-    citation: "27 U.S. 482"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1829-037"
@@ -1328,9 +1592,11 @@ cases:
     title: "Beatty v. Kurtz"
     volume: "027"
     page: "566"
+    citation: "27 U.S. 566"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 17, 1829"
-    citation: "27 U.S. 566"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1829-042"
@@ -1338,9 +1604,11 @@ cases:
     title: "Chirac v. Reinecker"
     volume: "027"
     page: "613"
+    citation: "27 U.S. 613"
     pdfSource: "loc"
     dateDecision: "Friday, March 20, 1829"
-    citation: "27 U.S. 613"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1829-044"
@@ -1348,9 +1616,11 @@ cases:
     title: "Beach v. Viles"
     volume: "027"
     page: "675"
+    citation: "27 U.S. 675"
     pdfSource: "loc"
     dateDecision: "Friday, March 20, 1829"
-    citation: "27 U.S. 675"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1830-002"
@@ -1358,9 +1628,11 @@ cases:
     title: "Thornton v. Bank of Washington"
     volume: "028"
     page: "036"
+    citation: "28 U.S. 36"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1830"
-    citation: "28 U.S. 36"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1830-009"
@@ -1368,9 +1640,11 @@ cases:
     title: "Shanks v. Dupont"
     volume: "028"
     page: "242"
+    citation: "28 U.S. 242"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 2, 1830"
-    citation: "28 U.S. 242"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1830-014"
@@ -1378,9 +1652,11 @@ cases:
     title: "Parsons v. Bedford"
     volume: "028"
     page: "433"
+    citation: "28 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 9, 1830"
-    citation: "28 U.S. 433"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1830-018"
@@ -1388,9 +1664,11 @@ cases:
     title: "Canter v. American Ins. Co."
     volume: "028"
     page: "307"
+    citation: "28 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Friday, February 12, 1830"
-    citation: "28 U.S. 307"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1830-026"
@@ -1398,9 +1676,11 @@ cases:
     title: "Harris v. Dennie"
     volume: "028"
     page: "292"
+    citation: "28 U.S. 292"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1830"
-    citation: "28 U.S. 292"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1830-030"
@@ -1408,9 +1688,11 @@ cases:
     title: "Carver v. Jackson"
     volume: "029"
     page: "001"
+    citation: "29 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1830"
-    citation: "29 U.S. 1"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1830-041"
@@ -1418,9 +1700,11 @@ cases:
     title: "Van Ness v. Mayor of Washington"
     volume: "029"
     page: "232"
+    citation: "29 U.S. 232"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1830"
-    citation: "29 U.S. 232"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1830-053"
@@ -1428,9 +1712,11 @@ cases:
     title: "Society for Propagation of Gospel in Foreign Parts v. Town of Pawlet"
     volume: "029"
     page: "480"
+    citation: "29 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Friday, March 19, 1830"
-    citation: "29 U.S. 480"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1831-003"
@@ -1438,9 +1724,11 @@ cases:
     title: "Shankland v. Mayor of Washington"
     volume: "030"
     page: "390"
+    citation: "30 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Friday, January 21, 1831"
-    citation: "30 U.S. 390"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1831-009"
@@ -1448,9 +1736,11 @@ cases:
     title: "United States v. Tingey"
     volume: "030"
     page: "115"
+    citation: "30 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Friday, January 28, 1831"
-    citation: "30 U.S. 115"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1831-014"
@@ -1458,9 +1748,11 @@ cases:
     title: "Greenleaf&apos;s Lessee v. Birth"
     volume: "030"
     page: "132"
+    citation: "30 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Friday, February 4, 1831"
-    citation: "30 U.S. 132"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1831-022"
@@ -1468,9 +1760,11 @@ cases:
     title: "Doe v. Winn"
     volume: "030"
     page: "233"
+    citation: "30 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, February 14, 1831"
-    citation: "30 U.S. 233"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1831-026"
@@ -1478,9 +1772,11 @@ cases:
     title: "Sheppard v. Taylor"
     volume: "030"
     page: "675"
+    citation: "30 U.S. 675"
     pdfSource: "loc"
     dateDecision: "Saturday, February 19, 1831"
-    citation: "30 U.S. 675"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1831-032"
@@ -1488,9 +1784,11 @@ cases:
     title: "Lessee of Clarke v. Courtney"
     volume: "030"
     page: "319"
+    citation: "30 U.S. 319"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 8, 1831"
-    citation: "30 U.S. 319"
+    voteMajority: 6
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1831-034"
@@ -1498,9 +1796,11 @@ cases:
     title: "Tiernan v. Jackson"
     volume: "030"
     page: "580"
+    citation: "30 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Thursday, March 10, 1831"
-    citation: "30 U.S. 580"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1832-007"
@@ -1508,9 +1808,11 @@ cases:
     title: "United States v. State Bank of N. C."
     volume: "031"
     page: "029"
+    citation: "31 U.S. 29"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 24, 1832"
-    citation: "31 U.S. 29"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1832-008"
@@ -1518,9 +1820,11 @@ cases:
     title: "McArthur v. Porter"
     volume: "031"
     page: "205"
+    citation: "31 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 24, 1832"
-    citation: "31 U.S. 205"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1832-012"
@@ -1528,9 +1832,11 @@ cases:
     title: "Conard v. Pacific Ins. Co. of N. Y."
     volume: "031"
     page: "262"
+    citation: "31 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Saturday, January 28, 1832"
-    citation: "31 U.S. 262"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1832-014"
@@ -1538,9 +1844,11 @@ cases:
     title: "Greenleaf&apos;s Lessee v. Birth"
     volume: "031"
     page: "302"
+    citation: "31 U.S. 302"
     pdfSource: "loc"
     dateDecision: "Saturday, January 28, 1832"
-    citation: "31 U.S. 302"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1832-024"
@@ -1548,9 +1856,11 @@ cases:
     title: "Bank of United States v. Hatch"
     volume: "031"
     page: "250"
+    citation: "31 U.S. 250"
     pdfSource: "loc"
     dateDecision: "Friday, February 3, 1832"
-    citation: "31 U.S. 250"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1832-028"
@@ -1558,9 +1868,11 @@ cases:
     title: "McLane v. United States"
     volume: "031"
     page: "404"
+    citation: "31 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 7, 1832"
-    citation: "31 U.S. 404"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1832-033"
@@ -1568,9 +1880,11 @@ cases:
     title: "Crane v. Lessee of Morris"
     volume: "031"
     page: "598"
+    citation: "31 U.S. 598"
     pdfSource: "loc"
     dateDecision: "Thursday, February 16, 1832"
-    citation: "31 U.S. 598"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1832-034"
@@ -1578,9 +1892,11 @@ cases:
     title: "Kelly v. Jackson"
     volume: "031"
     page: "622"
+    citation: "31 U.S. 622"
     pdfSource: "loc"
     dateDecision: "Thursday, February 16, 1832"
-    citation: "31 U.S. 622"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1832-039"
@@ -1588,9 +1904,11 @@ cases:
     title: "Boyle v. Zacharie &amp; Turner"
     volume: "031"
     page: "635"
+    citation: "31 U.S. 635"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 21, 1832"
-    citation: "31 U.S. 635"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1832-040"
@@ -1598,9 +1916,11 @@ cases:
     title: "Boyle v. Zacharie &amp; Turner"
     volume: "031"
     page: "648"
+    citation: "31 U.S. 648"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 21, 1832"
-    citation: "31 U.S. 648"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1832-045"
@@ -1608,9 +1928,11 @@ cases:
     title: "Lessee of Levy v. McCartee"
     volume: "031"
     page: "102"
+    citation: "31 U.S. 102"
     pdfSource: "loc"
     dateDecision: "Thursday, March 1, 1832"
-    citation: "31 U.S. 102"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1832-047"
@@ -1618,9 +1940,11 @@ cases:
     title: "Oliver v. Alexander"
     volume: "031"
     page: "143"
+    citation: "31 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 7, 1832"
-    citation: "31 U.S. 143"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1832-051"
@@ -1628,9 +1952,11 @@ cases:
     title: "Ex parte Davenport"
     volume: "031"
     page: "661"
+    citation: "31 U.S. 661"
     pdfSource: "loc"
     dateDecision: "Thursday, March 15, 1832"
-    citation: "31 U.S. 661"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1833-003"
@@ -1638,9 +1964,11 @@ cases:
     title: "Magniac v. Thompson"
     volume: "032"
     page: "348"
+    citation: "32 U.S. 348"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1833"
-    citation: "32 U.S. 348"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1833-007"
@@ -1648,9 +1976,11 @@ cases:
     title: "Barlow v. United States"
     volume: "032"
     page: "404"
+    citation: "32 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 5, 1833"
-    citation: "32 U.S. 404"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1833-009"
@@ -1658,9 +1988,11 @@ cases:
     title: "Scott v. Lunt&apos;s Administrator"
     volume: "032"
     page: "596"
+    citation: "32 U.S. 596"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1833"
-    citation: "32 U.S. 596"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1833-018"
@@ -1668,9 +2000,11 @@ cases:
     title: "Union Bank of Georgetown v. Magruder"
     volume: "032"
     page: "287"
+    citation: "32 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Friday, February 22, 1833"
-    citation: "32 U.S. 287"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1833-023"
@@ -1678,9 +2012,11 @@ cases:
     title: "Ex parte Watkins"
     volume: "032"
     page: "568"
+    citation: "32 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Friday, March 1, 1833"
-    citation: "32 U.S. 568"
+    voteMajority: 4
+    voteMinority: 2
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1833-029"
@@ -1688,9 +2024,11 @@ cases:
     title: "Morris v. Lessee of Harmer&apos;s Heirs"
     volume: "032"
     page: "554"
+    citation: "32 U.S. 554"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 5, 1833"
-    citation: "32 U.S. 554"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1833-033"
@@ -1698,9 +2036,11 @@ cases:
     title: "Douglass v. Reynolds, Byrne &amp; Co."
     volume: "032"
     page: "113"
+    citation: "32 U.S. 113"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1833"
-    citation: "32 U.S. 113"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1833-035"
@@ -1708,9 +2048,11 @@ cases:
     title: "United States v. Turner"
     volume: "032"
     page: "132"
+    citation: "32 U.S. 132"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 12, 1833"
-    citation: "32 U.S. 132"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1834-003"
@@ -1718,9 +2060,11 @@ cases:
     title: "Erwin v. Blake"
     volume: "033"
     page: "018"
+    citation: "33 U.S. 18"
     pdfSource: "loc"
     dateDecision: "Thursday, January 23, 1834"
-    citation: "33 U.S. 18"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1834-008"
@@ -1728,9 +2072,11 @@ cases:
     title: "Stratton v. Jarvis"
     volume: "033"
     page: "004"
+    citation: "33 U.S. 4"
     pdfSource: "loc"
     dateDecision: "Saturday, January 25, 1834"
-    citation: "33 U.S. 4"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1834-013"
@@ -1738,9 +2084,11 @@ cases:
     title: "Ship Virgin v. Vyfhius"
     volume: "033"
     page: "538"
+    citation: "33 U.S. 538"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 5, 1834"
-    citation: "33 U.S. 538"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1834-017"
@@ -1748,9 +2096,11 @@ cases:
     title: "Armstrong v. Lear"
     volume: "033"
     page: "052"
+    citation: "33 U.S. 52"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 11, 1834"
-    citation: "33 U.S. 52"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1834-024"
@@ -1758,9 +2108,11 @@ cases:
     title: "United States v. Jones"
     volume: "033"
     page: "399"
+    citation: "33 U.S. 399"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1834"
-    citation: "33 U.S. 399"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1834-025"
@@ -1768,9 +2120,11 @@ cases:
     title: "Holt v. Rogers"
     volume: "033"
     page: "420"
+    citation: "33 U.S. 420"
     pdfSource: "loc"
     dateDecision: "Friday, February 21, 1834"
-    citation: "33 U.S. 420"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1834-030"
@@ -1778,9 +2132,11 @@ cases:
     title: "Carrington v. Merchants&apos; Ins. Co."
     volume: "033"
     page: "495"
+    citation: "33 U.S. 495"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1834"
-    citation: "33 U.S. 495"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1834-032"
@@ -1788,9 +2144,11 @@ cases:
     title: "King v. Mitchell"
     volume: "033"
     page: "326"
+    citation: "33 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Friday, March 7, 1834"
-    citation: "33 U.S. 326"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1834-034"
@@ -1798,9 +2156,11 @@ cases:
     title: "Watson v. Mercer"
     volume: "033"
     page: "088"
+    citation: "33 U.S. 88"
     pdfSource: "loc"
     dateDecision: "Saturday, March 8, 1834"
-    citation: "33 U.S. 88"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1834-037"
@@ -1808,9 +2168,11 @@ cases:
     title: "Lutz v. Linthicum"
     volume: "033"
     page: "165"
+    citation: "33 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 11, 1834"
-    citation: "33 U.S. 165"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1834-041"
@@ -1818,9 +2180,11 @@ cases:
     title: "Mumma v. Potomac Co."
     volume: "033"
     page: "281"
+    citation: "33 U.S. 281"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 12, 1834"
-    citation: "33 U.S. 281"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1834-044"
@@ -1828,9 +2192,11 @@ cases:
     title: "Bank of United States v. White"
     volume: "033"
     page: "262"
+    citation: "33 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Friday, March 14, 1834"
-    citation: "33 U.S. 262"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1834-059"
@@ -1838,9 +2204,11 @@ cases:
     title: "Bank of United States v. Donnally"
     volume: "033"
     page: "361"
+    citation: "33 U.S. 361"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1834"
-    citation: "33 U.S. 361"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1835-003"
@@ -1848,9 +2216,11 @@ cases:
     title: "United States v. Bailey"
     volume: "034"
     page: "238"
+    citation: "34 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 20, 1835"
-    citation: "34 U.S. 238"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1835-007"
@@ -1858,9 +2228,11 @@ cases:
     title: "Harrison v. Nixon"
     volume: "034"
     page: "483"
+    citation: "34 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Thursday, January 29, 1835"
-    citation: "34 U.S. 483"
+    voteMajority: 5
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1835-012"
@@ -1868,9 +2240,11 @@ cases:
     title: "Bank of United States v. Waggener"
     volume: "034"
     page: "378"
+    citation: "34 U.S. 378"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 3, 1835"
-    citation: "34 U.S. 378"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1835-015"
@@ -1878,9 +2252,11 @@ cases:
     title: "Piatt v. Vattier"
     volume: "034"
     page: "405"
+    citation: "34 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Monday, February 9, 1835"
-    citation: "34 U.S. 405"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1835-017"
@@ -1888,9 +2264,11 @@ cases:
     title: "Hiriart v. Ballon"
     volume: "034"
     page: "156"
+    citation: "34 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 17, 1835"
-    citation: "34 U.S. 156"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1835-018"
@@ -1898,9 +2276,11 @@ cases:
     title: "Winn v. Patterson"
     volume: "034"
     page: "663"
+    citation: "34 U.S. 663"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 17, 1835"
-    citation: "34 U.S. 663"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1835-025"
@@ -1908,9 +2288,11 @@ cases:
     title: "Boyce&apos;s Executors v. Grundy"
     volume: "034"
     page: "275"
+    citation: "34 U.S. 275"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1835"
-    citation: "34 U.S. 275"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1835-027"
@@ -1918,9 +2300,11 @@ cases:
     title: "Beers v. Haughton"
     volume: "034"
     page: "329"
+    citation: "34 U.S. 329"
     pdfSource: "loc"
     dateDecision: "Saturday, February 28, 1835"
-    citation: "34 U.S. 329"
+    voteMajority: 4
+    voteMinority: 2
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1835-030"
@@ -1928,9 +2312,11 @@ cases:
     title: "Owings v. Hull"
     volume: "034"
     page: "607"
+    citation: "34 U.S. 607"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 10, 1835"
-    citation: "34 U.S. 607"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1835-035"
@@ -1938,9 +2324,11 @@ cases:
     title: "Ex parte Milburn"
     volume: "034"
     page: "704"
+    citation: "34 U.S. 704"
     pdfSource: "loc"
     dateDecision: "Saturday, March 14, 1835"
-    citation: "34 U.S. 704"
+    voteMajority: 6
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1836-002"
@@ -1948,9 +2336,11 @@ cases:
     title: "Owings v. Lessee of Tiernan"
     volume: "035"
     page: "024"
+    citation: "35 U.S. 24"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1836"
-    citation: "35 U.S. 24"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1836-007"
@@ -1958,9 +2348,11 @@ cases:
     title: "Lessee of Tucker v. Moreland"
     volume: "035"
     page: "058"
+    citation: "35 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Saturday, January 23, 1836"
-    citation: "35 U.S. 58"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1836-008"
@@ -1968,9 +2360,11 @@ cases:
     title: "Crowell v. Randell"
     volume: "035"
     page: "368"
+    citation: "35 U.S. 368"
     pdfSource: "loc"
     dateDecision: "Thursday, January 28, 1836"
-    citation: "35 U.S. 368"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1836-011"
@@ -1978,9 +2372,11 @@ cases:
     title: "Hobart v. Drogan"
     volume: "035"
     page: "108"
+    citation: "35 U.S. 108"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 2, 1836"
-    citation: "35 U.S. 108"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1836-020"
@@ -1988,9 +2384,11 @@ cases:
     title: "United States v. Bradley"
     volume: "035"
     page: "343"
+    citation: "35 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1836"
-    citation: "35 U.S. 343"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1836-029"
@@ -1998,9 +2396,11 @@ cases:
     title: "Ellicott v. Pearl"
     volume: "035"
     page: "412"
+    citation: "35 U.S. 412"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 16, 1836"
-    citation: "35 U.S. 412"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1836-034"
@@ -2008,9 +2408,11 @@ cases:
     title: "Columbia Ins. Co. of Alexandria v. Lawrence"
     volume: "035"
     page: "507"
+    citation: "35 U.S. 507"
     pdfSource: "loc"
     dateDecision: "Thursday, February 18, 1836"
-    citation: "35 U.S. 507"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1836-035"
@@ -2018,9 +2420,11 @@ cases:
     title: "Keene v. Heirs of Clark"
     volume: "035"
     page: "291"
+    citation: "35 U.S. 291"
     pdfSource: "loc"
     dateDecision: "Friday, February 19, 1836"
-    citation: "35 U.S. 291"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1836-040"
@@ -2028,9 +2432,11 @@ cases:
     title: "Gilman v. Rives"
     volume: "035"
     page: "298"
+    citation: "35 U.S. 298"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 24, 1836"
-    citation: "35 U.S. 298"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1836-041"
@@ -2038,9 +2444,11 @@ cases:
     title: "Hagan v. Foison"
     volume: "035"
     page: "160"
+    citation: "35 U.S. 160"
     pdfSource: "loc"
     dateDecision: "January Term 1836"
-    citation: "35 U.S. 160"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1836-043"
@@ -2048,9 +2456,11 @@ cases:
     title: "Packer v. Nixon"
     volume: "035"
     page: "408"
+    citation: "35 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Friday, February 26, 1836"
-    citation: "35 U.S. 408"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1836-044"
@@ -2058,9 +2468,11 @@ cases:
     title: "Jackson v. Ashton"
     volume: "035"
     page: "480"
+    citation: "35 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Friday, February 26, 1836"
-    citation: "35 U.S. 480"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1836-052"
@@ -2068,9 +2480,11 @@ cases:
     title: "Clarke v. Kownslar"
     volume: "035"
     page: "657"
+    citation: "35 U.S. 657"
     pdfSource: "loc"
     dateDecision: "Friday, February 26, 1836"
-    citation: "35 U.S. 657"
+    voteMajority: 5
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1837-001"
@@ -2078,9 +2492,11 @@ cases:
     title: "Veazie v. Wadleigh"
     volume: "036"
     page: "055"
+    citation: "36 U.S. 55"
     pdfSource: "loc"
     dateDecision: "Saturday, January 14, 1837"
-    citation: "36 U.S. 55"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1837-012"
@@ -2088,9 +2504,11 @@ cases:
     title: "Poole v. Lessee of Fleeger"
     volume: "036"
     page: "185"
+    citation: "36 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Saturday, February 11, 1837"
-    citation: "36 U.S. 185"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1837-014"
@@ -2098,9 +2516,11 @@ cases:
     title: "Waters v. Merchants&apos; Louisville Ins. Co."
     volume: "036"
     page: "213"
+    citation: "36 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 14, 1837"
-    citation: "36 U.S. 213"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1837-018"
@@ -2108,9 +2528,11 @@ cases:
     title: "Steamboat Orleans v. Phoebus"
     volume: "036"
     page: "175"
+    citation: "36 U.S. 175"
     pdfSource: "loc"
     dateDecision: "Thursday, February 16, 1837"
-    citation: "36 U.S. 175"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1838-003"
@@ -2118,9 +2540,11 @@ cases:
     title: "United States v. Coombs"
     volume: "037"
     page: "072"
+    citation: "37 U.S. 72"
     pdfSource: "loc"
     dateDecision: "Saturday, January 27, 1838"
-    citation: "37 U.S. 72"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1838-010"
@@ -2128,9 +2552,11 @@ cases:
     title: "Clarke v. Mathewson"
     volume: "037"
     page: "164"
+    citation: "37 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1838"
-    citation: "37 U.S. 164"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1838-023"
@@ -2138,9 +2564,11 @@ cases:
     title: "Bradlie v. Maryland Ins. Co."
     volume: "037"
     page: "378"
+    citation: "37 U.S. 378"
     pdfSource: "loc"
     dateDecision: "Saturday, March 3, 1838"
-    citation: "37 U.S. 378"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1838-027"
@@ -2148,9 +2576,11 @@ cases:
     title: "Choteau v. Marguerite"
     volume: "037"
     page: "507"
+    citation: "37 U.S. 507"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1838"
-    citation: "37 U.S. 507"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1838-029"
@@ -2158,9 +2588,11 @@ cases:
     title: "Adams, Cunningham &amp; Co. v. Jones"
     volume: "037"
     page: "207"
+    citation: "37 U.S. 207"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 7, 1838"
-    citation: "37 U.S. 207"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1838-035"
@@ -2168,9 +2600,11 @@ cases:
     title: "N. Rogers &amp; Sons v. Batchelor"
     volume: "037"
     page: "221"
+    citation: "37 U.S. 221"
     pdfSource: "loc"
     dateDecision: "Saturday, March 10, 1838"
-    citation: "37 U.S. 221"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1839-002"
@@ -2178,9 +2612,11 @@ cases:
     title: "Whiting v. Bank of United States"
     volume: "038"
     page: "006"
+    citation: "38 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 22, 1839"
-    citation: "38 U.S. 6"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1839-009"
@@ -2188,9 +2624,11 @@ cases:
     title: "Columbian Ins. Co. of Alexandria v. Ashby &amp; Stribling"
     volume: "038"
     page: "331"
+    citation: "38 U.S. 331"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 5, 1839"
-    citation: "38 U.S. 331"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1839-022"
@@ -2198,9 +2636,11 @@ cases:
     title: "Ocean Ins. Co. v. Polleys"
     volume: "038"
     page: "157"
+    citation: "38 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Thursday, February 21, 1839"
-    citation: "38 U.S. 157"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1839-023"
@@ -2208,9 +2648,11 @@ cases:
     title: "Lupton v. Janney"
     volume: "038"
     page: "381"
+    citation: "38 U.S. 381"
     pdfSource: "loc"
     dateDecision: "Friday, February 22, 1839"
-    citation: "38 U.S. 381"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1839-027"
@@ -2218,9 +2660,11 @@ cases:
     title: "Bend v. Hoyt"
     volume: "038"
     page: "263"
+    citation: "38 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 27, 1839"
-    citation: "38 U.S. 263"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1839-035"
@@ -2228,9 +2672,11 @@ cases:
     title: "Ex parte Hoyt"
     volume: "038"
     page: "279"
+    citation: "38 U.S. 279"
     pdfSource: "loc"
     dateDecision: "Saturday, March 2, 1839"
-    citation: "38 U.S. 279"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1839-038"
@@ -2238,9 +2684,11 @@ cases:
     title: "Downes &amp; Co. v. Church"
     volume: "038"
     page: "205"
+    citation: "38 U.S. 205"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1839"
-    citation: "38 U.S. 205"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1839-044"
@@ -2248,9 +2696,11 @@ cases:
     title: "Carr v. Hoxie"
     volume: "038"
     page: "460"
+    citation: "38 U.S. 460"
     pdfSource: "loc"
     dateDecision: "Friday, March 8, 1839"
-    citation: "38 U.S. 460"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1839-045"
@@ -2258,9 +2708,11 @@ cases:
     title: "Meredith v. United States"
     volume: "038"
     page: "486"
+    citation: "38 U.S. 486"
     pdfSource: "loc"
     dateDecision: "Friday, March 8, 1839"
-    citation: "38 U.S. 486"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1839-047"
@@ -2268,9 +2720,11 @@ cases:
     title: "Ex parte Whitney"
     volume: "038"
     page: "404"
+    citation: "38 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Saturday, March 9, 1839"
-    citation: "38 U.S. 404"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1840-005"
@@ -2278,9 +2732,11 @@ cases:
     title: "William &amp; James Brown &amp; Co. v. McGran"
     volume: "039"
     page: "479"
+    citation: "39 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Saturday, February 1, 1840"
-    citation: "39 U.S. 479"
+    voteMajority: 6
+    voteMinority: 2
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1840-022"
@@ -2288,9 +2744,11 @@ cases:
     title: "Taylor v. Longworth"
     volume: "039"
     page: "172"
+    citation: "39 U.S. 172"
     pdfSource: "loc"
     dateDecision: "Friday, February 21, 1840"
-    citation: "39 U.S. 172"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1840-024"
@@ -2298,9 +2756,11 @@ cases:
     title: "Peters v. Warren Ins. Co."
     volume: "039"
     page: "099"
+    citation: "39 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1840"
-    citation: "39 U.S. 99"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1840-025"
@@ -2308,9 +2768,11 @@ cases:
     title: "Philadelphia &amp; Trenton R. Co. v. Stimpson"
     volume: "039"
     page: "448"
+    citation: "39 U.S. 448"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1840"
-    citation: "39 U.S. 448"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1841-003"
@@ -2318,9 +2780,11 @@ cases:
     title: "Vaughan v. Northup"
     volume: "040"
     page: "001"
+    citation: "40 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1841"
-    citation: "40 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1841-007"
@@ -2328,9 +2792,11 @@ cases:
     title: "Amis v. Pearle"
     volume: "040"
     page: "211"
+    citation: "40 U.S. 211"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1841"
-    citation: "40 U.S. 211"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1841-009"
@@ -2338,9 +2804,11 @@ cases:
     title: "United States v. Dickson"
     volume: "040"
     page: "141"
+    citation: "40 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 9, 1841"
-    citation: "40 U.S. 141"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1841-022"
@@ -2348,9 +2816,11 @@ cases:
     title: "Young v. Smith"
     volume: "040"
     page: "287"
+    citation: "40 U.S. 287"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1841"
-    citation: "40 U.S. 287"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1841-024"
@@ -2358,9 +2828,11 @@ cases:
     title: "Gratiot v. United States"
     volume: "040"
     page: "336"
+    citation: "40 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1841"
-    citation: "40 U.S. 336"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1841-027"
@@ -2368,9 +2840,11 @@ cases:
     title: "Minis v. United States"
     volume: "040"
     page: "423"
+    citation: "40 U.S. 423"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 2, 1841"
-    citation: "40 U.S. 423"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1841-028"
@@ -2378,9 +2852,11 @@ cases:
     title: "United States v. Libellants of Schooner Amistad"
     volume: "040"
     page: "518"
+    citation: "40 U.S. 518"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 9, 1841"
-    citation: "40 U.S. 518"
+    voteMajority: 8
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1842-001"
@@ -2388,9 +2864,11 @@ cases:
     title: "Swift v. Tyson"
     volume: "041"
     page: "001"
+    citation: "41 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 25, 1842"
-    citation: "41 U.S. 1"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1842-004"
@@ -2398,9 +2876,11 @@ cases:
     title: "Keary v. Farmers &amp; Merchants Bank of Memphis"
     volume: "041"
     page: "089"
+    citation: "41 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 2, 1842"
-    citation: "41 U.S. 89"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1842-007"
@@ -2408,9 +2888,11 @@ cases:
     title: "Hyde &amp; Gleises v. Booraem &amp; Co."
     volume: "041"
     page: "169"
+    citation: "41 U.S. 169"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 9, 1842"
-    citation: "41 U.S. 169"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1842-021"
@@ -2418,9 +2900,11 @@ cases:
     title: "Prigg v. Pennsylvania"
     volume: "041"
     page: "539"
+    citation: "41 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 1, 1842"
-    citation: "41 U.S. 539"
+    voteMajority: 8
+    voteMinority: 1
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1842-023"
@@ -2428,9 +2912,11 @@ cases:
     title: "United States v. Murphy"
     volume: "041"
     page: "203"
+    citation: "41 U.S. 203"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 2, 1842"
-    citation: "41 U.S. 203"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1842-031"
@@ -2438,9 +2924,11 @@ cases:
     title: "Carpenter v. Providence Washington Ins. Co."
     volume: "041"
     page: "495"
+    citation: "41 U.S. 495"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 8, 1842"
-    citation: "41 U.S. 495"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1842-036"
@@ -2448,9 +2936,11 @@ cases:
     title: "Wood v. United States"
     volume: "041"
     page: "342"
+    citation: "41 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Thursday, March 10, 1842"
-    citation: "41 U.S. 342"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1842-038"
@@ -2458,9 +2948,11 @@ cases:
     title: "Todd v. Daniel"
     volume: "041"
     page: "521"
+    citation: "41 U.S. 521"
     pdfSource: "loc"
     dateDecision: "Thursday, March 10, 1842"
-    citation: "41 U.S. 521"
+    voteMajority: 9
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-001"
@@ -2468,9 +2960,11 @@ cases:
     title: "Ex parte Barry"
     volume: "043"
     page: "065"
+    citation: "43 U.S. 65"
     pdfSource: "loc"
     dateDecision: "January Term 1844"
-    citation: "43 U.S. 65"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-005"
@@ -2478,9 +2972,11 @@ cases:
     title: "Knapp v. Banks"
     volume: "043"
     page: "073"
+    citation: "43 U.S. 73"
     pdfSource: "loc"
     dateDecision: "Saturday, February 3, 1844"
-    citation: "43 U.S. 73"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-008"
@@ -2488,9 +2984,11 @@ cases:
     title: "Spalding v. New York ex rel. Backus"
     volume: "043"
     page: "066"
+    citation: "43 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Saturday, February 24, 1844"
-    citation: "43 U.S. 66"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-009"
@@ -2498,9 +2996,11 @@ cases:
     title: "Burke v. McKay"
     volume: "043"
     page: "066"
+    citation: "43 U.S. 66"
     pdfSource: "loc"
     dateDecision: "Saturday, February 24, 1844"
-    citation: "43 U.S. 66"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-010"
@@ -2508,9 +3008,11 @@ cases:
     title: "Vidal v. Philadelphia"
     volume: "043"
     page: "127"
+    citation: "43 U.S. 127"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1843"
-    citation: "43 U.S. 127"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-014"
@@ -2518,9 +3020,11 @@ cases:
     title: "Dromgoole v. Farmers&apos; and Merchants&apos; Bank of Miss."
     volume: "043"
     page: "241"
+    citation: "43 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Friday, March 1, 1844"
-    citation: "43 U.S. 241"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-015"
@@ -2528,9 +3032,11 @@ cases:
     title: "Murphy v. Stewart"
     volume: "043"
     page: "263"
+    citation: "43 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Friday, March 1, 1844"
-    citation: "43 U.S. 263"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-017"
@@ -2538,9 +3044,11 @@ cases:
     title: "Harmony v. United States"
     volume: "043"
     page: "210"
+    citation: "43 U.S. 210"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 6, 1844"
-    citation: "43 U.S. 210"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-019"
@@ -2548,9 +3056,11 @@ cases:
     title: "Ex parte Sibbald"
     volume: "043"
     page: "455"
+    citation: "43 U.S. 455"
     pdfSource: "loc"
     dateDecision: "Friday, March 8, 1844"
-    citation: "43 U.S. 455"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-023"
@@ -2558,9 +3068,11 @@ cases:
     title: "Stockton v. Bishop"
     volume: "043"
     page: "074"
+    citation: "43 U.S. 74"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 12, 1844"
-    citation: "43 U.S. 74"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-024"
@@ -2568,9 +3080,11 @@ cases:
     title: "Brockett v. Brockett"
     volume: "043"
     page: "238"
+    citation: "43 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 12, 1844"
-    citation: "43 U.S. 238"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-025"
@@ -2578,9 +3092,11 @@ cases:
     title: "Taylor v. Savage"
     volume: "043"
     page: "395"
+    citation: "43 U.S. 395"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 12, 1844"
-    citation: "43 U.S. 395"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-026"
@@ -2588,9 +3104,11 @@ cases:
     title: "Burwell v. Cawood"
     volume: "043"
     page: "560"
+    citation: "43 U.S. 560"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 12, 1844"
-    citation: "43 U.S. 560"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-031"
@@ -2598,9 +3116,11 @@ cases:
     title: "Dade v. Irwin"
     volume: "043"
     page: "383"
+    citation: "43 U.S. 383"
     pdfSource: "loc"
     dateDecision: "Friday, March 15, 1844"
-    citation: "43 U.S. 383"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-038"
@@ -2608,9 +3128,11 @@ cases:
     title: "Lawrence v. McCalmont"
     volume: "043"
     page: "426"
+    citation: "43 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Saturday, March 16, 1844"
-    citation: "43 U.S. 426"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1845-009"
@@ -2618,9 +3140,11 @@ cases:
     title: "Ex parte Christy"
     volume: "044"
     page: "292"
+    citation: "44 U.S. 292"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 31, 1844"
-    citation: "44 U.S. 292"
+    voteMajority: 4
+    voteMinority: 2
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1845-012"
@@ -2628,9 +3152,11 @@ cases:
     title: "Taylor v. United States"
     volume: "044"
     page: "197"
+    citation: "44 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Friday, January 10, 1845"
-    citation: "44 U.S. 197"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1845-021"
@@ -2638,9 +3164,11 @@ cases:
     title: "Black v. J. W. Zacharie &amp; Co."
     volume: "044"
     page: "483"
+    citation: "44 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Friday, January 17, 1845"
-    citation: "44 U.S. 483"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1845-030"
@@ -2648,9 +3176,11 @@ cases:
     title: "Lessee of Clymer v. Dawkins"
     volume: "044"
     page: "674"
+    citation: "44 U.S. 674"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 4, 1845"
-    citation: "44 U.S. 674"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1845-039"
@@ -2658,9 +3188,11 @@ cases:
     title: "Andrews v. Wall"
     volume: "044"
     page: "568"
+    citation: "44 U.S. 568"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1845"
-    citation: "44 U.S. 568"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1845-040"
@@ -2668,9 +3200,11 @@ cases:
     title: "Oliver v. Piatt"
     volume: "044"
     page: "333"
+    citation: "44 U.S. 333"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 26, 1845"
-    citation: "44 U.S. 333"
+    voteMajority: 7
+    voteMinority: 0
     authorId: jstory
     authorName: "Joseph Story"
 ---

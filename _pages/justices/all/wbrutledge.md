@@ -8,9 +8,12 @@ cases:
     title: "Galloway v. United States"
     volume: "319"
     page: "372"
+    docket: "553"
+    citation: "319 U.S. 372"
     pdfSource: "loc"
     dateDecision: "Monday, May 24, 1943"
-    citation: "319 U.S. 372"
+    voteMajority: 6
+    voteMinority: 3
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1942-097"
@@ -18,9 +21,12 @@ cases:
     title: "Aguilar v. Standard Oil Co. of N. J."
     volume: "318"
     page: "724"
+    docket: "454"
+    citation: "318 U.S. 724"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1943"
-    citation: "318 U.S. 724"
+    voteMajority: 7
+    voteMinority: 1
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1942-132"
@@ -28,9 +34,12 @@ cases:
     title: "Direct Sales Co. v. United States"
     volume: "319"
     page: "703"
+    docket: "593"
+    citation: "319 U.S. 703"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1943"
-    citation: "319 U.S. 703"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1942-133"
@@ -38,9 +47,12 @@ cases:
     title: "Owens v. Union Pacific R. Co."
     volume: "319"
     page: "715"
+    docket: "580"
+    citation: "319 U.S. 715"
     pdfSource: "loc"
     dateDecision: "Monday, June 14, 1943"
-    citation: "319 U.S. 715"
+    voteMajority: 6
+    voteMinority: 3
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1943-009"
@@ -48,9 +60,12 @@ cases:
     title: "Midstate Horticultural Co. v. Pennsylvania R. Co."
     volume: "320"
     page: "356"
+    docket: "40"
+    citation: "320 U.S. 356"
     pdfSource: "loc"
     dateDecision: "Monday, November 22, 1943"
-    citation: "320 U.S. 356"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1943-020"
@@ -58,9 +73,12 @@ cases:
     title: "Merchants Nat. Bank of Boston v. Commissioner"
     volume: "320"
     page: "256"
+    docket: "30"
+    citation: "320 U.S. 256"
     pdfSource: "loc"
     dateDecision: "Monday, November 15, 1943"
-    citation: "320 U.S. 256"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1943-041"
@@ -68,9 +86,12 @@ cases:
     title: "NLRB v. Hearst Publications, Inc."
     volume: "322"
     page: "111"
+    docket: "336"
+    citation: "322 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Monday, April 24, 1944"
-    citation: "322 U.S. 111"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1943-096"
@@ -78,9 +99,12 @@ cases:
     title: "Prince v. Massachusetts"
     volume: "321"
     page: "158"
+    docket: "98"
+    citation: "321 U.S. 158"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1944"
-    citation: "321 U.S. 158"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1943-097"
@@ -88,9 +112,12 @@ cases:
     title: "Trainmen v. Toledo, P. &amp; W. R. Co."
     volume: "321"
     page: "050"
+    docket: "28"
+    citation: "321 U.S. 50"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1944"
-    citation: "321 U.S. 50"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1943-100"
@@ -98,9 +125,12 @@ cases:
     title: "Wisconsin Gas &amp; Elec. Co. v. United States"
     volume: "322"
     page: "526"
+    docket: "565"
+    citation: "322 U.S. 526"
     pdfSource: "loc"
     dateDecision: "Monday, May 29, 1944"
-    citation: "322 U.S. 526"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1943-114"
@@ -108,9 +138,12 @@ cases:
     title: "Eastern-Central Motor Carriers Assn. v. United States"
     volume: "321"
     page: "194"
+    docket: "105"
+    citation: "321 U.S. 194"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1944"
-    citation: "321 U.S. 194"
+    voteMajority: 6
+    voteMinority: 3
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1943-115"
@@ -118,9 +151,12 @@ cases:
     title: "McLean Trucking Co. v. United States"
     volume: "321"
     page: "067"
+    docket: "31"
+    citation: "321 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Monday, January 17, 1944"
-    citation: "321 U.S. 67"
+    voteMajority: 6
+    voteMinority: 3
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1943-128"
@@ -128,9 +164,12 @@ cases:
     title: "Kansas v. Missouri"
     volume: "322"
     page: "213"
+    docket: "9 Orig."
+    citation: "322 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1944"
-    citation: "322 U.S. 213"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1944-011"
@@ -138,9 +177,12 @@ cases:
     title: "Claridge Apartments Co. v. Commissioner"
     volume: "323"
     page: "141"
+    docket: "28"
+    citation: "323 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Monday, December 4, 1944"
-    citation: "323 U.S. 141"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1944-035"
@@ -148,9 +190,12 @@ cases:
     title: "Commissioner v. Disston"
     volume: "325"
     page: "442"
+    docket: "589"
+    citation: "325 U.S. 442"
     pdfSource: "loc"
     dateDecision: "Monday, June 4, 1945"
-    citation: "325 U.S. 442"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1944-071"
@@ -158,9 +203,12 @@ cases:
     title: "Catlin v. United States"
     volume: "324"
     page: "229"
+    docket: "419"
+    citation: "324 U.S. 229"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1945"
-    citation: "324 U.S. 229"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1944-074"
@@ -168,9 +216,12 @@ cases:
     title: "Barrett Line, Inc. v. United States"
     volume: "326"
     page: "179"
+    docket: "630"
+    citation: "326 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Monday, June 18, 1945"
-    citation: "326 U.S. 179"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1944-109"
@@ -178,9 +229,12 @@ cases:
     title: "Lumber &amp; Sawmill Workers v. Millis"
     volume: "325"
     page: "697"
+    docket: "613"
+    citation: "325 U.S. 697"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1945"
-    citation: "325 U.S. 697"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1944-110"
@@ -188,9 +242,12 @@ cases:
     title: "Elgin, J. &amp; E. R. Co. v. Burley"
     volume: "325"
     page: "711"
+    docket: "160"
+    citation: "325 U.S. 711"
     pdfSource: "loc"
     dateDecision: "Monday, June 11, 1945"
-    citation: "325 U.S. 711"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1944-121"
@@ -198,9 +255,12 @@ cases:
     title: "Gemsco, Inc. v. Walling"
     volume: "324"
     page: "244"
+    docket: "368"
+    citation: "324 U.S. 244"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1945"
-    citation: "324 U.S. 244"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1944-128"
@@ -208,9 +268,12 @@ cases:
     title: "Thomas v. Collins"
     volume: "323"
     page: "516"
+    docket: "14"
+    citation: "323 U.S. 516"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1945"
-    citation: "323 U.S. 516"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1944-143"
@@ -218,9 +281,12 @@ cases:
     title: "Fondren v. Commissioner"
     volume: "324"
     page: "018"
+    docket: "88"
+    citation: "324 U.S. 18"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1945"
-    citation: "324 U.S. 18"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-004"
@@ -228,9 +294,12 @@ cases:
     title: "Gange Lumber Co. v. Rowley"
     volume: "326"
     page: "295"
+    docket: "53"
+    citation: "326 U.S. 295"
     pdfSource: "loc"
     dateDecision: "Tuesday, November 13, 1945"
-    citation: "326 U.S. 295"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-028"
@@ -238,9 +307,12 @@ cases:
     title: "United States v. Anderson"
     volume: "328"
     page: "699"
+    docket: "447"
+    citation: "328 U.S. 699"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1946"
-    citation: "328 U.S. 699"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-029"
@@ -248,9 +320,12 @@ cases:
     title: "Kotteakos v. United States"
     volume: "328"
     page: "750"
+    docket: "457"
+    citation: "328 U.S. 750"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1946"
-    citation: "328 U.S. 750"
+    voteMajority: 5
+    voteMinority: 2
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-051"
@@ -258,9 +333,12 @@ cases:
     title: "Nippert v. Richmond"
     volume: "327"
     page: "416"
+    docket: "72"
+    citation: "327 U.S. 416"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1946"
-    citation: "327 U.S. 416"
+    voteMajority: 5
+    voteMinority: 3
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-062"
@@ -268,9 +346,12 @@ cases:
     title: "Hust v. Moore-McCormack Lines, Inc."
     volume: "328"
     page: "707"
+    docket: "625"
+    citation: "328 U.S. 707"
     pdfSource: "loc"
     dateDecision: "Monday, June 10, 1946"
-    citation: "328 U.S. 707"
+    voteMajority: 4
+    voteMinority: 3
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-067"
@@ -278,9 +359,12 @@ cases:
     title: "Elgin, J. &amp; E. R. Co. v. Burley"
     volume: "327"
     page: "661"
+    docket: "160"
+    citation: "327 U.S. 661"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1946"
-    citation: "327 U.S. 661"
+    voteMajority: 5
+    voteMinority: 3
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-068"
@@ -288,9 +372,12 @@ cases:
     title: "United States v. American Union Transport, Inc."
     volume: "327"
     page: "437"
+    docket: "44"
+    citation: "327 U.S. 437"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1946"
-    citation: "327 U.S. 437"
+    voteMajority: 5
+    voteMinority: 3
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-076"
@@ -298,9 +385,12 @@ cases:
     title: "Robertson v. California"
     volume: "328"
     page: "440"
+    docket: "274"
+    citation: "328 U.S. 440"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1946"
-    citation: "328 U.S. 440"
+    voteMajority: 6
+    voteMinority: 1
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-081"
@@ -308,9 +398,12 @@ cases:
     title: "Seas Shipping Co. v. Sieracki"
     volume: "328"
     page: "085"
+    docket: "365"
+    citation: "328 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1946"
-    citation: "328 U.S. 85"
+    voteMajority: 5
+    voteMinority: 3
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-097"
@@ -318,9 +411,12 @@ cases:
     title: "United States v. Pierce Auto Freight Lines, Inc."
     volume: "327"
     page: "515"
+    docket: "74"
+    citation: "327 U.S. 515"
     pdfSource: "loc"
     dateDecision: "Monday, March 11, 1946"
-    citation: "327 U.S. 515"
+    voteMajority: 7
+    voteMinority: 1
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-101"
@@ -328,9 +424,12 @@ cases:
     title: "Prudential Ins. Co. v. Benjamin"
     volume: "328"
     page: "408"
+    docket: "707"
+    citation: "328 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, June 3, 1946"
-    citation: "328 U.S. 408"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-106"
@@ -338,9 +437,12 @@ cases:
     title: "Duggan v. Sansberry"
     volume: "327"
     page: "499"
+    docket: "418"
+    citation: "327 U.S. 499"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1946"
-    citation: "327 U.S. 499"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-112"
@@ -348,9 +450,12 @@ cases:
     title: "Oklahoma Press Publishing Co. v. Walling"
     volume: "327"
     page: "186"
+    docket: "61"
+    citation: "327 U.S. 186"
     pdfSource: "loc"
     dateDecision: "Monday, February 11, 1946"
-    citation: "327 U.S. 186"
+    voteMajority: 7
+    voteMinority: 1
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-131"
@@ -358,9 +463,12 @@ cases:
     title: "Commissioner v. Estate of Holmes"
     volume: "326"
     page: "480"
+    docket: "203"
+    citation: "326 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 2, 1946"
-    citation: "326 U.S. 480"
+    voteMajority: 7
+    voteMinority: 1
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1945-136"
@@ -368,9 +476,12 @@ cases:
     title: "United States v. New York Telephone Co."
     volume: "326"
     page: "638"
+    docket: "55"
+    citation: "326 U.S. 638"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1946"
-    citation: "326 U.S. 638"
+    voteMajority: 5
+    voteMinority: 1
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1946-023"
@@ -378,9 +489,12 @@ cases:
     title: "Gibson v. United States"
     volume: "329"
     page: "338"
+    docket: "23"
+    citation: "329 U.S. 338"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1946"
-    citation: "329 U.S. 338"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1946-024"
@@ -388,9 +502,12 @@ cases:
     title: "Illinois ex rel. Gordon v. Campbell"
     volume: "329"
     page: "362"
+    docket: "35"
+    citation: "329 U.S. 362"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1946"
-    citation: "329 U.S. 362"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1946-025"
@@ -398,9 +515,12 @@ cases:
     title: "United States v. Sheridan"
     volume: "329"
     page: "379"
+    docket: "53"
+    citation: "329 U.S. 379"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1946"
-    citation: "329 U.S. 379"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1946-088"
@@ -408,9 +528,12 @@ cases:
     title: "Trailmobile Co. v. Whirls"
     volume: "331"
     page: "040"
+    docket: "85"
+    citation: "331 U.S. 40"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1947"
-    citation: "331 U.S. 40"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1946-089"
@@ -418,9 +541,12 @@ cases:
     title: "Independent Warehouses, Inc. v. Scheele"
     volume: "331"
     page: "070"
+    docket: "83"
+    citation: "331 U.S. 70"
     pdfSource: "loc"
     dateDecision: "Monday, April 14, 1947"
-    citation: "331 U.S. 70"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1946-113"
@@ -428,9 +554,12 @@ cases:
     title: "Gospel Army v. Los Angeles"
     volume: "331"
     page: "543"
+    docket: "103"
+    citation: "331 U.S. 543"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1947"
-    citation: "331 U.S. 543"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1946-114"
@@ -438,9 +567,12 @@ cases:
     title: "Rescue Army v. Municipal Court of Los Angeles"
     volume: "331"
     page: "549"
+    docket: "574"
+    citation: "331 U.S. 549"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 1947"
-    citation: "331 U.S. 549"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1946-124"
@@ -448,9 +580,12 @@ cases:
     title: "Aircraft &amp; Diesel Equipment Corp. v. Hirsch"
     volume: "331"
     page: "752"
+    docket: "95"
+    citation: "331 U.S. 752"
     pdfSource: "loc"
     dateDecision: "Monday, June 16, 1947"
-    citation: "331 U.S. 752"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1946-139"
@@ -458,9 +593,12 @@ cases:
     title: "United States v. Standard Oil Co. of Cal."
     volume: "332"
     page: "301"
+    docket: "235"
+    citation: "332 U.S. 301"
     pdfSource: "loc"
     dateDecision: "Monday, June 23, 1947"
-    citation: "332 U.S. 301"
+    voteMajority: 8
+    voteMinority: 1
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1947-013"
@@ -468,9 +606,12 @@ cases:
     title: "Aero Mayflower Transit Co. v. Board of Railroad Comm&apos;rs of Mont."
     volume: "332"
     page: "495"
+    docket: "39"
+    citation: "332 U.S. 495"
     pdfSource: "loc"
     dateDecision: "Monday, December 8, 1947"
-    citation: "332 U.S. 495"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1947-014"
@@ -478,9 +619,12 @@ cases:
     title: "Panhandle Eastern Pipe Line Co. v. Public Serv. Comm&apos;n of Ind."
     volume: "332"
     page: "507"
+    docket: "69"
+    citation: "332 U.S. 507"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1947"
-    citation: "332 U.S. 507"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1947-017"
@@ -488,9 +632,12 @@ cases:
     title: "Blumenthal v. United States"
     volume: "332"
     page: "539"
+    docket: "54"
+    citation: "332 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1947"
-    citation: "332 U.S. 539"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1947-032"
@@ -498,9 +645,12 @@ cases:
     title: "United States v. Brown"
     volume: "333"
     page: "018"
+    docket: "100"
+    citation: "333 U.S. 18"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1948"
-    citation: "333 U.S. 18"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1947-033"
@@ -508,9 +658,12 @@ cases:
     title: "Bob-Lo Excursion Co. v. Michigan"
     volume: "333"
     page: "028"
+    docket: "374"
+    citation: "333 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, February 2, 1948"
-    citation: "333 U.S. 28"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1947-057"
@@ -518,9 +671,12 @@ cases:
     title: "United States v. Evans"
     volume: "333"
     page: "483"
+    docket: "15"
+    citation: "333 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Monday, March 15, 1948"
-    citation: "333 U.S. 483"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1947-065"
@@ -528,9 +684,12 @@ cases:
     title: "Massachusetts v. United States"
     volume: "333"
     page: "611"
+    docket: "157"
+    citation: "333 U.S. 611"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1948"
-    citation: "333 U.S. 611"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1947-070"
@@ -538,9 +697,12 @@ cases:
     title: "United States v. Scophony Corp. of America"
     volume: "333"
     page: "795"
+    docket: "41"
+    citation: "333 U.S. 795"
     pdfSource: "loc"
     dateDecision: "Monday, April 26, 1948"
-    citation: "333 U.S. 795"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1947-081"
@@ -548,9 +710,12 @@ cases:
     title: "Mandeville Island Farms, Inc. v. American Crystal Sugar Co."
     volume: "334"
     page: "219"
+    docket: "75"
+    citation: "334 U.S. 219"
     pdfSource: "loc"
     dateDecision: "Monday, May 10, 1948"
-    citation: "334 U.S. 219"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1947-099"
@@ -558,9 +723,12 @@ cases:
     title: "United States v. National City Lines, Inc."
     volume: "334"
     page: "573"
+    docket: "544"
+    citation: "334 U.S. 573"
     pdfSource: "loc"
     dateDecision: "Monday, June 7, 1948"
-    citation: "334 U.S. 573"
+    voteMajority: 7
+    voteMinority: 2
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1948-016"
@@ -568,9 +736,12 @@ cases:
     title: "Frazier v. United States"
     volume: "335"
     page: "497"
+    docket: "44"
+    citation: "335 U.S. 497"
     pdfSource: "loc"
     dateDecision: "Monday, December 20, 1948"
-    citation: "335 U.S. 497"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1948-048"
@@ -578,9 +749,12 @@ cases:
     title: "Oklahoma Tax Comm&apos;n v. Texas Co."
     volume: "336"
     page: "342"
+    docket: "40"
+    citation: "336 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1949"
-    citation: "336 U.S. 342"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1948-064"
@@ -588,9 +762,12 @@ cases:
     title: "United States v. Jones"
     volume: "336"
     page: "641"
+    docket: "135"
+    citation: "336 U.S. 641"
     pdfSource: "loc"
     dateDecision: "Monday, April 18, 1949"
-    citation: "336 U.S. 641"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1948-083"
@@ -598,9 +775,12 @@ cases:
     title: "Urie v. Thompson"
     volume: "337"
     page: "163"
+    docket: "129"
+    citation: "337 U.S. 163"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1949"
-    citation: "337 U.S. 163"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1948-089"
@@ -608,9 +788,12 @@ cases:
     title: "FCC v. WJR, Goodwill Station, Inc."
     volume: "337"
     page: "265"
+    docket: "495"
+    citation: "337 U.S. 265"
     pdfSource: "loc"
     dateDecision: "Monday, June 6, 1949"
-    citation: "337 U.S. 265"
+    voteMajority: 8
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1948-104"
@@ -618,9 +801,12 @@ cases:
     title: "NLRB v. Pittsburgh S. S. Co."
     volume: "337"
     page: "656"
+    docket: "258"
+    citation: "337 U.S. 656"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1949"
-    citation: "337 U.S. 656"
+    voteMajority: 9
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1948-105"
@@ -628,9 +814,12 @@ cases:
     title: "Interstate Oil Pipe Line Co. v. Stone"
     volume: "337"
     page: "662"
+    docket: "287"
+    citation: "337 U.S. 662"
     pdfSource: "loc"
     dateDecision: "Monday, June 20, 1949"
-    citation: "337 U.S. 662"
+    voteMajority: 5
+    voteMinority: 4
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1948-120"
@@ -638,9 +827,12 @@ cases:
     title: "SEC v. Central-Illinois Securities Corp."
     volume: "338"
     page: "096"
+    docket: "226"
+    citation: "338 U.S. 96"
     pdfSource: "loc"
     dateDecision: "Monday, June 27, 1949"
-    citation: "338 U.S. 96"
+    voteMajority: 7
+    voteMinority: 0
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
   - id: "1948-121"
@@ -648,9 +840,12 @@ cases:
     title: "Brinegar v. United States"
     volume: "338"
     page: "160"
+    docket: "12"
+    citation: "338 U.S. 160"
     pdfSource: "loc"
     dateDecision: "Monday, June 27, 1949"
-    citation: "338 U.S. 160"
+    voteMajority: 6
+    voteMinority: 3
     authorId: wbrutledge
     authorName: "Wiley Rutledge"
 ---

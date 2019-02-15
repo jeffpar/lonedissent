@@ -8,9 +8,12 @@ cases:
     title: "Glenn v. Liggett"
     volume: "135"
     page: "533"
+    docket: "306"
+    citation: "135 U.S. 533"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1890"
-    citation: "135 U.S. 533"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1889-280"
@@ -18,9 +21,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Marshall"
     volume: "136"
     page: "393"
+    docket: "1105"
+    citation: "136 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1890"
-    citation: "136 U.S. 393"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1889-292"
@@ -28,9 +34,12 @@ cases:
     title: "In re Burrus"
     volume: "136"
     page: "586"
+    docket: "10 Orig."
+    citation: "136 U.S. 586"
     pdfSource: "loc"
     dateDecision: "Monday, May 19, 1890"
-    citation: "136 U.S. 586"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1890-062"
@@ -38,9 +47,12 @@ cases:
     title: "Merritt v. Cameron"
     volume: "137"
     page: "542"
+    docket: "84"
+    citation: "137 U.S. 542"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1890"
-    citation: "137 U.S. 542"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1890-142"
@@ -48,9 +60,12 @@ cases:
     title: "New Orleans v. Gaines&apos;s Administrator"
     volume: "138"
     page: "595"
+    docket: "1293"
+    citation: "138 U.S. 595"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "138 U.S. 595"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1890-148"
@@ -58,9 +73,12 @@ cases:
     title: "Anderson v. Watt"
     volume: "138"
     page: "694"
+    docket: "138"
+    citation: "138 U.S. 694"
     pdfSource: "loc"
     dateDecision: "Monday, March 2, 1891"
-    citation: "138 U.S. 694"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1890-264"
@@ -68,9 +86,12 @@ cases:
     title: "Quock Ting v. United States"
     volume: "140"
     page: "417"
+    docket: "638"
+    citation: "140 U.S. 417"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 417"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1890-267"
@@ -78,9 +99,12 @@ cases:
     title: "Gleeson v. Virginia Midland R. Co."
     volume: "140"
     page: "435"
+    docket: "287"
+    citation: "140 U.S. 435"
     pdfSource: "loc"
     dateDecision: "Monday, May 11, 1891"
-    citation: "140 U.S. 435"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1891-092"
@@ -88,9 +112,12 @@ cases:
     title: "Ekiu v. United States"
     volume: "142"
     page: "651"
+    docket: "1393"
+    citation: "142 U.S. 651"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1892"
-    citation: "142 U.S. 651"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1891-117"
@@ -98,9 +125,12 @@ cases:
     title: "Michigan Ins. Bank v. Eldred"
     volume: "143"
     page: "293"
+    docket: "1288"
+    citation: "143 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, February 29, 1892"
-    citation: "143 U.S. 293"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1891-137"
@@ -108,9 +138,12 @@ cases:
     title: "Chicago, R. I. &amp; P. R. Co. v. Denver &amp; Rio Grande R. Co."
     volume: "143"
     page: "596"
+    docket: "1095"
+    citation: "143 U.S. 596"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1892"
-    citation: "143 U.S. 596"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1891-220"
@@ -118,9 +151,12 @@ cases:
     title: "Barnett v. Denison"
     volume: "145"
     page: "135"
+    docket: "297"
+    citation: "145 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1892"
-    citation: "145 U.S. 135"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1892-207"
@@ -128,9 +164,12 @@ cases:
     title: "Shaeffer v. Blair"
     volume: "149"
     page: "248"
+    docket: "178"
+    citation: "149 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Monday, May 1, 1893"
-    citation: "149 U.S. 248"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1892-222"
@@ -138,9 +177,12 @@ cases:
     title: "Dalzell v. Dueber Watch Case Mfg. Co."
     volume: "149"
     page: "315"
+    docket: "213"
+    citation: "149 U.S. 315"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 10, 1893"
-    citation: "149 U.S. 315"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1893-012"
@@ -148,9 +190,12 @@ cases:
     title: "Magone v. Heller"
     volume: "150"
     page: "070"
+    docket: "47"
+    citation: "150 U.S. 70"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1893"
-    citation: "150 U.S. 70"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1893-022"
@@ -158,9 +203,12 @@ cases:
     title: "Graves v. United States"
     volume: "150"
     page: "118"
+    docket: "838"
+    citation: "150 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1893"
-    citation: "150 U.S. 118"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1893-037"
@@ -168,9 +216,12 @@ cases:
     title: "Thompson v. Sioux Falls Nat. Bank"
     volume: "150"
     page: "231"
+    docket: "53"
+    citation: "150 U.S. 231"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1893"
-    citation: "150 U.S. 231"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1893-108"
@@ -178,9 +229,12 @@ cases:
     title: "Hickory v. United States"
     volume: "151"
     page: "303"
+    docket: "841"
+    citation: "151 U.S. 303"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1894"
-    citation: "151 U.S. 303"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1893-122"
@@ -188,9 +242,12 @@ cases:
     title: "Imperial Fire Ins. Co. v. Coos County"
     volume: "151"
     page: "452"
+    docket: "204"
+    citation: "151 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1894"
-    citation: "151 U.S. 452"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1893-231"
@@ -198,9 +255,12 @@ cases:
     title: "Northern Pacific R. Co. v. Clark"
     volume: "153"
     page: "252"
+    docket: "1045"
+    citation: "153 U.S. 252"
     pdfSource: "loc"
     dateDecision: "Monday, April 30, 1894"
-    citation: "153 U.S. 252"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1894-177"
@@ -208,9 +268,12 @@ cases:
     title: "Allen v. United States"
     volume: "157"
     page: "675"
+    docket: "788"
+    citation: "157 U.S. 675"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1895"
-    citation: "157 U.S. 675"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1894-233"
@@ -218,9 +281,12 @@ cases:
     title: "Lem Moon Sing v. United States"
     volume: "158"
     page: "538"
+    docket: "946"
+    citation: "158 U.S. 538"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1895"
-    citation: "158 U.S. 538"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1896-135"
@@ -228,9 +294,12 @@ cases:
     title: "Chicago, Burlington etc. R&apos;D v. Chicago"
     volume: "166"
     page: "258"
+    docket: "130"
+    citation: "166 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1897"
-    citation: "166 U.S. 258"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1897-025"
@@ -238,9 +307,12 @@ cases:
     title: "Warner v. Baltimore &amp; Ohio R. Co."
     volume: "168"
     page: "339"
+    docket: "82"
+    citation: "168 U.S. 339"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1897"
-    citation: "168 U.S. 339"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1897-098"
@@ -248,9 +320,12 @@ cases:
     title: "Missouri, K. &amp; T. R. Co. v. Haber"
     volume: "169"
     page: "613"
+    docket: "268"
+    citation: "169 U.S. 613"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1898"
-    citation: "169 U.S. 613"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1897-120"
@@ -258,9 +333,12 @@ cases:
     title: "Calderon v. Atlas S. S. Co."
     volume: "170"
     page: "272"
+    docket: "83"
+    citation: "170 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1898"
-    citation: "170 U.S. 272"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1897-121"
@@ -268,9 +346,12 @@ cases:
     title: "Magoun v. Illinois Trust and Sav. Bank"
     volume: "170"
     page: "283"
+    docket: "464"
+    citation: "170 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1898"
-    citation: "170 U.S. 283"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1897-146"
@@ -278,9 +359,12 @@ cases:
     title: "Holloway v. Dunham"
     volume: "170"
     page: "615"
+    docket: "247"
+    citation: "170 U.S. 615"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1898"
-    citation: "170 U.S. 615"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1897-151"
@@ -288,9 +372,12 @@ cases:
     title: "Texas &amp; Pacific R. Co. v. Archibald"
     volume: "170"
     page: "665"
+    docket: "207"
+    citation: "170 U.S. 665"
     pdfSource: "loc"
     dateDecision: "Monday, May 23, 1898"
-    citation: "170 U.S. 665"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1899-147"
@@ -298,9 +385,12 @@ cases:
     title: "Huntington v. Laidley"
     volume: "176"
     page: "668"
+    docket: "105"
+    citation: "176 U.S. 668"
     pdfSource: "loc"
     dateDecision: "Monday, March 19, 1900"
-    citation: "176 U.S. 668"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1901-064"
@@ -308,9 +398,12 @@ cases:
     title: "Hitz v. Jenks"
     volume: "185"
     page: "155"
+    docket: "99"
+    citation: "185 U.S. 155"
     pdfSource: "loc"
     dateDecision: "Monday, April 7, 1902"
-    citation: "185 U.S. 155"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1902-007"
@@ -318,9 +411,12 @@ cases:
     title: "Reid v. Colorado"
     volume: "187"
     page: "137"
+    docket: "269"
+    citation: "187 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Monday, December 1, 1902"
-    citation: "187 U.S. 137"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1902-042"
@@ -328,9 +424,12 @@ cases:
     title: "Hale v. Allinson"
     volume: "188"
     page: "056"
+    docket: "77"
+    citation: "188 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, January 19, 1903"
-    citation: "188 U.S. 56"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1902-129"
@@ -338,9 +437,12 @@ cases:
     title: "Finney v. Guy"
     volume: "189"
     page: "335"
+    docket: "180"
+    citation: "189 U.S. 335"
     pdfSource: "loc"
     dateDecision: "Monday, April 6, 1903"
-    citation: "189 U.S. 335"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1903-163"
@@ -348,9 +450,12 @@ cases:
     title: "ICC v. Baird"
     volume: "194"
     page: "025"
+    docket: "409"
+    citation: "194 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1904"
-    citation: "194 U.S. 25"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1905-081"
@@ -358,9 +463,12 @@ cases:
     title: "First Nat. Bank of Ottawa v. Converse"
     volume: "200"
     page: "425"
+    docket: "176"
+    citation: "200 U.S. 425"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1906"
-    citation: "200 U.S. 425"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1905-091"
@@ -368,9 +476,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. Illinois ex rel. Drainage Comm&apos;rs"
     volume: "200"
     page: "561"
+    docket: "157"
+    citation: "200 U.S. 561"
     pdfSource: "loc"
     dateDecision: "Monday, March 5, 1906"
-    citation: "200 U.S. 561"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1905-126"
@@ -378,9 +489,12 @@ cases:
     title: "Santa Fe Pacific R. Co. v. Holmes"
     volume: "202"
     page: "438"
+    docket: "235"
+    citation: "202 U.S. 438"
     pdfSource: "loc"
     dateDecision: "Monday, May 21, 1906"
-    citation: "202 U.S. 438"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1906-091"
@@ -388,9 +502,12 @@ cases:
     title: "Southern R. Co. v. Tift"
     volume: "206"
     page: "428"
+    docket: "601"
+    citation: "206 U.S. 428"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1907"
-    citation: "206 U.S. 428"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1906-092"
@@ -398,9 +515,12 @@ cases:
     title: "Illinois Cent. etc. R. R. v. Inter. Com. Comm."
     volume: "206"
     page: "441"
+    docket: "588"
+    citation: "206 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Monday, May 27, 1907"
-    citation: "206 U.S. 441"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1906-099"
@@ -408,9 +528,12 @@ cases:
     title: "Smithers v. Smith"
     volume: "204"
     page: "632"
+    docket: "138"
+    citation: "204 U.S. 632"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 632"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1906-111"
@@ -418,9 +541,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. Williams"
     volume: "205"
     page: "444"
+    docket: "243"
+    citation: "205 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1907"
-    citation: "205 U.S. 444"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1906-154"
@@ -428,9 +554,12 @@ cases:
     title: "United States Fidelity &amp; Guaranty Co. v. United States ex rel. Kenyon"
     volume: "204"
     page: "349"
+    docket: "173"
+    citation: "204 U.S. 349"
     pdfSource: "loc"
     dateDecision: "Monday, February 25, 1907"
-    citation: "204 U.S. 349"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1907-046"
@@ -438,9 +567,12 @@ cases:
     title: "Winters v. United States"
     volume: "207"
     page: "564"
+    docket: "158"
+    citation: "207 U.S. 564"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1908"
-    citation: "207 U.S. 564"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1907-092"
@@ -448,9 +580,12 @@ cases:
     title: "Bennett v. Bennett"
     volume: "208"
     page: "505"
+    docket: "98"
+    citation: "208 U.S. 505"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1908"
-    citation: "208 U.S. 505"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1907-104"
@@ -458,9 +593,12 @@ cases:
     title: "Chicago, B. &amp; Q. R. Co. v. United States"
     volume: "209"
     page: "090"
+    docket: "552"
+    citation: "209 U.S. 90"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1908"
-    citation: "209 U.S. 90"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1907-171"
@@ -468,9 +606,12 @@ cases:
     title: "Armour Packing Co. v. United States"
     volume: "209"
     page: "056"
+    docket: "467"
+    citation: "209 U.S. 56"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1908"
-    citation: "209 U.S. 56"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1908-025"
@@ -478,9 +619,12 @@ cases:
     title: "North American Cold Storage Co. v. Chicago"
     volume: "211"
     page: "306"
+    docket: "28"
+    citation: "211 U.S. 306"
     pdfSource: "loc"
     dateDecision: "Monday, December 7, 1908"
-    citation: "211 U.S. 306"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1908-113"
@@ -488,9 +632,12 @@ cases:
     title: "Hepner v. United States"
     volume: "213"
     page: "103"
+    docket: "626"
+    citation: "213 U.S. 103"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1909"
-    citation: "213 U.S. 103"
+    voteMajority: 8
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1909-048"
@@ -498,9 +645,12 @@ cases:
     title: "ICC v. Illinois Central R. Co."
     volume: "215"
     page: "452"
+    docket: "233"
+    citation: "215 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1910"
-    citation: "215 U.S. 452"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1909-049"
@@ -508,9 +658,12 @@ cases:
     title: "ICC v. Chicago &amp; Alton R. Co."
     volume: "215"
     page: "479"
+    docket: "232"
+    citation: "215 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Monday, January 10, 1910"
-    citation: "215 U.S. 479"
+    voteMajority: 6
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1909-072"
@@ -518,9 +671,12 @@ cases:
     title: "President of Monongahela Bridge Co. v. United States"
     volume: "216"
     page: "177"
+    docket: "91"
+    citation: "216 U.S. 177"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1910"
-    citation: "216 U.S. 177"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
   - id: "1909-105"
@@ -528,9 +684,12 @@ cases:
     title: "Board of Assessors of Orleans v. New York Life Ins. Co."
     volume: "216"
     page: "517"
+    docket: "112"
+    citation: "216 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1910"
-    citation: "216 U.S. 517"
+    voteMajority: 7
+    voteMinority: 1
     dissenterId: djbrewer
     dissenterName: "David Brewer"
 ---
