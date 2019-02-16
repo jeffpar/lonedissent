@@ -855,17 +855,16 @@ function parseCSVFields(line, encodeAs, fHeadings)
 }
 
 /**
- * readCSV(filePath, encodeAs)
- *
- * NOTE: We don't provide an encoding parameter for the readFile() call, because all our CSVs should be "utf-8".
+ * readCSV(filePath, encoding, encodeAs)
  *
  * @param {string} filePath
- * @param {string} [encodeAs] (default is ""; use "html" if you want all string fields to contain HTML entities as appropriate)
+ * @param {string} [encoding] (default is UTF-8; you may need to specify "latin1" for 3rd-party CSVs)
+ * @param {string} [encodeAs] (default is none; use "html" if you want all string fields to contain HTML entities as appropriate)
  * @return {Array}
  */
-function readCSV(filePath, encodeAs="")
+function readCSV(filePath, encoding="", encodeAs="")
 {
-    return parseCSV(readFile(filePath) || "", encodeAs);
+    return parseCSV(readFile(filePath, encoding) || "", encodeAs);
 }
 
 /**
@@ -903,7 +902,7 @@ function writeCSV(filePath, rows, fOverwrite=argv['overwrite'])
  * readFile(filePath, encoding, fOptional)
  *
  * @param {string} filePath
- * @param {string} [encoding] (default is "utf-8")
+ * @param {string} [encoding] (default is UF-8)
  * @param {boolean} [fOptional]
  * @return {string|undefined}
  */
@@ -1320,7 +1319,7 @@ function readOyezLabsDecisions()
 function readSCDBCourts(fDisplay)
 {
     let startNext = null;
-    let courts = readCSV(sources.scdb.courtsCSV, "html");
+    let courts = readCSV(sources.scdb.courtsCSV, "", "html");
     let justices = readSCDBJustices();
     for (let i = 0; i < courts.length; i++) {
         let court = courts[i];
@@ -1366,7 +1365,7 @@ function readSCDBCourts(fDisplay)
  */
 function readSCDBJustices(fDisplay)
 {
-    let justices = readCSV(sources.scdb.justicesCSV, "html");
+    let justices = readCSV(sources.scdb.justicesCSV, "", "html");
     for (let i = 0; i < justices.length; i++) {
         let first, last;
         let justice = justices[i];
@@ -1397,7 +1396,7 @@ function readSCDBJustices(fDisplay)
 function readSCOTUSDecisions()
 {
     let startNext = null;
-    let decisions = readCSV(results.csv.dates, "html");
+    let decisions = readCSV(results.csv.dates, "", "html");
     //
     // There are so many decision date differences in the Free Law/Court Listener CSV that the file is essentially worthless.  Sigh.
     //
@@ -1577,18 +1576,16 @@ function buildAdvocates(done)
                     }
                     if (i < 0) {
                         /*
-                         * We must perform a much slower search, based on other (hopefully unique) criteria.
+                         * We must perform a much slower search, based solely on argument date and docket number.
                          */
                         let next = 0;
-                        let docket = row.docket;
-                        let dateDecision = row.dateDecision;
-                        if (dateArgument) {
-                            obj = {docket, dateArgument};
-                        } else {
-                            obj = {docket, dateDecision};
+                        let docket = fixDocketNumber(row.docket);
+                        obj = {dateArgument};
+                        while ((i = searchObjects(decisions, obj, next)) >= 0) {
+                            let dockets = decisions[i].docket.split(',');
+                            if (dockets.indexOf(docket) >= 0) break;
+                            next = i + 1;
                         }
-                        i = searchObjects(decisions, obj, next);
-                        if (i >= 0 && searchObjects(decisions, obj, i+1) >= 0) i = -1;
                     }
                     if (i >= 0) {
                         let argument = cloneObject(decisions[i]);
@@ -3152,6 +3149,38 @@ function findLonerParties(done)
 }
 
 /**
+ * findAdvocates()
+ *
+ * @param {function()} done
+ */
+function findAdvocates(done)
+{
+    printf("reading decisions...\n");
+    let decisions = JSON.parse(readFile(results.json.decisions));
+    sortObjects(decisions, ["dateArgument", "docket"]);
+    printf("collecting file names...\n");
+    let filePaths = glob.sync(rootDir + sources.scotus.transcripts);
+    printf("processing file names...\n");
+    for (let i = 0; i < filePaths.length; i++) {
+        let filePath = filePaths[i];
+        let fileName = path.basename(filePath);
+        let match = fileName.match(/^(.*?)_([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])\.txt$/);
+        if (!match) {
+            warning("unexpected transcript filename: %s\n", fileName);
+            continue;
+        }
+        let docket = match[1];
+        let dateArgument = match[2];
+        let iDecision = searchObjects(decisions, {dateArgument, docket});
+        if (iDecision < 0) {
+            warning("unable to find No. %s (%s) in database\n", docket, dateArgument);
+            continue;
+        }
+    }
+    done();
+}
+
+/**
  * fixAdvocates()
  *
  * @param {function()} done
@@ -3233,7 +3262,7 @@ function fixDecisions(done)
     let courtsSCDB = [], decisionsScotus = {};
 
     if (argv['citations']) {
-        citations = readCSV(results.csv.citations, "html");
+        citations = readCSV(results.csv.citations, "", "html");
         for (let i = 0; i < citations.length; i++) {
             let citation = citations[i];
             if (citation.volume) {
@@ -3253,7 +3282,7 @@ function fixDecisions(done)
          *
          *      volume, page, caseTitle, usCite
          */
-        citationsLOC = readCSV(results.csv.citationsLOC, "html");
+        citationsLOC = readCSV(results.csv.citationsLOC, "", "html");
         for (let i = 0; i < citationsLOC.length; i++) {
             let citation = citationsLOC[i];
             if (citation.volume) {
@@ -3264,7 +3293,7 @@ function fixDecisions(done)
             }
         }
 
-        // let citationsJustia = readCSV(results.csv.citationsJustia, "html");
+        // let citationsJustia = readCSV(results.csv.citationsJustia, "", "html");
         // for (let i = 0; i < citationsJustia.length; i++) {
         //     let citation = citationsJustia[i];
         //     if (citation.volume) {
@@ -3581,28 +3610,15 @@ function fixDockets(done)
             let match, re = /^(\s*"docket":\s*)"(.*)"/gm;
             printf("processing %s...\n", file);
             while ((match = re.exec(json))) {
-                let n = "", suffix = "";
-                let docket = match[2].toLowerCase();
-                if (docket.indexOf('m') >= 0) {
-                    suffix = "Misc.";
+                let dockets = match[2].split(',');
+                for (let i = 0; i < dockets.length; i++) {
+                    dockets[i] = fixDocketNumber(dockets[i], true);
                 }
-                else if (docket.indexOf('o') >= 0) {
-                    suffix = "Orig.";
-                }
-                if (suffix) {
-                    let i = docket.indexOf("22o");
-                    if (i == 0) {
-                        n = docket.substr(i + 3) + ' ';
-                    } else {
-                        let m = docket.match(/([0-9]+)/);
-                        if (m) n = m[1] + ' ';
-                    }
-                    docket = n + suffix;
-                    if (docket != match[2]) {
-                        printf("changing %s to %s\n", match[2], docket);
-                        json = json.substr(0, match.index) + match[1] + '"' + docket + '"' + json.substr(match.index + match[0].length);
-                        changes++;
-                    }
+                let docket = dockets.join(',');
+                if (docket != match[2]) {
+                    printf("changing %s to %s\n", match[2], docket);
+                    json = json.substr(0, match.index) + match[1] + '"' + docket + '"' + json.substr(match.index + match[0].length);
+                    changes++;
                 }
             }
             if (changes) {
@@ -3612,6 +3628,42 @@ function fixDockets(done)
         }
     });
     done();
+}
+
+/**
+ * fixDocketNumber(docket, fixDash)
+ *
+ * @param {string|number} docket
+ * @param {boolean} [fixDash]
+ * @return {string}
+ */
+function fixDocketNumber(docket, fixDash)
+{
+    let docketNew = "";
+    if (docket) {
+        let n = "", suffix = "";
+        docketNew = docket.toString();
+        docket = docket.toLowerCase();
+        if (docket.indexOf('m') >= 0) {
+            suffix = "Misc.";
+        }
+        else if (docket.indexOf('o') >= 0) {
+            suffix = "Orig.";
+        }
+        if (suffix) {
+            let i = docket.indexOf("22o");
+            if (i == 0) {
+                n = docketNew.substr(i + 3) + ' ';
+            } else {
+                let m = docketNew.match(/([0-9]+)/);
+                if (m) n = m[1] + ' ';
+            }
+            docketNew = n + suffix;
+        }
+        if (docketNew == "na") docketNew = "";  // an odd docket number I've seen in SCDB's docket CSVs ("not available?")
+        if (fixDash) docketNew.replace("&ndash;", "-");
+    }
+    return docketNew;
 }
 
 /**
@@ -3984,6 +4036,74 @@ function runDownloadTasks(done)
 }
 
 /**
+ * mergeSCDBDockets(done)
+ *
+ * @param {function()} done
+ */
+function mergeSCDBDockets(done)
+{
+    let changes = 0;
+    printf("reading decisions...\n");
+    let decisions = JSON.parse(readFile(results.json.decisions));
+    sortObjects(decisions, ["caseId"]);
+    printf("reading SCDB docket records...\n");
+    let decisionDockets = readCSV(sources.scdb.docketsCSV, "latin1", "html");
+    printf("merging...\n");
+    if (!isSortedObjects(decisions, ["caseId"])) {
+        warning("decisions database not sorted by caseId...\n");
+    }
+    if (!isSortedObjects(decisionDockets, ["caseId", "docketId"])) {
+        warning("decisions database not sorted by caseId/docketId...\n");
+    }
+    for (let i = 0; i < decisionDockets.length; i++) {
+        let consolidated = 0;
+        let docketRow = decisionDockets[i];
+        docketRow.docket = fixDocketNumber(docketRow.docket);
+        let caseId = docketRow.caseId;
+        for (let j = i + 1; j < decisionDockets.length; j++) {
+            let docketNext = decisionDockets[j];
+            if (docketNext.caseId != docketRow.caseId) break;
+            if (docketNext.usCite != docketRow.usCite) {
+                warning("case %s has cite %s whereas case %s has cite %s\n", caseId, docketRow.usCite, docketNext.caseId, docketNext.usCite);
+                break;
+            }
+            docketNext.docket = fixDocketNumber(docketNext.docket);
+            consolidated++;
+        }
+        if (consolidated) {
+            let d = searchSortedObjects(decisions, {caseId}, true);
+            if (d < 0) {
+                warning("unable to find unique case %s in decisions\n", caseId)
+            } else {
+                let decision = decisions[d];
+                if (decision.docket != docketRow.docket) {
+                    warning("lead docket (%s) for decision %s does not match first docket (%s) in docket records\n", decision.docket, caseId, docketRow.docket);
+                } else {
+                    let dockets = decision.docket;
+                    for (let j = 1; j <= consolidated; j++) {
+                        if (!decisionDockets[i + j].docket) continue;
+                        if (dockets) dockets += ',';
+                        dockets += decisionDockets[i + j].docket;
+                    }
+                    if (decision.docket != dockets) {
+                        dockets = dockets.replace(/&ndash;/g, '-');
+                        printf("%s (%s): change docket '%s' to '%s'\n", caseId, decision.usCite, decision.docket, dockets);
+                        decision.docket = dockets;
+                        changes++;
+                    }
+                }
+            }
+            i += consolidated - 1;
+        }
+    }
+    if (changes) {
+        printf("changes: %d\n", changes);
+        writeFile(results.json.decisions, decisions);
+    }
+    done();
+}
+
+/**
  * scrapeWallaceCases()
  */
 function scrapeWallaceCases()
@@ -4046,37 +4166,6 @@ function scrapeWallaceCases()
 function scrapeFiles(done)
 {
     // scrapeWallaceCases();
-
-    let advocates = {};
-    let decisionsLabs = readOyezLabsDecisions();
-    for (let i = 0; i < decisionsLabs.length; i++) {
-        let decision = decisionsLabs[i];
-        let caseTitle = decision.caseTitle;
-        let docket = decision.docket;
-        let usCite = decision.usCite;
-        let dateArgument = decision.dateArgument;
-        let names = decision.advocateName.split(';');
-        names.forEach((advocateName) => {
-            if (!advocates[advocateName]) advocates[advocateName] = 0;
-            advocates[advocateName]++;
-            // let advocate = {caseTitle, docket, usCite, dateArgument, advocateName};
-            // let i = searchSortedObjects(advocates, advocate);
-            // if (i < 0) {
-            //     insertSortedObject(advocates, advocates, ["advocateName", "dateArgument"]);
-            // } else {
-            //     warning("%s (%s): %s argued on %s more than once?\n", caseTitle, usCite, advocateName, dateArgument);
-            // }
-        });
-    }
-    let allNames = Object.keys(advocates);
-    for (let i = 0; i < allNames.length; i++) {
-        allNames[i] = {name: allNames[i], count: advocates[allNames[i]]};
-    }
-    sortObjects(allNames, ["count"], true);
-    for (let i = 0; i < 20; i++) {
-        printf("%d: %s\n", allNames[i].count, allNames[i].name);
-    }
-
     done();
 }
 
@@ -4105,11 +4194,13 @@ gulp.task("lonerJustices", findLonerJustices);
 gulp.task("lonerParties", findLonerParties);
 gulp.task("backup", backupLonerDecisions);
 gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
+gulp.task("findAdvocates", findAdvocates);
 gulp.task("fixAdvocates", fixAdvocates);
 gulp.task("fixDecisions", fixDecisions);
 gulp.task("fixDockets", fixDockets);
 gulp.task("fixLOC", fixLOC);
 gulp.task("rebuild", gulp.series(setRebuild, findAllDecisions, findAllJustices, findLonerDecisions, findLonerJustices, findLonerParties, buildAdvocates));
+gulp.task("merge", gulp.series(mergeSCDBDockets));
 gulp.task("scrape", scrapeFiles);
 gulp.task("tests", gulp.series(testDates));
 gulp.task("default", findDecisions);

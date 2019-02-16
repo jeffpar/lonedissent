@@ -46,10 +46,12 @@
     "vars": "/sources/scdb/vars.json",
     "courtsCSV": "/sources/scdb/naturalCourts.csv",
     "decisionsCSV": "/sources/scdb/decisions.csv",
-    "justicesCSV": "/sources/scdb/justices.csv"
+    "justicesCSV": "/sources/scdb/justices.csv",
+    "docketsCSV": "/sources/scdb/SCDB_2018_02_caseCentered_Docket.csv"
   },
   "scotus": {
     "citationsHTML": "/sources/scotus/citations/*.*",
+    "transcripts": "/sources/scotus/transcripts/**/*.txt",
     "download": {
       "transcriptOld": {
         "start": 1968,

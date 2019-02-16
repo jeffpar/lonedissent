@@ -7,6 +7,7 @@ layout: default
   {{ content }}
 </article>
 
+<div class="case-display">
 {% for case in page.cases %}
   {% if case.pdfSource == "loc" %}
     {% capture pdfPath %}https://cdn.loc.gov/service/ll/usrep/usrep{{ case.volume }}/usrep{{ case.volume }}{{ case.page }}/usrep{{ case.volume }}{{ case.page }}{% endcapture %}
@@ -23,24 +24,24 @@ layout: default
   {% endif %}
   {% capture caseCitation %}{% if case.docket %}No. {{ case.docket }}<br/>{% endif %}{% if case.citation %}{{ case.citation }}<br/>{% endif %}{% endcapture %}
   {% capture caseArgument %}{% if case.dateArgument %}{% if case.urlOyez %}Argued <a href="{{ case.urlOyez }}">{{ case.dateArgument }}</a><br/>{% else %}Argued {{ case.dateArgument }}<br/>{% endif %}{% endif %}{% endcapture %}
-  <div id="{{ case.id }}" style="text-align:center">
-    <h3>{{ case.title }}</h3>
-    <p style="font-size:medium">{{ caseCitation }}</p>
+  <div id="{{ case.id }}" class="case-card">
+    <p class="case-title">{{ case.title }}</p>
+    <p class="case-citation">{{ caseCitation }}</p>
     {% if case.authorId %}
-    <p style="font-size:medium">{{ caseArgument }}Decided <a href="/cases/all/{{ case.termId }}#{{ case.id }}">{{ case.dateDecision }}</a><br/>Opinion by <a href="/justices/all/{{ case.authorId }}#{{ case.id }}">Justice {{ case.authorName }}</a></p>
+    <p class="case-dates">{{ caseArgument }}Decided <a href="/cases/all/{{ case.termId }}#{{ case.id }}">{{ case.dateDecision }}</a><br/>Opinion by <a href="/justices/all/{{ case.authorId }}#{{ case.id }}">Justice {{ case.authorName }}</a></p>
     {% elsif case.dissenterId %}
-    <p style="font-size:medium">{{ caseArgument }}Decided <a href="/cases/loners/{{ case.termId }}#{{ case.id }}">{{ case.dateDecision }}</a><br/>Dissent by <a href="/justices/loners/{{ case.dissenterId }}#{{ case.id }}">Justice {{ case.dissenterName }}</a></p>
+    <p class="case-dates">{{ caseArgument }}Decided <a href="/cases/loners/{{ case.termId }}#{{ case.id }}">{{ case.dateDecision }}</a><br/>Dissent by <a href="/justices/loners/{{ case.dissenterId }}#{{ case.id }}">Justice {{ case.dissenterName }}</a></p>
     {% else %}
-    <p style="font-size:medium">{{ caseArgument }}{% if case.dateDecision %}Decided {{ case.dateDecision }}{% endif %}</p>
+    <p class="case-dates">{{ caseArgument }}{% if case.dateDecision %}Decided {{ case.dateDecision }}{% endif %}</p>
     {% endif %}
-    <p>
+    <p class="case-document">
       <a href="{{ pdfURL }}">
         <img src="{{ pdfGIF }}" style="display:block; margin:auto;" alt="{{ case.citation }}"/>
       </a>
     </p>
     {% if case.number and case.dateArgument %}
-    <p style="font-size:medium">Appearance No. {{ case.number }}</p>
+    <p class="case-number">Appearance No. {{ case.number }}</p>
     {% endif %}
   </div>
-  <hr/>
 {% endfor %}
+</div>
