@@ -1554,7 +1554,11 @@ function buildAdvocates(done)
                                 }
                             }
                             row.urlOyez = caseDetail.href.replace("api.", "www.");
-                            rows.push(row);
+                            if (row.dateArgument) {
+                                rows.push(row);
+                            } else {
+                                warning("%s (%s) has no Oyez argument date for %s\n", row.caseTitle, row.usCite, row.advocateName);
+                            }
                         }
                     });
                 }
@@ -1574,7 +1578,7 @@ function buildAdvocates(done)
                         obj = {volume: row.volume, page: row.page};
                         i = searchSortedObjects(decisions, obj, true);
                     }
-                    if (i < 0) {
+                    if (i < 0 && dateArgument) {
                         /*
                          * We must perform a much slower search, based solely on argument date and docket number.
                          */
@@ -1586,16 +1590,34 @@ function buildAdvocates(done)
                             if (dockets.indexOf(docket) >= 0) break;
                             next = i + 1;
                         }
+                        if (i < 0) {
+                            obj = {dateRearg: dateArgument};
+                            while ((i = searchObjects(decisions, obj, next)) >= 0) {
+                                let dockets = decisions[i].docket.split(',');
+                                if (dockets.indexOf(docket) >= 0) break;
+                                next = i + 1;
+                            }
+                        }
                     }
                     if (i >= 0) {
                         let argument = cloneObject(decisions[i]);
+                        if (!row.usCite) {
+                            if (argument.usCite) {
+                                row.usCite = argument.usCite;
+                                changes++;
+                            }
+                        } else {
+                            if (!argument.usCite) {
+                                argument.usCite = row.usCite;
+                            }
+                        }
                         if (argument.dateRearg) {
                             /*
                              * Let's take a quick peek to determine if this reargument is reflected in another row.
                              */
-                            if (!searchSortedObjects(rowsAdvocate, {dateArgument: argument.dateRearg, docket: argument.docket})) {
-                                warning("%s [%s] (%s): possible reargument by %s on %s\n\n", argument.caseTitle, argument.docket, argument.usCite, nameAdvocate, argument.dateRearg);
-                            }
+                            // if (searchSortedObjects(rowsAdvocate, {dateArgument: argument.dateRearg, docket: argument.docket}) >= 0) {
+                            //     warning("%s [%s] (%s): possible reargument by %s on %s\n\n", argument.caseTitle, argument.docket, argument.usCite, nameAdvocate, argument.dateRearg);
+                            // }
                         }
                         argument.dateArgument = dateArgument;
                         if (!row.votesPetitioner && !row.votesRespondent && (argument.majVotes || argument.minVotes)) {
@@ -2676,6 +2698,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let selectedCourt = argv['naturalCourt'] || 0;
     let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%s U.S. %s", volume, page);
     let caseTitle = argv['caseTitle'];
+    let docket = argv['docket'];
     if (argv['minVotes']) minVotes = +argv['minVotes'];
 
     let text = argv['text'] || "";
@@ -2738,22 +2761,24 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             let dateDecision = decision.dateDecision;
             if (dateDecision.length == 7) dateDecision += '-28';
             if (!caseId || decision.caseId == caseId) {
-                if (caseTitle === undefined || !caseTitle && !decision.caseTitle || caseTitle == decision.caseTitle) {
-                    if (!minVotes || decision.minVotes == minVotes) {
-                        if (!decided || dateDecision.indexOf(decided) == 0) {
-                            if (!selectedCourt || decision.naturalCourt == selectedCourt) {
-                                if ((!start || dateDecision >= start) && (!stop || dateDecision <= stop)) {
-                                    if (!month || decision.dateDecision.indexOf(month) > 0) {
-                                        if (!volume || !page && decision.usCite.indexOf(usCite) == 0 || volume && page && decision.usCite == usCite) {
-                                            if (!text || findText(decision.caseName)) {
-                                                let datePrint = decision.dateDecision;
-                                                if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
-                                                    printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseTitle || decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
-                                                    results.push(decision);
-                                                    if (decisionsAudited.indexOf(decision.caseId) < 0) {
-                                                        decisionsAudited.push(decision.caseId);
-                                                    } else {
-                                                        decisionsDuplicated.push(decision.caseId);
+                if (!docket || decision.docket.split(',').indexOf(docket) >= 0) {
+                    if (caseTitle === undefined || !caseTitle && !decision.caseTitle || caseTitle == decision.caseTitle) {
+                        if (!minVotes || decision.minVotes == minVotes) {
+                            if (!decided || dateDecision.indexOf(decided) == 0) {
+                                if (!selectedCourt || decision.naturalCourt == selectedCourt) {
+                                    if ((!start || dateDecision >= start) && (!stop || dateDecision <= stop)) {
+                                        if (!month || decision.dateDecision.indexOf(month) > 0) {
+                                            if (!volume || !page && decision.usCite.indexOf(usCite) == 0 || volume && page && decision.usCite == usCite) {
+                                                if (!text || findText(decision.caseName)) {
+                                                    let datePrint = decision.dateDecision;
+                                                    if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
+                                                        printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseTitle || decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
+                                                        results.push(decision);
+                                                        if (decisionsAudited.indexOf(decision.caseId) < 0) {
+                                                            decisionsAudited.push(decision.caseId);
+                                                        } else {
+                                                            decisionsDuplicated.push(decision.caseId);
+                                                        }
                                                     }
                                                 }
                                             }
@@ -4074,7 +4099,7 @@ function mergeSCDBDockets(done)
             let d = searchSortedObjects(decisions, {caseId}, true);
             if (d < 0) {
                 warning("unable to find unique case %s in decisions\n", caseId)
-            } else {
+            } else if (decisions[d].docket.indexOf(',') < 0) {
                 let decision = decisions[d];
                 if (decision.docket != docketRow.docket) {
                     warning("lead docket (%s) for decision %s does not match first docket (%s) in docket records\n", decision.docket, caseId, docketRow.docket);

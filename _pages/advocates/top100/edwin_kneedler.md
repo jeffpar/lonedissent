@@ -5016,6 +5016,7 @@ cases:
     termId: "2011-10"
     title: "Douglas v. Independent Living Center of Southern Cal., Inc."
     docket: "09-958"
+    citation: "565 U.S. ___"
     pdfSource: "scotusBound"
     dateArgument: "Monday, October 3, 2011"
     dateDecision: "Wednesday, February 22, 2012"
@@ -5057,6 +5058,7 @@ cases:
     termId: "2011-10"
     title: "PPL Montana, LLC v. Montana"
     docket: "10-218"
+    citation: "565 U.S. ___"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, December 7, 2011"
     dateDecision: "Wednesday, February 22, 2012"
@@ -5097,7 +5099,10 @@ cases:
     number: 117
     termId: "2012-10"
     title: "Kiobel v. Royal Dutch Petroleum Co."
+    volume: "569"
+    page: "108"
     docket: "10-1491"
+    citation: "569 U.S. 108"
     pdfSource: "slipopinion/12"
     dateArgument: "Tuesday, February 28, 2012"
     dateDecision: "Wednesday, April 17, 2013"
@@ -5139,6 +5144,7 @@ cases:
     termId: "2011-10"
     title: "National Federation of Independent Business v. Sebelius"
     docket: "11-393"
+    citation: "567 U.S. ___"
     pdfSource: "scotusBound"
     dateArgument: "Monday, March 26, 2012"
     dateDecision: "Thursday, June 28, 2012"
@@ -5180,6 +5186,7 @@ cases:
     termId: "2012-10"
     title: "Arkansas Game and Fish Comm&rsquo;n v. United States"
     docket: "11-597"
+    citation: "568 U.S. ___"
     pdfSource: "slipopinion/12"
     dateArgument: "Wednesday, October 3, 2012"
     dateDecision: "Tuesday, December 4, 2012"
@@ -5220,7 +5227,10 @@ cases:
     number: 120
     termId: "2012-10"
     title: "Sebelius v. Auburn Regional Medical Center"
+    volume: "568"
+    page: "145"
     docket: "11-1231"
+    citation: "568 U.S. 145"
     pdfSource: "slipopinion/12"
     dateArgument: "Tuesday, December 4, 2012"
     dateDecision: "Tuesday, January 22, 2013"
@@ -5262,6 +5272,7 @@ cases:
     termId: "2012-10"
     title: "Koontz v. St. Johns River Water Management Dist."
     docket: "11-1447"
+    citation: "570 U.S. ___"
     pdfSource: "slipopinion/12"
     dateArgument: "Tuesday, January 15, 2013"
     dateDecision: "Tuesday, June 25, 2013"
@@ -5303,6 +5314,7 @@ cases:
     termId: "2012-10"
     title: "Adoptive Couple v. Baby Girl"
     docket: "12-399"
+    citation: "570 U.S. ___"
     pdfSource: "slipopinion/12"
     dateArgument: "Tuesday, April 16, 2013"
     dateDecision: "Tuesday, June 25, 2013"
@@ -5344,6 +5356,7 @@ cases:
     termId: "2013-10"
     title: "Daimler AG v. Bauman"
     docket: "11-965"
+    citation: "571 U.S. ___"
     pdfSource: "slipopinion/13"
     dateArgument: "Tuesday, October 15, 2013"
     dateDecision: "Tuesday, January 14, 2014"
@@ -5385,6 +5398,7 @@ cases:
     termId: "2013-10"
     title: "Michigan v. Bay Mills Indian Community"
     docket: "12-515"
+    citation: "572 U.S. ___"
     pdfSource: "slipopinion/13"
     dateArgument: "Monday, December 2, 2013"
     dateDecision: "Tuesday, May 27, 2014"
@@ -5426,6 +5440,7 @@ cases:
     termId: "2013-10"
     title: "Fifth Third Bancorp v. Dudenhoeffer"
     docket: "12-751"
+    citation: "573 U.S. ___"
     pdfSource: "slipopinion/13"
     dateArgument: "Wednesday, April 2, 2014"
     dateDecision: "Wednesday, June 25, 2014"
@@ -5467,6 +5482,7 @@ cases:
     termId: "2013-10"
     title: "Republic of Argentina v. NML Capital, Ltd."
     docket: "12-842"
+    citation: "573 U.S. ___"
     pdfSource: "slipopinion/13"
     dateArgument: "Monday, April 21, 2014"
     dateDecision: "Monday, June 16, 2014"
@@ -5508,6 +5524,7 @@ cases:
     termId: "2014-10"
     title: "Perez v. Mortgage Bankers Assn."
     docket: "13-1041"
+    citation: "575 U.S. ___"
     pdfSource: "slipopinion/14"
     dateArgument: "Monday, December 1, 2014"
     dateDecision: "Monday, March 9, 2015"
@@ -5549,6 +5566,7 @@ cases:
     termId: "2014-10"
     title: "Armstrong v. Exceptional Child Center, Inc."
     docket: "14-15"
+    citation: "575 U.S. ___"
     pdfSource: "slipopinion/14"
     dateArgument: "Tuesday, January 20, 2015"
     dateDecision: "Tuesday, March 31, 2015"
@@ -5590,6 +5608,7 @@ cases:
     termId: "2014-10"
     title: "Kerry v. Din"
     docket: "13-1402"
+    citation: "576 U.S. ___"
     pdfSource: "slipopinion/14"
     dateArgument: "Monday, February 23, 2015"
     dateDecision: "Monday, June 15, 2015"
@@ -5631,6 +5650,7 @@ cases:
     termId: "2014-10"
     title: "Horne v. Department of Agriculture"
     docket: "14-275"
+    citation: "576 U.S. ___"
     pdfSource: "slipopinion/14"
     dateArgument: "Wednesday, April 22, 2015"
     dateDecision: "Monday, June 22, 2015"
@@ -5672,6 +5692,7 @@ cases:
     termId: "2015-10"
     title: "OBB Personenverkehr AG v. Sachs"
     docket: "13-1067"
+    citation: "577 U.S. ___"
     pdfSource: "slipopinion/15"
     dateArgument: "Monday, October 5, 2015"
     dateDecision: "Tuesday, December 1, 2015"
@@ -5713,6 +5734,7 @@ cases:
     termId: "2015-10"
     title: "Dollar General Corp. v. Mississippi Band of Choctaw Indians"
     docket: "13-1496"
+    citation: "579 U.S. ___"
     pdfSource: "slipopinion/15"
     dateArgument: "Monday, December 7, 2015"
     dateDecision: "Thursday, June 23, 2016"
@@ -5749,6 +5771,7 @@ cases:
     termId: "2015-10"
     title: "Bank Markazi v. Peterson"
     docket: "14-770"
+    citation: "578 U.S. ___"
     pdfSource: "slipopinion/15"
     dateArgument: "Wednesday, January 13, 2016"
     dateDecision: "Wednesday, April 20, 2016"
@@ -5787,6 +5810,7 @@ cases:
     termId: "2016-10"
     title: "Sessions v. Morales-Santana"
     docket: "15-1191"
+    citation: "582 U.S. ___"
     pdfSource: "slipopinion/16"
     dateArgument: "Wednesday, November 9, 2016"
     dateDecision: "Monday, June 12, 2017"
@@ -5828,6 +5852,7 @@ cases:
     termId: "2017-10"
     title: "Sessions v. Dimaya"
     docket: "15-1498"
+    citation: "584 U.S. ___"
     pdfSource: "slipopinion/17"
     dateArgument: "Tuesday, January 17, 2017"
     dateDecision: "Tuesday, April 17, 2018"
@@ -5869,6 +5894,7 @@ cases:
     termId: "2016-10"
     title: "Hernandez v. Mesa"
     docket: "15-118"
+    citation: "582 U.S. ___"
     pdfSource: "slipopinion/16"
     dateArgument: "Tuesday, February 21, 2017"
     dateDecision: "Monday, June 26, 2017"
@@ -5903,7 +5929,7 @@ cases:
       - id: nmgorsuch
         name: "Neil Gorsuch"
         majority: false
-  - id: "62754"
+  - id: "2017-001"
     number: 137
     termId: "2017-10"
     title: "Sessions v. Dimaya"
@@ -5913,13 +5939,44 @@ cases:
     dateArgument: "Monday, October 2, 2017"
     dateDecision: "Tuesday, April 17, 2018"
     urlOyez: "https://www.oyez.org/cases/2017/15-1498"
-    voteMajority: 0
-    voteMinority: 0
+    voteMajority: 5
+    voteMinority: 4
+    authorId: ekagan
+    authorName: "Elena Kagan"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: false
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: false
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: false
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: false
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: true
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: true
+      - id: nmgorsuch
+        name: "Neil Gorsuch"
+        majority: true
   - id: "2017-031"
     number: 138
     termId: "2017-10"
     title: "Florida v. Georgia"
     docket: "142 Orig."
+    citation: "585 U.S. ___"
     pdfSource: "slipopinion/17"
     dateArgument: "Monday, January 8, 2018"
     dateDecision: "Wednesday, June 27, 2018"
@@ -5961,6 +6018,7 @@ cases:
     termId: "2017-10"
     title: "Abbott v. Perez"
     docket: "17-586"
+    citation: "585 U.S. ___"
     pdfSource: "slipopinion/17"
     dateArgument: "Tuesday, April 24, 2018"
     dateDecision: "Monday, June 25, 2018"
