@@ -964,11 +964,13 @@ function readXMLFile(filePath, filters)
         if (filters) {
             let textNew = "";
             for (let i = 0; i < filters.length; i++) {
-                let iStart = text.indexOf(filters[i]);
-                if (iStart >= 0) {
+                let iStart, iNext = 0;
+                while ((iStart = text.indexOf(filters[i], iNext)) >= 0) {
+                    iNext = iStart + filters[i].length;
                     let iStop = text.indexOf('\n', iStart);
                     if (iStop >= 0) {
                         textNew += text.substring(iStart, iStop + 1);
+                        iNext = iStop + 1;
                     }
                 }
             }
@@ -1233,22 +1235,79 @@ function readOyezJustices()
  */
 function readOyezLabsDecisions()
 {
-    let decisions = [];
-    printf("reading OyezLabs decisions...\n");
-    let filePaths = glob.sync(rootDir + sources.oyezlabs.casesXML);
-    printf("total OyezLabs XML files: %d\n", filePaths.length);
-    for (let i = 0; i < filePaths.length; i++) {
-        let xml = readXMLFile(filePaths[i], ["<case ", "<caseTitle ", "<caseDecisionDate ", "<caseOpinionVol ", "<caseOpinionPage ", "</case>"]);
-        if (xml) {
-            let decision = {};
-            decision.caseTitle = xml.case.caseTitle[0]._;
-            decision.dateDecision = xml.case.caseDecisionDate? xml.case.caseDecisionDate[0]._ : "";
-            decision.usCite = xml.case.caseOpinionPage? (xml.case.caseOpinionVol[0]._ + " U.S. " + xml.case.caseOpinionPage[0]._) : "";
-            decisions.push(decision);
-            if (decisions.length % 1000 == 0) printf(".");
+    let getXMLValue = function(element, number=false, index=0) {
+        let value = "";
+        if (element) {
+            if (typeof element[index] == "string") {
+                value = element[index];
+            } else {
+                value = element[index]._ || "";
+            }
+            value = value.replace(/\s+/g, ' ').trim();
+            if (number) value = +value || 0;
         }
+        return value;
+    };
+    let decisions = readCSV(sources.oyezlabs.casesCSV);
+    if (!decisions.length) {
+        printf("reading OyezLabs decisions...\n");
+        let fileSpec = sources.oyezlabs.casesXML.replace('$1', argv['group'] || "**");
+        let filePaths = glob.sync(rootDir + fileSpec);
+        printf("total OyezLabs XML files: %d\n", filePaths.length);
+        for (let i = 0; i < filePaths.length; i++) {
+            let xml = readXMLFile(filePaths[i], [
+                "<case ",
+                "<caseTerm",
+                "<caseTitle",
+                "<caseDocket",
+                "<caseDecisionDate",
+                "<caseOpinionVol",
+                "<caseOpinionPage",
+                "<caseOpinionYear",
+                "<caseOpinionCitation",
+                "<caseArgumentDate",
+                "<caseAdvocateName",
+                "</case>"
+            ]);
+            if (xml) {
+                let decision = {};
+                decision.volume = getXMLValue(xml.case.caseOpinionVol, true);
+                decision.page = getXMLValue(xml.case.caseOpinionPage, true);
+                decision.year = getXMLValue(xml.case.caseOpinionYear, true);
+                decision.caseTitle = getXMLValue(xml.case.caseTitle);
+                decision.usCite = getXMLValue(xml.case.caseOpinionCitation);
+                let i = decision.usCite.indexOf(" (");
+                if (i > 0) decision.usCite = decision.usCite.substr(0, i);
+                decision.dateDecision = getXMLValue(xml.case.caseDecisionDate);
+                decision.docket = getXMLValue(xml.case.caseDocket);
+                decision.term = getXMLValue(xml.case.caseTerm);
+                decision.dateArgument = "";
+                if (xml.case.caseArgumentDate) {
+                    for (let i = 0; i < xml.case.caseArgumentDate.length; i++) {
+                        let value = getXMLValue(xml.case.caseArgumentDate, false, i);
+                        if (decision.dateArgument.indexOf(value) < 0) {
+                            if (decision.dateArgument) decision.dateArgument += ',';
+                            decision.dateArgument += value;
+                        }
+                    }
+                }
+                decision.advocateName = "";
+                if (xml.case.caseAdvocateName) {
+                    for (let i = 0; i < xml.case.caseAdvocateName.length; i++) {
+                        let value = getXMLValue(xml.case.caseAdvocateName, false, i);
+                        if (decision.advocateName.indexOf(value) < 0) {
+                            if (decision.advocateName) decision.advocateName += ';';
+                            decision.advocateName += value;
+                        }
+                    }
+                }
+                decisions.push(decision);
+                if (decisions.length % 1000 == 0) printf(".");
+            }
+        }
+        printf("\ntotal OyezLabs decisions read: %d\n", decisions.length);
+        writeCSV(sources.oyezlabs.casesCSV, decisions);
     }
-    printf("total OyezLabs decisions read: %d\n", decisions.length);
     return decisions;
 }
 
@@ -3986,7 +4045,38 @@ function scrapeWallaceCases()
  */
 function scrapeFiles(done)
 {
-    scrapeWallaceCases();
+    // scrapeWallaceCases();
+
+    let advocates = {};
+    let decisionsLabs = readOyezLabsDecisions();
+    for (let i = 0; i < decisionsLabs.length; i++) {
+        let decision = decisionsLabs[i];
+        let caseTitle = decision.caseTitle;
+        let docket = decision.docket;
+        let usCite = decision.usCite;
+        let dateArgument = decision.dateArgument;
+        let names = decision.advocateName.split(';');
+        names.forEach((advocateName) => {
+            if (!advocates[advocateName]) advocates[advocateName] = 0;
+            advocates[advocateName]++;
+            // let advocate = {caseTitle, docket, usCite, dateArgument, advocateName};
+            // let i = searchSortedObjects(advocates, advocate);
+            // if (i < 0) {
+            //     insertSortedObject(advocates, advocates, ["advocateName", "dateArgument"]);
+            // } else {
+            //     warning("%s (%s): %s argued on %s more than once?\n", caseTitle, usCite, advocateName, dateArgument);
+            // }
+        });
+    }
+    let allNames = Object.keys(advocates);
+    for (let i = 0; i < allNames.length; i++) {
+        allNames[i] = {name: allNames[i], count: advocates[allNames[i]]};
+    }
+    sortObjects(allNames, ["count"], true);
+    for (let i = 0; i < 20; i++) {
+        printf("%d: %s\n", allNames[i].count, allNames[i].name);
+    }
+
     done();
 }
 
