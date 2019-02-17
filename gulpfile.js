@@ -3284,7 +3284,7 @@ function matchTranscripts(done)
             }
             if (iDecision >= 0) {
                 let decision = decisions[iDecision];
-                transcriptDescription + (decision.usCite? ": see [" + decision.usCite + "](" + getLOCURL(decision.usCite) + ")" : "");
+                transcriptDescription += (decision.usCite? ": see [" + decision.usCite + "](" + getLOCURL(decision.usCite) + ")" : "");
                 if (!transcript.notes) {
                     transcriptMatches += transcriptDescription + "\n";
                 } else {
