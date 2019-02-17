@@ -4,6 +4,8 @@ permalink: /cases/transcripts/scotus
 layout: page
 ---
 
+The listed of remaining *unmatched* transcripts is [below](#-unmatched-transcripts).
+
 ## Matched Transcripts
 
 These transcripts have been successfully matched to an SCDB entry.
@@ -3170,7 +3172,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Begier v. IRS](https://www.supremecourt.gov/pdfs/transcripts/1989/89-393_03-27-1990.pdf) - No. 89-393, argued Tuesday, March 27, 1990
 - [Perpich v. Department of Defense](https://www.supremecourt.gov/pdfs/transcripts/1989/89-542_03-27-1990.pdf) - No. 89-542, argued Tuesday, March 27, 1990
 - [Hughey v. United States](https://www.supremecourt.gov/pdfs/transcripts/1989/89-5691_03-27-1990.pdf) - No. 89-5691, argued Tuesday, March 27, 1990
-- [Metro Broadcasting, Inc. v. FCC ](https://www.supremecourt.gov/pdfs/transcripts/1989/89-453_03-28-1990.pdf) - No. 89-453, argued Wednesday, March 28, 1990
+- [Metro Broadcasting, Inc. v. FCC](https://www.supremecourt.gov/pdfs/transcripts/1989/89-453_03-28-1990.pdf) - No. 89-453, argued Wednesday, March 28, 1990
 - [Astroline Communications Company Limited Partnership v. Shurberg Broadcasting of Hartford, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1989/89-700_03-28-1990.pdf) - No. 89-700, argued Wednesday, March 28, 1990
 - [Kansas v. UtiliCorp United Inc.](https://www.supremecourt.gov/pdfs/transcripts/1989/88-2109_04-16-1990.pdf) - No. 88-2109, argued Monday, April 16, 1990
 - [Maislin Industries, U. S., Inc. v. Primary Steel, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1989/89-624_04-16-1990.pdf) - No. 89-624, argued Monday, April 16, 1990
@@ -4179,7 +4181,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Alabama v. Bozeman](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2000/00-492.pdf) - No. 00-492, argued Tuesday, April 17, 2001
 - [Norfolk Shipbuilding & Drydock Corp. v. Garris](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2000/00-346.pdf) - No. 00-346, argued Wednesday, April 18, 2001
 - [Cedric Kushner Promotions, Ltd. v. King](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2000/00-549.pdf) - No. 00-549, argued Wednesday, April 18, 2001
-- [Idaho v. United States ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2000/00-189.pdf) - No. 00-189, argued Monday, April 23, 2001
+- [Idaho v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2000/00-189.pdf) - No. 00-189, argued Monday, April 23, 2001
 - [Pollard v. E. I. duPont de Nemours & Co.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2000/00-763.pdf) - No. 00-763, argued Monday, April 23, 2001
 - [Calcano-Martinez v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2000/00-1011.pdf) - No. 00-1011, argued Tuesday, April 24, 2001
 - [INS v. St. Cyr](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2000/00-767.pdf) - No. 00-767, argued Tuesday, April 24, 2001
@@ -4237,7 +4239,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Federal Maritime Comm'n. v. South Carolina Ports Authority](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-46.pdf) - No. 01-46, argued Monday, February 25, 2002
 - [Watchtower Bible & Tract Soc. of N. Y. v. Village of Stratton](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/00-1737.pdf) - No. 00-1737, argued Tuesday, February 26, 2002
 - [Thompson v. Western States Medical Center](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-344.pdf) - No. 01-344, argued Tuesday, February 26, 2002
-- [Chevron U. S. A., Inc. v. Echazabal ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/00-1406.pdf) - No. 00-1406, argued Wednesday, February 27, 2002
+- [Chevron U. S. A., Inc. v. Echazabal](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/00-1406.pdf) - No. 00-1406, argued Wednesday, February 27, 2002
 - [Carey v. Saffold](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-301.pdf) - No. 01-301, argued Wednesday, February 27, 2002
 - [SEC v. Zandford](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-147.pdf) - No. 01-147, argued Monday, March 18, 2002
 - [Christopher v. Harbury](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-394.pdf) - No. 01-394, argued Monday, March 18, 2002
@@ -4250,18 +4252,18 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Devlin v. Scardelletti](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-417.pdf) - No. 01-417, argued Tuesday, March 26, 2002
 - [Republican Party of Minn. v. White](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-521.pdf) - No. 01-521, argued Tuesday, March 26, 2002
 - [Utah v. Evans](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-714.pdf) - No. 01-714, argued Wednesday, March 27, 2002
-- [Franconia Associates v. United States ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-455.pdf) - No. 01-455, argued Monday, April 15, 2002
+- [Franconia Associates v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-455.pdf) - No. 01-455, argued Monday, April 15, 2002
 - [United States v. Cotton](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-687.pdf) - No. 01-687, argued Monday, April 15, 2002
 - [BE&K Constr. Co. v. NLRB](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-518.pdf) - No. 01-518, argued Tuesday, April 16, 2002
 - [United States v. Drayton](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-631.pdf) - No. 01-631, argued Tuesday, April 16, 2002
-- [Hope v. Pelzer ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-309.pdf) - No. 01-309, argued Wednesday, April 17, 2002
+- [Hope v. Pelzer](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-309.pdf) - No. 01-309, argued Wednesday, April 17, 2002
 - [JP Morgan Chase Bank v. Traffic Stream (BVI) Infrastructure Ltd.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-651.pdf) - No. 01-651, argued Wednesday, April 17, 2002
 - [United States v. Fior D'Italia, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-463.pdf) - No. 01-463, argued Monday, April 22, 2002
 - [Ring v. Arizona](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-488.pdf) - No. 01-488, argued Monday, April 22, 2002
 - [Columbus v. Ours Garage & Wrecker Service, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-419.pdf) - No. 01-419, argued Tuesday, April 23, 2002
 - [Barnes v. Gorman](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-682.pdf) - No. 01-682, argued Tuesday, April 23, 2002
 - [United States v. Ruiz](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-595.pdf) - No. 01-595, argued Wednesday, April 24, 2002
-- [Gonzaga Univ. v. Doe ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-679.pdf) - No. 01-679, argued Wednesday, April 24, 2002
+- [Gonzaga Univ. v. Doe](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/01-679.pdf) - No. 01-679, argued Wednesday, April 24, 2002
 - [Yellow Transp. Inc. v. Michigan, et al](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-270.pdf) - No. 01-270, argued Monday, October 7, 2002
 - [Ford Motor Co. v. McCauley](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-896.pdf) - No. 01-896, argued Monday, October 7, 2002
 - [FCC v. NextWave Personal Communications Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-653.pdf) - No. 01-653, argued Tuesday, October 8, 2002
@@ -4281,10 +4283,10 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Moseley v. V. Secret Catalogue, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-1015.pdf) - No. 01-1015, argued Tuesday, November 12, 2002
 - [United States v. Jimenez Recio](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-1184.pdf) - No. 01-1184, argued Tuesday, November 12, 2002
 - [Connecticut Dept. of Public Safety v. Doe](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-1231.pdf) - No. 01-1231, argued Wednesday, November 13, 2002
-- [Smith v. Doe ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-729.pdf) - No. 01-729, argued Wednesday, November 13, 2002
+- [Smith v. Doe](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-729.pdf) - No. 01-729, argued Wednesday, November 13, 2002
 - [United States v. White Mountain Apache Tribe](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-1067.pdf) - No. 01-1067, argued Monday, December 2, 2002
 - [United States v. Navajo Nation](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-1375.pdf) - No. 01-1375, argued Monday, December 2, 2002
-- [Meyer v. Holly ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-1120.pdf) - No. 01-1120, argued Tuesday, December 3, 2002
+- [Meyer v. Holly](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-1120.pdf) - No. 01-1120, argued Tuesday, December 3, 2002
 - [Washington State Dept. of Social and Health Servs. v. Guardianship Estate of Keffeler](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-1420.pdf) - No. 01-1420, argued Tuesday, December 3, 2002
 - [Scheidler v. National Organization for Women, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-1118.pdf) - No. 01-1118, argued Wednesday, December 4, 2002
 - [Chavez v. Martinez](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-1444.pdf) - No. 01-1444, argued Wednesday, December 4, 2002
@@ -4302,7 +4304,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Demore v. Hyung Joon Kim](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-1491.pdf) - No. 01-1491, argued Wednesday, January 15, 2003
 - [Cuyahoga Falls v. Buckeye Community Hope Foundation](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-1269.pdf) - No. 01-1269, argued Tuesday, January 21, 2003
 - [Woodford v. Garceau](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-1862.pdf) - No. 01-1862, argued Tuesday, January 21, 2003
-- [Pharmaceutical Research and Mfrs. of America v. Concannon ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-188.pdf) - No. 01-188, argued Wednesday, January 22, 2003
+- [Pharmaceutical Research and Mfrs. of America v. Concannon](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-188.pdf) - No. 01-188, argued Wednesday, January 22, 2003
 - [Dole Food Co. v. Patrickson](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/01-593.pdf) - No. 01-593, argued Wednesday, January 22, 2003
 - [Pacificare Health Systems, Inc. v. Book](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/02-215.pdf) - No. 02-215, argued Monday, February 24, 2003
 - [Franchise Tax Bd. of Cal. v. Hyatt](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2002/02-42.pdf) - No. 02-42, argued Monday, February 24, 2003
@@ -4370,7 +4372,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Nixon v. Missouri Municipal League](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/02-1238.pdf) - No. 02-1238, argued Monday, January 12, 2004
 - [United States v. Galletti](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/02-1389.pdf) - No. 02-1389, argued Monday, January 12, 2004
 - [Tennessee v. Lane](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/02-1667.pdf) - No. 02-1667, argued Tuesday, January 13, 2004
-- [Raymond ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/02-458.pdf) - No. 02-458, argued Tuesday, January 13, 2004
+- [Raymond](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/02-458.pdf) - No. 02-458, argued Tuesday, January 13, 2004
 - [Engine Mfrs. Assn. v. South Coast Air Quality Management Dist.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/02-1343.pdf) - No. 02-1343, argued Wednesday, January 14, 2004
 - [South Fla. Water Management Dist. v. Miccosukee Tribe](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/02-626.pdf) - No. 02-626, argued Wednesday, January 14, 2004
 - [BedRoc Limited, LLC v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/02-1593.pdf) - No. 02-1593, argued Tuesday, January 20, 2004
@@ -4397,7 +4399,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Elk Grove Unified School Dist. v. Newdow](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/02-1624.pdf) - No. 02-1624, argued Wednesday, March 24, 2004
 - [Norton v. Southern Utah Wilderness Alliance](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/03-101.pdf) - No. 03-101, argued Monday, March 29, 2004
 - [Nelson v. Campbell](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/03-6821.pdf) - No. 03-6821, argued Monday, March 29, 2004
-- [Francisco Soso v. Alvarez-Machain ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/03-339.pdf) - No. 03-339, argued Tuesday, March 30, 2004
+- [Francisco Soso v. Alvarez-Machain](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/03-339.pdf) - No. 03-339, argued Tuesday, March 30, 2004
 - [Johnson v. California](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/03-6539.pdf) - No. 03-6539, argued Tuesday, March 30, 2004
 - [Thornton v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/03-5165.pdf) - No. 03-5165, argued Wednesday, March 31, 2004
 - [Pennsylvania State Police v. Suders](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/03-95.pdf) - No. 03-95, argued Wednesday, March 31, 2004
@@ -4462,7 +4464,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Van Orden v. Perry](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/03-1500.pdf) - No. 03-1500, argued Wednesday, March 2, 2005
 - [McCreary County v. American Civil Liberties Union of Ky.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/03-1693.pdf) - No. 03-1693, argued Wednesday, March 2, 2005
 - [Cutter v. Wilkinson](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/03-9877.pdf) - No. 03-9877, argued Monday, March 21, 2005
-- [Castle Rock v. Gonzales ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/04-278.pdf) - No. 04-278, argued Monday, March 21, 2005
+- [Castle Rock v. Gonzales](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/04-278.pdf) - No. 04-278, argued Monday, March 21, 2005
 - [Tory v. Cochran](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/03-1488.pdf) - No. 03-1488, argued Tuesday, March 22, 2005
 - [Dodd v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/04-5286.pdf) - No. 04-5286, argued Tuesday, March 22, 2005
 - [San Remo Hotel, L. P. v. City and County of San Francisco](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/04-340.pdf) - No. 04-340, argued Monday, March 28, 2005
@@ -4470,7 +4472,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [National Cable & Telecommunications Assn. v. Brand X Internet Services](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/04-277.pdf) - No. 04-277, argued Tuesday, March 29, 2005
 - [Metro-Goldwyn-Mayer Studios Inc. v. Grokster, Ltd.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/04-480.pdf) - No. 04-480, argued Tuesday, March 29, 2005
 - [Wilkinson v. Austin](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/04-495.pdf) - No. 04-495, argued Wednesday, March 30, 2005
-- [Grable & Sons Metal Products, Inc. v. Darue Engineering & Mfg. ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/04-603.pdf) - No. 04-603, argued Monday, April 18, 2005
+- [Grable & Sons Metal Products, Inc. v. Darue Engineering & Mfg.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/04-603.pdf) - No. 04-603, argued Monday, April 18, 2005
 - [Johnson v. California](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/04-6964.pdf) - No. 04-6964, argued Monday, April 18, 2005
 - [Mayle v. Felix](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/04-563.pdf) - No. 04-563, argued Tuesday, April 19, 2005
 - [Bradshaw v. Stumpf](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2004/04-637.pdf) - No. 04-637, argued Tuesday, April 19, 2005
@@ -4723,7 +4725,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [United States v. Hayes](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/07-608.pdf) - No. 07-608, argued Monday, November 10, 2008
 - [Bell v. Kelly](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/07-1223.pdf) - No. 07-1223, argued Wednesday, November 12, 2008
 - [Pleasant Grove City v. Summum](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/07-665.pdf) - No. 07-665, argued Wednesday, November 12, 2008
-- [Kansas v. Colorado](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/105 Orig.pdf) - No. 105-orig, argued Monday, December 1, 2008
+- [Kansas v. Colorado](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/105%20Orig.pdf) - No. 105-orig, argued Monday, December 1, 2008
 - [Fitzgerald v. Barnstable School Comm.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/07-1125.pdf) - No. 07-1125, argued Tuesday, December 2, 2008
 - [Entergy Corp. v. Riverkeeper, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/07-588.pdf) - No. 07-588, argued Tuesday, December 2, 2008
 - [Haywood v. Drown](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/07-10374.pdf) - No. 07-10374, argued Wednesday, December 3, 2008
@@ -4773,7 +4775,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Forest Grove School Dist. v. T.A.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/08-305.pdf) - No. 08-305, argued Tuesday, April 28, 2009
 - [Cuomo v. Clearing House Assn., L.L.C.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/08-453.pdf) - No. 08-453, argued Tuesday, April 28, 2009
 - [Northwest Austin Municipal Util. Dist. No. One v. Holder](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/08-322.pdf) - No. 08-322, argued Wednesday, April 29, 2009
-- [Citizens United v. Federal Election Commission (Reargued)](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/08-205[Reargued].pdf) - No. 08-205, argued Wednesday, September 9, 2009
+- [Citizens United v. Federal Election Commission (Reargued)](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/08-205%5BReargued%5D.pdf) - No. 08-205, argued Wednesday, September 9, 2009
 - [Mohawk Industries, Inc. v. Carpenter](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2009/08-678.pdf) - No. 08-678, argued Monday, October 5, 2009
 - [Maryland v. Shatzer](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2009/08-680.pdf) - No. 08-680, argued Monday, October 5, 2009
 - [Johnson v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2009/08-6925.pdf) - No. 08-6925, argued Tuesday, October 6, 2009
@@ -5101,7 +5103,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Lexmark Int'l, Inc. v. Static Control Components, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-873_ebfi.pdf) - No. 12-873, argued Tuesday, December 3, 2013
 - [United States v. Apel](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-1038_0pm1.pdf) - No. 12-1038, argued Wednesday, December 4, 2013
 - [Air Wisconsin Airlines Corp. v. Hoeper](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-315_m7i2.pdf) - No. 12-315, argued Monday, December 9, 2013
-- [Ray Haluch Gravel Co. v. Central Pension Fund of Operating Engineers and Participating Employers ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-992_71n8.pdf) - No. 12-992, argued Monday, December 9, 2013
+- [Ray Haluch Gravel Co. v. Central Pension Fund of Operating Engineers and Participating Employers](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-992_71n8.pdf) - No. 12-992, argued Monday, December 9, 2013
 - [EPA v. EME Homer City Generation, L.P.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-1182_22q3.pdf) - No. 12-1182, argued Tuesday, December 10, 2013
 - [Mayorkas v. Cuellar de Osorio](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-930_hocg.pdf) - No. 12-930, argued Tuesday, December 10, 2013
 - [White v. Woodall](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-794_3703.pdf) - No. 12-794, argued Wednesday, December 11, 2013
@@ -5119,7 +5121,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Abramski v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-1493_1b8e.pdf) - No. 12-1493, argued Wednesday, January 22, 2014
 - [Paroline v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-8561_e1gj.pdf) - No. 12-8561, argued Wednesday, January 22, 2014
 - [Utility Air Regulatory Group v. EPA](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-1146_8n6a.pdf) - No. 12-1146, argued Monday, February 24, 2014
-- [Robers v. United States ](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-9012_kjg1.pdf) - No. 12-9012, argued Tuesday, February 25, 2014
+- [Robers v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-9012_kjg1.pdf) - No. 12-9012, argued Tuesday, February 25, 2014
 - [Highmark, Inc. v. Allcare Health Management System, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-1163_ifkn.pdf) - No. 12-1163, argued Wednesday, February 26, 2014
 - [Octane Fitness, LLC v. Icon Health & Fitness, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-1184_b0nd.pdf) - No. 12-1184, argued Wednesday, February 26, 2014
 - [Hall v. Florida](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2013/12-10882_6kh7.pdf) - No. 12-10882, argued Monday, March 3, 2014
@@ -5147,7 +5149,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Dart Cherokee Basin Operating Co. v. Owens](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/13-719_f119.pdf) - No. 13-719, argued Tuesday, October 7, 2014
 - [Integrity Staffing Solutions, Inc. v. Busk](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/13-433_o758.pdf) - No. 13-433, argued Wednesday, October 8, 2014
 - [Warger  v. Shauers](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/13-517_hfjm.pdf) - No. 13-517, argued Wednesday, October 8, 2014
-- [Kansas v. Nebraska](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/126, orig_ppl4.pdf) - No. 126-orig, argued Tuesday, October 14, 2014
+- [Kansas v. Nebraska](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/126,%20orig_ppl4.pdf) - No. 126-orig, argued Tuesday, October 14, 2014
 - [North Carolina State Bd. of Dental Examiners v. FTC](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/13-534_l6h1.pdf) - No. 13-534, argued Tuesday, October 14, 2014
 - [Jennings v. Stevens](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/13-7211_6l4d.pdf) - No. 13-7211, argued Wednesday, October 15, 2014
 - [Teva Pharmaceuticals USA, Inc. v. Sandoz, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/13-854_h3dj.pdf) - No. 13-854, argued Wednesday, October 15, 2014

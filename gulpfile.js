@@ -3200,8 +3200,10 @@ function findAdvocates(done)
     // sortObjects(decisions, ["dateArgument", "docket"]);
 
     let transcriptPath = "/_pages/cases/transcripts/scotus.md";
-    let transcriptPage = '---\ntitle: "Transcripts from the U.S. Supreme Court"\npermalink: /cases/transcripts/scotus\nlayout: page\n---\n\n';
     let transcriptMatches = "", transcriptPending = "", transcriptExceptions = "";
+
+    let transcriptPage = '---\ntitle: "Transcripts from the U.S. Supreme Court"\npermalink: /cases/transcripts/scotus\nlayout: page\n---\n\n';
+    transcriptPage += "The listed of remaining *unmatched* transcripts is [below](#-unmatched-transcripts).\n\n";
 
     printf("collecting transcript files...\n");
     let transcripts = readCSV(results.csv.transcripts);
@@ -3239,7 +3241,7 @@ function findAdvocates(done)
         let result = "";
         let docket = match[1];
         let dateArgument = match[2];
-        let transcriptDescription = "- [" + transcript.caseTitle + "](" + transcript.url + ") - No. " + transcript.docket + ", argued " + sprintf("%#C", transcript.dateArgument);
+        let transcriptDescription = "- [" + transcript.caseTitle.trim() + "](" + encodeURI(transcript.url) + ") - No. " + transcript.docket + ", argued " + sprintf("%#C", transcript.dateArgument);
         if (dateArgument < sources.scdb.dateEnd) {
             let iDecision = findByDateAndDocket(decisions, dateArgument, docket);
             if (iDecision < 0) {
