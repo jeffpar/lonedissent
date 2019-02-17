@@ -1601,7 +1601,20 @@ function buildAdvocates(done)
                             row.term = caseDetail.term || 0;
                             row.termId = getTermDate(row.term).substr(0,7);
                             row.issue = "";
-                            row.dateArgument = getDates(caseDetail.timeline, "Argued");             // TODO: Also "Reargued"....
+                            row.dateArgument = getDates(caseDetail.timeline, "Argued");
+                            /*
+                             * For purposes of our advocate tables, making the distinction between argument
+                             * and reargument dates is neither necessary nor helpful.  In fact, it's the opposite
+                             * of helpful.  Our advocate reports are focussed on number of appearances.
+                             */
+                            let dateReargument = getDates(caseDetail.timeline, "Reargued");
+                            if (dateReargument) {
+                                if (!row.dateArgument) {
+                                    warning("%s (%s) has reargument (%s) without argument\n", row.caseTitle, row.usCite, dateReargument);
+                                } else {
+                                    row.dateArgument += ',' + dateReargument;
+                                }
+                            }
                             row.daysArgument = row.dateArgument.split(',').length;
                             row.votesPetitioner = 0;
                             row.votesRespondent = 0;
@@ -1658,14 +1671,6 @@ function buildAdvocates(done)
                             if (!argument.usCite) {
                                 argument.usCite = row.usCite;
                             }
-                        }
-                        if (argument.dateRearg) {
-                            /*
-                             * Let's take a quick peek to determine if this reargument is reflected in another row.
-                             */
-                            // if (searchSortedObjects(rowsAdvocate, {dateArgument: argument.dateRearg, docket: argument.docket}) >= 0) {
-                            //     warning("%s [%s] (%s): possible reargument by %s on %s\n\n", argument.caseTitle, argument.docket, argument.usCite, nameAdvocate, argument.dateRearg);
-                            // }
                         }
                         argument.dateArgument = dateArgument;
                         if (!row.votesPetitioner && !row.votesRespondent && (argument.majVotes || argument.minVotes)) {
@@ -2350,7 +2355,7 @@ function generateCommonCaseYML(decision, caseNumber=0, extras=[])
     if (decision.pdfPage) ymlText += '    pdfPage: ' + decision.pdfPage + '\n';
     if (decision.pdfPageDissent) ymlText += '    pdfPageDissent: ' + decision.pdfPageDissent + '\n';
     if (extras.indexOf("dateArgument") >= 0 && decision.dateArgument) {
-        ymlText += '    dateArgument: "' + sprintf("%#C", decision.dateArgument) + '"\n';
+        ymlText += '    dateArgument: "' + sprintf("%#C", decision.dateArgument.split(',')) + '"\n';
     }
     if (decision.dateDecision) {
         ymlText += '    dateDecision: "' + (decision.dateDecision.length < 10? getTermName(decision.dateDecision) : sprintf("%#C", decision.dateDecision)) + '"\n';
@@ -2740,7 +2745,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let term = argv['term'] || sTerm, termId;
     let end = argv['end'] || argv['term'] || sEnd, endTerm;
     if (end) endTerm = getTermDate(end);
-    let decided = argv['decided'], argued = argv['argued'];
+    let decided = argv['decided'], argued = argv['argued'], reargued = argv['reargued'];
     let start = argv['start'] || "", stop = argv['stop'] || "";
     let month = argv['month'] && sprintf("-%02d-", +argv['month']) || "";
     let selectedCourt = argv['naturalCourt'] || 0;
@@ -2804,7 +2809,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             printf("\nprocessing term %s...\n", termId);
         }
 
-        let results = [];
+        let searchResults = [];
         decisions.forEach((decision) => {
             let dateDecision = decision.dateDecision;
             if (dateDecision.length == 7) dateDecision += '-28';
@@ -2819,9 +2824,9 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                                             if (!volume || !page && decision.usCite.indexOf(usCite) == 0 || volume && page && decision.usCite == usCite) {
                                                 if (!text || findText(decision.caseName)) {
                                                     let datePrint = decision.dateDecision;
-                                                    if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
+                                                    if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || !reargued && (datePrint = decision.dateRearg).indexOf(argued) == 0 || reargued && (datePrint = decision.dateRearg).indexOf(reargued) == 0) {
                                                         printf("%s: %s [%s] (%s) {%s}: %d-%d\n", datePrint, decision.caseTitle || decision.caseName, decision.docket, decision.usCite, decision.dateArgument + (decision.dateRearg? '|' + decision.dateRearg : ""), decision.majVotes, decision.minVotes);
-                                                        results.push(decision);
+                                                        searchResults.push(decision);
                                                         if (decisionsAudited.indexOf(decision.caseId) < 0) {
                                                             decisionsAudited.push(decision.caseId);
                                                         } else {
@@ -2842,17 +2847,92 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 
         let range = (start || stop)? sprintf(" in range %s--%s", start, stop) : "";
         let condition = minVotes? sprintf(" with minVotes of %d", minVotes) : "";
-        printf("results%s%s: %d\n", range, condition, results.length);
+        printf("results%s%s: %d\n", range, condition, searchResults.length);
 
-        if (results.length) {
+        let corrections = 0;
+        if (argv['addDocket'] || argv['addArg'] || argv['addRearg']) {
+            let reason = argv['reason'] || "";
+            if (!reason) {
+                warning("please give a reason (--reason) for the correction\n");
+            } else if (searchResults.length != 1) {
+                warning("too many results (batch operations not yet allowed)\n");
+            } else {
+                let addDockets = argv['addDocket'] || [];
+                if (typeof addDockets == "string") addDockets = [addDockets];
+                let addArgs = argv['addArg'] || [];
+                if (typeof addArgs == "string") addArgs = [addArgs];
+                let addReargs = argv['addRearg'] || [];
+                if (typeof addReargs == "string") addReargs = [addReargs];
+                reason = " (" + reason.replace(/;/g, ',') + ")";
+
+                let decision = searchResults[0];
+                let dockets = decision.docket.split(',');
+                let datesArgument = decision.dateArgument.split(',');
+                let datesReargument = decision.dateRearg.split(',');
+
+                let docketNumbers = "";
+                addDockets.forEach((docket) => {
+                    docket = fixDocketNumber(docket);
+                    if (docket && dockets.indexOf(docket) < 0) {
+                        if (decision.docket) decision.docket += ',';
+                        decision.docket += docket;
+                        corrections++;
+                        if (docketNumbers) docketNumbers += ',';
+                        docketNumbers += docket;
+                    }
+                });
+                let argumentDates = "";
+                addArgs.forEach((arg) => {
+                    arg = fixDate(arg);
+                    if (arg && datesArgument.indexOf(arg) < 0) {
+                        if (decision.dateArgument) decision.dateArgument += ',';
+                        decision.dateArgument += arg;
+                        corrections++;
+                        if (argumentDates) argumentDates += ',';
+                        argumentDates += arg;
+                    }
+                });
+                let reargumentDates = "";
+                addReargs.forEach((arg) => {
+                    arg = fixDate(arg);
+                    if (arg && datesReargument.indexOf(arg) < 0) {
+                        if (decision.dateRearg) decision.dateRearg += ',';
+                        decision.dateRearg += arg;
+                        corrections++;
+                        if (reargumentDates) reargumentDates += ',';
+                        reargumentDates += arg;
+                    }
+                });
+                if (corrections) {
+                    decision.caseNotes = decision.caseNotes? (decision.caseNotes + '; ') : "";
+                    let additions = "";
+                    if (docketNumbers) {
+                        additions += "docket " + docketNumbers;
+                    }
+                    if (argumentDates) {
+                        if (additions) additions += " and ";
+                        additions += "dateArgument " + argumentDates;
+                    }
+                    if (reargumentDates) {
+                        if (additions) additions += " and ";
+                        additions += "dateReargument " + reargumentDates;
+                    }
+                    decision.caseNotes += "added " + additions + reason;
+                    printf("updated caseNotes: %s\n", decision.caseNotes);
+                    writeFile(results.json.decisions, decisions);
+                }
+            }
+        }
+
+        if (searchResults.length) {
             vars['caseNotes'] = {"type": "string"};
             vars['pdfSource'] = {"type": "string"};
             vars['pdfPage'] = {"type": "number"};
             vars['pdfPageDissent'] = {"type": "number"};
             vars['volume'] = {"type": "number"};
             vars['page'] = {"type": "number"};
-            for (let r = 0; r < results.length; r++) {
-                let decision = results[r];
+            for (let r = 0; r < searchResults.length; r++) {
+                let decision = searchResults[r];
                 parseCite(decision.usCite, decision);
                 /*
                  * NOTE: Even if mapValues() returns an error (< 0), we now continue processing cases.
@@ -2942,11 +3022,11 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         warning("%s (%s) being updated in %s\n", decision.caseId, citation, dataFile);
                         additions++;
                     }
-                    results[r] = data[iSearch];
+                    searchResults[r] = data[iSearch];
                 }
             }
             if (term) {
-                sortObjects(results, ["volume", "page", "caseTitle"]);
+                sortObjects(searchResults, ["volume", "page", "caseTitle"]);
                 /*
                  * Create a page for each term of decisions that doesn't already have one (eg, _pages/cases/loners/yyyy-mm.md)
                  */
@@ -2956,7 +3036,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 let pathName = "/cases/" + category + "/" + termId;
                 let fileName = "/_pages" + pathName + ".md";
                 let fileText = '---\ntitle: "' + description + " from " + termName + ' of the U.S. Supreme Court"\npermalink: ' + pathName + '\nlayout: cases\n';
-                fileText += generateCaseYML(results, vars, courtsSCDB, justices);
+                fileText += generateCaseYML(searchResults, vars, courtsSCDB, justices);
                 fileText += '---\n';
                 let oldText = readFile(fileName);
                 if (oldText && oldText != fileText) {
@@ -2979,7 +3059,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         if (termId >= "1844-12" && termId <= "1849-12") {
                             asterisks = "*";
                         }
-                        let entry = sprintf("- [%s](/cases/%s/%s)%s (%d %s%s)\n", termName, category, termId, asterisks, results.length, category == "loners"? "lone dissent" : "opinion", results.length == 1? '' : 's');
+                        let entry = sprintf("- [%s](/cases/%s/%s)%s (%d %s%s)\n", termName, category, termId, asterisks, searchResults.length, category == "loners"? "lone dissent" : "opinion", searchResults.length == 1? '' : 's');
                         if (matchLast[2] != termId) {
                             index = index.substr(0, matchLast.index) + entry + index.substr(matchLast.index);
                         } else {
@@ -3758,6 +3838,26 @@ function fixDockets(done)
         }
     });
     done();
+}
+
+/**
+ * fixDate(sDate)
+ *
+ * NOTE: While this may evolve over time to fix some common date typos, all it does for now
+ * is make sure the date is in the correct format.
+ *
+ * @param {string} sDate
+ * @return {string}
+ */
+function fixDate(sDate)
+{
+    let newDate = "";
+    if (sDate) {
+        if (sDate.match(/^[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]$/)) {
+            newDate = sDate;
+        }
+    }
+    return newDate;
 }
 
 /**
