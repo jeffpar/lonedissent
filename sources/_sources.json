@@ -15,17 +15,52 @@
   },
   "loc": {
     "download": {
-      "volume": {
+      "volume100": {
         "start": 1,
+        "stop": 100,
+        "url": "https://www.loc.gov/collections/united-states-reports/?fa=partof:u.s.+reports:+volume+%d&st=list&c=300",
+        "dir": "/sources/loc/volumes/001-100/%03d",
+        "file": "us%03d.html"
+      },
+      "volume200": {
+        "start": 101,
+        "stop": 200,
+        "url": "https://www.loc.gov/collections/united-states-reports/?fa=partof:u.s.+reports:+volume+%d&st=list&c=300",
+        "dir": "/sources/loc/volumes/101-200/%03d",
+        "file": "us%03d.html"
+      },
+      "volume300": {
+        "start": 201,
+        "stop": 300,
+        "url": "https://www.loc.gov/collections/united-states-reports/?fa=partof:u.s.+reports:+volume+%d&st=list&c=300",
+        "dir": "/sources/loc/volumes/201-300/%03d",
+        "file": "us%03d.html"
+      },
+      "volume400": {
+        "start": 301,
+        "stop": 400,
+        "url": "https://www.loc.gov/collections/united-states-reports/?fa=partof:u.s.+reports:+volume+%d&st=list&c=300",
+        "dir": "/sources/loc/volumes/301-400/%03d",
+        "file": "us%03d.html"
+      },
+      "volume500": {
+        "start": 401,
+        "stop": 500,
+        "url": "https://www.loc.gov/collections/united-states-reports/?fa=partof:u.s.+reports:+volume+%d&st=list&c=300",
+        "dir": "/sources/loc/volumes/401-500/%03d",
+        "file": "us%03d.html"
+      },
+      "volume600": {
+        "start": 501,
         "stop": 542,
         "url": "https://www.loc.gov/collections/united-states-reports/?fa=partof:u.s.+reports:+volume+%d&st=list&c=300",
-        "dir": "/sources/loc/volumes/",
+        "dir": "/sources/loc/volumes/501-600/%03d",
         "file": "us%03d.html"
       },
       "pdf": {
-        "info": "/sources/loc/pdfs/pdfinfo.txt",
+        "info": "/sources/loc/volumes/pdfinfo.txt",
         "url": "http://cdn.loc.gov/service/ll/usrep/usrep%03d/usrep%03d%03d/usrep%03d%03d.pdf",
-        "dir": "/sources/loc/pdfs/%03d-%03d/%03d/",
+        "dir": "/sources/loc/volumes/%03d-%03d/%03d/",
         "file": "%03dus%03d.pdf"
       }
     }

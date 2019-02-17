@@ -2786,7 +2786,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                                                 if (!text || findText(decision.caseName)) {
                                                     let datePrint = decision.dateDecision;
                                                     if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || (datePrint = decision.dateRearg).indexOf(argued) == 0) {
-                                                        printf("%s: %s [%s] (%s): %d-%d\n", datePrint, decision.caseTitle || decision.caseName, decision.docket, decision.usCite, decision.majVotes, decision.minVotes);
+                                                        printf("%s: %s [%s] (%s) {%s}: %d-%d\n", datePrint, decision.caseTitle || decision.caseName, decision.docket, decision.usCite, decision.dateArgument + (decision.dateRearg? '|' + decision.dateRearg : ""), decision.majVotes, decision.minVotes);
                                                         results.push(decision);
                                                         if (decisionsAudited.indexOf(decision.caseId) < 0) {
                                                             decisionsAudited.push(decision.caseId);
@@ -3996,8 +3996,9 @@ function generateDownloadTasks(done)
         if (!downloads) return;
         let downloadGroups = Object.keys(downloads);
         downloadGroups.forEach((group) => {
-            let mappings = "";
             let downloadGroup = downloads[group];
+            let mappings = downloadGroup.mappingCols || "";
+            let mappingsOld = downloadGroup.mappingFile && readFile(downloadGroup.mappingFile) || "";
             if (downloadGroup.start && downloadGroup.stop) {
                 for (let index = downloadGroup.start; index <= downloadGroup.stop; index++) {
                     let url = sprintf(downloadGroup.url, index);
@@ -4065,8 +4066,8 @@ function generateDownloadTasks(done)
                     }
                 });
             }
-            if (mappings) {
-                writeFile(downloadGroup.mappingFile, downloadGroup.mappingCols + mappings);
+            if (downloadGroup.mappingFile && mappings !== mappingsOld) {
+                writeFile(downloadGroup.mappingFile, mappings);
             }
         });
     });
