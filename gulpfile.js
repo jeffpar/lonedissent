@@ -1007,6 +1007,21 @@ function getLOCPDF(volume, page, pageURL)
 }
 
 /**
+ * getLOCURL(usCite)
+ *
+ * @param {string} usCite
+ * @return {string}
+ */
+function getLOCURL(usCite)
+{
+    let cite = {}, url = "";
+    if (parseCite(usCite, cite)) {
+        url = sprintf("https://cdn.loc.gov/service/ll/usrep/usrep%03d/usrep%03d%03d/usrep%03d%03d.pdf", cite.volume, cite.volume, cite.page, cite.volume, cite.page);
+    }
+    return url;
+}
+
+/**
  * function getNewCite(volume, page)
  *
  * @param {number} volume
@@ -1059,6 +1074,27 @@ function getOldCite(volume, page)
         }
     }
     return oldCite;
+}
+
+/**
+ * parseCite(usCite, cite)
+ *
+ * @param {string} usCite
+ * @param {Decision} cite
+ * @return {boolean}
+ */
+function parseCite(usCite, cite)
+{
+    if (usCite) {
+        let match = usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
+        if (match) {
+            cite.volume = +match[1];
+            cite.page = +match[2];
+            return true;
+        }
+    }
+    cite.volume = cite.page = 0
+    return false;
 }
 
 /**
@@ -1424,13 +1460,10 @@ function readSCOTUSDecisions()
             warning("%s (%s) has no decision date\n", decision.caseTitle, decision.usCite);
             continue;
         }
-        let match = decision.usCite.match(/([0-9]+) U.S. ([0-9]+)/);
-        if (!match) {
+        if (!parseCite(decision.usCite, decision)) {
             warning("%s (%s) has unrecognized citation\n", decision.caseTitle, decision.usCite);
             continue;
         }
-        decision.volume = match[1];
-        decision.page = match[2];
         if (decision.dateDecision.length > 10) {
             let date = parseDate(decision.dateDecision);
             decision.dateDecision = sprintf("%#Y-%#02M-%#02D", date);
@@ -1481,6 +1514,7 @@ function findByDateAndDocket(decisions, date, docket)
         next = i + 1;
     }
     if (i < 0) {
+        next = 0;
         obj = {dateRearg: date};
         while ((i = searchObjects(decisions, obj, next)) >= 0) {
             let dockets = decisions[i].docket.split(',');
@@ -2041,15 +2075,14 @@ function buildCitations(done)
      */
     let rowsDates = readCSV(results.csv.dates);
     rowsDates.forEach((cite) => {
-        let match = cite.usCite.match(/^([0-9]+) U.S. ([0-9]+)$/);
-        if (match && !citesScotus[cite.usCite]) {
+        if (parseCite(cite.usCite, cite) && !citesScotus[cite.usCite]) {
             warning("unable to find date citation '%s' (%s) %s in SCOTUS citations\n", cite.caseTitle, cite.usCite, cite.dateDecision);
             let row = {
-                volume: +match[1],
-                page: +match[2],
+                volume: cite.volume,
+                page: cite.page,
                 year: +cite.dateDecision.substr(0, 4),
                 caseTitle: cite.caseTitle,
-                oldCite: getOldCite(+match[1], +match[2]),
+                oldCite: getOldCite(cite.volume, cite.page),
                 usCite: cite.usCite
             };
             insertSortedObject(rowsScotus, row, ["volume", "page", "caseTitle"]);
@@ -2253,11 +2286,8 @@ function scoreStrings(left, right)
  */
 function generateCommonCaseYML(decision, caseNumber=0, extras=[])
 {
-    let volume = 0, page = 0;
-    let matchCite = decision.usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
-    if (matchCite) {
-        volume = +matchCite[1];  page = +matchCite[2];
-    }
+    let cite = {};
+    parseCite(decision.usCite, cite);
     let ymlText = '  - id: "' + decision.caseId + '"\n';
     if (extras.indexOf("caseNumber") >= 0) {
         ymlText += '    number: ' + caseNumber + '\n';
@@ -2304,8 +2334,12 @@ function generateCommonCaseYML(decision, caseNumber=0, extras=[])
      * must be applied to 'pdfPageDissent' as well; our page templates will *not* automatically add
      * "pdfpage" minus 1 to the dissent page number.
      */
-    if (volume) ymlText += sprintf('    volume: "%03d"\n', volume);
-    if (page) ymlText += sprintf('    page: "%03d"\n' , page);
+    if (cite.volume) {
+        ymlText += sprintf('    volume: "%03d"\n', cite.volume);
+    }
+    if (cite.page) {
+        ymlText += sprintf('    page: "%03d"\n' , cite.page);
+    }
     if (decision.docket) {
         ymlText += '    docket: "' + decision.docket + '"\n';
     }
@@ -2818,14 +2852,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             vars['volume'] = {"type": "number"};
             vars['page'] = {"type": "number"};
             for (let r = 0; r < results.length; r++) {
-                let decision = results[r]
-                let match = decision.usCite.match(/([0-9]+) U.S. ([0-9]+)/);
-                if (match) {
-                    decision.volume = +match[1];
-                    decision.page = +match[2];
-                } else {
-                    decision.volume = decision.page = 0;
-                }
+                let decision = results[r];
+                parseCite(decision.usCite, decision);
                 /*
                  * NOTE: Even if mapValues() returns an error (< 0), we now continue processing cases.
                  *
@@ -3188,11 +3216,11 @@ function findLonerParties(done)
 }
 
 /**
- * findAdvocates()
+ * matchTranscripts(done)
  *
  * @param {function()} done
  */
-function findAdvocates(done)
+function matchTranscripts(done)
 {
     let exceptions = 0;
     printf("reading decisions...\n");
@@ -3200,14 +3228,16 @@ function findAdvocates(done)
     // sortObjects(decisions, ["dateArgument", "docket"]);
 
     let transcriptPath = "/_pages/cases/transcripts/scotus.md";
-    let transcriptMatches = "", transcriptPending = "", transcriptExceptions = "";
+    let transcriptMatches = "", transcriptCorrections = "", transcriptPending = "", transcriptExceptions = "";
 
     let transcriptPage = '---\ntitle: "Transcripts from the U.S. Supreme Court"\npermalink: /cases/transcripts/scotus\nlayout: page\n---\n\n';
-    transcriptPage += "The listed of remaining *unmatched* transcripts is [below](#unmatched-transcripts).\n\n";
+    transcriptPage += "These transcripts were downloaded from the U.S. Supreme Court website and logged in this [spreadsheet](/results/transcripts.csv).\n\n";
+    transcriptPage += "Any corrections have been noted under [Corrected Transcripts](#corrected-transcripts), and match failures have been logged under [Unmatched Transcripts](#unmatched-transcripts).\n\n";
 
     printf("collecting transcript files...\n");
     let transcripts = readCSV(results.csv.transcripts);
     sortObjects(transcripts, ["dateArgument", "docket"]);
+
     let filePaths = glob.sync(rootDir + sources.scotus.transcripts);
     if (filePaths.length != transcripts.length) {
         warning("number of transcript files (%d) does not match number of transcript entries (%d)\n", filePaths.length, transcripts.length);
@@ -3235,9 +3265,15 @@ function findAdvocates(done)
         } else {
             uniqueTranscripts[fileName] = transcript.caseTitle;
         }
+        /*
+         * NOTE: While docket and dateArgument could normally be taken from EITHER the transcript's
+         * filename components OR from the spreadsheet, we need to use the spreadsheet values, because
+         * that's where any corrections get recorded, along with any notes explaining WHY we made the
+         * correction.
+         */
         let result = "";
-        let docket = match[1];
-        let dateArgument = match[2];
+        let docket = transcript.docket;             // formerly match[1]
+        let dateArgument = transcript.dateArgument; // formerly match[2]
         let transcriptDescription = "- [" + transcript.caseTitle.trim() + "](" + encodeURI(transcript.url) + ") - No. " + transcript.docket + ", argued " + sprintf("%#C", transcript.dateArgument);
         if (dateArgument < sources.scdb.dateEnd) {
             let iDecision = findByDateAndDocket(decisions, dateArgument, docket);
@@ -3248,7 +3284,12 @@ function findAdvocates(done)
             }
             if (iDecision >= 0) {
                 let decision = decisions[iDecision];
-                transcriptMatches += transcriptDescription + "\n";
+                transcriptDescription + (decision.usCite? ": see [" + decision.usCite + "](" + getLOCURL(decision.usCite) + ")" : "");
+                if (!transcript.notes) {
+                    transcriptMatches += transcriptDescription + "\n";
+                } else {
+                    transcriptCorrections += transcriptDescription + (transcript.notes? " (" + transcript.notes + ")" : "") + "\n";
+                }
             } else {
                 transcriptExceptions += transcriptDescription + ": no SCDB match\n";
                 exceptions++;
@@ -3259,15 +3300,14 @@ function findAdvocates(done)
     }
 
     transcriptPage += "## Matched Transcripts\n\nThese transcripts have been successfully matched to an SCDB entry.\n\n" + transcriptMatches + "\n";
+    transcriptPage += "## Corrected Transcripts\n\nThese transcripts have been successfully matched to an SCDB entry after making one or more corrections.\n\n" + transcriptCorrections + "\n";
     transcriptPage += "## Pending Transcripts\n\nThe status of these transcripts cannot be determined until the next SCDB update.\n\n" + transcriptPending + "\n";
     transcriptPage += "## Unmatched Transcripts\n\nThese transcripts have NOT yet been matched to an SCDB entry.\n\n" + transcriptExceptions + "\n";
 
     if (exceptions) {
         printf("%d exceptions (see %s for details)\n", exceptions, transcriptPath);
     }
-
     writeFile(transcriptPath, transcriptPage);
-
     done();
 }
 
@@ -3464,16 +3504,15 @@ function fixDecisions(done)
                      * To detect that, we must search citationsLOC for the current (volume,page), back up to the previous position, and see if that
                      * entry's page + pageTotal spans the page of the missing citation.
                      */
-                    let match = decision.usCite.match(/([0-9]+) U.S. ([0-9]+)/);
-                    if (match) {
-                        let volume = +match[1], page = +match[2];
-                        let i = searchSortedObjects(citationsLOC, {volume, page});
+                    let cite = {};
+                    if (parseCite(decision.usCite, cite)) {
+                        let i = searchSortedObjects(citationsLOC, cite);
                         if (i > 0) {
                             citePrev = citationsLOC[i];
                         } else if (i < 0) {
                             citePrev = citationsLOC[-i - 2];
                         }
-                        if (citePrev && citePrev.volume == volume && citePrev.page + citePrev.pageTotal - 1 >= page) {
+                        if (citePrev && citePrev.volume == cite.volume && citePrev.page + citePrev.pageTotal - 1 >= cite.page) {
                             let score = scoreStrings(decision.caseName, citePrev.caseTitle);
                             if (scoreBest < score) {
                                 scoreBest = score;
@@ -4301,9 +4340,9 @@ gulp.task("loners", gulp.series(findLonerDecisions, findLonerJustices, findLoner
 gulp.task("lonerDecisions", findLonerDecisions);
 gulp.task("lonerJustices", findLonerJustices);
 gulp.task("lonerParties", findLonerParties);
+gulp.task("matchTranscripts", matchTranscripts);
 gulp.task("backup", backupLonerDecisions);
 gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
-gulp.task("findAdvocates", findAdvocates);
 gulp.task("fixAdvocates", fixAdvocates);
 gulp.task("fixDecisions", fixDecisions);
 gulp.task("fixDockets", fixDockets);

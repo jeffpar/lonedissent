@@ -4,7 +4,9 @@ permalink: /cases/transcripts/scotus
 layout: page
 ---
 
-The listed of remaining *unmatched* transcripts is [below](#unmatched-transcripts).
+These transcripts were downloaded from the U.S. Supreme Court website and logged in this [spreadsheet](/results/transcripts.csv).
+
+Any corrections have been noted under [Corrected Transcripts](#corrected-transcripts), and match failures have been logged under [Unmatched Transcripts](#unmatched-transcripts).
 
 ## Matched Transcripts
 
@@ -158,6 +160,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Zuber v. Allen](https://www.supremecourt.gov/pdfs/transcripts/1969/69-25_69-52_10-16-1969.pdf) - No. 25, argued Thursday, October 16, 1969
 - [Turner v. Fouche](https://www.supremecourt.gov/pdfs/transcripts/1969/69-23_10-20-1969.pdf) - No. 23, argued Monday, October 20, 1969
 - [Detroit & Toledo Shore Line R. Co. v. Transportation Union](https://www.supremecourt.gov/pdfs/transcripts/1969/69-29_10-20-1969.pdf) - No. 29, argued Monday, October 20, 1969
+- [Nacirema Operating Co. v. Johnson](https://www.supremecourt.gov/pdfs/transcripts/1969/69-9_69-16_10-20-1969.pdf) - No. 9, argued Monday, October 20, 1969
 - [United States v. ICC](https://www.supremecourt.gov/pdfs/transcripts/1969/69-28_69-44_69-38_69-43_10-21-1969.pdf) - No. 28, argued Tuesday, October 21, 1969
 - [Carter v. Jury Comm'n of Greene Cty](https://www.supremecourt.gov/pdfs/transcripts/1969/69-30_10-21-1969.pdf) - No. 30, argued Tuesday, October 21, 1969
 - [United States v. ICC](https://www.supremecourt.gov/pdfs/transcripts/1969/69-28_69-44_69-38_69-43_10-22-1969.pdf) - No. 28, argued Wednesday, October 22, 1969
@@ -273,6 +276,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Baird v. State Bar of Ariz](https://www.supremecourt.gov/pdfs/transcripts/1970/70-15_10-14-1970.pdf) - No. 15, argued Wednesday, October 14, 1970
 - [In re Stolar](https://www.supremecourt.gov/pdfs/transcripts/1970/70-18_10-14-1970.pdf) - No. 18, argued Wednesday, October 14, 1970
 - [Davis v. Board of School Comm'rs of Mobile Cty.](https://www.supremecourt.gov/pdfs/transcripts/1970/70-436_10-14-1970.pdf) - No. 436, argued Wednesday, October 14, 1970
+- [Dutton v. Evans](https://www.supremecourt.gov/pdfs/transcripts/1970/70-10_10-15-1970.pdf) - No. 10, argued Thursday, October 15, 1970
 - [In re Stolar](https://www.supremecourt.gov/pdfs/transcripts/1970/70-18_10-15-1970.pdf) - No. 18, argued Thursday, October 15, 1970
 - [Law Students Civil Rights Research Council, Inc. v. Wadmond](https://www.supremecourt.gov/pdfs/transcripts/1970/70-49_10-15-1970.pdf) - No. 49, argued Thursday, October 15, 1970
 - [Oregon v. Mitchell](https://www.supremecourt.gov/pdfs/transcripts/1970/43_Orig_44_Orig_10-19-1970.pdf) - No. 43-orig, argued Monday, October 19, 1970
@@ -513,6 +517,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [In re Pappas](https://www.supremecourt.gov/pdfs/transcripts/1971/70-94_02-23-1972.pdf) - No. 70-94, argued Wednesday, February 23, 1972
 - [United States v. United States Dist. Court for Eastern Dist. of Mich.](https://www.supremecourt.gov/pdfs/transcripts/1971/70-153_02-24-1972.pdf) - No. 70-153, argued Thursday, February 24, 1972
 - [Northeast Airlines, Inc. v. New Hampshire Aeronautics Commission](https://www.supremecourt.gov/pdfs/transcripts/1971/70-212_02-24-1972.pdf) - No. 70-212, argued Thursday, February 24, 1972
+- [Argersinger v. Hamlin](https://www.supremecourt.gov/pdfs/transcripts/1971/70-5015_02-28-1972.pdf) - No. 70-5015, argued Monday, February 28, 1972
 - [Weber v. Aetna Casualty & Surety Co.](https://www.supremecourt.gov/pdfs/transcripts/1971/70-5112_02-28-1972.pdf) - No. 70-5112, argued Monday, February 28, 1972
 - [Willis v. Prudential Ins. Co. of America](https://www.supremecourt.gov/pdfs/transcripts/1971/70-5344_02-28-1972.pdf) - No. 70-5344, argued Monday, February 28, 1972
 - [Moose Lodge No. 107 v. Irvis](https://www.supremecourt.gov/pdfs/transcripts/1971/70-75_02-28-1972_A.pdf) - No. 70-75, argued Monday, February 28, 1972
@@ -522,6 +527,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Wright v. Council of Emporia](https://www.supremecourt.gov/pdfs/transcripts/1971/70-188_03-01-1972.pdf) - No. 70-188, argued Wednesday, March 1, 1972
 - [United States v. Byrum](https://www.supremecourt.gov/pdfs/transcripts/1971/71-308_03-01-1972.pdf) - No. 71-308, argued Wednesday, March 1, 1972
 - [United States v. Brewster](https://www.supremecourt.gov/pdfs/transcripts/1971/70-45_03-20-1972.pdf) - No. 70-45, argued Monday, March 20, 1972
+- [S&E Contractors, Inc. v. United States](https://www.supremecourt.gov/pdfs/transcripts/1971/70-88_03-20-1972.pdf) - No. 70-88, argued Monday, March 20, 1972
 - [Flood v. Kuhn](https://www.supremecourt.gov/pdfs/transcripts/1971/71-32_03-20-1972.pdf) - No. 71-32, argued Monday, March 20, 1972
 - [The Bremen v. Zapata Off-Shore Co.](https://www.supremecourt.gov/pdfs/transcripts/1971/71-322_03-21-1972.pdf) - No. 71-322, argued Tuesday, March 21, 1972
 - [Dukes v. Warden, Conn. State Prison](https://www.supremecourt.gov/pdfs/transcripts/1971/71-5172_03-21-1972.pdf) - No. 71-5172, argued Tuesday, March 21, 1972
@@ -1007,6 +1013,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Hudgens v. NLRB](https://www.supremecourt.gov/pdfs/transcripts/1975/74-773_10-14-1975.pdf) - No. 74-773, argued Tuesday, October 14, 1975
 - [Time, Inc. v. Firestone](https://www.supremecourt.gov/pdfs/transcripts/1975/74-944_10-14-1975.pdf) - No. 74-944, argued Tuesday, October 14, 1975
 - [American Foreign S. S. Co. v. Matise](https://www.supremecourt.gov/pdfs/transcripts/1975/74-966_10-14-1975.pdf) - No. 74-966, argued Tuesday, October 14, 1975
+- [Laing v. United States](https://www.supremecourt.gov/pdfs/transcripts/1975/73-1808_74-75_10-15-1975.pdf) - No. 73-1808, argued Wednesday, October 15, 1975
 - [Michelin Tire Corp. v. Wages](https://www.supremecourt.gov/pdfs/transcripts/1975/74-1396_10-15-1975.pdf) - No. 74-1396, argued Wednesday, October 15, 1975
 - [United States v. Moore](https://www.supremecourt.gov/pdfs/transcripts/1975/74-687_10-15-1975.pdf) - No. 74-687, argued Wednesday, October 15, 1975
 - [Fisher v. United States](https://www.supremecourt.gov/pdfs/transcripts/1975/74-18_74-611_11-03-1975.pdf) - No. 74-18, argued Monday, November 3, 1975
@@ -1017,6 +1024,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Barrett v. United States](https://www.supremecourt.gov/pdfs/transcripts/1975/74-5566_11-04-1975.pdf) - No. 74-5566, argued Tuesday, November 4, 1975
 - [Mathews v. Weber](https://www.supremecourt.gov/pdfs/transcripts/1975/74-850_11-04-1975.pdf) - No. 74-850, argued Tuesday, November 4, 1975
 - [Paul v. Davis](https://www.supremecourt.gov/pdfs/transcripts/1975/74-891_11-04-1975.pdf) - No. 74-891, argued Tuesday, November 4, 1975
+- [Middendorf v. Henry](https://www.supremecourt.gov/pdfs/transcripts/1975/74-175_74-5176_11-05-1975.pdf) - No. 74-175, argued Wednesday, November 5, 1975
 - [Commissioner v. Shapiro](https://www.supremecourt.gov/pdfs/transcripts/1975/74-744_11-05-1975.pdf) - No. 74-744, argued Wednesday, November 5, 1975
 - [United States v. Mandujano](https://www.supremecourt.gov/pdfs/transcripts/1975/74-754_11-05-1975.pdf) - No. 74-754, argued Wednesday, November 5, 1975
 - [Greer v. Spock](https://www.supremecourt.gov/pdfs/transcripts/1975/74-848_11-05-1975.pdf) - No. 74-848, argued Wednesday, November 5, 1975
@@ -1025,6 +1033,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [New Orleans v. Dukes](https://www.supremecourt.gov/pdfs/transcripts/1975/74-775_11-11-1975.pdf) - No. 74-775, argued Tuesday, November 11, 1975
 - [Virginia Bd. of Pharmacy v. Virginia Citizens Consumer Council, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1975/74-895_11-11-1975.pdf) - No. 74-895, argued Tuesday, November 11, 1975
 - [Rizzo v. Goode](https://www.supremecourt.gov/pdfs/transcripts/1975/74-942_11-11-1975.pdf) - No. 74-942, argued Tuesday, November 11, 1975
+- [Beer v. United States](https://www.supremecourt.gov/pdfs/transcripts/1975/73-1869_11-12-1975.pdf) - No. 73-1869, argued Wednesday, November 12, 1975
 - [Hines v. Anchor Motor Freight, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1975/74-1025_11-12-1975.pdf) - No. 74-1025, argued Wednesday, November 12, 1975
 - [United States v. Testan](https://www.supremecourt.gov/pdfs/transcripts/1975/74-753_11-12-1975.pdf) - No. 74-753, argued Wednesday, November 12, 1975
 - [United States v. Foster Lumber Co.](https://www.supremecourt.gov/pdfs/transcripts/1975/74-799_11-12-1975.pdf) - No. 74-799, argued Wednesday, November 12, 1975
@@ -1059,6 +1068,8 @@ These transcripts have been successfully matched to an SCDB entry.
 - [McKinney v. Alabama](https://www.supremecourt.gov/pdfs/transcripts/1975/74-532_12-15-1975.pdf) - No. 74-532, argued Monday, December 15, 1975
 - [Abbott Laboratories v. Portland Retail Druggists Assn., Inc.](https://www.supremecourt.gov/pdfs/transcripts/1975/74-1274_12-16-1975.pdf) - No. 74-1274, argued Tuesday, December 16, 1975
 - [De Canas v. Bica](https://www.supremecourt.gov/pdfs/transcripts/1975/74-882_12-16-1975.pdf) - No. 74-882, argued Tuesday, December 16, 1975
+- [Mathews v. Diaz](https://www.supremecourt.gov/pdfs/transcripts/1975/73-1046_01-12-1976.pdf) - No. 73-1046, argued Monday, January 12, 1976
+- [Hampton v. Mow Sun Wong](https://www.supremecourt.gov/pdfs/transcripts/1975/73-1596_01-12-1976.pdf) - No. 73-1596, argued Monday, January 12, 1976
 - [United States v. Miller](https://www.supremecourt.gov/pdfs/transcripts/1975/74-1179_01-12-1976.pdf) - No. 74-1179, argued Monday, January 12, 1976
 - [Westergard v. United States](https://www.supremecourt.gov/pdfs/transcripts/1975/74-1304_74-1107_01-12-1976.pdf) - No. 74-1304, argued Monday, January 12, 1976
 - [EPA v. California ex rel. State Water Resources Control Bd.](https://www.supremecourt.gov/pdfs/transcripts/1975/74-1435_01-13-1976.pdf) - No. 74-1435, argued Tuesday, January 13, 1976
@@ -1069,6 +1080,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Colorado River Water Conservation Dist. v. United States](https://www.supremecourt.gov/pdfs/transcripts/1975/74-940_74-949_01-14-1976.pdf) - No. 74-940, argued Wednesday, January 14, 1976
 - [Cantor v. Detroit Edison Co.](https://www.supremecourt.gov/pdfs/transcripts/1975/75-122_01-14-1976.pdf) - No. 75-122, argued Wednesday, January 14, 1976
 - [Texas v. Louisiana](https://www.supremecourt.gov/pdfs/transcripts/1975/36_Orig_01-19-1976.pdf) - No. 36-orig, argued Monday, January 19, 1976
+- [Alfred Dunhill of London, Inc. v. Republic of Cuba](https://www.supremecourt.gov/pdfs/transcripts/1975/73-1288_01-19-1976.pdf) - No. 73-1288, argued Monday, January 19, 1976
 - [Liberty Mut. Ins. Co. v. Wetzel](https://www.supremecourt.gov/pdfs/transcripts/1975/74-1245_01-19-1976.pdf) - No. 74-1245, argued Monday, January 19, 1976
 - [Hills v. Gautreaux](https://www.supremecourt.gov/pdfs/transcripts/1975/74-1047_01-20-1976.pdf) - No. 74-1047, argued Tuesday, January 20, 1976
 - [Moe v. Confederated Salish and Kootenai Tribes of Flathead Reservation](https://www.supremecourt.gov/pdfs/transcripts/1975/74-1656_75-50_01-20-1976.pdf) - No. 74-1656, argued Tuesday, January 20, 1976
@@ -1136,6 +1148,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [G. M. Leasing Corp. v. United States](https://www.supremecourt.gov/pdfs/transcripts/1976/75-235_10-04-1976.pdf) - No. 75-235, argued Monday, October 4, 1976
 - [Oregon ex rel. State Land Bd. v. Corvallis Sand & Gravel Co](https://www.supremecourt.gov/pdfs/transcripts/1976/75-567_75-577_10-04-1976.pdf) - No. 75-567, argued Monday, October 4, 1976
 - [Tully v. Griffin, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1976/75-831_10-04-1976.pdf) - No. 75-831, argued Monday, October 4, 1976
+- [United States v. Foster Lumber Co.](https://www.supremecourt.gov/pdfs/transcripts/1976/74-799_10-05-1976.pdf) - No. 74-799, argued Tuesday, October 5, 1976
 - [Craig v. Boren](https://www.supremecourt.gov/pdfs/transcripts/1976/75-628_10-05-1976.pdf) - No. 75-628, argued Tuesday, October 5, 1976
 - [Matthews v. Goldfarb](https://www.supremecourt.gov/pdfs/transcripts/1976/75-699_10-05-1976.pdf) - No. 75-699, argued Tuesday, October 5, 1976
 - [Estelle v. Gamble](https://www.supremecourt.gov/pdfs/transcripts/1976/75-929_10-05-1976.pdf) - No. 75-929, argued Tuesday, October 5, 1976
@@ -1146,6 +1159,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Moody v. Daggett](https://www.supremecourt.gov/pdfs/transcripts/1976/74-6632_10-12-1976.pdf) - No. 74-6632, argued Tuesday, October 12, 1976
 - [Parker Seal Co. v. Cummins](https://www.supremecourt.gov/pdfs/transcripts/1976/75-478_10-12-1976.pdf) - No. 75-478, argued Tuesday, October 12, 1976
 - [Madison Joint School Dist. No. 8 v. Wisconsin Employment Relations Comm'n](https://www.supremecourt.gov/pdfs/transcripts/1976/75-946_10-12-1976.pdf) - No. 75-946, argued Tuesday, October 12, 1976
+- [General Elec. Co. v. Gilbert](https://www.supremecourt.gov/pdfs/transcripts/1976/74-1589_74-1590_10-13-1976.pdf) - No. 74-1589, argued Wednesday, October 13, 1976
 - [United States v. Donovan](https://www.supremecourt.gov/pdfs/transcripts/1976/75-212_10-13-1976.pdf) - No. 75-212, argued Wednesday, October 13, 1976
 - [Arlington Heights v. Metropolitan Housing Development Corp.](https://www.supremecourt.gov/pdfs/transcripts/1976/75-616_10-13-1976.pdf) - No. 75-616, argued Wednesday, October 13, 1976
 - [Whalen v. Roe](https://www.supremecourt.gov/pdfs/transcripts/1976/75-839_10-13-1976.pdf) - No. 75-839, argued Wednesday, October 13, 1976
@@ -1390,11 +1404,14 @@ These transcripts have been successfully matched to an SCDB entry.
 - [McAdams v. McSurely](https://www.supremecourt.gov/pdfs/transcripts/1977/76-1621_03-01-1978.pdf) - No. 76-1621, argued Wednesday, March 1, 1978
 - [Scott v. United States](https://www.supremecourt.gov/pdfs/transcripts/1977/76-6767_03-01-1978.pdf) - No. 76-6767, argued Wednesday, March 1, 1978
 - [Oppenheimer Fund, Inc. v. Sanders](https://www.supremecourt.gov/pdfs/transcripts/1977/77-335_03-01-1978.pdf) - No. 77-335, argued Wednesday, March 1, 1978
+- [American Broadcasting Cos. v. Writers Guild of America, West, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1977/76-1121_76-1153_76-1162_03-20-1978.pdf) - No. 76-1121, argued Monday, March 20, 1978
+- [United States v. Jacobs](https://www.supremecourt.gov/pdfs/transcripts/1977/76-1193_03-20-1978.pdf) - No. 76-1193, argued Monday, March 20, 1978
 - [Duke Power Co. v. Carolina Environemental Study Group, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1977/77-262_77-375_03-20-1978.pdf) - No. 77-262, argued Monday, March 20, 1978
 - [Robertson v. Wegmann](https://www.supremecourt.gov/pdfs/transcripts/1977/77-178_03-21-1978.pdf) - No. 77-178, argued Tuesday, March 21, 1978
 - [Hicklin v. Orbeck](https://www.supremecourt.gov/pdfs/transcripts/1977/77-324_03-21-1978.pdf) - No. 77-324, argued Tuesday, March 21, 1978
 - [First Fed. Sav. & Loan Assn. of Boston v. Tax Comm'n of Mass.](https://www.supremecourt.gov/pdfs/transcripts/1977/77-334_03-21-1978.pdf) - No. 77-334, argued Tuesday, March 21, 1978
 - [Moorman Mfg. Co. v. Bair](https://www.supremecourt.gov/pdfs/transcripts/1977/77-454_03-21-1978.pdf) - No. 77-454, argued Tuesday, March 21, 1978
+- [Crist v. Bretz](https://www.supremecourt.gov/pdfs/transcripts/1977/76-1200_03-22-1978.pdf) - No. 76-1200, argued Wednesday, March 22, 1978
 - [Coopers & Lybrand v. Livesay](https://www.supremecourt.gov/pdfs/transcripts/1977/76-1836_76-1837_03-22-1978.pdf) - No. 76-1836, argued Wednesday, March 22, 1978
 - [Gardner v. Westinghouse Broadcasting Co.](https://www.supremecourt.gov/pdfs/transcripts/1977/77-560_03-22-1978.pdf) - No. 77-560, argued Wednesday, March 22, 1978
 - [SEC v. Sloan](https://www.supremecourt.gov/pdfs/transcripts/1977/76-1607_03-27-1978.pdf) - No. 76-1607, argued Monday, March 27, 1978
@@ -1408,6 +1425,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Kulko v. Superior Court of Cal., City and County of San Francisco](https://www.supremecourt.gov/pdfs/transcripts/1977/77-293_03-29-1978.pdf) - No. 77-293, argued Wednesday, March 29, 1978
 - [United States v. LaSalle Nat. Bank](https://www.supremecourt.gov/pdfs/transcripts/1977/77-365_03-29-1978.pdf) - No. 77-365, argued Wednesday, March 29, 1978
 - [Swisher v. Brady](https://www.supremecourt.gov/pdfs/transcripts/1977/77-653_03-29-1978.pdf) - No. 77-653, argued Wednesday, March 29, 1978
+- [California v. Southland Royalty Co.](https://www.supremecourt.gov/pdfs/transcripts/1977/76-1114_76-1133_76-1587_04-17-1978.pdf) - No. 76-1114, argued Monday, April 17, 1978
 - [Furnco Constr. Corp. v. Waters](https://www.supremecourt.gov/pdfs/transcripts/1977/77-369_04-17-1978.pdf) - No. 77-369, argued Monday, April 17, 1978
 - [Penn Central Transp. Co. v. New York City](https://www.supremecourt.gov/pdfs/transcripts/1977/77-444_04-17-1978.pdf) - No. 77-444, argued Monday, April 17, 1978
 - [TVA v. Hill](https://www.supremecourt.gov/pdfs/transcripts/1977/76-1701_04-18-1978.pdf) - No. 76-1701, argued Tuesday, April 18, 1978
@@ -1441,6 +1459,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Lalli v. Lalli](https://www.supremecourt.gov/pdfs/transcripts/1978/77-1115_10-04-1978.pdf) - No. 77-1115, argued Wednesday, October 4, 1978
 - [Michigan v. Doran](https://www.supremecourt.gov/pdfs/transcripts/1978/77-1202_10-04-1978.pdf) - No. 77-1202, argued Wednesday, October 4, 1978
 - [New Motor Vehicle Bd. of Cal. v. Orrin W. Fox Co.](https://www.supremecourt.gov/pdfs/transcripts/1978/77-837_77-849_10-04-1978.pdf) - No. 77-837, argued Wednesday, October 4, 1978
+- [Parham v. J. R.](https://www.supremecourt.gov/pdfs/transcripts/1978/75-1690_10-10-1978.pdf) - No. 75-1690, argued Tuesday, October 10, 1978
 - [Secretary of Public Welfare of Pa. v. Institutionalized Juveniles](https://www.supremecourt.gov/pdfs/transcripts/1978/77-1715_10-10-1978.pdf) - No. 77-1715, argued Tuesday, October 10, 1978
 - [Holt Civic Club v. Tuscaloosa](https://www.supremecourt.gov/pdfs/transcripts/1978/77-515_10-11-1978.pdf) - No. 77-515, argued Wednesday, October 11, 1978
 - [Hunter v. Dean](https://www.supremecourt.gov/pdfs/transcripts/1978/77-6248_10-11-1978.pdf) - No. 77-6248, argued Wednesday, October 11, 1978
@@ -1572,8 +1591,10 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Reiter v. Sonotone Corp.](https://www.supremecourt.gov/pdfs/transcripts/1978/78-690_04-25-1979.pdf) - No. 78-690, argued Wednesday, April 25, 1979
 - [Califano v. Boles](https://www.supremecourt.gov/pdfs/transcripts/1978/78-808_04-25-1979.pdf) - No. 78-808, argued Wednesday, April 25, 1979
 - [Vaughn v. Vermilion Corp.](https://www.supremecourt.gov/pdfs/transcripts/1979/77-1819_10-01-1979.pdf) - No. 77-1819, argued Monday, October 1, 1979
+- [P.C. Pfeiffer Co. v. Ford](https://www.supremecourt.gov/pdfs/transcripts/1979/78-425_10-01-1979.pdf) - No. 78-425, argued Monday, October 1, 1979
 - [Kaiser Aetna v. United States](https://www.supremecourt.gov/pdfs/transcripts/1979/78-738_10-01-1979.pdf) - No. 78-738, argued Monday, October 1, 1979
 - [Andrus v. Allard](https://www.supremecourt.gov/pdfs/transcripts/1979/78-740_10-01-1979.pdf) - No. 78-740, argued Monday, October 1, 1979
+- [Transamerica Mortgage Advisors, Inc. v. Lewis](https://www.supremecourt.gov/pdfs/transcripts/1979/77-1645_10-02-1979.pdf) - No. 77-1645, argued Tuesday, October 2, 1979
 - [United States Parole Comm'n v. Geraghty](https://www.supremecourt.gov/pdfs/transcripts/1979/78-572_10-02-1979.pdf) - No. 78-572, argued Tuesday, October 2, 1979
 - [Ferri v. Ackerman](https://www.supremecourt.gov/pdfs/transcripts/1979/78-5981_10-02-1979.pdf) - No. 78-5981, argued Tuesday, October 2, 1979
 - [Deposit Guaranty Nat. Bank v. Roper](https://www.supremecourt.gov/pdfs/transcripts/1979/78-904_10-02-1979.pdf) - No. 78-904, argued Tuesday, October 2, 1979
@@ -1581,6 +1602,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [World-Wide Volkswagen Corp. v. Woodson](https://www.supremecourt.gov/pdfs/transcripts/1979/78-1078_10-03-1979.pdf) - No. 78-1078, argued Wednesday, October 3, 1979
 - [Rush v. Savchuk](https://www.supremecourt.gov/pdfs/transcripts/1979/78-952_10-03-1979.pdf) - No. 78-952, argued Wednesday, October 3, 1979
 - [Perrin v. United States](https://www.supremecourt.gov/pdfs/transcripts/1979/78-959_10-03-1979.pdf) - No. 78-959, argued Wednesday, October 3, 1979
+- [Payton v. New York](https://www.supremecourt.gov/pdfs/transcripts/1979/78-5420_78-5421_10-09-1979.pdf) - No. 78-5420, argued Tuesday, October 9, 1979
 - [Ybarra v. Illinois](https://www.supremecourt.gov/pdfs/transcripts/1979/78-5937_10-09-1979.pdf) - No. 78-5937, argued Tuesday, October 9, 1979
 - [Washington v. Confederated Tribes of Colville Reservation](https://www.supremecourt.gov/pdfs/transcripts/1979/78-630_10-09-1979.pdf) - No. 78-630, argued Tuesday, October 9, 1979
 - [Board of Ed. of City School Dist. of New York v. Harris](https://www.supremecourt.gov/pdfs/transcripts/1979/78-873_10-09-1979.pdf) - No. 78-873, argued Tuesday, October 9, 1979
@@ -1607,7 +1629,9 @@ These transcripts have been successfully matched to an SCDB entry.
 - [O'Bannon v. Town Court Nursing Center](https://www.supremecourt.gov/pdfs/transcripts/1979/78-1318_11-06-1979.pdf) - No. 78-1318, argued Tuesday, November 6, 1979
 - [McLain v. Real Estate Bd. of New Orleans, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1979/78-1501_11-06-1979.pdf) - No. 78-1501, argued Tuesday, November 6, 1979
 - [Secretary of Navy v. Huff](https://www.supremecourt.gov/pdfs/transcripts/1979/78-599_11-06-1979.pdf) - No. 78-599, argued Tuesday, November 6, 1979
+- [Stafford v. Briggs](https://www.supremecourt.gov/pdfs/transcripts/1979/77-1546_11-07-1979.pdf) - No. 77-1546, argued Wednesday, November 7, 1979
 - [Mobil Oil Corp. v. Commissioner of Taxes of Vt.](https://www.supremecourt.gov/pdfs/transcripts/1979/78-1201_11-07-1979.pdf) - No. 78-1201, argued Wednesday, November 7, 1979
+- [Colby v. Driver](https://www.supremecourt.gov/pdfs/transcripts/1979/78-303_11-07-1979.pdf) - No. 78-303, argued Wednesday, November 7, 1979
 - [United States v. Bailey](https://www.supremecourt.gov/pdfs/transcripts/1979/78-990_11-07-1979.pdf) - No. 78-990, argued Wednesday, November 7, 1979
 - [Idaho ex rel. Evans v. Oregon](https://www.supremecourt.gov/pdfs/transcripts/1979/67_Orig_11-26-1979.pdf) - No. 67-orig, argued Monday, November 26, 1979
 - [Baldasar v. Illinois](https://www.supremecourt.gov/pdfs/transcripts/1979/77-6219_11-26-1979.pdf) - No. 77-6219, argued Monday, November 26, 1979
@@ -1870,6 +1894,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [United States v. Vogel Fertilizer Co.](https://www.supremecourt.gov/pdfs/transcripts/1981/80-1251_11-03-1981.pdf) - No. 80-1251, argued Tuesday, November 3, 1981
 - [Washington v. Chrisman](https://www.supremecourt.gov/pdfs/transcripts/1981/80-1349_11-03-1981.pdf) - No. 80-1349, argued Tuesday, November 3, 1981
 - [Cabell v. Chavez-Salido](https://www.supremecourt.gov/pdfs/transcripts/1981/80-990_11-03-1981.pdf) - No. 80-990, argued Tuesday, November 3, 1981
+- [Merrion v. Jicarilla Apache Tribe](https://www.supremecourt.gov/pdfs/transcripts/1981/80-11_80-15_11-04-1981.pdf) - No. 80-11, argued Wednesday, November 4, 1981
 - [Valley Forge Christian College v. Americans United for Separation of Church and State, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1981/80-327_11-04-1981.pdf) - No. 80-327, argued Wednesday, November 4, 1981
 - [Arizona v. Maricopa County Medical Soc.](https://www.supremecourt.gov/pdfs/transcripts/1981/80-419_11-04-1981.pdf) - No. 80-419, argued Wednesday, November 4, 1981
 - [Consolidated Freightways Corp. of Del. v. Kassel](https://www.supremecourt.gov/pdfs/transcripts/1981/79-1618_11-09-1981.pdf) - No. 79-1618, argued Monday, November 9, 1981
@@ -2051,6 +2076,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Shepard v. NLRB](https://www.supremecourt.gov/pdfs/transcripts/1982/81-1627_12-06-1982.pdf) - No. 81-1627, argued Monday, December 6, 1982
 - [Anderson v. Celebrezze](https://www.supremecourt.gov/pdfs/transcripts/1982/81-1635_12-06-1982.pdf) - No. 81-1635, argued Monday, December 6, 1982
 - [United States v. Knotts](https://www.supremecourt.gov/pdfs/transcripts/1982/81-1802_12-06-1982.pdf) - No. 81-1802, argued Monday, December 6, 1982
+- [INS v. Chadha](https://www.supremecourt.gov/pdfs/transcripts/1982/80-1832_80-2170_80-2171_12-07-1982.pdf) - No. 80-1832, argued Tuesday, December 7, 1982
 - [United States v. Hasting](https://www.supremecourt.gov/pdfs/transcripts/1982/81-1463_12-07-1982.pdf) - No. 81-1463, argued Tuesday, December 7, 1982
 - [General Motors Corp. v. Devex Corp.](https://www.supremecourt.gov/pdfs/transcripts/1982/81-1661_12-07-1982.pdf) - No. 81-1661, argued Tuesday, December 7, 1982
 - [Lehr v. Robertson](https://www.supremecourt.gov/pdfs/transcripts/1982/81-1756_12-07-1982.pdf) - No. 81-1756, argued Tuesday, December 7, 1982
@@ -2095,6 +2121,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [City of Revere v. Massachusetts Gen. Hospital](https://www.supremecourt.gov/pdfs/transcripts/1982/82-63_02-28-1983.pdf) - No. 82-63, argued Monday, February 28, 1983
 - [United States v. Mitchell](https://www.supremecourt.gov/pdfs/transcripts/1982/81-1748_03-01-1983.pdf) - No. 81-1748, argued Tuesday, March 1, 1983
 - [Metropolitan Edison Co. v. People Against Nuclear Energy](https://www.supremecourt.gov/pdfs/transcripts/1982/81-2399_82-358_03-01-1983.pdf) - No. 81-2399, argued Tuesday, March 1, 1983
+- [Illinois v. Gates](https://www.supremecourt.gov/pdfs/transcripts/1982/81-430_03-01-1983.pdf) - No. 81-430, argued Tuesday, March 1, 1983
 - [Tuten v. United States](https://www.supremecourt.gov/pdfs/transcripts/1982/81-6756_03-01-1983.pdf) - No. 81-6756, argued Tuesday, March 1, 1983
 - [United States v. Sells Engineering, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1982/81-1032_03-02-1983.pdf) - No. 81-1032, argued Wednesday, March 2, 1983
 - [United States v. Place](https://www.supremecourt.gov/pdfs/transcripts/1982/81-1617_03-02-1983.pdf) - No. 81-1617, argued Wednesday, March 2, 1983
@@ -2307,11 +2334,13 @@ These transcripts have been successfully matched to an SCDB entry.
 - [United States v. Karo](https://www.supremecourt.gov/pdfs/transcripts/1983/83-850_04-25-1984.pdf) - No. 83-850, argued Wednesday, April 25, 1984
 - [Ohio v. Johnson](https://www.supremecourt.gov/pdfs/transcripts/1983/83-904_04-25-1984.pdf) - No. 83-904, argued Wednesday, April 25, 1984
 - [United States v. Morton](https://www.supremecourt.gov/pdfs/transcripts/1983/83-916_04-25-1984.pdf) - No. 83-916, argued Wednesday, April 25, 1984
+- [Garcia v. San Antonio Metropolitan Transit Authority](https://www.supremecourt.gov/pdfs/transcripts/1984/82-1913_82-1951_10-01-1984.pdf) - No. 82-1913, argued Monday, October 1, 1984
 - [County of Oneida v. Oneida Indian Nation of N. Y.](https://www.supremecourt.gov/pdfs/transcripts/1984/83-1065_83-1240_10-01-1984.pdf) - No. 83-1065, argued Monday, October 1, 1984
 - [Alexander v. Choate](https://www.supremecourt.gov/pdfs/transcripts/1984/83-727_10-01-1984.pdf) - No. 83-727, argued Monday, October 1, 1984
 - [United States v. 50 Acres of Land](https://www.supremecourt.gov/pdfs/transcripts/1984/83-1170_10-02-1984.pdf) - No. 83-1170, argued Tuesday, October 2, 1984
 - [Wainwright v. Witt](https://www.supremecourt.gov/pdfs/transcripts/1984/83-1427_10-02-1984.pdf) - No. 83-1427, argued Tuesday, October 2, 1984
 - [United States v. Young](https://www.supremecourt.gov/pdfs/transcripts/1984/83-469_10-02-1984.pdf) - No. 83-469, argued Tuesday, October 2, 1984
+- [New Jersey v. T. L. O.](https://www.supremecourt.gov/pdfs/transcripts/1984/83-712_10-02-1984.pdf) - No. 83-712, argued Tuesday, October 2, 1984
 - [Dun & Bradstreet, Inc. v. Greenmoss Builders](https://www.supremecourt.gov/pdfs/transcripts/1984/83-18_10-03-1984.pdf) - No. 83-18, argued Wednesday, October 3, 1984
 - [Herb's Welding, Inc. v. Gray](https://www.supremecourt.gov/pdfs/transcripts/1984/83-728_10-03-1984.pdf) - No. 83-728, argued Wednesday, October 3, 1984
 - [Oregon v. Elstad](https://www.supremecourt.gov/pdfs/transcripts/1984/83-773_10-03-1984.pdf) - No. 83-773, argued Wednesday, October 3, 1984
@@ -2449,12 +2478,15 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Sedima, S. P. R. L. v. Imrex Co.](https://www.supremecourt.gov/pdfs/transcripts/1984/84-648_04-17-1985.pdf) - No. 84-648, argued Wednesday, April 17, 1985
 - [Maryland v. Macon](https://www.supremecourt.gov/pdfs/transcripts/1984/84-778_04-17-1985.pdf) - No. 84-778, argued Wednesday, April 17, 1985
 - [American Nat. Bank & Trust Co. of Chicago v. Haroco, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1984/84-822_04-17-1985.pdf) - No. 84-822, argued Wednesday, April 17, 1985
+- [Pattern Makers v. NLRB](https://www.supremecourt.gov/pdfs/transcripts/1984/83-1894_04-22-1985.pdf) - No. 83-1894, argued Monday, April 22, 1985
 - [Johnson v. Mayor and City Council of Baltimore](https://www.supremecourt.gov/pdfs/transcripts/1984/84-518_84-710_04-22-1985.pdf) - No. 84-518, argued Monday, April 22, 1985
 - [Carchman v. Nash](https://www.supremecourt.gov/pdfs/transcripts/1984/84-835_84-776_04-22-1985.pdf) - No. 84-776, argued Monday, April 22, 1985
+- [Montana v. Blackfeet Tribe](https://www.supremecourt.gov/pdfs/transcripts/1984/83-2161_04-23-1985.pdf) - No. 83-2161, argued Tuesday, April 23, 1985
 - [Cleburne v. Cleburne Living Center, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1984/84-468_04-23-1985.pdf) - No. 84-468, argued Tuesday, April 23, 1985
 - [NLRB v. Longshoremen](https://www.supremecourt.gov/pdfs/transcripts/1984/84-861_04-23-1985.pdf) - No. 84-861, argued Tuesday, April 23, 1985
 - [Russell v. United States](https://www.supremecourt.gov/pdfs/transcripts/1984/84-435_04-24-1985.pdf) - No. 84-435, argued Wednesday, April 24, 1985
 - [United States v. Montoya de Hernandez](https://www.supremecourt.gov/pdfs/transcripts/1984/84-755_04-24-1985.pdf) - No. 84-755, argued Wednesday, April 24, 1985
+- [Massachusetts Mut. Life Ins. Co. v. Russell](https://www.supremecourt.gov/pdfs/transcripts/1984/84-9_04-24-1985.pdf) - No. 84-9, argued Wednesday, April 24, 1985
 - [Hill v. Lockhart](https://www.supremecourt.gov/pdfs/transcripts/1985/84-1103_10-07-1985.pdf) - No. 84-1103, argued Monday, October 7, 1985
 - [Davis v. Bandemer](https://www.supremecourt.gov/pdfs/transcripts/1985/84-1244_10-07-1985.pdf) - No. 84-1244, argued Monday, October 7, 1985
 - [Thomas v. Arn](https://www.supremecourt.gov/pdfs/transcripts/1985/84-5630_10-07-1985.pdf) - No. 84-5630, argued Monday, October 7, 1985
@@ -2463,6 +2495,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Transcontinental Gas Pipe Line Corp. v. State Oil and Gas Bd. of Miss.](https://www.supremecourt.gov/pdfs/transcripts/1985/84-1076_10-08-1985.pdf) - No. 84-1076, argued Tuesday, October 8, 1985
 - [Regents of Univ. of Mich. v. Ewing](https://www.supremecourt.gov/pdfs/transcripts/1985/84-1273_10-08-1985.pdf) - No. 84-1273, argued Tuesday, October 8, 1985
 - [Maine v. Moulton](https://www.supremecourt.gov/pdfs/transcripts/1985/84-786_10-08-1985.pdf) - No. 84-786, argued Tuesday, October 8, 1985
+- [Eastern Air Lines, Inc. v. Mahfoud](https://www.supremecourt.gov/pdfs/transcripts/1985/83-1807_10-09-1985.pdf) - No. 83-1807, argued Wednesday, October 9, 1985
 - [United States v. Rojas-Contreras](https://www.supremecourt.gov/pdfs/transcripts/1985/84-1023_10-09-1985.pdf) - No. 84-1023, argued Wednesday, October 9, 1985
 - [Heath v. Alabama](https://www.supremecourt.gov/pdfs/transcripts/1985/84-5555_10-09-1985.pdf) - No. 84-5555, argued Wednesday, October 9, 1985
 - [United States v. Lane](https://www.supremecourt.gov/pdfs/transcripts/1985/84-744_84-963_10-09-1985.pdf) - No. 84-744, argued Wednesday, October 9, 1985
@@ -2776,6 +2809,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [United States v. Fausto](https://www.supremecourt.gov/pdfs/transcripts/1987/86-595_10-07-1987.pdf) - No. 86-595, argued Wednesday, October 7, 1987
 - [Taylor v. Illinois](https://www.supremecourt.gov/pdfs/transcripts/1987/86-5963_10-07-1987.pdf) - No. 86-5963, argued Wednesday, October 7, 1987
 - [St. Louis v. Praprotnik](https://www.supremecourt.gov/pdfs/transcripts/1987/86-772_10-07-1987.pdf) - No. 86-772, argued Wednesday, October 7, 1987
+- [Kungys v. United States](https://www.supremecourt.gov/pdfs/transcripts/1987/86-228_10-13-1987.pdf) - No. 86-228, argued Tuesday, October 13, 1987
 - [Boyle v. United Technologies Corp.](https://www.supremecourt.gov/pdfs/transcripts/1987/86-492_10-13-1987.pdf) - No. 86-492, argued Tuesday, October 13, 1987
 - [Paperworkers v. Misco, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1987/86-651_10-13-1987.pdf) - No. 86-651, argued Tuesday, October 13, 1987
 - [Hazelwood School Dist. v. Kuhlmeier](https://www.supremecourt.gov/pdfs/transcripts/1987/86-836_10-13-1987.pdf) - No. 86-836, argued Tuesday, October 13, 1987
@@ -2904,9 +2938,11 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Frisby v. Schultz](https://www.supremecourt.gov/pdfs/transcripts/1987/87-168_04-20-1988.pdf) - No. 87-168, argued Wednesday, April 20, 1988
 - [Postal Service v. Letter Carriers](https://www.supremecourt.gov/pdfs/transcripts/1987/87-59_04-20-1988.pdf) - No. 87-59, argued Wednesday, April 20, 1988
 - [Bowen v. Massachusetts](https://www.supremecourt.gov/pdfs/transcripts/1987/87-712_87-929_04-20-1988.pdf) - No. 87-712, argued Wednesday, April 20, 1988
+- [Liljeberg v. Health Services Acquisition Corp.](https://www.supremecourt.gov/pdfs/transcripts/1987/86-957_04-25-1988.pdf) - No. 86-957, argued Monday, April 25, 1988
 - [Johnson v. Mississippi](https://www.supremecourt.gov/pdfs/transcripts/1987/87-5468_04-25-1988.pdf) - No. 87-5468, argued Monday, April 25, 1988
 - [United States v. Taylor](https://www.supremecourt.gov/pdfs/transcripts/1987/87-573_04-25-1988.pdf) - No. 87-573, argued Monday, April 25, 1988
 - [Meyer v. Grant](https://www.supremecourt.gov/pdfs/transcripts/1987/87-920_04-25-1988.pdf) - No. 87-920, argued Monday, April 25, 1988
+- [K mart Corp. v. Cartier, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1987/86-495_86-624_86-625_04-26-1988.pdf) - No. 86-495, argued Tuesday, April 26, 1988
 - [Morrison v. Olson](https://www.supremecourt.gov/pdfs/transcripts/1987/87-1279_04-26-1988.pdf) - No. 87-1279, argued Tuesday, April 26, 1988
 - [Sheridan v. United States](https://www.supremecourt.gov/pdfs/transcripts/1987/87-626_04-26-1988.pdf) - No. 87-626, argued Tuesday, April 26, 1988
 - [Boyle v. United Technologies Corp.](https://www.supremecourt.gov/pdfs/transcripts/1987/86-492_04-27-1988.pdf) - No. 86-492, argued Wednesday, April 27, 1988
@@ -3118,6 +3154,8 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Osborne v. Ohio](https://www.supremecourt.gov/pdfs/transcripts/1989/88-5986_12-05-1989.pdf) - No. 88-5986, argued Tuesday, December 5, 1989
 - [Cruzan v. Director, Mo. Dept. of Health](https://www.supremecourt.gov/pdfs/transcripts/1989/88-1503_12-06-1989.pdf) - No. 88-1503, argued Wednesday, December 6, 1989
 - [Teamsters v. Terry](https://www.supremecourt.gov/pdfs/transcripts/1989/88-1719_12-06-1989.pdf) - No. 88-1719, argued Wednesday, December 6, 1989
+- [McKesson Corp. v. Division of Alcoholic Beverages and Tobacco, Fla. Dept. of Business Regulation](https://www.supremecourt.gov/pdfs/transcripts/1989/88-192_12-06-1989.pdf) - No. 88-192, argued Wednesday, December 6, 1989
+- [American Trucking Assns., Inc. v. Smith](https://www.supremecourt.gov/pdfs/transcripts/1989/88-325_12-06-1989.pdf) - No. 88-325, argued Wednesday, December 6, 1989
 - [Georgia v. South Carolina](https://www.supremecourt.gov/pdfs/transcripts/1989/74_Orig_01-08-1990.pdf) - No. 74-orig, argued Monday, January 8, 1990
 - [Ngiraingas v. Sanchez](https://www.supremecourt.gov/pdfs/transcripts/1989/88-1281_01-08-1990.pdf) - No. 88-1281, argued Monday, January 8, 1990
 - [Department of Treasury, IRS v. FLRA](https://www.supremecourt.gov/pdfs/transcripts/1989/88-2123_01-08-1990.pdf) - No. 88-2123, argued Monday, January 8, 1990
@@ -3415,6 +3453,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Burlington v. Dague](https://www.supremecourt.gov/pdfs/transcripts/1991/91-810_04-21-1992.pdf) - No. 91-810, argued Tuesday, April 21, 1992
 - [Two Pesos, Inc. v. Taco Cabana, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1991/91-971_04-21-1992.pdf) - No. 91-971, argued Tuesday, April 21, 1992
 - [Kraft Gen. Foods, Inc. v. Iowa Dept. of Revenue and Finance](https://www.supremecourt.gov/pdfs/transcripts/1991/90-1918_04-22-1992.pdf) - No. 90-1918, argued Wednesday, April 22, 1992
+- [Allied-Signal, Inc. v. Director, Div. of Taxation](https://www.supremecourt.gov/pdfs/transcripts/1991/91-615_04-22-1992.pdf) - No. 91-615, argued Wednesday, April 22, 1992
 - [Planned Parenthood of Southeastern Pa. v. Casey](https://www.supremecourt.gov/pdfs/transcripts/1991/91-744_91-902_04-22-1992.pdf) - No. 91-744, argued Wednesday, April 22, 1992
 - [Soldal v. Cook County](https://www.supremecourt.gov/pdfs/transcripts/1992/91-6516_10-05-1992.pdf) - No. 91-6516, argued Monday, October 5, 1992
 - [Parke v. Raley](https://www.supremecourt.gov/pdfs/transcripts/1992/91-719_10-05-1992.pdf) - No. 91-719, argued Monday, October 5, 1992
@@ -4036,6 +4075,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Williams v. Taylor](https://www.supremecourt.gov/pdfs/transcripts/1999/98-8384_10-04-1999.pdf) - No. 98-8384, argued Monday, October 4, 1999
 - [Smith v. Robbins](https://www.supremecourt.gov/pdfs/transcripts/1999/98-1037_10-05-1999.pdf) - No. 98-1037, argued Tuesday, October 5, 1999
 - [Nixon v. Shrink Missouri Government PAC](https://www.supremecourt.gov/pdfs/transcripts/1999/98-963_10-05-1999.pdf) - No. 98-963, argued Tuesday, October 5, 1999
+- [Reno v. Bossier Parish School Bd](https://www.supremecourt.gov/pdfs/transcripts/1999/98-405_98-406_10-06-1999.pdf) - No. 98-405, argued Wednesday, October 6, 1999
 - [Rice v. Cayetano](https://www.supremecourt.gov/pdfs/transcripts/1999/98-818_10-06-1999.pdf) - No. 98-818, argued Wednesday, October 6, 1999
 - [Friends of Earth, Inc. v. Laidlaw Environmental Services (TOC), Inc.](https://www.supremecourt.gov/pdfs/transcripts/1999/98-822_10-12-1999.pdf) - No. 98-822, argued Tuesday, October 12, 1999
 - [Fiore v. White](https://www.supremecourt.gov/pdfs/transcripts/1999/98-942_10-12-1999.pdf) - No. 98-942, argued Tuesday, October 12, 1999
@@ -4095,6 +4135,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Nelson v. Adams USA, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1999/99-502_03-27-2000.pdf) - No. 99-502, argued Monday, March 27, 2000
 - [Sims v. Apfel](https://www.supremecourt.gov/pdfs/transcripts/1999/98-9537_03-28-2000.pdf) - No. 98-9537, argued Tuesday, March 28, 2000
 - [Apprendi v. New Jersey](https://www.supremecourt.gov/pdfs/transcripts/1999/99-478_03-28-2000.pdf) - No. 99-478, argued Tuesday, March 28, 2000
+- [Slack v. McDaniel](https://www.supremecourt.gov/pdfs/transcripts/1999/98-6322_03-29-2000.pdf) - No. 98-6322, argued Wednesday, March 29, 2000
 - [Santa Fe Independent School Dist. V. Doe](https://www.supremecourt.gov/pdfs/transcripts/1999/99-62_03-29-2000.pdf) - No. 99-62, argued Wednesday, March 29, 2000
 - [Raleigh v. Illinois Dept. of Revenue](https://www.supremecourt.gov/pdfs/transcripts/1999/99-387_04-17-2000.pdf) - No. 99-387, argued Monday, April 17, 2000
 - [Harris Trust and Sav. Bank v. Salomon Smith Barney Inc.](https://www.supremecourt.gov/pdfs/transcripts/1999/99-579_04-17-2000.pdf) - No. 99-579, argued Monday, April 17, 2000
@@ -4536,6 +4577,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [League of United Latin American Citizens v. Perry](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2005/05-204.pdf) - No. 05-204, argued Wednesday, March 1, 2006
 - [Davis v. Washington](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2005/05-5224.pdf) - No. 05-5224, argued Monday, March 20, 2006
 - [Hammon v. Indiana](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2005/05-5705.pdf) - No. 05-5705, argued Monday, March 20, 2006
+- [Garcetti v. Ceballos (Reargued)](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2005/04-473b.pdf) - No. 04-473, argued Tuesday, March 21, 2006
 - [Laboratory Corp. of America Holdings v. Metabolite Laboratories, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2005/04-607.pdf) - No. 04-607, argued Tuesday, March 21, 2006
 - [Howard Delivery Service, Inc. v. Zurich American Ins.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2005/05-128.pdf) - No. 05-128, argued Tuesday, March 21, 2006
 - [Fernandez-Vargas v. Gonzales](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2005/04-1376.pdf) - No. 04-1376, argued Wednesday, March 22, 2006
@@ -5344,7 +5386,9 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Bristol-Myers Squibb Co. v. Superior Court of Cal., San Francisco Cty.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2016/16-466_4g15.pdf) - No. 16-466, argued Tuesday, April 25, 2017
 - [Sandoz Inc. v. Amgen Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2016/15-1039_bqm1.pdf) - No. 15-1039, argued Wednesday, April 26, 2017
 - [Maslenjak v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2016/16-309_b97c.pdf) - No. 16-309, argued Wednesday, April 26, 2017
+- [Sessions v. Dimaya](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2017/15-1498_9p6b.pdf) - No. 15-1498, argued Monday, October 2, 2017
 - [Epic Systems Corp. v. Lewis](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2017/16-285_q8l1.pdf) - No. 16-285, argued Monday, October 2, 2017
+- [Jennings v. Rodriguez](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2017/15-1204_2c83.pdf) - No. 15-1204, argued Tuesday, October 3, 2017
 - [Gill v. Whitford](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2017/16-1161_mjn0.pdf) - No. 16-1161, argued Tuesday, October 3, 2017
 - [District of Columbia v. Wesby](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2017/15-1485_gfbi.pdf) - No. 15-1485, argued Wednesday, October 4, 2017
 - [Class v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2017/16-424_8l8c.pdf) - No. 16-424, argued Wednesday, October 4, 2017
@@ -5406,6 +5450,12 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Abbott v. Perez](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2017/17-586_4357.pdf) - No. 17-586, argued Tuesday, April 24, 2018
 - [Trump v. Hawaii](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2017/17-965_l5gm.pdf) - No. 17-965, argued Wednesday, April 25, 2018
 
+## Corrected Transcripts
+
+These transcripts have been successfully matched to an SCDB entry after making one or more corrections.
+
+- [Locomotive Firemen v. Chicago, R. I. & P. R. Co.](https://www.supremecourt.gov/pdfs/transcripts/1968/68-16_68-18_10-15-1968.pdf) - No. 16, argued Tuesday, October 22, 1968 (393 U.S. 129 suggests this transcript was filed on the wrong day)
+
 ## Pending Transcripts
 
 The status of these transcripts cannot be determined until the next SCDB update.
@@ -5458,7 +5508,6 @@ The status of these transcripts cannot be determined until the next SCDB update.
 
 These transcripts have NOT yet been matched to an SCDB entry.
 
-- [Locomotive Firemen v. Chicago, R. I. & P. R. Co.](https://www.supremecourt.gov/pdfs/transcripts/1968/68-16_68-18_10-15-1968.pdf) - No. 16, argued Tuesday, October 15, 1968: no SCDB match
 - [Hadnott v. Amos](https://www.supremecourt.gov/pdfs/transcripts/1968/68-647_10-18-1968.pdf) - No. 647, argued Friday, October 18, 1968: no SCDB match
 - [Stiles v. United States](https://www.supremecourt.gov/pdfs/transcripts/1968/68-74_11-20-1968.pdf) - No. 74, argued Wednesday, November 20, 1968: no SCDB match
 - [Presbyterian Church in U. S. v. Mary Elizabeth Blue Hull Memorial Presbyterian Church](https://www.supremecourt.gov/pdfs/transcripts/1968/68-71_12-09-1968.pdf) - No. 71, argued Monday, December 9, 1968: no SCDB match
@@ -5476,7 +5525,6 @@ These transcripts have NOT yet been matched to an SCDB entry.
 - [Sniadach v. Family Finance Corp. of Bay View](https://www.supremecourt.gov/pdfs/transcripts/1968/68-130_04-21-1969.pdf) - No. 130, argued Monday, April 21, 1969: no SCDB match
 - [Powell v. McCormack](https://www.supremecourt.gov/pdfs/transcripts/1968/68-138_04-21-1969.pdf) - No. 138, argued Monday, April 21, 1969: no SCDB match
 - [Dutton v. Evans](https://www.supremecourt.gov/pdfs/transcripts/1969/69-21_10-15-1969.pdf) - No. 21, argued Wednesday, October 15, 1969: no SCDB match
-- [Nacirema Operating Co. v. Johnson](https://www.supremecourt.gov/pdfs/transcripts/1969/69-9_69-16_10-20-1969.pdf) - No. 9, argued Monday, October 20, 1969: no SCDB match
 - [United States v. White](https://www.supremecourt.gov/pdfs/transcripts/1969/69-46_11-10-1969.pdf) - No. 46, argued Monday, November 10, 1969: no SCDB match
 - [North Carolina v. Alford](https://www.supremecourt.gov/pdfs/transcripts/1969/69-50_11-17-1969.pdf) - No. 50, argued Monday, November 17, 1969: no SCDB match
 - [Boddie v. Connecticut](https://www.supremecourt.gov/pdfs/transcripts/1969/69-265_12-08-1969.pdf) - No. 265, argued Monday, December 8, 1969: no SCDB match
@@ -5494,7 +5542,6 @@ These transcripts have NOT yet been matched to an SCDB entry.
 - [Boyle v. Landry](https://www.supremecourt.gov/pdfs/transcripts/1969/69-6_04-29-1970.pdf) - No. 6, argued Wednesday, April 29, 1970: no SCDB match
 - [Byrne v. Karalexis](https://www.supremecourt.gov/pdfs/transcripts/1969/69-1149_04-30-1970.pdf) - No. 1149, argued Thursday, April 30, 1970: no SCDB match
 - [Dyson v. Stein](https://www.supremecourt.gov/pdfs/transcripts/1969/69-565_04-30-1970.pdf) - No. 565, argued Thursday, April 30, 1970: no SCDB match
-- [Dutton v. Evans](https://www.supremecourt.gov/pdfs/transcripts/1970/70-10_10-15-1970.pdf) - No. 10, argued Thursday, October 15, 1970: no SCDB match
 - [Younger v. Harris](https://www.supremecourt.gov/pdfs/transcripts/1970/70-2_11-16-1970.pdf) - No. 2, argued Monday, November 16, 1970: no SCDB match
 - [Boyle v. Landry](https://www.supremecourt.gov/pdfs/transcripts/1970/70-4_11-16-1970.pdf) - No. 4, argued Monday, November 16, 1970: no SCDB match
 - [Samuels v. Mackell](https://www.supremecourt.gov/pdfs/transcripts/1970/70-7_70-9_11-16-1970.pdf) - No. 7, argued Monday, November 16, 1970: no SCDB match
@@ -5505,65 +5552,27 @@ These transcripts have NOT yet been matched to an SCDB entry.
 - [United States v. Johnson](https://www.supremecourt.gov/pdfs/transcripts/1970/70-577_04-19-1971.pdf) - No. 577, argued Monday, April 19, 1971: no SCDB match
 - [The Committee for Nuclear Responsibility, Inc. v. Schlesinger](https://www.supremecourt.gov/pdfs/transcripts/1971/A-483_11-06-1971.pdf) - No. A-483, argued Saturday, November 6, 1971: no SCDB match
 - [United States v. Caldwell](https://www.supremecourt.gov/pdfs/transcripts/1971/70-57_02-22-1972.pdf) - No. 70-57, argued Tuesday, February 22, 1972: no SCDB match
-- [Argersinger v. Hamlin](https://www.supremecourt.gov/pdfs/transcripts/1971/70-5015_02-28-1972.pdf) - No. 70-5015, argued Monday, February 28, 1972: no SCDB match
-- [S&E Contractors, Inc. v. United States](https://www.supremecourt.gov/pdfs/transcripts/1971/70-88_03-20-1972.pdf) - No. 70-88, argued Monday, March 20, 1972: no SCDB match
 - [Almeida-Sanchez v. United States](https://www.supremecourt.gov/pdfs/transcripts/1972/71-6278_03-28-1973.pdf) - No. 71-6278, argued Wednesday, March 28, 1973: no SCDB match
 - [Patterson v. Warner](https://www.supremecourt.gov/pdfs/transcripts/1973/72-5830_01-09-1974.pdf) - No. 72-5830, argued Wednesday, January 9, 1974: no SCDB match
 - [DeFunis v. Odegaard](https://www.supremecourt.gov/pdfs/transcripts/1973/72-235_02-26-1974.pdf) - No. 72-235, argued Tuesday, February 26, 1974: no SCDB match
 - [Milliken v. Bradley](https://www.supremecourt.gov/pdfs/transcripts/1973/73-434_73-435_73-436_07-25-1974.pdf) - No. 73-434, argued Thursday, July 25, 1974: no SCDB match
 - [Faretta v. Calfornia](https://www.supremecourt.gov/pdfs/transcripts/1974/72-5772_11-19-1974.pdf) - No. 72-5772, argued Tuesday, November 19, 1974: no SCDB match
 - [Jesse Thurman Fowler, Petitioner, v. North Carolina, Respondent](https://www.supremecourt.gov/pdfs/transcripts/1974/73-7031_04-21-1975.pdf) - No. 73-7031, argued Monday, April 21, 1975: no SCDB match
-- [Laing v. United States](https://www.supremecourt.gov/pdfs/transcripts/1975/73-1808_74-75_10-15-1975.pdf) - No. 73-1808, argued Wednesday, October 15, 1975: no SCDB match
-- [Middendorf v. Henry](https://www.supremecourt.gov/pdfs/transcripts/1975/74-175_74-5176_11-05-1975.pdf) - No. 74-175, argued Wednesday, November 5, 1975: no SCDB match
-- [Beer v. United States](https://www.supremecourt.gov/pdfs/transcripts/1975/73-1869_11-12-1975.pdf) - No. 73-1869, argued Wednesday, November 12, 1975: no SCDB match
 - [Massachusetts Bd. of Retirement v. Murgia](https://www.supremecourt.gov/pdfs/transcripts/1975/74-1044_12-12-1975.pdf) - No. 74-1044, argued Friday, December 12, 1975: no SCDB match
-- [Mathews v. Diaz](https://www.supremecourt.gov/pdfs/transcripts/1975/73-1046_01-12-1976.pdf) - No. 73-1046, argued Monday, January 12, 1976: no SCDB match
-- [Hampton v. Mow Sun Wong](https://www.supremecourt.gov/pdfs/transcripts/1975/73-1596_01-12-1976.pdf) - No. 73-1596, argued Monday, January 12, 1976: no SCDB match
-- [Alfred Dunhill of London, Inc. v. Republic of Cuba](https://www.supremecourt.gov/pdfs/transcripts/1975/73-1288_01-19-1976.pdf) - No. 73-1288, argued Monday, January 19, 1976: no SCDB match
-- [United States v. Foster Lumber Co.](https://www.supremecourt.gov/pdfs/transcripts/1976/74-799_10-05-1976.pdf) - No. 74-799, argued Tuesday, October 5, 1976: no SCDB match
-- [General Elec. Co. v. Gilbert](https://www.supremecourt.gov/pdfs/transcripts/1976/74-1589_74-1590_10-13-1976.pdf) - No. 74-1589, argued Wednesday, October 13, 1976: no SCDB match
 - [Teamsters v. Rodriguez](https://www.supremecourt.gov/pdfs/transcripts/1976/75-651_75-715_75-718_01-10-1977.pdf) - No. 75-651, argued Monday, January 10, 1977: no SCDB match
 - [Teamsters v. Rodriguez](https://www.supremecourt.gov/pdfs/transcripts/1976/75-651_75-715_75-718_01-11-1977.pdf) - No. 75-651, argued Tuesday, January 11, 1977: no SCDB match
-- [American Broadcasting Cos. v. Writers Guild of America, West, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1977/76-1121_76-1153_76-1162_03-20-1978.pdf) - No. 76-1121, argued Monday, March 20, 1978: no SCDB match
-- [United States v. Jacobs](https://www.supremecourt.gov/pdfs/transcripts/1977/76-1193_03-20-1978.pdf) - No. 76-1193, argued Monday, March 20, 1978: no SCDB match
-- [Crist v. Bretz](https://www.supremecourt.gov/pdfs/transcripts/1977/76-1200_03-22-1978.pdf) - No. 76-1200, argued Wednesday, March 22, 1978: no SCDB match
-- [California v. Southland Royalty Co.](https://www.supremecourt.gov/pdfs/transcripts/1977/76-1114_76-1133_76-1587_04-17-1978.pdf) - No. 76-1114, argued Monday, April 17, 1978: no SCDB match
-- [Parham v. J. R.](https://www.supremecourt.gov/pdfs/transcripts/1978/75-1690_10-10-1978.pdf) - No. 75-1690, argued Tuesday, October 10, 1978: no SCDB match
 - [Arizona v. California](https://www.supremecourt.gov/pdfs/transcripts/1978/8_Orig_10-10-1978.pdf) - No. 8-orig, argued Tuesday, October 10, 1978: no SCDB match
 - [Jones v. Wolf](https://www.supremecourt.gov/pdfs/transcripts/1978/78-91_01-18-1979.pdf) - No. 78-91, argued Thursday, January 18, 1979: no SCDB match
-- [P.C. Pfeiffer Co. v. Ford](https://www.supremecourt.gov/pdfs/transcripts/1979/78-425_10-01-1979.pdf) - No. 78-425, argued Monday, October 1, 1979: no SCDB match
-- [Transamerica Mortgage Advisors, Inc. v. Lewis](https://www.supremecourt.gov/pdfs/transcripts/1979/77-1645_10-02-1979.pdf) - No. 77-1645, argued Tuesday, October 2, 1979: no SCDB match
-- [Payton v. New York](https://www.supremecourt.gov/pdfs/transcripts/1979/78-5420_78-5421_10-09-1979.pdf) - No. 78-5420, argued Tuesday, October 9, 1979: no SCDB match
-- [Stafford v. Briggs](https://www.supremecourt.gov/pdfs/transcripts/1979/77-1546_11-07-1979.pdf) - No. 77-1546, argued Wednesday, November 7, 1979: no SCDB match
-- [Colby v. Driver](https://www.supremecourt.gov/pdfs/transcripts/1979/78-303_11-07-1979.pdf) - No. 78-303, argued Wednesday, November 7, 1979: no SCDB match
 - [Roadway Express, Inc. v. Monk](https://www.supremecourt.gov/pdfs/transcripts/1979/79-701_04-14-1980.pdf) - No. 79-701, argued Monday, April 14, 1980: no SCDB match
-- [Merrion v. Jicarilla Apache Tribe](https://www.supremecourt.gov/pdfs/transcripts/1981/80-11_80-15_11-04-1981.pdf) - No. 80-11, argued Wednesday, November 4, 1981: no SCDB match
 - [Chicago Bridge & Iron Co. v. Caterpillar Tractor Co.](https://www.supremecourt.gov/pdfs/transcripts/1981/81-349_04-19-1982.pdf) - No. 81-349, argued Monday, April 19, 1982: no SCDB match
-- [INS v. Chadha](https://www.supremecourt.gov/pdfs/transcripts/1982/80-1832_80-2170_80-2171_12-07-1982.pdf) - No. 80-1832, argued Tuesday, December 7, 1982: no SCDB match
-- [Illinois v. Gates](https://www.supremecourt.gov/pdfs/transcripts/1982/81-430_03-01-1983.pdf) - No. 81-430, argued Tuesday, March 1, 1983: no SCDB match
-- [Garcia v. San Antonio Metropolitan Transit Authority](https://www.supremecourt.gov/pdfs/transcripts/1984/82-1913_82-1951_10-01-1984.pdf) - No. 82-1913, argued Monday, October 1, 1984: no SCDB match
-- [New Jersey v. T. L. O.](https://www.supremecourt.gov/pdfs/transcripts/1984/83-712_10-02-1984.pdf) - No. 83-712, argued Tuesday, October 2, 1984: no SCDB match
 - [School Dist. of Grand Rapids v. Ball](https://www.supremecourt.gov/pdfs/transcripts/1984/83-990_11-05-1984.pdf) - No. 83-990, argued Monday, November 5, 1984: no SCDB match
 - [McDonald v. Smith](https://www.supremecourt.gov/pdfs/transcripts/1984/84-476_04-20-1985.pdf) - No. 84-476, argued Saturday, April 20, 1985: no SCDB match
-- [Pattern Makers v. NLRB](https://www.supremecourt.gov/pdfs/transcripts/1984/83-1894_04-22-1985.pdf) - No. 83-1894, argued Monday, April 22, 1985: no SCDB match
-- [Montana v. Blackfeet Tribe](https://www.supremecourt.gov/pdfs/transcripts/1984/83-2161_04-23-1985.pdf) - No. 83-2161, argued Tuesday, April 23, 1985: no SCDB match
-- [Massachusetts Mut. Life Ins. Co. v. Russell](https://www.supremecourt.gov/pdfs/transcripts/1984/84-9_04-24-1985.pdf) - No. 84-9, argued Wednesday, April 24, 1985: no SCDB match
-- [Eastern Air Lines, Inc. v. Mahfoud](https://www.supremecourt.gov/pdfs/transcripts/1985/83-1807_10-09-1985.pdf) - No. 83-1807, argued Wednesday, October 9, 1985: no SCDB match
 - [Batson v. Kentucky](https://www.supremecourt.gov/pdfs/transcripts/1985/84-6263_12-02-1985.pdf) - No. 84-6263, argued Monday, December 2, 1985: no SCDB match
-- [Kungys v. United States](https://www.supremecourt.gov/pdfs/transcripts/1987/86-228_10-13-1987.pdf) - No. 86-228, argued Tuesday, October 13, 1987: no SCDB match
-- [Liljeberg v. Health Services Acquisition Corp.](https://www.supremecourt.gov/pdfs/transcripts/1987/86-957_04-25-1988.pdf) - No. 86-957, argued Monday, April 25, 1988: no SCDB match
-- [K mart Corp. v. Cartier, Inc.](https://www.supremecourt.gov/pdfs/transcripts/1987/86-495_86-624_86-625_04-26-1988.pdf) - No. 86-495, argued Tuesday, April 26, 1988: no SCDB match
 - [United States v. Broce](https://www.supremecourt.gov/pdfs/transcripts/1988/87-1190_10-03-1988.pdf) - No. 87-1190, argued Monday, October 3, 1988: no SCDB match
-- [McKesson Corp. v. Division of Alcoholic Beverages and Tobacco, Fla. Dept. of Business Regulation](https://www.supremecourt.gov/pdfs/transcripts/1989/88-192_12-06-1989.pdf) - No. 88-192, argued Wednesday, December 6, 1989: no SCDB match
-- [American Trucking Assns., Inc. v. Smith](https://www.supremecourt.gov/pdfs/transcripts/1989/88-325_12-06-1989.pdf) - No. 88-325, argued Wednesday, December 6, 1989: no SCDB match
-- [Allied-Signal, Inc. v. Director, Div. of Taxation](https://www.supremecourt.gov/pdfs/transcripts/1991/91-615_04-22-1992.pdf) - No. 91-615, argued Wednesday, April 22, 1992: no SCDB match
-- [Reno v. Bossier Parish School Bd](https://www.supremecourt.gov/pdfs/transcripts/1999/98-405_98-406_10-06-1999.pdf) - No. 98-405, argued Wednesday, October 6, 1999: no SCDB match
-- [Slack v. McDaniel](https://www.supremecourt.gov/pdfs/transcripts/1999/98-6322_03-29-2000.pdf) - No. 98-6322, argued Wednesday, March 29, 2000: no SCDB match
 - [Rogers v. Tennessee](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2000/99-6218.pdf) - No. 99-6218, argued Wednesday, November 8, 2000: no SCDB match
 - [Adarand Constructors, Inc. v. Mineta](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/00-730.pdf) - No. 00-730., argued Wednesday, October 31, 2001: no SCDB match
 - [Virginia v. Maryland](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/129orig.pdf) - No. 129-orig, argued Tuesday, October 7, 2003: no SCDB match
 - [Pliler v. Ford](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2003/03-221.pdf) - No. 03-221, argued Wednesday, April 21, 2004: no SCDB match
-- [Garcetti v. Ceballos (Reargued)](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2005/04-473b.pdf) - No. 04-473, argued Tuesday, March 21, 2006: no SCDB match
 - [New Jersey v. Delaware](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2007/06-134orig.pdf) - No. 06-134, argued Tuesday, November 27, 2007: no SCDB match
 - [Carcieri v. Kempthorne](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/07-526.pdf) - No. 07-526., argued Monday, November 3, 2008: no SCDB match
 - [14 Penn Plaza LLC v. Pyett](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/07-581.pdf) - No. 07-581., argued Monday, December 1, 2008: no SCDB match
@@ -5573,6 +5582,4 @@ These transcripts have NOT yet been matched to an SCDB entry.
 - [Florida v. Department of Health and Human Servs.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-400.pdf) - No. 11-400, argued Wednesday, March 28, 2012: no SCDB match
 - [Obergefell v. Hodges](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/14-556q1_l5gm.pdf) - No. 14-556-Question-1, argued Tuesday, April 28, 2015: no SCDB match
 - [Obergefell v. Hodges](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/14-556q2_8m58.pdf) - No. 14-556-Question-2, argued Tuesday, April 28, 2015: no SCDB match
-- [Sessions v. Dimaya](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2017/15-1498_9p6b.pdf) - No. 15-1498, argued Monday, October 2, 2017: no SCDB match
-- [Jennings v. Rodriguez](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2017/15-1204_2c83.pdf) - No. 15-1204, argued Tuesday, October 3, 2017: no SCDB match
 

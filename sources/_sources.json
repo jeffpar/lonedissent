@@ -123,9 +123,9 @@
             "https://www.supremecourt.gov/pdfs/transcripts/1970/70-13_10-20-1970_B.pdf"
           ]
         ],
-        "notes": "Use --group=year and/or --limit=n to limit SCOTUS downloads (and sleep briefly between each run), otherwise the supremecourt.gov server may block your IP address for a short period of time. -JP",
-        "mappingCols": "caseTitle,docket,dateArgument,url,file\n",
-        "mappingData": "\"$3\",\"$2\",\"$6-$4-$5\",\"$url\",\"$file\"\n",
+        "notes": "Use --group=year and/or --limit=n to limit SCOTUS downloads (and sleep briefly between each run), otherwise the supremecourt.gov server may block your IP address for a short period of time.",
+        "mappingCols": "caseTitle,docket,dateArgument,url,file,notes\n",
+        "mappingData": "\"$3\",\"$2\",\"$6-$4-$5\",\"$url\",\"$file\",\"\"\n",
         "mappingFile": "/results/transcripts.csv"
       }
     }
