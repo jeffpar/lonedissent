@@ -4,7 +4,7 @@ permalink: /cases/transcripts/scotus
 layout: page
 ---
 
-The listed of remaining *unmatched* transcripts is [below](#-unmatched-transcripts).
+The listed of remaining *unmatched* transcripts is [below](#unmatched-transcripts).
 
 ## Matched Transcripts
 

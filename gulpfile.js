@@ -3203,7 +3203,7 @@ function findAdvocates(done)
     let transcriptMatches = "", transcriptPending = "", transcriptExceptions = "";
 
     let transcriptPage = '---\ntitle: "Transcripts from the U.S. Supreme Court"\npermalink: /cases/transcripts/scotus\nlayout: page\n---\n\n';
-    transcriptPage += "The listed of remaining *unmatched* transcripts is [below](#-unmatched-transcripts).\n\n";
+    transcriptPage += "The listed of remaining *unmatched* transcripts is [below](#unmatched-transcripts).\n\n";
 
     printf("collecting transcript files...\n");
     let transcripts = readCSV(results.csv.transcripts);
