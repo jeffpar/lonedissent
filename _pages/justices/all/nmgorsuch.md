@@ -16,7 +16,7 @@ cases:
   - id: "2017-002"
     termId: "2017-10"
     title: "Epic Systems Corp. v. Lewis"
-    docket: "16-285"
+    docket: "16-285,16-300,16-307"
     pdfSource: "slipopinion/17"
     dateDecision: "Monday, May 21, 2018"
     voteMajority: 5

@@ -51,7 +51,7 @@
   },
   "scotus": {
     "citationsHTML": "/sources/scotus/citations/*.*",
-    "transcripts": "/sources/scotus/transcripts/**/*.txt",
+    "transcripts": "/sources/scotus/transcripts/**/*.pdf",
     "download": {
       "transcriptOld": {
         "start": 1968,
@@ -79,8 +79,19 @@
         "host": "https://www.supremecourt.gov$1",
         "url": "https://www.supremecourt.gov/oral_arguments/argument_transcript/$1",
         "file": "$2_$6-$4-$5.pdf",
-        "urlExclusions": ["https://www.supremecourt.gov/pdfs/transcripts/1998/98-405_98-406_04-26-1999.pdf"],
-        "notes": "Use --group=year and/or --limit=n to limit SCOTUS downloads (and sleep briefly between each run), otherwise the supremecourt.gov server may block your IP address for a short period of time. -JP"
+        "urlExclusions": [
+          "https://www.supremecourt.gov/pdfs/transcripts/1998/98-405_98-406_04-26-1999.pdf"
+        ],
+        "urlCollisions": [
+          [
+            "https://www.supremecourt.gov/pdfs/transcripts/1970/70-13_10-20-1970_A.pdf",
+            "https://www.supremecourt.gov/pdfs/transcripts/1970/70-13_10-20-1970_B.pdf"
+          ]
+        ],
+        "notes": "Use --group=year and/or --limit=n to limit SCOTUS downloads (and sleep briefly between each run), otherwise the supremecourt.gov server may block your IP address for a short period of time. -JP",
+        "mappingCols": "caseTitle,docket,dateArgument,url,file\n",
+        "mappingData": "\"$3\",\"$2\",\"$6-$4-$5\",\"$url\",\"$file\"\n",
+        "mappingFile": "/results/transcripts.csv"
       }
     }
   }

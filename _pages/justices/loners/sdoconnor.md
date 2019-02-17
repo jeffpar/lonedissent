@@ -21,7 +21,7 @@ cases:
     title: "Block v. North Dakota ex rel. Board of Univ. and School Lands"
     volume: "461"
     page: "273"
-    docket: "81-2337"
+    docket: "81-2337,82-132"
     citation: "461 U.S. 273"
     pdfSource: "loc"
     dateDecision: "Monday, May 2, 1983"

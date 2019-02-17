@@ -34,7 +34,7 @@ cases:
     title: "Milavetz, Gallop &amp; Milavetz, P. A. v. United States"
     volume: "559"
     page: "229"
-    docket: "08-1119"
+    docket: "08-1119,08-1225"
     citation: "559 U.S. 229"
     pdfSource: "scotusBound"
     dateDecision: "Monday, March 8, 2010"
@@ -434,7 +434,7 @@ cases:
   - id: "2014-022"
     termId: "2014-10"
     title: "Perez v. Mortgage Bankers Assn."
-    docket: "13-1041"
+    docket: "13-1041,13-1052"
     pdfSource: "slipopinion/14"
     dateDecision: "Monday, March 9, 2015"
     voteMajority: 9

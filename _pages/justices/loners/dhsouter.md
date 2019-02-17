@@ -21,7 +21,7 @@ cases:
     title: "AT&amp;T Corp. v. Iowa Utilities Bd."
     volume: "525"
     page: "366"
-    docket: "97-826"
+    docket: "97-826,97-829,97-830,97-831,97-1141,97-826,97-829"
     citation: "525 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1999"

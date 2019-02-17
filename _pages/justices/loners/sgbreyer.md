@@ -21,7 +21,7 @@ cases:
     title: "FCC v. NextWave Personal Communications Inc."
     volume: "537"
     page: "293"
-    docket: "01-653"
+    docket: "01-653,01-657"
     citation: "537 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 2003"

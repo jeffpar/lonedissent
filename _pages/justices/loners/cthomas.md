@@ -99,7 +99,7 @@ cases:
     title: "Hillside Dairy Inc. v. Lyons"
     volume: "539"
     page: "059"
-    docket: "01-950"
+    docket: "01-950,01-1018"
     citation: "539 U.S. 59"
     pdfSource: "loc"
     dateDecision: "Monday, June 9, 2003"
@@ -430,7 +430,7 @@ cases:
   - id: "2015-068"
     termId: "2015-10"
     title: "Birchfield v. North Dakota"
-    docket: "14-1468"
+    docket: "14-1468,14-1470,14-1507"
     pdfSource: "slipopinion/15"
     dateDecision: "Thursday, June 23, 2016"
     voteMajority: 7

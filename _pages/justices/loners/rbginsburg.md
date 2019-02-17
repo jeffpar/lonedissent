@@ -47,7 +47,7 @@ cases:
     title: "Burlington N. &amp; S. F. R. Co. v. United States"
     volume: "556"
     page: "599"
-    docket: "07-1601"
+    docket: "07-1601,07-1607"
     citation: "556 U.S. 599"
     pdfSource: "scotusBound"
     dateDecision: "Monday, May 4, 2009"

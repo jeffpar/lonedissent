@@ -1463,6 +1463,35 @@ function backupLonerDecisions(done)
 }
 
 /**
+ * findByDateAndDocket(decisions, date, docket)
+ *
+ * @param {Array.<Decision>} decisions
+ * @param {string} date
+ * @param {string} docket
+ * @return {numnber}
+ */
+function findByDateAndDocket(decisions, date, docket)
+{
+    let i, next = 0;
+    docket = fixDocketNumber(docket);
+    let obj = {dateArgument: date};
+    while ((i = searchObjects(decisions, obj, next)) >= 0) {
+        let dockets = decisions[i].docket.split(',');
+        if (dockets.indexOf(docket) >= 0) break;
+        next = i + 1;
+    }
+    if (i < 0) {
+        obj = {dateRearg: date};
+        while ((i = searchObjects(decisions, obj, next)) >= 0) {
+            let dockets = decisions[i].docket.split(',');
+            if (dockets.indexOf(docket) >= 0) break;
+            next = i + 1;
+        }
+    }
+    return i;
+}
+
+/**
  * buildAdvocates()
  *
  * @param {function()} done
@@ -1582,22 +1611,7 @@ function buildAdvocates(done)
                         /*
                          * We must perform a much slower search, based solely on argument date and docket number.
                          */
-                        let next = 0;
-                        let docket = fixDocketNumber(row.docket);
-                        obj = {dateArgument};
-                        while ((i = searchObjects(decisions, obj, next)) >= 0) {
-                            let dockets = decisions[i].docket.split(',');
-                            if (dockets.indexOf(docket) >= 0) break;
-                            next = i + 1;
-                        }
-                        if (i < 0) {
-                            obj = {dateRearg: dateArgument};
-                            while ((i = searchObjects(decisions, obj, next)) >= 0) {
-                                let dockets = decisions[i].docket.split(',');
-                                if (dockets.indexOf(docket) >= 0) break;
-                                next = i + 1;
-                            }
-                        }
+                        i = findByDateAndDocket(decisions, dateArgument, row.docket)
                     }
                     if (i >= 0) {
                         let argument = cloneObject(decisions[i]);
@@ -3180,28 +3194,81 @@ function findLonerParties(done)
  */
 function findAdvocates(done)
 {
+    let exceptions = 0;
     printf("reading decisions...\n");
     let decisions = JSON.parse(readFile(results.json.decisions));
-    sortObjects(decisions, ["dateArgument", "docket"]);
-    printf("collecting file names...\n");
+    // sortObjects(decisions, ["dateArgument", "docket"]);
+
+    let transcriptPath = "/_pages/cases/transcripts/scotus.md";
+    let transcriptPage = '---\ntitle: "Transcripts from the U.S. Supreme Court"\npermalink: /cases/transcripts/scotus\nlayout: page\n---\n\n';
+    let transcriptMatches = "", transcriptPending = "", transcriptExceptions = "";
+
+    printf("collecting transcript files...\n");
+    let transcripts = readCSV(results.csv.transcripts);
+    sortObjects(transcripts, ["dateArgument", "docket"]);
     let filePaths = glob.sync(rootDir + sources.scotus.transcripts);
-    printf("processing file names...\n");
-    for (let i = 0; i < filePaths.length; i++) {
-        let filePath = filePaths[i];
+    if (filePaths.length != transcripts.length) {
+        warning("number of transcript files (%d) does not match number of transcript entries (%d)\n", filePaths.length, transcripts.length);
+    }
+
+    let uniqueTranscripts = {};
+    printf("processing transcripts...\n");
+    for (let i = 0; i < transcripts.length; i++) {
+        let transcript = transcripts[i];
+        let filePath = transcript.file;
         let fileName = path.basename(filePath);
-        let match = fileName.match(/^(.*?)_([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])\.txt$/);
+        let match = fileName.match(/^(.*?)_([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])([A-Z]?)\.pdf$/);
         if (!match) {
-            warning("unexpected transcript filename: %s\n", fileName);
+            warning("unexpected transcript file name: %s\n", fileName);
             continue;
         }
+        if (!fs.existsSync(rootDir + filePath)) {
+            warning("missing transcript file: %s\n", filePath);
+        }
+        if (!fs.existsSync(rootDir + filePath.replace(".pdf", ".txt"))) {
+            warning("missing transcript text: %s\n", filePath);
+        }
+        if (!fs.existsSync(rootDir + filePath)) {
+            warning("missing transcript file: %s\n", filePath);
+        }
+        if (uniqueTranscripts[fileName]) {
+            warning("transcript listed multiple times (%s),(%s)\n", transcript.caseTitle, uniqueTranscripts[fileName]);
+        } else {
+            uniqueTranscripts[fileName] = transcript.caseTitle;
+        }
+        let result = "";
         let docket = match[1];
         let dateArgument = match[2];
-        let iDecision = searchObjects(decisions, {dateArgument, docket});
-        if (iDecision < 0) {
-            warning("unable to find No. %s (%s) in database\n", docket, dateArgument);
-            continue;
+        let transcriptDescription = "- [" + transcript.caseTitle + "](" + transcript.url + ") - No. " + transcript.docket + ", argued " + sprintf("%#C", transcript.dateArgument);
+        if (dateArgument < sources.scdb.dateEnd) {
+            let iDecision = findByDateAndDocket(decisions, dateArgument, docket);
+            if (iDecision < 0) {
+                let datePrevious = sprintf("%#04Y-%#02M-%#02D", adjustDays(parseDate(dateArgument), -1));
+                iDecision = findByDateAndDocket(decisions, datePrevious, docket);
+                if (iDecision >= 0) result = "next day";
+            }
+            if (iDecision >= 0) {
+                let decision = decisions[iDecision];
+                transcriptMatches += transcriptDescription + "\n";
+            } else {
+                transcriptExceptions += transcriptDescription + ": no SCDB match\n";
+                exceptions++;
+            }
+        } else {
+            transcriptPending += transcriptDescription + ": pending next SCDB update\n";
         }
     }
+
+    transcriptPage += "## Matched Transcripts\n\nThese transcripts have been successfully matched to an SCDB entry.\n\n" + transcriptMatches + "\n";
+    transcriptPage += "## Pending Transcripts\n\nThe status of these transcripts cannot be determined until the next SCDB update.\n\n" + transcriptPending + "\n";
+    transcriptPage += "## Unmatched Transcripts\n\nThese transcripts have NOT yet been matched to an SCDB entry.\n\n" + transcriptExceptions + "\n";
+
+    if (exceptions) {
+        printf("%d exceptions (see %s for details)\n", exceptions, transcriptPath);
+    }
+
+    writeFile(transcriptPath, transcriptPage);
+
     done();
 }
 
@@ -3930,6 +3997,7 @@ function generateDownloadTasks(done)
         if (!downloads) return;
         let downloadGroups = Object.keys(downloads);
         downloadGroups.forEach((group) => {
+            let mappings = "";
             let downloadGroup = downloads[group];
             if (downloadGroup.start && downloadGroup.stop) {
                 for (let index = downloadGroup.start; index <= downloadGroup.stop; index++) {
@@ -3951,6 +4019,7 @@ function generateDownloadTasks(done)
                         let folder = path.basename(dir);
                         let match, re = new RegExp(downloadGroup.pattern, "g");
                         while ((match = re.exec(html))) {
+                            let mappingData = downloadGroup.mappingData || "";
                             let nTokens = match.length - 1;
                             let url = downloadGroup.url, file = downloadGroup.file;
                             for (let iToken = 1; iToken <= nTokens; iToken++) {
@@ -3975,15 +4044,30 @@ function generateDownloadTasks(done)
                                 while (file.indexOf(sToken) >= 0) {
                                     file = file.replace(sToken, match[iToken]);
                                 }
+                                while (mappingData.indexOf(sToken) >= 0) {
+                                    mappingData = mappingData.replace(sToken, match[iToken]);
+                                }
                             }
                             if (limit) {
                                 if (!downloadGroup.urlExclusions || downloadGroup.urlExclusions.indexOf(url) < 0) {
+                                    if (downloadGroup.urlCollisions) {
+                                        downloadGroup.urlCollisions.forEach((collisionGroup) => {
+                                            let c = collisionGroup.indexOf(url);
+                                            if (c >= 0) {
+                                                file = file.replace('.', String.fromCharCode(65 + c) + '.');
+                                            }
+                                        });
+                                    }
+                                    mappings += mappingData.replace('$file', path.join(path.sep, dir, file)).replace('$url', url);
                                     if (createDownloadTask('download.' + source + '.' + group + '.' + folder + '.' + index++, url, dir, file)) limit--;
                                 }
                             }
                         }
                     }
                 });
+            }
+            if (mappings) {
+                writeFile(downloadGroup.mappingFile, downloadGroup.mappingCols + mappings);
             }
         });
     });

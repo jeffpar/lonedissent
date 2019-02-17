@@ -138,7 +138,7 @@ cases:
     title: "National Assn. of Home Builders v. Defenders of Wildlife"
     volume: "551"
     page: "644"
-    docket: "06-340"
+    docket: "06-340,06-549"
     citation: "551 U.S. 644"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 25, 2007"
@@ -320,7 +320,7 @@ cases:
     title: "Horne v. Flores"
     volume: "557"
     page: "433"
-    docket: "08-289"
+    docket: "08-289,08-294"
     citation: "557 U.S. 433"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, June 25, 2009"
@@ -742,7 +742,7 @@ cases:
   - id: "2013-070"
     termId: "2013-10"
     title: "Burwell v. Hobby Lobby Stores, Inc."
-    docket: "13-354"
+    docket: "13-354,13-356"
     pdfSource: "slipopinion/13"
     dateDecision: "Monday, June 30, 2014"
     voteMajority: 5
@@ -902,7 +902,7 @@ cases:
   - id: "2015-068"
     termId: "2015-10"
     title: "Birchfield v. North Dakota"
-    docket: "14-1468"
+    docket: "14-1468,14-1470,14-1507"
     pdfSource: "slipopinion/15"
     dateDecision: "Thursday, June 23, 2016"
     voteMajority: 7
@@ -1014,7 +1014,7 @@ cases:
   - id: "2017-022"
     termId: "2017-10"
     title: "Murphy v. National Collegiate Athletic Assn."
-    docket: "16-476"
+    docket: "16-476,16-477"
     pdfSource: "slipopinion/17"
     dateDecision: "Monday, May 14, 2018"
     voteMajority: 7
@@ -1044,7 +1044,7 @@ cases:
   - id: "2017-072"
     termId: "2017-10"
     title: "Abbott v. Perez"
-    docket: "17-586"
+    docket: "17-586,17-626"
     pdfSource: "slipopinion/17"
     dateDecision: "Monday, June 25, 2018"
     voteMajority: 5

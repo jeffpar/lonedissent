@@ -86,7 +86,7 @@ cases:
     title: "City of New York v. Saper"
     volume: "336"
     page: "328"
-    docket: "168"
+    docket: "168,200,201"
     citation: "336 U.S. 328"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1949"

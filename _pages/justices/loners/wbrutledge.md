@@ -60,7 +60,7 @@ cases:
     title: "United States v. Powell"
     volume: "330"
     page: "238"
-    docket: "56"
+    docket: "56,57"
     citation: "330 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1947"

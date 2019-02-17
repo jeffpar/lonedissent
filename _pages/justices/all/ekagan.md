@@ -47,7 +47,7 @@ cases:
     title: "Camreta v. Greene"
     volume: "563"
     page: "692"
-    docket: "09-1454"
+    docket: "09-1454,09-1478"
     citation: "563 U.S. 692"
     pdfSource: "scotusBound"
     dateDecision: "Thursday, May 26, 2011"
@@ -143,7 +143,7 @@ cases:
   - id: "2011-056"
     termId: "2011-10"
     title: "Holder v. Martinez Gutierrez"
-    docket: "10-1542"
+    docket: "10-1542,10-1543"
     pdfSource: "scotusBound"
     dateDecision: "Monday, May 21, 2012"
     voteMajority: 9
@@ -153,7 +153,7 @@ cases:
   - id: "2011-065"
     termId: "2011-10"
     title: "Match-E-Be-Nash-She-Wish Band of Pottawatomi Indians v. Patchak"
-    docket: "11-246"
+    docket: "11-246,11-247"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 18, 2012"
     voteMajority: 8
@@ -163,7 +163,7 @@ cases:
   - id: "2011-074"
     termId: "2011-10"
     title: "Miller v. Alabama"
-    docket: "10-9646"
+    docket: "10-9646,10-9647"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 25, 2012"
     voteMajority: 5
@@ -343,7 +343,7 @@ cases:
   - id: "2014-033"
     termId: "2014-10"
     title: "United States v. Kwai Fun Wong"
-    docket: "13-1074"
+    docket: "13-1074,13-1075"
     pdfSource: "slipopinion/14"
     dateDecision: "Wednesday, April 22, 2015"
     voteMajority: 5
@@ -393,7 +393,7 @@ cases:
   - id: "2015-008"
     termId: "2015-10"
     title: "FERC v. Electric Power Supply Assn."
-    docket: "14-840"
+    docket: "14-840,14-841"
     pdfSource: "slipopinion/15"
     dateDecision: "Monday, January 25, 2016"
     voteMajority: 6
@@ -524,7 +524,7 @@ cases:
   - id: "2016-057"
     termId: "2016-10"
     title: "Advocate Health Care Network v. Stapleton"
-    docket: "16-74"
+    docket: "16-74,16-86,16-258"
     pdfSource: "slipopinion/16"
     dateDecision: "Monday, June 5, 2017"
     voteMajority: 8

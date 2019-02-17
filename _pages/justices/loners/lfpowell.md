@@ -34,7 +34,7 @@ cases:
     title: "Connor v. Finch"
     volume: "431"
     page: "407"
-    docket: "76-777"
+    docket: "76-777,76-933,76-934,76-935"
     citation: "431 U.S. 407"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 31, 1977"

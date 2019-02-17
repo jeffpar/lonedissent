@@ -8,7 +8,7 @@ cases:
     title: "Hoffa v. United States"
     volume: "385"
     page: "293"
-    docket: "32"
+    docket: "32,33,34,35"
     citation: "385 U.S. 293"
     pdfSource: "loc"
     dateDecision: "Monday, December 12, 1966"

@@ -47,7 +47,7 @@ cases:
     title: "American Trucking Assns., Inc. v. Frisco Transp. Co."
     volume: "358"
     page: "133"
-    docket: "15"
+    docket: "15,16,19"
     citation: "358 U.S. 133"
     pdfSource: "loc"
     dateDecision: "Monday, December 15, 1958"

@@ -32,7 +32,7 @@ cases:
   - id: "2011-065"
     termId: "2011-10"
     title: "Match-E-Be-Nash-She-Wish Band of Pottawatomi Indians v. Patchak"
-    docket: "11-246"
+    docket: "11-246,11-247"
     pdfSource: "scotusBound"
     dateDecision: "Monday, June 18, 2012"
     voteMajority: 8
@@ -72,7 +72,7 @@ cases:
   - id: "2015-005"
     termId: "2015-10"
     title: "Kansas v. Carr"
-    docket: "14-449"
+    docket: "14-449,14-450,14-452"
     pdfSource: "slipopinion/15"
     dateDecision: "Wednesday, January 20, 2016"
     voteMajority: 8
