@@ -4036,8 +4036,8 @@ function generateDownloadTasks(done)
         let downloadGroups = Object.keys(downloads);
         downloadGroups.forEach((group) => {
             let downloadGroup = downloads[group];
-            let mappings = downloadGroup.mappingCols || "";
-            let mappingsOld = downloadGroup.mappingFile && readFile(downloadGroup.mappingFile) || "";
+            let mappings = downloadGroup.mappingFile && readFile(downloadGroup.mappingFile) || downloadGroup.mappingCols || "";
+            let mappingsOld = mappings;
             if (downloadGroup.start && downloadGroup.stop) {
                 for (let index = downloadGroup.start; index <= downloadGroup.stop; index++) {
                     let url = sprintf(downloadGroup.url, index);
@@ -4048,15 +4048,18 @@ function generateDownloadTasks(done)
             }
             else if (downloadGroup.files) {
                 let limit = +argv['limit'] || -1;
-                let fileSpec = downloadGroup.files.replace('$1', argv['group'] || "**");
-                let files = glob.sync(rootDir + fileSpec);
-                files.forEach((file) => {
-                    let html = readFile(file);
+                let fileSpec = downloadGroup.files.replace("$1", argv['group'] || "**");
+                let rePattern = new RegExp(downloadGroup.files.replace(".", "\\.").replace("*", "(.*?)").replace("$1", "(.*?)"));
+                let filePaths = glob.sync(rootDir + fileSpec);
+                filePaths.forEach((filePath) => {
+                    let match = filePath.match(rePattern);
+                    let term = match? match[1] : "";
+                    let html = readFile(filePath);
                     if (html) {
                         let index = 1;
-                        let dir = path.dirname(file);
+                        let dir = path.dirname(filePath);
                         let folder = path.basename(dir);
-                        let match, re = new RegExp(downloadGroup.pattern, "g");
+                        let re = new RegExp(downloadGroup.pattern, "g");
                         while ((match = re.exec(html))) {
                             let mappingData = downloadGroup.mappingData || "";
                             let nTokens = match.length - 1;
@@ -4097,15 +4100,17 @@ function generateDownloadTasks(done)
                                             }
                                         });
                                     }
-                                    mappings += mappingData.replace('$file', path.join(path.sep, dir, file)).replace('$url', url);
-                                    if (createDownloadTask('download.' + source + '.' + group + '.' + folder + '.' + index++, url, dir, file)) limit--;
+                                    if (createDownloadTask('download.' + source + '.' + group + '.' + folder + '.' + index++, url, dir, file)) {
+                                        mappings += mappingData.replace('$file', path.join(path.sep, dir, file)).replace('$url', url).replace('$term', term);
+                                        limit--;
+                                    }
                                 }
                             }
                         }
                     }
                 });
             }
-            if (downloadGroup.mappingFile && mappings !== mappingsOld) {
+            if (downloadGroup.mappingFile && mappings != mappingsOld) {
                 writeFile(downloadGroup.mappingFile, mappings);
             }
         });
@@ -4114,6 +4119,46 @@ function generateDownloadTasks(done)
     rowsLOC.forEach((cite) => {
         getLOCPDF(cite.volume, cite.page, cite.pageURL);
     });
+    let cases = JSON.parse(readFile(sources.oyez.cases) || "{}");
+    if (cases) {
+        cases.ids.forEach((id) => {
+            let dir = path.join(path.dirname(sources.oyez.cases), id, "_files");
+            let file = id + ".json";
+            let filePath = path.join(dir, file);
+            if (fs.existsSync(rootDir + filePath)) {
+                let json = readFile(filePath);
+                if (json) {
+                    let lines = json.split('\n');
+                    if (lines.length == 1) {
+                        json = sprintf("%2j", JSON.parse(json));
+                        writeFile(filePath, json, true);
+                    }
+                    let cases = JSON.parse(json);
+                    cases.forEach((obj) => {
+                        let fileID = obj.docket_number + '_' + obj.ID;
+                        let file = fileID + ".json";
+                        let filePath = path.join(dir, file);
+                        if (fs.existsSync(rootDir + filePath)) {
+                            let json = readFile(filePath);
+                            if (json) {
+                                let lines = json.split('\n');
+                                if (lines.length == 1) {
+                                    json = sprintf("%2j", JSON.parse(json));
+                                    writeFile(filePath, json, true);
+                                }
+                            }
+                        } else {
+                            let url = obj.href;
+                            createDownloadTask('download.case.' + fileID, url, dir, file);
+                        }
+                    });
+                }
+            } else {
+                let url = sprintf(cases.api, id);
+                createDownloadTask('download.case.' + id, url, dir, file);
+            }
+        });
+    }
     let advocates = JSON.parse(readFile(sources.oyez.advocates) || "{}");
     if (advocates) {
         let ids = Object.keys(advocates.ids);
@@ -4340,15 +4385,15 @@ gulp.task("loners", gulp.series(findLonerDecisions, findLonerJustices, findLoner
 gulp.task("lonerDecisions", findLonerDecisions);
 gulp.task("lonerJustices", findLonerJustices);
 gulp.task("lonerParties", findLonerParties);
-gulp.task("matchTranscripts", matchTranscripts);
 gulp.task("backup", backupLonerDecisions);
 gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
 gulp.task("fixAdvocates", fixAdvocates);
 gulp.task("fixDecisions", fixDecisions);
 gulp.task("fixDockets", fixDockets);
 gulp.task("fixLOC", fixLOC);
-gulp.task("rebuild", gulp.series(setRebuild, findAllDecisions, findAllJustices, findLonerDecisions, findLonerJustices, findLonerParties, buildAdvocates));
+gulp.task("matchTranscripts", matchTranscripts);
 gulp.task("merge", gulp.series(mergeSCDBDockets));
+gulp.task("rebuild", gulp.series(setRebuild, findAllDecisions, findAllJustices, findLonerDecisions, findLonerJustices, findLonerParties, buildAdvocates));
 gulp.task("scrape", scrapeFiles);
 gulp.task("tests", gulp.series(testDates));
 gulp.task("default", findDecisions);
