@@ -3224,11 +3224,8 @@ function findAdvocates(done)
             warning("unexpected transcript file name: %s\n", fileName);
             continue;
         }
-        if (!fs.existsSync(rootDir + filePath)) {
-            warning("missing transcript file: %s\n", filePath);
-        }
         if (!fs.existsSync(rootDir + filePath.replace(".pdf", ".txt"))) {
-            warning("missing transcript text: %s\n", filePath);
+            warning("missing transcript file: %s\n", filePath);
         }
         if (!fs.existsSync(rootDir + filePath)) {
             warning("missing transcript file: %s\n", filePath);
