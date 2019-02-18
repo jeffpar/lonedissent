@@ -427,6 +427,7 @@ function removeValues(a, values)
  * @param {function(*,*} [compare]
  * @param {number} [left]
  * @param {number} [right]
+ * @return {Array}
  */
 function binaryInsert(a, v, compare, left=0, right=a.length)
 {
@@ -434,6 +435,7 @@ function binaryInsert(a, v, compare, left=0, right=a.length)
     if (index < 0) {
         a.splice(-(index + 1), 0, v);
     }
+    return a;
 }
 
 /**
@@ -485,11 +487,24 @@ function cloneObject(obj)
 }
 
 /**
+ * insertSortedArray(a, v)
+ *
+ * @param {Array} a
+ * @param {*} v
+ * @return {Array}
+ */
+function insertSortedArray(a, v)
+{
+    return binaryInsert(a, v);
+}
+
+/**
  * insertSortedObject(rows, row, keys)
  *
  * @param {Array.<object>} rows
  * @param {object} row
  * @param {Array.<string>} keys
+ * @return {Array.<object>}
  */
 function insertSortedObject(rows, row, keys)
 {
@@ -501,7 +516,31 @@ function insertSortedObject(rows, row, keys)
             if (k == keys.length - 1) return 0;
         }
     };
-    binaryInsert(rows, row, compare);
+    return binaryInsert(rows, row, compare);
+}
+
+/**
+ * isSortedArray(a, fQuiet)
+ *
+ * @param {Array} a
+ * @param {boolean} [fQuiet]
+ * @return {boolean}
+ */
+function isSortedArray(a, fQuiet)
+{
+    let isSorted = true;
+    for (let i = 1; i < a.length; i++) {
+        let v1 = a[i-1], v2 = a[i];
+        if (v1 < v2) break;
+        if (v1 == v2) continue;
+        isSorted = false;
+        if (fQuiet) {
+            i = a.length;
+            break;
+        }
+        warning("element %d (%s) > element %d (%s)\n", i-1, v1, i, v2);
+    }
+    return isSorted;
 }
 
 /**
@@ -526,7 +565,7 @@ function isSortedObjects(rows, keys, fQuiet)
                 i = rows.length;
                 break;
             }
-            warning("row %d '%s' (%s) > row %d '%s' (%s)\n", i+1, key, row1[key], i+2, key, row2[key]);
+            warning("row %d '%s' (%s) > row %d '%s' (%s)\n", i-1, key, row1[key], i, key, row2[key]);
         }
     }
     return isSorted;
@@ -597,15 +636,14 @@ function searchSortedObjects(rows, row, fUnique)
 }
 
 /**
- * sortObjects(rows, keys, fReverse)
+ * sortObjects(rows, keys, order)
  *
  * @param {Array.<object>} rows
  * @param {Array.<string>} keys
- * @param {boolean} [fReverse]
+ * @param {number} [order] (default is 1, for ascending order; use -1 for descending order)
  */
-function sortObjects(rows, keys, fReverse)
+function sortObjects(rows, keys, order=1)
 {
-    let order = fReverse? -1 : 1;
     rows.sort(function(row1, row2) {
         for (let k = 0; k < keys.length; k++) {
             let key = keys[k];
@@ -1717,7 +1755,7 @@ function buildAdvocates(done)
                 writeFile(filePath, fileText);
             }
         });
-        sortObjects(top100, ["total"], true);
+        sortObjects(top100, ["total"], -1);
         let filePath = "/_pages" + pathAdvocates + "/all.md";
         let text = readFile(filePath);
         if (text) {
@@ -2871,7 +2909,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 let decision = searchResults[0];
                 let dockets = decision.docket.split(',');
                 let datesArgument = decision.dateArgument.split(',');
-                let datesReargument = decision.dateRearg.split(',');
+                let datesRearg = decision.dateRearg.split(',');
 
                 let docketNumbers = "";
                 addDockets.forEach((docket) => {
@@ -2888,22 +2926,20 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 addArgs.forEach((arg) => {
                     arg = fixDate(arg);
                     if (arg && datesArgument.indexOf(arg) < 0) {
-                        if (decision.dateArgument) decision.dateArgument += ',';
-                        decision.dateArgument += arg;
+                        decision.dateArgument = insertSortedArray(datesArgument, arg).join(',');
                         corrections++;
                         if (argumentDates) argumentDates += ',';
                         argumentDates += arg;
                     }
                 });
-                let reargumentDates = "";
+                let reargDates = "";
                 addReargs.forEach((arg) => {
                     arg = fixDate(arg);
-                    if (arg && datesReargument.indexOf(arg) < 0) {
-                        if (decision.dateRearg) decision.dateRearg += ',';
-                        decision.dateRearg += arg;
+                    if (arg && datesRearg.indexOf(arg) < 0) {
+                        decision.dateRearg = insertSortedArray(datesRearg, arg).join(',');
                         corrections++;
-                        if (reargumentDates) reargumentDates += ',';
-                        reargumentDates += arg;
+                        if (reargDates) reargDates += ',';
+                        reargDates += arg;
                     }
                 });
                 if (corrections) {
@@ -2916,9 +2952,9 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         if (additions) additions += " and ";
                         additions += "dateArgument " + argumentDates;
                     }
-                    if (reargumentDates) {
+                    if (reargDates) {
                         if (additions) additions += " and ";
-                        additions += "dateReargument " + reargumentDates;
+                        additions += "dateRearg " + reargDates;
                     }
                     decision.caseNotes += "added " + additions + reason;
                     printf("updated caseNotes: %s\n", decision.caseNotes);
@@ -3185,7 +3221,7 @@ function findJustices(done, minVotes)
 
             }
         });
-        sortObjects(data, minVotes == 1? ["loneTotal"] : ["majorityTotal"], true);
+        sortObjects(data, minVotes == 1? ["loneTotal"] : ["majorityTotal"], -1);
         writeFile(dataFile, data);
     }
     let index = "";
@@ -4077,10 +4113,20 @@ function testDates(done)
     dataFiles.forEach((dataFile) => {
         let data = JSON.parse(readFile(dataFile) || "[]");
         if (data.length) {
-            sortObjects(data, ["caseId"]);
-            writeFile(dataFile, data);
+            if (!isSortedObjects(data, ["caseId"])) {
+                sortObjects(data, ["caseId"]);
+                writeFile(dataFile, data);
+            }
         }
     });
+
+    let dates = ["1989-09-27", "1962-08-10", "1963-08-04"];
+    if (isSortedArray(dates, true)) warning("array is NOT sorted: %2j\n", dates);
+    dates.sort();
+    if (!isSortedArray(dates, true)) warning("array IS sorted: %2j\n", dates);
+    insertSortedArray(dates, "1971-07-04");
+    if (!isSortedArray(dates, true)) warning("array is failed to REMAIN sorted: %2j\n", dates);
+    console.log(dates);
 
     done();
 }
