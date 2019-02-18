@@ -608,8 +608,8 @@ function searchSortedObjects(rows, row, fUnique)
         for (let k = 0; k < keys.length; k++) {
             let key = keys[k];
             let v1 = row1[key], v2 = row2[key];
-            if (typeof v1 == "string" && v1.slice(-1) == '.') v1 = v1.slice(0, -1);
-            if (typeof v2 == "string" && v2.slice(-1) == '.') v2 = v2.slice(0, -1);
+            // if (typeof v1 == "string" && v1.slice(-1) == '.') v1 = v1.slice(0, -1);
+            // if (typeof v2 == "string" && v2.slice(-1) == '.') v2 = v2.slice(0, -1);
             if (v1 > v2) {
                 // printf("%s: %s > %s: 1\n", key, v1, v1);
                 return 1;
@@ -2867,7 +2867,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                                                     let datePrint = decision.dateDecision;
                                                     if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || !reargued && (datePrint = decision.dateRearg).indexOf(argued) == 0 || reargued && (datePrint = decision.dateRearg).indexOf(reargued) == 0) {
                                                         printf("%s: %s [%s] (%s) {%s}: %d-%d\n", datePrint, decision.caseTitle || decision.caseName, decision.docket, decision.usCite, decision.dateArgument + (decision.dateRearg? '|' + decision.dateRearg : ""), decision.majVotes, decision.minVotes);
-                                                        if (argv['url']) {
+                                                        if (argv['detail']) {
                                                             let dates = decision.dateArgument.split(',');
                                                             dates.forEach((date) => { if (date) printf("\tArgued: %#C\n", date); });
                                                             dates = decision.dateRearg.split(',');
@@ -2897,8 +2897,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
         let condition = minVotes? sprintf(" with minVotes of %d", minVotes) : "";
         printf("results%s%s: %d\n", range, condition, searchResults.length);
 
-        let corrections = 0;
-        if (argv['addDocket'] || argv['addArgued'] || argv['addReargued']) {
+        if (argv['addDocket'] || argv['addArgued'] || argv['addReargued'] || argv['addDecided']) {
+            let corrections = 0;
             let reason = argv['reason'] || "";
             if (!reason) {
                 warning("please give a reason (--reason) for the correction\n");
@@ -2911,12 +2911,16 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 if (typeof addArgDates == "string") addArgDates = [addArgDates];
                 let addReargDates = argv['addReargued'] || [];
                 if (typeof addReargDates == "string") addReargDates = [addReargDates];
+                let addDecDate = argv['addDecided'] || "";
                 reason = " (" + reason.replace(/;/g, ',') + ")";
 
                 let decision = searchResults[0];
-                let dockets = decision.docket.split(',');
-                let datesArgument = decision.dateArgument.split(',');
-                let datesRearg = decision.dateRearg.split(',');
+                let dockets = [], datesArgument = [], datesRearg = [];
+                if (!argv['replace']) {
+                    dockets = decision.docket.split(',');
+                    datesArgument = decision.dateArgument.split(',');
+                    datesRearg = decision.dateRearg.split(',');
+                }
 
                 let docketNumbers = "";
                 addDockets.forEach((docket) => {
@@ -2961,6 +2965,21 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         warning("unexpected dateRearg format: %s\n", arg);
                     }
                 });
+                let decisionDate = "";
+                if (addDecDate) {
+                    let decDate = fixDate(addDecDate);
+                    if (decDate) {
+                        if (argv['replace'] || !decision.dateDecision) {
+                            decision.dateDecision = decDate;
+                            corrections++;
+                            decisionDate = decDate;
+                        } else {
+                            warning("dateDecision already exists: %s\n", decision.dateDecision);
+                        }
+                    } else {
+                        warning("unexpected dateDecision format: %s\n", addDecDate);
+                    }
+                }
                 if (corrections && !warnings) {
                     decision.caseNotes = decision.caseNotes? (decision.caseNotes + '; ') : "";
                     let additions = "";
@@ -2975,11 +2994,17 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         if (additions) additions += " and ";
                         additions += "dateRearg " + reargumentDates;
                     }
-                    decision.caseNotes += "added " + additions + reason;
+                    if (decisionDate) {
+                        if (additions) additions += " and ";
+                        additions += "dateDecision " + decisionDate;
+                    }
+                    decision.caseNotes += (argv['replace']? "replaced " : "added ") + additions + reason;
                     printf("updated caseNotes: %s\n", decision.caseNotes);
                     writeFile(results.json.decisions, decisions);
                 }
             }
+            done();
+            return;
         }
 
         if (searchResults.length) {
@@ -3919,7 +3944,7 @@ function fixDate(sDate)
 {
     let newDate = "";
     if (sDate) {
-        if (sDate.match(/^[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]$/)) {
+        if (sDate.match(/^[0-9][0-9][0-9][0-9]-[0-9][0-9](-[0-9][0-9]|)$/)) {
             newDate = sDate;
         }
     }
@@ -4473,6 +4498,35 @@ function mergeSCDBDockets(done)
 }
 
 /**
+ * reportChanges(done)
+ *
+ * @param {function()} done
+ */
+function reportChanges(done)
+{
+    printf("reading decisions...\n");
+    let decisions = JSON.parse(readFile(results.json.decisions));
+    if (!isSortedObjects(decisions, ["caseId"])) {
+        warning("decisions database not sorted by caseId...\n");
+    } else {
+        printf("reading %s...\n", logs.csv.changedDates);
+        let changes = readCSV(logs.csv.changedDates);
+        changes.forEach((change) => {
+            let i = searchSortedObjects(decisions, {"caseId": change.caseId}, true);
+            if (i < 0) {
+                warning("unable to find caseId %s\n", change.caseId);
+                return;
+            }
+            let decision = decisions[i];
+            if (decision.dateDecision != change.dateDecisionNew) {
+                warning("%s: (%s) dateDecision still set to %s intead of %s\n", change.caseId, change.usCite, decision.dateDecision, change.dateDecisionNew);
+            }
+        });
+    }
+    done();
+}
+
+/**
  * scrapeWallaceCases()
  */
 function scrapeWallaceCases()
@@ -4570,6 +4624,7 @@ gulp.task("fixLOC", fixLOC);
 gulp.task("matchTranscripts", matchTranscripts);
 gulp.task("merge", gulp.series(mergeSCDBDockets));
 gulp.task("rebuild", gulp.series(setRebuild, findAllDecisions, findAllJustices, findLonerDecisions, findLonerJustices, findLonerParties, buildAdvocates));
+gulp.task("reportChanges", reportChanges);
 gulp.task("scrape", scrapeFiles);
 gulp.task("tests", gulp.series(testDates));
 gulp.task("default", findDecisions);
