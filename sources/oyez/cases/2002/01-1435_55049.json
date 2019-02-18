@@ -1,0 +1,1054 @@
+{
+  "ID": 55049,
+  "name": "Clackamas Gastroenterology Associates, P. C. v. Wells",
+  "href": "https://api.oyez.org/cases/2002/01-1435",
+  "view_count": 112,
+  "docket_number": "01-1435",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "Clackamas Gastroenterology Associates, P. C.",
+  "second_party": "Wells",
+  "timeline": [
+    {
+      "event": "Argued",
+      "dates": [
+        1046152800
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/38824"
+    },
+    {
+      "event": "Decided",
+      "dates": [
+        1050987600
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/38825"
+    }
+  ],
+  "lower_court": {
+    "ID": 5,
+    "name": "United States Court of Appeals for the Ninth Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/5"
+  },
+  "facts_of_the_case": "<p>Deborah Wells worked for Clackamas Gastroenterology Associates, P.C. from 1986 until 1997. Wells filed suit, alleging that Clackamas Gastroenterology violated the Americans with Disabilities Act of 1990 (ADA) when it terminated her employment. Clackamas moved for summary judgment, arguing that it was not covered by the Act because it did not have 15 or more employees for the 20 weeks required by the ADA. This argument depended on the four physician-shareholders, who own the professional corporation and constitute its board of directors, not being counted as employees. In granting the motion, the District Court concluded that the physicians were more analogous to partners in a partnership than to shareholders in a corporation and therefore were not employees under the ADA. In reversing, the Court of Appeals found no reasoned to permit the professional corporation to argue it was a partnership so as to avoid employment discrimination liability.</p>\n",
+  "question": "<p>Should four physicians actively engaged in medical practice as shareholders and directors of a professional corporation be counted as employees under the Americans with Disabilities Act of 1990?</p>\n",
+  "conclusion": "<p>In a 7-2 opinion delivered by Justice John Paul Stevens, the Court held that the common-law element of control is the principal guidepost to be followed in deciding whether the four director-shareholder physicians in this case should be counted as employees and listed six factors that are relevant to such a decision. \"Because the District Court's findings appear to weigh in favor of concluding that the four physicians are not clinic employees, but evidence in the record may contradict those findings or support a contrary conclusion,\" the Court remanded the case for a determination under the new standard. Justice Ruth Bader Ginsburg, joined by Justice Stephen G. Breyer, dissented, arguing that the physician-shareholders function in several respects as common-law employees in their capacity as doctors performing everyday functions.</p>\n",
+  "advocates": [
+    {
+      "advocate": {
+        "ID": 18566,
+        "name": "Craig A. Crispin",
+        "href": "https://api.oyez.org/people/craig_a_crispin",
+        "view_count": 0,
+        "last_name": "Crispin",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "craig_a_crispin"
+      },
+      "advocate_description": "Argued the cause for the respondent",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/18246"
+    },
+    {
+      "advocate": {
+        "ID": 42095,
+        "name": "Steven W. Seymour",
+        "href": "https://api.oyez.org/people/steven_w_seymour",
+        "view_count": 0,
+        "last_name": "Seymour",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "steven_w_seymour"
+      },
+      "advocate_description": "Argued the cause for the petitioner",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/18247"
+    },
+    {
+      "advocate": {
+        "ID": 28554,
+        "name": "Irving L. Gornstein",
+        "href": "https://api.oyez.org/people/irving_l_gornstein",
+        "view_count": 0,
+        "last_name": "Gornstein",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "irving_l_gornstein"
+      },
+      "advocate_description": "Department of Justice, argued the cause for the United States, as amicus curiae, supporting the petitioner",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/18248"
+    }
+  ],
+  "oral_argument_audio": [
+    {
+      "id": 22380,
+      "title": "Oral Argument - February 25, 2003",
+      "public_note": null,
+      "unavailable": null,
+      "display_title": null,
+      "href": "https://api.oyez.org/case_media/oral_argument_audio/22380"
+    }
+  ],
+  "citation": {
+    "volume": "538",
+    "page": "440",
+    "year": "2003",
+    "href": "https://api.oyez.org/case_citation/case_citation/18978"
+  },
+  "decisions": [
+    {
+      "description": null,
+      "votes": [
+        {
+          "member": {
+            "ID": 15141,
+            "name": "William H. Rehnquist",
+            "href": "https://api.oyez.org/people/william_h_rehnquist",
+            "view_count": 0,
+            "last_name": "Rehnquist",
+            "roles": [
+              {
+                "id": 2787,
+                "type": "scotus_justice",
+                "date_start": 63612000,
+                "date_end": 528094800,
+                "appointing_president": "Richard Nixon",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2787"
+              },
+              {
+                "id": 2788,
+                "type": "scotus_justice",
+                "date_start": 528094800,
+                "date_end": 1125723600,
+                "appointing_president": "Ronald Reagan",
+                "role_title": "Chief Justice of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2788"
+              }
+            ],
+            "thumbnail": {
+              "id": 32786,
+              "mime": "image/png",
+              "size": 46923,
+              "href": "https://api.oyez.org/sites/default/files/images/people/william_h_rehnquist/william_h_rehnquist.thumb.png"
+            },
+            "length_of_service": 12293,
+            "identifier": "william_h_rehnquist"
+          },
+          "vote": "majority",
+          "opinion_type": "none",
+          "joining": null,
+          "seniority": 1,
+          "ideology": 1.239,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/176309"
+        },
+        {
+          "member": {
+            "ID": 15060,
+            "name": "John Paul Stevens",
+            "href": "https://api.oyez.org/people/john_paul_stevens",
+            "view_count": 0,
+            "last_name": "Stevens",
+            "roles": [
+              {
+                "id": 2704,
+                "type": "scotus_justice",
+                "date_start": 188200800,
+                "date_end": 1277787600,
+                "appointing_president": "Gerald Ford",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2704"
+              }
+            ],
+            "thumbnail": {
+              "id": 32732,
+              "mime": "image/png",
+              "size": 62101,
+              "href": "https://api.oyez.org/sites/default/files/images/people/john_paul_stevens/john_paul_stevens.thumb.png"
+            },
+            "length_of_service": 12611,
+            "identifier": "john_paul_stevens"
+          },
+          "vote": "majority",
+          "opinion_type": "none",
+          "joining": null,
+          "seniority": 2,
+          "ideology": -2.896,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/176310"
+        },
+        {
+          "member": {
+            "ID": 15092,
+            "name": "Sandra Day O'Connor",
+            "href": "https://api.oyez.org/people/sandra_day_oconnor",
+            "view_count": 0,
+            "last_name": "O'Connor",
+            "roles": [
+              {
+                "id": 2736,
+                "type": "scotus_justice",
+                "date_start": 370242000,
+                "date_end": 1138687200,
+                "appointing_president": "Ronald Reagan",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2736"
+              }
+            ],
+            "thumbnail": {
+              "id": 32763,
+              "mime": "image/png",
+              "size": 49563,
+              "href": "https://api.oyez.org/sites/default/files/images/people/sandra_day_oconnor/sandra_day_oconnor.thumb.png"
+            },
+            "length_of_service": 8894,
+            "identifier": "sandra_day_oconnor"
+          },
+          "vote": "majority",
+          "opinion_type": "none",
+          "joining": null,
+          "seniority": 3,
+          "ideology": 0.243,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/176311"
+        },
+        {
+          "member": {
+            "ID": 15049,
+            "name": "Antonin Scalia",
+            "href": "https://api.oyez.org/people/antonin_scalia",
+            "view_count": 113,
+            "last_name": "Scalia",
+            "roles": [
+              {
+                "id": 2693,
+                "type": "scotus_justice",
+                "date_start": 528094800,
+                "date_end": 1455343200,
+                "appointing_president": "Ronald Reagan",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2693"
+              }
+            ],
+            "thumbnail": {
+              "id": 32678,
+              "mime": "image/png",
+              "size": 58944,
+              "href": "https://api.oyez.org/sites/default/files/images/people/antonin_scalia/antonin_scalia.thumb.png"
+            },
+            "length_of_service": 10732,
+            "identifier": "antonin_scalia"
+          },
+          "vote": "majority",
+          "opinion_type": "none",
+          "joining": null,
+          "seniority": 4,
+          "ideology": 2.997,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/176312"
+        },
+        {
+          "member": {
+            "ID": 15113,
+            "name": "Anthony M. Kennedy",
+            "href": "https://api.oyez.org/people/anthony_m_kennedy",
+            "view_count": 134,
+            "last_name": "Kennedy",
+            "roles": [
+              {
+                "id": 2757,
+                "type": "scotus_justice",
+                "date_start": 572162400,
+                "date_end": 1533013200,
+                "appointing_president": "Ronald Reagan",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2757"
+              }
+            ],
+            "thumbnail": {
+              "id": 32679,
+              "mime": "image/png",
+              "size": 47100,
+              "href": "https://api.oyez.org/sites/default/files/images/people/anthony_m_kennedy/anthony_m_kennedy.thumb.png"
+            },
+            "length_of_service": 11121,
+            "identifier": "anthony_m_kennedy"
+          },
+          "vote": "majority",
+          "opinion_type": "none",
+          "joining": null,
+          "seniority": 5,
+          "ideology": 0.886,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/176313"
+        },
+        {
+          "member": {
+            "ID": 15042,
+            "name": "David H. Souter",
+            "href": "https://api.oyez.org/people/david_h_souter",
+            "view_count": 0,
+            "last_name": "Souter",
+            "roles": [
+              {
+                "id": 2686,
+                "type": "scotus_justice",
+                "date_start": 655362000,
+                "date_end": 1246251600,
+                "appointing_president": "George H. W. Bush",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2686"
+              }
+            ],
+            "thumbnail": {
+              "id": 32703,
+              "mime": "image/png",
+              "size": 42141,
+              "href": "https://api.oyez.org/sites/default/files/images/people/david_h_souter/david_h_souter.thumb.png"
+            },
+            "length_of_service": 6839,
+            "identifier": "david_h_souter"
+          },
+          "vote": "majority",
+          "opinion_type": "none",
+          "joining": null,
+          "seniority": 6,
+          "ideology": -1.525,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/176314"
+        },
+        {
+          "member": {
+            "ID": 15100,
+            "name": "Clarence Thomas",
+            "href": "https://api.oyez.org/people/clarence_thomas",
+            "view_count": 321,
+            "last_name": "Thomas",
+            "roles": [
+              {
+                "id": 2744,
+                "type": "scotus_justice",
+                "date_start": 688194000,
+                "date_end": 0,
+                "appointing_president": "George H. W. Bush",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2744"
+              }
+            ],
+            "thumbnail": {
+              "id": 32680,
+              "mime": "image/png",
+              "size": 49064,
+              "href": "https://api.oyez.org/sites/default/files/images/people/clarence_thomas/clarence_thomas.thumb.png"
+            },
+            "length_of_service": 9347,
+            "identifier": "clarence_thomas"
+          },
+          "vote": "majority",
+          "opinion_type": "none",
+          "joining": null,
+          "seniority": 7,
+          "ideology": 3.878,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/176315"
+        },
+        {
+          "member": {
+            "ID": 15084,
+            "name": "Ruth Bader Ginsburg",
+            "href": "https://api.oyez.org/people/ruth_bader_ginsburg",
+            "view_count": 330,
+            "last_name": "Ginsburg",
+            "roles": [
+              {
+                "id": 2728,
+                "type": "scotus_justice",
+                "date_start": 744958800,
+                "date_end": 0,
+                "appointing_president": "Bill Clinton",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2728"
+              }
+            ],
+            "thumbnail": {
+              "id": 32681,
+              "mime": "image/png",
+              "size": 45030,
+              "href": "https://api.oyez.org/sites/default/files/images/people/ruth_bader_ginsburg/ruth_bader_ginsburg.thumb.png"
+            },
+            "length_of_service": 8275,
+            "identifier": "ruth_bader_ginsburg"
+          },
+          "vote": "minority",
+          "opinion_type": "dissent",
+          "joining": null,
+          "seniority": 8,
+          "ideology": -1.704,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/176316"
+        },
+        {
+          "member": {
+            "ID": 15139,
+            "name": "Stephen G. Breyer",
+            "href": "https://api.oyez.org/people/stephen_g_breyer",
+            "view_count": 149,
+            "last_name": "Breyer",
+            "roles": [
+              {
+                "id": 2785,
+                "type": "scotus_justice",
+                "date_start": 775890000,
+                "date_end": 0,
+                "appointing_president": "Bill Clinton",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2785"
+              }
+            ],
+            "thumbnail": {
+              "id": 32682,
+              "mime": "image/png",
+              "size": 49908,
+              "href": "https://api.oyez.org/sites/default/files/images/people/stephen_g_breyer/stephen_g_breyer.thumb.png"
+            },
+            "length_of_service": 7917,
+            "identifier": "stephen_g_breyer"
+          },
+          "vote": "minority",
+          "opinion_type": "dissent",
+          "joining": [
+            {
+              "ID": 15084,
+              "name": "Ruth Bader Ginsburg",
+              "href": "https://api.oyez.org/people/ruth_bader_ginsburg",
+              "view_count": 330,
+              "last_name": "Ginsburg",
+              "roles": [
+                {
+                  "id": 2728,
+                  "type": "scotus_justice",
+                  "date_start": 744958800,
+                  "date_end": 0,
+                  "appointing_president": "Bill Clinton",
+                  "role_title": "Associate Justice of the Supreme Court of the United States",
+                  "institution_name": "Supreme Court of the United States",
+                  "href": "https://api.oyez.org/preson_role/scotus_justice/2728"
+                }
+              ],
+              "thumbnail": {
+                "id": 32681,
+                "mime": "image/png",
+                "size": 45030,
+                "href": "https://api.oyez.org/sites/default/files/images/people/ruth_bader_ginsburg/ruth_bader_ginsburg.thumb.png"
+              },
+              "length_of_service": 8275,
+              "identifier": "ruth_bader_ginsburg"
+            }
+          ],
+          "seniority": 9,
+          "ideology": -1.317,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/176317"
+        }
+      ],
+      "majority_vote": 7,
+      "minority_vote": 2,
+      "winning_party": "Clackamas Gastroenterology Associates, P. C.",
+      "decision_type": "majority opinion",
+      "href": "https://api.oyez.org/case_decision/case_decision/13115"
+    }
+  ],
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    {
+      "ID": 15238,
+      "name": "Rehnquist Court (1994-2005)",
+      "href": "https://api.oyez.org/courts/rehnquist10",
+      "view_count": 0,
+      "members": [
+        {
+          "ID": 15141,
+          "name": "William H. Rehnquist",
+          "href": "https://api.oyez.org/people/william_h_rehnquist",
+          "view_count": 0,
+          "last_name": "Rehnquist",
+          "roles": [
+            {
+              "id": 2787,
+              "type": "scotus_justice",
+              "date_start": 63612000,
+              "date_end": 528094800,
+              "appointing_president": "Richard Nixon",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2787"
+            },
+            {
+              "id": 2788,
+              "type": "scotus_justice",
+              "date_start": 528094800,
+              "date_end": 1125723600,
+              "appointing_president": "Ronald Reagan",
+              "role_title": "Chief Justice of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2788"
+            }
+          ],
+          "thumbnail": {
+            "id": 32786,
+            "mime": "image/png",
+            "size": 46923,
+            "href": "https://api.oyez.org/sites/default/files/images/people/william_h_rehnquist/william_h_rehnquist.thumb.png"
+          },
+          "length_of_service": 12293,
+          "identifier": "william_h_rehnquist"
+        },
+        {
+          "ID": 15060,
+          "name": "John Paul Stevens",
+          "href": "https://api.oyez.org/people/john_paul_stevens",
+          "view_count": 0,
+          "last_name": "Stevens",
+          "roles": [
+            {
+              "id": 2704,
+              "type": "scotus_justice",
+              "date_start": 188200800,
+              "date_end": 1277787600,
+              "appointing_president": "Gerald Ford",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2704"
+            }
+          ],
+          "thumbnail": {
+            "id": 32732,
+            "mime": "image/png",
+            "size": 62101,
+            "href": "https://api.oyez.org/sites/default/files/images/people/john_paul_stevens/john_paul_stevens.thumb.png"
+          },
+          "length_of_service": 12611,
+          "identifier": "john_paul_stevens"
+        },
+        {
+          "ID": 15092,
+          "name": "Sandra Day O'Connor",
+          "href": "https://api.oyez.org/people/sandra_day_oconnor",
+          "view_count": 0,
+          "last_name": "O'Connor",
+          "roles": [
+            {
+              "id": 2736,
+              "type": "scotus_justice",
+              "date_start": 370242000,
+              "date_end": 1138687200,
+              "appointing_president": "Ronald Reagan",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2736"
+            }
+          ],
+          "thumbnail": {
+            "id": 32763,
+            "mime": "image/png",
+            "size": 49563,
+            "href": "https://api.oyez.org/sites/default/files/images/people/sandra_day_oconnor/sandra_day_oconnor.thumb.png"
+          },
+          "length_of_service": 8894,
+          "identifier": "sandra_day_oconnor"
+        },
+        {
+          "ID": 15049,
+          "name": "Antonin Scalia",
+          "href": "https://api.oyez.org/people/antonin_scalia",
+          "view_count": 113,
+          "last_name": "Scalia",
+          "roles": [
+            {
+              "id": 2693,
+              "type": "scotus_justice",
+              "date_start": 528094800,
+              "date_end": 1455343200,
+              "appointing_president": "Ronald Reagan",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2693"
+            }
+          ],
+          "thumbnail": {
+            "id": 32678,
+            "mime": "image/png",
+            "size": 58944,
+            "href": "https://api.oyez.org/sites/default/files/images/people/antonin_scalia/antonin_scalia.thumb.png"
+          },
+          "length_of_service": 10732,
+          "identifier": "antonin_scalia"
+        },
+        {
+          "ID": 15113,
+          "name": "Anthony M. Kennedy",
+          "href": "https://api.oyez.org/people/anthony_m_kennedy",
+          "view_count": 134,
+          "last_name": "Kennedy",
+          "roles": [
+            {
+              "id": 2757,
+              "type": "scotus_justice",
+              "date_start": 572162400,
+              "date_end": 1533013200,
+              "appointing_president": "Ronald Reagan",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2757"
+            }
+          ],
+          "thumbnail": {
+            "id": 32679,
+            "mime": "image/png",
+            "size": 47100,
+            "href": "https://api.oyez.org/sites/default/files/images/people/anthony_m_kennedy/anthony_m_kennedy.thumb.png"
+          },
+          "length_of_service": 11121,
+          "identifier": "anthony_m_kennedy"
+        },
+        {
+          "ID": 15042,
+          "name": "David H. Souter",
+          "href": "https://api.oyez.org/people/david_h_souter",
+          "view_count": 0,
+          "last_name": "Souter",
+          "roles": [
+            {
+              "id": 2686,
+              "type": "scotus_justice",
+              "date_start": 655362000,
+              "date_end": 1246251600,
+              "appointing_president": "George H. W. Bush",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2686"
+            }
+          ],
+          "thumbnail": {
+            "id": 32703,
+            "mime": "image/png",
+            "size": 42141,
+            "href": "https://api.oyez.org/sites/default/files/images/people/david_h_souter/david_h_souter.thumb.png"
+          },
+          "length_of_service": 6839,
+          "identifier": "david_h_souter"
+        },
+        {
+          "ID": 15100,
+          "name": "Clarence Thomas",
+          "href": "https://api.oyez.org/people/clarence_thomas",
+          "view_count": 321,
+          "last_name": "Thomas",
+          "roles": [
+            {
+              "id": 2744,
+              "type": "scotus_justice",
+              "date_start": 688194000,
+              "date_end": 0,
+              "appointing_president": "George H. W. Bush",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2744"
+            }
+          ],
+          "thumbnail": {
+            "id": 32680,
+            "mime": "image/png",
+            "size": 49064,
+            "href": "https://api.oyez.org/sites/default/files/images/people/clarence_thomas/clarence_thomas.thumb.png"
+          },
+          "length_of_service": 9347,
+          "identifier": "clarence_thomas"
+        },
+        {
+          "ID": 15084,
+          "name": "Ruth Bader Ginsburg",
+          "href": "https://api.oyez.org/people/ruth_bader_ginsburg",
+          "view_count": 330,
+          "last_name": "Ginsburg",
+          "roles": [
+            {
+              "id": 2728,
+              "type": "scotus_justice",
+              "date_start": 744958800,
+              "date_end": 0,
+              "appointing_president": "Bill Clinton",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2728"
+            }
+          ],
+          "thumbnail": {
+            "id": 32681,
+            "mime": "image/png",
+            "size": 45030,
+            "href": "https://api.oyez.org/sites/default/files/images/people/ruth_bader_ginsburg/ruth_bader_ginsburg.thumb.png"
+          },
+          "length_of_service": 8275,
+          "identifier": "ruth_bader_ginsburg"
+        },
+        {
+          "ID": 15139,
+          "name": "Stephen G. Breyer",
+          "href": "https://api.oyez.org/people/stephen_g_breyer",
+          "view_count": 149,
+          "last_name": "Breyer",
+          "roles": [
+            {
+              "id": 2785,
+              "type": "scotus_justice",
+              "date_start": 775890000,
+              "date_end": 0,
+              "appointing_president": "Bill Clinton",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2785"
+            }
+          ],
+          "thumbnail": {
+            "id": 32682,
+            "mime": "image/png",
+            "size": 49908,
+            "href": "https://api.oyez.org/sites/default/files/images/people/stephen_g_breyer/stephen_g_breyer.thumb.png"
+          },
+          "length_of_service": 7917,
+          "identifier": "stephen_g_breyer"
+        }
+      ],
+      "court_start": 775890000,
+      "images": [
+        {
+          "id": 78530,
+          "mime": "image/jpeg",
+          "size": 1115948,
+          "href": "https://api.oyez.org/sites/default/files/images/courts/rehnquist10.jpg"
+        }
+      ],
+      "identifier": "rehnquist10"
+    }
+  ],
+  "decided_by": {
+    "ID": 15238,
+    "name": "Rehnquist Court (1994-2005)",
+    "href": "https://api.oyez.org/courts/rehnquist10",
+    "view_count": 0,
+    "members": [
+      {
+        "ID": 15141,
+        "name": "William H. Rehnquist",
+        "href": "https://api.oyez.org/people/william_h_rehnquist",
+        "view_count": 0,
+        "last_name": "Rehnquist",
+        "roles": [
+          {
+            "id": 2787,
+            "type": "scotus_justice",
+            "date_start": 63612000,
+            "date_end": 528094800,
+            "appointing_president": "Richard Nixon",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2787"
+          },
+          {
+            "id": 2788,
+            "type": "scotus_justice",
+            "date_start": 528094800,
+            "date_end": 1125723600,
+            "appointing_president": "Ronald Reagan",
+            "role_title": "Chief Justice of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2788"
+          }
+        ],
+        "thumbnail": {
+          "id": 32786,
+          "mime": "image/png",
+          "size": 46923,
+          "href": "https://api.oyez.org/sites/default/files/images/people/william_h_rehnquist/william_h_rehnquist.thumb.png"
+        },
+        "length_of_service": 12293,
+        "identifier": "william_h_rehnquist"
+      },
+      {
+        "ID": 15060,
+        "name": "John Paul Stevens",
+        "href": "https://api.oyez.org/people/john_paul_stevens",
+        "view_count": 0,
+        "last_name": "Stevens",
+        "roles": [
+          {
+            "id": 2704,
+            "type": "scotus_justice",
+            "date_start": 188200800,
+            "date_end": 1277787600,
+            "appointing_president": "Gerald Ford",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2704"
+          }
+        ],
+        "thumbnail": {
+          "id": 32732,
+          "mime": "image/png",
+          "size": 62101,
+          "href": "https://api.oyez.org/sites/default/files/images/people/john_paul_stevens/john_paul_stevens.thumb.png"
+        },
+        "length_of_service": 12611,
+        "identifier": "john_paul_stevens"
+      },
+      {
+        "ID": 15092,
+        "name": "Sandra Day O'Connor",
+        "href": "https://api.oyez.org/people/sandra_day_oconnor",
+        "view_count": 0,
+        "last_name": "O'Connor",
+        "roles": [
+          {
+            "id": 2736,
+            "type": "scotus_justice",
+            "date_start": 370242000,
+            "date_end": 1138687200,
+            "appointing_president": "Ronald Reagan",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2736"
+          }
+        ],
+        "thumbnail": {
+          "id": 32763,
+          "mime": "image/png",
+          "size": 49563,
+          "href": "https://api.oyez.org/sites/default/files/images/people/sandra_day_oconnor/sandra_day_oconnor.thumb.png"
+        },
+        "length_of_service": 8894,
+        "identifier": "sandra_day_oconnor"
+      },
+      {
+        "ID": 15049,
+        "name": "Antonin Scalia",
+        "href": "https://api.oyez.org/people/antonin_scalia",
+        "view_count": 113,
+        "last_name": "Scalia",
+        "roles": [
+          {
+            "id": 2693,
+            "type": "scotus_justice",
+            "date_start": 528094800,
+            "date_end": 1455343200,
+            "appointing_president": "Ronald Reagan",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2693"
+          }
+        ],
+        "thumbnail": {
+          "id": 32678,
+          "mime": "image/png",
+          "size": 58944,
+          "href": "https://api.oyez.org/sites/default/files/images/people/antonin_scalia/antonin_scalia.thumb.png"
+        },
+        "length_of_service": 10732,
+        "identifier": "antonin_scalia"
+      },
+      {
+        "ID": 15113,
+        "name": "Anthony M. Kennedy",
+        "href": "https://api.oyez.org/people/anthony_m_kennedy",
+        "view_count": 134,
+        "last_name": "Kennedy",
+        "roles": [
+          {
+            "id": 2757,
+            "type": "scotus_justice",
+            "date_start": 572162400,
+            "date_end": 1533013200,
+            "appointing_president": "Ronald Reagan",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2757"
+          }
+        ],
+        "thumbnail": {
+          "id": 32679,
+          "mime": "image/png",
+          "size": 47100,
+          "href": "https://api.oyez.org/sites/default/files/images/people/anthony_m_kennedy/anthony_m_kennedy.thumb.png"
+        },
+        "length_of_service": 11121,
+        "identifier": "anthony_m_kennedy"
+      },
+      {
+        "ID": 15042,
+        "name": "David H. Souter",
+        "href": "https://api.oyez.org/people/david_h_souter",
+        "view_count": 0,
+        "last_name": "Souter",
+        "roles": [
+          {
+            "id": 2686,
+            "type": "scotus_justice",
+            "date_start": 655362000,
+            "date_end": 1246251600,
+            "appointing_president": "George H. W. Bush",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2686"
+          }
+        ],
+        "thumbnail": {
+          "id": 32703,
+          "mime": "image/png",
+          "size": 42141,
+          "href": "https://api.oyez.org/sites/default/files/images/people/david_h_souter/david_h_souter.thumb.png"
+        },
+        "length_of_service": 6839,
+        "identifier": "david_h_souter"
+      },
+      {
+        "ID": 15100,
+        "name": "Clarence Thomas",
+        "href": "https://api.oyez.org/people/clarence_thomas",
+        "view_count": 321,
+        "last_name": "Thomas",
+        "roles": [
+          {
+            "id": 2744,
+            "type": "scotus_justice",
+            "date_start": 688194000,
+            "date_end": 0,
+            "appointing_president": "George H. W. Bush",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2744"
+          }
+        ],
+        "thumbnail": {
+          "id": 32680,
+          "mime": "image/png",
+          "size": 49064,
+          "href": "https://api.oyez.org/sites/default/files/images/people/clarence_thomas/clarence_thomas.thumb.png"
+        },
+        "length_of_service": 9347,
+        "identifier": "clarence_thomas"
+      },
+      {
+        "ID": 15084,
+        "name": "Ruth Bader Ginsburg",
+        "href": "https://api.oyez.org/people/ruth_bader_ginsburg",
+        "view_count": 330,
+        "last_name": "Ginsburg",
+        "roles": [
+          {
+            "id": 2728,
+            "type": "scotus_justice",
+            "date_start": 744958800,
+            "date_end": 0,
+            "appointing_president": "Bill Clinton",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2728"
+          }
+        ],
+        "thumbnail": {
+          "id": 32681,
+          "mime": "image/png",
+          "size": 45030,
+          "href": "https://api.oyez.org/sites/default/files/images/people/ruth_bader_ginsburg/ruth_bader_ginsburg.thumb.png"
+        },
+        "length_of_service": 8275,
+        "identifier": "ruth_bader_ginsburg"
+      },
+      {
+        "ID": 15139,
+        "name": "Stephen G. Breyer",
+        "href": "https://api.oyez.org/people/stephen_g_breyer",
+        "view_count": 149,
+        "last_name": "Breyer",
+        "roles": [
+          {
+            "id": 2785,
+            "type": "scotus_justice",
+            "date_start": 775890000,
+            "date_end": 0,
+            "appointing_president": "Bill Clinton",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2785"
+          }
+        ],
+        "thumbnail": {
+          "id": 32682,
+          "mime": "image/png",
+          "size": 49908,
+          "href": "https://api.oyez.org/sites/default/files/images/people/stephen_g_breyer/stephen_g_breyer.thumb.png"
+        },
+        "length_of_service": 7917,
+        "identifier": "stephen_g_breyer"
+      }
+    ],
+    "court_start": 775890000,
+    "images": [
+      {
+        "id": 78530,
+        "mime": "image/jpeg",
+        "size": 1115948,
+        "href": "https://api.oyez.org/sites/default/files/images/courts/rehnquist10.jpg"
+      }
+    ],
+    "identifier": "rehnquist10"
+  },
+  "term": "2002",
+  "location": null,
+  "opinion_announcement": [
+    {
+      "id": 22401,
+      "title": "Opinion Announcement - April 22, 2003",
+      "unavailable": null,
+      "href": "https://api.oyez.org/case_media/opinion_announcement_audio/22401"
+    }
+  ],
+  "description": null,
+  "written_opinion": [
+    {
+      "id": 3044,
+      "title": "Syllabus",
+      "author": null,
+      "type": {
+        "value": "syllabus",
+        "label": "Syllabus"
+      },
+      "justia_opinion_id": 1961226,
+      "justia_opinion_url": "https://supreme.justia.com/cases/federal/us/538/440/",
+      "judge_full_name": null,
+      "judge_last_name": null,
+      "title_overwrite": null,
+      "href": "https://api.oyez.org/case_document/written_opinion/3044"
+    },
+    {
+      "id": 3045,
+      "title": "View Case",
+      "author": null,
+      "type": {
+        "value": "case",
+        "label": null
+      },
+      "justia_opinion_id": 1961227,
+      "justia_opinion_url": "https://supreme.justia.com/cases/federal/us/538/440/case.html",
+      "judge_full_name": null,
+      "judge_last_name": null,
+      "title_overwrite": null,
+      "href": "https://api.oyez.org/case_document/written_opinion/3045"
+    }
+  ],
+  "related_cases": null,
+  "justia_url": "https://supreme.justia.com/cases/federal/us/538/440/"
+}

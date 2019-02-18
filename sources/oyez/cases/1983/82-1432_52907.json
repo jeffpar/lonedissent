@@ -1,0 +1,1104 @@
+{
+  "ID": 52907,
+  "name": "Pulliam v. Allen",
+  "href": "https://api.oyez.org/cases/1983/82-1432",
+  "view_count": 0,
+  "docket_number": "82-1432",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "Gladys Pulliam, Magistrate for the County of Culpeper, Virginia",
+  "second_party": "Richmond Allen and Jesse Nicholson",
+  "timeline": [
+    {
+      "event": "Argued",
+      "dates": [
+        436600800
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/34778"
+    },
+    {
+      "event": "Decided",
+      "dates": [
+        453358800
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/34779"
+    },
+    {
+      "event": "Granted",
+      "dates": [
+        420094800
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/53542"
+    }
+  ],
+  "lower_court": {
+    "ID": 9,
+    "name": "United States Court of Appeals for the Fourth Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/9"
+  },
+  "facts_of_the_case": "<p>In January 1980, Richmond Allen was arrested for allegedly using abusive and insulting language, which is a Class 3 misdemeanor with a maximum penalty of $500. Gladys Pulliam, the state magistrate for Culpeper County, Virginia set bail at $250 and, when Allen was unable to make bail, Pulliam committed him to the Culpeper County Jail for 14 days.  Allen was tried, found guilty, fined, and released. The trial judge reopened his case and reversed the judgment. Allen sued Pulliam in district court and sought declaratory and injunctive relief for incarcerating him while waiting for trial on non-jailable offenses.</p>\n<p>Jesse Nicholson was arrested four times in a two-month period for public intoxication, a Class 4 misdemeanor for which the maximum penalty is a $100 fine. Like Allen, Nicholson was incarcerated for failure to make bail, and he intervened in Allen’s suit as a party plaintiff.</p>\n<p>This district court held that Pulliam’s practice of incarcerating persons for not making bail on non-jailable offenses violated their rights to due process and equal protection. The district court enjoined the practice and found Allen and Nicholson entitled to costs, including attorneys’ fees. Pulliam appealed the finding regarding costs and argued that, as a judicial officer, she was granted judicial immunity. The U.S. Court of Appeals for the Fourth Circuit rejected the judicial immunity argument and affirmed the district court’s decision.</p>\n",
+  "question": "<p>Does judicial immunity protect a member of the judiciary acting in her official capacity from paying attorneys’ fees in a civil suit? </p>\n",
+  "conclusion": "<p>No. Justice Harry A. Blackmun delivered the opinion of the 5-4 majority. The Court held that the precedent set by British common law relied on the issuance of writs, rather than the imposition of judicial immunity, to protect judicial independence. The United States never had a doctrine of judicial immunity from prospective relief, and there was no evidence that the lack of that protection created a chilling effect on judicial independence. The Court held that there was no reason to assume such immunity was necessary. There was no legislative history to indicate that Congress intended to insulate judges from injunctive relief.  The Civil Rights Acts and their interpretations illustrate that Congress intended all state actors to be subject to such remedies to ensure the protection of Fourteenth Amendment rights. </p>\n<p>Justice Lewis F. Powell, Jr. wrote a dissent where he argued that judicial immunity from all types of relief and damages in civil suits is essential to protect judicial independence. He wrote that the majority’s opinion misinterprets British common law, which does rely on judicial immunity to protect judges from suit arising from a judge acting in her official capacity. He argued that the potential for the awarding of attorneys’ fees greatly increases the risk of harassing litigation because attorneys will recommend such action to clients. Chief Justice Warren E. Burger, Justice William H. Rehnquist, and Justice Sandra Day O’Connor joined in the dissent.</p>\n",
+  "advocates": [
+    {
+      "advocate": {
+        "ID": 25040,
+        "name": "Gerald L. Baliles",
+        "href": "https://api.oyez.org/people/gerald_l_baliles",
+        "view_count": 0,
+        "last_name": "Baliles",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "gerald_l_baliles"
+      },
+      "advocate_description": "on behalf of Petitioner",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/13174"
+    },
+    {
+      "advocate": {
+        "ID": 21666,
+        "name": "Deborah C. Wyatt",
+        "href": "https://api.oyez.org/people/deborah_c_wyatt",
+        "view_count": 0,
+        "last_name": "Wyatt",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "deborah_c_wyatt"
+      },
+      "advocate_description": "on behalf of Respondents",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/13175"
+    }
+  ],
+  "oral_argument_audio": [
+    {
+      "id": 18205,
+      "title": "Oral Argument - November 02, 1983",
+      "public_note": null,
+      "unavailable": null,
+      "display_title": null,
+      "href": "https://api.oyez.org/case_media/oral_argument_audio/18205"
+    }
+  ],
+  "citation": {
+    "volume": "466",
+    "page": "522",
+    "year": "1984",
+    "href": "https://api.oyez.org/case_citation/case_citation/16835"
+  },
+  "decisions": [
+    {
+      "description": null,
+      "votes": [
+        {
+          "member": {
+            "ID": 15104,
+            "name": "Thurgood Marshall",
+            "href": "https://api.oyez.org/people/thurgood_marshall",
+            "view_count": 109,
+            "last_name": "Marshall",
+            "roles": [
+              {
+                "id": 2748,
+                "type": "scotus_justice",
+                "date_start": -71002800,
+                "date_end": 686293200,
+                "appointing_president": "Lyndon B. Johnson",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2748"
+              }
+            ],
+            "thumbnail": {
+              "id": 32770,
+              "mime": "image/png",
+              "size": 59272,
+              "href": "https://api.oyez.org/sites/default/files/images/people/thurgood_marshall/thurgood_marshall.thumb.png"
+            },
+            "length_of_service": 8765,
+            "identifier": "thurgood_marshall"
+          },
+          "vote": "majority",
+          "opinion_type": "none",
+          "joining": null,
+          "seniority": 4,
+          "ideology": -3.824,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/156515"
+        },
+        {
+          "member": {
+            "ID": 15140,
+            "name": "William J. Brennan, Jr.",
+            "href": "https://api.oyez.org/people/william_j_brennan_jr",
+            "view_count": 0,
+            "last_name": "Brennan",
+            "roles": [
+              {
+                "id": 2786,
+                "type": "scotus_justice",
+                "date_start": -416862000,
+                "date_end": 648450000,
+                "appointing_president": "Dwight D. Eisenhower",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2786"
+              }
+            ],
+            "thumbnail": {
+              "id": 32778,
+              "mime": "image/png",
+              "size": 56873,
+              "href": "https://api.oyez.org/sites/default/files/images/people/william_j_brennan_jr/william_j_brennan_jr.thumb.png"
+            },
+            "length_of_service": 12330,
+            "identifier": "william_j_brennan_jr"
+          },
+          "vote": "majority",
+          "opinion_type": "none",
+          "joining": null,
+          "seniority": 2,
+          "ideology": -2.821,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/156516"
+        },
+        {
+          "member": {
+            "ID": 15071,
+            "name": "Byron R. White",
+            "href": "https://api.oyez.org/people/byron_r_white",
+            "view_count": 0,
+            "last_name": "White",
+            "roles": [
+              {
+                "id": 2715,
+                "type": "scotus_justice",
+                "date_start": -243367200,
+                "date_end": 741243600,
+                "appointing_president": "John F. Kennedy",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2715"
+              }
+            ],
+            "thumbnail": {
+              "id": 32699,
+              "mime": "image/png",
+              "size": 55559,
+              "href": "https://api.oyez.org/sites/default/files/images/people/byron_r_white/byron_r_white.thumb.png"
+            },
+            "length_of_service": 11396,
+            "identifier": "byron_r_white"
+          },
+          "vote": "majority",
+          "opinion_type": "none",
+          "joining": null,
+          "seniority": 3,
+          "ideology": 0.815,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/156517"
+        },
+        {
+          "member": {
+            "ID": 15073,
+            "name": "Warren E. Burger",
+            "href": "https://api.oyez.org/people/warren_e_burger",
+            "view_count": 0,
+            "last_name": "Burger",
+            "roles": [
+              {
+                "id": 2717,
+                "type": "scotus_justice",
+                "date_start": -16570800,
+                "date_end": 528094800,
+                "appointing_president": "Richard Nixon",
+                "role_title": "Chief Justice of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2717"
+              }
+            ],
+            "thumbnail": {
+              "id": 32773,
+              "mime": "image/png",
+              "size": 52511,
+              "href": "https://api.oyez.org/sites/default/files/images/people/warren_e_burger/warren_e_burger.thumb.png"
+            },
+            "length_of_service": 6304,
+            "identifier": "warren_e_burger"
+          },
+          "vote": "minority",
+          "opinion_type": "none",
+          "joining": [
+            {
+              "ID": 15119,
+              "name": "Lewis F. Powell, Jr.",
+              "href": "https://api.oyez.org/people/lewis_f_powell_jr",
+              "view_count": 0,
+              "last_name": "Powell",
+              "roles": [
+                {
+                  "id": 2764,
+                  "type": "scotus_justice",
+                  "date_start": 63612000,
+                  "date_end": 551682000,
+                  "appointing_president": "Richard Nixon",
+                  "role_title": "Associate Justice of the Supreme Court of the United States",
+                  "institution_name": "Supreme Court of the United States",
+                  "href": "https://api.oyez.org/preson_role/scotus_justice/2764"
+                }
+              ],
+              "thumbnail": {
+                "id": 32738,
+                "mime": "image/png",
+                "size": 53543,
+                "href": "https://api.oyez.org/sites/default/files/images/people/lewis_f_powell_jr/lewis_f_powell_jr.thumb.png"
+              },
+              "length_of_service": 5649,
+              "identifier": "lewis_f_powell_jr"
+            }
+          ],
+          "seniority": 1,
+          "ideology": 1.697,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/156518"
+        },
+        {
+          "member": {
+            "ID": 15045,
+            "name": "Harry A. Blackmun",
+            "href": "https://api.oyez.org/people/harry_a_blackmun",
+            "view_count": 97,
+            "last_name": "Blackmun",
+            "roles": [
+              {
+                "id": 2689,
+                "type": "scotus_justice",
+                "date_start": 13755600,
+                "date_end": 775890000,
+                "appointing_president": "Richard Nixon",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2689"
+              }
+            ],
+            "thumbnail": {
+              "id": 32712,
+              "mime": "image/png",
+              "size": 50281,
+              "href": "https://api.oyez.org/sites/default/files/images/people/harry_a_blackmun/harry_a_blackmun.thumb.png"
+            },
+            "length_of_service": 8821,
+            "identifier": "harry_a_blackmun"
+          },
+          "vote": "majority",
+          "opinion_type": "majority",
+          "joining": null,
+          "seniority": 5,
+          "ideology": -0.014,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/156519"
+        },
+        {
+          "member": {
+            "ID": 15119,
+            "name": "Lewis F. Powell, Jr.",
+            "href": "https://api.oyez.org/people/lewis_f_powell_jr",
+            "view_count": 0,
+            "last_name": "Powell",
+            "roles": [
+              {
+                "id": 2764,
+                "type": "scotus_justice",
+                "date_start": 63612000,
+                "date_end": 551682000,
+                "appointing_president": "Richard Nixon",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2764"
+              }
+            ],
+            "thumbnail": {
+              "id": 32738,
+              "mime": "image/png",
+              "size": 53543,
+              "href": "https://api.oyez.org/sites/default/files/images/people/lewis_f_powell_jr/lewis_f_powell_jr.thumb.png"
+            },
+            "length_of_service": 5649,
+            "identifier": "lewis_f_powell_jr"
+          },
+          "vote": "minority",
+          "opinion_type": "dissent",
+          "joining": null,
+          "seniority": 6,
+          "ideology": 1.049,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/156520"
+        },
+        {
+          "member": {
+            "ID": 15141,
+            "name": "William H. Rehnquist",
+            "href": "https://api.oyez.org/people/william_h_rehnquist",
+            "view_count": 0,
+            "last_name": "Rehnquist",
+            "roles": [
+              {
+                "id": 2787,
+                "type": "scotus_justice",
+                "date_start": 63612000,
+                "date_end": 528094800,
+                "appointing_president": "Richard Nixon",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2787"
+              },
+              {
+                "id": 2788,
+                "type": "scotus_justice",
+                "date_start": 528094800,
+                "date_end": 1125723600,
+                "appointing_president": "Ronald Reagan",
+                "role_title": "Chief Justice of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2788"
+              }
+            ],
+            "thumbnail": {
+              "id": 32786,
+              "mime": "image/png",
+              "size": 46923,
+              "href": "https://api.oyez.org/sites/default/files/images/people/william_h_rehnquist/william_h_rehnquist.thumb.png"
+            },
+            "length_of_service": 12293,
+            "identifier": "william_h_rehnquist"
+          },
+          "vote": "minority",
+          "opinion_type": "none",
+          "joining": [
+            {
+              "ID": 15119,
+              "name": "Lewis F. Powell, Jr.",
+              "href": "https://api.oyez.org/people/lewis_f_powell_jr",
+              "view_count": 0,
+              "last_name": "Powell",
+              "roles": [
+                {
+                  "id": 2764,
+                  "type": "scotus_justice",
+                  "date_start": 63612000,
+                  "date_end": 551682000,
+                  "appointing_president": "Richard Nixon",
+                  "role_title": "Associate Justice of the Supreme Court of the United States",
+                  "institution_name": "Supreme Court of the United States",
+                  "href": "https://api.oyez.org/preson_role/scotus_justice/2764"
+                }
+              ],
+              "thumbnail": {
+                "id": 32738,
+                "mime": "image/png",
+                "size": 53543,
+                "href": "https://api.oyez.org/sites/default/files/images/people/lewis_f_powell_jr/lewis_f_powell_jr.thumb.png"
+              },
+              "length_of_service": 5649,
+              "identifier": "lewis_f_powell_jr"
+            }
+          ],
+          "seniority": 7,
+          "ideology": 3.977,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/156521"
+        },
+        {
+          "member": {
+            "ID": 15060,
+            "name": "John Paul Stevens",
+            "href": "https://api.oyez.org/people/john_paul_stevens",
+            "view_count": 0,
+            "last_name": "Stevens",
+            "roles": [
+              {
+                "id": 2704,
+                "type": "scotus_justice",
+                "date_start": 188200800,
+                "date_end": 1277787600,
+                "appointing_president": "Gerald Ford",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2704"
+              }
+            ],
+            "thumbnail": {
+              "id": 32732,
+              "mime": "image/png",
+              "size": 62101,
+              "href": "https://api.oyez.org/sites/default/files/images/people/john_paul_stevens/john_paul_stevens.thumb.png"
+            },
+            "length_of_service": 12611,
+            "identifier": "john_paul_stevens"
+          },
+          "vote": "majority",
+          "opinion_type": "none",
+          "joining": null,
+          "seniority": 8,
+          "ideology": -0.572,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/156522"
+        },
+        {
+          "member": {
+            "ID": 15092,
+            "name": "Sandra Day O'Connor",
+            "href": "https://api.oyez.org/people/sandra_day_oconnor",
+            "view_count": 0,
+            "last_name": "O'Connor",
+            "roles": [
+              {
+                "id": 2736,
+                "type": "scotus_justice",
+                "date_start": 370242000,
+                "date_end": 1138687200,
+                "appointing_president": "Ronald Reagan",
+                "role_title": "Associate Justice of the Supreme Court of the United States",
+                "institution_name": "Supreme Court of the United States",
+                "href": "https://api.oyez.org/preson_role/scotus_justice/2736"
+              }
+            ],
+            "thumbnail": {
+              "id": 32763,
+              "mime": "image/png",
+              "size": 49563,
+              "href": "https://api.oyez.org/sites/default/files/images/people/sandra_day_oconnor/sandra_day_oconnor.thumb.png"
+            },
+            "length_of_service": 8894,
+            "identifier": "sandra_day_oconnor"
+          },
+          "vote": "minority",
+          "opinion_type": "none",
+          "joining": [
+            {
+              "ID": 15119,
+              "name": "Lewis F. Powell, Jr.",
+              "href": "https://api.oyez.org/people/lewis_f_powell_jr",
+              "view_count": 0,
+              "last_name": "Powell",
+              "roles": [
+                {
+                  "id": 2764,
+                  "type": "scotus_justice",
+                  "date_start": 63612000,
+                  "date_end": 551682000,
+                  "appointing_president": "Richard Nixon",
+                  "role_title": "Associate Justice of the Supreme Court of the United States",
+                  "institution_name": "Supreme Court of the United States",
+                  "href": "https://api.oyez.org/preson_role/scotus_justice/2764"
+                }
+              ],
+              "thumbnail": {
+                "id": 32738,
+                "mime": "image/png",
+                "size": 53543,
+                "href": "https://api.oyez.org/sites/default/files/images/people/lewis_f_powell_jr/lewis_f_powell_jr.thumb.png"
+              },
+              "length_of_service": 5649,
+              "identifier": "lewis_f_powell_jr"
+            }
+          ],
+          "seniority": 9,
+          "ideology": 1.687,
+          "href": "https://api.oyez.org/decision_vote/decision_vote/156523"
+        }
+      ],
+      "majority_vote": 5,
+      "minority_vote": 4,
+      "winning_party": null,
+      "decision_type": "majority opinion",
+      "href": "https://api.oyez.org/case_decision/case_decision/10913"
+    }
+  ],
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    {
+      "ID": 15326,
+      "name": "Burger Court (1981-1986)",
+      "href": "https://api.oyez.org/courts/burger8",
+      "view_count": 0,
+      "members": [
+        {
+          "ID": 15073,
+          "name": "Warren E. Burger",
+          "href": "https://api.oyez.org/people/warren_e_burger",
+          "view_count": 0,
+          "last_name": "Burger",
+          "roles": [
+            {
+              "id": 2717,
+              "type": "scotus_justice",
+              "date_start": -16570800,
+              "date_end": 528094800,
+              "appointing_president": "Richard Nixon",
+              "role_title": "Chief Justice of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2717"
+            }
+          ],
+          "thumbnail": {
+            "id": 32773,
+            "mime": "image/png",
+            "size": 52511,
+            "href": "https://api.oyez.org/sites/default/files/images/people/warren_e_burger/warren_e_burger.thumb.png"
+          },
+          "length_of_service": 6304,
+          "identifier": "warren_e_burger"
+        },
+        {
+          "ID": 15140,
+          "name": "William J. Brennan, Jr.",
+          "href": "https://api.oyez.org/people/william_j_brennan_jr",
+          "view_count": 0,
+          "last_name": "Brennan",
+          "roles": [
+            {
+              "id": 2786,
+              "type": "scotus_justice",
+              "date_start": -416862000,
+              "date_end": 648450000,
+              "appointing_president": "Dwight D. Eisenhower",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2786"
+            }
+          ],
+          "thumbnail": {
+            "id": 32778,
+            "mime": "image/png",
+            "size": 56873,
+            "href": "https://api.oyez.org/sites/default/files/images/people/william_j_brennan_jr/william_j_brennan_jr.thumb.png"
+          },
+          "length_of_service": 12330,
+          "identifier": "william_j_brennan_jr"
+        },
+        {
+          "ID": 15071,
+          "name": "Byron R. White",
+          "href": "https://api.oyez.org/people/byron_r_white",
+          "view_count": 0,
+          "last_name": "White",
+          "roles": [
+            {
+              "id": 2715,
+              "type": "scotus_justice",
+              "date_start": -243367200,
+              "date_end": 741243600,
+              "appointing_president": "John F. Kennedy",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2715"
+            }
+          ],
+          "thumbnail": {
+            "id": 32699,
+            "mime": "image/png",
+            "size": 55559,
+            "href": "https://api.oyez.org/sites/default/files/images/people/byron_r_white/byron_r_white.thumb.png"
+          },
+          "length_of_service": 11396,
+          "identifier": "byron_r_white"
+        },
+        {
+          "ID": 15104,
+          "name": "Thurgood Marshall",
+          "href": "https://api.oyez.org/people/thurgood_marshall",
+          "view_count": 109,
+          "last_name": "Marshall",
+          "roles": [
+            {
+              "id": 2748,
+              "type": "scotus_justice",
+              "date_start": -71002800,
+              "date_end": 686293200,
+              "appointing_president": "Lyndon B. Johnson",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2748"
+            }
+          ],
+          "thumbnail": {
+            "id": 32770,
+            "mime": "image/png",
+            "size": 59272,
+            "href": "https://api.oyez.org/sites/default/files/images/people/thurgood_marshall/thurgood_marshall.thumb.png"
+          },
+          "length_of_service": 8765,
+          "identifier": "thurgood_marshall"
+        },
+        {
+          "ID": 15045,
+          "name": "Harry A. Blackmun",
+          "href": "https://api.oyez.org/people/harry_a_blackmun",
+          "view_count": 97,
+          "last_name": "Blackmun",
+          "roles": [
+            {
+              "id": 2689,
+              "type": "scotus_justice",
+              "date_start": 13755600,
+              "date_end": 775890000,
+              "appointing_president": "Richard Nixon",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2689"
+            }
+          ],
+          "thumbnail": {
+            "id": 32712,
+            "mime": "image/png",
+            "size": 50281,
+            "href": "https://api.oyez.org/sites/default/files/images/people/harry_a_blackmun/harry_a_blackmun.thumb.png"
+          },
+          "length_of_service": 8821,
+          "identifier": "harry_a_blackmun"
+        },
+        {
+          "ID": 15119,
+          "name": "Lewis F. Powell, Jr.",
+          "href": "https://api.oyez.org/people/lewis_f_powell_jr",
+          "view_count": 0,
+          "last_name": "Powell",
+          "roles": [
+            {
+              "id": 2764,
+              "type": "scotus_justice",
+              "date_start": 63612000,
+              "date_end": 551682000,
+              "appointing_president": "Richard Nixon",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2764"
+            }
+          ],
+          "thumbnail": {
+            "id": 32738,
+            "mime": "image/png",
+            "size": 53543,
+            "href": "https://api.oyez.org/sites/default/files/images/people/lewis_f_powell_jr/lewis_f_powell_jr.thumb.png"
+          },
+          "length_of_service": 5649,
+          "identifier": "lewis_f_powell_jr"
+        },
+        {
+          "ID": 15141,
+          "name": "William H. Rehnquist",
+          "href": "https://api.oyez.org/people/william_h_rehnquist",
+          "view_count": 0,
+          "last_name": "Rehnquist",
+          "roles": [
+            {
+              "id": 2787,
+              "type": "scotus_justice",
+              "date_start": 63612000,
+              "date_end": 528094800,
+              "appointing_president": "Richard Nixon",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2787"
+            },
+            {
+              "id": 2788,
+              "type": "scotus_justice",
+              "date_start": 528094800,
+              "date_end": 1125723600,
+              "appointing_president": "Ronald Reagan",
+              "role_title": "Chief Justice of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2788"
+            }
+          ],
+          "thumbnail": {
+            "id": 32786,
+            "mime": "image/png",
+            "size": 46923,
+            "href": "https://api.oyez.org/sites/default/files/images/people/william_h_rehnquist/william_h_rehnquist.thumb.png"
+          },
+          "length_of_service": 12293,
+          "identifier": "william_h_rehnquist"
+        },
+        {
+          "ID": 15060,
+          "name": "John Paul Stevens",
+          "href": "https://api.oyez.org/people/john_paul_stevens",
+          "view_count": 0,
+          "last_name": "Stevens",
+          "roles": [
+            {
+              "id": 2704,
+              "type": "scotus_justice",
+              "date_start": 188200800,
+              "date_end": 1277787600,
+              "appointing_president": "Gerald Ford",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2704"
+            }
+          ],
+          "thumbnail": {
+            "id": 32732,
+            "mime": "image/png",
+            "size": 62101,
+            "href": "https://api.oyez.org/sites/default/files/images/people/john_paul_stevens/john_paul_stevens.thumb.png"
+          },
+          "length_of_service": 12611,
+          "identifier": "john_paul_stevens"
+        },
+        {
+          "ID": 15092,
+          "name": "Sandra Day O'Connor",
+          "href": "https://api.oyez.org/people/sandra_day_oconnor",
+          "view_count": 0,
+          "last_name": "O'Connor",
+          "roles": [
+            {
+              "id": 2736,
+              "type": "scotus_justice",
+              "date_start": 370242000,
+              "date_end": 1138687200,
+              "appointing_president": "Ronald Reagan",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2736"
+            }
+          ],
+          "thumbnail": {
+            "id": 32763,
+            "mime": "image/png",
+            "size": 49563,
+            "href": "https://api.oyez.org/sites/default/files/images/people/sandra_day_oconnor/sandra_day_oconnor.thumb.png"
+          },
+          "length_of_service": 8894,
+          "identifier": "sandra_day_oconnor"
+        }
+      ],
+      "court_start": 370242000,
+      "images": [
+        {
+          "id": 12275,
+          "mime": "image/jpeg",
+          "size": 45423,
+          "href": "https://api.oyez.org/sites/default/files/images/courts/burger8.jpg"
+        }
+      ],
+      "identifier": "burger8"
+    }
+  ],
+  "decided_by": {
+    "ID": 15326,
+    "name": "Burger Court (1981-1986)",
+    "href": "https://api.oyez.org/courts/burger8",
+    "view_count": 0,
+    "members": [
+      {
+        "ID": 15073,
+        "name": "Warren E. Burger",
+        "href": "https://api.oyez.org/people/warren_e_burger",
+        "view_count": 0,
+        "last_name": "Burger",
+        "roles": [
+          {
+            "id": 2717,
+            "type": "scotus_justice",
+            "date_start": -16570800,
+            "date_end": 528094800,
+            "appointing_president": "Richard Nixon",
+            "role_title": "Chief Justice of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2717"
+          }
+        ],
+        "thumbnail": {
+          "id": 32773,
+          "mime": "image/png",
+          "size": 52511,
+          "href": "https://api.oyez.org/sites/default/files/images/people/warren_e_burger/warren_e_burger.thumb.png"
+        },
+        "length_of_service": 6304,
+        "identifier": "warren_e_burger"
+      },
+      {
+        "ID": 15140,
+        "name": "William J. Brennan, Jr.",
+        "href": "https://api.oyez.org/people/william_j_brennan_jr",
+        "view_count": 0,
+        "last_name": "Brennan",
+        "roles": [
+          {
+            "id": 2786,
+            "type": "scotus_justice",
+            "date_start": -416862000,
+            "date_end": 648450000,
+            "appointing_president": "Dwight D. Eisenhower",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2786"
+          }
+        ],
+        "thumbnail": {
+          "id": 32778,
+          "mime": "image/png",
+          "size": 56873,
+          "href": "https://api.oyez.org/sites/default/files/images/people/william_j_brennan_jr/william_j_brennan_jr.thumb.png"
+        },
+        "length_of_service": 12330,
+        "identifier": "william_j_brennan_jr"
+      },
+      {
+        "ID": 15071,
+        "name": "Byron R. White",
+        "href": "https://api.oyez.org/people/byron_r_white",
+        "view_count": 0,
+        "last_name": "White",
+        "roles": [
+          {
+            "id": 2715,
+            "type": "scotus_justice",
+            "date_start": -243367200,
+            "date_end": 741243600,
+            "appointing_president": "John F. Kennedy",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2715"
+          }
+        ],
+        "thumbnail": {
+          "id": 32699,
+          "mime": "image/png",
+          "size": 55559,
+          "href": "https://api.oyez.org/sites/default/files/images/people/byron_r_white/byron_r_white.thumb.png"
+        },
+        "length_of_service": 11396,
+        "identifier": "byron_r_white"
+      },
+      {
+        "ID": 15104,
+        "name": "Thurgood Marshall",
+        "href": "https://api.oyez.org/people/thurgood_marshall",
+        "view_count": 109,
+        "last_name": "Marshall",
+        "roles": [
+          {
+            "id": 2748,
+            "type": "scotus_justice",
+            "date_start": -71002800,
+            "date_end": 686293200,
+            "appointing_president": "Lyndon B. Johnson",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2748"
+          }
+        ],
+        "thumbnail": {
+          "id": 32770,
+          "mime": "image/png",
+          "size": 59272,
+          "href": "https://api.oyez.org/sites/default/files/images/people/thurgood_marshall/thurgood_marshall.thumb.png"
+        },
+        "length_of_service": 8765,
+        "identifier": "thurgood_marshall"
+      },
+      {
+        "ID": 15045,
+        "name": "Harry A. Blackmun",
+        "href": "https://api.oyez.org/people/harry_a_blackmun",
+        "view_count": 97,
+        "last_name": "Blackmun",
+        "roles": [
+          {
+            "id": 2689,
+            "type": "scotus_justice",
+            "date_start": 13755600,
+            "date_end": 775890000,
+            "appointing_president": "Richard Nixon",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2689"
+          }
+        ],
+        "thumbnail": {
+          "id": 32712,
+          "mime": "image/png",
+          "size": 50281,
+          "href": "https://api.oyez.org/sites/default/files/images/people/harry_a_blackmun/harry_a_blackmun.thumb.png"
+        },
+        "length_of_service": 8821,
+        "identifier": "harry_a_blackmun"
+      },
+      {
+        "ID": 15119,
+        "name": "Lewis F. Powell, Jr.",
+        "href": "https://api.oyez.org/people/lewis_f_powell_jr",
+        "view_count": 0,
+        "last_name": "Powell",
+        "roles": [
+          {
+            "id": 2764,
+            "type": "scotus_justice",
+            "date_start": 63612000,
+            "date_end": 551682000,
+            "appointing_president": "Richard Nixon",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2764"
+          }
+        ],
+        "thumbnail": {
+          "id": 32738,
+          "mime": "image/png",
+          "size": 53543,
+          "href": "https://api.oyez.org/sites/default/files/images/people/lewis_f_powell_jr/lewis_f_powell_jr.thumb.png"
+        },
+        "length_of_service": 5649,
+        "identifier": "lewis_f_powell_jr"
+      },
+      {
+        "ID": 15141,
+        "name": "William H. Rehnquist",
+        "href": "https://api.oyez.org/people/william_h_rehnquist",
+        "view_count": 0,
+        "last_name": "Rehnquist",
+        "roles": [
+          {
+            "id": 2787,
+            "type": "scotus_justice",
+            "date_start": 63612000,
+            "date_end": 528094800,
+            "appointing_president": "Richard Nixon",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2787"
+          },
+          {
+            "id": 2788,
+            "type": "scotus_justice",
+            "date_start": 528094800,
+            "date_end": 1125723600,
+            "appointing_president": "Ronald Reagan",
+            "role_title": "Chief Justice of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2788"
+          }
+        ],
+        "thumbnail": {
+          "id": 32786,
+          "mime": "image/png",
+          "size": 46923,
+          "href": "https://api.oyez.org/sites/default/files/images/people/william_h_rehnquist/william_h_rehnquist.thumb.png"
+        },
+        "length_of_service": 12293,
+        "identifier": "william_h_rehnquist"
+      },
+      {
+        "ID": 15060,
+        "name": "John Paul Stevens",
+        "href": "https://api.oyez.org/people/john_paul_stevens",
+        "view_count": 0,
+        "last_name": "Stevens",
+        "roles": [
+          {
+            "id": 2704,
+            "type": "scotus_justice",
+            "date_start": 188200800,
+            "date_end": 1277787600,
+            "appointing_president": "Gerald Ford",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2704"
+          }
+        ],
+        "thumbnail": {
+          "id": 32732,
+          "mime": "image/png",
+          "size": 62101,
+          "href": "https://api.oyez.org/sites/default/files/images/people/john_paul_stevens/john_paul_stevens.thumb.png"
+        },
+        "length_of_service": 12611,
+        "identifier": "john_paul_stevens"
+      },
+      {
+        "ID": 15092,
+        "name": "Sandra Day O'Connor",
+        "href": "https://api.oyez.org/people/sandra_day_oconnor",
+        "view_count": 0,
+        "last_name": "O'Connor",
+        "roles": [
+          {
+            "id": 2736,
+            "type": "scotus_justice",
+            "date_start": 370242000,
+            "date_end": 1138687200,
+            "appointing_president": "Ronald Reagan",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2736"
+          }
+        ],
+        "thumbnail": {
+          "id": 32763,
+          "mime": "image/png",
+          "size": 49563,
+          "href": "https://api.oyez.org/sites/default/files/images/people/sandra_day_oconnor/sandra_day_oconnor.thumb.png"
+        },
+        "length_of_service": 8894,
+        "identifier": "sandra_day_oconnor"
+      }
+    ],
+    "court_start": 370242000,
+    "images": [
+      {
+        "id": 12275,
+        "mime": "image/jpeg",
+        "size": 45423,
+        "href": "https://api.oyez.org/sites/default/files/images/courts/burger8.jpg"
+      }
+    ],
+    "identifier": "burger8"
+  },
+  "term": "1983",
+  "location": {
+    "latitude": 38.474112,
+    "longitude": -77.996418,
+    "name": "Culpeper County Courthouse",
+    "street": "135 West Cameron Street",
+    "city": "Culpeper",
+    "province": "VA",
+    "postal_code": null,
+    "province_name": "Virginia"
+  },
+  "opinion_announcement": null,
+  "description": null,
+  "written_opinion": [
+    {
+      "id": 7360,
+      "title": "Syllabus",
+      "author": null,
+      "type": {
+        "value": "syllabus",
+        "label": "Syllabus"
+      },
+      "justia_opinion_id": 1955504,
+      "justia_opinion_url": "https://supreme.justia.com/cases/federal/us/466/522/",
+      "judge_full_name": null,
+      "judge_last_name": null,
+      "title_overwrite": null,
+      "href": "https://api.oyez.org/case_document/written_opinion/7360"
+    },
+    {
+      "id": 7361,
+      "title": "View Case",
+      "author": null,
+      "type": {
+        "value": "case",
+        "label": null
+      },
+      "justia_opinion_id": 1955505,
+      "justia_opinion_url": "https://supreme.justia.com/cases/federal/us/466/522/case.html",
+      "judge_full_name": null,
+      "judge_last_name": null,
+      "title_overwrite": null,
+      "href": "https://api.oyez.org/case_document/written_opinion/7361"
+    }
+  ],
+  "related_cases": null,
+  "justia_url": "https://supreme.justia.com/cases/federal/us/466/522/"
+}

@@ -1,0 +1,57 @@
+{
+  "ID": 62927,
+  "name": "Salt River Project Agricultural Improvement and Power District v. Tesla Energy Operations, Inc., fka SolarCity Corporation",
+  "href": "https://api.oyez.org/cases/2017/17-368",
+  "view_count": 0,
+  "docket_number": "17-368",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": " Salt River Project Agricultural Improvement and Power District",
+  "second_party": "Tesla Energy Operations, Inc., fka SolarCity Corporation",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1512108000
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54161"
+    },
+    {
+      "event": "Dismissed pursuant to Rule 46",
+      "dates": [
+        1521694800
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54242"
+    }
+  ],
+  "lower_court": {
+    "ID": 5,
+    "name": "United States Court of Appeals for the Ninth Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/5"
+  },
+  "facts_of_the_case": "<p>SolarCity Corporation sells and leases rooftop solar panels in the Phoenix, Arizona area. The Salt River Project Agricultural Improvement and Power District (the “Power District”) is the sole local supplier of traditional electricity, and is also a political subdivision of Arizona. The underlying action arose after Power District imposed a steep fee on consumers seeking to generate their own power, which SolarCity claims resulted in a 96% drop in retail applications for new solar panel systems. SolarCity sued the Power District for federal antitrust violations under the Sherman and Clayton Acts for allegedly attempting to exercise a monopoly over electrical power in the area.</p>\n<p>The Power District moved to dismiss SolarCity’s claims under FRCP 12(b)(6), arguing that pursuant to the state-action doctrine it had the authority to dictate prices under state law, and was not subject to federal antitrust claims. The district court denied the motion, expressing doubts about the Power District’s state authority. The district court also declined to certify its order for interlocutory review, but the Power District still appealed.</p>\n<p>The Ninth Circuit rejected the Power District’s appeal, ruling that it did not have jurisdiction to hear an interlocutory appeal of an order denying state-action immunity based on the collateral-order doctrine. The Court explained that unlike forms of government immunity that shield public entities from suit, and which carry a right to immediate appeal, the state-action doctrine only provides a defense against liability. Because a denial of state-action immunity could be the subject of a post-judgment appeal, it did not meet the requirements of the collateral-order doctrine upon which the Power District sought to base its interlocutory appeal.</p>\n<p>The Ninth Circuit joined the Fourth and Sixth Circuits in holding that a denial of state-action immunity was not immediately appealable under the collateral-order doctrine. The Fifth and Eleventh Circuits have reached the opposite conclusion.</p>\n",
+  "question": "<p>Are orders denying state-action immunity to public entities immediately appealable under the collateral order doctrine?</p>\n",
+  "conclusion": null,
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27557"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2017",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court will decide whether orders denying state-action immunity to public entities are immediately appealable under the collateral-order doctrine.",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": null
+}

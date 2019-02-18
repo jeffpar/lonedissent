@@ -1,0 +1,350 @@
+{
+  "ID": 63024,
+  "name": "Nutraceutical Corp. v. Lambert",
+  "href": "https://api.oyez.org/cases/2018/17-1094",
+  "view_count": 106,
+  "docket_number": "17-1094",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "Nutraceutical Corporation",
+  "second_party": "Troy Lambert",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1529902800
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54342"
+    },
+    {
+      "event": "Argued",
+      "dates": [
+        1543298400
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54392"
+    }
+  ],
+  "lower_court": {
+    "ID": 5,
+    "name": "United States Court of Appeals for the Ninth Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/5"
+  },
+  "facts_of_the_case": "<p>Troy Lambert purchased an alleged aphrodisiac dietary supplement that was manufactured by Nutraceutical, but that had not been approved by the Food and Drug Administration (FDA). Based on the product’s labels, Lambert believed that the supplement would enhance his sexual performance, and had he known these claims were false, he would not have purchased the product. </p>\n<p>Lambert believed that the product violated FDA regulations because it purported to increase sexual desire but had not been through clinical testing, and because it was not FDA-approved. He further alleged that the product illegally failed to prominently display this lack of FDA approval on its labeling, and that the labeling also failed to mention a potentially dangerous ingredient. Lambert filed a consumer class action under Federal Rule of Civil Procedure (FRCP) 23(b)(3), alleging state law claims related to unfair competition, false advertising, and other violations.</p>\n<p>The district court granted class certification based on the full refund damages model, which applies when a product is useless and involves calculating the average retail price and the number of units sold. The judge hearing the case retired, and Lambert’s action was reassigned to a new judge. Discovery was completed, and Nutraceutical filed a motion for decertification. The new judge granted the motion, finding that Lambert had failed to provide essential evidence to apply his classwide damages model, meaning that common issues did not predominate as required under Rule 23(b)(3). </p>\n<p>Ten days after the order was issued decertifying the class, Lambert informed the court that he intended to file a motion for reconsideration, and the court instructed him to file the motion within ten days, which was twenty days after the decertification order. In accordance with the court’s instructions, Lambert filed his motion for reconsideration ten days later, highlighting evidence from his class certification motion that could be used to support the full refund damages model. He also offered an alternative damages model for the first time, based on non-restitutionary engorgement. </p>\n<p>Three months later, the court denied his motion for reconsideration, rejecting his proposed damages models. Lambert timely filed a petition under Rule 23(f) for permission to appeal the district court’s orders denying the motion for reconsideration and granting the motion for class decertification to the 9th Circuit, which conditionally granted his petition.</p>\n<p>A three-judge panel of the 9th Circuit held that Lambert’s Rule 23(f) petition for class certification had been timely filed with the appellate court. The court explained that because Rule 23(f)’s 14-day deadline was procedural rather than jurisdictional, equitable exceptions such as tolling could apply. It also held that filing a motion for reconsideration before the Rule 23(f) deadline would toll the deadline. The panel further held that other circumstances could toll the deadline. In this case, Lambert had informed the district court of his intention to file a motion for reconsideration within Rule 23(f)’s 14-day window, and had submitted the filing within the ten-day time frame set by that court. The panel concluded that under these circumstances the deadline should be tolled and Lambert’s motion for reconsideration should be considered timely filed with the 9th Circuit, while recognizing that a number of other circuits would likely reach the opposite conclusion.</p>\n",
+  "question": "<p>Did the U.S. Court of Appeals for the 9th Circuit err when it ruled that equitable exceptions apply to mandatory claim-processing rules, such as Federal Rule of Civil Procedure 23(f), which sets a 14-day deadline to file a petition for permission to appeal an order granting or denying class-action certification, and can excuse a party’s failure to file timely within the deadline established by Federal Rule of Civil Procedure 23(f), in conflict with the rulings of the U.S. Courts of Appeals for the 2nd, 3rd, 4th, 5th, 7th, 10th and 11th Circuits?</p>\n",
+  "conclusion": null,
+  "advocates": [
+    {
+      "advocate": {
+        "ID": 63059,
+        "name": "John Hueston",
+        "href": "https://api.oyez.org/people/john_hueston",
+        "view_count": 0,
+        "last_name": "Hueston",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "john_hueston"
+      },
+      "advocate_description": "for the Petitioner",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22599"
+    },
+    {
+      "advocate": {
+        "ID": 62855,
+        "name": "Jonathan A. Herstoff",
+        "href": "https://api.oyez.org/people/jonathan_a_herstoff",
+        "view_count": 0,
+        "last_name": "Herstoff",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "jonathan_a_herstoff"
+      },
+      "advocate_description": "for the Respondent",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22600"
+    }
+  ],
+  "oral_argument_audio": [
+    {
+      "id": 24782,
+      "title": "Oral Argument - November 27, 2018",
+      "public_note": null,
+      "unavailable": false,
+      "display_title": null,
+      "href": "https://api.oyez.org/case_media/oral_argument_audio/24782"
+    }
+  ],
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27625"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    {
+      "ID": 63037,
+      "name": "Roberts Court (2018-)",
+      "href": "https://api.oyez.org/courts/roberts10",
+      "view_count": 0,
+      "members": [
+        {
+          "ID": 15086,
+          "name": "John G. Roberts, Jr.",
+          "href": "https://api.oyez.org/people/john_g_roberts_jr",
+          "view_count": 161,
+          "last_name": "Roberts",
+          "roles": [
+            {
+              "id": 2730,
+              "type": "scotus_justice",
+              "date_start": 1127970000,
+              "date_end": 0,
+              "appointing_president": "George W. Bush",
+              "role_title": "Chief Justice of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2730"
+            }
+          ],
+          "thumbnail": {
+            "id": 32683,
+            "mime": "image/png",
+            "size": 52305,
+            "href": "https://api.oyez.org/sites/default/files/images/people/john_g_roberts_jr/john_g_roberts_jr.thumb.png"
+          },
+          "length_of_service": 3842,
+          "identifier": "john_g_roberts_jr"
+        },
+        {
+          "ID": 15100,
+          "name": "Clarence Thomas",
+          "href": "https://api.oyez.org/people/clarence_thomas",
+          "view_count": 321,
+          "last_name": "Thomas",
+          "roles": [
+            {
+              "id": 2744,
+              "type": "scotus_justice",
+              "date_start": 688194000,
+              "date_end": 0,
+              "appointing_president": "George H. W. Bush",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2744"
+            }
+          ],
+          "thumbnail": {
+            "id": 32680,
+            "mime": "image/png",
+            "size": 49064,
+            "href": "https://api.oyez.org/sites/default/files/images/people/clarence_thomas/clarence_thomas.thumb.png"
+          },
+          "length_of_service": 9347,
+          "identifier": "clarence_thomas"
+        },
+        {
+          "ID": 15084,
+          "name": "Ruth Bader Ginsburg",
+          "href": "https://api.oyez.org/people/ruth_bader_ginsburg",
+          "view_count": 330,
+          "last_name": "Ginsburg",
+          "roles": [
+            {
+              "id": 2728,
+              "type": "scotus_justice",
+              "date_start": 744958800,
+              "date_end": 0,
+              "appointing_president": "Bill Clinton",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2728"
+            }
+          ],
+          "thumbnail": {
+            "id": 32681,
+            "mime": "image/png",
+            "size": 45030,
+            "href": "https://api.oyez.org/sites/default/files/images/people/ruth_bader_ginsburg/ruth_bader_ginsburg.thumb.png"
+          },
+          "length_of_service": 8275,
+          "identifier": "ruth_bader_ginsburg"
+        },
+        {
+          "ID": 15139,
+          "name": "Stephen G. Breyer",
+          "href": "https://api.oyez.org/people/stephen_g_breyer",
+          "view_count": 149,
+          "last_name": "Breyer",
+          "roles": [
+            {
+              "id": 2785,
+              "type": "scotus_justice",
+              "date_start": 775890000,
+              "date_end": 0,
+              "appointing_president": "Bill Clinton",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2785"
+            }
+          ],
+          "thumbnail": {
+            "id": 32682,
+            "mime": "image/png",
+            "size": 49908,
+            "href": "https://api.oyez.org/sites/default/files/images/people/stephen_g_breyer/stephen_g_breyer.thumb.png"
+          },
+          "length_of_service": 7917,
+          "identifier": "stephen_g_breyer"
+        },
+        {
+          "ID": 15068,
+          "name": "Samuel A. Alito, Jr.",
+          "href": "https://api.oyez.org/people/samuel_a_alito_jr",
+          "view_count": 163,
+          "last_name": "Alito",
+          "roles": [
+            {
+              "id": 2712,
+              "type": "scotus_justice",
+              "date_start": 1138687200,
+              "date_end": 0,
+              "appointing_president": "George W. Bush",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2712"
+            }
+          ],
+          "thumbnail": {
+            "id": 32684,
+            "mime": "image/png",
+            "size": 44799,
+            "href": "https://api.oyez.org/sites/default/files/images/people/samuel_alito_jr/samuel_alito_jr.thumb.png"
+          },
+          "length_of_service": 4311,
+          "identifier": "samuel_a_alito_jr"
+        },
+        {
+          "ID": 15131,
+          "name": "Sonia Sotomayor",
+          "href": "https://api.oyez.org/people/sonia_sotomayor",
+          "view_count": 224,
+          "last_name": "Sotomayor",
+          "roles": [
+            {
+              "id": 2776,
+              "type": "scotus_justice",
+              "date_start": 1249707600,
+              "date_end": 0,
+              "appointing_president": null,
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2776"
+            }
+          ],
+          "thumbnail": {
+            "id": 32685,
+            "mime": "image/png",
+            "size": 50379,
+            "href": "https://api.oyez.org/sites/default/files/images/people/sonia_sotomayor/sonia_sotomayor.thumb.png"
+          },
+          "length_of_service": 2433,
+          "identifier": "sonia_sotomayor"
+        },
+        {
+          "ID": 15094,
+          "name": "Elena Kagan",
+          "href": "https://api.oyez.org/people/elena_kagan",
+          "view_count": 214,
+          "last_name": "Kagan",
+          "roles": [
+            {
+              "id": 2738,
+              "type": "scotus_justice",
+              "date_start": 1281157200,
+              "date_end": 0,
+              "appointing_president": "Barack Obama",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2738"
+            }
+          ],
+          "thumbnail": {
+            "id": 32690,
+            "mime": "image/png",
+            "size": 44456,
+            "href": "https://api.oyez.org/sites/default/files/images/people/elena_kagan/elena_kagan.thumb.png"
+          },
+          "length_of_service": 2762,
+          "identifier": "elena_kagan"
+        },
+        {
+          "ID": 62836,
+          "name": "Neil Gorsuch",
+          "href": "https://api.oyez.org/people/neil_gorsuch",
+          "view_count": 137,
+          "last_name": "Gorsuch",
+          "roles": [
+            {
+              "id": 3506,
+              "type": "scotus_justice",
+              "date_start": 1491541200,
+              "date_end": 0,
+              "appointing_president": "Donald J. Trump",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/3506"
+            }
+          ],
+          "thumbnail": {
+            "id": 79753,
+            "mime": "image/png",
+            "size": 121461,
+            "href": "https://api.oyez.org/sites/default/files/filefield_paths/neil_gorsuch.thumb__0.png"
+          },
+          "length_of_service": 104,
+          "identifier": "neil_gorsuch"
+        },
+        {
+          "ID": 17766,
+          "name": "Brett M. Kavanaugh",
+          "href": "https://api.oyez.org/people/brett_m_kavanaugh",
+          "view_count": 178,
+          "last_name": "Kavanaugh",
+          "roles": [
+            {
+              "id": 3507,
+              "type": "scotus_justice",
+              "date_start": 1538802000,
+              "date_end": 0,
+              "appointing_president": "Donald J. Trump",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/3507"
+            }
+          ],
+          "thumbnail": {
+            "id": 80518,
+            "mime": "image/png",
+            "size": 91566,
+            "href": "https://api.oyez.org/sites/default/files/filefield_paths/Kavanaugh-thumb.png"
+          },
+          "length_of_service": 97,
+          "identifier": "brett_m_kavanaugh"
+        }
+      ],
+      "court_start": 1538974800,
+      "images": null,
+      "identifier": "roberts10"
+    }
+  ],
+  "decided_by": null,
+  "term": "2018",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court will decide whether the U.S. Court of Appeals for the 9th Circuit erred when it ruled that equitable exceptions apply to mandatory claim-processing rules, such as Federal Rule of Civil Procedure 23(f), which sets a 14-day deadline to file a petition for permission to appeal an order granting or denying class-action certification, and can excuse a party’s failure to file timely within the deadline established by Federal Rule of Civil Procedure 23(f), in conflict with the rulings of the U.S. Courts of Appeals for the 2nd, 3rd, 4th, 5th, 7th, 10th and 11th Circuits.",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": null
+}

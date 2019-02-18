@@ -1,0 +1,353 @@
+{
+  "ID": 62963,
+  "name": "Knick v. Township of Scott, Pennsylvania",
+  "href": "https://api.oyez.org/cases/2018/17-647",
+  "view_count": 1035,
+  "docket_number": "17-647",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "Rose Mary Knick",
+  "second_party": "Township of Scott, Pennsylvania",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1520229600
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54216"
+    },
+    {
+      "event": "Argued",
+      "dates": [
+        1538542800
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54351"
+    },
+    {
+      "event": "Reargued",
+      "dates": [
+        1547618400
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54406"
+    }
+  ],
+  "lower_court": {
+    "ID": 8,
+    "name": "United States Court of Appeals for the Third Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/8"
+  },
+  "facts_of_the_case": "<p>In 2012, the Township of Scott, Pennsylvania, passed an ordinance affecting private properties determined to be or contain cemeteries. In relevant part, the ordinance required that “all cemeteries within the Township … be kept open and accessible to the general public during daylight hours” and that no owner could unreasonably restrict nor charge any fee to access the cemetery (the “public-access provision”). Additionally, the ordinance permitted a Township officer to enter any property within the Township to determine whether there is a cemetary on the property, in order to enforce the public-access provision.</p>\n<p>Rose Mary Knick owns property in the Township of Scott, and in April 2013, a Township officer entered her property without an administrative warrant and identified certain stones as grave markers. The officer cited Knick as violating the ordinance. Knick disputes that a cemetary exists on her property and filed a lawsuit to challenge.</p>\n<p>Knick challenged the ordinance on several grounds, two of which are most salient. First, she alleges that the ordinance authorizes unrestrained searches of private property in violation of the Fourth Amendment of the US Constitution. Second, she argues that the ordinance takes private property without just compensation, in violation of the Fifth Amendment. Notably, Knick did not initiate an “inverse-condemnation proceeding” against the Township, which is the local administrative process for challenging a taking by the government.</p>\n<p>The district court dismissed all but two of Knick’s claims with prejudice, and dismissed two of them (described above) without prejudice pending exhaustion of state-law remedies. Knick appealed the dismissal of her claims to the Third Circuit. The Third Circuit affirmed the dismissal, finding that although the ordinance was constitutionally suspect, she lacks Article III standing because she failed to demonstrate an injury-in-fact and redressability as to her Fourth Amendment claim, and that her Fifth Amendment claims are not ripe until she has sought and been denied just compensation using state inverse-condemnation procedures as required in the US Supreme Court’s 1985 decision in <a href=\"https://www.oyez.org/cases/1984/84-4\"><em>Williamson County Regional Planning Commission v. Hamilton Bank of Johnson City</em></a>.</p>\n",
+  "question": "<ol><li>Should the Court affirm or abrogate its holding in <em>Williamson County Regional Planning Commission v. Hamilton Bank</em>, which requires property owners to exhaust state court remedies before bringing federal Takings Clause claims?</li>\n<li>Does the ripeness doctrine established in <em>Williamson County</em> apply to takings claims that assert that a law is unconstitutional on its face?</li>\n</ol>",
+  "conclusion": null,
+  "advocates": [
+    {
+      "advocate": {
+        "ID": 62961,
+        "name": "J. David Breemer",
+        "href": "https://api.oyez.org/people/j_david_breemer",
+        "view_count": 0,
+        "last_name": "Breemer",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "j_david_breemer"
+      },
+      "advocate_description": "for petitioner",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22546"
+    },
+    {
+      "advocate": {
+        "ID": 37093,
+        "name": "Noel J. Francisco",
+        "href": "https://api.oyez.org/people/noel_j_francisco",
+        "view_count": 0,
+        "last_name": "Francisco",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "noel_j_francisco"
+      },
+      "advocate_description": "Solicitor General, US Department of Justice, for the United States as amicus curiae, supporting petitioner",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22547"
+    },
+    {
+      "advocate": {
+        "ID": 63034,
+        "name": "Teresa Ficken Sachs",
+        "href": "https://api.oyez.org/people/teresa_ficken_sachs",
+        "view_count": 0,
+        "last_name": "Sachs",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "teresa_ficken_sachs"
+      },
+      "advocate_description": "for respondents",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22548"
+    }
+  ],
+  "oral_argument_audio": [
+    {
+      "id": 24618,
+      "title": "Oral Argument - October 03, 2018",
+      "public_note": null,
+      "unavailable": false,
+      "display_title": null,
+      "href": "https://api.oyez.org/case_media/oral_argument_audio/24618"
+    },
+    {
+      "id": 24794,
+      "title": "Oral Reargument - January 16, 2019",
+      "public_note": null,
+      "unavailable": false,
+      "display_title": null,
+      "href": "https://api.oyez.org/case_media/oral_argument_audio/24794"
+    }
+  ],
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27581"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    {
+      "ID": 63036,
+      "name": "Roberts Court (2018)",
+      "href": "https://api.oyez.org/courts/roberts9",
+      "view_count": 0,
+      "members": [
+        {
+          "ID": 15086,
+          "name": "John G. Roberts, Jr.",
+          "href": "https://api.oyez.org/people/john_g_roberts_jr",
+          "view_count": 161,
+          "last_name": "Roberts",
+          "roles": [
+            {
+              "id": 2730,
+              "type": "scotus_justice",
+              "date_start": 1127970000,
+              "date_end": 0,
+              "appointing_president": "George W. Bush",
+              "role_title": "Chief Justice of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2730"
+            }
+          ],
+          "thumbnail": {
+            "id": 32683,
+            "mime": "image/png",
+            "size": 52305,
+            "href": "https://api.oyez.org/sites/default/files/images/people/john_g_roberts_jr/john_g_roberts_jr.thumb.png"
+          },
+          "length_of_service": 3842,
+          "identifier": "john_g_roberts_jr"
+        },
+        {
+          "ID": 15100,
+          "name": "Clarence Thomas",
+          "href": "https://api.oyez.org/people/clarence_thomas",
+          "view_count": 321,
+          "last_name": "Thomas",
+          "roles": [
+            {
+              "id": 2744,
+              "type": "scotus_justice",
+              "date_start": 688194000,
+              "date_end": 0,
+              "appointing_president": "George H. W. Bush",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2744"
+            }
+          ],
+          "thumbnail": {
+            "id": 32680,
+            "mime": "image/png",
+            "size": 49064,
+            "href": "https://api.oyez.org/sites/default/files/images/people/clarence_thomas/clarence_thomas.thumb.png"
+          },
+          "length_of_service": 9347,
+          "identifier": "clarence_thomas"
+        },
+        {
+          "ID": 15084,
+          "name": "Ruth Bader Ginsburg",
+          "href": "https://api.oyez.org/people/ruth_bader_ginsburg",
+          "view_count": 330,
+          "last_name": "Ginsburg",
+          "roles": [
+            {
+              "id": 2728,
+              "type": "scotus_justice",
+              "date_start": 744958800,
+              "date_end": 0,
+              "appointing_president": "Bill Clinton",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2728"
+            }
+          ],
+          "thumbnail": {
+            "id": 32681,
+            "mime": "image/png",
+            "size": 45030,
+            "href": "https://api.oyez.org/sites/default/files/images/people/ruth_bader_ginsburg/ruth_bader_ginsburg.thumb.png"
+          },
+          "length_of_service": 8275,
+          "identifier": "ruth_bader_ginsburg"
+        },
+        {
+          "ID": 15139,
+          "name": "Stephen G. Breyer",
+          "href": "https://api.oyez.org/people/stephen_g_breyer",
+          "view_count": 149,
+          "last_name": "Breyer",
+          "roles": [
+            {
+              "id": 2785,
+              "type": "scotus_justice",
+              "date_start": 775890000,
+              "date_end": 0,
+              "appointing_president": "Bill Clinton",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2785"
+            }
+          ],
+          "thumbnail": {
+            "id": 32682,
+            "mime": "image/png",
+            "size": 49908,
+            "href": "https://api.oyez.org/sites/default/files/images/people/stephen_g_breyer/stephen_g_breyer.thumb.png"
+          },
+          "length_of_service": 7917,
+          "identifier": "stephen_g_breyer"
+        },
+        {
+          "ID": 15068,
+          "name": "Samuel A. Alito, Jr.",
+          "href": "https://api.oyez.org/people/samuel_a_alito_jr",
+          "view_count": 163,
+          "last_name": "Alito",
+          "roles": [
+            {
+              "id": 2712,
+              "type": "scotus_justice",
+              "date_start": 1138687200,
+              "date_end": 0,
+              "appointing_president": "George W. Bush",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2712"
+            }
+          ],
+          "thumbnail": {
+            "id": 32684,
+            "mime": "image/png",
+            "size": 44799,
+            "href": "https://api.oyez.org/sites/default/files/images/people/samuel_alito_jr/samuel_alito_jr.thumb.png"
+          },
+          "length_of_service": 4311,
+          "identifier": "samuel_a_alito_jr"
+        },
+        {
+          "ID": 15131,
+          "name": "Sonia Sotomayor",
+          "href": "https://api.oyez.org/people/sonia_sotomayor",
+          "view_count": 224,
+          "last_name": "Sotomayor",
+          "roles": [
+            {
+              "id": 2776,
+              "type": "scotus_justice",
+              "date_start": 1249707600,
+              "date_end": 0,
+              "appointing_president": null,
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2776"
+            }
+          ],
+          "thumbnail": {
+            "id": 32685,
+            "mime": "image/png",
+            "size": 50379,
+            "href": "https://api.oyez.org/sites/default/files/images/people/sonia_sotomayor/sonia_sotomayor.thumb.png"
+          },
+          "length_of_service": 2433,
+          "identifier": "sonia_sotomayor"
+        },
+        {
+          "ID": 15094,
+          "name": "Elena Kagan",
+          "href": "https://api.oyez.org/people/elena_kagan",
+          "view_count": 214,
+          "last_name": "Kagan",
+          "roles": [
+            {
+              "id": 2738,
+              "type": "scotus_justice",
+              "date_start": 1281157200,
+              "date_end": 0,
+              "appointing_president": "Barack Obama",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/2738"
+            }
+          ],
+          "thumbnail": {
+            "id": 32690,
+            "mime": "image/png",
+            "size": 44456,
+            "href": "https://api.oyez.org/sites/default/files/images/people/elena_kagan/elena_kagan.thumb.png"
+          },
+          "length_of_service": 2762,
+          "identifier": "elena_kagan"
+        },
+        {
+          "ID": 62836,
+          "name": "Neil Gorsuch",
+          "href": "https://api.oyez.org/people/neil_gorsuch",
+          "view_count": 137,
+          "last_name": "Gorsuch",
+          "roles": [
+            {
+              "id": 3506,
+              "type": "scotus_justice",
+              "date_start": 1491541200,
+              "date_end": 0,
+              "appointing_president": "Donald J. Trump",
+              "role_title": "Associate Justice of the Supreme Court of the United States",
+              "institution_name": "Supreme Court of the United States",
+              "href": "https://api.oyez.org/preson_role/scotus_justice/3506"
+            }
+          ],
+          "thumbnail": {
+            "id": 79753,
+            "mime": "image/png",
+            "size": 121461,
+            "href": "https://api.oyez.org/sites/default/files/filefield_paths/neil_gorsuch.thumb__0.png"
+          },
+          "length_of_service": 104,
+          "identifier": "neil_gorsuch"
+        }
+      ],
+      "court_start": 1533099600,
+      "images": null,
+      "identifier": "roberts9"
+    }
+  ],
+  "decided_by": null,
+  "term": "2018",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court will (1) consider whether to affirm or abrogate its holding in Williamson County Regional Planning Commission v. Hamilton Bank that requires property owners to exhaust state court remedies before bringing federal Takings Clause claims, and (2) resolve a circuit split as to whether the ripeness doctrine established in Williamson County applies to takings claims that assert that a law is unconstitutional on its face.",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": null
+}

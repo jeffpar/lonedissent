@@ -1582,7 +1582,7 @@ function buildAdvocates(done)
                         if (missingCases) cases.push(...missingCases);
                     }
                     cases.forEach((obj) => {
-                        let dir = path.join(path.dirname(sources.oyez.cases), obj.term, "_files");
+                        let dir = path.join(path.dirname(sources.oyez.cases), obj.term);
                         let fileID = obj.docket_number + '_' + obj.ID;
                         let file = fileID + ".json";
                         let filePath = path.join(dir, file);
@@ -3194,7 +3194,9 @@ function findJustices(done, minVotes)
     let description = minVotes == 1? "Lone Dissents" : "Majority Opinions";
     data.forEach((justice) => {
         let total = (minVotes == 1? justice.loneTotal : justice.majorityTotal);
-        printf("%s: %d %s%s\n", justice.name, total, type, total == 1? '' : 's');
+        //
+        // printf("%s: %d %s%s\n", justice.name, total, type, total == 1? '' : 's');
+        //
         /*
         * Create a page for each Justice's lone dissents.
         */
@@ -3286,7 +3288,9 @@ function findLonerParties(done)
     dates.forEach((date) => {
         let bucket = dateBuckets[date];
         if (bucket.length > 1) {
-            printf("date %s had %d lone dissents\n", date, bucket.length);
+            //
+            // printf("date %s had %d lone dissents\n", date, bucket.length);
+            //
             text += sprintf("\n## %#C\n\n", date);
             bucket.forEach((dissent) => {
                 text += '- [' + (dissent.caseTitle || dissent.caseName) + '](/cases/loners/' + dissent.termId + '#' + dissent.caseId + '): Dissent by [' + dissent.dissenterName + '](/justices/loners/' + getJusticeId(dissent.dissenterId) + '#' + dissent.caseId + ')\n';
@@ -4229,7 +4233,7 @@ function generateDownloadTasks(done)
     let cases = JSON.parse(readFile(sources.oyez.cases) || "{}");
     if (cases) {
         cases.ids.forEach((id) => {
-            let dir = path.join(path.dirname(sources.oyez.cases), id, "_files");
+            let dir = path.join(path.dirname(sources.oyez.cases), id);
             let file = id + ".json";
             let filePath = path.join(dir, file);
             if (fs.existsSync(rootDir + filePath)) {
@@ -4293,7 +4297,7 @@ function generateDownloadTasks(done)
                         let missingCases = advocates.missingCases && advocates.missingCases[id];
                         if (missingCases) cases.push(...missingCases);
                         cases.forEach((obj) => {
-                            let dir = path.join(path.dirname(sources.oyez.cases), obj.term, "_files");
+                            let dir = path.join(path.dirname(sources.oyez.cases), obj.term);
                             let fileID = obj.docket_number + '_' + obj.ID;
                             let file = fileID + ".json";
                             let filePath = path.join(dir, file);

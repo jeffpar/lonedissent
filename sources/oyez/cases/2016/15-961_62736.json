@@ -1,0 +1,68 @@
+{
+  "ID": 62736,
+  "name": "Visa Inc. v. Osborn",
+  "href": "https://api.oyez.org/cases/2016/15-961",
+  "view_count": 0,
+  "docket_number": "15-961",
+  "additional_docket_numbers": [
+    "15-962"
+  ],
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "Visa Inc., et al.",
+  "second_party": "Sam Osborn, et al.",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1467090000
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/53878"
+    },
+    {
+      "event": "Dismissed as improvidently granted",
+      "dates": [
+        1479362400
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/53916"
+    }
+  ],
+  "lower_court": {
+    "ID": 16,
+    "name": "United States Court of Appeals for the District of Columbia Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/16"
+  },
+  "facts_of_the_case": "<p>Automated Teller Machines (ATMs) allow cardholders to access their accounts as long as the cardholder’s card and the ATM share at least one common network, and ATM operators profit from these transactions by charging fees to both cardholder’s bank and the cardholder. For ATM operators to use their networks, Visa and MasterCard each require that the operator agree to “Access Fee Rules,” which provide that the operator may not charge a Visa or MasterCard network user a higher fee than a customer whose card uses another network. The plaintiffs in these consolidated cases sued and argued that the Access Fee Rules violated the Sherman Act because they illegally prevent the efficient pricing of ATM services and do not allow ATM operators to incentivize customers to choose cards that are more efficient and cheaper than Visa and MasterCard. The district court dismissed the cases because the plaintiffs had not adequately established that there was concerted activity as the Sherman Act required. The U.S. Court of Appeals for the District of Columbia Circuit reversed and held that, while mere membership in an organization is not sufficient, the plaintiffs alleged that the members used the bankcard associations to enforce certain pricing schemes, which is sufficient to plausibly allege a conspiracy under the Sherman Act.</p>\n<p>After agreeing to hear the case in July of 2016, the Supreme Court dismissed it as improvidently granted in November of that same year.</p>\n",
+  "question": "<p>Are allegations that members of a business organization agreed to adhere to the organization’s rules and also possessed governance rights to the organization sufficient to plead that there was a conspiracy under the Sherman Act?</p>\n",
+  "conclusion": null,
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27447"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2016",
+  "location": {
+    "latitude": 38.892851,
+    "longitude": -77.016209,
+    "name": "U.S. District Court for the District of Columbia",
+    "street": "333 Constitution Avenue N.W.",
+    "city": "Washington",
+    "province": "DC",
+    "postal_code": null,
+    "province_name": "District Of Columbia"
+  },
+  "opinion_announcement": null,
+  "description": "A case in which the Court would have determined whether allegations that members of a business organization agreed to adhere to the organization’s rules and possessed governance rights to the organization are sufficient to plead that there was a conspiracy under the Sherman Act.",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": null
+}

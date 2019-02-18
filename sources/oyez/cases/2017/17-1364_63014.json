@@ -1,0 +1,341 @@
+{
+  "ID": 63014,
+  "name": "North Carolina v. Covington",
+  "href": "https://api.oyez.org/cases/2017/17-1364",
+  "view_count": 96,
+  "docket_number": "17-1364",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Appeal",
+  "first_party": "North Carolina, et al.",
+  "second_party": "Sandra Little Covington, et al.",
+  "timeline": [
+    {
+      "event": "Decided",
+      "dates": [
+        1530162000
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54330"
+    }
+  ],
+  "lower_court": {
+    "ID": 146,
+    "name": "Federal district court",
+    "href": "https://api.oyez.org/courts/federal_district_court"
+  },
+  "facts_of_the_case": "<p>Following the 2010 census, the North Carolina General Assembly undertook redistricting efforts in multiple state house and senate districts. A group of voters sued, alleging that the General Assembly had racially gerrymandered their districts, drawing 28 state legislative districts that were comprised of a majority of black voters. The district court ruled in favor of the plaintiffs, and the U.S. Supreme Court affirmed. However, the Court simultaneously vacated the district court’s remedial order, which, among other things, mandated that the legislature draw new districting maps, called for special elections, and shortened the terms of legislators serving in the gerrymandered districts. The Court explained that the district court had not engaged in a sufficiently detailed review of the equitable balance that court-ordered special elections carried, and had “barely exercised” its discretion. The Court ordered further remedial proceedings on remand.</p>\n<p>The district court subsequently ordered the General Assembly to draw new maps and file them with the court, which it did. The plaintiffs objected to the maps, arguing that Senate districts 21 and 28 and House districts 21 and 57 continued to racially segregate voters. They also contended that the revision of five House districts in Wake and Mecklenburg Counties was not justified, and that it in fact violated the North Carolina Constitution because it transgressed a ban on mid-decade redistricting. In response, the district court appointed a Special Master to redraw the boundaries of the districts the plaintiffs objected to, as well as any other non-adjacent districts necessary to accomplish the objectives set forth by the district court. These objectives included considering the race of individual voters to the extent necessary to avoid drawing new districts that did not cure the illegal gerrymanders.</p>\n<p>After receiving the Special Master’s report, the district court sustained the plaintiffs’ objections and adopted the Special Master’s recommended redrawing of the districts at issue. The court found that regarding Senate districts 21 and 28 and House districts 21 and 57, as remedially revised by the General Assembly, they had retained the same basic shape found to be unconstitutional. The court also sustained the plaintiffs’ objections regarding the districts in Wake and Mecklenburg Counties, finding that the redistricting in those areas violated the prohibition on mid-decade redistricting, and did not do so to remedy any existing racial gerrymandering.</p>\n<p>The defendants sought a stay from the U.S. Supreme Court pending appeal, and it was granted as to implementation of the Special Master’s redrawn districts in Wake and Mecklenburg Counties, but otherwise denied. Defendants timely appealed.</p>\n",
+  "question": null,
+  "conclusion": "<p>The Court affirmed the district court’s order in part and reversed in part. In a per curiam opinion, the Court began by rejecting the claim that it lacked jurisdiction because the plaintiffs’ claims had become moot when the remedial plans were implemented. The Court explained that the plaintiffs’ claims that they were placed in legislative districts based on race did not become moot simply because new districts were drawn. Indeed, the new districts were alleged to contain many of the same constitutional infirmities as the old ones. Because the plaintiffs alleged that they remained segregated on the basis of race, a live controversy remained in the case.</p>\n<p>The Court also rejected the defendants’ argument that the district court had erred in deciding that the General Assembly had engaged in racial gerrymandering by not considering race when drawing the remedial maps. The district court had found significant circumstantial evidence that Senate districts 21 and 28 and House districts 21 and 57 were shaped predominantly by race, and this sort of evidence was just as acceptable as more direct legislative evidence.</p>\n<p>Further, the Court rejected the argument that the district court had abused its discretion in appointing a Special Master to prepare an alternative remedial map instead of leaving the job to the legislature, as the district court had a duty to remedy the illegal gerrymandering before the next election cycle. The Court additionally rejected the notion that adopting the Special Master’s recommendations was an abuse of discretion because those recommendations factored in “racial quotas” in creating the new district boundaries.</p>\n<p>The Court therefore affirmed the district court’s order with regard to providing a court-drawn remedy for Senate districts 21 and 28 and House districts 21 and 57. However, it reversed the district court’s findings regarding Wake and Mecklenburg Counties, concluding that it was error for the court to override the legislature’s decision to disregard the state constitutional ban on mid-decade redistricting, which the district court viewed as being applicable unless the redistricting in question was required by federal law or a court order. The Court explained that “[s]tate legislatures have primary jurisdiction over legislative reapportionment,” and that the district court’s role in the state’s legislative redistricting process should have concluded once the racial gerrymanders at issue in this case were remedied.</p>\n<p>Justice Thomas filed a dissenting opinion.</p>\n",
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": "585",
+    "page": null,
+    "year": "2018",
+    "href": "https://api.oyez.org/case_citation/case_citation/27615"
+  },
+  "decisions": null,
+  "first_party_label": "Appellant",
+  "second_party_label": "Appellee",
+  "heard_by": [
+    null
+  ],
+  "decided_by": {
+    "ID": 62838,
+    "name": "Roberts Court (2017-2018)",
+    "href": "https://api.oyez.org/courts/roberts8",
+    "view_count": 0,
+    "members": [
+      {
+        "ID": 15086,
+        "name": "John G. Roberts, Jr.",
+        "href": "https://api.oyez.org/people/john_g_roberts_jr",
+        "view_count": 161,
+        "last_name": "Roberts",
+        "roles": [
+          {
+            "id": 2730,
+            "type": "scotus_justice",
+            "date_start": 1127970000,
+            "date_end": 0,
+            "appointing_president": "George W. Bush",
+            "role_title": "Chief Justice of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2730"
+          }
+        ],
+        "thumbnail": {
+          "id": 32683,
+          "mime": "image/png",
+          "size": 52305,
+          "href": "https://api.oyez.org/sites/default/files/images/people/john_g_roberts_jr/john_g_roberts_jr.thumb.png"
+        },
+        "length_of_service": 3842,
+        "identifier": "john_g_roberts_jr"
+      },
+      {
+        "ID": 15113,
+        "name": "Anthony M. Kennedy",
+        "href": "https://api.oyez.org/people/anthony_m_kennedy",
+        "view_count": 134,
+        "last_name": "Kennedy",
+        "roles": [
+          {
+            "id": 2757,
+            "type": "scotus_justice",
+            "date_start": 572162400,
+            "date_end": 1533013200,
+            "appointing_president": "Ronald Reagan",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2757"
+          }
+        ],
+        "thumbnail": {
+          "id": 32679,
+          "mime": "image/png",
+          "size": 47100,
+          "href": "https://api.oyez.org/sites/default/files/images/people/anthony_m_kennedy/anthony_m_kennedy.thumb.png"
+        },
+        "length_of_service": 11121,
+        "identifier": "anthony_m_kennedy"
+      },
+      {
+        "ID": 15100,
+        "name": "Clarence Thomas",
+        "href": "https://api.oyez.org/people/clarence_thomas",
+        "view_count": 321,
+        "last_name": "Thomas",
+        "roles": [
+          {
+            "id": 2744,
+            "type": "scotus_justice",
+            "date_start": 688194000,
+            "date_end": 0,
+            "appointing_president": "George H. W. Bush",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2744"
+          }
+        ],
+        "thumbnail": {
+          "id": 32680,
+          "mime": "image/png",
+          "size": 49064,
+          "href": "https://api.oyez.org/sites/default/files/images/people/clarence_thomas/clarence_thomas.thumb.png"
+        },
+        "length_of_service": 9347,
+        "identifier": "clarence_thomas"
+      },
+      {
+        "ID": 15084,
+        "name": "Ruth Bader Ginsburg",
+        "href": "https://api.oyez.org/people/ruth_bader_ginsburg",
+        "view_count": 330,
+        "last_name": "Ginsburg",
+        "roles": [
+          {
+            "id": 2728,
+            "type": "scotus_justice",
+            "date_start": 744958800,
+            "date_end": 0,
+            "appointing_president": "Bill Clinton",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2728"
+          }
+        ],
+        "thumbnail": {
+          "id": 32681,
+          "mime": "image/png",
+          "size": 45030,
+          "href": "https://api.oyez.org/sites/default/files/images/people/ruth_bader_ginsburg/ruth_bader_ginsburg.thumb.png"
+        },
+        "length_of_service": 8275,
+        "identifier": "ruth_bader_ginsburg"
+      },
+      {
+        "ID": 15139,
+        "name": "Stephen G. Breyer",
+        "href": "https://api.oyez.org/people/stephen_g_breyer",
+        "view_count": 149,
+        "last_name": "Breyer",
+        "roles": [
+          {
+            "id": 2785,
+            "type": "scotus_justice",
+            "date_start": 775890000,
+            "date_end": 0,
+            "appointing_president": "Bill Clinton",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2785"
+          }
+        ],
+        "thumbnail": {
+          "id": 32682,
+          "mime": "image/png",
+          "size": 49908,
+          "href": "https://api.oyez.org/sites/default/files/images/people/stephen_g_breyer/stephen_g_breyer.thumb.png"
+        },
+        "length_of_service": 7917,
+        "identifier": "stephen_g_breyer"
+      },
+      {
+        "ID": 15068,
+        "name": "Samuel A. Alito, Jr.",
+        "href": "https://api.oyez.org/people/samuel_a_alito_jr",
+        "view_count": 163,
+        "last_name": "Alito",
+        "roles": [
+          {
+            "id": 2712,
+            "type": "scotus_justice",
+            "date_start": 1138687200,
+            "date_end": 0,
+            "appointing_president": "George W. Bush",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2712"
+          }
+        ],
+        "thumbnail": {
+          "id": 32684,
+          "mime": "image/png",
+          "size": 44799,
+          "href": "https://api.oyez.org/sites/default/files/images/people/samuel_alito_jr/samuel_alito_jr.thumb.png"
+        },
+        "length_of_service": 4311,
+        "identifier": "samuel_a_alito_jr"
+      },
+      {
+        "ID": 15131,
+        "name": "Sonia Sotomayor",
+        "href": "https://api.oyez.org/people/sonia_sotomayor",
+        "view_count": 224,
+        "last_name": "Sotomayor",
+        "roles": [
+          {
+            "id": 2776,
+            "type": "scotus_justice",
+            "date_start": 1249707600,
+            "date_end": 0,
+            "appointing_president": null,
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2776"
+          }
+        ],
+        "thumbnail": {
+          "id": 32685,
+          "mime": "image/png",
+          "size": 50379,
+          "href": "https://api.oyez.org/sites/default/files/images/people/sonia_sotomayor/sonia_sotomayor.thumb.png"
+        },
+        "length_of_service": 2433,
+        "identifier": "sonia_sotomayor"
+      },
+      {
+        "ID": 15094,
+        "name": "Elena Kagan",
+        "href": "https://api.oyez.org/people/elena_kagan",
+        "view_count": 214,
+        "last_name": "Kagan",
+        "roles": [
+          {
+            "id": 2738,
+            "type": "scotus_justice",
+            "date_start": 1281157200,
+            "date_end": 0,
+            "appointing_president": "Barack Obama",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/2738"
+          }
+        ],
+        "thumbnail": {
+          "id": 32690,
+          "mime": "image/png",
+          "size": 44456,
+          "href": "https://api.oyez.org/sites/default/files/images/people/elena_kagan/elena_kagan.thumb.png"
+        },
+        "length_of_service": 2762,
+        "identifier": "elena_kagan"
+      },
+      {
+        "ID": 62836,
+        "name": "Neil Gorsuch",
+        "href": "https://api.oyez.org/people/neil_gorsuch",
+        "view_count": 137,
+        "last_name": "Gorsuch",
+        "roles": [
+          {
+            "id": 3506,
+            "type": "scotus_justice",
+            "date_start": 1491541200,
+            "date_end": 0,
+            "appointing_president": "Donald J. Trump",
+            "role_title": "Associate Justice of the Supreme Court of the United States",
+            "institution_name": "Supreme Court of the United States",
+            "href": "https://api.oyez.org/preson_role/scotus_justice/3506"
+          }
+        ],
+        "thumbnail": {
+          "id": 79753,
+          "mime": "image/png",
+          "size": 121461,
+          "href": "https://api.oyez.org/sites/default/files/filefield_paths/neil_gorsuch.thumb__0.png"
+        },
+        "length_of_service": 104,
+        "identifier": "neil_gorsuch"
+      }
+    ],
+    "court_start": 1491800400,
+    "images": [
+      {
+        "id": 79757,
+        "mime": "image/jpeg",
+        "size": 333783,
+        "href": "https://api.oyez.org/sites/default/files/filefield_paths/GroupPhoto.jpg"
+      }
+    ],
+    "identifier": "roberts8"
+  },
+  "term": "2017",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court affirmed the district court’s order insofar as it provided a court-drawn remedy for Senate districts 21 and 28 and House districts 21 and 57, and reversed as to the court’s actions regarding the legislature’s redrawing of House districts in Wake and Mecklenburg Counties.",
+  "written_opinion": [
+    {
+      "id": 16580,
+      "title": "Dissenting opinion",
+      "author": null,
+      "type": {
+        "value": "dissenting",
+        "label": "Dissenting opinion"
+      },
+      "justia_opinion_id": 3922370,
+      "justia_opinion_url": "https://supreme.justia.com/cases/federal/us/585/17-1364/",
+      "judge_full_name": "Clarence Thomas",
+      "judge_last_name": "Thomas",
+      "title_overwrite": null,
+      "href": "https://api.oyez.org/case_document/written_opinion/16580"
+    },
+    {
+      "id": 16581,
+      "title": "Opinion of the Court",
+      "author": null,
+      "type": {
+        "value": "majority",
+        "label": "Opinion of the Court"
+      },
+      "justia_opinion_id": 3922371,
+      "justia_opinion_url": "https://supreme.justia.com/cases/federal/us/585/17-1364/",
+      "judge_full_name": null,
+      "judge_last_name": null,
+      "title_overwrite": null,
+      "href": "https://api.oyez.org/case_document/written_opinion/16581"
+    }
+  ],
+  "related_cases": null,
+  "justia_url": "https://supreme.justia.com/cases/federal/us/585/17-1364/"
+}

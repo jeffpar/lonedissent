@@ -1,0 +1,88 @@
+{
+  "ID": 62829,
+  "name": "Leidos, Inc. v. Indiana Public Retirement System",
+  "href": "https://api.oyez.org/cases/2017/16-581",
+  "view_count": 0,
+  "docket_number": "16-581",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "Leidos, Inc.",
+  "second_party": "Indiana Public Retirement System",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1490590800
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54009"
+    },
+    {
+      "event": "Dismissed",
+      "dates": [
+        1529298000
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54335"
+    }
+  ],
+  "lower_court": {
+    "ID": 7,
+    "name": "United States Court of Appeals for the Second Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/7"
+  },
+  "facts_of_the_case": "<p dir=\"ltr\">Leidos Holdings, Inc. (Leidos) provides defense, intelligence, homeland security, and other services to government agencies. In 2000, Leidos developed and implemented an automated timekeeping program (CityTime) in New York City. Leidos hired Gerard Denault as CityTime’s manager, and he enlisted a company called Technodyne to provide staffing for the CityTime project. Denault engaged in a scheme to hire more Technodyne workers than necessary to “inflate billable hours and hourly rates” and amended the contract between CityTime and Technodyne to transfer any risk of “cost overruns” to New York City. The result was that New York City was billed $635 million, instead of the $63 million the city had budgeted for the contract. Leidos removed Denault from his position and hired an outside firm to conduct an investigation, which uncovered Denault’s improper timekeeping. He was criminally prosecuted. </p>\n<p>The Indiana Public Retirement Systems (Investors) sued Leidos in federal district court under §10(b) of the Securities Exchange Act, which makes an omission fraudulent only if the omitted information is necessary to make an affirmative statement not misleading. The Investors claimed that Leidos failed to disclose potential liability stemming from the CityTime fraud and that omission was fraudulent. The district court dismissed the Investors’ claim and denied their motion for relief from judgment. The Investors sought to amend their complaint, but the district court denied the proposed second amended complaint, reasoning that amendment would be “futile.” The U.S. Court of Appeals for the Second Circuit held that the district court improperly denied the Investors’ motion to amend their complaint. The appellate court held that a company can be liable for merely omitting information, even if disclosure of that information is not necessary to make affirmative statements not misleading.</p>\n<p>On October 17, 2017, the Court removed this case from the argument calendar and noted the case as held in abeyance.</p>\n",
+  "question": "<p>Is there an affirmative duty to disclose information under §10(b) of the Securities Exchange Act of 1934?</p>\n",
+  "conclusion": "<p>On October 17, 2017, the Court removed this case from the argument calendar and noted the case as held in abeyance.</p>\n",
+  "advocates": [
+    {
+      "advocate": {
+        "ID": 20869,
+        "name": "David C. Frederick",
+        "href": "https://api.oyez.org/people/david_c_frederick",
+        "view_count": 0,
+        "last_name": "Frederick",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "david_c_frederick"
+      },
+      "advocate_description": "for the respondents",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22333"
+    },
+    {
+      "advocate": {
+        "ID": 17114,
+        "name": "Andrew S. Tulumello",
+        "href": "https://api.oyez.org/people/andrew_s_tulumello",
+        "view_count": 0,
+        "last_name": "Tulumello",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "andrew_s_tulumello"
+      },
+      "advocate_description": "for the petitioner",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22334"
+    }
+  ],
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27513"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2017",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court would have decided whether there is an affirmative duty to disclose information under §10(b) of the Securities Exchange Act of 1934.",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": null
+}

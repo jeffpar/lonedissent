@@ -1,0 +1,50 @@
+{
+  "ID": 63075,
+  "name": "United States v. Davis",
+  "href": "https://api.oyez.org/cases/2018/18-431",
+  "view_count": 254,
+  "docket_number": "18-431",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "United States of America",
+  "second_party": "Maurice Lamont Davis and Andre Levon Glover",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1546581600
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54417"
+    }
+  ],
+  "lower_court": {
+    "ID": 10,
+    "name": "United States Court of Appeals for the Fifth Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/10"
+  },
+  "facts_of_the_case": "<p>On November 19, 2015, a jury found defendant Maurice Lamont Davis guilty on six counts, including the illegal use or carrying of a firearm in relation to a crime of violence (a “Hobbs Act robbery”) and the illegal use or carrying of a firearm to aid and abet conspiracy to commit a crime of violence. Also on November 19, 2015, a jury found defendant Andre Levon Glover guilty on seven counts, including the two counts described above.</p>\n<p>On appeal, the US Court of Appeals for the Fifth Circuit issued an opinion on January 31, 2017, denying both defendants’ challenges and affirming the district court’s judgment below. The defendants petitioned the US Supreme Court for certiorari, and following the Court’s decision in <a href=\"https://www.oyez.org/cases/2017/15-1498\"><em>Sessions v. Dimaya</em>, 584 U.S. __ (2018)</a>, the Court remanded their case back to the Fifth Circuit for further consideration in light of that decision. After requesting supplemental briefing from the parties on the effect of <em>Dimaya</em>, the Fifth Circuit affirmed in part and vacated in part.</p>\n<p>18 U.S.C. § 924(c) contains both an “elements clause” and a “residual clause.” The elements clause defines an offense as a crime of violence if it “has as an element the use, attempted use, or threatened use of physical force against the person or property of another,” and the residual clause defines an offense as a crime of violence if it, “by its nature, involves a substantial risk that physical force against the person or property of another may be used in the course of committing the offense.” In <em>Dimaya</em>, the Court addressed (and invalidated) a residual clause identical to the residual clause in § 924(c) but did not address the elements clause. Thus, the Fifth Circuit held the residual clause in 924(c) unconstitutionally vague under <em>Dimaya</em> but did not invalidate the elements clause in that section. As a result of this holding, the Fifth Circuit affirmed its prior judgment as to the Hobbs Act robbery count but vacated as to the aiding and abetting conspiracy count, because the former relies on the elements clause while the latter relies on the residual clause.</p>\n",
+  "question": "<p>Is the subsection-specific definition of “crime of violence” in 18 U.S.C. § 924(c)(3)(B)—which applies only in the limited context of a federal criminal prosecution for possessing, using or carrying a firearm in connection with acts comprising such a crime—unconstitutionally vague?</p>\n",
+  "conclusion": null,
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27648"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2018",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court will decide whether the subsection-specific definition of “crime of violence” in 18 U.S.C. § 924(c)(3)(B)—which applies only in the limited context of a federal criminal prosecution for possessing, using or carrying a firearm in connection with acts comprising such a crime—is unconstitutionally vague.",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": null
+}

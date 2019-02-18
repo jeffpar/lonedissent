@@ -1,0 +1,50 @@
+{
+  "ID": 63077,
+  "name": "Quarles v. United States",
+  "href": "https://api.oyez.org/cases/2018/17-778",
+  "view_count": 206,
+  "docket_number": "17-778",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "Jamar Alonzo Quarles",
+  "second_party": "United States of America",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1547186400
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54419"
+    }
+  ],
+  "lower_court": {
+    "ID": 11,
+    "name": "United States Court of Appeals for the Sixth Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/11"
+  },
+  "facts_of_the_case": "<p>Jamar Quarles was charged with being a felon in possession of a firearm, in violation of 18 U.S.C § 922(g). At his original sentencing, the district court held that Quarles’s conviction for third-degree home invasion was a violent felony under the residual clause of the Armed Career Criminal Act (“ACCA”) but declined to rule whether the offense constituted generic burglary. Finding the felon-in-possession conviction to be a third offense under the ACCA, the court sentenced Quarles to 204 months in prison. In light of the US Supreme Court’s decision in <a href=\"https://www.oyez.org/cases/2014/13-7120\"><em>Johnson v. United States</em>, 576 U.S. __ (2015)</a>, in which it held unconstitutionally vague the residual clause of the ACCA, the US Court of Appeals for the Sixth Circuit remanded the case for resentencing. The district court found that Michigan’s crime of third-degree home invasion constituted a “violent felony” under the ACCA and resentenced Quarles to 204 months’ incarceration.</p>\n<p>Under federal law, a generic burglary is “an unlawful or unprivileged entry into, or remaining in, a building or other structure, with intent to commit a crime.” Michigan law defines the crime of third-degree home invasion as breaking and entering a dwelling with intent to commit a misdemeanor in the dwelling, entering the dwelling without permission with intent to commit a misdemeanor in the dwelling, or breaking and entering a dwelling and while entering or present in the dwelling, committing a misdemeanor. This third option of intent is the subject of the present dispute. Both the district court and the Sixth Circuit found unpersuasive Quarles’s argument that the Michigan crime lacks the intent-upon-entry element that is required under generic burglary. Under binding Sixth Circuit precedent, generic burglary does not require intent at entry, so the Michigan crime of third-degree home invasion is not broader than the crime of generic burglary.</p>\n",
+  "question": "<p>Does the generic definition of burglary, established by the US Supreme Court in <a href=\"https://www.oyez.org/cases/2015/14-6166\"><em>Taylor v. United States</em>, 495 U.S. 575 (1990)</a>, require proof that intent to commit a crime was present at the time of unlawful entry or first unlawful remaining, or only that the defendant formed such intent while “remaining in” the building or structure?</p>\n",
+  "conclusion": null,
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27650"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2018",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court will resolve a circuit split as to whether the US Supreme Court’s generic definition of generic burglary requires proof that intent to commit a crime was present at the time of unlawful entry or first unlawful remaining, as two circuits hold; or whether it is enough that the defendant formed the intent to commit a crime at any time while “remaining in” the building or structure, as the court below and three other circuits hold.",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": null
+}

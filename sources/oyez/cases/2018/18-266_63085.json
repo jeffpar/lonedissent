@@ -1,0 +1,50 @@
+{
+  "ID": 63085,
+  "name": "The Dutra Group v. Batterton",
+  "href": "https://api.oyez.org/cases/2018/18-266",
+  "view_count": 107,
+  "docket_number": "18-266",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "The Dutra Group",
+  "second_party": "Christopher Batterton",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1544162400
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54427"
+    }
+  ],
+  "lower_court": {
+    "ID": 5,
+    "name": "United States Court of Appeals for the Ninth Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/5"
+  },
+  "facts_of_the_case": "<p>Respondent Christopher Batterton was a deckhand on a vessel owned and operated by the the petitioner, Dutra Group. While Batterton was working on the vessel, a hatch cover blew open and crushed his hand. The hatch cover blew open because the vessel lacked a particular exhaust mechanism, the lack of which made the vessel unseaworthy as a matter of law.</p>\n<p>The district court denied Dutra Group’s motion to strike the claim for punitive damages, and the US Court of Appeals for the Ninth Circuit affirmed. </p>\n<p>In <em>Evich v. Morris</em>, 819 F.2d 256 (9th Cir. 1987), the Ninth Circuit held that “punitive damages are available under general maritime law for claims of unseaworthiness,” as distinguished from Jones Act claims, where punitive damages are unavailable. Dutra Group argues that <em>Evich</em> is implicitly overruled by the US Supreme Court’s decision in <a href=\"https://www.oyez.org/cases/1990/89-1158\"><em>Miles v. Apex Marine Corp.</em>, 498 U.S. 19 (1990)</a>, which holds that loss of society damages are unavailable in a general maritime action for wrongful death and lost future earnings are unavailable in a general maritime survival action.</p>\n<p>The Ninth Circuit found unpersuasive Dutra Group’s argument, finding that the Court in <em>Miles</em> considered only damages for loss of society and of future earnings, not punitive damages. While <em>Miles</em> does limit recovery for “pecuniary loss,” punitive damages are not “pecuniary loss,” which means simply loss of money. Thus, <em>Miles</em> left undisturbed the Ninth Circuit’s opinion in <em>Evich</em>.</p>\n",
+  "question": "<p>Are punitive damages available to a seaman in a personal injury lawsuit alleging a breach of the general maritime duty to provide a seaworthy vessel?</p>\n",
+  "conclusion": null,
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27658"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2018",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court will resolve a circuit split as to whether punitive damages are available to a Jones Act seaman in a personal injury lawsuit alleging a breach of the general maritime duty to provide a seaworthy vessel (as the 9th and 11th Circuits have held) or not (as the 1st and 5th Circuits have held).",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": null
+}

@@ -1,0 +1,50 @@
+{
+  "ID": 63082,
+  "name": "McDonough v. Smith",
+  "href": "https://api.oyez.org/cases/2018/18-485",
+  "view_count": 170,
+  "docket_number": "18-485",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "Edward G. McDonough",
+  "second_party": "Youel Smith",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1547186400
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54424"
+    }
+  ],
+  "lower_court": {
+    "ID": 7,
+    "name": "United States Court of Appeals for the Second Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/7"
+  },
+  "facts_of_the_case": "<p>During the 2009 Working Families Party primary election in Troy, New York, several individuals forged signatures and provided false information on absentee ballot applications in an attempt to affect the outcome of the primary. The individuals submitted the forged applications to the commissioner of the Rensselaer County elections board, Edward G. McDonough. McDonough approved the applications but later claimed that he did not know they had been forged.</p>\n<p>After the plot was uncovered, the state court appointed Youel Smith as a special district attorney to lead the investigation and prosecution of those involved. McDonough claimed that Smith engaged in an elaborate scheme to frame McDonough for the crimes. According to McDonough, Smith knew that McDonough was innocent and fabricated evidence in the form of forged affidavits, false testimony, and faulty DNA methods. After the first trial ended in a mistrial, the second trial ended in McDonough’s acquittal on December 21, 2012.</p>\n<p>On December 18, 2015, McDonough filed a lawsuit under 42 U.S.C. § 1983 claiming that the Smith and the other defendants violated his due process rights by fabricating evidence and using it against him before a grand jury and in two trials. The defendants filed a motion to dismiss, claiming, among other things, that McDonough’s claim was barred by the three-year statute of limitations because the allegedly fabricated evidence had been disclosed to McDonough over three years before he filed his Section 1983 claim.</p>\n<p>The district court granted the motions to dismiss as to McDonough’s due process claims, citing the statute of limitations. The US Court of Appeals for the Second Circuit affirmed, finding that the precedent in that circuit established that the statute of limitations begins to run on a fabrication of evidence claim when the plaintiff has “reason to know of the injury which is the basis of his action.” The Second Circuit acknowledged that Third, Ninth, and Tenth Circuits have held otherwise but expressly disagreed with those decisions.</p>\n",
+  "question": "<p>Was the Second Circuit correct in holding, contrary to the holdings of a majority of other circuits, that the statute of limitations for a Section 1983 claim based on fabrication of evidence in criminal proceedings begins to run when the defendant becomes aware of the tainted evidence and its improper use?</p>\n",
+  "conclusion": null,
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27655"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2018",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court will resolve a circuit split as to whether the statute of limitations for a Section 1983 claim based on fabrication of evidence in criminal proceedings begins to run when those proceedings terminate in the defendant’s favor (majority), or whether it begins to run when the defendant becomes aware of the tainted evidence and its improper use (Second Circuit).",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": null
+}

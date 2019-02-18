@@ -1,0 +1,50 @@
+{
+  "ID": 63086,
+  "name": "Mitchell v. Wisconsin",
+  "href": "https://api.oyez.org/cases/2018/18-6210",
+  "view_count": 1026,
+  "docket_number": "18-6210",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "Gerald P. Mitchell",
+  "second_party": "State of Wisconsin",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1547186400
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54428"
+    }
+  ],
+  "lower_court": {
+    "ID": 72,
+    "name": "Wisconsin Supreme Court",
+    "href": "https://api.oyez.org/taxonomy/term/72"
+  },
+  "facts_of_the_case": "<p>In May 2013, Gerald P. Mitchell was arrested for operating a vehicle while intoxicated. He became lethargic on the way to the police station, so the arresting officers took him to a hospital instead. An officer read him a statutorily mandated form regarding the state implied consent law, but Mitchell was too incapacitated to indicate his understanding or consent and then fell unconscious. Without a warrant, at the request of the police, hospital workers drew Mitchell’s blood, which revealed his blood alcohol concentration to be .222.</p>\n<p>Mitchell was charged with operating while intoxicated and with a prohibited alcohol concentration. He moved to suppress the results of the blood test on the ground that his blood was taken without a warrant and in the absence of any exceptions to the warrant requirement. The state argued that under the implied-consent statute, police did not need a warrant to draw his blood. Many states, including Wisconsin, have implied consent laws, which provide that by driving a vehicle, motorists consent to submit to chemical tests of breath, blood, or urine to determine alcohol or drug content. The trial court sided with the state and allowed the results of the blood test into evidence. Mitchell was convicted on both counts.</p>\n<p>Mitchell appealed his conviction, and the court of appeals certified the case to the Supreme Court of Wisconsin with respect to the issue “whether the warrantless blood draw of an unconscious motorist pursuant to Wisconsin’s implied consent law...violates the Fourth Amendment.” The Supreme Court of Wisconsin accepted the certification and upheld the search 5–2, but without any majority for the rationale for upholding it.</p>\n",
+  "question": "<p>Does a statute that authorizes a blood draw from an unconscious motorist provide an exception to the Fourth Amendment warrant requirement?</p>\n",
+  "conclusion": null,
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27659"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2018",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court will decide whether a state statute authorizing a blood draw from an unconscious motorist provides an exception to the Fourth Amendment warrant requirement.",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": null
+}
