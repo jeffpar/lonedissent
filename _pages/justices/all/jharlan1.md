@@ -931,6 +931,8 @@ cases:
   - id: "1880-241"
     termId: "1880-10"
     title: "COUNTY OF MORGAN v. ALLEN"
+    volume: "103"
+    page: "515"
     docket: "78"
     citation: "103 U.S. 515n"
     pdfSource: "loc"

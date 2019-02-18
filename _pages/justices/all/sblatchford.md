@@ -83,6 +83,8 @@ cases:
   - id: "1881-235"
     termId: "1881-10"
     title: "Upton v. Kent"
+    volume: "105"
+    page: "646"
     docket: "260"
     citation: "105 U.S. 646n"
     pdfSource: "loc"

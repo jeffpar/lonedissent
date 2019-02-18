@@ -3716,6 +3716,8 @@ cases:
   - id: "1875-208"
     termId: "1875-10"
     title: "Morrison et al. v. Benton"
+    volume: "092"
+    page: "664"
     docket: "140"
     citation: "92 U.S. 664n"
     pdfSource: "loc"

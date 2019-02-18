@@ -1086,7 +1086,7 @@ function getOldCite(volume, page)
 function parseCite(usCite, cite)
 {
     if (usCite) {
-        let match = usCite.match(/^([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)$/);
+        let match = usCite.match(/([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)/);
         if (match) {
             cite.volume = +match[1];
             cite.page = +match[2];
@@ -2355,7 +2355,10 @@ function generateCommonCaseYML(decision, caseNumber=0, extras=[])
     if (decision.pdfPage) ymlText += '    pdfPage: ' + decision.pdfPage + '\n';
     if (decision.pdfPageDissent) ymlText += '    pdfPageDissent: ' + decision.pdfPageDissent + '\n';
     if (extras.indexOf("dateArgument") >= 0 && decision.dateArgument) {
-        ymlText += '    dateArgument: "' + sprintf("%#C", decision.dateArgument.split(',')) + '"\n';
+        /*
+         * TODO: Handle multiple dates more comprehensively.
+         */
+        ymlText += '    dateArgument: "' + sprintf("%#C", decision.dateArgument.split(',')[0]) + '"\n';
     }
     if (decision.dateDecision) {
         ymlText += '    dateDecision: "' + (decision.dateDecision.length < 10? getTermName(decision.dateDecision) : sprintf("%#C", decision.dateDecision)) + '"\n';
@@ -3757,15 +3760,19 @@ function fixDecisions(done)
     if (changedCourts != changedCourtsOrig) {
         writeFile(logs.csv.changedCourts, changedCourts);
     }
+
     if (changedDates != changedDatesOrig) {
         writeFile(logs.csv.changedDates, changedDates);
     }
+
     if (missingCases != missingCasesOrig) {
         writeFile(logs.csv.missingCases, missingCases);
     }
+
     if (unknownCitations != unknownCitationsOrig) {
         writeFile(logs.csv.unknownCitations, unknownCitations);
     }
+
     if (unusualDates != unusualDatesOrig) {
         writeFile(logs.csv.unusualDates, unusualDates);
     }

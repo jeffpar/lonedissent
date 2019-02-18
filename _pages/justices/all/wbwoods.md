@@ -911,6 +911,8 @@ cases:
   - id: "1882-263"
     termId: "1882-10"
     title: "MISSIONARY SOCIETY OF THE METHODIST EPISCOPAL CHURCH v. KELLY"
+    volume: "107"
+    page: "347"
     docket: "207"
     citation: "107 U.S. 347n"
     pdfSource: "loc"

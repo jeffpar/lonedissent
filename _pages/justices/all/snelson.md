@@ -3019,6 +3019,8 @@ cases:
   - id: "1867-102"
     termId: "1867-12"
     title: "United States v. Alire"
+    volume: "073"
+    page: "577"
     docket: "114"
     citation: "73 U.S. 577n"
     pdfSource: "loc"
