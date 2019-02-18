@@ -146,9 +146,8 @@ As a result, SCDB implies there two terms in 1850, when in fact, there were not.
 
 As I've [previously documented](/blog/2018/12/21/), there are some variables, such as [caseOrigin](http://scdb.wustl.edu/documentation.php?var=caseOrigin) containing undocumented values (e.g., 157, 158, 161, etc.)
 
-And then there's [lawMinor](http://scdb.wustl.edu/documentation.php?var=lawMinor), which is a free-form string
-that has accumulated lots of redundant and/or duplicated values, due to typos, inconsistent coding, or lack
-of clear guidelines.  Here's a small subset of the values, to give you a sense of the problems:
+And then there's [lawMinor](http://scdb.wustl.edu/documentation.php?var=lawMinor), a free-form string that has
+become very problematic.  Here's a small subset of the values, to give you a sense of the problems:
 
     "unidentifed act of congress",
     "unidentifed act of congress, 1828",
@@ -184,8 +183,21 @@ When cross-referencing the cases in SCDB with other reputable sources (eg, data 
 Case Citation Finder), I've also come across a number of cases which, even though they were considered "cite-worthy",
 do not appear in SCDB.
 
-I've logged some of those instances on my website (e.g., [missing cases](/logs/missingCases.csv) and [unknown citations](/logs/unknownCitations.csv)).
+I've logged some of those instances on my website (e.g., [missing cases](/logs/missingCases.csv) and [unknown citations](/logs/unknownCitations.csv)).  I realize there are many "back of the book" cases that don't merit attention
+(e.g. denials of cert), but that's not true in *all* such cases, so perhaps SCDB should consider creating a second
+much simpler table of cases that cites all the cases it has deliberately omitted.
 
----
+## Epilogue
 
-That's all for now!
+I long ago advocated for greater transparency in what SCDB chooses to add or correct in its database, including
+change logs with every release.  These days, an even better step forward for SCDB would be to do what I've done here,
+which is to create an open-source repository containing copies of all the data sources being used, along with the
+scripts used to process them.
+
+I think if SCDB really wants to be a Gold Standard, then it should stop being a siloed operation, performing all its
+updates behind a veil of secrecy, and making the world wait with bated breath for each new release.  As an academic
+endeavour, more knowledge -- not less -- should be one of the goals, as well as encouraging cooperation and participation
+among all interested parties.
+
+Or, SCDB can quietly extract whatever it wants here, without telling me or anyone else, and then roll out its next release with the usual (and completely useless) notation: `minor corrections`.  And neither I nor anyone else will have any
+incentive to help again.
