@@ -83,6 +83,20 @@ the date of the term was listed.  This occurred, for example, in [Welsh v. Mande
 
 Unfortunately, SCDB appears to have morphed such dates into the first day of the first month of the term, resulting in a date (e.g., February 1, 1809) that appears to be precise but is almost certainly incorrect.
 
+NOTE: As a public service, I have extracted all the decision dates *and* argument dates from the Supreme Court's
+[Dates of Supreme Court Decisions and Arguments](/sources/scotus/dates/decisionDates.pdf) and produced
+an easy-to-use [CSV file](/results/dates.csv).  I recommend using this file instead of the one on the
+[Free Law](https://free.law/2011/05/25/updated-supreme-court-case-dates-and-the-first-release-of-early-scotus-data-in-machine-readable-form/) website,
+because the last time I checked, the dates in their file were badly scrambled, and it didn't include any argument dates.
+The dates on the first few lines of their file:
+
+    2 U.S. 401|West v. Barnes|2|401|1791-08-17
+    2 U.S. 401|Vanstophorst v. Maryland|2|401|1791-08-17
+    2 U.S. 401|Oswald v. New York|2|401|1792-02-14
+    ...
+
+clearly do not match those provided in the Court's [PDF](/sources/scotus/dates/decisionDates.pdf).
+
 ### 4. Argument and Reargument Dates
 
 Some cases are argued over a period of multiple days (and not necessarily consecutive days).  An early example of
