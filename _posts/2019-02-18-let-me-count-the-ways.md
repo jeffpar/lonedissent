@@ -140,8 +140,7 @@ in December 1844, the Court started churning out new opinions.
 
 SCDB, on the other hand, ignores the actual dates that the Court operated, and instead pretends that the Court's
 work started every January -- up until 1850, when the Court finally decided to change what it called the terms.
-As a result, SCDB implies there two terms in 1850, when in fact, there were not.  This is my understanding, at
-any rate.
+As a result, SCDB implies there two terms in 1850, when in fact, there were not.
 
 ## 6. Undocumented Values
 
@@ -177,7 +176,7 @@ of clear guidelines.  Here's a small subset of the values, to give you a sense o
     "UNSPECIFIED",
     "unspecified act of congress",
 
-There are *lots* of duplicate values, varying only in form, not in substance, not to mention *lots* of typos.
+There are *lots* of duplicate values, varying only in form, not in substance, as well as *lots* of typos.
 
 ## 7. Missing Cases
 
