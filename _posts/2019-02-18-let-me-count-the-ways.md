@@ -102,7 +102,7 @@ For example, it lists the transition between the Warren and Burger courts like s
     1411	Warren 11	May 14, 1969 - June 22, 1969
     1501	Burger 1	June 23, 1969 - June 08, 1970
 
-However, SCDB also lists four decisions being handed down on June 23, 1969:
+However, SCDB also lists a series of decisions handed down on June 23, 1969:
 
     1969-06-23: North Carolina v. Pearce [413,418] (395 U.S. 711)
     1969-06-23: Chimel v. California [770] (395 U.S. 752)
@@ -111,7 +111,7 @@ However, SCDB also lists four decisions being handed down on June 23, 1969:
     1969-06-23: Shipley v. California [540 Misc.] (395 U.S. 818)
     1969-06-23: Moya v. DeBaca [996 Misc.] (395 U.S. 825)
 
-And while it would be very impressive for the Court to hand down *four* decisions on the *first* day under a new
+And while it would be very impressive for the Court to hand down *six* decisions on the *first* day under a new
 Chief Justice, the reality is that June 23, not June 22, was Chief Justice Earl Warren's last day.
 
 And this mistake with the "Warren 11" court isn't an isolated "one-off".  There are similar problems with
