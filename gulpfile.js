@@ -1575,7 +1575,7 @@ function buildAdvocates(done)
                 let rows = [];
                 for (let i = 1; i < aliases.length; i++) {
                     let alias = aliases[i];
-                    let filePath = path.join(dir, "_files", alias + ".json");
+                    let filePath = path.join(dir, alias + ".json");
                     let cases = JSON.parse(readFile(filePath) || "[]");
                     if (i == 1) {
                         let missingCases = advocates.missingCases && advocates.missingCases[id];
@@ -4275,7 +4275,7 @@ function generateDownloadTasks(done)
         let ids = Object.keys(advocates.ids);
         ids.forEach((id) => {
             let aliases = advocates.ids[id];
-            let dir = path.join(path.dirname(sources.oyez.advocates), id, "_files");
+            let dir = path.join(path.dirname(sources.oyez.advocates), id);
             for (let i = 1; i < aliases.length; i++) {
                 let alias = aliases[i];
                 if (alias == "verified") continue;
