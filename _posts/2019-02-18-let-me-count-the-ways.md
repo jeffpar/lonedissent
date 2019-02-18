@@ -83,7 +83,53 @@ the date of the term was listed.  This occurred, for example, in [Welsh v. Mande
 
 Unfortunately, SCDB appears to have morphed such dates into the first day of the first month of the term, resulting in a date (e.g., February 1, 1809) that appears to be precise but is almost certainly incorrect.
 
-### 4. Natural Courts
+### 4. Argument and Reargument Dates
+
+Some cases are argued over a period of multiple days (and not necessarily consecutive days).  An early example of
+this is [Talbot v. Janson (3 U.S. 133)](https://cdn.loc.gov/service/ll/usrep/usrep003/usrep003133/usrep003133.pdf),
+which was argued over the course of ten days:
+
+    Thursday, August 6, 1795
+    Friday, August 7, 1795
+    Saturday, August 8, 1795
+    Monday, August 10, 1795
+    Tuesday, August 11, 1795
+    Wednesday, August 12, 1795
+    Thursday, August 13, 1795
+    Friday, August 14, 1795
+    Tuesday, August 18, 1795
+    Wednesday, August 19, 1795
+
+This also occurs with some regularity in the "modern" era.
+See [American Trucking Assns., Inc. v. Atchison, T. &amp; S. F. R. Co. (387 U.S. 397)](https://cdn.loc.gov/service/ll/usrep/usrep387/usrep387397/usrep387397.pdf), which was argued:
+
+    Thursday, April 13, 1967
+    Monday, April 17, 1967
+
+However, recording all the dates of an oral argument (or even just the *number* of argument days) didn't seem to
+interest Harold Spaeth much, because his "ALLCOURT" database (SCDB's predecessor) provided only an `ORAL` field
+for the first date of argument.
+
+Despite my best efforts ten years ago to convince SCDB to consider broader research interests and to at
+least *enable* the coding of all argument dates for a case, all they did was rename Spaeth's variable to
+[dateArgument](http://scdb.wustl.edu/documentation.php?var=dateArgument) and continue the old practice,
+without justification:
+
+> On some occasions, oral argument extended over more than a single day. In such cases, only the first date is specified.
+
+NOTE: For the record, SCDB incorrectly reports that [387 U.S. 397](https://cdn.loc.gov/service/ll/usrep/usrep387/usrep387397/usrep387397.pdf) was argued on March 13, 1967, so we have more than a completeness problem -- we have
+the usual accuracy problems as well.
+
+Finally, there's the problem of multiple rearguments.  Once again, the Spaeth "ALLCOURT" database dealt with this,
+but in the same limited fashion, by providing a single `REORAL` field, and SCDB followed suit with its
+[dateRearg](http://scdb.wustl.edu/documentation.php?var=dateRearg) variable:
+
+> On those infrequent occasions when the Court orders that a case be reargued, this variable specifies the date of such argument following the same day, month, and year sequence used in the preceding variable (dateArgue).
+
+The limitation here is even worse than before, because not only can a reargument span multiple days, but there can
+also be *multiple* rearguments.  Take a look at [Boyle v. Landry (401 U.S. 77)](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401077/usrep401077.pdf).  The second reargument on November 16, 1970 is nowhere to be found in SCDB.
+
+### 5. Natural Courts
 
 A [Natural Court](http://scdb.wustl.edu/documentation.php?var=naturalCourt), as the SCDB online codebook explains, is:
 
@@ -124,7 +170,7 @@ even though they were decided under another.
 Look at [Braverman v. United States (317 U.S. 49)](https://cdn.loc.gov/service/ll/usrep/usrep317/usrep317049/usrep317049.pdf).  It was argued on October 21, 1942 and decided on November 9, 1942, which would put it squarely
 in SCDB's "Stone 1" natural court.  But it's coded in SCDB as being in the "Stone 2" (1202) natural court.
 
-## 5. Terms
+### 6. Terms
 
 How SCDB defines the [Term](http://scdb.wustl.edu/documentation.php?var=term) in which a case was decided is
 problematic.  The biggest problem is that it uses a simple number (a year), which is insufficient to properly
@@ -142,7 +188,7 @@ SCDB, on the other hand, ignores the actual dates that the Court operated, and i
 work started every January -- up until 1850, when the Court finally decided to change what it called the terms.
 As a result, SCDB implies there two terms in 1850, when in fact, there were not.
 
-## 6. Undocumented Values
+### 7. Undocumented Values
 
 As I've [previously documented](/blog/2018/12/21/), there are some variables, such as [caseOrigin](http://scdb.wustl.edu/documentation.php?var=caseOrigin) containing undocumented values (e.g., 157, 158, 161, etc.)
 
@@ -177,7 +223,7 @@ become very problematic.  Here's a small subset of the values, to give you a sen
 
 There are *lots* of duplicate values, varying only in form, not in substance, as well as *lots* of typos.
 
-## 7. Missing Cases
+### 8. Missing Cases
 
 When cross-referencing the cases in SCDB with other reputable sources (eg, data extracted from the Supreme Court's
 Case Citation Finder), I've also come across a number of cases which, even though they were considered "cite-worthy",

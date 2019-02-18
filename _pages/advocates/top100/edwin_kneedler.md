@@ -6139,4 +6139,4 @@ described as Mr. Kneedler's 100th argument must now be listed below as his *[101
 we will be double-checking his first 100 arguments to verify the accuracy of our list and will post an update if we
 learn anything new.
 
-Note: Since arguing for the 100th time, Mr Kneedler has since argued another case twice: [Sessions v. Dimaya](https://www.oyez.org/cases/2017/15-1498).  It was first [argued](#2017-001) in the 2016 term, and then [reargued](#62754) in the 2017 term.
+Note: Since arguing for the 100th time, Mr Kneedler has since argued another case twice: [Sessions v. Dimaya](https://www.oyez.org/cases/2017/15-1498).  It was first [argued](#2017-001) in the 2016 term and then reargued in the 2017 term.

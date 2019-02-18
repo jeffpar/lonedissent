@@ -2795,16 +2795,6 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let docket = argv['docket'];
     if (argv['minVotes']) minVotes = +argv['minVotes'];
 
-    if (argv['url']) {
-        if (volume && page) {
-            printf("LOC URL for %s: %s\n", usCite, getLOCURL(usCite));
-            done();
-            return;
-        } else {
-            warning("missing volume and/or page\n");
-        }
-    }
-
     let text = argv['text'] || "";
     let findText = function(target) {
         let exists = false;
@@ -2877,6 +2867,13 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                                                     let datePrint = decision.dateDecision;
                                                     if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || !reargued && (datePrint = decision.dateRearg).indexOf(argued) == 0 || reargued && (datePrint = decision.dateRearg).indexOf(reargued) == 0) {
                                                         printf("%s: %s [%s] (%s) {%s}: %d-%d\n", datePrint, decision.caseTitle || decision.caseName, decision.docket, decision.usCite, decision.dateArgument + (decision.dateRearg? '|' + decision.dateRearg : ""), decision.majVotes, decision.minVotes);
+                                                        if (argv['url']) {
+                                                            let dates = decision.dateArgument.split(',');
+                                                            dates.forEach((date) => { if (date) printf("\tArgued: %#C\n", date); });
+                                                            dates = decision.dateRearg.split(',');
+                                                            dates.forEach((date) => { if (date) printf("\tReargued: %#C\n", date); });
+                                                            if (decision.usCite) printf("\tLibrary of Congress URL for %s: %s\n", decision.usCite, getLOCURL(decision.usCite));
+                                                        }
                                                         searchResults.push(decision);
                                                         if (decisionsAudited.indexOf(decision.caseId) < 0) {
                                                             decisionsAudited.push(decision.caseId);
@@ -2901,7 +2898,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
         printf("results%s%s: %d\n", range, condition, searchResults.length);
 
         let corrections = 0;
-        if (argv['addDocket'] || argv['addArg'] || argv['addRearg']) {
+        if (argv['addDocket'] || argv['addArgued'] || argv['addReargued']) {
             let reason = argv['reason'] || "";
             if (!reason) {
                 warning("please give a reason (--reason) for the correction\n");
@@ -2910,10 +2907,10 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             } else {
                 let addDockets = argv['addDocket'] || [];
                 if (typeof addDockets == "string") addDockets = [addDockets];
-                let addArgs = argv['addArg'] || [];
-                if (typeof addArgs == "string") addArgs = [addArgs];
-                let addReargs = argv['addRearg'] || [];
-                if (typeof addReargs == "string") addReargs = [addReargs];
+                let addArgDates = argv['addArgued'] || [];
+                if (typeof addArgDates == "string") addArgDates = [addArgDates];
+                let addReargDates = argv['addReargued'] || [];
+                if (typeof addReargDates == "string") addReargDates = [addReargDates];
                 reason = " (" + reason.replace(/;/g, ',') + ")";
 
                 let decision = searchResults[0];
@@ -2933,26 +2930,38 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     }
                 });
                 let argumentDates = "";
-                addArgs.forEach((arg) => {
-                    arg = fixDate(arg);
-                    if (arg && datesArgument.indexOf(arg) < 0) {
-                        decision.dateArgument = insertSortedArray(datesArgument, arg).join(',');
-                        corrections++;
-                        if (argumentDates) argumentDates += ',';
-                        argumentDates += arg;
+                addArgDates.forEach((arg) => {
+                    let argDate = fixDate(arg);
+                    if (argDate) {
+                        if (datesArgument.indexOf(argDate) < 0) {
+                            decision.dateArgument = insertSortedArray(datesArgument, argDate).join(',');
+                            corrections++;
+                            if (argumentDates) argumentDates += ',';
+                            argumentDates += argDate;
+                        } else {
+                            warning("dateArgument already exists: %s\n", argDate);
+                        }
+                    } else {
+                        warning("unexpected dateArgument format: %s\n", arg);
                     }
                 });
-                let reargDates = "";
-                addReargs.forEach((arg) => {
-                    arg = fixDate(arg);
-                    if (arg && datesRearg.indexOf(arg) < 0) {
-                        decision.dateRearg = insertSortedArray(datesRearg, arg).join(',');
-                        corrections++;
-                        if (reargDates) reargDates += ',';
-                        reargDates += arg;
+                let reargumentDates = "";
+                addReargDates.forEach((arg) => {
+                    let argDate = fixDate(arg);
+                    if (argDate) {
+                        if (datesRearg.indexOf(argDate) < 0) {
+                            decision.dateRearg = insertSortedArray(datesRearg, argDate).join(',');
+                            corrections++;
+                            if (reargumentDates) reargumentDates += ',';
+                            reargumentDates += argDate;
+                        } else {
+                            warning("dateRearg already exists: %s\n", argDate);
+                        }
+                    } else {
+                        warning("unexpected dateRearg format: %s\n", arg);
                     }
                 });
-                if (corrections) {
+                if (corrections && !warnings) {
                     decision.caseNotes = decision.caseNotes? (decision.caseNotes + '; ') : "";
                     let additions = "";
                     if (docketNumbers) {
@@ -2962,9 +2971,9 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                         if (additions) additions += " and ";
                         additions += "dateArgument " + argumentDates;
                     }
-                    if (reargDates) {
+                    if (reargumentDates) {
                         if (additions) additions += " and ";
-                        additions += "dateRearg " + reargDates;
+                        additions += "dateRearg " + reargumentDates;
                     }
                     decision.caseNotes += "added " + additions + reason;
                     printf("updated caseNotes: %s\n", decision.caseNotes);
