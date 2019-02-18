@@ -3,16 +3,16 @@ title: "Building Data Files"
 permalink: /blog/2018/12/21/
 ---
 
-A few important data files have been created so far:
+In preparation for making this a more interesting website, a few important data files have been created so far:
 
 - [courts.json](/results/courts.json)
 - [decisions.json](/results/decisions.json)
 - [justices.json](/results/justices.json)
 - [citations.csv](/results/citations.csv)
 - [dates.csv](/results/dates.csv)
+- [transcripts.csv](/results/transcripts.csv)
 
-in preparation for making this a more interesting website.  Most of our
-[Court](/results/courts.json) and [Justice](/results/justices.json) data came
+Most of our [Court](/results/courts.json) and [Justice](/results/justices.json) data came
 from [Oyez](https://www.oyez.org/), while most of the [Decision](/results/decisions.json)
 data was imported from [CSV files](/sources/scdb/decisions.csv) provided by the
 [Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB.

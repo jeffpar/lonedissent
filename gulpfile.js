@@ -2795,6 +2795,16 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let docket = argv['docket'];
     if (argv['minVotes']) minVotes = +argv['minVotes'];
 
+    if (argv['url']) {
+        if (volume && page) {
+            printf("LOC URL for %s: %s\n", usCite, getLOCURL(usCite));
+            done();
+            return;
+        } else {
+            warning("missing volume and/or page\n");
+        }
+    }
+
     let text = argv['text'] || "";
     let findText = function(target) {
         let exists = false;
