@@ -114,11 +114,11 @@ However, SCDB also lists four decisions being handed down on June 23, 1969:
 And while it would be very impressive for the Court to hand down *four* decisions on the *first* day under a new
 Chief Justice, the reality is that June 23, not June 22, was Chief Justice Earl Warren's last day.
 
-And while it would be easy to write off this mistake with the "Warren 11" court as an isolated "one-off",
-that would be ignoring similar problems with the "Warren 4", "Warren 5", "Warren 6", and "Warren 7" courts,
-not to mention "Stone 2" or "Rehnquist 1", among others.
+And this mistake with the "Warren 11" court isn't an isolated "one-off".  There are similar problems with
+the "Warren 4", "Warren 5", "Warren 6", and "Warren 7" courts, not to mention "Stone 2" or "Rehnquist 1",
+among others.
 
-And is this simply a problem with the natural court dates?  No.  Numerous cases are filed under one natural court
+And this isn't merely a problem with the natural court dates.  Numerous cases are filed under one natural court
 even though they were decided under another.
 
 Look at [Braverman v. United States (317 U.S. 49)](https://cdn.loc.gov/service/ll/usrep/usrep317/usrep317049/usrep317049.pdf).  It was argued on October 21, 1942 and decided on November 9, 1942, which would put it squarely
