@@ -8,7 +8,9 @@ The [Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB, is a en
 "[The Original U.S. Supreme Court Judicial Database (nickname: ALLCOURT)](http://artsandsciences.sc.edu/poli/juri/sct.htm)"
 decades ago, and worked with the SCDB folks to help produce the modern version.  Sadly, Harold passed away in 2017.
 
-So, regarding the SCDB: does it really meet the gold standard?  I would certainly concede bronze or silver status perhaps, but not gold.  And this is not because I think there's another, better, or more deserving database out there.  I simply feel that the **Gold Standard** should be reserved for a database that is not only without peer, but also flawless.  And at the moment, the SCDB is far from flawless.
+So, regarding the SCDB: does it really meet the gold standard?  I would certainly concede bronze or silver status perhaps, but not gold.  And this is not because I think there's another, better, or more deserving database out there.  I simply feel that the **Gold Standard** should be reserved for a database that is not only without peer, but is also well-designed,
+well-maintained, rigorously audited, and open-source, embracing transparency and community participation, and continuing
+to evolve to solve old problems and new challenges.  At the moment, SCDB has lots of room for improvement.
 
 ## Let Me Count The Ways
 
@@ -216,7 +218,7 @@ solve those problems, and deprecate old problematic variables.
 
 ### 7. Undocumented Values
 
-As I've [previously documented](/blog/2018/12/21/), there are some variables, such as [caseOrigin](http://scdb.wustl.edu/documentation.php?var=caseOrigin) containing undocumented values (e.g., 157, 158, 161, etc.)
+As I've [previously documented](/blog/2018/12/21/), there are some variables, such as [caseOrigin](http://scdb.wustl.edu/documentation.php?var=caseOrigin) containing undocumented values (e.g., 157, 158, 161, etc).
 
 And then there's [lawMinor](http://scdb.wustl.edu/documentation.php?var=lawMinor), a free-form string that has
 become very problematic.  Here's a small subset of the values, to give you a sense of the problems:
