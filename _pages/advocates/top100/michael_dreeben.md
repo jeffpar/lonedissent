@@ -226,7 +226,7 @@ cases:
   - id: "1990-131"
     number: 6
     termId: "1990-10"
-    title: "Virginia Bankshares, Inc.  v. Sandberg"
+    title: "Virginia Bankshares, Inc. v. Sandberg"
     volume: "501"
     page: "1083"
     docket: "89-1448"
@@ -1588,7 +1588,7 @@ cases:
   - id: "1999-024"
     number: 37
     termId: "1999-10"
-    title: "United States  v. Martinez-Salazar"
+    title: "United States v. Martinez-Salazar"
     volume: "528"
     page: "304"
     docket: "98-1255"

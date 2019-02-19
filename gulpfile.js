@@ -1693,7 +1693,7 @@ function buildAdvocates(done)
                             row.volume = caseDetail.citation && +caseDetail.citation.volume || 0;
                             row.page = caseDetail.citation && +caseDetail.citation.page || 0;
                             row.year = caseDetail.citation && +caseDetail.citation.year || 0;
-                            row.caseTitle = obj.title || caseDetail.name;
+                            row.caseTitle = (obj.title || caseDetail.name).replace(/\s+/g, ' ').trim();
                             row.oldCite = getOldCite(row.volume, row.page);
                             row.usCite = getNewCite(row.volume, row.page);
                             row.dateDecision = getDates(caseDetail.timeline, "Decided");
