@@ -5582,4 +5582,3 @@ These transcripts have NOT yet been matched to an SCDB entry.
 - [Florida v. Department of Health and Human Servs.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-400.pdf) - No. 11-400, argued Wednesday, March 28, 2012: no SCDB match
 - [Obergefell v. Hodges](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/14-556q1_l5gm.pdf) - No. 14-556-Question-1, argued Tuesday, April 28, 2015: no SCDB match
 - [Obergefell v. Hodges](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/14-556q2_8m58.pdf) - No. 14-556-Question-2, argued Tuesday, April 28, 2015: no SCDB match
-

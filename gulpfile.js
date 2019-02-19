@@ -2861,9 +2861,9 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let start = argv['start'] || "", stop = argv['stop'] || "";
     let month = argv['month'] && sprintf("-%02d-", +argv['month']) || "";
     let selectedCourt = argv['naturalCourt'] || 0;
-    let volume = argv['volume'] || "", page = argv['page'] || "", usCite = sprintf("%s U.S. %s", volume, page);
+    let volume = argv['volume'] || argv['v'] || "", page = argv['page'] || argv['p'] || "", usCite = sprintf("%s U.S. %s", volume, page);
     let caseTitle = argv['caseTitle'];
-    let docket = argv['docket'];
+    let docket = argv['docket'] || argv['d'];
     if (argv['minVotes']) minVotes = +argv['minVotes'];
 
     let text = argv['text'] || "";
@@ -4624,6 +4624,27 @@ function setRebuild(done)
     done();
 }
 
+/**
+ * usage(done)
+ *
+ * @param {function()} done
+ */
+function usage(done)
+{
+    if (argv['d'] || argv['v'] || argv['p']) {
+        findDecisions(done);
+        return;
+    }
+    printf("\ngulp [task] [options]\n");
+    printf("gulp --tasks lists all available tasks\n\n");
+    printf("find task options:\n");
+    printf("\t--docket=#\tfind all decisions with docket # (also: --d)\n");
+    printf("\t--page=#\tfind all decisions with page # (also: --p)\n");
+    printf("\t--volume=#\tfind all decisions with volume # (also: --v)\n");
+    printf("\n");
+    done();
+}
+
 gulp.task("advocates", buildAdvocates);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("courts", buildCourts);
@@ -4638,6 +4659,7 @@ gulp.task("lonerJustices", findLonerJustices);
 gulp.task("lonerParties", findLonerParties);
 gulp.task("backup", backupLonerDecisions);
 gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
+gulp.task("find", findDecisions);
 gulp.task("fixDecisions", fixDecisions);
 gulp.task("fixDockets", fixDockets);
 gulp.task("fixLOC", fixLOC);
@@ -4647,4 +4669,4 @@ gulp.task("rebuild", gulp.series(setRebuild, findAllDecisions, findAllJustices, 
 gulp.task("report", gulp.series(reportChanges));
 gulp.task("scrape", scrapeFiles);
 gulp.task("tests", gulp.series(testDates));
-gulp.task("default", findDecisions);
+gulp.task("default", usage);

@@ -210,7 +210,7 @@ all the above conditions.  Of course, the logical extension of that argument wou
 variable entirely, because obviously the precise term of *any* case can be determined by applying a complicated
 set of rules to **dateDecision**.
 
-Harold Spaeth's `TERM` variable didn't suffer from this abiguity, because his "ALLCOURT" database didn't deal
+Harold Spaeth's `TERM` variable didn't suffer from this ambiguity, because his "ALLCOURT" database didn't deal
 with cases before the Warren Court.
 
 ### 7. Undocumented Values
