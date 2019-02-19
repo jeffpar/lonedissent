@@ -226,6 +226,20 @@ let warnings = 0;
  */
 
 /**
+ * assertMatch(s1, s2, comment)
+ *
+ * @param {*} s1
+ * @param {*} s2
+ * @param {string} [comment]
+ */
+function assertMatch(s1, s2, comment="")
+{
+    if (s1 !== s2) {
+        warning("assertMatch(%s != %s): %s\n", s1, s2, comment);
+    }
+}
+
+/**
  * warning(format, ...args)
  *
  * @param {string} format
@@ -594,14 +608,20 @@ function searchObjects(rows, row, next=0)
 }
 
 /**
- * searchSortedObjects(rows, row, fUnique)
+ * searchSortedObjects(rows, row, rowScore, fDisplay)
+ *
+ * If rowScore is set, then if there are multiple matches, the row that scores best against
+ * rowScore will be returned.  If you just want the first match, regardless whether there are
+ * multiple matches or not, specify null (the default).  And if you only want unique matches,
+ * pass {}.
  *
  * @param {Array.<object>} rows
  * @param {object} row
- * @param {boolean} [fUnique] (true to return match only if unique; default is to return first match)
+ * @param {object} [rowScore]
+ * @param {boolean} [fDisplay]
  * @return {number}
  */
-function searchSortedObjects(rows, row, fUnique)
+function searchSortedObjects(rows, row, rowScore=null, fDisplay=false)
 {
     let keys = Object.keys(row);
     let compare = function(row1, row2) {
@@ -624,13 +644,35 @@ function searchSortedObjects(rows, row, fUnique)
             }
         }
     };
+    if (fDisplay) printf("\n\tsearching for row with %s == %s\n", keys[0], row[keys[0]]);
     let i = binarySearch(rows, row, compare);
     while (i > 0) {
         if (compare(rows[i], rows[i-1])) break;
         i--;
     }
-    if (fUnique && i >= 0 && i < rows.length - 1 && !compare(rows[i], rows[i+1])) {
-        i = -1;
+    if (rowScore && i >= 0) {
+        let iBest = i, scoreBest = -1;
+        let keys = Object.keys(rowScore);
+        if (!keys.length) {
+            if (i < rows.length - 1 && !compare(rows[i], rows[i+1])) {
+                iBest = -1;
+            }
+            return iBest;
+        }
+        let keyScore = keys[0];
+        if (fDisplay && keyScore) printf("\tmatched row %d: %s == %s (looking for %s)\n", iBest, keyScore, rows[iBest][keyScore], rowScore[keyScore]);
+        while (i < rows.length) {
+            if (compare(rows[iBest], rows[i])) break;
+            let score = scoreStrings(rows[i][keyScore], rowScore[keyScore]);
+            if (fDisplay) printf("\tcomparing row %d: %s = %s (%d)\n", i, keyScore, rows[i][keyScore], score);
+            if (scoreBest < score) {
+                scoreBest = score;
+                iBest = i;
+            }
+            i++;
+        }
+        if (fDisplay && keyScore) printf("\treturned row %d: %s == %s (%d)\n", iBest, keyScore, rows[iBest][keyScore], scoreBest);
+        i = iBest;
     }
     return i;
 }
@@ -1398,6 +1440,15 @@ function readSCDBCourts(fDisplay)
     for (let i = 0; i < courts.length; i++) {
         let court = courts[i];
         let start = parseDate(court.dateStart);
+        /*
+         * WARNING: The final court will not have a stop date, so parseDate() will return
+         * an invalid Date object.  This means that when we call:
+         *
+         *      court.stop = sprintf("%#Y-%#02M-%#02D", stop)
+         *
+         * the resulting string will look like "NaN-NaN-NaN".  But that's OK, because that string
+         * will always compare as GREATER than other dates.
+         */
         let stop = parseDate(court.dateStop);
         if (startNext && start.getTime() != startNext.getTime()) {
             warning("%s: current start date (%#C) does not match previous stop date (%#C)\n", court.name, start, startNext);
@@ -1405,9 +1456,9 @@ function readSCDBCourts(fDisplay)
         let match = court.name.match(/^(\S+)\s+([0-9]+)/);
         let chiefJustice = match? match[1] : "";
         court.start = sprintf("%#Y-%#02M-%#02D", start);
-        court.stop = sprintf("%#Y-%#02M-%#02D", stop);
         court.startFormatted = sprintf("%#C", start);
-        court.stopFormatted = sprintf("%#C", stop);
+        court.stop = sprintf("%#Y-%#02M-%#02D", stop);
+        court.stopFormatted = isNaN(stop.getTime())? "" : sprintf("%#C", stop);
         court.justices = [];
         let sJustices = "";
         justices.forEach((justice) => {
@@ -1449,14 +1500,24 @@ function readSCDBJustices(fDisplay)
             last = match[1];
             justice.name =  first + ' ' + last;
         }
+        /*
+         * WARNING: Active justices will not have a stop date, so parseDate() will return
+         * an invalid Date object.  This means that when we call:
+         *
+         *      court.stop = sprintf("%#Y-%#02M-%#02D", stop)
+         *
+         * the resulting string will look like "NaN-NaN-NaN".  But that's OK, because that string
+         * will always compare as GREATER than other dates.
+         */
         let start = parseDate(justice.dateStart);
         let stop = parseDate(justice.dateStop);
         delete justice.dateStart;
         delete justice.dateStop;
         justice.start = sprintf("%#Y-%#02M-%#02D", start);
+        assertMatch(justice.start, sprintf("%#04Y-%#02M-%#02D", start), "justice.start");
         justice.startFormatted = sprintf("%#C", start);
         justice.stop = sprintf("%#Y-%#02M-%#02D", stop);
-        justice.stopFormatted = sprintf("%#C", stop);
+        justice.stopFormatted = isNaN(stop.getTime())? "" : sprintf("%#C", stop);
     }
     if (fDisplay) printf("SCDB justices read: %d\n", justices.length);
     return justices;
@@ -1690,7 +1751,7 @@ function buildAdvocates(done)
                     let dateArgument = row.dateArgument.split(',')[0];
                     if (row.volume && row.page) {
                         obj = {volume: row.volume, page: row.page};
-                        i = searchSortedObjects(decisions, obj, true);
+                        i = searchSortedObjects(decisions, obj, {});
                     }
                     if (i < 0 && dateArgument) {
                         /*
@@ -3445,7 +3506,7 @@ function matchTranscripts(done)
         if (dateArgument < sources.scdb.dateEnd) {
             let iDecision = findByDateAndDocket(decisions, dateArgument, docket);
             if (iDecision < 0) {
-                let datePrevious = sprintf("%#04Y-%#02M-%#02D", adjustDays(parseDate(dateArgument), -1));
+                let datePrevious = sprintf("%#Y-%#02M-%#02D", adjustDays(parseDate(dateArgument), -1));
                 iDecision = findByDateAndDocket(decisions, datePrevious, docket);
                 if (iDecision >= 0) result = "next day";
             }
@@ -4032,21 +4093,21 @@ function fixLOC(done)
                     warning("unexpected PDF page number (%s)\n", match[2]);
                 }
                 // printf('"%s","%d U.S. %d",%d\n', caseTitle, volume, page, pageTotal);
-                let o = {volume, page, caseTitle};
-                let i = searchSortedObjects(rowsLOC, o);
+                let row = {volume, page, caseTitle};
+                let i = searchSortedObjects(rowsLOC, row);
                 if (i < 0) {
-                    i = searchSortedObjects(rowsMisc, o);
+                    i = searchSortedObjects(rowsMisc, row);
                     if (i < 0) {
                         warning('unable to find "%s","%d U.S. %d" (see %03dus%03d.pdf)\n', caseTitle, volume, page, volumePDF, pagePDF);
                     }
                 }
                 if (i >= 0) {
-                    o = rowsLOC[i];
-                    if (!o.pageTotal) {
+                    row = rowsLOC[i];
+                    if (!row.pageTotal) {
                         printf('updating: "%s","%d U.S. %d" with %d pages\n', caseTitle, volume, page, pageTotal);
-                        o.pageTotal = pageTotal;
-                        o.subject = subject;
-                        o.keywords = keywords;
+                        row.pageTotal = pageTotal;
+                        row.subject = subject;
+                        row.keywords = keywords;
                         updates++;
                     }
                     /*
@@ -4054,7 +4115,7 @@ function fixLOC(done)
                      */
                     for (let direction = -1; direction <= 1; direction += 2) {
                         for (let j = i + direction; j > 0 && j < rowsLOC.length; j += direction) {
-                            let row = rowsLOC[j];
+                            row = rowsLOC[j];
                             if (row.volume != volume || row.page != page) break;
                             if (!row.pageTotal) {
                                 row.pageTotal = pageTotal;
@@ -4465,7 +4526,7 @@ function mergeSCDBDockets(done)
             consolidated++;
         }
         if (consolidated) {
-            let d = searchSortedObjects(decisions, {caseId}, true);
+            let d = searchSortedObjects(decisions, {caseId}, {});
             if (d < 0) {
                 warning("unable to find unique case %s in decisions\n", caseId)
             } else if (decisions[d].docket.indexOf(',') < 0) {
@@ -4506,23 +4567,32 @@ function reportChanges(done)
 {
     printf("reading decisions...\n");
     let decisions = JSON.parse(readFile(results.json.decisions));
-    if (!isSortedObjects(decisions, ["caseId"])) {
-        warning("decisions database not sorted by caseId...\n");
-    } else {
-        printf("reading %s...\n", logs.csv.changedDates);
-        let changes = readCSV(logs.csv.changedDates);
-        changes.forEach((change) => {
-            let i = searchSortedObjects(decisions, {"caseId": change.caseId}, true);
-            if (i < 0) {
-                warning("unable to find caseId %s\n", change.caseId);
-                return;
-            }
-            let decision = decisions[i];
-            if (decision.dateDecision != change.dateDecisionNew) {
-                warning("%s: (%s) dateDecision still set to %s intead of %s\n", change.caseId, change.usCite, decision.dateDecision, change.dateDecisionNew);
-            }
-        });
-    }
+    printf("sorting decisions...\n");
+    sortObjects(decisions, ["usCite","caseTitle"]);
+    printf("reading %s...\n", results.csv.dates);
+    let rows = readCSV(results.csv.dates);
+    rows.forEach((row) => {
+        let usCite = row.usCite;
+        let caseTitle = row.caseTitle;
+        let dateDecision = row.dateDecision;
+        if (dateDecision.length > 10) {
+            /*
+             * NOTE: Longer date strings (eg, dates including the day of the week) have been
+             * deliberately stored in dates.csv to indicate cases in which the decision really
+             * was issued on an "unusual" day of the week (eg, Saturday or Sunday).
+             */
+            dateDecision = sprintf("%#Y-%#02M-%#02D", dateDecision);
+        }
+        let i = searchSortedObjects(decisions, {usCite}, {caseTitle}, argv['detail']);
+        if (i < 0) {
+            warning("unable to find %s (%s): %s\n", caseTitle, usCite, dateDecision);
+            return;
+        }
+        let decision = decisions[i];
+        if (decision.dateDecision != dateDecision) {
+            warning("%s (%s) has dateDecision %s, whereas %s (%s) has %s\n", caseTitle, usCite, dateDecision, (decision.caseTitle || decision.caseName), decision.usCite, decision.dateDecision);
+        }
+    });
     done();
 }
 
@@ -4624,7 +4694,7 @@ gulp.task("fixLOC", fixLOC);
 gulp.task("matchTranscripts", matchTranscripts);
 gulp.task("merge", gulp.series(mergeSCDBDockets));
 gulp.task("rebuild", gulp.series(setRebuild, findAllDecisions, findAllJustices, findLonerDecisions, findLonerJustices, findLonerParties, buildAdvocates));
-gulp.task("reportChanges", reportChanges);
+gulp.task("report", gulp.series(reportChanges));
 gulp.task("scrape", scrapeFiles);
 gulp.task("tests", gulp.series(testDates));
 gulp.task("default", findDecisions);
