@@ -94,7 +94,7 @@ cases:
   - id: "1982-013"
     number: 3
     termId: "1982-10"
-    title: "Port Arthur v. United States"
+    title: "City of Port Arthur v. United States"
     volume: "459"
     page: "159"
     docket: "81-708"
@@ -182,7 +182,7 @@ cases:
   - id: "1982-090"
     number: 5
     termId: "1982-10"
-    title: "W. R. Grace &amp; Co. v. Rubber Workers"
+    title: "W. R. Grace &amp; Company v. Local Union 759, International Union of Rubber, Cork, Linoleum &amp; Plastic Workers of America"
     volume: "461"
     page: "757"
     docket: "81-1314"
@@ -226,10 +226,10 @@ cases:
   - id: "1983-015"
     number: 6
     termId: "1983-10"
-    title: "Commissioner v. Engle"
+    title: "Commissioner of Internal Revenue v. Engle"
     volume: "464"
     page: "206"
-    docket: "82-599,82-774"
+    docket: "82-599"
     citation: "464 U.S. 206"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 11, 1983"
@@ -270,7 +270,7 @@ cases:
   - id: "1983-114"
     number: 7
     termId: "1983-10"
-    title: "ICC v. American Trucking Assns., Inc."
+    title: "Interstate Commerce Commission v. American Trucking Associations, Inc."
     volume: "467"
     page: "354"
     docket: "82-1643"
@@ -314,7 +314,7 @@ cases:
   - id: "1983-149"
     number: 8
     termId: "1983-10"
-    title: "Securities Industry Assn. v. Board of Governors, FRS"
+    title: "Securities Industry Association v. Board of Governors of the Federal Reserve System"
     volume: "468"
     page: "207"
     docket: "83-614"
@@ -405,7 +405,7 @@ cases:
     title: "O&apos;Connor v. United States"
     volume: "479"
     page: "027"
-    docket: "85-558,85-559,85-560"
+    docket: "85-558"
     citation: "479 U.S. 27"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 14, 1986"
@@ -449,7 +449,7 @@ cases:
     title: "McNally v. United States"
     volume: "483"
     page: "350"
-    docket: "86-234,86-286"
+    docket: "86-234"
     citation: "483 U.S. 350"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 22, 1987"
@@ -490,7 +490,7 @@ cases:
   - id: "1988-044"
     number: 12
     termId: "1988-10"
-    title: "Canton v. Harris"
+    title: "City of Canton, Ohio v. Harris"
     volume: "489"
     page: "378"
     docket: "86-1088"
@@ -534,7 +534,7 @@ cases:
   - id: "1989-096"
     number: 13
     termId: "1989-10"
-    title: "English v. General Elec. Co."
+    title: "English v. General Electric Company"
     volume: "496"
     page: "072"
     docket: "89-152"
@@ -578,7 +578,7 @@ cases:
   - id: "1990-011"
     number: 14
     termId: "1990-10"
-    title: "Arcadia v. Ohio Power Co."
+    title: "Arcadia, Ohio v. Ohio Power Company"
     volume: "498"
     page: "073"
     docket: "89-1283"
@@ -622,7 +622,7 @@ cases:
   - id: "1991-058"
     number: 15
     termId: "1991-10"
-    title: "Yee v. Escondido"
+    title: "Yee v. City of Escondido"
     volume: "503"
     page: "519"
     docket: "90-1947"
@@ -754,7 +754,7 @@ cases:
   - id: "1992-111"
     number: 18
     termId: "1992-10"
-    title: "TXO Production Corp. v. Alliance Resources Corp."
+    title: "TXO Production Corporation v. Alliance Resources Corporation"
     volume: "509"
     page: "443"
     docket: "92-479"
@@ -798,7 +798,7 @@ cases:
   - id: "1993-019"
     number: 19
     termId: "1993-10"
-    title: "Department of Revenue of Ore. v. ACF Industries, Inc."
+    title: "Department Of Revenue Of Oregon v. Acf Industries, Inc."
     volume: "510"
     page: "332"
     docket: "92-74"
@@ -842,7 +842,7 @@ cases:
   - id: "1995-030"
     number: 20
     termId: "1995-10"
-    title: "Hercules, Inc. v. United States"
+    title: "Hercules Inc. v. United States"
     volume: "516"
     page: "417"
     docket: "94-818"
@@ -886,7 +886,7 @@ cases:
   - id: "1995-028"
     number: 21
     termId: "1995-10"
-    title: "Norfolk &amp; Western R. Co. v. Hiles"
+    title: "Norfolk &amp; Western Railway Company v. Hiles"
     volume: "516"
     page: "400"
     docket: "95-6"
@@ -974,7 +974,7 @@ cases:
   - id: "1997-025"
     number: 23
     termId: "1997-10"
-    title: "Oubre v. Entergy Operations, Inc."
+    title: "Oubre v. Entergy Operations Inc."
     volume: "522"
     page: "422"
     docket: "96-1291"
@@ -1018,7 +1018,7 @@ cases:
   - id: "1997-054"
     number: 24
     termId: "1997-10"
-    title: "Beach v. Ocwen Fed. Bank"
+    title: "Beach v. Ocwen Federal Bank"
     volume: "523"
     page: "410"
     docket: "97-5310"
@@ -1062,7 +1062,7 @@ cases:
   - id: "1998-014"
     number: 25
     termId: "1998-10"
-    title: "Roberts v. Galen of Va., Inc."
+    title: "No. 97-53 Roberts v. Galen of Virginia, Inc."
     volume: "525"
     page: "249"
     docket: "97-53"
@@ -1104,7 +1104,7 @@ cases:
   - id: "1998-047"
     number: 26
     termId: "1998-10"
-    title: "United States v. Haggar Apparel Co."
+    title: "United States v. Haggar Apparel Company"
     volume: "526"
     page: "380"
     docket: "97-2044"
@@ -1148,7 +1148,7 @@ cases:
   - id: "1998-023"
     number: 27
     termId: "1998-10"
-    title: "National Collegiate Athletic Assn. v. Smith"
+    title: "NCAA v. Smith"
     volume: "525"
     page: "459"
     docket: "98-84"
@@ -1192,7 +1192,7 @@ cases:
   - id: "1998-067"
     number: 28
     termId: "1998-10"
-    title: "Amoco Production Co. v. Southern Ute Tribe"
+    title: "Amoco Production Company v. Southern Ute Indian Tribe"
     volume: "526"
     page: "865"
     docket: "98-830"
@@ -1280,7 +1280,7 @@ cases:
   - id: "1999-047"
     number: 30
     termId: "1999-10"
-    title: "Norfolk Southern R. Co. v. Shanklin"
+    title: "Norfolk Southern Railway Company v. Shanklin"
     volume: "529"
     page: "344"
     docket: "99-312"
@@ -1327,7 +1327,7 @@ cases:
     title: "Mobil Oil Exploration &amp; Producing Southeast, Inc. v. United States"
     volume: "530"
     page: "604"
-    docket: "99-244,99-253"
+    docket: "99-244"
     citation: "530 U.S. 604"
     pdfSource: "loc"
     dateArgument: "Wednesday, March 22, 2000"
@@ -1365,7 +1365,7 @@ cases:
   - id: "2000-008"
     number: 32
     termId: "2000-10"
-    title: "Green Tree Financial Corp.-Ala. v. Randolph"
+    title: "Green Tree Financial Corporation-Alabama v. Randolph"
     volume: "531"
     page: "079"
     docket: "99-1235"
@@ -1409,7 +1409,7 @@ cases:
   - id: "2000-039"
     number: 33
     termId: "2000-10"
-    title: "United States v. Cleveland Indians Baseball Co."
+    title: "United States v. Cleveland Indians Baseball Company"
     volume: "532"
     page: "200"
     docket: "00-203"
@@ -1453,7 +1453,7 @@ cases:
   - id: "2001-004"
     number: 34
     termId: "2001-10"
-    title: "Correctional Services Corp. v. Malesko"
+    title: "Correctional Services Corporation v. Malesko"
     volume: "534"
     page: "061"
     docket: "00-860"
@@ -1497,7 +1497,7 @@ cases:
   - id: "2002-032"
     number: 35
     termId: "2002-10"
-    title: "Norfolk &amp; Western R. Co. v. Ayers"
+    title: "Norfolk &amp; Western Railway Company v. Ayers"
     volume: "538"
     page: "135"
     docket: "01-963"
@@ -1541,7 +1541,7 @@ cases:
   - id: "2002-052"
     number: 36
     termId: "2002-10"
-    title: "Pharmaceutical Research and Mfrs. of America v. Walsh"
+    title: "Pharmaceutical Research &amp; Manufacturers of America v. Walsh"
     volume: "538"
     page: "644"
     docket: "01-188"
@@ -1629,7 +1629,7 @@ cases:
   - id: "2003-005"
     number: 38
     termId: "2003-10"
-    title: "Raytheon Co. v. Hernandez"
+    title: "Raytheon Company v. Hernandez"
     volume: "540"
     page: "044"
     docket: "02-749"
@@ -1667,7 +1667,7 @@ cases:
   - id: "2003-050"
     number: 39
     termId: "2003-10"
-    title: "Engine Mfrs. Assn. v. South Coast Air Quality Management Dist."
+    title: "Engine Manufacturers&apos; Association v. South Coast Air Quality Management District"
     volume: "541"
     page: "246"
     docket: "02-1343"
@@ -1712,7 +1712,7 @@ cases:
   - id: "2003-052"
     number: 40
     termId: "2003-10"
-    title: "Jones v. R. R. Donnelley &amp; Sons Co."
+    title: "Jones v. R. R. Donnelley &amp; Sons Company"
     volume: "541"
     page: "369"
     docket: "02-1205"
@@ -1759,7 +1759,7 @@ cases:
     title: "Sosa v. Alvarez-Machain"
     volume: "542"
     page: "692"
-    docket: "03-339,03-485"
+    docket: "03-339"
     citation: "542 U.S. 692"
     pdfSource: "loc"
     dateArgument: "Tuesday, March 30, 2004"
@@ -1800,7 +1800,7 @@ cases:
   - id: "2003-078"
     number: 42
     termId: "2003-10"
-    title: "Intel Corp. v. Advanced Micro Devices, Inc."
+    title: "Intel Corporation v. Advanced Micro Devices, Inc."
     volume: "542"
     page: "241"
     docket: "02-572"
@@ -1846,7 +1846,7 @@ cases:
   - id: "2004-002"
     number: 43
     termId: "2004-10"
-    title: "Norfolk Southern R. Co. v. James N. Kirby, Pty Ltd."
+    title: "Norfolk Southern Railway Company v. James N. Kirby, Proprietary Limited"
     volume: "543"
     page: "014"
     docket: "02-1028"
@@ -1934,10 +1934,10 @@ cases:
   - id: "2004-071"
     number: 45
     termId: "2004-10"
-    title: "Exxon Mobil Corp. v. Allapattah Services, Inc."
+    title: "Exxon Corp v. Allapattah Services"
     volume: "545"
     page: "546"
-    docket: "04-70,04-79"
+    docket: "04-70"
     citation: "545 U.S. 546"
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, March 1, 2005"
@@ -1981,7 +1981,7 @@ cases:
     title: "IBP, Inc. v. Alvarez"
     volume: "546"
     page: "021"
-    docket: "03-1238,04-66"
+    docket: "03-1238"
     citation: "546 U.S. 21"
     pdfSource: "scotusBound"
     dateArgument: "Monday, October 3, 2005"
@@ -2110,7 +2110,7 @@ cases:
   - id: "2005-056"
     number: 49
     termId: "2005-10"
-    title: "eBay Inc. v. MercExchange, L. L. C."
+    title: "eBay Inc. v. MercExchange, L.L.C."
     volume: "547"
     page: "388"
     docket: "05-130"
@@ -2154,7 +2154,7 @@ cases:
   - id: "2005-075"
     number: 50
     termId: "2005-10"
-    title: "Burlington N. &amp; S. F. R. Co. v. White"
+    title: "Burlington Northern &amp; Santa Fe Railway Co. v. White"
     volume: "548"
     page: "053"
     docket: "05-259"
@@ -2240,7 +2240,7 @@ cases:
   - id: "2006-010"
     number: 52
     termId: "2006-10"
-    title: "Norfolk Southern R. Co. v. Sorrell"
+    title: "Norfolk Southern Railway Co. v. Sorrell"
     volume: "549"
     page: "158"
     docket: "05-746"
@@ -2372,7 +2372,7 @@ cases:
   - id: "2007-003"
     number: 55
     termId: "2007-10"
-    title: "CSX Transp., Inc. v. Georgia State Bd. of Equalization"
+    title: "CSX Transportation, Inc. v. Georgia State Board of Equalization"
     volume: "552"
     page: "009"
     docket: "06-1287"
@@ -2416,7 +2416,7 @@ cases:
   - id: "2007-027"
     number: 56
     termId: "2007-10"
-    title: "Hall Street Associates, L. L. C. v. Mattel, Inc."
+    title: "Hall Street Associates, L.L.C. v. Mattel, Inc."
     volume: "552"
     page: "576"
     docket: "06-989"
@@ -2460,7 +2460,7 @@ cases:
   - id: "2007-048"
     number: 57
     termId: "2007-10"
-    title: "Quanta Computer, Inc. v. LG Electronics, Inc."
+    title: "Quanta Computer, Inc., et al. v. LG Electronics, Inc."
     volume: "553"
     page: "617"
     docket: "06-937"
@@ -2546,7 +2546,7 @@ cases:
   - id: "2007-065"
     number: 59
     termId: "2007-10"
-    title: "Sprint Communications Co. v. APCC Services, Inc."
+    title: "Sprint Communications Co., L.P. v. APCC Services, Inc."
     volume: "554"
     page: "269"
     docket: "07-552"
@@ -2942,7 +2942,7 @@ cases:
   - id: "2010-016"
     number: 68
     termId: "2010-10"
-    title: "CSX Transp., Inc. v. Alabama Dept. of Revenue"
+    title: "CSX Transportation, Inc. v. Alabama Department of Revenue"
     volume: "562"
     page: "277"
     docket: "09-520"
@@ -3030,7 +3030,7 @@ cases:
   - id: "2010-047"
     number: 70
     termId: "2010-10"
-    title: "Chamber of Commerce of United States of America v. Whiting"
+    title: "Chamber of Commerce of the United States v. Whiting"
     volume: "563"
     page: "582"
     docket: "09-115"
@@ -3077,7 +3077,7 @@ cases:
     title: "General Dynamics Corp. v. United States"
     volume: "563"
     page: "478"
-    docket: "09-1298,09-1302"
+    docket: "09-1298"
     citation: "563 U.S. 478"
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, January 18, 2011"
@@ -3118,8 +3118,8 @@ cases:
   - id: "2011-028"
     number: 72
     termId: "2011-10"
-    title: "Douglas v. Independent Living Center of Southern Cal., Inc."
-    docket: "09-958,09-1158,10-283"
+    title: "Douglas v. Independent Living Center of Southern California"
+    docket: "09-958"
     citation: "565 U.S. ___"
     pdfSource: "scotusBound"
     dateArgument: "Monday, October 3, 2011"
@@ -3160,7 +3160,7 @@ cases:
   - id: "2011-046"
     number: 73
     termId: "2011-10"
-    title: "Florence v. Board of Chosen Freeholders of County of Burlington"
+    title: "Florence v. Board of Chosen Freeholders of the County of Burlington"
     docket: "10-945"
     citation: "566 U.S. ___"
     pdfSource: "scotusBound"
@@ -3202,7 +3202,7 @@ cases:
   - id: "2011-072"
     number: 74
     termId: "2011-10"
-    title: "FCC v. Fox Television Stations, Inc."
+    title: "FCC v. Fox Television Stations"
     docket: "10-1293"
     citation: "567 U.S. ___"
     pdfSource: "scotusBound"
@@ -3244,7 +3244,7 @@ cases:
   - id: "2011-069"
     number: 75
     termId: "2011-10"
-    title: "Southern Union Co. v. United States"
+    title: "Southern Union Company v. United States"
     docket: "11-94"
     citation: "567 U.S. ___"
     pdfSource: "scotusBound"
@@ -3328,7 +3328,7 @@ cases:
   - id: "2013-040"
     number: 77
     termId: "2013-10"
-    title: "Octane Fitness, LLC v. ICON Health &amp; Fitness, Inc."
+    title: "Octane Fitness v. ICON Health &amp; Fitness"
     docket: "12-1184"
     citation: "572 U.S. ___"
     pdfSource: "slipopinion/13"
@@ -3412,7 +3412,7 @@ cases:
   - id: "2014-019"
     number: 79
     termId: "2014-10"
-    title: "Alabama Dept. of Revenue v. CSX Transp., Inc."
+    title: "Alabama Department of Revenue v. CSX Transportation, Inc."
     docket: "13-553"
     citation: "575 U.S. ___"
     pdfSource: "slipopinion/14"
@@ -3454,8 +3454,8 @@ cases:
   - id: "2015-008"
     number: 80
     termId: "2015-10"
-    title: "FERC v. Electric Power Supply Assn."
-    docket: "14-840,14-841"
+    title: "Federal Energy Regulatory Commission v. Electric Power Supply Association, et al."
+    docket: "14-840"
     citation: "577 U.S. ___"
     pdfSource: "slipopinion/15"
     dateArgument: "Wednesday, October 14, 2015"
@@ -3535,8 +3535,8 @@ cases:
   - id: "2015-041"
     number: 82
     termId: "2015-10"
-    title: "Halo Electronics, Inc. v. Pulse Electronics, Inc."
-    docket: "14-1513,14-1520"
+    title: "Halo Electronics v. Pulse Electronics Inc."
+    docket: "14-1513"
     citation: "579 U.S. ___"
     pdfSource: "slipopinion/15"
     dateArgument: "Tuesday, February 23, 2016"
@@ -3613,7 +3613,7 @@ cases:
   - id: "2017-073"
     number: 84
     termId: "2017-10"
-    title: "Animal Science Products, Inc. v. Hebei Welcome Pharmaceutical Co."
+    title: "Animal Science Products, Inc. v. Hebei Welcome Pharmaceutical Co. Ltd."
     docket: "16-1220"
     citation: "585 U.S. ___"
     pdfSource: "slipopinion/17"

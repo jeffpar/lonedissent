@@ -6,7 +6,7 @@ cases:
   - id: "1996-027"
     number: 1
     termId: "1996-10"
-    title: "Regents of Univ. of Cal. v. Doe"
+    title: "Regents of University of California v. Doe"
     volume: "519"
     page: "425"
     docket: "95-1694"
@@ -50,7 +50,7 @@ cases:
   - id: "1996-027"
     number: 2
     termId: "1996-10"
-    title: "Regents of Univ. of Cal. v. Doe"
+    title: "Regents of University of California v. Doe"
     volume: "519"
     page: "425"
     docket: "95-1694"
@@ -358,7 +358,7 @@ cases:
   - id: "1998-021"
     number: 9
     termId: "1998-10"
-    title: "Hughes Aircraft Co. v. Jacobson"
+    title: "Hughes Aircraft Company v. Jacobson"
     volume: "525"
     page: "432"
     docket: "97-1287"
@@ -402,7 +402,7 @@ cases:
   - id: "1998-021"
     number: 10
     termId: "1998-10"
-    title: "Hughes Aircraft Co. v. Jacobson"
+    title: "Hughes Aircraft Company v. Jacobson"
     volume: "525"
     page: "432"
     docket: "97-1287"
@@ -754,7 +754,7 @@ cases:
   - id: "2001-059"
     number: 18
     termId: "2001-10"
-    title: "Chevron U. S. A. Inc. v. Echazabal"
+    title: "Chevron U.S.A., Inc. v. Echazabal"
     volume: "536"
     page: "073"
     docket: "00-1406"
@@ -798,7 +798,7 @@ cases:
   - id: "2001-059"
     number: 19
     termId: "2001-10"
-    title: "Chevron U. S. A. Inc. v. Echazabal"
+    title: "Chevron U.S.A., Inc. v. Echazabal"
     volume: "536"
     page: "073"
     docket: "00-1406"
@@ -1370,7 +1370,7 @@ cases:
   - id: "2004-022"
     number: 32
     termId: "2004-10"
-    title: "Stewart v. Dutra Constr. Co."
+    title: "Stewart v. Dutra Construction Company"
     volume: "543"
     page: "481"
     docket: "03-814"
@@ -1414,7 +1414,7 @@ cases:
   - id: "2004-022"
     number: 33
     termId: "2004-10"
-    title: "Stewart v. Dutra Constr. Co."
+    title: "Stewart v. Dutra Construction Company"
     volume: "543"
     page: "481"
     docket: "03-814"
@@ -1725,7 +1725,7 @@ cases:
     title: "Scheidler v. National Organization for Women, Inc."
     volume: "547"
     page: "009"
-    docket: "04-1244,04-1352"
+    docket: "04-1244"
     citation: "547 U.S. 9"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, November 30, 2005"
@@ -1769,7 +1769,7 @@ cases:
     title: "Scheidler v. National Organization for Women, Inc."
     volume: "547"
     page: "009"
-    docket: "04-1244,04-1352"
+    docket: "04-1244"
     citation: "547 U.S. 9"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, November 30, 2005"
@@ -1810,7 +1810,7 @@ cases:
   - id: "2006-018"
     number: 42
     termId: "2006-10"
-    title: "Marrama v. Citizens Bank of Mass."
+    title: "Marrama v. Citizens Bank of Massachusetts"
     volume: "549"
     page: "365"
     docket: "05-996"
@@ -1898,7 +1898,7 @@ cases:
   - id: "2007-047"
     number: 44
     termId: "2007-10"
-    title: "Engquist v. Oregon Dept. of Agriculture"
+    title: "Engquist v. Oregon Department of Agriculture"
     volume: "553"
     page: "591"
     docket: "07-474"
@@ -1942,7 +1942,7 @@ cases:
   - id: "2008-016"
     number: 45
     termId: "2008-10"
-    title: "Crawford v. Metropolitan Government of Nashville and Davidson Cty."
+    title: "Crawford v. Nashville and Davidson County, TN"
     volume: "555"
     page: "271"
     docket: "06-1595"
@@ -2118,7 +2118,7 @@ cases:
   - id: "2010-032"
     number: 49
     termId: "2010-10"
-    title: "Astra USA, Inc. v. Santa Clara County"
+    title: "Astra USA v. Santa Clara County"
     volume: "563"
     page: "110"
     docket: "09-1273"
@@ -2162,7 +2162,7 @@ cases:
   - id: "2012-020"
     number: 50
     termId: "2012-10"
-    title: "Marx v. General Revenue Corp."
+    title: "Marx v. General Revenue Corporation"
     volume: "568"
     page: "371"
     docket: "11-1175"
@@ -2248,7 +2248,7 @@ cases:
   - id: "2012-057"
     number: 52
     termId: "2012-10"
-    title: "Tarrant Regional Water Dist. v. Herrmann"
+    title: "Tarrant Regional Water District v. Herrmann"
     volume: "569"
     page: "614"
     docket: "11-889"
@@ -2332,7 +2332,7 @@ cases:
     number: 54
     termId: "2016-10"
     title: "Advocate Health Care Network v. Stapleton"
-    docket: "16-74,16-86,16-258"
+    docket: "16-74"
     citation: "581 U.S. ___"
     pdfSource: "slipopinion/16"
     dateArgument: "Monday, March 27, 2017"

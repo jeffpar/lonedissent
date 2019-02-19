@@ -12,7 +12,7 @@ Until that work is complete, here's a short list of some of the top performers o
 which we also refer to as the "Taped Era" (i.e., from October Term 1955 onward), because October 1955
 was when Court began recording all oral arguments on reel-to-reel tape.
 
-NOTE: Any advocates listed below whose totals are reported as "at least" still require further verification.
+NOTE: Any advocate listed below whose total is reported as "at least" still requires further verification.
 
 ## Top Advocates
 

@@ -1788,6 +1788,13 @@ function buildAdvocates(done)
                             row.issue = argument.issue;
                             changes++;
                         }
+
+                        /*
+                         * The advocate CSV generally has more precise data regarding actual arguments, so let's use that instead.
+                         */
+                        argument.caseTitle = row.caseTitle;
+                        argument.docket = row.docket;
+
                         argument.urlOyez = row.urlOyez;
                         results.push(argument);
                     } else {

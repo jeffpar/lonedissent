@@ -50,7 +50,7 @@ cases:
   - id: "1988-117"
     number: 2
     termId: "1988-10"
-    title: "Colonial American Life Ins. Co. v. Commissioner"
+    title: "Colonial American Life Ins. Company v. Commissioner of Internal Revenue"
     volume: "491"
     page: "244"
     docket: "88-396"
@@ -94,7 +94,7 @@ cases:
   - id: "1989-113"
     number: 3
     termId: "1989-10"
-    title: "Texaco Inc. v. Hasbrouck"
+    title: "Texaco, Inc. v. Hasbrouck"
     volume: "496"
     page: "543"
     docket: "87-2048"
@@ -138,10 +138,10 @@ cases:
   - id: "1989-056"
     number: 4
     termId: "1989-10"
-    title: "Department of Labor v. Triplett"
+    title: "United States Department of Labor v. Triplett"
     volume: "494"
     page: "715"
-    docket: "88-1671,88-1688"
+    docket: "88-1671"
     citation: "494 U.S. 715"
     pdfSource: "loc"
     dateArgument: "Tuesday, January 16, 1990"
@@ -226,7 +226,7 @@ cases:
   - id: "1990-131"
     number: 6
     termId: "1990-10"
-    title: "Virginia Bankshares, Inc. v. Sandberg"
+    title: "Virginia Bankshares, Inc.  v. Sandberg"
     volume: "501"
     page: "1083"
     docket: "89-1448"
@@ -358,7 +358,7 @@ cases:
   - id: "1991-031"
     number: 9
     termId: "1991-10"
-    title: "Lechmere, Inc. v. NLRB"
+    title: "Lechmere, Inc. v. National Labor Relations Board"
     volume: "502"
     page: "527"
     docket: "90-970"
@@ -446,7 +446,7 @@ cases:
   - id: "1991-107"
     number: 11
     termId: "1991-10"
-    title: "Estate of Cowart v. Nicklos Drilling Co."
+    title: "Estate of Cowart v. Nicklos Drilling Company"
     volume: "505"
     page: "469"
     docket: "91-17"
@@ -666,7 +666,7 @@ cases:
   - id: "1993-035"
     number: 16
     termId: "1993-10"
-    title: "J. E. B. v. Alabama ex rel. T. B."
+    title: "J.E.B. v. Alabama ex rel T.B."
     volume: "511"
     page: "127"
     docket: "92-1239"
@@ -710,7 +710,7 @@ cases:
   - id: "1993-054"
     number: 17
     termId: "1993-10"
-    title: "NLRB v. Health Care &amp; Retirement Corp. of America"
+    title: "National Labor Relations Board v. Health Care Corporation of America"
     volume: "511"
     page: "571"
     docket: "92-1964"
@@ -796,7 +796,7 @@ cases:
   - id: "1994-028"
     number: 19
     termId: "1994-10"
-    title: "Gustafson v. Alloyd Co."
+    title: "Gustafson v. Alloyd Company, Inc."
     volume: "513"
     page: "561"
     docket: "93-404"
@@ -972,10 +972,10 @@ cases:
   - id: "1995-011"
     number: 23
     termId: "1995-10"
-    title: "Bailey v. United States"
+    title: "Robinson v. United States"
     volume: "516"
     page: "137"
-    docket: "94-7448,94-7492"
+    docket: "94-7448"
     citation: "516 U.S. 137"
     pdfSource: "loc"
     dateArgument: "Monday, October 30, 1995"
@@ -1019,7 +1019,7 @@ cases:
     title: "Koon v. United States"
     volume: "518"
     page: "081"
-    docket: "94-1664,94-8842"
+    docket: "94-1664"
     citation: "518 U.S. 81"
     pdfSource: "loc"
     dateArgument: "Tuesday, February 20, 1996"
@@ -1063,7 +1063,7 @@ cases:
     title: "United States v. Ursery"
     volume: "518"
     page: "267"
-    docket: "95-345,95-346"
+    docket: "95-345"
     citation: "518 U.S. 267"
     pdfSource: "loc"
     dateArgument: "Wednesday, April 17, 1996"
@@ -1588,7 +1588,7 @@ cases:
   - id: "1999-024"
     number: 37
     termId: "1999-10"
-    title: "United States v. Martinez-Salazar"
+    title: "United States  v. Martinez-Salazar"
     volume: "528"
     page: "304"
     docket: "98-1255"
@@ -2645,7 +2645,7 @@ cases:
     title: "Davis v. Washington"
     volume: "547"
     page: "813"
-    docket: "05-5224,05-5705"
+    docket: "05-5224"
     citation: "547 U.S. 813"
     pdfSource: "scotusBound"
     dateArgument: "Monday, March 20, 2006"
@@ -2689,7 +2689,7 @@ cases:
     title: "Davis v. Washington"
     volume: "547"
     page: "813"
-    docket: "05-5224,05-5705"
+    docket: "05-5224"
     citation: "547 U.S. 813"
     pdfSource: "scotusBound"
     dateArgument: "Monday, March 20, 2006"
@@ -3648,7 +3648,7 @@ cases:
   - id: "2011-069"
     number: 84
     termId: "2011-10"
-    title: "Southern Union Co. v. United States"
+    title: "Southern Union Company v. United States"
     docket: "11-94"
     citation: "567 U.S. ___"
     pdfSource: "scotusBound"
@@ -3691,7 +3691,7 @@ cases:
     number: 85
     termId: "2011-10"
     title: "Dorsey v. United States"
-    docket: "11-5683,11-5721"
+    docket: "11-5683"
     citation: "567 U.S. ___"
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, April 17, 2012"
@@ -4029,7 +4029,7 @@ cases:
     number: 93
     termId: "2013-10"
     title: "Riley v. California"
-    docket: "13-132,13-212"
+    docket: "13-132"
     citation: "573 U.S. ___"
     pdfSource: "slipopinion/13"
     dateArgument: "Tuesday, April 29, 2014"
@@ -4070,8 +4070,8 @@ cases:
   - id: "2013-065"
     number: 94
     termId: "2013-10"
-    title: "Riley v. California"
-    docket: "13-132,13-212"
+    title: "United States v. Wurie"
+    docket: "13-212"
     citation: "573 U.S. ___"
     pdfSource: "slipopinion/13"
     dateArgument: "Tuesday, April 29, 2014"
@@ -4196,7 +4196,7 @@ cases:
   - id: "2014-050"
     number: 97
     termId: "2014-10"
-    title: "Los Angeles v. Patel"
+    title: "City of Los Angeles v. Patel"
     docket: "13-1175"
     citation: "576 U.S. ___"
     pdfSource: "slipopinion/14"
@@ -4476,7 +4476,7 @@ cases:
     number: 104
     termId: "2016-10"
     title: "Turner v. United States"
-    docket: "15-1503,15-1504"
+    docket: "15-1503"
     citation: "582 U.S. ___"
     pdfSource: "slipopinion/16"
     dateArgument: "Wednesday, March 29, 2017"
@@ -4559,7 +4559,7 @@ cases:
   - id: "2017-048"
     number: 106
     termId: "2017-10"
-    title: "United States v. Microsoft Corp."
+    title: "United States v. Microsoft Corporation"
     docket: "17-2"
     citation: "584 U.S. ___"
     pdfSource: "slipopinion/17"
@@ -4609,5 +4609,12 @@ in 2008, the Court recognized Michael Dreeben's 100th argument on April 27, 2016
 
 > Throughout your career, you have consistently advocated positions on behalf of the United States in an exemplary manner. On behalf of the Court, I extend to you our appreciation for the many years of advocacy and dedicated service during your tenure in the Solicitor General's Office and as an officer of this Court. We look forward to hearing from you many more times.
 
-Chief Justice John Roberts' recollection of Mr. Dreeben's first argument is no surprise, since then-attorney John Roberts argued in the same case:
-[United States v. Halper](https://www.oyez.org/cases/1988/87-1383).
+Chief Justice John Roberts' recollection of Mr. Dreeben's first argument is no surprise, since then-attorney John Roberts argued in the same case: [United States v. Halper](https://www.oyez.org/cases/1988/87-1383).
+
+We also note that Mr. Dreeben once argued twice on the *same day*.  On Tuesday, April 29, 2014, he first argued in
+[Riley v. California](#2013-065) (No. 13-132), and then later that same morning, he argued in **United States v. Wurie** (No. 13-212).
+
+Perhaps due to this unusual circumstance, or to some difference in argument-counting methodology, what was previously
+described as Mr. Dreebens's 100th argument must now be listed below as his *[101st argument](#2015-075)*.  However,
+we will be double-checking his first 100 arguments to verify the accuracy of our list and will post an update if we
+learn anything new.

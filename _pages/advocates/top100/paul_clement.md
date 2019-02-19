@@ -50,7 +50,7 @@ cases:
   - id: "2001-016"
     number: 2
     termId: "2001-10"
-    title: "EEOC v. Waffle House, Inc."
+    title: "Equal Employment Opportunity Commission v. Waffle House, Inc."
     volume: "534"
     page: "279"
     docket: "99-1823"
@@ -138,7 +138,7 @@ cases:
   - id: "2001-026"
     number: 4
     termId: "2001-10"
-    title: "Raygor v. Regents of Univ. of Minn."
+    title: "Raygor v. Regents of University of Minnesota"
     volume: "534"
     page: "533"
     docket: "00-1514"
@@ -182,7 +182,7 @@ cases:
   - id: "2001-053"
     number: 5
     termId: "2001-10"
-    title: "Federal Maritime Comm&apos;n v. South Carolina Ports Authority"
+    title: "Federal Maritime Commission v. South Carolina State Ports Authority"
     volume: "535"
     page: "743"
     docket: "01-46"
@@ -270,10 +270,10 @@ cases:
   - id: "2002-018"
     number: 7
     termId: "2002-10"
-    title: "FCC v. NextWave Personal Communications Inc."
+    title: "Federal Communications Commission v. Nextwave Personal Communications, Inc."
     volume: "537"
     page: "293"
-    docket: "01-653,01-657"
+    docket: "01-653"
     citation: "537 U.S. 293"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 8, 2002"
@@ -446,7 +446,7 @@ cases:
   - id: "2002-074"
     number: 11
     termId: "2002-10"
-    title: "Federal Election Comm&apos;n v. Beaumont"
+    title: "Federal Election Commission v. Beaumont"
     volume: "539"
     page: "146"
     docket: "02-403"
@@ -490,10 +490,10 @@ cases:
   - id: "2003-006"
     number: 12
     termId: "2003-10"
-    title: "McConnell v. Federal Election Comm&apos;n"
+    title: "McConnell v. Federal Election Commission"
     volume: "540"
     page: "093"
-    docket: "02-1674,02-1675,02-1676,02-1702,02-1727,02-1733,02-1734,02-1740,02-1747,02-1753,02-1755,02-1756"
+    docket: "02-1674"
     citation: "540 U.S. 93"
     pdfSource: "loc"
     dateArgument: "Monday, September 8, 2003"
@@ -534,7 +534,7 @@ cases:
   - id: "2003-005"
     number: 13
     termId: "2003-10"
-    title: "Raytheon Co. v. Hernandez"
+    title: "Raytheon Company v. Hernandez"
     volume: "540"
     page: "044"
     docket: "02-749"
@@ -572,7 +572,7 @@ cases:
   - id: "2003-031"
     number: 14
     termId: "2003-10"
-    title: "General Dynamics Land Systems, Inc. v. Cline"
+    title: "General Dynamics Land Systems Inc. v. Cline"
     volume: "540"
     page: "581"
     docket: "02-1080"
@@ -663,7 +663,7 @@ cases:
     title: "Sosa v. Alvarez-Machain"
     volume: "542"
     page: "692"
-    docket: "03-339,03-485"
+    docket: "03-339"
     citation: "542 U.S. 692"
     pdfSource: "loc"
     dateArgument: "Tuesday, March 30, 2004"
@@ -797,7 +797,7 @@ cases:
     title: "United States v. Booker"
     volume: "543"
     page: "220"
-    docket: "04-104,04-105"
+    docket: "04-104"
     citation: "543 U.S. 220"
     pdfSource: "scotusBound"
     dateArgument: "Monday, October 4, 2004"
@@ -1102,7 +1102,7 @@ cases:
   - id: "2004-079"
     number: 26
     termId: "2004-10"
-    title: "Metro-Goldwyn-Mayer Studios Inc. v. Grokster, Ltd."
+    title: "MGM Studios v. Grokster"
     volume: "545"
     page: "913"
     docket: "04-480"
@@ -1193,7 +1193,7 @@ cases:
     title: "United States v. Georgia"
     volume: "546"
     page: "151"
-    docket: "04-1203,04-1236"
+    docket: "04-1203"
     citation: "546 U.S. 151"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, November 9, 2005"
@@ -1234,7 +1234,7 @@ cases:
   - id: "2005-020"
     number: 29
     termId: "2005-10"
-    title: "Ayotte v. Planned Parenthood of Northern New Eng."
+    title: "Ayotte v. Planned Parenthood of Northern New England"
     volume: "546"
     page: "320"
     docket: "04-1144"
@@ -1322,7 +1322,7 @@ cases:
   - id: "2005-025"
     number: 31
     termId: "2005-10"
-    title: "Wisconsin Right to Life, Inc. v. Federal Election Comm&apos;n"
+    title: "Wisconsin Right to Life, Inc. v. Federal Election Commission"
     volume: "546"
     page: "410"
     docket: "04-1581"
@@ -1367,7 +1367,7 @@ cases:
     title: "Rapanos v. United States"
     volume: "547"
     page: "715"
-    docket: "04-1034,04-1384"
+    docket: "04-1034"
     citation: "547 U.S. 715"
     pdfSource: "scotusBound"
     dateArgument: "Tuesday, February 21, 2006"
@@ -1496,15 +1496,15 @@ cases:
   - id: "2006-031"
     number: 35
     termId: "2006-10"
-    title: "Gonzales v. Carhart"
+    title: "Gonzales v. Planned Parenthood Federation of America, Inc."
     volume: "550"
     page: "124"
-    docket: "05-380,05-1382"
+    docket: "05-1382"
     citation: "550 U.S. 124"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, November 8, 2006"
     dateDecision: "Wednesday, April 18, 2007"
-    urlOyez: "https://www.oyez.org/cases/2006/05-380"
+    urlOyez: "https://www.oyez.org/cases/2006/05-1382"
     voteMajority: 5
     voteMinority: 4
     authorId: amkennedy
@@ -1543,12 +1543,12 @@ cases:
     title: "Gonzales v. Carhart"
     volume: "550"
     page: "124"
-    docket: "05-380,05-1382"
+    docket: "05-380"
     citation: "550 U.S. 124"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, November 8, 2006"
     dateDecision: "Wednesday, April 18, 2007"
-    urlOyez: "https://www.oyez.org/cases/2006/05-1382"
+    urlOyez: "https://www.oyez.org/cases/2006/05-380"
     voteMajority: 5
     voteMinority: 4
     authorId: amkennedy
@@ -1584,54 +1584,10 @@ cases:
   - id: "2006-073"
     number: 37
     termId: "2006-10"
-    title: "Parents Involved in Community Schools v. Seattle School Dist. No. 1"
+    title: "Parents Involved in Community Schools v. Seattle School District No. 1"
     volume: "551"
     page: "701"
-    docket: "05-908,05-915"
-    citation: "551 U.S. 701"
-    pdfSource: "scotusBound"
-    dateArgument: "Monday, December 4, 2006"
-    dateDecision: "Thursday, June 28, 2007"
-    urlOyez: "https://www.oyez.org/cases/2006/05-915"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: jgroberts
-    authorName: "John Roberts"
-    votes:
-      - id: jgroberts
-        name: "John Roberts"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: false
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: false
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: false
-      - id: saalito
-        name: "Samuel Alito"
-        majority: true
-  - id: "2006-073"
-    number: 38
-    termId: "2006-10"
-    title: "Parents Involved in Community Schools v. Seattle School Dist. No. 1"
-    volume: "551"
-    page: "701"
-    docket: "05-908,05-915"
+    docket: "05-908"
     citation: "551 U.S. 701"
     pdfSource: "scotusBound"
     dateArgument: "Monday, December 4, 2006"
@@ -1669,13 +1625,57 @@ cases:
       - id: saalito
         name: "Samuel Alito"
         majority: true
+  - id: "2006-073"
+    number: 38
+    termId: "2006-10"
+    title: "Meredith v. Jefferson County Board of Education"
+    volume: "551"
+    page: "701"
+    docket: "05-915"
+    citation: "551 U.S. 701"
+    pdfSource: "scotusBound"
+    dateArgument: "Monday, December 4, 2006"
+    dateDecision: "Thursday, June 28, 2007"
+    urlOyez: "https://www.oyez.org/cases/2006/05-915"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: jgroberts
+    authorName: "John Roberts"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: false
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: false
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: false
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
   - id: "2006-059"
     number: 39
     termId: "2006-10"
-    title: "Davenport v. Washington Ed. Assn."
+    title: "Davenport v. Washington Education Association"
     volume: "551"
     page: "177"
-    docket: "05-1589,05-1657"
+    docket: "05-1589"
     citation: "551 U.S. 177"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, January 10, 2007"
@@ -1804,10 +1804,10 @@ cases:
   - id: "2006-069"
     number: 42
     termId: "2006-10"
-    title: "Federal Election Comm&rsquo;n v. Wisconsin Right to Life, Inc."
+    title: "Federal Election Commission v. Wisconsin Right to Life, Inc."
     volume: "551"
     page: "449"
-    docket: "06-969,06-970"
+    docket: "06-969"
     citation: "551 U.S. 449"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, April 25, 2007"
@@ -1848,7 +1848,7 @@ cases:
   - id: "2007-026"
     number: 43
     termId: "2007-10"
-    title: "Medell&iacute;n v. Texas"
+    title: "Medellin v. Texas"
     volume: "552"
     page: "491"
     docket: "06-984"
@@ -1939,7 +1939,7 @@ cases:
     title: "Boumediene v. Bush"
     volume: "553"
     page: "723"
-    docket: "06-1195,06-1196"
+    docket: "06-1195"
     citation: "553 U.S. 723"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, December 5, 2007"
@@ -1980,10 +1980,10 @@ cases:
   - id: "2007-035"
     number: 46
     termId: "2007-10"
-    title: "Crawford v. Marion County Election Bd."
+    title: "Crawford v. Marion County Election Board"
     volume: "553"
     page: "181"
-    docket: "07-21,07-25"
+    docket: "07-21"
     citation: "553 U.S. 181"
     pdfSource: "scotusBound"
     dateArgument: "Wednesday, January 9, 2008"
@@ -2112,7 +2112,7 @@ cases:
   - id: "2007-072"
     number: 49
     termId: "2007-10"
-    title: "Davis v. Federal Election Comm&rsquo;n"
+    title: "Davis v. Federal Election Commission"
     volume: "554"
     page: "724"
     docket: "07-320"
@@ -2200,7 +2200,7 @@ cases:
   - id: "2009-093"
     number: 51
     termId: "2009-10"
-    title: "POTTAWATTAMIE COUNTY, IOWA, et al., PETITIONERS v. CURTIS W. MCGHEE, JR., et al."
+    title: "Pottawattamie County v. McGhee"
     volume: "558"
     page: "1103"
     docket: "08-1065"
@@ -2330,7 +2330,7 @@ cases:
   - id: "2011-010"
     number: 54
     termId: "2011-10"
-    title: "Pacific Operators Offshore, LLP v. Valladolid"
+    title: "Pacific Operators Offshore v. Valladolid"
     volume: "565"
     page: "207"
     docket: "10-507"
@@ -2374,7 +2374,7 @@ cases:
   - id: "2011-027"
     number: 55
     termId: "2011-10"
-    title: "PPL Montana, LLC v. Montana"
+    title: "PPL Montana v. Montana"
     docket: "10-218"
     citation: "565 U.S. ___"
     pdfSource: "scotusBound"
@@ -2419,7 +2419,7 @@ cases:
     title: "Perry v. Perez"
     volume: "565"
     page: "388"
-    docket: "11-713,11-714,11-715"
+    docket: "11-713"
     citation: "565 U.S. 388"
     pdfSource: "scotusBound"
     dateArgument: "Monday, January 9, 2012"
@@ -2458,7 +2458,7 @@ cases:
   - id: "2011-062"
     number: 57
     termId: "2011-10"
-    title: "Armour v. Indianapolis"
+    title: "Armour v. City of Indianapolis"
     docket: "11-161"
     citation: "566 U.S. ___"
     pdfSource: "scotusBound"
@@ -2501,7 +2501,7 @@ cases:
     number: 58
     termId: "2011-10"
     title: "National Federation of Independent Business v. Sebelius"
-    docket: "11-393,11-400,11-398"
+    docket: "11-393"
     citation: "567 U.S. ___"
     pdfSource: "scotusBound"
     dateArgument: "Monday, March 26, 2012"
@@ -2542,7 +2542,7 @@ cases:
   - id: "2011-067"
     number: 59
     termId: "2011-10"
-    title: "Christopher v. SmithKline Beecham Corp."
+    title: "Christopher v. SmithKline"
     docket: "11-204"
     citation: "567 U.S. ___"
     pdfSource: "scotusBound"
@@ -2668,7 +2668,7 @@ cases:
   - id: "2012-045"
     number: 62
     termId: "2012-10"
-    title: "PPL Corp. v. Commissioner"
+    title: "PPL Corporation v. Commissioner of Internal Revenue"
     volume: "569"
     page: "329"
     docket: "12-43"
@@ -2712,7 +2712,7 @@ cases:
   - id: "2012-066"
     number: 63
     termId: "2012-10"
-    title: "American Express Co. v. Italian Colors Restaurant"
+    title: "American Express Co., et al. v. Italian Colors Restaurant"
     docket: "12-133"
     citation: "570 U.S. ___"
     pdfSource: "slipopinion/12"
@@ -2880,8 +2880,8 @@ cases:
   - id: "2013-022"
     number: 67
     termId: "2013-10"
-    title: "Chadbourne &amp; Parke LLP v. Troice"
-    docket: "12-79,12-86,12-88"
+    title: "Chadbourne and Parke LLP v. Troice"
+    docket: "12-79"
     citation: "571 U.S. ___"
     pdfSource: "slipopinion/13"
     dateArgument: "Monday, October 7, 2013"
@@ -3048,7 +3048,7 @@ cases:
   - id: "2014-048"
     number: 71
     termId: "2014-10"
-    title: "Arizona State Legislature v. Arizona Independent Redistricting Comm&rsquo;n"
+    title: "Arizona State Legislature v. Arizona Independent Redistricting Commission"
     docket: "13-1314"
     citation: "576 U.S. ___"
     pdfSource: "slipopinion/14"
@@ -3132,8 +3132,8 @@ cases:
   - id: "2015-008"
     number: 73
     termId: "2015-10"
-    title: "FERC v. Electric Power Supply Assn."
-    docket: "14-840,14-841"
+    title: "Federal Energy Regulatory Commission v. Electric Power Supply Association, et al."
+    docket: "14-840"
     citation: "577 U.S. ___"
     pdfSource: "slipopinion/15"
     dateArgument: "Wednesday, October 14, 2015"
@@ -3174,7 +3174,7 @@ cases:
   - id: "2015-026"
     number: 74
     termId: "2015-10"
-    title: "Franchise Tax Bd. of Cal. v. Hyatt"
+    title: "Franchise Tax Board of California v. Hyatt"
     docket: "14-1175"
     citation: "578 U.S. ___"
     pdfSource: "slipopinion/15"
@@ -3253,7 +3253,7 @@ cases:
     number: 76
     termId: "2015-10"
     title: "Hughes v. Talen Energy Marketing, LLC"
-    docket: "14-614,14-623"
+    docket: "14-614"
     citation: "578 U.S. ___"
     pdfSource: "slipopinion/15"
     dateArgument: "Wednesday, February 24, 2016"
@@ -3292,7 +3292,7 @@ cases:
     number: 77
     termId: "2015-10"
     title: "Zubik v. Burwell"
-    docket: "14-1418,14-1453,14-1505,15-35,15-105,15-119,15-191"
+    docket: "14-1418"
     citation: "578 U.S. ___"
     pdfSource: "slipopinion/15"
     dateArgument: "Wednesday, March 23, 2016"
@@ -3328,7 +3328,7 @@ cases:
   - id: "2015-069"
     number: 78
     termId: "2015-10"
-    title: "Encino Motorcars, LLC v. Navarro"
+    title: "Encino Motorcars v. Navarro"
     docket: "15-415"
     citation: "579 U.S. ___"
     pdfSource: "slipopinion/15"
@@ -3409,7 +3409,7 @@ cases:
   - id: "2016-029"
     number: 80
     termId: "2016-10"
-    title: "Bethune-Hill v. Virginia State Bd. of Elections"
+    title: "Bethune-Hill v. Virginia Board of Elections"
     docket: "15-680"
     citation: "580 U.S. ___"
     pdfSource: "slipopinion/16"
@@ -3491,7 +3491,7 @@ cases:
     number: 82
     termId: "2017-10"
     title: "Epic Systems Corp. v. Lewis"
-    docket: "16-285,16-300,16-307"
+    docket: "16-285"
     citation: "584 U.S. ___"
     pdfSource: "slipopinion/17"
     dateArgument: "Monday, October 2, 2017"
@@ -3574,7 +3574,7 @@ cases:
   - id: "2017-016"
     number: 84
     termId: "2017-10"
-    title: "Merit Management Group, LP v. FTI Consulting, Inc."
+    title: "Merit Management Group v. FTI Consulting, Inc."
     docket: "16-784"
     citation: "583 U.S. ___"
     pdfSource: "slipopinion/17"
@@ -3616,8 +3616,8 @@ cases:
   - id: "2017-022"
     number: 85
     termId: "2017-10"
-    title: "Murphy v. National Collegiate Athletic Assn."
-    docket: "16-476,16-477"
+    title: "Murphy v. National Collegiate Athletic Association"
+    docket: "16-476"
     citation: "584 U.S. ___"
     pdfSource: "slipopinion/17"
     dateArgument: "Monday, December 4, 2017"
@@ -3658,7 +3658,7 @@ cases:
   - id: "2017-040"
     number: 86
     termId: "2017-10"
-    title: "Encino Motor Cars, LLC v. Navarro"
+    title: "Encino Motorcars, LLC v. Navarro"
     docket: "16-1362"
     citation: "584 U.S. ___"
     pdfSource: "slipopinion/17"
