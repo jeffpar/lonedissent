@@ -273,7 +273,7 @@ at least ten years ago, and the only headway we were able to make was a vague co
 "database extensions" that would allow groups like Oyez to add more comprehensive oral argument information
 (e.g., dates, names of advocates, etc).  As far as I can tell, that never happened.
 
-In any event, it's never too late to fix problems like that.  Instead of making excuses, justifications,
+In any event, it's never too late to fix problems.  Instead of making excuses, justifications,
 or brushing off good suggestions as "too much work", SCDB should start acknowledging problems and create a
 roadmap for improving and evolving the database, defining new variables to address old issues and new features,
 deprecating problematic variables, and above all, adding rigorous data validation rules and cross-checks to

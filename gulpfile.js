@@ -586,21 +586,22 @@ function isSortedObjects(rows, keys, fQuiet)
 }
 
 /**
- * searchObjects(rows, row, next)
+ * searchObjects(rows, row, next, fSub)
  *
  * @param {Array.<object>} rows
  * @param {object} row
  * @param {number} [next]
+ * @param {boolean} [fSub] (true to perform substring comparisons; default is equality checks)
  * @return {number} (index of position, or -1 if not found)
  */
-function searchObjects(rows, row, next=0)
+function searchObjects(rows, row, next=0, fSub=false)
 {
     let i, keys = Object.keys(row);
     for (i = next; i < rows.length; i++) {
         let k;
         for (k = 0; k < keys.length; k++) {
             let key = keys[k];
-            if (rows[i][key] != row[key]) break;
+            if (fSub && rows[i][key].indexOf(row[key]) < 0 || !fSub && rows[i][key] != row[key]) break;
         }
         if (k == keys.length) break;
     }
@@ -1268,6 +1269,94 @@ function readCourts()
 }
 
 /**
+ * getOyezDates(timeline, event)
+ *
+ * @param {Array} timeline
+ * @param {string} event
+ * @return {string}
+ */
+function getOyezDates(timeline, event)
+{
+    let dates = "";
+    if (timeline) {
+        for (let i = 0; i < timeline.length; i++) {
+            let item = timeline[i];
+            if (item.event == event) {
+                for (let j = 0; j < item.dates.length; j++) {
+                    let date = new Date(item.dates[j] * 1000);
+                    if (dates) dates += ',';
+                    dates += sprintf("%#Y-%#02M-%#02D", date);
+                }
+            }
+        }
+    }
+    return dates;
+}
+
+/**
+ * readOyezCaseData(filePath, caseTitle, docket, advocateName)
+ *
+ * @param {string} filePath
+ * @param {string} [caseTitle]
+ * @param {string} [docket]
+ * @param {string} [advocateName]
+ * @return {object|undefined}
+ */
+function readOyezCaseData(filePath, caseTitle, docket, advocateName)
+{
+    let row;
+    let caseDetail = JSON.parse(readFile(filePath) || "{}");
+    if (caseDetail.ID) {
+        row = {};
+        let docket_number = docket || caseDetail.docket_number;
+        row.caseId = caseDetail.ID.toString();
+        row.volume = caseDetail.citation && +caseDetail.citation.volume || 0;
+        row.page = caseDetail.citation && +caseDetail.citation.page || 0;
+        row.year = caseDetail.citation && +caseDetail.citation.year || 0;
+        row.caseTitle = (caseTitle || caseDetail.name).replace(/\s+/g, ' ').trim();
+        row.oldCite = getOldCite(row.volume, row.page);
+        row.usCite = getNewCite(row.volume, row.page);
+        row.dateDecision = getOyezDates(caseDetail.timeline, "Decided");
+        row.docket = docket_number.replace("-orig", " Orig.").replace(" MISC", " Misc.");
+        row.term = caseDetail.term || 0;
+        row.termId = getTermDate(row.term).substr(0,7);
+        row.issue = "";
+        row.dateArgument = getOyezDates(caseDetail.timeline, "Argued");
+        /*
+         * For purposes of our advocate tables, making the distinction between argument
+         * and reargument dates is neither necessary nor helpful.  In fact, it's the opposite
+         * of helpful.  Our advocate reports are focussed on number of appearances.
+         */
+        let dateReargument = getOyezDates(caseDetail.timeline, "Reargued");
+        if (dateReargument) {
+            if (!row.dateArgument) {
+                warning("%s (%s) has reargument (%s) without argument\n", row.caseTitle, row.usCite, dateReargument);
+            } else {
+                row.dateArgument += ',' + dateReargument;
+            }
+        }
+        row.daysArgument = row.dateArgument.split(',').length;
+        row.votesPetitioner = 0;
+        row.votesRespondent = 0;
+        if (advocateName) {
+            row.advocateName = advocateName;
+            row.advocateRole = "";
+        }
+        if (row.term) {
+            if (row.term < 2004) {
+                row.pdfSource = "loc";          // ie, Library of Congress
+            } else if (row.term < 2012) {
+                row.pdfSource = "scotusBound";  // ie, supremecourt.gov, in the "Bound Volumes" folder
+            } else {
+                row.pdfSource = "slipopinion/" + (row.term % 100);
+            }
+        }
+        row.urlOyez = caseDetail.href.replace("api.", "www.");
+    }
+    return row;
+}
+
+/**
  * readOyezCourts()
  *
  * @return {Array.<Court>}
@@ -1607,7 +1696,7 @@ function findByDateAndDocket(decisions, date, docket)
     let i, next = 0;
     docket = fixDocketNumber(docket);
     let obj = {dateArgument: date};
-    while ((i = searchObjects(decisions, obj, next)) >= 0) {
+    while ((i = searchObjects(decisions, obj, next, true)) >= 0) {
         let dockets = decisions[i].docket.split(',');
         if (dockets.indexOf(docket) >= 0) break;
         next = i + 1;
@@ -1615,7 +1704,7 @@ function findByDateAndDocket(decisions, date, docket)
     if (i < 0) {
         next = 0;
         obj = {dateRearg: date};
-        while ((i = searchObjects(decisions, obj, next)) >= 0) {
+        while ((i = searchObjects(decisions, obj, next, true)) >= 0) {
             let dockets = decisions[i].docket.split(',');
             if (dockets.indexOf(docket) >= 0) break;
             next = i + 1;
@@ -1639,23 +1728,6 @@ function buildAdvocates(done)
     let decisions = JSON.parse(readFile(dataFile) || "[]");
     sortObjects(decisions, ["volume", "page"]);
     let advocates = JSON.parse(readFile(sources.oyez.advocates) || "{}");
-
-    let getDates = function(timeline, event) {
-        let dates = "";
-        if (timeline) {
-            for (let i = 0; i < timeline.length; i++) {
-                let item = timeline[i];
-                if (item.event == event) {
-                    for (let j = 0; j < item.dates.length; j++) {
-                        let date = new Date(item.dates[j] * 1000);
-                        if (dates) dates += ',';
-                        dates += sprintf("%#Y-%#02M-%#02D", date);
-                    }
-                }
-            }
-        }
-        return dates;
-    };
 
     if (advocates) {
         let ids = Object.keys(advocates.ids);
@@ -1685,51 +1757,8 @@ function buildAdvocates(done)
                         let fileID = obj.docket_number + '_' + obj.ID;
                         let file = fileID + ".json";
                         let filePath = path.join(dir, file);
-                        let caseDetail = JSON.parse(readFile(filePath) || "{}");
-                        if (caseDetail.ID) {
-                            let row = {};
-                            let docket_number = obj.consolidated_docket_number || caseDetail.docket_number;
-                            row.caseId = caseDetail.ID.toString();
-                            row.volume = caseDetail.citation && +caseDetail.citation.volume || 0;
-                            row.page = caseDetail.citation && +caseDetail.citation.page || 0;
-                            row.year = caseDetail.citation && +caseDetail.citation.year || 0;
-                            row.caseTitle = (obj.title || caseDetail.name).replace(/\s+/g, ' ').trim();
-                            row.oldCite = getOldCite(row.volume, row.page);
-                            row.usCite = getNewCite(row.volume, row.page);
-                            row.dateDecision = getDates(caseDetail.timeline, "Decided");
-                            row.docket = docket_number.replace("-orig", " Orig.");      // TODO: How many other "Original" variations?
-                            row.term = caseDetail.term || 0;
-                            row.termId = getTermDate(row.term).substr(0,7);
-                            row.issue = "";
-                            row.dateArgument = getDates(caseDetail.timeline, "Argued");
-                            /*
-                             * For purposes of our advocate tables, making the distinction between argument
-                             * and reargument dates is neither necessary nor helpful.  In fact, it's the opposite
-                             * of helpful.  Our advocate reports are focussed on number of appearances.
-                             */
-                            let dateReargument = getDates(caseDetail.timeline, "Reargued");
-                            if (dateReargument) {
-                                if (!row.dateArgument) {
-                                    warning("%s (%s) has reargument (%s) without argument\n", row.caseTitle, row.usCite, dateReargument);
-                                } else {
-                                    row.dateArgument += ',' + dateReargument;
-                                }
-                            }
-                            row.daysArgument = row.dateArgument.split(',').length;
-                            row.votesPetitioner = 0;
-                            row.votesRespondent = 0;
-                            row.advocateName = aliases[0];
-                            row.advocateRole = "";
-                            if (row.term) {
-                                if (row.term < 2004) {
-                                    row.pdfSource = "loc";          // ie, Library of Congress
-                                } else if (row.term < 2012) {
-                                    row.pdfSource = "scotusBound";  // ie, supremecourt.gov, in the "Bound Volumes" folder
-                                } else {
-                                    row.pdfSource = "slipopinion/" + (row.term % 100);
-                                }
-                            }
-                            row.urlOyez = caseDetail.href.replace("api.", "www.");
+                        let row = readOyezCaseData(filePath, obj.title, obj.consolidated_docket_number, aliases[0]);
+                        if (row) {
                             if (row.dateArgument) {
                                 rows.push(row);
                             } else {
@@ -2861,7 +2890,12 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let start = argv['start'] || "", stop = argv['stop'] || "";
     let month = argv['month'] && sprintf("-%02d-", +argv['month']) || "";
     let selectedCourt = argv['naturalCourt'] || 0;
-    let volume = argv['volume'] || argv['v'] || "", page = argv['page'] || argv['p'] || "", usCite = sprintf("%s U.S. %s", volume, page);
+    let volume = argv['volume'] || argv['v'] || "", page = argv['page'] || argv['p'] || "";
+    let cite = {};
+    if (parseCite(argv['cite'], cite)) {
+        volume = cite.volume; page = cite.page;
+    }
+    let usCite = sprintf("%s U.S. %s", volume, page);
     let caseTitle = argv['caseTitle'];
     let docket = argv['docket'] || argv['d'];
     if (argv['minVotes']) minVotes = +argv['minVotes'];
@@ -2939,6 +2973,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                                                     if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || !reargued && (datePrint = decision.dateRearg).indexOf(argued) == 0 || reargued && (datePrint = decision.dateRearg).indexOf(reargued) == 0) {
                                                         printf("%s: %s [%s] (%s) {%s}: %d-%d\n", datePrint, decision.caseTitle || decision.caseName, decision.docket, decision.usCite, decision.dateArgument + (decision.dateRearg? '|' + decision.dateRearg : ""), decision.majVotes, decision.minVotes);
                                                         if (argv['detail']) {
+                                                            printf("\tcaseId: %s\n", decision.caseId);
                                                             let dates = decision.dateArgument.split(',');
                                                             dates.forEach((date) => { if (date) printf("\tArgued: %#C\n", date); });
                                                             dates = decision.dateRearg.split(',');
@@ -3071,7 +3106,10 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     }
                     decision.caseNotes += (argv['replace']? "replaced " : "added ") + additions + reason;
                     printf("updated caseNotes: %s\n", decision.caseNotes);
-                    writeFile(results.json.decisions, decisions);
+                    /*
+                     * One of the few times we eliminate the need for --overwrite, since you already have to specify --reason...
+                     */
+                    writeFile(results.json.decisions, decisions, true);
                 }
             }
             done();
@@ -3463,8 +3501,9 @@ function matchTranscripts(done)
     let exceptions = 0;
     printf("reading decisions...\n");
     let decisions = JSON.parse(readFile(results.json.decisions));
-    // sortObjects(decisions, ["dateArgument", "docket"]);
-
+    if (!isSortedObjects(decisions, ["caseId"])) {
+        warning("decisions not sorted properly\n");
+    }
     let transcriptPath = "/_pages/cases/transcripts/scotus.md";
     let transcriptMatches = "", transcriptCorrections = "", transcriptPending = "", transcriptExceptions = "";
 
@@ -3473,7 +3512,7 @@ function matchTranscripts(done)
     transcriptPage += "Any corrections have been noted under [Corrected Transcripts](#corrected-transcripts), and match failures have been logged under [Unmatched Transcripts](#unmatched-transcripts).\n\n";
 
     printf("collecting transcript files...\n");
-    let transcripts = readCSV(results.csv.transcripts);
+    let transcripts = readCSV(results.csv.transcripts, "", "html");
     sortObjects(transcripts, ["dateArgument", "docket"]);
 
     let filePaths = glob.sync(rootDir + sources.scotus.transcripts);
@@ -3481,10 +3520,32 @@ function matchTranscripts(done)
         warning("number of transcript files (%d) does not match number of transcript entries (%d)\n", filePaths.length, transcripts.length);
     }
 
+    let updates = 0;
+    let newTranscripts = [];
+    let newFields = ["usCite","caseId","dateDecision","urlOyez"];
     let uniqueTranscripts = {};
     printf("processing transcripts...\n");
     for (let i = 0; i < transcripts.length; i++) {
         let transcript = transcripts[i];
+        let transcriptNew = {
+            "term": transcript.term,
+            "usCite": transcript.usCite || "",
+            "caseTitle": transcript.caseTitle,
+            "caseId": transcript.caseId || "",
+            "docket": fixDocketNumber(transcript.docket),
+            "dateArgument": transcript.dateArgument,
+            "dateDecision": transcript.dateDecision || "",
+            "url": transcript.url,
+            "file": transcript.file,
+            "urlOyez": transcript.urlOyez || "",
+            "notes": transcript.notes
+        };
+        if (transcriptNew.caseId && transcriptNew.caseId.indexOf('-') < 0) {
+            transcript.caseId = transcriptNew.caseId = "";   // purge any Oyez case IDs that snuck in
+            updates++;
+        }
+        if (transcriptNew.docket != transcript.docket) updates++;
+        newTranscripts.push(transcriptNew);
         let filePath = transcript.file;
         let fileName = path.basename(filePath);
         let match = fileName.match(/^(.*?)_([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])([A-Z]?)\.pdf$/);
@@ -3514,22 +3575,61 @@ function matchTranscripts(done)
         let dateArgument = transcript.dateArgument; // formerly match[2]
         let transcriptDescription = "- [" + transcript.caseTitle.trim() + "](" + encodeURI(transcript.url) + ") - No. " + transcript.docket + ", argued " + sprintf("%#C", transcript.dateArgument);
         if (dateArgument < sources.scdb.dateEnd) {
-            let iDecision = findByDateAndDocket(decisions, dateArgument, docket);
+            let iDecision, decision = null
+            if (!transcript.caseId) {
+                iDecision = findByDateAndDocket(decisions, dateArgument, docket);
+            } else {
+                iDecision = searchSortedObjects(decisions, {caseId: transcript.caseId});
+            }
             if (iDecision < 0) {
                 let datePrevious = sprintf("%#Y-%#02M-%#02D", adjustDays(parseDate(dateArgument), -1));
                 iDecision = findByDateAndDocket(decisions, datePrevious, docket);
                 if (iDecision >= 0) result = "next day";
             }
-            if (iDecision >= 0) {
-                let decision = decisions[iDecision];
+            if (iDecision < 0) {
+                /*
+                 * If the transcript has a "hand-coded" citation, the presumption it was matched manually
+                 * (ie, by someone editing the CSV file), so we supply the transcript record as a fake decision
+                 * record.
+                 */
+                if (transcript.usCite) {
+                    decision = transcript;
+                } else {
+                    /*
+                     * Check Oyez...
+                     */
+                    let files = path.join(path.dirname(sources.oyez.cases), transcript.term, transcript.docket + "_*.json");
+                    let filePaths = glob.sync(rootDir + files);
+                    filePaths.forEach((filePath) => {
+                        let row = readOyezCaseData(filePath);
+                        if (row) {
+                            if (row.dateArgument.indexOf(transcript.dateArgument) >= 0) {
+                                decision = row;
+                                decision.caseId = "";   // don't use Oyez's object ID as a case ID; that would be too confusing
+                            } else {
+                                printf("%s [%s] {%s}: %s\n%s [%s] (%s) {%s}: %s  %s\n%s\n\n", transcript.caseTitle, transcript.docket, transcript.dateArgument, transcript.url, row.caseTitle, row.docket, row.usCite, row.dateArgument, row.dateDecision, row.urlOyez, getLOCURL(row.usCite));
+                            }
+                        }
+                    });
+                }
+            } else {
+                decision = decisions[iDecision];
+            }
+            if (decision) {
                 transcriptDescription += (decision.usCite? ": see [" + decision.usCite + "](" + getLOCURL(decision.usCite) + ")" : "");
                 if (!transcript.notes) {
                     transcriptMatches += transcriptDescription + "\n";
                 } else {
                     transcriptCorrections += transcriptDescription + (transcript.notes? " (" + transcript.notes + ")" : "") + "\n";
                 }
+                newFields.forEach((field) => {
+                    if (decision[field] && transcriptNew[field] != decision[field]) {
+                        transcriptNew[field] = decision[field];
+                        updates++;
+                    }
+                });
             } else {
-                transcriptExceptions += transcriptDescription + ": no SCDB match\n";
+                transcriptExceptions += transcriptDescription + ": no SCDB or OYEZ match\n";
                 exceptions++;
             }
         } else {
@@ -3540,11 +3640,16 @@ function matchTranscripts(done)
     transcriptPage += "## Matched Transcripts\n\nThese transcripts have been successfully matched to an SCDB entry.\n\n" + transcriptMatches + "\n";
     transcriptPage += "## Corrected Transcripts\n\nThese transcripts have been successfully matched to an SCDB entry after making one or more corrections.\n\n" + transcriptCorrections + "\n";
     transcriptPage += "## Pending Transcripts\n\nThe status of these transcripts cannot be determined until the next SCDB update.\n\n" + transcriptPending + "\n";
-    transcriptPage += "## Unmatched Transcripts\n\nThese transcripts have NOT yet been matched to an SCDB entry.\n\n" + transcriptExceptions + "\n";
+    transcriptPage += "## Unmatched Transcripts\n\nThese transcripts have NOT yet been matched to an SCDB entry.\n\n" + transcriptExceptions;
 
     if (exceptions) {
         printf("%d exceptions (see %s for details)\n", exceptions, transcriptPath);
     }
+
+    if (updates) {
+        writeCSV(results.csv.transcripts, newTranscripts);
+    }
+
     writeFile(transcriptPath, transcriptPage);
     done();
 }
@@ -4631,7 +4736,10 @@ function setRebuild(done)
  */
 function usage(done)
 {
-    if (argv['d'] || argv['v'] || argv['p']) {
+    /*
+     * Check for a few options commonly used with the 'find' task, and automatically invoke that task if present.
+     */
+    if (argv['d'] || argv['v'] || argv['p'] || argv['case'] || argv['cite'] || argv['reason']) {
         findDecisions(done);
         return;
     }
@@ -4650,6 +4758,7 @@ gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("courts", buildCourts);
 gulp.task("decisions", buildDecisions);
 gulp.task("justices", buildJustices);
+gulp.task("transcripts", matchTranscripts);
 gulp.task("all", gulp.series(findAllDecisions, findAllJustices));
 gulp.task("allDecisions", findAllDecisions);
 gulp.task("allJustices", findAllJustices);
@@ -4663,7 +4772,6 @@ gulp.task("find", findDecisions);
 gulp.task("fixDecisions", fixDecisions);
 gulp.task("fixDockets", fixDockets);
 gulp.task("fixLOC", fixLOC);
-gulp.task("matchTranscripts", matchTranscripts);
 gulp.task("merge", gulp.series(mergeSCDBDockets));
 gulp.task("rebuild", gulp.series(setRebuild, findAllDecisions, findAllJustices, findLonerDecisions, findLonerJustices, findLonerParties, buildAdvocates));
 gulp.task("report", gulp.series(reportChanges));

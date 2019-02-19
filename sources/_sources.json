@@ -123,9 +123,12 @@
             "https://www.supremecourt.gov/pdfs/transcripts/1970/70-13_10-20-1970_B.pdf"
           ]
         ],
-        "notes": "Use --group=year and/or --limit=n to limit SCOTUS downloads (and sleep briefly between each run), otherwise the supremecourt.gov server may block your IP address for a short period of time.",
-        "mappingCols": "term,caseTitle,docket,dateArgument,url,file,notes\n",
-        "mappingData": "\"$term\",\"$3\",\"$2\",\"$6-$4-$5\",\"$url\",\"$file\",\"\"\n",
+        "notes": [
+          "Use --group=year and/or --limit=n to limit SCOTUS downloads (and sleep briefly between each run), otherwise the supremecourt.gov server may block your IP address for a short period of time.",
+          "We have also added caseId, usCite and dateDecision fields as placeholders, so that when matchTranscript() -- or the user -- matches a transcript to an SCDB entry or a SCOTUS citation, it can be properly recorded."
+        ],
+        "mappingCols": "term,usCite,caseTitle,caseId,docket,dateArgument,dateDecision,url,file,urlOyez,notes\n",
+        "mappingData": "\"$term\",\"\",\"$3\",\"\",\"$2\",\"$6-$4-$5\",\"\",\"$url\",\"$file\",\"\",\"\"\n",
         "mappingFile": "/results/transcripts.csv"
       }
     }
