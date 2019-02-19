@@ -211,10 +211,7 @@ variable entirely, because obviously the precise term of *any* case can be deter
 set of rules to **dateDecision**.
 
 Harold Spaeth's `TERM` variable didn't suffer from this abiguity, because his "ALLCOURT" database didn't deal
-with cases before the Warren Court.  SCDB didn't fully consider the impact of older cases on its new design,
-but it's never too late to fix problems like this.  Instead of making excuses or after-the-fact justifications,
-SCDB's design should simply acknowledge problems, improve and evolve the database, define new variables that
-solve those problems, and deprecate old problematic variables.
+with cases before the Warren Court.
 
 ### 7. Undocumented Values
 
@@ -268,7 +265,21 @@ change logs with every release.  These days, an even better step forward for SCD
 which is to create an open-source repository containing copies of all the data sources being used, along with the
 scripts used to process them.
 
-I think if SCDB really wants to be a Gold Standard, then it should stop being a siloed operation, performing all its
+Issue like those with [Terms](#6-terms) arose simply because SCDB didn't fully consider the impact of
+older cases on a design that it inherited from Harold Spaeth's "ALLCOURT" database.  Other issues, like
+those with [Argument and Reargument Dates](#4-argument-and-reargument-dates), could be considered a failure
+of imagination -- *except* that we discussed dating issues with SCDB principals (Andrew Martin and Troy DeArmitt)
+at least ten years ago, and the only headway we were able to make was a vague commitment to consider
+"database extensions" that would allow groups like Oyez to add more comprehensive oral argument information
+(e.g., dates, names of advocates, etc).  As far as I can tell, that never happened.
+
+In any event, it's never too late to fix problems like that.  Instead of making excuses, justifications,
+or brushing off good suggestions as "too much work", SCDB should start acknowledging problems and create a
+roadmap for improving and evolving the database, defining new variables to address old issues and new features,
+deprecating problematic variables, and above all, adding rigorous data validation rules and cross-checks to
+eliminate mistakes and prevent future errors.
+
+I think if SCDB really wants to be a Gold Standard, it also needs to stop being a siloed operation, performing all its
 updates behind a veil of secrecy, and making the world wait with bated breath for each new release.  As an academic
 endeavour, more knowledge -- not less -- should be one of the goals, as well as encouraging cooperation and participation
 among all interested parties.
