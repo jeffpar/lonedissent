@@ -12,7 +12,7 @@ So, regarding the SCDB: does it really meet the gold standard?  I would certainl
 
 ## Let Me Count The Ways
 
-### 1. The Coding of Docket Numbers
+### 1. Docket Numbers
 
 Here are some examples of SCDB docket numbers for [Original Jurisdiction](https://en.wikipedia.org/wiki/Original_jurisdiction_of_the_Supreme_Court_of_the_United_States) cases:
 
@@ -42,7 +42,7 @@ but sometimes there's a space (eg, "61 M") and sometimes not (eg, "133M").
 
 ### 2. Consolidated Cases
 
-The U.S. Supreme Court often "consolidates" multiple cases from lower cases into a single case.  For
+The U.S. Supreme Court often "consolidates" multiple cases from lower courts into a single case.  For
 example, the docket number of the "lead" case in [McConnell v. Federal Election Commission (540 U.S. 93)](https://cdn.loc.gov/service/ll/usrep/usrep540/usrep540093/usrep540093.pdf) is 02-1674.  However, the complete list of consolidated cases, by docket number, looks like this:
 
     02-1674,02-1675,02-1676,02-1702,02-1727,02-1733,02-1734,02-1740,02-1747,02-1753,02-1755,02-1756
@@ -57,7 +57,7 @@ For example, look at [East Texas Motor Freight System, Inc. v. Rodriguez (431 U.
 
 but even when using SCDB's "Cases Organized by Docket" files, all you'll find is 75-718.
 
-There may be some rationale at work here.  For example, it's possible that the disposition of the "non-lead" cases did not differ in any material way from the "lead" case, so the other cases were deemed superfluous.  But there are almost certainly numerous examples where the exact opposite is true (i.e., all consolidated cases recorded even when they all had the same disposition), so that would be a rationale of convenience rather than of principle.
+There may be some rationale at work here.  For example, it's possible that the disposition of the "non-lead" cases did not differ in any material way from the "lead" case, so the other cases were deemed superfluous.  But there are numerous examples where the exact opposite is true (i.e., all consolidated cases recorded even when they all had the same disposition), so that would be a rationale of convenience rather than of principle.
 
 The SCDB website simply says:
 
@@ -65,7 +65,7 @@ The SCDB website simply says:
 
 And this isn't a trivial problem.  When you look for the transcript in the [East Texas Motor Freight System](https://cdn.loc.gov/service/ll/usrep/usrep431/usrep431395/usrep431395.pdf) on the [Supreme Court's](https://www.supremecourt.gov/oral_arguments/archived_transcripts/1976) website, it's *only* listed as [Teamsters v. Rodriguez, No. 75-651](https://www.supremecourt.gov/pdfs/transcripts/1976/75-651_75-715_75-718_01-10-1977.pdf).  Not as 75-715 or 75-718, but as 75-651 -- a docket number which you will *not* find in the SCDB.
 
-### 3. Dates of Decisions
+### 3. Decision Dates
 
 For a case's [Date of Decision](http://scdb.wustl.edu/documentation.php?var=dateDecision), the SCDB online codebook says:
 
@@ -187,8 +187,8 @@ in SCDB's "Stone 1" natural court.  But it's coded in SCDB as being in the "Ston
 ### 6. Terms
 
 How SCDB defines the [Term](http://scdb.wustl.edu/documentation.php?var=term) in which a case was decided is
-problematic.  The biggest problem is that it uses a simple number (a year), which is insufficient to properly
-identify which *actual* term a case was decided.
+problematic: it uses a simple number (a year), which is insufficient to properly identify the *actual* term
+in which a case was decided.
 
 Specifically, until 1802, there were *two* terms per year.  This is why my project has adopted a string
 format for Supreme Court terms ("YYYY-MM") rather than an ambiguous numeric format (YYYY).
@@ -201,6 +201,18 @@ in December 1844, the Court started churning out new opinions.
 SCDB, on the other hand, ignores the actual dates that the Court operated, and instead pretends that the Court's
 work started every January -- up until 1850, when the Court finally decided to change what it called the terms.
 As a result, SCDB implies there two terms in 1850, when in fact, there were not.
+
+SCDB apologists will argue that, as long as the ambiguity of the **Term** variable is properly documented,
+researchers can work around its limitations by also examining the **dateDecision** variable and checking for
+all the above conditions.  Of course, the logical extension of that argument would be to eliminate the **Term**
+variable entirely, because obviously the precise term of *any* case can be determined by applying a complicated
+set of rules to **dateDecision**.
+
+Harold Spaeth's `TERM` variable didn't suffer from this abiguity, because his "ALLCOURT" database didn't deal
+with cases before the Warren Court.  SCDB didn't fully consider the impact of older cases on its new design,
+but it's never too late to fix problems like this.  Instead of making excuses or after-the-fact justifications,
+SCDB's design should simply acknowledge problems, improve and evolve the database, define new variables that
+solve those problems, and deprecate old problematic variables.
 
 ### 7. Undocumented Values
 
