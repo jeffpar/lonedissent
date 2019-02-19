@@ -12,13 +12,13 @@ Until that work is complete, here's a short list of some of the top performers o
 which we also refer to as the "Taped Era" (i.e., from October Term 1955 onward), because October 1955
 was when Court began recording all oral arguments on reel-to-reel tape.
 
-The only advocates for whom we have verified the totals shown below are [Lawrence G. Wallace](/advocates/top100/lawrence_wallace) and [Edwin S. Kneedler](/advocates/top100/edwin_kneedler).
+NOTE: Any advocates listed below whose totals are reported as "at least" still require further verification.
 
 ## Top Advocates
 
 - [Lawrence G. Wallace](/advocates/top100/lawrence_wallace) (157 arguments)
 - [Edwin S. Kneedler](/advocates/top100/edwin_kneedler) (143 arguments)
-- [Michael R. Dreeben](/advocates/top100/michael_dreeben) (at least 103 arguments)
+- [Michael R. Dreeben](/advocates/top100/michael_dreeben) (106 arguments)
 - [Paul D. Clement](/advocates/top100/paul_clement) (at least 88 arguments)
 - [Carter G. Phillips](/advocates/top100/carter_phillips) (at least 85 arguments)
 - [Lisa S. Blatt](/advocates/top100/lisa_blatt) (at least 56 arguments)

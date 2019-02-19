@@ -2683,8 +2683,52 @@ cases:
       - id: saalito
         name: "Samuel Alito"
         majority: true
-  - id: "2005-078"
+  - id: "2005-070"
     number: 62
+    termId: "2005-10"
+    title: "Davis v. Washington"
+    volume: "547"
+    page: "813"
+    docket: "05-5224,05-5705"
+    citation: "547 U.S. 813"
+    pdfSource: "scotusBound"
+    dateArgument: "Monday, March 20, 2006"
+    dateDecision: "Monday, June 19, 2006"
+    urlOyez: "https://www.oyez.org/cases/2005/05-5224"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: ascalia
+    authorName: "Antonin Scalia"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
+  - id: "2005-078"
+    number: 63
     termId: "2005-10"
     title: "United States v. Gonzalez-Lopez"
     volume: "548"
@@ -2728,7 +2772,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2006-007"
-    number: 63
+    number: 64
     termId: "2006-10"
     title: "United States v. Resendiz-Ponce"
     volume: "549"
@@ -2772,7 +2816,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-052"
-    number: 64
+    number: 65
     termId: "2006-10"
     title: "Claiborne v. United States"
     volume: "551"
@@ -2814,7 +2858,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-067"
-    number: 65
+    number: 66
     termId: "2006-10"
     title: "Rita v. United States"
     volume: "551"
@@ -2858,7 +2902,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-049"
-    number: 66
+    number: 67
     termId: "2006-10"
     title: "Uttecht v. Brown"
     volume: "551"
@@ -2902,7 +2946,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-007"
-    number: 67
+    number: 68
     termId: "2007-10"
     title: "Kimbrough v. United States"
     volume: "552"
@@ -2946,7 +2990,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2007-005"
-    number: 68
+    number: 69
     termId: "2007-10"
     title: "Gall v. United States"
     volume: "552"
@@ -2990,7 +3034,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2007-034"
-    number: 69
+    number: 70
     termId: "2007-10"
     title: "Virginia v. Moore"
     volume: "553"
@@ -3034,7 +3078,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-062"
-    number: 70
+    number: 71
     termId: "2007-10"
     title: "Indiana v. Edwards"
     volume: "554"
@@ -3078,7 +3122,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-009"
-    number: 71
+    number: 72
     termId: "2008-10"
     title: "Herring v. United States"
     volume: "555"
@@ -3122,7 +3166,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-020"
-    number: 72
+    number: 73
     termId: "2008-10"
     title: "Van de Kamp v. Goldstein"
     volume: "555"
@@ -3166,7 +3210,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-043"
-    number: 73
+    number: 74
     termId: "2008-10"
     title: "Corley v. United States"
     volume: "556"
@@ -3210,7 +3254,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2008-072"
-    number: 74
+    number: 75
     termId: "2008-10"
     title: "Yeager v. United States"
     volume: "557"
@@ -3254,7 +3298,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2009-034"
-    number: 75
+    number: 76
     termId: "2009-10"
     title: "Padilla v. Kentucky"
     volume: "559"
@@ -3298,7 +3342,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2009-094"
-    number: 76
+    number: 77
     termId: "2009-10"
     title: "Weyhrauch v. United States"
     volume: "561"
@@ -3340,7 +3384,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2009-086"
-    number: 77
+    number: 78
     termId: "2009-10"
     title: "Black v. United States"
     volume: "561"
@@ -3384,7 +3428,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2009-085"
-    number: 78
+    number: 79
     termId: "2009-10"
     title: "Skilling v. United States"
     volume: "561"
@@ -3428,7 +3472,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2010-065"
-    number: 79
+    number: 80
     termId: "2010-10"
     title: "Bond v. United States"
     volume: "564"
@@ -3472,7 +3516,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2010-066"
-    number: 80
+    number: 81
     termId: "2010-10"
     title: "Davis v. United States"
     volume: "564"
@@ -3516,7 +3560,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-020"
-    number: 81
+    number: 82
     termId: "2011-10"
     title: "United States v. Jones"
     volume: "565"
@@ -3560,7 +3604,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-068"
-    number: 82
+    number: 83
     termId: "2011-10"
     title: "Williams v. Illinois"
     docket: "10-8505"
@@ -3602,7 +3646,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2011-069"
-    number: 83
+    number: 84
     termId: "2011-10"
     title: "Southern Union Co. v. United States"
     docket: "11-94"
@@ -3644,7 +3688,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-071"
-    number: 84
+    number: 85
     termId: "2011-10"
     title: "Dorsey v. United States"
     docket: "11-5683,11-5721"
@@ -3686,7 +3730,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-019"
-    number: 85
+    number: 86
     termId: "2012-10"
     title: "Chaidez v. United States"
     volume: "568"
@@ -3730,7 +3774,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-062"
-    number: 86
+    number: 87
     termId: "2012-10"
     title: "Alleyne v. United States"
     docket: "11-9335"
@@ -3772,7 +3816,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-050"
-    number: 87
+    number: 88
     termId: "2012-10"
     title: "Maryland v. King"
     volume: "569"
@@ -3816,7 +3860,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-071"
-    number: 88
+    number: 89
     termId: "2012-10"
     title: "United States v. Kebodeaux"
     docket: "12-418"
@@ -3858,7 +3902,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-019"
-    number: 89
+    number: 90
     termId: "2013-10"
     title: "Kaley v. United States"
     docket: "12-464"
@@ -3900,7 +3944,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-008"
-    number: 90
+    number: 91
     termId: "2013-10"
     title: "Unite Here Local 355 v. Mulhall"
     docket: "12-99"
@@ -3940,7 +3984,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2013-038"
-    number: 91
+    number: 92
     termId: "2013-10"
     title: "Paroline v. United States"
     docket: "12-8561"
@@ -3981,8 +4025,92 @@ cases:
       - id: ekagan
         name: "Elena Kagan"
         majority: true
+  - id: "2013-065"
+    number: 93
+    termId: "2013-10"
+    title: "Riley v. California"
+    docket: "13-132,13-212"
+    citation: "573 U.S. ___"
+    pdfSource: "slipopinion/13"
+    dateArgument: "Tuesday, April 29, 2014"
+    dateDecision: "Wednesday, June 25, 2014"
+    urlOyez: "https://www.oyez.org/cases/2013/13-132"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: jgroberts
+    authorName: "John Roberts"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: true
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: true
+  - id: "2013-065"
+    number: 94
+    termId: "2013-10"
+    title: "Riley v. California"
+    docket: "13-132,13-212"
+    citation: "573 U.S. ___"
+    pdfSource: "slipopinion/13"
+    dateArgument: "Tuesday, April 29, 2014"
+    dateDecision: "Wednesday, June 25, 2014"
+    urlOyez: "https://www.oyez.org/cases/2013/13-132"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: jgroberts
+    authorName: "John Roberts"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: true
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: true
   - id: "2014-016"
-    number: 92
+    number: 95
     termId: "2014-10"
     title: "Johnson v. United States"
     docket: "13-7120"
@@ -4024,7 +4152,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-024"
-    number: 93
+    number: 96
     termId: "2014-10"
     title: "Elonis v. United States"
     docket: "13-983"
@@ -4066,7 +4194,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-050"
-    number: 94
+    number: 97
     termId: "2014-10"
     title: "Los Angeles v. Patel"
     docket: "13-1175"
@@ -4108,7 +4236,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-006"
-    number: 95
+    number: 98
     termId: "2015-10"
     title: "Montgomery v. Louisiana"
     docket: "14-280"
@@ -4150,7 +4278,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-019"
-    number: 96
+    number: 99
     termId: "2015-10"
     title: "Luis v. United States"
     docket: "14-419"
@@ -4189,7 +4317,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2015-055"
-    number: 97
+    number: 100
     termId: "2015-10"
     title: "Welch v. United States"
     docket: "15-6418"
@@ -4228,7 +4356,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-075"
-    number: 98
+    number: 101
     termId: "2015-10"
     title: "McDonnell v. United States"
     docket: "15-474"
@@ -4267,7 +4395,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-004"
-    number: 99
+    number: 102
     termId: "2016-10"
     title: "Salman v. United States"
     docket: "15-628"
@@ -4306,7 +4434,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-026"
-    number: 100
+    number: 103
     termId: "2016-10"
     title: "Beckles v. United States"
     docket: "15-8544"
@@ -4345,7 +4473,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2016-061"
-    number: 101
+    number: 104
     termId: "2016-10"
     title: "Turner v. United States"
     docket: "15-1503,15-1504"
@@ -4387,7 +4515,7 @@ cases:
         name: "Neil Gorsuch"
         majority: false
   - id: "2017-021"
-    number: 102
+    number: 105
     termId: "2017-10"
     title: "Carpenter v. United States"
     docket: "16-402"
@@ -4429,7 +4557,7 @@ cases:
         name: "Neil Gorsuch"
         majority: false
   - id: "2017-048"
-    number: 103
+    number: 106
     termId: "2017-10"
     title: "United States v. Microsoft Corp."
     docket: "17-2"
@@ -4470,7 +4598,7 @@ cases:
         majority: true
 ---
 
-Michael R. Dreeben argued 103 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/michael_r_dreeben).
+Michael R. Dreeben argued 106 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/michael_r_dreeben).
 
 Similar to the recognition given to [Lawrence Wallace](/advocates/top100/lawrence_wallace) in 2002 and to [Edwin Kneedler](/advocates/top100/edwin_kneedler)
 in 2008, the Court recognized Michael Dreeben's 100th argument on April 27, 2016 in [McDonnell v. United States](https://www.oyez.org/cases/2015/15-474):
@@ -4483,6 +4611,3 @@ in 2008, the Court recognized Michael Dreeben's 100th argument on April 27, 2016
 
 Chief Justice John Roberts' recollection of Mr. Dreeben's first argument is no surprise, since then-attorney John Roberts argued in the same case:
 [United States v. Halper](https://www.oyez.org/cases/1988/87-1383).
-
-Unfortunately, just as we've seen with [Edwin Kneedler](/advocates/top100/edwin_kneedler), current data from the Oyez website (as of February 2019)
-omits at least two cases, since Mr. Dreeben's 100th argument is listed below as [Appearance No. 98](#2015-075).

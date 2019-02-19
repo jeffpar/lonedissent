@@ -1663,9 +1663,9 @@ function buildAdvocates(done)
         let pathAdvocates = "/advocates/top100";
         ids.forEach((id) => {
             let aliases = advocates.ids[id];
-            let verified = false;
-            if (aliases[aliases.length - 1] == "verified") {
-                verified = true;
+            let verified = undefined;
+            if (aliases[aliases.length - 1] == "verified" || aliases[aliases.length - 1] == "unverified") {
+                verified = (aliases[aliases.length - 1] == "verified");
                 aliases.splice(aliases.length - 1, 1);
             }
             let dir = path.join(path.dirname(sources.oyez.advocates), id);
@@ -1688,15 +1688,16 @@ function buildAdvocates(done)
                         let caseDetail = JSON.parse(readFile(filePath) || "{}");
                         if (caseDetail.ID) {
                             let row = {};
+                            let docket_number = obj.consolidated_docket_number || caseDetail.docket_number;
                             row.caseId = caseDetail.ID.toString();
                             row.volume = caseDetail.citation && +caseDetail.citation.volume || 0;
                             row.page = caseDetail.citation && +caseDetail.citation.page || 0;
                             row.year = caseDetail.citation && +caseDetail.citation.year || 0;
-                            row.caseTitle = caseDetail.name;
+                            row.caseTitle = obj.title || caseDetail.name;
                             row.oldCite = getOldCite(row.volume, row.page);
                             row.usCite = getNewCite(row.volume, row.page);
                             row.dateDecision = getDates(caseDetail.timeline, "Decided");
-                            row.docket = caseDetail.docket_number.replace("-orig", " Orig.");       // TODO: How many other "Original" variations?
+                            row.docket = docket_number.replace("-orig", " Orig.");      // TODO: How many other "Original" variations?
                             row.term = caseDetail.term || 0;
                             row.termId = getTermDate(row.term).substr(0,7);
                             row.issue = "";
@@ -1798,7 +1799,9 @@ function buildAdvocates(done)
                 });
                 if (changes) writeCSV(filePath, rowsAdvocate);
                 sortObjects(results, ["dateArgument","docket"]);
-                top100.push({id, nameAdvocate, total: results.length, verified});
+                if (verified !== false) {
+                    top100.push({id, nameAdvocate, total: results.length, verified});
+                }
                 fileText += generateCaseYML(results, vars, courtsSCDB, justices, ["caseNumber","dateArgument","urlOyez"]);
                 fileText += '---\n\n';
                 fileText += nameAdvocate + " argued " + rowsAdvocate.length + " times in the U.S. Supreme Court";
@@ -3540,65 +3543,6 @@ function matchTranscripts(done)
 }
 
 /**
- * fixAdvocates()
- *
- * @param {function()} done
- */
-function fixAdvocates(done)
-{
-    let advocates = JSON.parse(readFile(sources.oyez.advocates) || "{}");
-    if (advocates) {
-        let ids = Object.keys(advocates.ids);
-        ids.forEach((id) => {
-            let filePath = path.join(path.dirname(sources.oyez.advocates), id, id + ".csv");
-            let rows = readCSV(filePath);
-            if (rows) {
-                let linesCSV = [];
-                sortObjects(rows, ["dateArgument","docket"]);
-                rows.forEach((row) => {
-                    linesCSV.push("./" + row.term + "/" + row.docket.replace(" Orig.", "-orig").replace(" Misc.", "-misc") + "_" + row.dateArgument + ".txt");
-                });
-                writeCSV(filePath, rows);
-                writeFile(filePath.replace(".csv", ".log"), linesCSV.join('\n'));
-            }
-            filePath = path.join(path.dirname(sources.oyez.advocates), id, id + ".txt");
-            let text = readFile(filePath, "", true);
-            if (text) {
-                let linesTXT = text.split('\n');
-                for (let i = 0; i < linesTXT.length; i++) {
-                    if (!linesTXT[i]) {
-                        linesTXT.splice(i--, 1);
-                    }
-                }
-                linesTXT.sort(function(l1, l2) {
-                    let date1, docket1, m1 = l1.match(/([^/]*)_([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])/);
-                    let date2, docket2, m2 = l2.match(/([^/]*)_([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])/);
-                    if (!m1) {
-                        if (l1) {
-                            warning("unexpected line: %s\n", l1);
-                        }
-                        date1 = docket1 = l1;
-                    } else {
-                        date1 = m1[2]; docket1 = m1[1];
-                        if (!m2) {
-                            if (l2) {
-                                warning("unexpected line: %s\n", l2);
-                            }
-                            date2 = docket2 = l2;
-                        } else {
-                            date2 = m2[2]; docket2 = m2[1];
-                        }
-                    }
-                    return date1 < date2? -1 : (date1 > date2? 1 : (docket1 < docket2? -1 : (docket1 > docket2? 1 : 0)));
-                });
-                writeFile(filePath, linesTXT.join('\n'));
-            }
-        });
-    }
-    done();
-}
-
-/**
  * fixDecisions()
  *
  * If --citations, then match up every decision record with a citation row.
@@ -4230,7 +4174,7 @@ function testDates(done)
     dates.sort();
     if (!isSortedArray(dates, true)) warning("array IS sorted: %2j\n", dates);
     insertSortedArray(dates, "1971-07-04");
-    if (!isSortedArray(dates, true)) warning("array is failed to REMAIN sorted: %2j\n", dates);
+    if (!isSortedArray(dates, true)) warning("array has failed to REMAIN sorted: %2j\n", dates);
     console.log(dates);
 
     done();
@@ -4687,7 +4631,6 @@ gulp.task("lonerJustices", findLonerJustices);
 gulp.task("lonerParties", findLonerParties);
 gulp.task("backup", backupLonerDecisions);
 gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
-gulp.task("fixAdvocates", fixAdvocates);
 gulp.task("fixDecisions", fixDecisions);
 gulp.task("fixDockets", fixDockets);
 gulp.task("fixLOC", fixLOC);

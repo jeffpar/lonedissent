@@ -3,14 +3,36 @@
   "ids": {
     "lisa_blatt": ["Lisa S. Blatt","lisa_s_blatt"],
     "paul_clement": ["Paul D. Clement","paul_d_clement"],
-    "archibald_cox": ["Archibald Cox","archibald_cox","archibald_cox_jr"],
-    "michael_dreeben": ["Michael R. Dreeben","michael_r_dreeben"],
-    "erwin_griswold": ["Erwin N. Griswold","erwin_n_griswold"],
+    "archibald_cox": ["Archibald Cox","archibald_cox","archibald_cox_jr","unverified"],
+    "michael_dreeben": ["Michael R. Dreeben","michael_r_dreeben","verified"],
+    "erwin_griswold": ["Erwin N. Griswold","erwin_n_griswold","unverified"],
     "edwin_kneedler": ["Edwin S. Kneedler","edwin_s_kneedler","verified"],
     "carter_phillips": ["Carter G. Phillips","carter_g_phillips"],
     "lawrence_wallace": ["Lawrence G. Wallace","lawrence_g_wallace","verified"]
   },
   "missingCases": {
+    "michael_dreeben": [
+      {
+        "ID": "55370",
+        "term": "2005",
+        "docket_number": "05-5224",
+        "href": "https://api.oyez.org/cases/2005/05-5224"
+      },
+      {
+        "ID": "62258",
+        "term": "2013",
+        "docket_number": "13-132",
+        "href": "https://api.oyez.org/cases/2013/13-132"
+      },
+      {
+        "ID": "62258",
+        "term": "2013",
+        "docket_number": "13-132",
+        "consolidated_docket_number": "13-212",
+        "title": "United States v. Wurie",
+        "href": "https://api.oyez.org/cases/2013/13-132"
+      }
+    ],
     "edwin_kneedler": [
       {
         "ID": "62212",
