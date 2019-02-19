@@ -3629,11 +3629,11 @@ function matchTranscripts(done)
                     }
                 });
             } else {
-                transcriptExceptions += transcriptDescription + ": no SCDB or OYEZ match\n";
+                transcriptExceptions += transcriptDescription + " (" + (transcript.notes || "no SCDB or OYEZ match") + ")\n";
                 exceptions++;
             }
         } else {
-            transcriptPending += transcriptDescription + ": pending next SCDB update\n";
+            transcriptPending += transcriptDescription + " (pending next SCDB update)\n";
         }
     }
 

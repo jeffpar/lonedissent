@@ -288,8 +288,8 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Law Students Civil Rights Research Council, Inc. v. Wadmond](https://www.supremecourt.gov/pdfs/transcripts/1970/70-49_10-15-1970.pdf) - No. 49, argued Thursday, October 15, 1970: see [401 U.S. 154](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401154/usrep401154.pdf)
 - [Oregon v. Mitchell](https://www.supremecourt.gov/pdfs/transcripts/1970/43_Orig_44_Orig_10-19-1970.pdf) - No. 43 Orig., argued Monday, October 19, 1970: see [400 U.S. 112](https://cdn.loc.gov/service/ll/usrep/usrep400/usrep400112/usrep400112.pdf)
 - [United States v. Arizona](https://www.supremecourt.gov/pdfs/transcripts/1970/46_Orig_47_Orig_10-19-1970.pdf) - No. 46 Orig., argued Monday, October 19, 1970: see [400 U.S. 112](https://cdn.loc.gov/service/ll/usrep/usrep400/usrep400112/usrep400112.pdf)
-- [United States v. White](https://www.supremecourt.gov/pdfs/transcripts/1970/70-13_10-20-1970_B.pdf) - No. 13, argued Tuesday, October 20, 1970: see [401 U.S. 745](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401745/usrep401745.pdf)
 - [United States v. White](https://www.supremecourt.gov/pdfs/transcripts/1970/70-13_10-20-1970_A.pdf) - No. 13, argued Tuesday, October 20, 1970: see [401 U.S. 745](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401745/usrep401745.pdf)
+- [United States v. White](https://www.supremecourt.gov/pdfs/transcripts/1970/70-13_10-20-1970_B.pdf) - No. 13, argued Tuesday, October 20, 1970: see [401 U.S. 745](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401745/usrep401745.pdf)
 - [Perkins v. Matthews](https://www.supremecourt.gov/pdfs/transcripts/1970/70-46_10-20-1970.pdf) - No. 46, argued Tuesday, October 20, 1970: see [400 U.S. 379](https://cdn.loc.gov/service/ll/usrep/usrep400/usrep400379/usrep400379.pdf)
 - [United States v. United States Coin &amp; Currency](https://www.supremecourt.gov/pdfs/transcripts/1970/70-5_10-20-1970.pdf) - No. 5, argued Tuesday, October 20, 1970: see [401 U.S. 715](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401715/usrep401715.pdf)
 - [Wyman v. James](https://www.supremecourt.gov/pdfs/transcripts/1970/70-69_10-20-1970.pdf) - No. 69, argued Tuesday, October 20, 1970: see [400 U.S. 309](https://cdn.loc.gov/service/ll/usrep/usrep400/usrep400309/usrep400309.pdf)
@@ -5489,96 +5489,96 @@ These transcripts have been successfully matched to an SCDB entry after making o
 
 The status of these transcripts cannot be determined until the next SCDB update.
 
-- [Mount Lemmon Fire Dist. v. John Guido](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-587_i425.pdf) - No. 17-587, argued Monday, October 1, 2018: pending next SCDB update
-- [Weyerhaeuser Co. v. United States Fish and Wildlife Serv.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-71_m6hn.pdf) - No. 17-71, argued Monday, October 1, 2018: pending next SCDB update
-- [Gundy v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-6086_6khn.pdf) - No. 17-6086, argued Tuesday, October 2, 2018: pending next SCDB update
-- [Madison v. Alabama](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-7505_3d46.pdf) - No. 17-7505, argued Tuesday, October 2, 2018: pending next SCDB update
-- [New Prime Inc. v. Oliveira](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-340_1bo2.pdf) - No. 17-340, argued Wednesday, October 3, 2018: pending next SCDB update
-- [Knick v. Township of Scott](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-647_j3kn.pdf) - No. 17-647, argued Wednesday, October 3, 2018: pending next SCDB update
-- [Stokeling v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-5554_7648.pdf) - No. 17-5554, argued Tuesday, October 9, 2018: pending next SCDB update
-- [United States v. Stitt](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-765_10n2.pdf) - No. 17-765, argued Tuesday, October 9, 2018: pending next SCDB update
-- [Nielsen v. Preap](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/16-1363_1bn2.pdf) - No. 16-1363, argued Wednesday, October 10, 2018: pending next SCDB update
-- [Air &amp; Liquid Systems Corp. v. DeVries](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1104_d18f.pdf) - No. 17-1104, argued Wednesday, October 10, 2018: pending next SCDB update
-- [Henry Schein, Inc. v. Archer &amp; White Sales, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1272_6j37.pdf) - No. 17-1272, argued Monday, October 29, 2018: pending next SCDB update
-- [Lamps Plus, Inc. v. Varela](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-988_pm02.pdf) - No. 17-988, argued Monday, October 29, 2018: pending next SCDB update
-- [Washington State Dept. of Licensing v. Cougar Den, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/16-1498_i425.pdf) - No. 16-1498, argued Tuesday, October 30, 2018: pending next SCDB update
-- [Garza v. Idaho](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1026_m648.pdf) - No. 17-1026, argued Tuesday, October 30, 2018: pending next SCDB update
-- [Jam v. International Finance Corp.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1011_l53m.pdf) - No. 17-1011, argued Wednesday, October 31, 2018: pending next SCDB update
-- [Frank v. Gaos](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-961_j42k.pdf) - No. 17-961, argued Wednesday, October 31, 2018: pending next SCDB update
-- [Virginia Uranium, Inc. v. Warren](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/16-1275_2q24.pdf) - No. 16-1275, argued Monday, November 5, 2018: pending next SCDB update
-- [Sturgeon v. Frost](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-949_e29g.pdf) - No. 17-949, argued Monday, November 5, 2018: pending next SCDB update
-- [BNSF R. Co. v. Loos](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1042_c0n2.pdf) - No. 17-1042, argued Tuesday, November 6, 2018: pending next SCDB update
-- [Bucklew v. Precythe](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-8151_i4dj.pdf) - No. 17-8151, argued Tuesday, November 6, 2018: pending next SCDB update
-- [Republic of Sudan v. Harrison](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/16-1094_pok0.pdf) - No. 16-1094, argued Wednesday, November 7, 2018: pending next SCDB update
-- [Culbertson v. Berryhill](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-773_n6p1.pdf) - No. 17-773, argued Wednesday, November 7, 2018: pending next SCDB update
-- [Nieves v. Bartlett](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1174_5hdk.pdf) - No. 17-1174, argued Monday, November 26, 2018: pending next SCDB update
-- [Apple Inc. v. Pepper](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-204_2b82.pdf) - No. 17-204, argued Monday, November 26, 2018: pending next SCDB update
-- [Nutraceutical Corp. v. Lambert](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1094_21o2.pdf) - No. 17-1094, argued Tuesday, November 27, 2018: pending next SCDB update
-- [Carpenter v. Murphy](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1107_q86b.pdf) - No. 17-1107, argued Tuesday, November 27, 2018: pending next SCDB update
-- [Timbs v. Indiana](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1091_4h25.pdf) - No. 17-1091, argued Wednesday, November 28, 2018: pending next SCDB update
-- [Lorenzo v. SEC](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1077_4g15.pdf) - No. 17-1077, argued Monday, December 3, 2018: pending next SCDB update
-- [Dawson v. Steager](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-419_2d8f.pdf) - No. 17-419, argued Monday, December 3, 2018: pending next SCDB update
-- [Biestek v. Berryhill](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1184_5if6.pdf) - No. 17-1184, argued Tuesday, December 4, 2018: pending next SCDB update
-- [Helsinn Healthcare S.A. v. Teva Pharmaceuticals USA, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1229_p702.pdf) - No. 17-1229, argued Tuesday, December 4, 2018: pending next SCDB update
-- [Gamble v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-646_21o2.pdf) - No. 17-646, argued Thursday, December 6, 2018: pending next SCDB update
-- [Obduskey v. McCarthy &amp; Holthus LLP.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1307_31g5.pdf) - No. 17-1307, argued Monday, January 7, 2019: pending next SCDB update
-- [Merck Sharp &amp; Dohme Corp. v. Albrecht](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-290_6537.pdf) - No. 17-290, argued Monday, January 7, 2019: pending next SCDB update
-- [Herrera v. Wyoming](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-532_32q3.pdf) - No. 17-532, argued Tuesday, January 8, 2019: pending next SCDB update
-- [Fourth Estate Pub. Benefit Corp. v. Wall-Street.com, LLC](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-571_m6hn.pdf) - No. 17-571, argued Tuesday, January 8, 2019: pending next SCDB update
-- [Franchise Tax Bd. of Cal. v. Hyatt](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1299_f2bh.pdf) - No. 17-1299, argued Wednesday, January 9, 2019: pending next SCDB update
-- [Thacker v. TVA](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1201_3ebh.pdf) - No. 17-1201, argued Monday, January 14, 2019: pending next SCDB update
-- [Rimini Street, Inc. v. Oracle USA, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1625_2dp3.pdf) - No. 17-1625, argued Monday, January 14, 2019: pending next SCDB update
-- [Home Depot U. S. A., Inc. v. Jackson](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1471_2cp3.pdf) - No. 17-1471, argued Tuesday, January 15, 2019: pending next SCDB update
-- [Azar v. Allina Health Services](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1484_8o6a.pdf) - No. 17-1484, argued Tuesday, January 15, 2019: pending next SCDB update
-- [Knick v. Township of Scott](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-647_8n59.pdf) - No. 17-647, argued Wednesday, January 16, 2019: pending next SCDB update
-- [Tennessee Wine and Spirits Retailers Assn. v. Blair](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/18-96_09m1.pdf) - No. 18-96, argued Wednesday, January 16, 2019: pending next SCDB update
+- [Mount Lemmon Fire Dist. v. John Guido](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-587_i425.pdf) - No. 17-587, argued Monday, October 1, 2018 (pending next SCDB update)
+- [Weyerhaeuser Co. v. United States Fish and Wildlife Serv.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-71_m6hn.pdf) - No. 17-71, argued Monday, October 1, 2018 (pending next SCDB update)
+- [Gundy v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-6086_6khn.pdf) - No. 17-6086, argued Tuesday, October 2, 2018 (pending next SCDB update)
+- [Madison v. Alabama](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-7505_3d46.pdf) - No. 17-7505, argued Tuesday, October 2, 2018 (pending next SCDB update)
+- [New Prime Inc. v. Oliveira](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-340_1bo2.pdf) - No. 17-340, argued Wednesday, October 3, 2018 (pending next SCDB update)
+- [Knick v. Township of Scott](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-647_j3kn.pdf) - No. 17-647, argued Wednesday, October 3, 2018 (pending next SCDB update)
+- [Stokeling v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-5554_7648.pdf) - No. 17-5554, argued Tuesday, October 9, 2018 (pending next SCDB update)
+- [United States v. Stitt](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-765_10n2.pdf) - No. 17-765, argued Tuesday, October 9, 2018 (pending next SCDB update)
+- [Nielsen v. Preap](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/16-1363_1bn2.pdf) - No. 16-1363, argued Wednesday, October 10, 2018 (pending next SCDB update)
+- [Air &amp; Liquid Systems Corp. v. DeVries](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1104_d18f.pdf) - No. 17-1104, argued Wednesday, October 10, 2018 (pending next SCDB update)
+- [Henry Schein, Inc. v. Archer &amp; White Sales, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1272_6j37.pdf) - No. 17-1272, argued Monday, October 29, 2018 (pending next SCDB update)
+- [Lamps Plus, Inc. v. Varela](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-988_pm02.pdf) - No. 17-988, argued Monday, October 29, 2018 (pending next SCDB update)
+- [Washington State Dept. of Licensing v. Cougar Den, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/16-1498_i425.pdf) - No. 16-1498, argued Tuesday, October 30, 2018 (pending next SCDB update)
+- [Garza v. Idaho](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1026_m648.pdf) - No. 17-1026, argued Tuesday, October 30, 2018 (pending next SCDB update)
+- [Jam v. International Finance Corp.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1011_l53m.pdf) - No. 17-1011, argued Wednesday, October 31, 2018 (pending next SCDB update)
+- [Frank v. Gaos](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-961_j42k.pdf) - No. 17-961, argued Wednesday, October 31, 2018 (pending next SCDB update)
+- [Virginia Uranium, Inc. v. Warren](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/16-1275_2q24.pdf) - No. 16-1275, argued Monday, November 5, 2018 (pending next SCDB update)
+- [Sturgeon v. Frost](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-949_e29g.pdf) - No. 17-949, argued Monday, November 5, 2018 (pending next SCDB update)
+- [BNSF R. Co. v. Loos](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1042_c0n2.pdf) - No. 17-1042, argued Tuesday, November 6, 2018 (pending next SCDB update)
+- [Bucklew v. Precythe](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-8151_i4dj.pdf) - No. 17-8151, argued Tuesday, November 6, 2018 (pending next SCDB update)
+- [Republic of Sudan v. Harrison](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/16-1094_pok0.pdf) - No. 16-1094, argued Wednesday, November 7, 2018 (pending next SCDB update)
+- [Culbertson v. Berryhill](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-773_n6p1.pdf) - No. 17-773, argued Wednesday, November 7, 2018 (pending next SCDB update)
+- [Nieves v. Bartlett](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1174_5hdk.pdf) - No. 17-1174, argued Monday, November 26, 2018 (pending next SCDB update)
+- [Apple Inc. v. Pepper](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-204_2b82.pdf) - No. 17-204, argued Monday, November 26, 2018 (pending next SCDB update)
+- [Nutraceutical Corp. v. Lambert](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1094_21o2.pdf) - No. 17-1094, argued Tuesday, November 27, 2018 (pending next SCDB update)
+- [Carpenter v. Murphy](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1107_q86b.pdf) - No. 17-1107, argued Tuesday, November 27, 2018 (pending next SCDB update)
+- [Timbs v. Indiana](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1091_4h25.pdf) - No. 17-1091, argued Wednesday, November 28, 2018 (pending next SCDB update)
+- [Lorenzo v. SEC](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1077_4g15.pdf) - No. 17-1077, argued Monday, December 3, 2018 (pending next SCDB update)
+- [Dawson v. Steager](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-419_2d8f.pdf) - No. 17-419, argued Monday, December 3, 2018 (pending next SCDB update)
+- [Biestek v. Berryhill](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1184_5if6.pdf) - No. 17-1184, argued Tuesday, December 4, 2018 (pending next SCDB update)
+- [Helsinn Healthcare S.A. v. Teva Pharmaceuticals USA, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1229_p702.pdf) - No. 17-1229, argued Tuesday, December 4, 2018 (pending next SCDB update)
+- [Gamble v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-646_21o2.pdf) - No. 17-646, argued Thursday, December 6, 2018 (pending next SCDB update)
+- [Obduskey v. McCarthy &amp; Holthus LLP.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1307_31g5.pdf) - No. 17-1307, argued Monday, January 7, 2019 (pending next SCDB update)
+- [Merck Sharp &amp; Dohme Corp. v. Albrecht](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-290_6537.pdf) - No. 17-290, argued Monday, January 7, 2019 (pending next SCDB update)
+- [Herrera v. Wyoming](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-532_32q3.pdf) - No. 17-532, argued Tuesday, January 8, 2019 (pending next SCDB update)
+- [Fourth Estate Pub. Benefit Corp. v. Wall-Street.com, LLC](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-571_m6hn.pdf) - No. 17-571, argued Tuesday, January 8, 2019 (pending next SCDB update)
+- [Franchise Tax Bd. of Cal. v. Hyatt](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1299_f2bh.pdf) - No. 17-1299, argued Wednesday, January 9, 2019 (pending next SCDB update)
+- [Thacker v. TVA](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1201_3ebh.pdf) - No. 17-1201, argued Monday, January 14, 2019 (pending next SCDB update)
+- [Rimini Street, Inc. v. Oracle USA, Inc.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1625_2dp3.pdf) - No. 17-1625, argued Monday, January 14, 2019 (pending next SCDB update)
+- [Home Depot U. S. A., Inc. v. Jackson](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1471_2cp3.pdf) - No. 17-1471, argued Tuesday, January 15, 2019 (pending next SCDB update)
+- [Azar v. Allina Health Services](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-1484_8o6a.pdf) - No. 17-1484, argued Tuesday, January 15, 2019 (pending next SCDB update)
+- [Knick v. Township of Scott](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-647_8n59.pdf) - No. 17-647, argued Wednesday, January 16, 2019 (pending next SCDB update)
+- [Tennessee Wine and Spirits Retailers Assn. v. Blair](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/18-96_09m1.pdf) - No. 18-96, argued Wednesday, January 16, 2019 (pending next SCDB update)
 
 ## Unmatched Transcripts
 
 These transcripts have NOT yet been matched to an SCDB entry.
 
-- [Gunn v. University Comm. to End War in Viet Nam](https://www.supremecourt.gov/pdfs/transcripts/1968/68-269_01-13-1969.pdf) - No. 269, argued Monday, January 13, 1969: no SCDB match
-- [Gunn v. University Comm. to End War in Viet Nam](https://www.supremecourt.gov/pdfs/transcripts/1968/68-269_01-14-1969.pdf) - No. 269, argued Tuesday, January 14, 1969: no SCDB match
-- [United States v. United States Coin &amp; Currency](https://www.supremecourt.gov/pdfs/transcripts/1968/68-477_02-25-1969.pdf) - No. 477, argued Tuesday, February 25, 1969: no SCDB match
-- [United States v. United States Coin &amp; Currency](https://www.supremecourt.gov/pdfs/transcripts/1968/68-477_02-26-1969.pdf) - No. 477, argued Wednesday, February 26, 1969: no SCDB match
-- [Maxwell v. Bishop](https://www.supremecourt.gov/pdfs/transcripts/1968/68-622_03-04-1969.pdf) - No. 622, argued Tuesday, March 4, 1969: no SCDB match
-- [Boyle v. Landry](https://www.supremecourt.gov/pdfs/transcripts/1968/68-244_03-24-1969.pdf) - No. 244, argued Monday, March 24, 1969: no SCDB match
-- [Nacirema Operating Co. v. Johnson](https://www.supremecourt.gov/pdfs/transcripts/1968/68-528_68-663_03-25-1969.pdf) - No. 528, argued Tuesday, March 25, 1969: no SCDB match
-- [Younger v. Harris](https://www.supremecourt.gov/pdfs/transcripts/1968/68-163_04-01-1969.pdf) - No. 163, argued Tuesday, April 1, 1969: no SCDB match
-- [Samuels v. Mackell](https://www.supremecourt.gov/pdfs/transcripts/1968/68-580_68-813_04-01-1969.pdf) - No. 580, argued Tuesday, April 1, 1969: no SCDB match
-- [Dutton v. Evans](https://www.supremecourt.gov/pdfs/transcripts/1969/69-21_10-15-1969.pdf) - No. 21, argued Wednesday, October 15, 1969: no SCDB match
-- [United States v. White](https://www.supremecourt.gov/pdfs/transcripts/1969/69-46_11-10-1969.pdf) - No. 46, argued Monday, November 10, 1969: no SCDB match
-- [North Carolina v. Alford](https://www.supremecourt.gov/pdfs/transcripts/1969/69-50_11-17-1969.pdf) - No. 50, argued Monday, November 17, 1969: no SCDB match
-- [Boddie v. Connecticut](https://www.supremecourt.gov/pdfs/transcripts/1969/69-265_12-08-1969.pdf) - No. 265, argued Monday, December 8, 1969: no SCDB match
-- [Sanks v. Georgia](https://www.supremecourt.gov/pdfs/transcripts/1969/69-266_12-08-1969.pdf) - No. 266, argued Monday, December 8, 1969: no SCDB match
-- [Baird v. State Bar of Ariz.](https://www.supremecourt.gov/pdfs/transcripts/1969/69-53_12-08-1969.pdf) - No. 53, argued Monday, December 8, 1969: no SCDB match
-- [Baird v. State Bar of Ariz.](https://www.supremecourt.gov/pdfs/transcripts/1969/69-53_12-09-1969.pdf) - No. 53, argued Tuesday, December 9, 1969: no SCDB match
-- [In re Stolar](https://www.supremecourt.gov/pdfs/transcripts/1969/69-75_12-09-1969.pdf) - No. 75, argued Tuesday, December 9, 1969: no SCDB match
-- [United States v. Jorn](https://www.supremecourt.gov/pdfs/transcripts/1969/69-84_01-12-1970.pdf) - No. 84, argued Monday, January 12, 1970: no SCDB match
-- [Rogers v. Bellei](https://www.supremecourt.gov/pdfs/transcripts/1969/69-179_01-15-1970.pdf) - No. 179, argued Thursday, January 15, 1970: no SCDB match
-- [Hill v. California](https://www.supremecourt.gov/pdfs/transcripts/1969/69-730_01-19-1970.pdf) - No. 730, argued Monday, January 19, 1970: no SCDB match
-- [Hickel v. Oil Shale Corp](https://www.supremecourt.gov/pdfs/transcripts/1969/69-221_01-21-1970.pdf) - No. 221, argued Wednesday, January 21, 1970: no SCDB match
-- [Samuels v. Mackell](https://www.supremecourt.gov/pdfs/transcripts/1969/69-11_69-20_04-29-1970.pdf) - No. 11, argued Wednesday, April 29, 1970: no SCDB match
-- [Younger v. Harris](https://www.supremecourt.gov/pdfs/transcripts/1969/69-4_04-29-1970.pdf) - No. 4, argued Wednesday, April 29, 1970: no SCDB match
-- [Boyle v. Landry](https://www.supremecourt.gov/pdfs/transcripts/1969/69-6_04-29-1970.pdf) - No. 6, argued Wednesday, April 29, 1970: no SCDB match
-- [Byrne v. Karalexis](https://www.supremecourt.gov/pdfs/transcripts/1969/69-1149_04-30-1970.pdf) - No. 1149, argued Thursday, April 30, 1970: no SCDB match
-- [Dyson v. Stein](https://www.supremecourt.gov/pdfs/transcripts/1969/69-565_04-30-1970.pdf) - No. 565, argued Thursday, April 30, 1970: no SCDB match
-- [Boyle v. Landry](https://www.supremecourt.gov/pdfs/transcripts/1970/70-4_11-16-1970.pdf) - No. 4, argued Monday, November 16, 1970: no SCDB match
-- [National Association of Securities Dealers v. SEC](https://www.supremecourt.gov/pdfs/transcripts/1970/70-59_12-14-1970.pdf) - No. 59, argued Monday, December 14, 1970: no SCDB match
-- [Johnson v. Louisiana](https://www.supremecourt.gov/pdfs/transcripts/1970/69-5161_03-01-1971.pdf) - No. 5161, argued Monday, March 1, 1971: no SCDB match
-- [United States v. Johnson](https://www.supremecourt.gov/pdfs/transcripts/1970/70-577_04-19-1971.pdf) - No. 577, argued Monday, April 19, 1971: no SCDB match
-- [The Committee for Nuclear Responsibility, Inc. v. Schlesinger](https://www.supremecourt.gov/pdfs/transcripts/1971/A-483_11-06-1971.pdf) - No. A-483, argued Saturday, November 6, 1971: no SCDB match
-- [Patterson v. Warner](https://www.supremecourt.gov/pdfs/transcripts/1973/72-5830_01-09-1974.pdf) - No. 72-5830, argued Wednesday, January 9, 1974: no SCDB match
-- [DeFunis v. Odegaard](https://www.supremecourt.gov/pdfs/transcripts/1973/72-235_02-26-1974.pdf) - No. 72-235, argued Tuesday, February 26, 1974: no SCDB match
-- [Milliken v. Bradley](https://www.supremecourt.gov/pdfs/transcripts/1973/73-434_73-435_73-436_07-25-1974.pdf) - No. 73-434, argued Thursday, July 25, 1974: no SCDB match
-- [Faretta v. Calfornia](https://www.supremecourt.gov/pdfs/transcripts/1974/72-5772_11-19-1974.pdf) - No. 72-5772, argued Tuesday, November 19, 1974: no SCDB match
-- [Jesse Thurman Fowler, Petitioner, v. North Carolina, Respondent](https://www.supremecourt.gov/pdfs/transcripts/1974/73-7031_04-21-1975.pdf) - No. 73-7031, argued Monday, April 21, 1975: no SCDB match
-- [Adarand Constructors, Inc. v. Mineta](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/00-730.pdf) - No. 00-730., argued Wednesday, October 31, 2001: no SCDB match
-- [New Jersey v. Delaware](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2007/06-134orig.pdf) - No. 06-134, argued Tuesday, November 27, 2007: no SCDB match
-- [Carcieri v. Kempthorne](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/07-526.pdf) - No. 07-526., argued Monday, November 3, 2008: no SCDB match
-- [14 Penn Plaza LLC v. Pyett](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/07-581.pdf) - No. 07-581., argued Monday, December 1, 2008: no SCDB match
-- [Department of Health and Human Servs. v. Florida](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-398-Monday.pdf) - No. 11 Misc., argued Monday, March 26, 2012: no SCDB match
-- [Department of Health and Human Servs. v. Florida](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-398-Tuesday.pdf) - No. 11-398-Tuesday, argued Tuesday, March 27, 2012: no SCDB match
-- [Florida v. Department of Health and Human Servs.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-400.pdf) - No. 11-400, argued Wednesday, March 28, 2012: no SCDB match
-- [Obergefell v. Hodges](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/14-556q1_l5gm.pdf) - No. 14 Orig., argued Tuesday, April 28, 2015: no SCDB match
-- [Obergefell v. Hodges](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/14-556q2_8m58.pdf) - No. 14 Orig., argued Tuesday, April 28, 2015: no SCDB match
+- [Gunn v. University Comm. to End War in Viet Nam](https://www.supremecourt.gov/pdfs/transcripts/1968/68-269_01-13-1969.pdf) - No. 269, argued Monday, January 13, 1969 (no SCDB or OYEZ match)
+- [Gunn v. University Comm. to End War in Viet Nam](https://www.supremecourt.gov/pdfs/transcripts/1968/68-269_01-14-1969.pdf) - No. 269, argued Tuesday, January 14, 1969 (no SCDB or OYEZ match)
+- [United States v. United States Coin &amp; Currency](https://www.supremecourt.gov/pdfs/transcripts/1968/68-477_02-25-1969.pdf) - No. 477, argued Tuesday, February 25, 1969 (no SCDB or OYEZ match)
+- [United States v. United States Coin &amp; Currency](https://www.supremecourt.gov/pdfs/transcripts/1968/68-477_02-26-1969.pdf) - No. 477, argued Wednesday, February 26, 1969 (no SCDB or OYEZ match)
+- [Maxwell v. Bishop](https://www.supremecourt.gov/pdfs/transcripts/1968/68-622_03-04-1969.pdf) - No. 622, argued Tuesday, March 4, 1969 (no SCDB or OYEZ match)
+- [Boyle v. Landry](https://www.supremecourt.gov/pdfs/transcripts/1968/68-244_03-24-1969.pdf) - No. 244, argued Monday, March 24, 1969 (no SCDB or OYEZ match)
+- [Nacirema Operating Co. v. Johnson](https://www.supremecourt.gov/pdfs/transcripts/1968/68-528_68-663_03-25-1969.pdf) - No. 528, argued Tuesday, March 25, 1969 (no SCDB or OYEZ match)
+- [Younger v. Harris](https://www.supremecourt.gov/pdfs/transcripts/1968/68-163_04-01-1969.pdf) - No. 163, argued Tuesday, April 1, 1969 (no SCDB or OYEZ match)
+- [Samuels v. Mackell](https://www.supremecourt.gov/pdfs/transcripts/1968/68-580_68-813_04-01-1969.pdf) - No. 580, argued Tuesday, April 1, 1969 (no SCDB or OYEZ match)
+- [Dutton v. Evans](https://www.supremecourt.gov/pdfs/transcripts/1969/69-21_10-15-1969.pdf) - No. 21, argued Wednesday, October 15, 1969 (no SCDB or OYEZ match)
+- [United States v. White](https://www.supremecourt.gov/pdfs/transcripts/1969/69-46_11-10-1969.pdf) - No. 46, argued Monday, November 10, 1969 (no SCDB or OYEZ match)
+- [North Carolina v. Alford](https://www.supremecourt.gov/pdfs/transcripts/1969/69-50_11-17-1969.pdf) - No. 50, argued Monday, November 17, 1969 (no SCDB or OYEZ match)
+- [Boddie v. Connecticut](https://www.supremecourt.gov/pdfs/transcripts/1969/69-265_12-08-1969.pdf) - No. 265, argued Monday, December 8, 1969 (no SCDB or OYEZ match)
+- [Sanks v. Georgia](https://www.supremecourt.gov/pdfs/transcripts/1969/69-266_12-08-1969.pdf) - No. 266, argued Monday, December 8, 1969 (no SCDB or OYEZ match)
+- [Baird v. State Bar of Ariz.](https://www.supremecourt.gov/pdfs/transcripts/1969/69-53_12-08-1969.pdf) - No. 53, argued Monday, December 8, 1969 (no SCDB or OYEZ match)
+- [Baird v. State Bar of Ariz.](https://www.supremecourt.gov/pdfs/transcripts/1969/69-53_12-09-1969.pdf) - No. 53, argued Tuesday, December 9, 1969 (no SCDB or OYEZ match)
+- [In re Stolar](https://www.supremecourt.gov/pdfs/transcripts/1969/69-75_12-09-1969.pdf) - No. 75, argued Tuesday, December 9, 1969 (no SCDB or OYEZ match)
+- [United States v. Jorn](https://www.supremecourt.gov/pdfs/transcripts/1969/69-84_01-12-1970.pdf) - No. 84, argued Monday, January 12, 1970 (no SCDB or OYEZ match)
+- [Rogers v. Bellei](https://www.supremecourt.gov/pdfs/transcripts/1969/69-179_01-15-1970.pdf) - No. 179, argued Thursday, January 15, 1970 (no SCDB or OYEZ match)
+- [Hill v. California](https://www.supremecourt.gov/pdfs/transcripts/1969/69-730_01-19-1970.pdf) - No. 730, argued Monday, January 19, 1970 (no SCDB or OYEZ match)
+- [Hickel v. Oil Shale Corp](https://www.supremecourt.gov/pdfs/transcripts/1969/69-221_01-21-1970.pdf) - No. 221, argued Wednesday, January 21, 1970 (no SCDB or OYEZ match)
+- [Samuels v. Mackell](https://www.supremecourt.gov/pdfs/transcripts/1969/69-11_69-20_04-29-1970.pdf) - No. 11, argued Wednesday, April 29, 1970 (no SCDB or OYEZ match)
+- [Younger v. Harris](https://www.supremecourt.gov/pdfs/transcripts/1969/69-4_04-29-1970.pdf) - No. 4, argued Wednesday, April 29, 1970 (no SCDB or OYEZ match)
+- [Boyle v. Landry](https://www.supremecourt.gov/pdfs/transcripts/1969/69-6_04-29-1970.pdf) - No. 6, argued Wednesday, April 29, 1970 (no SCDB or OYEZ match)
+- [Byrne v. Karalexis](https://www.supremecourt.gov/pdfs/transcripts/1969/69-1149_04-30-1970.pdf) - No. 1149, argued Thursday, April 30, 1970 (no SCDB or OYEZ match)
+- [Dyson v. Stein](https://www.supremecourt.gov/pdfs/transcripts/1969/69-565_04-30-1970.pdf) - No. 565, argued Thursday, April 30, 1970 (no SCDB or OYEZ match)
+- [Boyle v. Landry](https://www.supremecourt.gov/pdfs/transcripts/1970/70-4_11-16-1970.pdf) - No. 4, argued Monday, November 16, 1970 (no SCDB or OYEZ match)
+- [National Association of Securities Dealers v. SEC](https://www.supremecourt.gov/pdfs/transcripts/1970/70-59_12-14-1970.pdf) - No. 59, argued Monday, December 14, 1970 (no SCDB or OYEZ match)
+- [Johnson v. Louisiana](https://www.supremecourt.gov/pdfs/transcripts/1970/69-5161_03-01-1971.pdf) - No. 5161, argued Monday, March 1, 1971 (no SCDB or OYEZ match)
+- [United States v. Johnson](https://www.supremecourt.gov/pdfs/transcripts/1970/70-577_04-19-1971.pdf) - No. 577, argued Monday, April 19, 1971 (no SCDB or OYEZ match)
+- [The Committee for Nuclear Responsibility, Inc. v. Schlesinger](https://www.supremecourt.gov/pdfs/transcripts/1971/A-483_11-06-1971.pdf) - No. A-483, argued Saturday, November 6, 1971 (no SCDB or OYEZ match)
+- [Patterson v. Warner](https://www.supremecourt.gov/pdfs/transcripts/1973/72-5830_01-09-1974.pdf) - No. 72-5830, argued Wednesday, January 9, 1974 (no SCDB or OYEZ match)
+- [DeFunis v. Odegaard](https://www.supremecourt.gov/pdfs/transcripts/1973/72-235_02-26-1974.pdf) - No. 72-235, argued Tuesday, February 26, 1974 (no SCDB or OYEZ match)
+- [Milliken v. Bradley](https://www.supremecourt.gov/pdfs/transcripts/1973/73-434_73-435_73-436_07-25-1974.pdf) - No. 73-434, argued Thursday, July 25, 1974 (This is an opinion announcement, not an oral argument)
+- [Faretta v. Calfornia](https://www.supremecourt.gov/pdfs/transcripts/1974/72-5772_11-19-1974.pdf) - No. 72-5772, argued Tuesday, November 19, 1974 (no SCDB or OYEZ match)
+- [Jesse Thurman Fowler, Petitioner, v. North Carolina, Respondent](https://www.supremecourt.gov/pdfs/transcripts/1974/73-7031_04-21-1975.pdf) - No. 73-7031, argued Monday, April 21, 1975 (no SCDB or OYEZ match)
+- [Adarand Constructors, Inc. v. Mineta](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2001/00-730.pdf) - No. 00-730., argued Wednesday, October 31, 2001 (no SCDB or OYEZ match)
+- [New Jersey v. Delaware](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2007/06-134orig.pdf) - No. 06-134, argued Tuesday, November 27, 2007 (no SCDB or OYEZ match)
+- [Carcieri v. Kempthorne](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/07-526.pdf) - No. 07-526., argued Monday, November 3, 2008 (no SCDB or OYEZ match)
+- [14 Penn Plaza LLC v. Pyett](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2008/07-581.pdf) - No. 07-581., argued Monday, December 1, 2008 (no SCDB or OYEZ match)
+- [Department of Health and Human Servs. v. Florida](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-398-Monday.pdf) - No. 11 Misc., argued Monday, March 26, 2012 (no SCDB or OYEZ match)
+- [Department of Health and Human Servs. v. Florida](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-398-Tuesday.pdf) - No. 11-398-Tuesday, argued Tuesday, March 27, 2012 (no SCDB or OYEZ match)
+- [Florida v. Department of Health and Human Servs.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-400.pdf) - No. 11-400, argued Wednesday, March 28, 2012 (no SCDB or OYEZ match)
+- [Obergefell v. Hodges](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/14-556q2_8m58.pdf) - No. 14 Orig., argued Tuesday, April 28, 2015 (no SCDB or OYEZ match)
+- [Obergefell v. Hodges](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2014/14-556q1_l5gm.pdf) - No. 14 Orig., argued Tuesday, April 28, 2015 (no SCDB or OYEZ match)
