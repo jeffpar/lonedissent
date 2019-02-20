@@ -431,40 +431,43 @@ function removeValues(a, values)
 }
 
 /**
- * binaryInsert(a, v, compare, left, right)
+ * binaryInsert(a, v, compare, fUnique)
  *
- * If element v already exists in array a, the array is unchanged (we don't allow duplicates); otherwise, the
- * element is inserted into the array at the appropriate index.
+ * If element v already exists in array a AND fUnique is true, the array is unchanged (no duplicates);
+ * otherwise, the element is inserted into the array at the appropriate index.
  *
  * @param {Array} a
  * @param {*} v (value to insert)
  * @param {function(*,*} [compare]
- * @param {number} [left]
- * @param {number} [right]
- * @return {Array}
+ * @param {boolean} [fUnique]
+ * @return {number}
  */
-function binaryInsert(a, v, compare, left=0, right=a.length)
+function binaryInsert(a, v, compare, fUnique=false)
 {
-    let index = binarySearch(a, v, compare, left, right);
-    if (index < 0) {
-        a.splice(-(index + 1), 0, v);
+    let i = binarySearch(a, v, compare);
+    if (i < 0) {
+        i = -(i + 1);
+    } else if (fUnique) {
+        i = -1;
     }
-    return a;
+    if (i >= 0) {
+        a.splice(i, 0, v);
+    }
+    return i;
 }
 
 /**
- * binarySearch(a, v, compare, left, right)
+ * binarySearch(a, v, compare)
  *
  * @param {Array} a
  * @param {*} v
  * @param {function(*,*} [compare]
- * @param {number} [left]
- * @param {number} [right]
  * @return {number} the (positive) index of matching entry, or the (negative) index + 1 of the insertion point
  */
-function binarySearch(a, v, compare, left=0, right=a.length)
+function binarySearch(a, v, compare)
 {
     let found = 0;
+    let left = 0, right = a.length;
     if (compare === undefined) {
         compare = function(a, b) {
             return a > b ? 1 : a < b ? -1 : 0;
@@ -505,7 +508,7 @@ function cloneObject(obj)
  *
  * @param {Array} a
  * @param {*} v
- * @return {Array}
+ * @return {number}
  */
 function insertSortedArray(a, v)
 {
@@ -518,7 +521,7 @@ function insertSortedArray(a, v)
  * @param {Array.<object>} rows
  * @param {object} row
  * @param {Array.<string>} keys
- * @return {Array.<object>}
+ * @return {number}
  */
 function insertSortedObject(rows, row, keys)
 {
@@ -652,7 +655,7 @@ function searchSortedObjects(rows, row, rowScore=null, fDisplay=false)
         i--;
     }
     if (rowScore && i >= 0) {
-        let iBest = i, scoreBest = -1;
+        let iBest = i, scoreBest = 0;
         let keys = Object.keys(rowScore);
         if (!keys.length) {
             if (i < rows.length - 1 && !compare(rows[i], rows[i+1])) {
@@ -663,7 +666,7 @@ function searchSortedObjects(rows, row, rowScore=null, fDisplay=false)
         let keyScore = keys[0];
         if (fDisplay && keyScore) printf("\tmatched row %d: %s == %s (looking for %s)\n", iBest, keyScore, rows[iBest][keyScore], rowScore[keyScore]);
         while (i < rows.length) {
-            if (compare(rows[iBest], rows[i])) break;
+            if (compare(rows[i], rows[iBest])) break;
             let score = scoreStrings(rows[i][keyScore], rowScore[keyScore]);
             if (fDisplay) printf("\tcomparing row %d: %s = %s (%d)\n", i, keyScore, rows[i][keyScore], score);
             if (scoreBest < score) {
@@ -672,8 +675,8 @@ function searchSortedObjects(rows, row, rowScore=null, fDisplay=false)
             }
             i++;
         }
-        if (fDisplay && keyScore) printf("\treturned row %d: %s == %s (%d)\n", iBest, keyScore, rows[iBest][keyScore], scoreBest);
-        i = iBest;
+        i = scoreBest? iBest : -1;
+        if (fDisplay && keyScore) printf("\treturned row %d: %s == %s (%d)\n", i, keyScore, rows[iBest][keyScore], scoreBest);
     }
     return i;
 }
@@ -1313,7 +1316,7 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
         row.volume = caseDetail.citation && +caseDetail.citation.volume || 0;
         row.page = caseDetail.citation && +caseDetail.citation.page || 0;
         row.year = caseDetail.citation && +caseDetail.citation.year || 0;
-        row.caseTitle = (caseTitle || caseDetail.name).replace(/\s+/g, ' ').trim();
+        row.caseTitle = encodeString(caseTitle || caseDetail.name, "html");
         row.oldCite = getOldCite(row.volume, row.page);
         row.usCite = getNewCite(row.volume, row.page);
         row.dateDecision = getOyezDates(caseDetail.timeline, "Decided");
@@ -3044,7 +3047,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     let argDate = fixDate(arg);
                     if (argDate) {
                         if (datesArgument.indexOf(argDate) < 0) {
-                            decision.dateArgument = insertSortedArray(datesArgument, argDate).join(',');
+                            insertSortedArray(datesArgument, argDate);
+                            decision.dateArgument = datesArgument.join(',');
                             corrections++;
                             if (argumentDates) argumentDates += ',';
                             argumentDates += argDate;
@@ -3060,7 +3064,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     let argDate = fixDate(arg);
                     if (argDate) {
                         if (datesRearg.indexOf(argDate) < 0) {
-                            decision.dateRearg = insertSortedArray(datesRearg, argDate).join(',');
+                            insertSortedArray(datesRearg, argDate);
+                            decision.dateRearg = datesRearg.join(',');
                             corrections++;
                             if (reargumentDates) reargumentDates += ',';
                             reargumentDates += argDate;
@@ -3511,7 +3516,7 @@ function matchTranscripts(done)
     transcriptPage += "These transcripts were downloaded from the U.S. Supreme Court website and logged in this [spreadsheet](/results/transcripts.csv).\n\n";
     transcriptPage += "Any corrections have been noted under [Corrected Transcripts](#corrected-transcripts), and match failures have been logged under [Unmatched Transcripts](#unmatched-transcripts).\n\n";
 
-    printf("collecting transcript files...\n");
+    printf("reading transcripts...\n");
     let transcripts = readCSV(results.csv.transcripts, "", "html");
     sortObjects(transcripts, ["dateArgument", "docket"]);
 
@@ -3519,6 +3524,23 @@ function matchTranscripts(done)
     if (filePaths.length != transcripts.length) {
         warning("number of transcript files (%d) does not match number of transcript entries (%d)\n", filePaths.length, transcripts.length);
     }
+
+    let rowsOyez = [], rowsOyezByYear = [];
+    printf("reading Oyez case files...\n");
+    filePaths = glob.sync(rootDir + path.join(path.dirname(sources.oyez.cases), "**/*.json"));
+    filePaths.forEach((filePath) => {
+        let row = readOyezCaseData(filePath);
+        if (row) {
+            let dates = row.dateArgument.split(',');
+            dates.forEach((date) => {
+                let rowNew = cloneObject(row);
+                rowNew.dateArgument = date;
+                insertSortedObject(rowsOyez, rowNew, ["dateArgument","docket"]);
+                rowNew.year = date.substr(0, 4);
+                insertSortedObject(rowsOyezByYear, rowNew, ["year","dateArgument"]);
+            });
+        }
+    });
 
     let updates = 0;
     let newTranscripts = [];
@@ -3570,7 +3592,6 @@ function matchTranscripts(done)
          * that's where any corrections get recorded, along with any notes explaining WHY we made the
          * correction.
          */
-        let result = "";
         let docket = transcript.docket;             // formerly match[1]
         let dateArgument = transcript.dateArgument; // formerly match[2]
         let transcriptDescription = "- [" + transcript.caseTitle.trim() + "](" + encodeURI(transcript.url) + ") - No. " + transcript.docket + ", argued " + sprintf("%#C", transcript.dateArgument);
@@ -3584,7 +3605,6 @@ function matchTranscripts(done)
             if (iDecision < 0) {
                 let datePrevious = sprintf("%#Y-%#02M-%#02D", adjustDays(parseDate(dateArgument), -1));
                 iDecision = findByDateAndDocket(decisions, datePrevious, docket);
-                if (iDecision >= 0) result = "next day";
             }
             if (iDecision < 0) {
                 /*
@@ -3596,21 +3616,20 @@ function matchTranscripts(done)
                     decision = transcript;
                 } else {
                     /*
-                     * Check Oyez...
+                     * Check Oyez records....
                      */
-                    let files = path.join(path.dirname(sources.oyez.cases), transcript.term, transcript.docket + "_*.json");
-                    let filePaths = glob.sync(rootDir + files);
-                    filePaths.forEach((filePath) => {
-                        let row = readOyezCaseData(filePath);
-                        if (row) {
-                            if (row.dateArgument.indexOf(transcript.dateArgument) >= 0) {
-                                decision = row;
-                                decision.caseId = "";   // don't use Oyez's object ID as a case ID; that would be too confusing
-                            } else {
-                                printf("%s [%s] {%s}: %s\n%s [%s] (%s) {%s}: %s  %s\n%s\n\n", transcript.caseTitle, transcript.docket, transcript.dateArgument, transcript.url, row.caseTitle, row.docket, row.usCite, row.dateArgument, row.dateDecision, row.urlOyez, getLOCURL(row.usCite));
-                            }
+                    let i = searchSortedObjects(rowsOyez, {dateArgument: transcript.dateArgument, docket: transcript.docket});
+                    if (i >= 0) {
+                        decision = rowsOyez[i];
+                        decision.caseId = "";   // don't use Oyez's object ID as a case ID; that would be too confusing
+                    } else {
+                        let year = transcript.dateArgument.substr(0, 4);
+                        i = searchSortedObjects(rowsOyezByYear, {year}, {caseTitle: transcript.caseTitle});
+                        if (i >= 0) {
+                            let row = rowsOyezByYear[i];
+                            printf("%s [%s] {%s}: %s\n%s [%s] (%s) {%s}: %s  %s\n%s\n\n", transcript.caseTitle, transcript.docket, transcript.dateArgument, transcript.url, row.caseTitle, row.docket, row.usCite, row.dateArgument, row.dateDecision, row.urlOyez, getLOCURL(row.usCite));
                         }
-                    });
+                    }
                 }
             } else {
                 decision = decisions[iDecision];
