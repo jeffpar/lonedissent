@@ -3568,7 +3568,6 @@ function matchTranscripts(done)
     printf("processing transcripts...\n");
     for (let i = 0; i < transcripts.length; i++) {
         let transcript = transcripts[i];
-        if (transcript.notes) continue;
         let transcriptNew = {
             "term": transcript.term,
             "usCite": transcript.usCite || "",
