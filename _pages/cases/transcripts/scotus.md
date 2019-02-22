@@ -4,9 +4,10 @@ permalink: /cases/transcripts/scotus
 layout: page
 ---
 
-These transcripts were downloaded from the U.S. Supreme Court website and logged in this [spreadsheet](/results/transcripts.csv).
+These transcripts were downloaded from the U.S. Supreme Court website and logged in our [spreadsheet](/results/transcripts.csv).
 
 Any corrections have been noted under [Corrected Transcripts](#corrected-transcripts), and match failures have been logged under [Unmatched Transcripts](#unmatched-transcripts).
+In addition, transcripts that don't have exact matches in OYEZ have been noted under [Non-Oyez Transcripts](#non-oyez-transcripts).
 
 ## Matched Transcripts
 
@@ -5576,7 +5577,7 @@ The status of these transcripts cannot be determined until the next SCDB update.
 - [Knick v. Township of Scott](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/17-647_8n59.pdf) - No. 17-647, argued Wednesday, January 16, 2019 (pending next SCDB update)
 - [Tennessee Wine and Spirits Retailers Assn. v. Blair](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2018/18-96_09m1.pdf) - No. 18-96, argued Wednesday, January 16, 2019 (pending next SCDB update)
 
-## Unrecognized Transcripts
+## Non-OYEZ Transcripts
 
 These transcripts were not found in a corresponding OYEZ case record.
 

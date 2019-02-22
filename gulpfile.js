@@ -3532,8 +3532,9 @@ function matchTranscripts(done)
     let databaseUpdates = "";
 
     let transcriptPage = '---\ntitle: "Transcripts from the U.S. Supreme Court"\npermalink: /cases/transcripts/scotus\nlayout: page\n---\n\n';
-    transcriptPage += "These transcripts were downloaded from the U.S. Supreme Court website and logged in this [spreadsheet](/results/transcripts.csv).\n\n";
-    transcriptPage += "Any corrections have been noted under [Corrected Transcripts](#corrected-transcripts), and match failures have been logged under [Unmatched Transcripts](#unmatched-transcripts).\n\n";
+    transcriptPage += "These transcripts were downloaded from the U.S. Supreme Court website and logged in our [spreadsheet](/results/transcripts.csv).\n\n";
+    transcriptPage += "Any corrections have been noted under [Corrected Transcripts](#corrected-transcripts), and match failures have been logged under [Unmatched Transcripts](#unmatched-transcripts).\n";
+    transcriptPage += "In addition, transcripts that don't have exact matches in OYEZ have been noted under [Non-Oyez Transcripts](#non-oyez-transcripts).\n\n";
 
     printf("reading transcripts...\n");
     let transcripts = readCSV(results.csv.transcripts, "", "html");
@@ -3545,7 +3546,7 @@ function matchTranscripts(done)
     }
 
     let rowsOyez = [], rowsOyezByYear = [];
-    printf("reading Oyez case files...\n");
+    printf("reading OYEZ case files...\n");
     filePaths = glob.sync(rootDir + path.join(path.dirname(sources.oyez.cases), "**/*.json"));
     filePaths.forEach((filePath) => {
         let row = readOyezCaseData(filePath);
@@ -3586,7 +3587,7 @@ function matchTranscripts(done)
             "notes": transcript.notes
         };
         if (transcriptNew.caseId && transcriptNew.caseId.indexOf('-') < 0) {
-            transcript.caseId = transcriptNew.caseId = "";   // purge any Oyez case IDs that snuck in
+            transcript.caseId = transcriptNew.caseId = "";   // purge any OYEZ case IDs that snuck in
             updates++;
         }
         if (transcriptNew.docket != transcript.docket) updates++;
@@ -3640,19 +3641,19 @@ function matchTranscripts(done)
                     decision = transcript;
                 } else {
                     /*
-                     * Check Oyez records.
+                     * Check OYEZ records.
                      */
                     if (iOyez >= 0) {
                         /*
-                         * We found an exact Oyez date+docket match, so we're going to go with that automatically.
+                         * We found an exact OYEZ date+docket match, so we're going to go with that automatically.
                          */
                         decision = rowsOyez[iOyez];
-                        decision.caseId = "";   // don't use Oyez's object ID as a case ID; that would be too confusing
+                        decision.caseId = "";   // don't use OYEZ's object ID as a case ID; that would be too confusing
                     } else {
                         let i = searchSortedObjects(rowsOyez, {dateArgument: transcript.dateArgument}, {caseTitle: transcript.caseTitle});
                         if (i >= 0) {
                             /*
-                             * We found an exact Oyez date/close title match, so ask the user if they want to add Oyez's docket
+                             * We found an exact OYEZ date/close title match, so ask the user if they want to add OYEZ's docket
                              * number to the case.
                              */
                             let row = rowsOyez[i];
@@ -3669,12 +3670,12 @@ function matchTranscripts(done)
                             i = searchSortedObjects(rowsOyezByYear, {year}, {caseTitle: transcript.caseTitle});
                             if (i >= 0) {
                                 /*
-                                 * We found a close date/close title match, so ask the user if they want to add Oyez's argument
+                                 * We found a close date/close title match, so ask the user if they want to add OYEZ's argument
                                  * date AND docket number to the case.
                                  */
                                 let row = rowsOyezByYear[i];
                                 printf("%s [%s] {%s}: %s\n%s [%s] (%s) {%s}: %s  %s\n%s\n\n", transcript.caseTitle, transcript.docket, transcript.dateArgument, transcript.url, row.caseTitle, row.docket, row.usCite, row.dateArgument, row.dateDecision, row.urlOyez, getLOCURL(row.usCite));
-                                // if (readLineSync.keyInYN(sprintf("add docket number %s AND argument date %s from Oyez to %s", row.docket, row.dateArgument, row.usCite))) {
+                                // if (readLineSync.keyInYN(sprintf("add docket number %s AND argument date %s from OYEZ to %s", row.docket, row.dateArgument, row.usCite))) {
                                 //     if (parseCite(row.usCite)) {
                                 //         databaseUpdates += sprintf('gulp --cite="%s" --addDocket="%s" --addArgued="%s" --reason="correction from %s"\n', row.usCite, transcript.docket, transcript.dateArgument, transcript.url);
                                 //     } else {
@@ -3725,7 +3726,7 @@ function matchTranscripts(done)
     transcriptPage += "## Matched Transcripts\n\nThese transcripts have been successfully matched to an SCDB entry.\n\n" + transcriptMatches + "\n";
     transcriptPage += "## Corrected Transcripts\n\nThese transcripts have been successfully matched to an SCDB entry after making one or more corrections.\n\n" + transcriptCorrections + "\n";
     if (transcriptPending) transcriptPage += "## Pending Transcripts\n\nThe status of these transcripts cannot be determined until the next SCDB update.\n\n" + transcriptPending + "\n";
-    if (transcriptNoOyez) transcriptPage += "## Unrecognized Transcripts\n\nThese transcripts were not found in a corresponding OYEZ case record.\n\n" + transcriptNoOyez + "\n";
+    if (transcriptNoOyez) transcriptPage += "## Non-OYEZ Transcripts\n\nThese transcripts were not found in a corresponding OYEZ case record.\n\n" + transcriptNoOyez + "\n";
     transcriptPage += "## Unmatched Transcripts\n\nThese transcripts have NOT yet been matched to an SCDB entry.\n\n" + transcriptExceptions;
 
     if (exceptions) {
