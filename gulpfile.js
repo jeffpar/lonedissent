@@ -1325,11 +1325,11 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
         row.oldCite = getOldCite(row.volume, row.page);
         row.usCite = getNewCite(row.volume, row.page);
         row.dateDecision = getOyezDates(caseDetail.timeline, "Decided");
-        row.docket = docket_number.replace(" ORIG", " Orig.").replace("-orig", " Orig.").replace("orig", " Orig.").replace(" MISC", " Misc.").trim();
+        row.docket = docket_number.replace(" ORIG", " Orig.").replace("-orig", " Orig.").replace("orig", " Orig.").replace(".-1", ".").replace(".-2", ".").replace(" MISC", " Misc.").trim();
         if (caseDetail.additional_docket_numbers) {
             caseDetail.additional_docket_numbers.forEach((docket) => {
                 if (docket) {
-                    docket = docket.replace(" ORIG", " Orig.").replace("-orig", " Orig.").replace("orig", " Orig.").replace(" MISC", " Misc.").trim();
+                    docket = docket.replace(" ORIG", " Orig.").replace("-orig", " Orig.").replace("orig", " Orig.").replace(".-1", ".").replace(".-2", ".").replace(" MISC", " Misc.").trim();
                     if (row.docket) row.docket += ',';
                     row.docket += docket;
                 }
@@ -3050,8 +3050,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     docket = fixDocketNumber(docket);
                     if (docket) {
                         if (dockets.indexOf(docket) < 0) {
-                            if (decision.docket) decision.docket += ',';
-                            decision.docket += docket;
+                            insertSortedArray(dockets, docket);
+                            decision.docket = dockets.join(',');
                             corrections++;
                             if (docketNumbers) docketNumbers += ',';
                             docketNumbers += docket;
@@ -3534,7 +3534,7 @@ function matchTranscripts(done)
     let transcriptPage = '---\ntitle: "Transcripts from the U.S. Supreme Court"\npermalink: /cases/transcripts/scotus\nlayout: page\n---\n\n';
     transcriptPage += "These transcripts were downloaded from the U.S. Supreme Court website and logged in our [spreadsheet](/results/transcripts.csv).\n\n";
     transcriptPage += "Any corrections have been noted under [Corrected Transcripts](#corrected-transcripts), and match failures have been logged under [Unmatched Transcripts](#unmatched-transcripts).\n";
-    transcriptPage += "In addition, transcripts that don't have exact matches in OYEZ have been noted under [Non-Oyez Transcripts](#non-oyez-transcripts).\n\n";
+    transcriptPage += "In addition, transcripts that don't have exact matches in OYEZ have been noted under [Missing OYEZ Transcripts](#missing-oyez-transcripts).\n\n";
 
     printf("reading transcripts...\n");
     let transcripts = readCSV(results.csv.transcripts, "", "html");
@@ -3630,7 +3630,15 @@ function matchTranscripts(done)
                 let datePrevious = sprintf("%#Y-%#02M-%#02D", adjustDays(parseDate(dateArgument), -1));
                 iDecision = findByDateAndDocket(decisions, datePrevious, docket);
             }
-            let iOyez = searchSortedObjects(rowsOyez, {dateArgument: transcript.dateArgument, docket: transcript.docket});
+            let dockets = [transcript.docket];
+            if (iDecision >= 0) {
+                dockets = dockets.concat(decisions[iDecision].docket.split(','));
+            }
+            let iOyez = -1;
+            for (let i = 0; i < dockets.length; i++) {
+                iOyez = searchSortedObjects(rowsOyez, {dateArgument: transcript.dateArgument, docket: dockets[i]});
+                if (iOyez >= 0) break;
+            }
             if (iDecision < 0) {
                 /*
                  * If the transcript has a "hand-coded" citation, the presumption it was matched manually
@@ -3726,7 +3734,7 @@ function matchTranscripts(done)
     transcriptPage += "## Matched Transcripts\n\nThese transcripts have been successfully matched to an SCDB entry.\n\n" + transcriptMatches + "\n";
     transcriptPage += "## Corrected Transcripts\n\nThese transcripts have been successfully matched to an SCDB entry after making one or more corrections.\n\n" + transcriptCorrections + "\n";
     if (transcriptPending) transcriptPage += "## Pending Transcripts\n\nThe status of these transcripts cannot be determined until the next SCDB update.\n\n" + transcriptPending + "\n";
-    if (transcriptNoOyez) transcriptPage += "## Non-OYEZ Transcripts\n\nThese transcripts were not found in a corresponding OYEZ case record.\n\n" + transcriptNoOyez + "\n";
+    if (transcriptNoOyez) transcriptPage += "## Missing OYEZ Transcripts\n\nThese transcripts were not found in a corresponding OYEZ case record.\n\n" + transcriptNoOyez + "\n";
     transcriptPage += "## Unmatched Transcripts\n\nThese transcripts have NOT yet been matched to an SCDB entry.\n\n" + transcriptExceptions;
 
     if (exceptions) {
