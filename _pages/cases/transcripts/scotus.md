@@ -5581,10 +5581,6 @@ The status of these transcripts cannot be determined until the next SCDB update.
 
 These transcripts were not found in a corresponding OYEZ case record.
 
-- [Hickel v. Oil Shale Corp](https://www.supremecourt.gov/pdfs/transcripts/1969/69-221_01-21-1970.pdf) - No. 25, argued Wednesday, January 21, 1970: see [400 U.S. 48](https://cdn.loc.gov/service/ll/usrep/usrep400/usrep400048/usrep400048.pdf) (no OYEZ match)
-  - Check United States v. Sisson [No. 305], also argued on [Wednesday, January 21, 1970](https://www.oyez.org/cases/1969/305)
-  - Check United States v. Key [No. 402], also argued on [Wednesday, January 21, 1970](https://www.oyez.org/cases/1969/402)
-  - Check Dickey v. Florida [No. 728], also argued on [Wednesday, January 21, 1970](https://www.oyez.org/cases/1969/728)
 - [The Committee for Nuclear Responsibility, Inc. v. Schlesinger](https://www.supremecourt.gov/pdfs/transcripts/1971/A-483_11-06-1971.pdf) - No. A-483, argued Saturday, November 6, 1971 (no OYEZ match)
 - [Milliken v. Bradley](https://www.supremecourt.gov/pdfs/transcripts/1973/73-434_73-435_73-436_07-25-1974.pdf) - No. 73-434, argued Thursday, July 25, 1974 (no OYEZ match)
 - [Ivan Allen Co. v. United States](https://www.supremecourt.gov/pdfs/transcripts/1974/74-22_04-14-1975.pdf) - No. 74-22, argued Monday, April 14, 1975: see [422 U.S. 617](https://cdn.loc.gov/service/ll/usrep/usrep422/usrep422617/usrep422617.pdf) (no OYEZ match)

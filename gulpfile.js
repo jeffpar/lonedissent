@@ -102,6 +102,7 @@ var readLineSync = require('readline-sync');
 let rootDir = ".";
 let datelib = require(rootDir + "/lib/datelib");
 let parseDate = datelib.parseDate;
+let isValidDate = datelib.isValidDate;
 let adjustDays = datelib.adjustDays;
 let proclib = require(rootDir + "/lib/proclib");
 let stdio = require(rootDir + "/lib/stdio");
@@ -1338,6 +1339,7 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
         row.term = caseDetail.term || 0;
         row.termId = getTermDate(row.term).substr(0,7);
         row.issue = "";
+        row.urlOyez = caseDetail.href.replace("api.", "www.");
         row.dateArgument = getOyezDates(caseDetail.timeline, "Argued");
         /*
          * For purposes of our advocate tables, making the distinction between argument
@@ -1352,7 +1354,53 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
                 row.dateArgument += ',' + dateReargument;
             }
         }
-        row.daysArgument = row.dateArgument.split(',').length;
+        /*
+         * There are inconsistencies in OYEZ's data with regard to argument dates and audio dates.
+         * Let's try to catch those.
+         */
+        let dateAudio = "";
+        if (caseDetail.oral_argument_audio) {
+            caseDetail.oral_argument_audio.forEach((audio) => {
+                let date;
+                if (!audio.title ||
+                    audio.title.indexOf("unavailable") >= 0 ||
+                    audio.title.indexOf("No oral argument") >= 0 ||
+                    audio.title == "Oral argument") {
+                    return;
+                }
+                let match = audio.title.match(/([A-Z]+)\s+([0-9]+),\s+([0-9][0-9][0-9][0-9])/i);
+                if (match) {
+                    date = parseDate(match[0]);
+                    if (!isValidDate(date)) date = null;
+                }
+                if (match) {
+                    let sDate = sprintf("%#Y-%#02M-%#02D", date);
+                    if (row.dateArgument.indexOf(sDate) < 0) {
+                        warning("%s (%s) has an EXTRA audio date (%s)\n%s\n\n", row.caseTitle, row.usCite, sDate, row.urlOyez);
+                        if (row.dateArgument) row.dateArgument += ',';
+                        row.dateArgument += sDate;
+                    }
+                    if (dateAudio) dateAudio += ',';
+                    dateAudio += sDate;
+                } else {
+                    warning("%s (%s) has an invalid audio date (%s)\n%s\n\n", row.caseTitle, row.usCite, audio.title, row.urlOyez);
+                }
+            });
+        }
+        let days = row.dateArgument.split(',');
+        row.daysArgument = days.length;
+        for (let i = 0; i < days.length; i++) {
+            if (dateAudio.indexOf(days[i]) < 0) {
+                printf("%s (%s) missing argument audio for %s\n%s\n\n", row.caseTitle, row.usCite, days[i], row.urlOyez);
+            }
+            // if (!i) continue;
+            // let date1 = adjustDays(parseDate(days[i-1]), 1);
+            // let date2 = parseDate(days[i]);
+            // if (date1.toString() != date2.toString()) {
+            //     printf("%s (%s) argued for %d days non-consecutively (%s)\n%s\n\n", row.caseTitle, row.usCite, row.daysArgument, row.dateArgument, row.urlOyez);
+            //     break;
+            // }
+        }
         row.votesPetitioner = 0;
         row.votesRespondent = 0;
         if (advocateName) {
@@ -1368,7 +1416,6 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
                 row.pdfSource = "slipopinion/" + (row.term % 100);
             }
         }
-        row.urlOyez = caseDetail.href.replace("api.", "www.");
     }
     return row;
 }
@@ -1564,7 +1611,7 @@ function readSCDBCourts(fDisplay)
         court.start = sprintf("%#Y-%#02M-%#02D", start);
         court.startFormatted = sprintf("%#C", start);
         court.stop = sprintf("%#Y-%#02M-%#02D", stop);
-        court.stopFormatted = isNaN(stop.getTime())? "" : sprintf("%#C", stop);
+        court.stopFormatted = isValidDate(stop)? "" : sprintf("%#C", stop);
         court.justices = [];
         let sJustices = "";
         justices.forEach((justice) => {
@@ -1623,7 +1670,7 @@ function readSCDBJustices(fDisplay)
         assertMatch(justice.start, sprintf("%#04Y-%#02M-%#02D", start), "justice.start");
         justice.startFormatted = sprintf("%#C", start);
         justice.stop = sprintf("%#Y-%#02M-%#02D", stop);
-        justice.stopFormatted = isNaN(stop.getTime())? "" : sprintf("%#C", stop);
+        justice.stopFormatted = isValidDate(stop.getTime())? "" : sprintf("%#C", stop);
     }
     if (fDisplay) printf("SCDB justices read: %d\n", justices.length);
     return justices;
@@ -3626,10 +3673,10 @@ function matchTranscripts(done)
             } else {
                 iDecision = searchSortedObjects(decisions, {caseId: transcript.caseId});
             }
-            if (iDecision < 0) {
-                let datePrevious = sprintf("%#Y-%#02M-%#02D", adjustDays(parseDate(dateArgument), -1));
-                iDecision = findByDateAndDocket(decisions, datePrevious, docket);
-            }
+            // if (iDecision < 0) {
+            //     let datePrevious = sprintf("%#Y-%#02M-%#02D", adjustDays(parseDate(dateArgument), -1));
+            //     iDecision = findByDateAndDocket(decisions, datePrevious, docket);
+            // }
             let dockets = [transcript.docket];
             if (iDecision >= 0) {
                 dockets = dockets.concat(decisions[iDecision].docket.split(','));
@@ -4129,7 +4176,7 @@ function fixDockets(done)
             while ((match = re.exec(json))) {
                 let dockets = match[2].split(',');
                 for (let i = 0; i < dockets.length; i++) {
-                    dockets[i] = fixDocketNumber(dockets[i], true);
+                    dockets[i] = fixDocketNumber(dockets[i]);
                 }
                 let docket = dockets.join(',');
                 if (docket != match[2]) {
@@ -4168,13 +4215,12 @@ function fixDate(sDate)
 }
 
 /**
- * fixDocketNumber(docket, fixDash)
+ * fixDocketNumber(docket)
  *
  * @param {string|number} docket
- * @param {boolean} [fixDash]
  * @return {string}
  */
-function fixDocketNumber(docket, fixDash)
+function fixDocketNumber(docket)
 {
     let docketNew = "";
     if (docket) {
@@ -4198,7 +4244,7 @@ function fixDocketNumber(docket, fixDash)
             docketNew = n + suffix;
         }
         if (docketNew == "na") docketNew = "";  // an odd docket number I've seen in SCDB's docket CSVs ("not available?")
-        if (fixDash) docketNew.replace("&ndash;", "-");
+        docketNew = docketNew.replace("&ndash;", "-");
     }
     return docketNew;
 }
