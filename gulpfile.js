@@ -4447,7 +4447,7 @@ function generateDownloadTasks(done)
             let downloadGroup = downloads[group];
             let mappings = downloadGroup.mappingFile && readFile(downloadGroup.mappingFile) || downloadGroup.mappingCols || "";
             let mappingsOld = mappings;
-            if (downloadGroup.start && downloadGroup.stop) {
+            if (downloadGroup.start !== undefined && downloadGroup.stop !== undefined) {
                 for (let index = downloadGroup.start; index <= downloadGroup.stop; index++) {
                     let url = sprintf(downloadGroup.url, index);
                     let dir = sprintf(downloadGroup.dir, index);

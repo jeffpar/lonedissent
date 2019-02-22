@@ -88,6 +88,41 @@
     "citationsHTML": "/sources/scotus/citations/*.*",
     "transcripts": "/sources/scotus/transcripts/**/*.txt",
     "download": {
+      "journal1889": {
+        "start": 1889,
+        "stop": 1992,
+        "url": "https://www.supremecourt.gov/pdfs/journals/scannedjournals/%d_journal.pdf",
+        "dir": "/sources/scotus/journals",
+        "file": "%d.pdf"
+      },
+      "journal1993": {
+        "start": 93,
+        "stop": 99,
+        "url": "https://www.supremecourt.gov/orders/journal/jnl%d.pdf",
+        "dir": "/sources/scotus/journals",
+        "file": "19%d.pdf"
+      },
+      "journal2000": {
+        "start": 0,
+        "stop": 9,
+        "url": "https://www.supremecourt.gov/orders/journal/jnl0%d.pdf",
+        "dir": "/sources/scotus/journals",
+        "file": "200%d.pdf"
+      },
+      "journal2010": {
+        "start": 10,
+        "stop": 14,
+        "url": "https://www.supremecourt.gov/orders/journal/jnl%d.pdf",
+        "dir": "/sources/scotus/journals",
+        "file": "20%d.pdf"
+      },
+      "journal2015": {
+        "start": 15,
+        "stop": 18,
+        "url": "https://www.supremecourt.gov/orders/journal/Jnl%d.pdf",
+        "dir": "/sources/scotus/journals",
+        "file": "20%d.pdf"
+      },
       "transcriptOld": {
         "start": 1968,
         "stop": 1999,
