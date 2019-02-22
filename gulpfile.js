@@ -3630,10 +3630,6 @@ function matchTranscripts(done)
                 iDecision = findByDateAndDocket(decisions, datePrevious, docket);
             }
             let iOyez = searchSortedObjects(rowsOyez, {dateArgument: transcript.dateArgument, docket: transcript.docket});
-            if (iOyez < 0) {
-                transcriptNoOyez += transcriptDescription + " (no OYEZ match)\n";
-                exceptions++;
-            }
             if (iDecision < 0) {
                 /*
                  * If the transcript has a "hand-coded" citation, the presumption it was matched manually
@@ -3653,38 +3649,38 @@ function matchTranscripts(done)
                         decision = rowsOyez[iOyez];
                         decision.caseId = "";   // don't use Oyez's object ID as a case ID; that would be too confusing
                     } else {
-                        iOyez = searchSortedObjects(rowsOyez, {dateArgument: transcript.dateArgument}, {caseTitle: transcript.caseTitle});
-                        if (iOyez >= 0) {
+                        let i = searchSortedObjects(rowsOyez, {dateArgument: transcript.dateArgument}, {caseTitle: transcript.caseTitle});
+                        if (i >= 0) {
                             /*
                              * We found an exact Oyez date/close title match, so ask the user if they want to add Oyez's docket
                              * number to the case.
                              */
-                            let row = rowsOyez[iOyez];
+                            let row = rowsOyez[i];
                             printf("%s [%s] {%s}: %s\n%s [%s] (%s) {%s}: %s  %s\n%s\n\n", transcript.caseTitle, transcript.docket, transcript.dateArgument, transcript.url, row.caseTitle, row.docket, row.usCite, row.dateArgument, row.dateDecision, row.urlOyez, getLOCURL(row.usCite));
-                            if (readLineSync.keyInYN(sprintf("add docket number %s from SCOTUS to %s?", transcript.docket, row.usCite))) {
-                                if (parseCite(row.usCite)) {
-                                    databaseUpdates += sprintf('gulp --cite="%s" --addDocket="%s" --reason="correction from %s"\n', row.usCite, transcript.docket, transcript.url);
-                                } else {
-                                    databaseUpdates += sprintf('gulp --argued="%s" --docket="%s" --addDocket="%s" --reason="correction from %s"\n', row.dateArgument, row.docket, transcript.docket, transcript.url);
-                                }
-                            }
+                            // if (readLineSync.keyInYN(sprintf("add docket number %s from SCOTUS to %s?", transcript.docket, row.usCite))) {
+                            //     if (parseCite(row.usCite)) {
+                            //         databaseUpdates += sprintf('gulp --cite="%s" --addDocket="%s" --reason="correction from %s"\n', row.usCite, transcript.docket, transcript.url);
+                            //     } else {
+                            //         databaseUpdates += sprintf('gulp --argued="%s" --docket="%s" --addDocket="%s" --reason="correction from %s"\n', row.dateArgument, row.docket, transcript.docket, transcript.url);
+                            //     }
+                            // }
                         } else {
                             let year = transcript.dateArgument.substr(0, 4);
-                            iOyez = searchSortedObjects(rowsOyezByYear, {year}, {caseTitle: transcript.caseTitle});
-                            if (iOyez >= 0) {
+                            i = searchSortedObjects(rowsOyezByYear, {year}, {caseTitle: transcript.caseTitle});
+                            if (i >= 0) {
                                 /*
                                  * We found a close date/close title match, so ask the user if they want to add Oyez's argument
                                  * date AND docket number to the case.
                                  */
-                                let row = rowsOyezByYear[iOyez];
+                                let row = rowsOyezByYear[i];
                                 printf("%s [%s] {%s}: %s\n%s [%s] (%s) {%s}: %s  %s\n%s\n\n", transcript.caseTitle, transcript.docket, transcript.dateArgument, transcript.url, row.caseTitle, row.docket, row.usCite, row.dateArgument, row.dateDecision, row.urlOyez, getLOCURL(row.usCite));
-                                if (readLineSync.keyInYN(sprintf("add docket number %s AND argument date %s from Oyez to %s", row.docket, row.dateArgument, row.usCite))) {
-                                    if (parseCite(row.usCite)) {
-                                        databaseUpdates += sprintf('gulp --cite="%s" --addDocket="%s" --addArgued="%s" --reason="correction from %s"\n', row.usCite, transcript.docket, transcript.dateArgument, transcript.url);
-                                    } else {
-                                        databaseUpdates += sprintf('gulp --argued="%s" --docket="%s" --addDocket="%s" --addArgued="%s" --reason="correction from %s"\n', row.dateArgument, row.docket, transcript.docket, transcript.dateArgument, transcript.url);
-                                    }
-                                }
+                                // if (readLineSync.keyInYN(sprintf("add docket number %s AND argument date %s from Oyez to %s", row.docket, row.dateArgument, row.usCite))) {
+                                //     if (parseCite(row.usCite)) {
+                                //         databaseUpdates += sprintf('gulp --cite="%s" --addDocket="%s" --addArgued="%s" --reason="correction from %s"\n', row.usCite, transcript.docket, transcript.dateArgument, transcript.url);
+                                //     } else {
+                                //         databaseUpdates += sprintf('gulp --argued="%s" --docket="%s" --addDocket="%s" --addArgued="%s" --reason="correction from %s"\n', row.dateArgument, row.docket, transcript.docket, transcript.dateArgument, transcript.url);
+                                //     }
+                                // }
                             }
                         }
                     }
@@ -3710,6 +3706,17 @@ function matchTranscripts(done)
                 transcriptExceptions += transcriptDescription + " (" + (transcript.notes || "no SCDB or OYEZ match") + ")\n";
                 exceptions++;
             }
+            if (iOyez < 0) {
+                transcriptNoOyez += transcriptDescription + " (no OYEZ match)\n";
+                iOyez = searchSortedObjects(rowsOyez, {dateArgument: transcript.dateArgument});
+                while (iOyez >= 0 && iOyez < rowsOyez.length) {
+                    let row = rowsOyez[iOyez];
+                    if (row.dateArgument != transcript.dateArgument) break;
+                    transcriptNoOyez += sprintf("  - Check %s [No. %s], also argued on [%#C](%s)\n", row.caseTitle, row.docket, row.dateArgument, row.urlOyez);
+                    iOyez++;
+                }
+                exceptions++;
+            }
         } else {
             transcriptPending += transcriptDescription + " (pending next SCDB update)\n";
         }
@@ -3718,7 +3725,7 @@ function matchTranscripts(done)
     transcriptPage += "## Matched Transcripts\n\nThese transcripts have been successfully matched to an SCDB entry.\n\n" + transcriptMatches + "\n";
     transcriptPage += "## Corrected Transcripts\n\nThese transcripts have been successfully matched to an SCDB entry after making one or more corrections.\n\n" + transcriptCorrections + "\n";
     if (transcriptPending) transcriptPage += "## Pending Transcripts\n\nThe status of these transcripts cannot be determined until the next SCDB update.\n\n" + transcriptPending + "\n";
-    if (transcriptNoOyez) transcriptPage += "## Unrecognized Transcripts\n\nThese transcripts were not found in a corresponding OYEZ case record.\n\n" + transcriptNoOyez;
+    if (transcriptNoOyez) transcriptPage += "## Unrecognized Transcripts\n\nThese transcripts were not found in a corresponding OYEZ case record.\n\n" + transcriptNoOyez + "\n";
     transcriptPage += "## Unmatched Transcripts\n\nThese transcripts have NOT yet been matched to an SCDB entry.\n\n" + transcriptExceptions;
 
     if (exceptions) {
@@ -4568,7 +4575,7 @@ function generateDownloadTasks(done)
             let dir = path.join(path.dirname(sources.oyez.advocates), id);
             for (let i = 1; i < aliases.length; i++) {
                 let alias = aliases[i];
-                if (alias == "verified") continue;
+                if (alias == "verified" || alias == "unverified") continue;
                 let file = alias + ".json";
                 let filePath = path.join(dir, file);
                 if (fs.existsSync(rootDir + filePath)) {
