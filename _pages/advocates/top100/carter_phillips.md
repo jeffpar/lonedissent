@@ -1981,7 +1981,7 @@ cases:
     title: "IBP, Inc. v. Alvarez"
     volume: "546"
     page: "021"
-    docket: "03-1238"
+    docket: "03-1238,04-66"
     citation: "546 U.S. 21"
     pdfSource: "scotusBound"
     dateArgument: "Monday, October 3, 2005"
@@ -3455,7 +3455,7 @@ cases:
     number: 80
     termId: "2015-10"
     title: "Federal Energy Regulatory Commission v. Electric Power Supply Association, et al."
-    docket: "14-840"
+    docket: "14-840,14-841"
     citation: "577 U.S. ___"
     pdfSource: "slipopinion/15"
     dateArgument: "Wednesday, October 14, 2015"
@@ -3536,7 +3536,7 @@ cases:
     number: 82
     termId: "2015-10"
     title: "Halo Electronics v. Pulse Electronics Inc."
-    docket: "14-1513"
+    docket: "14-1513,14-1520"
     citation: "579 U.S. ___"
     pdfSource: "slipopinion/15"
     dateArgument: "Tuesday, February 23, 2016"

@@ -1101,7 +1101,7 @@ function getLOCPDF(volume, page, pageURL)
 function getLOCURL(usCite)
 {
     let cite = {}, url = "";
-    if (parseCite(usCite, cite)) {
+    if (parseCite(usCite, cite) && cite.volume <= 542) {
         url = sprintf("https://cdn.loc.gov/service/ll/usrep/usrep%03d/usrep%03d%03d/usrep%03d%03d.pdf", cite.volume, cite.volume, cite.page, cite.volume, cite.page);
     }
     return url;
@@ -1318,7 +1318,7 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
     if (caseDetail.ID) {
         row = {};
         let docket_number = docket || caseDetail.docket_number;
-        row.caseId = caseDetail.ID.toString();
+        row.oyezId = caseDetail.ID.toString();
         row.volume = caseDetail.citation && +caseDetail.citation.volume || 0;
         row.page = caseDetail.citation && +caseDetail.citation.page || 0;
         row.year = caseDetail.citation && +caseDetail.citation.year || 0;
@@ -1340,18 +1340,20 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
         row.termId = getTermDate(row.term).substr(0,7);
         row.issue = "";
         row.urlOyez = caseDetail.href.replace("api.", "www.");
-        row.dateArgument = getOyezDates(caseDetail.timeline, "Argued");
         /*
          * For purposes of our advocate tables, making the distinction between argument
          * and reargument dates is neither necessary nor helpful.  In fact, it's the opposite
          * of helpful.  Our advocate reports are focussed on number of appearances.
+         *
+         * Hence, the additional variable: datesArgued.
          */
-        let dateReargument = getOyezDates(caseDetail.timeline, "Reargued");
-        if (dateReargument) {
-            if (!row.dateArgument) {
-                warning("%s (%s) has reargument (%s) without argument\n", row.caseTitle, row.usCite, dateReargument);
+        row.dateArgument = row.datesArgued = getOyezDates(caseDetail.timeline, "Argued");
+        row.dateRearg = getOyezDates(caseDetail.timeline, "Reargued");
+        if (row.dateRearg) {
+            if (!row.datesArgued) {
+                warning("%s (%s) has reargument (%s) without argument\n", row.caseTitle, row.usCite, row.dateRearg);
             } else {
-                row.dateArgument += ',' + dateReargument;
+                row.datesArgued += ',' + row.dateRearg;
             }
         }
         /*
@@ -1375,10 +1377,10 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
                 }
                 if (match) {
                     let sDate = sprintf("%#Y-%#02M-%#02D", date);
-                    if (row.dateArgument.indexOf(sDate) < 0) {
+                    if (row.datesArgued.indexOf(sDate) < 0) {
                         warning("%s (%s) has an EXTRA audio date (%s)\n%s\n\n", row.caseTitle, row.usCite, sDate, row.urlOyez);
-                        if (row.dateArgument) row.dateArgument += ',';
-                        row.dateArgument += sDate;
+                        if (row.datesArgued) row.datesArgued += ',';
+                        row.datesArgued += sDate;
                     }
                     if (dateAudio) dateAudio += ',';
                     dateAudio += sDate;
@@ -1387,7 +1389,7 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
                 }
             });
         }
-        let days = row.dateArgument.split(',');
+        let days = row.datesArgued.split(',');
         row.daysArgument = days.length;
         for (let i = 0; i < days.length; i++) {
             if (dateAudio.indexOf(days[i]) < 0) {
@@ -1397,7 +1399,7 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
             // let date1 = adjustDays(parseDate(days[i-1]), 1);
             // let date2 = parseDate(days[i]);
             // if (date1.toString() != date2.toString()) {
-            //     printf("%s (%s) argued for %d days non-consecutively (%s)\n%s\n\n", row.caseTitle, row.usCite, row.daysArgument, row.dateArgument, row.urlOyez);
+            //     printf("%s (%s) argued for %d days non-consecutively (%s)\n%s\n\n", row.caseTitle, row.usCite, row.daysArgument, row.datesArgued, row.urlOyez);
             //     break;
             // }
         }
@@ -1670,7 +1672,7 @@ function readSCDBJustices(fDisplay)
         assertMatch(justice.start, sprintf("%#04Y-%#02M-%#02D", start), "justice.start");
         justice.startFormatted = sprintf("%#C", start);
         justice.stop = sprintf("%#Y-%#02M-%#02D", stop);
-        justice.stopFormatted = isValidDate(stop.getTime())? "" : sprintf("%#C", stop);
+        justice.stopFormatted = isValidDate(stop)? "" : sprintf("%#C", stop);
     }
     if (fDisplay) printf("SCDB justices read: %d\n", justices.length);
     return justices;
@@ -1757,20 +1759,26 @@ function backupLonerDecisions(done)
  */
 function findByDateAndDocket(decisions, date, docket)
 {
-    let i, next = 0;
-    docket = fixDocketNumber(docket);
+    let i, j, next = 0;
+    let dockets = docket.split(',');
     let obj = {dateArgument: date};
     while ((i = searchObjects(decisions, obj, next, true)) >= 0) {
-        let dockets = decisions[i].docket.split(',');
-        if (dockets.indexOf(docket) >= 0) break;
+        let docketList = decisions[i].docket.split(',');
+        for (j = 0; j < dockets.length; j++) {
+            if (docketList.indexOf(dockets[j]) >= 0) break;
+        }
+        if (j < dockets.length) break;
         next = i + 1;
     }
     if (i < 0) {
         next = 0;
         obj = {dateRearg: date};
         while ((i = searchObjects(decisions, obj, next, true)) >= 0) {
-            let dockets = decisions[i].docket.split(',');
-            if (dockets.indexOf(docket) >= 0) break;
+            let docketList = decisions[i].docket.split(',');
+            for (j = 0; j < dockets.length; j++) {
+                if (docketList.indexOf(dockets[j]) >= 0) break;
+            }
+            if (j < dockets.length) break;
             next = i + 1;
         }
     }
@@ -1823,7 +1831,7 @@ function buildAdvocates(done)
                         let filePath = path.join(dir, file);
                         let row = readOyezCaseData(filePath, obj.title, obj.consolidated_docket_number, aliases[0]);
                         if (row) {
-                            if (row.dateArgument) {
+                            if (row.datesArgued) {
                                 rows.push(row);
                             } else {
                                 warning("%s (%s) has no Oyez argument date for %s\n", row.caseTitle, row.usCite, row.advocateName);
@@ -2495,7 +2503,7 @@ function generateCommonCaseYML(decision, caseNumber=0, extras=[])
 {
     let cite = {};
     parseCite(decision.usCite, cite);
-    let ymlText = '  - id: "' + decision.caseId + '"\n';
+    let ymlText = '  - id: "' + (decision.caseId || decision.oyezId) + '"\n';
     if (extras.indexOf("caseNumber") >= 0) {
         ymlText += '    number: ' + caseNumber + '\n';
     }
@@ -3043,6 +3051,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                                                             dates = decision.dateRearg.split(',');
                                                             dates.forEach((date) => { if (date) printf("\tReargued: %#C\n", date); });
                                                             if (decision.usCite) printf("\tLibrary of Congress URL for %s: %s\n", decision.usCite, getLOCURL(decision.usCite));
+                                                            if (decision.caseNotes) printf("\tcaseNotes: %s\n", decision.caseNotes);
                                                         }
                                                         searchResults.push(decision);
                                                         if (decisionsAudited.indexOf(decision.caseId) < 0) {
@@ -3600,7 +3609,7 @@ function matchTranscripts(done)
         if (row) {
             let dockets = row.docket.split(',');
             dockets.forEach((docket) => {
-                let dates = row.dateArgument.split(',');
+                let dates = row.datesArgued.split(',');
                 dates.forEach((date) => {
                     let rowNew = cloneObject(row);
                     rowNew.docket = docket;
@@ -4884,7 +4893,7 @@ function usage(done)
     /*
      * Check for a few options commonly used with the 'find' task, and automatically invoke that task if present.
      */
-    if (argv['d'] || argv['v'] || argv['p'] || argv['case'] || argv['cite'] || argv['reason']) {
+    if (argv['d'] || argv['v'] || argv['p'] || argv['case'] || argv['cite'] || argv['docket'] || argv['reason']) {
         findDecisions(done);
         return;
     }
