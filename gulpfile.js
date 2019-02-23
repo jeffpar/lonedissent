@@ -1367,9 +1367,9 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
                 correction = true;
             }
         }
-        if (correction) {
-            warning("%s (%s) has corrected argument dates (%s)\n%s\n\n", row.caseTitle, row.usCite, row.dateArgument, urlOyez);
-        }
+        // if (correction) {
+        //     warning("%s (%s) has corrected argument dates (%s)\n%s\n\n", row.caseTitle, row.usCite, row.dateArgument, urlOyez);
+        // }
         row.datesArgued = row.dateArgument;
         if (row.dateRearg) {
             if (!row.datesArgued) {
@@ -3726,9 +3726,9 @@ function matchTranscripts(done)
                  * record.
                  */
                 if (transcript.usCite) {
-                    if (!transcript.caseId) {
-                        warning("%s (%s) has no caseId\n", transcript.caseTitle, transcript.usCite);
-                    }
+                    // if (!transcript.caseId) {
+                    //     warning("%s (%s) has no caseId\n", transcript.caseTitle, transcript.usCite);
+                    // }
                     decision = transcript;
                 } else {
                     /*
