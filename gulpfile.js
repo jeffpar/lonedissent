@@ -1286,20 +1286,19 @@ function readCourts()
  */
 function getOyezDates(timeline, event)
 {
-    let dates = "";
+    let dates = [];
     if (timeline) {
         for (let i = 0; i < timeline.length; i++) {
             let item = timeline[i];
             if (item.event == event) {
                 for (let j = 0; j < item.dates.length; j++) {
                     let date = new Date(item.dates[j] * 1000);
-                    if (dates) dates += ',';
-                    dates += sprintf("%#Y-%#02M-%#02D", date);
+                    insertSortedArray(dates, sprintf("%#Y-%#02M-%#02D", date));
                 }
             }
         }
     }
-    return dates;
+    return dates.join(',');
 }
 
 /**
@@ -1357,8 +1356,8 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
             }
         }
         /*
-         * There are inconsistencies in OYEZ's data with regard to argument dates and audio dates.
-         * Let's try to catch those.
+         * If there are any inconsistencies in OYEZ's data with regard to argument dates and audio dates,
+         * let's catch those.
          */
         let dateAudio = "";
         if (caseDetail.oral_argument_audio) {
