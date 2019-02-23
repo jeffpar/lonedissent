@@ -340,7 +340,7 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Younger v. Harris](https://www.supremecourt.gov/pdfs/transcripts/1970/70-2_11-16-1970.pdf) - No. 2, argued Monday, November 16, 1970: see [401 U.S. 37](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401037/usrep401037.pdf)
 - [Boyle v. Landry](https://www.supremecourt.gov/pdfs/transcripts/1970/70-4_11-16-1970.pdf) - No. 4, argued Monday, November 16, 1970: see [401 U.S. 77](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401077/usrep401077.pdf)
 - [Dyson v. Stein](https://www.supremecourt.gov/pdfs/transcripts/1970/70-41_11-16-1970.pdf) - No. 41, argued Monday, November 16, 1970: see [401 U.S. 200](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401200/usrep401200.pdf)
-- [Samuels v. Mackell](https://www.supremecourt.gov/pdfs/transcripts/1970/70-7_70-9_11-16-1970.pdf) - No. 7, argued Monday, November 16, 1970: see [401 U.S. 66](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401066/usrep401066.pdf)
+- [Samuels v. Mackell](https://www.supremecourt.gov/pdfs/transcripts/1970/70-7_70-9_11-16-1970.pdf) - No. 7, argued Monday, November 16, 1970: see [399 U.S. 383](https://cdn.loc.gov/service/ll/usrep/usrep399/usrep399383/usrep399383.pdf)
 - [Boddie v. Connecticut](https://www.supremecourt.gov/pdfs/transcripts/1970/70-27_11-17-1970.pdf) - No. 27, argued Tuesday, November 17, 1970: see [401 U.S. 371](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401371/usrep401371.pdf)
 - [Sanks v. Georgia](https://www.supremecourt.gov/pdfs/transcripts/1970/70-28_11-17-1970.pdf) - No. 28, argued Tuesday, November 17, 1970: see [401 U.S. 144](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401144/usrep401144.pdf)
 - [Perez v. Ledesma](https://www.supremecourt.gov/pdfs/transcripts/1970/70-60_11-17-1970.pdf) - No. 60, argued Tuesday, November 17, 1970: see [401 U.S. 82](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401082/usrep401082.pdf)
@@ -5091,8 +5091,8 @@ These transcripts have been successfully matched to an SCDB entry.
 - [Reichle v. Howards](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-262.pdf) - No. 11-262, argued Wednesday, March 21, 2012
 - [Department of Health and Human Servs. v. Florida](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-398-Monday.pdf) - No. 11-398, argued Monday, March 26, 2012
 - [Department of Health and Human Servs. v. Florida](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-398-Tuesday.pdf) - No. 11-398, argued Tuesday, March 27, 2012
-- [National Federation of Independent Business v. Sebelius](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-393.pdf) - No. 11-393, argued Wednesday, March 28, 2012: see 567 U.S. ___
-- [Florida v. Department of Health and Human Servs.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-400.pdf) - No. 11-400, argued Wednesday, March 28, 2012: see 567 U.S. ___
+- [National Federation of Independent Business v. Sebelius](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-393.pdf) - No. 11-393, argued Wednesday, March 28, 2012
+- [Florida v. Department of Health and Human Servs.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-400.pdf) - No. 11-400, argued Wednesday, March 28, 2012
 - [Christopher v. SmithKline Beecham Corp.](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-204.pdf) - No. 11-204, argued Monday, April 16, 2012
 - [Dorsey v. United States](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-5683.pdf) - No. 11-5683, argued Tuesday, April 17, 2012
 - [Salazar v. Ramah Navajo Chapter](https://www.supremecourt.gov/oral_arguments/argument_transcript/../argument_transcripts/2011/11-551.pdf) - No. 11-551, argued Wednesday, April 18, 2012
@@ -5583,11 +5583,6 @@ These transcripts were not found in a corresponding OYEZ case record.
 
 - [The Committee for Nuclear Responsibility, Inc. v. Schlesinger](https://www.supremecourt.gov/pdfs/transcripts/1971/A-483_11-06-1971.pdf) - No. A-483, argued Saturday, November 6, 1971 (no OYEZ match)
 - [Milliken v. Bradley](https://www.supremecourt.gov/pdfs/transcripts/1973/73-434_73-435_73-436_07-25-1974.pdf) - No. 73-434, argued Thursday, July 25, 1974 (no OYEZ match)
-- [Ivan Allen Co. v. United States](https://www.supremecourt.gov/pdfs/transcripts/1974/74-22_04-14-1975.pdf) - No. 74-22, argued Monday, April 14, 1975: see [422 U.S. 617](https://cdn.loc.gov/service/ll/usrep/usrep422/usrep422617/usrep422617.pdf) (no OYEZ match)
-  - Check Rogers v. United States [No. 73-6336], also argued on [Monday, April 14, 1975](https://www.oyez.org/cases/1974/73-6336)
-  - Check United States v. Hale [No. 74-364], also argued on [Monday, April 14, 1975](https://www.oyez.org/cases/1974/74-364)
-  - Check Albemarle Paper Company v. Moody [No. 74-389], also argued on [Monday, April 14, 1975](https://www.oyez.org/cases/1974/74-389)
-  - Check Albemarle Paper Company v. Moody [No. 74-428], also argued on [Monday, April 14, 1975](https://www.oyez.org/cases/1974/74-389)
 - [Teamsters v. Rodriguez](https://www.supremecourt.gov/pdfs/transcripts/1976/75-651_75-715_75-718_01-11-1977.pdf) - No. 75-651, argued Tuesday, January 11, 1977: see [431 U.S. 395](https://cdn.loc.gov/service/ll/usrep/usrep431/usrep431395/usrep431395.pdf) (no OYEZ match)
   - Check Maher v. Roe [No. 75-1440], also argued on [Tuesday, January 11, 1977](https://www.oyez.org/cases/1976/75-1440)
   - Check Califano v. Sanders [No. 75-1443], also argued on [Tuesday, January 11, 1977](https://www.oyez.org/cases/1976/75-1443)

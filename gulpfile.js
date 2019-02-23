@@ -1338,7 +1338,7 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
         row.term = caseDetail.term || 0;
         row.termId = getTermDate(row.term).substr(0,7);
         row.issue = "";
-        row.urlOyez = caseDetail.href.replace("api.", "www.");
+        let urlOyez = caseDetail.href.replace("api.", "www.");
         /*
          * For purposes of our advocate tables, making the distinction between argument
          * and reargument dates is neither necessary nor helpful.  In fact, it's the opposite
@@ -1346,8 +1346,31 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
          *
          * Hence, the additional variable: datesArgued.
          */
-        row.dateArgument = row.datesArgued = getOyezDates(caseDetail.timeline, "Argued");
+        let correction = false;
+        row.dateArgument = getOyezDates(caseDetail.timeline, "Argued");
         row.dateRearg = getOyezDates(caseDetail.timeline, "Reargued");
+        if (row.usCite == "400 U.S. 48") {
+            if (row.dateArgument == "1970-10-22") {
+                row.dateArgument = "1970-01-21,1970-10-22";
+                correction = true;
+            }
+        }
+        else if (row.usCite == "422 U.S. 617") {
+            if (row.dateArgument == "1975-04-15,1975-04-16") {
+                row.dateArgument = "1975-04-14,1975-04-15";
+                correction = true;
+            }
+        }
+        else if (row.usCite == "396 U.S. 212") {
+            if (row.dateArgument == "1969-03-25,1969-10-20") {
+                row.dateArgument = "1969-03-25";
+                correction = true;
+            }
+        }
+        if (correction) {
+            warning("%s (%s) has corrected argument dates (%s)\n%s\n\n", row.caseTitle, row.usCite, row.dateArgument, urlOyez);
+        }
+        row.datesArgued = row.dateArgument;
         if (row.dateRearg) {
             if (!row.datesArgued) {
                 warning("%s (%s) has reargument (%s) without argument\n", row.caseTitle, row.usCite, row.dateRearg);
@@ -1377,28 +1400,26 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
                 if (match) {
                     let sDate = sprintf("%#Y-%#02M-%#02D", date);
                     if (row.datesArgued.indexOf(sDate) < 0) {
-                        warning("%s (%s) has an EXTRA audio date (%s)\n%s\n\n", row.caseTitle, row.usCite, sDate, row.urlOyez);
-                        if (row.datesArgued) row.datesArgued += ',';
-                        row.datesArgued += sDate;
+                        warning("%s (%s) has an EXTRA audio date (%s)\n%s\n\n", row.caseTitle, row.usCite, sDate, urlOyez);
                     }
                     if (dateAudio) dateAudio += ',';
                     dateAudio += sDate;
                 } else {
-                    warning("%s (%s) has an invalid audio date (%s)\n%s\n\n", row.caseTitle, row.usCite, audio.title, row.urlOyez);
+                    warning("%s (%s) has an invalid audio date (%s)\n%s\n\n", row.caseTitle, row.usCite, audio.title, urlOyez);
                 }
             });
         }
         let days = row.datesArgued.split(',');
         row.daysArgument = days.length;
         for (let i = 0; i < days.length; i++) {
-            if (dateAudio.indexOf(days[i]) < 0) {
-                printf("%s (%s) missing argument audio for %s\n%s\n\n", row.caseTitle, row.usCite, days[i], row.urlOyez);
+            if (dateAudio.indexOf(days[i]) < 0 && argv['detail']) {
+                printf("%s (%s) missing argument audio for %s\n%s\n\n", row.caseTitle, row.usCite, days[i], urlOyez);
             }
             // if (!i) continue;
             // let date1 = adjustDays(parseDate(days[i-1]), 1);
             // let date2 = parseDate(days[i]);
             // if (date1.toString() != date2.toString()) {
-            //     printf("%s (%s) argued for %d days non-consecutively (%s)\n%s\n\n", row.caseTitle, row.usCite, row.daysArgument, row.datesArgued, row.urlOyez);
+            //     printf("%s (%s) argued for %d days non-consecutively (%s)\n%s\n\n", row.caseTitle, row.usCite, row.daysArgument, row.datesArgued, urlOyez);
             //     break;
             // }
         }
@@ -1417,6 +1438,7 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
                 row.pdfSource = "slipopinion/" + (row.term % 100);
             }
         }
+        row.urlOyez = urlOyez;
     }
     return row;
 }
@@ -1831,6 +1853,8 @@ function buildAdvocates(done)
                         let row = readOyezCaseData(filePath, obj.title, obj.consolidated_docket_number, aliases[0]);
                         if (row) {
                             if (row.datesArgued) {
+                                delete row.dateArgument;
+                                delete row.dateRearg;
                                 rows.push(row);
                             } else {
                                 warning("%s (%s) has no Oyez argument date for %s\n", row.caseTitle, row.usCite, row.advocateName);
@@ -1838,7 +1862,7 @@ function buildAdvocates(done)
                         }
                     });
                 }
-                sortObjects(rows, ["dateArgument","docket"]);
+                sortObjects(rows, ["datesArgued","docket"]);
                 writeCSV(filePath, rows);
             }
             let rowsAdvocate = readCSV(filePath);
@@ -1849,7 +1873,7 @@ function buildAdvocates(done)
                 let fileText = '---\ntitle: "Cases Argued by ' + nameAdvocate + '"\npermalink: ' + pathAdvocate + '\nlayout: cases\n';
                 rowsAdvocate.forEach((row) => {
                     let i = -1, obj;
-                    let dateArgument = row.dateArgument.split(',')[0];
+                    let dateArgument = row.datesArgued.split(',')[0];
                     if (row.volume && row.page) {
                         obj = {volume: row.volume, page: row.page};
                         i = searchSortedObjects(decisions, obj, {});
@@ -1898,9 +1922,10 @@ function buildAdvocates(done)
                         argument.urlOyez = row.urlOyez;
                         results.push(argument);
                     } else {
+                        row.dateArgument = dateArgument;
                         results.push(row);
                         if (row.dateArgument < sources.scdb.dateEnd) {
-                            warning("unable to find exact match for %s: %s [%s] (%s) Argued=%s Decided=%s\n", nameAdvocate, row.caseTitle, row.docket, row.usCite, row.dateArgument, row.dateDecision);
+                            warning("unable to find exact match for %s: %s [%s] (%s) Argued=%s Decided=%s\n", nameAdvocate, row.caseTitle, row.docket, row.usCite, row.datesArgued, row.dateDecision);
                         }
                     }
                 });
@@ -3095,9 +3120,9 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 let decision = searchResults[0];
                 let dockets = [], datesArgument = [], datesRearg = [];
                 if (!argv['replace']) {
-                    dockets = decision.docket.split(',');
-                    datesArgument = decision.dateArgument.split(',');
-                    datesRearg = decision.dateRearg.split(',');
+                    if (decision.docket) dockets = decision.docket.split(',');
+                    if (decision.dateArgument) datesArgument = decision.dateArgument.split(',');
+                    if (decision.dateRearg) datesRearg = decision.dateRearg.split(',');
                 }
 
                 let docketNumbers = "";
@@ -3576,7 +3601,7 @@ function findLonerParties(done)
  */
 function matchTranscripts(done)
 {
-    let exceptions = 0;
+    let changes = 0, exceptions = 0;
     printf("reading decisions...\n");
     let decisions = JSON.parse(readFile(results.json.decisions));
     if (!isSortedObjects(decisions, ["caseId"])) {
@@ -3606,14 +3631,15 @@ function matchTranscripts(done)
     filePaths.forEach((filePath) => {
         let row = readOyezCaseData(filePath);
         if (row) {
+            row.dockets = row.docket;
             let dockets = row.docket.split(',');
             dockets.forEach((docket) => {
                 let dates = row.datesArgued.split(',');
                 dates.forEach((date) => {
                     let rowNew = cloneObject(row);
                     rowNew.docket = docket;
-                    rowNew.dateArgument = date;
-                    insertSortedObject(rowsOyez, rowNew, ["dateArgument","docket"]);
+                    rowNew.dateArgued = date;
+                    insertSortedObject(rowsOyez, rowNew, ["dateArgued","docket"]);
                     rowNew.year = date.substr(0, 4);
                     insertSortedObject(rowsOyezByYear, rowNew, ["year","dateArgument"]);
                 });
@@ -3641,10 +3667,6 @@ function matchTranscripts(done)
             "urlOyez": transcript.urlOyez || "",
             "notes": transcript.notes
         };
-        if (transcriptNew.caseId && transcriptNew.caseId.indexOf('-') < 0) {
-            transcript.caseId = transcriptNew.caseId = "";   // purge any OYEZ case IDs that snuck in
-            updates++;
-        }
         if (transcriptNew.docket != transcript.docket) updates++;
         newTranscripts.push(transcriptNew);
         let filePath = transcript.file;
@@ -3681,17 +3703,20 @@ function matchTranscripts(done)
             } else {
                 iDecision = searchSortedObjects(decisions, {caseId: transcript.caseId});
             }
-            // if (iDecision < 0) {
-            //     let datePrevious = sprintf("%#Y-%#02M-%#02D", adjustDays(parseDate(dateArgument), -1));
-            //     iDecision = findByDateAndDocket(decisions, datePrevious, docket);
-            // }
+            if (iDecision < 0) {
+                let datePrevious = sprintf("%#Y-%#02M-%#02D", adjustDays(parseDate(dateArgument), -1));
+                iDecision = findByDateAndDocket(decisions, datePrevious, docket);
+                if (iDecision >= 0) {
+                    warning("%s (%s) matched by using date %s instead of %s\n", transcript.caseTitle, transcript.usCite, datePrevious, dateArgument);
+                }
+            }
             let dockets = [transcript.docket];
             if (iDecision >= 0) {
                 dockets = dockets.concat(decisions[iDecision].docket.split(','));
             }
             let iOyez = -1;
             for (let i = 0; i < dockets.length; i++) {
-                iOyez = searchSortedObjects(rowsOyez, {dateArgument: transcript.dateArgument, docket: dockets[i]});
+                iOyez = searchSortedObjects(rowsOyez, {dateArgued: transcript.dateArgument, docket: dockets[i]});
                 if (iOyez >= 0) break;
             }
             if (iDecision < 0) {
@@ -3701,6 +3726,9 @@ function matchTranscripts(done)
                  * record.
                  */
                 if (transcript.usCite) {
+                    if (!transcript.caseId) {
+                        warning("%s (%s) has no caseId\n", transcript.caseTitle, transcript.usCite);
+                    }
                     decision = transcript;
                 } else {
                     /*
@@ -3711,9 +3739,8 @@ function matchTranscripts(done)
                          * We found an exact OYEZ date+docket match, so we're going to go with that automatically.
                          */
                         decision = rowsOyez[iOyez];
-                        decision.caseId = "";   // don't use OYEZ's object ID as a case ID; that would be too confusing
                     } else {
-                        let i = searchSortedObjects(rowsOyez, {dateArgument: transcript.dateArgument}, {caseTitle: transcript.caseTitle});
+                        let i = searchSortedObjects(rowsOyez, {dateArgued: transcript.dateArgument}, {caseTitle: transcript.caseTitle});
                         if (i >= 0) {
                             /*
                              * We found an exact OYEZ date/close title match, so ask the user if they want to add OYEZ's docket
@@ -3766,17 +3793,74 @@ function matchTranscripts(done)
                         updates++;
                     }
                 });
+                /*
+                 * Time to check for any Oyez argument dates that aren't in our decision database.
+                 */
+                if (decision.caseId && iOyez >= 0) {
+                    let skip = false;
+                    let newArgs = 0, newReargs = 0;
+                    let oyez = rowsOyez[iOyez];
+                    if (oyez.usCite == "399 U.S. 383" && oyez.dateArgument == "1969-04-01" || decision.usCite == "399 U.S. 383") {
+                        skip = true;
+                    }
+                    if (oyez.dateArgument && !skip) {
+                        let dates = decision.dateArgument? decision.dateArgument.split(',') : [];
+                        let datesOyez = oyez.dateArgument? oyez.dateArgument.split(',') : [];
+                        for (let i = 0; i < datesOyez.length; i++) {
+                            if (dates.indexOf(datesOyez[i]) < 0) {
+                                if (decision.dateArgument == oyez.dateRearg) {
+                                    decision.dateArgument = ""; dates = [];
+                                }
+                                if (decision.dateArgument.length != 10 || datelib.subtractDays(datesOyez[i], decision.dateArgument) != 1) {
+                                    printf("check %s (%s): adding %s to dateArgument %s\n%s\n\n", decision.caseTitle, decision.usCite, datesOyez[i], decision.dateArgument, oyez.urlOyez);
+                                }
+                                insertSortedArray(dates, datesOyez[i]);
+                                decision.dateArgument = dates.join(',');
+                                newArgs++;
+                            }
+                        }
+                    }
+                    if (oyez.dateRearg && !skip) {
+                        if (oyez.usCite == "401 U.S. 77" && decision.dateRearg == "1969-04-29") {
+                            decision.dateRearg = "";
+                        }
+                        if (oyez.usCite == "401 U.S. 66" && decision.dateRearg == "1969-04-29") {
+                            decision.dateRearg = "";
+                        }
+                        let dates = decision.dateRearg? decision.dateRearg.split(',') : [];
+                        let datesOyez = oyez.dateRearg? oyez.dateRearg.split(',') : [];
+                        for (let i = 0; i < datesOyez.length; i++) {
+                            if (dates.indexOf(datesOyez[i]) < 0) {
+                                if (decision.dateRearg.length != 10 || datelib.subtractDays(datesOyez[i], decision.dateRearg) != 1) {
+                                    printf("check %s (%s): adding %s to dateRearg %s\n%s\n\n", decision.caseTitle, decision.usCite, datesOyez[i], decision.dateRearg, oyez.urlOyez);
+                                }
+                                insertSortedArray(dates, datesOyez[i]);
+                                decision.dateRearg = dates.join(',');
+                                newReargs++;
+                            }
+                        }
+                    }
+                    if (newArgs + newReargs > 0) {
+                        if (decision.caseNotes) {
+                            decision.caseNotes += ";";
+                        } else {
+                            decision.caseNotes = "";
+                        }
+                        decision.caseNotes += (newReargs? "(re)" : "") + "argument date correction(s) from " + oyez.urlOyez;
+                        changes++;
+                    }
+                }
             } else {
                 transcriptExceptions += transcriptDescription + " (" + (transcript.notes || "no SCDB or OYEZ match") + ")\n";
                 exceptions++;
             }
             if (iOyez < 0) {
                 transcriptNoOyez += transcriptDescription + " (no OYEZ match)\n";
-                iOyez = searchSortedObjects(rowsOyez, {dateArgument: transcript.dateArgument});
+                iOyez = searchSortedObjects(rowsOyez, {dateArgued: transcript.dateArgument});
                 while (iOyez >= 0 && iOyez < rowsOyez.length) {
                     let row = rowsOyez[iOyez];
-                    if (row.dateArgument != transcript.dateArgument) break;
-                    transcriptNoOyez += sprintf("  - Check %s [No. %s], also argued on [%#C](%s)\n", row.caseTitle, row.docket, row.dateArgument, row.urlOyez);
+                    if (row.dateArgued != transcript.dateArgument) break;
+                    transcriptNoOyez += sprintf("  - Check %s [No. %s], also argued on [%#C](%s)\n", row.caseTitle, row.docket, row.dateArgued, row.urlOyez);
                     iOyez++;
                 }
                 exceptions++;
@@ -3798,6 +3882,10 @@ function matchTranscripts(done)
 
     if (updates) {
         writeCSV(results.csv.transcripts, newTranscripts);
+    }
+
+    if (changes) {
+        writeFile(results.json.decisions, decisions);
     }
 
     if (databaseUpdates) {
