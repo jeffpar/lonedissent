@@ -254,13 +254,14 @@ function warning(format, ...args)
 }
 
 /**
- * checkASCII(text, fExtended)
+ * checkASCII(text, fileName, fExtended)
  *
  * @param {string} text
+ * @param {string} [fileName]
  * @param {boolean} [fExtended] (true to check for extended ASCII characters)
  * @return {boolean} (true if valid, false otherwise)
  */
-function checkASCII(text, fExtended)
+function checkASCII(text, fileName, fExtended)
 {
     let valid = true;
     let lines = text.split(/\r?\n/);
@@ -268,8 +269,8 @@ function checkASCII(text, fExtended)
         let line = lines[i];
         for (let j = 0; j < line.length; j++) {
             let ch = line.charCodeAt(j);
-            if (ch < 0x20 && ch != 0x09 || fExtended && ch > 0x7f) {
-                warning("unexpected character %02x at row %d col %d: '%s'\n", ch, i+1, j+1, line);
+            if (ch < 0x20 && ch != 0x09 && ch != 0x0c || fExtended && ch > 0x7f) {
+                warning("unexpected character %02x%s at row %d col %d: '%s'\n", ch, fileName? (" in file " + fileName) : "", i+1, j+1, line);
                 valid = false;
             }
         }
@@ -331,7 +332,7 @@ function decodeString(text, decodeAs)
         /*
          * Replace any old-fashioned "&c" references that could be misinterpreted as HTML entities.
          */
-        text = text.replace(/&amp;C\.?/g, "ETC.").replace(/&amp;c\.?/g, "etc.");
+        text = text.replace(/&C\.?/g, "ETC.").replace(/&c\.?/g, "etc.").replace(/&AMP;/g, "&").replace(/&NBSP;/g, "");
         text = he.decode(text);
     }
     return text;
@@ -503,6 +504,85 @@ function cloneObject(obj)
         newObj[key] = obj[key];
     });
     return newObj;
+}
+
+/**
+ * compareObjects(index, key, keyValue, oldObj, newObj, indent)
+ *
+ * @param {number} index
+ * @param {string} key
+ * @param {*} keyValue
+ * @param {object} oldObj
+ * @param {object} newObj
+ * @param {number} [indent]
+ * @return {boolean}
+ */
+function compareObjects(index, key, keyValue, oldObj, newObj, indent=0)
+{
+    let success = true;
+    let iOld = 0, iNew = 0;
+    let oldKeys = Object.keys(oldObj);
+    let newKeys = Object.keys(newObj);
+    while (iOld < oldKeys.length && iNew < newKeys.length) {
+        if (oldKeys[iOld] != newKeys[iNew]) {
+            iOld++;
+            continue;
+        }
+        let keyProp = oldKeys[iOld];
+        let oldProp = oldObj[keyProp];
+        let newProp = newObj[keyProp];
+        if (typeof oldProp == typeof newProp) {
+            if (typeof oldProp == "object") {
+                compareObjects(iOld, key, keyValue, oldProp, newProp, indent+2);
+            } else if (oldProp != newProp) {
+                if (!oldObj.caseNotes || oldObj.caseNotes.indexOf(keyProp) < 0) {
+                    warning("%*sindex %d %s '%s' property '%s': \"%s\" != \"%s\"\n", indent, ' ', index, key, keyValue, keyProp, oldProp, newProp);
+                    success = false;
+                }
+            } else {
+                if (argv['detail']) {
+                    printf("%*sindex %d %s '%s' property '%s': \"%s\" MATCHES \"%s\"\n", indent, ' ', index, key, keyValue, keyProp, oldProp, newProp);
+                }
+            }
+        }
+        iOld++;
+        iNew++;
+    }
+    return success;
+}
+
+/**
+ * compareObjectArrays(oldObjs, newObjs, key)
+ *
+ * @param {Array} oldObjs
+ * @param {Array} newObjs
+ * @param {string} [key]
+ * @return {boolean}
+ */
+function compareObjectArrays(oldObjs, newObjs, key)
+{
+    let success = true;
+    let iOld = 0, iNew = 0;
+    while (iOld < oldObjs.length && iNew < newObjs.length) {
+        let keyValue;
+        if (key) {
+            if (oldObjs[iOld][key] < newObjs[iNew][key]) {
+                iOld++;
+                continue;
+            }
+            if (newObjs[iNew][key] < oldObjs[iOld][key]) {
+                iNew++;
+                continue
+            }
+            keyValue = oldObjs[iOld][key];
+        }
+        if (!compareObjects(iOld, key, keyValue, oldObjs[iOld], newObjs[iNew])) {
+            success = false;
+        }
+        iOld++;
+        iNew++;
+    }
+    return success;
 }
 
 /**
@@ -998,7 +1078,7 @@ function readFile(filePath, encoding="", fOptional=false)
     try {
         if (filePath[0] == '/') filePath = path.join(rootDir, filePath);
         text = fs.readFileSync(filePath, encoding || "utf-8");
-        if (!encoding) checkASCII(text);
+        if (!encoding) checkASCII(text, filePath);
     }
     catch(err) {
         if (!fOptional) printf("%s\n", err.message);
@@ -1012,12 +1092,13 @@ function readFile(filePath, encoding="", fOptional=false)
  * @param {string} filePath
  * @param {string|object} text (if you pass an object, we automatically "stringify" it into JSON)
  * @param {boolean} [fOverwrite] (default is false)
+ * @return {boolean}
  */
 function writeFile(filePath, text, fOverwrite=argv['overwrite'])
 {
     if (typeof text == "object") {
         text = sprintf("%2j\n", text);
-        checkASCII(text);
+        checkASCII(text, filePath);
     }
     if (filePath[0] == '/') filePath = path.join(rootDir, filePath);
     if (fOverwrite || !fs.existsSync(filePath)) {
@@ -1025,6 +1106,7 @@ function writeFile(filePath, text, fOverwrite=argv['overwrite'])
             let dirPath = path.dirname(filePath);
             if (!fs.existsSync(dirPath)) mkdirp.sync(dirPath);
             fs.writeFileSync(filePath, text);
+            return true;
         }
         catch(err) {
             printf("%s\n", err.message);
@@ -1032,6 +1114,7 @@ function writeFile(filePath, text, fOverwrite=argv['overwrite'])
     } else {
         printf("file %s already exists, use --overwrite to recreate\n", filePath);
     }
+    return false;
 }
 
 /**
@@ -1172,7 +1255,7 @@ function getOldCite(volume, page)
 function parseCite(usCite, cite)
 {
     if (usCite) {
-        let match = usCite.match(/([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)/);
+        let match = usCite.match(/([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)/i);
         if (match) {
             if (cite) {
                 cite.volume = +match[1];
@@ -2410,7 +2493,25 @@ function buildDecisions(done)
     let vars = JSON.parse(readFile(sources.scdb.vars));
     let decisions = parseCSV(readFile(sources.scdb.decisionsCSV, "latin1"), "html", 0, "voteId", "justice", false, vars);
     printf("SCDB decisions: %d\n", decisions.length);
-    writeFile(results.json.decisions, decisions);
+    if (!isSortedObjects(decisions, ["caseId"])) {
+        printf("sorting SCDB decisions by [caseId]...\n");
+        sortObjects(decisions, ["caseId"]);
+    }
+    if (!fs.existsSync(rootDir + results.json.decisions)) {
+        sortObjects(decisions, ["caseId"]);
+        writeFile(results.json.decisions, decisions);
+    } else {
+        let decisionsNew = decisions;
+        // writeFile(results.json.decisionsNew, decisionsNew);
+        decisions = JSON.parse(readFile(results.json.decisions));
+        if (!isSortedObjects(decisions, ["caseId"])) {
+            sortObjects(decisions, ["caseId"]);
+            writeFile(results.json.decisions, decisions);
+        }
+        if (!compareObjectArrays(decisions, decisionsNew, "caseId")) {
+            printf("compare found mismatches\n");
+        }
+    }
     done();
 }
 
@@ -3595,6 +3696,183 @@ function findLonerParties(done)
 }
 
 /**
+ * matchTXTDates(done)
+ *
+ * @param {function()} done
+ */
+function matchTXTDates(done)
+{
+    let monthBucket = [];
+    printf("reading SCDB decisions...\n");
+    let decisions = JSON.parse(readFile(results.json.decisions));
+    printf("sorting SCDB decisions by [usCite]...\n");
+    sortObjects(decisions, ["usCite"]);
+    printf("reading U.S. Reports texts...\n");
+    let filePaths = glob.sync(rootDir + sources.loc.filesTXT);
+    filePaths.forEach((filePath) => {
+        /*
+         * We skip the first 100 volumes, because they're old, they didn't scan well, and for the most part,
+         * they didn't include any dates anyway.  Besides, volumes 1-107 are already covered by the Supreme Court's
+         * "DATES OF DECISIONS" document.  It's probably no coincidence that that document stopped at volume 107,
+         * because starting with volume 108, we begin to see dates properly recorded.
+         */
+        if (filePath.indexOf("001-100") >= 0) return;
+        let text = readFile(filePath);
+        if (text) {
+            let fileName = path.basename(filePath);
+            let matchFile = fileName.match(/^([0-9]+)us([0-9]+)\.txt$/);
+            if (!matchFile) {
+                warning("unrecognized file: %s\n", filePath);
+                return;
+            }
+            let usCite = sprintf("%d U.S. %d", matchFile[1], matchFile[2]);
+            // if (usCite == "109 U.S. 194") {
+            //     console.log(usCite);
+            // }
+            /*
+             * We make the last digit of the 4-digit year optional, because sometimes the text
+             * didn't pick up all four digits (eg, ./sources/loc/volumes/101-200/109/109us110.txt).
+             * We also allow letters in place of digits, because sometimes an 'S' will show up
+             * instead of '5', or an 'M', etc.
+             */
+            let reArgued = /Argued\s+(.*?)\s+([0-9A-Z][0-9A-Z][0-9A-Z][0-9A-Z]?)[^0-9]/g;
+            let reDecided = /De[ce][il][ld][cet]d?\s+(.*?)\s+([0-9A-Z][0-9A-Z][0-9A-Z][0-9A-Z]?)[^0-9]/g;
+            while (true) {
+                let matchArgued = reArgued.exec(text);
+                let matchDecided = reDecided.exec(text);
+                let textArgued = "";
+                if (matchArgued) {
+                    textArgued = matchArgued[1] + ' ' + matchArgued[2];
+                }
+                if (!matchDecided) {
+                    if (matchArgued && argv['detail']) {
+                        warning("%s (%s): argument date %s, no decision\n", filePath, usCite, textArgued);
+                    }
+                    return;
+                }
+                /*
+                 * If the current matchArgued appears AFTER the current matchDecided, then the presumption is
+                 * those dates don't go together, so we "sync" reArgued.lastIndex to reDecided.lastIndex.  Ditto
+                 * for when reArgued didn't find anything at all; otherwise the next reArgued.exec() call will
+                 * start over at the top again (which seems like a strange feature of exec(): it sets lastIndex
+                 * back to zero when it doesn't find any further matches).
+                 */
+                if (!matchArgued || matchArgued && matchArgued.index > matchDecided.index) {
+                    reArgued.lastIndex = reDecided.lastIndex;
+                    textArgued = "";
+                }
+                let textDecided = matchDecided[1] + ' ' + matchDecided[2];
+                if (argv['detail']) {
+                    printf("%s (%s): Argued '%s', Decided '%s'\n", filePath, usCite, textArgued, textDecided);
+                }
+                /*
+                 * Let's do some preliminary parsing of decision dates.  For starters, there should be three
+                 * groups separated by whitespace; if not, look for the first digit in the first group and separate
+                 * on that.
+                 */
+                textDecided = textDecided.replace(/\s+/g, ' ');
+                let partsDecided = textDecided.split(' ');
+                if (partsDecided.length == 2) {
+                    let matchDigit = partsDecided[0].match(/[0-9]/);
+                    if (matchDigit && matchDigit.index > 0) {
+                        partsDecided.splice(1, 0, partsDecided[0].substr(matchDigit.index));
+                        partsDecided[0] = partsDecided[0].substr(0, matchDigit.index);
+                    }
+                }
+                if (partsDecided.length == 3) {
+                    let month = partsDecided[0];
+                    if (monthBucket.indexOf(month) < 0) monthBucket.push(month);
+                } else {
+                    warning("%s (%s): unable to parse decision date '%s'\n", filePath, usCite, textDecided);
+                }
+            }
+        }
+    });
+    monthBucket.sort();
+    console.log(monthBucket);
+    done();
+}
+
+/**
+ * matchXMLDates(done)
+ *
+ * @param {function()} done
+ */
+function matchXMLDates(done)
+{
+    let changes = 0;
+    let databaseUpdates = "";
+    printf("reading SCDB decisions...\n");
+    let decisions = JSON.parse(readFile(results.json.decisions));
+    printf("sorting SCDB decisions by [usCite,dateDecision]...\n");
+    sortObjects(decisions, ["usCite","dateDecision"]);
+    printf("reading decisionsXML records...\n");
+    let decisionsXML = readOyezLabsDecisions();
+    decisionsXML.forEach((decision) => {
+        if (decision.usCite.indexOf('_') >= 0) decision.usCite = "";
+    });
+    printf("sorting decisionsXML by usCite and dateDecision...\n");
+    sortObjects(decisionsXML, ["usCite","dateDecision"]);
+
+    for (let i = 0; i < decisions.length; i++) {
+        let decision = decisions[i];
+        /*
+         * We skip the first 107 volumes, because they're old, they didn't scan well, and for the most part,
+         * they didn't include any dates anyway.  Besides, volumes 1-107 are already covered by the Supreme Court's
+         * "DATES OF DECISIONS" document.  It's probably no coincidence that that document stopped at volume 107,
+         * because starting with volume 108, we begin to see dates properly recorded.
+         */
+        if (decision.volume > 0 && decision.volume <= 107) return;
+        if (!decision.usCite) continue;
+        let usCite = decision.usCite;
+        let caseTitle = decision.caseTitle || decision.caseName;
+        if (usCite.slice(-1) == 'n') usCite = usCite.slice(0, -1);
+        let iXML = searchSortedObjects(decisionsXML, {usCite}, {caseTitle});
+        if (iXML >= 0) {
+            let decisionXML = decisionsXML[iXML];
+            if (decisionXML.dateDecision) {
+                if (decision.dateDecision != decisionXML.dateDecision) {
+                    let urlLOC = getLOCURL(decision.usCite);
+                    let tag = "dateDecision from " + urlLOC;
+                    if (decision.caseNotes && decision.caseNotes.indexOf(tag)) continue;
+                    printf("\n%s (%s) has date %#C\nsee %s\n", caseTitle, decision.usCite, decision.dateDecision, urlLOC);
+                    let selections = [sprintf("%s (%s) XML date %#C", decisionXML.caseTitle, decisionXML.usCite, decisionXML.dateDecision), "Original date verified", "No change"];
+                    let select = readLineSync.keyInSelect(selections, "Selection?", {cancel: true});
+                    if (select < 0) break;
+                    let reason = "";
+                    if (select == 0) {
+                        decision.dateDecision = decisionXML.dateDecision;
+                        reason = "replaced " + tag;
+                        databaseUpdates += "gulp --cite=\"" + usCite + "\" --replace --addDecided=" + decisionXML.dateDecision + " --reason=\"" + reason + "\"\n";
+                        changes++;
+                    } else if (select == 1) {
+                        reason = "verified " + tag;
+                        databaseUpdates += "gulp --cite=\"" + usCite + "\" --reason=\"" + reason + "\"\n";
+                        changes++;
+                    }
+                    if (reason) {
+                        if (!decision.caseNotes) {
+                            decision.caseNotes = "";
+                        } else {
+                            decision.caseNotes += ";";
+                        }
+                        decision.caseNotes += reason;
+                    }
+                }
+            }
+        } else {
+            warning("%s (%s) dateDecision [%s]: no XML match\n", caseTitle, decision.usCite, decision.dateDecision);
+        }
+    }
+    if (changes) {
+        sortObjects(decisions, ["caseId"]);
+        writeFile(results.json.decisions, decisions);
+        printf("%s", databaseUpdates);      // also print out all the requested updates in case writeFile() was not allowed
+    }
+    done();
+}
+
+/**
  * matchTranscripts(done)
  *
  * @param {function()} done
@@ -3602,10 +3880,12 @@ function findLonerParties(done)
 function matchTranscripts(done)
 {
     let changes = 0, exceptions = 0;
-    printf("reading decisions...\n");
+    printf("reading SCDB decisions...\n");
     let decisions = JSON.parse(readFile(results.json.decisions));
     if (!isSortedObjects(decisions, ["caseId"])) {
         warning("decisions not sorted properly\n");
+        done();
+        return;
     }
     let transcriptPath = "/_pages/cases/transcripts/scotus.md";
     let transcriptMatches = "", transcriptCorrections = "", transcriptPending = "", transcriptNoOyez = "", transcriptExceptions = "";
@@ -3841,12 +4121,12 @@ function matchTranscripts(done)
                         }
                     }
                     if (newArgs + newReargs > 0) {
-                        if (decision.caseNotes) {
-                            decision.caseNotes += ";";
-                        } else {
+                        if (!decision.caseNotes) {
                             decision.caseNotes = "";
+                        } else {
+                            decision.caseNotes += ";";
                         }
-                        decision.caseNotes += (newReargs? "(re)" : "") + "argument date correction(s) from " + oyez.urlOyez;
+                        decision.caseNotes += "dateArgument" + (newReargs? "/dateRearg" : "") + " correction(s) from " + oyez.urlOyez;
                         changes++;
                     }
                 }
@@ -3986,6 +4266,7 @@ function fixDecisions(done)
             citesDecisions[decision.usCite].push(decision);
         }
     }
+
     printf("decisions available: %d\n", decisions.length);
 
     let citesSCDB = {};
@@ -4795,18 +5076,21 @@ function runDownloadTasks(done)
 function mergeSCDBDockets(done)
 {
     let changes = 0;
-    printf("reading decisions...\n");
+    printf("reading SCDB decisions...\n");
     let decisions = JSON.parse(readFile(results.json.decisions));
-    sortObjects(decisions, ["caseId"]);
+    if (!isSortedObjects(decisions, ["caseId"])) {
+        warning("decisions not sorted by [caseId]\n");
+        done();
+        return;
+    }
     printf("reading SCDB docket records...\n");
     let decisionDockets = readCSV(sources.scdb.docketsCSV, "latin1", "html");
-    printf("merging...\n");
-    if (!isSortedObjects(decisions, ["caseId"])) {
-        warning("decisions database not sorted by caseId...\n");
-    }
     if (!isSortedObjects(decisionDockets, ["caseId", "docketId"])) {
-        warning("decisions database not sorted by caseId/docketId...\n");
+        warning("docket records not sorted by [caseId,docketId]\n");
+        done();
+        return;
     }
+    printf("merging...\n");
     for (let i = 0; i < decisionDockets.length; i++) {
         let consolidated = 0;
         let docketRow = decisionDockets[i];
@@ -4862,11 +5146,11 @@ function mergeSCDBDockets(done)
  */
 function reportChanges(done)
 {
-    printf("reading decisions...\n");
+    printf("reading SCDB decisions...\n");
     let decisions = JSON.parse(readFile(results.json.decisions));
-    printf("sorting decisions...\n");
+    printf("sorting SCDB decisions by [usCite,caseTitle]...\n");
     sortObjects(decisions, ["usCite","caseTitle"]);
-    printf("reading %s...\n", results.csv.dates);
+    printf("reading date records in %s...\n", results.csv.dates);
     let rows = readCSV(results.csv.dates);
     rows.forEach((row) => {
         let usCite = row.usCite;
@@ -4997,6 +5281,7 @@ function usage(done)
 gulp.task("advocates", buildAdvocates);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("courts", buildCourts);
+gulp.task("dates", matchXMLDates);      // NOTE: matchTXTDates() was too sketchy, so we no longer use it
 gulp.task("decisions", buildDecisions);
 gulp.task("justices", buildJustices);
 gulp.task("transcripts", matchTranscripts);
