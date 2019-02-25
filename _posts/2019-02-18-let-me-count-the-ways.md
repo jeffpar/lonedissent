@@ -265,7 +265,7 @@ change logs with every release.  These days, an even better step forward for SCD
 which is to create an open-source repository containing copies of all the data sources being used, along with the
 scripts used to process them.
 
-Issue like those with [Terms](#6-terms) arose simply because SCDB didn't fully consider the impact of
+Issues like those with [Terms](#6-terms) arose simply because SCDB didn't fully consider the impact of
 older cases on a design that it inherited from Harold Spaeth's "ALLCOURT" database.  Other issues, like
 those with [Argument and Reargument Dates](#4-argument-and-reargument-dates), could be considered a failure
 of imagination -- *except* that we discussed dating issues with SCDB principals (Andrew Martin and Troy DeArmitt)
