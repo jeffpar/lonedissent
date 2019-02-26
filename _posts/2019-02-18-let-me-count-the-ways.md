@@ -216,6 +216,19 @@ but in the same limited fashion, by providing a single `REORAL` field, and SCDB 
 The limitation here is even worse than before, because not only can a reargument span multiple days, but there can
 also be *multiple* rearguments.  Take a look at [Boyle v. Landry (401 U.S. 77)](https://cdn.loc.gov/service/ll/usrep/usrep401/usrep401077/usrep401077.pdf).  The second reargument on November 16, 1970 is nowhere to be found in SCDB.
 
+The worst SCDB omission of all, however, is in regard to a set of cases which were granted, argued, and then
+dismissed without an opinion.  For example, the Court can "DIG" (dismiss as improvidently granted) cases or dismiss
+cases that have become moot.  To be clear, I'm referring to cases that were fully briefed and argued and *then*
+dismissed, which makes them significantly different from the many petitions that are routinely denied, as well as
+the occasional petition that is granted and then dismissed before argument.
+
+This is not to say that SCDB doesn't track *any* DIG'ed cases but merely that its recording of them is haphazard.
+For example, [Stiles v. United States (393 U.S. 219)](http://cdn.loc.gov/service/ll/usrep/usrep393/usrep393219/usrep393219.pdf), argued November 20, 1968, is not listed in SCDB, while [Ford Motor Co. v. McCauley (537 U.S. 1)](https://cdn.loc.gov/service/ll/usrep/usrep537/usrep537001/usrep537001.pdf), argued October 7, 2000, is listed.
+The failure to record all such cases frustrates a variety of research, such as the accurate tracking of oral argument activity, the frequency of DIGs, etc.
+
+As an aside, it's also not a simple matter to identity *just* DIG'ed cases.  SCDB has a [caseDisposition](http://scdb.wustl.edu/documentation.php?var=caseDisposition) variable that is generally set to 9 ("petition denied or appeal dismissed") in such cases, but that value is also used in other cases, such as [Schwarz v. National Security Agency (526 U.S. 122)](https://cdn.loc.gov/service/ll/usrep/usrep526/usrep526122/usrep526122.pdf), where the case was granted
+and a *per curiam* decision was issued denying petitioner's motion.
+
 ### 5. Natural Courts
 
 A [Natural Court](http://scdb.wustl.edu/documentation.php?var=naturalCourt), as the SCDB online codebook explains, is:
