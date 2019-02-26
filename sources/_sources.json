@@ -87,6 +87,7 @@
   },
   "scotus": {
     "citationsHTML": "/sources/scotus/citations/*.*",
+    "journals": "/sources/scotus/journals/*.txt",
     "transcripts": "/sources/scotus/transcripts/**/*.txt",
     "download": {
       "journal1889": {

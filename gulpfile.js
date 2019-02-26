@@ -3694,6 +3694,50 @@ function findLonerParties(done)
 }
 
 /**
+ * getDateMarkers(text)
+ *
+ * @param {string} text
+ * @return {Array}
+ */
+function getDateMarkers(text)
+{
+    let pattern = "(MONDAY|TUESDAY|WEDNESDAY|THURSDAY|FRIDAY|SATURDAY|SUNDAY)\\s*,?\\s*(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\\s*([0-9]+),?\\s*([0-9]+)";
+    let re = new RegExp(pattern, "g");
+    let markers = [], match;
+    while ((match = re.exec(text))) {
+        match.weekday = match[1];
+        match.month = match[2];
+        match.day = +match[3];
+        match.year = +match[4];
+        markers.push(match);
+    }
+    return markers;
+}
+
+/**
+ * matchJournals(done)
+ *
+ * @param {function()} done
+ */
+function matchJournals(done)
+{
+    printf("reading SCOTUS journals...\n");
+    let filePaths = glob.sync(rootDir + sources.scotus.journals.replace('*', argv['group'] || '*'));
+    filePaths.forEach((filePath) => {
+        let text = readFile(filePath);
+        if (!text) return;
+        /*
+         * Let's see if we can reliably get date markers for the entire file...
+         */
+        let dateMarkers = getDateMarkers(text);
+        dateMarkers.forEach((marker) => {
+            printf("offset %d: %s, %s %d, %d\n\t%s\n\n", marker.index, marker.weekday, marker.month, marker.day, marker.year, marker[0].replace(/\s+/g, ' '));
+        });
+    });
+    done();
+}
+
+/**
  * matchTXTDates(done)
  *
  * @param {function()} done
@@ -5312,6 +5356,7 @@ gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("courts", buildCourts);
 gulp.task("dates", matchXMLDates);      // NOTE: matchTXTDates() was too sketchy, so we no longer use it
 gulp.task("decisions", buildDecisions);
+gulp.task("journals", matchJournals);
 gulp.task("justices", buildJustices);
 gulp.task("transcripts", matchTranscripts);
 gulp.task("all", gulp.series(findAllDecisions, findAllJustices));
