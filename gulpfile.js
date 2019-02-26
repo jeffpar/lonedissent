@@ -5198,7 +5198,8 @@ function reportChanges(done)
             if (linkSource) {
                 let i = searchSortedObjects(decisionsOrig, {caseId: decision.caseId});
                 let decisionOrig = i >= 0? decisionsOrig[i] : {};
-                printf("- %s (%s): %s changed from %#C to %#C (see %s)\n", caseTitle, usCite, linkSCDB, decisionOrig.dateDecision, decision.dateDecision, linkSource);
+                let newDate = decision.dateDecision.length < 10? decision.dateDecision : sprintf("%#C", decision.dateDecision);
+                printf("- %s (%s): %s changed from %#C to %s (see %s)\n", caseTitle, usCite, linkSCDB, decisionOrig.dateDecision, newDate, linkSource);
             }
         }
     });
