@@ -26,9 +26,9 @@ along with a page number inside the PDF.  For example, the dissent in "543 U.S. 
 table of contents.  And even if the opinion *did* start on the cited page, the dissent is always buried at the end
 of the opinion, so a page number for the dissent is almost always required.
 
-So, the source of the PDF, the page number of the opinion, and the page number of the dissent, should be indicated by three
-additional properties (`pdfSource`, `pdfPage`, and `pdfPageDissent`) in [lonerDecisions.json](_data/lonerDecisions.json).
-For example:
+So, the source of the PDF, the page number of the opinion, and the page number of the dissent,
+should be indicated by three additional properties (`pdfSource`, `pdfPage`, and `pdfPageDissent`) in
+[lonerDecisions.json](_data/lonerDecisions.json).  For example:
 
     ...
     "usCite": "543 U.S. 50",
@@ -40,4 +40,5 @@ For example:
     "pdfPageDissent": 272,
     ...
 
-In cases where the opinion (and possibly the dissent) begin on the first page of the PDF, the `pdfPage` (and `pdfPageDissent`) properties may be omitted.
+In cases where the opinion (and possibly the dissent) begin on the first page of the PDF, the `pdfPage`
+(and `pdfPageDissent`) properties may be omitted.

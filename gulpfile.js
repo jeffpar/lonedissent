@@ -87,7 +87,7 @@
  * TODO: Make a list of all "Special Terms" created by the Court (presumably they are all after 1911).
  */
 
- "use strict";
+"use strict";
 
 let glob = require("glob");
 let gulp = require("gulp");
