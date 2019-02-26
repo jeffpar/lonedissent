@@ -1264,9 +1264,7 @@ function parseCite(usCite, cite)
             return true;
         }
     }
-    if (cite) {
-        cite.volume = cite.page = 0;
-    }
+    if (cite) cite.volume = cite.page = 0;
     return false;
 }
 
@@ -5150,7 +5148,7 @@ function reportChanges(done)
     let decisions = JSON.parse(readFile(results.json.decisions));
     printf("sorting SCDB decisions by [usCite,caseTitle]...\n");
     sortObjects(decisions, ["usCite","caseTitle"]);
-    printf("reading date records in %s...\n", results.csv.dates);
+    printf("comparing date records in %s to SCDB...\n", results.csv.dates);
     let rows = readCSV(results.csv.dates);
     rows.forEach((row) => {
         let usCite = row.usCite;
@@ -5172,6 +5170,32 @@ function reportChanges(done)
         let decision = decisions[i];
         if (decision.dateDecision != dateDecision) {
             warning("%s (%s) has dateDecision %s, whereas %s (%s) has %s\n", caseTitle, usCite, dateDecision, (decision.caseTitle || decision.caseName), decision.usCite, decision.dateDecision);
+        }
+    });
+    printf("\nlist of date corrections made to SCDB\n");
+    decisions.forEach((decision) => {
+        if (decision.caseNotes) {
+            let cite = {};
+            let urlSCDB = "";
+            let caseTitle = decision.caseTitle || decision.caseName;
+            let usCite = decision.usCite;
+            let linkSCDB = "dateDecision";
+            let linkSource = "";
+            if (parseCite(usCite, cite)) {
+                linkSCDB = sprintf("[%s](http://scdb.wustl.edu/analysisCaseListing.php?cite=U.S.&vol=%d&page=%d)", linkSCDB, cite.volume, cite.page);
+            }
+            let match = decision.caseNotes.match(/replaced dateDecision from (https:\/\/[^;]*)/);
+            if (match) {
+                linkSource = sprintf("[%d U.S. %d](%s)", cite.volume, cite.page, match[1]);
+            } else {
+                match = decision.caseNotes.match(/replaced dateDecision \S+ \(correction from decisionDates\.pdf\)/);
+                if (match) {
+                    linkSource = "[Dates of Decisions](https://www.supremecourt.gov/opinions/datesofdecisions.pdf)";
+                }
+            }
+            if (linkSource) {
+                printf("- %s (%s): %s changed to %#C (see %s)\n", caseTitle, usCite, linkSCDB, decision.dateDecision, linkSource);
+            }
         }
     });
     done();
