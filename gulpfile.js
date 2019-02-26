@@ -2499,14 +2499,14 @@ function buildDecisions(done)
         sortObjects(decisions, ["caseId"]);
         writeFile(results.json.decisions, decisions);
     } else {
-        let decisionsNew = decisions;
-        // writeFile(results.json.decisionsNew, decisionsNew);
+        let decisionsOrig = decisions;
+        writeFile(results.json.decisionsOrig, decisionsOrig);
         decisions = JSON.parse(readFile(results.json.decisions));
         if (!isSortedObjects(decisions, ["caseId"])) {
             sortObjects(decisions, ["caseId"]);
             writeFile(results.json.decisions, decisions);
         }
-        if (!compareObjectArrays(decisions, decisionsNew, "caseId")) {
+        if (!compareObjectArrays(decisions, decisionsOrig, "caseId")) {
             printf("compare found mismatches\n");
         }
     }
@@ -5172,6 +5172,8 @@ function reportChanges(done)
             warning("%s (%s) has dateDecision %s, whereas %s (%s) has %s\n", caseTitle, usCite, dateDecision, (decision.caseTitle || decision.caseName), decision.usCite, decision.dateDecision);
         }
     });
+    sortObjects(decisions, ["dateDecision"]);
+    let decisionsOrig = JSON.parse(readFile(results.json.decisionsOrig));
     printf("\nlist of date corrections made to SCDB\n");
     decisions.forEach((decision) => {
         if (decision.caseNotes) {
@@ -5182,7 +5184,7 @@ function reportChanges(done)
             let linkSCDB = "dateDecision";
             let linkSource = "";
             if (parseCite(usCite, cite)) {
-                linkSCDB = sprintf("[%s](http://scdb.wustl.edu/analysisCaseListing.php?cite=U.S.&vol=%d&page=%d)", linkSCDB, cite.volume, cite.page);
+                linkSCDB = sprintf("[%s](http://scdb.wustl.edu/analysisCaseListing.php?cid=%s-01)", linkSCDB, decision.caseId);
             }
             let match = decision.caseNotes.match(/replaced dateDecision from (https:\/\/[^;]*)/);
             if (match) {
@@ -5194,7 +5196,9 @@ function reportChanges(done)
                 }
             }
             if (linkSource) {
-                printf("- %s (%s): %s changed to %#C (see %s)\n", caseTitle, usCite, linkSCDB, decision.dateDecision, linkSource);
+                let i = searchSortedObjects(decisionsOrig, {caseId: decision.caseId});
+                let decisionOrig = i >= 0? decisionsOrig[i] : {};
+                printf("- %s (%s): %s changed from %#C to %#C (see %s)\n", caseTitle, usCite, linkSCDB, decisionOrig.dateDecision, decision.dateDecision, linkSource);
             }
         }
     });
