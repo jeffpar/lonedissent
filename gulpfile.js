@@ -598,14 +598,15 @@ function insertSortedArray(a, v)
 }
 
 /**
- * insertSortedObject(rows, row, keys)
+ * insertSortedObject(rows, row, keys, fUnique)
  *
  * @param {Array.<object>} rows
  * @param {object} row
  * @param {Array.<string>} keys
+ * @param {boolean} [fUnique]
  * @return {number}
  */
-function insertSortedObject(rows, row, keys)
+function insertSortedObject(rows, row, keys, fUnique)
 {
     let compare = function(row1, row2) {
         for (let k = 0; k < keys.length; k++) {
@@ -615,7 +616,7 @@ function insertSortedObject(rows, row, keys)
             if (k == keys.length - 1) return 0;
         }
     };
-    return binaryInsert(rows, row, compare);
+    return binaryInsert(rows, row, compare, fUnique);
 }
 
 /**
@@ -3947,6 +3948,10 @@ function matchTranscripts(done)
         warning("number of transcript files (%d) does not match number of transcript entries (%d)\n", filePaths.length, transcripts.length);
     }
 
+    let updates = 0;
+    let newTranscripts = [];
+    let newFields = ["usCite","caseId","dateDecision","urlOyez"];
+
     let rowsOyez = [], rowsOyezByYear = [];
     printf("reading OYEZ case files...\n");
     filePaths = glob.sync(rootDir + path.join(path.dirname(sources.oyez.cases), "**/*.json"));
@@ -3956,6 +3961,7 @@ function matchTranscripts(done)
             row.dockets = row.docket;
             let dockets = row.docket.split(',');
             dockets.forEach((docket) => {
+                if (!row.datesArgued) return;
                 let dates = row.datesArgued.split(',');
                 dates.forEach((date) => {
                     let rowNew = cloneObject(row);
@@ -3969,9 +3975,32 @@ function matchTranscripts(done)
         }
     });
 
-    let updates = 0;
-    let newTranscripts = [];
-    let newFields = ["usCite","caseId","dateDecision","urlOyez"];
+    /*
+     * I'd like to record all Oyez records that don't currently exist in the transcripts CSV...
+     */
+    rowsOyez.forEach((row) => {
+        let i = searchSortedObjects(transcripts, {dateArgument: row.dateArgued});
+        if (i < 0) {
+            let transcriptNew = {
+                "term": row.term,
+                "usCite": row.usCite,
+                "caseTitle": row.caseTitle,
+                "caseId": "",
+                "docket": row.dockets,
+                "dateArgument": row.dateArgued,
+                "dateDecision": row.dateDecision,
+                "url": "",
+                "file": "",
+                "urlOyez": row.urlOyez,
+                "notes": ""
+            };
+            if (insertSortedObject(transcripts, transcriptNew, ["dateArgument", "docket"], true) >= 0) {
+                printf("adding Oyez argument: %s (%s) [%s] for term %s, argued %#C\n", transcriptNew.caseTitle, transcriptNew.usCite, transcriptNew.docket, transcriptNew.term, transcriptNew.dateArgument);
+                updates++;
+            }
+        }
+    });
+
     let uniqueTranscripts = {};
     printf("processing transcripts...\n");
     for (let i = 0; i < transcripts.length; i++) {
@@ -3981,7 +4010,7 @@ function matchTranscripts(done)
             "usCite": transcript.usCite || "",
             "caseTitle": transcript.caseTitle,
             "caseId": transcript.caseId || "",
-            "docket": fixDocketNumber(transcript.docket),
+            "docket": transcript.file? fixDocketNumber(transcript.docket) : transcript.docket,
             "dateArgument": transcript.dateArgument,
             "dateDecision": transcript.dateDecision || "",
             "url": transcript.url,
@@ -3992,6 +4021,7 @@ function matchTranscripts(done)
         if (transcriptNew.docket != transcript.docket) updates++;
         newTranscripts.push(transcriptNew);
         let filePath = transcript.file;
+        if (!filePath) continue;        // skip transcript records that came from Oyez, for the moment...
         let fileName = path.basename(filePath);
         let match = fileName.match(/^(.*?)_([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])([A-Z]?)\.pdf$/);
         if (!match) {
@@ -4198,15 +4228,17 @@ function matchTranscripts(done)
     if (transcriptNoOyez) transcriptPage += "## Missing OYEZ Transcripts\n\nThese transcripts were not found in a corresponding OYEZ case record.\n\n" + transcriptNoOyez + "\n";
     transcriptPage += "## Unmatched Transcripts\n\nThese transcripts have NOT yet been matched to an SCDB entry.\n\n" + transcriptExceptions;
 
+    if (updates) {
+        printf("%d transcript updates\n", updates);
+        writeCSV(results.csv.transcripts, newTranscripts);
+    }
+
     if (exceptions) {
         printf("%d exceptions (see %s for details)\n", exceptions, transcriptPath);
     }
 
-    if (updates) {
-        writeCSV(results.csv.transcripts, newTranscripts);
-    }
-
     if (changes) {
+        printf("%d decision changes\n", updates);
         writeFile(results.json.decisions, decisions);
     }
 
