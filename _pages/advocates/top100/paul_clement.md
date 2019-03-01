@@ -3921,3 +3921,14 @@ cases:
 ---
 
 Paul D. Clement argued 92 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/paul_d_clement).
+
+Unfortunately, as we've seen with other top advocates, such as [Edwin S. Kneedler](/advocates/top100/edwin_kneedler)
+and [Michael R. Dreeben](/advocates/top100/michael_dreeben), the exact count is hard to verify, and the Supreme Court
+doesn't release any own of its records to help confirm the total.
+
+In Mr. Clement's case, it was [reported](http://www.bancroftpllc.com/wp-content/uploads/2014/10/2014-10-16-NLJ-Clement-Marks-Milestone-of-75-Supreme-Court-Arguments-1.pdf) on October 16, 2014 that his 75th
+argument was [Integrity Staffing Solutions, Inc. v. Busk](#2014-005).  However, if true, then we're apparently
+missing one of his arguments, because we list that argument as Appearance No. 74.
+
+The missing argument presumably occurred sometime between October 2009 and October 2014, because all indications
+are that his [50th argument](https://legaltimes.typepad.com/blt/2009/10/paul-clement-43-celebrates-his-50th-argument.html) was [Perdue v. Kenny A.](#2009-045).
