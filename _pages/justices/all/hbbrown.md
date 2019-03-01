@@ -1753,7 +1753,7 @@ cases:
     docket: "254"
     citation: "152 U.S. 425"
     pdfSource: "loc"
-    dateDecision: "Thursday, March 8, 1894"
+    dateDecision: "Monday, March 19, 1894"
     voteMajority: 8
     voteMinority: 0
     authorId: hbbrown

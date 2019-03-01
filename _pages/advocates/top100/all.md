@@ -23,6 +23,6 @@ NOTE: Any advocate listed below whose total is reported as "at least" still requ
 - [Lawrence G. Wallace](/advocates/top100/lawrence_wallace) (157 arguments)
 - [Edwin S. Kneedler](/advocates/top100/edwin_kneedler) (143 arguments)
 - [Michael R. Dreeben](/advocates/top100/michael_dreeben) (106 arguments)
-- [Paul D. Clement](/advocates/top100/paul_clement) (at least 88 arguments)
+- [Paul D. Clement](/advocates/top100/paul_clement) (at least 92 arguments)
 - [Carter G. Phillips](/advocates/top100/carter_phillips) (at least 85 arguments)
 - [Lisa S. Blatt](/advocates/top100/lisa_blatt) (at least 56 arguments)

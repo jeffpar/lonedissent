@@ -380,27 +380,27 @@ cases:
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-226"
-    termId: "1881-10"
+    termId: "1882-10"
     title: "Connecticut Mut. Life Ins. Co. v. Cushman"
     volume: "108"
     page: "051"
     docket: "662"
     citation: "108 U.S. 51"
     pdfSource: "loc"
-    dateDecision: "Sunday, October 1, 1882"
+    dateDecision: "Monday, March 5, 1883"
     voteMajority: 9
     voteMinority: 0
     authorId: smatthews
     authorName: "Stanley Matthews"
   - id: "1881-227"
-    termId: "1881-10"
+    termId: "1882-10"
     title: "Medsker v. Bonebrake"
     volume: "108"
     page: "066"
     docket: "156"
     citation: "108 U.S. 66"
     pdfSource: "loc"
-    dateDecision: "Sunday, October 1, 1882"
+    dateDecision: "Monday, March 5, 1883"
     voteMajority: 9
     voteMinority: 0
     authorId: smatthews

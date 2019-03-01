@@ -69,13 +69,13 @@ cases:
     authorId: sblatchford
     authorName: "Samuel Blatchford"
   - id: "1881-228"
-    termId: "1881-10"
+    termId: "1882-10"
     title: "The Nuestra Se&ntilde;ora de Regla"
     volume: "108"
     page: "092"
     citation: "108 U.S. 92"
     pdfSource: "loc"
-    dateDecision: "Sunday, October 1, 1882"
+    dateDecision: "Monday, March 12, 1883"
     voteMajority: 6
     voteMinority: 3
     authorId: sblatchford
@@ -2340,13 +2340,13 @@ cases:
     authorId: sblatchford
     authorName: "Samuel Blatchford"
   - id: "1886-311"
-    termId: "1886-10"
+    termId: "1887-10"
     title: "ANDREWS v. CONE"
     volume: "124"
     page: "720"
     citation: "124 U.S. 720"
     pdfSource: "loc"
-    dateDecision: "Saturday, October 1, 1887"
+    dateDecision: "Monday, February 20, 1888"
     voteMajority: 8
     voteMinority: 0
     authorId: sblatchford
@@ -3118,14 +3118,14 @@ cases:
     authorId: sblatchford
     authorName: "Samuel Blatchford"
   - id: "1888-078"
-    termId: "1886-10"
+    termId: "1888-10"
     title: "McCormick v. Graham&apos;s Administrator"
     volume: "129"
     page: "001"
     docket: "108"
     citation: "129 U.S. 1"
     pdfSource: "loc"
-    dateDecision: "Monday, January 10, 1887"
+    dateDecision: "Monday, January 7, 1889"
     voteMajority: 8
     voteMinority: 0
     authorId: sblatchford

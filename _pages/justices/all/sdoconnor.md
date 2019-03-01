@@ -24,7 +24,7 @@ cases:
     docket: "80-1121"
     citation: "454 U.S. 555"
     pdfSource: "loc"
-    dateDecision: "Wednesday, January 13, 1982"
+    dateDecision: "Tuesday, January 12, 1982"
     voteMajority: 9
     voteMinority: 0
     authorId: sdoconnor

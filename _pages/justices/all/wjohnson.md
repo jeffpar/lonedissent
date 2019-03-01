@@ -154,7 +154,7 @@ cases:
     page: "084"
     citation: "12 U.S. 84"
     pdfSource: "loc"
-    dateDecision: "Friday, February 25, 1814"
+    dateDecision: "Saturday, February 19, 1814"
     voteMajority: 6
     voteMinority: 0
     authorId: wjohnson

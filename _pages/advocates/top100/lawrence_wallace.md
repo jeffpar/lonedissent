@@ -605,7 +605,7 @@ cases:
     citation: "404 U.S. 138"
     pdfSource: "loc"
     dateArgument: "Tuesday, October 19, 1971"
-    dateDecision: "Monday, December 6, 1971"
+    dateDecision: "Wednesday, December 8, 1971"
     urlOyez: "https://www.oyez.org/cases/1971/70-93"
     voteMajority: 5
     voteMinority: 2
@@ -3449,7 +3449,7 @@ cases:
     citation: "465 U.S. 330"
     pdfSource: "loc"
     dateArgument: "Tuesday, November 1, 1983"
-    dateDecision: "Tuesday, February 21, 1984"
+    dateDecision: "Wednesday, February 22, 1984"
     urlOyez: "https://www.oyez.org/cases/1983/82-1041"
     voteMajority: 7
     voteMinority: 2

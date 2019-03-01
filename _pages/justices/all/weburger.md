@@ -2754,7 +2754,7 @@ cases:
     docket: "82-1041"
     citation: "465 U.S. 330"
     pdfSource: "loc"
-    dateDecision: "Tuesday, February 21, 1984"
+    dateDecision: "Wednesday, February 22, 1984"
     voteMajority: 7
     voteMinority: 2
     authorId: weburger

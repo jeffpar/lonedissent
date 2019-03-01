@@ -2501,10 +2501,94 @@ cases:
     number: 58
     termId: "2011-10"
     title: "National Federation of Independent Business v. Sebelius"
-    docket: "11-393,11-398,11-400"
+    docket: "11-398"
     citation: "567 U.S. ___"
     pdfSource: "scotusBound"
-    dateArgument: "Monday, March 26, 2012"
+    dateArgument: "Tuesday, March 27, 2012"
+    dateDecision: "Thursday, June 28, 2012"
+    urlOyez: "https://www.oyez.org/cases/2011/11-393"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: jgroberts
+    authorName: "John Roberts"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: false
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: false
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: false
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: false
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: true
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: true
+  - id: "2011-077"
+    number: 59
+    termId: "2011-10"
+    title: "National Federation of Independent Business v. Sebelius"
+    docket: "11-393"
+    citation: "567 U.S. ___"
+    pdfSource: "scotusBound"
+    dateArgument: "Wednesday, March 28, 2012"
+    dateDecision: "Thursday, June 28, 2012"
+    urlOyez: "https://www.oyez.org/cases/2011/11-393"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: jgroberts
+    authorName: "John Roberts"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: false
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: false
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: false
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: false
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: true
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: true
+  - id: "2011-077"
+    number: 60
+    termId: "2011-10"
+    title: "National Federation of Independent Business v. Sebelius"
+    docket: "11-400"
+    citation: "567 U.S. ___"
+    pdfSource: "scotusBound"
+    dateArgument: "Wednesday, March 28, 2012"
     dateDecision: "Thursday, June 28, 2012"
     urlOyez: "https://www.oyez.org/cases/2011/11-393"
     voteMajority: 5
@@ -2540,7 +2624,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-067"
-    number: 59
+    number: 61
     termId: "2011-10"
     title: "Christopher v. SmithKline"
     docket: "11-204"
@@ -2582,7 +2666,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2011-075"
-    number: 60
+    number: 62
     termId: "2011-10"
     title: "Arizona v. United States"
     docket: "11-182"
@@ -2624,7 +2708,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-063"
-    number: 61
+    number: 63
     termId: "2012-10"
     title: "Maracich v. Spears"
     docket: "12-25"
@@ -2666,7 +2750,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-045"
-    number: 62
+    number: 64
     termId: "2012-10"
     title: "PPL Corporation v. Commissioner of Internal Revenue"
     volume: "569"
@@ -2710,7 +2794,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-066"
-    number: 63
+    number: 65
     termId: "2012-10"
     title: "American Express Co., et al. v. Italian Colors Restaurant"
     docket: "12-133"
@@ -2752,7 +2836,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-079"
-    number: 64
+    number: 66
     termId: "2012-10"
     title: "United States v. Windsor"
     docket: "12-307"
@@ -2794,7 +2878,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-075"
-    number: 65
+    number: 67
     termId: "2012-10"
     title: "Adoptive Couple v. Baby Girl"
     docket: "12-399"
@@ -2836,7 +2920,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-078"
-    number: 66
+    number: 68
     termId: "2012-10"
     title: "Sekhar v. United States"
     docket: "12-357"
@@ -2878,7 +2962,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-022"
-    number: 67
+    number: 69
     termId: "2013-10"
     title: "Chadbourne and Parke LLP v. Troice"
     docket: "12-79"
@@ -2920,7 +3004,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-053"
-    number: 68
+    number: 70
     termId: "2013-10"
     title: "Bond v. United States"
     docket: "12-158"
@@ -2962,7 +3046,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-034"
-    number: 69
+    number: 71
     termId: "2013-10"
     title: "Northwest, Inc. v. Ginsberg"
     docket: "12-462"
@@ -3003,8 +3087,92 @@ cases:
       - id: ekagan
         name: "Elena Kagan"
         majority: true
+  - id: "2013-070"
+    number: 72
+    termId: "2013-10"
+    title: "Burwell v. Hobby Lobby Stores"
+    docket: "13-354"
+    citation: "573 U.S. ___"
+    pdfSource: "slipopinion/13"
+    dateArgument: "Tuesday, March 25, 2014"
+    dateDecision: "Monday, June 30, 2014"
+    urlOyez: "https://www.oyez.org/cases/2013/13-354"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: saalito
+    authorName: "Samuel Alito"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: false
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: false
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: false
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: false
+  - id: "2013-067"
+    number: 73
+    termId: "2013-10"
+    title: "ABC, Inc. v. Aereo, Inc."
+    docket: "13-461"
+    citation: "573 U.S. ___"
+    pdfSource: "slipopinion/13"
+    dateArgument: "Tuesday, April 22, 2014"
+    dateDecision: "Wednesday, June 25, 2014"
+    urlOyez: "https://www.oyez.org/cases/2013/13-461"
+    voteMajority: 6
+    voteMinority: 3
+    authorId: sgbreyer
+    authorName: "Stephen Breyer"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: false
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: false
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: false
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: true
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: true
   - id: "2014-005"
-    number: 70
+    number: 74
     termId: "2014-10"
     title: "Integrity Staffing Solutions, Inc. v. Busk"
     docket: "13-433"
@@ -3046,7 +3214,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-048"
-    number: 71
+    number: 75
     termId: "2014-10"
     title: "Arizona State Legislature v. Arizona Independent Redistricting Commission"
     docket: "13-1314"
@@ -3088,7 +3256,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-068"
-    number: 72
+    number: 76
     termId: "2014-10"
     title: "Kingsley v. Hendrickson"
     docket: "14-6368"
@@ -3130,7 +3298,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-008"
-    number: 73
+    number: 77
     termId: "2015-10"
     title: "Federal Energy Regulatory Commission v. Electric Power Supply Association, et al."
     docket: "14-840,14-841"
@@ -3172,7 +3340,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-026"
-    number: 74
+    number: 78
     termId: "2015-10"
     title: "Franchise Tax Board of California v. Hyatt"
     docket: "14-1175"
@@ -3211,7 +3379,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-037"
-    number: 75
+    number: 79
     termId: "2015-10"
     title: "Nebraska v. Parker"
     docket: "14-1406"
@@ -3250,7 +3418,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-042"
-    number: 76
+    number: 80
     termId: "2015-10"
     title: "Hughes v. Talen Energy Marketing, LLC"
     docket: "14-614,14-623"
@@ -3289,7 +3457,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-063"
-    number: 77
+    number: 81
     termId: "2015-10"
     title: "Zubik v. Burwell"
     docket: "14-1418,14-1453,14-1505,15-35,15-105,15-119,15-191"
@@ -3326,7 +3494,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-069"
-    number: 78
+    number: 82
     termId: "2015-10"
     title: "Encino Motorcars v. Navarro"
     docket: "15-415"
@@ -3365,7 +3533,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-030"
-    number: 79
+    number: 83
     termId: "2016-10"
     title: "Cooper v. Harris"
     docket: "15-1262"
@@ -3407,7 +3575,7 @@ cases:
         name: "Neil Gorsuch"
         majority: false
   - id: "2016-029"
-    number: 80
+    number: 84
     termId: "2016-10"
     title: "Bethune-Hill v. Virginia Board of Elections"
     docket: "15-680"
@@ -3446,7 +3614,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-065"
-    number: 81
+    number: 85
     termId: "2016-10"
     title: "California Public Employees&rsquo; Retirement System v. ANZ Securities, Inc."
     docket: "16-373"
@@ -3488,7 +3656,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "2017-002"
-    number: 82
+    number: 86
     termId: "2017-10"
     title: "Epic Systems Corp. v. Lewis"
     docket: "16-285,16-300,16-307"
@@ -3530,7 +3698,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "2017-010"
-    number: 83
+    number: 87
     termId: "2017-10"
     title: "Jesner v. Arab Bank, PLC"
     docket: "16-499"
@@ -3572,7 +3740,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "2017-016"
-    number: 84
+    number: 88
     termId: "2017-10"
     title: "Merit Management Group v. FTI Consulting, Inc."
     docket: "16-784"
@@ -3614,7 +3782,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "2017-022"
-    number: 85
+    number: 89
     termId: "2017-10"
     title: "Murphy v. National Collegiate Athletic Association"
     docket: "16-476,16-477"
@@ -3656,7 +3824,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "2017-040"
-    number: 86
+    number: 90
     termId: "2017-10"
     title: "Encino Motorcars, LLC v. Navarro"
     docket: "16-1362"
@@ -3698,7 +3866,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "2017-058"
-    number: 87
+    number: 91
     termId: "2017-10"
     title: "WesternGeco LLC v. ION Geophysical Corp."
     docket: "16-1011"
@@ -3740,7 +3908,7 @@ cases:
         name: "Neil Gorsuch"
         majority: false
   - id: "63029"
-    number: 88
+    number: 92
     termId: "2018-10"
     title: "Rimini Street, Inc. v. Oracle USA, Inc."
     docket: "17-1625"
@@ -3752,4 +3920,4 @@ cases:
     voteMinority: 0
 ---
 
-Paul D. Clement argued 88 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/paul_d_clement).
+Paul D. Clement argued 92 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/paul_d_clement).

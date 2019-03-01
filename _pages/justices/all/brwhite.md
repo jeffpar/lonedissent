@@ -3508,7 +3508,7 @@ cases:
     docket: "80-931"
     citation: "454 U.S. 404"
     pdfSource: "loc"
-    dateDecision: "Monday, January 11, 1982"
+    dateDecision: "Tuesday, January 12, 1982"
     voteMajority: 5
     voteMinority: 4
     authorId: brwhite

@@ -3124,14 +3124,14 @@ cases:
     authorId: jpbradley
     authorName: "Joseph Bradley"
   - id: "1881-225"
-    termId: "1881-10"
+    termId: "1882-10"
     title: "Stebbins v. Duncan"
     volume: "108"
     page: "032"
     docket: "153"
     citation: "108 U.S. 32"
     pdfSource: "loc"
-    dateDecision: "Sunday, October 1, 1882"
+    dateDecision: "Monday, March 5, 1883"
     voteMajority: 9
     voteMinority: 0
     authorId: jpbradley

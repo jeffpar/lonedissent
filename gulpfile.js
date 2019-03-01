@@ -332,7 +332,7 @@ function decodeString(text, decodeAs)
         /*
          * Replace any old-fashioned "&c" references that could be misinterpreted as HTML entities.
          */
-        text = text.replace(/&C\.?/g, "ETC.").replace(/&c\.?/g, "etc.").replace(/&AMP;/g, "&").replace(/&NBSP;/g, "");
+        text = text.replace(/&C\./g, "ETC.").replace(/&c\./g, "etc.").replace(/&AMP;/g, "&").replace(/&NBSP;/g, "");
         text = he.decode(text);
     }
     return text;
@@ -687,9 +687,13 @@ function searchObjects(rows, row, next=0, fSub=false)
         let k;
         for (k = 0; k < keys.length; k++) {
             let key = keys[k];
-            if (fSub && rows[i][key].indexOf(row[key]) < 0 || !fSub && rows[i][key] != row[key]) break;
+            if (fSub && rows[i][key].indexOf(row[key]) < 0 || !fSub && rows[i][key] != row[key]) {
+                break;
+            }
         }
-        if (k == keys.length) break;
+        if (k == keys.length) {
+            break;
+        }
     }
     return (i < rows.length)? i : -1;
 }
@@ -1384,15 +1388,16 @@ function getOyezDates(timeline, event)
 }
 
 /**
- * readOyezCaseData(filePath, caseTitle, docket, advocateName)
+ * readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
  *
  * @param {string} filePath
  * @param {string} [caseTitle]
  * @param {string} [docket]
+ * @param {string} [dateArgued]
  * @param {string} [advocateName]
  * @return {object|undefined}
  */
-function readOyezCaseData(filePath, caseTitle, docket, advocateName)
+function readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
 {
     let row;
     let caseDetail = JSON.parse(readFile(filePath) || "{}");
@@ -1408,7 +1413,7 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
         row.usCite = getNewCite(row.volume, row.page);
         row.dateDecision = getOyezDates(caseDetail.timeline, "Decided");
         row.docket = docket_number.replace(" ORIG", " Orig.").replace("-orig", " Orig.").replace("orig", " Orig.").replace(".-1", ".").replace(".-2", ".").replace(" MISC", " Misc.").trim();
-        if (caseDetail.additional_docket_numbers) {
+        if (!docket && caseDetail.additional_docket_numbers) {
             caseDetail.additional_docket_numbers.forEach((docket) => {
                 if (docket) {
                     docket = docket.replace(" ORIG", " Orig.").replace("-orig", " Orig.").replace("orig", " Orig.").replace(".-1", ".").replace(".-2", ".").replace(" MISC", " Misc.").trim();
@@ -1490,6 +1495,16 @@ function readOyezCaseData(filePath, caseTitle, docket, advocateName)
                     warning("%s (%s) has an invalid audio date (%s)\n%s\n\n", row.caseTitle, row.usCite, audio.title, urlOyez);
                 }
             });
+        }
+        if (dateArgued) {
+            /*
+             * If a specific argument date has been requested, let's validate it, and if it passes, use it.
+             */
+            if (row.datesArgued.indexOf(dateArgued) < 0) {
+                warning("dateArgued (%s) not present in datesArgued (%s)\n", dateArgued, row.datesArgued);
+            } else {
+                row.datesArgued = dateArgued;
+            }
         }
         let days = row.datesArgued.split(',');
         row.daysArgument = days.length;
@@ -1858,25 +1873,15 @@ function backupLonerDecisions(done)
  * @param {Array.<Decision>} decisions
  * @param {string} date
  * @param {string} docket
- * @return {numnber}
+ * @return {number}
  */
 function findByDateAndDocket(decisions, date, docket)
 {
-    let i, j, next = 0;
     let dockets = docket.split(',');
-    let obj = {dateArgument: date};
-    while ((i = searchObjects(decisions, obj, next, true)) >= 0) {
-        let docketList = decisions[i].docket.split(',');
-        for (j = 0; j < dockets.length; j++) {
-            if (docketList.indexOf(dockets[j]) >= 0) break;
-        }
-        if (j < dockets.length) break;
-        next = i + 1;
-    }
-    if (i < 0) {
-        next = 0;
-        obj = {dateRearg: date};
+    let searchByDate = function(obj) {
+        let i, next = 0;
         while ((i = searchObjects(decisions, obj, next, true)) >= 0) {
+            let j;
             let docketList = decisions[i].docket.split(',');
             for (j = 0; j < dockets.length; j++) {
                 if (docketList.indexOf(dockets[j]) >= 0) break;
@@ -1884,7 +1889,10 @@ function findByDateAndDocket(decisions, date, docket)
             if (j < dockets.length) break;
             next = i + 1;
         }
-    }
+        return i;
+    };
+    let i = searchByDate({dateArgument: date});
+    if (i < 0) i = searchByDate({dateRearg: date});
     return i;
 }
 
@@ -1925,14 +1933,20 @@ function buildAdvocates(done)
                     let cases = JSON.parse(readFile(filePath) || "[]");
                     if (i == 1) {
                         let missingCases = advocates.missingCases && advocates.missingCases[id];
-                        if (missingCases) cases.push(...missingCases);
+                        if (missingCases) {
+                            missingCases.forEach((obj) => {
+                                let i = searchObjects(cases, {"ID": obj.ID});
+                                if (i >= 0) cases.splice(i, 1);
+                            });
+                            cases.push(...missingCases);
+                        }
                     }
                     cases.forEach((obj) => {
                         let dir = path.join(path.dirname(sources.oyez.cases), obj.term);
-                        let fileID = obj.docket_number + '_' + obj.ID;
+                        let fileID = obj.fileID || (obj.docket_number + '_' + obj.ID);
                         let file = fileID + ".json";
                         let filePath = path.join(dir, file);
-                        let row = readOyezCaseData(filePath, obj.title, obj.consolidated_docket_number, aliases[0]);
+                        let row = readOyezCaseData(filePath, obj.title, obj.consolidated_docket_number, obj.date_argued, aliases[0]);
                         if (row) {
                             if (row.datesArgued) {
                                 delete row.dateArgument;

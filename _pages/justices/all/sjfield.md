@@ -3908,14 +3908,14 @@ cases:
     authorId: sjfield
     authorName: "Stephen Field"
   - id: "1883-002"
-    termId: "1882-10"
+    termId: "1883-10"
     title: "Slidell v. Grandjean"
     volume: "111"
     page: "412"
     docket: "587"
     citation: "111 U.S. 412"
     pdfSource: "loc"
-    dateDecision: "Monday, October 1, 1883"
+    dateDecision: "Monday, March 3, 1884"
     voteMajority: 9
     voteMinority: 0
     authorId: sjfield
@@ -5115,13 +5115,13 @@ cases:
     authorId: sjfield
     authorName: "Stephen Field"
   - id: "1886-309"
-    termId: "1886-10"
+    termId: "1887-10"
     title: "UNITED STATES v. ALABAMA"
     volume: "123"
     page: "039"
     citation: "123 U.S. 39"
     pdfSource: "loc"
-    dateDecision: "Saturday, October 1, 1887"
+    dateDecision: "Monday, October 24, 1887"
     voteMajority: 8
     voteMinority: 0
     authorId: sjfield
@@ -6127,14 +6127,14 @@ cases:
     authorId: sjfield
     authorName: "Stephen Field"
   - id: "1890-066"
-    termId: "1889-10"
+    termId: "1890-10"
     title: "St. Paul, M. &amp; M. R. Co. v. Wenzel"
     volume: "139"
     page: "023"
     docket: "25"
     citation: "139 U.S. 23"
     pdfSource: "loc"
-    dateDecision: "Wednesday, October 1, 1890"
+    dateDecision: "Monday, March 2, 1891"
     voteMajority: 9
     voteMinority: 0
     authorId: sjfield

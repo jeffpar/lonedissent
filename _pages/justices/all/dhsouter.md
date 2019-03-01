@@ -726,7 +726,7 @@ cases:
     docket: "95-6556"
     citation: "519 U.S. 172"
     pdfSource: "loc"
-    dateDecision: "Tuesday, January 14, 1997"
+    dateDecision: "Tuesday, January 7, 1997"
     voteMajority: 5
     voteMinority: 4
     authorId: dhsouter

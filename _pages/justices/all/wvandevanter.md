@@ -4378,7 +4378,7 @@ cases:
     docket: "5"
     citation: "283 U.S. 570"
     pdfSource: "loc"
-    dateDecision: "Monday, January 5, 1931"
+    dateDecision: "Monday, May 25, 1931"
     voteMajority: 7
     voteMinority: 2
     authorId: wvandevanter

@@ -1655,14 +1655,14 @@ cases:
     authorId: djbrewer
     authorName: "David Brewer"
   - id: "1892-229"
-    termId: "1893-10"
+    termId: "1892-10"
     title: "Baltimore &amp; Ohio R. Co. v. Baugh"
     volume: "149"
     page: "368"
     docket: "89"
     citation: "149 U.S. 368"
     pdfSource: "loc"
-    dateDecision: "Tuesday, May 1, 1894"
+    dateDecision: "Monday, May 1, 1893"
     voteMajority: 5
     voteMinority: 2
     authorId: djbrewer

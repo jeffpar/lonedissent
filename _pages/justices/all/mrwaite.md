@@ -5944,11 +5944,11 @@ cases:
     termId: "1880-10"
     title: "Hinckley v. Morton"
     volume: "103"
-    page: "764"
+    page: "765"
     docket: "895"
-    citation: "103 U.S. 764"
+    citation: "103 U.S. 765"
     pdfSource: "loc"
-    dateDecision: "Monday, March 21, 1881"
+    dateDecision: "Monday, May 2, 1881"
     voteMajority: 6
     voteMinority: 0
     authorId: mrwaite
@@ -6904,14 +6904,14 @@ cases:
     authorId: mrwaite
     authorName: "Morrison Waite"
   - id: "1881-229"
-    termId: "1881-10"
+    termId: "1882-10"
     title: "Western Pacific R. Co. v. United States"
     volume: "108"
     page: "510"
     docket: "219"
     citation: "108 U.S. 510"
     pdfSource: "loc"
-    dateDecision: "Sunday, October 1, 1882"
+    dateDecision: "Monday, May 7, 1883"
     voteMajority: 8
     voteMinority: 0
     authorId: mrwaite

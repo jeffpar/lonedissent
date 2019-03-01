@@ -3833,7 +3833,7 @@ cases:
     docket: "49"
     citation: "350 U.S. 198"
     pdfSource: "loc"
-    dateDecision: "Friday, January 6, 1956"
+    dateDecision: "Monday, January 16, 1956"
     voteMajority: 6
     voteMinority: 3
     authorId: wodouglas
@@ -5679,7 +5679,7 @@ cases:
     docket: "25"
     citation: "389 U.S. 54"
     pdfSource: "loc"
-    dateDecision: "Thursday, November 16, 1967"
+    dateDecision: "Monday, November 6, 1967"
     voteMajority: 6
     voteMinority: 3
     authorId: wodouglas
@@ -6381,7 +6381,7 @@ cases:
     docket: "70-93"
     citation: "404 U.S. 138"
     pdfSource: "loc"
-    dateDecision: "Monday, December 6, 1971"
+    dateDecision: "Wednesday, December 8, 1971"
     voteMajority: 5
     voteMinority: 2
     authorId: wodouglas

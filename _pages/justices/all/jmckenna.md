@@ -173,14 +173,14 @@ cases:
     authorId: jmckenna
     authorName: "Joseph McKenna"
   - id: "1898-026"
-    termId: "1897-10"
+    termId: "1898-10"
     title: "The Elfrida"
     volume: "172"
     page: "186"
     docket: "169"
     citation: "172 U.S. 186"
     pdfSource: "loc"
-    dateDecision: "Saturday, October 1, 1898"
+    dateDecision: "Monday, December 12, 1898"
     voteMajority: 9
     voteMinority: 0
     authorId: jmckenna

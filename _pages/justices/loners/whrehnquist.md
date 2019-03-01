@@ -830,7 +830,7 @@ cases:
     docket: "83-5424"
     citation: "470 U.S. 68"
     pdfSource: "loc"
-    dateDecision: "Wednesday, February 20, 1985"
+    dateDecision: "Tuesday, February 26, 1985"
     voteMajority: 8
     voteMinority: 1
     dissenterId: whrehnquist
