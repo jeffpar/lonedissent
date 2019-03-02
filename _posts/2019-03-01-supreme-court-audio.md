@@ -32,9 +32,6 @@ you are holding an *original* tape, not a copy.  Here's a snapshot of one of the
 
 Near the tapes are binders containing Accession Lists that can help you locate tapes you're interested in.  Unfortunately, the descriptions are not always sufficient.  For example, the Court would occasionally record opinion announcements in the 1950s and 1960s, but it was rarely and sporadically done, and no one noted *which* opinions had been recorded.
 
-NARA and the Supreme Court don't always use the same terminology, either.  The Supreme Court has always used Docket Numbers to identify cases within a term, but as you can see on the spines of the tapes, someone at NARA decided those should be called "Case Numbers."  As masters of their respective domains, each insists on doing
-things their own ways.
-
 ![1966 Supreme Court Audio Accession List - Page 7](/images/nara/1966/1966-Audio-Accession-List--Page07.png)
 
 Back in 2007, when I mounted tape 267.613 labeled "ADMISSIONS TO THE BAR & OPINIONS OF THE COURT", I discovered that a rather important opinion announcement, [Time, Inc. v. Hill](https://www.oyez.org/cases/1965/22), had been recorded.  I duplicated it and passed it on to The Oyez Project, which at the time, was missing that particular recording.
