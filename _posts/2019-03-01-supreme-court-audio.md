@@ -7,22 +7,22 @@ The Supreme Court began recording oral arguments in October 1955 on reel-to-reel
 later send to the National Archives.  Normally, such tapes are considered "masters" which are stored
 in special climate-controlled rooms and which most people are not permitted to touch.
 
-If someone wanted a copy of anything on those tapes, they would have to fill out a form and wait for
+If someone wants a copy of anything on those tapes, they have to fill out a form and wait for
 the archives to produce a reference or "shelf" copy.  In the old days, those reference copies would be
 5-inch reel-to-reel tapes.  As technology progressed, cassette tapes were used to create reference copies,
 and most recently, audio CDs.
 
-However, if you were lucky and someone else had already requested a tape you were interested in,
+However, if you are lucky and someone else had already requested a tape you were interested in,
 then a reference copy might already be sitting on the shelf.  For example, in March 2014, I requested a reference copy of [Keeton v. Hustler Magazine](https://www.supremecourt.gov/pdfs/transcripts/1983/82-485_11-08-1983.pdf), so when I visited the National Archives in College Park, Maryland in April 2014, I was able to locate the CD in their compact stacks and copy the audio onto my laptop.  So now anyone else who wants that particular audio recording can do the same.
 
 In fact, most Supreme Court recordings from 1955 into the 1970s are currently available on 5-inch
 reel-to-reel reference tapes at College Park, sitting on shelves in compact stacks for anyone to access --
-but not because someone had previously requested them all.  At some point, probably in the 1970s, NARA undertook
-a massive effort to duplicate all the original tapes, producing new masters, and then cutting and relabeling
-the original tapes to produce what are now called reference or shelf copies.
+but not because someone had previously requested them all.  Decades ago, when NARA was probably better funded,
+they undertook a massive effort to duplicate all the original tapes, producing new masters, and then cutting
+and relabeling the original tapes to produce what are now called reference or shelf copies.
 
 So, when you pick up a Supreme Court audio tape from the 1950s or 1960s off the shelves at NARA, you are holding
-the *original* tape, not a copy.
+an *original* tape, not a copy.
 
 ## About That Keeton v. Hustler Recording
 
@@ -42,7 +42,7 @@ actual oral argument.  For example, in Keeton, you can hear the Marshal's tradit
 
 {% include audio-player.html id="audio1" width="300px" src="/audio/nara/267.458--82-485--Keeton_v_Hustler--Intro.mp3" %}
 
-Note: the rest of the [Keeton](https://apps.oyez.org/player/#/burger8/oral_argument_audio/19772) argument can be found on the [Oyez website](https://www.oyez.org/cases/1983/82-485).
+NOTE: the rest of the [Keeton](https://apps.oyez.org/player/#/burger8/oral_argument_audio/19772) argument can be found on the [Oyez website](https://www.oyez.org/cases/1983/82-485).
 
 What's also interesting about the Keeton case is that, reportedly, Larry Flynt made an obscene outburst at the conclusion of the argument.  Whatever transpired, however, didn't get picked up by the Court's microphones.
 

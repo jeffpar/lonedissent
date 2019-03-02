@@ -1550,11 +1550,14 @@ function readOyezTranscriptData(filePath)
 {
     let data = {text: []};
     let transcriptDetail = JSON.parse(readFile(filePath) || "{}");
-    if (transcriptDetail) {
+    if (transcriptDetail && transcriptDetail.transcript) {
         transcriptDetail.transcript.sections.forEach((section) => {
             section.turns.forEach((turn) => {
+                if (turn.speaker) {
+                    data.text.push(turn.speaker.name);
+                }
                 turn.text_blocks.forEach((block) => {
-                    data.text.push(block.text);
+                    data.text.push('\t' + block.text);
                 });
             });
         });
@@ -4306,19 +4309,26 @@ function searchTranscripts(done)
     }
 
     let search = argv['search'];
-    filePaths.forEach((filePath) => {
-        let found = false;
-        let data = readOyezTranscriptData(filePath);
+    transcripts.forEach((transcript) => {
+        if (transcript.file.indexOf("_argument") < 0) return;
+        let data = readOyezTranscriptData(transcript.file);
         if (data.text && search) {
+            let found = false;
             for (let i = 0; i < data.text.length; i++) {
                 let line = data.text[i];
                 if (line.indexOf(search) >= 0) {
-                    found = true;
-                    break;
+                    if (!found) {
+                        printf("./%s/%s_%s.txt\n", transcript.term, transcript.docket.replace(" Orig.", "-orig").replace(" Misc.", "-misc"), transcript.dateArgument);
+                        found = true;
+                    }
+                    if (argv['detail']) {
+                        printf("%s\n", line);
+                    } else {
+                        break;
+                    }
                 }
             }
         }
-        if (found) printf("%s/%s\n", path.basename(path.dirname(filePath)), path.basename(filePath));
     });
     done();
 }
