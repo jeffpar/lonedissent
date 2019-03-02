@@ -11,7 +11,7 @@ in special climate-controlled rooms and which no one is permitted to touch -- un
 
 If someone wants a copy of anything on those tapes, they have to fill out a form and wait for
 the archives to produce a reference or "shelf" copy.  In the old days, those reference copies would be
-5-inch reel-to-reel tapes.  As technology progressed, cassette tapes were used to create reference copies,
+5-inch reel-to-reel tapes.  As technology progressed, cassette tapes were used to hold reference copies,
 and more recently, audio CDs.
 
 However, if you're lucky and someone else has already requested a tape you're interested in,
@@ -30,7 +30,7 @@ you are holding an *original* tape, not a copy.  Here's a snapshot of one of the
 
 ![RG 267 Reference Copies](/images/nara/tapes/267.612-620.jpg)
 
-Near the tapes are binders containing Accession Lists that can help you locate tapes you're interested in.  Unfortunately, the descriptions are not always sufficient.  For example, the Court would occasionally record opinion announcements in the 1950s and 1960s, but it was rarely and sporadically done, and no one noted *which* opinions had been recorded.
+Near the tapes are binders containing Accession Lists that can help you locate tapes you're interested in.  Unfortunately, the descriptions are not always sufficient.  For example, the Court would occasionally record opinion announcements in the 1950s and 1960s, but it was rarely and sporadically done, and no one noted *which* opinions had been recorded.  Sometimes you must cross-reference the dates with your own lists of Court activity.
 
 ![1966 Supreme Court Audio Accession List - Page 7](/images/nara/1966/1966-Audio-Accession-List--Page07.png)
 
