@@ -7,7 +7,7 @@ The U.S. Supreme Court began recording oral arguments in October 1955 on reel-to
 later send to the National Archives.  Normally, such tapes are considered "masters" which are stored
 in special climate-controlled rooms and which no one is permitted to touch -- unless of course they work there.
 
-![RG 267 Master Tapes](/images/nara/tapes/267-Masters.jpg)
+{% include generic-image.html src="/images/nara/tapes/267-Masters.jpg" desc="Charles DeArman, retired NARA archivist, holding a box of U.S. Supreme Court master tapes" %}
 
 If someone wants a copy of anything on those tapes, they have to fill out a form and wait for
 the archives to produce a reference or "shelf" copy.  In the old days, those reference copies would be
