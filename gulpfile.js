@@ -1541,6 +1541,28 @@ function readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
 }
 
 /**
+ * readOyezTranscriptData(filePath)
+ *
+ * @param {string} filePath
+ * @return {object}
+ */
+function readOyezTranscriptData(filePath)
+{
+    let data = {text: []};
+    let transcriptDetail = JSON.parse(readFile(filePath) || "{}");
+    if (transcriptDetail) {
+        transcriptDetail.transcript.sections.forEach((section) => {
+            section.turns.forEach((turn) => {
+                turn.text_blocks.forEach((block) => {
+                    data.text.push(block.text);
+                });
+            });
+        });
+    }
+    return data;
+}
+
+/**
  * readOyezCourts()
  *
  * @return {Array.<Court>}
@@ -4265,6 +4287,43 @@ function matchTranscripts(done)
 }
 
 /**
+ * searchTranscripts(done)
+ *
+ * @param {function} done
+ */
+function searchTranscripts(done)
+{
+    printf("reading transcripts...\n");
+    let transcripts = readCSV(sources.oyez.transcripts, "", "html");
+    if (!isSortedObjects(transcripts, ["dateArgument", "docket"])) {
+        done();
+        return;
+    }
+
+    let filePaths = glob.sync(rootDir + path.join(path.dirname(sources.oyez.transcripts), "_files/*/*.json"));
+    if (filePaths.length != transcripts.length) {
+        warning("number of transcript files (%d) does not match number of transcript entries (%d)\n", filePaths.length, transcripts.length);
+    }
+
+    let search = argv['search'];
+    filePaths.forEach((filePath) => {
+        let found = false;
+        let data = readOyezTranscriptData(filePath);
+        if (data.text && search) {
+            for (let i = 0; i < data.text.length; i++) {
+                let line = data.text[i];
+                if (line.indexOf(search) >= 0) {
+                    found = true;
+                    break;
+                }
+            }
+        }
+        if (found) printf("%s/%s\n", path.basename(path.dirname(filePath)), path.basename(filePath));
+    });
+    done();
+}
+
+/**
  * fixDecisions()
  *
  * If --citations, then match up every decision record with a citation row.
@@ -5174,6 +5233,7 @@ function generateDownloadTasks(done)
                 createDownloadTask('download.case.' + id, url, dir, file);
             }
         });
+        sortObjects(transcripts, ["dateArgument", "docket"]);
         writeCSV(sources.oyez.transcripts, transcripts);
     }
     let advocates = JSON.parse(readFile(sources.oyez.advocates) || "{}");
@@ -5495,6 +5555,7 @@ gulp.task("decisions", buildDecisions);
 gulp.task("journals", matchJournals);
 gulp.task("justices", buildJustices);
 gulp.task("transcripts", matchTranscripts);
+gulp.task("search", searchTranscripts);
 gulp.task("all", gulp.series(findAllDecisions, findAllJustices));
 gulp.task("allDecisions", findAllDecisions);
 gulp.task("allJustices", findAllJustices);
