@@ -2,6 +2,8 @@ title: "Lone Dissent"
 description: "An Exercise in Supreme Obstinacy"
 icon: /images/courts/hughes7/hughes7-small.jpg
 local: true
+future: true
+
 footer-links:
   dribbble:
   email: Jeff@pcjs.org
@@ -54,7 +56,6 @@ exclude:
   - gulpfile.js
   - package*.json
   - /.history
-  - /audio
   - /lib
   - /node_modules
   - /sources

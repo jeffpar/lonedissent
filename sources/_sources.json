@@ -69,6 +69,7 @@
   "oyez": {
     "cases": "/sources/oyez/cases/_cases.json",
     "advocates": "/sources/oyez/advocates/_advocates.json",
+    "transcripts": "/sources/oyez/transcripts/transcripts.csv",
     "courtsXML": "/sources/oyez/courts/**/court.xml",
     "courtsHTML": "/sources/oyez/justices_by_court.html",
     "justicesXML": "/sources/oyez/justices/**/justice.xml"

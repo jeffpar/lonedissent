@@ -16,11 +16,11 @@ layout: default
   {% elsif case.pdfSource == "scotusBound" %}
     {% capture pdfPath %}https://www.supremecourt.gov/opinions/boundvolumes/{{ case.volume }}bv{% endcapture %}
     {% capture pdfURL %}{% if case.pdfPageDissent %}{{ pdfPath }}.pdf#page={{ case.pdfPageDissent }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
-    {% capture pdfGIF %}/images/usreports.gif{% endcapture %}
+    {% capture pdfGIF %}/images/thumbnails/usreports.gif{% endcapture %}
   {% else %}
     {% capture pdfPath %}https://www.supremecourt.gov/opinions/{{ case.pdfSource }}{% endcapture %}
     {% capture pdfURL %}{% if case.pdfPageDissent %}{{ pdfPath }}.pdf#page={{ case.pdfPageDissent }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
-    {% capture pdfGIF %}/images/usreports.gif{% endcapture %}
+    {% capture pdfGIF %}/images/thumbnails/usreports.gif{% endcapture %}
   {% endif %}
   {% capture caseCitation %}{% if case.docket %}No. {{ case.docket }}<br/>{% endif %}{% if case.citation %}{{ case.citation }}<br/>{% endif %}{% endcapture %}
   {% capture caseArgument %}{% if case.dateArgument %}{% if case.urlOyez %}Argued <a href="{{ case.urlOyez }}">{{ case.dateArgument }}</a><br/>{% else %}Argued {{ case.dateArgument }}<br/>{% endif %}{% endif %}{% endcapture %}
