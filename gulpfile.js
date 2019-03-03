@@ -2797,6 +2797,33 @@ function getJusticeId(id)
 }
 
 /**
+ * getTerm(date)
+ *
+ * @param {string} date (eg, dateDecision)
+ * @return {string} (yyyy-mm)
+ */
+function getTerm(date)
+{
+    let termId = "";
+    let parts = date.split('-');
+    let year = +parts[0];
+    let month = +parts[1];
+    // let day = +parts[2] || 0;
+    if (year > 1873) {
+        if (month < 10) {
+            year--;
+            month = 10;
+        } else {
+            month = 10;
+        }
+    } else {
+        year = 0;       // TODO
+    }
+    if (year) termId = sprintf("%04d-%02d", year, month);
+    return termId;
+}
+
+/**
  * getTermDate(term, termDelta, dayDelta, fPrint)
  *
  * @param {string} term (yyyy-mm, or yyyy if you're lazy, but that's not allowed for years with multiple terms)
@@ -3215,6 +3242,27 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                                                             dates.forEach((date) => { if (date) printf("\tReargued: %#C\n", date); });
                                                             if (decision.usCite) printf("\tLibrary of Congress URL for %s: %s\n", decision.usCite, getLOCURL(decision.usCite));
                                                             if (decision.caseNotes) printf("\tcaseNotes: %s\n", decision.caseNotes);
+                                                        }
+                                                        if (argv['transcript']) {
+                                                            let dates = decision.dateArgument.split(',');
+                                                            let dockets = decision.docket.split(',');
+                                                            dates.forEach((date) => {
+                                                                let term = getTerm(date);
+                                                                let files = glob.sync(rootDir + "/sources/scotus/transcripts/" + term.substr(0,4) + "/" + dockets[0] + "_" + date + "*.pdf");
+                                                                files.forEach((file) => {
+                                                                    printf("  - id: \"%s\"\n", decision.caseId);
+                                                                    printf("    termId: \"%s\"\n", term);
+                                                                    printf("    title: \"%s\"\n", decision.caseTitle || decision.caseName);
+                                                                    if (decision.docket) printf("    docket: \"%s\"\n", decision.docket);
+                                                                    if (decision.usCite) printf("    citation: \"%s\"\n", decision.usCite);
+                                                                    printf("    dateArgument: \"%#C\"\n", date);
+                                                                    if (decision.dateDecision) printf("    dateDecision: \"%#C\"\n", decision.dateDecision);
+                                                                    printf("    pdfURL: \"%s\"\n", file.substr(rootDir.length));
+                                                                    file = file.replace(".pdf", ".jpg");
+                                                                    if (!fs.existsSync(file)) file = rootDir + "/images/thumbnails/transcript.jpg";
+                                                                    printf("    pdfThumb: \"%s\"\n", file.substr(rootDir.length));
+                                                                });
+                                                            });
                                                         }
                                                         searchResults.push(decision);
                                                         if (decisionsAudited.indexOf(decision.caseId) < 0) {
