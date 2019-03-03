@@ -3248,7 +3248,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                                                             let dockets = decision.docket.split(',');
                                                             dates.forEach((date) => {
                                                                 let term = getTerm(date);
-                                                                let files = glob.sync(rootDir + "/sources/scotus/transcripts/" + term.substr(0,4) + "/" + dockets[0] + "_" + date + "*.pdf");
+                                                                let files = glob.sync(rootDir + "/sources/other/transcripts/" + term.substr(0,4) + "/" + dockets[0] + "_" + date + "*.pdf");
                                                                 files.forEach((file) => {
                                                                     printf("  - id: \"%s\"\n", decision.caseId);
                                                                     printf("    termId: \"%s\"\n", term);
