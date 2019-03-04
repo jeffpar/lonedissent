@@ -11,7 +11,7 @@ in special climate-controlled rooms and which no one is permitted to touch -- un
 
 If someone wants a copy of anything on those tapes, they have to fill out a form and wait for
 the archives to produce a reference or "shelf" copy.  In the old days, those reference copies would be
-5-inch reel-to-reel tapes.  As technology progressed, cassette tapes were used to hold reference copies,
+reel-to-reel tapes.  As technology progressed, cassette tapes were used to hold reference copies,
 and more recently, audio CDs.
 
 However, if you're lucky and someone else has already requested a tape you're interested in,
@@ -19,7 +19,7 @@ then a reference copy may already be sitting on the shelf.  For example, in Marc
 Archives in College Park, Maryland, NARA staff had added the CD to the compact stacks, and I was able to
 copy the audio onto my laptop.  And now anyone else who wants that particular audio recording can do the same.
 
-In fact, most Supreme Court recordings from 1955 into the 1970s are currently available on 5-inch
+In fact, most Supreme Court recordings from 1955 into the 1970s are currently available on
 reel-to-reel reference tapes at College Park, sitting on shelves in compact stacks for anyone to access --
 but not because someone had previously requested them all.  Decades ago, when NARA was probably better funded,
 they undertook a massive effort to duplicate all the original tapes, producing new masters, and then cutting
