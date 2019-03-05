@@ -1108,7 +1108,7 @@ No. 1 </p>
 SHAWNEE COUNTY, KANSAS, ET AL., </p>
 <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Appellees. 
 </i> </p>
-<p style="text-align:"right">Washington, D. C. <br>
+<p style="text-align:right">Washington, D. C. <br>
 Tuesday, December 8, 1953. </p>
 <p>The above-entitled cause came on for reargument at 2:50 p.m., </p>
 <p><b>BEFORE: </b> </p>
@@ -1131,12 +1131,12 @@ O. DOUGLAS, <i>Associate Justice</i> <br>
   PAUL E. WILSON, ESQ., <i>on 
 behalf of the Appellees</i>. </p>
 </blockquote>
-<p style="text-align:"center"><b>PROCEEDINGS </b> </p>
+<p style="text-align:center"><b>PROCEEDINGS </b> </p>
 <p>MR. CHIEF JUSTICE WARREN: No. 1, <i>Oliver Brown, Mrs. Richard Lawton, Mrs. Sadie 
 Emmanuel</i> v. <i>Board of Education of Topeka, et al</i>. </p>
 <p>THE CLERK: Counsel are present, sir. </p>
 <p>MR. CHIEF JUSTICE WARREN: Mr. Carter? </p>
-<p style="text-align:"center"><b>OPENING ARGUMENT OF ROBERT L. CARTER, ESQ., <br>
+<p style="text-align:center"><b>OPENING ARGUMENT OF ROBERT L. CARTER, ESQ., <br>
 ON BEHALF OF THE APPELLANTS </b> </p>
 <p>MR. CARTER: Mr. Chief Justice: </p>
 <p>The facts in this case are similar to those involved in the cases preceding. 
@@ -1292,7 +1292,7 @@ and I would answer it, if that is permissible so far as the Court is concerned.
 says anything that you wish to answer. </p>
 <p>MR. CHIEF JUSTICE WARREN: Mr. Wilson, will you please address yourself to the 
 question of whether it is moot or not? </p>
-<p style="text-align:"center"><b>ARGUMENT OF PAUL E. WILSON, ESQ., <br>
+<p style="text-align:center"><b>ARGUMENT OF PAUL E. WILSON, ESQ., <br>
 ON BEHALF OF THE STATE OF KANSAS </b> </p>
 <p>MR. WILSON: If it please the Court, it is our position that the case is not moot 
 from our standpoint for several reasons. In the first place, the appellant has pointed 
@@ -1660,7 +1660,7 @@ initiate and maintain there the policies that are most beneficial to all of its
 people. </p>
 <p>Thank you. </p>
 <p>MR. CHIEF JUSTICE WARREN: Thank you, Mr. Wilson. Mr. Carter? </p>
-<p style="text-align:"center"><b>REBUTTAL ARGUMENT OF <br>
+<p style="text-align:center"><b>REBUTTAL ARGUMENT OF <br>
 ROBERT L. CARTER, ESQ., <br>
 ON BEHALF OF APPELLANTS </b> </p>
 <p>MR. CARTER: I would like to say this, Your Honors: I do still have doubts with 
