@@ -57,13 +57,13 @@ MINTON, <i>Associate Justice</i> </p>
 </blockquote>
 <p></p>
 <p style="text-align:center"><b>PROCEEDINGS </b> </p>
-<p>MR. CHIEF JUSTICE VINSON: Case No. 191, <i>Davis, et al.,</i> against <i>County School 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Case No. 191, <i>Davis, et al.,</i> against <i>County School 
 Board of Prince Edward County, Virginia, et al.</i> </p>
-<p>THE CLERK: Counsel are present. </p>
+<p><b>THE CLERK</b>: Counsel are present. </p>
 <p style="text-align:center"><b>OPENING ARGUMENT OF <br>
 SPOTTSWOOD W. ROBINSON, III, ESQ., <br>
 ON BEHALF OF THE APPELLANTS </b> </p>
-<p>MR. ROBINSON: May it please the Court: </p>
+<p><b>MR. ROBINSON</b>: May it please the Court: </p>
 <p>This case comes before this Court upon appeal from the final decree of the United 
 States District Court for the Eastern District of Virginia, denying an injunction 
 against the enforcement of section 140 of the Constitution of Virginia, and section 22-221 of the Code of Virginia, 
@@ -189,34 +189,34 @@ it has always recognized and held that this power is subject to the limitations
 of the Constitution, and that the tests of the Constitution must be met. Upon examination 
 in the past, it has found such experimentation to be constitutionally wanting when 
 predicated solely on the facts of race. </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Robinson, if I heard you right—and I was looking 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Robinson, if I heard you right—and I was looking 
 at your brief to clarify my impression—if you are right, this injunction is reversible because it violates the Gaines doctrine?
 </p>
-<p>MR. ROBINSON: I would submit, Mr. Justice Frankfurter, for the additional reason—that 
+<p><b>MR. ROBINSON</b>: I would submit, Mr. Justice Frankfurter, for the additional reason—that 
 is correct, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: Not for the additional reason. I should say it is for 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Not for the additional reason. I should say it is for 
 the prior reason. This Court ought not to pass on constitutional issues bigger than 
 the record calls for. </p>
-<p>MR. ROBINSON: Let me answer Your Honor&#39;s question this way. I believe, and I 
+<p><b>MR. ROBINSON</b>: Let me answer Your Honor&#39;s question this way. I believe, and I 
 intend to argue, that by reason of the physical inequalities and the inequalities in curricula which the district court found 
 and which were supported largely by uncontested testimony, that alone should have justified the issuance of an injunction which would have admitted these appellants to share the high school facilities 
 of the county without regard to race; in other words, would have unsegregated the 
 schools at that point. </p>
-<p>MR. JUSTICE FRANKFURTER: We have specific appellants here, specific 
+<p><b>MR. JUSTICE FRANKFURTER</b>: We have specific appellants here, specific 
 plaintiffs, and particular children, boys and girls, I take it— </p>
-<p>MR. ROBINSON: That is correct, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: —who want to get to a high school. </p>
-<p>MR. ROBINSON: That is correct, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: And you say that they ought to be allowed because they 
+<p><b>MR. ROBINSON</b>: That is correct, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: —who want to get to a high school. </p>
+<p><b>MR. ROBINSON</b>: That is correct, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: And you say that they ought to be allowed because they 
 do not have adequate high schools with equal facilities? </p>
-<p>MR. ROBINSON: I would answer the question this way. I do not know where they 
+<p><b>MR. ROBINSON</b>: I would answer the question this way. I do not know where they 
 will go, sir. I do not mean to imply that all of them can get in a white high school, 
 because I know that they cannot. </p>
-<p>MR. JUSTICE FRANKFURTER: I am talking about your clients. </p>
-<p>MR. ROBINSON: That is correct, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: And if you are right, then, any decree should have been 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I am talking about your clients. </p>
+<p><b>MR. ROBINSON</b>: That is correct, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: And if you are right, then, any decree should have been 
 issued according to Gaines v. Canada? </p>
-<p>MR. ROBINSON: That is one of our decisions here. But we feel that the other question 
+<p><b>MR. ROBINSON</b>: That is one of our decisions here. But we feel that the other question 
 is also necessarily involved for additional reasons. If we got that decree, I take 
 it that it would unsegregate the schools and keep them in that fashion only so long 
 as there would be a showing, or we would be able to maintain a showing, of physical 
@@ -231,11 +231,11 @@ equal, you can segregate; consequently, as the facilities change in that regard,
 as equilibrium is disturbed by the variety of facts and circumstances present in 
 any educational system, then under those circumstances we could have segregated 
 or we could have nonsegregated education. </p>
-<p>MR. JUSTICE FRANKFURTER: But this Court, constituted as it is at this moment, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: But this Court, constituted as it is at this moment, 
 has faced that problem in several cases, and has decided that with inequality, the 
 order will be issued on that basis, and we shall not borrow trouble in 1953 or 1954 
 or whenever it is. </p>
-<p>MR. ROBINSON: I agree with Your Honor entirely. My understanding of the past cases has been that the basis of the decision under those circumstances 
+<p><b>MR. ROBINSON</b>: I agree with Your Honor entirely. My understanding of the past cases has been that the basis of the decision under those circumstances 
 has been one upon which it was pretty nearly impossible to resume segregation at 
 some future time. </p>
 <p>Looking at the Gaines case, for example, the factors which this Court enumerated 
@@ -244,11 +244,11 @@ of physical facilities and curricula—they were there—but this Court consider
 and it based its opinion upon what it termed the more important considerations which were involved in a situation of that sort. And I certainly take it that after the decision in the Sweatt case, it is no longer possible 
 for any state to have hope of establishing a segregated law school for Negro students. 
 </p>
-<p>MR. JUSTICE FRANKFURTER: But if Mr. Marshall is right, and 
+<p><b>MR. JUSTICE FRANKFURTER</b>: But if Mr. Marshall is right, and 
 your clients are going to go to present white schools, things might turn out to 
 be so happy and congenial and so desirable that you do not know what the result 
 may be. </p>
-<p>MR. ROBINSON: I am fully aware of that, if Your Honor please. But it seems to 
+<p><b>MR. ROBINSON</b>: I am fully aware of that, if Your Honor please. But it seems to 
 me that there should be more in the way of stability in the disposition of a situation of this sort. </p>
 <p>We have the matter of the administration of the schools, and also, I submit, 
 we have the matter of the right of the pupils who are involved. And I just do not 
@@ -258,9 +258,9 @@ system at the present time, as a consequence of those inequalities, will continu
 but we might revert back to the situation where we are once the facilities are made physically equal 
 and the same courses of instruction are put in, under those circumstances it seems 
 to me that the normal disinclination to base a decision upon a broader ground— </p>
-<p>MR. JUSTICE FRANKFURTER: It is not disinclination. It is not a restriction of 
+<p><b>MR. JUSTICE FRANKFURTER</b>: It is not disinclination. It is not a restriction of 
 that order. It is not just a personal preference. </p>
-<p>MR. ROBINSON: I understand that in the historical context, of course, considering 
+<p><b>MR. ROBINSON</b>: I understand that in the historical context, of course, considering 
 the whole history of this nation, it is a fact that the legislation of a state should 
 not be disturbed unless it is fatally in collision with the Constitution. </p>
 <p>I should like to urge upon Your Honors in this connection that what we sought 
@@ -268,15 +268,15 @@ in this case was a permanent injunction. It seems to me that we do not get it. I
 we are simply limited to that particular phase of the matter, it means, as I have 
 tried to emphasize here, that we are in a situation where we cannot depend on anything. </p>
 <p>The schools may be unequal, if Your Honor please, tomorrow, and consequently we are shunted right on out. </p>
-<p>MR. JUSTICE REED: Assuming that you would be admitted by decree to the high schools 
+<p><b>MR. JUSTICE REED</b>: Assuming that you would be admitted by decree to the high schools 
 that you seek to enter, would it not be necessary to admit them on a segregated 
 basis as the law stands now? </p>
-<p>MR. ROBINSON: Yes, I suppose so. </p>
-<p>MR. JUSTICE REED: As the law stands now, you will be admitted on a segregated basis? </p>
-<p>MR. ROBINSON: That is correct, sir. </p>
-<p>MR. JUSTICE REED: Because you have not had a decision that below the grade of 
+<p><b>MR. ROBINSON</b>: Yes, I suppose so. </p>
+<p><b>MR. JUSTICE REED</b>: As the law stands now, you will be admitted on a segregated basis? </p>
+<p><b>MR. ROBINSON</b>: That is correct, sir. </p>
+<p><b>MR. JUSTICE REED</b>: Because you have not had a decision that below the grade of 
 colleges you are required to have an association of students. </p>
-<p>MR. ROBINSON: Then, of course, if Your Honor please, we might have the other 
+<p><b>MR. ROBINSON</b>: Then, of course, if Your Honor please, we might have the other 
 situation where they will take the white students and put them into had schools. So consequently, I think any way we look at it, 
 I agree with Your Honor&#39;s suggestion in that regard. </p>
 <p>I submit that at least we get to the point, it seems to me, where the basis of 
@@ -284,8 +284,8 @@ decision must be something more than a basis which will permit of a shuttling of
 pupils back and forth into segregated schools and into an unsegregated system, something 
 which would have no assurance, and something which I cannot conduce will be helpful, 
 either to the school authorities or to the pupils involved. </p>
-<p>MR. JUSTICE REED: This is not a class suit, is it? </p>
-<p>MR. ROBINSON: Yes, it is; yes, Your Honor. We brought it as a class suit on behalf 
+<p><b>MR. JUSTICE REED</b>: This is not a class suit, is it? </p>
+<p><b>MR. ROBINSON</b>: Yes, it is; yes, Your Honor. We brought it as a class suit on behalf 
 of all Negroes similarly involved. </p>
 <p>I might say for the benefit of the Court that I do not intend to unduly consume 
 the Court&#39;s time on behalf of the question of constitutionality per se. But in view 
@@ -303,9 +303,9 @@ to the end which the legislation sought to attain; and in the area of profession
 and graduate education, McLaurin v. the Oklahoma State Regents, which, incidentally, was a case in which there was no inequality present at all, but quite on the 
 grounds of other factors which the Court fount to exist in the situation in which 
 it was concluded that there was violation of the Fourteenth Amendment. </p>
-<p>MR. JUSTICE REED: What do you conceive to be the purpose of the Virginia enactment 
+<p><b>MR. JUSTICE REED</b>: What do you conceive to be the purpose of the Virginia enactment 
 of the statute? </p>
-<p>MR. ROBINSON: If Your Honor please, I am in very much the same situation that 
+<p><b>MR. ROBINSON</b>: If Your Honor please, I am in very much the same situation that 
 counsel in the South Carolina case are. The only thing which appears in the record 
 which might be helpful to the Court in that regard is the testimony of Doctor Colgate 
 W. Darden, the present president of the University of Virginia, and former Governor 
@@ -323,8 +323,8 @@ the original notion behind the school segregation laws was to impose upon Negroe
 disabilities which prior to the time of the adoption of the Thirteenth, Fourteenth, 
 and Fifteenth Amendments they labored under. That is the only thing that I can offer 
 to this Court in the way of a justification. </p>
-<p>MR. JUSTICE REED: You say, to impose disabilities? </p>
-<p>MR. ROBINSON: I beg your pardon. I meant, the Thirteenth, Fourteenth, and Fifteenth 
+<p><b>MR. JUSTICE REED</b>: You say, to impose disabilities? </p>
+<p><b>MR. ROBINSON</b>: I beg your pardon. I meant, the Thirteenth, Fourteenth, and Fifteenth 
 Amendments were passed to eliminate disabilities which were upon the Negroes prior 
 to the time of the adoption of the Thirteenth, Fourteenth, and Fifteenth Amendments,
 which had as their purpose the elimination of those disabilities. Insofar as the statute is concerned, Doctor Darden speaks of it here, in his 
@@ -382,24 +382,24 @@ with the situation where, absent the particular facilities essential for teachin
 if not that, the inferiority of the facilities for teaching the course, it 
 simply is not possible, even though we have a decree which purports to forthwith 
 equalize curricular offerings— </p>
-<p>MR. CHIEF JUSTICE VINSON: What is your solution to that problem? </p>
-<p>MR. ROBINSON: The solution, we submit, was not the solution taken by the 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: What is your solution to that problem? </p>
+<p><b>MR. ROBINSON</b>: The solution, we submit, was not the solution taken by the 
 district court— </p>
-<p>MR. CHIEF JUSTICE VINSON: I say, what is your solution? </p>
-<p>MR. ROBINSON: That, under the circumstances, the court should have immediately 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: I say, what is your solution? </p>
+<p><b>MR. ROBINSON</b>: That, under the circumstances, the court should have immediately 
 entered an injunction which would have prevented </p>
 <p>the school authorities from assigning school space in the county on the basis 
 of race, would have removed— </p>
-<p>MR. CHIEF JUSTICE VINSON: If you did not have the facilities and if you did not 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: If you did not have the facilities and if you did not 
 have the teachers, how would you take care of them, regardless of what kind of curricula 
 you had? </p>
-<p>MR. ROBINSON: There are a sufficient number of teachers in the county, Mr. Chief 
+<p><b>MR. ROBINSON</b>: There are a sufficient number of teachers in the county, Mr. Chief 
 Justice, to take care of all of the students. There is a sufficient amount of school 
 space in the county to take care of all the students. </p>
 <p>The differences here are— </p>
-<p>MR. CHIEF JUSTICE VINSON: You mean, to take them out of this particular locality 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: You mean, to take them out of this particular locality 
 and transport them over to some other part of the county? </p>
-<p>MR. ROBINSON: No. At the present time, if Your Honor please, we have the situation 
+<p><b>MR. ROBINSON</b>: No. At the present time, if Your Honor please, we have the situation 
 where the white children are getting these courses; Negro children are getting, 
 not all of them, but they are getting some of these courses, anyway. But the trouble 
 is that over in the Negro school you have these inferiorities. </p>
@@ -407,11 +407,11 @@ is that over in the Negro school you have these inferiorities. </p>
 Negro students; under the circumstances what you do is, you simply make all the 
 facilities in the county available to all the pupils, without restriction or assignment 
 to particular schools on the basis of race. </p>
-<p>MR. CHIEF JUSTICE VINSON: What was the order of the district court? </p>
-<p>MR. ROBINSON: The district court did not order— </p>
-<p>MR. CHIEF JUSTICE VINSON: I did not ask you what they did not do; what did they 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: What was the order of the district court? </p>
+<p><b>MR. ROBINSON</b>: The district court did not order— </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: I did not ask you what they did not do; what did they 
 do? </p>
-<p>MR. ROBINSON: The district court on the matter of courses forthwith enjoined 
+<p><b>MR. ROBINSON</b>: The district court on the matter of courses forthwith enjoined 
 discrimination in the curricular offerings. That was the order of the district court. 
 I was trying to make the distinction, if the Chief Justice please, between the so-called equalization decree and what I would call an antisegregation decree. </p>
 <p>In this regard—and I think that I have already pretty well indicated our position—we feel that, in view of the fact that in this particular area 
@@ -450,8 +450,8 @@ of physical facilities, have been forthcoming. Nevertheless, in each instance it
 argument, the evidence in Virginia was conflicting—I should put it this way: There 
 was evidence on both sides, evidence offered by both sides on the question of harm 
 or the effect resulting from segregation itself. The witness for the appellees— </p>
-<p>MR. CHIEF JUSTICE VINSON: What did the court say about that? </p>
-<p>MR. ROBINSON: The court concluded that, first, it found no hurt or harm resulting 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: What did the court say about that? </p>
+<p><b>MR. ROBINSON</b>: The court concluded that, first, it found no hurt or harm resulting 
 from segregation to the pupils of either race. Secondly, the court said that, on 
 the fact issue as to whether Negroes could obtain in a separate school an equal 
 education, the court could not say that the evidence for the plaintiffs overbalanced
@@ -474,28 +474,28 @@ the educational system, and consequently predicated the opinions under those cir
 this particular regard is without foundation and consequently it should not be held 
 binding upon this Court.</p>
 <p>I would like to reserve the remainder of my time for rebuttal. </p>
-<p>MR. JUSTICE REED: You spoke of the fact that you depended, not only on equal 
+<p><b>MR. JUSTICE REED</b>: You spoke of the fact that you depended, not only on equal 
 protection, but due process. </p>
-<p>MR. ROBINSON: Yes, sir. </p>
-<p>MR. JUSTICE REED: Did I hear you make a distinction between the two? </p>
-<p>MR. ROBINSON: I would be glad to do so at the present time. </p>
-<p>MR. JUSTICE REED: 
+<p><b>MR. ROBINSON</b>: Yes, sir. </p>
+<p><b>MR. JUSTICE REED</b>: Did I hear you make a distinction between the two? </p>
+<p><b>MR. ROBINSON</b>: I would be glad to do so at the present time. </p>
+<p><b>MR. JUSTICE REED</b>: 
 Is there a distinction, in your mind? </p>
-<p>MR. ROBINSON: I think that I can say this: Anything that due process will catch, 
+<p><b>MR. ROBINSON</b>: I think that I can say this: Anything that due process will catch, 
 I think equal protection will catch, in this area. But certainly a legislative enactment 
 which makes a distinction based solely on race in the enjoyment of the educational 
 program offered by the State, I think, would be that type of arbitrary and unreasonable 
 legislation which would be in violation of the due process clause. </p>
-<p>MR. JUSTICE REED: You could have a valid classification under equal protection; you could have a classification under due process? </p>
-<p>MR. ROBINSON: That is correct, sir. </p>
-<p>MR. JUSTICE REED: You do not make any point on that? </p>
-<p>MR. ROBINSON: It is also conceivable to me that you might have the other situation, 
+<p><b>MR. JUSTICE REED</b>: You could have a valid classification under equal protection; you could have a classification under due process? </p>
+<p><b>MR. ROBINSON</b>: That is correct, sir. </p>
+<p><b>MR. JUSTICE REED</b>: You do not make any point on that? </p>
+<p><b>MR. ROBINSON</b>: It is also conceivable to me that you might have the other situation, 
 though, by reason of the fact that I fee in this particular instance certainly the 
 legislation is caught by the one or by the other. </p>
-<p>MR. CHIEF JUSTICE VINSON: Mr. Moore? </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Mr. Moore? </p>
 <p style="text-align:center"><b>ARGUMENT OF T. JUSTIN MOORE, ESQ., <br>
 ON BEHALF OF THE APPELLEES </b> </p>
-<p>MR. MOORE: May it please the Court: </p>
+<p><b>MR. MOORE</b>: May it please the Court: </p>
 <p>We believe it to be particularly fortunate that the Court concluded to assume for argument all five of these cases together, because while in history each case stands on its own record, there is, of course, one 
 main stream which runs through all of the cases, and it is obvious from the arguments 
 already made by counsel for the appellants that that is the real question with which 
@@ -555,14 +555,14 @@ that is Negro and forty percent white. So, roughly, you may regard the situation
 whites three to one. </p>
 <p>Now, these appellants are high school students. This case relates entirely to high school students. The South Carolina case was elementary and 
 high school. These cases vary. But this is strictly a high school. </p>
-<p>MR. JUSTICE BLACK: What did you say about the three to one? </p>
-<p>MR. MOORE: I said that the ratio is about three whites to 
+<p><b>MR. JUSTICE BLACK</b>: What did you say about the three to one? </p>
+<p><b>MR. MOORE</b>: I said that the ratio is about three whites to 
 one Negro. </p>
-<p>MR. JUSTICE BLACK: Where? </p>
-<p>MR. MOORE: Throughout the State. I am sorry, I did not clear that up. </p>
-<p>MR. JUSTICE BLACK: I thought you were referring to the county. </p>
+<p><b>MR. JUSTICE BLACK</b>: Where? </p>
+<p><b>MR. MOORE</b>: Throughout the State. I am sorry, I did not clear that up. </p>
+<p><b>MR. JUSTICE BLACK</b>: I thought you were referring to the county. </p>
 <p>That is quite different. </p>
-<p>MR. MOORE: That is right. I am sorry. </p>
+<p><b>MR. MOORE</b>: That is right. I am sorry. </p>
 <p>Now, in the county, I should mention that this is a rather poor county financially, 
 in the State. It has an assessed value of only about 9.5 million dollars. The total 
 assessed property, on the ratio of assessment of about fifty percent—the total 
@@ -602,19 +602,19 @@ the way of a loan from the Literary Fund at two percent. </p>
 I said, it broke up the bond issue. But the State provided the funds, so that we are in the fortunate position of having the cash, the building 
 is right under way, there is no question about the fact from the record and from 
 the decree of the court that it is going to be completed. </p>
-<p>MR. CHIEF JUSTICE VINSON: Has that money been obtained, and firm commitments 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Has that money been obtained, and firm commitments 
 made? </p>
-<p>MR. MOORE: Yes, sir, all that has gone in the record. </p>
-<p>MR. CHIEF JUSTICE VINSON: 
+<p><b>MR. MOORE</b>: Yes, sir, all that has gone in the record. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: 
 When? </p>
-<p>MR. MOORE: The money was obtained finally in June of 1951. You see, they were 
+<p><b>MR. MOORE</b>: The money was obtained finally in June of 1951. You see, they were 
 on the program of the bond issue when the strike created such a public sentiment 
 that it was felt that they could not carry that through. </p>
-<p>MR. CHIEF JUSTICE VINSON: What is the present situation in regard to the building 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: What is the present situation in regard to the building 
 program? </p>
-<p>MR. MOORE: The building is under way. </p>
-<p>MR. CHIEF JUSTICE VINSON: What do you mean by &quot;under way,&quot; Mr. Moore? </p>
-<p>MR. MOORE: It is about twenty-five to thirty percent complete. A firm contract 
+<p><b>MR. MOORE</b>: The building is under way. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: What do you mean by &quot;under way,&quot; Mr. Moore? </p>
+<p><b>MR. MOORE</b>: It is about twenty-five to thirty percent complete. A firm contract 
 is made. The funds are available to be drawn on from the State, just as the funds 
 are needed, and the record shows that there is no reason why the school should not 
 be in operation, a better school than any school in the county or that whole area, 
@@ -634,7 +634,7 @@ come back. </p>
 <p>[Whereupon, at two o&#39;clock p.m., the Court recessed to reconvene at two-thirty 
 o&#39;clock p.m.] </p>
 <p style="text-align:center"><b>AFTERNOON SESSION </b> </p>
-<p>MR. MOORE: May it please the Court: </p>
+<p><b>MR. MOORE</b>: May it please the Court: </p>
 <p>When the Court rose for its luncheon recess, I had just mentioned the first of two very important findings that we feel the trial court made here. The first was that, on the basis of the record made, they found 
 that the separation scheme that had been in effect in Virginia through these eighty years—we cannot say that it was without foundation 
 in fact or reason, and there was no hurt or harm to either race. </p>
@@ -680,9 +680,9 @@ Vermont to 45 percent in Mississippi, with about 22 percent in Virginia, Justice
 Black-that is where I was confused just a moment ago, as you will see right there. 
 It is perfectly clear that that situation is a very pertinent thing in the consideration 
 of this matter. </p>
-<p>MR. JUSTICE REED: Have you carried it out into the counties? </p>
-<p>MR. MOORE: We do not have it in the counties. As a matter of fact, we had much difficulty getting it from the Census people to this extent. We have got it for the county that is in question here. I gave that just before we adjourned for lunch. Sixty percent of the school population is Negro in this county to forty percent white and the total population is 52 percent Negro and 48 percent white. </p>
-<p>May I just undertake in my remaining time to address myself very briefly to four questions which we believe are the controlling questions in this case: First, while we know that Your Honors are so familiar with the precedents that are here talked about so much, we do not feel we could do justice to this case without referring to them, at least briefly; and I then want to refer briefly to what we call the Virginia situation as shown on these facts; and third, I want to mention briefly the expert evidence that became so important in this case; and fourthly, I wish to talk briefly about the point that Justice Frankfurter mentioned a moment ago as to what is the kind 
+<p><b>MR. JUSTICE REED</b>: Have you carried it out into the counties? </p>
+<p><b>MR. MOORE</b>: We do not have it in the counties. As a matter of fact, we had much difficulty getting it from the Census people to this extent. We have got it for the county that is in question here. I gave that just before we adjourned for lunch. Sixty percent of the school population is Negro in this county to forty percent white and the total population is 52 percent Negro and 48 percent white. </p>
+<p><b>May I just undertake in my remaining time to address myself very briefly to four questions which we believe are the controlling questions in this case</b>: First, while we know that Your Honors are so familiar with the precedents that are here talked about so much, we do not feel we could do justice to this case without referring to them, at least briefly; and I then want to refer briefly to what we call the Virginia situation as shown on these facts; and third, I want to mention briefly the expert evidence that became so important in this case; and fourthly, I wish to talk briefly about the point that Justice Frankfurter mentioned a moment ago as to what is the kind 
 of decree or remedy that should be granted in a situation like this where, as distinguished 
 from South Carolina, we have not quite got our facilities in shape, although they 
 have been able to do that in South Carolina. I am going to take up those four matters 
@@ -796,9 +796,9 @@ that fund loans are being made to these schools, with the Negroes greatly benefi
 in proportion. Of the 48 million dollars that have been loaned out of—comparing 
 the 48 million dollars loaned for whites, are 16.5 million dollars loaned for the 
 Negroes at two percent interest, at a two percent interest rate. </p>
-<p>MR. CHIEF JUSTICE VINSON: Are those loans made to the boards of education?
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Are those loans made to the boards of education?
 </p>
-<p>MR. MOORE: That is right, sir, at two percent, and that was the 600,000 dollars 
+<p><b>MR. MOORE</b>: That is right, sir, at two percent, and that was the 600,000 dollars 
 in this 900,000 dollar program for this very high school. So you see the funds are 
 really right there in hand. There is no trouble about going out with a sales tax 
 like our friends have to do in South Carolina. We have got the money, and we have 
@@ -844,7 +844,7 @@ some other persons. </p>
 <p>Let me just briefly give you a description as to the kind of expert testimony 
 that was presented in the Virginia case. Some of these witnesses apparently travel 
 around over the country quite a bit testifying in these cases. </p>
-<p>There were four principal experts for the plaintiffs in our case: A man named 
+<p><b>There were four principal experts for the plaintiffs in our case</b>: A man named 
 Doctor John J. Brooks, who runs an experimental school in New York where about 300 students attend, and he tries to get a cross-section 
 of the population, a certain number of whites, a certain number of Negroes, and 
 a certain number of others. He has had practically—he had no experience in Virginia. 
@@ -867,19 +867,19 @@ a single one from Virginia; and what you wind up with is that you get a statemen
 in the air as sort of a moral principle—it is kind of a religious statement that 
 you get—that, in principle or in theory, in the abstract, that segregation is a 
 bad thing to have. </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Moore, of what would the six or eight thousand people 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Moore, of what would the six or eight thousand people 
 be specialists in or of? </p>
-<p>MR. MOORE: Well, there is a great line— </p>
-<p>MR. JUSTICE FRANKFURTER: Who are these specialists in that field? </p>
-<p>MR. MOORE: Well, they described them as sociologists, anthropologists, psychologists, and variations of those groups, principally, Your Honor. </p>
-<p>MR. JUSTICE FRANKFURTER: Everybody in the sociological field is an expert in 
+<p><b>MR. MOORE</b>: Well, there is a great line— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Who are these specialists in that field? </p>
+<p><b>MR. MOORE</b>: Well, they described them as sociologists, anthropologists, psychologists, and variations of those groups, principally, Your Honor. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Everybody in the sociological field is an expert in 
 his domain? </p>
-<p>MR. MOORE: That is right, Your Honor. </p>
+<p><b>MR. MOORE</b>: That is right, Your Honor. </p>
 <p>We say it does not mean a thing except as a matter of stating something in 
 the abstract. You might as well be talking about the Sermon on the Mount or 
 something like that, that it would be better— </p>
-<p>MR. JUSTICE FRANKFURTER: It is supposed to be a good document. </p>
-<p>MR. MOORE: Well, I say you might as well be asking people whether it is desirable 
+<p><b>MR. JUSTICE FRANKFURTER</b>: It is supposed to be a good document. </p>
+<p><b>MR. MOORE</b>: Well, I say you might as well be asking people whether it is desirable 
 for everybody to try to live according to the Sermon on the Mount as to ask them 
 the kind of questions that they had put to them. </p>
 <p>Now, let us look for a moment at the experts we called. We had eight people who 
@@ -922,7 +922,7 @@ is much less likely to develop tensions, animosities, and hostilities, than if y
 put him into a mixed school where, in Virginia, inevitably he will be a minority 
 group. </p>
 </blockquote>
-<p>Then he says again: </p>
+<p><b>Then he says again</b>: </p>
 <blockquote>
   <p>It seems to me that in the State of Virginia today, taking into account the temper 
 of its people, its mores, and its customs and background, that the Negro student at the high school level will get a better education in 
@@ -932,52 +932,52 @@ a separate school than he will in mixed schools. </p>
 be ignored? Is that not, Your Honor, Justice Frankfurter, a basis for classification with eighty years in this background, just as in the pilot case you mentioned yesterday—I was not familiar with it 
 yesterday until you mentioned it, but I read it this morning; but it is very important, 
 the historical background in the light of this testimony. </p>
-<p>MR. JUSTICE REED: What am I to draw from this argument that you are making now?
+<p><b>MR. JUSTICE REED</b>: What am I to draw from this argument that you are making now?
 </p>
-<p>MR. MOORE: I think you are to draw—evidently I have not been successful, as 
+<p><b>MR. MOORE</b>: I think you are to draw—evidently I have not been successful, as 
 successful as I had hoped. </p>
-<p>MR. JUSTICE REED: Perhaps I should express my question a little more fully.
+<p><b>MR. JUSTICE REED</b>: Perhaps I should express my question a little more fully.
 </p>
-<p>MR. MOORE: Yes. </p>
-<p>MR. JUSTICE REED: What if they had decided to the contrary? </p>
-<p>MR. MOORE: You mean 
+<p><b>MR. MOORE</b>: Yes. </p>
+<p><b>MR. JUSTICE REED</b>: What if they had decided to the contrary? </p>
+<p><b>MR. MOORE</b>: You mean 
 the trial court? </p>
-<p>MR. JUSTICE REED: The trial court; and your experts had not been so persuasive 
+<p><b>MR. JUSTICE REED</b>: The trial court; and your experts had not been so persuasive 
 as they were, and there were other experts, and the trial court had accepted their 
 conclusion that this was detrimental and was injurious to the ability of the Negro child to learn or of the white 
 child to learn, and created great difficulties; what difference does it make which 
 way they decided this particular question? </p>
-<p>MR. MOORE: I think you can argue the matter two ways, Your Honor. I think, in 
+<p><b>MR. MOORE</b>: I think you can argue the matter two ways, Your Honor. I think, in 
 the first place, you can argue that the difference, for instance, in the Kansas finding and the Virginia finding point up how important 
 is the legislative policy that is involved, that Mr. Davis talked about so much 
 this morning. It just illustrates how it really is a policy question. </p>
-<p>MR. JUSTICE REED: I can understand that. But is it your argument that there are two sides to it? </p>
-<p>MR. MOORE: It illustrates there are two sides to it, and it points up that the 
+<p><b>MR. JUSTICE REED</b>: I can understand that. But is it your argument that there are two sides to it? </p>
+<p><b>MR. MOORE</b>: It illustrates there are two sides to it, and it points up that the 
 real crux of the whole matter is that there is involved fundamentally a policy question 
 for legislative bodies to pass on, and not for the courts. Now, in the second place, 
 it emphasizes, I hope, that the historical background that exists, certainly in 
 this Virginia situation, with all the strife and the history that we have shown 
 in this record, shows a basis, a real basis, for the classification that has been made. </p>
-<p>MR. JUSTICE REED: There has been a legislative determination in Virginia? </p>
-<p>MR. MOORE: That is right, sir. </p>
-<p>MR. JUSTICE REED: That the greatest good for the greatest number is found in 
+<p><b>MR. JUSTICE REED</b>: There has been a legislative determination in Virginia? </p>
+<p><b>MR. MOORE</b>: That is right, sir. </p>
+<p><b>MR. JUSTICE REED</b>: That the greatest good for the greatest number is found in 
 segregation? </p>
-<p>MR. MOORE: That is right; with these lawmakers continuously since 1870 doing 
+<p><b>MR. MOORE</b>: That is right; with these lawmakers continuously since 1870 doing 
 their job to do their best in the general welfare. It is significant that the Virginia 
 statutes since 1870 have contained straight through a requirement that there should 
 not only be a separation, but there should be treatment with equality and with efficiency 
 all the way through; that is the policy. </p>
 <p>My time is almost up. </p>
-<p>MR. JUSTICE JACKSON: Suppose Congress should enact a statute, pursuant to the enabling clause of the Fourteenth Amendment, which nobody seems to attach any importance to here, as far as I have heard, 
+<p><b>MR. JUSTICE JACKSON</b>: Suppose Congress should enact a statute, pursuant to the enabling clause of the Fourteenth Amendment, which nobody seems to attach any importance to here, as far as I have heard, 
 that segregation was contrary to national policy, to the national welfare, and so on; what would happen? </p>
-<p>MR. MOORE: Your Honor, we thought of that in here, and that is a big question, 
+<p><b>MR. MOORE</b>: Your Honor, we thought of that in here, and that is a big question, 
 as you realize. </p>
-<p>MR. JUSTICE JACKSON: That is why I asked it. </p>
-<p>MR. MOORE: Our view of the matter is that it should not be held valid in this 
+<p><b>MR. JUSTICE JACKSON</b>: That is why I asked it. </p>
+<p><b>MR. MOORE</b>: Our view of the matter is that it should not be held valid in this 
 Court; that the only effective way to accomplish that is to be done through an Act 
 of Congress, which would be by amending the Constitution. </p>
-<p>MR. JUSTICE JACKSON: You think that the Fourteenth Amendment would not be adequate to do that? </p>
-<p>MR. MOORE: We do not believe so, and I have not the time and I have no desire 
+<p><b>MR. JUSTICE JACKSON</b>: You think that the Fourteenth Amendment would not be adequate to do that? </p>
+<p><b>MR. MOORE</b>: We do not believe so, and I have not the time and I have no desire 
 to engage in this very interesting discussion that Justice Burton and Justice Frankfurter 
 engaged in, as to whether there is any difference through the passage of time and 
 through progress which has been made between the commerce clause and the Fourteenth 
@@ -989,7 +989,7 @@ interstate buses is involved, it is much easier to find facts which will show, a
 time has gone on, that there should be a different application than there is where a question of equal protection is involved. We believe, as Mr. Davis pointed out this morning, I think touching this same point, although very slightly, that the Fourteenth 
 Amendment here should be viewed in the light of what was really intended, and what 
 was understood by Congress and by the legislatures at that time. </p>
-<p>MR. JUSTICE FRANKFURTER: But Justice Jackson&#39;s question brings into play different 
+<p><b>MR. JUSTICE FRANKFURTER</b>: But Justice Jackson&#39;s question brings into play different 
 questions and different considerations, Mr. Moore, because the enabling act of the 
 Fourteenth Amendment is itself a provision of the Fourteenth Amendment; patently Congress looked forward 
 to implementing legislation; implementing legislation patently looked forward to the future; and if Congress passed a statute doing that which is asked of us to be done through judicial 
@@ -997,29 +997,29 @@ decree, the case would come here with a pronouncement by Congress in its legisla
 within the Fourteenth Amendment and, therefore, it would come with all the heavy 
 authority, with the momentum and validity that a congressional enactment has.
 </p>
-<p>MR. MOORE: That may be so, Your Honor, but that is another case. </p>
-<p>MR. JUSTICE FRANKFURTER: That is a good answer. </p>
-<p>MR. MOORE: Yes, it is another 
+<p><b>MR. MOORE</b>: That may be so, Your Honor, but that is another case. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is a good answer. </p>
+<p><b>MR. MOORE</b>: Yes, it is another 
 case. </p>
-<p>MR. JUSTICE JACKSON: I wonder if it is. I should suppose that your argument that 
+<p><b>MR. JUSTICE JACKSON</b>: I wonder if it is. I should suppose that your argument that 
 this was a legislative question might have been addressed to the proposition that 
 the enforcement of the Fourteenth Amendment, if this were deemed conflicting, might 
 be for the Congress rather than for this Court. I would rather expect and I had 
 rather expected to hear that question discussed. But you apparently are in the position 
 that no federal agency can supersede the state&#39;s authority in this matter, which, I say, you have good precedents 
 for arguing. </p>
-<p>MR. MOORE: Your Honor will appreciate that you have asked a question that to 
+<p><b>MR. MOORE</b>: Your Honor will appreciate that you have asked a question that to 
 try to answer adequately requires a lot more time than I have got. </p>
-<p>MR. JUSTICE FRANKFURTER: I understood you to say that that is a different 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I understood you to say that that is a different 
 case—
 </p>
-<p>MR. MOORE: That is right. </p>
-<p>MR. JUSTICE FRANKFURTER: —meaning that you do not have an Act of Congress.
+<p><b>MR. MOORE</b>: That is right. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: —meaning that you do not have an Act of Congress.
 </p>
-<p>MR. MARSHALL: That is right, sir. Now, of course, in the District— </p>
-<p>MR. JUSTICE JACKSON: What I am trying to get at is, do you attach any importance 
+<p><b>MR. MARSHALL</b>: That is right, sir. Now, of course, in the District— </p>
+<p><b>MR. JUSTICE JACKSON</b>: What I am trying to get at is, do you attach any importance 
 to the fact that there is not any Act of Congress? Apparently you do not, because there could not be one. </p>
-<p>MR. MOORE: I am very glad there is not; yes, sir, I am very pleased with that 
+<p><b>MR. MOORE</b>: I am very glad there is not; yes, sir, I am very pleased with that 
 anyway. </p>
 <p>May I just take one more minute or two? I wanted to take a couple of minutes 
 on that last question that Justice Frankfurter asked, because it is a very important 
@@ -1031,11 +1031,11 @@ there certainly must be some leeway here in a court of equity and in a declarato
 judgment proceeding. Our friend on the other side, Mr. Marshall, said yesterday he realized 
 there must be a transition period. We are operating under a court decree which says, 
 &quot;Do that thing right now.&quot; </p>
-<p>MR. CHIEF JUSTICE VINSON: He was talking then, was he not, about segregation, 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: He was talking then, was he not, about segregation, 
 and if it should be held that segregation per se was invalid, then he would be willing 
 to let some time pass. But as I have understood him here, he says it is of the present, 
 and it should be here admitted presently. </p>
-<p>MR. MOORE: Well, the short answer here really is that as a practical matter in the situation we are in with the building under construction, under the court decree, with our knowing it is going to be ready in September, 
+<p><b>MR. MOORE</b>: Well, the short answer here really is that as a practical matter in the situation we are in with the building under construction, under the court decree, with our knowing it is going to be ready in September, 
 all we could really do practically would be to close the schools down until June, 
 and then come along with equality. Now, we do not believe that is in the interest 
 of anybody. </p>
@@ -1043,7 +1043,7 @@ of anybody. </p>
 the Attorney General, desires the remainder of the time. </p>
 <p style="text-align:center"><b>ARGUMENT OF J. LINDSAY ALMOND, ESQ., <br>
 ON BEHALF OF THE APPELLEES </b> </p>
-<p>MR. ALMOND: May it please the Court: </p>
+<p><b>MR. ALMOND</b>: May it please the Court: </p>
 <p>Just a few minutes are available to our side in which I would 
 like to discuss with the Court what we conceive to be the 
 historical background of this question in Virginia. </p>
@@ -1062,16 +1062,16 @@ to do the very best they could through private tutorship. So that arrangement la
 until 1870, when the public free school system of Virginia came into being by virtue 
 of the enactment of the legislature of Virginia, found here in substantially the 
 same language that it was put into the Constitution of Virginia in 1902. </p>
-<p>MR. CHIEF JUSTICE VINSON: In 1865, General, you say there were missionaries who 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: In 1865, General, you say there were missionaries who 
 came down from the North? </p>
-<p>MR. ALMOND: Yes, sir. </p>
-<p>MR. CHIEF JUSTICE VINSON: What funds did they have? </p>
-<p>MR. ALMOND: They were private 
+<p><b>MR. ALMOND</b>: Yes, sir. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: What funds did they have? </p>
+<p><b>MR. ALMOND</b>: They were private 
 funds. </p>
-<p>MR. CHIEF JUSTICE VINSON: Private funds; and private schools, I take it? </p>
-<p>MR. ALMOND: They were private schools. </p>
-<p>MR. CHIEF JUSTICE VINSON: For the Negro? </p>
-<p>MR. ALMOND: For the Negro children. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Private funds; and private schools, I take it? </p>
+<p><b>MR. ALMOND</b>: They were private schools. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: For the Negro? </p>
+<p><b>MR. ALMOND</b>: For the Negro children. </p>
 <p>But when the State took over or decided after a terrific conflict as to whether or not it should go into the field of public education, because it was the custom and tradition of our people prior to that time that every family should educate its own children—they were opposed to the expending of public funds for the education of the children of our people. </p>
 <p>But a distinguished Virginian, a Doctor William H. Ruffing, became the first 
 superintendent of schools in Virginia, and he wrote that statute which we have before 
@@ -1116,10 +1116,10 @@ great program in Virginia, appropriating millions of dollars and, Mr. Moore has
 pointed out, at this time we are spending more for facilities for Negro children than we are for whites, and we should 
 do it because we were laggards in the years past in doing what we should have done.
 </p>
-<p>MR. CHIEF JUSTICE VINSON: General, I understood Mr. Moore to say that it was 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: General, I understood Mr. Moore to say that it was 
 a legal responsibility for Virginia to have the equal facilities in the statute 
 itself. </p>
-<p>MR. ALMOND: In the statute itself there is a legal responsibility, and in the 
+<p><b>MR. ALMOND</b>: In the statute itself there is a legal responsibility, and in the 
 years past it has not been discharged as it should have been discharged. </p>
 <p>What I said about it is, independently of his right, that we should do it; it 
 is our policy and it is our determination; we are irrevocably dedicated and our 
@@ -1129,12 +1129,12 @@ with, and that we are going forward with. </p>
 have been appropriated in those two sessions of the Legislature of Virginia to be 
 dedicated almost solely toward the improvement of facilities at the secondary level 
 in Virginia. </p>
-<p>MR. CHIEF JUSTICE VINSON: Are those sixty million dollars what you call the Battle 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Are those sixty million dollars what you call the Battle 
 Fund? </p>
-<p>MR. ALMOND: That is right, Mr. Chief Justice. </p>
-<p>MR. CHIEF JUSTICE VINSON: What is the Literary Fund, for what purpose and in 
+<p><b>MR. ALMOND</b>: That is right, Mr. Chief Justice. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: What is the Literary Fund, for what purpose and in 
 what amount? Is it temporary or permanent? </p>
-<p>MR. ALMOND: No, sir. Written into the Constitution of Virginia are provisions for what we call a Literary Fund, and there goes into that Fund 
+<p><b>MR. ALMOND</b>: No, sir. Written into the Constitution of Virginia are provisions for what we call a Literary Fund, and there goes into that Fund 
 the collections of all fines that are paid in Virginia; they go permanently into that Fund, and that is a revolving fund from which the school boards of the various localities may make application 
 for moneys for school purposes, principally for school construction, and meet certain 
 minimum requirements laid down by the State Board of Education; and then they issue 
@@ -1146,11 +1146,11 @@ loans either in actual operations or applications approved for in excess of 48 m
 dollars from the Literary Fund, which have been applied to the construction of white 
 schools and something over twelve million dollars which have been applied to the construction of the Negro schools. </p>
 <p>If I may have just another moment— </p>
-<p>MR. CHIEF JUSTICE VINSON: All right, General, you may have five additional minutes, 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: All right, General, you may have five additional minutes, 
 and you may have five minutes for rebuttal. </p>
-<p>MR. ALMOND: Thank you, sir. I just want to say a word— </p>
-<p>MR. CHIEF JUSTICE VINSON: I do not want to penalize you by my questions. </p>
-<p>MR. ALMOND: I just want to say a word, if Your Honors please, relative to the 
+<p><b>MR. ALMOND</b>: Thank you, sir. I just want to say a word— </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: I do not want to penalize you by my questions. </p>
+<p><b>MR. ALMOND</b>: I just want to say a word, if Your Honors please, relative to the 
 impact of a decision that would strike down, contrary to the customs, the traditions and the mores of what we might claim to be a great 
 people, established through generations. who themselves are fiercely and irrevocably 
 dedicated to the preservation of the white and colored races. </p>
@@ -1168,8 +1168,8 @@ the public school system of Virginia, and it would destroy
 the public school system of Virginia as we know it today. That is not an idle threat.
 </p>
 <p>Then, too, a thing that concerns us— </p>
-<p>MR. CHIEF JUSTICE VINSON: General, in what way will it destroy it? </p>
-<p>MR. ALMOND: It would destroy it, Mr. Chief Justice, because we must have—it 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: General, in what way will it destroy it? </p>
+<p><b>MR. ALMOND</b>: It would destroy it, Mr. Chief Justice, because we must have—it 
 is a costly proposition—money with which to operate the public school system at 
 both the state level and the local level, and the only source of income, of course, is the source of taxation at 
 the state and local level, and bond issues at the local level; and the people would 
@@ -1191,13 +1191,13 @@ Edward County Negro population; to make such a transition would undo what we hav
 to continue to do for the uplift and advancement of the education of both races. 
 It would stop this march of progress, this onward sweep. </p>
 <p>I thank you. </p>
-<p>MR. CHIEF JUSTICE VINSON: Mr. Robinson, you understand that you have five additional 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Mr. Robinson, you understand that you have five additional 
 minutes. </p>
 <p style="text-align:center"><b>REBUTTAL ARGUMENT OF <br>
 SPOTTSWOOD W. ROBINSON, III, ESQ., <br>
 ON BEHALF OF THE APPELLANTS </b> </p>
-<p>MR. ROBINSON: In addition to the time that was reserved to me, yes. </p>
-<p>May it please the Court: </p>
+<p><b>MR. ROBINSON</b>: In addition to the time that was reserved to me, yes. </p>
+<p><b>May it please the Court</b>: </p>
 <p>In addition to the evidence in the record to which I have referred the Court to answer a question put to me by Mr. Justice Reed upon the opening 
 argument, I should also like to request the attention of the Court directly to our 
 statement as to jurisdiction, pages nine to eleven, where we did undertake to incorporate 
@@ -1257,11 +1257,11 @@ was 61 cents in sites and buildings, 50 cents in furniture and equipment, 67 cen
 in buses, and 61 cents in total school property. That is the situation in Virginia. 
 It was the situation in Virginia as we were able to present it up to the latest
 possible point at the time of the trial in this case. </p>
-<p>MR. JUSTICE JACKSON: I hope you will take time enough before you finish to tell me what your position is about the provision of the Fourteenth Amendment, that Congress pass appropriate legislation to enforce it and what effect if any it has on these cases. </p>
-<p>MR. ROBINSON: That are now before the Court, sir? </p>
-<p>MR. JUSTICE JACKSON: Yes, cases 
+<p><b>MR. JUSTICE JACKSON</b>: I hope you will take time enough before you finish to tell me what your position is about the provision of the Fourteenth Amendment, that Congress pass appropriate legislation to enforce it and what effect if any it has on these cases. </p>
+<p><b>MR. ROBINSON</b>: That are now before the Court, sir? </p>
+<p><b>MR. JUSTICE JACKSON</b>: Yes, cases 
 of this character. </p>
-<p>MR. ROBINSON: I will be glad to do that, Mr. Justice Jackson, right now. I disagree 
+<p><b>MR. ROBINSON</b>: I will be glad to do that, Mr. Justice Jackson, right now. I disagree 
 with counsel for the appellees that Congress does not have full power under section 
 5 of the Fourteenth Amendment to enact legislation that would outlaw segregation in state public schools. But 
 I do feel that insofar as the present cases are concerned that has relatively little 
@@ -1272,22 +1272,22 @@ been presented in cases which in the past have been brought here. In other words
 I do not feel that the mere fact that under the authority of section 5 of the Fourteenth Amendment Congress could enact legislation which would settle this problem would 
 in any way encroach upon the jurisdiction of this Court if, as a matter of fact, a violation of the Constitution has been shown. 
 </p>
-<p>MR. JUSTICE JACKSON: Of course, in the jury cases you have legislation by Congress; 
+<p><b>MR. JUSTICE JACKSON</b>: Of course, in the jury cases you have legislation by Congress; 
 in the interstate commerce cases you have legislation by Congress. </p>
-<p>MR. ROBINSON: That is correct, sir. </p>
-<p>MR. JUSTICE JACKSON: In a good many of our cases, but not all, you are quite 
+<p><b>MR. ROBINSON</b>: That is correct, sir. </p>
+<p><b>MR. JUSTICE JACKSON</b>: In a good many of our cases, but not all, you are quite 
 right, that some do have them. But in a number of cases they rest on specific statutory 
 implementation of this Amendment. </p>
-<p>MR. ROBINSON: Yes. I would like to make— </p>
-<p>MR. JUSTICE DOUGLAS: What statute of Congress regulates juries? </p>
-<p>MR. ROBINSON: I think it is section 47 of Title 8 of the United States Code. 
+<p><b>MR. ROBINSON</b>: Yes. I would like to make— </p>
+<p><b>MR. JUSTICE DOUGLAS</b>: What statute of Congress regulates juries? </p>
+<p><b>MR. ROBINSON</b>: I think it is section 47 of Title 8 of the United States Code. 
 I think it is; I have forgotten. </p>
-<p>MR. JUSTICE JACKSON: I pointed it out in a dissenting opinion some time ago, but Justice Douglas apparently did not read my dissent. </p>
-<p>MR. ROBINSON: I do not remember the exact number, Mr. Justice Douglas, but it is up in Title 8, and, as I recall, it is somewhere in the forties; 
+<p><b>MR. JUSTICE JACKSON</b>: I pointed it out in a dissenting opinion some time ago, but Justice Douglas apparently did not read my dissent. </p>
+<p><b>MR. ROBINSON</b>: I do not remember the exact number, Mr. Justice Douglas, but it is up in Title 8, and, as I recall, it is somewhere in the forties; 
 it is in the forties section. </p>
 <p>I would like to make reference to this— </p>
-<p>MR. JUSTICE DOUGLAS: Has the Court ever held that the Fourteenth Amendment is not executed unless Congress acts? </p>
-<p>MR. ROBINSON: No, I do not think so. </p>
+<p><b>MR. JUSTICE DOUGLAS</b>: Has the Court ever held that the Fourteenth Amendment is not executed unless Congress acts? </p>
+<p><b>MR. ROBINSON</b>: No, I do not think so. </p>
 <p>There is a large area of law which has been developed by 
 this Court in which the decision has rested upon the provisions of the due process 
 and equal protection clauses, and, in a few instances, of the privileges and immunities 
@@ -1303,27 +1303,27 @@ in the denial of the equal protection of the laws, notwithstanding the fact in t
 situation we did have a case in which Congress, under its authority conferred by 
 section 5 of the Fourteenth Amendment, might have outlawed the thing to start off 
 with, so that the question might never have gotten to this Court. </p>
-<p>MR. JUSTICE REED: But if segregation is not a denial of equal protection or due 
+<p><b>MR. JUSTICE REED</b>: But if segregation is not a denial of equal protection or due 
 process, legislation by Congress could do nothing more except to express congressional views, and wouldn&#39;t that be decisive?
 </p>
-<p>MR. ROBINSON: Yes, I am inclined to— </p>
-<p>MR. JUSTICE REED: So you would be forced to decide whether or not segregation 
+<p><b>MR. ROBINSON</b>: Yes, I am inclined to— </p>
+<p><b>MR. JUSTICE REED</b>: So you would be forced to decide whether or not segregation 
 per se comes under that question. </p>
-<p>MR. ROBINSON: Of course, that is our position here, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: The Fourteenth Amendment is not unlike, in some aspect, 
+<p><b>MR. ROBINSON</b>: Of course, that is our position here, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: The Fourteenth Amendment is not unlike, in some aspect, 
 the commerce clause. There are many things that the states cannot do merely because 
 the commerce clause exists. There are many things that a state can do until Congress
 steps in. 
 </p>
-<p>MR. ROBINSON: That is right, sir. Under those circumstances— </p>
-<p>MR. JUSTICE REED: The state cannot violate the Fourteenth Amendment. </p>
-<p>MR. ROBINSON: I beg pardon? </p>
-<p>MR. JUSTICE REED: The state cannot violate the Fourteenth Amendment. </p>
-<p>MR. ROBINSON: That is right, and I was just about to observe that it cannot violate the commerce clause either. </p>
-<p>MR. JUSTICE FRANKFURTER: We would not be arguing for ten hours if it is clear 
+<p><b>MR. ROBINSON</b>: That is right, sir. Under those circumstances— </p>
+<p><b>MR. JUSTICE REED</b>: The state cannot violate the Fourteenth Amendment. </p>
+<p><b>MR. ROBINSON</b>: I beg pardon? </p>
+<p><b>MR. JUSTICE REED</b>: The state cannot violate the Fourteenth Amendment. </p>
+<p><b>MR. ROBINSON</b>: That is right, and I was just about to observe that it cannot violate the commerce clause either. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: We would not be arguing for ten hours if it is clear 
 that this is a violation of it. We do not argue for ten hours a question that is 
 self-evident. </p>
-<p>MR. ROBINSON: I understand, sir. </p>
+<p><b>MR. ROBINSON</b>: I understand, sir. </p>
 <p>Now, going back to the so-called Virginia picture, reference was made and questions 
 were asked concerning the Literary Fund allocations, the approximately sixty million 
 dollars allocated by the state Literary Fund for school construction in the State. 
@@ -1354,12 +1354,12 @@ program. Virginia does not have the money for it now. Even though Virginia could
 spend 263 million dollars—an enormous sum by Virginia standards—all that we succeed in doing is moving from a present 
 61 cents to 79 cents per Negro student for each dollar that is invested in buildings 
 and sites for white students. </p>
-<p>MR. CHIEF JUSTICE VINSON: Have you got any breakdown as 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Have you got any breakdown as 
 to the number of school buildings that have been constructed in the last, say, five 
 years? I heard about the high school of Richmond and Charlottesville. I am fearful that this percentage business does not make it very clear to me because it is a question of the number of schools; 
 it is a question of how the students are grouped, as to whether they are getting 
 the fair &quot;divvy,&quot; I might say. </p>
-<p>MR. ROBINSON: Yes, Mr. Chief Justice. </p>
+<p><b>MR. ROBINSON</b>: Yes, Mr. Chief Justice. </p>
 <p>Now, maybe I can help. On the Literary Fund allocations that I was talking about 
 just a few minutes ago, the evidence at the time of the trial showed that there 
 had been projects—no, it does not give the number of schools. It simply shows the 
@@ -1375,27 +1375,27 @@ at all it will be found there.
 case where we get to one of these particular things. I do not recall that the precise 
 information concerning which Your Honor has asked me does appear in the record.
 </p>
-<p>MR. CHIEF JUSTICE VINSON: It would seem to me that if it did appear it would 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: It would seem to me that if it did appear it would 
 either show a stepped-up program or maybe retrogression in respect of the—if you 
 had the breakdown it would show something. </p>
-<p>MR. ROBINSON: Well, the appellees do insist that this is, in other words, a stepped-up program. </p>
-<p>MR. CHIEF JUSTICE VINSON: Do I understand that you take the same position that 
+<p><b>MR. ROBINSON</b>: Well, the appellees do insist that this is, in other words, a stepped-up program. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Do I understand that you take the same position that 
 Mr. Marshall would take if we were to hold that segregation per se was unconstitutional 
 in regard to the time element? </p>
-<p>MR. ROBINSON: On the matter of necessity of the administrative problem in these segregated—oh, yes. </p>
-<p>MR. CHIEF JUSTICE VINSON: Then why, if you take that position there—and I assume you take it as a matter of necessity—why do you not take that position here under the equal facilities doctrine? </p>
-<p>MR. ROBINSON: If Your Honor please, I think that there is a difference between a postponement of a right and a delay which is incidental 
+<p><b>MR. ROBINSON</b>: On the matter of necessity of the administrative problem in these segregated—oh, yes. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Then why, if you take that position there—and I assume you take it as a matter of necessity—why do you not take that position here under the equal facilities doctrine? </p>
+<p><b>MR. ROBINSON</b>: If Your Honor please, I think that there is a difference between a postponement of a right and a delay which is incidental 
 to affording the remedies that we asked for. I do not think that it would be possible, 
 without encroaching upon the previous decisions of this Court, to take the position 
 that, notwithstanding a present denial of the constitutional rights of the appellants, that notwithstanding 
 that, they must wait until the State gets around to fixing the schools. </p>
-<p>MR. CHIEF JUSTICE VINSON: Of course, I take it that you recognize the distinction 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Of course, I take it that you recognize the distinction 
 in the cases in regard to the number of students affected, and all that sort of 
 thing. But if you agree that a reasonable period of time should be granted if we 
 held segregation was unconstitutional, I just wonder why you take the position you do in regard 
 to the equal facilities, unless you say that the stepped-up program is just not 
 sufficient to meet the situation. </p>
-<p>MR. ROBINSON: We do take the latter position, if Your Honor please, and we have 
+<p><b>MR. ROBINSON</b>: We do take the latter position, if Your Honor please, and we have 
 set forth—and since my time is just about up, I can only now refer the Court to 
 the data which we have set forth in our reply brief in that connection, in which 
 we point out that this stepped-up program of this State is not going to produce 
@@ -1408,9 +1408,9 @@ of that remedy. A case that I can think of is if a court should decree specific
 performance of a contract to tear down a house; the man has got to have a 
 reasonable opportunity to get the house down. But I do not think in that 
 particular case if the man is entitled to that decree— </p>
-<p>MR. CHIEF JUSTICE VINSON: A man might have to have a reasonable opportunity to 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: A man might have to have a reasonable opportunity to 
 get out of the house before it is torn down. </p>
-<p>MR. ROBINSON: I agree with that, too. </p>
+<p><b>MR. ROBINSON</b>: I agree with that, too. </p>
 <p>In other words, we have the administrative practical problem arising from the 
 affording of the remedy, and to that particular situation and to that particular 
 extent, of course, we readily recognize some lapse of time. I am not in a position to suggest what it should be. </p>
@@ -1421,55 +1421,55 @@ and personal, as to how we can say that notwithstanding that, we may delay the r
 before he can get satisfaction of his rights—he may be postponed at some time into 
 the future before he can get what the Constitution entitled him to, and what his 
 white counterparts are getting already. </p>
-<p>MR. CHIEF JUSTICE VINSON: Now, take the South Carolina case. Would you say that, 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Now, take the South Carolina case. Would you say that, 
 assuming the equal facilities rule will still continue, would you say that the lapse 
 of time in their construction program was not fully justified by the lower court? </p>
-<p>MR. ROBINSON: Well, I would have to answer that question, if Your Honor 
+<p><b>MR. ROBINSON</b>: Well, I would have to answer that question, if Your Honor 
 please, this way: I do not personally feel, and I could not urge upon the Court, 
 that suspension of the satisfaction of a constitutional right is ever justified. 
 In other words, I would— </p>
-<p>MR. CHIEF JUSTICE VINSON: But you realize you are in equity; you realize that you have got the rights of other people involved in regard to dislocation? </p>
-<p>MR. ROBINSON: I appreciate that. </p>
-<p>MR. CHIEF JUSTICE VINSON: And in the South Carolina case there was some delay, 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: But you realize you are in equity; you realize that you have got the rights of other people involved in regard to dislocation? </p>
+<p><b>MR. ROBINSON</b>: I appreciate that. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: And in the South Carolina case there was some delay, 
 but we are told here that when the new buildings were constructed and occupied in 
 September—I recall there was some effort, special effort, made to get the material 
 to build the gymnasium—at one time they thought they would not get it, but they 
 worked around and got it for the gymnasium. </p>
-<p>MR. ROBINSON: Yes. As I understand the &quot;separate but equal&quot; rule, even under 
+<p><b>MR. ROBINSON</b>: Yes. As I understand the &quot;separate but equal&quot; rule, even under 
 that, at that particular time, at the time of the first hearing when the 
 facilities were— </p>
-<p>MR. CHIEF JUSTICE VINSON: All right, go ahead. </p>
-<p>MR. ROBINSON: —unequal, the court should, instead of entering an equalization decree, should have removed the segregation. That is what this 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: All right, go ahead. </p>
+<p><b>MR. ROBINSON</b>: —unequal, the court should, instead of entering an equalization decree, should have removed the segregation. That is what this 
 Court said in the Gaines case is the consequence of trying to maintain segregation 
 where you do not have equal physical facilities. </p>
-<p>MR. CHIEF JUSTICE VINSON: Well, the Court did not— </p>
-<p>MR. ROBINSON: The Court did not under those circumstances, and I say that at 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Well, the Court did not— </p>
+<p><b>MR. ROBINSON</b>: The Court did not under those circumstances, and I say that at 
 that particular point what the Court there was doing, the Court was not simply delaying 
 the thing for purposes which would be incidental to giving to the plaintiffs the 
 relief which under that doctrine they were then entitled to. The Court was delaying it until conditions could be remedied in such a way that under the &quot;separate but equal&quot; doctrine, if limited to that particular point, they 
 would not be entitled to any relief at all. </p>
-<p>MR. CHIEF JUSTICE VINSON: Well now, what is your view in regard to the way it 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Well now, what is your view in regard to the way it 
 was handled by the lower court? </p>
-<p>MR. ROBINSON: In the Virginia case? </p>
-<p>MR. CHIEF JUSTICE VINSON: No, in the South Carolina case, considering that they 
+<p><b>MR. ROBINSON</b>: In the Virginia case? </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: No, in the South Carolina case, considering that they 
 ruled segregation per se not unconstitutional? </p>
 <p>Do you have objection to that method of handling it? </p>
-<p>MR. ROBINSON: Well, if the Court should rule—I want to make certain— </p>
-<p>MR. CHIEF JUSTICE VINSON: Well, they did rule. I say, so far as they are concerned, 
+<p><b>MR. ROBINSON</b>: Well, if the Court should rule—I want to make certain— </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Well, they did rule. I say, so far as they are concerned, 
 they did so rule. </p>
-<p>MR. ROBINSON: Yes. I am just trying to understand Your Honor&#39;s question. </p>
-<p>MR. CHIEF JUSTICE VINSON: Would you say that under the circumstances in the South 
+<p><b>MR. ROBINSON</b>: Yes. I am just trying to understand Your Honor&#39;s question. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Would you say that under the circumstances in the South 
 Carolina case, having ruled on the segregation question as they did, that immediately, eo instanti, they should have said, &quot;entry 
 into white schools,&quot; or, seeing the imminent construction, that they should continue as they did? </p>
-<p>MR. ROBINSON: Not the latter if you please; the former, taking into consideration 
+<p><b>MR. ROBINSON</b>: Not the latter if you please; the former, taking into consideration 
 that &quot;immediately&quot; would not mean five minutes from now. </p>
-<p>MR. CHIEF JUSTICE VINSON: Well now, how many minutes, how many days? That is 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Well now, how many minutes, how many days? That is 
 the point. </p>
-<p>MR. ROBINSON: I would not be able—I have tried to make plain that I consider 
+<p><b>MR. ROBINSON</b>: I would not be able—I have tried to make plain that I consider 
 that that is an administrative problem, and that gets into things that, frankly, 
 I do not think that I am able to answer. </p>
-<p>MR. CHIEF JUSTICE VINSON: What about the courts? </p>
-<p>MR. ROBINSON: I do not think that courts are, either. In other words, my position 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: What about the courts? </p>
+<p><b>MR. ROBINSON</b>: I do not think that courts are, either. In other words, my position 
 in that particular regard is that they are entitled to the relief immediately which should be afforded them just as soon as expeditious 
 administrative arrangements can be made to unsegregate the schools, as I understand 
 the Gaines and the subsequent cases, the doctrine of those cases, requires. </p>

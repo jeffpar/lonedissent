@@ -54,14 +54,14 @@ The above-entitled cause came on for oral argument at 3:15 p.m.,</p>
   JOHN W. DAVIS, ESQ., <i>on behalf of the Appellees</i>. </p>
 </blockquote>
 <p style="text-align:center"><b>PROCEEDINGS </b></p>
-<p>MR. CHIEF JUSTICE VINSON: Case No. 101, <i>Harry Briggs, Jr., et al.</i>, against 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Case No. 101, <i>Harry Briggs, Jr., et al.</i>, against 
 <i>Roger 
 W. Elliott, Chairman, J. D. Carson, et al., Members of Board of Trustees of School 
 District No. 22, Clarendon County, South Carolina, et al.</i> </p>
-<p>THE CLERK: Counsel are present. </p>
+<p><b>THE CLERK</b>: Counsel are present. </p>
 <p style="text-align:center"><b>OPENING ARGUMENT OF THURGOOD MARSHALL, ESQ.,<br>
 ON BEHALF OF APPELLANTS </b></p>
-<p>MR. MARSHALL: May it please the Court: </p>
+<p><b>MR. MARSHALL</b>: May it please the Court: </p>
 <p>This case is here on direct appeal from the United States District Court for 
 the Eastern District of South Carolina. The issue raised in this case was clearly 
 raised in the pleadings, and was clearly raised throughout the first hearing. After 
@@ -82,7 +82,7 @@ page ten, and it appears in appellees&#39; brief at page fourteen, and reads as 
 <blockquote>
   <p>Separate schools shall be provided for children of the white races— </p>
 </blockquote>
-<p>This is the significant language: </p>
+<p><b>This is the significant language</b>: </p>
 <blockquote>
   <p>... and no child of either race shall ever be permitted to attend a school 
   provided for children of the other race. </p>
@@ -133,14 +133,14 @@ In substance, he said, on page 161 of the record—I think it is page 161—that
 a similar learning situation, a Negro child and a white child would tend to do about 
 the same thing. I think I have it here. It is on page 161:</p>
 <blockquote>
-  <p>Question: As a result of your studies that you have made, the training that 
+  <p><b>Question</b>: As a result of your studies that you have made, the training that 
   you have had in your specialized field over some twenty years, given a similar 
   learning situation, what, if any difference, is there between the accomplishment 
   of a white and a Negro student, given a similar learning situation?</p>
-  <p>Answer: I understand, if I may say so, a similar learning situation to include 
+  <p><b>Answer</b>: I understand, if I may say so, a similar learning situation to include 
   a similar degree of preparation? </p>
-  <p>Question: Yes. </p>
-  <p>Answer: Then I would say that my conclusion is that the one does as well as 
+  <p><b>Question</b>: Yes. </p>
+  <p><b>Answer</b>: Then I would say that my conclusion is that the one does as well as 
   the other on the average. </p>
 </blockquote>
 <p>He has considerable testimony along the lines. But we produced testimony to show 
@@ -261,34 +261,34 @@ in 1823, which I think is pretty good law as of today. Mr. Justice Johnson said:
 </blockquote>
 <p>There is a lot of other language and other opinions, but I think that this is 
 very significant.</p>
-<p>MR. CHIEF JUSTICE VINSON: Mr. Marshall, what emphasis do you give to the words, 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Mr. Marshall, what emphasis do you give to the words, 
 &quot;So long as equality of rights is preserved&quot;?</p>
-<p>MR. MARSHALL: In Judge Parker&#39;s opinion—</p>
-<p>MR. CHIEF JUSTICE VINSON: Yes.</p>
-<p>MR. MARSHALL: —of physical facilities, because he ends up in this statement, 
+<p><b>MR. MARSHALL</b>: In Judge Parker&#39;s opinion—</p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Yes.</p>
+<p><b>MR. MARSHALL</b>: —of physical facilities, because he ends up in this statement, 
 and makes it, I think, very clear. On the second hearing, on three or four occasions, 
 he made it clear that segregation was not involved in the case any longer.</p>
-<p>MR. JUSTICE REED: Segregation or equality of rights?</p>
-<p>MR. MARSHALL: He said that segregation was out of the case, 
+<p><b>MR. JUSTICE REED</b>: Segregation or equality of rights?</p>
+<p><b>MR. MARSHALL</b>: He said that segregation was out of the case, 
 and that we had disposed of it. And page 279—I think I marked it—yes, sir, the 
 question was asked of me about building the schools overnight, and down near the 
 end of the page he mentions the fact of segregation:</p>
 <blockquote>
   <p>Well, I understand you do not admit that any conditions exist that require 
   segregation. I understand that.</p>
-  <p>MR. MARSHALL: Yes, sir, that is right.</p>
-  <p>JUDGE PARKER: But that has been ruled on by the Court. What we are 
+  <p><b>MR. MARSHALL</b>: Yes, sir, that is right.</p>
+  <p><b>JUDGE PARKER</b>: But that has been ruled on by the Court. What we are 
   considering now is the question: whether the physical facilities, curricula—</p>
 </blockquote>
-<p>MR. CHIEF JUSTICE VINSON: —&quot;and the other things that can be made equal, without 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: —&quot;and the other things that can be made equal, without 
 the segregation issue, are being made equal?&quot;</p>
-<p>MR. MARSHALL: He is talking about physical facilities.</p>
-<p>MR. CHIEF JUSTICE VINSON: He is also talking about the curricula, &quot;and the other 
+<p><b>MR. MARSHALL</b>: He is talking about physical facilities.</p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: He is also talking about the curricula, &quot;and the other 
 things that can be made equal.&quot;</p>
-<p>MR. MARSHALL: I am sorry I mentioned that, sir. I considered curricula in the 
+<p><b>MR. MARSHALL</b>: I am sorry I mentioned that, sir. I considered curricula in the 
 physical facilities.</p>
-<p>MR. CHIEF JUSTICE VINSON: That is a shorthanded question.</p>
-<p>MR. MARSHALL: Yes, sir. But again on page 281 they asked the question of whether 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: That is a shorthanded question.</p>
+<p><b>MR. MARSHALL</b>: Yes, sir. But again on page 281 they asked the question of whether 
 something can be done, and I said that they could break down segregation. Judge 
 Dobie said, &quot;Let that alone.&quot;</p>
 <p>Judge Parker said, &quot;That is the same question.&quot;</p>
@@ -336,12 +336,12 @@ in the Edwards case.</p>
 repeatedly said that these distinctions on a racial basis or on a basis of ancestry 
 are odious and invidious, and those distinctions, I think, are entitled to just 
 as much weight as Plessy v. Ferguson or Gong Lum v. Rice.</p>
-<p>MR. CHIEF JUSTICE VINSON: Mr. Marshall, in Plessy v. Ferguson, in the Harlan 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Mr. Marshall, in Plessy v. Ferguson, in the Harlan 
 dissent—</p>
-<p>MR. MARSHALL: Yes, sir.</p>
-<p>MR. CHIEF JUSTICE VINSON: Do you attach any significance 
+<p><b>MR. MARSHALL</b>: Yes, sir.</p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Do you attach any significance 
 when he is dealing with illustrations of the absence of education?</p>
-<p>MR. MARSHALL: Yes, sir. I do not know, sir. I tried to study his opinions all 
+<p><b>MR. MARSHALL</b>: Yes, sir. I do not know, sir. I tried to study his opinions all 
 along. But I think that he was trying to take the position of the narrow issue involved 
 in this case, and not touch on schools, because of the fact that at that time—and 
 this is pure speculation—at that time the public school system was in such bad 
@@ -350,13 +350,13 @@ the money to be put in schools, and it was in a state of flux. But on the other
 hand, in the majority opinion, the significant thing, the case that they relied 
 on, was the Roberts case, which was decided before the Fourteenth Amendment was 
 even passed.</p>
-<p>MR. JUSTICE FRANKFURTER: But that does not do away with a consideration of the 
+<p><b>MR. JUSTICE FRANKFURTER</b>: But that does not do away with a consideration of the 
 Roberts case, does it?</p>
-<p>MR. MARSHALL: No, sir, it does not.</p>
-<p>MR. JUSTICE FRANKFURTER: The significance of the Roberts case is that that should 
+<p><b>MR. MARSHALL</b>: No, sir, it does not.</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: The significance of the Roberts case is that that should 
 be considered by the Supreme Court at a time when that issue was rampant in the 
 United States.</p>
-<p>MR. MARSHALL: Well, sir, I do not know about those days. But I cannot conceive 
+<p><b>MR. MARSHALL</b>: Well, sir, I do not know about those days. But I cannot conceive 
 of the Roberts case being good for anything except that the legislatures of the 
 states at those times were trying to work out their problems as they best could 
 understand. And it could be that up in Massachusetts at that time they thought that 
@@ -365,93 +365,93 @@ the considerations for the passage of any legislation before the Civil War and
 up to 1900, certainly, could not apply at the present time. I think that every 
 race has made progress, but I do not believe that those considerations have any 
 bearing at this time. The question today is—</p>
-<p>MR. JUSTICE FRANKFURTER: They do not study these cases. But may I call your attention 
+<p><b>MR. JUSTICE FRANKFURTER</b>: They do not study these cases. But may I call your attention 
 to what Mr. Justice Holmes said about the Fourteenth Amendment?</p>
 <blockquote>
   <p>The Fourteenth Amendment itself as an historical product did not destroy history 
   for the state and substitute mechanical departments of law . . .</p>
 </blockquote>
-<p>MR. MARSHALL: I agree, sir.</p>
-<p>MR. JUSTICE FRANKFURTER: Then you have to face the fact that this is not a question 
+<p><b>MR. MARSHALL</b>: I agree, sir.</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Then you have to face the fact that this is not a question 
 to be decided by an abstract starting point of natural law, that you cannot have 
 segregation. If we start with that, of course, we will end with that.</p>
-<p>MR. MARSHALL: I do not know of any other proposition, sir, that we could consider 
+<p><b>MR. MARSHALL</b>: I do not know of any other proposition, sir, that we could consider 
 that would say that because a person who is as white as snow with blue eyes and 
 blond hair has to be set aside.</p>
-<p>MR. JUSTICE FRANKFURTER: Do you think that is the case?</p>
-<p>MR. MARSHALL: Yes, sir. The law of South Carolina applies that way.</p>
-<p>MR. JUSTICE FRANKFURTER: Do you think that this law was passed for the same reason 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Do you think that is the case?</p>
+<p><b>MR. MARSHALL</b>: Yes, sir. The law of South Carolina applies that way.</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Do you think that this law was passed for the same reason 
 that a law would be passed prohibiting blue-eyed children from attending public 
 schools? You would permit all blue-eyed children to go to separate schools? You 
 think that this is the case?</p>
-<p>MR. MARSHALL: No, sir, because the blue-eyed people in the United States never 
+<p><b>MR. MARSHALL</b>: No, sir, because the blue-eyed people in the United States never 
 had the badge of slavery which was perpetuated in the statutes.</p>
-<p>MR. JUSTICE FRANKFURTER: If it is perpetuated as slavery, then the Thirteenth 
+<p><b>MR. JUSTICE FRANKFURTER</b>: If it is perpetuated as slavery, then the Thirteenth 
 Amendment would apply.</p>
-<p>MR. MARSHALL: But at the time—</p>
-<p>MR. JUSTICE FRANKFURTER: Do you really think it helps us not to recognize that 
+<p><b>MR. MARSHALL</b>: But at the time—</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Do you really think it helps us not to recognize that 
 behind this are certain facts of life, and the question is whether a legislature 
 can address itself to those facts of life in spite of or within the Fourteenth Amendment, 
 or whether, whatever the facts of life might be, where there is a vast congregation 
 of Negro population as against the states where there is not, whether that is an 
 irrelevant consideration? Can you escape facing those sociological facts, Mr. Marshall?</p>
-<p>MR. MARSHALL: No, I cannot escape it. But if I did fail to escape it, I would 
+<p><b>MR. MARSHALL</b>: No, I cannot escape it. But if I did fail to escape it, I would 
 have to throw completely aside the personal and present rights of those individuals.</p>
-<p>MR. JUSTICE FRANKFURTER: No, you would not. It does not follow because you cannot 
+<p><b>MR. JUSTICE FRANKFURTER</b>: No, you would not. It does not follow because you cannot 
 make certain classifications, you cannot make some classifications.</p>
-<p>MR. MARSHALL: But the personal and present right that I have to consider, like 
+<p><b>MR. MARSHALL</b>: But the personal and present right that I have to consider, like 
 any other citizen of Clarendon County, South Carolina, is a right that has been 
 recognized by this Court over and over again. And so far as the appellants in this 
 case are concerned, I cannot consider it sufficient to be relegated to the legislature 
 of South Carolina where the record in this Court shows their consideration of Negroes, 
 and I speak specifically of the primary cases.</p>
-<p>MR. JUSTICE FRANKFURTER: If you would refer to the record 
+<p><b>MR. JUSTICE FRANKFURTER</b>: If you would refer to the record 
 of the case, there they said that the doctrine of classification is not excluded 
 by the Fourteenth Amendment, but its employment by state legislatures has no justifiable 
 foundation.</p>
-<p>MR. MARSHALL: I think that when an attack is made on a statute on the ground 
+<p><b>MR. MARSHALL</b>: I think that when an attack is made on a statute on the ground 
 that it is an unreasonable classification, and competent, recognized testimony is 
 produced, I think then the least that the state has to do is to produce something 
 to defend their statutes.</p>
-<p>MR. JUSTICE FRANKFURTER: I follow you when you talk that way.</p>
-<p>MR. MARSHALL: That is part of the argument, sir.</p>
-<p>MR. JUSTICE FRANKFURTER: But when you start, as I say, with the conclusion that 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I follow you when you talk that way.</p>
+<p><b>MR. MARSHALL</b>: That is part of the argument, sir.</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: But when you start, as I say, with the conclusion that 
 you cannot have segregation, then there is no problem. If you start with the conclusion 
 of a problem, there is no problem.</p>
-<p>MR. MARSHALL: But Mr. Justice Frankfurter, I was trying to make three different 
+<p><b>MR. MARSHALL</b>: But Mr. Justice Frankfurter, I was trying to make three different 
 points. I said that the first one was peculiarly narrow, under the McLaurin and 
 the Sweatt decisions. The second point was that on a classification basis, these 
 statutes were bad. The third point was the broader point, that racial distinctions 
 in and of themselves are invidious. I consider it as a three-pronged attack. Any 
 one of the three would be sufficient for reversal.</p>
-<p>MR. JUSTICE FRANKFURTER: You may recall that this Court not so many years ago 
+<p><b>MR. JUSTICE FRANKFURTER</b>: You may recall that this Court not so many years ago 
 decided that the legislature of Louisiana could restrict the calling of pilots on 
 the Mississippi to the question of who your father was.</p>
-<p>MR. MARSHALL: Yes, sir.</p>
-<p>MR. JUSTICE FRANKFURTER: And there were those of us who sustained that legislation, 
+<p><b>MR. MARSHALL</b>: Yes, sir.</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: And there were those of us who sustained that legislation, 
 not because we thought it was admirable or because we thought it comported with 
 human notions or because we believed in primogeniture, but for different reasons, 
 that it was so imbedded in the conflict of the history of that problem in Louisiana 
 that we thought on the whole that was an allowable justification.</p>
-<p>MR. MARSHALL: I say, sir, that I do not think—</p>
-<p>MR. JUSTICE FRANKFURTER: I am not taking that beside this case. I am not meaning 
+<p><b>MR. MARSHALL</b>: I say, sir, that I do not think—</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I am not taking that beside this case. I am not meaning 
 to intimate any of that, as you well know, on this subject. I am just saying how 
 the subjects are to be dealt with.</p>
-<p>MR. MARSHALL: But Mr. Justice Frankfurter, I do not think that segregation in 
+<p><b>MR. MARSHALL</b>: But Mr. Justice Frankfurter, I do not think that segregation in 
 public schools is any more ingrained in the South than segregation in transportation, 
 and this Court upset it in the Morgan case. I do not think it is any more ingrained.</p>
-<p>MR. JUSTICE FRANKFURTER: It upset it in the Morgan case on the ground that it 
+<p><b>MR. JUSTICE FRANKFURTER</b>: It upset it in the Morgan case on the ground that it 
 was none of the business of the state; it was an interstate problem.</p>
-<p>MR. MARSHALL: That is a different problem. But a minute ago the very question 
+<p><b>MR. MARSHALL</b>: That is a different problem. But a minute ago the very question 
 was raised that we have to deal with realities, and it did upset that. Take the 
 primary case. There is no more ingrained rule than there were in the cases of McLaurin 
 and Sweatt, the graduate school cases.</p>
-<p>MR. JUSTICE FRANKFURTER: I am willing to suggest that this problem is more complicated 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I am willing to suggest that this problem is more complicated 
 than the simple recognition of an absolute non possumus.</p>
-<p>MR. MARSHALL: I agree that it is not only complicated. I agree that it is a tough 
+<p><b>MR. MARSHALL</b>: I agree that it is not only complicated. I agree that it is a tough 
 problem. But I think that it is a problem that has to be faced.</p>
-<p>MR. JUSTICE FRANKFURTER: That is why we are here.</p>
-<p>MR. MARSHALL: That is what I appreciate, Your Honor.</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is why we are here.</p>
+<p><b>MR. MARSHALL</b>: That is what I appreciate, Your Honor.</p>
 <p>But I say, sir, that most of my time is spent down in the South, and despite 
 all these predictions as to what might happen, I do not think that anything is going 
 to happen any more except on the graduate and professional level. And this Court 
@@ -500,34 +500,34 @@ anybody in any school. The only thing that we ask for is that the state-imposed
 racial segregation be taken off, and to leave the county school board, the county 
 people, the district people, to work out their own solution of the problem, to assign 
 children on any reasonable basis they want to assign them on.</p>
-<p>MR. JUSTICE FRANKFURTER: You mean, if we reverse, it will not entitle every mother 
+<p><b>MR. JUSTICE FRANKFURTER</b>: You mean, if we reverse, it will not entitle every mother 
 to have her child go to a nonsegregated school in Clarendon County?</p>
-<p>MR. MARSHALL: No, sir.</p>
-<p>MR. JUSTICE FRANKFURTER: What will it do? Would you mind spelling this out? What 
+<p><b>MR. MARSHALL</b>: No, sir.</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: What will it do? Would you mind spelling this out? What 
 would happen?</p>
-<p>MR. MARSHALL: Yes, sir. The school board, I assume, would find some other method 
+<p><b>MR. MARSHALL</b>: Yes, sir. The school board, I assume, would find some other method 
 of distributing the children, a recognizable method, by drawing district lines.</p>
-<p>MR. JUSTICE FRANKFURTER: What would that mean?</p>
-<p>MR. MARSHALL: The usual procedure—</p>
-<p>MR. JUSTICE FRANKFURTER: You mean that geographically the colored people all 
+<p><b>MR. JUSTICE FRANKFURTER</b>: What would that mean?</p>
+<p><b>MR. MARSHALL</b>: The usual procedure—</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: You mean that geographically the colored people all 
 live in one district?</p>
-<p>MR. MARSHALL: No, sir, they do not. They are mixed up somewhat.</p>
-<p>MR. JUSTICE FRANKFURTER: Then why would not the children be mixed?</p>
-<p>MR. MARSHALL: If they are in the district, they would be. But there might 
+<p><b>MR. MARSHALL</b>: No, sir, they do not. They are mixed up somewhat.</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Then why would not the children be mixed?</p>
+<p><b>MR. MARSHALL</b>: If they are in the district, they would be. But there might 
 possibly be areas—</p>
-<p>MR. JUSTICE FRANKFURTER: You mean we would have gerrymandering of school districts?</p>
-<p>MR. MARSHALL: Not gerrymandering, sir. The lines could be equal.</p>
-<p>MR. JUSTICE FRANKFURTER: I think that nothing would be worse than for this Court—I 
+<p><b>MR. JUSTICE FRANKFURTER</b>: You mean we would have gerrymandering of school districts?</p>
+<p><b>MR. MARSHALL</b>: Not gerrymandering, sir. The lines could be equal.</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I think that nothing would be worse than for this Court—I 
 am expressing my own opinion—nothing would be worse, from my point of view, than 
 for this Court to make an abstract declaration that segregation is bad and then 
 have it evaded by tricks.</p>
-<p>MR. MARSHALL: No, sir. As a matter of fact, sir, we have had cases where we have 
+<p><b>MR. MARSHALL</b>: No, sir. As a matter of fact, sir, we have had cases where we have 
 taken care of that. But the point is that it is my assumption that where this is 
 done, it will work out, if I might leave the record, by statute in some states.</p>
-<p>MR. JUSTICE FRANKFURTER: It would be more important information in my mind to 
+<p><b>MR. JUSTICE FRANKFURTER</b>: It would be more important information in my mind to 
 have you spell out in concrete what would happen if this Court reverses and the 
 case goes back to the district court for the entry of a decree.</p>
-<p>MR. MARSHALL: I think, sir, that the decree would be entered which would enjoin 
+<p><b>MR. MARSHALL</b>: I think, sir, that the decree would be entered which would enjoin 
 the school officials from, one, enforcing the statute; two, from segregating on 
 the basis of race or color. Then I think whatever district lines they draw, if it 
 can be shown that those lines are drawn on the basis of race or color, then I think 
@@ -538,42 +538,42 @@ able to go to that school. But the only thing that would come down would be the
 decision that whatever rule you set in, if you set in, it shall 
 not be on race, either actually or by any other way. It would violate the injunction, 
 in my opinion.</p>
-<p>MR. JUSTICE FRANKFURTER: There is a thing that I do not understand. Why would 
+<p><b>MR. JUSTICE FRANKFURTER</b>: There is a thing that I do not understand. Why would 
 not that inevitably involve—unless you have Negro ghettoes, or if you find that 
 language offensive, unless you have concentrations of Negroes, so that only Negro 
 children would go there, and there would be no white children mixed with them, or 
 vice versa—why would it not involve Negro children saying, &quot;I want to go to this 
 school instead of that school&quot;?</p>
-<p>MR. MARSHALL: That is the interesting thing in this procedure. They could move 
+<p><b>MR. MARSHALL</b>: That is the interesting thing in this procedure. They could move 
 over into that district, if necessary. Even if you get stuck in one district, there 
 is always an out, as long as this statute is gone.</p>
 <p>There are several ways that can be done. But we have instances, if I might, sir, 
 where they have been able to draw a line and to enclose—this is in the North—to 
 enclose the Negroes, and in New York those lines have on every occasion been declared 
 unreasonably drawn, because it is obvious that they were drawn for that purpose.</p>
-<p>MR. JUSTICE FRANKFURTER: Gerrymandering?</p>
-<p>MR. MARSHALL: Yes, sir. As a matter of fact, they used the word &quot;gerrymander.&quot;</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Gerrymandering?</p>
+<p><b>MR. MARSHALL</b>: Yes, sir. As a matter of fact, they used the word &quot;gerrymander.&quot;</p>
 <p>So in South Carolina, if the decree was entered as we have requested, then the 
 school district would have to decide a means other than race, and if it ended up 
 that the Negroes were all in one school, because of race, they would be violating 
 the injunction just as bad as they are by violating what we consider to be the Fourteenth 
 Amendment now.</p>
-<p>MR. JUSTICE FRANKFURTER: Now, I think it is important to know, before one starts, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Now, I think it is important to know, before one starts, 
 where he is going. As to available schools, how would that cut across this problem? 
 If everything was done that you wanted done, would there be physical facilities 
 within such drawing of lines as you would regard as not evasive of the decree?</p>
-<p>MR. MARSHALL: Most of the school buildings are now assigned to Negroes, so that 
+<p><b>MR. MARSHALL</b>: Most of the school buildings are now assigned to Negroes, so that 
 the Negro buildings are scattered around in that county. Now, as to whether or not 
 lines could be properly drawn, I say quite frankly, sir, I do not know. But I do 
 know that in most of the southern areas—it might be news to the Court—there are 
 very few areas that are predominantly one race or the other.</p>
-<p>MR. JUSTICE FRANKFURTER: Are you going to argue the District of Columbia case?</p>
-<p>MR. MARSHALL: No, sir. If you have any questions, I would try, but I cannot bind 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Are you going to argue the District of Columbia case?</p>
+<p><b>MR. MARSHALL</b>: No, sir. If you have any questions, I would try, but I cannot bind 
 the other side.</p>
-<p>MR. JUSTICE FRANKFURTER: I just wondered, in regard to this question that we 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I just wondered, in regard to this question that we 
 are discussing, how what you are indicating or contemplating would work out in the 
 District if tomorrow there were the requirement that there must be mixed groups.</p>
-<p>MR. MARSHALL: Most of the schools in the District of Columbia would be integrated. 
+<p><b>MR. MARSHALL</b>: Most of the schools in the District of Columbia would be integrated. 
 There might possibly be some in the concentrated areas up in the northwest section. 
 There might be. But I doubt it. But I think the question as to what would happen 
 if such decree was entered—I again point out that it is actually a matter that 
@@ -604,33 +604,33 @@ and it might take six months to do it one place and two months to do it another
 place.</p>
 <p>Again, I say it is not a matter for judicial determination. That would be a matter 
 for legislative determination. I would like to save my fifteen minutes for rebuttal.</p>
-<p>MR. JUSTICE JACKSON: Coming back to the question that Justice 
+<p><b>MR. JUSTICE JACKSON</b>: Coming back to the question that Justice 
 Black asked you, could I ask you what, if any, effect does your argument have on 
 the Indian policy, the segregation of the Indians? How do you deal with that?</p>
-<p>MR. MARSHALL: I think that again that we are in a position of having grown up. 
+<p><b>MR. MARSHALL</b>: I think that again that we are in a position of having grown up. 
 Indians are no longer wards of the Government. I do not think that they stand in 
 any special category. And in all of the southern states that I know of, the Indians 
 are in a preferred position so far as Negroes are concerned, and I do not know of 
 any place where they are excluded.</p>
-<p>MR. JUSTICE JACKSON: In some respects, in taxes, at least, I wish I could claim 
+<p><b>MR. JUSTICE JACKSON</b>: In some respects, in taxes, at least, I wish I could claim 
 to have a little Indian blood.</p>
-<p>MR. MARSHALL: But the only time it ever came up was in the—</p>
-<p>MR. JUSTICE JACKSON: But on the historical argument, the philosophy of the Fourteenth 
+<p><b>MR. MARSHALL</b>: But the only time it ever came up was in the—</p>
+<p><b>MR. JUSTICE JACKSON</b>: But on the historical argument, the philosophy of the Fourteenth 
 Amendment which you contended for does not seem to have been applied by the people 
 who adopted the Fourteenth Amendment, at least in the Indian case.</p>
-<p>MR. MARSHALL: I think, sir, that if we go back even as far as Slaughter-House 
+<p><b>MR. MARSHALL</b>: I think, sir, that if we go back even as far as Slaughter-House 
 and come up through Strauder, where the Fourteenth Amendment was passed for the 
 specific purpose of raising the newly freed slaves up, etcetera, I do not know.</p>
-<p>MR. JUSTICE JACKSON: Do you think that might not apply to the Indians?</p>
-<p>MR. MARSHALL: I think it would. But I think that the biggest trouble with the 
+<p><b>MR. JUSTICE JACKSON</b>: Do you think that might not apply to the Indians?</p>
+<p><b>MR. MARSHALL</b>: I think it would. But I think that the biggest trouble with the 
 Indians is that they just have not had the judgment or the wherewithal to bring 
 lawsuits.</p>
-<p>MR. JUSTICE JACKSON: Maybe you should bring some up.</p>
-<p>MR. MARSHALL: I have a full load now, Mr. Justice.</p>
-<p>MR. CHIEF JUSTICE VINSON: Mr. Davis.</p>
+<p><b>MR. JUSTICE JACKSON</b>: Maybe you should bring some up.</p>
+<p><b>MR. MARSHALL</b>: I have a full load now, Mr. Justice.</p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Mr. Davis.</p>
 <p style="text-align:center"><b>ARGUMENT OF JOHN W. DAVIS, ESQ., <br>
 ON BEHALF OF THE APPELLEES</b></p>
-<p>MR. DAVIS: May it please the Court:</p>
+<p><b>MR. DAVIS</b>: May it please the Court:</p>
 <p>I think if the appellants&#39; construction of the Fourteenth Amendment should prevail 
 here, there is no doubt in my mind that it would catch the Indian within its grasp 
 just as much as the Negro. If it should prevail, I am unable to see why a state 
@@ -747,7 +747,7 @@ schoolboy no longer walks. The figure of the schoolboy trudging four miles in th
 morning and back four in the afternoon swinging his books as he went is as much 
 a figure of myth as the presidential candidate born in a log cabin. Both of these 
 characters have disappeared.</p>
-<p>MR. CHIEF JUSTICE VINSON: The Court will adjourn.</p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: The Court will adjourn.</p>
 <p>[Whereupon, at 4:30 o&#39;clock p.m., argument in the above-entitled matter was recessed, 
 to reconvene the next day, December 10, 1952.]
 </p>
@@ -788,14 +788,14 @@ Wednesday, December 10, 1952. </p>
 </blockquote>
 <p style="text-align:center"><br>
 <b>PROCEEDINGS </b></p>
-<p>MR. CHIEF JUSTICE VINSON: Case No. 101, <i>Harry Briggs, Jr., et al.</i>, against 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Case No. 101, <i>Harry Briggs, Jr., et al.</i>, against 
 <i>R. 
 W. Elliott, Chairman, et al</i>. </p>
-<p>THE CLERK: Counsel are present. </p>
-<p>MR. CHIEF JUSTICE VINSON: Proceed. </p>
+<p><b>THE CLERK</b>: Counsel are present. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Proceed. </p>
 <p style="text-align:center"><b>ARGUMENT OF JOHN W. DAVIS, ESQ., <br>
 ON BEHALF OF APPELLEES—RESUMED </b></p>
-<p>MR. DAVIS: If the Court please, when the Court arose on yesterday, </p>
+<p><b>MR. DAVIS</b>: If the Court please, when the Court arose on yesterday, </p>
 <p>I was reciting the progress that had been made in the public school system in 
 South Carolina, and with particular reference to the improvement of the facilities, 
 equipment, curricula, and opportunities accorded to the colored students. I might 
@@ -807,7 +807,7 @@ of the court below. This is the opinion of Judge Parker: </p>
   beyond question that defendants have proceeded promptly and in good faith to comply 
   with the court&#39;s decree. </p>
 </blockquote>
-<p>They add: </p>
+<p><b>They add</b>: </p>
 <blockquote>
   <p>There can be no doubt that as a result of the program in which defendants are 
   engaged the educational facilities and opportunities afforded Negroes within the 
@@ -859,17 +859,17 @@ schools in the District of Columbia, and from that good day to <a name="page3">
 upon it repeatedly. During the life of Charles Sumner, over and over again, he undertook 
 to amend the law of the District so as to provide for mixed and not for separate 
 schools, and again and again he was defeated. </p>
-<p>MR. JUSTICE BURTON: What is your answer, Mr. Davis, to the suggestion mentioned 
+<p><b>MR. JUSTICE BURTON</b>: What is your answer, Mr. Davis, to the suggestion mentioned 
 yesterday that at that time the conditions and relations between the two races were 
 such that what might have been unconstitutional then would not be unconstitutional 
 now? </p>
-<p>MR. DAVIS: My answer to that is that changed conditions may affect policy, but 
+<p><b>MR. DAVIS</b>: My answer to that is that changed conditions may affect policy, but 
 changed conditions cannot broaden the terminology of the Constitution; the thought 
 is an administrative or a political question, and not a judicial one. </p>
-<p>MR. JUSTICE BURTON: But the Constitution is a living document that must be interpreted 
+<p><b>MR. JUSTICE BURTON</b>: But the Constitution is a living document that must be interpreted 
 in relation to the facts of the time in which it is interpreted. Did we not go through 
 with that in connection with child labor cases, and so forth? </p>
-<p>MR. DAVIS: Oh, well, of course, changed conditions may bring things within the 
+<p><b>MR. DAVIS</b>: Oh, well, of course, changed conditions may bring things within the 
 scope of the Constitution which were not originally contemplated, and of that perhaps 
 the aptest illustration is the interstate commerce clause. Many things have been 
 found to be interstate commerce which at the time of the writing of the Constitution 
@@ -879,28 +879,28 @@ power, which is defined in terms of the Constitution itself. So circumstances ma
 bring new facts within the purview of the constitutional provision, but they do 
 not alter, expand or change the language that the framers of the Constitution have 
 employed. </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Davis, do you think that &quot;equal&quot; is a less fluid 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Davis, do you think that &quot;equal&quot; is a less fluid 
 term than &quot;commerce between the states&quot;? </p>
-<p>MR. DAVIS: Less fluid? </p>
-<p>MR. JUSTICE FRANKFURTER: Yes. </p>
-<p>MR. DAVIS: I have not compared the two on the point of fluidity. </p>
-<p>MR. JUSTICE FRANKFURTER: Suppose you do it now. </p>
-<p>MR. DAVIS: I am not sure that I can approach it in just that sense. </p>
-<p>MR. JUSTICE FRANKFURTER: The problem behind my question is whatever the phrasing 
+<p><b>MR. DAVIS</b>: Less fluid? </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Yes. </p>
+<p><b>MR. DAVIS</b>: I have not compared the two on the point of fluidity. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Suppose you do it now. </p>
+<p><b>MR. DAVIS</b>: I am not sure that I can approach it in just that sense. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: The problem behind my question is whatever the phrasing 
 of it would be. </p>
-<p>MR. DAVIS: That what is unequal today may be equal tomorrow or vice versa?
+<p><b>MR. DAVIS</b>: That what is unequal today may be equal tomorrow or vice versa?
 </p>
-<p>MR. JUSTICE FRANKFURTER: That is it. </p>
-<p>MR. DAVIS: That might be. I should not philosophize about it. But the effort 
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is it. </p>
+<p><b>MR. DAVIS</b>: That might be. I should not philosophize about it. But the effort 
 in which I am now engaged is to show how those who submitted this Amendment and 
 those who adopted it conceded it to be, and what their conduct by way of interpretation 
 has been since its ratification in 1868. </p>
-<p>MR. JUSTICE FRANKFURTER: What you are saying is, that as a matter of history, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: What you are saying is, that as a matter of history, 
 history puts a gloss upon &quot;equal&quot; which does not permit elimination or admixture 
 of white and colored in this aspect to be introduced? </p>
-<p>MR. DAVIS: Yes, I am saying that. </p>
-<p>MR. JUSTICE FRANKFURTER: That is what you are saying? </p>
-<p>MR. DAVIS: Yes, I am saying that. I am saying that equal protection in the minds 
+<p><b>MR. DAVIS</b>: Yes, I am saying that. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is what you are saying? </p>
+<p><b>MR. DAVIS</b>: Yes, I am saying that. I am saying that equal protection in the minds 
 of the Congress of the United States did not contemplate mixed schools as a necessity. 
 I am saying that, and I rest on it, though I shall not go further into the congressional 
 history on this subject, because my brother Korman, speaking for the District of 
@@ -1093,7 +1093,7 @@ Negro oppression of any of his race in the country. Says he: </p>
   rendered its life a living hell. Such parents want their children to &quot;fight&quot; this 
   thing out—but, dear God, at what a cost. </p>
 </blockquote>
-<p>He goes on: </p>
+<p><b>He goes on</b>: </p>
 <blockquote>
   <p>We shall get a finer, better balance of spirit; an infinitely more capable 
   and rounded personality by putting children in schools where they are wanted, 
@@ -1106,7 +1106,7 @@ it cannot be said that the testimony will be all one way. Certainly it cannot be
 said that a legislature conducting its public schools in accordance with the wishes 
 of its people—it cannot be said that they are acting merely by caprice or by racial 
 prejudice. </p>
-<p>Says Judge Parker again: </p>
+<p><b>Says Judge Parker again</b>: </p>
 <blockquote>
   <p>The questions thus presented are not questions of constitutional right but of legislative policy, 
   which must be formulated, not in vacuo or with doctrinaire disregard of existing 
@@ -1124,11 +1124,11 @@ the parents, both white and colored, should be ascertained before their children
 are forced into what may be an unwelcome contact? </p>
 <p>I respectfully submit to the Court, there is no reason assigned here why this 
 Court or any other should reverse the findings of ninety years. </p>
-<p>MR. CHIEF JUSTICE VINSON: Mr. Marshall. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Mr. Marshall. </p>
 <p style="text-align:center"><b>REBUTTAL ARGUMENT OF <br>
 THURGOOD MARSHALL, ESQ., <br>
 ON BEHALF OF APPELLANTS </b></p>
-<p>MR. MARSHALL: May it please the Court: </p>
+<p><b>MR. MARSHALL</b>: May it please the Court: </p>
 <p>So far as the appellants are concerned in this case, at this point it seems to 
 me that the significant factor running through all these arguments up to this point 
 is that for some reason, which is still unexplained, Negroes are taken out of the 
@@ -1190,82 +1190,82 @@ scientific witnesses. But I think if it is true that there is a large body of sc
 evidence on the other side, the place to have produced that was in the district 
 court, and I do not believe that the State of South Carolina is unable to produce 
 witnesses for financial or other reasons. </p>
-<p>MR. JUSTICE FRANKFURTER: Can we not take judicial notice of writings by people 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Can we not take judicial notice of writings by people 
 who competently deal with these problems? Can I not take judicial notice of Myrdal&#39;s 
 book without having him called as a witness? </p>
-<p>MR. MARSHALL: Yes, sir. But I think when you take judicial notice of Gunnar Myrdal&#39;s 
+<p><b>MR. MARSHALL</b>: Yes, sir. But I think when you take judicial notice of Gunnar Myrdal&#39;s 
 book, we have to read the matter, and not take portions out of context. Gunnar Myrdal&#39;s 
 whole book is against the argument. </p>
-<p>MR. JUSTICE FRANKFURTER: That is a different point. I am merely going to the 
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is a different point. I am merely going to the 
 point that in these matters this Court takes judicial notice of accredited writings, 
 and it does not have to call the writers as witnesses. How to inform the judicial 
 mind, as you know, is one of the most complicated problems. It is better to have 
 witnesses, but I did not know that we could not read the works of competent writers.
 </p>
-<p>MR. MARSHALL: Mr. Justice Frankfurter, I did not say that it was bad. I said 
+<p><b>MR. MARSHALL</b>: Mr. Justice Frankfurter, I did not say that it was bad. I said 
 that it would have been better if they had produced the witnesses so that we would 
 have had an opportunity to cross-examine and test their conclusions. For example, 
 the authority of Hodding Carter, the particular article quoted, was a magazine article 
 of a newspaperman answering another newspaperman, and I know of nothing further 
 removed from scientific work than one newspaperman answering another. </p>
 <p>I am not trying— </p>
-<p>MR. JUSTICE FRANKFURTER: I am not going to take issue with you on that. </p>
-<p>MR. MARSHALL: No, sir. But it seems to me that in a case like this that the only 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I am not going to take issue with you on that. </p>
+<p><b>MR. MARSHALL</b>: No, sir. But it seems to me that in a case like this that the only 
 way that South Carolina, under the test set forth in this case, can sustain that 
 statute is to show that Negroes as Negroes—all Negroes—are different from everybody 
 else. </p>
-<p>MR. JUSTICE FRANKFURTER: Do you think it would make any difference to our problem 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Do you think it would make any difference to our problem 
 if this record also contained the testimony of six professors from other institutions 
 who gave contrary or qualifying testimony? Do you think we would be in a different 
 situation? </p>
-<p>MR. MARSHALL: You would, sir, but I do not believe that 
+<p><b>MR. MARSHALL</b>: You would, sir, but I do not believe that 
 there are any experts in the country who would so testify. And the body of law is 
 that—even the witnesses, for example, who testified in the next case coming up, 
 the Virginia case, all of them, admitted that segregation in and of itself was harmful. 
 They said that the relief would not be to break down segregation. But I know of 
 no scientist that has made any study, whether he be anthropologist or sociologist, 
 who does not admit that segregation harms the child. </p>
-<p>MR. JUSTICE FRANKFURTER: Yes. But what the consequences of the proposed remedy 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Yes. But what the consequences of the proposed remedy 
 are is relevant to the problem. </p>
-<p>MR. MARSHALL: I think, sir, that the consequences of the removal of the remedy 
+<p><b>MR. MARSHALL</b>: I think, sir, that the consequences of the removal of the remedy 
 are a legislative and not a judicial argument, sir. I rely on Buchanan v. Warley, 
 where this Court said that insofar as this is a tough problem, it was tough, but 
 the solution was not to deprive people of their constitutional rights. </p>
-<p>MR. JUSTICE FRANKFURTER: Then the testimony is irrelevant to the question.
+<p><b>MR. JUSTICE FRANKFURTER</b>: Then the testimony is irrelevant to the question.
 </p>
-<p>MR. MARSHALL: I think the testimony is relevant as to whether or not it is a 
+<p><b>MR. MARSHALL</b>: I think the testimony is relevant as to whether or not it is a 
 valid classification. That is on the classification point. </p>
-<p>MR. JUSTICE FRANKFURTER: But the consequences of how you remedy a conceded wrong 
+<p><b>MR. JUSTICE FRANKFURTER</b>: But the consequences of how you remedy a conceded wrong 
 bear on the question of whether it is a fair classification. </p>
-<p>MR. MARSHALL: I do not know. But it seems to me that the only way that we as 
+<p><b>MR. MARSHALL</b>: I do not know. But it seems to me that the only way that we as 
 lawyers could argue before this Court, and the only way that this Court could take 
 judicial notice of what would happen, would be that the Attorney General or some 
 responsible individual officer of the State of South Carolina would come to this 
 Court and say that they could not control their own State. </p>
-<p>MR. JUSTICE FRANKFURTER: No, that is not what I have in mind. I want to know 
+<p><b>MR. JUSTICE FRANKFURTER</b>: No, that is not what I have in mind. I want to know 
 from you whether I am entitled to take into account, in finally striking this judgment, 
 whether I am entitled to take into account the reservation that Dr. Graham and two 
 others, I believe, made in their report to the President. May I take that into account?
 </p>
-<p>MR. MARSHALL: Yes, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: May I weigh that? </p>
-<p>MR. MARSHALL: Yes, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: Then you have competent consideration without any testimony.
+<p><b>MR. MARSHALL</b>: Yes, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: May I weigh that? </p>
+<p><b>MR. MARSHALL</b>: Yes, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Then you have competent consideration without any testimony.
 </p>
-<p>MR. MARSHALL: Yes, sir. But it is a policy matter. And that type of information, 
+<p><b>MR. MARSHALL</b>: Yes, sir. But it is a policy matter. And that type of information, 
 I do not believe, is more than persuasive when we consider constitutionally protected 
 rights. </p>
-<p>MR. JUSTICE FRANKFURTER: Of course, if it is written into the Constitution, then 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Of course, if it is written into the Constitution, then 
 I do not care about the evidence. If it is in the Constitution, then all the testimony 
 that you introduce is beside the point, in general. </p>
-<p>MR. MARSHALL: I think, sir, that so far as the decisions of this Court, this 
+<p><b>MR. MARSHALL</b>: I think, sir, that so far as the decisions of this Court, this 
 Court has repeatedly said that you cannot use race as a basis of classification.
 </p>
-<p>MR. JUSTICE FRANKFURTER: Very well. If that is a settled constitutional doctrine, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Very well. If that is a settled constitutional doctrine, 
 then I do not care what any associate or full professor in sociology tells me. If 
 it is in the Constitution, I do not care about what they say. But the question is: 
 Is it in the Constitution? </p>
-<p>MR. MARSHALL: This Court has said just that on other occasions. They said it 
+<p><b>MR. MARSHALL</b>: This Court has said just that on other occasions. They said it 
 in the Fifth Amendment cases, and they also said it in some of the Fourteenth Amendment 
 cases, going back to Mr. Justice Holmes in the first primary case in Nixon v. Herndon. 
 And I also think—I have no doubt in my mind—that this Court has said that these 
@@ -1274,12 +1274,12 @@ most of the Negroes still wanted segregated schools, I understand the decision o
 this Court to be that any individual Negro has a right, if it is a constitutional 
 right, to assert it, and he has a right to relief at the time he asserts that right.
 </p>
-<p>MR. JUSTICE FRANKFURTER: Certainly. Any single individual, just one, if his constitutional 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Certainly. Any single individual, just one, if his constitutional 
 rights are interfered with, can come to the bar of this Court and claim it. </p>
-<p>MR. MARSHALL: Yes, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: But what we are considering and what you are considering 
+<p><b>MR. MARSHALL</b>: Yes, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: But what we are considering and what you are considering 
 is a question that is here for the very first time. </p>
-<p>MR. MARSHALL: I agree, sir. And I think that the only issue is to consider as 
+<p><b>MR. MARSHALL</b>: I agree, sir. And I think that the only issue is to consider as 
 to whether or not that individual or small group, as we have here, of appellants, 
 that their constitutionally protected rights have to be weighed over against what 
 is considered to be the public policy of the State of South Carolina; and if what 
@@ -1295,10 +1295,10 @@ that the people in South Carolina or those southern states are lawless people. E
 single time that this Court has ruled, they have obeyed it, and I for one believe 
 that rank and file people in the South will support whatever decision in this case 
 is handed down. </p>
-<p>MR. JUSTICE FRANKFURTER: I have not heard that the bar of this case has suggested 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I have not heard that the bar of this case has suggested 
 that South Carolina or Kansas will not obey whatever decree this Court hands down.
 </p>
-<p>MR. MARSHALL: There was only one witness, and he was corrected by Judge Parker. 
+<p><b>MR. MARSHALL</b>: There was only one witness, and he was corrected by Judge Parker. 
 That was in this particular case. So it seems to me, and I in closing would like 
 to emphasize to the Court, if I may, that this question, the ultimate question of 
 segregation at the elementary and high school levels, has come to this Court through 
@@ -1316,17 +1316,17 @@ Carolina to do what they have never done in the past, to recognize their pleas.
 </p>
 <p>We therefore respectfully urge that the judgment of the United States district 
 court be reversed. </p>
-<p>MR. JUSTICE REED: Is there anything in the record which shows the purpose of 
+<p><b>MR. JUSTICE REED</b>: Is there anything in the record which shows the purpose of 
 the passage of the legislation in South Carolina? </p>
-<p>MR. MARSHALL: No, sir. We did considerable research, and we had help on it. There 
+<p><b>MR. MARSHALL</b>: No, sir. We did considerable research, and we had help on it. There 
 is so much confusion and there are so many blank spots in between that we did not 
 believe that it was in shape to give to anyone. As a matter of fact, at that time 
 there was a terrific objection to public education, one; and, two, an objection 
 to the compulsory attendance laws. So the three things got wound up together, the 
 segregation and those two points. </p>
-<p>MR. JUSTICE REED: Is it fair to assume that the legislation involving South Carolina, 
+<p><b>MR. JUSTICE REED</b>: Is it fair to assume that the legislation involving South Carolina, 
 as these cases do, was passed for the purpose of avoiding racial friction? </p>
-<p>MR. MARSHALL: I think that the people who wrote on it would say that. You bear 
+<p><b>MR. MARSHALL</b>: I think that the people who wrote on it would say that. You bear 
 in mind in South Carolina—I hate to mention it—but that was right in the middle 
 of the Klan period and I cannot ignore that point. Considerable research in other 
 states has shown that there were varying statements made in the debates, some of 
@@ -1337,16 +1337,16 @@ back and forth in South Carolina, at least, you could draw no conclusion from th
 case, and, if you will remember, in the law professor&#39;s brief in the Sweatt case—the 
 authorities were collected to show that the effect of this has been to place upon 
 the Negroes this badge of inferiority. </p>
-<p>MR. JUSTICE REED: In the legislatures, I suppose there is a group of people, 
+<p><b>MR. JUSTICE REED</b>: In the legislatures, I suppose there is a group of people, 
 at least in the South, who would say that segregation in the schools was to avoid 
 racial friction. </p>
-<p>MR. MARSHALL: Yes, sir. Until today, there is a good-sized body of public opinion 
+<p><b>MR. MARSHALL</b>: Yes, sir. Until today, there is a good-sized body of public opinion 
 that would say that, and I would say respectable public opinion. </p>
-<p>MR. JUSTICE REED: Even in that situation, assuming, then, that there is a disadvantage 
+<p><b>MR. JUSTICE REED</b>: Even in that situation, assuming, then, that there is a disadvantage 
 to the segregated group, the Negro group, does the legislature have to weigh as 
 between the disadvantage of the segregated group and the advantage of the maintenance 
 of law and order? </p>
-<p>MR. MARSHALL: I think that the legislature should, sir. But I think, considering 
+<p><b>MR. MARSHALL</b>: I think that the legislature should, sir. But I think, considering 
 the legislatures, that we have to bear in mind that I know of no Negro legislator 
 in any of these states, and I do not know whether they consider the Negro&#39;s side 
 or not. It is just a fact. But I assume that there are people who will say that 
@@ -1361,23 +1361,23 @@ and colored kids going down the road together to school They separate and go to
 different schools, and they come out and they play together. I do not see why there 
 would necessarily be any trouble if they went to school together.
 </p>
-<p>MR. JUSTICE REED: I am not thinking of trouble. I am thinking of whether it is 
+<p><b>MR. JUSTICE REED</b>: I am not thinking of trouble. I am thinking of whether it is 
 a problem of legislation or of the Judiciary. </p>
-<p>MR. MARSHALL: I think, sir, that the ultimate authority for the asserted right 
+<p><b>MR. MARSHALL</b>: I think, sir, that the ultimate authority for the asserted right 
 by an individual in a minority group is in a body set aside to interpret our Constitution, 
 which is our Court. </p>
-<p>MR. JUSTICE REED: Undoubtedly that passes on the litigation. </p>
-<p>MR. MARSHALL: Yes, sir. </p>
-<p>MR. JUSTICE REED: But where there are disadvantages and advantages to be weighed, 
+<p><b>MR. JUSTICE REED</b>: Undoubtedly that passes on the litigation. </p>
+<p><b>MR. MARSHALL</b>: Yes, sir. </p>
+<p><b>MR. JUSTICE REED</b>: But where there are disadvantages and advantages to be weighed, 
 I take it that it is a legislative problem. </p>
-<p>MR. MARSHALL: Insofar as the State is concerned, insofar as the majority of 
+<p><b>MR. MARSHALL</b>: Insofar as the State is concerned, insofar as the majority of 
 the people are concerned. But insofar as the minority— </p>
-<p>MR. JUSTICE REED: The states have the right to weigh the advantages and the disadvantages 
+<p><b>MR. JUSTICE REED</b>: The states have the right to weigh the advantages and the disadvantages 
 of segregation, and to require equality of employment, for instance? </p>
-<p>MR. MARSHALL: Yes, sir. </p>
-<p>MR. JUSTICE REED: I think that each state has been given that authority by decisions 
+<p><b>MR. MARSHALL</b>: Yes, sir. </p>
+<p><b>MR. JUSTICE REED</b>: I think that each state has been given that authority by decisions 
 of this Court. </p>
-<p>MR. MARSHALL: And some states have, and others have not. I think that is the 
+<p><b>MR. MARSHALL</b>: And some states have, and others have not. I think that is the 
 main point in this case, as to what is best for the majority of the people in the 
 states. I have no doubt—I think I am correct—that that is a legislative policy 
 for the state legislature. But the rights of the minorities, as has been our whole 
@@ -1385,7 +1385,7 @@ form of government, have been protected by our Constitution, and the ultimate au
 for determining that is this Court. I think that is the real difference. As to whether 
 or not I, as an individual, am being deprived of my right is not legislative, but 
 judicial. </p>
-<p>MR. CHIEF JUSTICE VINSON: Thank you. </p>
-<p>MR. MARSHALL: Thank you, sir. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Thank you. </p>
+<p><b>MR. MARSHALL</b>: Thank you, sir. </p>
 <p>[Whereupon, argument in the above-entitled case was concluded.] </p>
 </div>

@@ -81,13 +81,13 @@ Carson, et al., Members of Board of Trustees of School District No. 22, Clarendo
 County, S. C., et al. </p>
 </blockquote>
 <p style="text-align:center"><b>PROCEEDINGS </b> </p>
-<p>MR. CHIEF JUSTICE WARREN: No. 2, <i>Harry Briggs, Jr., et al.</i>, versus <i>R. W. Elliott, 
+<p><b>MR. CHIEF JUSTICE WARREN</b>: No. 2, <i>Harry Briggs, Jr., et al.</i>, versus <i>R. W. Elliott, 
 et al</i>. </p>
-<p>THE CLERK: Counsel are present. </p>
+<p><b>THE CLERK</b>: Counsel are present. </p>
 <p style="text-align:center"><b>OPENING ARGUMENT OF <br>
 SPOTTSWOOD W. ROBINSON, III, ESQ., <br>
 ON BEHALF OF THE APPELLANTS </b> </p>
-<p>MR. ROBINSON: May it please the Court: </p>
+<p><b>MR. ROBINSON</b>: May it please the Court: </p>
 <p>At the outset, I should like to point out that the argument in No. 2 and the 
 argument in No. 4 are being combined. Mr. Marshall and I are offering two separate appeals, as I have already outlined, the appeal 
 in No. 2 and the appeal in No. 4, and for this reason at the outset I would like 
@@ -167,7 +167,7 @@ segregation in public education is valid. </p>
 the proposal and the ratification of the Fourteenth Amendment, as an aid to the Court&#39;s determination of whether the laws involved 
 in these cases can stand consistently with the prohibitions of the Fourteenth Amendment.
 </p>
-<p>Our position is this: Considering the overall evidence derived from the debates 
+<p><b>Our position is this</b>: Considering the overall evidence derived from the debates 
 and proceedings on the Fourteenth Amendment, these conclusions are supported:
 </p>
 <p>First, that the Amendment had as its purpose and effect the complete legal equality 
@@ -389,10 +389,10 @@ of all power to make or impose racial distinctions or classifications, and some
 of these people made specific reference to the impact of the provisions of the first 
 section of this bill, the &quot;no discrimination&quot; of this bill upon public school segregation.
 </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Robinson, what attitude do you think the Court is 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Robinson, what attitude do you think the Court is 
 called upon to manage, what weight is to be given, or how is it to ever deal with 
 individual utterances of this, that or other congressman or senator? </p>
-<p>MR. ROBINSON: I do not, Mr. Justice Frankfurter, take the position, as this Court 
+<p><b>MR. ROBINSON</b>: I do not, Mr. Justice Frankfurter, take the position, as this Court 
 has on previous occasions stated that it would insist that the meaning of a constitutional 
 provision or of a statute is to be determined by any isolated statement of any individual
 proponent or opponent of the legislation. At the outset, however, I tried to 
@@ -402,58 +402,58 @@ I should have earlier pointed out that the same thing, the racial laws in the so
 states, constituted the basis, the occasion for the enactment, for the promulgation and eventual enactment in limited form, of the Civil Rights 
 Act of 1866. 
 </p>
-<p>MR. JUSTICE FRANKFURTER: Do you think we can get out of the debates anything 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Do you think we can get out of the debates anything 
 more than Mr. Justice Miller got out of them at the time of the Slaughter-House 
 Cases? </p>
-<p>MR. ROBINSON: Yes, I think so, Mr. Justice Frankfurter. As I recall Mr. Justice 
+<p><b>MR. ROBINSON</b>: Yes, I think so, Mr. Justice Frankfurter. As I recall Mr. Justice 
 Miller&#39;s opinion in the Slaughter-House Cases, he recognized also that the great purpose of the Fourteenth Amendment, the occasion for the enactment of it, for the adoption of the Fourteenth Amendment—and 
 I think that what additionally we got out of the debate is not simply a statement 
 here or a statement there with respect to the broad overall purpose and effect, 
 the fundamental thing that a constitutional amendment is supposed to accomplish, 
 but what we get is a general understanding by people who are in the body promulgating 
 that provision as to what scope it was intended to have. </p>
-<p>MR. JUSTICE FRANKFURTER: And the understanding you get or you think we ought 
+<p><b>MR. JUSTICE FRANKFURTER</b>: And the understanding you get or you think we ought 
 to get goes beyond the terms which Justice Miller put it in the Slaughter-House 
 Cases. </p>
-<p>MR. ROBINSON: Well, I do not in any wise, of course, intend in any way to cut 
+<p><b>MR. ROBINSON</b>: Well, I do not in any wise, of course, intend in any way to cut 
 down on anything that Mr. Justice Miller stated in that connection. We offer the 
 evidence in the congressional debates on the Amendment and other debates— </p>
-<p>MR. JUSTICE FRANKFURTER: I grant you we solicited and elicited that. But I just 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I grant you we solicited and elicited that. But I just 
 wondered, now that we have got it, what are we to get out of it? The fact that a 
 man in your position says, &quot;This is a terrible measure and if you pass it we will 
 do this and that&quot;; does that tell me that this measure does do this and that?
 </p>
-<p>MR. ROBINSON: To this extent, sir. So far as the statement standing alone is concerned, I would attribute no value to it. But when a man makes that 
+<p><b>MR. ROBINSON</b>: To this extent, sir. So far as the statement standing alone is concerned, I would attribute no value to it. But when a man makes that 
 statement and he is joined in it by others, he is not disputed by anyone, we have 
 a condition of general understanding that is demonstrated by the overall statements pro and con in that particular 
 connection. I think we get assistance. </p>
-<p>MR. JUSTICE FRANKFURTER: You think if an opponent gives an extreme interpretation 
+<p><b>MR. JUSTICE FRANKFURTER</b>: You think if an opponent gives an extreme interpretation 
 of a proposed statute or constitutional amendment in order to frighten people on 
 the other side, and the proponents do not get up and say, &quot;Yes, this is the thing 
 we want to accomplish,&quot; that means they believe, do you? </p>
-<p>MR. ROBINSON: Well, I will have to put it in these terms. I would not, of course, 
+<p><b>MR. ROBINSON</b>: Well, I will have to put it in these terms. I would not, of course, 
 sir, know the motive of the person making that statement. </p>
-<p>MR. JUSTICE FRANKFURTER: I know, but what does silence mean? </p>
-<p>MR. ROBINSON: I think when you have statement after statement with respect to broad overall purpose— </p>
-<p>MR. JUSTICE FRANKFURTER: By individual members? 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I know, but what does silence mean? </p>
+<p><b>MR. ROBINSON</b>: I think when you have statement after statement with respect to broad overall purpose— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: By individual members? 
 </p>
-<p>MR. ROBINSON: By individual members.
+<p><b>MR. ROBINSON</b>: By individual members.
 </p>
-<p>MR. JUSTICE FRANKFURTER: That the proposal has— </p>
-<p>MR. ROBINSON: On other sides, if you please, on both sides, coupled with the 
+<p><b>MR. JUSTICE FRANKFURTER</b>: That the proposal has— </p>
+<p><b>MR. ROBINSON</b>: On other sides, if you please, on both sides, coupled with the 
 fact of almost an entire absence of evidence to the contrary showing that anyone 
 there had a different understanding or a different opinion as to what scope it would have. </p>
-<p>MR. JUSTICE FRANKFURTER: Namely, they wanted this proposal to put an end to treating white and colored differently before the law in all its manifestations? </p>
-<p>MR. ROBINSON: That is correct, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: That is all you get out of it? </p>
-<p>MR. ROBINSON: In all 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Namely, they wanted this proposal to put an end to treating white and colored differently before the law in all its manifestations? </p>
+<p><b>MR. ROBINSON</b>: That is correct, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is all you get out of it? </p>
+<p><b>MR. ROBINSON</b>: In all 
 of its manifestations. </p>
-<p>MR. JUSTICE FRANKFURTER: Then the question is whether this is one of its manifestations.
+<p><b>MR. JUSTICE FRANKFURTER</b>: Then the question is whether this is one of its manifestations.
 </p>
-<p>MR. ROBINSON: I beg your pardon, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: Then the question is whether this is one of its manifestations.
+<p><b>MR. ROBINSON</b>: I beg your pardon, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Then the question is whether this is one of its manifestations.
 </p>
-<p>MR. ROBINSON: Our position in this regard, Mr. Justice Frankfurter, is that when you consider overall what these people said, what from the facts 
+<p><b>MR. ROBINSON</b>: Our position in this regard, Mr. Justice Frankfurter, is that when you consider overall what these people said, what from the facts 
 of history it appears, what Mr. Justice Miller, if you please, said was the purpose 
 and the intended scope of the Amendment, we cope [come?] up with a broad, general purpose 
 that necessarily embraces a prohibition against the type of state activity which we have presented 
@@ -549,22 +549,22 @@ there was an overwhelming mass of opinion that under the Fourteenth Amendment
 Congress could constitutionally legislate with respect to the elimination of 
 segregation in public education. 
 </p>
-<p>MR. JUSTICE REED: Do you think that legislation by Congress would add anything 
+<p><b>MR. JUSTICE REED</b>: Do you think that legislation by Congress would add anything 
 to the strength of your position? </p>
-<p>MR. ROBINSON: Insofar as this— </p>
-<p>MR. JUSTICE REED: Insofar as segregation is concerned in the schools. </p>
-<p>MR. ROBINSON: Oh, yes, I think if we had a congressional act, sir, that we probably 
+<p><b>MR. ROBINSON</b>: Insofar as this— </p>
+<p><b>MR. JUSTICE REED</b>: Insofar as segregation is concerned in the schools. </p>
+<p><b>MR. ROBINSON</b>: Oh, yes, I think if we had a congressional act, sir, that we probably 
 would not have to be here now. However, l do not think that legislation by Congress 
 in anywise detracts from the power of the Judiciary to enforce the prohibitions 
 of the Fourteenth Amendment. </p>
-<p>MR. JUSTICE REED: The provision granting new legislative power to Congress is 
+<p><b>MR. JUSTICE REED</b>: The provision granting new legislative power to Congress is 
 useless? </p>
-<p>MR. ROBINSON: Well, I would put it this way. As I understand section 5, section 
+<p><b>MR. ROBINSON</b>: Well, I would put it this way. As I understand section 5, section 
 5 was designed to give Congress the authority to legislate in this area if it so 
 desired, within the scope of its legislative sphere. I am speaking, of course, about the limitations of section 1. However, the separation of the provisions of section 1 and 5 we think is very, 
 very significant. </p>
-<p>MR. JUSTICE REED: Was 5 intended only for punishment of violations? </p>
-<p>MR. ROBINSON: For remedies, for remedies insofar as congressional action could afford them with respect to the prohibitions of section 1. But actually, 
+<p><b>MR. JUSTICE REED</b>: Was 5 intended only for punishment of violations? </p>
+<p><b>MR. ROBINSON</b>: For remedies, for remedies insofar as congressional action could afford them with respect to the prohibitions of section 1. But actually, 
 as a matter of history, Mr. Justice Reed, the change was made from the original 
 form of the Fourteenth Amendment as it was set up in H. R. 63 and H. R. 127 to make 
 this a direct prohibition on the states not necessitating any congressional action, and as a matter of fact, of course, thereby empowering the courts to determine as a judicial matter acts of a state which were claimed 
@@ -621,10 +621,10 @@ under section 5 Congress could abolish such segregation and that the Judiciary i
 the enforcement of the provisions of section 1, in the light of future conditions, 
 could construe the Amendment as abolishing segregation of its own force. </p>
 <p>[A short recess was taken.] </p>
-<p>MR. CHIEF JUSTICE WARREN: Mr. Marshall? </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Mr. Marshall? </p>
 <p style="text-align:center"><b>ARGUMENT OF THURGOOD MARSHALL, ESQ., <br>
 ON BEHALF OF THE APPELLANTS </b> </p>
-<p>MR. MARSHALL: May it please the Court: </p>
+<p><b>MR. MARSHALL</b>: May it please the Court: </p>
 <p>Mr. Robinson has addressed himself particularly to the congressional history and specifically to the first two questions asked by the Court. I would 
 like for a moment to review particularly questions two and three. </p>
 <p>As I understand it, the second question raised the question about Congress in 
@@ -651,29 +651,29 @@ least two decisions, and some others inferentially in that group, which are heav
 contrary decision of this Court. These cases, obviously, are the ones alleged to support the &quot;separate but equal&quot; doctrine. </p>
 <p>With. that preliminary statement, I would like to get to this first group of 
 cases. </p>
-<p>MR. JUSTICE JACKSON: May I suggest, I do not believe— </p>
-<p>MR. MARSHALL: Yes, sir. </p>
-<p>MR. JUSTICE JACKSON: I do not believe the Court was troubled about its own cases. It has done a good deal of reading of those cases. </p>
-<p>MR. MARSHALL: And the first group are all from this very Court; I was just trying 
+<p><b>MR. JUSTICE JACKSON</b>: May I suggest, I do not believe— </p>
+<p><b>MR. MARSHALL</b>: Yes, sir. </p>
+<p><b>MR. JUSTICE JACKSON</b>: I do not believe the Court was troubled about its own cases. It has done a good deal of reading of those cases. </p>
+<p><b>MR. MARSHALL</b>: And the first group are all from this very Court; I was just trying 
 to relate them. </p>
-<p>MR. JUSTICE JACKSON: Good. </p>
+<p><b>MR. JUSTICE JACKSON</b>: Good. </p>
 <p>Maybe the question was more nearly, instead of power—in the strong sense—I only 
 speak for myself, not for others—it is the question of the propriety of exercising 
 judicial power to reach this result, if the result would be reached, in the absence 
 of any legislation. I do not think it was a question of power in the sense that our cases have dealt 
 with it. It is a question— </p>
-<p>MR. MARSHALL: Well, so far—if I understand you correctly, Mr. Justice Jackson, 
+<p><b>MR. MARSHALL</b>: Well, so far—if I understand you correctly, Mr. Justice Jackson, 
 you mean power that would come from the legislative history of the Fourteenth Amendment?
 </p>
-<p>MR. JUSTICE JACKSON: Whether the Amendment, with what light you can throw on 
+<p><b>MR. JUSTICE JACKSON</b>: Whether the Amendment, with what light you can throw on 
 it, makes it appropriate for judicial power, after all that has intervened, to exercise 
 this power instead of— </p>
-<p>MR. MARSHALL: Leaving it to the Congress. </p>
-<p>MR. JUSTICE JACKSON: That is right. </p>
+<p><b>MR. MARSHALL</b>: Leaving it to the Congress. </p>
+<p><b>MR. JUSTICE JACKSON</b>: That is right. </p>
 <p>I do not like to see you waste your time on a misunderstanding, because I do not think we had any doubt about our cases. Things are so often 
 read— </p>
-<p>MR. JUSTICE FRANKFURTER: And the books. </p>
-<p>MR. MARSHALL: Believe it or not, I have read about it. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: And the books. </p>
+<p><b>MR. MARSHALL</b>: Believe it or not, I have read about it. </p>
 <p>I think, then, that I should change and leave out the first group, for the time 
 being, and go to the other group beginning with Slaughter-House, because the reason 
 I would like to discuss those—because, for example, Mr. Justice Frankfurter raised 
@@ -697,14 +697,14 @@ left out the circuit court point. </p>
 <p>But if there is a need for congressional action, it is there, 
 and in Strauder against West Virginia Mr. Justice Strong in his opinion—and we quote it in our brief on page 22 and 23, the language which we believe—either 
 I have the wrong brief or—it is there; 33. </p>
-<p>MR. CHIEF JUSTICE WARREN: I would like to have you discuss the question of power because I believe that is the question the Court asked 
+<p><b>MR. CHIEF JUSTICE WARREN</b>: I would like to have you discuss the question of power because I believe that is the question the Court asked 
 you to discuss. </p>
-<p>MR. MARSHALL: The power. </p>
-<p>MR. CHIEF JUSTICE WARREN: Yes, the power. </p>
-<p>MR. MARSHALL: Yes, sir. On the power, Mr. Chief Justice Warren, we take the position, 
+<p><b>MR. MARSHALL</b>: The power. </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Yes, the power. </p>
+<p><b>MR. MARSHALL</b>: Yes, sir. On the power, Mr. Chief Justice Warren, we take the position, 
 and we have covered it in the brief— </p>
-<p>MR. CHIEF JUSTICE WARREN: Yes. </p>
-<p>MR. MARSHALL: —and that was the part that Mr. Robinson was to deal with this 
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Yes. </p>
+<p><b>MR. MARSHALL</b>: —and that was the part that Mr. Robinson was to deal with this 
 morning, and it is our understanding that the Fourteenth Amendment, following the 
 Civil Rights Law, but not limited to the Civil Rights Act of 1866—in the debates 
 it is obvious, especially in the later debates, that left with the courts of the land was this 
@@ -713,42 +713,42 @@ position that the Court gets specific power in addition to the regular judiciary
 is not Title 8, section 43, which, I submit, not only gives the federal courts power, 
 but imposes upon the federal courts a specific duty which is different; and this 
 is where we get our power point, and we thought that was sufficient. </p>
-<p>MR. CHIEF JUSTICE WARREN: Yes. </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Marshall— </p>
-<p>MR. MARSHALL: Yes, Mr. Justice Frankfurter. </p>
-<p>MR. JUSTICE FRANKFURTER: —you trouble me about saying there has been legislation. 
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Yes. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Marshall— </p>
+<p><b>MR. MARSHALL</b>: Yes, Mr. Justice Frankfurter. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: —you trouble me about saying there has been legislation. 
 You are not resting your claim here on the Act of 1871 and are then discussing whether 
 that Act is constitutional? </p>
-<p>MR. MARSHALL: No, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: You have to—you are resting, as I understand it, on 
+<p><b>MR. MARSHALL</b>: No, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: You have to—you are resting, as I understand it, on 
 the compulsions, the implications, derived from the Fourteenth Amendment, as such, 
 in your cases? </p>
-<p>MR. MARSHALL: Yes, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: So I do not know why you constantly revert to the fact 
+<p><b>MR. MARSHALL</b>: Yes, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: So I do not know why you constantly revert to the fact 
 that Congress has already exercised the power. I do not understand what you mean 
 by that. </p>
-<p>MR. MARSHALL: Well, as I understand, running through the questions, especially 
+<p><b>MR. MARSHALL</b>: Well, as I understand, running through the questions, especially 
 those in number two, the second question—and, fortunately, insofar as this case is concerned, the appellees here claim that 
 Congress has no power to legislate in this field at all and, as I understand their 
 position, the courts and Congress and nobody else can touch it; it is a matter solely 
 for the states. </p>
-<p>MR. JUSTICE FRANKFURTER: That we have not got here. </p>
-<p>MR. MARSHALL: No, sir; but it is our position that the Fourteenth Amendment was intended to leave to the courts the normal construction of the 
+<p><b>MR. JUSTICE FRANKFURTER</b>: That we have not got here. </p>
+<p><b>MR. MARSHALL</b>: No, sir; but it is our position that the Fourteenth Amendment was intended to leave to the courts the normal construction of the 
 statute—I mean of the Constitution—and this Act of 1871 is merely recognizing that.
 </p>
-<p>MR. JUSTICE FRANKFURTER: I do not know what that Act has to do with this, our 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I do not know what that Act has to do with this, our 
 problem. If your claim prevails, it must prevail by virtue of what flows out of 
 the Fourteenth Amendment as such. </p>
-<p>MR. MARSHALL: And would be— </p>
-<p>MR. JUSTICE FRANKFURTER: And so far as I am concerned, 1871 need not be on the 
+<p><b>MR. MARSHALL</b>: And would be— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: And so far as I am concerned, 1871 need not be on the 
 statute books. </p>
-<p>MR. MARSHALL: And we would still have a valid— </p>
-<p>MR. JUSTICE FRANKFURTER: And does not help me any. 
+<p><b>MR. MARSHALL</b>: And we would still have a valid— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: And does not help me any. 
 </p>
-<p>MR. MARSHALL: Yes, sir.
+<p><b>MR. MARSHALL</b>: Yes, sir.
 </p>
-<p>MR. JUSTICE FRANKFURTER: All right, I understand. </p>
-<p>MR. MARSHALL: As I understand it, Mr. Justice Frankfurter, if I may for a minute 
+<p><b>MR. JUSTICE FRANKFURTER</b>: All right, I understand. </p>
+<p><b>MR. MARSHALL</b>: As I understand it, Mr. Justice Frankfurter, if I may for a minute 
 leave the congressional debates, because I think on the matter of time—and go to 
 the Strauder and the Slaughter-House Cases which, I think, are the key to this situation, because they were decided at the time nearest to the Fourteenth Amendment—and the Slaughter-House Cases, Justice Miller&#39;s opinion has been, as I said, cited over and over again; and there is no question 
 that that opinion makes it clear that the Fourteenth Amendment was adopted for the express purpose, and the purpose was, to correct 
@@ -764,16 +764,16 @@ which discriminated with gross injustice and hardship against them as a class, w
   </p>
 </blockquote>
 <p>That is the expression that is nearest to the time of the Amendment. </p>
-<p>MR. JUSTICE FRANKFURTER: Wouldn&#39;t you say, sir, we do not have to elaborate that 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Wouldn&#39;t you say, sir, we do not have to elaborate that 
 because the whole point—not the whole point, but one of the difficulties or one 
 of the assumptions that has to be remedied by later cases—was the intimation of 
 Justice Miller that it was related exclusively to equalizing things? </p>
-<p>MR. MARSHALL: Yes, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: So one does not have to argue that the Fourteenth Amendment, 
+<p><b>MR. MARSHALL</b>: Yes, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: So one does not have to argue that the Fourteenth Amendment, 
 the target of the Fourteenth Amendment, was to give Negroes certain rights. </p>
-<p>MR. MARSHALL: I think so, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: I do not see that that needs any argument. </p>
-<p>MR. MARSHALL: The only thing that was preliminary to this, Mr. Justice Frankfurter, 
+<p><b>MR. MARSHALL</b>: I think so, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I do not see that that needs any argument. </p>
+<p><b>MR. MARSHALL</b>: The only thing that was preliminary to this, Mr. Justice Frankfurter, 
 was that in the Strauder case—and I think that is the one that is really on the 
 point for this particular issue—in Strauder v. West Virginia, it was made clear, 
 one thing which I would have considered obvious all along, and that is, the constitutional 
@@ -818,9 +818,9 @@ to decide as to whether or not segregation in elementary and high schools is ill
 fashion; and despite the fact that we thought we were obliged to develop it, I think 
 that is a shorthand statement of our position on it; and I think it has not been 
 met, at least up to this point, in any of the briefs and cases. </p>
-<p>MR. JUSTICE FRANKFURTER: I should suggest that the question is not whether this Court loses its power, but whether the states lose their 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I should suggest that the question is not whether this Court loses its power, but whether the states lose their 
 powers. I understand the answer you make to it— </p>
-<p>MR. MARSHALL: It is my understanding, yes, sir, I think definitely, Mr. Justice Frankfurter, that a reading of the two briefs in 
+<p><b>MR. MARSHALL</b>: It is my understanding, yes, sir, I think definitely, Mr. Justice Frankfurter, that a reading of the two briefs in 
 this case demonstrates clearly that as of this time we have 
 a test to see whether or not the public policy, customs and mores of the states 
 of South Carolina and Virginia or the avowed intent of our Constitution—as to which 
@@ -878,58 +878,58 @@ on that is merely that the Gong Lum case and the &quot;separate but equal&quot; 
 Plessy v. Ferguson is just out of step with the earlier decisions in Slaughter-House 
 and Strauder v. West Virginia and the recent cases in this Court. </p>
 <p>The other point which is made— </p>
-<p>MR. JUSTICE REED: But to reach that you have to take the Sweatt case based on 
+<p><b>MR. JUSTICE REED</b>: But to reach that you have to take the Sweatt case based on 
 the &quot;separate but equal&quot; doctrine. </p>
-<p>MR. MARSHALL: No, sir; I only say the McLaurin case does not embrace the &quot;separate 
+<p><b>MR. MARSHALL</b>: No, sir; I only say the McLaurin case does not embrace the &quot;separate 
 but equal&quot; doctrine. I think in Sweatt v. Painter, the truth of the matter is that 
 the decision was able to find that these intangibles produced inequality, and to 
 that extent— </p>
-<p>MR. JUSTICE REED: But didn&#39;t the McLaurin case— </p>
-<p>MR. MARSHALL: There was none of that. </p>
-<p>MR. JUSTICE REED: Granting the facts in the statement showed that they were equal—
+<p><b>MR. JUSTICE REED</b>: But didn&#39;t the McLaurin case— </p>
+<p><b>MR. MARSHALL</b>: There was none of that. </p>
+<p><b>MR. JUSTICE REED</b>: Granting the facts in the statement showed that they were equal—
 </p>
-<p>MR. MARSHALL: Yes. </p>
-<p>MR. JUSTICE REED: But didn&#39;t the fact that they did not 
+<p><b>MR. MARSHALL</b>: Yes. </p>
+<p><b>MR. JUSTICE REED</b>: But didn&#39;t the fact that they did not 
 have the opportunity for association or discussion have any effect on it? </p>
-<p>MR. MARSHALL: Yes, sir. </p>
-<p>MR. JUSTICE REED: And that, therefore, since they were graduate students, they did not have equal opportunities. </p>
-<p>MR. MARSHALL: As I read it, sir—the best I could do is read it—as I understand 
+<p><b>MR. MARSHALL</b>: Yes, sir. </p>
+<p><b>MR. JUSTICE REED</b>: And that, therefore, since they were graduate students, they did not have equal opportunities. </p>
+<p><b>MR. MARSHALL</b>: As I read it, sir—the best I could do is read it—as I understand 
 it, the conclusion in there in two particular places, he says that in a situation 
 of this type the state is deprived of the power to make distinctions; and the other 
 point, it says, to make any difference in treatment—but it was my idea that the 
 thrust of the McLaurin opinion is that segregation in and of itself, at least as 
 far as graduate training is concerned, is invalid, and that it was that conclusion 
 was reached by first finding out— </p>
-<p>MR. JUSTICE REED: But they gave the reasons why, for undergraduate students, because they did not give equal opportunity. </p>
-<p>MR. MARSHALL: But the only reason, I submit, Mr. Justice Reed, on the McLaurin 
+<p><b>MR. JUSTICE REED</b>: But they gave the reasons why, for undergraduate students, because they did not give equal opportunity. </p>
+<p><b>MR. MARSHALL</b>: But the only reason, I submit, Mr. Justice Reed, on the McLaurin 
 case and these cases is age, age of students, and the fact that obviously graduate training is different from elementary training 
 and high school training. But it has a difference, to use the language about another 
 point in the McLaurin case, there is constitutional difference, or rather it is insignificant as to the minor points, because if I understand, if we follow that to the logical 
 conclusion, I do not have the slightest idea of where the line would be; whether 
 the line would be at the college level, the junior college level, or the high school 
 level, as to where this discussion with other pupils is of benefit. </p>
-<p>MR. JUSTICE FRANKFURTER: Am I wrong in thinking that you must reject the basis 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Am I wrong in thinking that you must reject the basis 
 of the decision in McLaurin for purposes of this case? </p>
-<p>MR. MARSHALL: You mean reject the basis of the fact that they were not allowed 
+<p><b>MR. MARSHALL</b>: You mean reject the basis of the fact that they were not allowed 
 to associate? </p>
-<p>MR. JUSTICE FRANKFURTER: No. The basis was the criterion of those cases, was 
+<p><b>MR. JUSTICE FRANKFURTER</b>: No. The basis was the criterion of those cases, was 
 whether each got the same thing. Your position in these cases is that that is not arguable, that you cannot differentiate,
 you cannot enter the domain of whether a black child or a white child gets the 
 same educational advantages or facilities or opportunity. You must reject that, 
 do you not? </p>
-<p>MR. MARSHALL: We reach— </p>
-<p>MR. JUSTICE FRANKFURTER: Therefore, that is what I mean by saying you must reject 
+<p><b>MR. MARSHALL</b>: We reach— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Therefore, that is what I mean by saying you must reject 
 the basis on which those cases went. </p>
-<p>MR. MARSHALL: We reject it to this extent: I think I am— </p>
-<p>MR. JUSTICE FRANKFURTER: You reject the Delaware ground of decision, don&#39;t you?
+<p><b>MR. MARSHALL</b>: We reject it to this extent: I think I am— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: You reject the Delaware ground of decision, don&#39;t you?
 </p>
-<p>MR. MARSHALL: Absolutely. </p>
-<p>MR. JUSTICE FRANKFURTER: Well, therefore, you reject the basis of the McLaurin 
+<p><b>MR. MARSHALL</b>: Absolutely. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Well, therefore, you reject the basis of the McLaurin 
 case. </p>
-<p>MR. MARSHALL: I think so far as our argument on the constitutional debates is concerned, and these two cases, that the state is deprived of any 
+<p><b>MR. MARSHALL</b>: I think so far as our argument on the constitutional debates is concerned, and these two cases, that the state is deprived of any 
 power to make any racial classification in an governmental field. </p>
-<p>MR. JUSTICE FRANKFURTER: So I understand. </p>
-<p>MR. MARSHALL: But I do have to qualify it to this extent: I can conceive of some 
+<p><b>MR. JUSTICE FRANKFURTER</b>: So I understand. </p>
+<p><b>MR. MARSHALL</b>: But I do have to qualify it to this extent: I can conceive of some 
 governmental action—to be perfectly frank, sir, we have discussed the point of census-taking—so 
 they could take the census and name in the census, but so long as it affects not 
 either group—but in any area where it touches the individuals concerned in any form or fashion, it is clear to me, to my mind, under the Fourteenth Amendment, that you cannot separate people or denote that one 
@@ -937,37 +937,37 @@ shall go here and one shall go there if the facilities are absolutely equal; tha
 case especially it is admitted on record that every other thing about the schools 
 is equal, schools, curricula, everything else. It is only the question as to the 
 power of the State to— </p>
-<p>MR. JUSTICE FRANKFURTER: Well, the Delaware case tests that. You are opposed 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Well, the Delaware case tests that. You are opposed 
 to—you are in favor of the requested equality there, because I do not know whether you are— </p>
-<p>MR. MARSHALL: Yes, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: That is generally under your wing? </p>
-<p>MR. MARSHALL: It is not only under our wing, sir; we are very proud of the fact 
+<p><b>MR. MARSHALL</b>: Yes, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is generally under your wing? </p>
+<p><b>MR. MARSHALL</b>: It is not only under our wing, sir; we are very proud of the fact 
 that the children are going to school there, and they are demonstrating that it 
 can be done. </p>
-<p>MR. JUSTICE FRANKFURTER: All I am saying is that, with reference to the basis 
+<p><b>MR. JUSTICE FRANKFURTER</b>: All I am saying is that, with reference to the basis 
 on which the Delaware decision went, you reject— </p>
-<p>MR. MARSHALL: Yes, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: I follow that. </p>
-<p>MR. MARSHALL: Well, it seems to me, sir, that there is 
+<p><b>MR. MARSHALL</b>: Yes, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I follow that. </p>
+<p><b>MR. MARSHALL</b>: Well, it seems to me, sir, that there is 
 considerable—there is an opening for argument that, after all, the Court is interpreting the phrase 
 &quot;equal protection&quot; underlining the word &quot;equal,&quot; and for that reason, that is the 
 reason in our record in the case we felt obliged to show that these, what we consider 
 as intangibles in the Sweatt case, were there in this case, and, if necessary, the doctrine of Sweatt and McLaurin could automatically on all fours come there 
 except for the question of difference of schools. </p>
-<p>MR. JUSTICE FRANKFURTER: But the point is important whether we are to decide 
+<p><b>MR. JUSTICE FRANKFURTER</b>: But the point is important whether we are to decide 
 that the facilities are equal or whether one says that is an irrelevant question, 
 because you cannot apply that test between white and black. </p>
-<p>MR. MARSHALL: In this case it is irrelevant— </p>
-<p>MR. JUSTICE FRANKFURTER: All right. </p>
-<p>MR. MARSHALL: —for two reasons: one, it is not in the case because we have agreed 
+<p><b>MR. MARSHALL</b>: In this case it is irrelevant— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: All right. </p>
+<p><b>MR. MARSHALL</b>: —for two reasons: one, it is not in the case because we have agreed 
 that equality is outside the case, and our argument is deliberately broad enough 
 to encompass a situation regardless of facilities, and we make no issue about it.
 </p>
-<p>MR. JUSTICE FRANKFURTER: I understand that; but that will be a ground on which 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I understand that; but that will be a ground on which 
 the series of cases in the McLaurin case—the point of my question is that I think we are dealing with two different legal 
 propositions; McLaurin is one and what you are tendering to the Court is another.
 </p>
-<p>MR. MARSHALL: The questions raised by this Court in June, as we understand it, 
+<p><b>MR. MARSHALL</b>: The questions raised by this Court in June, as we understand it, 
 requested us to find out as to whether or not class legislation and, specifically 
 segregation, whether or not it, in and of itself, with nothing else, violated the 
 Fourteenth Amendment. We have addressed ourselves to that in this brief, and we are convinced that 
@@ -976,8 +976,8 @@ class or caste legislation is in and of itself a violation of the Fourteenth Ame
 with the only proviso that normally, in normal judicial proceedings, there must 
 be a showing of injury or what have you. That is our position and that is up—
 </p>
-<p>MR. JUSTICE REED: That is solely on the equal protection clause? </p>
-<p>MR. MARSHALL: Solely on the equal protection clause, except, sir, that is true 
+<p><b>MR. JUSTICE REED</b>: That is solely on the equal protection clause? </p>
+<p><b>MR. MARSHALL</b>: Solely on the equal protection clause, except, sir, that is true 
 in South Carolina, but we are arguing two cases together. In Virginia we rely on 
 equal protection and due process both, but the argument in our brief is limited 
 to equal protection; not that we have discarded due process, but we did not have 
@@ -986,32 +986,32 @@ a denial of both. </p>
 <p>I urge particularly the equal protection clause because it seems to me, at least 
 from the restrictive covenant case, the Shelley case on that—these rights are beginning 
 to fall into the equal protection clause rather than the due process clause, but we do not abandon the due process clause at all. </p>
-<p>MR. JUSTICE FRANKFURTER: In the District of Columbia case— </p>
-<p>MR. MARSHALL: Automatically— </p>
-<p>MR. JUSTICE FRANKFURTER: —the opposite would happen. </p>
-<p>MR. MARSHALL: In the District of Columbia case—we are not the lawyers in that 
+<p><b>MR. JUSTICE FRANKFURTER</b>: In the District of Columbia case— </p>
+<p><b>MR. MARSHALL</b>: Automatically— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: —the opposite would happen. </p>
+<p><b>MR. MARSHALL</b>: In the District of Columbia case—we are not the lawyers in that 
 case—we are all working together on it—they, of course, are relying on the due process 
 clause and they have the cases that support that; so I would say that insofar as 
 there is a due process argument to be in the District of Columbia and Virginia,
 they would be related, except for the difference that in the District of Columbia 
 this Court has broad power— 
 </p>
-<p>MR. JUSTICE FRANKFURTER: Your argument comes down to this: If in one of the states 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Your argument comes down to this: If in one of the states 
 in which there is a large percentage of Negro voters, a preponderance, where we 
 get a situation where x state has a preponderance of Negro voters who are actually 
 going to the polls, and actually assert their preponderance and install a Negro 
 governor, to the extent that more money is spent for Negro education, better housing, 
 better schools, more highly paid teachers, where teachers are more attracted, better maps, better school-books, better everything than the white children enjoy—and I know I am making a fantastic, 
 if you will, assumption— </p>
-<p>MR. MARSHALL: Yes. </p>
-<p>MR. JUSTICE FRANKFURTER: —and yet there is segregation, you would come here and 
+<p><b>MR. MARSHALL</b>: Yes. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: —and yet there is segregation, you would come here and 
 say that they cannot do that? </p>
-<p>MR. MARSHALL: If it is done by the state, the state has been deprived of— </p>
-<p>MR. JUSTICE FRANKFURTER: That is your position; that is the legal— </p>
-<p>MR. MARSHALL: I think, sir, that is our flat legal position, that if it involves 
+<p><b>MR. MARSHALL</b>: If it is done by the state, the state has been deprived of— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is your position; that is the legal— </p>
+<p><b>MR. MARSHALL</b>: I think, sir, that is our flat legal position, that if it involves 
 class or caste legislation— </p>
-<p>MR. JUSTICE FRANKFURTER: That is the antithesis of the McLaurin and the Gaines doctrine. </p>
-<p>MR. MARSHALL: Well, of the Gaines case, certainly so, sir, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is the antithesis of the McLaurin and the Gaines doctrine. </p>
+<p><b>MR. MARSHALL</b>: Well, of the Gaines case, certainly so, sir, 
 because I, for one, do not believe that the language used by Chief Justice Hughes was—I 
 mean, I just do not consider it as dictum when he said that they operated under 
 a doctrine the validity of which had been supported. </p>
@@ -1019,22 +1019,22 @@ a doctrine the validity of which had been supported. </p>
 I think Sipuel was, with the addition of &quot;you have to do it now.&quot; I think that Sweatt 
 and McLaurin, if I could disagree for a moment, are moving between the two; that 
 is the way I look at it. </p>
-<p>MR. JUSTICE FRANKFURTER: My only purpose is to try to see these things clearly 
+<p><b>MR. JUSTICE FRANKFURTER</b>: My only purpose is to try to see these things clearly 
 without a simplifying darkness, and to try to see it clearly. </p>
-<p>MR. MARSHALL: Yes, sir. But I do not believe—the point I wanted to make clear 
+<p><b>MR. MARSHALL</b>: Yes, sir. But I do not believe—the point I wanted to make clear 
 is that we do not have to, the Court does not have to take my position to decide 
 this case. Because of what I told you a minute ago, they could take up that material 
 in those other records and find that the children were not getting an equal education, 
 but it would not help in the situation. </p>
-<p>MR. JUSTICE FRANKFURTER: No, but if that line is taken, then the whole problem 
+<p><b>MR. JUSTICE FRANKFURTER</b>: No, but if that line is taken, then the whole problem 
 that you bring your weight to bear on is opened, and in each case. we have to decide 
 that. </p>
-<p>MR. MARSHALL: I think so, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: I did not suppose that you would say that we had to 
+<p><b>MR. MARSHALL</b>: I think so, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I did not suppose that you would say that we had to 
 open this case, that they were not equal, whether psychologically, whether buildings, 
 whether they spent x million dollars for white, or x minus y for the black; that 
 does not open any doctrine? </p>
-<p>MR. MARSHALL: No, sir; and the Delaware case, if I can go to that without going 
+<p><b>MR. MARSHALL</b>: No, sir; and the Delaware case, if I can go to that without going 
 outside of the record, demonstrates a situation more so than it does in South Carolina, 
 because in Delaware so long as the schools are unequal, okay. And then the schools 
 are made equal, and if I understand the procedure, you move the Negroes back to the colored school; and then the next year you put ten more books in 
@@ -1043,8 +1043,8 @@ and in fact, there are no two equal schools, because there are no two equal facu
 in the world in any schools. They are good as individuals, and one is better than 
 the other; but to just—that is the trouble with the doctrine of &quot;separate but equal&quot;; 
 the doctrine of &quot;separate but equal&quot; assumes that two things can be equal. </p>
-<p>MR. JUSTICE REED: There is not absolute equality, but substantially equal, in accordance with the terms of our cases. </p>
-<p>MR. MARSHALL: Yes, sir; starting with Plessy the word &quot;substantial,&quot; and we say in our brief—I mean we are absolutely serious about it—that the use of the word &quot;substantial&quot; emphasizes that those cases in truth and in 
+<p><b>MR. JUSTICE REED</b>: There is not absolute equality, but substantially equal, in accordance with the terms of our cases. </p>
+<p><b>MR. MARSHALL</b>: Yes, sir; starting with Plessy the word &quot;substantial,&quot; and we say in our brief—I mean we are absolutely serious about it—that the use of the word &quot;substantial&quot; emphasizes that those cases in truth and in 
 fact amend the Fourteenth Amendment by saying that equal protection can be obtained in a substantially equal fashion, and there is nothing in the debates that will hint in the slightest 
 that they did not mean complete equality—they said so—to raise the Negro up into the status of complete equality with the other 
 people. That is the language they used. &quot;Substantial&quot; is a word that was put into 
@@ -1054,10 +1054,10 @@ in the debates. </p>
 the time for rebuttal. Mr. Robinson was a little over his time, and I cut mine down. 
 Unless there are any questions on this particular point, because we still have some 
 time left, I would like to leave that for rebuttal. </p>
-<p>MR. CHIEF JUSTICE WARREN: Thank you. Mr. Davis? </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Thank you. Mr. Davis? </p>
 <p style="text-align:center"><b>ARGUMENT OF JOHN W. DAVIS, ESQ., <br>
 ON BEHALF OF APPELLEES R. W. ELLIOTT ET AL. </b> </p>
-<p>MR. DAVIS: May it please the Court: </p>
+<p><b>MR. DAVIS</b>: May it please the Court: </p>
 <p>I suppose there are few invitations less welcome in an advocate&#39;s life than to be asked to reargue a case on which he has once spent himself, and 
 that is particularly unwelcome when an order for reargument gives him no indication 
 whatever of the subjects in which the Court may be interested, and, therefore, I 
@@ -1120,7 +1120,7 @@ the state legislatures and conventions which ratified the Fourteenth Amendment c
 or did not contemplate, understood or did not understand that it would abolish 
 segregation in public schools? 
 </p>
-<p>We answer: The overwhelming preponderance of the evidence demonstrates that the 
+<p><b>We answer</b>: The overwhelming preponderance of the evidence demonstrates that the 
 Congress which submitted, and the state legislatures which ratified, the Fourteenth 
 Amendment did not contemplate and did not understand that it would abolish segregation
 in public schools; and in the time that is afforded I hope to vindicate that 
@@ -1322,7 +1322,7 @@ states with segregation who refused to ratify and continued segregation. They we
 Maryland and Delaware. Delaware didn&#39;t ratify until 1901. </p>
 <p>There were two border states that had segregation both before and after ratification, and have continued it to this day. They are Missouri 
 and West Virginia. </p>
-<p>There were nine northern states that either continued segregation they already had or established it immediately after the ratification of the Fourteenth Amendment: Illinois, Indiana, Kansas, Nevada, New Jersey, New York, Ohio, Oregon and Pennsylvania. </p>
+<p><b>There were nine northern states that either continued segregation they already had or established it immediately after the ratification of the Fourteenth Amendment</b>: Illinois, Indiana, Kansas, Nevada, New Jersey, New York, Ohio, Oregon and Pennsylvania. </p>
 <p>And then—and I can find no evidence that my friends appreciate the significance of this fact—of the reconstructed states who ratified in order to get their delegate, their congressmen and senators back to Washington, eight Reconstruction states in the same Reconstruction legislature, Republican controlled, the same legislature which ratified the Fourteenth Amendment passed statutes continuing or immediately establishing segregated schools. I regard that as a fact of great significance. If there was any place where the Fourteenth Amendment and its sponsors would have blown 
 the bugle for mixed schools and asserted that the Fourteenth 
 Amendment had settled the question, surely it would have been those eight states 
@@ -1334,7 +1334,7 @@ schools, I can find in the history as detailed by all of these appendices no war
 whatever for any such assertion, for any such proportion of nonconcurring states. 
 That is before Your Honors in the appendices, and you must, between the three points 
 of view that I have indicated, make your selection. </p>
-<p>The second question: Neither the Congress in submitting, nor the states in ratifying, 
+<p><b>The second question</b>: Neither the Congress in submitting, nor the states in ratifying, 
 the Fourteenth Amendment understood that compliance with it would require the immediate 
 abolition of segregation in public schools. </p>
 <p>It was nevertheless the understanding of the framers of the Amendment that future 
@@ -1354,18 +1354,18 @@ given to Congress, we had noted, in section 5 is the power that—I thought I ha
 the exact language—to enforce the provision of this article. And section 5 is not 
 a Trojan horse which opened to Congress a wide field in which Congress might expand the boundaries of the article itself.
 </p>
-<p>MR. JUSTICE JACKSON: Mr. Davis, would not the necessary and proper clause apply 
+<p><b>MR. JUSTICE JACKSON</b>: Mr. Davis, would not the necessary and proper clause apply 
 to the Amendment as well as to the enumerated </p>
-<p>MR. DAVIS: Well, if you can imagine a necessary and proper clause which would 
+<p><b>MR. DAVIS</b>: Well, if you can imagine a necessary and proper clause which would 
 enforce the provisions of this article by dealing with matter which is not within the scope of the article itself, which I think 
 is a contradiction in terms, that is a paradox. Congress could do what the Amendment did not warrant under the guise of enforcing the 
 Amendment. </p>
-<p>MR. JUSTICE FRANKFURTER: But you can look for the necessary and proper clause to determine whether it is something appropriate within the Amendment. </p>
-<p>MR. DAVIS: Quite so. That is if you use, choose, a monetary clause, related to 
+<p><b>MR. JUSTICE FRANKFURTER</b>: But you can look for the necessary and proper clause to determine whether it is something appropriate within the Amendment. </p>
+<p><b>MR. DAVIS</b>: Quite so. That is if you use, choose, a monetary clause, related to 
 congressional wisdom and policy; and to the judicial power, in answer to that question, we say that to interpret the Amendment as 
 including something that it does not include is not to interpret the Amendment, 
 but is to amend the Amendment, which is beyond the power of the Court. </p>
-<p>The third question: On the assumption the answers to questions 2(a) and (b) do not dispose of the issue, is it within the judicial power in construing the Amendment to abolish segregation in the public schools. 
+<p><b>The third question</b>: On the assumption the answers to questions 2(a) and (b) do not dispose of the issue, is it within the judicial power in construing the Amendment to abolish segregation in the public schools. 
 And we answer: It is not within the judicial power to construe the Fourteenth Amendment 
 adversely to the understanding of its framers as abolishing segregation in the public
 schools. </p>
@@ -1374,7 +1374,7 @@ we have in making the initial assumption on which that question is based, where
 in our humble judgment the answers to question 1 and 2(a) and (b) do dispose of 
 the issue in this case and dispose of it in the clearest and most emphatic manner.
 </p>
-<p>We go on in our answer: Moreover, if in construing the Amendment the principle 
+<p><b>We go on in our answer</b>: Moreover, if in construing the Amendment the principle 
 of stare decisis is applied, controlling precedents preclude a construction which 
 would abolish segregation in the public schools. Now, we are cognizant of what this Court has said not 
 once but several times, and what some of us have heard outside the Court as to the 
@@ -1409,7 +1409,7 @@ school age. There were 295 whites, and the state has now provided those 2,800 Ne
 children with schools as good in every particular. In fact, because of their being newer, they may even be better. There are good teachers, the same 
 curriculum as in the schools for the 295 whites. 
 </p>
-<p>Who is going to disturb that situation: If they were to be reassorted or commingled, who knows how that could best be done? If it is done on the mathematical 
+<p><b>Who is going to disturb that situation</b>: If they were to be reassorted or commingled, who knows how that could best be done? If it is done on the mathematical 
 basis, with thirty children as a maximum, which I believe, is the accepted standard 
 in pedagogy, you would have 27 Negro children and three whites in one school room. 
 Would that make the children any happier? Would they learn any more quickly? Would 
@@ -1465,7 +1465,7 @@ the best is often the enemy of the good. </p>
 <p style="text-align:center"><b>ARGUMENT OF T. JUSTIN MOORE, ESQ., ON BEHALF <br>
 OF APPELLEES, COUNTY SCHOOL BOARD OF <br>
 PRINCE EDWARD COUNTY, VIRGINIA, ET AL. </b> </p>
-<p>MR. MOORE: May it please the Court: </p>
+<p><b>MR. MOORE</b>: May it please the Court: </p>
 <p>In undertaking to present the Virginia case, and in view of the fact that the 
 facts are now so similar to those in the South Carolina case, I am aware that there will necessarily be covering of much of the same 
 ground that my distinguished friend and associate, Mr. Davis, has covered. But we feel that we should present our own point of view.
@@ -1563,38 +1563,38 @@ be appointed, or some other way that the matter should be handled. We think it i
 perfectly clear that if there should be this unhappy, unfortunate decree, that the 
 case should be remanded to the lower court where local conditions could be considered, 
 where new evidence would be received. Considering what might be appropriate in Kansas, wouldn&#39;t necessarily be appropriate in South Carolina or Virginia. </p>
-<p>MR. JUSTICE FRANKFURTER: What kind of guidance, if any, should be given to the 
+<p><b>MR. JUSTICE FRANKFURTER</b>: What kind of guidance, if any, should be given to the 
 district court on this unhappy hypothesis of your argument? </p>
-<p>MR. MOORE: It really distresses me to face that question. About all I can say, 
+<p><b>MR. MOORE</b>: It really distresses me to face that question. About all I can say, 
 Your Honor, is we feel the courts should be given the broadest possible discretion 
 to act along reasonable lines. It is a matter of a reasonable exercise of discretion. 
 That is the best answer, I believe, I can give. </p>
-<p>MR. JUSTICE FRANKFURTER: I suppose, and Mr. Davis touched on it before when it 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I suppose, and Mr. Davis touched on it before when it 
 was asked, it is one thing to ask a district court to lay out districts, school 
 districts. </p>
-<p>MR. MOORE: Yes. </p>
-<p>MR. JUSTICE FRANKFURTER: I suppose that is one thing. But to have the parties 
+<p><b>MR. MOORE</b>: Yes. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I suppose that is one thing. But to have the parties 
 or the state which would be involved, whatever the political unit, say, &quot;This is what we are going to 
 do,&quot; and have the district court pass on whether that conforms to this hypothetical
 decree, is another thing, isn&#39;t it? </p>
-<p>MR. MOORE: Well, Your Honor, we think, to further answer the question—I did not 
+<p><b>MR. MOORE</b>: Well, Your Honor, we think, to further answer the question—I did not 
 intend to just drop it summarily. </p>
-<p>MR. JUSTICE FRANKFURTER: I beg your pardon, I am sorry, Please go your own way, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I beg your pardon, I am sorry, Please go your own way, 
 Mr. Moore. </p>
-<p>MR. MOORE: No, no, I want to answer Your Honor, We think that following the theory 
+<p><b>MR. MOORE</b>: No, no, I want to answer Your Honor, We think that following the theory 
 of, say, the antitrust cases, that the party certainly should be allowed to present 
 a plan, rather than for the Court just to hand down a plan. Perhaps that is a more 
 accurate and a better answer. I did not give quite as fluent an answer as I should 
 have originally. </p>
-<p>MR. JUSTICE FRANKFURTER: In the Paramount case in New York, as you know— </p>
-<p>MR. MOORE: Yes. </p>
-<p>MR. JUSTICE FRANKFURTER: —there was I don&#39;t know how long a proceeding before 
+<p><b>MR. JUSTICE FRANKFURTER</b>: In the Paramount case in New York, as you know— </p>
+<p><b>MR. MOORE</b>: Yes. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: —there was I don&#39;t know how long a proceeding before 
 Judge Hand and his associates in which there was conformity by the parties going 
 on as proposed by what this Court decided, which was made a matter of independent 
 extensive litigation and consideration. </p>
-<p>MR. MOORE: That&#39;s right. </p>
-<p>MR. JUSTICE FRANKFURTER: Is your suggestion that kind of solution? </p>
-<p>MR. MOORE: That&#39;s right. </p>
+<p><b>MR. MOORE</b>: That&#39;s right. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Is your suggestion that kind of solution? </p>
+<p><b>MR. MOORE</b>: That&#39;s right. </p>
 <p>I think undoubtedly that the decree should be a decree that would give broad 
 discretion and permit the parties involved to present an appropriate plan that would 
 be in conformity with the decision of this Court, but leaving a great deal of latitude 
@@ -1650,12 +1650,12 @@ exclusively to their civil rights. </p>
 </blockquote>
 <p>And you couple that with his own statement that the right to go to school is 
 not a civil right. </p>
-<p>Here is what Wilson said over on the House side: </p>
+<p><b>Here is what Wilson said over on the House side</b>: </p>
 <blockquote>
   <p>Nor do they mean that children shall attend the same schools. These are not civil 
 rights. </p>
 </blockquote>
-<p>Later on he said: </p>
+<p><b>Later on he said</b>: </p>
 <blockquote>
   <p>When he talks about setting aside the school laws of the states by the bill now 
 under consideration, he steps beyond what he must know to be the rule of construction which must apply 
@@ -1743,12 +1743,12 @@ Edward County, Virginia, et al</i>. </p>
   <i>Assistant Attorney General, on behalf of the United States</i>. </p>
 </blockquote>
 <p style="text-align:center"><b>PROCEEDINGS </b> </p>
-<p>MR. CHIEF JUSTICE WARREN: This is in the matter of a hearing before the United States Supreme Court in the segregation cases held on Tuesday, 
+<p><b>MR. CHIEF JUSTICE WARREN</b>: This is in the matter of a hearing before the United States Supreme Court in the segregation cases held on Tuesday, 
 December 8, 1953. </p>
 <p style="text-align:center"><b>ARGUMENT OFT. JUSTIN MOORE, ESQ., ON BEHALF OF <br>
 APPELLEES, COUNTY SCHOOL BOARD OF PRINCE <br>
 EDWARD COUNTY, VIRGINIA, <i>ET AL</i>.—RESUMED </b> </p>
-<p>MR. MOORE: May it please the Court: </p>
+<p><b>MR. MOORE</b>: May it please the Court: </p>
 <p>At the adjournment yesterday afternoon, I had referred briefly in presenting 
 our side of the Virginia case to the fourth and fifth questions. Perhaps I was very 
 brief, but we felt in comparison with these other great questions, that we dealt 
@@ -2009,7 +2009,7 @@ brought about that situation. That was true of all these witnesses, these expert
 that appeared in our Virginia case. They did not know a thing about Virginia, they 
 all admitted, and they are not familiar with the way in which it is gradually being 
 worked out. But those feelings that I refer to are not relevant here. </p>
-<p>Mr. Justice Holmes had very well put the thought when he said: </p>
+<p><b>Mr. Justice Holmes had very well put the thought when he said</b>: </p>
 <blockquote>
   <p>There is nothing that I deprecate more than the use of the Fourteenth Amendment 
 beyond the absolute compulsion of its words to prevent the making of social experiments that an important part of the community desires, 
@@ -2056,12 +2056,12 @@ and not for the courts. The members of the judiciary have no more right to read 
 their ideas of economics. </p>
 </blockquote>
 <p>Thank you. </p>
-<p>MR. CHIEF JUSTICE WARREN: General Almond? </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: General Almond? </p>
 <p style="text-align:center"><b>ARGUMENT OF J. LINDSAY ALMOND, ESQ., ON BEHALF 
 <br>
 OF APPELLEES, COUNTY SCHOOL BOARD OF PRINCE <br>
 EDWARD COUNTY, VIRGINIA, ET AL. </b> </p>
-<p>MR. ALMOND: May it please the Court: </p>
+<p><b>MR. ALMOND</b>: May it please the Court: </p>
 <p>Mr. Moore assigned to me a rather Herculean task, and I have no time in which 
 to address myself to that phase of the case which I would like to discuss. </p>
 <p>As the only official of one of the seceding states privileged to actively participate 
@@ -2115,27 +2115,27 @@ than almost, I can say, any state in the South. Within the last four years she h
 more than matched by the political subdivisions, to increase the facilities of our 
 public school system, and most of that has been spent to equalize facilities which 
 needed to be equalized. </p>
-<p>MR. JUSTICE FRANKFURTER: General Almond, let me ask you a question to see whether 
+<p><b>MR. JUSTICE FRANKFURTER</b>: General Almond, let me ask you a question to see whether 
 I understand your suggestion. </p>
-<p>MR. ALMOND: Yes. </p>
-<p>MR. JUSTICE FRANKFURTER: Of these systems, the choice is of going to what is 
+<p><b>MR. ALMOND</b>: Yes. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Of these systems, the choice is of going to what is 
 called an integrated school, but in default of that, deciding of the choice then, 
 it will be shepherded into one or the other; is that what you mean by the decree?
 </p>
-<p>MR. ALMOND: I didn&#39;t mean, Mr. Justice Frankfurter, shepherding in that sense. </p>
-<p>MR. JUSTICE FRANKFURTER: That is a bad word. If they do not choose to go to unmixed 
+<p><b>MR. ALMOND</b>: I didn&#39;t mean, Mr. Justice Frankfurter, shepherding in that sense. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is a bad word. If they do not choose to go to unmixed 
 schools, then they would have to go to a separate school, is that right? I f they 
 do not choose to go to a mixed school which is open to them, then they would have 
 to go to one or the other; is that what you mean, General Almond? </p>
-<p>MR. ALMOND: I said, sir, that that is the matter of policy 
+<p><b>MR. ALMOND</b>: I said, sir, that that is the matter of policy 
 which the states— </p>
-<p>MR. JUSTICE FRANKFURTER: Yes, I understand; but is that what you meant? </p>
-<p>MR. ALMOND: Yes. </p>
-<p>MR. JUSTICE FRANKFURTER: Those are the three which you have in mind? </p>
-<p>MR. ALMOND: That is right, sir, which the state would have to determine. </p>
-<p>MR. JUSTICE FRANKFURTER: Yes, I understand that. It is a very hypothetical answer 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Yes, I understand; but is that what you meant? </p>
+<p><b>MR. ALMOND</b>: Yes. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Those are the three which you have in mind? </p>
+<p><b>MR. ALMOND</b>: That is right, sir, which the state would have to determine. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Yes, I understand that. It is a very hypothetical answer 
 on that, but I just wanted to understand you. </p>
-<p>MR. ALMOND: That is a matter of legislative policy. </p>
+<p><b>MR. ALMOND</b>: That is a matter of legislative policy. </p>
 <p>Now, if Your Honors please, I guess my time has just about expired. I would like 
 to say one thing in behalf of the seceding states, if there was ever such a thing, 
 why they have been indicted by the opposition of treachery, of fraud, of conniving 
@@ -2164,17 +2164,17 @@ solved to the benefit of both races.</p>
 <p style="text-align:center"><b>REBUTTAL ARGUMENT OF <br>
 THURGOOD MARSHALL, ESQ., ON <br>
 BEHALF OF APPELLANTS, HARRY BRIGGS, JR., ET AL. </b> </p>
-<p>MR. MARSHALL: May it please the Court: </p>
+<p><b>MR. MARSHALL</b>: May it please the Court: </p>
 <p>There are several points I would like to clear up preliminarily, and then I would 
 like to make sure that our position is correctly stated, and as it relates to statements 
 made by counsel on the other side. </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Marshall, I do not want to interrupt your closing 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Marshall, I do not want to interrupt your closing 
 argument, but I hope before you sit down you will state to the Court whether you 
 have anything more to say on the question of remedies. </p>
-<p>MR. MARSHALL: Yes, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: In case you should prevail, more than is contained in 
+<p><b>MR. MARSHALL</b>: Yes, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: In case you should prevail, more than is contained in 
 your brief. </p>
-<p>MR. MARSHALL: Yes, sir, I would be glad to get to that first, Mr. Justice Frankfurter.
+<p><b>MR. MARSHALL</b>: Yes, sir, I would be glad to get to that first, Mr. Justice Frankfurter.
 </p>
 <p>In our brief we found ourselves, after having given as much research as we could, 
 in a position where we intelligently could not put forth a plan. We find that in 
@@ -2231,7 +2231,7 @@ record in the Briggs case: </p>
   <p>What I was saying is that the problem of the mixed groups and racial tensions 
 is less in communities where the minority population is small. That has been true 
 of the testimony I have heard. </p>
-  <p>Then the question: `Well, Mr. Crow,&#39; incidentally, that was his name, Mr. Crow, &#39;assuming that in Clarendon County, especially in School District No. 22, the population 
+  <p><b>Then the question</b>: `Well, Mr. Crow,&#39; incidentally, that was his name, Mr. Crow, &#39;assuming that in Clarendon County, especially in School District No. 22, the population 
 was 95 percent white and 5 percent Negro, would that change your opinion?&#39; 
   </p>
   <p>Answer. No. </p>
@@ -2336,17 +2336,17 @@ urged the Fourteenth and Fifteenth Amendments, but we don&#39;t have to get to t
 Amendment because the Fourteenth Amendment said that the states can do a lot of classifying which we, speaking as a Court, 
 can&#39;t seem to understand, but it is clear that race cannot be used in suffrage. 
 So I don&#39;t see the purport of any of that argument. </p>
-<p>MR. JUSTICE FRANKFURTER: Do you think the Fifteenth Amendment was redundant, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Do you think the Fifteenth Amendment was redundant, 
 superfluous? </p>
-<p>MR. MARSHALL: No, sir, definitely not. </p>
-<p>MR. JUSTICE FRANKFURTER: So if it had not been there, it would have been included 
+<p><b>MR. MARSHALL</b>: No, sir, definitely not. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: So if it had not been there, it would have been included 
 in the Fourteenth? </p>
-<p>MR. MARSHALL: I think definitely, under the reasoning of Mr. Justice Holmes, 
+<p><b>MR. MARSHALL</b>: I think definitely, under the reasoning of Mr. Justice Holmes, 
 it would have been. </p>
-<p>MR. JUSTICE FRANKFURTER: That is superfluous; then it is an extra. </p>
-<p>MR. MARSHALL: It is an extra. </p>
-<p>MR. JUSTICE FRANKFURTER: An extra. </p>
-<p>MR. MARSHALL: I just—maybe it is timidity, but I just can&#39;t say a constitutional 
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is superfluous; then it is an extra. </p>
+<p><b>MR. MARSHALL</b>: It is an extra. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: An extra. </p>
+<p><b>MR. MARSHALL</b>: I just—maybe it is timidity, but I just can&#39;t say a constitutional 
 amendment is superfluous; but if you are asking me if I think Mr. Justice Holmes was absolutely correct, definitely, yes, sir. </p>
 <p>That brings me to the other point which I want to make clear. It involves the 
 questions yesterday about our position as to the McLaurin case, and I am a little 
@@ -2426,11 +2426,11 @@ regardless of anything else, shall be kept as near that stage as is possible; an
 now is the time, we submit, that this Court should make it clear that that is not 
 what our Constitution stands for. </p>
 <p>Thank you, sir. </p>
-<p>MR. CHIEF JUSTICE WARREN: Mr. Rankin? </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Mr. Rankin? </p>
 <p style="text-align:center"><b>ARGUMENT OF J. LEE RANKIN, ESQ., <br>
 ON BEHALF OF THE UNITED STATES, <br>
 AS AMICUS CURIAE </b> </p>
-<p>MR. RANKIN: May it please the Court: </p>
+<p><b>MR. RANKIN</b>: May it please the Court: </p>
 <p>As this Court well knows, the United States appears in this action as a friend 
 of the Court, and the only excuse for us to be here is because of the assistance 
 that we may be able to give the Court in regard to this problem before it. </p>
@@ -2503,12 +2503,12 @@ the detailed supervision of the District. </p>
 <p>So we are saying that that event in itself doesn&#39;t show the Congress understood 
 that the Fourteenth Amendment was to permit segregation in the schools of this nation. Then we turn to the action of the 
 states. </p>
-<p>MR. JUSTICE FRANKFURTER: Before you do that, Mr. Attorney General, I suppose you would say that the action since 1871 is too ex post facto 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Before you do that, Mr. Attorney General, I suppose you would say that the action since 1871 is too ex post facto 
 to be relevant. </p>
-<p>MR. RANKIN: Very largely, Your Honor. It all is removed from the scene. Changes 
+<p><b>MR. RANKIN</b>: Very largely, Your Honor. It all is removed from the scene. Changes 
 have occurred in Congress over the years. The framers were not participants in most 
 of that action, and the Fourteenth Amendment was not involved in those questions. </p>
-<p>MR. JUSTICE FRANKFURTER: But it could in any event be involved; but I think, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: But it could in any event be involved; but I think, 
 so far as any inference is to be drawn from what Congress did or did not do, the 
 early legislation, you put to one side for the reason that you have given. That 
 would be significant because Congress was then contemporaneous; it was the same Congress about the 
@@ -2516,24 +2516,24 @@ same time as those that submitted the Fourteenth Amendment. But since 1871 Congr
 has continued to pass legislation year after year acknowledging or authorizing—which is it—acknowledging or authorizing segregation in 
 the District, both. Whatever it is, there have been appropriations recognizing the fact of segregation, and such has been the policy of the District; is that 
 correct? </p>
-<p>MR. RANKIN: That is right. </p>
-<p>MR. JUSTICE FRANKFURTER: To this day. </p>
-<p>MR. RANKIN: That is right. </p>
-<p>MR. JUSTICE FRANKFURTER: From 1871, when Congress had sole charge, you would 
+<p><b>MR. RANKIN</b>: That is right. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: To this day. </p>
+<p><b>MR. RANKIN</b>: That is right. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: From 1871, when Congress had sole charge, you would 
 say we can&#39;t attribute constitutional verification to Congress passing the appropriations 
 act. </p>
-<p>MR. RANKIN: That is correct. That is our position. </p>
-<p>MR. JUSTICE REED: I understood you to attribute it to after 1896. What about 
+<p><b>MR. RANKIN</b>: That is correct. That is our position. </p>
+<p><b>MR. JUSTICE REED</b>: I understood you to attribute it to after 1896. What about 
 the period from 1866 until &#39;96, where the question hadn&#39;t been raised, where they went ahead and appropriated for the District schools 
 which had segregation? Does that give any indication to you of the attitude of the 
 Congress or the meaning of the Fourteenth Amendment? </p>
-<p>MR. RANKIN: We don&#39;t consider that there is anything to show that that was an 
+<p><b>MR. RANKIN</b>: We don&#39;t consider that there is anything to show that that was an 
 interpretation with knowledge as required by the opinions of this Court in the past 
 concerning the meaning of the Fourteenth Amendment with regard to segregation in 
 the schools in the District or anyplace else. </p>
 <p>When you go back into the— </p>
-<p>MR. JUSTICE REED: What about the 1875 Act? </p>
-<p>MR. RANKIN: When you go into the history of the 1875 Act, as we have set out 
+<p><b>MR. JUSTICE REED</b>: What about the 1875 Act? </p>
+<p><b>MR. RANKIN</b>: When you go into the history of the 1875 Act, as we have set out 
 in detail, the consideration before Congress was whether or not the law would be 
 passed with a provision for mixed schools or with an amendment that was offered 
 for separate and equal. Both of them lost. How you can possibly draw any inference
@@ -2542,34 +2542,34 @@ we cannot follow. We think that Congress, by not enacting separate and equal, an
 failing to enact for mixed schools, left the question in abeyance as far as that 
 particular action is concerned. 
 </p>
-<p>MR. JUSTICE REED: Or left it to the states. </p>
-<p>MR. RANKIN: No, I think it left it to the Fourteenth Amendment, which had already been passed by the Congress and ratified by the states, and 
+<p><b>MR. JUSTICE REED</b>: Or left it to the states. </p>
+<p><b>MR. RANKIN</b>: No, I think it left it to the Fourteenth Amendment, which had already been passed by the Congress and ratified by the states, and 
 it was appreciated at that time that this Court would have the problem to protect 
 those rights as they were declared in section 1. </p>
-<p>MR. JUSTICE REED: The Fourteenth Amendment, in the light of the history that 
+<p><b>MR. JUSTICE REED</b>: The Fourteenth Amendment, in the light of the history that 
 had gone on from 1866 to 1875— </p>
-<p>MR. RANKIN: Well, that history as we saw it— </p>
-<p>MR. JUSTICE REED: I mean the history of the states. </p>
-<p>MR. RANKIN: Well, the history of the states, if the Court will look— </p>
-<p>MR. JUSTICE REED: You are coming to that next? </p>
-<p>MR. RANKIN: Yes, we will look 
+<p><b>MR. RANKIN</b>: Well, that history as we saw it— </p>
+<p><b>MR. JUSTICE REED</b>: I mean the history of the states. </p>
+<p><b>MR. RANKIN</b>: Well, the history of the states, if the Court will look— </p>
+<p><b>MR. JUSTICE REED</b>: You are coming to that next? </p>
+<p><b>MR. RANKIN</b>: Yes, we will look 
 into that picture. </p>
-<p>MR. JUSTICE JACKSON: Before you go into that, isn&#39;t the one thing that is perfectly 
+<p><b>MR. JUSTICE JACKSON</b>: Before you go into that, isn&#39;t the one thing that is perfectly 
 clear under the Fourteenth Amendment that Congress is given the power and the duty 
 to enforce the Fourteenth Amendment by legislation? You don&#39;t disagree with that, do you? You believe that, 
 don&#39;t you? </p>
-<p>MR. RANKIN: No, there is no question but— </p>
-<p>MR. JUSTICE JACKSON: And the other thing that is clear is that they have never 
+<p><b>MR. RANKIN</b>: No, there is no question but— </p>
+<p><b>MR. JUSTICE JACKSON</b>: And the other thing that is clear is that they have never 
 done, have never enacted an act that deals with this subject. </p>
-<p>MR. RANKIN: There is no question but what Congress has the power under section 
+<p><b>MR. RANKIN</b>: There is no question but what Congress has the power under section 
 5 to enforce the Fourteenth Amendment. </p>
-<p>MR. JUSTICE JACKSON: And if the Amendment reaches segregation, they have the power to enforce it and set up machinery to make it effective. 
+<p><b>MR. JUSTICE JACKSON</b>: And if the Amendment reaches segregation, they have the power to enforce it and set up machinery to make it effective. 
 There is no doubt about that, is there, and it hasn&#39;t been done. Now, if our representative 
 institutions have failed—is that the point? </p>
-<p>MR. RANKIN: No, because this Court has, in our understanding, concurrent jurisdiction.
+<p><b>MR. RANKIN</b>: No, because this Court has, in our understanding, concurrent jurisdiction.
 </p>
-<p>MR. JUSTICE JACKSON: Have you taken it over? </p>
-<p>MR. RANKIN: No. You both have a responsibility, and neither one can give that 
+<p><b>MR. JUSTICE JACKSON</b>: Have you taken it over? </p>
+<p><b>MR. RANKIN</b>: No. You both have a responsibility, and neither one can give that 
 responsibility up to the other, in our conception. There is a concurrent responsibility, 
 and the Court has recognized it in numerous cases where it has interpreted and applied 
 the Fourteenth Amendment. It has not waited for Congress to act under section 5, but it has 
@@ -2577,11 +2577,11 @@ looked at section 1 and the other sections of the Amendment to see what they mea
 and the force of that language that was used at that time in adopting the intention and purpose of the framers 
 as expressed, and tried to give a liberal interpretation to carry out the purposes 
 that were pervading in the passing of the Amendment. </p>
-<p>MR. JUSTICE JACKSON: I suppose that realistically the reason <a name="page27">
+<p><b>MR. JUSTICE JACKSON</b>: I suppose that realistically the reason <a name="page27">
 </a>this case is here was that action couldn&#39;t be obtained from 
 Congress. Certainly it would be here much stronger, from your point of view, if Congress 
 did act, wouldn&#39;t it? </p>
-<p>MR. RANKIN: That is true, but there are many cases that the Court well recognized, 
+<p><b>MR. RANKIN</b>: That is true, but there are many cases that the Court well recognized, 
 I know, upon any reflection, and has in its opinions, that if the Court would delegate 
 back to Congress from time to time the question of deciding what should be done 
 about the rights, the constitutional rights of a party appearing before this Court 
@@ -2591,7 +2591,7 @@ law is that those rights that are defined and set out in the Constitution are no
 to be subject to the political form which changes from time to time, but are to be preserved 
 under the holdings of this Court over many, many years by the orders of this Court 
 granting the relief prayed for. </p>
-<p>MR. JUSTICE FRANKFURTER: The thing to be said—or is it to be said fairly?—that 
+<p><b>MR. JUSTICE FRANKFURTER</b>: The thing to be said—or is it to be said fairly?—that 
 not only did Congress not exercise the power under section 5 with reference to the 
 states, but in a realm which is its exclusive authority, it enacted legislation 
 to the contrary. </p>
@@ -2601,36 +2601,36 @@ you that—any understanding on the part of successive congresses that segregati
 Constitution, not the Fourteenth Amendment. </p>
 <p>I take it that whatever you have to say about the District you will be saying 
 during this hour? </p>
-<p>MR. RANKIN: Yes. </p>
-<p>MR. JUSTICE FRANKFURTER: The Fourteenth Amendment apart, which does not bind 
+<p><b>MR. RANKIN</b>: Yes. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: The Fourteenth Amendment apart, which does not bind 
 the Federal Government, of course, but whatever is to be drawn out of the Fifth 
 Amendment through the action of Congress for what is now eighty years has contradicted
 the assumption that the Fourteenth Amendment, as reflected by the due process 
 of the Fifth, bars such action. 
 </p>
-<p>MR. RANKIN: Well, we—think that the action regarding the District back in 1862, when the Amendment was before the 39th Congress, does not give any bearing upon the action in adopting the Fourteenth Amendment.
+<p><b>MR. RANKIN</b>: Well, we—think that the action regarding the District back in 1862, when the Amendment was before the 39th Congress, does not give any bearing upon the action in adopting the Fourteenth Amendment.
 </p>
-<p>MR. JUSTICE FRANKFURTER: I understand that. Because after all, what precedes, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I understand that. Because after all, what precedes, 
 as Justice Bradley said in the <i>Legal Tender Cases</i>, when we got that Amendment and the antecedent—but it does seem to be underlying some implicit belief on all the congresses from 1871, that such legislation does not contravene the deepest presuppositions 
 of our Constitution, or am I overstating what that means, or are you saying that 
 legislation does not mean anything but what it does; it just segregates, that is 
 all? </p>
-<p>MR. RANKIN: Well, not exactly. It seems that you have to find a conscious determination 
+<p><b>MR. RANKIN</b>: Well, not exactly. It seems that you have to find a conscious determination 
 by Congress that segregation was permitted under the Fourteenth Amendment. </p>
-<p>MR. JUSTICE FRANKFURTER: You think legislation by Congress is like the British Empire, something that is acquired in a fit of absentmindedness?
+<p><b>MR. JUSTICE FRANKFURTER</b>: You think legislation by Congress is like the British Empire, something that is acquired in a fit of absentmindedness?
 </p>
 <p>[Laughter.] </p>
-<p>MR. RANKIN: I couldn&#39;t make that charge before this Court, and I wouldn&#39;t want 
+<p><b>MR. RANKIN</b>: I couldn&#39;t make that charge before this Court, and I wouldn&#39;t want 
 to be quoted in that manner. There might be times that that occurred, but I think 
 Congress is well aware that when that does happen, the subject matter does not deserve 
 greater consideration than it has at the moment, and that it is ordinarily pretty well taken care of under the processes. With regard to the entire question, 
 it seems that there should be another factor that the Court should consider in this 
 matter. </p>
-<p>MR. JUSTICE REED: Are you going to discuss later the action of the states?
+<p><b>MR. JUSTICE REED</b>: Are you going to discuss later the action of the states?
 </p>
-<p>MR. RANKIN: Yes. I will proceed now to the question of the legislation of the states in regard to this matter. </p>
-<p>MR. JUSTICE REED: The issue of the states, the seceding states? </p>
-<p>MR. RANKIN: Yes. </p>
+<p><b>MR. RANKIN</b>: Yes. I will proceed now to the question of the legislation of the states in regard to this matter. </p>
+<p><b>MR. JUSTICE REED</b>: The issue of the states, the seceding states? </p>
+<p><b>MR. RANKIN</b>: Yes. </p>
 <p>In the ratification of the Amendment and the readmission of the seceding states, 
 much is assumed in connection with that by the parties. We find that the evidence, 
 the record of history, does not sustain that. There were no references to the Fourteenth 
@@ -2683,7 +2683,7 @@ think you can draw from that any assumption that by those legislative acts, when
 there was not any discussion of the problem, that it was intended or understood 
 by anyone that the Fourteenth Amendment would permit, in spite of its language, 
 segregation of the Negro in the public schools.&nbsp; </p>
-<p>MR. JUSTICE JACKSON: Mr. Rankin, I would like to ask you this: You have studied 
+<p><b>MR. JUSTICE JACKSON</b>: Mr. Rankin, I would like to ask you this: You have studied 
 this much more than I have had a chance to, and I almost hesitate to ask a question 
 in a case of this kind because people jump to the assumption that if you want information it is stating a judgment that I have. 
 </p>
@@ -2696,26 +2696,26 @@ a popular war? How do you account for judges like that not understanding what th
 Amendment meant? The very section that promulgated it—it was a northern product, 
 there was no getting away from that. You studied the history of this a great deal. How do you account for those interpretations?
 </p>
-<p>MR. JUSTICE REED: May I ask this question before you answer that, also the question 
+<p><b>MR. JUSTICE REED</b>: May I ask this question before you answer that, also the question 
 of the legislatures of the northern states on the Amendment, the same legislatures 
 in some instances passed legislation which recognized segregation, allowed segregation 
 amendments? </p>
-<p>MR. RANKIN: Well, first if I might answer in regard to the courts, apparently 
+<p><b>MR. RANKIN</b>: Well, first if I might answer in regard to the courts, apparently 
 there was no detailed study of the history and background of the Fourteenth Amendment in connection with some of the decisions of the cases.
 </p>
-<p>MR. JUSTICE JACKSON: You can&#39;t say that of the New York case. It is one of the—
+<p><b>MR. JUSTICE JACKSON</b>: You can&#39;t say that of the New York case. It is one of the—
 </p>
-<p>MR. RANKIN: And the Court will find that in later periods there was reliance 
+<p><b>MR. RANKIN</b>: And the Court will find that in later periods there was reliance 
 placed upon Plessy against Ferguson and some of the earlier cases where the history 
 was not reviewed in such detail; that will explain fully the decisions that the 
 court made without examining the question in detail. </p>
-<p>MR. JUSTICE JACKSON: These men had lived with the thing. 
+<p><b>MR. JUSTICE JACKSON</b>: These men had lived with the thing. 
 They didn&#39;t have to go to books. They had been through it. They didn&#39;t have to go 
 to books any more than we have to read books on what is going on today— </p>
-<p>MR. RANKIN: Well, if the Court is looking— </p>
-<p>MR. JUSTICE JACKSON: And the Grand Army of the Republic was the strongest force 
+<p><b>MR. RANKIN</b>: Well, if the Court is looking— </p>
+<p><b>MR. JUSTICE JACKSON</b>: And the Grand Army of the Republic was the strongest force 
 in that community, don&#39;t make any mistake about that. </p>
-<p>MR. RANKIN: If the Court is looking for someone who knew, who lived through the 
+<p><b>MR. RANKIN</b>: If the Court is looking for someone who knew, who lived through the 
 period, to give it aid in regard to this problem, I think it has to look no further than its own decisions; and going back to the 
 Slaughter-House Cases and the Strauder case, Justice Miller comments upon the fact 
 in the Slaughter-House Cases that it was within five years of the time when all 
@@ -2727,22 +2727,22 @@ and the history back of it. </p>
 <p>In the Strauder cases we have a later period, but we do have a period not too 
 far removed, and a thorough consideration of what the Fourteenth Amendment means 
 in all of its various reaches. </p>
-<p>MR. JUSTICE JACKSON: Then the assumption is that they didn&#39;t understand what 
+<p><b>MR. JUSTICE JACKSON</b>: Then the assumption is that they didn&#39;t understand what 
 it was about? </p>
-<p>MR. RANKIN: Well, in those days— </p>
-<p>MR. JUSTICE JACKSON: That is what it comes to, isn&#39;t it? </p>
-<p>MR. RANKIN: It was considered that education as such was a state matter, and 
+<p><b>MR. RANKIN</b>: Well, in those days— </p>
+<p><b>MR. JUSTICE JACKSON</b>: That is what it comes to, isn&#39;t it? </p>
+<p><b>MR. RANKIN</b>: It was considered that education as such was a state matter, and 
 we had the question of whether schools would be provided as public schools. We also 
 had a good portion of the problem handled by private schools. We had areas where 
 there were mixed separate schools and also where there was no restriction on attendance, and the two races did mix, but there was no provision legally 
 for such mixture. </p>
-<p>MR. JUSTICE REED: So the very men that sat on the Plessy-Ferguson case on this Court were thoroughly familiar with all the history in that case.
+<p><b>MR. JUSTICE REED</b>: So the very men that sat on the Plessy-Ferguson case on this Court were thoroughly familiar with all the history in that case.
 </p>
-<p>MR. RANKIN: Well, the Court in that case was not giving any consideration to 
+<p><b>MR. RANKIN</b>: Well, the Court in that case was not giving any consideration to 
 this particular situation. It was considering the question of segregation in public 
 utilities and railroads. </p>
-<p>MR. JUSTICE REED: That is the difference, isn&#39;t it? </p>
-<p>MR. RANKIN: There is a very material difference in the question of whether or 
+<p><b>MR. JUSTICE REED</b>: That is the difference, isn&#39;t it? </p>
+<p><b>MR. RANKIN</b>: There is a very material difference in the question of whether or 
 not segregation is to be permitted in public schools furnished by the state itself 
 and the monies of the state, although this Court has recognized that that may be 
 and is a privilege, but that the state has no power to restrict that privilege based 
@@ -2764,10 +2764,10 @@ to relief, has not been permitted to have the rights he was entitled to by the w
 of the Constitution, and this Court has never seen fit to determine that a man has 
 been denied his constitutional rights and then referred him to Congress to see what 
 type of relief he should be granted from it. </p>
-<p>MR. JUSTICE DOUGLAS: The Department of Justice goes no further than to say that, 
+<p><b>MR. JUSTICE DOUGLAS</b>: The Department of Justice goes no further than to say that, 
 first, we can decide this case, these cases, and second, we can decide them under 
 what, on the basis of history? </p>
-<p>MR. RANKIN: No, Your Honor, no. Our position is that the history helps the Court in showing that some of the conclusions that have been asserted 
+<p><b>MR. RANKIN</b>: No, Your Honor, no. Our position is that the history helps the Court in showing that some of the conclusions that have been asserted 
 from history are not borne out. The history as related by the Slaughter-House Cases 
 and the Strauder case is the history that the Department of Justice found to be 
 correct in its review of the entire matter. That by reason of that history it is 
@@ -2782,14 +2782,14 @@ just because of their color,&quot; that the Fourteenth Amendment does not permit
 because if there was anything the Fourteenth Amendment tried to do for this country, it was to make it clear that no discrimination 
 could ever be made based upon race or color; and that is the position of the Department 
 of Justice in this matter. </p>
-<p>MR. JUSTICE FRANKFURTER: That is your third conclusion, on page 186 of your brief, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is your third conclusion, on page 186 of your brief, 
 isn&#39;t it? </p>
-<p>MR. RANKIN: Yes. </p>
+<p><b>MR. RANKIN</b>: Yes. </p>
 <p>We think that the history is of great help to the Court in regard to the basic question of the rights of the parties, and this Court has the problem 
 of deciding two things: first, whether or not the constitutional rights have been 
 abridged, and we think that is clear. The history shows the pervading purpose.
 </p>
-<p>MR. JUSTICE DOUGLAS: The provision that Justice Frankfurter referred to doesn&#39;t say that, in my opinion. I am just inquiring to find out 
+<p><b>MR. JUSTICE DOUGLAS</b>: The provision that Justice Frankfurter referred to doesn&#39;t say that, in my opinion. I am just inquiring to find out 
 what it says. You start on page 185; the Government brief reads as follows: </p>
 <blockquote>
   <p>. . . the Government respectfully suggests to the Court that, if it holds school 
@@ -2802,62 +2802,62 @@ schools be decreed by this Court to be a violation of rights secured by the Cons
 be unconstitutional, that we would—and it was within the judicial competence, it 
 would be within our duty to enter an appropriate decree to that effect. But my question 
 went further than that. It was: What are the merits, whether the Department of Justice had taken a position? </p>
-<p>MR. RANKIN: Yes. I think Your Honor is correct in that regard, and the way I 
+<p><b>MR. RANKIN</b>: Yes. I think Your Honor is correct in that regard, and the way I 
 answered the question was due to the formulation of the question. But in order to 
 answer your question specifically, it is the position of the Department of Justice 
 that segregation in public schools cannot be maintained under the Fourteenth Amendment, and we adhere to the views expressed in the original brief of the Department 
 in that regard. We did limit our brief in our— </p>
-<p>MR. JUSTICE DOUGLAS: I just wanted to clear up that confusion in my mind. </p>
-<p>MR. RANKIN: Yes. </p>
-<p>MR. JUSTICE FRANKFURTER: You say this is the kind of a question where you are 
+<p><b>MR. JUSTICE DOUGLAS</b>: I just wanted to clear up that confusion in my mind. </p>
+<p><b>MR. RANKIN</b>: Yes. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: You say this is the kind of a question where you are 
 responding to the inquiry of the Court as to what the form of the decree should 
 be. The Department has already, in its prior brief and in this brief, if I can interpret the entire brief, made its position perfectly clear that it thinks segregation is outlawed by the Fourteenth Amendment, and on pages 186 and 187 you indicate 
 the kind of a decree that should follow such a declaration, is that correct? </p>
-<p>MR. RANKIN: That is correct. The problem about the questions that the Court presented 
+<p><b>MR. RANKIN</b>: That is correct. The problem about the questions that the Court presented 
 that gave us the greatest trouble was the question of relief. Because of the statements 
 of the Court, there are a number of decisions that, when a person has had his constitutional
 rights abridged, that he had a present and personal right to immediate relief.
 </p>
-<p>MR. JUSTICE REED: Are you leaving the third question? </p>
-<p>MR. RANKIN: I thought I had dealt with it, but I will be glad to try to answer 
+<p><b>MR. JUSTICE REED</b>: Are you leaving the third question? </p>
+<p><b>MR. RANKIN</b>: I thought I had dealt with it, but I will be glad to try to answer 
 any further questions. </p>
-<p>MR. JUSTICE REED: I did not quite understand what you were saying in regard to 
+<p><b>MR. JUSTICE REED</b>: I did not quite understand what you were saying in regard to 
 that. The third question is: On the assumption the answers to question 2(a) and 
 (b) do not dispose of the issue, is it within the judicial power of the Fourteenth 
 Amendment to abolish segregation? Now, that is saying that the argument over history is inconclusive, as I understand it. </p>
-<p>MR. RANKIN: That&#39;s right. </p>
-<p>MR. JUSTICE REED: Assuming that that is inconclusive, then does this Court through 
+<p><b>MR. RANKIN</b>: That&#39;s right. </p>
+<p><b>MR. JUSTICE REED</b>: Assuming that that is inconclusive, then does this Court through 
 its own power have the right—is that the belief of the Government—have the power 
 to declare segregation unconstitutional? </p>
-<p>MR. RANKIN: The position of the Government is that the Court does have the power 
+<p><b>MR. RANKIN</b>: The position of the Government is that the Court does have the power 
 and that it has the duty. </p>
-<p>MR. JUSTICE REED: Where do we get that power, and how? </p>
-<p>MR. RANKIN: By reason of the power given to it under the Constitution and by act of Congress, and the— </p>
-<p>MR. JUSTICE REED: So far as the Fourteenth Amendment is 
+<p><b>MR. JUSTICE REED</b>: Where do we get that power, and how? </p>
+<p><b>MR. RANKIN</b>: By reason of the power given to it under the Constitution and by act of Congress, and the— </p>
+<p><b>MR. JUSTICE REED</b>: So far as the Fourteenth Amendment is 
 concerned by the very words of the Fourteenth Amendment? </p>
-<p>MR. RANKIN: Yes, by reason of section 1, which says that &quot;These rights shall 
+<p><b>MR. RANKIN</b>: Yes, by reason of section 1, which says that &quot;These rights shall 
 not be denied by any state,&quot; and in the interpretation of that language the Court, 
 in applying it, has the right to find, and according to its decisions will find, 
 that the parties are entitled to this. </p>
-<p>MR. JUSTICE REED: Regardless of the view of Congress, regardless of the history of it, which you say is inconclusive, that the wording covers 
+<p><b>MR. JUSTICE REED</b>: Regardless of the view of Congress, regardless of the history of it, which you say is inconclusive, that the wording covers 
 segregation? </p>
-<p>MR. RANKIN: I think the best answer to that would be the history in regard to— </p>
-<p>MR. JUSTICE REED: Is that what we are trying to determine now? </p>
-<p>MR. RANKIN: Yes. </p>
-<p>MR. JUSTICE REED: It could very well be. That is what is striking to me: If you lay aside the history, lay aside what has happened, and the intention as expressed in Congress, then we have nothing left except 
+<p><b>MR. RANKIN</b>: I think the best answer to that would be the history in regard to— </p>
+<p><b>MR. JUSTICE REED</b>: Is that what we are trying to determine now? </p>
+<p><b>MR. RANKIN</b>: Yes. </p>
+<p><b>MR. JUSTICE REED</b>: It could very well be. That is what is striking to me: If you lay aside the history, lay aside what has happened, and the intention as expressed in Congress, then we have nothing left except 
 the bare words. </p>
-<p>MR. RANKIN: That is correct. </p>
-<p>MR. JUSTICE REED: And those you say require the invalidation of all the laws of segregation? </p>
-<p>MR. RANKIN: Yes. And the Court has in other cases seen fit to examine the question 
+<p><b>MR. RANKIN</b>: That is correct. </p>
+<p><b>MR. JUSTICE REED</b>: And those you say require the invalidation of all the laws of segregation? </p>
+<p><b>MR. RANKIN</b>: Yes. And the Court has in other cases seen fit to examine the question 
 and, not finding any specific language about, for instance, jury trials, has found 
 that the Fourteenth Amendment would not permit any abridgment of those rights by 
 reason of race or color. And this Court has said many times that it does not have 
 to find that a particular matter or subject was examined by Congress. </p>
-<p>MR. JUSTICE JACKSON: We have a statute on juries. Congress passed a statute on 
+<p><b>MR. JUSTICE JACKSON</b>: We have a statute on juries. Congress passed a statute on 
 juries. </p>
-<p>MR. RANKIN: Yes. </p>
-<p>MR. JUSTICE JACKSON: So it is clear that Congress acted on that subject. </p>
-<p>MR. RANKIN: We don&#39;t have any statute, as I recall, about petitions or freedom of speech; but this Court has not hesitated to protect the provisions 
+<p><b>MR. RANKIN</b>: Yes. </p>
+<p><b>MR. JUSTICE JACKSON</b>: So it is clear that Congress acted on that subject. </p>
+<p><b>MR. RANKIN</b>: We don&#39;t have any statute, as I recall, about petitions or freedom of speech; but this Court has not hesitated to protect the provisions 
 of the Constitution and the litigants before this Court in regard to them; and the 
 history also does show that the framers of this constitutional amendment desired 
 to avoid having it submitted to Congress, and they recognized that they might 
@@ -2870,17 +2870,17 @@ and they would lose control, and they said maybe they can get a majority, but tw
 they will never get; and so they provided the specific right in such a form that 
 it was like the provisions of the Bill of Rights. It was a declaration of a right that every citizen can look to and say, &quot;That is mine, equality before 
 the law.&quot; </p>
-<p>MR. JUSTICE REED: Which clause of the Fourteenth Amendment of the first section is that applicable to, to any person within its jurisdiction, 
+<p><b>MR. JUSTICE REED</b>: Which clause of the Fourteenth Amendment of the first section is that applicable to, to any person within its jurisdiction, 
 providing equal protection of the law? </p>
-<p>MR. RANKIN: We think that there are two clauses that are controlling. One is the equal protection of the laws and the other is the depriving of any 
+<p><b>MR. RANKIN</b>: We think that there are two clauses that are controlling. One is the equal protection of the laws and the other is the depriving of any 
 person of life, liberty or property without due process; both of them. Congress 
 deliberately put the words so that no state could deny them. </p>
-<p>MR. JUSTICE REED: And is this a denial of liberty or property, segregation?
+<p><b>MR. JUSTICE REED</b>: And is this a denial of liberty or property, segregation?
 </p>
-<p>MR. RANKIN: Well, I would think it would be a denial of part of liberty rather 
+<p><b>MR. RANKIN</b>: Well, I would think it would be a denial of part of liberty rather 
 than property. </p>
-<p>MR. JUSTICE REED: It has to be one or the other or both, doesn&#39;t it? </p>
-<p>MR. RANKIN: Yes, it could be a combination. </p>
+<p><b>MR. JUSTICE REED</b>: It has to be one or the other or both, doesn&#39;t it? </p>
+<p><b>MR. RANKIN</b>: Yes, it could be a combination. </p>
 <p>[Whereupon, at two o&#39;clock p.m., the Court recessed, to reconvene at two-thirty o&#39;clock p.m. the same day.] </p>
 <p></p>
 <p></p>
@@ -2888,11 +2888,11 @@ than property. </p>
 <p style="text-align:center"><b>ARGUMENT OF J. LEE RANKIN, ESQ., <br>
 ON BEHALF OF THE UNITED STATES, <br>
 AS AMICUS CURIAE—RESUMED </b> </p>
-<p>MR. RANKIN: May it please the Court: </p>
+<p><b>MR. RANKIN</b>: May it please the Court: </p>
 <p>I would like to deal briefly with the question of relief and try to give to the 
 Court our points on that problem. </p>
-<p>MR. CHIEF JUSTICE WARREN: Which problem is that, you say? </p>
-<p>MR. RANKIN: The question of relief. </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Which problem is that, you say? </p>
+<p><b>MR. RANKIN</b>: The question of relief. </p>
 <p>After the Court determines whether or not rights have been violated in these 
 cases, then there is the question of the relief that should be granted. We do not 
 regard lightly the question of presenting to this Court a policy of delaying at all the relief that should be granted to 
@@ -2922,32 +2922,32 @@ these cases in returning them to the lower courts for final disposition. We sugg
 a year for the presentation and consideration of a plan, not because that is an 
 exact standard, but with the idea that it might involve the principle of handling 
 the matter with deliberate speed. </p>
-<p>MR. JUSTICE JACKSON: Mr. Rankin, may I ask you a question or two about this remedy you suggest: We have no state before us, have we? We have several school districts. </p>
-<p>MR. RANKIN: Yes, that is correct. </p>
-<p>MR. JUSTICE JACKSON: I suppose that, even if we said that the state statutes 
+<p><b>MR. JUSTICE JACKSON</b>: Mr. Rankin, may I ask you a question or two about this remedy you suggest: We have no state before us, have we? We have several school districts. </p>
+<p><b>MR. RANKIN</b>: Yes, that is correct. </p>
+<p><b>MR. JUSTICE JACKSON</b>: I suppose that, even if we said that the state statutes 
 or state constitutional provisions authorizing segregation were unconstitutional, local custom would still perpetuate it in most districts of the states that really want it; I assume that would be 
 the case, would it not? </p>
-<p>MR. RANKIN: We do not assume that once this Court pronounces what the Constitution 
+<p><b>MR. RANKIN</b>: We do not assume that once this Court pronounces what the Constitution 
 means in this area that our people are not going to try to abide by it and be in 
 accord with it as rapidly as they can. </p>
-<p>MR. JUSTICE JACKSON: I do not think a court can enter a decree on that assumption, particularly in view of the fact that for 75 years the &quot;separate 
+<p><b>MR. JUSTICE JACKSON</b>: I do not think a court can enter a decree on that assumption, particularly in view of the fact that for 75 years the &quot;separate 
 but equal&quot; doctrine has prevailed in the cases that came before us within the recent 
 past, indicating it still had not been complied with in many cases. The only people 
 we can reach with the judicial decree are the people who are before us in the case.
 </p>
-<p>MR. RANKIN: That is correct. </p>
-<p>MR. JUSTICE JACKSON: So that if it is not acquiesced in and embraced, we have 
+<p><b>MR. RANKIN</b>: That is correct. </p>
+<p><b>MR. JUSTICE JACKSON</b>: So that if it is not acquiesced in and embraced, we have 
 to proceed school district by school district; is that right? </p>
-<p>MR. RANKIN: Well, this Court traditionally handles each case as it comes before 
+<p><b>MR. RANKIN</b>: Well, this Court traditionally handles each case as it comes before 
 it. </p>
-<p>MR. JUSTICE JACKSON: Yes. It means that private litigation will result in every 
+<p><b>MR. JUSTICE JACKSON</b>: Yes. It means that private litigation will result in every 
 school district in order to get effective enforcement; and that is why, I suppose, this &quot;separate but equal&quot; doctrine has never really been enforced, because many disadvantaged people cannot afford 
 these lawsuits. But the judicial remedy means just that, does it not, lawsuit after 
 lawsuit? </p>
-<p>MR. RANKIN: Well, it is probably true in every Fourteenth Amendment case that 
+<p><b>MR. RANKIN</b>: Well, it is probably true in every Fourteenth Amendment case that 
 comes before the Court, each litigant has to come and say, &quot;My rights have been 
 infringed, and I have to be provided a remedy.&quot; </p>
-<p>MR. JUSTICE JACKSON: That is right; that is the nature of judicial process; that is why in some cases it has been necessary to set up something 
+<p><b>MR. JUSTICE JACKSON</b>: That is right; that is the nature of judicial process; that is why in some cases it has been necessary to set up something 
 like the SEC to enforce individual rights in security transactions, and the Interstate Commerce Commission. </p>
 <p>But what I do not get in your statement here are any criteria that we are to 
 lay down to the lower court, in your view, to determine what shall be taken into consideration. Now, you mention the antitrust cases, 
@@ -2962,40 +2962,40 @@ something that hasn&#39;t been before&quot;? What are we going to do to avoid th
 where in some districts everybody is perhaps held in contempt almost immediately because that judge has that disposition, and in some other districts 
 it is twelve years before they get to a hearing? What criteria do you propose?
 </p>
-<p>MR. RANKIN: If I may try to answer some of the questions that Your Honor— </p>
-<p>MR. JUSTICE JACKSON: It is all one question: What are the standards? </p>
-<p>MR. RANKIN: In the first place, I do not think the country would ever be satisfied 
+<p><b>MR. RANKIN</b>: If I may try to answer some of the questions that Your Honor— </p>
+<p><b>MR. JUSTICE JACKSON</b>: It is all one question: What are the standards? </p>
+<p><b>MR. RANKIN</b>: In the first place, I do not think the country would ever be satisfied 
 with anybody but the Supreme Court saying what the Fourteenth Amendment means; and, 
 secondly— </p>
-<p>MR. JUSTICE JACKSON: We would not be, anyway. </p>
-<p>MR. RANKIN: No. </p>
+<p><b>MR. JUSTICE JACKSON</b>: We would not be, anyway. </p>
+<p><b>MR. RANKIN</b>: No. </p>
 <p>[Laughter.] </p>
-<p>MR. RANKIN: Secondly, I think that this Court does not have the duty or the function 
+<p><b>MR. RANKIN</b>: Secondly, I think that this Court does not have the duty or the function 
 to try to determine what is a wise educational policy for each one of the various school districts in the country. </p>
-<p>MR. JUSTICE JACKSON: I am with you there. </p>
-<p>MR. RANKIN: It has the duty and the obligation to say that when the Constitution 
+<p><b>MR. JUSTICE JACKSON</b>: I am with you there. </p>
+<p><b>MR. RANKIN</b>: It has the duty and the obligation to say that when the Constitution 
 says that men shall be equal before the law, and the states shall regard them as 
 equal in all of the various things that it does for them, that it cannot take one 
 group of people and say, &quot;You shall be separated, just because of your color, from 
 another group,&quot; and that is not equality. </p>
-<p>MR. JUSTICE JACKSON: That leads you squarely to Mr. Marshall&#39;s position that they have the right; children are getting older, they get out of 
+<p><b>MR. JUSTICE JACKSON</b>: That leads you squarely to Mr. Marshall&#39;s position that they have the right; children are getting older, they get out of 
 school before they get this right and therefore it should be done; and then you 
 say there are some conditions that should postpone that. Now, what is to be taken, 
 financial conditions, unwillingness of the community to vote funds? What are the conditions that the 
 lower court should consider? </p>
-<p>MR. RANKIN: I think that that problem will have to be tried, as these matters 
+<p><b>MR. RANKIN</b>: I think that that problem will have to be tried, as these matters 
 are constantly before the lower courts and the federal courts, in the determination as to whether or not the equities of the particular 
 situation are such that the defendant has established the burden that it is unreasonable 
 under those standards to require them to act more rapidly than they propose, and 
 those standards are well-established as a part of our judicial process and experience,
 and in the statements of this Court. </p>
-<p>MR. JUSTICE JACKSON: I foresee a generation of litigation if we send it back 
+<p><b>MR. JUSTICE JACKSON</b>: I foresee a generation of litigation if we send it back 
 with no standards, and each case has to come here to determine it standard by standard.
 </p>
-<p>MR. RANKIN: Well, experience has demonstrated that the common law procedure of trying to decide each case as it comes before the court has been very wise in the experience of mankind, and many of the decisions, 
+<p><b>MR. RANKIN</b>: Well, experience has demonstrated that the common law procedure of trying to decide each case as it comes before the court has been very wise in the experience of mankind, and many of the decisions, 
 problems, are handled by the lower courts in the federal system, and never reach 
 this Court for final decision. </p>
-<p>MR. JUSTICE FRANKFURTER: Isn&#39;t there a difference between the applicable standard—it 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Isn&#39;t there a difference between the applicable standard—it 
 is one thing to talk about a standard—and another thing, the means by which this standard can be satisfied? This Court might decree that as between state and state, one state is maintaining 
 a nuisance; but how a nuisance should be abated is a very different question.
 </p>
@@ -3007,62 +3007,62 @@ that should influence or in any wise influence the court; but whether you actual
 have a building in which children can go to school, and what distances there are, and things like that, like questions 
 of abating a nuisance which the local fellow has to determine is or is not an evasion of the requirements, are one of those 
 facts of life that not even a court can overcome. </p>
-<p>MR. RANKIN: That is right. </p>
-<p>MR. JUSTICE FRANKFURTER: If there is no appropriation by a legislature to build 
+<p><b>MR. RANKIN</b>: That is right. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: If there is no appropriation by a legislature to build 
 a school, the court cannot raise the taxes, the court cannot raise taxes by a court 
 decree; or if a state makes a redistribution, the court cannot say, &quot;You are indulging 
 in educational gerrymandering.&quot; </p>
-<p>MR. RANKIN: That is right. </p>
-<p>MR. JUSTICE FRANKFURTER: I am not suggesting that I have 
+<p><b>MR. RANKIN</b>: That is right. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I am not suggesting that I have 
 exhausted the difficulties, because we still have them; but I do suggest that the 
 standard is inherent in the very contention made by the Government, namely, that 
 the standard of equality is not satisfied, indeed is violated, by a separation based 
 merely on color. Assuming that is so, then I do not see how you can escape some of the things 
 which worry my Brother Jackson, and I know raise some questions. </p>
-<p>MR. JUSTICE JACKSON: They do not worry me; they will be worrying our children.
+<p><b>MR. JUSTICE JACKSON</b>: They do not worry me; they will be worrying our children.
 </p>
-<p>MR. RANKIN: May it please the Court, it is the position of the Government in 
+<p><b>MR. RANKIN</b>: May it please the Court, it is the position of the Government in 
 this case, these cases are peculiarly those that deserve the most wise judgment of the members of this bench in the interests of this 
 country. We are dealing with a problem of equality before the law for little children. We are busy in the educational process throughout the country in saying to these children that our Constitution 
 means that all men, regardless of race, color or creed, are equal. None are better, 
 none are worse, and to do— </p>
-<p>MR. JUSTICE REED: I do not want to disagree with you on that, Mr. Rankin. But 
+<p><b>MR. JUSTICE REED</b>: I do not want to disagree with you on that, Mr. Rankin. But 
 the problem we have here is: How is that to be implemented if the case should be 
 decided that segregation was unconstitutional? These parties in these several cases 
 have asked us for a decree of court that they be admitted to certain schools. Are 
 they entitled to that in case of segregation? </p>
-<p>MR. RANKIN: It is our position that, unless it can be shown by the defendants 
+<p><b>MR. RANKIN</b>: It is our position that, unless it can be shown by the defendants 
 that that cannot be accomplished at once, in accordance with the precedents of this Court of granting them their present and personal 
 rights when their constitutional rights are invaded, that they should have them.
 </p>
-<p>MR. JUSTICE REED: Isn&#39;t it necessary in every school district at the present 
+<p><b>MR. JUSTICE REED</b>: Isn&#39;t it necessary in every school district at the present 
 time that they have certain facilities, necessary facilities? </p>
-<p>MR. RANKIN: That is right. </p>
-<p>MR. JUSTICE REED: They will be admitted, I suppose, tomorrow, if they wanted to take them. </p>
-<p>MR. RANKIN: We also take the position that it is reasonable for this Court to 
+<p><b>MR. RANKIN</b>: That is right. </p>
+<p><b>MR. JUSTICE REED</b>: They will be admitted, I suppose, tomorrow, if they wanted to take them. </p>
+<p><b>MR. RANKIN</b>: We also take the position that it is reasonable for this Court to 
 remand the matter to the lower court and to take into consideration, as equity courts 
 have for generations, the problems that have to be dealt with in any inequities that can be presented; and that the lower court can properly then determine how rapidly a plan can be 
 achieved to come within the criteria established by this Court and the requirements of the Fourteenth Amendment; and that upon consideration of that, with all diligent speed, the lower court can enter a decree accordingly; and we visualize problems, but our courts have many problems, and they deal with those problems, 
 and they weigh the various problems against the rights involved to accomplish the 
 result in the best manner and as rapidly as possible. </p>
-<p>MR. JUSTICE REED: Mention one problem, mention just one. </p>
-<p>MR. RANKIN: Well, the question is whether or not children should attend tomorrow 
+<p><b>MR. JUSTICE REED</b>: Mention one problem, mention just one. </p>
+<p><b>MR. RANKIN</b>: Well, the question is whether or not children should attend tomorrow 
 or the next school term; and I do not see any great problem in that for the federal 
 district court. </p>
-<p>MR. JUSTICE JACKSON: What is the criteria, though? What considerations would 
+<p><b>MR. JUSTICE JACKSON</b>: What is the criteria, though? What considerations would 
 you say would justify postponing it until next term, if he has a present right to 
 enter? </p>
-<p>MR. RANKIN: Whether or not it was a deliberate attempt to evade the judgment 
+<p><b>MR. RANKIN</b>: Whether or not it was a deliberate attempt to evade the judgment 
 of this Court of equity, or whether or not there are sound reasons that the action 
 should be delayed because of transportation problems, whether or not the building 
 is adequate, all of those matters— </p>
-<p>MR. JUSTICE JACKSON: Suppose you have two schools; you have a school that has 
+<p><b>MR. JUSTICE JACKSON</b>: Suppose you have two schools; you have a school that has 
 been used by white pupils, a pretty good school; you have a pretty poor one that 
 has been used by colored children. What are you going to do? How are you going to 
 decide—you either have got to build a new school or you have got to move some white people 
 into the poor school, which would cause a rumpus, or you have got to center them 
 all in the good school. What would the court take into consideration? </p>
-<p>MR. RANKIN: Well, time after time the courts have said that they were not going 
+<p><b>MR. RANKIN</b>: Well, time after time the courts have said that they were not going 
 to be bothered by the worries and difficulties of the litigants about meeting the 
 requirements of the Constitution or other principles laid down by this Court; and 
 I think those are the problems that have to be dealt with by the local school districts,
@@ -3071,16 +3071,16 @@ with the order of this Court as rapidly as could be obtained, and the details of
 unless it found that the plan was unreasonable, that it was a deliberate attempt to evade the order of the Court, or that it 
 was not equitably proper. Those standards— 
 </p>
-<p>MR. JUSTICE JACKSON: This is the most definite one, what appears on page 186, 
+<p><b>MR. JUSTICE JACKSON</b>: This is the most definite one, what appears on page 186, 
 being the most definite thing that you have been able to devise? </p>
-<p>MR. RANKIN: We explored the possibility of more definite decrees, but experience seems to dictate that the more definite courts 
+<p><b>MR. RANKIN</b>: We explored the possibility of more definite decrees, but experience seems to dictate that the more definite courts 
 are, appellate courts, in trying to describe the activities 
 of lower courts, the more often they are apt to not give them the opportunity
 to solve the problem in the best manner possible. </p>
 <p>We conceived that the position and the duty of this Court is to establish the 
 broad general principles of what could be obtained, what the Fourteenth Amendment meant with regard to equality in the attendance 
 of schools: that there could not be a distinction because of race. </p>
-<p>MR. JUSTICE FRANKFURTER: Am I right in assuming, if not in inferring—I do not 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Am I right in assuming, if not in inferring—I do not 
 think I have the right to infer—but in assuming that the Government in its suggestions as to the kind of a decree is not dealing 
 with these cases on the assumption that what is involved are just these individual 
 children; but you have indicated a while ago that underlying your suggestions lies the assumption that these cases will settle a widespread problem, as indicated by both Mr. Davis 
@@ -3088,15 +3088,15 @@ and Mr. Moore, involving, whatever it is, the relationship of ten million Negroe
 in seventeen states, and that it is not a question of putting one child in a school, 
 but how to make a readjustment of an existing system throughout the states where 
 this present practice prevails; is that right? </p>
-<p>MR. RANKIN: Yes. We thought— </p>
-<p>MR. JUSTICE FRANKFURTER: Rather than looking forward to having endless lawsuits 
+<p><b>MR. RANKIN</b>: Yes. We thought— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Rather than looking forward to having endless lawsuits 
 of every individual child in the seventeen states for the indefinite future. </p>
-<p>MR. RANKIN: We felt that your question, Your Honor, reached that far and, further, 
+<p><b>MR. RANKIN</b>: We felt that your question, Your Honor, reached that far and, further, 
 for the Department of Justice of the United States to close its eyes to the effect 
 of the precedent established by this Court, if it should so decide, was not the 
 help that this Court was entitled to receive; and that we should view the extent 
 of the reach that the decision might properly obtain and try to give the help that 
 we could in regard to it. </p>
-<p>MR. CHIEF JUSTICE WARREN: Thank you, Mr. Rankin. </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Thank you, Mr. Rankin. </p>
 <p>[Oral argument was concluded at 2:50 o&#39;clock p.m.] </p>
 </div>

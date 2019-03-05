@@ -30,7 +30,7 @@ Due Process Clause of the 5th Amendment rather than the Equal Protection Clause 
 
 ## Decision
 
-- [Bolling v. Sharpe (347 U.S. 497)](https://cdn.loc.gov/service/ll/usrep/usrep347/usrep347497/usrep347497.pdf)
+- [Bolling v. Sharpe, 347 U.S. 497 (1954)](https://cdn.loc.gov/service/ll/usrep/usrep347/usrep347497/usrep347497.pdf)
 
 ## Wednesday, December 10, 1952
 
@@ -69,13 +69,13 @@ MINTON, <i>Associate Justice</i> </p>
 ESQ., <i>on behalf of Petitioners</i>. </p>
 </blockquote>
 <p style="text-align:center"><b>PROCEEDINGS </b> </p>
-<p>MR. CHIEF JUSTICE VINSON: No. 413, <i>Bolling, et al.</i>, versus <i>C. Melvin Sharpe, 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: No. 413, <i>Bolling, et al.</i>, versus <i>C. Melvin Sharpe, 
 and others</i>. </p>
 <p>All right, Mr. Hayes. </p>
 <p style="text-align:center"><b>OPENING ARGUMENT OF <br>
 GEORGE E. C. HAYES, ESQ., <br>
 ON BEHALF OF PETITIONERS </b> </p>
-<p>MR. HAYES: May it please the Court: </p>
+<p><b>MR. HAYES</b>: May it please the Court: </p>
 <p>This case is here on a petition for a writ of certiorari addressed to the United 
 States Court of Appeals for the District of Columbia Circuit. The jurisdiction of this Court to review by writ of certiorari is conferred by Title 28, United States Code, section 1254(1) and section 2101(e).
 </p>
@@ -100,8 +100,8 @@ se. There are no factual questions as to facilities; we raise no issue with resp
 to facilities. Our proposition is baldly as to whether or not the respondents have the power, the statutory or constitutional power, to deny to these pupils 
 admission to the Sousa Junior High School.
 </p>
-<p>MR. JUSTICE DOUGLAS: Where is the statute that is relied upon? </p>
-<p>MR. HAYES: If Your Honor please, the statutes that are relied upon are in our 
+<p><b>MR. JUSTICE DOUGLAS</b>: Where is the statute that is relied upon? </p>
+<p><b>MR. HAYES</b>: If Your Honor please, the statutes that are relied upon are in our 
 brief beginning at page 23. </p>
 <p>I want to call Your Honors&#39; attention to the fact, at the very outset, that these 
 statutes, contrary to the statutes to which Your Honors have listened for the last 
@@ -109,119 +109,119 @@ two days, nowhere, in and of themselves, require segregation. It, to our mind, i
 a matter solely of interpretation of these statutes as to whether or not segregation 
 is required. Our opponents take the position that these statutes do require it.
 </p>
-<p>MR. JUSTICE FRANKFURTER: Suppose we do not agree with your construction of the 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Suppose we do not agree with your construction of the 
 statute? Is that the end of the case? </p>
-<p>MR. HAYES: No, Your Honor, that is not, because, if Your Honors were to determine that our construction of the statute was incorrect, and that by so much these statutes require segregation, we would then take the 
+<p><b>MR. HAYES</b>: No, Your Honor, that is not, because, if Your Honors were to determine that our construction of the statute was incorrect, and that by so much these statutes require segregation, we would then take the 
 position that any such requirement is beyond the power of the Government to announce, 
 and we would rely upon for that decisions of this Court as making that an impossibility.
 </p>
-<p>MR. JUSTICE FRANKFURTER: So your argument is that as a matter of construction 
+<p><b>MR. JUSTICE FRANKFURTER</b>: So your argument is that as a matter of construction 
 this is not mandatory, but just exercising discretion by the educational authorities?
 </p>
-<p>MR. HAYES: That is right, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: And that in construing it, I suppose, that we should 
+<p><b>MR. HAYES</b>: That is right, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: And that in construing it, I suppose, that we should 
 take into account that possibly a serious constitutional question is involved, even 
 if on the face of it it does not yield to the construction that you argue; but you 
 argue, in the third place, that if one cannot escape the constitutional question, 
 then you assail it? </p>
-<p>MR. HAYES: That is correct, sir; that is exactly our position, Mr. Justice Frankfurter.
+<p><b>MR. HAYES</b>: That is correct, sir; that is exactly our position, Mr. Justice Frankfurter.
 </p>
-<p>MR. JUSTICE DOUGLAS: Has this statute that you refer to consistently been interpreted by the Board of Education as requiring segregation? </p>
-<p>MR. HAYES: Yes, sir, Mr. Justice Douglas, it has. </p>
+<p><b>MR. JUSTICE DOUGLAS</b>: Has this statute that you refer to consistently been interpreted by the Board of Education as requiring segregation? </p>
+<p><b>MR. HAYES</b>: Yes, sir, Mr. Justice Douglas, it has. </p>
 <p>MR. JUSTICE 
 DOUGLAS: This is an old statute? </p>
-<p>MR. HAYES: Yes, Mr. Justice Douglas; again, it has been in since 1864; originally 
+<p><b>MR. HAYES</b>: Yes, Mr. Justice Douglas; again, it has been in since 1864; originally 
 there were the Acts of 1862, but the Acts here relied on go from 1864 forward. </p>
-<p>MR. JUSTICE REED: Why do you say an &quot;interpretation requiring segregation&quot;? </p>
-<p>MR. HAYES: When I say &quot;interpreted as requiring,&quot; I mean by that, at any rate, 
+<p><b>MR. JUSTICE REED</b>: Why do you say an &quot;interpretation requiring segregation&quot;? </p>
+<p><b>MR. HAYES</b>: When I say &quot;interpreted as requiring,&quot; I mean by that, at any rate, 
 they have required it. </p>
-<p>MR. JUSTICE REED: That may be permissive. </p>
-<p>MR. HAYES: From our point of view, yes. They take the position, as I understand it, that they are required. From our point of view, it could 
+<p><b>MR. JUSTICE REED</b>: That may be permissive. </p>
+<p><b>MR. HAYES</b>: From our point of view, yes. They take the position, as I understand it, that they are required. From our point of view, it could 
 be purely permissive, and from our point of view they are, if anything at all, simply 
 permissive, because they are in no sense—we take the position—mandatory. </p>
-<p>MR. JUSTICE DOUGLAS: Do you set forth the legislative history of this statute? </p>
-<p>MR. HAYES: No, Your Honor, we do not set it forth in any— </p>
-<p>MR. JUSTICE DOUGLAS: Does it throw any light upon this? </p>
-<p>MR. HAYES: I beg your 
+<p><b>MR. JUSTICE DOUGLAS</b>: Do you set forth the legislative history of this statute? </p>
+<p><b>MR. HAYES</b>: No, Your Honor, we do not set it forth in any— </p>
+<p><b>MR. JUSTICE DOUGLAS</b>: Does it throw any light upon this? </p>
+<p><b>MR. HAYES</b>: I beg your 
 pardon? </p>
-<p>MR. JUSTICE DOUGLAS: Does it throw any light upon this? 
+<p><b>MR. JUSTICE DOUGLAS</b>: Does it throw any light upon this? 
 </p>
-<p>MR. HAYES: I am sorry.
+<p><b>MR. HAYES</b>: I am sorry.
 </p>
-<p>MR. JUSTICE DOUGLAS: Does it throw any light on this subject as to whether or not Congress intended there be segregation? </p>
-<p>MR. HAYES: From our point of view it does not. We say that because it is our 
+<p><b>MR. JUSTICE DOUGLAS</b>: Does it throw any light on this subject as to whether or not Congress intended there be segregation? </p>
+<p><b>MR. HAYES</b>: From our point of view it does not. We say that because it is our 
 belief that Congress, by the statutes, has indicated that it did not intend it because had they so intended, certainly the legislature would have been competent to have spelled it out in a manner 
 so entirely different from the statute that we face, because, as Your Honors well 
 know, we have, for instance, the South Carolina statutes saying that these children 
 shall never be educated together; we have the Virginia statute saying that they 
 shall not be in the same schools. There is no language in any of these which say 
 any such thing, and so we say that Congress has never said that. </p>
-<p>MR. CHIEF JUSTICE VINSON: In seeking appropriations, the estimates that are put 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: In seeking appropriations, the estimates that are put 
 in, are they for the different schools in the city? </p>
-<p>MR. HAYES: Yes, Your Honor. </p>
-<p>MR. CHIEF JUSTICE VINSON: Does that show that the schools are for Negroes and 
+<p><b>MR. HAYES</b>: Yes, Your Honor. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Does that show that the schools are for Negroes and 
 schools for white? </p>
-<p>MR. HAYES: It shows that, and we do not pretend that the legislature is not mindful of it. </p>
-<p>MR. CHIEF JUSTICE VINSON: And Congress throughout the period of years has been 
+<p><b>MR. HAYES</b>: It shows that, and we do not pretend that the legislature is not mindful of it. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: And Congress throughout the period of years has been 
 mindful of it? </p>
-<p>MR. HAYES: Yes, Your Honor. We take the position that being mindful or being 
+<p><b>MR. HAYES</b>: Yes, Your Honor. We take the position that being mindful or being 
 mandatory or being constitutional are entirely different propositions. </p>
-<p>MR. JUSTICE BLACK: What provisions of the Constitution do you assert this violates?
+<p><b>MR. JUSTICE BLACK</b>: What provisions of the Constitution do you assert this violates?
 </p>
-<p>MR. HAYES: It violates, we will say, a number of them. I shall outline to you 
+<p><b>MR. HAYES</b>: It violates, we will say, a number of them. I shall outline to you 
 the manner in which we think they do violate it. </p>
-<p>MR. JUSTICE BLACK: Which? </p>
-<p>MR. HAYES: It violates the due process clause of the Fifth Amendment; it violates, 
+<p><b>MR. JUSTICE BLACK</b>: Which? </p>
+<p><b>MR. HAYES</b>: It violates the due process clause of the Fifth Amendment; it violates, 
 as we conceive it, the civil rights statutes; it is in violation of the public policy 
 that this Government has just seen fit to announce in the Charter of the United 
 Nations; all of them, we think, are violated by any attempts to deny to these people,
 the petitioners, admission into the Sousa Junior High School. 
 </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Hayes, may I ask one other question? </p>
-<p>MR. HAYES: Yes, Mr. Justice Frankfurter. </p>
-<p>MR. JUSTICE FRANKFURTER: Do I understand you to say that this legislation is 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Hayes, may I ask one other question? </p>
+<p><b>MR. HAYES</b>: Yes, Mr. Justice Frankfurter. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Do I understand you to say that this legislation is 
 not mandatory, but permissive? </p>
-<p>MR. HAYES: If at all, it would be nothing but permissive. </p>
-<p>MR. JUSTICE FRANKFURTER: Wouldn&#39;t you, in your point of view, be attacking the 
+<p><b>MR. HAYES</b>: If at all, it would be nothing but permissive. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Wouldn&#39;t you, in your point of view, be attacking the 
 constitutionality of legislation even if Congress authorizes it? </p>
-<p>MR. HAYES: No, Your Honor, because from our point of view we take the position—if 
+<p><b>MR. HAYES</b>: No, Your Honor, because from our point of view we take the position—if 
 I stated it was permissive, then I am in error—we take the position that this language 
 is neither mandatory nor permissive. </p>
-<p>MR. JUSTICE FRANKFURTER: You say this does not even authorize it? </p>
-<p>MR. HAYES: That is right, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: And you say for how many years has the District been acting without authority?
+<p><b>MR. JUSTICE FRANKFURTER</b>: You say this does not even authorize it? </p>
+<p><b>MR. HAYES</b>: That is right, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: And you say for how many years has the District been acting without authority?
 </p>
-<p>MR. HAYES: We do not say &quot;without authority&quot;; we say that the fact that they 
+<p><b>MR. HAYES</b>: We do not say &quot;without authority&quot;; we say that the fact that they 
 acted with knowledge does not mean that the statute gives the authority. </p>
-<p>MR. JUSTICE FRANKFURTER: If the statute does not give the authority, then it 
+<p><b>MR. JUSTICE FRANKFURTER</b>: If the statute does not give the authority, then it 
 was ultra vires for the District to have been doing what they have been doing; is that right? </p>
-<p>MR. HAYES: No, if Your Honor please, because our position is that when the District 
+<p><b>MR. HAYES</b>: No, if Your Honor please, because our position is that when the District 
 recognizes that a situation exists, and when they appropriate for the sake of the 
 statement, to an existing situation, that that does not mean that they themselves are given the authority, nor does 
 it mean that they are holding that it is mandatory; and this Court— </p>
-<p>MR. JUSTICE FRANKFURTER: Still, somebody must have been doing something lawlessly 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Still, somebody must have been doing something lawlessly 
 for a good many years; is that it? </p>
-<p>MR. HAYES: If Your Honor says &quot;lawlessly,&quot; perhaps, I cannot go along with the 
+<p><b>MR. HAYES</b>: If Your Honor says &quot;lawlessly,&quot; perhaps, I cannot go along with the 
 idea of lawlessness; but it has been done without constitutional authority. I do 
 say that. </p>
-<p>MR. JUSTICE FRANKFURTER: Somebody has been asleep as to the illegality of what 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Somebody has been asleep as to the illegality of what 
 has been done? </p>
-<p>MR. HAYES: No, I would not say &quot;asleep as to the illegality.&quot; I say rather—
+<p><b>MR. HAYES</b>: No, I would not say &quot;asleep as to the illegality.&quot; I say rather—
 </p>
-<p>MR. JUSTICE FRANKFURTER: If I may say so, I am in deep sympathy with you in not 
+<p><b>MR. JUSTICE FRANKFURTER</b>: If I may say so, I am in deep sympathy with you in not 
 trying to invalidate legislation if it can be dealt with otherwise. But I find a 
 little difficulty in seeing how we can fail to reach the validity of this legislation 
 unless you say that what has been done by the District authorities has been done, 
 if not lawlessly, then without authority of law. How about that, would you accept 
 that? </p>
-<p>MR. HAYES: We would say, sir, if this Court were to determine that what has been 
+<p><b>MR. HAYES</b>: We would say, sir, if this Court were to determine that what has been 
 done up to this time has been done validly, that then for the first time this Court 
 has had the opportunity to say, &quot;No, this is not the proper way.&quot; We say that this 
 is the opportunity for this Court to say that any such attempt as this, based solely on the question 
 of race or color, is not within the Constitution. </p>
-<p>MR. JUSTICE FRANKFURTER: &quot;Hereafter you have no lawful authority to do this, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: &quot;Hereafter you have no lawful authority to do this, 
 but we do not care about the past.&quot; </p>
-<p>MR. HAYES: I would not want Your Honors&#39; statement to indicate that we do not care about the past, but for the first time we have had the opportunity to pass upon it, and we frown upon it. </p>
+<p><b>MR. HAYES</b>: I would not want Your Honors&#39; statement to indicate that we do not care about the past, but for the first time we have had the opportunity to pass upon it, and we frown upon it. </p>
 <p>If Your Honor please, as I have indicated, these three propositions I have outlined are as follows: We take the position, of course, that the court 
 was wrong in having denied the relief sought, and in having granted the motion to 
 dismiss. </p>
@@ -252,8 +252,8 @@ have been held by this Court to be fundamental educational rights protected from
 arbitrary Government action by the due process clause of the Fifth Amendment. That 
 language is found in Meyer v. Nebraska, Bartels v. Iowa, Pierce v. Society of Sisters.
 </p>
-<p>MR. JUSTICE BLACK: Were those cases decided under the Fifth Amendment? </p>
-<p>MR. HAYES: They were decided under the Fourteenth Amendment, if Your Honor please, but under the due process clause of the Fourteenth Amendment, 
+<p><b>MR. JUSTICE BLACK</b>: Were those cases decided under the Fifth Amendment? </p>
+<p><b>MR. HAYES</b>: They were decided under the Fourteenth Amendment, if Your Honor please, but under the due process clause of the Fourteenth Amendment, 
 and this Court, however, in the case of Farrington v. Tokushige has seen fit to 
 refer specifically to those three cases, indicating that the due process clause 
 of the Fourteenth Amendment, as referred to in those cases, is 
@@ -273,20 +273,20 @@ case so entirely, as we conceive it, gave the concept of what this Court has in 
 this due process clause, and that there was no need to inquire whether or not it 
 was in any sense any other than what this Court was embracing as being its doctrine.
 </p>
-<p>MR. JUSTICE REED: Do you take the same position that the Virginia counsel did, 
+<p><b>MR. JUSTICE REED</b>: Do you take the same position that the Virginia counsel did, 
 that this legislation was intended to be inimical to the interests of Negroes? </p>
-<p>MR. HAYES: That this legislation was—if Your Honor means by &quot;inimical,&quot; the question 
+<p><b>MR. HAYES</b>: That this legislation was—if Your Honor means by &quot;inimical,&quot; the question 
 of putting them in—simply segregating them? </p>
-<p>MR. JUSTICE REED: As I understood previous counsel, they urged that Virginia 
+<p><b>MR. JUSTICE REED</b>: As I understood previous counsel, they urged that Virginia 
 had passed these laws in order to deprive Negroes of educational opportunities. </p>
-<p>MR. HAYES: I think, if Your Honor please, that unquestionably the answer must 
+<p><b>MR. HAYES</b>: I think, if Your Honor please, that unquestionably the answer must 
 be that legislation of this character was pointed solely at the Negro, and that 
 it was done purely and for no other reason than because of the fact that it pretended 
 to keep for him this place of secondary citizenship. I think it could have no other 
 conceivable purpose. I have been concerned— </p>
-<p>MR. JUSTICE REED: You do not think that it had any relation to these prior considerations?
+<p><b>MR. JUSTICE REED</b>: You do not think that it had any relation to these prior considerations?
 </p>
-<p>MR. HAYES: I do not think it had the slightest relationship to that, if Your 
+<p><b>MR. HAYES</b>: I do not think it had the slightest relationship to that, if Your 
 Honor please; I do not think anyone can pretend in this jurisdiction that it has 
 any such purpose, because this question of the schools, if Your Honor please—this is the only governmentally constructed situation that has as its basis segregation in the District of Columbia, 
 the only one, and to us it is entirely inconceivable and inconsistent that under those circumstances for any conceivable reason, that 
@@ -299,11 +299,11 @@ conditions any such thing should be allowed. We throw down that challenge to our
 friends on the other side, to indicate why this should be done if there be any purpose 
 other than pure racism. If there be any answer other than it is purely on account 
 of color, then we ask them to indicate to us what that situation is. </p>
-<p>MR. CHIEF JUSTICE VINSON: Mr. Hayes, if it was solely due to racism, you mean 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Mr. Hayes, if it was solely due to racism, you mean 
 that after the adoption of the Amendments—of course, they would not affect this particular area—that segregation continued solely for racism and, therefore, the Fourteenth Amendment should now 
 declare that under such circumstances the resultant relationships were invalid as 
 unconstitutional? </p>
-<p>MR. HAYES: If Your Honor please, I say again—and this is said on something that 
+<p><b>MR. HAYES</b>: If Your Honor please, I say again—and this is said on something that 
 I hope is not based on obsession because of the fact that I am a Negro—I say to 
 you that I believe that any of the facts—the Fourteenth Amendment, which had in 
 it the question of the equal protection clause—the equal protection clause, as I 
@@ -314,15 +314,15 @@ when it provided for citizenship, mindful of the situation, and saying that they
 should have full citizenship, I think that they could not consistently have had 
 that in mind and passed that and, at the same time, had in mind the question of 
 that, we shall segregate in schools. </p>
-<p>MR. CHIEF JUSTICE VINSON: The point, to me, coming so close to the end of the 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: The point, to me, coming so close to the end of the 
 War Between the States, so far as the District of Columbia is concerned— </p>
-<p>MR. HAYES: Yes, sir. </p>
-<p>MR. CHIEF JUSTICE VINSON: —were the people who were there in the Congress at 
+<p><b>MR. HAYES</b>: Yes, sir. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: —were the people who were there in the Congress at 
 the time the Amendments were passed, and were there when ratified, and were there when this legislation 
 was passed, and it is hard for me to understand that if it is racism, that it was 
 not done deliberately, and the constitutional Amendments were so interpreted, and I assume that you would not go that far, would you, 
 in regard to the war Amendments? </p>
-<p>MR. HAYES: Mr. Chief Justice, I think that what was done was a matter of politics, 
+<p><b>MR. HAYES</b>: Mr. Chief Justice, I think that what was done was a matter of politics, 
 was a matter of doing the thing which, at that time, was to them the opportune thing 
 to do; it was the question of giving away this with the idea of pressing this which 
 was the stronger thing. It was the idea of putting through this act and giving
@@ -333,13 +333,13 @@ Honor indicates that this was an allowable circumstance, if they had intended th
 it should be a matter of segregation they could have written into this this, that 
 Your Honor has indicated. 
 </p>
-<p>MR. CHIEF JUSTICE VINSON: I was just merely asking your view relative to the 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: I was just merely asking your view relative to the 
 frame of mind in which the people who passed the Amendments had in this situation 
 in the District of Columbia to have separate schools at the time when the Amendments—the 
 Fourteenth Amendment was being ratified by the states—if they did this for the purpose 
 of just punishing the Negro or was it their interpretation of what the Fourteenth 
 Amendment meant? </p>
-<p>MR. HAYES: I have attempted to indicate to Your Honor that in my opinion it was 
+<p><b>MR. HAYES</b>: I have attempted to indicate to Your Honor that in my opinion it was 
 not given as punishment; it was given as an expedient. It was done as an expedient. It was done because, as a matter of fact, at that time it seemed for them, I presume, an expedient thing not to 
 press for this particular thing, but rather to allow the amendment to go through. 
 And, as I say, I think it is for that reason expressly that they put nothing into it other than what they did. </p>
@@ -356,7 +356,7 @@ clearly authorized, and we call attention to the fact that this Government of
 the United States, with express powers and implied powers only to carry those 
 express powers, has no such indication as to such clear authorization and that 
 they must, restrictions must have a reasonable relation to a proper purpose.</p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Hayes, before you sit down I would like to put to 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Hayes, before you sit down I would like to put to 
 you a question because of the candor with which I know you will answer it. I do 
 not suppose that anybody could deny that this legislation, all these enactments, concern drawing a line, drawing a color line. I suppose that is what this is all about. 
 As to motives, the devil himself, as some one wise man said some time ago, &quot;knoweth 
@@ -367,72 +367,72 @@ do not want to have trouble tomorrow or the day after tomorrow, but one has to l
 ahead these days. I wonder whether you would say, right off from your analysis of the Constitution, that 
 marriage laws relating to race are ipso facto, on the face of things, unconstitutional?
 </p>
-<p>MR. HAYES: I would say to Your Honor, in answer to the first question as to whether 
+<p><b>MR. HAYES</b>: I would say to Your Honor, in answer to the first question as to whether 
 or not in my opinion— </p>
-<p>MR. JUSTICE FRANKFURTER: Because I need hardly tell you there is a good deal 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Because I need hardly tell you there is a good deal 
 of legislation in this country drawing the line in connection with it. </p>
-<p>MR. HAYES: Oh, yes, I am aware of that, sir. But I think that the problem is 
+<p><b>MR. HAYES</b>: Oh, yes, I am aware of that, sir. But I think that the problem is 
 an entirely different one. With respect to the first part of your query as to whether 
 or not I think automatically it becomes— </p>
-<p>MR. JUSTICE FRANKFURTER: I mean that that denial to the states and to the Congress 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I mean that that denial to the states and to the Congress 
 of the United States and to the District is written in by plain implication of the 
 Fourteenth and the Fifth Amendment; that is what I want to know. </p>
-<p>MR. HAYES: I want to say my answer to that is, if Your Honor please: I think 
+<p><b>MR. HAYES</b>: I want to say my answer to that is, if Your Honor please: I think 
 that the very purpose of this Court is the very answer to that question. I think that this Court is called upon with that question now 
 properly posed to make the answer. </p>
-<p>MR. JUSTICE FRANKFURTER: You mean as to schools? </p>
-<p>MR. HAYES: Yes, sir; that is what your first question, I thought, was addressed 
+<p><b>MR. JUSTICE FRANKFURTER</b>: You mean as to schools? </p>
+<p><b>MR. HAYES</b>: Yes, sir; that is what your first question, I thought, was addressed 
 to. </p>
-<p>MR. JUSTICE FRANKFURTER: Yes. </p>
-<p>MR. HAYES: I answered that by saying as to schools this 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Yes. </p>
+<p><b>MR. HAYES</b>: I answered that by saying as to schools this 
 Court is called upon to say that this sort of thing cannot happen because it is 
 a violation of the due process clause of the Fifth Amendment, and the due process 
 clause of the Fifth Amendment does not lend itself to any substantial proposition. 
 You can have substantial equality but you cannot have substantial liberty. </p>
-<p>MR. JUSTICE FRANKFURTER: Is that because no legislation which draws any line 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Is that because no legislation which draws any line 
 with reference to race is automatically outlawed by the Fifth and the Fourteenth Amendment? So that takes you over—I am violating 
 my own rule against posing hypothetical cases and, particularly, one that is as 
 full of implications as the laws relating to the marriage laws involved, but I think 
 one has to test these things to see what is the principle which you are invoking
 before this Court. Is it all-embracing, is it the all-embracing principle, that 
 no legislation which is based on differentiation of race is valid? </p>
-<p>MR. HAYES: I am invoking rather the principle which I think this Court invoked 
+<p><b>MR. HAYES</b>: I am invoking rather the principle which I think this Court invoked 
 in the Hirabayashi case when this Court said that legislation based upon race is 
 immediately suspect; that is what I am invoking. </p>
-<p>MR. JUSTICE FRANKFURTER: Well, that is a very candid and logical answer. That 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Well, that is a very candid and logical answer. That 
 simply means that it can be valid. It is not an absolute prohibition; that good 
 cause must be shown, or great cause must be shown for the rule. </p>
-<p>MR. HAYES: That is right, sir; and it is for that reason that I move to the next 
+<p><b>MR. HAYES</b>: That is right, sir; and it is for that reason that I move to the next 
 position of public necessity that was pointed out in those cases, and of the fact 
 that even with the public necessity you must meet the three requirements. </p>
-<p>MR. JUSTICE BLACK: Why do you have to equate the Fourteenth Amendment and the Fifth Amendment provisions on that score? </p>
-<p>MR. HAYES: I am not attempting to equate them, if Your Honor please. I am attempting 
+<p><b>MR. JUSTICE BLACK</b>: Why do you have to equate the Fourteenth Amendment and the Fifth Amendment provisions on that score? </p>
+<p><b>MR. HAYES</b>: I am not attempting to equate them, if Your Honor please. I am attempting 
 rather to say that as far as the Fifth Amendment is concerned there is no possibility 
 of equating. You cannot make a quantum with respect to one&#39;s liberty. </p>
-<p>MR. JUSTICE BLACK: You have just referred to the fact that we said that under 
+<p><b>MR. JUSTICE BLACK</b>: You have just referred to the fact that we said that under 
 the Fifth Amendment such laws are suspect, which means that we look at them very 
 carefully to see if they can discriminate on account of race, or distinguish on 
 account of race. Do you think the same rule applies with reference to the Fourteenth
 Amendment, which was passed under entirely different circumstances and for entirely 
 different purposes? 
 </p>
-<p>MR. HAYES: Yes. I think the Fourteenth Amendment has within it inherent those 
+<p><b>MR. HAYES</b>: Yes. I think the Fourteenth Amendment has within it inherent those 
 possibilities. They have inherent within it the due process clause as well as the 
 equal protection clause. </p>
-<p>MR. JUSTICE FRANKFURTER: But you have got to stand on the due process clause?
+<p><b>MR. JUSTICE FRANKFURTER</b>: But you have got to stand on the due process clause?
 </p>
-<p>MR. HAYES: Yes, I am standing on due process. </p>
-<p>MR. JUSTICE FRANKFURTER: I take it that was what Justice Black had in mind, and 
+<p><b>MR. HAYES</b>: Yes, I am standing on due process. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I take it that was what Justice Black had in mind, and 
 which was behind Justice Black&#39;s question. </p>
-<p>MR. HAYES: If that be the answer, that is what I was attempting to say. I was 
+<p><b>MR. HAYES</b>: If that be the answer, that is what I was attempting to say. I was 
 not attempting to equate them. We are relying on due process. </p>
-<p>MR. JUSTICE DOUGLAS: Your closest case in point so far as decisions go is Farrington?
+<p><b>MR. JUSTICE DOUGLAS</b>: Your closest case in point so far as decisions go is Farrington?
 </p>
-<p>MR. HAYES: Yes, Your Honor; and in fact, the Farrington case embraced the Meyer, 
+<p><b>MR. HAYES</b>: Yes, Your Honor; and in fact, the Farrington case embraced the Meyer, 
 Bartels, and the Pierce case. And that brings them into this. </p>
 <p style="text-align:center"><b>ARGUMENT OF JAMES M. NABRIT, JR., ESQ., <br>
 ON BEHALF OF THE PETITIONERS </b> </p>
-<p>MR. NABRIT: If the Court please: </p>
+<p><b>MR. NABRIT</b>: If the Court please: </p>
 <p>It would appear necessary that petitioners make clear the position which they take in the midst of these five cases. It is our position, simply 
 stated, that the respondents, the public school board officials in the District 
 of Columbia, do not possess either the constitutional power or the statutory power 
@@ -465,28 +465,28 @@ any power to impose racial distinctions in dealing with its citizens. </p>
 <p>Now, we know that this is a government of limited powers, and we know that it 
 has express powers, and one of these is to deal with the District of Columbia.
 </p>
-<p>MR. JUSTICE MINTON: Is it your thought that the adoption of the Fourteenth Amendment&#39;s 
+<p><b>MR. JUSTICE MINTON</b>: Is it your thought that the adoption of the Fourteenth Amendment&#39;s 
 due process clause changed the meaning of the Fifth Amendment&#39;s due process clause? </p>
-<p>MR. NABRIT: No, Mr. Justice. I thought, with the abolition of slavery and the 
+<p><b>MR. NABRIT</b>: No, Mr. Justice. I thought, with the abolition of slavery and the 
 federal citizenship conferred in the first section of the Fourteenth Amendment, 
 that those two things robbed any dubious power which the Federal Government may have had prior to that time to deal with 
 people solely on the basis of race or color. </p>
-<p>MR. JUSTICE BLACK: Do you think that there is any doubt that they had complete 
+<p><b>MR. JUSTICE BLACK</b>: Do you think that there is any doubt that they had complete 
 power before that? </p>
-<p>MR. NABRIT: No, not in the light of Dred Scott v. Sandford, I do not doubt it, 
+<p><b>MR. NABRIT</b>: No, not in the light of Dred Scott v. Sandford, I do not doubt it, 
 because in the light of Dred Scott v. Sandford, they simply said that no matter 
 whether you went to Missouri or where you went, you are a Negro and you cannot be 
 a citizen, and as soon as you cannot be a citizen, you cannot come within the purview 
 of these things about which we are talking. </p>
-<p>MR. JUSTICE FRANKFURTER: We are talking about the District. </p>
-<p>MR. NABRIT: That is right. </p>
-<p>MR. JUSTICE FRANKFURTER: We are talking about the District. </p>
-<p>MR. NABRIT: Yes, I am saying the District, because if you could not be a federal 
+<p><b>MR. JUSTICE FRANKFURTER</b>: We are talking about the District. </p>
+<p><b>MR. NABRIT</b>: That is right. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: We are talking about the District. </p>
+<p><b>MR. NABRIT</b>: Yes, I am saying the District, because if you could not be a federal 
 citizen—and that is what Dred Scott held—it was for jurisdictional purposes, but 
 everybody in the country took it as a finding of a lack of status as far as Negroes 
 were concerned in 1856. </p>
-<p>MR. JUSTICE FRANKFURTER: You could not be a citizen merely by going to Missouri. </p>
-<p>MR. NABRIT: Yes, I agree with you, Mr. Justice Frankfurter, if you say that the 
+<p><b>MR. JUSTICE FRANKFURTER</b>: You could not be a citizen merely by going to Missouri. </p>
+<p><b>MR. NABRIT</b>: Yes, I agree with you, Mr. Justice Frankfurter, if you say that the 
 Court went further than it should have or had to. But I would say this, that after 
 the citizenship that was conferred under the first clause of the Fourteenth Amendment, 
 and after the abolition of slavery, that we would seriously question, as this Court 
@@ -503,20 +503,20 @@ it is not good. Even if it is authorized, there must be a relationship between t
 purpose and the statute, and when we find that, as the Court said, we are not satisfied. 
 There must also be some purpose which it is within the competency of this Government 
 to effect. </p>
-<p>MR. JUSTICE REED: Who is to determine that? </p>
-<p>MR. NABRIT: This Court. </p>
-<p>MR. JUSTICE REED: And Congress cannot determine it for itself? </p>
-<p>MR. NABRIT: No, sir. Never in the history of this country have the individual 
+<p><b>MR. JUSTICE REED</b>: Who is to determine that? </p>
+<p><b>MR. NABRIT</b>: This Court. </p>
+<p><b>MR. JUSTICE REED</b>: And Congress cannot determine it for itself? </p>
+<p><b>MR. NABRIT</b>: No, sir. Never in the history of this country have the individual 
 liberties of the citizen been entrusted in the hands of the legislators. The very 
 founders of the Government refused to agree to the Constitution itself until they could be satisfied, 
 Jefferson and others, that they had a Bill of Rights, so as to protect individual liberties.
 </p>
-<p>MR. JUSTICE REED: That would mean that we would examine the basis, the foundation, 
+<p><b>MR. JUSTICE REED</b>: That would mean that we would examine the basis, the foundation, 
 of congressional enactments relating to race, such as the Japanese cases? </p>
-<p>MR. NABRIT: It is my position— </p>
-<p>MR. JUSTICE REED: Who is going to make that determination as to whether it is 
+<p><b>MR. NABRIT</b>: It is my position— </p>
+<p><b>MR. JUSTICE REED</b>: Who is going to make that determination as to whether it is 
 necessary or proper or desirable? This Court? </p>
-<p>MR. NABRIT: I would say this, that this Court, faced with a piece of legislation 
+<p><b>MR. NABRIT</b>: I would say this, that this Court, faced with a piece of legislation 
 by Congress which did that, or an act under a piece of legislation which did that, 
 would in my opinion test it by the same type of test that it used in Korematsu and 
 in Hirabayashi and in Endo. This Court tested it by that same method and found that 
@@ -534,17 +534,17 @@ not use race. I do not know of one right now, except the war powers. But that ce
 that can be produced that would be accepted in our country in 1952 that would justify 
 Congress making it such a racial basis for the exclusion of a student from a high 
 school in the District of Columbia. </p>
-<p>MR. JUSTICE REED: Would that same test apply on it for Congress under the commerce clause? </p>
-<p>MR. NABRIT: Under the commerce clause? </p>
-<p>MR. JUSTICE REED: I just happened to choose that. </p>
-<p>MR. NABRIT: I was trying to think of one under the commerce clause. </p>
-<p>MR. JUSTICE REED: Or any of the other clauses? </p>
-<p>MR. NABRIT: Or any of the other clauses, where the only purpose was the 
+<p><b>MR. JUSTICE REED</b>: Would that same test apply on it for Congress under the commerce clause? </p>
+<p><b>MR. NABRIT</b>: Under the commerce clause? </p>
+<p><b>MR. JUSTICE REED</b>: I just happened to choose that. </p>
+<p><b>MR. NABRIT</b>: I was trying to think of one under the commerce clause. </p>
+<p><b>MR. JUSTICE REED</b>: Or any of the other clauses? </p>
+<p><b>MR. NABRIT</b>: Or any of the other clauses, where the only purpose was the 
 purpose of making a racial distinction, in affording it. For instance, if they 
 say that no Negro can ride the trains, the answer is yes; it would apply 
 precisely. </p>
-<p>MR. JUSTICE REED: Could we examine the reasonableness of that decision? </p>
-<p>MR. NABRIT: Because you have said already, Mr. Justice Reed, or this Court, that 
+<p><b>MR. JUSTICE REED</b>: Could we examine the reasonableness of that decision? </p>
+<p><b>MR. NABRIT</b>: Because you have said already, Mr. Justice Reed, or this Court, that 
 as soon as we see that, we suspect it. It is not to say that it is unconstitutional, 
 but it is to say that it is suspect, and you have said in so many cases, race is 
 invidious; race is irrelevant. So when we get over in the Federal Government where there is nobody to deal with, 
@@ -588,18 +588,18 @@ Thursday, December 11, 1952. </p>
   MILTON D. KORMAN, ESQ., <i>on behalf of Respondents</i>. </p>
 </blockquote>
 <p style="text-align:center"><b>PROCEEDINGS </b></p>
-<p>MR. CHIEF JUSTICE VINSON: No. 413, <i>Bolling et al.</i>, versus <i>C. Melvin 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: No. 413, <i>Bolling et al.</i>, versus <i>C. Melvin 
 Sharpe et al</i>. </p>
 <p>Mr. Nabrit? </p>
 <p style="text-align:center"><b>ARGUMENT OF JAMES M. NABRIT, JR., ESQ., <br>
 ON BEHALF OF PETITIONERS—RESUMED </b></p>
-<p>MR. NABRIT: If it please the Court: </p>
+<p><b>MR. NABRIT</b>: If it please the Court: </p>
 <p>At the close of the Court&#39;s session yesterday, we were attempting to outline 
 the basic arguments of the petitioners. Unfortunately, we only have ten minutes 
 left, and probably we can barely outline it. We would like to address ourselves, 
 however, to some of the questions which seem to be of concern to the Court in these 
 cases. </p>
-<p>MR. JUSTICE FRANKFURTER: Before you sit down, I hope you will include in your 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Before you sit down, I hope you will include in your 
 answers the answer to this question, whether during the life of this statute there 
 came before Congress periodically or at such periods as there did come, if any, 
 the requirement to make appropriations for the enforcement of this statute; or, 
@@ -608,7 +608,7 @@ the things that the District authorities did, and whether during that period the
 was any legislative effort to stop these appropriations or to prohibit the authorities 
 from doing what I understand you and your colleagues said was not authorized by 
 this legislation. </p>
-<p>MR. NABRIT: I would be very happy to address myself to that at this moment, Mr. 
+<p><b>MR. NABRIT</b>: I would be very happy to address myself to that at this moment, Mr. 
 Justice Frankfurter. </p>
 <p>In looking at these statutes enacted by Congress governing the schools in the 
 District, I should like to preface my answer by saying that the first statute passed 
@@ -623,14 +623,14 @@ special report of the Commissioner of Education of the Public Schools of the Dis
 of Columbia in 1871, and in that volume at page 49 and page 267 they give the history 
 of the public schools of the District of Columbia up to that time, and they also 
 discuss the Act of 1864, to which I shall advert in just a moment. </p>
-<p>MR. JUSTICE FRANKFURTER: Is that report referred to in your brief or in the amici 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Is that report referred to in your brief or in the amici 
 brief? </p>
-<p>MR. NABRIT: No. </p>
-<p>MR. JUSTICE FRANKFURTER: What is the name of that report? </p>
-<p>MR. NABRIT: The District of Columbia, the Barnard Special Report, Commissioner 
+<p><b>MR. NABRIT</b>: No. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: What is the name of that report? </p>
+<p><b>MR. NABRIT</b>: The District of Columbia, the Barnard Special Report, Commissioner 
 of Education of the Public Schools in the District of Columbia, 1871. </p>
-<p>MR. JUSTICE FRANKFURTER: Thank you. </p>
-<p>MR. NABRIT: That is the Government Printing Office. It does not give any other 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Thank you. </p>
+<p><b>MR. NABRIT</b>: That is the Government Printing Office. It does not give any other 
 name. It is the House of Representatives. </p>
 <p>Now, if the Court please, in 1862 this was the situation in the District of Columbia. 
 There were a number of private schools for whites and a number of private schools 
@@ -672,17 +672,17 @@ was a congressional construction of these acts that they permitted separate scho
 and I think that it was the issue which underlies the question of Mr. Justice Frankfurter, 
 as to re-enactment of these statutes and as to the appropriations in respect to 
 these acts over all these years. </p>
-<p>MR. CHIEF JUSTICE VINSON: Do I understand that the schools were separate prior 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Do I understand that the schools were separate prior 
 to the adoption of the Fourteenth Amendment? </p>
-<p>MR. NABRIT: Yes, sir, they were. </p>
-<p>MR. CHIEF JUSTICE VINSON: And at one time they taxed property separately; they 
+<p><b>MR. NABRIT</b>: Yes, sir, they were. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: And at one time they taxed property separately; they 
 taxed colored property for the maintenance of colored schools and white property 
 for the maintenance of white schools? </p>
-<p>MR. NABRIT: No. They did not say anything about the white schools. I should say 
+<p><b>MR. NABRIT</b>: No. They did not say anything about the white schools. I should say 
 this— </p>
-<p>MR. CHIEF JUSTICE VINSON: The white schools were run out of general revenues?
+<p><b>MR. CHIEF JUSTICE VINSON</b>: The white schools were run out of general revenues?
 </p>
-<p>MR. NABRIT: I presume so. I did not find that phrase. But I would answer your 
+<p><b>MR. NABRIT</b>: I presume so. I did not find that phrase. But I would answer your 
 question by saying that they must have been supported out of the general revenue, 
 since this special provision was made. </p>
 <p>But I should say this, Mr. Chief Justice. At this time, public education—this 
@@ -692,9 +692,9 @@ were attached to it, so that the least we can say is that at the beginning of pu
 education, Congress indicated before the Fourteenth Amendment, by its support to 
 these separate schools, that at that time separate schools existed and could exist.
 </p>
-<p>MR. CHIEF JUSTICE VINSON: And in the District of Columbia, they did exist at 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: And in the District of Columbia, they did exist at 
 the time of the passage and the adoption of the Fourteenth Amendment? </p>
-<p>MR. NABRIT: That is correct. </p>
+<p><b>MR. NABRIT</b>: That is correct. </p>
 <p>Now, it is the petitioners&#39; position at that stage in the history of these statutes 
 that prior to the adoption of the Fourteenth Amendment, respondents can get no support 
 from whatever Congress did with these schools; that they must gain their support 
@@ -703,32 +703,32 @@ It is therefore the position of petitioners that the action of Congress in 1874,
 in re-enacting these statutes, is not persuasive on this Court as to whether or 
 not either, one, Congress intended compulsory or authorized segregation in the District, 
 or, two, whether that is constitutional. </p>
-<p>MR. CHIEF JUSTICE VINSON: Mr. Nabrit, in view of the questions from the bench, 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Mr. Nabrit, in view of the questions from the bench, 
 you may have five minutes more time, and the District may have similar time. </p>
-<p>MR. NABRIT: Thank you. </p>
+<p><b>MR. NABRIT</b>: Thank you. </p>
 <p>As to the re-enactment of these statutes— </p>
-<p>MR. JUSTICE FRANKFURTER: I did not mean to divert you on any legal implication. 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I did not mean to divert you on any legal implication. 
 I wanted to know what the facts were, whether from year to year appropriations had 
 to be made, or whether the question was raised, and whether it got through without 
 anybody&#39;s thinking about it. </p>
-<p>MR. NABRIT: Yes, sir. I wanted to address myself to that, but I thought you were 
+<p><b>MR. NABRIT</b>: Yes, sir. I wanted to address myself to that, but I thought you were 
 entitled to have some background for it. Now, specifically addressing myself—
 </p>
-<p>MR. JUSTICE REED: Apparently there is no reference in the 
+<p><b>MR. JUSTICE REED</b>: Apparently there is no reference in the 
 briefs to legislative history. Was there a discussion of the desirability or the 
 undesirability of segregation in 1874? </p>
-<p>MR. NABRIT: I do not know about 1874, but there was a discussion of it prior 
+<p><b>MR. NABRIT</b>: I do not know about 1874, but there was a discussion of it prior 
 to 1874, in 1866 and 1864. </p>
-<p>MR. JUSTICE REED: Was it directed toward the adoption of segregation? </p>
-<p>MR. NABRIT: That is right. And there was considerable difference of opinion among 
+<p><b>MR. JUSTICE REED</b>: Was it directed toward the adoption of segregation? </p>
+<p><b>MR. NABRIT</b>: That is right. And there was considerable difference of opinion among 
 the Negroes in the District of Columbia on that question. </p>
-<p>MR. JUSTICE REED: I meant on the floor of the Congress. </p>
-<p>MR. NABRIT: It was not printed, you see. So we just have to suppose that there 
+<p><b>MR. JUSTICE REED</b>: I meant on the floor of the Congress. </p>
+<p><b>MR. NABRIT</b>: It was not printed, you see. So we just have to suppose that there 
 was some discussion. I would say for the purpose of the Court, it might be assumed 
 that there was discussion. But it was not printed. </p>
-<p>MR. CHIEF JUSTICE VINSON: But that was prior to the adoption of the Amendment?
+<p><b>MR. CHIEF JUSTICE VINSON</b>: But that was prior to the adoption of the Amendment?
 </p>
-<p>MR. NABRIT: That is right. And we take the position that on this particular problem, 
+<p><b>MR. NABRIT</b>: That is right. And we take the position that on this particular problem, 
 it is not persuasive to the Court. </p>
 <p>Now, as to your specific question, Mr. Justice Frankfurter, there have been acts 
 in support of these schools, appropriation acts, directed to the support of this 
@@ -741,17 +741,17 @@ each of those two instances, Congress provided the money and the position, and a
 to the first assistant, white and colored, they wrote that into the legislation, 
 in addition to the appropriation. </p>
 <p>Now, as to whether or not— </p>
-<p>MR. JUSTICE FRANKFURTER: You say they wrote into the legislation that there was 
+<p><b>MR. JUSTICE FRANKFURTER</b>: You say they wrote into the legislation that there was 
 to be an assistant, or deputy, superintendent for colored schools and for white 
 schools? </p>
-<p>MR. NABRIT: Precisely, in language as clear as that. </p>
-<p>MR. JUSTICE FRANKFURTER: That goes back to when, you say? 1906? </p>
-<p>MR. NABRIT: Nineteen hundred six was when they enlarged the powers. This last 
+<p><b>MR. NABRIT</b>: Precisely, in language as clear as that. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: That goes back to when, you say? 1906? </p>
+<p><b>MR. NABRIT</b>: Nineteen hundred six was when they enlarged the powers. This last 
 act, I believe, was in 1947. I mean, this first assistant. </p>
 <p>MR. JUSTICE FRANKFURTER; But it was in 1906 that there was explicit legislative 
 recognition that there is such a person as a superintendent for colored schools?
 </p>
-<p>MR. NABRIT: This is correct. </p>
+<p><b>MR. NABRIT</b>: This is correct. </p>
 <p>There is no question so far as petitioners are concerned that that type of language 
 has persisted in the District of Columbia. And as to the enforcement, there is no 
 question about it; the Congress has done it. </p>
@@ -762,40 +762,40 @@ think that the differences are unreasonable, in view of the language. It is peti
 position that it does not authorize it. But if it does authorize it, to the extent 
 that it is implemented by these respondents, it is unconstitutional action on the 
 part of respondents. </p>
-<p>MR. JUSTICE FRANKFURTER: You would say that providing whatever it is, x thousand 
+<p><b>MR. JUSTICE FRANKFURTER</b>: You would say that providing whatever it is, x thousand 
 dollars salary, for an assistant superintendent for Negro schools is merely a provision 
 that if there are to be Negro schools, and if there is to be the assistant superintendent, 
 he is to get 6,000 dollars; is that it? </p>
-<p>MR. NABRIT: I would go further than that. I would say, since there is in the 
+<p><b>MR. NABRIT</b>: I would go further than that. I would say, since there is in the 
 District of Columbia a system of Negro schools—I mean, I would recognize the fact 
 that they are. </p>
-<p>MR. JUSTICE FRANKFURTER: If you say that— </p>
-<p>MR. NABRIT: I would. </p>
-<p>MR. JUSTICE FRANKFURTER: I wonder if you are not saying, since there is, and 
+<p><b>MR. JUSTICE FRANKFURTER</b>: If you say that— </p>
+<p><b>MR. NABRIT</b>: I would. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I wonder if you are not saying, since there is, and 
 Congress appropriated for it, that it recognized the right, at least, under the 
 statute, that there should be Negro schools? </p>
-<p>MR. NABRIT: Now, the reason I do not say that, Mr. Justice Frankfurter, is that 
+<p><b>MR. NABRIT</b>: Now, the reason I do not say that, Mr. Justice Frankfurter, is that 
 the language of this Court in Ex parte Endo, when they said that wherever there 
 is implied legislation which restricts the individual, or curtails, to use the Court&#39;s 
 language, the individual rights of citizens, that curtailment has to be explicitly 
 stated in clear and unmistakable language. </p>
-<p>MR. JUSTICE FRANKFURTER: It does not touch on a constitutional point. </p>
-<p>MR. NABRIT: Yes. </p>
-<p>MR. JUSTICE FRANKFURTER: I wonder if it does not carry permissiveness into a 
+<p><b>MR. JUSTICE FRANKFURTER</b>: It does not touch on a constitutional point. </p>
+<p><b>MR. NABRIT</b>: Yes. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I wonder if it does not carry permissiveness into a 
 clear recognition by Congress here in the situation where they provide money, because 
 the alternative is that Congress was providing money for something that they did 
 not authorize. </p>
-<p>MR. NABRIT: I would say yes, and I would say that that would not change petitioners&#39; 
+<p><b>MR. NABRIT</b>: I would say yes, and I would say that that would not change petitioners&#39; 
 position. In other words, I agree to that. </p>
 <p>Now, with this other principle, I want to say— </p>
-<p>MR. JUSTICE FRANKFURTER: In the course of these years, was there opposition to 
+<p><b>MR. JUSTICE FRANKFURTER</b>: In the course of these years, was there opposition to 
 this legislation, or were there voices raised to the Congress, or objections to 
 this? Did the issue ever come to discussion or to challenge? </p>
-<p>MR. NABRIT: As to whether or not this system should be changed? </p>
-<p>MR. JUSTICE FRANKFURTER: Yes. MR. NABRIT: In the early years— </p>
-<p>MR. JUSTICE FRANKFURTER: I am not meaning to draw any inference. I just want 
+<p><b>MR. NABRIT</b>: As to whether or not this system should be changed? </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Yes. MR. NABRIT: In the early years— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I am not meaning to draw any inference. I just want 
 the facts. </p>
-<p>MR. NABRIT: In the early years, there was such discussion. And I am also of the 
+<p><b>MR. NABRIT</b>: In the early years, there was such discussion. And I am also of the 
 opinion that we may, on an exhaustive study of that question, find such language 
 even later; and it is petitioners&#39; position that, as this Court has said, Congress 
 does not enact statutes, or does not deal with things in many instances, for political 
@@ -832,10 +832,10 @@ be another danger that these acts would be unconstitutional. </p>
 this to the Court: You would not reach the constitutionality, because if you find 
 these statutes do not require it and do not authorize it, then the action of respondents 
 is unlawful, and you may direct admission into Sousa Junior High School. </p>
-<p>MR. CHIEF JUSTICE VINSON: Mr. Korman? </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Mr. Korman? </p>
 <p style="text-align:center"><b>ARGUMENT OF MILTON D. KORMAN, ESQ., <br>
 ON BEHALF OF THE RESPONDENTS </b></p>
-<p>MR. KORMAN: May it please the Court: </p>
+<p><b>MR. KORMAN</b>: May it please the Court: </p>
 <p>Questions have been asked by the Court concerning the history </p>
 <p>of this legislation, and my distinguished opponent, Mr. Hayes, has thrown the 
 gauntlet down to us to show the real reason for this type of legislation setting 
@@ -879,7 +879,7 @@ of white schools in the county. Now, in that same paragraph 35, they said this:
 of the District of Columbia, and not to stamp them, as Mr. Hayes says, with a badge 
 of inferiority, this pure racism that he speaks of. They were trying to elevate 
 these people. </p>
-<p>It goes on to say that: </p>
+<p><b>It goes on to say that</b>: </p>
 <blockquote>
   <p>Said trustees shall account for those funds. </p>
 </blockquote>
@@ -983,8 +983,8 @@ a Subcommittee of the Congress. </p>
 and I should ask the Court to please bear with me while I read some of them to you, 
 because it seems to me that they go to the very heart of this question. We find 
 Professor William A. Joiner— </p>
-<p>MR. JUSTICE REED: What page is that? </p>
-<p>MR. KORMAN: This is on page 25 of respondents&#39; brief. </p>
+<p><b>MR. JUSTICE REED</b>: What page is that? </p>
+<p><b>MR. KORMAN</b>: This is on page 25 of respondents&#39; brief. </p>
 <p>We find Professor William A. Joiner, of Howard University addressing the Committee, 
 and I did not include the letter which he had presented to the Committee, but I 
 should like to read you one sentence from the letter which he handed to the Committee 
@@ -996,7 +996,7 @@ page 199 of the hearings on that bill: </p>
   these schools are most carefully guarded by those who are most deeply interested 
   in the children who attend them. </p>
 </blockquote>
-<p>Then he said this: </p>
+<p><b>Then he said this</b>: </p>
 <blockquote>
   <p>I think, Mr. Chairman, that that embodies the main sentiment as expressed by 
   that organization, an organization composed of those whose minds have led them 
@@ -1059,7 +1059,7 @@ the Congress: </p>
 </blockquote>
 <p>Not the colored schools, but the schools, classes, and employees under which 
 colored children are taught. </p>
-<p>The next section of that Act is: </p>
+<p><b>The next section of that Act is</b>: </p>
 <blockquote>
   <p>Boards of examiners for carrying out the provisions of the statutes with reference 
   to the examination of teachers shall consist of the superintendent of schools 
@@ -1069,7 +1069,7 @@ colored children are taught. </p>
   of the supervisory or teaching staff of the colored schools for the colored schools.
   </p>
 </blockquote>
-<p>Then in the next section: </p>
+<p><b>Then in the next section</b>: </p>
 <blockquote>
   <p>There shall be appointed a board of education on the recommendation of the 
   superintendent of schools, a chief examiner for the board of examiners for white 
@@ -1192,10 +1192,10 @@ changes have occurred? What policy announcements have there been by the Congress
 Mr. Justice Burton asked counsel if it were not true that these other cases could 
 be disposed of as being proper law at the time they were decided, but not now in 
 the light of changed conditions. </p>
-<p>I ask the rhetorical question: What changed conditions? What has happened in 
+<p><b>I ask the rhetorical question</b>: What changed conditions? What has happened in 
 fourteen years that we did not know in 1938 when the Gaines case was decided? What 
 is there now? </p>
-<p>I submit to the Court that the answer is: Nothing is new. The Constitution is 
+<p><b>I submit to the Court that the answer is</b>: Nothing is new. The Constitution is 
 the same today as it was in 1938 at the time all these other decisions came from 
 the lips of this Court. </p>
 <p>It has been said here by our distinguished opponents—indeed, it has been said 
@@ -1260,29 +1260,29 @@ is recognized that there is a people that needs protection. You and I can go out
 and buy a bottle of liquor if we want. The Indian cannot, nowhere in the United 
 States. And he is a citizen. Why? Because it is recognized that it is not good for 
 him, and he needs protection. That assumes, I know, that it is good for us. </p>
-<p>MR. JUSTICE JACKSON: I live very close to the Seneca Reservation in New York, 
+<p><b>MR. JUSTICE JACKSON</b>: I live very close to the Seneca Reservation in New York, 
 and I would just as soon deal with a drunken Indian as with a drunken white man, 
 myself, under modern conditions. It may have been different in the days of scalping 
 knives. </p>
-<p>MR. KORMAN: Possibly so. </p>
-<p>MR. JUSTICE DOUGLAS: Referring to the educational system in the part of the country 
+<p><b>MR. KORMAN</b>: Possibly so. </p>
+<p><b>MR. JUSTICE DOUGLAS</b>: Referring to the educational system in the part of the country 
 I come from, the Indians are not barred from the public schools, but the schools 
 on the reservations are open only to Indians, and the white man would be barred 
 from those schools. </p>
-<p>MR. KORMAN: That is quite a different problem, Mr. Justice. In anticipation of 
+<p><b>MR. KORMAN</b>: That is quite a different problem, Mr. Justice. In anticipation of 
 that question, I talked to representatives of the Indian Bureau, and I was told 
 by them that there are some 230 schools on reservations which are restricted to 
 Indians, and there are 19 schools off reservations which are restricted to Indians.
 </p>
-<p>MR. JUSTICE DOUGLAS: That merely keeps the white man out. The public school systems 
+<p><b>MR. JUSTICE DOUGLAS</b>: That merely keeps the white man out. The public school systems 
 of the West, at least, are open to Indians. </p>
-<p>MR. KORMAN: That may be. But that is a state proposition, left up to the states 
+<p><b>MR. KORMAN</b>: That may be. But that is a state proposition, left up to the states 
 in the individual case. If the states want to let them in and think that it will 
 not cause a problem, that is up to the legislature of the states. </p>
-<p>MR. JUSTICE DOUGLAS: Some of these cases are state questions. </p>
-<p>MR. KORMAN: Perhaps. </p>
-<p>MR. JUSTICE DOUGLAS: Not yours? </p>
-<p>MR. KORMAN: Perhaps. </p>
+<p><b>MR. JUSTICE DOUGLAS</b>: Some of these cases are state questions. </p>
+<p><b>MR. KORMAN</b>: Perhaps. </p>
+<p><b>MR. JUSTICE DOUGLAS</b>: Not yours? </p>
+<p><b>MR. KORMAN</b>: Perhaps. </p>
 <p>I call your attention to the fact that there is separation, I have learned, by 
 sexes in many of the large cities of the country, not in all the schools, apparently, 
 but in some, perhaps for some special reason. I find from the National Education 
@@ -1410,12 +1410,12 @@ have been raised by my adversaries, and I have answered, I believe, most of the
 questions which the Court has put to other counsel. It seems to me, as I have listened 
 to seven hours of argument that preceded my addressing the Court, this is the situation, 
 that my friends say, &quot;This is the time for a change.&quot; </p>
-<p>MR. JUSTICE BLACK: Does that have anything to do with the law in the case?
+<p><b>MR. JUSTICE BLACK</b>: Does that have anything to do with the law in the case?
 </p>
-<p>MR. KORMAN: I do not think so, sir. </p>
-<p>MR. JUSTICE BLACK: You do not. </p>
-<p>MR. JUSTICE JACKSON: There has been a promise of change. </p>
-<p>MR. KORMAN: Sir, if there has been a promise of change and it comes through the 
+<p><b>MR. KORMAN</b>: I do not think so, sir. </p>
+<p><b>MR. JUSTICE BLACK</b>: You do not. </p>
+<p><b>MR. JUSTICE JACKSON</b>: There has been a promise of change. </p>
+<p><b>MR. KORMAN</b>: Sir, if there has been a promise of change and it comes through the 
 proper channels, I certainly, and the respondents certainly, have no objection to 
 it, if it comes in the proper way by the judgment of the Congress that should pass 
 upon it. We do not object to it. But if they decide that there is no need further 
@@ -1494,7 +1494,7 @@ be left where it now is. </p>
 <p style="text-align:center"><b>REBUTTAL ARGUMENT OF <br>
 JAMES M. NABRIT, JR., ESQ., <br>
 ON BEHALF OF APPELLANTS </b></p>
-<p>MR. NABRIT: If the Court please: </p>
+<p><b>MR. NABRIT</b>: If the Court please: </p>
 <p>I would like to adopt for the petitioners the complete argument of Mr. Korman 
 with respect to changed conditions and to urge the Court that those changed conditions 
 that he suggests are the very conditions that we have been saying to the Court should 
@@ -1569,14 +1569,14 @@ O. DOUGLAS, <i>Associate Justice</i> <br>
   MILTON D. KORMAN, ESQ., <i>on behalf of the Respondents</i>. </p>
 </blockquote>
 <p style="text-align:center"><b>PROCEEDINGS </b> </p>
-<p>MR. CHIEF JUSTICE WARREN: Number 8, <i>Spottswood Thomas Bolling, et al</i>., versus 
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Number 8, <i>Spottswood Thomas Bolling, et al</i>., versus 
 <i>C. Melvin Sharpe, et al</i>. </p>
-<p>THE CLERK: Counsel are present. </p>
-<p>MR. CHIEF JUSTICE WARREN: Mr. Hayes? </p>
+<p><b>THE CLERK</b>: Counsel are present. </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Mr. Hayes? </p>
 <p style="text-align:center"><b>OPENING ARGUMENT OF <br>
 GEORGE E. C. HAYES, ESQ., <br>
 ON BEHALF OF PETITIONERS </b> </p>
-<p>MR. HAYES: May it please the Court: </p>
+<p><b>MR. HAYES</b>: May it please the Court: </p>
 <p>The case of Bolling v. Sharpe comes before this Court by reason of certiorari 
 granted to the United States Court of Appeals for the District of Columbia, and 
 the problems that we face are problems which are different from those which the 
@@ -1631,9 +1631,9 @@ they are unconstitutional if, as a matter of fact, they use as their yardstick n
 other than race or color. </p>
 <p>It may, therefore, become important for us to look and see what was the atmosphere 
 under which the statutes came upon the books. </p>
-<p>MR. JUSTICE REED: Whether they are permissive or mandatory, would they not be 
+<p><b>MR. JUSTICE REED</b>: Whether they are permissive or mandatory, would they not be 
 unconstitutional in either case? </p>
-<p>MR. HAYES: If they are permissive and voluntary, the answer would be that they 
+<p><b>MR. HAYES</b>: If they are permissive and voluntary, the answer would be that they 
 would be unconstitutional; but that the constitutional question—and this is where we think the issue is, as we
 presently see it—that until the issue is raised, that then, 
 of course, the question of constitutionality has not been passed upon; and it is 
@@ -1642,11 +1642,11 @@ Court is concerned and as far as the statutes are concerned, is for the first ti
 answer your question, Justice Reed, the answer is, yes, we think it is unconstitutional in both instances, unconstitutional
 whether permissive and voluntary, unconstitutional whether by actual compulsion, 
 and we think it is the present time when this Court should so determine. </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Hayes, may I ask you what you mean by permissive? 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Hayes, may I ask you what you mean by permissive? 
 I am not talking about any legal implications, but am I wrong in thinking that Congress 
 year after year passed appropriations for the maintenance of a system of segregation?
 </p>
-<p>MR. HAYES: Your Honor is entirely correct with respect to the fact that they 
+<p><b>MR. HAYES</b>: Your Honor is entirely correct with respect to the fact that they 
 have passed appropriations. It is our position that the fact that Congress, having 
 found a certain situation and having acted upon it, and having supplementarily issued or allowed appropriations, that 
 that inaction on the part of Congress or that acceptance of a situation on the part 
@@ -1723,13 +1723,13 @@ of the early promulgation of the statute, there was the interpretation by the su
 office of the Government that it permitted of going into the white school and that 
 that being the allowed circumstance, it was accepted as such, and no issue was raised further 
 with respect to that. </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Hayes, in those days roughly what was the 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Hayes, in those days roughly what was the 
 proportion of the colored population to the total population, just as a rough 
 guess? Don&#39;t bother if you— </p>
-<p>MR. HAYES: I would not like to give Your Honor an inaccurate statement. We 
+<p><b>MR. HAYES</b>: I would not like to give Your Honor an inaccurate statement. We 
 did have calculations, and I think that somewhere— </p>
-<p>MR. JUSTICE FRANKFURTER: Don&#39;t bother. </p>
-<p>MR. HAYES: Mr. Nabrit suggests there were in the District some 11,000 Negroes 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Don&#39;t bother. </p>
+<p><b>MR. HAYES</b>: Mr. Nabrit suggests there were in the District some 11,000 Negroes 
 at that time. I do not know the proportion that there were—I mean, that held to 
 the total population—but there were some 11,000 Negroes, and at that time, as I 
 have indicated to Your Honors, the education which they were getting was that of 
@@ -1788,7 +1788,7 @@ should come under the heading of liberty because this Court in Meyer v. Nebraska
 said it was a violation of the liberty of the person, which is the language of the Fifth Amendment upon which we stand, to deny to him their constitutional right, and that constitutional 
 right was then an educational right, just as has been indicated to Your Honors before.
 </p>
-<p>May I say this final word: that we believe that this Court has already determined 
+<p><b>May I say this final word</b>: that we believe that this Court has already determined 
 this proposition in the Farrington v. Tokushige case where, with respect to the 
 Hawaiian legislation, this Court struck down legislation saying that it was a 
 violation of the person&#39;s constitutional right, talking about education, and referred to Meyer v. Nebraska, 
@@ -1800,10 +1800,10 @@ it, that this Court, as we conceive it, cannot say to a waiting world that we sa
 person is dark. That, this Court has said, is suspect; that, you have said, is void; 
 that, you have said, should not be sanctioned; that, we believe, must be your decision.
 </p>
-<p>MR. CHIEF JUSTICE WARREN: Mr. Nabrit. </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Mr. Nabrit. </p>
 <p style="text-align:center"><b>ARGUMENT OF JAMES M. NABRIT, JR., ESQ., <br>
 ON BEHALF OF THE PETITIONERS </b> </p>
-<p>MR. NABRIT: If the Court please, we have for the past two days been engaged continuously 
+<p><b>MR. NABRIT</b>: If the Court please, we have for the past two days been engaged continuously 
 in a concentrated and thorough attempt to recapture the spirit and mood of a significant period in the history of our 
 country. The danger in this, as I see it, is that in a worthy attempt to project 
 ourselves into the remote scenes of the 1860&#39;s and &#39;70&#39;s, that we shall lack either 
@@ -1849,19 +1849,19 @@ this Court, the executive orders of the President of the United States, the poli
 of the District of Columbia Commissioners, and in that framework they violate federal 
 policy, and that inconsistent position should lead this Court to deny these respondents 
 the power which they claim to possess. </p>
-<p>MR. JUSTICE FRANKFURTER: Have the Commissioners of the District expressed themselves 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Have the Commissioners of the District expressed themselves 
 on this subject? </p>
-<p>MR. NABRIT: They have expressed themselves, Mr. Justice Frankfurter, as not having 
+<p><b>MR. NABRIT</b>: They have expressed themselves, Mr. Justice Frankfurter, as not having 
 authority over the school board and, therefore, it is one of the phases of the 
 life in the District of Columbia to which the thrust of their power does not reach.
 </p>
-<p>MR. JUSTICE FRANKFURTER: Is the legislation of Congress clear that the school 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Is the legislation of Congress clear that the school 
 board is autonomous as to this question? </p>
-<p>MR. NABRIT: I would like to—I will answer that, but I would like to answer 
+<p><b>MR. NABRIT</b>: I would like to—I will answer that, but I would like to answer 
 it, instead of a yes or no— </p>
-<p>MR. JUSTICE FRANKFURTER: You do whatever you want to; you give that before you 
+<p><b>MR. JUSTICE FRANKFURTER</b>: You do whatever you want to; you give that before you 
 get through. </p>
-<p>MR. NABRIT: Yes. I want to answer that right now, Mr. Justice Frankfurter, because 
+<p><b>MR. NABRIT</b>: Yes. I want to answer that right now, Mr. Justice Frankfurter, because 
 it is a peculiar situation. </p>
 <p>In the District of Columbia the school board is not 
 appointed by the President of the United States; it is not appointed by the District Commissioners; 
@@ -1869,38 +1869,38 @@ it is not chosen by the voteless inhabitants of the District of Columbia. Rather
 it is appointed by the District Court of the District of Columbia, and, as we understand 
 the situation in the District of Columbia, we do not know to whom they are responsible. </p>
 <p>[Laughter] </p>
-<p>MR. NABRIT: That is the status of the school board in the District of Columbia.
+<p><b>MR. NABRIT</b>: That is the status of the school board in the District of Columbia.
 </p>
-<p>MR. JUSTICE FRANKFURTER: They are appointed for a term? </p>
-<p>MR. NABRIT: Of three years, and then they are either not reappointed or they 
+<p><b>MR. JUSTICE FRANKFURTER</b>: They are appointed for a term? </p>
+<p><b>MR. NABRIT</b>: Of three years, and then they are either not reappointed or they 
 are reappointed by the District Court of the District of Columbia. </p>
-<p>MR. JUSTICE FRANKFURTER: By the District Court, you mean the whole bench of judges 
+<p><b>MR. JUSTICE FRANKFURTER</b>: By the District Court, you mean the whole bench of judges 
 of the District, the United States District Court? </p>
-<p>MR. NABRIT: Yes, sir; the United States District Court, a very unusual situation.
+<p><b>MR. NABRIT</b>: Yes, sir; the United States District Court, a very unusual situation.
 </p>
 <p>[Laughter] </p>
-<p>MR. JUSTICE FRANKFURTER: Does the district court define their powers or does 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Does the district court define their powers or does 
 the Code of the District of Columbia define their powers? </p>
-<p>MR. NABRIT: Their Code—you know, under our setup in that area we have some administrative 
+<p><b>MR. NABRIT</b>: Their Code—you know, under our setup in that area we have some administrative 
 functions in the courts. </p>
-<p>MR. JUSTICE FRANKFURTER: Does the Code say anything about the problem, the segregation 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Does the Code say anything about the problem, the segregation 
 of the grade schools? </p>
-<p>MR. NABRIT: No, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: This is just a pronouncement by the board? </p>
-<p>MR. NABRIT: That is right. </p>
-<p>MR. JUSTICE FRANKFURTER: And the board has pronounced— </p>
-<p>MR. NABRIT: The board has pronounced it, although I notice—and this is something 
+<p><b>MR. NABRIT</b>: No, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: This is just a pronouncement by the board? </p>
+<p><b>MR. NABRIT</b>: That is right. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: And the board has pronounced— </p>
+<p><b>MR. NABRIT</b>: The board has pronounced it, although I notice—and this is something 
 that the Court may reprimand me for, but I noted—in the brief and in the papers 
 that counsel for the respondent is not certain as to what the positions of all his 
 respondents are on this matter. </p>
 <p>[Laughter] </p>
-<p>MR. NABRIT: They are sued individually, you know. </p>
-<p>MR. JUSTICE FRANKFURTER: All you have to do is read his brief; I do not know 
+<p><b>MR. NABRIT</b>: They are sued individually, you know. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: All you have to do is read his brief; I do not know 
 for whom he speaks. </p>
-<p>MR. NABRIT: I neither, Mr. Justice Frankfurter. </p>
-<p>MR. JUSTICE FRANKFURTER: I take it he will tell us before we get through. </p>
+<p><b>MR. NABRIT</b>: I neither, Mr. Justice Frankfurter. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I take it he will tell us before we get through. </p>
 <p>[Laughter] </p>
-<p>MR. NABRIT: Yes, I hope so. </p>
+<p><b>MR. NABRIT</b>: Yes, I hope so. </p>
 <p>So, in this posture of the cases, we would like to say to the Court—and I say 
 this primarily, if this is proper, so that the Chief Justice might have this, because 
 I said it to the Court—but I want it understood that our position is that, number 
@@ -1947,41 +1947,41 @@ to deal with the question of whether they are not in the nature of bills of atta
 So we suggest as our line of argument that the Court say there is no authority 
 for the actions complained of. It is out of line with the District of Columbia. 
 Now, the counsel for the respondents— </p>
-<p>MR. JUSTICE REED: On whose part was the complaint? </p>
-<p>MR. NABRIT: On the part of the pupils and the parents. Here are two systems of 
+<p><b>MR. JUSTICE REED</b>: On whose part was the complaint? </p>
+<p><b>MR. NABRIT</b>: On the part of the pupils and the parents. Here are two systems of 
 education. Everybody has been going in there without any complaint for sixty or 
 seventy years. </p>
-<p>MR. JUSTICE FRANKFURTER: Who has kept these children out of this? </p>
-<p>MR. NABRIT: Before this? </p>
-<p>MR. JUSTICE FRANKFURTER: Now. </p>
-<p>MR. NABRIT: Oh, these respondents, these people—we have got them named. We have 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Who has kept these children out of this? </p>
+<p><b>MR. NABRIT</b>: Before this? </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Now. </p>
+<p><b>MR. NABRIT</b>: Oh, these respondents, these people—we have got them named. We have 
 them all pointed out. </p>
-<p>MR. JUSTICE FRANKFURTER: Do they make a justification for that? </p>
-<p>MR. NABRIT: They do. </p>
-<p>MR. JUSTICE FRANKFURTER: What do they say? </p>
-<p>MR. NABRIT: On the grounds of race and color and that &quot;we are compelled by these 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Do they make a justification for that? </p>
+<p><b>MR. NABRIT</b>: They do. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: What do they say? </p>
+<p><b>MR. NABRIT</b>: On the grounds of race and color and that &quot;we are compelled by these 
 statutes.&quot; </p>
-<p>MR. JUSTICE FRANKFURTER: Do they say the statutes compel <a name="page13">
+<p><b>MR. JUSTICE FRANKFURTER</b>: Do they say the statutes compel <a name="page13">
 </a>them or the statutes authorize them? </p>
-<p>MR. NABRIT: Oh, no. They say they are compelled to do it. They don&#39;t make any 
+<p><b>MR. NABRIT</b>: Oh, no. They say they are compelled to do it. They don&#39;t make any 
 technical differential between authority and compel. They say they are compelled 
 by these statutes to do it. </p>
-<p>MR. JUSTICE FRANKFURTER: Suppose we say the statutes do not compel them and then 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Suppose we say the statutes do not compel them and then 
 they say it is a matter of discretion: &quot;We ourselves think it is a matter of discretion&quot;?
 </p>
-<p>MR. NABRIT: Well, all we would do— </p>
-<p>MR. JUSTICE FRANKFURTER: Start a new suit? </p>
-<p>MR. NABRIT: I was just going to tell you, we would file suit that day. </p>
+<p><b>MR. NABRIT</b>: Well, all we would do— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Start a new suit? </p>
+<p><b>MR. NABRIT</b>: I was just going to tell you, we would file suit that day. </p>
 <p>[Laughter.) </p>
-<p>MR. JUSTICE FRANKFURTER: I am merely suggesting it is multiplying litigation 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I am merely suggesting it is multiplying litigation 
 instead of subtracting it. </p>
-<p>MR. NABRIT: Well, at least we are going along with the line that the Court follows 
+<p><b>MR. NABRIT</b>: Well, at least we are going along with the line that the Court follows 
 of restraining itself from engaging in decisions of constitutional questions when 
 it may resolve the problem by a step less than that. </p>
 <p>One other thing the Court may do—and I like the Schneiderman case because the Court did something there that I think we don&#39;t use enough.
 </p>
-<p>MR. JUSTICE FRANKFURTER: You are for opinions that you like, is that it? </p>
-<p>MR. NABRIT: That&#39;s right. I like this Schneiderman opinion, Mr. Frankfurter, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: You are for opinions that you like, is that it? </p>
+<p><b>MR. NABRIT</b>: That&#39;s right. I like this Schneiderman opinion, Mr. Frankfurter, 
 because in that case the Congress passed, you will recall, an attachment statute 
 in 1906. An alien was naturalized in 1927. About 1919, I believe, Mr. Justice Holmes 
 enunciated that clear and present danger doctrine. In &#39;42, when this Court passed 
@@ -1990,9 +1990,9 @@ Mr. Holmes first discovered—I won&#39;t say discovered—announced, twenty yea
 <p>Now, why can&#39;t the Court in this case read into these statutes an intent on the 
 part of Congress not to segregate Negroes by compulsion following the Schneiderman 
 case? </p>
-<p>MR. JUSTICE FRANKFURTER: That is easier than worrying about what they debated 
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is easier than worrying about what they debated 
 in &#39;66. </p>
-<p>MR. NABRIT: Precisely. That is precisely our position. </p>
+<p><b>MR. NABRIT</b>: Precisely. That is precisely our position. </p>
 <p>Now, I would say, I want to say—I want to save ten minutes, but I want to say 
 one thing on this matter of due process, because it seems to me the Court has had a remarkable record in dealing with the exertions of power by the Federal Government on its citizens where it was based solely on race or color; and if I am correct, the only instances where the Court has permitted that to be done since Dred Scott 
 has been in the case where war power was involved, and implied power essential to 
@@ -2003,10 +2003,10 @@ case rests, and that it is in line with the policy of this Court, and we would t
 urge the Court under these considerations to hold that the respondents are without power in the District of Columbia to 
 discriminate or segregate the Negro pupils solely on the basis of race and color.
 </p>
-<p>MR. CHIEF JUSTICE WARREN: Mr. Korman? </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Mr. Korman? </p>
 <p style="text-align:center"><b>ARGUMENT OF MILTON D. KORMAN, ESQ., <br>
 ON BEHALF OF THE RESPONDENTS </b> </p>
-<p>MR. KORMAN: Mr. Chief Justice, may it please the Court: </p>
+<p><b>MR. KORMAN</b>: Mr. Chief Justice, may it please the Court: </p>
 <p>At the outset I should like to state the position of the Corporation Counsel of the District of Columbia in this matter. I stand before the Court 
 to defend acts of Congress which we believe to be lawful and constitutional. I stand 
 before the Court to assert that this is not the forum wherein laws should be attacked 
@@ -2026,15 +2026,15 @@ not lain dormant for 75 or 80 years, but they have been repeatedly legislated up
 by the Congress of the United States. It appears that they are still valid, that 
 it is still the policy of the Congress to maintain separate school for the races 
 in the District of Columbia, and we are here to defend the validity and the constitutionality of those laws. </p>
-<p>MR. JUSTICE FRANKFURTER: When you say &quot;we,&quot; am I to infer that means the Board 
+<p><b>MR. JUSTICE FRANKFURTER</b>: When you say &quot;we,&quot; am I to infer that means the Board 
 of Education of the District of Columbia? </p>
-<p>MR. KORMAN: You are, sir. I speak for the Board of Education of the District, 
+<p><b>MR. KORMAN</b>: You are, sir. I speak for the Board of Education of the District, 
 although I admit very frankly in our brief that I have not talked to the individual 
 members so far as their position on the sociological issue is concerned. </p>
-<p>MR. JUSTICE FRANKFURTER: I do not know what that means. </p>
-<p>MR. KORMAN: It means this—</p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I do not know what that means. </p>
+<p><b>MR. KORMAN</b>: It means this—</p>
 <p>[Laughter] </p>
-<p>MR. KORMAN: From public statements that I have seen in the press, it appears 
+<p><b>MR. KORMAN</b>: From public statements that I have seen in the press, it appears 
 that at least some members of the Board of Education are strongly convinced at this 
 time that the time has come for a change in the system; that the time has come to 
 integrate the schools of the District. Indeed, I concede that there is a strong 
@@ -2049,37 +2049,37 @@ By the same token, statements have come to me from a number of sources that ther
 are others who think otherwise; indeed, I am constrained to believe that some members 
 of the Board of Education believe otherwise. But as we see it, that issue, which 
 is the one I called the sociological issue, is not the one involved here. </p>
-<p>MR. JUSTICE FRANKFURTER: But my question is to elicit, not by anything other 
+<p><b>MR. JUSTICE FRANKFURTER</b>: But my question is to elicit, not by anything other 
 than what I read in your brief, that this is a strictly legal position which you 
 take as an officer of the Court. I supposed the Corporation Counsel must represent 
 appellants or respondents before the Court. </p>
-<p>MR. KORMAN: That is right. </p>
-<p>MR. JUSTICE FRANKFURTER: And it becomes relevant to know whether the Board of 
+<p><b>MR. KORMAN</b>: That is right. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: And it becomes relevant to know whether the Board of 
 Education of the District maintains and has instructed the Corporation Counsel to 
 maintain the position which you are putting and which you now plead before the Court.
 </p>
-<p>MR. KORMAN: Yes, Your Honor. </p>
-<p>MR. JUSTICE FRANKFURTER: Then you do speak for the Board of Education? </p>
-<p>MR. KORMAN: Yes, I do. </p>
-<p>MR. JUSTICE FRANKFURTER: All right. </p>
-<p>MR. KORMAN: I speak for the Board of Education in that the position we take here 
+<p><b>MR. KORMAN</b>: Yes, Your Honor. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Then you do speak for the Board of Education? </p>
+<p><b>MR. KORMAN</b>: Yes, I do. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: All right. </p>
+<p><b>MR. KORMAN</b>: I speak for the Board of Education in that the position we take here 
 today is the same position that we took here one year ago, and slightly more than 
 a year ago, when we filed the original brief, and we have not changed our position 
 on that. We advised the Board of Education what the law is; they do not tell us 
 what the law is. </p>
-<p>MR. JUSTICE FRANKFURTER: No, but clients do not have to pursue their rights under 
+<p><b>MR. JUSTICE FRANKFURTER</b>: No, but clients do not have to pursue their rights under 
 the law. They may take a position in advance of the law, and lawyers do not maintain 
 positions. They merely maintain their clients&#39; positions. </p>
-<p>MR. KORMAN: May I say this to the Court: that the Board, while it is sued individually, 
+<p><b>MR. KORMAN</b>: May I say this to the Court: that the Board, while it is sued individually, 
 is sued individually because it is not an entity, as a matter of law. The petition 
 in this case asserts, and it is a fact, that the Board of Education itself denied 
 these petitioners entry into the school that they claim they have a right to enter 
 into. </p>
-<p>MR. JUSTICE FRANKFURTER: I do not want to take needless time. It is a simple 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I do not want to take needless time. It is a simple 
 question. You tell the Court that you are here, as other counsel are here, under 
 instructions appropriately given by their clients, and, of course, I will accept 
 your word for it. </p>
-<p>MR. KORMAN: At the time this case was first filed, the Corporation Counsel was 
+<p><b>MR. KORMAN</b>: At the time this case was first filed, the Corporation Counsel was 
 asked by the Board of Education to defend it in the district court. We were definitely 
 apprised of the position of the Board of Education. </p>
 <p>The case arose in 1950. Since that time there has been a decided change in the 
@@ -2090,7 +2090,7 @@ in the district court. </p>
 and which denied to these petitioners the entry into the school which they claimed 
 the right to enter—has changed its position in that regard. We have seen some statements in the press by some members of the Board which have been alluded to in the briefs.
 </p>
-<p>MR. JUSTICE FRANKFURTER: I do not care about that, and the reason why I think it is important is—I hope this is 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I do not care about that, and the reason why I think it is important is—I hope this is 
 not improper for stating my own individual responsibility—to the extent that problems 
 of this sort are settled outside a court of law, to that extent, in my opinion, 
 the public good is advanced; and if, by any chance, settlements are made in various 
@@ -2101,25 +2101,25 @@ Therefore, I raised the question. </p>
 State of South Carolina is represented by its counsel, and the State of Virginia—and 
 the Commonwealth of Virginia—by its, of course, I repeat, I will accept your word.
 </p>
-<p>MR. KORMAN: We are here on that condition; yes, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: 
+<p><b>MR. KORMAN</b>: We are here on that condition; yes, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: 
 Very well. </p>
-<p>MR. JUSTICE BLACK: May I ask you, I do not quite understand you, because you 
+<p><b>MR. JUSTICE BLACK</b>: May I ask you, I do not quite understand you, because you 
 stated—when was it, a year ago, that you said the Board had changed? Will you 
 let us know in the morning, when the case comes up, whether the Board wants you 
 to defend this case? It has raised some question in my mind, and I think— </p>
-<p>MR. KORMAN: I do not know whether I can or not, Your Honor. The Board is composed 
+<p><b>MR. KORMAN</b>: I do not know whether I can or not, Your Honor. The Board is composed 
 of nine members; I do not know whether it is possible to get them together tonight 
 or not. </p>
-<p>MR. JUSTICE JACKSON: Isn&#39;t the Corporation Counsel by law made the representative 
+<p><b>MR. JUSTICE JACKSON</b>: Isn&#39;t the Corporation Counsel by law made the representative 
 of the Board? </p>
-<p>MR. KORMAN: That is right. </p>
-<p>MR. JUSTICE JACKSON: I think that settles it. You may have a row with your own 
+<p><b>MR. KORMAN</b>: That is right. </p>
+<p><b>MR. JUSTICE JACKSON</b>: I think that settles it. You may have a row with your own 
 clients, but that is not our business. </p>
-<p>MR. JUSTICE FRANKFURTER: The question is, your client at the moment— </p>
-<p>MR. KORMAN: My client is the Board of Education. </p>
-<p>MR. JUSTICE FRANKFURTER: Yes, but they do not know it, apparently. </p>
-<p>MR. KORMAN: There are a number of other respondents, who are the superintendents 
+<p><b>MR. JUSTICE FRANKFURTER</b>: The question is, your client at the moment— </p>
+<p><b>MR. KORMAN</b>: My client is the Board of Education. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Yes, but they do not know it, apparently. </p>
+<p><b>MR. KORMAN</b>: There are a number of other respondents, who are the superintendents 
 of schools, and some of the assistant superintendents of schools, and the principal 
 of the Sousa Junior High School. They are all respondents in this case, and we were 
 directed to represent them by order of the Commissioners of the District of Columbia 
@@ -2293,7 +2293,7 @@ District of Columbia statutes—
 MR. KORMAN: I expect to cover that further. 
 </P><P>
 MR. JUSTICE DOUGLAS: —are mandatory or are merely permissive? 
-</P><P>MR. KORMAN: Yes, I expect to reach that. We have suggested in our brief on reargument that the Court should not enter any detailed decree. On page 17 of our brief we merely make this suggestion: 
+</P><p><b>MR. KORMAN</b>: Yes, I expect to reach that. We have suggested in our brief on reargument that the Court should not enter any detailed decree. On page 17 of our brief we merely make this suggestion: 
 </P>
 <blockquote>
   <P>The soundest suggestion that counsel for respondents can make to the Court concerning the nature of the order, if unconstitutionality is to be decreed, is that the Court make recognition of the necessity for proper preparation and changes which appear essential to perfect integration in all jurisdictions and remand the cases to the respective district courts with instructions for such courts to prepare decrees directing the immediate commencement of such preparation, with periodic investigation by the district courts of the progress thereof, with direction that, in accordance with the principle of unconstitutionality of separation of races in schools, integration be commenced at the earliest possible date, and that complete integration be accomplished by a definite future date, not to exceed in any jurisdiction more than a maximum period of time. 
@@ -2340,7 +2340,7 @@ MR. KORMAN: Sir?
 MR. JUSTICE JACKSON: All of your authorities are in this litigation, aren't they? 
 </P><P>
 MR. KORMAN: Yes. 
-</P><P>MR. JUSTICE BLACK: The petition asks that we enter a declaratory judgment, or the Court does, stating that the defendants are without right, construing the statutes having to do with public education as requiring the Board to do this. That is the first question that has to be decided, isn't it? 
+</P><p><b>MR. JUSTICE BLACK</b>: The petition asks that we enter a declaratory judgment, or the Court does, stating that the defendants are without right, construing the statutes having to do with public education as requiring the Board to do this. That is the first question that has to be decided, isn't it? 
 </P><P>
 MR. KORMAN: I think so, sir. 
 </P><P>

@@ -52,13 +52,13 @@ of Respondents</i>. <br>
   JACK GREENBERG, ESQ., <i>on behalf of Respondents</i>. </p>
 </blockquote>
 <p style="text-align:center"><b>PROCEEDINGS </b> </p>
-<p>MR. CHIEF JUSTICE VINSON: Case No. 448, <i>Francis B. Gebhart and others</i> versus 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Case No. 448, <i>Francis B. Gebhart and others</i> versus 
 <i>Ethel Louise Belton and others</i>. </p>
-<p>THE CLERK: Counsel are present. </p>
+<p><b>THE CLERK</b>: Counsel are present. </p>
 <p style="text-align:center"><b>OPENING ARGUMENT OF <br>
 H. ALBERT YOUNG, ESQ., <br>
 ON BEHALF OF PETITIONERS </b> </p>
-<p>MR. YOUNG: May it please the Court: </p>
+<p><b>MR. YOUNG</b>: May it please the Court: </p>
 <p>It seems that I have a Herculean task to perform in attempting to add to what 
 has already been presented for some eight hours of argument before this Court. But 
 there are some points which I will only touch upon briefly since it has been so 
@@ -87,7 +87,7 @@ exclusively for the payment of teachers&#39; salaries and for furnishing free te
 provided, however, that in such apportionment, no distinction shall be made on account of race or color, and separate schools 
 for white and colored children shall be maintained. </p>
 </blockquote>
-<p>The statutory counterpart provides: </p>
+<p><b>The statutory counterpart provides</b>: </p>
 <blockquote>
   <p>The State Board of Education is authorized, empowered, directed and required 
 to maintain a uniform, equal and effective system of public schools throughout the State, 
@@ -114,8 +114,8 @@ read from portions of the opinion in order to demonstrate to this Court how the
 Delaware Supreme Court arrived at its decision. On page 43—and I am sorry that I 
 cannot refer to a brief, but I can assure the Court that it will be fully covered—
 </p>
-<p>MR. JUSTICE BLACK: Page 43 of what? </p>
-<p>MR. YOUNG: Page 43 of the opinion, which will be found in the supplementary appendix 
+<p><b>MR. JUSTICE BLACK</b>: Page 43 of what? </p>
+<p><b>MR. YOUNG</b>: Page 43 of the opinion, which will be found in the supplementary appendix 
 of appellees—it is the blue-covered book —at the bottom of page 43, the supreme 
 court said: </p>
 <blockquote>
@@ -138,28 +138,28 @@ required by the equal protection clause of the Fourteenth Amendment. The asserte
 conflict, the court held, of our constitutional and statutory provision with the 
 equal protection clause of the Fourteenth Amendment was the sole basis for the judgment of the 
 Delaware court upholding the type of relief that was granted. </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Attorney General, may I ask you whether I am to 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Attorney General, may I ask you whether I am to 
 assume that the finding of the Chancellor on page 194a of your blue appendix, Folio 
 579— </p>
-<p>MR. YOUNG: What page is that? </p>
-<p>MR. JUSTICE FRANKFURTER: 193a, Folio 579. </p>
-<p>MR. YOUNG: If Your Honor please, the reason for the confusion in these things—
+<p><b>MR. YOUNG</b>: What page is that? </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: 193a, Folio 579. </p>
+<p><b>MR. YOUNG</b>: If Your Honor please, the reason for the confusion in these things—
 </p>
-<p>MR. JUSTICE FRANKFURTER: I will hand you mine. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I will hand you mine. </p>
 <p>Am I to assume that that is a finding which persisted through the decision of 
 the Supreme Court of Delaware? I marked it. </p>
-<p>MR. YOUNG: I see, Your Honor. </p>
+<p><b>MR. YOUNG</b>: I see, Your Honor. </p>
 <p>No, Your Honor, because the supreme court held that that was not—if it was a 
 finding, it was an irrelevant finding, and that it had—as a matter of fact, the 
 decision was that segregation per se is valid in the State of Delaware, and that 
 had no relevancy to the finding or the conclusion. </p>
-<p>MR. JUSTICE FRANKFURTER: To the finding. But that paragraph is in terms of a finding on the evidence as to what factors, whether any legal 
+<p><b>MR. JUSTICE FRANKFURTER</b>: To the finding. But that paragraph is in terms of a finding on the evidence as to what factors, whether any legal 
 inference is to be drawn from it or not. You will notice the terms in which Your 
 Chancellor stated that on the evidence—doesn&#39;t he say something about &quot;on the evidence I find this is a fact&quot;? 
 Does that survive his modification of the decree by the supreme court? </p>
-<p>MR. YOUNG: It does not. </p>
-<p>MR. JUSTICE FRANKFURTER: It does not? </p>
-<p>MR. YOUNG: It does not, Your Honor, and I will come to that in the course of 
+<p><b>MR. YOUNG</b>: It does not. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: It does not? </p>
+<p><b>MR. YOUNG</b>: It does not, Your Honor, and I will come to that in the course of 
 my argument. </p>
 <p>The Delaware Supreme Court held that the right to equal opportunity is a personal 
 right; that the rights under the equal protection clause are personal and present, 
@@ -264,13 +264,13 @@ to be a completely modern junior high school. All of these things were to be equ
 and will be equalized, by September of 1953, and the Middletown High School, as 
 I indicated before, will be completed at a cost of 1.35 million dollars. </p>
 <p>As to the form of the decree, the court enjoined the defendants from denying plaintiffs admittance to the two schools, retaining— </p>
-<p>MR. JUSTICE REED: Your objection here, Mr. Attorney General, is as to the fitness of the decree with respect to immediacy? </p>
-<p>MR. YOUNG: Correct. </p>
-<p>MR. JUSTICE REED: Your contention is that it should wait until later? </p>
-<p>MR. YOUNG: That is correct. </p>
-<p>MR. JUSTICE REED: Will you address yourself as to why we should overrule the 
+<p><b>MR. JUSTICE REED</b>: Your objection here, Mr. Attorney General, is as to the fitness of the decree with respect to immediacy? </p>
+<p><b>MR. YOUNG</b>: Correct. </p>
+<p><b>MR. JUSTICE REED</b>: Your contention is that it should wait until later? </p>
+<p><b>MR. YOUNG</b>: That is correct. </p>
+<p><b>MR. JUSTICE REED</b>: Will you address yourself as to why we should overrule the 
 findings of the Chancellor? </p>
-<p>MR. YOUNG: Yes. The contention is that, based on the ground of the Chancellor 
+<p><b>MR. YOUNG</b>: Yes. The contention is that, based on the ground of the Chancellor 
 and the Delaware Supreme Court, in affirming the Chancellor, did not interpret the 
 cases upon which they relied, the Sipuel case and the Gaines case and the Sweatt 
 case, in making a finding that unless they grant immediate relief it would be in 
@@ -290,68 +290,68 @@ to be a general reservation to any party to the cause to make an application to
 modify the order in any respect if and when changed conditions are believed to warrant such action. 
   </p>
 </blockquote>
-<p>MR. JUSTICE FRANKFURTER: Has this litigation had any effect upon other school districts in your State, Mr. Attorney General? </p>
-<p>MR. YOUNG: Well, I must speak outside the record. </p>
-<p>MR. JUSTICE FRANKFURTER: Yes, that is my question. </p>
-<p>MR. YOUNG: As a matter of fact, that is the reason I am here now, because of 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Has this litigation had any effect upon other school districts in your State, Mr. Attorney General? </p>
+<p><b>MR. YOUNG</b>: Well, I must speak outside the record. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Yes, that is my question. </p>
+<p><b>MR. YOUNG</b>: As a matter of fact, that is the reason I am here now, because of 
 the terrific impact upon the rest of the State by this decision. </p>
-<p>MR. JUSTICE FRANKFURTER: Would not each district, whatever the units may be, call for a separate assessment of the conditions in that district, the way your court did here? </p>
-<p>MR. YOUNG: What it would mean, Your Honor, is that each case might involve litigation.
+<p><b>MR. JUSTICE FRANKFURTER</b>: Would not each district, whatever the units may be, call for a separate assessment of the conditions in that district, the way your court did here? </p>
+<p><b>MR. YOUNG</b>: What it would mean, Your Honor, is that each case might involve litigation.
 </p>
-<p>MR. JUSTICE FRANKFURTER: That is right. </p>
-<p>MR. YOUNG: And it would also prevent, perhaps, the legislators from voting for 
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is right. </p>
+<p><b>MR. YOUNG</b>: And it would also prevent, perhaps, the legislators from voting for 
 particular allotments for particular school districts, not knowing whether they can maintain the &quot;separate but equal&quot; phase of it or 
 not. </p>
-<p>MR. JUSTICE FRANKFURTER: I may be wrong, but I should assume 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I may be wrong, but I should assume 
 that it is almost inevitable that the conditions in the various districts would not be identical, and therefore differentiation would be almost 
 inevitable, and the claim that the two colored and white schools are not the same 
 would almost inevitably be made, and it would have to be decided with proper reference 
 to each set of circumstances. </p>
-<p>MR. YOUNG: I absolutely agree with you, sir; I absolutely agree, but what I contend 
+<p><b>MR. YOUNG</b>: I absolutely agree with you, sir; I absolutely agree, but what I contend 
 is this: that in a state which recognizes the &quot;separate but equal&quot; doctrine, where 
 inequalities exist, and it can be shown that those inequalities can be corrected, 
 let us say overnight or within a week, to make an order that the Negro children shall be admitted 
 into the white school is indirectly saying—abolishing segregation. </p>
-<p>MR. JUSTICE FRANKFURTER: Am I to infer that you think that the thrust of the 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Am I to infer that you think that the thrust of the 
 decision of the Supreme Court is that if inequity is shown, and this whole litigation is unlike the litigation in all the other 
 records—that if inequality is shown, a decree must be issued at once, although it 
 might be corrected overnight? </p>
-<p>MR. YOUNG: That is correct. That seems to be my feeling about it and my understanding 
+<p><b>MR. YOUNG</b>: That is correct. That seems to be my feeling about it and my understanding 
 of that opinion—that as long as inequality— </p>
-<p>MR. JUSTICE FRANKFURTER: In other words, you are arguing on the assumption that that is what the opinion of your supreme court means? </p>
-<p>MR. YOUNG: Exactly. </p>
-<p>MR. JUSTICE REED: How can you say that when you yourself, as I understood it, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: In other words, you are arguing on the assumption that that is what the opinion of your supreme court means? </p>
+<p><b>MR. YOUNG</b>: Exactly. </p>
+<p><b>MR. JUSTICE REED</b>: How can you say that when you yourself, as I understood it, 
 said that it would not be corrected until September 1, 1953? </p>
-<p>MR. YOUNG: That, Your Honor, went as far as the Claymont School, the high school, 
+<p><b>MR. YOUNG</b>: That, Your Honor, went as far as the Claymont School, the high school, 
 was concerned, where we said a new building had to be constructed. But in the Hockessin situation, a two-room school, where we could, perhaps within ten days, put on an additional room or 
 improve the toilet facilities or those other things that Your Honor will note in 
 the opinion, we feel that they can be corrected with dispatch. </p>
-<p>MR. JUSTICE REED: So it is a problem of weighing the time it would take to make 
+<p><b>MR. JUSTICE REED</b>: So it is a problem of weighing the time it would take to make 
 the corrections? </p>
-<p>MR. YOUNG: That is correct. </p>
-<p>MR. JUSTICE REED: Even in the one that is not to be ready until 1953? </p>
-<p>MR. YOUNG: That is correct. </p>
-<p>MR. JUSTICE REED: You take the position that that is an adequate time? </p>
-<p>MR. YOUNG: We think that is a reasonable time, as long as we have shown— </p>
-<p>MR. JUSTICE REED: As long as there are facilities and institutions afforded? </p>
-<p>MR. YOUNG: Precisely; and as long as it is shown that we are willing and able 
+<p><b>MR. YOUNG</b>: That is correct. </p>
+<p><b>MR. JUSTICE REED</b>: Even in the one that is not to be ready until 1953? </p>
+<p><b>MR. YOUNG</b>: That is correct. </p>
+<p><b>MR. JUSTICE REED</b>: You take the position that that is an adequate time? </p>
+<p><b>MR. YOUNG</b>: We think that is a reasonable time, as long as we have shown— </p>
+<p><b>MR. JUSTICE REED</b>: As long as there are facilities and institutions afforded? </p>
+<p><b>MR. YOUNG</b>: Precisely; and as long as it is shown that we are willing and able 
 to do it, and that there is every reason to believe that it will be done, the &quot;separate 
 but equal&quot; doctrine being recognized by the court—there should be no immediacy for the entrance of those Negro pupils into the white schools. </p>
-<p>MR. JUSTICE REED: Has litigation of this type reached your supreme court in the 
+<p><b>MR. JUSTICE REED</b>: Has litigation of this type reached your supreme court in the 
 last five or ten years? </p>
-<p>MR. YOUNG: This is the first in the history of the State. </p>
-<p>MR. JUSTICE JACKSON: Do I understand that the inequality is largely a matter 
+<p><b>MR. YOUNG</b>: This is the first in the history of the State. </p>
+<p><b>MR. JUSTICE JACKSON</b>: Do I understand that the inequality is largely a matter 
 of overcrowding, relative overcrowding? </p>
-<p>MR. YOUNG: I want to differentiate between the two cases. </p>
-<p>MR. JUSTICE JACKSON: 
+<p><b>MR. YOUNG</b>: I want to differentiate between the two cases. </p>
+<p><b>MR. JUSTICE JACKSON</b>: 
 Yes. </p>
-<p>MR. YOUNG: In the Claymont High School, they claimed it was due to overcrowding, 
+<p><b>MR. YOUNG</b>: In the Claymont High School, they claimed it was due to overcrowding, 
 not in the school entirely, but only in physical education classes. </p>
-<p>MR. JUSTICE JACKSON: Has there been a shift of population? That is, have you 
+<p><b>MR. JUSTICE JACKSON</b>: Has there been a shift of population? That is, have you 
 had a migration which has occurred since the war, with war industries? </p>
-<p>MR. YOUNG: Well, we have some, yes. </p>
-<p>MR. JUSTICE JACKSON: You have some. </p>
-<p>MR. YOUNG: But I do not know whether we can attribute too much to that. But the 
+<p><b>MR. YOUNG</b>: Well, we have some, yes. </p>
+<p><b>MR. JUSTICE JACKSON</b>: You have some. </p>
+<p><b>MR. YOUNG</b>: But I do not know whether we can attribute too much to that. But the 
 fact is that the Howard High School had both the junior and the senior pupils there, 
 and the fact that we are taking those pupils away from the Howard High School into 
 this other school will certainly correct this situation. </p>
@@ -384,7 +384,7 @@ no permanency. I would rather if the court had said that segregation per se is b
 Negro children go to the white schools.&quot; </p>
 <p>[Whereupon, a luncheon recess was taken.] </p>
 <p style="text-align:center"><b>AFTERNOON SESSION </b> </p>
-<p>MR. YOUNG: Mr. Justice Frankfurter, you asked me whether the Chancellor&#39;s finding 
+<p><b>MR. YOUNG</b>: Mr. Justice Frankfurter, you asked me whether the Chancellor&#39;s finding 
 on the evidence that segregation produces detrimental results so far as educational 
 opportunities are concerned, if it is applied—and I call the Court&#39;s attention to the opinion of the Supreme 
 Court of Delaware on page 44, beginning with the third paragraph: </p>
@@ -396,52 +396,52 @@ opportunities, and expressed the opinion that the `separate but equal&#39; doctr
 He nevertheless recognized that his finding was immaterial to the legal conclusion drawn from the authorities above cited. 
 We agree that it is immaterial, and hence see no occasion to review it. </p>
 </blockquote>
-<p>MR. JUSTICE FRANKFURTER: Therefore, it is not before us. 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Therefore, it is not before us. 
 </p>
-<p>MR. YOUNG: That is right.
+<p><b>MR. YOUNG</b>: That is right.
 </p>
-<p>MR. JUSTICE BLACK: But does that necessarily follow? They did not set it aside, 
+<p><b>MR. JUSTICE BLACK</b>: But does that necessarily follow? They did not set it aside, 
 so that you have a finding of your Chancellor so far as segregation is concerned 
 in Delaware that the result of it is the affording of an inferior opportunity of 
 education, and your supreme court says that nevertheless the Supreme Court of the 
 United States, in effect, has held that that can never be a constitutional ground. </p>
-<p>MR. YOUNG: So did the Chancellor, Your Honor. </p>
-<p>MR. JUSTICE BLACK: But you still have your finding that, so far as Delaware is 
+<p><b>MR. YOUNG</b>: So did the Chancellor, Your Honor. </p>
+<p><b>MR. JUSTICE BLACK</b>: But you still have your finding that, so far as Delaware is 
 concerned—and I presume he was not looking at evidence anywhere but Delaware—that 
 the system of segregation there, even though the facilities, physical facilities, are equal, results in 
 inferior education for them. </p>
-<p>MR. YOUNG: He did so state. </p>
-<p>MR. JUSTICE BLACK: We have that finding without its being set aside. </p>
-<p>MR. YOUNG: Well, I think we have it, in effect, set aside when the supreme court 
+<p><b>MR. YOUNG</b>: He did so state. </p>
+<p><b>MR. JUSTICE BLACK</b>: We have that finding without its being set aside. </p>
+<p><b>MR. YOUNG</b>: Well, I think we have it, in effect, set aside when the supreme court 
 says that he considered it immaterial to the conclusion in his case and the decision in his case. </p>
-<p>MR. JUSTICE BLACK: That is right. He considered it immaterial; but nevertheless, are we not faced with this situation: Do you conceive that 
+<p><b>MR. JUSTICE BLACK</b>: That is right. He considered it immaterial; but nevertheless, are we not faced with this situation: Do you conceive that 
 segregation might be held on evidence in some places to supply equal opportunities 
 for education, while in other it might be held that the situation was such that 
 it gave an inferior opportunity for education? </p>
-<p>MR. YOUNG: Depending on the facilities offered, and the educational opportunities. </p>
-<p>MR. JUSTICE BLACK: I mean assuming that the facilities are 
+<p><b>MR. YOUNG</b>: Depending on the facilities offered, and the educational opportunities. </p>
+<p><b>MR. JUSTICE BLACK</b>: I mean assuming that the facilities are 
 the same— </p>
-<p>MR. YOUNG: Yes. </p>
-<p>MR. JUSTICE BLACK: —do you conceive that it is impossible for segregation in 
+<p><b>MR. YOUNG</b>: Yes. </p>
+<p><b>MR. JUSTICE BLACK</b>: —do you conceive that it is impossible for segregation in 
 one place to result in an equality of opportunity of education, while in another 
 it might result in inequality of opportunity for education? </p>
-<p>MR. YOUNG: No, I cannot conceive of that myself. </p>
+<p><b>MR. YOUNG</b>: No, I cannot conceive of that myself. </p>
 <p>Now, it may be that— </p>
-<p>MR. JUSTICE BLACK: There might be many things involved, might there not? </p>
-<p>MR. YOUNG: That is true, but I am not prepared to say whether, all factors being 
+<p><b>MR. JUSTICE BLACK</b>: There might be many things involved, might there not? </p>
+<p><b>MR. YOUNG</b>: That is true, but I am not prepared to say whether, all factors being 
 equal, mere segregation of and by itself will bring about inferiority so far as 
 educational opportunities are concerned. </p>
-<p>MR. JUSTICE BLACK: Well, assuming that you had facts, and that your court found 
+<p><b>MR. JUSTICE BLACK</b>: Well, assuming that you had facts, and that your court found 
 on the facts that in Delaware, where your two schools functioned, and with the general 
 conditions of education in Delaware and the relationship between the races and all of that was such that 
 even though the facilities were identical—physical facilities—nevertheless, in Delaware, the results of segregation were to give 
 an unequal opportunity of education to the colored people. Would you say that, assuming 
 that finding on local facts, and it is accepted, that the separate but equal doctrine 
 would not make it necessary to state that? </p>
-<p>MR. YOUNG: I would not, if Your Honor please, under our constitution and its statutory counterpart—we are required to maintain separate schools for white and colored as long as we afford them equal opportunities 
+<p><b>MR. YOUNG</b>: I would not, if Your Honor please, under our constitution and its statutory counterpart—we are required to maintain separate schools for white and colored as long as we afford them equal opportunities 
 and equal facilities, and I think that that would merely be an oblique way of striking 
 down segregation and desegregating schools. </p>
-<p>MR. JUSTICE BLACK: If you assume that the facts are correctly found. Suppose 
+<p><b>MR. JUSTICE BLACK</b>: If you assume that the facts are correctly found. Suppose 
 I asked you to assume that the court found those facts, and assume that he is right, 
 and you had no way to overturn them. He would say that conditions in Delaware—given 
 consideration on the facts—require him to see whether or not the colored people get an equal 
@@ -453,23 +453,23 @@ the effect on the children is that they get an inferior opportunity for
 education. </p>
 <p>Would you say that that would still not bring them within the &quot;separate but equal&quot; 
 doctrine? </p>
-<p>MR. YOUNG: I would, Your Honor. I would because I say that would be violative 
+<p><b>MR. YOUNG</b>: I would, Your Honor. I would because I say that would be violative 
 of the equal protection clause of the Fourteenth Amendment, and would also be violative 
 of our own constitutional provisions, because we are assuming now facilities being equal, educational opportunities 
 being equal; I would like to say I do not know what evidence Your Honor is referring 
 to that the chancellor could rely on, other than the sociologists and anthropologists and psychologists.
 </p>
-<p>MR. JUSTICE BLACK: I just read the findings, and I asked you the question at 
+<p><b>MR. JUSTICE BLACK</b>: I just read the findings, and I asked you the question at 
 the beginning of these arguments, you may remember. </p>
-<p>MR. YOUNG: I remember. </p>
-<p>MR. JUSTICE BLACK: About the difference in findings, and I wondered—both sides 
+<p><b>MR. YOUNG</b>: I remember. </p>
+<p><b>MR. JUSTICE BLACK</b>: About the difference in findings, and I wondered—both sides 
 seem to be relying on the findings so much, and I wondered if the assumption we 
 must make from that is that both sides believe that it could be found in one state 
 and one locality by reason of a different situation that opportunities were unequal, even though 
 the facilities were equal, while in another state that would not be the case.
 </p>
-<p>MR. YOUNG: I do not subscribe to that, Your Honor. </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Attorney General, since I got you into this trouble, 
+<p><b>MR. YOUNG</b>: I do not subscribe to that, Your Honor. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Attorney General, since I got you into this trouble, 
 perhaps I might help straighten out the way the matter lies in my mind. I had not 
 read that sentence to which you called attention in the opinion of the supreme court. 
 I think for myself this situation is very different from the Kansas situation. In 
@@ -486,20 +486,20 @@ the Kansas case, a finding of fact which binds us, because for all I know your s
 court might have disagreed with your Chancellor, and then we would be in a position 
 where the highest court said that the evidence does not yield to the conclusions 
 that the Chancellor thought it yielded. </p>
-<p>MR. YOUNG: That is precisely the point, Your Honor, and what is more, a review 
+<p><b>MR. YOUNG</b>: That is precisely the point, Your Honor, and what is more, a review 
 of the opinion would show that the Delaware Supreme Court did not agree with many 
 things that the Chancellor said in his opinion in the lower court. </p>
-<p>MR. JUSTICE FRANKFURTER: Yes. The legal position that you take is on the assumption 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Yes. The legal position that you take is on the assumption 
 that was presented by the Kansas case. I think that your record presents a different 
 set of facts. </p>
-<p>MR. YOUNG: Exactly. There was no finding of fact that was considered at all. 
+<p><b>MR. YOUNG</b>: Exactly. There was no finding of fact that was considered at all. 
 It was considered immaterial to the issue. </p>
-<p>MR. JUSTICE FRANKFURTER: A very powerful finding by the Chancellor. </p>
-<p>MR. YOUNG: Oh, yes. </p>
-<p>MR. JUSTICE BLACK: I do not like to interrupt again, but taking that as true, if we assume and admit such a finding is relevant, you would be 
+<p><b>MR. JUSTICE FRANKFURTER</b>: A very powerful finding by the Chancellor. </p>
+<p><b>MR. YOUNG</b>: Oh, yes. </p>
+<p><b>MR. JUSTICE BLACK</b>: I do not like to interrupt again, but taking that as true, if we assume and admit such a finding is relevant, you would be 
 in a situation of having a finding by your Chancellor which is relevant, which might cause the case to turn one way or the other, which 
 has not been reviewed by your highest court. </p>
-<p>MR. YOUNG: That is right. But there is one thing I want to make plain: that notwithstanding 
+<p><b>MR. YOUNG</b>: That is right. But there is one thing I want to make plain: that notwithstanding 
 that finding, and notwithstanding the fact that it was disregarded by the supreme 
 court, I nevertheless address Your Honor&#39;s attention to the point that the shape 
 of the decree, in any event, was not a proper decree under the circumstances,
@@ -538,11 +538,11 @@ Its roots go deep in the history and traditions of these states. The practical d
 which may be met in making progressive adjustments to a nonsegregated system cannot 
 be ignored or minimized. </p>
 </blockquote>
-<p>MR. JUSTICE REED: I asked a question similar to this before. Why do you contend 
+<p><b>MR. JUSTICE REED</b>: I asked a question similar to this before. Why do you contend 
 that that is a problem here? Is it a violation of the federal law or a violation 
 of the Federal Constitution that the Delaware Supreme Court has acted somewhat precipitately, 
 from your point of view? </p>
-<p>MR. YOUNG: It is because, Your Honor, we contend that the 
+<p><b>MR. YOUNG</b>: It is because, Your Honor, we contend that the 
 supreme court, affirming the Chancellor who acted in this matter, in shaping the 
 form of the decree, said that he was compelled to make that kind of a decree under 
 the equal protection clause of the Fourteenth Amendment. It was not a question of 
@@ -550,17 +550,17 @@ exercising discretion; in fact, it negated that proposition. </p>
 <p>If, for example, he would reach the same result by saying that he is exercising 
 his discretion, perhaps we would have another matter. But he said he was compelled 
 to issue that kind of a decree under the equal protection clause of the Fourteenth Amendment. </p>
-<p>MR. JUSTICE DOUGLAS: Is that because the right is personal? </p>
-<p>MR. YOUNG: Because the right is personal, and depending upon the cases of Sweatt 
+<p><b>MR. JUSTICE DOUGLAS</b>: Is that because the right is personal? </p>
+<p><b>MR. YOUNG</b>: Because the right is personal, and depending upon the cases of Sweatt 
 and the Gaines case; and, of course, we differentiate between those cases, cases where there was no facility; there was no expectancy 
 of any facility within a reasonable time, as compared with a case where there is 
 the ability and the willingness to equalize. </p>
-<p>MR. JUSTICE REED: It is difficult for me to grasp what the state court of Delaware 
+<p><b>MR. JUSTICE REED</b>: It is difficult for me to grasp what the state court of Delaware 
 was saying when it said it was not acting within its discretion. </p>
-<p>MR. YOUNG: Well, the supreme court pointed out in its opinion and stated that 
+<p><b>MR. YOUNG</b>: Well, the supreme court pointed out in its opinion and stated that 
 they were relying solely— </p>
-<p>MR. JUSTICE REED: It is on page 44. </p>
-<p>MR. YOUNG: On page 57 the court cast aside—the Delaware Supreme Court—two preliminary matters upon which, perhaps, the injunction could have 
+<p><b>MR. JUSTICE REED</b>: It is on page 44. </p>
+<p><b>MR. YOUNG</b>: On page 57 the court cast aside—the Delaware Supreme Court—two preliminary matters upon which, perhaps, the injunction could have 
 been or the decree could have been handed down, but said: </p>
 <blockquote>
   <p>But we prefer to rest our decision upon another ground. With deference to the decisions in the Briggs and Davis cases, which 
@@ -571,25 +571,25 @@ one, how can these plaintiffs be denied such relief as is now available? The com
 effort of the State to remedy the situation serves to emphasize the importance
 of the present inequalities. </p>
 </blockquote>
-<p>MR. CHIEF JUSTICE VINSON: I think you will find some language in the Sipuel case, if I remember rightly, about &quot;personal and present.&quot; </p>
-<p>MR. YOUNG: Yes. </p>
-<p>MR. CHIEF JUSTICE VINSON: That was the admission into the school in Oklahoma. 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: I think you will find some language in the Sipuel case, if I remember rightly, about &quot;personal and present.&quot; </p>
+<p><b>MR. YOUNG</b>: Yes. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: That was the admission into the school in Oklahoma. 
 I think that language is in the Sipuel case. </p>
-<p>MR. YOUNG: That is right. </p>
-<p>MR. CHIEF JUSTICE VINSON: I mean &quot;personal and present.&quot; </p>
-<p>MR. YOUNG: Well, there it was proper, I state, because there is quite a distinction 
+<p><b>MR. YOUNG</b>: That is right. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: I mean &quot;personal and present.&quot; </p>
+<p><b>MR. YOUNG</b>: Well, there it was proper, I state, because there is quite a distinction 
 between higher education and facilities that can or cannot be offered on a higher 
 educational level as compared with the common school level; and the court—our contention 
 is that the lower court, the inferior court, the court of chancery—was in error when it thought that it was compelled to issue the kind of decree it 
 did without giving any regard to the public interest and to the parties involved. </p>
-<p>MR. JUSTICE REED: Your court says in the opinion: </p>
+<p><b>MR. JUSTICE REED</b>: Your court says in the opinion: </p>
 <blockquote>
   <p>To require the plaintiffs to 
 wait another year— </p>
 </blockquote>
 <p>I am reading at page 58— </p>
-<p>MR. YOUNG: Yes. </p>
-<p>MR. JUSTICE REED: </p>
+<p><b>MR. YOUNG</b>: Yes. </p>
+<p><b>MR. JUSTICE REED</b>: </p>
 <blockquote>
   <p>—under present conditions would be in effect partially to deny them that to which 
 we have held they are entitled. It is possible that a case might occur in which 
@@ -599,9 +599,9 @@ not pass on that question because it is not presented. </p>
 <p>Whether that is discretion—your position is that they are bound under the Sipuel 
 case to give immediate relief; they thought they were bound to give immediate—
 </p>
-<p>MR. YOUNG: Yes, they thought they were bound. MR. JUSTICE REED: To give immediate 
+<p><b>MR. YOUNG</b>: Yes, they thought they were bound. MR. JUSTICE REED: To give immediate 
 relief. </p>
-<p>MR. YOUNG: Yes, that is correct. </p>
+<p><b>MR. YOUNG</b>: Yes, that is correct. </p>
 <p>In the light of what I have read from the amicus curiae brief, when it was urged 
 that the Court should be slow in desegregating even where segregation per se was 
 held to be invalid, our contention is that the fact that it is even more serious where the &quot;separate but equal&quot; doctrine is held to be valid, and where it is recognized that the State, upon a showing that any existing inequality relating to facilities 
@@ -615,12 +615,12 @@ of inequalities where such inequalities have been found to exist in the past.
 <p>The same situation occurred in the Virginia case and also in the South Carolina 
 case, perhaps not with the finding that Your Honors find to exist in the opinion 
 of the Chancellor in the lower court, but I believe that the language of— </p>
-<p>MR. CHIEF JUSTICE VINSON: The language can be found in the Virginia case, can 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: The language can be found in the Virginia case, can 
 it not? </p>
-<p>MR. YOUNG: Not that particular finding that segregation of and by itself under 
+<p><b>MR. YOUNG</b>: Not that particular finding that segregation of and by itself under 
 the evidence is harmful. I think that they did— </p>
-<p>MR. CHIEF JUSTICE VINSON: They had findings there that it was not equal. </p>
-<p>MR. YOUNG: That it was not equal, that is correct; and I believe there was some 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: They had findings there that it was not equal. </p>
+<p><b>MR. YOUNG</b>: That it was not equal, that is correct; and I believe there was some 
 comment, as I recall, that whether it does harm or does not do harm is not for the 
 Court to determine. But this is what Judge Parker had to say in disposing of the 
 case, the South Carolina case: </p>
@@ -645,45 +645,45 @@ in the relationship between the agencies of the Federal Government and the State
 and that the Delaware Supreme Court be instructed that affording reasonable time 
 for the board of education to correct inequalities capable of being corrected, as we have shown, is not 
 in violation of the Fourteenth Amendment. </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Attorney General, may I trouble you again? Has the 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Attorney General, may I trouble you again? Has the 
 supreme court, your supreme court in terms, not as a necessary consequence of what 
 it has decided but has your supreme court in terms taken the position that if the 
 Chancellor finds inequality then the immediate opening of the doors of schools of 
 whites who have no segregation in schools is legal compulsion? </p>
-<p>MR. YOUNG: That is, we contend, the position the supreme court took. </p>
-<p>MR. JUSTICE FRANKFURTER: Has it taken that in terms? Here is what troubles me. 
+<p><b>MR. YOUNG</b>: That is, we contend, the position the supreme court took. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Has it taken that in terms? Here is what troubles me. 
 It is asking a great deal of this Court, for one-ninth of this Court, to overrule 
 the judgment of the Chancellor, affirmed by the supreme court of the State, that the equity of the situation 
 requires the decree that they entered. If they base that on their interpretation 
 of what the decisions of this Court require, then it was not the Chancellor&#39;s exercise of discretion, but it was a result 
 caused by the requirement that they must follow the decisions of the Court. As I 
 read their opinions, they did not say that in terms, did they? </p>
-<p>MR. YOUNG: No, but the general mandate, it would seem to me the blanket mandate, 
+<p><b>MR. YOUNG</b>: No, but the general mandate, it would seem to me the blanket mandate, 
 in affirming the judgment of the court or chancery or the Chancellor— </p>
-<p>MR. JUSTICE FRANKFURTER: Did the Chancellor think that was the thing to do?
+<p><b>MR. JUSTICE FRANKFURTER</b>: Did the Chancellor think that was the thing to do?
 </p>
-<p>MR. YOUNG: He thought so, yes. </p>
-<p>MR. JUSTICE FRANKFURTER: That as soon as inequality is shown, then at once there 
+<p><b>MR. YOUNG</b>: He thought so, yes. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: That as soon as inequality is shown, then at once there 
 must be— </p>
-<p>MR. YOUNG: That is right. </p>
-<p>MR. JUSTICE FRANKFURTER: How could he? We did not do that in one of the cases. </p>
-<p>MR. YOUNG: We tried to point out to the Chancellor that 
+<p><b>MR. YOUNG</b>: That is right. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: How could he? We did not do that in one of the cases. </p>
+<p><b>MR. YOUNG</b>: We tried to point out to the Chancellor that 
 he was wrong, and we tried to point out to the Chancellor that that was not so. </p>
-<p>MR. JUSTICE FRANKFURTER: The question is whether he was wrong or what rule of 
+<p><b>MR. JUSTICE FRANKFURTER</b>: The question is whether he was wrong or what rule of 
 law did he apply. If he said that in this situation, considering the circumstances in Delaware, your county or school district—or 
 he may not have been explicit about it—that is one thing. If he says that the Supreme 
 Court demands, &quot;and I am an obedient judge,&quot; that is another thing. </p>
-<p>MR. YOUNG: He said where there is an injury, as he found such to be here, then 
+<p><b>MR. YOUNG</b>: He said where there is an injury, as he found such to be here, then 
 the injury should be redressed immediately. </p>
-<p>MR. JUSTICE FRANKFURTER: Well, that may be his view as an equity judge. </p>
-<p>MR. YOUNG: But he based it on the equal protection clause of the Fourteenth Amendment.
+<p><b>MR. JUSTICE FRANKFURTER</b>: Well, that may be his view as an equity judge. </p>
+<p><b>MR. YOUNG</b>: But he based it on the equal protection clause of the Fourteenth Amendment.
 </p>
-<p>MR. JUSTICE FRANKFURTER: If I may say so, a chancellor who shows as much competence 
+<p><b>MR. JUSTICE FRANKFURTER</b>: If I may say so, a chancellor who shows as much competence 
 as this opinion shows probably can read the opinions of this Court with understanding.
 </p>
-<p>MR. YOUNG: There is no question about the Chancellor&#39;s competency, Your Honor. </p>
-<p>MR. JUSTICE FRANKFURTER: If I may say so, it was an unusual opinion, as opinions go. </p>
-<p>MR. YOUNG: May I read from just the opinion of the Chancellor on page 203, at the bottom of the page: </p>
+<p><b>MR. YOUNG</b>: There is no question about the Chancellor&#39;s competency, Your Honor. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: If I may say so, it was an unusual opinion, as opinions go. </p>
+<p><b>MR. YOUNG</b>: May I read from just the opinion of the Chancellor on page 203, at the bottom of the page: </p>
 <blockquote>
   <p>Just what is the effect of such a finding of a violation of the Constitution, 
 as has here been made. It is true that in such a situation some courts have merely 
@@ -700,31 +700,31 @@ but be patient, we will see whether in time they are still being violated.&#39;
 the same problem was there in the Virginia case. But is it a violation that is going 
 to continue upon a showing that we, the State, are able and willing to correct the 
 existing inequalities between the two races? </p>
-<p>MR. JUSTICE FRANKFURTER: Suppose your supreme court had said that, &quot;It is our 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Suppose your supreme court had said that, &quot;It is our 
 view that when a violation of the Constitution is shown, that is such an overriding equity that we regard the inconvenience 
 or the difficulties to the State as subordinate to that overriding equity.&quot; That 
 would be a view of equity, the balancing of considerations by the local court, and not at all derived from the necessities 
 of the Fourteenth Amendment? </p>
-<p>MR. YOUNG: I agree with Your Honor. </p>
-<p>MR. JUSTICE FRANKFURTER: I was wondering whether that is not really implicit 
+<p><b>MR. YOUNG</b>: I agree with Your Honor. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I was wondering whether that is not really implicit 
 in these decisions. </p>
-<p>MR. YOUNG: I do not believe so. I think that they were fully cognizant of the 
+<p><b>MR. YOUNG</b>: I do not believe so. I think that they were fully cognizant of the 
 equal protection clause of the Fourteenth Amendment, and that they were aware of the South Carolina case at the time, the Virginia 
 case, and that the leading cases, the Sweatt case and, of course, the Gaines case, 
 and it was on that basis that they felt that they were compelled to make the kind 
 of order— </p>
-<p>MR. JUSTICE FRANKFURTER: Automatically because there was a violation of the Fourteenth 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Automatically because there was a violation of the Fourteenth 
 Amendment, and the Fourteenth Amendment requires automatic redress; that is your 
 view of it? </p>
-<p>MR. YOUNG: That is right, precisely. That is our view, and I think it is borne 
+<p><b>MR. YOUNG</b>: That is right, precisely. That is our view, and I think it is borne 
 out by a reading of the two opinions in the court of chancery and in the Delaware 
 Supreme Court. </p>
-<p>MR. JUSTICE REED: Mr. Attorney General, I call your attention to page 204(a), as I understand it, of the Chancellor&#39;s opinion, and towards the bottom he says, &quot;If it be a matter of discretion, I reach the same conclusion.&quot; </p>
-<p>MR. YOUNG: Well, I think that is the language in the opinion; but it is clear 
+<p><b>MR. JUSTICE REED</b>: Mr. Attorney General, I call your attention to page 204(a), as I understand it, of the Chancellor&#39;s opinion, and towards the bottom he says, &quot;If it be a matter of discretion, I reach the same conclusion.&quot; </p>
+<p><b>MR. YOUNG</b>: Well, I think that is the language in the opinion; but it is clear 
 that the decision rested— </p>
-<p>MR. JUSTICE REED: He thought to the contrary, too. He also said that if it is 
+<p><b>MR. JUSTICE REED</b>: He thought to the contrary, too. He also said that if it is 
 a matter of discretion, &quot;I reach the same conclusion.&quot; </p>
-<p>MR. YOUNG: But he did reach the conclusion upon the basis and the interpretation 
+<p><b>MR. YOUNG</b>: But he did reach the conclusion upon the basis and the interpretation 
 of the equal protection clause of the Fourteenth Amendment, and that is the way 
 the Delaware Supreme Court found that he ruled, and thought that it was proper because 
 it was a matter of compulsion where there is such a finding. </p>
@@ -732,14 +732,14 @@ it was a matter of compulsion where there is such a finding. </p>
 </a>like to have brought to the Court&#39;s attention. I know it 
 would be impossible for me to review the cases on the question of segregation
 per se that were so ably presented by my distinguished colleagues. </p>
-<p>MR. CHIEF JUSTICE VINSON: In addition to that, your time has expired. </p>
-<p>MR. YOUNG: That is true. Is it at an end now? </p>
-<p>MR. CHIEF JUSTICE VINSON: Yes. 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: In addition to that, your time has expired. </p>
+<p><b>MR. YOUNG</b>: That is true. Is it at an end now? </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Yes. 
 </p>
-<p>MR. YOUNG: Thank you. </p>
+<p><b>MR. YOUNG</b>: Thank you. </p>
 <p style="text-align:center"><b>ARGUMENT OF LOUIS L. REDDING, ESQ., <br>
 ON BEHALF OF THE RESPONDENTS </b> </p>
-<p>MR. REDDING: May it please the Court: </p>
+<p><b>MR. REDDING</b>: May it please the Court: </p>
 <p>In this fifth and last case before the Court on this subject, the fundamental 
 question is still the same as in the four preceding cases; namely, what rights has 
 the individual to protection against arbitrary action by government? </p>
@@ -818,8 +818,8 @@ was not based on any rational or reasonable grounds. </p>
 <p>I should like the indulgence of the Court to call attention to this testimony 
 at page 122 of the appendix of the appellees, plaintiffs below. Doctor Otto Klineberg, a professor of psychology at Columbia University, 
 was testifying. He was asked this question— </p>
-<p>MR. JUSTICE REED: What was the page, please? </p>
-<p>MR. REDDING: I am sorry, sir; page 122 of the thick blue book. </p>
+<p><b>MR. JUSTICE REED</b>: What was the page, please? </p>
+<p><b>MR. REDDING</b>: I am sorry, sir; page 122 of the thick blue book. </p>
 <blockquote>
   <p>Dr. Klineberg, are there differences in inborn intellectual capacity among individuals which are determined by whether an individual
 is Negro or white? </p>
@@ -853,8 +853,8 @@ body. </p>
   <p>Now, of course, these facts that I have mentioned are not caused only by the school segregation, but the school segregation is important, of paramount importance, for a number of reasons. 
   </p>
 </blockquote>
-<p>MR. JUSTICE BURTON: Where is that? </p>
-<p>MR. REDDING: This—I am sorry, Your Honor—is at page 86 of <a name="page27">
+<p><b>MR. JUSTICE BURTON</b>: Where is that? </p>
+<p><b>MR. REDDING</b>: This—I am sorry, Your Honor—is at page 86 of <a name="page27">
 </a>this same transcript of testimony. He says: </p>
 <blockquote>
   <p>It is of paramount importance for a number of reasons. In the first place, it is absolutely clear cut. 
@@ -868,9 +868,9 @@ that finding of the Chancellor. It is our view that the supreme court did not re
 that finding. It is our view that that finding survives; and because we have that 
 view, and because the supreme court, in our view, did not give legal effectuation to a finding of fact made by the trial court, we ask that this Court give legal 
 effectuation to such a finding. </p>
-<p>MR. JUSTICE FRANKFURTER: Aren&#39;t you really asking that the decree below be affirmed?
+<p><b>MR. JUSTICE FRANKFURTER</b>: Aren&#39;t you really asking that the decree below be affirmed?
 </p>
-<p>MR. REDDING: We ask, of course, that the decree below be affirmed; but we ask that it be affirmed not merely for the reason given by the Supreme 
+<p><b>MR. REDDING</b>: We ask, of course, that the decree below be affirmed; but we ask that it be affirmed not merely for the reason given by the Supreme 
 Court of Delaware, but for other considerations which this Court has taken into account in, for example, the Sipuel case and 
 the McLaurin case. </p>
 <p>In those cases this Court did take into account factors like the isolation of 
@@ -881,45 +881,45 @@ itself inflicts inequalities of educational opportunities on the respondents her
 Attorney General of the State of Delaware, there will still be inequality of educational 
 opportunity which the State is not correcting. </p>
 <p>We think that in the Sweatt case— </p>
-<p>MR. JUSTICE FRANKFURTER: If we just affirmed this decree below without an opinion, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: If we just affirmed this decree below without an opinion, 
 that would be an end of the matter, and the plaintiffs in this case would get all 
 they asked, would they not? </p>
-<p>MR. REDDING: No, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: They would be admitted into the school into which they 
+<p><b>MR. REDDING</b>: No, sir. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: They would be admitted into the school into which they 
 wanted to be admitted. </p>
-<p>MR. REDDING: They ask for the equality of educational opportunity. </p>
-<p>MR. JUSTICE FRANKFURTER: That is what they would get if the decree was affirmed.
+<p><b>MR. REDDING</b>: They ask for the equality of educational opportunity. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is what they would get if the decree was affirmed.
 </p>
-<p>MR. REDDING: They would get it, sir; but they would get it under the shadow of the threat of the Attorney General that the moment he has shown to the court that facilities are equalized they would then be ejected 
+<p><b>MR. REDDING</b>: They would get it, sir; but they would get it under the shadow of the threat of the Attorney General that the moment he has shown to the court that facilities are equalized they would then be ejected 
 from the schools. </p>
-<p>MR. CHIEF JUSTICE VINSON: Was it the threat of the Attorney General or was that the condition stated by the Court? </p>
-<p>MR. REDDING: Well, the Attorney General now threatens that, sir. </p>
-<p>MR. CHIEF JUSTICE VINSON: I say though— </p>
-<p>MR. REDDING: I say that is the explanation of his appearance here. </p>
-<p>MR. CHIEF JUSTICE VINSON: —isn&#39;t that what the court said? </p>
-<p>MR. REDDING: Yes, 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Was it the threat of the Attorney General or was that the condition stated by the Court? </p>
+<p><b>MR. REDDING</b>: Well, the Attorney General now threatens that, sir. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: I say though— </p>
+<p><b>MR. REDDING</b>: I say that is the explanation of his appearance here. </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: —isn&#39;t that what the court said? </p>
+<p><b>MR. REDDING</b>: Yes, 
 the court said that. </p>
-<p>MR. CHIEF JUSTICE VINSON: And he held that it would be contingent and motions 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: And he held that it would be contingent and motions 
 might be made if conditions were changed. </p>
-<p>MR. REDDING: We think that— </p>
-<p>MR. CHIEF JUSTICE VINSON: Isn&#39;t that what the court said? MR. REDDING: That is 
+<p><b>MR. REDDING</b>: We think that— </p>
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Isn&#39;t that what the court said? MR. REDDING: That is 
 correct, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: Did the court say that they would exclude those children 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Did the court say that they would exclude those children 
 if new arrangements were made? Did the court say what they would do if in the future 
 an application were made to deal with this decree? They simply let the decree open. Almost every decree in equity is left open. </p>
-<p>MR. REDDING: That is correct, sir. But we have no reason to believe that the 
+<p><b>MR. REDDING</b>: That is correct, sir. But we have no reason to believe that the 
 court at that time will not take the same position with respect to its limitation 
 that it took originally. </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Redding, we have had cases where we had to dismiss 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Redding, we have had cases where we had to dismiss 
 a case as moot because the child had gone through the education, a case from New 
 Jersey, and it was a case in a totally different field—so that by the time there 
 may be a new threat, these boys and girls might be in various universities of the 
 country. </p>
-<p>MR. REDDING: We feel, sir, that the decree should be affirmed.
+<p><b>MR. REDDING</b>: We feel, sir, that the decree should be affirmed.
 </p>
 <p style="text-align:center"><b>ARGUMENT OF JACK GREENBERG, ESQ., <br>
 ON BEHALF OF THE RESPONDENTS </b> </p>
-<p>MR. GREENBERG: If it please the Court: </p>
+<p><b>MR. GREENBERG</b>: If it please the Court: </p>
 <p>We are seeking affirmance of the judgment below. In addition to the reasons submitted by Mr. Redding, which, we submit, will permanently settle 
 respondents&#39; right to the relief which they sought, and settle on the basis of the 
 really important factors present in this case, we submit that the judgment rendered below should at least be affirmed 
@@ -964,43 +964,43 @@ still being invaded.&#39; </p>
   <p>To postpone relief would be to deny relief. </p>
 </blockquote>
 <p>And the Supreme Court of Delaware affirmed on this express ground. </p>
-<p>MR. JUSTICE JACKSON: Is it your position that the court, finding </p>
+<p><b>MR. JUSTICE JACKSON</b>: Is it your position that the court, finding </p>
 <p>a right being denied, has no power to take into consideration the time that it 
 will take to correct it? </p>
-<p>MR. GREENBERG: It is our position, Your Honor, that if constitutional rights are being denied our respondents, they are entitled to those rights as quickly as those rights can be made available; and in this case they could be made available most quickly by admission to the 
+<p><b>MR. GREENBERG</b>: It is our position, Your Honor, that if constitutional rights are being denied our respondents, they are entitled to those rights as quickly as those rights can be made available; and in this case they could be made available most quickly by admission to the 
 superior facilities—that is, without regard to the other factors that have been 
 discussed in the other cases. </p>
-<p>MR. JUSTICE JACKSON: You do not agree with the Attorney General&#39;s suggestion, 
+<p><b>MR. JUSTICE JACKSON</b>: You do not agree with the Attorney General&#39;s suggestion, 
 then? </p>
-<p>MR. GREENBERG: No. It is our position, for example, that if the State guarantees 
+<p><b>MR. GREENBERG</b>: No. It is our position, for example, that if the State guarantees 
 a child ten years of education, and the child has spent approximately five of those 
 years in inferior schools, and it is possible to give him the remaining five years 
 on a parity with white students, that to deny him the sixth, seventh and eighth 
 years of equality is to inflict an irreparable injury on him. Those three years 
 cannot be completely recaptured, and we feel there is no reason in justice or under the Fourteenth Amendment 
 why we should not demand it. </p>
-<p>MR. JUSTICE FRANKFURTER: When you say there is no reason in justice, of course— </p>
-<p>MR. GREENBERG: And under the Fourteenth Amendment. </p>
-<p>MR. JUSTICE JACKSON: When you say that the Attorney General&#39;s plan for a gradual correction of this situation is impossible, it has to be done 
+<p><b>MR. JUSTICE FRANKFURTER</b>: When you say there is no reason in justice, of course— </p>
+<p><b>MR. GREENBERG</b>: And under the Fourteenth Amendment. </p>
+<p><b>MR. JUSTICE JACKSON</b>: When you say that the Attorney General&#39;s plan for a gradual correction of this situation is impossible, it has to be done 
 all at once? </p>
-<p>MR. GREENBERG: That is our view. First of all, it does not afford the right; and, second of all, as I intend to come to in a moment, there is no showing on this record, no showing whatsoever, and both courts so 
+<p><b>MR. GREENBERG</b>: That is our view. First of all, it does not afford the right; and, second of all, as I intend to come to in a moment, there is no showing on this record, no showing whatsoever, and both courts so 
 found, there is no evidence that equality would occur at any time in the future.
 </p>
-<p>MR. JUSTICE FRANKFURTER: What is there in the Constitution which prevents a chancellor from taking into consideration the consequences of 
+<p><b>MR. JUSTICE FRANKFURTER</b>: What is there in the Constitution which prevents a chancellor from taking into consideration the consequences of 
 a decree in cases involving constitutional rights or any other rights? </p>
-<p>MR. GREENBERG: There is nothing in the Constitution one way or another on the 
+<p><b>MR. GREENBERG</b>: There is nothing in the Constitution one way or another on the 
 question. </p>
-<p>MR. JUSTICE FRANKFURTER: He behaved the way a chancellor should behave, in the way of balancing the public interest on one side as against 
+<p><b>MR. JUSTICE FRANKFURTER</b>: He behaved the way a chancellor should behave, in the way of balancing the public interest on one side as against 
 an immediate relief on the other? </p>
-<p>MR. GREENBERG: But there is no showing of any public interest— </p>
-<p>MR. JUSTICE FRANKFURTER: That is a different story. A chancellor has no business 
+<p><b>MR. GREENBERG</b>: But there is no showing of any public interest— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is a different story. A chancellor has no business 
 not to enforce a right which he decrees in the ordinary property case— </p>
-<p>MR. GREENBERG: I think that if a showing had been made on that point, something 
+<p><b>MR. GREENBERG</b>: I think that if a showing had been made on that point, something 
 of that sort might be taken into consideration. </p>
-<p>MR. JUSTICE FRANKFURTER: I was referring to the broader question that Justice 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I was referring to the broader question that Justice 
 Jackson raised by referring to the considerations of the Attorney General&#39;s previous answers, the whole broad problem of relief 
 in these cases on the assumption that rights are involved. </p>
-<p>MR. GREENBERG: That is right, sir. </p>
+<p><b>MR. GREENBERG</b>: That is right, sir. </p>
 <p>I would like to address myself to something close to that question, Your Honor. There have been questions apparently in this case and in other cases 
 concerning the administrative problems that might be involved in the integration 
 which was involved in these cases. As to this case, we can only say that the 
@@ -1008,13 +1008,13 @@ decree of the Supreme Court of Delaware came down, I believe, on August the
 28th, at which time both counsel for the respondents were on vacation; and before we could even return from vacation, the children who had read about the decree in the newspaper had applied to the schools and 
 had been admitted, and there was no more administrative problem involved than admitting anybody else. I certainly heard of nothing unusual in this particular case that would indicate any serious 
 administrative, or any administrative, difficulty. </p>
-<p>MR. JUSTICE FRANKFURTER: Are you suggesting that on the broader issue there is 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Are you suggesting that on the broader issue there is 
 no problem at all in just eliminating segregated school systems throughout the country, no problem at all? </p>
-<p>MR. GREENBERG: Of course, there may be a problem, but in this case there was 
+<p><b>MR. GREENBERG</b>: Of course, there may be a problem, but in this case there was 
 no problem, and in fact no problem whatsoever. </p>
-<p>MR. JUSTICE FRANKFURTER: Then there is no occasion for not doing what the Delaware 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Then there is no occasion for not doing what the Delaware 
 court did? </p>
-<p>MR. GREENBERG: As far as administrative problems are concerned, I see no problem. </p>
+<p><b>MR. GREENBERG</b>: As far as administrative problems are concerned, I see no problem. </p>
 <p>The Attorney General&#39;s contention that the schools can be equalized within one 
 year does not take several factors into account. The first one is, how the Wilmington School Board, which is not a party to this 
 case, and which would have to equalize the Howard School in question, can be compelled 
@@ -1056,16 +1056,16 @@ on page 58 of the thin blue book. </p>
 <p>So the Attorney General&#39;s request for a decree ordering equalization is based upon a factual premise that such equalization will occur at some ascertainable 
 time in the future, and it is nowhere supported in the record in either of the opinions 
 of the courts below. </p>
-<p>MR. CHIEF JUSTICE VINSON: You mean to say that the record does not show about the construction of the new high school, costing a million 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: You mean to say that the record does not show about the construction of the new high school, costing a million 
 and a quarter dollars, that the Attorney General referred to? </p>
-<p>MR. GREENBERG: Yes, Your Honor. It showed that a new high school is being constructed. 
+<p><b>MR. GREENBERG</b>: Yes, Your Honor. It showed that a new high school is being constructed. 
 That high school is thirty miles south of where respondents live, in the high school 
 case; and it nowhere indicates what effect that high school will have upon the future 
 education of respondents. </p>
-<p>MR. CHIEF JUSTICE VINSON: Does it consider the additions at Howard, and how they 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Does it consider the additions at Howard, and how they 
 would be ready for use next September? Is that in the record, or is the Attorney 
 General speaking out of the record? </p>
-<p>MR. GREENBERG: There is a stipulation, Your Honor, which I will quote in full, and I think it will thoroughly answer your question. The stipulation is on page 36 of the clipped-in portion of the thin blue book, 
+<p><b>MR. GREENBERG</b>: There is a stipulation, Your Honor, which I will quote in full, and I think it will thoroughly answer your question. The stipulation is on page 36 of the clipped-in portion of the thin blue book, 
 and Item 3 of that stipulation states: </p>
 <blockquote>
   <p>The present schedule of the Wilmington Board of Education calls for a transfer 
@@ -1073,9 +1073,9 @@ of grades seven, eight and nine of the Howard High School to the Bancroft School
 and the closing down of the Carver School at the beginning of the school year in September, 1953. 
   </p>
 </blockquote>
-<p>MR. CHIEF JUSTICE VINSON: Is there anything about the additional facilities at Howard? We were told that there is quite a bit of it, and that 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: Is there anything about the additional facilities at Howard? We were told that there is quite a bit of it, and that 
 that would be ready in September. </p>
-<p>MR. GREENBERG: I think, in justice to the Attorney General, I can take the petition 
+<p><b>MR. GREENBERG</b>: I think, in justice to the Attorney General, I can take the petition 
 for certiorari and refer to every record reference that he gives. On page five of his petition for certiorari, speaking of future 
 equalization, he refers first to pages R-36 and 57, which are in the clipped-in 
 portion of this thin blue book. On page R-36 is Item 3, which we just read. On page 
@@ -1123,23 +1123,23 @@ equalized. </p>
 would be our contention that this merely might be another unfortunate burden that these respondents have to bear solely because of their race. But where the record proves that the injury from which the right flows will exist in segregated schools so long as segregated 
 schools exist, we submit that this Court should recognize these facts and assure 
 the respondents&#39; admission permanently. </p>
-<p>MR. JUSTICE BLACK: Do you say that the record shows that? What are you depending 
+<p><b>MR. JUSTICE BLACK</b>: Do you say that the record shows that? What are you depending 
 upon? The findings? </p>
-<p>MR. GREENBERG: We are depending upon the findings and the evidence upon which 
+<p><b>MR. GREENBERG</b>: We are depending upon the findings and the evidence upon which 
 the findings were made. </p>
-<p>MR. JUSTICE BLACK: Do you take the position that the findings affect the matter generally, or only in Delaware? </p>
-<p>MR. GREENBERG: The findings expressly refer to Delaware, Your Honor, in our Delaware 
+<p><b>MR. JUSTICE BLACK</b>: Do you take the position that the findings affect the matter generally, or only in Delaware? </p>
+<p><b>MR. GREENBERG</b>: The findings expressly refer to Delaware, Your Honor, in our Delaware 
 society. As to the other states, I have read the record in some of these other states, 
 and there is similar evidence. But speaking of the Delaware case, the findings
 refer to Delaware specifically, and indeed, by our witnesses there was a very 
 heavy emphasis upon the fact that these Delaware children were examined by one of America&#39;s most eminent psychiatrists, and by psychologists. An ex-head of the Delaware Psychological Association testified for us. The head of the sociology department of the University of Delaware testified for us. A professor of education at the University of Delaware testified for us. It was all to the 
 effect that in Delaware society, this is the effect. 
 </p>
-<p>MR. JUSTICE BLACK: Is that what you are limiting this part of your argument to, 
+<p><b>MR. JUSTICE BLACK</b>: Is that what you are limiting this part of your argument to, 
 that on the basis of cases of this kind and the findings of fact based on oral testimony, 
 it may be expected, under the &quot;separate but equal&quot; doctrine, to show that there is an inferiority in educational 
 opportunity in one community where there might not be in another? </p>
-<p>MR. GREENBERG: Yes, Your Honor, that is part of what you might call a three-pronged 
+<p><b>MR. GREENBERG</b>: Yes, Your Honor, that is part of what you might call a three-pronged 
 attack. But that is only one part of it. We also contend, of course, that the classification 
 is entirely unreasonable. But we are urging all the reasons we can for affirmance of the judgment below, and that is one of the reasons. </p>
 <p>So as I said, in the doctrine announced in the case of Helvering v. Lerner Stores, which is in our brief at page eleven, we urge these additional 
@@ -1147,64 +1147,64 @@ reasons for affirmance of the judgment below. We urge again that this Court reco
 the unreasonableness of the classification involved in this case, and also that 
 this Court adopt as its own the factual finding of the Chancellor that state-imposed
 segregation in Delaware society injures the Negro child. </p>
-<p>MR. JUSTICE FRANKFURTER: How can we do that? The Supreme Court says that we are not going to review that. That means that we must take 
+<p><b>MR. JUSTICE FRANKFURTER</b>: How can we do that? The Supreme Court says that we are not going to review that. That means that we must take 
 the testimony of Doctor Fredric Wertham, for whom I have a great respect, and say 
 that his testimony, his appraisal and his judgment, are like mathematical pronouncements, and there they are.
 </p>
-<p>MR. GREENBERG: Well, Your Honor, there are several things involved. It is a very 
+<p><b>MR. GREENBERG</b>: Well, Your Honor, there are several things involved. It is a very 
 full and completely uncontradicted record. Secondly, there was a thorough review 
 by the Chancellor. </p>
-<p>MR. JUSTICE FRANKFURTER: But the testimony of a witness is subject to intrinsic 
+<p><b>MR. JUSTICE FRANKFURTER</b>: But the testimony of a witness is subject to intrinsic 
 limitations and qualifications and illuminations. The mere fact that a man is not contradicted does not mean that what he says 
 is so. </p>
-<p>MR. GREENBERG: As far as that is concerned, the Chancellor— </p>
-<p>MR. JUSTICE FRANKFURTER: If a man says three yards, and I have measured it and 
+<p><b>MR. GREENBERG</b>: As far as that is concerned, the Chancellor— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: If a man says three yards, and I have measured it and 
 it is three yards, there it is. But if a man tells you the inside of your brain and mine, and how we 
 function, that is not a measurement, and there you are. </p>
-<p>MR. GREENBERG: That is true, Your Honor. But it is our contention that as far as the value to be placed upon the facts, the trial judge was able 
+<p><b>MR. GREENBERG</b>: That is true, Your Honor. But it is our contention that as far as the value to be placed upon the facts, the trial judge was able 
 to see and hear the witness, and that is certainly in the record. The Chancellor saw him. Now, as far as the record is concerned, 
 Your Honors are as free to review that record as the Supreme Court of Delaware. 
 They cannot recapture the mood and the word of the witness, either, and this bears 
 on a constitutional right. </p>
-<p>MR. JUSTICE FRANKFURTER: I do not know about that. They are dealing with Delaware 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I do not know about that. They are dealing with Delaware 
 conditions. They are dealing with situations that they know about. It makes a lot 
 of difference, whether you have two so-called minority children in a group of twenty 
 or two out of fifty or ten out of forty. Those are all local conditions, as to which 
 the Supreme Court of Delaware has some knowledge, having lived there and thought 
 about these things. </p>
-<p>MR. GREENBERG: All we can say is that whatever consideration was given to the 
+<p><b>MR. GREENBERG</b>: All we can say is that whatever consideration was given to the 
 matter by the Delaware court, all added up to the fact that segregation injured 
 these children. And as far as what I assume Your Honor is referring to, I assume 
 Your Honor is referring to what other counsel has referred to, the untoward effects of the abolition 
 of segregation. </p>
-<p>MR. JUSTICE FRANKFURTER: I am not referring to anything, except that we are here 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I am not referring to anything, except that we are here 
 in a domain which I do not yet regard as science in the sense of mathematical certainty. 
 This is all opinion evidence. </p>
-<p>MR. GREENBERG: That is true, Your Honor. </p>
-<p>MR. JUSTICE FRANKFURTER: I do not mean that I disrespect it. I simply know its 
+<p><b>MR. GREENBERG</b>: That is true, Your Honor. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I do not mean that I disrespect it. I simply know its 
 character. It can be a very different thing from, as I say, things that are weighed 
 and measured and are fungible. We are dealing here with very subtle things, very subtle testimony. </p>
-<p>MR. GREENBERG: Our only answer to that is that to the extent that it did receive 
+<p><b>MR. GREENBERG</b>: Our only answer to that is that to the extent that it did receive 
 a review below, and to the extent that the Chancellor was able to view these witnesses, and to the extent that the cross-examination 
 affected their testimony, and to the extent that the Supreme Court of Delaware felt 
 that the abolition of segregation would have any untoward effect, none of that weakens this testimony at all, because 
 in fact segregation was abolished as far as these particular children were concerned, 
 and they are now attending the schools. </p>
-<p>MR. JUSTICE FRANKFURTER: I do not mean to raise the question of testimony. All I am saying is that I do not have a record such as I would 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I do not mean to raise the question of testimony. All I am saying is that I do not have a record such as I would 
 have if I merely had the Chancellor&#39;s findings, or if the supreme court had said, 
 &quot;We agree with the Chancellor.&quot; </p>
-<p>MR. GREENBERG: I agree that if more people had reviewed this— </p>
-<p>MR. JUSTICE FRANKFURTER: Not more; the very simple fact, the fact that the supreme 
+<p><b>MR. GREENBERG</b>: I agree that if more people had reviewed this— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Not more; the very simple fact, the fact that the supreme 
 court said, inasmuch as we deem this immaterial, we do not review it, and therefore 
 we have merely a finding of an intermediate court, as to which I know not what the 
 highest court of Delaware would have said if they had reviewed it. </p>
-<p>MR. JUSTICE BLACK: Did you say that the children are now attending these schools?
+<p><b>MR. JUSTICE BLACK</b>: Did you say that the children are now attending these schools?
 </p>
-<p>MR. GREENBERG: That is right, sir. They registered from the beginning of the 
+<p><b>MR. GREENBERG</b>: That is right, sir. They registered from the beginning of the 
 semester. I thought I mentioned that the decree— </p>
-<p>MR. JUSTICE BLACK: I thought the argument was that they could not get in, that 
+<p><b>MR. JUSTICE BLACK</b>: I thought the argument was that they could not get in, that 
 it would disrupt the schools. </p>
-<p>MR. GREENBERG: The Attorney General of Delaware applied for a stay of execution, 
+<p><b>MR. GREENBERG</b>: The Attorney General of Delaware applied for a stay of execution, 
 but it was not granted to him. One of the reasons was that he applied too late, 
 and another reason was that to grant the stay would be inconsistent with the mandate.
 </p>
@@ -1261,14 +1261,14 @@ Associate Justice <br>
   </p>
 </blockquote>
 <p align="center"><b>PROCEEDINGS </b> </p>
-<p>MR. CHIEF JUSTICE WARREN: No. 10, <i>Francis B. Gebhart, et al.</i>, v. <i>Ethel Louise 
+<p><b>MR. CHIEF JUSTICE WARREN</b>: No. 10, <i>Francis B. Gebhart, et al.</i>, v. <i>Ethel Louise 
 Belton, et al</i>. </p>
-<p>THE CLERK: Counsel are present. </p>
-<p>MR. CHIEF JUSTICE WARREN: Mr. Young? </p>
+<p><b>THE CLERK</b>: Counsel are present. </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Mr. Young? </p>
 <p align="center"><b>OPENING ARGUMENT OF <br>
 H. ALBERT YOUNG, ESQ., <br>
 ON BEHALF OF PETITIONERS </b> </p>
-<p>MR. YOUNG: The petitioners in this case, Your Honors, seek review of final judgments 
+<p><b>MR. YOUNG</b>: The petitioners in this case, Your Honors, seek review of final judgments 
 of the Supreme Court of the State of Delaware affirming orders of the Court of Chancery. 
 The petitioners are members of the Board of Education of the State of Delaware, 
 and the boards of the Claymont Special School District and the Hockessin School 
@@ -1373,9 +1373,9 @@ reading of the contest for the United States senatorship in 1889, came to Delawa
 and stated he was available, and because of his contributions to the party at that 
 time, the Republicans got in control; and he also accomplished the enfranchisement 
 of a great many of the Negroes by paying their poll tax. </p>
-<p>MR. JUSTICE FRANKFURTER: To an outsider it does not appear as one of the great 
+<p><b>MR. JUSTICE FRANKFURTER</b>: To an outsider it does not appear as one of the great 
 social reforms of this country, does it? </p>
-<p>MR. YOUNG: That is correct, Your Honor. </p>
+<p><b>MR. YOUNG</b>: That is correct, Your Honor. </p>
 <p>And by 1898 the Republican Party, through his efforts, however, had upset the 
 Democratic control, so that the white supremacists in the State of Delaware had 
 been overthrown. It was against this background that the Constitution of 1897, now 
@@ -1405,15 +1405,15 @@ has been presented—but it seems to me that in connection with Delaware&#39;s p
 in order for the Court to obtain some idea of what the thinking was in the Congress 
 at the time, I would like to touch upon some of the action and debates, although 
 briefly, if I may, of Congress. </p>
-<p>MR. JUSTICE REED: May I ask a question whether there is any other case in the 
+<p><b>MR. JUSTICE REED</b>: May I ask a question whether there is any other case in the 
 courts of Delaware? I should like to be informed. </p>
-<p>MR. YOUNG: No, Your Honor. </p>
-<p>MR. JUSTICE REED: Just for my information. </p>
-<p>MR. YOUNG: This is the only case. </p>
-<p>MR. JUSTICE REED: This is the only case? </p>
-<p>MR. YOUNG: This is the only case, the first case of its kind. </p>
-<p>MR. JUSTICE REED: We know nothing, then, as to the federal performance? </p>
-<p>MR. YOUNG: No, this is the only case. </p>
+<p><b>MR. YOUNG</b>: No, Your Honor. </p>
+<p><b>MR. JUSTICE REED</b>: Just for my information. </p>
+<p><b>MR. YOUNG</b>: This is the only case. </p>
+<p><b>MR. JUSTICE REED</b>: This is the only case? </p>
+<p><b>MR. YOUNG</b>: This is the only case, the first case of its kind. </p>
+<p><b>MR. JUSTICE REED</b>: We know nothing, then, as to the federal performance? </p>
+<p><b>MR. YOUNG</b>: No, this is the only case. </p>
 <p>In attempting to evaluate the understanding of Congress, of course, we have got 
 to consider the debate in Congress and the action of Congress, the action of Congress, 
 for example, on the bill to enlarge the Freedmen&#39;s Bureau; the Civil Rights Act 
@@ -1517,7 +1517,7 @@ accept so imperfect a proposition? </p>
 </blockquote>
 <p>He is talking about the Fourteenth Amendment. </p>
 <blockquote>
-  <p>I answer: Because I live among men, and not among angels; among men as intelligent, 
+  <p><b>I answer</b>: Because I live among men, and not among angels; among men as intelligent, 
 as determined and as interested as myself, who, not agreeing with me, do not choose 
 to yield their opinions to mine. Mutual concession, therefore, is our only resort, 
 or mutual hostilities. </p>
@@ -1639,9 +1639,9 @@ firsthand knowledge of local conditions, decide that the state objective of free
 public education is best served by a system of separate but equal schools; and 
 if I may borrow from—
 </p>
-<p>MR. CHIEF JUSTICE WARREN: General, may I ask you what is the situation in Delaware 
+<p><b>MR. CHIEF JUSTICE WARREN</b>: General, may I ask you what is the situation in Delaware 
 today, as of this moment? </p>
-<p>MR. YOUNG: In Delaware, in the high school district which is the Claymont School 
+<p><b>MR. YOUNG</b>: In Delaware, in the high school district which is the Claymont School 
 District—and I might say it is the northern part of the State, almost on the borderline 
 of Pennsylvania—there are 19 school children in that school out of 22 eligible Negro 
 children. The total enrollment, you might be interested in knowing, is five hundred 
@@ -1661,32 +1661,32 @@ and that situation is not solved in that particular district in New Castle Count
 <p>MR, JUSTICE JACKSON: At any rate, Mr. Attorney General, we have no question in 
 your case of shaping the remedy? I suppose the questions accidentally went to you 
 as well as to the other counsel? </p>
-<p>MR. YOUNG: That is right, yes. </p>
-<p>MR. JUSTICE JACKSON: But in your case we have no problem of a decree? </p>
-<p>MR. YOUNG: If segregation <i>per se</i> is declared invalid, that is the end of it.
+<p><b>MR. YOUNG</b>: That is right, yes. </p>
+<p><b>MR. JUSTICE JACKSON</b>: But in your case we have no problem of a decree? </p>
+<p><b>MR. YOUNG</b>: If segregation <i>per se</i> is declared invalid, that is the end of it.
 </p>
-<p>MR. JUSTICE JACKSON: It goes to the state courts? </p>
-<p>MR. YOUNG: That is right. </p>
-<p>MR. JUSTICE JACKSON: So we have nothing to do with that? 
+<p><b>MR. JUSTICE JACKSON</b>: It goes to the state courts? </p>
+<p><b>MR. YOUNG</b>: That is right. </p>
+<p><b>MR. JUSTICE JACKSON</b>: So we have nothing to do with that? 
 </p>
-<p>MR. YOUNG: That is right.
+<p><b>MR. YOUNG</b>: That is right.
 </p>
-<p>MR. JUSTICE JACKSON: So that those questions should not really have been addressed 
+<p><b>MR. JUSTICE JACKSON</b>: So that those questions should not really have been addressed 
 to you, I think. </p>
-<p>MR. YOUNG: It would have been very much appreciated if they had not been. </p>
+<p><b>MR. YOUNG</b>: It would have been very much appreciated if they had not been. </p>
 <p>[Laughter.] </p>
-<p>MR. JUSTICE FRANKFURTER: We have had the benefit of your observations. </p>
-<p>MR. YOUNG: Thank you, Justice Frankfurter. </p>
-<p>MR. JUSTICE REED: In that county are there still existing segregated schools?
+<p><b>MR. JUSTICE FRANKFURTER</b>: We have had the benefit of your observations. </p>
+<p><b>MR. YOUNG</b>: Thank you, Justice Frankfurter. </p>
+<p><b>MR. JUSTICE REED</b>: In that county are there still existing segregated schools?
 </p>
-<p>MR. YOUNG: Yes. </p>
-<p>MR. JUSTICE REED: All except in two districts? </p>
-<p>MR. YOUNG: Just the two districts 
+<p><b>MR. YOUNG</b>: Yes. </p>
+<p><b>MR. JUSTICE REED</b>: All except in two districts? </p>
+<p><b>MR. YOUNG</b>: Just the two districts 
 are affected. </p>
-<p>MR. JUSTICE REED: And they are maintaining segregated schools? </p>
-<p>MR. YOUNG: They are maintaining segregated— </p>
-<p>MR. JUSTICE REED: There are Negro residents and it is— </p>
-<p>MR. YOUNG: That is right. </p>
+<p><b>MR. JUSTICE REED</b>: And they are maintaining segregated schools? </p>
+<p><b>MR. YOUNG</b>: They are maintaining segregated— </p>
+<p><b>MR. JUSTICE REED</b>: There are Negro residents and it is— </p>
+<p><b>MR. YOUNG</b>: That is right. </p>
 <p>If I may borrow from a statement made by the venerable Mr. John W. Davis, and 
 quote from his brief this statement, he said: </p>
 <blockquote>
@@ -1724,7 +1724,7 @@ in Mr. Justice Black&#39;s own words, `to frustrate the great design of a writte
 WARREN: Mr. Redding? </p>
 <p align="center"><b>ARGUMENT OF JACK GREENBERG, ESQ., <br>
 ON BEHALF OF THE RESPONDENTS </b> </p>
-<p>MR. GREENBERG: Mr. Greenberg. </p>
+<p><b>MR. GREENBERG</b>: Mr. Greenberg. </p>
 <p>If it please the Court, Mr. Redding and I shall argue only briefly in support 
 of our position. </p>
 <p>In this case, as the Attorney General of Delaware has indicated, plaintiffs prevailed 
@@ -1742,36 +1742,36 @@ constitutional question. But since this Court has seen fit to address to respond
 in this case the same questions which it addressed to petitioners in numbers one, 
 two, and four, we inferred that this Court believed that the constitutional question 
 may be reached in this case. </p>
-<p>MR. JUSTICE FRANKFURTER: I do not quite understand the general invitation to 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I do not quite understand the general invitation to 
 counsel to submit arguments on a certain point changes the relevant issue within 
 the controversy; I do not quite understand that. </p>
-<p>MR. GREENBERG: I do not believe it changes the relevant issues, but we thought, 
+<p><b>MR. GREENBERG</b>: I do not believe it changes the relevant issues, but we thought, 
 perhaps, the Court was interested in the question of the constitutionality of segregation 
 in the Delaware case. </p>
-<p>MR. JUSTICE FRANKFURTER: As with the Attorney General of Delaware, I am glad 
+<p><b>MR. JUSTICE FRANKFURTER</b>: As with the Attorney General of Delaware, I am glad 
 to get his observations; and I am glad to get yours; but I do not see that something 
 which is not in issue before we asked specific questions in a group of cases becomes 
 the issue because we had asked them. </p>
-<p>MR. GREENBERG: We submit that, although the decision below may be supported on 
+<p><b>MR. GREENBERG</b>: We submit that, although the decision below may be supported on 
 an independent state ground, that in reality, equal protection of the laws will 
 not be given to the respondents unless the constitutional 
 question is reached, because, in truth and in fact, they are attending the 
 schools in which they now are, so to speak, under a cloud. They are not like the 
 rest of the students in the school; they are under— </p>
-<p>MR. JUSTICE FRANKFURTER: I think you should have cross-appealed. </p>
-<p>MR. JUSTICE JACKSON: You have not cross-appealed. </p>
-<p>MR. JUSTICE FRANKFURTER: I understand you can sustain a decision below on any 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I think you should have cross-appealed. </p>
+<p><b>MR. JUSTICE JACKSON</b>: You have not cross-appealed. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I understand you can sustain a decision below on any 
 ground, but I do not understand that you can object to a decision below on a ground 
 that you have not appealed from. </p>
-<p>MR. GREENBERG: Well, we did not cross-appeal, Mr. Justice Frankfurter, because 
+<p><b>MR. GREENBERG</b>: Well, we did not cross-appeal, Mr. Justice Frankfurter, because 
 we believed that we could urge other grounds for the affirmance of the judgment 
 below. </p>
-<p>MR. JUSTICE FRANKFURTER: You can urge any ground you please that will justify 
+<p><b>MR. JUSTICE FRANKFURTER</b>: You can urge any ground you please that will justify 
 the decree below; but you cannot go outside of the decree below. </p>
-<p>MR. GREENBERG: Well, it is our understanding— </p>
-<p>MR. JUSTICE FRANKFURTER: I am glad to get your observations, but I might suggest 
+<p><b>MR. GREENBERG</b>: Well, it is our understanding— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: I am glad to get your observations, but I might suggest 
 I do not think the nature of the issues has been changed. </p>
-<p>MR. JUSTICE JACKSON: I think the question was addressed in this case along with 
+<p><b>MR. JUSTICE JACKSON</b>: I think the question was addressed in this case along with 
 all the others, so if there were any variations they could be called to your attention. 
 I do not think that we—speaking for myself—took into account the fact or expected 
 in this case to deal with the problem of the decree and the relief or questions 
@@ -1779,18 +1779,18 @@ addressed to those things, because we cannot direct the state court as to what d
 it shall enter. All we can say is, &quot;You shall not go beyond a certain point,&quot; which 
 we say is the constitutional limit. Here affirmance is as far as we can go. We could 
 not order them to shape their decree. </p>
-<p>MR. GREENBERG: It is our position, Mr. Justice Jackson, that the decree below 
+<p><b>MR. GREENBERG</b>: It is our position, Mr. Justice Jackson, that the decree below 
 does not give equal protection of the laws. </p>
-<p>MR. JUSTICE JACKSON: You did not appeal. </p>
-<p>MR. GREENBERG: No, we did not. </p>
-<p>MR. JUSTICE JACKSON: So far as this case is concerned, the most that we can do 
+<p><b>MR. JUSTICE JACKSON</b>: You did not appeal. </p>
+<p><b>MR. GREENBERG</b>: No, we did not. </p>
+<p><b>MR. JUSTICE JACKSON</b>: So far as this case is concerned, the most that we can do 
 would be to affirm the decree; but you probably will have the benefit of anything 
 said in any other case that is helpful. </p>
 <p>[Whereupon, at two o&#39;clock p.m., a recess was held.] </p>
 <p align="center"><b>AFTERNOON SESSION </b> </p>
 <p align="center"><b>ARGUMENT OF THURGOOD MARSHALL, ESQ., <br>
 ON BEHALF OF RESPONDENTS—RESUMED </b> </p>
-<p>MR. MARSHALL: May it please the Court: </p>
+<p><b>MR. MARSHALL</b>: May it please the Court: </p>
 <p>During the luncheon recess, counsel in this case conferred, and it was agreed 
 among—at least so far as we are concerned—that instead of going into the main part 
 of the argument, that we would merely make a brief statement on it. And in the first 
@@ -1886,10 +1886,10 @@ is just beside Pennsylvania. It applies as well there as it applies in South Car
 and Virginia; and therefore, unless there are questions, we submit this case and 
 urge the Court to affirm the judgment of the Supreme Court of Delaware. </p>
 <p>Thank you, sirs. </p>
-<p>MR. JUSTICE FRANKFURTER: Might I ask General Young whether the specific judgment 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Might I ask General Young whether the specific judgment 
 we have before us is the final order that was entered by the Chancellor, which was 
 adopted by the court? Is that your understanding? </p>
-<p>MR. YOUNG: That is right. There is nothing in rebuttal. </p>
+<p><b>MR. YOUNG</b>: That is right. There is nothing in rebuttal. </p>
 <p>[Whereupon, at 2:40 o&#39;clock p.m., oral argument in the above-entitled matter 
 was concluded.] </p>
 </div>

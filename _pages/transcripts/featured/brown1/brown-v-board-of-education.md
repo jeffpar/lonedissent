@@ -58,7 +58,7 @@ BEFORE:</b></p>
 <p style="text-align:center">
   <b>PROCEEDINGS</b></p>
 <b>MR. CHIEF JUSTICE VINSON</b>: Case No. 8, <i>Oliver Brown and others</i> versus the
-<i>Board of Education of Topeka, Shawnee County, Kansas</i>.<p>THE CLERK: 
+<i>Board of Education of Topeka, Shawnee County, Kansas</i>.<p><b>THE CLERK</b>: 
 Counsel are present.</p>
 <p><b>MR. CHIEF JUSTICE VINSON</b>: Mr. Carter.
 </p>
@@ -1132,13 +1132,13 @@ O. DOUGLAS, <i>Associate Justice</i> <br>
 behalf of the Appellees</i>. </p>
 </blockquote>
 <p style="text-align:center"><b>PROCEEDINGS </b> </p>
-<p>MR. CHIEF JUSTICE WARREN: No. 1, <i>Oliver Brown, Mrs. Richard Lawton, Mrs. Sadie 
+<p><b>MR. CHIEF JUSTICE WARREN</b>: No. 1, <i>Oliver Brown, Mrs. Richard Lawton, Mrs. Sadie 
 Emmanuel</i> v. <i>Board of Education of Topeka, et al</i>. </p>
-<p>THE CLERK: Counsel are present, sir. </p>
-<p>MR. CHIEF JUSTICE WARREN: Mr. Carter? </p>
+<p><b>THE CLERK</b>: Counsel are present, sir. </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Mr. Carter? </p>
 <p style="text-align:center"><b>OPENING ARGUMENT OF ROBERT L. CARTER, ESQ., <br>
 ON BEHALF OF THE APPELLANTS </b> </p>
-<p>MR. CARTER: Mr. Chief Justice: </p>
+<p><b>MR. CARTER</b>: Mr. Chief Justice: </p>
 <p>The facts in this case are similar to those involved in the cases preceding. 
 The appellants are of elementary school age, of Negro origin, and they are required 
 to obtain their elementary school education in segregated elementary schools maintained 
@@ -1146,11 +1146,11 @@ pursuant to the laws of the State of Kansas, and pursuant to the rules and regul
 of the Topeka School Board. </p>
 <p>The statute in question, whose constitutionality we are here attacking, is chapter 
 172 of the Kansas Statutes of 1949. </p>
-<p>MR. JUSTICE FRANKFURTER: Is your case moot, Mr. Carter? </p>
-<p>MR. CARTER: I hoped that I would get a little further into the argument before 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Is your case moot, Mr. Carter? </p>
+<p><b>MR. CARTER</b>: I hoped that I would get a little further into the argument before 
 that question was asked. </p>
 <p>[Laughter.] </p>
-<p>MR. CARTER: We take the position, Your Honor, that the case is not moot. The 
+<p><b>MR. CARTER</b>: We take the position, Your Honor, that the case is not moot. The 
 government—the State, that is—takes the same position. We take that position because 
 of the fact that, although the plan which I had hoped to get to when I discussed 
 questions four and five—but if you want me to discuss it now, I will—the plan which 
@@ -1167,48 +1167,48 @@ settled, we still have—while we have only one appellant here who has been admi
 to the school, unsegregated school, pursuant to this plan—our position is that the 
 case is not a moot case, and we have to address ourselves to the questions which 
 the Court asked. </p>
-<p>MR. JUSTICE FRANKFURTER: Is Topeka here apart from—I understand the State 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Is Topeka here apart from—I understand the State 
 takes a different view. Is the immediate respondent—appellee here? </p>
-<p>MR. CARTER: If Your Honor will remember, last year the Topeka School Board did 
+<p><b>MR. CARTER</b>: If Your Honor will remember, last year the Topeka School Board did 
 not appear. </p>
-<p>MR. JUSTICE FRANKFURTER: No. </p>
-<p>MR. CARTER: This year they did not appear. So far as I know, they have no 
+<p><b>MR. JUSTICE FRANKFURTER</b>: No. </p>
+<p><b>MR. CARTER</b>: This year they did not appear. So far as I know, they have no 
 intention of appearing, if I am right in that—Mr. Wilson? </p>
-<p>MR. JUSTICE FRANKFURTER: They have every intention of giving you what you want, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: They have every intention of giving you what you want, 
 is that it? </p>
-<p>MR. CARTER: I beg your pardon? </p>
-<p>MR. JUSTICE FRANKFURTER: They merely have the intention of giving you what you 
+<p><b>MR. CARTER</b>: I beg your pardon? </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: They merely have the intention of giving you what you 
 want, and not contesting your claim? </p>
-<p>MR. CARTER: That is right. </p>
-<p>MR. JUSTICE FRANKFURTER: That is what I call a moot case. </p>
+<p><b>MR. CARTER</b>: That is right. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is what I call a moot case. </p>
 <p>[Laughter.] </p>
-<p>MR. JUSTICE JACKSON: Do I understand that the parties you represent here are 
+<p><b>MR. JUSTICE JACKSON</b>: Do I understand that the parties you represent here are 
 now admitted to unsegregated schools? </p>
-<p>MR. CARTER: No, sir. One of the appellants has been admitted to a school in the 
+<p><b>MR. CARTER</b>: No, sir. One of the appellants has been admitted to a school in the 
 district in which he lives; that school has been opened to Negroes. Just one of 
 the appellants has been admitted. </p>
-<p>MR. JUSTICE JACKSON: What about the others? </p>
-<p>MR. CARTER: The others are still attending the four segregated schools. </p>
-<p>MR. JUSTICE JACKSON: You have clients, then, who are still subject to the rule of segregation? </p>
-<p>MR. CARTER: Yes. </p>
-<p>MR. JUSTICE JACKSON: But by the authorized pronouncement of the appellee, they will be admitted just as soon as it is physically or administratively 
+<p><b>MR. JUSTICE JACKSON</b>: What about the others? </p>
+<p><b>MR. CARTER</b>: The others are still attending the four segregated schools. </p>
+<p><b>MR. JUSTICE JACKSON</b>: You have clients, then, who are still subject to the rule of segregation? </p>
+<p><b>MR. CARTER</b>: Yes. </p>
+<p><b>MR. JUSTICE JACKSON</b>: But by the authorized pronouncement of the appellee, they will be admitted just as soon as it is physically or administratively 
 or whatever the adverbs are—Topeka is able to admit them, and they do not contest 
 your position. </p>
-<p>MR. CARTER: That is true. </p>
-<p>MR. JUSTICE FRANKFURTER: Kansas does contest? </p>
-<p>MR. CARTER: That is right. </p>
-<p>MR. JUSTICE FRANKFURTER: That is a different story. But Kansas is not a party.
+<p><b>MR. CARTER</b>: That is true. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Kansas does contest? </p>
+<p><b>MR. CARTER</b>: That is right. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is a different story. But Kansas is not a party.
 </p>
-<p>MR. CARTER: Well, Kansas appeared in the court below as a party. It intervened 
+<p><b>MR. CARTER</b>: Well, Kansas appeared in the court below as a party. It intervened 
 in the court below as a party, specifically for the purpose of defending the constitutionality 
 of the statute. </p>
-<p>MR. JUSTICE FRANKFURTER: Yes. But abstractly to defend a statute does not give 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Yes. But abstractly to defend a statute does not give 
 this Court jurisdiction to pass upon it. </p>
-<p>MR. CARTER: Well, frankly, Your Honor, my only feeling on this is that, with 
+<p><b>MR. CARTER</b>: Well, frankly, Your Honor, my only feeling on this is that, with 
 respect to the plan which is in operation, the appellees have certainly 
 indicated an intention— </p>
-<p>MR. JUSTICE FRANKFURTER: And you do not question the good faith? </p>
-<p>MR. CARTER: I certainly do not. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: And you do not question the good faith? </p>
+<p><b>MR. CARTER</b>: I certainly do not. </p>
 <p>But the point that I think that we need to, that we have to have in mind, one, 
 I think, insofar as the plan itself is concerned, I have serious questions about—with 
 respect to the plan, as to whether this is the forum to raise that, I do not 
@@ -1216,7 +1216,7 @@ know. Also, I think, insofar as the other appellants are concerned, as I
 indicated, I do not know when they will be free from the imprint of the 
 statutes, and it does not seem to me that at this point in the litigation I can 
 say that the case is moot, when the State of Kansas— </p>
-<p>MR. JUSTICE FRANKFURTER: Perhaps I ought to change my inquiry. I do not mean 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Perhaps I ought to change my inquiry. I do not mean 
 to shut off your argument. Having heard you before, it gives me pleasure to hear 
 you again. But as I understand it, then, the position is that the respondent, the appellee, meets your claim, and you do not question the purpose is to meet it; and 
 the question is whether, as a matter of formality, in fact the concession of your 
@@ -1231,75 +1231,75 @@ and I am sure that is a welcome thing to you. I am not talking about the general
 question; I am talking about the specific thing, that the Board of Education has 
 taken the position, and you just want to be sure that they will carry it out; is 
 that right? </p>
-<p>MR. CARTER: That is right. If that is the general view of the Court, I would 
+<p><b>MR. CARTER</b>: That is right. If that is the general view of the Court, I would 
 certainly— </p>
-<p>MR. JUSTICE REED: What about the State? As I recall it, the State was admitted 
+<p><b>MR. JUSTICE REED</b>: What about the State? As I recall it, the State was admitted 
 as a party. </p>
-<p>MR. CARTER: Yes, sir; the State was admitted as a party. </p>
-<p>MR. JUSTICE REED: Or 
+<p><b>MR. CARTER</b>: Yes, sir; the State was admitted as a party. </p>
+<p><b>MR. JUSTICE REED</b>: Or 
 merely as a friend of the court. </p>
-<p>MR. CARTER: No, they intervened as a party in the court below, defending the 
+<p><b>MR. CARTER</b>: No, they intervened as a party in the court below, defending the 
 constitutionality of the statute under which the segregation was practiced and permitted 
 and was in fact practiced in Topeka. </p>
 <p>In the original— </p>
-<p>MR. JUSTICE REED: And is there authority in the State of Kansas for the Attorney 
+<p><b>MR. JUSTICE REED</b>: And is there authority in the State of Kansas for the Attorney 
 General as intervenor in the litigation in which part of the State is involved, 
 or a city in the State, or the Board of Education? </p>
-<p>MR. CARTER: No. </p>
-<p>MR. JUSTICE REED: Has that been pointed out as to the Attorney General&#39;s right 
+<p><b>MR. CARTER</b>: No. </p>
+<p><b>MR. JUSTICE REED</b>: Has that been pointed out as to the Attorney General&#39;s right 
 to intervene in the case and take charge of the case? </p>
-<p>MR. CARTER: Well, that wasn&#39;t what occurred. </p>
-<p>MR. JUSTICE REED: They did not approach it on that basis? </p>
-<p>MR. CARTER: No, sir. I will explain briefly what happened. We went before a 
+<p><b>MR. CARTER</b>: Well, that wasn&#39;t what occurred. </p>
+<p><b>MR. JUSTICE REED</b>: They did not approach it on that basis? </p>
+<p><b>MR. CARTER</b>: No, sir. I will explain briefly what happened. We went before a 
 statutory court, and we attacked the constitutionality of the statute. The clerk 
 of the court advised the Attorney General that a state statute was under attack. 
 The Topeka Board appeared and defended their action and the statute, and the 
 State appeared separately in order to defend the constitutionality of the 
 statute. They are in that position here. They appeared in the original argument, 
 and they reappeared— </p>
-<p>MR. JUSTICE FRANKFURTER: They did not appear; we had to bring them in. We had 
+<p><b>MR. JUSTICE FRANKFURTER</b>: They did not appear; we had to bring them in. We had 
 to ask them whether they would let the thing go by default. They did not appear; 
 they were not so anxious. They did not claim that they had a great right, that they 
 had a right to defend here. </p>
-<p>MR. CARTER: Well, I think— </p>
-<p>MR. JUSTICE FRANKFURTER: Perhaps &quot;cajoled&quot; is a better word.
+<p><b>MR. CARTER</b>: Well, I think— </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Perhaps &quot;cajoled&quot; is a better word.
 </p>
-<p>MR. CARTER: If you are expressing—if that is the view of the Court, Your 
+<p><b>MR. CARTER</b>: If you are expressing—if that is the view of the Court, Your 
 Honor—
 </p>
-<p>MR. JUSTICE FRANKFURTER: Mr. Carter, nobody knows better than you that I can 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Carter, nobody knows better than you that I can 
 speak only for one poor lone voice. </p>
-<p>MR. CARTER: I certainly have no real desire to proceed with an argument. </p>
-<p>MR. JUSTICE FRANKFURTER: But Mr. Carter, if all the appellants had been admitted—suppose 
+<p><b>MR. CARTER</b>: I certainly have no real desire to proceed with an argument. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: But Mr. Carter, if all the appellants had been admitted—suppose 
 all of them were in the position of this one child— </p>
-<p>MR. CARTER: I would have no question about it. </p>
-<p>MR. JUSTICE FRANKFURTER: Then the State would not say, &quot;We want to be heard,&quot; 
+<p><b>MR. CARTER</b>: I would have no question about it. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Then the State would not say, &quot;We want to be heard,&quot; 
 could they? </p>
-<p>MR. CARTER: No, sir. I would have no question about it if all the appellants 
+<p><b>MR. CARTER</b>: No, sir. I would have no question about it if all the appellants 
 had been admitted; I think that the question of mootness would have been clear. 
 But my problem with respect to it is that some are admitted and some are not.
 </p>
-<p>MR. JUSTICE FRANKFURTER: I understand it then, that it is a question of 
+<p><b>MR. JUSTICE FRANKFURTER</b>: I understand it then, that it is a question of 
 whether Topeka will carry this out as. quickly with these other children as they 
 have with Leah— </p>
-<p>MR. CARTER: Leah Carter. And I also have no way of knowing whether this would 
+<p><b>MR. CARTER</b>: Leah Carter. And I also have no way of knowing whether this would 
 be so, because the appellees do not appear before the Court, and the State cannot 
 speak for the appellees with respect to this question. But if it is permissible, 
 I would yield my time to the State, and see what the State has to say about this, 
 and I would answer it, if that is permissible so far as the Court is concerned.
 </p>
-<p>MR. JUSTICE JACKSON: You have the privilege of rebuttal under our rules, if he 
+<p><b>MR. JUSTICE JACKSON</b>: You have the privilege of rebuttal under our rules, if he 
 says anything that you wish to answer. </p>
-<p>MR. CHIEF JUSTICE WARREN: Mr. Wilson, will you please address yourself to the 
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Mr. Wilson, will you please address yourself to the 
 question of whether it is moot or not? </p>
 <p style="text-align:center"><b>ARGUMENT OF PAUL E. WILSON, ESQ., <br>
 ON BEHALF OF THE STATE OF KANSAS </b> </p>
-<p>MR. WILSON: If it please the Court, it is our position that the case is not moot 
+<p><b>MR. WILSON</b>: If it please the Court, it is our position that the case is not moot 
 from our standpoint for several reasons. In the first place, the appellant has pointed 
 out that only one of the group of appellants that counsel represents has been admitted 
 to the integrated public schools of Topeka. </p>
-<p>MR. JUSTICE REED: Why is that? </p>
-<p>MR. WILSON: The Board of Education—may I preface this remark by pointing out 
+<p><b>MR. JUSTICE REED</b>: Why is that? </p>
+<p><b>MR. WILSON</b>: The Board of Education—may I preface this remark by pointing out 
 that our statute is a permissive one. The local boards of education are 
 authorized to make the determination on the local level as to whether separate 
 or integrated school systems shall be maintained in cities of the first class. 
@@ -1317,9 +1317,9 @@ court. We were asked to defend it in the Supreme Court a year ago. But we feel t
 we must, in order to maintain a position consistent with the expressed intent of 
 this Court, answer the brief and the arguments that the appellants have supplied 
 us. </p>
-<p>MR. JUSTICE FRANKFURTER: May I trouble you to tell me what are the cities of 
+<p><b>MR. JUSTICE FRANKFURTER</b>: May I trouble you to tell me what are the cities of 
 the first class in Kansas? </p>
-<p>MR. WILSON: Yes, sir. May I refer you to Appendix D in our brief, the very last 
+<p><b>MR. WILSON</b>: Yes, sir. May I refer you to Appendix D in our brief, the very last 
 page. There are set out in tabular form the nine cities of the first class where 
 segregation is maintained on a complete or partial basis in the elementary schools. 
 Now, in addition to that, there are three cities, namely Wichita, Hutchinson and 
@@ -1327,12 +1327,12 @@ Pittsburgh, that do not maintain segregated elementary schools. Two of those cit
 as we point out in our brief, have completed a process of integration during the 
 past two years. </p>
 <p>We feel that— </p>
-<p>MR. JUSTICE FRANKFURTER: Is there any litigation pending as to any of the other 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Is there any litigation pending as to any of the other 
 cities? </p>
-<p>MR. WILSON: No, sir. </p>
-<p>MR. JUSTICE REED: Why did one of the parties, appellants, disappear from the 
+<p><b>MR. WILSON</b>: No, sir. </p>
+<p><b>MR. JUSTICE REED</b>: Why did one of the parties, appellants, disappear from the 
 case? </p>
-<p>MR. WILSON: The plan adopted by the Topeka Board of Education was this: You will 
+<p><b>MR. WILSON</b>: The plan adopted by the Topeka Board of Education was this: You will 
 recall from the record last year and the arguments that the city then maintained 
 within the entire district eighteen geographic areas. In each geographic area there 
 was a school attended by the white students living within the 
@@ -1344,30 +1344,30 @@ of the geographic areas, namely, Randolph and Southwest. There were nine Negro s
 living within the limits of those geographic areas. Consequently, they are admitted 
 to the integrated schools, and one of these appellants is one of those children.
 </p>
-<p>MR. JUSTICE FRANKFURTER: As I understand it, the present situation is that the 
+<p><b>MR. JUSTICE FRANKFURTER</b>: As I understand it, the present situation is that the 
 only litigation that is rife is the one now before the Court? </p>
-<p>MR. WILSON: That is correct, if the Court please. </p>
-<p>MR. JUSTICE FRANKFURTER: As to which the educational authorities, with an authority 
+<p><b>MR. WILSON</b>: That is correct, if the Court please. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: As to which the educational authorities, with an authority 
 not challenged by the State to stop segregated schools, in fact formally and officially 
 announced that they are going to integrate their schools, and have begun the process 
 of integration; is that correct? </p>
-<p>MR. WILSON: I should point out that not only is the authority not challenged 
+<p><b>MR. WILSON</b>: I should point out that not only is the authority not challenged 
 by the State, the authority is specifically granted by the statute that is here 
 being attacked. </p>
-<p>MR. JUSTICE FRANKFURTER: So they are doing what they can do, no matter— </p>
-<p>MR. WILSON: They are doing, as a matter of policy, as a matter of legislative 
+<p><b>MR. JUSTICE FRANKFURTER</b>: So they are doing what they can do, no matter— </p>
+<p><b>MR. WILSON</b>: They are doing, as a matter of policy, as a matter of legislative 
 policy, may I say, what they can do without reference to this case. </p>
-<p>MR. JUSTICE FRANKFURTER: But if they did what it wanted, the State cannot say, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: But if they did what it wanted, the State cannot say, 
 &quot;You are exceeding your authority,&quot; and no case could come here on that ground, 
 could it? </p>
-<p>MR. WILSON: Certainly not. </p>
-<p>MR. JUSTICE REED: If they were to reverse their position tomorrow, these children 
+<p><b>MR. WILSON</b>: Certainly not. </p>
+<p><b>MR. JUSTICE REED</b>: If they were to reverse their position tomorrow, these children 
 who seek admission would have no right to go unless it was unconstitutional? </p>
-<p>MR. WILSON: That is right. </p>
-<p>MR. JUSTICE FRANKFURTER: Do you think it is an alarming assumption that in 1953, 
+<p><b>MR. WILSON</b>: That is right. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Do you think it is an alarming assumption that in 1953, 
 where a state has stopped segregation, and in the next year is going to begin segregation 
 in Topeka, Kansas? Do you think we ought to do business on that assumption? </p>
-<p>MR. WILSON: If the Court please, may I distinguish between the State of Kansas and the Board of Education of Topeka, Kansas, which is a separate 
+<p><b>MR. WILSON</b>: If the Court please, may I distinguish between the State of Kansas and the Board of Education of Topeka, Kansas, which is a separate 
 municipal corporation. The Board of Education of Topeka, Kansas, has announced its 
 intention to abandon the policy of segregation. I think the Board is acting in complete 
 good faith, and I have no notion that they will reverse that trend. On the other 
@@ -1378,23 +1378,23 @@ be heard with respect to the questions that the Court submitted to it on June 8.
 <p>If the case is moot, obviously, after five or six hours, argument does reach 
 a point of diminishing returns, and certainly we do not want to discuss a matter 
 that is moot, if the Court deems that to be the case. </p>
-<p>MR. JUSTICE JACKSON: Is there anything that would distinguish your case and that 
+<p><b>MR. JUSTICE JACKSON</b>: Is there anything that would distinguish your case and that 
 would save your statute if the statute in the other states went down? </p>
-<p>MR. WILSON: I think not, Your Honor. </p>
-<p>MR. JUSTICE JACKSON: So that your case is governed by what—is there anything 
+<p><b>MR. WILSON</b>: I think not, Your Honor. </p>
+<p><b>MR. JUSTICE JACKSON</b>: So that your case is governed by what—is there anything 
 that you have to add that Mr. Davis or Judge Moore have not covered, in defense 
 of your statute? </p>
-<p>MR. WILSON: In preparing my argument, I examined the same authorities that both 
+<p><b>MR. WILSON</b>: In preparing my argument, I examined the same authorities that both 
 the other appellees and the appellants have examined. As a matter of fact, I cite 
 both the same authorities that both the parties, as well as the Attorney General, 
 have examined. My conclusions, my interpretations, are substantially those that 
 Mr. Davis and Judge Moore have presented to this Court. </p>
-<p>MR. MOORE: That is Mr. Moore; I would just like to correct that. </p>
-<p>MR. WILSON: I am not sure whether it is proper to apologize under the circumstances 
+<p><b>MR. MOORE</b>: That is Mr. Moore; I would just like to correct that. </p>
+<p><b>MR. WILSON</b>: I am not sure whether it is proper to apologize under the circumstances 
 or not. </p>
 <p>[Laughter.] </p>
-<p>MR. CHIEF JUSTICE WARREN: You may proceed, Mr. Wilson. </p>
-<p>MR. WILSON: In view of the comments by the Court, I shall proceed somewhat summarily. 
+<p><b>MR. CHIEF JUSTICE WARREN</b>: You may proceed, Mr. Wilson. </p>
+<p><b>MR. WILSON</b>: In view of the comments by the Court, I shall proceed somewhat summarily. 
 I shall not make an effort to review in detail the evidence that I base the conclusions 
 that I shall present to the Court. I think the facts—Mr. Carter started to state 
 the facts in this case. Perhaps, in order to give proper perspective to my argument, 
@@ -1421,54 +1421,54 @@ nothing in the record to indicate that it is a concession to the appellants in t
 case, but as a matter of policy—and exercising their power under the statute, the 
 Board of Education has determined to abandon segregation as early as practicable.
 </p>
-<p>MR. JUSTICE BLACK: Do you think this is a case of a controversy between these 
+<p><b>MR. JUSTICE BLACK</b>: Do you think this is a case of a controversy between these 
 people and the City of Topeka? </p>
-<p>MR. WILSON: Sir? </p>
-<p>MR. JUSTICE BLACK: Do you think this is a case of a controversy between these 
+<p><b>MR. WILSON</b>: Sir? </p>
+<p><b>MR. JUSTICE BLACK</b>: Do you think this is a case of a controversy between these 
 people and the City of Topeka in the present situation? If so, what is it? </p>
-<p>MR. WILSON: The appellants have denied the right of the Board of Education of 
+<p><b>MR. WILSON</b>: The appellants have denied the right of the Board of Education of 
 the City of Topeka to maintain separate schools, pursuant to our statute. The City 
 of Topeka has never agreed that it does not have such a right. </p>
-<p>MR. JUSTICE BLACK: It has been agreed to desegregate schools. </p>
-<p>MR. WILSON: It has agreed as a matter of policy to put them in the schools. Now, 
+<p><b>MR. JUSTICE BLACK</b>: It has been agreed to desegregate schools. </p>
+<p><b>MR. WILSON</b>: It has agreed as a matter of policy to put them in the schools. Now, 
 there may be a controversy as to the means of accomplishing this stated intention. 
 The Board of Education has filed a separate brief here in which they point out numerous 
 administrative difficulties that will be encountered, and in brief, they are 
 asking for time, but they do not believe— </p>
-<p>MR. JUSTICE BLACK: You could not rest on that, could you? </p>
-<p>MR. WILSON: I think 
+<p><b>MR. JUSTICE BLACK</b>: You could not rest on that, could you? </p>
+<p><b>MR. WILSON</b>: I think 
 we could not. </p>
-<p>MR. JUSTICE FRANKFURTER: To follow up Justice Black&#39;s question, is there any 
+<p><b>MR. JUSTICE FRANKFURTER</b>: To follow up Justice Black&#39;s question, is there any 
 controversy between these appellants and the State of Kansas, any justiciable controversy?
 </p>
-<p>MR. WILSON: These appellants alleged and contend that a statute enacted by the 
+<p><b>MR. WILSON</b>: These appellants alleged and contend that a statute enacted by the 
 legislature of Kansas is unconstitutional. </p>
-<p>MR. JUSTICE FRANKFURTER: Suppose I allege that a statute, an Act of Congress, 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Suppose I allege that a statute, an Act of Congress, 
 is unconstitutional; and I have no secular damage of mine that is effected. I think 
 such a profound Act of Congress, passed in this heedless way we have been told about, 
 is unconstitutional. Can I go to court? </p>
-<p>MR. WILSON: No, obviously not. </p>
-<p>MR. JUSTICE FRANKFURTER: Obviously not. </p>
-<p>MR. WILSON: However, when you consider the peculiar circumstances under which 
+<p><b>MR. WILSON</b>: No, obviously not. </p>
+<p><b>MR. JUSTICE FRANKFURTER</b>: Obviously not. </p>
+<p><b>MR. WILSON</b>: However, when you consider the peculiar circumstances under which 
 the State of Kansas got into this case— </p>
-<p>MR. JUSTICE FRANKFURTER: Litigants sometimes get in, and then find themselves 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Litigants sometimes get in, and then find themselves 
 out. </p>
 <p>[Laughter] </p>
-<p>MR. WILSON: Unless the Court desires, I do not wish to proceed with argument; 
+<p><b>MR. WILSON</b>: Unless the Court desires, I do not wish to proceed with argument; 
 that is, I have no intention to burden the already overburdened Court. </p>
-<p>MR. JUSTICE FRANKFURTER: That is not my question. There is no suggestion about 
+<p><b>MR. JUSTICE FRANKFURTER</b>: That is not my question. There is no suggestion about 
 your not arguing the appropriateness; it is just the question of whether it is one 
 of those cases where you have to say there is no controversy in a judicial sense 
 before the Court. </p>
-<p>MR. WILSON: Well, to repeat my earlier statement, I think there still is a controversy, 
+<p><b>MR. WILSON</b>: Well, to repeat my earlier statement, I think there still is a controversy, 
 because under the authority that the Board of Education presumes to exercise, it 
 does maintain segregation in sixteen of its eighteen geographic areas, and it requires 
 the children living in those areas to go to segregated schools. </p>
-<p>MR. CHIEF JUSTICE WARREN: I consider that a problem; I would like to hear some 
+<p><b>MR. CHIEF JUSTICE WARREN</b>: I consider that a problem; I would like to hear some 
 light on it, anyway. I think when both parties to the action feel that there is 
 a controversy, and invited the Attorney General to be here and answer these questions, 
 I, for one, would like to hear the argument. </p>
-<p>MR. WILSON: Thank you, sir. </p>
+<p><b>MR. WILSON</b>: Thank you, sir. </p>
 <p>At the outset I should point out—I have pointed out—that 
 we are not here defending a policy, and the determination that has been made is 
 one of policy. We are here solely for the purpose of defending the right, the constitutional 
@@ -1659,11 +1659,11 @@ right of the State of Kansas to set up and maintain its own school system and to
 initiate and maintain there the policies that are most beneficial to all of its 
 people. </p>
 <p>Thank you. </p>
-<p>MR. CHIEF JUSTICE WARREN: Thank you, Mr. Wilson. Mr. Carter? </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Thank you, Mr. Wilson. Mr. Carter? </p>
 <p style="text-align:center"><b>REBUTTAL ARGUMENT OF <br>
 ROBERT L. CARTER, ESQ., <br>
 ON BEHALF OF APPELLANTS </b> </p>
-<p>MR. CARTER: I would like to say this, Your Honors: I do still have doubts with 
+<p><b>MR. CARTER</b>: I would like to say this, Your Honors: I do still have doubts with 
 regard to the question of mootness in this case. However, as Mr. Justice Frankfurter 
 pointed out, I would think it would not be likely that, having made this step, that 
 Topeka would reverse itself, not in 1953. I am also confident that the State of 
@@ -1674,6 +1674,6 @@ Carolina and Virginia, that the State of Kansas would abide by that decision.
 have been urged by the Attorney General, since I do not feel he has opened any new 
 avenues, it seems to me that in order to conserve the Court&#39;s time I will not speak.
 </p>
-<p>MR. CHIEF JUSTICE WARREN: Thank you. </p>
+<p><b>MR. CHIEF JUSTICE WARREN</b>: Thank you. </p>
 <p>[Whereupon, at 3:40 o&#39;clock p.m., the argument was concluded.] </p>
 </div>

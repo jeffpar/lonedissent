@@ -19,6 +19,6 @@ from their website for all cases argued since October 1955.
 
 ## Transcript Collections
 
-- [Featured Transcripts](/transcripts/featured/brown1)
+- [Featured Transcripts](/transcripts/featured)
 - [All Available Pre-1968 Transcripts](/transcripts/pre-1968)
 - [All Available 1968-Present Transcripts](/transcripts/scotus)
