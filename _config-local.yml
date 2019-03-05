@@ -43,6 +43,7 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
 
 include:
   - _pages
