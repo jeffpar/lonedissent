@@ -1216,7 +1216,7 @@ more. </p>
 <p>[Whereupon, at 3:50 o&#39;clock p.m., the argument was concluded.] </p>
 </div>
 
-## Wednesday, December 9, 1952
+## Wednesday, December 9, 1953
 
 <div style="text-align:justify;width:75%;margin:auto;">
 <p>FRANCIS B. GEBHART, ET AL., </p>

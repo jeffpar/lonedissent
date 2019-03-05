@@ -1096,6 +1096,7 @@ statute should be struck down.</p>
 
 ## Tuesday, December 8, 1953
 
+<div style="text-align:justify;width:75%;margin:auto;">
 <p>OLIVER BROWN, MRS. RICHARD LAWTON, <br>
 MRS. SADIE EMMANUEL, 
 ET AL., </p>
@@ -1675,3 +1676,4 @@ avenues, it seems to me that in order to conserve the Court&#39;s time I will no
 </p>
 <p>MR. CHIEF JUSTICE WARREN: Thank you. </p>
 <p>[Whereupon, at 3:40 o&#39;clock p.m., the argument was concluded.] </p>
+</div>
