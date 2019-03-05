@@ -13,6 +13,11 @@ cases:
     dateDecision: "Monday, May 17, 1954"
 ---
 
+This is one of five cases argued as part of [Brown v. Board of Education (I)](/transcripts/featured/brown1).
+However, the [Bolling v. Sharpe, 347 U.S. 497, (1954)](https://cdn.loc.gov/service/ll/usrep/usrep347/usrep347497/usrep347497.pdf)
+decision was issued separately because the case arose in the District of Columbia, so the Court relied on the
+Due Process Clause of the 5th Amendment rather than the Equal Protection Clause of the 14th Amendment.
+
 ## Argument
 
 - [Wednesday, December 10, 1952](#wednesday-december-10-1952)
@@ -30,7 +35,7 @@ cases:
 ## Wednesday, December 10, 1952
 
 <div style="text-align:justify;width:75%;margin:auto;">
-<p><a name="cover"></a>SPOTTSWOOD THOMAS BOLLING, <br>
+<p>SPOTTSWOOD THOMAS BOLLING, <br>
 ET AL., </p>
 <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Petitioners, 
 </i> </p>
@@ -63,7 +68,7 @@ MINTON, <i>Associate Justice</i> </p>
   JAMES M. NABRIT, JR., 
 ESQ., <i>on behalf of Petitioners</i>. </p>
 </blockquote>
-<p style="text-align:center"><b><a name="page1"></a>PROCEEDINGS </b> </p>
+<p style="text-align:center"><b>PROCEEDINGS </b> </p>
 <p>MR. CHIEF JUSTICE VINSON: No. 413, <i>Bolling, et al.</i>, versus <i>C. Melvin Sharpe, 
 and others</i>. </p>
 <p>All right, Mr. Hayes. </p>
@@ -122,7 +127,7 @@ then you assail it? </p>
 <p>MR. HAYES: That is correct, sir; that is exactly our position, Mr. Justice Frankfurter.
 </p>
 <p>MR. JUSTICE DOUGLAS: Has this statute that you refer to consistently been interpreted by the Board of Education as requiring segregation? </p>
-<p><a name="page3"></a>MR. HAYES: Yes, sir, Mr. Justice Douglas, it has. </p>
+<p>MR. HAYES: Yes, sir, Mr. Justice Douglas, it has. </p>
 <p>MR. JUSTICE 
 DOUGLAS: This is an old statute? </p>
 <p>MR. HAYES: Yes, Mr. Justice Douglas; again, it has been in since 1864; originally 
@@ -184,7 +189,7 @@ I stated it was permissive, then I am in error—we take the position that this 
 is neither mandatory nor permissive. </p>
 <p>MR. JUSTICE FRANKFURTER: You say this does not even authorize it? </p>
 <p>MR. HAYES: That is right, sir. </p>
-<p>MR. JUSTICE FRANKFURTER: And you say for how many <a name="page5"></a>years has the District been acting without authority?
+<p>MR. JUSTICE FRANKFURTER: And you say for how many years has the District been acting without authority?
 </p>
 <p>MR. HAYES: We do not say &quot;without authority&quot;; we say that the fact that they 
 acted with knowledge does not mean that the statute gives the authority. </p>
@@ -251,7 +256,7 @@ language is found in Meyer v. Nebraska, Bartels v. Iowa, Pierce v. Society of Si
 <p>MR. HAYES: They were decided under the Fourteenth Amendment, if Your Honor please, but under the due process clause of the Fourteenth Amendment, 
 and this Court, however, in the case of Farrington v. Tokushige has seen fit to 
 refer specifically to those three cases, indicating that the due process clause 
-of the <a name="page7"></a>Fourteenth Amendment, as referred to in those cases, is 
+of the Fourteenth Amendment, as referred to in those cases, is 
 incorporated and is taken over and assumed as being part of the Fifth Amendment. </p>
 <p>As far as the Fifth Amendment cases are concerned, and so in the Takahashi case, 
 this Court, it seems to us, has embraced these educational cases that might be referred 
@@ -313,7 +318,7 @@ that, we shall segregate in schools. </p>
 War Between the States, so far as the District of Columbia is concerned— </p>
 <p>MR. HAYES: Yes, sir. </p>
 <p>MR. CHIEF JUSTICE VINSON: —were the people who were there in the Congress at 
-the time the Amendments were passed, <a name="page9"></a>and were there when ratified, and were there when this legislation 
+the time the Amendments were passed, and were there when ratified, and were there when this legislation 
 was passed, and it is hard for me to understand that if it is racism, that it was 
 not done deliberately, and the constitutional Amendments were so interpreted, and I assume that you would not go that far, would you, 
 in regard to the war Amendments? </p>
@@ -379,7 +384,7 @@ properly posed to make the answer. </p>
 <p>MR. HAYES: Yes, sir; that is what your first question, I thought, was addressed 
 to. </p>
 <p>MR. JUSTICE FRANKFURTER: Yes. </p>
-<p><a name="page11"></a>MR. HAYES: I answered that by saying as to schools this 
+<p>MR. HAYES: I answered that by saying as to schools this 
 Court is called upon to say that this sort of thing cannot happen because it is 
 a violation of the due process clause of the Fifth Amendment, and the due process 
 clause of the Fifth Amendment does not lend itself to any substantial proposition. 
@@ -442,7 +447,7 @@ freedoms and rights without any distinction on the basis of race or color; in ot
 words, not as a requirement of the charge but as a policy which is enunciated by 
 the charge. </p>
 <p>Now, it would appear to petitioners that it is necessary also for this Court 
-to consider the fact that we are not dealing with the <a name="page13"></a>State of South Carolina, we are not dealing with the State 
+to consider the fact that we are not dealing with the State of South Carolina, we are not dealing with the State 
 of Virginia, the State of Delaware, or the State of Kansas. We are not here concerned with 
 those oversensitive areas of state and federal relation. That is not involved in 
 this case. We are not involved in this case with the question of the sensitiveness 
@@ -503,7 +508,7 @@ to effect. </p>
 <p>MR. JUSTICE REED: And Congress cannot determine it for itself? </p>
 <p>MR. NABRIT: No, sir. Never in the history of this country have the individual 
 liberties of the citizen been entrusted in the hands of the legislators. The very 
-founders of the Government refused to <a name="page15"></a>agree to the Constitution itself until they could be satisfied, 
+founders of the Government refused to agree to the Constitution itself until they could be satisfied, 
 Jefferson and others, that they had a Bill of Rights, so as to protect individual liberties.
 </p>
 <p>MR. JUSTICE REED: That would mean that we would examine the basis, the foundation, 
@@ -552,7 +557,7 @@ invidious, odious, and suspect. So this Court should examine it. </p>
 ## Thursday, December 11, 1952
 
 <div style="text-align:justify;width:75%;margin:auto;">
-<p><a name="cover"></a>SPOTTSWOOD THOMAS BOLLING, <br>
+<p>SPOTTSWOOD THOMAS BOLLING, <br>
 ET AL., </p>
 <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 Petitioners, </i></p>
@@ -582,7 +587,7 @@ Thursday, December 11, 1952. </p>
   <p>JAMES M. NABRIT, JR., ESQ., <i>on behalf of Petitioners—Resumed</i>. <br>
   MILTON D. KORMAN, ESQ., <i>on behalf of Respondents</i>. </p>
 </blockquote>
-<p style="text-align:center"><b><a name="page1"></a>PROCEEDINGS </b></p>
+<p style="text-align:center"><b>PROCEEDINGS </b></p>
 <p>MR. CHIEF JUSTICE VINSON: No. 413, <i>Bolling et al.</i>, versus <i>C. Melvin 
 Sharpe et al</i>. </p>
 <p>Mr. Nabrit? </p>
@@ -640,7 +645,7 @@ by tax funds derived from taxes levied upon free Negroes. </p>
 <p>That did not appear either to produce revenue or to be satisfactory. So Congress 
 then enacted a statute the latter part of that year in which Congress said that 
 these schools should be supported by funds derived from the general revenue, that 
-is, <a name="page3"></a>from the taxes of all of the inhabitants of the District. 
+is, from the taxes of all of the inhabitants of the District. 
 Now, this, as you recall, was in 1862, before the Fourteenth Amendment and before 
 the actual effect of the Emancipation Proclamation. </p>
 <p>Now, at this time the members of the legislature stated that they were concerned 
@@ -709,7 +714,7 @@ anybody&#39;s thinking about it. </p>
 <p>MR. NABRIT: Yes, sir. I wanted to address myself to that, but I thought you were 
 entitled to have some background for it. Now, specifically addressing myself—
 </p>
-<p><a name="page5"></a>MR. JUSTICE REED: Apparently there is no reference in the 
+<p>MR. JUSTICE REED: Apparently there is no reference in the 
 briefs to legislative history. Was there a discussion of the desirability or the 
 undesirability of segregation in 1874? </p>
 <p>MR. NABRIT: I do not know about 1874, but there was a discussion of it prior 
@@ -775,7 +780,7 @@ is implied legislation which restricts the individual, or curtails, to use the C
 language, the individual rights of citizens, that curtailment has to be explicitly 
 stated in clear and unmistakable language. </p>
 <p>MR. JUSTICE FRANKFURTER: It does not touch on a constitutional point. </p>
-<p><a name="page7"></a>MR. NABRIT: Yes. </p>
+<p>MR. NABRIT: Yes. </p>
 <p>MR. JUSTICE FRANKFURTER: I wonder if it does not carry permissiveness into a 
 clear recognition by Congress here in the situation where they provide money, because 
 the alternative is that Congress was providing money for something that they did 
@@ -841,7 +846,7 @@ Hayes to show what the real reason for this legislation was. </p>
 an Act of April 16, the Congress abolished slavery in the District. That was three 
 and one-half years before the Thirteenth Amendment abolished it in the states.
 </p>
-<p><a name="page9"></a>There was a problem of doing something for these emancipated 
+<p>There was a problem of doing something for these emancipated 
 people. Up to that point, they had had no schools except some few private schools 
 for the free Negroes. So the first enactment of Congress on May 20, 1862, was to 
 set up a system of schools in the County of Washington. At that time, the District 
@@ -913,7 +918,7 @@ that they shall be tried for any offenses against the laws in the same manner as
 free white persons are or may be tried for the same offenses, and that upon being 
 legally convicted of any crime or offense against any law or ordinance, such persons 
 of color shall be liable to the same penalty or punishment, and no other, as would 
-be imposed on or inflicted upon white persons for <a name="page11"></a>the same 
+be imposed on or inflicted upon white persons for the same 
 crime or offense and all acts or parts of acts inconsistent with the provisions 
 of this Act are hereby repealed. </p>
 <p>Now, when we find those provisions in the same Act setting up schools for colored 
@@ -984,7 +989,7 @@ Professor William A. Joiner— </p>
 and I did not include the letter which he had presented to the Committee, but I 
 should like to read you one sentence from the letter which he handed to the Committee 
 prior to making this statement. He says this, and this is found or
-<a name="page13"></a>page 199 of the hearings on that bill: </p>
+page 199 of the hearings on that bill: </p>
 <blockquote>
   <p>Experience in the past dating back to the first organization of the schools 
   for colored children in the District has tended to prove that the interests of 
@@ -1059,7 +1064,7 @@ colored children are taught. </p>
   <p>Boards of examiners for carrying out the provisions of the statutes with reference 
   to the examination of teachers shall consist of the superintendent of schools 
   and not less than four or more than six members of the supervisory or teaching 
-  staff of the white schools <a name="page15"></a>for the white schools, and of 
+  staff of the white schools for the white schools, and of 
   the superintendent of schools and not less than four nor more than six members 
   of the supervisory or teaching staff of the colored schools for the colored schools.
   </p>
@@ -1136,7 +1141,7 @@ exists, into the schoolroom and harm the ability to learn of both the races, or
 to give them completely adequate, separate, full educational opportunities on both 
 sides, where they will be instructed on the white side by white teachers, who are 
 sympathetic to them, and on the colored side by colored teachers, who
-<a name="page17"></a>are sympathetic to them, and where they will receive from the 
+are sympathetic to them, and where they will receive from the 
 lips of their own people education in colored folklore, which is important to a 
 people—if that is to be decided, who else shall decide it but the legislature, who 
 decides things for each jurisdiction? And I say that the Constitution does not inveigh 
@@ -1212,7 +1217,7 @@ of each amendment of it&quot;— </p>
   <p>Such an argument would be altogether inadmissible in any tribunal called on 
   to interpret it. If any of its provisions are deemed unjust, there is a mode prescribed 
   in the instrument itself by which it may be amended; but while
-  <a name="page19"></a>it remains unaltered, it must be construed now as it was 
+  it remains unaltered, it must be construed now as it was 
   understood at the time of its adoption. </p>
 </blockquote>
 <p>—or, if I may paraphrase, &quot;at the time of its amendment&quot;— </p>
@@ -1358,7 +1363,7 @@ less on the signatory powers. </p>
 right and freedom in some nations. How can these things be justified together? They 
 cannot be. </p>
 <p>My distinguished friend, Mr. Nabrit, has said that these laws
-<a name="page23"></a>constitute a bill of attainder. As I read the law of a bill 
+constitute a bill of attainder. As I read the law of a bill 
 of attainder, I shall give the definition as it comes from the leading case in the 
 United States, Cummings against Missouri, 4 Wall. 277. At page 323 of that opinion, 
 the Court said: </p>
@@ -1431,7 +1436,7 @@ advancement, where there is no longer segregation, and I thank them for suggesti
 it to me; and I have looked into it myself and I find that here in the District 
 of Columbia Negroes are admitted to all the legitimate theaters, that they are admitted 
 to a number of downtown moving pictures, that they are admitted to a number of
-<a name="page25"></a>the fine restaurants, including the famous Harvey&#39;s Restaurant, 
+the fine restaurants, including the famous Harvey&#39;s Restaurant, 
 that there is a gradual integration on the playgrounds, that they are admitted onto 
 all the recreation areas, that they are accepted into many of our larger and better 
 hotels, that they serve on the staffs of the hospitals—particularly, I call your 
@@ -1503,7 +1508,7 @@ think our brief deals with this whole argument. It appears that he does not beli
 that there is a constitutional issue and refuses to meet it. Giving to his argument 
 the full meaning of it, that is, that these statutes give the authority, he has 
 failed to deal with the question as to whether or not, conceding that they
-<a name="page27"></a>are authorized by the statutes, that is a constitutional delegation 
+are authorized by the statutes, that is a constitutional delegation 
 of power, and he has not addressed himself to that. </p>
 <p>Rather he has dwelt in the past upon the white man&#39;s burden, and he has seemed 
 to feel that for some reason that exists today. It would appear to me that in 1952, 
@@ -1531,7 +1536,7 @@ it, and the statutes of Congress do not authorize it. </p>
 ## Tuesday, December 8, 1953
 
 <div style="text-align:justify;width:75%;margin:auto;">
-<p><a name="cover"></a>SPOTTSWOOD THOMAS BOLLING, ET AL., </p>
+<p>SPOTTSWOOD THOMAS BOLLING, ET AL., </p>
 <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Petitioners, 
 </i> </p>
 <p>—vs.—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
@@ -1563,7 +1568,7 @@ O. DOUGLAS, <i>Associate Justice</i> <br>
   <br>
   MILTON D. KORMAN, ESQ., <i>on behalf of the Respondents</i>. </p>
 </blockquote>
-<p style="text-align:center"><b><a name="page1"></a>PROCEEDINGS </b> </p>
+<p style="text-align:center"><b>PROCEEDINGS </b> </p>
 <p>MR. CHIEF JUSTICE WARREN: Number 8, <i>Spottswood Thomas Bolling, et al</i>., versus 
 <i>C. Melvin Sharpe, et al</i>. </p>
 <p>THE CLERK: Counsel are present. </p>
@@ -1630,7 +1635,7 @@ under which the statutes came upon the books. </p>
 unconstitutional in either case? </p>
 <p>MR. HAYES: If they are permissive and voluntary, the answer would be that they 
 would be unconstitutional; but that the constitutional question—and this is where we think the issue is, as we
-<a name="page3"></a>presently see it—that until the issue is raised, that then, 
+presently see it—that until the issue is raised, that then, 
 of course, the question of constitutionality has not been passed upon; and it is 
 our position that we are presently at the place where that issue, as far as this 
 Court is concerned and as far as the statutes are concerned, is for the first time being raised, and, therefore, Your Honor, to specifically 
@@ -1756,7 +1761,7 @@ if I have the time. </p>
 <p>But with respect to this Carr v. Corning case, we take the position that, as 
 far as the Carr v. Corning case was concerned, it simply was decided incorrectly; 
 that our court of appeals was simply wrong in its decision. </p>
-<p><a name="page7"></a>We call attention to the fact that there was in that case 
+<p>We call attention to the fact that there was in that case 
 a dissenting opinion by Mr. Judge Edgerton, which we commend to this Court as being more nearly 
 what the law should be with respect to that case. In that case, Judge Edgerton went on to say that it was an improper 
 concept to be able to have education based solely upon race or color. Judge Edgerton 
@@ -1822,7 +1827,7 @@ and color. Today we deal only with one significant aspect of it, segregation in 
 of Columbia for different treatment, not alone because the District of Columbia 
 brings this case under the Fifth Amendment, but because this is the Federal Government 
 dealing with federal citizens. Here is no question of the delicate 
-<a name="page9"></a>relationship of state and Federal Government. Here we are 
+relationship of state and Federal Government. Here we are 
 dealing with the capital of the free world. </p>
 <p>In this framework, we submit to the Court that the question before the Court 
 is not merely the technical question of the construction of school statutes or the 
@@ -1889,7 +1894,7 @@ that the Court may reprimand me for, but I noted—in the brief and in the paper
 that counsel for the respondent is not certain as to what the positions of all his 
 respondents are on this matter. </p>
 <p>[Laughter] </p>
-<p><a name="page11"></a>MR. NABRIT: They are sued individually, you know. </p>
+<p>MR. NABRIT: They are sued individually, you know. </p>
 <p>MR. JUSTICE FRANKFURTER: All you have to do is read his brief; I do not know 
 for whom he speaks. </p>
 <p>MR. NABRIT: I neither, Mr. Justice Frankfurter. </p>
@@ -2020,7 +2025,7 @@ United States which provide for separation of races in the schools; that they ha
 not lain dormant for 75 or 80 years, but they have been repeatedly legislated upon 
 by the Congress of the United States. It appears that they are still valid, that 
 it is still the policy of the Congress to maintain separate school for the races 
-in the District of Columbia, and we are here to defend <a name="page15"></a>the validity and the constitutionality of those laws. </p>
+in the District of Columbia, and we are here to defend the validity and the constitutionality of those laws. </p>
 <p>MR. JUSTICE FRANKFURTER: When you say &quot;we,&quot; am I to infer that means the Board 
 of Education of the District of Columbia? </p>
 <p>MR. KORMAN: You are, sir. I speak for the Board of Education of the District, 
@@ -2085,7 +2090,7 @@ in the district court. </p>
 and which denied to these petitioners the entry into the school which they claimed 
 the right to enter—has changed its position in that regard. We have seen some statements in the press by some members of the Board which have been alluded to in the briefs.
 </p>
-<p>MR. JUSTICE FRANKFURTER: I do not care about that, and <a name="page17"></a>the reason why I think it is important is—I hope this is 
+<p>MR. JUSTICE FRANKFURTER: I do not care about that, and the reason why I think it is important is—I hope this is 
 not improper for stating my own individual responsibility—to the extent that problems 
 of this sort are settled outside a court of law, to that extent, in my opinion, 
 the public good is advanced; and if, by any chance, settlements are made in various 
@@ -2129,7 +2134,7 @@ to reconvene the next day.] </p>
 ## Wednesday, December 9, 1953
 
 <div style="text-align:justify;width:75%;margin:auto;">
-<P><a name="cover"></a>SPOTTSWOOD THOMAS BOLLING, ET AL., </P><P>
+<P>SPOTTSWOOD THOMAS BOLLING, ET AL., </P><P>
 <i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Petitioners, 
 </i> 
@@ -2169,7 +2174,7 @@ HUGO L. BLACK, <i>Associate Justice</i> <br>
   <br>
 JAMES M. NABRIT, JR., ESQ., <i>on behalf of the Petitioners</i>. </P>
 </blockquote>
-<P style="text-align:center"><b><a name="page1"></a>PROCEEDINGS 
+<P style="text-align:center"><b>PROCEEDINGS 
 </b> 
 </P><P>
 MR. CHIEF JUSTICE WARREN: No. 8, <i>Spottswood Thomas Bolling, et al.</i>, v. <i>C. Melvin Sharpe, et al</i>.
@@ -2228,7 +2233,7 @@ MR. KORMAN: I said to you on yesterday that the Board of Education had requested
 </P>
 <blockquote>
   <P>I hereby certify that the foregoing is a true and correct copy of the letter sent by me to the Board of Commissioners, D. C., under 
-  <a name="page3"></a>date of November 13, 1950, at the direction of the President of the Board of Education. 
+  date of November 13, 1950, at the direction of the President of the Board of Education. 
   </P>
   <P>This is the usual letter which is sent to the Board of Commissioners whenever the Board of Education or its members or its public school officers have been sued, and is in accordance with Chapter 1, Article 9, section 1 of the rules of the Board of Education, which provide, when legal advice or service as counsel is desired by the Board of Education upon matters relating to the administration of school affairs, application shall be made to the Commissioners, D. C., for the services of the Corporation Counsel of the District of Columbia. 
   </P>
@@ -2270,7 +2275,7 @@ MR. JUSTICE BLACK: That was the cause of my interest in the question I asked you
 MR. KORMAN: But I may say to you further, sir, that our position as legal advisers to the Board is that they have not the right to make any change in the system, because we firmly believe, and I hope to establish to you in argument today, that the acts of Congress require the maintenance of separate schools for white and colored children in the District of Columbia, and that those acts of Congress are constitutional. 
 </P><P>
 I may say to you further, that that has been passed on indirectly
-<a name="page5"></a>by this Court in the case of Plessy v. Ferguson in 1896, directly by the United States Court of Appeals for the District of Columbia in 1910 in the case of Wall v. Oyster, and directly and specifically in the cases of Carr v. Corning and Browne v. Magdeburger in 1950 by the United States Court of Appeals for the District of Columbia Circuit, holding in so many words that the acts of Congress required the maintenance of separate schools for white and colored children, and that those acts of Congress are constitutional. 
+by this Court in the case of Plessy v. Ferguson in 1896, directly by the United States Court of Appeals for the District of Columbia in 1910 in the case of Wall v. Oyster, and directly and specifically in the cases of Carr v. Corning and Browne v. Magdeburger in 1950 by the United States Court of Appeals for the District of Columbia Circuit, holding in so many words that the acts of Congress required the maintenance of separate schools for white and colored children, and that those acts of Congress are constitutional. 
 </P><P>
 It does not lie in my mouth to say to the members of the Board of Education that they have a right to fly in the face of such decisions, and I say to you that they could not make any change as we understand the law, and I think as they understand the law, however much any of them might want the law to be otherwise. 
 </P><P>
@@ -2304,7 +2309,7 @@ MR. KORMAN: I don't know that you can be, Your Honor, and I don't know that I ca
 Perhaps it might be better—and I know that my friends on the other side will disagree with this—that no positive future date be set, but that the matter be left to the district courts, because I don't think that anyone can now determine what those lengths of time will be. Certainly I can't predict what time may be required to get Congress to act on something. 
 </P><P>
 MR. CHIEF JUSTICE WARREN: Mr. Korman, is there any legal question involved in remanding this to the District Court of
-<a name="page7"></a>the District of Columbia, in view of the fact that the district court itself appoints the members of the Board of Education, who are the appellees in this case? 
+the District of Columbia, in view of the fact that the district court itself appoints the members of the Board of Education, who are the appellees in this case? 
 </P><P>
 MR. KORMAN: I don't think so, sir. 
 </P><P>
@@ -2335,7 +2340,7 @@ MR. KORMAN: Sir?
 MR. JUSTICE JACKSON: All of your authorities are in this litigation, aren't they? 
 </P><P>
 MR. KORMAN: Yes. 
-</P><P><a name="page9"></a>MR. JUSTICE BLACK: The petition asks that we enter a declaratory judgment, or the Court does, stating that the defendants are without right, construing the statutes having to do with public education as requiring the Board to do this. That is the first question that has to be decided, isn't it? 
+</P><P>MR. JUSTICE BLACK: The petition asks that we enter a declaratory judgment, or the Court does, stating that the defendants are without right, construing the statutes having to do with public education as requiring the Board to do this. That is the first question that has to be decided, isn't it? 
 </P><P>
 MR. KORMAN: I think so, sir. 
 </P><P>
@@ -2391,7 +2396,7 @@ MR. JUSTICE FRANKFURTER: How can a concurring judge go beyond what he concurs wi
 MR. KORMAN: Well, my understanding— 
 </P><P>
 MR. JUSTICE FRANKFURTER: He may have done so from the bench, but so far as my reading goes, which is all I have in these matters, I did not see that that issue was in contest between the 
-<a name="page11"></a>judge who wrote the majority opinion and the judge who wrote the dissent. 
+judge who wrote the majority opinion and the judge who wrote the dissent. 
 </P><P>
 MR. KORMAN: I don't think it was in contest between those two, no. 
 </P><P>
@@ -2449,7 +2454,7 @@ I think I might skip down to the last sentence at the bottom of that page:
   <P>And said trustees are authorized to receive any donations or contributions that may be made for the benefit of said schools by persons disposed to aid in the elevation of the colored population in the District of Columbia.
   </P>
 </blockquote>
-<P><a name="page13"></a>And so you see that here is Congress setting up a system of schools in the County of Washington for white children, and in one section of the same Act, setting up separate schools for colored children, and saying that they shall be equal in all respects. It seems to me that this is the beginning of the "separate but equal" doctrine. 
+<P>And so you see that here is Congress setting up a system of schools in the County of Washington for white children, and in one section of the same Act, setting up separate schools for colored children, and saying that they shall be equal in all respects. It seems to me that this is the beginning of the "separate but equal" doctrine. 
 </P><P>
 Now, then, on the next day, May 21, 1862, the Congress set up schools for colored children in the cities, the cities of Washington and Georgetown, and therein they provided a tax of ten percent on the property of colored persons for the maintenance of these colored schools. Now, unusually enough—and I have to burden the Court with reading—but this is an Act of four sections. 
 </P><P>
@@ -2502,7 +2507,7 @@ MR. KORMAN: That is the Act of May 21, 1862, 12 Stat. 394, page 407.
 MR. JUSTICE REED: Is that in here? 
 </P><P>
 MR. KORMAN: The citation is in there, but the full text is not in 
-<a name="page15"></a>my brief. 
+my brief. 
 </P><P>
 MR. JUSTICE DOUGLAS: It is 12 what? 
 </P><P>
@@ -2553,7 +2558,7 @@ And then further on he said this:
 </P>
 <blockquote>
   <P>But the most important feature of the amendment is to be found in the seventeenth and eighteenth sections, and in the proviso of the 
-  <a name="page17"></a>nineteenth section which provides for separate schools for the colored children of the District. To accomplish this, we have provided that such a portion of the entire school fund shall be set aside for this purpose as the number of colored children between the ages of six and seventeen bear to the whole number of children of the District. 
+  nineteenth section which provides for separate schools for the colored children of the District. To accomplish this, we have provided that such a portion of the entire school fund shall be set aside for this purpose as the number of colored children between the ages of six and seventeen bear to the whole number of children of the District. 
   </P>
 </blockquote>
 <P>
@@ -2600,7 +2605,7 @@ veto. It died.
 </P><P>
 And then my friends refer to a memorial by the City Council 
 of Washington to the Congress. They refer to that on pages 44 and 45 of their brief, that the City Council of Washington memorialized Congress to strike down segregation in the schools, and that is true. The City Council of Washington did memorialize Congress to strike down segregation in the schools, but it was a fruitless gesture. It was a vain effort. Nothing came of it. So that we see that the Congress, in spite of the memorialization by the
-<a name="page19"></a>Council of the city, refused to take such action; and it seems to me that that definitely establishes the intent of Congress. 
+Council of the city, refused to take such action; and it seems to me that that definitely establishes the intent of Congress. 
 </P><P>
 But my friends made one mistake in their brief when they cited the memorial by the City Council to the Congress to change the school system. They cited a page, and I thought I had better look at it, and so if you will refer to—and I shall not take the time to read it, because I see my time is running out—the 
 Washington, D. C. Council, 67th Council, 1869-1870, at pages 828 and 829, and 
@@ -2644,7 +2649,7 @@ Then I should like to call your attention to the Teachers' Salary Act of 1945, a
 And so on through enactments right up to the present day. Each year, as has been pointed out, Congress appropriates for this separate system of schools and provides so much money for the colored schools, so much money for the white schools, as is set up in the request for appropriations. 
 </P><P>
 I might call your attention further, in addition to the appendix which was filed and which is the order of the Commissioners of the District of Columbia striking down segregation in certain areas and which contains in it a recognition by them that there are certain areas in which they have no power to act because it has 
-<a name="page21"></a>been taken care of and provided for by the Congress of the United States—and with that I shall leave it to the Court and ask the Court to take into account the arguments which were set forth in our brief filed in 1952. 
+been taken care of and provided for by the Congress of the United States—and with that I shall leave it to the Court and ask the Court to take into account the arguments which were set forth in our brief filed in 1952. 
 </P><P>
 MR. JUSTICE REED: Mr. Korman?  
 </P>
@@ -2699,7 +2704,7 @@ We don't suggest in any way or question the corruptibility or the impeccability 
 Now, we merely suggest to the Court that there appears to be some impropriety in that. And again, counsel for respondents take the position that the attitude of Congress with respect to racial distinctions in the District of Columbia can be gathered by reading certain phrases in these statutes. Now, counsel neglects some very important things in doing that. 
 </P><P>
 Number one, out of the eleven basic statutes governing the control of schools of the District of Columbia, nine of those statutes were passed between 1862 and 1866. Of those nine, seven of them were passed before 1864, by the end—between 1862 and 1864. At that stage of history in this country, two things ought to be borne in mind by the Court. One, we were on the verge of the Civil War in 1862. We were in the midst of the Civil War thereafter until 1864, I merely speak of that period because the war continued. Number two, during that period public education itself was in an elementary stage of development. The public education for anybody in the District of Columbia, even whites, was in such
-<a name="page23"></a>a fragmentary and rudimentary situation as not to be dignified by the name of public educational system. 
+a fragmentary and rudimentary situation as not to be dignified by the name of public educational system. 
 </P><P>
 Now, in that historical framework, where Congress provided funds—and Mr. Grimes said in both of these Acts to which Corporation Counsel referred your attention, that these were revenue acts to give to systems—I should not use the word "systems"—to Negro schools some financial support in a situation where there were three types of schools, a so-called public school system for whites, private schools for whites, and private schools for Negroes—now, without using the word "separate," without using any words of compulsion, when Congress provided that sort of system to say that the intent of Congress was to provide for racial distinctions in education, when at the same time in every other Act of Congress beginning with the Emancipation Act which he referred to; the elimination of the Black Codes, which he referred to; the Civil Rights Act; the Acts giving the District of Columbia Negroes electoral rights; the Acts enacted immediately after the enactment of the Fourteenth Amendment, those dealing with restaurants, public places in the District of Columbia; those in the Civil Rights Act of 1875—every one of those Acts of Congress provided against any distinction on the basis of race or color with respect to Negroes. It is inconceivable that in this type of fragmentary educational system the Congress there intended to manifest an intention to impose a racial distinction. There is no basis for such a supposition. So that we must read these statutes, if we are going into history, in the light of the historical background where we find it. 
 </P><P>
@@ -2723,7 +2728,7 @@ Now, as far as <i>Wall v. Oyster</i> is concerned, that was the case in which a 
 </P><P>
 Furthermore, <i>Wall v. Oyster</i> points out the basic thing that is wrong in this whole situation, and that is, there is no justification for the separation of these races except on a basis of inferiority, because in 
 <i>Wall v. Oyster</i> this girl was in the school, no question being raised about her, the same person. When they found out she
-<a name="page25"></a>had this drop of Negro blood in her, she became unfit to associate with the others in the classroom, and she was put out, not because of anything that was wrong, other than that she possessed this Negro blood. 
+had this drop of Negro blood in her, she became unfit to associate with the others in the classroom, and she was put out, not because of anything that was wrong, other than that she possessed this Negro blood. 
 </P><P>
 That, we say, is inconsistent with the Constitution of the United States; and nothing has been said by the Corporation Counsel in this Court in the last argument or this which offers to this Court any suggestion of any reason or any justification for this separation of races by the exertion of governmental power, save and except there is something in the nature of the Negro which makes him unfit to associate with the whites in the public schools. And that, we say, is against the policy of the Federal Government and against the Fifth Amendment of the Constitution of the United States. 
 </P><P>
@@ -2744,7 +2749,7 @@ The next thing, they say it is difficult because you have got to indoctrinate th
 In addition to that, over two hundred of them will have been trained for intergroup living and activities and work before March, so that we have a nucleus if we only use those trained or if we only use those who belong to their amalgamated or integrated teachers union, to furnish a nucleus of teachers experienced enough to do this. 
 </P><P>
 All of that calls for simply administrative judgment. So that these evils and obstacles which the Corporation Counsel—although he takes the position that gradualism is not necessary, he postulates
-<a name="page27"></a>to this Court in a form to require the same time that gradualism requires—seems to have no substantial basis or merit; and therefore we suggest to the Court that these respondents be required to conform to a mandate of this Court, assuming the Court decided that segregation is unconstitutional, that this or that that action is not lawful, that they do this at the beginning, by the beginning of the next succeeding school term; and, to be specific, since we hope the decision will come some time during this next year, that it be September, 1954, at the beginning of the school year.
+to this Court in a form to require the same time that gradualism requires—seems to have no substantial basis or merit; and therefore we suggest to the Court that these respondents be required to conform to a mandate of this Court, assuming the Court decided that segregation is unconstitutional, that this or that that action is not lawful, that they do this at the beginning, by the beginning of the next succeeding school term; and, to be specific, since we hope the decision will come some time during this next year, that it be September, 1954, at the beginning of the school year.
 </P><P>
 I would like to say as one final sentence, if I may, that America is a great country, in which we can come before the Court and express to the Court the great concern which we have, where our great government is dealing with us; and we are not in the position that the animals were in George Orwell's satirical novel Animal Farm, where after the revolution the dictatorship was set up and the sign set up there, that all animals were equal, was changed to read, "but some are more equal than others." Our Constitution has no provision across it that all men are equal, but that white men are more equal than others. 
 </P><P>

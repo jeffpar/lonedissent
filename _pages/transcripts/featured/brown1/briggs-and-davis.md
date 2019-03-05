@@ -4,6 +4,16 @@ permalink: /transcripts/featured/brown1/briggs-and-davis
 layout: page
 ---
 
+These are two of five cases argued as part of [Brown v. Board of Education (I)](/transcripts/featured/brown1).
+
+## Argument
+
+- Briggs v. Elliott
+  - [Tuesday, December 9, 1952](/transcripts/featured/brown1/briggs-v-elliott#tuesday-december-9-1952)
+  - [Wednesday, December 10, 1952](/transcripts/featured/brown1/briggs-v-elliott#wednesday-december-10-1952)
+- Davis v. County School Board
+  - [Wednesday, December 10, 1952](/transcripts/featured/brown1/davis-v-county-school-board#wednesday-december-10-1952)
+
 ## Reargument
 
 - [Monday, December 7, 1953](#monday-december-7-1953)
@@ -11,10 +21,12 @@ layout: page
 
 ## Decision
 
+- [Brown v. Board of Education, 347 U.S. 483 (1954)](https://cdn.loc.gov/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf)
+
 ## Monday, December 7, 1953
 
 <div style="text-align:justify;width:75%;margin:auto;">
-<p><a name="cover"></a>HARRY BRIGGS, JR., ET AL., </p>
+<p>HARRY BRIGGS, JR., ET AL., </p>
 <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Appellants,
 </i> </p>
 <p>—vs.—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
@@ -68,7 +80,7 @@ No. 22, Clarendon County, S. C., et al. </p>
 Carson, et al., Members of Board of Trustees of School District No. 22, Clarendon 
 County, S. C., et al. </p>
 </blockquote>
-<p style="text-align:center"><b><a name="page1"></a>PROCEEDINGS </b> </p>
+<p style="text-align:center"><b>PROCEEDINGS </b> </p>
 <p>MR. CHIEF JUSTICE WARREN: No. 2, <i>Harry Briggs, Jr., et al.</i>, versus <i>R. W. Elliott, 
 et al</i>. </p>
 <p>THE CLERK: Counsel are present. </p>
@@ -98,7 +110,7 @@ it is decided that segregation in public schools violates the Fourteenth Amendme
 <p>Both of these cases are rearguments of appeals from final decrees of three-judge district courts, in the instance of No. 2 from the Eastern District 
 of South Carolina; in the instance of No. 4, from the Eastern District of Virginia.
 </p>
-<p><a name="page2"></a>In each of these cases, Negro children and their respective 
+<p>In each of these cases, Negro children and their respective 
 parents and guardians sued competent county school authorities, alleging that by 
 requiring these and other Negro children to attend separate Negro schools as commanded 
 by the constitutions and the laws of South Carolina and Virginia respectively, they 
@@ -165,7 +177,7 @@ and class systems based upon race. </p>
 of this type, is necessarily embraced within the prohibitions of the Amendment.
 </p>
 <p>Going first to the debates on the Fourteenth Amendment itself, there is considerable evidence of the intention of the framers
-<a name="page4"></a>to broadly provide for the complete legal equality of all 
+to broadly provide for the complete legal equality of all 
 men, irrespective of race, and to broadly proscribe all caste and class legislation based upon race or color. There is also some reference specifically to the impact which the proposed Amendment would have upon state-imposed segregation 
 in public schools. I propose to address myself to both categories of evidence.
 </p>
@@ -235,7 +247,7 @@ violation of these principles. </p>
 to. </p>
 <p>The statements in this regard were by no means confined to the proponents of 
 the Amendment. As a matter of fact, after the citizenship clause had been added 
-to the Amendment, Senator <a name="page6"></a>Davis of Kentucky had this to say: </p>
+to the Amendment, Senator Davis of Kentucky had this to say: </p>
 <blockquote>
   <p>The real and only object of the first provision of this section— </p>
 </blockquote>
@@ -303,7 +315,7 @@ drafted by Mr. Bingham. H. R. 127, which eventually became, with two significant
 changes, the Fourteenth Amendment, was also drafted so far as the provisions of 
 section 1 of the Amendment were concerned by Mr. Bingham. </p>
 <p>Mr. Bingham introduced Resolution 63 in the House first and it is notable at 
-this point to say two things which I think are <a name="page8"></a>very significant. In the first place, H. R. 63 was proposed 
+this point to say two things which I think are very significant. In the first place, H. R. 63 was proposed 
 simply to grant to Congress the power to enact laws of a certain character. Pursuant to this authority, assuming as I do that this would have been the construction 
 given to H. R. 63 had it become a constitutional amendment, pursuant to this authority Congress might undertake to pass laws which 
 would outlaw this or that embraced within the scope of the prohibition. Later on—and 
@@ -360,7 +372,7 @@ should have full and equal benefit of all laws for the security of their persons
 and property, and enumerating certain rights, the right to sue, the right to make contracts, to own and inherit property 
 and that type of thing, which the latter provision would provide. </p>
 <p>Senator Trumbull introduced the bill and, upon its introduction, he gave it a very broad scope. He said that in his opinion any 
-<a name="page10"></a>statute which was based on race, which was not equal to 
+statute which was based on race, which was not equal to 
 all persons and which deprived any citizen of civil rights which are secured to other citizens, is in fact a badge of servitude which in his opinion was prohibited 
 by the Constitution. </p>
 <p>When the bill was introduced, there were two things that were considered by the 
@@ -427,7 +439,7 @@ sir, know the motive of the person making that statement. </p>
 </p>
 <p>MR. ROBINSON: By individual members.
 </p>
-<p><a name="page12"></a>MR. JUSTICE FRANKFURTER: That the proposal has— </p>
+<p>MR. JUSTICE FRANKFURTER: That the proposal has— </p>
 <p>MR. ROBINSON: On other sides, if you please, on both sides, coupled with the 
 fact of almost an entire absence of evidence to the contrary showing that anyone 
 there had a different understanding or a different opinion as to what scope it would have. </p>
@@ -492,7 +504,7 @@ be legally justified except by a new constitutional amendment. </p>
 <p>Consequently, when the 39th Congress eliminated the no-discrimination clause and restricted the scope of the Act, they did so both on the basis of 
 Mr. Bingham&#39;s construction of the breadth of the Act and his assertion that there 
 would be forthcoming a constitutional amendment of broad scope. It is very evident that House 
-<a name="page14"></a>Resolution 127, which finally became section 1 of the Fourteenth 
+Resolution 127, which finally became section 1 of the Fourteenth 
 Amendment, with the addition of the citizenship clause, was even broader than H. 
 R. 63, which was before Congress at that time. </p>
 <p>Now, I should like to point out that during the debates on the proposed Amendment, 
@@ -560,7 +572,7 @@ to be in contravention thereof. </p>
 <p>I should like to make brief reference to the evidence with respect to state ratification. We have again in our briefs set this forth in considerable 
 detail. </p>
 <p>I think the states will pretty largely fall in these general classifications.
-First we have the states which had seceded from the <a name="page16"></a>Union and which were seeking readmission. We had ten in 
+First we have the states which had seceded from the Union and which were seeking readmission. We had ten in 
 this class who were not in the Union at the time the Fourteenth—well, the ten southern 
 states which had seceded, except Tennesee. I think for all practical purposes Tennesee 
 can be classified in about the same fashion. 
@@ -621,7 +633,7 @@ the judicial power in the light of future conditions to construe the Amendment a
 then we get to question three, which is the one I would like to address myself to 
 for the first part of this argument, namely, that, as I understand it, the Court is first requesting us to make the assumption that the answers to questions two (a) and two (b) do 
 not dispose of the case, and on this assumption we are requested to direct our attention to the specific 
-<a name="page18"></a>question as to whether or not the Court—this Court—has judicial 
+question as to whether or not the Court—this Court—has judicial 
 power in construing the Fourteenth Amendment to abolish segregation in the public schools. And our answer to that question is a flat &quot;yes.&quot; </p>
 <p>But in answering the question we want to develop from the legal precedents in this case the necessary answer, and to us these legal precedents divide themselves into three groups; and it would be normal and, perhaps, 
 would be more logical to cover these groups of cases in chronological order. But, 
@@ -682,7 +694,7 @@ who denies anyone rights guaranteed by the Constitution or laws of the United St
 shall have a right of action in law or in equity. The original statute said &quot;in 
 the District Court or Circuit Courts,&quot; and in codifying it they, of course, have 
 left out the circuit court point. </p>
-<p><a name="page20"></a>But if there is a need for congressional action, it is there, 
+<p>But if there is a need for congressional action, it is there, 
 and in Strauder against West Virginia Mr. Justice Strong in his opinion—and we quote it in our brief on page 22 and 23, the language which we believe—either 
 I have the wrong brief or—it is there; 33. </p>
 <p>MR. CHIEF JUSTICE WARREN: I would like to have you discuss the question of power because I believe that is the question the Court asked 
@@ -748,7 +760,7 @@ brief, it is stated that: </p>
 <blockquote>
   <p>The existence of laws in the states where the newly emancipated Negroes resided, 
 which discriminated with gross injustice and hardship against them as a class, was the evil to be 
-  <a name="917505"></a>remedied by this clause, and by it such laws are forbidden.
+  remedied by this clause, and by it such laws are forbidden.
   </p>
 </blockquote>
 <p>That is the expression that is nearest to the time of the Amendment. </p>
@@ -809,7 +821,7 @@ met, at least up to this point, in any of the briefs and cases. </p>
 <p>MR. JUSTICE FRANKFURTER: I should suggest that the question is not whether this Court loses its power, but whether the states lose their 
 powers. I understand the answer you make to it— </p>
 <p>MR. MARSHALL: It is my understanding, yes, sir, I think definitely, Mr. Justice Frankfurter, that a reading of the two briefs in 
-<a name="page24"></a>this case demonstrates clearly that as of this time we have 
+this case demonstrates clearly that as of this time we have 
 a test to see whether or not the public policy, customs and mores of the states 
 of South Carolina and Virginia or the avowed intent of our Constitution—as to which 
 one will prevail. </p>
@@ -877,7 +889,7 @@ that extent— </p>
 <p>MR. JUSTICE REED: Granting the facts in the statement showed that they were equal—
 </p>
 <p>MR. MARSHALL: Yes. </p>
-<p><a name="page26"></a>MR. JUSTICE REED: But didn&#39;t the fact that they did not 
+<p>MR. JUSTICE REED: But didn&#39;t the fact that they did not 
 have the opportunity for association or discussion have any effect on it? </p>
 <p>MR. MARSHALL: Yes, sir. </p>
 <p>MR. JUSTICE REED: And that, therefore, since they were graduate students, they did not have equal opportunities. </p>
@@ -936,7 +948,7 @@ can be done. </p>
 on which the Delaware decision went, you reject— </p>
 <p>MR. MARSHALL: Yes, sir. </p>
 <p>MR. JUSTICE FRANKFURTER: I follow that. </p>
-<p><a name="page28"></a>MR. MARSHALL: Well, it seems to me, sir, that there is 
+<p>MR. MARSHALL: Well, it seems to me, sir, that there is 
 considerable—there is an opening for argument that, after all, the Court is interpreting the phrase 
 &quot;equal protection&quot; underlining the word &quot;equal,&quot; and for that reason, that is the 
 reason in our record in the case we felt obliged to show that these, what we consider 
@@ -999,7 +1011,7 @@ say that they cannot do that? </p>
 <p>MR. MARSHALL: I think, sir, that is our flat legal position, that if it involves 
 class or caste legislation— </p>
 <p>MR. JUSTICE FRANKFURTER: That is the antithesis of the McLaurin and the Gaines doctrine. </p>
-<p><a name="page30"></a>MR. MARSHALL: Well, of the Gaines case, certainly so, sir, 
+<p>MR. MARSHALL: Well, of the Gaines case, certainly so, sir, 
 because I, for one, do not believe that the language used by Chief Justice Hughes was—I 
 mean, I just do not consider it as dictum when he said that they operated under 
 a doctrine the validity of which had been supported. </p>
@@ -1060,7 +1072,7 @@ even of piety, not to increase the reading matter that comes to this Court, brie
 the case in rather concise fashion. An effort was apparent, and I am sure I shared 
 it, to condense the controversy to the smallest compass it would bear. Now, for 
 a rough guess I should think the motion for reargument has contributed somewhere 
-between 1500 and 2000 <a name="page32"></a>pages to the possible entertainment, if not the illumination, 
+between 1500 and 2000 pages to the possible entertainment, if not the illumination, 
 of the Court. But I trust the Court will not hold counsel responsible for that proliferation.
 </p>
 <p>Most of us have supported our answers to the Court&#39;s questions by 
@@ -1129,7 +1141,7 @@ brief and not to their oral presentation—was that the Radical Republicans cont
 again is an unwarranted assumption. The 39th Congress never went as far as some 
 of the Radical Republicans wished it to go, and perhaps there has never been a Congress in which the debates 
 furnished less real pablum on which history might feed. It was what Claude Bowers 
-calls in his book <i>The Tragic <a name="1310721"></a>Era</i>, well-named—flames of partisan passion were still burning 
+calls in his book <i>The Tragic Era</i>, well-named—flames of partisan passion were still burning 
 over the ashes of the Civil War. </p>
 <p>In the Senate there were such men as Sumner, who made a lifelong crusade in favor 
 of mixed racial schools from the time that he was counsel for the plaintiff in Roberts 
@@ -1191,7 +1203,7 @@ Congress wanted to deal with the school question; and the Attorney General, as a
 Court, says he does not know which is correct. So Your Honors are afforded the reasonable 
 field for selection. </p>
 <p>[Laughter.] </p>
-<p>Now, we say that, whatever may have been said in debate—<a name="page36"></a>and there is not an angle of this case that would not find, 
+<p>Now, we say that, whatever may have been said in debate—and there is not an angle of this case that would not find, 
 if that were the decisive question, support in what some person might have said 
 at some time—but Congress by its action demonstrated beyond a peradventure what 
 scope it intended to employ. </p>
@@ -1254,7 +1266,7 @@ adopted without—and Senator Frelinghuysen, who had been Chairman of the Joint 
 on Reconstruction, said that neither the Drake Amendment or the Fourteenth Amendment 
 touched the question of separate schools. That is once I think it is proper to quote 
 from a debate. </p>
-<p>There came then the amnesty bill amendments. Congress <a name="page38"></a>passed an amnesty bill. When it was before the Senate, 
+<p>There came then the amnesty bill amendments. Congress passed an amnesty bill. When it was before the Senate, 
 Sumner offered his supplemental Civil Rights Act, which provided expressly for mixed schools. The Judiciary Committee twice reported it adversely, and Sumner flanked them by offering it then as an amendment to 
 the amnesty bill. In that form it was debated and, finally, a vote was taken which 
 was 28 to 28, and the Vice President broke the tie in Sumner&#39;s favor. It was the high-water mark of his achievement.
@@ -1312,7 +1324,7 @@ Maryland and Delaware. Delaware didn&#39;t ratify until 1901. </p>
 and West Virginia. </p>
 <p>There were nine northern states that either continued segregation they already had or established it immediately after the ratification of the Fourteenth Amendment: Illinois, Indiana, Kansas, Nevada, New Jersey, New York, Ohio, Oregon and Pennsylvania. </p>
 <p>And then—and I can find no evidence that my friends appreciate the significance of this fact—of the reconstructed states who ratified in order to get their delegate, their congressmen and senators back to Washington, eight Reconstruction states in the same Reconstruction legislature, Republican controlled, the same legislature which ratified the Fourteenth Amendment passed statutes continuing or immediately establishing segregated schools. I regard that as a fact of great significance. If there was any place where the Fourteenth Amendment and its sponsors would have blown 
-<a name="page40"></a>the bugle for mixed schools and asserted that the Fourteenth 
+the bugle for mixed schools and asserted that the Fourteenth 
 Amendment had settled the question, surely it would have been those eight states 
 under Reconstruction legislation, sympathetic to the party which was responsible 
 for the submission of the Fourteenth Amendment. </p>
@@ -1368,7 +1380,7 @@ would abolish segregation in the public schools. Now, we are cognizant of what t
 once but several times, and what some of us have heard outside the Court as to the 
 scope of stare decisis in constitutional matters, and it has been accepted that 
 where there is a pronounced dissent from previous opinions in constitutional matters, 
-mere difficulty in amendment leads the Court to bow to <a name="page42"></a>that change of opinion more than it would in matters of 
+mere difficulty in amendment leads the Court to bow to that change of opinion more than it would in matters of 
 purely private rights. </p>
 <p>But be that doctrine what it may, somewhere, sometime to every principle comes 
 a moment of repose when it has been so often announced, so confidently relied upon, so long continued, that it passes the 
@@ -1432,7 +1444,7 @@ chairs of the legislature of South Carolina and mold its educational system; and
 if it is found to be in its present form unacceptable, the State of South Carolina 
 must devise the alternative. It establishes the schools, it pays the funds, and it has the sole power to educate 
 its citizens. What they would do under these circumstances, I don&#39;t know. I do know, 
-if the testimony is to be <a name="page44"></a>believed, that the result would not be pleasing. </p>
+if the testimony is to be believed, that the result would not be pleasing. </p>
 <p>Let me say this for the State of South Carolina. It does not come here, as Thad 
 Stevens would have wished, in sackcloth and ashes. It believes that its legislation 
 is not offensive to the Constitution of the United States. It is confident of its good faith and intention to produce 
@@ -1498,7 +1510,7 @@ had increased to 463. In other words, there had been a decline of 25 percent in
 the white, but an increase of 120 odd percent in the colored. </p>
 <p>Now, of course, during that period, during much of the time, it was not practical 
 to obtain the necessary materials for construction of facilities that would be absolutely equal. But we are glad to say that in 
-quality that does not any longer exist. The new <a name="page46"></a>Moton High School has now been completed, which was in 
+quality that does not any longer exist. The new Moton High School has now been completed, which was in 
 process of construction when we were here a year ago. It has been completed at a 
 cost of something more than 800,000 dollars. </p>
 <p>The details of that are shown in the appendix at the end of our brief where there 
@@ -1562,7 +1574,7 @@ was asked, it is one thing to ask a district court to lay out districts, school
 districts. </p>
 <p>MR. MOORE: Yes. </p>
 <p>MR. JUSTICE FRANKFURTER: I suppose that is one thing. But to have the parties 
-or the state which would be involved, whatever <a name="page48"></a>the political unit, say, &quot;This is what we are going to 
+or the state which would be involved, whatever the political unit, say, &quot;This is what we are going to 
 do,&quot; and have the district court pass on whether that conforms to this hypothetical
 decree, is another thing, isn&#39;t it? </p>
 <p>MR. MOORE: Well, Your Honor, we think, to further answer the question—I did not 
@@ -1626,7 +1638,7 @@ the intent of Congress by what one senator might have said here or what another
 congressman said there, but, as this Court has repeatedly said, what the sponsors 
 of the legislation say is entitled to particular weight. That is the Duplex doctrine, 
 that is the doctrine in the Calvert case which Mr. Justice Douglas 
-<a name="page50"></a>repeatedly delivered the opinion on, and I want to leave 
+repeatedly delivered the opinion on, and I want to leave 
 in your minds what these two sponsors said. Trumbull, as the sponsor of the Civil 
 Rights Act, Wilson in the House, who was Chairman of the Judiciary Committee—and 
 here is what Trumbull said: </p>
@@ -1682,7 +1694,7 @@ words is in doubt. </p>
 ## Tuesday, December 8, 1953
 
 <div style="text-align:justify;width:75%;margin:auto;">
-<p><a name="cover"></a>HARRY BRIGGS, JR., ET AL., </p>
+<p>HARRY BRIGGS, JR., ET AL., </p>
 <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Appellants,
 </i> </p>
 <p>—vs.—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
@@ -1730,7 +1742,7 @@ Edward County, Virginia, et al</i>. </p>
   <p>J. LEE RANKIN, ESQ., <br>
   <i>Assistant Attorney General, on behalf of the United States</i>. </p>
 </blockquote>
-<p style="text-align:center"><b><a name="page1"></a>PROCEEDINGS </b> </p>
+<p style="text-align:center"><b>PROCEEDINGS </b> </p>
 <p>MR. CHIEF JUSTICE WARREN: This is in the matter of a hearing before the United States Supreme Court in the segregation cases held on Tuesday, 
 December 8, 1953. </p>
 <p style="text-align:center"><b>ARGUMENT OFT. JUSTIN MOORE, ESQ., ON BEHALF OF <br>
@@ -1790,7 +1802,7 @@ and Senator Howard of Michigan took the lead in his place. The House leader was
 the famous Co-Chairman; that is, Stevens. </p>
 <p>Now, the Amendment here again is debated in two forms, very much like the Civil 
 Rights Act. In its first form it purported to confer on Congress the affirmative 
-power to make all laws that <a name="page3"></a>were necessary to secure privileges and immunities and equal 
+power to make all laws that were necessary to secure privileges and immunities and equal 
 protection. That version, though, was considered too broad, just as was the broad language 
 in the original Civil Rights Act. </p>
 <p>And finally, in May of that year, the Amendment was reported in the form that is now found, and, as Your Honors probably are thoroughly familiar 
@@ -1854,7 +1866,7 @@ be given equal status in schools, churches, cemeteries, theaters and what-not.
 <p>Finally, in order to get something passed, because the Republicans lost out—there were a hundred people who lost their seats in Congress just about 
 that time on the Republican side—and to try to get something through, they struck 
 out all reference to schools and the cemeteries and things of that sort, and the 
-Act was passed <a name="page5"></a>without it, and that was the last effort made to write into 
+Act was passed without it, and that was the last effort made to write into 
 this legislation all of this business about equal rights as to schools. So how our friends on 
 the other side can get comfort out of that story, when they can point only to Rogers of New Jersey and occasionally to a remark made by Senator Cowan, is beyond us to understand. </p>
 <p>Now, let me turn just very briefly to the state end of this. There is a very 
@@ -1919,7 +1931,7 @@ has very well expressed the thought when he said: </p>
   </p>
 </blockquote>
 <p>We submit that the Court must coordinate the field for its operations with that 
-of the legislative branch in a case particularly <a name="page7"></a>of this kind. What we urge is that the size, the history 
+of the legislative branch in a case particularly of this kind. What we urge is that the size, the history 
 of this problem before the Court here, makes it clear that the solution should be left with the 
 legislatures. This case presents a matter, we submit, for judicial restraint if there ever was a case presented. We don&#39;t mean judicial 
 restraint here in the sense of these political cases such as have been referred 
@@ -1984,7 +1996,7 @@ would result in increased anxieties which would be detrimental to both races. Th
 Chairman of Psychology in the Department of Columbia testified—and he is a Virginia boy, educated 
 in Virginia, went up to the big city where he has been a great teacher for these 
 many years—he testified with full knowledge of Virginia conditions that the 
-result of segregation in Virginia pro<a name="page9"></a>duced better education for both races. </p>
+result of segregation in Virginia produced better education for both races. </p>
 <p>Now, what are we going to do with that testimony? Are we just going to disregard 
 it? Can this Court now say that on the basis of this record, segregation is beyond the bounds of reason, that it is an arbitrary 
 fiat? We don&#39;t believe so. </p>
@@ -2045,7 +2057,7 @@ their ideas of economics. </p>
 </blockquote>
 <p>Thank you. </p>
 <p>MR. CHIEF JUSTICE WARREN: General Almond? </p>
-<p style="text-align:center"><b><a name="page11"></a>ARGUMENT OF J. LINDSAY ALMOND, ESQ., ON BEHALF 
+<p style="text-align:center"><b>ARGUMENT OF J. LINDSAY ALMOND, ESQ., ON BEHALF 
 <br>
 OF APPELLEES, COUNTY SCHOOL BOARD OF PRINCE <br>
 EDWARD COUNTY, VIRGINIA, ET AL. </b> </p>
@@ -2115,7 +2127,7 @@ it will be shepherded into one or the other; is that what you mean by the decree
 schools, then they would have to go to a separate school, is that right? I f they 
 do not choose to go to a mixed school which is open to them, then they would have 
 to go to one or the other; is that what you mean, General Almond? </p>
-<p><a name="page13"></a>MR. ALMOND: I said, sir, that that is the matter of policy 
+<p>MR. ALMOND: I said, sir, that that is the matter of policy 
 which the states— </p>
 <p>MR. JUSTICE FRANKFURTER: Yes, I understand; but is that what you meant? </p>
 <p>MR. ALMOND: Yes. </p>
@@ -2179,7 +2191,7 @@ brief, that if it isn&#39;t done within a school year, that they could get more 
 for this reason, sir. </p>
 <p>I can conceive of nothing administrative-wise that would take longer than a year. 
 If they don&#39;t have staff enough to do then administrative things, the sovereign 
-states can hire more people to <a name="page15"></a>do it. So for that reason I don&#39;t think it should take more 
+states can hire more people to do it. So for that reason I don&#39;t think it should take more 
 than a year for them to adequately handle the administrative techniques, and I submit 
 that a longer period of time would get the lower court into the legislative field 
 as to whether or not to do it this way or that way. </p>
@@ -2245,7 +2257,7 @@ the section in the latter Constitution of Virginia, not the one in this period
 but the later one, Senator Carter Glass, who was a delegate to the convention, spoke thusly in the debates: 
 </p>
 <blockquote>
-  <p><a name="655361"></a>Discrimination, that is precisely what we propose. That exactly is what this Convention was elected for, to discriminate to the 
+  <p>Discrimination, that is precisely what we propose. That exactly is what this Convention was elected for, to discriminate to the 
 very extremity of permissible action under the limitations of the Federal Constitution. 
   </p>
 </blockquote>
@@ -2308,7 +2320,7 @@ do so. </p>
 any lawsuit, segregation was broken down. The truth of the matter is that I for 
 one have more confidence in the people of the South, white and colored, than the lawyers on the other side. I am convinced they are just as lawful as anybody else, and 
 once the law is laid down, that is all there is to it. </p>
-<p><a name="page19"></a>In their argument on the congressional debate, they do a 
+<p>In their argument on the congressional debate, they do a 
 job too well. They say no education was intended to be covered by the Fourteenth 
 Amendment. Obviously, that is not correct, because even their pet case, Plessy v. 
 Ferguson, recognized that education was under the Fourteenth Amendment. </p>
@@ -2368,7 +2380,7 @@ Amendment is placed upon this Court, and the argument that they make over and ov
 charge us with making, the same argument Charles Sumner made. Possibly so. </p>
 <p>And we hereby charge them with making the same argument that was made before 
 the Civil War, the same argument that was made during the period before the Civil 
-War, the same argument <a name="786433"></a>that was made during the period between the ratification 
+War, the same argument that was made during the period between the ratification 
 of the Fourteenth Amendment and the Plessy v. Ferguson case. </p>
 <p>And I think it makes no progress for us to find out who made what argument. It 
 is our position that, whether or not you base this case solely on the intent of 
@@ -2436,7 +2448,7 @@ or helped either side. </p>
 <p>We have no apology to Your Honors or to the country for the manner in which we 
 have developed the history involved in this case and the Fourteenth Amendment; and, 
 on behalf of the Attorney General and myself personally, I want to express publicly my 
-<a name="page23"></a>appreciation for the work that was done, as some of you 
+appreciation for the work that was done, as some of you 
 well know, by others and myself on this, in order to present a factual history of 
 the entire matter that the Court could rely on and not have to do independent work 
 in regard to it. </p>
@@ -2501,7 +2513,7 @@ so far as any inference is to be drawn from what Congress did or did not do, the
 early legislation, you put to one side for the reason that you have given. That 
 would be significant because Congress was then contemporaneous; it was the same Congress about the 
 same time as those that submitted the Fourteenth Amendment. But since 1871 Congress 
-has continued to pass legislation year after year acknowledging or authorizing—<a name="page25"></a>which is it—acknowledging or authorizing segregation in 
+has continued to pass legislation year after year acknowledging or authorizing—which is it—acknowledging or authorizing segregation in 
 the District, both. Whatever it is, there have been appropriations recognizing the fact of segregation, and such has been the policy of the District; is that 
 correct? </p>
 <p>MR. RANKIN: That is right. </p>
@@ -2629,7 +2641,7 @@ was in the process of occupation; the condition of the Negroes who were entirely
 with them in the situation where they had just been slaves. We must remember the 
 condition of education throughout the North. It was far different than the progress 
 that has been made up to this day. And that in the South there were very few public 
-schools. The public schools were largely for the <a name="page29"></a>poor, and other people went to the private schools, and 
+schools. The public schools were largely for the poor, and other people went to the private schools, and 
 there was a prohibition against the Negro going to any school because it might make 
 him rebellious. </p>
 <p>Now, when you take all of that into account and consider what happened at that 
@@ -2697,7 +2709,7 @@ there was no detailed study of the history and background of the Fourteenth Amen
 placed upon Plessy against Ferguson and some of the earlier cases where the history 
 was not reviewed in such detail; that will explain fully the decisions that the 
 court made without examining the question in detail. </p>
-<p><a name="page31"></a>MR. JUSTICE JACKSON: These men had lived with the thing. 
+<p>MR. JUSTICE JACKSON: These men had lived with the thing. 
 They didn&#39;t have to go to books. They had been through it. They didn&#39;t have to go 
 to books any more than we have to read books on what is going on today— </p>
 <p>MR. RANKIN: Well, if the Court is looking— </p>
@@ -2761,7 +2773,7 @@ and the Strauder case is the history that the Department of Justice found to be
 correct in its review of the entire matter. That by reason of that history it is 
 shown that the pervading purpose of the Fourteenth Amendment was to establish that 
 all men are equal, that they are equal before the law, that they are entitled to 
-equal protection of the law, that <a name="page33"></a>no distinction can ever be made on the basis of race or 
+equal protection of the law, that no distinction can ever be made on the basis of race or 
 color; and that therefore this Court, in applying the rules it has laid down in 
 many cases looking to that pervading purpose, can find only one answer to this case, 
 and that is, when they stand before the bar of this Court and say that &quot;The reason 
@@ -2821,7 +2833,7 @@ to declare segregation unconstitutional? </p>
 and that it has the duty. </p>
 <p>MR. JUSTICE REED: Where do we get that power, and how? </p>
 <p>MR. RANKIN: By reason of the power given to it under the Constitution and by act of Congress, and the— </p>
-<p><a name="page35"></a>MR. JUSTICE REED: So far as the Fourteenth Amendment is 
+<p>MR. JUSTICE REED: So far as the Fourteenth Amendment is 
 concerned by the very words of the Fourteenth Amendment? </p>
 <p>MR. RANKIN: Yes, by reason of section 1, which says that &quot;These rights shall 
 not be denied by any state,&quot; and in the interpretation of that language the Court, 
@@ -2880,7 +2892,7 @@ AS AMICUS CURIAE—RESUMED </b> </p>
 <p>I would like to deal briefly with the question of relief and try to give to the 
 Court our points on that problem. </p>
 <p>MR. CHIEF JUSTICE WARREN: Which problem is that, you say? </p>
-<p><a name="page37"></a>MR. RANKIN: The question of relief. </p>
+<p>MR. RANKIN: The question of relief. </p>
 <p>After the Court determines whether or not rights have been violated in these 
 cases, then there is the question of the relief that should be granted. We do not 
 regard lightly the question of presenting to this Court a policy of delaying at all the relief that should be granted to 
@@ -2941,7 +2953,7 @@ like the SEC to enforce individual rights in security transactions, and the Inte
 lay down to the lower court, in your view, to determine what shall be taken into consideration. Now, you mention the antitrust cases, 
 but we have been fifty years in interpreting the antitrust cases in this Court, 
 laying down the criteria, the standards. Some districts may have to have bond issues; some may 
-<a name="page39"></a>have to submit to a vote; commissioners may resign; no 
+have to submit to a vote; commissioners may resign; no 
 commissioners would take the job—I wouldn&#39;t want it, to be caught between these forces. </p>
 <p>What criteria are we going to lay down? I am all for having the district courts 
 frame decrees and do all the rest of the work that we can put on them; but what 
@@ -3001,7 +3013,7 @@ a school, the court cannot raise the taxes, the court cannot raise taxes by a co
 decree; or if a state makes a redistribution, the court cannot say, &quot;You are indulging 
 in educational gerrymandering.&quot; </p>
 <p>MR. RANKIN: That is right. </p>
-<p><a name="page41"></a>MR. JUSTICE FRANKFURTER: I am not suggesting that I have 
+<p>MR. JUSTICE FRANKFURTER: I am not suggesting that I have 
 exhausted the difficulties, because we still have them; but I do suggest that the 
 standard is inherent in the very contention made by the Government, namely, that 
 the standard of equality is not satisfied, indeed is violated, by a separation based 
@@ -3062,7 +3074,7 @@ was not equitably proper. Those standards—
 <p>MR. JUSTICE JACKSON: This is the most definite one, what appears on page 186, 
 being the most definite thing that you have been able to devise? </p>
 <p>MR. RANKIN: We explored the possibility of more definite decrees, but experience seems to dictate that the more definite courts 
-<a name="page43"></a>are, appellate courts, in trying to describe the activities 
+are, appellate courts, in trying to describe the activities 
 of lower courts, the more often they are apt to not give them the opportunity
 to solve the problem in the best manner possible. </p>
 <p>We conceived that the position and the duty of this Court is to establish the 

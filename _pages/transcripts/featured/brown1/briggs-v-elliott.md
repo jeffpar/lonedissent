@@ -4,17 +4,26 @@ permalink: /transcripts/featured/brown1/briggs-v-elliott
 layout: page
 ---
 
+This is one of five cases argued as part of [Brown v. Board of Education (I)](/transcripts/featured/brown1).
+
 ## Argument
 
 - [Tuesday, December 9, 1952](#tuesday-december-9-1952)
 - [Wednesday, December 10, 1952](#wednesday-december-10-1952)
 
+## Reargument
+
+- [Monday, December 7, 1953](/transcripts/featured/brown1/briggs-and-davis#monday-december-7-1953)
+- [Tuesday, December 8, 1953](/transcripts/featured/brown1/briggs-and-davis#tuesday-december-8-1953)
+
 ## Decision
+
+- [Brown v. Board of Education, 347 U.S. 483 (1954)](https://cdn.loc.gov/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf)
 
 ## Tuesday, December 9, 1952
 
 <div style="text-align:justify;width:75%;margin:auto;">
-<a name="cover"></a>HARRY BRIGGS, JR., ET AL.,<p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+HARRY BRIGGS, JR., ET AL.,<p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 Appellants,</i></p>
 <p>—vs.—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No. 101</p>
 <p>R. W. ELLIOTT, Chairman, J. D. CARSON, <br>
@@ -44,7 +53,7 @@ The above-entitled cause came on for oral argument at 3:15 p.m.,</p>
   <p>THURGOOD MARSHALL, ESQ., <i>on behalf of the Appellants</i>. <br>
   JOHN W. DAVIS, ESQ., <i>on behalf of the Appellees</i>. </p>
 </blockquote>
-<p style="text-align:center"><b><a name="page1"></a>PROCEEDINGS </b></p>
+<p style="text-align:center"><b>PROCEEDINGS </b></p>
 <p>MR. CHIEF JUSTICE VINSON: Case No. 101, <i>Harry Briggs, Jr., et al.</i>, against 
 <i>Roger 
 W. Elliott, Chairman, J. D. Carson, et al., Members of Board of Trustees of School 
@@ -114,7 +123,7 @@ the case of the testimony of Dr. Robert Redfield—I am sure the Court will reme
 his testimony in the Sweatt case—the district court was unwilling to carry the 
 case over an extra day. Dr. Redfield was stuck with the usual air travel from one 
 city to another.</p>
-<p>And by agreement of counsel and <a name="page3"></a>with approval of the court, 
+<p>And by agreement of counsel and with approval of the court, 
 we placed into the record Dr. Redfield&#39;s testimony. </p>
 <p>If you will remember, Dr. Redfield&#39;s testimony was to this effect; that there 
 were no recognizable differences from a racial standpoint between children, and 
@@ -186,7 +195,7 @@ recall the name of a single Negro he had ever talked to. I think the basis of hi
 testimony on that point should be weighed by that statement on cross-examination.
 </p>
 <p>He also said that there was a difference between what happened in northern states, 
-because they had a larger number of <a name="page5"></a>Negroes in the South, and 
+because they had a larger number of Negroes in the South, and 
 they had a larger problem because the percentage of Negroes was so high. And again 
 on cross-examination, he was asked the specific question:</p>
 <blockquote>
@@ -260,7 +269,7 @@ very significant.</p>
 and makes it, I think, very clear. On the second hearing, on three or four occasions, 
 he made it clear that segregation was not involved in the case any longer.</p>
 <p>MR. JUSTICE REED: Segregation or equality of rights?</p>
-<p><a name="page7"></a>MR. MARSHALL: He said that segregation was out of the case, 
+<p>MR. MARSHALL: He said that segregation was out of the case, 
 and that we had disposed of it. And page 279—I think I marked it—yes, sir, the 
 question was asked of me about building the schools overnight, and down near the 
 end of the page he mentions the fact of segregation:</p>
@@ -330,7 +339,7 @@ as much weight as Plessy v. Ferguson or Gong Lum v. Rice.</p>
 <p>MR. CHIEF JUSTICE VINSON: Mr. Marshall, in Plessy v. Ferguson, in the Harlan 
 dissent—</p>
 <p>MR. MARSHALL: Yes, sir.</p>
-<p>MR. CHIEF JUSTICE VINSON: Do you attach any significance <a name="page9"></a>
+<p>MR. CHIEF JUSTICE VINSON: Do you attach any significance 
 when he is dealing with illustrations of the absence of education?</p>
 <p>MR. MARSHALL: Yes, sir. I do not know, sir. I tried to study his opinions all 
 along. But I think that he was trying to take the position of the narrow issue involved 
@@ -396,7 +405,7 @@ recognized by this Court over and over again. And so far as the appellants in th
 case are concerned, I cannot consider it sufficient to be relegated to the legislature 
 of South Carolina where the record in this Court shows their consideration of Negroes, 
 and I speak specifically of the primary cases.</p>
-<p><a name="page11"></a>MR. JUSTICE FRANKFURTER: If you would refer to the record 
+<p>MR. JUSTICE FRANKFURTER: If you would refer to the record 
 of the case, there they said that the doctrine of classification is not excluded 
 by the Fourteenth Amendment, but its employment by state legislatures has no justifiable 
 foundation.</p>
@@ -461,7 +470,7 @@ if there be such a thing, or granting that there is that problem, we cannot have
 the individual rights subjected to this consideration of what the groups might do. 
 For example, it was even argued that it will be better for both the Negro and the 
 so-called white group. This record is not quite clear as to who is in
-<a name="page13"></a>the white group, because the superintendent of schools said 
+the white group, because the superintendent of schools said 
 that he did not know; all he knew was that Negroes were excluded. So I imagine that 
 the other schools take in everybody.</p>
 <p>So it seems to me that insofar as this case is concerned, whereas in the Kansas 
@@ -526,7 +535,7 @@ they would violate the injunction. If the lines are drawn on a natural basis, wi
 regard to race or color, then I think that nobody would have any complaint.</p>
 <p>For example, the colored child that is over here in this school would not be 
 able to go to that school. But the only thing that would come down would be the 
-decision that whatever rule you <a name="page15"></a>set in, if you set in, it shall 
+decision that whatever rule you set in, if you set in, it shall 
 not be on race, either actually or by any other way. It would violate the injunction, 
 in my opinion.</p>
 <p>MR. JUSTICE FRANKFURTER: There is a thing that I do not understand. Why would 
@@ -595,7 +604,7 @@ and it might take six months to do it one place and two months to do it another
 place.</p>
 <p>Again, I say it is not a matter for judicial determination. That would be a matter 
 for legislative determination. I would like to save my fifteen minutes for rebuttal.</p>
-<p><a name="page17"></a>MR. JUSTICE JACKSON: Coming back to the question that Justice 
+<p>MR. JUSTICE JACKSON: Coming back to the question that Justice 
 Black asked you, could I ask you what, if any, effect does your argument have on 
 the Indian policy, the segregation of the Indians? How do you deal with that?</p>
 <p>MR. MARSHALL: I think that again that we are in a position of having grown up. 
@@ -665,7 +674,7 @@ us to proceed forthwith to furnish, not merely physical facilities, as my friend
 would have it, but educational facilities, equipment, curricula, and opportunities 
 equal on the part of the state for the Negro as for the white pupil.</p>
 <p>Now, the court could have stopped there, and for the enforcement of its decree 
-it could have awaited the moment when<a name="page19"></a>some complainant would 
+it could have awaited the moment whensome complainant would 
 have come in and invoked process of contempt against the delinquent defendants. 
 That would have satisfied the duty of the chancellor. He would have retained in 
 his own hands the powers of enforcement which the rules of equity give him, and 
@@ -738,7 +747,7 @@ schoolboy no longer walks. The figure of the schoolboy trudging four miles in th
 morning and back four in the afternoon swinging his books as he went is as much 
 a figure of myth as the presidential candidate born in a log cabin. Both of these 
 characters have disappeared.</p>
-<p><a name="786433"></a>MR. CHIEF JUSTICE VINSON: The Court will adjourn.</p>
+<p>MR. CHIEF JUSTICE VINSON: The Court will adjourn.</p>
 <p>[Whereupon, at 4:30 o&#39;clock p.m., argument in the above-entitled matter was recessed, 
 to reconvene the next day, December 10, 1952.]
 </p>
@@ -747,7 +756,7 @@ to reconvene the next day, December 10, 1952.]
 ## Wednesday, December 10, 1952
 
 <div style="text-align:justify;width:75%;margin:auto;">
-<a name="cover"></a>HARRY BRIGGS, ET AL.,<p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+HARRY BRIGGS, ET AL.,<p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 Appellants,</i></p>
 <p>—vs.—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No. 101</p>
 <p>R. W. ELLIOTT, Chairman, J. D. <br>
@@ -778,7 +787,7 @@ Wednesday, December 10, 1952. </p>
   THURGOOD MARSHALL, ESQ., <i>on behalf of Appellants</i>.</p>
 </blockquote>
 <p style="text-align:center"><br>
-<b><a name="page1"></a>PROCEEDINGS </b></p>
+<b>PROCEEDINGS </b></p>
 <p>MR. CHIEF JUSTICE VINSON: Case No. 101, <i>Harry Briggs, Jr., et al.</i>, against 
 <i>R. 
 W. Elliott, Chairman, et al</i>. </p>
@@ -914,7 +923,7 @@ other sense than that it did not touch their power over their public schools?
 </p>
 <p>How do they stand today? Seventeen states in the Union today provide for separate 
 schools for white and colored children, and four others make it permissive with 
-their school boards. Those <a name="page5"></a>four are Wyoming, Kansas, of which 
+their school boards. Those four are Wyoming, Kansas, of which 
 we heard yesterday, New Mexico, and Arizona; so that you have 21 states today which 
 conceive it their power and right to maintain separate schools if it suits their 
 policy. </p>
@@ -990,7 +999,7 @@ He called for the presentation to himself of some 16 pupils between the ages of
 six and nine years, and he applied to them what he devised and what he was pleased 
 to call an objective test. That consisted of offering to them sixteen white and 
 colored dolls, and inviting them to select the doll they would prefer, the doll 
-they <a name="page7"></a>thought was nice, the doll that looked bad, or the doll 
+they thought was nice, the doll that looked bad, or the doll 
 that looked most like themselves. He ascertained that ten out of his battery of 
 sixteen preferred the white doll. Nine thought the white doll was nice, and seven 
 thought it looked most like themselves. Eleven said that the colored doll was bad, 
@@ -1064,7 +1073,7 @@ years after it was abolished. </p>
 <p>Now, these learned witnesses do not have the whole field to themselves. They 
 do not speak without contradiction from other sources. We quote in our brief—I 
 suppose it is not testimony, but it is quotable material, and we are content to 
-adopt it—Dr. Odum <a name="page9"></a>of North Carolina, who is perhaps the foremost 
+adopt it—Dr. Odum of North Carolina, who is perhaps the foremost 
 investigator of educational questions in the entire South; Dr. Frank Graham, former 
 president of the University of North Carolina; ex-Governor Darden, president of 
 the University of Virginia; Hodding Carter, whose recent works on southern conditions 
@@ -1209,7 +1218,7 @@ else. </p>
 if this record also contained the testimony of six professors from other institutions 
 who gave contrary or qualifying testimony? Do you think we would be in a different 
 situation? </p>
-<p><a name="page13"></a>MR. MARSHALL: You would, sir, but I do not believe that 
+<p>MR. MARSHALL: You would, sir, but I do not believe that 
 there are any experts in the country who would so testify. And the body of law is 
 that—even the witnesses, for example, who testified in the next case coming up, 
 the Virginia case, all of them, admitted that segregation in and of itself was harmful. 
@@ -1276,7 +1285,7 @@ that their constitutionally protected rights have to be weighed over against wha
 is considered to be the public policy of the State of South Carolina; and if what 
 is considered to be the public policy of the State of South Carolina runs contrary 
 to the rights of that individual, then the public policy of South Carolina—this 
-Court, reluctantly or otherwise, is obliged to <a name="page15"></a>say that this 
+Court, reluctantly or otherwise, is obliged to say that this 
 policy has run up against the Fourteenth Amendment, and for that reason his rights 
 have to be affirmed. </p>
 <p>But I for one think—and the record shows, and there is some material cited in 
@@ -1350,7 +1359,7 @@ together on the higher level Just how far it goes—I think when we predict what
 might happen I know in the South where I spent most of my time, you will see white 
 and colored kids going down the road together to school They separate and go to 
 different schools, and they come out and they play together. I do not see why there 
-would necessarily be <a name="page17"></a>any trouble if they went to school together.
+would necessarily be any trouble if they went to school together.
 </p>
 <p>MR. JUSTICE REED: I am not thinking of trouble. I am thinking of whether it is 
 a problem of legislation or of the Judiciary. </p>

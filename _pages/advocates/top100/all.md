@@ -9,7 +9,7 @@ We're also working on a comprehensive list of the top U.S. Supreme Court advocat
 have argued a large number of cases at the Court).
 
 This is a multi-stage effort, which begins with our work to match all
-[SCOTUS Transcripts](/cases/transcripts/scotus) with their corresponding SCDB records. 
+[SCOTUS Transcripts](/transcripts/scotus) with their corresponding SCDB records. 
 A list of those transcripts is being stored in a [CSV](/results/transcripts.csv),
 which includes a `notes` field documenting any corrections.  Next, we'll cross-reference
 the list with [Case Data](https://github.com/jeffpar/lonedissent/tree/master/sources/oyez/cases)

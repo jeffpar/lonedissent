@@ -4,16 +4,25 @@ permalink: /transcripts/featured/brown1/davis-v-county-school-board
 layout: page
 ---
 
+This is one of five cases argued as part of [Brown v. Board of Education (I)](/transcripts/featured/brown1).
+
 ## Argument
 
 - [Wednesday, December 10, 1952](#wednesday-december-10-1952)
 
+## Reargument
+
+- [Monday, December 7, 1953](/transcripts/featured/brown1/briggs-and-davis#monday-december-7-1953)
+- [Tuesday, December 8, 1953](/transcripts/featured/brown1/briggs-and-davis#tuesday-december-8-1953)
+
 ## Decision
+
+- [Brown v. Board of Education, 347 U.S. 483 (1954)](https://cdn.loc.gov/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf)
 
 ## Wednesday, December 10, 1952
 
 <div style="text-align:justify;width:75%;margin:auto;">
-<p><a name="cover"></a>DOROTHY E. DAVIS, BERTHA M. <br>
+<p>DOROTHY E. DAVIS, BERTHA M. <br>
 DAVIS and INEZ D. DAVIS, etc., ET AL., </p>
 <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Appellants, 
 </i> </p>
@@ -47,7 +56,7 @@ MINTON, <i>Associate Justice</i> </p>
   J. LINDSAY ALMOND, ESQ., <i>on behalf of the Appellees</i>. </p>
 </blockquote>
 <p></p>
-<p style="text-align:center"><b><a name="page1"></a>PROCEEDINGS </b> </p>
+<p style="text-align:center"><b>PROCEEDINGS </b> </p>
 <p>MR. CHIEF JUSTICE VINSON: Case No. 191, <i>Davis, et al.,</i> against <i>County School 
 Board of Prince Edward County, Virginia, et al.</i> </p>
 <p>THE CLERK: Counsel are present. </p>
@@ -106,7 +115,7 @@ with the program, which the evidence for the appellees indicated would result
 in the availability for Negro students of a new Negro high school in September, 
 1953. 
 </p>
-<p><a name="page3"></a>At the same time, the district court refused to enjoin the 
+<p>At the same time, the district court refused to enjoin the 
 enforcement of the segregation laws or to restrain the appellees from assigning school space 
 in the county on the basis of race or color, and in its opinion asserted the following 
 grounds: </p>
@@ -172,7 +181,7 @@ same time, it is urged that these laws are valid as a matter of constitutionally
 permissible social experimentation by the states. On the matter of stare decisis, 
 I submit that the duration of the challenged practice, while it is persuasive, is not controlling. This Court has not hesitated to change the course of its decision, although of 
 long standing, when error has been demonstrated, and courts are even less reluctant to examine their decisions when it is plain that the conditions of the present are substantially 
-<a name="page5"></a>different from those of the past. </p>
+different from those of the past. </p>
 <p>No court has ever considered itself irrevocably bound into the future by its 
 prior determinations. As a matter of social experimentation, the laws in question must satisfy the requirements of the Constitution. While 
 this Court has permitted the states to legislate or otherwise officially act experimentally in the social and economic fields, 
@@ -235,7 +244,7 @@ of physical facilities and curricula—they were there—but this Court consider
 and it based its opinion upon what it termed the more important considerations which were involved in a situation of that sort. And I certainly take it that after the decision in the Sweatt case, it is no longer possible 
 for any state to have hope of establishing a segregated law school for Negro students. 
 </p>
-<p><a name="page7"></a>MR. JUSTICE FRANKFURTER: But if Mr. Marshall is right, and 
+<p>MR. JUSTICE FRANKFURTER: But if Mr. Marshall is right, and 
 your clients are going to go to present white schools, things might turn out to 
 be so happy and congenial and so desirable that you do not know what the result 
 may be. </p>
@@ -301,7 +310,7 @@ counsel in the South Carolina case are. The only thing which appears in the reco
 which might be helpful to the Court in that regard is the testimony of Doctor Colgate 
 W. Darden, the present president of the University of Virginia, and former Governor 
 of the State. That testimony commences in the record at page 451. </p>
-<p><a name="page9"></a>Doctor Darden went into an examination—he gave rather an 
+<p>Doctor Darden went into an examination—he gave rather an 
 outline of the historical development of public education in Virginia, and he said, according to his testimony—and it is a fact, as a check of the 
 statutes will show—that segregation came into Virginia in pretty much the same way as it did in South Carolina, at the time when the 
 public school system of Virginia was just getting under way. </p>
@@ -360,7 +369,7 @@ without examination, will be accorded only a probationary status. </p>
 preferences in college acceptance and employment. </p>
 <p>Our evidence in this case shows not only these inequalities, but clearly demonstrated 
 that these inequalities in themselves handicap Negro students in their educational endeavors and make it 
-<a name="page11"></a>impossible for Negro students to obtain educational opportunities 
+impossible for Negro students to obtain educational opportunities 
 and advantages equal to those afforded white students. </p>
 <p>While the district court did forthwith enjoin the continuation of discrimination 
 in curricula offerings, I think it is important to note—and this is uncontradicted 
@@ -424,7 +433,7 @@ the business of supervising the school system and is in there indefinitely. We a
 not dealing with a physical thing. We are not dealing with a static thing. We are 
 dealing with an educational system that has a number of variables and a number of dissimilarities. We have schools that are different in size, location, and environment, and we 
 have teachers who differ in ability, personality, and effectiveness, and consequently their teachings vary in value. </p>
-<p><a name="page13"></a>So consequently, all up and down the educational system 
+<p>So consequently, all up and down the educational system 
 we are going to find points of difference. Additionally, education is an ever-growing 
 and progressing field, and facilities and methods are constantly changing. They 
 get better as experience and need demonstrate the way. As a matter of fact, several 
@@ -484,7 +493,7 @@ legislation which would be in violation of the due process clause. </p>
 though, by reason of the fact that I fee in this particular instance certainly the 
 legislation is caught by the one or by the other. </p>
 <p>MR. CHIEF JUSTICE VINSON: Mr. Moore? </p>
-<p style="text-align:center"><b><a name="page15"></a>ARGUMENT OF T. JUSTIN MOORE, ESQ., <br>
+<p style="text-align:center"><b>ARGUMENT OF T. JUSTIN MOORE, ESQ., <br>
 ON BEHALF OF THE APPELLEES </b> </p>
 <p>MR. MOORE: May it please the Court: </p>
 <p>We believe it to be particularly fortunate that the Court concluded to assume for argument all five of these cases together, because while in history each case stands on its own record, there is, of course, one 
@@ -547,7 +556,7 @@ whites three to one. </p>
 <p>Now, these appellants are high school students. This case relates entirely to high school students. The South Carolina case was elementary and 
 high school. These cases vary. But this is strictly a high school. </p>
 <p>MR. JUSTICE BLACK: What did you say about the three to one? </p>
-<p><a name="page17"></a>MR. MOORE: I said that the ratio is about three whites to 
+<p>MR. MOORE: I said that the ratio is about three whites to 
 one Negro. </p>
 <p>MR. JUSTICE BLACK: Where? </p>
 <p>MR. MOORE: Throughout the State. I am sorry, I did not clear that up. </p>
@@ -650,7 +659,7 @@ a bit about this history. </p>
 South before the war, but because it sprang out of that system it does not follow 
 that there was any intent to continue a form of slavery or form of servitude, such 
 as here argued. </p>
-<p><a name="page21"></a>He goes ahead and points out there that actually in the 
+<p>He goes ahead and points out there that actually in the 
 consideration of the Underwood constitution there were 22 Negroes in the convention, and they 
 were split eleven to eleven-eleven voting against the proposal to include a prohibition 
 against segregation. That was obviously because of the friction that was involved arising out of that period. </p>
@@ -707,7 +716,7 @@ the Department of Education of the University of Virginia, a man with wide exper
 all over the country, teaching and supervising segregated schools and nonsegregated schools, who stressed that there was a difference in that level at adolescent 
 age; you find Doctor Henry E. Garrett, head of the Department of Psychology of Columbia 
 University, who testified at great length on this subject; and then Doctor Dabney 
-L. <a name="page23"></a>Lancaster, the president of Longwood College in Virginia, 
+L. Lancaster, the president of Longwood College in Virginia, 
 stresses that situation. 
 </p>
 <p>Now, there the gist of their testimony was that equality of opportunity really 
@@ -774,7 +783,7 @@ been completed the finest high school for Negroes that there is in all that area
 </p>
 <p>Now, as an indication of what has been accomplished—I sound as if we are trying 
 to brag in comparison with South Carolina, and we do not mean it that way, but we 
-believe these figures <a name="page25"></a>are very pertinent, Your Honors. We are telling that to 
+believe these figures are very pertinent, Your Honors. We are telling that to 
 you because we have no other way of getting these facts to you except by telling them to 
 you. </p>
 <p>In Virginia we have put on this program that I referred to as the Battle Fund. 
@@ -844,7 +853,7 @@ segregation was bad. </p>
 <p>The next was Doctor Brewster Smith, who was a professor of psychology at Vassar. 
 His chief contribution was that he considered that as a matter of principle segregation in the abstract was an official insult. 
 That is about what his testimony finally boiled down to. </p>
-<p><a name="page27"></a>One of the most interesting witnesses was Doctor Isidor 
+<p>One of the most interesting witnesses was Doctor Isidor 
 Chein. He has written a great deal on this subject, and he testified as to a questionnaire 
 that he had sent out to some 850 social scientists, he said, asking them two main 
 questions: First, as to whether or not in their view segregation was harmful to 
@@ -910,7 +919,7 @@ level in separate schools, given those two qualifications; equal facilities and 
   <p>If a Negro child goes to a school as well equipped as that of his white neighbor, 
 if he had teachers of his own race and friends of his own race, it seems to me he 
 is much less likely to develop tensions, animosities, and hostilities, than if you 
-put him into a mixed <a name="page29"></a>school where, in Virginia, inevitably he will be a minority 
+put him into a mixed school where, in Virginia, inevitably he will be a minority 
 group. </p>
 </blockquote>
 <p>Then he says again: </p>
@@ -974,7 +983,7 @@ engaged in, as to whether there is any difference through the passage of time an
 through progress which has been made between the commerce clause and the Fourteenth 
 Amendment. </p>
 <p>But I would suggest in that connection that it certainly is much 
-<a name="page31"></a>more easy to find facts that demonstrate that as progress 
+more easy to find facts that demonstrate that as progress 
 has gone on, such as in Morgan v. Virginia, where the separation of races on the 
 interstate buses is involved, it is much easier to find facts which will show, as 
 time has gone on, that there should be a different application than there is where a question of equal protection is involved. We believe, as Mr. Davis pointed out this morning, I think touching this same point, although very slightly, that the Fourteenth 
@@ -1036,7 +1045,7 @@ the Attorney General, desires the remainder of the time. </p>
 ON BEHALF OF THE APPELLEES </b> </p>
 <p>MR. ALMOND: May it please the Court: </p>
 <p>Just a few minutes are available to our side in which I would 
-<a name="page33"></a>like to discuss with the Court what we conceive to be the 
+like to discuss with the Court what we conceive to be the 
 historical background of this question in Virginia. </p>
 <p>The question posed yesterday, or the remark made by Mr. Justice Frankfurter, 
 is whether or not in the minds of some it may represent man&#39;s inhumanity to man 
@@ -1096,7 +1105,7 @@ was on a separate basis. </p>
 school purposes were raided to this extent, or diverted; and Dr. Ruffing made a 
 big fight on that. But throughout the Reconstruction period, and not until 1920 did the people of Virginia awaken 
 to the necessity of improvement of their public schools. </p>
-<p>Sad to relate, I am ashamed to say, that during many of <a name="page35"></a>those years of the past we have been grossly neglectful 
+<p>Sad to relate, I am ashamed to say, that during many of those years of the past we have been grossly neglectful 
 of our responsibility in bringing about equal facilities for the Negro race in Virginia. </p>
 <p>In 1920 there were only 31,000 children of high school age in Virginia going 
 to school, and today there are something like 155,000 of them. </p>
@@ -1155,7 +1164,7 @@ salaries between white and Negro teachers. </p>
 them, feel that it is their custom, their use and their wont; and their traditions, 
 if destroyed, as this record shows, will make it impossible to raise public funds 
 through the process of taxation, either at the state or the local level, to support
-<a name="page37"></a>the public school system of Virginia, and it would destroy 
+the public school system of Virginia, and it would destroy 
 the public school system of Virginia as we know it today. That is not an idle threat.
 </p>
 <p>Then, too, a thing that concerns us— </p>
@@ -1279,7 +1288,7 @@ it is in the forties section. </p>
 <p>I would like to make reference to this— </p>
 <p>MR. JUSTICE DOUGLAS: Has the Court ever held that the Fourteenth Amendment is not executed unless Congress acts? </p>
 <p>MR. ROBINSON: No, I do not think so. </p>
-<p><a name="page41"></a>There is a large area of law which has been developed by 
+<p>There is a large area of law which has been developed by 
 this Court in which the decision has rested upon the provisions of the due process 
 and equal protection clauses, and, in a few instances, of the privileges and immunities 
 clause where there was not any implementing legislation by Congress. </p>
@@ -1345,7 +1354,7 @@ program. Virginia does not have the money for it now. Even though Virginia could
 spend 263 million dollars—an enormous sum by Virginia standards—all that we succeed in doing is moving from a present 
 61 cents to 79 cents per Negro student for each dollar that is invested in buildings 
 and sites for white students. </p>
-<p><a name="page43"></a>MR. CHIEF JUSTICE VINSON: Have you got any breakdown as 
+<p>MR. CHIEF JUSTICE VINSON: Have you got any breakdown as 
 to the number of school buildings that have been constructed in the last, say, five 
 years? I heard about the high school of Richmond and Charlottesville. I am fearful that this percentage business does not make it very clear to me because it is a question of the number of schools; 
 it is a question of how the students are grouped, as to whether they are getting 
@@ -1406,7 +1415,7 @@ get out of the house before it is torn down. </p>
 affording of the remedy, and to that particular situation and to that particular 
 extent, of course, we readily recognize some lapse of time. I am not in a position to suggest what it should be. </p>
 <p>I think it is an administrative problem initially, at least, for the school authorities 
-to work out. We appreciate that, but I do <a name="page45"></a>not see how we can, without encroaching upon the body of 
+to work out. We appreciate that, but I do not see how we can, without encroaching upon the body of 
 decisions of this Court which have established the rights involved in these cases as present 
 and personal, as to how we can say that notwithstanding that, we may delay the right; in other words, that a person must be compelled 
 before he can get satisfaction of his rights—he may be postponed at some time into 

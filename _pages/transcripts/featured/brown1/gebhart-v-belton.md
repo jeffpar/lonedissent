@@ -4,6 +4,8 @@ permalink: /transcripts/featured/brown1/gebhart-v-belton
 layout: page
 ---
 
+This is one of five cases argued as part of [Brown v. Board of Education (I)](/transcripts/featured/brown1).
+
 ## Argument
 
 - [Thursday, December 11, 1952](#thursday-december-11-1952)
@@ -14,10 +16,12 @@ layout: page
 
 ## Decision
 
+- [Brown v. Board of Education, 347 U.S. 483 (1954)](https://cdn.loc.gov/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf)
+
 ## Thursday, December 11, 1952
 
 <div style="text-align:justify;width:75%;margin:auto;">
-<p><a name="cover"></a>FRANCIS B. GEBHART, ET AL., </p>
+<p>FRANCIS B. GEBHART, ET AL., </p>
 <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Petitioners,
 </i> </p>
 <p>—vs.—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No. 448</p>
@@ -47,7 +51,7 @@ Thursday, December 11, 1952. </p>
 of Respondents</i>. <br>
   JACK GREENBERG, ESQ., <i>on behalf of Respondents</i>. </p>
 </blockquote>
-<p style="text-align:center"><b><a name="page1"></a>PROCEEDINGS </b> </p>
+<p style="text-align:center"><b>PROCEEDINGS </b> </p>
 <p>MR. CHIEF JUSTICE VINSON: Case No. 448, <i>Francis B. Gebhart and others</i> versus 
 <i>Ethel Louise Belton and others</i>. </p>
 <p>THE CLERK: Counsel are present. </p>
@@ -110,7 +114,7 @@ read from portions of the opinion in order to demonstrate to this Court how the
 Delaware Supreme Court arrived at its decision. On page 43—and I am sorry that I 
 cannot refer to a brief, but I can assure the Court that it will be fully covered—
 </p>
-<p><a name="page3"></a>MR. JUSTICE BLACK: Page 43 of what? </p>
+<p>MR. JUSTICE BLACK: Page 43 of what? </p>
 <p>MR. YOUNG: Page 43 of the opinion, which will be found in the supplementary appendix 
 of appellees—it is the blue-covered book —at the bottom of page 43, the supreme 
 court said: </p>
@@ -174,7 +178,7 @@ and giving them a reasonable time to do so. </p>
 <p>Now, this case involved two school districts. One is known as the Claymont School 
 District, and the other the Hockessin School District. </p>
 <p>In the Claymont School district, there is one high school, the 
-<a name="page5"></a>Claymont High School, for white children only. There is 
+Claymont High School, for white children only. There is 
 also a high school in the city of Wilmington, some nine miles away, the Howard High 
 School for Negro children. The plaintiff Belton, fifteen years of age and of high school age, attending the tenth grade and living in 
 Claymont, was required to go to the Howard High School in the city of Wilmington. 
@@ -240,7 +244,7 @@ the plaintiff, although there was bus transportation provided for white children
 although there was evidence that prior thereto the colored school did not receive 
 equal support, which, perhaps, made for the disparity in the maintenance and upkeep 
 of that particular school. </p>
-<p><a name="page7"></a>Both buildings—both are brick buildings; both are substantially
+<p>Both buildings—both are brick buildings; both are substantially
 contructed, so that the court in the case involving the elementary schools which have classes from the first grade to the sixth grade, held there 
 was disparity in value, in upkeep, in exterior painting and floors, in toilet facilities, fire hazard, auditorium and custodial 
 services. 
@@ -298,7 +302,7 @@ the terrific impact upon the rest of the State by this decision. </p>
 <p>MR. YOUNG: And it would also prevent, perhaps, the legislators from voting for 
 particular allotments for particular school districts, not knowing whether they can maintain the &quot;separate but equal&quot; phase of it or 
 not. </p>
-<p><a name="page9"></a>MR. JUSTICE FRANKFURTER: I may be wrong, but I should assume 
+<p>MR. JUSTICE FRANKFURTER: I may be wrong, but I should assume 
 that it is almost inevitable that the conditions in the various districts would not be identical, and therefore differentiation would be almost 
 inevitable, and the claim that the two colored and white schools are not the same 
 would almost inevitably be made, and it would have to be decided with proper reference 
@@ -357,7 +361,7 @@ in physical education; but it seemed to hold that as to all other classes the di
 in size between 25 pupils in white schools and 30 or 31 or 32 in classes in the 
 colored schools did not make for inequality so as to affect educational opportunity 
 or instruction. </p>
-<p><a name="page11"></a>The State contends that where disparity exists, under the 
+<p>The State contends that where disparity exists, under the 
 equal protection clause of the Fourteenth Amendment, the rights of Negro children are protected by a decree compelling school administrators to equalize the facilities in the segregated schools involved where a state constitutional 
 provision makes mandatory the maintenance of separate schools for white and colored children, and where school administrators 
 have reasonably shown that the existing inequality can and probably will be corrected within a reasonable time. </p>
@@ -415,7 +419,7 @@ segregation might be held on evidence in some places to supply equal opportuniti
 for education, while in other it might be held that the situation was such that 
 it gave an inferior opportunity for education? </p>
 <p>MR. YOUNG: Depending on the facilities offered, and the educational opportunities. </p>
-<p><a name="page13"></a>MR. JUSTICE BLACK: I mean assuming that the facilities are 
+<p>MR. JUSTICE BLACK: I mean assuming that the facilities are 
 the same— </p>
 <p>MR. YOUNG: Yes. </p>
 <p>MR. JUSTICE BLACK: —do you conceive that it is impossible for segregation in 
@@ -477,7 +481,7 @@ of the Chancellor, it said that, inasmuch as his finding of fact is irrelevant,
 it was not going to review it. Therefore, we have a finding of an inferior court specifically not reviewed by the highest court of the State. </p>
 <p>The Chancellor found that on his appraisal of the evidence—insofar as I am concerned, it may well be that your supreme court might not have reached 
 that conclusion, and might not have weighed the evidence that the Chancellor did, 
-and therefore we <a name="page15"></a>have not got, for myself, in this case, what we have in 
+and therefore we have not got, for myself, in this case, what we have in 
 the Kansas case, a finding of fact which binds us, because for all I know your supreme 
 court might have disagreed with your Chancellor, and then we would be in a position 
 where the highest court said that the evidence does not yield to the conclusions 
@@ -538,7 +542,7 @@ be ignored or minimized. </p>
 that that is a problem here? Is it a violation of the federal law or a violation 
 of the Federal Constitution that the Delaware Supreme Court has acted somewhat precipitately, 
 from your point of view? </p>
-<p><a name="page17"></a>MR. YOUNG: It is because, Your Honor, we contend that the 
+<p>MR. YOUNG: It is because, Your Honor, we contend that the 
 supreme court, affirming the Chancellor who acted in this matter, in shaping the 
 form of the decree, said that he was compelled to make that kind of a decree under 
 the equal protection clause of the Fourteenth Amendment. It was not a question of 
@@ -603,7 +607,7 @@ that the Court should be slow in desegregating even where segregation per se was
 held to be invalid, our contention is that the fact that it is even more serious where the &quot;separate but equal&quot; doctrine is held to be valid, and where it is recognized that the State, upon a showing that any existing inequality relating to facilities 
 and educational opportunities is capable of being corrected within a reasonable 
 time, for a court to compel the immediate amalgamation of Negroes and whites in 
-the same <a name="page19"></a>school, and then later, upon a showing of equalization, 
+the same school, and then later, upon a showing of equalization, 
 again separate the Negro children from the white school—a decree requiring the defendants to equalize the facilities within a reasonable time would give 
 the plaintiffs relief as quickly as practicable, consistent with an orderly administration of the school system and a specific adjustment 
 of inequalities where such inequalities have been found to exist in the past.
@@ -663,7 +667,7 @@ in affirming the judgment of the court or chancery or the Chancellor— </p>
 must be— </p>
 <p>MR. YOUNG: That is right. </p>
 <p>MR. JUSTICE FRANKFURTER: How could he? We did not do that in one of the cases. </p>
-<p><a name="page21"></a>MR. YOUNG: We tried to point out to the Chancellor that 
+<p>MR. YOUNG: We tried to point out to the Chancellor that 
 he was wrong, and we tried to point out to the Chancellor that that was not so. </p>
 <p>MR. JUSTICE FRANKFURTER: The question is whether he was wrong or what rule of 
 law did he apply. If he said that in this situation, considering the circumstances in Delaware, your county or school district—or 
@@ -793,7 +797,7 @@ Delaware legislature, and I think its language will be self-explanatory: </p>
 <blockquote>
   <p>Resolved, that the members of this General Assembly do hereby declare uncompromising 
 opposition to a proposed act of Congress introduced by the Honorable Charles Sumner 
-  <a name="page25"></a>at the last session and now on file in the Senate of the United States, known as the Supplemental Civil Rights bill, and all other measures intended or calculated to equalize 
+  at the last session and now on file in the Senate of the United States, known as the Supplemental Civil Rights bill, and all other measures intended or calculated to equalize 
 the Negro race with the white race, politically or socially, and especially do they 
 proclaim unceasing opposition to making Negroes eligible to public offices, to sit on juries, and to their admission into public schools 
 where white children attend, to their admission on terms of equality with white 
@@ -911,7 +915,7 @@ a case as moot because the child had gone through the education, a case from New
 Jersey, and it was a case in a totally different field—so that by the time there 
 may be a new threat, these boys and girls might be in various universities of the 
 country. </p>
-<p><a name="page29"></a>MR. REDDING: We feel, sir, that the decree should be affirmed.
+<p>MR. REDDING: We feel, sir, that the decree should be affirmed.
 </p>
 <p style="text-align:center"><b>ARGUMENT OF JACK GREENBERG, ESQ., <br>
 ON BEHALF OF THE RESPONDENTS </b> </p>
@@ -973,7 +977,7 @@ a child ten years of education, and the child has spent approximately five of th
 years in inferior schools, and it is possible to give him the remaining five years 
 on a parity with white students, that to deny him the sixth, seventh and eighth 
 years of equality is to inflict an irreparable injury on him. Those three years 
-cannot be completely recaptured, and we feel there is <a name="page31"></a>no reason in justice or under the Fourteenth Amendment 
+cannot be completely recaptured, and we feel there is no reason in justice or under the Fourteenth Amendment 
 why we should not demand it. </p>
 <p>MR. JUSTICE FRANKFURTER: When you say there is no reason in justice, of course— </p>
 <p>MR. GREENBERG: And under the Fourteenth Amendment. </p>
@@ -1029,7 +1033,7 @@ and direct the expenditure of state funds in a matter committed to the sound adm
   </p>
 </blockquote>
 <p>The Chancellor wrote similarly that he did not see how he could order the State 
-to put into effect the equalization which the <a name="page33"></a>Attorney General suggests this Court should order the State 
+to put into effect the equalization which the Attorney General suggests this Court should order the State 
 to do. </p>
 <p>A reference to the pages of the record to which the Attorney General referred 
 for his assertion that equality will occur sometime in the future does not reveal that there is any likelihood of equality at all 
@@ -1094,7 +1098,7 @@ State Superintendent of Education, stated: </p>
 in Middletown which is under way now, and we are just waiting for materials until 
 that is completed. </p>
 </blockquote>
-<p><a name="page35"></a>But it nowhere indicates what effect that will have. This 
+<p>But it nowhere indicates what effect that will have. This 
 is thirty miles south of where respondents live. It in no way indicates what effect 
 that will have on respondents&#39; education. </p>
 <p>He then, in the elementary school case, refers to pages R-59 to 62, where it 
@@ -1155,7 +1159,7 @@ limitations and qualifications and illuminations. The mere fact that a man is no
 is so. </p>
 <p>MR. GREENBERG: As far as that is concerned, the Chancellor— </p>
 <p>MR. JUSTICE FRANKFURTER: If a man says three yards, and I have measured it and 
-it is three yards, there it is. But if a man <a name="page37"></a>tells you the inside of your brain and mine, and how we 
+it is three yards, there it is. But if a man tells you the inside of your brain and mine, and how we 
 function, that is not a measurement, and there you are. </p>
 <p>MR. GREENBERG: That is true, Your Honor. But it is our contention that as far as the value to be placed upon the facts, the trial judge was able 
 to see and hear the witness, and that is certainly in the record. The Chancellor saw him. Now, as far as the record is concerned, 
@@ -1215,7 +1219,7 @@ more. </p>
 ## Wednesday, December 9, 1952
 
 <div style="text-align:justify;width:75%;margin:auto;">
-<p><a name="cover"></a>FRANCIS B. GEBHART, ET AL., </p>
+<p>FRANCIS B. GEBHART, ET AL., </p>
 <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Petitioners,
 </i> </p>
 <p>—vs.—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No. 10 </p>
@@ -1256,7 +1260,7 @@ Associate Justice <br>
   JACK GREENBERG, ESQ., and THURGOOD MARSHALL, ESQ., <i>on behalf of Respondents</i>.
   </p>
 </blockquote>
-<p align="center"><b><a name="page1"></a>PROCEEDINGS </b> </p>
+<p align="center"><b>PROCEEDINGS </b> </p>
 <p>MR. CHIEF JUSTICE WARREN: No. 10, <i>Francis B. Gebhart, et al.</i>, v. <i>Ethel Louise 
 Belton, et al</i>. </p>
 <p>THE CLERK: Counsel are present. </p>
@@ -1322,7 +1326,7 @@ citizens of the remaining two counties, Kent and Sussex, as it was a part of the
 lives of the citizens of the Southern states. </p>
 <p>Throughout the Civil War, the Democrats maintained firm control of the State 
 government. It proclaimed itself the White Man&#39;s Party, and was in power until 
-the late eighties or early nineties. <a name="page3"></a>It disapproved of suffrage or political or social 
+the late eighties or early nineties. It disapproved of suffrage or political or social 
 equality for Negroes. </p>
 <p>The dominant mood in Delaware, both during and after the Civil War, was opposed 
 to abolitionism and equality for the Negroes, and in our own state legislature, 
@@ -1393,7 +1397,7 @@ an era in Delaware history that had passed when the present school law and the p
 school system were enacted. </p>
 <p>The constitutional provision for a separation of the races in the public schools 
 in Delaware was not based upon any declaration of natural or God-made inequality 
-or inferiority of the Negro. <a name="page5"></a>It was adopted in the light of the history and tradition 
+or inferiority of the Negro. It was adopted in the light of the history and tradition 
 of the people of the State of Delaware as the wisest and most workable and most 
 acceptable method of educating the youth in that State, both white and colored. </p>
 <p>Now, in answer to Question 1, I do not want to burden the Court—I know much argument 
@@ -1466,7 +1470,7 @@ respect to the provision for segregated schools in the District of Columbia, the
 window of the Republic at that time, that such equalitarians as Ben Wade of Ohio, 
 and Senator Sumner and Senator Sprague, and Representative Stevens and all the other 
 equalitarians would have sat by and said nothing. </p>
-<p><a name="page7"></a>The amendment was adopted, and another amendment was offered 
+<p>The amendment was adopted, and another amendment was offered 
 by Senator Grimes to provide separate schools for Negroes in the county, without 
 any dissent; and it is interesting to know that these amendments were adopted without 
 any opposition, even though 23 members of the 39th Congress that considered the 
@@ -1538,7 +1542,7 @@ Representative Hubbard of Connecticut, who made no mention of racial segregation
 in public schools; they rely on Representative Rousseau of Kentucky, who opposed 
 the bill because he said the Bureau would take over all the schools used by white 
 children; and they rely upon Representative Dawson, a white supremacist who, every
-<a name="page9"></a>time the occasion arose, castigated the extreme radicals 
+time the occasion arose, castigated the extreme radicals 
 and suggested that the bill would permit white and Negro children to sit side by 
 side. 
 </p>
@@ -1613,7 +1617,7 @@ legislative one and not a judicial one. To construe the Amendment as requiring t
 abolition of segregation in the public schools would be to give the Amendment a 
 meaning and an effect directly contrary to the understanding of the framers. It 
 was clearly understood by both Congress which submitted, and the states which ratified, 
-the Amendment that it was to have no <a name="page11"></a>effect on the public school system of the state. </p>
+the Amendment that it was to have no effect on the public school system of the state. </p>
 <p>The Court, if it should abolish segregation, would not be interpreting the document 
 to meet new conditions, but would be meeting a problem which existed at the time 
 of the Fourteenth Amendment—the time the Fourteenth Amendment was adopted—in a manner 
@@ -1686,7 +1690,7 @@ are affected. </p>
 <p>If I may borrow from a statement made by the venerable Mr. John W. Davis, and 
 quote from his brief this statement, he said: </p>
 <blockquote>
-  <p><a name="page13"></a>An emotional approach to this question is a poor substitute 
+  <p>An emotional approach to this question is a poor substitute 
 for a rational discussion of the problem at hand, which is to be judged by the application 
 of well-settled principles governing the effect of the Fourteenth Amendment on the 
 police power of the state. </p>
@@ -1750,7 +1754,7 @@ which is not in issue before we asked specific questions in a group of cases bec
 the issue because we had asked them. </p>
 <p>MR. GREENBERG: We submit that, although the decision below may be supported on 
 an independent state ground, that in reality, equal protection of the laws will 
-not be given to the respondents <a name="page15"></a>unless the constitutional 
+not be given to the respondents unless the constitutional 
 question is reached, because, in truth and in fact, they are attending the 
 schools in which they now are, so to speak, under a cloud. They are not like the 
 rest of the students in the school; they are under— </p>
@@ -1815,7 +1819,7 @@ should make it clear that the state was without power to enforce such statutes i
 the State of Virginia and the State of South Carolina, then merely affirm the decision 
 of the Delaware case, I have no doubt at all that the Supreme Court of Delaware 
 would follow the rationale of the decisions in the Virginia and South Carolina cases; 
-so that if, as has been urged over and over <a name="page17"></a>again—and as I understand the position of the Attorney General 
+so that if, as has been urged over and over again—and as I understand the position of the Attorney General 
 of Delaware—that when these physical facilities become equal they will then either 
 put the colored children out or take some proceedings to have them removed, that 
 if the Court goes the way I have just suggested, I have no doubt that at that time 

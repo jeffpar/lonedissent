@@ -4,6 +4,8 @@ permalink: /transcripts/featured/brown1/brown-v-board-of-education
 layout: page
 ---
 
+This is one of five cases argued as part of [Brown v. Board of Education (I)](/transcripts/featured/brown1).
+
 ## Argument
 
 - [Tuesday, December 9, 1952](#tuesday-december-9-1952)
@@ -14,10 +16,12 @@ layout: page
 
 ## Decision
 
+- [Brown v. Board of Education, 347 U.S. 483 (1954)](https://cdn.loc.gov/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf)
+
 ## Tuesday, December 9, 1952
 
 <div style="text-align:justify;width:75%;margin:auto;">
-<p><a name="cover"></a>OLIVER BROWN, MRS. RICHARD <br>
+<p>OLIVER BROWN, MRS. RICHARD <br>
 LAWTON, MRS. SADIE EMMANUEL, <br>
 ET AL.,</p>
 <p>
@@ -52,7 +56,7 @@ BEFORE:</b></p>
   WILSON, ESQ., <i>on behalf of the Appellees</i>.</p>
 </blockquote>
 <p style="text-align:center">
-  <b><a name="page1"></a>PROCEEDINGS</b></p>
+  <b>PROCEEDINGS</b></p>
 <b>MR. CHIEF JUSTICE VINSON</b>: Case No. 8, <i>Oliver Brown and others</i> versus the
 <i>Board of Education of Topeka, Shawnee County, Kansas</i>.<p>THE CLERK: 
 Counsel are present.</p>
@@ -121,7 +125,7 @@ racial distinctions.</p>
 <p>A three-judge court was convened in the court below, pursuant to Title 28 of 
 the United States Code, section 2281 and 2284, and there a trial on the merits 
 took place.</p>
-<p><a name="page3"></a>At the trial, appellants introduced evidence designed to 
+<p>At the trial, appellants introduced evidence designed to 
 conclusively demonstrate that the act of segregation in and of itself made the 
 educational opportunities which were provided in the four schools maintained for 
 Negroes inferior to those in the eighteen schools which were maintained for 
@@ -200,7 +204,7 @@ object which the state seeks to regulate.</p>
 situated are—put in one category for public school purposes, solely on the basis 
 of race and color, and white children are put in another category for the 
 purpose of determining what schools they will attend.</p>
-<p><a name="page5"></a><b>MR. JUSTICE MINTON</b>: Mr. Carter, I do not know whether I 
+<p><b>MR. JUSTICE MINTON</b>: Mr. Carter, I do not know whether I 
 have followed you or all the facts on this. Was there a finding that the only 
 basis of classification was race or color?</p>
 <p><b>MR. CARTER</b>: It was admitted—the appellees admitted in their answer—that the 
@@ -272,7 +276,7 @@ process is impaired and damaged.</p>
 <p>We take the position that where there exists educational inequality, in fact, 
 that it necessarily follows that educational inequality in the law is also 
 present.</p>
-<p>But the court below felt, as I indicated before, that the only <a name="page7"></a>
+<p>But the court below felt, as I indicated before, that the only 
 concern of the Constitution with the question of educational equality was that 
 the physical facilities afforded had to be equal; and absent any inequality with 
 regard to physical facilities, they say, &quot;We are bound by <i>Plessy</i> v. <i>
@@ -345,7 +349,7 @@ physical facilities, did they?</p>
 <p><b>MR. CARTER</b>: No, sir, the findings did not stop, but went beyond that. But, as 
 I indicated, the Court did not feel that it could go in the law beyond physical 
 facilities.</p>
-<p><a name="page9"></a>Of the two cases which the court below indicates have 
+<p>Of the two cases which the court below indicates have 
 kept it from ruling as a matter of law in this case that educational, equal 
 educational, opportunities were not afforded, the first is the <i>Plessy</i> v. <i>
 Ferguson</i> 
@@ -427,7 +431,7 @@ precedent until this Court, when the issue is squarely presented to it, on the
 question of the power of the state, examines the question and makes a 
 determination in the state&#39;s favor; and only in that instance do we feel that <i>
 Gong Lum</i> can be any authority on this question.</p>
-<p><a name="page11"></a><b>MR. JUSTICE FRANKFURTER</b>: Mr. Carter, while what you say 
+<p><b>MR. JUSTICE FRANKFURTER</b>: Mr. Carter, while what you say 
 may be so, nevertheless, in its opinion the Court in <i>
 Gong Lum</i> did rest on 
 the fact that this issue had been settled by a large body of adjudications going 
@@ -505,7 +509,7 @@ approach it in a way that I thought the Court approached the decision in <i>
 Sweatt</i> and <i>McLaurin</i>. I have no hesitancy in saying to the Court that 
 if they do not agree that the decision can be handed down in our favor on this 
 basis of this approach, that I have no hesitancy in saying that the issue of 
-&quot;separate but equal&quot; should be faced and ought to be faced, and that in <a name="page13"></a>
+&quot;separate but equal&quot; should be faced and ought to be faced, and that in 
 our view the &quot;separate but equal&quot; doctrine should be overruled. But as I said 
 before, as the Court apparently approached <i>Sweatt</i> and <i>McLaurin</i>, it 
 did not feel it had to meet that issue, and we do not feel it has to meet it 
@@ -584,7 +588,7 @@ in which this Court went beyond certain physical facilities and said, &quot;Thes
 not as important as these other things that we cannot name,&quot; and it decided then 
 to set standards so high that it certainly would seem to me to be impossible for 
 a state to validly maintain segregation in law schools. </p>
-<p><a name="page15"></a>In the <i>McLaurin</i> case, without any question of 
+<p>In the <i>McLaurin</i> case, without any question of 
 separation, what the Court did was that you have the same teachers and so forth, 
 so there could have been no question of his being set apart, except in the 
 classroom, and so forth—there could be no question of the quality of instruction 
@@ -656,7 +660,7 @@ about the separation and segregation, and that, therefore what they did was that
 they authorized, with the power that they had, they authorized these large 
 cities where Negroes appeared in large numbers to have segregated public 
 elementary schools.</p>
-<p><a name="page17"></a><b>MR. CHIEF JUSTICE VINSON</b>: When did that first appear in 
+<p><b>MR. CHIEF JUSTICE VINSON</b>: When did that first appear in 
 the Kansas law?</p>
 <p><b>MR. CARTER</b>: I am not sure, but I believe in 1862.</p>
 <p><b>MR. CHIEF JUSTICE VINSON</b>: In 1862, and the next amendment was 1868?</p>
@@ -728,7 +732,7 @@ boards of education in designated cities to maintain segregated school systems.
 Pursuant to that statute, the Board of Education of the City of Topeka set up 
 and does operate a segregated school system affecting students in the elementary 
 grades.</p>
-<p><a name="page19"></a>Now, this lawsuit in the court below was directed at the 
+<p>Now, this lawsuit in the court below was directed at the 
 Topeka Board of Education. The school system set up and maintained by that board 
 was under attack. The Attorney General, therefore, took the position that this 
 action was local in nature and not of statewide concern. We did not participate 
@@ -803,7 +807,7 @@ about nine-tenths, would you say?</p>
 cities classified as urban. The urban classification includes those of 2,500 or 
 more. I should say that two-thirds of the Negro population lived in cities of 
 the first class.</p>
-<p><a name="page21"></a><b>MR. JUSTICE FRANKFURTER</b>: And this, according to your 
+<p><b>MR. JUSTICE FRANKFURTER</b>: And this, according to your 
 brief, as I remember—the present situation in Kansas is that this segregated 
 class of primary schools are in only nine of those cities?</p>
 <p><b>MR. WILSON</b>: In only nine of our cities.</p>
@@ -872,7 +876,7 @@ of, if any, if you know, at this late date?</p>
 of Kansas was born out of the struggle between the North and the South prior to 
 the War Between the States, and our State was populated by squatters from the 
 North and from the South.</p>
-<p><a name="page23"></a>Those squatters settled in communities. The pro-slavery 
+<p>Those squatters settled in communities. The pro-slavery 
 elements settled in Leavenworth, in Atchison, and Lecompton. The Free Soil 
 elements settled in Topeka, in Lawrence, and in Wyandotte. The Negroes who came 
 to the State during and immediately subsequent to the war also settled in 
@@ -946,7 +950,7 @@ record discloses any such change.</p>
 <p><b>MR. JUSTICE BURTON</b>: But that might be a difference between saying that these 
 courts of appeals and state supreme courts have been wrong for seventy-five 
 years.</p>
-<p><a name="page25"></a><b>MR. WILSON</b>: Yes, sir.</p>
+<p><b>MR. WILSON</b>: Yes, sir.</p>
 <p>We concede that this Court can overrule the <i>
 Gong Lum</i> 
 doctrine, the <i>Plessy</i> doctrine, but nevertheless, until those cases are 
@@ -1022,7 +1026,7 @@ below found that inequality flowed from segregation, and our position, as stated
 previously, is, ii there are facilities, educational opportunities, in fact, 
 that educational opportunities cannot be equal in law.</p>
 <p><b>MR. JUSTICE BLACK</b>: Why do you think that would apply?</p>
-<p><a name="page27"></a><b>MR. CARTER</b>: Because of the fact, sir—</p>
+<p><b>MR. CARTER</b>: Because of the fact, sir—</p>
 <p><b>MR. JUSTICE BLACK</b>: Suppose it had been found differently?</p>
 <p><b>MR. CARTER</b>: If it had been found, or I should say, if the Court agrees that 
 the findings are correct—</p>
@@ -1092,7 +1096,7 @@ statute should be struck down.</p>
 
 ## Tuesday, December 8, 1953
 
-<p><a name="cover"></a>OLIVER BROWN, MRS. RICHARD LAWTON, <br>
+<p>OLIVER BROWN, MRS. RICHARD LAWTON, <br>
 MRS. SADIE EMMANUEL, 
 ET AL., </p>
 <p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Appellants, 
@@ -1126,7 +1130,7 @@ O. DOUGLAS, <i>Associate Justice</i> <br>
   PAUL E. WILSON, ESQ., <i>on 
 behalf of the Appellees</i>. </p>
 </blockquote>
-<p style="text-align:"center"><b><a name="page1"></a>PROCEEDINGS </b> </p>
+<p style="text-align:"center"><b>PROCEEDINGS </b> </p>
 <p>MR. CHIEF JUSTICE WARREN: No. 1, <i>Oliver Brown, Mrs. Richard Lawton, Mrs. Sadie 
 Emmanuel</i> v. <i>Board of Education of Topeka, et al</i>. </p>
 <p>THE CLERK: Counsel are present, sir. </p>
@@ -1186,7 +1190,7 @@ the appellants has been admitted. </p>
 <p>MR. CARTER: The others are still attending the four segregated schools. </p>
 <p>MR. JUSTICE JACKSON: You have clients, then, who are still subject to the rule of segregation? </p>
 <p>MR. CARTER: Yes. </p>
-<p>MR. JUSTICE JACKSON: But by the authorized pronouncement <a name="page3"></a>of the appellee, they will be admitted just as soon as it is physically or administratively 
+<p>MR. JUSTICE JACKSON: But by the authorized pronouncement of the appellee, they will be admitted just as soon as it is physically or administratively 
 or whatever the adverbs are—Topeka is able to admit them, and they do not contest 
 your position. </p>
 <p>MR. CARTER: That is true. </p>
@@ -1257,7 +1261,7 @@ to ask them whether they would let the thing go by default. They did not appear;
 they were not so anxious. They did not claim that they had a great right, that they 
 had a right to defend here. </p>
 <p>MR. CARTER: Well, I think— </p>
-<p><a name="page5"></a>MR. JUSTICE FRANKFURTER: Perhaps &quot;cajoled&quot; is a better word.
+<p>MR. JUSTICE FRANKFURTER: Perhaps &quot;cajoled&quot; is a better word.
 </p>
 <p>MR. CARTER: If you are expressing—if that is the view of the Court, Your 
 Honor—
@@ -1330,7 +1334,7 @@ case? </p>
 <p>MR. WILSON: The plan adopted by the Topeka Board of Education was this: You will 
 recall from the record last year and the arguments that the city then maintained 
 within the entire district eighteen geographic areas. In each geographic area there 
-was a <a name="page7"></a>school attended by the white students living within the 
+was a school attended by the white students living within the 
 limits of that area. In addition to the eighteen white schools, there were four 
 Negro schools spaced at wider intervals throughout the city. </p>
 <p>The first affirmative step taken by the Board of Education in carrying out its 
@@ -1394,7 +1398,7 @@ I shall not make an effort to review in detail the evidence that I base the conc
 that I shall present to the Court. I think the facts—Mr. Carter started to state 
 the facts in this case. Perhaps, in order to give proper perspective to my argument, 
 some further statement would be proper. </p>
-<p><a name="page9"></a>We pointed out that the Board of Education in Topeka is 
+<p>We pointed out that the Board of Education in Topeka is 
 a separate municipal corporation, is the party defendant in the court below; that 
 the State of Kansas, with the consent of the court below, intervened for the sole 
 and only purpose of defending the statute that is under attack. </p>
@@ -1464,7 +1468,7 @@ light on it, anyway. I think when both parties to the action feel that there is
 a controversy, and invited the Attorney General to be here and answer these questions, 
 I, for one, would like to hear the argument. </p>
 <p>MR. WILSON: Thank you, sir. </p>
-<p><a name="page11"></a>At the outset I should point out—I have pointed out—that 
+<p>At the outset I should point out—I have pointed out—that 
 we are not here defending a policy, and the determination that has been made is 
 one of policy. We are here solely for the purpose of defending the right, the constitutional 
 right, we contend, of the State of Kansas and of its own communities to make these 
@@ -1532,7 +1536,7 @@ most complete expression of the consensus of abolitionist aims. </p>
 <p>We think that the only purpose of the Fourteenth Amendment was to give constitutional status and dignity to these aims and objectives expressed in the Civil Rights Act of 1866, and in them we find 
 no place for the contention that racial segregation or the absence of racial segregation would be comprehended within their terms. </p>
 <p>Turning to the states, we again find the same result; but our 
-<a name="page13"></a>colleagues, or at least the other appellees in these cases, 
+colleagues, or at least the other appellees in these cases, 
 have discovered—we were unable to find a single instance where it appeared to us 
 that a state, by reason of deference to the Fourteenth Amendment, had eliminated 
 segregation from its public school system. On the other hand, we found that some 
@@ -1604,7 +1608,7 @@ the intent, to choose between the judicial and the congressional power, the choi
 would necessarily be the congressional. My understanding is not, perhaps, mature 
 on this phase of the question, but, as I read these debates, there was throughout 
 an emphasis on congressional power. </p>
-<p><a name="page15"></a>Undoubtedly the abolitionists had contemplated that Reconstruction 
+<p>Undoubtedly the abolitionists had contemplated that Reconstruction 
 might be affected by congressional action. The fact was that the Congress trusted 
 neither the Executive nor the Judiciary to any extent, and so, looking at the intent 
 of the Congress and the intent of the legislatures, we must concede that should 
