@@ -1,7 +1,9 @@
 ---
 title: "Transcripts from the U.S. Supreme Court"
-permalink: /cases/transcripts/scotus
+permalink: /transcripts/scotus
 layout: page
+redirect_from:
+  - /cases/transcripts/scotus
 ---
 
 These transcripts were downloaded from the U.S. Supreme Court website and logged in our [spreadsheet](/results/transcripts.csv).

@@ -4,6 +4,8 @@ permalink: /trivia/parties
 layout: page
 ---
 
+When is a Lone Dissent not a Lone Dissent?  When multiple Lone Dissents are handed down on the *same day*.
+
 ## Friday, March 10, 1809
 
 - [Young v. Bank of Alexandria](/cases/loners/1809-02#1809-023): Dissent by [William Johnson](/justices/loners/wjohnson#1809-023)

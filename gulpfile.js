@@ -3237,9 +3237,10 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                                                         if (argv['detail']) {
                                                             printf("\tcaseId: %s\n", decision.caseId);
                                                             let dates = decision.dateArgument.split(',');
-                                                            dates.forEach((date) => { if (date) printf("\tArgued: %#C\n", date); });
+                                                            dates.forEach((date) => { if (date) printf("\tdateArgument: \"%#C\"\n", date); });
                                                             dates = decision.dateRearg.split(',');
-                                                            dates.forEach((date) => { if (date) printf("\tReargued: %#C\n", date); });
+                                                            dates.forEach((date) => { if (date) printf("\tdateRearg: \"%#C\"\n", date); });
+                                                            if (decision.dateDecision) printf("\tdateDecision: \"%#C\"\n", decision.dateDecision);
                                                             if (decision.usCite) printf("\tLibrary of Congress URL for %s: %s\n", decision.usCite, getLOCURL(decision.usCite));
                                                             if (decision.caseNotes) printf("\tcaseNotes: %s\n", decision.caseNotes);
                                                         }
