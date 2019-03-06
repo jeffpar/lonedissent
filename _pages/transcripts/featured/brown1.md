@@ -4,8 +4,7 @@ permalink: /transcripts/featured/brown1
 layout: page
 ---
 
-Five cases are broadly considered part of the
-[Brown v. Board of Education (I)](https://cdn.loc.gov/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf)
+Five cases are broadly considered part of the **Brown v. Board of Education (I)**
 decision.  The initial arguments in those five cases occurred on December 9-11, 1952, followed by rearguments
 on December 7-9, 1953.  The decision, also known as "Brown I", was issued on May 17,1954.  The arguments in
 those five cases are listed below.

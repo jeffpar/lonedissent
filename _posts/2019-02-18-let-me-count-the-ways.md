@@ -77,7 +77,7 @@ Importing dates from a Supreme Court document should have been an error-free pro
 Take the case of [United States v. McDowell (8 U.S. 316)](https://cdn.loc.gov/service/ll/usrep/usrep008/usrep008316/usrep008316.pdf).  SCDB claims it was decided on March 7, 1807, but the Supreme Court's "Dates of Supreme Court Decisions and Arguments" document -- which SCDB says it relied upon -- indicates March 7, 1808.  I have found dozens of
 similar mistakes.
 
-And these kinds of mistakes aren't just limited to those older cases.  Look at [Perry v. Leeke (488 U.S. 272)](https://cdn.loc.gov/service/ll/usrep/usrep488/usrep488272/usrep488272.pdf).  It was decided January 10, 1989, but SCDB lists the decision date as "1/1/1989".  Even worse, SCDB lists the argument date for [Brown v. Board of Education (347 U.S. 483)](https://cdn.loc.gov/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf)] as "12/8/1952", but in fact, arguments began on December 9, 1952 and lasted three days.
+And these kinds of mistakes aren't just limited to those older cases.  Look at [Perry v. Leeke (488 U.S. 272)](https://cdn.loc.gov/service/ll/usrep/usrep488/usrep488272/usrep488272.pdf).  It was decided January 10, 1989, but SCDB lists the decision date as "1/1/1989".  Even worse, SCDB lists the argument date for [Brown v. Board of Education (347 U.S. 483)](https://cdn.loc.gov/service/ll/usrep/usrep347/usrep347483/usrep347483.pdf) as "12/8/1952", but in fact, arguments began on December 9, 1952 and lasted three days.
 
 There is also another, subtler problem with cases listed in the "Dates of Supreme Court Decisions and Arguments" document:
 the decision date of a number of cases could not be precisely identified, even by the Supreme Court's librarian, so only

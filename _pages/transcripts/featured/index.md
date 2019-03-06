@@ -4,9 +4,7 @@ permalink: /transcripts/featured
 layout: page
 ---
 
-## Featured Transcripts
-
-### October Term 1947
+## October Term 1947
 
 The [Parker v. Illinois](/transcripts/pre-1968#1947-062) case is interesting because it featured a
 *pro se* litigant who was also not a lawyer.  It's also unclear to what extent the Court was aware
@@ -31,10 +29,10 @@ win, as Mr. Sloan did in [SEC v. Sloan (1978)](https://www.oyez.org/cases/1977/7
 last non-lawyer to argue at the Supreme Court, and ever since the Court [changed its rules in 2013](https://www.supremecourt.gov/ctrules/2013RulesoftheCourt.pdf#page=40), non-lawyers have not been permitted to argue
 their own cases at the Supreme Court.
 
-### October Terms 1952 and 1953
+## October Terms 1952 and 1953
 
 - [Brown v. Board of Education (I)](/transcripts/featured/brown1)
 
-### October Term 1954
+## October Term 1954
 
 - [Brown v. Board of Education (II)](/transcripts/featured/brown2)
