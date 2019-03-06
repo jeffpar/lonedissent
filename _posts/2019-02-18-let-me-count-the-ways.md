@@ -225,7 +225,7 @@ This is not to say that SCDB doesn't track *any* DIG'ed cases, but merely that i
 For example, [Stiles v. United States (393 U.S. 219)](http://cdn.loc.gov/service/ll/usrep/usrep393/usrep393219/usrep393219.pdf), argued November 20, 1968, is not listed in SCDB, while [Ford Motor Co. v. McCauley (537 U.S. 1)](https://cdn.loc.gov/service/ll/usrep/usrep537/usrep537001/usrep537001.pdf), argued October 7, 2000, is listed.
 The failure to record all such cases frustrates a variety of research, such as the accurate tracking of oral argument activity, the frequency of DIGs, etc.
 
-As an aside, it's also not a simple matter to identity *just* DIG'ed cases.  SCDB has a [caseDisposition](http://scdb.wustl.edu/documentation.php?var=caseDisposition) variable that is generally set to 9 ("petition denied or appeal dismissed") in such cases, but that value is also used in other cases, such as [Schwarz v. National Security Agency (526 U.S. 122)](https://cdn.loc.gov/service/ll/usrep/usrep526/usrep526122/usrep526122.pdf), where the case was granted
+As an aside, it's also not a simple matter to identify *just* DIG'ed cases.  SCDB has a [caseDisposition](http://scdb.wustl.edu/documentation.php?var=caseDisposition) variable that is generally set to 9 ("petition denied or appeal dismissed") in such cases, but that value is also used in other cases, such as [Schwarz v. National Security Agency (526 U.S. 122)](https://cdn.loc.gov/service/ll/usrep/usrep526/usrep526122/usrep526122.pdf), where the case was granted
 and a *per curiam* opinion was issued denying petitioner's motion.
 
 ### 5. Natural Courts
