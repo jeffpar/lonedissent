@@ -3804,6 +3804,77 @@ function getDateMarkers(text)
 }
 
 /**
+ * listBriefs(done)
+ *
+ * @param {function()} done
+ */
+function listBriefs(done)
+{
+    printf("reading SCDB decisions...\n");
+    let decisions = JSON.parse(readFile(results.json.decisions));
+    sortObjects(decisions, ["termId", "usCite"]);
+    let collections = [];
+    let folderPaths = glob.sync(rootDir + "/../lonedissent-briefs/[0-9]*/*");
+    folderPaths.forEach((folderPath) => {
+        let match = folderPath.match(/(.*)\/([0-9]+)\/([^/]*)/);
+        if (match) {
+            let termId = match[2] + "-10";
+            let criteria = {termId};
+            let caseTitle = match[3].replace(/-/g, ' ');
+            if (caseTitle == "brown1") {
+                caseTitle = "Brown v. Board of Education";
+                criteria = {termId, usCite: "347 U.S. 483"};
+            } else if (caseTitle == "brown2") {
+                caseTitle = "Brown v. Board of Education";
+                criteria = {termId, usCite: "349 U.S. 294"};
+            }
+            let i = searchSortedObjects(decisions, criteria, {caseTitle});
+            if (i >= 0) {
+                let decision = decisions[i];
+                let date = decision.dateArgument.split(',')[0];
+                if (!date) date = decision.dateDecision;
+                let name = decision.caseTitle + ', ' + decision.usCite + ' (' + decision.dateDecision.substr(0, 4) + ')';
+                let collection = {term: match[2], folder: match[3], caseTitle: decision.caseTitle, date, name, briefs: []};
+                collections.push(collection);
+                let filePaths = glob.sync(folderPath + "/*.pdf");
+                filePaths.forEach((filePath) => {
+                    let briefName = path.basename(filePath, ".pdf");
+                    // printf("%s: found brief for %s (%s) [%s]: %s\n", termId, decision.caseTitle, decision.usCite, briefName);
+                    collection.briefs.push(briefName);
+                });
+                collection.briefs.sort();
+            } else {
+                printf("unable to find termId (%s)\n", match[1]);
+            }
+        } else {
+            warning("unrecognized folder: %s\n", folderPath);
+        }
+    });
+    let text = "---\n";
+    text += "title: \"U.S. Supreme Court Archived Briefs\"\n";
+    text += "permalink: /briefs/archived\n";
+    text += "layout: page\n";
+    text += "---\n\n";
+    text += "## Collections of Archived Briefs\n\n";
+    sortObjects(collections, ["date"]);
+    collections.forEach((collection) => {
+        let collectionLink = collection.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+        text += "- [" + collection.name + "](#" + collectionLink + ")\n";
+        printf("- %s\n", collection.name);
+    });
+    text += "\n";
+    collections.forEach((collection) => {
+        text += "\n## " + collection.name + "\n\n";
+        collection.briefs.forEach((briefName) => {
+            let briefLink = encodeURI("https://briefs.lonedissent.org/" + collection.term + "/" + collection.folder + "/" + briefName + ".pdf");
+            text += "- [" + briefName + "](" + briefLink + ")\n";
+        });
+    });
+    writeFile("/_pages/briefs/archived.md", text);
+    done();
+}
+
+/**
  * matchJournals(done)
  *
  * @param {function()} done
@@ -5607,6 +5678,7 @@ function usage(done)
 }
 
 gulp.task("advocates", buildAdvocates);
+gulp.task("briefs", listBriefs);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("courts", buildCourts);
 gulp.task("dates", matchXMLDates);      // NOTE: matchTXTDates() was too sketchy, so we no longer use it
