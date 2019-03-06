@@ -26,7 +26,7 @@ and then build an assortment of pages:
   - [All Available Pre-1968 Transcripts](/transcripts/pre-1968)
   - [All Available 1968-Present Transcripts](/transcripts/scotus)
 - [Advocates](/advocates/top100)
-  - [Top Advocates](/advocates/top100/#top-advocates)
+  - [Top Advocates](/advocates/top100#top-advocates)
 
 We've also created a few random pages that have no real value but struck us as mildly interesting:
 
