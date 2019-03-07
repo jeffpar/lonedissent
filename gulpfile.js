@@ -3810,7 +3810,6 @@ function getDateMarkers(text)
  */
 function listBriefs(done)
 {
-    let commands = "";
     let indexPath = "/_pages/briefs/featured/index.md";
     let index = readFile(indexPath);
     if (!index) {
@@ -3820,45 +3819,37 @@ function listBriefs(done)
         index += "layout: page\n";
         index += "---\n\n";
     }
-    let briefPaths = glob.sync(rootDir + "/sources/sites/oyezlabs/misc/oyez52/cases/2*/**/briefs");
-    briefPaths.forEach((briefPath) => {
-        let xml = readXMLFile(briefPath + "/../case.xml");
-        if (xml) {
-            let term = +xml.case.term[0];
-            let caseTitle = xml.case.title[0]._;
-            let volume = +xml.case.citation_vol[0];
-            let page = +xml.case.citation_page[0];
-            let year = +xml.case.citation_year[0];
-            let folder = caseTitle.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-            let citation = sprintf("%s, %d U.S. %d (%d)", caseTitle, volume, page, year);
-            let permaLink = "/briefs/featured/" + folder;
-            index += "- [" + citation + "](" + permaLink + ")\n";
-            let target = "../lonedissent-briefs/" + term + "/" + folder;
-            if (fs.existsSync(target)) return;
-            let filePath = "/_pages" + permaLink + ".md";
-            let text = "---\n";
-            text += "title: \"" + citation + "\"\n";
-            text += "permalink: " + permaLink + "\n";
-            text += "layout: page\n";
-            text += "---\n\n";
-            let briefList = [];
-            let briefPaths = glob.sync(briefPath + "/*.pdf");
-            commands += "mkdir -p " + target + "\n";
+    let buckets = [1945, 1964, 1972, 2019];
+    let match, re = /- \[(.*?) \(([0-9]+)\)\]\(\/briefs\/featured\/(.*?)\)/g;
+    while ((match = re.exec(index))) {
+        let caseName = match[1];
+        let year = +match[2];
+        let folderName = match[3];
+        let briefFile = "/_pages/briefs/featured/" + folderName + ".md";
+        let briefList = readFile(briefFile);
+        if (briefList) continue;
+        briefList = "---\n";
+        briefList += "title: \"" + caseName + " (" + year + ")\"\n";
+        briefList += "permalink: /briefs/featured/" + folderName + "\n";
+        briefList += "layout: page\n";
+        briefList += "---\n\n";
+        for (let term = year - 2; term <= year; term++) {
+            let y;
+            for (y = 0; y < buckets.length; y++) {
+                if (term <= buckets[y]) break;
+            }
+            y++;
+            let briefPaths = glob.sync(rootDir + "/sources/sites/briefs" + y + "/" + term + "/" + folderName + "/*.pdf");
+            if (!briefPaths || !briefPaths.length) continue;
             briefPaths.forEach((briefPath) => {
                 let briefName = path.basename(briefPath, ".pdf");
-                briefList.push(briefName);
-                commands += "mv \"" + briefPath + "\" " + target + "/\n";
+                let briefLink = encodeURI("https://briefs" + y + ".lonedissent.org/" + term + "/" + folderName + "/" + briefName + ".pdf");
+                briefList += "- [" + briefName + "](" + briefLink + ")\n";
             });
-            commands += "rmdir " + path.dirname(briefPath) + "\n";
-            briefList.sort();
-            briefList.forEach((briefName) => {
-                let briefLink = encodeURI("https://briefs.lonedissent.org/" + term + "/" + folder + "/" + briefName + ".pdf");
-                text += "- [" + briefName + "](" + briefLink + ")\n";
-            });
-            writeFile(filePath, text);
+            break;
         }
-    });
-    writeFile("cmds.sh", commands);
+        writeFile(briefFile, briefList);
+    }
     writeFile(indexPath, index);
     done();
 }
