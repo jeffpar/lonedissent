@@ -13,4 +13,4 @@ To find briefs from the Supreme Court, you must use their [Docket Search](https:
 For briefs that predate the electronic age, your best bet is to visit the nearest law library that the Supreme Court
 has [designated](https://www.supremecourt.gov/meritsbriefs/briefsource.aspx) an official "depository" of Supreme Court briefs.
 
-You may also find something interesting in the tiny collection of [Archived Briefs](/briefs/archived) that we and others have scanned over the years.
+You may also find something interesting in the tiny collection of [Featured Briefs](/briefs/featured) that we and others have scanned over the years.

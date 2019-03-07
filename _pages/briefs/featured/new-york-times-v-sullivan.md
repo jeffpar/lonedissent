@@ -1,0 +1,37 @@
+---
+title: "New York Times v. Sullivan, 376 U.S. 254 (1964)"
+permalink: /briefs/featured/new-york-times-v-sullivan
+layout: page
+---
+
+- [Brief for Respondent in #39 (NYT v. Sullivan)](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Brief%20for%20Respondent%20in%20#39%20(NYT%20v.%20Sullivan).pdf)
+- [Brief for Respondent in #40 (Abernathy v. Sullivan)](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Brief%20for%20Respondent%20in%20#40%20(Abernathy%20v.%20Sullivan).pdf)
+- [Brief for Respondent in Opposition](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Brief%20for%20Respondent%20in%20Opposition.pdf)
+- [Brief for Respondent in Opposition in #40](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Brief%20for%20Respondent%20in%20Opposition%20in%20#40.pdf)
+- [Brief for the Petitioner](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Brief%20for%20the%20Petitioner.pdf)
+- [Brief for the Petitioners](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Brief%20for%20the%20Petitioners.pdf)
+- [Brief of Tribune Company as Amicus Curiae](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Brief%20of%20Tribune%20Company%20as%20Amicus%20Curiae.pdf)
+- [Brief of the American Civil Liberties Union and the New York Civil Liberties Union as Amici Curiae](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Brief%20of%20the%20American%20Civil%20Liberties%20Union%20and%20the%20New%20York%20Civil%20Liberties%20Union%20as%20Amici%20Curiae.pdf)
+- [Motion of Tribune Company for Leave to File a Brief as Amicus Curiae](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Motion%20of%20Tribune%20Company%20for%20Leave%20to%20File%20a%20Brief%20as%20Amicus%20Curiae.pdf)
+- [Motion of the Washington Post Company for Leave to File a Brief as Amicus Curiae and Brief of the Washington Post Compan...](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Motion%20of%20the%20Washington%20Post%20Company%20for%20Leave%20to%20File%20a%20Brief%20as%20Amicus%20Curiae%20and%20Brief%20of%20the%20Washington%20Post%20Compan....pdf)
+- [Objection to Motion of Tribune Company for Leave to File Brief as Amicus Curiae](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Objection%20to%20Motion%20of%20Tribune%20Company%20for%20Leave%20to%20File%20Brief%20as%20Amicus%20Curiae.pdf)
+- [Petition for Certiorari in # 40](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Petition%20for%20Certiorari%20in%20#%2040.pdf)
+- [Petition for a Writ of Certiorari to the Supreme Court of Alabama](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Petition%20for%20a%20Writ%20of%20Certiorari%20to%20the%20Supreme%20Court%20of%20Alabama.pdf)
+- [Petitioners Reply to Respondents Brief in Opposition](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Petitioners%20Reply%20to%20Respondents%20Brief%20in%20Opposition.pdf)
+- [Transcript, v. 1, Part 1](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%201,%20Part%201.pdf)
+- [Transcript, v. 1, Part 2](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%201,%20Part%202.pdf)
+- [Transcript, v. 1, Part 3](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%201,%20Part%203.pdf)
+- [Transcript, v. 1, Part 4](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%201,%20Part%204.pdf)
+- [Transcript, v. 1, Part 5](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%201,%20Part%205.pdf)
+- [Transcript, v. 2, Part 1](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%202,%20Part%201.pdf)
+- [Transcript, v. 2, Part 2](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%202,%20Part%202.pdf)
+- [Transcript, v. 2, Part 3](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%202,%20Part%203.pdf)
+- [Transcript, v. 2, Part 4](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%202,%20Part%204.pdf)
+- [Transcript, v. 2, Part 5](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%202,%20Part%205.pdf)
+- [Transcript, v. 3, Part 1](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%203,%20Part%201.pdf)
+- [Transcript, v. 3, Part 2](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%203,%20Part%202.pdf)
+- [Transcript, v. 3, Part 3](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%203,%20Part%203.pdf)
+- [Transcript, v. 3, Part 4](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%203,%20Part%204.pdf)
+- [Transcript, v. 4, Part 1](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%204,%20Part%201.pdf)
+- [Transcript, v. 4, Part 2](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%204,%20Part%202.pdf)
+- [Transcript, v. 4, Part 4](https://briefs2.lonedissent.org/1963/new-york-times-v-sullivan/Transcript,%20v.%204,%20Part%204.pdf)

@@ -15,7 +15,7 @@ as well as some defunct sites that we archived portions of before they disappear
 
 - The Curiae Project at Yale Law School
 
-Thanks to the [Internet Archive](https://web.archive.org/), you can still see what [curiae.law.yale.edu](https://web.archive.org/web/20081020193042/http://curiae.law.yale.edu/) used to contain.
+Thanks to the [Internet Archive](https://web.archive.org/), you can still see what [curiae.law.yale.edu](https://web.archive.org/web/20081020193042/http://curiae.law.yale.edu/) used to look like.
 
 From those data sources, we build our own tables, cross-check the data, look for [discrepancies](/blog/2019/02/18/),
 and then build an assortment of pages:
@@ -28,7 +28,7 @@ and then build an assortment of pages:
   - [Lone Dissents](/justices/loners)
   - [Majority Opinions](/justices/all)
 - [Briefs](/briefs)
-  - [Archived Briefs](/briefs/archived)
+  - [Featured Briefs](/briefs/featured)
 - [Transcripts](/transcripts)
   - [Featured Transcripts](/transcripts/featured)
   - [All Available Pre-1968 Transcripts](/transcripts/pre-1968)

@@ -3810,67 +3810,56 @@ function getDateMarkers(text)
  */
 function listBriefs(done)
 {
-    printf("reading SCDB decisions...\n");
-    let decisions = JSON.parse(readFile(results.json.decisions));
-    sortObjects(decisions, ["termId", "usCite"]);
-    let collections = [];
-    let folderPaths = glob.sync(rootDir + "/../lonedissent-briefs/[0-9]*/*");
-    folderPaths.forEach((folderPath) => {
-        let match = folderPath.match(/(.*)\/([0-9]+)\/([^/]*)/);
-        if (match) {
-            let termId = match[2] + "-10";
-            let criteria = {termId};
-            let caseTitle = match[3].replace(/-/g, ' ');
-            if (caseTitle == "brown1") {
-                caseTitle = "Brown v. Board of Education";
-                criteria = {termId, usCite: "347 U.S. 483"};
-            } else if (caseTitle == "brown2") {
-                caseTitle = "Brown v. Board of Education";
-                criteria = {termId, usCite: "349 U.S. 294"};
-            }
-            let i = searchSortedObjects(decisions, criteria, {caseTitle});
-            if (i >= 0) {
-                let decision = decisions[i];
-                let date = decision.dateArgument.split(',')[0];
-                if (!date) date = decision.dateDecision;
-                let name = decision.caseTitle + ', ' + decision.usCite + ' (' + decision.dateDecision.substr(0, 4) + ')';
-                let collection = {term: match[2], folder: match[3], caseTitle: decision.caseTitle, date, name, briefs: []};
-                collections.push(collection);
-                let filePaths = glob.sync(folderPath + "/*.pdf");
-                filePaths.forEach((filePath) => {
-                    let briefName = path.basename(filePath, ".pdf");
-                    // printf("%s: found brief for %s (%s) [%s]: %s\n", termId, decision.caseTitle, decision.usCite, briefName);
-                    collection.briefs.push(briefName);
-                });
-                collection.briefs.sort();
-            } else {
-                printf("unable to find termId (%s)\n", match[1]);
-            }
-        } else {
-            warning("unrecognized folder: %s\n", folderPath);
+    let commands = "";
+    let indexPath = "/_pages/briefs/featured/index.md";
+    let index = readFile(indexPath);
+    if (!index) {
+        index = "---\n";
+        index += "title: \"U.S. Supreme Court Featured Briefs\"\n";
+        index += "permalink: /briefs/featured\n";
+        index += "layout: page\n";
+        index += "---\n\n";
+    }
+    let briefPaths = glob.sync(rootDir + "/sources/sites/oyezlabs/misc/oyez52/cases/2*/**/briefs");
+    briefPaths.forEach((briefPath) => {
+        let xml = readXMLFile(briefPath + "/../case.xml");
+        if (xml) {
+            let term = +xml.case.term[0];
+            let caseTitle = xml.case.title[0]._;
+            let volume = +xml.case.citation_vol[0];
+            let page = +xml.case.citation_page[0];
+            let year = +xml.case.citation_year[0];
+            let folder = caseTitle.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+            let citation = sprintf("%s, %d U.S. %d (%d)", caseTitle, volume, page, year);
+            let permaLink = "/briefs/featured/" + folder;
+            index += "- [" + citation + "](" + permaLink + ")\n";
+            let target = "../lonedissent-briefs/" + term + "/" + folder;
+            if (fs.existsSync(target)) return;
+            let filePath = "/_pages" + permaLink + ".md";
+            let text = "---\n";
+            text += "title: \"" + citation + "\"\n";
+            text += "permalink: " + permaLink + "\n";
+            text += "layout: page\n";
+            text += "---\n\n";
+            let briefList = [];
+            let briefPaths = glob.sync(briefPath + "/*.pdf");
+            commands += "mkdir -p " + target + "\n";
+            briefPaths.forEach((briefPath) => {
+                let briefName = path.basename(briefPath, ".pdf");
+                briefList.push(briefName);
+                commands += "mv \"" + briefPath + "\" " + target + "/\n";
+            });
+            commands += "rmdir " + path.dirname(briefPath) + "\n";
+            briefList.sort();
+            briefList.forEach((briefName) => {
+                let briefLink = encodeURI("https://briefs.lonedissent.org/" + term + "/" + folder + "/" + briefName + ".pdf");
+                text += "- [" + briefName + "](" + briefLink + ")\n";
+            });
+            writeFile(filePath, text);
         }
     });
-    let text = "---\n";
-    text += "title: \"U.S. Supreme Court Archived Briefs\"\n";
-    text += "permalink: /briefs/archived\n";
-    text += "layout: page\n";
-    text += "---\n\n";
-    text += "## Collections of Archived Briefs\n\n";
-    sortObjects(collections, ["date"]);
-    collections.forEach((collection) => {
-        let collectionLink = collection.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-        text += "- [" + collection.name + "](#" + collectionLink + ")\n";
-        printf("- %s\n", collection.name);
-    });
-    text += "\n";
-    collections.forEach((collection) => {
-        text += "\n## " + collection.name + "\n\n";
-        collection.briefs.forEach((briefName) => {
-            let briefLink = encodeURI("https://briefs.lonedissent.org/" + collection.term + "/" + collection.folder + "/" + briefName + ".pdf");
-            text += "- [" + briefName + "](" + briefLink + ")\n";
-        });
-    });
-    writeFile("/_pages/briefs/archived.md", text);
+    writeFile("cmds.sh", commands);
+    writeFile(indexPath, index);
     done();
 }
 

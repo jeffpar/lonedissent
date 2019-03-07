@@ -1,0 +1,35 @@
+---
+title: "National League of Cities v. Usery, 426 U.S. 833 (1976)"
+permalink: /briefs/featured/national-league-of-cities-v-usery
+layout: page
+---
+
+- [Appellees Response to Appellants Supplemental Brief on Reargument](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Appellees%20Response%20to%20Appellants%20Supplemental%20Brief%20on%20Reargument.pdf)
+- [Appendix, Volume I - pages 1-310, Part 1](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Appendix,%20Volume%20I%20-%20pages%201-310,%20Part%201.pdf)
+- [Appendix, Volume I - pages 1-310, Part 2](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Appendix,%20Volume%20I%20-%20pages%201-310,%20Part%202.pdf)
+- [Appendix, Volume I - pages 1-310, Part 3](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Appendix,%20Volume%20I%20-%20pages%201-310,%20Part%203.pdf)
+- [Appendix, Volume I - pages 1-310, Part 4](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Appendix,%20Volume%20I%20-%20pages%201-310,%20Part%204.pdf)
+- [Appendix, Volume II - pages 1-653, Part 1](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Appendix,%20Volume%20II%20-%20pages%201-653,%20Part%201.pdf)
+- [Appendix, Volume II - pages 1-653, Part 2](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Appendix,%20Volume%20II%20-%20pages%201-653,%20Part%202.pdf)
+- [Appendix, Volume II - pages 1-653, Part 3](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Appendix,%20Volume%20II%20-%20pages%201-653,%20Part%203.pdf)
+- [Appendix, Volume II - pages 1-653, Part 4](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Appendix,%20Volume%20II%20-%20pages%201-653,%20Part%204.pdf)
+- [Brief Amici Curiae for the States of Alabama, Colorado, and Michigan, in Support of John T. Dunlop, Secretary of Labor](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Brief%20Amici%20Curiae%20for%20the%20States%20of%20Alabama,%20Colorado,%20and%20Michigan,%20in%20Support%20of%20John%20T.%20Dunlop,%20Secretary%20of%20Labor.pdf)
+- [Brief Amicus Curiae for the Coalition of American Public Employees](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Brief%20Amicus%20Curiae%20for%20the%20Coalition%20of%20American%20Public%20Employees.pdf)
+- [Brief Amicus Curiae of the National Institute of Municipal Law Officers](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Brief%20Amicus%20Curiae%20of%20the%20National%20Institute%20of%20Municipal%20Law%20Officers.pdf)
+- [Brief Amicus Curiae on Behalf of the International Conference of Police Associations, Urging Affirmation](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Brief%20Amicus%20Curiae%20on%20Behalf%20of%20the%20International%20Conference%20of%20Police%20Associations,%20Urging%20Affirmation.pdf)
+- [Brief for Appellant State of California](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Brief%20for%20Appellant%20State%20of%20California.pdf)
+- [Brief for Appellant, State of Maryland](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Brief%20for%20Appellant,%20State%20of%20Maryland.pdf)
+- [Brief for Appellants, Part 1](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Brief%20for%20Appellants,%20Part%201.pdf)
+- [Brief for Appellants, Part 2](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Brief%20for%20Appellants,%20Part%202.pdf)
+- [Brief for the American Federation of Labor and Congress of Industrial Organizations as Amicus Curiae](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Brief%20for%20the%20American%20Federation%20of%20Labor%20and%20Congress%20of%20Industrial%20Organizations%20as%20Amicus%20Curiae.pdf)
+- [Brief for the Appellee](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Brief%20for%20the%20Appellee.pdf)
+- [Brief of Amici Curiae in Support of Appellants](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Brief%20of%20Amici%20Curiae%20in%20Support%20of%20Appellants.pdf)
+- [Brief of the National Association of Counties and its Affiliate Organization the National Association of County Civil At...](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Brief%20of%20the%20National%20Association%20of%20Counties%20and%20its%20Affiliate%20Organization%20the%20National%20Association%20of%20County%20Civil%20At....pdf)
+- [Brief of the Public Service Research Council as Amicus Curiae](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Brief%20of%20the%20Public%20Service%20Research%20Council%20as%20Amicus%20Curiae.pdf)
+- [Jurisdictional Statement](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Jurisdictional%20Statement.pdf)
+- [Memorandum of AFL-CIO, et al. (Applicants for Intervention and Amici Curiae) in Support of Motion to Affirm](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Memorandum%20of%20AFL-CIO,%20et%20al.%20(Applicants%20for%20Intervention%20and%20Amici%20Curiae)%20in%20Support%20of%20Motion%20to%20Affirm.pdf)
+- [Motion of the Florida Police Benevolent Association for Leave to File a Brief Amicus Curiae in Response to Petitions Nos...](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Motion%20of%20the%20Florida%20Police%20Benevolent%20Association%20for%20Leave%20to%20File%20a%20Brief%20Amicus%20Curiae%20in%20Response%20to%20Petitions%20Nos....pdf)
+- [Reply Brief](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Reply%20Brief.pdf)
+- [Supplemental Brief for Appellants on Reargument](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Supplemental%20Brief%20for%20Appellants%20on%20Reargument.pdf)
+- [Supplemental Brief for the American Federation of Labor and the Congress of Industrial Organizations, and for the Nation...](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Supplemental%20Brief%20for%20the%20American%20Federation%20of%20Labor%20and%20the%20Congress%20of%20Industrial%20Organizations,%20and%20for%20the%20Nation....pdf)
+- [Supplemental Brief for the Appellee on Reargument](https://briefs4.lonedissent.org/1974/national-league-of-cities-v-usery/Supplemental%20Brief%20for%20the%20Appellee%20on%20Reargument.pdf)

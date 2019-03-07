@@ -1,0 +1,36 @@
+---
+title: "Schechter Poultry Corp. v. United States, 295 U.S. 495 (1935)"
+permalink: /briefs/featured/schechter-poultry-corp-v-united-states
+layout: page
+---
+
+- [Appendix to Brief for ALA Schechter Poultry Corporation](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Appendix%20to%20Brief%20for%20ALA%20Schechter%20Poultry%20Corporation.pdf)
+- [Brief for Petitioners in No. 854 and for Respondents in No. 864, Part 1](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Brief%20for%20Petitioners%20in%20No.%20854%20and%20for%20Respondents%20in%20No.%20864,%20Part%201.pdf)
+- [Brief for Petitioners in No. 854 and for Respondents in No. 864, Part 2](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Brief%20for%20Petitioners%20in%20No.%20854%20and%20for%20Respondents%20in%20No.%20864,%20Part%202.pdf)
+- [Brief for Petitioners in No. 854 and for Respondents in No. 864, Part 3](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Brief%20for%20Petitioners%20in%20No.%20854%20and%20for%20Respondents%20in%20No.%20864,%20Part%203.pdf)
+- [Brief for the United States Appendix](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Brief%20for%20the%20United%20States%20Appendix.pdf)
+- [Brief for the United States, Part 1](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Brief%20for%20the%20United%20States,%20Part%201.pdf)
+- [Brief for the United States, Part 2](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Brief%20for%20the%20United%20States,%20Part%202.pdf)
+- [Memorandum for the Respondent](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Memorandum%20for%20the%20Respondent.pdf)
+- [Petition for Writs of Certiorari to the United States Circuit Court of Appeals for the Second Circuit](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Petition%20for%20Writs%20of%20Certiorari%20to%20the%20United%20States%20Circuit%20Court%20of%20Appeals%20for%20the%20Second%20Circuit.pdf)
+- [Petition for Writs of Certiorari to the United States Circuit Court of Appeals for the Second Circuit, and Brief in Supp...](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Petition%20for%20Writs%20of%20Certiorari%20to%20the%20United%20States%20Circuit%20Court%20of%20Appeals%20for%20the%20Second%20Circuit,%20and%20Brief%20in%20Supp....pdf)
+- [Petition for a Writ of Certiorari to the United States Circuit Court of Appeals for the Second Circuit](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Petition%20for%20a%20Writ%20of%20Certiorari%20to%20the%20United%20States%20Circuit%20Court%20of%20Appeals%20for%20the%20Second%20Circuit.pdf)
+- [Transcript of Record, Vol. I, Part 1](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20I,%20Part%201.pdf)
+- [Transcript of Record, Vol. I, Part 2](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20I,%20Part%202.pdf)
+- [Transcript of Record, Vol. I, Part 3](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20I,%20Part%203.pdf)
+- [Transcript of Record, Vol. I, Part 4](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20I,%20Part%204.pdf)
+- [Transcript of Record, Vol. I, Part 5](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20I,%20Part%205.pdf)
+- [Transcript of Record, Vol. I, Part 6](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20I,%20Part%206.pdf)
+- [Transcript of Record, Vol. II, Part 1](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20II,%20Part%201.pdf)
+- [Transcript of Record, Vol. II, Part 2](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20II,%20Part%202.pdf)
+- [Transcript of Record, Vol. II, Part 3](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20II,%20Part%203.pdf)
+- [Transcript of Record, Vol. II, Part 4](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20II,%20Part%204.pdf)
+- [Transcript of Record, Vol. II, Part 5](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20II,%20Part%205.pdf)
+- [Transcript of Record, Vol. II, Part 6](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20II,%20Part%206.pdf)
+- [Transcript of Record, Vol. III, Part 1](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20III,%20Part%201.pdf)
+- [Transcript of Record, Vol. III, Part 2](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20III,%20Part%202.pdf)
+- [Transcript of Record, Vol. III, Part 3](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20III,%20Part%203.pdf)
+- [Transcript of Record, Vol. III, Part 4](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20III,%20Part%204.pdf)
+- [Transcript of Record, Vol. III, Part 5](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20III,%20Part%205.pdf)
+- [Transcript of Record, Vol. III, Part 6](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20III,%20Part%206.pdf)
+- [Transcript of Record, Vol. III, Part 7](https://briefs1.lonedissent.org/1934/schechter-poultry-corp-v-united-states/Transcript%20of%20Record,%20Vol.%20III,%20Part%207.pdf)

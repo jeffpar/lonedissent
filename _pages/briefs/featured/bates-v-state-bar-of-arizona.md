@@ -1,0 +1,35 @@
+---
+title: "Bates v. State Bar of Arizona, 433 U.S. 350 (1977)"
+permalink: /briefs/featured/bates-v-state-bar-of-arizona
+layout: page
+---
+
+- [Appellees Motion to Affirm](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Appellees%20Motion%20to%20Affirm.pdf)
+- [Appendix, Part 1](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Appendix,%20Part%201.pdf)
+- [Appendix, Part 2](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Appendix,%20Part%202.pdf)
+- [Appendix, Part 3](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Appendix,%20Part%203.pdf)
+- [Appendix, Part 4](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Appendix,%20Part%204.pdf)
+- [Appendix, Part 5](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Appendix,%20Part%205.pdf)
+- [Brief Amici Curiae on Behalf of Maryland State Bar Association, Inc., Alaska State Bar Association, Delaware State Bar A...](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20Amici%20Curiae%20on%20Behalf%20of%20Maryland%20State%20Bar%20Association,%20Inc.,%20Alaska%20State%20Bar%20Association,%20Delaware%20State%20Bar%20A....pdf)
+- [Brief Amicus Curiae of the American Dental Association](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20Amicus%20Curiae%20of%20the%20American%20Dental%20Association.pdf)
+- [Brief Amicus Curiae on Behalf of the American Optomometric Association Urging Affirmance](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20Amicus%20Curiae%20on%20Behalf%20of%20the%20American%20Optomometric%20Association%20Urging%20Affirmance.pdf)
+- [Brief for American Veterinary Medical Association as Amicus Curiae](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20for%20American%20Veterinary%20Medical%20Association%20as%20Amicus%20Curiae.pdf)
+- [Brief for Amicus Curiae the State of California](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20for%20Amicus%20Curiae%20the%20State%20of%20California.pdf)
+- [Brief for Roger P. Stokey as Amicus Curiae in Support of Appellee](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20for%20Roger%20P.%20Stokey%20as%20Amicus%20Curiae%20in%20Support%20of%20Appellee.pdf)
+- [Brief for the American Bar Association as Amicus Curiae](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20for%20the%20American%20Bar%20Association%20as%20Amicus%20Curiae.pdf)
+- [Brief for the Appellants, Part 1](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20for%20the%20Appellants,%20Part%201.pdf)
+- [Brief for the Appellants, Part 2](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20for%20the%20Appellants,%20Part%202.pdf)
+- [Brief for the United States as Amicus Curiae, Part 1](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20for%20the%20United%20States%20as%20Amicus%20Curiae,%20Part%201.pdf)
+- [Brief for the United States as Amicus Curiae, Part 2](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20for%20the%20United%20States%20as%20Amicus%20Curiae,%20Part%202.pdf)
+- [Brief for the Virginia State Bar, Commonwealth of Virginia, as Amicus Curiae](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20for%20the%20Virginia%20State%20Bar,%20Commonwealth%20of%20Virginia,%20as%20Amicus%20Curiae.pdf)
+- [Brief of Amici Curiae Consumers Union of United States, Inc., Public Citizen, and the National Consumer Center for Legal...](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20of%20Amici%20Curiae%20Consumers%20Union%20of%20United%20States,%20Inc.,%20Public%20Citizen,%20and%20the%20National%20Consumer%20Center%20for%20Legal....pdf)
+- [Brief of Amici Curiae the Moutain Plains Congress of Senior Organizations, the National Association of State Units on Ag...](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20of%20Amici%20Curiae%20the%20Moutain%20Plains%20Congress%20of%20Senior%20Organizations,%20the%20National%20Association%20of%20State%20Units%20on%20Ag....pdf)
+- [Brief of Appellee](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20of%20Appellee.pdf)
+- [Brief of the American Medical Association, as Amicus Curiae, in Support of Appellee](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20of%20the%20American%20Medical%20Association,%20as%20Amicus%20Curiae,%20in%20Support%20of%20Appellee.pdf)
+- [Brief of the Chicago Council of Lawyers as Amicus Curiae, in Support of Appellants](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20of%20the%20Chicago%20Council%20of%20Lawyers%20as%20Amicus%20Curiae,%20in%20Support%20of%20Appellants.pdf)
+- [Brief of the State Bar of North Carolina as Amicus Curiae in Support of the State Bar of Arizona](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20of%20the%20State%20Bar%20of%20North%20Carolina%20as%20Amicus%20Curiae%20in%20Support%20of%20the%20State%20Bar%20of%20Arizona.pdf)
+- [Brief on the Merits of Amicus Curiae, Arizona Credit Union League, Inc.](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Brief%20on%20the%20Merits%20of%20Amicus%20Curiae,%20Arizona%20Credit%20Union%20League,%20Inc..pdf)
+- [Jurisdictional Statement](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Jurisdictional%20Statement.pdf)
+- [Memorandum](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Memorandum.pdf)
+- [Petition for Rehearing](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Petition%20for%20Rehearing.pdf)
+- [Reply Brief for the Appellants](https://briefs4.lonedissent.org/1976/bates-v-state-bar-of-arizona/Reply%20Brief%20for%20the%20Appellants.pdf)
