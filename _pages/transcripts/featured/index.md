@@ -4,6 +4,32 @@ permalink: /transcripts/featured
 layout: page
 ---
 
+## October Term 1924
+
+- [Pierce v. Society of Sisters](/transcripts/featured/pierce-v-society-of-sisters)
+
+## October Term 1926
+
+- [Myers v. United States](/transcripts/featured/myers-v-united-states)
+
+## October Term 1934
+
+- [A. L. A. Schechter Poultry Corp. v. United States](/transcripts/featured/a-l-a-schechter-poultry-corp-v-united-states)
+
+## October Term 1936
+
+- [Helvering v. Davis](/transcripts/featured/helvering-v-davis)
+- [NLRB v. Jones &amp; Laughlin Steel Corp.](/transcripts/featured/nlrb-v-jones-amp-laughlin-steel-corp)
+- [Steward Machine Co. v. Davis](/transcripts/featured/steward-machine-co-v-davis)
+
+## July Special Term 1942
+
+- [Ex parte Quirin](/transcripts/featured/ex-parte-quirin)
+
+## October Term 1946
+
+- [Adamson v. California](/transcripts/featured/adamson-v-california)
+
 ## October Term 1947
 
 The [Parker v. Illinois](/transcripts/pre-1968#1947-062) case is interesting because it featured a
@@ -28,6 +54,10 @@ Mr. Parker didn't prevail (although he did garner 3 dissenting votes).  And *pro
 win, as Mr. Sloan did in [SEC v. Sloan (1978)](https://www.oyez.org/cases/1977/76-1607).  But Mr. Sloan was the
 last non-lawyer to argue at the Supreme Court, and ever since the Court [changed its rules in 2013](https://www.supremecourt.gov/ctrules/2013RulesoftheCourt.pdf#page=40), non-lawyers have not been permitted to argue
 their own cases at the Supreme Court.
+
+## October Term 1951
+
+- [Youngstown Sheet &amp; Tube Co. v. Sawyer](/transcripts/featured/youngstown-sheet-amp-tube-co-v-sawyer)
 
 ## October Terms 1952 and 1953
 

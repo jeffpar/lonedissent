@@ -1,6 +1,6 @@
 {
   "freelaw": {
-    "decisionDatesCSV": "/sources/freelaw/decisionDates.csv"
+    "decisionDates_csv": "/sources/freelaw/decisionDates.csv"
   },
   "justia": {
     "download": {
@@ -13,21 +13,24 @@
       }
     }
   },
+  "lba": {
+    "transcripts_txt": "/sources/lba/transcripts/_files/*.txt"
+  },
   "ld": {
     "courts": "/sources/ld/courts.json",
     "decisions": "/sources/ld/decisions.json",
     "decisionsOrig": "/sources/ld/decisionsOrig.json",
     "justices": "/sources/ld/justices.json",
-    "citations.csv": "/sources/ld/citations.csv",
-    "citationsJustia.csv": "/sources/ld/citationsJustia.csv",
-    "citationsLOC.csv": "/sources/ld/citationsLOC.csv",
-    "miscLOC.csv": "/sources/ld/miscLOC.csv",
-    "courts.csv": "/sources/ld/courts.csv",
-    "dates.csv": "/sources/ld/dates.csv",
-    "transcripts.csv": "/sources/ld/transcripts.csv"
+    "citations_csv": "/sources/ld/citations.csv",
+    "citationsJustia_csv": "/sources/ld/citationsJustia.csv",
+    "citationsLOC_csv": "/sources/ld/citationsLOC.csv",
+    "miscLOC_csv": "/sources/ld/miscLOC.csv",
+    "courts_csv": "/sources/ld/courts.csv",
+    "dates_csv": "/sources/ld/dates.csv",
+    "transcripts_csv": "/sources/ld/transcripts.csv"
   },
   "loc": {
-    "filesTXT": "/sources/loc/volumes/*/*/*.txt",
+    "files_txt": "/sources/loc/volumes/*/*/*.txt",
     "download": {
       "volume100": {
         "start": 1,
@@ -82,22 +85,22 @@
   "oyez": {
     "cases": "/sources/oyez/cases/_cases.json",
     "advocates": "/sources/oyez/advocates/_advocates.json",
-    "transcripts": "/sources/oyez/transcripts/transcripts.csv",
-    "courtsXML": "/sources/oyez/courts/**/court.xml",
-    "courtsHTML": "/sources/oyez/justices_by_court.html",
-    "justicesXML": "/sources/oyez/justices/**/justice.xml"
+    "transcripts_csv": "/sources/oyez/transcripts/transcripts.csv",
+    "courts_xml": "/sources/oyez/courts/**/court.xml",
+    "courts_html": "/sources/oyez/justices_by_court.html",
+    "justices_xml": "/sources/oyez/justices/**/justice.xml"
   },
   "oyezlabs": {
-    "casesCSV": "/sources/sites/oyezlabs.org/cases.csv",
-    "casesXML": "/sources/sites/oyezlabs.org/xml/cases/$1/**/case.xml"
+    "cases_csv": "/sources/sites/oyezlabs.org/cases.csv",
+    "cases_xml": "/sources/sites/oyezlabs.org/xml/cases/$1/**/case.xml"
   },
   "scdb": {
     "dateEnd": "2018-10-01",
     "vars": "/sources/scdb/vars.json",
-    "courtsCSV": "/sources/scdb/naturalCourts.csv",
-    "decisionsCSV": "/sources/scdb/decisions.csv",
-    "justicesCSV": "/sources/scdb/justices.csv",
-    "docketsCSV": "/sources/scdb/SCDB_2018_02_caseCentered_Docket.csv"
+    "courts_csv": "/sources/scdb/naturalCourts.csv",
+    "decisions_csv": "/sources/scdb/decisions.csv",
+    "justices_csv": "/sources/scdb/justices.csv",
+    "dockets_csv": "/sources/scdb/SCDB_2018_02_caseCentered_Docket.csv"
   },
   "scotus": {
     "citationsHTML": "/sources/scotus/citations/*.*",
