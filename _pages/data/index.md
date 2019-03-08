@@ -13,9 +13,7 @@ Our data comes from a variety of sources, including:
 
 as well as some defunct sites that we archived portions of before they disappeared, such as:
 
-- The Curiae Project at Yale Law School
-
-Thanks to the [Internet Archive](https://web.archive.org/), you can still see what [curiae.law.yale.edu](https://web.archive.org/web/20081020193042/http://curiae.law.yale.edu/) used to look like.
+- [The Curiae Project](https://web.archive.org/web/20081020193042/http://curiae.law.yale.edu/) at Yale Law School
 
 From those data sources, we build our own tables, cross-check the data, look for [discrepancies](/blog/2019/02/18/),
 and then build an assortment of pages:
