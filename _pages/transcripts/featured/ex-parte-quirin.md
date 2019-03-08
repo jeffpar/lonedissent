@@ -159,7 +159,7 @@ cases:
   <p>I think it is pertinent to quote Section 262 of the Code, which is in 28 U.S.C. 377.</p>
   <p>And again, I say that it is not determinative of this, but nevertheless I think it throws some light upon the question.</p>
   <p>It says that: The circuit courts of appeal and the district courts shall have power to issue all writs not specifically provided for by statute… Of course, it is contended that this writ is specific, but I think the language is broad enough to cover the right of the Supreme Court to issue writs generally.</p>
-  <p><text>It says, if I may finish it: Shall have power to issue all writs not specifically provided for by statute which may be necessary for the exercise of their respective jurisdictions.</p>
+  <p>It says, if I may finish it: Shall have power to issue all writs not specifically provided for by statute which may be necessary for the exercise of their respective jurisdictions.</p>
   <p>In this case your respective jurisdiction is the appellate jurisdiction over writs of habeas corpus.</p>
   <p><b>MR. JUSTICE FRANKFURTER</b>: Does not that beg the whole question, namely, that we have appellate jurisdiction over writs of habeas corpus?</p>
   <p><b>THE ATTORNEY GENERAL</b>: I think the only way of knowing that is from a study of the statutes.</p>
@@ -378,7 +378,7 @@ cases:
   <p><b>MR. CHIEF JUSTICE STONE</b>: I will join in that.</p>
   <p><b>COLONEL ROYALL</b>: Second, the President's Proclamation, which assumes to deny the right of the petitioners to maintain this proceeding, is unconstitutional and invalid.</p>
   <p>Third, the President's Order, which assumes to appoint the alleged Military Commission, is unconstitutional and invalid.</p>
-  <p><text>Fourth, the President's Order, relating to the alleged Military Commission, is contrary to statute and, therefore, illegal and invalid.</p>
+  <p>Fourth, the President's Order, relating to the alleged Military Commission, is contrary to statute and, therefore, illegal and invalid.</p>
   <p>Fifth, the petitioners are entitled to be tried by the civil courts for any offenses which they may have committed.</p>
   <p><b>MR. JUSTICE BLACK</b>: You have in your brief a breakdown as to the constitutionality of the charges and their validity?</p>
   <p><b>COLONEL ROYALL</b>: Yes.</p>
@@ -882,7 +882,7 @@ cases:
   <p><b>A</b>: I am, yes, sir.</p>
   <p><b>Q</b>: The name of the Eastern Theater of Operations is changed to Eastern Defense Command.</p>
   <p>The Eastern Defense Command will not be a theater of operations.</p>
-  <p><text>Will you explain to the Commission just what the reason for that order is and the effect of it?</p>
+  <p>Will you explain to the Commission just what the reason for that order is and the effect of it?</p>
   <p><b>A</b>: Field Service Regulations defines a theater of operations as an area of the theater of war necessary for military operations and the administration and supply incident to military operations.</p>
   <p>Now-Questions by Colonel Dowell: .</p>
   <p><b>Q</b>: Will you state the paragraph and page?</p>

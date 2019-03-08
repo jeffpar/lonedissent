@@ -56,7 +56,7 @@ cases:
   <p>There is apparently no connection between the appropriation under title III and as to the result of the tax under title IX, but the history of the act, its beginning, its consideration before committees and in Congress, makes it inevitable that is the purpose of it and that Congress never would have passed the statute if it had not been for that purpose.</p>
   <p>That brings me to that question: The origin of this law, the Social Security Act, is found in the message of the President of June 4, 1934, in which he set out in a message to Congress that it is the duty of Congress to provide for security for the people of the Nation, that the lessons of the depression must be learned, and that he is appointing-</p>
   <p><b>MR. JUSTICE MCREYNOLDS</b>: Have you the statute in your brief, please?</p>
-  <p><b>MR. MARTIN</b>: No, sir; It is in the Government brief, Mr. Justice McReynolds</speaker> <text>the appendix on page 1.</p>
+  <p><b>MR. MARTIN</b>: No, sir; It is in the Government brief, Mr. Justice McReynolds, the appendix on page 1.</p>
   <p>That the President is appointing a Social Security Commission or an economic security commission for the purpose of studying this question and at a later date he will make a report to Congress on that subject.</p>
   <p>The Commission engages in a study, makes a lengthy report, which the President sends to Congress on January 17 1935, adopting the report of the Commission and recommending legislation in compliance therewith.</p>
   <p>The bill is introduced carrying out the result of the investigation by the Commission and submitted to the committees of the Senate and of the House.</p>
@@ -1620,7 +1620,7 @@ cases:
   <p>Now, answering Your Honor's question, I do not believe that under our form of government the Federal Government is empowered ever to take cure of direct relief, except in the face of an immediately existing imperious necessity, that it is only as the result of a breakdown of all else and a threat to the existence of the Government itself and its people that that power comes into existence, ex necessitate rci, and that therefore it cannot be anticipated or provided against further, of course, than for the Federal Government, if it sees fit to accumulate a Treasurer’s reserve for that purpose.</p>
   <p><b>MR. JUSTICE BRANDEIS</b>: And, in spite of the experience that we just passed through, that the Government must hold its hands and hope that the situations, when they come up upon, if they do come lip again, may be met in the same way, we know not how?</p>
   <p>That is, there is no such thing as preparedness, legally?</p>
-  <p>Mr. Mr. Sterne</speaker> <text>There is no such thing: as a preparedness that in any way extends the power of the Federal Government, which it did not possess otherwise.</p>
+  <p><b>MR. STERNE</b>: There is no such thing: as a preparedness that in any way extends the power of the Federal Government, which it did not possess otherwise.</p>
   <p><b>MR. JUSTICE BRANDEIS</b>: But the Federal Government of course, had the power to lay taxes.</p>
   <p>I do not suppose there could be any question but what the, Federal Government could levy a tax, and could accumulate a large reserve in its Treasury, so that it had just as well accumulate, so far as the power goes, billions as well as it does hundreds of millions, had it not ?</p>
   <p><b>MR. STERNE</b>: I should think so, Your Honor.</p>

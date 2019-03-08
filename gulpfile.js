@@ -3865,7 +3865,7 @@ function convertTranscripts(done)
                     let matchText, re = /<text>(.*?)<\/text>/g;
                     while ((matchText = re.exec(speakers[i+1]))) {
                         if (!fPara) text += "  <p>";
-                        text += matchText[1] + "</p>\n";
+                        text += matchText[1].replace(/<text>/g, "") + "</p>\n";
                         fPara = false;
                     }
                     if (fPara) text += "  </p>\n";

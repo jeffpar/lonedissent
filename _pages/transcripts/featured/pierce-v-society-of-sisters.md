@@ -651,7 +651,7 @@ cases:
   <p>I know the people of Oregon are acting under it now; and it was under that very initiative amendment to the Constitution that this law that we at discussing was enacted.</p>
   <p>And it is this form of state which is meant when I speak of the "State" in this case; it is the form of state where the majority of people have the right of control of themselves and of their affairs.</p>
   <p>If, therefore, counsel, will strike out of their brief all discussion with reference to the "State, "except that which relates to this particular kind of state, there will be very little left of their argument.</p>
-  <p>And yet he makes constant use of the term "the State," although he makes reference to periods in history before there was any such <text>thing as a "State" in the sense in which it applies here; and when there were no "States" other than the autocratic or ecclesiastical or other similar kind of a "State.</p>
+  <p>And yet he makes constant use of the term "the State," although he makes reference to periods in history before there was any such thing as a "State" in the sense in which it applies here; and when there were no "States" other than the autocratic or ecclesiastical or other similar kind of a "State.</p>
   <p>"Counsel on page 67 of his brief, speaking of the legislation under consideration, refers to the “State-bred monster,” a creature which “could readily be turned to whatever use a tyrannical government might conceive to be in its own interest.</p>
   <p>"Take away from the parents all care and concern for their children's education, and you make a social life an impossible and unintelligible notion.</p>
   <p>"CITING PUFFENDORF’S LAW OF NATURE AND NATIONS</p>
