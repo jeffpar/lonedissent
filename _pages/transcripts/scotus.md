@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 These transcripts were downloaded from the U.S. Supreme Court website and logged in our
-[spreadsheet](/sources/ld/transcripts.csv).
+[spreadsheet](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/transcripts.csv).
 
 Any corrections have been noted under [Corrected Transcripts](#corrected-transcripts),
 and match failures have been logged under [Unmatched Transcripts](#unmatched-transcripts).

@@ -89,8 +89,8 @@ the date of the term was listed.  This occurred, for example, in [Welsh v. Mande
 Unfortunately, SCDB appears to have morphed such dates into the first day of the first month of the term, resulting in a date (e.g., February 1, 1809) that appears to be precise but is almost certainly incorrect.
 
 NOTE: As a public service, I have extracted all the decision dates *and* argument dates from the Supreme Court's
-[Dates of Supreme Court Decisions and Arguments](/sources/scotus/dates/decisionDates.pdf) and produced
-an easy-to-use [CSV file](/sources/ld/dates.csv).  I recommend using this file instead of the one on the
+[Dates of Supreme Court Decisions and Arguments](/sources/scotus/dates/decisionDates.pdf) and produced an easy-to-use
+[spreadsheet](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/dates.csv).  I recommend using this file instead of the one on the
 [Free Law](https://free.law/2011/05/25/updated-supreme-court-case-dates-and-the-first-release-of-early-scotus-data-in-machine-readable-form/) website,
 because the last time I checked, the dates in their file were badly scrambled, and it didn't include any argument dates.
 The dates on the first few lines of their file:
@@ -377,7 +377,7 @@ I nor anyone else will have any incentive to help again.
 ### Citing to the SCDB
 
 Since we use the SCDB, we shall cite it.  In fact, we shall go one step better, and *recite* their
-[instructions](http://supremecourtdatabase.org/documentation.php?var=cite) on how one should cite:
+[instructions](http://supremecourtdatabase.org/documentation.php?var=cite) on how one should cite it:
 
 > To cite to the Supreme Court Database, please employ either of the following:
 
@@ -395,7 +395,8 @@ corrections, and the addition of new data for existing cases.
 
 Note that indicating which release you are using is a matter "*of great importance*".
     
-Which is puzzling, since SCDB consistently refuses to describe, list, or otherwise explain exactly how any
-release differs from any other release.  The differences are invariably described as nothing more than "minor corrections."
+Which is puzzling, since SCDB consistently refuses to describe, list, or otherwise explain exactly how
+any release differs from any other release.  The differences are invariably described as nothing more than
+"minor corrections."
 
 This leaves us with an oxymoron: minor corrections of great importance!

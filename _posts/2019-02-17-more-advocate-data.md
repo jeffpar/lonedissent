@@ -18,8 +18,9 @@ downloaded from the U.S. Supreme Court website, and all
 
 Our initial focus is to match all [SCOTUS Transcripts](/transcripts/scotus) with their
 corresponding SCDB records.  A list of those transcripts is being stored in a
-[CSV](/sources/ld/transcripts.csv), which includes a `notes` field documenting any corrections.
-Next, we'll cross-reference that list with Oyez's case data.
+[spreadsheet](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/transcripts.csv),
+which includes a `notes` field documenting any corrections.  Next, we'll cross-reference
+that list with Oyez's case data.
 
 One could also wish that the resolution and quality of the PDFs stored at the
 Library of Congress was higher, so that the raw text was less error-prone, but our goal

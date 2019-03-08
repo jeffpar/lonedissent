@@ -5,24 +5,26 @@ permalink: /blog/2018/12/21/
 
 In preparation for building this website, a few important data files were created first:
 
-- [courts.json](/sources/ld/courts.json)
-- [decisions.json](/sources/ld/decisions.json)
-- [justices.json](/sources/ld/justices.json)
-- [citations.csv](/sources/ld/citations.csv)
-- [dates.csv](/sources/ld/dates.csv)
-- [transcripts.csv](/sources/ld/transcripts.csv)
+- [courts.json](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/courts.json)
+- [decisions.json](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/decisions.json)
+- [justices.json](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/justices.json)
+- [citations.csv](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/citations.csv)
+- [dates.csv](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/dates.csv)
+- [transcripts.csv](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/transcripts.csv)
 
-Most of our [Court](/sources/ld/courts.json) and [Justice](/sources/ld/justices.json) data came
-from [Oyez](https://www.oyez.org/), while most of the [Decision](/sources/ld/decisions.json)
+Most of our [Court](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/courts.json)
+and [Justice](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/justices.json)
+data came from [Oyez](https://www.oyez.org/), while most of the
+[Decision](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/decisions.json)
 data was imported from [CSV files](https://github.com/jeffpar/lonedissent/tree/master/sources/scdb)
 provided by the [Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB[*](#citing-to-the-scdb).
 
-Additionally, our [Citations](/sources/ld/citations.csv) come from the Supreme Court's
-[Case Citation Finder](https://www.supremecourt.gov/opinions/casefinder.aspx), including
-numerous corrections from [Citations](/sources/ld/citationsLOC.csv) extracted from the
-[Library of Congress](https://www.loc.gov/collections/united-states-reports/?st=list),
-and [Argument and Decision Dates](/sources/ld/dates.csv) of early cases have been extracted from the
-Supreme Court Library document
+Additionally, our [Citations](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/citations.csv)
+come from the Supreme Court's [Case Citation Finder](https://www.supremecourt.gov/opinions/casefinder.aspx),
+including numerous corrections from [Citations](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/citationsLOC.csv)
+extracted from the [Library of Congress](https://www.loc.gov/collections/united-states-reports/?st=list),
+and [Argument and Decision Dates](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/dates.csv)
+of early cases have been extracted from the Supreme Court Library document
 "[DATES OF SUPREME COURT DECISIONS AND ARGUMENTS: UNITED STATES REPORTS VOLUMES 2 – 107 (1791 – 1882)](/sources/scotus/dates/decisionDates.pdf)".
 
 To make good use of the raw SCDB data, you need tables that map all the numeric
@@ -296,7 +298,7 @@ for SCDB's latest release ("2018 Release 02") still say nothing more than:
 ### Citing to the SCDB
 
 Since we use the SCDB, we shall cite it.  In fact, we shall go one step better, and *recite* their
-[instructions](http://supremecourtdatabase.org/documentation.php?var=cite) on how one should cite:
+[instructions](http://supremecourtdatabase.org/documentation.php?var=cite) on how one should cite it:
 
 > To cite to the Supreme Court Database, please employ either of the following:
 
@@ -314,7 +316,8 @@ corrections, and the addition of new data for existing cases.
 
 Note that indicating which release you are using is a matter "*of great importance*".
     
-Which is puzzling, since SCDB consistently refuses to describe, list, or otherwise explain exactly how any
-release differs from any other release.  The differences are invariably described as nothing more than "minor corrections."
+Which is puzzling, since SCDB consistently refuses to describe, list, or otherwise explain exactly how
+any release differs from any other release.  The differences are invariably described as nothing more than
+"minor corrections."
 
 This leaves us with an oxymoron: minor corrections of great importance!
