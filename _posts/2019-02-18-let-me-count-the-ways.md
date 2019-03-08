@@ -3,7 +3,7 @@ title: "SCDB: How Do I Love Thee?"
 permalink: /blog/2019/02/18/
 ---
 
-The [Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB, is a enormously valuable resource.  Other
+The [Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB[[*](#citing-to-the-scdb)], is a enormously valuable resource.  Other
 [sites](https://www.courtlistener.com/coverage/) have even referred to it as "the gold standard for high-quality legal information."  It owes much of its reputation to Harold Spaeth, a political science professor who created
 "[The Original U.S. Supreme Court Judicial Database (nickname: ALLCOURT)](http://artsandsciences.sc.edu/poli/juri/sct.htm)"
 decades ago, and worked with the SCDB folks to help produce the modern version.  Sadly, Harold passed away in 2017.
@@ -367,5 +367,32 @@ updates behind a veil of secrecy, and making the world wait with bated breath fo
 endeavour, more knowledge -- not less -- should be one of the goals, as well as encouraging cooperation and participation
 among all interested parties.
 
-Or, SCDB can quietly extract whatever it wants here, without telling me or anyone else, and then roll out its next release with the usual (and completely useless) notation: `minor corrections`.  And neither I nor anyone else will have any
-incentive to help again.
+Or, SCDB can quietly extract whatever it wants here, without telling me or anyone else, and then roll
+out its next release with the usual (and completely useless) notation: `minor corrections`.  And neither
+I nor anyone else will have any incentive to help again.
+
+## Citing to the SCDB
+
+Since we use the SCDB, we shall cite it.  In fact, we shall go one step better, and *recite* their
+[instructions](http://supremecourtdatabase.org/documentation.php?var=cite) on how one should cite:
+
+> To cite to the Supreme Court Database, please employ either of the following:
+
+    Harold J. Spaeth, Lee Epstein, Andrew D. Martin, Jeffrey A. Segal,
+    Theodore J. Ruger, and Sara C. Benesh. 2018 Supreme Court Database,
+    Version 2018 Release 02. URL: http://Supremecourtdatabase.org 
+
+    Harold J. Spaeth, Lee Epstein, et al. 2018 Supreme Court Database,
+    Version 2018 Release 2. URL: http://Supremecourtdatabase.org 
+
+> Please be sure to include the specific Version Number; e.g., 'Version 2018 Release 02' in your citation
+as this will indicate the particular version of the database being employed at the time of your reference.
+This matter is of great importance as the database will be updated with newly announced decisions,
+corrections, and the addition of new data for existing cases.
+
+Note that indicating which release you are using is a matter "*of great importance*".
+    
+Which is puzzling, since SCDB consistently refuses to describe, list, or otherwise explain exactly how any
+release differs from any other release.  The differences are invariably described as nothing more than "minor corrections."
+
+This leaves us with an oxymoron: minor corrections of great importance!

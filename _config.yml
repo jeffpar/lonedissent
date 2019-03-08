@@ -61,6 +61,8 @@ exclude:
   - /sources/loc
   - /sources/oyez/cases
   - /sources/oyez/transcripts
+  - /sources/scdb/*.sh
+  - /sources/scdb/*.csv
   - /sources/scotus/journals
   - /sources/scotus/transcripts
   - /sources/sites

@@ -3,7 +3,7 @@ title: "Building Data Files"
 permalink: /blog/2018/12/21/
 ---
 
-In preparation for making this a more interesting website, a few important data files have been created so far:
+In preparation for building this website, a few important data files were created first:
 
 - [courts.json](/results/courts.json)
 - [decisions.json](/results/decisions.json)
@@ -14,13 +14,15 @@ In preparation for making this a more interesting website, a few important data 
 
 Most of our [Court](/results/courts.json) and [Justice](/results/justices.json) data came
 from [Oyez](https://www.oyez.org/), while most of the [Decision](/results/decisions.json)
-data was imported from [CSV files](/sources/scdb/decisions.csv) provided by the
-[Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB.
+data was imported from [CSV files](https://github.com/jeffpar/lonedissent/tree/master/sources/scdb)
+provided by the [Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB[[*](#citing-to-the-scdb)].
 
-Additionally, our [Citations](/results/citations.csv)
-come from the Supreme Court's [Case Citation Finder](https://www.supremecourt.gov/opinions/casefinder.aspx),
-including numerous corrections from [Citations](/results/citationsLOC.csv) extracted from the [Library of Congress](https://www.loc.gov/collections/united-states-reports/?st=list),
-and [Argument and Decision Dates](/results/dates.csv) of early cases have been extracted from the Supreme Court Library document
+Additionally, our [Citations](/results/citations.csv) come from the Supreme Court's
+[Case Citation Finder](https://www.supremecourt.gov/opinions/casefinder.aspx), including
+numerous corrections from [Citations](/results/citationsLOC.csv) extracted from the
+[Library of Congress](https://www.loc.gov/collections/united-states-reports/?st=list),
+and [Argument and Decision Dates](/results/dates.csv) of early cases have been extracted from the
+Supreme Court Library document
 "[DATES OF SUPREME COURT DECISIONS AND ARGUMENTS: UNITED STATES REPORTS VOLUMES 2 – 107 (1791 – 1882)](/sources/scotus/dates/decisionDates.pdf)".
 
 To make good use of the raw SCDB data, you need tables that map all the numeric
@@ -32,7 +34,7 @@ but again, lots of work is required to turn all those HTML tables into something
 your code can ingest.
 
 So, we built a collection of [SCDB Variables](/sources/scdb/vars.json).  Then we wrote a
-script that reads every field of every record of [SCDB CSV files](/sources/scdb/decisions.csv)
+script that reads every field of every record of [SCDB CSV Data](https://github.com/jeffpar/lonedissent/blob/master/sources/scdb/decisions.csv)
 and verifies that every field's value exists in the [SCDB Variables](/sources/scdb/vars.json)
 collection.
 
@@ -212,8 +214,8 @@ to give you a sense of the problems:
 
 There are *lots* of duplicate values, varying only in form, not in substance, not to mention *lots* of typos.
 
-More worrisome are all the decision date discrepancies we've found.  SCDB
-[claims](http://scdb.wustl.edu/documentation.php?var=dateDecision) that:
+More worrisome are all the decision date discrepancies we've found.
+SCDB [claims](http://scdb.wustl.edu/documentation.php?var=dateDecision) that:
 
 > For volumes 2-107 of the U.S. Reports (1791-1882), we relied on [Dates of Supreme Court Decisions and Arguments](http://www.supremecourt.gov/opinions/datesofdecisions.pdf), prepared by Anne Ashmore of the Library of the Supreme Court,
 because many early reporters do not list the date of decision.
@@ -290,3 +292,29 @@ It's a bit sad to see that, almost ten years later, there is still no transparen
 for SCDB's latest release ("2018 Release 02") still say nothing more than:
 
     Minor corrections
+
+## Citing to the SCDB
+
+Since we use the SCDB, we shall cite it.  In fact, we shall go one step better, and *recite* their
+[instructions](http://supremecourtdatabase.org/documentation.php?var=cite) on how one should cite:
+
+> To cite to the Supreme Court Database, please employ either of the following:
+
+    Harold J. Spaeth, Lee Epstein, Andrew D. Martin, Jeffrey A. Segal,
+    Theodore J. Ruger, and Sara C. Benesh. 2018 Supreme Court Database,
+    Version 2018 Release 02. URL: http://Supremecourtdatabase.org 
+
+    Harold J. Spaeth, Lee Epstein, et al. 2018 Supreme Court Database,
+    Version 2018 Release 2. URL: http://Supremecourtdatabase.org 
+
+> Please be sure to include the specific Version Number; e.g., 'Version 2018 Release 02' in your citation
+as this will indicate the particular version of the database being employed at the time of your reference.
+This matter is of great importance as the database will be updated with newly announced decisions,
+corrections, and the addition of new data for existing cases.
+
+Note that indicating which release you are using is a matter "*of great importance*".
+    
+Which is puzzling, since SCDB consistently refuses to describe, list, or otherwise explain exactly how any
+release differs from any other release.  The differences are invariably described as nothing more than "minor corrections."
+
+This leaves us with an oxymoron: minor corrections of great importance!
