@@ -8,7 +8,7 @@ cases:
     title: "Mason v. Haile"
     volume: "025"
     page: "370"
-    citation: "25 U.S. 370"
+    usCite: "25 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 27, 1827"
     voteMajority: 6

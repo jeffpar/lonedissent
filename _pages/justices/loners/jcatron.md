@@ -8,7 +8,7 @@ cases:
     title: "Mayor of Mobile v. Hallett"
     volume: "041"
     page: "261"
-    citation: "41 U.S. 261"
+    usCite: "41 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Saturday, March 12, 1842"
     voteMajority: 8
@@ -20,7 +20,7 @@ cases:
     title: "Mayor and Aldermen of Mobile v. Emanuel"
     volume: "042"
     page: "095"
-    citation: "42 U.S. 95"
+    usCite: "42 U.S. 95"
     pdfSource: "loc"
     dateDecision: "Thursday, February 2, 1843"
     voteMajority: 6
@@ -32,7 +32,7 @@ cases:
     title: "Bank of United States v. United States"
     volume: "043"
     page: "711"
-    citation: "43 U.S. 711"
+    usCite: "43 U.S. 711"
     pdfSource: "loc"
     dateDecision: "Saturday, March 9, 1844"
     voteMajority: 6
@@ -44,7 +44,7 @@ cases:
     title: "Nugent v. Boyd"
     volume: "044"
     page: "426"
-    citation: "44 U.S. 426"
+    usCite: "44 U.S. 426"
     pdfSource: "loc"
     dateDecision: "Friday, January 17, 1845"
     voteMajority: 6
@@ -56,7 +56,7 @@ cases:
     title: "Tayloe v. Merchants&apos; Fire Ins. Co. of Baltimore"
     volume: "050"
     page: "390"
-    citation: "50 U.S. 390"
+    usCite: "50 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Thursday, May 23, 1850"
     voteMajority: 7
@@ -68,7 +68,7 @@ cases:
     title: "Strader v. Graham"
     volume: "051"
     page: "082"
-    citation: "51 U.S. 82"
+    usCite: "51 U.S. 82"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1851"
     voteMajority: 8
@@ -80,7 +80,7 @@ cases:
     title: "Stafford v. Union Bank of La."
     volume: "057"
     page: "135"
-    citation: "57 U.S. 135"
+    usCite: "57 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Friday, May 5, 1854"
     voteMajority: 8
@@ -92,7 +92,7 @@ cases:
     title: "Steamer Oregon v. Rocca"
     volume: "059"
     page: "570"
-    citation: "59 U.S. 570"
+    usCite: "59 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 14, 1856"
     voteMajority: 7
@@ -104,7 +104,7 @@ cases:
     title: "Moore v. American Transp. Co."
     volume: "065"
     page: "001"
-    citation: "65 U.S. 1"
+    usCite: "65 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1861"
     voteMajority: 7
@@ -116,7 +116,7 @@ cases:
     title: "Bronson v. La Crosse &amp; Milwaukee R. Co."
     volume: "068"
     page: "405"
-    citation: "68 U.S. 405"
+    usCite: "68 U.S. 405"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1864"
     voteMajority: 9
@@ -128,7 +128,7 @@ cases:
     title: "Bronson v. La Crosse &amp; Milwaukie R. Co."
     volume: "069"
     page: "283"
-    citation: "69 U.S. 283"
+    usCite: "69 U.S. 283"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1864"
     voteMajority: 9
@@ -140,7 +140,7 @@ cases:
     title: "Brooks v. Martin"
     volume: "069"
     page: "070"
-    citation: "69 U.S. 70"
+    usCite: "69 U.S. 70"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1864"
     voteMajority: 9

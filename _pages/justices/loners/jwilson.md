@@ -8,7 +8,7 @@ cases:
     title: "Wiscart v. Dauchy"
     volume: "003"
     page: "321"
-    citation: "3 U.S. 321"
+    usCite: "3 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Friday, August 12, 1796"
     voteMajority: 5

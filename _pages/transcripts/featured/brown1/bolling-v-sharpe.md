@@ -7,7 +7,7 @@ cases:
     termId: "1953-10"
     title: "Bolling v. Sharpe"
     docket: "8"
-    citation: "347 U.S. 497"
+    usCite: "347 U.S. 497"
     dateArgument: "Wednesday, December 10, 1952"
     dateRearg: "Tuesday, December 8, 1953"
     dateDecision: "Monday, May 17, 1954"

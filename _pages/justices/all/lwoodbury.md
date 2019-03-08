@@ -8,7 +8,7 @@ cases:
     title: "Rankin v. Hoyt"
     volume: "045"
     page: "327"
-    citation: "45 U.S. 327"
+    usCite: "45 U.S. 327"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 30, 1845"
     voteMajority: 8
@@ -20,7 +20,7 @@ cases:
     title: "Garland v. Davis"
     volume: "045"
     page: "131"
-    citation: "45 U.S. 131"
+    usCite: "45 U.S. 131"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 20, 1846"
     voteMajority: 8
@@ -32,7 +32,7 @@ cases:
     title: "Beals v. Hale"
     volume: "045"
     page: "037"
-    citation: "45 U.S. 37"
+    usCite: "45 U.S. 37"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 21, 1846"
     voteMajority: 8
@@ -44,7 +44,7 @@ cases:
     title: "Harris v. Robinson"
     volume: "045"
     page: "336"
-    citation: "45 U.S. 336"
+    usCite: "45 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 4, 1846"
     voteMajority: 6
@@ -56,7 +56,7 @@ cases:
     title: "Carpenter v. Providence Washington Ins. Co."
     volume: "045"
     page: "185"
-    citation: "45 U.S. 185"
+    usCite: "45 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 17, 1846"
     voteMajority: 7
@@ -68,7 +68,7 @@ cases:
     title: "Foxcroft v. Mallett"
     volume: "045"
     page: "353"
-    citation: "45 U.S. 353"
+    usCite: "45 U.S. 353"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1846"
     voteMajority: 8
@@ -80,7 +80,7 @@ cases:
     title: "Phillips v. Preston"
     volume: "046"
     page: "278"
-    citation: "46 U.S. 278"
+    usCite: "46 U.S. 278"
     pdfSource: "loc"
     dateDecision: "Thursday, December 10, 1846"
     voteMajority: 9
@@ -92,7 +92,7 @@ cases:
     title: "Taylor v. Benham"
     volume: "046"
     page: "233"
-    citation: "46 U.S. 233"
+    usCite: "46 U.S. 233"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1847"
     voteMajority: 9
@@ -104,7 +104,7 @@ cases:
     title: "Scott v. Jones"
     volume: "046"
     page: "343"
-    citation: "46 U.S. 343"
+    usCite: "46 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Thursday, March 4, 1847"
     voteMajority: 7
@@ -116,7 +116,7 @@ cases:
     title: "Jones v. Van Zandt"
     volume: "046"
     page: "215"
-    citation: "46 U.S. 215"
+    usCite: "46 U.S. 215"
     pdfSource: "loc"
     dateDecision: "Friday, March 5, 1847"
     voteMajority: 9
@@ -128,7 +128,7 @@ cases:
     title: "Bank of United States v. Moss"
     volume: "047"
     page: "031"
-    citation: "47 U.S. 31"
+    usCite: "47 U.S. 31"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 21, 1847"
     voteMajority: 8
@@ -140,7 +140,7 @@ cases:
     title: "Davis v. William M. Tileston &amp; Co."
     volume: "047"
     page: "114"
-    citation: "47 U.S. 114"
+    usCite: "47 U.S. 114"
     pdfSource: "loc"
     dateDecision: "Monday, February 28, 1848"
     voteMajority: 8
@@ -152,7 +152,7 @@ cases:
     title: "Planters&apos; Bank of Miss. v. Sharp"
     volume: "047"
     page: "301"
-    citation: "47 U.S. 301"
+    usCite: "47 U.S. 301"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1848"
     voteMajority: 6
@@ -164,7 +164,7 @@ cases:
     title: "Hogg v. Emerson"
     volume: "047"
     page: "437"
-    citation: "47 U.S. 437"
+    usCite: "47 U.S. 437"
     pdfSource: "loc"
     dateDecision: "Saturday, March 11, 1848"
     voteMajority: 5
@@ -176,7 +176,7 @@ cases:
     title: "McLaughlin v. Bank of Potomac"
     volume: "048"
     page: "220"
-    citation: "48 U.S. 220"
+    usCite: "48 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Thursday, January 11, 1849"
     voteMajority: 8
@@ -188,7 +188,7 @@ cases:
     title: "United States v. Chicago"
     volume: "048"
     page: "185"
-    citation: "48 U.S. 185"
+    usCite: "48 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Friday, February 2, 1849"
     voteMajority: 8
@@ -200,7 +200,7 @@ cases:
     title: "Wilkes v. Dinsman"
     volume: "048"
     page: "089"
-    citation: "48 U.S. 89"
+    usCite: "48 U.S. 89"
     pdfSource: "loc"
     dateDecision: "Friday, February 16, 1849"
     voteMajority: 9
@@ -212,7 +212,7 @@ cases:
     title: "Lawrence v. Allen"
     volume: "048"
     page: "785"
-    citation: "48 U.S. 785"
+    usCite: "48 U.S. 785"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1849"
     voteMajority: 9
@@ -224,7 +224,7 @@ cases:
     title: "Townsend v. Jemison"
     volume: "048"
     page: "706"
-    citation: "48 U.S. 706"
+    usCite: "48 U.S. 706"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1849"
     voteMajority: 8
@@ -236,7 +236,7 @@ cases:
     title: "Veazie v. Williams"
     volume: "049"
     page: "134"
-    citation: "49 U.S. 134"
+    usCite: "49 U.S. 134"
     pdfSource: "loc"
     dateDecision: "Monday, January 7, 1850"
     voteMajority: 5
@@ -248,7 +248,7 @@ cases:
     title: "United States v. Buchanan"
     volume: "049"
     page: "083"
-    citation: "49 U.S. 83"
+    usCite: "49 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 15, 1850"
     voteMajority: 5
@@ -260,7 +260,7 @@ cases:
     title: "Clark v. Manufacturers&apos; Ins. Co."
     volume: "049"
     page: "235"
-    citation: "49 U.S. 235"
+    usCite: "49 U.S. 235"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1850"
     voteMajority: 8
@@ -272,7 +272,7 @@ cases:
     title: "West v. Smith"
     volume: "049"
     page: "402"
-    citation: "49 U.S. 402"
+    usCite: "49 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 12, 1850"
     voteMajority: 8
@@ -284,7 +284,7 @@ cases:
     title: "Le Roy v. Beard"
     volume: "049"
     page: "451"
-    citation: "49 U.S. 451"
+    usCite: "49 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 19, 1850"
     voteMajority: 7
@@ -296,7 +296,7 @@ cases:
     title: "Irwin v. Dixion"
     volume: "050"
     page: "010"
-    citation: "50 U.S. 10"
+    usCite: "50 U.S. 10"
     pdfSource: "loc"
     dateDecision: "Friday, March 1, 1850"
     voteMajority: 8
@@ -308,7 +308,7 @@ cases:
     title: "Mason v. Fearson"
     volume: "050"
     page: "248"
-    citation: "50 U.S. 248"
+    usCite: "50 U.S. 248"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 23, 1850"
     voteMajority: 8
@@ -320,7 +320,7 @@ cases:
     title: "Barrow v. Reab"
     volume: "050"
     page: "366"
-    citation: "50 U.S. 366"
+    usCite: "50 U.S. 366"
     pdfSource: "loc"
     dateDecision: "Thursday, May 2, 1850"
     voteMajority: 8
@@ -332,7 +332,7 @@ cases:
     title: "Harrison v. Vose"
     volume: "050"
     page: "372"
-    citation: "50 U.S. 372"
+    usCite: "50 U.S. 372"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 8, 1850"
     voteMajority: 8
@@ -344,7 +344,7 @@ cases:
     title: "Doe v. Eslava"
     volume: "050"
     page: "421"
-    citation: "50 U.S. 421"
+    usCite: "50 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 1850"
     voteMajority: 8
@@ -356,7 +356,7 @@ cases:
     title: "Marriott v. Brune"
     volume: "050"
     page: "619"
-    citation: "50 U.S. 619"
+    usCite: "50 U.S. 619"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 29, 1850"
     voteMajority: 8
@@ -368,7 +368,7 @@ cases:
     title: "Hogg v. Emerson"
     volume: "052"
     page: "587"
-    citation: "52 U.S. 587"
+    usCite: "52 U.S. 587"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 18, 1850"
     voteMajority: 5
@@ -380,7 +380,7 @@ cases:
     title: "East Hartford v. Hartford Bridge Co."
     volume: "051"
     page: "511"
-    citation: "51 U.S. 511"
+    usCite: "51 U.S. 511"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 15, 1851"
     voteMajority: 9
@@ -392,7 +392,7 @@ cases:
     title: "Greely v. Thompson"
     volume: "051"
     page: "225"
-    citation: "51 U.S. 225"
+    usCite: "51 U.S. 225"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 28, 1851"
     voteMajority: 9
@@ -404,7 +404,7 @@ cases:
     title: "Maxwell v. Griswold"
     volume: "051"
     page: "242"
-    citation: "51 U.S. 242"
+    usCite: "51 U.S. 242"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 28, 1851"
     voteMajority: 9
@@ -416,7 +416,7 @@ cases:
     title: "United States v. Morgan"
     volume: "052"
     page: "154"
-    citation: "52 U.S. 154"
+    usCite: "52 U.S. 154"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 4, 1851"
     voteMajority: 9
@@ -428,7 +428,7 @@ cases:
     title: "Gratz&apos;s Executors v. Cohen"
     volume: "052"
     page: "001"
-    citation: "52 U.S. 1"
+    usCite: "52 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1851"
     voteMajority: 7
@@ -440,7 +440,7 @@ cases:
     title: "Reeside v. Walker"
     volume: "052"
     page: "272"
-    citation: "52 U.S. 272"
+    usCite: "52 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 25, 1851"
     voteMajority: 9
@@ -452,7 +452,7 @@ cases:
     title: "Fowler v. Merrill"
     volume: "052"
     page: "375"
-    citation: "52 U.S. 375"
+    usCite: "52 U.S. 375"
     pdfSource: "loc"
     dateDecision: "Friday, March 7, 1851"
     voteMajority: 9
@@ -464,7 +464,7 @@ cases:
     title: "Conrad v. Griffey"
     volume: "052"
     page: "480"
-    citation: "52 U.S. 480"
+    usCite: "52 U.S. 480"
     pdfSource: "loc"
     dateDecision: "Monday, March 10, 1851"
     voteMajority: 9
@@ -476,7 +476,7 @@ cases:
     title: "Spear v. Place"
     volume: "052"
     page: "522"
-    citation: "52 U.S. 522"
+    usCite: "52 U.S. 522"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 11, 1851"
     voteMajority: 9
@@ -488,7 +488,7 @@ cases:
     title: "Doe v. Mayor, Alderman, and Common Council of Mobile"
     volume: "050"
     page: "451"
-    citation: "50 U.S. 451"
+    usCite: "50 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 28, 1850"
     voteMajority: 8
@@ -500,7 +500,7 @@ cases:
     title: "United States v. Southmayd"
     volume: "050"
     page: "637"
-    citation: "50 U.S. 637"
+    usCite: "50 U.S. 637"
     pdfSource: "loc"
     dateDecision: "Wednesday, May 29, 1850"
     voteMajority: 8

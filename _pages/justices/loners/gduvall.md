@@ -8,7 +8,7 @@ cases:
     title: "Queen v. Hepburn"
     volume: "011"
     page: "290"
-    citation: "11 U.S. 290"
+    usCite: "11 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Friday, February 12, 1813"
     voteMajority: 5
@@ -20,7 +20,7 @@ cases:
     title: "McIver&apos;s Lessee v. Walker"
     volume: "013"
     page: "173"
-    citation: "13 U.S. 173"
+    usCite: "13 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 1, 1815"
     voteMajority: 5
@@ -32,7 +32,7 @@ cases:
     title: "Trustees of Dartmouth College v. Woodward"
     volume: "017"
     page: "518"
-    citation: "17 U.S. 518"
+    usCite: "17 U.S. 518"
     pdfSource: "loc"
     dateDecision: "Thursday, February 25, 1819"
     voteMajority: 5

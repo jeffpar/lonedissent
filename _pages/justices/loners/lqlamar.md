@@ -6,10 +6,10 @@ cases:
   - id: "1891-030"
     termId: "1891-10"
     title: "Johnson v. St. Louis, I. M. &amp; S. R. Co."
+    docket: "60"
     volume: "141"
     page: "602"
-    docket: "60"
-    citation: "141 U.S. 602"
+    usCite: "141 U.S. 602"
     pdfSource: "loc"
     dateDecision: "Monday, November 16, 1891"
     voteMajority: 7

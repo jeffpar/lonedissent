@@ -8,7 +8,7 @@ cases:
     title: "Broome v. United States"
     volume: "056"
     page: "143"
-    citation: "56 U.S. 143"
+    usCite: "56 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Friday, January 6, 1854"
     voteMajority: 8
@@ -20,7 +20,7 @@ cases:
     title: "United States v. Sixty-seven Packages of Dry Goods"
     volume: "058"
     page: "085"
-    citation: "58 U.S. 85"
+    usCite: "58 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1855"
     voteMajority: 8
@@ -32,7 +32,7 @@ cases:
     title: "United States v. Nine Cases of Silk Hats"
     volume: "058"
     page: "097"
-    citation: "58 U.S. 97"
+    usCite: "58 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1855"
     voteMajority: 8
@@ -44,7 +44,7 @@ cases:
     title: "United States v. One Package of Merchandise"
     volume: "058"
     page: "098"
-    citation: "58 U.S. 98"
+    usCite: "58 U.S. 98"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1855"
     voteMajority: 8
@@ -56,7 +56,7 @@ cases:
     title: "United States v. One Case of Clocks"
     volume: "058"
     page: "099"
-    citation: "58 U.S. 99"
+    usCite: "58 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 9, 1855"
     voteMajority: 8
@@ -68,7 +68,7 @@ cases:
     title: "Lafayette Ins. Co. v. French"
     volume: "059"
     page: "404"
-    citation: "59 U.S. 404"
+    usCite: "59 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Friday, April 25, 1856"
     voteMajority: 8

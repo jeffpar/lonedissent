@@ -8,7 +8,7 @@ cases:
     title: "Ogden v. Blackledge"
     volume: "006"
     page: "272"
-    citation: "6 U.S. 272"
+    usCite: "6 U.S. 272"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1804"
     voteMajority: 4
@@ -20,7 +20,7 @@ cases:
     title: "McIlvaine v. Coxe&apos;s Lessee"
     volume: "008"
     page: "209"
-    citation: "8 U.S. 209"
+    usCite: "8 U.S. 209"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 23, 1808"
     voteMajority: 5
@@ -32,7 +32,7 @@ cases:
     title: "Hodgson v. Marine Ins. Co. of Alexandria"
     volume: "009"
     page: "100"
-    citation: "9 U.S. 100"
+    usCite: "9 U.S. 100"
     pdfSource: "loc"
     dateDecision: "Friday, February 24, 1809"
     voteMajority: 6
@@ -44,7 +44,7 @@ cases:
     title: "Marine Ins. Co. of Alexandria v. Young"
     volume: "009"
     page: "187"
-    citation: "9 U.S. 187"
+    usCite: "9 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 28, 1809"
     voteMajority: 7

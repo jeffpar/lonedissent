@@ -8,7 +8,7 @@ cases:
     title: "Glass v. Sloop Betsey"
     volume: "003"
     page: "006"
-    citation: "3 U.S. 6"
+    usCite: "3 U.S. 6"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 18, 1794"
     voteMajority: 6

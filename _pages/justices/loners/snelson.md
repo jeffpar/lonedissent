@@ -8,7 +8,7 @@ cases:
     title: "Withers v. Greene"
     volume: "050"
     page: "213"
-    citation: "50 U.S. 213"
+    usCite: "50 U.S. 213"
     pdfSource: "loc"
     dateDecision: "Tuesday, May 14, 1850"
     voteMajority: 7
@@ -20,7 +20,7 @@ cases:
     title: "Gratz&apos;s Executors v. Cohen"
     volume: "052"
     page: "001"
-    citation: "52 U.S. 1"
+    usCite: "52 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 19, 1851"
     voteMajority: 7
@@ -32,7 +32,7 @@ cases:
     title: "Erwin v. Parham"
     volume: "053"
     page: "197"
-    citation: "53 U.S. 197"
+    usCite: "53 U.S. 197"
     pdfSource: "loc"
     dateDecision: "Friday, February 6, 1852"
     voteMajority: 8
@@ -44,7 +44,7 @@ cases:
     title: "Curran v. Arkansas"
     volume: "056"
     page: "304"
-    citation: "56 U.S. 304"
+    usCite: "56 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Thursday, December 29, 1853"
     voteMajority: 6
@@ -56,7 +56,7 @@ cases:
     title: "McKinlay v. Morrish"
     volume: "062"
     page: "343"
-    citation: "62 U.S. 343"
+    usCite: "62 U.S. 343"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1859"
     voteMajority: 8
@@ -68,7 +68,7 @@ cases:
     title: "Roosevelt v. Meyer"
     volume: "068"
     page: "512"
-    citation: "68 U.S. 512"
+    usCite: "68 U.S. 512"
     pdfSource: "loc"
     dateDecision: "Monday, December 21, 1863"
     voteMajority: 9
@@ -80,7 +80,7 @@ cases:
     title: "The Circassian"
     volume: "069"
     page: "135"
-    citation: "69 U.S. 135"
+    usCite: "69 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1865"
     voteMajority: 7
@@ -92,7 +92,7 @@ cases:
     title: "The Siren"
     volume: "074"
     page: "152"
-    citation: "74 U.S. 152"
+    usCite: "74 U.S. 152"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1869"
     voteMajority: 7
@@ -104,7 +104,7 @@ cases:
     title: "Woodruff v. Parham"
     volume: "075"
     page: "123"
-    citation: "75 U.S. 123"
+    usCite: "75 U.S. 123"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1869"
     voteMajority: 7
@@ -116,7 +116,7 @@ cases:
     title: "Hinson v. Lott"
     volume: "075"
     page: "148"
-    citation: "75 U.S. 148"
+    usCite: "75 U.S. 148"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1869"
     voteMajority: 7

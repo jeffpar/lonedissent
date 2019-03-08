@@ -8,7 +8,7 @@ cases:
     title: "Parsons v. Bedford"
     volume: "028"
     page: "433"
-    citation: "28 U.S. 433"
+    usCite: "28 U.S. 433"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 9, 1830"
     voteMajority: 6
@@ -20,7 +20,7 @@ cases:
     title: "United States v. Bailey"
     volume: "034"
     page: "238"
-    citation: "34 U.S. 238"
+    usCite: "34 U.S. 238"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 20, 1835"
     voteMajority: 5
@@ -32,7 +32,7 @@ cases:
     title: "Boone v. Chiles"
     volume: "035"
     page: "177"
-    citation: "35 U.S. 177"
+    usCite: "35 U.S. 177"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 3, 1836"
     voteMajority: 4
@@ -44,7 +44,7 @@ cases:
     title: "Prigg v. Pennsylvania"
     volume: "041"
     page: "539"
-    citation: "41 U.S. 539"
+    usCite: "41 U.S. 539"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 1, 1842"
     voteMajority: 8
@@ -56,7 +56,7 @@ cases:
     title: "United States v. Linn"
     volume: "042"
     page: "104"
-    citation: "42 U.S. 104"
+    usCite: "42 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Thursday, January 26, 1843"
     voteMajority: 6
@@ -68,7 +68,7 @@ cases:
     title: "Bronson v. Kinzie"
     volume: "042"
     page: "311"
-    citation: "42 U.S. 311"
+    usCite: "42 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Thursday, February 23, 1843"
     voteMajority: 5
@@ -80,7 +80,7 @@ cases:
     title: "Aldridge v. Williams"
     volume: "044"
     page: "009"
-    citation: "44 U.S. 9"
+    usCite: "44 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Friday, December 20, 1844"
     voteMajority: 6
@@ -92,7 +92,7 @@ cases:
     title: "Lessee of Croghan v. Nelson"
     volume: "044"
     page: "187"
-    citation: "44 U.S. 187"
+    usCite: "44 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1845"
     voteMajority: 6
@@ -104,7 +104,7 @@ cases:
     title: "Kendall v. Stokes"
     volume: "044"
     page: "087"
-    citation: "44 U.S. 87"
+    usCite: "44 U.S. 87"
     pdfSource: "loc"
     dateDecision: "Friday, January 10, 1845"
     voteMajority: 6
@@ -116,7 +116,7 @@ cases:
     title: "Gratiot v. United States"
     volume: "045"
     page: "080"
-    citation: "45 U.S. 80"
+    usCite: "45 U.S. 80"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 14, 1846"
     voteMajority: 7
@@ -128,7 +128,7 @@ cases:
     title: "Fox v. Ohio"
     volume: "046"
     page: "410"
-    citation: "46 U.S. 410"
+    usCite: "46 U.S. 410"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1847"
     voteMajority: 8
@@ -140,7 +140,7 @@ cases:
     title: "Lewis ex rel. Longworth v. Lewis"
     volume: "048"
     page: "776"
-    citation: "48 U.S. 776"
+    usCite: "48 U.S. 776"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 13, 1849"
     voteMajority: 8
@@ -152,7 +152,7 @@ cases:
     title: "Bissell v. Penrose"
     volume: "049"
     page: "317"
-    citation: "49 U.S. 317"
+    usCite: "49 U.S. 317"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 22, 1850"
     voteMajority: 7
@@ -164,7 +164,7 @@ cases:
     title: "Le Roy v. Beard"
     volume: "049"
     page: "451"
-    citation: "49 U.S. 451"
+    usCite: "49 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 19, 1850"
     voteMajority: 7
@@ -176,7 +176,7 @@ cases:
     title: "Mills v. County of St. Clair"
     volume: "049"
     page: "569"
-    citation: "49 U.S. 569"
+    usCite: "49 U.S. 569"
     pdfSource: "loc"
     dateDecision: "Thursday, February 21, 1850"
     voteMajority: 7
@@ -188,7 +188,7 @@ cases:
     title: "Fleming v. Page"
     volume: "050"
     page: "603"
-    citation: "50 U.S. 603"
+    usCite: "50 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Friday, May 3, 1850"
     voteMajority: 7
@@ -200,7 +200,7 @@ cases:
     title: "Moore v. Illinois"
     volume: "055"
     page: "013"
-    citation: "55 U.S. 13"
+    usCite: "55 U.S. 13"
     pdfSource: "loc"
     dateDecision: "Tuesday, December 21, 1852"
     voteMajority: 7
@@ -212,7 +212,7 @@ cases:
     title: "Silsby v. Foote"
     volume: "055"
     page: "218"
-    citation: "55 U.S. 218"
+    usCite: "55 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 11, 1853"
     voteMajority: 7
@@ -224,7 +224,7 @@ cases:
     title: "United States v. Dawson"
     volume: "056"
     page: "467"
-    citation: "56 U.S. 467"
+    usCite: "56 U.S. 467"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 31, 1854"
     voteMajority: 8
@@ -236,7 +236,7 @@ cases:
     title: "United States ex rel. Goodrich v. Guthrie"
     volume: "058"
     page: "284"
-    citation: "58 U.S. 284"
+    usCite: "58 U.S. 284"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 6, 1855"
     voteMajority: 8
@@ -248,7 +248,7 @@ cases:
     title: "Pennsylvania v. Wheeling &amp; Belmont Bridge Co."
     volume: "059"
     page: "421"
-    citation: "59 U.S. 421"
+    usCite: "59 U.S. 421"
     pdfSource: "loc"
     dateDecision: "Monday, April 21, 1856"
     voteMajority: 8
@@ -260,7 +260,7 @@ cases:
     title: "Bryan v. Forsyth"
     volume: "060"
     page: "334"
-    citation: "60 U.S. 334"
+    usCite: "60 U.S. 334"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
     voteMajority: 8
@@ -272,7 +272,7 @@ cases:
     title: "Ballance v. Papin"
     volume: "060"
     page: "342"
-    citation: "60 U.S. 342"
+    usCite: "60 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Thursday, March 5, 1857"
     voteMajority: 8
@@ -284,7 +284,7 @@ cases:
     title: "Dynes v. Hoover"
     volume: "061"
     page: "065"
-    citation: "61 U.S. 65"
+    usCite: "61 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1858"
     voteMajority: 8

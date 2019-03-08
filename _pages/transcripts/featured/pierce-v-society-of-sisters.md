@@ -7,10 +7,12 @@ cases:
     termId: "1924-10"
     title: "Pierce v. Society of Sisters"
     docket: "583"
-    citation: "268 U.S. 510"
+    usCite: "268 U.S. 510"
     dateArgument: "Monday, March 16, 1925"
     dateDecision: "Monday, June 1, 1925"
 ---
+
+### Transcript of Oral Argument on Monday, March 16, 1925
 
 <div style="text-align:justify;width:75%;margin:auto;">
   <p><b>MR. GUTHRIE</b>:  May it please the Court.</p>

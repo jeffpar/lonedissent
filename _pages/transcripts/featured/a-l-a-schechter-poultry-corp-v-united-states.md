@@ -7,10 +7,12 @@ cases:
     termId: "1934-10"
     title: "A. L. A. Schechter Poultry Corp. v. United States"
     docket: "854"
-    citation: "295 U.S. 495"
+    usCite: "295 U.S. 495"
     dateArgument: "Thursday, May 2, 1935"
     dateDecision: "Monday, May 27, 1935"
 ---
+
+### Transcript of Oral Argument on Thursday, May 2, 1935
 
 <div style="text-align:justify;width:75%;margin:auto;">
   <p><b>MR. REED</b>: May it please the Court.</p>

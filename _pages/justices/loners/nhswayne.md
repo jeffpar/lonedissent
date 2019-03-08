@@ -8,7 +8,7 @@ cases:
     title: "Mussina v. Cavazos"
     volume: "073"
     page: "355"
-    citation: "73 U.S. 355"
+    usCite: "73 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1867"
     voteMajority: 7
@@ -20,7 +20,7 @@ cases:
     title: "Grant v. Strong"
     volume: "085"
     page: "623"
-    citation: "85 U.S. 623"
+    usCite: "85 U.S. 623"
     pdfSource: "loc"
     dateDecision: "Monday, January 12, 1874"
     voteMajority: 7
@@ -32,7 +32,7 @@ cases:
     title: "Twenty per Cent. Cases"
     volume: "087"
     page: "179"
-    citation: "87 U.S. 179"
+    usCite: "87 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Monday, May 4, 1874"
     voteMajority: 8
@@ -42,10 +42,10 @@ cases:
   - id: "1879-129"
     termId: "1879-10"
     title: "Cowdrey v. Vandenburgh"
+    docket: "1076"
     volume: "101"
     page: "572"
-    docket: "1076"
-    citation: "101 U.S. 572"
+    usCite: "101 U.S. 572"
     pdfSource: "loc"
     dateDecision: "Monday, March 8, 1880"
     voteMajority: 8
@@ -55,10 +55,10 @@ cases:
   - id: "1879-156"
     termId: "1879-10"
     title: "Railroad Co. v. Alabama"
+    docket: "22"
     volume: "101"
     page: "832"
-    docket: "22"
-    citation: "101 U.S. 832"
+    usCite: "101 U.S. 832"
     pdfSource: "loc"
     dateDecision: "Monday, March 29, 1880"
     voteMajority: 7

@@ -8,7 +8,7 @@ cases:
     title: "Cooke v. United States"
     volume: "069"
     page: "218"
-    citation: "69 U.S. 218"
+    usCite: "69 U.S. 218"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 28, 1864"
     voteMajority: 8
@@ -20,7 +20,7 @@ cases:
     title: "Campbell v. Read"
     volume: "069"
     page: "198"
-    citation: "69 U.S. 198"
+    usCite: "69 U.S. 198"
     pdfSource: "loc"
     dateDecision: "Monday, January 23, 1865"
     voteMajority: 8
@@ -32,7 +32,7 @@ cases:
     title: "The Circassian"
     volume: "069"
     page: "135"
-    citation: "69 U.S. 135"
+    usCite: "69 U.S. 135"
     pdfSource: "loc"
     dateDecision: "Monday, January 30, 1865"
     voteMajority: 7
@@ -44,7 +44,7 @@ cases:
     title: "Banks v. Ogden"
     volume: "069"
     page: "057"
-    citation: "69 U.S. 57"
+    usCite: "69 U.S. 57"
     pdfSource: "loc"
     dateDecision: "Monday, February 6, 1865"
     voteMajority: 8
@@ -56,7 +56,7 @@ cases:
     title: "The Andromeda"
     volume: "069"
     page: "481"
-    citation: "69 U.S. 481"
+    usCite: "69 U.S. 481"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1865"
     voteMajority: 8
@@ -68,7 +68,7 @@ cases:
     title: "Milwaukie &amp; Minnesota R. Co. v. Soutter"
     volume: "069"
     page: "440"
-    citation: "69 U.S. 440"
+    usCite: "69 U.S. 440"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1865"
     voteMajority: 8
@@ -80,7 +80,7 @@ cases:
     title: "The Venice"
     volume: "069"
     page: "258"
-    citation: "69 U.S. 258"
+    usCite: "69 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, February 27, 1865"
     voteMajority: 8
@@ -92,7 +92,7 @@ cases:
     title: "The Slavers (Kate)"
     volume: "069"
     page: "350"
-    citation: "69 U.S. 350"
+    usCite: "69 U.S. 350"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 8, 1865"
     voteMajority: 8
@@ -104,7 +104,7 @@ cases:
     title: "The Baigorry"
     volume: "069"
     page: "474"
-    citation: "69 U.S. 474"
+    usCite: "69 U.S. 474"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 8, 1865"
     voteMajority: 8
@@ -116,7 +116,7 @@ cases:
     title: "Mrs. Alexander&apos;s Cotton"
     volume: "069"
     page: "404"
-    citation: "69 U.S. 404"
+    usCite: "69 U.S. 404"
     pdfSource: "loc"
     dateDecision: "Friday, March 10, 1865"
     voteMajority: 8
@@ -126,10 +126,10 @@ cases:
   - id: "1864-060"
     termId: "1864-12"
     title: "ex parte MILWAUKIE AND MINNESOTA RAILROAD COMPANY"
+    docket: "5 Orig."
     volume: "069"
     page: "443"
-    docket: "5 Orig."
-    citation: "69 U.S. 443n"
+    usCite: "69 U.S. 443n"
     pdfSource: "loc"
     dateDecision: "Monday, February 20, 1865"
     voteMajority: 8
@@ -141,7 +141,7 @@ cases:
     title: "Sparrow v. Strong"
     volume: "070"
     page: "097"
-    citation: "70 U.S. 97"
+    usCite: "70 U.S. 97"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1866"
     voteMajority: 9
@@ -153,7 +153,7 @@ cases:
     title: "The Josephine"
     volume: "070"
     page: "083"
-    citation: "70 U.S. 83"
+    usCite: "70 U.S. 83"
     pdfSource: "loc"
     dateDecision: "Monday, January 15, 1866"
     voteMajority: 9
@@ -165,7 +165,7 @@ cases:
     title: "Cheang-Kee v. United States"
     volume: "070"
     page: "320"
-    citation: "70 U.S. 320"
+    usCite: "70 U.S. 320"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1866"
     voteMajority: 9
@@ -177,7 +177,7 @@ cases:
     title: "The Herald"
     volume: "070"
     page: "768"
-    citation: "70 U.S. 768"
+    usCite: "70 U.S. 768"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1866"
     voteMajority: 9
@@ -189,7 +189,7 @@ cases:
     title: "Castro v. United States"
     volume: "070"
     page: "046"
-    citation: "70 U.S. 46"
+    usCite: "70 U.S. 46"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1866"
     voteMajority: 9
@@ -201,7 +201,7 @@ cases:
     title: "McGuire v. Commonwealth"
     volume: "070"
     page: "382"
-    citation: "70 U.S. 382"
+    usCite: "70 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1866"
     voteMajority: 9
@@ -213,7 +213,7 @@ cases:
     title: "Barrel v. Transportation Co."
     volume: "070"
     page: "424"
-    citation: "70 U.S. 424"
+    usCite: "70 U.S. 424"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1866"
     voteMajority: 9
@@ -225,7 +225,7 @@ cases:
     title: "The Douro"
     volume: "070"
     page: "564"
-    citation: "70 U.S. 564"
+    usCite: "70 U.S. 564"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1866"
     voteMajority: 9
@@ -237,7 +237,7 @@ cases:
     title: "Washington County v. Durant"
     volume: "074"
     page: "694"
-    citation: "74 U.S. 694"
+    usCite: "74 U.S. 694"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1866"
     voteMajority: 9
@@ -249,7 +249,7 @@ cases:
     title: "Lewis v. Campau"
     volume: "070"
     page: "106"
-    citation: "70 U.S. 106"
+    usCite: "70 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1866"
     voteMajority: 9
@@ -261,7 +261,7 @@ cases:
     title: "The Bermuda"
     volume: "070"
     page: "514"
-    citation: "70 U.S. 514"
+    usCite: "70 U.S. 514"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1866"
     voteMajority: 9
@@ -273,7 +273,7 @@ cases:
     title: "Green v. Van Buskerk"
     volume: "070"
     page: "448"
-    citation: "70 U.S. 448"
+    usCite: "70 U.S. 448"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1866"
     voteMajority: 9
@@ -285,7 +285,7 @@ cases:
     title: "The Hart"
     volume: "070"
     page: "559"
-    citation: "70 U.S. 559"
+    usCite: "70 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Monday, March 26, 1866"
     voteMajority: 9
@@ -297,7 +297,7 @@ cases:
     title: "Mining Co. v. Boggs"
     volume: "070"
     page: "304"
-    citation: "70 U.S. 304"
+    usCite: "70 U.S. 304"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 3, 1866"
     voteMajority: 9
@@ -309,7 +309,7 @@ cases:
     title: "Minnesota Co. v. Chamberlain"
     volume: "070"
     page: "704"
-    citation: "70 U.S. 704"
+    usCite: "70 U.S. 704"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 3, 1866"
     voteMajority: 9
@@ -320,7 +320,7 @@ cases:
     termId: "1865-12"
     title: "Dayton v. United States"
     docket: "144"
-    citation: "131 U.S. lxxx"
+    usCite: "131 U.S. lxxx"
     pdfSource: "loc"
     dateDecision: "Monday, February 26, 1866"
     voteMajority: 9
@@ -331,7 +331,7 @@ cases:
     termId: "1865-12"
     title: "Milwaukee &amp; Minnesota R. Co. v. Howard"
     docket: "149"
-    citation: "131 U.S. lxxxi"
+    usCite: "131 U.S. lxxxi"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 3, 1866"
     voteMajority: 9
@@ -342,7 +342,7 @@ cases:
     termId: "1865-12"
     title: "United States v. Armejo"
     docket: "164"
-    citation: "131 U.S. lxxxii"
+    usCite: "131 U.S. lxxxii"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 3, 1866"
     voteMajority: 9
@@ -354,7 +354,7 @@ cases:
     title: "McGee v. Mathis"
     volume: "071"
     page: "143"
-    citation: "71 U.S. 143"
+    usCite: "71 U.S. 143"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 26, 1866"
     voteMajority: 9
@@ -366,7 +366,7 @@ cases:
     title: "Walker v. United States"
     volume: "071"
     page: "163"
-    citation: "71 U.S. 163"
+    usCite: "71 U.S. 163"
     pdfSource: "loc"
     dateDecision: "Wednesday, December 26, 1866"
     voteMajority: 9
@@ -378,7 +378,7 @@ cases:
     title: "The Springbok"
     volume: "072"
     page: "001"
-    citation: "72 U.S. 1"
+    usCite: "72 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Thursday, January 3, 1867"
     voteMajority: 9
@@ -390,7 +390,7 @@ cases:
     title: "Davidson v. Lanier"
     volume: "071"
     page: "447"
-    citation: "71 U.S. 447"
+    usCite: "71 U.S. 447"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1867"
     voteMajority: 9
@@ -402,7 +402,7 @@ cases:
     title: "Garrison v. Cass County"
     volume: "072"
     page: "823"
-    citation: "72 U.S. 823"
+    usCite: "72 U.S. 823"
     pdfSource: "loc"
     dateDecision: "Friday, January 18, 1867"
     voteMajority: 9
@@ -414,7 +414,7 @@ cases:
     title: "Brown v. Wiley"
     volume: "071"
     page: "165"
-    citation: "71 U.S. 165"
+    usCite: "71 U.S. 165"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1867"
     voteMajority: 9
@@ -426,7 +426,7 @@ cases:
     title: "Alviso v. United States"
     volume: "072"
     page: "824"
-    citation: "72 U.S. 824"
+    usCite: "72 U.S. 824"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1867"
     voteMajority: 9
@@ -438,7 +438,7 @@ cases:
     title: "Brobst v. Brobst"
     volume: "071"
     page: "002"
-    citation: "71 U.S. 2"
+    usCite: "71 U.S. 2"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 22, 1867"
     voteMajority: 9
@@ -450,7 +450,7 @@ cases:
     title: "License Tax Cases"
     volume: "072"
     page: "462"
-    citation: "72 U.S. 462"
+    usCite: "72 U.S. 462"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1867"
     voteMajority: 9
@@ -462,7 +462,7 @@ cases:
     title: "German v. United States"
     volume: "072"
     page: "825"
-    citation: "72 U.S. 825"
+    usCite: "72 U.S. 825"
     pdfSource: "loc"
     dateDecision: "Monday, January 28, 1867"
     voteMajority: 9
@@ -474,7 +474,7 @@ cases:
     title: "Sparrow v. Strong"
     volume: "071"
     page: "584"
-    citation: "71 U.S. 584"
+    usCite: "71 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Monday, February 4, 1867"
     voteMajority: 9
@@ -486,7 +486,7 @@ cases:
     title: "Insurance Co. v. Ritchie"
     volume: "072"
     page: "541"
-    citation: "72 U.S. 541"
+    usCite: "72 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Monday, February 18, 1867"
     voteMajority: 9
@@ -498,7 +498,7 @@ cases:
     title: "Jones v. La Vallette"
     volume: "072"
     page: "579"
-    citation: "72 U.S. 579"
+    usCite: "72 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1867"
     voteMajority: 9
@@ -510,7 +510,7 @@ cases:
     title: "Seymour v. Freer"
     volume: "072"
     page: "822"
-    citation: "72 U.S. 822"
+    usCite: "72 U.S. 822"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 26, 1867"
     voteMajority: 9
@@ -522,7 +522,7 @@ cases:
     title: "Mississippi v. Johnson"
     volume: "071"
     page: "475"
-    citation: "71 U.S. 475"
+    usCite: "71 U.S. 475"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1867"
     voteMajority: 9
@@ -534,7 +534,7 @@ cases:
     title: "The Peterhoff"
     volume: "072"
     page: "028"
-    citation: "72 U.S. 28"
+    usCite: "72 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1867"
     voteMajority: 9
@@ -546,7 +546,7 @@ cases:
     title: "The Gray Jacket"
     volume: "072"
     page: "370"
-    citation: "72 U.S. 370"
+    usCite: "72 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1867"
     voteMajority: 9
@@ -558,7 +558,7 @@ cases:
     title: "Ryan v. Thomas"
     volume: "071"
     page: "603"
-    citation: "71 U.S. 603"
+    usCite: "71 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1867"
     voteMajority: 9
@@ -570,7 +570,7 @@ cases:
     title: "Pervear v. Commonwealth"
     volume: "072"
     page: "475"
-    citation: "72 U.S. 475"
+    usCite: "72 U.S. 475"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1867"
     voteMajority: 9
@@ -582,7 +582,7 @@ cases:
     title: "Withenbury v. United States"
     volume: "072"
     page: "819"
-    citation: "72 U.S. 819"
+    usCite: "72 U.S. 819"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1867"
     voteMajority: 8
@@ -594,7 +594,7 @@ cases:
     title: "The Dashing Wave"
     volume: "072"
     page: "170"
-    citation: "72 U.S. 170"
+    usCite: "72 U.S. 170"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1867"
     voteMajority: 9
@@ -606,7 +606,7 @@ cases:
     title: "The Science"
     volume: "072"
     page: "178"
-    citation: "72 U.S. 178"
+    usCite: "72 U.S. 178"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1867"
     voteMajority: 9
@@ -618,7 +618,7 @@ cases:
     title: "The Volant"
     volume: "072"
     page: "179"
-    citation: "72 U.S. 179"
+    usCite: "72 U.S. 179"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1867"
     voteMajority: 9
@@ -630,7 +630,7 @@ cases:
     title: "The Teresita"
     volume: "072"
     page: "180"
-    citation: "72 U.S. 180"
+    usCite: "72 U.S. 180"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1867"
     voteMajority: 9
@@ -642,7 +642,7 @@ cases:
     title: "The Jenny"
     volume: "072"
     page: "183"
-    citation: "72 U.S. 183"
+    usCite: "72 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1867"
     voteMajority: 9
@@ -654,7 +654,7 @@ cases:
     title: "The Pearl"
     volume: "072"
     page: "574"
-    citation: "72 U.S. 574"
+    usCite: "72 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1867"
     voteMajority: 9
@@ -666,7 +666,7 @@ cases:
     title: "The Sir William Peel"
     volume: "072"
     page: "517"
-    citation: "72 U.S. 517"
+    usCite: "72 U.S. 517"
     pdfSource: "loc"
     dateDecision: "Thursday, May 16, 1867"
     voteMajority: 9
@@ -676,10 +676,10 @@ cases:
   - id: "1866-129"
     termId: "1866-12"
     title: "Davidson v. Lanier"
+    docket: "52"
     volume: "071"
     page: "458"
-    docket: "52"
-    citation: "71 U.S. 458"
+    usCite: "71 U.S. 458"
     pdfSource: "loc"
     dateDecision: "Monday, January 14, 1867"
     voteMajority: 9
@@ -689,10 +689,10 @@ cases:
   - id: "1866-131"
     termId: "1866-12"
     title: "Townsend v. Burbank"
+    docket: "181"
     volume: "072"
     page: "337"
-    docket: "181"
-    citation: "72 U.S. 337"
+    usCite: "72 U.S. 337"
     pdfSource: "loc"
     dateDecision: "Monday, May 13, 1867"
     voteMajority: 9
@@ -702,10 +702,10 @@ cases:
   - id: "1866-135"
     termId: "1866-12"
     title: "United States v. Maryland"
+    docket: "187"
     volume: "154"
     page: "552"
-    docket: "187"
-    citation: "154 U.S. 552"
+    usCite: "154 U.S. 552"
     pdfSource: "loc"
     dateDecision: "Thursday, May 16, 1867"
     voteMajority: 9
@@ -715,10 +715,10 @@ cases:
   - id: "1866-138"
     termId: "1866-12"
     title: "LICENSE TAX CASES: HUGH CARNEY v. STATE OF IOWA"
+    docket: "396"
     volume: "072"
     page: "480"
-    docket: "396"
-    citation: "72 U.S. 480n"
+    usCite: "72 U.S. 480n"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1867"
     voteMajority: 9
@@ -728,10 +728,10 @@ cases:
   - id: "1866-140"
     termId: "1866-12"
     title: "Connellsville &amp; Southern Pennsylvania R. Co. v. Baltimore"
+    docket: "413"
     volume: "154"
     page: "553"
-    docket: "413"
-    citation: "154 U.S. 553"
+    usCite: "154 U.S. 553"
     pdfSource: "loc"
     dateDecision: "Monday, April 29, 1867"
     voteMajority: 9
@@ -743,7 +743,7 @@ cases:
     title: "Steamship Co. v. Portwardens"
     volume: "073"
     page: "031"
-    citation: "73 U.S. 31"
+    usCite: "73 U.S. 31"
     pdfSource: "loc"
     dateDecision: "Monday, December 30, 1867"
     voteMajority: 8
@@ -755,7 +755,7 @@ cases:
     title: "The Grace Girdler"
     volume: "073"
     page: "441"
-    citation: "73 U.S. 441"
+    usCite: "73 U.S. 441"
     pdfSource: "loc"
     dateDecision: "Monday, December 30, 1867"
     voteMajority: 8
@@ -767,7 +767,7 @@ cases:
     title: "The Sea Witch"
     volume: "073"
     page: "242"
-    citation: "73 U.S. 242"
+    usCite: "73 U.S. 242"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1868"
     voteMajority: 8
@@ -779,7 +779,7 @@ cases:
     title: "Prentice v. Pickersgill"
     volume: "073"
     page: "511"
-    citation: "73 U.S. 511"
+    usCite: "73 U.S. 511"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1868"
     voteMajority: 8
@@ -791,7 +791,7 @@ cases:
     title: "West v. Aurora City"
     volume: "073"
     page: "139"
-    citation: "73 U.S. 139"
+    usCite: "73 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1868"
     voteMajority: 8
@@ -803,7 +803,7 @@ cases:
     title: "The Adela"
     volume: "073"
     page: "266"
-    citation: "73 U.S. 266"
+    usCite: "73 U.S. 266"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1868"
     voteMajority: 8
@@ -815,7 +815,7 @@ cases:
     title: "Providence Rubber Co. v. Goodyear"
     volume: "073"
     page: "153"
-    citation: "73 U.S. 153"
+    usCite: "73 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1868"
     voteMajority: 8
@@ -827,7 +827,7 @@ cases:
     title: "Ex parte McCardle"
     volume: "073"
     page: "318"
-    citation: "73 U.S. 318"
+    usCite: "73 U.S. 318"
     pdfSource: "loc"
     dateDecision: "Monday, February 17, 1868"
     voteMajority: 8
@@ -839,7 +839,7 @@ cases:
     title: "Millingar v. Hartupee"
     volume: "073"
     page: "258"
-    citation: "73 U.S. 258"
+    usCite: "73 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1868"
     voteMajority: 8
@@ -851,7 +851,7 @@ cases:
     title: "Silver v. Ladd"
     volume: "073"
     page: "440"
-    citation: "73 U.S. 440"
+    usCite: "73 U.S. 440"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1868"
     voteMajority: 7
@@ -863,7 +863,7 @@ cases:
     title: "Georgia v. Grant"
     volume: "073"
     page: "241"
-    citation: "73 U.S. 241"
+    usCite: "73 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1868"
     voteMajority: 8
@@ -875,7 +875,7 @@ cases:
     title: "Union Ins. Co. v. United States"
     volume: "073"
     page: "759"
-    citation: "73 U.S. 759"
+    usCite: "73 U.S. 759"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 25, 1868"
     voteMajority: 8
@@ -887,7 +887,7 @@ cases:
     title: "Armstrong&apos;s Foundry"
     volume: "073"
     page: "766"
-    citation: "73 U.S. 766"
+    usCite: "73 U.S. 766"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 25, 1868"
     voteMajority: 7
@@ -899,7 +899,7 @@ cases:
     title: "Insurance Co. v. Webster"
     volume: "073"
     page: "129"
-    citation: "73 U.S. 129"
+    usCite: "73 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1868"
     voteMajority: 8
@@ -909,10 +909,10 @@ cases:
   - id: "1867-103"
     termId: "1867-12"
     title: "ST. LOUIS STREET FOUNDRY v. UNITED STATES"
+    docket: "76"
     volume: "073"
     page: "770"
-    docket: "76"
-    citation: "73 U.S. 770n"
+    usCite: "73 U.S. 770n"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 25, 1868"
     voteMajority: 8
@@ -922,10 +922,10 @@ cases:
   - id: "1867-107"
     termId: "1867-12"
     title: "Hunt v. Bender"
+    docket: "103"
     volume: "154"
     page: "556"
-    docket: "103"
-    citation: "154 U.S. 556"
+    usCite: "154 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1868"
     voteMajority: 8
@@ -935,10 +935,10 @@ cases:
   - id: "1867-110"
     termId: "1867-12"
     title: "United States v. Bales of Cotton Marked J. H. B."
+    docket: "146"
     volume: "154"
     page: "556"
-    docket: "146"
-    citation: "154 U.S. 556"
+    usCite: "154 U.S. 556"
     pdfSource: "loc"
     dateDecision: "Monday, March 30, 1868"
     voteMajority: 8
@@ -949,7 +949,7 @@ cases:
     termId: "1867-12"
     title: "Crandall v. Nevada"
     docket: "85"
-    citation: "131 U.S. lxxxiii"
+    usCite: "131 U.S. lxxxiii"
     pdfSource: "loc"
     dateDecision: "Monday, December 23, 1867"
     voteMajority: 8
@@ -960,7 +960,7 @@ cases:
     termId: "1867-12"
     title: "Patterson v. Hoa&apos;s Executrix"
     docket: "326"
-    citation: "131 U.S. lxxxviii"
+    usCite: "131 U.S. lxxxviii"
     pdfSource: "loc"
     dateDecision: "Friday, March 27, 1868"
     voteMajority: 8
@@ -971,7 +971,7 @@ cases:
     termId: "1867-12"
     title: "Marshall v. Knott"
     docket: "209"
-    citation: "131 U.S. ccv"
+    usCite: "131 U.S. ccv"
     pdfSource: "loc"
     dateDecision: "Monday, February 24, 1868"
     voteMajority: 8
@@ -983,7 +983,7 @@ cases:
     title: "Banks v. Mayor"
     volume: "074"
     page: "016"
-    citation: "74 U.S. 16"
+    usCite: "74 U.S. 16"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1869"
     voteMajority: 8
@@ -995,7 +995,7 @@ cases:
     title: "Bank v. Supervisors"
     volume: "074"
     page: "026"
-    citation: "74 U.S. 26"
+    usCite: "74 U.S. 26"
     pdfSource: "loc"
     dateDecision: "Monday, January 18, 1869"
     voteMajority: 8
@@ -1007,7 +1007,7 @@ cases:
     title: "The Grapeshot"
     volume: "074"
     page: "563"
-    citation: "74 U.S. 563"
+    usCite: "74 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1869"
     voteMajority: 8
@@ -1019,7 +1019,7 @@ cases:
     title: "The Alicia"
     volume: "074"
     page: "571"
-    citation: "74 U.S. 571"
+    usCite: "74 U.S. 571"
     pdfSource: "loc"
     dateDecision: "Monday, January 25, 1869"
     voteMajority: 8
@@ -1031,7 +1031,7 @@ cases:
     title: "Cowles v. Mercer County"
     volume: "074"
     page: "118"
-    citation: "74 U.S. 118"
+    usCite: "74 U.S. 118"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1869"
     voteMajority: 8
@@ -1043,7 +1043,7 @@ cases:
     title: "Thomson v. Dean"
     volume: "074"
     page: "342"
-    citation: "74 U.S. 342"
+    usCite: "74 U.S. 342"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1869"
     voteMajority: 8
@@ -1055,7 +1055,7 @@ cases:
     title: "Palmer v. Donner"
     volume: "074"
     page: "541"
-    citation: "74 U.S. 541"
+    usCite: "74 U.S. 541"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1869"
     voteMajority: 8
@@ -1067,7 +1067,7 @@ cases:
     title: "Railroad Co. v. Harris"
     volume: "074"
     page: "574"
-    citation: "74 U.S. 574"
+    usCite: "74 U.S. 574"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1869"
     voteMajority: 8
@@ -1079,7 +1079,7 @@ cases:
     title: "Lane County v. Oregon"
     volume: "074"
     page: "071"
-    citation: "74 U.S. 71"
+    usCite: "74 U.S. 71"
     pdfSource: "loc"
     dateDecision: "Monday, February 8, 1869"
     voteMajority: 8
@@ -1091,7 +1091,7 @@ cases:
     title: "Bronson v. Rodes"
     volume: "074"
     page: "229"
-    citation: "74 U.S. 229"
+    usCite: "74 U.S. 229"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1869"
     voteMajority: 7
@@ -1103,7 +1103,7 @@ cases:
     title: "Butler v. Horwitz"
     volume: "074"
     page: "258"
-    citation: "74 U.S. 258"
+    usCite: "74 U.S. 258"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1869"
     voteMajority: 7
@@ -1115,7 +1115,7 @@ cases:
     title: "Twitchell v. Commonwealth"
     volume: "074"
     page: "321"
-    citation: "74 U.S. 321"
+    usCite: "74 U.S. 321"
     pdfSource: "loc"
     dateDecision: "Monday, April 5, 1869"
     voteMajority: 8
@@ -1127,7 +1127,7 @@ cases:
     title: "Ex parte McCardle"
     volume: "074"
     page: "506"
-    citation: "74 U.S. 506"
+    usCite: "74 U.S. 506"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1869"
     voteMajority: 8
@@ -1139,7 +1139,7 @@ cases:
     title: "United States v. Rosenburgh"
     volume: "074"
     page: "580"
-    citation: "74 U.S. 580"
+    usCite: "74 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1869"
     voteMajority: 8
@@ -1151,7 +1151,7 @@ cases:
     title: "Texas v. White"
     volume: "074"
     page: "700"
-    citation: "74 U.S. 700"
+    usCite: "74 U.S. 700"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1869"
     voteMajority: 7
@@ -1163,7 +1163,7 @@ cases:
     title: "Railroad Co. v. Bradleys"
     volume: "074"
     page: "575"
-    citation: "74 U.S. 575"
+    usCite: "74 U.S. 575"
     pdfSource: "loc"
     dateDecision: "Thursday, April 15, 1869"
     voteMajority: 8
@@ -1175,7 +1175,7 @@ cases:
     title: "Morris v. United States"
     volume: "074"
     page: "578"
-    citation: "74 U.S. 578"
+    usCite: "74 U.S. 578"
     pdfSource: "loc"
     dateDecision: "Thursday, April 15, 1869"
     voteMajority: 8
@@ -1187,7 +1187,7 @@ cases:
     title: "James v. Bank"
     volume: "074"
     page: "692"
-    citation: "74 U.S. 692"
+    usCite: "74 U.S. 692"
     pdfSource: "loc"
     dateDecision: "Thursday, April 15, 1869"
     voteMajority: 8
@@ -1199,7 +1199,7 @@ cases:
     title: "Blitz v. Brown"
     volume: "074"
     page: "693"
-    citation: "74 U.S. 693"
+    usCite: "74 U.S. 693"
     pdfSource: "loc"
     dateDecision: "Thursday, April 15, 1869"
     voteMajority: 8
@@ -1209,10 +1209,10 @@ cases:
   - id: "1868-091"
     termId: "1868-12"
     title: "Dutton v. Palairet"
+    docket: "184"
     volume: "154"
     page: "563"
-    docket: "184"
-    citation: "154 U.S. 563"
+    usCite: "154 U.S. 563"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1869"
     voteMajority: 8
@@ -1222,10 +1222,10 @@ cases:
   - id: "1868-092"
     termId: "1868-12"
     title: "Smith v. Washington Gas Light Co."
+    docket: "86"
     volume: "154"
     page: "559"
-    docket: "86"
-    citation: "154 U.S. 559"
+    usCite: "154 U.S. 559"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1869"
     voteMajority: 8
@@ -1236,7 +1236,7 @@ cases:
     termId: "1868-12"
     title: "Le More v. United States"
     docket: "107"
-    citation: "131 U.S. lxxxv"
+    usCite: "131 U.S. lxxxv"
     pdfSource: "loc"
     dateDecision: "Monday, March 22, 1869"
     voteMajority: 8
@@ -1247,7 +1247,7 @@ cases:
     termId: "1868-12"
     title: "Chicago v. Bigelow"
     docket: "183"
-    citation: "131 U.S. xciii"
+    usCite: "131 U.S. xciii"
     pdfSource: "loc"
     dateDecision: "Monday, April 12, 1869"
     voteMajority: 8
@@ -1257,10 +1257,10 @@ cases:
   - id: "1868-098"
     termId: "1868-12"
     title: "Davidson v. Starcher"
+    docket: "329"
     volume: "154"
     page: "566"
-    docket: "329"
-    citation: "154 U.S. 566"
+    usCite: "154 U.S. 566"
     pdfSource: "loc"
     dateDecision: "Monday, January 11, 1869"
     voteMajority: 8
@@ -1271,7 +1271,7 @@ cases:
     termId: "1868-12"
     title: "In re Virginia"
     docket: "11"
-    citation: "131 U.S. lxxxix"
+    usCite: "131 U.S. lxxxix"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1869"
     voteMajority: 8
@@ -1281,10 +1281,10 @@ cases:
   - id: "1868-102"
     termId: "1868-12"
     title: "Moulder v. Forrest"
+    docket: "371"
     volume: "154"
     page: "567"
-    docket: "371"
-    citation: "154 U.S. 567"
+    usCite: "154 U.S. 567"
     pdfSource: "loc"
     dateDecision: "Monday, February 15, 1869"
     voteMajority: 8
@@ -1295,7 +1295,7 @@ cases:
     termId: "1868-12"
     title: "American Wood Paper Co. v. Heft"
     docket: "154"
-    citation: "131 U.S. xcii"
+    usCite: "131 U.S. xcii"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1869"
     voteMajority: 8
@@ -1306,7 +1306,7 @@ cases:
     termId: "1868-12"
     title: "Lynch v. De Bernal"
     docket: "305"
-    citation: "131 U.S. xciv"
+    usCite: "131 U.S. xciv"
     pdfSource: "loc"
     dateDecision: "Friday, November 5, 1869"
     voteMajority: 8
@@ -1318,7 +1318,7 @@ cases:
     title: "Ex parte Yerger"
     volume: "075"
     page: "085"
-    citation: "75 U.S. 85"
+    usCite: "75 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, October 25, 1869"
     voteMajority: 7
@@ -1330,7 +1330,7 @@ cases:
     title: "Thorington v. Smith"
     volume: "075"
     page: "001"
-    citation: "75 U.S. 1"
+    usCite: "75 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1869"
     voteMajority: 8
@@ -1340,10 +1340,10 @@ cases:
   - id: "1869-007"
     termId: "1868-12"
     title: "Dean v. Younell&apos;s Administrator"
+    docket: "171"
     volume: "075"
     page: "014"
-    docket: "171"
-    citation: "75 U.S. 14"
+    usCite: "75 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Monday, November 1, 1869"
     voteMajority: 8
@@ -1355,7 +1355,7 @@ cases:
     title: "The Lucy"
     volume: "075"
     page: "307"
-    citation: "75 U.S. 307"
+    usCite: "75 U.S. 307"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1869"
     voteMajority: 8
@@ -1367,7 +1367,7 @@ cases:
     title: "United States v. Gilmore"
     volume: "075"
     page: "330"
-    citation: "75 U.S. 330"
+    usCite: "75 U.S. 330"
     pdfSource: "loc"
     dateDecision: "Monday, November 8, 1869"
     voteMajority: 8
@@ -1379,7 +1379,7 @@ cases:
     title: "Bronson v. Kimpton"
     volume: "075"
     page: "444"
-    citation: "75 U.S. 444"
+    usCite: "75 U.S. 444"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1869"
     voteMajority: 8
@@ -1391,7 +1391,7 @@ cases:
     title: "Texas v. Hardenberg"
     volume: "077"
     page: "068"
-    citation: "77 U.S. 68"
+    usCite: "77 U.S. 68"
     pdfSource: "loc"
     dateDecision: "Monday, November 29, 1869"
     voteMajority: 8
@@ -1403,7 +1403,7 @@ cases:
     title: "United States v. Dewitt"
     volume: "076"
     page: "041"
-    citation: "76 U.S. 41"
+    usCite: "76 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1870"
     voteMajority: 8
@@ -1415,7 +1415,7 @@ cases:
     title: "The Grapeshot"
     volume: "076"
     page: "129"
-    citation: "76 U.S. 129"
+    usCite: "76 U.S. 129"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1870"
     voteMajority: 7
@@ -1427,7 +1427,7 @@ cases:
     title: "Bennett v. Hunter"
     volume: "076"
     page: "326"
-    citation: "76 U.S. 326"
+    usCite: "76 U.S. 326"
     pdfSource: "loc"
     dateDecision: "Monday, March 21, 1870"
     voteMajority: 7
@@ -1439,7 +1439,7 @@ cases:
     title: "Bushnell v. Kennedy"
     volume: "076"
     page: "387"
-    citation: "76 U.S. 387"
+    usCite: "76 U.S. 387"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1870"
     voteMajority: 9
@@ -1451,7 +1451,7 @@ cases:
     title: "The Nonesuch"
     volume: "076"
     page: "504"
-    citation: "76 U.S. 504"
+    usCite: "76 U.S. 504"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1870"
     voteMajority: 7
@@ -1463,7 +1463,7 @@ cases:
     title: "United States v. Padelford"
     volume: "076"
     page: "531"
-    citation: "76 U.S. 531"
+    usCite: "76 U.S. 531"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
     voteMajority: 9
@@ -1475,7 +1475,7 @@ cases:
     title: "Thomson v. Pacific R. Co."
     volume: "076"
     page: "579"
-    citation: "76 U.S. 579"
+    usCite: "76 U.S. 579"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
     voteMajority: 9
@@ -1487,7 +1487,7 @@ cases:
     title: "Public Schools v. Walker"
     volume: "076"
     page: "603"
-    citation: "76 U.S. 603"
+    usCite: "76 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Monday, March 7, 1870"
     voteMajority: 8
@@ -1499,7 +1499,7 @@ cases:
     title: "Worthy v. Commissioners"
     volume: "076"
     page: "611"
-    citation: "76 U.S. 611"
+    usCite: "76 U.S. 611"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1870"
     voteMajority: 7
@@ -1511,7 +1511,7 @@ cases:
     title: "Downham v. Alexandria"
     volume: "076"
     page: "659"
-    citation: "76 U.S. 659"
+    usCite: "76 U.S. 659"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
     voteMajority: 9
@@ -1523,7 +1523,7 @@ cases:
     title: "Herndon v. Howard"
     volume: "076"
     page: "664"
-    citation: "76 U.S. 664"
+    usCite: "76 U.S. 664"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
     voteMajority: 9
@@ -1533,10 +1533,10 @@ cases:
   - id: "1869-133"
     termId: "1869-12"
     title: "The Guy"
+    docket: "37"
     volume: "076"
     page: "758"
-    docket: "37"
-    citation: "76 U.S. 758"
+    usCite: "76 U.S. 758"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1870"
     voteMajority: 9
@@ -1548,7 +1548,7 @@ cases:
     title: "Gleason v. Florida"
     volume: "076"
     page: "779"
-    citation: "76 U.S. 779"
+    usCite: "76 U.S. 779"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1870"
     voteMajority: 9
@@ -1560,7 +1560,7 @@ cases:
     title: "Pierce v. Cox"
     volume: "076"
     page: "786"
-    citation: "76 U.S. 786"
+    usCite: "76 U.S. 786"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1870"
     voteMajority: 9
@@ -1572,7 +1572,7 @@ cases:
     title: "Bourne v. Goodyear"
     volume: "076"
     page: "811"
-    citation: "76 U.S. 811"
+    usCite: "76 U.S. 811"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1870"
     voteMajority: 9
@@ -1584,7 +1584,7 @@ cases:
     title: "Veazie v. Fenno"
     volume: "075"
     page: "533"
-    citation: "75 U.S. 533"
+    usCite: "75 U.S. 533"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1869"
     voteMajority: 6
@@ -1596,7 +1596,7 @@ cases:
     title: "McVeigh v. United States"
     volume: "075"
     page: "640"
-    citation: "75 U.S. 640"
+    usCite: "75 U.S. 640"
     pdfSource: "loc"
     dateDecision: "Monday, January 31, 1870"
     voteMajority: 8
@@ -1608,7 +1608,7 @@ cases:
     title: "Hepburn v. Griswold"
     volume: "075"
     page: "603"
-    citation: "75 U.S. 603"
+    usCite: "75 U.S. 603"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1870"
     voteMajority: 4
@@ -1620,7 +1620,7 @@ cases:
     title: "Broderick&apos;s Executor v. Magraw"
     volume: "075"
     page: "639"
-    citation: "75 U.S. 639"
+    usCite: "75 U.S. 639"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1870"
     voteMajority: 7
@@ -1632,7 +1632,7 @@ cases:
     title: "Boylan v. United States"
     volume: "077"
     page: "058"
-    citation: "77 U.S. 58"
+    usCite: "77 U.S. 58"
     pdfSource: "loc"
     dateDecision: "Monday, March 28, 1870"
     voteMajority: 8
@@ -1644,7 +1644,7 @@ cases:
     title: "McKee v. Rains"
     volume: "077"
     page: "022"
-    citation: "77 U.S. 22"
+    usCite: "77 U.S. 22"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1870"
     voteMajority: 9
@@ -1655,7 +1655,7 @@ cases:
     termId: "1869-12"
     title: "Latham v. United States"
     docket: "6"
-    citation: "131 U.S. xcvii"
+    usCite: "131 U.S. xcvii"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1869"
     voteMajority: 8
@@ -1666,7 +1666,7 @@ cases:
     termId: "1869-12"
     title: "Cox v. United States ex rel. McGarrahan"
     docket: "337"
-    citation: "131 U.S. c"
+    usCite: "131 U.S. c"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 19, 1870"
     voteMajority: 8
@@ -1677,7 +1677,7 @@ cases:
     termId: "1869-12"
     title: "Texas v. White"
     docket: "4 Orig."
-    citation: "131 U.S. xcv"
+    usCite: "131 U.S. xcv"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1870"
     voteMajority: 7
@@ -1688,7 +1688,7 @@ cases:
     termId: "1869-12"
     title: "Texas v. White"
     docket: "4 Orig."
-    citation: "131 U.S. xcv"
+    usCite: "131 U.S. xcv"
     pdfSource: "loc"
     dateDecision: "Monday, February 7, 1870"
     voteMajority: 9
@@ -1699,7 +1699,7 @@ cases:
     termId: "1869-12"
     title: "Wood v. Richards"
     docket: "215"
-    citation: "131 U.S. xcviii"
+    usCite: "131 U.S. xcviii"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
     voteMajority: 9
@@ -1709,10 +1709,10 @@ cases:
   - id: "1869-189"
     termId: "1869-12"
     title: "Godbe v. Tootle"
+    docket: "258"
     volume: "154"
     page: "576"
-    docket: "258"
-    citation: "154 U.S. 576"
+    usCite: "154 U.S. 576"
     pdfSource: "loc"
     dateDecision: "Saturday, April 30, 1870"
     voteMajority: 9
@@ -1722,10 +1722,10 @@ cases:
   - id: "1869-194"
     termId: "1869-12"
     title: "Weed v. Crane"
+    docket: "123"
     volume: "154"
     page: "570"
-    docket: "123"
-    citation: "154 U.S. 570"
+    usCite: "154 U.S. 570"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1870"
     voteMajority: 9
@@ -1735,10 +1735,10 @@ cases:
   - id: "1869-198"
     termId: "1869-12"
     title: "O.B. LATHAM et al.v. UNITED STATES"
+    docket: "6"
     volume: "076"
     page: "146"
-    docket: "6"
-    citation: "76 U.S. 146"
+    usCite: "76 U.S. 146"
     pdfSource: "loc"
     dateDecision: "Monday, February 21, 1870"
     voteMajority: 9
@@ -1748,10 +1748,10 @@ cases:
   - id: "1869-205"
     termId: "1869-12"
     title: "HARTFORD FIRE INSURANCE COMPANY v. ISSAC VAN DUZER"
+    docket: "281"
     volume: "076"
     page: "784"
-    docket: "281"
-    citation: "76 U.S. 784n"
+    usCite: "76 U.S. 784n"
     pdfSource: "loc"
     dateDecision: "Monday, April 25, 1870"
     voteMajority: 9
@@ -1762,7 +1762,7 @@ cases:
     termId: "1869-12"
     title: "Kenosha v. Campbell"
     docket: "144"
-    citation: "131 U.S. xcvii"
+    usCite: "131 U.S. xcvii"
     pdfSource: "loc"
     dateDecision: "Monday, April 4, 1870"
     voteMajority: 9
@@ -1773,7 +1773,7 @@ cases:
     termId: "1869-12"
     title: "Downing v. McCartney"
     docket: "163"
-    citation: "131 U.S. xcviii"
+    usCite: "131 U.S. xcviii"
     pdfSource: "loc"
     dateDecision: "Monday, April 11, 1870"
     voteMajority: 9
@@ -1784,7 +1784,7 @@ cases:
     termId: "1869-12"
     title: "Baltimore &amp; Ohio R. Co. v. Marshall County Supervisors"
     docket: "267"
-    citation: "131 U.S. xcix"
+    usCite: "131 U.S. xcix"
     pdfSource: "loc"
     dateDecision: "Monday, December 13, 1869"
     voteMajority: 8
@@ -1796,7 +1796,7 @@ cases:
     title: "The Protector"
     volume: "079"
     page: "700"
-    citation: "79 U.S. 700"
+    usCite: "79 U.S. 700"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1872"
     voteMajority: 8
@@ -1806,10 +1806,10 @@ cases:
   - id: "1870-134"
     termId: "1870-12"
     title: "Cousin v. Generes"
+    docket: "286"
     volume: "154"
     page: "581"
-    docket: "286"
-    citation: "154 U.S. 581"
+    usCite: "154 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Monday, November 20, 1871"
     voteMajority: 9
@@ -1819,10 +1819,10 @@ cases:
   - id: "1870-135"
     termId: "1870-12"
     title: "Van Slyke v. Wisconsin"
+    docket: "261 and 262"
     volume: "154"
     page: "581"
-    docket: "261 and 262"
-    citation: "154 U.S. 581"
+    usCite: "154 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1871"
     voteMajority: 9
@@ -1832,10 +1832,10 @@ cases:
   - id: "1870-136"
     termId: "1870-12"
     title: "United States v. Mynderse"
+    docket: "237"
     volume: "154"
     page: "580"
-    docket: "237"
-    citation: "154 U.S. 580"
+    usCite: "154 U.S. 580"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1871"
     voteMajority: 9
@@ -1847,7 +1847,7 @@ cases:
     title: "Insurance Co. v. Huchbergers"
     volume: "079"
     page: "164"
-    citation: "79 U.S. 164"
+    usCite: "79 U.S. 164"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1871"
     voteMajority: 8
@@ -1859,7 +1859,7 @@ cases:
     title: "Handlin v. Wickliffe"
     volume: "079"
     page: "173"
-    citation: "79 U.S. 173"
+    usCite: "79 U.S. 173"
     pdfSource: "loc"
     dateDecision: "Monday, October 30, 1871"
     voteMajority: 8
@@ -1871,7 +1871,7 @@ cases:
     title: "United States v. Crusell"
     volume: "079"
     page: "175"
-    citation: "79 U.S. 175"
+    usCite: "79 U.S. 175"
     pdfSource: "loc"
     dateDecision: "Monday, November 6, 1871"
     voteMajority: 8
@@ -1883,7 +1883,7 @@ cases:
     title: "The Western Metropolis"
     volume: "079"
     page: "389"
-    citation: "79 U.S. 389"
+    usCite: "79 U.S. 389"
     pdfSource: "loc"
     dateDecision: "Friday, November 10, 1871"
     voteMajority: 8
@@ -1895,7 +1895,7 @@ cases:
     title: "Hennessy v. Sheldon"
     volume: "079"
     page: "440"
-    citation: "79 U.S. 440"
+    usCite: "79 U.S. 440"
     pdfSource: "loc"
     dateDecision: "Monday, November 27, 1871"
     voteMajority: 8
@@ -1907,7 +1907,7 @@ cases:
     title: "The Patapsco"
     volume: "079"
     page: "451"
-    citation: "79 U.S. 451"
+    usCite: "79 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1871"
     voteMajority: 8
@@ -1919,7 +1919,7 @@ cases:
     title: "Hall v. Allen"
     volume: "079"
     page: "452"
-    citation: "79 U.S. 452"
+    usCite: "79 U.S. 452"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1871"
     voteMajority: 8
@@ -1931,7 +1931,7 @@ cases:
     title: "People v. Central R. Co."
     volume: "079"
     page: "455"
-    citation: "79 U.S. 455"
+    usCite: "79 U.S. 455"
     pdfSource: "loc"
     dateDecision: "Monday, January 22, 1872"
     voteMajority: 8
@@ -1943,7 +1943,7 @@ cases:
     title: "United States v. Klein"
     volume: "080"
     page: "128"
-    citation: "80 U.S. 128"
+    usCite: "80 U.S. 128"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1872"
     voteMajority: 6
@@ -1955,7 +1955,7 @@ cases:
     title: "Mason v. Rollins"
     volume: "080"
     page: "602"
-    citation: "80 U.S. 602"
+    usCite: "80 U.S. 602"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1872"
     voteMajority: 8
@@ -1967,7 +1967,7 @@ cases:
     title: "Wheeler v. Harris"
     volume: "080"
     page: "051"
-    citation: "80 U.S. 51"
+    usCite: "80 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1872"
     voteMajority: 8
@@ -1979,7 +1979,7 @@ cases:
     title: "Wells v. McGregor"
     volume: "080"
     page: "188"
-    citation: "80 U.S. 188"
+    usCite: "80 U.S. 188"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1872"
     voteMajority: 8
@@ -1991,7 +1991,7 @@ cases:
     title: "Bethell v. Mathews"
     volume: "080"
     page: "001"
-    citation: "80 U.S. 1"
+    usCite: "80 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1872"
     voteMajority: 8
@@ -2003,7 +2003,7 @@ cases:
     title: "Carroll v. United States"
     volume: "080"
     page: "151"
-    citation: "80 U.S. 151"
+    usCite: "80 U.S. 151"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1872"
     voteMajority: 8
@@ -2015,7 +2015,7 @@ cases:
     title: "Philip v. Nock"
     volume: "080"
     page: "185"
-    citation: "80 U.S. 185"
+    usCite: "80 U.S. 185"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1872"
     voteMajority: 8
@@ -2027,7 +2027,7 @@ cases:
     title: "Hurley v. Street"
     volume: "081"
     page: "085"
-    citation: "81 U.S. 85"
+    usCite: "81 U.S. 85"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1872"
     voteMajority: 8
@@ -2039,7 +2039,7 @@ cases:
     title: "Hampton v. Rouse"
     volume: "080"
     page: "187"
-    citation: "80 U.S. 187"
+    usCite: "80 U.S. 187"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1872"
     voteMajority: 8
@@ -2051,7 +2051,7 @@ cases:
     title: "United States v. Avery"
     volume: "080"
     page: "251"
-    citation: "80 U.S. 251"
+    usCite: "80 U.S. 251"
     pdfSource: "loc"
     dateDecision: "Thursday, March 21, 1872"
     voteMajority: 8
@@ -2063,7 +2063,7 @@ cases:
     title: "Armstrong v. United States"
     volume: "080"
     page: "154"
-    citation: "80 U.S. 154"
+    usCite: "80 U.S. 154"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1872"
     voteMajority: 8
@@ -2075,7 +2075,7 @@ cases:
     title: "Steinbach v. Insurance Co."
     volume: "080"
     page: "183"
-    citation: "80 U.S. 183"
+    usCite: "80 U.S. 183"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1872"
     voteMajority: 8
@@ -2087,7 +2087,7 @@ cases:
     title: "United States v. Crusell"
     volume: "081"
     page: "001"
-    citation: "81 U.S. 1"
+    usCite: "81 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1872"
     voteMajority: 5
@@ -2099,7 +2099,7 @@ cases:
     title: "Pargoud v. United States"
     volume: "080"
     page: "156"
-    citation: "80 U.S. 156"
+    usCite: "80 U.S. 156"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1872"
     voteMajority: 8
@@ -2111,7 +2111,7 @@ cases:
     title: "United States v. Ballard"
     volume: "081"
     page: "457"
-    citation: "81 U.S. 457"
+    usCite: "81 U.S. 457"
     pdfSource: "loc"
     dateDecision: "Monday, April 8, 1872"
     voteMajority: 8
@@ -2123,7 +2123,7 @@ cases:
     title: "Clinton v. Englebrecht"
     volume: "080"
     page: "434"
-    citation: "80 U.S. 434"
+    usCite: "80 U.S. 434"
     pdfSource: "loc"
     dateDecision: "Monday, April 15, 1872"
     voteMajority: 8
@@ -2135,7 +2135,7 @@ cases:
     title: "O&apos;Dowd v. Russell"
     volume: "081"
     page: "402"
-    citation: "81 U.S. 402"
+    usCite: "81 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1872"
     voteMajority: 8
@@ -2147,7 +2147,7 @@ cases:
     title: "Pugh v. United States"
     volume: "080"
     page: "633"
-    citation: "80 U.S. 633"
+    usCite: "80 U.S. 633"
     pdfSource: "loc"
     dateDecision: "Monday, May 6, 1872"
     voteMajority: 8
@@ -2157,10 +2157,10 @@ cases:
   - id: "1871-185"
     termId: "1871-12"
     title: "Northwestern Union Packet Co. v. Home Ins. Co."
+    docket: "467"
     volume: "154"
     page: "588"
-    docket: "467"
-    citation: "154 U.S. 588"
+    usCite: "154 U.S. 588"
     pdfSource: "loc"
     dateDecision: "Monday, January 29, 1872"
     voteMajority: 8
@@ -2170,10 +2170,10 @@ cases:
   - id: "1871-186"
     termId: "1871-12"
     title: "Plant v. Stovall"
+    docket: "82"
     volume: "154"
     page: "584"
-    docket: "82"
-    citation: "154 U.S. 584"
+    usCite: "154 U.S. 584"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1872"
     voteMajority: 8
@@ -2184,7 +2184,7 @@ cases:
     termId: "1871-12"
     title: "Huntington v. Texas"
     docket: "429, 523"
-    citation: "131 U.S. cx"
+    usCite: "131 U.S. cx"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1872"
     voteMajority: 8
@@ -2194,7 +2194,7 @@ cases:
   - id: "1871-188"
     termId: "1871-12"
     title: "Monger v. Shirley"
-    citation: "131 U.S. cx"
+    usCite: "131 U.S. cx"
     pdfSource: "loc"
     dateDecision: "Monday, March 25, 1872"
     voteMajority: 8
@@ -2204,10 +2204,10 @@ cases:
   - id: "1871-193"
     termId: "1871-12"
     title: "Germain v. Mason"
+    docket: "290"
     volume: "154"
     page: "587"
-    docket: "290"
-    citation: "154 U.S. 587"
+    usCite: "154 U.S. 587"
     pdfSource: "loc"
     dateDecision: "Monday, April 22, 1872"
     voteMajority: 8
@@ -2217,10 +2217,10 @@ cases:
   - id: "1871-199"
     termId: "1871-12"
     title: "Davidson v. Connelly"
+    docket: "510"
     volume: "154"
     page: "589"
-    docket: "510"
-    citation: "154 U.S. 589"
+    usCite: "154 U.S. 589"
     pdfSource: "loc"
     dateDecision: "Monday, February 5, 1872"
     voteMajority: 8
@@ -2230,10 +2230,10 @@ cases:
   - id: "1871-200"
     termId: "1871-12"
     title: "Gray v. Coan"
+    docket: "481"
     volume: "154"
     page: "589"
-    docket: "481"
-    citation: "154 U.S. 589"
+    usCite: "154 U.S. 589"
     pdfSource: "loc"
     dateDecision: "Monday, December 18, 1871"
     voteMajority: 8
@@ -2244,7 +2244,7 @@ cases:
     termId: "1871-12"
     title: "Stark v. United States"
     docket: "259"
-    citation: "131 U.S. ccv"
+    usCite: "131 U.S. ccv"
     pdfSource: "loc"
     dateDecision: "Monday, February 12, 1872"
     voteMajority: 9
@@ -2255,7 +2255,7 @@ cases:
     termId: "1871-12"
     title: "United States v. Smoot"
     docket: "264"
-    citation: "131 U.S. ccvi"
+    usCite: "131 U.S. ccvi"
     pdfSource: "loc"
     dateDecision: "Monday, February 19, 1872"
     voteMajority: 9
@@ -2267,7 +2267,7 @@ cases:
     title: "United States v. Hunt"
     volume: "081"
     page: "550"
-    citation: "81 U.S. 550"
+    usCite: "81 U.S. 550"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1872"
     voteMajority: 8
@@ -2279,7 +2279,7 @@ cases:
     title: "Salomons v. Graham"
     volume: "082"
     page: "208"
-    citation: "82 U.S. 208"
+    usCite: "82 U.S. 208"
     pdfSource: "loc"
     dateDecision: "Monday, November 18, 1872"
     voteMajority: 8
@@ -2291,7 +2291,7 @@ cases:
     title: "Erskine v. Van Arsdale"
     volume: "082"
     page: "075"
-    citation: "82 U.S. 75"
+    usCite: "82 U.S. 75"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1872"
     voteMajority: 8
@@ -2303,7 +2303,7 @@ cases:
     title: "Pennywit v. Eaton"
     volume: "082"
     page: "380"
-    citation: "82 U.S. 380"
+    usCite: "82 U.S. 380"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1872"
     voteMajority: 8
@@ -2315,7 +2315,7 @@ cases:
     title: "Hall v. Jordan"
     volume: "082"
     page: "393"
-    citation: "82 U.S. 393"
+    usCite: "82 U.S. 393"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1872"
     voteMajority: 8
@@ -2327,7 +2327,7 @@ cases:
     title: "Ex parte Warmouth"
     volume: "084"
     page: "064"
-    citation: "84 U.S. 64"
+    usCite: "84 U.S. 64"
     pdfSource: "loc"
     dateDecision: "Monday, December 16, 1872"
     voteMajority: 8
@@ -2339,7 +2339,7 @@ cases:
     title: "Tarver v. Keach"
     volume: "082"
     page: "067"
-    citation: "82 U.S. 67"
+    usCite: "82 U.S. 67"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1873"
     voteMajority: 8
@@ -2351,7 +2351,7 @@ cases:
     title: "Davenport City v. Dows"
     volume: "082"
     page: "390"
-    citation: "82 U.S. 390"
+    usCite: "82 U.S. 390"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1873"
     voteMajority: 8
@@ -2363,7 +2363,7 @@ cases:
     title: "United States v. Kelly"
     volume: "082"
     page: "034"
-    citation: "82 U.S. 34"
+    usCite: "82 U.S. 34"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1873"
     voteMajority: 9
@@ -2375,7 +2375,7 @@ cases:
     title: "Portland Co. v. United States"
     volume: "082"
     page: "001"
-    citation: "82 U.S. 1"
+    usCite: "82 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1873"
     voteMajority: 9
@@ -2387,7 +2387,7 @@ cases:
     title: "Pennywit v. Eaton"
     volume: "082"
     page: "382"
-    citation: "82 U.S. 382"
+    usCite: "82 U.S. 382"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1873"
     voteMajority: 9
@@ -2399,7 +2399,7 @@ cases:
     title: "Marqueze v. Bloom"
     volume: "083"
     page: "351"
-    citation: "83 U.S. 351"
+    usCite: "83 U.S. 351"
     pdfSource: "loc"
     dateDecision: "Monday, January 20, 1873"
     voteMajority: 9
@@ -2411,7 +2411,7 @@ cases:
     title: "Railroads v. Richmond"
     volume: "082"
     page: "003"
-    citation: "82 U.S. 3"
+    usCite: "82 U.S. 3"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1873"
     voteMajority: 9
@@ -2423,7 +2423,7 @@ cases:
     title: "Railroad v. Johnson"
     volume: "082"
     page: "008"
-    citation: "82 U.S. 8"
+    usCite: "82 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1873"
     voteMajority: 9
@@ -2435,7 +2435,7 @@ cases:
     title: "Ex parte Roberts"
     volume: "082"
     page: "384"
-    citation: "82 U.S. 384"
+    usCite: "82 U.S. 384"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1873"
     voteMajority: 9
@@ -2447,7 +2447,7 @@ cases:
     title: "Moses v. Mayor"
     volume: "082"
     page: "387"
-    citation: "82 U.S. 387"
+    usCite: "82 U.S. 387"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
     voteMajority: 9
@@ -2459,7 +2459,7 @@ cases:
     title: "Graham v. Norton"
     volume: "082"
     page: "427"
-    citation: "82 U.S. 427"
+    usCite: "82 U.S. 427"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
     voteMajority: 9
@@ -2471,7 +2471,7 @@ cases:
     title: "Huntington v. Texas"
     volume: "083"
     page: "402"
-    citation: "83 U.S. 402"
+    usCite: "83 U.S. 402"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
     voteMajority: 9
@@ -2483,7 +2483,7 @@ cases:
     title: "Marin v. Lalley"
     volume: "084"
     page: "014"
-    citation: "84 U.S. 14"
+    usCite: "84 U.S. 14"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 1, 1873"
     voteMajority: 9
@@ -2495,7 +2495,7 @@ cases:
     title: "The Nuestra Se&ntilde;ora de Regla"
     volume: "084"
     page: "029"
-    citation: "84 U.S. 29"
+    usCite: "84 U.S. 29"
     pdfSource: "loc"
     dateDecision: "Tuesday, April 1, 1873"
     voteMajority: 9
@@ -2507,7 +2507,7 @@ cases:
     title: "Ripley v. Insurance Co."
     volume: "083"
     page: "336"
-    citation: "83 U.S. 336"
+    usCite: "83 U.S. 336"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
     voteMajority: 9
@@ -2519,7 +2519,7 @@ cases:
     title: "Osborne v. Mobile"
     volume: "083"
     page: "479"
-    citation: "83 U.S. 479"
+    usCite: "83 U.S. 479"
     pdfSource: "loc"
     dateDecision: "Monday, April 28, 1873"
     voteMajority: 9
@@ -2531,7 +2531,7 @@ cases:
     title: "Rodd v. Heartt"
     volume: "084"
     page: "354"
-    citation: "84 U.S. 354"
+    usCite: "84 U.S. 354"
     pdfSource: "loc"
     dateDecision: "Thursday, May 1, 1873"
     voteMajority: 9
@@ -2541,10 +2541,10 @@ cases:
   - id: "1872-194"
     termId: "1872-12"
     title: "United States v. Stafford"
+    docket: "105"
     volume: "154"
     page: "590"
-    docket: "105"
-    citation: "154 U.S. 590"
+    usCite: "154 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, January 27, 1873"
     voteMajority: 9
@@ -2555,7 +2555,7 @@ cases:
     termId: "1872-12"
     title: "Mays v. Fritton"
     docket: "553"
-    citation: "131 U.S. cxiv"
+    usCite: "131 U.S. cxiv"
     pdfSource: "loc"
     dateDecision: "Monday, February 10, 1873"
     voteMajority: 9
@@ -2566,7 +2566,7 @@ cases:
     termId: "1872-12"
     title: "Gardner v. Goodyear Dental Vulcanite Co."
     docket: "133"
-    citation: "131 U.S. ciii"
+    usCite: "131 U.S. ciii"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
     voteMajority: 9
@@ -2576,10 +2576,10 @@ cases:
   - id: "1872-197"
     termId: "1872-12"
     title: "Bank of New Orleans v. Caldwell"
+    docket: "255"
     volume: "154"
     page: "592"
-    docket: "255"
-    citation: "154 U.S. 592"
+    usCite: "154 U.S. 592"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
     voteMajority: 9
@@ -2589,10 +2589,10 @@ cases:
   - id: "1872-198"
     termId: "1872-12"
     title: "Jones v. Fritschle"
+    docket: "59"
     volume: "154"
     page: "590"
-    docket: "59"
-    citation: "154 U.S. 590"
+    usCite: "154 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, January 6, 1873"
     voteMajority: 8
@@ -2602,10 +2602,10 @@ cases:
   - id: "1872-201"
     termId: "1872-12"
     title: "Diaz v. United States"
+    docket: "97"
     volume: "154"
     page: "590"
-    docket: "97"
-    citation: "154 U.S. 590"
+    usCite: "154 U.S. 590"
     pdfSource: "loc"
     dateDecision: "Monday, March 3, 1873"
     voteMajority: 9
@@ -2615,10 +2615,10 @@ cases:
   - id: "1872-202"
     termId: "1872-12"
     title: "Norton v. Jamison"
+    docket: "192"
     volume: "154"
     page: "591"
-    docket: "192"
-    citation: "154 U.S. 591"
+    usCite: "154 U.S. 591"
     pdfSource: "loc"
     dateDecision: "Monday, January 13, 1873"
     voteMajority: 9

@@ -8,7 +8,7 @@ cases:
     title: "Higginson v. Mein"
     volume: "008"
     page: "415"
-    citation: "8 U.S. 415"
+    usCite: "8 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1808"
     voteMajority: 5
@@ -20,7 +20,7 @@ cases:
     title: "Hepburn v. Auld"
     volume: "009"
     page: "262"
-    citation: "9 U.S. 262"
+    usCite: "9 U.S. 262"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 14, 1809"
     voteMajority: 6
@@ -32,7 +32,7 @@ cases:
     title: "The Frances"
     volume: "012"
     page: "418"
-    citation: "12 U.S. 418"
+    usCite: "12 U.S. 418"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 15, 1814"
     voteMajority: 5
@@ -44,7 +44,7 @@ cases:
     title: "The Edward"
     volume: "014"
     page: "261"
-    citation: "14 U.S. 261"
+    usCite: "14 U.S. 261"
     pdfSource: "loc"
     dateDecision: "Saturday, March 16, 1816"
     voteMajority: 6
@@ -56,7 +56,7 @@ cases:
     title: "United States v. Smith"
     volume: "018"
     page: "153"
-    citation: "18 U.S. 153"
+    usCite: "18 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Friday, February 25, 1820"
     voteMajority: 6

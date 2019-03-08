@@ -25,7 +25,7 @@ layout: default
     {% capture pdfURL %}{% if case.pdfPageDissent %}{{ pdfPath }}.pdf#page={{ case.pdfPageDissent }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
     {% capture pdfThumb %}/images/thumbnails/usreports.gif{% endcapture %}
   {% endif %}
-  {% capture caseCitation %}{% if case.docket %}No. {{ case.docket }}<br/>{% endif %}{% if case.citation %}{{ case.citation }}<br/>{% endif %}{% endcapture %}
+  {% capture caseCitation %}{% if case.docket %}No. {{ case.docket }}<br/>{% endif %}{% if case.usCite %}{{ case.usCite }}<br/>{% endif %}{% endcapture %}
   {% capture urlArgument %}{% if case.urlOyez %}{{ case.urlOyez }}{% elsif case.urlTranscript %}{{ case.urlTranscript }}{% endif %}{% endcapture %}
   {% capture caseArgument %}{% if case.dateArgument %}{% if urlArgument != "" %}Argued <a href="{{ urlArgument }}">{{ case.dateArgument }}</a><br/>{% else %}Argued {{ case.dateArgument }}<br/>{% endif %}{% endif %}{% endcapture %}
   <div id="{{ case.id }}" class="case-card">
@@ -42,7 +42,7 @@ layout: default
     {% endif %}
     <p class="case-document">
       <a href="{{ pdfURL }}">
-        <img src="{{ pdfThumb }}" style="display:block;margin:auto;width:100px;height:150px;" alt="{{ case.citation }}"/>
+        <img src="{{ pdfThumb }}" style="display:block;margin:auto;width:100px;height:150px;" alt="{{ case.usCite }}"/>
       </a>
     </p>
     {% if case.number and case.dateArgument %}

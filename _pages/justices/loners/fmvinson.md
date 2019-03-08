@@ -6,10 +6,10 @@ cases:
   - id: "1952-111"
     termId: "1952-10"
     title: "Barrows v. Jackson"
+    docket: "517"
     volume: "346"
     page: "249"
-    docket: "517"
-    citation: "346 U.S. 249"
+    usCite: "346 U.S. 249"
     pdfSource: "loc"
     dateDecision: "Monday, June 15, 1953"
     voteMajority: 6

@@ -8,7 +8,7 @@ cases:
     title: "Sawyer v. Hoag"
     volume: "084"
     page: "610"
-    citation: "84 U.S. 610"
+    usCite: "84 U.S. 610"
     pdfSource: "loc"
     dateDecision: "Monday, December 22, 1873"
     voteMajority: 7
@@ -18,10 +18,10 @@ cases:
   - id: "1877-123"
     termId: "1877-10"
     title: "Pennoyer v. Neff"
+    docket: "669"
     volume: "095"
     page: "714"
-    docket: "669"
-    citation: "95 U.S. 714"
+    usCite: "95 U.S. 714"
     pdfSource: "loc"
     dateDecision: "Monday, January 21, 1878"
     voteMajority: 8

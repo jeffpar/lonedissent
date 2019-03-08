@@ -2711,17 +2711,17 @@ function generateCommonCaseYML(decision, caseNumber=0, extras=[])
      * must be applied to 'pdfPageDissent' as well; our page templates will *not* automatically add
      * "pdfpage" minus 1 to the dissent page number.
      */
+    if (decision.docket) {
+        ymlText += '    docket: "' + decision.docket + '"\n';
+    }
     if (cite.volume) {
         ymlText += sprintf('    volume: "%03d"\n', cite.volume);
     }
     if (cite.page) {
         ymlText += sprintf('    page: "%03d"\n' , cite.page);
     }
-    if (decision.docket) {
-        ymlText += '    docket: "' + decision.docket + '"\n';
-    }
     if (decision.usCite) {
-        ymlText += '    citation: "' + decision.usCite + '"\n';
+        ymlText += '    usCite: "' + decision.usCite + '"\n';
     }
     if (decision.pdfSource) ymlText += '    pdfSource: "' + decision.pdfSource + '"\n';
     if (decision.pdfPage) ymlText += '    pdfPage: ' + decision.pdfPage + '\n';
@@ -3254,7 +3254,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                                                                     printf("    termId: \"%s\"\n", term);
                                                                     printf("    title: \"%s\"\n", decision.caseTitle || decision.caseName);
                                                                     if (decision.docket) printf("    docket: \"%s\"\n", decision.docket);
-                                                                    if (decision.usCite) printf("    citation: \"%s\"\n", decision.usCite);
+                                                                    if (decision.usCite) printf("    usCite: \"%s\"\n", decision.usCite);
                                                                     printf("    dateArgument: \"%#C\"\n", date);
                                                                     if (decision.dateDecision) printf("    dateDecision: \"%#C\"\n", decision.dateDecision);
                                                                     printf("    pdfURL: \"%s\"\n", file.substr(rootDir.length));
@@ -3761,7 +3761,7 @@ function findLonerParties(done)
     let pathName = "/trivia/parties";
     let fileName = "/_pages" + pathName + ".md";
     let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: page\n---\n\n';
-    text += "When is a Lone Dissent not a Lone Dissent?  When multiple Lone Dissents are handed down on the *same day*\n";
+    text += "When is a Lone Dissent not a Lone Dissent?  When multiple Lone Dissents are handed down on the *same day*.\n";
     let dates = Object.keys(dateBuckets);
     dates.sort();
     dates.forEach((date) => {
@@ -3810,7 +3810,7 @@ function getDateMarkers(text)
 function convertTranscripts(done)
 {
     let decisions = JSON.parse(readFile(_data.allDecisions));
-    printf("sorting SCDB decisions by [dateArgument, docket]...\n");
+    // printf("sorting SCDB decisions by [dateArgument, docket]...\n");
     sortObjects(decisions, ["dateArgument", "docket"]);
     let filePaths = glob.sync(rootDir + sources.lba.transcripts_txt);
     filePaths.forEach((filePath) => {
@@ -3821,7 +3821,7 @@ function convertTranscripts(done)
             docket = matchFile[1];
             dateArgument = matchFile[2] + '-' + matchFile[3] + '-' + matchFile[4];
             part = matchFile[5];
-            printf("searching for No. %s {dateArgument: %s}...\n", docket, dateArgument);
+            // printf("searching for No. %s {dateArgument: %s}...\n", docket, dateArgument);
             iDecision = findByDateAndDocket(decisions, dateArgument, docket);
         }
         if (iDecision >= 0) {
@@ -3839,10 +3839,12 @@ function convertTranscripts(done)
             text += "    termId: \"" + decision.termId + "\"\n";
             text += "    title: \"" + caseTitle + "\"\n";
             text += "    docket: \"" + decision.docket + "\"\n";
-            text += "    citation: \"" + decision.usCite + "\"\n";
+            text += "    usCite: \"" + decision.usCite + "\"\n";
+            let dateArgument = "";
             if (decision.dateArgument) {
                 let dates = decision.dateArgument.split(',');
-                text += "    dateArgument: \"" + sprintf("%#C", dates[0]) + "\"\n";
+                dateArgument = sprintf("%#C", dates[0]);
+                text += "    dateArgument: \"" + dateArgument + "\"\n";
             }
             if (decision.dateRearg) {
                 let dates = decision.dateRearg.split(',');
@@ -3852,6 +3854,7 @@ function convertTranscripts(done)
                 text += "    dateDecision: \"" + sprintf("%#C", decision.dateDecision) + "\"\n";
             }
             text += "---\n\n";
+            text += "### Transcript of Oral Argument" + (dateArgument? " on " + dateArgument : "") + "\n\n";
             let transcript = readFile(filePath);
             if (transcript) {
                 text += "<div style=\"text-align:justify;width:75%;margin:auto;\">\n";
@@ -5769,7 +5772,7 @@ gulp.task("fixDecisions", fixDecisions);
 gulp.task("fixDockets", fixDockets);
 gulp.task("fixLOC", fixLOC);
 gulp.task("merge", gulp.series(mergeSCDBDockets));
-gulp.task("rebuild", gulp.series(setRebuild, findAllDecisions, findAllJustices, findLonerDecisions, findLonerJustices, findLonerParties, buildAdvocates));
+gulp.task("rebuild", gulp.series(setRebuild, findAllDecisions, findAllJustices, findLonerDecisions, findLonerJustices, findLonerParties, buildAdvocates, convertTranscripts));
 gulp.task("report", gulp.series(reportChanges));
 gulp.task("scrape", scrapeFiles);
 gulp.task("tests", gulp.series(testDates));

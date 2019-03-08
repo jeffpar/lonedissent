@@ -8,7 +8,7 @@ cases:
     title: "Wallen v. Williams"
     volume: "011"
     page: "278"
-    citation: "11 U.S. 278"
+    usCite: "11 U.S. 278"
     pdfSource: "loc"
     dateDecision: "Friday, March 13, 1812"
     voteMajority: 7
@@ -20,7 +20,7 @@ cases:
     title: "McKim v. Voorhies"
     volume: "011"
     page: "279"
-    citation: "11 U.S. 279"
+    usCite: "11 U.S. 279"
     pdfSource: "loc"
     dateDecision: "Saturday, March 14, 1812"
     voteMajority: 7
@@ -32,7 +32,7 @@ cases:
     title: "Vowles v. Craig"
     volume: "012"
     page: "371"
-    citation: "12 U.S. 371"
+    usCite: "12 U.S. 371"
     pdfSource: "loc"
     dateDecision: "Monday, March 14, 1814"
     voteMajority: 6
@@ -44,7 +44,7 @@ cases:
     title: "Preston v. Browder"
     volume: "014"
     page: "115"
-    citation: "14 U.S. 115"
+    usCite: "14 U.S. 115"
     pdfSource: "loc"
     dateDecision: "Monday, March 4, 1816"
     voteMajority: 7
@@ -56,7 +56,7 @@ cases:
     title: "Danforth&apos;s Lessee v. Thomas"
     volume: "014"
     page: "155"
-    citation: "14 U.S. 155"
+    usCite: "14 U.S. 155"
     pdfSource: "loc"
     dateDecision: "Friday, March 8, 1816"
     voteMajority: 7
@@ -68,7 +68,7 @@ cases:
     title: "Ross v. Reed"
     volume: "014"
     page: "482"
-    citation: "14 U.S. 482"
+    usCite: "14 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Friday, March 22, 1816"
     voteMajority: 7
@@ -80,7 +80,7 @@ cases:
     title: "Robinson v. Campbell"
     volume: "016"
     page: "212"
-    citation: "16 U.S. 212"
+    usCite: "16 U.S. 212"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1818"
     voteMajority: 7
@@ -92,7 +92,7 @@ cases:
     title: "Brown v. Jackson"
     volume: "016"
     page: "449"
-    citation: "16 U.S. 449"
+    usCite: "16 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Saturday, March 7, 1818"
     voteMajority: 7
@@ -104,7 +104,7 @@ cases:
     title: "Perkins v. Ramsey"
     volume: "018"
     page: "269"
-    citation: "18 U.S. 269"
+    usCite: "18 U.S. 269"
     pdfSource: "loc"
     dateDecision: "Monday, March 6, 1820"
     voteMajority: 7
@@ -116,7 +116,7 @@ cases:
     title: "Clark v. Graham"
     volume: "019"
     page: "577"
-    citation: "19 U.S. 577"
+    usCite: "19 U.S. 577"
     pdfSource: "loc"
     dateDecision: "Friday, March 16, 1821"
     voteMajority: 6
@@ -128,7 +128,7 @@ cases:
     title: "Watts v. Lindsey&apos;s Heirs"
     volume: "020"
     page: "158"
-    citation: "20 U.S. 158"
+    usCite: "20 U.S. 158"
     pdfSource: "loc"
     dateDecision: "Friday, March 1, 1822"
     voteMajority: 7
@@ -140,7 +140,7 @@ cases:
     title: "Miller v. Kerr"
     volume: "020"
     page: "001"
-    citation: "20 U.S. 1"
+    usCite: "20 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Thursday, March 15, 1821"
     voteMajority: 7
@@ -152,7 +152,7 @@ cases:
     title: "Riggs v. Tayloe"
     volume: "022"
     page: "483"
-    citation: "22 U.S. 483"
+    usCite: "22 U.S. 483"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 9, 1824"
     voteMajority: 6

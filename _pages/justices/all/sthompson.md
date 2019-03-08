@@ -8,7 +8,7 @@ cases:
     title: "The Emily"
     volume: "022"
     page: "381"
-    citation: "22 U.S. 381"
+    usCite: "22 U.S. 381"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 24, 1824"
     voteMajority: 6
@@ -20,7 +20,7 @@ cases:
     title: "Renner v. Bank of Columbia"
     volume: "022"
     page: "581"
-    citation: "22 U.S. 581"
+    usCite: "22 U.S. 581"
     pdfSource: "loc"
     dateDecision: "Friday, March 5, 1824"
     voteMajority: 6
@@ -32,7 +32,7 @@ cases:
     title: "The Monte Allegre"
     volume: "022"
     page: "616"
-    citation: "22 U.S. 616"
+    usCite: "22 U.S. 616"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 16, 1824"
     voteMajority: 6
@@ -44,7 +44,7 @@ cases:
     title: "Wayman v. Southard"
     volume: "023"
     page: "001"
-    citation: "23 U.S. 1"
+    usCite: "23 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 1, 1825"
     voteMajority: 6
@@ -56,7 +56,7 @@ cases:
     title: "Bank of United States v. Halstead"
     volume: "023"
     page: "051"
-    citation: "23 U.S. 51"
+    usCite: "23 U.S. 51"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 2, 1825"
     voteMajority: 6
@@ -68,7 +68,7 @@ cases:
     title: "United States v. Morris"
     volume: "023"
     page: "246"
-    citation: "23 U.S. 246"
+    usCite: "23 U.S. 246"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 16, 1825"
     voteMajority: 6
@@ -80,7 +80,7 @@ cases:
     title: "Bank of United States v. Smith"
     volume: "024"
     page: "171"
-    citation: "24 U.S. 171"
+    usCite: "24 U.S. 171"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1826"
     voteMajority: 6
@@ -92,7 +92,7 @@ cases:
     title: "Hinde&apos;s Lessee v. Longworth"
     volume: "024"
     page: "199"
-    citation: "24 U.S. 199"
+    usCite: "24 U.S. 199"
     pdfSource: "loc"
     dateDecision: "Thursday, February 23, 1826"
     voteMajority: 6
@@ -104,7 +104,7 @@ cases:
     title: "Doe v. Winn"
     volume: "024"
     page: "380"
-    citation: "24 U.S. 380"
+    usCite: "24 U.S. 380"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 8, 1826"
     voteMajority: 6
@@ -116,7 +116,7 @@ cases:
     title: "United States v. Tappan"
     volume: "024"
     page: "419"
-    citation: "24 U.S. 419"
+    usCite: "24 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Thursday, March 16, 1826"
     voteMajority: 6
@@ -128,7 +128,7 @@ cases:
     title: "Scott v. Shreeve"
     volume: "025"
     page: "605"
-    citation: "25 U.S. 605"
+    usCite: "25 U.S. 605"
     pdfSource: "loc"
     dateDecision: "Saturday, January 20, 1827"
     voteMajority: 7
@@ -140,7 +140,7 @@ cases:
     title: "Jackson v. Chew"
     volume: "025"
     page: "153"
-    citation: "25 U.S. 153"
+    usCite: "25 U.S. 153"
     pdfSource: "loc"
     dateDecision: "Thursday, February 8, 1827"
     voteMajority: 7
@@ -152,7 +152,7 @@ cases:
     title: "Mason v. Haile"
     volume: "025"
     page: "370"
-    citation: "25 U.S. 370"
+    usCite: "25 U.S. 370"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 27, 1827"
     voteMajority: 6
@@ -164,7 +164,7 @@ cases:
     title: "General Interest Ins. Co. v. Ruggles"
     volume: "025"
     page: "408"
-    citation: "25 U.S. 408"
+    usCite: "25 U.S. 408"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1827"
     voteMajority: 7
@@ -176,7 +176,7 @@ cases:
     title: "Mechanics Bank of Alexandria v. Seton"
     volume: "026"
     page: "299"
-    citation: "26 U.S. 299"
+    usCite: "26 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 30, 1828"
     voteMajority: 7
@@ -188,7 +188,7 @@ cases:
     title: "Bank of Columbia v. Hagner"
     volume: "026"
     page: "455"
-    citation: "26 U.S. 455"
+    usCite: "26 U.S. 455"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 12, 1828"
     voteMajority: 7
@@ -200,7 +200,7 @@ cases:
     title: "Mechanics Bank of Alexandria v. Lynn"
     volume: "026"
     page: "376"
-    citation: "26 U.S. 376"
+    usCite: "26 U.S. 376"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 20, 1828"
     voteMajority: 7
@@ -212,7 +212,7 @@ cases:
     title: "Bank of Columbia ex rel. Bank of United States v. Lawrence"
     volume: "026"
     page: "578"
-    citation: "26 U.S. 578"
+    usCite: "26 U.S. 578"
     pdfSource: "loc"
     dateDecision: "Thursday, February 28, 1828"
     voteMajority: 7
@@ -224,7 +224,7 @@ cases:
     title: "Biddle v. Wilkins"
     volume: "026"
     page: "686"
-    citation: "26 U.S. 686"
+    usCite: "26 U.S. 686"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1828"
     voteMajority: 7
@@ -236,7 +236,7 @@ cases:
     title: "Thompson v. Tolmie"
     volume: "027"
     page: "157"
-    citation: "27 U.S. 157"
+    usCite: "27 U.S. 157"
     pdfSource: "loc"
     dateDecision: "Thursday, February 12, 1829"
     voteMajority: 6
@@ -248,7 +248,7 @@ cases:
     title: "English v. Foxall"
     volume: "027"
     page: "595"
-    citation: "27 U.S. 595"
+    usCite: "27 U.S. 595"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 10, 1829"
     voteMajority: 6
@@ -260,7 +260,7 @@ cases:
     title: "Keene v. Meade"
     volume: "028"
     page: "001"
-    citation: "28 U.S. 1"
+    usCite: "28 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Saturday, January 23, 1830"
     voteMajority: 7
@@ -272,7 +272,7 @@ cases:
     title: "Inglis v. Trustees of Sailor&apos;s Snug Harbour in City of New York"
     volume: "028"
     page: "099"
-    citation: "28 U.S. 99"
+    usCite: "28 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 2, 1830"
     voteMajority: 6
@@ -284,7 +284,7 @@ cases:
     title: "King v. Hamilton"
     volume: "029"
     page: "311"
-    citation: "29 U.S. 311"
+    usCite: "29 U.S. 311"
     pdfSource: "loc"
     dateDecision: "Monday, March 1, 1830"
     voteMajority: 7
@@ -296,7 +296,7 @@ cases:
     title: "Boyce v. Edwards"
     volume: "029"
     page: "111"
-    citation: "29 U.S. 111"
+    usCite: "29 U.S. 111"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 16, 1830"
     voteMajority: 7
@@ -308,7 +308,7 @@ cases:
     title: "Columbian Ins. Co. of Alexandria v. Ashby"
     volume: "029"
     page: "139"
-    citation: "29 U.S. 139"
+    usCite: "29 U.S. 139"
     pdfSource: "loc"
     dateDecision: "Friday, March 19, 1830"
     voteMajority: 7
@@ -320,7 +320,7 @@ cases:
     title: "Simonton v. Winter"
     volume: "030"
     page: "141"
-    citation: "30 U.S. 141"
+    usCite: "30 U.S. 141"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 25, 1831"
     voteMajority: 7
@@ -332,7 +332,7 @@ cases:
     title: "Union Bank of Georgetown v. Geary"
     volume: "030"
     page: "099"
-    citation: "30 U.S. 99"
+    usCite: "30 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 1, 1831"
     voteMajority: 7
@@ -344,7 +344,7 @@ cases:
     title: "Levy Court of Washington Cty. v. Ringgold"
     volume: "030"
     page: "451"
-    citation: "30 U.S. 451"
+    usCite: "30 U.S. 451"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 15, 1831"
     voteMajority: 7
@@ -356,7 +356,7 @@ cases:
     title: "Patapsco Ins. Co. v. Southgate"
     volume: "030"
     page: "604"
-    citation: "30 U.S. 604"
+    usCite: "30 U.S. 604"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 15, 1831"
     voteMajority: 7
@@ -368,7 +368,7 @@ cases:
     title: "Schimmelpennick &amp; Laer v. Turner"
     volume: "031"
     page: "001"
-    citation: "31 U.S. 1"
+    usCite: "31 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 18, 1832"
     voteMajority: 6
@@ -380,7 +380,7 @@ cases:
     title: "Bank of United States v. Bank of Washington"
     volume: "031"
     page: "008"
-    citation: "31 U.S. 8"
+    usCite: "31 U.S. 8"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 24, 1832"
     voteMajority: 6
@@ -392,7 +392,7 @@ cases:
     title: "Moore v. Bank of Columbia"
     volume: "031"
     page: "086"
-    citation: "31 U.S. 86"
+    usCite: "31 U.S. 86"
     pdfSource: "loc"
     dateDecision: "Saturday, January 28, 1832"
     voteMajority: 6
@@ -404,7 +404,7 @@ cases:
     title: "Davis v. Packard"
     volume: "031"
     page: "041"
-    citation: "31 U.S. 41"
+    usCite: "31 U.S. 41"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 31, 1832"
     voteMajority: 6
@@ -416,7 +416,7 @@ cases:
     title: "United States v. Reyburn"
     volume: "031"
     page: "352"
-    citation: "31 U.S. 352"
+    usCite: "31 U.S. 352"
     pdfSource: "loc"
     dateDecision: "Saturday, February 4, 1832"
     voteMajority: 6
@@ -428,7 +428,7 @@ cases:
     title: "United States v. Quincy"
     volume: "031"
     page: "445"
-    citation: "31 U.S. 445"
+    usCite: "31 U.S. 445"
     pdfSource: "loc"
     dateDecision: "Monday, February 13, 1832"
     voteMajority: 6
@@ -440,7 +440,7 @@ cases:
     title: "Cox v. United States"
     volume: "031"
     page: "172"
-    citation: "31 U.S. 172"
+    usCite: "31 U.S. 172"
     pdfSource: "loc"
     dateDecision: "Thursday, February 23, 1832"
     voteMajority: 6
@@ -452,7 +452,7 @@ cases:
     title: "Cincinnati v. Lessee of White"
     volume: "031"
     page: "431"
-    citation: "31 U.S. 431"
+    usCite: "31 U.S. 431"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 28, 1832"
     voteMajority: 6
@@ -464,7 +464,7 @@ cases:
     title: "Strother v. Lucas"
     volume: "031"
     page: "763"
-    citation: "31 U.S. 763"
+    usCite: "31 U.S. 763"
     pdfSource: "loc"
     dateDecision: "Thursday, March 15, 1832"
     voteMajority: 6
@@ -476,7 +476,7 @@ cases:
     title: "Davis v. Packard"
     volume: "032"
     page: "276"
-    citation: "32 U.S. 276"
+    usCite: "32 U.S. 276"
     pdfSource: "loc"
     dateDecision: "Wednesday, January 30, 1833"
     voteMajority: 6
@@ -488,7 +488,7 @@ cases:
     title: "Peyroux v. Howard"
     volume: "032"
     page: "324"
-    citation: "32 U.S. 324"
+    usCite: "32 U.S. 324"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 19, 1833"
     voteMajority: 6
@@ -500,7 +500,7 @@ cases:
     title: "United States v. Fillebrown"
     volume: "032"
     page: "028"
-    citation: "32 U.S. 28"
+    usCite: "32 U.S. 28"
     pdfSource: "loc"
     dateDecision: "Friday, February 22, 1833"
     voteMajority: 6
@@ -512,7 +512,7 @@ cases:
     title: "Sampeyreac v. United States"
     volume: "032"
     page: "222"
-    citation: "32 U.S. 222"
+    usCite: "32 U.S. 222"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 6, 1833"
     voteMajority: 6
@@ -524,7 +524,7 @@ cases:
     title: "United States v. Mills"
     volume: "032"
     page: "138"
-    citation: "32 U.S. 138"
+    usCite: "32 U.S. 138"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 12, 1833"
     voteMajority: 6
@@ -536,7 +536,7 @@ cases:
     title: "Minor v. Tillotson"
     volume: "032"
     page: "099"
-    citation: "32 U.S. 99"
+    usCite: "32 U.S. 99"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 13, 1833"
     voteMajority: 6
@@ -548,7 +548,7 @@ cases:
     title: "Withers v. Withers"
     volume: "033"
     page: "355"
-    citation: "33 U.S. 355"
+    usCite: "33 U.S. 355"
     pdfSource: "loc"
     dateDecision: "Friday, January 24, 1834"
     voteMajority: 6
@@ -560,7 +560,7 @@ cases:
     title: "Keene v. McDonough"
     volume: "033"
     page: "308"
-    citation: "33 U.S. 308"
+    usCite: "33 U.S. 308"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 12, 1834"
     voteMajority: 6
@@ -572,7 +572,7 @@ cases:
     title: "Lee v. Lee"
     volume: "033"
     page: "044"
-    citation: "33 U.S. 44"
+    usCite: "33 U.S. 44"
     pdfSource: "loc"
     dateDecision: "Saturday, February 15, 1834"
     voteMajority: 6
@@ -584,7 +584,7 @@ cases:
     title: "United States v. Ringgold"
     volume: "033"
     page: "150"
-    citation: "33 U.S. 150"
+    usCite: "33 U.S. 150"
     pdfSource: "loc"
     dateDecision: "Saturday, March 1, 1834"
     voteMajority: 6
@@ -596,7 +596,7 @@ cases:
     title: "United States v. Hack"
     volume: "033"
     page: "271"
-    citation: "33 U.S. 271"
+    usCite: "33 U.S. 271"
     pdfSource: "loc"
     dateDecision: "Saturday, March 8, 1834"
     voteMajority: 6
@@ -608,7 +608,7 @@ cases:
     title: "McCutchen v. Marshall"
     volume: "033"
     page: "220"
-    citation: "33 U.S. 220"
+    usCite: "33 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 11, 1834"
     voteMajority: 6
@@ -620,7 +620,7 @@ cases:
     title: "Binney v. Chesapeake &amp; Ohio Canal Co."
     volume: "033"
     page: "201"
-    citation: "33 U.S. 201"
+    usCite: "33 U.S. 201"
     pdfSource: "loc"
     dateDecision: "Friday, March 14, 1834"
     voteMajority: 6
@@ -632,7 +632,7 @@ cases:
     title: "United States v. One Hundred and Twelve Casks of Sugar"
     volume: "033"
     page: "277"
-    citation: "33 U.S. 277"
+    usCite: "33 U.S. 277"
     pdfSource: "loc"
     dateDecision: "Monday, March 17, 1834"
     voteMajority: 6
@@ -644,7 +644,7 @@ cases:
     title: "Bank of Alexandria v. Swann"
     volume: "034"
     page: "033"
-    citation: "34 U.S. 33"
+    usCite: "34 U.S. 33"
     pdfSource: "loc"
     dateDecision: "Tuesday, January 20, 1835"
     voteMajority: 6
@@ -656,7 +656,7 @@ cases:
     title: "Beard v. Rowan"
     volume: "034"
     page: "301"
-    citation: "34 U.S. 301"
+    usCite: "34 U.S. 301"
     pdfSource: "loc"
     dateDecision: "Saturday, January 31, 1835"
     voteMajority: 6
@@ -668,7 +668,7 @@ cases:
     title: "Tarver v. Tarver"
     volume: "034"
     page: "174"
-    citation: "34 U.S. 174"
+    usCite: "34 U.S. 174"
     pdfSource: "loc"
     dateDecision: "Saturday, February 21, 1835"
     voteMajority: 6
@@ -680,7 +680,7 @@ cases:
     title: "Urtetiqui v. D&apos;Arcy"
     volume: "034"
     page: "692"
-    citation: "34 U.S. 692"
+    usCite: "34 U.S. 692"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1835"
     voteMajority: 6
@@ -692,7 +692,7 @@ cases:
     title: "Harris v. Elliott"
     volume: "035"
     page: "025"
-    citation: "35 U.S. 25"
+    usCite: "35 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Saturday, January 23, 1836"
     voteMajority: 5
@@ -704,7 +704,7 @@ cases:
     title: "Elliott v. Swartwout"
     volume: "035"
     page: "137"
-    citation: "35 U.S. 137"
+    usCite: "35 U.S. 137"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1836"
     voteMajority: 5
@@ -716,7 +716,7 @@ cases:
     title: "Ventress v. Smith"
     volume: "035"
     page: "161"
-    citation: "35 U.S. 161"
+    usCite: "35 U.S. 161"
     pdfSource: "loc"
     dateDecision: "Saturday, February 6, 1836"
     voteMajority: 5
@@ -728,7 +728,7 @@ cases:
     title: "Sprigg v. Bank of Mount Pleasant"
     volume: "035"
     page: "257"
-    citation: "35 U.S. 257"
+    usCite: "35 U.S. 257"
     pdfSource: "loc"
     dateDecision: "Thursday, February 11, 1836"
     voteMajority: 5
@@ -740,7 +740,7 @@ cases:
     title: "Davis v. Braden"
     volume: "035"
     page: "286"
-    citation: "35 U.S. 286"
+    usCite: "35 U.S. 286"
     pdfSource: "loc"
     dateDecision: "Saturday, February 13, 1836"
     voteMajority: 5
@@ -752,7 +752,7 @@ cases:
     title: "Peter v. Beverly"
     volume: "035"
     page: "532"
-    citation: "35 U.S. 532"
+    usCite: "35 U.S. 532"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1836"
     voteMajority: 5
@@ -764,7 +764,7 @@ cases:
     title: "Lee v. Dick"
     volume: "035"
     page: "482"
-    citation: "35 U.S. 482"
+    usCite: "35 U.S. 482"
     pdfSource: "loc"
     dateDecision: "Friday, February 26, 1836"
     voteMajority: 5
@@ -776,7 +776,7 @@ cases:
     title: "United States v. Gardner"
     volume: "035"
     page: "618"
-    citation: "35 U.S. 618"
+    usCite: "35 U.S. 618"
     pdfSource: "loc"
     dateDecision: "Friday, February 26, 1836"
     voteMajority: 5
@@ -788,7 +788,7 @@ cases:
     title: "McMicken v. Webb"
     volume: "036"
     page: "025"
-    citation: "36 U.S. 25"
+    usCite: "36 U.S. 25"
     pdfSource: "loc"
     dateDecision: "Thursday, February 2, 1837"
     voteMajority: 7
@@ -800,7 +800,7 @@ cases:
     title: "United States v. Laub"
     volume: "037"
     page: "001"
-    citation: "37 U.S. 1"
+    usCite: "37 U.S. 1"
     pdfSource: "loc"
     dateDecision: "Saturday, February 10, 1838"
     voteMajority: 9
@@ -812,7 +812,7 @@ cases:
     title: "Jenkins v. Pye"
     volume: "037"
     page: "241"
-    citation: "37 U.S. 241"
+    usCite: "37 U.S. 241"
     pdfSource: "loc"
     dateDecision: "Thursday, February 22, 1838"
     voteMajority: 9
@@ -824,7 +824,7 @@ cases:
     title: "Massachusetts v. Rhode Island"
     volume: "037"
     page: "755"
-    citation: "37 U.S. 755"
+    usCite: "37 U.S. 755"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 6, 1838"
     voteMajority: 7
@@ -836,7 +836,7 @@ cases:
     title: "Kendall v. United States ex rel. Stokes"
     volume: "037"
     page: "524"
-    citation: "37 U.S. 524"
+    usCite: "37 U.S. 524"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1838"
     voteMajority: 6
@@ -848,7 +848,7 @@ cases:
     title: "Wallace v. McConnell"
     volume: "038"
     page: "136"
-    citation: "38 U.S. 136"
+    usCite: "38 U.S. 136"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 5, 1839"
     voteMajority: 9
@@ -860,7 +860,7 @@ cases:
     title: "Ex parte Hennen"
     volume: "038"
     page: "230"
-    citation: "38 U.S. 230"
+    usCite: "38 U.S. 230"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 20, 1839"
     voteMajority: 9
@@ -872,7 +872,7 @@ cases:
     title: "Moore v. Bank of Metropolis"
     volume: "038"
     page: "302"
-    citation: "38 U.S. 302"
+    usCite: "38 U.S. 302"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 27, 1839"
     voteMajority: 9
@@ -884,7 +884,7 @@ cases:
     title: "Runyan v. Lessee of Coster"
     volume: "039"
     page: "122"
-    citation: "39 U.S. 122"
+    usCite: "39 U.S. 122"
     pdfSource: "loc"
     dateDecision: "Saturday, February 1, 1840"
     voteMajority: 8
@@ -896,7 +896,7 @@ cases:
     title: "Lessee of Pollard&apos;s Heirs v. Kibbe"
     volume: "039"
     page: "353"
-    citation: "39 U.S. 353"
+    usCite: "39 U.S. 353"
     pdfSource: "loc"
     dateDecision: "Thursday, February 20, 1840"
     voteMajority: 5
@@ -908,7 +908,7 @@ cases:
     title: "Sprigg v. Bank of Mount Pleasant"
     volume: "039"
     page: "201"
-    citation: "39 U.S. 201"
+    usCite: "39 U.S. 201"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1840"
     voteMajority: 8
@@ -920,7 +920,7 @@ cases:
     title: "United States v. Gratiot"
     volume: "039"
     page: "526"
-    citation: "39 U.S. 526"
+    usCite: "39 U.S. 526"
     pdfSource: "loc"
     dateDecision: "Monday, March 9, 1840"
     voteMajority: 8
@@ -932,7 +932,7 @@ cases:
     title: "Gaines v. Relf"
     volume: "040"
     page: "009"
-    citation: "40 U.S. 9"
+    usCite: "40 U.S. 9"
     pdfSource: "loc"
     dateDecision: "Monday, February 1, 1841"
     voteMajority: 9
@@ -944,7 +944,7 @@ cases:
     title: "United States v. Linn"
     volume: "040"
     page: "290"
-    citation: "40 U.S. 290"
+    usCite: "40 U.S. 290"
     pdfSource: "loc"
     dateDecision: "Monday, February 22, 1841"
     voteMajority: 6
@@ -956,7 +956,7 @@ cases:
     title: "Groves v. Slaughter"
     volume: "040"
     page: "449"
-    citation: "40 U.S. 449"
+    usCite: "40 U.S. 449"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 10, 1841"
     voteMajority: 5
@@ -968,7 +968,7 @@ cases:
     title: "Long v. Palmer, Smith, &amp; Co."
     volume: "041"
     page: "065"
-    citation: "41 U.S. 65"
+    usCite: "41 U.S. 65"
     pdfSource: "loc"
     dateDecision: "Saturday, February 5, 1842"
     voteMajority: 9
@@ -980,7 +980,7 @@ cases:
     title: "Tompkins v. Wheeler"
     volume: "041"
     page: "106"
-    citation: "41 U.S. 106"
+    usCite: "41 U.S. 106"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 15, 1842"
     voteMajority: 9
@@ -992,7 +992,7 @@ cases:
     title: "Hobson v. Heirs of McArthur"
     volume: "041"
     page: "182"
-    citation: "41 U.S. 182"
+    usCite: "41 U.S. 182"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 1, 1842"
     voteMajority: 9
@@ -1004,7 +1004,7 @@ cases:
     title: "United States v. Linn"
     volume: "042"
     page: "104"
-    citation: "42 U.S. 104"
+    usCite: "42 U.S. 104"
     pdfSource: "loc"
     dateDecision: "Thursday, January 26, 1843"
     voteMajority: 6

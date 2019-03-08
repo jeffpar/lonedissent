@@ -8,7 +8,7 @@ cases:
     title: "Chisholm v. Georgia"
     volume: "002"
     page: "419"
-    citation: "2 U.S. 419"
+    usCite: "2 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Tuesday, February 19, 1793"
     voteMajority: 4
@@ -20,7 +20,7 @@ cases:
     title: "Georgia v. Brailsford"
     volume: "002"
     page: "415"
-    citation: "2 U.S. 415"
+    usCite: "2 U.S. 415"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 20, 1793"
     voteMajority: 4
@@ -32,7 +32,7 @@ cases:
     title: "Wilson v. Daniel"
     volume: "003"
     page: "401"
-    citation: "3 U.S. 401"
+    usCite: "3 U.S. 401"
     pdfSource: "loc"
     dateDecision: "Tuesday, August 7, 1798"
     voteMajority: 5

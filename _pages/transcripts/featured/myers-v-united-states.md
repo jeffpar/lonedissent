@@ -7,11 +7,13 @@ cases:
     termId: "1926-10"
     title: "Myers v. United States"
     docket: "2"
-    citation: "272 U.S. 52"
+    usCite: "272 U.S. 52"
     dateArgument: "Wednesday, December 5, 1923"
     dateRearg: "Monday, April 13, 1925"
     dateDecision: "Monday, October 25, 1926"
 ---
+
+### Transcript of Oral Argument on Wednesday, December 5, 1923
 
 <div style="text-align:justify;width:75%;margin:auto;">
   <p><b>MR. CHIEF JUSTICE TAFT</b>: Mr. Beck?</p>

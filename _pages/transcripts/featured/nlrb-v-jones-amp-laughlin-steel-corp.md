@@ -7,10 +7,12 @@ cases:
     termId: "1936-10"
     title: "NLRB v. Jones &amp; Laughlin Steel Corp."
     docket: "419"
-    citation: "301 U.S. 1"
+    usCite: "301 U.S. 1"
     dateArgument: "Wednesday, February 10, 1937"
     dateDecision: "Monday, April 12, 1937"
 ---
+
+### Transcript of Oral Argument on Wednesday, February 10, 1937
 
 <div style="text-align:justify;width:75%;margin:auto;">
   <p><b>MR. MADDEN</b>:  May it please the Court, in January 1936, a charge was filed with the regional office of the National Labor Relations Board at Pittsburgh by the Amalgamated Association of Iron, Steel, and Tin Workers, Beaver Valley Local Lodge.</p>

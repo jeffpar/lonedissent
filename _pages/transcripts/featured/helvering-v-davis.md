@@ -7,10 +7,12 @@ cases:
     termId: "1936-10"
     title: "Helvering v. Davis"
     docket: "910"
-    citation: "301 U.S. 619"
+    usCite: "301 U.S. 619"
     dateArgument: "Wednesday, May 5, 1937"
     dateDecision: "Monday, May 24, 1937"
 ---
+
+### Transcript of Oral Argument on Wednesday, May 5, 1937
 
 <div style="text-align:justify;width:75%;margin:auto;">
   <p><b>THE CHIEF JUSTICE</b>: No. 910, Guy T. Helvering against George P. Davis.</p>

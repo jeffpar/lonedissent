@@ -8,7 +8,7 @@ cases:
     title: "Brown v. Maryland"
     volume: "025"
     page: "419"
-    citation: "25 U.S. 419"
+    usCite: "25 U.S. 419"
     pdfSource: "loc"
     dateDecision: "Monday, March 12, 1827"
     voteMajority: 6
@@ -20,7 +20,7 @@ cases:
     title: "United States v. Arredondo"
     volume: "031"
     page: "691"
-    citation: "31 U.S. 691"
+    usCite: "31 U.S. 691"
     pdfSource: "loc"
     dateDecision: "Saturday, March 17, 1832"
     voteMajority: 5
@@ -32,7 +32,7 @@ cases:
     title: "Bend v. Hoyt"
     volume: "038"
     page: "263"
-    citation: "38 U.S. 263"
+    usCite: "38 U.S. 263"
     pdfSource: "loc"
     dateDecision: "Wednesday, February 27, 1839"
     voteMajority: 8
@@ -44,7 +44,7 @@ cases:
     title: "United States v. Wood"
     volume: "039"
     page: "430"
-    citation: "39 U.S. 430"
+    usCite: "39 U.S. 430"
     pdfSource: "loc"
     dateDecision: "Tuesday, March 3, 1840"
     voteMajority: 7

@@ -7,10 +7,12 @@ cases:
     termId: "1936-10"
     title: "Steward Machine Co. v. Davis"
     docket: "837"
-    citation: "301 U.S. 548"
+    usCite: "301 U.S. 548"
     dateArgument: "Thursday, April 8, 1937"
     dateDecision: "Monday, May 24, 1937"
 ---
+
+### Transcript of Oral Argument on Thursday, April 8, 1937
 
 <div style="text-align:justify;width:75%;margin:auto;">
   <p><b>MR. MARTIN</b>: May it please the Court this is a suit by Charles C. Steward Machine Co., a manufacturer of mining machinery, a corporation of Alabama, brought against the respondent.</p>

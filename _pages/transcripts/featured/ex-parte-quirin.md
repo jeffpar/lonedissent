@@ -7,10 +7,12 @@ cases:
     termId: "1942-07"
     title: "Ex parte Quirin"
     docket: "1"
-    citation: "317 U.S. 1"
+    usCite: "317 U.S. 1"
     dateArgument: "Wednesday, July 29, 1942"
     dateDecision: "Friday, July 31, 1942"
 ---
+
+### Transcript of Oral Argument on Wednesday, July 29, 1942
 
 <div style="text-align:justify;width:75%;margin:auto;">
   <p><b>MR. CHIEF JUSTICE STONE</b>: Are there any applications for admission?</p>

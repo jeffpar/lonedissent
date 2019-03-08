@@ -7,10 +7,12 @@ cases:
     termId: "1951-10"
     title: "Youngstown Sheet &amp; Tube Co. v. Sawyer"
     docket: "744,745"
-    citation: "343 U.S. 579"
+    usCite: "343 U.S. 579"
     dateArgument: "Monday, May 12, 1952"
     dateDecision: "Monday, June 2, 1952"
 ---
+
+### Transcript of Oral Argument on Monday, May 12, 1952
 
 <div style="text-align:justify;width:75%;margin:auto;">
   <p><b>MR. CHIEF JUSTICE VINSON</b>: The Youngstown Sheet and Tube Company, et al., Petitioners, versus Charles Sawyer, Respondent, Case No. 744, October Term, 1951; and Charles Sawyer, Secretary of Commerce, Petitioner, versus The Youngstown Sheet and Tube Company, et al., Respondents, October Term, 1951, No. 745.</p>

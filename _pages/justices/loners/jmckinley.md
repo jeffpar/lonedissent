@@ -8,7 +8,7 @@ cases:
     title: "Bank of Augusta v. Earle"
     volume: "038"
     page: "519"
-    citation: "38 U.S. 519"
+    usCite: "38 U.S. 519"
     pdfSource: "loc"
     dateDecision: "Saturday, March 9, 1839"
     voteMajority: 8
@@ -20,7 +20,7 @@ cases:
     title: "McLaughlin v. Bank of Potomac"
     volume: "048"
     page: "220"
-    citation: "48 U.S. 220"
+    usCite: "48 U.S. 220"
     pdfSource: "loc"
     dateDecision: "Thursday, January 11, 1849"
     voteMajority: 8

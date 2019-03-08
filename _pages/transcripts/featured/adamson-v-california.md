@@ -7,10 +7,12 @@ cases:
     termId: "1946-10"
     title: "Adamson v. California"
     docket: "102"
-    citation: "332 U.S. 46"
+    usCite: "332 U.S. 46"
     dateArgument: "Wednesday, January 15, 1947"
     dateDecision: "Monday, June 23, 1947"
 ---
+
+### Transcript of Oral Argument on Wednesday, January 15, 1947
 
 <div style="text-align:justify;width:75%;margin:auto;">
   <p><b>MR. LAVINE</b>: Mr. Chief Justice, may it please the Court, my distinguished opponent and Assistant Attorney General of the State of California: This case involves the death penalty of Admiral Dewey Adamson.</p>

@@ -8,7 +8,7 @@ cases:
     title: "Stuart v. Laird"
     volume: "005"
     page: "299"
-    citation: "5 U.S. 299"
+    usCite: "5 U.S. 299"
     pdfSource: "loc"
     dateDecision: "Wednesday, March 2, 1803"
     voteMajority: 4
