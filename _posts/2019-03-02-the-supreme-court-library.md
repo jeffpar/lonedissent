@@ -14,7 +14,7 @@ the public isn't permitted in the library.  It has become an enclave for the exc
 employees, members of the Supreme Court Bar, and other "privileged" guests -- not exactly the sort
 of openness one might hope for from our own Federal government.
 
-![Supreme Court Library](/images/scotus/Supreme-Court-Library.jpg)
+![Supreme Court Library](/assets/images/scotus/Supreme-Court-Library.jpg)
 
 In recent years, the Supreme Court Library has
 [posted](https://www.supremecourt.gov/oral_arguments/archived_transcripts/1968) all its transcripts

@@ -19,11 +19,11 @@ layout: default
   {% elsif case.pdfSource == "scotusBound" %}
     {% capture pdfPath %}https://www.supremecourt.gov/opinions/boundvolumes/{{ case.volume }}bv{% endcapture %}
     {% capture pdfURL %}{% if case.pdfPageDissent %}{{ pdfPath }}.pdf#page={{ case.pdfPageDissent }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
-    {% capture pdfThumb %}/images/thumbnails/usreports.gif{% endcapture %}
+    {% capture pdfThumb %}/assets/images/thumbnails/usreports.gif{% endcapture %}
   {% else %}
     {% capture pdfPath %}https://www.supremecourt.gov/opinions/{{ case.pdfSource }}{% endcapture %}
     {% capture pdfURL %}{% if case.pdfPageDissent %}{{ pdfPath }}.pdf#page={{ case.pdfPageDissent }}{% else %}{{ pdfPath }}.pdf{% endif %}{% endcapture %}
-    {% capture pdfThumb %}/images/thumbnails/usreports.gif{% endcapture %}
+    {% capture pdfThumb %}/assets/images/thumbnails/usreports.gif{% endcapture %}
   {% endif %}
   {% capture caseCitation %}{% if case.docket %}No. {{ case.docket }}<br/>{% endif %}{% if case.usCite %}{{ case.usCite }}<br/>{% endif %}{% endcapture %}
   {% capture urlArgument %}{% if case.urlOyez %}{{ case.urlOyez }}{% elsif case.urlTranscript %}{{ case.urlTranscript }}{% endif %}{% endcapture %}
