@@ -13,6 +13,19 @@
       }
     }
   },
+  "ld": {
+    "courts": "/sources/ld/courts.json",
+    "decisions": "/sources/ld/decisions.json",
+    "decisionsOrig": "/sources/ld/decisionsOrig.json",
+    "justices": "/sources/ld/justices.json",
+    "citations.csv": "/sources/ld/citations.csv",
+    "citationsJustia.csv": "/sources/ld/citationsJustia.csv",
+    "citationsLOC.csv": "/sources/ld/citationsLOC.csv",
+    "miscLOC.csv": "/sources/ld/miscLOC.csv",
+    "courts.csv": "/sources/ld/courts.csv",
+    "dates.csv": "/sources/ld/dates.csv",
+    "transcripts.csv": "/sources/ld/transcripts.csv"
+  },
   "loc": {
     "filesTXT": "/sources/loc/volumes/*/*/*.txt",
     "download": {

@@ -6,10 +6,13 @@ redirect_from:
   - /cases/transcripts/scotus
 ---
 
-These transcripts were downloaded from the U.S. Supreme Court website and logged in our [spreadsheet](/results/transcripts.csv).
+These transcripts were downloaded from the U.S. Supreme Court website and logged in our
+[spreadsheet](/sources/ld/transcripts.csv).
 
-Any corrections have been noted under [Corrected Transcripts](#corrected-transcripts), and match failures have been logged under [Unmatched Transcripts](#unmatched-transcripts).
-In addition, transcripts that don't have exact matches in OYEZ have been noted under [Missing OYEZ Transcripts](#missing-oyez-transcripts).
+Any corrections have been noted under [Corrected Transcripts](#corrected-transcripts),
+and match failures have been logged under [Unmatched Transcripts](#unmatched-transcripts).
+In addition, transcripts that don't have exact matches in OYEZ have been noted under
+[Missing OYEZ Transcripts](#missing-oyez-transcripts).
 
 ## Matched Transcripts
 

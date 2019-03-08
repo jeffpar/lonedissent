@@ -112,7 +112,6 @@ let strlib = require(rootDir + "/lib/strlib");
 
 let _data = require(rootDir + "/_data/_data.json");
 let logs = require(rootDir + "/logs/_logs.json");
-let results = require(rootDir + "/results/_results.json");
 let sources = require(rootDir + "/sources/_sources.json");
 let argv = proclib.args.argv;
 let downloadTasks = [];
@@ -1281,7 +1280,7 @@ function parseCite(usCite, cite)
 function readCourts()
 {
     let fixes = 0;
-    let courts = JSON.parse(readFile(results.json.courts));
+    let courts = JSON.parse(readFile(sources.ld.courts));
     /*
      * First, let's see how our data lines up with current Oyez HTML data.
      */
@@ -1357,8 +1356,8 @@ function readCourts()
     }
     printf("courts read: %d\n", courts.length);
     if (fixes) {
-        printf("writing %d corrections to %s\n", fixes, results.json.courts);
-        writeFile(results.json.courts, courts);
+        printf("writing %d corrections to %s\n", fixes, sources.ld.courts);
+        writeFile(sources.ld.courts, courts);
     }
     return courts;
 }
@@ -1829,7 +1828,7 @@ function readSCDBJustices(fDisplay)
 function readSCOTUSDecisions()
 {
     let startNext = null;
-    let decisions = readCSV(results.csv.dates, "", "html");
+    let decisions = readCSV(sources.ld.dates.csv, "", "html");
     //
     // There are so many decision date differences in the Free Law/Court Listener CSV that the file is essentially worthless.  Sigh.
     //
@@ -1930,8 +1929,8 @@ function buildAdvocates(done)
 {
     let vars = JSON.parse(readFile(sources.scdb.vars) || "{}");
     let courtsSCDB = readSCDBCourts();
-    // let courts = JSON.parse(readFile(results.json.courts) || "[]");
-    let justices = JSON.parse(readFile(results.json.justices) || "[]");
+    // let courts = JSON.parse(readFile(sources.ld.courts) || "[]");
+    let justices = JSON.parse(readFile(sources.ld.justices) || "[]");
     let dataFile = _data.allDecisions;
     let decisions = JSON.parse(readFile(dataFile) || "[]");
     sortObjects(decisions, ["volume", "page"]);
@@ -2100,7 +2099,7 @@ function buildCitations(done)
      * Phase 1: Build a set of citations from a snapshot of SCOTUS web pages as needed, or parse the existing CSV.
      */
     let rowsScotus = [], citesScotus = {}, volumesScotus = {};
-    let csvScotus = readFile(results.csv.citations);
+    let csvScotus = readFile(sources.ld.citations.csv);
     if (!csvScotus || argv['build']) {
         if (!csvScotus) csvScotus = "volume,page,year,caseTitle,oldCite,usCite\n";
         let additions = 0;
@@ -2201,7 +2200,7 @@ function buildCitations(done)
             }
         });
         printf("total citations added: %d\n", additions);
-        if (additions) writeFile(results.csv.citations, csvScotus);
+        if (additions) writeFile(sources.ld.citations.csv, csvScotus);
     }
     else {
         rowsScotus = parseCSV(csvScotus);
@@ -2221,7 +2220,7 @@ function buildCitations(done)
      * eg, they used to cite "Wilson v. Mason' (5 U.S. 44)", while everyone else cites "Wilson v. Mason' (5 U.S. 45)" -- including SCOTUS today.
      */
     let citesJustia = {}, volumesJustia = {};
-    let csvJustia = readFile(results.csv.citationsJustia);
+    let csvJustia = readFile(sources.ld.citationsJustia.csv);
     if (!csvJustia || argv['build']) {
         if (!csvJustia) csvJustia = "volume,page,year,caseTitle,oldCite,usCite,dateDecision\n";
         let filePaths = glob.sync(rootDir + sources.justia.download.volume.dir + "*.html");
@@ -2253,7 +2252,7 @@ function buildCitations(done)
                 }
             }
         }
-        writeFile(results.csv.citationsJustia, csvJustia);
+        writeFile(sources.ld.citationsJustia.csv, csvJustia);
     }
     else {
         let rowsJustia = parseCSV(csvJustia);
@@ -2281,7 +2280,7 @@ function buildCitations(done)
      *      U.S. Reports: Wilmington and Weldon Railroad Company v. King, Executor, 91 U.S. 3 (1875).
      */
     let locCites = {}, volumesLOC = {};
-    let csvLOC = readFile(results.csv.citationsLOC);
+    let csvLOC = readFile(sources.ld.citationsLOC.csv);
     if (!csvLOC || argv['build']) {
         if (!csvLOC) csvLOC = "volume,page,year,pageURL,pagePDF,caseTitle,oldCite,usCite,pageTotal,subject,keywords\n";
         let filePaths = glob.sync(rootDir + sources.loc.download.volume.dir + "*.html");
@@ -2310,7 +2309,7 @@ function buildCitations(done)
                 }
             }
         }
-        writeFile(results.csv.citationsLOC, csvLOC);
+        writeFile(sources.ld.citationsLOC.csv, csvLOC);
     }
     else {
         let rowsLOC = parseCSV(csvLOC);
@@ -2433,7 +2432,7 @@ function buildCitations(done)
     /*
      * Phase 6: Verify that all cases in dates.csv are recorded in citations.csv
      */
-    let rowsDates = readCSV(results.csv.dates);
+    let rowsDates = readCSV(sources.ld.dates.csv);
     rowsDates.forEach((cite) => {
         if (parseCite(cite.usCite, cite) && !citesScotus[cite.usCite]) {
             warning("unable to find date citation '%s' (%s) %s in SCOTUS citations\n", cite.caseTitle, cite.usCite, cite.dateDecision);
@@ -2453,7 +2452,7 @@ function buildCitations(done)
     printf("total additions: %d\n", additions);
     printf("total corrections: %d\n", corrections);
 
-    if (additions || corrections) writeCSV(results.csv.citations, rowsScotus);
+    if (additions || corrections) writeCSV(sources.ld.citations.csv, rowsScotus);
 
     printf("total warnings: %d\n", warnings);
 
@@ -2472,7 +2471,7 @@ function buildCourts(done)
      *
      *      let courtsOyez = readOyezCourts();
      *      printf("Oyez courts read: %d\n", courtsOyez.length);
-     *      writeFile(results.json.courts, courtsOyez);
+     *      writeFile(sources.ld.courts, courtsOyez);
      */
     let courts = readCourts();
 
@@ -2480,7 +2479,7 @@ function buildCourts(done)
      * Let's verify that all the justices are appropriately slotted into the courts.
      */
     let lastCourtPrinted = "";
-    let justices = JSON.parse(readFile(results.json.justices));
+    let justices = JSON.parse(readFile(sources.ld.justices));
     for (let i = 0; i < justices.length; i++) {
         let justice = justices[i];
         let nCourts = 0;
@@ -2517,7 +2516,7 @@ function buildCourts(done)
         }
     }
 
-    writeFile(results.csv.courts, csv);
+    writeFile(sources.ld.courts.csv, csv);
     done();
 }
 
@@ -2535,16 +2534,16 @@ function buildDecisions(done)
         printf("sorting SCDB decisions by [caseId]...\n");
         sortObjects(decisions, ["caseId"]);
     }
-    if (!fs.existsSync(rootDir + results.json.decisions)) {
+    if (!fs.existsSync(rootDir + sources.ld.decisions)) {
         sortObjects(decisions, ["caseId"]);
-        writeFile(results.json.decisions, decisions);
+        writeFile(sources.ld.decisions, decisions);
     } else {
         let decisionsOrig = decisions;
-        writeFile(results.json.decisionsOrig, decisionsOrig);
-        decisions = JSON.parse(readFile(results.json.decisions));
+        writeFile(sources.ld.decisionsOrig, decisionsOrig);
+        decisions = JSON.parse(readFile(sources.ld.decisions));
         if (!isSortedObjects(decisions, ["caseId"])) {
             sortObjects(decisions, ["caseId"]);
-            writeFile(results.json.decisions, decisions);
+            writeFile(sources.ld.decisions, decisions);
         }
         if (!compareObjectArrays(decisions, decisionsOrig, "caseId")) {
             printf("compare found mismatches\n");
@@ -2605,7 +2604,7 @@ function buildJustices(done)
             justicesOyez.push(justice);
         }
     });
-    writeFile(results.json.justices, justicesOyez);
+    writeFile(sources.ld.justices, justicesOyez);
     done();
 }
 
@@ -3184,7 +3183,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 
     let decisionsAudited = [];
     let decisionsDuplicated = [];
-    let decisions = JSON.parse(readFile(results.json.decisions));
+    let decisions = JSON.parse(readFile(sources.ld.decisions));
     printf("decisions available: %d\n", decisions.length);
     let lonerBackup = JSON.parse(readFile(_data.lonerBackup) || "[]");
 
@@ -3193,8 +3192,8 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let data = JSON.parse(!argv['overwrite'] && readFile(dataFile) || "[]");
     let vars = JSON.parse(readFile(sources.scdb.vars) || "{}");
     let courtsSCDB = readSCDBCourts();
-    // let courts = JSON.parse(readFile(results.json.courts) || "[]");
-    let justices = JSON.parse(readFile(results.json.justices) || "[]");
+    // let courts = JSON.parse(readFile(sources.ld.courts) || "[]");
+    let justices = JSON.parse(readFile(sources.ld.justices) || "[]");
 
     do {
         let year = 0;
@@ -3400,7 +3399,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     /*
                      * One of the few times we eliminate the need for --overwrite, since you already have to specify --reason...
                      */
-                    writeFile(results.json.decisions, decisions, true);
+                    writeFile(sources.ld.decisions, decisions, true);
                 }
             }
             done();
@@ -3614,7 +3613,7 @@ function findJustices(done, minVotes)
     if (!data.length) {
         let dataBuckets = {};
         let vars = JSON.parse(readFile(sources.scdb.vars));
-        let justices = JSON.parse(readFile(results.json.justices));
+        let justices = JSON.parse(readFile(sources.ld.justices));
         justices.forEach((justice) => {
             if (justice.scdbJustice) {
                 let id = vars.justice.values[justice.scdbJustice];
@@ -3761,8 +3760,8 @@ function findLonerParties(done)
     let pageName = sprintf("Loner Parties");
     let pathName = "/trivia/parties";
     let fileName = "/_pages" + pathName + ".md";
-    let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: page\n---\n';
-
+    let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: page\n---\n\n';
+    text += "When is a Lone Dissent not a Lone Dissent?  When multiple Lone Dissents are handed down on the *same day*\n";
     let dates = Object.keys(dateBuckets);
     dates.sort();
     dates.forEach((date) => {
@@ -3899,7 +3898,7 @@ function matchTXTDates(done)
 {
     let monthBucket = [];
     printf("reading SCDB decisions...\n");
-    let decisions = JSON.parse(readFile(results.json.decisions));
+    let decisions = JSON.parse(readFile(sources.ld.decisions));
     printf("sorting SCDB decisions by [usCite]...\n");
     sortObjects(decisions, ["usCite"]);
     printf("reading U.S. Reports texts...\n");
@@ -3998,7 +3997,7 @@ function matchXMLDates(done)
     let changes = 0;
     let databaseUpdates = "";
     printf("reading SCDB decisions...\n");
-    let decisions = JSON.parse(readFile(results.json.decisions));
+    let decisions = JSON.parse(readFile(sources.ld.decisions));
     printf("sorting SCDB decisions by [usCite,dateDecision]...\n");
     sortObjects(decisions, ["usCite","dateDecision"]);
     printf("reading decisionsXML records...\n");
@@ -4061,7 +4060,7 @@ function matchXMLDates(done)
     }
     if (changes) {
         sortObjects(decisions, ["caseId"]);
-        writeFile(results.json.decisions, decisions);
+        writeFile(sources.ld.decisions, decisions);
         printf("%s", databaseUpdates);      // also print out all the requested updates in case writeFile() was not allowed
     }
     done();
@@ -4076,7 +4075,7 @@ function matchTranscripts(done)
 {
     let changes = 0, exceptions = 0;
     printf("reading SCDB decisions...\n");
-    let decisions = JSON.parse(readFile(results.json.decisions));
+    let decisions = JSON.parse(readFile(sources.ld.decisions));
     if (!isSortedObjects(decisions, ["caseId"])) {
         warning("decisions not sorted properly\n");
         done();
@@ -4092,7 +4091,7 @@ function matchTranscripts(done)
     transcriptPage += "In addition, transcripts that don't have exact matches in OYEZ have been noted under [Missing OYEZ Transcripts](#missing-oyez-transcripts).\n\n";
 
     printf("reading transcripts...\n");
-    let transcripts = readCSV(results.csv.transcripts, "", "html");
+    let transcripts = readCSV(sources.ld.transcripts.csv, "", "html");
     sortObjects(transcripts, ["dateArgument", "docket"]);
 
     let filePaths = glob.sync(rootDir + sources.scotus.transcripts);
@@ -4382,7 +4381,7 @@ function matchTranscripts(done)
 
     if (updates) {
         printf("%d transcript updates\n", updates);
-        writeCSV(results.csv.transcripts, newTranscripts);
+        writeCSV(sources.ld.transcripts.csv, newTranscripts);
     }
 
     if (exceptions) {
@@ -4391,7 +4390,7 @@ function matchTranscripts(done)
 
     if (changes) {
         printf("%d decision changes\n", updates);
-        writeFile(results.json.decisions, decisions);
+        writeFile(sources.ld.decisions, decisions);
     }
 
     if (databaseUpdates) {
@@ -4459,8 +4458,8 @@ function searchTranscripts(done)
 function fixDecisions(done)
 {
     // let vars = JSON.parse(readFile(sources.scdb.vars) || "{}");
-    // let courts = JSON.parse(readFile(results.json.courts) || "[]");
-    // let justices = JSON.parse(readFile(results.json.justices) || "[]");
+    // let courts = JSON.parse(readFile(sources.ld.courts) || "[]");
+    // let justices = JSON.parse(readFile(sources.ld.justices) || "[]");
 
     let fixDates = false;
     let citesScotus = {}, citesLOC = {}, yearsScotus = {};
@@ -4469,7 +4468,7 @@ function fixDecisions(done)
     let courtsSCDB = [], decisionsScotus = {};
 
     if (argv['citations']) {
-        citations = readCSV(results.csv.citations, "", "html");
+        citations = readCSV(sources.ld.citations.csv, "", "html");
         for (let i = 0; i < citations.length; i++) {
             let citation = citations[i];
             if (citation.volume) {
@@ -4489,7 +4488,7 @@ function fixDecisions(done)
          *
          *      volume, page, caseTitle, usCite
          */
-        citationsLOC = readCSV(results.csv.citationsLOC, "", "html");
+        citationsLOC = readCSV(sources.ld.citationsLOC.csv, "", "html");
         for (let i = 0; i < citationsLOC.length; i++) {
             let citation = citationsLOC[i];
             if (citation.volume) {
@@ -4500,7 +4499,7 @@ function fixDecisions(done)
             }
         }
 
-        // let citationsJustia = readCSV(results.csv.citationsJustia, "", "html");
+        // let citationsJustia = readCSV(sources.ld.citationsJustia.csv, "", "html");
         // for (let i = 0; i < citationsJustia.length; i++) {
         //     let citation = citationsJustia[i];
         //     if (citation.volume) {
@@ -4528,7 +4527,7 @@ function fixDecisions(done)
     }
 
     let changes = 0, citesDecisions = {};
-    let decisions = JSON.parse(readFile(results.json.decisions));
+    let decisions = JSON.parse(readFile(sources.ld.decisions));
     for (let i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
         if (decision.usCite) {
@@ -4773,7 +4772,7 @@ function fixDecisions(done)
 
     if (changes) {
         printf("changes: %d\n", changes);
-        writeFile(results.json.decisions, decisions);
+        writeFile(sources.ld.decisions, decisions);
     }
 
     if (warnings) printf("warnings: %d\n", warnings);
@@ -4917,8 +4916,8 @@ function fixOyezDocketNumber(docket)
 function fixLOC(done)
 {
     let success = true;
-    let rowsLOC = readCSV(results.csv.citationsLOC);
-    let rowsMisc = readCSV(results.csv.miscLOC);
+    let rowsLOC = readCSV(sources.ld.citationsLOC.csv);
+    let rowsMisc = readCSV(sources.ld.miscLOC.csv);
     let rowsAll = [rowsLOC, rowsMisc];
     rowsAll.forEach((rows) => {
         if (!isSortedObjects(rows, ["volume", "page", "caseTitle"], true)) {
@@ -4987,7 +4986,7 @@ function fixLOC(done)
             }
             if (updates) {
                 printf("updates: %d\n", updates);
-                writeCSV(results.csv.citationsLOC, rowsLOC);
+                writeCSV(sources.ld.citationsLOC.csv, rowsLOC);
             }
         }
     }
@@ -5237,7 +5236,7 @@ function generateDownloadTasks(done)
             }
         });
     });
-    let rowsLOC = readCSV(results.csv.citationsLOC);
+    let rowsLOC = readCSV(sources.ld.citationsLOC.csv);
     rowsLOC.forEach((cite) => {
         getLOCPDF(cite.volume, cite.page, cite.pageURL);
     });
@@ -5438,7 +5437,7 @@ function mergeSCDBDockets(done)
 {
     let changes = 0;
     printf("reading SCDB decisions...\n");
-    let decisions = JSON.parse(readFile(results.json.decisions));
+    let decisions = JSON.parse(readFile(sources.ld.decisions));
     if (!isSortedObjects(decisions, ["caseId"])) {
         warning("decisions not sorted by [caseId]\n");
         done();
@@ -5495,7 +5494,7 @@ function mergeSCDBDockets(done)
     }
     if (changes) {
         printf("changes: %d\n", changes);
-        writeFile(results.json.decisions, decisions);
+        writeFile(sources.ld.decisions, decisions);
     }
     done();
 }
@@ -5508,11 +5507,11 @@ function mergeSCDBDockets(done)
 function reportChanges(done)
 {
     printf("reading SCDB decisions...\n");
-    let decisions = JSON.parse(readFile(results.json.decisions));
+    let decisions = JSON.parse(readFile(sources.ld.decisions));
     printf("sorting SCDB decisions by [usCite,caseTitle]...\n");
     sortObjects(decisions, ["usCite","caseTitle"]);
-    printf("comparing date records in %s to SCDB...\n", results.csv.dates);
-    let rows = readCSV(results.csv.dates);
+    printf("comparing date records in %s to SCDB...\n", sources.ld.dates.csv);
+    let rows = readCSV(sources.ld.dates.csv);
     rows.forEach((row) => {
         let usCite = row.usCite;
         let caseTitle = row.caseTitle;
@@ -5536,7 +5535,7 @@ function reportChanges(done)
         }
     });
     sortObjects(decisions, ["dateDecision"]);
-    let decisionsOrig = JSON.parse(readFile(results.json.decisionsOrig));
+    let decisionsOrig = JSON.parse(readFile(sources.ld.decisionsOrig));
     printf("\nlist of date corrections made to SCDB\n");
     decisions.forEach((decision) => {
         if (decision.caseNotes) {

@@ -5,23 +5,23 @@ permalink: /blog/2018/12/21/
 
 In preparation for building this website, a few important data files were created first:
 
-- [courts.json](/results/courts.json)
-- [decisions.json](/results/decisions.json)
-- [justices.json](/results/justices.json)
-- [citations.csv](/results/citations.csv)
-- [dates.csv](/results/dates.csv)
-- [transcripts.csv](/results/transcripts.csv)
+- [courts.json](/sources/ld/courts.json)
+- [decisions.json](/sources/ld/decisions.json)
+- [justices.json](/sources/ld/justices.json)
+- [citations.csv](/sources/ld/citations.csv)
+- [dates.csv](/sources/ld/dates.csv)
+- [transcripts.csv](/sources/ld/transcripts.csv)
 
-Most of our [Court](/results/courts.json) and [Justice](/results/justices.json) data came
-from [Oyez](https://www.oyez.org/), while most of the [Decision](/results/decisions.json)
+Most of our [Court](/sources/ld/courts.json) and [Justice](/sources/ld/justices.json) data came
+from [Oyez](https://www.oyez.org/), while most of the [Decision](/sources/ld/decisions.json)
 data was imported from [CSV files](https://github.com/jeffpar/lonedissent/tree/master/sources/scdb)
 provided by the [Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB[*](#citing-to-the-scdb).
 
-Additionally, our [Citations](/results/citations.csv) come from the Supreme Court's
+Additionally, our [Citations](/sources/ld/citations.csv) come from the Supreme Court's
 [Case Citation Finder](https://www.supremecourt.gov/opinions/casefinder.aspx), including
-numerous corrections from [Citations](/results/citationsLOC.csv) extracted from the
+numerous corrections from [Citations](/sources/ld/citationsLOC.csv) extracted from the
 [Library of Congress](https://www.loc.gov/collections/united-states-reports/?st=list),
-and [Argument and Decision Dates](/results/dates.csv) of early cases have been extracted from the
+and [Argument and Decision Dates](/sources/ld/dates.csv) of early cases have been extracted from the
 Supreme Court Library document
 "[DATES OF SUPREME COURT DECISIONS AND ARGUMENTS: UNITED STATES REPORTS VOLUMES 2 – 107 (1791 – 1882)](/sources/scotus/dates/decisionDates.pdf)".
 
@@ -230,7 +230,7 @@ modern times.  Take this pair of warnings:
     warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has unusual decision day: Saturday, March 7, 1807
 
 The fact that an SCDB decision date falls on a Saturday *and* differs from the SCOTUS decision date strongly suggests
-that the SCDB date is wrong.  We will be relying on [our own import](https://github.com/jeffpar/lonedissent/blob/master/results/dates.csv)
+that the SCDB date is wrong.  We will be relying on [our own import](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/dates.csv)
 of SCOTUS decision dates until this gets resolved.
 
 Our list of warnings also includes cases appearing in the SCOTUS [Dates of Decisions](/sources/scotus/dates/decisionDates.pdf) document

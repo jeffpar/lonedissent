@@ -90,7 +90,7 @@ Unfortunately, SCDB appears to have morphed such dates into the first day of the
 
 NOTE: As a public service, I have extracted all the decision dates *and* argument dates from the Supreme Court's
 [Dates of Supreme Court Decisions and Arguments](/sources/scotus/dates/decisionDates.pdf) and produced
-an easy-to-use [CSV file](/results/dates.csv).  I recommend using this file instead of the one on the
+an easy-to-use [CSV file](/sources/ld/dates.csv).  I recommend using this file instead of the one on the
 [Free Law](https://free.law/2011/05/25/updated-supreme-court-case-dates-and-the-first-release-of-early-scotus-data-in-machine-readable-form/) website,
 because the last time I checked, the dates in their file were badly scrambled, and it didn't include any argument dates.
 The dates on the first few lines of their file:
