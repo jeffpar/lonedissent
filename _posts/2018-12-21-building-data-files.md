@@ -15,7 +15,7 @@ In preparation for building this website, a few important data files were create
 Most of our [Court](/results/courts.json) and [Justice](/results/justices.json) data came
 from [Oyez](https://www.oyez.org/), while most of the [Decision](/results/decisions.json)
 data was imported from [CSV files](https://github.com/jeffpar/lonedissent/tree/master/sources/scdb)
-provided by the [Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB[[*](#citing-to-the-scdb)].
+provided by the [Supreme Court Database](http://scdb.wustl.edu/index.php), aka SCDB[*](#citing-to-the-scdb).
 
 Additionally, our [Citations](/results/citations.csv) come from the Supreme Court's
 [Case Citation Finder](https://www.supremecourt.gov/opinions/casefinder.aspx), including
@@ -293,7 +293,7 @@ for SCDB's latest release ("2018 Release 02") still say nothing more than:
 
     Minor corrections
 
-## Citing to the SCDB
+### Citing to the SCDB
 
 Since we use the SCDB, we shall cite it.  In fact, we shall go one step better, and *recite* their
 [instructions](http://supremecourtdatabase.org/documentation.php?var=cite) on how one should cite:
