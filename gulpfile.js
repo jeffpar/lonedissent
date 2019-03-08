@@ -3810,6 +3810,9 @@ function getDateMarkers(text)
  */
 function listBriefs(done)
 {
+    let decisions = JSON.parse(readFile(_data.allDecisions));
+    printf("sorting SCDB decisions by [usCite]...\n");
+    sortObjects(decisions, ["usCite"]);
     let indexPath = "/_pages/briefs/featured/index.md";
     let index = readFile(indexPath);
     if (!index) {
@@ -3820,16 +3823,26 @@ function listBriefs(done)
         index += "---\n\n";
     }
     let buckets = [1945, 1964, 1972, 2019];
-    let match, re = /- \[(.*?) \(([0-9]+)\)\]\(\/briefs\/featured\/(.*?)\)/g;
+    let match, re = /- \[(.*?), ([0-9]+) U\.?S\.? ([0-9]+) \(([0-9]+)\)\]\(\/briefs\/featured\/(.*?)\)/g;
     while ((match = re.exec(index))) {
-        let caseName = match[1];
-        let year = +match[2];
-        let folderName = match[3];
+        let caseTitle = match[1];
+        let volume = +match[2];
+        let page = +match[3];
+        let year = +match[4];
+        let folderName = match[5];
+        let usCite = sprintf("%d U.S. %d", volume, page);
+        let caseTitleSearch = (caseTitle == "Bailey v. Drexel Furniture Co."? "Child Labor Tax Case" : caseTitle);
+        let iDecision = searchSortedObjects(decisions, {usCite}, {caseTitle: caseTitleSearch});
+        if (iDecision > 0) {
+            let decision = decisions[iDecision];
+            let link = sprintf("- [%s](%s), [%s](%s) (%d)", caseTitle, "/briefs/featured/" + folderName, usCite, "/cases/all/" + decision.termId + "#" + decision.caseId, year);
+            index = index.substr(0, match.index) + link + index.substr(match.index + match[0].length);
+        }
         let briefFile = "/_pages/briefs/featured/" + folderName + ".md";
         let briefList = readFile(briefFile);
         if (briefList) continue;
         briefList = "---\n";
-        briefList += "title: \"" + caseName + " (" + year + ")\"\n";
+        briefList += "title: \"" + caseTitle + " " + usCite + " (" + year + ")\"\n";
         briefList += "permalink: /briefs/featured/" + folderName + "\n";
         briefList += "layout: page\n";
         briefList += "---\n\n";
