@@ -4,6 +4,10 @@ permalink: /briefs/featured/korematsu-v-united-states
 layout: page
 ---
 
+## Briefs
+
+The following briefs were scanned in September 2017 from [originals](#pictures-from-the-university-of-washington-law-library) held at the University of Washington Law Library.
+
 - [Petition For Writ Of Certiorari and Brief In Support Thereof](https://briefs1.lonedissent.org/1944/korematsu-v-united-states/1944-02-08--Korematsu%20v.%20US--Petition%20For%20Writ%20Of%20Certiorari%20and%20Brief%20In%20Support%20Thereof.pdf)
 - [Brief for Appellant](https://briefs1.lonedissent.org/1944/korematsu-v-united-states/1944-09-16--Korematsu%20v.%20US--Brief%20for%20Appellant.pdf)
 - [Brief For The United States](https://briefs1.lonedissent.org/1944/korematsu-v-united-states/1944-10-05--Korematsu%20v.%20US--Brief%20For%20The%20United%20States.pdf)
@@ -14,3 +18,11 @@ layout: page
 ## Related Documents
 
 - [Fancy Dancing In The Marble Palace](https://briefs1.lonedissent.org/1944/korematsu-v-united-states/Fancy%20Dancing%20In%20The%20Marble%20Palace.pdf)
+
+## Pictures from the University of Washington Law Library
+
+![U.W. Law Library Rows](https://briefs1.lonedissent.org/1944/korematsu-v-united-states/US%20Supreme%20Court%20Briefs%20%281939-1944%29.jpg)
+
+![U.W. Law Library Shelves](https://briefs1.lonedissent.org/1944/korematsu-v-united-states/US%20Supreme%20Court%20Briefs%20%281944%20Volumes%29.jpg)
+
+![U.W. Law Library Briefs](https://briefs1.lonedissent.org/1944/korematsu-v-united-states/US%20Supreme%20Court%20Briefs%20%281944%20Volume%205%20Cases%2022-25%29.jpg)
