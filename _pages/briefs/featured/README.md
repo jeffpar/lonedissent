@@ -55,6 +55,7 @@ layout: page
 - [Hirabayashi v. United States](/briefs/featured/hirabayashi-v-united-states), [320 U.S. 81](/cases/all/1942-10#1942-044) (1943)
 - [FPC v. Hope Natural Gas Co.](/briefs/featured/fpc-v-hope-natural-gas-co), [320 U.S. 591](/cases/all/1943-10#1943-044) (1944)
 - [Yakus v. U.S.](/briefs/featured/yakus-v-us), [321 U.S. 414](/cases/all/1943-10#1943-087) (1944)
+- [Korematsu v. Unitied States](/briefs/featured/korematsu-v-united-states), [323 U.S. 214](/cases/all/1944-10#1944-018) (1944)
 - [Associated Press v. U. S.](/briefs/featured/associated-press-v-u-s), [326 U.S. 1](/cases/all/1944-10#1944-099) (1945)
 - [Marsh v. Alabama](/briefs/featured/marsh-v-alabama), [326 U.S. 501](/cases/all/1945-10#1945-118) (1945)
 - [Colegrove v. Green](/briefs/featured/colegrove-v-green), [328 U.S. 549](/cases/all/1945-10#1945-024) (1946)

@@ -3917,13 +3917,13 @@ function listBriefs(done)
         index += "---\n\n";
     }
     let buckets = [1945, 1964, 1972, 2019];
-    let match, re = /- \[(.*?), ([0-9]+) U\.?S\.? ([0-9]+) \(([0-9]+)\)\]\(\/briefs\/featured\/(.*?)\)/g;
+    let match, re = /- \[(.*?)\]\(\/briefs\/featured\/(.*?)\), \[([0-9]+) U\.?S\.? ([0-9]+)\]\((.*?)\) \(([0-9]+)\)/g;
     while ((match = re.exec(index))) {
         let caseTitle = match[1];
-        let volume = +match[2];
-        let page = +match[3];
-        let year = +match[4];
-        let folderName = match[5];
+        let volume = +match[3];
+        let page = +match[4];
+        let year = +match[6];
+        let folderName = match[2];
         let usCite = sprintf("%d U.S. %d", volume, page);
         let caseTitleSearch = (caseTitle == "Bailey v. Drexel Furniture Co."? "Child Labor Tax Case" : caseTitle);
         let iDecision = searchSortedObjects(decisions, {usCite}, {caseTitle: caseTitleSearch});
@@ -3933,6 +3933,7 @@ function listBriefs(done)
             index = index.substr(0, match.index) + link + index.substr(match.index + match[0].length);
         }
         let briefFile = "/_pages/briefs/featured/" + folderName + ".md";
+        printf("searching for: %s\n", briefFile);
         let briefList = readFile(briefFile);
         if (briefList) continue;
         briefList = "---\n";
