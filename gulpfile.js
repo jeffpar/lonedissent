@@ -810,7 +810,7 @@ function addCSV(text, obj, keys, ...pairs)
     }
     let line = "";
     for (let i = 0; i < keys.length; i++) {
-        let s = obj[keys[i]];
+        let s = obj[keys[i]] || "";
         if (typeof s == "string") s = '"' + he.decode(s).replace(/"/g, '""') + '"';
         if (line) line += ',';
         line += s;
@@ -4744,15 +4744,30 @@ function fixDecisions(done)
                  */
                 let decisionScotus = decisionsScotus[iDecisionScotus];
                 if (decisionScotus.dateArgument != decision.dateArgument) {
-                    if (decisionScotus.dateArgument.indexOf(decision.dateArgument) < 0) {
+                    // if (decisionScotus.dateArgument.indexOf(decision.dateArgument) < 0) {
                         warning("%s (%s) has dateArgument %s\n", decision.caseTitle || decision.caseName, decision.usCite, decision.dateArgument);
                         warning("%s (%s) has SCOTUS dateArgument %s\n\n", decisionScotus.caseTitle, decisionScotus.usCite, decisionScotus.dateArgument);
-                    }
+                        changedDates = addCSV(changedDates, decision, ["caseId", "usCite", "caseName", "dateDecision", "dateDecisionNew", "dateArgument"], "dateArgumentNew", decisionScotus.dateArgument);
+                        if (!decision.caseNotes) {
+                            decision.caseNotes = "";
+                        } else {
+                            decision.caseNotes += ";";
+                        }
+                        decision.caseNotes += "replaced dateArgument " + decision.dateArgument + " (correction from decisionDates.pdf)";
+                        decision.dateArgument = decisionScotus.dateArgument;
+                        changes++;
+                    // }
                 }
                 if (decisionScotus.dateDecision != decision.dateDecision) {
                     warning("%s (%s) has dateDecision %s\n", decision.caseTitle || decision.caseName, decision.usCite, decision.dateDecision);
                     warning("%s (%s) has SCOTUS dateDecision %s\n\n", decisionScotus.caseTitle, decisionScotus.usCite, decisionScotus.dateDecision);
                     changedDates = addCSV(changedDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dateDecisionNew", decisionScotus.dateDecision);
+                    if (!decision.caseNotes) {
+                        decision.caseNotes = "";
+                    } else {
+                        decision.caseNotes += ";";
+                    }
+                    decision.caseNotes += "replaced dateDecision " + decision.date + " (correction from decisionDates.pdf)";
                     decision.dateDecision = decisionScotus.dateDecision;
                     changes++;
                 }
