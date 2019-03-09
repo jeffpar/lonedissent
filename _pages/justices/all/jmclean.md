@@ -1552,13 +1552,13 @@ cases:
     authorId: jmclean
     authorName: "John McLean"
   - id: "1849-018"
-    termId: "1845-12"
+    termId: "1848-12"
     title: "Passenger Cases"
     volume: "048"
     page: "283"
     usCite: "48 U.S. 283"
     pdfSource: "loc"
-    dateDecision: "Tuesday, December 9, 1845"
+    dateDecision: "Wednesday, February 7, 1849"
     voteMajority: 5
     voteMinority: 4
     authorId: jmclean

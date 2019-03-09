@@ -3004,13 +3004,13 @@ cases:
     authorId: jstory
     authorName: "Joseph Story"
   - id: "1844-010"
-    termId: "1843-01"
+    termId: "1844-01"
     title: "Vidal v. Philadelphia"
     volume: "043"
     page: "127"
     usCite: "43 U.S. 127"
     pdfSource: "loc"
-    dateDecision: "Monday, January 30, 1843"
+    dateDecision: "Tuesday, February 27, 1844"
     voteMajority: 7
     voteMinority: 0
     authorId: jstory
