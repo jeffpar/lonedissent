@@ -6,7 +6,7 @@ layout: page
 
 ## Briefs
 
-The following briefs were scanned in September 2017 from [originals](#pictures-from-the-university-of-washington-law-library) held at the University of Washington Law Library.
+The following briefs were scanned in September 2017 from originals held at the [University of Washington Law Library](#pictures-from-the-university-of-washington-law-library).
 
 - [Petition For Writ Of Certiorari and Brief In Support Thereof](https://briefs1.lonedissent.org/1944/korematsu-v-united-states/1944-02-08--Korematsu%20v.%20US--Petition%20For%20Writ%20Of%20Certiorari%20and%20Brief%20In%20Support%20Thereof.pdf)
 - [Brief for Appellant](https://briefs1.lonedissent.org/1944/korematsu-v-united-states/1944-09-16--Korematsu%20v.%20US--Brief%20for%20Appellant.pdf)
