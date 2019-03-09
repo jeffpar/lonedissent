@@ -344,6 +344,30 @@ I've logged some of those instances on my website (e.g., [missing cases](/logs/m
 (e.g. denials of cert), but that's not true in *all* such cases, so perhaps SCDB should consider creating a second
 much simpler table of cases that cites all the cases it has deliberately omitted.
 
+### 9. Undocumented Changes
+
+This is a broad category, encompassing every field of every record, and it's best illustrated with a simple example.
+
+The case "Ableman v. Booth (59 U.S. 479)" is recorded in SCDB with an argument date of "1856-01-04".  This is at odds
+with the argument data reported in the Supreme Court's "Dates of Supreme Court Decisions and Arguments" document, which
+reports *no* argument date for that case.  Remember, that's the document that SCDB *explicitly* says it relies on for
+dates in early cases such as this.
+
+One interpretation is that this is simply an SCDB error, in which case the argument date should be deleted from the next
+release.  However, typos typically manifest themselves as a mistake in one or two digits, not as an entirely new value
+appearing out of nowhere.
+
+Another interpretation is that SCDB, relying on some other (unspecified) primary source, discovered that the case had
+*indeed* been argued on January 4, 1856.
+
+And we have *no idea* which is the correct answer.  It's also quite likely that, at this moment, no one working on SCDB
+knows the correct answer, either.
+
+This is the fundamental problem with Andrew Martin's assertion that detailed differentials, change logs, etc, don't matter,
+and that end-users "can perform the differentials just as well as we can."  That is absolutely true, and also absolutely
+meaningless.  Without any explanation to accompany the growing number of corrections that are being made over time, the
+database becomes increasingly impossible to validate.
+
 ## Epilogue
 
 I long ago advocated for greater transparency in what SCDB chooses to add or correct in its database, including

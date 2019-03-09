@@ -1694,12 +1694,20 @@ function readOyezLabsDecisions()
                 decision.docket = getXMLValue(xml.case.caseDocket);
                 decision.term = getXMLValue(xml.case.caseTerm);
                 decision.dateArgument = "";
+                decision.dateRearg = "";
                 if (xml.case.caseArgumentDate) {
                     for (let i = 0; i < xml.case.caseArgumentDate.length; i++) {
                         let value = getXMLValue(xml.case.caseArgumentDate, false, i);
-                        if (decision.dateArgument.indexOf(value) < 0) {
-                            if (decision.dateArgument) decision.dateArgument += ',';
-                            decision.dateArgument += value;
+                        if (!xml.case.caseArgumentDate[i].$.reargument) {
+                            if (decision.dateArgument.indexOf(value) < 0) {
+                                if (decision.dateArgument) decision.dateArgument += ',';
+                                decision.dateArgument += value;
+                            }
+                        } else {
+                            if (decision.dateRearg.indexOf(value) < 0) {
+                                if (decision.dateRearg) decision.dateRearg += ',';
+                                decision.dateRearg += value;
+                            }
                         }
                     }
                 }
@@ -1829,27 +1837,6 @@ function readSCOTUSDecisions()
 {
     let startNext = null;
     let decisions = readCSV(sources.ld.dates_csv, "", "html");
-    //
-    // There are so many decision date differences in the Free Law/Court Listener CSV that the file is essentially worthless.  Sigh.
-    //
-    // let decisionsFreeLaw = readFile(sources.freelaw.decisionDates_csv);
-    // if (decisionsFreeLaw) {
-    //     let rowsFreeLaw = decisionsFreeLaw.split('\n');
-    //     for (let i = 0; i < rowsFreeLaw.length - 1; i++) {
-    //         rowsFreeLaw[i] = rowsFreeLaw[i].split('|');
-    //         rowsFreeLaw[i][1] = encodeString(rowsFreeLaw[i][1]);
-    //     }
-    //     for (let i = 0; i < rowsFreeLaw.length - 1; i++) {
-    //         if (rowsFreeLaw[i][1] != decisions[i].caseTitle) {
-    //             warning("FreeLaw row %d (%s) does not match SCOTUS row (%s)\n", i + 1, rowsFreeLaw[i][1], decisions[i].caseTitle);
-    //         }
-    //         if (rowsFreeLaw[i][4] != decisions[i].dateDecision) {
-    //             warning("FreeLaw row %d (%s) does not match SCOTUS row (%s)\n", i + 1, rowsFreeLaw[i][4], decisions[i].dateDecision);
-    //         }
-    //     }
-    // }
-    //
-    let decisionsScotus = {};
     for (let i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
         if (!decision.dateDecision) {
@@ -1864,10 +1851,8 @@ function readSCOTUSDecisions()
             let date = parseDate(decision.dateDecision);
             decision.dateDecision = sprintf("%#Y-%#02M-%#02D", date);
         }
-        if (!decisionsScotus[decision.usCite]) decisionsScotus[decision.usCite] = [];
-        decisionsScotus[decision.usCite].push(decision);
     }
-    return decisionsScotus;
+    return decisions;
 }
 
 /**
@@ -2517,6 +2502,38 @@ function buildCourts(done)
     }
 
     writeFile(sources.ld.courts_csv, csv);
+    done();
+}
+
+/**
+ * buildDates()
+ *
+ * @param {function()} done
+ */
+function buildDates(done)
+{
+    let rowsOyez = [], rowsOyezByYear = [];
+    printf("reading OYEZ case files...\n");
+    let filePaths = glob.sync(rootDir + path.join(path.dirname(sources.oyez.cases), "**/*.json"));
+    filePaths.forEach((filePath) => {
+        let row = readOyezCaseData(filePath);
+        if (row) {
+            row.dockets = row.docket;
+            let dockets = row.docket.split(',');
+            dockets.forEach((docket) => {
+                if (!row.datesArgued) return;
+                let dates = row.datesArgued.split(',');
+                dates.forEach((date) => {
+                    let rowNew = cloneObject(row);
+                    rowNew.docket = docket;
+                    rowNew.dateArgued = date;
+                    insertSortedObject(rowsOyez, rowNew, ["dateArgued","docket"]);
+                    rowNew.year = date.substr(0, 4);
+                    insertSortedObject(rowsOyezByYear, rowNew, ["year","dateArgument"]);
+                });
+            });
+        }
+    });
     done();
 }
 
@@ -4066,28 +4083,41 @@ function matchTXTDates(done)
 }
 
 /**
- * matchXMLDates(done)
+ * matchDates(done)
  *
  * @param {function()} done
  */
-function matchXMLDates(done)
+function matchDates(done)
 {
     let changes = 0;
     let databaseUpdates = "";
+
+    let addTypes = ["addDecided", "addArgued", "addReargued"];
+    let dateTypes = ["dateDecision", "dateArgument", "dateRearg"];
+
+    if (argv['match'] && dateTypes.indexOf(argv['match']) < 0) {
+        warning("unrecognized --match argument: %s\n", argv['match']);
+        done();
+        return;
+    }
+
     printf("reading SCDB decisions...\n");
     let decisions = JSON.parse(readFile(sources.ld.decisions));
+
     printf("sorting SCDB decisions by [usCite,dateDecision]...\n");
     sortObjects(decisions, ["usCite","dateDecision"]);
+
     printf("reading decisionsXML records...\n");
     let decisionsXML = readOyezLabsDecisions();
     decisionsXML.forEach((decision) => {
         if (decision.usCite.indexOf('_') >= 0) decision.usCite = "";
     });
+
     printf("sorting decisionsXML by usCite and dateDecision...\n");
     sortObjects(decisionsXML, ["usCite","dateDecision"]);
 
     for (let i = 0; i < decisions.length; i++) {
-        let decision = decisions[i];
+        let decision = decisions[i], dateType = dateTypes[0];
         /*
          * We skip the first 107 volumes, because they're old, they didn't scan well, and for the most part,
          * they didn't include any dates anyway.  Besides, volumes 1-107 are already covered by the Supreme Court's
@@ -4102,38 +4132,46 @@ function matchXMLDates(done)
         let iXML = searchSortedObjects(decisionsXML, {usCite}, {caseTitle});
         if (iXML >= 0) {
             let decisionXML = decisionsXML[iXML];
-            if (decisionXML.dateDecision) {
-                if (decision.dateDecision != decisionXML.dateDecision) {
-                    let urlLOC = getLOCURL(decision.usCite);
-                    let tag = "dateDecision from " + urlLOC;
-                    if (decision.caseNotes && decision.caseNotes.indexOf(tag)) continue;
-                    printf("\n%s (%s) has date %#C\nsee %s\n", caseTitle, decision.usCite, decision.dateDecision, urlLOC);
-                    let selections = [sprintf("%s (%s) XML date %#C", decisionXML.caseTitle, decisionXML.usCite, decisionXML.dateDecision), "Original date verified", "No change"];
-                    let select = readLineSync.keyInSelect(selections, "Selection?", {cancel: true});
-                    if (select < 0) break;
-                    let reason = "";
-                    if (select == 0) {
-                        decision.dateDecision = decisionXML.dateDecision;
-                        reason = "replaced " + tag;
-                        databaseUpdates += "gulp --cite=\"" + usCite + "\" --replace --addDecided=" + decisionXML.dateDecision + " --reason=\"" + reason + "\"\n";
-                        changes++;
-                    } else if (select == 1) {
-                        reason = "verified " + tag;
-                        databaseUpdates += "gulp --cite=\"" + usCite + "\" --reason=\"" + reason + "\"\n";
-                        changes++;
-                    }
-                    if (reason) {
-                        if (!decision.caseNotes) {
-                            decision.caseNotes = "";
-                        } else {
-                            decision.caseNotes += ";";
+            for (let iType = 0; iType < dateTypes.length; iType++) {
+                dateType = dateTypes[iType];
+                if (argv['match'] && dateType != argv['match']) continue;
+                if (decisionXML[dateType]) {
+                    if (decision[dateType] != decisionXML[dateType]) {
+                        let urlLOC = getLOCURL(decision.usCite);
+                        let tag = dateType + " from " + urlLOC;
+                        if (decision.caseNotes && decision.caseNotes.indexOf(tag)) continue;
+                        printf("\n%s, %s (%d) has %s %s\nsee %s\n", caseTitle, decision.usCite, decision.dateDecision.substr(0, 4), dateType, decision[dateType], urlLOC);
+                        let selections = [sprintf("%s, %s (%d) XML %s %s", decisionXML.caseTitle, decisionXML.usCite, decisionXML.year, dateType, decisionXML[dateType]), "Original date verified", "No change"];
+                        let select = readLineSync.keyInSelect(selections, "Selection?", {cancel: true});
+                        if (select < 0) {
+                            iXML = -1;
+                            break;
                         }
-                        decision.caseNotes += reason;
+                        let reason = "";
+                        if (select == 0) {
+                            decision[dateType] = decisionXML[dateType];
+                            reason = "replaced " + tag;
+                            databaseUpdates += "gulp --cite=\"" + usCite + "\" --replace --" + addTypes[iType] + "=\"" + decisionXML[dateType] + "\" --reason=\"" + reason + "\"\n";
+                            changes++;
+                        } else if (select == 1) {
+                            reason = "verified " + tag;
+                            databaseUpdates += "gulp --cite=\"" + usCite + "\" --reason=\"" + reason + "\"\n";
+                            changes++;
+                        }
+                        if (reason) {
+                            if (!decision.caseNotes) {
+                                decision.caseNotes = "";
+                            } else {
+                                decision.caseNotes += ";";
+                            }
+                            decision.caseNotes += reason;
+                        }
                     }
                 }
             }
+            if (iXML < 0) break;
         } else {
-            warning("%s (%s) dateDecision [%s]: no XML match\n", caseTitle, decision.usCite, decision.dateDecision);
+            warning("%s (%s) %s [%s]: no OYEZ match\n", caseTitle, decision.usCite, dateType, decision[dateType]);
         }
     }
     if (changes) {
@@ -4543,7 +4581,7 @@ function fixDecisions(done)
     let citesScotus = {}, citesLOC = {}, yearsScotus = {};
     let citations = [], citationsLOC = [];
     let citesLabs = {}, decisionsLabs = [];
-    let courtsSCDB = [], decisionsScotus = {};
+    let courtsSCDB = [], decisionsScotus = [];
 
     if (argv['citations']) {
         citations = readCSV(sources.ld.citations_csv, "", "html");
@@ -4592,6 +4630,7 @@ function fixDecisions(done)
     if (argv['dates']) {
         fixDates = true;
         decisionsScotus = readSCOTUSDecisions();
+        sortObjects(decisionsScotus, ["usCite"]);
     }
     if (argv['oyezlabs']) {
         decisionsLabs = readOyezLabsDecisions();
@@ -4698,23 +4737,23 @@ function fixDecisions(done)
                 }
             }
             citesSCDB[decision.usCite].push(decision);
-            let datesScotus = decisionsScotus[decision.usCite];
-            if (datesScotus) {
+            let iDecisionScotus = searchSortedObjects(decisionsScotus, {usCite: decision.usCite}, {caseTitle: decision.caseTitle || decision.caseName});
+            if (iDecisionScotus >= 0) {
                 /*
                  * The "--dates" option must have been specified.
                  */
-                for (i = 0; i < datesScotus.length; i++) {
-                    citeDate = datesScotus[i];
-                    if (decision.dateDecision == citeDate.dateDecision && !citeDate.matched) {
-                        citeDate.matched = true;
-                        break;
+                let decisionScotus = decisionsScotus[iDecisionScotus];
+                if (decisionScotus.dateArgument != decision.dateArgument) {
+                    if (decisionScotus.dateArgument.indexOf(decision.dateArgument) < 0) {
+                        warning("%s (%s) has dateArgument %s\n", decision.caseTitle, decision.usCite, decision.dateArgument);
+                        warning("%s (%s) has SCOTUS dateArgument %s\n\n", decisionScotus.caseTitle, decisionScotus.usCite, decisionScotus.dateArgument);
                     }
                 }
-                if (i == datesScotus.length && citeDate.dateDecision && decision.dateDecision != citeDate.dateDecision) {
-                    citeDate.matched = true;
-                    warning("%s (%s) has decision date %s instead of SCOTUS date %s\n", decision.caseName, decision.usCite, decision.dateDecision, citeDate.dateDecision);
-                    changedDates = addCSV(changedDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dateDecisionNew", citeDate.dateDecision);
-                    decision.dateDecision = citeDate.dateDecision;
+                if (decisionScotus.dateDecision != decision.dateDecision) {
+                    warning("%s (%s) has dateDecision %s\n", decision.caseName, decision.usCite, decision.dateDecision);
+                    warning("%s (%s) has SCOTUS dateDecision %s\n\n", decisionScotus.caseTitle, decisionScotus.usCite, decisionScotus.dateDecision);
+                    changedDates = addCSV(changedDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dateDecisionNew", decisionScotus.dateDecision);
+                    decision.dateDecision = decisionScotus.dateDecision;
                     changes++;
                 }
             }
@@ -4779,14 +4818,14 @@ function fixDecisions(done)
             }
         }
 
-        if (fixDates && (!citeDate || !citeDate.matched) && decision.dateDecision && decision.dateDecision.length == 10) {
-            let dateDecision = parseDate(decision.dateDecision);
-            let dayOfWeek = dateDecision.getUTCDay();
-            if (dayOfWeek == 0 || dayOfWeek == 6) {
-                warning("%s (%s) has unusual decision day: %#C\n", decision.caseName, decision.usCite, dateDecision);
-                unusualDates = addCSV(unusualDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dayOfWeek", sprintf("%#W", dateDecision) /*, "matchesSCOTUS", citeDate && citeDate.dateDecision == decision.dateDecision? true : false */);
-            }
-        }
+        // if (fixDates && (!citeDate || !citeDate.matched) && decision.dateDecision && decision.dateDecision.length == 10) {
+        //     let dateDecision = parseDate(decision.dateDecision);
+        //     let dayOfWeek = dateDecision.getUTCDay();
+        //     if (dayOfWeek == 0 || dayOfWeek == 6) {
+        //         warning("%s (%s) has unusual decision day: %#C\n", decision.caseName, decision.usCite, dateDecision);
+        //         unusualDates = addCSV(unusualDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dayOfWeek", sprintf("%#W", dateDecision) /*, "matchesSCOTUS", citeDate && citeDate.dateDecision == decision.dateDecision? true : false */);
+        //     }
+        // }
 
         if (courtsSCDB.length) {
             for (i = 0; i < courtsSCDB.length; i++) {
@@ -4808,16 +4847,16 @@ function fixDecisions(done)
         }
     });
 
-    let scotusCites = Object.keys(decisionsScotus);
-    scotusCites.forEach((usCite) => {
-        let datesScotus = decisionsScotus[usCite];
-        datesScotus.forEach((decisionScotus) => {
-            if (!decisionScotus.matched) {
-                warning("%s (%s) with SCOTUS decision date %s has no matching SCDB entry\n", decisionScotus.caseTitle, decisionScotus.usCite, decisionScotus.dateDecision);
-                missingCases = addCSV(missingCases, decisionScotus, ["usCite", "caseTitle", "dateDecision"]);
-            }
-        });
-    });
+    // let scotusCites = Object.keys(decisionsScotus);
+    // scotusCites.forEach((usCite) => {
+    //     let datesScotus = decisionsScotus[usCite];
+    //     datesScotus.forEach((decisionScotus) => {
+    //         if (!decisionScotus.matched) {
+    //             warning("%s (%s) with SCOTUS decision date %s has no matching SCDB entry\n", decisionScotus.caseTitle, decisionScotus.usCite, decisionScotus.dateDecision);
+    //             missingCases = addCSV(missingCases, decisionScotus, ["usCite", "caseTitle", "dateDecision"]);
+    //         }
+    //     });
+    // });
 
     if (argv['citations']) {
         decisions.forEach((decision) => {
@@ -5752,7 +5791,7 @@ gulp.task("briefs", listBriefs);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("convert", convertTranscripts);
 gulp.task("courts", buildCourts);
-gulp.task("dates", matchXMLDates);      // NOTE: matchTXTDates() was too sketchy, so we no longer use it
+gulp.task("dates", matchDates);         // NOTE: matchTXTDates() was too sketchy, so we no longer use it
 gulp.task("decisions", buildDecisions);
 gulp.task("journals", matchJournals);
 gulp.task("justices", buildJustices);
