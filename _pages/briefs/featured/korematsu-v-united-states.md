@@ -1,5 +1,5 @@
 ---
-title: "Korematsu v. Unitied States 323 U.S. 214 (1944)"
+title: "Korematsu v. United States 323 U.S. 214 (1944)"
 permalink: /briefs/featured/korematsu-v-united-states
 layout: page
 ---
