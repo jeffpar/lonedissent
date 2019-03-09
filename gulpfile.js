@@ -2072,7 +2072,7 @@ function buildAdvocates(done)
             }
         });
         sortObjects(top100, ["total"], -1);
-        let filePath = "/_pages" + pathAdvocates + "/all.md";
+        let filePath = "/_pages" + pathAdvocates + "/README.md";
         let text = readFile(filePath);
         if (text) {
             let match = text.match(/^([\s\S]*)\n## Top Advocates\n\n/);
@@ -3890,7 +3890,7 @@ function listBriefs(done)
     let decisions = JSON.parse(readFile(_data.allDecisions));
     printf("sorting SCDB decisions by [usCite]...\n");
     sortObjects(decisions, ["usCite"]);
-    let indexPath = "/_pages/briefs/featured/index.md";
+    let indexPath = "/_pages/briefs/featured/README.md";
     let index = readFile(indexPath);
     if (!index) {
         index = "---\n";
