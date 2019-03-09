@@ -364,7 +364,8 @@ knows the correct answer, either.
 This is the fundamental problem with Andrew Martin's assertion that detailed differentials, change logs, etc, don't matter,
 and that end-users "can perform the differentials just as well as we can."  That is absolutely true, and also absolutely
 meaningless.  Without any explanation to accompany the growing number of corrections that are being made over time, the
-database becomes increasingly impossible to validate.
+database becomes increasingly impossible to validate, because the sources of the underlying data, as well as any changes
+made to that data and the reasons for those changes, are kept private -- if they are kept at all.
 
 ## Epilogue
 
