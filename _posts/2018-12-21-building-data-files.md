@@ -318,6 +318,4 @@ Note that indicating which release you are using is a matter "*of great importan
     
 Which is puzzling, since SCDB consistently refuses to describe, list, or otherwise explain exactly how
 any release differs from any other release.  The differences are invariably described as nothing more than
-"minor corrections."
-
-This leaves us with an oxymoron: minor corrections of great importance!
+"minor corrections" -- which can't be right if they are also "of great importance".
