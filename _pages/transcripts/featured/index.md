@@ -10,7 +10,7 @@ such as "Landmark Briefs and Arguments", and included them in this list of **Fea
 
 Our focus here is on cases that don't have an audio recording (i.e, pre-1955 cases), since
 [The Oyez Project](https://www.oyez.org) already does a fine job providing unofficial transcripts
-of all tape-recorded cases argued since October 1955.
+of all tape-recorded cases argued since October 1955.  See [Transcripts](/transcripts) for further discussion.
 
 ## October Term 1924
 
