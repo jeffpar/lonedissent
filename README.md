@@ -17,7 +17,7 @@ and then builds new term and index pages.  For example, to build the pages for t
 
     gulp loners --term=2017
 
-The data comes from [decisions.json](results/decisions.json), which was previously created by another
+The data comes from [decisions.json](sources/ld/decisions.json), which was previously created by another
 another Gulp task named `decisions`.  That task processed all the decision records in [decisions.csv](sources/scdb/decisions.csv) and generated the JSON file that the other tasks rely on for decision data.
 
 [lonerDecisions.json](_data/lonerDecisions.json) also indicates where the PDF containing the dissent is located,
