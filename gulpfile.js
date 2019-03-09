@@ -4745,12 +4745,12 @@ function fixDecisions(done)
                 let decisionScotus = decisionsScotus[iDecisionScotus];
                 if (decisionScotus.dateArgument != decision.dateArgument) {
                     if (decisionScotus.dateArgument.indexOf(decision.dateArgument) < 0) {
-                        warning("%s (%s) has dateArgument %s\n", decision.caseTitle, decision.usCite, decision.dateArgument);
+                        warning("%s (%s) has dateArgument %s\n", decision.caseTitle || decision.caseName, decision.usCite, decision.dateArgument);
                         warning("%s (%s) has SCOTUS dateArgument %s\n\n", decisionScotus.caseTitle, decisionScotus.usCite, decisionScotus.dateArgument);
                     }
                 }
                 if (decisionScotus.dateDecision != decision.dateDecision) {
-                    warning("%s (%s) has dateDecision %s\n", decision.caseName, decision.usCite, decision.dateDecision);
+                    warning("%s (%s) has dateDecision %s\n", decision.caseTitle || decision.caseName, decision.usCite, decision.dateDecision);
                     warning("%s (%s) has SCOTUS dateDecision %s\n\n", decisionScotus.caseTitle, decisionScotus.usCite, decisionScotus.dateDecision);
                     changedDates = addCSV(changedDates, decision, ["caseId", "usCite", "caseName", "dateDecision"], "dateDecisionNew", decisionScotus.dateDecision);
                     decision.dateDecision = decisionScotus.dateDecision;
