@@ -95,6 +95,8 @@ Then by [Statute](https://www.loc.gov/law/help/statutes-at-large/64th-congress/s
     in October, and such adjourned or special terms as it may find
     necessary for the dispatch of business."
 
+This final change took effect beginning with October Term 1917.
+
 ## Special Terms
 
 Ordinarily, we assume that a term ends *only* once the following term has begun.
