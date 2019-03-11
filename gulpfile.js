@@ -4114,7 +4114,7 @@ function matchDates(done)
         if (decision.usCite.indexOf('_') >= 0) decision.usCite = "";
     });
 
-    printf("sorting decisionsXML by usCite and dateDecision...\n");
+    printf("sorting decisionsXML by [usCite,dateDecision]...\n");
     sortObjects(decisionsXML, ["usCite","dateDecision"]);
 
     for (let i = 0; i < decisions.length; i++) {
@@ -4158,6 +4158,10 @@ function matchDates(done)
                             reason = "verified " + tag;
                             databaseUpdates += "gulp --cite=\"" + usCite + "\" --reason=\"" + reason + "\"\n";
                             changes++;
+                        } else {
+                            reason = "examined " + tag;
+                            databaseUpdates += "gulp --cite=\"" + usCite + "\" --reason=\"" + reason + "\"\n";
+                            changes++;
                         }
                         if (reason) {
                             if (!decision.caseNotes) {
@@ -4172,7 +4176,7 @@ function matchDates(done)
             }
             if (iXML < 0) break;
         } else {
-            warning("%s (%s) %s [%s]: no OYEZ match\n", caseTitle, decision.usCite, dateType, decision[dateType]);
+            warning("%s (%s) %s [%s]: no XML match\n", caseTitle, decision.usCite, dateType, decision[dateType]);
         }
     }
     if (changes) {

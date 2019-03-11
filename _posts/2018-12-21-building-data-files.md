@@ -35,10 +35,10 @@ but PDFs are *not* particularly easy to parse.  The next best thing is their
 but again, lots of work is required to turn all those HTML tables into something
 your code can ingest.
 
-So, we built a collection of [SCDB Variables](/sources/scdb/vars.json).  Then we wrote a
-script that reads every field of every record of [SCDB CSV Data](https://github.com/jeffpar/lonedissent/blob/master/sources/scdb/decisions.csv)
-and verifies that every field's value exists in the [SCDB Variables](/sources/scdb/vars.json)
-collection.
+So, we built a collection of [SCDB Variables](/sources/scdb/vars.json).
+Then we wrote a script that reads every field of every record of
+[SCDB CSV Data](https://github.com/jeffpar/lonedissent/blob/master/sources/scdb/decisions.csv)
+and verifies that every field's value exists in the [SCDB Variables](/sources/scdb/vars.json) collection.
 
 The script revealed the following discrepancies:
 
