@@ -2084,6 +2084,7 @@ function buildAdvocatesWomen(done)
     let dataFile = _data.allDecisions;
     let decisions = JSON.parse(readFile(dataFile) || "[]");
     sortObjects(decisions, ["volume", "page", "docket"]);
+    let oldTable = readCSV(sources.schs.women_advocates_csv.replace(".csv",".bak"));
     let text = readFile(sources.schs.women_advocates_txt);
     if (text) {
         text = text.replace(/^\s*$/gm, "").replace(/’/g, "'");  // make sure all blank lines are empty lines, so that the "\n\n" split will work as desired
@@ -2168,10 +2169,10 @@ function buildAdvocatesWomen(done)
                     biasAdvocate = (iAdvocate + 1) - numberAdvocate;
                 }
                 numberAdvocate = iAdvocate + 1;
-                if (uniqueAdvocates[iAdvocate].count != argsAdvocate) {
-                    message = sprintf("advocate arguments (%d) does not match running total (%d)", argsAdvocate, uniqueAdvocates[nameAdvocate]);
+                if (argsAdvocate != uniqueAdvocates[iAdvocate].count) {
+                    message = sprintf("advocate arguments (%d) does not match running total (%d)", argsAdvocate, uniqueAdvocates[iAdvocate].count);
                 }
-                let corrections = "";
+                let corrections = oldTable[argTable.length] && oldTable[argTable.length].corrections || "";
                 let argInfo = {
                     numberArgument, numberAdvocate, nameAdvocate, homeAdvocate, selfAdvocate, argsAdvocate, dateArgument, caseInfo, citeInfo, corrections
                 };
