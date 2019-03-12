@@ -102,6 +102,10 @@
     "justices_csv": "/sources/scdb/justices.csv",
     "dockets_csv": "/sources/scdb/SCDB_2018_02_caseCentered_Docket.csv"
   },
+  "schs": {
+    "women_advocates_csv": "/sources/schs/women-advocates-1880-2016.csv",
+    "women_advocates_txt": "/sources/schs/women-advocates-1880-2016.txt"
+  },
   "scotus": {
     "citationsHTML": "/sources/scotus/citations/*.*",
     "journals": "/sources/scotus/journals/*.txt",

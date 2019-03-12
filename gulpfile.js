@@ -2074,6 +2074,123 @@ function buildAdvocates(done)
 }
 
 /**
+ * buildAdvocateWomen()
+ *
+ * @param {function()} done
+ */
+function buildAdvocateWomen(done)
+{
+    let argTable = [];
+    let dataFile = _data.allDecisions;
+    let decisions = JSON.parse(readFile(dataFile) || "[]");
+    sortObjects(decisions, ["volume", "page", "docket"]);
+    let text = readFile(sources.schs.women_advocates_txt);
+    if (text) {
+        text = text.replace(/^\s*$/gm, "").replace(/’/g, "'");  // make sure all blank lines are empty lines, so that the "\n\n" split will work as desired
+        let biasAdvocate = 0;
+        let uniqueAdvocates = [];
+        let blocks = text.split("\n\n");
+        blocks.forEach((block, index) => {
+            let message = "";
+            let lines = block.split("\n");
+            let dataLines = lines.filter((line) => line[0] != '#');
+            while (dataLines.length) {
+                if (dataLines.length < 5 || dataLines.length > 6) {
+                    message = sprintf("unexpected number of lines (%d) in block", dataLines.length);
+                    break;
+                }
+                let iData = 0;
+                let newAdvocate = true;
+                let numberArgument = +dataLines[iData];
+                if (isNaN(numberArgument)) {
+                    message = "unrecognized argument number: " + dataLines[iData];
+                    break;
+                }
+                if (numberArgument == 28) {
+                    console.log();
+                }
+                if (numberArgument != argTable.length + 1) {
+                    message = sprintf("found argument number %d, expected %d", numberArgument, argTable.length + 1);
+                    break;
+                }
+                iData++;
+                let numberAdvocate = +dataLines[iData];
+                if (isNaN(numberAdvocate)) {
+                    newAdvocate = false;
+                } else {
+                    iData++;
+                }
+                let nameAdvocate = "";
+                let homeAdvocate = "";
+                let selfAdvocate = false;
+                let argsAdvocate = 1;
+                let matchName = dataLines[iData].match(/^([A-Za-z-.' ]*),?\s*(.*)$/);
+                if (matchName) {
+                    nameAdvocate = matchName[1].trim();
+                    let matchDetails = matchName[2].match(/^\(([0-9]+)\)$/);
+                    if (matchDetails) {
+                        argsAdvocate = +matchDetails[1];
+                    } else {
+                        matchDetails = matchName[2].match(/(pro se|),?(.*|)$/);
+                        if (matchDetails) {
+                            if (matchDetails[1]) selfAdvocate = true;
+                            homeAdvocate = matchDetails[2].trim();
+                        } else {
+                            message = "unrecognized advocate details: " + dataLines[iData];
+                            break;
+                        }
+                    }
+                }
+                iData++;
+                let dateArgument = dataLines[iData++];
+                let caseInfo = dataLines[iData++];
+                let citeInfo = dataLines[iData];
+                if (!citeInfo.match(/^([0-9]+)\s*J\.?\s*Sup\.?\s*Ct\.?\s*U\.?S\.?\s*([0-9-, ]+);?$/)) {
+                    message = sprintf("unrecognized cite: '%s' (see %d)", citeInfo, numberArgument);
+                }
+                let iAdvocate = searchObjects(uniqueAdvocates, {nameAdvocate});
+                if (newAdvocate) {
+                    if (iAdvocate < 0) {
+                        iAdvocate = uniqueAdvocates.length;
+                        uniqueAdvocates.push({nameAdvocate, count: 1});
+                    } else {
+                        uniqueAdvocates[iAdvocate].count++;
+                        message = sprintf("new advocate (%s) not actually new", nameAdvocate);
+                    }
+                } else {
+                    if (iAdvocate < 0) {
+                        message = sprintf("old advocate (%s) not actually old", nameAdvocate);
+                        iAdvocate = uniqueAdvocates.length;
+                        uniqueAdvocates.push({nameAdvocate, count: 1});
+                    } else {
+                        uniqueAdvocates[iAdvocate].count++;
+                    }
+                }
+                if (newAdvocate && numberAdvocate + biasAdvocate != iAdvocate + 1) {
+                    message = sprintf("advocate number %f for (%s) is actually %d", numberAdvocate, nameAdvocate, iAdvocate + 1);
+                    biasAdvocate = (iAdvocate + 1) - numberAdvocate;
+                }
+                numberAdvocate = iAdvocate + 1;
+                if (uniqueAdvocates[iAdvocate].count != argsAdvocate) {
+                    message = sprintf("advocate arguments (%d) does not match running total (%d)", argsAdvocate, uniqueAdvocates[nameAdvocate]);
+                }
+                let argInfo = {
+                    numberArgument, numberAdvocate, nameAdvocate, homeAdvocate, selfAdvocate, argsAdvocate, dateArgument, caseInfo, citeInfo
+                };
+                argTable.push(argInfo);
+                break;
+            }
+            if (message) {
+                warning("%s\n", message);
+                if (argv['detail']) warning("see block %d: %s\n", index, dataLines.join('|'));
+            }
+        });
+    }
+    writeCSV(sources.schs.women_advocates_csv, argTable);
+    done();
+}
+
+/**
  * buildCitations()
  *
  * @param {function()} done
@@ -5806,7 +5923,8 @@ function usage(done)
     done();
 }
 
-gulp.task("advocates", buildAdvocates);
+gulp.task("advocates", gulp.series(buildAdvocates, buildAdvocateWomen));
+gulp.task("advwomen", buildAdvocateWomen);
 gulp.task("briefs", listBriefs);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("convert", convertTranscripts);
