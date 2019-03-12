@@ -2087,7 +2087,7 @@ function buildAdvocatesWomen(done)
     let oldTable = readCSV(sources.ld.women_advocates_csv);
     let text = readFile(sources.schs.women_advocates_txt);
     if (text) {
-        text = text.replace(/^\s*$/gm, "").replace(/’/g, "'");  // make sure all blank lines are empty lines, so that the "\n\n" split will work as desired
+        text = text.replace(/^\s*$/gm, "").replace(/’/g, "'").replace(/–/g, "-");  // make sure all blank lines are empty lines, so that the "\n\n" split will work as desired
         checkASCII(text, sources.schs.women_advocates_txt, true);
         let biasAdvocate = 0;
         let uniqueAdvocates = [];
