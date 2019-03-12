@@ -1906,6 +1906,56 @@ function findByDateAndDocket(decisions, date, docket)
 }
 
 /**
+ * parseMultipleDates(sDates)
+ *
+ * @param {string} sDates
+ * @return {string}
+ */
+function parseMultipleDates(sDates)
+{
+    let sDatesNew = "";
+    let match, reDate = /([A-Za-z]+).?\s*([0-9-&, ]+?)[.,]?\s+([0-9][0-9][0-9][0-9])/g;
+    while ((match = reDate.exec(sDates))) {
+        let days = [];
+        let month = match[1];
+        let year = +match[3];
+        let matchDays = match[2].match(/^([0-9]+)([^0-9]+)([0-9]+)$/);
+        if (!matchDays) {
+            let day = +match[2];
+            if (!isNaN(day)) {
+                days.push(+match[2]);
+            } else {
+                warning("parseMultipleDates(%s): invalid day (%s)\n", sDates, match[2]);
+            }
+        } else {
+            let day1 = +matchDays[1];
+            let day2 = +matchDays[3];
+            if (matchDays[2].indexOf('-') >= 0) {
+                for (let d = day1; d <= day2; d++) days.push(d);
+            } else if (matchDays[2].indexOf('&') >= 0 || matchDays[2].indexOf(',') >= 0) {
+                days.push(day1);
+                days.push(day2);
+            } else {
+                warning("parseMultipleDates(%s): invalid days (%s)\n", sDates, match[2]);
+            }
+        }
+        if (days.length) {
+            days.forEach((day) => {
+                let sDate = sprintf("%s %d, %d", month, day, year);
+                let date = parseDate(sDate);
+                if (isValidDate(date)) {
+                    if (sDatesNew) sDatesNew += ',';
+                    sDatesNew += sprintf("%#Y-%#02M-%#02D", date);
+                } else {
+                    warning("parseMultipleDates(%s): unable to parse '%s'\n", sDates, sDate);
+                }
+            });
+        }
+    }
+    return sDatesNew;
+}
+
+/**
  * buildAdvocates()
  *
  * @param {function()} done
@@ -2135,8 +2185,9 @@ function buildAdvocatesWomen(done)
                             if (matchDetails[1]) selfAdvocate = true;
                             homeAdvocate = matchDetails[2].trim();
                         } else {
-                            message = "unrecognized advocate details: " + dataLines[iData];
-                            break;
+                            if (message) message += "\n\t";
+                            message += "unrecognized advocate details: " + dataLines[iData];
+                            // break;
                         }
                     }
                 }
@@ -2145,7 +2196,8 @@ function buildAdvocatesWomen(done)
                 let caseInfo = dataLines[iData++];
                 let citeInfo = dataLines[iData];
                 if (!citeInfo.match(/^([0-9]+)\s*J\.?\s*Sup\.?\s*Ct\.?\s*U\.?S\.?\s*([0-9-, ]+);?$/)) {
-                    message = sprintf("unrecognized cite: '%s' (see %d)", citeInfo, numberArgument);
+                    if (message) message += "\n\t";
+                    message += sprintf("unrecognized cite: '%s' (see %d)", citeInfo, numberArgument);
                 }
                 let iAdvocate = searchObjects(uniqueAdvocates, {nameAdvocate});
                 if (newAdvocate) {
@@ -2154,11 +2206,13 @@ function buildAdvocatesWomen(done)
                         uniqueAdvocates.push({nameAdvocate, count: 1});
                     } else {
                         uniqueAdvocates[iAdvocate].count++;
-                        message = sprintf("%s: new advocate is old (%d)", nameAdvocate, uniqueAdvocates[iAdvocate].count);
+                        if (message) message += "\n\t";
+                        message += sprintf("%s: new advocate is old (%d)", nameAdvocate, uniqueAdvocates[iAdvocate].count);
                     }
                 } else {
                     if (iAdvocate < 0) {
-                        message = sprintf("%s: old advocate is new (#1)", nameAdvocate);
+                        if (message) message += "\n\t";
+                        message += sprintf("%s: old advocate is new (#1)", nameAdvocate);
                         iAdvocate = uniqueAdvocates.length;
                         uniqueAdvocates.push({nameAdvocate, count: 1});
                     } else {
@@ -2166,17 +2220,31 @@ function buildAdvocatesWomen(done)
                     }
                 }
                 if (newAdvocate && numberAdvocate + biasAdvocate != iAdvocate + 1) {
-                    message = sprintf("%s: advocate number %f is actually %d", nameAdvocate, numberAdvocate, iAdvocate + 1);
+                    if (message) message += "\n\t";
+                    message += sprintf("%s: advocate number %f is actually %d", nameAdvocate, numberAdvocate, iAdvocate + 1);
                     biasAdvocate = (iAdvocate + 1) - numberAdvocate;
                 }
                 numberAdvocate = iAdvocate + 1;
                 if (argsAdvocate != uniqueAdvocates[iAdvocate].count) {
-                    message = sprintf("%s: advocate arguments (%d) does not match running total (%d)", nameAdvocate, argsAdvocate, uniqueAdvocates[iAdvocate].count);
+                    if (message) message += "\n\t";
+                    message += sprintf("%s: advocate arguments (%d) does not match running total (%d)", nameAdvocate, argsAdvocate, uniqueAdvocates[iAdvocate].count);
                     argsAdvocate = uniqueAdvocates[iAdvocate].count;
+                }
+                let isReargument = false;
+                if (dateArgument.indexOf("reargued ") >= 0) {
+                    isReargument = true;
+                    dateArgument = dateArgument.replace("reargued ", "");
+                }
+                let dates = parseMultipleDates(dateArgument);
+                if (dates) {
+                    dateArgument = dates;
+                } else {
+                    if (message) message += "\n\t";
+                    message += "unsupported date(s): " + dateArgument;
                 }
                 let corrections = oldTable[argTable.length] && oldTable[argTable.length].corrections || "";
                 let argInfo = {
-                    numberArgument, numberAdvocate, nameAdvocate, homeAdvocate, selfAdvocate, argsAdvocate, dateArgument, caseInfo, citeInfo, corrections
+                    numberArgument, numberAdvocate, nameAdvocate, homeAdvocate, selfAdvocate, argsAdvocate, dateArgument, isReargument, caseInfo, citeInfo, corrections
                 };
                 argTable.push(argInfo);
                 break;
@@ -5924,7 +5992,7 @@ function usage(done)
     done();
 }
 
-gulp.task("advocates", gulp.series(buildAdvocates, buildAdvocatesWomen));
+gulp.task("advocates", gulp.series(buildAdvocatesWomen, buildAdvocates));
 gulp.task("advocates-women", buildAdvocatesWomen);
 gulp.task("briefs", listBriefs);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
