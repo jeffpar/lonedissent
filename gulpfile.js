@@ -2074,11 +2074,11 @@ function buildAdvocates(done)
 }
 
 /**
- * buildAdvocateWomen()
+ * buildAdvocatesWomen()
  *
  * @param {function()} done
  */
-function buildAdvocateWomen(done)
+function buildAdvocatesWomen(done)
 {
     let argTable = [];
     let dataFile = _data.allDecisions;
@@ -2105,9 +2105,6 @@ function buildAdvocateWomen(done)
                 if (isNaN(numberArgument)) {
                     message = "unrecognized argument number: " + dataLines[iData];
                     break;
-                }
-                if (numberArgument == 28) {
-                    console.log();
                 }
                 if (numberArgument != argTable.length + 1) {
                     message = sprintf("found argument number %d, expected %d", numberArgument, argTable.length + 1);
@@ -2174,8 +2171,9 @@ function buildAdvocateWomen(done)
                 if (uniqueAdvocates[iAdvocate].count != argsAdvocate) {
                     message = sprintf("advocate arguments (%d) does not match running total (%d)", argsAdvocate, uniqueAdvocates[nameAdvocate]);
                 }
+                let corrections = "";
                 let argInfo = {
-                    numberArgument, numberAdvocate, nameAdvocate, homeAdvocate, selfAdvocate, argsAdvocate, dateArgument, caseInfo, citeInfo
+                    numberArgument, numberAdvocate, nameAdvocate, homeAdvocate, selfAdvocate, argsAdvocate, dateArgument, caseInfo, citeInfo, corrections
                 };
                 argTable.push(argInfo);
                 break;
@@ -5923,8 +5921,8 @@ function usage(done)
     done();
 }
 
-gulp.task("advocates", gulp.series(buildAdvocates, buildAdvocateWomen));
-gulp.task("advwomen", buildAdvocateWomen);
+gulp.task("advocates", gulp.series(buildAdvocates, buildAdvocatesWomen));
+gulp.task("advocates-women", buildAdvocatesWomen);
 gulp.task("briefs", listBriefs);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("convert", convertTranscripts);
