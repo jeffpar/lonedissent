@@ -27,7 +27,8 @@
     "miscLOC_csv": "/sources/ld/miscLOC.csv",
     "courts_csv": "/sources/ld/courts.csv",
     "dates_csv": "/sources/ld/dates.csv",
-    "transcripts_csv": "/sources/ld/transcripts.csv"
+    "transcripts_csv": "/sources/ld/transcripts.csv",
+    "women_advocates_csv": "/sources/schs/women-advocates.csv"
   },
   "loc": {
     "files_txt": "/sources/loc/volumes/*/*/*.txt",
@@ -103,7 +104,6 @@
     "dockets_csv": "/sources/scdb/SCDB_2018_02_caseCentered_Docket.csv"
   },
   "schs": {
-    "women_advocates_csv": "/sources/schs/women-advocates.csv",
     "women_advocates_txt": "/sources/schs/women-advocates.txt"
   },
   "scotus": {

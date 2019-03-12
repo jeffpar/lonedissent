@@ -2084,7 +2084,7 @@ function buildAdvocatesWomen(done)
     let dataFile = _data.allDecisions;
     let decisions = JSON.parse(readFile(dataFile) || "[]");
     sortObjects(decisions, ["volume", "page", "docket"]);
-    let oldTable = readCSV(sources.schs.women_advocates_csv);
+    let oldTable = readCSV(sources.ld.women_advocates_csv);
     let text = readFile(sources.schs.women_advocates_txt);
     if (text) {
         text = text.replace(/^\s*$/gm, "").replace(/’/g, "'");  // make sure all blank lines are empty lines, so that the "\n\n" split will work as desired
@@ -2187,7 +2187,7 @@ function buildAdvocatesWomen(done)
             }
         });
     }
-    writeCSV(sources.schs.women_advocates_csv, argTable);
+    writeCSV(sources.ld.women_advocates_csv, argTable);
     done();
 }
 
