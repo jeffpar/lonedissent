@@ -2154,11 +2154,11 @@ function buildAdvocatesWomen(done)
                         uniqueAdvocates.push({nameAdvocate, count: 1});
                     } else {
                         uniqueAdvocates[iAdvocate].count++;
-                        message = sprintf("new advocate (%s) not actually new", nameAdvocate);
+                        message = sprintf("%s: new advocate is old (%d)", nameAdvocate, uniqueAdvocates[iAdvocate].count);
                     }
                 } else {
                     if (iAdvocate < 0) {
-                        message = sprintf("old advocate (%s) not actually old", nameAdvocate);
+                        message = sprintf("%s: old advocate is new (#1)", nameAdvocate);
                         iAdvocate = uniqueAdvocates.length;
                         uniqueAdvocates.push({nameAdvocate, count: 1});
                     } else {
@@ -2166,12 +2166,13 @@ function buildAdvocatesWomen(done)
                     }
                 }
                 if (newAdvocate && numberAdvocate + biasAdvocate != iAdvocate + 1) {
-                    message = sprintf("advocate number %f for (%s) is actually %d", numberAdvocate, nameAdvocate, iAdvocate + 1);
+                    message = sprintf("%s: advocate number %f is actually %d", nameAdvocate, numberAdvocate, iAdvocate + 1);
                     biasAdvocate = (iAdvocate + 1) - numberAdvocate;
                 }
                 numberAdvocate = iAdvocate + 1;
                 if (argsAdvocate != uniqueAdvocates[iAdvocate].count) {
-                    message = sprintf("advocate arguments (%d) does not match running total (%d)", argsAdvocate, uniqueAdvocates[iAdvocate].count);
+                    message = sprintf("%s: advocate arguments (%d) does not match running total (%d)", nameAdvocate, argsAdvocate, uniqueAdvocates[iAdvocate].count);
+                    argsAdvocate = uniqueAdvocates[iAdvocate].count;
                 }
                 let corrections = oldTable[argTable.length] && oldTable[argTable.length].corrections || "";
                 let argInfo = {
@@ -4324,7 +4325,7 @@ function matchTranscripts(done)
     let databaseUpdates = "";
 
     let transcriptPage = '---\ntitle: "Transcripts from the U.S. Supreme Court"\npermalink: /cases/transcripts/scotus\nlayout: page\n---\n\n';
-    transcriptPage += "These transcripts were downloaded from the U.S. Supreme Court website and logged in our [spreadsheet](/results/transcripts.csv).\n\n";
+    transcriptPage += "These transcripts were downloaded from the U.S. Supreme Court website and logged in our [spreadsheet](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/transcripts.csv).\n\n";
     transcriptPage += "Any corrections have been noted under [Corrected Transcripts](#corrected-transcripts), and match failures have been logged under [Unmatched Transcripts](#unmatched-transcripts).\n";
     transcriptPage += "In addition, transcripts that don't have exact matches in OYEZ have been noted under [Missing OYEZ Transcripts](#missing-oyez-transcripts).\n\n";
 
@@ -5066,7 +5067,7 @@ function fixDecisions(done)
  */
 function fixDockets(done)
 {
-    let files = ["/results/decisions.json", "/_data/allDecisions.json", "/_data/allJustices.json", "/_data/lonerDecisions.json", "/_data/lonerJustices.json"];
+    let files = ["/sources/ld/decisions.json", "/_data/allDecisions.json", "/_data/allJustices.json", "/_data/lonerDecisions.json", "/_data/lonerJustices.json"];
     files.forEach((file) => {
         let json = readFile(file);
         if (json) {
