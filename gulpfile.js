@@ -1966,10 +1966,23 @@ function buildAdvocates(done)
     let courtsSCDB = readSCDBCourts();
     // let courts = JSON.parse(readFile(sources.ld.courts) || "[]");
     let justices = JSON.parse(readFile(sources.ld.justices) || "[]");
+
     let dataFile = _data.allDecisions;
     let decisions = JSON.parse(readFile(dataFile) || "[]");
     sortObjects(decisions, ["volume", "page"]);
+
     let advocates = JSON.parse(readFile(sources.oyez.advocates) || "{}");
+
+    let womenAdvocates = readCSV(sources.ld.women_advocates_csv);
+    sortObjects(womenAdvocates, ["argsAdvocate"], -1);
+    let topWomen = [];
+    for (let i = 0; i < womenAdvocates.length; i++) {
+        let woman = womenAdvocates[i];
+        if (searchObjects(topWomen, {nameAdvocate: woman.nameAdvocate}) < 0) {
+            topWomen.push(woman);
+            if (topWomen.length == 25) break;
+        }
+    }
 
     if (advocates) {
         let ids = Object.keys(advocates.ids);
@@ -1986,6 +1999,7 @@ function buildAdvocates(done)
             let filePath = path.join(dir, id + ".csv");
             if (!fs.existsSync(rootDir + filePath) || argv['overwrite'] && !verified) {
                 let rows = [];
+                let uniqueObjs = [];
                 for (let i = 1; i < aliases.length; i++) {
                     let alias = aliases[i];
                     let filePath = path.join(dir, alias + ".json");
@@ -2001,6 +2015,14 @@ function buildAdvocates(done)
                         }
                     }
                     cases.forEach((obj) => {
+                        /*
+                         * For some reason, some advocates (eg, lisa_s_blatt) have multiple references to the same cases,
+                         * so we use the uniqueObjs array to guard against that.
+                         */
+                        if (!obj.consolidated_docket_number) {
+                            if (uniqueObjs.indexOf(obj.ID) >= 0) return;
+                        }
+                        uniqueObjs.push(obj.ID);
                         let dir = path.join(path.dirname(sources.oyez.cases), obj.term);
                         let fileID = obj.fileID || (obj.docket_number + '_' + obj.ID);
                         let file = fileID + ".json";
@@ -2115,6 +2137,21 @@ function buildAdvocates(done)
                 text = match[0];
                 top100.forEach((advocate) => {
                     text += "- [" + advocate.nameAdvocate + "](/advocates/top100/" + advocate.id + ") (" + (advocate.verified? "" : "at least ") + advocate.total + " arguments)\n";
+                });
+                text += "\n## Top Women Advocates\n\n";
+                text += "Our [data](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/women-advocates.csv) is generated from\n";
+                text += "[documents](https://supremecourthistory.org/history_oral_advocates.html) created by [Marlene Trestman](https://www.marlenetrestman.com),\n";
+                text += "who painstakingly extracted appearances of women advocates from the [Journals of the Supreme Court of the United States](https://www.supremecourt.gov/orders/journal.aspx)\n";
+                text += "for October Term 1880 through October Term 1999.  This was later supplemented with data from 2000 through 2016 by Julie Silverbrook and Emma Shainwald.\n";
+                text += "We have extended the data through the end of February 2019, consulting a combination of Journals and [Transcripts](https://www.supremecourt.gov/oral_arguments/argument_transcript/2018).\n\n";
+                topWomen.forEach((woman) => {
+                    let match = woman.nameAdvocate.match(/^([A-Za-z-]+).*?([A-Za-z-]+)$/);
+                    let id = (match[1] + '_' + match[2]).toLowerCase();
+                    if (ids.indexOf(id) < 0) {
+                        text += "- " + woman.nameAdvocate + " (" + woman.argsAdvocate + " arguments)\n";
+                    } else {
+                        text += "- [" + woman.nameAdvocate + "](/advocates/top100/" + id + ") (" + woman.argsAdvocate + " arguments)\n";
+                    }
                 });
             }
             writeFile(filePath, text);

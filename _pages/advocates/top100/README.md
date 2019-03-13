@@ -29,4 +29,38 @@ NOTE: Any advocate listed below whose total is reported as "at least" still requ
 - [Michael R. Dreeben](/advocates/top100/michael_dreeben) (106 arguments)
 - [Paul D. Clement](/advocates/top100/paul_clement) (at least 92 arguments)
 - [Carter G. Phillips](/advocates/top100/carter_phillips) (at least 85 arguments)
-- [Lisa S. Blatt](/advocates/top100/lisa_blatt) (at least 56 arguments)
+- [Lisa S. Blatt](/advocates/top100/lisa_blatt) (at least 37 arguments)
+
+## Top Women Advocates
+
+Our [data](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/women-advocates.csv) is generated from
+[documents](https://supremecourthistory.org/history_oral_advocates.html) created by [Marlene Trestman](https://www.marlenetrestman.com),
+who painstakingly extracted appearances of women advocates from the [Journals of the Supreme Court of the United States](https://www.supremecourt.gov/orders/journal.aspx)
+for October Term 1880 through October Term 1999.  This was later supplemented with data from 2000 through 2016 by Julie Silverbrook and Emma Shainwald.
+We have extended the data through the end of February 2019, consulting a combination of Journals and [Transcripts](https://www.supremecourt.gov/oral_arguments/argument_transcript/2018).
+
+- [Lisa S. Blatt](/advocates/top100/lisa_blatt) (37 arguments)
+- Patricia A. Millett (32 arguments)
+- Nicole A. Saharsky (29 arguments)
+- Mabel Walker Willebrandt (29 arguments)
+- Beatrice Rosenberg (28 arguments)
+- Beth S. Brinkmann (25 arguments)
+- Bessie Margolin (24 arguments)
+- Helen R. Carloss (21 arguments)
+- Sarah E. Harrington (20 arguments)
+- Ann O'Connell (20 arguments)
+- Maureen E. Mahoney (20 arguments)
+- Barbara D. Underwood (19 arguments)
+- Ginger D. Anders (17 arguments)
+- Barbara B. McDowell (17 arguments)
+- Harriet S. Shapiro (17 arguments)
+- Amy L. Wax (15 arguments)
+- Deanne E. Maynard (14 arguments)
+- Kathryn A. Oberly (14 arguments)
+- Elaine J. Goldenberg (12 arguments)
+- Elinor H. Stillman (12 arguments)
+- Leondra R. Kruger (12 arguments)
+- Rachel P. Kovner (12 arguments)
+- Kathleen M. Sullivan (11 arguments)
+- Melissa A. Sherry (10 arguments)
+- Ruth Weyand (10 arguments)
