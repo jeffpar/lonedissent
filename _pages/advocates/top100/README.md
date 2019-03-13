@@ -33,7 +33,7 @@ NOTE: Any advocate listed below whose total is reported as "at least" still requ
 
 ## Top Women Advocates
 
-Our [data](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/women-advocates.csv) is generated from
+The [data](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/women-advocates.csv) shown below is generated from
 [documents](https://supremecourthistory.org/history_oral_advocates.html) created by [Marlene Trestman](https://www.marlenetrestman.com),
 who painstakingly extracted appearances of women advocates from the [Journals of the Supreme Court of the United States](https://www.supremecourt.gov/orders/journal.aspx)
 for October Term 1880 through October Term 1999.  This was later supplemented with data from 2000 through 2016 by Julie Silverbrook and Emma Shainwald.
