@@ -1,6 +1,6 @@
 {
   "api": "https://api.oyez.org/people/%s/cases?per_page=0",
-  "ids": {
+  "top": {
     "lisa_blatt": ["Lisa S. Blatt","lisa_s_blatt"],
     "paul_clement": ["Paul D. Clement","paul_d_clement"],
     "archibald_cox": ["Archibald Cox","archibald_cox","archibald_cox_jr","unverified"],
@@ -9,6 +9,33 @@
     "edwin_kneedler": ["Edwin S. Kneedler","edwin_s_kneedler","verified"],
     "carter_phillips": ["Carter G. Phillips","carter_g_phillips"],
     "lawrence_wallace": ["Lawrence G. Wallace","lawrence_g_wallace","verified"]
+  },
+  "women": {
+    "lisa_blatt": ["Lisa S. Blatt","lisa_s_blatt"],
+    "patricia_millett": ["Patricia A. Millett","patricia_a_millett"],
+    "nicole_saharsky": ["Nicole A. Saharsky","nicole_saharsky"],
+    "mabel_willebrandt": ["Mabel Walker Willebrandt"],
+    "beatrice_rosenberg": ["Beatrice Rosenberg","beatrice_rosenberg"],
+    "beth_brinkmann": ["Beth S. Brinkmann","beth_s_brinkmann"],
+    "bessie_margolin": ["Bessie Margolin","bessie_margolin"],
+    "helen_carloss": ["Helen R. Carloss"],
+    "sarah_harrington": ["Sarah E. Harrington","sarah_e_harrington"],
+    "ann_oconnell": ["Ann O'Connell","ann_oconnell"],
+    "maureen_mahoney": ["Maureen E. Mahoney","maureen_e_mahoney"],
+    "barbara_underwood": ["Barbara D. Underwood","barbara_d_underwood"],
+    "ginger_anders": ["Ginger D. Anders"],
+    "barbara_mcdowell": ["Barbara B. McDowell","barbara_b_mcdowell"],
+    "harriet_shapiro": ["Harriet S. Shapiro","harriet_s_shapiro"],
+    "amy_wax": ["Amy L. Wax","amy_l_wax"],
+    "deanne_maynard": ["Deanne E. Maynard","deanne_e_maynard"],
+    "kathryn_oberly": ["Kathryn A. Oberly","kathryn_a_oberly"],
+    "elaine_goldenberg": ["Elaine J. Goldenberg","elaine_j_goldenberg"],
+    "elinor_stillman": ["Elinor H. Stillman","elinor_h_stillman"],
+    "leondra_kruger": ["Leondra R. Kruger","leondra_r_kruger"],
+    "rachel_kovner": ["Rachel P. Kovner","rachel_p_kovner"],
+    "kathleen_sullivan": ["Kathleen M. Sullivan","kathleen_m_sullivan"],
+    "melissa_sherry": ["Melissa A. Sherry","melissa_arbus_sherry"],
+    "ruth_weyand": ["Ruth Weyand","ruth_weyand"]
   },
   "missingCases": {
     "michael_dreeben": [

@@ -1985,11 +1985,13 @@ function buildAdvocates(done)
     }
 
     if (advocates) {
-        let ids = Object.keys(advocates.ids);
         let top100 = [];
+        let ids = Object.keys(advocates.top);
+        let women = Object.keys(advocates.women);
+        women.forEach((woman) => { if (ids.indexOf(woman) < 0) ids.push(woman); });
         let pathAdvocates = "/advocates/top100";
         ids.forEach((id) => {
-            let aliases = advocates.ids[id];
+            let aliases = advocates.top[id] || advocates.women[id];
             let verified = undefined;
             if (aliases[aliases.length - 1] == "verified" || aliases[aliases.length - 1] == "unverified") {
                 verified = (aliases[aliases.length - 1] == "verified");
@@ -2109,7 +2111,9 @@ function buildAdvocates(done)
                 if (changes) writeCSV(filePath, rowsAdvocate);
                 sortObjects(results, ["dateArgument","docket"]);
                 if (verified !== false) {
-                    top100.push({id, nameAdvocate, total: results.length, verified});
+                    if (advocates.top[id]) {
+                        top100.push({id, nameAdvocate, total: results.length, verified});
+                    }
                 }
                 fileText += generateCaseYML(results, vars, courtsSCDB, justices, ["caseNumber","dateArgument","urlOyez"]);
                 fileText += '---\n\n';
@@ -2145,8 +2149,8 @@ function buildAdvocates(done)
                 text += "for October Term 1880 through October Term 1999.  This was later supplemented with data from 2000 through 2016 by Julie Silverbrook and Emma Shainwald.\n";
                 text += "We have extended the data through the end of February 2019, consulting a combination of Journals and [Transcripts](https://www.supremecourt.gov/oral_arguments/argument_transcript/2018).\n\n";
                 topWomen.forEach((woman) => {
-                    let match = woman.nameAdvocate.match(/^([A-Za-z-]+).*?([A-Za-z-]+)$/);
-                    let id = (match[1] + '_' + match[2]).toLowerCase();
+                    let match = woman.nameAdvocate.match(/^([^ ]+).*?([^ ]+)$/);
+                    let id = (match[1] + '_' + match[2]).toLowerCase().replace(/[^a-z_-]/g, "");
                     if (ids.indexOf(id) < 0) {
                         text += "- " + woman.nameAdvocate + " (" + woman.argsAdvocate + " arguments)\n";
                     } else {
@@ -5720,9 +5724,11 @@ function generateDownloadTasks(done)
     }
     let advocates = JSON.parse(readFile(sources.oyez.advocates) || "{}");
     if (advocates) {
-        let ids = Object.keys(advocates.ids);
+        let ids = Object.keys(advocates.top);
+        let women = Object.keys(advocates.women);
+        women.forEach((woman) => { if (ids.indexOf(woman) < 0) ids.push(woman); });
         ids.forEach((id) => {
-            let aliases = advocates.ids[id];
+            let aliases = advocates.top[id] || advocates.women[id];
             let dir = path.join(path.dirname(sources.oyez.advocates), id);
             for (let i = 1; i < aliases.length; i++) {
                 let alias = aliases[i];
