@@ -577,4 +577,4 @@ cases:
         majority: true
 ---
 
-Kathryn A. Oberly argued 13 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/kathryn_a_oberly).
+Kathryn A. Oberly argued 13 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/kathryn_a_oberly).

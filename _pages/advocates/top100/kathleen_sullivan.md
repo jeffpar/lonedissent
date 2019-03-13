@@ -389,4 +389,4 @@ cases:
         majority: true
 ---
 
-Kathleen M. Sullivan argued 9 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/kathleen_m_sullivan).
+Kathleen M. Sullivan argued 9 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/kathleen_m_sullivan).

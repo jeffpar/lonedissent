@@ -1114,4 +1114,4 @@ cases:
     voteMinority: 0
 ---
 
-Beth S. Brinkmann argued 26 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/beth_s_brinkmann).
+Beth S. Brinkmann argued 26 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/beth_s_brinkmann).

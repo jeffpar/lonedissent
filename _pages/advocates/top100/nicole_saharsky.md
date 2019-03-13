@@ -1248,4 +1248,4 @@ cases:
         majority: true
 ---
 
-Nicole A. Saharsky argued 29 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/nicole_saharsky).
+Nicole A. Saharsky argued 29 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/nicole_saharsky).

@@ -2127,7 +2127,7 @@ function buildAdvocates(done)
                 if (oldText) {
                     fileText += oldText;
                 } else {
-                    fileText += ", according to [Oyez](https://www.oyez.org/advocates/" + aliases[1] + ").\n";
+                    fileText += " since October 1955, according to [Oyez](https://www.oyez.org/advocates/" + aliases[1] + ").\n";
                 }
                 writeFile(filePath, fileText);
             }
@@ -2151,7 +2151,7 @@ function buildAdvocates(done)
                 topWomen.forEach((woman) => {
                     let match = woman.nameAdvocate.match(/^([^ ]+).*?([^ ]+)$/);
                     let id = (match[1] + '_' + match[2]).toLowerCase().replace(/[^a-z_-]/g, "");
-                    if (ids.indexOf(id) < 0) {
+                    if (!advocates.women[id] || advocates.women[id].length <= 1) {
                         text += "- " + woman.nameAdvocate + " (" + woman.argsAdvocate + " arguments)\n";
                     } else {
                         text += "- [" + woman.nameAdvocate + "](/advocates/top100/" + id + ") (" + woman.argsAdvocate + " arguments)\n";

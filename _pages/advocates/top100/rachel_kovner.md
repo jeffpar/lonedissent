@@ -471,4 +471,4 @@ cases:
     voteMinority: 0
 ---
 
-Rachel P. Kovner argued 12 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/rachel_p_kovner).
+Rachel P. Kovner argued 12 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/rachel_p_kovner).

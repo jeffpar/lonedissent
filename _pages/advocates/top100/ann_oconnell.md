@@ -826,4 +826,4 @@ cases:
     voteMinority: 0
 ---
 
-Ann O'Connell argued 21 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/ann_oconnell).
+Ann O'Connell argued 21 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/ann_oconnell).

@@ -135,4 +135,4 @@ cases:
         majority: true
 ---
 
-Beatrice Rosenberg argued 3 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/beatrice_rosenberg).
+Beatrice Rosenberg argued 3 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/beatrice_rosenberg).

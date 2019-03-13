@@ -1558,4 +1558,4 @@ cases:
     voteMinority: 0
 ---
 
-Lisa S. Blatt argued 37 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/lisa_s_blatt).
+Lisa S. Blatt argued 37 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/lisa_s_blatt).

@@ -2087,4 +2087,4 @@ cases:
         majority: true
 ---
 
-Erwin N. Griswold argued 48 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/erwin_n_griswold).
+Erwin N. Griswold argued 48 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/erwin_n_griswold).

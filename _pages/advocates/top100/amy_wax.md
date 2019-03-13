@@ -621,4 +621,4 @@ cases:
         majority: false
 ---
 
-Amy L. Wax argued 14 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/amy_l_wax).
+Amy L. Wax argued 14 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/amy_l_wax).

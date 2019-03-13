@@ -401,4 +401,4 @@ cases:
         majority: true
 ---
 
-Elinor H. Stillman argued 9 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/elinor_h_stillman).
+Elinor H. Stillman argued 9 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/elinor_h_stillman).

@@ -504,4 +504,4 @@ cases:
         majority: true
 ---
 
-Elaine J. Goldenberg argued 12 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/elaine_j_goldenberg).
+Elaine J. Goldenberg argued 12 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/elaine_j_goldenberg).

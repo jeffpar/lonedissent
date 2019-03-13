@@ -841,4 +841,4 @@ cases:
         majority: true
 ---
 
-Sarah E. Harrington argued 20 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/sarah_e_harrington).
+Sarah E. Harrington argued 20 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/sarah_e_harrington).

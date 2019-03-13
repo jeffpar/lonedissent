@@ -885,4 +885,4 @@ cases:
         majority: true
 ---
 
-Barbara D. Underwood argued 20 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/barbara_d_underwood).
+Barbara D. Underwood argued 20 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/barbara_d_underwood).

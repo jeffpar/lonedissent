@@ -49,4 +49,4 @@ cases:
         majority: false
 ---
 
-Ruth Weyand argued 1 times in the U.S. Supreme Court, according to [Oyez](https://www.oyez.org/advocates/ruth_weyand).
+Ruth Weyand argued 1 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/ruth_weyand).
