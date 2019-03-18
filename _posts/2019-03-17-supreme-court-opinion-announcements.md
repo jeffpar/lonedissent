@@ -11,7 +11,6 @@ included the following transcripts from July 1974:
 
 However, if you visit their [website](https://www.supremecourt.gov/oral_arguments/archived_transcripts/1973) *now*,
 you will no longer find the July 1974 transcript for *Milliken v. Bradley*.
-
 This is unfortunate, because it was a unique document: a transcript of the Court's July 25 opinion
 announcement rather than the February 27 [oral argument](https://www.supremecourt.gov/pdfs/transcripts/1973/73-434_73-435_73-436_02-27-1974.pdf).
 
