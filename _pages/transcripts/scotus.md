@@ -5626,4 +5626,4 @@ These transcripts were not found in a corresponding OYEZ case record.
 These transcripts have NOT yet been matched to an SCDB entry.
 
 - [The Committee for Nuclear Responsibility, Inc. v. Schlesinger](https://www.supremecourt.gov/pdfs/transcripts/1971/A-483_11-06-1971.pdf) - No. A-483, argued Saturday, November 6, 1971 (no SCDB or OYEZ match)
-- [Milliken v. Bradley](https://www.supremecourt.gov/pdfs/transcripts/1973/73-434_73-435_73-436_07-25-1974.pdf) - No. 73-434, argued Thursday, July 25, 1974 (This is an opinion announcement, not an oral argument)
+- [Milliken v. Bradley](/blog/2019/03/17/#opinion-announcement-in-milliken-v-bradley) - No. 73-434, argued Thursday, July 25, 1974 (This is an opinion announcement, not an oral argument)
