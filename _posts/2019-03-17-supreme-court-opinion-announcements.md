@@ -66,7 +66,7 @@ However, even before then, whoever was operating the equipment would occasionall
 events.  For example, in 2007, I [discovered](/blog/2019/03/01/) that the opinion announcements in
 [Time v. Hill](https://www.oyez.org/cases/1965/22) and [Swann v. Adams](https://www.oyez.org/cases/1966/136)
 had been recorded on January 9, 1967.  It's unclear whether these rare occurrences were at the direction
-of the Chiref Justice or mere happenstance.
+of the Chief Justice or mere happenstance.
 
 ## Opinion Announcement in Milliken v. Bradley
 
