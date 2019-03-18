@@ -55,11 +55,13 @@ exclude:
   - CNAME
   - gulpfile.js
   - package*.json
+  - /.history
   - /lib
   - /node_modules
   - /sources/justia
   - /sources/ld
   - /sources/loc
+  - /sources/other/**/*.pdf
   - /sources/oyez/cases
   - /sources/oyez/justices_by_court
   - /sources/oyez/transcripts
