@@ -1,6 +1,6 @@
 ---
 title: "Brown v. Board of Education (I)"
-permalink: /transcripts/featured/brown1
+permalink: /transcripts/featured/brown1/
 layout: page
 ---
 
@@ -10,7 +10,8 @@ on December 7-9, 1953.  The decision, also known as "Brown I", was issued on May
 those five cases are listed below.
 
 A second round of arguments, focusing on the question of relief, occurred on April 11-14, 1955, and a second
-"Brown II" decision was issued on May 31, 1955.  See [Brown v. Board of Education (II)](/transcripts/featured/brown2) for a list of those arguments.
+"Brown II" decision was issued on May 31, 1955.  See [Brown v. Board of Education (II)](/transcripts/featured/brown2/)
+for a list of those arguments.
 
 ## 1952 Oral Arguments
 

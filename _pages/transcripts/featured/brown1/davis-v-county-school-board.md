@@ -4,7 +4,7 @@ permalink: /transcripts/featured/brown1/davis-v-county-school-board
 layout: page
 ---
 
-This is one of five cases argued as part of [Brown v. Board of Education (I)](/transcripts/featured/brown1).
+This is one of five cases argued as part of [Brown v. Board of Education (I)](/transcripts/featured/brown1/).
 
 ## Argument
 

@@ -4,7 +4,7 @@ permalink: /cases/terms/
 layout: page
 ---
 
-As we first noted in our list of [U.S. Supreme Court Lone Dissents](/cases/loners#notes-on-terms),
+As we first noted in our list of [U.S. Supreme Court Lone Dissents](/cases/loners/),
 the period of time spanned by a "term" or session of the Court has varied over the years.
 
 Moreover, there are two different kinds of Court terms: [Regular Terms](#regular-terms) and

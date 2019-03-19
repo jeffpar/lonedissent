@@ -4,7 +4,7 @@ permalink: /blog/2019/02/12/
 ---
 
 Recently, I took renewed interest in an old topic: lawyers who have argued the most cases at the U.S.
-Supreme Court, aka [Top Advocates](/advocates/top100).
+Supreme Court, aka [Top Advocates](/advocates/top100/).
 
 I first became interested in this after listening to a Supreme Court oral argument back
 in 2006 on the [Oyez](https://www.oyez.org) website.  The oral argument was from 2002,
@@ -39,4 +39,4 @@ interview occurred on December 4, 2006 -- the same day Jerry and I were also at 
 It was a busy day.
 
 I'm still lamenting the state of Supreme Court advocate data on the web, but until I have more time to really
-dig into it, here's my initial list of some of the U.S. Supreme Court's [Top Advocates](/advocates/top100).
+dig into it, here's my initial list of some of the U.S. Supreme Court's [Top Advocates](/advocates/top100/).

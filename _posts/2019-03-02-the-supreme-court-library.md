@@ -5,7 +5,7 @@ permalink: /blog/2019/03/02/
 
 In 2005, on my first (and last) visit to the U.S. Supreme Court Library, with librarian Brian
 Stiglmeier's help, I was able to browse their small collection of early transcripts and duplicate
-a few of them.  I recently posted them here under [Pre-1968 Transcripts](/transcripts/pre-1968).
+a few of them.  I recently posted them here under [Pre-1968 Transcripts](/transcripts/pre-1968/).
 
 Sadly, shortly after my visit in 2005, the Supreme Court Library closed for remodeling, and
 when it reopened, it was *no longer open to the public*.  If you take a tour of the Supreme Court,
@@ -20,7 +20,7 @@ In recent years, the Supreme Court Library has
 [posted](https://www.supremecourt.gov/oral_arguments/archived_transcripts/1968) all its transcripts
 from the 1968 Term onward, as well as historical copies of the
 [Journal of the Supreme Court of the United States](https://www.supremecourt.gov/orders/scannedjournals.aspx).
-They haven't yet added any of the [pre-1968 transcripts](/transcripts/pre-1968) in their possession,
+They haven't yet added any of the [pre-1968 transcripts](/transcripts/pre-1968/) in their possession,
 but this is a welcome trend.
 
 However, I suspect these digitization efforts are primarily an attempt to deflect any criticism

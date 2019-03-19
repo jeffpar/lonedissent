@@ -8,7 +8,7 @@ layout: page
 of the U.S. Supreme Court.  The following collections are now available:
 
 - [Lone Dissents by Term](#lone-dissents-by-term)
-- [Lone Dissents by Justice](/justices/loners)
+- [Lone Dissents by Justice](/justices/loners/)
 
 Our collections use three different opinion sources:
 
@@ -20,13 +20,13 @@ We prefer opinions in PDF format because they faithfully reproduce the printed v
 preference would be to have access to an XML-based text source and render the opinions using HTML and CSS,
 but (a) we don't have such a source, and (b) that's a lot of work.
 
-Finally, if you're looking for [all opinions](/cases/all), not merely lone dissents, there are some additional
+Finally, if you're looking for [all opinions](/cases/all/), not merely lone dissents, there are some additional
 collections you can browse, with more coming soon:
 
-- [Opinions by Term](/cases/all#opinions-by-term)
-- [Opinions by Justice](/justices/all)
+- [Opinions by Term](/cases/all/#opinions-by-term)
+- [Opinions by Justice](/justices/all/)
 
-See [Terms of The Court](/cases/terms) for a short history of Supreme Court terms, to provide some context for the list that follows.
+See [Terms of The Court](/cases/terms/) for a short history of Supreme Court terms, to provide some context for the list that follows.
 
 ## Lone Dissents by Term
 
@@ -240,5 +240,5 @@ See [Terms of The Court](/cases/terms) for a short history of Supreme Court term
 - [October Term 2017](/cases/loners/2017-10) (5 lone dissents)
 
 &#42; Technically, January Terms 1845 through 1850 were actually December Terms 1844 through 1849; the Court apparently
-preferred to adhere to its previous naming convention, at least for six more years.  See [Terms of The Court](/cases/terms)
+preferred to adhere to its previous naming convention, at least for six more years.  See [Terms of The Court](/cases/terms/)
 for more information.

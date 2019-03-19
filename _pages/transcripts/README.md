@@ -7,12 +7,12 @@ layout: page
 ## Official Transcripts
 
 The Supreme Court Library recently [digitized](https://www.supremecourt.gov/oral_arguments/archived_transcripts/1968)
-all its "official" transcripts for cases argued since October 1968, which we have [catalogued](/transcripts/scotus) and
+all its "official" transcripts for cases argued since October 1968, which we have [catalogued](/transcripts/scotus/) and
 matched against the [Supreme Court Database](http://scdb.wustl.edu/).
 
 Prior to October 1968, the Supreme Court did not regularly commission transcripts, except when the Court deemed it
-appropriate.  For example, all the oral arguments in [Brown v. Board of Education (I)](/transcripts/featured/brown1)
-and [Brown v. Board of Education (II)](/transcripts/featured/brown2) were transcribed.
+appropriate.  For example, all the oral arguments in [Brown v. Board of Education (I)](/transcripts/featured/brown1/)
+and [Brown v. Board of Education (II)](/transcripts/featured/brown2/) were transcribed.
 
 In even older cases, you'll occasionally find transcripts of arguments recorded in U.S. Reports.  [Norman v. Baltimore &amp; Ohio R. Co.](https://cdn.loc.gov/service/ll/usrep/usrep294/usrep294240/usrep294240.pdf) is one such case.  It records
 the "arguments" of the attorneys for both Norman and the Baltimore &amp; Ohio Railroad Company, as well as the "oral argument" of Attorney General Cummings, along with the following footnote:
@@ -33,6 +33,6 @@ from their website for all cases argued since October 1955.
 
 ## Transcript Collections
 
-- [Featured Transcripts](/transcripts/featured)
-- [All Available Pre-1968 Transcripts](/transcripts/pre-1968)
-- [All Available 1968-Present Transcripts](/transcripts/scotus)
+- [Featured Transcripts](/transcripts/featured/)
+- [All Available Pre-1968 Transcripts](/transcripts/pre-1968/)
+- [All Available 1968-Present Transcripts](/transcripts/scotus/)

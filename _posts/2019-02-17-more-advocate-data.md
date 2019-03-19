@@ -4,7 +4,7 @@ permalink: /blog/2019/02/17/
 ---
 
 One of our long-term goals is to produce a more accurate and
-comprehensive list of [Top Supreme Court Advocates](/advocates/top100).
+comprehensive list of [Top Supreme Court Advocates](/advocates/top100/).
 But to do that, we need lots of data -- lots of *good* data.
 
 And one of the cornerstones of good data is being able to cross-reference it with
@@ -16,7 +16,7 @@ downloaded from the U.S. Supreme Court website, and all
 [Case Data](https://github.com/jeffpar/lonedissent/tree/master/sources/oyez/cases)
 (from the 1955 term onward) extracted from the Oyez website.
 
-Our initial focus is to match all [SCOTUS Transcripts](/transcripts/scotus) with their
+Our initial focus is to match all [SCOTUS Transcripts](/transcripts/scotus/) with their
 corresponding SCDB records.  A list of those transcripts is being stored in a
 [spreadsheet](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/transcripts.csv),
 which includes a `notes` field documenting any corrections.  Next, we'll cross-reference

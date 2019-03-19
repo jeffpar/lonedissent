@@ -1,11 +1,11 @@
 ---
 title: "Brown v. Board of Education (II)"
-permalink: /transcripts/featured/brown2
+permalink: /transcripts/featured/brown2/
 layout: page
 ---
 
 The five cases that were argued as part of
-[Brown v. Board of Education (I)](/transcripts/featured/brown1) were argued again on April 11-14, 1955
+[Brown v. Board of Education (I)](/transcripts/featured/brown1/) were argued again on April 11-14, 1955
 to address the question of relief, and a second "Brown II" decision was issued on May 31, 1955.
 
 ## 1955 Oral Arguments

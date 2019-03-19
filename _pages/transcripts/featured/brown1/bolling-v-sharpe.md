@@ -13,7 +13,7 @@ cases:
     dateDecision: "Monday, May 17, 1954"
 ---
 
-This is one of five cases argued as part of [Brown v. Board of Education (I)](/transcripts/featured/brown1).
+This is one of five cases argued as part of [Brown v. Board of Education (I)](/transcripts/featured/brown1/).
 However, the [Bolling v. Sharpe, 347 U.S. 497, (1954)](https://cdn.loc.gov/service/ll/usrep/usrep347/usrep347497/usrep347497.pdf)
 decision was issued separately because the case arose in the District of Columbia, so the Court relied on the
 Due Process Clause of the 5th Amendment rather than the Equal Protection Clause of the 14th Amendment.

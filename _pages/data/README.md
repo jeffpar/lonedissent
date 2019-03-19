@@ -18,24 +18,24 @@ as well as some defunct sites that we archived portions of before they disappear
 From those data sources, we build our own tables, cross-check the data, look for [discrepancies](/blog/2019/02/18/),
 and then build an assortment of pages:
 
-- [Cases](/cases)
-  - [All Cases](/cases/all)
-  - [Lone Dissents](/cases/loners)
-  - [Terms of the Court](/cases/terms)
-- [Justices](/justices)
-  - [Lone Dissents](/justices/loners)
-  - [Majority Opinions](/justices/all)
-- [Briefs](/briefs)
-  - [Featured Briefs](/briefs/featured)
-- [Transcripts](/transcripts)
-  - [Featured Transcripts](/transcripts/featured)
-  - [All Available Pre-1968 Transcripts](/transcripts/pre-1968)
-  - [All Available 1968-Present Transcripts](/transcripts/scotus)
-- [Advocates](/advocates/top100)
-  - [Top Advocates](/advocates/top100#top-advocates)
+- [Cases](/cases/)
+  - [All Cases](/cases/all/)
+  - [Lone Dissents](/cases/loners/)
+  - [Terms of the Court](/cases/terms/)
+- [Justices](/justices/)
+  - [Lone Dissents](/justices/loners/)
+  - [Majority Opinions](/justices/all/)
+- [Briefs](/briefs/)
+  - [Featured Briefs](/briefs/featured/)
+- [Transcripts](/transcripts/)
+  - [Featured Transcripts](/transcripts/featured/)
+  - [All Available Pre-1968 Transcripts](/transcripts/pre-1968/)
+  - [All Available 1968-Present Transcripts](/transcripts/scotus/)
+- [Advocates](/advocates/top100/)
+  - [Top Advocates](/advocates/top100/#top-advocates)
 
 We've also created a few random pages that have no real value but struck us as mildly interesting:
 
-- [Loner Parties](/trivia/parties)
+- [Loner Parties](/trivia/parties/)
 
 If you have ideas for other kinds of reports or summaries you'd like to see, [let us know](mailto:loners@pcjs.org).

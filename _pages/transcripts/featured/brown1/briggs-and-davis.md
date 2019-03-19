@@ -4,7 +4,7 @@ permalink: /transcripts/featured/brown1/briggs-and-davis
 layout: page
 ---
 
-These are two of five cases argued as part of [Brown v. Board of Education (I)](/transcripts/featured/brown1).
+These are two of five cases argued as part of [Brown v. Board of Education (I)](/transcripts/featured/brown1/).
 
 ## Argument
 

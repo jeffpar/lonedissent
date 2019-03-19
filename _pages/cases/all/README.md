@@ -8,7 +8,7 @@ This page provides links to *all* opinions of the U.S. Supreme Court, not merely
 lone dissents.  The following collections are now available:
 
 - [Opinions by Term](#opinions-by-term)
-- [Opinions by Justice](/justices/all)
+- [Opinions by Justice](/justices/all/)
 
 Our collections use three different opinion sources:
 
@@ -20,7 +20,7 @@ We prefer opinions in PDF format because they faithfully reproduce the printed v
 preference would be to have access to an XML-based text source and render the opinions using HTML and CSS,
 but (a) we don't have such a source, and (b) that's a lot of work.
 
-See [Terms of The Court](/cases/terms) for a short history of Supreme Court terms, to provide some context for the list that follows.
+See [Terms of The Court](/cases/terms/) for a short history of Supreme Court terms, to provide some context for the list that follows.
 
 ## Opinions by Term
 
@@ -264,5 +264,5 @@ See [Terms of The Court](/cases/terms) for a short history of Supreme Court term
 - [October Term 2017](/cases/all/2017-10) (76 opinions)
 
 &#42; Technically, January Terms 1845 through 1850 were actually December Terms 1844 through 1849; the Court apparently
-preferred to adhere to its previous naming convention, at least for six more years.  See [Terms of The Court](/cases/terms)
+preferred to adhere to its previous naming convention, at least for six more years.  See [Terms of The Court](/cases/terms/)
 for more information.

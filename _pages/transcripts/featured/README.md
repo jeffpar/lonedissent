@@ -4,13 +4,13 @@ permalink: /transcripts/featured/
 layout: page
 ---
 
-We have supplemented our [selection](/transcripts/pre-1968#selected-pre-1968-transcripts)
-of [Pre-1968 Transcripts](/transcripts/pre-1968) with additional transcripts from other sources,
+We have supplemented our [selection](/transcripts/pre-1968/#selected-pre-1968-transcripts)
+of [Pre-1968 Transcripts](/transcripts/pre-1968/) with additional transcripts from other sources,
 such as "Landmark Briefs and Arguments", and included them in this list of **Featured Transcripts**.
 
 Our focus here is on cases that don't have an audio recording (i.e, pre-1955 cases), since
 [The Oyez Project](https://www.oyez.org) already does a fine job providing unofficial transcripts
-of all tape-recorded cases argued since October 1955.  See [Transcripts](/transcripts) for further discussion.
+of all tape-recorded cases argued since October 1955.  See [Transcripts](/transcripts/) for further discussion.
 
 ## October Term 1924
 
@@ -29,7 +29,7 @@ of all tape-recorded cases argued since October 1955.  See [Transcripts](/transc
 - [Helvering v. Davis](/transcripts/featured/helvering-v-davis)
 - [NLRB v. Jones &amp; Laughlin Steel Corp.](/transcripts/featured/nlrb-v-jones-amp-laughlin-steel-corp)
 - [Steward Machine Co. v. Davis](/transcripts/featured/steward-machine-co-v-davis)
-- [Virginian R. Co. v. Railway Employees [PDF]](/transcripts/pre-1968#1936-092)
+- [Virginian R. Co. v. Railway Employees [PDF]](/transcripts/pre-1968/#1936-092)
 
 ## July Special Term 1942
 
@@ -37,11 +37,11 @@ of all tape-recorded cases argued since October 1955.  See [Transcripts](/transc
 
 ## October Term 1946
 
-- [Adamson v. California](/transcripts/featured/adamson-v-california) [[PDF](/transcripts/pre-1968#1946-126)]
+- [Adamson v. California](/transcripts/featured/adamson-v-california) [[PDF](/transcripts/pre-1968/#1946-126)]
 
 ## October Term 1947
 
-The [Parker v. Illinois [PDF]](/transcripts/pre-1968#1947-062) case is interesting because it featured a
+The [Parker v. Illinois [PDF]](/transcripts/pre-1968/#1947-062) case is interesting because it featured a
 *pro se* litigant who was also not a lawyer.  It's also unclear to what extent the Court was aware
 of this fact, because there's this curious exchange near the end of the argument:
 
@@ -66,28 +66,28 @@ their own cases at the Supreme Court.
 
 ## October Term 1948
 
-- [AFL v. American Sash &amp; Door Co. [PDF]](/transcripts/pre-1968#1948-019)
+- [AFL v. American Sash &amp; Door Co. [PDF]](/transcripts/pre-1968/#1948-019)
 
 ## October Term 1949
 
-- [Automatic Radio Mfg. Co. v. Hazeltine Research, Inc. [PDF]](/transcripts/pre-1968#1949-094)
+- [Automatic Radio Mfg. Co. v. Hazeltine Research, Inc. [PDF]](/transcripts/pre-1968/#1949-094)
 
 ## October Term 1950
 
-- [Hoffman v. United States [PDF]](/transcripts/pre-1968#1950-087)
-- [Radio Corp. of America v. United States [PDF]](/transcripts/pre-1968#1950-083)
-- [Rogers v. United States [PDF]](/transcripts/pre-1968#1950-031)
+- [Hoffman v. United States [PDF]](/transcripts/pre-1968/#1950-087)
+- [Radio Corp. of America v. United States [PDF]](/transcripts/pre-1968/#1950-083)
+- [Rogers v. United States [PDF]](/transcripts/pre-1968/#1950-031)
 
 ## October Term 1951
 
-- [Joseph Burstyn, Inc. v. Wilson [PDF]](/transcripts/pre-1968#1951-084)
-- [Youngstown Sheet &amp; Tube Co. v. Sawyer](/transcripts/featured/youngstown-sheet-amp-tube-co-v-sawyer) [[PDF](/transcripts/pre-1968#1951-088)]
+- [Joseph Burstyn, Inc. v. Wilson [PDF]](/transcripts/pre-1968/#1951-084)
+- [Youngstown Sheet &amp; Tube Co. v. Sawyer](/transcripts/featured/youngstown-sheet-amp-tube-co-v-sawyer) [[PDF](/transcripts/pre-1968/#1951-088)]
 
 ## October Term 1952
 
-- [Barrows v. Jackson [PDF]](/transcripts/pre-1968#1952-111)
-- [Brown v. Board of Education (I)](/transcripts/featured/brown1)
+- [Barrows v. Jackson [PDF]](/transcripts/pre-1968/#1952-111)
+- [Brown v. Board of Education (I)](/transcripts/featured/brown1/)
 
 ## October Term 1954
 
-- [Brown v. Board of Education (II)](/transcripts/featured/brown2)
+- [Brown v. Board of Education (II)](/transcripts/featured/brown2/)
