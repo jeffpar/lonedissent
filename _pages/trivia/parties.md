@@ -1,6 +1,6 @@
 ---
 title: "Loner Parties"
-permalink: /trivia/parties
+permalink: /trivia/parties/
 layout: page
 ---
 

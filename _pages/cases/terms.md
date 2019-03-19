@@ -1,6 +1,6 @@
 ---
 title: "Terms of The Court"
-permalink: /cases/terms
+permalink: /cases/terms/
 layout: page
 ---
 

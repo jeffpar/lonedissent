@@ -1,6 +1,6 @@
 ---
 title: "Transcripts from the U.S. Supreme Court"
-permalink: /transcripts/scotus
+permalink: /transcripts/scotus/
 layout: page
 redirect_from:
   - /cases/transcripts/scotus

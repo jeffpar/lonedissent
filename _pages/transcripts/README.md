@@ -1,6 +1,6 @@
 ---
 title: "U.S. Supreme Court Transcripts"
-permalink: /transcripts
+permalink: /transcripts/
 layout: page
 ---
 

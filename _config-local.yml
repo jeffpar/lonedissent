@@ -49,6 +49,7 @@ include:
   - _pages
 
 exclude:
+  - "*.sh"
   - Gemfile
   - Gemfile.lock
   - LICENSE

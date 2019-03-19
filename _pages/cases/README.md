@@ -1,6 +1,6 @@
 ---
 title: "U.S. Supreme Court Cases"
-permalink: /cases
+permalink: /cases/
 layout: page
 ---
 

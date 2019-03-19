@@ -1,6 +1,6 @@
 ---
 title: "U.S. Supreme Court Data"
-permalink: /data
+permalink: /data/
 layout: page
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "U.S. Supreme Court Briefs"
-permalink: /briefs
+permalink: /briefs/
 layout: page
 ---
 

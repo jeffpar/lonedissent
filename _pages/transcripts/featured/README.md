@@ -1,6 +1,6 @@
 ---
 title: "U.S. Supreme Court Featured Transcripts"
-permalink: /transcripts/featured
+permalink: /transcripts/featured/
 layout: page
 ---
 

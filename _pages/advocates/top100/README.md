@@ -1,6 +1,6 @@
 ---
 title: "U.S. Supreme Court Advocates"
-permalink: /advocates/top100
+permalink: /advocates/top100/
 layout: page
 ---
 

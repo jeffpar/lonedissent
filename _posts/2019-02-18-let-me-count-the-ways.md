@@ -338,9 +338,12 @@ When cross-referencing the cases in SCDB with other reputable sources (eg, data 
 Case Citation Finder), I've also come across a number of cases which, even though they were considered "cite-worthy",
 do not appear in SCDB.
 
-I've logged some of those instances on my website (e.g., [missing cases](/logs/missingCases.csv) and [unknown citations](/logs/unknownCitations.csv)).  I realize there are many "back of the book" cases that don't merit attention
-(e.g. denials of cert), but that's not true in *all* such cases, so perhaps SCDB should consider creating a second
-much simpler table of cases that cites all the cases it has deliberately omitted.
+I've logged some of those instances on my website (e.g.,
+[missing cases](https://github.com/jeffpar/lonedissent/blob/master/logs/missingCases.csv)
+and [unknown citations](https://github.com/jeffpar/lonedissent/blob/master/logs/unknownCitations.csv)).
+I realize there are many "back of the book" cases that don't merit attention
+(e.g. denials of cert), but that's not true in *all* such cases, so perhaps SCDB should consider
+creating a second much simpler table of cases that cites all the cases it has deliberately omitted.
 
 ### 9. Undocumented Changes
 

@@ -4139,7 +4139,7 @@ function listBriefs(done)
     if (!index) {
         index = "---\n";
         index += "title: \"U.S. Supreme Court Featured Briefs\"\n";
-        index += "permalink: /briefs/featured\n";
+        index += "permalink: /briefs/featured/\n";
         index += "layout: page\n";
         index += "---\n\n";
     }

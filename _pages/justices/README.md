@@ -1,6 +1,6 @@
 ---
 title: "U.S. Supreme Court Justices"
-permalink: /justices
+permalink: /justices/
 layout: page
 ---
 

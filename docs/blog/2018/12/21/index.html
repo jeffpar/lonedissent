@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Building Data Files | Lone Dissent</title>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name="description" content="In preparation for building this website, a few important data files were created first:
+
+" />
+    <meta property="og:description" content="In preparation for building this website, a few important data files were created first:
+
+" />
+    <meta name="author" content="" />
+    <meta property="og:title" content="Building Data Files" />
+    <meta property="twitter:title" content="Building Data Files" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/csshake.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/icons/site.webmanifest">
+    <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Lone Dissent - An Exercise in Supreme Obstinacy" href="/feed.xml" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131809531-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-131809531-1');
+    </script>
+
+    <script src="/assets/js/anime.min.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-icon"><img src="/assets/images/courts/hughes7/hughes7-small.jpg" alt="Lone Dissent Banner"/></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Lone Dissent</a></h1>
+            <p class="site-description">An Exercise in Supreme Obstinacy</p>
+          </div>
+
+          <nav>
+            <a href="/blog/">Blog</a>
+            <a href="/data/">Data</a>
+            <a href="/cases/loners/">Loners</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h2>Building Data Files</h2>
+  <div class="entry">
+    <p>In preparation for building this website, a few important data files were created first:</p>
+
+<ul>
+  <li><a href="https://github.com/jeffpar/lonedissent/blob/master/sources/ld/courts.json">courts.json</a></li>
+  <li><a href="https://github.com/jeffpar/lonedissent/blob/master/sources/ld/decisions.json">decisions.json</a></li>
+  <li><a href="https://github.com/jeffpar/lonedissent/blob/master/sources/ld/justices.json">justices.json</a></li>
+  <li><a href="https://github.com/jeffpar/lonedissent/blob/master/sources/ld/citations.csv">citations.csv</a></li>
+  <li><a href="https://github.com/jeffpar/lonedissent/blob/master/sources/ld/dates.csv">dates.csv</a></li>
+  <li><a href="https://github.com/jeffpar/lonedissent/blob/master/sources/ld/transcripts.csv">transcripts.csv</a></li>
+</ul>
+
+<p>Most of our <a href="https://github.com/jeffpar/lonedissent/blob/master/sources/ld/courts.json">Court</a>
+and <a href="https://github.com/jeffpar/lonedissent/blob/master/sources/ld/justices.json">Justice</a>
+data came from <a href="https://www.oyez.org/">Oyez</a>, while most of the
+<a href="https://github.com/jeffpar/lonedissent/blob/master/sources/ld/decisions.json">Decision</a>
+data was imported from <a href="https://github.com/jeffpar/lonedissent/tree/master/sources/scdb">CSV files</a>
+provided by the <a href="http://scdb.wustl.edu/index.php">Supreme Court Database</a>, aka SCDB<a href="#citing-to-the-scdb">*</a>.</p>
+
+<p>Additionally, our <a href="https://github.com/jeffpar/lonedissent/blob/master/sources/ld/citations.csv">Citations</a>
+come from the Supreme Court’s <a href="https://www.supremecourt.gov/opinions/casefinder.aspx">Case Citation Finder</a>,
+including numerous corrections from <a href="https://github.com/jeffpar/lonedissent/blob/master/sources/ld/citationsLOC.csv">Citations</a>
+extracted from the <a href="https://www.loc.gov/collections/united-states-reports/?st=list">Library of Congress</a>,
+and <a href="https://github.com/jeffpar/lonedissent/blob/master/sources/ld/dates.csv">Argument and Decision Dates</a>
+of early cases have been extracted from the Supreme Court Library document
+“<a href="/sources/scotus/dates/decisionDates.pdf">DATES OF SUPREME COURT DECISIONS AND ARGUMENTS: UNITED STATES REPORTS VOLUMES 2 – 107 (1791 – 1882)</a>”.</p>
+
+<p>To make good use of the raw SCDB data, you need tables that map all the numeric
+codes to what they actually represent.  To that end, SCDB provides a
+<a href="http://scdb.wustl.edu/_brickFiles/2018_02/SCDB_2018_02_codebook.pdf">Code Book</a>,
+but PDFs are <em>not</em> particularly easy to parse.  The next best thing is their
+<a href="http://scdb.wustl.edu/documentation.php">Online Code Book</a>,
+but again, lots of work is required to turn all those HTML tables into something
+your code can ingest.</p>
+
+<p>So, we built a collection of <a href="/sources/scdb/vars.json">SCDB Variables</a>.
+Then we wrote a script that reads every field of every record of
+<a href="https://github.com/jeffpar/lonedissent/blob/master/sources/scdb/decisions.csv">SCDB CSV Data</a>
+and verifies that every field’s value exists in the <a href="/sources/scdb/vars.json">SCDB Variables</a> collection.</p>
+
+<p>The script revealed the following discrepancies:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>warning: CSV row 172190 field splitVote has unexpected value '-99'
+warning: CSV row 172190 field justice has unexpected value '-99'
+warning: CSV row 172190 field justiceName has unexpected value '-99'
+warning: CSV row 172191 field splitVote has unexpected value '-99'
+warning: CSV row 172191 field justice has unexpected value '-99'
+warning: CSV row 172191 field justiceName has unexpected value '-99'
+warning: CSV row 172192 field splitVote has unexpected value '-99'
+warning: CSV row 172192 field justice has unexpected value '-99'
+warning: CSV row 172192 field justiceName has unexpected value '-99'
+warning: CSV row 172193 field splitVote has unexpected value '-99'
+warning: CSV row 172193 field justice has unexpected value '-99'
+warning: CSV row 172193 field justiceName has unexpected value '-99'
+warning: CSV row 172194 field splitVote has unexpected value '-99'
+warning: CSV row 172194 field justice has unexpected value '-99'
+warning: CSV row 172194 field justiceName has unexpected value '-99'
+warning: CSV row 172195 field splitVote has unexpected value '-99'
+warning: CSV row 172195 field justice has unexpected value '-99'
+warning: CSV row 172195 field justiceName has unexpected value '-99'
+warning: CSV row 172196 field splitVote has unexpected value '-99'
+warning: CSV row 172196 field justice has unexpected value '-99'
+warning: CSV row 172196 field justiceName has unexpected value '-99'
+warning: CSV row 172197 field splitVote has unexpected value '-99'
+warning: CSV row 172197 field justice has unexpected value '-99'
+warning: CSV row 172197 field justiceName has unexpected value '-99'
+warning: CSV row 172198 field splitVote has unexpected value '-99'
+warning: CSV row 172198 field justice has unexpected value '-99'
+warning: CSV row 172198 field justiceName has unexpected value '-99'
+warning: CSV row 172199 field splitVote has unexpected value '-99'
+warning: CSV row 172199 field justice has unexpected value '-99'
+warning: CSV row 172199 field justiceName has unexpected value '-99'
+warning: CSV row 172200 field splitVote has unexpected value '-99'
+warning: CSV row 172200 field justice has unexpected value '-99'
+warning: CSV row 172200 field justiceName has unexpected value '-99'
+warning: CSV row 172201 field splitVote has unexpected value '-99'
+warning: CSV row 172201 field justice has unexpected value '-99'
+warning: CSV row 172201 field justiceName has unexpected value '-99'
+warning: CSV row 172202 field splitVote has unexpected value '-99'
+warning: CSV row 172202 field justice has unexpected value '-99'
+warning: CSV row 172202 field justiceName has unexpected value '-99'
+warning: CSV row 172203 field splitVote has unexpected value '-99'
+warning: CSV row 172203 field justice has unexpected value '-99'
+warning: CSV row 172203 field justiceName has unexpected value '-99'
+warning: CSV row 172204 field splitVote has unexpected value '-99'
+warning: CSV row 172204 field justice has unexpected value '-99'
+warning: CSV row 172204 field justiceName has unexpected value '-99'
+warning: CSV row 172205 field splitVote has unexpected value '-99'
+warning: CSV row 172205 field justice has unexpected value '-99'
+warning: CSV row 172205 field justiceName has unexpected value '-99'
+warning: CSV row 172206 field splitVote has unexpected value '-99'
+warning: CSV row 172206 field justice has unexpected value '-99'
+warning: CSV row 172206 field justiceName has unexpected value '-99'
+warning: CSV row 172207 field splitVote has unexpected value '-99'
+warning: CSV row 172207 field justice has unexpected value '-99'
+warning: CSV row 172207 field justiceName has unexpected value '-99'
+warning: CSV row 172208 field splitVote has unexpected value '-99'
+warning: CSV row 172208 field justice has unexpected value '-99'
+warning: CSV row 172208 field justiceName has unexpected value '-99'
+warning: CSV row 172209 field splitVote has unexpected value '-99'
+warning: CSV row 172209 field justice has unexpected value '-99'
+warning: CSV row 172209 field justiceName has unexpected value '-99'
+warning: CSV row 172210 field splitVote has unexpected value '-99'
+warning: CSV row 172210 field justice has unexpected value '-99'
+warning: CSV row 172210 field justiceName has unexpected value '-99'
+warning: CSV row 172211 field splitVote has unexpected value '-99'
+warning: CSV row 172211 field justice has unexpected value '-99'
+warning: CSV row 172211 field justiceName has unexpected value '-99'
+warning: CSV row 172212 field splitVote has unexpected value '-99'
+warning: CSV row 172212 field justice has unexpected value '-99'
+warning: CSV row 172212 field justiceName has unexpected value '-99'
+warning: CSV row 172213 field splitVote has unexpected value '-99'
+warning: CSV row 172213 field justice has unexpected value '-99'
+warning: CSV row 172213 field justiceName has unexpected value '-99'
+warning: CSV row 172214 field splitVote has unexpected value '-99'
+warning: CSV row 172214 field justice has unexpected value '-99'
+warning: CSV row 172214 field justiceName has unexpected value '-99'
+warning: record 1982-092-01-01-01-01 field caseOrigin has unexpected value '154'
+warning: record 1982-092-01-01-01-02 field caseOrigin has unexpected value '154'
+warning: record 1982-092-01-01-01-03 field caseOrigin has unexpected value '154'
+warning: record 1982-092-01-01-01-04 field caseOrigin has unexpected value '154'
+warning: record 1982-092-01-01-01-05 field caseOrigin has unexpected value '154'
+warning: record 1982-092-01-01-01-06 field caseOrigin has unexpected value '154'
+warning: record 1982-092-01-01-01-07 field caseOrigin has unexpected value '154'
+warning: record 1982-092-01-01-01-08 field caseOrigin has unexpected value '154'
+warning: record 1982-092-01-01-01-09 field caseOrigin has unexpected value '154'
+warning: record 1988-038-01-01-01-01 field caseOrigin has unexpected value '156'
+warning: record 1988-038-01-01-01-02 field caseOrigin has unexpected value '156'
+warning: record 1988-038-01-01-01-03 field caseOrigin has unexpected value '156'
+warning: record 1988-038-01-01-01-04 field caseOrigin has unexpected value '156'
+warning: record 1988-038-01-01-01-05 field caseOrigin has unexpected value '156'
+warning: record 1988-038-01-01-01-06 field caseOrigin has unexpected value '156'
+warning: record 1988-038-01-01-01-07 field caseOrigin has unexpected value '156'
+warning: record 1988-038-01-01-01-08 field caseOrigin has unexpected value '156'
+warning: record 1988-038-01-01-01-09 field caseOrigin has unexpected value '156'
+warning: record 1994-049-01-01-01-01 field caseOrigin has unexpected value '156'
+warning: record 1994-049-01-01-01-02 field caseOrigin has unexpected value '156'
+warning: record 1994-049-01-01-01-03 field caseOrigin has unexpected value '156'
+warning: record 1994-049-01-01-01-04 field caseOrigin has unexpected value '156'
+warning: record 1994-049-01-01-01-05 field caseOrigin has unexpected value '156'
+warning: record 1994-049-01-01-01-06 field caseOrigin has unexpected value '156'
+warning: record 1994-049-01-01-01-07 field caseOrigin has unexpected value '156'
+warning: record 1994-049-01-01-01-08 field caseOrigin has unexpected value '156'
+warning: record 1994-049-01-01-01-09 field caseOrigin has unexpected value '156'
+warning: record 2001-002-01-01-01-01 field caseOrigin has unexpected value '156'
+warning: record 2001-002-01-01-01-02 field caseOrigin has unexpected value '156'
+warning: record 2001-002-01-01-01-03 field caseOrigin has unexpected value '156'
+warning: record 2001-002-01-01-01-04 field caseOrigin has unexpected value '156'
+warning: record 2001-002-01-01-01-05 field caseOrigin has unexpected value '156'
+warning: record 2001-002-01-01-01-06 field caseOrigin has unexpected value '156'
+warning: record 2001-002-01-01-01-07 field caseOrigin has unexpected value '156'
+warning: record 2001-002-01-01-01-08 field caseOrigin has unexpected value '156'
+warning: record 2001-002-01-01-01-09 field caseOrigin has unexpected value '156'
+warning: record 2001-008-01-01-01-01 field caseOrigin has unexpected value '157'
+warning: record 2001-008-01-01-01-02 field caseOrigin has unexpected value '157'
+warning: record 2001-008-01-01-01-03 field caseOrigin has unexpected value '157'
+warning: record 2001-008-01-01-01-04 field caseOrigin has unexpected value '157'
+warning: record 2001-008-01-01-01-05 field caseOrigin has unexpected value '157'
+warning: record 2001-008-01-01-01-06 field caseOrigin has unexpected value '157'
+warning: record 2001-008-01-01-01-07 field caseOrigin has unexpected value '157'
+warning: record 2001-008-01-01-01-08 field caseOrigin has unexpected value '157'
+warning: record 2001-008-01-01-01-09 field caseOrigin has unexpected value '157'
+warning: record 2001-022-01-01-01-01 field caseOrigin has unexpected value '161'
+warning: record 2001-022-01-01-01-02 field caseOrigin has unexpected value '161'
+warning: record 2001-022-01-01-01-03 field caseOrigin has unexpected value '161'
+warning: record 2001-022-01-01-01-04 field caseOrigin has unexpected value '161'
+warning: record 2001-022-01-01-01-05 field caseOrigin has unexpected value '161'
+warning: record 2001-022-01-01-01-06 field caseOrigin has unexpected value '161'
+warning: record 2001-022-01-01-01-07 field caseOrigin has unexpected value '161'
+warning: record 2001-022-01-01-01-08 field caseOrigin has unexpected value '161'
+warning: record 2001-022-01-01-01-09 field caseOrigin has unexpected value '161'
+warning: record 2005-004-01-01-01-01 field caseOrigin has unexpected value '158'
+warning: record 2005-004-01-01-01-02 field caseOrigin has unexpected value '158'
+warning: record 2005-004-01-01-01-03 field caseOrigin has unexpected value '158'
+warning: record 2005-004-01-01-01-04 field caseOrigin has unexpected value '158'
+warning: record 2005-004-01-01-01-05 field caseOrigin has unexpected value '158'
+warning: record 2005-004-01-01-01-06 field caseOrigin has unexpected value '158'
+warning: record 2005-004-01-01-01-07 field caseOrigin has unexpected value '158'
+warning: record 2005-004-01-01-01-08 field caseOrigin has unexpected value '158'
+warning: record 2005-004-01-01-01-09 field caseOrigin has unexpected value '158'
+</code></pre></div></div>
+
+<p>In addition, there is one SCDB variable, <a href="http://scdb.wustl.edu/documentation.php?var=lawMinor">lawMinor</a>
+that’s a free-form string, so we modified the script to generate a complete list of all current
+<em>lawMinor</em> values and then stored them back into the list of <a href="/sources/scdb/vars.json">SCDB Variables</a>.</p>
+
+<p>This revealed that the <em>lawMinor</em> field is quite a mess.  Here’s a small subset of the values,
+to give you a sense of the problems:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"unidentifed act of congress",
+"unidentifed act of congress, 1828",
+"unidentifiable",
+"unidentified",
+"unidentified 1807 act of congress",
+"unidentified act of congeress",
+"unidentified act of congress",
+"unidentified act of Congress of 1824",
+"unidentified act of congress, 1824, sec. 32",
+"unidentified acts of congress",
+"unidentified federal statute",
+"unidentified law",
+"unidentified patent law, sec. 15",
+"unidentified RS",
+"unidentified sdtatute",
+"unidentified statute",
+"unidentified US laws",
+"unidentified US statute",
+"Uniformed Services Former Spouses' Protection Act 10 U.S.C. 1408",
+"unknown",
+"unpaid opium tax",
+"unrestricted sale of allotments",
+"unspecified",
+"UNSPECIFIED",
+"unspecified act of congress",
+</code></pre></div></div>
+
+<p>There are <em>lots</em> of duplicate values, varying only in form, not in substance, not to mention <em>lots</em> of typos.</p>
+
+<p>More worrisome are all the decision date discrepancies we’ve found.
+SCDB <a href="http://scdb.wustl.edu/documentation.php?var=dateDecision">claims</a> that:</p>
+
+<blockquote>
+  <p>For volumes 2-107 of the U.S. Reports (1791-1882), we relied on <a href="http://www.supremecourt.gov/opinions/datesofdecisions.pdf">Dates of Supreme Court Decisions and Arguments</a>, prepared by Anne Ashmore of the Library of the Supreme Court,
+because many early reporters do not list the date of decision.</p>
+</blockquote>
+
+<p>but if they did, they made a surprising number of <a href="https://github.com/jeffpar/lonedissent/blob/master/logs/changedDates.csv">mistakes</a>.
+While some of the <a href="https://github.com/jeffpar/lonedissent/blob/master/logs/fixDecisions.log">warnings</a> we automatically generate are not
+necessarily errors, they may merit some attention.</p>
+
+<p>For example, decisions handed down on a Saturday or Sunday are <a href="https://github.com/jeffpar/lonedissent/blob/master/logs/unusualDates.csv">unusual</a>,
+especially in modern times.  Take this pair of warnings:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has decision date 1807-03-07 instead of SCOTUS date 1808-03-07
+warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has unusual decision day: Saturday, March 7, 1807
+</code></pre></div></div>
+
+<p>The fact that an SCDB decision date falls on a Saturday <em>and</em> differs from the SCOTUS decision date strongly suggests
+that the SCDB date is wrong.  We will be relying on <a href="https://github.com/jeffpar/lonedissent/blob/master/sources/ld/dates.csv">our own import</a>
+of SCOTUS decision dates until this gets resolved.</p>
+
+<p>Our list of warnings also includes cases appearing in the SCOTUS <a href="/sources/scotus/dates/decisionDates.pdf">Dates of Decisions</a> document
+that do <em>not</em> appear in SCDB.  These may be cases that were simply overlooked, or intentionally omitted, or which <em>are</em> in SCDB
+but didn’t match an entry in the SCOTUS document, either because of a date or citation discrepancy, or because of some ambiguity
+(eg, when multiple cases are recorded on the same page and therefore have the same citation).</p>
+
+<p>We’ve also uncovered quite a few cases where SCDB’s decision date puts a case squarely in one <a href="http://scdb.wustl.edu/documentation.php?var=naturalCourt">Natural Court</a> and yet the case is assigned to a <em>different</em> Natural Court.</p>
+
+<p>In some cases, this is because the dates assigned to the Natural Court are incorrect, so we’ve
+started <a href="https://github.com/jeffpar/lonedissent/commit/b7c86a71ee57aa59899ccda54a20af592c577c9c#diff-9525524c4cf4c9714fb0ecccf927eb09">making corrections</a>
+to our copy of SCDB’s Natural Court data.</p>
+
+<p>For example, they indicate that the final Warren Court ended on June 22, 1969 and the first Burger Court began the next day,
+on June 23, 1969.  However, several decisions were handed down on June 23, 1969, which could only have been Warren Court decisions.</p>
+
+<p>These and other inconsistencies, such as <a href="https://github.com/jeffpar/lonedissent/blob/master/logs/missingCases.csv">missing cases</a>
+and <a href="https://github.com/jeffpar/lonedissent/blob/master/logs/unknownCitations.csv">unknown citations</a>, are being
+<a href="https://github.com/jeffpar/lonedissent/blob/master/logs/allDecisions.log">logged</a> in the
+<a href="https://github.com/jeffpar/lonedissent">Lone Dissent Project</a>, and hopefully they will be reconciled over time.
+We also hope that, someday, SCDB adopts more transparency in its update procedures, so that when a correction is made,
+both the change itself <em>and</em> the source of the data is recorded and shared.  This will help future researchers avoid
+unreliable third-party data sources.</p>
+
+<p>It is neither sufficient nor convenient to expect researchers to “diff” each release of SCDB with its predecessors to identify
+corrections, additions, deletions, etc.  For example, how seriously should one take SCDB’s claim of reliance on
+<a href="http://www.supremecourt.gov/opinions/datesofdecisions.pdf">Dates of Supreme Court Decisions and Arguments</a>, given the number of
+differences?  What accounts for those differences?  Were other, more trusted sources consulted and relied upon as well, or does
+every difference simply represent a typo – and if so, why are there so many typos in what should have been a straightforward import?</p>
+
+<p>This reminds me of email conversations I had with Andrew D. Martin almost 10 years ago, when the SCDB was still in its infancy.</p>
+
+<p>For example, on November 3, 2009, I had written to him:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I just performed a quick comparison of 2009 Release 03 to Release 02
+and found 173 discrete differences (after removing all the differences
+due to the LED citation format change from "L. Ed. 2d." to "L. Ed. 2d").
+Of those 173, many were to fix the incorrect LED references to Vol 1.
+of L. Ed., leaving a handful of changes/corrections to assorted cases
+(eg, the voting data in 04-607).
+
+I would urge you to provide more detailed release notes for your quarterly
+releases, particularly if one of the goals of these major updates is to
+support methodical scholarly research.  The only release notes I could find
+for 2009 Release 03 said "Minor corrections".  That level of detail seems
+inadequate to me.  Even changes that seem relatively minor (eg, "L. Ed. 2d")
+are worth pointing out, since any change can cause unexpected side-effects.
+</code></pre></div></div>
+
+<p>His response:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>We appreciate this repeated suggestions ... and it's under consideration.
+However, our time and resources are quite limited, and repeatedly making the
+same request is, frankly, not helpful.  All versions of our binary data
+files are posted (something Harold was not doing with ALLCOURT) and you can
+perform the differentials just as well as we can.
+
+Best,
+ADM
+</code></pre></div></div>
+
+<p>It’s a bit sad to see that, almost ten years later, there is still no transparency, and that the release notes
+for SCDB’s latest release (“2018 Release 02”) still say nothing more than:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Minor corrections
+</code></pre></div></div>
+
+<h3 id="citing-to-the-scdb">Citing to the SCDB</h3>
+
+<p>Since we use the SCDB, we shall cite it.  In fact, we shall go one step better, and <em>recite</em> their
+<a href="http://supremecourtdatabase.org/documentation.php?var=cite">instructions</a> on how one should cite it:</p>
+
+<blockquote>
+  <p>To cite to the Supreme Court Database, please employ either of the following:</p>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Harold J. Spaeth, Lee Epstein, Andrew D. Martin, Jeffrey A. Segal,
+Theodore J. Ruger, and Sara C. Benesh. 2018 Supreme Court Database,
+Version 2018 Release 02. URL: http://Supremecourtdatabase.org 
+
+Harold J. Spaeth, Lee Epstein, et al. 2018 Supreme Court Database,
+Version 2018 Release 2. URL: http://Supremecourtdatabase.org 
+</code></pre></div></div>
+
+<blockquote>
+  <p>Please be sure to include the specific Version Number; e.g., ‘Version 2018 Release 02’ in your citation
+as this will indicate the particular version of the database being employed at the time of your reference.
+This matter is of great importance as the database will be updated with newly announced decisions,
+corrections, and the addition of new data for existing cases.</p>
+</blockquote>
+
+<p>Note that indicating which release you are using is a matter “<em>of great importance</em>”.</p>
+
+<p>Which is puzzling, since SCDB consistently refuses to describe, list, or otherwise explain exactly how
+any release differs from any other release.  The differences are invariably described as nothing more than
+“minor corrections” – which can’t be right if they are also “of great importance”.</p>
+
+  </div>
+  <div class="date">
+    Written on December 21, 2018
+  </div>
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          <a href="mailto:loners@pcjs.org"><i class="svg-icon email"></i></a>
+          <a href="https://github.com/jeffpar/lonedissent"><i class="svg-icon github"></i></a>
+          <a href="https://www.twitter.com/jeffpar"><i class="svg-icon twitter"></i></a>
+          <a href="/feed.xml"><i class="svg-icon rss"></i></a>
+        </footer>
+      </div>
+    </div>
+
+  </body>
+</html>
