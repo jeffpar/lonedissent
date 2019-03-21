@@ -1069,6 +1069,24 @@ function writeCSV(filePath, rows, fOverwrite=argv['overwrite'])
 }
 
 /**
+ * parseJSON(filePath, objDefault)
+ *
+ * @param {string} filePath
+ * @param {object} [objDefault]
+ */
+function parseJSON(filePath, objDefault={})
+{
+    let obj;
+    try {
+        obj = JSON.parse(readFile(filePath));
+    } catch(err) {
+        warning("unable to parse JSON file: %s\n", filePath);
+        obj = objDefault;
+    }
+    return obj;
+}
+
+/**
  * readFile(filePath, encoding, fOptional)
  *
  * @param {string} filePath
@@ -1280,7 +1298,7 @@ function parseCite(usCite, cite)
 function readCourts()
 {
     let fixes = 0;
-    let courts = JSON.parse(readFile(sources.ld.courts));
+    let courts = parseJSON(sources.ld.courts);
     /*
      * First, let's see how our data lines up with current Oyez HTML data.
      */
@@ -1399,7 +1417,7 @@ function getOyezDates(timeline, event)
 function readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
 {
     let row;
-    let caseDetail = JSON.parse(readFile(filePath) || "{}");
+    let caseDetail = parseJSON(filePath);
     if (caseDetail.ID) {
         row = {};
         let docket_number = docket || caseDetail.docket_number;
@@ -1548,7 +1566,7 @@ function readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
 function readOyezTranscriptData(filePath)
 {
     let data = {text: []};
-    let transcriptDetail = JSON.parse(readFile(filePath) || "{}");
+    let transcriptDetail = parseJSON(filePath);
     if (transcriptDetail && transcriptDetail.transcript) {
         transcriptDetail.transcript.sections.forEach((section) => {
             section.turns.forEach((turn) => {
@@ -1864,7 +1882,7 @@ function backupLonerDecisions(done)
 {
     let backupDecisions = [];
     let backupKeys = ['caseId', 'termId', 'dissenterId', 'dissenterName', 'caseNotes', 'pdfSource', 'pdfPage', 'pdfPageDissent'];
-    let lonerDecisions = JSON.parse(readFile(_data.lonerDecisions));
+    let lonerDecisions = parseJSON(_data.lonerDecisions);
     lonerDecisions.forEach((decision) => {
         let backup = {};
         backupKeys.forEach((key) => {
@@ -1962,16 +1980,16 @@ function parseMultipleDates(sDates)
  */
 function buildAdvocates(done)
 {
-    let vars = JSON.parse(readFile(sources.scdb.vars) || "{}");
+    let vars = parseJSON(sources.scdb.vars);
     let courtsSCDB = readSCDBCourts();
-    // let courts = JSON.parse(readFile(sources.ld.courts) || "[]");
-    let justices = JSON.parse(readFile(sources.ld.justices) || "[]");
+    // let courts = parseJSON(sources.ld.courts), []);
+    let justices = parseJSON(sources.ld.justices, []);
 
     let dataFile = _data.allDecisions;
-    let decisions = JSON.parse(readFile(dataFile) || "[]");
+    let decisions = parseJSON(dataFile, []);
     sortObjects(decisions, ["volume", "page"]);
 
-    let advocates = JSON.parse(readFile(sources.oyez.advocates) || "{}");
+    let advocates = parseJSON(sources.oyez.advocates);
 
     let womenAdvocates = readCSV(sources.ld.women_advocates_csv);
     sortObjects(womenAdvocates, ["argsAdvocate"], -1);
@@ -2005,7 +2023,7 @@ function buildAdvocates(done)
                 for (let i = 1; i < aliases.length; i++) {
                     let alias = aliases[i];
                     let filePath = path.join(dir, alias + ".json");
-                    let cases = JSON.parse(readFile(filePath) || "[]");
+                    let cases = parseJSON(filePath, []);
                     if (i == 1) {
                         let missingCases = advocates.missingCases && advocates.missingCases[id];
                         if (missingCases) {
@@ -2165,6 +2183,112 @@ function buildAdvocates(done)
 }
 
 /**
+ * buildAdvocatesAll()
+ *
+ * @param {function()} done
+ */
+function buildAdvocatesAll(done)
+{
+    let caseFiles = glob.sync(rootDir + sources.oyez.cases_json);
+    if (!caseFiles || !caseFiles.length) {
+        warning("unable to read case files: %s\n", sources.oyez.cases_json);
+    } else {
+        let advocates = parseJSON(sources.oyez.advocates);
+        if (!advocates) {
+            warning("unable to read advocates file: %s\n", sources.oyez.advocates);
+        } else {
+            let additions = 0;
+            if (!advocates.all) {
+                advocates.all = {};
+                additions++;
+            }
+            let parseName = function(name) {
+                let s = name.replace(/[^A-Za-z ]/g, '').replace(/\.([A-Z])/g, ". $1").replace(/\s+/g, ' ').trim();
+                let parts = s.split(' ');
+                if (parts[0].length == 1) parts.splice(0, 1);
+                if (parts[1] == "Wm") parts[1] = "W";
+                let lastPart = parts[parts.length-1];
+                if (lastPart == "Jr" || lastPart == "Sr" || lastPart == "II" || lastPart == "III" || lastPart == "IV") {
+                    parts.splice(parts.length-1, 1);
+                } else if (lastPart.length < 3 && lastPart != "Yu" && lastPart != "Ho" && lastPart != "Wu" || lastPart == "General") {
+                    warning("advocate name '%s' has unusual last name\n", name);
+                    parts = [];
+                }
+                return parts;
+            };
+            caseFiles.forEach((caseFile) => {
+                let caseData = parseJSON(caseFile);
+                if (!caseData.advocates || !caseData.advocates.length) {
+                    if (argv['detail']) warning("case %s (%s) has no advocates\n", caseData.name, caseData.href);
+                    return;
+                }
+                caseData.advocates.forEach((advocateData) => {
+                    let advocate = advocateData.advocate;
+                    let advocatePosition = advocateData.advocate_description;
+                    if (!advocate || !advocate.name) {
+                        if (argv['detail']) warning("case %s (%s) has advocate with no info\n", caseData.name, caseData.href);
+                        return;
+                    }
+                    let i = advocate.name.indexOf(',');
+                    if (i > 0) advocate.name = advocate.name.substr(0, i);
+                    let parts = parseName(advocate.name);
+                    if (!parts.length) return;
+                    let advocateId = parts[0].toLowerCase() + '_' + parts[parts.length-1].toLowerCase();
+                    let matched = false;
+                    for (let n = 1; !matched; n++) {
+                        let id = advocateId + (n > 1? n : "");
+                        let advocateEntry = advocates.all[id];
+                        if (!advocateEntry) {
+                            advocates.all[id] = [advocate.name, advocate.identifier];
+                            additions++;
+                            matched = true;
+                            if (n > 1) {
+                                warning("advocate ID '%s' has name '%s' similar to '%s'\n", id, advocate.name, advocates.all[advocateId][0]);
+                            }
+                        } else if (advocateEntry[0].replace(/[^A-Za-z ]/g, '').toLowerCase() == advocate.name.replace(/[^A-Za-z ]/g, '').toLowerCase()) {
+                            matched = true;
+                        } else {
+                            let partsEntry = parseName(advocateEntry[0]);
+                            if (parts.length == partsEntry.length) {
+                                if (parts.length >= 3 && parts[0] == partsEntry[0] && parts[parts.length-1] == partsEntry[parts.length-1]) {
+                                    if (parts[1].length == 1 && parts[1][0] == partsEntry[1][0]) {
+                                        advocateEntry[0] = advocate.name;
+                                        matched = true;
+                                    }
+                                    else if (partsEntry[1].length == 1 && partsEntry[1][0] == parts[1][0]) {
+                                        matched = true;
+                                    }
+                                } else if (parts.length == 2 && parts[0] == partsEntry[0] && parts[1] == partsEntry[1]) {
+                                    matched = true;
+                                }
+                            } else if (parts.length == 2) {
+                                matched = true;
+                            } else if (partsEntry.length == 2) {
+                                advocateEntry[0] = advocate.name;
+                                matched = true;
+                            }
+                        }
+                    }
+                });
+            });
+            if (additions) {
+                let all = advocates.all;
+                delete advocates.all;
+                let keys = Object.keys(all);
+                keys.sort();
+                advocates.all = {};
+                keys.forEach((key) => {
+                    advocates.all[key] = all[key];
+                });
+                printf("additional advocates: %d\n", additions);
+                writeFile(sources.oyez.advocates, advocates);
+            }
+        }
+    }
+    done();
+}
+
+/**
  * buildAdvocatesWomen()
  *
  * @param {function()} done
@@ -2173,7 +2297,7 @@ function buildAdvocatesWomen(done)
 {
     let argTable = [];
     let dataFile = _data.allDecisions;
-    let decisions = JSON.parse(readFile(dataFile) || "[]");
+    let decisions = parseJSON(dataFile, []);
     sortObjects(decisions, ["volume", "page", "docket"]);
     let oldTable = readCSV(sources.ld.women_advocates_csv);
     let text = readFile(sources.schs.women_advocates_txt);
@@ -2236,7 +2360,7 @@ function buildAdvocatesWomen(done)
                 let dateArgument = dataLines[iData++];
                 let caseInfo = dataLines[iData++];
                 let citeInfo = dataLines[iData];
-                if (!citeInfo.match(/^([0-9]+)\s*J\.?\s*Sup\.?\s*Ct\.?\s*U\.?S\.?\s*([0-9-, ]+);?$/)) {
+                if (!citeInfo.match(/^([0-9]+)\s*J\.?\s*Sup\.?\s*Ct\.?\s*U\.?S\.?\s*([0-9-, ]+);?$/) && citeInfo.indexOf("http") < 0) {
                     if (message) message += "\n\t";
                     message += sprintf("unrecognized cite: '%s' (see %d)", citeInfo, numberArgument);
                 }
@@ -2691,7 +2815,7 @@ function buildCourts(done)
      * Let's verify that all the justices are appropriately slotted into the courts.
      */
     let lastCourtPrinted = "";
-    let justices = JSON.parse(readFile(sources.ld.justices));
+    let justices = parseJSON(sources.ld.justices);
     for (let i = 0; i < justices.length; i++) {
         let justice = justices[i];
         let nCourts = 0;
@@ -2771,7 +2895,7 @@ function buildDates(done)
  */
 function buildDecisions(done)
 {
-    let vars = JSON.parse(readFile(sources.scdb.vars));
+    let vars = parseJSON(sources.scdb.vars);
     let decisions = parseCSV(readFile(sources.scdb.decisions_csv, "latin1"), "html", 0, "voteId", "justice", false, vars);
     printf("SCDB decisions: %d\n", decisions.length);
     if (!isSortedObjects(decisions, ["caseId"])) {
@@ -2784,7 +2908,7 @@ function buildDecisions(done)
     } else {
         let decisionsOrig = decisions;
         writeFile(sources.ld.decisionsOrig, decisionsOrig);
-        decisions = JSON.parse(readFile(sources.ld.decisions));
+        decisions = parseJSON(sources.ld.decisions);
         if (!isSortedObjects(decisions, ["caseId"])) {
             sortObjects(decisions, ["caseId"]);
             writeFile(sources.ld.decisions, decisions);
@@ -3427,17 +3551,17 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
 
     let decisionsAudited = [];
     let decisionsDuplicated = [];
-    let decisions = JSON.parse(readFile(sources.ld.decisions));
+    let decisions = parseJSON(sources.ld.decisions);
     printf("decisions available: %d\n", decisions.length);
-    let lonerBackup = JSON.parse(readFile(_data.lonerBackup) || "[]");
+    let lonerBackup = parseJSON(_data.lonerBackup, []);
 
     let additions = 0;
     let dataFile = minVotes == 1? _data.lonerDecisions : _data.allDecisions;
-    let data = JSON.parse(!argv['overwrite'] && readFile(dataFile) || "[]");
-    let vars = JSON.parse(readFile(sources.scdb.vars) || "{}");
+    let data = argv['overwrite']? [] : parseJSON(dataFile, []);
+    let vars = parseJSON(sources.scdb.vars);
     let courtsSCDB = readSCDBCourts();
-    // let courts = JSON.parse(readFile(sources.ld.courts) || "[]");
-    let justices = JSON.parse(readFile(sources.ld.justices) || "[]");
+    // let courts = parseJSON(sources.ld.courts, []);
+    let justices = parseJSON(sources.ld.justices, []);
 
     do {
         let year = 0;
@@ -3851,13 +3975,13 @@ function findJustices(done, minVotes)
     /*
      * If we've already built lonerJustices.json, then use it; otherwiser, build it.
      */
-    let lonerBackup = JSON.parse(readFile(_data.lonerBackup) || "[]");
+    let lonerBackup = parseJSON(_data.lonerBackup, []);
     let dataFile = minVotes == 1? _data.lonerJustices : _data.allJustices;
-    let data = JSON.parse(!argv['overwrite'] && readFile(dataFile) || "[]");
+    let data = argv['overwrite']? [] : parseJSON(dataFile, []);
     if (!data.length) {
         let dataBuckets = {};
-        let vars = JSON.parse(readFile(sources.scdb.vars));
-        let justices = JSON.parse(readFile(sources.ld.justices));
+        let vars = parseJSON(sources.scdb.vars);
+        let justices = parseJSON(sources.ld.justices);
         justices.forEach((justice) => {
             if (justice.scdbJustice) {
                 let id = vars.justice.values[justice.scdbJustice];
@@ -3876,7 +4000,7 @@ function findJustices(done, minVotes)
                 warning("justice %s has no SCDB justice index\n", justice.id);
             }
         });
-        let dataDecisions = JSON.parse(readFile(minVotes == 1? _data.lonerDecisions : _data.allDecisions));
+        let dataDecisions = parseJSON(minVotes == 1? _data.lonerDecisions : _data.allDecisions);
         dataDecisions.forEach((decision) => {
             let justiceId = minVotes == 1? decision.dissenterId : decision.majOpinWriter;
             if (justiceId == "none") return;
@@ -3991,7 +4115,7 @@ function findAllJustices(done)
 function findLonerParties(done)
 {
     let dateBuckets = {};
-    let lonerJustices = JSON.parse(readFile(_data.lonerJustices) || "[]");
+    let lonerJustices = parseJSON(_data.lonerJustices, []);
     lonerJustices.forEach((justice) => {
         justice.loneDissents.forEach((dissent) => {
             if (!dateBuckets[dissent.dateDecision]) {
@@ -4053,7 +4177,7 @@ function getDateMarkers(text)
  */
 function convertTranscripts(done)
 {
-    let decisions = JSON.parse(readFile(_data.allDecisions));
+    let decisions = parseJSON(_data.allDecisions);
     // printf("sorting SCDB decisions by [dateArgument, docket]...\n");
     sortObjects(decisions, ["dateArgument", "docket"]);
     let filePaths = glob.sync(rootDir + sources.lba.transcripts_txt);
@@ -4131,7 +4255,7 @@ function convertTranscripts(done)
  */
 function listBriefs(done)
 {
-    let decisions = JSON.parse(readFile(_data.allDecisions));
+    let decisions = parseJSON(_data.allDecisions);
     printf("sorting SCDB decisions by [usCite]...\n");
     sortObjects(decisions, ["usCite"]);
     let indexPath = "/_pages/briefs/featured/README.md";
@@ -4221,7 +4345,7 @@ function matchTXTDates(done)
 {
     let monthBucket = [];
     printf("reading SCDB decisions...\n");
-    let decisions = JSON.parse(readFile(sources.ld.decisions));
+    let decisions = parseJSON(sources.ld.decisions);
     printf("sorting SCDB decisions by [usCite]...\n");
     sortObjects(decisions, ["usCite"]);
     printf("reading U.S. Reports texts...\n");
@@ -4330,7 +4454,7 @@ function matchDates(done)
     }
 
     printf("reading SCDB decisions...\n");
-    let decisions = JSON.parse(readFile(sources.ld.decisions));
+    let decisions = parseJSON(sources.ld.decisions);
 
     printf("sorting SCDB decisions by [usCite,dateDecision]...\n");
     sortObjects(decisions, ["usCite","dateDecision"]);
@@ -4423,7 +4547,7 @@ function matchTranscripts(done)
 {
     let changes = 0, exceptions = 0;
     printf("reading SCDB decisions...\n");
-    let decisions = JSON.parse(readFile(sources.ld.decisions));
+    let decisions = parseJSON(sources.ld.decisions);
     if (!isSortedObjects(decisions, ["caseId"])) {
         warning("decisions not sorted properly\n");
         done();
@@ -4805,9 +4929,9 @@ function searchTranscripts(done)
  */
 function fixDecisions(done)
 {
-    // let vars = JSON.parse(readFile(sources.scdb.vars) || "{}");
-    // let courts = JSON.parse(readFile(sources.ld.courts) || "[]");
-    // let justices = JSON.parse(readFile(sources.ld.justices) || "[]");
+    // let vars = parseJSON(sources.scdb.vars);
+    // let courts = parseJSON(sources.ld.courts, []);
+    // let justices = parseJSON(sources.ld.justices, []);
 
     let fixDates = false;
     let citesScotus = {}, citesLOC = {}, yearsScotus = {};
@@ -4876,7 +5000,7 @@ function fixDecisions(done)
     }
 
     let changes = 0, citesDecisions = {};
-    let decisions = JSON.parse(readFile(sources.ld.decisions));
+    let decisions = parseJSON(sources.ld.decisions);
     for (let i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
         if (decision.usCite) {
@@ -5438,7 +5562,7 @@ function testDates(done)
 
     let dataFiles = [_data.lonerDecisions, _data.allDecisions];
     dataFiles.forEach((dataFile) => {
-        let data = JSON.parse(readFile(dataFile) || "[]");
+        let data = parseJSON(dataFile, []);
         if (data.length) {
             if (!isSortedObjects(data, ["caseId"])) {
                 sortObjects(data, ["caseId"]);
@@ -5604,7 +5728,7 @@ function generateDownloadTasks(done)
     rowsLOC.forEach((cite) => {
         getLOCPDF(cite.volume, cite.page, cite.pageURL);
     });
-    let cases = JSON.parse(readFile(sources.oyez.cases) || "{}");
+    let cases = parseJSON(sources.oyez.cases);
     if (cases) {
         let transcripts = [];   // readCSV(sources.oeyz.transcripts);
         cases.ids.forEach((id) => {
@@ -5722,7 +5846,7 @@ function generateDownloadTasks(done)
         sortObjects(transcripts, ["dateArgument", "docket"]);
         writeCSV(sources.oyez.transcripts_csv, transcripts);
     }
-    let advocates = JSON.parse(readFile(sources.oyez.advocates) || "{}");
+    let advocates = parseJSON(sources.oyez.advocates);
     if (advocates) {
         let ids = Object.keys(advocates.top);
         let women = Object.keys(advocates.women);
@@ -5803,7 +5927,7 @@ function mergeSCDBDockets(done)
 {
     let changes = 0;
     printf("reading SCDB decisions...\n");
-    let decisions = JSON.parse(readFile(sources.ld.decisions));
+    let decisions = parseJSON(sources.ld.decisions);
     if (!isSortedObjects(decisions, ["caseId"])) {
         warning("decisions not sorted by [caseId]\n");
         done();
@@ -5873,7 +5997,7 @@ function mergeSCDBDockets(done)
 function reportChanges(done)
 {
     printf("reading SCDB decisions...\n");
-    let decisions = JSON.parse(readFile(sources.ld.decisions));
+    let decisions = parseJSON(sources.ld.decisions);
     printf("sorting SCDB decisions by [usCite,caseTitle]...\n");
     sortObjects(decisions, ["usCite","caseTitle"]);
     printf("comparing date records in %s to SCDB...\n", sources.ld.dates_csv);
@@ -5901,7 +6025,7 @@ function reportChanges(done)
         }
     });
     sortObjects(decisions, ["dateDecision"]);
-    let decisionsOrig = JSON.parse(readFile(sources.ld.decisionsOrig));
+    let decisionsOrig = parseJSON(sources.ld.decisionsOrig);
     printf("\nlist of date corrections made to SCDB\n");
     decisions.forEach((decision) => {
         if (decision.caseNotes) {
@@ -6035,7 +6159,7 @@ function usage(done)
     done();
 }
 
-gulp.task("advocates", gulp.series(buildAdvocatesWomen, buildAdvocates));
+gulp.task("advocates", gulp.series(buildAdvocatesAll, buildAdvocatesWomen, buildAdvocates));
 gulp.task("advocates-women", buildAdvocatesWomen);
 gulp.task("briefs", listBriefs);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));

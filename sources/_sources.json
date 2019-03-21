@@ -85,6 +85,7 @@
   },
   "oyez": {
     "cases": "/sources/oyez/cases/_cases.json",
+    "cases_json": "/sources/oyez/cases/*/*.json",
     "advocates": "/sources/oyez/advocates/_advocates.json",
     "transcripts_csv": "/sources/oyez/transcripts/transcripts.csv",
     "courts_xml": "/sources/oyez/courts/**/court.xml",
@@ -109,7 +110,7 @@
   "scotus": {
     "citationsHTML": "/sources/scotus/citations/*.*",
     "journals": "/sources/scotus/journals/*.txt",
-    "transcripts": "/sources/scotus/transcripts/**/*.txt",
+    "transcripts": "/sources/scotus/transcripts/arguments/**/*.txt",
     "download": {
       "journal1889": {
         "start": 1889,
@@ -150,18 +151,18 @@
         "start": 1968,
         "stop": 1999,
         "url": "https://www.supremecourt.gov/oral_arguments/archived_transcripts/%d",
-        "dir": "/sources/scotus/transcripts/%d",
+        "dir": "/sources/scotus/transcripts/arguments/%d",
         "file": "%d.html"
       },
       "transcriptNew": {
         "start": 2000,
         "stop": 2018,
         "url": "https://www.supremecourt.gov/oral_arguments/argument_transcript/%d",
-        "dir": "/sources/scotus/transcripts/%d",
+        "dir": "/sources/scotus/transcripts/arguments/%d",
         "file": "%d.html"
       },
       "transcriptPDF": {
-        "files": "/sources/scotus/transcripts/$1/*.html",
+        "files": "/sources/scotus/transcripts/arguments/$1/*.html",
         "pattern": "<td style=\"text-align: left;\">\\s*<(?:div|span)[^>]*>\\s*<a href='([^']*)'[^>]*>\\s*(.*?)\\s*</a>\\s*</(?:div|span)>\\s*<(?:div|span)[^>]*>\\s*([^<]*)\\s*</(?:div|span)>\\s*</td>\\s*<td[^>]*>\\s*([0-9]+)/([0-9]+)/([0-9]+)\\s*</td>",
         "transform": {
           "$2": ["^([0-9]+)(\\s*|-)Orig\\.?$", "$1-orig"],
