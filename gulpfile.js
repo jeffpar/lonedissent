@@ -2203,15 +2203,15 @@ function buildAdvocatesAll(done)
                 additions++;
             }
             let parseName = function(name) {
-                let s = name.replace(/[^A-Za-z ]/g, '').replace(/\.([A-Z])/g, ". $1").replace(/\s+/g, ' ').trim();
+                let s = name.replace(/\.([A-Z])/g, ". $1").replace(/[^A-Za-z ]/g, '').replace(/\s+/g, ' ').trim();
                 let parts = s.split(' ');
-                if (parts[0].length == 1) parts.splice(0, 1);
                 if (parts[1] == "Wm") parts[1] = "W";
+                if (parts[0].length == 1 && parts[1].length > 1) parts.splice(0, 1);
                 let lastPart = parts[parts.length-1];
                 if (lastPart == "Jr" || lastPart == "Sr" || lastPart == "II" || lastPart == "III" || lastPart == "IV") {
                     parts.splice(parts.length-1, 1);
                 } else if (lastPart.length < 3 && lastPart != "Yu" && lastPart != "Ho" && lastPart != "Wu" || lastPart == "General") {
-                    warning("advocate name '%s' has unusual last name\n", name);
+                    warning("advocate '%s' has an unusual last name\n", name);
                     parts = [];
                 }
                 return parts;
@@ -2233,26 +2233,28 @@ function buildAdvocatesAll(done)
                     if (i > 0) advocate.name = advocate.name.substr(0, i);
                     let parts = parseName(advocate.name);
                     if (!parts.length) return;
-                    let advocateId = parts[0].toLowerCase() + '_' + parts[parts.length-1].toLowerCase();
+                    let advocateId = parts[0].toLowerCase() + '_' + parts[parts.length-1].toLowerCase(), id = advocateId;
                     let matched = false;
                     for (let n = 1; !matched; n++) {
-                        let id = advocateId + (n > 1? n : "");
+                        if (n > 1) id = advocateId + n;
                         let advocateEntry = advocates.all[id];
                         if (!advocateEntry) {
-                            advocates.all[id] = [advocate.name, advocate.identifier];
-                            additions++;
+                            advocates.all[id] = {name: advocate.name, aliases: {}};
                             matched = true;
+                            additions++;
                             if (n > 1) {
-                                warning("advocate ID '%s' has name '%s' similar to '%s'\n", id, advocate.name, advocates.all[advocateId][0]);
+                                warning("advocate ID '%s' has name '%s' similar to '%s'\n", id, advocate.name, advocates.all[advocateId].name);
                             }
-                        } else if (advocateEntry[0].replace(/[^A-Za-z ]/g, '').toLowerCase() == advocate.name.replace(/[^A-Za-z ]/g, '').toLowerCase()) {
+                            break;
+                        }
+                        if (advocateEntry.name.replace(/[^A-Za-z ]/g, '').toLowerCase() == advocate.name.replace(/[^A-Za-z ]/g, '').toLowerCase()) {
                             matched = true;
                         } else {
-                            let partsEntry = parseName(advocateEntry[0]);
+                            let partsEntry = parseName(advocateEntry.name);
                             if (parts.length == partsEntry.length) {
                                 if (parts.length >= 3 && parts[0] == partsEntry[0] && parts[parts.length-1] == partsEntry[parts.length-1]) {
                                     if (parts[1].length == 1 && parts[1][0] == partsEntry[1][0]) {
-                                        advocateEntry[0] = advocate.name;
+                                        advocateEntry.name = advocate.name;
                                         matched = true;
                                     }
                                     else if (partsEntry[1].length == 1 && partsEntry[1][0] == parts[1][0]) {
@@ -2264,9 +2266,17 @@ function buildAdvocatesAll(done)
                             } else if (parts.length == 2) {
                                 matched = true;
                             } else if (partsEntry.length == 2) {
-                                advocateEntry[0] = advocate.name;
+                                advocateEntry.name = advocate.name;
                                 matched = true;
                             }
+                        }
+                    }
+                    if (matched) {
+                        try {
+                            if (!advocates.all[id].aliases[advocate.identifier]) advocates.all[id].aliases[advocate.identifier] = [];
+                            advocates.all[id].aliases[advocate.identifier].push(caseFile.substr(rootDir.length));
+                        } catch(err) {
+                            warning("%s\n", err.message);
                         }
                     }
                 });
