@@ -88,6 +88,7 @@
     "cases_json": "/sources/oyez/cases/*/*.json",
     "advocates": "/sources/oyez/advocates/_advocates.json",
     "transcripts_csv": "/sources/oyez/transcripts/transcripts.csv",
+    "arguments_json": "/sources/oyez/transcripts/_files/%d/%s_%s_argument.json",
     "courts_xml": "/sources/oyez/courts/**/court.xml",
     "courts_html": "/sources/oyez/justices_by_court.html",
     "justices_xml": "/sources/oyez/justices/**/justice.xml"
