@@ -2014,10 +2014,29 @@ function buildAdvocates(done)
     let dataFile = _data.allDecisions;
     let decisions = readJSON(dataFile, []);
     sortObjects(decisions, ["volume", "page"]);
+
+    let topAdvocates = [];
     let advocates = readJSON(sources.oyez.advocates);
+    let advocateIds = Object.keys(advocates.all);
+    advocateIds.forEach((id) => {
+        let total = 0;
+        let advocate = advocates.all[id];
+        let name = advocate.name;
+        let aliases = Object.keys(advocate.aliases);
+        aliases.forEach((alias) => {
+            total += advocate.aliases[alias].length;
+        });
+        topAdvocates.push({id, name, total});
+    });
+    sortObjects(topAdvocates, ["total"], -1);
+    for (let i = 0; i < 25; i++) {
+        let advocate = topAdvocates[i];
+        printf("%s (%s): %d cases\n", advocate.name, advocate.id, advocate.total);
+    }
+
+    let topWomen = [];
     let womenAdvocates = readCSV(sources.ld.women_advocates_csv);
     sortObjects(womenAdvocates, ["argsAdvocate"], -1);
-    let topWomen = [];
     for (let i = 0; i < womenAdvocates.length; i++) {
         let woman = womenAdvocates[i];
         if (searchObjects(topWomen, {nameAdvocate: woman.nameAdvocate}) < 0) {
@@ -2097,7 +2116,8 @@ function buildAdvocates(done)
                 }
                 for (let i = 0; i < aliases.length; i++) {
                     let caseList = advocates.all[id].aliases[aliases[i]];
-                    caseList.forEach((caseFile) => {
+                    caseList.forEach((caseObj) => {
+                        let caseFile = caseObj.file;
                         if (caseFiles.indexOf(caseFile) >= 0) return;
                         caseFiles.push(caseFile);
                         let row = readOyezCaseData(caseFile, "", "", "", advocate.name);
@@ -2369,6 +2389,9 @@ function buildAdvocatesAll(done)
                             if (parts.length == partsEntry.length) {
                                 if (parts.length >= 3 && parts[0] == partsEntry[0] && parts[parts.length-1] == partsEntry[parts.length-1]) {
                                     if (parts[1].length == 1 && parts[1][0] == partsEntry[1][0]) {
+                                        if (advocate.name == "Mr. Attorney General") {
+                                            console.log();
+                                        }
                                         advocateEntry.name = advocate.name;
                                         matched = true;
                                     }
@@ -2381,6 +2404,9 @@ function buildAdvocatesAll(done)
                             } else if (parts.length == 2) {
                                 matched = true;
                             } else if (partsEntry.length == 2) {
+                                if (advocate.name == "Mr. Attorney General") {
+                                    console.log();
+                                }
                                 advocateEntry.name = advocate.name;
                                 matched = true;
                             }
@@ -2396,14 +2422,14 @@ function buildAdvocatesAll(done)
                         let caseFile = casePath.substr(rootDir.length);
                         let aliases = Object.keys(advocates.all[id].aliases);
                         aliases.forEach((alias) => {
-                            if (advocates.all[id].aliases[alias].indexOf(caseFile) >= 0) exists = true;
+                            let cases = advocates.all[id].aliases[alias];
+                            cases.forEach((caseObj) => {
+                                if (caseObj.file == caseFile) exists = true;
+                            });
                         });
                         if (!exists) {
                             if (!advocates.all[id].aliases[advocate.identifier]) advocates.all[id].aliases[advocate.identifier] = [];
-                            if (advocate.identifier == "bessie_margolin") {
-                                console.log();
-                            }
-                            advocates.all[id].aliases[advocate.identifier].push(caseFile);
+                            advocates.all[id].aliases[advocate.identifier].push({file: caseFile, href: caseLink});
                         }
                     }
                 });
