@@ -575,8 +575,52 @@ cases:
       - id: rbginsburg
         name: "Ruth Ginsburg"
         majority: true
-  - id: "1993-085"
+  - id: "1993-081"
     number: 14
+    termId: "1993-10"
+    title: "Shannon v. United States"
+    docket: "92-8346"
+    volume: "512"
+    page: "374"
+    usCite: "512 U.S. 374"
+    pdfSource: "loc"
+    dateArgument: "Tuesday, March 22, 1994"
+    dateDecision: "Friday, June 24, 1994"
+    urlOyez: "https://www.oyez.org/cases/1993/92-8346"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: whrehnquist
+    authorName: "William Rehnquist"
+    votes:
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: false
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: false
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: false
+  - id: "1993-085"
+    number: 15
     termId: "1993-10"
     title: "Thomas Jefferson University v. Shalala"
     docket: "93-120"
@@ -621,4 +665,4 @@ cases:
         majority: false
 ---
 
-Amy L. Wax argued 14 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/amy_l_wax).
+Amy L. Wax argued 15 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/amy_l_wax).

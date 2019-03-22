@@ -311,8 +311,52 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: true
-  - id: "1981-052"
+  - id: "1980-078"
     number: 8
+    termId: "1980-10"
+    title: "California v. Sierra Club"
+    docket: "79-1252"
+    volume: "451"
+    page: "287"
+    usCite: "451 U.S. 287"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, January 21, 1981"
+    dateDecision: "Tuesday, April 28, 1981"
+    urlOyez: "https://www.oyez.org/cases/1980/79-1252"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: brwhite
+    authorName: "Byron White"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+  - id: "1981-052"
+    number: 9
     termId: "1981-10"
     title: "Railway Labor Executives&apos; Assn. v. Gibbons"
     docket: "80-415"
@@ -356,7 +400,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1981-083"
-    number: 9
+    number: 10
     termId: "1981-10"
     title: "Weinberger v. Romero-Barcelo"
     docket: "80-1990"
@@ -399,6 +443,50 @@ cases:
       - id: sdoconnor
         name: "Sandra Day O'Connor"
         majority: true
+  - id: "1982-053"
+    number: 11
+    termId: "1982-10"
+    title: "Local 926, International Union of Operating Engineers, AFL-CIO v. Jones"
+    docket: "81-1574"
+    volume: "460"
+    page: "669"
+    usCite: "460 U.S. 669"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, December 1, 1982"
+    dateDecision: "Monday, April 4, 1983"
+    urlOyez: "https://www.oyez.org/cases/1982/81-1574"
+    voteMajority: 6
+    voteMinority: 3
+    authorId: brwhite
+    authorName: "Byron White"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: false
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: false
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: false
 ---
 
-Elinor H. Stillman argued 9 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/elinor_h_stillman).
+Elinor H. Stillman argued 11 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/elinor_h_stillman).
