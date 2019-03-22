@@ -2,7 +2,7 @@
   "ID": 63052,
   "name": "Mont v. United States",
   "href": "https://api.oyez.org/cases/2018/17-8995",
-  "view_count": 365,
+  "view_count": 1242,
   "docket_number": "17-8995",
   "additional_docket_numbers": null,
   "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
@@ -32,8 +32,48 @@
   "facts_of_the_case": "<p>Petitioner Jason Mont was convicted for federal drug-related offenses in 2005 and sentenced to 120 months’ imprisonment followed by five years of supervised release. He was released on March 6, 2012, so by his sentence he was subject to supervised release until March 6, 2017.</p>\n<p>While on supervised release, Mont allegedly engaged in and was indicted for state-law offenses. In October 2016, Mont pleaded guilty to some of the state-court charges in exchange for a predetermined six-year sentence. Due to administrative delays and a series of continuances, Mont was sentenced on March 21, 2017. The sentencing judge credited as time served the roughly ten months Mont had spent incarcerated pending a disposition. On March 30, 2017, Mont’s probation officer informed the federal district court of Mont’s state-court convictions and sentences, and the court exercised jurisdiction to adjudicate whether he violated the terms of his supervised release. The district court then sentenced Mont to 42 months’ imprisonment, to be served consecutively with his imprisonment for state-court convictions.</p>\n<p>Mont challenged the district court’s exercise of jurisdiction, but the US Court of Appeals held that under binding precedent, a term of supervised release is paused by imprisonment in connection with a new state conviction. As such, the federal district court properly exercised jurisdiction.</p>\n",
   "question": "<p>Is the term of supervised release for one offense paused by imprisonment for another offense?</p>\n",
   "conclusion": null,
-  "advocates": null,
-  "oral_argument_audio": null,
+  "advocates": [
+    {
+      "advocate": {
+        "ID": 63099,
+        "name": "Vanessa F. Malone",
+        "href": "https://api.oyez.org/people/vanessa_f_malone",
+        "view_count": 0,
+        "last_name": "Malone",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "vanessa_f_malone"
+      },
+      "advocate_description": "for the petitioner",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22655"
+    },
+    {
+      "advocate": {
+        "ID": 63100,
+        "name": "Jenny Ellickson",
+        "href": "https://api.oyez.org/people/jenny_ellickson",
+        "view_count": 0,
+        "last_name": "Ellickson",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "jenny_ellickson"
+      },
+      "advocate_description": "Assistant to the Solicitor General, Department of Justice, for the respondent",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22656"
+    }
+  ],
+  "oral_argument_audio": [
+    {
+      "id": 24807,
+      "title": "Oral Argument - February 26, 2019",
+      "public_note": null,
+      "unavailable": false,
+      "display_title": null,
+      "href": "https://api.oyez.org/case_media/oral_argument_audio/24807"
+    }
+  ],
   "citation": {
     "volume": null,
     "page": null,
@@ -54,7 +94,7 @@
           "ID": 15086,
           "name": "John G. Roberts, Jr.",
           "href": "https://api.oyez.org/people/john_g_roberts_jr",
-          "view_count": 161,
+          "view_count": 220,
           "last_name": "Roberts",
           "roles": [
             {
@@ -81,7 +121,7 @@
           "ID": 15100,
           "name": "Clarence Thomas",
           "href": "https://api.oyez.org/people/clarence_thomas",
-          "view_count": 321,
+          "view_count": 501,
           "last_name": "Thomas",
           "roles": [
             {
@@ -108,7 +148,7 @@
           "ID": 15084,
           "name": "Ruth Bader Ginsburg",
           "href": "https://api.oyez.org/people/ruth_bader_ginsburg",
-          "view_count": 330,
+          "view_count": 449,
           "last_name": "Ginsburg",
           "roles": [
             {
@@ -128,14 +168,14 @@
             "size": 45030,
             "href": "https://api.oyez.org/sites/default/files/images/people/ruth_bader_ginsburg/ruth_bader_ginsburg.thumb.png"
           },
-          "length_of_service": 8275,
+          "length_of_service": 9325,
           "identifier": "ruth_bader_ginsburg"
         },
         {
           "ID": 15139,
           "name": "Stephen G. Breyer",
           "href": "https://api.oyez.org/people/stephen_g_breyer",
-          "view_count": 149,
+          "view_count": 287,
           "last_name": "Breyer",
           "roles": [
             {
@@ -162,7 +202,7 @@
           "ID": 15068,
           "name": "Samuel A. Alito, Jr.",
           "href": "https://api.oyez.org/people/samuel_a_alito_jr",
-          "view_count": 163,
+          "view_count": 283,
           "last_name": "Alito",
           "roles": [
             {
@@ -189,7 +229,7 @@
           "ID": 15131,
           "name": "Sonia Sotomayor",
           "href": "https://api.oyez.org/people/sonia_sotomayor",
-          "view_count": 224,
+          "view_count": 385,
           "last_name": "Sotomayor",
           "roles": [
             {
@@ -216,7 +256,7 @@
           "ID": 15094,
           "name": "Elena Kagan",
           "href": "https://api.oyez.org/people/elena_kagan",
-          "view_count": 214,
+          "view_count": 336,
           "last_name": "Kagan",
           "roles": [
             {
@@ -243,7 +283,7 @@
           "ID": 62836,
           "name": "Neil Gorsuch",
           "href": "https://api.oyez.org/people/neil_gorsuch",
-          "view_count": 137,
+          "view_count": 252,
           "last_name": "Gorsuch",
           "roles": [
             {
@@ -270,7 +310,7 @@
           "ID": 17766,
           "name": "Brett M. Kavanaugh",
           "href": "https://api.oyez.org/people/brett_m_kavanaugh",
-          "view_count": 178,
+          "view_count": 262,
           "last_name": "Kavanaugh",
           "roles": [
             {

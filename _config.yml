@@ -61,6 +61,7 @@ exclude:
   - /lib
   - /logs
   - /node_modules
+  - /sources/freelaw
   - /sources/justia
   - /sources/lba
   - /sources/ld
@@ -71,6 +72,7 @@ exclude:
   - /sources/oyez/justices
   - /sources/oyez/justices_by_court
   - /sources/oyez/transcripts
+  - /sources/schs
   - /sources/scdb/*.csv
   - /sources/scotus/journals
   - /sources/scotus/lists

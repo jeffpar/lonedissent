@@ -2,7 +2,7 @@
   "ID": 63050,
   "name": "The American Legion v. American Humanist Association",
   "href": "https://api.oyez.org/cases/2018/17-1717",
-  "view_count": 1611,
+  "view_count": 6795,
   "docket_number": "17-1717",
   "additional_docket_numbers": [
     "18-18"
@@ -34,8 +34,78 @@
   "facts_of_the_case": "<p>In Bladensburg, Maryland, as part of a memorial park honoring veterans is a 40-foot tall cross, which is the subject of this litigation. Construction on the cross began in 1918, and it was widely described using Christian terms and celebrated in Christian services. In 1961, Maryland-National Capital Park and Planning Commission acquired the cross and the land, as well as the responsibility to maintain, repair, and otherwise care for the cross. The Commission has spent approximately $117,000 to maintain and repair the cross, and in 2008, it set aside an additional $100,000 for renovations.</p>\n<p>Several non-Christian residents of Prince George’s County, Maryland, expressed offense at the cross, which allegedly amounts to governmental affiliation with Christianity. American Humanist Association is a nonprofit organization advocating for separation of church and state. Together, AHA and the individual residents sued the Commission under 42 U.S.C. § 1983, alleging that the Commission’s display and maintenance of the cross violates the Establishment Clause. Applying the test established in <a href=\"https://www.oyez.org/cases/1970/89\"><em>Lemon v. Kurtzman</em>, 403 U.S. 602 (1971)</a>, the district court found that the Commission did not violate the Establishment Clause because (1) the cross has a secular purpose, (2) it neither advances nor inhibits religion, and (3) it does not have a primary effect of endorsing religion. The Fourth Circuit reversed and remanded.</p>\n",
   "question": "<ol><li>Is the display and maintenance of the cross unconstitutional?</li>\n<li>Under what test should the constitutionality of a passive display incorporating religious symbolism be assessed?</li>\n<li>Does the expenditure of funds to maintain the cross amount to the government’s excessive entanglement with religion?</li>\n</ol>",
   "conclusion": null,
-  "advocates": null,
-  "oral_argument_audio": null,
+  "advocates": [
+    {
+      "advocate": {
+        "ID": 37171,
+        "name": "Neal Kumar Katyal",
+        "href": "https://api.oyez.org/people/neal_kumar_katyal",
+        "view_count": 0,
+        "last_name": "Katyal",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "neal_kumar_katyal"
+      },
+      "advocate_description": "for the petitioner in No. 18-18",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22657"
+    },
+    {
+      "advocate": {
+        "ID": 35611,
+        "name": "Michael A. Carvin",
+        "href": "https://api.oyez.org/people/michael_a_carvin",
+        "view_count": 0,
+        "last_name": "Carvin",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "michael_a_carvin"
+      },
+      "advocate_description": "for the petitioners in No. 17-1717",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22658"
+    },
+    {
+      "advocate": {
+        "ID": 33557,
+        "name": "Jeffrey B. Wall",
+        "href": "https://api.oyez.org/people/jeffrey_b_wall",
+        "view_count": 0,
+        "last_name": "Wall",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "jeffrey_b_wall"
+      },
+      "advocate_description": "Acting Solicitor General, Department of Justice, for the United States, as amicus curiae, supporting the petitioners",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22659"
+    },
+    {
+      "advocate": {
+        "ID": 63101,
+        "name": "Monica L. Miller",
+        "href": "https://api.oyez.org/people/monica_l_miller",
+        "view_count": 0,
+        "last_name": "Miller",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "monica_l_miller"
+      },
+      "advocate_description": "for the respondents",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22660"
+    }
+  ],
+  "oral_argument_audio": [
+    {
+      "id": 24805,
+      "title": "Oral Argument - February 27, 2019",
+      "public_note": null,
+      "unavailable": false,
+      "display_title": null,
+      "href": "https://api.oyez.org/case_media/oral_argument_audio/24805"
+    }
+  ],
   "citation": {
     "volume": null,
     "page": null,
@@ -56,7 +126,7 @@
           "ID": 15086,
           "name": "John G. Roberts, Jr.",
           "href": "https://api.oyez.org/people/john_g_roberts_jr",
-          "view_count": 161,
+          "view_count": 220,
           "last_name": "Roberts",
           "roles": [
             {
@@ -83,7 +153,7 @@
           "ID": 15100,
           "name": "Clarence Thomas",
           "href": "https://api.oyez.org/people/clarence_thomas",
-          "view_count": 321,
+          "view_count": 501,
           "last_name": "Thomas",
           "roles": [
             {
@@ -110,7 +180,7 @@
           "ID": 15084,
           "name": "Ruth Bader Ginsburg",
           "href": "https://api.oyez.org/people/ruth_bader_ginsburg",
-          "view_count": 330,
+          "view_count": 449,
           "last_name": "Ginsburg",
           "roles": [
             {
@@ -130,14 +200,14 @@
             "size": 45030,
             "href": "https://api.oyez.org/sites/default/files/images/people/ruth_bader_ginsburg/ruth_bader_ginsburg.thumb.png"
           },
-          "length_of_service": 8275,
+          "length_of_service": 9325,
           "identifier": "ruth_bader_ginsburg"
         },
         {
           "ID": 15139,
           "name": "Stephen G. Breyer",
           "href": "https://api.oyez.org/people/stephen_g_breyer",
-          "view_count": 149,
+          "view_count": 287,
           "last_name": "Breyer",
           "roles": [
             {
@@ -164,7 +234,7 @@
           "ID": 15068,
           "name": "Samuel A. Alito, Jr.",
           "href": "https://api.oyez.org/people/samuel_a_alito_jr",
-          "view_count": 163,
+          "view_count": 283,
           "last_name": "Alito",
           "roles": [
             {
@@ -191,7 +261,7 @@
           "ID": 15131,
           "name": "Sonia Sotomayor",
           "href": "https://api.oyez.org/people/sonia_sotomayor",
-          "view_count": 224,
+          "view_count": 385,
           "last_name": "Sotomayor",
           "roles": [
             {
@@ -218,7 +288,7 @@
           "ID": 15094,
           "name": "Elena Kagan",
           "href": "https://api.oyez.org/people/elena_kagan",
-          "view_count": 214,
+          "view_count": 336,
           "last_name": "Kagan",
           "roles": [
             {
@@ -245,7 +315,7 @@
           "ID": 62836,
           "name": "Neil Gorsuch",
           "href": "https://api.oyez.org/people/neil_gorsuch",
-          "view_count": 137,
+          "view_count": 252,
           "last_name": "Gorsuch",
           "roles": [
             {
@@ -272,7 +342,7 @@
           "ID": 17766,
           "name": "Brett M. Kavanaugh",
           "href": "https://api.oyez.org/people/brett_m_kavanaugh",
-          "view_count": 178,
+          "view_count": 262,
           "last_name": "Kavanaugh",
           "roles": [
             {

@@ -2,7 +2,7 @@
   "ID": 63043,
   "name": "Mission Product Holdings, Inc. v. Tempnology, LLC",
   "href": "https://api.oyez.org/cases/2018/17-1657",
-  "view_count": 207,
+  "view_count": 951,
   "docket_number": "17-1657",
   "additional_docket_numbers": null,
   "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
@@ -32,8 +32,63 @@
   "facts_of_the_case": "<p>Tempnology, LLC, made and owned the intellectual property to specialized products such as towels, socks, headbands, and other accessories designed to stay at a low temperature even when used during exercise. Tempnology and Mission Product Holdings executed an agreement in 2012 that (1) granted Mission distribution rights to some of Tempnology’s products, (2) granted Mission a nonexclusive license to Tempnology’s intellectual property, and (3) granted Mission a license to use Tempnology’s trademark and logo to sell and promote the products.</p>\n<p>After accruing multi-million-dollar operating losses in 2013 and 2014, Tempnology filed for bankruptcy under Chapter 11 of the Bankruptcy Code in September 2015. The following day, it moved to reject its agreement with Mission under Section 365(a) of the Bankruptcy Code, which allows a debtor-in-possession to “reject any executory contract” that is not beneficial to the company.</p>\n<p>Although the parties do not dispute that Mission can insist that the rejection not apply to the patent licenses in the agreement, it is unsettled in the Fourth Circuit (where the proceedings were brought) whether Mission can also insist that the rejection not apply to the trademark licenses. The bankruptcy court found that Tempnology’s rejection of the agreement left Mission with only a claim for damages for breach of contract, and no claim that Tempnology was under an obligation to further perform the license agreement. The Fourth Circuit affirmed.</p>\n",
   "question": "<p>Under Section 365 of the Bankruptcy Code, does a debtor-licensor’s rejection of a license agreement terminate rights of the licensee that would survive the licensor’s breach under non-bankruptcy law?</p>\n",
   "conclusion": null,
-  "advocates": null,
-  "oral_argument_audio": null,
+  "advocates": [
+    {
+      "advocate": {
+        "ID": 21594,
+        "name": "Danielle Spinelli",
+        "href": "https://api.oyez.org/people/danielle_spinelli",
+        "view_count": 0,
+        "last_name": "Spinelli",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "danielle_spinelli"
+      },
+      "advocate_description": "for the petitioner",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22648"
+    },
+    {
+      "advocate": {
+        "ID": 56164,
+        "name": "Zachary D. Tripp",
+        "href": "https://api.oyez.org/people/zachary_d_tripp",
+        "view_count": 0,
+        "last_name": "Tripp",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "zachary_d_tripp"
+      },
+      "advocate_description": "Assistant to the Solicitor General, Department of Justice, for the United States, as amicus curiae, in support of petitioner",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22649"
+    },
+    {
+      "advocate": {
+        "ID": 20978,
+        "name": "Douglas Hallward-Driemeier",
+        "href": "https://api.oyez.org/people/douglas_hallward_driemeier",
+        "view_count": 0,
+        "last_name": "Hallward-Driemeier",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "douglas_hallward_driemeier"
+      },
+      "advocate_description": "for the respondent",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22650"
+    }
+  ],
+  "oral_argument_audio": [
+    {
+      "id": 24800,
+      "title": "Oral Argument - February 20, 2019",
+      "public_note": null,
+      "unavailable": false,
+      "display_title": null,
+      "href": "https://api.oyez.org/case_media/oral_argument_audio/24800"
+    }
+  ],
   "citation": {
     "volume": null,
     "page": null,
@@ -54,7 +109,7 @@
           "ID": 15086,
           "name": "John G. Roberts, Jr.",
           "href": "https://api.oyez.org/people/john_g_roberts_jr",
-          "view_count": 161,
+          "view_count": 220,
           "last_name": "Roberts",
           "roles": [
             {
@@ -81,7 +136,7 @@
           "ID": 15100,
           "name": "Clarence Thomas",
           "href": "https://api.oyez.org/people/clarence_thomas",
-          "view_count": 321,
+          "view_count": 501,
           "last_name": "Thomas",
           "roles": [
             {
@@ -108,7 +163,7 @@
           "ID": 15084,
           "name": "Ruth Bader Ginsburg",
           "href": "https://api.oyez.org/people/ruth_bader_ginsburg",
-          "view_count": 330,
+          "view_count": 449,
           "last_name": "Ginsburg",
           "roles": [
             {
@@ -128,14 +183,14 @@
             "size": 45030,
             "href": "https://api.oyez.org/sites/default/files/images/people/ruth_bader_ginsburg/ruth_bader_ginsburg.thumb.png"
           },
-          "length_of_service": 8275,
+          "length_of_service": 9325,
           "identifier": "ruth_bader_ginsburg"
         },
         {
           "ID": 15139,
           "name": "Stephen G. Breyer",
           "href": "https://api.oyez.org/people/stephen_g_breyer",
-          "view_count": 149,
+          "view_count": 287,
           "last_name": "Breyer",
           "roles": [
             {
@@ -162,7 +217,7 @@
           "ID": 15068,
           "name": "Samuel A. Alito, Jr.",
           "href": "https://api.oyez.org/people/samuel_a_alito_jr",
-          "view_count": 163,
+          "view_count": 283,
           "last_name": "Alito",
           "roles": [
             {
@@ -189,7 +244,7 @@
           "ID": 15131,
           "name": "Sonia Sotomayor",
           "href": "https://api.oyez.org/people/sonia_sotomayor",
-          "view_count": 224,
+          "view_count": 385,
           "last_name": "Sotomayor",
           "roles": [
             {
@@ -216,7 +271,7 @@
           "ID": 15094,
           "name": "Elena Kagan",
           "href": "https://api.oyez.org/people/elena_kagan",
-          "view_count": 214,
+          "view_count": 336,
           "last_name": "Kagan",
           "roles": [
             {
@@ -243,7 +298,7 @@
           "ID": 62836,
           "name": "Neil Gorsuch",
           "href": "https://api.oyez.org/people/neil_gorsuch",
-          "view_count": 137,
+          "view_count": 252,
           "last_name": "Gorsuch",
           "roles": [
             {
@@ -270,7 +325,7 @@
           "ID": 17766,
           "name": "Brett M. Kavanaugh",
           "href": "https://api.oyez.org/people/brett_m_kavanaugh",
-          "view_count": 178,
+          "view_count": 262,
           "last_name": "Kavanaugh",
           "roles": [
             {

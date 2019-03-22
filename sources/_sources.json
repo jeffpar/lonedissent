@@ -88,6 +88,7 @@
     "cases_json": "/sources/oyez/cases/*/*.json",
     "advocates": "/sources/oyez/advocates/_advocates.json",
     "transcripts_csv": "/sources/oyez/transcripts/transcripts.csv",
+    "transcripts_json": "/sources/oyez/transcripts/_files/*/*.json",
     "arguments_json": "/sources/oyez/transcripts/_files/%d/%s_%s_argument.json",
     "courts_xml": "/sources/oyez/courts/**/court.xml",
     "courts_html": "/sources/oyez/justices_by_court.html",
@@ -158,6 +159,7 @@
       "transcriptNew": {
         "start": 2000,
         "stop": 2018,
+        "force": 2018,
         "url": "https://www.supremecourt.gov/oral_arguments/argument_transcript/%d",
         "dir": "/sources/scotus/transcripts/arguments/%d",
         "file": "%d.html"

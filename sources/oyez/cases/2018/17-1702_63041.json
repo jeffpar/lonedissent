@@ -2,7 +2,7 @@
   "ID": 63041,
   "name": "Manhattan Community Access Corp. v. Halleck",
   "href": "https://api.oyez.org/cases/2018/17-1702",
-  "view_count": 297,
+  "view_count": 1295,
   "docket_number": "17-1702",
   "additional_docket_numbers": null,
   "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
@@ -32,8 +32,48 @@
   "facts_of_the_case": "<p>A New York regulation requires cable-TV networks with 36 or more channels to provide “at least one full-time activated channel for public-access use.” This channel must be open to the “public on a first-come, first-served, non-discriminatory basis.” New York City awarded cable franchises for Manhattan to Time Warner, provided that Time Warner provide four public-access channels, which are designated to be overseen by the Manhattan Community Access Corporation (MCAC), known as the Manhattan Neighborhood Network (MNN).</p>\n<p>Petitioners DeeDee Halleck and Jesus Papoleto Melendez have had a contentious relationship with MNN since 2011, and their feud culminated in August 2013 with MNN suspending both Melendez and Halleck from all MNN services and facilities. They filed a lawsuit against MCAC, several employees, and the City of New York, alleging violations of their First Amendment rights.</p>\n<p>Generally, private actors cannot violate the constitutional rights of individuals; a finding of a constitutional violation requires “state action.” However, when the government creates a private entity by special law and retains authority to appoint a majority of directors, the actions of that private entity can sometimes be regarded as governmental action. Finding that the government retained authority to appoint only two of the thirteen members of MCAC’s board, the district court held that MCAC, its employees, and the City of New York did not create a public forum within the First Amendment and dismissed the First Amendment claim for lack of state action. A majority of a three-judge panel of the US Court of Appeals for the Second Circuit affirmed as to the City of New York but reversed as to MCAC and its employees, relying on the Supreme Court’s decision in <a href=\"https://www.oyez.org/cases/1995/95-124\"><em>Denver Area Educational Telecommunications Consortium v. FCC</em></a> to find that New York City had “delegated to MNN the traditionally public function of administering and regulating speech in the public forum” of public-access cable television. Thus, MNN creates a public forum and functions as a state actor.</p>\n",
   "question": "<p>Are private operators of public access channels state actors subject to constitutional liability?</p>\n",
   "conclusion": null,
-  "advocates": null,
-  "oral_argument_audio": null,
+  "advocates": [
+    {
+      "advocate": {
+        "ID": 63097,
+        "name": "Michael B. de Leeuw",
+        "href": "https://api.oyez.org/people/michael_b_de_leeuw",
+        "view_count": 0,
+        "last_name": "de Leeuw",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "michael_b_de_leeuw"
+      },
+      "advocate_description": "for the petitioners",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22651"
+    },
+    {
+      "advocate": {
+        "ID": 56059,
+        "name": "Paul W. Hughes",
+        "href": "https://api.oyez.org/people/paul_w_hughes",
+        "view_count": 0,
+        "last_name": "Hughes",
+        "roles": null,
+        "thumbnail": null,
+        "length_of_service": 0,
+        "identifier": "paul_w_hughes"
+      },
+      "advocate_description": "for the respondents",
+      "href": "https://api.oyez.org/case_advocate/case_advocate/22652"
+    }
+  ],
+  "oral_argument_audio": [
+    {
+      "id": 24804,
+      "title": "Oral Argument - February 25, 2019",
+      "public_note": null,
+      "unavailable": false,
+      "display_title": null,
+      "href": "https://api.oyez.org/case_media/oral_argument_audio/24804"
+    }
+  ],
   "citation": {
     "volume": null,
     "page": null,
@@ -54,7 +94,7 @@
           "ID": 15086,
           "name": "John G. Roberts, Jr.",
           "href": "https://api.oyez.org/people/john_g_roberts_jr",
-          "view_count": 161,
+          "view_count": 220,
           "last_name": "Roberts",
           "roles": [
             {
@@ -81,7 +121,7 @@
           "ID": 15100,
           "name": "Clarence Thomas",
           "href": "https://api.oyez.org/people/clarence_thomas",
-          "view_count": 321,
+          "view_count": 501,
           "last_name": "Thomas",
           "roles": [
             {
@@ -108,7 +148,7 @@
           "ID": 15084,
           "name": "Ruth Bader Ginsburg",
           "href": "https://api.oyez.org/people/ruth_bader_ginsburg",
-          "view_count": 330,
+          "view_count": 449,
           "last_name": "Ginsburg",
           "roles": [
             {
@@ -128,14 +168,14 @@
             "size": 45030,
             "href": "https://api.oyez.org/sites/default/files/images/people/ruth_bader_ginsburg/ruth_bader_ginsburg.thumb.png"
           },
-          "length_of_service": 8275,
+          "length_of_service": 9325,
           "identifier": "ruth_bader_ginsburg"
         },
         {
           "ID": 15139,
           "name": "Stephen G. Breyer",
           "href": "https://api.oyez.org/people/stephen_g_breyer",
-          "view_count": 149,
+          "view_count": 287,
           "last_name": "Breyer",
           "roles": [
             {
@@ -162,7 +202,7 @@
           "ID": 15068,
           "name": "Samuel A. Alito, Jr.",
           "href": "https://api.oyez.org/people/samuel_a_alito_jr",
-          "view_count": 163,
+          "view_count": 283,
           "last_name": "Alito",
           "roles": [
             {
@@ -189,7 +229,7 @@
           "ID": 15131,
           "name": "Sonia Sotomayor",
           "href": "https://api.oyez.org/people/sonia_sotomayor",
-          "view_count": 224,
+          "view_count": 385,
           "last_name": "Sotomayor",
           "roles": [
             {
@@ -216,7 +256,7 @@
           "ID": 15094,
           "name": "Elena Kagan",
           "href": "https://api.oyez.org/people/elena_kagan",
-          "view_count": 214,
+          "view_count": 336,
           "last_name": "Kagan",
           "roles": [
             {
@@ -243,7 +283,7 @@
           "ID": 62836,
           "name": "Neil Gorsuch",
           "href": "https://api.oyez.org/people/neil_gorsuch",
-          "view_count": 137,
+          "view_count": 252,
           "last_name": "Gorsuch",
           "roles": [
             {
@@ -270,7 +310,7 @@
           "ID": 17766,
           "name": "Brett M. Kavanaugh",
           "href": "https://api.oyez.org/people/brett_m_kavanaugh",
-          "view_count": 178,
+          "view_count": 262,
           "last_name": "Kavanaugh",
           "roles": [
             {

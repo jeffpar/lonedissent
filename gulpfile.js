@@ -4970,7 +4970,7 @@ function searchTranscripts(done)
         return;
     }
 
-    let filePaths = glob.sync(rootDir + path.join(path.dirname(sources.oyez.transcripts_csv), "_files/*/*.json"));
+    let filePaths = glob.sync(rootDir + sources.oyez.transcripts_json);
     if (filePaths.length != transcripts.length) {
         warning("number of transcript files (%d) does not match number of transcript entries (%d)\n", filePaths.length, transcripts.length);
     }
@@ -5574,6 +5574,13 @@ function testDates(done)
 {
     let date, format;
 
+    date = new Date();
+    printf("       new Date()\n");
+    format = "LOCAL: %W, %.3F %D, %Y - %I:%02N:%02S%A\n";
+    printf(format, date);
+    format = "  UTC: %#W, %#M/%#D/%#0.2Y - %#I:%#02N:%#02S%#A\n\n";
+    printf(format, date);
+
     date = parseDate();
     printf("       parseDate()\n");
     format = "LOCAL: %W, %.3F %D, %Y - %I:%02N:%02S%A\n";
@@ -5666,26 +5673,26 @@ function testDates(done)
 }
 
 /**
- * createDownloadTask(name, url, dir, file, fDisplayOnly)
+ * createDownloadTask(name, url, dir, file)
  *
  * @param {string} name
  * @param {string} url
  * @param {string} dir
  * @param {string} file
- * @param {boolean} [fDisplayOnly]
+ * @param {boolean} [fForce]
  * @return {boolean} (true if task added, false if duplicate or redundant)
  */
-function createDownloadTask(name, url, dir, file, fDisplayOnly)
+function createDownloadTask(name, url, dir, file, fForce)
 {
     if (downloadTasks.indexOf(name) >= 0) {
         return false;
     }
     let dirPath = path.join(rootDir, dir);
     let filePath = path.join(dirPath, file);
-    if (fs.existsSync(filePath)) {
+    if (!fForce && fs.existsSync(filePath)) {
         return false;
     }
-    if (fDisplayOnly) {
+    if (argv['detail']) {
         printf("createDownloadTask(%s,%s,%s,%s)\n", name, url, dir, file);
         return;
     }
@@ -5735,7 +5742,7 @@ function generateDownloadTasks(done)
                     let url = sprintf(downloadGroup.url, index);
                     let dir = sprintf(downloadGroup.dir, index);
                     let file = sprintf(downloadGroup.file, index);
-                    createDownloadTask('download.' + source + '.' + group + '.' + index, url, dir, file);
+                    createDownloadTask('download.' + source + '.' + group + '.' + index, url, dir, file, downloadGroup.force === index);
                 }
             }
             else if (downloadGroup.files) {
@@ -5803,7 +5810,7 @@ function generateDownloadTasks(done)
                 });
             }
             if (downloadGroup.mappingFile && mappings != mappingsOld) {
-                writeFile(downloadGroup.mappingFile, mappings);
+                writeFile(downloadGroup.mappingFile, mappings, true);
             }
         });
     });
@@ -5813,7 +5820,7 @@ function generateDownloadTasks(done)
     });
     let cases = readJSON(sources.oyez.cases);
     if (cases) {
-        let transcripts = [];   // readCSV(sources.oeyz.transcripts);
+        let transcripts = [];   // readCSV(sources.oyez.transcripts_csv);
         cases.ids.forEach((id) => {
             let dir = path.join(path.dirname(sources.oyez.cases), id);
             let file = id + ".json";
@@ -5826,8 +5833,8 @@ function generateDownloadTasks(done)
                         json = sprintf("%2j", JSON.parse(json));
                         writeFile(filePath, json, true);
                     }
-                    let cases = JSON.parse(json);
-                    cases.forEach((caseSummary) => {
+                    let caseSummaries = JSON.parse(json);
+                    caseSummaries.forEach((caseSummary) => {
                         let fileID = caseSummary.docket_number + '_' + caseSummary.ID;
                         let file = fileID + ".json";
                         let filePath = path.join(dir, file);
@@ -5840,6 +5847,16 @@ function generateDownloadTasks(done)
                                     writeFile(filePath, json, true);
                                 }
                                 let caseDetail = JSON.parse(json);
+                                /*
+                                 * If the case has no "oral_argument_audio" but its "Argued" date has passed, let's refresh it
+                                 */
+                                if (!caseDetail.oral_argument_audio && id == cases.force) {
+                                    let dateArgued = getOyezDates(caseDetail.timeline, "Argued");
+                                    let dateToday = sprintf("%Y-%02M-%02D", new Date());
+                                    if (dateArgued && dateArgued < dateToday) {
+                                        fs.unlinkSync(rootDir + filePath);
+                                    }
+                                }
                                 let audioSummaries = [];
                                 if (caseDetail.oral_argument_audio) {
                                     caseDetail.oral_argument_audio.forEach((audio) => {
@@ -5886,7 +5903,7 @@ function generateDownloadTasks(done)
                                     }
                                     let url = audio.href;
                                     let fileID = caseSummary.docket_number + '_' + audio.id + '_' + audio.type;
-                                    let dir = path.join(path.dirname(sources.oyez.transcripts_csv), "_files", term);
+                                    let dir = path.dirname(sources.oyez.transcripts_json.replace('*', term));
                                     let fileName = fileID + ".json";
                                     let filePath = path.join(dir, fileName);
                                     let urlOyez = caseDetail.href;
@@ -5915,19 +5932,21 @@ function generateDownloadTasks(done)
                                     }
                                 });
                             }
-                        } else {
+                        }
+                        if (!fs.existsSync(rootDir + filePath)) {
                             let url = caseSummary.href;
                             createDownloadTask('download.case.' + fileID, url, dir, file);
                         }
                     });
                 }
-            } else {
+            }
+            if (!fs.existsSync(rootDir + filePath) || id == cases.force) {
                 let url = sprintf(cases.api, id);
                 createDownloadTask('download.case.' + id, url, dir, file);
             }
         });
         sortObjects(transcripts, ["dateArgument", "docket"]);
-        writeCSV(sources.oyez.transcripts_csv, transcripts);
+        writeCSV(sources.oyez.transcripts_csv, transcripts, true);
     }
     let advocates = readJSON(sources.oyez.advocates);
     if (advocates) {
