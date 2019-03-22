@@ -2227,7 +2227,7 @@ function buildAdvocatesAll(done)
                 advocates.all = {};
                 additions++;
             }
-            let parseName = function(name) {
+            let parseName = function(name, caseName, caseLink) {
                 let s = name.replace("Mc Connell", "McConnell").replace(" Carrison ", " Garrison ").replace(/\.([A-Z])/g, ". $1").replace(/[^A-Za-z ]/g, '').replace(/\s+/g, ' ').trim();
                 let parts = s.split(' ');
                 if (parts[0] == "Mr" || parts[0] == "Ms" || parts[0] == "Mrs" || parts[0] == "Miss") parts.splice(0, 1);
@@ -2240,7 +2240,7 @@ function buildAdvocatesAll(done)
                 if (lastPart == "Jr" || lastPart == "Sr" || lastPart == "II" || lastPart == "III" || lastPart == "IV") {
                     parts.splice(parts.length-1, 1);
                 } else if (lastPart.length < 3 && lastPart != "Yu" && lastPart != "Ho" && lastPart != "Wu" || lastPart == "General") {
-                    warning("advocate '%s' has an unusual last name\n", name);
+                    warning("advocate '%s' has an unusual last name; refer to case %s (%s)\n", name, caseName, caseLink);
                     parts = ["Unknown", "Advocate"];
                 }
                 return parts;
@@ -2298,11 +2298,13 @@ function buildAdvocatesAll(done)
                         advocate = {name: "Unknown Advocate", identifier: "unknown_identifier"};
                     } else {
                         advocate = {name: advocate.name, identifier: advocate.identifier};
-                        if (searchObjects(speakers, advocate) < 0) {
-                            warning("case %s (%s) advocate \"%s\" (%s) does not appear in transcript (%s)\n", caseData.name, caseLink, advocate.name, advocate.identifier, transcriptPath);
+                        if (advocate.identifier != "unknown_identifier") {
+                            if (searchObjects(speakers, advocate) < 0) {
+                                warning("case %s (%s) advocate \"%s\" (%s) does not appear in transcript (%s)\n", caseData.name, caseLink, advocate.name, advocate.identifier, transcriptPath);
+                            }
                         }
                     }
-                    let parts = parseName(advocate.name);
+                    let parts = parseName(advocate.name, caseData.name, caseLink);
                     if (!parts.length) return;
                     let advocateId = parts[0].toLowerCase() + '_' + parts[parts.length-1].toLowerCase(), id = advocateId;
                     let matched = false;
@@ -2321,7 +2323,7 @@ function buildAdvocatesAll(done)
                         if (advocateEntry.name.replace(/[^A-Za-z ]/g, '').toLowerCase() == advocate.name.replace(/[^A-Za-z ]/g, '').toLowerCase()) {
                             matched = true;
                         } else {
-                            let partsEntry = parseName(advocateEntry.name);
+                            let partsEntry = parseName(advocateEntry.name, caseData.name, caseLink);
                             if (parts.length == partsEntry.length) {
                                 if (parts.length >= 3 && parts[0] == partsEntry[0] && parts[parts.length-1] == partsEntry[parts.length-1]) {
                                     if (parts[1].length == 1 && parts[1][0] == partsEntry[1][0]) {
