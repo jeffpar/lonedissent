@@ -2198,7 +2198,7 @@ function buildAdvocatesAll(done)
             warning("unable to read advocates file: %s\n", sources.oyez.advocates);
         } else {
             let additions = 0;
-            if (!advocates.all) {
+            if (!advocates.all || argv['overwrite']) {
                 advocates.all = {};
                 additions++;
             }
@@ -2206,13 +2206,16 @@ function buildAdvocatesAll(done)
                 let s = name.replace(/\.([A-Z])/g, ". $1").replace(/[^A-Za-z ]/g, '').replace(/\s+/g, ' ').trim();
                 let parts = s.split(' ');
                 if (parts[1] == "Wm") parts[1] = "W";
+                if (parts[1] == "Ah") {     // presuming that "A.H." was intended
+                    parts[1] = "A"; parts.splice(2, 0, "H");
+                }
                 if (parts[0].length == 1 && parts[1].length > 1) parts.splice(0, 1);
                 let lastPart = parts[parts.length-1];
                 if (lastPart == "Jr" || lastPart == "Sr" || lastPart == "II" || lastPart == "III" || lastPart == "IV") {
                     parts.splice(parts.length-1, 1);
                 } else if (lastPart.length < 3 && lastPart != "Yu" && lastPart != "Ho" && lastPart != "Wu" || lastPart == "General") {
                     warning("advocate '%s' has an unusual last name\n", name);
-                    parts = [];
+                    parts = ["Unknown", "Advocate"];
                 }
                 return parts;
             };
@@ -2220,14 +2223,14 @@ function buildAdvocatesAll(done)
                 let caseData = parseJSON(caseFile);
                 if (!caseData.advocates || !caseData.advocates.length) {
                     if (argv['detail']) warning("case %s (%s) has no advocates\n", caseData.name, caseData.href);
-                    return;
+                    caseData.advocates = [{advocate: {name: "Unknown Advocate", identifier: "unknown_identifier"}}];
                 }
                 caseData.advocates.forEach((advocateData) => {
                     let advocate = advocateData.advocate;
                     let advocatePosition = advocateData.advocate_description;
                     if (!advocate || !advocate.name) {
                         if (argv['detail']) warning("case %s (%s) has advocate with no info\n", caseData.name, caseData.href);
-                        return;
+                        advocate = {name: "Unknown Advocate", identifier: "unknown_identifier"};
                     }
                     let i = advocate.name.indexOf(',');
                     if (i > 0) advocate.name = advocate.name.substr(0, i);
