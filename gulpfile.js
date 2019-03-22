@@ -1091,18 +1091,19 @@ function readFile(filePath, encoding="", fOptional=false)
 }
 
 /**
- * readJSON(filePath, objDefault)
+ * readJSON(filePath, objDefault, fOptional)
  *
  * @param {string} filePath
  * @param {object|null} [objDefault]
+ * @param {boolean} [fOptional]
  */
-function readJSON(filePath, objDefault={})
+function readJSON(filePath, objDefault={}, fOptional=false)
 {
     let obj;
     try {
-        obj = JSON.parse(readFile(filePath));
+        obj = JSON.parse(readFile(filePath, "", fOptional));
     } catch(err) {
-        warning("unable to parse JSON file: %s\n", filePath);
+        if (!fOptional) warning("unable to parse JSON file: %s\n", filePath);
         obj = objDefault;
     }
     return obj;
@@ -2013,9 +2014,7 @@ function buildAdvocates(done)
     let dataFile = _data.allDecisions;
     let decisions = readJSON(dataFile, []);
     sortObjects(decisions, ["volume", "page"]);
-
     let advocates = readJSON(sources.oyez.advocates);
-
     let womenAdvocates = readCSV(sources.ld.women_advocates_csv);
     sortObjects(womenAdvocates, ["argsAdvocate"], -1);
     let topWomen = [];
@@ -2029,27 +2028,38 @@ function buildAdvocates(done)
 
     if (advocates) {
         let top100 = [];
+        let updateAdvocates = false;
         let ids = Object.keys(advocates.top);
         let women = Object.keys(advocates.women);
         women.forEach((woman) => { if (ids.indexOf(woman) < 0) ids.push(woman); });
         let pathAdvocates = "/advocates/top100";
         ids.forEach((id) => {
-            let aliases = advocates.top[id] || advocates.women[id];
-            let verified = undefined;
-            if (aliases[aliases.length - 1] == "verified" || aliases[aliases.length - 1] == "unverified") {
-                verified = (aliases[aliases.length - 1] == "verified");
-                aliases.splice(aliases.length - 1, 1);
+            let advocate = advocates.top[id] || advocates.women[id];
+            if (advocate.length) {
+                let advocateNew = {name: advocate[0], verified: undefined};
+                if (advocate[advocate.length - 1] == "verified" || advocate[advocate.length - 1] == "unverified") {
+                    advocateNew.verified = (advocate[advocate.length - 1] == "verified");
+                }
+                if (advocates.top[id]) advocates.top[id] = advocateNew;
+                if (advocates.women[id]) advocates.women[id] = advocateNew;
+                advocate = advocateNew;
+                updateAdvocates = true;
             }
+            if (!advocates.all[id]) {
+                warning("unable to find advocate %s in all advocates\n", id);
+                return;
+            }
+            let aliases = Object.keys(advocates.all[id].aliases);
             let dir = path.join(path.dirname(sources.oyez.advocates), id);
             let filePath = path.join(dir, id + ".csv");
-            if (!fs.existsSync(rootDir + filePath) || argv['overwrite'] && !verified) {
+            if (!fs.existsSync(rootDir + filePath) || argv['overwrite'] && !advocate.verified) {
                 let rows = [];
                 let uniqueObjs = [];
-                for (let i = 1; i < aliases.length; i++) {
+                for (let i = 0; i < aliases.length; i++) {
                     let alias = aliases[i];
                     let filePath = path.join(dir, alias + ".json");
-                    let cases = readJSON(filePath, []);
-                    if (i == 1) {
+                    let cases = readJSON(filePath, [], true);
+                    if (i == 0) {
                         let missingCases = advocates.missingCases && advocates.missingCases[id];
                         if (missingCases) {
                             missingCases.forEach((obj) => {
@@ -2072,7 +2082,7 @@ function buildAdvocates(done)
                         let fileID = obj.fileID || (obj.docket_number + '_' + obj.ID);
                         let file = fileID + ".json";
                         let filePath = path.join(dir, file);
-                        let row = readOyezCaseData(filePath, obj.title, obj.consolidated_docket_number, obj.date_argued, aliases[0]);
+                        let row = readOyezCaseData(filePath, obj.title, obj.consolidated_docket_number, obj.date_argued, advocate.name);
                         if (row) {
                             if (row.datesArgued) {
                                 delete row.dateArgument;
@@ -2153,9 +2163,9 @@ function buildAdvocates(done)
                 });
                 if (changes) writeCSV(filePath, rowsAdvocate);
                 sortObjects(results, ["dateArgument","docket"]);
-                if (verified !== false) {
+                if (advocate.verified !== false) {
                     if (advocates.top[id]) {
-                        top100.push({id, nameAdvocate, total: results.length, verified});
+                        top100.push({id, nameAdvocate, total: results.length, verified: advocate.verified});
                     }
                 }
                 fileText += generateCaseYML(results, vars, courtsSCDB, justices, ["caseNumber","dateArgument","urlOyez"]);
@@ -2170,7 +2180,7 @@ function buildAdvocates(done)
                 if (oldText) {
                     fileText += oldText;
                 } else {
-                    fileText += " since October 1955, according to [Oyez](https://www.oyez.org/advocates/" + aliases[1] + ").\n";
+                    fileText += " since October 1955, according to [Oyez](https://www.oyez.org/advocates/" + aliases[0] + ").\n";
                 }
                 writeFile(filePath, fileText);
             }
@@ -2191,10 +2201,20 @@ function buildAdvocates(done)
                 text += "who painstakingly extracted appearances of women advocates from the [Journals of the Supreme Court of the United States](https://www.supremecourt.gov/orders/journal.aspx)\n";
                 text += "for October Term 1880 through October Term 1999.  This was later supplemented with data from 2000 through 2016 by Julie Silverbrook and Emma Shainwald.\n";
                 text += "We have extended the data through the end of February 2019, consulting a combination of Journals and [Transcripts](https://www.supremecourt.gov/oral_arguments/argument_transcript/2018).\n\n";
+                /*
+                 * topWomen comes from our women-advocates spreadsheet, which doesn't store IDs, just "normalized" names
+                 * (ie, the names the advocates used on their first argument).  So we have to walk our list of advocates and
+                 * search for a match on the normalized name to find our corresponding ID.
+                 */
                 topWomen.forEach((woman) => {
-                    let match = woman.nameAdvocate.match(/^([^ ]+).*?([^ ]+)$/);
-                    let id = (match[1] + '_' + match[2]).toLowerCase().replace(/[^a-z_-]/g, "");
-                    if (!advocates.women[id] || advocates.women[id].length <= 1) {
+                    let id = null;
+                    for (let w = 0; w < women.length; w++) {
+                        if (advocates.women[women[w]].name == woman.nameAdvocate) {
+                            id = women[w];
+                            break;
+                        }
+                    }
+                    if (!id || !advocates.all[id]) {
                         text += "- " + woman.nameAdvocate + " (" + woman.argsAdvocate + " arguments)\n";
                     } else {
                         text += "- [" + woman.nameAdvocate + "](/advocates/top100/" + id + ") (" + woman.argsAdvocate + " arguments)\n";
@@ -2202,6 +2222,9 @@ function buildAdvocates(done)
                 });
             }
             writeFile(filePath, text);
+        }
+        if (updateAdvocates) {
+            writeFile(sources.oyez.advocates, advocates);
         }
     }
     done();
@@ -2228,7 +2251,8 @@ function buildAdvocatesAll(done)
                 additions++;
             }
             let parseName = function(name, caseName, caseLink) {
-                let s = name.replace("Mc Connell", "McConnell").replace(" Carrison ", " Garrison ").replace(/\.([A-Z])/g, ". $1").replace(/[^A-Za-z ]/g, '').replace(/\s+/g, ' ').trim();
+                let s = name.replace("Mc Connell", "McConnell").replace(" Carrison ", " Garrison ").replace("Ann O'Connell Adams", "Ann O'Connell");
+                s = s.replace(/\.([A-Z])/g, ". $1").replace(/[^A-Za-z ]/g, '').replace(/\s+/g, ' ').trim();
                 let parts = s.split(' ');
                 if (parts[0] == "Mr" || parts[0] == "Ms" || parts[0] == "Mrs" || parts[0] == "Miss") parts.splice(0, 1);
                 if (parts[1] == "Wm") parts[1] = "W";
@@ -6263,8 +6287,9 @@ function usage(done)
     done();
 }
 
-gulp.task("advocates", gulp.series(buildAdvocatesAll, buildAdvocatesWomen, buildAdvocates));
+gulp.task("advocates", buildAdvocates);
 gulp.task("advocates-women", buildAdvocatesWomen);
+gulp.task("advocates-all", gulp.series(buildAdvocatesAll, buildAdvocatesWomen, buildAdvocates));
 gulp.task("briefs", listBriefs);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("convert", convertTranscripts);

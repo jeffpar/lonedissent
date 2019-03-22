@@ -1,143 +1,112 @@
 {
   "api": "https://api.oyez.org/people/%s/cases?per_page=0",
   "top": {
-    "lisa_blatt": [
-      "Lisa S. Blatt",
-      "lisa_s_blatt"
-    ],
-    "paul_clement": [
-      "Paul D. Clement",
-      "paul_d_clement"
-    ],
-    "archibald_cox": [
-      "Archibald Cox",
-      "archibald_cox",
-      "archibald_cox_jr",
-      "unverified"
-    ],
-    "michael_dreeben": [
-      "Michael R. Dreeben",
-      "michael_r_dreeben",
-      "verified"
-    ],
-    "erwin_griswold": [
-      "Erwin N. Griswold",
-      "erwin_n_griswold",
-      "unverified"
-    ],
-    "edwin_kneedler": [
-      "Edwin S. Kneedler",
-      "edwin_s_kneedler",
-      "verified"
-    ],
-    "carter_phillips": [
-      "Carter G. Phillips",
-      "carter_g_phillips"
-    ],
-    "lawrence_wallace": [
-      "Lawrence G. Wallace",
-      "lawrence_g_wallace",
-      "verified"
-    ]
+    "lisa_blatt": {
+      "name": "Lisa S. Blatt"
+    },
+    "paul_clement": {
+      "name": "Paul D. Clement"
+    },
+    "archibald_cox": {
+      "name": "Archibald Cox",
+      "verified": false
+    },
+    "michael_dreeben": {
+      "name": "Michael R. Dreeben",
+      "verified": true
+    },
+    "erwin_griswold": {
+      "name": "Erwin N. Griswold",
+      "verified": false
+    },
+    "edwin_kneedler": {
+      "name": "Edwin S. Kneedler",
+      "verified": true
+    },
+    "carter_phillips": {
+      "name": "Carter G. Phillips"
+    },
+    "lawrence_wallace": {
+      "name": "Lawrence G. Wallace",
+      "verified": true
+    }
   },
   "women": {
-    "lisa_blatt": [
-      "Lisa S. Blatt",
-      "lisa_s_blatt"
-    ],
-    "patricia_millett": [
-      "Patricia A. Millett",
-      "patricia_a_millett"
-    ],
-    "nicole_saharsky": [
-      "Nicole A. Saharsky",
-      "nicole_saharsky"
-    ],
-    "mabel_willebrandt": [
-      "Mabel Walker Willebrandt"
-    ],
-    "beatrice_rosenberg": [
-      "Beatrice Rosenberg",
-      "beatrice_rosenberg"
-    ],
-    "beth_brinkmann": [
-      "Beth S. Brinkmann",
-      "beth_s_brinkmann"
-    ],
-    "bessie_margolin": [
-      "Bessie Margolin",
-      "bessie_margolin"
-    ],
-    "helen_carloss": [
-      "Helen R. Carloss"
-    ],
-    "sarah_harrington": [
-      "Sarah E. Harrington",
-      "sarah_e_harrington"
-    ],
-    "ann_oconnell": [
-      "Ann O'Connell",
-      "ann_oconnell"
-    ],
-    "maureen_mahoney": [
-      "Maureen E. Mahoney",
-      "maureen_e_mahoney"
-    ],
-    "barbara_underwood": [
-      "Barbara D. Underwood",
-      "barbara_d_underwood"
-    ],
-    "ginger_anders": [
-      "Ginger D. Anders"
-    ],
-    "barbara_mcdowell": [
-      "Barbara B. McDowell",
-      "barbara_b_mcdowell"
-    ],
-    "harriet_shapiro": [
-      "Harriet S. Shapiro",
-      "harriet_s_shapiro"
-    ],
-    "amy_wax": [
-      "Amy L. Wax",
-      "amy_l_wax"
-    ],
-    "deanne_maynard": [
-      "Deanne E. Maynard",
-      "deanne_e_maynard"
-    ],
-    "kathryn_oberly": [
-      "Kathryn A. Oberly",
-      "kathryn_a_oberly"
-    ],
-    "elaine_goldenberg": [
-      "Elaine J. Goldenberg",
-      "elaine_j_goldenberg"
-    ],
-    "elinor_stillman": [
-      "Elinor H. Stillman",
-      "elinor_h_stillman"
-    ],
-    "leondra_kruger": [
-      "Leondra R. Kruger",
-      "leondra_r_kruger"
-    ],
-    "rachel_kovner": [
-      "Rachel P. Kovner",
-      "rachel_p_kovner"
-    ],
-    "kathleen_sullivan": [
-      "Kathleen M. Sullivan",
-      "kathleen_m_sullivan"
-    ],
-    "melissa_sherry": [
-      "Melissa A. Sherry",
-      "melissa_arbus_sherry"
-    ],
-    "ruth_weyand": [
-      "Ruth Weyand",
-      "ruth_weyand"
-    ]
+    "lisa_blatt": {
+      "name": "Lisa S. Blatt"
+    },
+    "patricia_millett": {
+      "name": "Patricia A. Millett"
+    },
+    "nicole_saharsky": {
+      "name": "Nicole A. Saharsky"
+    },
+    "mabel_willebrandt": {
+      "name": "Mabel Walker Willebrandt"
+    },
+    "beatrice_rosenberg": {
+      "name": "Beatrice Rosenberg"
+    },
+    "beth_brinkmann": {
+      "name": "Beth S. Brinkmann"
+    },
+    "bessie_margolin": {
+      "name": "Bessie Margolin"
+    },
+    "helen_carloss": {
+      "name": "Helen R. Carloss"
+    },
+    "sarah_harrington": {
+      "name": "Sarah E. Harrington"
+    },
+    "ann_oconnell": {
+      "name": "Ann O'Connell"
+    },
+    "maureen_mahoney": {
+      "name": "Maureen E. Mahoney"
+    },
+    "barbara_underwood": {
+      "name": "Barbara D. Underwood"
+    },
+    "ginger_anders": {
+      "name": "Ginger D. Anders"
+    },
+    "barbara_mcdowell": {
+      "name": "Barbara B. McDowell"
+    },
+    "harriet_shapiro": {
+      "name": "Harriet S. Shapiro"
+    },
+    "amy_wax": {
+      "name": "Amy L. Wax"
+    },
+    "deanne_maynard": {
+      "name": "Deanne E. Maynard"
+    },
+    "kathryn_oberly": {
+      "name": "Kathryn A. Oberly"
+    },
+    "elaine_goldenberg": {
+      "name": "Elaine J. Goldenberg"
+    },
+    "elinor_stillman": {
+      "name": "Elinor H. Stillman"
+    },
+    "leondra_kruger": {
+      "name": "Leondra R. Kruger"
+    },
+    "rachel_kovner": {
+      "name": "Rachel P. Kovner"
+    },
+    "kathleen_sullivan": {
+      "name": "Kathleen M. Sullivan"
+    },
+    "melissa_sherry": {
+      "name": "Melissa A. Sherry"
+    },
+    "ruth_weyand": {
+      "name": "Ruth Weyand"
+    }
   },
   "missingCases": {
     "michael_dreeben": [
@@ -3214,8 +3183,8 @@
         ]
       }
     },
-    "ann_adams": {
-      "name": "Ann O'Connell Adams",
+    "ann_oconnell": {
+      "name": "Ann O'Connell",
       "aliases": {
         "ann_oconnell": [
           "/sources/oyez/cases/2010/09-1272_55777.json",

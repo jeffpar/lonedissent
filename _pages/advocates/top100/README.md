@@ -51,7 +51,7 @@ We have extended the data through the end of February 2019, consulting a combina
 - [Ann O'Connell](/advocates/top100/ann_oconnell) (20 arguments)
 - [Maureen E. Mahoney](/advocates/top100/maureen_mahoney) (20 arguments)
 - [Barbara D. Underwood](/advocates/top100/barbara_underwood) (19 arguments)
-- Ginger D. Anders (17 arguments)
+- [Ginger D. Anders](/advocates/top100/ginger_anders) (17 arguments)
 - [Barbara B. McDowell](/advocates/top100/barbara_mcdowell) (17 arguments)
 - [Harriet S. Shapiro](/advocates/top100/harriet_shapiro) (17 arguments)
 - [Amy L. Wax](/advocates/top100/amy_wax) (15 arguments)
