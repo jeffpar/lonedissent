@@ -2237,8 +2237,8 @@ function buildAdvocates(done)
  */
 function buildAdvocatesAll(done)
 {
-    let caseFiles = glob.sync(rootDir + sources.oyez.cases_json);
-    if (!caseFiles || !caseFiles.length) {
+    let casePaths = glob.sync(rootDir + sources.oyez.cases_json);
+    if (!casePaths || !casePaths.length) {
         warning("unable to read case files: %s\n", sources.oyez.cases_json);
     } else {
         let advocates = readJSON(sources.oyez.advocates);
@@ -2269,9 +2269,9 @@ function buildAdvocatesAll(done)
                 }
                 return parts;
             };
-            caseFiles.forEach((caseFile) => {
+            casePaths.forEach((casePath) => {
                 let argued = false;
-                let caseData = readJSON(caseFile);
+                let caseData = readJSON(casePath);
                 if (!caseData.href) return;
                 let caseLink = caseData.href.replace("api", "www");
                 if (caseData.timeline) {
@@ -2369,11 +2369,20 @@ function buildAdvocatesAll(done)
                         }
                     }
                     if (matched) {
-                        try {
+                        /*
+                         * Before adding this case file to the list of cases for the current Oyez alias, we should check
+                         * any other aliases for the same case file (carter_phillips is a good example, because Oyez has redundant
+                         * references for him).
+                         */
+                        let exists = false;
+                        let caseFile = casePath.substr(rootDir.length);
+                        let aliases = Object.keys(advocates.all[id].aliases);
+                        aliases.forEach((alias) => {
+                            if (advocates.all[id].aliases[alias].indexOf(caseFile) >= 0) exists = true;
+                        });
+                        if (!exists) {
                             if (!advocates.all[id].aliases[advocate.identifier]) advocates.all[id].aliases[advocate.identifier] = [];
-                            advocates.all[id].aliases[advocate.identifier].push(caseFile.substr(rootDir.length));
-                        } catch(err) {
-                            warning("%s\n", err.message);
+                            advocates.all[id].aliases[advocate.identifier].push(caseFile);
                         }
                     }
                 });
