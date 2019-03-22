@@ -3367,8 +3367,50 @@ cases:
       - id: ekagan
         name: "Elena Kagan"
         majority: true
-  - id: "2014-009"
+  - id: "2013-074"
     number: 78
+    termId: "2013-10"
+    title: "Alice Corporation v. CLS Bank International"
+    docket: "13-298"
+    usCite: "573 U.S. ___"
+    pdfSource: "slipopinion/13"
+    dateArgument: "Monday, March 31, 2014"
+    dateDecision: "Thursday, June 19, 2014"
+    urlOyez: "https://www.oyez.org/cases/2013/13-298"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: cthomas
+    authorName: "Clarence Thomas"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: true
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: true
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: true
+  - id: "2014-009"
+    number: 79
     termId: "2014-10"
     title: "Teva Pharmaceuticals USA, Inc. v. Sandoz, Inc."
     docket: "13-854"
@@ -3410,7 +3452,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-019"
-    number: 79
+    number: 80
     termId: "2014-10"
     title: "Alabama Department of Revenue v. CSX Transportation, Inc."
     docket: "13-553"
@@ -3452,7 +3494,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-008"
-    number: 80
+    number: 81
     termId: "2015-10"
     title: "Federal Energy Regulatory Commission v. Electric Power Supply Association, et al."
     docket: "14-840,14-841"
@@ -3494,7 +3536,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-018"
-    number: 81
+    number: 82
     termId: "2015-10"
     title: "Tyson Foods, Inc. v. Bouaphakeo"
     docket: "14-1146"
@@ -3533,7 +3575,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-041"
-    number: 82
+    number: 83
     termId: "2015-10"
     title: "Halo Electronics v. Pulse Electronics Inc."
     docket: "14-1513,14-1520"
@@ -3572,7 +3614,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-031"
-    number: 83
+    number: 84
     termId: "2016-10"
     title: "Life Technologies Corp. v. Promega Corp."
     docket: "14-1538"
@@ -3611,7 +3653,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2017-073"
-    number: 84
+    number: 85
     termId: "2017-10"
     title: "Animal Science Products, Inc. v. Hebei Welcome Pharmaceutical Co. Ltd."
     docket: "16-1220"
@@ -3653,7 +3695,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "63031"
-    number: 85
+    number: 86
     termId: "2018-10"
     title: "Tennessee Wine and Spirits Retailers Association v. Blair"
     docket: "18-96"
@@ -3665,4 +3707,4 @@ cases:
     voteMinority: 0
 ---
 
-Carter G. Phillips argued 85 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/carter_g_phillips).
+Carter G. Phillips argued 86 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/carter_g_phillips).

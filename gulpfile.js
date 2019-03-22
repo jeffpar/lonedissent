@@ -2054,11 +2054,11 @@ function buildAdvocates(done)
             let filePath = path.join(dir, id + ".csv");
             if (!fs.existsSync(rootDir + filePath) || argv['overwrite'] && !advocate.verified) {
                 let rows = [];
-                let uniqueObjs = [];
+                let uniqueObjs = [], caseFiles = [];
                 for (let i = 0; i < aliases.length; i++) {
                     let alias = aliases[i];
-                    let filePath = path.join(dir, alias + ".json");
-                    let cases = readJSON(filePath, [], true);
+                    let aliasFile = path.join(dir, alias + ".json");
+                    let cases = readJSON(aliasFile, [], true);
                     if (i == 0) {
                         let missingCases = advocates.missingCases && advocates.missingCases[id];
                         if (missingCases) {
@@ -2081,8 +2081,26 @@ function buildAdvocates(done)
                         let dir = path.join(path.dirname(sources.oyez.cases), obj.term);
                         let fileID = obj.fileID || (obj.docket_number + '_' + obj.ID);
                         let file = fileID + ".json";
-                        let filePath = path.join(dir, file);
-                        let row = readOyezCaseData(filePath, obj.title, obj.consolidated_docket_number, obj.date_argued, advocate.name);
+                        let caseFile = path.join(dir, file);
+                        caseFiles.push(caseFile);
+                        let row = readOyezCaseData(caseFile, obj.title, obj.consolidated_docket_number, obj.date_argued, advocate.name);
+                        if (row) {
+                            if (row.datesArgued) {
+                                delete row.dateArgument;
+                                delete row.dateRearg;
+                                rows.push(row);
+                            } else {
+                                warning("%s (%s) has no Oyez argument date for %s\n", row.caseTitle, row.usCite, row.advocateName);
+                            }
+                        }
+                    });
+                }
+                for (let i = 0; i < aliases.length; i++) {
+                    let caseList = advocates.all[id].aliases[aliases[i]];
+                    caseList.forEach((caseFile) => {
+                        if (caseFiles.indexOf(caseFile) >= 0) return;
+                        caseFiles.push(caseFile);
+                        let row = readOyezCaseData(caseFile, "", "", "", advocate.name);
                         if (row) {
                             if (row.datesArgued) {
                                 delete row.dateArgument;
@@ -2382,6 +2400,9 @@ function buildAdvocatesAll(done)
                         });
                         if (!exists) {
                             if (!advocates.all[id].aliases[advocate.identifier]) advocates.all[id].aliases[advocate.identifier] = [];
+                            if (advocate.identifier == "bessie_margolin") {
+                                console.log();
+                            }
                             advocates.all[id].aliases[advocate.identifier].push(caseFile);
                         }
                     }

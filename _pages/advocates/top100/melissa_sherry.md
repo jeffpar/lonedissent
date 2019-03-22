@@ -391,6 +391,48 @@ cases:
       - id: ekagan
         name: "Elena Kagan"
         majority: true
+  - id: "2013-057"
+    number: 10
+    termId: "2013-10"
+    title: "Pom Wonderful, LLC v. The Coca-Cola Company"
+    docket: "12-761"
+    usCite: "573 U.S. ___"
+    pdfSource: "slipopinion/13"
+    dateArgument: "Monday, April 21, 2014"
+    dateDecision: "Thursday, June 12, 2014"
+    urlOyez: "https://www.oyez.org/cases/2013/12-761"
+    voteMajority: 8
+    voteMinority: 0
+    authorId: amkennedy
+    authorName: "Anthony Kennedy"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: true
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: false
+      - id: saalito
+        name: "Samuel Alito"
+        majority: true
+      - id: ssotomayor
+        name: "Sonia Sotomayor"
+        majority: true
+      - id: ekagan
+        name: "Elena Kagan"
+        majority: true
 ---
 
-Melissa A. Sherry argued 9 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/melissa_arbus_sherry).
+Melissa A. Sherry argued 10 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/melissa_arbus_sherry).
