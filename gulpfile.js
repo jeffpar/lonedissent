@@ -5980,11 +5980,14 @@ function generateDownloadTasks(done)
         let women = Object.keys(advocates.women);
         women.forEach((woman) => { if (ids.indexOf(woman) < 0) ids.push(woman); });
         ids.forEach((id) => {
-            let aliases = advocates.top[id] || advocates.women[id];
+            if (!advocates.all[id]) {
+                warning("unable to find advocate %s in all advocates\n", id);
+                return;
+            }
+            let aliases = Object.keys(advocates.all[id].aliases);
             let dir = path.join(path.dirname(sources.oyez.advocates), id);
-            for (let i = 1; i < aliases.length; i++) {
+            for (let i = 0; i < aliases.length; i++) {
                 let alias = aliases[i];
-                if (alias == "verified" || alias == "unverified") continue;
                 let file = alias + ".json";
                 let filePath = path.join(dir, file);
                 if (fs.existsSync(rootDir + filePath)) {
