@@ -2344,7 +2344,7 @@ function buildAdvocatesAll(done)
                             }
                             break;
                         }
-                        if (advocateEntry.name.replace(/[^A-Za-z ]/g, '').toLowerCase() == advocate.name.replace(/[^A-Za-z ]/g, '').toLowerCase()) {
+                        if (id == "unknown_advocate" || advocateEntry.name.replace(/[^A-Za-z ]/g, '').toLowerCase() == advocate.name.replace(/[^A-Za-z ]/g, '').toLowerCase()) {
                             matched = true;
                         } else {
                             let partsEntry = parseName(advocateEntry.name, caseData.name, caseLink);
