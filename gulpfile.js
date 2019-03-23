@@ -2015,6 +2015,17 @@ function buildAdvocates(done)
     let decisions = readJSON(dataFile, []);
     sortObjects(decisions, ["volume", "page"]);
 
+    let topWomen = [];
+    let womenAdvocates = readCSV(sources.ld.women_advocates_csv);
+    sortObjects(womenAdvocates, ["argsAdvocate"], -1);
+    for (let i = 0; i < womenAdvocates.length; i++) {
+        let woman = womenAdvocates[i];
+        if (searchObjects(topWomen, {nameAdvocate: woman.nameAdvocate}) < 0) {
+            topWomen.push(woman);
+            if (topWomen.length == 25) break;
+        }
+    }
+
     let topAdvocates = [];
     let advocates = readJSON(sources.oyez.advocates);
     let advocateIds = Object.keys(advocates.all);
@@ -2028,32 +2039,25 @@ function buildAdvocates(done)
         });
         topAdvocates.push({id, name, total});
     });
-    sortObjects(topAdvocates, ["total"], -1);
-    for (let i = 0; i < 25; i++) {
-        let advocate = topAdvocates[i];
-        printf("%s (%s): %d cases\n", advocate.name, advocate.id, advocate.total);
-    }
 
-    let topWomen = [];
-    let womenAdvocates = readCSV(sources.ld.women_advocates_csv);
-    sortObjects(womenAdvocates, ["argsAdvocate"], -1);
-    for (let i = 0; i < womenAdvocates.length; i++) {
-        let woman = womenAdvocates[i];
-        if (searchObjects(topWomen, {nameAdvocate: woman.nameAdvocate}) < 0) {
-            topWomen.push(woman);
-            if (topWomen.length == 25) break;
-        }
+    let ids = []; // Object.keys(advocates.top);
+    sortObjects(topAdvocates, ["total"], -1);
+    for (let i = 0; i < 100; i++) {
+        let advocate = topAdvocates[i];
+        if (argv['detail']) printf("%s (%s): %d cases\n", advocate.name, advocate.id, advocate.total);
+        ids.push(advocate.id);
+        if (advocate.name == topWomen[0].nameAdvocate) break;
     }
+    let topLimit = ids.length;
 
     if (advocates) {
         let top100 = [];
         let updateAdvocates = false;
-        let ids = Object.keys(advocates.top);
         let women = Object.keys(advocates.women);
         women.forEach((woman) => { if (ids.indexOf(woman) < 0) ids.push(woman); });
         let pathAdvocates = "/advocates/top100";
         ids.forEach((id) => {
-            let advocate = advocates.top[id] || advocates.women[id];
+            let advocate = advocates.top[id] || advocates.women[id] || advocates.all[id];
             if (advocate.length) {
                 let advocateNew = {name: advocate[0], verified: undefined};
                 if (advocate[advocate.length - 1] == "verified" || advocate[advocate.length - 1] == "unverified") {
@@ -2202,7 +2206,7 @@ function buildAdvocates(done)
                 if (changes) writeCSV(filePath, rowsAdvocate);
                 sortObjects(results, ["dateArgument","docket"]);
                 if (advocate.verified !== false) {
-                    if (advocates.top[id]) {
+                    if (ids.indexOf(id) < topLimit) {
                         top100.push({id, nameAdvocate, total: results.length, verified: advocate.verified});
                     }
                 }
@@ -2314,9 +2318,7 @@ function buildAdvocatesAll(done)
                 let caseLink = caseData.href.replace("api", "www");
                 if (caseData.timeline) {
                     caseData.timeline.forEach((item) => {
-                        if (item.event == "Argued") {
-                            argued = true;
-                        }
+                        if (item.event == "Argued") argued = true;
                     });
                 }
                 if (caseData.oral_argument_audio && !argued) {
@@ -2371,6 +2373,9 @@ function buildAdvocatesAll(done)
                     let advocateId = parts[0].toLowerCase() + '_' + parts[parts.length-1].toLowerCase(), id = advocateId;
                     let matched = false;
                     for (let n = 1; !matched; n++) {
+                        if (id == "unknown_advocate") {
+                            advocate.name = parts[0] + ' ' + parts[1];
+                        }
                         if (n > 1) id = advocateId + n;
                         let advocateEntry = advocates.all[id];
                         if (!advocateEntry) {
@@ -2389,9 +2394,6 @@ function buildAdvocatesAll(done)
                             if (parts.length == partsEntry.length) {
                                 if (parts.length >= 3 && parts[0] == partsEntry[0] && parts[parts.length-1] == partsEntry[parts.length-1]) {
                                     if (parts[1].length == 1 && parts[1][0] == partsEntry[1][0]) {
-                                        if (advocate.name == "Mr. Attorney General") {
-                                            console.log();
-                                        }
                                         advocateEntry.name = advocate.name;
                                         matched = true;
                                     }
@@ -2404,9 +2406,6 @@ function buildAdvocatesAll(done)
                             } else if (parts.length == 2) {
                                 matched = true;
                             } else if (partsEntry.length == 2) {
-                                if (advocate.name == "Mr. Attorney General") {
-                                    console.log();
-                                }
                                 advocateEntry.name = advocate.name;
                                 matched = true;
                             }

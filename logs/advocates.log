@@ -1,6 +1,6 @@
-[16:38:29] Using gulpfile ~/Sites/lonedissent/gulpfile.js
-[16:38:29] Starting 'advocates-all'...
-[16:38:29] Starting 'buildAdvocatesAll'...
+[17:08:35] Using gulpfile ~/Sites/lonedissent/gulpfile.js
+[17:08:35] Starting 'advocates-all'...
+[17:08:35] Starting 'buildAdvocatesAll'...
 warning: case Pennsylvania v. Nelson (https://www.oyez.org/cases/1955/10) has no advocates; found speaker "Herbert S. Thatcher" (herbert_s_thatcher) in transcript
 warning: case Pennsylvania v. Nelson (https://www.oyez.org/cases/1955/10) has no advocates; found speaker "Louis C. Wyman" (louis_c_wyman) in transcript
 warning: case Pennsylvania v. Nelson (https://www.oyez.org/cases/1955/10) has no advocates; found speaker "Charles F. Barber" (charles_f_barber) in transcript
@@ -6023,12 +6023,12 @@ warning: case Ortiz v. United States (https://www.oyez.org/cases/2017/16-1423) a
 warning: case Oil States Energy Services LLC v. Greene’s Energy Group, LLC (https://www.oyez.org/cases/2017/16-712) advocate "Malcolm L. Stewart" (malcolm_l_stewart) does not appear in transcript (./sources/oyez/transcripts/_files/2017/16-712_24551_argument.json)
 warning: advocate ID 'david_hawkins2' has name "David S. Hawkins" similar to "David G. Hawkins"
 additional advocates: 9315
-[16:39:37] Finished 'buildAdvocatesAll' after 1.13 min
-[16:39:37] Starting 'buildAdvocatesWomen'...
-[16:39:41] Finished 'buildAdvocatesWomen' after 3.42 s
-[16:39:41] Starting 'buildAdvocates'...
+[17:09:45] Finished 'buildAdvocatesAll' after 1.15 min
+[17:09:45] Starting 'buildAdvocatesWomen'...
+[17:09:48] Finished 'buildAdvocatesWomen' after 3.35 s
+[17:09:48] Starting 'buildAdvocates'...
 Lawrence G. Wallace (lawrence_wallace): 154 cases
-Mr. Attorney General (unknown_advocate): 145 cases
+Unknown Advocate (unknown_advocate): 145 cases
 Edwin S. Kneedler (edwin_kneedler): 141 cases
 Michael R. Dreeben (michael_dreeben): 104 cases
 Paul D. Clement (paul_clement): 90 cases
@@ -6058,5 +6058,5 @@ warning: Central Bank &amp; Trust Co. v. United States (391 U.S. 469) has no Oye
 warning: unable to find exact match for Erwin N. Griswold: Stiles v. United States [74] (393 U.S. 219) Argued=1968-11-20 Decided=1968-12-09
 warning: unable to find advocate mabel_willebrandt in all advocates
 warning: unable to find advocate helen_carloss in all advocates
-[16:39:46] Finished 'buildAdvocates' after 5.22 s
-[16:39:46] Finished 'advocates-all' after 1.28 min
+[17:09:53] Finished 'buildAdvocates' after 5.18 s
+[17:09:53] Finished 'advocates-all' after 1.3 min
