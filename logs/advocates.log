@@ -1,6 +1,6 @@
-[18:19:20] Using gulpfile ~/Sites/lonedissent/gulpfile.js
-[18:19:20] Starting 'advocates-all'...
-[18:19:20] Starting 'buildAdvocatesAll'...
+[22:15:40] Using gulpfile ~/Sites/lonedissent/gulpfile.js
+[22:15:40] Starting 'advocates-all'...
+[22:15:40] Starting 'buildAdvocatesAll'...
 warning: case Pennsylvania v. Nelson (https://www.oyez.org/cases/1955/10) has no advocates; found speaker "Herbert S. Thatcher" (herbert_s_thatcher) in transcript
 warning: case Pennsylvania v. Nelson (https://www.oyez.org/cases/1955/10) has no advocates; found speaker "Louis C. Wyman" (louis_c_wyman) in transcript
 warning: case Pennsylvania v. Nelson (https://www.oyez.org/cases/1955/10) has no advocates; found speaker "Charles F. Barber" (charles_f_barber) in transcript
@@ -11,7 +11,8 @@ warning: case Arizona v. California (https://www.oyez.org/cases/1955/10_orig) ha
 warning: case Arizona v. California (https://www.oyez.org/cases/1955/10_orig) has no advocates; found speaker "John P. Frank" (john_p_frank) in transcript
 warning: case Arizona v. California (https://www.oyez.org/cases/1955/10_orig) has no advocates; found speaker "Hatfield Chilson" (hatfield_chilson) in transcript
 warning: case Arizona v. California (https://www.oyez.org/cases/1955/10_orig) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Arizona v. California (https://www.oyez.org/cases/1955/10_orig)
+warning: case Arizona v. California (https://www.oyez.org/cases/1955/10_orig) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1955/10-orig_13117_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Arizona v. California (https://www.oyez.org/cases/1955/10_orig)
 warning: case United States v. Contract Steel Carriers, Inc. (https://www.oyez.org/cases/1955/102) has no advocates; found speaker "Robert N. Burchmore" (robert_n_burchmore) in transcript
 warning: case United States v. Contract Steel Carriers, Inc. (https://www.oyez.org/cases/1955/102) has no advocates; found speaker "Charles F. Barber" (charles_f_barber) in transcript
 warning: case United States v. Contract Steel Carriers, Inc. (https://www.oyez.org/cases/1955/102) has no advocates; found speaker "Jusitce Burton" (jusitce_burton) in transcript
@@ -33,7 +34,8 @@ warning: case Doud v. Hodge (https://www.oyez.org/cases/1955/129) has no advocat
 warning: case Doud v. Hodge (https://www.oyez.org/cases/1955/129) has no advocates; found speaker "William C. Wines" (william_c_wines) in transcript
 warning: case Wisconsin v. Tennessee (https://www.oyez.org/cases/1955/13-orig) has no advocates; found speaker "Vernon W. Thomson" (vernon_w_thomson) in transcript
 warning: case Wisconsin v. Tennessee (https://www.oyez.org/cases/1955/13-orig) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Wisconsin v. Tennessee (https://www.oyez.org/cases/1955/13-orig)
+warning: case Wisconsin v. Tennessee (https://www.oyez.org/cases/1955/13-orig) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1955/13-orig_12993_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Wisconsin v. Tennessee (https://www.oyez.org/cases/1955/13-orig)
 warning: case Squire v. Capoeman (https://www.oyez.org/cases/1955/134) has no advocates; found speaker "Charles F. Barber" (charles_f_barber) in transcript
 warning: case Squire v. Capoeman (https://www.oyez.org/cases/1955/134) has no advocates; found speaker "John W. Cragun" (john_w_cragun) in transcript
 warning: case Shields v. Atlantic Coast Line Railroad Company (https://www.oyez.org/cases/1955/150) has no advocates; found speaker "Truman M. Hobbs" (truman_m_hobbs) in transcript
@@ -43,7 +45,8 @@ warning: case Remmer v. United States (https://www.oyez.org/cases/1955/156) has 
 warning: case Walton v. California (https://www.oyez.org/cases/1955/16) has no advocates; found speaker "Robert F. Peckham" (robert_f_peckham) in transcript
 warning: case Walton v. California (https://www.oyez.org/cases/1955/16) has no advocates; found speaker "Clarence A. Linn" (clarence_a_linn) in transcript
 warning: case Walton v. California (https://www.oyez.org/cases/1955/16) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Walton v. California (https://www.oyez.org/cases/1955/16)
+warning: case Walton v. California (https://www.oyez.org/cases/1955/16) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1955/16_13048_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Walton v. California (https://www.oyez.org/cases/1955/16)
 warning: case East Texas Motor Freight Lines, Inc. v. Frozen Food Express (https://www.oyez.org/cases/1955/162) has no advocates; found speaker "Robert W. Ginnane" (robert_w_ginnane) in transcript
 warning: case East Texas Motor Freight Lines, Inc. v. Frozen Food Express (https://www.oyez.org/cases/1955/162) has no advocates; found speaker "David G. Macdonald" (david_g_macdonald) in transcript
 warning: case East Texas Motor Freight Lines, Inc. v. Frozen Food Express (https://www.oyez.org/cases/1955/162) has no advocates; found speaker "Carl L. Phinney" (carl_l_phinney) in transcript
@@ -68,7 +71,8 @@ warning: case United States v. Twin City Power Company (https://www.oyez.org/cas
 warning: case United States v. Zucca (https://www.oyez.org/cases/1955/213) has no advocates; found speaker "J.F. Bishop" (jf_bishop) in transcript
 warning: case United States v. Zucca (https://www.oyez.org/cases/1955/213) has no advocates; found speaker "Orrin G. Judd" (orrin_g_judd) in transcript
 warning: case United States v. Zucca (https://www.oyez.org/cases/1955/213) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case United States v. Zucca (https://www.oyez.org/cases/1955/213)
+warning: case United States v. Zucca (https://www.oyez.org/cases/1955/213) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1955/213_13120_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case United States v. Zucca (https://www.oyez.org/cases/1955/213)
 warning: case Steiner v. Mitchell (https://www.oyez.org/cases/1955/22) has no advocates; found speaker "Cecil Sims" (cecil_sims) in transcript
 warning: case Steiner v. Mitchell (https://www.oyez.org/cases/1955/22) has no advocates; found speaker "Bessie Margolin" (bessie_margolin) in transcript
 warning: case United Mine Workers of America v. Arkansas Oak Floorings Company (https://www.oyez.org/cases/1955/227) has no advocates; found speaker "Crampton Harris" (crampton_harris) in transcript
@@ -107,7 +111,8 @@ warning: case Schulz v. Pennsylvania Railroad Company (https://www.oyez.org/case
 warning: case Nukk v. Shaughnessy (https://www.oyez.org/cases/1955/29) has no advocates; found speaker "Gloria Agrin" (gloria_agrin) in transcript
 warning: case Nukk v. Shaughnessy (https://www.oyez.org/cases/1955/29) has no advocates; found speaker "Blanch Freedman" (blanch_freedman) in transcript
 warning: case Nukk v. Shaughnessy (https://www.oyez.org/cases/1955/29) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Nukk v. Shaughnessy (https://www.oyez.org/cases/1955/29)
+warning: case Nukk v. Shaughnessy (https://www.oyez.org/cases/1955/29) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1955/29_13098_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Nukk v. Shaughnessy (https://www.oyez.org/cases/1955/29)
 warning: case Rea v. United States (https://www.oyez.org/cases/1955/30) has no advocates; found speaker "Joseph A. Sommer" (joseph_a_sommer) in transcript
 warning: case Rea v. United States (https://www.oyez.org/cases/1955/30) has no advocates; found speaker "Beatrice Rosenberg" (beatrice_rosenberg) in transcript
 warning: case Michel v. Louisiana (https://www.oyez.org/cases/1955/32) has no advocates; found speaker "Gerard H. Schreiber" (gerard_h_schreiber) in transcript
@@ -202,7 +207,8 @@ warning: case United States v. Green (https://www.oyez.org/cases/1955/54) has no
 warning: case United States v. Green (https://www.oyez.org/cases/1955/54) has no advocates; found speaker "Arthur M. Fitzgerald" (arthur_m_fitzgerald) in transcript
 warning: case Sugden et ux. v. United States (https://www.oyez.org/cases/1955/555) has no advocates; found speaker "Mark Wilmer" (mark_wilmer) in transcript
 warning: case Sugden et ux. v. United States (https://www.oyez.org/cases/1955/555) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Sugden et ux. v. United States (https://www.oyez.org/cases/1955/555)
+warning: case Sugden et ux. v. United States (https://www.oyez.org/cases/1955/555) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1955/555_23589_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Sugden et ux. v. United States (https://www.oyez.org/cases/1955/555)
 warning: case Murdock Acceptance Corporation v. United States (https://www.oyez.org/cases/1955/56) has no advocates; found speaker "Elizabeth Hulen Grayson" (elizabeth_hulen_grayson) in transcript
 warning: case Murdock Acceptance Corporation v. United States (https://www.oyez.org/cases/1955/56) has no advocates; found speaker "John F . Davis" (john_f_davis) in transcript
 warning: case Ullmann v. United States (https://www.oyez.org/cases/1955/58) has no advocates; found speaker "Leonard B. Boudin" (leonard_b_boudin) in transcript
@@ -251,7 +257,8 @@ warning: case National Labor Relations Board v. Truck Drivers Local Union Wareho
 warning: case National Labor Relations Board v. Truck Drivers Local Union Warehousemen and Helpers of America, A.F.L. (https://www.oyez.org/cases/1956/103) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
 warning: case National Labor Relations Board v. Truck Drivers Local Union Warehousemen and Helpers of America, A.F.L. (https://www.oyez.org/cases/1956/103) has no advocates; found speaker "Thomas P. McMahon" (thomas_p_mcmahon) in transcript
 warning: case National Labor Relations Board v. Truck Drivers Local Union Warehousemen and Helpers of America, A.F.L. (https://www.oyez.org/cases/1956/103) has no advocates; found speaker "Thomas McMahon" (thomas_mcmahon) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case National Labor Relations Board v. Truck Drivers Local Union Warehousemen and Helpers of America, A.F.L. (https://www.oyez.org/cases/1956/103)
+warning: case National Labor Relations Board v. Truck Drivers Local Union Warehousemen and Helpers of America, A.F.L. (https://www.oyez.org/cases/1956/103) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1956/103_13302_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case National Labor Relations Board v. Truck Drivers Local Union Warehousemen and Helpers of America, A.F.L. (https://www.oyez.org/cases/1956/103)
 warning: case Kingsley Books, Inc. v. Brown (https://www.oyez.org/cases/1956/107) has no advocates; found speaker "Emanuel Redfield" (emanuel_redfield) in transcript
 warning: case Kingsley Books, Inc. v. Brown (https://www.oyez.org/cases/1956/107) has no advocates; found speaker "Seymour B. Quel" (seymour_b_quel) in transcript
 warning: case United States Gypsum Company v. National Gypsum Company (https://www.oyez.org/cases/1956/11) has no advocates; found speaker "Samuel I. Rosenman" (samuel_i_rosenman) in transcript
@@ -278,7 +285,8 @@ warning: case Walker v. Hutchinson City (https://www.oyez.org/cases/1956/13) has
 warning: case Prince v. United States (https://www.oyez.org/cases/1956/132) has no advocates; found speaker "Joseph P. Jenkins" (joseph_p_jenkins) in transcript
 warning: case Prince v. United States (https://www.oyez.org/cases/1956/132) has no advocates; found speaker "Beatrice Rosenberg" (beatrice_rosenberg) in transcript
 warning: case Prince v. United States (https://www.oyez.org/cases/1956/132) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Prince v. United States (https://www.oyez.org/cases/1956/132)
+warning: case Prince v. United States (https://www.oyez.org/cases/1956/132) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1956/132_13217_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Prince v. United States (https://www.oyez.org/cases/1956/132)
 warning: case Gold v. United States (https://www.oyez.org/cases/1956/137) has no advocates; found speaker "Joseph A. Lowther" (joseph_a_lowther) in transcript
 warning: case Gold v. United States (https://www.oyez.org/cases/1956/137) has no advocates; found speaker "Joseph Forer" (joseph_forer) in transcript
 warning: case Gold v. United States (https://www.oyez.org/cases/1956/137) has no advocates; found speaker "Harold I. Cammer" (harold_i_cammer) in transcript
@@ -306,7 +314,8 @@ warning: case Deen v. Gulf, Colorado & Santa Fe Railway Co. (https://www.oyez.or
 warning: case Deen v. Gulf, Colorado & Santa Fe Railway Co. (https://www.oyez.org/cases/1956/199) has no advocates; found speaker "Luther Hudson" (luther_hudson) in transcript
 warning: case Holophane v. United States (https://www.oyez.org/cases/1956/2) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
 warning: case Holophane v. United States (https://www.oyez.org/cases/1956/2) has no advocates; found speaker "Richard F. Stevens" (richard_f_stevens) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Holophane v. United States (https://www.oyez.org/cases/1956/2)
+warning: case Holophane v. United States (https://www.oyez.org/cases/1956/2) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1956/2_13336_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Holophane v. United States (https://www.oyez.org/cases/1956/2)
 warning: case Mesarosh v. United States (https://www.oyez.org/cases/1956/20) has no advocates; found speaker "J. Lee Rankin" (j_lee_rankin) in transcript
 warning: case Mesarosh v. United States (https://www.oyez.org/cases/1956/20) has no advocates; found speaker "Frank J. Donner" (frank_j_donner) in transcript
 warning: case Benz v. Compania Naviera Hidalgo, S. A. (https://www.oyez.org/cases/1956/204) has no advocates; found speaker "Kneland C. Tanner" (kneland_c_tanner) in transcript
@@ -340,7 +349,8 @@ warning: case Goodall-Sanford, Inc. v. United Textile Workers of America, AFL, L
 warning: case Goodall-Sanford, Inc. v. United Textile Workers of America, AFL, Local 1802 (https://www.oyez.org/cases/1956/262) has no advocates; found speaker "Douglas M. Orr" (douglas_m_orr) in transcript
 warning: case United States v. American Freightways Co. (https://www.oyez.org/cases/1956/265) has no advocates; found speaker "Ralph S. Spritzer" (ralph_s_spritzer) in transcript
 warning: case United States v. American Freightways Co. (https://www.oyez.org/cases/1956/265) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case United States v. American Freightways Co. (https://www.oyez.org/cases/1956/265)
+warning: case United States v. American Freightways Co. (https://www.oyez.org/cases/1956/265) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1956/265_13176_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case United States v. American Freightways Co. (https://www.oyez.org/cases/1956/265)
 warning: case La Buy v. Howes Leather Company, Inc. (https://www.oyez.org/cases/1956/27) has no advocates; found speaker "James A. Sprowl" (james_a_sprowl) in transcript
 warning: case La Buy v. Howes Leather Company, Inc. (https://www.oyez.org/cases/1956/27) has no advocates; found speaker "Jack I. Levy" (jack_i_levy) in transcript
 warning: case General Electric Company v. Local 205, United Electrical, Radio, and Machine Workers of America (https://www.oyez.org/cases/1956/276) has no advocates; found speaker "Warren F. Farr" (warren_f_farr) in transcript
@@ -381,7 +391,8 @@ warning: case Alleghany Corporation v. Breswick & Company (https://www.oyez.org/
 warning: case Alleghany Corporation v. Breswick & Company (https://www.oyez.org/cases/1956/36) has no advocates; found speaker "Robert W. Ginnane" (robert_w_ginnane) in transcript
 warning: case Alleghany Corporation v. Breswick & Company (https://www.oyez.org/cases/1956/36) has no advocates; found speaker "Harold H. Levin" (harold_h_levin) in transcript
 warning: case Alleghany Corporation v. Breswick & Company (https://www.oyez.org/cases/1956/36) has no advocates; found speaker "Alexander Kahan" (alexander_kahan) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Alleghany Corporation v. Breswick & Company (https://www.oyez.org/cases/1956/36)
+warning: case Alleghany Corporation v. Breswick & Company (https://www.oyez.org/cases/1956/36) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1956/36_13347_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Alleghany Corporation v. Breswick & Company (https://www.oyez.org/cases/1956/36)
 warning: case Nilva v. United States (https://www.oyez.org/cases/1956/37) has no advocates; found speaker "Richard J. Blanchard" (richard_j_blanchard) in transcript
 warning: case Nilva v. United States (https://www.oyez.org/cases/1956/37) has no advocates; found speaker "Eugene Gressman" (eugene_gressman) in transcript
 warning: case Baltimore & Ohio Railway Company v. Jackson (https://www.oyez.org/cases/1956/370) has no advocates; found speaker "Stephen Ailes" (stephen_ailes) in transcript
@@ -479,7 +490,8 @@ warning: case Yates v. United States (https://www.oyez.org/cases/1956/6) has no 
 warning: case Yates v. United States (https://www.oyez.org/cases/1956/6) has no advocates; found speaker "Augustin Donovan" (augustin_donovan) in transcript
 warning: case Yates v. United States (https://www.oyez.org/cases/1956/6) has no advocates; found speaker "Philip R. Monahan" (philip_r_monahan) in transcript
 warning: case Yates v. United States (https://www.oyez.org/cases/1956/6) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Yates v. United States (https://www.oyez.org/cases/1956/6)
+warning: case Yates v. United States (https://www.oyez.org/cases/1956/6) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1956/6_13254_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Yates v. United States (https://www.oyez.org/cases/1956/6)
 warning: case Jaffke v. Dunham (https://www.oyez.org/cases/1956/60) has no advocates; found speaker "Herbert J. Miller, Jr." (herbert_j_miller_jr) in transcript
 warning: case Jaffke v. Dunham (https://www.oyez.org/cases/1956/60) has no advocates; found speaker "G. W. Horsley" (g_w_horsley) in transcript
 warning: case Alberts v. California (https://www.oyez.org/cases/1956/61) has no advocates; found speaker "Stanley Fleishman" (stanley_fleishman) in transcript
@@ -544,7 +556,8 @@ warning: case Hanson v. Denckla (https://www.oyez.org/cases/1957/107) has no adv
 warning: case Hanson v. Denckla (https://www.oyez.org/cases/1957/107) has no advocates; found speaker "Arthur G. Logan" (arthur_g_logan) in transcript
 warning: case Hanson v. Denckla (https://www.oyez.org/cases/1957/107) has no advocates; found speaker "Edwin D. Steel, Jr." (edwin_d_steel_jr) in transcript
 warning: case Hanson v. Denckla (https://www.oyez.org/cases/1957/107) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Hanson v. Denckla (https://www.oyez.org/cases/1957/107)
+warning: case Hanson v. Denckla (https://www.oyez.org/cases/1957/107) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1957/107_13414_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Hanson v. Denckla (https://www.oyez.org/cases/1957/107)
 warning: case Commissioner of Internal Revenue v. P. G. Lake, Inc. (https://www.oyez.org/cases/1957/108) has no advocates; found speaker "John N. Stull" (john_n_stull) in transcript
 warning: case Commissioner of Internal Revenue v. P. G. Lake, Inc. (https://www.oyez.org/cases/1957/108) has no advocates; found speaker "Harry C. Weeks" (harry_c_weeks) in transcript
 warning: case Commissioner of Internal Revenue v. P. G. Lake, Inc. (https://www.oyez.org/cases/1957/108) has no advocates; found speaker "J. Paul Jackson" (j_paul_jackson) in transcript
@@ -675,7 +688,8 @@ warning: case County of Marin v. United States (https://www.oyez.org/cases/1957/
 warning: case County of Marin v. United States (https://www.oyez.org/cases/1957/415) has no advocates; found speaker "Allan P. Matthew" (allan_p_matthew) in transcript
 warning: case County of Marin v. United States (https://www.oyez.org/cases/1957/415) has no advocates; found speaker "Spurgeon Avakian" (spurgeon_avakian) in transcript
 warning: case County of Marin v. United States (https://www.oyez.org/cases/1957/415) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case County of Marin v. United States (https://www.oyez.org/cases/1957/415)
+warning: case County of Marin v. United States (https://www.oyez.org/cases/1957/415) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1957/415_13484_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case County of Marin v. United States (https://www.oyez.org/cases/1957/415)
 warning: case Moore v. Michigan (https://www.oyez.org/cases/1957/42) has no advocates; found speaker "William H. Culver" (william_h_culver) in transcript
 warning: case Moore v. Michigan (https://www.oyez.org/cases/1957/42) has no advocates; found speaker "Samuel J. Torina" (samuel_j_torina) in transcript
 warning: case Federal Trade Commission v. National Casualty Company (https://www.oyez.org/cases/1957/435) has no advocates; found speaker "Ralph S. Spritzer" (ralph_s_spritzer) in transcript
@@ -695,7 +709,8 @@ warning: case Kent v. Dulles (https://www.oyez.org/cases/1957/481) has no advoca
 warning: case Speiser v. Randall (https://www.oyez.org/cases/1957/483) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
 warning: case Speiser v. Randall (https://www.oyez.org/cases/1957/483) has no advocates; found speaker "Lawrence Speiser" (lawrence_speiser) in transcript
 warning: case Speiser v. Randall (https://www.oyez.org/cases/1957/483) has no advocates; found speaker "George W. McClure" (george_w_mcclure) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Speiser v. Randall (https://www.oyez.org/cases/1957/483)
+warning: case Speiser v. Randall (https://www.oyez.org/cases/1957/483) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1957/483_13429_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Speiser v. Randall (https://www.oyez.org/cases/1957/483)
 warning: case Rowoldt v. Perfetto (https://www.oyez.org/cases/1957/5) advocate "Joseph Forer" (joseph_forer) does not appear in transcript (./sources/oyez/transcripts/_files/1957/5_13342_argument.json)
 warning: case McGee v. International Life Ins. Company (https://www.oyez.org/cases/1957/50) has no advocates; found speaker "Arthur J. Mandell" (arthur_j_mandell) in transcript
 warning: case McGee v. International Life Ins. Company (https://www.oyez.org/cases/1957/50) has no advocates; found speaker "Stanley Hornsby" (stanley_hornsby) in transcript
@@ -828,7 +843,8 @@ warning: case Williams v. Oklahoma (https://www.oyez.org/cases/1958/124) has no 
 warning: case Williams v. Oklahoma (https://www.oyez.org/cases/1958/124) has no advocates; found speaker "John A. Ladner, Jr." (john_a_ladner_jr) in transcript
 warning: case Williams v. Oklahoma (https://www.oyez.org/cases/1958/124) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
 warning: case Williams v. Oklahoma (https://www.oyez.org/cases/1958/124) has no advocates; found speaker "Mac Q. Williamson" (mac_q_williamson) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Williams v. Oklahoma (https://www.oyez.org/cases/1958/124)
+warning: case Williams v. Oklahoma (https://www.oyez.org/cases/1958/124) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1958/124_13574_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Williams v. Oklahoma (https://www.oyez.org/cases/1958/124)
 warning: case Harrison v. National Association for the Advancement of Colored People (https://www.oyez.org/cases/1958/127) has no advocates; found speaker "J. Segar Gravatt" (j_segar_gravatt) in transcript
 warning: case Harrison v. National Association for the Advancement of Colored People (https://www.oyez.org/cases/1958/127) has no advocates; found speaker "David J. Mays" (david_j_mays) in transcript
 warning: case Greene v. United States (https://www.oyez.org/cases/1958/134) has no advocates; found speaker "James H. Heller" (james_h_heller) in transcript
@@ -890,7 +906,8 @@ warning: case Parsons v. Smith (https://www.oyez.org/cases/1958/218) has no advo
 warning: case Kermarec v. Compagnie Generale Transatlantique (https://www.oyez.org/cases/1958/22) has no advocates; found speaker "Edward J. Malament" (edward_j_malament) in transcript
 warning: case Kermarec v. Compagnie Generale Transatlantique (https://www.oyez.org/cases/1958/22) has no advocates; found speaker "George A. Garvey" (george_a_garvey) in transcript
 warning: case Kermarec v. Compagnie Generale Transatlantique (https://www.oyez.org/cases/1958/22) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Kermarec v. Compagnie Generale Transatlantique (https://www.oyez.org/cases/1958/22)
+warning: case Kermarec v. Compagnie Generale Transatlantique (https://www.oyez.org/cases/1958/22) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1958/22_13571_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Kermarec v. Compagnie Generale Transatlantique (https://www.oyez.org/cases/1958/22)
 warning: case United Gas Pipe Line Company v. Memphis Light, Gas & Water Division (https://www.oyez.org/cases/1958/23) has no advocates; found speaker "George E. Morrow" (george_e_morrow) in transcript
 warning: case United Gas Pipe Line Company v. Memphis Light, Gas & Water Division (https://www.oyez.org/cases/1958/23) has no advocates; found speaker "Reuben Goldberg" (reuben_goldberg) in transcript
 warning: case United Gas Pipe Line Company v. Memphis Light, Gas & Water Division (https://www.oyez.org/cases/1958/23) has no advocates; found speaker "J. Lee Rankin" (j_lee_rankin) in transcript
@@ -907,7 +924,8 @@ warning: case Kelly v. Kosuga (https://www.oyez.org/cases/1958/267) has no advoc
 warning: case Kelly v. Kosuga (https://www.oyez.org/cases/1958/267) has no advocates; found speaker "Lee A. Freeman, Jr." (lee_a_freeman_jr) in transcript
 warning: case Felter v. Southern Pacific Company (https://www.oyez.org/cases/1958/269) has no advocates; found speaker "Harry E. Wilmarth" (harry_e_wilmarth) in transcript
 warning: case Felter v. Southern Pacific Company (https://www.oyez.org/cases/1958/269) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Felter v. Southern Pacific Company (https://www.oyez.org/cases/1958/269)
+warning: case Felter v. Southern Pacific Company (https://www.oyez.org/cases/1958/269) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1958/269_13648_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Felter v. Southern Pacific Company (https://www.oyez.org/cases/1958/269)
 warning: case Flemming v. Florida Citrus Exch. (https://www.oyez.org/cases/1958/27) has no advocates; found speaker "William W. Goodrich" (william_w_goodrich) in transcript
 warning: case Flemming v. Florida Citrus Exch. (https://www.oyez.org/cases/1958/27) has no advocates; found speaker "J. Hardin Peterson" (j_hardin_peterson) in transcript
 warning: case Flemming v. Florida Citrus Exch. (https://www.oyez.org/cases/1958/27) has no advocates; found speaker "J. Lewis Hall" (j_lewis_hall) in transcript
@@ -917,7 +935,8 @@ warning: case Frank v. Maryland (https://www.oyez.org/cases/1958/278) has no adv
 warning: case Frank v. Maryland (https://www.oyez.org/cases/1958/278) has no advocates; found speaker "Benjamin Lipsitz" (benjamin_lipsitz) in transcript
 warning: case Frank v. Maryland (https://www.oyez.org/cases/1958/278) has no advocates; found speaker "James H. Norris, Jr." (james_h_norris_jr) in transcript
 warning: case Frank v. Maryland (https://www.oyez.org/cases/1958/278) has no advocates; found speaker "C. Ferdinand Sybert" (c_ferdinand_sybert) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Frank v. Maryland (https://www.oyez.org/cases/1958/278)
+warning: case Frank v. Maryland (https://www.oyez.org/cases/1958/278) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1958/278_13616_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Frank v. Maryland (https://www.oyez.org/cases/1958/278)
 warning: case Hinkle v. New England Mut. Ins. Co. of Boston (https://www.oyez.org/cases/1958/28) has no advocates; found speaker "Leland S. Forrest" (leland_s_forrest) in transcript
 warning: case Hinkle v. New England Mut. Ins. Co. of Boston (https://www.oyez.org/cases/1958/28) has no advocates; found speaker "Phineas M. Henry" (phineas_m_henry) in transcript
 warning: case United States v. Isthmian Steamship Company (https://www.oyez.org/cases/1958/285) has no advocates; found speaker "Clement C. Rinehart" (clement_c_rinehart) in transcript
@@ -975,7 +994,8 @@ warning: case Pennsylvania R. Company v. Administrator (https://www.oyez.org/cas
 warning: case Pennsylvania R. Company v. Administrator (https://www.oyez.org/cases/1958/397) has no advocates; found speaker "James M. Davis, Jr." (james_m_davis_jr) in transcript
 warning: case Pennsylvania R. Company v. Administrator (https://www.oyez.org/cases/1958/397) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
 warning: advocate ID 'james_davis3' has name "James M. Davis, Jr." similar to "James C. Davis"
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Pennsylvania R. Company v. Administrator (https://www.oyez.org/cases/1958/397)
+warning: case Pennsylvania R. Company v. Administrator (https://www.oyez.org/cases/1958/397) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1958/397_13604_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Pennsylvania R. Company v. Administrator (https://www.oyez.org/cases/1958/397)
 warning: case Louisiana Power & Light Company v. City of Thibodaux (https://www.oyez.org/cases/1958/398) has no advocates; found speaker "J. Raburn Monroe" (j_raburn_monroe) in transcript
 warning: case Louisiana Power & Light Company v. City of Thibodaux (https://www.oyez.org/cases/1958/398) has no advocates; found speaker "Louis F. Claiborne" (louis_f_claiborne) in transcript
 warning: case Brown v. United States (https://www.oyez.org/cases/1958/4) advocate "Mr John F. Davis" (mr_john_f_davis) does not appear in transcript (./sources/oyez/transcripts/_files/1958/4_13722_argument.json)
@@ -1317,7 +1337,8 @@ warning: case Grisham v. Hagan (https://www.oyez.org/cases/1959/58) has no advoc
 warning: case Thompson v. City of Louisville (https://www.oyez.org/cases/1959/59) has no advocates; found speaker "Louis Lusky" (louis_lusky) in transcript
 warning: case Thompson v. City of Louisville (https://www.oyez.org/cases/1959/59) has no advocates; found speaker "Herman E. Frick" (herman_e_frick) in transcript
 warning: case Thompson v. City of Louisville (https://www.oyez.org/cases/1959/59) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Thompson v. City of Louisville (https://www.oyez.org/cases/1959/59)
+warning: case Thompson v. City of Louisville (https://www.oyez.org/cases/1959/59) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1959/59_13911_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Thompson v. City of Louisville (https://www.oyez.org/cases/1959/59)
 warning: case Arnold v. Ben Kanowsky, Inc. (https://www.oyez.org/cases/1959/60) has no advocates; found speaker "Bessie Margolin" (bessie_margolin) in transcript
 warning: case FTC v. Henry Broch & Company (https://www.oyez.org/cases/1959/61) has no advocates; found speaker "Frederick M. Rowe" (frederick_m_rowe) in transcript
 warning: case FTC v. Henry Broch & Company (https://www.oyez.org/cases/1959/61) has no advocates; found speaker "Daniel M. Friedman" (daniel_m_friedman) in transcript
@@ -1331,7 +1352,8 @@ warning: case Federal Power Commission v. Tuscarora Indian Nation (https://www.o
 warning: case United States v. Raines (https://www.oyez.org/cases/1959/64) has no advocates; found speaker "William P. Rogers" (william_p_rogers) in transcript
 warning: case United States v. Raines (https://www.oyez.org/cases/1959/64) has no advocates; found speaker "Charles J. Bloch" (charles_j_bloch) in transcript
 warning: case United States v. Raines (https://www.oyez.org/cases/1959/64) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case United States v. Raines (https://www.oyez.org/cases/1959/64)
+warning: case United States v. Raines (https://www.oyez.org/cases/1959/64) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1959/64_13823_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case United States v. Raines (https://www.oyez.org/cases/1959/64)
 warning: case United States v. Thomas (https://www.oyez.org/cases/1959/667) has no advocates; found speaker "J. Lee Rankin" (j_lee_rankin) in transcript
 warning: case United States v. Thomas (https://www.oyez.org/cases/1959/667) has no advocates; found speaker "Weldon A. Cousins" (weldon_a_cousins) in transcript
 warning: case United States v. Thomas (https://www.oyez.org/cases/1959/667) has no advocates; found speaker "Henry J. Roberts, Jr." (henry_j_roberts_jr) in transcript
@@ -1626,7 +1648,8 @@ warning: case Radiant Burners, Inc. v. Peoples Gas Light & Coke Company (https:/
 warning: case Radiant Burners, Inc. v. Peoples Gas Light & Coke Company (https://www.oyez.org/cases/1960/73) has no advocates; found speaker "Charles H. Weston" (charles_h_weston) in transcript
 warning: case Radiant Burners, Inc. v. Peoples Gas Light & Coke Company (https://www.oyez.org/cases/1960/73) has no advocates; found speaker "Clarence H. Ross" (clarence_h_ross) in transcript
 warning: case Radiant Burners, Inc. v. Peoples Gas Light & Coke Company (https://www.oyez.org/cases/1960/73) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Radiant Burners, Inc. v. Peoples Gas Light & Coke Company (https://www.oyez.org/cases/1960/73)
+warning: case Radiant Burners, Inc. v. Peoples Gas Light & Coke Company (https://www.oyez.org/cases/1960/73) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1960/73_14408_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Radiant Burners, Inc. v. Peoples Gas Light & Coke Company (https://www.oyez.org/cases/1960/73)
 warning: case National Labor Relations Board v. Mattison Machine Works (https://www.oyez.org/cases/1960/74) has no advocates; found speaker "Norton J. Come" (norton_j_come) in transcript
 warning: case National Labor Relations Board v. Mattison Machine Works (https://www.oyez.org/cases/1960/74) has no advocates; found speaker "J. Warren Mccaffrey" (j_warren_mccaffrey) in transcript
 warning: case Bullock v. South Carolina (https://www.oyez.org/cases/1960/78) has no advocates; found speaker "Robert L. Kilgo" (robert_l_kilgo) in transcript
@@ -2145,7 +2168,8 @@ warning: case Hardy v. United States (https://www.oyez.org/cases/1963/112) has n
 warning: case Platt v. Minnesota Mining & Manufacturing Company (https://www.oyez.org/cases/1963/113) has no advocates; found speaker "Daniel M. Friedman" (daniel_m_friedman) in transcript
 warning: case Platt v. Minnesota Mining & Manufacturing Company (https://www.oyez.org/cases/1963/113) has no advocates; found speaker "John T. Chadwell" (john_t_chadwell) in transcript
 warning: case Platt v. Minnesota Mining & Manufacturing Company (https://www.oyez.org/cases/1963/113) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Platt v. Minnesota Mining & Manufacturing Company (https://www.oyez.org/cases/1963/113)
+warning: case Platt v. Minnesota Mining & Manufacturing Company (https://www.oyez.org/cases/1963/113) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1963/113_14584_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Platt v. Minnesota Mining & Manufacturing Company (https://www.oyez.org/cases/1963/113)
 warning: case General Motors Corporation v. Washington (https://www.oyez.org/cases/1963/115) has no advocates; found speaker "Donald K. Barnes" (donald_k_barnes) in transcript
 warning: case General Motors Corporation v. Washington (https://www.oyez.org/cases/1963/115) has no advocates; found speaker "John W. Riley" (john_w_riley) in transcript
 warning: case Hostetter v. Idlewild Bon Voyage Liquor Corporation (https://www.oyez.org/cases/1963/116) has no advocates; found speaker "Irving Galt" (irving_galt) in transcript
@@ -2451,7 +2475,8 @@ warning: case Calhoon v. Harvey (https://www.oyez.org/cases/1964/17) has no advo
 warning: case Calhoon v. Harvey (https://www.oyez.org/cases/1964/17) has no advocates; found speaker "Burton H. Hall" (burton_h_hall) in transcript
 warning: case Nebraska v. Iowa (https://www.oyez.org/cases/1964/17-orig) has no advocates; found speaker "Howard H. Moldenhauer" (howard_h_moldenhauer) in transcript
 warning: case Nebraska v. Iowa (https://www.oyez.org/cases/1964/17-orig) has no advocates; found speaker "Mr. Attorney General" (attorney_general) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Nebraska v. Iowa (https://www.oyez.org/cases/1964/17-orig)
+warning: case Nebraska v. Iowa (https://www.oyez.org/cases/1964/17-orig) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1964/17-orig_23708_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Nebraska v. Iowa (https://www.oyez.org/cases/1964/17-orig)
 warning: case Hanna v. Plumer (https://www.oyez.org/cases/1964/171) has no advocates; found speaker "James J. Fitzpatrick" (james_j_fitzpatrick) in transcript
 warning: case Hanna v. Plumer (https://www.oyez.org/cases/1964/171) has no advocates; found speaker "Albert P. Zabin" (albert_p_zabin) in transcript
 warning: case Fortson v. Dorsey (https://www.oyez.org/cases/1964/178) has no advocates; found speaker "Paul Rodgers" (paul_rodgers) in transcript
@@ -3149,7 +3174,8 @@ warning: case Witherspoon v. Illinois (https://www.oyez.org/cases/1967/1015) has
 warning: case Witherspoon v. Illinois (https://www.oyez.org/cases/1967/1015) has no advocates; found speaker "Donald J. Veverka" (donald_j_veverka) in transcript
 warning: case Witherspoon v. Illinois (https://www.oyez.org/cases/1967/1015) has no advocates; found speaker "James B. Zagel" (james_b_zagel) in transcript
 warning: case Witherspoon v. Illinois (https://www.oyez.org/cases/1967/1015) has no advocates; found speaker "Robert R. Granucci" (robert_r_granucci) in transcript
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Witherspoon v. Illinois (https://www.oyez.org/cases/1967/1015)
+warning: case Witherspoon v. Illinois (https://www.oyez.org/cases/1967/1015) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1967/1015_15319_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Witherspoon v. Illinois (https://www.oyez.org/cases/1967/1015)
 warning: case Tcherepnin v. Knight (https://www.oyez.org/cases/1967/104) has no advocates; found speaker "Arnold I. Shure" (arnold_i_shure) in transcript
 warning: case Tcherepnin v. Knight (https://www.oyez.org/cases/1967/104) has no advocates; found speaker "Philip A. Loomis, Jr." (philip_a_loomis_jr) in transcript
 warning: case Tcherepnin v. Knight (https://www.oyez.org/cases/1967/104) has no advocates; found speaker "Charles J. O'Laughlin" (charles_j_olaughlin) in transcript
@@ -4211,7 +4237,8 @@ warning: case Adams v. Illinois (https://www.oyez.org/cases/1971/70-5038) advoca
 warning: case Grayned v. City of Rockford (https://www.oyez.org/cases/1971/70-5106) advocate "Sophia H. Hall" (sophia_h_hall) does not appear in transcript (./sources/oyez/transcripts/_files/1971/70-5106_23858_argument.json)
 warning: case Grayned v. City of Rockford (https://www.oyez.org/cases/1971/70-5106) advocate "William E. Collins" (william_e_collins) does not appear in transcript (./sources/oyez/transcripts/_files/1971/70-5106_23858_argument.json)
 warning: case Duncan v. Tennessee (https://www.oyez.org/cases/1971/70-5122) advocate "Everett H. Falk" (everett_h_falk) does not appear in transcript (./sources/oyez/transcripts/_files/1971/70-5122_16436_argument.json)
-warning: advocate 'Mr. Attorney General' has an unusual last name; refer to case Affiliated Ute Citizens of Utah v. United States (https://www.oyez.org/cases/1971/70-78)
+warning: case Affiliated Ute Citizens of Utah v. United States (https://www.oyez.org/cases/1971/70-78) advocate "Attorney General" (attorney_general) does not appear in transcript (./sources/oyez/transcripts/_files/1971/70-78_17849_argument.json)
+warning: advocate 'Attorney General' has an unusual last name; refer to case Affiliated Ute Citizens of Utah v. United States (https://www.oyez.org/cases/1971/70-78)
 warning: case Affiliated Ute Citizens of Utah v. United States (https://www.oyez.org/cases/1971/70-78) advocate "Potter Stewart" (potter_stewart) does not appear in transcript (./sources/oyez/transcripts/_files/1971/70-78_17849_argument.json)
 warning: case Reliance Electric Company v. Emerson Electric Company (https://www.oyez.org/cases/1971/70-79) advocate "Thomas P. Mulliganm" (thomas_p_mulliganm) does not appear in transcript (./sources/oyez/transcripts/_files/1971/70-79_17443_argument.json)
 warning: case Branzburg v. Hayes (https://www.oyez.org/cases/1971/70-85) advocate "John T. Corrigan" (john_t_corrigan) does not appear in transcript (./sources/oyez/transcripts/_files/1971/70-85_16449_argument.json)
@@ -4226,6 +4253,7 @@ warning: case United States v. Biswell (https://www.oyez.org/cases/1971/71-81) a
 warning: case United States v. Nevada (https://www.oyez.org/cases/1972/59_orig) has no advocates; found speaker "Griswold" (griswold) in transcript
 warning: case United States v. Nevada (https://www.oyez.org/cases/1972/59_orig) has no advocates; found speaker "E. Barrett Prettyman, Jr." (e_barrett_prettyman_jr) in transcript
 warning: case United States v. Nevada (https://www.oyez.org/cases/1972/59_orig) has no advocates; found speaker "Jr. Roderick Walston" (jr_roderick_walston) in transcript
+warning: case Bronston v. United States (https://www.oyez.org/cases/1972/71-1011) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-1011_16110_argument.json)
 ENOENT: no such file or directory, open './sources/oyez/transcripts/_files/1972/71-1059_23891_argument.json'
 warning: unable to parse JSON file: ./sources/oyez/transcripts/_files/1972/71-1059_23891_argument.json
 warning: case Kern County Land Company v. Occidental Petroleum Corporation (https://www.oyez.org/cases/1972/71-1059) advocate "David R. Hyde" (david_r_hyde) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-1059_23891_argument.json)
@@ -4248,6 +4276,7 @@ warning: case Colgrove v. Battin (https://www.oyez.org/cases/1972/71-1442) advoc
 warning: case Gaffney v. Cummings (https://www.oyez.org/cases/1972/71-1476) advocate "Robert Satter" (robert_satter) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-1476_16371_argument.json)
 warning: case Hunt v. McNair (https://www.oyez.org/cases/1972/71-1523) advocate "Robert McCormick Figg, Jr." (robert_mccormick_figg_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-1523_16647_argument.json)
 warning: case Brown v. Chote (https://www.oyez.org/cases/1972/71-1583) advocate "Philip Elman" (philip_elman) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-1583_16361_argument.json)
+warning: case Brennan v. Arnheim & Neely, Inc. (https://www.oyez.org/cases/1972/71-1598) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-1598_17608_argument.json)
 warning: case National Labor Relations Board v. Boeing Company (https://www.oyez.org/cases/1972/71-1607) advocate "Norton J. Come" (norton_j_come) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-1607_23831_argument.json)
 warning: case National Labor Relations Board v. Boeing Company (https://www.oyez.org/cases/1972/71-1607) advocate "Samuel Lang" (samuel_lang) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-1607_23831_argument.json)
 warning: case City of Burbank v. Lockheed Air Terminal, Inc. (https://www.oyez.org/cases/1972/71-1637) advocate "Warren M. Christopher" (warren_m_christopher) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-1637_15651_argument.json)
@@ -4294,34 +4323,40 @@ warning: case Mourning v. Family Publications Service, Inc. (https://www.oyez.or
 warning: case McClanahan v. Arizona State Tax Commission (https://www.oyez.org/cases/1972/71-834) advocate "Richard B. Collins" (richard_b_collins) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-834_16931_argument.json)
 warning: advocate ID 'robert_collins2' has name "Robert B. Collins" similar to "Robert J. Collins"
 warning: case Ricci v. Chicago Mercantile Exchange (https://www.oyez.org/cases/1972/71-858) advocate "Lee A. Freeman" (lee_a_freeman) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-858_17901_argument.json)
+warning: case Columbia Broadcasting System, Inc. v. Democratic National Committee (https://www.oyez.org/cases/1972/71-863) advocate "J. Roger Wollenberg" (j_roger_wollenberg) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-863_16215_argument.json)
 ENOENT: no such file or directory, open './sources/oyez/transcripts/_files/1972/71-991_23889_argument.json'
 warning: unable to parse JSON file: ./sources/oyez/transcripts/_files/1972/71-991_23889_argument.json
 warning: case Otter Tail Power Company v. United States (https://www.oyez.org/cases/1972/71-991) advocate "Lawrence G. Wallace" (lawrence_g_wallace) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-991_23889_argument.json)
 warning: case Otter Tail Power Company v. United States (https://www.oyez.org/cases/1972/71-991) advocate "Milton Handler" (milton_handler) does not appear in transcript (./sources/oyez/transcripts/_files/1972/71-991_23889_argument.json)
 warning: case National Association for the Advancement of Colored People v. New York (https://www.oyez.org/cases/1972/72-129) advocate "George D. Zuckerman" (george_d_zuckerman) does not appear in transcript (./sources/oyez/transcripts/_files/1972/72-129_17113_argument.json)
 warning: case United States v. State Tax Commission of Mississippi (https://www.oyez.org/cases/1972/72-350) advocate "Jewel S. Lafontant" (jewel_s_lafontant) does not appear in transcript (./sources/oyez/transcripts/_files/1972/72-350_17877_argument.json)
+warning: case Weinberger v. Hynson, Westcott & Dunning, Inc. (https://www.oyez.org/cases/1972/72-394) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1972/72-394_23829_argument.json)
 warning: case Sloan v. Lemon (https://www.oyez.org/cases/1972/72-459) advocate "William B. Ball" (william_b_ball) does not appear in transcript (./sources/oyez/transcripts/_files/1972/72-459_17844_argument.json)
 warning: case CIBA Corporation v. Weinberger (https://www.oyez.org/cases/1972/72-528) advocate "Daniel M. Friedman" (daniel_m_friedman) does not appear in transcript (./sources/oyez/transcripts/_files/1972/72-528_23825_argument.json)
 warning: case CIBA Corporation v. Weinberger (https://www.oyez.org/cases/1972/72-528) advocate "Clyde A. Szuch" (clyde_a_szuch) does not appear in transcript (./sources/oyez/transcripts/_files/1972/72-528_23825_argument.json)
 warning: case Weinberger v. Bentex Pharmaceuticals, Inc. (https://www.oyez.org/cases/1972/72-555) advocate "Daniel M. Friedman" (daniel_m_friedman) does not appear in transcript (./sources/oyez/transcripts/_files/1972/72-555_23802_argument.json)
 warning: case Weinberger v. Bentex Pharmaceuticals, Inc. (https://www.oyez.org/cases/1972/72-555) advocate "George F. Townes" (george_f_townes) does not appear in transcript (./sources/oyez/transcripts/_files/1972/72-555_23802_argument.json)
-warning: case USV Pharmaceutical Corporation v. Weinberger (https://www.oyez.org/cases/1972/72-666) advocate "Mr. Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1972/72-666_23874_argument.json)
+warning: case USV Pharmaceutical Corporation v. Weinberger (https://www.oyez.org/cases/1972/72-666) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1972/72-666_23874_argument.json)
 warning: case USV Pharmaceutical Corporation v. Weinberger (https://www.oyez.org/cases/1972/72-666) advocate "Joel E. Hoffman" (joel_e_hoffman) does not appear in transcript (./sources/oyez/transcripts/_files/1972/72-666_23874_argument.json)
 warning: advocate ID 'harvey_miller2' has name "Harvey R. Miller" similar to "Harvey A. Miller, Jr."
 warning: case American Pipe & Construction Company v. Utah (https://www.oyez.org/cases/1973/72-1195) advocate "Gerald R. Miller" (gerald_r_miller) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-1195_17105_argument.json)
 warning: case United States v. Chavez (https://www.oyez.org/cases/1973/72-1319) advocate "Robert H. Bork" (robert_h_bork) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-1319_23814_argument.json)
 warning: case United States v. Chavez (https://www.oyez.org/cases/1973/72-1319) advocate "James F. Hewitt" (james_f_hewitt) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-1319_23814_argument.json)
+warning: case United States v. Kahn (https://www.oyez.org/cases/1973/72-1328) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-1328_17101_argument.json)
 warning: advocate ID 'robert_smith5' has name "Robert Frederick Smith" similar to "Robert Weldon Smith"
 warning: advocate ID 'thomas_moran2' has name "Thomas R. Moran" similar to "Thomas E. Moran"
+warning: case Cardwell v. Lewis (https://www.oyez.org/cases/1973/72-1603) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-1603_16289_argument.json)
 warning: case National Labor Relations Board v. Magnavox Company of Tennessee (https://www.oyez.org/cases/1973/72-1637) advocate "George K. McPherson" (george_k_mcpherson) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-1637_17334_argument.json)
 warning: advocate ID 'richard_robinson2' has name "Richard O. Robinson" similar to "Richard H. Robinson"
 warning: case Patterson v. Warner (https://www.oyez.org/cases/1973/72-5839) advocate "Phillip D. Gaujot" (phillip_d_gaujot) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-5839_17885_argument.json)
 warning: advocate ID 'john_reed3' has name "John Wilson Reed" similar to "John A. Reed"
 warning: case Gertz v. Robert Welch Inc. (https://www.oyez.org/cases/1973/72-617) advocate "Wayne B. Giampietro" (wayne_b_giampietro) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-617_23822_argument.json)
 warning: case Gertz v. Robert Welch Inc. (https://www.oyez.org/cases/1973/72-617) advocate "Clyde J. Watts" (clyde_j_watts) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-617_23822_argument.json)
+warning: case Gooding v. United States (https://www.oyez.org/cases/1973/72-6902) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-6902_16852_argument.json)
 warning: case United States v. Calandra (https://www.oyez.org/cases/1973/72-734) advocate "Louis F. Claiborne" (louis_f_claiborne) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-734_23869_argument.json)
 warning: case United States v. Calandra (https://www.oyez.org/cases/1973/72-734) advocate "Robert J. Rotatori" (robert_j_rotatori) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-734_23869_argument.json)
 warning: case Cleveland Board of Education v. LaFleur (https://www.oyez.org/cases/1973/72-777) advocate "Jane M. Picker" (jane_m_picker) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-777_16038_argument.json)
+warning: case Falk v. Brennan (https://www.oyez.org/cases/1973/72-844) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-844_15876_argument.json)
 warning: advocate ID 'john_hill2' has name "John L. Hill" similar to "John G. Hill, Jr."
 warning: case American Party of Texas v. White (https://www.oyez.org/cases/1973/72-887) advocate "Gloria T. Svanas" (gloria_t_svanas) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-887_17064_argument.json)
 warning: case American Party of Texas v. White (https://www.oyez.org/cases/1973/72-887) advocate "Laurel Dunn" (laurel_dunn) does not appear in transcript (./sources/oyez/transcripts/_files/1973/72-887_17064_argument.json)
@@ -4353,7 +4388,9 @@ warning: case Renegotiation Bd. v. Grumman Aircraft Engineering Corporation (htt
 warning: case Renegotiation Bd. v. Grumman Aircraft Engineering Corporation (https://www.oyez.org/cases/1974/73-1316) advocate "Tom M. Schaumberg" (tom_m_schaumberg) does not appear in transcript (./sources/oyez/transcripts/_files/1974/73-1316_23791_argument.json)
 warning: case Train v. Campaign Clean Water, Inc. (https://www.oyez.org/cases/1974/73-1378) advocate "Robert H. Bork" (robert_h_bork) does not appear in transcript (./sources/oyez/transcripts/_files/1974/73-1378_23878_argument.json)
 warning: case Train v. Campaign Clean Water, Inc. (https://www.oyez.org/cases/1974/73-1378) advocate "W. Thomas Jacks" (w_thomas_jacks) does not appear in transcript (./sources/oyez/transcripts/_files/1974/73-1378_23878_argument.json)
+warning: case United States v. Wilson (https://www.oyez.org/cases/1974/73-1395) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1974/73-1395_15994_argument.json)
 warning: case Roe v. Doe (https://www.oyez.org/cases/1974/73-1446) advocate "Ephraim London" (ephraim_london) does not appear in transcript (./sources/oyez/transcripts/_files/1974/73-1446_17392_argument.json)
+warning: case United States v. Jenkins (https://www.oyez.org/cases/1974/73-1513) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1974/73-1513_17563_argument.json)
 warning: case Reid v. Immigration and Naturalization Service (https://www.oyez.org/cases/1974/73-1541) advocate "Jewel S. Lafontant" (jewel_s_lafontant) does not appear in transcript (./sources/oyez/transcripts/_files/1974/73-1541_17040_argument.json)
 warning: case Train v. Natural Resources Defense Council, Inc. (https://www.oyez.org/cases/1974/73-1742) advocate "Max N. Edwards" (max_n_edwards) does not appear in transcript (./sources/oyez/transcripts/_files/1974/73-1742_17650_argument.json)
 warning: case Train v. Natural Resources Defense Council, Inc. (https://www.oyez.org/cases/1974/73-1742) advocate "John Hardin Young" (john_young) does not appear in transcript (./sources/oyez/transcripts/_files/1974/73-1742_17650_argument.json)
@@ -4384,6 +4421,7 @@ warning: case Bowen v. United States (https://www.oyez.org/cases/1974/73-6848) a
 warning: case Edwards v. Healy (https://www.oyez.org/cases/1974/73-759) advocate "Ruth Bader Ginsburg" (ruth_bader_ginsburg) does not appear in transcript (./sources/oyez/transcripts/_files/1974/73-759_16631_argument.json)
 warning: advocate ID 'john_brown2' has name "John A. Brown" similar to "John Y. Brown"
 warning: case Fry v. United States (https://www.oyez.org/cases/1974/73-822) advocate "Jewel S. Lafontant" (jewel_s_lafontant) does not appear in transcript (./sources/oyez/transcripts/_files/1974/73-822_16897_argument.json)
+warning: case United States v. Brignoni-Ponce (https://www.oyez.org/cases/1974/74-114) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1974/74-114_17125_argument.json)
 warning: case Phelps v. United States (https://www.oyez.org/cases/1974/74-121) advocate "Dennis E. Quaid" (dennis_e_quaid) does not appear in transcript (./sources/oyez/transcripts/_files/1974/74-121_16850_argument.json)
 warning: case Phelps v. United States (https://www.oyez.org/cases/1974/74-121) advocate "Keith A. Jones" (keith_a_jones) does not appear in transcript (./sources/oyez/transcripts/_files/1974/74-121_16850_argument.json)
 warning: advocate ID 'james_ryan2' has name "James E. Ryan" similar to "James V. Ryan"
@@ -4394,6 +4432,7 @@ warning: case United States v. Park (https://www.oyez.org/cases/1974/74-215) adv
 warning: case Ivan Allen Company v. United States (https://www.oyez.org/cases/1974/74-22) advocate "Kirk McAlpin" (kirk_mcalpin) does not appear in transcript (./sources/oyez/transcripts/_files/1974/74-22_17303_argument.json)
 warning: case Intercounty Construction Corporation v. Walter (https://www.oyez.org/cases/1974/74-362) advocate "John C. Duncan, III" (john_c_duncan_iii) does not appear in transcript (./sources/oyez/transcripts/_files/1974/74-362_16923_argument.json)
 warning: case Intercounty Construction Corporation v. Walter (https://www.oyez.org/cases/1974/74-362) advocate "Frank H. Easterbrook" (frank_h_easterbrook) does not appear in transcript (./sources/oyez/transcripts/_files/1974/74-362_16923_argument.json)
+warning: case United States v. Hale (https://www.oyez.org/cases/1974/74-364) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1974/74-364_17908_argument.json)
 warning: case Rondeau v. Mosinee Paper Corporation (https://www.oyez.org/cases/1974/74-415) advocate "David E. Beckwith" (david_e_beckwith) does not appear in transcript (./sources/oyez/transcripts/_files/1974/74-415_17147_argument.json)
 warning: case Rondeau v. Mosinee Paper Corporation (https://www.oyez.org/cases/1974/74-415) advocate "L. C. Hammond, Jr." (l_c_hammond_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1974/74-415_17147_argument.json)
 warning: case Administrator, Federal Aviation Administration v. Robertson (https://www.oyez.org/cases/1974/74-450) advocate "Daniel M. Friedman" (daniel_m_friedman) does not appear in transcript (./sources/oyez/transcripts/_files/1974/74-450_16042_argument.json)
@@ -4408,6 +4447,7 @@ warning: case Fowler v. North Carolina (https://www.oyez.org/cases/1975/73-7031)
 warning: case Fowler v. North Carolina (https://www.oyez.org/cases/1975/73-7031) advocate "Robert H. Bork" (robert_h_bork) does not appear in transcript (./sources/oyez/transcripts/_files/1975/73-7031_24006_argument.json)
 warning: case Massachusetts Board of Retirement v. Murgia (https://www.oyez.org/cases/1975/74-1044) advocate "Terence P. O'Malley" (terence_p_omalley) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-1044_17520_argument.json)
 warning: case Simon v. Eastern Kentucky Welfare Rights Organization (https://www.oyez.org/cases/1975/74-1124) advocate "Marin G. Rose" (marin_g_rose) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-1124_16627_argument.json)
+warning: case United States v. Gaddis (https://www.oyez.org/cases/1975/74-1141) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-1141_15630_argument.json)
 warning: case Kelley v. Johnson (https://www.oyez.org/cases/1975/74-1269) advocate "James Van R. Springer" (james_van_r_springer) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-1269_17095_argument.json)
 warning: case Train v. Colorado Public Interest Research Group, Inc. (https://www.oyez.org/cases/1975/74-1270) advocate "A. Raymond Randolph, Jr." (a_raymond_randolph_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-1270_17203_argument.json)
 warning: case Michelin Tire Corporation v. Wages (https://www.oyez.org/cases/1975/74-1396) advocate "H. A. Stephens, Jr." (h_a_stephens_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-1396_15892_argument.json)
@@ -4419,6 +4459,7 @@ warning: case Andresen v. Maryland (https://www.oyez.org/cases/1975/74-1646) adv
 warning: case Kleppe v. Delta Mining, Inc. (https://www.oyez.org/cases/1975/74-521) advocate "John L. Kilcullen" (john_l_kilcullen) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-521_23863_argument.json)
 warning: case Kleppe v. Delta Mining, Inc. (https://www.oyez.org/cases/1975/74-521) advocate "Fred Blackwell" (fred_blackwell) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-521_23863_argument.json)
 warning: case Kleppe v. Delta Mining, Inc. (https://www.oyez.org/cases/1975/74-521) advocate "A. Raymond Randolph, Jr." (a_raymond_randolph_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-521_23863_argument.json)
+warning: case United States v. Watson (https://www.oyez.org/cases/1975/74-538) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-538_16061_argument.json)
 warning: case Hampton v. United States (https://www.oyez.org/cases/1975/74-5822) advocate "David A. Lang" (david_lang) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-5822_16314_argument.json)
 warning: case Gregg v. Georgia (https://www.oyez.org/cases/1975/74-6257) advocate "Robert H. Bork" (robert_h_bork) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-6257_17374_argument.json)
 warning: case Gregg v. Georgia (https://www.oyez.org/cases/1975/74-6257) advocate "William E. James" (william_e_james) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-6257_17374_argument.json)
@@ -4426,10 +4467,12 @@ warning: case Michigan v. Moseley (https://www.oyez.org/cases/1975/74-653) advoc
 warning: case Estelle v. Williams (https://www.oyez.org/cases/1975/74-676) advocate "Ben Aderholt" (ben_aderholt) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-676_15748_argument.json)
 warning: advocate ID 'thomas_harris2' has name "Thomas Osa Harris" similar to "Thomas E. Harris"
 warning: case Roemer v. Board of Public Works of Maryland (https://www.oyez.org/cases/1975/74-730) advocate "Lawrence S. Greenwald" (lawrce_s_greenwald) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-730_17117_argument.json)
+warning: case United States v. Mandujano (https://www.oyez.org/cases/1975/74-754) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-754_16031_argument.json)
 warning: case United States v. United Continental Tuna Corporation (https://www.oyez.org/cases/1975/74-869) advocate "Robert F. Kopp" (robert_f_kopp) does not appear in transcript (./sources/oyez/transcripts/_files/1975/74-869_17503_argument.json)
 warning: advocate ID 'robert_kopp2' has name "Robert F. Kopp" similar to "Robert E. Kopp"
 warning: case Northern Cheyenne Tribe v. Hollowbreast (https://www.oyez.org/cases/1975/75-145) advocate "Stev H. Chestnut" (stev_h_chestnut) does not appear in transcript (./sources/oyez/transcripts/_files/1975/75-145_17518_argument.json)
 warning: case Young v. American Mini Theatres, Inc. (https://www.oyez.org/cases/1975/75-312) advocate "Maureen P. Reilly" (maureen_p_reilly) does not appear in transcript (./sources/oyez/transcripts/_files/1975/75-312_17904_argument.json)
+warning: case United States v. Agurs (https://www.oyez.org/cases/1975/75-491) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1975/75-491_16557_argument.json)
 warning: case Woodson v. North Carolina (https://www.oyez.org/cases/1975/75-5491) advocate "Robert H. Bork" (robert_h_bork) does not appear in transcript (./sources/oyez/transcripts/_files/1975/75-5491_16967_argument.json)
 warning: case Woodson v. North Carolina (https://www.oyez.org/cases/1975/75-5491) advocate "William E. James" (william_e_james) does not appear in transcript (./sources/oyez/transcripts/_files/1975/75-5491_16967_argument.json)
 warning: case Kleppe v. Sierra Club (https://www.oyez.org/cases/1975/75-552) advocate "A. Raymond Randolph, Jr." (a_raymond_randolph_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1975/75-552_17696_argument.json)
@@ -4458,14 +4501,18 @@ warning: case Pearson v. Dodd (https://www.oyez.org/cases/1976/75-1318) advocate
 warning: case Pearson v. Dodd (https://www.oyez.org/cases/1976/75-1318) advocate "William Roy Rice" (william_roy_rice) does not appear in transcript (./sources/oyez/transcripts/_files/1976/75-1318_23759_argument.json)
 warning: case Trainor v. Hernandez (https://www.oyez.org/cases/1976/75-1407) advocate "John A. Dienner, III" (john_a_dienner_iii) does not appear in transcript (./sources/oyez/transcripts/_files/1976/75-1407_15776_argument.json)
 warning: case Weatherford v. Bursey (https://www.oyez.org/cases/1976/75-1510) advocate "Joseph Crouch Coleman" (joseph_crouch_coleman) does not appear in transcript (./sources/oyez/transcripts/_files/1976/75-1510_15594_argument.json)
+warning: case Weatherford v. Bursey (https://www.oyez.org/cases/1976/75-1510) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1976/75-1510_15594_argument.json)
+warning: case Morris v. Gressette (https://www.oyez.org/cases/1976/75-1583) advocate "J. Roger Wollenberg" (j_roger_wollenberg) does not appear in transcript (./sources/oyez/transcripts/_files/1976/75-1583_17267_argument.json)
 warning: case Ohio Bureau of Employment Services v. Hodory (https://www.oyez.org/cases/1976/75-1707) advocate "Thomas Patrick Lordeon" (thomas_patrick_lordeon) does not appear in transcript (./sources/oyez/transcripts/_files/1976/75-1707_16863_argument.json)
 warning: advocate ID 'richard_collins2' has name "Richard J. Collins" similar to "Richard B. Collins"
 warning: case E. I. du Pont de Nemours & Company v. Collins (https://www.oyez.org/cases/1976/75-1870) advocate "Richard J. Collins, Jr." (richard_j_collins_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1976/75-1870_16566_argument.json)
+warning: case United States v. Donovan (https://www.oyez.org/cases/1976/75-212) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1976/75-212_17115_argument.json)
 warning: advocate ID 'george_cochran2' has name "George Colvin Cochran" similar to "George Calvin Cochran"
 warning: advocate ID 'david_kendall2' has name "David E. Kendall" similar to "David M. Kendall, Jr."
 warning: case Rosebud Sioux Tribe v. Kneip (https://www.oyez.org/cases/1976/75-562) advocate "H. Bartow Farr" (h_bartow_farr) does not appear in transcript (./sources/oyez/transcripts/_files/1976/75-562_16499_argument.json)
 warning: case Teamsters v. United States (https://www.oyez.org/cases/1976/75-636) advocate "Robert D. Schuler" (robert_d_schuler) does not appear in transcript (./sources/oyez/transcripts/_files/1976/75-636_15793_argument.json)
 warning: case Ingraham v. Wright (https://www.oyez.org/cases/1976/75-6527) advocate "Frank A. Howard, Jr." (frank_a_howard_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1976/75-6527_17618_argument.json)
+warning: case United States v. Antelope (https://www.oyez.org/cases/1976/75-661) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1976/75-661_17504_argument.json)
 warning: case Califano v. Goldfarb (https://www.oyez.org/cases/1976/75-699) advocate "Ruth Bader Ginsburg" (ruth_bader_ginsburg) does not appear in transcript (./sources/oyez/transcripts/_files/1976/75-699_17601_argument.json)
 warning: advocate ID 'robert_kelly2' has name "Robert C. Kelly" similar to "Robert J. Kelly"
 warning: case Continental T. V., Inc. v. GTE Sylvania Inc. (https://www.oyez.org/cases/1976/76-15) advocate "Glenn E. Miller" (glenn_e_miller) does not appear in transcript (./sources/oyez/transcripts/_files/1976/76-15_23780_argument.json)
@@ -4477,6 +4524,7 @@ warning: case Illinois Brick Company v. Illinois (https://www.oyez.org/cases/197
 warning: case Illinois Brick Company v. Illinois (https://www.oyez.org/cases/1976/76-404) advocate "Donald I. Baker" (donald_i_baker) does not appear in transcript (./sources/oyez/transcripts/_files/1976/76-404_23784_argument.json)
 warning: case Puyallup Tribe, Inc. v. Department of Game of Washington (https://www.oyez.org/cases/1976/76-423) advocate "H. Bartow Farr" (h_bartow_farr) does not appear in transcript (./sources/oyez/transcripts/_files/1976/76-423_15759_argument.json)
 warning: case Northeast Marine Terminal Company, Inc. v. Caputo (https://www.oyez.org/cases/1976/76-444) advocate "E. Barrett Prettyman" (e_barrett_prettyman) does not appear in transcript (./sources/oyez/transcripts/_files/1976/76-444_17941_argument.json)
+warning: case Lee v. United States (https://www.oyez.org/cases/1976/76-5187) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1976/76-5187_15685_argument.json)
 warning: case Dobbert v. Florida (https://www.oyez.org/cases/1976/76-5306) advocate "Louis O. Frost, Jr." (louis_o_frost_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1976/76-5306_16423_argument.json)
 warning: advocate ID 'bernard_segal2' has name "Bernard L. Segal" similar to "Bernard G. Segal"
 warning: case Key v. Doyle (https://www.oyez.org/cases/1977/76-1057) advocate "Paul S. Berger" (paul_s_berger) does not appear in transcript (./sources/oyez/transcripts/_files/1977/76-1057_16283_argument.json)
@@ -4488,11 +4536,12 @@ warning: case Quern v. Mandley (https://www.oyez.org/cases/1977/76-1159) advocat
 warning: advocate ID 'michael_lefkow2' has name "Michael R. Lefkow" similar to "Michael F. Lefkow"
 warning: case United States v. Jacobs (https://www.oyez.org/cases/1977/76-1193) advocate "Edward C. Weiner" (edward_c_weiner) does not appear in transcript (./sources/oyez/transcripts/_files/1977/76-1193_17301_argument.json)
 warning: advocate ID 'charles_moses2' has name "Charles F. Moses" similar to "Charles S. Moses"
+warning: case United States v. Scott (https://www.oyez.org/cases/1977/76-1382) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1977/76-1382_16296_argument.json)
 warning: case Agosto v. Immigration and Naturalization Service (https://www.oyez.org/cases/1977/76-1410) advocate "Robert S. Bixby" (robert_s_bixby) does not appear in transcript (./sources/oyez/transcripts/_files/1977/76-1410_23857_argument.json)
 warning: case Agosto v. Immigration and Naturalization Service (https://www.oyez.org/cases/1977/76-1410) advocate "Marion L. Jetton" (marion_l_jetton) does not appear in transcript (./sources/oyez/transcripts/_files/1977/76-1410_23857_argument.json)
 warning: case United States v. Grayson (https://www.oyez.org/cases/1977/76-1572) advocate "Wade H. McCree, Jr." (wade_h_mccree_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1977/76-1572_23795_argument.json)
 warning: case United States v. Grayson (https://www.oyez.org/cases/1977/76-1572) advocate "John M. Humphrey" (john_m_humphrey) does not appear in transcript (./sources/oyez/transcripts/_files/1977/76-1572_23795_argument.json)
-warning: case United States v. Mauro (https://www.oyez.org/cases/1977/76-1596) advocate "Mr. Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1977/76-1596_23806_argument.json)
+warning: case United States v. Mauro (https://www.oyez.org/cases/1977/76-1596) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1977/76-1596_23806_argument.json)
 warning: case United States v. Mauro (https://www.oyez.org/cases/1977/76-1596) advocate "Kevin G. Ross" (kevin_g_ross) does not appear in transcript (./sources/oyez/transcripts/_files/1977/76-1596_23806_argument.json)
 warning: case United States v. Board of Commissioners of Sheffield, Alabama (https://www.oyez.org/cases/1977/76-1662) advocate "Drew S. Days, III" (drew_s_days_iii) does not appear in transcript (./sources/oyez/transcripts/_files/1977/76-1662_17590_argument.json)
 warning: case United States v. Sotelo (https://www.oyez.org/cases/1977/76-1800) advocate "Stuart A. Smith" (stuart_a_smith) does not appear in transcript (./sources/oyez/transcripts/_files/1977/76-1800_23836_argument.json)
@@ -4524,10 +4573,13 @@ warning: case Toll v. Moreno (https://www.oyez.org/cases/1978/77-154) advocate "
 warning: case Toll v. Moreno (https://www.oyez.org/cases/1978/77-154) advocate "Alfred L. Scanlan, Jr." (alfred_l_scanlan) does not appear in transcript (undefined)
 warning: advocate ID 'peter_brown2' has name "Peter Megaree Brown" similar to "Peter W. Brown"
 warning: case County Court of Ulster County v. Allen (https://www.oyez.org/cases/1978/77-1554) advocate "Eileen Shapiro" (eileen_shapiro) does not appear in transcript (./sources/oyez/transcripts/_files/1978/77-1554_17565_argument.json)
+warning: case Dalia v. United States (https://www.oyez.org/cases/1978/77-1722) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1978/77-1722_17525_argument.json)
+warning: case Bell v. Wolfish (https://www.oyez.org/cases/1978/77-1829) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1978/77-1829_16530_argument.json)
 warning: case City of Mobile v. Bolden (https://www.oyez.org/cases/1978/77-1844) advocate "James U. Blacksher" (james_u_blacksher) does not appear in transcript (./sources/oyez/transcripts/_files/1978/77-1844_17310_argument.json)
 warning: case Duren v. Missouri (https://www.oyez.org/cases/1978/77-6067) advocate "Ruth Bader Ginsburg" (ruth_bader_ginsburg) does not appear in transcript (./sources/oyez/transcripts/_files/1978/77-6067_16298_argument.json)
 warning: case Great Atlantic & Pacific Tea Company, Inc. v. Federal Trade Commission (https://www.oyez.org/cases/1978/77-654) advocate "Denis McInerney" (denis_mcinerney) does not appear in transcript (./sources/oyez/transcripts/_files/1978/77-654_23764_argument.json)
 warning: case Great Atlantic & Pacific Tea Company, Inc. v. Federal Trade Commission (https://www.oyez.org/cases/1978/77-654) advocate "Frank H. Easterbrook" (frank_h_easterbrook) does not appear in transcript (./sources/oyez/transcripts/_files/1978/77-654_23764_argument.json)
+warning: case Dunn v. United States (https://www.oyez.org/cases/1978/77-6949) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1978/77-6949_17266_argument.json)
 warning: advocate ID 'david_young2' has name "David H. Young" similar to "David J. Young"
 warning: case National Labor Relations Board v. Catholic Bishop of Chicago (https://www.oyez.org/cases/1978/77-752) advocate "Don H. Reuben" (don_h_reuben) does not appear in transcript (./sources/oyez/transcripts/_files/1978/77-752_15762_argument.json)
 warning: case Quern v. Jordan (https://www.oyez.org/cases/1978/77-841) advocate "William A. Wenzel, III" (william_a_wenzel_iii) does not appear in transcript (./sources/oyez/transcripts/_files/1978/77-841_16544_argument.json)
@@ -4562,15 +4614,20 @@ warning: case Costle v. Pacific Legal Foundation (https://www.oyez.org/cases/197
 warning: advocate ID 'william_burke2' has name "William M. Burke" similar to "William L. Burke"
 warning: case Ford Motor Credit Company v. Milhollin (https://www.oyez.org/cases/1979/78-1487) advocate "Stuart A. Smith" (stuart_a_smith) does not appear in transcript (./sources/oyez/transcripts/_files/1979/78-1487_17453_argument.json)
 warning: case Vance v. Universal Amusement Company, Inc. (https://www.oyez.org/cases/1979/78-1588) advocate "Frierson M. Graves, Jr." (frierson_m_graves_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1979/78-1588_16237_argument.json)
+warning: case United States v. Mendenhall (https://www.oyez.org/cases/1979/78-1821) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1979/78-1821_16155_argument.json)
+warning: case Whalen v. United States (https://www.oyez.org/cases/1979/78-5471) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1979/78-5471_16416_argument.json)
 warning: case Washington v. Confederated Tribes of the Colville Indian Reservation (https://www.oyez.org/cases/1979/78-630) advocate "James B. Hoves" (james_b_hoves) does not appear in transcript (./sources/oyez/transcripts/_files/1979/78-630_15993_argument.json)
 warning: case Kaiser Aetna v. United States (https://www.oyez.org/cases/1979/78-738) advocate "Richard Charles Bocken" (richard_charles_bocken) does not appear in transcript (./sources/oyez/transcripts/_files/1979/78-738_23782_argument.json)
-warning: case Kaiser Aetna v. United States (https://www.oyez.org/cases/1979/78-738) advocate "Ms. Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1979/78-738_23782_argument.json)
+warning: case Kaiser Aetna v. United States (https://www.oyez.org/cases/1979/78-738) advocate "Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1979/78-738_23782_argument.json)
 warning: case Andrus v. Allard (https://www.oyez.org/cases/1979/78-740) advocate "Harriet S. Shapiro" (harriet_s_shapiro) does not appear in transcript (./sources/oyez/transcripts/_files/1979/78-740_23910_argument.json)
 warning: case Andrus v. Allard (https://www.oyez.org/cases/1979/78-740) advocate "John P. Akolt, III" (john_p_akolt_iii) does not appear in transcript (./sources/oyez/transcripts/_files/1979/78-740_23910_argument.json)
+warning: case United States v. Crews (https://www.oyez.org/cases/1979/78-777) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1979/78-777_17554_argument.json)
 warning: case Industrial Union Department, AFL-CIO v. American Petroleum Institute (https://www.oyez.org/cases/1979/78-911) advocate "William Alsup" (william_alsup) does not appear in transcript (./sources/oyez/transcripts/_files/1979/78-911_16024_argument.json)
 warning: case Rush v. Savchuk (https://www.oyez.org/cases/1979/78-952) advocate "Edward H. Borkon" (edward_h_borkon) does not appear in transcript (./sources/oyez/transcripts/_files/1979/78-952_17008_argument.json)
+warning: case United States v. Henry (https://www.oyez.org/cases/1979/79-121) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1979/79-121_17296_argument.json)
 warning: case Richmond Newspapers Inc. v. Virginia (https://www.oyez.org/cases/1979/79-243) advocate "Marshall Coleman" (marshall_coleman) does not appear in transcript (./sources/oyez/transcripts/_files/1979/79-243_16841_argument.json)
 warning: case PruneYard Shopping Center v. Robins (https://www.oyez.org/cases/1979/79-289) advocate "Elinor Hadley Stillman" (elinor_h_stillman) does not appear in transcript (./sources/oyez/transcripts/_files/1979/79-289_17783_argument.json)
+warning: case United States v. Havens (https://www.oyez.org/cases/1979/79-305) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1979/79-305_16764_argument.json)
 warning: case Navarro Savings Assn. v. Lee (https://www.oyez.org/cases/1979/79-465) advocate "Bernus William Fischman" (bernus_william_fischman) does not appear in transcript (./sources/oyez/transcripts/_files/1979/79-465_15828_argument.json)
 warning: case Gomez v. Toledo (https://www.oyez.org/cases/1979/79-5601) advocate "Federico A. Cedo-Alzamora" (federico_a_cedo-alzamora) does not appear in transcript (./sources/oyez/transcripts/_files/1979/79-5601_17527_argument.json)
 warning: case Walter v. United States (https://www.oyez.org/cases/1979/79-67) advocate "W. Michael Maylock" (w_michael_maylock) does not appear in transcript (./sources/oyez/transcripts/_files/1979/79-67_16578_argument.json)
@@ -4586,7 +4643,9 @@ warning: advocate ID 'ronald_eastman2' has name "Ronald D. Eastman" similar to "
 warning: case Democratic Party of United States v. Wisconsin ex rel. La Follette (https://www.oyez.org/cases/1980/79-1631) advocate "Bronson C. Lafollette" (bronson_c_lafollette) does not appear in transcript (./sources/oyez/transcripts/_files/1980/79-1631_19137_argument.json)
 warning: case Middlesex County Sewerage Authority v. National Sea Clammers Association (https://www.oyez.org/cases/1980/79-1711) advocate "These Acts" (these_acts) does not appear in transcript (./sources/oyez/transcripts/_files/1980/79-1711_19398_argument.json)
 warning: case Texas Department of Community Affairs v. Burdine (https://www.oyez.org/cases/1980/79-1764) advocate "Hubert L. Gil" (hubert_l_gil) does not appear in transcript (./sources/oyez/transcripts/_files/1980/79-1764_19663_argument.json)
+warning: case United States v. DiFrancesco (https://www.oyez.org/cases/1980/79-567) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1980/79-567_18306_argument.json)
 warning: advocate ID 'john_young2' has name "John Richard Young" similar to "John Hardin Young"
+warning: case Steagald v. United States (https://www.oyez.org/cases/1980/79-6777) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1980/79-6777_18805_argument.json)
 warning: case Delta Air Lines, Inc. v. August (https://www.oyez.org/cases/1980/79-814) advocate "Elinor Hadley Stillman" (elinor_h_stillman) does not appear in transcript (./sources/oyez/transcripts/_files/1980/79-814_18350_argument.json)
 warning: advocate ID 'richard_turner2' has name "Richard W. Turner" similar to "Richard C. Turner"
 warning: case Potomac Elec. Power Co. v. Director, Office of Workers' Compensation Programs (https://www.oyez.org/cases/1980/79-816) advocate "Elinor Hadley Stillman" (elinor_h_stillman) does not appear in transcript (./sources/oyez/transcripts/_files/1980/79-816_19430_argument.json)
@@ -4598,10 +4657,11 @@ warning: advocate ID 'john_cooney2' has name "John R. Cooney" similar to "John F
 warning: case St. Martin Evangelical Lutheran Church v. South Dakota (https://www.oyez.org/cases/1980/80-120) advocate "E. Thomas Schilling" (e_thomas_schilling) does not appear in transcript (./sources/oyez/transcripts/_files/1980/80-120_18859_argument.json)
 warning: case Robbins v. California (https://www.oyez.org/cases/1980/80-148) advocate "Marshall Warren Krause" (marshall_w_krause) does not appear in transcript (./sources/oyez/transcripts/_files/1980/80-148_18757_argument.json)
 warning: case Robbins v. California (https://www.oyez.org/cases/1980/80-148) advocate "Ronald E. Niver" (ronald_e_niver) does not appear in transcript (./sources/oyez/transcripts/_files/1980/80-148_18757_argument.json)
-warning: case Robbins v. California (https://www.oyez.org/cases/1980/80-148) advocate "Mr. Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1980/80-148_18757_argument.json)
+warning: case Robbins v. California (https://www.oyez.org/cases/1980/80-148) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1980/80-148_18757_argument.json)
 warning: case McDaniel v. Sanchez (https://www.oyez.org/cases/1980/80-180) advocate "Robert J. Parmley" (robert_j_parmley) does not appear in transcript (./sources/oyez/transcripts/_files/1980/80-180_18176_argument.json)
 warning: advocate ID 'robert_parmley2' has name "Robert J. Parmley" similar to "Robert G. Parmley"
 warning: case Hodel v. Indiana (https://www.oyez.org/cases/1980/80-231) advocate "G. Daniel Kelley, Jr." (g_daniel_kelley_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1980/80-231_18396_argument.json)
+warning: case New York v. Belton (https://www.oyez.org/cases/1980/80-328) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1980/80-328_19702_argument.json)
 warning: case Gulf Oil Company v. Bernard (https://www.oyez.org/cases/1980/80-441) advocate "William G. Duck" (william_g_duck) does not appear in transcript (./sources/oyez/transcripts/_files/1980/80-441_18826_argument.json)
 warning: case Gulf Oil Company v. Bernard (https://www.oyez.org/cases/1980/80-441) advocate "Jack Greenberg" (jack_greenberg) does not appear in transcript (./sources/oyez/transcripts/_files/1980/80-441_18826_argument.json)
 warning: case Gulf Oil Company v. Bernard (https://www.oyez.org/cases/1980/80-441) advocate "Lawrence G. Wallace" (lawrence_g_wallace) does not appear in transcript (./sources/oyez/transcripts/_files/1980/80-441_18826_argument.json)
@@ -4625,6 +4685,7 @@ warning: case Rice v. Norman Williams Company (https://www.oyez.org/cases/1981/8
 warning: case Rice v. Norman Williams Company (https://www.oyez.org/cases/1981/80-1012) advocate "George G. Weickhardt" (george_g_weickhardt) does not appear in transcript (./sources/oyez/transcripts/_files/1981/80-1012_23834_argument.json)
 warning: advocate ID 'charles_blackmar2' has name "Charles B. Blackmar" similar to "Charles A. Blackmar"
 warning: case Army & Air Force Exchange Service v. Sheehan (https://www.oyez.org/cases/1981/80-1437) advocate "Samuel A. Alito, Jr." (samuel_a_alito_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1981/80-1437_19068_argument.json)
+warning: case United States v. Frady (https://www.oyez.org/cases/1981/80-1595) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1981/80-1595_18397_argument.json)
 ENOENT: no such file or directory, open './sources/oyez/transcripts/_files/1981/80-1608_23897_argument.json'
 warning: unable to parse JSON file: ./sources/oyez/transcripts/_files/1981/80-1608_23897_argument.json
 warning: case United States v. Johnson (https://www.oyez.org/cases/1981/80-1608) advocate "Elliott Schulder" (elliott_schulder) does not appear in transcript (./sources/oyez/transcripts/_files/1981/80-1608_23897_argument.json)
@@ -4646,11 +4707,13 @@ warning: case Finnegan v. Leu (https://www.oyez.org/cases/1981/80-2150) advocate
 warning: case Ramah Navajo School Bd., Inc. v. Bureau of Revenue of N. M. (https://www.oyez.org/cases/1981/80-2162) advocate "Louis F. Claiborne" (louis_f_claiborne) does not appear in transcript (undefined)
 warning: case Ramah Navajo School Bd., Inc. v. Bureau of Revenue of N. M. (https://www.oyez.org/cases/1981/80-2162) advocate "Jan Unna" (jan_unna) does not appear in transcript (undefined)
 warning: case Ramah Navajo School Bd., Inc. v. Bureau of Revenue of N. M. (https://www.oyez.org/cases/1981/80-2162) advocate "Michael P. Gross" (michael_p_gross) does not appear in transcript (undefined)
+warning: case United States v. Goodwin (https://www.oyez.org/cases/1981/80-2195) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1981/80-2195_18976_argument.json)
 ENOENT: no such file or directory, open './sources/oyez/transcripts/_files/1981/80-2204_23898_argument.json'
 warning: unable to parse JSON file: ./sources/oyez/transcripts/_files/1981/80-2204_23898_argument.json
 warning: case Diedrich v. Commissioner (https://www.oyez.org/cases/1981/80-2204) advocate "Norman E. Beal" (norman_e_beal) does not appear in transcript (./sources/oyez/transcripts/_files/1981/80-2204_23898_argument.json)
 warning: case Diedrich v. Commissioner (https://www.oyez.org/cases/1981/80-2204) advocate "Stuart A. Smith" (stuart_a_smith) does not appear in transcript (./sources/oyez/transcripts/_files/1981/80-2204_23898_argument.json)
 warning: case Diedrich v. Commissioner (https://www.oyez.org/cases/1981/80-2204) advocate "Grant" (grant) does not appear in transcript (./sources/oyez/transcripts/_files/1981/80-2204_23898_argument.json)
+warning: case United States v. Ross (https://www.oyez.org/cases/1981/80-2209) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1981/80-2209_19034_argument.json)
 warning: case U.S. Industries/Federal Sheet Metal, Inc. v. Director, Office of Workers' Compensation Programs (https://www.oyez.org/cases/1981/80-518) advocate "Richard W. Galiher, Jr." (richard_w_galiher_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1981/80-518_18113_argument.json)
 warning: case U.S. Industries/Federal Sheet Metal, Inc. v. Director, Office of Workers' Compensation Programs (https://www.oyez.org/cases/1981/80-518) advocate "James F. Green" (james_f_green) does not appear in transcript (./sources/oyez/transcripts/_files/1981/80-518_18113_argument.json)
 warning: case Logan v. Zimmerman Brush Company (https://www.oyez.org/cases/1981/80-5950) advocate "Jay A. Canel" (jay_a_canel) does not appear in transcript (./sources/oyez/transcripts/_files/1981/80-5950_23815_argument.json)
@@ -4674,7 +4737,9 @@ warning: case Blum v. Bacon (https://www.oyez.org/cases/1981/81-770) advocate "M
 warning: case Blum v. Bacon (https://www.oyez.org/cases/1981/81-770) advocate "Robert S. Hammer" (robert_s_hammer) does not appear in transcript (undefined)
 warning: case Washington v. Seattle School District No. 1 (https://www.oyez.org/cases/1981/81-9) advocate "Kenneth O. Eikenberry" (kenneth_o_eikenberry) does not appear in transcript (./sources/oyez/transcripts/_files/1981/81-9_19664_argument.json)
 warning: case Washington v. Seattle School District No. 1 (https://www.oyez.org/cases/1981/81-9) advocate "Michael W. Hoge" (michael_w_hoge) does not appear in transcript (./sources/oyez/transcripts/_files/1981/81-9_19664_argument.json)
+warning: case Florida v. Royer (https://www.oyez.org/cases/1982/80-2146) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1982/80-2146_18756_argument.json)
 warning: advocate ID 'robert_welborn2' has name "Robert F. Welborn" similar to "Robert R. Welborn"
+warning: case United States v. $8,850 in Currency (https://www.oyez.org/cases/1982/81-1062) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1982/81-1062_19055_argument.json)
 warning: case United States v. Rylander (https://www.oyez.org/cases/1982/81-1120) advocate "Joseph F. Harbison, III" (joseph_f_harbison_iii) does not appear in transcript (./sources/oyez/transcripts/_files/1982/81-1120_19267_argument.json)
 warning: advocate ID 'joseph_harbison2' has name "Joseph F. Harbison, III" similar to "Joseph H. Harbison, III"
 warning: case Smith v. Wade (https://www.oyez.org/cases/1982/81-1196) advocate "Robert Presson" (robert_presson) does not appear in transcript (./sources/oyez/transcripts/_files/1982/81-1196_19249_argument.json)
@@ -4685,6 +4750,7 @@ warning: case Shaw v. Delta Air Lines, Inc. (https://www.oyez.org/cases/1982/81-
 warning: case Kush v. Rutledge (https://www.oyez.org/cases/1982/81-1675) advocate "Michael J. Gallagher" (michael_j_gallagher) does not appear in transcript (./sources/oyez/transcripts/_files/1982/81-1675_19537_argument.json)
 warning: advocate ID 'michael_gallagher2' has name "Michael L. Gallagher" similar to "Michael J. Gallagher"
 warning: case Jones v. Barnes (https://www.oyez.org/cases/1982/81-1794) advocate "Barbara D. Underwood" (barbara_d_underwood) does not appear in transcript (./sources/oyez/transcripts/_files/1982/81-1794_18250_argument.json)
+warning: case United States v. Knotts (https://www.oyez.org/cases/1982/81-1802) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1982/81-1802_19476_argument.json)
 warning: case Pacific Gas & Electric Company v. State Energy Resources Conservation and Development Commission (https://www.oyez.org/cases/1982/81-1945) advocate "John R. McDonough" (john_r_mcdonough) does not appear in transcript (./sources/oyez/transcripts/_files/1982/81-1945_19320_argument.json)
 warning: case Belknap, Inc. v. Hale (https://www.oyez.org/cases/1982/81-1966) advocate "Samuel A. Alito, Jr." (samuel_a_alito_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1982/81-1966_18009_argument.json)
 warning: advocate ID 'simon_rifkind2' has name "Simon K. Rifkind" similar to "Simon H. Rifkind"
@@ -4706,6 +4772,7 @@ ENOENT: no such file or directory, open './sources/oyez/transcripts/_files/1982/
 warning: unable to parse JSON file: ./sources/oyez/transcripts/_files/1982/81-89_23900_argument.json
 warning: case Zant v. Stephens (https://www.oyez.org/cases/1982/81-89) advocate "Daryl A. Robinson" (daryl_a_robinson) does not appear in transcript (./sources/oyez/transcripts/_files/1982/81-89_23900_argument.json)
 warning: case Zant v. Stephens (https://www.oyez.org/cases/1982/81-89) advocate "John Charles Boger" (john_charles_boger) does not appear in transcript (./sources/oyez/transcripts/_files/1982/81-89_23900_argument.json)
+warning: case Ruckelshause v. Sierra Club (https://www.oyez.org/cases/1982/82-242) advocate "Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1982/82-242_19409_argument.json)
 warning: case Chardon v. Fumero Soto (https://www.oyez.org/cases/1982/82-271) advocate "John DeGooyer" (john_degooyer) does not appear in transcript (./sources/oyez/transcripts/_files/1982/82-271_18138_argument.json)
 warning: advocate ID 'james_murray2' has name "James C. Murray, Jr." similar to "James A. Murray"
 warning: advocate ID 'james_fitzpatrick2' has name "James F. Fitzpatrick" similar to "James J. Fitzpatrick"
@@ -4713,6 +4780,7 @@ warning: case United States v. Jacobsen (https://www.oyez.org/cases/1983/82-1167
 warning: case Lynch v. Donnelly (https://www.oyez.org/cases/1983/82-1256) advocate "William F. McMahon" (william_f_mcmahon) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1256_19455_argument.json)
 warning: case Lynch v. Donnelly (https://www.oyez.org/cases/1983/82-1256) advocate "Amato A. DeLuca" (amato_a_deluca) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1256_19455_argument.json)
 warning: case Copperweld Corporation v. Independence Tube Corporation (https://www.oyez.org/cases/1983/82-1260) advocate "The Clerk" (the_clerk) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1260_18002_argument.json)
+warning: case Immigration and Naturalization Service v. Delgado (https://www.oyez.org/cases/1983/82-1271) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1271_19675_argument.json)
 warning: case Heckler v. Day (https://www.oyez.org/cases/1983/82-1371) advocate "Paul McGrath" (paul_mcgrath) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1371_18983_argument.json)
 warning: case Heckler v. Day (https://www.oyez.org/cases/1983/82-1371) advocate "J. Paul McGrath" (j_paul_mcgrath) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1371_18983_argument.json)
 warning: case Justices of Boston Municipal Court v. Lydon (https://www.oyez.org/cases/1983/82-1479) advocate "Barbara A. H. Smith" (barbara_a_h_smith) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1479_18512_argument.json)
@@ -4720,8 +4788,10 @@ warning: case Justices of Boston Municipal Court v. Lydon (https://www.oyez.org/
 warning: case Strickland v. Washington (https://www.oyez.org/cases/1983/82-1554) advocate "Calvin L. Fox" (calvin_l_fox) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1554_19659_argument.json)
 warning: advocate ID 'james_white2' has name "James A. White" similar to "James Lawrence White"
 warning: case South-Central Timber Development, Inc. v. Wunnicke (https://www.oyez.org/cases/1983/82-1608) advocate "Kathryn A. Obery" (kathryn_a_obery) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1608_19302_argument.json)
+warning: case South-Central Timber Development, Inc. v. Wunnicke (https://www.oyez.org/cases/1983/82-1608) advocate "Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1608_19302_argument.json)
 warning: case United States v. Weber Aircraft Corporation (https://www.oyez.org/cases/1983/82-1616) advocate "Samuel A. Alito, Jr." (samuel_a_alito_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1616_17966_argument.json)
 warning: case Interstate Commerce Commission v. American Trucking Associations, Inc. (https://www.oyez.org/cases/1983/82-1643) advocate "Patrick McEligot" (patrick_mceligot) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1643_19358_argument.json)
+warning: case Nix v. Williams (https://www.oyez.org/cases/1983/82-1651) advocate "Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1651_18442_argument.json)
 warning: case Capital Cities Cable, Inc. v. Crisp (https://www.oyez.org/cases/1983/82-1795) advocate "Michael W. McConnell" (michael_w_mcconnell) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1795_18456_argument.json)
 warning: case Capital Cities Cable, Inc. v. Crisp (https://www.oyez.org/cases/1983/82-1795) advocate "Robert L. McDonald" (robert_l_mcdonald) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-1795_18456_argument.json)
 warning: advocate ID 'robert_mcdonald2' has name "Robert L. McDonald" similar to "Robert E. McDonald, Jr."
@@ -4734,7 +4804,10 @@ warning: case Westinghouse Electric Corp. v. Vaughn (https://www.oyez.org/cases/
 warning: advocate ID 'james_moore3' has name "James L. Moore" similar to "James O. Moore, Jr."
 warning: case Hobby v. United States (https://www.oyez.org/cases/1983/82-2140) advocate "Daniel R. Pollitt" (daniel_r_pollitt) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-2140_19589_argument.json)
 warning: advocate ID 'daniel_pollitt2' has name "Daniel R. Pollitt" similar to "Daniel H. Pollitt"
+warning: case Flanagan v. United States (https://www.oyez.org/cases/1983/82-374) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-374_19637_argument.json)
 warning: case Russello v. United States (https://www.oyez.org/cases/1983/82-472) advocate "Samuel A. Alito, Jr." (samuel_a_alito_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-472_18020_argument.json)
+warning: case Segura v. United States (https://www.oyez.org/cases/1983/82-5298) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-5298_19709_argument.json)
+warning: case Kosak v. United States (https://www.oyez.org/cases/1983/82-618) advocate "Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-618_19513_argument.json)
 warning: case Regan v. Time, Inc. (https://www.oyez.org/cases/1983/82-729) advocate "Stuart M. Goll" (stuart_m_goll) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-729_18421_argument.json)
 warning: case Regan v. Time, Inc. (https://www.oyez.org/cases/1983/82-729) advocate "Stuart W. Gold" (stuart_w_gold) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-729_18421_argument.json)
 warning: advocate ID 'stuart_gold2' has name "Stuart W. Gold" similar to "Stuart M Gold"
@@ -4743,6 +4816,7 @@ warning: case Bureau of Alcohol, Tobacco and Firearms v. Federal Labor Relations
 warning: case Federal Communications Commission v. League of Women Voters of California (https://www.oyez.org/cases/1983/82-912) advocate "Samuel A. Alito, Jr." (samuel_a_alito_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-912_19696_argument.json)
 warning: case Federal Communications Commission v. League of Women Voters of California (https://www.oyez.org/cases/1983/82-912) advocate "Fredric D. Woocher" (fredric_d_woocher) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-912_19696_argument.json)
 warning: case Hishon v. King & Spalding (https://www.oyez.org/cases/1983/82-940) advocate "Emmet J. Bondurant, II" (emmet_j_bondurant_ii) does not appear in transcript (./sources/oyez/transcripts/_files/1983/82-940_18824_argument.json)
+warning: case United States v. Gouveia (https://www.oyez.org/cases/1983/83-128) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1983/83-128_18470_argument.json)
 warning: case Wasman v. United States (https://www.oyez.org/cases/1983/83-173) advocate "Jay R. Moscowitz" (jay_r_moscowitz) does not appear in transcript (./sources/oyez/transcripts/_files/1983/83-173_19387_argument.json)
 warning: case Cooper v. Federal Reserve Bank of Richmond (https://www.oyez.org/cases/1983/83-185) advocate "Eric Schnapper" (eric_schnapper) does not appear in transcript (./sources/oyez/transcripts/_files/1983/83-185_23872_argument.json)
 warning: case Cooper v. Federal Reserve Bank of Richmond (https://www.oyez.org/cases/1983/83-185) advocate "Harriet S. Shapiro" (harriet_s_shapiro) does not appear in transcript (./sources/oyez/transcripts/_files/1983/83-185_23872_argument.json)
@@ -4759,8 +4833,11 @@ warning: case California v. Trombetta (https://www.oyez.org/cases/1983/83-305) a
 warning: case California v. Trombetta (https://www.oyez.org/cases/1983/83-305) advocate "Lisa Short" (lisa_short) does not appear in transcript (./sources/oyez/transcripts/_files/1983/83-305_19535_argument.json)
 warning: advocate ID 'john_clark2' has name "John Steven Clark" similar to "John B. Clark"
 warning: case United States v. Yermian (https://www.oyez.org/cases/1983/83-346) advocate "Carolyn F. Corwin" (carolyn_f_corwin) does not appear in transcript (./sources/oyez/transcripts/_files/1983/83-346_18751_argument.json)
+warning: case Block v. Community Nutrition Institute (https://www.oyez.org/cases/1983/83-458) advocate "Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1983/83-458_18488_argument.json)
+warning: case INS v. Lopez-Mendoza (https://www.oyez.org/cases/1983/83-491) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1983/83-491_19141_argument.json)
 warning: case New Jersey v. T.L.O. (https://www.oyez.org/cases/1983/83-712) advocate "Lois De Julio" (lois_de_julio) does not appear in transcript (./sources/oyez/transcripts/_files/1983/83-712_23720_argument.json)
 warning: case United States v. Lorenzetti (https://www.oyez.org/cases/1983/83-838) advocate "Carolyn F. Corwin" (carolyn_f_corwin) does not appear in transcript (./sources/oyez/transcripts/_files/1983/83-838_18159_argument.json)
+warning: case United States v. Karo (https://www.oyez.org/cases/1983/83-850) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1983/83-850_18670_argument.json)
 warning: case United States v. Karo (https://www.oyez.org/cases/1983/83-850) advocate "Charles P. Roberts, III" (charles_p_roberts_iii) does not appear in transcript (./sources/oyez/transcripts/_files/1983/83-850_18670_argument.json)
 warning: advocate ID 'charles_roberts2' has name "Charles Louis Roberts" similar to "Charles P. Roberts, III"
 warning: case Board of Ed. of Paris Union School Dist. No. 95 v. Vail (https://www.oyez.org/cases/1983/83-87) advocate "Thomas J. Miller" (thomas_j_miller) does not appear in transcript (./sources/oyez/transcripts/_files/1983/83-87_18593_argument.json)
@@ -4773,6 +4850,7 @@ warning: case Shea v. Louisiana (https://www.oyez.org/cases/1984/82-5920) advoca
 warning: case Shea v. Louisiana (https://www.oyez.org/cases/1984/82-5920) advocate "Frances Baker Jack" (frances_baker_jack) does not appear in transcript (./sources/oyez/transcripts/_files/1984/82-5920_18840_argument.json)
 warning: case Shea v. Louisiana (https://www.oyez.org/cases/1984/82-5920) advocate "Paul Joseph Carmouche" (paul_joseph_carmouche) does not appear in transcript (./sources/oyez/transcripts/_files/1984/82-5920_18840_argument.json)
 warning: case Chemical Manufacturers Association v. Natural Resources Defense Council, Inc. (https://www.oyez.org/cases/1984/83-1013) advocate "Samuel A. Alito, Jr." (samuel_a_alito_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1013_19365_argument.json)
+warning: case Ohio v. Kovacs (https://www.oyez.org/cases/1984/83-1020) advocate "Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1020_19529_argument.json)
 warning: case Tennessee v. Garner (https://www.oyez.org/cases/1984/83-1035) advocate "W. J. Michael Cody" (w_j_michael_cody) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1035_18124_argument.json)
 warning: case Tennessee v. Garner (https://www.oyez.org/cases/1984/83-1035) advocate "Henry L. Klein" (henry_l_klein) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1035_18124_argument.json)
 warning: advocate ID 'henry_klein2' has name "Henry L. Klein" similar to "Henry I. Klein"
@@ -4781,6 +4859,7 @@ warning: case Estate of Thornton v. Caldor, Inc. (https://www.oyez.org/cases/198
 warning: case Estate of Thornton v. Caldor, Inc. (https://www.oyez.org/cases/1984/83-1158) advocate "Nathan Lewin" (nathan_lewin) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1158_18480_argument.json)
 warning: case Estate of Thornton v. Caldor, Inc. (https://www.oyez.org/cases/1984/83-1158) advocate "Joseph I. Lieberman" (joseph_i_lieberman) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1158_18480_argument.json)
 warning: case Estate of Thornton v. Caldor, Inc. (https://www.oyez.org/cases/1984/83-1158) advocate "Paul Gewirtz" (paul_gewirtz) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1158_18480_argument.json)
+warning: case United States v. Hensley (https://www.oyez.org/cases/1984/83-1330) advocate "Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1330_18399_argument.json)
 warning: case Supreme Court of New Hampshire v. Piper (https://www.oyez.org/cases/1984/83-1466) advocate "Martin L. Gross" (martin_l_gross) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1466_19613_argument.json)
 warning: advocate ID 'john_oconnell3' has name "John D. O'Connell" similar to "John J. O'Connell"
 warning: case United States v. Dann (https://www.oyez.org/cases/1984/83-1476) advocate "Robert A. McConnell" (robert_a_mcconnell) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1476_18443_argument.json)
@@ -4795,6 +4874,7 @@ warning: case Brandon v. Holt (https://www.oyez.org/cases/1984/83-1622) advocate
 warning: case United States v. Albertini (https://www.oyez.org/cases/1984/83-1624) advocate "Charles S. Sims" (charles_s_sims) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1624_18256_argument.json)
 warning: case United States v. Albertini (https://www.oyez.org/cases/1984/83-1624) advocate "David A. Strauss" (david_a_strauss) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1624_18256_argument.json)
 warning: case Atkins v. Parker (https://www.oyez.org/cases/1984/83-1660) advocate "Samuel A. Alito, Jr." (samuel_a_alito_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1660_19626_argument.json)
+warning: case United States v. Miller (https://www.oyez.org/cases/1984/83-1750) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1750_18136_argument.json)
 warning: case United States v. Miller (https://www.oyez.org/cases/1984/83-1750) advocate "Andrew L.Frey" (andrew_lfrey) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1750_18136_argument.json)
 warning: case City of Oklahoma City v. Tuttle (https://www.oyez.org/cases/1984/83-1919) advocate "Burck Bailey" (burck_bailey) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1919_19085_argument.json)
 warning: case Hillsborough County, Florida v. Automated Medical Laboratories, Inc. (https://www.oyez.org/cases/1984/83-1925) advocate "Larry A. Stumpf" (larry_a_stumpf) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-1925_18271_argument.json)
@@ -4808,13 +4888,14 @@ warning: case Bennett v. New Jersey (https://www.oyez.org/cases/1984/83-2064) ad
 warning: case Bennett v. New Jersey (https://www.oyez.org/cases/1984/83-2064) advocate "Michael W. McConnell" (michael_w_mcconnell) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-2064_18395_argument.json)
 warning: case Oklahoma v. Castleberry (https://www.oyez.org/cases/1984/83-2126) advocate "David W. Lee" (david_w_lee) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-2126_18886_argument.json)
 warning: case Connecticut Department of Income Maintenance v. Heckler (https://www.oyez.org/cases/1984/83-2136) advocate "Charles A. Miller" (charles_a_miller) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-2136_19611_argument.json)
-warning: case Connecticut Department of Income Maintenance v. Heckler (https://www.oyez.org/cases/1984/83-2136) advocate "Ms. Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-2136_19611_argument.json)
+warning: case Connecticut Department of Income Maintenance v. Heckler (https://www.oyez.org/cases/1984/83-2136) advocate "Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-2136_19611_argument.json)
 warning: case Tennessee v. Street (https://www.oyez.org/cases/1984/83-2143) advocate "Joshua I. Schwartz" (joshua_i_schwartz) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-2143_18612_argument.json)
 warning: case Oregon Department of Fish and Wildlife v. Klamath Indian Tribe (https://www.oyez.org/cases/1984/83-2148) advocate "David B. Frohnmayer" (david_b_frohnmayer) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-2148_19125_argument.json)
 warning: case Zauderer v. Office of Disciplinary Counsel of Supreme Court of Ohio (https://www.oyez.org/cases/1984/83-2166) advocate "Alan B. Morrison" (alan_b_morrison) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-2166_18654_argument.json)
 warning: case Zauderer v. Office of Disciplinary Counsel of Supreme Court of Ohio (https://www.oyez.org/cases/1984/83-2166) advocate "H. Bartow Farr, III" (h_bartow_farr_iii) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-2166_18654_argument.json)
 warning: case United States v. Young (https://www.oyez.org/cases/1984/83-469) advocate "Michael W. Mc Connell" (michael_w_mc_connell) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-469_18185_argument.json)
 warning: case United States v. Young (https://www.oyez.org/cases/1984/83-469) advocate "Michael McConnell" (michael_mcconnell) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-469_18185_argument.json)
+warning: case United States v. Sharpe (https://www.oyez.org/cases/1984/83-529) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-529_18251_argument.json)
 warning: case Ake v. Oklahoma (https://www.oyez.org/cases/1984/83-5424) advocate "Michael C. Turpen" (michael_c_turpen) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-5424_19655_argument.json)
 warning: case Ake v. Oklahoma (https://www.oyez.org/cases/1984/83-5424) advocate "Arthur B. Spitzer" (arthur_b_spitzer) does not appear in transcript (./sources/oyez/transcripts/_files/1984/83-5424_19655_argument.json)
 warning: advocate ID 'charles_white2' has name "Charles G. White" similar to "Charles H. White, Jr."
@@ -4856,7 +4937,7 @@ warning: case Sedima, S.P.R.L. v. Imrex Company, Inc. (https://www.oyez.org/case
 warning: case Sedima, S.P.R.L. v. Imrex Company, Inc. (https://www.oyez.org/cases/1984/84-648) advocate "Franklyn H. Snitow" (franklyn_h_snitow) does not appear in transcript (./sources/oyez/transcripts/_files/1984/84-648_18747_argument.json)
 warning: case Bateman Eichler, Hill Richards, Inc. v. Berner (https://www.oyez.org/cases/1984/84-679) advocate "Bruce M. Kuhlik" (bruce_m_kuhlik) does not appear in transcript (./sources/oyez/transcripts/_files/1984/84-679_19112_argument.json)
 warning: case United States v. Montoya de Hernandez (https://www.oyez.org/cases/1984/84-755) advocate "Peter Marvin Horstman" (peter_marvin_horstman) does not appear in transcript (./sources/oyez/transcripts/_files/1984/84-755_19488_argument.json)
-warning: case United States v. Montoya de Hernandez (https://www.oyez.org/cases/1984/84-755) advocate "Mr. Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1984/84-755_19488_argument.json)
+warning: case United States v. Montoya de Hernandez (https://www.oyez.org/cases/1984/84-755) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1984/84-755_19488_argument.json)
 warning: case Hunter v. Underwood (https://www.oyez.org/cases/1984/84-76) advocate "James D. Ward" (james_d_ward) does not appear in transcript (./sources/oyez/transcripts/_files/1984/84-76_19281_argument.json)
 warning: advocate ID 'james_ward2' has name "James S. Ward" similar to "James D. Ward"
 warning: case Carchman v. Nash (https://www.oyez.org/cases/1984/84-776) advocate "Philip S. Carchman" (philip_s_carchman) does not appear in transcript (./sources/oyez/transcripts/_files/1984/84-776_18035_argument.json)
@@ -4877,6 +4958,7 @@ warning: case National Labor Relations Board v. International Longshoremen's Ass
 warning: case Pacific Gas & Electric Company v. Public Utilities Commission of California (https://www.oyez.org/cases/1985/84-1044) advocate "Robert Q. Harris" (robert_q_harris) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1044_19685_argument.json)
 warning: advocate ID 'robert_harris2' has name "Robert Q. Harris" similar to "Robert J. Harris"
 warning: advocate ID 'robert_harris3' has name "Robert L. Harris" similar to "Robert J. Harris"
+warning: case Goldman v. Weinberger (https://www.oyez.org/cases/1985/84-1097) advocate "Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1097_18061_argument.json)
 warning: case New York v. Class (https://www.oyez.org/cases/1985/84-1181) advocate "Steven R. Kartagener" (steven_r_kartagener) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1181_19399_argument.json)
 warning: advocate ID 'steven_kartagener2' has name "Steven R. Kartagener" similar to "Steven P. Kartagener"
 warning: case Cabana v. Bullock (https://www.oyez.org/cases/1985/84-1236) advocate "Joseph T. McLaughlin" (joseph_t_mclaughlin) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1236_19106_argument.json)
@@ -4889,12 +4971,15 @@ warning: case Kuhlmann v. Wilson (https://www.oyez.org/cases/1985/84-1479) advoc
 warning: case Wainwright v. Greenfield (https://www.oyez.org/cases/1985/84-1480) advocate "Ann Garrison Paschall" (ann_garrison_paschall) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1480_19550_argument.json)
 warning: advocate ID 'ann_paschall2' has name "Ann Garrison Paschall" similar to "Ann Carrison Paschall"
 warning: case Moran v. Burbine (https://www.oyez.org/cases/1985/84-1485) advocate "Robert E. Mann" (robert_e_mann) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1485_19704_argument.json)
+warning: case Moran v. Burbine (https://www.oyez.org/cases/1985/84-1485) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1485_19704_argument.json)
 warning: advocate ID 'robert_mann2' has name "Robert B. Mann" similar to "Robert E. Mann"
 warning: case National Labor Relations Board v. Financial Institution Employees of America, Local 1182, Chartered by United Food & Commercial Workers International Union, AFL-CIO (https://www.oyez.org/cases/1985/84-1493) advocate "Norton J. Come" (norton_j_come) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1493_19018_argument.json)
 warning: case Bowen v. American Hosp. Association (https://www.oyez.org/cases/1985/84-1529) advocate "Richard A. Epstein" (richard_a_epstein) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1529_18049_argument.json)
 warning: advocate ID 'richard_epstein2' has name "Richard L. Epstein" similar to "Richard A. Epstein"
+warning: case Murray v. Carrier (https://www.oyez.org/cases/1985/84-1554) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1554_18183_argument.json)
 warning: case Connolly v. Pension Benefit Guaranty Corp. (https://www.oyez.org/cases/1985/84-1555) advocate "Richard M. Freemann" (richard_m_freemann) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1555_18556_argument.json)
 warning: case United States v. Inadi (https://www.oyez.org/cases/1985/84-1580) advocate "Holly Macuican" (holly_macuican) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1580_19079_argument.json)
+warning: case United States v. Inadi (https://www.oyez.org/cases/1985/84-1580) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1580_19079_argument.json)
 warning: case East River Steamship Corporation v. Transamerica Delaval Inc. (https://www.oyez.org/cases/1985/84-1726) advocate "Robert Eugene Smith" (robert_eugene_smith) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1726_18235_argument.json)
 warning: case Henderson v. United States (https://www.oyez.org/cases/1985/84-1744) advocate "Roger Clegg" (roger_clegg) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1744_23854_argument.json)
 warning: case Henderson v. United States (https://www.oyez.org/cases/1985/84-1744) advocate "Denise Anton" (denise_anton) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-1744_23854_argument.json)
@@ -4906,7 +4991,7 @@ warning: case MacDonald, Sommer & Frates v. County of Yolo (https://www.oyez.org
 warning: case MacDonald, Sommer & Frates v. County of Yolo (https://www.oyez.org/cases/1985/84-2015) advocate "William L. Owen" (william_l_owen) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-2015_23842_argument.json)
 warning: case Daniels v. Williams (https://www.oyez.org/cases/1985/84-5872) advocate "Stephen Allan Saltzbug" (stephen_allan_saltzbug) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-5872_19136_argument.json)
 warning: case Lee v. Illinois (https://www.oyez.org/cases/1985/84-6807) advocate "Jill Wine-Banks" (jill_wine-banks) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-6807_18247_argument.json)
-warning: case United States v. Riverside Bayview Homes, Inc. (https://www.oyez.org/cases/1985/84-701) advocate "Ms. Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-701_19532_argument.json)
+warning: case United States v. Riverside Bayview Homes, Inc. (https://www.oyez.org/cases/1985/84-701) advocate "Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-701_19532_argument.json)
 warning: case United States v. Lane (https://www.oyez.org/cases/1985/84-744) advocate "Bruce M. Kuhlik" (bruce_m_kuhlik) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-744_18368_argument.json)
 warning: case Bender v. Williamsport Area School District (https://www.oyez.org/cases/1985/84-773) advocate "James M. Smart, Jr." (james_m_smart_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-773_19438_argument.json)
 warning: case Midlantic National Bank v. New Jersey Department of Environmental Protection (https://www.oyez.org/cases/1985/84-801) advocate "William F. McEnroe" (william_f_mcenroe) does not appear in transcript (./sources/oyez/transcripts/_files/1985/84-801_18833_argument.json)
@@ -4920,6 +5005,7 @@ warning: case Celotex Corporation v. Catrett (https://www.oyez.org/cases/1985/85
 warning: case Celotex Corporation v. Catrett (https://www.oyez.org/cases/1985/85-198) advocate "Paul M. Smith" (paul_m_smith) does not appear in transcript (./sources/oyez/transcripts/_files/1985/85-198_23879_argument.json)
 warning: advocate ID 'paul_smith2' has name "Paul M. Smith" similar to "Paul T. Smith"
 warning: case Celotex Corporation v. Catrett (https://www.oyez.org/cases/1985/85-198) advocate "Paul March Smith" (paul_march_smith) does not appear in transcript (./sources/oyez/transcripts/_files/1985/85-198_23879_argument.json)
+warning: case Smalis v. Pennsylvania (https://www.oyez.org/cases/1985/85-227) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1985/85-227_19145_argument.json)
 warning: case United States Department of Transportation v. Paralyzed Veterans of America (https://www.oyez.org/cases/1985/85-289) advocate "Douglas L. Parker" (douglas_l_parker) does not appear in transcript (./sources/oyez/transcripts/_files/1985/85-289_23860_argument.json)
 warning: case United States Department of Transportation v. Paralyzed Veterans of America (https://www.oyez.org/cases/1985/85-289) advocate "Charles Fried" (charles_fried) does not appear in transcript (./sources/oyez/transcripts/_files/1985/85-289_23860_argument.json)
 warning: case New York v. P. J. Video, Inc. (https://www.oyez.org/cases/1985/85-363) advocate "Paul John Cambara, Jr." (paul_john_cambara_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1985/85-363_19017_argument.json)
@@ -5145,6 +5231,7 @@ warning: case South Carolina v. Baker (https://www.oyez.org/cases/1987/94_orig) 
 warning: case South Carolina v. Baker (https://www.oyez.org/cases/1987/94_orig) has no advocates; found speaker "Lewis B. Kaden" (lewis_b_kaden) in transcript
 warning: case South Carolina v. Baker (https://www.oyez.org/cases/1987/94_orig) has no advocates; found speaker "Charles Fried" (charles_fried) in transcript
 warning: case Chan v. Korean Air Lines, Ltd. (https://www.oyez.org/cases/1988/87-1055) advocate "Gilton G. Sincoff" (gilton_g_sincoff) does not appear in transcript (./sources/oyez/transcripts/_files/1988/87-1055_18906_argument.json)
+warning: case Price Waterhouse v. Hopkins (https://www.oyez.org/cases/1988/87-1167) advocate "Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1988/87-1167_18947_argument.json)
 warning: case United States v. Broce (https://www.oyez.org/cases/1988/87-1190) advocate "Roy T. Englert, Jr." (roy_t_englert) does not appear in transcript (./sources/oyez/transcripts/_files/1988/87-1190_19465_argument.json)
 warning: case United States v. Broce (https://www.oyez.org/cases/1988/87-1190) advocate "Glenn E. Casebeer, II" (glenn_e_casebeer_ii) does not appear in transcript (./sources/oyez/transcripts/_files/1988/87-1190_19465_argument.json)
 warning: case Mesa v. California (https://www.oyez.org/cases/1988/87-1206) advocate "Kenneth Rosenblatt" (kenneth_rosenblatt) does not appear in transcript (./sources/oyez/transcripts/_files/1988/87-1206_23870_argument.json)
@@ -5182,8 +5269,10 @@ warning: case Karahalios v. National Federation of Federal Employees, Local 1263
 warning: case Tompkins v. Texas (https://www.oyez.org/cases/1988/87-6405) advocate "Charles A. Palmer" (charles_a_palmer) does not appear in transcript (./sources/oyez/transcripts/_files/1988/87-6405_23864_argument.json)
 warning: case Tompkins v. Texas (https://www.oyez.org/cases/1988/87-6405) advocate "Emmett B. Lewis, III" (emmett_b_lewis_iii) does not appear in transcript (./sources/oyez/transcripts/_files/1988/87-6405_23864_argument.json)
 warning: case Pittston Coal Group v. Sebben (https://www.oyez.org/cases/1988/87-821) advocate "Paul M. Smith" (paul_m_smith) does not appear in transcript (./sources/oyez/transcripts/_files/1988/87-821_18557_argument.json)
+warning: case Goldberg v. Sweet (https://www.oyez.org/cases/1988/87-826) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1988/87-826_18588_argument.json)
 warning: case Mississippi Choctaw Indian Band v. Holyfield (https://www.oyez.org/cases/1988/87-980) advocate "Edward A. Miller" (edward_a_miller) does not appear in transcript (./sources/oyez/transcripts/_files/1988/87-980_19561_argument.json)
 warning: advocate ID 'edward_miller2' has name "Edward O. Miller" similar to "Edward A. Miller"
+warning: case McKesson Corporation v. Division of Alcoholic Beverages and Tobacco, Department of Business Regulation of Florida (https://www.oyez.org/cases/1988/88-192) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1988/88-192_18324_argument.json)
 ENOENT: no such file or directory, open './sources/oyez/transcripts/_files/1988/88-23_23906_argument.json'
 warning: unable to parse JSON file: ./sources/oyez/transcripts/_files/1988/88-23_23906_argument.json
 warning: case Lauro Lines s.r.l. v. Chasser (https://www.oyez.org/cases/1988/88-23) advocate "Raymond A. Connell" (raymond_a_connell) does not appear in transcript (./sources/oyez/transcripts/_files/1988/88-23_23906_argument.json)
@@ -5191,8 +5280,9 @@ warning: case Lauro Lines s.r.l. v. Chasser (https://www.oyez.org/cases/1988/88-
 warning: case South Carolina v. Gathers (https://www.oyez.org/cases/1988/88-305) advocate "Donald J. Zelenka" (donald_j_zelenka) does not appear in transcript (./sources/oyez/transcripts/_files/1988/88-305_18468_argument.json)
 warning: case South Carolina v. Gathers (https://www.oyez.org/cases/1988/88-305) advocate "Joseph L. Savitz, III" (joseph_l_savitz_iii) does not appear in transcript (./sources/oyez/transcripts/_files/1988/88-305_18468_argument.json)
 warning: case American Trucking Associations, Inc. v. Smith (https://www.oyez.org/cases/1988/88-325) advocate "A. Raymond Randolph Jr." (a_raymond_randolph) does not appear in transcript (./sources/oyez/transcripts/_files/1988/88-325_23914_argument.json)
-warning: case American Trucking Associations, Inc. v. Smith (https://www.oyez.org/cases/1988/88-325) advocate "Mr. Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1988/88-325_23914_argument.json)
+warning: case American Trucking Associations, Inc. v. Smith (https://www.oyez.org/cases/1988/88-325) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1988/88-325_23914_argument.json)
 warning: case Ohio Pub. Employees Retirement System v. Betts (https://www.oyez.org/cases/1988/88-389) advocate "Andrew Ian Sutter" (andrew_ian_sutter) does not appear in transcript (./sources/oyez/transcripts/_files/1988/88-389_18779_argument.json)
+warning: case Browning-Ferris Industries of Vermont, Inc. v. Kelco Disposal, Inc. (https://www.oyez.org/cases/1988/88-556) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1988/88-556_18243_argument.json)
 warning: advocate ID 'andrew_gordon2' has name "Andrew L. Gordon" similar to "Andrew S. Gordon"
 warning: case Franchise Tax Board of California v. Alcan Aluminium, Limited (https://www.oyez.org/cases/1989/88-1400) advocate "Lawrence A. Salibra, II" (lawrence_a_salibra_ii) does not appear in transcript (undefined)
 warning: case Franchise Tax Board of California v. Alcan Aluminium, Limited (https://www.oyez.org/cases/1989/88-1400) advocate "Timothy G. Laddish" (timothy_g_laddish) does not appear in transcript (undefined)
@@ -5204,6 +5294,7 @@ warning: advocate ID 'robert_pierce2' has name "Robert B. Pierce" similar to "Ro
 warning: case United States v. Kokinda (https://www.oyez.org/cases/1989/88-2031) advocate "John G. Roberts, Jr." (john_g_roberts_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1989/88-2031_19058_argument.json)
 warning: case Wilder v. Virginia Hospital Association (https://www.oyez.org/cases/1989/88-2043) advocate "John G. Roberts, Jr." (john_g_roberts_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1989/88-2043_18830_argument.json)
 warning: case Lujan v. National Wildlife Federation (https://www.oyez.org/cases/1989/89-640) advocate "John G. Roberts, Jr." (john_g_roberts_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1989/89-640_19443_argument.json)
+warning: case Metro Broadcasting, Inc. v. Federal Communications Commission (https://www.oyez.org/cases/1989/89-700) advocate "J. Roger Wollenberg" (j_roger_wollenberg) does not appear in transcript (./sources/oyez/transcripts/_files/1989/89-700_18391_argument.json)
 warning: case Grogan v. Garner (https://www.oyez.org/cases/1990/89-1149) advocate "John G. Roberts, Jr." (john_g_roberts_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1990/89-1149_20176_argument.json)
 warning: case United States v. Centennial Savings Bank FSB (https://www.oyez.org/cases/1990/89-1926) advocate "John G. Roberts, Jr." (john_g_roberts_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1990/89-1926_20369_argument.json)
 warning: case Cottage Savings Association v. Commissioner of Internal Revenue (https://www.oyez.org/cases/1990/89-1965) advocate "John G. Roberts, Jr." (john_g_roberts_jr) does not appear in transcript (./sources/oyez/transcripts/_files/1990/89-1965_20494_argument.json)
@@ -5244,6 +5335,7 @@ warning: case South Dakota v. Bourland (https://www.oyez.org/cases/1992/91-2051)
 warning: case Richmond v. Lewis (https://www.oyez.org/cases/1992/91-7094) advocate "Paul Joseph McMurdie" (paul_joseph_mcmurdie) does not appear in transcript (./sources/oyez/transcripts/_files/1992/91-7094_23823_argument.json)
 warning: case Richmond v. Lewis (https://www.oyez.org/cases/1992/91-7094) advocate "Timothy K. Ford" (timothy_k_ford) does not appear in transcript (./sources/oyez/transcripts/_files/1992/91-7094_23823_argument.json)
 warning: case Nixon v. United States (https://www.oyez.org/cases/1992/91-740) advocate "David O. Stewart" (david_o_stewart) does not appear in transcript (./sources/oyez/transcripts/_files/1992/91-740_20583_argument.json)
+warning: case Reves v. Ernst & Young (https://www.oyez.org/cases/1992/91-886) advocate "Kathryn A. Oberly" (kathryn_a_oberly) does not appear in transcript (./sources/oyez/transcripts/_files/1992/91-886_20542_argument.json)
 warning: case Concrete Pipe and Products of California, Inc. v. Construction Laborers Pension Trust for Southern California (https://www.oyez.org/cases/1992/91-904) advocate "Carol C. Flowe" (carol_c_flowe) does not appear in transcript (./sources/oyez/transcripts/_files/1992/91-904_21239_argument.json)
 warning: case Reno v. Flores (https://www.oyez.org/cases/1992/91-905) advocate "Maureen E. Mahoney" (maureen_e_mahoney) does not appear in transcript (./sources/oyez/transcripts/_files/1992/91-905_23812_argument.json)
 warning: case Reno v. Flores (https://www.oyez.org/cases/1992/91-905) advocate "Carlos Holguin" (carlos_holguin) does not appear in transcript (./sources/oyez/transcripts/_files/1992/91-905_23812_argument.json)
@@ -5347,6 +5439,7 @@ warning: case Department of Revenue of Montana v. Kurth Ranch (https://www.oyez.
 warning: case Beecham v. United States (https://www.oyez.org/cases/1993/93-445) advocate "Edward C. DuMont" (edward_c_dumont) does not appear in transcript (undefined)
 warning: case Beecham v. United States (https://www.oyez.org/cases/1993/93-445) advocate "Nathan Lewin" (nathan_lewin) does not appear in transcript (undefined)
 warning: advocate ID 'david_smith3' has name "David B. Smith" similar to "David A. Smith"
+warning: case Honda Motor Company, Ltd. v. Oberg (https://www.oyez.org/cases/1993/93-644) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1993/93-644_20349_argument.json)
 warning: case Oregon Waste Systems, Inc. v. Oregon Department of Environmental Quality (https://www.oyez.org/cases/1993/93-70) advocate "Andrew J. Pincus" (andrew_j_pincus) does not appear in transcript (undefined)
 warning: case Oregon Waste Systems, Inc. v. Oregon Department of Environmental Quality (https://www.oyez.org/cases/1993/93-70) advocate "Thomas A. Balmer" (thomas_a_balmer) does not appear in transcript (undefined)
 warning: case Plaut v. Spendthrift Farm, Inc. (https://www.oyez.org/cases/1994/93-1121) advocate "William W. Allen" (william_w_allen) does not appear in transcript (./sources/oyez/transcripts/_files/1994/93-1121_20770_argument.json)
@@ -5397,6 +5490,7 @@ warning: case Barnett Bank of Marion County, N.A. v. Nelson (https://www.oyez.or
 warning: case Robinson v. United States (https://www.oyez.org/cases/1995/94-7448) advocate "Alan E. Untereiner" (alan_e_untereiner) does not appear in transcript (./sources/oyez/transcripts/_files/1995/94-7448_20303_argument.json)
 warning: case Robinson v. United States (https://www.oyez.org/cases/1995/94-7448) advocate "Michael Dreeben" (michael_dreeben) does not appear in transcript (./sources/oyez/transcripts/_files/1995/94-7448_20303_argument.json)
 warning: case Hercules Inc. v. United States (https://www.oyez.org/cases/1995/94-818) advocate "Carter Phillips" (carter_phillips) does not appear in transcript (./sources/oyez/transcripts/_files/1995/94-818_21247_argument.json)
+warning: case BMW of North America, Inc. v. Gore (https://www.oyez.org/cases/1995/94-896) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/1995/94-896_20227_argument.json)
 warning: case Markman v. Westview Instruments, Inc. (https://www.oyez.org/cases/1995/95-26) advocate "William B. Mallen" (william_b_mallen) does not appear in transcript (./sources/oyez/transcripts/_files/1995/95-26_19985_argument.json)
 warning: case United Food & Commercial Workers v. Brown Group, Inc. (https://www.oyez.org/cases/1995/95-340) advocate "Lan Jenkins" (lan_jenkins) does not appear in transcript (./sources/oyez/transcripts/_files/1995/95-340_20601_argument.json)
 warning: case Idaho v. Coeur d'Alene Tribe of Idaho (https://www.oyez.org/cases/1996/94-1474) advocate "Clive Strong" (clive_strong) does not appear in transcript (./sources/oyez/transcripts/_files/1996/94-1474_19923_argument.json)
@@ -5860,6 +5954,7 @@ warning: case Medellín v. Dretke (https://www.oyez.org/cases/2004/04-5928) advo
 warning: case Kansas v. Colorado (https://www.oyez.org/cases/2004/105-orig) has no advocates; found speaker "John B. Draper" (john_b_draper) in transcript
 warning: case Kansas v. Colorado (https://www.oyez.org/cases/2004/105-orig) has no advocates; found speaker "David W. Robbins" (david_w_robbins) in transcript
 warning: case Kansas v. Colorado (https://www.oyez.org/cases/2004/105-orig) has no advocates; found speaker "James A. Feldman" (james_a_feldman) in transcript
+warning: case Wachovia Bank, N.A. v. Schmidt (https://www.oyez.org/cases/2005/04-1186) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/2005/04-1186_22531_argument.json)
 warning: case United States v. Georgia (https://www.oyez.org/cases/2005/04-1203) advocate "Gregory A. Castanias" (gregory_a_castanias) does not appear in transcript (./sources/oyez/transcripts/_files/2005/04-1203_21445_argument.json)
 warning: case Day v. McDonough (https://www.oyez.org/cases/2005/04-1324) advocate "Douglas Hallward-Driemeier" (douglas_hallward_driemeier) does not appear in transcript (./sources/oyez/transcripts/_files/2005/04-1324_22931_argument.json)
 warning: case Will v. Hallock (https://www.oyez.org/cases/2005/04-1332) advocate "Douglas Hallward-Driemeier" (douglas_hallward_driemeier) does not appear in transcript (./sources/oyez/transcripts/_files/2005/04-1332_23001_argument.json)
@@ -5868,6 +5963,7 @@ warning: case Arkansas Dept. of Health and Human Servs. v. Ahlborn (https://www.
 warning: case Wagnon v. Prairie Band Potawatomi Nation (https://www.oyez.org/cases/2005/04-631) advocate "Ian H. Gershengorn" (ian_h_gershengorn) does not appear in transcript (./sources/oyez/transcripts/_files/2005/04-631_21817_argument.json)
 warning: advocate ID 'joseph_alioto2' has name "Joseph Michaelangelo Alioto" similar to "Joseph L. Alioto"
 warning: advocate ID 'david_goldberg2' has name "David I. Goldberg" similar to "David T. Goldberg"
+warning: case Philip Morris USA v. Williams (https://www.oyez.org/cases/2006/05-1256) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/2006/05-1256_22756_argument.json)
 warning: case Osborn v. Haley (https://www.oyez.org/cases/2006/05-593) advocate "Douglas Hallward-Driemeier" (douglas_hallward_driemeier) does not appear in transcript (./sources/oyez/transcripts/_files/2006/05-593_22257_argument.json)
 warning: case Powerex Corp. v. Reliant Energy Services, Inc. (https://www.oyez.org/cases/2006/05-85) advocate "Douglas Hallward-Driemeier" (douglas_hallward_driemeier) does not appear in transcript (./sources/oyez/transcripts/_files/2006/05-85_22818_argument.json)
 warning: case Sinochem International Co. Ltd. v. Malaysia International Shipping Corp. (https://www.oyez.org/cases/2006/06-102) advocate "Douglas Hallward-Driemeier" (douglas_hallward_driemeier) does not appear in transcript (./sources/oyez/transcripts/_files/2006/06-102_22839_argument.json)
@@ -5882,6 +5978,7 @@ warning: case Hedgpeth v. Pulido (https://www.oyez.org/cases/2008/07-544) advoca
 warning: case Altria Group, Inc. v. Good (https://www.oyez.org/cases/2008/07-562) advocate "Douglas Hallward-Driemeier" (douglas_hallward_driemeier) does not appear in transcript (./sources/oyez/transcripts/_files/2008/07-562_22959_argument.json)
 warning: case Ministry of Defense and Support for Armed Forces of Islamic Republic of Iran v. Elahi (https://www.oyez.org/cases/2008/07-615) advocate "Douglas Hallward-Driemeier" (douglas_hallward_driemeier) does not appear in transcript (./sources/oyez/transcripts/_files/2008/07-615_22488_argument.json)
 warning: case Citizens United v. Federal Election Commission (https://www.oyez.org/cases/2008/08-205) advocate "Elena Kagan" (elena_kagan) does not appear in transcript (./sources/oyez/transcripts/_files/2008/08-205_22476_argument.json)
+warning: case Caperton v. A. T. Massey Coal Co. (https://www.oyez.org/cases/2008/08-22) advocate "Andrew L. Frey" (andrew_l_frey) does not appear in transcript (./sources/oyez/transcripts/_files/2008/08-22_22264_argument.json)
 warning: case United States v. Denedo (https://www.oyez.org/cases/2008/08-267) advocate "Pratik A. Shah" (pratik_shah) does not appear in transcript (./sources/oyez/transcripts/_files/2008/08-267_21653_argument.json)
 warning: advocate ID 'stephen_mccullough2' has name "Stephen R. McCullough" similar to "Stephen B. McCullough"
 warning: case United States v. Comstock (https://www.oyez.org/cases/2009/08-1224) advocate "Elena Kagan" (elena_kagan) does not appear in transcript (./sources/oyez/transcripts/_files/2009/08-1224_22660_argument.json)
@@ -6023,10 +6120,10 @@ warning: case Ortiz v. United States (https://www.oyez.org/cases/2017/16-1423) a
 warning: case Oil States Energy Services LLC v. Greene’s Energy Group, LLC (https://www.oyez.org/cases/2017/16-712) advocate "Malcolm L. Stewart" (malcolm_l_stewart) does not appear in transcript (./sources/oyez/transcripts/_files/2017/16-712_24551_argument.json)
 warning: advocate ID 'david_hawkins2' has name "David S. Hawkins" similar to "David G. Hawkins"
 additional advocates: 9315
-[18:20:33] Finished 'buildAdvocatesAll' after 1.22 min
-[18:20:33] Starting 'buildAdvocatesWomen'...
-[18:20:37] Finished 'buildAdvocatesWomen' after 3.69 s
-[18:20:37] Starting 'buildAdvocates'...
+[22:17:00] Finished 'buildAdvocatesAll' after 1.32 min
+[22:17:00] Starting 'buildAdvocatesWomen'...
+[22:17:03] Finished 'buildAdvocatesWomen' after 3.64 s
+[22:17:03] Starting 'buildAdvocates'...
 warning: unable to find exact match for Unknown Advocate: Nebraska v. Iowa [17 Orig.] (379 U.S. 996) Argued=1965-01-25 Decided=1965-02-01
 warning: Boston &amp; Maine R. Co. v. United States (396 U.S. 27) has no Oyez argument date for Erwin N. Griswold
 warning: Chicago v. United States (394 U.S. 717) has no Oyez argument date for Erwin N. Griswold
@@ -6035,5 +6132,5 @@ warning: unable to find exact match for Erwin N. Griswold: Stiles v. United Stat
 warning: unable to find exact match for Robert H. Bork: Fowler v. North Carolina [73-7031] (428 U.S. 904) Argued=1975-04-21 Decided=1976-07-06
 warning: unable to find advocate mabel_willebrandt in all advocates
 warning: unable to find advocate helen_carloss in all advocates
-[18:20:47] Finished 'buildAdvocates' after 9.71 s
-[18:20:47] Finished 'advocates-all' after 1.43 min
+[22:17:10] Finished 'buildAdvocates' after 6.71 s
+[22:17:10] Finished 'advocates-all' after 1.5 min

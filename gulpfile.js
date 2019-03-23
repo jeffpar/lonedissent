@@ -2363,6 +2363,7 @@ function buildAdvocatesAll(done)
                         if (argv['detail']) warning("case %s (%s) has advocate with no info\n", caseData.name, caseLink);
                         advocate = {name: "Unknown Advocate", identifier: "unknown_identifier"};
                     } else {
+                        advocate.name = advocate.name.replace(/^(Mr\. |Ms\. | Mrs\. | Miss )/, "");
                         advocate = {name: advocate.name, identifier: advocate.identifier};
                         if (advocate.identifier != "unknown_identifier") {
                             if (searchObjects(speakers, advocate) < 0) {
@@ -2372,17 +2373,18 @@ function buildAdvocatesAll(done)
                     }
                     let parts = parseName(advocate.name, caseData.name, caseLink);
                     if (!parts.length) return;
-                    let name = advocate.name;
+                    let advocateName = advocate.name;
                     let advocateId = parts[0].toLowerCase() + '_' + parts[parts.length-1].toLowerCase(), id = advocateId;
                     let matched = false;
                     for (let n = 1; !matched; n++) {
                         if (id == "unknown_advocate") {
-                            name = parts[0] + ' ' + parts[1];
+                            advocateName = parts.join(' ');
                         }
+
                         if (n > 1) id = advocateId + n;
                         let advocateEntry = advocates.all[id];
                         if (!advocateEntry) {
-                            advocates.all[id] = {name, aliases: {}};
+                            advocates.all[id] = {name: advocateName, aliases: {}};
                             matched = true;
                             additions++;
                             if (n > 1) {
@@ -2397,7 +2399,7 @@ function buildAdvocatesAll(done)
                             if (parts.length == partsEntry.length) {
                                 if (parts.length >= 3 && parts[0] == partsEntry[0] && parts[parts.length-1] == partsEntry[parts.length-1]) {
                                     if (parts[1].length == 1 && parts[1][0] == partsEntry[1][0]) {
-                                        advocateEntry.name = name;
+                                        advocateEntry.name = advocateName;
                                         matched = true;
                                     }
                                     else if (partsEntry[1].length == 1 && partsEntry[1][0] == parts[1][0]) {
@@ -2409,7 +2411,7 @@ function buildAdvocatesAll(done)
                             } else if (parts.length == 2) {
                                 matched = true;
                             } else if (partsEntry.length == 2) {
-                                advocateEntry.name = name;
+                                advocateEntry.name = advocateName;
                                 matched = true;
                             }
                         }

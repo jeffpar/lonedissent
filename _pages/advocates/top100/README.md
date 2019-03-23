@@ -36,7 +36,7 @@ NOTE: Any advocate listed below whose total is reported as "at least" still requ
 10. [Archibald Cox](/advocates/top100/archibald_cox) (at least 78 arguments)
 11. [Daniel M. Friedman](/advocates/top100/daniel_friedman) (at least 72 arguments)
 12. [Louis F. Claiborne](/advocates/top100/louis_claiborne) (at least 67 arguments)
-13. [Mr. Andrew L. Frey](/advocates/top100/andrew_frey) (at least 62 arguments)
+13. [Andrew L. Frey](/advocates/top100/andrew_frey) (at least 62 arguments)
 14. [Theodore B. Olson](/advocates/top100/theodore_olson) (at least 62 arguments)
 15. [Rex E. Lee](/advocates/top100/rex_lee) (at least 58 arguments)
 16. [Jeffrey P. Minear](/advocates/top100/jeffrey_minear) (at least 56 arguments)

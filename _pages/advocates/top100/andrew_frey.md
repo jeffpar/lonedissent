@@ -1,5 +1,5 @@
 ---
-title: "Cases Argued by Mr. Andrew L. Frey"
+title: "Cases Argued by Andrew L. Frey"
 permalink: /advocates/top100/andrew_frey
 layout: cases
 cases:
@@ -2733,4 +2733,4 @@ cases:
         majority: false
 ---
 
-Mr. Andrew L. Frey argued 62 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/andrew_l_frey).
+Andrew L. Frey argued 62 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/andrew_l_frey).
