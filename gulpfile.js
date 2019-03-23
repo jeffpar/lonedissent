@@ -2234,8 +2234,9 @@ function buildAdvocates(done)
             let match = text.match(/^([\s\S]*)\n## Top Advocates\n\n/);
             if (match) {
                 text = match[0];
+                let listIndex = 1;
                 top100.forEach((advocate) => {
-                    text += "- [" + advocate.nameAdvocate + "](/advocates/top100/" + advocate.id + ") (" + (advocate.verified? "" : "at least ") + advocate.total + " arguments)\n";
+                    text += listIndex++ + ". [" + advocate.nameAdvocate + "](/advocates/top100/" + advocate.id + ") (" + (advocate.verified? "" : "at least ") + advocate.total + " arguments)\n";
                 });
                 text += "\n## Top Women Advocates\n\n";
                 text += "The [data](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/women-advocates.csv) shown below is generated from\n";
@@ -2248,6 +2249,7 @@ function buildAdvocates(done)
                  * (ie, the names the advocates used on their first argument).  So we have to walk our list of advocates and
                  * search for a match on the normalized name to find our corresponding ID.
                  */
+                listIndex = 1;
                 topWomen.forEach((woman) => {
                     let id = null;
                     for (let w = 0; w < women.length; w++) {
@@ -2257,9 +2259,9 @@ function buildAdvocates(done)
                         }
                     }
                     if (!id || !advocates.all[id]) {
-                        text += "- " + woman.nameAdvocate + " (" + woman.argsAdvocate + " arguments)\n";
+                        text += listIndex++ + ". " + woman.nameAdvocate + " (" + woman.argsAdvocate + " arguments)\n";
                     } else {
-                        text += "- [" + woman.nameAdvocate + "](/advocates/top100/" + id + ") (" + woman.argsAdvocate + " arguments)\n";
+                        text += listIndex++ + ". [" + woman.nameAdvocate + "](/advocates/top100/" + id + ") (" + woman.argsAdvocate + " arguments)\n";
                     }
                 });
             }
