@@ -2124,7 +2124,7 @@ function buildAdvocates(done)
                         let caseFile = caseObj.file;
                         if (caseFiles.indexOf(caseFile) >= 0) return;
                         caseFiles.push(caseFile);
-                        let row = readOyezCaseData(caseFile, "", "", "", advocate.name);
+                        let row = readOyezCaseData(caseFile, "", "", "", caseObj.name);
                         if (row) {
                             if (row.datesArgued) {
                                 delete row.dateArgument;
@@ -2143,7 +2143,7 @@ function buildAdvocates(done)
             if (rowsAdvocate && rowsAdvocate.length) {
                 let results = [], changes = 0;
                 let pathAdvocate = pathAdvocates + "/" + id;
-                let nameAdvocate = rowsAdvocate[0].advocateName;
+                let nameAdvocate = (id == "unknown_advocate"? "Unknown Advocate" : rowsAdvocate[0].advocateName);
                 let fileText = '---\ntitle: "Cases Argued by ' + nameAdvocate + '"\npermalink: ' + pathAdvocate + '\nlayout: cases\n';
                 rowsAdvocate.forEach((row) => {
                     let i = -1, obj;
@@ -2372,16 +2372,17 @@ function buildAdvocatesAll(done)
                     }
                     let parts = parseName(advocate.name, caseData.name, caseLink);
                     if (!parts.length) return;
+                    let name = advocate.name;
                     let advocateId = parts[0].toLowerCase() + '_' + parts[parts.length-1].toLowerCase(), id = advocateId;
                     let matched = false;
                     for (let n = 1; !matched; n++) {
                         if (id == "unknown_advocate") {
-                            advocate.name = parts[0] + ' ' + parts[1];
+                            name = parts[0] + ' ' + parts[1];
                         }
                         if (n > 1) id = advocateId + n;
                         let advocateEntry = advocates.all[id];
                         if (!advocateEntry) {
-                            advocates.all[id] = {name: advocate.name, aliases: {}};
+                            advocates.all[id] = {name, aliases: {}};
                             matched = true;
                             additions++;
                             if (n > 1) {
@@ -2396,7 +2397,7 @@ function buildAdvocatesAll(done)
                             if (parts.length == partsEntry.length) {
                                 if (parts.length >= 3 && parts[0] == partsEntry[0] && parts[parts.length-1] == partsEntry[parts.length-1]) {
                                     if (parts[1].length == 1 && parts[1][0] == partsEntry[1][0]) {
-                                        advocateEntry.name = advocate.name;
+                                        advocateEntry.name = name;
                                         matched = true;
                                     }
                                     else if (partsEntry[1].length == 1 && partsEntry[1][0] == parts[1][0]) {
@@ -2408,7 +2409,7 @@ function buildAdvocatesAll(done)
                             } else if (parts.length == 2) {
                                 matched = true;
                             } else if (partsEntry.length == 2) {
-                                advocateEntry.name = advocate.name;
+                                advocateEntry.name = name;
                                 matched = true;
                             }
                         }
@@ -2430,7 +2431,7 @@ function buildAdvocatesAll(done)
                         });
                         if (!exists) {
                             if (!advocates.all[id].aliases[advocate.identifier]) advocates.all[id].aliases[advocate.identifier] = [];
-                            advocates.all[id].aliases[advocate.identifier].push({file: caseFile, href: caseLink});
+                            advocates.all[id].aliases[advocate.identifier].push({name: advocate.name, file: caseFile, href: caseLink});
                         }
                     }
                 });
