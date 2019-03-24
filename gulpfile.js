@@ -2311,7 +2311,7 @@ function buildAdvocatesAll(done)
                 if (lastPart == "Jr" || lastPart == "Sr" || lastPart == "II" || lastPart == "III" || lastPart == "IV") {
                     parts.splice(parts.length-1, 1);
                 } else if (lastPart.length < 3 && lastPart != "Yu" && lastPart != "Ho" && lastPart != "Wu" || lastPart == "General") {
-                    warning("advocate '%s' has an unusual last name; refer to case %s (%s)\n", name, caseName, caseLink);
+                    if (argv['detail']) warning("advocate '%s' has an unusual last name; refer to case %s (%s)\n", name, caseName, caseLink);
                     parts = ["Unknown", "Advocate"];
                 }
                 return parts;
@@ -2323,7 +2323,7 @@ function buildAdvocatesAll(done)
                 if (!caseData.href) return;
                 let caseLink = caseData.href.replace("api", "www");
                 let dateArgued = getOyezDates(caseData.timeline, "Argued");
-                if (dateArgued <= dateToday) argued = true;
+                if (dateArgued && dateArgued <= dateToday) argued = true;
                 if (caseData.oral_argument_audio && !argued) {
                     let audioExists = false;
                     caseData.oral_argument_audio.forEach((audio) => {
@@ -2351,7 +2351,7 @@ function buildAdvocatesAll(done)
                     if (speakers.length) {
                         speakers.forEach((speaker) => {
                             caseData.advocates.push({advocate: {name: speaker.name, identifier: speaker.identifier}});
-                            warning("case %s (%s) has no advocates; found speaker \"%s\" (%s) in transcript\n", caseData.name, caseLink, speaker.name, speaker.identifier);
+                            if (argv['detail']) warning("case %s (%s) has no advocates; found speaker \"%s\" (%s) in transcript\n", caseData.name, caseLink, speaker.name, speaker.identifier);
                         });
                     } else {
                         caseData.advocates.push({advocate: {name: "Unknown Advocate", identifier: "unknown_identifier"}});
@@ -2367,7 +2367,7 @@ function buildAdvocatesAll(done)
                         advocate.name = advocate.name.replace(/^(Mr\. |Ms\. | Mrs\. | Miss )/, "");
                         advocate = {name: advocate.name, identifier: advocate.identifier};
                         if (advocate.identifier != "unknown_identifier") {
-                            if (searchObjects(speakers, advocate) < 0) {
+                            if (argv['detail'] && searchObjects(speakers, advocate) < 0) {
                                 warning("case %s (%s) advocate \"%s\" (%s) does not appear in transcript (%s)\n", caseData.name, caseLink, advocate.name, advocate.identifier, transcriptPath);
                             }
                         }
@@ -2381,7 +2381,6 @@ function buildAdvocatesAll(done)
                         if (id == "unknown_advocate") {
                             advocateName = parts.join(' ');
                         }
-
                         if (n > 1) id = advocateId + n;
                         let advocateEntry = advocates.all[id];
                         if (!advocateEntry) {
