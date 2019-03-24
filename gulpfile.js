@@ -2283,7 +2283,7 @@ function buildAdvocatesAll(done)
 {
     let casePaths = glob.sync(rootDir + sources.oyez.cases_json);
     if (!casePaths || !casePaths.length) {
-        warning("unable to read case files: %s\n", sources.oyez.cases_json);
+        warning("unable to find case files: %s\n", sources.oyez.cases_json);
     } else {
         let advocates = readJSON(sources.oyez.advocates);
         if (!advocates) {
@@ -2303,6 +2303,9 @@ function buildAdvocatesAll(done)
                 if (parts[1] == "Ah") {     // presuming that "A.H." was intended
                     parts[1] = "A"; parts.splice(2, 0, "H");
                 }
+                if (parts[1] == "Rq") {     // presuming that "R.Q." was intended
+                    parts[1] = "R"; parts.splice(2, 0, "Q");
+                }
                 if (parts[0].length == 1 && parts[1].length > 1) parts.splice(0, 1);
                 let lastPart = parts[parts.length-1];
                 if (lastPart == "Jr" || lastPart == "Sr" || lastPart == "II" || lastPart == "III" || lastPart == "IV") {
@@ -2313,16 +2316,14 @@ function buildAdvocatesAll(done)
                 }
                 return parts;
             };
+            let dateToday = sprintf("%Y-%02M-%02D", new Date());
             casePaths.forEach((casePath) => {
                 let argued = false;
                 let caseData = readJSON(casePath);
                 if (!caseData.href) return;
                 let caseLink = caseData.href.replace("api", "www");
-                if (caseData.timeline) {
-                    caseData.timeline.forEach((item) => {
-                        if (item.event == "Argued") argued = true;
-                    });
-                }
+                let dateArgued = getOyezDates(caseData.timeline, "Argued");
+                if (dateArgued <= dateToday) argued = true;
                 if (caseData.oral_argument_audio && !argued) {
                     let audioExists = false;
                     caseData.oral_argument_audio.forEach((audio) => {
@@ -2358,7 +2359,7 @@ function buildAdvocatesAll(done)
                 }
                 caseData.advocates.forEach((advocateData) => {
                     let advocate = advocateData.advocate;
-                    let advocatePosition = advocateData.advocate_description;
+                    let advocateRole = advocateData.advocate_description || "";
                     if (!advocate || !advocate.name) {
                         if (argv['detail']) warning("case %s (%s) has advocate with no info\n", caseData.name, caseLink);
                         advocate = {name: "Unknown Advocate", identifier: "unknown_identifier"};
@@ -2433,7 +2434,7 @@ function buildAdvocatesAll(done)
                         });
                         if (!exists) {
                             if (!advocates.all[id].aliases[advocate.identifier]) advocates.all[id].aliases[advocate.identifier] = [];
-                            advocates.all[id].aliases[advocate.identifier].push({name: advocate.name, file: caseFile, href: caseLink});
+                            advocates.all[id].aliases[advocate.identifier].push({name: advocate.name, role: advocateRole, file: caseFile, href: caseLink});
                         }
                     }
                 });
@@ -4506,6 +4507,144 @@ function matchJournals(done)
 }
 
 /**
+ * matchOyezDates(done)
+ *
+ * There's a rich source of date information in OYEZ, so let's use it to augment the dates CSV file,
+ * which we'll then use at a later stage to update decision data.
+ *
+ * @param {function()} done
+ */
+function matchOyezDates(done)
+{
+    printf("reading dates...\n");
+    let dates = readCSV(sources.ld.dates_csv);
+
+    /*
+     * The initial version of our dates.csv contained the following columns:
+     *
+     *      usCite,caseTitle,dateArgument,dateDecision
+     *
+     * which we want to transform to this:
+     *
+     *      usCite,docket,caseTitle,dateArgument,dateRearg,advocatesPetitioner,advocatesRespondent,advocatesOther,dateDecision,source
+     *
+     * And values for "source" should be one of:
+     *
+     *      scotus (ie, decisionDates.pdf for volumes 1-107)
+     *      oyez (for terms 1955-present)
+     *      scdb (for dates imported directly from SCDB)
+     *      usreports (for corrections extraced from printed volumes)
+     */
+    let additions = false;
+    if (!dates[0].source) {
+        for (let i = 0; i < dates.length; i++) {
+            let cite = {};
+            let dateOld = dates[i];
+            parseCite(dateOld.usCite, cite);
+            let dateNew = {
+                usCite: dateOld.usCite,
+                docket: "",
+                caseTitle: dateOld.caseTitle,
+                dateArgument: dateOld.dateArgument,
+                dateRearg: "",
+                advocatesPetitioner: "",
+                advocatesRespondent: "",
+                advocatesOther: "",
+                dateDecision: dateOld.dateDecision,
+                source: (cite.volume >= 1 && cite.volume <= 107? "scotus" : "usreports")
+            };
+            dates[i] = dateNew;
+        }
+        additions = true;
+    }
+
+    let oyezHash = {};
+    let casePaths = glob.sync(rootDir + sources.oyez.cases_json);
+    if (!casePaths || !casePaths.length) {
+        warning("unable to find case files: %s\n", sources.oyez.cases_json);
+    } else {
+        /*
+         * Build an array of data that includes:
+         *
+         *      term,docket,usCite,caseTitle,dateArgument,dateRearg,advocatesPetitioner,advocatesRespondent,advocatesOther,dateDecision
+         *
+         * which will then allow us to sort the date by caseFile and perform lookups for every advocate.
+         */
+        printf("reading OYEZ cases...\n");
+        casePaths.forEach((casePath) => {
+            let caseData = readJSON(casePath);
+            if (!caseData.href) return;
+            let citation = caseData.citation && caseData.citation.volume && caseData.citation.page? getNewCite(+caseData.citation.volume, +caseData.citation.page) : "";
+            let dockets = caseData.docket_number || "";
+            if (caseData.additional_docket_numbers) {
+                caseData.additional_docket_numbers.forEach((docket) => {
+                    if (dockets) dockets += ',';
+                    dockets += docket;
+                });
+            }
+            let caseFile = casePath.substr(rootDir.length);
+            let caseInfo = {
+                term: +caseData.term || 0,
+                docket: dockets,
+                usCite: citation,
+                caseTitle: caseData.name,
+                dateArgument: getOyezDates(caseData.timeline, "Argued"),
+                dateRearg: getOyezDates(caseData.timeline, "Reargued"),
+                advocatesPetitioner: "",
+                advocatesRespondent: "",
+                advocatesOther: "",
+                dateDecision: getOyezDates(caseData.timeline, "Decided"),
+                caseLink: (caseData.href? caseData.href.replace("api", "www") : "")
+            };
+            oyezHash[caseFile] = caseInfo;
+        });
+    }
+
+    printf("reading OYEZ advocates...\n");
+    let advocates = readJSON(sources.oyez.advocates);
+
+    let advocateIds = Object.keys(advocates.all);
+    advocateIds.forEach((advocateId) => {
+        let advocate = advocates.all[advocateId];
+        let aliases = Object.keys(advocate.aliases);
+        aliases.forEach((alias) => {
+            let aliasCases = advocate.aliases[alias];
+            aliasCases.forEach((aliasCase) => {
+                let caseFile = aliasCase.file;
+                let caseInfo = oyezHash[caseFile];
+                if (!caseInfo) {
+                    warning("unable to find OYEZ advocate '%s' case %s (%s)\n", alias, caseFile, aliasCase.href);
+                    return;
+                }
+                if (aliasCase.role.match(/(petitioner|appellant)/i)) {
+                    if (caseInfo.advocatesPetitioner) caseInfo.advocatesPetitioner += ',';
+                    caseInfo.advocatesPetitioner += advocateId;
+                }
+                else if (aliasCase.role.match(/(respondent|appellee)/i)) {
+                    if (caseInfo.advocatesRespondent) caseInfo.advocatesRespondent += ',';
+                    caseInfo.advocatesRespondent += advocateId;
+                } else {
+                    if (caseInfo.advocatesOther) caseInfo.advocatesOther += ',';
+                    caseInfo.advocatesOther += advocateId;
+                }
+            });
+        });
+    });
+
+    let oyezCases = [];
+    for (let caseFile in oyezHash) {
+        oyezCases.push(oyezHash[caseFile]);
+    }
+    sortObjects(oyezCases, ["term", "usCite"]);
+    writeCSV(sources.oyez.cases_csv, oyezCases);
+
+    if (additions) {
+        writeCSV(sources.ld.dates_csv, dates);
+    }
+    done();
+}
+
+/**
  * matchTXTDates(done)
  *
  * @param {function()} done
@@ -4604,11 +4743,11 @@ function matchTXTDates(done)
 }
 
 /**
- * matchDates(done)
+ * matchXMLDates(done)
  *
  * @param {function()} done
  */
-function matchDates(done)
+function matchXMLDates(done)
 {
     let changes = 0;
     let databaseUpdates = "";
@@ -6357,7 +6496,7 @@ gulp.task("briefs", listBriefs);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("convert", convertTranscripts);
 gulp.task("courts", buildCourts);
-gulp.task("dates", matchDates);         // NOTE: matchTXTDates() was too sketchy, so we no longer use it
+gulp.task("dates", matchOyezDates);         // NOTE: matchTXTDates() was too sketchy, and matchXMLDates() has already been used
 gulp.task("decisions", buildDecisions);
 gulp.task("journals", matchJournals);
 gulp.task("justices", buildJustices);
