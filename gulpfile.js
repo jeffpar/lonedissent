@@ -1406,6 +1406,27 @@ function getOyezDates(timeline, event)
 }
 
 /**
+ * getOyezDockets(docket_number, additional_docket_numbers)
+ *
+ * @param {string} docket_number
+ * @param {Array} [additional_docket_numbers]
+ */
+function getOyezDockets(docket_number, additional_docket_numbers)
+{
+    let dockets = fixOyezDocketNumber(docket_number);
+    if (additional_docket_numbers) {
+        additional_docket_numbers.forEach((docket) => {
+            if (docket) {
+                docket = fixOyezDocketNumber(docket);
+                if (dockets) dockets += ',';
+                dockets += docket;
+            }
+        });
+    }
+    return dockets;
+}
+
+/**
  * readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
  *
  * @param {string} filePath
@@ -1430,16 +1451,7 @@ function readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
         row.oldCite = getOldCite(row.volume, row.page);
         row.usCite = getNewCite(row.volume, row.page);
         row.dateDecision = getOyezDates(caseDetail.timeline, "Decided");
-        row.docket = fixOyezDocketNumber(docket_number);
-        if (!docket && caseDetail.additional_docket_numbers) {
-            caseDetail.additional_docket_numbers.forEach((docket) => {
-                if (docket) {
-                    docket = fixOyezDocketNumber(docket);
-                    if (row.docket) row.docket += ',';
-                    row.docket += docket;
-                }
-            });
-        }
+        row.docket = getOyezDockets(docket_number, docket? undefined : caseDetail.additional_docket_numbers);
         row.term = caseDetail.term || 0;
         row.termId = getTermDate(row.term).substr(0,7);
         row.issue = "";
@@ -4574,13 +4586,7 @@ function matchOyezDates(done)
             let caseData = readJSON(casePath);
             if (!caseData.href) return;
             let citation = caseData.citation && caseData.citation.volume && caseData.citation.page? getNewCite(+caseData.citation.volume, +caseData.citation.page) : "";
-            let dockets = caseData.docket_number || "";
-            if (caseData.additional_docket_numbers) {
-                caseData.additional_docket_numbers.forEach((docket) => {
-                    if (dockets) dockets += ',';
-                    dockets += docket;
-                });
-            }
+            let dockets = getOyezDockets(caseData.docket_number, caseData.additional_docket_numbers);
             let caseFile = casePath.substr(rootDir.length);
             let caseInfo = {
                 term: +caseData.term || 0,
@@ -5698,7 +5704,7 @@ function fixDocketNumber(docket)
  */
 function fixOyezDocketNumber(docket)
 {
-    return docket.replace(" ORIG", " Orig.").replace("-orig", " Orig.").replace("orig", " Orig.").replace(".-1", ".").replace(".-2", ".").replace(" MISC", " Misc.").trim();
+    return (docket || "").replace(" ORIG", " Orig.").replace("-orig", " Orig.").replace("orig", " Orig.").replace(".-1", ".").replace(".-2", ".").replace(" MISC", " Misc.").trim();
 }
 
 /**
