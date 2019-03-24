@@ -2101,7 +2101,7 @@ function buildAdvocates(done)
                             if (uniqueObjs.indexOf(obj.ID) >= 0) return;
                         }
                         uniqueObjs.push(obj.ID);
-                        let dir = path.join(path.dirname(sources.oyez.cases), obj.term);
+                        let dir = path.join(path.dirname(sources.oyez.cases_csv), obj.term);
                         let fileID = obj.fileID || (obj.docket_number + '_' + obj.ID);
                         let file = fileID + ".json";
                         let caseFile = path.join(dir, file);
@@ -3035,7 +3035,7 @@ function buildDates(done)
 {
     let rowsOyez = [], rowsOyezByYear = [];
     printf("reading OYEZ case files...\n");
-    let filePaths = glob.sync(rootDir + path.join(path.dirname(sources.oyez.cases), "**/*.json"));
+    let filePaths = glob.sync(rootDir + sources.oyez.cases_json);
     filePaths.forEach((filePath) => {
         let row = readOyezCaseData(filePath);
         if (row) {
@@ -4885,7 +4885,7 @@ function matchTranscripts(done)
 
     let rowsOyez = [], rowsOyezByYear = [];
     printf("reading OYEZ case files...\n");
-    filePaths = glob.sync(rootDir + path.join(path.dirname(sources.oyez.cases), "**/*.json"));
+    filePaths = glob.sync(rootDir + sources.oyez.cases_json);
     filePaths.forEach((filePath) => {
         let row = readOyezCaseData(filePath);
         if (row) {
@@ -6039,140 +6039,140 @@ function generateDownloadTasks(done)
             }
         });
     });
+
     let rowsLOC = readCSV(sources.ld.citationsLOC_csv);
     rowsLOC.forEach((cite) => {
         getLOCPDF(cite.volume, cite.page, cite.pageURL);
     });
-    let cases = readJSON(sources.oyez.cases);
-    if (cases) {
-        let transcripts = [];   // readCSV(sources.oyez.transcripts_csv);
-        cases.ids.forEach((id) => {
-            let dir = path.join(path.dirname(sources.oyez.cases), id);
-            let file = id + ".json";
-            let filePath = path.join(dir, file);
-            if (fs.existsSync(rootDir + filePath)) {
-                let json = readFile(filePath);
-                if (json) {
-                    let lines = json.split('\n');
-                    if (lines.length == 1) {
-                        json = sprintf("%2j", JSON.parse(json));
-                        writeFile(filePath, json, true);
-                    }
-                    let caseSummaries = JSON.parse(json);
-                    caseSummaries.forEach((caseSummary) => {
-                        let fileID = caseSummary.docket_number + '_' + caseSummary.ID;
-                        let file = fileID + ".json";
-                        let filePath = path.join(dir, file);
-                        if (fs.existsSync(rootDir + filePath)) {
-                            let json = readFile(filePath);
-                            if (json) {
-                                let lines = json.split('\n');
-                                if (lines.length == 1) {
-                                    json = sprintf("%2j", JSON.parse(json));
-                                    writeFile(filePath, json, true);
+
+    let transcripts = [];   // readCSV(sources.oyez.transcripts_csv);
+    sources.oyez.cases.ids.forEach((id) => {
+        let dir = path.join(path.dirname(sources.oyez.cases), id);
+        let file = id + ".json";
+        let filePath = path.join(dir, file);
+        if (fs.existsSync(rootDir + filePath)) {
+            let json = readFile(filePath);
+            if (json) {
+                let lines = json.split('\n');
+                if (lines.length == 1) {
+                    json = sprintf("%2j", JSON.parse(json));
+                    writeFile(filePath, json, true);
+                }
+                let caseSummaries = JSON.parse(json);
+                caseSummaries.forEach((caseSummary) => {
+                    let fileID = caseSummary.docket_number + '_' + caseSummary.ID;
+                    let file = fileID + ".json";
+                    let filePath = path.join(dir, file);
+                    if (fs.existsSync(rootDir + filePath)) {
+                        let json = readFile(filePath);
+                        if (json) {
+                            let lines = json.split('\n');
+                            if (lines.length == 1) {
+                                json = sprintf("%2j", JSON.parse(json));
+                                writeFile(filePath, json, true);
+                            }
+                            let caseDetail = JSON.parse(json);
+                            /*
+                                * If the case has no "oral_argument_audio" but its "Argued" date has passed, let's refresh it
+                                */
+                            if (!caseDetail.oral_argument_audio && id == sources.oyez.cases.force) {
+                                let dateArgued = getOyezDates(caseDetail.timeline, "Argued");
+                                let dateToday = sprintf("%Y-%02M-%02D", new Date());
+                                if (dateArgued && dateArgued < dateToday) {
+                                    fs.unlinkSync(rootDir + filePath);
                                 }
-                                let caseDetail = JSON.parse(json);
-                                /*
-                                 * If the case has no "oral_argument_audio" but its "Argued" date has passed, let's refresh it
-                                 */
-                                if (!caseDetail.oral_argument_audio && id == cases.force) {
-                                    let dateArgued = getOyezDates(caseDetail.timeline, "Argued");
-                                    let dateToday = sprintf("%Y-%02M-%02D", new Date());
-                                    if (dateArgued && dateArgued < dateToday) {
-                                        fs.unlinkSync(rootDir + filePath);
-                                    }
-                                }
-                                let audioSummaries = [];
-                                if (caseDetail.oral_argument_audio) {
-                                    caseDetail.oral_argument_audio.forEach((audio) => {
-                                        audio.type = "argument";
-                                        audioSummaries.push(audio);
-                                    });
-                                }
-                                if (caseDetail.opinion_announcement) {
-                                    caseDetail.opinion_announcement.forEach((audio) => {
-                                        audio.type = "decision";
-                                        audioSummaries.push(audio);
-                                    });
-                                }
-                                audioSummaries.forEach((audio) => {
-                                    let date;
-                                    let term = caseDetail.term;
-                                    let usCite = (caseDetail.citation? getNewCite(+caseDetail.citation.volume, +caseDetail.citation.page) : "");
-                                    let caseTitle = caseDetail.name;
-                                    let audioTitle = audio.title;
-                                    if (!audioTitle ||
-                                        audioTitle.indexOf("unavailable") >= 0 ||
-                                        audioTitle.indexOf("No oral argument") >= 0) {
-                                        return;
-                                    }
-                                    let docket = fixOyezDocketNumber(caseSummary.docket_number);
-                                    let dateDecision = getOyezDates(caseDetail.timeline, "Decided");
-                                    let dateArgument = getOyezDates(caseDetail.timeline, "Argued");
-                                    let dateRearg = getOyezDates(caseDetail.timeline, "Reargued");
-                                    if (dateRearg) {
-                                        if (dateArgument) dateArgument += ',';
-                                        dateArgument += dateRearg;
-                                    }
-                                    let match = audioTitle.match(/([A-Z]+)\s+([0-9]+),\s+([0-9][0-9][0-9][0-9])/i);
-                                    if (match) {
-                                        date = parseDate(match[0]);
-                                        if (isValidDate(date)) {
-                                            dateArgument = sprintf("%#Y-%#02M-%#02D", date);
-                                        } else {
-                                            match = null;
-                                        }
-                                    }
-                                    if (!match) {
-                                        warning("%s (%s) has an invalid audio date (%s)\n", caseTitle, usCite, audioTitle);
-                                    }
-                                    let url = audio.href;
-                                    let fileID = caseSummary.docket_number + '_' + audio.id + '_' + audio.type;
-                                    let dir = path.dirname(sources.oyez.transcripts_json.replace('*', term));
-                                    let fileName = fileID + ".json";
-                                    let filePath = path.join(dir, fileName);
-                                    let urlOyez = caseDetail.href;
-                                    let notes = "";
-                                    let transcript = {term, usCite, caseTitle, audioTitle, docket, dateArgument, dateDecision, url, file: filePath, urlOyez, notes};
-                                    // let i = searchSortedObjects(transcripts, {dateArgument, docket});
-                                    // if (i < 0) {
-                                    //     warning("unable to find %s (%s) [%s] {%s} '%s' in transcript list\n", caseTitle, usCite, docket, dateArgument, audioTitle);
-                                    // }
-                                    transcripts.push(transcript);
-                                    if (fs.existsSync(rootDir + filePath)) {
-                                        let json = readFile(filePath);
-                                        if (json) {
-                                            let lines = json.split('\n');
-                                            if (lines.length == 1) {
-                                                try {
-                                                    json = sprintf("%2j", JSON.parse(json));
-                                                    writeFile(filePath, json, true);
-                                                } catch(err) {
-                                                    warning("unable to process %s (%s)\n", filePath, err.message);
-                                                }
-                                            }
-                                        }
-                                    } else {
-                                        createDownloadTask('download.transcript.' + fileID, url, dir, fileName);
-                                    }
+                            }
+                            let audioSummaries = [];
+                            if (caseDetail.oral_argument_audio) {
+                                caseDetail.oral_argument_audio.forEach((audio) => {
+                                    audio.type = "argument";
+                                    audioSummaries.push(audio);
                                 });
                             }
+                            if (caseDetail.opinion_announcement) {
+                                caseDetail.opinion_announcement.forEach((audio) => {
+                                    audio.type = "decision";
+                                    audioSummaries.push(audio);
+                                });
+                            }
+                            audioSummaries.forEach((audio) => {
+                                let date;
+                                let term = caseDetail.term;
+                                let usCite = (caseDetail.citation? getNewCite(+caseDetail.citation.volume, +caseDetail.citation.page) : "");
+                                let caseTitle = caseDetail.name;
+                                let audioTitle = audio.title;
+                                if (!audioTitle ||
+                                    audioTitle.indexOf("unavailable") >= 0 ||
+                                    audioTitle.indexOf("No oral argument") >= 0) {
+                                    return;
+                                }
+                                let docket = fixOyezDocketNumber(caseSummary.docket_number);
+                                let dateDecision = getOyezDates(caseDetail.timeline, "Decided");
+                                let dateArgument = getOyezDates(caseDetail.timeline, "Argued");
+                                let dateRearg = getOyezDates(caseDetail.timeline, "Reargued");
+                                if (dateRearg) {
+                                    if (dateArgument) dateArgument += ',';
+                                    dateArgument += dateRearg;
+                                }
+                                let match = audioTitle.match(/([A-Z]+)\s+([0-9]+),\s+([0-9][0-9][0-9][0-9])/i);
+                                if (match) {
+                                    date = parseDate(match[0]);
+                                    if (isValidDate(date)) {
+                                        dateArgument = sprintf("%#Y-%#02M-%#02D", date);
+                                    } else {
+                                        match = null;
+                                    }
+                                }
+                                if (!match) {
+                                    warning("%s (%s) has an invalid audio date (%s)\n", caseTitle, usCite, audioTitle);
+                                }
+                                let url = audio.href;
+                                let fileID = caseSummary.docket_number + '_' + audio.id + '_' + audio.type;
+                                let dir = path.dirname(sources.oyez.transcripts_json.replace('*', term));
+                                let fileName = fileID + ".json";
+                                let filePath = path.join(dir, fileName);
+                                let urlOyez = caseDetail.href;
+                                let notes = "";
+                                let transcript = {term, usCite, caseTitle, audioTitle, docket, dateArgument, dateDecision, url, file: filePath, urlOyez, notes};
+                                // let i = searchSortedObjects(transcripts, {dateArgument, docket});
+                                // if (i < 0) {
+                                //     warning("unable to find %s (%s) [%s] {%s} '%s' in transcript list\n", caseTitle, usCite, docket, dateArgument, audioTitle);
+                                // }
+                                transcripts.push(transcript);
+                                if (fs.existsSync(rootDir + filePath)) {
+                                    let json = readFile(filePath);
+                                    if (json) {
+                                        let lines = json.split('\n');
+                                        if (lines.length == 1) {
+                                            try {
+                                                json = sprintf("%2j", JSON.parse(json));
+                                                writeFile(filePath, json, true);
+                                            } catch(err) {
+                                                warning("unable to process %s (%s)\n", filePath, err.message);
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    createDownloadTask('download.transcript.' + fileID, url, dir, fileName);
+                                }
+                            });
                         }
-                        if (!fs.existsSync(rootDir + filePath)) {
-                            let url = caseSummary.href;
-                            createDownloadTask('download.case.' + fileID, url, dir, file);
-                        }
-                    });
-                }
+                    }
+                    if (!fs.existsSync(rootDir + filePath)) {
+                        let url = caseSummary.href;
+                        createDownloadTask('download.case.' + fileID, url, dir, file);
+                    }
+                });
             }
-            if (!fs.existsSync(rootDir + filePath) || id == cases.force) {
-                let url = sprintf(cases.api, id);
-                createDownloadTask('download.case.' + id, url, dir, file);
-            }
-        });
-        sortObjects(transcripts, ["dateArgument", "docket"]);
-        writeCSV(sources.oyez.transcripts_csv, transcripts, true);
-    }
+        }
+        if (!fs.existsSync(rootDir + filePath) || id == sources.oyez.cases.force) {
+            let url = sprintf(sources.oyez.cases.api, id);
+            createDownloadTask('download.case.' + id, url, dir, file);
+        }
+    });
+    sortObjects(transcripts, ["dateArgument", "docket"]);
+    writeCSV(sources.oyez.transcripts_csv, transcripts, true);
+
     let advocates = readJSON(sources.oyez.advocates);
     if (advocates) {
         let ids = Object.keys(advocates.top);
