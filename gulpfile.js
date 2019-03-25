@@ -4109,7 +4109,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 }
             }
             if (term) {
-                sortObjects(searchResults, ["volume", "page", "caseTitle"]);
+                sortObjects(searchResults, ["dateDecision", "caseTitle"]);
                 /*
                  * Create a page for each term of decisions that doesn't already have one (eg, _pages/cases/loners/yyyy-mm.md)
                  */
@@ -4129,7 +4129,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 /*
                  * Let's make sure there's an index entry as well....
                  */
-                fileName = "/_pages/cases/" + category + ".md";
+                fileName = "/_pages/cases/" + category + "/README.md";
                 let index = readFile(fileName);
                 if (index) {
                     let re = /^- \[(.*?Term.*?|)\]\(\/cases\/[a-z]+\/([0-9-]+)\).*$/gm, match, matchLast;
@@ -4313,8 +4313,8 @@ function findJustices(done, minVotes)
      */
     if (index) {
         let pathName = "/justices/" + category;
-        let fileName = "/_pages" + pathName + ".md";
-        index = '---\ntitle: "U.S. Supreme Court Justices with ' + description + '"\npermalink: ' + pathName + '\nlayout: page\n---\n\n' + index;
+        let fileName = "/_pages" + pathName + "/README.md";
+        index = '---\ntitle: "U.S. Supreme Court Justices with ' + description + '"\npermalink: ' + pathName + '/\nlayout: page\n---\n\n' + index;
         writeFile(fileName, index);
     }
     done();
@@ -4361,7 +4361,7 @@ function findLonerParties(done)
     let pageName = sprintf("Loner Parties");
     let pathName = "/trivia/parties";
     let fileName = "/_pages" + pathName + ".md";
-    let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '\nlayout: page\n---\n\n';
+    let text = '---\ntitle: "' + pageName + '"\npermalink: ' + pathName + '/\nlayout: page\n---\n\n';
     text += "When is a Lone Dissent not a Lone Dissent?  When multiple Lone Dissents are handed down on the *same day*.\n";
     let dates = Object.keys(dateBuckets);
     dates.sort();
@@ -4709,8 +4709,6 @@ function matchOyezDates(done)
         writeCSV(sources.oyez.cases_csv, oyezCases);
     }
 
-    sortObjects(oyezCases, ["dateArgument", "dateDecision"]);
-
     /*
      * OK, now that we have all the Oyez records properly generated, it's time to go through them and supplement or update
      * dates.csv as appropriate.  We'll want to do the same thing with SCDB-derived decisions records, too, so we'll read that
@@ -4719,14 +4717,14 @@ function matchOyezDates(done)
     let scdbCases = readJSON(sources.ld.decisions);
     sortObjects(scdbCases, ["usCite", "dateDecision"]);
 
-    let updateValues = function(target, source, prop) {
+    let updateValues = function(target, source, prop, sourceDesc) {
         let change = false;
         let targetValue = target[prop];
         if (prop == "dateDecision" && targetValue.length > 10) {
             targetValue = sprintf("%#Y-%#02M-%#02D", parseDate(targetValue));
         }
         if (targetValue != source[prop]) {
-            warning("%s %s (%s) differs from %s (%s) - %s (%s)\n", "date.csv", prop, target[prop], "SCDB", source[prop], target.caseTitle, target.usCite);
+            warning("%s %s (%s) differs from %s (%s) - %s (%s)\n", "date.csv", prop, target[prop], sourceDesc, source[prop], target.caseTitle, target.usCite);
             // change = true;
         }
         return change;
@@ -4755,7 +4753,7 @@ function matchOyezDates(done)
             if (dateInfo.dateArgument.indexOf(caseInfo.dateArgument) >= 0) {
                 caseInfo.dateArgument = dateInfo.dateArgument;
             }
-            if (updateValues(dateInfo, caseInfo, "dateArgument")) {
+            if (updateValues(dateInfo, caseInfo, "dateArgument", caseInfo.source)) {
                 additions = true;
             }
             if (!dateInfo.dateRearg && caseInfo.dateRearg) {
@@ -4769,14 +4767,57 @@ function matchOyezDates(done)
             if (dateInfo.dateRearg.indexOf(caseInfo.dateRearg) >= 0) {
                 caseInfo.dateRearg = dateInfo.dateRearg;
             }
-            if (updateValues(dateInfo, caseInfo, "dateRearg")) {
+            if (updateValues(dateInfo, caseInfo, "dateRearg", caseInfo.source)) {
                 additions = true;
             }
         } else {
             iDate = searchSortedObjects(dates, {usCite}, {caseTitle});
             if (iDate >= 0) {
                 let dateInfo = dates[iDate];
-                if (updateValues(dateInfo, caseInfo, "dateDecision")) {
+                if (updateValues(dateInfo, caseInfo, "dateDecision", caseInfo.source)) {
+                    additions = true;
+                }
+            }
+            else if (usCite) {
+                insertSortedObject(dates, caseInfo, ["usCite", "dateDecision"]);
+                additions = true;
+            }
+        }
+    });
+
+    sortObjects(oyezCases, ["dateArgument", "dateDecision"]);
+
+    oyezCases.forEach((caseData) => {
+        let usCite = caseData.usCite;
+        let docket = caseData.docket;
+        let caseTitle = caseData.caseTitle;
+        let dateDecision = caseData.dateDecision;
+        let caseInfo = {
+            usCite: usCite,
+            docket: docket,
+            caseTitle: caseTitle,
+            dateArgument: caseData.dateArgument,
+            dateRearg: caseData.dateRearg,
+            advocatesPetitioner: "",
+            advocatesRespondent: "",
+            advocatesOther: "",
+            dateDecision: dateDecision,
+            source: "oyez"
+        };
+        let iDate = searchSortedObjects(dates, {usCite, dateDecision}, {caseTitle});
+        if (iDate >= 0) {
+            let dateInfo = dates[iDate];
+            if (updateValues(dateInfo, caseInfo, "dateArgument", caseInfo.source)) {
+                additions = true;
+            }
+            if (updateValues(dateInfo, caseInfo, "dateRearg", caseInfo.source)) {
+                additions = true;
+            }
+        } else {
+            iDate = searchSortedObjects(dates, {usCite}, {caseTitle});
+            if (iDate >= 0) {
+                let dateInfo = dates[iDate];
+                if (updateValues(dateInfo, caseInfo, "dateDecision", caseInfo.source)) {
                     additions = true;
                 }
             }

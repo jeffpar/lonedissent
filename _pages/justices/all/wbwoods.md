@@ -913,7 +913,6 @@ cases:
     title: "MISSIONARY SOCIETY OF THE METHODIST EPISCOPAL CHURCH v. KELLY"
     docket: "207"
     volume: "107"
-    page: "347"
     usCite: "107 U.S. 347n"
     pdfSource: "loc"
     dateDecision: "Monday, April 16, 1883"

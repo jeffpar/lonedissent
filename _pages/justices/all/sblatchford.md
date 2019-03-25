@@ -85,7 +85,6 @@ cases:
     title: "Upton v. Kent"
     docket: "260"
     volume: "105"
-    page: "646"
     usCite: "105 U.S. 646n"
     pdfSource: "loc"
     dateDecision: "Monday, May 8, 1882"

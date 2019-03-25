@@ -2730,6 +2730,8 @@ cases:
   - id: "1857-074"
     termId: "1857-12"
     title: "Shannon v. Cavazos"
+    volume: "131"
+    page: "9071"
     usCite: "131 U.S. lxxi"
     pdfSource: "loc"
     dateDecision: "Monday, April 19, 1858"

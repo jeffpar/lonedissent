@@ -115,6 +115,8 @@ cases:
     termId: "1867-12"
     title: "Milwaukee &amp; St. P. R. Co. v. Soutter"
     docket: "161"
+    volume: "131"
+    page: "9086"
     usCite: "131 U.S. lxxxvi"
     pdfSource: "loc"
     dateDecision: "Monday, March 16, 1868"

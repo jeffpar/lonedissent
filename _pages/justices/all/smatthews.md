@@ -772,7 +772,6 @@ cases:
     termId: "1882-10"
     title: "TOWN OF PLAINVIEW v. SAMUEL MARSHALL"
     volume: "106"
-    page: "583"
     usCite: "106 U.S. 583n"
     pdfSource: "loc"
     dateDecision: "Monday, January 8, 1883"
