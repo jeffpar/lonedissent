@@ -779,8 +779,20 @@ function sortObjects(rows, keys, order=1)
     rows.sort(function(row1, row2) {
         for (let k = 0; k < keys.length; k++) {
             let key = keys[k];
-            if (row1[key] > row2[key]) return order;
-            if (row1[key] < row2[key]) return -order;
+            let col1 = row1[key];
+            let col2 = row2[key];
+            if (key == "usCite-numerical") {
+                let cite1 = {}, cite2 = {};
+                key = "usCite";
+                col1 = row1[key];
+                col2 = row2[key];
+                parseCite(col1, cite1);
+                parseCite(col2, cite2);
+                col1 = sprintf("%04d U.S. %04d", cite1.volume || 999, cite1.page || 9999);
+                col2 = sprintf("%04d U.S. %04d", cite2.volume || 999, cite2.page || 9999);
+            }
+            if (col1 > col2) return order;
+            if (col1 < col2) return -order;
             if (k == keys.length - 1) return 0;
         }
     });
@@ -1269,6 +1281,42 @@ function getOldCite(volume, page)
 }
 
 /**
+ * fromRoman(letters)
+ *
+ * @param {string} letters
+ * @return {number}
+ */
+function fromRoman(letters)
+{
+    let numerals = {
+        i: 1,
+        v: 5,
+        x: 10,
+        l: 50,
+        c: 100,
+        d: 500,
+        m: 1000
+    };
+    let result = 0;
+    letters = letters.toLowerCase();
+    for (let i = 0; i < letters.length; i++) {
+        let l = letters[i];
+        let current = numerals[l];
+        let next = numerals[letters[i+1]];
+        if (!current) {
+            break;
+        }
+        if (current < next) {
+            result += next - current;
+            i++;
+        } else {
+            result += current;
+        }
+    }
+    return result;
+}
+
+/**
  * parseCite(usCite, cite)
  *
  * @param {string} usCite
@@ -1278,11 +1326,15 @@ function getOldCite(volume, page)
 function parseCite(usCite, cite)
 {
     if (usCite) {
-        let match = usCite.match(/([0-9]+)\s*U\.?\s*S\.?\s*([0-9]+)/i);
+        let match = usCite.match(/([0-9]+)\s*[Uu]\.?\s*[Ss]\.?\s*([0-9a-z]+)/);
         if (match) {
             if (cite) {
                 cite.volume = +match[1];
                 cite.page = +match[2];
+                if (isNaN(cite.page)) {
+                    cite.page = fromRoman(match[2]);
+                    if (cite.page) cite.page += 9000;
+                }
             }
             return true;
         }
@@ -4527,8 +4579,14 @@ function matchJournals(done)
  */
 function matchOyezDates(done)
 {
-    printf("reading dates...\n");
+    let additions = false;
+    printf("reading date records...\n");
     let dates = readCSV(sources.ld.dates_csv);
+    if (!isSortedObjects(dates, ["usCite", "dateDecision"], true)) {
+        printf("sorting date records by [usCite,dateDecision]...\n");
+        sortObjects(dates, ["usCite"]);
+        additions = true;
+    }
 
     /*
      * The initial version of our dates.csv contained the following columns:
@@ -4546,7 +4604,6 @@ function matchOyezDates(done)
      *      scdb (for dates imported directly from SCDB)
      *      usreports (for corrections extraced from printed volumes)
      */
-    let additions = false;
     if (!dates[0].source) {
         for (let i = 0; i < dates.length; i++) {
             let cite = {};
@@ -4575,11 +4632,11 @@ function matchOyezDates(done)
         warning("unable to find case files: %s\n", sources.oyez.cases_json);
     } else {
         /*
-         * Build an array of data that includes:
+         * Build an arry of caseInfo records that include:
          *
          *      term,docket,usCite,caseTitle,dateArgument,dateRearg,advocatesPetitioner,advocatesRespondent,advocatesOther,dateDecision
          *
-         * which will then allow us to sort the date by caseFile and perform lookups for every advocate.
+         * which we'll store in a hash by caseFile so that we can perform lookups for every advocate's file.
          */
         printf("reading OYEZ cases...\n");
         casePaths.forEach((casePath) => {
@@ -4587,6 +4644,13 @@ function matchOyezDates(done)
             if (!caseData.href) return;
             let citation = caseData.citation && caseData.citation.volume && caseData.citation.page? getNewCite(+caseData.citation.volume, +caseData.citation.page) : "";
             let dockets = getOyezDockets(caseData.docket_number, caseData.additional_docket_numbers);
+            if (dockets == "02-258" && citation == "53 U.S. 456") citation = "538 U.S. 456";
+            if (caseData.term == "1955" && !citation) {
+                if (dockets == "25") citation = "350 U.S. 869";
+                if (dockets == "201") {
+                    warning("citation needed for %s\n", caseData.name);
+                }
+            }
             let caseFile = casePath.substr(rootDir.length);
             let caseInfo = {
                 term: +caseData.term || 0,
@@ -4640,10 +4704,88 @@ function matchOyezDates(done)
     for (let caseFile in oyezHash) {
         oyezCases.push(oyezHash[caseFile]);
     }
-    sortObjects(oyezCases, ["term", "usCite"]);
+
+    /*
+     * OK, now that we have all the Oyez records properly generated, it's time to go through them and supplement or update
+     * dates.csv as appropriate.  We'll want to do the same thing with SCDB-derived decisions records, too, so we'll read that
+     * data in as well.
+     */
+    let scdbCases = readJSON(sources.ld.decisions);
+    sortObjects(scdbCases, ["usCite", "dateDecision"]);
+
+    let updateValues = function(target, source, prop) {
+        let change = false;
+        let targetValue = target[prop];
+        if (prop == "dateDecision" && targetValue.length > 10) {
+            targetValue = sprintf("%#Y-%#02M-%#02D", parseDate(targetValue));
+        }
+        if (targetValue != source[prop]) {
+            warning("%s %s (%s) differs from %s (%s) - %s (%s)\n", "date.csv", prop, target[prop], "SCDB", source[prop], target.caseTitle, target.usCite);
+            // change = true;
+        }
+        return change;
+    };
+
+    scdbCases.forEach((caseData) => {
+        let usCite = caseData.usCite;
+        let docket = caseData.docket;
+        let caseTitle = caseData.caseTitle || caseData.caseName;
+        let dateDecision = caseData.dateDecision;
+        let caseInfo = {
+            usCite: usCite,
+            docket: docket,
+            caseTitle: caseTitle,
+            dateArgument: caseData.dateArgument,
+            dateRearg: caseData.dateRearg,
+            advocatesPetitioner: "",
+            advocatesRespondent: "",
+            advocatesOther: "",
+            dateDecision: dateDecision,
+            source: "scdb"
+        };
+        let iDate = searchSortedObjects(dates, {usCite, dateDecision}, {caseTitle});
+        if (iDate >= 0) {
+            let dateInfo = dates[iDate];
+            if (dateInfo.dateArgument.indexOf(caseInfo.dateArgument) >= 0) {
+                caseInfo.dateArgument = dateInfo.dateArgument;
+            }
+            if (updateValues(dateInfo, caseInfo, "dateArgument")) {
+                additions = true;
+            }
+            if (!dateInfo.dateRearg && caseInfo.dateRearg) {
+                let i = dateInfo.dateArgument.indexOf(caseInfo.dateRearg);
+                if (i >= 0) {
+                    dateInfo.dateRearg = dateInfo.dateArgument.substr(i);
+                    if (i > 0) i--;
+                    dateInfo.dateArgument = dateInfo.dateArgument.substr(0, i);
+                }
+            }
+            if (dateInfo.dateRearg.indexOf(caseInfo.dateRearg) >= 0) {
+                caseInfo.dateRearg = dateInfo.dateRearg;
+            }
+            if (updateValues(dateInfo, caseInfo, "dateRearg")) {
+                additions = true;
+            }
+        } else {
+            iDate = searchSortedObjects(dates, {usCite}, {caseTitle});
+            if (iDate >= 0) {
+                let dateInfo = dates[iDate];
+                if (updateValues(dateInfo, caseInfo, "dateDecision")) {
+                    additions = true;
+                }
+            }
+            else if (usCite) {
+                insertSortedObject(dates, caseInfo, ["usCite", "dateDecision"]);
+                additions = true;
+            }
+        }
+    });
+
+    sortObjects(oyezCases, ["term", "usCite-numerical", "dateArgument"]);
     writeCSV(sources.oyez.cases_csv, oyezCases);
 
     if (additions) {
+        sortObjects(dates, ["usCite-numerical", "dateDecision"]);
         writeCSV(sources.ld.dates_csv, dates);
     }
     done();
