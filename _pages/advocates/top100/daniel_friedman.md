@@ -3164,6 +3164,50 @@ cases:
       - id: jpstevens
         name: "John Paul Stevens"
         majority: true
+  - id: "1981-068"
+    number: 73
+    termId: "1981-10"
+    title: "United States v. New Mexico"
+    docket: "80-702"
+    volume: "455"
+    page: "720"
+    usCite: "455 U.S. 720"
+    pdfSource: "loc"
+    dateArgument: "Tuesday, December 8, 1981"
+    dateDecision: "Wednesday, March 24, 1982"
+    urlOyez: "https://www.oyez.org/cases/1981/80-702"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: hablackmun
+    authorName: "Harry Blackmun"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: true
+      - id: lfpowell
+        name: "Lewis Powell"
+        majority: true
+      - id: whrehnquist
+        name: "William Rehnquist"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: true
+      - id: sdoconnor
+        name: "Sandra Day O'Connor"
+        majority: true
 ---
 
-Daniel M. Friedman argued 72 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/daniel_m_friedman).
+Daniel M. Friedman argued 73 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/daniel_m_friedman).

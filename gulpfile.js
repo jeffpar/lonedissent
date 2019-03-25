@@ -1050,6 +1050,26 @@ function readCSV(filePath, encoding="", encodeAs="")
 }
 
 /**
+ * writeCSVLine(row, keys)
+ *
+ * @param {object} row
+ * @param {Array.<string>} [keys]
+ * @return {string}
+ */
+function writeCSVLine(row, keys)
+{
+    let line = "";
+    if (!keys) keys = Object.keys(row);
+    keys.forEach((key) => {
+        if (line) line += ',';
+        let s = row[key];
+        if (typeof s == "string") s = '"' + he.decode(s).replace(/"/g, '""') + '"';
+        line += s;
+    });
+    return line;
+}
+
+/**
  * writeCSV(filePath, rows, fOverwrite)
  *
  * @param {string} filePath
@@ -1067,14 +1087,7 @@ function writeCSV(filePath, rows, fOverwrite=argv['overwrite'])
         });
         text += '\n';
         rows.forEach((row) => {
-            let line = "";
-            keys.forEach((key) => {
-                if (line) line += ',';
-                let s = row[key];
-                if (typeof s == "string") s = '"' + he.decode(s).replace(/"/g, '""') + '"';
-                line += s;
-            });
-            text += line + '\n';
+            text += writeCSVLine(row, keys) + '\n';
         });
     }
     writeFile(filePath, text, fOverwrite);
@@ -1479,6 +1492,23 @@ function getOyezDockets(docket_number, additional_docket_numbers)
 }
 
 /**
+ * hasOyezAudio(audio)
+ *
+ * @param {object} audio
+ * @return {boolean}
+ */
+function hasOyezAudio(audio)
+{
+    if (!audio || !audio.title || audio.unavailable ||
+        audio.title.indexOf("unavailable") >= 0 ||
+        audio.title.indexOf("No oral argument") >= 0) {
+        // TODO: See audio.public_note for more information
+        return false;
+    }
+    return true;
+}
+
+/**
  * readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
  *
  * @param {string} filePath
@@ -1555,12 +1585,8 @@ function readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
         if (caseDetail.oral_argument_audio) {
             caseDetail.oral_argument_audio.forEach((audio) => {
                 let date;
-                if (!audio.title ||
-                    audio.title.indexOf("unavailable") >= 0 ||
-                    audio.title.indexOf("No oral argument") >= 0 ||
-                    audio.title == "Oral argument") {
-                    return;
-                }
+                if (!hasOyezAudio(audio)) return;
+                if (audio.title == "Oral argument") return; // TODO: Determine whether this is ALWAYS indicative of a bogus argument entry
                 let match = audio.title.match(/([A-Z]+)\s+([0-9]+),\s+([0-9][0-9][0-9][0-9])/i);
                 if (match) {
                     date = parseDate(match[0]);
@@ -1626,23 +1652,26 @@ function readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
  * readOyezTranscriptSpeakers(filePath)
  *
  * @param {string} filePath
- * @return {Array}
+ * @return {Array|undefined}
  */
 function readOyezTranscriptSpeakers(filePath)
 {
-    let speakers = [];
-    let transcriptDetail = readJSON(filePath);
-    if (transcriptDetail && transcriptDetail.transcript) {
-        transcriptDetail.transcript.sections.forEach((section) => {
-            section.turns.forEach((turn) => {
-                if (turn.speaker && (!turn.speaker.roles || !turn.speaker.roles.length || turn.speaker.roles[0].type != "scotus_justice")) {
-                    let speaker = {name: turn.speaker.name, identifier: turn.speaker.identifier};
-                    if (searchObjects(speakers, speaker) < 0) {
-                        speakers.push(speaker);
+    let speakers;
+    let transcriptDetail = readJSON(filePath, {}, true);
+    if (transcriptDetail) {
+        speakers = [];
+        if (transcriptDetail.transcript) {
+            transcriptDetail.transcript.sections.forEach((section) => {
+                section.turns.forEach((turn) => {
+                    if (turn.speaker && (!turn.speaker.roles || !turn.speaker.roles.length || turn.speaker.roles[0].type != "scotus_justice")) {
+                        let speaker = {name: turn.speaker.name, identifier: turn.speaker.identifier};
+                        if (searchObjects(speakers, speaker) < 0) {
+                            speakers.push(speaker);
+                        }
                     }
-                }
+                });
             });
-        });
+        }
     }
     return speakers;
 }
@@ -2359,8 +2388,7 @@ function buildAdvocatesAll(done)
                 additions++;
             }
             let parseName = function(name, caseName, caseLink) {
-                let s = name.replace("Mc Connell", "McConnell").replace(" Carrison ", " Garrison ").replace("Ann O'Connell Adams", "Ann O'Connell");
-                s = s.replace(/\.([A-Z])/g, ". $1").replace(/[^A-Za-z ]/g, '').replace(/\s+/g, ' ').trim();
+                let s = name.replace(/\.([A-Z])/g, ". $1").replace(/[^A-Za-z ]/g, '').replace(/\s+/g, ' ').trim();
                 let parts = s.split(' ');
                 if (parts[0] == "Mr" || parts[0] == "Ms" || parts[0] == "Mrs" || parts[0] == "Miss") parts.splice(0, 1);
                 if (parts[1] == "Wm") parts[1] = "W";
@@ -2380,36 +2408,45 @@ function buildAdvocatesAll(done)
                 }
                 return parts;
             };
+            let repairName = function(name) {
+                name = name.replace("Mc Connell", "McConnell").replace(" Carrison ", " Garrison ").replace("Ann O'Connell Adams", "Ann O'Connell");
+                name = name.replace("Daniel B. Gruender", "Daniel F. Gruender").replace("Elizabeth Watkins Hulen Grayson", "Elizabeth Hulen Grayson").replace("Edward Benett Williams", "Edward Bennett Williams").replace("George Calvin Cochran","George Colvin Cochran").replace("Deborah K. Chasanow","Deborah H. K. Chasanow").replace("Cornelia T. Pillard","Cornelia T. L. Pillard");
+                return name;
+            };
             let dateToday = sprintf("%Y-%02M-%02D", new Date());
             casePaths.forEach((casePath) => {
-                let argued = false;
+                let argued = false, audioExists = false;
                 let caseData = readJSON(casePath);
                 if (!caseData.href) return;
                 let caseLink = caseData.href.replace("api", "www");
                 let dateArgued = getOyezDates(caseData.timeline, "Argued");
                 if (dateArgued && dateArgued <= dateToday) argued = true;
-                if (caseData.oral_argument_audio && !argued) {
-                    let audioExists = false;
+                if (caseData.oral_argument_audio) {
                     caseData.oral_argument_audio.forEach((audio) => {
-                        if (!audio.unavailable && audio.title != "No oral argument") audioExists = true;
+                        if (hasOyezAudio(audio)) audioExists = true;
                     });
-                    if (audioExists) {
+                    if (audioExists && !argued) {
                         warning("case %s (%s) not argued but has audio?\n", caseData.name, caseLink);
                         argued = true;
                     }
                 }
                 if (!argued) return;
                 let speakers = [], transcriptPath;
-                if (caseData.oral_argument_audio) {
+                if (audioExists) {
                     caseData.oral_argument_audio.forEach((audio) => {
                         transcriptPath = rootDir + sprintf(sources.oyez.arguments_json, caseData.term, caseData.docket_number, audio.id);
                         let transcriptSpeakers = readOyezTranscriptSpeakers(transcriptPath);
+                        if (!transcriptSpeakers) {
+                            audioExists = false;        // Yes, SOME audio may exist, but all we're capturing with this variable is whether ALL the audio exists
+                            return;
+                        }
                         transcriptSpeakers.forEach((speaker) => {
                             if (searchObjects(speakers, speaker) < 0) speakers.push(speaker);
                         });
                     });
                 }
                 if (!caseData.advocates || !caseData.advocates.length) {
+                    // TODO: Consider ALWAYS "folding" speaker names into advocates, not just when no advocates are listed, and dedupe downnstream
                     if (argv['detail']) warning("case %s (%s) has no advocates\n", caseData.name, caseLink);
                     caseData.advocates = [];
                     if (speakers.length) {
@@ -2436,6 +2473,7 @@ function buildAdvocatesAll(done)
                             }
                         }
                     }
+                    advocate.name = repairName(advocate.name);
                     let parts = parseName(advocate.name, caseData.name, caseLink);
                     if (!parts.length) return;
                     let advocateName = advocate.name;
@@ -2459,14 +2497,25 @@ function buildAdvocatesAll(done)
                         if (id == "unknown_advocate" || advocateEntry.name.replace(/[^A-Za-z ]/g, '').toLowerCase() == advocate.name.replace(/[^A-Za-z ]/g, '').toLowerCase()) {
                             matched = true;
                         } else {
+                            advocateEntry.name = repairName(advocateEntry.name);
                             let partsEntry = parseName(advocateEntry.name, caseData.name, caseLink);
                             if (parts.length == partsEntry.length) {
                                 if (parts.length >= 3 && parts[0] == partsEntry[0] && parts[parts.length-1] == partsEntry[parts.length-1]) {
-                                    if (parts[1].length == 1 && parts[1][0] == partsEntry[1][0]) {
+                                    if (parts[1] == partsEntry[1]) {
+                                        // The original middle name matches the current middle name...
+                                        matched = true;
+                                    }
+                                    else if (parts[1].length == 1 && parts[1][0] == partsEntry[1][0]) {
+                                        // The original middle name is only an initial, and it matches the current middle name first letter...
                                         advocateEntry.name = advocateName;
                                         matched = true;
                                     }
                                     else if (partsEntry[1].length == 1 && partsEntry[1][0] == parts[1][0]) {
+                                        // The current middle name is only an initial, and it matches the original middle name first letter...
+                                        matched = true;
+                                    }
+                                    else if (partsEntry[1].length == 1 && partsEntry[1].length == 1) {
+                                        // Both original and current middle name are only initials, so we're to presume a match...
                                         matched = true;
                                     }
                                 } else if (parts.length == 2 && parts[0] == partsEntry[0] && parts[1] == partsEntry[1]) {
@@ -4633,12 +4682,12 @@ function matchOyezDates(done)
             warning("unable to find case files: %s\n", sources.oyez.cases_json);
         } else {
             /*
-            * Build an arry of caseInfo records that include:
-            *
-            *      term,docket,usCite,caseTitle,dateArgument,dateRearg,advocatesPetitioner,advocatesRespondent,advocatesOther,dateDecision
-            *
-            * which we'll store in a hash by caseFile so that we can perform lookups for every advocate's file.
-            */
+             * Build an arry of caseInfo records that include:
+             *
+             *      term,docket,usCite,caseTitle,dateArgument,dateRearg,audioExists,advocatesPetitioner,advocatesRespondent,advocatesOther,dateDecision,caseLink
+             *
+             * which we'll store in a hash by caseFile so that we can perform lookups for every advocate's file.
+             */
             printf("reading OYEZ cases...\n");
             casePaths.forEach((casePath) => {
                 let caseData = readJSON(casePath);
@@ -4652,6 +4701,13 @@ function matchOyezDates(done)
                         warning("citation needed for %s\n", caseData.name);
                     }
                 }
+                let audioExists = false;
+                if (caseData.oral_argument_audio) {
+                    audioExists = true;
+                    caseData.oral_argument_audio.forEach((audio) => {
+                        if (!hasOyezAudio(audio)) audioExists = false;
+                    });
+                }
                 let caseFile = casePath.substr(rootDir.length);
                 let caseInfo = {
                     term: +caseData.term || 0,
@@ -4660,6 +4716,7 @@ function matchOyezDates(done)
                     caseTitle: caseData.name,
                     dateArgument: getOyezDates(caseData.timeline, "Argued"),
                     dateRearg: getOyezDates(caseData.timeline, "Reargued"),
+                    audioExists,
                     advocatesPetitioner: "",
                     advocatesRespondent: "",
                     advocatesOther: "",
@@ -4705,6 +4762,55 @@ function matchOyezDates(done)
             oyezCases.push(oyezHash[caseFile]);
         }
 
+        /*
+         * Let's see if there are any sets of records that should be merged before writing the final CSV.
+         */
+        let mergeFields = function(obj1, obj2, field, fieldsDupe=[]) {
+            let value1 = obj1[field], values1 = value1.split(',');
+            let value2 = obj2[field], values2 = value2.split(',');
+            if (values1.length && !values1[values1.length-1]) values1.pop();
+            if (values2.length && !values2[values2.length-1]) values2.pop();
+            values2.forEach((value) => {
+                if (values1.indexOf(value) < 0) {
+                    let duplicated = false;
+                    if (fieldsDupe.indexOf(field) >= 0) {
+                        fieldsDupe.forEach((dupe) => {
+                            if (dupe == field) return;
+                            if (obj1[dupe].indexOf(value) >= 0) duplicated = true;
+                        });
+                    }
+                    if (!duplicated) values1.push(value);
+                }
+            });
+            let valueNew = values1.join(',');
+            if (value1 != valueNew) {
+                obj1[field] = valueNew;
+                return true;
+            }
+            return false;
+        };
+
+        sortObjects(oyezCases, ["usCite", "dateDecision", "advocatesPetitioner", "advocatesRespondent"], -1);
+        let fields = ["docket", "dateArgument", "dateRearg", "advocatesPetitioner", "advocatesRespondent", "advocatesOther", "caseLink"];
+        let fieldsDupe = ["advocatesPetitioner", "advocatesRespondent", "advocatesOther"];
+
+        for (let i = 0; i < oyezCases.length; i++) {
+            let caseInfo = oyezCases[i];
+            let origInfo = writeCSVLine(caseInfo);
+            for (let j = i + 1; j < oyezCases.length; j++) {
+                let caseNext = oyezCases[j];
+                if (caseNext.usCite != caseInfo.usCite || caseNext.caseTitle.replace(/&/g, "and") != caseInfo.caseTitle.replace(/&/g, "and") || caseNext.dateDecision != caseInfo.dateDecision) break;
+                let merged = false;
+                fields.forEach((field) => {
+                    if (mergeFields(caseInfo, caseNext, field, fieldsDupe)) merged = true;
+                });
+                if (!merged) break;
+                printf("\nmerging:\n%6d: %s\n%6d: %s\n\t%s\n", i+1, origInfo, j+1, writeCSVLine(caseNext), writeCSVLine(caseInfo));
+                oyezCases.splice(j, 1);
+                j--;
+            }
+        }
+
         sortObjects(oyezCases, ["term", "usCite-numerical", "dateArgument"]);
         writeCSV(sources.oyez.cases_csv, oyezCases);
     }
@@ -4724,11 +4830,18 @@ function matchOyezDates(done)
             targetValue = sprintf("%#Y-%#02M-%#02D", parseDate(targetValue));
         }
         if (targetValue != source[prop]) {
-            warning("%s %s (%s) differs from %s (%s) - %s (%s)\n", "date.csv", prop, target[prop], sourceDesc, source[prop], target.caseTitle, target.usCite);
-            // change = true;
+            if (targetValue) {
+                warning("%s %s (%s) differs from %s (%s) - %s (%s)\n", "dates.csv", prop, target[prop], sourceDesc, source[prop], target.caseTitle, target.usCite);
+            }
+            if (sourceDesc == "oyez" && source[prop]) {
+                target[prop] = source[prop];
+                change = true;
+            }
         }
         return change;
     };
+
+    printf("\nchecking SCDB records...\n");
 
     scdbCases.forEach((caseData) => {
         let usCite = caseData.usCite;
@@ -4762,6 +4875,7 @@ function matchOyezDates(done)
                     dateInfo.dateRearg = dateInfo.dateArgument.substr(i);
                     if (i > 0) i--;
                     dateInfo.dateArgument = dateInfo.dateArgument.substr(0, i);
+                    additions = true;
                 }
             }
             if (dateInfo.dateRearg.indexOf(caseInfo.dateRearg) >= 0) {
@@ -4785,7 +4899,9 @@ function matchOyezDates(done)
         }
     });
 
+    printf("\nchecking OYEZ records...\n");
     sortObjects(oyezCases, ["dateArgument", "dateDecision"]);
+    let fields = ["dateArgument", "dateRearg", "advocatesPetitioner", "advocatesRespondent", "advocatesOther"];
 
     oyezCases.forEach((caseData) => {
         let usCite = caseData.usCite;
@@ -4798,21 +4914,28 @@ function matchOyezDates(done)
             caseTitle: caseTitle,
             dateArgument: caseData.dateArgument,
             dateRearg: caseData.dateRearg,
-            advocatesPetitioner: "",
-            advocatesRespondent: "",
-            advocatesOther: "",
+            advocatesPetitioner: caseData.advocatesPetitioner,
+            advocatesRespondent: caseData.advocatesRespondent,
+            advocatesOther: caseData.advocatesOther,
             dateDecision: dateDecision,
             source: "oyez"
         };
         let iDate = searchSortedObjects(dates, {usCite, dateDecision}, {caseTitle});
         if (iDate >= 0) {
             let dateInfo = dates[iDate];
-            if (updateValues(dateInfo, caseInfo, "dateArgument", caseInfo.source)) {
+            if (caseInfo.dateArgument.indexOf(dateInfo.dateArgument) == 0) {
+                dateInfo.dateArgument = caseInfo.dateArgument;
                 additions = true;
             }
-            if (updateValues(dateInfo, caseInfo, "dateRearg", caseInfo.source)) {
+            if (caseInfo.dateRearg.indexOf(dateInfo.dateRearg) == 0) {
+                dateInfo.dateRearg = caseInfo.dateRearg;
                 additions = true;
             }
+            fields.forEach((field) => {
+                if (updateValues(dateInfo, caseInfo, field, caseInfo.source)) {
+                    additions = true;
+                }
+            });
         } else {
             iDate = searchSortedObjects(dates, {usCite}, {caseTitle});
             if (iDate >= 0) {
@@ -6295,8 +6418,8 @@ function generateDownloadTasks(done)
                             }
                             let caseDetail = JSON.parse(json);
                             /*
-                                * If the case has no "oral_argument_audio" but its "Argued" date has passed, let's refresh it
-                                */
+                             * If the case has no "oral_argument_audio" but its "Argued" date has passed, let's refresh it
+                             */
                             if (!caseDetail.oral_argument_audio && id == sources.oyez.cases.force) {
                                 let dateArgued = getOyezDates(caseDetail.timeline, "Argued");
                                 let dateToday = sprintf("%Y-%02M-%02D", new Date());
@@ -6323,11 +6446,7 @@ function generateDownloadTasks(done)
                                 let usCite = (caseDetail.citation? getNewCite(+caseDetail.citation.volume, +caseDetail.citation.page) : "");
                                 let caseTitle = caseDetail.name;
                                 let audioTitle = audio.title;
-                                if (!audioTitle ||
-                                    audioTitle.indexOf("unavailable") >= 0 ||
-                                    audioTitle.indexOf("No oral argument") >= 0) {
-                                    return;
-                                }
+                                if (!hasOyezAudio(audio)) return;
                                 let docket = fixOyezDocketNumber(caseSummary.docket_number);
                                 let dateDecision = getOyezDates(caseDetail.timeline, "Decided");
                                 let dateArgument = getOyezDates(caseDetail.timeline, "Argued");
