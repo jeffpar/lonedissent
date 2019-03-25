@@ -4823,7 +4823,7 @@ function matchOyezDates(done)
     let scdbCases = readJSON(sources.ld.decisions);
     sortObjects(scdbCases, ["usCite", "dateDecision"]);
 
-    let updateValues = function(target, source, prop, sourceDesc) {
+    let updateValue = function(target, source, prop, sourceDesc) {
         let change = false;
         let targetValue = target[prop];
         if (prop == "dateDecision" && targetValue.length > 10) {
@@ -4866,7 +4866,7 @@ function matchOyezDates(done)
             if (dateInfo.dateArgument.indexOf(caseInfo.dateArgument) >= 0) {
                 caseInfo.dateArgument = dateInfo.dateArgument;
             }
-            if (updateValues(dateInfo, caseInfo, "dateArgument", caseInfo.source)) {
+            if (updateValue(dateInfo, caseInfo, "dateArgument", caseInfo.source)) {
                 additions = true;
             }
             if (!dateInfo.dateRearg && caseInfo.dateRearg) {
@@ -4881,14 +4881,14 @@ function matchOyezDates(done)
             if (dateInfo.dateRearg.indexOf(caseInfo.dateRearg) >= 0) {
                 caseInfo.dateRearg = dateInfo.dateRearg;
             }
-            if (updateValues(dateInfo, caseInfo, "dateRearg", caseInfo.source)) {
+            if (updateValue(dateInfo, caseInfo, "dateRearg", caseInfo.source)) {
                 additions = true;
             }
         } else {
             iDate = searchSortedObjects(dates, {usCite}, {caseTitle});
             if (iDate >= 0) {
                 let dateInfo = dates[iDate];
-                if (updateValues(dateInfo, caseInfo, "dateDecision", caseInfo.source)) {
+                if (updateValue(dateInfo, caseInfo, "dateDecision", caseInfo.source)) {
                     additions = true;
                 }
             }
@@ -4932,7 +4932,7 @@ function matchOyezDates(done)
                 additions = true;
             }
             fields.forEach((field) => {
-                if (updateValues(dateInfo, caseInfo, field, caseInfo.source)) {
+                if (updateValue(dateInfo, caseInfo, field, caseInfo.source)) {
                     additions = true;
                 }
             });
@@ -4940,7 +4940,7 @@ function matchOyezDates(done)
             iDate = searchSortedObjects(dates, {usCite}, {caseTitle});
             if (iDate >= 0) {
                 let dateInfo = dates[iDate];
-                if (updateValues(dateInfo, caseInfo, "dateDecision", caseInfo.source)) {
+                if (updateValue(dateInfo, caseInfo, "dateDecision", caseInfo.source)) {
                     additions = true;
                 }
             }
