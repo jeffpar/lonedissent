@@ -15,3 +15,312 @@ as Woman Advocate #218 and #222.  It's always possible there were two individual
 tried to "normalize" all the names, so that all appearances by the same person use the same name.  Some names may have changed over
 time (e.g., if they married and took their spouse's last name), but hopefully all the records in the spreadsheet use the advocate's
 original name, so that we don't misinterpret the same person as two different people.
+
+## Log of Date Corrections
+
+    [~/Sites/lonedissent/sources/ld] gulp dates --overwrite
+    [22:33:39] Working directory changed to ~/Sites/lonedissent
+    [22:33:39] Using gulpfile ~/Sites/lonedissent/gulpfile.js
+    [22:33:39] Starting 'dates'...
+    reading date records...
+    sorting date records by [usCite,dateDecision]...
+    checking SCDB records...
+    checking OYEZ records...
+
+    warning: dates.csv dateDecision (1967-10-19) differs from oyez (1967-10-09) - Bohannan v. Arizona ex rel. Smith (389 U.S. 1)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep389/usrep389001/usrep389001.pdf
+            accept oyez value (1967-10-09)? [y/n]: y
+    
+    warning: dates.csv dateDecision (1968-10-24) differs from oyez (1968-10-21) - FPC v. United Gas Pipe Line Co. (393 U.S. 71)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep393/usrep393071/usrep393071.pdf
+            accept oyez value (1968-10-21)? [y/n]: y
+    
+    warning: dates.csv dateDecision (1973-01-18) differs from oyez (1973-01-08) - Nebraska v. Iowa (409 U.S. 285)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep409/usrep409285/usrep409285.pdf
+            accept oyez value (1973-01-08)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1983-03-23) differs from oyez (1983-03-28) - Thurston Motor Lines, Inc. v. Jordan K. Rand, Ltd. (460 U.S. 533)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep460/usrep460533/usrep460533.pdf
+            accept oyez value (1983-03-28)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1990-02-26) differs from oyez (1990-02-27) - Texas v. New Mexico (494 U.S. 111)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep494/usrep494111/usrep494111.pdf
+            accept oyez value (1990-02-27)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1955-10-11) differs from oyez (1955-10-10) - Mississippi v. Louisiana (350 U.S. 5)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep350/usrep350005/usrep350005.pdf
+            accept oyez value (1955-10-10)? [y/n]: n
+            
+    warning: dates.csv dateDecision (1955-12-12) differs from oyez (1955-12-08) - Arizona v. California (350 U.S. 114)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep350/usrep350114/usrep350114.pdf
+            accept oyez value (1955-12-08)? [y/n]: n
+            
+    warning: dates.csv dateDecision (1957-06-10) differs from oyez (1956-06-11,1957-06-10) - Reid v. Covert (354 U.S. 1)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep354/usrep354001/usrep354001.pdf
+            accept oyez value (1956-06-11,1957-06-10)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1956-10-18) differs from oyez (1956-10-08,1956-10-09) - Yates v. United States (354 U.S. 298)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep354/usrep354298/usrep354298.pdf
+            accept oyez value (1956-10-08,1956-10-09)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1956-10-19) differs from oyez (1956-10-09,1956-10-10) - Yates v. United States (355 U.S. 66)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep355/usrep355066/usrep355066.pdf
+            accept oyez value (1956-10-09,1956-10-10)? [y/n]: y
+            
+    warning: dates.csv dateRearg (1957-06-03) differs from oyez () - Scales v. United States (355 U.S. 1)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep355/usrep355001/usrep355001.pdf
+            accept oyez value ()? [y/n]: y
+            
+    warning: dates.csv dateRearg (1957-06-03) differs from oyez () - Lightfoot v. United States (355 U.S. 2)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep355/usrep355002/usrep355002.pdf
+            accept oyez value ()? [y/n]: y
+            
+    warning: dates.csv dateArgument (1956-11-08) differs from oyez (1956-11-13) - Nilva v. United States (352 U.S. 385)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep352/usrep352385/usrep352385.pdf
+            accept oyez value (1956-11-13)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1956-12-04) differs from oyez (1957-03-04,1957-03-05) - ARKANSAS &amp; LOUISIANA MISSOURI RAILWAY CO. et al. v. AMARILLO-BORGER EXPRESS, INC., ET AL (352 U.S. 1028)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep352/usrep3521028/usrep3521028.pdf
+            accept oyez value (1957-03-04,1957-03-05)? [y/n]: n
+            
+    warning: dates.csv dateDecision (1957-06-03) differs from oyez (1957-06-02) - General Electric Co. v. Local 205 (353 U.S. 547)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep353/usrep353547/usrep353547.pdf
+            accept oyez value (1957-06-02)? [y/n]: n
+            
+    warning: dates.csv dateDecision (1959-03-30) differs from oyez (1958-01-06,1959-03-30) - Bartkus v. Illinois (359 U.S. 121)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep359/usrep359121/usrep359121.pdf
+            accept oyez value (1958-01-06,1959-03-30)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1958-05-09) differs from oyez (1958-04-09,1958-04-10) - FTC v. National Casualty Co. (357 U.S. 560)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep357/usrep357560/usrep357560.pdf
+            accept oyez value (1958-04-09,1958-04-10)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1960-03-21) differs from oyez (1958-06-16,1960-03-21) - Flora v. United States (362 U.S. 145)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep362/usrep362145/usrep362145.pdf
+            accept oyez value (1958-06-16,1960-03-21)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1958-09-11) differs from oyez (1958-08-28,1958-09-11) - Cooper v. Aaron (358 U.S. 1)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep358/usrep358001/usrep358001.pdf
+            accept oyez value (1958-08-28,1958-09-11)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1959-01-20) differs from oyez (1959-01-21) - Smith v. United States (360 U.S. 1)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep360/usrep360001/usrep360001.pdf
+            accept oyez value (1959-01-21)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1959-03-30) differs from oyez (1959-03-26,1959-03-30) - Koller v. United States (359 U.S. 309)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep359/usrep359309/usrep359309.pdf
+            accept oyez value (1959-03-26,1959-03-30)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1959-11-20) differs from oyez (1959-10-20) - Smith v. California (361 U.S. 147)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep361/usrep361147/usrep361147.pdf
+            accept oyez value (1959-10-20)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1960-06-20) differs from oyez (1960-01-20) - Hannah v. Larche (363 U.S. 420)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep363/usrep363420/usrep363420.pdf
+            accept oyez value (1960-01-20)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1960-03-30) differs from oyez (1960-03-29,1960-03-30) - Massey Motors, Inc. v. United States (364 U.S. 92)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep364/usrep364092/usrep364092.pdf
+            accept oyez value (1960-03-29,1960-03-30)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1960-03-31) differs from oyez (1960-03-30,1960-03-31) - Norstrand v. Little (362 U.S. 474)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep362/usrep362474/usrep362474.pdf
+            accept oyez value (1960-03-30,1960-03-31)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1960-11-21) differs from oyez (1960-11-10) - Thomas v. Virginia (364 U.S. 443)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep364/usrep364443/usrep364443.pdf
+            accept oyez value (1960-11-10)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1962-12-05) differs from oyez (1961-12-05) - Gibson v. Florida Legislative Investigation Comm. (372 U.S. 539)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep372/usrep372539/usrep372539.pdf
+            accept oyez value (1961-12-05)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1961-12-07) differs from oyez (1961-12-06,1961-12-07,1961-12-11,1961-12-12) - Russell v. United States (369 U.S. 749)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep369/usrep369749/usrep369749.pdf
+            accept oyez value (1961-12-06,1961-12-07,1961-12-11,1961-12-12)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1961-12-14) differs from oyez (1961-12-13,1961-12-14) - Organized Village of Kake v. Egan (369 U.S. 60)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep369/usrep369060/usrep369060.pdf
+            accept oyez value (1961-12-13,1961-12-14)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1962-11-13) differs from oyez (1962-01-08,1962-01-09,1962-01-10,1962-01-11) - Arizona v. California (373 U.S. 546)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep373/usrep373546/usrep373546.pdf
+            accept oyez value (1962-01-08,1962-01-09,1962-01-10,1962-01-11)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1962-10-08) differs from oyez (1962-02-19) - Townsend v. Sain (372 U.S. 293)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep372/usrep372293/usrep372293.pdf
+            accept oyez value (1962-02-19)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1962-12-05) differs from oyez (1962-03-27,1962-03-28) - United States v. Gilmore (372 U.S. 39)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep372/usrep372039/usrep372039.pdf
+            accept oyez value (1962-03-27,1962-03-28)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1962-10-08) differs from oyez (1962-03-29,1962-04-02) - Wong Sun v. United States (371 U.S. 471)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep371/usrep371471/usrep371471.pdf
+            accept oyez value (1962-03-29,1962-04-02)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1963-01-16) differs from oyez (1962-04-17) - Douglas v. California (372 U.S. 353)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep372/usrep372353/usrep372353.pdf
+            accept oyez value (1962-04-17)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1962-12-06) differs from oyez (1962-04-18,1962-04-19) - Yellin v. United States (374 U.S. 109)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep374/usrep374109/usrep374109.pdf
+            accept oyez value (1962-04-18,1962-04-19)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1962-11-05) differs from oyez (1962-10-16) - Southern Constr. Co. v. Pickard (371 U.S. 57)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep371/usrep371057/usrep371057.pdf
+            accept oyez value (1962-10-16)? [y/n]: n
+            
+    warning: dates.csv dateDecision (1963-11-12) differs from oyez (1963-11-21) - United States v. Zacks (375 U.S. 59)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep375/usrep375059/usrep375059.pdf
+            accept oyez value (1963-11-21)? [y/n]: n
+            
+    warning: dates.csv dateDecision (1963-12-16) differs from oyez (1963-11-12) - Aldrich v. Aldrich (375 U.S. 249)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep375/usrep375249/usrep375249.pdf
+            accept oyez value (1963-11-12)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1965-11-16) differs from oyez (1963-12-10,1965-11-16) - Louisiana v. Mississippi (384 U.S. 24)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep384/usrep384024/usrep384024.pdf
+            accept oyez value (1963-12-10,1965-11-16)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1964-04-30) differs from oyez (1964-04-29,1964-04-30) - Hudson Distributors, Inc. v. Eli Lilly &amp; Co. (377 U.S. 386)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep377/usrep377386/usrep377386.pdf
+            accept oyez value (1964-04-29,1964-04-30)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1965-12-20) differs from oyez (1965-12-07) - Automobile Workers v. Scofield (382 U.S. 205)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep382/usrep382205/usrep382205.pdf
+            accept oyez value (1965-12-07)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1965-11-11) differs from oyez (1965-11-10,1965-11-15) - United States v. Johnson (383 U.S. 169)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep383/usrep383169/usrep383169.pdf
+            accept oyez value (1965-11-10,1965-11-15)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1966-12-16) differs from oyez (1966-12-06) - In re Gault (387 U.S. 1)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep387/usrep387001/usrep387001.pdf
+            accept oyez value (1966-12-06)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1967-04-10) differs from oyez (1967-04-10,2016-12-06) - State Farm Fire &amp; Casualty Co. v. Tashire (386 U.S. 523)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep386/usrep386523/usrep386523.pdf
+            accept oyez value (1967-04-10,2016-12-06)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1967-04-18) differs from oyez (1967-04-17,1967-04-18) - Moody v. Flowers (387 U.S. 97)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep387/usrep387097/usrep387097.pdf
+            accept oyez value (1967-04-17,1967-04-18)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1969-05-19) differs from oyez (1969-01-22) - Zenith Radio Corp. v. Hazeltine Research, Inc. (395 U.S. 100)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep395/usrep395100/usrep395100.pdf
+            accept oyez value (1969-01-22)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1969-04-24) differs from oyez (1969-04-21) - Sniadach v. Family Finance Corp. of Bay View (395 U.S. 337)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep395/usrep395337/usrep395337.pdf
+            accept oyez value (1969-04-21)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1969-04-24) differs from oyez (1969-04-21) - Powell v. McCormack (395 U.S. 486)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep395/usrep395486/usrep395486.pdf
+            accept oyez value (1969-04-21)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1969-11-24) differs from oyez (1969-10-14) - Hall v. Beals (396 U.S. 45)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep396/usrep396045/usrep396045.pdf
+            accept oyez value (1969-10-14)? [y/n]: n
+            
+    warning: dates.csv dateDecision (1969-11-24) differs from oyez (1969-10-22) - Brockington v. Rhodes (396 U.S. 41)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep396/usrep396041/usrep396041.pdf
+            accept oyez value (1969-10-22)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1970-05-05) differs from oyez (1970-03-05) - United States v. Armour &amp; Co. (398 U.S. 268)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep398/usrep398268/usrep398268.pdf
+            accept oyez value (1970-03-05)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1970-01-21) differs from oyez (1970-10-22) - Hickel v. Oil Shale Corp. (400 U.S. 48)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep400/usrep400048/usrep400048.pdf
+            accept oyez value (1970-10-22)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1971-12-06) differs from oyez (1971-12-08) - Chemical Workers v. Pittsburgh Plate Glass Co. (404 U.S. 157)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep404/usrep404157/usrep404157.pdf
+            accept oyez value (1971-12-08)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1975-04-14,1975-04-15) differs from oyez (1975-04-15,1975-04-16) - Ivan Allen Co. v. United States (422 U.S. 617)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep422/usrep422617/usrep422617.pdf
+            accept oyez value (1975-04-15,1975-04-16)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1976-03-31) differs from oyez (1976-03-30,1976-03-31) - Roberts v. Louisiana (428 U.S. 325)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep428/usrep428325/usrep428325.pdf
+            accept oyez value (1976-03-30,1976-03-31)? [y/n]: y
+            
+    warning: dates.csv dateArgument (1977-01-10,1977-01-11) differs from oyez (1977-01-10) - East Tex. Motor Freight System, Inc. v. Rodriguez (431 U.S. 395)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep431/usrep431395/usrep431395.pdf
+            accept oyez value (1977-01-10)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1979-02-22) differs from oyez (1978-02-22) - Toll v. Moreno (441 U.S. 458)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep441/usrep441458/usrep441458.pdf
+            accept oyez value (1978-02-22)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1982-01-12) differs from oyez (1982-01-11) - Charles D. Bonanno Linen Service, Inc. v. NLRB (454 U.S. 404)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep454/usrep454404/usrep454404.pdf
+            accept oyez value (1982-01-11)? [y/n]: n
+            
+    warning: dates.csv dateArgument (1983-05-03) differs from oyez (1982-02-24) - Zant v. Stephens (462 U.S. 862)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep462/usrep462862/usrep462862.pdf
+            accept oyez value (1982-02-24)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1987-03-24) differs from oyez (1987-03-25) - Missouri v. Blair (480 U.S. 698)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep480/usrep480698/usrep480698.pdf
+            accept oyez value (1987-03-25)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1987-03-24) differs from oyez (1987-03-25) - Johnson v. Transportation Agency, Santa Clara Cty. (480 U.S. 616)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep480/usrep480616/usrep480616.pdf
+            accept oyez value (1987-03-25)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1987-03-24) differs from oyez (1987-03-25) - Alaska Airlines, Inc. v. Brock (480 U.S. 678)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep480/usrep480678/usrep480678.pdf
+            accept oyez value (1987-03-25)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1987-03-24) differs from oyez (1987-03-25) - Lynaugh v. Petty (480 U.S. 699)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep480/usrep480699/usrep480699.pdf
+            accept oyez value (1987-03-25)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1988-04-25) differs from oyez (1989-06-15) - Patterson v. McLean Credit Union (485 U.S. 617)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep485/usrep485617/usrep485617.pdf
+            accept oyez value (1989-06-15)? [y/n]: n
+            
+    warning: dates.csv dateDecision (1988-06-27) differs from oyez (1988-06-29) - Bowen v. Kendrick (487 U.S. 589)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep487/usrep487589/usrep487589.pdf
+            accept oyez value (1988-06-29)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1989-01-10) differs from oyez (1989-01-01) - Perry v. Leeke (488 U.S. 272)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep488/usrep488272/usrep488272.pdf
+            accept oyez value (1989-01-01)? [y/n]: n
+            
+    warning: dates.csv dateDecision (1989-07-03) differs from oyez (1989-07-02) - County of Allegheny v. ACLU (492 U.S. 573)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep492/usrep492573/usrep492573.pdf
+            accept oyez value (1989-07-02)? [y/n]: n
+            
+    warning: dates.csv dateDecision (1990-01-10) differs from oyez (1990-01-09) - FW/PBS, Inc. v. Dallas (493 U.S. 215)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep493/usrep493215/usrep493215.pdf
+            accept oyez value (1990-01-09)? [y/n]: y
+            
+    warning: dates.csv dateDecision (1989-11-13) differs from oyez (1989-11-28) - Michigan Citizens for Independent Press v. Thornburgh (493 U.S. 38)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep493/usrep493038/usrep493038.pdf
+            accept oyez value (1989-11-28)? [y/n]: n
+            
+    warning: dates.csv dateDecision (1993-12-13) differs from oyez (1991-06-17) - Oklahoma v. New Mexico (510 U.S. 126)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep510/usrep510126/usrep510126.pdf
+            accept oyez value (1991-06-17)? [y/n]: n
+            
+    warning: dates.csv dateDecision (1995-01-19) differs from oyez (1995-01-18) - NationsBank of N. C., N. A. v. Variable Annuity Life Ins. Co. (513 U.S. 251)
+            refer to https://cdn.loc.gov/service/ll/usrep/usrep513/usrep513251/usrep513251.pdf
+            accept oyez value (1995-01-18)? [y/n]: y
+            
+    warning: dates.csv dateDecision (2006-10-13) differs from oyez (2006-11-13) - Ayers v. Belmontes (549 U.S. 7)
+            accept oyez value (2006-11-13)? [y/n]: y
+            
+    warning: dates.csv dateDecision (2007-01-19) differs from oyez (2007-01-09) - United States v. Resendiz-Ponce (549 U.S. 102)
+            accept oyez value (2007-01-09)? [y/n]: y
+            
+    warning: dates.csv dateDecision (2007-02-20) differs from oyez (2007-02-21) - Wallace v. Kato (549 U.S. 384)
+            accept oyez value (2007-02-21)? [y/n]: y
+            
+    warning: dates.csv dateDecision (2008-06-26) differs from oyez (2008-06-25) - Exxon Shipping Co. v. Baker (554 U.S. 471)
+            accept oyez value (2008-06-25)? [y/n]: y
+
+    [22:55:34] Finished 'dates' after 22 min

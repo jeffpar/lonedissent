@@ -4825,23 +4825,38 @@ function matchOyezDates(done)
 
     let updateValue = function(target, source, prop, sourceDesc) {
         let change = false;
-        let targetValue = target[prop];
-        if (prop == "dateDecision" && targetValue.length > 10) {
-            targetValue = sprintf("%#Y-%#02M-%#02D", parseDate(targetValue));
-        }
-        if (targetValue != source[prop]) {
-            if (targetValue) {
-                warning("%s %s (%s) differs from %s (%s) - %s (%s)\n", "dates.csv", prop, target[prop], sourceDesc, source[prop], target.caseTitle, target.usCite);
+        if (target.source.indexOf(sourceDesc) < 0) {
+            let targetValue = target[prop];
+            if (prop == "dateDecision" && targetValue.length > 10) {
+                targetValue = sprintf("%#Y-%#02M-%#02D", parseDate(targetValue));
             }
-            if (sourceDesc == "oyez" && source[prop]) {
-                target[prop] = source[prop];
-                change = true;
+            if (targetValue != source[prop]) {
+                let accept = undefined;
+                if (sourceDesc == "oyez" && source[prop]) accept = true;
+                if (targetValue) {
+                    accept = false;
+                    warning("%s %s (%s) differs from %s (%s) - %s (%s)\n", "dates.csv", prop, target[prop], sourceDesc, source[prop], target.caseTitle, target.usCite);
+                    printf("\trefer to %s\n", getLOCURL(target.usCite));
+                    if (readLineSync.keyInYN(sprintf("\taccept %s value (%s)?", sourceDesc, source[prop]))) {
+                        accept = true;
+                    }
+                }
+                if (accept) {
+                    target[prop] = source[prop];
+                    if (target.source) target.source += ',';
+                    target.source += sourceDesc;
+                    change = true;
+                }
+                else if (accept === false) {
+                    if (target.source) target.source += ',';
+                    target.source += sourceDesc + "-verified";
+                }
             }
         }
         return change;
     };
 
-    printf("\nchecking SCDB records...\n");
+    printf("checking SCDB records...\n");
 
     scdbCases.forEach((caseData) => {
         let usCite = caseData.usCite;
@@ -4899,7 +4914,7 @@ function matchOyezDates(done)
         }
     });
 
-    printf("\nchecking OYEZ records...\n");
+    printf("checking OYEZ records...\n");
     sortObjects(oyezCases, ["dateArgument", "dateDecision"]);
     let fields = ["dateArgument", "dateRearg", "advocatesPetitioner", "advocatesRespondent", "advocatesOther"];
 
