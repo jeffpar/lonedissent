@@ -6882,4 +6882,9 @@ It took some effort to track down all [157 arguments](https://github.com/jeffpar
 (eg, [Lawrence G. Wallace](https://www.oyez.org/advocates/lawrence_g_wallace) and [Lawrence Gerald Wallace](https://www.oyez.org/advocates/lawrence_gerald_wallace)), and it has not yet identified the lawyers in many (usually older) cases, such as the case in which Mr. Wallace first argued
 on March 25, 1968: [Joint Industry Board of the Electrical Industry v. United States](https://www.oyez.org/cases/1967/616).
 
+As of March 2019, Oyez does not list Mr. Wallace in at least two cases:
+
+- [Phillips v. Martin Marietta Corporation](https://www.oyez.org/cases/1970/73), argued December 9, 1970
+- [Laborers Health & Welfare Trust Fund for Northern California v. Advanced Lightweight Concrete Company, Inc.](https://www.oyez.org/cases/1987/85-2079), argued November 10, 1987
+
 It's also important to note that the Court is counting individual *appearances*, not *cases*.  For example, in [Beer v. United States](https://www.oyez.org/cases/1974/73-1869), Mr. Wallace argued on March 26, 1975 and then reargued the same case on November 12, 1975.
