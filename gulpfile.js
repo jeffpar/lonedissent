@@ -4565,6 +4565,12 @@ function convertTranscripts(done)
             text += "### Transcript of Oral Argument" + (dateArgument? " on " + dateArgument : "") + "\n\n";
             let transcript = readFile(filePath);
             if (transcript) {
+                /*
+                 * The XML in these TXT files is not always well-formed.  For example, there are instances
+                 * where speaker names are wrapped with two "<speaker>" tags, instead of "<speaker>...</speaker>",
+                 * so we fix that first.
+                 */
+                transcript = transcript.replace(/<speaker>([^<]*)<speaker>/g, "<speaker>$1</speaker>");
                 text += "<div style=\"text-align:justify;width:75%;margin:auto;\">\n";
                 let speakers = transcript.split(/<speaker>(.*?)<\/speaker>/);
                 for (let i = 1; i < speakers.length; i += 2) {
