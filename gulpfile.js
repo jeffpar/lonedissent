@@ -2407,7 +2407,7 @@ function buildAdvocates(done)
                 text += "[documents](https://supremecourthistory.org/history_oral_advocates.html) created by [Marlene Trestman](https://www.marlenetrestman.com),\n";
                 text += "who painstakingly extracted appearances of women advocates from the [Journals of the Supreme Court of the United States](https://www.supremecourt.gov/orders/journal.aspx)\n";
                 text += "for October Term 1880 through October Term 1999.  This was later supplemented with data from 2000 through 2016 by Julie Silverbrook and Emma Shainwald.\n";
-                text += "We have extended the data through the end of February 2019, consulting a combination of Journals and [Transcripts](https://www.supremecourt.gov/oral_arguments/argument_transcript/2018).\n\n";
+                text += "We have extended the data through the end of the 2018 term, consulting a combination of Journals and [Transcripts](https://www.supremecourt.gov/oral_arguments/argument_transcript/2018).\n\n";
                 /*
                  * topWomen comes from our women-advocates spreadsheet, which doesn't store IDs, just "normalized" names
                  * (ie, the names the advocates used on their first argument).  So we have to walk our list of advocates and

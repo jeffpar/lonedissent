@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://lonedissent.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lonedissent.org/" rel="alternate" type="text/html" /><updated>2019-04-01T11:25:40-07:00</updated><id>https://lonedissent.org/feed.xml</id><title type="html">Lone Dissent</title><subtitle>An Exercise in Supreme Obstinacy</subtitle><entry><title type="html">Supreme Court Opinion Announcements</title><link href="https://lonedissent.org/blog/2019/03/17/" rel="alternate" type="text/html" title="Supreme Court Opinion Announcements" /><published>2019-03-17T00:00:00-07:00</published><updated>2019-03-17T00:00:00-07:00</updated><id>https://lonedissent.org/blog/2019/03/supreme-court-opinion-announcements</id><content type="html" xml:base="https://lonedissent.org/blog/2019/03/17/">&lt;p&gt;Up until March 2019, the U.S. Supreme Court’s list of transcripts for the
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://lonedissent.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lonedissent.org/" rel="alternate" type="text/html" /><updated>2019-06-28T11:00:27-07:00</updated><id>https://lonedissent.org/feed.xml</id><title type="html">Lone Dissent</title><subtitle>An Exercise in Supreme Obstinacy</subtitle><entry><title type="html">Supreme Court Opinion Announcements</title><link href="https://lonedissent.org/blog/2019/03/17/" rel="alternate" type="text/html" title="Supreme Court Opinion Announcements" /><published>2019-03-17T00:00:00-07:00</published><updated>2019-03-17T00:00:00-07:00</updated><id>https://lonedissent.org/blog/2019/03/supreme-court-opinion-announcements</id><content type="html" xml:base="https://lonedissent.org/blog/2019/03/17/">&lt;p&gt;Up until March 2019, the U.S. Supreme Court’s list of transcripts for the
 &lt;a href=&quot;https://www.supremecourt.gov/oral_arguments/archived_transcripts/1973&quot;&gt;1973 Term&lt;/a&gt;
 included the following transcripts from July 1974:&lt;/p&gt;
 
@@ -283,7 +283,7 @@ the date of the term was listed.  This occurred, for example, in &lt;a href=&quo
 &lt;p&gt;Unfortunately, SCDB appears to have morphed such dates into the first day of the first month of the term, resulting in a date (e.g., February 1, 1809) that appears to be precise but is almost certainly incorrect.&lt;/p&gt;
 
 &lt;p&gt;NOTE: As a public service, I have extracted all the decision dates &lt;em&gt;and&lt;/em&gt; argument dates from the Supreme Court’s
-&lt;a href=&quot;/sources/scotus/dates/decisionDates.pdf&quot;&gt;Dates of Supreme Court Decisions and Arguments&lt;/a&gt; and produced an easy-to-use
+&lt;a href=&quot;/sources/scotus/dates/SCOTUS_Dates_of_Decisions-2008-02-21.pdf&quot;&gt;Dates of Supreme Court Decisions and Arguments&lt;/a&gt; and produced an easy-to-use
 &lt;a href=&quot;https://github.com/jeffpar/lonedissent/blob/master/sources/ld/dates.csv&quot;&gt;spreadsheet&lt;/a&gt;.  I recommend using this file instead of the one on the
 &lt;a href=&quot;https://free.law/2011/05/25/updated-supreme-court-case-dates-and-the-first-release-of-early-scotus-data-in-machine-readable-form/&quot;&gt;Free Law&lt;/a&gt; website,
 because the last time I checked, the dates in their file were badly scrambled, and it didn’t include any argument dates.
@@ -295,7 +295,7 @@ The dates on the first few lines of their file:&lt;/p&gt;
 ...
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;clearly do not match those provided in the Court’s &lt;a href=&quot;/sources/scotus/dates/decisionDates.pdf&quot;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;clearly do not match those provided in the Court’s &lt;a href=&quot;/sources/scotus/dates/SCOTUS_Dates_of_Decisions-2008-02-21.pdf&quot;&gt;PDF&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here’s a list of all the corrections we’ve made to &lt;em&gt;dateDecision&lt;/em&gt; in SCDB thus far, with links to the source material
 used, so that they can all be verified.  This is a degree of transparency that you will not find on the SCDB website.&lt;/p&gt;
