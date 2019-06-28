@@ -4,6 +4,19 @@
  * @copyright © Jeff Parsons 2018-2019
  * @license GPL-3.0
  *
+ * Gulp Tasks
+ * ----------
+ *
+ * To get *just* the latest SCOTUS transcripts, run the following command twice (once to get new HTML files, and
+ * again to get any new PDFs listed in the HTML files):
+ *
+ *      gulp download --source=scotus
+ *
+ * NOTE: Now that the 2018 term has ended, I've updated _sources.json to advance the current term from 2018 to 2019.
+ *
+ * Notes on Supreme Court Terms
+ * ----------------------------
+ *
  * The following excerpts from "Explanation of certain items in the 'Justices of the Supreme Court' Table"
  * (https://www.thegreenpapers.com/Hx/JusticesExplanation.html) are helpful in understanding the evolution
  * of Supreme Court terms; however, it doesn't touch on any of the "Special Terms" established by the Court
@@ -6496,6 +6509,7 @@ function generateDownloadTasks(done)
 {
     let sourceNames = Object.keys(sources);
     sourceNames.forEach((source) => {
+        if (argv['source'] && source != argv['source']) return;
         let downloads = sources[source].download;
         if (!downloads) return;
         let downloadGroups = Object.keys(downloads);
@@ -6580,6 +6594,11 @@ function generateDownloadTasks(done)
             }
         });
     });
+
+    if (argv['source']) {
+        done();
+        return;
+    }
 
     let rowsLOC = readCSV(sources.ld.citationsLOC_csv);
     rowsLOC.forEach((cite) => {
@@ -6992,6 +7011,22 @@ function scrapeFiles(done)
 }
 
 /**
+ * tokenizeFile(done)
+ *
+ * @param {function()} done
+ */
+function tokenizeFile(done)
+{
+    let text = readFile(argv['file']);
+    if (text) {
+        printf("%d chars\n", text.length);
+        text = text.replace(/[=]+[\s\S]+?Reports/g, '').replace(/\.[.]+/g, ' ').replace(/\s+/g, '\n');
+        writeFile(path.basename(argv['file'], ".txt") + "-tokens.txt", text);
+    }
+    done();
+}
+
+/**
  * setRebuild(done)
  *
  * @param {function()} done
@@ -7057,5 +7092,6 @@ gulp.task("merge", gulp.series(mergeSCDBDockets));
 gulp.task("rebuild", gulp.series(setRebuild, findAllDecisions, findAllJustices, findLonerDecisions, findLonerJustices, findLonerParties, buildAdvocates, convertTranscripts));
 gulp.task("report", gulp.series(reportChanges));
 gulp.task("scrape", scrapeFiles);
+gulp.task("tokenize", tokenizeFile);
 gulp.task("tests", gulp.series(testDates));
 gulp.task("default", usage);

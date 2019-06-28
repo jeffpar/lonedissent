@@ -25,7 +25,7 @@ including numerous corrections from [Citations](https://github.com/jeffpar/loned
 extracted from the [Library of Congress](https://www.loc.gov/collections/united-states-reports/?st=list),
 and [Argument and Decision Dates](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/dates.csv)
 of early cases have been extracted from the Supreme Court Library document
-"[DATES OF SUPREME COURT DECISIONS AND ARGUMENTS: UNITED STATES REPORTS VOLUMES 2 – 107 (1791 – 1882)](/sources/scotus/dates/decisionDates.pdf)".
+"[DATES OF SUPREME COURT DECISIONS AND ARGUMENTS: UNITED STATES REPORTS VOLUMES 2 – 107 (1791 – 1882)](/sources/scotus/dates/SCOTUS_Dates_of_Decisions-2008-02-21.pdf)".
 
 To make good use of the raw SCDB data, you need tables that map all the numeric
 codes to what they actually represent.  To that end, SCDB provides a
@@ -236,7 +236,7 @@ The fact that an SCDB decision date falls on a Saturday *and* differs from the S
 that the SCDB date is wrong.  We will be relying on [our own import](https://github.com/jeffpar/lonedissent/blob/master/sources/ld/dates.csv)
 of SCOTUS decision dates until this gets resolved.
 
-Our list of warnings also includes cases appearing in the SCOTUS [Dates of Decisions](/sources/scotus/dates/decisionDates.pdf) document
+Our list of warnings also includes cases appearing in the SCOTUS [Dates of Decisions](/sources/scotus/dates/SCOTUS_Dates_of_Decisions-2008-02-21.pdf) document
 that do *not* appear in SCDB.  These may be cases that were simply overlooked, or intentionally omitted, or which *are* in SCDB
 but didn't match an entry in the SCOTUS document, either because of a date or citation discrepancy, or because of some ambiguity
 (eg, when multiple cases are recorded on the same page and therefore have the same citation).
