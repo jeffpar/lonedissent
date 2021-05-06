@@ -166,7 +166,7 @@
         "start": 1968,
         "stop": 1999,
         "url": "https://www.supremecourt.gov/oral_arguments/archived_transcripts/%d",
-        "dir": "/sources/scotus/transcripts/arguments/%d",
+        "dir": "/sources/scotus/transcripts/_files/arguments/%d",
         "file": "%d.html"
       },
       "transcriptNew": {
@@ -174,11 +174,11 @@
         "stop": 2019,
         "force": 2019,
         "url": "https://www.supremecourt.gov/oral_arguments/argument_transcript/%d",
-        "dir": "/sources/scotus/transcripts/arguments/%d",
+        "dir": "/sources/scotus/transcripts/_files/arguments/%d",
         "file": "%d.html"
       },
       "transcriptPDF": {
-        "files": "/sources/scotus/transcripts/arguments/$1/*.html",
+        "files": "/sources/scotus/transcripts/_files/arguments/$1/*.html",
         "pattern": "<td style=\"text-align: left;\">\\s*<(?:div|span)[^>]*>\\s*<a href='([^']*)'[^>]*>\\s*(.*?)\\s*</a>\\s*</(?:div|span)>\\s*<(?:div|span)[^>]*>\\s*([^<]*)\\s*</(?:div|span)>\\s*</td>\\s*<td[^>]*>\\s*([0-9]+)/([0-9]+)/([0-9]+)\\s*</td>",
         "transform": {
           "$2": ["^([0-9]+)(\\s*|-)Orig\\.?$", "$1-orig"],

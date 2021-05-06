@@ -3800,6 +3800,38 @@ function sortVotesBySeniority(decision, vars, courts, justices, fUseNamedCourt)
 }
 
 /**
+ * findWriter(decision, writer)
+ *
+ * @param {Decision} decision
+ * @param {string} writer (eg, "JPStevens")
+ * @return {number} (1 if wrote an opinion, 0 if not, and -1 if lone dissenter)
+ */
+function findWriter(decision, writer)
+{
+    let dissents = 0, result = 0, vote = 0, alignment = 0;
+    for (let i = 0; i < decision.justices.length; i++) {
+        let justice = decision.justices[i];
+        let dissent = (justice.vote == 2 || justice.vote == 6 || justice.vote == 7? -justice.vote : justice.vote);
+        if (justice.justiceName.indexOf(writer) >= 0) {
+            if (justice.opinion == 2 /* "justice wrote an opinion" */) result = dissent;
+            vote = dissent;
+        }
+        if (dissent < 0) dissents++;
+    }
+    /*
+     * If the justice was a dissenter but not a LONE dissenter, then we all we want to indicate is that they wrote an
+     * opinion (we don't care if it was a majority or minority opinion).
+     */
+    if (result < 0 && dissents > 1) result = -result;
+    /*
+     * This code deals with a special case: the justice didn't write anything (so result is 0), but their vote was a dissent,
+     * and it turned out to be the ONLY dissent; they were a silent lone dissenter, but a lone dissenter nonetheless.
+     */
+    if (result == 0 && vote < 0 && dissents == 1) result = vote;
+    return result;
+}
+
+/**
  * findDecisions()
  *
  * You can use the "--start" and "--stop" options within this task to extract subsets of the decision data
@@ -3881,6 +3913,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
     let caseTitle = argv['caseTitle'];
     let docket = argv['docket'] || argv['d'];
     if (argv['minVotes']) minVotes = +argv['minVotes'];
+    let writer = argv['writer'] || "";
 
     let text = argv['text'] || "";
     let findText = function(target) {
@@ -3937,7 +3970,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             printf("\nprocessing term %s...\n", termId);
         }
 
-        let searchResults = [];
+        let searchResults = [], writerResult = 0;
         decisions.forEach((decision) => {
             let dateDecision = decision.dateDecision;
             if (dateDecision.length == 7) dateDecision += '-28';
@@ -3951,45 +3984,47 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                                         if (!month || decision.dateDecision.indexOf(month) > 0) {
                                             if (!volume || !page && decision.usCite.indexOf(usCite) == 0 || volume && page && decision.usCite == usCite) {
                                                 if (!text || findText(decision.caseName)) {
-                                                    let datePrint = decision.dateDecision;
-                                                    if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || !reargued && (datePrint = decision.dateRearg).indexOf(argued) == 0 || reargued && (datePrint = decision.dateRearg).indexOf(reargued) == 0) {
-                                                        printf("%s: %s [%s] (%s) {%s}: %d-%d\n", datePrint, decision.caseTitle || decision.caseName, decision.docket, decision.usCite, decision.dateArgument + (decision.dateRearg? '|' + decision.dateRearg : ""), decision.majVotes, decision.minVotes);
-                                                        if (argv['detail']) {
-                                                            printf("\tcaseId: %s\n", decision.caseId);
-                                                            let dates = decision.dateArgument.split(',');
-                                                            dates.forEach((date) => { if (date) printf("\tdateArgument: \"%#C\"\n", date); });
-                                                            dates = decision.dateRearg.split(',');
-                                                            dates.forEach((date) => { if (date) printf("\tdateRearg: \"%#C\"\n", date); });
-                                                            if (decision.dateDecision) printf("\tdateDecision: \"%#C\"\n", decision.dateDecision);
-                                                            if (decision.usCite) printf("\tLibrary of Congress URL for %s: %s\n", decision.usCite, getLOCURL(decision.usCite));
-                                                            if (decision.caseNotes) printf("\tcaseNotes: %s\n", decision.caseNotes);
-                                                        }
-                                                        if (argv['transcript']) {
-                                                            let dates = decision.dateArgument.split(',');
-                                                            let dockets = decision.docket.split(',');
-                                                            dates.forEach((date) => {
-                                                                let term = getTerm(date);
-                                                                let files = glob.sync(rootDir + "/sources/other/transcripts/" + term.substr(0,4) + "/" + dockets[0] + "_" + date + "*.pdf");
-                                                                files.forEach((file) => {
-                                                                    printf("  - id: \"%s\"\n", decision.caseId);
-                                                                    printf("    termId: \"%s\"\n", term);
-                                                                    printf("    title: \"%s\"\n", decision.caseTitle || decision.caseName);
-                                                                    if (decision.docket) printf("    docket: \"%s\"\n", decision.docket);
-                                                                    if (decision.usCite) printf("    usCite: \"%s\"\n", decision.usCite);
-                                                                    printf("    dateArgument: \"%#C\"\n", date);
-                                                                    if (decision.dateDecision) printf("    dateDecision: \"%#C\"\n", decision.dateDecision);
-                                                                    printf("    pdfURL: \"%s\"\n", file.substr(rootDir.length));
-                                                                    file = file.replace(".pdf", ".jpg");
-                                                                    if (!fs.existsSync(file)) file = rootDir + "/images/thumbnails/transcript.jpg";
-                                                                    printf("    pdfThumb: \"%s\"\n", file.substr(rootDir.length));
+                                                    if (!writer || (writerResult = findWriter(decision, writer))) {
+                                                        let datePrint = decision.dateDecision;
+                                                        if (!argued || (datePrint = decision.dateArgument).indexOf(argued) == 0 || !reargued && (datePrint = decision.dateRearg).indexOf(argued) == 0 || reargued && (datePrint = decision.dateRearg).indexOf(reargued) == 0) {
+                                                            printf("%s: %s [%s] (%s) {%s}: %d-%d%s\n", datePrint, decision.caseTitle || decision.caseName, decision.docket, decision.usCite, decision.dateArgument + (decision.dateRearg? '|' + decision.dateRearg : ""), decision.majVotes, decision.minVotes, writerResult < 0? "*" : (writerResult == 1 || writerResult == 5? "**" : ""));
+                                                            if (argv['detail']) {
+                                                                printf("\tcaseId: %s\n", decision.caseId);
+                                                                let dates = decision.dateArgument.split(',');
+                                                                dates.forEach((date) => { if (date) printf("\tdateArgument: \"%#C\"\n", date); });
+                                                                dates = decision.dateRearg.split(',');
+                                                                dates.forEach((date) => { if (date) printf("\tdateRearg: \"%#C\"\n", date); });
+                                                                if (decision.dateDecision) printf("\tdateDecision: \"%#C\"\n", decision.dateDecision);
+                                                                if (decision.usCite) printf("\tLibrary of Congress URL for %s: %s\n", decision.usCite, getLOCURL(decision.usCite));
+                                                                if (decision.caseNotes) printf("\tcaseNotes: %s\n", decision.caseNotes);
+                                                            }
+                                                            if (argv['transcript']) {
+                                                                let dates = decision.dateArgument.split(',');
+                                                                let dockets = decision.docket.split(',');
+                                                                dates.forEach((date) => {
+                                                                    let term = getTerm(date);
+                                                                    let files = glob.sync(rootDir + "/sources/other/transcripts/" + term.substr(0,4) + "/" + dockets[0] + "_" + date + "*.pdf");
+                                                                    files.forEach((file) => {
+                                                                        printf("  - id: \"%s\"\n", decision.caseId);
+                                                                        printf("    termId: \"%s\"\n", term);
+                                                                        printf("    title: \"%s\"\n", decision.caseTitle || decision.caseName);
+                                                                        if (decision.docket) printf("    docket: \"%s\"\n", decision.docket);
+                                                                        if (decision.usCite) printf("    usCite: \"%s\"\n", decision.usCite);
+                                                                        printf("    dateArgument: \"%#C\"\n", date);
+                                                                        if (decision.dateDecision) printf("    dateDecision: \"%#C\"\n", decision.dateDecision);
+                                                                        printf("    pdfURL: \"%s\"\n", file.substr(rootDir.length));
+                                                                        file = file.replace(".pdf", ".jpg");
+                                                                        if (!fs.existsSync(file)) file = rootDir + "/images/thumbnails/transcript.jpg";
+                                                                        printf("    pdfThumb: \"%s\"\n", file.substr(rootDir.length));
+                                                                    });
                                                                 });
-                                                            });
-                                                        }
-                                                        searchResults.push(decision);
-                                                        if (decisionsAudited.indexOf(decision.caseId) < 0) {
-                                                            decisionsAudited.push(decision.caseId);
-                                                        } else {
-                                                            decisionsDuplicated.push(decision.caseId);
+                                                            }
+                                                            searchResults.push(decision);
+                                                            if (decisionsAudited.indexOf(decision.caseId) < 0) {
+                                                                decisionsAudited.push(decision.caseId);
+                                                            } else {
+                                                                decisionsDuplicated.push(decision.caseId);
+                                                            }
                                                         }
                                                     }
                                                 }
@@ -4175,6 +4210,12 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     if (minVotes == 1) {
                         /*
                          * Determine who the lone dissenter is now.
+                         *
+                         * TODO: Fix this, because it's missing some jurisdictional dissents (eg, Great Western Sugar Co. v. Nelson, 442 U.S. 92),
+                         * and including some cases it shouldn't (eg, HCSC-Laundry v. United States, 450 U.S. 1), where there was lone dissenting opinion
+                         * which did not represent a lone dissenting vote, because one or more other justices voted to dissent from jurisdiction.
+                         *
+                         * Of course, fixing it (or not) depends entirely on how you want to define "lone dissent".
                          */
                         let dissenterId = "", dissenterName = "";
                         for (let i = 0; i < decision.justices.length; i++) {
@@ -7027,6 +7068,206 @@ function tokenizeFile(done)
 }
 
 /**
+ * extractAudio(done)
+ *
+ * Example:
+ *
+ *      gulp extractAudio --type=argument --writer=JPStevens
+ *
+ * To verify:
+ *
+ *      gulp extractAudio --type=argument --writer=JPStevens --path=/Volumes/Storage/⁨Users/⁨Jeff/⁨OneDrive⁩/⁨SCOTUS⁩/⁨Justices⁩/⁨JPStevens⁩ --verify
+ *
+ * @param {function()} done
+ */
+function extractAudio(done)
+{
+    let writer = argv['writer'];
+    if (writer) {
+        let vars = readJSON(sources.scdb.vars);
+        let name = vars.justiceName.values[writer];
+        if (name) {
+            let cases = readFile("sources/ld/" + writer + ".txt");
+            if (cases) {
+                let filePaths = glob.sync(rootDir + sources.oyez.transcripts_json);
+                filePaths.forEach((filePath) => {
+                    let obj = readJSON(filePath, null);
+                    let fileName = path.basename(filePath);
+                    if (fileName.indexOf(argv['type'] || 'decision') < 0) return;
+                    let docket = fileName.substr(0, fileName.indexOf('_')).replace("-orig", " Orig.");
+                    if (obj) {
+                        let spoke = false;
+                        if (!obj.transcript) {
+                            if (argv['verbose']) printf("warning: %s missing transcript\n", filePath);
+                        }
+                        else if (!obj.transcript.sections) {
+                            if (argv['verbose']) printf("warning: %s missing transcript sections\n", filePath);
+                        }
+                        else {
+                            let utterances = [];
+                            for (let i = 0; i < obj.transcript.sections.length; i++) {
+                                let section = obj.transcript.sections[i];
+                                for (let j = 0; j < section.turns.length; j++) {
+                                    let turn = section.turns[j];
+                                    if (turn.speaker && turn.speaker.name == name) {
+                                        for (let k = 0; k < turn.text_blocks.length; k++) {
+                                            let block = turn.text_blocks[k];
+                                            let timeStart = block.start;
+                                            let timeStop = block.stop;
+                                            let text = block.text;
+                                            utterances.push({timeStart, timeStop, text});
+                                        }
+                                    }
+                                }
+                            }
+                            if (utterances.length) {
+                                if (!argv['check']) printf("#\n# %s\n", filePath);
+                                let process = false;
+                                if (argv['type']) {
+                                    process = true;
+                                } else {
+                                    let re = new RegExp("^.*[\\[,]" + docket + "[,\\]].*$", "mg");
+                                    let matches = cases.match(re);
+                                    if (matches) {
+                                        if (!argv['check']) matches.forEach((match) => { printf("# %s\n", match); });
+                                        process = true;
+                                    } else {
+                                        printf("# warning: unable to find a case for docket '%s' for the preceding transcript\n", docket);
+                                        utterances.forEach((utterance) => {
+                                            printf("# \"%s\"\n", utterance.text.replace(/"/g, "\\\""));
+                                        });
+                                    }
+                                }
+                                if (process) {
+                                    let mp3Obj = obj.media_file.find((mediaObj) => mediaObj.mime == "audio/mpeg");
+                                    if (mp3Obj) {
+                                        let n = 1;
+                                        let fileName = path.basename(mp3Obj.href);
+                                        let year = +fileName.substr(0, 4);
+                                        if (writer == "JPStevens" && year && year < 1975) {
+                                            printf("# speaker not present for %s\n", filePath);
+                                            return;
+                                        }
+                                        if (argv['check']) {
+                                            let p = path.join(argv['path'], fileName);
+                                            if (!fs.existsSync(p)) {
+                                                printf("# warning: %s missing\n", p);
+                                                printf("wget %s\n", mp3Obj.href);
+                                            }
+                                        } else {
+                                            printf("#\necho downloading %s...\nwget %s\n", fileName, mp3Obj.href);
+                                        }
+                                        let baseName = path.basename(fileName, ".mp3").replace(".delivery", "");
+                                        let convertTime = function(seconds) {
+                                            let min = seconds / 60;
+                                            let sec = (min % 1) * 60;
+                                            let hun = (sec % 1) * 100;
+                                            let s = sprintf("%d.%02d.%02d", Math.trunc(min), Math.trunc(sec), Math.trunc(hun));
+                                            // printf("# time(%.3f): %s\n", seconds, s);
+                                            return s;
+                                        };
+                                        utterances.forEach((utterance) => {
+                                            let mp3 = true, txt = true, p;
+                                            let mp3Name = sprintf("%s-%03d", baseName, n);
+                                            if (argv['check']) {
+                                                mp3 = txt = false;
+                                                p = path.join(argv['path'], mp3Name + ".mp3");
+                                                if (!fs.existsSync(p)) {
+                                                    if (utterance.timeStop - utterance.timeStart < 4) {
+                                                        printf("# warning: %s utterance too short: %.3f\n", mp3Name + ".mp3", utterance.timeStop - utterance.timeStart);
+                                                    } else {
+                                                        printf("# warning: %s missing\n", mp3Name + ".mp3");
+                                                        mp3 = true;
+                                                    }
+                                                } else {
+                                                    if (utterance.timeStop - utterance.timeStart < 4) {
+                                                        printf("rm %s\n", mp3Name + ".mp3");
+                                                    }
+                                                }
+                                                p = path.join(argv['path'], mp3Name + ".txt");
+                                                if (!fs.existsSync(p)) {
+                                                    printf("# warning: %s missing\n", mp3Name + ".txt");
+                                                    // txt = true;
+                                                }
+                                            }
+                                            if (mp3) {
+                                                printf("%smp3splt -Q -o %s %s %s %s\n", (argv['check']? "# " : ""), mp3Name, fileName, convertTime(utterance.timeStart), convertTime(utterance.timeStop));
+                                            }
+                                            if (txt) {
+                                                printf("echo \"%s\" > %s.txt\n", utterance.text.replace(/"/g, "\\\""), mp3Name);
+                                            }
+                                            n++;
+                                        });
+                                    } else {
+                                        printf("# warning: no MP3 file\n");
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            } else {
+                printf("no case listing (run 'gulp find --writer=%s' first)\n", writer);
+            }
+        } else {
+            printf("unrecognized writer: %s\n", writer);
+        }
+    } else {
+        printf("use --writer to specify a justice (eg, --writer=JPStevens)\n");
+    }
+    done();
+}
+
+/**
+ * extractOpinions(done)
+ *
+ * Assumes you have first run "gulp find --writer=JPStevens" and saved the results in sources/ld/JPStevens.txt
+ *
+ * @param {function()} done
+ */
+function extractOpinions(done)
+{
+    let pdfs = 0;
+    let cases = readFile("sources/ld/" + argv['writer'] + ".txt");
+    if (cases) {
+        let volumeInfo = readJSON("sources/scotus/opinions/volumes.json");
+        let volumes = Object.keys(volumeInfo);
+        volumes.forEach((volume) => {
+            let re = new RegExp("\\(" + volume + " U\\.S\\. \\d+\\)", "g");
+            let matches = cases.match(re);
+            let opinions = volumeInfo[volume].opinions;
+            let pageFirst = opinions[0];
+            for (let i = 0; i < opinions.length - 1; i++) {
+                let page = opinions[i];
+                if (page < 0) {
+                    pageFirst += -page;                             // negative values are page citation adjustments, to account for extra pages in the PDF that weren't included in the numbered pages
+                    continue;
+                }
+                let pageCite = page - pageFirst + 1;
+                let citation = sprintf("(%d U.S. %d)", volume, pageCite);
+                let index = matches.indexOf(citation);
+                if (index < 0) continue;
+                matches.splice(index, 1);
+                let pageLast = opinions[i+1] - 1;
+                if (pageLast < 0) pageLast = opinions[i+2] - 1;
+                printf("echo pdfseparate -f %d -l %d %03dbv.pdf %03dus%03d-%%03d.pdf\n", page, pageLast, volume, volume, page);
+                printf("pdfseparate -f %d -l %d %03dbv.pdf %03dus%03d-%%03d.pdf\n", page, pageLast, volume, volume, page);
+                let unite = "";
+                for (let p = page; p <= pageLast; p++) {
+                    unite += sprintf(" %03dus%03d-%03d.pdf", volume, page, p);
+                }
+                printf("pdfunite%s %03dus%03d.pdf\n", unite, volume, pageCite);
+                printf("rm%s\n", unite);
+                pdfs++;
+            }
+            if (matches.length) printf("echo unprocessed matches: %j\n", matches);
+        });
+    }
+    printf("echo PDFs generated: %d\n", pdfs);
+    done();
+}
+
+/**
  * setRebuild(done)
  *
  * @param {function()} done
@@ -7093,5 +7334,7 @@ gulp.task("rebuild", gulp.series(setRebuild, findAllDecisions, findAllJustices, 
 gulp.task("report", gulp.series(reportChanges));
 gulp.task("scrape", scrapeFiles);
 gulp.task("tokenize", tokenizeFile);
+gulp.task("extractAudio", extractAudio);
+gulp.task("extractOpinions", extractOpinions);
 gulp.task("tests", gulp.series(testDates));
 gulp.task("default", usage);
