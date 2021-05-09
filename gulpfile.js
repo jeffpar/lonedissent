@@ -2517,7 +2517,7 @@ function buildAdvocatesAll(done)
                     });
                 }
                 if (!caseData.advocates || !caseData.advocates.length) {
-                    // TODO: Consider ALWAYS "folding" speaker names into advocates, not just when no advocates are listed, and dedupe downnstream
+                    // TODO: Consider ALWAYS "folding" speaker names into advocates, not just when no advocates are listed, and dedupe downstream
                     if (argv['detail']) warning("case %s (%s) has no advocates\n", caseData.name, caseLink);
                     caseData.advocates = [];
                     if (speakers.length) {
@@ -3689,7 +3689,7 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
 /**
  * getTermName(termId)
  *
- * Makes accomodations for terms the Court named inconsistently for 6 years after the June 17, 1844 statute,
+ * Makes accommodations for terms the Court named inconsistently for 6 years after the June 17, 1844 statute,
  * which changed the start of terms from second Monday of January to first Monday of the preceding December; also
  * deals with all known "special terms".
  *
@@ -3849,7 +3849,7 @@ function findWriter(decision, writer)
  * The "--term" option defines prescribed periods of time (that is, predefined "--start" and "--stop" values);
  * you should specify both a year and month (eg, 1790-02, 1790-08, 1844-01, 1844-12, etc).  You should no longer
  * use *just* a year to identify a particular term, in large part because the earliest years (1790 through 1801)
- * had two terms, and in small part because the Court (since 1911) has had the abilty to define its own terms,
+ * had two terms, and in small part because the Court (since 1911) has had the ability to define its own terms,
  * including the occasional "special term" (eg, 1953-06).  Special terms are rare and usually occur in the summer,
  * after the Court has recessed but before the next October term has begun.  If you omit the month, the default
  * month for that year will be selected, unless there were multiple terms that year.
@@ -4367,7 +4367,7 @@ function findAllDecisions(done)
 function findJustices(done, minVotes)
 {
     /*
-     * If we've already built lonerJustices.json, then use it; otherwiser, build it.
+     * If we've already built lonerJustices.json, then use it; otherwise, build it.
      */
     let lonerBackup = readJSON(_data.lonerBackup, []);
     let dataFile = minVotes == 1? _data.lonerJustices : _data.allJustices;
@@ -4772,7 +4772,7 @@ function matchOyezDates(done)
      *      scotus (ie, decisionDates.pdf for volumes 1-107)
      *      oyez (for terms 1955-present)
      *      scdb (for dates imported directly from SCDB)
-     *      usreports (for corrections extraced from printed volumes)
+     *      usreports (for corrections extracted from printed volumes)
      */
     if (dates[0].source === undefined) {
         for (let i = 0; i < dates.length; i++) {
@@ -4859,7 +4859,7 @@ function matchOyezDates(done)
             warning("unable to find case files: %s\n", sources.oyez.cases_json);
         } else {
             /*
-             * Build an arry of caseInfo records that include:
+             * Build an array of caseInfo records that include:
              *
              *      term,docket,usCite,caseTitle,dateArgument,dateRearg,audioExists,advocatesPetitioner,advocatesRespondent,advocatesOther,dateDecision,caseLink
              *
@@ -5825,7 +5825,7 @@ function fixDates(done)
  *
  * If --citations, then match up every decision record with a citation row.
  * If --courts, then verify all decision dates against natural court dates.
- * If --dates, then verify all argument/decision dates aginst SCOTUS argument/decision dates.
+ * If --dates, then verify all argument/decision dates against SCOTUS argument/decision dates.
  * If --oyezlabs, then match up every decision record with an oyezlabs record.
  *
  * @param {function()} done
