@@ -70,22 +70,20 @@ All the other problematic "Chase 1" cases simply had the wrong naturalCourt valu
 decided *after* the March 1870 dates that Strong and Bradley had joined.
 
 Next, after fixing a number of mis-appearances by Justice Strong in various "Waite 3" cases (instead of Justice Woods), that
-left the following 14 issues:
+left the following 12 issues:
 
-    justice TJohnson in case 1792-001 not found in court Jay 2
-    justice JRutledge2 in case 1795-005 not found in court Rutledge 1
-    justice JRutledge2 in case 1795-006 not found in court Rutledge 1
-    justice WJohnson in case 1804-004 not found in court Marshall 1
-    justice SNelson in case 1845-013 not found in court Taney 5
-    justice LWoodbury in case 1850-162 not found in court Taney 9
-    justice RBTaney in case 1865-076 not found in court Chase 1
-    justice WHunt in case 1871-183 not found in court Chase 2
-    justice JHarlan1 in case 1876-085 not found in court Waite 1
-    justice WBWoods in case 1876-085 not found in court Waite 1
-    justice SMatthews in case 1876-085 not found in court Waite 1
-    justice HGray in case 1876-085 not found in court Waite 1
-    justice SBlatchford in case 1876-085 not found in court Waite 1
-    justice HEJackson in case 1893-077 not found in court Fuller 4
+    warning: case 1792-001 refers to justice TJohnson, not present in court Jay 2
+    warning: case 1804-004 refers to justice WJohnson, not present in court Marshall 1
+    warning: case 1845-013 refers to justice SNelson, not present in court Taney 5
+    warning: case 1850-162 refers to justice LWoodbury, not present in court Taney 9
+    warning: case 1865-076 refers to justice RBTaney, not present in court Chase 1
+    warning: case 1871-183 refers to justice WHunt, not present in court Chase 2
+    warning: case 1876-085 refers to justice JHarlan1, not present in court Waite 1
+    warning: case 1876-085 refers to justice WBWoods, not present in court Waite 1
+    warning: case 1876-085 refers to justice SMatthews, not present in court Waite 1
+    warning: case 1876-085 refers to justice HGray, not present in court Waite 1
+    warning: case 1876-085 refers to justice SBlatchford, not present in court Waite 1
+    warning: case 1893-077 refers to justice HEJackson, not present in court Fuller 4
 
 ### Women Advocates
 

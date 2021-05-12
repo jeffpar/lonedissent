@@ -1981,11 +1981,11 @@ function readSCDBCourts(fDisplay=false)
             if (chiefJustice && justice.id.indexOf(chiefJustice) >= 0) {
                 court.justices.unshift(justice);
                 if (sJustices) sJustices = ',' + sJustices;
-                sJustices = getJusticeId(justice.id) + sJustices;
+                sJustices = justice.id + sJustices;
             } else {
                 court.justices.push(justice);
                 if (sJustices) sJustices += ',';
-                sJustices += getJusticeId(justice.id);
+                sJustices += justice.id;
             }
         });
         if (fDisplay) {
@@ -1993,7 +1993,7 @@ function readSCDBCourts(fDisplay=false)
         }
         startNext = datelib.adjustDays(stop, 1);
     }
-    if (fDisplay) printf("SCDB courts read: %d\n", courts.length);
+    if (fDisplay) printf("total courts: %d\n", courts.length);
     return courts;
 }
 
@@ -7032,7 +7032,7 @@ function reportCoalitions(done)
                 if (court.justices[l].id == justice.justiceName) break;
             }
             if (l == court.justices.length) {
-                printf("justice %s in case %s not found in court %s\n", justice.justiceName, decision.caseId, court.name);
+                printf("warning: case %s refers to justice %s, not present in court %s\n", decision.caseId, justice.justiceName, court.name);
                 continue;
             }
             l = 1 << l;                             // convert justice index (ie, bit position) to bit value
@@ -7091,12 +7091,12 @@ function reportCoalitions(done)
                         s += court.justices[m].id;
                     }
                 }
-                printf("court %s coalition with %d hits: %s\n", court.name, court.coalitions[k][1], s);
+                printf("%s coalition with %d hits: %s\n", court.name, court.coalitions[k][1], s);
                 k++;
             }
         }
         if (!k) {
-            printf("court %s has no coalitions\n", court.name);
+            printf("%s has no coalitions\n", court.name);
         }
     }
     done();
