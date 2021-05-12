@@ -4245,10 +4245,9 @@
   },
   {
     "id": "roberts10",
-    "name": "Roberts Court (2018-)",
+    "name": "Roberts Court (2018-2020)",
     "justices": [
       "john_g_roberts_jr",
-      "antonin_scalia",
       "clarence_thomas",
       "ruth_bader_ginsburg",
       "stephen_g_breyer",
@@ -4260,6 +4259,45 @@
     ],
     "start": "2018-10-06",
     "startFormatted": "Saturday, October 6, 2018",
+    "stop": "2020-09-18",
+    "stopFormatted": "Friday, September 18, 2020",
     "reason": "Brett Kavanaugh Joined"
+  },
+  {
+    "id": "roberts11",
+    "name": "Roberts Court (2020)",
+    "justices": [
+      "john_g_roberts_jr",
+      "clarence_thomas",
+      "stephen_g_breyer",
+      "samuel_alito_jr",
+      "sonia_sotomayor",
+      "elena_kagan",
+      "neil_gorsuch",
+      "brett_m_kavanaugh"
+    ],
+    "start": "2020-09-18",
+    "startFormatted": "Friday, September 18, 2020",
+    "stop": "2020-10-26",
+    "stopFormatted": "Monday, October 26, 2020",
+    "reason": "Ruth Bader Ginsburg Died"
+  },
+  {
+    "id": "roberts12",
+    "name": "Roberts Court (2020-)",
+    "justices": [
+      "john_g_roberts_jr",
+      "clarence_thomas",
+      "stephen_g_breyer",
+      "samuel_alito_jr",
+      "sonia_sotomayor",
+      "elena_kagan",
+      "neil_gorsuch",
+      "brett_m_kavanaugh",
+      "amy_coney_barrett"
+    ],
+    "start": "2020-10-27",
+    "startFormatted": "Tuesday, October 27, 2020",
+    "reason": "Amy Coney Barrett Joined"
   }
 ]

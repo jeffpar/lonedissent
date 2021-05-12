@@ -149,7 +149,7 @@ let warnings = 0;
  * @typedef {object} Court
  * @property {string} id
  * @property {string} name
- * @property {Array.<string>} justices
+ * @property {Array.<Justice>} justices
  * @property {string} start
  * @property {string} startFormatted
  * @property {string} stop
@@ -938,6 +938,8 @@ function parseCSV(text, encodeAs="", maxRows=0, keyUnique="", keySubset="", save
                         } else if (t.type == "date") {
                             if (field) {
                                 field = sprintf("%#Y-%#02M-%#02D", field);
+                            } else {
+                                field = "";
                             }
                         }
                     }
@@ -1945,7 +1947,7 @@ function readOyezLabsDecisions()
  * @param {boolean} [fDisplay]
  * @return {Array.<Court>}
  */
-function readSCDBCourts(fDisplay)
+function readSCDBCourts(fDisplay=false)
 {
     let startNext = null;
     let courts = readCSV(sources.scdb.courts_csv, "", "html");
@@ -1971,23 +1973,23 @@ function readSCDBCourts(fDisplay)
         court.start = sprintf("%#Y-%#02M-%#02D", start);
         court.startFormatted = sprintf("%#C", start);
         court.stop = sprintf("%#Y-%#02M-%#02D", stop);
-        court.stopFormatted = isValidDate(stop)? "" : sprintf("%#C", stop);
+        court.stopFormatted = isValidDate(stop)? sprintf("%#C", stop) : "";
         court.justices = [];
         let sJustices = "";
         justices.forEach((justice) => {
             if (justice.stop <= court.start || justice.start >= court.stop) return;
             if (chiefJustice && justice.id.indexOf(chiefJustice) >= 0) {
-                court.justices.unshift(justice.id);
+                court.justices.unshift(justice);
                 if (sJustices) sJustices = ',' + sJustices;
-                sJustices = justice.id + sJustices;
+                sJustices = getJusticeId(justice.id) + sJustices;
             } else {
-                court.justices.push(justice.id);
+                court.justices.push(justice);
                 if (sJustices) sJustices += ',';
                 sJustices += getJusticeId(justice.id);
             }
         });
         if (fDisplay) {
-            printf("%s (%s to %s): %d justices (%s)\n", court.name, court.startFormatted, court.stopFormatted, court.justices.length, sJustices);
+            printf("%s (%s to %s): %d justices (%s)\n", court.name, court.startFormatted, court.stopFormatted || "present", court.justices.length, sJustices);
         }
         startNext = datelib.adjustDays(stop, 1);
     }
@@ -3740,7 +3742,7 @@ function sortVotesBySeniority(decision, vars, courts, justices, fUseNamedCourt)
     if (court) {
         for (let iCourtJustice = 0; iCourtJustice < court.justices.length; iCourtJustice++) {
             let iJustice = 0, nextJustice = 0;
-            let idJustice = court.justices[iCourtJustice];
+            let idJustice = court.justices[iCourtJustice].id;
             /*
              * If the court object contains a 'naturalCourt' value, then it's from readSCDBCourts(),
              * therefore idJustice comes from the 'id' field in justices.csv and should already be a
@@ -5390,7 +5392,7 @@ function matchXMLDates(done)
                             if (!decision.caseNotes) {
                                 decision.caseNotes = "";
                             } else {
-                                decision.caseNotes += ";";
+                                decision.caseNotes += "; ";
                             }
                             decision.caseNotes += reason;
                         }
@@ -5691,7 +5693,7 @@ function matchTranscripts(done)
                         if (!decision.caseNotes) {
                             decision.caseNotes = "";
                         } else {
-                            decision.caseNotes += ";";
+                            decision.caseNotes += "; ";
                         }
                         decision.caseNotes += "dateArgument" + (newReargs? "/dateRearg" : "") + " correction(s) from " + oyez.urlOyez;
                         changes++;
@@ -6010,7 +6012,7 @@ function fixDecisions(done)
                         if (!decision.caseNotes) {
                             decision.caseNotes = "";
                         } else {
-                            decision.caseNotes += ";";
+                            decision.caseNotes += "; ";
                         }
                         decision.caseNotes += "replaced dateArgument " + decision.dateArgument + " (correction from decisionDates.pdf)";
                         decision.dateArgument = decisionScotus.dateArgument;
@@ -6024,9 +6026,9 @@ function fixDecisions(done)
                     if (!decision.caseNotes) {
                         decision.caseNotes = "";
                     } else {
-                        decision.caseNotes += ";";
+                        decision.caseNotes += "; ";
                     }
-                    decision.caseNotes += "replaced dateDecision " + decision.date + " (correction from decisionDates.pdf)";
+                    decision.caseNotes += "replaced dateDecision " + decision.dateDecision + " (correction from decisionDates.pdf)";
                     decision.dateDecision = decisionScotus.dateDecision;
                     changes++;
                 }
@@ -6916,7 +6918,7 @@ function mergeSCDBDockets(done)
     done();
 }
 
-/**
+ /**
  * reportChanges(done)
  *
  * @param {function()} done
@@ -6982,6 +6984,121 @@ function reportChanges(done)
             }
         }
     });
+    done();
+}
+
+/**
+ * reportCoalitions(done)
+ *
+ * For every distinct group of justices, identify the top N number of coalitions.
+ *
+ * We're going to limit "coalition" to the set of justices in either the majority or minority of each case;
+ * in other words, we're not going to dive into the individual agreements with concurrences or dissents.
+ *
+ * For a given set of 9 justices, how many possible coalitions are there?  Basically, it's all the bit combinations
+ * in a 9-bit word (512), minus the number of combinations where only zero or 1 bit is set (10), for a total of 502.
+ *
+ * @param {function()} done
+ */
+function reportCoalitions(done)
+{
+    printf("reading SCDB decisions...\n");
+    let courts = readSCDBCourts(true);
+    let decisions = readJSON(sources.ld.decisions);
+    let i = 0, j = 0;
+    for (i = 0; i < decisions.length; i++) {
+        let decision = decisions[i];
+        if (decision.justices.length <= 1) continue;
+        do {
+            if (decision.naturalCourt == courts[j].naturalCourt) break;
+            if (decision.naturalCourt < courts[j].naturalCourt) j = -1;
+        } while (++j < courts.length);
+        if (j == courts.length) {
+            printf("unable to find court for case %s)\n", decision.caseId);
+            break;
+        }
+        let court = courts[j];
+        if (!court.coalitions) {
+            court.coalitions = new Array(Math.pow(2, court.justices.length));
+            for (let l = 0; l < court.coalitions.length; l++) court.coalitions[l] = [l, 0];
+        }
+        let majCoal = 0, minCoal = 0;
+        for (let k = 0; k < decision.justices.length; k++) {
+            let justice = decision.justices[k], l;
+            /*
+             * Find justice.justiceName in court.justices to determine their "bit position" in the coalition value.
+             */
+            for (l = 0; l < court.justices.length; l++) {
+                if (court.justices[l].id == justice.justiceName) break;
+            }
+            if (l == court.justices.length) {
+                printf("justice %s in case %s not found in court %s\n", justice.justiceName, decision.caseId, court.name);
+                continue;
+            }
+            l = 1 << l;                             // convert justice index (ie, bit position) to bit value
+            if (justice.majority == 2) {            // voted with the majority...
+                if (!(majCoal & l)) {
+                    majCoal |= l;
+                } else {
+                    printf("majority coalition in case %s contains multiple %#x values\n", decision.caseId, l);
+                }
+            } else if (justice.majority == 1) {     // voted with the minority...
+                if (!(minCoal & l)) {
+                    minCoal |= l;
+                } else {
+                    printf("minority coalition in case %s contains multiple %#x values\n", decision.caseId, l);
+                }
+            }
+        }
+        if (majCoal) {
+            if (majCoal >= court.coalitions.length) {
+                printf("majority coalition in case %s too large: %#x\n", decision.caseId, majCoal);
+                continue;
+            }
+            if ((majCoal & (majCoal - 1)) != 0) court.coalitions[majCoal][1]++;
+        } else {
+            if (decision.decisionType != 5) {       // if this is not a "split decision"...
+                printf("no majority vote in case %s\n", decision.caseId);
+            }
+        }
+        if (minCoal) {
+            if (minCoal >= court.coalitions.length) {
+                printf("minority coalition in case %s too large: %#x\n", decision.caseId, minCoal);
+                continue;
+            }
+            if ((minCoal & (minCoal - 1)) != 0) court.coalitions[minCoal][1]++;
+        }
+    }
+    printf("total decisions: %d\n", i);
+    /*
+     * Now we can iterate over all the courts, sort their coalitions, and print the top N from each.
+     */
+    for (j = 0; j < courts.length; j++) {
+        let k = 0;
+        let court = courts[j];
+        if (court.coalitions) {
+            court.coalitions.sort(function(a, b) {
+                return b[1] - a[1];
+            });
+            while (k < court.coalitions.length && k < 10) {
+                let l = court.coalitions[k][0];
+                if (!court.coalitions[k][1]) break;
+                let s = "";
+                for (let m = 0; m < court.justices.length; m++) {
+                    let n = 1 << m;
+                    if (l & n) {
+                        if (s) s += ',';
+                        s += court.justices[m].id;
+                    }
+                }
+                printf("court %s coalition with %d hits: %s\n", court.name, court.coalitions[k][1], s);
+                k++;
+            }
+        }
+        if (!k) {
+            printf("court %s has no coalitions\n", court.name);
+        }
+    }
     done();
 }
 
@@ -7307,6 +7424,7 @@ gulp.task("advocates-women", buildAdvocatesWomen);
 gulp.task("advocates-all", gulp.series(buildAdvocatesAll, buildAdvocatesWomen, buildAdvocates));
 gulp.task("briefs", listBriefs);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
+gulp.task("coalitions", gulp.series(reportCoalitions));
 gulp.task("convert", convertTranscripts);
 gulp.task("courts", buildCourts);
 gulp.task("dates", matchOyezDates);         // NOTE: matchTXTDates() was too sketchy, and matchXMLDates() has already been used

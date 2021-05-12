@@ -1,0 +1,411 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp advocates",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "advocates", "--overwrite"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp advocates-all",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "advocates-all", "--overwrite"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp advocates-women",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "advocates-women"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp briefs",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "briefs"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp citations",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "citations"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp coalitions",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "coalitions"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp courts",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "courts"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp dates",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "dates"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp decisions",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "decisions"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp journals",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "journals", "--group=1955"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp justices",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "justices"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp transcripts",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "convert"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp all",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "all"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp allDecisions",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "allDecisions"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp allJustices",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "allJustices"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp loners",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "loners"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp lonerDecisions",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "lonerDecisions", "--term=1940-10"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp lonerJustices",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "lonerJustices"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp lonerParties",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "lonerParties"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp backup",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "backup"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp download",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "download"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp fixAdvocates",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "fixAdvocates"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp fixDecisions",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "fixDecisions", "--citations", "--debug"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp fixLOC",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "fixLOC"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp merge",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "merge"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp report",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "report"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp scrape",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "scrape"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp tests",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "tests"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp find transcript",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "--docket=744", "--argued=1952-05-12", "--transcript"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp find writer",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "find", "--writer=JPStevens"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp search titles",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "--text=\"&amp;\""
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp search transcripts",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "search"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp corrections",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "--volume=431", "--page=395","--addDocket=75-651","--addDocket=75-715","--addArg=1977-10-11","--reason=\"see 431 U.S. 395\""
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp extractAudio",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "extractAudio", "--writer=JPStevens"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "gulp extractAudio check",
+      "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+      "args": [
+        "extractAudio", "--writer=JPStevens", "--type=argument", "--path=/Volumes/Storage/Users/Jeff/OneDrive/SCOTUS/Justices/JPStevens/arguments", "--check"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "test: sprintf",
+      "program": "${workspaceFolder}/lib/tests/sprintf.js",
+      "args": [
+        "foo"
+      ],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "web: /demos/bobble",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:4000/demos/bobble",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
