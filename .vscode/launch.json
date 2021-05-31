@@ -384,7 +384,7 @@
       "name": "gulp extractAudio check",
       "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
       "args": [
-        "extractAudio", "--writer=JPStevens", "--type=argument", "--path=/Volumes/Storage/Users/Jeff/OneDrive/SCOTUS/Justices/JPStevens/arguments", "--check"
+        "extractAudio", "--writer=JPStevens", "--type=argument", "--path=/Volumes/Archives/SCOTUS/Justices/JPStevens/arguments", "--check"
       ],
       "cwd": "${workspaceRoot}",
       "console": "integratedTerminal"

@@ -7193,7 +7193,7 @@ function tokenizeFile(done)
  *
  * To verify:
  *
- *      gulp extractAudio --type=argument --writer=JPStevens --path=/Volumes/Storage/⁨Users/⁨Jeff/⁨OneDrive⁩/⁨SCOTUS⁩/⁨Justices⁩/⁨JPStevens⁩ --verify
+ *      gulp extractAudio --type=argument --writer=JPStevens --path=/Volumes/Archives⁩/⁨SCOTUS⁩/⁨Justices⁩/⁨JPStevens⁩ --verify
  *
  * @param {function()} done
  */
