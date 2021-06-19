@@ -7046,20 +7046,19 @@ function reportCoalitions(done)
         }
         return false;
     };
-    let addCites = (conlaw[0]['Cites'] == undefined);
-    let addIssues = (conlaw[0]['Issue'] == undefined);
+    let addCitations = (conlaw[0]['Citation'] == undefined), addIssues = (conlaw[0]['Issue'] == undefined);
     let isConLawCase = function(decision) {
         let cReferences = 0;
         delete decision['caseNotes'];   // just to avoid mapValues() warnings
         mapValues(decision, vars, true);
         if (decision.caseName) {        // some SCDB decisions are missing names (eg, "1875-197")
             for (let i = 0; i < conlaw.length; i++) {
-                if (addCites) {
+                if (addCitations) {
                     if (isTitleMatch(conlaw[i]['Title'], decision.caseName)) {
-                        if (!conlaw[i]['Cites']) {
-                            conlaw[i]['Cites'] = decision.usCite || decision.caseId;
+                        if (!conlaw[i]['Citation']) {
+                            conlaw[i]['Citation'] = decision.usCite || decision.caseId;
                         } else {
-                            conlaw[i]['Cites'] += ',' + (decision.usCite || decision.caseId);
+                            conlaw[i]['Citation'] += ',' + (decision.usCite || decision.caseId);
                         }
                     }
                 }
@@ -7073,7 +7072,7 @@ function reportCoalitions(done)
                      *      Issue (from decision.issue)
                      *      Legal Provision (from decision.lawType, lawSupp, and lawMinor)
                      */
-                    if (isCiteMatch(conlaw[i]['Cites'], decision.usCite)) {
+                    if (isCiteMatch(conlaw[i]['Citation'], decision.usCite)) {
                         if (!conlaw[i]['Issues']) {
                             conlaw[i]['ID'] =  decision.caseId;
                             conlaw[i]['Date'] =  decision.dateDecision;
@@ -7081,7 +7080,7 @@ function reportCoalitions(done)
                             conlaw[i]['Issue'] =  decision.issue;
                             conlaw[i]['Legal Provision'] =  decision.lawType + ": " + decision.lawSupp + (decision.lawMinor && decision.lawMinor != "NULL"? " (" + decision.lawMinor + ")" : "");
                         } else {
-                            printf("warning: conlaw case \"%s\" (%s) has multiple citation matches\n", conlaw[i]['Title'], conlaw[i]['Cites']);
+                            printf("warning: conlaw case \"%s\" (%s) has multiple citation matches\n", conlaw[i]['Title'], conlaw[i]['Citation']);
                         }
                     }
                 }
