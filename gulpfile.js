@@ -1128,7 +1128,16 @@ function readFile(filePath, encoding="", fOptional=false)
     try {
         if (filePath[0] == '/') filePath = path.join(rootDir, filePath);
         text = fs.readFileSync(filePath, encoding || "utf-8");
-        if (!encoding) checkASCII(text, filePath);
+        if (!encoding) {
+            /*
+             * If the file begins with a Byte Order Mark (BOM), which is 0xEF,0xBB,0xBF in UTF-8 or 0xFEFF in UTF-16,
+             * then strip it.  I've seen this in some CSV files, so it's a very real concern.
+             */
+            if (text.charCodeAt(0) == 0xfeff) {
+                text = text.substr(1);
+            }
+            checkASCII(text, filePath);
+        }
     }
     catch(err) {
         if (!fOptional) printf("%s\n", err.message);
@@ -7002,10 +7011,93 @@ function reportChanges(done)
  */
 function reportCoalitions(done)
 {
+    /*
+     * As a preliminary matter, let's read the list of all ConLaw case names,
+     * so that we can check each decision for presence in the list.
+     */
+    let vars = readJSON(sources.scdb.vars);
+    let conlaw = readCSV(sources.oyez.conlaw_csv);
+    let isMatch = function(s1, s2) {
+        if (s1.length < s2.length) {
+            if (s2.indexOf(s1) >= 0) return true;
+        } else {
+            if (s1.indexOf(s2) >= 0) return true;
+        }
+        return false;
+    };
+    let isCiteMatch = function(s1, s2) {
+        if (s1 && s1 != "undefined" && s2) {
+            let p1 = s1.split(",");
+            if (p1.length > 1) s1 = p1[p1.length-1];
+            return s1 == s2;
+        }
+        return false;
+    };
+    let isTitleMatch = function(s1, s2) {
+        s1 = s1.toUpperCase();
+        s2 = s2.toUpperCase();
+        let p1 = s1.split(" V. ");
+        let p2 = s2.split(" V. ");
+        if (p1.length == 2 && p2.length == 2) {
+            if (isMatch(p1[0], p2[0]) && isMatch(p1[1], p2[1])) return true;
+        }
+        else if (p1.length == 1 && p2.length == 1) {
+            if (isMatch(p1[0], p2[0])) return true;
+        }
+        return false;
+    };
+    let addCites = (conlaw[0]['Cites'] == undefined);
+    let addIssues = (conlaw[0]['Issue'] == undefined);
+    let isConLawCase = function(decision) {
+        let cReferences = 0;
+        delete decision['caseNotes'];   // just to avoid mapValues() warnings
+        mapValues(decision, vars, true);
+        if (decision.caseName) {        // some SCDB decisions are missing names (eg, "1875-197")
+            for (let i = 0; i < conlaw.length; i++) {
+                if (addCites) {
+                    if (isTitleMatch(conlaw[i]['Title'], decision.caseName)) {
+                        if (!conlaw[i]['Cites']) {
+                            conlaw[i]['Cites'] = decision.usCite || decision.caseId;
+                        } else {
+                            conlaw[i]['Cites'] += ',' + (decision.usCite || decision.caseId);
+                        }
+                    }
+                }
+                else if (addIssues) {
+                    /*
+                     * The process of adding issue data involves adding multiple columns:
+                     *
+                     *      ID (from decision.caseID)
+                     *      Date (from decision.dateDecision)
+                     *      Category (from decision.issueArea)
+                     *      Issue (from decision.issue)
+                     *      Legal Provision (from decision.lawType, lawSupp, and lawMinor)
+                     */
+                    if (isCiteMatch(conlaw[i]['Cites'], decision.usCite)) {
+                        if (!conlaw[i]['Issues']) {
+                            conlaw[i]['ID'] =  decision.caseId;
+                            conlaw[i]['Date'] =  decision.dateDecision;
+                            conlaw[i]['Category'] =  decision.issueArea;
+                            conlaw[i]['Issue'] =  decision.issue;
+                            conlaw[i]['Legal Provision'] =  decision.lawType + ": " + decision.lawSupp + (decision.lawMinor && decision.lawMinor != "NULL"? " (" + decision.lawMinor + ")" : "");
+                        } else {
+                            printf("warning: conlaw case \"%s\" (%s) has multiple citation matches\n", conlaw[i]['Title'], conlaw[i]['Cites']);
+                        }
+                    }
+                }
+                if (cReferences) {
+                    cReferences = -1;
+                } else {
+                    cReferences = conlaw[i]['References'];
+                }
+            }
+        }
+        return cReferences > 0;
+    };
     printf("reading SCDB decisions...\n");
     let courts = readSCDBCourts(true);
-    let decisions = readJSON(sources.ld.decisions);
-    let i = 0, j = 0;
+    let decisions = readJSON(sources.ld.decisions /* _data.allDecisions */);
+    let i, j = 0;
     for (i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
         if (decision.justices.length <= 1) continue;
@@ -7068,8 +7160,10 @@ function reportCoalitions(done)
             }
             if ((minCoal & (minCoal - 1)) != 0) court.coalitions[minCoal][1]++;
         }
+        if (isConLawCase(decision)) printf("conlaw case: %s\n", decision.caseName);
     }
     printf("total decisions: %d\n", i);
+    writeCSV(sources.oyez.conlaw_csv, conlaw, true);
     /*
      * Now we can iterate over all the courts, sort their coalitions, and print the top N from each.
      */

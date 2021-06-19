@@ -68,7 +68,10 @@
         "coalitions"
       ],
       "cwd": "${workspaceRoot}",
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "outFiles": [
+        "${workspaceFolder}/none/**/*.js"
+      ]
     },
     {
       "type": "node",
