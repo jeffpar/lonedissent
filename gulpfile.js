@@ -7046,7 +7046,7 @@ function reportCoalitions(done)
         }
         return false;
     };
-    let addCitations = (conlaw[0]['Citation'] == undefined), addIssues = (conlaw[0]['Issue'] == undefined);
+    let addCitations = (conlaw[0]['Citation'] == undefined);
     let isConLawCase = function(decision) {
         let cReferences = 0;
         delete decision['caseNotes'];   // just to avoid mapValues() warnings
@@ -7062,7 +7062,7 @@ function reportCoalitions(done)
                         }
                     }
                 }
-                else if (addIssues) {
+                else {
                     /*
                      * The process of adding issue data involves adding multiple columns:
                      *
@@ -7073,14 +7073,12 @@ function reportCoalitions(done)
                      *      Legal Provision (from decision.lawType, lawSupp, and lawMinor)
                      */
                     if (isCiteMatch(conlaw[i]['Citation'], decision.usCite)) {
-                        if (!conlaw[i]['Issues']) {
+                        if (!conlaw[i]['ID']) {
                             conlaw[i]['ID'] =  decision.caseId;
                             conlaw[i]['Date'] =  decision.dateDecision;
                             conlaw[i]['Category'] =  decision.issueArea;
                             conlaw[i]['Issue'] =  decision.issue;
                             conlaw[i]['Legal Provision'] =  decision.lawType + ": " + decision.lawSupp + (decision.lawMinor && decision.lawMinor != "NULL"? " (" + decision.lawMinor + ")" : "");
-                        } else {
-                            printf("warning: conlaw case \"%s\" (%s) has multiple citation matches\n", conlaw[i]['Title'], conlaw[i]['Citation']);
                         }
                     }
                 }
