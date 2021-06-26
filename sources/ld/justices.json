@@ -1,17 +1,5 @@
 [
   {
-    "id": "james_wilson",
-    "name": "James Wilson",
-    "position": "Associate Justice",
-    "seat": 5,
-    "start": "1789-10-05",
-    "startFormatted": "Monday, October 5, 1789",
-    "stop": "1798-08-21",
-    "stopFormatted": "Tuesday, August 21, 1798",
-    "stopReason": "Death",
-    "scdbJustice": 4
-  },
-  {
     "id": "john_jay",
     "name": "John Jay",
     "position": "Chief Justice",
@@ -22,6 +10,18 @@
     "stopFormatted": "Monday, June 29, 1795",
     "stopReason": "Resigned",
     "scdbJustice": 1
+  },
+  {
+    "id": "john_rutledge",
+    "name": "John Rutledge",
+    "position": "Associate Justice",
+    "seat": 2,
+    "start": "1790-02-15",
+    "startFormatted": "Monday, February 15, 1790",
+    "stop": "1791-03-05",
+    "stopFormatted": "Saturday, March 5, 1791",
+    "stopReason": "Resigned",
+    "scdbJustice": 2
   },
   {
     "id": "william_cushing",
@@ -36,6 +36,18 @@
     "scdbJustice": 3
   },
   {
+    "id": "james_wilson",
+    "name": "James Wilson",
+    "position": "Associate Justice",
+    "seat": 5,
+    "start": "1789-10-05",
+    "startFormatted": "Monday, October 5, 1789",
+    "stop": "1798-08-21",
+    "stopFormatted": "Tuesday, August 21, 1798",
+    "stopReason": "Death",
+    "scdbJustice": 4
+  },
+  {
     "id": "john_blair",
     "name": "John Blair",
     "position": "Associate Justice",
@@ -46,18 +58,6 @@
     "stopFormatted": "Sunday, October 25, 1795",
     "stopReason": "Resigned",
     "scdbJustice": 5
-  },
-  {
-    "id": "john_rutledge",
-    "name": "John Rutledge",
-    "position": "Associate Justice",
-    "seat": 2,
-    "start": "1790-02-15",
-    "startFormatted": "Monday, February 15, 1790",
-    "stop": "1791-03-05",
-    "stopFormatted": "Saturday, March 5, 1791",
-    "stopReason": "Resigned",
-    "scdbJustice": 2
   },
   {
     "id": "james_iredell",
@@ -102,9 +102,9 @@
     "seat": 1,
     "start": "1795-08-12",
     "startFormatted": "Wednesday, August 12, 1795",
-    "stop": "1795-12-15",
-    "stopFormatted": "Tuesday, December 15, 1795",
-    "stopReason": "Rejected",
+    "stop": "1795-12-28",
+    "stopFormatted": "Monday, December 28, 1795",
+    "stopReason": "Resigned",
     "scdbJustice": 9
   },
   {
