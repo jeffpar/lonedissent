@@ -7229,7 +7229,7 @@ function reportCoalitions(done)
          */
         sLine += ',' + justices[i].position + ',"' + justices[i].start + ':' + justices[i].startFormatted + '"';
         if (justices[i].stop) {
-            sLine += ',"' + justices[i].stop + ':' + justices[i].stopFormatted + '",' + justices[i].stopReason;
+            sLine += ',"' + justices[i].stop + ':' + justices[i].stopFormatted + '",' + justices[i].stopReason.replace(/(Disabled|Retired)/, "Resigned").replace(/Death/, "Died");
         } else {
             sLine += ',,';
         }
@@ -7262,7 +7262,7 @@ function reportCoalitions(done)
             if (justices[i].id == justices[j].id) {
                 sLine += ',' + justices[j].position + ',"' + justices[j].start + ':' + justices[j].startFormatted + '"';
                 if (justices[j].stop) {
-                    sLine += ',"' + justices[j].stop + ':' + justices[j].stopFormatted + '",' + justices[j].stopReason;
+                    sLine += ',"' + justices[j].stop + ':' + justices[j].stopFormatted + '",' + justices[j].stopReason.replace(/(Disabled|Retired)/, "Resigned").replace(/Death/, "Died");
                 } else {
                     sLine += ',,';
                 }
