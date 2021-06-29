@@ -33,32 +33,46 @@ a question or other interjection from a Justice.
 
 This policy was established by Chief Justice Earl Warren, presumably to create the illusion that the Court spoke with one voice,
 but it's unclear exactly when the practice was adopted, since the Court did not routinely produce official transcripts until
-October Term 1968.  The [Brown II](https://github.com/jeffpar/lonedissent/blob/master/sources/other/transcripts/1954/Brown_v_Board_II--1955-04-11.pdf)
-transcripts from October Term 1954 *do* identify all the Justices by name, and the same is true of all older transcripts we've
-seen as well.
+October Term 1968.  All we can say at this point is that the practice began some time after October Term 1954, since the
+[Brown II](https://github.com/jeffpar/lonedissent/blob/master/sources/other/transcripts/1954/Brown_v_Board_II--1955-04-11.pdf)
+transcripts *do* identify all the Justices by name.  The same is true of all *older* transcripts we've seen as well.
 
 Do not assume that any transcript from 1955 to 1968 is an "official" transcript, unless it includes a cover page from
-the transcription service used by the Court.  Most transcripts from that time period actually come from either the University
-Publications of America (UPA) microfiche collection, or the Landmark Briefs and Arguments (LBA) series, and they were simply
+the transcription service used by the Court.  Most transcripts from that time period usually come from either the University
+Publications of America (UPA) microfiche collection or the Landmark Briefs and Arguments (LBA) series, which were simply
 recreated by transcribing the audio recordings made during that period.  So in those cases, the lack of speaker names is a
-question of effort, not of Court policy.
+question of the editor's effort, not of the Court's policy.
 
 The policy was finally abandoned by Chief Justice William Rehnquist, beginning October Term 2004.
 
 ## Unofficial Transcripts
 
-For cases prior to October Term 1968, you can find many unofficial transcripts in the aforementioned University
-Publications of America (UPA) microfiche collection.  Transcripts for selected cases can also be found in the Landmark
-Briefs and Arguments (LBA) series, and if a case predates the use of audio recordings, then its transcript may be at
-least "semi-official"; however, without access to the source documents they used, it's hard to be sure.
+Prior to October Term 1968, you can find unofficial transcripts of cases from the Warren Court in the aforementioned
+University Publications of America (UPA) microfiche collection.  Selected transcripts from even older cases can also be
+found in the Landmark Briefs and Arguments (LBA) series; unfortunately, LBA transcripts were re-transcribed and
+reformatted for publication, so it's impossible to make any assessment of their accuracy or provenance.
 
 All oral arguments in the U.S. Supreme Court cases from October 1955 onward were recorded by the Court on reel-to-reel
-tape, which [The Oyez Project](https://www.oyez.org) finished digitizing and transcribing several years ago, so with only
-a few exceptions (i.e., where the recording was lost, damaged, or incomplete), unofficial transcripts can be obtained
-from their website for all such cases.
+tape and subsequently deposited at the National Archives, which [The Oyez Project](https://www.oyez.org) finished digitizing
+and transcribing several years ago, so with only a few exceptions (i.e., where the recording was lost, damaged, or incomplete),
+unofficial transcripts can be obtained from their website for all such cases.
 
-Other advantages of the Oyez transcripts: they also identify as many of the previously unidentified Justices as possible,
-and they are synchronized with the audio.
+Advantages of the Oyez transcripts include: synchronization with the audio, live playback, searching and clipping functionality,
+and identification of previously unidentified Justices.  So, while the Oyez transcripts must be considered "unofficial," they
+are easier to use and verify than even the Court's own transcripts.
+
+Unfortunately, there are a few (extremely rare) caveats regarding the authenticity of transcripts derived from audio: instances
+where the recording equipment failed, and where the Court "edited" the audio recording before sending it to the National Archives
+(eg, to remove a public outburst in the courtroom).
+
+One apparent example of the latter is [Octane Fitness v. ICON Health & Fitness](https://www.oyez.org/cases/2013/12-1184),
+where an outburst occurred roughly 49 minutes into the argument, but both the outburst and Justice Kennedy's comments
+("Take your time, take your time.") are missing from the recording.  I'm unaware of the Court ever confirming or denying this
+practice, but if true, it's regrettable that the Court would prioritize vanity and decorum over the historical accuracy of what
+actually transpired.
+
+There may have even been instances where someone at the Court "edited" (or considered editing) audio recordings *after* they
+had been delivered to the National Archives.  See [About That Keeton v. Hustler Recording](/blog/2019/03/01/#about-that-keeton-v-hustler-recording).
 
 ## Transcript Collections
 
