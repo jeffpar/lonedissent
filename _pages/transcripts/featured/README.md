@@ -91,3 +91,7 @@ their own cases at the Supreme Court.
 ## October Term 1954
 
 - [Brown v. Board of Education (II)](/transcripts/featured/brown2/)
+
+## October Term 1962
+
+- [Abington School District v. Schempp](/transcripts/featured/abington-v-schempp)
