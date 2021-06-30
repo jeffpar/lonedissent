@@ -11,8 +11,8 @@ all its "official" transcripts for cases argued since October 1968, which we hav
 matched against the [Supreme Court Database](http://scdb.wustl.edu/).
 
 Prior to October 1968, the Supreme Court did not regularly commission transcripts, except when the Court deemed it
-appropriate.  For example, all the oral arguments in [Brown v. Board of Education (I)](/transcripts/featured/brown1/)
-and [Brown v. Board of Education (II)](/transcripts/featured/brown2/) were transcribed.
+appropriate.  For example, all the oral arguments in [Brown v. Board of Education (I)](/transcripts/pre-1955/brown1/)
+and [Brown v. Board of Education (II)](/transcripts/pre-1955/brown2/) were fully transcribed.
 
 In even older cases, you'll occasionally find transcripts of arguments recorded in U.S. Reports.
 [Norman v. Baltimore &amp; Ohio R. Co.](https://cdn.loc.gov/service/ll/usrep/usrep294/usrep294240/usrep294240.pdf)
@@ -38,7 +38,7 @@ but it's unclear exactly when the practice was adopted, since the Court did not 
 October Term 1968.  However, it seems likely that both practices changed at the same time, because we have a copy of the
 official transcript of the reargument of *Time v. Hill* from October 18, 1966, and all Justices are identified.
 
-Also, one should not assume that *any* transcript prior to 1968 is an "official" transcript, because most transcripts
+Also, one should not assume that any transcript prior to 1968 is an "official" transcript, because most transcripts
 from 1955 to 1968 usually came from either the University Publications of America (UPA) microfiche collection or the
 Landmark Briefs and Arguments (LBA) series, and those were simply recreated by transcribing the audio recordings made during
 that period.  So in those cases, the lack of speaker names is a question of the editor's effort, not Court policy.
@@ -59,7 +59,7 @@ unofficial transcripts can be obtained from their website for all such cases.
 
 Advantages of the Oyez transcripts include: synchronization with the audio, live playback, searching and clipping functionality,
 and identification of previously unidentified Justices.  So, while the Oyez transcripts must be considered "unofficial," they
-are easier to use and verify than even the Court's own transcripts.
+are actually easier to use and verify than even the Court's own transcripts.
 
 Unfortunately, there are a few (extremely rare) caveats regarding the authenticity of transcripts derived from audio: instances
 where the recording equipment failed, and where the Court "edited" the audio recording before sending it to the National Archives
@@ -76,6 +76,6 @@ had been delivered to the National Archives.  See [About That Keeton v. Hustler 
 
 ## Transcript Collections
 
-- [Featured Transcripts](/transcripts/featured/)
-- [All Available Pre-1968 Transcripts](/transcripts/pre-1968/)
-- [All Available 1968-Present Transcripts](/transcripts/scotus/)
+- [1924-1955 Transcripts](/transcripts/pre-1955/)
+- [1955-1968 Transcripts](/transcripts/pre-1968/)
+- [1968-Present Transcripts](/transcripts/scotus/)

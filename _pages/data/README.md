@@ -28,9 +28,9 @@ and then build an assortment of pages:
 - [Briefs](/briefs/)
   - [Featured Briefs](/briefs/featured/)
 - [Transcripts](/transcripts/)
-  - [Featured Transcripts](/transcripts/featured/)
-  - [All Available Pre-1968 Transcripts](/transcripts/pre-1968/)
-  - [All Available 1968-Present Transcripts](/transcripts/scotus/)
+  - [1924-1954 Transcripts](/transcripts/pre-1955/)
+  - [1955-1967 Transcripts](/transcripts/pre-1968/)
+  - [1968-Present Transcripts](/transcripts/scotus/)
 - [Advocates](/advocates/top100/)
   - [Top Advocates](/advocates/top100/#top-advocates)
 
