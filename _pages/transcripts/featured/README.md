@@ -14,30 +14,30 @@ of all tape-recorded cases argued since October 1955.  See [Transcripts](/transc
 
 ## October Term 1924
 
-- [Pierce v. Society of Sisters](/transcripts/featured/pierce-v-society-of-sisters)
+- [Pierce v. Society of Sisters](/transcripts/pre-1968/pierce-v-society-of-sisters)
 
 ## October Term 1926
 
-- [Myers v. United States](/transcripts/featured/myers-v-united-states)
+- [Myers v. United States](/transcripts/pre-1968/myers-v-united-states)
 
 ## October Term 1934
 
-- [A. L. A. Schechter Poultry Corp. v. United States](/transcripts/featured/a-l-a-schechter-poultry-corp-v-united-states)
+- [A. L. A. Schechter Poultry Corp. v. United States](/transcripts/pre-1968/a-l-a-schechter-poultry-corp-v-united-states)
 
 ## October Term 1936
 
-- [Helvering v. Davis](/transcripts/featured/helvering-v-davis)
-- [NLRB v. Jones &amp; Laughlin Steel Corp.](/transcripts/featured/nlrb-v-jones-amp-laughlin-steel-corp)
-- [Steward Machine Co. v. Davis](/transcripts/featured/steward-machine-co-v-davis)
+- [Helvering v. Davis](/transcripts/pre-1968/helvering-v-davis)
+- [NLRB v. Jones &amp; Laughlin Steel Corp.](/transcripts/pre-1968/nlrb-v-jones-amp-laughlin-steel-corp)
+- [Steward Machine Co. v. Davis](/transcripts/pre-1968/steward-machine-co-v-davis)
 - [Virginian R. Co. v. Railway Employees [PDF]](/transcripts/pre-1968/#1936-092)
 
 ## July Special Term 1942
 
-- [Ex parte Quirin](/transcripts/featured/ex-parte-quirin)
+- [Ex parte Quirin](/transcripts/pre-1968/ex-parte-quirin)
 
 ## October Term 1946
 
-- [Adamson v. California](/transcripts/featured/adamson-v-california) [[PDF](/transcripts/pre-1968/#1946-126)]
+- [Adamson v. California](/transcripts/pre-1968/adamson-v-california) [[PDF](/transcripts/pre-1968/#1946-126)]
 
 ## October Term 1947
 
@@ -81,7 +81,7 @@ their own cases at the Supreme Court.
 ## October Term 1951
 
 - [Joseph Burstyn, Inc. v. Wilson [PDF]](/transcripts/pre-1968/#1951-084)
-- [Youngstown Sheet &amp; Tube Co. v. Sawyer](/transcripts/featured/youngstown-sheet-amp-tube-co-v-sawyer) [[PDF](/transcripts/pre-1968/#1951-088)]
+- [Youngstown Sheet &amp; Tube Co. v. Sawyer](/transcripts/pre-1968/youngstown-sheet-amp-tube-co-v-sawyer) [[PDF](/transcripts/pre-1968/#1951-088)]
 
 ## October Term 1952
 
@@ -94,4 +94,4 @@ their own cases at the Supreme Court.
 
 ## October Term 1962
 
-- [Abington School District v. Schempp](/transcripts/featured/abington-v-schempp)
+- [Abington School District v. Schempp](/transcripts/pre-1968/abington-v-schempp)

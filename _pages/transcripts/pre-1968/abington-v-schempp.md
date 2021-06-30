@@ -1,6 +1,6 @@
 ---
 title: "Abington School District v. Schempp (374 U.S. 203)"
-permalink: /transcripts/featured/abington-v-schempp
+permalink: /transcripts/pre-1968/abington-v-schempp
 layout: page
 cases:
   - id: "1962-148"

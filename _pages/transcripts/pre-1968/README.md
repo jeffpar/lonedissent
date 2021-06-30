@@ -258,6 +258,8 @@ the fact, by transcribing [Supreme Court audio tapes](/blog/2019/03/01/) deposit
 Archives, whereas transcripts in the Supreme Court Library's possession are often copies produced
 by a court reporter.
 
+See [Transcripts](/transcripts/) for further discussion.
+
 ## Oral Arguments Available in the U.S. Supreme Court Library Prior to the 1968 Term
 
 - AARON V. COOPER, 357 U.S. 566 (October Term 1957) No. 1095

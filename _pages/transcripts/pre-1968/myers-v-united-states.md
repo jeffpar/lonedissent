@@ -1,6 +1,6 @@
 ---
 title: "Myers v. United States (272 U.S. 52)"
-permalink: /transcripts/featured/myers-v-united-states
+permalink: /transcripts/pre-1968/myers-v-united-states
 layout: page
 cases:
   - id: "1926-029"

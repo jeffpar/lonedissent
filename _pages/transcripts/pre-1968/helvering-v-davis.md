@@ -1,6 +1,6 @@
 ---
 title: "Helvering v. Davis (301 U.S. 619)"
-permalink: /transcripts/featured/helvering-v-davis
+permalink: /transcripts/pre-1968/helvering-v-davis
 layout: page
 cases:
   - id: "1936-103"

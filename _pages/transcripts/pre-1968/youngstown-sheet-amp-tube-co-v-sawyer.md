@@ -1,6 +1,6 @@
 ---
 title: "Youngstown Sheet &amp; Tube Co. v. Sawyer (343 U.S. 579)"
-permalink: /transcripts/featured/youngstown-sheet-amp-tube-co-v-sawyer
+permalink: /transcripts/pre-1968/youngstown-sheet-amp-tube-co-v-sawyer
 layout: page
 cases:
   - id: "1951-088"
