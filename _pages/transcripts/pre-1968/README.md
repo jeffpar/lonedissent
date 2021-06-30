@@ -2,6 +2,7 @@
 title: "U.S. Supreme Court Transcripts: 1955-1967"
 permalink: /transcripts/pre-1968/
 layout: cases
+cases:
   - id: "1962-148"
     termId: "1962-10"
     title: "Murray v. Curlett"
