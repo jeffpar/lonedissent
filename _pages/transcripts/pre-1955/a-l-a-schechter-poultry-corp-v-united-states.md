@@ -1,6 +1,6 @@
 ---
 title: "A. L. A. Schechter Poultry Corp. v. United States (295 U.S. 495)"
-permalink: /transcripts/pre-1968/a-l-a-schechter-poultry-corp-v-united-states
+permalink: /transcripts/pre-1955/a-l-a-schechter-poultry-corp-v-united-states
 layout: page
 cases:
   - id: "1934-052"

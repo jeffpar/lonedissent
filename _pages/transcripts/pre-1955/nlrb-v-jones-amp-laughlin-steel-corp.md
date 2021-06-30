@@ -1,6 +1,6 @@
 ---
 title: "NLRB v. Jones &amp; Laughlin Steel Corp. (301 U.S. 1)"
-permalink: /transcripts/pre-1968/nlrb-v-jones-amp-laughlin-steel-corp
+permalink: /transcripts/pre-1955/nlrb-v-jones-amp-laughlin-steel-corp
 layout: page
 cases:
   - id: "1936-053"

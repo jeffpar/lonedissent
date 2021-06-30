@@ -1,6 +1,6 @@
 ---
 title: "Adamson v. California (332 U.S. 46)"
-permalink: /transcripts/pre-1968/adamson-v-california
+permalink: /transcripts/pre-1955/adamson-v-california
 layout: page
 cases:
   - id: "1946-126"

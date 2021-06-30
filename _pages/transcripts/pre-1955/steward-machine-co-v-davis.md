@@ -1,6 +1,6 @@
 ---
 title: "Steward Machine Co. v. Davis (301 U.S. 548)"
-permalink: /transcripts/pre-1968/steward-machine-co-v-davis
+permalink: /transcripts/pre-1955/steward-machine-co-v-davis
 layout: page
 cases:
   - id: "1936-102"

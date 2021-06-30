@@ -1,6 +1,6 @@
 ---
 title: "Pierce v. Society of Sisters (268 U.S. 510)"
-permalink: /transcripts/pre-1968/pierce-v-society-of-sisters
+permalink: /transcripts/pre-1955/pierce-v-society-of-sisters
 layout: page
 cases:
   - id: "1924-161"

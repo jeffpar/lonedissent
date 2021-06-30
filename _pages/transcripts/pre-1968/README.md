@@ -56,6 +56,7 @@ See our post on [The Supreme Court Library](/blog/2019/03/02/) for further discu
 ## October Term 1962
 
 - [Abington School District v. Schempp](/transcripts/pre-1968/abington-v-schempp)
+- [Murray v. Curlett [PDF]](/transcripts/pre-1968/#1962-148)
 
 ## October Term 1966
 

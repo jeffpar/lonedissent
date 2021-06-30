@@ -1,6 +1,6 @@
 ---
 title: "Ex parte Quirin (317 U.S. 1)"
-permalink: /transcripts/pre-1968/ex-parte-quirin
+permalink: /transcripts/pre-1955/ex-parte-quirin
 layout: page
 cases:
   - id: "1942-017"

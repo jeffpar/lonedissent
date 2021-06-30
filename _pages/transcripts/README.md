@@ -27,6 +27,8 @@ was more like a conventional transcript -- except that it was edited, which seve
 a transcript "printed in full" presumably exists somewhere, and we can hope that someday all such "stenographically reported"
 documents will become available online.
 
+See our post on [The Supreme Court Library](/blog/2019/03/02/) for further discussion.
+
 ### Note Regarding Speakers
 
 You may notice that transcripts produced by the U.S. Supreme Court from October Term 1968 through October Term 2003
