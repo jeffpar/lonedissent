@@ -60,6 +60,8 @@ exclude:
   - gulpfile.js
   - package*.json
   - /.history
+  - /audio
+  - /briefs
   - /lib
   - /node_modules
   - /sources

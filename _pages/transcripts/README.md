@@ -27,21 +27,19 @@ documents will become available online.
 
 ### Note Regarding Speakers
 
-You may notice that, prior to October Term 2004, transcripts produced by the U.S. Supreme Court intentionally withheld the
-names of the Justices who spoke during oral argument.  Instead of a name, transcripts would use "Q" or "QUESTION" to indicate
-a question or other interjection from a Justice.
+You may notice that transcripts produced by the U.S. Supreme Court from October Term 1968 through October Term 2003
+intentionally withheld the names of the Justices who spoke during oral argument.  Instead of a name, transcripts would
+use "Q" or "QUESTION" to indicate a question or other interjection from a Justice.
 
-This policy was established by Chief Justice Earl Warren, presumably to create the illusion that the Court spoke with one voice,
+This policy was established by Chief Justice Earl Warren, perhaps to create the illusion that the Court spoke with one voice,
 but it's unclear exactly when the practice was adopted, since the Court did not routinely produce official transcripts until
-October Term 1968.  All we can say at this point is that the practice began some time after October Term 1954, since the
-[Brown II](https://github.com/jeffpar/lonedissent/blob/master/sources/other/transcripts/1954/Brown_v_Board_II--1955-04-11.pdf)
-transcripts *do* identify all the Justices by name.  The same is true of all *older* transcripts we've seen as well.
+October Term 1968.  However, it seems likely that both practices changed at the same time, because we have a copy of the
+official transcript of the reargument of *Time v. Hill* from October 18, 1966, and all Justices are identified.
 
-Do not assume that any transcript from 1955 to 1968 is an "official" transcript, unless it includes a cover page from
-the transcription service used by the Court.  Most transcripts from that time period usually come from either the University
-Publications of America (UPA) microfiche collection or the Landmark Briefs and Arguments (LBA) series, which were simply
-recreated by transcribing the audio recordings made during that period.  So in those cases, the lack of speaker names is a
-question of the editor's effort, not of the Court's policy.
+Also, one should not assume that *any* transcript prior to 1968 is an "official" transcript, because most transcripts
+from 1955 to 1968 usually came from either the University Publications of America (UPA) microfiche collection or the
+Landmark Briefs and Arguments (LBA) series, and those were simply recreated by transcribing the audio recordings made during
+that period.  So in those cases, the lack of speaker names is a question of the editor's effort, not Court policy.
 
 The policy was finally abandoned by Chief Justice William Rehnquist, beginning October Term 2004.
 
