@@ -14,8 +14,10 @@ Prior to October 1968, the Supreme Court did not regularly commission transcript
 appropriate.  For example, all the oral arguments in [Brown v. Board of Education (I)](/transcripts/featured/brown1/)
 and [Brown v. Board of Education (II)](/transcripts/featured/brown2/) were transcribed.
 
-In even older cases, you'll occasionally find transcripts of arguments recorded in U.S. Reports.  [Norman v. Baltimore &amp; Ohio R. Co.](https://cdn.loc.gov/service/ll/usrep/usrep294/usrep294240/usrep294240.pdf) is one such case.  It records
-the "arguments" of the attorneys for both Norman and the Baltimore &amp; Ohio Railroad Company, as well as the "oral argument" of Attorney General Cummings, along with the following footnote:
+In even older cases, you'll occasionally find transcripts of arguments recorded in U.S. Reports.
+[Norman v. Baltimore &amp; Ohio R. Co.](https://cdn.loc.gov/service/ll/usrep/usrep294/usrep294240/usrep294240.pdf)
+is one such case.  It records the "arguments" of the attorneys for both Norman and the Baltimore &amp; Ohio Railroad Company,
+as well as the "oral argument" of Attorney General Cummings, along with the following footnote:
 
 > Mr. Cummings' address, stenographically reported, has been printed in full by the Government Printing Office.
 Omissions from the present report are marked by dots. He also closed the argument in all of the cases.
