@@ -4405,7 +4405,7 @@ cases:
   - id: "1987-080"
     number: 102
     termId: "1987-10"
-    title: "City Of New York v. Fcc"
+    title: "City Of New York v. FCC"
     docket: "87-339"
     volume: "486"
     page: "057"
