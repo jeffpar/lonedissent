@@ -7028,7 +7028,8 @@ function reportCoalitions(done)
                 id: justices[i].id,
                 name: justices[i].name,
                 positions: [],
-                opinions: 0
+                opinions: 0,
+                dissents: 0
             });
         }
         uniqueJustices[j].positions.push(justices[i]);
@@ -7159,7 +7160,7 @@ function reportCoalitions(done)
     };
 
     printf("reading SCDB decisions...\n");
-    let courts = readSCDBCourts();
+    let courts = readSCDBCourts(true);
     let decisions = readJSON(sources.ld.decisions /* _data.allDecisions */);
     let i, j = 0;
     // printf("id,symbol,petitioner,respondent,winner,scdb,citation,author,majority,minority,argued,decided,category,issue,legal\n");
@@ -7184,6 +7185,7 @@ function reportCoalitions(done)
         let majCoal = 0, minCoal = 0;
         for (let k = 0; k < decision.justices.length; k++) {
             let justice = decision.justices[k], l;
+
             /*
              * Find justice.justiceName in court.justices to determine their "bit position" in the coalition value.
              */
@@ -7194,18 +7196,24 @@ function reportCoalitions(done)
                 // printf("warning: case %s refers to justice %s, not present in court %s\n", decision.caseId, justice.justiceName, court.name);
                 continue;
             }
+
             /*
              * Match this justice to their entry in uniqueJustices, and then update some justice stats,
              * like number of majority opinions written.
              */
-            if (justice.majority == 2 && justice.opinion >= 2) {
-                let u = getUniqueJustice(justice.justiceName, court);
-                if (u >= 0) {
-                    uniqueJustices[u].opinions++;
-                } else {
-                    printf("unable to match justice %s in court %s\n", justice.justiceName, court.name);
+            let u = getUniqueJustice(justice.justiceName, court);
+            if (u >= 0) {
+                if (justice.opinion == 2) {         // 3 means co-authored but we're going to skip those for now
+                    if (justice.majority == 2) {
+                        uniqueJustices[u].opinions++;
+                    } else if (justice.majority == 1) {
+                        uniqueJustices[u].dissents++;
+                    }
                 }
+            } else {
+                printf("unable to match justice %s in court %s\n", justice.justiceName, court.name);
             }
+
             l = 1 << l;                             // convert justice index (ie, bit position) to bit value
             if (justice.majority == 2) {            // voted with the majority...
                 if (!(majCoal & l)) {
@@ -7289,11 +7297,11 @@ function reportCoalitions(done)
     if (cNotedCasesUpdated) writeCSV("../../judicious/_data/game-cases.csv", notedCases, true);
 
     let totalOpinions = 0;
-    let sortedJustices = [...uniqueJustices].sort((a,b) => b.opinions - a.opinions);
+    let sortedJustices = [...uniqueJustices].sort((a,b) => (b.opinions + b.dissents) - (a.opinions + a.dissents));
     for (let i = 0; i < sortedJustices.length; i++) sortedJustices[i].rank = i + 1;
 
     for (let uniqueJustice of uniqueJustices) {
-        printf("%5d majority opinions written by %s (rank %d)\n", uniqueJustice.opinions, uniqueJustice.name, uniqueJustice.rank);
+        printf("%5d majority opinions (%d total) written by %s (rank %d)\n", uniqueJustice.opinions, uniqueJustice.opinions + uniqueJustice.dissents, uniqueJustice.name, uniqueJustice.rank);
         totalOpinions += uniqueJustice.opinions;
     }
     printf("%5d majority opinions total\n", totalOpinions);
