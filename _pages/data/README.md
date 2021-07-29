@@ -38,4 +38,4 @@ We've also created a few random pages that have no real value but struck us as m
 
 - [Loner Parties](/trivia/parties/)
 
-If you have ideas for other kinds of reports or summaries you'd like to see, [let us know](mailto:loners@pcjs.org).
+If you have ideas for other kinds of reports or summaries you'd like to see, [let us know](mailto:clerk@lonedissent.org).

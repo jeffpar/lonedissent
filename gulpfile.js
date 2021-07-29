@@ -386,7 +386,7 @@ function encodeString(text, encodeAs, fAllowQuotes=true)
  * @param {boolean} [strict]
  * @return {number}
  */
-function mapValues(o, vars, strict)
+function mapValues(o, vars, strict=false)
 {
     let changes = 0;
     let keys = Object.keys(o);
@@ -405,7 +405,7 @@ function mapValues(o, vars, strict)
                 }
                 else if (strict) {
                     if (vars[key].type != "number" || o[key]) {
-                        warning("code '%s' for key '%s' has no value\n", o[key], key);
+                        if (strict) warning("code '%s' for key '%s' has no value\n", o[key], key);
                         changes = -1;
                     }
                 }
@@ -7011,13 +7011,76 @@ function reportChanges(done)
  */
 function reportCoalitions(done)
 {
-    /*
-     * As a preliminary matter, let's read the list of all ConLaw case names,
-     * so that we can check each decision for presence in the list.
-     */
-    let vars = readJSON(sources.scdb.vars);
+    let cNotedCasesUpdated = 0;
     let conlaw = readCSV(sources.oyez.conlaw_csv);
+    let notedCases = readCSV("../../judicious/_data/game-cases.csv");
+    let vars = readJSON(sources.scdb.vars);
     let justices = readJSON(sources.ld.justices);
+
+    let uniqueJustices = [];
+    for (let i = 0; i < justices.length; i++) {
+        let j;
+        for (j = 0; j < uniqueJustices.length; j++) {
+            if (uniqueJustices[j].id == justices[i].id) break;
+        }
+        if (j == uniqueJustices.length) {
+            uniqueJustices.push({
+                id: justices[i].id,
+                name: justices[i].name,
+                positions: [],
+                opinions: 0
+            });
+        }
+        uniqueJustices[j].positions.push(justices[i]);
+    }
+
+    let bitCount = function(n) {
+        let bit = 1, count = 0;
+        while (n) {
+            if (n & bit) {
+                count++;
+                n = n & ~bit;
+            }
+            bit <<= 1;
+        }
+        return count;
+    };
+
+    let getLastName = function(s) {
+        if (s.indexOf(' ') < 0) {
+            let match = s.match(/([A-Z][a-z][A-Za-z]?[a-z]*)[0-9]?$/);
+            if (match) return match[1] == "Connor"? "O'Connor" : match[1];
+        }
+        let names = s.replace(", Jr.", "").split(' ');
+        let lastName = names.pop();
+        return lastName;
+    };
+
+    let getShortName = function(s) {
+        return s.replace(/ ([A-Z]\.)+ /, ' ').replace(", Jr.", "");
+    };
+
+    let getUniqueJustice = function(name, court) {
+        let lastName = getLastName(name), u;
+        for (u = 0; u < uniqueJustices.length; u++) {
+            if (lastName == getLastName(uniqueJustices[u].name)) {
+                let match = false;
+                for (let position of uniqueJustices[u].positions) {
+                    if (position.start <= court.start && (!position.stop || position.stop >= court.stop) ||
+                        position.start >= court.start && (!court.stop || position.start <= court.stop) ||
+                        !position.stop && !court.stop ||
+                        position.stop >= court.start && position.stop <= court.stop) {
+                        match = true;
+                        break;
+                    }
+                }
+                if (match) break;
+            }
+        }
+        if (u < uniqueJustices.length) return u;
+        return -1;
+    };
+
     let isMatch = function(s1, s2) {
         if (s1.length < s2.length) {
             if (s2.indexOf(s1) >= 0) return true;
@@ -7026,6 +7089,7 @@ function reportCoalitions(done)
         }
         return false;
     };
+
     let isCiteMatch = function(s1, s2) {
         if (s1 && s1 != "undefined" && s2) {
             let p1 = s1.split(",");
@@ -7034,6 +7098,7 @@ function reportCoalitions(done)
         }
         return false;
     };
+
     let isTitleMatch = function(s1, s2) {
         s1 = s1.toUpperCase();
         s2 = s2.toUpperCase();
@@ -7047,55 +7112,57 @@ function reportCoalitions(done)
         }
         return false;
     };
-    let addCitations = (conlaw[0]['Citation'] == undefined);
-    let isConLawCase = function(decision) {
-        let cReferences = 0;
+
+    let isConLaw = function(decision) {
+        let sCaseTitle = "";
         delete decision['caseNotes'];   // just to avoid mapValues() warnings
-        mapValues(decision, vars, true);
+        for (let j = 0; j < decision['justices'].length; j++) {
+            if (decision['justices'][j]['justiceName'] == "JRutledge2") decision['justices'][j]['justiceName'] = decision['justices'][j]['justiceName'].slice(0, -1);
+        }
+        mapValues(decision, vars);
         if (decision.caseName) {        // some SCDB decisions are missing names (eg, "1875-197")
             for (let i = 0; i < conlaw.length; i++) {
-                if (addCitations) {
-                    if (isTitleMatch(conlaw[i]['Title'], decision.caseName)) {
-                        if (!conlaw[i]['Citation']) {
-                            conlaw[i]['Citation'] = decision.usCite || decision.caseId;
-                        } else {
-                            conlaw[i]['Citation'] += ',' + (decision.usCite || decision.caseId);
-                        }
-                    }
-                }
-                else {
-                    /*
-                     * The process of adding issue data involves adding multiple columns:
-                     *
-                     *      ID (from decision.caseID)
-                     *      Date (from decision.dateDecision)
-                     *      Category (from decision.issueArea)
-                     *      Issue (from decision.issue)
-                     *      Legal Provision (from decision.lawType, lawSupp, and lawMinor)
-                     */
-                    if (isCiteMatch(conlaw[i]['Citation'], decision.usCite)) {
-                        if (!conlaw[i]['ID']) {
-                            conlaw[i]['ID'] =  decision.caseId;
-                            conlaw[i]['Date'] =  decision.dateDecision;
-                            conlaw[i]['Category'] =  decision.issueArea;
-                            conlaw[i]['Issue'] =  decision.issue;
-                            conlaw[i]['Legal Provision'] =  decision.lawType + ": " + decision.lawSupp + (decision.lawMinor && decision.lawMinor != "NULL"? " (" + decision.lawMinor + ")" : "");
-                        }
-                    }
-                }
-                if (cReferences) {
-                    cReferences = -1;
-                } else {
-                    cReferences = conlaw[i]['References'];
+                if (isCiteMatch(conlaw[i]['Citation'], decision.usCite)) {
+                    sCaseTitle = conlaw[i]['Title'];
+                    break;
                 }
             }
         }
-        return cReferences > 0;
+        return sCaseTitle;
     };
+
+    let isNotedCase = function(decision) {
+        let sCaseTitle = "";
+        if (decision.caseName) {        // some SCDB decisions are missing names (eg, "1875-197")
+            for (let i = 0; i < notedCases.length; i++) {
+                let notedCase = notedCases[i];
+                if (isCiteMatch(notedCase.citation, decision.usCite)) {
+                    sCaseTitle = notedCase.petitioner + (notedCase.respondent? " v. " + notedCase.respondent : "");
+                    if (!notedCase['justices']) {
+                        notedCase['justices'] = "";
+                        for (let j = 0; j < decision.justices.length; j++) {
+                            if (decision.justices[j].majority == "majority") {
+                                let names = decision.justices[j].justiceName.split(' ');
+                                let lastName = names.pop();
+                                if (lastName == "II") lastName = names.pop();
+                                if (notedCase['justices']) notedCase['justices'] += ",";
+                                notedCase['justices'] += lastName;
+                            }
+                        }
+                        cNotedCasesUpdated++;
+                    }
+                    break;
+                }
+            }
+        }
+        return sCaseTitle;
+    };
+
     printf("reading SCDB decisions...\n");
-    let courts = readSCDBCourts(true);
+    let courts = readSCDBCourts();
     let decisions = readJSON(sources.ld.decisions /* _data.allDecisions */);
     let i, j = 0;
+    // printf("id,symbol,petitioner,respondent,winner,scdb,citation,author,majority,minority,argued,decided,category,issue,legal\n");
     for (i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
         if (decision.justices.length <= 1) continue;
@@ -7109,9 +7176,11 @@ function reportCoalitions(done)
         }
         let court = courts[j];
         if (!court.coalitions) {
+            court.total = 0;
             court.coalitions = new Array(Math.pow(2, court.justices.length));
-            for (let l = 0; l < court.coalitions.length; l++) court.coalitions[l] = [l, 0];
+            for (let l = 0; l < court.coalitions.length; l++) court.coalitions[l] = [l, 0, [], [], []];
         }
+        court.total++;
         let majCoal = 0, minCoal = 0;
         for (let k = 0; k < decision.justices.length; k++) {
             let justice = decision.justices[k], l;
@@ -7122,73 +7191,190 @@ function reportCoalitions(done)
                 if (court.justices[l].id == justice.justiceName) break;
             }
             if (l == court.justices.length) {
-                printf("warning: case %s refers to justice %s, not present in court %s\n", decision.caseId, justice.justiceName, court.name);
+                // printf("warning: case %s refers to justice %s, not present in court %s\n", decision.caseId, justice.justiceName, court.name);
                 continue;
+            }
+            /*
+             * Match this justice to their entry in uniqueJustices, and then update some justice stats,
+             * like number of majority opinions written.
+             */
+            if (justice.majority == 2 && justice.opinion >= 2) {
+                let u = getUniqueJustice(justice.justiceName, court);
+                if (u >= 0) {
+                    uniqueJustices[u].opinions++;
+                } else {
+                    printf("unable to match justice %s in court %s\n", justice.justiceName, court.name);
+                }
             }
             l = 1 << l;                             // convert justice index (ie, bit position) to bit value
             if (justice.majority == 2) {            // voted with the majority...
                 if (!(majCoal & l)) {
                     majCoal |= l;
                 } else {
-                    printf("majority coalition in case %s contains multiple %#x values\n", decision.caseId, l);
+                    // printf("majority coalition in case %s contains multiple %#x values\n", decision.caseId, l);
                 }
             } else if (justice.majority == 1) {     // voted with the minority...
                 if (!(minCoal & l)) {
                     minCoal |= l;
                 } else {
-                    printf("minority coalition in case %s contains multiple %#x values\n", decision.caseId, l);
+                    // printf("minority coalition in case %s contains multiple %#x values\n", decision.caseId, l);
                 }
             }
         }
+        let claw = isConLaw(decision);
+        let noted = isNotedCase(decision);
         if (majCoal) {
             if (majCoal >= court.coalitions.length) {
-                printf("majority coalition in case %s too large: %#x\n", decision.caseId, majCoal);
+                // printf("majority coalition in case %s too large: %#x\n", decision.caseId, majCoal);
                 continue;
             }
-            if ((majCoal & (majCoal - 1)) != 0) court.coalitions[majCoal][1]++;
+            /*
+             * This next test ("if majCoal is NOT a power of two") ensures that we're only recording coalitions
+             * of two or more (because powers of two are numbers that have only ONE bit set).  Granted, in the context
+             * of a majority decision, that should be impossible, so this is really just a safeguard against data errors.
+             */
+            if ((majCoal & (majCoal - 1)) != 0) {
+                court.coalitions[majCoal][1]++;
+                if (claw) {
+                    court.coalitions[majCoal][2].push(claw);
+                }
+                if (noted) {
+                    court.coalitions[majCoal][3].push(noted);
+                }
+                let area = court.coalitions[majCoal][4].find(function(area) {
+                    return area.issue == decision.issueArea;
+                });
+                if (!area) {
+                    court.coalitions[majCoal][4].push({issue: decision.issueArea, count: 1});
+                } else {
+                    area.count++;
+                }
+            }
         } else {
             if (decision.decisionType != 5) {       // if this is not a "split decision"...
-                printf("no majority vote in case %s\n", decision.caseId);
+                // printf("no majority vote in case %s\n", decision.caseId);
             }
         }
         if (minCoal) {
             if (minCoal >= court.coalitions.length) {
-                printf("minority coalition in case %s too large: %#x\n", decision.caseId, minCoal);
+                // printf("minority coalition in case %s too large: %#x\n", decision.caseId, minCoal);
                 continue;
             }
-            if ((minCoal & (minCoal - 1)) != 0) court.coalitions[minCoal][1]++;
+            /*
+             * This next test ("if minCoal is NOT a power of two") ensures that we're only recording coalitions
+             * of two or more (because powers of two are numbers that have only ONE bit set).  Unlike majorities,
+             * this is an important test for minorities, as lone dissents are a regular occurrence.
+             */
+            if ((minCoal & (minCoal - 1)) != 0) {
+                court.coalitions[minCoal][1]++;
+                if (claw) {
+                    court.coalitions[minCoal][2].push(claw);
+                }
+                if (noted) {
+                    court.coalitions[minCoal][3].push(noted);
+                }
+                let area = court.coalitions[minCoal][4].find(function(area) {
+                    return area.issue == decision.issueArea;
+                });
+                if (!area) {
+                    court.coalitions[minCoal][4].push({issue: decision.issueArea, count: 1});
+                } else {
+                    area.count++;
+                }
+            }
         }
-        if (isConLawCase(decision)) printf("conlaw case: %s\n", decision.caseName);
     }
+
     printf("total decisions: %d\n", i);
-    writeCSV(sources.oyez.conlaw_csv, conlaw, true);
+    if (cNotedCasesUpdated) writeCSV("../../judicious/_data/game-cases.csv", notedCases, true);
+
+    let totalOpinions = 0;
+    let sortedJustices = [...uniqueJustices].sort((a,b) => b.opinions - a.opinions);
+    for (let i = 0; i < sortedJustices.length; i++) sortedJustices[i].rank = i + 1;
+
+    for (let uniqueJustice of uniqueJustices) {
+        printf("%5d majority opinions written by %s (rank %d)\n", uniqueJustice.opinions, uniqueJustice.name, uniqueJustice.rank);
+        totalOpinions += uniqueJustice.opinions;
+    }
+    printf("%5d majority opinions total\n", totalOpinions);
+
     /*
      * Now we can iterate over all the courts, sort their coalitions, and print the top N from each.
      */
-    for (j = 0; j < courts.length; j++) {
-        let k = 0;
-        let court = courts[j];
-        if (court.coalitions) {
-            court.coalitions.sort(function(a, b) {
-                return b[1] - a[1];
-            });
-            while (k < court.coalitions.length && k < 10) {
-                let l = court.coalitions[k][0];
-                if (!court.coalitions[k][1]) break;
-                let s = "";
-                for (let m = 0; m < court.justices.length; m++) {
-                    let n = 1 << m;
-                    if (l & n) {
-                        if (s) s += ',';
-                        s += court.justices[m].id;
-                    }
-                }
-                printf("%s coalition with %d hits: %s\n", court.name, court.coalitions[k][1], s);
-                k++;
-            }
+    if (false) {
+        let sHeading = "courtID,startDate,total,agreed";
+        for (let u = 0; u < uniqueJustices.length; u++) {
+            sHeading += ',' + getShortName(uniqueJustices[u].name);
         }
-        if (!k) {
-            printf("%s has no coalitions\n", court.name);
+        sHeading += ",conlaw,noted,areas";
+        printf("%s\n", sHeading);
+        for (j = 0; j < courts.length; j++) {
+            let k = 0;
+            let court = courts[j];
+            if (court.coalitions) {
+                court.coalitions.sort(function(a, b) {
+                    let result = b[1] - a[1];
+                    if (!result) {
+                        result = bitCount(b[0]) - bitCount(a[0]);
+                    }
+                    return result;
+                });
+                let sCourtLine = court.name + ',"' + court.startFormatted + '",' + court.total + ',';
+                while (k < court.coalitions.length /* && k < 10 */) {
+                    let l = court.coalitions[k][0];
+                    if (!court.coalitions[k][1]) break;
+                    // let s = "";
+                    let aCourtJustices = new Array(uniqueJustices.length);
+                    for (let m = 0; m < court.justices.length; m++) {
+                        let n = 1 << m;
+                        if (l & n) {
+                            let u = getUniqueJustice(court.justices[m].name, court);
+                            if (u >= 0) {
+                                aCourtJustices[u] = name;
+                            } else {
+                                printf("unable to match justice %s in court %s\n", name, court.name);
+                            }
+                            // if (s) s += ',';
+                            // s += name;
+                        }
+                    }
+                    let sLine = sCourtLine + court.coalitions[k][1];
+                    for (let u = 0; u < aCourtJustices.length; u++) {
+                        sLine += ',' + (aCourtJustices[u] || "");
+                    }
+                    let sCLaw = "";
+                    if (court.coalitions[k][2].length) {
+                        for (let s of court.coalitions[k][2]) {
+                            if (sCLaw) sCLaw += '; ';
+                            sCLaw += s;
+                        }
+                    }
+                    sLine += ',"' + sCLaw + '"';
+                    let sNoted = "";
+                    if (court.coalitions[k][3].length) {
+                        for (let s of court.coalitions[k][3]) {
+                            if (sNoted) sNoted += '; ';
+                            sNoted += s;
+                        }
+                    }
+                    sLine += ',"' + sNoted + '"';
+                    let sAreas = "";
+                    if (court.coalitions[k][4].length) {
+                        court.coalitions[k][4].sort(function(area1, area2) {
+                            return area2.count - area1.count;
+                        });
+                        for (let area of court.coalitions[k][4]) {
+                            if (sAreas) sAreas += ',';
+                            sAreas += area.issue + " (" + area.count + ")";
+                        }
+                    }
+                    sLine += ',"' + sAreas + '"';
+                    // printf("%s coalition with %d hits: %s\n", court.name, court.coalitions[k][1], s);
+                    printf("%s\n", sLine);
+                    k++;
+                }
+            }
+            // if (!k) printf("%s has no coalitions\n", court.name);
         }
     }
 
@@ -7211,91 +7397,94 @@ function reportCoalitions(done)
      * I would also like to integrate the XML data from Oyez, because it includes interesting biographical information,
      * such as cases, if any, they argued at the Court as attorneys.
      */
-    let seats = [];
-    let idJustice = 0;
-    printf("id,name,succeeded,position1,date1Start,date1Stop,reason1Stop,position2,date2Start,date2Stop,reason2Stop,courts\n");
-    for (let i = 0; i < justices.length; i++) {
-        let name = justices[i].name;
-        if (name.indexOf(',') > 0) name = '"' + name + '"';
-        if (!justices[i].id) {
+    // eslint-disable-next-line no-constant-condition
+    if (false) {
+        let seats = [];
+        let idJustice = 0;
+        printf("id,name,succeeded,position1,date1Start,date1Stop,reason1Stop,position2,date2Start,date2Stop,reason2Stop,courts\n");
+        for (let i = 0; i < justices.length; i++) {
+            let name = justices[i].name;
+            if (name.indexOf(',') > 0) name = '"' + name + '"';
+            if (!justices[i].id) {
+                seats[justices[i].seat] = name;
+                continue;
+            }
+            let sLine = ++idJustice + ',' + name;
+            sLine += ',' + (seats[justices[i].seat] || "");
             seats[justices[i].seat] = name;
-            continue;
-        }
-        let sLine = ++idJustice + ',' + name;
-        sLine += ',' + (seats[justices[i].seat] || "");
-        seats[justices[i].seat] = name;
-        /*
-         * Add first position info.
-         */
-        sLine += ',' + justices[i].position + ',"' + justices[i].start + ':' + justices[i].startFormatted + '"';
-        if (justices[i].stop) {
-            sLine += ',"' + justices[i].stop + ':' + justices[i].stopFormatted + '",' + justices[i].stopReason.replace(/(Disabled|Retired)/, "Resigned").replace(/Death/, "Died");
-        } else {
-            sLine += ',,';
-        }
-        /*
-         * Find all the courts this justice served on.
-         */
-        let sCourts = "";
-        for (let c = 0; c < courts.length; c++) {
-            if (justices[i].start >= courts[c].start && (!courts[c].stop || justices[i].start < courts[c].stop)) {
-                if (sCourts) sCourts += ',';
-                sCourts += courts[c].name;
-                continue;
+            /*
+             * Add first position info.
+             */
+            sLine += ',' + justices[i].position + ',"' + justices[i].start + ':' + justices[i].startFormatted + '"';
+            if (justices[i].stop) {
+                sLine += ',"' + justices[i].stop + ':' + justices[i].stopFormatted + '",' + justices[i].stopReason.replace(/(Disabled|Retired)/, "Resigned").replace(/Death/, "Died");
+            } else {
+                sLine += ',,';
             }
-            if (justices[i].stop && justices[i].stop >= courts[c].start && (!courts[c].stop || justices[i].stop <= courts[c].stop)) {
-                if (sCourts) sCourts += ',';
-                sCourts += courts[c].name;
-                continue;
-            }
-            if (justices[i].start < courts[c].start && (!justices[i].stop || !courts[c].stop || justices[i].stop > courts[c].stop)) {
-                if (sCourts) sCourts += ',';
-                sCourts += courts[c].name;
-                continue;
-            }
-        }
-        /*
-         * See if this justice appears a second time.
-         */
-        let j;
-        for (j = i + 1; j < justices.length; j++) {
-            if (justices[i].id == justices[j].id) {
-                sLine += ',' + justices[j].position + ',"' + justices[j].start + ':' + justices[j].startFormatted + '"';
-                if (justices[j].stop) {
-                    sLine += ',"' + justices[j].stop + ':' + justices[j].stopFormatted + '",' + justices[j].stopReason.replace(/(Disabled|Retired)/, "Resigned").replace(/Death/, "Died");
-                } else {
-                    sLine += ',,';
+            /*
+             * Find all the courts this justice served on.
+             */
+            let sCourts = "";
+            for (let c = 0; c < courts.length; c++) {
+                if (justices[i].start >= courts[c].start && (!courts[c].stop || justices[i].start < courts[c].stop)) {
+                    if (sCourts) sCourts += ',';
+                    sCourts += courts[c].name;
+                    continue;
                 }
-                justices[j].id = "";
-                /*
-                 * Find all the courts this justice served on.
-                 */
-                for (let c = 0; c < courts.length; c++) {
-                    if (justices[j].start >= courts[c].start && (!courts[c].stop || justices[j].start < courts[c].stop)) {
-                        if (sCourts) sCourts += ',';
-                        sCourts += courts[c].name;
-                        continue;
-                    }
-                    if (justices[j].stop && justices[j].stop >= courts[c].start && (!courts[c].stop || justices[j].stop <= courts[c].stop)) {
-                        if (sCourts) sCourts += ',';
-                        sCourts += courts[c].name;
-                        continue;
-                    }
-                    if (justices[j].start < courts[c].start && (!justices[j].stop || !courts[c].stop || justices[j].stop > courts[c].stop)) {
-                        if (sCourts) sCourts += ',';
-                        sCourts += courts[c].name;
-                        continue;
-                    }
+                if (justices[i].stop && justices[i].stop >= courts[c].start && (!courts[c].stop || justices[i].stop <= courts[c].stop)) {
+                    if (sCourts) sCourts += ',';
+                    sCourts += courts[c].name;
+                    continue;
                 }
-                break;
+                if (justices[i].start < courts[c].start && (!justices[i].stop || !courts[c].stop || justices[i].stop > courts[c].stop)) {
+                    if (sCourts) sCourts += ',';
+                    sCourts += courts[c].name;
+                    continue;
+                }
             }
+            /*
+             * See if this justice appears a second time.
+             */
+            let j;
+            for (j = i + 1; j < justices.length; j++) {
+                if (justices[i].id == justices[j].id) {
+                    sLine += ',' + justices[j].position + ',"' + justices[j].start + ':' + justices[j].startFormatted + '"';
+                    if (justices[j].stop) {
+                        sLine += ',"' + justices[j].stop + ':' + justices[j].stopFormatted + '",' + justices[j].stopReason.replace(/(Disabled|Retired)/, "Resigned").replace(/Death/, "Died");
+                    } else {
+                        sLine += ',,';
+                    }
+                    justices[j].id = "";
+                    /*
+                     * Find all the courts this justice served on.
+                     */
+                    for (let c = 0; c < courts.length; c++) {
+                        if (justices[j].start >= courts[c].start && (!courts[c].stop || justices[j].start < courts[c].stop)) {
+                            if (sCourts) sCourts += ',';
+                            sCourts += courts[c].name;
+                            continue;
+                        }
+                        if (justices[j].stop && justices[j].stop >= courts[c].start && (!courts[c].stop || justices[j].stop <= courts[c].stop)) {
+                            if (sCourts) sCourts += ',';
+                            sCourts += courts[c].name;
+                            continue;
+                        }
+                        if (justices[j].start < courts[c].start && (!justices[j].stop || !courts[c].stop || justices[j].stop > courts[c].stop)) {
+                            if (sCourts) sCourts += ',';
+                            sCourts += courts[c].name;
+                            continue;
+                        }
+                    }
+                    break;
+                }
+            }
+            if (j == justices.length) {
+                sLine += ',,,,';
+            }
+            if (sCourts.indexOf(',') > 0) sCourts = '"' + sCourts + '"';
+            sLine += ',' + sCourts;
+            printf("%s\n", sLine);
         }
-        if (j == justices.length) {
-            sLine += ',,,,';
-        }
-        if (sCourts.indexOf(',') > 0) sCourts = '"' + sCourts + '"';
-        sLine += ',' + sCourts;
-        printf("%s\n", sLine);
     }
 
     done();
