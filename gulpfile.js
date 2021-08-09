@@ -7013,7 +7013,7 @@ function reportCoalitions(done)
 {
     let cNotedCasesUpdated = 0;
     let conlaw = readCSV(sources.oyez.conlaw_csv);
-    let notedCases = readCSV("../../judicious/_data/game-cases.csv");
+    let notedCases = readCSV("../../judicious/data/case-deck.csv");
     let vars = readJSON(sources.scdb.vars);
     let justices = readJSON(sources.ld.justices);
 
@@ -7139,6 +7139,14 @@ function reportCoalitions(done)
                 let notedCase = notedCases[i];
                 if (isCiteMatch(notedCase.citation, decision.usCite)) {
                     sCaseTitle = notedCase.petitioner + (notedCase.respondent? " v. " + notedCase.respondent : "");
+                    if (!notedCase['term'] && decision.term) {
+                        notedCase['term'] = decision.term;
+                        cNotedCasesUpdated++;
+                    }
+                    if (!notedCase['docket'] && decision.docket) {
+                        notedCase['docket'] = decision.docket;
+                        cNotedCasesUpdated++;
+                    }
                     if (!notedCase['justices']) {
                         notedCase['justices'] = "";
                         for (let j = 0; j < decision.justices.length; j++) {
@@ -7183,6 +7191,9 @@ function reportCoalitions(done)
         }
         court.total++;
         let majCoal = 0, minCoal = 0;
+        if (decision.justices.length > 9) {
+            printf("%s (%s): %s (%d justices, %s)\n", court.name, decision.caseId, decision.caseTitle || decision.caseName, decision.justices.length, decision.issueArea + '; ' + decision.issue);
+        }
         for (let k = 0; k < decision.justices.length; k++) {
             let justice = decision.justices[k], l;
 
@@ -7294,7 +7305,7 @@ function reportCoalitions(done)
     }
 
     printf("total decisions: %d\n", i);
-    if (cNotedCasesUpdated) writeCSV("../../judicious/_data/game-cases.csv", notedCases, true);
+    if (cNotedCasesUpdated) writeCSV("../../judicious/data/case-deck.csv", notedCases, true);
 
     let totalOpinions = 0;
     let sortedJustices = [...uniqueJustices].sort((a,b) => (b.opinions + b.dissents) - (a.opinions + a.dissents));
