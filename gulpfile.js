@@ -907,40 +907,45 @@ function parseCSV(text, encodeAs="", maxRows=0, keyUnique="", keySubset="", save
                 let heading = headings[h];
                 if (vars) {
                     if (!vars[heading]) {
-                        warning("%s field is an undefined type, defaulting to string\n", heading);
-                        vars[heading] = {type: "string", dump: true};
+                        // warning("%s field is an undefined type, defaulting to string\n", heading);
+                        // vars[heading] = {type: "string", dump: true};
+                        vars[heading] = {type: "string"};
                     }
-                    if (vars[heading]) {
-                        let t = vars[heading];
-                        if (field != "") {
-                            if (t.dump) {
-                                if (!t.values) t.values = [];
-                                if (t.values.indexOf(field) < 0) t.values.push(field);
+                    let t = vars[heading];
+                    if (field != "") {
+                        if (t.dump) {
+                            if (!t.values) t.values = [];
+                            if (t.values.indexOf(field) < 0) t.values.push(field);
+                        }
+                        else {
+                            let v = t.values;
+                            if (v && typeof v == "string") {
+                                v = vars[v].values;
                             }
-                            else {
-                                let v = t.values;
-                                if (v && typeof v == "string") {
-                                    v = vars[v].values;
-                                }
-                                if (v && (Array.isArray(v) && v.indexOf(field) < 0 || !Array.isArray(v) && v[field] === undefined) || !v && field == "NULL") {
-                                    if (argv['debug']) {
-                                        if (fieldUnique && fieldUnique != "NULL") {
-                                            warning("record %s field %s has unexpected value '%s'\n", fieldUnique, heading, field);
-                                        } else {
-                                            warning("CSV row %d field %s has unexpected value '%s'\n", i+1, heading, field);
-                                        }
+                            if (v && (Array.isArray(v) && v.indexOf(field) < 0 || !Array.isArray(v) && v[field] === undefined) || !v && field == "NULL") {
+                                if (argv['debug']) {
+                                    if (fieldUnique && fieldUnique != "NULL") {
+                                        warning("record %s field %s has unexpected value '%s'\n", fieldUnique, heading, field);
+                                    } else {
+                                        warning("CSV row %d field %s has unexpected value '%s'\n", i+1, heading, field);
                                     }
                                 }
                             }
                         }
-                        if (t.type == "number") {
-                            field = +field;
-                        } else if (t.type == "date") {
-                            if (field) {
-                                field = sprintf("%#Y-%#02M-%#02D", field);
-                            } else {
-                                field = "";
-                            }
+                    }
+                    if (t.type == "number") {
+                        field = +field;
+                    } else if (t.type == "date") {
+                        if (field) {
+                            field = sprintf("%#Y-%#02M-%#02D", field);
+                        } else {
+                            field = "";
+                        }
+                    } else if (t.type == "string") {
+                        if (!field) {
+                            field = "";
+                        } else {
+                            field = field.toString();
                         }
                     }
                 }
@@ -1065,9 +1070,9 @@ function parseCSVFields(line, encodeAs, fHeadings)
  * @param {string} [encodeAs] (default is none; use "html" if you want all string fields to contain HTML entities as appropriate)
  * @return {Array}
  */
-function readCSV(filePath, encoding="", encodeAs="")
+function readCSV(filePath, encoding="", encodeAs="", vars=null)
 {
-    return parseCSV(readFile(filePath, encoding) || "", encodeAs);
+    return parseCSV(readFile(filePath, encoding) || "", encodeAs, 0, "", "", false, vars);
 }
 
 /**
@@ -1084,7 +1089,12 @@ function writeCSVLine(row, keys)
     keys.forEach((key) => {
         if (line) line += ',';
         let s = row[key];
-        if (typeof s == "string") s = '"' + he.decode(s).replace(/"/g, '""') + '"';
+        if (typeof s == "string") {
+            if (s) {
+                s = he.decode(s).replace(/"/g, '""');
+                if (s.indexOf('"') >= 0 || s.indexOf(',') >= 0 || s.indexOf(':') >= 0) s = '"' + s + '"';
+            }
+        }
         line += s;
     });
     return line;
@@ -3710,6 +3720,7 @@ function getTermName(termId)
 {
     let termName = "";
     if (termId) {
+        if (typeof termId == "number") termId += "-10";        // default to "October Term"
         termName = sprintf("%#F Term %#Y", termId);
         if (termId >= "1844-12" && termId <= "1849-12") {
             termName = "January Term " + (+termId.substr(0, 4) + 1);
@@ -7013,7 +7024,11 @@ function reportCoalitions(done)
 {
     let cNotedCasesUpdated = 0;
     let conlaw = readCSV(sources.oyez.conlaw_csv);
-    let notedCases = readCSV("../../judicious/data/case-deck.csv");
+    let notedCases = readCSV("../../judicious/data/case-deck.csv", "", "", {
+        'index':    {'type' : "number"},
+        'majority': {'type' : "number"},
+        'minority': {'type' : "number"}
+    });
     let vars = readJSON(sources.scdb.vars);
     let justices = readJSON(sources.ld.justices);
 
@@ -7138,26 +7153,84 @@ function reportCoalitions(done)
             for (let i = 0; i < notedCases.length; i++) {
                 let notedCase = notedCases[i];
                 if (isCiteMatch(notedCase.citation, decision.usCite)) {
+                    let updateMajority = false;
                     sCaseTitle = notedCase.petitioner + (notedCase.respondent? " v. " + notedCase.respondent : "");
-                    if (!notedCase['term'] && decision.term) {
-                        notedCase['term'] = decision.term;
+                    if (!notedCase['term'] || notedCase['term'] == decision.term) {
+                        notedCase['term'] = getTermName(decision.term);
                         cNotedCasesUpdated++;
                     }
                     if (!notedCase['docket'] && decision.docket) {
                         notedCase['docket'] = decision.docket;
                         cNotedCasesUpdated++;
                     }
-                    if (!notedCase['justices']) {
+                    if (!notedCase['scdb']) {
+                        notedCase['scdb'] = decision.caseId;
+                        cNotedCasesUpdated++;
+                    }
+                    if (!notedCase['author']) {
+                        notedCase['author'] = vars.justiceName.values[decision.majOpinWriter] || "";
+                        cNotedCasesUpdated++;
+                    }
+                    if (!notedCase['majority']) {
+                        notedCase['majority'] = decision.majVotes;
+                        notedCase['minority'] = decision.minVotes;
+                        cNotedCasesUpdated++;
+                        updateMajority = true;
+                    }
+                    if (!notedCase['winner'] && notedCase['petitioner'].slice(-6) != " Cases") {
+                        if (vars.partyWinning.values[0] == decision.partyWinning) {
+                            notedCase['winner'] = "respondent";
+                        }
+                        else if (vars.partyWinning.values[1] == decision.partyWinning) {
+                            notedCase['winner'] = "petitioner";
+                        }
+                        cNotedCasesUpdated++;
+                    }
+                    if (!notedCase['argued']) {
+                        notedCase['argued'] = decision.dateArgument;
+                        cNotedCasesUpdated++;
+                    }
+                    if (!notedCase['decided']) {
+                        notedCase['decided'] = decision.dateDecision;
+                        cNotedCasesUpdated++;
+                    }
+                    if (!notedCase['category']) {
+                        notedCase['category'] = decision.issueArea;
+                        cNotedCasesUpdated++;
+                    }
+                    if (!notedCase['legal']) {
+                        notedCase['legal'] = decision.lawSupp;
+                        cNotedCasesUpdated++;
+                    }
+                    // else if (notedCase['legal'] != decision.lawSupp) {
+                    //     printf("%s: 'legal' (%s) differs from 'lawSupp' (%s)\n", sCaseTitle, notedCase['legal'], decision.lawSupp);
+                    // }
+                    if (!notedCase['justices'] || updateMajority) {
                         notedCase['justices'] = "";
                         for (let j = 0; j < decision.justices.length; j++) {
                             if (decision.justices[j].majority == "majority") {
-                                let names = decision.justices[j].justiceName.split(' ');
-                                let lastName = names.pop();
-                                if (lastName == "II") lastName = names.pop();
                                 if (notedCase['justices']) notedCase['justices'] += ",";
-                                notedCase['justices'] += lastName;
+                                notedCase['justices'] += decision.justices[j].justiceName;
                             }
                         }
+                        cNotedCasesUpdated++;
+                    }
+                    let recused = "";
+                    if (!notedCase['dissented']) {
+                        notedCase['dissented'] = "";
+                        for (let j = 0; j < decision.justices.length; j++) {
+                            if (decision.justices[j].majority == "dissent") {
+                                if (notedCase['dissented']) notedCase['dissented'] += ",";
+                                notedCase['dissented'] += decision.justices[j].justiceName;
+                            } else if (!decision.justices[j].majority) {
+                                if (recused) recused += ",";
+                                recused += decision.justices[j].justiceName;
+                            }
+                        }
+                        cNotedCasesUpdated++;
+                    }
+                    if (!notedCase['recused'] && recused) {
+                        notedCase['recused'] = recused;
                         cNotedCasesUpdated++;
                     }
                     break;
@@ -7191,8 +7264,8 @@ function reportCoalitions(done)
         }
         court.total++;
         let majCoal = 0, minCoal = 0;
-        if (decision.justices.length > 9) {
-            printf("%s (%s): %s (%d justices, %s)\n", court.name, decision.caseId, decision.caseTitle || decision.caseName, decision.justices.length, decision.issueArea + '; ' + decision.issue);
+        if (decision.justices.length > 9 && decision.majVotes + decision.minVotes > 9) {
+            printf("%s (%s): %s (%d v. %d justice panel, %s)\n", court.name, decision.caseId, decision.caseTitle || decision.caseName, decision.majVotes, decision.minVotes);
         }
         for (let k = 0; k < decision.justices.length; k++) {
             let justice = decision.justices[k], l;
@@ -7320,6 +7393,7 @@ function reportCoalitions(done)
     /*
      * Now we can iterate over all the courts, sort their coalitions, and print the top N from each.
      */
+    // eslint-disable-next-line no-constant-condition
     if (false) {
         let sHeading = "courtID,startDate,total,agreed";
         for (let u = 0; u < uniqueJustices.length; u++) {
