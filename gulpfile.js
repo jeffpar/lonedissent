@@ -7152,7 +7152,7 @@ function reportCoalitions(done)
         if (decision.caseName) {        // some SCDB decisions are missing names (eg, "1875-197")
             for (let i = 0; i < notedCases.length; i++) {
                 let notedCase = notedCases[i];
-                if (isCiteMatch(notedCase.citation, decision.usCite)) {
+                if (decision.caseId == notedCase.scdb || isCiteMatch(notedCase.citation, decision.usCite)) {
                     let updateMajority = false;
                     sCaseTitle = notedCase.petitioner + (notedCase.respondent? " v. " + notedCase.respondent : "");
                     if (!notedCase['term'] || notedCase['term'] == decision.term) {
