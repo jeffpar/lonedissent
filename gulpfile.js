@@ -7147,12 +7147,27 @@ function reportCoalitions(done)
         return sCaseTitle;
     };
 
+    let remapName = function(justiceName) {
+        if (justiceName == "Henry Livingston") {
+            justiceName = "Brockholst Livingston";
+        } else if (justiceName == "Francis Murphy") {
+            justiceName = "Frank Murphy";
+        } else if (justiceName == "John M. Harlan") {
+            justiceName = "John Harlan (I)";
+        } else if (justiceName == "John M. Harlan II") {
+            justiceName = "John Harlan (II)";
+        } else if (justiceName == "Ruth Ginsburg") {
+            justiceName = "Ruth Bader Ginsburg";
+        }
+        return justiceName;
+    };
+
     let isNotedCase = function(decision) {
         let sCaseTitle = "";
         if (decision.caseName) {        // some SCDB decisions are missing names (eg, "1875-197")
             for (let i = 0; i < notedCases.length; i++) {
                 let notedCase = notedCases[i];
-                if (decision.caseId == notedCase.scdb || isCiteMatch(notedCase.citation, decision.usCite)) {
+                if (decision.caseId == notedCase.scdb || isCiteMatch(notedCase.citation, decision.usCite) && !notedCase.scdb) {
                     let updateMajority = false;
                     sCaseTitle = notedCase.petitioner + (notedCase.respondent? " v. " + notedCase.respondent : "");
                     if (!notedCase['term'] || notedCase['term'] == decision.term) {
@@ -7210,7 +7225,7 @@ function reportCoalitions(done)
                         for (let j = 0; j < decision.justices.length; j++) {
                             if (decision.justices[j].majority == "majority") {
                                 if (notedCase['justices']) notedCase['justices'] += ",";
-                                notedCase['justices'] += decision.justices[j].justiceName;
+                                notedCase['justices'] += remapName(decision.justices[j].justiceName);
                             }
                         }
                         cNotedCasesUpdated++;
@@ -7221,10 +7236,10 @@ function reportCoalitions(done)
                         for (let j = 0; j < decision.justices.length; j++) {
                             if (decision.justices[j].majority == "dissent") {
                                 if (notedCase['dissented']) notedCase['dissented'] += ",";
-                                notedCase['dissented'] += decision.justices[j].justiceName;
+                                notedCase['dissented'] += remapName(decision.justices[j].justiceName);
                             } else if (!decision.justices[j].majority) {
                                 if (recused) recused += ",";
-                                recused += decision.justices[j].justiceName;
+                                recused += remapName(decision.justices[j].justiceName);
                             }
                         }
                         cNotedCasesUpdated++;
