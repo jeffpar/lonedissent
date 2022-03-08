@@ -7147,6 +7147,18 @@ function reportCoalitions(done)
         return sCaseTitle;
     };
 
+    let remapLegal = function(sLegal) {
+        let aAmendments = {
+            "First": "1st", "Second": "2nd", "Third": "3rd", "Fourth": "4th", "Fifth": "5th", "Sixth": "6th", "Seventh": "7th", "Eighth": "8th", "Ninth": "9th", "Tenth": "10th", "Eleventh": "11th", "Twelfth": "12th", "Thirteenth": "13th", "Fourteenth": "14th", "Fifteenth": "15th"
+        };
+        for (let key in aAmendments) {
+            let sSearch = key + " Amendment";
+            let sReplace = aAmendments[key] + " Amendment";
+            sLegal = sLegal.replace(sSearch, sReplace);
+        }
+        return sLegal;
+    };
+
     let remapName = function(justiceName) {
         if (justiceName == "Henry Livingston") {
             justiceName = "Brockholst Livingston";
@@ -7214,7 +7226,7 @@ function reportCoalitions(done)
                         cNotedCasesUpdated++;
                     }
                     if (!notedCase['legal']) {
-                        notedCase['legal'] = decision.lawSupp;
+                        notedCase['legal'] = remapLegal(decision.lawSupp);
                         cNotedCasesUpdated++;
                     }
                     // else if (notedCase['legal'] != decision.lawSupp) {
