@@ -1121,7 +1121,7 @@ function writeCSV(filePath, rows, fOverwrite=argv['overwrite'])
             text += writeCSVLine(row, keys) + '\n';
         });
     }
-    writeFile(filePath, text, fOverwrite);
+    writeFile(filePath, "\ufeff" + text, fOverwrite);
 }
 
 /**
