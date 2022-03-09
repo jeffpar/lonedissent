@@ -7225,8 +7225,12 @@ function reportCoalitions(done)
                         notedCase['category'] = decision.issueArea;
                         cNotedCasesUpdated++;
                     }
-                    if (!notedCase['legal']) {
-                        notedCase['legal'] = remapLegal(decision.lawSupp);
+                    if (!notedCase['legalBasis'] && decision.lawSupp) {
+                        notedCase['legalBasis'] = remapLegal(decision.lawSupp);
+                        cNotedCasesUpdated++;
+                    }
+                    if (!notedCase['legalIssue']) {
+                        notedCase['legalIssue'] = remapLegal(decision.issue);
                         cNotedCasesUpdated++;
                     }
                     // else if (notedCase['legal'] != decision.lawSupp) {
