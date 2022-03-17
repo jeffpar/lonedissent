@@ -2008,7 +2008,8 @@ function readSCDBCourts(fDisplay=false)
             }
         });
         if (fDisplay) {
-            printf("%s (%s to %s): %d justices (%s)\n", court.name, court.startFormatted, court.stopFormatted || "present", court.justices.length, sJustices);
+            printf("%s (%s to %s): %d justices\n", court.name, court.startFormatted, court.stopFormatted || "present", court.justices.length);
+            // printf("%s (%s to %s): %d justices (%s)\n", court.name, court.startFormatted, court.stopFormatted || "present", court.justices.length, sJustices);
         }
         startNext = datelib.adjustDays(stop, 1);
     }
@@ -7295,8 +7296,9 @@ function reportCoalitions(done)
         }
         court.total++;
         let majCoal = 0, minCoal = 0;
+        // Display decisions with more than 9 votes....
         if (decision.justices.length > 9 && decision.majVotes + decision.minVotes > 9) {
-            printf("%s (%s): %s (%d v. %d justice panel, %s)\n", court.name, decision.caseId, decision.caseTitle || decision.caseName, decision.majVotes, decision.minVotes);
+            printf("%s (%s): %s (%s): %d v. %d\n", court.name, decision.caseId, decision.caseTitle || decision.caseName, decision.usCite, decision.majVotes, decision.minVotes);
         }
         for (let k = 0; k < decision.justices.length; k++) {
             let justice = decision.justices[k], l;
