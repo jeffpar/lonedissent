@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://lonedissent.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lonedissent.org/" rel="alternate" type="text/html" /><updated>2021-08-09T14:07:27-07:00</updated><id>https://lonedissent.org/feed.xml</id><title type="html">Lone Dissent</title><subtitle>An Exercise in Supreme Obstinacy</subtitle><entry><title type="html">Supreme Court Opinion Announcements</title><link href="https://lonedissent.org/blog/2019/03/17/" rel="alternate" type="text/html" title="Supreme Court Opinion Announcements" /><published>2019-03-17T00:00:00-07:00</published><updated>2019-03-17T00:00:00-07:00</updated><id>https://lonedissent.org/blog/2019/03/supreme-court-opinion-announcements</id><content type="html" xml:base="https://lonedissent.org/blog/2019/03/17/">&lt;p&gt;Up until March 2019, the U.S. Supreme Court’s list of transcripts for the
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://lonedissent.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lonedissent.org/" rel="alternate" type="text/html" /><updated>2022-05-29T14:00:24-07:00</updated><id>https://lonedissent.org/feed.xml</id><title type="html">Lone Dissent</title><subtitle>An Exercise in Supreme Obstinacy</subtitle><entry><title type="html">Supreme Court Opinion Announcements</title><link href="https://lonedissent.org/blog/2019/03/17/" rel="alternate" type="text/html" title="Supreme Court Opinion Announcements" /><published>2019-03-17T00:00:00-07:00</published><updated>2019-03-17T00:00:00-07:00</updated><id>https://lonedissent.org/blog/2019/03/supreme-court-opinion-announcements</id><content type="html" xml:base="https://lonedissent.org/blog/2019/03/17/">&lt;p&gt;Up until March 2019, the U.S. Supreme Court’s list of transcripts for the
 &lt;a href=&quot;https://www.supremecourt.gov/oral_arguments/archived_transcripts/1973&quot;&gt;1973 Term&lt;/a&gt;
 included the following transcripts from July 1974:&lt;/p&gt;
 
@@ -678,7 +678,7 @@ to evolve to solve old problems and new challenges.  At the moment, SCDB has lot
 
 &lt;p&gt;Here are some examples of SCDB docket numbers for &lt;a href=&quot;https://en.wikipedia.org/wiki/Original_jurisdiction_of_the_Supreme_Court_of_the_United_States&quot;&gt;Original Jurisdiction&lt;/a&gt; cases:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;5, Orig.&quot;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;5, Orig.&quot;
 &quot;126, ORIG.&quot;
 &quot;10 Original&quot;
 &quot;8 (Original)&quot;
@@ -710,7 +710,7 @@ but sometimes there’s a space (eg, “61 M”) and sometimes not (eg, “133M�
 &lt;p&gt;The U.S. Supreme Court often “consolidates” multiple cases from lower courts into a single case.  For
 example, the docket number of the “lead” case in &lt;a href=&quot;https://cdn.loc.gov/service/ll/usrep/usrep540/usrep540093/usrep540093.pdf&quot;&gt;McConnell v. Federal Election Commission (540 U.S. 93)&lt;/a&gt; is 02-1674.  However, the complete list of consolidated cases, by docket number, looks like this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;02-1674,02-1675,02-1676,02-1702,02-1727,02-1733,02-1734,02-1740,02-1747,02-1753,02-1755,02-1756
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;02-1674,02-1675,02-1676,02-1702,02-1727,02-1733,02-1734,02-1740,02-1747,02-1753,02-1755,02-1756
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;and if you download SCDB’s “&lt;a href=&quot;http://scdb.wustl.edu/_brickFiles/2018_02/SCDB_2018_02_caseCentered_Docket.csv.zip&quot;&gt;Cases Organized by Docket&lt;/a&gt;” and search for &lt;strong&gt;540 U.S. 93&lt;/strong&gt;, you will indeed see all 12 cases listed.&lt;/p&gt;
@@ -719,7 +719,7 @@ example, the docket number of the “lead” case in &lt;a href=&quot;https://cd
 
 &lt;p&gt;For example, look at &lt;a href=&quot;https://cdn.loc.gov/service/ll/usrep/usrep431/usrep431395/usrep431395.pdf&quot;&gt;East Texas Motor Freight System, Inc. v. Rodriguez (431 U.S. 395)&lt;/a&gt;.  Three cases were consolidated:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;75-718,75-651,75-715
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;75-718,75-651,75-715
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;but even when using SCDB’s “Cases Organized by Docket” files, all you’ll find is 75-718.&lt;/p&gt;
@@ -761,7 +761,7 @@ the date of the term was listed.  This occurred, for example, in &lt;a href=&quo
 because the last time I checked, the dates in their file were badly scrambled, and it didn’t include any argument dates.
 The dates on the first few lines of their file:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2 U.S. 401|West v. Barnes|2|401|1791-08-17
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2 U.S. 401|West v. Barnes|2|401|1791-08-17
 2 U.S. 401|Vanstophorst v. Maryland|2|401|1791-08-17
 2 U.S. 401|Oswald v. New York|2|401|1792-02-14
 ...
@@ -845,7 +845,7 @@ used, so that they can all be verified.  This is a degree of transparency that y
 this is &lt;a href=&quot;https://cdn.loc.gov/service/ll/usrep/usrep003/usrep003133/usrep003133.pdf&quot;&gt;Talbot v. Janson (3 U.S. 133)&lt;/a&gt;,
 which was argued over the course of ten days:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Thursday, August 6, 1795
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Thursday, August 6, 1795
 Friday, August 7, 1795
 Saturday, August 8, 1795
 Monday, August 10, 1795
@@ -860,12 +860,12 @@ Wednesday, August 19, 1795
 &lt;p&gt;This also occurs with some regularity in the “modern” era.
 See &lt;a href=&quot;https://cdn.loc.gov/service/ll/usrep/usrep387/usrep387397/usrep387397.pdf&quot;&gt;American Trucking Assns., Inc. v. Atchison, T. &amp;amp; S. F. R. Co. (387 U.S. 397)&lt;/a&gt;, which was argued:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Thursday, April 13, 1967
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Thursday, April 13, 1967
 Monday, April 17, 1967
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;However, recording all the dates of an oral argument (or even just the &lt;em&gt;number&lt;/em&gt; of argument days) didn’t seem to
-interest Harold Spaeth much, because his “ALLCOURT” database (SCDB’s predecessor) provided only an &lt;code class=&quot;highlighter-rouge&quot;&gt;ORAL&lt;/code&gt; field
+interest Harold Spaeth much, because his “ALLCOURT” database (SCDB’s predecessor) provided only an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ORAL&lt;/code&gt; field
 for the first date of argument.&lt;/p&gt;
 
 &lt;p&gt;Despite my best efforts ten years ago to convince SCDB to consider broader research interests and to at
@@ -881,7 +881,7 @@ without justification:&lt;/p&gt;
 the usual accuracy problems as well.&lt;/p&gt;
 
 &lt;p&gt;Then there’s the problem of multiple rearguments.  Once again, the Spaeth “ALLCOURT” database dealt with this,
-but in the same limited fashion, by providing a single &lt;code class=&quot;highlighter-rouge&quot;&gt;REORAL&lt;/code&gt; field, and SCDB followed suit with its
+but in the same limited fashion, by providing a single &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;REORAL&lt;/code&gt; field, and SCDB followed suit with its
 &lt;a href=&quot;http://scdb.wustl.edu/documentation.php?var=dateRearg&quot;&gt;dateRearg&lt;/a&gt; variable:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -922,13 +922,13 @@ is the accuracy of the dates for the courts that SCDB has chosen.&lt;/p&gt;
 
 &lt;p&gt;For example, it lists the transition between the Warren and Burger courts like so:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1411	Warren 11	May 14, 1969 - June 22, 1969
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1411	Warren 11	May 14, 1969 - June 22, 1969
 1501	Burger 1	June 23, 1969 - June 08, 1970
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;However, SCDB also lists a series of decisions handed down on June 23, 1969:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1969-06-23: North Carolina v. Pearce [413,418] (395 U.S. 711)
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1969-06-23: North Carolina v. Pearce [413,418] (395 U.S. 711)
 1969-06-23: Chimel v. California [770] (395 U.S. 752)
 1969-06-23: Benton v. Maryland [201] (395 U.S. 784)
 1969-06-23: Von Cleef v. New Jersey [837] (395 U.S. 814)
@@ -973,7 +973,7 @@ all the above conditions.  Of course, the logical extension of that argument wou
 variable entirely, because obviously the precise term of &lt;em&gt;any&lt;/em&gt; case can be determined by applying a complicated
 set of rules to &lt;strong&gt;dateDecision&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Harold Spaeth’s &lt;code class=&quot;highlighter-rouge&quot;&gt;TERM&lt;/code&gt; variable didn’t suffer from this ambiguity, because his “ALLCOURT” database didn’t deal
+&lt;p&gt;Harold Spaeth’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TERM&lt;/code&gt; variable didn’t suffer from this ambiguity, because his “ALLCOURT” database didn’t deal
 with cases before the Warren Court.&lt;/p&gt;
 
 &lt;h3 id=&quot;7-undocumented-values&quot;&gt;7. Undocumented Values&lt;/h3&gt;
@@ -983,7 +983,7 @@ with cases before the Warren Court.&lt;/p&gt;
 &lt;p&gt;And then there’s &lt;a href=&quot;http://scdb.wustl.edu/documentation.php?var=lawMinor&quot;&gt;lawMinor&lt;/a&gt;, a free-form string that has
 become very problematic.  Here’s a small subset of the values, to give you a sense of the problems:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;unidentifed act of congress&quot;,
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;unidentifed act of congress&quot;,
 &quot;unidentifed act of congress, 1828&quot;,
 &quot;unidentifiable&quot;,
 &quot;unidentified&quot;,
@@ -1001,7 +1001,7 @@ become very problematic.  Here’s a small subset of the values, to give you a s
 &quot;unidentified statute&quot;,
 &quot;unidentified US laws&quot;,
 &quot;unidentified US statute&quot;,
-&quot;Uniformed Services Former Spouses' Protection Act 10 U.S.C. 1408&quot;,
+&quot;Uniformed Services Former Spouses&apos; Protection Act 10 U.S.C. 1408&quot;,
 &quot;unknown&quot;,
 &quot;unpaid opium tax&quot;,
 &quot;unrestricted sale of allotments&quot;,
@@ -1077,7 +1077,7 @@ endeavour, more knowledge – not less – should be one of the goals, as well a
 among all interested parties.&lt;/p&gt;
 
 &lt;p&gt;Or, SCDB can quietly extract whatever it wants here, without telling me or anyone else, and then roll
-out its next release with the usual (and completely useless) notation: &lt;code class=&quot;highlighter-rouge&quot;&gt;minor corrections&lt;/code&gt;.  And neither
+out its next release with the usual (and completely useless) notation: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minor corrections&lt;/code&gt;.  And neither
 I nor anyone else will have any incentive to help again.&lt;/p&gt;
 
 &lt;h3 id=&quot;citing-to-the-scdb&quot;&gt;Citing to the SCDB&lt;/h3&gt;
@@ -1089,7 +1089,7 @@ I nor anyone else will have any incentive to help again.&lt;/p&gt;
   &lt;p&gt;To cite to the Supreme Court Database, please employ either of the following:&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Harold J. Spaeth, Lee Epstein, Andrew D. Martin, Jeffrey A. Segal,
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Harold J. Spaeth, Lee Epstein, Andrew D. Martin, Jeffrey A. Segal,
 Theodore J. Ruger, and Sara C. Benesh. 2018 Supreme Court Database,
 Version 2018 Release 02. URL: http://Supremecourtdatabase.org 
 
@@ -1124,14 +1124,14 @@ downloaded from the U.S. Supreme Court website, and all
 &lt;p&gt;Our initial focus is to match all &lt;a href=&quot;/transcripts/scotus/&quot;&gt;SCOTUS Transcripts&lt;/a&gt; with their
 corresponding SCDB records.  A list of those transcripts is being stored in a
 &lt;a href=&quot;https://github.com/jeffpar/lonedissent/blob/master/sources/ld/transcripts.csv&quot;&gt;spreadsheet&lt;/a&gt;,
-which includes a &lt;code class=&quot;highlighter-rouge&quot;&gt;notes&lt;/code&gt; field documenting any corrections.  Next, we’ll cross-reference
+which includes a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;notes&lt;/code&gt; field documenting any corrections.  Next, we’ll cross-reference
 that list with Oyez’s case data.&lt;/p&gt;
 
 &lt;p&gt;One could also wish that the resolution and quality of the PDFs stored at the
 Library of Congress was higher, so that the raw text was less error-prone, but our goal
 isn’t to recreate the original text.  Instead, the plan is to simply use the raw text
 as another set of signals, helping us fill in gaps and find/fix errors in the
-&lt;a href=&quot;/blog/2019/02/18/&quot;&gt;Supreme Court Database&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">One of our long-term goals is to produce a more accurate and comprehensive list of Top Supreme Court Advocates. But to do that, we need lots of data – lots of good data.</summary></entry><entry><title type="html">It’s Lonely At The Top</title><link href="https://lonedissent.org/blog/2019/02/12/" rel="alternate" type="text/html" title="It's Lonely At The Top" /><published>2019-02-12T00:00:00-08:00</published><updated>2019-02-12T00:00:00-08:00</updated><id>https://lonedissent.org/blog/2019/02/its-lonely-at-the-top</id><content type="html" xml:base="https://lonedissent.org/blog/2019/02/12/">&lt;p&gt;Recently, I took renewed interest in an old topic: lawyers who have argued the most cases at the U.S.
+&lt;a href=&quot;/blog/2019/02/18/&quot;&gt;Supreme Court Database&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">One of our long-term goals is to produce a more accurate and comprehensive list of Top Supreme Court Advocates. But to do that, we need lots of data – lots of good data.</summary></entry><entry><title type="html">It’s Lonely At The Top</title><link href="https://lonedissent.org/blog/2019/02/12/" rel="alternate" type="text/html" title="It’s Lonely At The Top" /><published>2019-02-12T00:00:00-08:00</published><updated>2019-02-12T00:00:00-08:00</updated><id>https://lonedissent.org/blog/2019/02/its-lonely-at-the-top</id><content type="html" xml:base="https://lonedissent.org/blog/2019/02/12/">&lt;p&gt;Recently, I took renewed interest in an old topic: lawyers who have argued the most cases at the U.S.
 Supreme Court, aka &lt;a href=&quot;/advocates/top100/&quot;&gt;Top Advocates&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I first became interested in this after listening to a Supreme Court oral argument back
@@ -1171,17 +1171,17 @@ dig into it, here’s my initial list of some of the U.S. Supreme Court’s &lt;
 
 &lt;p&gt;And how often do these “Loner Parties” happen?  &lt;a href=&quot;/trivia/parties/&quot;&gt;More often&lt;/a&gt; than you’d think.&lt;/p&gt;
 
-&lt;p&gt;“One” may be “the loneliest number that you’ll ever do,” but let’s not forget that “Two can be as bad as one….”&lt;/p&gt;</content><author><name></name></author><summary type="html">When is a Lone Dissent not a Lone Dissent? When multiple Lone Dissents are handed down on the same day.</summary></entry><entry><title type="html">Loners by Justice</title><link href="https://lonedissent.org/blog/2019/01/04/" rel="alternate" type="text/html" title="Loners by Justice" /><published>2019-01-04T00:00:00-08:00</published><updated>2019-01-04T00:00:00-08:00</updated><id>https://lonedissent.org/blog/2019/01/loners-by-justice</id><content type="html" xml:base="https://lonedissent.org/blog/2019/01/04/">&lt;p&gt;When the &lt;code class=&quot;highlighter-rouge&quot;&gt;gulp loners&lt;/code&gt; task is run for all available terms:&lt;/p&gt;
+&lt;p&gt;“One” may be “the loneliest number that you’ll ever do,” but let’s not forget that “Two can be as bad as one….”&lt;/p&gt;</content><author><name></name></author><summary type="html">When is a Lone Dissent not a Lone Dissent? When multiple Lone Dissents are handed down on the same day.</summary></entry><entry><title type="html">Loners by Justice</title><link href="https://lonedissent.org/blog/2019/01/04/" rel="alternate" type="text/html" title="Loners by Justice" /><published>2019-01-04T00:00:00-08:00</published><updated>2019-01-04T00:00:00-08:00</updated><id>https://lonedissent.org/blog/2019/01/loners-by-justice</id><content type="html" xml:base="https://lonedissent.org/blog/2019/01/04/">&lt;p&gt;When the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gulp loners&lt;/code&gt; task is run for all available terms:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gulp loners --term=1790-02 --end=2017-10
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gulp loners --term=1790-02 --end=2017-10
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;it also produces an index of all &lt;a href=&quot;/justices/loners/&quot;&gt;Justices with Lone Dissents&lt;/a&gt;.
 The index is sorted by the number of lone dissents per Justice, from largest to smallest.&lt;/p&gt;
 
-&lt;p&gt;Phase One of the Lone Dissent Project is now complete.&lt;/p&gt;</content><author><name></name></author><summary type="html">When the gulp loners task is run for all available terms:</summary></entry><entry><title type="html">Loners by Term</title><link href="https://lonedissent.org/blog/2018/12/22/" rel="alternate" type="text/html" title="Loners by Term" /><published>2018-12-22T00:00:00-08:00</published><updated>2018-12-22T00:00:00-08:00</updated><id>https://lonedissent.org/blog/2018/12/loners-by-term</id><content type="html" xml:base="https://lonedissent.org/blog/2018/12/22/">&lt;p&gt;We just ran our new &lt;code class=&quot;highlighter-rouge&quot;&gt;gulp loners&lt;/code&gt; task:&lt;/p&gt;
+&lt;p&gt;Phase One of the Lone Dissent Project is now complete.&lt;/p&gt;</content><author><name></name></author><summary type="html">When the gulp loners task is run for all available terms:</summary></entry><entry><title type="html">Loners by Term</title><link href="https://lonedissent.org/blog/2018/12/22/" rel="alternate" type="text/html" title="Loners by Term" /><published>2018-12-22T00:00:00-08:00</published><updated>2018-12-22T00:00:00-08:00</updated><id>https://lonedissent.org/blog/2018/12/loners-by-term</id><content type="html" xml:base="https://lonedissent.org/blog/2018/12/22/">&lt;p&gt;We just ran our new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gulp loners&lt;/code&gt; task:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gulp loners --term=2003
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gulp loners --term=2003
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;and we now have our first &lt;a href=&quot;/cases/loners/&quot;&gt;Loners&lt;/a&gt; entry: the &lt;a href=&quot;/cases/loners/2003-10&quot;&gt;2003 Term&lt;/a&gt;.&lt;/p&gt;
@@ -1192,7 +1192,7 @@ The index is sorted by the number of lone dissents per Justice, from largest to 
 
 &lt;p&gt;All terms have now been processed:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gulp loners --term=1790-02 --end=2017-10
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gulp loners --term=1790-02 --end=2017-10
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;and the &lt;a href=&quot;/cases/loners/&quot;&gt;Loners&lt;/a&gt; page has been updated to display all U.S. Supreme Court terms in which

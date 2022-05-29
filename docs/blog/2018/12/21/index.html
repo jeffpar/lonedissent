@@ -106,7 +106,7 @@ and verifies that every field’s value exists in the <a href="/sources/scdb/var
 
 <p>The script revealed the following discrepancies:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>warning: CSV row 172190 field splitVote has unexpected value '-99'
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>warning: CSV row 172190 field splitVote has unexpected value '-99'
 warning: CSV row 172190 field justice has unexpected value '-99'
 warning: CSV row 172190 field justiceName has unexpected value '-99'
 warning: CSV row 172191 field splitVote has unexpected value '-99'
@@ -253,7 +253,7 @@ that’s a free-form string, so we modified the script to generate a complete li
 <p>This revealed that the <em>lawMinor</em> field is quite a mess.  Here’s a small subset of the values,
 to give you a sense of the problems:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"unidentifed act of congress",
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"unidentifed act of congress",
 "unidentifed act of congress, 1828",
 "unidentifiable",
 "unidentified",
@@ -297,7 +297,7 @@ necessarily errors, they may merit some attention.</p>
 <p>For example, decisions handed down on a Saturday or Sunday are <a href="https://github.com/jeffpar/lonedissent/blob/master/logs/unusualDates.csv">unusual</a>,
 especially in modern times.  Take this pair of warnings:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has decision date 1807-03-07 instead of SCOTUS date 1808-03-07
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has decision date 1807-03-07 instead of SCOTUS date 1808-03-07
 warning: THE UNITED STATES v. M'DOWEL (8 U.S. 316) has unusual decision day: Saturday, March 7, 1807
 </code></pre></div></div>
 
@@ -337,7 +337,7 @@ every difference simply represent a typo – and if so, why are there so many ty
 
 <p>For example, on November 3, 2009, I had written to him:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I just performed a quick comparison of 2009 Release 03 to Release 02
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I just performed a quick comparison of 2009 Release 03 to Release 02
 and found 173 discrete differences (after removing all the differences
 due to the LED citation format change from "L. Ed. 2d." to "L. Ed. 2d").
 Of those 173, many were to fix the incorrect LED references to Vol 1.
@@ -354,7 +354,7 @@ are worth pointing out, since any change can cause unexpected side-effects.
 
 <p>His response:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>We appreciate this repeated suggestions ... and it's under consideration.
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>We appreciate this repeated suggestions ... and it's under consideration.
 However, our time and resources are quite limited, and repeatedly making the
 same request is, frankly, not helpful.  All versions of our binary data
 files are posted (something Harold was not doing with ALLCOURT) and you can
@@ -367,7 +367,7 @@ ADM
 <p>It’s a bit sad to see that, almost ten years later, there is still no transparency, and that the release notes
 for SCDB’s latest release (“2018 Release 02”) still say nothing more than:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Minor corrections
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Minor corrections
 </code></pre></div></div>
 
 <h3 id="citing-to-the-scdb">Citing to the SCDB</h3>
@@ -379,7 +379,7 @@ for SCDB’s latest release (“2018 Release 02”) still say nothing more than:
   <p>To cite to the Supreme Court Database, please employ either of the following:</p>
 </blockquote>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Harold J. Spaeth, Lee Epstein, Andrew D. Martin, Jeffrey A. Segal,
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Harold J. Spaeth, Lee Epstein, Andrew D. Martin, Jeffrey A. Segal,
 Theodore J. Ruger, and Sara C. Benesh. 2018 Supreme Court Database,
 Version 2018 Release 02. URL: http://Supremecourtdatabase.org 
 

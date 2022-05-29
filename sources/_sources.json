@@ -113,12 +113,12 @@
     "cases_xml": "/sources/sites/oyezlabs.org/xml/cases/$1/**/case.xml"
   },
   "scdb": {
-    "dateEnd": "2018-10-01",
+    "dateEnd": "2021-10-01",
     "vars": "/sources/scdb/vars.json",
     "courts_csv": "/sources/scdb/naturalCourts.csv",
     "decisions_csv": "/sources/scdb/decisions.csv",
     "justices_csv": "/sources/scdb/justices.csv",
-    "dockets_csv": "/sources/scdb/SCDB_2018_02_caseCentered_Docket.csv"
+    "dockets_csv": "/sources/scdb/SCDB_2021_01_caseCentered_Docket.csv"
   },
   "schs": {
     "women_advocates_txt": "/sources/schs/women-advocates.txt"

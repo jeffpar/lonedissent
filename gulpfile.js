@@ -393,6 +393,19 @@ function mapValues(o, vars, strict=false)
     for (let i = 0; i < keys.length; i++) {
         let key = keys[i];
         if (vars[key]) {
+            let varType = vars[key].type;
+            if (varType != typeof o[key]) {
+                if (varType == "number") {
+                    if (typeof o[key] == "string") {
+                        o[key] = +o[key];
+                    }
+                }
+                else if (varType == "string") {
+                    if (typeof o[key] == "number") {
+                        o[key] = o[key]? o[key].toString() : "";
+                    }
+                }
+            }
             let values = vars[key].values;
             if (values && typeof values == "string") {
                 values = vars[values].values;

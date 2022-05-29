@@ -95,7 +95,7 @@ to evolve to solve old problems and new challenges.  At the moment, SCDB has lot
 
 <p>Here are some examples of SCDB docket numbers for <a href="https://en.wikipedia.org/wiki/Original_jurisdiction_of_the_Supreme_Court_of_the_United_States">Original Jurisdiction</a> cases:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"5, Orig."
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"5, Orig."
 "126, ORIG."
 "10 Original"
 "8 (Original)"
@@ -127,7 +127,7 @@ but sometimes there’s a space (eg, “61 M”) and sometimes not (eg, “133M�
 <p>The U.S. Supreme Court often “consolidates” multiple cases from lower courts into a single case.  For
 example, the docket number of the “lead” case in <a href="https://cdn.loc.gov/service/ll/usrep/usrep540/usrep540093/usrep540093.pdf">McConnell v. Federal Election Commission (540 U.S. 93)</a> is 02-1674.  However, the complete list of consolidated cases, by docket number, looks like this:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>02-1674,02-1675,02-1676,02-1702,02-1727,02-1733,02-1734,02-1740,02-1747,02-1753,02-1755,02-1756
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>02-1674,02-1675,02-1676,02-1702,02-1727,02-1733,02-1734,02-1740,02-1747,02-1753,02-1755,02-1756
 </code></pre></div></div>
 
 <p>and if you download SCDB’s “<a href="http://scdb.wustl.edu/_brickFiles/2018_02/SCDB_2018_02_caseCentered_Docket.csv.zip">Cases Organized by Docket</a>” and search for <strong>540 U.S. 93</strong>, you will indeed see all 12 cases listed.</p>
@@ -136,7 +136,7 @@ example, the docket number of the “lead” case in <a href="https://cdn.loc.go
 
 <p>For example, look at <a href="https://cdn.loc.gov/service/ll/usrep/usrep431/usrep431395/usrep431395.pdf">East Texas Motor Freight System, Inc. v. Rodriguez (431 U.S. 395)</a>.  Three cases were consolidated:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>75-718,75-651,75-715
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>75-718,75-651,75-715
 </code></pre></div></div>
 
 <p>but even when using SCDB’s “Cases Organized by Docket” files, all you’ll find is 75-718.</p>
@@ -178,7 +178,7 @@ the date of the term was listed.  This occurred, for example, in <a href="https:
 because the last time I checked, the dates in their file were badly scrambled, and it didn’t include any argument dates.
 The dates on the first few lines of their file:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2 U.S. 401|West v. Barnes|2|401|1791-08-17
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2 U.S. 401|West v. Barnes|2|401|1791-08-17
 2 U.S. 401|Vanstophorst v. Maryland|2|401|1791-08-17
 2 U.S. 401|Oswald v. New York|2|401|1792-02-14
 ...
@@ -262,7 +262,7 @@ used, so that they can all be verified.  This is a degree of transparency that y
 this is <a href="https://cdn.loc.gov/service/ll/usrep/usrep003/usrep003133/usrep003133.pdf">Talbot v. Janson (3 U.S. 133)</a>,
 which was argued over the course of ten days:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Thursday, August 6, 1795
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Thursday, August 6, 1795
 Friday, August 7, 1795
 Saturday, August 8, 1795
 Monday, August 10, 1795
@@ -277,12 +277,12 @@ Wednesday, August 19, 1795
 <p>This also occurs with some regularity in the “modern” era.
 See <a href="https://cdn.loc.gov/service/ll/usrep/usrep387/usrep387397/usrep387397.pdf">American Trucking Assns., Inc. v. Atchison, T. &amp; S. F. R. Co. (387 U.S. 397)</a>, which was argued:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Thursday, April 13, 1967
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Thursday, April 13, 1967
 Monday, April 17, 1967
 </code></pre></div></div>
 
 <p>However, recording all the dates of an oral argument (or even just the <em>number</em> of argument days) didn’t seem to
-interest Harold Spaeth much, because his “ALLCOURT” database (SCDB’s predecessor) provided only an <code class="highlighter-rouge">ORAL</code> field
+interest Harold Spaeth much, because his “ALLCOURT” database (SCDB’s predecessor) provided only an <code class="language-plaintext highlighter-rouge">ORAL</code> field
 for the first date of argument.</p>
 
 <p>Despite my best efforts ten years ago to convince SCDB to consider broader research interests and to at
@@ -298,7 +298,7 @@ without justification:</p>
 the usual accuracy problems as well.</p>
 
 <p>Then there’s the problem of multiple rearguments.  Once again, the Spaeth “ALLCOURT” database dealt with this,
-but in the same limited fashion, by providing a single <code class="highlighter-rouge">REORAL</code> field, and SCDB followed suit with its
+but in the same limited fashion, by providing a single <code class="language-plaintext highlighter-rouge">REORAL</code> field, and SCDB followed suit with its
 <a href="http://scdb.wustl.edu/documentation.php?var=dateRearg">dateRearg</a> variable:</p>
 
 <blockquote>
@@ -339,13 +339,13 @@ is the accuracy of the dates for the courts that SCDB has chosen.</p>
 
 <p>For example, it lists the transition between the Warren and Burger courts like so:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1411	Warren 11	May 14, 1969 - June 22, 1969
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1411	Warren 11	May 14, 1969 - June 22, 1969
 1501	Burger 1	June 23, 1969 - June 08, 1970
 </code></pre></div></div>
 
 <p>However, SCDB also lists a series of decisions handed down on June 23, 1969:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1969-06-23: North Carolina v. Pearce [413,418] (395 U.S. 711)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1969-06-23: North Carolina v. Pearce [413,418] (395 U.S. 711)
 1969-06-23: Chimel v. California [770] (395 U.S. 752)
 1969-06-23: Benton v. Maryland [201] (395 U.S. 784)
 1969-06-23: Von Cleef v. New Jersey [837] (395 U.S. 814)
@@ -390,7 +390,7 @@ all the above conditions.  Of course, the logical extension of that argument wou
 variable entirely, because obviously the precise term of <em>any</em> case can be determined by applying a complicated
 set of rules to <strong>dateDecision</strong>.</p>
 
-<p>Harold Spaeth’s <code class="highlighter-rouge">TERM</code> variable didn’t suffer from this ambiguity, because his “ALLCOURT” database didn’t deal
+<p>Harold Spaeth’s <code class="language-plaintext highlighter-rouge">TERM</code> variable didn’t suffer from this ambiguity, because his “ALLCOURT” database didn’t deal
 with cases before the Warren Court.</p>
 
 <h3 id="7-undocumented-values">7. Undocumented Values</h3>
@@ -400,7 +400,7 @@ with cases before the Warren Court.</p>
 <p>And then there’s <a href="http://scdb.wustl.edu/documentation.php?var=lawMinor">lawMinor</a>, a free-form string that has
 become very problematic.  Here’s a small subset of the values, to give you a sense of the problems:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"unidentifed act of congress",
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"unidentifed act of congress",
 "unidentifed act of congress, 1828",
 "unidentifiable",
 "unidentified",
@@ -494,7 +494,7 @@ endeavour, more knowledge – not less – should be one of the goals, as well a
 among all interested parties.</p>
 
 <p>Or, SCDB can quietly extract whatever it wants here, without telling me or anyone else, and then roll
-out its next release with the usual (and completely useless) notation: <code class="highlighter-rouge">minor corrections</code>.  And neither
+out its next release with the usual (and completely useless) notation: <code class="language-plaintext highlighter-rouge">minor corrections</code>.  And neither
 I nor anyone else will have any incentive to help again.</p>
 
 <h3 id="citing-to-the-scdb">Citing to the SCDB</h3>
@@ -506,7 +506,7 @@ I nor anyone else will have any incentive to help again.</p>
   <p>To cite to the Supreme Court Database, please employ either of the following:</p>
 </blockquote>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Harold J. Spaeth, Lee Epstein, Andrew D. Martin, Jeffrey A. Segal,
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Harold J. Spaeth, Lee Epstein, Andrew D. Martin, Jeffrey A. Segal,
 Theodore J. Ruger, and Sara C. Benesh. 2018 Supreme Court Database,
 Version 2018 Release 02. URL: http://Supremecourtdatabase.org 
 
