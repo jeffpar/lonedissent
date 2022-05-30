@@ -6889,6 +6889,7 @@ function runDownloadTasks(done)
 function mergeSCDBDockets(done)
 {
     let changes = 0;
+    let vars = readJSON(sources.scdb.vars);
     printf("reading SCDB decisions...\n");
     let decisions = readJSON(sources.ld.decisions);
     if (!isSortedObjects(decisions, ["caseId"])) {
@@ -6923,22 +6924,25 @@ function mergeSCDBDockets(done)
             let d = searchSortedObjects(decisions, {caseId}, {});
             if (d < 0) {
                 warning("unable to find unique case %s in decisions\n", caseId)
-            } else if (decisions[d].docket.indexOf(',') < 0) {
+            } else {
                 let decision = decisions[d];
-                if (decision.docket != docketRow.docket) {
-                    warning("lead docket (%s) for decision %s does not match first docket (%s) in docket records\n", decision.docket, caseId, docketRow.docket);
-                } else {
-                    let dockets = decision.docket;
-                    for (let j = 1; j <= consolidated; j++) {
-                        if (!decisionDockets[i + j].docket) continue;
-                        if (dockets) dockets += ',';
-                        dockets += decisionDockets[i + j].docket;
-                    }
-                    if (decision.docket != dockets) {
-                        dockets = dockets.replace(/&ndash;/g, '-');
-                        printf("%s (%s): change docket '%s' to '%s'\n", caseId, decision.usCite, decision.docket, dockets);
-                        decision.docket = dockets;
-                        changes++;
+                mapValues(decision, vars);
+                if (decision.docket.indexOf(',') < 0) {
+                    if (decision.docket != docketRow.docket) {
+                        warning("lead docket (%s) for decision %s does not match first docket (%s) in docket records\n", decision.docket, caseId, docketRow.docket);
+                    } else {
+                        let dockets = decision.docket;
+                        for (let j = 1; j <= consolidated; j++) {
+                            if (!decisionDockets[i + j].docket) continue;
+                            if (dockets) dockets += ',';
+                            dockets += decisionDockets[i + j].docket;
+                        }
+                        if (decision.docket != dockets) {
+                            dockets = dockets.replace(/&ndash;/g, '-');
+                            printf("%s (%s): change docket '%s' to '%s'\n", caseId, decision.usCite, decision.docket, dockets);
+                            decision.docket = dockets;
+                            changes++;
+                        }
                     }
                 }
             }
