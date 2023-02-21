@@ -72,7 +72,7 @@ of the Chief Justice or mere happenstance.
 During a recent audit of all posted U.S. Supreme Court argument transcripts, I discovered one
 transcript that was out of place: the opinion announcement for *Milliken v. Bradley*.
 
-I have saved a copy of that transcript [here](/sources/scotus/transcripts/opinions/1973/73-434_1974-07-25.pdf),
+I have saved a copy of that transcript [here](/sources/scotus/opinions/1973/73-434_1974-07-25.pdf),
 because I've never seen a transcript of an opinion announcement from the Court before, and shortly after the Court
 was asked about that particular transcript, they removed it from their website.  Moreover, the Court did not offer
 any explanation as to why this transcript was created or whether any other opinion announcement transcripts also
