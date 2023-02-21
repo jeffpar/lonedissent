@@ -1762,17 +1762,41 @@ function readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
 function readOyezTranscriptSpeakers(filePath)
 {
     let speakers;
+    // printf("reading %s...\n", filePath);
     let transcriptDetail = readJSON(filePath, {}, true);
     if (transcriptDetail) {
         speakers = [];
         if (transcriptDetail.transcript) {
             transcriptDetail.transcript.sections.forEach((section) => {
+                let iTurn = 0;
                 section.turns.forEach((turn) => {
                     if (turn.speaker && (!turn.speaker.roles || !turn.speaker.roles.length || turn.speaker.roles[0].type != "scotus_justice")) {
                         let speaker = {name: turn.speaker.name, identifier: turn.speaker.identifier};
-                        if (searchObjects(speakers, speaker) < 0) {
+                        let i = searchObjects(speakers, speaker);
+                        if (i < 0) {
+                            i = speakers.length;
                             speakers.push(speaker);
                         }
+                        let start = turn.start;
+                        let stop = turn.stop;
+                        if (!start && iTurn > 0) {
+                            for (let text_block of turn.text_blocks) {
+                                if (text_block.start) {
+                                    start = text_block.start;
+                                    break;
+                                }
+                            }
+                        }
+                        if (!start && iTurn > 0 || !stop || stop < start) {
+                            // printf("warning: turn %d for speaker %s missing start or stop times (%s)\n", iTurn, turn.speaker.name, filePath);
+                            return;
+                        }
+                        if (!speakers[i].duration) {
+                            speakers[i].duration = stop - start;
+                        } else {
+                            speakers[i].duration += stop - start;
+                        }
+                        iTurn++;
                     }
                 });
             });
@@ -5821,6 +5845,12 @@ function searchTranscripts(done)
                 }
             }
         }
+        let speakers = readOyezTranscriptSpeakers(transcript.file);
+        if (speakers) {
+            for (let speaker of speakers) {
+                // printf("%s,\"%s\",\"%s\"\n", (speaker.duration/60).toFixed(2), speaker.name, transcript.file);
+            }
+        }
     });
     done();
 }
@@ -6924,7 +6954,7 @@ function mergeSCDBDockets(done)
             let d = searchSortedObjects(decisions, {caseId}, {});
             if (d < 0) {
                 warning("unable to find unique case %s in decisions\n", caseId)
-            } else {
+            } else if (decisions[d].docket.indexOf(',') < 0) {
                 let decision = decisions[d];
                 mapValues(decision, vars);
                 if (decision.docket.indexOf(',') < 0) {
@@ -7061,8 +7091,18 @@ function reportCoalitions(done)
                 id: justices[i].id,
                 name: justices[i].name,
                 positions: [],
-                opinions: 0,
-                dissents: 0
+                voted: 0,
+                votedMajority: 0,
+                opAuthor: 0,
+                opOther: 0,
+                dissents: 0,
+                dissentsLone: 0,
+                rankVoted: 0,
+                rankVotedMajority: 0,
+                rankOpAuthor: 0,        // measuring all decisions as author
+                rankOpMajority: 0,      // measuring all majority opinions, author or not
+                rankOpMinority: 0,      // measuring all minority opinions
+                rankOpLoner: 0          // measuring all minority opinions as lone dissenter
             });
         }
         uniqueJustices[j].positions.push(justices[i]);
@@ -7294,6 +7334,34 @@ function reportCoalitions(done)
     let decisions = readJSON(sources.ld.decisions /* _data.allDecisions */);
     let i, j = 0;
     // printf("id,symbol,petitioner,respondent,winner,scdb,citation,author,majority,minority,argued,decided,category,issue,legal\n");
+
+    let pairAgreements = {};
+    let teamJustices = [78, 95], teamAgreements = [];
+    let isTeamDecision = function(decision) {
+        let teamMatches = 0;
+        for (let k = 0; k < decision.justices.length; k++) {
+            let justice = decision.justices[k];
+            if (teamJustices.indexOf(justice.justice) >= 0) teamMatches++;
+        }
+        return teamMatches == teamJustices.length;
+    };
+    let getJusticeName = function(justiceIndex) {
+        let justiceID = vars.justice.values[justiceIndex];
+        let justiceName = vars.justiceName.values[justiceID];
+        return remapName(justiceName);
+    };
+    let addPair = function(pairs, justice1, justice2, decision, agrees) {
+        if (!justice1 || !justice2 || justice1 == justice2) return;
+        if (justice1 > justice2) {
+            let j = justice1; justice1 = justice2; justice2 = j;
+        }
+        let pairID = getJusticeName(justice1) + "+" + getJusticeName(justice2);
+        if (!pairs[pairID]) pairs[pairID] = [[],[]];
+        if (pairs[pairID][agrees].indexOf(decision.caseId) < 0) {
+            pairs[pairID][agrees].push(decision.caseId);
+        }
+    };
+
     for (i = 0; i < decisions.length; i++) {
         let decision = decisions[i];
         if (decision.justices.length <= 1) continue;
@@ -7317,9 +7385,69 @@ function reportCoalitions(done)
         if (decision.justices.length > 9 && decision.majVotes + decision.minVotes > 9) {
             printf("%s (%s): %s (%s): %d v. %d\n", court.name, decision.caseId, decision.caseTitle || decision.caseName, decision.usCite, decision.majVotes, decision.minVotes);
         }
+        let totalDissents = 0, lastDissenter = -1;
+
+        /*
+         * If this decision features our "team of focus", then we want to collect agreement data on ALL pairs during the same period.
+         */
+        if (isTeamDecision(decision)) {
+            for (let k = 0; k < decision.justices.length; k++) {
+                let justice1 = decision.justices[k];
+                for (let l = k + 1; l < decision.justices.length; l++) {
+                    let justice2 = decision.justices[l];
+                    if (justice1.vote == justice2.vote) {
+                        addPair(pairAgreements, justice1.justice, justice2.justice, decision, 1);
+                    }
+                    addPair(pairAgreements, justice1.justice, justice2.justice, decision, 0);
+                }
+                // if (decision.majOpinWriter && (justice1.vote == 1 || justice1.vote == 3)) {
+                //     addPair(pairAgreements, justice1.justice, decision.majOpinWriter, decision, 1);
+                // }
+                // if (justice1.firstAgreement) {
+                //     addPair(pairAgreements, justice1.justice, justice1.firstAgreement, decision, 1);
+                // }
+                // if (justice1.secondAgreement) {
+                //     addPair(pairAgreements, justice1.justice, justice1.secondAgreement, decision, 1);
+                // }
+            }
+        }
+
         for (let k = 0; k < decision.justices.length; k++) {
             let justice = decision.justices[k], l;
-
+            /*
+             * Let's get the team checks out of the way first.  Finding agreement is the easy part.
+             */
+            let teamIndex = teamJustices.indexOf(justice.justice);
+            if (teamIndex >= 0) {
+                /*
+                 * The database marks some justices as agreeing with themselves?  See 1956-129, where HLBlack agrees with himself....
+                 */
+                if (teamJustices.indexOf(justice.firstAgreement) >= 0 && justice.firstAgreement != justice.justice || teamJustices.indexOf(justice.secondAgreement) >= 0 && justice.secondAgreement != justice.justice) {
+                    teamAgreements.push([decision.caseId, decision.caseName, decision.usCite, decision.dateDecision, decision.majVotes]);
+                }
+                /*
+                 * The other part of "teamwork" is checking for mutual dissension; in particular, when they
+                 * are the ONLY ones in dissent.
+                 */
+                if (teamIndex == 0 && justice.majority == 1) {
+                    let teamDissent = false;
+                    for (let t = 0; t < decision.justices.length; t++) {
+                        if (t == k) continue;
+                        let justice2 = decision.justices[t];
+                        if (justice2.majority == 1) {
+                            if (teamJustices.indexOf(justice2.justice) >= 0) {
+                                teamDissent = true;
+                            } else {
+                                teamDissent = false;
+                                break;
+                            }
+                        }
+                    }
+                    if (teamDissent) {
+                        teamAgreements.push([decision.caseId, decision.caseName, decision.usCite, decision.dateDecision, decision.minVotes]);
+                    }
+                }
+            }
             /*
              * Find justice.justiceName in court.justices to determine their "bit position" in the coalition value.
              */
@@ -7337,12 +7465,26 @@ function reportCoalitions(done)
              */
             let u = getUniqueJustice(justice.justiceName, court);
             if (u >= 0) {
-                if (justice.opinion == 2) {         // 3 means co-authored but we're going to skip those for now
+                uniqueJustices[u].voted++;
+                if (justice.majority == 2) {
+                    uniqueJustices[u].votedMajority++;
+                }
+                if (justice.justice == decision.majOpinWriter) {
+                    if (justice.opinion != 2 || justice.majority != 2) {
+                        printf("%s: justice %s is majOpinWriter but opinion (%d) or majority (%d) differs\n", decision.caseId, justice.justiceName, justice.opinion, justice.majority);
+                    }
+                    uniqueJustices[u].opAuthor++;
+                }
+                else if (justice.opinion >= 2) {    // 2 means authored, 3 means co-authored
                     if (justice.majority == 2) {
-                        uniqueJustices[u].opinions++;
+                        uniqueJustices[u].opOther++;
                     } else if (justice.majority == 1) {
                         uniqueJustices[u].dissents++;
                     }
+                }
+                if (justice.majority == 1) {
+                    totalDissents++;
+                    lastDissenter = u;
                 }
             } else {
                 printf("unable to match justice %s in court %s\n", justice.justiceName, court.name);
@@ -7362,6 +7504,9 @@ function reportCoalitions(done)
                     // printf("minority coalition in case %s contains multiple %#x values\n", decision.caseId, l);
                 }
             }
+        }
+        if (totalDissents == 1) {
+            uniqueJustices[lastDissenter].dissentsLone++;
         }
         let claw = isConLaw(decision);
         let noted = isNotedCase(decision);
@@ -7427,18 +7572,52 @@ function reportCoalitions(done)
         }
     }
 
+    printf("team agreements:\n");
+    for (let a of teamAgreements) {
+        printf("\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",%d\n", getJusticeName(teamJustices[0]), getJusticeName(teamJustices[1]), a[0], a[1], a[2], a[3], a[4]);
+    }
+
+    printf("pair agreements for the same period:\n");
+    for (let p in pairAgreements) {
+        let justices = p.split('+');
+        let percentAgrees = (pairAgreements[p][1].length / pairAgreements[p][0].length) * 100;
+        printf("\"%s\",\"%s\",%d,%d,%3.2f\n", justices[0], justices[1], pairAgreements[p][0].length, pairAgreements[p][1].length, percentAgrees);
+    }
+
     printf("total decisions: %d\n", i);
     if (cNotedCasesUpdated) writeCSV("../../judicious/data/case-deck.csv", notedCases, true);
 
-    let totalOpinions = 0;
-    let sortedJustices = [...uniqueJustices].sort((a,b) => (b.opinions + b.dissents) - (a.opinions + a.dissents));
-    for (let i = 0; i < sortedJustices.length; i++) sortedJustices[i].rank = i + 1;
+    let sortedJustices = [...uniqueJustices].sort((a,b) => (b.voted) - (a.voted));
+    for (let i = 0; i < sortedJustices.length; i++) sortedJustices[i].rankVoted = i + 1;
 
+    sortedJustices = [...uniqueJustices].sort((a,b) => (b.votedMajority) - (a.votedMajority));
+    for (let i = 0; i < sortedJustices.length; i++) sortedJustices[i].rankVotedMajority = i + 1;
+
+    sortedJustices = [...uniqueJustices].sort((a,b) => (b.opAuthor) - (a.opAuthor));
+    for (let i = 0; i < sortedJustices.length; i++) sortedJustices[i].rankOpAuthor = i + 1;
+
+    sortedJustices = [...uniqueJustices].sort((a,b) => (b.opAuthor + b.opOther) - (a.opAuthor + a.opOther));
+    for (let i = 0; i < sortedJustices.length; i++) sortedJustices[i].rankOpMajority = i + 1;
+
+    sortedJustices = [...uniqueJustices].sort((a,b) => (b.dissents) - (a.dissents));
+    for (let i = 0; i < sortedJustices.length; i++) sortedJustices[i].rankOpMinority = i + 1;
+
+    sortedJustices = [...uniqueJustices].sort(function(a,b) {
+        return b.dissentsLone == a.dissentsLone? b.dissents - a.dissents : b.dissentsLone - a.dissentsLone;
+    });
+    for (let i = 0; i < sortedJustices.length; i++) sortedJustices[i].rankOpLoner = i + 1;
+
+    let totalOpinions = 0;
     for (let uniqueJustice of uniqueJustices) {
-        printf("%5d majority opinions (%d total) written by %s (rank %d)\n", uniqueJustice.opinions, uniqueJustice.opinions + uniqueJustice.dissents, uniqueJustice.name, uniqueJustice.rank);
-        totalOpinions += uniqueJustice.opinions;
+        printf("%5d opinions authored (%d total) written by %s (rank %d)\n", uniqueJustice.opAuthor, uniqueJustice.opAuthor + uniqueJustice.opOther + uniqueJustice.dissents, uniqueJustice.name, uniqueJustice.rankOpMajority);
+        totalOpinions += uniqueJustice.opAuthor + uniqueJustice.opOther;
     }
-    printf("%5d majority opinions total\n", totalOpinions);
+    printf("%5d majority opinions total\n\n", totalOpinions);
+
+    printf("name,voted,votedMajority,opAuthor,opOther,dissents,dissentsLone,rankVoted,rankVotedMajority,rankOpAuthor,rankOpMajority,rankOpMinority,rankOpLoner\n");
+    for (let uniqueJustice of uniqueJustices) {
+        printf("\"%s\",%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d\n", uniqueJustice.name, uniqueJustice.voted, uniqueJustice.votedMajority, uniqueJustice.opAuthor, uniqueJustice.opOther, uniqueJustice.dissents, uniqueJustice.dissentsLone, uniqueJustice.rankVoted, uniqueJustice.rankVotedMajority, uniqueJustice.rankOpAuthor, uniqueJustice.rankOpMajority, uniqueJustice.rankOpMinority, uniqueJustice.rankOpLoner);
+    }
 
     /*
      * Now we can iterate over all the courts, sort their coalitions, and print the top N from each.

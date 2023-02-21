@@ -22,7 +22,8 @@ footer-links:
 
 disqus:
 
-analytics_gtag: UA-131809531-1
+google_analytics: UA-131809531-1
+google_ga4: G-632F9PGQ05
 
 url: https://lonedissent.org
 
@@ -75,10 +76,13 @@ exclude:
   - /sources/oyez/justices_by_court
   - /sources/oyez/transcripts
   - /sources/oyez52
+  - /sources/proquest
   - /sources/schs
   - /sources/scdb/*.csv
+  - /sources/scotus/briefs
   - /sources/scotus/journals
   - /sources/scotus/lists
+  - /sources/scotus/rules
   - /sources/scotus/transcripts/arguments
   - /sources/sites
   - /sources/ssrn
