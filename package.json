@@ -1,5 +1,6 @@
 {
   "name": "lonedissent",
+  "type": "module",
   "version": "1.0.0",
   "description": "Lone Dissent",
   "main": "index.js",
@@ -17,7 +18,7 @@
   },
   "homepage": "https://github.com/jeffpar/lonedissent#readme",
   "devDependencies": {
-    "eslint": "^5.10.0",
+    "eslint": "^8.36.0",
     "glob": "^7.1.6",
     "gulp": "^4.0.2",
     "he": "^1.2.0",
@@ -29,6 +30,7 @@
   },
   "dependencies": {
     "animejs": "^3.0.0",
-    "csshake": "^1.5.3"
+    "csshake": "^1.5.3",
+    "puppeteer": "^21.11.0"
   }
 }

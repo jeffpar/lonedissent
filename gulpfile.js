@@ -100,32 +100,33 @@
  * TODO: Make a list of all "Special Terms" created by the Court (presumably they are all after 1911).
  */
 
-"use strict";
+import glob from "glob";
+import gulp from "gulp";
+import fs from "fs";
+import mkdirp from "mkdirp";
+import path from "path";
+import request from "request";
+import he from "he";
+import xml2js from "xml2js";
+let parseXML = xml2js.parseString;
+import readLineSync from "readline-sync";
+import puppeteer from "puppeteer";
 
-let glob = require("glob");
-let gulp = require("gulp");
-let fs = require("fs");
-let mkdirp = require("mkdirp");
-let path = require("path");
-let request = require("request");
-let he = require("he");
-let parseXML = require('xml2js').parseString;
-var readLineSync = require('readline-sync');
-
-let rootDir = ".";
-let datelib = require(rootDir + "/lib/datelib");
+import datelib from "./lib/datelib.js";
 let parseDate = datelib.parseDate;
 let isValidDate = datelib.isValidDate;
 let adjustDays = datelib.adjustDays;
-let proclib = require(rootDir + "/lib/proclib");
-let stdio = require(rootDir + "/lib/stdio");
+import proclib from "./lib/proclib.js";
+import stdio from "./lib/stdio.js";
+import { count } from "console";
 let printf = stdio.printf;
 let sprintf = stdio.sprintf;
-let strlib = require(rootDir + "/lib/strlib");
 
-let _data = require(rootDir + "/_data/_data.json");
-let logs = require(rootDir + "/logs/_logs.json");
-let sources = require(rootDir + "/sources/_sources.json");
+let rootDir = ".";
+let _data = JSON.parse(fs.readFileSync(rootDir + "/_data/_data.json"));
+let logs = JSON.parse(fs.readFileSync(rootDir + "/logs/_logs.json"));
+let sources = JSON.parse(fs.readFileSync(rootDir + "/sources/_sources.json"));
+
 let argv = proclib.args.argv;
 let downloadTasks = [];
 let warnings = 0;
@@ -303,22 +304,22 @@ function fixASCII(text)
         let c = text.charCodeAt(i);
         switch(c) {
         case 0x91:
-            textNew += "&lsquo;"
+            textNew += "&lsquo;";
             break;
         case 0x92:
-            textNew += "&rsquo;"
+            textNew += "&rsquo;";
             break;
         case 0x93:
-            textNew += "&ldquo;"
+            textNew += "&ldquo;";
             break;
         case 0x94:
-            textNew += "&rdquo;"
+            textNew += "&rdquo;";
             break;
         case 0x96:
-            textNew += "&ndash;"
+            textNew += "&ndash;";
             break;
         case 0xA7:
-            textNew += "&sect;"
+            textNew += "&sect;";
             break;
         default:
             if (c >= 0x7f) {
@@ -341,7 +342,7 @@ function fixASCII(text)
 function decodeString(text, decodeAs)
 {
     if (decodeAs == "html") {
-        /*
+        /**
          * Replace any old-fashioned "&c" references that could be misinterpreted as HTML entities.
          */
         text = text.replace(/&C\./g, "ETC.").replace(/&c\./g, "etc.").replace(/&AMP;/g, "&").replace(/&NBSP;/g, "");
@@ -361,7 +362,7 @@ function decodeString(text, decodeAs)
 function encodeString(text, encodeAs, fAllowQuotes=true)
 {
     if (encodeAs == "html") {
-        /*
+        /**
          * In case there are already HTML entities in the string, decode first to avoid double-encoding.
          */
         text = decodeString(text, encodeAs);
@@ -370,7 +371,7 @@ function encodeString(text, encodeAs, fAllowQuotes=true)
             "useNamedReferences": true
         });
         if (fAllowQuotes) text = text.replace(/&apos;/g, "'").replace(/&quot;/g, '"');
-        /*
+        /**
          * Some input (eg, "latin1") may contain extended ASCII characters that should be encoded as entities, too.
          */
         text = fixASCII(text);
@@ -597,7 +598,7 @@ function compareObjectArrays(oldObjs, newObjs, key)
             }
             if (newObjs[iNew][key] < oldObjs[iOld][key]) {
                 iNew++;
-                continue
+                continue;
             }
             keyValue = oldObjs[iOld][key];
         }
@@ -900,7 +901,7 @@ function parseCSV(text, encodeAs="", maxRows=0, keyUnique="", keySubset="", save
         let fields = parseCSVFields(line, encodeAs, !headings);
         if (!headings) {
             headings = fields;
-            /*
+            /**
              * Make sure all headings are non-empty and unique.
              */
             for (let h = 0; h < headings.length; h++) {
@@ -1152,7 +1153,7 @@ function readFile(filePath, encoding="", fOptional=false)
         if (filePath[0] == '/') filePath = path.join(rootDir, filePath);
         text = fs.readFileSync(filePath, encoding || "utf-8");
         if (!encoding) {
-            /*
+            /**
              * If the file begins with a Byte Order Mark (BOM), which is 0xEF,0xBB,0xBF in UTF-8 or 0xFEFF in UTF-16,
              * then strip it.  I've seen this in some CSV files, so it's a very real concern.
              */
@@ -1314,7 +1315,7 @@ function getOldCite(volume, page)
 {
     let oldCite = "";
     if (volume) {
-        let reporter = "", volBegin = 0
+        let reporter = "", volBegin = 0;
         if (volume < 5) {
             volBegin = 1;
             reporter = "Dall.";
@@ -1470,7 +1471,7 @@ function readCourts()
 {
     let fixes = 0;
     let courts = readJSON(sources.ld.courts);
-    /*
+    /**
      * First, let's see how our data lines up with current Oyez HTML data.
      */
     let html = readFile(sources.oyez.courts_html);
@@ -1492,7 +1493,7 @@ function readCourts()
             warning("unable to find HTML court '%s' in XML courts\n", name);
         }
     }
-    /*
+    /**
      * Next, let's see how our data lines up with itself.
      */
     for (let i = 0; i < courts.length; i++) {
@@ -1643,7 +1644,7 @@ function readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
         row.termId = getTermDate(row.term).substr(0,7);
         row.issue = "";
         let urlOyez = caseDetail.href.replace("api.", "www.");
-        /*
+        /**
          * For purposes of our advocate tables, making the distinction between argument
          * and reargument dates is neither necessary nor helpful.  In fact, it's the opposite
          * of helpful.  Our advocate reports are focussed on number of appearances.
@@ -1682,7 +1683,7 @@ function readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
                 row.datesArgued += ',' + row.dateRearg;
             }
         }
-        /*
+        /**
          * If there are any inconsistencies in OYEZ's data with regard to argument dates and audio dates,
          * let's catch those.
          */
@@ -1710,7 +1711,7 @@ function readOyezCaseData(filePath, caseTitle, docket, dateArgued, advocateName)
             });
         }
         if (dateArgued) {
-            /*
+            /**
              * If a specific argument date has been requested, let's validate it, and if it passes, use it.
              */
             if (row.datesArgued.indexOf(dateArgued) < 0) {
@@ -1882,7 +1883,7 @@ function readOyezJustices()
             let xmlAppt = xml.justice.justiceAppointment[j];
             justice.position = xmlAppt.justicePosition[0];
             justice.seat = +xmlAppt.justiceSeat[0];
-            /*
+            /**
              * For some reason, all the Oyez XML justice dates appear to be off-by-one, so we compensate here.
              */
             let date = datelib.adjustDays(parseDate(xmlAppt.justiceSwornDate[0]._), 1);
@@ -2011,7 +2012,7 @@ function readSCDBCourts(fDisplay=false)
     for (let i = 0; i < courts.length; i++) {
         let court = courts[i];
         let start = parseDate(court.dateStart);
-        /*
+        /**
          * WARNING: The final court will not have a stop date, so parseDate() will return
          * an invalid Date object.  This means that when we call:
          *
@@ -2072,7 +2073,7 @@ function readSCDBJustices(fDisplay)
             last = match[1];
             justice.name =  first + ' ' + last;
         }
-        /*
+        /**
          * WARNING: Active justices will not have a stop date, so parseDate() will return
          * an invalid Date object.  This means that when we call:
          *
@@ -2316,7 +2317,7 @@ function buildAdvocates(done)
                         }
                     }
                     cases.forEach((obj) => {
-                        /*
+                        /**
                          * For some reason, some advocates (eg, lisa_s_blatt) have multiple references to the same cases,
                          * so we use the uniqueObjs array to guard against that.
                          */
@@ -2376,10 +2377,10 @@ function buildAdvocates(done)
                         i = searchSortedObjects(decisions, obj, {});
                     }
                     if (i < 0 && dateArgument) {
-                        /*
+                        /**
                          * We must perform a much slower search, based solely on argument date and docket number.
                          */
-                        i = findByDateAndDocket(decisions, dateArgument, row.docket)
+                        i = findByDateAndDocket(decisions, dateArgument, row.docket);
                     }
                     if (i >= 0) {
                         let argument = cloneObject(decisions[i]);
@@ -2402,7 +2403,7 @@ function buildAdvocates(done)
                             } else if (argument.partyWinning == "no favorable disposition for petitioning party apparent") {
                                 row.votesPetitioner = argument.minVotes;
                                 row.votesRespondent = argument.majVotes;
-                                changes++
+                                changes++;
                             }
                         }
                         if (!row.issue && argument.issue) {
@@ -2410,7 +2411,7 @@ function buildAdvocates(done)
                             changes++;
                         }
 
-                        /*
+                        /**
                          * The advocate CSV generally has more precise data regarding actual arguments, so let's use that instead.
                          */
                         argument.caseTitle = row.caseTitle;
@@ -2467,7 +2468,7 @@ function buildAdvocates(done)
                 text += "who painstakingly extracted appearances of women advocates from the [Journals of the Supreme Court of the United States](https://www.supremecourt.gov/orders/journal.aspx)\n";
                 text += "for October Term 1880 through October Term 1999.  This was later supplemented with data from 2000 through 2016 by Julie Silverbrook and Emma Shainwald.\n";
                 text += "We have extended the data through the end of the 2018 term, consulting a combination of Journals and [Transcripts](https://www.supremecourt.gov/oral_arguments/argument_transcript/2018).\n\n";
-                /*
+                /**
                  * topWomen comes from our women-advocates spreadsheet, which doesn't store IDs, just "normalized" names
                  * (ie, the names the advocates used on their first argument).  So we have to walk our list of advocates and
                  * search for a match on the normalized name to find our corresponding ID.
@@ -2660,7 +2661,7 @@ function buildAdvocatesAll(done)
                         }
                     }
                     if (matched) {
-                        /*
+                        /**
                          * Before adding this case file to the list of cases for the current Oyez alias, we should check
                          * any other aliases for the same case file (carter_phillips is a good example, because Oyez has redundant
                          * references for him).
@@ -2843,7 +2844,7 @@ function buildAdvocatesWomen(done)
  */
 function buildCitations(done)
 {
-    /*
+    /**
      * Phase 1: Build a set of citations from a snapshot of SCOTUS web pages as needed, or parse the existing CSV.
      */
     let rowsScotus = [], citesScotus = {}, volumesScotus = {};
@@ -2857,7 +2858,7 @@ function buildCitations(done)
             let html = readFile(filePaths[i], isHTML? "latin1" : "utf-8");
             if (html) {
                 if (isHTML) {
-                    /*
+                    /**
                      * I like to replace any "&nbsp;"" with a space myself, because if I let he.decode() do it, it will
                      * replace the entity with "c2 a0" (aka "NO-BREAK SPACE"), and I'm not sure the RegExp whitespace token
                      * (\s) will match that particular character.  We also take this opportunity to remove any italicization
@@ -2896,7 +2897,7 @@ function buildCitations(done)
                     case "Wall":
                     case "Wal.":
                         volBegin = 68;
-                        reporter = "Wall."
+                        reporter = "Wall.";
                         break;
                     case "U. S.":
                     case "U.S.":
@@ -2962,7 +2963,7 @@ function buildCitations(done)
         });
     }
 
-    /*
+    /**
      * Phase 2: Build an independent set of citations for use as a cross-check, because apparently some of the old SCOTUS citations
      * were problematic.  See for yourself: https://web.archive.org/web/20080619081552/http://www.supremecourtus.gov/opinions/casefinder/casefinder_1790-1862.html;
      * eg, they used to cite "Wilson v. Mason' (5 U.S. 44)", while everyone else cites "Wilson v. Mason' (5 U.S. 45)" -- including SCOTUS today.
@@ -3014,7 +3015,7 @@ function buildCitations(done)
         });
     }
 
-    /*
+    /**
      * Phase 3: Build another independent set of citations for use as a cross-check from Library of Congress web pages.
      *
      * Examples of LOC citation text:
@@ -3072,7 +3073,7 @@ function buildCitations(done)
         });
     }
 
-    /*
+    /**
      * Phase 4: Check SCOTUS cites against LOC cites.
      */
     let corrections = 0;
@@ -3120,7 +3121,7 @@ function buildCitations(done)
         }
     });
 
-    /*
+    /**
      * Phase 5: Check LOC cites against SCOTUS cites.
      */
     let additions = 0;
@@ -3177,7 +3178,7 @@ function buildCitations(done)
         // }
     });
 
-    /*
+    /**
      * Phase 6: Verify that all cases in dates.csv are recorded in citations.csv
      */
     let rowsDates = readCSV(sources.ld.dates_csv);
@@ -3214,7 +3215,7 @@ function buildCitations(done)
  */
 function buildCourts(done)
 {
-    /*
+    /**
      * Now that we've edited courts.json, we no longer want to rebuild it.
      *
      *      let courtsOyez = readOyezCourts();
@@ -3223,7 +3224,7 @@ function buildCourts(done)
      */
     let courts = readCourts();
 
-    /*
+    /**
      * Let's verify that all the justices are appropriately slotted into the courts.
      */
     let lastCourtPrinted = "";
@@ -3247,7 +3248,7 @@ function buildCourts(done)
         }
     }
 
-    /*
+    /**
      * Now walk the courts data, interleaving the courtsSCDB data, to produce a reconciliation spreadsheet.
      */
     let courtsSCDB = readSCDBCourts(true);
@@ -3357,13 +3358,13 @@ function buildJustices(done)
         justice.startFormatted = sprintf("%#C", start);
         justice.stop = sprintf("%#Y-%#02M-%#02D", stop);
         justice.stopFormatted = sprintf("%#C", stop);
-        /*
+        /**
          * Let's see if we can find a match in the Oyez list...
          */
         let missing = true;
         for (let j = 0; j < justicesOyez.length; j++) {
             let oyez = justicesOyez[j];
-            /*
+            /**
              * OYEZ uses "Brockholst Livingston" and "Frank Murphy",
              * whereas SCDB uses "Henry Livingston" and "Francis Murphy", so we need some variances.
              */
@@ -3452,7 +3453,7 @@ function generateCommonCaseYML(decision, caseNumber=0, extras=[])
     ymlText += '    termId: "' + decision.termId + '"\n';
     let title = encodeString(decision.caseTitle || decision.caseName, "html", false);
     ymlText += '    title: "' + title + '"\n';
-    /*
+    /**
      * The source of an opinion PDF varies.  For LOC (Library of Congress) opinions, the 'pdfSource'
      * should be set to "loc".  When using SCOTUS bound volume PDFs, 'pdfSource' should be "scotusBound".
      * And finally, when using SCOTUS slip opinions, 'pdfSource' should be a SCOTUS path (eg,
@@ -3507,7 +3508,7 @@ function generateCommonCaseYML(decision, caseNumber=0, extras=[])
     if (decision.pdfPage) ymlText += '    pdfPage: ' + decision.pdfPage + '\n';
     if (decision.pdfPageDissent) ymlText += '    pdfPageDissent: ' + decision.pdfPageDissent + '\n';
     if (extras.indexOf("dateArgument") >= 0 && decision.dateArgument) {
-        /*
+        /**
          * TODO: Handle multiple dates more comprehensively.
          */
         ymlText += '    dateArgument: "' + sprintf("%#C", decision.dateArgument.split(',')[0]) + '"\n';
@@ -3621,7 +3622,7 @@ function getTermDate(term, termDelta = 0, dateDelta = 0, fPrint = false)
         let firstDate;          // first date of the month (bumped from 1 to 8 when we must find the *second* target weekday of the month)
         do {
             if (year >= 1917) {
-                /*
+                /**
                  * You might think that 1917 to present would be simplest (first Monday of October to first Monday of the following October),
                  * and it is, except for those pesky "special terms"....
                  */
@@ -3801,7 +3802,7 @@ function sortVotesBySeniority(decision, vars, courts, justices, fUseNamedCourt)
         for (let iCourtJustice = 0; iCourtJustice < court.justices.length; iCourtJustice++) {
             let iJustice = 0, nextJustice = 0;
             let idJustice = court.justices[iCourtJustice].id;
-            /*
+            /**
              * If the court object contains a 'naturalCourt' value, then it's from readSCDBCourts(),
              * therefore idJustice comes from the 'id' field in justices.csv and should already be a
              * match for one of the 'justice' values in the SCDB votes array.
@@ -3817,7 +3818,7 @@ function sortVotesBySeniority(decision, vars, courts, justices, fUseNamedCourt)
                 }
                 continue;
             }
-            /*
+            /**
              * If the court object does NOT contain a 'naturalCourt' value, then it's from courts.json,
              * which uses justice IDs from justices.json, so we must find the matching justice element and
              * extract its corresponding SCDB ID before attempting to find the justice's vote.
@@ -3878,12 +3879,12 @@ function findWriter(decision, writer)
         }
         if (dissent < 0) dissents++;
     }
-    /*
+    /**
      * If the justice was a dissenter but not a LONE dissenter, then we all we want to indicate is that they wrote an
      * opinion (we don't care if it was a majority or minority opinion).
      */
     if (result < 0 && dissents > 1) result = -result;
-    /*
+    /**
      * This code deals with a special case: the justice didn't write anything (so result is 0), but their vote was a dissent,
      * and it turned out to be the ONLY dissent; they were a silent lone dissenter, but a lone dissenter nonetheless.
      */
@@ -4212,7 +4213,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     }
                     decision.caseNotes += (argv['replace']? "replaced " : "added ") + additions + reason;
                     printf("updated caseNotes: %s\n", decision.caseNotes);
-                    /*
+                    /**
                      * One of the few times we eliminate the need for --overwrite, since you already have to specify --reason...
                      */
                     writeFile(sources.ld.decisions, decisions, true);
@@ -4232,7 +4233,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             for (let r = 0; r < searchResults.length; r++) {
                 let decision = searchResults[r];
                 parseCite(decision.usCite, decision);
-                /*
+                /**
                  * NOTE: Even if mapValues() returns an error (< 0), we now continue processing cases.
                  *
                  * Here's a list of suspect cases; not only did they contain one or more unknown values, but their votes were "0-0".
@@ -4268,7 +4269,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                 if (iSearch < 0 || argv['check']) {
                     if (termId) decision['termId'] = termId;
                     if (minVotes == 1) {
-                        /*
+                        /**
                          * Determine who the lone dissenter is now.
                          *
                          * TODO: Fix this, because it's missing some jurisdictional dissents (eg, Great Western Sugar Co. v. Nelson, 442 U.S. 92),
@@ -4331,7 +4332,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
             }
             if (term) {
                 sortObjects(searchResults, ["dateDecision", "caseTitle"]);
-                /*
+                /**
                  * Create a page for each term of decisions that doesn't already have one (eg, _pages/cases/loners/yyyy-mm.md)
                  */
                 let category = minVotes == 1? "loners" : "all";
@@ -4347,7 +4348,7 @@ function findDecisions(done, minVotes, sTerm = "", sEnd = "")
                     writeFile(fileName, fileText);
                     changes++;
                 }
-                /*
+                /**
                  * Let's make sure there's an index entry as well....
                  */
                 fileName = "/_pages/cases/" + category + "/README.md";
@@ -4426,7 +4427,7 @@ function findAllDecisions(done)
  */
 function findJustices(done, minVotes)
 {
-    /*
+    /**
      * If we've already built lonerJustices.json, then use it; otherwise, build it.
      */
     let lonerBackup = readJSON(_data.lonerBackup, []);
@@ -4498,7 +4499,7 @@ function findJustices(done, minVotes)
         //
         // printf("%s: %d %s%s\n", justice.name, total, type, total == 1? '' : 's');
         //
-        /*
+        /**
         * Create a page for each Justice's lone dissents.
         */
         let pageName = sprintf("Justice %s's %s", justice.name, description);
@@ -4529,7 +4530,7 @@ function findJustices(done, minVotes)
         writeFile(fileName, text, argv['overwrite'], true);
         index += sprintf("- [%s](/justices/%s/%s) (%d %s%s)\n", justice.name, category, justice.id, total, type, total == 1? '' : 's');
     });
-    /*
+    /**
      * And finally, build an index of all Justices with their opinions.
      */
     if (index) {
@@ -4679,7 +4680,7 @@ function convertTranscripts(done)
             text += "### Transcript of Oral Argument" + (dateArgument? " on " + dateArgument : "") + "\n\n";
             let transcript = readFile(filePath);
             if (transcript) {
-                /*
+                /**
                  * The XML in these TXT files is not always well-formed.  For example, there are instances
                  * where speaker names are wrapped with two "<speaker>" tags, instead of "<speaker>...</speaker>",
                  * so we fix that first.
@@ -4785,7 +4786,7 @@ function matchJournals(done)
     filePaths.forEach((filePath) => {
         let text = readFile(filePath);
         if (!text) return;
-        /*
+        /**
          * Let's see if we can reliably get date markers for the entire file...
          */
         let dateMarkers = getDateMarkers(text);
@@ -4815,7 +4816,7 @@ function matchOyezDates(done)
         sortObjects(dates, ["usCite", "dateDecision", "dateArgument"]);
     }
 
-    /*
+    /**
      * The initial version of our dates.csv contained the following columns:
      *
      *      usCite,caseTitle,dateArgument,dateDecision
@@ -4918,7 +4919,7 @@ function matchOyezDates(done)
         if (!casePaths || !casePaths.length) {
             warning("unable to find case files: %s\n", sources.oyez.cases_json);
         } else {
-            /*
+            /**
              * Build an array of caseInfo records that include:
              *
              *      term,docket,usCite,caseTitle,dateArgument,dateRearg,audioExists,advocatesPetitioner,advocatesRespondent,advocatesOther,dateDecision,caseLink
@@ -4999,7 +5000,7 @@ function matchOyezDates(done)
             oyezCases.push(oyezHash[caseFile]);
         }
 
-        /*
+        /**
          * Let's see if there are any sets of records that should be merged before writing the final CSV.
          */
         let mergeFields = function(obj1, obj2, field, fieldsDupe=[]) {
@@ -5054,7 +5055,7 @@ function matchOyezDates(done)
     sortObjects(dates, ["usCite", "dateDecision", "dateArgument"]);
     sortObjects(oyezCases, ["usCite", "dateDecision", "dateArgument"]);
 
-    /*
+    /**
      * OK, now that we have all the Oyez records properly generated, it's time to go through them and supplement or update
      * dates.csv as appropriate.  We'll want to do the same thing with SCDB-derived decisions records, too, so we'll read that
      * data in as well.
@@ -5283,7 +5284,7 @@ function matchTXTDates(done)
     printf("reading U.S. Reports texts...\n");
     let filePaths = glob.sync(rootDir + sources.loc.files_txt);
     filePaths.forEach((filePath) => {
-        /*
+        /**
          * We skip the first 100 volumes, because they're old, they didn't scan well, and for the most part,
          * they didn't include any dates anyway.  Besides, volumes 1-107 are already covered by the Supreme Court's
          * "DATES OF DECISIONS" document.  It's probably no coincidence that that document stopped at volume 107,
@@ -5302,7 +5303,7 @@ function matchTXTDates(done)
             // if (usCite == "109 U.S. 194") {
             //     console.log(usCite);
             // }
-            /*
+            /**
              * We make the last digit of the 4-digit year optional, because sometimes the text
              * didn't pick up all four digits (eg, ./sources/loc/volumes/101-200/109/109us110.txt).
              * We also allow letters in place of digits, because sometimes an 'S' will show up
@@ -5323,7 +5324,7 @@ function matchTXTDates(done)
                     }
                     return;
                 }
-                /*
+                /**
                  * If the current matchArgued appears AFTER the current matchDecided, then the presumption is
                  * those dates don't go together, so we "sync" reArgued.lastIndex to reDecided.lastIndex.  Ditto
                  * for when reArgued didn't find anything at all; otherwise the next reArgued.exec() call will
@@ -5338,7 +5339,7 @@ function matchTXTDates(done)
                 if (argv['detail']) {
                     printf("%s (%s): Argued '%s', Decided '%s'\n", filePath, usCite, textArgued, textDecided);
                 }
-                /*
+                /**
                  * Let's do some preliminary parsing of decision dates.  For starters, there should be three
                  * groups separated by whitespace; if not, look for the first digit in the first group and separate
                  * on that.
@@ -5402,7 +5403,7 @@ function matchXMLDates(done)
 
     for (let i = 0; i < decisions.length; i++) {
         let decision = decisions[i], dateType = dateTypes[0];
-        /*
+        /**
          * We skip the first 107 volumes, because they're old, they didn't scan well, and for the most part,
          * they didn't include any dates anyway.  Besides, volumes 1-107 are already covered by the Supreme Court's
          * "DATES OF DECISIONS" document.  It's probably no coincidence that that document stopped at volume 107,
@@ -5530,7 +5531,7 @@ function matchTranscripts(done)
         }
     });
 
-    /*
+    /**
      * I'd like to record all Oyez records that don't currently exist in the transcripts CSV...
      */
     rowsOyez.forEach((row) => {
@@ -5594,7 +5595,7 @@ function matchTranscripts(done)
         } else {
             uniqueTranscripts[fileName] = transcript.caseTitle;
         }
-        /*
+        /**
          * NOTE: While docket and dateArgument could normally be taken from EITHER the transcript's
          * filename components OR from the spreadsheet, we need to use the spreadsheet values, because
          * that's where any corrections get recorded, along with any notes explaining WHY we made the
@@ -5604,7 +5605,7 @@ function matchTranscripts(done)
         let dateArgument = transcript.dateArgument; // formerly match[2]
         let transcriptDescription = "- [" + transcript.caseTitle.trim() + "](" + encodeURI(transcript.url) + ") - No. " + transcript.docket + ", argued " + sprintf("%#C", transcript.dateArgument);
         if (dateArgument < sources.scdb.dateEnd) {
-            let iDecision, decision = null
+            let iDecision, decision = null;
             if (!transcript.caseId) {
                 iDecision = findByDateAndDocket(decisions, dateArgument, docket);
             } else {
@@ -5627,7 +5628,7 @@ function matchTranscripts(done)
                 if (iOyez >= 0) break;
             }
             if (iDecision < 0) {
-                /*
+                /**
                  * If the transcript has a "hand-coded" citation, the presumption it was matched manually
                  * (ie, by someone editing the CSV file), so we supply the transcript record as a fake decision
                  * record.
@@ -5638,18 +5639,18 @@ function matchTranscripts(done)
                     // }
                     decision = transcript;
                 } else {
-                    /*
+                    /**
                      * Check OYEZ records.
                      */
                     if (iOyez >= 0) {
-                        /*
+                        /**
                          * We found an exact OYEZ date+docket match, so we're going to go with that automatically.
                          */
                         decision = rowsOyez[iOyez];
                     } else {
                         let i = searchSortedObjects(rowsOyez, {dateArgued: transcript.dateArgument}, {caseTitle: transcript.caseTitle});
                         if (i >= 0) {
-                            /*
+                            /**
                              * We found an exact OYEZ date/close title match, so ask the user if they want to add OYEZ's docket
                              * number to the case.
                              */
@@ -5666,7 +5667,7 @@ function matchTranscripts(done)
                             let year = transcript.dateArgument.substr(0, 4);
                             i = searchSortedObjects(rowsOyezByYear, {year}, {caseTitle: transcript.caseTitle});
                             if (i >= 0) {
-                                /*
+                                /**
                                  * We found a close date/close title match, so ask the user if they want to add OYEZ's argument
                                  * date AND docket number to the case.
                                  */
@@ -5700,7 +5701,7 @@ function matchTranscripts(done)
                         updates++;
                     }
                 });
-                /*
+                /**
                  * Time to check for any Oyez argument dates that aren't in our decision database.
                  */
                 if (decision.caseId && iOyez >= 0) {
@@ -5924,7 +5925,7 @@ function fixDecisions(done)
                 warning("missing year in case '%s'\n", citation.caseTitle);
             }
         }
-        /*
+        /**
          * NOTE: By merging LOC and Justia data with SCOTUS data, the only fields we can rely on are:
          *
          *      volume, page, caseTitle, usCite
@@ -5992,7 +5993,7 @@ function fixDecisions(done)
         let citeDate, i;
         if (decision.usCite) {
             if (citations.length) {
-                /*
+                /**
                  * The "--citations" option must have been specified.
                  */
                 let citePrev, citeBest, scoreBest = -1;
@@ -6017,7 +6018,7 @@ function fixDecisions(done)
                     }
                 }
                 else {
-                    /*
+                    /**
                      * One of the reasons for a missing LOC citation is that it was simply considered part of the opinion for a preceding citation.
                      * To detect that, we must search citationsLOC for the current (volume,page), back up to the previous position, and see if that
                      * entry's page + pageTotal spans the page of the missing citation.
@@ -6064,7 +6065,7 @@ function fixDecisions(done)
             citesSCDB[decision.usCite].push(decision);
             let iDecisionScotus = searchSortedObjects(decisionsScotus, {usCite: decision.usCite}, {caseTitle: decision.caseTitle || decision.caseName});
             if (iDecisionScotus >= 0) {
-                /*
+                /**
                  * The "--dates" option must have been specified.
                  */
                 let decisionScotus = decisionsScotus[iDecisionScotus];
@@ -6113,7 +6114,7 @@ function fixDecisions(done)
             }
         } else {
             if (citations.length) {
-                /*
+                /**
                 * For cases without a citation, we need to scan for matches based on caseName and yearDecision.
                 */
                 let year = +decision.dateDecision.substr(0, 4);
@@ -6378,7 +6379,7 @@ function fixLOC(done)
     let rowsAll = [rowsLOC, rowsMisc];
     rowsAll.forEach((rows) => {
         if (!isSortedObjects(rows, ["volume", "page", "caseTitle"], true)) {
-            sortObjects(rows, ["volume", "page", "caseTitle"])
+            sortObjects(rows, ["volume", "page", "caseTitle"]);
             if (!isSortedObjects(rows, ["volume", "page", "caseTitle"])) {
                 warning("unable to sort CSV\n");
                 success = false;
@@ -6425,7 +6426,7 @@ function fixLOC(done)
                         row.keywords = keywords;
                         updates++;
                     }
-                    /*
+                    /**
                      * Look for neighboring entries with matching volume and page that should be updated as well, first backwards then forwards.
                      */
                     for (let direction = -1; direction <= 1; direction += 2) {
@@ -6521,7 +6522,7 @@ function testDates(done)
 
     let terms = ['1790-02', '1953-06', '1980-12-12'];
     terms.forEach((term) => {
-        printf("getTermName(%s): %s\n", term, getTermName(term))
+        printf("getTermName(%s): %s\n", term, getTermName(term));
     });
 
     let filePaths = ["./sources/scdb/vars.json"];
@@ -6739,7 +6740,7 @@ function generateDownloadTasks(done)
                                 writeFile(filePath, json, true);
                             }
                             let caseDetail = JSON.parse(json);
-                            /*
+                            /**
                              * If the case has no "oral_argument_audio" but its "Argued" date has passed, let's refresh it
                              */
                             if (!caseDetail.oral_argument_audio && id == sources.oyez.cases.force) {
@@ -6861,7 +6862,7 @@ function generateDownloadTasks(done)
                             writeFile(filePath, json, true);
                         }
                         let cases = JSON.parse(json);
-                        /*
+                        /**
                          * Before we start requesting all the case files for this advocate, let's
                          * append any missing cases to the list of objects.
                          */
@@ -6953,7 +6954,7 @@ function mergeSCDBDockets(done)
         if (consolidated) {
             let d = searchSortedObjects(decisions, {caseId}, {});
             if (d < 0) {
-                warning("unable to find unique case %s in decisions\n", caseId)
+                warning("unable to find unique case %s in decisions\n", caseId);
             } else if (decisions[d].docket.indexOf(',') < 0) {
                 let decision = decisions[d];
                 mapValues(decision, vars);
@@ -7004,7 +7005,7 @@ function reportChanges(done)
         let caseTitle = row.caseTitle;
         let dateDecision = row.dateDecision;
         if (dateDecision.length > 10) {
-            /*
+            /**
              * NOTE: Longer date strings (eg, dates including the day of the week) have been
              * deliberately stored in dates.csv to indicate cases in which the decision really
              * was issued on an "unusual" day of the week (eg, Saturday or Sunday).
@@ -7387,7 +7388,7 @@ function reportCoalitions(done)
         }
         let totalDissents = 0, lastDissenter = -1;
 
-        /*
+        /**
          * If this decision features our "team of focus", then we want to collect agreement data on ALL pairs during the same period.
          */
         if (isTeamDecision(decision)) {
@@ -7414,18 +7415,18 @@ function reportCoalitions(done)
 
         for (let k = 0; k < decision.justices.length; k++) {
             let justice = decision.justices[k], l;
-            /*
+            /**
              * Let's get the team checks out of the way first.  Finding agreement is the easy part.
              */
             let teamIndex = teamJustices.indexOf(justice.justice);
             if (teamIndex >= 0) {
-                /*
+                /**
                  * The database marks some justices as agreeing with themselves?  See 1956-129, where HLBlack agrees with himself....
                  */
                 if (teamJustices.indexOf(justice.firstAgreement) >= 0 && justice.firstAgreement != justice.justice || teamJustices.indexOf(justice.secondAgreement) >= 0 && justice.secondAgreement != justice.justice) {
                     teamAgreements.push([decision.caseId, decision.caseName, decision.usCite, decision.dateDecision, decision.majVotes]);
                 }
-                /*
+                /**
                  * The other part of "teamwork" is checking for mutual dissension; in particular, when they
                  * are the ONLY ones in dissent.
                  */
@@ -7448,7 +7449,7 @@ function reportCoalitions(done)
                     }
                 }
             }
-            /*
+            /**
              * Find justice.justiceName in court.justices to determine their "bit position" in the coalition value.
              */
             for (l = 0; l < court.justices.length; l++) {
@@ -7459,7 +7460,7 @@ function reportCoalitions(done)
                 continue;
             }
 
-            /*
+            /**
              * Match this justice to their entry in uniqueJustices, and then update some justice stats,
              * like number of majority opinions written.
              */
@@ -7515,7 +7516,7 @@ function reportCoalitions(done)
                 // printf("majority coalition in case %s too large: %#x\n", decision.caseId, majCoal);
                 continue;
             }
-            /*
+            /**
              * This next test ("if majCoal is NOT a power of two") ensures that we're only recording coalitions
              * of two or more (because powers of two are numbers that have only ONE bit set).  Granted, in the context
              * of a majority decision, that should be impossible, so this is really just a safeguard against data errors.
@@ -7547,7 +7548,7 @@ function reportCoalitions(done)
                 // printf("minority coalition in case %s too large: %#x\n", decision.caseId, minCoal);
                 continue;
             }
-            /*
+            /**
              * This next test ("if minCoal is NOT a power of two") ensures that we're only recording coalitions
              * of two or more (because powers of two are numbers that have only ONE bit set).  Unlike majorities,
              * this is an important test for minorities, as lone dissents are a regular occurrence.
@@ -7619,7 +7620,7 @@ function reportCoalitions(done)
         printf("\"%s\",%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d\n", uniqueJustice.name, uniqueJustice.voted, uniqueJustice.votedMajority, uniqueJustice.opAuthor, uniqueJustice.opOther, uniqueJustice.dissents, uniqueJustice.dissentsLone, uniqueJustice.rankVoted, uniqueJustice.rankVotedMajority, uniqueJustice.rankOpAuthor, uniqueJustice.rankOpMajority, uniqueJustice.rankOpMinority, uniqueJustice.rankOpLoner);
     }
 
-    /*
+    /**
      * Now we can iterate over all the courts, sort their coalitions, and print the top N from each.
      */
     // eslint-disable-next-line no-constant-condition
@@ -7700,7 +7701,7 @@ function reportCoalitions(done)
         }
     }
 
-    /*
+    /**
      * For lack of a better place, we're also going to spit out a rudimentary list of justice information.
      * The list will be in CSV format, and the columns will include:
      *
@@ -7734,7 +7735,7 @@ function reportCoalitions(done)
             let sLine = ++idJustice + ',' + name;
             sLine += ',' + (seats[justices[i].seat] || "");
             seats[justices[i].seat] = name;
-            /*
+            /**
              * Add first position info.
              */
             sLine += ',' + justices[i].position + ',"' + justices[i].start + ':' + justices[i].startFormatted + '"';
@@ -7743,7 +7744,7 @@ function reportCoalitions(done)
             } else {
                 sLine += ',,';
             }
-            /*
+            /**
              * Find all the courts this justice served on.
              */
             let sCourts = "";
@@ -7764,7 +7765,7 @@ function reportCoalitions(done)
                     continue;
                 }
             }
-            /*
+            /**
              * See if this justice appears a second time.
              */
             let j;
@@ -7777,7 +7778,7 @@ function reportCoalitions(done)
                         sLine += ',,';
                     }
                     justices[j].id = "";
-                    /*
+                    /**
                      * Find all the courts this justice served on.
                      */
                     for (let c = 0; c < courts.length; c++) {
@@ -8106,13 +8107,178 @@ function setRebuild(done)
 }
 
 /**
+ * fetchNARASource(host, idNARA, title, level)
+ *
+ * @param {string} host
+ * @param {string} idNARA
+ * @param {string} title
+ * @param {string} [level]
+ */
+async function fetchNARASource(host, idNARA, title, level)
+{
+    const browser = await puppeteer.launch({
+        'headless': "new",
+    });
+
+    const page = await browser.newPage();
+    await page.setViewport({width: 1080, height: 1024});
+    await page.setDefaultNavigationTimeout(10000);
+
+    console.log("load: " + idNARA + " (" + title + ")");
+
+    let records, url;
+    try {
+        records = JSON.parse(fs.readFileSync(rootDir + "/sources/nara/" + idNARA + ".json", "utf8"));
+    } catch(err) {
+        records = [];
+    }
+
+    if (!records.length) {
+        let pageNum = 1, pageLimit = 1500, results;
+        do {
+            results = null;
+            url = host + "/search-within/" + idNARA + "?limit=" + pageLimit + "&page=" + pageNum + "&sort=naId%3Aasc";
+            if (level) url += "&levelOfDescription=" + level;
+            console.log("goto: " + url);
+            await page.goto(url);
+            try {
+                await page.waitForSelector("span.font-sans-2xs.text-base-dark:not(:empty)");
+            } catch(err) {
+                console.log("wait error: " + err.message);
+                continue;
+            }
+            results = await page.$$("li.usa-card");
+            console.log("page " + pageNum + " results: " + results.length);
+
+            for (let result of results) {
+                let titles = await result.$$eval("h2.search-result--title", titles => {
+                    return titles.map(title => title.textContent);
+                });
+                let ids = await result.$$eval("span.margin-top-05", spans => {
+                    return spans.map(span => span.textContent);
+                });
+                let link = await result.$$eval("a.result-link", links => {
+                    return links.map(link => link.href);
+                });
+                records.push({'titles': titles[0], 'ids': ids, 'link': link[0]});;
+            }
+            pageNum++;
+        } while (!results || results.length == pageLimit);
+    }
+
+    for (let i = 0; i < records.length; i++) {
+
+        let objects = null;
+        let countObjects = 1, totalObjects = 1;
+        let record = records[i];
+        let url = record.link;
+
+        if (level == "series") {
+            totalObjects = 0;
+            i = records.length;
+        }
+        else {
+            if (record.sources && record.sources.length) continue;
+            record.sources = [];
+            console.log(record.titles);
+        }
+
+        while (countObjects <= totalObjects) {
+            if (countObjects > 1) {
+                if (countObjects == 3) {
+                    /**
+                     * So we've got 2 objects already; let's see if those sources end with an identifier
+                     * that matches the object number.  If so, we'll auto-generate the remaining sources.
+                     */
+                    let i, match;
+                    let nDigits = totalObjects.toString().length;
+                    for (i = 0; i < record.sources.length; i++) {
+                        let regex = new RegExp("^(.*)-" + sprintf("%0*d", nDigits, i+1) + "\\.(.*)$");
+                        match = record.sources[i].match(regex);
+                        if (!match) break;
+                    }
+                    if (match) {
+                        while (i++ < totalObjects - 1) {
+                            record.sources.push(sprintf("%s-%0*d.%s", match[1], nDigits, i, match[2]));
+                            countObjects++;
+                        }
+                    }
+                }
+                url = record.link + "?objectPage=" + countObjects;
+            }
+
+            console.log("goto: " + url + " (of " + totalObjects + ")");
+            try {
+                await page.goto(url);
+            } catch(err) {
+                console.log("goto error: " + err.message);
+                continue;
+            }
+
+            try {
+                await page.waitForSelector("a.nac-button", {timeout: 10000});
+                // await page.waitForSelector("source");
+            } catch(err) {
+                console.log("wait error: " + err.message);
+                continue;
+            }
+
+            if (!objects) {
+                objects = await page.$$("div[aria-describedby]");
+                if (objects.length) {
+                    totalObjects += objects.length - 1;
+                }
+            }
+
+            let sources = await page.$$eval("a.nac-button", sources => {
+                return sources.map(source => source.href);
+            });
+
+            // let sources = await page.$$eval("source", sources => {
+            //     return sources.map(source => source.src);
+            // });
+
+            record.sources.push(sources[0]);
+            countObjects++;
+
+        }
+        fs.writeFileSync(rootDir + "/sources/nara/" + idNARA + ".json", JSON.stringify(records, null, 2), "utf8");
+    }
+
+    // await page.pdf({
+    //     path: rootDir + "/sources/nara/nara.pdf",
+    //     displayHeaderFooter: true,
+    //     headerTemplate: '',
+    //     footerTemplate: '',
+    //     printBackground: true,
+    //     format: 'A4'
+    // });
+
+    await browser.close();
+}
+
+/**
+ * fetchNARASources(done)
+ *
+ * @param {function()} done
+ */
+async function fetchNARASources(done)
+{
+    let groups = JSON.parse(fs.readFileSync(rootDir + "/sources/nara/scotus.json", "utf8"));
+    for (let group of groups) {
+        await fetchNARASource("https://catalog.archives.gov", group.id, group.title, group.level);
+    }
+    done();
+}
+
+/**
  * usage(done)
  *
  * @param {function()} done
  */
 function usage(done)
 {
-    /*
+    /**
      * Check for a few options commonly used with the 'find' task, and automatically invoke that task if present.
      */
     if (argv['d'] || argv['v'] || argv['p'] || argv['case'] || argv['cite'] || argv['docket'] || argv['reason'] || argv['argued'] || argv['decided']) {
@@ -8165,4 +8331,5 @@ gulp.task("tokenize", tokenizeFile);
 gulp.task("extractAudio", extractAudio);
 gulp.task("extractOpinions", extractOpinions);
 gulp.task("tests", gulp.series(testDates));
+gulp.task("nara", fetchNARASources);
 gulp.task("default", usage);
