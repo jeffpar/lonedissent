@@ -8318,7 +8318,7 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
                 for (let i = 0; i < docketNumbers.length; i++) {
                     let docketNumber = docketNumbers[i];
                     let docketRange = docketNumber.match(/^([0-9]+)\s*(?:-|thru)\s*([0-9]+)$/);
-                    if (docketRange && +docketRange[1] < +docketRange[2] && +docketRange[2] - +docketRange[1] < 20) {
+                    if (docketRange && term < 1971 && +docketRange[1] < +docketRange[2] && +docketRange[2] - +docketRange[1] < 20) {
                         docketNumbers.splice(i, 1);
                         for (let n = +docketRange[1]; n <= +docketRange[2]; n++) {
                             docketNumbers.splice(i++, 0, n.toString());
@@ -8331,7 +8331,10 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
                         printf("warning: %s: unusual docket number (%s)\n", idNARA, docketNumber);
                     }
                 }
-                if (docketNumbers.length) dockets.push(docketNumbers);
+                if (!docketNumbers.length) {
+                    printf("warning: %s: no docket number(s) for %s (%s)\n", idNARA, type, matchCase[1]);
+                }
+                dockets.push(docketNumbers);
             }
             /**
              * For each source, look for a matching idLocal plus docket.
@@ -8386,18 +8389,50 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
                 }
             }
             for (let i = 0; i < dockets.length; i++) {
-                dockets[i] = dockets[i].join(',');
+                dockets[i] = dockets[i].join(', ');
             }
-            record.cases = cases;
-            record.dockets = dockets;
-            record.destinations = destinations;
-            record.date = date;
+            if (cases.length != dockets.length) {
+                printf("warning: %s: case and docket counts do not match\n", idNARA);
+            } else {
+                for (let i = 0; i < cases.length; i++) {
+                    let prefix = "No. ";
+                    let docketNumbers = dockets[i];
+                    if (!docketNumbers) continue;
+                    if (docketNumbers.indexOf(',') >= 0) {
+                        prefix = "Nos. ";
+                    }
+                    cases[i] += " (" + prefix + docketNumbers + ")";
+                }
+            }
             record.term = term;
+            record.date = date;
+            record.cases = cases;
+            record.destinations = destinations;
             fUpdated = true;
         }
         if (fUpdated) {
-            // fs.writeFileSync(rootDir + "/sources/nara/" + idNARA + ".json", JSON.stringify(records, null, 2), "utf8");
+            fs.writeFileSync(rootDir + "/sources/nara/" + idNARA + ".json", JSON.stringify(records, null, 2), "utf8");
             printf("updated %s.json\n", idNARA);
+        }
+        for (let record of records) {
+            if (!record.sources || !record.destinations) {
+                continue;
+            }
+            if (record.sources.length != record.destinations.length) {
+                printf("warning: %s: source and destination counts do not match\n", record.ids[0]);
+                continue;
+            }
+            for (let i = 0; i < record.sources.length; i++) {
+                let srcFile = record.sources[i];
+                let dstFile = rootDir + "/sources/nara/" + type + "/" + record.destinations[i];
+                if (!fs.existsSync(dstFile)) {
+                    let dstFolder = path.dirname(dstFile);
+                    if (!fs.existsSync(dstFolder)) {
+                        mkdirp.sync(dstFolder);
+                    }
+                    printf("echo %s - %s\ncurl %s -o %s\n", srcFile, dstFile, srcFile, dstFile);
+                }
+            }
         }
     }
 
