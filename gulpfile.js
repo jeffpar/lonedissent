@@ -8107,14 +8107,16 @@ function setRebuild(done)
 }
 
 /**
- * fetchNARASource(host, idNARA, title, level)
+ * fetchNARASource(host, idNARA, title, level, type, corrections)
  *
  * @param {string} host
  * @param {string} idNARA
  * @param {string} title
  * @param {string} [level]
+ * @param {string} [type]
+ * @param {Object} [corrections]
  */
-async function fetchNARASource(host, idNARA, title, level)
+async function fetchNARASource(host, idNARA, title, level, type, corrections)
 {
     const browser = await puppeteer.launch({
         'headless': "new",
@@ -8128,7 +8130,7 @@ async function fetchNARASource(host, idNARA, title, level)
 
     let records, url;
     try {
-        records = JSON.parse(fs.readFileSync(rootDir + "/sources/nara/" + idNARA + ".json", "utf8"));
+        records = JSON.parse(fs.readFileSync(rootDir + "/sources/nara/" + idNARA + ".json", "utf8").replace(/\u00A0/g, " "));
     } catch(err) {
         records = [];
     }
@@ -8245,6 +8247,160 @@ async function fetchNARASource(host, idNARA, title, level)
         fs.writeFileSync(rootDir + "/sources/nara/" + idNARA + ".json", JSON.stringify(records, null, 2), "utf8");
     }
 
+    if (type == "audio") {
+        /**
+         * We're going to supplement the JSON data with case mappings for each of the source files.
+         */
+        let fUpdated = false;
+        let months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+        let regexCase = new RegExp("^\\s*(.*?)\\s*\\[\\s*(?:Cases|Case|Cas|Cae|)\\s*\\[?([^/\\]]*)(?:\\]|/|)");
+        let regexDate = new RegExp("^([\\S\\s]*?),?\\s*(" + months.join("|") + "|)\\s*([0-9]*?),?\\s*([0-9]+)\\s*$");
+        for (let record of records) {
+            if (record.destinations) continue;
+            let idNARA = record.ids[0].replace("NAID: ", "");
+            if (corrections) {
+                let replacements = corrections[idNARA];
+                if (replacements) {
+                    for (let i = 0; i < replacements.length; i+=2) {
+                        if (i+1 >= replacements.length) {
+                            record.titles += replacements[i];
+                        } else if (replacements[i] == "^") {
+                            record.titles = replacements[i+1] + " / " + record.titles;
+                        } else if (record.titles.indexOf(replacements[i]) >= 0) {
+                            record.titles = record.titles.replace(replacements[i], replacements[i+1]);
+                        } else if (record.ids[1].indexOf(replacements[i]) >= 0) {
+                            record.ids[1] = record.ids[1].replace(replacements[i], replacements[i+1]);
+                        }
+                    }
+                }
+            }
+            let matchID = record.ids[1].match(/Local ID:\s*([0-9]+)\.([0-9]+)(.*)/);
+            if (!matchID) {
+                printf("warning: %s: missing Local ID (%s)\n", idNARA, record.ids[1]);
+                continue;
+            }
+            let titlesPrinted = false;
+            let idLocal = sprintf("%03d-%03d%s", +matchID[1], +matchID[2], matchID[3]);
+            let date, term, cases = [], dockets = [], destinations = [];
+            let matchDate = record.titles.match(regexDate);
+            if (!matchDate) matchDate = [record.titles, record.titles, "", "", ""];
+            if (!matchDate[2] || !matchDate[3] || !matchDate[4]) {
+                printf("warning: %s: unrecognized date (%s)\n", idNARA, record.titles);
+                titlesPrinted = true;
+            }
+            let year = +matchDate[4], month = months.indexOf(matchDate[2]) + 1, day = +matchDate[3];
+            date = sprintf("%04d-%02d-%02d", year, month, day);
+            term = year;
+            if (month > 0 && month < 10) term--;
+            matchDate[1] = matchDate[1].replace(/][^, ]/g, "] / ");
+            let caseNames = matchDate[1].split(" / ");
+            for (let caseName of caseNames) {
+                let matchCase;
+                caseName = caseName.trim();
+                if (caseName.indexOf('[') < 0) {
+                    matchCase = [caseName, caseName, ""];
+                } else {
+                    matchCase = caseName.match(regexCase);
+                }
+                if (!matchCase) {
+                    if (!titlesPrinted) {
+                        printf("\n%s: %s\n", idNARA, record.titles);
+                        titlesPrinted = true;
+                    }
+                    printf("warning: %s: unrecognized case name (%s)\n", idNARA, caseName);
+                    continue;
+                }
+                cases.push(matchCase[1]);
+                let docketNumbers = [];
+                if (matchCase[2]) {
+                    docketNumbers = matchCase[2].trim().replace("Case", "").split(/(?:\s*, and\s*|\s*, &\s*|\s*,\s*|\s+and\s+|\s*&\s*)/);
+                }
+                for (let i = 0; i < docketNumbers.length; i++) {
+                    let docketNumber = docketNumbers[i];
+                    let docketRange = docketNumber.match(/^([0-9]+)\s*(?:-|thru)\s*([0-9]+)$/);
+                    if (docketRange && +docketRange[1] < +docketRange[2] && +docketRange[2] - +docketRange[1] < 20) {
+                        docketNumbers.splice(i, 1);
+                        for (let n = +docketRange[1]; n <= +docketRange[2]; n++) {
+                            docketNumbers.splice(i++, 0, n.toString());
+                        }
+                    } else if (!docketNumber.match(/^[A0-9-]+( original| orig|)$/i)) {
+                        if (!titlesPrinted) {
+                            printf("\n%s: %s\n", idNARA, record.titles);
+                            titlesPrinted = true;
+                        }
+                        printf("warning: %s: unusual docket number (%s)\n", idNARA, docketNumber);
+                    }
+                }
+                if (docketNumbers.length) dockets.push(docketNumbers);
+            }
+            /**
+             * For each source, look for a matching idLocal plus docket.
+             */
+            for (let source of record.sources) {
+                let i, j = source.lastIndexOf("/");
+                let sourceFile = source.slice(j + 1);
+                let targetFile = sourceFile;
+                let replacements = corrections[idNARA];
+                if (replacements) {
+                    for (let i = 0; i < replacements.length; i+=2) {
+                        if (targetFile.indexOf(replacements[i]) >= 0) {
+                            targetFile = targetFile.replace(replacements[i], replacements[i+1]);
+                        }
+                    }
+                }
+                if (targetFile.indexOf(idLocal) != 0) {
+                    printf("warning: %s: Local ID (%s) missing from source file (%s)\n", idNARA, idLocal, source);
+                }
+                let matched = false;
+                for (i = 0; i < dockets.length; i++) {
+                    for (j = 0; j < dockets[i].length; j++) {
+                        let docketNumber = dockets[i][j].replace(/( original| orig|A-)/i, "");
+                        let docketFolder = dockets[i][j].replace(/( original |orig)/i, "ORIG");
+                        if (targetFile.indexOf('-' + docketNumber + '-', idLocal.length) >= 0) {
+                            destinations.push(sprintf("%s/%s/%s", term, docketFolder, targetFile));
+                            matched = true;
+                            break;
+                        }
+                    }
+                    if (matched) break;
+                }
+                if (!matched) {
+                    /**
+                     * For special events, the source file will not have a docket number, so extract a date, if any,
+                     * from the filename.
+                     */
+                    let regex = new RegExp(idLocal + '-' + "(?:Opinions-|)([0-9][0-9][0-9][0-9])([0-9][0-9])([0-9][0-9])(-[0-9]of[0-9]|)\\.");
+                    let match = targetFile.match(regex);
+                    if (match) {
+                        destinations.push(sprintf("%s/%s-%s-%s/%s", term, match[1], match[2], match[3], targetFile));
+                        matched = true;
+                    }
+                }
+                if (!matched) {
+                    if (!titlesPrinted) {
+                        printf("\n%s: %s\ndockets: %s\n", idNARA, record.titles, dockets.join("|"));
+                        titlesPrinted = true;
+                    }
+                    printf("warning: %s: unmatched source file (%s)\n", idNARA, source);
+                    destinations.push(sprintf("%s/%s/%s", term, date, targetFile));
+                }
+            }
+            for (let i = 0; i < dockets.length; i++) {
+                dockets[i] = dockets[i].join(',');
+            }
+            record.cases = cases;
+            record.dockets = dockets;
+            record.destinations = destinations;
+            record.date = date;
+            record.term = term;
+            fUpdated = true;
+        }
+        if (fUpdated) {
+            // fs.writeFileSync(rootDir + "/sources/nara/" + idNARA + ".json", JSON.stringify(records, null, 2), "utf8");
+            printf("updated %s.json\n", idNARA);
+        }
+    }
+
     // await page.pdf({
     //     path: rootDir + "/sources/nara/nara.pdf",
     //     displayHeaderFooter: true,
@@ -8266,7 +8422,7 @@ async function fetchNARASources(done)
 {
     let groups = JSON.parse(fs.readFileSync(rootDir + "/sources/nara/scotus.json", "utf8"));
     for (let group of groups) {
-        await fetchNARASource("https://catalog.archives.gov", group.id, group.title, group.level);
+        await fetchNARASource("https://catalog.archives.gov", group.id, group.title, group.level, group.type, group.corrections);
     }
     done();
 }
