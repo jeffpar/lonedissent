@@ -8257,23 +8257,21 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
         let regexDate = new RegExp("^([\\S\\s]*?),?\\s*(" + months.join("|") + "|)\\s*([0-9]*?),?\\s*([0-9]+)\\s*$");
         for (let record of records) {
             let idNARA = record.ids[0].replace("NAID: ", "");
-            if (corrections) {
-                let replacements = corrections[idNARA];
-                if (replacements) {
-                    for (let i = 0; i < replacements.length; i+=2) {
-                        if (i+1 >= replacements.length) {
-                            if (record.titles.indexOf(replacements[i]) < 0) {
-                                record.titles += replacements[i];
-                            }
-                        } else if (replacements[i] == "^") {
-                            if (record.titles.indexOf(replacements[i+1]) < 0) {
-                                record.titles = replacements[i+1] + " / " + record.titles;
-                            }
-                        } else if (record.titles.indexOf(replacements[i]) >= 0) {
-                            record.titles = record.titles.replace(replacements[i], replacements[i+1]);
-                        } else if (record.ids[1].indexOf(replacements[i]) >= 0) {
-                            record.ids[1] = record.ids[1].replace(replacements[i], replacements[i+1]);
+            let replacements = corrections && corrections[idNARA];
+            if (replacements) {
+                for (let i = 0; i < replacements.length; i+=2) {
+                    if (i+1 >= replacements.length) {
+                        if (record.titles.indexOf(replacements[i]) < 0) {
+                            record.titles += replacements[i];
                         }
+                    } else if (replacements[i] == "^") {
+                        if (record.titles.indexOf(replacements[i+1]) < 0) {
+                            record.titles = replacements[i+1] + " / " + record.titles;
+                        }
+                    } else if (record.titles.indexOf(replacements[i]) >= 0) {
+                        record.titles = record.titles.replace(replacements[i], replacements[i+1]);
+                    } else if (record.ids[1].indexOf(replacements[i]) >= 0) {
+                        record.ids[1] = record.ids[1].replace(replacements[i], replacements[i+1]);
                     }
                 }
             }
@@ -8284,7 +8282,7 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
             }
             let titlesPrinted = false;
             let idLocal = sprintf("%03d-%03d%s", +matchID[1], +matchID[2], matchID[3]);
-            let date, term, cases = [], dockets = [], destinations = [];
+            let date, term, events = [], dockets = [], destinations = [];
             let matchDate = record.titles.match(regexDate);
             if (!matchDate) matchDate = [record.titles, record.titles, "", "", ""];
             if (!matchDate[2] || !matchDate[3] || !matchDate[4]) {
@@ -8299,7 +8297,13 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
             let caseNames = matchDate[1].split(" / ");
             for (let caseName of caseNames) {
                 let matchCase;
+                let docketNumbers = [];
                 caseName = caseName.trim();
+                if (caseName.indexOf("Admissions") == 0 || caseName.indexOf("Opinions") == 0 || caseName.indexOf("Remarks") == 0) {
+                    events.push(caseName);
+                    dockets.push(docketNumbers);
+                    continue;
+                }
                 if (caseName.indexOf('[') < 0) {
                     matchCase = [caseName, caseName, ""];
                 } else {
@@ -8313,8 +8317,7 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
                     printf("warning: %s: unrecognized case name (%s)\n", idNARA, caseName);
                     continue;
                 }
-                cases.push(matchCase[1]);
-                let docketNumbers = [];
+                events.push(matchCase[1]);
                 if (matchCase[2]) {
                     docketNumbers = matchCase[2].trim().replace("Case", "").split(/(?:\s*, and\s*|\s*, &\s*|\s*,\s*|\s+and\s+|\s*&\s*)/);
                 }
@@ -8346,7 +8349,7 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
                 let i, j = source.lastIndexOf("/");
                 let sourceFile = source.slice(j + 1);
                 let targetFile = sourceFile;
-                let replacements = corrections[idNARA];
+                let replacements = corrections && corrections[idNARA];
                 if (replacements) {
                     for (let i = 0; i < replacements.length; i+=2) {
                         if (targetFile.indexOf(replacements[i]) >= 0) {
@@ -8354,10 +8357,24 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
                         }
                     }
                 }
+                /**
+                 * Some records are not available online yet, so skip any placeholder records.
+                 */
+                if (targetFile.indexOf(".mp3") < 0) {
+                    continue;
+                }
+                /**
+                 * Files for the Red Series are generally named with the Local ID and optional reel number ("r1", "r2", etc)
+                 * instead of case (docket) numbers, so we have no choice but to file them by date.
+                 */
+                if (source.indexOf("/RED/267") >= 0) {
+                    destinations.push(sprintf("%s/%s/%s", term, date, targetFile));
+                    continue;
+                }
+                let matched = false;
                 if (targetFile.indexOf(idLocal) != 0) {
                     printf("warning: %s: Local ID (%s) missing from source file (%s)\n", idNARA, idLocal, source);
                 }
-                let matched = false;
                 for (i = 0; i < dockets.length; i++) {
                     for (j = 0; j < dockets[i].length; j++) {
                         let docketNumber = dockets[i][j].replace(/( original| orig|A-)/i, "");
@@ -8394,48 +8411,84 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
             for (let i = 0; i < dockets.length; i++) {
                 dockets[i] = dockets[i].join(', ');
             }
-            if (cases.length != dockets.length) {
+            if (events.length != dockets.length) {
                 printf("warning: %s: case and docket counts do not match\n", idNARA);
             } else {
-                for (let i = 0; i < cases.length; i++) {
+                for (let i = 0; i < events.length; i++) {
                     let prefix = "No. ";
                     let docketNumbers = dockets[i];
                     if (!docketNumbers) continue;
                     if (docketNumbers.indexOf(',') >= 0) {
                         prefix = "Nos. ";
                     }
-                    cases[i] += " (" + prefix + docketNumbers + ")";
+                    events[i] += " (" + prefix + docketNumbers + ")";
                 }
             }
-            record.term = term;
-            record.date = date;
-            record.cases = cases;
-            record.destinations = destinations;
-            fUpdated = true;
+            if (record.term != term) {
+                record.term = term;
+                fUpdated = true;
+            }
+            if (record.date != date) {
+                record.date = date;
+                fUpdated = true;
+            }
+            if (!record.events) {
+                record.events = events;
+                fUpdated = true;
+            } else {
+                let i;
+                for (i = 0; i < events.length; i++) {
+                    if (record.events[i] != events[i]) break;
+                }
+                if (i < events.length || i != record.events.length) {
+                    record.events = events;
+                    fUpdated = true;
+                }
+            }
+            if (!record.destinations) {
+                if (destinations.length) {
+                    record.destinations = destinations;
+                    fUpdated = true;
+                }
+            } else {
+                if (!destinations.length) {
+                    delete record.destinations;
+                    fUpdated = true;
+                } else {
+                    let i;
+                    for (i = 0; i < destinations.length; i++) {
+                        if (record.destinations[i] != destinations[i]) break;
+                    }
+                    if (i < destinations.length || i != record.destinations.length) {
+                        record.destinations = destinations;
+                        fUpdated = true;
+                    }
+                }
+            }
         }
         if (fUpdated) {
             fs.writeFileSync(rootDir + "/sources/nara/" + idNARA + ".json", JSON.stringify(records, null, 2), "utf8");
             printf("updated %s.json\n", idNARA);
-        }
-        for (let record of records) {
-            if (!record.sources || !record.destinations) {
-                continue;
-            }
-            if (record.sources.length != record.destinations.length) {
-                printf("warning: %s: source and destination counts do not match\n", record.ids[0]);
-                continue;
-            }
-            for (let i = 0; i < record.sources.length; i++) {
-                let srcFile = record.sources[i];
-                let dstFile = rootDir + "/sources/nara/" + type + "/" + record.destinations[i];
-                if (!fs.existsSync(dstFile)) {
-                    let dstFolder = path.dirname(dstFile);
-                    if (!fs.existsSync(dstFolder)) {
-                        mkdirp.sync(dstFolder);
-                    }
-                    printf("echo %s - %s\ncurl %s -o %s\n", srcFile, dstFile, srcFile, dstFile);
-                }
-            }
+            // for (let record of records) {
+            //     if (!record.sources || !record.destinations) {
+            //         continue;
+            //     }
+            //     if (record.sources.length != record.destinations.length) {
+            //         printf("warning: %s: source and destination counts do not match\n", record.ids[0]);
+            //         continue;
+            //     }
+            //     for (let i = 0; i < record.sources.length; i++) {
+            //         let srcFile = record.sources[i];
+            //         let dstFile = rootDir + "/sources/nara/" + type + "/" + record.destinations[i];
+            //         if (!fs.existsSync(dstFile)) {
+            //             let dstFolder = path.dirname(dstFile);
+            //             if (!fs.existsSync(dstFolder)) {
+            //                 mkdirp.sync(dstFolder);
+            //             }
+            //             printf("echo %s - %s\ncurl %s -o %s\n", srcFile, dstFile, srcFile, dstFile);
+            //         }
+            //     }
+            // }
         }
     }
 
