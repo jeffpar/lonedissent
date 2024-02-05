@@ -8253,19 +8253,22 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
          */
         let fUpdated = false;
         let months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-        let regexCase = new RegExp("^\\s*(.*?)\\s*\\[\\s*(?:Cases|Case|Cas|Cae|)\\s*\\[?([^/\\]]*)(?:\\]|/|)");
+        let regexCase = new RegExp("^\\s*(.*?)\\s*\\[\\s*(?:Cases|Case|)\\s*\\[?([^/\\]]*)(?:\\]|/|)");
         let regexDate = new RegExp("^([\\S\\s]*?),?\\s*(" + months.join("|") + "|)\\s*([0-9]*?),?\\s*([0-9]+)\\s*$");
         for (let record of records) {
-            if (record.destinations) continue;
             let idNARA = record.ids[0].replace("NAID: ", "");
             if (corrections) {
                 let replacements = corrections[idNARA];
                 if (replacements) {
                     for (let i = 0; i < replacements.length; i+=2) {
                         if (i+1 >= replacements.length) {
-                            record.titles += replacements[i];
+                            if (record.titles.indexOf(replacements[i]) < 0) {
+                                record.titles += replacements[i];
+                            }
                         } else if (replacements[i] == "^") {
-                            record.titles = replacements[i+1] + " / " + record.titles;
+                            if (record.titles.indexOf(replacements[i+1]) < 0) {
+                                record.titles = replacements[i+1] + " / " + record.titles;
+                            }
                         } else if (record.titles.indexOf(replacements[i]) >= 0) {
                             record.titles = record.titles.replace(replacements[i], replacements[i+1]);
                         } else if (record.ids[1].indexOf(replacements[i]) >= 0) {
@@ -8414,26 +8417,26 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
             fs.writeFileSync(rootDir + "/sources/nara/" + idNARA + ".json", JSON.stringify(records, null, 2), "utf8");
             printf("updated %s.json\n", idNARA);
         }
-        // for (let record of records) {
-        //     if (!record.sources || !record.destinations) {
-        //         continue;
-        //     }
-        //     if (record.sources.length != record.destinations.length) {
-        //         printf("warning: %s: source and destination counts do not match\n", record.ids[0]);
-        //         continue;
-        //     }
-        //     for (let i = 0; i < record.sources.length; i++) {
-        //         let srcFile = record.sources[i];
-        //         let dstFile = rootDir + "/sources/nara/" + type + "/" + record.destinations[i];
-        //         if (!fs.existsSync(dstFile)) {
-        //             let dstFolder = path.dirname(dstFile);
-        //             if (!fs.existsSync(dstFolder)) {
-        //                 mkdirp.sync(dstFolder);
-        //             }
-        //             printf("echo %s - %s\ncurl %s -o %s\n", srcFile, dstFile, srcFile, dstFile);
-        //         }
-        //     }
-        // }
+        for (let record of records) {
+            if (!record.sources || !record.destinations) {
+                continue;
+            }
+            if (record.sources.length != record.destinations.length) {
+                printf("warning: %s: source and destination counts do not match\n", record.ids[0]);
+                continue;
+            }
+            for (let i = 0; i < record.sources.length; i++) {
+                let srcFile = record.sources[i];
+                let dstFile = rootDir + "/sources/nara/" + type + "/" + record.destinations[i];
+                if (!fs.existsSync(dstFile)) {
+                    let dstFolder = path.dirname(dstFile);
+                    if (!fs.existsSync(dstFolder)) {
+                        mkdirp.sync(dstFolder);
+                    }
+                    printf("echo %s - %s\ncurl %s -o %s\n", srcFile, dstFile, srcFile, dstFile);
+                }
+            }
+        }
     }
 
     // await page.pdf({
