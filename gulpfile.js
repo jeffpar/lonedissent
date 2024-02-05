@@ -8469,26 +8469,26 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
         if (fUpdated) {
             fs.writeFileSync(rootDir + "/sources/nara/" + idNARA + ".json", JSON.stringify(records, null, 2), "utf8");
             printf("updated %s.json\n", idNARA);
-            // for (let record of records) {
-            //     if (!record.sources || !record.destinations) {
-            //         continue;
-            //     }
-            //     if (record.sources.length != record.destinations.length) {
-            //         printf("warning: %s: source and destination counts do not match\n", record.ids[0]);
-            //         continue;
-            //     }
-            //     for (let i = 0; i < record.sources.length; i++) {
-            //         let srcFile = record.sources[i];
-            //         let dstFile = rootDir + "/sources/nara/" + type + "/" + record.destinations[i];
-            //         if (!fs.existsSync(dstFile)) {
-            //             let dstFolder = path.dirname(dstFile);
-            //             if (!fs.existsSync(dstFolder)) {
-            //                 mkdirp.sync(dstFolder);
-            //             }
-            //             printf("echo %s - %s\ncurl %s -o %s\n", srcFile, dstFile, srcFile, dstFile);
-            //         }
-            //     }
-            // }
+        }
+        for (let record of records) {
+            if (!record.sources || !record.destinations) {
+                continue;
+            }
+            if (record.sources.length != record.destinations.length) {
+                printf("warning: %s: source and destination counts do not match\n", record.ids[0]);
+                continue;
+            }
+            for (let i = 0; i < record.sources.length; i++) {
+                let srcFile = record.sources[i];
+                let dstFile = rootDir + "/sources/nara/" + type + "/" + record.destinations[i];
+                if (!fs.existsSync(dstFile)) {
+                    let dstFolder = path.dirname(dstFile);
+                    if (!fs.existsSync(dstFolder)) {
+                        mkdirp.sync(dstFolder);
+                    }
+                    printf("echo %s - %s\ncurl %s -o %s\n", srcFile, dstFile, srcFile, dstFile);
+                }
+            }
         }
     }
 
