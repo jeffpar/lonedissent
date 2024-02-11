@@ -8107,16 +8107,16 @@ function setRebuild(done)
 }
 
 /**
- * fetchNARASource(host, idNARA, title, level, type, corrections)
+ * fetchNARASource(host, idSource, title, level, type, corrections)
  *
  * @param {string} host
- * @param {string} idNARA
+ * @param {string} idSource
  * @param {string} title
  * @param {string} [level]
  * @param {string} [type]
  * @param {Object} [corrections]
  */
-async function fetchNARASource(host, idNARA, title, level, type, corrections)
+async function fetchNARASource(host, idSource, title, level, type, corrections)
 {
     const browser = await puppeteer.launch({
         'headless': "new",
@@ -8126,11 +8126,11 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
     await page.setViewport({width: 1080, height: 1024});
     await page.setDefaultNavigationTimeout(10000);
 
-    console.log("load: " + idNARA + " (" + title + ")");
+    console.log("load: " + idSource + " (" + title + ")");
 
     let records, url;
     try {
-        records = JSON.parse(fs.readFileSync(rootDir + "/sources/nara/" + idNARA + ".json", "utf8").replace(/\u00A0/g, " "));
+        records = JSON.parse(fs.readFileSync(rootDir + "/sources/nara/" + idSource + ".json", "utf8").replace(/\u00A0/g, " "));
     } catch(err) {
         records = [];
     }
@@ -8139,7 +8139,7 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
         let pageNum = 1, pageLimit = 1500, results;
         do {
             results = null;
-            url = host + "/search-within/" + idNARA + "?limit=" + pageLimit + "&page=" + pageNum + "&sort=naId%3Aasc";
+            url = host + "/search-within/" + idSource + "?limit=" + pageLimit + "&page=" + pageNum + "&sort=naId%3Aasc";
             if (level) url += "&levelOfDescription=" + level;
             console.log("goto: " + url);
             await page.goto(url);
@@ -8244,34 +8244,36 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
             countObjects++;
 
         }
-        fs.writeFileSync(rootDir + "/sources/nara/" + idNARA + ".json", JSON.stringify(records, null, 2), "utf8");
+        fs.writeFileSync(rootDir + "/sources/nara/" + idSource + ".json", JSON.stringify(records, null, 2), "utf8");
     }
 
+    let fUpdated = false;
     if (type == "audio") {
         /**
          * We're going to supplement the JSON data with case mappings for each of the source files.
          */
-        let fUpdated = false;
         let months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-        let regexCase = new RegExp("^\\s*(.*?)\\s*\\[\\s*(?:Cases|Case|)\\s*\\[?([^/\\]]*)(?:\\]|/|)");
+        let regexCase = new RegExp("^\\s*(.*?)\\s*\\[\\s*(?:Cases|Case|No\.|)\\s*\\[?([^/\\]]*)(?:\\]|/|)", "i");
         let regexDate = new RegExp("^([\\S\\s]*?),?\\s*(" + months.join("|") + "|)\\s*([0-9]*?),?\\s*([0-9]+)\\s*$");
         for (let record of records) {
             let idNARA = record.ids[0].replace("NAID: ", "");
-            let replacements = corrections && corrections[idNARA];
-            if (replacements) {
-                for (let i = 0; i < replacements.length; i+=2) {
-                    if (i+1 >= replacements.length) {
-                        if (record.titles.indexOf(replacements[i]) < 0) {
-                            record.titles += replacements[i];
+            for (let key of ["*", idNARA]) {
+                let replacements = corrections && corrections[key];
+                if (replacements) {
+                    for (let i = 0; i < replacements.length; i+=2) {
+                        if (i+1 >= replacements.length) {
+                            if (record.titles.slice(-replacements[i].length) != replacements[i]) {
+                                record.titles += replacements[i];
+                            }
+                        } else if (replacements[i] == "^") {
+                            if (record.titles.indexOf(replacements[i+1]) != 0) {
+                                record.titles = replacements[i+1] + " / " + record.titles;
+                            }
+                        } else if (record.titles.indexOf(replacements[i]) >= 0) {
+                            record.titles = record.titles.replace(replacements[i], replacements[i+1]);
+                        } else if (record.ids[1].indexOf(replacements[i]) >= 0) {
+                            record.ids[1] = record.ids[1].replace(replacements[i], replacements[i+1]);
                         }
-                    } else if (replacements[i] == "^") {
-                        if (record.titles.indexOf(replacements[i+1]) < 0) {
-                            record.titles = replacements[i+1] + " / " + record.titles;
-                        }
-                    } else if (record.titles.indexOf(replacements[i]) >= 0) {
-                        record.titles = record.titles.replace(replacements[i], replacements[i+1]);
-                    } else if (record.ids[1].indexOf(replacements[i]) >= 0) {
-                        record.ids[1] = record.ids[1].replace(replacements[i], replacements[i+1]);
                     }
                 }
             }
@@ -8285,12 +8287,12 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
             let date, term, events = [], dockets = [], destinations = [];
             let matchDate = record.titles.match(regexDate);
             if (!matchDate) matchDate = [record.titles, record.titles, "", "", ""];
-            if (!matchDate[2] || !matchDate[3] || !matchDate[4]) {
+            if (!matchDate[4]) {
                 printf("warning: %s: unrecognized date (%s)\n", idNARA, record.titles);
                 titlesPrinted = true;
             }
             let year = +matchDate[4], month = months.indexOf(matchDate[2]) + 1, day = +matchDate[3];
-            date = sprintf("%04d-%02d-%02d", year, month, day);
+            date = day? sprintf("%04d-%02d-%02d", year, month, day) : (month? sprintf("%04d-%02d", year, month) : sprintf("%04d", year));
             term = year;
             if (month > 0 && month < 10) term--;
             matchDate[1] = matchDate[1].replace(/][^, ]/g, "] / ");
@@ -8329,7 +8331,7 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
                         for (let n = +docketRange[1]; n <= +docketRange[2]; n++) {
                             docketNumbers.splice(i++, 0, n.toString());
                         }
-                    } else if (!docketNumber.match(/^[A0-9-]+( original| orig|)$/i)) {
+                    } else if (!docketNumber.match(/^[A0-9-]+([ -]original|[ -]orig\.?|)$/i)) {
                         if (!titlesPrinted) {
                             printf("\n%s: %s\n", idNARA, record.titles);
                             titlesPrinted = true;
@@ -8348,7 +8350,7 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
             for (let source of record.sources) {
                 let i, j = source.lastIndexOf("/");
                 let sourceFile = source.slice(j + 1);
-                let targetFile = sourceFile;
+                let targetFile = sourceFile.replace(".MP3", ".mp3");
                 let replacements = corrections && corrections[idNARA];
                 if (replacements) {
                     for (let i = 0; i < replacements.length; i+=2) {
@@ -8367,7 +8369,7 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
                  * Files for the Red Series are generally named with the Local ID and optional reel number ("r1", "r2", etc)
                  * instead of case (docket) numbers, so we have no choice but to file them by date.
                  */
-                if (source.indexOf("/RED/267") >= 0) {
+                if (source.indexOf("/267a/RED") >= 0 || source.indexOf("/267a/GOLD") >= 0) {
                     destinations.push(sprintf("%s/%s/%s", term, date, targetFile));
                     continue;
                 }
@@ -8466,21 +8468,27 @@ async function fetchNARASource(host, idNARA, title, level, type, corrections)
                 }
             }
         }
-        if (fUpdated) {
-            fs.writeFileSync(rootDir + "/sources/nara/" + idNARA + ".json", JSON.stringify(records, null, 2), "utf8");
-            printf("updated %s.json\n", idNARA);
-        }
+    }
+    if (fUpdated) {
+        fs.writeFileSync(rootDir + "/sources/nara/" + idSource + ".json", JSON.stringify(records, null, 2), "utf8");
+        printf("updated %s.json\n", idSource);
+    }
+    if (type) {
         for (let record of records) {
-            if (!record.sources || !record.destinations) {
+            if (!record.sources) {
                 continue;
             }
-            if (record.sources.length != record.destinations.length) {
+            if (record.destinations && record.sources.length != record.destinations.length) {
                 printf("warning: %s: source and destination counts do not match\n", record.ids[0]);
                 continue;
             }
+            let idNARA = record.ids[0].replace("NAID: ", "");
             for (let i = 0; i < record.sources.length; i++) {
                 let srcFile = record.sources[i];
-                let dstFile = rootDir + "/sources/nara/" + type + "/" + record.destinations[i];
+                let srcName = path.basename(srcFile);
+                if (srcName.indexOf('.') < 0) continue;
+                let dstFile = record.destinations && record.destinations[i] || (idSource + "/" + idNARA + "/" + srcName);
+                dstFile = rootDir + "/sources/nara/files/" + (type != "files"? type + "/" : "") + dstFile;
                 if (!fs.existsSync(dstFile)) {
                     let dstFolder = path.dirname(dstFile);
                     if (!fs.existsSync(dstFolder)) {
@@ -8513,6 +8521,10 @@ async function fetchNARASources(done)
 {
     let groups = JSON.parse(fs.readFileSync(rootDir + "/sources/nara/scotus.json", "utf8"));
     for (let group of groups) {
+        if (argv['id'] && argv['id'] != group.id) {
+            // printf("skipping NARA ID %s (does not match %s)\n", group.id, argv['id']);
+            continue;
+        }
         await fetchNARASource("https://catalog.archives.gov", group.id, group.title, group.level, group.type, group.corrections);
     }
     done();
