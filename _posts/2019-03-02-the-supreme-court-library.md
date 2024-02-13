@@ -8,7 +8,7 @@ Stiglmeier's help, I was able to browse their small collection of early transcri
 a few of them.  All the copies I made are available under [Transcripts](/transcripts/).
 
 In addition, the Library gave me a document titled
-"[Oral Arguments Available in the U.S. Supreme Court Library Prior to the 1968 Term](/sources/scotus/transcripts/SCOTUS_Library_Oral_Arguments_Prior_To_1968.pdf)" (the handwritten notations are mine).
+"[Oral Arguments Available in the U.S. Supreme Court Library Prior to the 1968 Term](/sources/scotus/SCOTUS_Library_Oral_Arguments_Prior_To_1968.pdf)" (the handwritten notations are mine).
 A list of the cases in that 2005 document have been reproduced [below](#oral-arguments-available-in-the-us-supreme-court-library-prior-to-the-1968-term).
 
 Sadly, shortly after my visit in 2005, the Supreme Court Library closed for remodeling, and
