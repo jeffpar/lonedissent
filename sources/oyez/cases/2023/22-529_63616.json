@@ -1,0 +1,51 @@
+{
+  "ID": 63616,
+  "name": "Cantero v. Bank of America, N.A.",
+  "href": "https://api.oyez.org/cases/2023/22-529",
+  "view_count": 0,
+  "docket_number": "22-529",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "Alex Cantero, et al.",
+  "second_party": "Bank of America, N.A.",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1697173200
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/55348"
+    }
+  ],
+  "lower_court": {
+    "ID": 7,
+    "name": "United States Court of Appeals for the Second Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/7"
+  },
+  "facts_of_the_case": "<p>The National Bank Act of 1864 (NBA) established a dual banking system in the United States, allowing both federal and state governments to charter and regulate banks. National banks are subject to federal authority and have broad powers, including the ability to make real estate loans and provide escrow services. Alongside the NBA, other significant federal statutes regulate national banks: The Real Estate Settlement Procedures Act (RESPA) limits the amount banks can require borrowers to deposit into escrow accounts related to home mortgages; the Dodd-Frank Act sets the standards for when state consumer financial laws are preempted by federal law; and it also amends the Truth in Lending Act (TILA) to require the creation of escrow accounts for certain mortgages and mandates interest payment on those accounts if prescribed by state or federal law. The state law in question, New York General Obligations Law (GOL) § 5-601, mandates a minimum interest rate for escrow accounts held by mortgage institutions, which was later adjusted in 2018 to create “parity” between state-chartered and national banks.</p>\n<p>Alex Cantero purchased a house in Queens Village, New York, with a mortgage from Bank of America (BOA) in August 2010. His mortgage required him to deposit money into an escrow account for property taxes and insurance premiums, and BOA paid no interest on these funds. Cantero’s mortgage specified that it is governed by federal law and the law of the property’s jurisdiction. Cantero alleged that BOA refused to pay interest on escrow funds, contrary to New York State law.</p>\n<p>The district court determined that New York's General Obligations Law (GOL) § 5-601, was not preempted by the NBA based on its minimal “degree of interference” with national banking powers. Citing Dodd-Frank’s amendment to the Truth in Lending Act (TILA) as supportive of this compatibility, the court denied BOA’s motion to dismiss the breach of contract claim, asserting that both federal and state laws could be read “harmoniously.” The U.S. Court of Appeals for the Second Circuit reversed, concluding that the NBA does preempt New York’s GOL because the minimum-interest requirement would exert control over a banking power granted by the federal government, thereby impermissibly interfering with national banks’ exercise of that power.</p>\n",
+  "question": "<p>Does the National Bank Act preempt the application of state escrow-interest laws to national banks?</p>\n",
+  "conclusion": null,
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27981"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2023",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court will decide whether the National Bank Act preempts the application of state escrow-interest laws to national banks.",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": "https://supreme.justia.com/cases/federal/us/2023/22-529/",
+  "argument2_url": null
+}

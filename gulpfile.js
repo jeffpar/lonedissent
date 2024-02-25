@@ -1565,7 +1565,7 @@ function getOyezDates(timeline, event)
     if (timeline) {
         for (let i = 0; i < timeline.length; i++) {
             let item = timeline[i];
-            if (item.event == event) {
+            if (item && item.event == event) {
                 for (let j = 0; j < item.dates.length; j++) {
                     let date = new Date(item.dates[j] * 1000);
                     insertSortedArray(dates, sprintf("%#Y-%#02M-%#02D", date));
@@ -6715,7 +6715,7 @@ function generateDownloadTasks(done)
 
     let transcripts = [];   // readCSV(sources.oyez.transcripts_csv);
     sources.oyez.cases.ids.forEach((id) => {
-        let dir = path.join(path.dirname(sources.oyez.cases), id);
+        let dir = path.join(path.dirname(sources.oyez.cases_csv), id);
         let file = id + ".json";
         let filePath = path.join(dir, file);
         if (fs.existsSync(rootDir + filePath)) {
@@ -6870,7 +6870,7 @@ function generateDownloadTasks(done)
                         if (missingCases) cases.push(...missingCases);
                         cases.forEach((obj) => {
                             if (!obj.docket_number) return;
-                            let dir = path.join(path.dirname(sources.oyez.cases), obj.term);
+                            let dir = path.join(path.dirname(sources.oyez.cases_csv), obj.term);
                             let fileID = obj.docket_number + '_' + obj.ID;
                             let file = fileID + ".json";
                             let filePath = path.join(dir, file);
@@ -8557,6 +8557,7 @@ function usage(done)
 gulp.task("advocates", buildAdvocates);
 gulp.task("advocates-women", buildAdvocatesWomen);
 gulp.task("advocates-all", gulp.series(buildAdvocatesAll, buildAdvocatesWomen, buildAdvocates));
+gulp.task("backup", backupLonerDecisions);
 gulp.task("briefs", listBriefs);
 gulp.task("citations", gulp.series(buildCitations, runDownloadTasks));
 gulp.task("coalitions", gulp.series(reportCoalitions));
@@ -8564,6 +8565,7 @@ gulp.task("convert", convertTranscripts);
 gulp.task("courts", buildCourts);
 gulp.task("dates", matchOyezDates);         // NOTE: matchTXTDates() was too sketchy, and matchXMLDates() has already been used
 gulp.task("decisions", buildDecisions);
+gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
 gulp.task("journals", matchJournals);
 gulp.task("justices", buildJustices);
 gulp.task("transcripts", matchTranscripts);
@@ -8575,8 +8577,6 @@ gulp.task("loners", gulp.series(findLonerDecisions, findLonerJustices, findLoner
 gulp.task("lonerDecisions", findLonerDecisions);
 gulp.task("lonerJustices", findLonerJustices);
 gulp.task("lonerParties", findLonerParties);
-gulp.task("backup", backupLonerDecisions);
-gulp.task("download", gulp.series(generateDownloadTasks, runDownloadTasks));
 gulp.task("find", findDecisions);
 gulp.task("fixDates", fixDates);
 gulp.task("fixDecisions", fixDecisions);

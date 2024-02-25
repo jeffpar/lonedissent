@@ -1,0 +1,51 @@
+{
+  "ID": 63628,
+  "name": "Erlinger v. United States",
+  "href": "https://api.oyez.org/cases/2023/23-370",
+  "view_count": 0,
+  "docket_number": "23-370",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "Paul Erlinger",
+  "second_party": "United States",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1700460000
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/55364"
+    }
+  ],
+  "lower_court": {
+    "ID": 12,
+    "name": "United States Court of Appeals for the Seventh Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/12"
+  },
+  "facts_of_the_case": "<p>Paul Erlinger received a 15-year prison term under the Armed Career Criminal Act (ACCA), 18 U.S.C. § 924(e), for illegally possessing a firearm. This sentence was based on his three prior convictions for violent felonies, all being Indiana burglaries. Erlinger challenged his sentence on two grounds. First, he argued that Indiana’s definition of burglary extends beyond the federal statute, making it non-applicable as a predicate offense under ACCA. However, the U.S. Court of Appeals for the Seventh Circuit noted that Indiana's definition of burglary is “[a] person who breaks and enters the building or structure of another person, with intent to commit a felony in it.” Ind. Code § 35-43-2-1 (1990) is no broader than the federal definition of general burglary, which is “an unlawful or unprivileged entry into, or remaining in, a building or other structure, with intent to commit a crime.”</p>\n<p>Secondly, Erlinger argued that these burglaries did not occur on separate occasions, and claimed that the determination of this fact should be made by a jury, not a judge, as per the Sixth Amendment and the Supreme Court’s decision in Wooden v. United States (2022). The Seventh Circuit disagreed, finding that under binding circuit precedent, the government was not required to prove to a jury beyond a reasonable doubt that Erlinger committed the Indiana burglaries on separate occasions, only to the sentencing judge by a preponderance of the evidence.</p>\n",
+  "question": "<p>Does the Constitution require a jury trial and proof beyond a reasonable doubt to find that a defendant’s prior convictions were “committed on occasions different from one another,” as is necessary to impose an enhanced sentence under the Armed Career Criminal Act?</p>\n",
+  "conclusion": null,
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27990"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2023",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court will decide whether the Constitution requires a jury trial and proof beyond a reasonable doubt to find that a defendant’s prior convictions were “committed on occasions different from one another,” as is necessary to impose an enhanced sentence under the Armed Career Criminal Act.",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": "https://supreme.justia.com/cases/federal/us/2023/23-370/",
+  "argument2_url": null
+}

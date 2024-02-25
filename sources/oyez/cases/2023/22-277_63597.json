@@ -1,0 +1,51 @@
+{
+  "ID": 63597,
+  "name": "Moody v. NetChoice, LLC",
+  "href": "https://api.oyez.org/cases/2023/22-277",
+  "view_count": 0,
+  "docket_number": "22-277",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "Attorney General, State of Florida, et al.",
+  "second_party": "NetChoice, LLC, et al.",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1695963600
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/55325"
+    }
+  ],
+  "lower_court": {
+    "ID": 15,
+    "name": "United States Court of Appeals for the Eleventh Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/15"
+  },
+  "facts_of_the_case": "<p>Social-media platforms collect third-party posts, including text, photos, and videos, and distribute them to other users. Importantly, they are private enterprises, not governmental entities, and thus are not subject to constitutional requirements for free speech. Users have no obligation to consume or contribute to the content on these platforms. And unlike traditional media, social-media platforms primarily host content created by individual users rather than the companies themselves (although they do engage in some speech of their own, such as publishing terms of service and community standards). They are not merely conduits of that content, however; they curate and edit the content that users see, which involves removing posts that violate community standards and prioritizing posts based on various factors.</p>\n<p>The State of Florida enacted S.B. 7072 to address what it perceives as bias and censorship by large social media platforms against conservative voices. The legislation imposes various restrictions and obligations on social media platforms, such as prohibiting the deplatforming of political candidates and requiring detailed disclosures about content moderation policies. It aims to treat social media platforms like common carriers and focuses on those platforms that either have annual gross revenues exceeding $100 million or at least 100 million monthly individual participants globally. Enforcement mechanisms include substantial fines and the option for civil suits.</p>\n<p>NetChoice and the Computer &amp; Communications Industry Association (together, “NetChoice”)—are trade associations that represent internet and social-media companies like Facebook, Twitter, Google (which owns YouTube), and TikTok. They sued the Florida officials charged with enforcing S.B. 7072 under 42 U.S.C. § 1983, alleging that the law's provisions (1) violate the social-media companies’ right to free speech under the First Amendment and (2) are preempted by federal law.</p>\n<p>The district court granted NetChoice’s motion for a preliminary injunction, concluding that the provisions of the Act that make platforms liable for removing or deprioritizing content are likely preempted by federal law, specifically 47 U.S.C. § 230(c)(2), and that the Act’s provisions infringe on platforms’ First Amendment rights by restricting their “editorial judgment.” The court applied strict scrutiny due to the Act's viewpoint-based purpose of defending conservative speech from perceived liberal bias in big tech. The court found that the Act does not survive strict scrutiny as it isn't narrowly tailored and doesn't serve a legitimate state interest. The State appealed, and the U.S. Court of Appeals for the Eleventh Circuit affirmed these conclusions.</p>\n",
+  "question": "<p>Do Florida S.B. 7072’s content-moderation restrictions comply with the First Amendment, and do the law’s individualized-explanation requirements comply with the First Amendment?</p>\n",
+  "conclusion": null,
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27967"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2023",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court will decide whether Florida S.B. 7072’s content-moderation restrictions comply with the First Amendment; and whether the law’s individualized-explanation requirements comply with the First Amendment.",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": "https://supreme.justia.com/cases/federal/us/2023/22-277/",
+  "argument2_url": null
+}

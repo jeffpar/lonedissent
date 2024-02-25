@@ -1,0 +1,58 @@
+{
+  "ID": 63189,
+  "name": "Walker v. United States",
+  "href": "https://api.oyez.org/cases/2019/19-373",
+  "view_count": 0,
+  "docket_number": "19-373",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "James Walker",
+  "second_party": "United States of America",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1573797600
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54607"
+    },
+    {
+      "event": "Dismissed",
+      "dates": [
+        1580104800
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/54697"
+    }
+  ],
+  "lower_court": {
+    "ID": 11,
+    "name": "United States Court of Appeals for the Sixth Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/11"
+  },
+  "facts_of_the_case": "<p>A jury found James Walker guilty of being a felon in possession of ammunition, in violation of 18 U.S.C. § 922(g)(1). Because Walker had previously been convicted of three violent felonies, he was subject to a mandatory sentence of at least 15 years’ imprisonment under the Armed Career Criminal Act (ACCA). After the U.S. Supreme Court’s decision in <a href=\"https://www.oyez.org/cases/2014/13-7120\"><em>Johnson v. United States</em></a>—in which the Court ruled unconstitutionally vague the residual clause of the ACCA—Walker filed a habeas petition arguing that his prior convictions no longer qualify as violent felonies under the Act.</p>\n<p>The district court held that only two of Walker's prior convictions constituted violent felonies; the third, robbery under Texas Penal Code § 29.02(a)(1) was not a violent felony within the ACCA. The district court reasoned that robbery under § 29.02(a)(1) was not a violent felony because someone could be convicted under that subsection for recklessly causing physical injury, and in the Sixth Circuit, the “use of physical force” clause of the ACCA requires more than reckless conduct.” Accordingly, the district court vacated his sentence and resentenced him to 88 months’ imprisonment.</p>\n<p>The U.S. Court of Appeals for the Sixth Circuit reversed, finding that Texas Penal Code § 29.02(a)(1) is a violent felony under the ACCA’s force clause, and thus that Walker had been convicted of three violent felonies under the ACCA.</p>\n",
+  "question": "<p>Can a criminal offense that can be committed with a mens rea of recklessness qualify as a “violent felony” under the Armed Career Criminal Act?</p>\n",
+  "conclusion": "<p>As the petitioner died on January 22, 2020, the petition for a writ of certiorari was dismissed.</p>\n",
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27721"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2019",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court was asked to decide whether a criminal offense that can be committed with a mens rea of recklessness can qualify as a “violent felony” under the Armed Career Criminal Act.",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": "https://supreme.justia.com/cases/federal/us/2019/19-373/",
+  "argument2_url": null
+}

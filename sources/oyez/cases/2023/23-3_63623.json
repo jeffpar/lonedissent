@@ -1,0 +1,51 @@
+{
+  "ID": 63623,
+  "name": "Coinbase, Inc. v. Suski",
+  "href": "https://api.oyez.org/cases/2023/23-3",
+  "view_count": 0,
+  "docket_number": "23-3",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Writ of <i>certiorari</i>",
+  "first_party": "David Suski, et al.",
+  "second_party": "Coinbase, Inc.",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1698987600
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/55361"
+    }
+  ],
+  "lower_court": {
+    "ID": 5,
+    "name": "United States Court of Appeals for the Ninth Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/5"
+  },
+  "facts_of_the_case": "<p>In June 2021, Coinbase, an online cryptocurrency exchange, launched a Dogecoin Sweepstakes that required participants to opt into \"Official Rules\" with a forum selection clause stipulating exclusive jurisdiction of California courts for related disputes. Respondent David Suski and three other users, who had agreed to the “Coinbase User Agreement” containing an arbitration provision when they created their accounts, entered the sweepstakes. Subsequently, they filed a lawsuit against Coinbase and Marden-Kane, Inc., the company engaged by Coinbase for the sweepstakes management, alleging violations of California’s False Advertising Law, Unfair Competition Law, and Consumer Legal Remedies Act. Coinbase sought to compel arbitration based on the User Agreement, but the district court denied Coinbase’s motion, interpreting the contractual documents to conclude that the Sweepstakes’ Official Rules, with their forum selection clause, took precedence over the User Agreement’s arbitration clause.</p>\n<p>On appeal, the U.S. Court of Appeals for the Ninth Circuit affirmed, concluding that the dispute should be resolved within the California court system as per the Official Rules of the Sweepstakes, not through arbitration as Coinbase had sought.</p>\n",
+  "question": "<p>When parties enter into an arbitration agreement with a delegation clause, does an arbitrator or a court decide whether that arbitration agreement is narrowed by a later contract that is silent as to arbitration and delegation?</p>\n",
+  "conclusion": null,
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27987"
+  },
+  "decisions": null,
+  "first_party_label": "Petitioner",
+  "second_party_label": "Respondent",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2023",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court will decide whether, when parties enter into an arbitration agreement with a delegation clause, an arbitrator or a court decides whether that arbitration agreement is narrowed by a later contract that is silent as to arbitration and delegation. ",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": "https://supreme.justia.com/cases/federal/us/2023/23-3/",
+  "argument2_url": null
+}

@@ -1,0 +1,51 @@
+{
+  "ID": 63620,
+  "name": "Murthy v. Missouri",
+  "href": "https://api.oyez.org/cases/2023/23-411",
+  "view_count": 0,
+  "docket_number": "23-411",
+  "additional_docket_numbers": null,
+  "manner_of_jurisdiction": "Appeal",
+  "first_party": "Vivek H. Murthy, U.S. Surgeon General, et al.",
+  "second_party": "Missouri, et al.",
+  "timeline": [
+    {
+      "event": "Granted",
+      "dates": [
+        1697259600
+      ],
+      "href": "https://api.oyez.org/case_timeline/case_timeline/55353"
+    }
+  ],
+  "lower_court": {
+    "ID": 10,
+    "name": "United States Court of Appeals for the Fifth Circuit",
+    "href": "https://api.oyez.org/taxonomy/term/10"
+  },
+  "facts_of_the_case": "<p>Multiple plaintiffs, including epidemiologists, consumer and human rights advocates, academics, and media operators, claimed that various defendants, including numerous federal agencies and officials, have engaged in censorship, targeting conservative-leaning speech on topics such as the 2020 presidential election, COVID-19 origins, mask and vaccine efficacy, and election integrity. The plaintiffs argue that the defendants used public statements and threats of regulatory action, such as reforming Section 230 of the Communications Decency Act, to induce social media platforms to suppress content, thereby violating the plaintiffs’ First Amendment rights. The States of Missouri and Louisiana also alleged harm due to the infringement of the free speech rights of their citizens.</p>\n<p>The U.S. District Court for the Western District of Louisiana granted the plaintiffs’ motion for a nationwide preliminary injunction prohibiting the federal government from meeting with social media companies or otherwise seeking to influence their content-moderation policies. The U.S. Supreme Court granted the government’s motion for an emergency stay and granted certiorari to review the case on the merits.</p>\n",
+  "question": "<p>Did the federal government’s request that private social media companies take steps to prevent the dissemination of purported misinformation transform those companies’ content-moderation decisions into state action and thus violate users’ First Amendment rights?</p>\n",
+  "conclusion": null,
+  "advocates": null,
+  "oral_argument_audio": null,
+  "citation": {
+    "volume": null,
+    "page": null,
+    "year": null,
+    "href": "https://api.oyez.org/case_citation/case_citation/27985"
+  },
+  "decisions": null,
+  "first_party_label": "Appellant",
+  "second_party_label": "Appellee",
+  "heard_by": [
+    null
+  ],
+  "decided_by": null,
+  "term": "2023",
+  "location": null,
+  "opinion_announcement": null,
+  "description": "A case in which the Court will decide whether the government’s requests to large social media companies that they take steps to prevent the dissemination of purported misinformation constituted coercion and thus transformed those private companies’ content-moderation decisions into state action and violated users’ First Amendment rights.",
+  "written_opinion": null,
+  "related_cases": null,
+  "justia_url": "https://supreme.justia.com/cases/federal/us/2023/23-411/",
+  "argument2_url": null
+}
