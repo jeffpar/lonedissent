@@ -839,52 +839,8 @@ cases:
       - id: sdoconnor
         name: "Sandra Day O'Connor"
         majority: true
-  - id: "1984-108"
-    number: 20
-    termId: "1984-10"
-    title: "Montana v. Blackfeet Tribe of Indians"
-    docket: "83-2161"
-    volume: "471"
-    page: "759"
-    usCite: "471 U.S. 759"
-    pdfSource: "loc"
-    dateArgument: "Tuesday, April 23, 1985"
-    dateDecision: "Monday, June 3, 1985"
-    urlOyez: "https://www.oyez.org/cases/1984/83-2161"
-    voteMajority: 6
-    voteMinority: 3
-    authorId: lfpowell
-    authorName: "Lewis Powell"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: false
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: true
-      - id: lfpowell
-        name: "Lewis Powell"
-        majority: true
-      - id: whrehnquist
-        name: "William Rehnquist"
-        majority: false
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: sdoconnor
-        name: "Sandra Day O'Connor"
-        majority: true
   - id: "1985-102"
-    number: 21
+    number: 20
     termId: "1985-10"
     title: "Bowen v. Michigan Academy of Family Physicians"
     docket: "85-225"
@@ -928,7 +884,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1985-094"
-    number: 22
+    number: 21
     termId: "1985-10"
     title: "Bowen v. City of New York"
     docket: "84-1923"
@@ -972,7 +928,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1985-107"
-    number: 23
+    number: 22
     termId: "1985-10"
     title: "United States v. Mottaz"
     docket: "85-546"
@@ -1016,7 +972,7 @@ cases:
         name: "Sandra Day O'Connor"
         majority: true
   - id: "1986-098"
-    number: 24
+    number: 23
     termId: "1986-10"
     title: "Hodel v. Irving"
     docket: "85-637"
@@ -1060,7 +1016,7 @@ cases:
         name: "Antonin Scalia"
         majority: true
   - id: "1986-113"
-    number: 25
+    number: 24
     termId: "1986-10"
     title: "Bowen v. Yuckert"
     docket: "85-1409"
@@ -1104,7 +1060,7 @@ cases:
         name: "Antonin Scalia"
         majority: true
   - id: "1986-115"
-    number: 26
+    number: 25
     termId: "1986-10"
     title: "Utah Division of State Lands v. United States"
     docket: "85-1772"
@@ -1148,7 +1104,7 @@ cases:
         name: "Antonin Scalia"
         majority: true
   - id: "1987-051"
-    number: 27
+    number: 26
     termId: "1987-10"
     title: "Boos v. Barry"
     docket: "86-803"
@@ -1192,7 +1148,7 @@ cases:
         name: "Anthony Kennedy"
         majority: false
   - id: "1987-077"
-    number: 28
+    number: 27
     termId: "1987-10"
     title: "United States Department of Justice v. Julian"
     docket: "86-1357"
@@ -1236,7 +1192,7 @@ cases:
         name: "Anthony Kennedy"
         majority: false
   - id: "1987-139"
-    number: 29
+    number: 28
     termId: "1987-10"
     title: "United States v. Taylor"
     docket: "87-573"
@@ -1280,7 +1236,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1988-110"
-    number: 30
+    number: 29
     termId: "1988-10"
     title: "California v. United States"
     docket: "87-1165"
@@ -1322,7 +1278,7 @@ cases:
         name: "Anthony Kennedy"
         majority: false
   - id: "1988-075"
-    number: 31
+    number: 30
     termId: "1988-10"
     title: "American Foreign Service Association v. Garfinkel"
     docket: "87-2127"
@@ -1364,7 +1320,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1988-108"
-    number: 32
+    number: 31
     termId: "1988-10"
     title: "Sullivan v. Hudson"
     docket: "88-616"
@@ -1408,7 +1364,7 @@ cases:
         name: "Anthony Kennedy"
         majority: false
   - id: "1989-012"
-    number: 33
+    number: 32
     termId: "1989-10"
     title: "John Doe Agency v. John Doe Corporation"
     docket: "88-1083"
@@ -1452,7 +1408,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1989-036"
-    number: 34
+    number: 33
     termId: "1989-10"
     title: "Crandon v. United States"
     docket: "88-931"
@@ -1496,7 +1452,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1989-027"
-    number: 35
+    number: 34
     termId: "1989-10"
     title: "Sullivan v. Zebley"
     docket: "88-1377"
@@ -1540,7 +1496,7 @@ cases:
         name: "Anthony Kennedy"
         majority: true
   - id: "1990-019"
-    number: 36
+    number: 35
     termId: "1990-10"
     title: "Cheek v. United States"
     docket: "89-658"
@@ -1584,7 +1540,7 @@ cases:
         name: "David Souter"
         majority: false
   - id: "1990-020"
-    number: 37
+    number: 36
     termId: "1990-10"
     title: "Mobil Oil Exploration &amp; Producing Southeast, Inc. v. United Distribution Companies"
     docket: "89-1452"
@@ -1628,7 +1584,7 @@ cases:
         name: "David Souter"
         majority: true
   - id: "1990-039"
-    number: 38
+    number: 37
     termId: "1990-10"
     title: "Oklahoma Tax Commission v. Citizen Band, Potawatomi Indian Tribe of Oklahoma"
     docket: "89-1322"
@@ -1672,7 +1628,7 @@ cases:
         name: "David Souter"
         majority: true
   - id: "1991-021"
-    number: 39
+    number: 38
     termId: "1991-10"
     title: "County of Yakima v. Confederated Tribes &amp; Bands of Yakima Indian Nation"
     docket: "90-408"
@@ -1716,7 +1672,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1991-085"
-    number: 40
+    number: 39
     termId: "1991-10"
     title: "Lujan v. Defenders of Wildlife"
     docket: "90-1424"
@@ -1760,7 +1716,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1991-078"
-    number: 41
+    number: 40
     termId: "1991-10"
     title: "Chemical Waste Management, Inc. v. Hunt"
     docket: "91-471"
@@ -1804,7 +1760,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-031"
-    number: 42
+    number: 41
     termId: "1992-10"
     title: "Itel Containers International Corporation v. Huddleston"
     docket: "91-321"
@@ -1848,7 +1804,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-076"
-    number: 43
+    number: 42
     termId: "1992-10"
     title: "Lincoln v. Vigil"
     docket: "91-1833"
@@ -1892,7 +1848,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-071"
-    number: 44
+    number: 43
     termId: "1992-10"
     title: "Oklahoma Tax Commission v. Sac and Fox Nation"
     docket: "92-259"
@@ -1936,7 +1892,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1992-116"
-    number: 45
+    number: 44
     termId: "1992-10"
     title: "Shaw v. Reno"
     docket: "92-357"
@@ -1980,7 +1936,7 @@ cases:
         name: "Clarence Thomas"
         majority: true
   - id: "1993-007"
-    number: 46
+    number: 45
     termId: "1993-10"
     title: "United States v. James Daniel Good Real Property"
     docket: "92-1180"
@@ -2024,7 +1980,7 @@ cases:
         name: "Ruth Ginsburg"
         majority: true
   - id: "1993-036"
-    number: 47
+    number: 46
     termId: "1993-10"
     title: "Central Bank of Denver , N. A. v. First Interstate Bank of Denver , N. A."
     docket: "92-854"
@@ -2068,7 +2024,7 @@ cases:
         name: "Ruth Ginsburg"
         majority: false
   - id: "1993-081"
-    number: 48
+    number: 47
     termId: "1993-10"
     title: "Dolan v. City of Tigard"
     docket: "93-518"
@@ -2112,7 +2068,7 @@ cases:
         name: "Ruth Ginsburg"
         majority: false
   - id: "1994-004"
-    number: 49
+    number: 48
     termId: "1994-10"
     title: "U.S. Bancorp Mortgage Company v. Bonner Mall Partnership"
     docket: "93-714"
@@ -2156,7 +2112,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1994-048"
-    number: 50
+    number: 49
     termId: "1994-10"
     title: "Rubin v. Coors Brewing Company"
     docket: "93-1631"
@@ -2200,7 +2156,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1994-052"
-    number: 51
+    number: 50
     termId: "1994-10"
     title: "New York State Conference of Blue Cross &amp; Blue Shield Plans v. Travelers Ins. Co."
     docket: "93-1408"
@@ -2244,7 +2200,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1994-088"
-    number: 52
+    number: 51
     termId: "1994-10"
     title: "Babbitt v. Sweet Home Chapter, Communities for a Great Oregon"
     docket: "94-859"
@@ -2288,7 +2244,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1995-034"
-    number: 53
+    number: 52
     termId: "1995-10"
     title: "Varity Corporation v. Howe"
     docket: "94-1471"
@@ -2332,7 +2288,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1995-059"
-    number: 54
+    number: 53
     termId: "1995-10"
     title: "Loving v. United States"
     docket: "94-1966"
@@ -2376,7 +2332,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1995-084"
-    number: 55
+    number: 54
     termId: "1995-10"
     title: "Medtronic Inc. v. Lohr"
     docket: "95-754"
@@ -2420,7 +2376,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-001"
-    number: 56
+    number: 55
     termId: "1996-10"
     title: "Department of State v. Legal Assistance for Vietnamese Asylum Seekers, Inc."
     docket: "95-1521"
@@ -2462,7 +2418,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-038"
-    number: 57
+    number: 56
     termId: "1996-10"
     title: "Bennett v. Spear"
     docket: "95-813"
@@ -2506,7 +2462,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-063"
-    number: 58
+    number: 57
     termId: "1996-10"
     title: "De Buono v. NYSA-ILA Medical and Clinical Services Fund"
     docket: "95-1594"
@@ -2550,7 +2506,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1996-084"
-    number: 59
+    number: 58
     termId: "1996-10"
     title: "Richardson v. McKnight"
     docket: "96-318"
@@ -2594,7 +2550,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-055"
-    number: 60
+    number: 59
     termId: "1997-10"
     title: "Miller v. Albright"
     docket: "96-1060"
@@ -2638,7 +2594,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1997-037"
-    number: 61
+    number: 60
     termId: "1997-10"
     title: "Oncale v. Sundowner Offshore Services, Inc."
     docket: "96-568"
@@ -2682,7 +2638,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1997-083"
-    number: 62
+    number: 61
     termId: "1997-10"
     title: "Phillips v. Washington Legal Foundation"
     docket: "96-1578"
@@ -2726,7 +2682,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1997-096"
-    number: 63
+    number: 62
     termId: "1997-10"
     title: "Eastern Enterprises v. Apfel"
     docket: "97-42"
@@ -2770,7 +2726,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1998-060"
-    number: 64
+    number: 63
     termId: "1998-10"
     title: "City of Monterey v. Del Monte Dunes at Monterey"
     docket: "97-1235"
@@ -2814,7 +2770,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-023"
-    number: 65
+    number: 64
     termId: "1998-10"
     title: "NCAA v. Smith"
     docket: "98-84"
@@ -2858,7 +2814,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-046"
-    number: 66
+    number: 65
     termId: "1998-10"
     title: "UNUM Life Insurance Company of America v. Ward"
     docket: "97-1868"
@@ -2902,7 +2858,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1998-083"
-    number: 67
+    number: 66
     termId: "1998-10"
     title: "Sutton v. United Air Lines, Inc."
     docket: "97-1943"
@@ -2946,7 +2902,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "1999-031"
-    number: 68
+    number: 67
     termId: "1999-10"
     title: "Rice v. Cayetano"
     docket: "98-818"
@@ -2990,7 +2946,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-062"
-    number: 69
+    number: 68
     termId: "1999-10"
     title: "Vermont Agency of Natural Resources v. United States ex rel. Stevens"
     docket: "98-1828"
@@ -3034,7 +2990,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "1999-060"
-    number: 70
+    number: 69
     termId: "1999-10"
     title: "Public Lands Council v. Babbitt"
     docket: "98-1991"
@@ -3078,7 +3034,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-028"
-    number: 71
+    number: 70
     termId: "2000-10"
     title: "Legal Services Corporation v. Velazquez"
     docket: "99-603"
@@ -3122,7 +3078,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-070"
-    number: 72
+    number: 71
     termId: "2000-10"
     title: "Tuan Anh Nguyen v. Immigration and Naturalization Service"
     docket: "99-2071"
@@ -3166,7 +3122,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2000-087"
-    number: 73
+    number: 72
     termId: "2000-10"
     title: "Zadvydas v. Davis"
     docket: "99-7791"
@@ -3210,7 +3166,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-079"
-    number: 74
+    number: 73
     termId: "2000-10"
     title: "Calcano-Martinez v. INS"
     docket: "00-1011"
@@ -3254,7 +3210,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2000-078"
-    number: 75
+    number: 74
     termId: "2000-10"
     title: "Immigration and Naturalization Service v. St. Cyr"
     docket: "00-767"
@@ -3298,7 +3254,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-027"
-    number: 76
+    number: 75
     termId: "2001-10"
     title: "New York v. Federal Energy Regulatory Commission"
     docket: "00-568"
@@ -3342,7 +3298,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-021"
-    number: 77
+    number: 76
     termId: "2001-10"
     title: "Owasso Independent School District No. I-011 v. Falvo"
     docket: "00-1073"
@@ -3386,7 +3342,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-071"
-    number: 78
+    number: 77
     termId: "2001-10"
     title: "Rush Prudential HMO, Inc. v. Moran"
     docket: "00-1021"
@@ -3430,7 +3386,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2001-041"
-    number: 79
+    number: 78
     termId: "2001-10"
     title: "Thompson v. Western States Medical Center"
     docket: "01-344"
@@ -3474,7 +3430,7 @@ cases:
         name: "Stephen Breyer"
         majority: false
   - id: "2002-008"
-    number: 80
+    number: 79
     termId: "2002-10"
     title: "United States v. Bean"
     docket: "01-704"
@@ -3518,7 +3474,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-025"
-    number: 81
+    number: 80
     termId: "2002-10"
     title: "United States v. Navajo Nation"
     docket: "01-1375"
@@ -3562,7 +3518,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-052"
-    number: 82
+    number: 81
     termId: "2002-10"
     title: "Pharmaceutical Research &amp; Manufacturers of America v. Walsh"
     docket: "01-188"
@@ -3606,7 +3562,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2002-079"
-    number: 83
+    number: 82
     termId: "2002-10"
     title: "American Insurance Ass&apos;n v. Garamendi"
     docket: "02-722"
@@ -3650,7 +3606,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-036"
-    number: 84
+    number: 83
     termId: "2003-10"
     title: "United States Postal Service v. Flamingo Industries (USA), Limited"
     docket: "02-1290"
@@ -3694,7 +3650,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-048"
-    number: 85
+    number: 84
     termId: "2003-10"
     title: "United States v. Lara"
     docket: "03-107"
@@ -3738,7 +3694,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-070"
-    number: 86
+    number: 85
     termId: "2003-10"
     title: "Norton v. Southern Utah Wilderness Alliance"
     docket: "03-101"
@@ -3782,7 +3738,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2003-067"
-    number: 87
+    number: 86
     termId: "2003-10"
     title: "Department of Transportation v. Public Citizen"
     docket: "03-358"
@@ -3826,7 +3782,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-016"
-    number: 88
+    number: 87
     termId: "2004-10"
     title: "Clark v. Martinez"
     docket: "03-878"
@@ -3870,7 +3826,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-047"
-    number: 89
+    number: 88
     termId: "2004-10"
     title: "Johanns v. Livestock Marketing Association"
     docket: "03-1164"
@@ -3914,7 +3870,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2004-046"
-    number: 90
+    number: 89
     termId: "2004-10"
     title: "Lingle v. Chevron U. S. A. Inc."
     docket: "04-163"
@@ -3958,7 +3914,7 @@ cases:
         name: "Stephen Breyer"
         majority: true
   - id: "2005-011"
-    number: 91
+    number: 90
     termId: "2005-10"
     title: "Wagnon v. Prairie Band Potawatomi Nation"
     docket: "04-631"
@@ -4000,6 +3956,50 @@ cases:
         majority: false
       - id: sgbreyer
         name: "Stephen Breyer"
+        majority: true
+  - id: "2005-058"
+    number: 91
+    termId: "2005-10"
+    title: "Garcetti v. Ceballos"
+    docket: "04-473"
+    volume: "547"
+    page: "410"
+    usCite: "547 U.S. 410"
+    pdfSource: "scotusBound"
+    dateArgument: "Wednesday, October 12, 2005"
+    dateDecision: "Tuesday, May 30, 2006"
+    urlOyez: "https://www.oyez.org/cases/2005/04-473"
+    voteMajority: 5
+    voteMinority: 4
+    authorId: amkennedy
+    authorName: "Anthony Kennedy"
+    votes:
+      - id: jgroberts
+        name: "John Roberts"
+        majority: true
+      - id: jpstevens
+        name: "John Paul Stevens"
+        majority: false
+      - id: ascalia
+        name: "Antonin Scalia"
+        majority: true
+      - id: amkennedy
+        name: "Anthony Kennedy"
+        majority: true
+      - id: dhsouter
+        name: "David Souter"
+        majority: false
+      - id: cthomas
+        name: "Clarence Thomas"
+        majority: true
+      - id: rbginsburg
+        name: "Ruth Ginsburg"
+        majority: false
+      - id: sgbreyer
+        name: "Stephen Breyer"
+        majority: false
+      - id: saalito
+        name: "Samuel Alito"
         majority: true
   - id: "2005-027"
     number: 92
@@ -4089,55 +4089,11 @@ cases:
       - id: saalito
         name: "Samuel Alito"
         majority: false
-  - id: "2005-058"
-    number: 94
-    termId: "2005-10"
-    title: "Garcetti v. Ceballos"
-    docket: "04-473"
-    volume: "547"
-    page: "410"
-    usCite: "547 U.S. 410"
-    pdfSource: "scotusBound"
-    dateArgument: "Tuesday, March 21, 2006"
-    dateDecision: "Tuesday, May 30, 2006"
-    urlOyez: "https://www.oyez.org/cases/2005/04-473"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: amkennedy
-    authorName: "Anthony Kennedy"
-    votes:
-      - id: jgroberts
-        name: "John Roberts"
-        majority: true
-      - id: jpstevens
-        name: "John Paul Stevens"
-        majority: false
-      - id: ascalia
-        name: "Antonin Scalia"
-        majority: true
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: true
-      - id: dhsouter
-        name: "David Souter"
-        majority: false
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: true
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: false
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: false
-      - id: saalito
-        name: "Samuel Alito"
-        majority: true
   - id: "2006-003"
-    number: 95
+    number: 94
     termId: "2006-10"
     title: "Lopez v. Gonzales"
-    docket: "05-547"
+    docket: "05-547,05-7664"
     volume: "549"
     page: "047"
     usCite: "549 U.S. 47"
@@ -4178,7 +4134,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-068"
-    number: 96
+    number: 95
     termId: "2006-10"
     title: "Morse v. Frederick"
     docket: "06-278"
@@ -4222,10 +4178,10 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2006-072"
-    number: 97
+    number: 96
     termId: "2006-10"
     title: "National Association of Home Builders v. Defenders of Wildlife"
-    docket: "06-340"
+    docket: "06-340,06-549"
     volume: "551"
     page: "644"
     usCite: "551 U.S. 644"
@@ -4266,7 +4222,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-017"
-    number: 98
+    number: 97
     termId: "2007-10"
     title: "Riegel v. Medtronic, Inc."
     docket: "06-179"
@@ -4310,7 +4266,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-056"
-    number: 99
+    number: 98
     termId: "2007-10"
     title: "Dada v. Mukasey"
     docket: "06-1181"
@@ -4354,10 +4310,10 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2007-070"
-    number: 100
+    number: 99
     termId: "2007-10"
     title: "Morgan Stanley Capital Group Inc. v. Public Utility District No. 1 of Snohomish County"
-    docket: "06-1457"
+    docket: "06-1457,04-1462"
     volume: "554"
     page: "527"
     usCite: "554 U.S. 527"
@@ -4398,7 +4354,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2007-054"
-    number: 101
+    number: 100
     termId: "2007-10"
     title: "Republic of Philippines v. Pimentel"
     docket: "06-1204"
@@ -4442,7 +4398,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-027"
-    number: 102
+    number: 101
     termId: "2008-10"
     title: "Summers v. Earth Island Institute"
     docket: "07-463"
@@ -4486,7 +4442,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-029"
-    number: 103
+    number: 102
     termId: "2008-10"
     title: "Wyeth v. Levine"
     docket: "06-1249"
@@ -4530,7 +4486,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2008-047"
-    number: 104
+    number: 103
     termId: "2008-10"
     title: "Nken v. Holder"
     docket: "08-681"
@@ -4574,7 +4530,7 @@ cases:
         name: "Samuel Alito"
         majority: false
   - id: "2008-042"
-    number: 105
+    number: 104
     termId: "2008-10"
     title: "United States v. Navajo Nation"
     docket: "07-1410"
@@ -4618,7 +4574,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2008-083"
-    number: 106
+    number: 105
     termId: "2008-10"
     title: "Ricci v. DeStefano"
     docket: "07-1428"
@@ -4662,7 +4618,7 @@ cases:
         name: "Samuel Alito"
         majority: true
   - id: "2009-001"
-    number: 107
+    number: 106
     termId: "2009-10"
     title: "Mohawk Industries, Inc. v. Carpenter"
     docket: "08-678"
@@ -4706,7 +4662,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2009-073"
-    number: 108
+    number: 107
     termId: "2009-10"
     title: "Stop the Beach Renourishment Inc. v. Florida Department of Environmental Protection"
     docket: "08-1151"
@@ -4750,7 +4706,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2009-060"
-    number: 109
+    number: 108
     termId: "2009-10"
     title: "Alabama v. North Carolina"
     docket: "132 Orig."
@@ -4794,7 +4750,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2009-059"
-    number: 110
+    number: 109
     termId: "2009-10"
     title: "Samantar v. Yousuf"
     docket: "08-1555"
@@ -4838,7 +4794,7 @@ cases:
         name: "Sonia Sotomayor"
         majority: true
   - id: "2010-061"
-    number: 111
+    number: 110
     termId: "2010-10"
     title: "Flores-Villar v. United States"
     docket: "09-5801"
@@ -4880,7 +4836,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2010-043"
-    number: 112
+    number: 111
     termId: "2010-10"
     title: "CIGNA v. Amara"
     docket: "09-804"
@@ -4924,7 +4880,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2010-076"
-    number: 113
+    number: 112
     termId: "2010-10"
     title: "PLIVA, Inc. v. Mensing"
     docket: "09-993"
@@ -4968,7 +4924,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2010-077"
-    number: 114
+    number: 113
     termId: "2010-10"
     title: "Sorrell v. IMS Health Inc."
     docket: "10-779"
@@ -5012,7 +4968,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2011-028"
-    number: 115
+    number: 114
     termId: "2011-10"
     title: "Douglas v. Independent Living Center of Southern California"
     docket: "09-958"
@@ -5054,7 +5010,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-027"
-    number: 116
+    number: 115
     termId: "2011-10"
     title: "PPL Montana v. Montana"
     docket: "10-218"
@@ -5096,7 +5052,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-036"
-    number: 117
+    number: 116
     termId: "2012-10"
     title: "Kiobel v. Royal Dutch Petroleum"
     docket: "10-1491"
@@ -5140,10 +5096,10 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2011-077"
-    number: 118
+    number: 117
     termId: "2011-10"
     title: "National Federation of Independent Business v. Sebelius"
-    docket: "11-393"
+    docket: "11-393,11-398,11-400"
     usCite: "567 U.S. ___"
     pdfSource: "scotusBound"
     dateArgument: "Monday, March 26, 2012"
@@ -5182,7 +5138,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-001"
-    number: 119
+    number: 118
     termId: "2012-10"
     title: "Arkansas Game &amp; Fish Commission v. United States of America"
     docket: "11-597"
@@ -5224,7 +5180,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-011"
-    number: 120
+    number: 119
     termId: "2012-10"
     title: "Sebelius v. Auburn Regional Medical Center"
     docket: "11-1231"
@@ -5268,7 +5224,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2012-074"
-    number: 121
+    number: 120
     termId: "2012-10"
     title: "Koontz v. St. John&apos;s River Water Management"
     docket: "11-1447"
@@ -5310,7 +5266,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2012-075"
-    number: 122
+    number: 121
     termId: "2012-10"
     title: "Adoptive Couple v. Baby Girl"
     docket: "12-399"
@@ -5352,7 +5308,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2013-011"
-    number: 123
+    number: 122
     termId: "2013-10"
     title: "Daimler AG v. Bauman"
     docket: "11-965"
@@ -5394,7 +5350,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-048"
-    number: 124
+    number: 123
     termId: "2013-10"
     title: "Michigan v. Bay Mills Indian Community"
     docket: "12-515"
@@ -5436,7 +5392,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-066"
-    number: 125
+    number: 124
     termId: "2013-10"
     title: "Fifth Third Bancorp v. Dudenhoeffer"
     docket: "12-751"
@@ -5478,7 +5434,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2013-059"
-    number: 126
+    number: 125
     termId: "2013-10"
     title: "Argentina v. NML Capital, Ltd."
     docket: "12-842"
@@ -5520,10 +5476,10 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-022"
-    number: 127
+    number: 126
     termId: "2014-10"
     title: "Perez v. Mortgage Bankers Association"
-    docket: "13-1041"
+    docket: "13-1041,13-1052"
     usCite: "575 U.S. ___"
     pdfSource: "slipopinion/14"
     dateArgument: "Monday, December 1, 2014"
@@ -5562,7 +5518,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2014-039"
-    number: 128
+    number: 127
     termId: "2014-10"
     title: "Armstrong v. Exceptional Child Center, Inc."
     docket: "14-15"
@@ -5604,7 +5560,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2014-042"
-    number: 129
+    number: 128
     termId: "2014-10"
     title: "Kerry v. Din"
     docket: "13-1402"
@@ -5646,7 +5602,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2014-069"
-    number: 130
+    number: 129
     termId: "2014-10"
     title: "Horne v. Department of Agriculture"
     docket: "14-275"
@@ -5688,7 +5644,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-001"
-    number: 131
+    number: 130
     termId: "2015-10"
     title: "OBB Personenverkehr AG v. Sachs"
     docket: "13-1067"
@@ -5730,7 +5686,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2015-025"
-    number: 132
+    number: 131
     termId: "2015-10"
     title: "Dollar General Corporation v. Mississippi Band of Choctaw Indians"
     docket: "13-1496"
@@ -5767,7 +5723,7 @@ cases:
         name: "Elena Kagan"
         majority: false
   - id: "2015-033"
-    number: 133
+    number: 132
     termId: "2015-10"
     title: "Bank Markazi v. Peterson"
     docket: "14-770"
@@ -5806,7 +5762,7 @@ cases:
         name: "Elena Kagan"
         majority: true
   - id: "2016-015"
-    number: 134
+    number: 133
     termId: "2016-10"
     title: "Sessions v. Morales-Santana"
     docket: "15-1191"
@@ -5848,7 +5804,7 @@ cases:
         name: "Neil Gorsuch"
         majority: false
   - id: "2017-001"
-    number: 135
+    number: 134
     termId: "2017-10"
     title: "Sessions v. Dimaya"
     docket: "15-1498"
@@ -5890,7 +5846,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "2016-043"
-    number: 136
+    number: 135
     termId: "2016-10"
     title: "Hernandez v. Mesa"
     docket: "15-118"
@@ -5929,53 +5885,11 @@ cases:
       - id: nmgorsuch
         name: "Neil Gorsuch"
         majority: false
-  - id: "2017-001"
-    number: 137
-    termId: "2017-10"
-    title: "Sessions v. Dimaya"
-    docket: "15-1498"
-    usCite: "584 U.S. ___"
-    pdfSource: "slipopinion/17"
-    dateArgument: "Monday, October 2, 2017"
-    dateDecision: "Tuesday, April 17, 2018"
-    urlOyez: "https://www.oyez.org/cases/2017/15-1498"
-    voteMajority: 5
-    voteMinority: 4
-    authorId: ekagan
-    authorName: "Elena Kagan"
-    votes:
-      - id: jgroberts
-        name: "John Roberts"
-        majority: false
-      - id: amkennedy
-        name: "Anthony Kennedy"
-        majority: false
-      - id: cthomas
-        name: "Clarence Thomas"
-        majority: false
-      - id: rbginsburg
-        name: "Ruth Ginsburg"
-        majority: true
-      - id: sgbreyer
-        name: "Stephen Breyer"
-        majority: true
-      - id: saalito
-        name: "Samuel Alito"
-        majority: false
-      - id: ssotomayor
-        name: "Sonia Sotomayor"
-        majority: true
-      - id: ekagan
-        name: "Elena Kagan"
-        majority: true
-      - id: nmgorsuch
-        name: "Neil Gorsuch"
-        majority: true
   - id: "2017-031"
-    number: 138
+    number: 136
     termId: "2017-10"
     title: "Florida v. Georgia"
-    docket: "142 Orig."
+    docket: "142 Orig.,142 Orig."
     usCite: "585 U.S. ___"
     pdfSource: "slipopinion/17"
     dateArgument: "Monday, January 8, 2018"
@@ -6014,10 +5928,10 @@ cases:
         name: "Neil Gorsuch"
         majority: false
   - id: "2017-072"
-    number: 139
+    number: 137
     termId: "2017-10"
     title: "Abbott v. Perez"
-    docket: "17-586"
+    docket: "17-586,17-626"
     usCite: "585 U.S. ___"
     pdfSource: "slipopinion/17"
     dateArgument: "Tuesday, April 24, 2018"
@@ -6056,7 +5970,7 @@ cases:
         name: "Neil Gorsuch"
         majority: true
   - id: "62955"
-    number: 140
+    number: 138
     termId: "2018-10"
     title: "Weyerhaeuser Company v. United States Fish and Wildlife Service"
     docket: "17-71"
@@ -6068,7 +5982,7 @@ cases:
     voteMajority: 0
     voteMinority: 0
   - id: "63003"
-    number: 141
+    number: 139
     termId: "2018-10"
     title: "Sturgeon v. Frost"
     docket: "17-949"
@@ -6079,7 +5993,7 @@ cases:
     voteMajority: 0
     voteMinority: 0
   - id: "62996"
-    number: 142
+    number: 140
     termId: "2018-10"
     title: "Carpenter v. Murphy"
     docket: "17-1107"
@@ -6090,7 +6004,7 @@ cases:
     voteMajority: 0
     voteMinority: 0
   - id: "63027"
-    number: 143
+    number: 141
     termId: "2018-10"
     title: "Azar v. Allina Health Services"
     docket: "17-1484"
@@ -6100,9 +6014,164 @@ cases:
     urlOyez: "https://www.oyez.org/cases/2018/17-1484"
     voteMajority: 0
     voteMinority: 0
+  - id: "63146"
+    number: 142
+    termId: "2019-10"
+    title: "Maine Community Health Options v. United States"
+    docket: "18-1023,18-1028,18-1038"
+    usCite: "590 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Tuesday, December 10, 2019"
+    dateDecision: "Monday, April 27, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-1023"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63175"
+    number: 143
+    termId: "2019-10"
+    title: "Department of Homeland Security v. Thuraissigiam"
+    docket: "19-161"
+    usCite: "591 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Monday, March 2, 2020"
+    dateDecision: "Thursday, June 25, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/19-161"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63205"
+    number: 144
+    termId: "2019-10"
+    title: "McGirt v. Oklahoma"
+    docket: "18-9526"
+    usCite: "591 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Monday, May 11, 2020"
+    dateDecision: "Thursday, July 9, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-9526"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63190"
+    number: 145
+    termId: "2020-10"
+    title: "Tanzin v. Tanvir"
+    docket: "19-71"
+    usCite: "592 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Tuesday, October 6, 2020"
+    dateDecision: "Thursday, December 10, 2020"
+    urlOyez: "https://www.oyez.org/cases/2020/19-71"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63258"
+    number: 146
+    termId: "2020-10"
+    title: "Federal Republic of Germany v. Philipp"
+    docket: "19-351"
+    usCite: "592 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Monday, December 7, 2020"
+    dateDecision: "Wednesday, February 3, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/19-351"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63335"
+    number: 147
+    termId: "2020-10"
+    title: "PennEast Pipeline Co. v. New Jersey"
+    docket: "19-1039"
+    usCite: "594 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Wednesday, April 28, 2021"
+    dateDecision: "Tuesday, June 29, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/19-1039"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63388"
+    number: 148
+    termId: "2021-10"
+    title: "Federal Bureau of Investigation v. Fazaga"
+    docket: "20-828"
+    usCite: "595 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Monday, November 8, 2021"
+    dateDecision: "Friday, March 4, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-828"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63429"
+    number: 149
+    termId: "2021-10"
+    title: "ZF Automotive US, Inc. v. Luxshare, Ltd."
+    docket: "21-401,21-518"
+    usCite: "596 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Wednesday, March 23, 2022"
+    dateDecision: "Monday, June 13, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/21-401"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63479"
+    number: 150
+    termId: "2021-10"
+    title: "Oklahoma v. Castro-Huerta"
+    docket: "21-429"
+    usCite: "597 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Wednesday, April 27, 2022"
+    dateDecision: "Wednesday, June 29, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/21-429"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63473"
+    number: 151
+    termId: "2022-10"
+    title: "National Pork Producers Council v. Ross"
+    docket: "21-468"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Tuesday, October 11, 2022"
+    dateDecision: "Thursday, May 11, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-468"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63462"
+    number: 152
+    termId: "2022-10"
+    title: "Haaland v. Brackeen"
+    docket: "21-376,21-377,21-378,21-380"
+    usCite: "599 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Wednesday, November 9, 2022"
+    dateDecision: "Thursday, June 15, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-376"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63510"
+    number: 153
+    termId: "2022-10"
+    title: "Twitter, Inc. v. Taamneh"
+    docket: "21-1496"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Wednesday, February 22, 2023"
+    dateDecision: "Thursday, May 18, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-1496"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63600"
+    number: 154
+    termId: "2023-10"
+    title: "Devillier v. Texas"
+    docket: "22-913"
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/23"
+    dateArgument: "Tuesday, January 16, 2024"
+    urlOyez: "https://www.oyez.org/cases/2023/22-913"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Edwin S. Kneedler argued 143 times in the U.S. Supreme Court (as of January 2019), most of which are listed by [Oyez](https://www.oyez.org/advocates/edwin_s_kneedler), with the exception of four cases:
+Edwin S. Kneedler argued 154 times in the U.S. Supreme Court (as of January 2019), most of which are listed by [Oyez](https://www.oyez.org/advocates/edwin_s_kneedler), with the exception of four cases:
 
 - [Boos v. Barry](https://www.oyez.org/cases/1987/86-803), No. 86-803
 - [United States v. Taylor](https://www.oyez.org/cases/1987/87-573), No. 87-573

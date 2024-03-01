@@ -607,47 +607,8 @@ cases:
       - id: cewhittaker
         name: "Charles Whittaker"
         majority: false
-  - id: "1956-054"
-    number: 15
-    termId: "1956-10"
-    title: "United States v. American Freightways Co."
-    docket: "265"
-    volume: "352"
-    page: "1020"
-    usCite: "352 U.S. 1020"
-    pdfSource: "loc"
-    dateArgument: "Wednesday, January 23, 1957"
-    dateDecision: "Monday, March 4, 1957"
-    urlOyez: "https://www.oyez.org/cases/1956/265"
-    voteMajority: 4
-    voteMinority: 4
-    votes:
-      - id: ewarren
-        name: "Earl Warren"
-        majority: false
-      - id: hlblack
-        name: "Hugo Black"
-        majority: false
-      - id: ffrankfurter
-        name: "Felix Frankfurter"
-        majority: false
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: hhburton
-        name: "Harold Burton"
-        majority: false
-      - id: tcclark
-        name: "Tom Clark"
-        majority: false
-      - id: jharlan2
-        name: "John M. Harlan II"
-        majority: false
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: false
   - id: "1956-071"
-    number: 16
+    number: 15
     termId: "1956-10"
     title: "Alleghany Corporation v. Breswick &amp; Company"
     docket: "36"
@@ -689,6 +650,45 @@ cases:
         majority: true
       - id: cewhittaker
         name: "Charles Whittaker"
+        majority: false
+  - id: "1956-054"
+    number: 16
+    termId: "1956-10"
+    title: "United States v. American Freightways Co."
+    docket: "265"
+    volume: "352"
+    page: "1020"
+    usCite: "352 U.S. 1020"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, January 23, 1957"
+    dateDecision: "Monday, March 4, 1957"
+    urlOyez: "https://www.oyez.org/cases/1956/265"
+    voteMajority: 4
+    voteMinority: 4
+    votes:
+      - id: ewarren
+        name: "Earl Warren"
+        majority: false
+      - id: hlblack
+        name: "Hugo Black"
+        majority: false
+      - id: ffrankfurter
+        name: "Felix Frankfurter"
+        majority: false
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: hhburton
+        name: "Harold Burton"
+        majority: false
+      - id: tcclark
+        name: "Tom Clark"
+        majority: false
+      - id: jharlan2
+        name: "John M. Harlan II"
+        majority: false
+      - id: wjbrennan
+        name: "William Brennan"
         majority: false
   - id: "1956-096"
     number: 17
@@ -1758,52 +1758,8 @@ cases:
       - id: tmarshall
         name: "Thurgood Marshall"
         majority: true
-  - id: "1968-051"
-    number: 42
-    termId: "1968-10"
-    title: "Golden v. Zwickler"
-    docket: "370"
-    volume: "394"
-    page: "103"
-    usCite: "394 U.S. 103"
-    pdfSource: "loc"
-    dateArgument: "Thursday, January 16, 1969"
-    dateDecision: "Monday, March 3, 1969"
-    urlOyez: "https://www.oyez.org/cases/1968/370"
-    voteMajority: 9
-    voteMinority: 0
-    authorId: wjbrennan
-    authorName: "William Brennan"
-    votes:
-      - id: ewarren
-        name: "Earl Warren"
-        majority: true
-      - id: hlblack
-        name: "Hugo Black"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: true
-      - id: jharlan2
-        name: "John M. Harlan II"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: true
-      - id: afortas
-        name: "Abe Fortas"
-        majority: true
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
   - id: "1968-058"
-    number: 43
+    number: 42
     termId: "1968-10"
     title: "Kaiser v. New York"
     docket: "62"
@@ -1843,6 +1799,50 @@ cases:
       - id: afortas
         name: "Abe Fortas"
         majority: false
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+  - id: "1968-051"
+    number: 43
+    termId: "1968-10"
+    title: "Golden v. Zwickler"
+    docket: "370"
+    volume: "394"
+    page: "103"
+    usCite: "394 U.S. 103"
+    pdfSource: "loc"
+    dateArgument: "Thursday, January 16, 1969"
+    dateDecision: "Monday, March 3, 1969"
+    urlOyez: "https://www.oyez.org/cases/1968/370"
+    voteMajority: 9
+    voteMinority: 0
+    authorId: wjbrennan
+    authorName: "William Brennan"
+    votes:
+      - id: ewarren
+        name: "Earl Warren"
+        majority: true
+      - id: hlblack
+        name: "Hugo Black"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: true
+      - id: jharlan2
+        name: "John M. Harlan II"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
+      - id: brwhite
+        name: "Byron White"
+        majority: true
+      - id: afortas
+        name: "Abe Fortas"
+        majority: true
       - id: tmarshall
         name: "Thurgood Marshall"
         majority: true
@@ -6278,6 +6278,30 @@ cases:
     urlOyez: "https://www.oyez.org/cases/2018/18-557"
     voteMajority: 0
     voteMinority: 0
+  - id: "63121"
+    number: 146
+    termId: "2019-10"
+    title: "Altitude Express v. Zarda"
+    docket: "17-1623"
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Tuesday, October 8, 2019"
+    dateDecision: "Monday, June 15, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/17-1623"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63526"
+    number: 147
+    termId: "2022-10"
+    title: "Department of the Interior v. Navajo Nation"
+    docket: "22-51,21-1484"
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Monday, March 20, 2023"
+    dateDecision: "Thursday, June 22, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/22-51"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Unknown Advocate argued 145 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/attorney_general).
+Unknown Advocate argued 147 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/attorney_general).

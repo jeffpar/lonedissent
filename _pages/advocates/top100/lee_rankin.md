@@ -47,8 +47,50 @@ cases:
       - id: cewhittaker
         name: "Charles Whittaker"
         majority: false
-  - id: "1956-001"
+  - id: "1957-005"
     number: 2
+    termId: "1957-10"
+    title: "Scales v. United States"
+    docket: "3"
+    volume: "355"
+    page: "001"
+    usCite: "355 U.S. 1"
+    pdfSource: "loc"
+    dateArgument: "Wednesday, October 10, 1956"
+    dateDecision: "Monday, October 14, 1957"
+    urlOyez: "https://www.oyez.org/cases/1957/3"
+    voteMajority: 9
+    voteMinority: 0
+    votes:
+      - id: ewarren
+        name: "Earl Warren"
+        majority: true
+      - id: hlblack
+        name: "Hugo Black"
+        majority: true
+      - id: ffrankfurter
+        name: "Felix Frankfurter"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: true
+      - id: hhburton
+        name: "Harold Burton"
+        majority: true
+      - id: tcclark
+        name: "Tom Clark"
+        majority: true
+      - id: jharlan2
+        name: "John M. Harlan II"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: cewhittaker
+        name: "Charles Whittaker"
+        majority: true
+  - id: "1956-001"
+    number: 3
     termId: "1956-10"
     title: "Mesarosh v. United States"
     docket: "20"
@@ -91,48 +133,6 @@ cases:
       - id: wjbrennan
         name: "William Brennan"
         majority: false
-  - id: "1957-005"
-    number: 3
-    termId: "1957-10"
-    title: "Scales v. United States"
-    docket: "3"
-    volume: "355"
-    page: "001"
-    usCite: "355 U.S. 1"
-    pdfSource: "loc"
-    dateArgument: "Wednesday, October 10, 1956"
-    dateDecision: "Monday, October 14, 1957"
-    urlOyez: "https://www.oyez.org/cases/1957/3"
-    voteMajority: 9
-    voteMinority: 0
-    votes:
-      - id: ewarren
-        name: "Earl Warren"
-        majority: true
-      - id: hlblack
-        name: "Hugo Black"
-        majority: true
-      - id: ffrankfurter
-        name: "Felix Frankfurter"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: true
-      - id: hhburton
-        name: "Harold Burton"
-        majority: true
-      - id: tcclark
-        name: "Tom Clark"
-        majority: true
-      - id: jharlan2
-        name: "John M. Harlan II"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: cewhittaker
-        name: "Charles Whittaker"
-        majority: true
   - id: "1957-006"
     number: 4
     termId: "1957-10"

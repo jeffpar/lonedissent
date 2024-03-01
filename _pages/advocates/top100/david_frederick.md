@@ -2194,6 +2194,65 @@ cases:
     urlOyez: "https://www.oyez.org/cases/2018/17-290"
     voteMajority: 0
     voteMinority: 0
+  - id: "63079"
+    number: 54
+    termId: "2018-10"
+    title: "Parker Drilling Management Services, Ltd. v. Newton"
+    docket: "18-389"
+    usCite: "587 U.S. ___"
+    pdfSource: "slipopinion/18"
+    dateArgument: "Tuesday, April 16, 2019"
+    dateDecision: "Monday, June 10, 2019"
+    urlOyez: "https://www.oyez.org/cases/2018/18-389"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63385"
+    number: 55
+    termId: "2021-10"
+    title: "Mississippi v. Tennessee"
+    docket: "143 Orig."
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Monday, October 4, 2021"
+    dateDecision: "Monday, November 22, 2021"
+    urlOyez: "https://www.oyez.org/cases/2021/143-orig"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63382"
+    number: 56
+    termId: "2021-10"
+    title: "Hughes v. Northwestern University"
+    docket: "19-1401"
+    usCite: "595 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Monday, December 6, 2021"
+    dateDecision: "Monday, January 24, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/19-1401"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63433"
+    number: 57
+    termId: "2021-10"
+    title: "LeDure v. Union Pacific Railroad Company"
+    docket: "20-807"
+    usCite: "596 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Monday, March 28, 2022"
+    dateDecision: "Thursday, April 28, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-807"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63604"
+    number: 58
+    termId: "2023-10"
+    title: "Macquarie Infrastructure Corp. v. Moab Partners, L.P."
+    docket: "22-1165"
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/23"
+    dateArgument: "Tuesday, January 16, 2024"
+    urlOyez: "https://www.oyez.org/cases/2023/22-1165"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-David C. Frederick argued 53 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/david_c_frederick).
+David C. Frederick argued 58 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/david_c_frederick).

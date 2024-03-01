@@ -1556,6 +1556,114 @@ cases:
     urlOyez: "https://www.oyez.org/cases/2018/17-1107"
     voteMajority: 0
     voteMinority: 0
+  - id: "63138"
+    number: 38
+    termId: "2019-10"
+    title: "Atlantic Richfield Co. v. Christian, et al."
+    docket: "17-1498"
+    usCite: "590 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Tuesday, December 3, 2019"
+    dateDecision: "Monday, April 20, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/17-1498"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63158"
+    number: 39
+    termId: "2019-10"
+    title: "Romag Fasteners, Inc. v. Fossil, Inc."
+    docket: "18-1233"
+    usCite: "590 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Tuesday, January 14, 2020"
+    dateDecision: "Thursday, April 23, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-1233"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63182"
+    number: 40
+    termId: "2019-10"
+    title: "U.S. Patent and Trademark Office v. Booking.com B.V."
+    docket: "19-46"
+    usCite: "591 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Monday, May 4, 2020"
+    dateDecision: "Tuesday, June 30, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/19-46"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63314"
+    number: 41
+    termId: "2020-10"
+    title: "Mahanoy Area School District v. B.L."
+    docket: "20-255"
+    usCite: "594 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Wednesday, April 28, 2021"
+    dateDecision: "Wednesday, June 23, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/20-255"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63370"
+    number: 42
+    termId: "2021-10"
+    title: "Badgerow v. Walters"
+    docket: "20-1143"
+    usCite: "596 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Tuesday, November 2, 2021"
+    dateDecision: "Thursday, March 31, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-1143"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63475"
+    number: 43
+    termId: "2022-10"
+    title: "Andy Warhol Foundation for the Visual Arts, Inc. v. Goldsmith"
+    docket: "21-869"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Wednesday, October 12, 2022"
+    dateDecision: "Thursday, May 18, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-869"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63509"
+    number: 44
+    termId: "2022-10"
+    title: "Turkiye Halk Bankasi A.S. v. United States"
+    docket: "21-1450"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Tuesday, January 17, 2023"
+    dateDecision: "Wednesday, April 19, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-1450"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63505"
+    number: 45
+    termId: "2022-10"
+    title: "Gonzalez v. Google LLC"
+    docket: "21-1333"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Tuesday, February 21, 2023"
+    dateDecision: "Thursday, May 18, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-1333"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63530"
+    number: 46
+    termId: "2022-10"
+    title: "Jack Daniel&apos;s Properties v. VIP Products LLC"
+    docket: "22-148"
+    usCite: "599 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Wednesday, March 22, 2023"
+    dateDecision: "Thursday, June 8, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/22-148"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Lisa S. Blatt argued 37 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/lisa_s_blatt).
+Lisa S. Blatt argued 46 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/lisa_s_blatt).

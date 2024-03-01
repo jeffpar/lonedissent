@@ -1822,6 +1822,42 @@ cases:
     urlOyez: "https://www.oyez.org/cases/2018/17-1104"
     voteMajority: 0
     voteMinority: 0
+  - id: "63124"
+    number: 44
+    termId: "2019-10"
+    title: "CITGO Asphalt Refining Co. v. Frescati Shipping Co."
+    docket: "18-565"
+    usCite: "589 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Tuesday, November 5, 2019"
+    dateDecision: "Monday, March 30, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-565"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63187"
+    number: 45
+    termId: "2020-10"
+    title: "Google LLC v. Oracle America Inc."
+    docket: "18-956"
+    usCite: "593 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Wednesday, October 7, 2020"
+    dateDecision: "Monday, April 5, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/18-956"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63308"
+    number: 46
+    termId: "2020-10"
+    title: "Goldman Sachs Group Inc. v. Arkansas Teacher Retirement System"
+    docket: "20-222"
+    usCite: "594 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Monday, March 29, 2021"
+    dateDecision: "Monday, June 21, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/20-222"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Thomas C. Goldstein argued 43 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/thomas_c_goldstein).
+Thomas C. Goldstein argued 46 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/thomas_c_goldstein).

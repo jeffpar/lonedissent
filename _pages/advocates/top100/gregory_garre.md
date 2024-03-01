@@ -1872,6 +1872,65 @@ cases:
       - id: nmgorsuch
         name: "Neil Gorsuch"
         majority: true
+  - id: "63332"
+    number: 44
+    termId: "2020-10"
+    title: "Florida v. Georgia"
+    docket: "142 Orig."
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Monday, February 22, 2021"
+    dateDecision: "Thursday, April 1, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/142-orig"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63318"
+    number: 45
+    termId: "2020-10"
+    title: "Guam v. United States"
+    docket: "20-382"
+    usCite: "593 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Monday, April 26, 2021"
+    dateDecision: "Monday, May 24, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/20-382"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63382"
+    number: 46
+    termId: "2021-10"
+    title: "Hughes v. Northwestern University"
+    docket: "19-1401"
+    usCite: "595 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Monday, December 6, 2021"
+    dateDecision: "Monday, January 24, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/19-1401"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63491"
+    number: 47
+    termId: "2022-10"
+    title: "Securities and Exchange Commission v. Cochran"
+    docket: "21-1239"
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Monday, November 7, 2022"
+    dateDecision: "Friday, April 14, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-1239"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63609"
+    number: 48
+    termId: "2023-10"
+    title: "Harrington v. Purdue Pharma L.P."
+    docket: "23-124"
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/23"
+    dateArgument: "Monday, December 4, 2023"
+    urlOyez: "https://www.oyez.org/cases/2023/23-124"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Gregory G. Garre argued 43 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/gregory_g_garre).
+Gregory G. Garre argued 48 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/gregory_g_garre).

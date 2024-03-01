@@ -3400,6 +3400,65 @@ cases:
     urlOyez: "https://www.oyez.org/cases/2018/17-1299"
     voteMajority: 0
     voteMinority: 0
+  - id: "63214"
+    number: 80
+    termId: "2020-10"
+    title: "Rutledge v. Pharmaceutical Care Management Association"
+    docket: "18-540"
+    usCite: "592 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Tuesday, October 6, 2020"
+    urlOyez: "https://www.oyez.org/cases/2020/18-540"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63310"
+    number: 81
+    termId: "2020-10"
+    title: "National Collegiate Athletic Association v. Alston"
+    docket: "20-512,20-520"
+    usCite: "594 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Wednesday, March 31, 2021"
+    dateDecision: "Monday, June 21, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/20-512"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63418"
+    number: 82
+    termId: "2021-10"
+    title: "Marietta Memorial Hospital Employee Health Benefit Plan v. DaVita, Inc."
+    docket: "20-1641"
+    usCite: "596 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Tuesday, March 1, 2022"
+    dateDecision: "Tuesday, June 21, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-1641"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63453"
+    number: 83
+    termId: "2022-10"
+    title: "Students for Fair Admissions v. President and Fellows of Harvard College"
+    docket: "20-1199"
+    usCite: "600 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Monday, October 31, 2022"
+    dateDecision: "Thursday, June 29, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/20-1199"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63510"
+    number: 84
+    termId: "2022-10"
+    title: "Twitter, Inc. v. Taamneh"
+    docket: "21-1496"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Wednesday, February 22, 2023"
+    dateDecision: "Thursday, May 18, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-1496"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Seth P. Waxman argued 79 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/seth_p_waxman).
+Seth P. Waxman argued 84 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/seth_p_waxman).

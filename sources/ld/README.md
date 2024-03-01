@@ -820,3 +820,22 @@ Ran `gulp decisions --overwrite` and then moved decisions.json to decisions2019.
 
     mv decisions.json decisions2019.json
     mv decisionsOrig.json decisions.json
+
+### Advocate Updates
+
+While checking Edwin Kneedler's list of arguments in the journals, I noticed that his February 24, 2020 argument
+is accompanied by the following acknowledgement:
+
+	The Chief Justice said:
+	“Mr. Clement, our records indicate that this was your 100th oral argument before the Court. That is a rare milestone.
+	I recognize one of the other members of the exclusive club, Mr. Kneedler, at counsel table.
+
+	“Throughout your career, Mr. Clement, you have consistently advocated positions on behalf of the United States and
+	private clients in an exemplary manner.
+
+	“On behalf of the Court, I extend to you our appreciation for your advocacy before the Court and dedicated service as
+	an officer of this Court. We look forward to hearing from you many more times--beginning, I gather, next week as an amicus
+	appointed by this Court.”
+
+However, in Paul Clement's spreadsheet, his 2020-02-24 argument is listed as #99, so apparently we're missing 1 of his
+arguments.

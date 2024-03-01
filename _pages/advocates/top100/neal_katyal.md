@@ -1545,6 +1545,138 @@ cases:
     urlOyez: "https://www.oyez.org/cases/2018/17-1717"
     voteMajority: 0
     voteMinority: 0
+  - id: "63139"
+    number: 38
+    termId: "2019-10"
+    title: "McKinney v. Arizona"
+    docket: "18-1109"
+    usCite: "589 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Wednesday, December 11, 2019"
+    dateDecision: "Tuesday, February 25, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-1109"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63158"
+    number: 39
+    termId: "2019-10"
+    title: "Romag Fasteners, Inc. v. Fossil, Inc."
+    docket: "18-1233"
+    usCite: "590 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Tuesday, January 14, 2020"
+    dateDecision: "Thursday, April 23, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-1233"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63224"
+    number: 40
+    termId: "2020-10"
+    title: "Fulton v. City of Philadelphia"
+    docket: "19-123"
+    usCite: "593 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Wednesday, November 4, 2020"
+    dateDecision: "Thursday, June 17, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/19-123"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63259"
+    number: 41
+    termId: "2020-10"
+    title: "Nestl&eacute; USA, Inc. v. Doe I"
+    docket: "19-416,19-453"
+    usCite: "593 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Tuesday, December 1, 2020"
+    dateDecision: "Thursday, June 17, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/19-416"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63274"
+    number: 42
+    termId: "2020-10"
+    title: "Garland v. Dai"
+    docket: "19-1155,19-1156"
+    usCite: "593 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Tuesday, February 23, 2021"
+    dateDecision: "Tuesday, June 1, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/19-1155"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63343"
+    number: 43
+    termId: "2021-10"
+    title: "Babcock v. Kijakazi"
+    docket: "20-480"
+    usCite: "595 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Wednesday, October 13, 2021"
+    dateDecision: "Thursday, January 13, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-480"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63461"
+    number: 44
+    termId: "2022-10"
+    title: "Delaware v. Pennsylvania and Wisconsin"
+    docket: "22O145"
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Monday, October 3, 2022"
+    dateDecision: "Tuesday, February 28, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/22o145"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63474"
+    number: 45
+    termId: "2022-10"
+    title: "Cruz v. Arizona"
+    docket: "21-846"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Tuesday, November 1, 2022"
+    dateDecision: "Wednesday, February 22, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-846"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63498"
+    number: 46
+    termId: "2022-10"
+    title: "Moore v. Harper"
+    docket: "21-1271"
+    usCite: "600 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Wednesday, December 7, 2022"
+    dateDecision: "Tuesday, June 27, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-1271"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63537"
+    number: 47
+    termId: "2022-10"
+    title: "Coinbase v. Bielski"
+    docket: "22-105"
+    usCite: "599 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Tuesday, March 21, 2023"
+    dateDecision: "Friday, June 23, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/22-105"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63549"
+    number: 48
+    termId: "2022-10"
+    title: "Tyler v. Hennepin County, Minnesota"
+    docket: "22-166"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Wednesday, April 26, 2023"
+    dateDecision: "Thursday, May 25, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/22-166"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Neal Kumar Katyal argued 37 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/neal_kumar_katyal).
+Neal Kumar Katyal argued 48 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/neal_kumar_katyal).

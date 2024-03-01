@@ -3498,6 +3498,208 @@ cases:
     urlOyez: "https://www.oyez.org/cases/2018/17-1594"
     voteMajority: 0
     voteMinority: 0
+  - id: "63103"
+    number: 84
+    termId: "2019-10"
+    title: "Peter v. NantKwest, Inc."
+    docket: "18-801"
+    usCite: "589 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Monday, October 7, 2019"
+    dateDecision: "Thursday, December 12, 2019"
+    urlOyez: "https://www.oyez.org/cases/2019/18-801"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63095"
+    number: 85
+    termId: "2019-10"
+    title: "County of Maui, Hawaii v. Hawaii Wildlife Fund"
+    docket: "18-260"
+    usCite: "590 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Wednesday, November 6, 2019"
+    dateDecision: "Thursday, April 23, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-260"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63176"
+    number: 86
+    termId: "2019-10"
+    title: "Liu v. Securities and Exchange Commission"
+    docket: "18-1501"
+    usCite: "591 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Tuesday, March 3, 2020"
+    dateDecision: "Monday, June 22, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-1501"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63216"
+    number: 87
+    termId: "2019-10"
+    title: "Barr v. American Association of Political Consultants Inc."
+    docket: "19-631"
+    usCite: "591 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Wednesday, May 6, 2020"
+    dateDecision: "Monday, July 6, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/19-631"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63187"
+    number: 88
+    termId: "2020-10"
+    title: "Google LLC v. Oracle America Inc."
+    docket: "18-956"
+    usCite: "593 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Wednesday, October 7, 2020"
+    dateDecision: "Monday, April 5, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/18-956"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63276"
+    number: 89
+    termId: "2020-10"
+    title: "FCC v. Prometheus Radio Project"
+    docket: "19-1231,19-1241"
+    usCite: "592 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Tuesday, January 19, 2021"
+    dateDecision: "Thursday, April 1, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/19-1231"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63278"
+    number: 90
+    termId: "2020-10"
+    title: "United States v. Arthrex, Inc."
+    docket: "19-1434,19-1452,19-1458"
+    usCite: "594 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Monday, March 1, 2021"
+    dateDecision: "Monday, June 21, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/19-1434"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63314"
+    number: 91
+    termId: "2020-10"
+    title: "Mahanoy Area School District v. B.L."
+    docket: "20-255"
+    usCite: "594 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Wednesday, April 28, 2021"
+    dateDecision: "Wednesday, June 23, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/20-255"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63381"
+    number: 92
+    termId: "2021-10"
+    title: "Carson v. Makin"
+    docket: "20-1088"
+    usCite: "596 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Wednesday, December 8, 2021"
+    dateDecision: "Tuesday, June 21, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-1088"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63410"
+    number: 93
+    termId: "2021-10"
+    title: "Federal Election Commission v. Ted Cruz for Senate"
+    docket: "21-12"
+    usCite: "596 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Wednesday, January 19, 2022"
+    dateDecision: "Monday, May 16, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/21-12"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63437"
+    number: 94
+    termId: "2021-10"
+    title: "United States v. Washington"
+    docket: "21-404"
+    usCite: "596 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Monday, April 18, 2022"
+    dateDecision: "Tuesday, June 21, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/21-404"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63491"
+    number: 95
+    termId: "2022-10"
+    title: "Securities and Exchange Commission v. Cochran"
+    docket: "21-1239"
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Monday, November 7, 2022"
+    dateDecision: "Friday, April 14, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-1239"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63454"
+    number: 96
+    termId: "2022-10"
+    title: "Axon Enterprise, Inc. v. Federal Trade Commission"
+    docket: "21-86"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Monday, November 7, 2022"
+    dateDecision: "Friday, April 14, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-86"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63505"
+    number: 97
+    termId: "2022-10"
+    title: "Gonzalez v. Google LLC"
+    docket: "21-1333"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Tuesday, February 21, 2023"
+    dateDecision: "Thursday, May 18, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-1333"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63546"
+    number: 98
+    termId: "2022-10"
+    title: "U.S. ex rel. Schutte v. SuperValu Inc."
+    docket: "21-1326,22-111"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Tuesday, April 18, 2023"
+    dateDecision: "Thursday, June 1, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-1326"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63590"
+    number: 99
+    termId: "2023-10"
+    title: "Vidal v. Elster"
+    docket: "22-704"
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/23"
+    dateArgument: "Wednesday, November 1, 2023"
+    urlOyez: "https://www.oyez.org/cases/2023/22-704"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63654"
+    number: 100
+    termId: "2023-10"
+    title: "Ohio v. Environmental Protection Agency"
+    docket: "23A349,23A350,23A351,23A384"
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/23"
+    dateArgument: "Wednesday, February 21, 2024"
+    urlOyez: "https://www.oyez.org/cases/2023/23a349"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Malcolm L. Stewart argued 83 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/malcolm_l_stewart).
+Malcolm L. Stewart argued 100 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/malcolm_l_stewart).

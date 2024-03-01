@@ -1137,52 +1137,8 @@ cases:
       - id: hablackmun
         name: "Harry Blackmun"
         majority: true
-  - id: "1969-129"
-    number: 28
-    termId: "1969-10"
-    title: "United States v. Sisson"
-    docket: "305"
-    volume: "399"
-    page: "267"
-    usCite: "399 U.S. 267"
-    pdfSource: "loc"
-    dateArgument: "Tuesday, January 20, 1970"
-    dateDecision: "Monday, June 29, 1970"
-    urlOyez: "https://www.oyez.org/cases/1969/305"
-    voteMajority: 5
-    voteMinority: 3
-    authorId: jharlan2
-    authorName: "John M. Harlan II"
-    votes:
-      - id: weburger
-        name: "Warren Burger"
-        majority: false
-      - id: hlblack
-        name: "Hugo Black"
-        majority: true
-      - id: wodouglas
-        name: "William Douglas"
-        majority: false
-      - id: jharlan2
-        name: "John M. Harlan II"
-        majority: true
-      - id: wjbrennan
-        name: "William Brennan"
-        majority: true
-      - id: pstewart
-        name: "Potter Stewart"
-        majority: true
-      - id: brwhite
-        name: "Byron White"
-        majority: false
-      - id: tmarshall
-        name: "Thurgood Marshall"
-        majority: true
-      - id: hablackmun
-        name: "Harry Blackmun"
-        majority: false
   - id: "1969-111"
-    number: 29
+    number: 28
     termId: "1969-10"
     title: "Welsh v. United States"
     docket: "76"
@@ -1216,6 +1172,50 @@ cases:
       - id: pstewart
         name: "Potter Stewart"
         majority: false
+      - id: brwhite
+        name: "Byron White"
+        majority: false
+      - id: tmarshall
+        name: "Thurgood Marshall"
+        majority: true
+      - id: hablackmun
+        name: "Harry Blackmun"
+        majority: false
+  - id: "1969-129"
+    number: 29
+    termId: "1969-10"
+    title: "United States v. Sisson"
+    docket: "305"
+    volume: "399"
+    page: "267"
+    usCite: "399 U.S. 267"
+    pdfSource: "loc"
+    dateArgument: "Tuesday, January 20, 1970"
+    dateDecision: "Monday, June 29, 1970"
+    urlOyez: "https://www.oyez.org/cases/1969/305"
+    voteMajority: 5
+    voteMinority: 3
+    authorId: jharlan2
+    authorName: "John M. Harlan II"
+    votes:
+      - id: weburger
+        name: "Warren Burger"
+        majority: false
+      - id: hlblack
+        name: "Hugo Black"
+        majority: true
+      - id: wodouglas
+        name: "William Douglas"
+        majority: false
+      - id: jharlan2
+        name: "John M. Harlan II"
+        majority: true
+      - id: wjbrennan
+        name: "William Brennan"
+        majority: true
+      - id: pstewart
+        name: "Potter Stewart"
+        majority: true
       - id: brwhite
         name: "Byron White"
         majority: false

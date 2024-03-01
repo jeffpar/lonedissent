@@ -883,6 +883,30 @@ cases:
       - id: ekagan
         name: "Elena Kagan"
         majority: true
+  - id: "63296"
+    number: 21
+    termId: "2020-10"
+    title: "Trump v. New York"
+    docket: "20-366"
+    usCite: "592 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Monday, November 30, 2020"
+    dateDecision: "Friday, December 18, 2020"
+    urlOyez: "https://www.oyez.org/cases/2020/20-366"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63362"
+    number: 22
+    termId: "2021-10"
+    title: "New York State Rifle &amp; Pistol Association Inc. v. Bruen"
+    docket: "20-843"
+    usCite: "597 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Wednesday, November 3, 2021"
+    dateDecision: "Thursday, June 23, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-843"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Barbara D. Underwood argued 20 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/barbara_d_underwood).
+Barbara D. Underwood argued 22 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/barbara_d_underwood).

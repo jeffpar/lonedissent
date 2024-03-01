@@ -433,6 +433,18 @@ cases:
       - id: ekagan
         name: "Elena Kagan"
         majority: true
+  - id: "63404"
+    number: 11
+    termId: "2021-10"
+    title: "Boechler, P.C. v. Commissioner of Internal Revenue"
+    docket: "20-1472"
+    usCite: "596 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Wednesday, January 12, 2022"
+    dateDecision: "Thursday, April 21, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-1472"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Melissa A. Sherry argued 10 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/melissa_arbus_sherry).
+Melissa A. Sherry argued 11 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/melissa_arbus_sherry).

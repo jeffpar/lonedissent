@@ -32,7 +32,7 @@
       "name": "gulp advocates-women",
       "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
       "args": [
-        "advocates-women"
+        "advocates-women", "--overwrite"
       ],
       "cwd": "${workspaceRoot}",
       "console": "integratedTerminal"
@@ -90,7 +90,7 @@
       "name": "gulp dates",
       "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
       "args": [
-        "dates"
+        "dates", "--overwrite"
       ],
       "cwd": "${workspaceRoot}",
       "console": "integratedTerminal"

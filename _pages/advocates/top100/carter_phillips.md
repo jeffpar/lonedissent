@@ -3705,6 +3705,42 @@ cases:
     urlOyez: "https://www.oyez.org/cases/2018/18-96"
     voteMajority: 0
     voteMinority: 0
+  - id: "63124"
+    number: 87
+    termId: "2019-10"
+    title: "CITGO Asphalt Refining Co. v. Frescati Shipping Co."
+    docket: "18-565"
+    usCite: "589 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Tuesday, November 5, 2019"
+    dateDecision: "Monday, March 30, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-565"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63485"
+    number: 88
+    termId: "2022-10"
+    title: "Mallory v. Norfolk Southern Railway Co."
+    docket: "21-1168"
+    usCite: "600 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Tuesday, November 8, 2022"
+    dateDecision: "Tuesday, June 27, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-1168"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63546"
+    number: 89
+    termId: "2022-10"
+    title: "U.S. ex rel. Schutte v. SuperValu Inc."
+    docket: "21-1326,22-111"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Tuesday, April 18, 2023"
+    dateDecision: "Thursday, June 1, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-1326"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Carter G. Phillips argued 86 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/carter_g_phillips).
+Carter G. Phillips argued 89 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/carter_g_phillips).

@@ -246,12 +246,15 @@ let warnings = 0;
  * @param {*} s1
  * @param {*} s2
  * @param {string} [comment]
+ * @returns {boolean}
  */
 function assertMatch(s1, s2, comment="")
 {
     if (s1 !== s2) {
         warning("assertMatch(%s != %s): %s\n", s1, s2, comment);
+        return false;
     }
+    return true;
 }
 
 /**
@@ -1445,7 +1448,7 @@ function fromRoman(letters)
 function parseCite(usCite, cite)
 {
     if (usCite) {
-        let match = usCite.match(/([0-9]+)\s*[Uu]\.?\s*[Ss]\.?\s*([0-9a-z]+)/);
+        let match = usCite.toString().match(/([0-9]+)\s*[Uu]\.?\s*[Ss]\.?\s*([0-9a-z]+)/);
         if (match) {
             if (cite) {
                 cite.volume = +match[1];
@@ -2154,7 +2157,7 @@ function backupLonerDecisions(done)
  */
 function findByDateAndDocket(decisions, date, docket)
 {
-    let dockets = docket.split(',');
+    let dockets = docket.toString().split(',');
     let searchByDate = function(obj) {
         let i, next = 0;
         while ((i = searchObjects(decisions, obj, next, true)) >= 0) {
@@ -2423,7 +2426,7 @@ function buildAdvocates(done)
                         row.dateArgument = dateArgument;
                         results.push(row);
                         if (row.dateArgument < sources.scdb.dateEnd) {
-                            warning("unable to find exact match for %s: %s [%s] (%s) Argued=%s Decided=%s\n", nameAdvocate, row.caseTitle, row.docket, row.usCite, row.datesArgued, row.dateDecision);
+                            warning("unable to find SCDB match for %s: %s [%s] (%s) Argued=%s Decided=%s\n", nameAdvocate, row.caseTitle, row.docket, row.usCite, row.datesArgued, row.dateDecision);
                         }
                     }
                 });
@@ -2702,15 +2705,67 @@ function buildAdvocatesAll(done)
 /**
  * buildAdvocatesWomen()
  *
+ * We're done with the SCHS women-advocates.txt (which was just created for our initial import) and now rely
+ * exclusively on our LD women-advocates.csv, which is saved from LD women-advocates.xlsx whenever that spreadsheet
+ * has been updated.
+ *
+ * Marlene Trestman's SCHS spreadsheet formed the original basis for the women-advocates.txt file.  She has updated
+ * her spreadsheet several times since then, so we manually extract any additions from her updates into our xlsx file.
+ * If there were also any corrections to the original data, we may have missed those, as she doesn't explicitly
+ * list corrections or make any notations in her spreadsheet.  We do save her updates as SCHS women-advocates.csv,
+ * so we could add some cross-checks between the SCHS CSV and the LD CSV, but that would be a bit tedious, because her
+ * spreadsheet mingles computed data with raw data, doesn't store dates as true dates, etc.
+ *
+ * The only thing we do here now is update the LD CSV if it doesn't have argumentCount values for each unique nameAdvocate
+ * (which it won't have whenever we re-save the xlsx file, because that file contains only raw data, not computed data).
+ *
  * @param {function()} done
  */
 function buildAdvocatesWomen(done)
 {
-    let argTable = [];
     let dataFile = _data.allDecisions;
     let decisions = readJSON(dataFile, []);
     sortObjects(decisions, ["volume", "page", "docket"]);
-    let oldTable = readCSV(sources.ld.women_advocates_csv);
+    let changes = 0;
+    let advocates = {};
+    let csvNew = [];
+    let csvOld = readCSV(sources.ld.women_advocates_csv);
+    if (csvOld) {
+        let fields = Object.keys(csvOld[0]);
+        for (let rowOld of csvOld) {
+            let rowNew = {};
+            for (let field of fields) {
+                rowNew[field] = rowOld[field];
+                if (typeof rowNew[field] == "string") {
+                    rowNew[field] = rowNew[field].replace(/’/g, "'").replace(/–/g, "-");
+                }
+                if (field == "nameAdvocate") {
+                    let nameAdvocate = rowOld[field];
+                    if (!advocates[nameAdvocate]) {
+                        advocates[nameAdvocate] = {count: 1};
+                    } else {
+                        advocates[nameAdvocate].count++;
+                    }
+                    if (!rowOld["argumentCount"]) {
+                        rowNew["argumentCount"] = advocates[nameAdvocate].count;
+                        changes++;
+                    }
+                }
+                if (rowNew[field] != rowOld[field]) {
+                    changes++;
+                }
+            }
+            csvNew.push(rowNew);
+        }
+        let rank = 0;
+        let keys = Object.keys(advocates);
+        keys.sort((a, b) => advocates[b].count - advocates[a].count);
+        keys.forEach((key) => {
+            if (rank++ > 10) return;
+            printf("%d: %s: %d arguments\n", rank, key, advocates[key].count);
+        });
+    }
+    /**
     let text = readFile(sources.schs.women_advocates_txt);
     if (text) {
         text = text.replace(/^\s*$/gm, "").replace(/’/g, "'").replace(/–/g, "-");  // make sure all blank lines are empty lines, so that the "\n\n" split will work as desired
@@ -2718,6 +2773,7 @@ function buildAdvocatesWomen(done)
         let biasAdvocate = 0;
         let uniqueAdvocates = [];
         let blocks = text.split("\n\n");
+        let insertedArguments = 0;
         blocks.forEach((block, index) => {
             let message = "";
             let lines = block.split("\n");
@@ -2729,16 +2785,21 @@ function buildAdvocatesWomen(done)
                 }
                 let iData = 0;
                 let newAdvocate = true;
-                let numberArgument = +dataLines[iData];
+                let a = dataLines[iData].split('+');
+                let numberArgument = +a[0];
                 if (isNaN(numberArgument)) {
-                    message = "unrecognized argument number: " + dataLines[iData];
-                    break;
+                    numberArgument = csvNew.length + 1;   // we now allow blocks without numbers going forward
+                    // message = "unrecognized argument number: " + dataLines[iData];
+                    // break;
+                } else {
+                    if (a[1]) insertedArguments += +a[1];
+                    numberArgument += insertedArguments;
+                    if (numberArgument != csvNew.length + 1) {
+                        message = sprintf("found argument number %d, expected %d", numberArgument, csvNew.length + 1);
+                        break;
+                    }
+                    iData++;
                 }
-                if (numberArgument != argTable.length + 1) {
-                    message = sprintf("found argument number %d, expected %d", numberArgument, argTable.length + 1);
-                    break;
-                }
-                iData++;
                 let numberAdvocate = +dataLines[iData];
                 if (isNaN(numberAdvocate)) {
                     newAdvocate = false;
@@ -2818,11 +2879,11 @@ function buildAdvocatesWomen(done)
                     if (message) message += "\n\t";
                     message += "unsupported date(s): " + dateArgument;
                 }
-                let corrections = oldTable[argTable.length] && oldTable[argTable.length].corrections || "";
+                let corrections = csvOld[csvNew.length] && csvOld[csvNew.length].corrections || "";
                 let argInfo = {
                     numberArgument, numberAdvocate, nameAdvocate, homeAdvocate, selfAdvocate, argsAdvocate, dateArgument, isReargument, caseInfo, citeInfo, corrections
                 };
-                argTable.push(argInfo);
+                csvNew.push(argInfo);
                 break;
             }
             if (message) {
@@ -2833,7 +2894,11 @@ function buildAdvocatesWomen(done)
             }
         });
     }
-    writeCSV(sources.ld.women_advocates_csv, argTable);
+    */
+    printf("%d changes\n", changes);
+    if (changes) {
+        writeCSV(sources.ld.women_advocates_csv, csvNew);
+    }
     done();
 }
 
@@ -5074,7 +5139,7 @@ function matchOyezDates(done)
                 return change;
             }
             let targetValue = target[prop];
-            if ((source[prop] || prop != "usCite") && targetValue != source[prop] && (source[prop].indexOf("___") < 0 || !targetValue)) {
+            if ((source[prop] || prop != "usCite") && targetValue != source[prop] && (prop == "usCite" && source[prop].indexOf("___") < 0 || !targetValue)) {
                 let accept = undefined;
                 // if (sourceDesc == "oyez" && source[prop]) accept = true;
                 if (targetValue) {
@@ -5144,7 +5209,7 @@ function matchOyezDates(done)
                 let objSearch = {usCite, dateDecision};
                 i = searchSortedObjects(dates, objSearch, {caseTitle});
                 while (i >= 0) {
-                    if (dates[i].dateArgument.indexOf(dateArgument) >= 0) {
+                    if (dates[i].dateArgument && dates[i].dateArgument.indexOf(dateArgument) >= 0) {
                         caseInfo.dateArgument = dates[i].dateArgument;
                         break;
                     }
@@ -5184,7 +5249,7 @@ function matchOyezDates(done)
 
     oyezCases.forEach((caseData) => {
         let usCite = caseData.usCite;
-        let docket = caseData.docket;
+        let docket = caseData.docket.toString();
         let caseTitle = caseData.caseTitle;
         let dateDecision = caseData.dateDecision;
         if (!usCite) {
@@ -5225,7 +5290,7 @@ function matchOyezDates(done)
                     i = searchSortedObjects(datesByDate, objSearch, {caseTitle});
                     let firstDocket = docket.split(',');
                     while (i >= 0) {
-                        if (datesByDate[i].dateArgument.indexOf(dateArgument) >= 0 && datesByDate[i].docket.indexOf(firstDocket) >= 0) {
+                        if (datesByDate[i].dateArgument && datesByDate[i].dateArgument.indexOf(dateArgument) >= 0 && datesByDate[i].docket && datesByDate[i].docket.toString().indexOf(firstDocket[0]) >= 0) {
                             caseInfo.dateArgument = datesByDate[i].dateArgument;
                             break;
                         }
@@ -5237,9 +5302,10 @@ function matchOyezDates(done)
 
             if (dateInfo) {
                 let changed;
-                if (dateInfo.docket.indexOf(docket) >= 0) {
+                if (dateInfo.docket.toString().indexOf(docket) >= 0) {
                     caseInfo.docket = dateInfo.docket;
                 }
+                if (!dateInfo.dateArgument) dateInfo.dateArgument = "";
                 if (dateInfo.dateArgument.indexOf(dateArgument) >= 0) {
                     caseInfo.dateArgument = dateInfo.dateArgument;
                 }

@@ -1582,6 +1582,101 @@ cases:
     urlOyez: "https://www.oyez.org/cases/2018/17-1011"
     voteMajority: 0
     voteMinority: 0
+  - id: "63106"
+    number: 40
+    termId: "2019-10"
+    title: "Ramos v. Louisiana"
+    docket: "18-5924"
+    usCite: "590 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Monday, October 7, 2019"
+    dateDecision: "Monday, April 20, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-5924"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63209"
+    number: 41
+    termId: "2019-10"
+    title: "Our Lady of Guadalupe School v. Morrissey-Berru"
+    docket: "19-267,19-348"
+    usCite: "591 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Monday, May 11, 2020"
+    dateDecision: "Wednesday, July 8, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/19-267"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63224"
+    number: 42
+    termId: "2020-10"
+    title: "Fulton v. City of Philadelphia"
+    docket: "19-123"
+    usCite: "593 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Wednesday, November 4, 2020"
+    dateDecision: "Thursday, June 17, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/19-123"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63238"
+    number: 43
+    termId: "2020-10"
+    title: "Van Buren v. United States"
+    docket: "19-783"
+    usCite: "593 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Monday, November 30, 2020"
+    urlOyez: "https://www.oyez.org/cases/2020/19-783"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63281"
+    number: 44
+    termId: "2020-10"
+    title: "Lange v. California"
+    docket: "20-18"
+    usCite: "594 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Wednesday, February 24, 2021"
+    dateDecision: "Wednesday, June 23, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/20-18"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63320"
+    number: 45
+    termId: "2020-10"
+    title: "United States v. Gary"
+    docket: "20-444"
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Tuesday, April 20, 2021"
+    dateDecision: "Monday, June 14, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/20-444"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63359"
+    number: 46
+    termId: "2021-10"
+    title: "Hemphill v. New York"
+    docket: "20-637"
+    usCite: "595 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Tuesday, October 5, 2021"
+    dateDecision: "Thursday, January 20, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-637"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63529"
+    number: 47
+    termId: "2022-10"
+    title: "Dubin v. United States"
+    docket: "22-10"
+    usCite: "599 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Monday, February 27, 2023"
+    dateDecision: "Thursday, June 8, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/22-10"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Jeffrey L. Fisher argued 39 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/jeffrey_l_fisher).
+Jeffrey L. Fisher argued 47 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/jeffrey_l_fisher).

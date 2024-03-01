@@ -2710,6 +2710,30 @@ cases:
       - id: nmgorsuch
         name: "Neil Gorsuch"
         majority: true
+  - id: "63149"
+    number: 63
+    termId: "2019-10"
+    title: "Financial Oversight and Management Board for Puerto Rico v. Aurelius Investment, LLC"
+    docket: "18-1334,18-1475,18-1496,18-1514,18-1521"
+    usCite: "590 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Tuesday, October 15, 2019"
+    dateDecision: "Monday, June 1, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-1334"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63162"
+    number: 64
+    termId: "2019-10"
+    title: "Department of Homeland Security v. Regents of the University of California"
+    docket: "18-587,18-588,18-589"
+    usCite: "591 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Tuesday, November 12, 2019"
+    dateDecision: "Thursday, June 18, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-587"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Theodore B. Olson argued 62 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/theodore_b_olson).
+Theodore B. Olson argued 64 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/theodore_b_olson).

@@ -2001,6 +2001,66 @@ cases:
     urlOyez: "https://www.oyez.org/cases/2018/17-1011"
     voteMajority: 0
     voteMinority: 0
+  - id: "63149"
+    number: 49
+    termId: "2019-10"
+    title: "Financial Oversight and Management Board for Puerto Rico v. Aurelius Investment, LLC"
+    docket: "18-1334,18-1475,18-1496,18-1514,18-1521"
+    usCite: "590 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Tuesday, October 15, 2019"
+    dateDecision: "Monday, June 1, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-1334"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63140"
+    number: 50
+    termId: "2019-10"
+    title: "Intel Corp. Investment Policy Committee v. Sulyma"
+    docket: "18-1116"
+    usCite: "589 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Wednesday, December 4, 2019"
+    dateDecision: "Wednesday, February 26, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-1116"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63230"
+    number: 51
+    termId: "2020-10"
+    title: "California v. Texas"
+    docket: "19-840,19-1019"
+    usCite: "593 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Tuesday, November 10, 2020"
+    dateDecision: "Thursday, June 17, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/19-840"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63378"
+    number: 52
+    termId: "2021-10"
+    title: "American Hospital Association v. Becerra"
+    docket: "20-1114"
+    usCite: "596 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Tuesday, November 30, 2021"
+    dateDecision: "Wednesday, June 15, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-1114"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63498"
+    number: 53
+    termId: "2022-10"
+    title: "Moore v. Harper"
+    docket: "21-1271"
+    usCite: "600 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Wednesday, December 7, 2022"
+    dateDecision: "Tuesday, June 27, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-1271"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Donald B. Verrilli, Jr. argued 48 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/donald_b_verrilli_jr).
+Donald B. Verrilli, Jr. argued 53 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/donald_b_verrilli_jr).

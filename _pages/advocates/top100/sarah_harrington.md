@@ -839,6 +839,30 @@ cases:
       - id: nmgorsuch
         name: "Neil Gorsuch"
         majority: true
+  - id: "63115"
+    number: 21
+    termId: "2019-10"
+    title: "Kansas v. Glover"
+    docket: "18-556"
+    usCite: "589 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Monday, November 4, 2019"
+    dateDecision: "Monday, April 6, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-556"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63260"
+    number: 22
+    termId: "2020-10"
+    title: "Republic of Hungary v. Simon"
+    docket: "18-1447"
+    usCite: "592 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Monday, December 7, 2020"
+    dateDecision: "Wednesday, February 3, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/18-1447"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Sarah E. Harrington argued 20 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/sarah_e_harrington).
+Sarah E. Harrington argued 22 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/sarah_e_harrington).

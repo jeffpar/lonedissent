@@ -1112,6 +1112,18 @@ cases:
     urlOyez: "https://www.oyez.org/cases/2018/17-1594"
     voteMajority: 0
     voteMinority: 0
+  - id: "63446"
+    number: 27
+    termId: "2021-10"
+    title: "West Virginia v. Environmental Protection Agency"
+    docket: "20-1530,20-1778,20-1531,20-1780"
+    usCite: "597 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Monday, February 28, 2022"
+    dateDecision: "Thursday, June 30, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-1530"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Beth S. Brinkmann argued 26 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/beth_s_brinkmann).
+Beth S. Brinkmann argued 27 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/beth_s_brinkmann).

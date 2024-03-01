@@ -767,6 +767,18 @@ cases:
       - id: ekagan
         name: "Elena Kagan"
         majority: true
+  - id: "63346"
+    number: 19
+    termId: "2021-10"
+    title: "United States v. Tsarnaev"
+    docket: "20-443"
+    usCite: "595 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Wednesday, October 13, 2021"
+    dateDecision: "Friday, March 4, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-443"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Ginger D. Anders argued 18 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/ginger_d_anders).
+Ginger D. Anders argued 19 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/ginger_d_anders).

@@ -3918,9 +3918,260 @@ cases:
     urlOyez: "https://www.oyez.org/cases/2018/17-1625"
     voteMajority: 0
     voteMinority: 0
+  - id: "63091"
+    number: 93
+    termId: "2018-10"
+    title: "Virginia House of Delegates v. Bethune-Hill"
+    docket: "18-281"
+    usCite: "587 U.S. ___"
+    pdfSource: "slipopinion/18"
+    dateArgument: "Monday, March 18, 2019"
+    dateDecision: "Monday, June 17, 2019"
+    urlOyez: "https://www.oyez.org/cases/2018/18-281"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63092"
+    number: 94
+    termId: "2018-10"
+    title: "Rucho v. Common Cause"
+    docket: "18-422,18-726"
+    usCite: "588 U.S. ___"
+    pdfSource: "slipopinion/18"
+    dateArgument: "Tuesday, March 26, 2019"
+    dateDecision: "Thursday, June 27, 2019"
+    urlOyez: "https://www.oyez.org/cases/2018/18-422"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63079"
+    number: 95
+    termId: "2018-10"
+    title: "Parker Drilling Management Services, Ltd. v. Newton"
+    docket: "18-389"
+    usCite: "587 U.S. ___"
+    pdfSource: "slipopinion/18"
+    dateArgument: "Tuesday, April 16, 2019"
+    dateDecision: "Monday, June 10, 2019"
+    urlOyez: "https://www.oyez.org/cases/2018/18-389"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63137"
+    number: 96
+    termId: "2019-10"
+    title: "Retirement Plans Committee of IBM v. Jander"
+    docket: "18-1165"
+    usCite: "589 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Wednesday, November 6, 2019"
+    dateDecision: "Tuesday, January 14, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-1165"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63090"
+    number: 97
+    termId: "2019-10"
+    title: "New York State Rifle &amp; Pistol Association Inc. v. City of New York"
+    docket: "18-280"
+    usCite: "590 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Monday, December 2, 2019"
+    dateDecision: "Monday, April 27, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-280"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63146"
+    number: 98
+    termId: "2019-10"
+    title: "Maine Community Health Options v. United States"
+    docket: "18-1023,18-1028,18-1038"
+    usCite: "590 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Tuesday, December 10, 2019"
+    dateDecision: "Monday, April 27, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-1023"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63164"
+    number: 99
+    termId: "2019-10"
+    title: "United States Forest Service v. Cowpasture River Preservation Association"
+    docket: "18-1584,18-1587"
+    usCite: "590 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Monday, February 24, 2020"
+    dateDecision: "Monday, June 15, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/18-1584"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63174"
+    number: 100
+    termId: "2019-10"
+    title: "Seila Law LLC v. Consumer Financial Protection Bureau"
+    docket: "19-7"
+    usCite: "591 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Tuesday, March 3, 2020"
+    dateDecision: "Monday, June 29, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/19-7"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63220"
+    number: 101
+    termId: "2019-10"
+    title: "Little Sisters of the Poor Saints Peter and Paul Home v. Pennsylvania"
+    docket: "19-431,19-454"
+    usCite: "591 U.S. ___"
+    pdfSource: "slipopinion/19"
+    dateArgument: "Wednesday, May 6, 2020"
+    dateDecision: "Wednesday, July 8, 2020"
+    urlOyez: "https://www.oyez.org/cases/2019/19-431"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63254"
+    number: 102
+    termId: "2020-10"
+    title: "Facebook, Inc. v. Duguid"
+    docket: "19-511"
+    usCite: "592 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Tuesday, December 8, 2020"
+    dateDecision: "Thursday, April 1, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/19-511"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63309"
+    number: 103
+    termId: "2020-10"
+    title: "TransUnion LLC v. Ramirez"
+    docket: "20-297"
+    usCite: "594 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Tuesday, March 30, 2021"
+    dateDecision: "Friday, June 25, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/20-297"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63322"
+    number: 104
+    termId: "2020-10"
+    title: "Yellen v. Confederated Tribes of the Chehalis Reservation"
+    docket: "20-543,20-544"
+    usCite: "594 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Monday, April 19, 2021"
+    dateDecision: "Friday, June 25, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/20-543"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63335"
+    number: 105
+    termId: "2020-10"
+    title: "PennEast Pipeline Co. v. New Jersey"
+    docket: "19-1039"
+    usCite: "594 U.S. ___"
+    pdfSource: "slipopinion/20"
+    dateArgument: "Wednesday, April 28, 2021"
+    dateDecision: "Tuesday, June 29, 2021"
+    urlOyez: "https://www.oyez.org/cases/2020/19-1039"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63362"
+    number: 106
+    termId: "2021-10"
+    title: "New York State Rifle &amp; Pistol Association Inc. v. Bruen"
+    docket: "20-843"
+    usCite: "597 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Wednesday, November 3, 2021"
+    dateDecision: "Thursday, June 23, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-843"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63420"
+    number: 107
+    termId: "2021-10"
+    title: "Morgan v. Sundance, Inc."
+    docket: "21-328"
+    usCite: "596 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Monday, March 21, 2022"
+    dateDecision: "Monday, May 23, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/21-328"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63432"
+    number: 108
+    termId: "2021-10"
+    title: "Viking River Cruises, Inc. v. Moriana"
+    docket: "20-1573"
+    usCite: "596 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Wednesday, March 30, 2022"
+    dateDecision: "Wednesday, June 15, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/20-1573"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63448"
+    number: 109
+    termId: "2021-10"
+    title: "Kennedy v. Bremerton School District"
+    docket: "21-418"
+    usCite: "597 U.S. ___"
+    pdfSource: "slipopinion/21"
+    dateArgument: "Monday, April 25, 2022"
+    dateDecision: "Monday, June 27, 2022"
+    urlOyez: "https://www.oyez.org/cases/2021/21-418"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63489"
+    number: 110
+    termId: "2022-10"
+    title: "Helix Energy Solutions Group, Inc. v. Hewitt"
+    docket: "21-984"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Wednesday, October 12, 2022"
+    dateDecision: "Wednesday, February 22, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-984"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63454"
+    number: 111
+    termId: "2022-10"
+    title: "Axon Enterprise, Inc. v. Federal Trade Commission"
+    docket: "21-86"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Monday, November 7, 2022"
+    dateDecision: "Friday, April 14, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-86"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63523"
+    number: 112
+    termId: "2022-10"
+    title: "Amgen Inc. v. Sanofi"
+    docket: "21-757"
+    usCite: "598 U.S. ___"
+    pdfSource: "slipopinion/22"
+    dateArgument: "Monday, March 27, 2023"
+    dateDecision: "Thursday, May 18, 2023"
+    urlOyez: "https://www.oyez.org/cases/2022/21-757"
+    voteMajority: 0
+    voteMinority: 0
+  - id: "63579"
+    number: 113
+    termId: "2023-10"
+    title: "Loper Bright Enterprises v. Raimondo"
+    docket: "22-451"
+    usCite: "___ U.S. ___"
+    pdfSource: "slipopinion/23"
+    dateArgument: "Wednesday, January 17, 2024"
+    urlOyez: "https://www.oyez.org/cases/2023/22-451"
+    voteMajority: 0
+    voteMinority: 0
 ---
 
-Paul D. Clement argued 92 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/paul_d_clement).
+Paul D. Clement argued 113 times in the U.S. Supreme Court since October 1955, according to [Oyez](https://www.oyez.org/advocates/paul_d_clement).
 
 Unfortunately, as we've seen with other top advocates, such as [Edwin S. Kneedler](/advocates/top100/edwin_kneedler)
 and [Michael R. Dreeben](/advocates/top100/michael_dreeben), the exact count is hard to verify, and the Supreme Court
