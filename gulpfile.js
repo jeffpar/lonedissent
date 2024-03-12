@@ -703,15 +703,23 @@ function isSortedObjects(rows, keys, fQuiet)
 /**
  * searchObjects(rows, row, next, fSub)
  *
+ * fSub can now be an array of keys (eg, ['identifier']) to restrict the search to a subset of keys.
+ *
  * @param {Array.<object>} rows
  * @param {object} row
  * @param {number} [next]
- * @param {boolean} [fSub] (true to perform substring comparisons; default is equality checks)
+ * @param {boolean|Array} [fSub] (true to perform substring comparisons; default is equality checks)
  * @return {number} (index of position, or -1 if not found)
  */
 function searchObjects(rows, row, next=0, fSub=false)
 {
-    let i, keys = Object.keys(row);
+    let i, keys;
+    if (Array.isArray(fSub)) {
+        keys = fSub;
+        fSub = false;
+    } else {
+        keys = Object.keys(row);
+    }
     for (i = next; i < rows.length; i++) {
         let k;
         for (k = 0; k < keys.length; k++) {
@@ -1774,7 +1782,15 @@ function readOyezTranscriptSpeakers(filePath)
             transcriptDetail.transcript.sections.forEach((section) => {
                 let iTurn = 0;
                 section.turns.forEach((turn) => {
-                    if (turn.speaker && (!turn.speaker.roles || !turn.speaker.roles.length || turn.speaker.roles[0].type != "scotus_justice")) {
+                    if (!turn.speaker) {
+                        let speaker = {name: "Unknown Advocate", identifier: "unknown_identifier"};
+                        let i = searchObjects(speakers, speaker);
+                        if (i < 0) {
+                            i = speakers.length;
+                            speakers.push(speaker);
+                        }
+                    }
+                    else if (!turn.speaker.roles || !turn.speaker.roles.length || turn.speaker.roles[0].type != "scotus_justice") {
                         let speaker = {name: turn.speaker.name, identifier: turn.speaker.identifier};
                         let i = searchObjects(speakers, speaker);
                         if (i < 0) {
@@ -2275,13 +2291,18 @@ function buildAdvocates(done)
         ids.push(advocate.id);
         if (advocate.name == topWomen[0].nameAdvocate) break;
     }
+    if (ids.indexOf("unknown_advocate") < 0) {
+        ids.push("unknown_advocate");
+    }
     let topLimit = ids.length;
 
     if (advocates) {
         let top100 = [];
         let updateAdvocates = false;
         let women = Object.keys(advocates.women);
-        women.forEach((woman) => { if (ids.indexOf(woman) < 0) ids.push(woman); });
+        women.forEach((woman) => {
+            if (ids.indexOf(woman) < 0) ids.push(woman);
+        });
         let pathAdvocates = "/advocates/top100";
         ids.forEach((id) => {
             let advocate = advocates.top[id] || advocates.women[id] || advocates.all[id];
@@ -2426,7 +2447,7 @@ function buildAdvocates(done)
                         row.dateArgument = dateArgument;
                         results.push(row);
                         if (row.dateArgument < sources.scdb.dateEnd) {
-                            warning("unable to find SCDB match for %s: %s [%s] (%s) Argued=%s Decided=%s\n", nameAdvocate, row.caseTitle, row.docket, row.usCite, row.datesArgued, row.dateDecision);
+                            if (argv['detail']) warning("unable to find SCDB match for %s: %s [%s] (%s) Argued=%s Decided=%s\n", nameAdvocate, row.caseTitle, row.docket, row.usCite, row.datesArgued, row.dateDecision);
                         }
                     }
                 });
@@ -2508,6 +2529,159 @@ function buildAdvocates(done)
  */
 function buildAdvocatesAll(done)
 {
+    let checkAdditions = function(caseData, speakers, corrections) {
+        let addition = 0;
+        let id = caseData.term + ':' + caseData.docket_number;
+        let key = id + ":delete";
+        if (!caseData.advocates || corrections[key] == "all") {
+            caseData.advocates = [];
+        }
+        do {
+            key =  id + ":add" + (addition + 1);
+            let name = corrections[key];
+            if (!name) break;
+            name = name.replace(/\s+/g, ' ').trim();
+            // warning("%s: adding advocate '%s'\n", id, name);
+            let i, identifier = name.toLowerCase().replace(/\./g, "").replace(/[^a-z]/g, '_');
+            caseData.advocates.push({advocate: {name, identifier}});
+            for (i = 0; i < speakers.length; i++) {
+                let speaker = speakers[i];
+                if (speaker.identifier == identifier) break;
+            }
+            if (i == speakers.length) {
+                speakers.push({name, identifier});
+            }
+            addition++;
+        } while (true);
+        /**
+         * If there were any hard-coded additions, we assume that any remaining "unknowns" should be removed.
+         */
+        if (addition > 0) {
+            for (let i = caseData.advocates.length - 1; i >= 0; i--) {
+                if (!caseData.advocates[i] || !caseData.advocates[i].advocate || caseData.advocates[i].advocate.identifier == "unknown_identifier") {
+                    caseData.advocates.splice(i, 1);
+                }
+            }
+            /**
+             * Finally, check for any invalid or duplicate advocates within the context of this single case and remove them.
+             */
+            for (let i = caseData.advocates.length - 1; i >= 0; i--) {
+                if (!caseData.advocates[i].advocate) {
+                    caseData.advocates.splice(i, 1);
+                    continue;
+                }
+                for (let j = i - 1; j >= 0; j--) {
+                    if (caseData.advocates[j].advocate && caseData.advocates[i].advocate.identifier == caseData.advocates[j].advocate.identifier) {
+                        caseData.advocates.splice(i, 1);
+                        break;
+                    }
+                }
+            }
+        }
+    };
+    let checkCorrections = function(advocate, caseData, corrections) {
+        if (advocate) {
+            let id = caseData.term + ':' + caseData.docket_number;
+            let key =  id + ':' + advocate.identifier;
+            let name = corrections[key];
+            if (name) {
+                if (name == "delete" || name.indexOf("merge:") == 0) {
+                    // warning("%s: deleting advocate '%s'\n", id, advocate.name);
+                    return null;
+                }
+                name = name.replace(/\s+/g, ' ').trim();
+                // warning("%s: replacing advocate '%s' with '%s'\n", id, advocate.name, name);
+                advocate.name = name;
+                advocate.identifier = name.toLowerCase().replace(/\./g, "").replace(/[^a-z]/g, '_');
+            }
+        }
+        return advocate;
+    };
+    let checkSpeakers = function(caseData, speakers) {
+        if (speakers.length) {
+            let totalAdvocates = 0;
+            let advocate_identifiers = "";
+            for (let i = caseData.advocates.length - 1; i >= 0; i--) {
+                let advocate = caseData.advocates[i].advocate;
+                if (advocate) {
+                    for (let j = i - 1; j >= 0; j--) {
+                        if (caseData.advocates[j].advocate && caseData.advocates[j].advocate.identifier == advocate.identifier) {
+                            advocate = null;
+                            break;
+                        }
+                    }
+                }
+                if (!advocate) {
+                    caseData.advocates.splice(i, 1);
+                    continue;
+                }
+                if (advocate_identifiers) advocate_identifiers = ", " + advocate_identifiers;
+                advocate_identifiers = advocate.identifier + advocate_identifiers;
+                totalAdvocates++;
+            }
+            let speaker_identifiers = "";
+            for (let i = 0; i < speakers.length; i++) {
+                if (speaker_identifiers) speaker_identifiers += ", ";
+                speaker_identifiers += speakers[i].identifier;
+            }
+            let totalSpeakers = 0;
+            for (let i = speakers.length - 1; i >= 0; i--) {
+                let speaker = speakers[i];
+                if (speaker.identifier == "the_marshal" || speaker.identifier == "unknown_identifier" || speaker.identifier == "unknown_speaker" || speaker.identifier == "attorney_general" || speaker.identifier.indexOf('_') < 0) {
+                    continue;
+                }
+                let parts = speaker.identifier.split("_");
+                let first = parts[0];
+                let last = parts[parts.length-1];
+                let advocate = findAdvocate(caseData, first, last);
+                if (advocate) {
+                    advocate.speaker = true;
+                } else {
+                    caseData.advocates.push({advocate: {name: speaker.name, identifier: speaker.identifier}, speaker: true});
+                    // if (advocate_identifiers) warning("adding speaker %s (see: %s)\n", speaker.identifier, advocate_identifiers);
+                    totalAdvocates++;
+                }
+                speakers.splice(i, 1);
+                totalSpeakers++;
+            }
+            /**
+             * There are quite a few instances where Oyez's list of advocates is over-inclusive (ie, it includes attorneys who did not
+             * speak and were presumably only on the briefs).  So if totalSpeakers >= 2 and totalAdvocates > totalSpeakers, let's delete
+             * any advocate where speaker is not true.
+             */
+            if (totalSpeakers >= 2 && totalAdvocates > totalSpeakers) {
+                for (let i = caseData.advocates.length - 1; i >= 0; i--) {
+                    if (!caseData.advocates[i].speaker) {
+                        // let advocate = caseData.advocates[i].advocate;
+                        // warning("%s:%s: removing advocate %s (see: %s)\n", caseData.term, caseData.docket_number, advocate.identifier, speaker_identifiers);
+                        caseData.advocates.splice(i, 1);
+                    }
+                }
+            }
+        } else if (!caseData.advocates.length) {
+            caseData.advocates.push({advocate: {name: "Unknown Advocate", identifier: "unknown_identifier"}});
+        }
+    };
+    let findAdvocate = function(caseData, first, last) {
+        for (let i = 0; i < caseData.advocates.length; i++) {
+            let advocate = caseData.advocates[i].advocate;
+            let advocate_parts = advocate.identifier.split("_");
+            if (first == advocate_parts[0] && last == advocate_parts[advocate_parts.length-1]) {
+                return caseData.advocates[i];
+            }
+        }
+        return null;
+    };
+    let findSpeaker = function(speakers, first, last) {
+        for (let i = 0; i < speakers.length; i++) {
+            let speaker = speakers[i];
+            let speaker_parts = speaker.identifier.split("_");
+            if (first == speaker_parts[0] && last == speaker_parts[speaker_parts.length-1]) {
+                return speaker;
+            }
+        }
+        return null;
+    };
     let casePaths = glob.sync(rootDir + sources.oyez.cases_json);
     if (!casePaths || !casePaths.length) {
         warning("unable to find case files: %s\n", sources.oyez.cases_json);
@@ -2522,7 +2696,7 @@ function buildAdvocatesAll(done)
                 additions++;
             }
             let parseName = function(name, caseName, caseLink) {
-                let s = name.replace(/\.([A-Z])/g, ". $1").replace(/[^A-Za-z ]/g, '').replace(/\s+/g, ' ').trim();
+                let s = name.replace(/\.([A-Z])/g, ". $1").replace(/[^A-Za-z- ]/g, '').replace(/\s+/g, ' ').trim();
                 let parts = s.split(' ');
                 if (parts[0] == "Mr" || parts[0] == "Ms" || parts[0] == "Mrs" || parts[0] == "Miss") parts.splice(0, 1);
                 if (parts[1] == "Wm") parts[1] = "W";
@@ -2575,25 +2749,27 @@ function buildAdvocatesAll(done)
                             return;
                         }
                         transcriptSpeakers.forEach((speaker) => {
-                            if (searchObjects(speakers, speaker) < 0) speakers.push(speaker);
+                            if (searchObjects(speakers, speaker, 0, ['identifier']) < 0) speakers.push(speaker);
                         });
                     });
                 }
-                if (!caseData.advocates || !caseData.advocates.length) {
-                    // TODO: Consider ALWAYS "folding" speaker names into advocates, not just when no advocates are listed, and dedupe downstream
-                    if (argv['detail']) warning("case %s (%s) has no advocates\n", caseData.name, caseLink);
-                    caseData.advocates = [];
-                    if (speakers.length) {
-                        speakers.forEach((speaker) => {
-                            caseData.advocates.push({advocate: {name: speaker.name, identifier: speaker.identifier}});
-                            if (argv['detail']) warning("case %s (%s) has no advocates; found speaker \"%s\" (%s) in transcript\n", caseData.name, caseLink, speaker.name, speaker.identifier);
-                        });
-                    } else {
-                        caseData.advocates.push({advocate: {name: "Unknown Advocate", identifier: "unknown_identifier"}});
+                checkAdditions(caseData, speakers, sources.oyez.cases.corrections);
+                /**
+                 * We're going to start ALWAYS folding speakers into the advocate mix and dedupe them, not just
+                 * when there's no advocate data; eg:
+                 *
+                 *      if (!caseData.advocates || !caseData.advocates.length) {
+                 *          if (argv['detail']) warning("case %s (%s) has no advocates\n", caseData.name, caseLink);
+                 *          checkSpeakers(caseData, speakers);
+                 *      }
+                 */
+                checkSpeakers(caseData, speakers);
+                caseData.advocates.forEach(function(advocateData, advocateIndex, advocateArray) {
+                    let advocate = checkCorrections(advocateData.advocate, caseData, sources.oyez.cases.corrections);
+                    if (!advocate) {
+                        advocateArray.splice(advocateIndex, 1);
+                        return;
                     }
-                }
-                caseData.advocates.forEach((advocateData) => {
-                    let advocate = advocateData.advocate;
                     let advocateRole = advocateData.advocate_description || "";
                     if (!advocate || !advocate.name) {
                         if (argv['detail']) warning("case %s (%s) has advocate with no info\n", caseData.name, caseLink);
