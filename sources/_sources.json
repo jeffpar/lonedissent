@@ -31,7 +31,7 @@
     "women_advocates_csv": "/sources/ld/women-advocates.csv"
   },
   "loc": {
-    "files_txt": "/sources/loc/volumes/*/*/*.txt",
+    "files_txt": "/sources/loc/volumes/**/*.txt",
     "download": {
       "volume100": {
         "start": 1,
@@ -81,6 +81,16 @@
         "dir": "/sources/loc/volumes/%03d-%03d/%03d/",
         "file": "%03dus%03d.pdf"
       }
+    }
+  },
+  "nara": {
+    "scotus": {
+      "catalog": "/sources/nara/scotus.json",
+      "audio": [
+        "/sources/nara/scotus/77820785.json",
+        "/sources/nara/scotus/105447.json",
+        "/sources/nara/scotus/175704063.json"
+      ]
     }
   },
   "oyez": {
@@ -270,8 +280,15 @@
     "women_advocates_txt": "/sources/schs/women-advocates.txt"
   },
   "scotus": {
+    "arguments": "/sources/scotus/journals/arguments.json",
+    "advocates": "/sources/scotus/journals/advocates.json",
     "citationsHTML": "/sources/scotus/citations/*.*",
-    "journals": "/sources/scotus/journals/*.txt",
+    "journals": {
+      "path": "/sources/scotus/journals/text/*.txt",
+      "validated": [
+        "1955","1956","1957","1958","1959","1960","1961","1962"
+      ]
+    },
     "transcripts": "/sources/scotus/transcripts/arguments/**/*.txt",
     "download": {
       "journal1889": {

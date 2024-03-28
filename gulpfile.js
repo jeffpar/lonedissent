@@ -118,7 +118,7 @@ let isValidDate = datelib.isValidDate;
 let adjustDays = datelib.adjustDays;
 import proclib from "./lib/proclib.js";
 import stdio from "./lib/stdio.js";
-import { count } from "console";
+import { match } from "assert";
 let printf = stdio.printf;
 let sprintf = stdio.sprintf;
 
@@ -130,6 +130,7 @@ let sources = JSON.parse(fs.readFileSync(rootDir + "/sources/_sources.json"));
 let argv = proclib.args.argv;
 let downloadTasks = [];
 let warnings = 0;
+let months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
 /**
  * @typedef {object} Justice
@@ -241,6 +242,45 @@ let warnings = 0;
  */
 
 /**
+ * @typedef {object} Marker
+ * @property {number} page
+ * @property {number} line
+ * @property {string} text
+ */
+
+/**
+ * @typedef {object} RoleMarker
+ * @property {string} name
+ * @property {boolean} female
+ * @property {string} role
+ */
+
+/**
+ * @typedef {object} CaseMarker
+ * @property {number} page
+ * @property {number} line
+ * @property {string} text
+ * @property {string} caseNumber
+ * @property {string} caseName
+ * @property {string} caseEvent
+ * @property {boolean} argument
+ * @property {Array.<RoleMarker>} roles
+ */
+
+/**
+ * @typedef {object} DateMarker
+ * @property {number} page
+ * @property {number} line
+ * @property {string} text
+ * @property {string} weekday
+ * @property {number} day
+ * @property {string} month
+ * @property {number} year
+ * @property {string} date (ie, "YYYY-MM-DD")
+ * @property {Array.<CaseMarker>} cases
+ */
+
+/**
  * assertMatch(s1, s2, comment)
  *
  * @param {*} s1
@@ -270,28 +310,29 @@ function warning(format, ...args)
 }
 
 /**
- * checkASCII(text, fileName, fExtended)
+ * checkASCII(text, fileName, encoding)
  *
  * @param {string} text
  * @param {string} [fileName]
- * @param {boolean} [fExtended] (true to check for extended ASCII characters)
+ * @param {boolean} [encoding] (if "ascii", then we warn if there are any characters > 0x7f)
  * @return {boolean} (true if valid, false otherwise)
  */
-function checkASCII(text, fileName, fExtended)
+function checkASCII(text, fileName, encoding)
 {
-    let valid = true;
+    if (text.indexOf("\u2014") >= 0) {
+        text = text.replace(/\u2014/g, "-");
+    }
     let lines = text.split(/\r?\n/);
     for (let i = 0; i < lines.length; i++) {
         let line = lines[i];
         for (let j = 0; j < line.length; j++) {
             let ch = line.charCodeAt(j);
-            if (ch < 0x20 && ch != 0x09 && ch != 0x0c || fExtended && ch > 0x7f) {
-                warning("unexpected character %02x%s at row %d col %d: '%s'\n", ch, fileName? (" in file " + fileName) : "", i+1, j+1, line);
-                valid = false;
+            if (ch < 0x20 && ch != 0x09 && ch != 0x0c || encoding == "ascii" && ch > 0x7f) {
+                // warning("unexpected character \\u%04x%s at row %d col %d: '%s'\n", ch, fileName? (" in file " + fileName) : "", i+1, j+1, line);
             }
         }
     }
-    return valid;
+    return text;
 }
 
 /**
@@ -1091,7 +1132,7 @@ function parseCSVFields(line, encodeAs, fHeadings)
  * readCSV(filePath, encoding, encodeAs)
  *
  * @param {string} filePath
- * @param {string} [encoding] (default is UTF-8; you may need to specify "latin1" for 3rd-party CSVs)
+ * @param {string} [encoding] (default is "utf8"; you may need to specify "latin1" for 3rd-party CSVs)
  * @param {string} [encodeAs] (default is none; use "html" if you want all string fields to contain HTML entities as appropriate)
  * @return {Array}
  */
@@ -1153,7 +1194,7 @@ function writeCSV(filePath, rows, fOverwrite=argv['overwrite'])
  * readFile(filePath, encoding, fOptional)
  *
  * @param {string} filePath
- * @param {string} [encoding] (default is UF-8)
+ * @param {string} [encoding] (default is "utf8")
  * @param {boolean} [fOptional]
  * @return {string|undefined}
  */
@@ -1162,7 +1203,7 @@ function readFile(filePath, encoding="", fOptional=false)
     let text;
     try {
         if (filePath[0] == '/') filePath = path.join(rootDir, filePath);
-        text = fs.readFileSync(filePath, encoding || "utf-8");
+        text = fs.readFileSync(filePath, !encoding || encoding == "ascii"? "utf8" : encoding);
         if (!encoding) {
             /**
              * If the file begins with a Byte Order Mark (BOM), which is 0xEF,0xBB,0xBF in UTF-8 or 0xFEFF in UTF-16,
@@ -1171,8 +1212,8 @@ function readFile(filePath, encoding="", fOptional=false)
             if (text.charCodeAt(0) == 0xfeff) {
                 text = text.substr(1);
             }
-            checkASCII(text, filePath);
         }
+        text = checkASCII(text, filePath, encoding);
     }
     catch(err) {
         if (!fOptional) printf("%s\n", err.message);
@@ -2945,7 +2986,7 @@ function buildAdvocatesWomen(done)
     let text = readFile(sources.schs.women_advocates_txt);
     if (text) {
         text = text.replace(/^\s*$/gm, "").replace(/’/g, "'").replace(/–/g, "-");  // make sure all blank lines are empty lines, so that the "\n\n" split will work as desired
-        checkASCII(text, sources.schs.women_advocates_txt, true);
+        checkASCII(text, sources.schs.women_advocates_txt, "ascii");
         let biasAdvocate = 0;
         let uniqueAdvocates = [];
         let blocks = text.split("\n\n");
@@ -3096,7 +3137,7 @@ function buildCitations(done)
         let filePaths = glob.sync(rootDir + sources.scotus.citationsHTML);
         for (let i = 0; i < filePaths.length; i++) {
             let isHTML = filePaths[i].indexOf(".html") > 0;
-            let html = readFile(filePaths[i], isHTML? "latin1" : "utf-8");
+            let html = readFile(filePaths[i], isHTML? "latin1" : "utf8");
             if (html) {
                 if (isHTML) {
                     /**
@@ -4846,27 +4887,6 @@ function findLonerParties(done)
 }
 
 /**
- * getDateMarkers(text)
- *
- * @param {string} text
- * @return {Array}
- */
-function getDateMarkers(text)
-{
-    let pattern = "(MONDAY|TUESDAY|WEDNESDAY|THURSDAY|FRIDAY|SATURDAY|SUNDAY)\\s*,?\\s*(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\\s*([0-9]+),?\\s*([0-9]+)";
-    let re = new RegExp(pattern, "g");
-    let markers = [], match;
-    while ((match = re.exec(text))) {
-        match.weekday = match[1];
-        match.month = match[2];
-        match.day = +match[3];
-        match.year = +match[4];
-        markers.push(match);
-    }
-    return markers;
-}
-
-/**
  * convertTranscripts(done)
  *
  * @param {function()} done
@@ -5015,6 +5035,114 @@ function listBriefs(done)
     done();
 }
 
+let advocateMappings = {
+    "Assistant Attorney General Holland":   "H. Brian Holland",
+    "Solicitor General Sobeloff":           "Simon E. Sobeloff",
+    "Solicitor General Rankin":             "J. Lee Rankin",
+    "Attorney General Rogers":              "William P. Rogers",
+    "Solicitor General Cox":                "Archibald Cox",
+};
+
+/**
+ * Using only a 4-digit year to identify Court terms is problematic, because in the past,
+ * the Court sometimes had multiple "regular terms" in a single year, as well as the
+ * occasional "special term" (ie, a term sandwiched between regular terms, usually in the
+ * summer).  Both regular terms and special terms are also identified by month (eg,
+ * "February Term", "October Term", "August Special Term", etc), so it would have been far
+ * better for Oyez and others to always identify terms with both year AND month (eg, a
+ * "YYYY-MM" identifier).
+ *
+ * Another problem is that Oyez wasn't consistent about which term and/or case number all
+ * materials for a case should be filed under.  For cases that were argued and decided the
+ * same term, the choice was simple, but for cases that were argued one term, possibly reargued
+ * one or more times in other terms, and possibly decided in yet another term, and usually
+ * redocketed (ie, assigned a new case number) along the way, the choice of which year AND
+ * which case number to file everything under was not consistently made.
+ *
+ * Even the Court itself didn't seem to be completely consistent about when to assign
+ * a new case number to a case carried over to a new term.  They *usually* assigned new
+ * numbers, but not always, so in those cases, the Journal would have to append a term
+ * reference to the case number (eg, "No. 713, October Term, 1955") to avoid confusion.
+ *
+ * Presumably the Court was consistent with whatever rules happened to be in place at the
+ * time; the challenge is identifying the exact rules AND at what points they changed.
+ *
+ * There's also a challenge predicting which, in a set of consolidated cases, will be the
+ * LEAD case.  It's usually the first (ie, lowest-numbered) case to be docketed, which is
+ * also usually the first case to be listed in the Journal as well; and yet, we have situations
+ * like "Securities and Exchange Commission v. Variable Annuity Life Insurance Company of America",
+ * in the 1958 term, where the lead case is 290 instead of 237.
+ *
+ * I suspect that whenever the Court altered the normal choice of lead case, it was simply
+ * because one of the other cases ultimately fit more squarely with the final decision, and
+ * therefore was not something that could be predicted ahead of time.
+ *
+ * NOTE: In the table below, the first column contains the term and (lead) case number of
+ * argued cases as they were listed in the Journal, and the second column contains a DIFFERENT
+ * term and (lead) case number as Oyez filed the case.  Typically, the second column represents
+ * a reargument, and therefore a later term and newer case number, but Oyez wasn't always
+ * consistent about which set of numbers it used for filing purposes, hence the occasional
+ * asterisk, as a signal to check for other filing combinations.
+ *
+ * Exceptions:
+ *
+ * 1956 term: Nilva v. United States (https://www.oyez.org/cases/1956/37) was argued on
+ * November 8 and 13, 1956, but Oyez only has audio for Nov 13?
+ */
+let redocketedCases = {
+    "1955:105": "1956:1",               // Thompson v. Coastal Oil Co.
+    "1956:15":  "1957:2",               // Yates v. United States
+    "1956:29":  "1957:3",               // Scales v. United States (unclear why Oyez filed this in 1957; it was redocketed in 1957 as No. 3 in anticipation of reargument but it was ultimately decided without reargument)
+    "1956:32":  "1957:4",               // Lightfoot v. United States (unclear why Oyez filed this in 1957; same issue as Scales)
+    "1956:34":  "1957:5",               // Rowoldt v. Perfetto
+    "1956:47":  "1956:45",              // Arnhold v. United States (No. 47) argued with Rayonier Incorporated v. United States (No. 45)
+    "1956:701": "1955:701",             // Reid v. Covert (old docket number carried forward; Oyez files it under the older term)
+    "1956:713": "1955:713",             // Kinsella v. Krueger (old docket number carried forward; Oyez files it under the older term)
+    "1956:590": "1957:47*",             // Lambert v. California (Oyez misfiled the redocketed case in the 1956 term, which creates a new problem, because there is a different No. 47, consolidated with No. 45, that also appears in 1956)
+    "1956:570": "1957:43",              // Brown v. United States
+    "1956:589": "1957:46",              // Green v. United States
+    "1956:572": "1957:44",              // Perez v. Brownell
+    "1956:415": "1957:19",              // Nishikawa v. Dulles
+    "1956:710": "1957:70*",             // Trop v. Dulles (Oyez misfiled the redocketed case in the 1956 term)
+    "1957:47":  "1956:47*",             // Lambert v. California
+    "1957:70":  "1956:70*",             // Trop v. Dulles
+    "1957:15":  "15",                   // Public Service Commission of Utah v. United States (we need an EXACT match in 1957, since Oyez also lists Yates v. United States as both No. 2 and No. 15)
+    "1957:39":  "1958:1",               // Bartkus v. Illinois
+    "1957:41":  "1958:2",               // Ladner v. United States (ORAL REARGUMENT - OCTOBER 22, 1958)
+    "1957:322": "1958:3",               // Romero v. International Terminal Operating Company
+    "1957:492": "1959:492",             // Flora v. United States (old docket number carried forward)
+    "1958:1 Misc.": "1957:1 Misc.",     // Cooper v. Aaron (this is technically No. 1 Misc. in August Special Term 1958)
+    "1958:1":   "1957:1 Misc.",         // Cooper v. Aaron (this is technically No. 1 in August Special Term 1958; No. 1 was a different case in both the 1957 and 1958 regular terms, so Oyez chose to file it under the older "No. 1 Misc." docket number)
+    "1958:237": "1958:290",             // Securities and Exchange Commission v. Variable Annuity Life Insurance Company of America (for reasons unknown, the second case became the "lead" case)
+    "1958:263": "1959:2",               // Abel v. United States
+    "1958:488": "1960:1",               // Scales v. United States (this came back to the Court after 355 U.S. 1 (1957) and "the confession of error by the Solicitor General"--hmmm)
+    "1958:512": "1958:380",             // Baird v. Commissioner (this was argued separately but decided with No. 380, Commissioner v. Hansen)
+    "1959:546": "1959:376",             // MISSING: Stanton v. United States (No. 546) was argued separately (on March 24, 1960) but decided with Commissioner v. Duberstein (No. 376)
+    "1959:258": "1960:4*",              // International Association of Machinists v. Street (Oyez misfiled the redocketed case in the 1959 term)
+    "1960:3":   "1960:10",              // Travis v. United States (No. 10 became the lead case instead of No. 3)
+    "1960:4":   "1959:4",               // International Association of Machinists v. Street (as noted above, Oyez misfiled the redocketed case in the 1959 term)
+    "1960:103": "1961:6*",              // Baker v. Carr (Oyez misfiled the redocketed case in the 1960 term)
+    "1961:49":  "1961:17",              // Nos. 49, 53, and 54 were argued separately from Nos. 17 and 18, but decided together, hence Oyez filed them all under No. 17 (see https://www.oyez.org/cases/1961/17)
+    "1961:44":  "1962:5",               // National Association for the Advancement of Colored People v. Button (ORAL REARGUMENT - OCTOBER 09, 1962)
+    "1961:70":  "1962:6*",              // Gibson v. Florida Legislative Investigation Committee (ORAL REARGUMENT - OCTOBER 10-11, 1962)
+    "1961:76":  "1962:8",               // Townsend v. Sain (ORAL REARGUMENT - OCTOBER 08-09, 1962)
+    "1961:90":  "1962:14",              // Mercantile Nat'l Bank at Dallas v. Langdeau (see https://www.oyez.org/cases/1962/14_0)
+    "1961:173": "1962:18*",             // United States v. National Dairy Products Corporation (ORAL REARGUMENT - DECEMBER 05, 1962)
+    "1961:264": "1962:24*",             // Halliburton Oil Well Cementing Company v. Reily (ORAL REARGUMENT - DECEMBER 03, 1962)
+    "1961:255": "1962:21",              // United States v. Gilmore (ORAL REARGUMENT - DECEMBER 05-06, 1962)
+    "1961:256": "1962:22*",             // United States v. Patrick (ORAL REARGUMENT - DECEMBER 06, 1962)
+    "1961:479": "1962:36",              // Wong Sun v. United States (ORAL REARGUMENT - OCTOBER 08, 1962)
+    "1961:476": "1962:34*",             // Douglas v. California (ORAL REARGUMENT - JANUARY 16, 1963)
+    "1961:477": "1962:35*",             // Yellin v. United States (ORAL REARGUMENT - DECEMBER 06, 1962)
+    "1962:25":  "1961:278",             // Presser v. United States (reargued in the 1962 term as No. 25 on October 8, 1962, but missing from Oyez?)
+    "1962:26":  "1963:6*",              // Griffin v. Maryland (ORAL REARGUMENT - OCTOBER 14-15, 1963)
+    "1962:8 Orig.": "1961:8 Orig.",     // Arizona v. California (see https://www.oyez.org/cases/1961/8_orig)
+    "1962:2":   "1961:2",               // Kennedy v. Mendoza-Martinez (ORAL REARGUMENT - DECEMBER 04-05, 1962) (includes No. 3)
+    "1962:91":  "1962:107",             // McCulloch v. Sociedad Nacional de Marineros de Honduras (of Nos. 91, 93, and 107, 107 became the lead case)
+    "1962:164": "1963:11",              // Jacobellis v. Ohio (ORAL REARGUMENT - APRIL 01, 1964)
+    "1962:368:": "1963:13",             // Retail Clerks International Association, Local 1625, AFL-CIO v. Schermerhorn (ORAL REARGUMENT - OCTOBER 16-17, 1963)
+};
+
 /**
  * matchJournals(done)
  *
@@ -5022,19 +5150,659 @@ function listBriefs(done)
  */
 function matchJournals(done)
 {
-    printf("reading SCOTUS journals...\n");
-    let filePaths = glob.sync(rootDir + sources.scotus.journals.replace('*', argv['group'] || '*'));
-    filePaths.forEach((filePath) => {
-        let text = readFile(filePath);
-        if (!text) return;
+    let oyezCases = readCSV(sources.oyez.cases_csv);
+    /**
+     * These two tables are built up from Journal data as addCaseRole() is called for each role found
+     * in each case found on each day.  Since addCaseRole() checks each case (and the advocate) against
+     * Oyez's data, that helps us find omissions or errors in Oyez -- or Journal data that we may have
+     * "over-included".
+     *
+     * Then, when we're done processing a journal, we run through all the Oyez cases and confirm there's
+     * a corresponding entry in the casesArgued.  That helps us find anything we failed to pick up from the
+     * Journal data; ie, any data was "under-included".
+     */
+    let casesArgued = readJSON(sources.scotus.arguments, []);
+    let advocatesArgued = readJSON(sources.scotus.advocates, {});
+
+    let capitalize = function(word) {
+        return word[0].toUpperCase() + word.substring(1).toLowerCase();
+    };
+
+    let identifize = function(name) {
         /**
-         * Let's see if we can reliably get date markers for the entire file...
+         * TODO: I'm not sure these replacements are all that worthwhile,
+         * because Oyez wasn't consistent about things like "wm" vs. "william",
+         * and perhaps we should just stick with the Journal's preferences.
          */
+        name = name.replace(/^Geo\. /, "George ").replace(/^Wm\. /, "William ");
+        /**
+         * Replace all accented characters with unaccented characters.
+         */
+        let plain = name.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        let id = plain.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z_-]/g, '');
+        return [id, name];
+    };
+
+    let normalize = function(caseNumber) {
+        let match = caseNumber.match(/No\. ([0-9-]+),?\s*(Misc|Orig|)/i);
+        if (!match) {
+            warning("unrecognized case number \"%s\"\n", caseNumber);
+            return "";
+        }
+        let docket = match[1];
+        if (match[2]) docket += ' ' + capitalize(match[2]) + '.';
+        return docket;
+    };
+
+    /**
+     * addCaseRole(dateMarker, caseMarker, roleMarker)
+     *
+     * This function collects data on cases argued (in casesArgued) as shown below.  Most of the
+     * object properties are arrays, because any given case can be: 1) argued over multiple days,
+     * 2) consolidated with other cases, and 3) argued by multiple advocates.
+     *
+     * The dockets and titles arrays are parallel arrays; each docket number has a corresponding title.
+     *
+     *  [
+     *    {
+     *      "term": "YYYY-MM",
+     *      "dates": [""],
+     *      "dockets": [""],
+     *      "titles": [""],
+     *      "advocates": [
+     *        {"name": "", "role": ""[, "female": true]}
+     *      ]
+     *    }
+     *  ]
+     *
+     * It also tracks advocates who argued (in advocatesArgued), by creating IDs from their names.
+     * Each ID will have a value that is an array of objects, representing cases argued by that advocate.
+     *
+     * @param {DateMarker} dateMarker
+     * @param {CaseMarker} caseMarker
+     * @param {RoleMarker} roleMarker
+     */
+    let addCaseRole = function(dateMarker, caseMarker, roleMarker) {
+        let date = dateMarker.date;
+        let termYear = dateMarker.year;
+        let termMonth = 10;
+        if (dateMarker.month < 8) {
+            termYear--;
+        } else if (dateMarker.month < 10) {
+            termMonth = termYear == 1958? 8 : dateMarker.month;
+        }
+        let term = sprintf("%04d-%02d", termYear, termMonth);
+
+        let dockets = [], titles = [];
+        if (caseMarker.consolidations) {
+            for (let marker of caseMarker.consolidations) {
+                dockets.push(normalize(marker.caseNumber));
+                titles.push(marker.caseName);
+            }
+        }
+        dockets.push(normalize(caseMarker.caseNumber));
+        titles.push(caseMarker.caseName);
+
+        let i;
+        let caseArgued = null;
+        for (i = 0; i < casesArgued.length; i++) {
+            if (casesArgued[i].term == term && casesArgued[i].dockets.indexOf(dockets[0]) >= 0) {
+                caseArgued = casesArgued[i];
+                break;
+            }
+        }
+        if (!caseArgued) {
+            caseArgued = {term, dates: [], dockets, titles, advocates: {}, event: caseMarker.caseEvent};
+            casesArgued.push(caseArgued);
+        }
+        if (caseArgued.dates.indexOf(date) < 0) caseArgued.dates.push(date);
+
+        let idAdvocate = roleMarker.id;
+        if (!caseArgued.advocates[idAdvocate]) {
+            let advocate = {name: roleMarker.name, role: roleMarker.role};
+            if (roleMarker.female) advocate.female = true;
+            caseArgued.advocates[idAdvocate] = advocate;
+        }
+        if (!advocatesArgued[idAdvocate]) {
+            advocatesArgued[idAdvocate] = {name: roleMarker.name, arguments: []};
+            if (roleMarker.female) advocatesArgued[idAdvocate].female = true;
+        } else {
+            if (advocatesArgued[idAdvocate].name != roleMarker.name) {
+                warning("advocate \"%s\" has multiple names: \"%s\" and \"%s\"\n", idAdvocate, advocatesArgued[idAdvocate].name, roleMarker.name);
+            }
+        }
+        let docketsArgued = caseArgued.dockets.join(',');
+        let advocateArguments = advocatesArgued[idAdvocate].arguments;
+        for (i = 0; i < advocateArguments.length; i++) {
+            let argument = advocateArguments[i];
+            if (argument.term == caseArgued.term && argument.dockets == docketsArgued) {
+                break;
+            }
+        }
+        if (i == advocateArguments.length) {
+            advocateArguments.push({term: caseArgued.term, dates: caseArgued.dates.join(','), dockets: docketsArgued});
+        }
+
+        /**
+         * Time to verify that this case is also in the Oyez database.
+         */
+        let exact = false;
+        let oyezCase, oyezAdvocates = [], j;
+        let idCase = termYear + ':' + dockets[0];
+        let redocketed = redocketedCases[idCase];
+        if (!redocketed) {
+            idCase += '*';
+            for (let docketJournal in redocketedCases) {
+                if (redocketedCases[docketJournal] == idCase) {
+                    termYear--;
+                    break;
+                }
+            }
+        }
+        else {
+            if (redocketed.indexOf("Misc") < 0 || dateMarker.month == 8 || dateMarker.month == 9) {
+                if (redocketed.slice(-1) == '*') {
+                    redocketed = redocketed.slice(0, -1);
+                    exact = true;
+                }
+                if (redocketed.indexOf(':') < 0) {
+                    dockets = [redocketed];
+                    exact = true;
+                } else {
+                    let parts = redocketed.split(':');
+                    let termOyez = +parts[0];
+                    if (!exact) {
+                        termYear = termOyez;
+                    } else {
+                        termYear = Math.min(termYear, termOyez);
+                    }
+                    parts.splice(0, 1);
+                    dockets = parts;
+                }
+            }
+        }
+        let oyezIndex = oyezCases.findIndex(oyezCase => oyezCase.term == termYear &&
+            (oyezCase.dateArgument && oyezCase.dateArgument.indexOf(date) >= 0 || oyezCase.dateRearg && oyezCase.dateRearg.indexOf(date) >= 0) &&
+            (exact && oyezCase.docket.toString() == dockets[0] || !exact && (oyezCase.docket.toString().split(',').indexOf(dockets[0]) >= 0 || oyezCase.docket.toString().split(',').indexOf(dockets[dockets.length-1]) >= 0)));
+        if (oyezIndex >= 0) {
+            /**
+             * Make sure there is a matching argument date and a matching advocate.
+             */
+            oyezCase = oyezCases[oyezIndex++];
+            caseArgued.oyez = oyezCase.caseLink;
+            for (let field of ["advocatesPetitioner", "advocatesRespondent", "advocatesOther"]) {
+                if (oyezCase[field]) {
+                    oyezAdvocates.push(...oyezCase[field].split(','));
+                }
+            }
+            let j;
+            for (j = 0; j < oyezAdvocates.length; j++) {
+                let oyezAdvocate = oyezAdvocates[j];
+                let regex = new RegExp(oyezAdvocate.replace(/^wm_/, "(wm|william)_").replace(/_/g, ".*").replace(/[0-9]$/, ""), "i");
+                if (idAdvocate.match(regex)) {
+                    break;
+                }
+            }
+            if (j == oyezAdvocates.length) {
+                warning("advocate \"%s\" not found in Oyez (%s); see %s\n", roleMarker.name, oyezAdvocates.join(',') || "no advocates listed", oyezCase.caseLink);
+            }
+        } else {
+            warning("case \"%s\" (%s) not found in Oyez term %d (%s)\n", dockets.join(','), caseMarker.caseName, termYear, date);
+        }
+    };
+
+    /**
+     * getLineIndexes(text)
+     *
+     * @param {string} text
+     * @returns {Array.<number>}
+     */
+    let getLineIndexes = function(text)
+    {
+        let lineIndexes = [];
+        let match, regex = /([^\n]*)\r*\n/g;
+        while ((match = regex.exec(text))) {
+            lineIndexes.push([match.index + match[1].length, match[1]]);
+        }
+        return lineIndexes;
+    };
+
+    /**
+     * getLineOffset(index, lineIndexes, pageOffset)
+     *
+     * @param {number} index
+     * @param {Array.<number>} lineIndexes
+     * @param {number} [pageOffset]
+     * @returns {number}
+     */
+    let getLineOffset = function(index, lineIndexes, pageOffset=0)
+    {
+        let lineOffset = pageOffset;
+        for (let lineIndex of lineIndexes) {
+            if (index < lineIndex[0]) {
+                break;
+            }
+            lineOffset++;
+        }
+        return lineOffset;
+    };
+
+    /**
+     * getDateMarkers(text)
+     *
+     * @param {string} text
+     * @return {Array.<DateMarkers>}
+     */
+    let getDateMarkers = function(text)
+    {
+        let markers = [];
+        let pageOffset = 1;
+        let pages = text.split(/\x0c/);
+        let pageMatches = 0;
+        for (let p = 0; p < pages.length; p++) {
+            let page = pages[p];
+            let lineIndexes = getLineIndexes(page);
+            //
+            // One would think that matchAll() would be the perfect way to collect all line ending positions,
+            // but there are some strange side-effects of the "iterator" it returns, so I had to revert to exec().
+            //
+            // let matches = page.matchAll(/\r*\n/g);
+            //
+            let pattern = "(MONDAY|TUESDAY|WEDNESDAY|THURSDAY|FRIDAY|SATURDAY|SUNDAY)\\s*,?\\s*(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\\s*([0-9]+)[,;]?\\s*([0-9][0-9][0-9][0-9])[0-9\\s]*";
+            let re = new RegExp(pattern, "gi");
+            // printf("page %d line %d\n", p+1, pageOffset);
+            let match = re.exec(page);
+            if (match) {
+                let marker = {};
+                marker.page = p+1;
+                marker.line = getLineOffset(match.index, lineIndexes, pageOffset);
+                marker.weekday = match[1].toUpperCase();
+                marker.monthName = match[2].toUpperCase();
+                marker.day = +match[3].replace(/ /g, "");
+                marker.year = +match[4].replace(/ /g, "");
+                let month = months.indexOf(capitalize(marker.monthName));
+                if (month++ < 0) {
+                    warning("page %d (line %d) has unknown date (%s)\n", p+1, pageOffset, match[0]);
+                } else {
+                    marker.date = sprintf("%04d-%02d-%02d", marker.year, month, marker.day);
+                    marker.month = month;
+                }
+                marker.text = page.substring(match.index + match[0].length);
+                marker.line += (match[0].split('\n').length - 1);
+                let lines = marker.text.split('\n');
+                while (lines.length) {
+                    let s = lines.pop();
+                    if (s.length > 1 && !s.match(/^[0-9-\s]+$/)) {
+                        lines.push(s);
+                        break;
+                    }
+                }
+                marker.text = lines.join('\n');
+                markers.push(marker);
+                pageMatches++;
+            }
+            else {
+                if (pageMatches && p+1 < pages.length) {
+                    warning("page %d (line %d) has no date\n", p+1, pageOffset);
+                }
+            }
+            pageOffset += lineIndexes.length;
+        }
+        return markers;
+    };
+
+    /**
+     * getCaseMarkers(dateMarker)
+     *
+     * @param {DateMarker} dateMarker
+     * @returns {Array.<Marker>}
+     */
+    let getCaseMarkers = function(dateMarker)
+    {
+        let markers = [];
+        let text = dateMarker.text;
+        let lineIndexes = getLineIndexes(text);
+        let pattern = "\\n *No[.,]\\s+([0-9][^\\.]*)\\.\\s*";
+        let re = new RegExp(pattern, "g"), match;
+        let prevIndex = 0;
+        while ((match = re.exec(text))) {
+            let marker = {};
+            marker.page = dateMarker.page;
+            marker.line = dateMarker.line + getLineOffset(match.index + 1, lineIndexes);
+            marker.caseNumber = "No. " + match[1].replace(/\s+/g, ' ');
+            if (prevIndex > 0) {
+                markers[markers.length-1].text = text.substring(prevIndex, match.index);
+            }
+            markers.push(marker);
+            prevIndex = match.index + match[0].length;
+        }
+        if (prevIndex > 0) {
+            markers[markers.length-1].text = text.substring(prevIndex);
+        }
+        for (let marker of markers) {
+            text = marker.text.replace(/\s+/g, ' ');
+            let period, rePeriod = /(\s+)(\S+)([.;])(\s*)(\S*)/g;
+            let i = text.length - 1;
+            /**
+             * As part of looking for the END of case titles, we're also going to keep an eye out for the BEGINNING
+             * of argument markers.
+             *
+             * The most straightforward marker is "[Re]argued by ...", followed by "[Re]argument ... commenced by",
+             * "[Re]argument continued by", and "[Re]argument concluded by".
+             *
+             * Note that shorter versions of "continued" and/or "concluded" (ie, without a preceding "[re]argument") can
+             * appear after an fuller version of "commenced" or "continued", implicitly referring to the fuller argument.
+             *
+             * For each argument marker, we must then find the closest preceding case marker (eg, "No. 4. Ryan Stevedoring
+             * Co., Inc., petitioner, v. Pan-Atlantic Steamship Corporation.")
+             */
+            while ((period = rePeriod.exec(text))) {
+                let prev = period[2];
+                let next = period[5];
+                i = period.index + period[1].length + period[2].length;
+                rePeriod.lastIndex = i + period[3].length;
+                if (period[3] == ';' && text.indexOf(';', rePeriod.lastIndex) > 0) {
+                    continue;       // keep going if this is not the last semicolon...
+                }
+                if (prev == "v") continue;
+                if (next == "The" || next == "Per" || next == "Upon" || next == "It" || next == "On") break;
+                if (next == "One" || next == "Two" || next == "Three" || next == "Having") break;
+                if (next == "Appeal" || next == "Appeals" || next == "Application") break;
+                if (next == "Application" || next == "Applications" || next == "Memorandum") break;
+                if (next == "Motion" || next == "Motions" || next == "Petition" || next == "Petitions") break;
+                if (next == "Argued" || next == "Argument" || next == "Reargued" || next == "Reargument") break;
+            }
+
+            let match = text.match(/[.;]$/);
+            let j = match? text.length - 1 : text.length;
+            marker.caseName = text.substring(0, i).trim().replace(/"/g, '\\"');
+            marker.caseEvent = text.substring(i+1, j).trim().replace(/"/g, '\\"');
+
+            match = marker.caseEvent.match(/\.\s+(Adjourned|Leave|ORDER|Per\s+Curiam:?|Memorandum|Submitted)\s+/);
+            if (match) {
+                marker.caseEvent = marker.caseEvent.substring(0, match.index+1);
+            }
+            match = marker.caseEvent.match(/(^|\.\s+)(Argued|Argument|Reargued|Reargument)/);
+            if (match) {
+                marker.argument = true;
+            }
+        }
+        return markers;
+    };
+
+    /**
+     * getRoleMarkers(caseMarker)
+     *
+     * For role information, we want the name of each participant, followed by their role.
+     *
+     * @param {CaseMarker} caseMarker
+     * @returns {Array.<RoleMarker>}
+     */
+    let getRoleMarkers = function(caseMarker) {
+        let text = caseMarker.caseEvent;
+        let getNames = function(text) {
+            let match;
+            let markers = [];
+            const regex = /([a-z,.]+)(\s+)(Mr\.|Mrs\.|Miss|)(\s+)(?:[A-Z][A-Za-zÀ-ÿ'-]*\.?\s+|von\s+)*([A-Z][A-Za-zÀ-ÿ'-]+),?\s*(Jr\.|Sr\.|IV|III|II|)/g;
+            while ((match = regex.exec(text)) !== null) {
+                let id, preceding = match[1];
+                let name = match[0].substring(match[1].length + match[2].length + match[3].length + match[4].length).trim();
+                if (name.slice(-1) == ",") name = name.slice(0, -1);
+                let mapping = advocateMappings[name];
+                if (mapping) name = mapping;
+                [id, name] = identifize(name);
+                let female = (match[3] == "Mrs." || match[3] == "Miss");
+                let start = match.index;
+                let stop = match.index + match[0].length;
+                markers.push({id, name, female, start, stop, preceding});
+            }
+            return markers;
+        };
+        let markers = getNames(text);
+        for (let i = 0; i < markers.length; i++) {
+            let j = 0;
+            while (j < i) {
+                if (markers[i].name == markers[j].name) {
+                    markers.splice(i--, 1);
+                    j = -1;
+                    break;
+                }
+                j++;
+            }
+            if (j < 0) continue;
+            let start = markers[i].stop;
+            let stop = i+1 < markers.length? markers[i+1].start : text.length;
+            let role = text.substring(start, stop);
+            if (role[0] == ',') role = role.slice(1);
+            let match = role.match(/(,|\band\b)/);
+            if (match) role = role.substring(0, match.index);
+            match = role.match(/^(.*)\.\s*$/);
+            if (match) role = match[1];
+            markers[i].role = role.trim();
+            delete markers[i].start;
+            delete markers[i].stop;
+        }
+        return markers;
+    };
+
+    printf("reading SCOTUS journals...\n");
+    let validatedJournals = '{' + sources.scotus.journals.validated.join(',') + '}';
+    let filePaths = glob.sync(rootDir + sources.scotus.journals.path.replace('*', argv['group'] || validatedJournals));
+    filePaths.forEach(function matchJournal(filePath) {
+        let text = readFile(filePath, "ascii");
+        if (!text) return;
+
+        /**
+         * Let's see if we can reliably get all date markers.
+         */
+        let term = 0;
         let dateMarkers = getDateMarkers(text);
-        dateMarkers.forEach((marker) => {
-            printf("offset %d: %s, %s %d, %d\n\t%s\n\n", marker.index, marker.weekday, marker.month, marker.day, marker.year, marker[0].replace(/\s+/g, ' '));
-        });
+
+        /**
+         * Let's merge all text blocks from consecutive pages that have the same date marker.
+         */
+        for (let i = 1; i < dateMarkers.length; i++) {
+            let marker = dateMarkers[i];
+            let prevMarker = dateMarkers[i-1];
+            if (!term) {
+                term = marker.year;
+            }
+            // printf("[page %d, line %d: %s, %s %d, %d]\n", marker.page, marker.line, marker.weekday, marker.monthName, marker.day, marker.year);
+            if (marker.year == prevMarker.year && marker.monthName == prevMarker.monthName && marker.day == prevMarker.day) {
+                let extraLines = marker.line - (prevMarker.line + prevMarker.text.split('\n').length);
+                if (prevMarker.text.slice(-1) != '\n') extraLines++;
+                prevMarker.text = prevMarker.text + '\n'.repeat(extraLines) + marker.text;
+                dateMarkers.splice(i--, 1);
+            }
+        }
+
+        /**
+         * Before we start looking for more markers, we need to un-hyphenate any words that we use inside markers
+         * (eg, "argu-ment", "con-tinued").  First attempt at doing that will be to look for any hyphen at the end
+         * of a line and move the letters preceding that hyphen to the start of the next line.
+         */
+        for (let i = 0; i < dateMarkers.length; i++) {
+            dateMarkers[i].text = dateMarkers[i].text.replace(/ *([A-Za-z]+)-(\s*\n\s*)(\S*)/g, "$2$1$3");
+        }
+
+        /**
+         * Let's get all the case markers for a given date marker, and then all the role markers for cases that were argued.
+         */
+        for (let i = 0; i < dateMarkers.length; i++) {
+            let consolidations = [];
+            let dateMarker = dateMarkers[i];
+            // printf("[page %d, line %d: %s, %s %d, %d]\n", dateMarker.page, dateMarker.line, dateMarker.weekday, dateMarker.monthName, dateMarker.day, dateMarker.year);
+            let caseMarkers = getCaseMarkers(dateMarker);
+            for (let j = 0; j < caseMarkers.length; j++) {
+                let caseMarker = caseMarkers[j];
+                printf("\npage %d, line %d: \"%s, %s %d, %d\" (%s)\n", dateMarker.page, dateMarker.line, dateMarker.weekday, dateMarker.monthName, dateMarker.day, dateMarker.year, dateMarker.date);
+                printf("    line: %d\n    case: \"%s\"\n   title: \"%s\"\n%s: \"%s\"\n", caseMarker.line, caseMarker.caseNumber, caseMarker.caseName, caseMarker.argument? "argument" : "   event", caseMarker.caseEvent);
+                if (!caseMarker.caseEvent || caseMarker.caseEvent == ";" || caseMarker.caseEvent == "and") {
+                    consolidations.push(caseMarker);
+                }
+                else if (!caseMarker.argument) {
+                    consolidations = [];
+                } else {
+                    if (consolidations.length) {
+                        caseMarker.consolidations = consolidations.slice();
+                        consolidations = [];
+                    }
+                    caseMarker.roleMarkers = getRoleMarkers(caseMarker);
+                    for (let roleMarker of caseMarker.roleMarkers) {
+                        printf("    [%s] name: \"%s\" (%s) [%s]%s\n", roleMarker.preceding, roleMarker.name, roleMarker.id, roleMarker.role, roleMarker.female? " [female]" : "");
+                        addCaseRole(dateMarker, caseMarker, roleMarker);
+                    }
+                }
+            }
+        }
+
+        /**
+         * Now it's time to iterate over Oyez's term data and make sure that every argument date has a corresponding
+         * set of arguments in the Journal data.
+         *
+         * We've already done the opposite (ie, as we discovered argument data in the Journal, we confirmed that it existed
+         * in the Oyez data).
+         */
+        for (let oyezIndex = 0; oyezIndex < oyezCases.length; oyezIndex++) {
+            let oyezCase = oyezCases[oyezIndex];
+            let oyezDates = [];
+            if (oyezCase.dateArgument) {
+                oyezDates = oyezDates.concat(oyezCase.dateArgument.split(','));
+            }
+            if (oyezCase.dateRearg) {
+                oyezDates = oyezDates.concat(oyezCase.dateRearg.split(','));
+            }
+            if (!oyezDates.length) continue;
+            for (let oyezDate of oyezDates) {
+                let termID = term + "-10";
+                let termBeg = sprintf("%04d-%02d-%02d", term, 8, 1);
+                let termEnd = sprintf("%04d-%02d-%02d", term+1, 7, 31);
+                if (oyezDate >= termBeg && oyezDate <= termEnd) {
+                    let caseArgued = null;
+                    if (oyezDate < termID) {
+                        termID = oyezDate.slice(0, 4) + "-08";
+                    }
+                    /**
+                     * Oyez's docket numbers aren't always the greatest (for reargued cases,
+                     * they're often the redocketed case number instead of the original case number).
+                     */
+                    let docketsNew = [];
+                    let dockets = oyezCase.docket.toString().split(',');
+                    for (let docketJournal in redocketedCases) {
+                        let s = docketJournal.split(':');
+                        if (+s[0] != term) continue;
+                        let t = redocketedCases[docketJournal].split(':');
+                        let oyezTerm = oyezCase.term;
+                        if (!t[1]) {
+                            t[1] = t[0];
+                            t[0] = term.toString();
+                        }
+                        if (t[1].slice(-1) == '*') {
+                            t[1] = t[1].slice(0, -1);
+                            oyezTerm++;
+                        }
+                        if (oyezTerm == +t[0] && dockets[0] == t[1]) {
+                            docketsNew.push(s[1]);
+                        }
+                    }
+                    if (docketsNew.length) {
+                        dockets = docketsNew;
+                    }
+                    for (let i = 0; i < casesArgued.length; i++) {
+                        if (casesArgued[i].term != termID) continue;
+                        if (casesArgued[i].dates.indexOf(oyezDate) < 0) continue;
+                        for (let j = 0; j < dockets.length; j++) {
+                            if (casesArgued[i].dockets.indexOf(dockets[j]) < 0) continue;
+                            caseArgued = casesArgued[i];
+                            break;
+                        }
+                        if (caseArgued) break;
+                    }
+                    /**
+                     * There are some unfortunate exceptions.  For example, Nos. 380 and 381 were argued on April 29-30,
+                     * and No. 512 was argued on April 30, and since they were decided together, Oyez filed them together, under
+                     * No. 380.  So we had to put an entry in our redocketedCases table to map 512 (in the Journal) to 380 (in Oyez).
+                     * Here, we use that mapping information in reverse, which tells us to look for No. 512 in the Journal, but
+                     * Oyez doesn't tell us that No. 512 -- unlike No. 380 -- was argued on only ONE of the two days, and so when
+                     * we can't find BOTH days for No. 512, we generate a warning.  But it's a false warning.
+                     */
+                    if (!caseArgued) {
+                        if (oyezCase.docket == "380,512" || oyezCase.docket == 17 && termID == "1961-10") {
+                        }
+                        else {
+                            warning("Oyez case %s (%s) not found in %d journal: %s\n", oyezCase.docket, oyezDate, term, oyezCase.caseLink);
+                        }
+                    }
+                }
+            }
+        }
     });
+    /**
+     * Now we want to match the Journal data up with the NARA data, and flag anything that didn't match.
+     */
+    let terms;
+    if (argv['group']) {
+        terms = [argv['group']];
+    } else {
+        terms = sources.scotus.journals.validated;
+    }
+    for (let dataFile of sources.nara.scotus.audio) {
+        let dataAudio = readJSON(dataFile, []);
+        for (let dailyAudio of dataAudio) {
+            let date = dailyAudio.date;
+            let termAudio = dailyAudio.term.toString();
+            if (terms.indexOf(termAudio) < 0) continue;
+            /**
+             * We are now going to look through casesArgued for cases with a matching date, and for each case,
+             * loop through the docket numbers, and see if any audio files match.
+             */
+            let matchingCases = 0, matchingTerms = 0;
+            for (let caseArgued of casesArgued) {
+                if (caseArgued.term.indexOf(termAudio) == 0) {
+                    matchingTerms++;
+                }
+                if (caseArgued.dates.indexOf(date) < 0) continue;
+                matchingCases++;
+                for (let d = 0; d < caseArgued.dockets.length; d++) {
+                    let docket = caseArgued.dockets[d];
+                    let docketMatch = docket.match(/^([0-9]+),?\s*([A-Za-z]*)\.?/);    // separate any "Misc." or "Orig." suffix
+                    if (docketMatch) {
+                        docket = "/" + docketMatch[1] + (docketMatch[2]? '-' + docketMatch[2].toUpperCase() : "") + "/";
+                        let matchingDockets = 0;
+                        for (let i = 0; i < dailyAudio.destinations.length; i++) {
+                            let destination = dailyAudio.destinations[i];
+                            if (destination.indexOf(docket) >= 0) {
+                                matchingDockets++;
+                                if (!caseArgued.nara) caseArgued.nara = [];
+                                if (caseArgued.nara.indexOf(dailyAudio.sources[i]) < 0) {
+                                    caseArgued.nara.push(dailyAudio.sources[i]);
+                                }
+                                dailyAudio.sources[i] = null;
+                            }
+                        }
+                    } else {
+                        warning("unrecognized No. %s for \"%s\" (%s)\n", caseArgued.dockets[d], caseArgued.titles[d], date);
+                    }
+                }
+            }
+            if (!matchingCases && matchingTerms) {
+                warning("no matching cases \"%s\" (%s)\n", dailyAudio.titles, date);
+            } else {
+                let unmatched = 0;
+                for (let i = 0; i < dailyAudio.sources.length; i++) {
+                    if (dailyAudio.sources[i]) {
+                        warning("unmatched audio \"%s\" (%s)\n", dailyAudio.destinations[i], date);
+                        unmatched++;
+                    }
+                }
+                if (unmatched) {
+                    warning("refer to %s\n", dailyAudio.titles);
+                }
+            }
+        }
+    }
+    writeFile(sources.scotus.arguments, casesArgued);
+    writeFile(sources.scotus.advocates, advocatesArgued);
     done();
 }
 
@@ -8372,7 +9140,7 @@ async function fetchNARASource(host, idSource, title, level, type, corrections)
 
     let records, url;
     try {
-        records = JSON.parse(fs.readFileSync(rootDir + "/sources/nara/" + idSource + ".json", "utf8").replace(/\u00A0/g, " "));
+        records = JSON.parse(fs.readFileSync(rootDir + "/sources/nara/scotus/" + idSource + ".json", "utf8").replace(/\u00A0/g, " "));
     } catch(err) {
         records = [];
     }
@@ -8486,7 +9254,7 @@ async function fetchNARASource(host, idSource, title, level, type, corrections)
             countObjects++;
 
         }
-        fs.writeFileSync(rootDir + "/sources/nara/" + idSource + ".json", JSON.stringify(records, null, 2), "utf8");
+        fs.writeFileSync(rootDir + "/sources/nara/scotus/" + idSource + ".json", JSON.stringify(records, null, 2), "utf8");
     }
 
     let fUpdated = false;
@@ -8494,7 +9262,6 @@ async function fetchNARASource(host, idSource, title, level, type, corrections)
         /**
          * We're going to supplement the JSON data with case mappings for each of the source files.
          */
-        let months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
         let regexCase = new RegExp("^\\s*(.*?)\\s*\\[\\s*(?:Cases|Case|No\.|)\\s*\\[?([^/\\]]*)(?:\\]|/|)", "i");
         let regexDate = new RegExp("^([\\S\\s]*?),?\\s*(" + months.join("|") + "|)\\s*([0-9]*?),?\\s*([0-9]+)\\s*$");
         for (let record of records) {
@@ -8712,7 +9479,7 @@ async function fetchNARASource(host, idSource, title, level, type, corrections)
         }
     }
     if (fUpdated) {
-        fs.writeFileSync(rootDir + "/sources/nara/" + idSource + ".json", JSON.stringify(records, null, 2), "utf8");
+        fs.writeFileSync(rootDir + "/sources/nara/scotus/" + idSource + ".json", JSON.stringify(records, null, 2), "utf8");
         printf("updated %s.json\n", idSource);
     }
     if (type) {
@@ -8730,7 +9497,7 @@ async function fetchNARASource(host, idSource, title, level, type, corrections)
                 let srcName = path.basename(srcFile);
                 if (srcName.indexOf('.') < 0) continue;
                 let dstFile = record.destinations && record.destinations[i] || (idSource + "/" + idNARA + "/" + srcName);
-                dstFile = rootDir + "/sources/nara/files/" + (type != "files"? type + "/" : "") + dstFile;
+                dstFile = rootDir + "/sources/nara/scotus/_files/" + (type != "files"? type + "/" : "") + dstFile;
                 if (!fs.existsSync(dstFile)) {
                     let dstFolder = path.dirname(dstFile);
                     if (!fs.existsSync(dstFolder)) {
@@ -8761,7 +9528,7 @@ async function fetchNARASource(host, idSource, title, level, type, corrections)
  */
 async function fetchNARASources(done)
 {
-    let groups = JSON.parse(fs.readFileSync(rootDir + "/sources/nara/scotus.json", "utf8"));
+    let groups = JSON.parse(fs.readFileSync(rootDir + sources.nara.scotus.catalog, "utf8"));
     for (let group of groups) {
         if (argv['id'] && argv['id'] != group.id) {
             // printf("skipping NARA ID %s (does not match %s)\n", group.id, argv['id']);
