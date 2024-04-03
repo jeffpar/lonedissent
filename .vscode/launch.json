@@ -255,7 +255,7 @@
       "name": "gulp journals",
       "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
       "args": [
-        "journals", "--group=1962"
+        "journals"
       ],
       "cwd": "${workspaceRoot}",
       "console": "integratedTerminal"

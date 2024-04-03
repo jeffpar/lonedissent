@@ -153,7 +153,7 @@ async function main(argc, argv)
         return 0;
     }
     let srcDir = "sources/scotus/journals/";
-    let srcFile = srcDir + argv[1] + ".pdf";
+    let srcFile = srcDir + "pdf/" + argv[1] + ".pdf";
     if (!fs.existsSync(srcFile)) {
         printf("input file does not exist: %s\n", srcFile);
         return -1;
@@ -190,15 +190,22 @@ async function main(argc, argv)
         if (data && data.responses) {
             let pageIndex = 0;
             for (let response of data.responses) {
-                if (!response.fullTextAnnotation || !response.fullTextAnnotation.text) {
-                    printf("\nempty response in %s: %2j\n", jsonFile, response);
-                    continue;
-                }
+                // if (!response.fullTextAnnotation || !response.fullTextAnnotation.text) {
+                //     printf("\nempty response in %s: %2j\n", jsonFile, response);
+                //     continue;
+                // }
                 printf("\rprocessing page %d...", pageNumber + pageIndex);
+                if (pageNumber + pageIndex != response.context.pageNumber) {
+                    printf("\npage mismatch in %s: %d != %d\n", jsonFile, pageNumber + pageIndex, response.context.pageNumber);
+                }
                 if (text) {
                     text += "\n\x0C\n";     // insert a FORMFEED between each page (yes, quaint, but also useful)
                 }
-                text += response.fullTextAnnotation.text;
+                if (response.fullTextAnnotation && response.fullTextAnnotation.text) {
+                    text += response.fullTextAnnotation.text;
+                } else {
+                    printf("blank\n");
+                }
                 pageIndex++;
             }
         }

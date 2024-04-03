@@ -3586,19 +3586,66 @@ function buildDates(done)
 /**
  * buildDecisions()
  *
+ * This is a two-step process.  First, we combine the specified (usually current) "legacy" and "modern" CSV files
+ * into a "decisions.csv" file, and then we build the ld.decisions data file.
+ *
  * @param {function()} done
  */
 function buildDecisions(done)
 {
     let vars = readJSON(sources.scdb.vars);
+    let casesCSV;
+    if (fs.existsSync(rootDir + sources.scdb.cases_csv)) {
+        casesCSV = readCSV(sources.scdb.cases_csv, "latin1");
+    } else {
+        printf("rebuilding SCDB cases CSV (%s + %s)...\n", path.basename(sources.scdb.legacy_cases), path.basename(sources.scdb.modern_cases));
+        let legacyCSV = readCSV(sources.scdb.legacy_cases, "latin1");
+        let modernCSV = readCSV(sources.scdb.modern_cases, "latin1");
+        casesCSV = legacyCSV.concat(modernCSV);
+        writeCSV(sources.scdb.cases_csv, casesCSV);
+    }
+    printf("SCDB cases (CSV): %d\n", casesCSV.length);
+    if (!fs.existsSync(rootDir + sources.scdb.decisions_csv)) {
+        printf("rebuilding SCDB decisions CSV (%s + %s)...\n", path.basename(sources.scdb.legacy_decisions), path.basename(sources.scdb.modern_decisions));
+        let legacyCSV = readCSV(sources.scdb.legacy_decisions, "latin1");
+        let modernCSV = readCSV(sources.scdb.modern_decisions, "latin1");
+        let decisionsCSV = legacyCSV.concat(modernCSV);
+        printf("SCDB decisions (CSV): %d\n", decisionsCSV.length);
+        writeCSV(sources.scdb.decisions_csv, decisionsCSV);
+    }
     let decisions = parseCSV(readFile(sources.scdb.decisions_csv, "latin1"), "html", 0, "voteId", "justice", false, vars);
-    printf("SCDB decisions: %d\n", decisions.length);
+    printf("LD decisions (JSON): %d\n", decisions.length);
     if (!isSortedObjects(decisions, ["caseId"])) {
-        printf("sorting SCDB decisions by [caseId]...\n");
+        printf("sorting LD decisions by [caseId]...\n");
         sortObjects(decisions, ["caseId"]);
     }
+    for (let i = 0; i < decisions.length; i++) {
+        let decision = decisions[i];
+        if (decision.docket) {
+            decision.docket = fixDocketNumber(decision.docket);
+        }
+    }
+    if (casesCSV.length != decisions.length) {
+        warning("case CSV (%d) and case decision (%d) counts don't match\n", casesCSV.length, decisions.length);
+        if (!isSortedObjects(casesCSV, ["caseId"])) {
+            printf("sorting cases by [caseId]...\n");
+            sortObjects(decisions, ["caseId"]);
+        }
+        for (let i = 0, j = 0; i < casesCSV.length && j < decisions.length; i++,j++) {
+            let caseCSV = casesCSV[i];
+            let decision = decisions[j];
+            if (caseCSV.caseId != decision.caseId) {
+                if (caseCSV.caseId > decision.caseId) {
+                    warning("decision caseId (%s) missing from cases CSV (CSV row %d, decision row %d)\n", decision.caseId, i+1, j+1);
+                    i--;
+                } else {
+                    warning("CSV caseId (%s) missing from decisions (CSV row %d, decision row %d)\n", caseCSV.caseId, i+1, j+1);
+                    j--;
+                }
+            }
+        }
+    }
     if (!fs.existsSync(rootDir + sources.ld.decisions)) {
-        sortObjects(decisions, ["caseId"]);
         writeFile(sources.ld.decisions, decisions);
     } else {
         let decisionsOrig = decisions;
@@ -5052,17 +5099,17 @@ let advocateMappings = {
  * better for Oyez and others to always identify terms with both year AND month (eg, a
  * "YYYY-MM" identifier).
  *
- * Another problem is that Oyez wasn't consistent about which term and/or case number all
+ * Another problem is that Oyez wasn't consistent about which term and/or docket number all
  * materials for a case should be filed under.  For cases that were argued and decided the
  * same term, the choice was simple, but for cases that were argued one term, possibly reargued
  * one or more times in other terms, and possibly decided in yet another term, and usually
- * redocketed (ie, assigned a new case number) along the way, the choice of which year AND
- * which case number to file everything under was not consistently made.
+ * redocketed (ie, assigned a new docket number) along the way, the choice of which year AND
+ * which docket number to file everything under was not consistently made.
  *
  * Even the Court itself didn't seem to be completely consistent about when to assign
- * a new case number to a case carried over to a new term.  They *usually* assigned new
+ * a new docket number to a case carried over to a new term.  They *usually* assigned new
  * numbers, but not always, so in those cases, the Journal would have to append a term
- * reference to the case number (eg, "No. 713, October Term, 1955") to avoid confusion.
+ * reference to the docket number (eg, "No. 713, October Term, 1955") to avoid confusion.
  *
  * Presumably the Court was consistent with whatever rules happened to be in place at the
  * time; the challenge is identifying the exact rules AND at what points they changed.
@@ -5071,23 +5118,18 @@ let advocateMappings = {
  * LEAD case.  It's usually the first (ie, lowest-numbered) case to be docketed, which is
  * also usually the first case to be listed in the Journal as well; and yet, we have situations
  * like "Securities and Exchange Commission v. Variable Annuity Life Insurance Company of America",
- * in the 1958 term, where the lead case is 290 instead of 237.
+ * in the 1958 term, where the lead case is docket number 290 instead of 237.
  *
  * I suspect that whenever the Court altered the normal choice of lead case, it was simply
  * because one of the other cases ultimately fit more squarely with the final decision, and
  * therefore was not something that could be predicted ahead of time.
  *
- * NOTE: In the table below, the first column contains the term and (lead) case number of
+ * NOTE: In the table below, the first column contains the term and (lead) docket number of
  * argued cases as they were listed in the Journal, and the second column contains a DIFFERENT
- * term and (lead) case number as Oyez filed the case.  Typically, the second column represents
- * a reargument, and therefore a later term and newer case number, but Oyez wasn't always
+ * term and (lead) docket number as Oyez filed the case.  Typically, the second column represents
+ * a reargument, and therefore a later term and newer docket number, but Oyez wasn't always
  * consistent about which set of numbers it used for filing purposes, hence the occasional
  * asterisk, as a signal to check for other filing combinations.
- *
- * Exceptions:
- *
- * 1956 term: Nilva v. United States (https://www.oyez.org/cases/1956/37) was argued on
- * November 8 and 13, 1956, but Oyez only has audio for Nov 13?
  */
 let redocketedCases = {
     "1955:105": "1956:1",               // Thompson v. Coastal Oil Co.
@@ -5096,31 +5138,28 @@ let redocketedCases = {
     "1956:32":  "1957:4",               // Lightfoot v. United States (unclear why Oyez filed this in 1957; same issue as Scales)
     "1956:34":  "1957:5",               // Rowoldt v. Perfetto
     "1956:47":  "1956:45",              // Arnhold v. United States (No. 47) argued with Rayonier Incorporated v. United States (No. 45)
-    "1956:701": "1955:701",             // Reid v. Covert (old docket number carried forward; Oyez files it under the older term)
-    "1956:713": "1955:713",             // Kinsella v. Krueger (old docket number carried forward; Oyez files it under the older term)
+    "1955:701": "1956:701*",            // Reid v. Covert (old docket number carried forward; Oyez filed it under the older term)
+    "1955:713": "1956:713*",            // Kinsella v. Krueger (old docket number carried forward; Oyez filed it under the older term)
     "1956:590": "1957:47*",             // Lambert v. California (Oyez misfiled the redocketed case in the 1956 term, which creates a new problem, because there is a different No. 47, consolidated with No. 45, that also appears in 1956)
     "1956:570": "1957:43",              // Brown v. United States
     "1956:589": "1957:46",              // Green v. United States
     "1956:572": "1957:44",              // Perez v. Brownell
     "1956:415": "1957:19",              // Nishikawa v. Dulles
     "1956:710": "1957:70*",             // Trop v. Dulles (Oyez misfiled the redocketed case in the 1956 term)
-    "1957:47":  "1956:47*",             // Lambert v. California
-    "1957:70":  "1956:70*",             // Trop v. Dulles
     "1957:15":  "15",                   // Public Service Commission of Utah v. United States (we need an EXACT match in 1957, since Oyez also lists Yates v. United States as both No. 2 and No. 15)
     "1957:39":  "1958:1",               // Bartkus v. Illinois
     "1957:41":  "1958:2",               // Ladner v. United States (ORAL REARGUMENT - OCTOBER 22, 1958)
     "1957:322": "1958:3",               // Romero v. International Terminal Operating Company
     "1957:492": "1959:492",             // Flora v. United States (old docket number carried forward)
-    "1958:1 Misc.": "1957:1 Misc.",     // Cooper v. Aaron (this is technically No. 1 Misc. in August Special Term 1958)
-    "1958:1":   "1957:1 Misc.",         // Cooper v. Aaron (this is technically No. 1 in August Special Term 1958; No. 1 was a different case in both the 1957 and 1958 regular terms, so Oyez chose to file it under the older "No. 1 Misc." docket number)
+    "1958:1 Misc.": "1958:1 Misc.*",    // Cooper v. Aaron (this is technically No. 1 Misc. in August Special Term 1958, but Oyez filed it in the 1957 term)
+    "1958:1":   "1958:1 Misc.*",        // Cooper v. Aaron (this is technically No. 1 in August Special Term 1958; No. 1 was a different case in both the 1957 and 1958 regular terms, so Oyez chose to "consolidate" it with No. 1 Misc.)
     "1958:237": "1958:290",             // Securities and Exchange Commission v. Variable Annuity Life Insurance Company of America (for reasons unknown, the second case became the "lead" case)
     "1958:263": "1959:2",               // Abel v. United States
     "1958:488": "1960:1",               // Scales v. United States (this came back to the Court after 355 U.S. 1 (1957) and "the confession of error by the Solicitor General"--hmmm)
     "1958:512": "1958:380",             // Baird v. Commissioner (this was argued separately but decided with No. 380, Commissioner v. Hansen)
-    "1959:546": "1959:376",             // MISSING: Stanton v. United States (No. 546) was argued separately (on March 24, 1960) but decided with Commissioner v. Duberstein (No. 376)
+ // "1959:546": "1959:376",             // Stanton v. United States (No. 546) was argued separately (on March 24, 1960), but is missing from Oyez; it was decided with Commissioner v. Duberstein (No. 376), which is present in Oyez
     "1959:258": "1960:4*",              // International Association of Machinists v. Street (Oyez misfiled the redocketed case in the 1959 term)
     "1960:3":   "1960:10",              // Travis v. United States (No. 10 became the lead case instead of No. 3)
-    "1960:4":   "1959:4",               // International Association of Machinists v. Street (as noted above, Oyez misfiled the redocketed case in the 1959 term)
     "1960:103": "1961:6*",              // Baker v. Carr (Oyez misfiled the redocketed case in the 1960 term)
     "1961:49":  "1961:17",              // Nos. 49, 53, and 54 were argued separately from Nos. 17 and 18, but decided together, hence Oyez filed them all under No. 17 (see https://www.oyez.org/cases/1961/17)
     "1961:44":  "1962:5",               // National Association for the Advancement of Colored People v. Button (ORAL REARGUMENT - OCTOBER 09, 1962)
@@ -5134,14 +5173,63 @@ let redocketedCases = {
     "1961:479": "1962:36",              // Wong Sun v. United States (ORAL REARGUMENT - OCTOBER 08, 1962)
     "1961:476": "1962:34*",             // Douglas v. California (ORAL REARGUMENT - JANUARY 16, 1963)
     "1961:477": "1962:35*",             // Yellin v. United States (ORAL REARGUMENT - DECEMBER 06, 1962)
-    "1962:25":  "1961:278",             // Presser v. United States (reargued in the 1962 term as No. 25 on October 8, 1962, but missing from Oyez?)
+    "1961:278": "1962:25**",            // Presser v. United States (reargued in the 1962 term as No. 25 on October 8, 1962, but Oyez only has the original argument, filed under the original term AND the original docket number)
     "1962:26":  "1963:6*",              // Griffin v. Maryland (ORAL REARGUMENT - OCTOBER 14-15, 1963)
-    "1962:8 Orig.": "1961:8 Orig.",     // Arizona v. California (see https://www.oyez.org/cases/1961/8_orig)
-    "1962:2":   "1961:2",               // Kennedy v. Mendoza-Martinez (ORAL REARGUMENT - DECEMBER 04-05, 1962) (includes No. 3)
+    "1961:8 Orig.": "1962:8 Orig.*",    // Arizona v. California (see https://www.oyez.org/cases/1961/8_orig)
+    "1961:19":  "1962:2*",              // Kennedy v. Mendoza-Martinez (ORAL REARGUMENT - DECEMBER 04-05, 1962)
+    "1961:20":  "1962:3*",              // Rusk v. Cort (ORAL REARGUMENT - DECEMBER 04-05, 1962)
     "1962:91":  "1962:107",             // McCulloch v. Sociedad Nacional de Marineros de Honduras (of Nos. 91, 93, and 107, 107 became the lead case)
     "1962:164": "1963:11",              // Jacobellis v. Ohio (ORAL REARGUMENT - APRIL 01, 1964)
     "1962:368:": "1963:13",             // Retail Clerks International Association, Local 1625, AFL-CIO v. Schermerhorn (ORAL REARGUMENT - OCTOBER 16-17, 1963)
 };
+
+/**
+ * This table addresses only SCDB errors discovered during our Journal audit.
+ *
+ * As noted on my website (https://lonedissent.org/blog/2019/02/18/#4-argument-and-reargument-dates), SCDB doesn't
+ * track multiple argument/reargument dates, so there's MUCH more work required to capture and include all that data.
+ *
+ * All I'm doing here is including all dates (for completeness) whenever fixing an incorrect date discovered in the audit.
+ */
+let scdbErrors = {
+    "1956-056": "dateArgument:1957-03-34,1957-03-05",
+    "1957-151": "dateArgument:1958-04-09,1958-04-10",
+    "1959-013": "dateArgument:1959-10-20",
+    "1960-031": "docket:128",
+    "1962-066": ["dateArgument:1961-12-05", "dateRearg:1962-10-10,1962-10-11"],
+    "1962-127": ["dateArgument:1962-01-08,1962-01-09,1962-01-10,1962-01-11", "dateRearg:1962-11-13,1962-11-14"],
+    "1962-057": ["dateArgument:1962-02-09", "dateRearg:1962-10-08,1962-10-09"],
+    "1962-043": ["dateArgument:1962-03-27,1962-03-28", "dateRearg:1962-12-05,1962-12-06"],
+    "1962-033": ["dateArgument:1962-03-29,1962-04-02", "dateRearg:1962-10-08"],
+    "1962-059": ["dateArgument:1962-04-17", "dateRearg:1963-01-16"],
+    "1962-144": ["dateArgument:1962-04-18,1962-04-19", "dateRearg:1962-12-06"],
+};
+
+/**
+ * fixSCDBErrors(decisions)
+ *
+ * @param {Array.<Decision>} decisions
+ * @returns {Array.<Decision>}
+ */
+function fixSCDBErrors(decisions)
+{
+    for (let caseId in scdbErrors) {
+        let i = searchSortedObjects(decisions, {caseId});
+        if (i >= 0) {
+            let fixes = scdbErrors[caseId];
+            if (!Array.isArray(scdbErrors[caseId])) {
+                fixes = [fixes];
+            }
+            for (let fix of fixes) {
+                let f = fix.split(":");
+                decisions[i][f[0]] = f[1];
+            }
+        } else {
+            warning("unable to find SCDB case \"%s\"\n", caseId);
+        }
+    }
+    return decisions;
+}
 
 /**
  * matchJournals(done)
@@ -5150,10 +5238,11 @@ let redocketedCases = {
  */
 function matchJournals(done)
 {
+    let decisions = fixSCDBErrors(readJSON(sources.ld.decisions));
     let oyezCases = readCSV(sources.oyez.cases_csv);
     /**
-     * These two tables are built up from Journal data as addCaseRole() is called for each role found
-     * in each case found on each day.  Since addCaseRole() checks each case (and the advocate) against
+     * These two tables are built up from Journal data as addCaseAdvocate() is called for each role found
+     * in each case found on each day.  Since addCaseAdvocate() checks each case (and the advocate) against
      * Oyez's data, that helps us find omissions or errors in Oyez -- or Journal data that we may have
      * "over-included".
      *
@@ -5162,10 +5251,15 @@ function matchJournals(done)
      * Journal data; ie, any data was "under-included".
      */
     let casesArgued = readJSON(sources.scotus.arguments, []);
-    let advocatesArgued = readJSON(sources.scotus.advocates, {});
+    let advocatesArgued = readJSON(sources.scotus.advocates, []);
 
     let capitalize = function(word) {
         return word[0].toUpperCase() + word.substring(1).toLowerCase();
+    };
+
+    let getLastName = function(name) {
+        let match = name.match(/( von | van |)([^, ]+)(,|$)/);
+        return match? match[1].slice(1) + match[2] : name;
     };
 
     let identifize = function(name) {
@@ -5194,8 +5288,110 @@ function matchJournals(done)
         return docket;
     };
 
+    let formattedDate = function(date) {
+        let match = date.match(/([0-9]+)-([0-9]+)-([0-9]+)/);
+        if (match) {
+            date = sprintf("%s:%#C", date, date);
+        }
+        return date;
+    };
+
+    let checkRedocketed = function(term, month, dockets, fOyez=false) {
+        let exact = false;
+        let useOriginalTerm = false;
+        let useOriginalDocket = false;
+        let idCase = term + ':' + dockets[0];
+        let redocketed = redocketedCases[idCase];
+        if (!redocketed) {
+            if (fOyez) {
+                idCase += '*';
+                for (let docketJournal in redocketedCases) {
+                    if (redocketedCases[docketJournal] == idCase) {
+                        term--;
+                        break;
+                    }
+                }
+            }
+        }
+        else if (redocketed.indexOf("Misc") < 0 || month == 8 || month == 9) {
+            if (redocketed.endsWith('**')) {
+                if (fOyez) exact = useOriginalTerm = useOriginalDocket = true;
+                redocketed = redocketed.slice(0, -2);
+            }
+            else if (redocketed.endsWith('*')) {
+                if (fOyez) {
+                    exact = useOriginalTerm = true;
+                    if (month == 8 || month == 9) term--;   // hack for August Special Term 1958
+                }
+                redocketed = redocketed.slice(0, -1);
+            }
+            if (redocketed.indexOf(':') < 0) {
+                dockets = [redocketed];
+                exact = true;
+            } else {
+                let parts = redocketed.split(':');
+                term = useOriginalTerm? Math.min(term, +parts[0]) : +parts[0];
+                if (!useOriginalDocket && month != 9) {     // another hack for August Special Term 1958
+                    dockets = parts.slice(1);
+                }
+            }
+        }
+        return [term, dockets, exact];
+    };
+
     /**
-     * addCaseRole(dateMarker, caseMarker, roleMarker)
+     * searchRedocketed(term, oyezCase)
+     *
+     * This is used when we've found an Oyez case with one or more argument dates within the
+     * current time period (ie, term) of the Journal we're processing, and we want to verify that
+     * a corresponding argument exists in the Journal (it's not that we don't trust the Journal,
+     * but that we don't trust our parsing of the Journal).
+     *
+     * The problem is that Oyez doesn't always file an argument under the same term and/or docket
+     * number as it appeared in the Journal.  For example:
+     *
+     *          "1955:105": "1956:1",               // Thompson v. Coastal Oil Co.
+     *
+     * That case was argued on January 24, 1956 as No. 105, so when it's time to verify that the case
+     * appears in the 1955 Journal, we'll want to use No. 105, not No. 1 (which is the redocketed
+     * number Oyez used to file it).
+     *
+     * @param {number} term
+     * @param {Object} oyezCase
+     * @returns {Array.<string>}
+     */
+    let searchRedocketed = function(term, oyezCase) {
+        let docketsNew = [];
+        let dockets = oyezCase.docket.toString().split(',');
+        for (let docketJournal in redocketedCases) {
+            let s = docketJournal.split(':');
+            if (+s[0] != term) continue;
+            let t = redocketedCases[docketJournal].split(':');
+            if (!t[1]) {
+                t[1] = t[0];
+                t[0] = term.toString();
+            }
+            let termMatch = +t[0], docketMatch = t[1];
+            if (t[1].endsWith('**')) {
+                if (oyezCase.dateRearg) termMatch = +s[0];
+                docketMatch = s[1];
+            }
+            else if (t[1].endsWith('*')) {
+                if (oyezCase.dateRearg) termMatch = +s[0];
+                docketMatch = t[1].slice(0, -1);
+            }
+            if (oyezCase.term == termMatch && dockets[0] == docketMatch) {
+                docketsNew.push(s[1]);
+            }
+        }
+        if (docketsNew.length) {
+            dockets = docketsNew;
+        }
+        return dockets;
+    };
+
+    /**
+     * addCaseAdvocate(dateMarker, caseMarker, roleMarker)
      *
      * This function collects data on cases argued (in casesArgued) as shown below.  Most of the
      * object properties are arrays, because any given case can be: 1) argued over multiple days,
@@ -5222,16 +5418,19 @@ function matchJournals(done)
      * @param {CaseMarker} caseMarker
      * @param {RoleMarker} roleMarker
      */
-    let addCaseRole = function(dateMarker, caseMarker, roleMarker) {
+    let addCaseAdvocate = function(dateMarker, caseMarker, roleMarker) {
         let date = dateMarker.date;
-        let termYear = dateMarker.year;
+        let term = dateMarker.year;
+        let month = dateMarker.month;
         let termMonth = 10;
-        if (dateMarker.month < 8) {
-            termYear--;
-        } else if (dateMarker.month < 10) {
-            termMonth = termYear == 1958? 8 : dateMarker.month;
+        if (month < 8) {
+            term--;
+        } else if (month < 10) {
+            termMonth = term == 1958? 8 : month;
         }
-        let term = sprintf("%04d-%02d", termYear, termMonth);
+        let page = caseMarker.page;
+        let line = caseMarker.line;
+        let termID = sprintf("%04d-%02d", term, termMonth);
 
         let dockets = [], titles = [];
         if (caseMarker.consolidations) {
@@ -5243,19 +5442,16 @@ function matchJournals(done)
         dockets.push(normalize(caseMarker.caseNumber));
         titles.push(caseMarker.caseName);
 
-        let i;
-        let caseArgued = null;
-        for (i = 0; i < casesArgued.length; i++) {
-            if (casesArgued[i].term == term && casesArgued[i].dockets.indexOf(dockets[0]) >= 0) {
-                caseArgued = casesArgued[i];
-                break;
-            }
-        }
+        let docketList = dockets.join(',');
+        let caseArgued = casesArgued.find((caseArgued) => caseArgued.term == termID && caseArgued.dockets.join(',') == docketList);
+
         if (!caseArgued) {
-            caseArgued = {term, dates: [], dockets, titles, advocates: {}, event: caseMarker.caseEvent};
+            caseArgued = {page, line, term: termID, scdb: "", dates: [], dockets, titles, advocates: {}, event: caseMarker.caseEvent};
             casesArgued.push(caseArgued);
         }
-        if (caseArgued.dates.indexOf(date) < 0) caseArgued.dates.push(date);
+
+        let prettyDate = formattedDate(date);
+        if (caseArgued.dates.indexOf(prettyDate) < 0) caseArgued.dates.push(prettyDate);
 
         let idAdvocate = roleMarker.id;
         if (!caseArgued.advocates[idAdvocate]) {
@@ -5263,91 +5459,150 @@ function matchJournals(done)
             if (roleMarker.female) advocate.female = true;
             caseArgued.advocates[idAdvocate] = advocate;
         }
-        if (!advocatesArgued[idAdvocate]) {
-            advocatesArgued[idAdvocate] = {name: roleMarker.name, arguments: []};
-            if (roleMarker.female) advocatesArgued[idAdvocate].female = true;
+
+        let advocate = advocatesArgued.find((advocate) => advocate.id == idAdvocate);
+        if (!advocate) {
+            let lastName = getLastName(roleMarker.name);
+            advocate = {id: idAdvocate, name: roleMarker.name, lastName, arguments: []};
+            if (roleMarker.female) advocate.female = true;
+            advocatesArgued.push(advocate);
         } else {
-            if (advocatesArgued[idAdvocate].name != roleMarker.name) {
-                warning("advocate \"%s\" has multiple names: \"%s\" and \"%s\"\n", idAdvocate, advocatesArgued[idAdvocate].name, roleMarker.name);
+            if (advocate.name != roleMarker.name) {
+                warning("advocate \"%s\" has multiple names: \"%s\" and \"%s\"\n", idAdvocate, advocate.name, roleMarker.name);
             }
         }
-        let docketsArgued = caseArgued.dockets.join(',');
-        let advocateArguments = advocatesArgued[idAdvocate].arguments;
-        for (i = 0; i < advocateArguments.length; i++) {
-            let argument = advocateArguments[i];
-            if (argument.term == caseArgued.term && argument.dockets == docketsArgued) {
-                break;
-            }
-        }
-        if (i == advocateArguments.length) {
-            advocateArguments.push({term: caseArgued.term, dates: caseArgued.dates.join(','), dockets: docketsArgued});
+
+        docketList = caseArgued.dockets.join(';');
+        let argument = advocate.arguments.find((argument) => argument.term == caseArgued.term && argument.dockets == docketList);
+        if (!argument) {
+            advocate.arguments.push({term: caseArgued.term, dates: caseArgued.dates.join(';'), dockets: docketList});
         }
 
         /**
-         * Time to verify that this case is also in the Oyez database.
+         * Let's verify that this case is in SCDB, and extract its SCDB caseId.
+         *
+         * Examples of SCDB challenges (ignoring the fact that SCDB data is not always accurate):
+         *
+         * 1) Reid v. Covert (No. 701) and Kinsella v. Krueger (No. 713) were argued in the 1955 term,
+         * on 1955-05-03, and decided in 351 U.S. 487 (SCDB 1955-097) and 351 U.S. 470 (SCDB 1955-096),
+         * respectively.  However, the Reid and Kinsella cases were reconsidered in the 1956 term,
+         * reargued on 1957-02-27, and decided together in 354 U.S. 1 (SCDB 1956-101), reversing the
+         * earlier two decisions.  So there are three SCDB records for a total of three decisions.
+         *
+         * This is all well and good, except that SCDB records 1956-05-03 as the initial argument date
+         * in all three of its records, because it wants to record 1957-02-27 as a "reargument" date in
+         * the third record.  That is a tempting thing to do, since the same parties were before
+         * the Court both times, and this is the only time the Court over-ruled itself on the same set
+         * of facts and parties.  But there was an intervening decision, so this is not a reargument
+         * in the traditional sense.
+         *
+         * Parties attempt to come back to the Court all the time, and even in the rare instance where
+         * the Court agrees to hear their case again, that is normally considered a "fresh" argument,
+         * not a reargument, because the Court has already responded to the first round of arguments.
+         * Rearguments invariably indicate situations where the Court was unable or unwilling to reach
+         * a decision and has instead decided that it needs to hear further arguments.  At least, it
+         * should be invariably so, otherwise that undermines the consistency of the reargument field.
          */
-        let exact = false;
-        let oyezCase, oyezAdvocates = [], j;
-        let idCase = termYear + ':' + dockets[0];
-        let redocketed = redocketedCases[idCase];
-        if (!redocketed) {
-            idCase += '*';
-            for (let docketJournal in redocketedCases) {
-                if (redocketedCases[docketJournal] == idCase) {
-                    termYear--;
-                    break;
-                }
-            }
-        }
-        else {
-            if (redocketed.indexOf("Misc") < 0 || dateMarker.month == 8 || dateMarker.month == 9) {
-                if (redocketed.slice(-1) == '*') {
-                    redocketed = redocketed.slice(0, -1);
-                    exact = true;
-                }
-                if (redocketed.indexOf(':') < 0) {
-                    dockets = [redocketed];
-                    exact = true;
-                } else {
-                    let parts = redocketed.split(':');
-                    let termOyez = +parts[0];
-                    if (!exact) {
-                        termYear = termOyez;
-                    } else {
-                        termYear = Math.min(termYear, termOyez);
+        if (!caseArgued.scdb || caseArgued.scdb == "unknown") {
+            let caseId = "";
+            let scdbPossibilities = [];
+            // let [termSearch, docketSearch, exactSearch] = [term, dockets, false];
+            let [termSearch, docketSearch, exactSearch] = checkRedocketed(term, month, dockets);
+            let i = searchSortedObjects(decisions, {caseId: termSearch + "-001"});
+            if (i >= 0) {
+                while (!caseId && i < decisions.length) {
+                    let decision = decisions[i++];
+                    if (+decision.caseId.slice(0, 4) != termSearch) break;
+                    let decisionDockets = decision.docket.split(',');
+                    for (let decisionDocket of decisionDockets) {
+                        if (docketSearch.indexOf(decisionDocket) >= 0) {
+                            let argumentDates = [];
+                            if (decision.dateArgument) {
+                                argumentDates = argumentDates.concat(decision.dateArgument.split(','));
+                            }
+                            if (decision.dateRearg) {
+                                argumentDates = argumentDates.concat(decision.dateRearg.split(','));
+                            }
+                            for (let argumentDate of argumentDates) {
+                                let days = Math.abs(datelib.subtractDays(date, argumentDate));
+                                if (days <= 10) {
+                                    /**
+                                     * Why 10 days?  Well, in the 1956 term, Yates et al v. United States (Nos. 6, 7 and 8) was argued on October 8-9,
+                                     * but SCDB has it erroneously listed as October 18....  And Yates No. 15, which was argued on October 9-10, is
+                                     * erroneously listed as October 19 (this second error can be found in the entry for Yates No. 2 in the 1957 term,
+                                     * which is when that particular Yates case was redocketed and reargued).
+                                     */
+                                    caseId = decision.caseId;
+                                    if (days) {
+                                        // warning("case \"%s\" (%s) matched SCDB term %d (%s) within %d day(s)\n", dockets.join(','), caseMarker.caseName, term, date, days);
+                                    }
+                                    break;
+                                }
+                            }
+                            if (caseId) break;
+                            scdbPossibilities.push(decision.caseId + ':' + argumentDates.join(','));
+                        }
                     }
-                    parts.splice(0, 1);
-                    dockets = parts;
                 }
+            }
+            if (caseId) {
+                caseArgued.scdb = caseId;
+            } else {
+                if (!caseArgued.scdb) {
+                    let s = scdbPossibilities.length? "; check SCDB case(s): " + scdbPossibilities.join(' and ') : "";
+                    warning("case \"%s\" (%s) not found in SCDB term %d (%s)%s\n", docketSearch.join(','), caseMarker.caseName, termSearch, date, s);
+                }
+                caseArgued.scdb = "unknown";
             }
         }
-        let oyezIndex = oyezCases.findIndex(oyezCase => oyezCase.term == termYear &&
-            (oyezCase.dateArgument && oyezCase.dateArgument.indexOf(date) >= 0 || oyezCase.dateRearg && oyezCase.dateRearg.indexOf(date) >= 0) &&
-            (exact && oyezCase.docket.toString() == dockets[0] || !exact && (oyezCase.docket.toString().split(',').indexOf(dockets[0]) >= 0 || oyezCase.docket.toString().split(',').indexOf(dockets[dockets.length-1]) >= 0)));
-        if (oyezIndex >= 0) {
-            /**
-             * Make sure there is a matching argument date and a matching advocate.
-             */
-            oyezCase = oyezCases[oyezIndex++];
-            caseArgued.oyez = oyezCase.caseLink;
-            for (let field of ["advocatesPetitioner", "advocatesRespondent", "advocatesOther"]) {
-                if (oyezCase[field]) {
-                    oyezAdvocates.push(...oyezCase[field].split(','));
+
+        /**
+         * For cases in terms 1955 and up, also verify that the case is in the Oyez database.
+         */
+        let [termSearch, docketSearch, exactSearch] = checkRedocketed(term, month, dockets, true);
+
+        let iDocket = 0, iDocketEnd = 0;
+        if (!exactSearch) {
+            iDocketEnd = docketSearch.length - 1;
+        }
+        let advocateMatch = false;
+        let oyezCase, oyezAdvocates = [];
+
+        do {
+            let oyezIndex = oyezCases.findIndex(oyezCase => oyezCase.term == termSearch &&
+                (oyezCase.dateArgument && oyezCase.dateArgument.indexOf(date) >= 0 || oyezCase.dateRearg && oyezCase.dateRearg.indexOf(date) >= 0) &&
+                (oyezCase.docket.toString().split(',').indexOf(docketSearch[iDocket]) >= 0));
+            if (oyezIndex >= 0) {
+                /**
+                 * Make sure there is a matching argument date and a matching advocate.
+                 */
+                oyezCase = oyezCases[oyezIndex++];
+                if (!caseArgued.oyez) caseArgued.oyez = [];
+                if (caseArgued.oyez.indexOf(oyezCase.caseLink) < 0) {
+                    caseArgued.oyez.push(oyezCase.caseLink);
+                }
+                for (let field of ["advocatesPetitioner", "advocatesRespondent", "advocatesOther"]) {
+                    if (oyezCase[field]) {
+                        oyezAdvocates.push(...oyezCase[field].split(','));
+                    }
                 }
             }
-            let j;
-            for (j = 0; j < oyezAdvocates.length; j++) {
-                let oyezAdvocate = oyezAdvocates[j];
-                let regex = new RegExp(oyezAdvocate.replace(/^wm_/, "(wm|william)_").replace(/_/g, ".*").replace(/[0-9]$/, ""), "i");
-                if (idAdvocate.match(regex)) {
-                    break;
-                }
+        } while (++iDocket <= iDocketEnd);
+
+        for (let j = 0; j < oyezAdvocates.length; j++) {
+            let oyezAdvocate = oyezAdvocates[j];
+            let regex = new RegExp(oyezAdvocate.replace(/^wm_/, "(wm|william)_").replace(/_/g, ".*").replace(/[0-9]$/, ""), "i");
+            if (idAdvocate.match(regex)) {
+                advocateMatch = true;
+                break;
             }
-            if (j == oyezAdvocates.length) {
-                warning("advocate \"%s\" not found in Oyez (%s); see %s\n", roleMarker.name, oyezAdvocates.join(',') || "no advocates listed", oyezCase.caseLink);
-            }
-        } else {
-            warning("case \"%s\" (%s) not found in Oyez term %d (%s)\n", dockets.join(','), caseMarker.caseName, termYear, date);
+        }
+
+        if (!caseArgued.oyez) {
+            warning("case \"%s\" (%s) not found in Oyez term %d (%s)\n", docketSearch.join(','), caseMarker.caseName, termSearch, date);
+        }
+        else if (!advocateMatch) {
+            warning("advocate \"%s\" not found in Oyez (%s); see %s\n", roleMarker.name, oyezAdvocates.join(',') || "no advocates listed", caseArgued.oyez.join(','));
         }
     };
 
@@ -5385,6 +5640,43 @@ function matchJournals(done)
             lineOffset++;
         }
         return lineOffset;
+    };
+
+    /**
+     * getPageLines(text)
+     *
+     * @param {string} text
+     * @returns {Array.<number>}
+     */
+    let getPageLines = function(text)
+    {
+        let pageLines = [];
+        let lines = text.split('\n');
+        for (let l = 0; l < lines.length; l++) {
+            let line = lines[l];
+            if (line.indexOf('\x0c') >= 0) {
+                pageLines.push(l+1);
+            }
+        }
+        return pageLines;
+    };
+
+    /**
+     * getPageFromLine(text)
+     *
+     * @param {string} text
+     * @returns {Array.<number>}
+     */
+    let getPageFromLine = function(line, pageLines) {
+        let page = 1;
+        for (let pageLine of pageLines) {
+            if (line < pageLine) {
+                line = pageLine - line + 1;
+                break;
+            }
+            page++;
+        }
+        return [page, line];
     };
 
     /**
@@ -5591,6 +5883,7 @@ function matchJournals(done)
     filePaths.forEach(function matchJournal(filePath) {
         let text = readFile(filePath, "ascii");
         if (!text) return;
+        let pageLines = getPageLines(text);
 
         /**
          * Let's see if we can reliably get all date markers.
@@ -5635,8 +5928,9 @@ function matchJournals(done)
             let caseMarkers = getCaseMarkers(dateMarker);
             for (let j = 0; j < caseMarkers.length; j++) {
                 let caseMarker = caseMarkers[j];
+                caseMarker.page = getPageFromLine(caseMarker.line, pageLines)[0];
                 printf("\npage %d, line %d: \"%s, %s %d, %d\" (%s)\n", dateMarker.page, dateMarker.line, dateMarker.weekday, dateMarker.monthName, dateMarker.day, dateMarker.year, dateMarker.date);
-                printf("    line: %d\n    case: \"%s\"\n   title: \"%s\"\n%s: \"%s\"\n", caseMarker.line, caseMarker.caseNumber, caseMarker.caseName, caseMarker.argument? "argument" : "   event", caseMarker.caseEvent);
+                printf("    line: %d (p%d)\n    case: \"%s\"\n   title: \"%s\"\n%s: \"%s\"\n", caseMarker.line, caseMarker.page, caseMarker.caseNumber, caseMarker.caseName, caseMarker.argument? "argument" : "   event", caseMarker.caseEvent);
                 if (!caseMarker.caseEvent || caseMarker.caseEvent == ";" || caseMarker.caseEvent == "and") {
                     consolidations.push(caseMarker);
                 }
@@ -5650,7 +5944,7 @@ function matchJournals(done)
                     caseMarker.roleMarkers = getRoleMarkers(caseMarker);
                     for (let roleMarker of caseMarker.roleMarkers) {
                         printf("    [%s] name: \"%s\" (%s) [%s]%s\n", roleMarker.preceding, roleMarker.name, roleMarker.id, roleMarker.role, roleMarker.female? " [female]" : "");
-                        addCaseRole(dateMarker, caseMarker, roleMarker);
+                        addCaseAdvocate(dateMarker, caseMarker, roleMarker);
                     }
                 }
             }
@@ -5674,43 +5968,13 @@ function matchJournals(done)
             }
             if (!oyezDates.length) continue;
             for (let oyezDate of oyezDates) {
-                let termID = term + "-10";
                 let termBeg = sprintf("%04d-%02d-%02d", term, 8, 1);
                 let termEnd = sprintf("%04d-%02d-%02d", term+1, 7, 31);
                 if (oyezDate >= termBeg && oyezDate <= termEnd) {
                     let caseArgued = null;
-                    if (oyezDate < termID) {
-                        termID = oyezDate.slice(0, 4) + "-08";
-                    }
-                    /**
-                     * Oyez's docket numbers aren't always the greatest (for reargued cases,
-                     * they're often the redocketed case number instead of the original case number).
-                     */
-                    let docketsNew = [];
-                    let dockets = oyezCase.docket.toString().split(',');
-                    for (let docketJournal in redocketedCases) {
-                        let s = docketJournal.split(':');
-                        if (+s[0] != term) continue;
-                        let t = redocketedCases[docketJournal].split(':');
-                        let oyezTerm = oyezCase.term;
-                        if (!t[1]) {
-                            t[1] = t[0];
-                            t[0] = term.toString();
-                        }
-                        if (t[1].slice(-1) == '*') {
-                            t[1] = t[1].slice(0, -1);
-                            oyezTerm++;
-                        }
-                        if (oyezTerm == +t[0] && dockets[0] == t[1]) {
-                            docketsNew.push(s[1]);
-                        }
-                    }
-                    if (docketsNew.length) {
-                        dockets = docketsNew;
-                    }
+                    let dockets = searchRedocketed(term, oyezCase);
                     for (let i = 0; i < casesArgued.length; i++) {
-                        if (casesArgued[i].term != termID) continue;
-                        if (casesArgued[i].dates.indexOf(oyezDate) < 0) continue;
+                        if (casesArgued[i].dates.indexOf(formattedDate(oyezDate)) < 0) continue;
                         for (let j = 0; j < dockets.length; j++) {
                             if (casesArgued[i].dockets.indexOf(dockets[j]) < 0) continue;
                             caseArgued = casesArgued[i];
@@ -5727,10 +5991,10 @@ function matchJournals(done)
                      * we can't find BOTH days for No. 512, we generate a warning.  But it's a false warning.
                      */
                     if (!caseArgued) {
-                        if (oyezCase.docket == "380,512" || oyezCase.docket == 17 && termID == "1961-10") {
+                        if (oyezCase.docket == "380,512" || oyezCase.docket == 17 && term == 1961) {
                         }
                         else {
-                            warning("Oyez case %s (%s) not found in %d journal: %s\n", oyezCase.docket, oyezDate, term, oyezCase.caseLink);
+                            warning("case \"%s\" (%s) not found in %d Journal; see %s (%s)\n", oyezCase.docket, oyezCase.caseTitle, term, oyezCase.caseLink, oyezDate);
                         }
                     }
                 }
@@ -5756,12 +6020,13 @@ function matchJournals(done)
              * We are now going to look through casesArgued for cases with a matching date, and for each case,
              * loop through the docket numbers, and see if any audio files match.
              */
+            let matchedAudio = [];
             let matchingCases = 0, matchingTerms = 0;
             for (let caseArgued of casesArgued) {
                 if (caseArgued.term.indexOf(termAudio) == 0) {
                     matchingTerms++;
                 }
-                if (caseArgued.dates.indexOf(date) < 0) continue;
+                if (caseArgued.dates.indexOf(formattedDate(date)) < 0) continue;
                 matchingCases++;
                 for (let d = 0; d < caseArgued.dockets.length; d++) {
                     let docket = caseArgued.dockets[d];
@@ -5773,11 +6038,11 @@ function matchJournals(done)
                             let destination = dailyAudio.destinations[i];
                             if (destination.indexOf(docket) >= 0) {
                                 matchingDockets++;
-                                if (!caseArgued.nara) caseArgued.nara = [];
-                                if (caseArgued.nara.indexOf(dailyAudio.sources[i]) < 0) {
+                                if (matchedAudio.indexOf(dailyAudio.sources[i]) < 0) {
+                                    matchedAudio.push(dailyAudio.sources[i]);
+                                    if (!caseArgued.nara) caseArgued.nara = [];
                                     caseArgued.nara.push(dailyAudio.sources[i]);
                                 }
-                                dailyAudio.sources[i] = null;
                             }
                         }
                     } else {
@@ -5790,8 +6055,8 @@ function matchJournals(done)
             } else {
                 let unmatched = 0;
                 for (let i = 0; i < dailyAudio.sources.length; i++) {
-                    if (dailyAudio.sources[i]) {
-                        warning("unmatched audio \"%s\" (%s)\n", dailyAudio.destinations[i], date);
+                    if (matchedAudio.indexOf(dailyAudio.sources[i]) < 0) {
+                        warning("audio \"%s\" unmatched (%s)\n", dailyAudio.destinations[i], date);
                         unmatched++;
                     }
                 }
@@ -7358,7 +7623,7 @@ function fixDocketNumber(docket)
             docketNew = n + suffix;
         }
         if (docketNew == "na") docketNew = "";  // an odd docket number I've seen in SCDB's docket CSVs ("not available?")
-        docketNew = docketNew.replace("&ndash;", "-");
+        docketNew = docketNew.replace("&Acirc;", "").replace("&ndash;", "-");
     }
     return docketNew;
 }
