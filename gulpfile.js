@@ -5184,21 +5184,28 @@ let redocketedCases = {
 };
 
 /**
- * This table addresses only SCDB errors discovered during our Journal audit.
+ * This table addresses only SCDB errors and omissions discovered during our Journal audit.
  *
  * As noted on my website (https://lonedissent.org/blog/2019/02/18/#4-argument-and-reargument-dates), SCDB doesn't
  * track multiple argument/reargument dates, so there's MUCH more work required to capture and include all that data.
  *
- * All I'm doing here is including all dates (for completeness) whenever fixing an incorrect date discovered in the audit.
+ * All I'm doing here is including all dates whenever an incorrect or missing date is discovered in the audit.
  */
 let scdbErrors = {
+    "1955-003": "dateArgument:1955-10-10",      // the Journal and Oyez and NARA agree on October 10, 1955 (looks like an error in U.S. Reports)
     "1956-056": "dateArgument:1957-03-34,1957-03-05",
+    "1956-113": "dateArgument:1956-10-08,1956-10-09",
+    "1957-005": "dateRearg:",                   // SCDB erroneously picked up the date the case was "restored to the docket for reargument"; that's just a docketing event, not an argument
+    "1957-010": "dateArgument:1956-10-09,1956-10-10",
     "1957-151": "dateArgument:1958-04-09,1958-04-10",
+    "1958-079": "dateArgument:1959-03-26,1959-03-30",
+    "1958-125": "dateArgument:1959-04-29,1959-04-30",
     "1959-013": "dateArgument:1959-10-20",
     "1960-031": "docket:128",
+    "1961-077": "dateArgument:1961-12-07,1961-12-08,1961-12-11,1961-12-12",
     "1962-066": ["dateArgument:1961-12-05", "dateRearg:1962-10-10,1962-10-11"],
     "1962-127": ["dateArgument:1962-01-08,1962-01-09,1962-01-10,1962-01-11", "dateRearg:1962-11-13,1962-11-14"],
-    "1962-057": ["dateArgument:1962-02-09", "dateRearg:1962-10-08,1962-10-09"],
+    "1962-057": ["dateArgument:1962-02-19", "dateRearg:1962-10-08,1962-10-09"],
     "1962-043": ["dateArgument:1962-03-27,1962-03-28", "dateRearg:1962-12-05,1962-12-06"],
     "1962-033": ["dateArgument:1962-03-29,1962-04-02", "dateRearg:1962-10-08"],
     "1962-059": ["dateArgument:1962-04-17", "dateRearg:1963-01-16"],
@@ -5213,6 +5220,10 @@ let scdbErrors = {
  */
 function fixSCDBErrors(decisions)
 {
+    if (!isSortedObjects(decisions, ["caseId"])) {
+        warning("decisions are not sorted by caseId\n");
+        sortObjects(decisions, ["caseId"]);
+    }
     for (let caseId in scdbErrors) {
         let i = searchSortedObjects(decisions, {caseId});
         if (i >= 0) {
@@ -5226,6 +5237,26 @@ function fixSCDBErrors(decisions)
             }
         } else {
             warning("unable to find SCDB case \"%s\"\n", caseId);
+        }
+    }
+    /**
+     * As a final check, let's make sure the records conform to our expectations
+     * (ie, there's a "YYYY-001" caseId for every term, and every case has a 'term'
+     * field matches the value in caseId).
+     */
+    for (let y = 1791; y < 2023; y++) {
+        let i = searchSortedObjects(decisions, {caseId: sprintf("%d-001", y)});
+        if (i < 0) {
+            // warning("decisions missing caseId \"%d-001\"\n", y);
+            continue;
+        }
+        while (i < decisions.length) {
+            let decision = decisions[i];
+            let match = decision.caseId.match(/^([0-9]+)-/);
+            if (!match || +match[1] != decision.term) {
+                warning("decision \"%s\" has mismatched term (%d)\n", decision.caseId, decision.term);
+            }
+            i++;
         }
     }
     return decisions;
@@ -5340,7 +5371,7 @@ function matchJournals(done)
     };
 
     /**
-     * searchRedocketed(term, oyezCase)
+     * searchRedocketed(term, caseInfo)
      *
      * This is used when we've found an Oyez case with one or more argument dates within the
      * current time period (ie, term) of the Journal we're processing, and we want to verify that
@@ -5357,12 +5388,12 @@ function matchJournals(done)
      * number Oyez used to file it).
      *
      * @param {number} term
-     * @param {Object} oyezCase
+     * @param {Array.<string>} dockets
+     * @param {Object} caseInfo
      * @returns {Array.<string>}
      */
-    let searchRedocketed = function(term, oyezCase) {
+    let searchRedocketed = function(term, dockets, caseInfo) {
         let docketsNew = [];
-        let dockets = oyezCase.docket.toString().split(',');
         for (let docketJournal in redocketedCases) {
             let s = docketJournal.split(':');
             if (+s[0] != term) continue;
@@ -5373,14 +5404,14 @@ function matchJournals(done)
             }
             let termMatch = +t[0], docketMatch = t[1];
             if (t[1].endsWith('**')) {
-                if (oyezCase.dateRearg) termMatch = +s[0];
+                if (caseInfo.dateRearg) termMatch = +s[0];
                 docketMatch = s[1];
             }
             else if (t[1].endsWith('*')) {
-                if (oyezCase.dateRearg) termMatch = +s[0];
+                if (caseInfo.dateRearg) termMatch = +s[0];
                 docketMatch = t[1].slice(0, -1);
             }
-            if (oyezCase.term == termMatch && dockets[0] == docketMatch) {
+            if (caseInfo.term == termMatch && dockets[0] == docketMatch) {
                 docketsNew.push(s[1]);
             }
         }
@@ -5492,15 +5523,15 @@ function matchJournals(done)
          * This is all well and good, except that SCDB records 1956-05-03 as the initial argument date
          * in all three of its records, because it wants to record 1957-02-27 as a "reargument" date in
          * the third record.  That is a tempting thing to do, since the same parties were before
-         * the Court both times, and this is the only time the Court over-ruled itself on the same set
-         * of facts and parties.  But there was an intervening decision, so this is not a reargument
-         * in the traditional sense.
+         * the Court in both cases, and this turned out to be the only time the Court over-ruled itself
+         * on the same set of facts and parties.  But there was an intervening decision, so this is
+         * not a reargument in the traditional sense.
          *
-         * Parties attempt to come back to the Court all the time, and even in the rare instance where
+         * Parties attempt to come back to the Court all the time, but even in the rare instance where
          * the Court agrees to hear their case again, that is normally considered a "fresh" argument,
          * not a reargument, because the Court has already responded to the first round of arguments.
-         * Rearguments invariably indicate situations where the Court was unable or unwilling to reach
-         * a decision and has instead decided that it needs to hear further arguments.  At least, it
+         * Rearguments invariably indicate situations where a majority was unable or unwilling to reach
+         * a decision, so the Court has decided that it needs to hear further arguments.  At least, it
          * should be invariably so, otherwise that undermines the consistency of the reargument field.
          */
         if (!caseArgued.scdb || caseArgued.scdb == "unknown") {
@@ -5525,16 +5556,10 @@ function matchJournals(done)
                             }
                             for (let argumentDate of argumentDates) {
                                 let days = Math.abs(datelib.subtractDays(date, argumentDate));
-                                if (days <= 10) {
-                                    /**
-                                     * Why 10 days?  Well, in the 1956 term, Yates et al v. United States (Nos. 6, 7 and 8) was argued on October 8-9,
-                                     * but SCDB has it erroneously listed as October 18....  And Yates No. 15, which was argued on October 9-10, is
-                                     * erroneously listed as October 19 (this second error can be found in the entry for Yates No. 2 in the 1957 term,
-                                     * which is when that particular Yates case was redocketed and reargued).
-                                     */
+                                if (days <= 1) {
                                     caseId = decision.caseId;
                                     if (days) {
-                                        // warning("case \"%s\" (%s) matched SCDB term %d (%s) within %d day(s)\n", dockets.join(','), caseMarker.caseName, term, date, days);
+                                        // warning("case \"%s\" (%s) (%s) matched SCDB case %s (%s) within %d day(s)\n", dockets.join(','), caseMarker.caseName, date, caseId, argumentDate, days);
                                     }
                                     break;
                                 }
@@ -5957,6 +5982,8 @@ function matchJournals(done)
          * We've already done the opposite (ie, as we discovered argument data in the Journal, we confirmed that it existed
          * in the Oyez data).
          */
+        let termBeg = sprintf("%04d-%02d-%02d", term, 8, 1);
+        let termEnd = sprintf("%04d-%02d-%02d", term+1, 7, 31);
         for (let oyezIndex = 0; oyezIndex < oyezCases.length; oyezIndex++) {
             let oyezCase = oyezCases[oyezIndex];
             let oyezDates = [];
@@ -5968,11 +5995,9 @@ function matchJournals(done)
             }
             if (!oyezDates.length) continue;
             for (let oyezDate of oyezDates) {
-                let termBeg = sprintf("%04d-%02d-%02d", term, 8, 1);
-                let termEnd = sprintf("%04d-%02d-%02d", term+1, 7, 31);
                 if (oyezDate >= termBeg && oyezDate <= termEnd) {
                     let caseArgued = null;
-                    let dockets = searchRedocketed(term, oyezCase);
+                    let dockets = searchRedocketed(term, oyezCase.docket.toString().split(','), oyezCase);
                     for (let i = 0; i < casesArgued.length; i++) {
                         if (casesArgued[i].dates.indexOf(formattedDate(oyezDate)) < 0) continue;
                         for (let j = 0; j < dockets.length; j++) {
@@ -5984,11 +6009,13 @@ function matchJournals(done)
                     }
                     /**
                      * There are some unfortunate exceptions.  For example, Nos. 380 and 381 were argued on April 29-30,
-                     * and No. 512 was argued on April 30, and since they were decided together, Oyez filed them together, under
-                     * No. 380.  So we had to put an entry in our redocketedCases table to map 512 (in the Journal) to 380 (in Oyez).
-                     * Here, we use that mapping information in reverse, which tells us to look for No. 512 in the Journal, but
-                     * Oyez doesn't tell us that No. 512 -- unlike No. 380 -- was argued on only ONE of the two days, and so when
-                     * we can't find BOTH days for No. 512, we generate a warning.  But it's a false warning.
+                     * and No. 512 was argued on April 30, and since they were decided together, Oyez filed them together,
+                     * under No. 380.  So we had to put an entry in our redocketedCases table to map 512 (in the Journal)
+                     * to 380 (in Oyez).
+                     *
+                     * Here, we use that mapping information in reverse, which tells us to look for No. 512 in the Journal,
+                     * but Oyez doesn't tell us that No. 512 -- unlike No. 380 -- was argued on only ONE of the two days,
+                     * and so when we can't find BOTH days for No. 512, we generate a warning.  But it's a false warning.
                      */
                     if (!caseArgued) {
                         if (oyezCase.docket == "380,512" || oyezCase.docket == 17 && term == 1961) {
@@ -6000,7 +6027,58 @@ function matchJournals(done)
                 }
             }
         }
+
+        /**
+         * Ditto for the SCDB data: iterate over all the SCDB records for the current term and make sure
+         * there's a corresponding set of arguments in the Journal data.
+         */
+        let i = searchSortedObjects(decisions, {caseId: term + "-001"});
+        while (i >= 0 && i < decisions.length) {
+            let decision = decisions[i++];
+            if (+decision.caseId.slice(0, 4) != term) break;
+            let dates = [];
+            if (decision.dateArgument) {
+                dates = dates.concat(decision.dateArgument.split(','));
+            }
+            if (decision.dateRearg) {
+                dates = dates.concat(decision.dateRearg.split(','));
+            }
+            let argumentDates = [];
+            for (let date of dates) {
+                if (date >= termBeg && date <= termEnd) {
+                    argumentDates.push(date);
+                }
+            }
+            if (argumentDates.length) {
+                let argumentDate;
+                let dockets = searchRedocketed(term, decision.docket.split(','), decision);
+                while ((argumentDate = argumentDates.shift())) {
+                    let matchingCase = false;
+                    for (let caseArgued of casesArgued) {
+                        if (caseArgued.dates.indexOf(formattedDate(argumentDate)) >= 0) {
+                            for (let decisionDocket of dockets) {
+                                if (caseArgued.dockets.indexOf(decisionDocket) >= 0) {
+                                    matchingCase = true;
+                                    break;
+                                }
+                            }
+                        }
+                        if (matchingCase) break;
+                    }
+                    if (!matchingCase) break;
+                }
+                if (argumentDate) {
+                    if (decision.caseId == "1958-125" || decision.caseId == "1961-007") {
+                        // These are the same exceptions, like above with Oyez...
+                    } else {
+                        warning("SCDB case \"%s\" not found in %d Journal; see %s, No. %s (%s)\n", decision.caseId, term, decision.caseName, dockets.join(','), argumentDate);
+                    }
+                }
+            }
+            i++;
+        }
     });
+
     /**
      * Now we want to match the Journal data up with the NARA data, and flag anything that didn't match.
      */
