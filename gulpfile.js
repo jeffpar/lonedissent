@@ -5180,7 +5180,13 @@ let redocketedCases = {
     "1961:20":  "1962:3*",              // Rusk v. Cort (ORAL REARGUMENT - DECEMBER 04-05, 1962)
     "1962:91":  "1962:107",             // McCulloch v. Sociedad Nacional de Marineros de Honduras (of Nos. 91, 93, and 107, 107 became the lead case)
     "1962:164": "1963:11",              // Jacobellis v. Ohio (ORAL REARGUMENT - APRIL 01, 1964)
-    "1962:368:": "1963:13",             // Retail Clerks International Association, Local 1625, AFL-CIO v. Schermerhorn (ORAL REARGUMENT - OCTOBER 16-17, 1963)
+    "1962:368:":"1963:13",              // Retail Clerks International Association, Local 1625, AFL-CIO v. Schermerhorn (ORAL REARGUMENT - OCTOBER 16-17, 1963)
+    "1963:400": "1964:4",               // Garrison v. Louisiana (an example of a reargued case that Oyez filed correctly, but alas, it swapped the argument and reargument audio files)
+ // "1963:60":  "1963:60",              // Robinson v. Florida (No. 60) was argued by amici with Nos. 6, 9, 10, and 12 on October 15, 1963)
+    "1963:14 Orig.": "1965:14 Orig.",   // Louisiana v. Mississippi (ORAL REARGUMENT - NOVEMBER 16, 1965)
+    "1964:5":   "1964:2",               // Lupper v. Arkansas (No. 5) was argued with (and decided with) Hamm v. City of Rock Hill (No. 2); Oyez took the unusual step of combining all the audio files: https://www.oyez.org/cases/1964/2
+    "1964:29":  "1964:50",              // Peter v. United States (No. 29) was argued with (and decided with) United States v. Seeger (No. 50)
+    "1964:51":  "1964:50",              // United States v. Jakobson (No. 51): ditto
 };
 
 /**
@@ -5210,6 +5216,7 @@ let scdbErrors = {
     "1962-033": ["dateArgument:1962-03-29,1962-04-02", "dateRearg:1962-10-08"],
     "1962-059": ["dateArgument:1962-04-17", "dateRearg:1963-01-16"],
     "1962-144": ["dateArgument:1962-04-18,1962-04-19", "dateRearg:1962-12-06"],
+    "1965-089": "dateArgument:1963-12-10,1965-11-16",
 };
 
 /**
@@ -5345,7 +5352,11 @@ function matchJournals(done)
             }
         }
         else if (redocketed.indexOf("Misc") < 0 || month == 8 || month == 9) {
-            if (redocketed.endsWith('**')) {
+            if (redocketed.endsWith('***')) {
+                if (fOyez) exact = useOriginalDocket = true;
+                redocketed = redocketed.slice(0, -3);
+            }
+            else if (redocketed.endsWith('**')) {
                 if (fOyez) exact = useOriginalTerm = useOriginalDocket = true;
                 redocketed = redocketed.slice(0, -2);
             }
@@ -5416,7 +5427,7 @@ function matchJournals(done)
             }
         }
         if (docketsNew.length) {
-            dockets = docketsNew;
+            dockets = dockets.concat(docketsNew);
         }
         return dockets;
     };
@@ -5725,7 +5736,7 @@ function matchJournals(done)
             //
             // let matches = page.matchAll(/\r*\n/g);
             //
-            let pattern = "(MONDAY|TUESDAY|WEDNESDAY|THURSDAY|FRIDAY|SATURDAY|SUNDAY)\\s*,?\\s*(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\\s*([0-9]+)[,;]?\\s*([0-9][0-9][0-9][0-9])[0-9\\s]*";
+            let pattern = "(MONDAY|TUESDAY|WEDNESDAY|THURSDAY|FRIDAY|SATURDAY|SUNDAY)\\s*,?\\s*(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER),?\\s*([0-9]+)[,;]?\\s*([0-9][0-9][0-9][0-9])[0-9\\s]*";
             let re = new RegExp(pattern, "gi");
             // printf("page %d line %d\n", p+1, pageOffset);
             let match = re.exec(page);
@@ -5779,7 +5790,7 @@ function matchJournals(done)
         let markers = [];
         let text = dateMarker.text;
         let lineIndexes = getLineIndexes(text);
-        let pattern = "\\n *No[.,]\\s+([0-9][^\\.]*)\\.\\s*";
+        let pattern = "\\n *No[.,]\\s+([0-9][^\\.]*)(\\.,[^\\.]+\\.\\s*|\\.\\s*)";
         let re = new RegExp(pattern, "g"), match;
         let prevIndex = 0;
         while ((match = re.exec(text))) {
@@ -5827,7 +5838,7 @@ function matchJournals(done)
                 if (next == "Appeal" || next == "Appeals" || next == "Application") break;
                 if (next == "Application" || next == "Applications" || next == "Memorandum") break;
                 if (next == "Motion" || next == "Motions" || next == "Petition" || next == "Petitions") break;
-                if (next == "Argued" || next == "Argument" || next == "Reargued" || next == "Reargument") break;
+                if (next == "Argued" || next == "Argument" || next == "Arguments" || next == "Reargued" || next == "Reargument") break;
             }
 
             let match = text.match(/[.;]$/);
@@ -5835,13 +5846,22 @@ function matchJournals(done)
             marker.caseName = text.substring(0, i).trim().replace(/"/g, '\\"');
             marker.caseEvent = text.substring(i+1, j).trim().replace(/"/g, '\\"');
 
-            match = marker.caseEvent.match(/\.\s+(Adjourned|Leave|ORDER|Per\s+Curiam:?|Memorandum|Submitted)\s+/);
+            match = marker.caseEvent.match(/\.\s+(Adjourned|ORDER|Ordered:|Per\s+Curiam:?|Memorandum|Submitted)\s+/);
             if (match) {
                 marker.caseEvent = marker.caseEvent.substring(0, match.index+1);
             }
-            match = marker.caseEvent.match(/(^|\.\s+)(Argued|Argument|Reargued|Reargument)/);
+            match = marker.caseEvent.match(/\s+(denied\.|respondents?\.)/);
             if (match) {
+                marker.caseEvent = marker.caseEvent.substring(0, match.index + match[0].length);
+            }
+            let matchArgument = marker.caseEvent.match(/(^|\.\s+)(Argued|Argument|Reargued|Reargument)/);
+            if (matchArgument) {
+                marker.caseEvent = marker.caseEvent.substring(matchArgument.index + matchArgument[1].length);
                 marker.argument = true;
+            }
+            match = marker.caseEvent.match(/\.\s+(Leave\s+granted)\s+/);
+            if (match && (!matchArgument || match.index > matchArgument.index)) {
+                marker.caseEvent = marker.caseEvent.substring(0, match.index+1);
             }
         }
         return markers;
