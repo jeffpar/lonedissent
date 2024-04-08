@@ -5088,6 +5088,8 @@ let advocateMappings = {
     "Solicitor General Rankin":             "J. Lee Rankin",
     "Attorney General Rogers":              "William P. Rogers",
     "Solicitor General Cox":                "Archibald Cox",
+    "Solicitor General Marshall":           "Thurgood Marshall",
+    "Attorney General Katzenbach":          "Nicholas deB. Katzenbach",
 };
 
 /**
@@ -5187,6 +5189,20 @@ let redocketedCases = {
     "1964:5":   "1964:2",               // Lupper v. Arkansas (No. 5) was argued with (and decided with) Hamm v. City of Rock Hill (No. 2); Oyez took the unusual step of combining all the audio files: https://www.oyez.org/cases/1964/2
     "1964:29":  "1964:50",              // Peter v. United States (No. 29) was argued with (and decided with) United States v. Seeger (No. 50)
     "1964:51":  "1964:50",              // United States v. Jakobson (No. 51): ditto
+    "1965:31":  "1965:30",              // Idaho Sheet Metal Works, Inc. v. Wirtz (No. 30) subsumed Wirtz v. Steepleton General Tire Company (No. 31)
+    "1965:562": "1966:22*",             // Time, Inc. v. Hill (No. 562) was reargued in the 1966 term as No. 22, but Oyez filed it in the 1965 term
+    "1966:69":  "1966:68",              // Bell v. Texas (No. 69) combined with Spencer v. Texas (No. 68)
+    "1966:70":  "1966:68",              // Reed v. Beto (No. 70) also combined with Spencer v. Texas (No. 68)
+    "1966:91":  "1966:54",              // Scott, aka Plummer v. Immigration and Naturalization Service (No. 91) decided with INS v. Errico (No. 54)
+    "1966:83":  "1967:8",               // United States v. Robel (No. 83) reargued in 1967 as No. 8
+    "1966:80":  "1966:40",              // Sherman v. INS (No. 80) combined with Woodby v. Immigration and Naturalization Service (No. 40)
+    "1966:38":  "1967:2",               // Marchetti v. United States (No. 38) reargued in 1967 as No. 2
+    "1966:181": "1967:12",              // Grosso v. United States (No. 181) reargued in 1967 as No. 12
+    "1966:972": "1966:914",             // United States v. Provident National Bank (No. 972) combined with United States v. First City National Bank of Houston (No. 914)
+    "1966:150": "1966:37",              // Associated Press v Walker (No. 150) combined with Curtis Publishing Company v. Butts (No. 37)
+    "1966:240": "1966:673",             // Second National Bank of New Haven, Executor v. United States (No. 240) combined with Commissioner of Internal Revenue v. Estate of Bosch (No. 673)
+    "1966:23":  "1966:8",               // United States et al. v. Atchison, Topeka & Santa Fe Railway Co. (No. 23) combined with Chicago & N.W. R. Co. v. A., T & S.F. R. Co. (No. 8), 387 U.S. 326 (1967), which Oyez has misfiled as "A Quantity of Copies of Books v. Kansas (No. 8)" with no argument
+    "1966:491": "1966:624",             // Board of Supervisors of Suffolk County v. Bianchi (No. 491) combined with Moody v. Flowers (No. 624)
 };
 
 /**
@@ -5217,6 +5233,9 @@ let scdbErrors = {
     "1962-059": ["dateArgument:1962-04-17", "dateRearg:1963-01-16"],
     "1962-144": ["dateArgument:1962-04-18,1962-04-19", "dateRearg:1962-12-06"],
     "1965-089": "dateArgument:1963-12-10,1965-11-16",
+    "1965-122": "dateArgument:1966-02-28,1966-03-01,1966-03-02",
+    "1966-094": "dateArgument:1966-12-06",
+    "1966-112": "dateArgument:1967-04-13",
 };
 
 /**
@@ -5487,9 +5506,16 @@ function matchJournals(done)
         let docketList = dockets.join(',');
         let caseArgued = casesArgued.find((caseArgued) => caseArgued.term == termID && caseArgued.dockets.join(',') == docketList);
 
+        let event = caseMarker.caseEvent;
+        if (event.slice(-1) != '.') event += '.';
+
         if (!caseArgued) {
-            caseArgued = {page, line, term: termID, scdb: "", dates: [], dockets, titles, advocates: {}, event: caseMarker.caseEvent};
+            caseArgued = {page, line, term: termID, scdb: "", dates: [], dockets, titles, advocates: {}, events: [event]};
             casesArgued.push(caseArgued);
+        } else {
+            if (caseArgued.events.indexOf(event) < 0) {
+                caseArgued.events.push(event);
+            }
         }
 
         let prettyDate = formattedDate(date);
@@ -5760,7 +5786,7 @@ function matchJournals(done)
                 let lines = marker.text.split('\n');
                 while (lines.length) {
                     let s = lines.pop();
-                    if (s.length > 1 && !s.match(/^[0-9-\s]+$/)) {
+                    if (s.length > 1 && !s.match(/^[0-9_-\s]+$/)) {     // try to remove numeric "garbage" at the bottom of various pages
                         lines.push(s);
                         break;
                     }
@@ -5790,14 +5816,14 @@ function matchJournals(done)
         let markers = [];
         let text = dateMarker.text;
         let lineIndexes = getLineIndexes(text);
-        let pattern = "\\n *No[.,]\\s+([0-9][^\\.]*)(\\.,[^\\.]+\\.\\s*|\\.\\s*)";
+        let pattern = "\\n *No[.,]\\s+([0-9]+)(,\\s*Original|,\\s*Misc\\.|)(,?[A-Za-z\\s]+Term,?\\s+[0-9]+|)\\.\\s*";
         let re = new RegExp(pattern, "g"), match;
         let prevIndex = 0;
         while ((match = re.exec(text))) {
             let marker = {};
             marker.page = dateMarker.page;
             marker.line = dateMarker.line + getLineOffset(match.index + 1, lineIndexes);
-            marker.caseNumber = "No. " + match[1].replace(/\s+/g, ' ');
+            marker.caseNumber = "No. " + (match[1] + match[2]).replace(/\s+/g, ' ');
             if (prevIndex > 0) {
                 markers[markers.length-1].text = text.substring(prevIndex, match.index);
             }
@@ -5834,10 +5860,10 @@ function matchJournals(done)
                 }
                 if (prev == "v") continue;
                 if (next == "The" || next == "Per" || next == "Upon" || next == "It" || next == "On") break;
-                if (next == "One" || next == "Two" || next == "Three" || next == "Having") break;
-                if (next == "Appeal" || next == "Appeals" || next == "Application") break;
+                if (next == "One" || next == "Two" || next == "Three" || next == "Eight" || next == "Total") break;
+                if (next == "Appeal" || next == "Appeals" || next == "Application" || next == "Having") break;
                 if (next == "Application" || next == "Applications" || next == "Memorandum") break;
-                if (next == "Motion" || next == "Motions" || next == "Petition" || next == "Petitions") break;
+                if (next == "Leave" || next == "Motion" || next == "Motions" || next == "Petition" || next == "Petitions") break;
                 if (next == "Argued" || next == "Argument" || next == "Arguments" || next == "Reargued" || next == "Reargument") break;
             }
 
@@ -5976,7 +6002,7 @@ function matchJournals(done)
                 caseMarker.page = getPageFromLine(caseMarker.line, pageLines)[0];
                 printf("\npage %d, line %d: \"%s, %s %d, %d\" (%s)\n", dateMarker.page, dateMarker.line, dateMarker.weekday, dateMarker.monthName, dateMarker.day, dateMarker.year, dateMarker.date);
                 printf("    line: %d (p%d)\n    case: \"%s\"\n   title: \"%s\"\n%s: \"%s\"\n", caseMarker.line, caseMarker.page, caseMarker.caseNumber, caseMarker.caseName, caseMarker.argument? "argument" : "   event", caseMarker.caseEvent);
-                if (!caseMarker.caseEvent || caseMarker.caseEvent == ";" || caseMarker.caseEvent == "and") {
+                if (!caseMarker.caseEvent || caseMarker.caseEvent == "." || caseMarker.caseEvent == ";" || caseMarker.caseEvent == "and") {
                     consolidations.push(caseMarker);
                 }
                 else if (!caseMarker.argument) {
