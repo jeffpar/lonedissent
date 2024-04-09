@@ -5634,7 +5634,7 @@ function matchJournals(done)
             iDocketEnd = docketSearch.length - 1;
         }
         let advocateMatch = false;
-        let oyezCase, oyezAdvocates = [];
+        let oyezCase, oyezTitle = "", oyezAdvocates = [];
 
         do {
             let oyezIndex = oyezCases.findIndex(oyezCase => oyezCase.term == termSearch &&
@@ -5645,6 +5645,7 @@ function matchJournals(done)
                  * Make sure there is a matching argument date and a matching advocate.
                  */
                 oyezCase = oyezCases[oyezIndex++];
+                if (!oyezTitle) oyezTitle = oyezCase.caseTitle;
                 if (!caseArgued.oyez) caseArgued.oyez = [];
                 if (caseArgued.oyez.indexOf(oyezCase.caseLink) < 0) {
                     caseArgued.oyez.push(oyezCase.caseLink);
@@ -5676,7 +5677,11 @@ function matchJournals(done)
                 warning("advocate \"%s\" not found in Oyez (%s); see %s\n", roleMarker.name, oyezAdvocates.join(',') || "no advocates listed", caseArgued.oyez.join(','));
             }
         }
-    };
+
+        if (!argument.title) {
+            argument.title = oyezTitle || caseArgued.titles[0];
+        }
+};
 
     /**
      * getLineIndexes(text)
