@@ -5543,7 +5543,12 @@ function matchJournals(done)
         docketList = caseArgued.dockets.join(';');
         let argument = advocate.arguments.find((argument) => argument.term == caseArgued.term && argument.dockets == docketList);
         if (!argument) {
-            advocate.arguments.push({term: caseArgued.term, dates: caseArgued.dates.join(';'), dockets: docketList});
+            argument = {term: caseArgued.term, scdb: "unknown", date: prettyDate, dockets: docketList};
+            advocate.arguments.push(argument);
+        } else {
+            if (argument.date.indexOf(prettyDate) < 0) {
+                argument.date += ";" + prettyDate;
+            }
         }
 
         /**
@@ -5617,6 +5622,7 @@ function matchJournals(done)
                 caseArgued.scdb = "unknown";
             }
         }
+        argument.scdb = caseArgued.scdb;
 
         /**
          * For cases in terms 1955 and up, also verify that the case is in the Oyez database.
@@ -5662,9 +5668,13 @@ function matchJournals(done)
 
         if (!caseArgued.oyez) {
             warning("case \"%s\" (%s) not found in Oyez term %d (%s)\n", docketSearch.join(','), caseMarker.caseName, termSearch, date);
-        }
-        else if (!advocateMatch) {
-            warning("advocate \"%s\" not found in Oyez (%s); see %s\n", roleMarker.name, oyezAdvocates.join(',') || "no advocates listed", caseArgued.oyez.join(','));
+        } else {
+            if (!argument.oyez) {
+                argument.oyez = caseArgued.oyez[0];
+            }
+            if (!advocateMatch) {
+                warning("advocate \"%s\" not found in Oyez (%s); see %s\n", roleMarker.name, oyezAdvocates.join(',') || "no advocates listed", caseArgued.oyez.join(','));
+            }
         }
     };
 
