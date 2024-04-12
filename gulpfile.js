@@ -12,7 +12,7 @@
  *
  *      gulp download --source=scotus
  *
- * NOTE: Now that the 2018 term has ended, I've updated _sources.json to advance the current term from 2018 to 2019.
+ * NOTE: Now that the 2018 term has ended, I've updated _sources.json5 to advance the current term from 2018 to 2019.
  *
  * Notes on Supreme Court Terms
  * ----------------------------
@@ -103,6 +103,7 @@
 import glob from "glob";
 import gulp from "gulp";
 import fs from "fs";
+import json5 from "json5";
 import mkdirp from "mkdirp";
 import path from "path";
 import request from "request";
@@ -125,7 +126,7 @@ let sprintf = stdio.sprintf;
 let rootDir = ".";
 let _data = JSON.parse(fs.readFileSync(rootDir + "/_data/_data.json"));
 let logs = JSON.parse(fs.readFileSync(rootDir + "/logs/_logs.json"));
-let sources = JSON.parse(fs.readFileSync(rootDir + "/sources/_sources.json"));
+let sources = json5.parse(fs.readFileSync(rootDir + "/sources/_sources.json5"));
 
 let argv = proclib.args.argv;
 let downloadTasks = [];
@@ -5082,16 +5083,6 @@ function listBriefs(done)
     done();
 }
 
-let advocateMappings = {
-    "Assistant Attorney General Holland":   "H. Brian Holland",
-    "Solicitor General Sobeloff":           "Simon E. Sobeloff",
-    "Solicitor General Rankin":             "J. Lee Rankin",
-    "Attorney General Rogers":              "William P. Rogers",
-    "Solicitor General Cox":                "Archibald Cox",
-    "Solicitor General Marshall":           "Thurgood Marshall",
-    "Attorney General Katzenbach":          "Nicholas deB. Katzenbach",
-};
-
 /**
  * Using only a 4-digit year to identify Court terms is problematic, because in the past,
  * the Court sometimes had multiple "regular terms" in a single year, as well as the
@@ -5133,77 +5124,7 @@ let advocateMappings = {
  * consistent about which set of numbers it used for filing purposes, hence the occasional
  * asterisk, as a signal to check for other filing combinations.
  */
-let redocketedCases = {
-    "1955:105": "1956:1",               // Thompson v. Coastal Oil Co.
-    "1956:15":  "1957:2",               // Yates v. United States
-    "1956:29":  "1957:3",               // Scales v. United States (unclear why Oyez filed this in 1957; it was redocketed in 1957 as No. 3 in anticipation of reargument but it was ultimately decided without reargument)
-    "1956:32":  "1957:4",               // Lightfoot v. United States (unclear why Oyez filed this in 1957; same issue as Scales)
-    "1956:34":  "1957:5",               // Rowoldt v. Perfetto
-    "1956:47":  "1956:45",              // Arnhold v. United States (No. 47) argued with Rayonier Incorporated v. United States (No. 45)
-    "1955:701": "1956:701*",            // Reid v. Covert (old docket number carried forward; Oyez filed it under the older term)
-    "1955:713": "1956:713*",            // Kinsella v. Krueger (old docket number carried forward; Oyez filed it under the older term)
-    "1956:590": "1957:47*",             // Lambert v. California (Oyez misfiled the redocketed case in the 1956 term, which creates a new problem, because there is a different No. 47, consolidated with No. 45, that also appears in 1956)
-    "1956:570": "1957:43",              // Brown v. United States
-    "1956:589": "1957:46",              // Green v. United States
-    "1956:572": "1957:44",              // Perez v. Brownell
-    "1956:415": "1957:19",              // Nishikawa v. Dulles
-    "1956:710": "1957:70*",             // Trop v. Dulles (Oyez misfiled the redocketed case in the 1956 term)
-    "1957:15":  "15",                   // Public Service Commission of Utah v. United States (we need an EXACT match in 1957, since Oyez also lists Yates v. United States as both No. 2 and No. 15)
-    "1957:39":  "1958:1",               // Bartkus v. Illinois
-    "1957:41":  "1958:2",               // Ladner v. United States (ORAL REARGUMENT - OCTOBER 22, 1958)
-    "1957:322": "1958:3",               // Romero v. International Terminal Operating Company
-    "1957:492": "1959:492",             // Flora v. United States (old docket number carried forward)
-    "1958:1 Misc.": "1958:1 Misc.*",    // Cooper v. Aaron (this is technically No. 1 Misc. in August Special Term 1958, but Oyez filed it in the 1957 term)
-    "1958:1":   "1958:1 Misc.*",        // Cooper v. Aaron (this is technically No. 1 in August Special Term 1958; No. 1 was a different case in both the 1957 and 1958 regular terms, so Oyez chose to "consolidate" it with No. 1 Misc.)
-    "1958:237": "1958:290",             // Securities and Exchange Commission v. Variable Annuity Life Insurance Company of America (for reasons unknown, the second case became the "lead" case)
-    "1958:263": "1959:2",               // Abel v. United States
-    "1958:488": "1960:1",               // Scales v. United States (this came back to the Court after 355 U.S. 1 (1957) and "the confession of error by the Solicitor General"--hmmm)
-    "1958:512": "1958:380",             // Baird v. Commissioner (this was argued separately but decided with No. 380, Commissioner v. Hansen)
- // "1959:546": "1959:376",             // Stanton v. United States (No. 546) was argued separately (on March 24, 1960), but is missing from Oyez; it was decided with Commissioner v. Duberstein (No. 376), which is present in Oyez
-    "1959:258": "1960:4*",              // International Association of Machinists v. Street (Oyez misfiled the redocketed case in the 1959 term)
-    "1960:3":   "1960:10",              // Travis v. United States (No. 10 became the lead case instead of No. 3)
-    "1960:103": "1961:6*",              // Baker v. Carr (Oyez misfiled the redocketed case in the 1960 term)
-    "1961:49":  "1961:17",              // Nos. 49, 53, and 54 were argued separately from Nos. 17 and 18, but decided together, hence Oyez filed them all under No. 17 (see https://www.oyez.org/cases/1961/17)
-    "1961:44":  "1962:5",               // National Association for the Advancement of Colored People v. Button (ORAL REARGUMENT - OCTOBER 09, 1962)
-    "1961:70":  "1962:6*",              // Gibson v. Florida Legislative Investigation Committee (ORAL REARGUMENT - OCTOBER 10-11, 1962)
-    "1961:76":  "1962:8",               // Townsend v. Sain (ORAL REARGUMENT - OCTOBER 08-09, 1962)
-    "1961:90":  "1962:14",              // Mercantile Nat'l Bank at Dallas v. Langdeau (see https://www.oyez.org/cases/1962/14_0)
-    "1961:173": "1962:18*",             // United States v. National Dairy Products Corporation (ORAL REARGUMENT - DECEMBER 05, 1962)
-    "1961:264": "1962:24*",             // Halliburton Oil Well Cementing Company v. Reily (ORAL REARGUMENT - DECEMBER 03, 1962)
-    "1961:255": "1962:21",              // United States v. Gilmore (ORAL REARGUMENT - DECEMBER 05-06, 1962)
-    "1961:256": "1962:22*",             // United States v. Patrick (ORAL REARGUMENT - DECEMBER 06, 1962)
-    "1961:479": "1962:36",              // Wong Sun v. United States (ORAL REARGUMENT - OCTOBER 08, 1962)
-    "1961:476": "1962:34*",             // Douglas v. California (ORAL REARGUMENT - JANUARY 16, 1963)
-    "1961:477": "1962:35*",             // Yellin v. United States (ORAL REARGUMENT - DECEMBER 06, 1962)
-    "1961:278": "1962:25**",            // Presser v. United States (reargued in the 1962 term as No. 25 on October 8, 1962, but Oyez only has the original argument, filed under the original term AND the original docket number)
-    "1962:26":  "1963:6*",              // Griffin v. Maryland (ORAL REARGUMENT - OCTOBER 14-15, 1963)
-    "1961:8 Orig.": "1962:8 Orig.*",    // Arizona v. California (see https://www.oyez.org/cases/1961/8_orig)
-    "1961:19":  "1962:2*",              // Kennedy v. Mendoza-Martinez (ORAL REARGUMENT - DECEMBER 04-05, 1962)
-    "1961:20":  "1962:3*",              // Rusk v. Cort (ORAL REARGUMENT - DECEMBER 04-05, 1962)
-    "1962:91":  "1962:107",             // McCulloch v. Sociedad Nacional de Marineros de Honduras (of Nos. 91, 93, and 107, 107 became the lead case)
-    "1962:164": "1963:11",              // Jacobellis v. Ohio (ORAL REARGUMENT - APRIL 01, 1964)
-    "1962:368:":"1963:13",              // Retail Clerks International Association, Local 1625, AFL-CIO v. Schermerhorn (ORAL REARGUMENT - OCTOBER 16-17, 1963)
-    "1963:400": "1964:4",               // Garrison v. Louisiana (an example of a reargued case that Oyez filed correctly, but alas, it swapped the argument and reargument audio files)
- // "1963:60":  "1963:60",              // Robinson v. Florida (No. 60) was argued by amici with Nos. 6, 9, 10, and 12 on October 15, 1963)
-    "1963:14 Orig.": "1965:14 Orig.",   // Louisiana v. Mississippi (ORAL REARGUMENT - NOVEMBER 16, 1965)
-    "1964:5":   "1964:2",               // Lupper v. Arkansas (No. 5) was argued with (and decided with) Hamm v. City of Rock Hill (No. 2); Oyez took the unusual step of combining all the audio files: https://www.oyez.org/cases/1964/2
-    "1964:29":  "1964:50",              // Peter v. United States (No. 29) was argued with (and decided with) United States v. Seeger (No. 50)
-    "1964:51":  "1964:50",              // United States v. Jakobson (No. 51): ditto
-    "1965:31":  "1965:30",              // Idaho Sheet Metal Works, Inc. v. Wirtz (No. 30) subsumed Wirtz v. Steepleton General Tire Company (No. 31)
-    "1965:562": "1966:22*",             // Time, Inc. v. Hill (No. 562) was reargued in the 1966 term as No. 22, but Oyez filed it in the 1965 term
-    "1966:69":  "1966:68",              // Bell v. Texas (No. 69) combined with Spencer v. Texas (No. 68)
-    "1966:70":  "1966:68",              // Reed v. Beto (No. 70) also combined with Spencer v. Texas (No. 68)
-    "1966:91":  "1966:54",              // Scott, aka Plummer v. Immigration and Naturalization Service (No. 91) decided with INS v. Errico (No. 54)
-    "1966:83":  "1967:8",               // United States v. Robel (No. 83) reargued in 1967 as No. 8
-    "1966:80":  "1966:40",              // Sherman v. INS (No. 80) combined with Woodby v. Immigration and Naturalization Service (No. 40)
-    "1966:38":  "1967:2",               // Marchetti v. United States (No. 38) reargued in 1967 as No. 2
-    "1966:181": "1967:12",              // Grosso v. United States (No. 181) reargued in 1967 as No. 12
-    "1966:972": "1966:914",             // United States v. Provident National Bank (No. 972) combined with United States v. First City National Bank of Houston (No. 914)
-    "1966:150": "1966:37",              // Associated Press v Walker (No. 150) combined with Curtis Publishing Company v. Butts (No. 37)
-    "1966:240": "1966:673",             // Second National Bank of New Haven, Executor v. United States (No. 240) combined with Commissioner of Internal Revenue v. Estate of Bosch (No. 673)
-    "1966:23":  "1966:8",               // United States et al. v. Atchison, Topeka & Santa Fe Railway Co. (No. 23) combined with Chicago & N.W. R. Co. v. A., T & S.F. R. Co. (No. 8), 387 U.S. 326 (1967), which Oyez has misfiled as "A Quantity of Copies of Books v. Kansas (No. 8)" with no argument
-    "1966:491": "1966:624",             // Board of Supervisors of Suffolk County v. Bianchi (No. 491) combined with Moody v. Flowers (No. 624)
-};
+// let redocketedCases = {};    // moved to sources.scotus.journals.redocketed
 
 /**
  * This table addresses only SCDB errors and omissions discovered during our Journal audit.
@@ -5213,30 +5134,7 @@ let redocketedCases = {
  *
  * All I'm doing here is including all dates whenever an incorrect or missing date is discovered in the audit.
  */
-let scdbErrors = {
-    "1955-003": "dateArgument:1955-10-10",      // the Journal and Oyez and NARA agree on October 10, 1955 (looks like an error in U.S. Reports)
-    "1956-056": "dateArgument:1957-03-34,1957-03-05",
-    "1956-113": "dateArgument:1956-10-08,1956-10-09",
-    "1957-005": "dateRearg:",                   // SCDB erroneously picked up the date the case was "restored to the docket for reargument"; that's just a docketing event, not an argument
-    "1957-010": "dateArgument:1956-10-09,1956-10-10",
-    "1957-151": "dateArgument:1958-04-09,1958-04-10",
-    "1958-079": "dateArgument:1959-03-26,1959-03-30",
-    "1958-125": "dateArgument:1959-04-29,1959-04-30",
-    "1959-013": "dateArgument:1959-10-20",
-    "1960-031": "docket:128",
-    "1961-077": "dateArgument:1961-12-07,1961-12-08,1961-12-11,1961-12-12",
-    "1962-066": ["dateArgument:1961-12-05", "dateRearg:1962-10-10,1962-10-11"],
-    "1962-127": ["dateArgument:1962-01-08,1962-01-09,1962-01-10,1962-01-11", "dateRearg:1962-11-13,1962-11-14"],
-    "1962-057": ["dateArgument:1962-02-19", "dateRearg:1962-10-08,1962-10-09"],
-    "1962-043": ["dateArgument:1962-03-27,1962-03-28", "dateRearg:1962-12-05,1962-12-06"],
-    "1962-033": ["dateArgument:1962-03-29,1962-04-02", "dateRearg:1962-10-08"],
-    "1962-059": ["dateArgument:1962-04-17", "dateRearg:1963-01-16"],
-    "1962-144": ["dateArgument:1962-04-18,1962-04-19", "dateRearg:1962-12-06"],
-    "1965-089": "dateArgument:1963-12-10,1965-11-16",
-    "1965-122": "dateArgument:1966-02-28,1966-03-01,1966-03-02",
-    "1966-094": "dateArgument:1966-12-06",
-    "1966-112": "dateArgument:1967-04-13",
-};
+// let scdbErrors = {};         // moved to sources.scdb.errors
 
 /**
  * fixSCDBErrors(decisions)
@@ -5250,18 +5148,19 @@ function fixSCDBErrors(decisions)
         warning("decisions are not sorted by caseId\n");
         sortObjects(decisions, ["caseId"]);
     }
-    for (let caseId in scdbErrors) {
+    for (let caseId in sources.scdb.errors) {
         let i = searchSortedObjects(decisions, {caseId});
         if (i >= 0) {
-            let fixes = scdbErrors[caseId];
-            if (!Array.isArray(scdbErrors[caseId])) {
+            let fixes = sources.scdb.errors[caseId];
+            if (!Array.isArray(fixes)) {
                 fixes = [fixes];
             }
             for (let fix of fixes) {
                 let f = fix.split(":");
+                if (f[0] == "comment") continue;
                 decisions[i][f[0]] = f[1];
             }
-        } else {
+        } else if (caseId.indexOf('X') < 0) {   // any IDs with an 'X' are placeholders we created for missing SCDB cases
             warning("unable to find SCDB case \"%s\"\n", caseId);
         }
     }
@@ -5297,6 +5196,8 @@ function matchJournals(done)
 {
     let decisions = fixSCDBErrors(readJSON(sources.ld.decisions));
     let oyezCases = readCSV(sources.oyez.cases_csv);
+    let redocketedCases = sources.scotus.journals.redocketed;
+
     /**
      * These two tables are built up from Journal data as addCaseAdvocate() is called for each role found
      * in each case found on each day.  Since addCaseAdvocate() checks each case (and the advocate) against
@@ -5334,15 +5235,30 @@ function matchJournals(done)
         return [id, name];
     };
 
-    let normalize = function(caseNumber) {
-        let match = caseNumber.match(/No\. ([0-9-]+),?\s*(Misc|Orig|)/i);
+    let matchDockets = function(caseNumber) {
+        let match = caseNumber.match(/Nos?\.([0-9 ,-]+)\s*(Misc|Orig|)/i);
         if (!match) {
             warning("unrecognized case number \"%s\"\n", caseNumber);
-            return "";
+            return [];
         }
-        let docket = match[1];
-        if (match[2]) docket += ' ' + capitalize(match[2]) + '.';
-        return docket;
+        let dockets = [];
+        let numberList = match[1].trim();
+        let numbers = numberList.split(/, ?/);
+        for (let number of numbers) {
+            if (!number) continue;
+            if (number == "---" || number.indexOf('-') < 0) {
+                dockets.push(number);
+            } else {
+                let range = number.split('-');
+                for (let j = +range[0]; j <= +range[1]; j++) {
+                    dockets.push(j.toString());
+                }
+            }
+        }
+        if (match[2]) {
+            dockets[dockets.length - 1] += ' ' + capitalize(match[2]) + '.';
+        }
+        return dockets;
     };
 
     let formattedDate = function(date) {
@@ -5356,7 +5272,7 @@ function matchJournals(done)
     let checkRedocketed = function(term, month, dockets, fOyez=false) {
         let exact = false;
         let useOriginalTerm = false;
-        let useOriginalDocket = false;
+        let usePreviousTerm = false, usePreviousDocket = false;
         let idCase = term + ':' + dockets[0];
         let redocketed = redocketedCases[idCase];
         if (!redocketed) {
@@ -5372,18 +5288,15 @@ function matchJournals(done)
         }
         else if (redocketed.indexOf("Misc") < 0 || month == 8 || month == 9) {
             if (redocketed.endsWith('***')) {
-                if (fOyez) exact = useOriginalDocket = true;
+                if (fOyez) useOriginalTerm = true;
                 redocketed = redocketed.slice(0, -3);
             }
             else if (redocketed.endsWith('**')) {
-                if (fOyez) exact = useOriginalTerm = useOriginalDocket = true;
+                if (fOyez) exact = usePreviousTerm = usePreviousDocket = true;
                 redocketed = redocketed.slice(0, -2);
             }
             else if (redocketed.endsWith('*')) {
-                if (fOyez) {
-                    exact = useOriginalTerm = true;
-                    if (month == 8 || month == 9) term--;   // hack for August Special Term 1958
-                }
+                if (fOyez) exact = usePreviousTerm = true;
                 redocketed = redocketed.slice(0, -1);
             }
             if (redocketed.indexOf(':') < 0) {
@@ -5391,8 +5304,13 @@ function matchJournals(done)
                 exact = true;
             } else {
                 let parts = redocketed.split(':');
-                term = useOriginalTerm? Math.min(term, +parts[0]) : +parts[0];
-                if (!useOriginalDocket && month != 9) {     // another hack for August Special Term 1958
+                if (!useOriginalTerm) {
+                    term = +parts[0];
+                }
+                if (usePreviousTerm) {
+                    term = +parts[0] - 1;
+                }
+                if (!usePreviousDocket && month != 9) {     // hack for August Special Term 1958
                     dockets = parts.slice(1);
                 }
             }
@@ -5496,11 +5414,11 @@ function matchJournals(done)
         let dockets = [], titles = [];
         if (caseMarker.consolidations) {
             for (let marker of caseMarker.consolidations) {
-                dockets.push(normalize(marker.caseNumber));
+                dockets = dockets.concat(matchDockets(marker.caseNumber));
                 titles.push(marker.caseName);
             }
         }
-        dockets.push(normalize(caseMarker.caseNumber));
+        dockets = dockets.concat(matchDockets(caseMarker.caseNumber));
         titles.push(caseMarker.caseName);
 
         let docketList = dockets.join(',');
@@ -5588,6 +5506,7 @@ function matchJournals(done)
                     if (+decision.caseId.slice(0, 4) != termSearch) break;
                     let decisionDockets = decision.docket.split(',');
                     for (let decisionDocket of decisionDockets) {
+                        if (decisionDocket == "Orig.") decisionDocket = "--- Orig.";
                         if (docketSearch.indexOf(decisionDocket) >= 0) {
                             let argumentDates = [];
                             if (decision.dateArgument) {
@@ -5598,7 +5517,7 @@ function matchJournals(done)
                             }
                             for (let argumentDate of argumentDates) {
                                 let days = Math.abs(datelib.subtractDays(date, argumentDate));
-                                if (days <= 1) {
+                                if (days <= 2) {
                                     caseId = decision.caseId;
                                     if (days) {
                                         // warning("case \"%s\" (%s) (%s) matched SCDB case %s (%s) within %d day(s)\n", dockets.join(','), caseMarker.caseName, date, caseId, argumentDate, days);
@@ -5607,7 +5526,7 @@ function matchJournals(done)
                                 }
                             }
                             if (caseId) break;
-                            scdbPossibilities.push(decision.caseId + ':' + argumentDates.join(','));
+                            scdbPossibilities.push(decision.caseId + (argumentDates.length? (':' + argumentDates.join(',')) : ""));
                         }
                     }
                 }
@@ -5627,61 +5546,64 @@ function matchJournals(done)
         /**
          * For cases in terms 1955 and up, also verify that the case is in the Oyez database.
          */
-        let [termSearch, docketSearch, exactSearch] = checkRedocketed(term, month, dockets, true);
+        let oyezTitle = "";
+        if (term >= 1955) {
+            let [termSearch, docketSearch, exactSearch] = checkRedocketed(term, month, dockets, true);
 
-        let iDocket = 0, iDocketEnd = 0;
-        if (!exactSearch) {
-            iDocketEnd = docketSearch.length - 1;
-        }
-        let advocateMatch = false;
-        let oyezCase, oyezTitle = "", oyezAdvocates = [];
+            let iDocket = 0, iDocketEnd = 0;
+            if (!exactSearch) {
+                iDocketEnd = docketSearch.length - 1;
+            }
+            let advocateMatch = false;
+            let oyezCase, oyezAdvocates = [];
 
-        do {
-            let oyezIndex = oyezCases.findIndex(oyezCase => oyezCase.term == termSearch &&
-                (oyezCase.dateArgument && oyezCase.dateArgument.indexOf(date) >= 0 || oyezCase.dateRearg && oyezCase.dateRearg.indexOf(date) >= 0) &&
-                (oyezCase.docket.toString().split(',').indexOf(docketSearch[iDocket]) >= 0));
-            if (oyezIndex >= 0) {
-                /**
-                 * Make sure there is a matching argument date and a matching advocate.
-                 */
-                oyezCase = oyezCases[oyezIndex++];
-                if (!oyezTitle) oyezTitle = oyezCase.caseTitle;
-                if (!caseArgued.oyez) caseArgued.oyez = [];
-                if (caseArgued.oyez.indexOf(oyezCase.caseLink) < 0) {
-                    caseArgued.oyez.push(oyezCase.caseLink);
-                }
-                for (let field of ["advocatesPetitioner", "advocatesRespondent", "advocatesOther"]) {
-                    if (oyezCase[field]) {
-                        oyezAdvocates.push(...oyezCase[field].split(','));
+            do {
+                let oyezIndex = oyezCases.findIndex(oyezCase => oyezCase.term == termSearch &&
+                    (oyezCase.dateArgument && oyezCase.dateArgument.indexOf(date) >= 0 || oyezCase.dateRearg && oyezCase.dateRearg.indexOf(date) >= 0) &&
+                    (oyezCase.docket.toString().split(',').indexOf(docketSearch[iDocket]) >= 0));
+                if (oyezIndex >= 0) {
+                    /**
+                     * Make sure there is a matching argument date and a matching advocate.
+                     */
+                    oyezCase = oyezCases[oyezIndex++];
+                    if (!oyezTitle) oyezTitle = oyezCase.caseTitle;
+                    if (!caseArgued.oyez) caseArgued.oyez = [];
+                    if (caseArgued.oyez.indexOf(oyezCase.caseLink) < 0) {
+                        caseArgued.oyez.push(oyezCase.caseLink);
+                    }
+                    for (let field of ["advocatesPetitioner", "advocatesRespondent", "advocatesOther"]) {
+                        if (oyezCase[field]) {
+                            oyezAdvocates.push(...oyezCase[field].split(','));
+                        }
                     }
                 }
-            }
-        } while (++iDocket <= iDocketEnd);
+            } while (++iDocket <= iDocketEnd);
 
-        for (let j = 0; j < oyezAdvocates.length; j++) {
-            let oyezAdvocate = oyezAdvocates[j];
-            let regex = new RegExp(oyezAdvocate.replace(/^wm_/, "(wm|william)_").replace(/_/g, ".*").replace(/[0-9]$/, ""), "i");
-            if (idAdvocate.match(regex)) {
-                advocateMatch = true;
-                break;
+            for (let j = 0; j < oyezAdvocates.length; j++) {
+                let oyezAdvocate = oyezAdvocates[j];
+                let regex = new RegExp(oyezAdvocate.replace(/^wm_/, "(wm|william)_").replace(/_/g, ".*").replace(/[0-9]$/, ""), "i");
+                if (idAdvocate.match(regex)) {
+                    advocateMatch = true;
+                    break;
+                }
             }
-        }
 
-        if (!caseArgued.oyez) {
-            warning("case \"%s\" (%s) not found in Oyez term %d (%s)\n", docketSearch.join(','), caseMarker.caseName, termSearch, date);
-        } else {
-            if (!argument.oyez) {
-                argument.oyez = caseArgued.oyez[0];
-            }
-            if (!advocateMatch) {
-                warning("advocate \"%s\" not found in Oyez (%s); see %s\n", roleMarker.name, oyezAdvocates.join(',') || "no advocates listed", caseArgued.oyez.join(','));
+            if (!caseArgued.oyez) {
+                warning("case \"%s\" (%s) not found in Oyez term %d (%s)\n", docketSearch.join(','), caseMarker.caseName, termSearch, date);
+            } else {
+                if (!argument.oyez) {
+                    argument.oyez = caseArgued.oyez[0];
+                }
+                if (!advocateMatch) {
+                    warning("advocate \"%s\" not found in Oyez (%s); see %s\n", roleMarker.name, oyezAdvocates.join(',') || "no advocates listed", caseArgued.oyez.join(','));
+                }
             }
         }
 
         if (!argument.title) {
             argument.title = oyezTitle || caseArgued.titles[0];
         }
-};
+    };
 
     /**
      * getLineIndexes(text)
@@ -5831,7 +5753,8 @@ function matchJournals(done)
         let markers = [];
         let text = dateMarker.text;
         let lineIndexes = getLineIndexes(text);
-        let pattern = "\\n *No[.,]\\s+([0-9]+)(,\\s*Original|,\\s*Misc\\.|)(,?[A-Za-z\\s]+Term,?\\s+[0-9]+|)\\.\\s*";
+        let pattern = "\\n *Nos?[.,]\\s+([0-9-]+)(,\\s*Original|,\\s*Misc\\.|,\\s*[0-9][0-9, -]*|)(,?[A-Za-z\\s]+Term,?\\s+[0-9]+| et al|)\\.\\s*";
+     // let pattern = "\\n *Nos?[.,]\\s+([0-9-]+)(,\\s*Original|,\\s*Misc\\.| et al|)(,?[A-Za-z\\s]+Term,?\\s+[0-9]+|)[.,]*\\s*";
         let re = new RegExp(pattern, "g"), match;
         let prevIndex = 0;
         while ((match = re.exec(text))) {
@@ -5875,7 +5798,7 @@ function matchJournals(done)
                 }
                 if (prev == "v") continue;
                 if (next == "The" || next == "Per" || next == "Upon" || next == "It" || next == "On") break;
-                if (next == "One" || next == "Two" || next == "Three" || next == "Eight" || next == "Total") break;
+                if (next == "One" || next == "Two" || next == "Three" || next == "Four" || next == "Eight" || next == "Total") break;
                 if (next == "Appeal" || next == "Appeals" || next == "Application" || next == "Having") break;
                 if (next == "Application" || next == "Applications" || next == "Memorandum") break;
                 if (next == "Leave" || next == "Motion" || next == "Motions" || next == "Petition" || next == "Petitions") break;
@@ -5921,12 +5844,12 @@ function matchJournals(done)
         let getNames = function(text) {
             let match;
             let markers = [];
-            const regex = /([a-z,.]+)(\s+)(Mr\.|Mrs\.|Miss|)(\s+)(?:[A-Z][A-Za-zÀ-ÿ'-]*\.?\s+|von\s+)*([A-Z][A-Za-zÀ-ÿ'-]+),?\s*(Jr\.|Sr\.|IV|III|II|)/g;
+            const regex = /([a-z,.]+)(\s+)(Mr\.|Mrs\.|Miss|)(\s+)(?:[A-Z][A-Za-zÀ-ÿ'-]*\.?\s+|von\s+|van\s+)*([A-Z][A-Za-zÀ-ÿ'-]+),?\s*(Jr\.|Sr\.|IV|III|II|)/g;
             while ((match = regex.exec(text)) !== null) {
                 let id, preceding = match[1];
                 let name = match[0].substring(match[1].length + match[2].length + match[3].length + match[4].length).trim();
                 if (name.slice(-1) == ",") name = name.slice(0, -1);
-                let mapping = advocateMappings[name];
+                let mapping = sources.scotus.journals.advocates[name];
                 if (mapping) name = mapping;
                 [id, name] = identifize(name);
                 let female = (match[3] == "Mrs." || match[3] == "Miss");
@@ -5964,11 +5887,22 @@ function matchJournals(done)
     };
 
     printf("reading SCOTUS journals...\n");
-    let validatedJournals = '{' + sources.scotus.journals.validated.join(',') + '}';
-    let filePaths = glob.sync(rootDir + sources.scotus.journals.path.replace('*', argv['group'] || validatedJournals));
+    let validated = sources.scotus.journals.validated || [];
+    let validatedList = "";
+    for (let v of validated) {
+        let s = v.split('-');
+        if (s.length == 1) s.push(s[0]);
+        for (let i = +s[0]; i <= +s[1]; i++) {
+            if (!validatedList) validatedList += ',';
+            validatedList += i;
+        }
+    }
+    validatedList = '{' + validatedList + '}';
+    let filePaths = glob.sync(rootDir + sources.scotus.journals.path.replace('*', argv['group'] || validatedList));
     filePaths.forEach(function matchJournal(filePath) {
         let text = readFile(filePath, "ascii");
         if (!text) return;
+        text = text.replace(/–/g, '-');
         let pageLines = getPageLines(text);
 
         /**
@@ -6036,6 +5970,9 @@ function matchJournals(done)
             }
         }
 
+        let termBeg = sprintf("%04d-%02d-%02d", term, 8, 1);
+        let termEnd = sprintf("%04d-%02d-%02d", term+1, 7, 31);
+
         /**
          * Now it's time to iterate over Oyez's term data and make sure that every argument date has a corresponding
          * set of arguments in the Journal data.
@@ -6043,46 +5980,46 @@ function matchJournals(done)
          * We've already done the opposite (ie, as we discovered argument data in the Journal, we confirmed that it existed
          * in the Oyez data).
          */
-        let termBeg = sprintf("%04d-%02d-%02d", term, 8, 1);
-        let termEnd = sprintf("%04d-%02d-%02d", term+1, 7, 31);
-        for (let oyezIndex = 0; oyezIndex < oyezCases.length; oyezIndex++) {
-            let oyezCase = oyezCases[oyezIndex];
-            let oyezDates = [];
-            if (oyezCase.dateArgument) {
-                oyezDates = oyezDates.concat(oyezCase.dateArgument.split(','));
-            }
-            if (oyezCase.dateRearg) {
-                oyezDates = oyezDates.concat(oyezCase.dateRearg.split(','));
-            }
-            if (!oyezDates.length) continue;
-            for (let oyezDate of oyezDates) {
-                if (oyezDate >= termBeg && oyezDate <= termEnd) {
-                    let caseArgued = null;
-                    let dockets = searchRedocketed(term, oyezCase.docket.toString().split(','), oyezCase);
-                    for (let i = 0; i < casesArgued.length; i++) {
-                        if (casesArgued[i].dates.indexOf(formattedDate(oyezDate)) < 0) continue;
-                        for (let j = 0; j < dockets.length; j++) {
-                            if (casesArgued[i].dockets.indexOf(dockets[j]) < 0) continue;
-                            caseArgued = casesArgued[i];
-                            break;
+        if (term >= 1955) {
+            for (let oyezIndex = 0; oyezIndex < oyezCases.length; oyezIndex++) {
+                let oyezCase = oyezCases[oyezIndex];
+                let oyezDates = [];
+                if (oyezCase.dateArgument) {
+                    oyezDates = oyezDates.concat(oyezCase.dateArgument.split(','));
+                }
+                if (oyezCase.dateRearg) {
+                    oyezDates = oyezDates.concat(oyezCase.dateRearg.split(','));
+                }
+                if (!oyezDates.length) continue;
+                for (let oyezDate of oyezDates) {
+                    if (oyezDate >= termBeg && oyezDate <= termEnd) {
+                        let caseArgued = null;
+                        let dockets = searchRedocketed(term, oyezCase.docket.toString().split(','), oyezCase);
+                        for (let i = 0; i < casesArgued.length; i++) {
+                            if (casesArgued[i].dates.indexOf(formattedDate(oyezDate)) < 0) continue;
+                            for (let j = 0; j < dockets.length; j++) {
+                                if (casesArgued[i].dockets.indexOf(dockets[j]) < 0) continue;
+                                caseArgued = casesArgued[i];
+                                break;
+                            }
+                            if (caseArgued) break;
                         }
-                        if (caseArgued) break;
-                    }
-                    /**
-                     * There are some unfortunate exceptions.  For example, Nos. 380 and 381 were argued on April 29-30,
-                     * and No. 512 was argued on April 30, and since they were decided together, Oyez filed them together,
-                     * under No. 380.  So we had to put an entry in our redocketedCases table to map 512 (in the Journal)
-                     * to 380 (in Oyez).
-                     *
-                     * Here, we use that mapping information in reverse, which tells us to look for No. 512 in the Journal,
-                     * but Oyez doesn't tell us that No. 512 -- unlike No. 380 -- was argued on only ONE of the two days,
-                     * and so when we can't find BOTH days for No. 512, we generate a warning.  But it's a false warning.
-                     */
-                    if (!caseArgued) {
-                        if (oyezCase.docket == "380,512" || oyezCase.docket == 17 && term == 1961) {
-                        }
-                        else {
-                            warning("case \"%s\" (%s) not found in %d Journal; see %s (%s)\n", oyezCase.docket, oyezCase.caseTitle, term, oyezCase.caseLink, oyezDate);
+                        /**
+                         * There are some unfortunate exceptions.  For example, Nos. 380 and 381 were argued on April 29-30,
+                         * and No. 512 was argued on April 30, and since they were decided together, Oyez filed them together,
+                         * under No. 380.  So we had to put an entry in our redocketedCases table to map 512 (in the Journal)
+                         * to 380 (in Oyez).
+                         *
+                         * Here, we use that mapping information in reverse, which tells us to look for No. 512 in the Journal,
+                         * but Oyez doesn't tell us that No. 512 -- unlike No. 380 -- was argued on only ONE of the two days,
+                         * and so when we can't find BOTH days for No. 512, we generate a warning.  But it's a false warning.
+                         */
+                        if (!caseArgued) {
+                            if (oyezCase.docket == "380,512" || oyezCase.docket == 17 && term == 1961) {
+                            }
+                            else {
+                                warning("case \"%s\" (%s) not found in %d Journal; see %s (%s)\n", oyezCase.docket, oyezCase.caseTitle, term, oyezCase.caseLink, oyezDate);
+                            }
                         }
                     }
                 }
@@ -6118,6 +6055,7 @@ function matchJournals(done)
                     for (let caseArgued of casesArgued) {
                         if (caseArgued.dates.indexOf(formattedDate(argumentDate)) >= 0) {
                             for (let decisionDocket of dockets) {
+                                if (decisionDocket == "Orig.") decisionDocket = "--- Orig.";
                                 if (caseArgued.dockets.indexOf(decisionDocket) >= 0) {
                                     matchingCase = true;
                                     break;
