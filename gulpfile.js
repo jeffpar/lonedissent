@@ -5235,18 +5235,18 @@ function matchJournals(done)
         return [id, name];
     };
 
-    let matchDockets = function(caseNumber) {
-        let match = caseNumber.match(/Nos?\.([0-9 ,-]+)\s*(Misc|Orig|)/i);
+    let parseDockets = function(line, caseNumber) {
+        let match = caseNumber.match(/Nos?\.([0-9 ,and-]+)\s*(Misc|Orig|)/i);
         if (!match) {
             warning("unrecognized case number \"%s\"\n", caseNumber);
             return [];
         }
         let dockets = [];
         let numberList = match[1].trim();
-        let numbers = numberList.split(/, ?/);
+        let numbers = numberList.split(/[, ]+/);
         for (let number of numbers) {
             if (!number) continue;
-            if (number == "---" || number.indexOf('-') < 0) {
+            if (number == "---" || number.indexOf('-') < 0 && number != "and") {
                 dockets.push(number);
             } else {
                 let range = number.split('-');
@@ -5271,8 +5271,8 @@ function matchJournals(done)
 
     let checkRedocketed = function(term, month, dockets, fOyez=false) {
         let exact = false;
-        let useOriginalTerm = false;
-        let usePreviousTerm = false, usePreviousDocket = false;
+        let nPreviousTerm = 0;
+        let usePreviousDocket = false;
         let idCase = term + ':' + dockets[0];
         let redocketed = redocketedCases[idCase];
         if (!redocketed) {
@@ -5288,15 +5288,23 @@ function matchJournals(done)
         }
         else if (redocketed.indexOf("Misc") < 0 || month == 8 || month == 9) {
             if (redocketed.endsWith('***')) {
-                if (fOyez) useOriginalTerm = true;
+                if (fOyez) {
+                    nPreviousTerm = 2;
+                }
                 redocketed = redocketed.slice(0, -3);
             }
             else if (redocketed.endsWith('**')) {
-                if (fOyez) exact = usePreviousTerm = usePreviousDocket = true;
+                if (fOyez) {
+                    nPreviousTerm = 1;
+                    exact = usePreviousDocket = true;
+                }
                 redocketed = redocketed.slice(0, -2);
             }
             else if (redocketed.endsWith('*')) {
-                if (fOyez) exact = usePreviousTerm = true;
+                if (fOyez) {
+                    nPreviousTerm = 1;
+                    exact = true;
+                }
                 redocketed = redocketed.slice(0, -1);
             }
             if (redocketed.indexOf(':') < 0) {
@@ -5304,12 +5312,7 @@ function matchJournals(done)
                 exact = true;
             } else {
                 let parts = redocketed.split(':');
-                if (!useOriginalTerm) {
-                    term = +parts[0];
-                }
-                if (usePreviousTerm) {
-                    term = +parts[0] - 1;
-                }
+                term = +parts[0] - nPreviousTerm;
                 if (!usePreviousDocket && month != 9) {     // hack for August Special Term 1958
                     dockets = parts.slice(1);
                 }
@@ -5414,11 +5417,11 @@ function matchJournals(done)
         let dockets = [], titles = [];
         if (caseMarker.consolidations) {
             for (let marker of caseMarker.consolidations) {
-                dockets = dockets.concat(matchDockets(marker.caseNumber));
+                dockets = dockets.concat(parseDockets(marker.line, marker.caseNumber));
                 titles.push(marker.caseName);
             }
         }
-        dockets = dockets.concat(matchDockets(caseMarker.caseNumber));
+        dockets = dockets.concat(parseDockets(caseMarker.line, caseMarker.caseNumber));
         titles.push(caseMarker.caseName);
 
         let docketList = dockets.join(',');
@@ -5753,7 +5756,7 @@ function matchJournals(done)
         let markers = [];
         let text = dateMarker.text;
         let lineIndexes = getLineIndexes(text);
-        let pattern = "\\n *Nos?[.,]\\s+([0-9-]+)(,\\s*Original|,\\s*Misc\\.|,\\s*[0-9][0-9, -]*|)(,?[A-Za-z\\s]+Term,?\\s+[0-9]+| et al|)\\.\\s*";
+        let pattern = "\\n *Nos?[.,]\\s+([0-9-]+)(,\\s*Original|,\\s*Misc|,\\s*[0-9][0-9, and-]*|)(\\.?,?[A-Za-z\\s]+Term,?\\s+[0-9]+| et al|)\\.\\s*";
      // let pattern = "\\n *Nos?[.,]\\s+([0-9-]+)(,\\s*Original|,\\s*Misc\\.| et al|)(,?[A-Za-z\\s]+Term,?\\s+[0-9]+|)[.,]*\\s*";
         let re = new RegExp(pattern, "g"), match;
         let prevIndex = 0;
@@ -5818,7 +5821,7 @@ function matchJournals(done)
             if (match) {
                 marker.caseEvent = marker.caseEvent.substring(0, match.index + match[0].length);
             }
-            let matchArgument = marker.caseEvent.match(/(^|\.\s+)(Argued|Argument|Reargued|Reargument)/);
+            let matchArgument = marker.caseEvent.match(/(^|\.\s+|\.\\?"\s+)(Argued|Argument|Reargued|Reargument)/);
             if (matchArgument) {
                 marker.caseEvent = marker.caseEvent.substring(matchArgument.index + matchArgument[1].length);
                 marker.argument = true;
@@ -5844,7 +5847,7 @@ function matchJournals(done)
         let getNames = function(text) {
             let match;
             let markers = [];
-            const regex = /([a-z,.]+)(\s+)(Mr\.|Mrs\.|Miss|)(\s+)(?:[A-Z][A-Za-zÀ-ÿ'-]*\.?\s+|von\s+|van\s+)*([A-Z][A-Za-zÀ-ÿ'-]+),?\s*(Jr\.|Sr\.|IV|III|II|)/g;
+            const regex = /([a-z,.]+)(\s+)(Mr\.|Mrs\.|Miss|)(\s+)(?:[A-Z][A-Za-zÀ-ÿ'-]*\.?\s+|von\s+|van\s+|de\s+)*([A-Z][A-Za-zÀ-ÿ'-]+),?\s*(Jr\.|Sr\.|IV|III|II|)/g;
             while ((match = regex.exec(text)) !== null) {
                 let id, preceding = match[1];
                 let name = match[0].substring(match[1].length + match[2].length + match[3].length + match[4].length).trim();

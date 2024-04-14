@@ -330,6 +330,9 @@
       "1968-137": ["dateArgument:1968-12-12", "dateRearg:1969-03-24"],
       "1968-127": "dateArgument:1969-04-21",
       "1968-119": "dateArgument:1969-04-21",
+      "1969-105": "dateArgument:1970-03-05",
+      "1970-037": "dateRearg:1970-04-29",
+      "1970-036": "dateRearg:1970-04-29",
     }
   },
   "schs": {
@@ -452,13 +455,29 @@
         "1968:25":  "1968:3",               // Nos. 25, 26 and 36 were decided with No. 3
         "1968:477": "1970:5",               // United States v. United States Coin and Currency (No. 477) redocketed as No. 5 in the 1970 term (skipping the 1969 term)
         "1968:622": "1969:13",
-        "1968:244": "1970:4***",            // Boyle v. Landry (No. 4, 1970) is a re-reargument; the first reargument was (No. 6, 1969); Oyez filed it under original term/new docket
+        "1968:244": "1970:4***",            // Boyle v. Landry, No. 4 (1970) is a re-reargument; the first reargument was No. 6 (1969); Oyez filed it under original term/new docket
+        "1969:6":   "1970:4",
         "1968:269": "1969:7",
         "1968:528": "1969:9*",
         "1968:663": "1969:16",
-        "1968:580": "1970:7",               // 1970 (No. 7) is a re-reargument; the first reargument was in 1969 (No. 11); unlike Boyle, Oyez filed this under new term/new docket
+        "1968:580": "1970:7",               // Samuels v. Mackell, No. 7 (1970) is a re-reargument; the first reargument was No. 11 (1969); unlike Boyle, Oyez filed this under new term/new docket
+        "1969:11":  "1970:7",
         "1968:163": "1969:4",
         "1968:163": "1970:2",
+        "1969:21":  "1970:10*",
+        "1969:46":  "1970:13",
+        "1969:50":  "1970:14",
+        "1969:266": "1970:28",
+        "1969:265": "1970:27*",
+        "1969:53":  "1970:15",
+        "1969:75":  "1970:18",
+        "1969:84":  "1970:19",
+        "1969:179": "1970:24",
+        "1969:730": "1970:51*",
+        "1969:4":   "1970:2",
+        "1969:6":   "1970:4***",
+        "1969:565": "1970:41",
+        "1969:1149": "1970:83*",
       }
     },
     "transcripts": "/sources/scotus/transcripts/arguments/**/*.txt",
