@@ -286,27 +286,27 @@
         "In other words, it ignores cases that were actually decided, and includes ones that were not."
     ],
     "errors": {
-      "1952-023": "dateArgument:1952-10-16",
-      "1952-102": "dateArgument:1952-12-12,1952-12-15",
+      "1952-023": ["dateArgument:1952-10-16"],
+      "1952-102": ["dateArgument:1952-12-12,1952-12-15"],
       "1952-X01": ["docket:197,198","dateArgument:1953-01-05,1953-01-06","dateDecision:1953-02-02"],                // United States v. Wilson and United States v. Purchasing Corporation of America (affirmed with a Per Curiam on February 2, 1953, with Justices Douglas and Burton silently dissenting; see 344 U.S. 923)
       "1952-X02": ["docket:390","dateArgument:1953-01-13","dateDecision:1953-02-02"],                               // Ward v. United States (reversed with a Per Curiam on February 2, 1953 with no dissents; see 344 U.S. 924)
-      "1953-X01": ["docket:347","dateArgument:1954-01-08"],     // Giallo v. United States (affirmed with a Per Curiam one-liner on January 11, 1954; see 346 U.S. 929)
+      "1953-X01": ["docket:347","dateArgument:1954-01-08","usCite:346 U.S. 929"],                                   // Giallo v. United States (affirmed with a Per Curiam one-liner on January 11, 1954; see 346 U.S. 929)
       "1953-035": ["dateArgument:1953-01-08,1953-01-09,1953-04-27"],
       "1953-069": ["dateArgument:1952-12-09,1952-12-10,1952-12-11", "dateRearg:1953-12-07,1953-12-08,1953-12-09"],  // Brown I
       "1953-070": ["dateArgument:1952-12-09", "dateRearg:1953-12-08,1953-12-09"],                                   // Brown I (Bolling v. Sharpe, No. 8))
       "1954-085": ["dateArgument:1955-04-11,1955-04-12,1955-04-13,1955-04-14"],                                     // Brown II
-      "1955-X01": ["docket:9 Orig.","dateArgument:1955-10-10"], // Texas v. New Mexico (dismissed without an opinion)
-      "1955-003": ["dateArgument:1955-10-10"],                  // (the Journal and Oyez and NARA agree on October 10, 1955; looks like an error in U.S. Reports)
-      "1956-056": "dateArgument:1957-03-34,1957-03-05",
-      "1956-113": "dateArgument:1956-10-08,1956-10-09",
-      "1957-005": ["dateRearg:"],                               // (SCDB erroneously picked up the date the case was \"restored to the docket for reargument\"; that's just a docketing event, not an argument)
-      "1957-010": "dateArgument:1956-10-09,1956-10-10",
-      "1957-151": "dateArgument:1958-04-09,1958-04-10",
-      "1958-079": "dateArgument:1959-03-26,1959-03-30",
-      "1958-125": "dateArgument:1959-04-29,1959-04-30",
-      "1959-013": "dateArgument:1959-10-20",
-      "1960-031": "docket:128",
-      "1961-077": "dateArgument:1961-12-07,1961-12-08,1961-12-11,1961-12-12",
+      "1955-X01": ["docket:9 Orig.","dateArgument:1955-10-10","usCite:352 U.S. 991"],                               // Texas v. New Mexico (dismissed without an opinion)
+      "1955-003": ["dateArgument:1955-10-10"],                                                                      // (the Journal and Oyez and NARA agree on October 10, 1955; looks like an error in U.S. Reports)
+      "1956-056": ["dateArgument:1957-03-34,1957-03-05"],
+      "1956-113": ["dateArgument:1956-10-08,1956-10-09"],
+      "1957-005": ["dateRearg:"],                                                                                   // (SCDB erroneously picked up the date the case was \"restored to the docket for reargument\"; that's just a docketing event, not an argument)
+      "1957-010": ["dateArgument:1956-10-09,1956-10-10"],
+      "1957-151": ["dateArgument:1958-04-09,1958-04-10"],
+      "1958-079": ["dateArgument:1959-03-26,1959-03-30"],
+      "1958-125": ["dateArgument:1959-04-29,1959-04-30"],
+      "1959-013": ["dateArgument:1959-10-20"],
+      "1960-031": ["docket:128"],
+      "1961-077": ["dateArgument:1961-12-07,1961-12-08,1961-12-11,1961-12-12"],
       "1962-066": ["dateArgument:1961-12-05", "dateRearg:1962-10-10,1962-10-11"],
       "1962-127": ["dateArgument:1962-01-08,1962-01-09,1962-01-10,1962-01-11", "dateRearg:1962-11-13,1962-11-14"],
       "1962-057": ["dateArgument:1962-02-19", "dateRearg:1962-10-08,1962-10-09"],
@@ -314,31 +314,34 @@
       "1962-033": ["dateArgument:1962-03-29,1962-04-02", "dateRearg:1962-10-08"],
       "1962-059": ["dateArgument:1962-04-17", "dateRearg:1963-01-16"],
       "1962-144": ["dateArgument:1962-04-18,1962-04-19", "dateRearg:1962-12-06"],
-      "1964-X01": ["docket:17 Orig.","dateArgument:1965-01-25"],// Nebraska v. Iowa (SCDB does have 1971-096, which only refers to a 1971 term argument and decision)
-      "1965-X01": ["docket:51","dateArgument:1965-10-21"],      // Hicks v. D.C. (dismissed with a concurring and dissenting opinion)
-      "1965-089": "dateArgument:1963-12-10,1965-11-16",
-      "1965-122": "dateArgument:1966-02-28,1966-03-01,1966-03-02",
-      "1966-094": "dateArgument:1966-12-06",
-      "1966-112": "dateArgument:1967-04-13",
-      "1967-144": "dateArgument:1968-04-29,1968-04-30",
-      "1967-142": "docket:611",                                 // SCDB docket numbers in 1967-142 and 1967-138 were swapped
-      "1967-138": "docket:796",
-      "1967-066": "dateArgument:1968-05-02",
-      "1968-065": "dateArgument:1968-10-18,1969-01-21",         // not a traditional reargument?
-      "1968-X01": ["docket:74","dateArgument:1968-11-20"],      // Stiles v. United States was DIG'ed on 1968-12-09 (No. 74, 393 U.S. 219), as was Palmieri v. Florida (No. 131, 393 U.S. 218), but SCDB only records the latter (1968-020)
-      "1968-039": "dateArgument:1968-12-09",
+      "1964-X01": ["docket:17 Orig.","dateArgument:1965-01-25"],                                                    // Nebraska v. Iowa (SCDB does have 1971-096, which only refers to a 1971 term argument and decision)
+      "1965-X01": ["docket:51","dateArgument:1965-10-21","usCite:383 U.S. 252"],                                    // Hicks v. D.C. (dismissed with a concurring and dissenting opinion)
+      "1965-089": ["dateArgument:1963-12-10,1965-11-16"],
+      "1965-122": ["dateArgument:1966-02-28,1966-03-01,1966-03-02"],
+      "1966-094": ["dateArgument:1966-12-06"],
+      "1966-112": ["dateArgument:1967-04-13"],
+      "1967-144": ["dateArgument:1968-04-29,1968-04-30"],
+      "1967-142": ["docket:611"],                                                                                   // SCDB docket numbers in 1967-142 and 1967-138 were swapped
+      "1967-138": ["docket:796"],
+      "1967-066": ["dateArgument:1968-05-02"],
+      "1968-065": ["dateArgument:1968-10-18,1969-01-21"],                                                           // Hadnott v. Amos (No. 647) was argued only with respect to a TRO in October; it was then argued on the merits in January, so the latter is not a reargument
+      "1968-X01": ["docket:74","dateArgument:1968-11-20","usCite:393 U.S. 219"],                                    // Stiles v. United States was DIG'ed on 1968-12-09 (No. 74, 393 U.S. 219), as was Palmieri v. Florida (No. 131, 393 U.S. 218), but SCDB only records the latter (1968-020)
+      "1968-039": ["dateArgument:1968-12-09"],
       "1968-137": ["dateArgument:1968-12-12", "dateRearg:1969-03-24"],
-      "1968-127": "dateArgument:1969-04-21",
-      "1968-119": "dateArgument:1969-04-21",
-      "1969-105": "dateArgument:1970-03-05",
-      "1970-037": "dateRearg:1970-04-29",
-      "1970-036": "dateRearg:1970-04-29",
+      "1968-127": ["dateArgument:1969-04-21"],
+      "1968-119": ["dateArgument:1969-04-21"],
+      "1969-105": ["dateArgument:1970-03-05"],
+      "1970-035": ["dateRearg:1970-04-29,1970-11-16"],
+      "1970-036": ["dateRearg:1970-04-29,1970-11-16"],
+      "1970-037": ["dateRearg:1970-04-29,1970-11-16"],
+      "1971-X01": ["docket:70-8","dateDecision:1971-10-12","usCite:404 U.S. 802"],
     }
   },
   "schs": {
     "women_advocates_txt": "/sources/schs/women-advocates.txt"
   },
   "scotus": {
+    "allcases": "/sources/scotus/journals/allcases.json",
     "arguments": "/sources/scotus/journals/arguments.json",
     "advocates": "/sources/scotus/journals/advocates.json",
     "citationsHTML": "/sources/scotus/citations/*.*",
@@ -356,6 +359,7 @@
         "Solicitor General Marshall":           "Thurgood Marshall",
         "Attorney General Katzenbach":          "Nicholas deB. Katzenbach",
         "Solicitor General Griswold":           "Erwin N. Griswold",
+        "Solicitor General Erwin N. Griswold":  "Erwin N. Griswold",
         "Attorney General Ramsey Clark":        "William Ramsey Clark"
       },
       "redocketed": {
@@ -478,6 +482,14 @@
         "1969:6":   "1970:4***",
         "1969:565": "1970:41",
         "1969:1149": "1970:83*",
+        "1970:46 Orig.": "1970:43 Orig.",
+        "1970:4":   "1970:4***",
+        "1970:469": "1970:464",
+        "1970:5161": "1971:69-5035*",
+        "1970:5338": "1971:69-5046",
+        "1970:569": "1970:89",
+        "1970:226": "1970:154",
+        "1970:577": "1971:70-8*",           // United States v. Sandra Denise Johnson (No. 577) was redocketed as No. 8 in the 1971 term, but before it could be reargued, it was dismissed under Rule 60 (2); see 404 U.S. 802 (1971)
       }
     },
     "transcripts": "/sources/scotus/transcripts/arguments/**/*.txt",

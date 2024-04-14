@@ -5152,9 +5152,6 @@ function fixSCDBErrors(decisions)
         let i = searchSortedObjects(decisions, {caseId});
         if (i >= 0) {
             let fixes = sources.scdb.errors[caseId];
-            if (!Array.isArray(fixes)) {
-                fixes = [fixes];
-            }
             for (let fix of fixes) {
                 let f = fix.split(":");
                 if (f[0] == "comment") continue;
@@ -5199,8 +5196,8 @@ function matchJournals(done)
     let redocketedCases = sources.scotus.journals.redocketed;
 
     /**
-     * These two tables are built up from Journal data as addCaseAdvocate() is called for each role found
-     * in each case found on each day.  Since addCaseAdvocate() checks each case (and the advocate) against
+     * These two tables are built up from Journal data as addCase() is called for each role found
+     * in each case found on each day.  Since addCase() checks each case (and the advocate) against
      * Oyez's data, that helps us find omissions or errors in Oyez -- or Journal data that we may have
      * "over-included".
      *
@@ -5208,6 +5205,7 @@ function matchJournals(done)
      * a corresponding entry in the casesArgued.  That helps us find anything we failed to pick up from the
      * Journal data; ie, any data was "under-included".
      */
+    let casesAll = readJSON(sources.scotus.allcases, []);
     let casesArgued = readJSON(sources.scotus.arguments, []);
     let advocatesArgued = readJSON(sources.scotus.advocates, []);
 
@@ -5373,7 +5371,7 @@ function matchJournals(done)
     };
 
     /**
-     * addCaseAdvocate(dateMarker, caseMarker, roleMarker)
+     * addCase(dateMarker, caseMarker, roleMarker)
      *
      * This function collects data on cases argued (in casesArgued) as shown below.  Most of the
      * object properties are arrays, because any given case can be: 1) argued over multiple days,
@@ -5398,9 +5396,9 @@ function matchJournals(done)
      *
      * @param {DateMarker} dateMarker
      * @param {CaseMarker} caseMarker
-     * @param {RoleMarker} roleMarker
+     * @param {RoleMarker} [roleMarker]
      */
-    let addCaseAdvocate = function(dateMarker, caseMarker, roleMarker) {
+    let addCase = function(dateMarker, caseMarker, roleMarker) {
         let date = dateMarker.date;
         let term = dateMarker.year;
         let month = dateMarker.month;
@@ -5424,23 +5422,35 @@ function matchJournals(done)
         dockets = dockets.concat(parseDockets(caseMarker.line, caseMarker.caseNumber));
         titles.push(caseMarker.caseName);
 
+        let prettyDate = formattedDate(date);
         let docketList = dockets.join(',');
-        let caseArgued = casesArgued.find((caseArgued) => caseArgued.term == termID && caseArgued.dockets.join(',') == docketList);
-
         let event = caseMarker.caseEvent;
         if (event.slice(-1) != '.') event += '.';
+        let dateEvent = prettyDate + ": " + event;
 
+        let caseAll = casesAll.find((caseAll) => caseAll.term == termID && caseAll.dockets.join(',') == docketList);
+        if (!caseAll) {
+            caseAll = {page, line, term: termID, dockets, titles, events: [dateEvent]};
+            casesAll.push(caseAll);
+        } else {
+            if (caseAll.events.indexOf(dateEvent) < 0) {
+                caseAll.events.push(dateEvent);
+            }
+        }
+
+        if (!roleMarker) return;
+        let caseArgued = casesArgued.find((caseArgued) => caseArgued.term == termID && caseArgued.dockets.join(',') == docketList);
         if (!caseArgued) {
-            caseArgued = {page, line, term: termID, scdb: "", dates: [], dockets, titles, advocates: {}, events: [event]};
+            caseArgued = {page, line, term: termID, scdb: "", dates: [prettyDate], dockets, titles, advocates: {}, events: [event]};
             casesArgued.push(caseArgued);
         } else {
             if (caseArgued.events.indexOf(event) < 0) {
                 caseArgued.events.push(event);
             }
+            if (caseArgued.dates.indexOf(prettyDate) < 0) {
+                caseArgued.dates.push(prettyDate);
+            }
         }
-
-        let prettyDate = formattedDate(date);
-        if (caseArgued.dates.indexOf(prettyDate) < 0) caseArgued.dates.push(prettyDate);
 
         let idAdvocate = roleMarker.id;
         if (!caseArgued.advocates[idAdvocate]) {
@@ -5538,10 +5548,37 @@ function matchJournals(done)
                 caseArgued.scdb = caseId;
             } else {
                 if (!caseArgued.scdb) {
-                    let s = scdbPossibilities.length? "; check SCDB case(s): " + scdbPossibilities.join(' and ') : "";
-                    warning("case \"%s\" (%s) not found in SCDB term %d (%s)%s\n", docketSearch.join(','), caseMarker.caseName, termSearch, date, s);
+                    /**
+                     * We now use our SCDB "errors" table as a look-up table, and if the case we're looking at
+                     * appears to be one that we've already noted is missing from SCDB, then we'll fill in our SCDB
+                     * ID field with a U.S. Reports citation instead (if one is available).
+                     */
+                    for (let id in sources.scdb.errors) {
+                        if (id.indexOf('X') < 0) continue;
+                        let dockets = [], usCite = "";
+                        let fixes = sources.scdb.errors[id];
+                        for (let fix of fixes) {
+                            let f = fix.split(":");
+                            if (f[0] == "docket") {
+                                dockets = f[1].split(',');
+                                continue;
+                            }
+                            if (f[0] == "usCite") {
+                                usCite = f[1];
+                                continue;
+                            }
+                        }
+                        if (dockets.indexOf(docketSearch[0]) >= 0 && usCite) {
+                            caseArgued.scdb = usCite;
+                            break;
+                        }
+                    }
+                    if (!caseArgued.scdb) {
+                        let s = scdbPossibilities.length? "; check SCDB case(s): " + scdbPossibilities.join(' and ') : "";
+                        warning("case \"%s\" (%s) not found in SCDB term %d (%s)%s\n", docketSearch.join(','), caseMarker.caseName, termSearch, date, s);
+                    }
                 }
-                caseArgued.scdb = "unknown";
+                if (!caseArgued.scdb) caseArgued.scdb = "unknown";
             }
         }
         argument.scdb = caseArgued.scdb;
@@ -5756,8 +5793,7 @@ function matchJournals(done)
         let markers = [];
         let text = dateMarker.text;
         let lineIndexes = getLineIndexes(text);
-        let pattern = "\\n *Nos?[.,]\\s+([0-9-]+)(,\\s*Original|,\\s*Misc|,\\s*[0-9][0-9, and-]*|)(\\.?,?[A-Za-z\\s]+Term,?\\s+[0-9]+| et al|)\\.\\s*";
-     // let pattern = "\\n *Nos?[.,]\\s+([0-9-]+)(,\\s*Original|,\\s*Misc\\.| et al|)(,?[A-Za-z\\s]+Term,?\\s+[0-9]+|)[.,]*\\s*";
+        let pattern = "\\n *Nos?[.,]\\s+([0-9-]+)(,\\s*Original|,\\s*Orig|,\\s*Misc|,\\s*[0-9][0-9, and-]*|)(\\.?,?[A-Za-z\\s]+Term,?\\s+[0-9]+| et al|)\\.\\s*";
         let re = new RegExp(pattern, "g"), match;
         let prevIndex = 0;
         while ((match = re.exec(text))) {
@@ -5951,23 +5987,25 @@ function matchJournals(done)
             let caseMarkers = getCaseMarkers(dateMarker);
             for (let j = 0; j < caseMarkers.length; j++) {
                 let caseMarker = caseMarkers[j];
+                if (!caseMarker.caseName) continue;
                 caseMarker.page = getPageFromLine(caseMarker.line, pageLines)[0];
                 printf("\npage %d, line %d: \"%s, %s %d, %d\" (%s)\n", dateMarker.page, dateMarker.line, dateMarker.weekday, dateMarker.monthName, dateMarker.day, dateMarker.year, dateMarker.date);
                 printf("    line: %d (p%d)\n    case: \"%s\"\n   title: \"%s\"\n%s: \"%s\"\n", caseMarker.line, caseMarker.page, caseMarker.caseNumber, caseMarker.caseName, caseMarker.argument? "argument" : "   event", caseMarker.caseEvent);
                 if (!caseMarker.caseEvent || caseMarker.caseEvent == "." || caseMarker.caseEvent == ";" || caseMarker.caseEvent == "and") {
                     consolidations.push(caseMarker);
                 }
-                else if (!caseMarker.argument) {
-                    consolidations = [];
-                } else {
+                else {
                     if (consolidations.length) {
                         caseMarker.consolidations = consolidations.slice();
                         consolidations = [];
                     }
-                    caseMarker.roleMarkers = getRoleMarkers(caseMarker);
-                    for (let roleMarker of caseMarker.roleMarkers) {
-                        printf("    [%s] name: \"%s\" (%s) [%s]%s\n", roleMarker.preceding, roleMarker.name, roleMarker.id, roleMarker.role, roleMarker.female? " [female]" : "");
-                        addCaseAdvocate(dateMarker, caseMarker, roleMarker);
+                    addCase(dateMarker, caseMarker);
+                    if (caseMarker.argument) {
+                        caseMarker.roleMarkers = getRoleMarkers(caseMarker);
+                        for (let roleMarker of caseMarker.roleMarkers) {
+                            printf("    [%s] name: \"%s\" (%s) [%s]%s\n", roleMarker.preceding, roleMarker.name, roleMarker.id, roleMarker.role, roleMarker.female? " [female]" : "");
+                            addCase(dateMarker, caseMarker, roleMarker);
+                        }
                     }
                 }
             }
@@ -6146,6 +6184,7 @@ function matchJournals(done)
             }
         }
     }
+    writeFile(sources.scotus.allcases, casesAll);
     writeFile(sources.scotus.arguments, casesArgued);
     writeFile(sources.scotus.advocates, advocatesArgued);
     done();
