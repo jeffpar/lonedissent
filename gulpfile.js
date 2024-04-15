@@ -6133,7 +6133,7 @@ function matchJournals(done)
         for (let dailyAudio of dataAudio) {
             let date = dailyAudio.date;
             let termAudio = dailyAudio.term.toString();
-            if (terms.indexOf(termAudio) < 0) continue;
+            if (terms.indexOf(termAudio) < 0 || !dailyAudio.destinations) continue;
             /**
              * We are now going to look through casesArgued for cases with a matching date, and for each case,
              * loop through the docket numbers, and see if any audio files match.
