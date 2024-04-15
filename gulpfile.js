@@ -5233,7 +5233,7 @@ function matchJournals(done)
         return [id, name];
     };
 
-    let parseDockets = function(line, caseNumber) {
+    let parseDockets = function(term, line, caseNumber) {
         let match = caseNumber.match(/Nos?\.([0-9 ,and-]+)\s*(Misc|Orig|)/i);
         if (!match) {
             warning("unrecognized case number \"%s\"\n", caseNumber);
@@ -5243,8 +5243,8 @@ function matchJournals(done)
         let numberList = match[1].trim();
         let numbers = numberList.split(/[, ]+/);
         for (let number of numbers) {
-            if (!number) continue;
-            if (number == "---" || number.indexOf('-') < 0 && number != "and") {
+            if (!number || number == "and") continue;
+            if (number == "---" || number.indexOf('-') < 0 || term >= 1971) {
                 dockets.push(number);
             } else {
                 let range = number.split('-');
@@ -5415,11 +5415,11 @@ function matchJournals(done)
         let dockets = [], titles = [];
         if (caseMarker.consolidations) {
             for (let marker of caseMarker.consolidations) {
-                dockets = dockets.concat(parseDockets(marker.line, marker.caseNumber));
+                dockets = dockets.concat(parseDockets(term, marker.line, marker.caseNumber));
                 titles.push(marker.caseName);
             }
         }
-        dockets = dockets.concat(parseDockets(caseMarker.line, caseMarker.caseNumber));
+        dockets = dockets.concat(parseDockets(term, caseMarker.line, caseMarker.caseNumber));
         titles.push(caseMarker.caseName);
 
         let prettyDate = formattedDate(date);
@@ -5849,7 +5849,7 @@ function matchJournals(done)
             marker.caseName = text.substring(0, i).trim().replace(/"/g, '\\"');
             marker.caseEvent = text.substring(i+1, j).trim().replace(/"/g, '\\"');
 
-            match = marker.caseEvent.match(/\.\s+(Adjourned|ORDER|Ordered:|Per\s+Curiam:?|Memorandum|Submitted)\s+/);
+            match = marker.caseEvent.match(/\.\s+(Adjourned|ORDER|Ordered:|Per\s+Curiam:?|Memorandum|Submitted|The Chief Justice said:)\s+/);
             if (match) {
                 marker.caseEvent = marker.caseEvent.substring(0, match.index+1);
             }
@@ -6148,9 +6148,13 @@ function matchJournals(done)
                 matchingCases++;
                 for (let d = 0; d < caseArgued.dockets.length; d++) {
                     let docket = caseArgued.dockets[d];
-                    let docketMatch = docket.match(/^([0-9]+),?\s*([A-Za-z]*)\.?/);    // separate any "Misc." or "Orig." suffix
+                    let docketMatch = docket.match(/^([0-9-]+),?\s*([A-Za-z]*)\.?/);    // separate any "Misc." or "Orig." suffix
                     if (docketMatch) {
-                        docket = "/" + docketMatch[1] + (docketMatch[2]? '-' + docketMatch[2].toUpperCase() : "") + "/";
+                        if (docketMatch[1].indexOf('-') > 0) {
+                            docket = "-" + docketMatch[1] + (docketMatch[2]? '-' + docketMatch[2].toUpperCase() : "-");
+                        } else {
+                            docket = "/" + docketMatch[1] + (docketMatch[2]? '-' + docketMatch[2].toUpperCase() : "") + "/";
+                        }
                         let matchingDockets = 0;
                         for (let i = 0; i < dailyAudio.destinations.length; i++) {
                             let destination = dailyAudio.destinations[i];
