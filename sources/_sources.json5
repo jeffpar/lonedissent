@@ -374,7 +374,8 @@
         "Attorney General Katzenbach":          "Nicholas deB. Katzenbach",
         "Solicitor General Griswold":           "Erwin N. Griswold",
         "Solicitor General Erwin N. Griswold":  "Erwin N. Griswold",
-        "Attorney General Ramsey Clark":        "William Ramsey Clark"
+        "Attorney General Ramsey Clark":        "William Ramsey Clark",
+        "Solicitor General Robert H. Bork":     "Robert H. Bork",
       },
       "redocketed": {
         "1952:8":   "1953:1",               // No. 8 (BROWN v. BOARD OF EDUCATION) was redocketed as No. 1 in the 1953 term
@@ -512,6 +513,10 @@
         "1971:70-2": "1972:70-2*",
         "1971:70-69": "1972:70-69*",
         "1972:71-1398": "1972:71-6314",
+        "1973:72-746": "1973:72-481",
+        "1973:72-1129": "1973:72-777",
+        "1973:72-5830": "1973:72-5839",     // Oyez has a typo in the docket number
+        "1973:73-477": "1974:73-477*",      // redocketed and reargued in the 1974 term
       }
     },
     "transcripts": "/sources/scotus/transcripts/arguments/**/*.txt",
