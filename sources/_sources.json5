@@ -349,6 +349,7 @@
       "1970-036": ["dateRearg:1970-04-29,1970-11-16"],
       "1970-037": ["dateRearg:1970-04-29,1970-11-16"],
       "1971-X01": ["docket:70-8","dateDecision:1971-10-12","usCite:404 U.S. 802"],
+      "1974-X01": ["docket:73-7031","dateArgument:1975-04-21","dateDecision:1976-07-06","usCite:428 U.S. 904"],
     }
   },
   "schs": {
@@ -376,6 +377,7 @@
         "Solicitor General Erwin N. Griswold":  "Erwin N. Griswold",
         "Attorney General Ramsey Clark":        "William Ramsey Clark",
         "Solicitor General Robert H. Bork":     "Robert H. Bork",
+        "Solicitor General Bork":               "Robert H. Bork",
       },
       "redocketed": {
         "1952:8":   "1953:1",               // No. 8 (BROWN v. BOARD OF EDUCATION) was redocketed as No. 1 in the 1953 term
@@ -517,6 +519,14 @@
         "1973:72-1129": "1973:72-777",
         "1973:72-5830": "1973:72-5839",     // Oyez has a typo in the docket number
         "1973:73-477": "1974:73-477*",      // redocketed and reargued in the 1974 term
+        "1974:73-1500": "1974:73-1148",
+        "1974:73-1596": "1975:73-1596*",
+        "1974:73-1046": "1975:73-1046*",
+        "1974:73-1808": "1975:73-1808*",
+        "1974:74-175": "1975:74-175*",
+        "1974:73-7031": "1975:73-7031",     // Oyez refiled it in 1975, but although it was scheduled for reargument, it was decided without reargument once the Death Penalty cases were decided
+        "1974:74-878": "1975:74-878*",
+        "1974:73-1869": "1975:73-1869*",
       }
     },
     "transcripts": "/sources/scotus/transcripts/arguments/**/*.txt",
