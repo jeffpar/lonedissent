@@ -119,7 +119,6 @@ let isValidDate = datelib.isValidDate;
 let adjustDays = datelib.adjustDays;
 import proclib from "./lib/proclib.js";
 import stdio from "./lib/stdio.js";
-import { match } from "assert";
 let printf = stdio.printf;
 let sprintf = stdio.sprintf;
 
@@ -5883,7 +5882,7 @@ function matchJournals(done)
         let getNames = function(text) {
             let match;
             let markers = [];
-            const regex = /([a-z,.]+)(\s+)(Mr\.|Mrs\.|Miss|)(\s+)(?:[A-Z][A-Za-zÀ-ÿ'-]*\.?\s+|von\s+|van\s+|de\s+)*([A-Z][A-Za-zÀ-ÿ'-]+),?\s*(Jr\.|Sr\.|IV|III|II|)/g;
+            const regex = /([a-z,.]+)(\s+)(Mr\.|Mrs\.|Miss|Ms\.|)(\s+)(?:[A-Z][A-Za-zÀ-ÿ'-]*\.?\s+|von\s+|van\s+|de\s+)*([A-Z][A-Za-zÀ-ÿ'-]+),?\s*(Jr\.|Sr\.|IV|III|II|)/g;
             while ((match = regex.exec(text)) !== null) {
                 let id, preceding = match[1];
                 let name = match[0].substring(match[1].length + match[2].length + match[3].length + match[4].length).trim();
@@ -5891,7 +5890,11 @@ function matchJournals(done)
                 let mapping = sources.scotus.journals.advocates[name];
                 if (mapping) name = mapping;
                 [id, name] = identifize(name);
-                let female = (match[3] == "Mrs." || match[3] == "Miss");
+                /**
+                 * NOTE: "Ms." didn't start showing up until the 1975 Journal;
+                 * see "No. 74-1318. Drew Municipal Separate School District... Argued by ... Ms. Rhonda Copelon for the respondents....")
+                 */
+                let female = (match[3] == "Mrs." || match[3] == "Miss" || match[3] == "Ms.");
                 let start = match.index;
                 let stop = match.index + match[0].length;
                 markers.push({id, name, female, start, stop, preceding});
