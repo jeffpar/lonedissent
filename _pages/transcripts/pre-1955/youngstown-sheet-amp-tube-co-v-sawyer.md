@@ -109,7 +109,7 @@ cases:
   <p>So that we have in these Congressional Acts, broad as the powers may be, direct limits as to time, direct limits as to operation, direct limits as to alteration of term s and conditions of employment.</p>
   <p>But that Act also is behind us.</p>
   <p>Then the Universal Military Training and Service Act of 1948.</p>
-  <p>1 trust I am not unduly wearying the patience of the Court by this resume, but the Universal Military Training and Service Act of 1948 is highly important because it provided, as did the earlier Act, for the placing of compulsory orders and the seizure or possession that followed on refusa1 or failure to perform those orders; but fair and good compensation was to be paid.</p>
+  <p>I trust I am not unduly wearying the patience of the Court by this resume, but the Universal Military Training and Service Act of 1948 is highly important because it provided, as did the earlier Act, for the placing of compulsory orders and the seizure or possession that followed on refusal or failure to perform those orders; but fair and good compensation was to be paid.</p>
   <p>And there was a special paragraph to steel manufacturers: They had to rat ion production and there was a provision for seizure should they refuse to comply.</p>
   <p>There is nothing in that Act that relates to labor disputes; it does not even incorporate the labor dispute clause of the Act of 1943.</p>
   <p>In the meantime, the Taft Hartley Act was put on the books and the President's authority, after seizure was established, was defined as being confined to the production of articles ordered by the Armed Forces.</p>
@@ -220,7 +220,7 @@ cases:
   <p>Then there is this: he shall take care that the laws be faithfully executed.</p>
   <p>That is his great administrative duty.</p>
   <p>It is an executive duty imposed on him and it is to take care of laws, and the only laws that he can take care that they be faithfully executed are the laws enacted by the Legislative branch of the Government, in whom all lawmaking power is vested.</p>
-  <p>I do not concede that under the power to take care that the laws be faithfully executed he may, by his own ipse dictum, proclaim a law, and then proceed to execute it in accordance with his 'own proclamation.</p>
+  <p>I do not concede that under the power to take care that the laws be faithfully executed he may, by his own ipse dictum, proclaim a law, and then proceed to execute it in accordance with his own proclamation.</p>
   <p>And then he shall commission all the officers of the United States purely a ministerial duty.</p>
   <p>And he has the veto power.</p>
   <p>When as Executive he believes he should exercise that power, he may do so and veto the will of the Legislative branch.</p>
@@ -239,21 +239,17 @@ cases:
   <p>Is it or is it not an immutable principle that, under the Fifth Amendment, private property, life, and liberty and while there is a descending importance there, life first, liberty next and property are all alike protected from seizure without due process of law?</p>
   <p>Now, you cannot, my friends, you cannot dispose of these immutable principles by saying anything like that.</p>
   <p>You cannot dispose of these principles merely by a seizure of this kind.</p>
-  <p>In the argument in the court below, counsel then speaking for the Government said, with what I think was commendable candor, what their conception of the Executive power is, and it was stated in this language in the Court below, as it appears at page 27 of the brief, and I read.</p>
-  <p><b>THE COURT</b>: So you contend the Executive has unlimited power in time of an emergency?</p>
-  <p><b>MR. BALDRIDGE</b>:   </p>
-  <p><b>THE COURT</b>: If the emergency is great, it is unlimited, is it?</p>
-  <p><b>MR. BALDRIDGE</b>: I suppose if you carry it to its logical conclusion, that is true.</p>
-  <p>But I do want to point out that there are two limitations on the Executive power.</p>
-  <p>One is the ballot box and the other is impeachment.</p>
-  <p><b>THE COURT</b>: Then, as I understand it, you claim that in time of emergency the Executive has this great power.</p>
-  <p><b>MR. BALDRIDGE</b>: That is correct.</p>
-  <p><b>THE COURT</b>: And that the Executive determines the emergencies and the courts cannot even review whether it is an emergency?</p>
-  <p><b>MR. BALDRIDGE</b>: That is correct.</p>
-  <p><b>THE COURT</b>: So, when the sovereign people adopted the Constitution, it enumerated the powers set up in the Constitution but limited the powers of the Congress and limited the powers of the Judiciary, but it did not limit the powers of the Executive.</p>
-  <p>Is that what you say?</p>
-  <p><b>MR. BALDRIDGE</b>: That is the way we read Article II of the Constitution.</p>
-  <p>It is our position that the President is accountable only to the country, and that the decisions of the President are conclusive.</p>
+  <p>In the argument in the court below, counsel then speaking for the Government said, with what I think was commendable candor, what their conception of the Executive power is, and it was stated in this language in the Court below, as it appears at page 27 of the brief, and I read:</p>
+  <p>The Court: So you contend the Executive has unlimited power in time of an emergency?</p>
+  <p>Mr. Baldridge: He has the power to take such action as is necessary to meet the emergency.</p>
+  <p>The Court: If the emergency is great, it is unlimited, is it?</p>
+  <p>Mr. Baldridge: I suppose if you carry it to its logical conclusion, that is true. But I do want to point out that there are two limitations on the Executive power. One is the ballot box and the other is impeachment.</p>
+  <p>The Court: Then, as I understand it, you claim that in time of emergency the Executive has this great power.</p>
+  <p>Mr. Baldridge: That is correct.</p>
+  <p>The Court: And that the Executive determines the emergencies and the courts cannot even review whether it is an emergency?</p>
+  <p>Mr. Baldridge: That is correct.</p>
+  <p>The Court: So, when the sovereign people adopted the Constitution, it enumerated the powers set up in the Constitution but limited the powers of the Congress and limited the powers of the Judiciary, but it did not limit the powers of the Executive. Is that what you say?</p>
+  <p>Mr. Baldridge: That is the way we read Article II of the Constitution. It is our position that the President is accountable only to the country, and that the decisions of the President are conclusive.</p>
   <p>I am aware of the fact that that statement has been disclaimed and, in certain quarters, it has been discounted.</p>
   <p>I am aware of the fact, and I read it in my friend's brief, of the existence of a rather studied effort to retreat from so bold an assertion of unrestricted Executive power.</p>
   <p>But is the phraseology important?</p>
@@ -262,7 +258,7 @@ cases:
   <p>Now, what is the difference between conditions like that and conditions phrased in the language employed by counsel for the Defendant in the Court of Appeals?</p>
   <p>It is a mere gloss upon words and comes out the same, and is the same thing.</p>
   <p>It is a reassertion of the kingly prerogatives which have been the foundation of every struggle against sovereignty 'that has existed in Anglo Saxon history.</p>
-  <p>Think of the struggle during the reign of King George: Runnymeade; Bishop: the Prize cases: the Bill of Rights; the indictment of George III; and the Declaration of Independence.</p>
+  <p>Think of the struggle during the reign of King George: Runnymeade; Bishop; the Prize cases; the Bill of Rights; the indictment of George III; and the Declaration of Independence.</p>
   <p>What are they?</p>
   <p>What are they all but the demonstrable, uncontrollable resistance of the so called kingly prerogative?</p>
   <p>Now, Your Honor mentioned the Midwest Oil cases.</p>
@@ -381,7 +377,7 @@ cases:
   <p>The President had, as our brief shows, alternative method s to pursue in an effort to compose wage disputes, and that decision was made, and it was made to use the Wage Stabilization Board.</p>
   <p>Again, I emphasize the fact that the companies affected acquiesced in that decision and became a part of the effort to compose or have their differences with labor composed under the provisions that the President used for that particular dispute.</p>
   <p><b>MR. JUSTICE BURTON</b>: Did the President not, by that act ion, cut off the availability of the Taft Hartley law?</p>
-  <p><b>MR. PERLMAN</b>: 1 do not say that he cut off the availability of the Taft Hartley law, but I do say that he had alternatives and he selected one of them, and I do say that what was done was acquiesced in by all concerned, and that it was by the agreement of all concerned that that alternative should be used, and that is why it was done.</p>
+  <p><b>MR. PERLMAN</b>: I do not say that he cut off the availability of the Taft Hartley law, but I do say that he had alternatives and he selected one of them, and I do say that what was done was acquiesced in by all concerned, and that it was by the agreement of all concerned that that alternative should be used, and that is why it was done.</p>
   <p>That is why we point out in the brief that Congress enacted a provision of Title V of the Defense Act, and it was acquiesced in by the members of the Congress and it was thoroughly understood by the members of the Committees of the Congress that reported the bill out of Committee, that the Act would provide for an alternative method, a method in addition to the one previously set out a few years before.</p>
   <p><b>MR. JUSTICE FRANKFURTER</b>: Do I understood it to be that, that having been done in December, the President could not pursue both sides or both roads, as you call it, but must choose one or the other, and that the one did not displace the other?</p>
   <p>What is your point as to that?</p>
@@ -464,7 +460,7 @@ cases:
   <p>But that is a very different theme.</p>
   <p><b>MR. PERLMAN</b>: That would be an illustration.</p>
   <p>MR.</p>
-  <p>JUSTICE FRANK FURTER: Well, all right.</p>
+  <p>JUSTICE FRANKFURTER: Well, all right.</p>
   <p><b>MR. PERLMAN</b>: Well, you suggested it in connection with the Midwest Oil Company cases, and in connection with that case and I discuss it with a great deal of trepidation in the presence of the former Solicitor General, and .</p>
   <p><b>MR. CHIEF JUSTICE VINSON</b>:   </p>
   <p><b>MR. PERLMAN</b>: I am very much flattered by that suggestion, Your Honor.</p>
@@ -1536,12 +1532,10 @@ cases:
   <p>This case has been postulated to this Court on the assumption of a labor dispute between our labor union and the industry and the public, and I say that the factors involved in this labor dispute have been canvassed, and this is not a dispute between labor and the public, but this is a dispute between industry and the union.</p>
   <p>This is not a dispute between the industry and the Government as to the price regulations of the Government.</p>
   <p>I have stated what this is about.</p>
-  <p>I would like, in connection with the steel dispute giving rise to the emergency of April 8th , to say that it was a price dispute between the Government and the industry, and I would like to make reference to a port ion of the proceedings had before the Committee on April 15th or 16th , 1952, and in connection with that phase, which is covered in Point II in our brief, at page 14, I would like to quote this from the testimony before the Ban king and Currency Committee of the House of Representatives, which was referred to in an affidavit filed in this case.</p>
-  <p><b>MR. ARNALL</b>: So, as far as I know, this is the first crowd that came in and said, 'We want a price increase.</p>
-  <p>We demand a price increase.</p>
+  <p>I would like, in connection with the steel dispute giving rise to the emergency of April 8th , to say that it was a price dispute between the Government and the industry, and I would like to make reference to a port ion of the proceedings had before the Committee on April 15th or 16th , 1952, and in connection with that phase, which is covered in Point II in our brief, at page 14, I would like to quote this from the testimony before the Banking and Currency Committee of the House of Representatives, which was referred to in an affidavit filed in this case. The following colloquy took place between Senator Pastore of Rhode Island and the Director of Price Stabilization:</p>
+  <p>Mr. Arnall: ... So, as far as I know, this is the first crowd that came in and said, 'We want a price increase. We demand a price increase.'</p>
   <p>Senator Pastore: As a matter of procedure, do you mean to tell me that collective bargaining negotiations of the CIO hinged upon what your agency would have done in allowing them to raise the prices first?</p>
-  <p><b>MR. ARNALL</b>: Senator Pastore, I regret to say it, I am embarrassed to say this, but the truth of it is that the entire wage negotiations have been based upon what we do in price increases for steel.</p>
-  <p>The reason those negotiations have broken down is because we will not agree to a commensurate price increase to offset the labor cost.</p>
+  <p>Mr. Arnall: Senator Pastore, I regret to say it, I am embarrassed to say this, but the truth of it is that the entire wage negotiations have been based upon what we do in price increases for steel. The reason those negotiations have broken down is because we will not agree to a commensurate price increase to offset the labor cost.</p>
   <p>Now, I put this posture to the Court, and this is the posture of the case as I see it, and that is this: What can the Taft Hartley Act do if we follow the Taft Hartley procedures again as we already have done?</p>
   <p>What purpose would the Taft Hartley Act achieve, or would it have achieved on April 8th?</p>
   <p>We were to be enjoined, and industry and labor could no longer bargain together with the Government taking over jurisdiction o f the prices, the policies and all that had to do with the Government.</p>

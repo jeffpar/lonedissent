@@ -5838,7 +5838,7 @@ function matchJournals(done)
                 if (next == "The" || next == "Per" || next == "Upon" || next == "It" || next == "On") break;
                 if (next == "One" || next == "Two" || next == "Three" || next == "Four" || next == "Eight" || next == "Total") break;
                 if (next == "Appeal" || next == "Appeals" || next == "Application" || next == "Having") break;
-                if (next == "Application" || next == "Applications" || next == "Memorandum") break;
+                if (next == "Application" || next == "Applications" || next == "Mandate" || next == "Memorandum") break;
                 if (next == "Leave" || next == "Motion" || next == "Motions" || next == "Petition" || next == "Petitions") break;
                 if (next == "Argued" || next == "Argument" || next == "Arguments" || next == "Reargued" || next == "Reargument") break;
             }
@@ -5856,8 +5856,8 @@ function matchJournals(done)
             if (match) {
                 marker.caseEvent = marker.caseEvent.substring(0, match.index + match[0].length);
             }
-            let matchArgument = marker.caseEvent.match(/(^|\.\s+|\.\\?"\s+)(Argued|Argument|Reargued|Reargument)/);
-            if (matchArgument) {
+            let matchArgument = marker.caseEvent.match(/(^|\.\s+|\.\\?"\s+)(Argued|Argument|Reargued|Reargument)(\s+is|)/);
+            if (matchArgument && !matchArgument[3].endsWith("is")) {
                 marker.caseEvent = marker.caseEvent.substring(matchArgument.index + matchArgument[1].length);
                 marker.argument = true;
             }
@@ -5891,8 +5891,8 @@ function matchJournals(done)
                 if (mapping) name = mapping;
                 [id, name] = identifize(name);
                 /**
-                 * NOTE: "Ms." didn't start showing up until the 1975 Journal;
-                 * see "No. 74-1318. Drew Municipal Separate School District... Argued by ... Ms. Rhonda Copelon for the respondents....")
+                 * NOTE: "Ms." didn't start showing up until the 1974 Journal;
+                 * see "No. 73-1923. James O. Eastland et al., petitioners, v. United States Servicemen's Fund et al... Argued by ... Ms. Nancy Stearns for the respondents."
                  */
                 let female = (match[3] == "Mrs." || match[3] == "Miss" || match[3] == "Ms.");
                 let start = match.index;
