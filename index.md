@@ -2,9 +2,7 @@
 layout: page
 ---
 
-## New Website
-
-### For The Sake of Argument
+## For The Sake of Argument
 
 A new website, [Argument Aloud](https://argumentaloud.org), is now available.  It takes over where this website left off, providing not only information about [Lone Dissents](https://argumentaloud.org/courts/ussc/?collection=loners) but also more curated lists, such [Top Advocates](https://argumentaloud.org/courts/ussc/?collection=top_advocates) at the U.S. Supreme Court, including [Top Women Advocates](https://argumentaloud.org/courts/ussc/?collection=women_advocates).
 
